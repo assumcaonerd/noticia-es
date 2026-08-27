@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Publicar notícia | Notícia ES</title>
+  <meta name="description" content="Painel local para gerar o objeto JavaScript de uma nova matéria do Notícia ES.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%2317324d%22/><text x=%2250%22 y=%2266%22 font-size=%2254%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22Arial%22 font-weight=%22700%22>N</text></svg>">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Notícia <span>ES</span></a>
+      <div style="margin-left:auto"><a class="btn-secundario" href="index.html">Ver site</a></div>
+    </div>
+  </header>
+
+  <main class="painel">
+    <div class="container">
+      <section class="painel-box">
+        <h1>Publicar nova notícia</h1>
+        <p class="painel-intro">Preencha os dados abaixo. O painel cria o objeto JavaScript pronto para ser colado no topo do array de <strong>noticias.js</strong>.</p>
+
+        <div class="aviso">
+          Este painel não envia nada para o servidor. Ele funciona somente no seu navegador e gera o código que você vai copiar.
+        </div>
+
+        <form id="form-publicar">
+          <div class="form-grid duas-colunas">
+            <div class="campo full">
+              <label for="titulo">Título</label>
+              <input id="titulo" name="titulo" type="text" required placeholder="Ex.: Assembleia aprova novo projeto no Espírito Santo">
+            </div>
+
+            <div class="campo">
+              <label for="categoria">Categoria</label>
+              <select id="categoria" name="categoria" required>
+                <option value="Política ES">Política ES</option>
+                <option value="Política Nacional">Política Nacional</option>
+                <option value="Opinião">Opinião</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="imagem">URL da imagem</label>
+              <input id="imagem" name="imagem" type="url" required placeholder="https://...">
+            </div>
+
+            <div class="campo full">
+              <label for="resumo">Resumo</label>
+              <textarea id="resumo" name="resumo" required placeholder="Resumo curto que aparecerá nos cards e nas redes sociais."></textarea>
+            </div>
+
+            <div class="campo full">
+              <label for="conteudo">Texto completo</label>
+              <textarea id="conteudo" name="conteudo" required placeholder="Cole ou escreva o texto completo. Separe os parágrafos com uma linha em branco."></textarea>
+            </div>
+          </div>
+
+          <div class="acoes-form">
+            <button class="btn-primario" type="submit">Gerar notícia</button>
+            <button class="btn-secundario" type="reset">Limpar</button>
+          </div>
+        </form>
+
+        <section id="saida" class="saida-codigo" aria-live="polite">
+          <h2>Objeto pronto</h2>
+          <p>Copie o conteúdo abaixo e cole no topo do array em <strong>noticias.js</strong>.</p>
+          <pre><code id="codigo-gerado"></code></pre>
+          <button class="btn-primario" type="button" id="copiar-codigo">Copiar código</button>
+          <span id="status-copia" style="margin-left:10px;color:#68717d"></span>
+        </section>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><strong>Notícia ES</strong> | painel de publicação estática</div>
+  </footer>
+
+  <script>
+    (function () {
+      const form = document.getElementById('form-publicar');
+      const saida = document.getElementById('saida');
+      const codigo = document.getElementById('codigo-gerado');
+      const copiar = document.getElementById('copiar-codigo');
+      const status = document.getElementById('status-copia');
+
+      function slugificar(texto) {
+        return texto
+          .normalize('NFD')
+          .replace(/[\u0300-\u036f]/g, '')
+          .toLowerCase()
+          .replace(/[^a-z0-9\s-]/g, '')
+          .trim()
+          .replace(/\s+/g, '-')
+          .replace(/-+/g, '-');
+      }
+
+      function escaparString(texto) {
+        return texto
+          .replace(/\\/g, '\\\\')
+          .replace(/`/g, '\\`')
+          .replace(/\$/g, '\\$');
+      }
+
+      function textoParaHtml(texto) {
+        return texto
+          .trim()
+          .split(/\n\s*\n/)
+          .map(paragrafo => `<p>${paragrafo.trim().replace(/\n/g, '<br>')}</p>`)
+          .join('');
+      }
+
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        const titulo = form.titulo.value.trim();
+        const categoria = form.categoria.value;
+        const imagem = form.imagem.value.trim();
+        const resumo = form.resumo.value.trim();
+        const conteudoHtml = textoParaHtml(form.conteudo.value);
+        const hoje = new Date();
+        const data = [
+          hoje.getFullYear(),
+          String(hoje.getMonth() + 1).padStart(2, '0'),
+          String(hoje.getDate()).padStart(2, '0')
+        ].join('-');
+
+        // O Date.now() cria um ID numérico único o suficiente para este site estático.
+        const id = Date.now();
+        const slug = slugificar(titulo);
+
+        const objeto = `{
+  id: ${id},
+  slug: ${JSON.stringify(slug)},
+  titulo: ${JSON.stringify(titulo)},
+  categoria: ${JSON.stringify(categoria)},
+  data: ${JSON.stringify(data)},
+  imagem: ${JSON.stringify(imagem)},
+  resumo: ${JSON.stringify(resumo.replace(/\n/g, ' '))},
+  conteudo: \`${escaparString(conteudoHtml)}\`,
+  autor: "Redação Notícia ES"
+},`;
+
+        codigo.textContent = objeto;
+        saida.classList.add('visivel');
+        saida.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        status.textContent = '';
+      });
+
+      copiar.addEventListener('click', async function () {
+        try {
+          await navigator.clipboard.writeText(codigo.textContent);
+          status.textContent = 'Copiado.';
+        } catch (e) {
+          status.textContent = 'Selecione o código e copie manualmente.';
+        }
+      });
+
+      form.addEventListener('reset', function () {
+        saida.classList.remove('visivel');
+        status.textContent = '';
+      });
+    })();
+  </script>
+</body>
+</html>
