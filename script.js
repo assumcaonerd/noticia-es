@@ -62,18 +62,39 @@
   }
 
   function cardHTML(n) {
+    const link = linkMateria(n);
     return `
-      <article class="card-noticia">
-        <a href="${linkMateria(n)}" aria-label="Abrir: ${n.titulo}">
+      <article class="card-noticia" data-card-link="${link}" tabindex="0" role="link" aria-label="Abrir: ${n.titulo}">
+        <a href="${link}" aria-label="Abrir: ${n.titulo}">
           <img src="${n.imagem}" alt="${n.titulo}" loading="lazy">
         </a>
         <div class="card-body">
           <span class="chapeu">${n.categoria}</span>
-          <h3><a href="${linkMateria(n)}">${n.titulo}</a></h3>
+          <h3><a href="${link}">${n.titulo}</a></h3>
           <div class="meta"><span>${formatarData(n.data)}</span><span>${n.autor}</span></div>
           <p>${n.resumo}</p>
         </div>
       </article>`;
+  }
+
+  function configurarCards() {
+    document.querySelectorAll('[data-card-link]').forEach(card => {
+      const abrir = () => {
+        window.location.href = card.dataset.cardLink;
+      };
+
+      card.addEventListener('click', (event) => {
+        if (event.target.closest('a')) return;
+        abrir();
+      });
+
+      card.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          abrir();
+        }
+      });
+    });
   }
 
   function renderHome() {
@@ -99,6 +120,7 @@
       grade.innerHTML = lista.length
         ? lista.map(cardHTML).join('')
         : '<div class="vazio">Nenhuma notícia encontrada com esses critérios.</div>';
+      configurarCards();
       return;
     }
 
@@ -123,6 +145,7 @@
       </article>`;
 
     grade.innerHTML = lista.slice(1).map(cardHTML).join('');
+    configurarCards();
   }
 
   function atualizarSEO(n) {
