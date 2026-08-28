@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - 'scripts/coletar-pautas.mjs'
+      - 'scripts/coletar-portais-extra.mjs'
       - '.github/workflows/atualizar-noticias.yml'
 
 permissions:
@@ -34,7 +35,9 @@ jobs:
           node-version: '20'
 
       - name: Coletar pautas e manchetes
-        run: node scripts/coletar-pautas.mjs
+        run: |
+          node scripts/coletar-pautas.mjs
+          node scripts/coletar-portais-extra.mjs
 
       - name: Salvar fila editorial
         shell: bash
