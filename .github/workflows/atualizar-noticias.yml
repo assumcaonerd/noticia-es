@@ -49,4 +49,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add pautas.json motor-status.json
           git commit -m "pautas: atualização automática de manchetes, imagens e publicações"
-          git push
+          git pull --rebase origin main
+          git push origin main
