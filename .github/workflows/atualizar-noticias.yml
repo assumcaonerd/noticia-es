@@ -2,13 +2,13 @@ name: Coletor automático de pautas
 
 on:
   schedule:
-    # A cada 30 minutos para capturar rapidamente novas manchetes de capa.
     - cron: '*/30 * * * *'
   workflow_dispatch:
   push:
     paths:
       - 'scripts/coletar-pautas.mjs'
       - 'scripts/coletar-portais-extra.mjs'
+      - 'scripts/enriquecer-imagens-pautas.mjs'
       - '.github/workflows/atualizar-noticias.yml'
 
 permissions:
@@ -21,24 +21,21 @@ concurrency:
 jobs:
   coletar:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
+    timeout-minutes: 15
     steps:
       - name: Baixar repositório
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-
-      - name: Coletar pautas e manchetes
+      - name: Coletar pautas, manchetes e imagens originais
         run: |
           node scripts/coletar-pautas.mjs
           node scripts/coletar-portais-extra.mjs
-
+          node scripts/enriquecer-imagens-pautas.mjs
       - name: Salvar fila editorial
         shell: bash
         run: |
@@ -46,9 +43,8 @@ jobs:
             echo "Nenhuma novidade para registrar."
             exit 0
           fi
-
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add pautas.json motor-status.json
-          git commit -m "pautas: atualização automática de manchetes"
+          git commit -m "pautas: atualização automática de manchetes e imagens"
           git push
