@@ -10,6 +10,7 @@ on:
       - 'scripts/coletar-portais-extra.mjs'
       - 'scripts/enriquecer-imagens-pautas.mjs'
       - 'scripts/marcar-rodada6.mjs'
+      - 'scripts/reparar-coletor.mjs'
       - '.github/workflows/atualizar-noticias.yml'
 
 permissions:
@@ -32,22 +33,25 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - name: Reparar coletor e registrar matérias publicadas
+        run: |
+          node scripts/reparar-coletor.mjs
+          node scripts/marcar-rodada6.mjs
       - name: Coletar pautas, manchetes e imagens originais
         run: |
           node scripts/coletar-pautas.mjs
           node scripts/coletar-portais-extra.mjs
           node scripts/enriquecer-imagens-pautas.mjs
-          node scripts/marcar-rodada6.mjs
       - name: Salvar fila editorial
         shell: bash
         run: |
-          if git diff --quiet -- pautas.json motor-status.json; then
+          if git diff --quiet -- pautas.json motor-status.json scripts/coletar-pautas.mjs; then
             echo "Nenhuma novidade para registrar."
             exit 0
           fi
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pautas.json motor-status.json
-          git commit -m "pautas: atualização automática de manchetes, imagens e publicações"
+          git add pautas.json motor-status.json scripts/coletar-pautas.mjs
+          git commit -m "pautas: atualiza fila, imagens e estado de publicação"
           git pull --rebase origin main
           git push origin main
