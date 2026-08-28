@@ -120,7 +120,7 @@ function idDaUrl(url) {
 
 function decodeHtml(texto = '') {
   const mapa = {
-    '&amp;': '&', '&quot;': '"', '&#39;': "'", '&apos;': "'", '&lt;': '<', '&gt;': '>',
+    '&': '&', '"': '"', '&#39;': "'", ''': "'", '<': '<', '>': '>',
     '&nbsp;': ' ', '&ordm;': 'º', '&ordf;': 'ª'
   };
   return texto
@@ -141,10 +141,10 @@ function limparHtml(texto = '') {
 
 function escaparHtml(texto = '') {
   return String(texto)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
+    .replace(/&/g, '&')
+    .replace(/</g, '<')
+    .replace(/>/g, '>')
+    .replace(/"/g, '"')
     .replace(/'/g, '&#39;');
 }
 
@@ -231,6 +231,51 @@ function tagXml(bloco, tag) {
   return decodeHtml(bloco.match(re)?.[1] || '').trim();
 }
 
+function ehImagemDeFonte(url = '') {
+  if (!url || !/^https?:\/\//i.test(url)) return false;
+  const u = url.toLowerCase();
+  if (/(logo|favicon|sprite|placeholder|placehold\.co|default[-_]?image|avatar-default|tracking|1x1|pixel\.gif|\/icons?\/|icon[-_.])/i.test(u)) return false;
+  if (/\.(svg|ico)(\?|$)/i.test(u) && /(logo|icon|marca)/i.test(u)) return false;
+  return true;
+}
+
+function absolutizar(url, base) {
+  try {
+    return new URL(url, base).href;
+  } catch {
+    return '';
+  }
+}
+
+function extrairImagemFonte(html, paginaUrl) {
+  const candidatos = [
+    meta(html, 'og:image'),
+    meta(html, 'og:image:secure_url'),
+    meta(html, 'og:image:url'),
+    meta(html, 'twitter:image', 'name'),
+    meta(html, 'twitter:image:src', 'name'),
+    decodeHtml(html.match(/<link[^>]+rel=["']image_src["'][^>]+href=["']([^"']+)["']/i)?.[1] || ''),
+    decodeHtml(html.match(/<link[^>]+href=["']([^"']+)["'][^>]+rel=["']image_src["']/i)?.[1] || '')
+  ].filter(Boolean);
+
+  for (const raw of candidatos) {
+    const abs = absolutizar(raw, paginaUrl);
+    if (ehImagemDeFonte(abs)) return abs;
+  }
+  return '';
+}
+
+function imagemDoRss(bloco) {
+  const enclosure = bloco.match(/<enclosure[^>]+url=["']([^"']+)["'][^>]*type=["']image\/[^"']+["']/i)
+    || bloco.match(/<enclosure[^>]+type=["']image\/[^"']+["'][^>]*url=["']([^"']+)["']/i);
+  const media = bloco.match(/<media:content[^>]+url=["']([^"']+)["'][^>]*(?:medium=["']image["']|type=["']image\/)/i)
+    || bloco.match(/<media:content[^>]*(?:medium=["']image["']|type=["']image\/)[^>]*url=["']([^"']+)["']/i)
+    || bloco.match(/<media:thumbnail[^>]+url=["']([^"']+)["']/i);
+  const htmlImg = bloco.match(/<img[^>]+src=["']([^"']+)["']/i);
+  const bruto = (enclosure && (enclosure[1] || enclosure[2])) || (media && media[1]) || (htmlImg && htmlImg[1]) || '';
+  return ehImagemDeFonte(bruto) ? bruto : '';
+}
+
 function parseRss(xml, fonte) {
   const itens = [];
   const blocos = xml.match(/<item\b[\s\S]*?<\/item>/gi) || xml.match(/<entry\b[\s\S]*?<\/entry>/gi) || [];
@@ -252,7 +297,8 @@ function parseRss(xml, fonte) {
       resumo: resumir(descricao, 300),
       data,
       fonteNome: sourceNome,
-      categoria: fonte.categoria
+      categoria: fonte.categoria,
+      imagem: imagemDoRss(bloco)
     });
   }
   return itens;
@@ -300,7 +346,8 @@ async function detalharHtml(candidato, fonte) {
     resumo: descricao,
     data,
     fonteNome: fonte.nome,
-    categoria: fonte.categoria
+    categoria: fonte.categoria,
+    imagem: extrairImagemFonte(html, candidato.url)
   };
 }
 
@@ -358,7 +405,9 @@ function criarNoticia(item, existentes) {
     titulo: item.titulo,
     categoria: item.categoria,
     data: dataISO(item.data),
-    imagem: CAPAS[item.categoria] || CAPAS['Política Nacional'],
+    imagem: (item.imagem && ehImagemDeFonte(item.imagem))
+      ? item.imagem
+      : (CAPAS[item.categoria] || CAPAS['Política Nacional']),
     resumo,
     conteudo: `<p>${escaparHtml(resumo)}</p><p>O Notícia ES identificou esta atualização em uma fonte monitorada pelo motor automático do portal. Para preservar contexto, autoria e eventuais atualizações posteriores, o texto integral permanece na publicação original.</p><p><strong>Fonte:</strong> <a href="${urlSegura}" target="_blank" rel="noopener noreferrer">${fonteSegura}</a>.</p>`,
     autor: 'Redação Notícia ES',
@@ -418,6 +467,16 @@ async function principal() {
     } catch (erro) {
       statusFontes.push({ fonte: fonte.nome, ok: false, erro: erro.message });
       console.warn(`[${fonte.nome}] falhou: ${erro.message}`);
+    }
+  }
+
+  for (const item of coletados) {
+    if (item.imagem && ehImagemDeFonte(item.imagem)) continue;
+    try {
+      const html = await baixar(item.url);
+      item.imagem = extrairImagemFonte(html, item.url);
+    } catch (erro) {
+      console.warn(`[imagem] não foi possível ler a foto de ${item.url}: ${erro.message}`);
     }
   }
 
