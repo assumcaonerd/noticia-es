@@ -1,6 +1,6 @@
 /* NOTÍCIA ES - MATÉRIA MANUAL INTEGRAL
    Fotos originais extraídas de "Gilvan inelegível2.docx"
-   Capa, Polese, tornozeleira e trio — sem SVG genérico. */
+   Capa no topo; Polese, tornozeleira e trio no texto — sem SVG genérico. */
 (function () {
   if (typeof noticias === 'undefined' || !Array.isArray(noticias)) return;
 
@@ -13,7 +13,7 @@
 
   const fig = function (src, alt) {
     if (!src) return '';
-    return '<figure class="materia-figura"><img class="materia-imagem" src="' + src + '" alt="' + alt + '"></figure>';
+    return '<figure class="materia-figura"><img class="materia-imagem" src="' + src + '" alt="' + alt + '" referrerpolicy="no-referrer"></figure>';
   };
 
   const materia = {
@@ -29,7 +29,6 @@
     conteudo: `<p>Cueva derrubou ontem a liminar de Nunes Marques e a inelegibilidade de Gilvan da Federal voltou a valer. A cautelar só congelava o efeito eleitoral da condenação por violência política de gênero (art. 326-B) para pré-campanha, convenção e registro. Não inocentava. Com a queda, incide de novo o art. 1º, I, “e”, 4, da LC 64/90. O 2222 entra em risco a 39 dias do primeiro turno.</p>
 <p>O ministro mandou avisar, com urgência, o relator do registro no TRE-ES. O RRC será julgado com a ficha suja de volta. Se a condenação se mantém, registro ou diploma posteriores podem cair (art. 26-C, § 2º). Ainda cabe agravo ao plenário, mas o prazo de julgamento e de substituição acaba em 14 de setembro.</p>
 <p>No PL capixaba, a urna de 2022 já aponta um nome estadual com mais votos do que os que elegeram o próprio Gilvan para a Câmara.</p>
-${fig(F.capa, 'Gilvan da Federal e Capitão Assumção no plenário da Assembleia Legislativa do Espírito Santo')}
 <h2>A chapa que o DivulgaCand mostrou no dia da decisão</h2>
 <p>Na atualização das 15h14 do dia 26, o PL aparecia com 11 nomes a deputado federal no Espírito Santo, partido isolado. Gilvan o Federal da Direita, número 2222, constava como “aguardando julgamento”. Na mesma lista estavam Carlos Von (2200), Coronel Pimenta (2210), Gloria Leite (2211), Lucas Polese (2212), Cabo Bonadiman (2220), Dra Bianca Bahiense (2221), Alexsandra Tomaz (2223), Neucimar Fraga (2225), Lázaro (2233) e Enfermeira Eliza Ramlow (2244).</p>
 <p>O Estado elege dez federais. Em 2022, o quociente eleitoral ficou em torno de 208 mil votos. O PL somou 220.995 e elegeu uma cadeira. Desse total, 87.994 foram nominais de Gilvan. Quase 40% da votação nominal do partido passou por um homem só. Sem esse puxador, a conta de 2022 despencaria para perto de 133 mil, abaixo da porta de 80% do quociente que autoriza entrar nas sobras. A aritmética é cruel e pública.</p>
