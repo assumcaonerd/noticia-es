@@ -1,0 +1,44 @@
+/* NOTÍCIA ES - MATÉRIAS EDITORIAIS PRÓPRIAS / RODADA 10 */
+const materiasEditoriais10 = [
+  {
+    id: 2026082819,
+    slug: "joanita-almeida-8-janeiro-hospital-custodia-barbacena-stf",
+    titulo: "Condenada pelo 8 de janeiro, Joanita Almeida segue em hospital de custódia e aguarda decisão no STF",
+    categoria: "Política Nacional",
+    data: "2026-08-28",
+    imagem: "imagens/auto-politica-nacional.svg",
+    resumo: "Pedagoga condenada a 16 anos e seis meses está no Hospital Psiquiátrico e Judiciário Jorge Vaz, em Barbacena; situação reúne questões penais, médicas e debate sobre a política antimanicomial.",
+    conteudo: `<p><strong>A situação da pedagoga Joanita de Almeida, condenada pelo Supremo Tribunal Federal a 16 anos e seis meses de prisão pelos atos de 8 de janeiro de 2023, voltou ao debate público nesta sexta-feira, 28 de agosto.</strong> Ela permanece no Hospital Psiquiátrico e Judiciário Jorge Vaz, em Barbacena, Minas Gerais, onde recebe tratamento após agravamento de seu quadro de saúde.</p>
+<p>A condenação de Joanita consta da Ação Penal 1112. Em fevereiro de 2024, o STF informou oficialmente a pena de 16 anos e seis meses. O processo relacionado aos atos de 8 de janeiro também aparece nos registros públicos da Corte, que identificam Joanita entre os investigados e réus daquele conjunto de ações.</p>
+<p>A permanência em unidade hospitalar ganhou nova repercussão depois que a Revista Oeste publicou reportagem questionando por que a política antimanicomial do Judiciário, aplicada a internos em diferentes situações, não resultou na transferência de Joanita para prisão domiciliar. O questionamento é do veículo e da defesa, e não representa conclusão judicial de que ela tenha direito automático ao benefício.</p>
+<h2>Quadro de saúde está no centro dos pedidos da defesa</h2>
+<p>Documentos apresentados por parlamentares à Câmara dos Deputados em 2025 registraram que Joanita enfrentava problemas psicológicos e neurológicos, incluindo epilepsia, depressão e transtorno bipolar. O material, elaborado pela Liderança da Oposição para defender medidas alternativas à prisão em casos considerados vulneráveis, informou que ela estava no hospital judiciário de Barbacena.</p>
+<p>Esse documento tem natureza política e reúne informações fornecidas no contexto de uma mobilização parlamentar. Por isso, seus relatos médicos não substituem perícias oficiais nem decisões do processo. Ainda assim, o material confirma que a situação clínica de Joanita já vinha sendo levada formalmente a autoridades e ao debate institucional.</p>
+<p>Segundo a reportagem publicada nesta sexta-feira pela Revista Oeste, a internação em Barbacena ocorre desde novembro de 2024. O veículo afirma que a defesa apresentou pedidos de prisão domiciliar e que um recurso aguarda análise no STF. A reportagem também informa que o gabinete do ministro Alexandre de Moraes foi procurado, mas não havia respondido até o fechamento do texto.</p>
+<h2>O que o STF já decidiu sobre a condenação</h2>
+<p>Em comunicado oficial de fevereiro de 2024, o Supremo listou Joanita de Almeida entre os réus condenados pelos atos de 8 de janeiro e registrou pena de 16 anos e seis meses. As condenações daquele grupo envolveram, conforme cada ação penal, crimes relacionados à tentativa de ruptura da ordem democrática e aos ataques às sedes dos Poderes em Brasília.</p>
+<p>É importante separar duas questões. A condenação criminal é um fato judicial já estabelecido. A discussão atual sobre onde e em quais condições a pena deve ser cumprida envolve a situação médica da condenada, avaliações técnicas e decisões posteriores da execução penal.</p>
+<p>O cadastro processual do STF também permite verificar a presença de Joanita nos procedimentos decorrentes do Inquérito 4922, aberto para investigar os envolvidos nos atos de 8 de janeiro.</p>
+<h2>Política antimanicomial entrou no debate</h2>
+<p>A controvérsia ganhou uma segunda dimensão por causa da Resolução 487/2023 do Conselho Nacional de Justiça. A norma instituiu diretrizes para o tratamento de pessoas com transtorno mental ou deficiência psicossocial submetidas a medidas de segurança no sistema de Justiça.</p>
+<p>A política procura priorizar cuidado em saúde mental integrado à Rede de Atenção Psicossocial e reduzir a lógica de internações prolongadas em estabelecimentos de caráter manicomial. A existência da resolução, entretanto, não significa soltura automática de qualquer pessoa internada em hospital de custódia. Cada caso depende de sua situação jurídica, avaliações técnicas e decisão judicial competente.</p>
+<p>A Revista Oeste comparou a situação de Joanita à de outros internos que deixaram o Hospital Jorge Vaz após avaliações e decisões relacionadas à política antimanicomial. Essa comparação constitui a linha editorial e argumentativa da reportagem que originou a pauta. Para uma análise jurídica rigorosa, seria necessário comparar os processos individualmente, inclusive natureza da custódia, laudos, medidas de segurança, estágio de execução e decisões específicas.</p>
+<h2>Parlamentares já haviam levado o caso ao Congresso</h2>
+<p>Em abril de 2025, um ofício da Liderança da Oposição na Câmara reuniu casos de presos do 8 de janeiro considerados em situação de vulnerabilidade e pediu medidas alternativas à prisão. Joanita apareceu no documento com referência expressa aos problemas neurológicos e psiquiátricos e ao tratamento em Barbacena.</p>
+<p>O documento mostra que a discussão sobre sua saúde não surgiu agora. Ela vem sendo usada há mais de um ano por parlamentares e advogados como fundamento para pedir revisão das condições de cumprimento da pena. A decisão, contudo, permanece na esfera judicial.</p>
+<h2>O ponto que ainda depende de decisão</h2>
+<p>O caso reúne três planos distintos: a condenação definitiva imposta pelo STF, a necessidade de tratamento médico e a definição do regime ou local adequado para esse tratamento durante o cumprimento da pena. Misturar essas três dimensões pode levar a conclusões imprecisas.</p>
+<p>Até que haja nova decisão judicial, a informação verificável é que Joanita foi condenada a 16 anos e seis meses e permanece em tratamento no hospital de custódia de Barbacena. A defesa busca uma solução menos restritiva, enquanto a discussão pública sobre a política antimanicomial aumenta a pressão por uma resposta do Judiciário.</p>
+<h2>Fontes da apuração</h2><ul>
+<li><a href="https://revistaoeste.com/politica/manifestante-do-8-1-segue-presa-enquanto-assassinos-sao-beneficiados-por-politica-antimanicomial/" target="_blank" rel="noopener noreferrer">Revista Oeste: reportagem que originou a pauta e atualização sobre a internação</a></li>
+<li><a href="https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=527107" target="_blank" rel="noopener noreferrer">Supremo Tribunal Federal: relação oficial de condenações, incluindo a AP 1112</a></li>
+<li><a href="https://portal.stf.jus.br/processos/detalhe.asp?incidente=6546906" target="_blank" rel="noopener noreferrer">Supremo Tribunal Federal: registro processual do Inquérito 4922</a></li>
+<li><a href="https://www.aplateia.com.br/wp-content/uploads/2025/04/Oficio_ao_Ministro_Alexandre_de_Moraes_-_presos_do_8_de_janeiro_-_medidas_alternativas_a_prisao._REVISADO_assinado.pdf" target="_blank" rel="noopener noreferrer">Câmara dos Deputados, Liderança da Oposição: ofício sobre presos vulneráveis do 8 de janeiro</a></li></ul>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Revista Oeste - Capa",
+    fonteUrl: "https://revistaoeste.com/politica/manifestante-do-8-1-segue-presa-enquanto-assassinos-sao-beneficiados-por-politica-antimanicomial/",
+    fontes: ["https://revistaoeste.com/politica/manifestante-do-8-1-segue-presa-enquanto-assassinos-sao-beneficiados-por-politica-antimanicomial/","https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=527107","https://portal.stf.jus.br/processos/detalhe.asp?incidente=6546906","https://www.aplateia.com.br/wp-content/uploads/2025/04/Oficio_ao_Ministro_Alexandre_de_Moraes_-_presos_do_8_de_janeiro_-_medidas_alternativas_a_prisao._REVISADO_assinado.pdf"],
+    editorial: true
+  }
+];
+if (typeof noticias !== "undefined") noticias.unshift(...materiasEditoriais10);
