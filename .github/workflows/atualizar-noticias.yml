@@ -13,6 +13,7 @@ on:
       - 'scripts/finalizar-rodada10.mjs'
       - 'scripts/marcar-rodada11.mjs'
       - 'scripts/marcar-rodada12.mjs'
+      - 'scripts/marcar-rodada13.mjs'
       - 'scripts/enriquecer-imagens-pautas.mjs'
       - 'scripts/resolver-imagem.mjs'
       - 'scripts/fiscal-imagens.mjs'
@@ -51,12 +52,13 @@ jobs:
           node scripts/finalizar-rodada10.mjs
           node scripts/marcar-rodada11.mjs
           node scripts/marcar-rodada12.mjs
-          if git diff --quiet -- pautas.json editorial-10.js editorial-11.js editorial-12.js; then
+          node scripts/marcar-rodada13.mjs
+          if git diff --quiet -- pautas.json editorial-10.js editorial-11.js editorial-12.js editorial-13.js; then
             echo "Nenhuma publicação nova para registrar."
           else
             git config user.name "Notícia ES Bot"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add pautas.json editorial-10.js editorial-11.js editorial-12.js
+            git add pautas.json editorial-10.js editorial-11.js editorial-12.js editorial-13.js
             git commit -m "pautas: registra rodadas editoriais publicadas"
             git pull --rebase origin main
             git push origin main
@@ -75,13 +77,13 @@ jobs:
       - name: Salvar fila editorial
         shell: bash
         run: |
-          if git diff --quiet -- pautas.json motor-status.json imagens-fonte.js noticias.js fiscal-imagens-status.json scripts/coletar-pautas.mjs scripts/resolver-imagem.mjs editorial-10.js editorial-11.js editorial-12.js; then
+          if git diff --quiet -- pautas.json motor-status.json imagens-fonte.js noticias.js fiscal-imagens-status.json scripts/coletar-pautas.mjs scripts/resolver-imagem.mjs editorial-10.js editorial-11.js editorial-12.js editorial-13.js; then
             echo "Nenhuma novidade para registrar."
             exit 0
           fi
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pautas.json motor-status.json imagens-fonte.js noticias.js fiscal-imagens-status.json scripts/coletar-pautas.mjs scripts/resolver-imagem.mjs editorial-10.js editorial-11.js editorial-12.js
+          git add pautas.json motor-status.json imagens-fonte.js noticias.js fiscal-imagens-status.json scripts/coletar-pautas.mjs scripts/resolver-imagem.mjs editorial-10.js editorial-11.js editorial-12.js editorial-13.js
           git commit -m "pautas: atualiza fila, imagens e correções do fiscal"
           git pull --rebase origin main
           git push origin main
