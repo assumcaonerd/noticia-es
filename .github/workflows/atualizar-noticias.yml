@@ -12,6 +12,7 @@ on:
       - 'scripts/coletar-flavio-bolsonaro.mjs'
       - 'scripts/enriquecer-imagens-pautas.mjs'
       - 'scripts/resolver-imagem.mjs'
+      - 'scripts/fiscal-imagens.mjs'
       - 'scripts/marcar-rodada6.mjs'
       - 'scripts/marcar-rodada7.mjs'
       - 'scripts/marcar-rodada8.mjs'
@@ -63,16 +64,18 @@ jobs:
           node scripts/refinar-fontes-nacionais.mjs
           node scripts/coletar-flavio-bolsonaro.mjs
           node scripts/enriquecer-imagens-pautas.mjs
+      - name: Fiscalizar imagens ausentes
+        run: node scripts/fiscal-imagens.mjs
       - name: Salvar fila editorial
         shell: bash
         run: |
-          if git diff --quiet -- pautas.json motor-status.json scripts/coletar-pautas.mjs scripts/resolver-imagem.mjs; then
+          if git diff --quiet -- pautas.json motor-status.json imagens-fonte.js noticias.js fiscal-imagens-status.json scripts/coletar-pautas.mjs scripts/resolver-imagem.mjs; then
             echo "Nenhuma novidade para registrar."
             exit 0
           fi
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pautas.json motor-status.json scripts/coletar-pautas.mjs scripts/resolver-imagem.mjs
-          git commit -m "pautas: atualiza fila e imagens"
+          git add pautas.json motor-status.json imagens-fonte.js noticias.js fiscal-imagens-status.json scripts/coletar-pautas.mjs scripts/resolver-imagem.mjs
+          git commit -m "pautas: atualiza fila, imagens e correções do fiscal"
           git pull --rebase origin main
           git push origin main

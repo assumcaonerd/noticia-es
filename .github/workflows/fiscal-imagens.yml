@@ -1,0 +1,61 @@
+name: Fiscal de imagens
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Coletor automático de pautas"]
+    types: [completed]
+  push:
+    paths:
+      - 'noticias.js'
+      - 'editorial.js'
+      - 'editorial-2.js'
+      - 'editorial-3.js'
+      - 'editorial-4.js'
+      - 'editorial-5.js'
+      - 'editorial-6.js'
+      - 'editorial-7.js'
+      - 'editorial-8.js'
+      - 'opiniao.js'
+      - 'manual-gilvan.js'
+      - 'scripts/fiscal-imagens.mjs'
+      - 'scripts/resolver-imagem.mjs'
+      - '.github/workflows/fiscal-imagens.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fiscal-imagens-noticia-es
+  cancel-in-progress: false
+
+jobs:
+  fiscalizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Varrer matérias e corrigir foto da fonte
+        run: node scripts/fiscal-imagens.mjs
+      - name: Publicar correções
+        shell: bash
+        run: |
+          if git diff --quiet -- imagens-fonte.js noticias.js pautas.json fiscal-imagens-status.json; then
+            echo "Nenhuma imagem para corrigir."
+            exit 0
+          fi
+          git config user.name "Notícia ES Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add imagens-fonte.js noticias.js pautas.json fiscal-imagens-status.json
+          git commit -m "fiscal: corrige matérias sem imagem da fonte"
+          git pull --rebase origin main
+          git push origin main
