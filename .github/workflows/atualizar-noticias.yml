@@ -9,6 +9,7 @@ on:
       - 'scripts/coletar-pautas.mjs'
       - 'scripts/coletar-portais-extra.mjs'
       - 'scripts/refinar-fontes-nacionais.mjs'
+      - 'scripts/coletar-flavio-bolsonaro.mjs'
       - 'scripts/enriquecer-imagens-pautas.mjs'
       - 'scripts/resolver-imagem.mjs'
       - 'scripts/marcar-rodada6.mjs'
@@ -60,6 +61,7 @@ jobs:
           node scripts/coletar-pautas.mjs
           node scripts/coletar-portais-extra.mjs
           node scripts/refinar-fontes-nacionais.mjs
+          node scripts/coletar-flavio-bolsonaro.mjs
           node scripts/enriquecer-imagens-pautas.mjs
       - name: Salvar fila editorial
         shell: bash
