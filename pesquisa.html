@@ -47,9 +47,7 @@
         </div>
         <div class="campo-pesquisa">
           <label for="pesquisa-categoria">Categoria</label>
-          <select id="pesquisa-categoria">
-            <option value="">Todas</option>
-          </select>
+          <select id="pesquisa-categoria"><option value="">Todas</option></select>
         </div>
         <div class="arquivo-acoes">
           <button class="btn-secundario" type="button" id="copiar-fontes">Copiar links visíveis</button>
@@ -62,11 +60,11 @@
     </div>
   </main>
 
-  <footer class="site-footer">
-    <div class="container"><strong>Notícia ES</strong> | arquivo de pesquisa e fontes · <span data-ano></span></div>
-  </footer>
+  <footer class="site-footer"><div class="container"><strong>Notícia ES</strong> | arquivo de pesquisa e fontes · <span data-ano></span></div></footer>
 
   <script src="noticias.js"></script>
+  <script src="editorial.js"></script>
+  <script src="editorial-2.js"></script>
   <script src="opiniao.js"></script>
   <script src="script.js"></script>
   <script>
@@ -78,117 +76,17 @@
       const copiarBtn = document.getElementById('copiar-fontes');
       const csvBtn = document.getElementById('baixar-csv');
 
-      function normalizar(texto = '') {
-        return String(texto).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-      }
-
-      function formatarData(dataISO) {
-        if (!dataISO) return '';
-        const [ano, mes, dia] = dataISO.split('-').map(Number);
-        return new Intl.DateTimeFormat('pt-BR').format(new Date(ano, mes - 1, dia));
-      }
-
-      function extrairFonte(n) {
-        if (n.fonteUrl) return { nome: n.fonteNome || 'Fonte original', url: n.fonteUrl };
-        const match = String(n.conteudo || '').match(/<strong>Fonte:<\/strong>\s*<a\s+href="([^"]+)"[^>]*>([^<]+)<\/a>/i);
-        if (match) return { nome: match[2].trim(), url: match[1] };
-        return { nome: '', url: '' };
-      }
-
-      const registros = noticias.map(n => {
-        const fonte = extrairFonte(n);
-        return {
-          ...n,
-          fonteNomePesquisa: fonte.nome,
-          fonteUrlPesquisa: fonte.url,
-          urlPortal: `https://noticiaes.com.br/noticia.html?slug=${encodeURIComponent(n.slug)}`
-        };
-      });
-
-      [...new Set(registros.map(r => r.categoria).filter(Boolean))]
-        .sort((a, b) => a.localeCompare(b, 'pt-BR'))
-        .forEach(categoria => {
-          const option = document.createElement('option');
-          option.value = categoria;
-          option.textContent = categoria;
-          categoriaEl.appendChild(option);
-        });
-
-      function atuais() {
-        const termo = normalizar(termoEl.value.trim());
-        const categoria = categoriaEl.value;
-        return registros.filter(r => {
-          const bateCategoria = !categoria || r.categoria === categoria;
-          const haystack = normalizar([r.titulo, r.resumo, r.categoria, r.fonteNomePesquisa].join(' '));
-          return bateCategoria && (!termo || haystack.includes(termo));
-        });
-      }
-
-      function escapar(texto = '') {
-        return String(texto).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-      }
-
-      function render() {
-        const itens = atuais();
-        const comFonte = itens.filter(i => i.fonteUrlPesquisa).length;
-        resumoEl.textContent = `${itens.length} registro(s) exibido(s) · ${comFonte} com fonte original identificada`;
-
-        if (!itens.length) {
-          listaEl.innerHTML = '<div class="vazio">Nenhum registro encontrado.</div>';
-          return;
-        }
-
-        listaEl.innerHTML = itens.map(item => `
-          <article class="arquivo-item">
-            <div class="arquivo-item-topo">
-              <span class="chapeu">${escapar(item.categoria)}</span>
-              <span class="arquivo-data">${formatarData(item.data)}</span>
-            </div>
-            <h2>${escapar(item.titulo)}</h2>
-            <p>${escapar(item.resumo || '')}</p>
-            <div class="arquivo-links">
-              <a class="link-pesquisa link-portal" href="${item.urlPortal}" target="_blank" rel="noopener noreferrer">Abrir no Notícia ES</a>
-              ${item.fonteUrlPesquisa ? `<a class="link-pesquisa link-fonte" href="${escapar(item.fonteUrlPesquisa)}" target="_blank" rel="noopener noreferrer">Fonte: ${escapar(item.fonteNomePesquisa || 'original')}</a>` : '<span class="fonte-ausente">Fonte estruturada não disponível</span>'}
-            </div>
-          </article>
-        `).join('');
-      }
-
-      termoEl.addEventListener('input', render);
-      categoriaEl.addEventListener('change', render);
-
-      copiarBtn.addEventListener('click', async () => {
-        const texto = atuais().map(item => {
-          const fonte = item.fonteUrlPesquisa ? `Fonte: ${item.fonteUrlPesquisa}` : 'Fonte: não estruturada';
-          return `${item.titulo}\nNotícia ES: ${item.urlPortal}\n${fonte}`;
-        }).join('\n\n');
-        try {
-          await navigator.clipboard.writeText(texto);
-          copiarBtn.textContent = 'Links copiados';
-          setTimeout(() => copiarBtn.textContent = 'Copiar links visíveis', 1800);
-        } catch {
-          alert('Não foi possível copiar automaticamente neste navegador.');
-        }
-      });
-
-      csvBtn.addEventListener('click', () => {
-        const linhas = [['data', 'categoria', 'titulo', 'noticia_es', 'fonte_nome', 'fonte_url']];
-        atuais().forEach(item => linhas.push([
-          item.data || '', item.categoria || '', item.titulo || '', item.urlPortal,
-          item.fonteNomePesquisa || '', item.fonteUrlPesquisa || ''
-        ]));
-        const csv = '\uFEFF' + linhas.map(linha => linha.map(valor => `"${String(valor).replace(/"/g, '""')}"`).join(';')).join('\n');
-        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = `noticia-es-fontes-${new Date().toISOString().slice(0,10)}.csv`;
-        document.body.appendChild(a);
-        a.click();
-        a.remove();
-        URL.revokeObjectURL(url);
-      });
-
+      function normalizar(texto = '') { return String(texto).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase(); }
+      function formatarData(dataISO) { if (!dataISO) return ''; const [ano, mes, dia] = dataISO.split('-').map(Number); return new Intl.DateTimeFormat('pt-BR').format(new Date(ano, mes - 1, dia)); }
+      function extrairFonte(n) { if (n.fonteUrl) return { nome: n.fonteNome || 'Fonte original', url: n.fonteUrl }; const match = String(n.conteudo || '').match(/<strong>Fonte:<\/strong>\s*<a\s+href="([^"]+)"[^>]*>([^<]+)<\/a>/i); if (match) return { nome: match[2].trim(), url: match[1] }; return { nome: '', url: '' }; }
+      const registros = noticias.map(n => { const fonte = extrairFonte(n); return { ...n, fonteNomePesquisa: fonte.nome, fonteUrlPesquisa: fonte.url, urlPortal: `https://noticiaes.com.br/noticia.html?slug=${encodeURIComponent(n.slug)}` }; });
+      [...new Set(registros.map(r => r.categoria).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'pt-BR')).forEach(categoria => { const option = document.createElement('option'); option.value = categoria; option.textContent = categoria; categoriaEl.appendChild(option); });
+      function atuais() { const termo = normalizar(termoEl.value.trim()); const categoria = categoriaEl.value; return registros.filter(r => { const bateCategoria = !categoria || r.categoria === categoria; const haystack = normalizar([r.titulo, r.resumo, r.categoria, r.fonteNomePesquisa].join(' ')); return bateCategoria && (!termo || haystack.includes(termo)); }); }
+      function escapar(texto = '') { return String(texto).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+      function render() { const itens = atuais(); const comFonte = itens.filter(i => i.fonteUrlPesquisa).length; resumoEl.textContent = `${itens.length} registro(s) exibido(s) · ${comFonte} com fonte original identificada`; if (!itens.length) { listaEl.innerHTML = '<div class="vazio">Nenhum registro encontrado.</div>'; return; } listaEl.innerHTML = itens.map(item => `<article class="arquivo-item"><div class="arquivo-item-topo"><span class="chapeu">${escapar(item.categoria)}</span><span class="arquivo-data">${formatarData(item.data)}</span></div><h2>${escapar(item.titulo)}</h2><p>${escapar(item.resumo || '')}</p><div class="arquivo-links"><a class="link-pesquisa link-portal" href="${item.urlPortal}" target="_blank" rel="noopener noreferrer">Abrir no Notícia ES</a>${item.fonteUrlPesquisa ? `<a class="link-pesquisa link-fonte" href="${escapar(item.fonteUrlPesquisa)}" target="_blank" rel="noopener noreferrer">Fonte: ${escapar(item.fonteNomePesquisa || 'original')}</a>` : '<span class="fonte-ausente">Fonte estruturada não disponível</span>'}</div></article>`).join(''); }
+      termoEl.addEventListener('input', render); categoriaEl.addEventListener('change', render);
+      copiarBtn.addEventListener('click', async () => { const texto = atuais().map(item => { const fonte = item.fonteUrlPesquisa ? `Fonte: ${item.fonteUrlPesquisa}` : 'Fonte: não estruturada'; return `${item.titulo}\nNotícia ES: ${item.urlPortal}\n${fonte}`; }).join('\n\n'); try { await navigator.clipboard.writeText(texto); copiarBtn.textContent = 'Links copiados'; setTimeout(() => copiarBtn.textContent = 'Copiar links visíveis', 1800); } catch { alert('Não foi possível copiar automaticamente neste navegador.'); } });
+      csvBtn.addEventListener('click', () => { const linhas = [['data', 'categoria', 'titulo', 'noticia_es', 'fonte_nome', 'fonte_url']]; atuais().forEach(item => linhas.push([item.data || '', item.categoria || '', item.titulo || '', item.urlPortal, item.fonteNomePesquisa || '', item.fonteUrlPesquisa || ''])); const csv = '\uFEFF' + linhas.map(linha => linha.map(valor => `"${String(valor).replace(/"/g, '""')}"`).join(';')).join('\n'); const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' }); const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = `noticia-es-fontes-${new Date().toISOString().slice(0,10)}.csv`; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url); });
       render();
     })();
   </script>
