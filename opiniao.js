@@ -5,7 +5,7 @@ globalThis.opinioesExtras = [
     titulo: "Onde estava Augusto Cury",
     categoria: "Opinião",
     data: "2026-08-27",
-    imagem: "imagens/augusto-cury-opiniao.jpg",
+    imagem: "https://s2-oglobo.glbimg.com/EB1Qw1eFocGeGNM3_uq99LhBsYI=/642x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/F/B/7IIcADSRiF3mXVrj5HOw/whatsapp-image-2026-08-14-at-10.29.06.jpeg",
     resumo: "Augusto Cury entrou na disputa com um discurso de pacificação, mas seu posicionamento sobre o 8 de janeiro, anistia e o campo conservador merece escrutínio.",
     conteudo: `<p>Augusto Cury não surgiu agora porque o Brasil descobriu inteligência emocional. Ele surgiu agora porque o placar apertou.</p>
 <p>Quando a disputa ficou entre Lula e Flávio Bolsonaro, apareceu o homem do divã, do “Brasil que soma”, do “zero ataque pessoal”. O discurso é doce. A função é outra: fatiar o voto de quem já está cansado, ferido e com o pai da família política na mira do STF.</p>
@@ -36,7 +36,7 @@ globalThis.opinioesExtras = [
 <p>Pacificar, no dicionário dele, é pedir que a vítima abaixe a voz para o algoz não se irritar. O Brasil não está doente porque o povo gritou. Está doente porque um grupo decidiu que grito de um lado é democracia e grito do outro é terrorismo.</p>
 <p>Onde estava Augusto Cury quando o grito do outro lado virou inquérito eterno? Vendendo livro. Palestrando. Fraseando. O silêncio daquele período vale mais do que o carrossel de agora.</p>
 <h2>Fecha o raciocínio</h2>
-<p>Ninguém precisa odiar o homem. Precisa ler a função.</p>
+<p>Ningém precisa odiar o homem. Precisa ler a função.</p>
 <p>Se o voto em Cury cresce na direita, o voto em Flávio encolhe. Se Flávio encolhe no primeiro turno, o segundo turno fica mais fácil para quem já controla máquina, orçamento e narrativa. O “centrado no que importa” importa, sim: importa para diluir o campo que o sistema quer ver dividido.</p>
 <p>Quem sofreu o 8 de janeiro na pele não deve o voto a quem descobriu o 8 de janeiro no estúdio.</p>
 <p><strong>Pergunta final, sem firula: se Cury é o médico da nação, por que a consulta só foi marcada quando a urna já estava na mesa?</strong></p>`,
