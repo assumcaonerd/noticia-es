@@ -61,12 +61,18 @@
     return resultado;
   }
 
+  function capaHTML(n, cls) {
+    if (!n.imagem) return '';
+    const klass = cls ? ` class="${cls}"` : '';
+    return `<img${klass} src="${n.imagem}" alt="${n.titulo}" loading="lazy">`;
+  }
+
   function cardHTML(n) {
     const link = linkMateria(n);
     return `
       <article class="card-noticia" data-card-link="${link}" tabindex="0" role="link" aria-label="Abrir: ${n.titulo}">
         <a href="${link}" aria-label="Abrir: ${n.titulo}">
-          <img src="${n.imagem}" alt="${n.titulo}" loading="lazy" style="object-position: top center;">
+          ${capaHTML(n)}
         </a>
         <div class="card-body">
           <span class="chapeu">${n.categoria}</span>
@@ -134,7 +140,7 @@
     hero.innerHTML = `
       <article class="hero-card">
         <a href="${linkMateria(destaque)}">
-          <img src="${destaque.imagem}" alt="${destaque.titulo}" style="object-position: top center;">
+          ${capaHTML(destaque)}
         </a>
         <div class="hero-conteudo">
           <span class="chapeu">${destaque.categoria}</span>
@@ -203,7 +209,7 @@
             <span>Por ${noticia.autor}</span>
           </div>
         </header>
-        <img class="materia-imagem" src="${noticia.imagem}" alt="${noticia.titulo}">
+        ${capaHTML(noticia, "materia-imagem")}
         <div class="materia-conteudo">${noticia.conteudo}</div>
         <div class="compartilhar" aria-label="Compartilhar notícia">
           <button class="btn-share" data-share="whatsapp">WhatsApp</button>
