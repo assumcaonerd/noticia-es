@@ -5,6 +5,12 @@ on:
     # A cada 2 horas, no minuto 17, para evitar o pico do início da hora.
     - cron: '17 */2 * * *'
   workflow_dispatch:
+  push:
+    # Serve para testar automaticamente quando o motor ou o workflow forem alterados.
+    # Os commits automáticos em noticias.js não entram aqui e, portanto, não criam loop.
+    paths:
+      - 'scripts/atualizar-noticias.mjs'
+      - '.github/workflows/atualizar-noticias.yml'
 
 permissions:
   contents: write
