@@ -1,16 +1,102 @@
 /*
   NOTÍCIA ES - BANCO DE NOTÍCIAS EM ARQUIVO ESTÁTICO
   ==================================================
-  PARA PUBLICAR UMA NOVA NOTÍCIA:
-  1. Abra publicar.html no navegador.
-  2. Preencha o formulário e clique em "Gerar notícia".
-  3. Copie o objeto gerado.
-  4. Cole o objeto LOGO ABAIXO DE "const noticias = [", antes das notícias existentes.
-  5. Salve este arquivo e envie novamente para o servidor.
+  Este arquivo recebe notícias manuais e automáticas.
+  O motor automático roda pelo GitHub Actions e insere novas matérias no topo.
+  Para publicação manual, use publicar.html e cole o objeto logo após "const noticias = [".
 */
 
 const noticias = [
-  // COLE A NOVA NOTÍCIA AQUI, NO TOPO DO ARRAY.
+  {
+    id: 380568423393,
+    slug: "veja-como-foi-a-quinta-feira-27-dos-candidatos-a-presidente",
+    titulo: "Veja como foi a quinta-feira (27) dos candidatos a presidente",
+    categoria: "Política Nacional",
+    data: "2026-08-27",
+    imagem: "imagens/auto-politica-nacional.svg",
+    resumo: "A agenda dos candidatos à Presidência da República nesta quinta-feira (27) incluiu sabatinas e entrevistas à imprensa, além de visitas a hospitais, abrigos, feiras e locais de trabalho. Também estão previstas atividades relacionadas a obras públicas e outras ações de campanha. >> Veja como foi o…",
+    conteudo: `<p>A agenda dos candidatos à Presidência da República nesta quinta-feira (27) incluiu sabatinas e entrevistas à imprensa, além de visitas a hospitais, abrigos, feiras e locais de trabalho. Também estão previstas atividades relacionadas a obras públicas e outras ações de campanha. &gt;&gt; Veja como foi o…</p><p>O Notícia ES identificou esta atualização em uma fonte monitorada pelo motor automático do portal. Para preservar contexto, autoria e eventuais atualizações posteriores, o texto integral permanece na publicação original.</p><p><strong>Fonte:</strong> <a href="https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/veja-como-foi-quinta-feira-27-dos-candidatos-presidente" target="_blank" rel="noopener noreferrer">Agência Brasil - Política</a>.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Agência Brasil - Política",
+    fonteUrl: "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/veja-como-foi-quinta-feira-27-dos-candidatos-presidente",
+    automatico: true,
+    coletadoEm: "2026-08-28T00:53:48.958Z"
+  },
+  {
+    id: 209208164019,
+    slug: "flavio-tem-34-e-lula-29-entre-eleitores-do-es-no-1-turno-mostra-quaest",
+    titulo: "Flávio tem 34% e Lula 29% entre eleitores do ES no 1º turno, mostra Quaest",
+    categoria: "Política ES",
+    data: "2026-08-27",
+    imagem: "imagens/auto-politica-es.svg",
+    resumo: "Considerando a margem de erro do levantamento, que é de 3 pontos para mais ou para menos, os candidatos estão tecnicamente empatados",
+    conteudo: `<p>Considerando a margem de erro do levantamento, que é de 3 pontos para mais ou para menos, os candidatos estão tecnicamente empatados</p><p>O Notícia ES identificou esta atualização em uma fonte monitorada pelo motor automático do portal. Para preservar contexto, autoria e eventuais atualizações posteriores, o texto integral permanece na publicação original.</p><p><strong>Fonte:</strong> <a href="https://www.agazeta.com.br/es/politica/flavio-tem-34-e-lula-29-entre-eleitores-do-es-no-1-turno-mostra-quaest-0826" target="_blank" rel="noopener noreferrer">A Gazeta - Política</a>.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "A Gazeta - Política",
+    fonteUrl: "https://www.agazeta.com.br/es/politica/flavio-tem-34-e-lula-29-entre-eleitores-do-es-no-1-turno-mostra-quaest-0826",
+    automatico: true,
+    coletadoEm: "2026-08-28T00:53:48.958Z"
+  },
+  {
+    id: 399484495978,
+    slug: "quaest-rose-e-contarato-sao-os-mais-rejeitados-na-disputa-pelo-senado-no-es",
+    titulo: "Quaest: Rose e Contarato são os mais rejeitados na disputa pelo Senado no ES",
+    categoria: "Política ES",
+    data: "2026-08-27",
+    imagem: "imagens/auto-politica-es.svg",
+    resumo: "Levantamento divulgado nesta quinta-feira (27) também mediu conhecimento sobre nomes na disputa e potencial de voto dos eleitores do ES",
+    conteudo: `<p>Levantamento divulgado nesta quinta-feira (27) também mediu conhecimento sobre nomes na disputa e potencial de voto dos eleitores do ES</p><p>O Notícia ES identificou esta atualização em uma fonte monitorada pelo motor automático do portal. Para preservar contexto, autoria e eventuais atualizações posteriores, o texto integral permanece na publicação original.</p><p><strong>Fonte:</strong> <a href="https://www.agazeta.com.br/es/politica/quaest-rose-e-contarato-sao-os-mais-rejeitados-na-disputa-pelo-senado-no-es-0826" target="_blank" rel="noopener noreferrer">A Gazeta - Política</a>.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "A Gazeta - Política",
+    fonteUrl: "https://www.agazeta.com.br/es/politica/quaest-rose-e-contarato-sao-os-mais-rejeitados-na-disputa-pelo-senado-no-es-0826",
+    automatico: true,
+    coletadoEm: "2026-08-28T00:53:48.958Z"
+  },
+  {
+    id: 101382561992,
+    slug: "candidato-ao-senado-wellington-callegari-sera-entrevistado-ao-vivo-no-folha-vitoria-folha-vitoria",
+    titulo: "Candidato ao Senado, Wellington Callegari será entrevistado ao vivo no Folha Vitória - Folha Vitória",
+    categoria: "Política ES",
+    data: "2026-08-27",
+    imagem: "imagens/auto-politica-es.svg",
+    resumo: "Entrevista com o candidato será transmitida ao vivo pelo Youtube do Folha Vitória, nesta sexta-feira (28), às 9h15",
+    conteudo: `<p>Entrevista com o candidato será transmitida ao vivo pelo Youtube do Folha Vitória, nesta sexta-feira (28), às 9h15</p><p>O Notícia ES identificou esta atualização em uma fonte monitorada pelo motor automático do portal. Para preservar contexto, autoria e eventuais atualizações posteriores, o texto integral permanece na publicação original.</p><p><strong>Fonte:</strong> <a href="https://www.folhavitoria.com.br/eleicoes/candidato-ao-senado-wellington-callegari-sera-entrevistado-ao-vivo-no-folha-vitoria/" target="_blank" rel="noopener noreferrer">Folha Vitória - Política</a>.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Folha Vitória - Política",
+    fonteUrl: "https://www.folhavitoria.com.br/eleicoes/candidato-ao-senado-wellington-callegari-sera-entrevistado-ao-vivo-no-folha-vitoria/",
+    automatico: true,
+    coletadoEm: "2026-08-28T00:53:48.958Z"
+  },
+  {
+    id: 423762896477,
+    slug: "relator-da-ccj-do-senado-vota-a-favor-da-pec-do-fim-da-escala-6x1",
+    titulo: "Relator da CCJ do Senado vota a favor da PEC do fim da escala 6x1",
+    categoria: "Política Nacional",
+    data: "2026-08-27",
+    imagem: "imagens/auto-politica-nacional.svg",
+    resumo: "O senador Omar Aziz (PSD-AM) apresentou, nesta quinta-feira (27), o relatório da PEC 221/2019, que acaba com a escala 6x1 e reduz a jornada máxima de trabalho para 40 horas semanais no Brasil. Como o próprio parlamentar já havia anunciado anteriormente, ele manteve integralmente o texto aprovado…",
+    conteudo: `<p>O senador Omar Aziz (PSD-AM) apresentou, nesta quinta-feira (27), o relatório da PEC 221/2019, que acaba com a escala 6x1 e reduz a jornada máxima de trabalho para 40 horas semanais no Brasil. Como o próprio parlamentar já havia anunciado anteriormente, ele manteve integralmente o texto aprovado…</p><p>O Notícia ES identificou esta atualização em uma fonte monitorada pelo motor automático do portal. Para preservar contexto, autoria e eventuais atualizações posteriores, o texto integral permanece na publicação original.</p><p><strong>Fonte:</strong> <a href="https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/relator-da-ccj-do-senado-vota-favor-da-pec-do-fim-da-escala-6x1" target="_blank" rel="noopener noreferrer">Agência Brasil - Política</a>.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Agência Brasil - Política",
+    fonteUrl: "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/relator-da-ccj-do-senado-vota-favor-da-pec-do-fim-da-escala-6x1",
+    automatico: true,
+    coletadoEm: "2026-08-28T00:53:48.958Z"
+  },
+  {
+    id: 559715546640,
+    slug: "ricardo-ferraco-preve-escolas-integrais-e-aeroporto",
+    titulo: "Ricardo Ferraço prevê escolas integrais e aeroporto",
+    categoria: "Política ES",
+    data: "2026-08-27",
+    imagem: "imagens/auto-politica-es.svg",
+    resumo: "O plano de governo inclui propostas para 19 áreas, como segurança pública, educação, saúde, meio ambiente, gestão, entre outras",
+    conteudo: `<p>O plano de governo inclui propostas para 19 áreas, como segurança pública, educação, saúde, meio ambiente, gestão, entre outras</p><p>O Notícia ES identificou esta atualização em uma fonte monitorada pelo motor automático do portal. Para preservar contexto, autoria e eventuais atualizações posteriores, o texto integral permanece na publicação original.</p><p><strong>Fonte:</strong> <a href="https://www.folhavitoria.com.br/eleicoes/plano-de-ricardo-ferraco-preve-escolas-integrais-hospital-veterinario-e-aeroporto-de-cargas/" target="_blank" rel="noopener noreferrer">Folha Vitória - Política</a>.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Folha Vitória - Política",
+    fonteUrl: "https://www.folhavitoria.com.br/eleicoes/plano-de-ricardo-ferraco-preve-escolas-integrais-hospital-veterinario-e-aeroporto-de-cargas/",
+    automatico: true,
+    coletadoEm: "2026-08-28T00:53:48.958Z"
+  },
   {
     id: 14,
     slug: "senado-es-tem-11-candidatos-para-duas-vagas-em-2026",
