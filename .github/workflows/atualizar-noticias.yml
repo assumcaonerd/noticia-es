@@ -2,8 +2,8 @@ name: Coletor automático de pautas
 
 on:
   schedule:
-    # A cada 2 horas, no minuto 17.
-    - cron: '17 */2 * * *'
+    # A cada 30 minutos para capturar rapidamente novas manchetes de capa.
+    - cron: '*/30 * * * *'
   workflow_dispatch:
   push:
     paths:
@@ -33,7 +33,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Coletar pautas
+      - name: Coletar pautas e manchetes
         run: node scripts/coletar-pautas.mjs
 
       - name: Salvar fila editorial
@@ -47,5 +47,5 @@ jobs:
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add pautas.json motor-status.json
-          git commit -m "pautas: atualização automática"
+          git commit -m "pautas: atualização automática de manchetes"
           git push
