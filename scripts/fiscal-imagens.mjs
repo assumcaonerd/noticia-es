@@ -16,6 +16,7 @@ const ARQUIVOS_MATERIA = [
   'noticias.js',
   'editorial.js', 'editorial-2.js', 'editorial-3.js', 'editorial-4.js',
   'editorial-5.js', 'editorial-6.js', 'editorial-7.js', 'editorial-8.js',
+  'editorial-9.js', 'editorial-10.js',
   'opiniao.js', 'manual-gilvan.js'
 ];
 
@@ -29,21 +30,28 @@ function ehRuim(url = '') {
 
 function fonteDoConteudo(n) {
   if (n.fonteUrl) return n.fonteUrl;
-  const m = String(n.conteudo || '').match(/href="(https?:\/\/[^"]+)"/i);
+  const html = String(n.conteudo || '');
+  const m = html.match(/href="(https?:\/\/[^"]+)"/i) || html.match(/href='(https?:\/\/[^']+)'/i);
   return m ? m[1] : '';
 }
 
 async function carregarNoticias() {
-  const contexto = { noticias: undefined };
+  const contexto = { noticias: [] };
   for (const arquivo of ARQUIVOS_MATERIA) {
     try {
       const codigo = await fs.readFile(arquivo, 'utf8');
-      vm.runInNewContext(codigo, contexto, { timeout: 4000, filename: arquivo });
+      vm.runInNewContext(
+        `${codigo}\nif (typeof noticias !== 'undefined' && Array.isArray(noticias)) { this.noticias = noticias; }`,
+        contexto,
+        { timeout: 12000, filename: arquivo }
+      );
     } catch (erro) {
       if (erro.code !== 'ENOENT') console.warn(`[fiscal] não leu ${arquivo}: ${erro.message}`);
     }
   }
-  return Array.isArray(contexto.noticias) ? contexto.noticias : [];
+  const lista = Array.isArray(contexto.noticias) ? contexto.noticias : [];
+  console.log(`[fiscal] carregou ${lista.length} matéria(s) publicadas`);
+  return lista;
 }
 
 function lerOverlayAtual(texto) {
@@ -132,10 +140,8 @@ async function fiscalizarPublicadas() {
     console.log(`[fiscal] CORRIGIU ${n.slug} → ${resolvida}`);
   }
 
-  if (correcos.length) {
-    await fs.writeFile(ARQUIVO_OVERLAY, serializarOverlay(overlay), 'utf8');
-    if (noticiasJsTocou) await fs.writeFile(ARQUIVO_NOTICIAS, noticiasJs, 'utf8');
-  }
+  await fs.writeFile(ARQUIVO_OVERLAY, serializarOverlay(overlay), 'utf8');
+  if (noticiasJsTocou) await fs.writeFile(ARQUIVO_NOTICIAS, noticiasJs, 'utf8');
   return { correcos, semFoto, total: lista.length };
 }
 
@@ -187,4 +193,4 @@ const status = {
   semFoto: pub.semFoto
 };
 await fs.writeFile(ARQUIVO_STATUS, `${JSON.stringify(status, null, 2)}\n`, 'utf8');
-console.log(`[fiscal] ${pub.correcos.length} matéria(s) corrigida(s); ${pub.semFoto.length} ainda sem foto; ${fil.alteradas} pauta(s) enriquecida(s).`);
+console.log(`[fiscal] ${pub.total} varrida(s); ${pub.correcos.length} corrigida(s); ${pub.semFoto.length} ainda sem foto; ${fil.alteradas} pauta(s) enriquecida(s).`);
