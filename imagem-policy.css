@@ -1,0 +1,39 @@
+/* Política visual do Notícia ES: nunca cortar a foto editorial. */
+.hero-card > a,
+.card-noticia > a {
+  display: flex;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #111820;
+}
+.hero-card img,
+.card-noticia img {
+  width: 100% !important;
+  height: 100% !important;
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  background: #111820;
+}
+.materia-imagem {
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+}
+@media (min-width: 980px) {
+  .hero-card > a { min-height: 100%; }
+  .hero-card img { min-height: 100%; }
+}
+@media (max-width: 699px) {
+  .container { width: min(calc(100% - 20px), var(--largura)); }
+  .hero-area { padding-top: 14px; }
+  .hero-conteudo, .card-body { padding: 16px; }
+  .materia { padding-top: 22px; }
+  .materia-header h1 { overflow-wrap: anywhere; }
+  .materia-conteudo { font-size: 1.05rem; line-height: 1.72; }
+}
