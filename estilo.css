@@ -174,6 +174,7 @@ main {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  object-position: top center;
 }
 
 .hero-conteudo {
@@ -257,6 +258,7 @@ main {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  object-position: top center;
 }
 
 .card-body {
@@ -309,8 +311,10 @@ main {
 
 .materia-imagem {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  max-height: 560px;
+  object-fit: contain;
+  object-position: center top;
+  background: #111820;
   border-radius: var(--raio);
   box-shadow: var(--sombra);
   margin: 24px 0 26px;
@@ -546,6 +550,7 @@ main {
   .hero-card img {
     height: 100%;
     aspect-ratio: auto;
+    object-position: top center;
   }
 
   .hero-conteudo {

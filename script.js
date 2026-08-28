@@ -66,7 +66,7 @@
     return `
       <article class="card-noticia" data-card-link="${link}" tabindex="0" role="link" aria-label="Abrir: ${n.titulo}">
         <a href="${link}" aria-label="Abrir: ${n.titulo}">
-          <img src="${n.imagem}" alt="${n.titulo}" loading="lazy">
+          <img src="${n.imagem}" alt="${n.titulo}" loading="lazy" style="object-position: top center;">
         </a>
         <div class="card-body">
           <span class="chapeu">${n.categoria}</span>
@@ -134,7 +134,7 @@
     hero.innerHTML = `
       <article class="hero-card">
         <a href="${linkMateria(destaque)}">
-          <img src="${destaque.imagem}" alt="${destaque.titulo}">
+          <img src="${destaque.imagem}" alt="${destaque.titulo}" style="object-position: top center;">
         </a>
         <div class="hero-conteudo">
           <span class="chapeu">${destaque.categoria}</span>
