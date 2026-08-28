@@ -64,7 +64,31 @@
   function capaHTML(n, cls) {
     if (!n.imagem) return '';
     const klass = cls ? ` class="${cls}"` : '';
-    return `<img${klass} src="${n.imagem}" alt="${n.titulo}" loading="lazy">`;
+    return `<img${klass} src="${n.imagem}" alt="${n.titulo}" loading="lazy" referrerpolicy="no-referrer">`;
+  }
+
+  function mesmoSrc(a, b) {
+    if (!a || !b) return false;
+    const na = String(a).split('?')[0].replace(/\/$/, '');
+    const nb = String(b).split('?')[0].replace(/\/$/, '');
+    if (na === nb) return true;
+    try {
+      const ua = new URL(na, location.href).pathname.split('/').pop();
+      const ub = new URL(nb, location.href).pathname.split('/').pop();
+      return ua && ub && ua === ub;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function removerCapaDuplicadaNoCorpo(root, capaSrc) {
+    if (!root || !capaSrc) return;
+    root.querySelectorAll('img').forEach(function (img) {
+      const src = img.getAttribute('src') || img.src || '';
+      if (!mesmoSrc(src, capaSrc)) return;
+      const bloco = img.closest('figure, .materia-figura') || img;
+      bloco.remove();
+    });
   }
 
   function cardHTML(n) {
@@ -217,6 +241,8 @@
           <button class="btn-share" data-share="facebook">Facebook</button>
         </div>
       </article>`;
+
+    removerCapaDuplicadaNoCorpo(container.querySelector('.materia-conteudo'), noticia.imagem);
 
     const outras = noticias
       .filter(n => n.slug !== noticia.slug)
