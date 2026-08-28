@@ -5,7 +5,7 @@ const agora = new Date().toISOString();
 const publicadas = new Map([
   ['9ca37adda0d89276', 'rose-de-freitas-aposta-legado-senado-es-2026'],
   ['6932be8560e2f247', 'preso-suspeito-explosao-incendio-viatura-pm-linhares'],
-  ['b20b2f5d3e2e8d07', 'idoso-85-anos-condenado-estupro-vulneravel-preso-cachoeiro']
+  ['7505335fe7d78b10', 'idoso-85-anos-condenado-estupro-vulneravel-preso-cachoeiro']
 ]);
 
 const dados = JSON.parse(await fs.readFile(arquivo, 'utf8'));
