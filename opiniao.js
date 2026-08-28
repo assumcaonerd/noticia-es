@@ -43,3 +43,9 @@ globalThis.opinioesExtras = [
     autor: "Opinião | Notícia ES"
   }
 ];
+
+if (typeof noticias !== 'undefined' && Array.isArray(noticias)) {
+  const slugsExistentes = new Set(noticias.map(n => n.slug));
+  const novas = globalThis.opinioesExtras.filter(n => !slugsExistentes.has(n.slug));
+  noticias.unshift(...novas);
+}
