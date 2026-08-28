@@ -38,7 +38,11 @@
               <label for="categoria">Categoria</label>
               <select id="categoria" name="categoria" required>
                 <option value="Política ES">Política ES</option>
+                <option value="Segurança Pública">Segurança Pública</option>
                 <option value="Política Nacional">Política Nacional</option>
+                <option value="Cidades">Cidades</option>
+                <option value="Economia ES">Economia ES</option>
+                <option value="Justiça">Justiça</option>
                 <option value="Opinião">Opinião</option>
               </select>
             </div>
@@ -129,7 +133,6 @@
           String(hoje.getDate()).padStart(2, '0')
         ].join('-');
 
-        // O Date.now() cria um ID numérico único o suficiente para este site estático.
         const id = Date.now();
         const slug = slugificar(titulo);
 
