@@ -30,8 +30,20 @@ const fontesHtml = [
     hosts: ['www.folhavitoria.com.br', 'folhavitoria.com.br']
   },
   {
+    nome: 'A Gazeta - Polícia',
+    url: 'https://www.agazeta.com.br/es/policia',
+    categoria: 'Segurança Pública',
+    hosts: ['www.agazeta.com.br', 'agazeta.com.br']
+  },
+  {
+    nome: 'Folha Vitória - Polícia',
+    url: 'https://www.folhavitoria.com.br/policia/',
+    categoria: 'Segurança Pública',
+    hosts: ['www.folhavitoria.com.br', 'folhavitoria.com.br']
+  },
+  {
     nome: 'Governo do Espírito Santo',
-    url: 'https://www.es.gov.br/Noticias',
+    url: 'https://www.es.gov.br/noticias',
     categoria: 'Política ES',
     hosts: ['www.es.gov.br', 'es.gov.br'],
     filtroTitulo: /(governo|governador|secretari|munic[ií]p|prefeit|investiment|elei[cç]|pol[ií]tica|lei|projeto|assembleia|seguran[cç]a|estado)/i
@@ -44,7 +56,7 @@ const fontesHtml = [
   },
   {
     nome: 'Polícia Militar do ES',
-    url: 'https://pm.es.gov.br/Noticias',
+    url: 'https://pm.es.gov.br/noticias',
     categoria: 'Segurança Pública',
     hosts: ['pm.es.gov.br']
   },
@@ -59,6 +71,13 @@ const fontesHtml = [
     url: 'https://cb.es.gov.br/Noticias',
     categoria: 'Segurança Pública',
     hosts: ['cb.es.gov.br']
+  },
+  {
+    nome: 'Tribunal Superior Eleitoral',
+    url: 'https://www.tse.jus.br/comunicacao/noticias',
+    categoria: 'Política Nacional',
+    hosts: ['www.tse.jus.br'],
+    filtroTitulo: /(elei[cç]|candidat|tse|urna|vota[cç]|propaganda|partido|pesquisa|campanha|eleitor)/i
   }
 ];
 
@@ -68,11 +87,6 @@ const fontesRss = [
     url: 'https://www12.senado.leg.br/noticias/feed/todasnoticias',
     categoria: 'Política Nacional',
     filtroTitulo: /(elei[cç]|senado|c[aâ]mara|congresso|governo|presid|stf|seguran[cç]a|pec|projeto|comiss[aã]o|vota[cç]|pol[ií]tica|partido|constitui[cç]|medida provis[oó]ria|mp\b)/i
-  },
-  {
-    nome: 'Tribunal Superior Eleitoral',
-    url: 'https://www.tse.jus.br/noticias-em-rss',
-    categoria: 'Política Nacional'
   },
   {
     nome: 'Agência Brasil - Política',
