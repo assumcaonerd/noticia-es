@@ -1,26 +1,24 @@
-name: Motor automático de notícias
+name: Coletor automático de pautas
 
 on:
   schedule:
-    # A cada 2 horas, no minuto 17, para evitar o pico do início da hora.
+    # A cada 2 horas, no minuto 17.
     - cron: '17 */2 * * *'
   workflow_dispatch:
   push:
-    # Serve para testar automaticamente quando o motor ou o workflow forem alterados.
-    # Os commits automáticos em noticias.js não entram aqui e, portanto, não criam loop.
     paths:
-      - 'scripts/atualizar-noticias.mjs'
+      - 'scripts/coletar-pautas.mjs'
       - '.github/workflows/atualizar-noticias.yml'
 
 permissions:
   contents: write
 
 concurrency:
-  group: motor-automatico-noticia-es
+  group: coletor-pautas-noticia-es
   cancel-in-progress: false
 
 jobs:
-  atualizar:
+  coletar:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -35,19 +33,19 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Coletar e preparar notícias
-        run: node scripts/atualizar-noticias.mjs
+      - name: Coletar pautas
+        run: node scripts/coletar-pautas.mjs
 
-      - name: Publicar alterações
+      - name: Salvar fila editorial
         shell: bash
         run: |
-          if git diff --quiet -- noticias.js motor-status.json; then
-            echo "Nenhuma novidade para publicar."
+          if git diff --quiet -- pautas.json motor-status.json; then
+            echo "Nenhuma novidade para registrar."
             exit 0
           fi
 
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add noticias.js motor-status.json
-          git commit -m "noticias: atualização automática"
+          git add pautas.json motor-status.json
+          git commit -m "pautas: atualização automática"
           git push
