@@ -1,48 +1,91 @@
 {
-  "atualizadoEm": "2026-08-28T01:34:33.118Z",
-  "modo": "coleta-de-pautas",
-  "novasPautas": 24,
-  "pautasPendentes": 24,
+  "atualizadoEm": "2026-08-28T11:24:11.107Z",
+  "modo": "coleta-de-pautas-e-manchetes-de-capa",
+  "novasPautas": 29,
+  "pautasPendentes": 45,
   "fontes": [
+    {
+      "fonte": "A Gazeta - Capa",
+      "ok": true,
+      "encontrados": 6,
+      "capa": true
+    },
+    {
+      "fonte": "Folha Vitória - Capa",
+      "ok": true,
+      "encontrados": 6,
+      "capa": true
+    },
+    {
+      "fonte": "Tribuna Online - Capa",
+      "ok": true,
+      "encontrados": 6,
+      "capa": true
+    },
+    {
+      "fonte": "ES Hoje - Capa",
+      "ok": true,
+      "encontrados": 6,
+      "capa": true
+    },
+    {
+      "fonte": "Revista Oeste - Capa",
+      "ok": true,
+      "encontrados": 6,
+      "capa": true
+    },
+    {
+      "fonte": "Gazeta do Povo - Capa",
+      "ok": true,
+      "encontrados": 0,
+      "capa": true
+    },
     {
       "fonte": "A Gazeta - Política",
       "ok": true,
-      "encontrados": 5
+      "encontrados": 6,
+      "capa": false
     },
     {
       "fonte": "Folha Vitória - Política",
       "ok": true,
-      "encontrados": 5
+      "encontrados": 6,
+      "capa": false
     },
     {
       "fonte": "A Gazeta - Polícia",
       "ok": true,
-      "encontrados": 5
+      "encontrados": 6,
+      "capa": false
     },
     {
       "fonte": "Folha Vitória - Polícia",
       "ok": true,
-      "encontrados": 5
+      "encontrados": 6,
+      "capa": false
     },
     {
       "fonte": "SESP-ES",
       "ok": true,
-      "encontrados": 0
+      "encontrados": 0,
+      "capa": false
     },
     {
       "fonte": "Polícia Civil do ES",
       "ok": true,
-      "encontrados": 0
+      "encontrados": 0,
+      "capa": false
     },
     {
       "fonte": "Corpo de Bombeiros do ES",
       "ok": true,
-      "encontrados": 0
+      "encontrados": 0,
+      "capa": false
     },
     {
       "fonte": "Senado Notícias",
-      "ok": false,
-      "erro": "fetch failed"
+      "ok": true,
+      "encontrados": 0
     },
     {
       "fonte": "Agência Brasil - Política",
