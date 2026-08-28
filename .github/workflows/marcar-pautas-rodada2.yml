@@ -1,0 +1,53 @@
+name: Marcar pautas publicadas rodada 2
+
+on:
+  push:
+    paths:
+      - '.github/workflows/marcar-pautas-rodada2.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  marcar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Marcar pautas como publicadas
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = 'pautas.json';
+            const data = JSON.parse(fs.readFileSync(path, 'utf8'));
+            const publicadaEm = new Date().toISOString();
+            const atualizacoes = {
+              'e11cadedfbd6118b': 'antonio-gobbi-morte-vitoria-contas-bancarias-investigacao',
+              '7e93f7755ba20c8a': 'casagrande-lidera-senado-es-segunda-vaga-embolada-quaest'
+            };
+            for (const pauta of data.pautas || []) {
+              const slug = atualizacoes[pauta.id];
+              if (!slug) continue;
+              pauta.status = 'publicada';
+              pauta.slugPublicado = slug;
+              pauta.publicadaEm = publicadaEm;
+            }
+            fs.writeFileSync(path, JSON.stringify(data, null, 2) + '\n');
+
+      - name: Commitar marcações
+        shell: bash
+        run: |
+          if git diff --quiet -- pautas.json; then
+            echo "Pautas já estavam marcadas."
+            exit 0
+          fi
+          git config user.name "Notícia ES Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pautas.json
+          git commit -m "pautas: marca rodada editorial 2 como publicada"
+          git push
