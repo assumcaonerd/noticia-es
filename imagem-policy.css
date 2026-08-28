@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: #111820;
+  background: #ece8e2;
 }
 .hero-card img,
 .card-noticia img {
@@ -16,7 +16,7 @@
   aspect-ratio: auto !important;
   object-fit: contain !important;
   object-position: center center !important;
-  background: #111820;
+  background: #ece8e2;
 }
 .materia-imagem {
   width: 100% !important;
@@ -24,6 +24,8 @@
   max-height: none !important;
   object-fit: contain !important;
   object-position: center center !important;
+  background: transparent !important;
+  display: block;
 }
 .materia-figura {
   margin: 8px 0 28px;
