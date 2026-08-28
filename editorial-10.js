@@ -6,7 +6,7 @@ const materiasEditoriais10 = [
     titulo: "Condenada pelo 8 de janeiro, Joanita Almeida segue em hospital de custódia e aguarda decisão no STF",
     categoria: "Política Nacional",
     data: "2026-08-28",
-    imagem: "imagens/auto-politica-nacional.svg",
+    imagem: "https://medias.revistaoeste.com/wp-content/uploads/2026/08/joanita.jpg.webp",
     resumo: "Pedagoga condenada a 16 anos e seis meses está no Hospital Psiquiátrico e Judiciário Jorge Vaz, em Barbacena; situação reúne questões penais, médicas e debate sobre a política antimanicomial.",
     conteudo: `<p><strong>A situação da pedagoga Joanita de Almeida, condenada pelo Supremo Tribunal Federal a 16 anos e seis meses de prisão pelos atos de 8 de janeiro de 2023, voltou ao debate público nesta sexta-feira, 28 de agosto.</strong> Ela permanece no Hospital Psiquiátrico e Judiciário Jorge Vaz, em Barbacena, Minas Gerais, onde recebe tratamento após agravamento de seu quadro de saúde.</p>
 <p>A condenação de Joanita consta da Ação Penal 1112. Em fevereiro de 2024, o STF informou oficialmente a pena de 16 anos e seis meses. O processo relacionado aos atos de 8 de janeiro também aparece nos registros públicos da Corte, que identificam Joanita entre os investigados e réus daquele conjunto de ações.</p>
