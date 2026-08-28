@@ -12,6 +12,7 @@ on:
       - 'scripts/resolver-imagem.mjs'
       - 'scripts/marcar-rodada6.mjs'
       - 'scripts/marcar-rodada7.mjs'
+      - 'scripts/marcar-rodada8.mjs'
       - 'scripts/reparar-coletor.mjs'
       - '.github/workflows/atualizar-noticias.yml'
 
@@ -40,6 +41,7 @@ jobs:
         run: |
           node scripts/marcar-rodada6.mjs
           node scripts/marcar-rodada7.mjs
+          node scripts/marcar-rodada8.mjs
           if git diff --quiet -- pautas.json; then
             echo "Nenhuma publicação nova para registrar."
           else
