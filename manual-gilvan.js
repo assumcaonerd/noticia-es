@@ -4,7 +4,13 @@
 (function () {
   if (typeof noticias === 'undefined' || !Array.isArray(noticias)) return;
 
-  const F = window.GILVAN_FOTOS || {};
+  const F = Object.assign({
+    capa: 'imagens/gilvan-capa.jpg',
+    polese: 'imagens/gilvan-polese.jpg',
+    tornozeleira: 'imagens/gilvan-tornozeleira.jpg',
+    trio: 'imagens/gilvan-trio.jpg'
+  }, window.GILVAN_FOTOS || {});
+
   const fig = function (src, alt) {
     if (!src) return '';
     return '<figure class="materia-figura"><img class="materia-imagem" src="' + src + '" alt="' + alt + '"></figure>';
@@ -18,11 +24,12 @@
     data: "2026-08-28",
     publicadoEm: "2026-08-28T12:40:00.000Z",
     destaqueAte: "2026-08-29T23:59:00.000Z",
-    imagem: F.capa || "",
+    imagem: F.capa,
     resumo: "A decisão de Cueva devolve a inelegibilidade ao 2222. Os 98 mil votos de 2022 do Capitão Assumção, hoje na disputa estadual, superam os 87 mil com que o Federal se elegeu para a Câmara",
     conteudo: `<p>Cueva derrubou ontem a liminar de Nunes Marques e a inelegibilidade de Gilvan da Federal voltou a valer. A cautelar só congelava o efeito eleitoral da condenação por violência política de gênero (art. 326-B) para pré-campanha, convenção e registro. Não inocentava. Com a queda, incide de novo o art. 1º, I, “e”, 4, da LC 64/90. O 2222 entra em risco a 39 dias do primeiro turno.</p>
 <p>O ministro mandou avisar, com urgência, o relator do registro no TRE-ES. O RRC será julgado com a ficha suja de volta. Se a condenação se mantém, registro ou diploma posteriores podem cair (art. 26-C, § 2º). Ainda cabe agravo ao plenário, mas o prazo de julgamento e de substituição acaba em 14 de setembro.</p>
 <p>No PL capixaba, a urna de 2022 já aponta um nome estadual com mais votos do que os que elegeram o próprio Gilvan para a Câmara.</p>
+${fig(F.capa, 'Gilvan da Federal e Capitão Assumção no plenário da Assembleia Legislativa do Espírito Santo')}
 <h2>A chapa que o DivulgaCand mostrou no dia da decisão</h2>
 <p>Na atualização das 15h14 do dia 26, o PL aparecia com 11 nomes a deputado federal no Espírito Santo, partido isolado. Gilvan o Federal da Direita, número 2222, constava como “aguardando julgamento”. Na mesma lista estavam Carlos Von (2200), Coronel Pimenta (2210), Gloria Leite (2211), Lucas Polese (2212), Cabo Bonadiman (2220), Dra Bianca Bahiense (2221), Alexsandra Tomaz (2223), Neucimar Fraga (2225), Lázaro (2233) e Enfermeira Eliza Ramlow (2244).</p>
 <p>O Estado elege dez federais. Em 2022, o quociente eleitoral ficou em torno de 208 mil votos. O PL somou 220.995 e elegeu uma cadeira. Desse total, 87.994 foram nominais de Gilvan. Quase 40% da votação nominal do partido passou por um homem só. Sem esse puxador, a conta de 2022 despencaria para perto de 133 mil, abaixo da porta de 80% do quociente que autoriza entrar nas sobras. A aritmética é cruel e pública.</p>
@@ -30,7 +37,7 @@
 <p>A convenção do PL em agosto registrou o que os bastidores já repetiam: Lucas Polese é um dos nomes mais competitivos da chapa federal. O próprio deputado estadual baixou a bola.</p>
 ${fig(F.polese, 'Lucas Polese em frente à Assembleia Legislativa do Espírito Santo')}
 <p>“Vamos trabalhar muito, mas, se sobrar uma frestinha na porta para a gente entrar, já está ótimo.” Em 2022, Polese fez 29.490 votos para a Assembleia. Tem 139 mil seguidores no X, campanha histórica de R$ 3.288 sem fundo público e o rótulo, inclusive na imprensa crítica, de influencer do liberalismo capixaba. Magno Malta, por assessoria, já tinha dito que Polese tinha liberdade para escolher entre a reeleição e a Câmara.</p>
-<p>Polese herda discurso. Não herda o volume. Mas não há dúvida que os vinte e nove mil no estadual poderão crescer muito no federal. A base conservadora se divide. Há quem o coloque na colinha do 2212. Há quem prefira Gilvan por “mais experiente e combativo” e mande o jovem esperar. A imprensa de centro cobra Lei Seca e condenação civil em Jaguaré. A de esquerda cobra o choque com o arcebispo Dom Ângelo, em julho, quando Polese comparou a autoridade espiritual do prelado à de Satanás no deserto. A Arquidiocese e a CNBB rebateram. No eleitor católico, isso não é nota de rodapé.</p>
+<p>Polese herda discurso. Não herda o volume. Mas não há dúvida que os vinte e nove mil no estadual poderão crescer muito no federal. A base conservadora se divide. Há quem o coloque na colinha do 2212. Há quem prefira Gilvan por “mais experiente e combativo” e mande o jovem esperar. A imprensa de centro cobra Lei Seca e condenação civil em Jaguare. A de esquerda cobra o choque com o arcebispo Dom Ângelo, em julho, quando Polese comparou a autoridade espiritual do prelado à de Satanás no deserto. A Arquidiocese e a CNBB rebateram. No eleitor católico, isso não é nota de rodapé.</p>
 <p>Se o 2222 sair e o partido apostar só no 2212, a cadeira federal do PL deixa de ser o cenário mais provável e vira disputa de fio. Quarenta a 50% de chance de eleger um. Quarenta e cinco a 55% de zerar.</p>
 <h2>O nome que a urna estadual já mediu acima do Federal</h2>
 <p>Há um terceiro nome, e este não está na lista federal. Está no DivulgaCand da Assembleia: Capitão Assumção, PL, 22190, também aguardando julgamento, candidato à reeleição estadual. Em 2022 ele fez 98.669 votos. Foi o segundo deputado estadual mais votado do Espírito Santo, atrás apenas de Sergio Meneguelli. Recorde de reeleição no Estado. A cifra é maior do que os 87.994 com que Gilvan se elegeu deputado federal no mesmo dia.</p>
