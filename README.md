@@ -16,6 +16,6 @@ Portal estático de notícias de política, segurança pública e opinião do Es
 
 ## Publicação automática
 
-O workflow em `.github/workflows/atualizar-noticias.yml` roda periodicamente e atualiza o banco de notícias. As matérias automáticas preservam a referência da fonte original e usam imagens/capas vinculadas à respectiva matéria ou editoria.
+O workflow em `.github/workflows/atualizar-noticias.yml` roda periodicamente e atualiza o banco de notícias. As matérias automáticas preservam a referência da fonte original. Sempre que houver imagem específica disponível e segura para uso, ela deve ser vinculada à matéria; na ausência, o portal usa uma capa editorial da editoria.
 
 Quando o GitHub Pages estiver habilitado para a branch `main`, cada commit passa a atualizar o site publicado.
