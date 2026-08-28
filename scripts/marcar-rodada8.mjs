@@ -4,7 +4,8 @@ const arquivo = 'pautas.json';
 const agora = new Date().toISOString();
 const publicadas = new Map([
   ['9ca37adda0d89276', 'rose-de-freitas-aposta-legado-senado-es-2026'],
-  ['6932be8560e2f247', 'preso-suspeito-explosao-incendio-viatura-pm-linhares']
+  ['6932be8560e2f247', 'preso-suspeito-explosao-incendio-viatura-pm-linhares'],
+  ['b20b2f5d3e2e8d07', 'idoso-85-anos-condenado-estupro-vulneravel-preso-cachoeiro']
 ]);
 
 const dados = JSON.parse(await fs.readFile(arquivo, 'utf8'));
@@ -22,7 +23,7 @@ for (const pauta of dados.pautas || []) {
 if (alterou) {
   dados.atualizadoEm = agora;
   await fs.writeFile(arquivo, JSON.stringify(dados, null, 2) + '\n');
-  console.log('Rodada 8 marcada como publicada.');
+  console.log('Rodada 8 e publicações adicionais marcadas como publicadas.');
 } else {
-  console.log('Rodada 8 já estava registrada.');
+  console.log('Rodada 8 e publicações adicionais já estavam registradas.');
 }
