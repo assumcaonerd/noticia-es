@@ -21,14 +21,32 @@ async function reparar(caminho) {
   const fimInclusivo = mapaFim + '  };'.length;
   const atual = texto.slice(mapaInicio, fimInclusivo);
 
-  if (atual === blocoCorreto) {
-    console.log(`${caminho}: mapa HTML já está correto.`);
+  let alterado = false;
+  if (atual !== blocoCorreto) {
+    texto = texto.slice(0, mapaInicio) + blocoCorreto + texto.slice(fimInclusivo);
+    alterado = true;
+  }
+
+  if (caminho === 'scripts/coletar-pautas.mjs') {
+    const antes = texto;
+    texto = texto
+      .split('\n')
+      .filter(linha => !linha.includes("nome: 'ES Hoje - Capa'") && !linha.includes("'eshoje.com.br'"))
+      .join('\n');
+    texto = texto.replace(/,\s*'eshoje\.com\.br'/g, '').replace(/'eshoje\.com\.br'\s*,\s*/g, '');
+    if (texto !== antes) {
+      alterado = true;
+      console.log(`${caminho}: ES Hoje removido permanentemente da lista de coleta e de portais prioritários.`);
+    }
+  }
+
+  if (!alterado) {
+    console.log(`${caminho}: já está correto.`);
     return false;
   }
 
-  texto = texto.slice(0, mapaInicio) + blocoCorreto + texto.slice(fimInclusivo);
   await fs.writeFile(caminho, texto, 'utf8');
-  console.log(`${caminho}: bloco de entidades HTML reparado.`);
+  console.log(`${caminho}: reparado.`);
   return true;
 }
 
