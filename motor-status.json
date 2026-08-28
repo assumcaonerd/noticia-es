@@ -1,43 +1,33 @@
 {
-  "atualizadoEm": "2026-08-28T00:56:05.273Z",
-  "janelaHoras": 96,
-  "novasPublicadas": 4,
-  "totalNoticias": 20,
+  "atualizadoEm": "2026-08-28T01:34:33.118Z",
+  "modo": "coleta-de-pautas",
+  "novasPautas": 24,
+  "pautasPendentes": 24,
   "fontes": [
     {
       "fonte": "A Gazeta - Política",
       "ok": true,
-      "encontrados": 4
+      "encontrados": 5
     },
     {
       "fonte": "Folha Vitória - Política",
       "ok": true,
-      "encontrados": 4
+      "encontrados": 5
     },
     {
       "fonte": "A Gazeta - Polícia",
       "ok": true,
-      "encontrados": 4
+      "encontrados": 5
     },
     {
       "fonte": "Folha Vitória - Polícia",
       "ok": true,
-      "encontrados": 4
-    },
-    {
-      "fonte": "Governo do Espírito Santo",
-      "ok": false,
-      "erro": "404 Not Found"
+      "encontrados": 5
     },
     {
       "fonte": "SESP-ES",
       "ok": true,
       "encontrados": 0
-    },
-    {
-      "fonte": "Polícia Militar do ES",
-      "ok": false,
-      "erro": "fetch failed"
     },
     {
       "fonte": "Polícia Civil do ES",
@@ -50,14 +40,9 @@
       "encontrados": 0
     },
     {
-      "fonte": "Tribunal Superior Eleitoral",
-      "ok": false,
-      "erro": "403 Forbidden"
-    },
-    {
       "fonte": "Senado Notícias",
-      "ok": true,
-      "encontrados": 0
+      "ok": false,
+      "erro": "fetch failed"
     },
     {
       "fonte": "Agência Brasil - Política",
