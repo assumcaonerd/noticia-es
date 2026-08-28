@@ -5,11 +5,56 @@ const ARQUIVO_PAUTAS = 'pautas.json';
 const ARQUIVO_STATUS = 'motor-status.json';
 const AGORA = new Date();
 const JANELA_HORAS = 72;
-const MAX_POR_FONTE = 5;
-const MAX_PAUTAS_PENDENTES = 40;
-const USER_AGENT = 'NoticiaESBot/2.0 (+https://noticiaes.com.br)';
+const MAX_POR_FONTE = 6;
+const MAX_PAUTAS_PENDENTES = 50;
+const USER_AGENT = 'NoticiaESBot/2.1 (+https://noticiaes.com.br)';
+
+const PADRAO_POLITICA = /(elei[cç]|governo|governador|prefeit|prefeito|senado|senador|c[aâ]mara|deputad|assembleia|ales|congresso|presid|stf|tse|ministro|partido|pol[ií]tica|mandato|candidato|vota[cç]|pec|projeto de lei|constitui[cç]|lula|bolsonaro)/i;
+const PADRAO_SEGURANCA = /(pol[ií]cia|pm\b|pmes|pc\b|pces|sesp|bombeir|pris[aã]o|preso|crime|homic[ií]dio|assassin|tr[aá]fico|drogas|opera[cç][aã]o policial|roubo|furto|tiroteio|seguran[cç]a p[uú]blica|delegacia|foragid|mandado)/i;
 
 const fontesHtml = [
+  {
+    nome: 'A Gazeta - Capa',
+    url: 'https://www.agazeta.com.br/',
+    categoria: 'Geral ES',
+    homepage: true,
+    hosts: ['www.agazeta.com.br', 'agazeta.com.br']
+  },
+  {
+    nome: 'Folha Vitória - Capa',
+    url: 'https://www.folhavitoria.com.br/',
+    categoria: 'Geral ES',
+    homepage: true,
+    hosts: ['www.folhavitoria.com.br', 'folhavitoria.com.br']
+  },
+  {
+    nome: 'Tribuna Online - Capa',
+    url: 'https://tribunaonline.com.br/',
+    categoria: 'Geral ES',
+    homepage: true,
+    hosts: ['tribunaonline.com.br', 'www.tribunaonline.com.br']
+  },
+  {
+    nome: 'ES Hoje - Capa',
+    url: 'https://eshoje.com.br/',
+    categoria: 'Geral ES',
+    homepage: true,
+    hosts: ['eshoje.com.br', 'www.eshoje.com.br']
+  },
+  {
+    nome: 'Revista Oeste - Capa',
+    url: 'https://revistaoeste.com/',
+    categoria: 'Política Nacional',
+    homepage: true,
+    hosts: ['revistaoeste.com', 'www.revistaoeste.com']
+  },
+  {
+    nome: 'Gazeta do Povo - Capa',
+    url: 'https://www.gazetadopovo.com.br/',
+    categoria: 'Política Nacional',
+    homepage: true,
+    hosts: ['www.gazetadopovo.com.br', 'gazetadopovo.com.br']
+  },
   {
     nome: 'A Gazeta - Política',
     url: 'https://www.agazeta.com.br/es/politica',
@@ -110,6 +155,14 @@ function resumir(texto = '', limite = 350) {
   return `${corte.slice(0, i > limite * 0.7 ? i : limite).trim()}…`;
 }
 
+function classificarCategoria(titulo, url, fonte) {
+  if (!fonte.homepage) return fonte.categoria;
+  const alvo = `${titulo} ${url}`;
+  if (PADRAO_SEGURANCA.test(alvo)) return 'Segurança Pública';
+  if (PADRAO_POLITICA.test(alvo)) return fonte.categoria === 'Política Nacional' ? 'Política Nacional' : 'Política ES';
+  return fonte.categoria;
+}
+
 async function baixar(url) {
   const resposta = await fetch(url, {
     headers: {
@@ -184,13 +237,14 @@ function extrairLinksLista(html, fonte) {
   const vistos = new Set();
   const re = /<a\b[^>]*href=["']([^"'#]+)["'][^>]*>([\s\S]*?)<\/a>/gi;
   let m;
-  while ((m = re.exec(html)) && resultado.length < 30) {
+  while ((m = re.exec(html)) && resultado.length < 60) {
     const texto = limparHtml(m[2]);
     if (texto.length < 25 || texto.length > 240 || texto.split(' ').length < 4) continue;
     let url;
     try { url = new URL(decodeHtml(m[1]), fonte.url); } catch { continue; }
     if (!fonte.hosts.includes(url.hostname)) continue;
     if (/\.(pdf|jpg|jpeg|png|gif|zip)$/i.test(url.pathname)) continue;
+    if (/\/(autor|tag|categoria|category|busca|search|newsletter|assine|login)(\/|$)/i.test(url.pathname)) continue;
     const chave = url.href.split('#')[0];
     if (vistos.has(chave)) continue;
     vistos.add(chave);
@@ -203,14 +257,16 @@ async function coletarFonteHtml(fonte) {
   const html = await baixar(fonte.url);
   const links = extrairLinksLista(html, fonte);
   const itens = [];
-  for (const link of links.slice(0, 12)) {
+  const limiteDetalhes = fonte.homepage ? 20 : 12;
+  for (const link of links.slice(0, limiteDetalhes)) {
     try {
       const pagina = await baixar(link.url);
       const titulo = limparHtml(meta(pagina, 'og:title') || meta(pagina, 'twitter:title', 'name') || link.tituloLista);
-      const resumoFonte = resumir(meta(pagina, 'og:description') || meta(pagina, 'description', 'name'));
+      const resumoFonte = resumir(meta(pagina, 'og:description') || meta(pagina, 'description', 'name') || link.tituloLista);
       const data = extrairData(pagina);
       if (!titulo || !resumoFonte || !ehRecente(data)) continue;
-      itens.push({ titulo, url: link.url, resumoFonte, data, fonteNome: fonte.nome, categoria: fonte.categoria });
+      const categoria = classificarCategoria(titulo, link.url, fonte);
+      itens.push({ titulo, url: link.url, resumoFonte, data, fonteNome: fonte.nome, categoria });
       if (itens.length >= MAX_POR_FONTE) break;
     } catch (erro) {
       console.warn(`[${fonte.nome}] detalhe ignorado: ${erro.message}`);
@@ -241,7 +297,7 @@ function jaExiste(item, pautas) {
   return pautas.some(p => {
     if (String(p.urlFonte || '').replace(/[?#].*$/, '') === urlLimpa) return true;
     if (normalizar(p.titulo) === normalizar(item.titulo)) return true;
-    return similaridadeTitulos(p.titulo, item.titulo) >= 0.82;
+    return similaridadeTitulos(p.titulo, item.titulo) >= 0.78;
   });
 }
 
@@ -255,9 +311,9 @@ async function principal() {
     try {
       const itens = await coletarFonteHtml(fonte);
       coletados.push(...itens.slice(0, MAX_POR_FONTE));
-      statusFontes.push({ fonte: fonte.nome, ok: true, encontrados: itens.length });
+      statusFontes.push({ fonte: fonte.nome, ok: true, encontrados: itens.length, capa: Boolean(fonte.homepage) });
     } catch (erro) {
-      statusFontes.push({ fonte: fonte.nome, ok: false, erro: erro.message });
+      statusFontes.push({ fonte: fonte.nome, ok: false, erro: erro.message, capa: Boolean(fonte.homepage) });
     }
   }
 
@@ -296,14 +352,22 @@ async function principal() {
 
   const saida = {
     atualizadoEm: AGORA.toISOString(),
-    observacao: 'Pautas coletadas automaticamente. Não publicar sem pesquisa multifuente e redação editorial própria.',
+    observacao: 'Pautas coletadas automaticamente, inclusive manchetes de capa. Não publicar sem pesquisa multifuente, checagem de fonte primária e redação editorial própria.',
+    portaisPrioritarios: [
+      'agazeta.com.br',
+      'folhavitoria.com.br',
+      'tribunaonline.com.br',
+      'eshoje.com.br',
+      'revistaoeste.com',
+      'gazetadopovo.com.br'
+    ],
     pautas: [...pendentes, ...publicadas]
   };
   await fs.writeFile(ARQUIVO_PAUTAS, `${JSON.stringify(saida, null, 2)}\n`, 'utf8');
 
   const status = {
     atualizadoEm: AGORA.toISOString(),
-    modo: 'coleta-de-pautas',
+    modo: 'coleta-de-pautas-e-manchetes-de-capa',
     novasPautas: novas.length,
     pautasPendentes: pendentes.length,
     fontes: statusFontes
