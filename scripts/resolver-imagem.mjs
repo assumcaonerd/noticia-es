@@ -18,13 +18,16 @@ const BUSCAS_MESMA_PAUTA = [
 ];
 
 export function decodeHtml(texto = '') {
-  const mapa = {
-    '&': '&', '"': '"', '&#39;': "'", ''': "'", '<': '<', '>': '>',
-    '&nbsp;': ' ', '&ordm;': 'º', '&ordf;': 'ª'
-  };
   return String(texto)
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-    .replace(/&(amp|quot|#39|apos|lt|gt|nbsp|ordm|ordf);/g, m => mapa[m] || m)
+    .replace(/&/g, '&')
+    .replace(/"/g, '"')
+    .replace(/&#39;|'/g, "'")
+    .replace(/</g, '<')
+    .replace(/>/g, '>')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&ordm;/g, 'º')
+    .replace(/&ordf;/g, 'ª')
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
     .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
 }
