@@ -15,16 +15,22 @@ const publicadas = new Map([
   ['11effe998561c3b8', 'mapa-estadual-pl-psd-mdb-governos-eleicoes-2026'],
   ['ceb3868fbeb99d30', 'condenado-desacato-desobediencia-preso-dez-anos-depois-castelo'],
   ['f16c9ccbc83be345', 'mulher-ferida-garrafas-briga-cruzeiro-do-sul-cariacica'],
-  ['d52ab59096910dc0', 'augusto-cury-cresce-nas-redes-apos-debate-avante-busca-espaco-fora-polarizacao']
+  ['d52ab59096910dc0', 'augusto-cury-cresce-nas-redes-apos-debate-avante-busca-espaco-fora-polarizacao'],
+  ['a4437bb8bc7d2d57', 'manifesto-mulheres-negras-eleicoes-2026-representacao-orcamento-violencia']
 ]);
 
+let alterou = false;
 for (const pauta of dados.pautas || []) {
   const slug = publicadas.get(pauta.id);
   if (!slug) continue;
+  if (pauta.status === 'publicada' && pauta.slugPublicado === slug && pauta.publicadaEm) continue;
   pauta.status = 'publicada';
   pauta.slugPublicado = slug;
-  pauta.publicadaEm = agora;
+  pauta.publicadaEm = pauta.publicadaEm || agora;
+  alterou = true;
 }
 
-dados.atualizadoEm = agora;
-await fs.writeFile(arquivo, JSON.stringify(dados, null, 2) + '\n', 'utf8');
+if (alterou) {
+  dados.atualizadoEm = agora;
+  await fs.writeFile(arquivo, JSON.stringify(dados, null, 2) + '\n', 'utf8');
+}
