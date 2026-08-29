@@ -16,7 +16,9 @@ const publicadas = new Map([
   ['ceb3868fbeb99d30', 'condenado-desacato-desobediencia-preso-dez-anos-depois-castelo'],
   ['f16c9ccbc83be345', 'mulher-ferida-garrafas-briga-cruzeiro-do-sul-cariacica'],
   ['d52ab59096910dc0', 'augusto-cury-cresce-nas-redes-apos-debate-avante-busca-espaco-fora-polarizacao'],
-  ['a4437bb8bc7d2d57', 'manifesto-mulheres-negras-eleicoes-2026-representacao-orcamento-violencia']
+  ['a4437bb8bc7d2d57', 'manifesto-mulheres-negras-eleicoes-2026-representacao-orcamento-violencia'],
+  ['26e847d31bf136d1', 'sabatina-lula-divida-publica-investigacoes-campanha-2026'],
+  ['542a5a1cfee9ac73', 'antonio-gobbi-morte-canal-vitoria-investigacao-tentativas-bancarias']
 ]);
 
 let alterou = false;
