@@ -11,7 +11,8 @@ const publicadas = new Map([
   ['61cad3b13e5d93a8', 'pec-fim-escala-6x1-relatorio-favoravel-ccj-senado'],
   ['8e8ca6451691d7b6', 'dupla-presa-furto-cabos-alta-tensao-bento-ferreira-vitoria'],
   ['f7e86b04c221f172', 'professor-fabian-senado-es-educacao-seguranca-psol-2026'],
-  ['031c4f772d1247af', 'tse-forcas-federais-cinco-estados-eleicoes-2026']
+  ['031c4f772d1247af', 'tse-forcas-federais-cinco-estados-eleicoes-2026'],
+  ['11effe998561c3b8', 'mapa-estadual-pl-psd-mdb-governos-eleicoes-2026']
 ]);
 
 for (const pauta of dados.pautas || []) {
