@@ -18,7 +18,9 @@
     "homem-e-preso-10-anos-apos-ocorrencia-por-desacato-e-desobediencia-no-es":
       "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1774902331248_2021_05_11_delegacia_de_castelo_491699_article.jpg",
     "horario-eleitoral-comeca-es-governo-senado-assembleia-2026":
-      "https://cdn2.tribunaonline.com.br/img/Artigo-Destaque/320000/615x300/Candidatos-ao-governo-e-Senado-estreiam-hoje-na-TV0032944900202608271916/scaleDownProportionalFillBackground-1.jpg?fallback=https%3A%2F%2Fcdn2.tribunaonline.com.br%2Fimg%2FArtigo-Destaque%2F320000%2FCandidatos-ao-governo-e-Senado-estreiam-hoje-na-TV0032944900202608271916.jpg%3Fxid%3D1512658&amp;xid=1512658",
+      "https://cdn2.tribunaonline.com.br/img/Artigo-Destaque/320000/615x300/Candidatos-ao-governo-e-Senado-estreiam-hoje-na-TV0032944900202608271916/scaleDownProportionalFillBackground-1.jpg?fallback=https%3A%2F%2Fcdn2.tribunaonline.com.br%2Fimg%2FArtigo-Destaque%2F320000%2FCandidatos-ao-governo-e-Senado-estreiam-hoje-na-TV0032944900202608271916.jpg%3Fxid%3D1512658&xid=1512658",
+    "horario-eleitoral-governo-es-ferraco-pazolini-helder":
+      "https://f.i.uol.com.br/fotografia/2026/08/27/17878433866a90533ae90ca_1787843386_3x2_xl.jpg",
     "onde-estava-augusto-cury":
       "https://s2-oglobo.glbimg.com/EB1Qw1eFocGeGNM3_uq99LhBsYI=/642x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/F/B/7IIcADSRiF3mXVrj5HOw/whatsapp-image-2026-08-14-at-10.29.06.jpeg",
     "pl-messias-donato-denuncia-maus-tratos-embalagens-racao":
@@ -28,7 +30,7 @@
     "preso-suspeito-explosao-incendio-viatura-pm-linhares":
       "https://uploads.folhavitoria.com.br/imagens/2026/08/Viatura-da-PM-pega-fogo-apos-motociclista-deixar-mochila-sobre-veiculo-e-objeto-explodir-em-Linhares.jpg",
     "prisao-castelo-dez-anos-desacato-desobediencia-pm":
-      "https://netdeal.com.br/api/images/proxy?quality=100&amp;width=1200&amp;src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1774902331248_2021_05_11_delegacia_de_castelo_491699_article.jpg",
+      "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1774902331248_2021_05_11_delegacia_de_castelo_491699_article.jpg",
     "quaest-expoe-forcas-e-fragilidades-ricardo-pazolini-helder-es":
       "https://f.i.uol.com.br/fotografia/2026/08/27/17878433866a90533ae90ca_1787843386_3x2_xl.jpg",
     "ricardo-ferraco-lidera-e-venceria-segundo-turno-no-es-quaest":
