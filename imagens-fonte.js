@@ -9,6 +9,8 @@
       "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1787867800224_casagrande_tem_28_contarato_e_rose_9_na_corrida_pelo_senado_no_es_leticia_orlandi_pegoretti.jpg",
     "comerciante-foragido-adolescentes-agua-doce-norte-preso-uberlandia":
       "https://www.folhavitoria.com.br/wp-content/uploads/2025/07/sirene-giroflex-carro-de-policia-viatura.jpg",
+    "dark-horse-banco-master-e-a-regua-que-precisa-valer-para-todos":
+      "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
     "flavio-bolsonaro-faria-lima-mercado-financeiro-sabatina-jornal-nacional":
       "https://f.i.uol.com.br/fotografia/2026/08/26/17877529916a8ef21f7fa23_1787752991_3x2_rt.jpg",
     "flavio-lidera-lula-no-es-quaest-34-a-29-empate-tecnico":
