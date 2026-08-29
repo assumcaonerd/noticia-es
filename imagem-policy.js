@@ -4,11 +4,12 @@
     'Política ES': 'imagens/auto-politica-es.svg',
     'Segurança Pública': 'imagens/auto-seguranca-publica.svg',
     'Política Nacional': 'imagens/auto-politica-nacional.svg',
+    'Opinião': 'imagens/auto-politica-nacional.svg',
     'Geral ES': 'imagens/auto-politica-es.svg'
   };
 
   function ehFonteExterna(src) {
-    return /imgur\.com|i\.ibb|twimg|folhavitoria|netdeal|spayce/i.test(src || '');
+    return /imgur\.com|i\.ibb|twimg|folhavitoria|netdeal|spayce|pleno\.news|uol\.com\.br|glbimg|eshoje|tribunaonline|ebc\.com\.br/i.test(src || '');
   }
 
   function aplicarReferrer(root) {
