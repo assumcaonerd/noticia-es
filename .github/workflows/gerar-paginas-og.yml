@@ -1,0 +1,44 @@
+name: Gerar páginas OG para WhatsApp
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'editorial*.js'
+      - 'noticias.js'
+      - 'opiniao.js'
+      - 'imagens-fonte.js'
+      - 'scripts/gerar-paginas-og.mjs'
+      - '.github/workflows/gerar-paginas-og.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gerar-og-noticia-es
+  cancel-in-progress: true
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Gerar m/{slug}.html
+        run: node scripts/gerar-paginas-og.mjs
+      - name: Publicar páginas
+        shell: bash
+        run: |
+          if git diff --quiet -- m; then
+            echo "Nenhuma página OG nova."
+            exit 0
+          fi
+          git config user.name "Notícia ES Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add m
+          git commit -m "og: gera páginas estáticas para prévia do WhatsApp"
+          git pull --rebase origin main
+          git push origin main

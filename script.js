@@ -32,7 +32,7 @@
   }
 
   function linkMateria(noticia) {
-    return `noticia.html?slug=${encodeURIComponent(noticia.slug)}`;
+    return `m/${encodeURIComponent(noticia.slug)}.html`;
   }
 
   function slugCategoria(categoria) {
@@ -194,7 +194,7 @@
     if (ogTitle) ogTitle.content = n.titulo;
     if (ogDesc) ogDesc.content = n.resumo;
     if (ogImage) ogImage.content = n.imagem;
-    if (ogUrl) ogUrl.content = window.location.href;
+    if (ogUrl) ogUrl.content = `https://noticiaes.com.br/m/${n.slug}.html`;
     if (twitterTitle) twitterTitle.content = n.titulo;
     if (twitterDesc) twitterDesc.content = n.resumo;
     if (twitterImage) twitterImage.content = n.imagem;
@@ -265,7 +265,8 @@
   }
 
   function compartilhar(rede, noticia) {
-    const url = encodeURIComponent(window.location.href);
+    const canonico = `https://noticiaes.com.br/m/${encodeURIComponent(noticia.slug)}.html`;
+    const url = encodeURIComponent(canonico);
     const texto = encodeURIComponent(noticia.titulo);
     let destino = '';
 
