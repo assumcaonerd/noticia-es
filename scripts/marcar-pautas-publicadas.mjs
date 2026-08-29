@@ -14,7 +14,8 @@ const publicadas = new Map([
   ['031c4f772d1247af', 'tse-forcas-federais-cinco-estados-eleicoes-2026'],
   ['11effe998561c3b8', 'mapa-estadual-pl-psd-mdb-governos-eleicoes-2026'],
   ['ceb3868fbeb99d30', 'condenado-desacato-desobediencia-preso-dez-anos-depois-castelo'],
-  ['f16c9ccbc83be345', 'mulher-ferida-garrafas-briga-cruzeiro-do-sul-cariacica']
+  ['f16c9ccbc83be345', 'mulher-ferida-garrafas-briga-cruzeiro-do-sul-cariacica'],
+  ['d52ab59096910dc0', 'augusto-cury-cresce-nas-redes-apos-debate-avante-busca-espaco-fora-polarizacao']
 ]);
 
 for (const pauta of dados.pautas || []) {
