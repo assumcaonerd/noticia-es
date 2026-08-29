@@ -18,7 +18,8 @@ const publicadas = new Map([
   ['d52ab59096910dc0', 'augusto-cury-cresce-nas-redes-apos-debate-avante-busca-espaco-fora-polarizacao'],
   ['a4437bb8bc7d2d57', 'manifesto-mulheres-negras-eleicoes-2026-representacao-orcamento-violencia'],
   ['26e847d31bf136d1', 'sabatina-lula-divida-publica-investigacoes-campanha-2026'],
-  ['542a5a1cfee9ac73', 'antonio-gobbi-morte-canal-vitoria-investigacao-tentativas-bancarias']
+  ['542a5a1cfee9ac73', 'antonio-gobbi-morte-canal-vitoria-investigacao-tentativas-bancarias'],
+  ['b3f8a8fd23e14397', 'flavio-estreia-tv-voto-feminino-lula-ataques-eleicoes-2026']
 ]);
 
 let alterou = false;
