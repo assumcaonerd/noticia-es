@@ -10,7 +10,7 @@
     "comerciante-foragido-adolescentes-agua-doce-norte-preso-uberlandia":
       "https://www.folhavitoria.com.br/wp-content/uploads/2025/07/sirene-giroflex-carro-de-policia-viatura.jpg",
     "dark-horse-banco-master-e-a-regua-que-precisa-valer-para-todos":
-      "https://f.i.uol.com.br/fotografia/2026/08/05/17859438786a7357465a636_1785943878_3x2_md.jpg",
+      "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/WhatsApp-Image-2026-08-28-at-22.05.17.jpeg?crop=0&h=283&quality=90&w=419",
     "flavio-bolsonaro-faria-lima-mercado-financeiro-sabatina-jornal-nacional":
       "https://f.i.uol.com.br/fotografia/2026/08/26/17877529916a8ef21f7fa23_1787752991_3x2_rt.jpg",
     "flavio-lidera-lula-no-es-quaest-34-a-29-empate-tecnico":
