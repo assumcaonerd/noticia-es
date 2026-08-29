@@ -12,13 +12,16 @@ const ARQUIVO_NOTICIAS = 'noticias.js';
 const ARQUIVO_OVERLAY = 'imagens-fonte.js';
 const ARQUIVO_PAUTAS = 'pautas.json';
 const ARQUIVO_STATUS = 'fiscal-imagens-status.json';
-const ARQUIVOS_MATERIA = [
-  'noticias.js',
-  'editorial.js', 'editorial-2.js', 'editorial-3.js', 'editorial-4.js',
-  'editorial-5.js', 'editorial-6.js', 'editorial-7.js', 'editorial-8.js',
-  'editorial-9.js', 'editorial-10.js',
-  'opiniao.js', 'manual-gilvan.js'
-];
+
+async function listarArquivosMateria() {
+  const nomes = await fs.readdir('.');
+  const editoriais = nomes.filter((n) => /^editorial(-\d+)?\.js$/.test(n)).sort((a, b) => {
+    const na = Number((a.match(/editorial-(\d+)/) || [,'0'])[1]);
+    const nb = Number((b.match(/editorial-(\d+)/) || [,'0'])[1]);
+    return na - nb;
+  });
+  return ['noticias.js', ...editoriais, 'opiniao.js', 'manual-gilvan.js'];
+}
 
 function ehRuim(url = '') {
   const u = String(url || '');
@@ -37,7 +40,8 @@ function fonteDoConteudo(n) {
 
 async function carregarNoticias() {
   const contexto = { noticias: [] };
-  for (const arquivo of ARQUIVOS_MATERIA) {
+  const arquivos = await listarArquivosMateria();
+  for (const arquivo of arquivos) {
     try {
       const codigo = await fs.readFile(arquivo, 'utf8');
       vm.runInNewContext(
