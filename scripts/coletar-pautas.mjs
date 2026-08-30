@@ -69,11 +69,15 @@ function normalizar(texto = '') {
 }
 function idDaUrl(url) { return crypto.createHash('sha256').update(url).digest('hex').slice(0, 16); }
 function decodeHtml(texto = '') {
-  const mapa = {
-    '&': '&', '"': '"', '&#39;': "'", ''': "'", '<': '<', '>': '>',
-    '&nbsp;': ' ', '&ordm;': 'º', '&ordf;': 'ª'
+  const entidades = {
+    amp: '&', quot: '"', '#39': "'", apos: "'", lt: '<', gt: '>',
+    nbsp: ' ', ordm: 'º', ordf: 'ª'
   };
-  return String(texto).replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').replace(/&(amp|quot|#39|apos|lt|gt|nbsp|ordm|ordf);/g, m => mapa[m] || m).replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n))).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
+  return String(texto)
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+    .replace(/&([a-z]+|#39);/gi, (m, entidade) => entidades[entidade.toLowerCase()] ?? m)
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
 }
 function limparHtml(texto = '') {
   return decodeHtml(texto).replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
