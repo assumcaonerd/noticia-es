@@ -7,11 +7,12 @@ const ARQUIVO_STATUS = 'motor-status.json';
 const AGORA = new Date();
 const JANELA_HORAS = 72;
 const MAX_POR_FONTE = 6;
-const MAX_PAUTAS_PENDENTES = 50;
-const USER_AGENT = 'NoticiaESBot/2.1 (+https://noticiaes.com.br)';
+const MAX_PAUTAS_PENDENTES = 80;
+const USER_AGENT = 'NoticiaESBot/2.4 (+https://noticiaes.com.br)';
 
 const PADRAO_POLITICA = /(elei[cç]|governo|governador|prefeit|prefeito|senado|senador|c[âa]mara|deputad|assembleia|ales|congresso|presid|stf|tse|ministro|partido|pol[ií]tica|mandato|candidato|vota[cç]|pec|projeto de lei|constitui[cç]|lula|bolsonaro)/i;
-const PADRAO_SEGURANCA = /(pol[ií]cia|pm\b|pmes|pc\b|pces|sesp|bombeir|pris[ãa]o|preso|crime|homic[ií]dio|assassin|tr[áa]fico|drogas|opera[cç][ãa]o policial|roubo|furto|tiroteio|seguran[cç]a p[ú]blica|delegacia|foragid|mandado)/i;
+const PADRAO_SEGURANCA = /(pol[ií]cia|pm\b|pmes|pc\b|pces|sesp|bombeir|pris[ãa]o|preso|crime|homic[ií]dio|assassin|tr[áa]fico|drogas|opera[cç][ãa]o policial|roubo|furto|tiroteio|seguran[cç]a p[ú]blica|delegacia|foragid|mandado|socioeducativ|prisional)/i;
+const FILTRO_NACIONAL = /(elei[cç]|senado|c[âa]mara|congresso|governo|presid|stf|tse|seguran[cç]a|pec|projeto|comiss[ãa]o|vota[cç]|pol[ií]tica|partido|constitui[cç]|medida provis[óo]ria|mp\b|lula|bolsonaro|ministro|deputad|brasil|brazil)/i;
 
 const fontesHtml = [
   { nome: 'A Gazeta - Capa', url: 'https://www.agazeta.com.br/', categoria: 'Geral ES', homepage: true, hosts: ['www.agazeta.com.br', 'agazeta.com.br'] },
@@ -25,7 +26,10 @@ const fontesHtml = [
   { nome: 'Folha Vitória - Polícia', url: 'https://www.folhavitoria.com.br/policia/', categoria: 'Segurança Pública', hosts: ['www.folhavitoria.com.br', 'folhavitoria.com.br'] },
   { nome: 'SESP-ES', url: 'https://sesp.es.gov.br/Noticias', categoria: 'Segurança Pública', hosts: ['sesp.es.gov.br'] },
   { nome: 'Polícia Civil do ES', url: 'https://pc.es.gov.br/Noticias', categoria: 'Segurança Pública', hosts: ['pc.es.gov.br'] },
-  { nome: 'Corpo de Bombeiros do ES', url: 'https://cb.es.gov.br/Noticias', categoria: 'Segurança Pública', hosts: ['cb.es.gov.br'] }
+  { nome: 'Corpo de Bombeiros do ES', url: 'https://cb.es.gov.br/Noticias', categoria: 'Segurança Pública', hosts: ['cb.es.gov.br'] },
+  { nome: 'Polícia Militar do ES', url: 'https://pm.es.gov.br/Noticias', categoria: 'Segurança Pública', hosts: ['pm.es.gov.br'] },
+  { nome: 'Polícia Penal do ES', url: 'https://sejus.es.gov.br/noticias', categoria: 'Segurança Pública', hosts: ['sejus.es.gov.br'] },
+  { nome: 'Agentes Socioeducativos do ES', url: 'https://iases.es.gov.br/Noticias', categoria: 'Segurança Pública', hosts: ['iases.es.gov.br'] }
 ];
 
 const fontesRss = [
@@ -33,9 +37,31 @@ const fontesRss = [
     nome: 'Senado Notícias',
     url: 'https://www12.senado.leg.br/noticias/feed/todasnoticias',
     categoria: 'Política Nacional',
-    filtroTitulo: /(elei[cç]|senado|c[âa]mara|congresso|governo|presid|stf|seguran[cç]a|pec|projeto|comiss[ãa]o|vota[cç]|pol[ií]tica|partido|constitui[cç]|medida provis[óo]ria|mp\b)/i
+    filtroTitulo: FILTRO_NACIONAL
   },
-  { nome: 'Agência Brasil - Política', url: 'https://agenciabrasil.ebc.com.br/rss/politica/feed.xml', categoria: 'Política Nacional' }
+  {
+    nome: 'Câmara dos Deputados',
+    url: 'https://www.camara.leg.br/noticias/rss/ultimas',
+    categoria: 'Política Nacional',
+    filtroTitulo: FILTRO_NACIONAL
+  },
+  { nome: 'Agência Brasil - Política', url: 'https://agenciabrasil.ebc.com.br/rss/politica/feed.xml', categoria: 'Política Nacional' },
+  { nome: 'Folha de S.Paulo - Poder', url: 'https://feeds.folha.uol.com.br/poder/rss091.xml', categoria: 'Política Nacional' },
+  { nome: 'Estadão - Política', url: 'https://www.estadao.com.br/rss/politica.xml', categoria: 'Política Nacional' },
+  { nome: 'O Globo - Política', url: 'https://oglobo.globo.com/rss.xml?secao=politica', categoria: 'Política Nacional' },
+  { nome: 'Veja', url: 'https://veja.abril.com.br/feed/', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
+  { nome: 'Valor Econômico', url: 'https://valor.globo.com/rss', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
+  { nome: 'Correio Braziliense', url: 'https://www.correiobraziliense.com.br/rss/politica.xml', categoria: 'Política Nacional' },
+  { nome: 'g1 - Política', url: 'https://g1.globo.com/rss/g1/politica/', categoria: 'Política Nacional' },
+  { nome: 'UOL Notícias', url: 'https://rss.uol.com.br/feed/noticias.xml', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
+  { nome: 'CNN Brasil', url: 'https://www.cnnbrasil.com.br/feed/', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
+  { nome: 'Band News', url: 'https://www.band.uol.com.br/rss/noticias.xml', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
+  { nome: 'CBN', url: 'https://cbn.globo.com/rss/', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
+  { nome: 'Reuters', url: 'https://feeds.reuters.com/reuters/worldNews', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
+  { nome: 'Associated Press', url: 'https://feeds.apnews.com/apf-topnews', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
+  { nome: 'EFE', url: 'https://www.efe.com/efe/usa/2/rss', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
+  { nome: 'Xinhua', url: 'https://english.news.cn/rss/worldrss.xml', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
+  { nome: 'TASS', url: 'https://tass.com/rss/v2.xml', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL }
 ];
 
 function normalizar(texto = '') {
@@ -44,7 +70,7 @@ function normalizar(texto = '') {
 function idDaUrl(url) { return crypto.createHash('sha256').update(url).digest('hex').slice(0, 16); }
 function decodeHtml(texto = '') {
   const mapa = {
-    '&amp;': '&', '&quot;': '"', '&#39;': "'", '&apos;': "'", '&lt;': '<', '&gt;': '>',
+    '&': '&', '"': '"', '&#39;': "'", ''': "'", '<': '<', '>': '>',
     '&nbsp;': ' ', '&ordm;': 'º', '&ordf;': 'ª'
   };
   return String(texto).replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').replace(/&(amp|quot|#39|apos|lt|gt|nbsp|ordm|ordf);/g, m => mapa[m] || m).replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n))).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
@@ -183,7 +209,18 @@ async function principal() {
   }
   const publicadas = existentes.filter(p => p.status === 'publicada').slice(0, 200);
   const pendentes = [...novas, ...existentes.filter(p => p.status !== 'publicada')].sort((a, b) => new Date(b.dataFonte || b.descobertaEm) - new Date(a.dataFonte || a.descobertaEm)).slice(0, MAX_PAUTAS_PENDENTES);
-  const saida = { atualizadoEm: AGORA.toISOString(), observacao: 'Pautas coletadas automaticamente, inclusive manchetes de capa. Não publicar sem pesquisa multifuente, checagem de fonte primária e redação editorial própria.', portaisPrioritarios: ['agazeta.com.br', 'folhavitoria.com.br', 'tribunaonline.com.br', 'revistaoeste.com', 'gazetadopovo.com.br'], pautas: [...pendentes, ...publicadas] };
+  const saida = {
+    atualizadoEm: AGORA.toISOString(),
+    observacao: 'Pautas coletadas automaticamente. Folha, Estadão, O Globo e Veja entram como pauta bruta; a reescrita de Política Nacional aplica a régua editorial. Não publicar sem pesquisa multifonte e redação própria.',
+    portaisPrioritarios: [
+      'agazeta.com.br', 'folhavitoria.com.br', 'tribunaonline.com.br', 'revistaoeste.com', 'gazetadopovo.com.br',
+      'pm.es.gov.br', 'sejus.es.gov.br', 'iases.es.gov.br', 'camara.leg.br',
+      'folha.uol.com.br', 'estadao.com.br', 'oglobo.globo.com', 'veja.abril.com.br', 'valor.globo.com',
+      'correiobraziliense.com.br', 'g1.globo.com', 'uol.com.br', 'cnnbrasil.com.br', 'band.uol.com.br', 'cbn.globo.com',
+      'reuters.com', 'apnews.com', 'efe.com', 'news.cn', 'tass.com'
+    ],
+    pautas: [...pendentes, ...publicadas]
+  };
   await fs.writeFile(ARQUIVO_PAUTAS, `${JSON.stringify(saida, null, 2)}\n`, 'utf8');
   await fs.writeFile(ARQUIVO_STATUS, `${JSON.stringify({ atualizadoEm: AGORA.toISOString(), modo: 'coleta-de-pautas-e-manchetes-de-capa', novasPautas: novas.length, pautasPendentes: pendentes.length, fontes: statusFontes }, null, 2)}\n`, 'utf8');
   console.log(`Coleta concluída: ${novas.length} nova(s) pauta(s); ${pendentes.length} pendente(s).`);
