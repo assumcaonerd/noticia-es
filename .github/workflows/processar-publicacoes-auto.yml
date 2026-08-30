@@ -23,30 +23,43 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Atualizar base antes do processamento
-        run: git pull --rebase origin main
-
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '24'
 
-      - name: Processar recibos
-        run: node scripts/processar-publicacoes-auto.mjs
-
-      - name: Validar pautas.json
-        run: node -e "JSON.parse(require('fs').readFileSync('pautas.json','utf8')); console.log('pautas.json válido')"
-
-      - name: Salvar status das pautas
+      - name: Registrar publicações com proteção contra concorrência
         shell: bash
         run: |
-          if git diff --quiet -- pautas.json publicacoes-pendentes/; then
-            echo "Nenhuma pauta para registrar."
-            exit 0
-          fi
+          set -euo pipefail
+
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A pautas.json publicacoes-pendentes/
-          git commit -m "motor: registra matérias automáticas publicadas"
-          git pull --rebase origin main
-          git push origin main
+
+          for tentativa in 1 2 3 4 5; do
+            echo "Tentativa ${tentativa}/5: sincronizando com a main..."
+            git fetch origin main
+            git reset --hard origin/main
+
+            node scripts/processar-publicacoes-auto.mjs
+            node -e "JSON.parse(require('fs').readFileSync('pautas.json','utf8')); console.log('pautas.json válido')"
+
+            if git diff --quiet -- pautas.json publicacoes-pendentes/; then
+              echo "Nenhuma pauta para registrar."
+              exit 0
+            fi
+
+            git add -A pautas.json publicacoes-pendentes/
+            git commit -m "motor: registra matérias automáticas publicadas"
+
+            if git push origin HEAD:main; then
+              echo "Publicações registradas com sucesso."
+              exit 0
+            fi
+
+            echo "A main mudou durante o processamento. Recomeçando a partir do estado mais recente..."
+            sleep $((tentativa * 2))
+          done
+
+          echo "Falha ao registrar publicações após 5 tentativas por concorrência na main."
+          exit 1
