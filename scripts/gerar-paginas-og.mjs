@@ -39,7 +39,8 @@ function ehBoaParaWhatsapp(url = '') {
 async function listarArquivosMateria() {
   const nomes = await fs.readdir(RAIZ);
   const editoriais = nomes.filter((n) => /^editorial(-\d+)?\.js$/.test(n));
-  return ['noticias.js', ...editoriais, 'opiniao.js', 'manual-gilvan.js'];
+  const automaticos = nomes.filter((n) => /^auto-redacao-\d{8}-\d{6}\.js$/.test(n));
+  return ['noticias.js', ...editoriais, ...automaticos, 'opiniao.js', 'manual-gilvan.js'];
 }
 
 async function carregarOverlay() {
