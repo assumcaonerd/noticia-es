@@ -1,6 +1,8 @@
 # Notícia ES
 
-Portal estático de notícias de política, segurança pública e opinião do Espírito Santo e do Brasil.
+Portal estático de notícias de política, segurança pública e opinião do Espírito Santo e do Brasil. Linha à direita. Em Política Nacional, Folha, Estadão, O Globo e Veja entram como atores a serem medidos pela mesma régua — não como árbitros da pauta.
+
+Doutrina de redação: [`LINHA-EDITORIAL.md`](LINHA-EDITORIAL.md).
 
 ## Estrutura
 
@@ -13,6 +15,7 @@ Portal estático de notícias de política, segurança pública e opinião do Es
 - `estilo.css`: estilos do portal
 - `script.js`: busca, filtros, montagem da home e matérias
 - `CNAME`: domínio personalizado `noticiaes.com.br`
+- `LINHA-EDITORIAL.md`: regra para matérias de Política Nacional
 
 ## Publicação automática
 
