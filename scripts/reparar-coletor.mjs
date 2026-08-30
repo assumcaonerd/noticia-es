@@ -53,13 +53,20 @@ function repararDecodeEncadeado(texto) {
 
 function removerEsHoje(texto) {
   const antes = texto;
+
+  // Remove somente a entrada da fonte ES Hoje. Não apaga outras linhas que
+  // porventura contenham o domínio, como a declaração de portaisPrioritarios.
   texto = texto
     .split('\n')
-    .filter(linha => !linha.includes("nome: 'ES Hoje - Capa'") && !linha.includes("'eshoje.com.br'"))
+    .filter(linha => !linha.includes("nome: 'ES Hoje - Capa'"))
     .join('\n');
+
+  // Remove apenas o item eshoje.com.br de arrays/listas, preservando a linha.
   texto = texto
     .replace(/,\s*'eshoje\.com\.br'/g, '')
-    .replace(/'eshoje\.com\.br'\s*,\s*/g, '');
+    .replace(/'eshoje\.com\.br'\s*,\s*/g, '')
+    .replace(/'eshoje\.com\.br'/g, '');
+
   return { texto, alterado: texto !== antes };
 }
 
