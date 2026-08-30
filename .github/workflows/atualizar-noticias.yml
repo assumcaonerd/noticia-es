@@ -12,6 +12,7 @@ on:
       - 'scripts/coletar-flavio-bolsonaro.mjs'
       - 'scripts/coletar-redes-locais.mjs'
       - 'scripts/coletar-telegram-es.mjs'
+      - 'scripts/coletar-ales.mjs'
       - 'scripts/finalizar-rodada10.mjs'
       - 'scripts/marcar-rodada11.mjs'
       - 'scripts/marcar-rodada12.mjs'
@@ -88,6 +89,7 @@ jobs:
           node --check scripts/coletar-flavio-bolsonaro.mjs
           node --check scripts/coletar-redes-locais.mjs
           node --check scripts/coletar-telegram-es.mjs
+          node --check scripts/coletar-ales.mjs
           node --check scripts/enriquecer-imagens-pautas.mjs
           node --check scripts/fiscal-imagens.mjs
           node scripts/validar-coletor.mjs
@@ -100,6 +102,7 @@ jobs:
           node scripts/coletar-flavio-bolsonaro.mjs
           node scripts/coletar-redes-locais.mjs
           node scripts/coletar-telegram-es.mjs
+          node scripts/coletar-ales.mjs
           node scripts/enriquecer-imagens-pautas.mjs
 
       - name: Impedir mutação automática do código
