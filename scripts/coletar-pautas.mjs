@@ -17,7 +17,6 @@ const fontesHtml = [
   { nome: 'A Gazeta - Capa', url: 'https://www.agazeta.com.br/', categoria: 'Geral ES', homepage: true, hosts: ['www.agazeta.com.br', 'agazeta.com.br'] },
   { nome: 'Folha Vitória - Capa', url: 'https://www.folhavitoria.com.br/', categoria: 'Geral ES', homepage: true, hosts: ['www.folhavitoria.com.br', 'folhavitoria.com.br'] },
   { nome: 'Tribuna Online - Capa', url: 'https://tribunaonline.com.br/', categoria: 'Geral ES', homepage: true, hosts: ['tribunaonline.com.br', 'www.tribunaonline.com.br'] },
-  { nome: 'ES Hoje - Capa', url: 'https://eshoje.com.br/', categoria: 'Geral ES', homepage: true, hosts: ['eshoje.com.br', 'www.eshoje.com.br'] },
   { nome: 'Revista Oeste - Capa', url: 'https://revistaoeste.com/', categoria: 'Política Nacional', homepage: true, hosts: ['revistaoeste.com', 'www.revistaoeste.com'] },
   { nome: 'Gazeta do Povo - Capa', url: 'https://www.gazetadopovo.com.br/', categoria: 'Política Nacional', homepage: true, hosts: ['www.gazetadopovo.com.br', 'gazetadopovo.com.br'] },
   { nome: 'A Gazeta - Política', url: 'https://www.agazeta.com.br/es/politica', categoria: 'Política ES', hosts: ['www.agazeta.com.br', 'agazeta.com.br'] },
@@ -44,7 +43,10 @@ function normalizar(texto = '') {
 }
 function idDaUrl(url) { return crypto.createHash('sha256').update(url).digest('hex').slice(0, 16); }
 function decodeHtml(texto = '') {
-  const mapa = { '&': '&', '"': '"', '&#39;': "'", ''': "'", '<': '<', '>': '>', '&nbsp;': ' ', '&ordm;': 'º', '&ordf;': 'ª' };
+  const mapa = {
+    '&amp;': '&', '&quot;': '"', '&#39;': "'", '&apos;': "'", '&lt;': '<', '&gt;': '>',
+    '&nbsp;': ' ', '&ordm;': 'º', '&ordf;': 'ª'
+  };
   return String(texto).replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').replace(/&(amp|quot|#39|apos|lt|gt|nbsp|ordm|ordf);/g, m => mapa[m] || m).replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n))).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
 }
 function limparHtml(texto = '') {
@@ -181,7 +183,7 @@ async function principal() {
   }
   const publicadas = existentes.filter(p => p.status === 'publicada').slice(0, 200);
   const pendentes = [...novas, ...existentes.filter(p => p.status !== 'publicada')].sort((a, b) => new Date(b.dataFonte || b.descobertaEm) - new Date(a.dataFonte || a.descobertaEm)).slice(0, MAX_PAUTAS_PENDENTES);
-  const saida = { atualizadoEm: AGORA.toISOString(), observacao: 'Pautas coletadas automaticamente, inclusive manchetes de capa. Não publicar sem pesquisa multifuente, checagem de fonte primária e redação editorial própria.', portaisPrioritarios: ['agazeta.com.br', 'folhavitoria.com.br', 'tribunaonline.com.br', 'eshoje.com.br', 'revistaoeste.com', 'gazetadopovo.com.br'], pautas: [...pendentes, ...publicadas] };
+  const saida = { atualizadoEm: AGORA.toISOString(), observacao: 'Pautas coletadas automaticamente, inclusive manchetes de capa. Não publicar sem pesquisa multifuente, checagem de fonte primária e redação editorial própria.', portaisPrioritarios: ['agazeta.com.br', 'folhavitoria.com.br', 'tribunaonline.com.br', 'revistaoeste.com', 'gazetadopovo.com.br'], pautas: [...pendentes, ...publicadas] };
   await fs.writeFile(ARQUIVO_PAUTAS, `${JSON.stringify(saida, null, 2)}\n`, 'utf8');
   await fs.writeFile(ARQUIVO_STATUS, `${JSON.stringify({ atualizadoEm: AGORA.toISOString(), modo: 'coleta-de-pautas-e-manchetes-de-capa', novasPautas: novas.length, pautasPendentes: pendentes.length, fontes: statusFontes }, null, 2)}\n`, 'utf8');
   console.log(`Coleta concluída: ${novas.length} nova(s) pauta(s); ${pendentes.length} pendente(s).`);
