@@ -25,7 +25,7 @@ on:
       - 'scripts/marcar-rodada6.mjs'
       - 'scripts/marcar-rodada7.mjs'
       - 'scripts/marcar-rodada8.mjs'
-      - 'scripts/reparar-coletor.mjs'
+      - 'scripts/validar-coletor.mjs'
       - '.github/workflows/atualizar-noticias.yml'
 
 permissions:
@@ -44,10 +44,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
+
       - name: Registrar matérias já publicadas
         shell: bash
         run: |
@@ -73,8 +75,19 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
-      - name: Reparar coletores
-        run: node scripts/reparar-coletor.mjs
+
+      - name: Validar sintaxe e integridade do coletor
+        shell: bash
+        run: |
+          node --check scripts/coletar-pautas.mjs
+          node --check scripts/resolver-imagem.mjs
+          node --check scripts/coletar-portais-extra.mjs
+          node --check scripts/refinar-fontes-nacionais.mjs
+          node --check scripts/coletar-flavio-bolsonaro.mjs
+          node --check scripts/enriquecer-imagens-pautas.mjs
+          node --check scripts/fiscal-imagens.mjs
+          node scripts/validar-coletor.mjs
+
       - name: Coletar pautas, manchetes e imagens originais
         run: |
           node scripts/coletar-pautas.mjs
@@ -82,18 +95,30 @@ jobs:
           node scripts/refinar-fontes-nacionais.mjs
           node scripts/coletar-flavio-bolsonaro.mjs
           node scripts/enriquecer-imagens-pautas.mjs
+
+      - name: Impedir mutação automática do código
+        shell: bash
+        run: |
+          if ! git diff --quiet -- scripts/ .github/workflows/atualizar-noticias.yml; then
+            echo "ERRO: a execução tentou alterar código do coletor. Alterações automáticas em scripts são proibidas."
+            git diff -- scripts/ .github/workflows/atualizar-noticias.yml
+            exit 1
+          fi
+          echo "Código do coletor permaneceu imutável durante a execução."
+
       - name: Fiscalizar imagens ausentes
         run: node scripts/fiscal-imagens.mjs
+
       - name: Salvar fila editorial
         shell: bash
         run: |
-          if git diff --quiet -- pautas.json motor-status.json imagens-fonte.js noticias.js fiscal-imagens-status.json scripts/coletar-pautas.mjs scripts/resolver-imagem.mjs editorial-10.js editorial-11.js editorial-12.js editorial-13.js editorial-14.js editorial-16.js editorial-17.js editorial-18.js editorial-19.js; then
+          if git diff --quiet -- pautas.json motor-status.json imagens-fonte.js noticias.js fiscal-imagens-status.json editorial-10.js editorial-11.js editorial-12.js editorial-13.js editorial-14.js editorial-16.js editorial-17.js editorial-18.js editorial-19.js; then
             echo "Nenhuma novidade para registrar."
             exit 0
           fi
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pautas.json motor-status.json imagens-fonte.js noticias.js fiscal-imagens-status.json scripts/coletar-pautas.mjs scripts/resolver-imagem.mjs editorial-10.js editorial-11.js editorial-12.js editorial-13.js editorial-14.js editorial-16.js editorial-17.js editorial-18.js editorial-19.js
-          git commit -m "pautas: atualiza fila, imagens e correções do fiscal"
+          git add pautas.json motor-status.json imagens-fonte.js noticias.js fiscal-imagens-status.json editorial-10.js editorial-11.js editorial-12.js editorial-13.js editorial-14.js editorial-16.js editorial-17.js editorial-18.js editorial-19.js
+          git commit -m "pautas: atualiza fila e imagens do motor"
           git pull --rebase origin main
           git push origin main
