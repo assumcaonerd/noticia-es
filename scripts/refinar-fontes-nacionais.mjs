@@ -3,8 +3,8 @@ import crypto from 'node:crypto';
 
 const ARQUIVO = 'pautas.json';
 const AGORA = new Date();
-const MAX_PENDENTES = 50;
-const USER_AGENT = 'NoticiaESBot/2.3 (+https://noticiaes.com.br)';
+const MAX_PENDENTES = 80;
+const USER_AGENT = 'NoticiaESBot/2.4 (+https://noticiaes.com.br)';
 
 const FONTES = [
   {
@@ -25,7 +25,7 @@ function normalizar(t = '') {
   return String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 }
 function idDaUrl(url) { return crypto.createHash('sha256').update(url).digest('hex').slice(0, 16); }
-function limparHtml(t = '') { return String(t).replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'").replace(/&nbsp;/g,' ').replace(/\s+/g,' ').trim(); }
+function limparHtml(t = '') { return String(t).replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&/g,'&').replace(/"/g,'"').replace(/&#39;|'/g,"'").replace(/&nbsp;/g,' ').replace(/\s+/g,' ').trim(); }
 function meta(html, chave, atributo='property') {
   const k = chave.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
   const regs = [new RegExp(`<meta[^>]+${atributo}=["']${k}["'][^>]+content=["']([^"']*)["'][^>]*>`,'i'),new RegExp(`<meta[^>]+content=["']([^"']*)["'][^>]+${atributo}=["']${k}["'][^>]*>`,'i')];
@@ -71,7 +71,6 @@ function jaExiste(item,pautas){ const u=item.url.replace(/[?#].*$/,''); return p
 const arquivo = JSON.parse(await fs.readFile(ARQUIVO,'utf8'));
 let pautas = Array.isArray(arquivo.pautas) ? arquivo.pautas : [];
 
-// Limpeza de ruído já coletado da Oeste e remoção residual do ES Hoje entre pendentes.
 pautas = pautas.filter(p => {
   if (p.status === 'publicada') return true;
   if (/eshoje\.com\.br/i.test(p.urlFonte || '') || /ES Hoje/i.test(p.fonteNome || '')) return false;
@@ -102,6 +101,12 @@ for (const fonte of FONTES) {
 
 const publicadas=pautas.filter(p=>p.status==='publicada').slice(0,200);
 const pendentes=[...novas,...pautas.filter(p=>p.status!=='publicada')].sort((a,b)=>new Date(b.dataFonte||b.descobertaEm)-new Date(a.dataFonte||a.descobertaEm)).slice(0,MAX_PENDENTES);
-const portais=['agazeta.com.br','folhavitoria.com.br','tribunaonline.com.br','revistaoeste.com','gazetadopovo.com.br','oantagonista.com.br','correiodamanha.com.br'];
+const portais = [...new Set([
+  ...(arquivo.portaisPrioritarios || []),
+  'agazeta.com.br','folhavitoria.com.br','tribunaonline.com.br','revistaoeste.com','gazetadopovo.com.br',
+  'oantagonista.com.br','correiodamanha.com.br','pm.es.gov.br','sejus.es.gov.br','iases.es.gov.br',
+  'folha.uol.com.br','estadao.com.br','oglobo.globo.com','veja.abril.com.br','valor.globo.com',
+  'g1.globo.com','cnnbrasil.com.br','reuters.com'
+])];
 await fs.writeFile(ARQUIVO,JSON.stringify({...arquivo,atualizadoEm:AGORA.toISOString(),portaisPrioritarios:portais,pautas:[...pendentes,...publicadas]},null,2)+'\n','utf8');
 console.log(`Refino nacional concluído: ${novas.length} nova(s) pauta(s).`);
