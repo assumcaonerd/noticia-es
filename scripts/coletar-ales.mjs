@@ -54,7 +54,7 @@ function linksLista(html) {
     if (titulo.length < 20 || titulo.length > 220 || titulo.split(' ').length < 4) continue;
     let u; try { u = new URL(decodeHtml(m[1]), LISTA); } catch { continue; }
     if (!HOSTS.includes(u.hostname)) continue;
-    if (!/\/(Noticia|Comunicacao\/Noticias|Noticias)\//i.test(u.pathname) && !/\/Noticia\//i.test(u.pathname)) continue;
+    if (!/\/Noticia\//i.test(u.pathname) && !/\/Comunicacao\/Noticias/i.test(u.pathname)) continue;
     const limpa = u.href.split('#')[0];
     if (vistos.has(limpa)) continue;
     vistos.add(limpa);
@@ -79,7 +79,6 @@ const arquivo = JSON.parse(await fs.readFile(ARQUIVO, 'utf8'));
 const existentes = Array.isArray(arquivo.pautas) ? arquivo.pautas : [];
 const novas = [];
 let erro = null;
-let encontrados = 0;
 
 try {
   const lista = await baixar(LISTA);
@@ -92,9 +91,7 @@ try {
       const data = dataDaPagina(html);
       const imagem = meta(html, 'og:image') || '';
       if (!titulo || !resumo || !recente(data)) continue;
-      const item = { titulo, url: link.url };
-      if (jaExiste(item, [...existentes, ...novas])) continue;
-      encontradas++;
+      if (jaExiste({ titulo, url: link.url }, [...existentes, ...novas])) continue;
       novas.push({
         id: idDaUrl(link.url),
         titulo,
@@ -112,7 +109,6 @@ try {
       console.warn(`[ALES] detalhe ignorado: ${e.message}`);
     }
   }
-  encontrados = novas.length;
 } catch (e) {
   erro = e.message;
 }
@@ -126,7 +122,7 @@ await fs.writeFile(ARQUIVO, `${JSON.stringify({ ...arquivo, atualizadoEm: AGORA.
 
 try {
   const motor = JSON.parse(await fs.readFile(STATUS, 'utf8'));
-  motor.ales = { atualizadoEm: AGORA.toISOString(), ok: !erro, erro, novas: novas.length, encontrados };
+  motor.ales = { atualizadoEm: AGORA.toISOString(), ok: !erro, erro, novas: novas.length };
   await fs.writeFile(STATUS, `${JSON.stringify(motor, null, 2)}\n`, 'utf8');
 } catch { /* status opcional */ }
 
