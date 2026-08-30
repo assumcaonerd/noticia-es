@@ -4,11 +4,11 @@ import crypto from 'node:crypto';
 const ARQUIVO_PAUTAS = 'pautas.json';
 const AGORA = new Date();
 const JANELA_HORAS = 72;
-const MAX_POR_FONTE = 6;
-const MAX_PAUTAS_PENDENTES = 50;
-const USER_AGENT = 'NoticiaESBot/2.2 (+https://noticiaes.com.br)';
+const MAX_POR_FONTE = 4;
+const MAX_PAUTAS_PENDENTES = 80;
+const USER_AGENT = 'NoticiaESBot/2.4 (+https://noticiaes.com.br)';
 
-const PADRAO_POLITICA = /(elei[cç]|governo|governador|prefeit|prefeito|senado|senador|c[aâ]mara|deputad|assembleia|congresso|presid|stf|tse|ministro|partido|pol[ií]tica|mandato|candidato|vota[cç]|pec|projeto de lei|constitui[cç]|lula|bolsonaro)/i;
+const PADRAO_POLITICA = /(elei[cç]|governo|governador|prefeit|prefeito|senado|senador|c[aâ]mara|deputad|assembleia|congresso|presid|stf|tse|ministro|partido|pol[ií]tica|mandato|candidato|vota[cç]|pec|projeto de lei|constitui[cç]|lula|bolsonaro|brasil|brazil)/i;
 const PADRAO_SEGURANCA = /(pol[ií]cia|pm\b|pc\b|bombeir|pris[aã]o|preso|crime|homic[ií]dio|assassin|tr[aá]fico|drogas|opera[cç][aã]o policial|roubo|furto|tiroteio|seguran[cç]a p[uú]blica|delegacia|foragid|mandado)/i;
 
 const fontes = [
@@ -23,6 +23,54 @@ const fontes = [
     url: 'https://www.correiodamanha.com.br/',
     categoria: 'Política Nacional',
     hosts: ['www.correiodamanha.com.br', 'correiodamanha.com.br']
+  },
+  {
+    nome: 'Folha de S.Paulo - Capa',
+    url: 'https://www.folha.uol.com.br/',
+    categoria: 'Política Nacional',
+    hosts: ['www.folha.uol.com.br', 'folha.uol.com.br', 'www1.folha.uol.com.br']
+  },
+  {
+    nome: 'Estadão - Capa',
+    url: 'https://www.estadao.com.br/',
+    categoria: 'Política Nacional',
+    hosts: ['www.estadao.com.br', 'estadao.com.br']
+  },
+  {
+    nome: 'O Globo - Capa',
+    url: 'https://oglobo.globo.com/',
+    categoria: 'Política Nacional',
+    hosts: ['oglobo.globo.com']
+  },
+  {
+    nome: 'Veja - Capa',
+    url: 'https://veja.abril.com.br/',
+    categoria: 'Política Nacional',
+    hosts: ['veja.abril.com.br']
+  },
+  {
+    nome: 'Valor Econômico - Capa',
+    url: 'https://valor.globo.com/',
+    categoria: 'Política Nacional',
+    hosts: ['valor.globo.com']
+  },
+  {
+    nome: 'g1 - Capa',
+    url: 'https://g1.globo.com/',
+    categoria: 'Política Nacional',
+    hosts: ['g1.globo.com']
+  },
+  {
+    nome: 'CNN Brasil - Capa',
+    url: 'https://www.cnnbrasil.com.br/',
+    categoria: 'Política Nacional',
+    hosts: ['www.cnnbrasil.com.br', 'cnnbrasil.com.br']
+  },
+  {
+    nome: 'Reuters - World',
+    url: 'https://www.reuters.com/world/',
+    categoria: 'Política Nacional',
+    hosts: ['www.reuters.com', 'reuters.com']
   }
 ];
 
@@ -37,8 +85,8 @@ function idDaUrl(url) {
 function decodeHtml(texto = '') {
   return String(texto)
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-    .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'")
-    .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ')
+    .replace(/&/g, '&').replace(/"/g, '"').replace(/&#39;|'/g, "'")
+    .replace(/</g, '<').replace(/>/g, '>').replace(/&nbsp;/g, ' ')
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
     .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
 }
@@ -148,7 +196,7 @@ async function principal() {
       const capa = await baixar(fonte.url);
       const links = linksDaCapa(capa, fonte);
       let adicionadas = 0;
-      for (const link of links.slice(0, 20)) {
+      for (const link of links.slice(0, 16)) {
         if (adicionadas >= MAX_POR_FONTE) break;
         try {
           const pagina = await baixar(link.url);
@@ -156,6 +204,7 @@ async function principal() {
           const resumoFonte = resumir(meta(pagina, 'og:description') || meta(pagina, 'description', 'name') || link.tituloLista);
           const data = extrairData(pagina);
           if (!titulo || !resumoFonte || !ehRecente(data)) continue;
+          if (!PADRAO_POLITICA.test(`${titulo} ${link.url}`) && !PADRAO_SEGURANCA.test(`${titulo} ${link.url}`)) continue;
           const item = { titulo, url: link.url, resumoFonte, data, fonteNome: fonte.nome, categoria: classificar(titulo, link.url, fonte.categoria) };
           if (jaExiste(item, [...existentes, ...novas])) continue;
           novas.push({
@@ -179,7 +228,10 @@ async function principal() {
     .sort((a, b) => new Date(b.dataFonte || b.descobertaEm) - new Date(a.dataFonte || a.descobertaEm))
     .slice(0, MAX_PAUTAS_PENDENTES);
 
-  const portais = new Set([...(arquivo.portaisPrioritarios || []), 'oantagonista.com.br', 'correiodamanha.com.br']);
+  const portais = new Set([...(arquivo.portaisPrioritarios || []),
+    'oantagonista.com.br', 'correiodamanha.com.br', 'folha.uol.com.br', 'estadao.com.br',
+    'oglobo.globo.com', 'veja.abril.com.br', 'valor.globo.com', 'g1.globo.com', 'cnnbrasil.com.br', 'reuters.com'
+  ]);
   const saida = {
     ...arquivo,
     atualizadoEm: AGORA.toISOString(),
