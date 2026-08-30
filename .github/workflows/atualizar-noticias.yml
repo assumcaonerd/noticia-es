@@ -10,6 +10,7 @@ on:
       - 'scripts/coletar-portais-extra.mjs'
       - 'scripts/refinar-fontes-nacionais.mjs'
       - 'scripts/coletar-flavio-bolsonaro.mjs'
+      - 'scripts/coletar-redes-locais.mjs'
       - 'scripts/finalizar-rodada10.mjs'
       - 'scripts/marcar-rodada11.mjs'
       - 'scripts/marcar-rodada12.mjs'
@@ -84,6 +85,7 @@ jobs:
           node --check scripts/coletar-portais-extra.mjs
           node --check scripts/refinar-fontes-nacionais.mjs
           node --check scripts/coletar-flavio-bolsonaro.mjs
+          node --check scripts/coletar-redes-locais.mjs
           node --check scripts/enriquecer-imagens-pautas.mjs
           node --check scripts/fiscal-imagens.mjs
           node scripts/validar-coletor.mjs
@@ -94,6 +96,7 @@ jobs:
           node scripts/coletar-portais-extra.mjs
           node scripts/refinar-fontes-nacionais.mjs
           node scripts/coletar-flavio-bolsonaro.mjs
+          node scripts/coletar-redes-locais.mjs
           node scripts/enriquecer-imagens-pautas.mjs
 
       - name: Impedir mutação automática do código
