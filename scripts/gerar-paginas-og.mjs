@@ -32,7 +32,7 @@ function ehBoaParaWhatsapp(url = '') {
   const u = String(url || '');
   if (!/^https:\/\//i.test(u)) return false;
   if (/\.svg(\?|$)/i.test(u)) return false;
-  if (/auto-(politica|seguranca)|placeholder/i.test(u)) return false;
+  if (/(?:auto-(politica|seguranca)|placeholder|fb_marca\.png|marca[_-]?valor|logo[^/]*valor|valor[^/]*logo|default[-_]?image|og[-_]?default)/i.test(u)) return false;
   return true;
 }
 
@@ -78,7 +78,8 @@ function paginaHTML(n, imagem) {
   const resumo = n.resumo || 'Política e segurança pública do Espírito Santo.';
   const url = `${SITE}/m/${n.slug}.html`;
   const destino = `${SITE}/noticia.html?slug=${encodeURIComponent(n.slug)}`;
-  const img = ehBoaParaWhatsapp(imagem) ? imagem : `${SITE}/imagens/auto-politica-es.svg`;
+  const img = ehBoaParaWhatsapp(imagem) ? imagem : '';
+  const metaImagem = img ? `\n  <meta property="og:image" content="${escapar(img)}">\n  <meta property="og:image:secure_url" content="${escapar(img)}">\n  <meta name="twitter:image" content="${escapar(img)}">` : '';
   return `<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -92,13 +93,10 @@ function paginaHTML(n, imagem) {
   <meta property="og:site_name" content="Notícia ES">
   <meta property="og:title" content="${escapar(titulo)}">
   <meta property="og:description" content="${escapar(resumo)}">
-  <meta property="og:url" content="${escapar(url)}">
-  <meta property="og:image" content="${escapar(img)}">
-  <meta property="og:image:secure_url" content="${escapar(img)}">
+  <meta property="og:url" content="${escapar(url)}">${metaImagem}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapar(titulo)}">
   <meta name="twitter:description" content="${escapar(resumo)}">
-  <meta name="twitter:image" content="${escapar(img)}">
   <meta http-equiv="refresh" content="0;url=${escapar(destino)}">
 </head>
 <body>
