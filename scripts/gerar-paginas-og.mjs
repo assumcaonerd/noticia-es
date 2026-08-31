@@ -11,6 +11,9 @@ import vm from 'node:vm';
 const RAIZ = process.cwd();
 const DESTINO = path.join(RAIZ, 'm');
 const SITE = 'https://noticiaes.com.br';
+const PAGINAS_ESPECIAIS = new Set([
+  'igreja-crista-maranata-comemora-50-anos-em-sao-mateus'
+]);
 
 function escapar(texto = '') {
   return String(texto)
@@ -115,6 +118,10 @@ let geradas = 0;
 for (const n of lista) {
   if (!n?.slug || vistos.has(n.slug)) continue;
   vistos.add(n.slug);
+  if (PAGINAS_ESPECIAIS.has(n.slug)) {
+    console.log(`[og] preserva página especial: ${n.slug}`);
+    continue;
+  }
   const imagem = imagemAbsoluta(overlay[n.slug] || n.imagem || '');
   await fs.writeFile(path.join(DESTINO, `${n.slug}.html`), paginaHTML(n, imagem), 'utf8');
   geradas++;
