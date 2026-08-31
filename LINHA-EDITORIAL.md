@@ -41,9 +41,9 @@ Categoria nacional: `Política Nacional`.
 
 **Poder:** Agência Brasil, Senado, Câmara.
 
-**Grande imprensa (pauta + régua):** Folha, Estadão, O Globo, Veja, Valor, Correio Braziliense, g1, UOL, CNN Brasil, Band News, CBN.
+**Grande imprensa (pauta + régua):** Folha, Estadão, O Globo, Veja, Correio Braziliense, g1, UOL, CNN Brasil, Band News, CBN.
 
-**Agências:** Reuters, AP, EFE, Xinhua, TASS. Xinhua e TASS são Estado: fato cruzado, verbo oficial não vira verdade.
+**Fontes excluídas do motor:** Valor Econômico e agências internacionais de notícias, incluindo Reuters, AP, AFP, EFE, Xinhua e TASS. Não devem entrar como fonte de coleta, pauta automática ou reprodução no Notícia ES.
 
 ## 6. Proibido
 
