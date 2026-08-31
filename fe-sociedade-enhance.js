@@ -5,7 +5,7 @@
   const slug = 'igreja-crista-maranata-comemora-50-anos-em-sao-mateus';
 
   const fotos = {
-    pastores: 'https://i.ibb.co/XxgBrfg1/Whats-App-Image-2026-08-31-at-10-59-10.jpg',
+    pastores: 'https://i.ibb.co/QvjTz7Rs/Whats-App-Image-2026-08-31-at-12-03-59.jpg',
     capa: 'https://i.ibb.co/FbmRsG3M/Whats-App-Image-2026-08-31-at-12-02-25.jpg',
     historia: 'https://i.ibb.co/21ctMHPv/Whats-App-Image-2026-08-31-at-12-02-26.jpg',
     edmar: 'https://i.ibb.co/XZ22GL8F/Whats-App-Image-2026-08-31-at-12-04-00.jpg',
@@ -61,37 +61,31 @@
     if (!html || html.includes('class="fe-especial-foto"')) return html;
     let out = html;
 
-    /* Conforme a ordem visual do DOCX. A panorâmica permanece na abertura. */
     out = out.replace(
       '<h2>Uma história que atravessou gerações</h2>',
       blocos.panoramica + blocos.historia + '<h2>Uma história que atravessou gerações</h2>'
     );
 
-    /* Retrato de Edmar entra logo depois do parágrafo que apresenta sua fala. */
     out = out.replace(
       'A memória daqueles irmãos permanece viva na congregação.</p>',
       'A memória daqueles irmãos permanece viva na congregação.</p>' + blocos.edmar
     );
 
-    /* Foto dos primeiros anos vem antes do parágrafo que comenta esse registro. */
     out = out.replace(
       '<p>Uma fotografia daquele tempo vale mais do que um retrato.',
       blocos.jovens + '<p>Uma fotografia daquele tempo vale mais do que um retrato.'
     );
 
-    /* Pastores entram imediatamente antes da relação dos servos que estiveram à frente. */
     out = out.replace(
       '<p>Estiveram à frente da obra, entre outros, os pastores',
       blocos.pastores + '<p>Estiveram à frente da obra, entre outros, os pastores'
     );
 
-    /* Comunicação fica junto ao trecho sobre o trabalho da equipe. */
     out = out.replace(
       '<p>A transmissão, as imagens e o registro desta história ficaram a cargo da equipe de comunicação do Maanaim.',
       blocos.comunicacao + '<p>A transmissão, as imagens e o registro desta história ficaram a cargo da equipe de comunicação do Maanaim.'
     );
 
-    /* Louvor permanece imediatamente antes do parágrafo do grupo. */
     out = out.replace(
       '<p>O grupo de louvor do Polo Maanaim São Mateus',
       blocos.louvor + '<p>O grupo de louvor do Polo Maanaim São Mateus'
