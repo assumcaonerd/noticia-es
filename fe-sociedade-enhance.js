@@ -4,13 +4,13 @@
 
   const slug = 'igreja-crista-maranata-comemora-50-anos-em-sao-mateus';
 
-  /* Mapeamento confirmado pela renderização da matéria e pelo DOCX. */
+  /* Mapeamento confirmado pelos arquivos originais enviados pelo autor. */
   const fotos = {
     capa: 'https://i.ibb.co/XZ22GL8F/Whats-App-Image-2026-08-31-at-12-04-00.jpg',
     panoramica: 'https://i.ibb.co/9m61GLMX/Chat-GPT-Image-31-de-ago-de-2026-13-16-16.png',
     historia: 'https://i.ibb.co/QvjTz7Rs/Whats-App-Image-2026-08-31-at-12-03-59.jpg',
-    edmar: 'https://i.ibb.co/r1bsJpF/Chat-GPT-Image-31-de-ago-de-2026-11-59-57.png',
-    jovens: 'https://i.ibb.co/XxgBrfg1/Whats-App-Image-2026-08-31-at-10-59-10.jpg',
+    edmar: 'https://i.ibb.co/MyqNs81M/Chat-GPT-Image-31-de-ago-de-2026-12-40-36.png',
+    jovens: 'https://i.ibb.co/r1bsJpF/Chat-GPT-Image-31-de-ago-de-2026-11-59-57.png',
     pastores: 'https://i.ibb.co/FbmRsG3M/Whats-App-Image-2026-08-31-at-12-02-25.jpg',
     comunicacao: 'https://i.ibb.co/39LwW0m1/equipe-de-comunica-o.png',
     louvor: 'https://i.ibb.co/F2XG96M/Chat-GPT-Image-31-de-ago-de-2026-12-01-26.png'
@@ -62,25 +62,21 @@
     if (!html || html.includes('class="fe-especial-foto"')) return html;
     let out = html;
 
-    /* A panorâmica permanece na abertura e a montagem histórica vem logo depois, como no DOCX. */
     out = out.replace(
       '<h2>Uma história que atravessou gerações</h2>',
       blocos.panoramica + blocos.historia + '<h2>Uma história que atravessou gerações</h2>'
     );
 
-    /* Retrato do pastor Edmar Maia junto ao trecho que o apresenta. */
     out = out.replace(
       'A memória daqueles irmãos permanece viva na congregação.</p>',
       'A memória daqueles irmãos permanece viva na congregação.</p>' + blocos.edmar
     );
 
-    /* Registro dos jovens aparece apenas uma vez. */
     out = out.replace(
       '<p>Uma fotografia daquele tempo vale mais do que um retrato.',
       blocos.jovens + '<p>Uma fotografia daquele tempo vale mais do que um retrato.'
     );
 
-    /* Foto dos pastores no púlpito, sem repetir a foto dos jovens. */
     out = out.replace(
       '<p>Estiveram à frente da obra, entre outros, os pastores',
       blocos.pastores + '<p>Estiveram à frente da obra, entre outros, os pastores'
