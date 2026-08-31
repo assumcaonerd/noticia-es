@@ -3,12 +3,10 @@
   if (typeof noticias === 'undefined' || !Array.isArray(noticias)) return;
 
   const fotos = {
-    "btg-nexus-lula-flavio-empate-tecnico-segundo-turno-31-agosto-2026":
-      "https://i.metroimg.com/cFKfIa1K6NvlU92qDlfrYvBf23Q-zIXKqFPnEakGykk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/06/lula-flaviojpg.jpeg",
-    "orcamento-2027-superavit-divida-publica-meta-fiscal":
-      "https://f.i.uol.com.br/fotografia/2026/08/27/17878637956a90a2f3aa148_1787863795_3x2_md.jpg",
     "antonio-gobbi-morte-vitoria-contas-bancarias-investigacao":
       "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1787857850064_copia_de_template_radar_a_gazeta_2.jpg",
+    "btg-nexus-lula-flavio-empate-tecnico-segundo-turno-31-agosto-2026":
+      "https://i.metroimg.com/cFKfIa1K6NvlU92qDlfrYvBf23Q-zIXKqFPnEakGykk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/06/lula-flaviojpg.jpeg",
     "casagrande-lidera-senado-es-segunda-vaga-embolada-quaest":
       "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1787867800224_casagrande_tem_28_contarato_e_rose_9_na_corrida_pelo_senado_no_es_leticia_orlandi_pegoretti.jpg",
     "comerciante-foragido-adolescentes-agua-doce-norte-preso-uberlandia":
@@ -29,6 +27,8 @@
       "https://f.i.uol.com.br/fotografia/2026/08/27/17878433866a90533ae90ca_1787843386_3x2_xl.jpg",
     "onde-estava-augusto-cury":
       "https://s2-oglobo.glbimg.com/EB1Qw1eFocGeGNM3_uq99LhBsYI=/642x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/F/B/7IIcADSRiF3mXVrj5HOw/whatsapp-image-2026-08-14-at-10.29.06.jpeg",
+    "orcamento-2027-superavit-divida-publica-meta-fiscal":
+      "https://f.i.uol.com.br/fotografia/2026/08/27/17878637956a90a2f3aa148_1787863795_3x2_md.jpg",
     "pl-messias-donato-denuncia-maus-tratos-embalagens-racao":
       "https://eshoje.com.br/wp-content/uploads/2026/08/PET-E-RACAO.jpg",
     "presidenciaveis-quinta-sabatinas-lula-flavio-globo-campanha-2026":
