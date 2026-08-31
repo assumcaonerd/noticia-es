@@ -16,7 +16,8 @@ const noticiasAutoArquivos = [
   "auto-redacao-20260830-173849.js",
   "auto-redacao-20260830-173025.js",
   "auto-redacao-20260830-164745.js",
-  "auto-redacao-20260830-154200.js"
+  "auto-redacao-20260830-154200.js",
+  "imagem-fix-editorial-20260831.js"
 ];
 for (const arquivo of noticiasAutoArquivos) {
   document.write(`<script src="${arquivo}"><\/script>`);
