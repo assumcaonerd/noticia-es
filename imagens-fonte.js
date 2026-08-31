@@ -3,6 +3,10 @@
   if (typeof noticias === 'undefined' || !Array.isArray(noticias)) return;
 
   const fotos = {
+    "btg-nexus-lula-flavio-empate-tecnico-segundo-turno-31-agosto-2026":
+      "https://i.metroimg.com/cFKfIa1K6NvlU92qDlfrYvBf23Q-zIXKqFPnEakGykk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/06/lula-flaviojpg.jpeg",
+    "orcamento-2027-superavit-divida-publica-meta-fiscal":
+      "https://f.i.uol.com.br/fotografia/2026/08/27/17878637956a90a2f3aa148_1787863795_3x2_md.jpg",
     "antonio-gobbi-morte-vitoria-contas-bancarias-investigacao":
       "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1787857850064_copia_de_template_radar_a_gazeta_2.jpg",
     "casagrande-lidera-senado-es-segunda-vaga-embolada-quaest":
