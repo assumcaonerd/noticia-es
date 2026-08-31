@@ -1,4 +1,4 @@
-/* Política de imagem: fonte primeiro; capa da categoria em falha/ausência; nunca gerar retrato. */
+/* Política de imagem: matéria automática usa somente imagem editorial válida; sem fallback genérico. */
 (function () {
   const capas = {
     'Política ES': 'imagens/auto-politica-es.svg',
@@ -9,7 +9,7 @@
   };
 
   function ehFonteExterna(src) {
-    return /imgur\.com|i\.ibb|twimg|folhavitoria|netdeal|spayce|pleno\.news|uol\.com\.br|glbimg|eshoje|tribunaonline|ebc\.com\.br/i.test(src || '');
+    return /imgur\.com|i\.ibb|twimg|folhavitoria|netdeal|spayce|pleno\.news|uol\.com\.br|glbimg|eshoje|tribunaonline|ebc\.com\.br|metroimg\.com/i.test(src || '');
   }
 
   function aplicarReferrer(root) {
@@ -22,6 +22,10 @@
 
   if (typeof noticias !== 'undefined' && Array.isArray(noticias)) {
     noticias.forEach(n => {
+      if (n.automatico) {
+        n.imagemFallback = null;
+        return;
+      }
       if (!n.imagem) n.imagem = capas[n.categoria] || capas['Política ES'];
       n.imagemFallback = capas[n.categoria] || capas['Política ES'];
     });
@@ -36,19 +40,25 @@
       img.src = src;
       return;
     }
-    if (img.dataset.fallbackAplicado) return;
+
     const card = img.closest('[data-card-link]');
-    let fallback = capas['Política ES'];
+    let n = null;
     if (card && typeof noticias !== 'undefined') {
       const href = card.dataset.cardLink || '';
       const slug = new URL(href, location.href).searchParams.get('slug');
-      const n = noticias.find(x => x.slug === slug);
-      if (n) fallback = n.imagemFallback || fallback;
+      n = noticias.find(x => x.slug === slug);
     } else if (document.body.dataset.pagina === 'materia') {
       const slug = new URLSearchParams(location.search).get('slug');
-      const n = typeof noticias !== 'undefined' && noticias.find(x => x.slug === slug);
-      if (n) fallback = n.imagemFallback || fallback;
+      n = typeof noticias !== 'undefined' && noticias.find(x => x.slug === slug);
     }
+
+    if (n && n.automatico) {
+      img.style.display = 'none';
+      return;
+    }
+
+    if (img.dataset.fallbackAplicado) return;
+    const fallback = (n && n.imagemFallback) || capas['Política ES'];
     img.dataset.fallbackAplicado = '1';
     img.src = fallback;
   }, true);
