@@ -1,292 +1,256 @@
 {
-  "atualizadoEm": "2026-08-30T20:12:42.832Z",
+  "atualizadoEm": "2026-08-31T21:59:37.678Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 34,
-  "pautasPendentes": 78,
+  "novasPautas": 75,
+  "pautasPendentes": 76,
   "fontes": [
     {
       "fonte": "A Gazeta - Capa",
       "ok": true,
       "encontrados": 6,
-      "capa": true
+      "capa": true,
+      "rota": "https://www.agazeta.com.br/",
+      "fallback": false
     },
     {
       "fonte": "Folha Vitória - Capa",
-      "ok": false,
-      "erro": "403 Forbidden",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://www.folhavitoria.com.br/sitemap/",
+      "fallback": true
     },
     {
       "fonte": "Tribuna Online - Capa",
       "ok": true,
       "encontrados": 6,
-      "capa": true
+      "capa": true,
+      "rota": "https://tribunaonline.com.br/",
+      "fallback": false
     },
     {
       "fonte": "Revista Oeste - Capa",
       "ok": false,
-      "erro": "403 Forbidden",
+      "erro": "https://revistaoeste.com/ -> 403 Forbidden | https://www.revistaoeste.com/home/ -> 403 Forbidden",
       "capa": true
     },
     {
       "fonte": "Gazeta do Povo - Capa",
       "ok": true,
       "encontrados": 0,
-      "capa": true
+      "capa": true,
+      "rota": "https://www.gazetadopovo.com.br/",
+      "fallback": false
     },
     {
       "fonte": "A Gazeta - Política",
       "ok": true,
       "encontrados": 4,
-      "capa": false
+      "capa": false,
+      "rota": "https://www.agazeta.com.br/es/politica",
+      "fallback": false
     },
     {
       "fonte": "Folha Vitória - Política",
-      "ok": false,
-      "erro": "403 Forbidden",
-      "capa": false
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://www.folhavitoria.com.br/sitemap/",
+      "fallback": true
     },
     {
       "fonte": "A Gazeta - Polícia",
       "ok": true,
       "encontrados": 6,
-      "capa": false
+      "capa": false,
+      "rota": "https://www.agazeta.com.br/es/policia",
+      "fallback": false
     },
     {
       "fonte": "Folha Vitória - Polícia",
-      "ok": false,
-      "erro": "403 Forbidden",
-      "capa": false
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://www.folhavitoria.com.br/sitemap/",
+      "fallback": true
     },
     {
       "fonte": "SESP-ES",
       "ok": true,
       "encontrados": 0,
-      "capa": false
+      "capa": false,
+      "rota": "https://sesp.es.gov.br/Noticias",
+      "fallback": false
     },
     {
       "fonte": "Polícia Civil do ES",
       "ok": true,
       "encontrados": 0,
-      "capa": false
+      "capa": false,
+      "rota": "https://pc.es.gov.br/Noticias",
+      "fallback": false
     },
     {
       "fonte": "Corpo de Bombeiros do ES",
       "ok": true,
       "encontrados": 0,
-      "capa": false
+      "capa": false,
+      "rota": "https://cb.es.gov.br/Noticias",
+      "fallback": false
     },
     {
       "fonte": "Polícia Militar do ES",
       "ok": false,
-      "erro": "fetch failed",
+      "erro": "https://pm.es.gov.br/Noticias -> fetch failed | https://pm.es.gov.br/noticias -> fetch failed",
       "capa": false
     },
     {
       "fonte": "Polícia Penal do ES",
       "ok": true,
       "encontrados": 0,
-      "capa": false
+      "capa": false,
+      "rota": "https://sejus.es.gov.br/noticias",
+      "fallback": false
     },
     {
       "fonte": "Agentes Socioeducativos do ES",
       "ok": true,
       "encontrados": 0,
+      "capa": false,
+      "rota": "https://iases.es.gov.br/Noticias",
+      "fallback": false
+    },
+    {
+      "fonte": "Estadão - Política",
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://www.estadao.com.br/politica/",
+      "fallback": false
+    },
+    {
+      "fonte": "Valor Econômico - Política",
+      "ok": true,
+      "encontrados": 6,
+      "capa": false,
+      "rota": "https://valor.globo.com/politica/",
+      "fallback": false
+    },
+    {
+      "fonte": "Correio Braziliense - Política",
+      "ok": true,
+      "encontrados": 6,
+      "capa": false,
+      "rota": "https://www.correiobraziliense.com.br/politica/",
+      "fallback": false
+    },
+    {
+      "fonte": "Band - Política",
+      "ok": false,
+      "erro": "https://www.band.com.br/politica/ -> 403 Forbidden",
       "capa": false
+    },
+    {
+      "fonte": "CBN - Política",
+      "ok": true,
+      "encontrados": 6,
+      "capa": false,
+      "rota": "https://cbn.globo.com/politica/",
+      "fallback": false
     },
     {
       "fonte": "Senado Notícias",
       "ok": true,
-      "encontrados": 0
+      "encontrados": 0,
+      "rota": "https://www12.senado.leg.br/noticias/feed/todasnoticias",
+      "fallback": false
     },
     {
       "fonte": "Câmara dos Deputados",
       "ok": true,
-      "encontrados": 0
+      "encontrados": 0,
+      "rota": "https://www.camara.leg.br/noticias/rss/ultimas",
+      "fallback": false
     },
     {
       "fonte": "Agência Brasil - Política",
       "ok": true,
-      "encontrados": 7
+      "encontrados": 9,
+      "rota": "https://agenciabrasil.ebc.com.br/rss/politica/feed.xml",
+      "fallback": false
     },
     {
       "fonte": "Folha de S.Paulo - Poder",
       "ok": true,
-      "encontrados": 30
-    },
-    {
-      "fonte": "Estadão - Política",
-      "ok": false,
-      "erro": "404 Not Found"
+      "encontrados": 30,
+      "rota": "https://feeds.folha.uol.com.br/poder/rss091.xml",
+      "fallback": false
     },
     {
       "fonte": "O Globo - Política",
       "ok": true,
-      "encontrados": 0
+      "encontrados": 0,
+      "rota": "https://oglobo.globo.com/rss.xml?secao=politica",
+      "fallback": false
     },
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 8
+      "encontrados": 6,
+      "rota": "https://veja.abril.com.br/feed/",
+      "fallback": false
     },
     {
-      "fonte": "Valor Econômico",
-      "ok": false,
-      "erro": "404 Not Found"
+      "fonte": "Revista Oeste - Feed",
+      "ok": true,
+      "encontrados": 3,
+      "rota": "https://revistaoeste.com/feed/",
+      "fallback": false
     },
     {
-      "fonte": "Correio Braziliense",
+      "fonte": "Valor Econômico - Feed",
       "ok": false,
-      "erro": "404 Not Found"
+      "erro": "https://valor.globo.com/rss/politica -> 400 Bad Request"
+    },
+    {
+      "fonte": "Correio Braziliense - Feed",
+      "ok": false,
+      "erro": "https://www.correiobraziliense.com.br/rss/politica -> 404 Not Found"
     },
     {
       "fonte": "g1 - Política",
       "ok": true,
-      "encontrados": 30
+      "encontrados": 30,
+      "rota": "https://g1.globo.com/rss/g1/politica/",
+      "fallback": false
     },
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 0
+      "encontrados": 0,
+      "rota": "https://rss.uol.com.br/feed/noticias.xml",
+      "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 7
-    },
-    {
-      "fonte": "Band News",
-      "ok": false,
-      "erro": "fetch failed"
-    },
-    {
-      "fonte": "CBN",
-      "ok": false,
-      "erro": "404 Not Found"
-    },
-    {
-      "fonte": "Reuters",
-      "ok": false,
-      "erro": "fetch failed"
-    },
-    {
-      "fonte": "Associated Press",
-      "ok": false,
-      "erro": "fetch failed"
-    },
-    {
-      "fonte": "EFE",
-      "ok": false,
-      "erro": "429 Too Many Requests"
+      "encontrados": 12,
+      "rota": "https://www.cnnbrasil.com.br/feed/",
+      "fallback": false
     },
     {
       "fonte": "Xinhua",
       "ok": true,
-      "encontrados": 0
+      "encontrados": 0,
+      "rota": "https://english.news.cn/rss/worldrss.xml",
+      "fallback": false
     },
     {
       "fonte": "TASS",
       "ok": true,
-      "encontrados": 4
+      "encontrados": 8,
+      "rota": "https://tass.com/rss/v2.xml",
+      "fallback": false
     }
-  ],
-  "redesLocais": {
-    "atualizadoEm": "2026-08-30T20:14:18.620Z",
-    "novas": 8,
-    "fontes": [
-      {
-        "fonte": "YouTube A Gazeta",
-        "ok": true,
-        "encontrados": 4
-      },
-      {
-        "fonte": "YouTube Folha Vitória",
-        "ok": true,
-        "encontrados": 4
-      },
-      {
-        "fonte": "YouTube ALES",
-        "ok": true,
-        "encontrados": 0
-      },
-      {
-        "fonte": "YouTube Polícia Civil ES",
-        "ok": false,
-        "erro": "404 Not Found"
-      },
-      {
-        "fonte": "YouTube PM Ambiental ES",
-        "ok": true,
-        "encontrados": 0
-      },
-      {
-        "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
-      },
-      {
-        "fonte": "YouTube ALES (legado)",
-        "ok": true,
-        "encontrados": 0
-      },
-      {
-        "fonte": "X Governo ES",
-        "ok": false,
-        "erro": "404 Not Found"
-      },
-      {
-        "fonte": "X A Gazeta",
-        "ok": false,
-        "erro": "404 Not Found"
-      },
-      {
-        "fonte": "X Folha Vitória",
-        "ok": false,
-        "erro": "404 Not Found"
-      },
-      {
-        "fonte": "X ALES",
-        "ok": false,
-        "erro": "404 Not Found"
-      }
-    ]
-  },
-  "telegramEs": {
-    "atualizadoEm": "2026-08-30T20:14:20.268Z",
-    "novas": 0,
-    "fontes": [
-      {
-        "fonte": "Telegram Folha Vitória",
-        "ok": true,
-        "encontrados": 0
-      },
-      {
-        "fonte": "Telegram Tribuna Online",
-        "ok": true,
-        "encontrados": 0
-      }
-    ]
-  },
-  "ales": {
-    "atualizadoEm": "2026-08-30T20:14:21.264Z",
-    "ok": false,
-    "erro": "fetch failed",
-    "novas": 0
-  },
-  "dioes": {
-    "atualizadoEm": "2026-08-30T20:14:31.836Z",
-    "novas": 1,
-    "fontes": [
-      {
-        "fonte": "DIO/ES Notícias",
-        "ok": true,
-        "encontrados": 0
-      },
-      {
-        "fonte": "DIO/ES Edição",
-        "ok": true,
-        "encontrados": 1
-      }
-    ]
-  }
+  ]
 }
