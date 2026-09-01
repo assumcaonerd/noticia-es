@@ -1,76 +1,16 @@
 {
-  "geradoEm": "2026-09-01T16:52:50.634Z",
+  "geradoEm": "2026-09-01T17:04:49.093Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 10 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 12,
     "semImagem": 0,
-    "duplicadasBasicas": 0,
-    "duplicadasSemanticas": 1,
+    "duplicadasBasicas": 7,
+    "duplicadasSemanticas": 2,
     "foraCategorias": 10
   },
   "quantidadeCandidatas": 20,
   "candidatas": [
-    {
-      "id": "fddcc767f97da73c",
-      "titulo": "Pazolini promete recompor quadro da Pol&iacute;cia Civil do ES: \"D&eacute;ficit de 40%\"",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/eleicoes-2026/pazolini-promete-recompor-quadro-da-policia-civil-do-es-deficit-de-40-0926",
-      "dataFonte": "2026-09-01T15:25:40.000Z",
-      "resumoFonte": "Candidato do Republicanos afirma que número de profissionais não é suficiente para suprir atualmente as demandas da instituição",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788273197372_dsc01413_403.jpg",
-      "descobertaEm": "2026-09-01T16:49:42.971Z"
-    },
-    {
-      "id": "27ab4cec3166d70a",
-      "titulo": "Investigado por três estupros de vulnerável é preso antes de fugir do ES",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/agora/investigado-por-tres-estupros-de-vulneravel-e-preso-antes-de-fugir-do-es-0926",
-      "dataFonte": "2026-09-01T14:37:53.000Z",
-      "resumoFonte": "Homem de 47 anos é suspeito de cometer crimes contra três vítimas quando elas ainda eram menores de idade, há mais de dez anos",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1778501540519_dsc_1492.jpg",
-      "descobertaEm": "2026-09-01T16:49:42.971Z"
-    },
-    {
-      "id": "aa6167c353af71b9",
-      "titulo": "Roubo de carro e a sorveteria terminam com preso e baleado em Sooretama",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/roubo-de-carro-e-a-sorveteria-terminam-com-preso-e-baleado-em-sooretama-0926",
-      "dataFonte": "2026-09-01T14:14:05.000Z",
-      "resumoFonte": "Homem de 30 anos foi preso e adolescente de 16 anos ficou ferido após troca de tiros com a PM; terceiro suspeito fugiu",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788270751891_template_radar_a_gazeta_2026_09_01t105216.jpg",
-      "descobertaEm": "2026-09-01T16:49:42.971Z"
-    },
-    {
-      "id": "3405a20d3837d183",
-      "titulo": "Filha é presa após agredir e expulsar a própria mãe de casa em Cariacica",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/filha-e-presa-apos-agredir-e-expulsar-a-propria-mae-de-casa-em-cariacica-0926",
-      "dataFonte": "2026-09-01T13:18:51.000Z",
-      "resumoFonte": "Idosa de 66 anos foi encontrada seminua no meio da rua, com escoriações nas pernas e o rosto sujo; ela pediu medida protetiva",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1774919989200_midias_jpg_2017_12_10_delegacia_5415190.jpg",
-      "descobertaEm": "2026-09-01T16:49:42.971Z"
-    },
-    {
-      "id": "fec96a3dbd4239ca",
-      "titulo": "Pazolini afirma que Fl&aacute;vio Bolsonaro tem mostrado um debate nacional \"muito equilibrado\"",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/eleicoes-2026/pazolini-afirma-que-flavio-bolsonaro-tem-mostrado-um-debate-nacional-muito-equilibrado-0926",
-      "dataFonte": "2026-09-01T14:33:49.000Z",
-      "resumoFonte": "Candidato do Republicanos ao governo do ES disse estar mais próximo de Flávio Bolsonaro do que dos outros nomes que disputam a eleição presidencial",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788271239160_whatsapp_image_2026_09_01_at_10.jpeg",
-      "descobertaEm": "2026-09-01T16:49:42.971Z"
-    },
     {
       "id": "811ccd41a58a867a",
       "titulo": "“Vamos convidar todos os partidos para um projeto de um novo ES”, diz Pazolini",
@@ -108,18 +48,6 @@
       "descobertaEm": "2026-09-01T16:49:42.971Z"
     },
     {
-      "id": "a228f1c5d1e4294c",
-      "titulo": "Dark Horse: Vorcaro teria repassado US$ 1,6 milhão para filme sobre Bolsonaro, diz revista",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CBN - Política",
-      "urlFonte": "https://cbn.globo.com/politica/noticia/2026/09/01/dark-horse-vorcaro-teria-repassado-us-16-milhao-para-filme-sobre-jair-bolsonaro.ghtml",
-      "dataFonte": "2026-09-01T15:43:18.678Z",
-      "resumoFonte": "Relatório também indica que a relação financeira entre o banqueiro e Flávio Bolsonaro se estendeu por mais tempo do que o parlamentar havia admitido.",
-      "imagem": "https://s2-cbn.glbimg.com/lPp3HwQhFLRwk7hleaYHxE0PGbQ=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/p/4/2h9OdeQ826F6NJze7fmw/spc488174.jpg",
-      "descobertaEm": "2026-09-01T16:49:42.971Z"
-    },
-    {
       "id": "4969a19581186956",
       "titulo": "Flávio Bolsonaro perde fôlego e Augusto Cury surpreende nas pesquisas",
       "categoria": "Política Nacional",
@@ -130,18 +58,6 @@
       "resumoFonte": "Próximos levantamentos devem esclarecer se a ascensão é episódica ou se configura uma nova tendência",
       "imagem": "https://veja.abril.com.br/wp-content/uploads/2024/08/Flavio-3-1.jpg?quality=70&strip=info&resize=1080,565&crop=1",
       "descobertaEm": "2026-09-01T12:23:09.830Z"
-    },
-    {
-      "id": "50c26a201fe3d011",
-      "titulo": "Mendonça derruba sigilo e diz que plenário do STF deve analisar novos elementos da PF sobre Vorcaro",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/mendonca-derruba-sigilo-e-leva-ao-plenario-do-stf-analise-de-mensagens-de-vorcaro/",
-      "dataFonte": "2026-09-01T16:39:00.000Z",
-      "resumoFonte": "Nesta terça-feira, 1°, o ministro André Mendonça, do Supremo Tribunal Federal (STF), retirou o sigilo da petição que tem novos elementos apresentados pela Polícia Federal sobre uma rede de monitoramento e influência comandada pelo empresário Daniel Vorcaro, ex-dono do antigo Banco Master. O magistrado afirmou que o material deverá ser analisado…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/04/Ministro-Mendonca.jpg.webp",
-      "descobertaEm": "2026-09-01T16:49:42.971Z"
     },
     {
       "id": "4ee10039bc53847b",
@@ -228,18 +144,6 @@
       "descobertaEm": "2026-09-01T16:49:42.971Z"
     },
     {
-      "id": "ff04e343c3af8ccd",
-      "titulo": "Moraes determina que Ex�rcito destrua sete armas de Bolsonaro",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/moraes-determina-que-exercito-destrua-sete-armas-de-bolsonaro.shtml",
-      "dataFonte": "2026-09-01T16:26:00.000Z",
-      "resumoFonte": "O ministro Alexandre de Moraes , do STF (Supremo Tribunal Federal), determinou nesta ter�a-feira (1�) a destrui��o de sete armas de Jair Bolsonaro (PL) pelo Comando de Opera��es Especiais do Ex�rcito Brasileiro. Leia mais (09/01/2026 - 13h26)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/06/16/17816382546a31a46eb3ff6_1781638254_3x2_rt.jpg",
-      "descobertaEm": "2026-09-01T16:49:42.971Z"
-    },
-    {
       "id": "51626a7ba5b80193",
       "titulo": "Ex-ministro de Bolsonaro ajudou a aproximar Moraes de Vorcaro, mostram mensagens",
       "categoria": "Política Nacional",
@@ -249,6 +153,102 @@
       "dataFonte": "2026-09-01T16:24:21.000Z",
       "resumoFonte": "Fábio Faria costurou primeiro encontro e jantar mais íntimo para que banqueiro se aproximasse do ministro do STF",
       "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/08/55440539696_e34e3e8550_c.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "descobertaEm": "2026-09-01T16:49:42.971Z"
+    },
+    {
+      "id": "0f80720dd935a482",
+      "titulo": "A pressão dos senadores ligados a Lula para aprovar a 6×1 antes da eleição",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/politica/a-pressao-dos-senadores-ligados-a-lula-para-aprovar-a-6x1-antes-da-eleicao/",
+      "dataFonte": "2026-09-01T16:23:21.000Z",
+      "resumoFonte": "Aliados do presidente se movimentam para acelerar PEC que reduz a jornada de trabalho, enquanto oposição apresenta alternativas e teme uso eleitoreiro da pauta",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/08/lula-omar-aziz-ricardo-stuckert-1.jpeg?quality=70&strip=info&resize=1080,565&crop=1",
+      "descobertaEm": "2026-09-01T16:49:42.971Z"
+    },
+    {
+      "id": "761bd8657d795f56",
+      "titulo": "Mendonça defende código de conduta para magistrados em evento no STF",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/politica/mendonca-defende-codigo-de-conduta-para-magistrados-em-evento-do-stf/",
+      "dataFonte": "2026-09-01T16:22:34.000Z",
+      "resumoFonte": "Ministro considera ato necessário para preservar confiança de outros tribunais, medida também é defendida por Edson Fachin",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/ministro-andre-mendonca-tse.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-01T16:49:42.971Z"
+    },
+    {
+      "id": "c7c0b1d9b761b56d",
+      "titulo": "Única brasileira no Mundial de skimboard faz rifa e trabalha em quiosque",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/esporte/unica-brasileira-no-mundial-de-skimboard-faz-rifa-e-trabalha-em-quiosque/",
+      "dataFonte": "2026-09-01T16:18:39.000Z",
+      "resumoFonte": "Julia Dias é natural de Ubatuba, no litoral de São Paulo",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/Captura-de-tela-2026-09-01-131612.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "descobertaEm": "2026-09-01T16:49:42.971Z"
+    },
+    {
+      "id": "dac050bc102598a9",
+      "titulo": "Moraes determina destruição de armas entregues por Bolsonaro",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CBN - Política",
+      "urlFonte": "https://cbn.globo.com/politica/noticia/2026/09/01/moraes-determina-destruicao-de-armas-entregues-por-bolsonaro.ghtml",
+      "dataFonte": "2026-09-01T16:09:09.338Z",
+      "resumoFonte": "Ministro do STF ordenou que armamentos sejam encaminhados ao Exército para destruição após a realização de perícias",
+      "imagem": "https://s2-cbn.glbimg.com/z3M_St-FAEYH-x4BVWtdqirkyaA=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/D/Y/evycyWRaizbkbZKeqkPg/55226413326-727e971069-k.jpg",
+      "descobertaEm": "2026-09-01T16:49:42.971Z"
+    },
+    {
+      "id": "37ae25e617c88db5",
+      "titulo": "STF pode analisar decisão de Toffoli sobre Renan após plenário do TSE",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/stf-pode-analisar-decisao-de-toffoli-sobre-renan-apos-plenario-do-tse/",
+      "dataFonte": "2026-09-01T16:08:40.000Z",
+      "resumoFonte": "Suprema Corte só pode ser acionada depois de a Justiça Eleitoral analisar decisão que suspendeu parte da campanha do candidato do Missão à Presidência da República",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/ministro-dias-toffoli-stf.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-01T16:49:42.971Z"
+    },
+    {
+      "id": "a5463b4286cb85ea",
+      "titulo": "Tarcísio manifesta solidariedade a Renan Santos após TSE limitar campanha: 'Merece falar, merece ter espaço'",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/09/01/tarcisio-manifesta-solidariedade-a-renan-santos-apos-tse-limitar-campanha-merece-falar-merece-ter-espaco.ghtml",
+      "dataFonte": "2026-09-01T16:08:13.000Z",
+      "resumoFonte": "Tarcísio de Freitas manifestou solidariedade a Renan Santos após decisão do TSE que limitou campanha digital Reprodução/TV Globo O governador de São Paulo e candidato à reeleição, Tarcísio de Freitas (Republicanos), manifestou nesta terça-feira (1º) solidariedade a Renan Santos, candidato do Missão à Presidência da República, e defendeu que o…",
+      "imagem": "https://s2-g1.glbimg.com/ds7ofnjJSosl4HxcdnNNUwhZvZc=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/Z/rGCQHoREGbNyXDe2uRLA/fotojet-36-.jpg",
+      "descobertaEm": "2026-09-01T16:49:42.971Z"
+    },
+    {
+      "id": "e494b39331ebff8e",
+      "titulo": "Mourão propõe Conselho de Defesa como “assessor” da política mineral",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/infra/mourao-propoe-conselho-de-defesa-como-assessor-da-politica-mineral/",
+      "dataFonte": "2026-09-01T16:03:12.000Z",
+      "resumoFonte": "Senador e general da reserva propõe que Conselho de Defesa seja ouvido na aprovação de projetos e que política mineral siga diretrizes da Política Nacional de Defesa",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/07/53859741767_ba6ff57ca1_o-e1721682487353.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-01T16:49:42.971Z"
+    },
+    {
+      "id": "8709e886ae065e1f",
+      "titulo": "Peça de “Percy Jackson” chega ao Brasil; veja elenco caracterizado",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/pop/celebridades/peca-de-percy-jackson-chega-ao-brasil-veja-elenco-caracterizado/",
+      "dataFonte": "2026-09-01T16:02:56.000Z",
+      "resumoFonte": "Montagem brasileira é estrelada por João Lucas e estreia em São Paulo em outubro",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/percy-jackson-peca.png?w=1200&h=630&crop=1",
       "descobertaEm": "2026-09-01T16:49:42.971Z"
     }
   ]
