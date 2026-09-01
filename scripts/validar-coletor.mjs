@@ -25,8 +25,8 @@ try {
 exigir(Array.isArray(pautas.pautas), 'pautas.json precisa conter um array em "pautas".');
 exigir(!/eshoje\.com\.br|ES Hoje - Capa/i.test(coletor), 'ES Hoje reapareceu no coletor principal.');
 exigir(/const\s+saida\s*=\s*\{/.test(coletor), 'Objeto "saida" não foi encontrado no coletor.');
-exigir(/writeFile\(ARQUIVO_PAUTAS/.test(coletor), 'Gravação de pautas.json não foi encontrada.');
-exigir(/writeFile\(ARQUIVO_STATUS/.test(coletor), 'Gravação de motor-status.json não foi encontrada.');
+exigir(/writeFile\(\s*ARQUIVO_PAUTAS/.test(coletor), 'Gravação de pautas.json não foi encontrada.');
+exigir(/writeFile\(\s*ARQUIVO_STATUS/.test(coletor), 'Gravação de motor-status.json não foi encontrada.');
 exigir(/principal\(\)\.catch/.test(coletor), 'Tratamento de erro da função principal não foi encontrado.');
 exigir(/resolverImagem/.test(coletor), 'Integração com resolverImagem não foi encontrada no coletor.');
 exigir(/export\s+async\s+function\s+resolverImagem/.test(resolvedor), 'Export de resolverImagem não foi encontrado.');
