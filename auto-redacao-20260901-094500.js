@@ -18,10 +18,6 @@ const noticiasAutoRedacao20260901094500 = [
 <p>Era a véspera da eleição da ASPRA.</p>
 <p>Pazolini também falou diretamente aos policiais e bombeiros militares e agradeceu à diretoria da associação:</p>
 <blockquote>“Uma manhã de domingo muito importante. Quero aqui agradecer toda a diretoria da ASPRA e assumir o compromisso com você, policial militar, com a família militar do Estado do Espírito Santo, de reconhecimento, de valorização.”</blockquote>
-<p>O candidato prosseguiu:</p>
-<blockquote>“Pela primeira vez na nossa história nós teremos, se Deus quiser e for da vontade dos capixabas, o governador da segurança pública, que vai governar, valorizar, reconhecer e principalmente exaltar o trabalho dos militares do nosso Estado.”</blockquote>
-<p>Pazolini ainda citou sua administração na Prefeitura de Vitória:</p>
-<blockquote>“Durante a nossa gestão na Prefeitura de Vitória, nós concedemos mais de 100% de aumento salarial de recomposição para a Guarda de Vitória e vamos continuar nesse trabalho, reconhecendo.”</blockquote>
 <p>E encerrou demonstrando confiança:</p>
 <blockquote>“Eu tenho certeza que a vitória é nossa e nós vamos estar comemorando e celebrando grandes avanços nos próximos quatro anos.”</blockquote>
 <h2>A eleição aconteceria no dia seguinte</h2>
