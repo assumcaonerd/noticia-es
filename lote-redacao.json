@@ -1,11 +1,12 @@
 {
-  "geradoEm": "2026-09-01T11:05:25.125Z",
+  "geradoEm": "2026-09-01T11:06:00.470Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 10 matérias.",
   "diagnostico": {
-    "totalPendentes": 50,
+    "totalPendentes": 49,
     "bloqueadas": 8,
     "semImagem": 0,
-    "duplicadasBasicas": 0,
+    "duplicadasBasicas": 1,
+    "duplicadasSemanticas": 1,
     "foraCategorias": 1
   },
   "quantidadeCandidatas": 20,
@@ -191,18 +192,6 @@
       "descobertaEm": "2026-09-01T01:13:00.364Z"
     },
     {
-      "id": "1a37d7aca5fe17df",
-      "titulo": "Justi�a de SP devolve pedido sobre produtora de 'Dark Horse' e cobra provas da pol�cia",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/08/justica-de-sp-devolve-pedido-sobre-produtora-de-dark-horse-e-cobra-provas-da-policia.shtml",
-      "dataFonte": "2026-08-31T22:27:00.000Z",
-      "resumoFonte": "A Vara Estadual das Garantias fez uma s�rie de questionamentos � Pol�cia Civil de S�o Paulo e devolveu, sem decis�o, um pedido de acesso a dados financeiros sigilosos da empres�ria Karina Ferreira da Gama, dona da produtora do filme \" Dark Horse \" e alvo de uma investiga��o sobre poss�vel desvio de recursos da Prefeitura de S�o Paulo. Leia mais…",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/05/19/17792160836a0caed3af3c4_1779216083_3x2_lg.jpg",
-      "descobertaEm": "2026-09-01T01:13:00.364Z"
-    },
-    {
       "id": "3debc1a072ebe957",
       "titulo": "Lula e Fl�vio Bolsonaro veem Cury atrair voto antissistema e chance de despontar como terceira via",
       "categoria": "Política Nacional",
@@ -248,6 +237,18 @@
       "dataFonte": "2026-08-31T21:52:42.000Z",
       "resumoFonte": "Mais cedo, presidente americano ameaçou atingir Teerã 'com força' em meio à retomada dos ataques de ambos os países",
       "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/08/AFP__20260831__C6XW2MB__v1__HighRes__UsPoliticsTrump.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "descobertaEm": "2026-08-31T21:59:37.678Z"
+    },
+    {
+      "id": "2a953dcb5c50453f",
+      "titulo": "Trump diz que está reavaliando posição dos EUA em relação às Ilhas Malvinas",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/internacional/trump-diz-que-esta-reavaliando-posicao-dos-eua-em-relacao-as-ilhas-malvinas/",
+      "dataFonte": "2026-08-31T21:51:19.000Z",
+      "resumoFonte": "Presidente americano não afirmou se alteraria a posição de Washington sobre a soberania que, em geral, tem evitado tomar partido desde 1982",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/2026-08-31T213123Z_1_LYNXMPEM7U1T8_RTROPTP_4_USA-TRUMP.jpg?w=1200&h=630&crop=1",
       "descobertaEm": "2026-08-31T21:59:37.678Z"
     }
   ]
