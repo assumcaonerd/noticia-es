@@ -273,8 +273,8 @@
       "imagem": "",
       "descobertaEm": "2026-09-01T01:13:00.364Z",
       "status": "pendente",
-      "imagemFonte": null,
-      "imagemOrigem": "capa-categoria"
+      "imagemFonte": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/a-constituicao-e-a-liberdade-dia-31-de-agosto--910x568.jpeg.webp",
+      "imagemOrigem": "fonte"
     },
     {
       "id": "ba930d9a5a5e1721",
@@ -3141,5 +3141,5 @@
       "imagemOrigem": "fonte"
     }
   ],
-  "politicaImagem": "Toda matéria nova do motor usa imagemFonte extraída da publicação original. Na ausência de foto válida, usar exclusivamente a capa da categoria. É proibido inventar, gerar ou substituir por retrato de pessoa."
+  "politicaImagem": "Toda matéria nova usa imagem da fonte (og:image). O fiscal-imagens corrige ausência. Proibido SVG genérico e foto aleatória."
 }
