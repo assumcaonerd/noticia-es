@@ -1,7 +1,5 @@
-/* NOTÍCIA ES - MANIFESTO DE MATÉRIAS AUTOMÁTICAS
-   Arquivo pequeno e seguro para carregar shards gerados pela redação automática.
-   Cada shard é um JS independente e imutável. */
 const noticiasAutoArquivos = [
+  "auto-redacao-20260901-090000.js",
   "auto-redacao-20260901-020500.js",
   "auto-redacao-20260901-000500.js",
   "auto-redacao-20260831-234300.js",
@@ -27,6 +25,4 @@ const noticiasAutoArquivos = [
   "remover-materias-20260831.js",
   "fe-sociedade.js"
 ];
-for (const arquivo of noticiasAutoArquivos) {
-  document.write(`<script src="${arquivo}"><\/script>`);
-}
+for (const arquivo of noticiasAutoArquivos) document.write('<script src="' + arquivo + '"><' + '/script>');
