@@ -18,7 +18,7 @@ permissions:
 
 concurrency:
   group: gerar-og-noticia-es
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   gerar:
@@ -26,14 +26,17 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
       - name: Gerar m/{slug}.html
         run: node scripts/gerar-paginas-og.mjs
       - name: Publicar páginas
         shell: bash
         run: |
+          set -euo pipefail
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add m
@@ -42,5 +45,23 @@ jobs:
             exit 0
           fi
           git commit -m "og: gera páginas estáticas para prévia do WhatsApp"
-          git pull --rebase origin main
-          git push origin main
+
+          for tentativa in 1 2 3 4 5; do
+            echo "Tentativa de publicação ${tentativa}/5"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "Conflito durante rebase; nova tentativa após atualizar a base."
+              sleep $((tentativa * 2))
+              continue
+            fi
+            if git push origin HEAD:main; then
+              echo "Páginas OG publicadas com sucesso."
+              exit 0
+            fi
+            echo "Push concorrente detectado; tentando novamente."
+            sleep $((tentativa * 2))
+          done
+
+          echo "Falha ao publicar páginas OG após 5 tentativas."
+          exit 1
