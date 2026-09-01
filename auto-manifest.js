@@ -2,6 +2,7 @@
    Arquivo pequeno e seguro para carregar shards gerados pela redação automática.
    Cada shard é um JS independente e imutável. */
 const noticiasAutoArquivos = [
+  "auto-redacao-20260831-231000.js",
   "auto-redacao-20260831-230400.js",
   "auto-redacao-20260831-230100.js",
   "imagem-fix-btg-nexus-20260831.js",
