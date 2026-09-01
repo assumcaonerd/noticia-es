@@ -60,15 +60,32 @@ async function carregarOverlay() {
 }
 
 async function carregarNoticias() {
-  const contexto = { noticias: [] };
+  const contexto = {
+    noticias: [],
+    window: { noticiasAuto: [] },
+    document: {
+      write() {},
+      querySelector() { return null; },
+      querySelectorAll() { return []; },
+      getElementById() { return null; }
+    }
+  };
+  contexto.window.window = contexto.window;
+  contexto.window.document = contexto.document;
+
   for (const arquivo of await listarArquivosMateria()) {
     try {
       const codigo = await fs.readFile(path.join(RAIZ, arquivo), 'utf8');
+      const inicioAuto = contexto.window.noticiasAuto.length;
+
       vm.runInNewContext(
         `${codigo}\nif (typeof noticias !== 'undefined' && Array.isArray(noticias)) { this.noticias = noticias; }`,
         contexto,
         { timeout: 12000, filename: arquivo }
       );
+
+      const novasViaWindow = contexto.window.noticiasAuto.slice(inicioAuto);
+      if (novasViaWindow.length) contexto.noticias.unshift(...novasViaWindow);
     } catch (erro) {
       if (erro.code !== 'ENOENT') console.warn(`[og] não leu ${arquivo}: ${erro.message}`);
     }
