@@ -36,6 +36,7 @@ const FONTES_BLOQUEADAS = [
 ];
 
 const PADROES_IMAGEM_INVALIDA = /(auto-(politica|seguranca)|placeholder|fb_marca\.png|marca[_-]?valor|logo[^/]*valor|valor[^/]*logo|default[-_]?image|og[-_]?default|\/logo[._/-]|logo\.(svg|png|jpg|jpeg|webp)(\?|$))/i;
+const STOP = new Set('a o as os um uma uns umas de da do das dos em no na nos nas por para com sem e ou que se ao aos à às entre sobre após apos antes durante contra como mais menos já ja tem teve têm sua seu suas seus esta este isso isto esse essa esses essas novo nova novos novas 2026 2027 brasil brasileiro brasileira'.split(' '));
 
 function normalizar(s = '') {
   return String(s)
@@ -44,6 +45,46 @@ function normalizar(s = '') {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, ' ')
     .trim();
+}
+
+function tokensTitulo(s = '') {
+  return new Set(normalizar(s).split(/\s+/).filter((t) => t.length >= 3 && !STOP.has(t)));
+}
+
+function similaridadeTitulos(a, b) {
+  const A = tokensTitulo(a);
+  const B = tokensTitulo(b);
+  if (!A.size || !B.size) return 0;
+  let inter = 0;
+  for (const t of A) if (B.has(t)) inter++;
+  const uniao = A.size + B.size - inter;
+  return uniao ? inter / uniao : 0;
+}
+
+function mesmaPautaPorTitulo(a, b) {
+  const na = normalizar(a);
+  const nb = normalizar(b);
+  if (!na || !nb) return false;
+  if (na === nb) return true;
+  const A = tokensTitulo(a), B = tokensTitulo(b);
+  const menor = Math.min(A.size, B.size);
+  let inter = 0;
+  for (const t of A) if (B.has(t)) inter++;
+  const coberturaMenor = menor ? inter / menor : 0;
+  return similaridadeTitulos(a, b) >= 0.58 || (menor >= 4 && coberturaMenor >= 0.75);
+}
+
+function urlCanonica(u = '') {
+  try {
+    const x = new URL(String(u));
+    x.hash = '';
+    for (const p of [...x.searchParams.keys()]) {
+      if (/^(utm_|fbclid|gclid|output|ref|source)/i.test(p)) x.searchParams.delete(p);
+    }
+    return (x.hostname.replace(/^www\./, '') + x.pathname.replace(/\/$/, '')).toLowerCase();
+  } catch {
+    return normalizar(u);
+  }
 }
 
 function hostOuTexto(pauta) {
@@ -65,8 +106,6 @@ function imagemValida(pauta) {
 
 function categoriaRank(categoria = '') {
   const c = normalizar(categoria);
-  // Segurança Pública vem primeiro no worker automático porque é a trilha mais confiável
-  // para publicação externa. Política permanece no lote para reapuração e uso editorial.
   if (c === 'seguranca publica') return 0;
   if (c === 'politica es') return 1;
   if (c === 'politica nacional') return 2;
@@ -89,33 +128,40 @@ function dataRank(pauta) {
   return Number.isFinite(d) ? -d : 0;
 }
 
-async function slugsETitulosPublicados() {
+async function publicadosIndex() {
   const nomes = await fs.readdir(RAIZ);
   const arquivos = nomes.filter((n) =>
     n === 'noticias.js' ||
     /^editorial.*\.js$/.test(n) ||
     /^auto-redacao-\d{8}-\d{6}\.js$/.test(n) ||
     n === 'opiniao.js' ||
-    n === 'fe-sociedade.js'
+    n === 'fe-sociedade.js' ||
+    n === 'manual-gilvan.js'
   );
 
   const slugs = new Set();
-  const titulos = new Set();
+  const titulosNorm = new Set();
+  const titulosBrutos = [];
+  const urls = new Set();
   for (const arquivo of arquivos) {
     let texto = '';
     try { texto = await fs.readFile(path.join(RAIZ, arquivo), 'utf8'); } catch { continue; }
     for (const m of texto.matchAll(/\bslug\s*:\s*["'`]([^"'`]+)["'`]/g)) slugs.add(normalizar(m[1]));
-    for (const m of texto.matchAll(/\btitulo\s*:\s*["'`]([^"'`]+)["'`]/g)) titulos.add(normalizar(m[1]));
+    for (const m of texto.matchAll(/\btitulo\s*:\s*["'`]([^"'`]+)["'`]/g)) {
+      titulosNorm.add(normalizar(m[1]));
+      titulosBrutos.push(m[1]);
+    }
+    for (const m of texto.matchAll(/\bfonteUrl\s*:\s*["'`]([^"'`]+)["'`]/g)) urls.add(urlCanonica(m[1]));
   }
-  return { slugs, titulos };
+  return { slugs, titulosNorm, titulosBrutos, urls };
 }
 
 const bruto = JSON.parse(await fs.readFile(PAUTAS, 'utf8'));
 const pautas = Array.isArray(bruto) ? bruto : (Array.isArray(bruto.pautas) ? bruto.pautas : []);
-const publicados = await slugsETitulosPublicados();
+const publicados = await publicadosIndex();
 
 const elegiveis = [];
-const diagnostico = { totalPendentes: 0, bloqueadas: 0, semImagem: 0, duplicadasBasicas: 0, foraCategorias: 0 };
+const diagnostico = { totalPendentes: 0, bloqueadas: 0, semImagem: 0, duplicadasBasicas: 0, duplicadasSemanticas: 0, foraCategorias: 0 };
 
 for (const p of pautas) {
   if (p?.status !== 'pendente') continue;
@@ -125,11 +171,30 @@ for (const p of pautas) {
   if (!imagemValida(p)) { diagnostico.semImagem++; continue; }
 
   const slugConhecido = normalizar(p.slugPublicado || p.slug || '');
-  const titulo = normalizar(p.titulo || '');
-  if ((slugConhecido && publicados.slugs.has(slugConhecido)) || (titulo && publicados.titulos.has(titulo))) {
+  const titulo = String(p.titulo || '');
+  const tituloNorm = normalizar(titulo);
+  const url = urlCanonica(p.urlFonte || '');
+
+  if ((slugConhecido && publicados.slugs.has(slugConhecido)) ||
+      (tituloNorm && publicados.titulosNorm.has(tituloNorm)) ||
+      (url && publicados.urls.has(url))) {
     diagnostico.duplicadasBasicas++;
     continue;
   }
+
+  if (titulo && publicados.titulosBrutos.some((t) => mesmaPautaPorTitulo(titulo, t))) {
+    diagnostico.duplicadasSemanticas++;
+    continue;
+  }
+
+  if (elegiveis.some((q) => {
+    const mesmaUrl = url && url === urlCanonica(q.urlFonte || '');
+    return mesmaUrl || mesmaPautaPorTitulo(titulo, q.titulo || '');
+  })) {
+    diagnostico.duplicadasSemanticas++;
+    continue;
+  }
+
   elegiveis.push(p);
 }
 
@@ -140,7 +205,6 @@ elegiveis.sort((a, b) => {
     || dataRank(a) - dataRank(b);
 });
 
-/* Mantemos até 20 candidatas para a redação conseguir substituir alguma que falhe na reapuração e ainda fechar 10. */
 const candidatas = elegiveis.slice(0, 20).map((p) => ({
   id: p.id,
   titulo: p.titulo,
@@ -163,4 +227,4 @@ const saida = {
 };
 
 await fs.writeFile(DESTINO, JSON.stringify(saida, null, 2) + '\n', 'utf8');
-console.log(`[lote-redacao] ${candidatas.length} candidata(s). Pendentes=${diagnostico.totalPendentes}; semImagem=${diagnostico.semImagem}; bloqueadas=${diagnostico.bloqueadas}; duplicadas=${diagnostico.duplicadasBasicas}`);
+console.log(`[lote-redacao] ${candidatas.length} candidata(s). Pendentes=${diagnostico.totalPendentes}; semImagem=${diagnostico.semImagem}; bloqueadas=${diagnostico.bloqueadas}; duplicadasBasicas=${diagnostico.duplicadasBasicas}; duplicadasSemanticas=${diagnostico.duplicadasSemanticas}`);
