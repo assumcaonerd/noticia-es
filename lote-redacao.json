@@ -1,28 +1,16 @@
 {
-  "geradoEm": "2026-09-01T19:53:11.148Z",
+  "geradoEm": "2026-09-01T20:06:34.518Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 10 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 9,
     "semImagem": 0,
-    "duplicadasBasicas": 1,
+    "duplicadasBasicas": 5,
     "duplicadasSemanticas": 5,
     "foraCategorias": 4
   },
   "quantidadeCandidatas": 20,
   "candidatas": [
-    {
-      "id": "50cdd3295576a759",
-      "titulo": "Dias antes da prisão 'Segunda já tenho que estar fora?', perguntou Vorcaro a Moraes",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/brasil/acha-que-segunda-ja-tenho-que-estar-fora-perguntou-vorcaro-a-moraes-2-dias-antes-de-prisao-diz-jornal-0926",
-      "dataFonte": "2026-09-01T17:39:32.000Z",
-      "resumoFonte": "Dono do Banco Master e ministro do STF conversaram sobre detalhes sensíveis da Operação Compliance Zero",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1776098936301_2026_03_06_auto_upload_3173028.png",
-      "descobertaEm": "2026-09-01T19:21:42.282Z"
-    },
     {
       "id": "07a900e4eae90266",
       "titulo": "&quot;Estou online&quot;: Vorcaro enviou mensagem a Moraes minutos antes de ser preso | CNN Brasil",
@@ -36,18 +24,6 @@
       "descobertaEm": "2026-09-01T19:23:25.548Z"
     },
     {
-      "id": "e4c6a6b9e6a313f2",
-      "titulo": "De R$ 52,34 a R$ 2,4 milhões: os candidatos do ES que declararam dinheiro vivo",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "A Gazeta - Política",
-      "urlFonte": "https://www.agazeta.com.br/es/politica/de-r-52-34-a-r-2-4-milhoes-os-candidatos-do-es-que-declararam-dinheiro-vivo-0826",
-      "dataFonte": "2026-09-01T19:13:17.000Z",
-      "resumoFonte": "56 concorrentes no pleito deste ano somam R$ 11.836.007,34 em papel-moeda",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1787952224396_copia_de_template_abre_site_eleicoes_2026_15.jpg",
-      "descobertaEm": "2026-09-01T19:21:42.282Z"
-    },
-    {
       "id": "a1c3f4ef79264e69",
       "titulo": "Lorenzo Pazolini acena ao centro sem largar o bolsonarismo",
       "categoria": "Política ES",
@@ -57,30 +33,6 @@
       "dataFonte": "2026-09-01T18:22:18.000Z",
       "resumoFonte": "Candidato ao governo do ES foi entrevistado em sabatina realizada por A Gazeta e CBN Vitória. Em vez de ficar em cima do muro, colocou um pé em cada lado",
       "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788273202830_dsc01356_396.jpg",
-      "descobertaEm": "2026-09-01T19:21:42.282Z"
-    },
-    {
-      "id": "d6501c33e0922750",
-      "titulo": "Caso Apex: Pazolini afirma que crise prejudica atração de investimentos para o ES",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "A Gazeta - Política",
-      "urlFonte": "https://www.agazeta.com.br/es/politica/caso-apex-pazolini-afirma-que-crise-prejudica-atracao-de-investimentos-para-o-es-0926",
-      "dataFonte": "2026-09-01T17:51:27.000Z",
-      "resumoFonte": "Candidato ao governo pelo Republicanos comentou sobre crise durante entrevista realizada por A Gazeta e CBN Vitória",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788273199478_dsc01341_392.jpg",
-      "descobertaEm": "2026-09-01T19:21:42.282Z"
-    },
-    {
-      "id": "59f75b4018a4ea5f",
-      "titulo": "Pazolini diz que vai cortar cargos comissionados e bonificar efetivos por metas",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "A Gazeta - Política",
-      "urlFonte": "https://www.agazeta.com.br/eleicoes-2026/pazolini-diz-que-vai-cortar-cargos-comissionados-e-bonificar-efetivos-por-metas-0926",
-      "dataFonte": "2026-09-01T17:02:49.000Z",
-      "resumoFonte": "Candidato do Republicanos ao governo do ES afirmou que planos fazem parte do choque de gestão que implementará no Estado, caso seja eleito",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788273194885_dsc01417_404.jpg",
       "descobertaEm": "2026-09-01T19:21:42.282Z"
     },
     {
@@ -250,6 +202,54 @@
       "resumoFonte": "‘Segunda devo estar fora?’, perguntou Vorcaro a Moraes O ministro André Mendonça, do Supremo Tirbunal Federal (STF), removeu, nesta terça-feira (1ª), o sigilo sobre um relatório da Polícia Federal que expõe mensagens e contatos entre o fundador do banco Master, Daniel Vorcaro, e o ministro Alexandre de Moraes. ➡️Relembre o Caso Master: Segundo a…",
       "imagem": "https://s2-g1.glbimg.com/dX8cd-85LlVVN4YI6FZKcbvzxm0=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/h/E/pUy8QkR7mlMTM0U5sVkA/fotojet-40-.jpg",
       "descobertaEm": "2026-09-01T19:45:35.616Z"
+    },
+    {
+      "id": "884087727d646dcf",
+      "titulo": "Nikolas Ferreira acionará STF para pedir investigação, afastamento e prisão de Moraes",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/politica/nikolas-ferreira-acionara-stf-para-pedir-investigacao-afastamento-e-prisao-de-moraes/",
+      "dataFonte": "2026-09-01T19:16:59.000Z",
+      "resumoFonte": "Deputado, que já usa caso como plataforma política, insiste que Corte deve tomar providências e impedir a atuação do ministro",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2025/09/2D-2-img20250521120552130.jpg.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "descobertaEm": "2026-09-01T19:21:42.282Z"
+    },
+    {
+      "id": "fd1c50051437405e",
+      "titulo": "Auxiliares de Lula comemoram ‘trocas e sugestões’ em jantar com banqueiros e empresários no Alvorada",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/politica/auxiliares-de-lula-comemoram-trocas-e-sugestoes-em-jantar-com-banqueiros-e-empresarios-no-alvorada/",
+      "dataFonte": "2026-09-01T19:15:26.000Z",
+      "resumoFonte": "Jantar do presidente com PIB foi classificado como \"ameno\" e marcado por um \"clima de convergência\"",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2024/08/55492792960_6fe65fc8a8_o.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "descobertaEm": "2026-09-01T19:21:42.282Z"
+    },
+    {
+      "id": "60a1f53a537c86d8",
+      "titulo": "Pequim prepara cúpula trilateral com Xi, Putin e Trump, diz governo russo",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/mundo/pequim-prepara-cupula-trilateral-com-xi-putin-e-trump-diz-governo-russo/",
+      "dataFonte": "2026-09-01T19:13:50.000Z",
+      "resumoFonte": "Os líderes das três maiores potências do mundo podem se encontrar no fórum da APEC, sediado pela China em novembro",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/08/GettyImages-2268472618.jpg.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "descobertaEm": "2026-09-01T19:21:42.282Z"
+    },
+    {
+      "id": "42851c7c694eaee6",
+      "titulo": "OAB diz acompanhar com preocupação 'crise no STF' e defende apuração 'rigorosa' e 'isenta' de fatos",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/noticia/2026/09/01/oab-diz-acompanhar-com-preocupacao-crise-no-stf-e-defende-apuracao-rigorosa-e-isenta.ghtml",
+      "dataFonte": "2026-09-01T19:10:54.000Z",
+      "resumoFonte": "A Ordem dos Advogados do Brasil (OAB) divulgou uma nota pública nesta terça-feira (1º) em que afirma que acompanha com \"atenção e extrema preocupação\" o desenrolar de notícias sobre o que chama de \"crise\" que atinge o Supremo Tribunal Federal (STF) e outros órgãos da República. No comunicado, assinado pelo presidente em exercício do Conselho…",
+      "imagem": "https://s2-g1.glbimg.com/c--dDahQsR2BjZZ5PC7p6fc9PrM=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s02.video.glbimg.com/deo/vi/85/16/14921685",
+      "descobertaEm": "2026-09-01T19:21:42.282Z"
     }
   ]
 }
