@@ -1,28 +1,16 @@
 {
-  "geradoEm": "2026-09-01T12:31:38.094Z",
+  "geradoEm": "2026-09-01T12:38:29.875Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 10 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 15,
     "semImagem": 0,
-    "duplicadasBasicas": 1,
+    "duplicadasBasicas": 2,
     "duplicadasSemanticas": 0,
     "foraCategorias": 3
   },
   "quantidadeCandidatas": 20,
   "candidatas": [
-    {
-      "id": "48340a65438bafdf",
-      "titulo": "Operação mira traficante suspeito de ligação com assassinatos no Norte do ES",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/operacao-mira-traficante-suspeito-de-ligacao-com-assassinatos-no-norte-do-es-0926",
-      "dataFonte": "2026-09-01T10:59:54.000Z",
-      "resumoFonte": "Ação da Polícia Civil cumpre 10 mandados de busca e apreensão e um de prisão na zona rural de São Mateus",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788259351664_template_radar_a_gazeta_2026_09_01t073904.jpg",
-      "descobertaEm": "2026-09-01T12:23:09.830Z"
-    },
     {
       "id": "90a6d9081d0ce4e3",
       "titulo": "Operação investiga relação de jogadores capixabas com traficante preso",
@@ -249,6 +237,18 @@
       "dataFonte": "2026-09-01T11:16:34.000Z",
       "resumoFonte": "Empresa chinesa adquire unidades Rio Vermelho e Nova Unialco, mas valor do negócio não foi revelado",
       "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportAgribusinessNews/tagreuters.com2026binary_LYNXMPEM80315-BASEIMAGE.jpg?w=800&h=533&crop=1",
+      "descobertaEm": "2026-09-01T12:23:09.830Z"
+    },
+    {
+      "id": "f5ba6d958e5fccb0",
+      "titulo": "Setembro terá calor acima da média e chuva irregular pelo Brasil, diz Inmet",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/nacional/brasil/setembro-tera-calor-acima-da-media-e-chuva-irregular-pelo-brasil-diz-inmet/",
+      "dataFonte": "2026-09-01T11:09:51.000Z",
+      "resumoFonte": "Instituto prevê precipitações acima do normal no Sul e Sudeste, enquanto áreas do Norte e Nordeste devem ter tempo mais seco",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/clima-setembro.jpeg?w=1179&h=594&crop=1",
       "descobertaEm": "2026-09-01T12:23:09.830Z"
     }
   ]
