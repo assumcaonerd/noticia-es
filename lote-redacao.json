@@ -1,16 +1,28 @@
 {
-  "geradoEm": "2026-09-01T22:13:07.641Z",
+  "geradoEm": "2026-09-01T22:32:53.387Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 10 matérias.",
   "diagnostico": {
-    "totalPendentes": 64,
-    "bloqueadas": 5,
+    "totalPendentes": 80,
+    "bloqueadas": 6,
     "semImagem": 0,
-    "duplicadasBasicas": 6,
-    "duplicadasSemanticas": 3,
-    "foraCategorias": 2
+    "duplicadasBasicas": 0,
+    "duplicadasSemanticas": 5,
+    "foraCategorias": 3
   },
   "quantidadeCandidatas": 20,
   "candidatas": [
+    {
+      "id": "89ac4e0497ee3e74",
+      "titulo": "Briga de trânsito motiva vingança e assassinato em Vila Velha",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/briga-de-transito-termina-em-vinganca-e-assassinato-em-vila-velha-0926",
+      "dataFonte": "2026-09-01T21:19:57.000Z",
+      "resumoFonte": "Segundo a Polícia Civil, jovem decidiu se vingar após ser agredido pela vítima e contou com a participação do pai; os dois foram indiciados por homicídio",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788294817244_copia_de_template_radar_a_gazeta_50.jpg",
+      "descobertaEm": "2026-09-01T22:25:09.679Z"
+    },
     {
       "id": "68a90d4c1b6a0c33",
       "titulo": "Suspeito de estuprar filha, enteada e vizinha é preso em Guarapari",
@@ -72,40 +84,16 @@
       "descobertaEm": "2026-09-01T19:24:12.239Z"
     },
     {
-      "id": "d3a49e4611c258b0",
-      "titulo": "Poste cai na Orla de Cariacica e bloqueia trânsito na região",
-      "categoria": "Política ES",
+      "id": "c28e8f0d3d6535da",
+      "titulo": "Diretor do Paraná Pesquisas prevê eleição ‘mais apertada e mais imprevisível’ que 2022",
+      "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "YouTube Folha Vitória",
-      "urlFonte": "https://www.youtube.com/shorts/HHkSYb1wpF8",
-      "dataFonte": "2026-09-01T19:22:11.000Z",
-      "resumoFonte": "🚧 A Avenida Vale do Rio Doce, que margeia a Orla de Cariacica, ficou totalmente interditada na tarde desta terça-feira (1º) após a queda de um poste. Imagens enviadas por leitores do Folha Vitória mostram o objeto atravessado na via, bloqueando totalmente a passagem de veículos nos dois sentidos. A empreendedora Clauzira Monteiro, moradora do bair",
-      "imagem": "https://i.ytimg.com/vi/HHkSYb1wpF8/hq720_2.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLD_NbPrc16Y_bmYQwiFdXAVzMR1DA",
-      "descobertaEm": "2026-09-01T19:23:59.438Z"
-    },
-    {
-      "id": "cf530696ccf0ded6",
-      "titulo": "🔴 CBN Vitória | 02/09",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "YouTube A Gazeta",
-      "urlFonte": "https://www.youtube.com/watch?v=OYV8bIkq5_c",
-      "dataFonte": "2026-09-01T18:14:58.000Z",
-      "resumoFonte": "Conversas com especialistas e personalidades sobre os assuntos que afetam a rotina dos capixabas, com apresentação de Fernanda Queiroz. * CBN MEIO AMBIENTE E SUSTENTABILIDADE com Marco Bravo, comentarista * CBN E A TECNOLOGIA com Gilberto Sudré, comentarista * JUSTIÇA SEGURANÇA E CIDADANIA com Vilmara Fernandes, comentarista Acompanhe as informaçõe",
-      "imagem": "https://i.ytimg.com/vi/OYV8bIkq5_c/maxresdefault.jpg?v=6a971622",
-      "descobertaEm": "2026-09-01T21:17:34.003Z"
-    },
-    {
-      "id": "75e53eab4bfe05d4",
-      "titulo": "Candidato ao governo ES fala da sabatina",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "YouTube A Gazeta",
-      "urlFonte": "https://www.youtube.com/shorts/ziGn1kia73U",
-      "dataFonte": "2026-09-01T15:01:20.000Z",
-      "resumoFonte": "Lorenzo Pazolini (Republicanos) fala sobre sua participação na sabatina com A Gazeta e CBN Vitória e comenta como foi responder às perguntas sobre os principais desafios do Espírito Santo. A entrevista integra a série de sabatinas com candidatos ao Governo do ES promovida por A Gazeta e CBN Vitória. 📹 Imagem e entrevista: Julia Camim/ A Gazeta Ass",
-      "imagem": "https://i.ytimg.com/vi/ziGn1kia73U/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLCJGd-9YzZrt5MGCZwoEuVWmJHG9Q&usqp=CCk",
-      "descobertaEm": "2026-09-01T21:17:34.003Z"
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/diretor-do-parana-pesquisas-preve-eleicao-mais-apertada-e-mais-imprevisivel-que-2022/",
+      "dataFonte": "2026-09-01T21:35:50.000Z",
+      "resumoFonte": "O diretor do Instituto Paraná Pesquisas, Murilo Hidalgo, classificou a disputa pela Presidência como equilibrada e afirmou que, no cenário atual, tanto o presidente Luiz Inácio Lula da Silva quanto o senador Flávio Bolsonaro podem vencer a eleição. + Leia mais: Entenda o que é a política no Brasil em Oeste “Se a eleição fosse domingo agora, seria…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/murilohidalgo-faroeste-910x568.jpg.webp",
+      "descobertaEm": "2026-09-01T22:25:09.679Z"
     },
     {
       "id": "59b83e247128801b",
@@ -118,6 +106,30 @@
       "resumoFonte": "Flávio Bolsonaro e Daniel Vorcaro Adriano Machado/Reuters e Reprodução O ex-banqueiro Daniel Vorcaro fez um repasse de US$ 1,666 milhão para o filme Dark Horse em setembro de 2025, dias após o senador Flávio Bolsonaro (PL-RJ), hoje candidato a presidente, cobrar parcelas que estavam atrasadas. Esse repasse foi revelado nesta terça-feira (1º) pela…",
       "imagem": "https://s2-g1.glbimg.com/NoIWNNyoE7-esszpAX2bCC8EeGk=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/x/C/ixeIUPSBeFbVapTsvBig/flavio-vorcaro.jpg",
       "descobertaEm": "2026-09-01T21:13:47.197Z"
+    },
+    {
+      "id": "f4c0009066409b8d",
+      "titulo": "Senado aprova nome de Pacheco para o TCU",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/senado-aprova-nome-de-pacheco-para-o-tcu/",
+      "dataFonte": "2026-09-01T21:52:18.000Z",
+      "resumoFonte": "O Senado aprovou nesta terça-feira, 1º, a indicação do senador Rodrigo Pacheco (PSB-MG) para a vaga de ministro do Tribunal de Contas da União (TCU) , na cadeira deixada por Bruno Dantas nesta semana. Em votação secreta, o ex-presidente da Casa recebeu 63 votos favoráveis e 4 contrários. Pacheco foi indicado pelo presidente do Senado, Davi…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/12/0d4a2245.webp",
+      "descobertaEm": "2026-09-01T22:25:09.679Z"
+    },
+    {
+      "id": "c923f0ac3a1a9ddf",
+      "titulo": "Fim da escala 6×1: Brasil pode levar até 30 anos para compensar redução da jornada",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/economia/fim-da-escala-6x1-brasil-pode-levar-ate-30-anos-para-compensar-reducao-da-jornada/",
+      "dataFonte": "2026-09-01T21:42:27.000Z",
+      "resumoFonte": "A produtividade será o principal obstáculo para uma eventual adoção da jornada de 40 horas semanais com o fim da escala 6x1, segundo estudo da Confederação Nacional da Indústria (CNI). Pelas estimativas da entidade, o Brasil precisaria de 17 a 30 anos para produzir o ganho de eficiência capaz de compensar a redução do tempo de trabalho. + Leia mais…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/cni.jpg.webp",
+      "descobertaEm": "2026-09-01T22:25:09.679Z"
     },
     {
       "id": "638f18289189e0fa",
@@ -156,100 +168,88 @@
       "descobertaEm": "2026-09-01T21:13:47.197Z"
     },
     {
-      "id": "03bb0d039f196f36",
-      "titulo": "Oposi��o cobra impeachment de Moraes, mas v� resist�ncia de Alcolumbre e centr�o",
+      "id": "fcde8ed9336a48c9",
+      "titulo": "PEC da Segurança: relator retira repasse de bets do texto para garantir aprovação no Senado",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/oposicao-cobra-impeachment-de-moraes-mas-ve-resistencia-de-alcolumbre-e-centrao.shtml",
-      "dataFonte": "2026-09-01T21:09:00.000Z",
-      "resumoFonte": "Senadores de oposi��o falam em aumentar a cobran�a pelo impeachment do ministro Alexandre de Moraes , do STF (Supremo Tribunal Federal), mas admitem poucos efeitos pr�ticos, diante da falta de votos e de apoio do presidente da Casa, Davi Alcolumbre ( Uni�o Brasil -AP). Leia mais (09/01/2026 - 18h09)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/09/01/17882954446a97391413374_1788295444_3x2_rt.jpg",
-      "descobertaEm": "2026-09-01T21:13:47.197Z"
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/blog/gerson-camarotti/post/2026/09/01/pec-da-seguranca-relator-retira-repasse-de-bets-do-texto-para-garantir-aprovacao-no-senado.ghtml",
+      "dataFonte": "2026-09-01T22:02:25.000Z",
+      "resumoFonte": "Para garantir a aprovação da Proposta de Emenda á Constituição (PEC) da Segurança no Senado, o senador Rogério Carvalho (PT-SE) decidiu retirar do texto a parte que previa um repasse de 30% da arrecadação de bets para financiar o Fundo Nacional de Segurança Pública e o Fundo Penitenciário Nacional. Essa possibilidade havia sido aprovada pela Câmara…",
+      "imagem": "https://s2-g1.glbimg.com/1BvnjaLzwxl6qqrfKwCzaS2pVi0=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/v/8/AsgQHTREKKviApOEqgxw/crop-foto-2026-07-13t104151.736.jpg",
+      "descobertaEm": "2026-09-01T22:25:09.679Z"
     },
     {
-      "id": "17097c1d475b8efe",
-      "titulo": "Terremoto institucional no STF atinge as campanhas",
+      "id": "bea4fe790864477e",
+      "titulo": "Governo do DF aciona STF contra lei federal que pode gerar corte bilionário no Fundo Constitucional",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/terremoto-institucional-no-stf-atinge-as-campanhas.shtml",
-      "dataFonte": "2026-09-01T21:05:00.000Z",
-      "resumoFonte": "A revela��o das mensagens entre Daniel Vorcaro e Alexandre de Moraes � um choque s�smico de grandes propor��es para a combalida vida institucional brasileira, e seus tremores secund�rios ser�o sentidos imediatamente na campanha � Presid�ncia. Leia mais (09/01/2026 - 18h05)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/09/01/17882953036a9738870d3ea_1788295303_3x2_rt.jpg",
-      "descobertaEm": "2026-09-01T21:13:47.197Z"
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/df/distrito-federal/noticia/2026/09/01/governo-do-df-aciona-stf-e-diz-que-lei-sancionada-por-lula-que-pode-ter-impacto-bilionario-no-fundo-constitucional-entenda.ghtml",
+      "dataFonte": "2026-09-01T22:01:13.000Z",
+      "resumoFonte": "Edifício-sede do STF, em imagem de arquivo Jornal Nacional/ Reprodução O governo do Distrito Federal entrou com uma ação no Supremo Tribunal Federal (STF) nesta terça-feira (1º) para questionar a lei federal que autoriza a União a usar recursos do pré-sal para reduzir o preço dos combustíveis no país. O projeto aprovado no Congresso e sancionado…",
+      "imagem": "https://s2-g1.glbimg.com/AaXN018xBcSNt4rEkefwhJH8Cno=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/V/m/BBMx9DSwKkTcPnyEKV0Q/globo-canal-4-20260630-2000-frame-78887.jpeg",
+      "descobertaEm": "2026-09-01T22:25:09.679Z"
     },
     {
-      "id": "9d75b2150ede9569",
-      "titulo": "Moraes manda Exército destruir armas de Jair Bolsonaro que foram apreendidas",
+      "id": "0b22c6a0355310f2",
+      "titulo": "Exército de Israel captura chefe de segurança do Hamas em ataque a Gaza",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/politica/moraes-manda-exercito-destruir-armas-de-jair-bolsonaro-que-foram-apreendidas/",
-      "dataFonte": "2026-09-01T20:56:25.000Z",
-      "resumoFonte": "Ministro determinou que armamentos sejam destruídos pelo Exército; apenas a pistola Glock apreendida com um segurança do ex-presidente será preservada",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/03/JAIR-BOLSONARO-ARMA-CAMPANHA-2018-8139.jpg.jpg?quality=70&strip=info&resize=1080,565&crop=1",
-      "descobertaEm": "2026-09-01T21:13:47.197Z"
+      "urlFonte": "https://veja.abril.com.br/mundo/exercito-de-israel-captura-chefe-de-seguranca-do-hamas-em-ataque-a-gaza/",
+      "dataFonte": "2026-09-01T21:59:46.000Z",
+      "resumoFonte": "Forças israelenses afirmaram que bombardeio 'removeu ameaças no solo; Autoridades palestinas registram seis mortes, incluindo três crianças",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/07/gettyimages-2286187833-594x594-1.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "descobertaEm": "2026-09-01T22:25:09.679Z"
     },
     {
-      "id": "e6a666ac50b83285",
-      "titulo": "Renan Santos diz que pedirá impechament de Dias Toffoli e Moraes",
+      "id": "df40971c5dd8e5d2",
+      "titulo": "Comissão do Congresso aprova parecer para reduzir filas do INSS",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/brasil/comissao-do-congresso-aprova-parecer-para-reduzir-filas-do-inss/",
+      "dataFonte": "2026-09-01T21:58:14.000Z",
+      "resumoFonte": "Proposta segue agora para análise dos respectivos plenários da Câmara dos Deputados e do Senado",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/02/09052025-pzzb8480.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "descobertaEm": "2026-09-01T22:25:09.679Z"
+    },
+    {
+      "id": "c2e468fbf148468c",
+      "titulo": "Caiado diz que Moraes não tem condições de ficar no STF após revelações",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/politica/renan-santos-diz-que-pedira-impechament-de-dias-toffoli-e-moraes/",
-      "dataFonte": "2026-09-01T20:53:29.000Z",
-      "resumoFonte": "Relatório da PF divulgado nesta terça-feira (1º) revela que Alexandre de Moraes editou contrato firmado pela banca de advocacia de sua esposa com o ex-banqueiro Daniel Vorcaro",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/renan-santos-e1787063814693.png?w=1052&h=593&crop=1",
-      "descobertaEm": "2026-09-01T21:13:47.197Z"
+      "urlFonte": "https://www.cnnbrasil.com.br/politica/caiado-diz-que-moraes-nao-tem-condicoes-de-ficar-no-stf-apos-revelacoes/",
+      "dataFonte": "2026-09-01T21:55:33.000Z",
+      "resumoFonte": "Candidato à Presidência pelo PSD defendeu que o ministro seja afastado do Supremo “o mais rápido possível”",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/agenda_caiado.jpeg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-01T22:25:09.679Z"
     },
     {
-      "id": "65f213ef218e04d5",
-      "titulo": "Ex-ministro de Bolsonaro intermediou contato entre Vorcaro e Moraes: 'd� tempo de tomar um whisky', mostram mensagens",
+      "id": "06fa181a75bfaa7e",
+      "titulo": "Lula diz defender “pessoalmente” fim das bets e sugere “decisão drástica”",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/ex-ministro-de-bolsonaro-intermediou-contato-entre-vorcaro-e-moraes-da-tempo-de-tomar-um-whisky-mostram-mensagens.shtml",
-      "dataFonte": "2026-09-01T20:37:00.000Z",
-      "resumoFonte": "Mensagens obtidas pela PF ( Pol�cia Federal ) no celular de Daniel Vorcaro mostram que o ex-ministro das Comunica��es de Jair Bolsonaro , F�bio Faria , intermediou o contato entre o dono do Banco Master e o ministro do STF (Supremo Tribunal Federal) Alexandre de Moraes . Leia mais (09/01/2026 - 17h37)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2025/12/16/17659145686941b7c8c976d_1765914568_3x2_rt.jpg",
-      "descobertaEm": "2026-09-01T21:13:47.197Z"
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/lula-diz-defender-pessoalmente-fim-das-bets-e-sugere-decisao-drastica/",
+      "dataFonte": "2026-09-01T21:53:02.000Z",
+      "resumoFonte": "Em reunião no Palácio do Planalto, mandatário disse que tem “dois terços da decisão tomada”",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Lula_Reuniao_Bets.jpeg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-01T22:25:09.679Z"
     },
     {
-      "id": "9108602db1385afa",
-      "titulo": "Esposa de Moraes tinha segundo contrato de R$ 50 mi com empresa de Vorcaro | CNN Brasil",
+      "id": "a9bd6de83e9742f7",
+      "titulo": "Ajustes no texto adiam votação da MP da \"taxa das blusinhas\"",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "CNN Brasil - Capa",
-      "urlFonte": "https://www.cnnbrasil.com.br/politica/esposa-de-moraes-tinha-segundo-contrato-de-r-50-mi-com-empresa-de-vorcaro/",
-      "dataFonte": "2026-09-01T20:34:30.000Z",
-      "resumoFonte": "Acordo previa quitar R$ 40 milhões com participações em empresas ligadas a um avião Legacy 650 e a um helicóptero Airbus",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/09/Viviane-Moraes.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-01T21:16:41.808Z"
-    },
-    {
-      "id": "b70942c56681e813",
-      "titulo": "Moraes será investigado no STF? Saiba os próximos passos após revelações de mensagens com Vorcaro",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CBN - Política",
-      "urlFonte": "https://cbn.globo.com/politica/noticia/2026/09/01/moraes-sera-investigado-no-stf-saiba-os-proximos-passos-apos-revelacoes-de-mensagens-com-vorcaro.ghtml",
-      "dataFonte": "2026-09-01T20:33:36.975Z",
-      "resumoFonte": "Caso foi encaminhado à PGR e poderá ser analisado pelo plenário do Supremo. Decisão sobre eventual abertura de investigação ainda não foi tomada.",
-      "imagem": "https://s2-cbn.glbimg.com/EqlDF12FQlJR9I0xmAC_lBVI7iI=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2025/Y/D/gG9NJSSTG09ynDdr7AHQ/54759749557-678fe1d7ea-c.jpg",
-      "descobertaEm": "2026-09-01T21:13:47.197Z"
-    },
-    {
-      "id": "61a72e0756908e7b",
-      "titulo": "Reforço na segurança: SP nomeia 1.411 aprovados em concurso da Polícia Civil",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/brasil/reforco-na-seguranca-sp-nomeia-1-411-aprovados-em-concurso-da-policia-civil/",
-      "dataFonte": "2026-09-01T20:32:48.000Z",
-      "resumoFonte": "Aprovados em concurso de 2023 passam por formação de cinco meses na Acadepol antes de reforçar delegacias na capital e no interior",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/02/policia-civil-sp-deic.jpeg?quality=70&strip=info&resize=1080,565&crop=1",
-      "descobertaEm": "2026-09-01T21:13:47.197Z"
+      "fonteNome": "Agência Brasil - Política",
+      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/ajustes-no-texto-adiam-votacao-da-mp-da-taxa-das-blusinhas",
+      "dataFonte": "2026-09-01T21:48:00.000Z",
+      "resumoFonte": "Em busca de acordo sobre ajustes finais no texto, a comissão mista que analisa a Medida Provisória (MP) 1357/2026 , que acaba com a chamada taxa das blusinhas, adiou para quarta-feira (2), às 10h, a análise do relatório da senadora Leila do Vôlei (PDT-DF). A MP suspende a cobrança do imposto federal de importação de 20% sobre compras internacionais…",
+      "imagem": "https://imagens.ebc.com.br/U-d50dR0tGxUwPQoqlf6PRXbPhs=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/01/55503095100_a85cfb0125_o.jpg?itok=hRuIKfV0",
+      "descobertaEm": "2026-09-01T22:25:09.679Z"
     }
   ]
 }
