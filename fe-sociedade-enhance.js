@@ -8,7 +8,7 @@
     capa: 'https://i.ibb.co/XZ22GL8F/Whats-App-Image-2026-08-31-at-12-04-00.jpg',
     panoramica: 'https://i.ibb.co/9m61GLMX/Chat-GPT-Image-31-de-ago-de-2026-13-16-16.png',
     historia: 'https://i.ibb.co/QvjTz7Rs/Whats-App-Image-2026-08-31-at-12-03-59.jpg',
-    edmar: 'https://i.ibb.co/MyqNs81M/Chat-GPT-Image-31-de-ago-de-2026-12-40-36.png',
+    edmar: 'https://noticiaes.com.br/imagens/fe-sociedade/icm-50-edmar.svg',
     jovens: 'https://i.ibb.co/r1bsJpF/Chat-GPT-Image-31-de-ago-de-2026-11-59-57.png',
     pastores: 'https://i.ibb.co/FbmRsG3M/Whats-App-Image-2026-08-31-at-12-02-25.jpg',
     comunicacao: 'https://i.ibb.co/39LwW0m1/equipe-de-comunica-o.png',
