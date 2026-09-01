@@ -65,8 +65,10 @@ function imagemValida(pauta) {
 
 function categoriaRank(categoria = '') {
   const c = normalizar(categoria);
-  if (c === 'politica es') return 0;
-  if (c === 'seguranca publica') return 1;
+  // Segurança Pública vem primeiro no worker automático porque é a trilha mais confiável
+  // para publicação externa. Política permanece no lote para reapuração e uso editorial.
+  if (c === 'seguranca publica') return 0;
+  if (c === 'politica es') return 1;
   if (c === 'politica nacional') return 2;
   return 9;
 }
