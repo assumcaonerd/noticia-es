@@ -2,6 +2,9 @@ name: Gerar páginas OG para WhatsApp
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Redator automático Notícia ES"]
+    types: [completed]
   push:
     paths:
       - 'editorial*.js'
@@ -22,6 +25,7 @@ concurrency:
 
 jobs:
   gerar:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
