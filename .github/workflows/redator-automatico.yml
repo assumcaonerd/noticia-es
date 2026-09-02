@@ -1,0 +1,54 @@
+name: Redator automático Notícia ES
+
+on:
+  schedule:
+    - cron: '15,45 * * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'lote-redacao.json'
+      - 'scripts/redator-automatico.mjs'
+      - '.github/workflows/redator-automatico.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: redator-automatico-noticia-es
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Gerar matérias do lote
+        run: node scripts/redator-automatico.mjs
+      - name: Validar saída
+        run: |
+          node --check scripts/redator-automatico.mjs
+          node -e "JSON.parse(require('fs').readFileSync('lote-redacao.json','utf8')); console.log('lote válido')"
+      - name: Publicar matérias e recibos
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Notícia ES Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add auto-redacao-*.js auto-manifest.js publicacoes-pendentes/
+          if git diff --cached --quiet; then
+            echo "Nenhuma matéria nova para publicar."
+            exit 0
+          fi
+          git commit -m "redacao: publica lote automático"
+          for tentativa in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((tentativa * 2))
+          done
+          exit 1
