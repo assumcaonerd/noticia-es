@@ -21,7 +21,7 @@ permissions:
 
 concurrency:
   group: preparar-lote-redacao
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   preparar:
@@ -39,6 +39,7 @@ jobs:
       - name: Publicar lote
         shell: bash
         run: |
+          set -euo pipefail
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add lote-redacao.json
@@ -47,5 +48,20 @@ jobs:
             exit 0
           fi
           git commit -m "motor: prepara lote da redação automática"
-          git pull --rebase origin main
-          git push origin main
+
+          # Outros workflows também escrevem na main. Rebaseia e tenta novamente
+          # caso outro commit chegue entre o pull e o push.
+          for tentativa in 1 2 3 4 5; do
+            echo "Tentativa de publicação ${tentativa}/5"
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              echo "Lote publicado com sucesso."
+              exit 0
+            fi
+            if [ "$tentativa" -lt 5 ]; then
+              sleep $((tentativa * 2))
+            fi
+          done
+
+          echo "Falha ao publicar lote após 5 tentativas."
+          exit 1
