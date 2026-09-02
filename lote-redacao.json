@@ -1,40 +1,16 @@
 {
-  "geradoEm": "2026-09-02T00:29:03.803Z",
+  "geradoEm": "2026-09-02T01:08:08.748Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 10 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 3,
     "semImagem": 0,
-    "duplicadasBasicas": 0,
-    "duplicadasSemanticas": 4,
+    "duplicadasBasicas": 9,
+    "duplicadasSemanticas": 5,
     "foraCategorias": 4
   },
   "quantidadeCandidatas": 20,
   "candidatas": [
-    {
-      "id": "68a90d4c1b6a0c33",
-      "titulo": "Suspeito de estuprar filha, enteada e vizinha é preso em Guarapari",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/suspeito-de-estuprar-filha-enteada-e-vizinha-e-preso-em-guarapari-0926",
-      "dataFonte": "2026-09-01T20:44:05.000Z",
-      "resumoFonte": "Segundo a Polícia Civil, abusos teriam ocorrido quando as três eram crianças; homem planejava fugir para o Maranhão",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1772819673711_2021_07_26_dupla_detida_pela_prf_foi_levada_para_a_delegacia_regional_de_guarapari_566623.jpeg",
-      "descobertaEm": "2026-09-01T21:13:47.197Z"
-    },
-    {
-      "id": "d720b560d4d9c5ff",
-      "titulo": "Justiça pede para polícia de SP detalhar provas para investigar operações financeiras de produtora de",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "g1 - Capa",
-      "urlFonte": "https://g1.globo.com/sp/sao-paulo/noticia/2026/09/01/justica-detalhamento-provas-produtora-dark-horse.ghtml",
-      "dataFonte": "2026-09-01T21:52:37.259Z",
-      "resumoFonte": "TJ-SP determinou que investigadores complementem pedido e apresentem documentos e indícios concretos que sustentem as suspeitas contra Karina Ferreira da Gama, produtora do filme biográfico do ex-presidente Jair Bolsonaro (PL).",
-      "imagem": "https://s2-g1.glbimg.com/hj2IMpDhdf5DnEJ-D_eDxSPiyDE=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/a/c/bhmsbtRq2rTUs3uF7VeA/fotojet-29-.jpg",
-      "descobertaEm": "2026-09-01T23:31:05.314Z"
-    },
     {
       "id": "70de83a651ebeb27",
       "titulo": "Diário Oficial do ES — edição de 2026-09-01",
@@ -96,66 +72,6 @@
       "descobertaEm": "2026-09-01T23:31:41.948Z"
     },
     {
-      "id": "4d194a4702b186e1",
-      "titulo": "TSE tem maioria de votos para livrar Flávio de multa por vídeo de Bolsonaro por IA",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/noticia/2026/09/01/tse-tem-maioria-de-votos-para-livrar-flavio-de-multa-por-video-de-bolsonaro-por-ia.ghtml",
-      "dataFonte": "2026-09-01T23:44:18.000Z",
-      "resumoFonte": "O Tribunal Superior Eleitoral (TSE) formou maioria de votos nesta terça-feira (1º) para rejeitar a aplicação de multa ao candidato do PL à Presidência, Flávio Bolsonaro, pela exibição de um vídeo do ex-presidente Jair Bolsonaro feito por inteligência artificial e exibido durante a convenção do partido que confirmou o nome do senador na disputa.…",
-      "imagem": "https://s2-g1.glbimg.com/bddoSr8SVNf89MEqMxOov5kbNGA=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/i/C/hclASYQOAHBg5fWnMHWQ/fotojet-2026-07-25t140044.696.jpg",
-      "descobertaEm": "2026-09-02T00:24:53.758Z"
-    },
-    {
-      "id": "870f01aeb181e7f8",
-      "titulo": "Einstein Hospital Israelita afasta Claudio Lottenberg após indicação de Flávio Bolsonaro",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/politica/einstein-hospital-israelita-afasta-claudio-lottenberg-apos-indicacao-de-flavio-bolsonaro/",
-      "dataFonte": "2026-09-01T22:43:09.000Z",
-      "resumoFonte": "Licença de governança do médico foi confirmada nesta terça; instituição cita Código de Ética e veda uso de sua infraestrutura para fins partidários",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2018/02/claudio-lottenberg.jpg?quality=70&strip=info&resize=1080,565&crop=1",
-      "descobertaEm": "2026-09-01T23:28:39.500Z"
-    },
-    {
-      "id": "91ce3aefba182327",
-      "titulo": "TSE suspende propaganda de Lula que não citava nome de Alckmin",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/tse-suspende-propaganda-de-lula-que-nao-citava-nome-de-alckmin/",
-      "dataFonte": "2026-09-01T22:28:07.000Z",
-      "resumoFonte": "Decisão liminar atende parcialmente ação de Flávio Bolsonaro e vale até nova adequação da peça às regras eleitorais",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/05/FvW_98KWAAIQf00.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-01T23:28:39.500Z"
-    },
-    {
-      "id": "408623d2cfe73879",
-      "titulo": "TSE investiga presidente de escola de samba que homenageou Lula",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/tse-investiga-presidente-de-escola-de-samba-que-homenageou-lula/",
-      "dataFonte": "2026-09-01T22:55:34.000Z",
-      "resumoFonte": "A ministra Estela Aranha, do Tribunal Superior Eleitoral (TSE) , determinou que o Instagram forneça os dados cadastrais de Hugo Júnior, apontado como novo presidente da Acadêmicos de Niterói, escola de samba que homenageou Lula da Silva no Carnaval de 2026. A decisão decorre de ação do partido Missão contra Lula, o PT e a agremiação. A medida busca…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/tse-x-lula-888x568.jpeg.webp",
-      "descobertaEm": "2026-09-01T23:28:39.500Z"
-    },
-    {
-      "id": "f97b4c764d10c434",
-      "titulo": "TSE tem maioria para livrar Fl�vio de multa por v�deo de Bolsonaro criado com IA",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/tse-tem-maioria-para-livrar-flavio-de-multa-por-video-de-bolsonaro-criado-com-ia.shtml",
-      "dataFonte": "2026-09-02T00:20:00.000Z",
-      "resumoFonte": "O TSE (Tribunal Superior Eleitoral) formou maioria para livrar a campanha do senador Fl�vio Bolsonaro ( PL -RJ), candidato � Presid�ncia, de puni��o pelo uso do avatar de Jair Bolsonaro (PL) feito com intelig�ncia artificial na conven��o do partido, em julho. Ainda, a corte definiu que a veda��o a esse tipo de ferramenta ocorra quando houver…",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/07/21/17846741186a5ff74612767_1784674118_3x2_rt.jpg",
-      "descobertaEm": "2026-09-02T00:24:53.758Z"
-    },
-    {
       "id": "7de563037902f2be",
       "titulo": "Alcolumbre diz que quantidade de pedidos de impeachment do STF n�o � normal e n�o responde sobre Moraes",
       "categoria": "Política Nacional",
@@ -177,30 +93,6 @@
       "dataFonte": "2026-09-01T23:51:19.000Z",
       "resumoFonte": "Eleições 2026: Luis César Bueno participa de sabatina nesta terça-feira (1º) Em sabatina realizada em um portal de notícias nesta terça-feira (1º), em Goiânia, o candidato ao governo de Goiás Luís César Bueno (PT) discutiu suas principais propostas de campanha, com foco no combate à desigualdade regional e em investimentos em infraestrutura para o…",
       "imagem": "https://s2-g1.glbimg.com/9tVEyt8N_xSVkoyr-9P1izUzKhk=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Q/t/cBaanRQYiOMQ332GjhjA/g1-2026-09-01t204735.519.jpg",
-      "descobertaEm": "2026-09-02T00:24:53.758Z"
-    },
-    {
-      "id": "e02bcc3e9436ea4a",
-      "titulo": "Aziz articula rito especial para levar PEC da escala 6x1 ao plenário",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Agência Brasil - Política",
-      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/aziz-articula-rito-especial-para-levar-pec-da-escala-6x1-ao-plenario",
-      "dataFonte": "2026-09-01T23:51:00.000Z",
-      "resumoFonte": "O senador Omar Aziz (PSD-AM), relator da Proposta de Emenda Constitucional (PEC) que acaba com a escala 6x1 e reduz a jornada máxima de trabalho para 40 horas semanais no Brasil, afirmou nesta terça-feira (1º) que o texto deverá ser aprovado com ampla maioria na Comissão de Constituição e Justiça (CCJ). Aziz disse que apresentará um requerimento…",
-      "imagem": "https://imagens.ebc.com.br/1o9-7X4IPd_fqaJZ-eNH2fSFiN8=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/01/55501879577_25bbfc3939_o.jpg?itok=AlRItWy0",
-      "descobertaEm": "2026-09-02T00:24:53.758Z"
-    },
-    {
-      "id": "c8e0de4632170f81",
-      "titulo": "Congresso aprova recursos para taxistas e motoristas de aplicativo",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/politica/congresso-aprova-recursos-para-taxistas-e-motoristas-de-aplicativo/",
-      "dataFonte": "2026-09-01T23:49:51.000Z",
-      "resumoFonte": "Medida faz parte do programa Move Brasil para financiamento de veículos novos",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/sp-decreto.png?w=900&h=604&crop=1",
       "descobertaEm": "2026-09-02T00:24:53.758Z"
     },
     {
@@ -228,18 +120,6 @@
       "descobertaEm": "2026-09-02T00:24:53.758Z"
     },
     {
-      "id": "bfc9f3e392b08936",
-      "titulo": "Câmara aprova projeto que facilita acesso à aposentadoria integral por PMs e bombeiros",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/noticia/2026/09/01/camara-aprova-projeto-que-facilita-acesso-a-aposentadoria-integral-por-pms-e-bombeiros.ghtml",
-      "dataFonte": "2026-09-01T23:39:02.000Z",
-      "resumoFonte": "A Câmara dos Deputados aprovou nesta terça-feira (1º) um projeto que reduz o tempo mínimo de atividade militar para que bombeiros e policiais militares tenham acesso à aposentadoria integral. O projeto foi aprovado de maneira simbólica, sem registro de voto dos deputados, e segue agora para análise do Senado. O texto recebeu o apoio de deputados da…",
-      "imagem": "https://s2-g1.glbimg.com/_fjjRc7ggBACSesbfzGpJAC1a9I=/2560x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/1/B/BEOM6STSWSBt0942A70g/cfp-edital-destaque-scaled.jpg",
-      "descobertaEm": "2026-09-02T00:24:53.758Z"
-    },
-    {
       "id": "e55d4eb5f570af1d",
       "titulo": "Caiado diz que Ratinho Júnior será seu ministro em eventual governo",
       "categoria": "Política Nacional",
@@ -250,6 +130,126 @@
       "resumoFonte": "Governador do Paraná foi escolhido para comandar área de infraestrutura caso candidato do PSD seja eleito presidente",
       "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Ronaldo-Caiado-e-Ratinho-Jr.jpeg?w=1200&h=630&crop=1",
       "descobertaEm": "2026-09-02T00:24:53.758Z"
+    },
+    {
+      "id": "934e444b597c7a89",
+      "titulo": "Investigação contra Moraes depende de autorização do STF; entenda",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/noticias/investigacao-contra-moraes-depende-de-autorizacao-do-stf-entenda/",
+      "dataFonte": "2026-09-01T23:37:44.000Z",
+      "resumoFonte": "Mendonça avalia inclusão de Alexandre de Moraes em investigação após PF revelar mensagens e encontros com Daniel Vorcaro",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/plenario-stf_1668f2.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-02T00:24:53.758Z"
+    },
+    {
+      "id": "55d38f2b85e34b1b",
+      "titulo": "Quem é Ciro Soares, advogado que aparece em relatório da PF como ponte entre Vorcaro e Gonet",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/noticia/2026/09/01/quem-e-ciro-soares.ghtml",
+      "dataFonte": "2026-09-01T23:28:54.000Z",
+      "resumoFonte": "Foto mostra interlocutor de Vorcaro e Gonet O nome do advogado Ciro Soares ficou em evidência depois de aparecer no relatório da Polícia Federal (PF) tornado público pelo ministro André Mendonça do Supremo Tribunal Federal (STF) nesta terça-feira (1). De acordo com o documento, Soares fazia a intermediação da comunicação entre o banqueiro e o…",
+      "imagem": "https://s2-g1.glbimg.com/n4dQG6QvJMEnhNF6wjXsLSYzPp0=/1364x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/d/j/xnmr0MSReXC3UNFYn0Uw/fotogoneteciro.png",
+      "descobertaEm": "2026-09-02T00:24:53.758Z"
+    },
+    {
+      "id": "2f970d0e3deece49",
+      "titulo": "Gonet citado em relatório da PF: o que a lei diz sobre suspeição e afastamento de um PGR",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CBN - Política",
+      "urlFonte": "https://cbn.globo.com/politica/noticia/2026/09/01/gonet-citado-em-relatorio-da-pf-o-que-a-lei-diz-sobre-suspeicao-e-afastamento-de-um-pgr.ghtml",
+      "dataFonte": "2026-09-01T23:25:48.753Z",
+      "resumoFonte": "Existem mecanismos diferentes para sair de um caso e para sair do cargo; CBN ouviu especialistas",
+      "imagem": "https://s2-cbn.glbimg.com/qF0z09C20XOBARW3ySNI6Nq0g4A=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2025/k/r/PI5fmlTAqtGKxRoqETcQ/54760832319-4d504bc86b-c-1-.jpg",
+      "descobertaEm": "2026-09-02T00:24:53.758Z"
+    },
+    {
+      "id": "7e43caf59fa0ab18",
+      "titulo": "Redes sociais de Renan Santos voltam ao ar após Toffoli liberar campanha digital",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/01/redes-sociais-de-renan-santos-voltam-ao-ar-apos-toffoli-liberar-campanha-digital.ghtml",
+      "dataFonte": "2026-09-01T23:25:25.000Z",
+      "resumoFonte": "As redes sociais de Renan Santos voltaram ao ar nesta terça-feira (1º) após o ministro do Tribunal Superior Eleitoral (TSE) Dias Toffoli liberar a campanha digital do candidato do Missão à Presidência da República. A decisão foi tomada na tarde de hoje, após ter restringido a campanha digital do candidato neste final de semana. O ministro liberou a…",
+      "imagem": "https://s2-g1.glbimg.com/GsSAjS84mfpqw-GNtgdDrz6Q9T8=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/N/QaQMFiTUyGVh916u3Iwg/haagen-request-1200.jpg",
+      "descobertaEm": "2026-09-01T23:28:39.500Z"
+    },
+    {
+      "id": "f63d96548b5eb408",
+      "titulo": "Mendonça deve liberar caso de mensagens entre Moraes e Vorcaro para o plenário na semana que vem",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/blog/camila-bomfim/post/2026/09/01/mendonca-deve-liberar-caso-de-mensagens-entre-moraes-e-vorcaro-na-semana-que-vem.ghtml",
+      "dataFonte": "2026-09-01T23:21:26.000Z",
+      "resumoFonte": "Após o parecer da Procuradoria-Geral da República, alegando nulidades, o ministro André Mendonça quer liberar o caso para votação na semana que vem. Quando o relator libera, cabe ao presidente do Supremo Tribunal Federal (STF), Edson Fachin, marcar o dia da votação em plenário. A Procuradoria-Geral da República (PGR) manifestou nesta terça-feira…",
+      "imagem": "https://s2-g1.glbimg.com/dX8cd-85LlVVN4YI6FZKcbvzxm0=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/h/E/pUy8QkR7mlMTM0U5sVkA/fotojet-40-.jpg",
+      "descobertaEm": "2026-09-01T23:28:39.500Z"
+    },
+    {
+      "id": "a5379621f453d3a2",
+      "titulo": "Caiado anuncia Ratinho Junior como ministro da Infraestrutura",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/01/caiado-anuncia-ratinho-junior-como-ministro-da-infraestrutura.ghtml",
+      "dataFonte": "2026-09-01T23:15:43.000Z",
+      "resumoFonte": "Ronaldo Caiado ao lado de Ratinho Junior durante anúncio como escolhido para o Ministério da Infraestrutura Reprodução/Instagram O candidato à Presidência pelo PSD, Ronaldo Caiado, informou que o governador do Paraná Ratinho Junior será seu ministro da Infraestrutura caso vença as eleições deste ano. O anúncio foi feito através das redes sociais e…",
+      "imagem": "https://s2-g1.glbimg.com/eaHoAJCgv5L_2C-ODXaE0YYFDBQ=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/q/6/1BQOJZTAup4tjIVLnMYQ/montagem-horizontal-1200px-13-.jpg",
+      "descobertaEm": "2026-09-01T23:28:39.500Z"
+    },
+    {
+      "id": "c0297544a9c6d5c9",
+      "titulo": "Governo ouve sociedade civil e deve tomar decisão sobre bets em breve",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Agência Brasil - Política",
+      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/governo-ouve-sociedade-civil-e-deve-tomar-decisao-sobre-bets-em-breve",
+      "dataFonte": "2026-09-01T23:15:00.000Z",
+      "resumoFonte": "O presidente Luiz Inácio Lula da Silva reuniu representantes da sociedade civil nesta terça-feira (1º) para ouvir opiniões sobre o mercado de casas de apostas eletrônicas, mais conhecidas como bets. Segundo Lula, o governo deve tomar uma decisão em breve sobre o tema e ouvir a sociedade civil é parte importante nesse processo. “O governo tem…",
+      "imagem": "https://imagens.ebc.com.br/L1CLEtGd6banydJ-Hp9K1glN5Vo=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/09/20260121200144_1746e8d4ccfa91d6a6464d5ca54b4e6de8f5294fad9fbe53b45b655587a568c1.jpg?itok=s4aobU4K",
+      "descobertaEm": "2026-09-01T23:28:39.500Z"
+    },
+    {
+      "id": "4d5125f368ff7db7",
+      "titulo": "Mesmo após pedido de arquivamento da PGR, Mendonça deve insisitir que plenário do STF analise mensagens entre Moraes e Vorcaro",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/economia/blog/ana-flor/post/2026/09/01/mendonca-deve-insisitir-que-plenario-do-stf-analise-para-mensagens-entre-moraes-e-vorcaro.ghtml",
+      "dataFonte": "2026-09-01T23:11:09.000Z",
+      "resumoFonte": "Mesmo com o pedido da Procuradoria-Geral da República (PGR) para arquivamento, o relator do caso Master no Supremo Tribunal Federal (STF), ministro André Mendonça, vai insistir que o plenário da corte avalie as informações trazidas em relatório da Polícia Federal que citam o também ministro e vice-presidente da corte, Alexandre de Moraes, em…",
+      "imagem": "https://s2-g1.glbimg.com/7IfW5Zwd6Prh7o_KDOZIL3SgexY=/2047x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/h/g/GEjAiLSii1AaUMysq75A/55502069909-cb045cfb5f-k.jpg",
+      "descobertaEm": "2026-09-01T23:28:39.500Z"
+    },
+    {
+      "id": "80d99e65f2c04a92",
+      "titulo": "Quando Augusto Cury virou ‘guru’ da seleção brasileira",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/brasil/quando-augusto-cury-virou-guru-da-selecao-brasileira/",
+      "dataFonte": "2026-09-01T23:10:54.000Z",
+      "resumoFonte": "Escritor palestrou para jogadores e teve livros distribuídos por Dunga",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-27-at-18.05.36.jpeg?quality=70&strip=info&resize=1080,565&crop=1",
+      "descobertaEm": "2026-09-01T23:28:39.500Z"
+    },
+    {
+      "id": "6c909ab72ccbfe8b",
+      "titulo": "Após manifestação da PGR, Mendonça deve levar relatório sobre Moraes e Vorcaro ao plenário do STF na próxima semana",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/09/01/mendonca-moraes-vorcaro-stf.ghtml",
+      "dataFonte": "2026-09-01T23:08:18.000Z",
+      "resumoFonte": "O ministro André Mendonça, do Supremo Tribunal Federal (STF), deve levar na semana que vem ao plenário da Corte as conclusões do relatório da Polícia Federal (PF) que expõe ligações entre Alexandre de Moraes e o ex-banqueiro Daniel Vorcaro, preso no escândalo do Master. Cabe ao plenário do STF autorizar ou não a abertura de investigações sobre…",
+      "imagem": "https://s2-g1.glbimg.com/7IfW5Zwd6Prh7o_KDOZIL3SgexY=/2047x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/h/g/GEjAiLSii1AaUMysq75A/55502069909-cb045cfb5f-k.jpg",
+      "descobertaEm": "2026-09-01T23:28:39.500Z"
     }
   ]
 }
