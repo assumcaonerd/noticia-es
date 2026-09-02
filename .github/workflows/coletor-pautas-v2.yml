@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: coletor-pautas-v2
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   coletar:
@@ -53,4 +53,4 @@ jobs:
           git pull --rebase origin main
           git push origin main
 
-# v2.1: atualização operacional para disparar a primeira coleta após criação do workflow.
+# v2.2: execuções nunca são canceladas automaticamente.
