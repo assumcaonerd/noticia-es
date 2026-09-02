@@ -77,23 +77,23 @@ const noticiasAutoRedacao20260901210214 = [
     conteudo: `<p>O candidato do PSD à Presidência da República, Ronaldo Caiado, defendeu nesta terça-feira, 1º de setembro, que o ministro Alexandre de Moraes seja afastado do Supremo Tribunal Federal depois da divulgação de novos elementos da investigação sobre Daniel Vorcaro e o Banco Master. A declaração foi feita em vídeo divulgado pela campanha poucas horas após o ministro André Mendonça retirar o sigilo de documentos enviados pela Polícia Federal ao STF.</p>
 <p>Caiado afirmou que, na avaliação dele, o conteúdo já conhecido compromete a permanência de Moraes na Corte e pode afetar a confiança da sociedade nas decisões do Supremo. O posicionamento insere o caso Master diretamente na reta final da campanha presidencial, com candidatos de oposição usando as revelações para cobrar respostas institucionais e medidas contra o magistrado.</p>
 <h2>Relatório da PF impulsionou reação política</h2>
-<p>O material tornado público reúne mensagens extraídas do celular de Daniel Vorcaro, registros de encontros e documentos sobre contratos entre empresas ligadas ao empresário e o escritório de Viviane Barci de Moraes, esposa do ministro. A investigação identificou contatos enviados a um número atribuído a Alexandre de Moraes nos dias que antecederam a prisão do banqueiro, em novembro de 2025.</p>
-<p>Entre os elementos divulgados estão mensagens em que Vorcaro pede reuniões, comenta a situação do Banco Master e questiona possíveis providências envolvendo autoridades. A PF também analisou contratos milionários do escritório Barci de Moraes e tratativas envolvendo aeronaves. A investigação ainda precisa estabelecer o alcance jurídico de cada conduta e se houve atuação funcional irregular de qualquer autoridade.</p>
-<h2>Caiado fala em risco à confiança no Judiciário</h2>
-<p>Na manifestação divulgada pela campanha, Caiado disse que a controvérsia pode gerar questionamentos sobre a legitimidade de decisões judiciais se não houver resposta institucional. Ele defendeu afastamento rápido de Moraes e associou a permanência do ministro ao risco de aprofundamento da crise de confiança.</p>
-<p>A crítica de Caiado se soma a manifestações de outros candidatos e parlamentares de oposição. Flávio Bolsonaro, Romeu Zema e Renan Santos também passaram a defender a saída de Moraes depois da divulgação das mensagens. No Senado, oposicionistas retomaram pedidos de impeachment, embora reconheçam resistência do presidente da Casa, Davi Alcolumbre, e falta de maioria clara para avançar com o processo.</p>
-<h2>Investigação não equivale a condenação</h2>
-<p>Os registros policiais divulgados são elementos de investigação e não representam conclusão definitiva sobre responsabilidade criminal. A presença de mensagens enviadas para um número atribuído a Moraes precisa ser analisada junto com eventuais respostas, contexto, autenticidade e atos praticados. O ministro André Mendonça encaminhou o material à Procuradoria-Geral da República e indicou que pretende levar os novos elementos ao plenário do STF.</p>
-<p>O escritório Barci de Moraes tem contestado interpretações sobre os contratos e afirma que adotou procedimentos de compliance para avaliar impedimentos. Em relação às apurações, as defesas e os envolvidos deverão ter oportunidade de se manifestar formalmente nos autos.</p>
-<h2>Crise entra na campanha presidencial</h2>
-<p>A repercussão do caso cria uma nova frente de debate na eleição de 2026. Até agora, economia, segurança, jornada de trabalho e temas sociais vinham dominando a disputa. As revelações do Master passaram a colocar integridade institucional, relação entre agentes públicos e empresários e regras de conduta no Judiciário no centro do discurso dos candidatos.</p>
-<p>Para Caiado, que constrói uma candidatura de oposição ao governo federal e busca se diferenciar dos demais concorrentes da direita, o episódio oferece espaço para reforçar uma agenda de cobrança ao Supremo. O desenvolvimento político da crise dependerá, porém, das próximas decisões do STF, da manifestação da PGR e do eventual surgimento de novas provas na investigação da Polícia Federal.</p>`,
+<p>O material tornado público reúne mensagens extraídas do celular de Daniel Vorcaro, registros de encontros e documentos sobre contratos entre empresas ligadas ao empresário e o escritório de Viviane Barci de Moraes, esposa do ministro. A investigação identificou um contato salvo no aparelho com o nome de Alexandre de Moraes e passou a analisar a autenticidade e o contexto das comunicações.</p>
+<p>A existência das mensagens, por si só, não comprova prática de crime por Moraes. A investigação ainda precisa esclarecer o conteúdo completo das conversas, eventuais respostas e se houve qualquer ato funcional relacionado aos pedidos atribuídos ao banqueiro.</p>
+<h2>Caiado pede medida institucional</h2>
+<p>Ao reagir às revelações, Caiado afirmou que o ministro deveria se afastar enquanto os fatos fossem esclarecidos. O candidato também criticou a concentração de decisões individuais no Supremo e voltou a defender mecanismos de responsabilização de magistrados em situações que possam gerar conflito de interesses.</p>
+<p>O pedido de afastamento não produz efeito automático. Ministros do STF têm garantias constitucionais próprias e eventual impeachment depende de processo político no Senado. A abertura de qualquer procedimento dessa natureza cabe ao presidente da Casa, e a aprovação exige maioria qualificada.</p>
+<h2>Outros candidatos também reagiram</h2>
+<p>O caso já provocou manifestações de diferentes nomes da oposição. Romeu Zema, Flávio Bolsonaro e parlamentares aliados criticaram Moraes e defenderam investigações mais amplas. No Congresso, senadores retomaram pedidos de impeachment e passaram a pressionar a presidência do Senado para analisar requerimentos acumulados.</p>
+<p>Ao mesmo tempo, integrantes do Supremo e juristas alertam para a necessidade de separar crítica política de conclusão jurídica. O relatório policial é uma peça de investigação e não representa acusação formal ou condenação. Caberá à Procuradoria-Geral da República avaliar os elementos e decidir sobre eventuais medidas.</p>
+<h2>Defesa e contraponto</h2>
+<p>O escritório Barci de Moraes afirma que sua relação profissional com o Banco Master foi regular e que não houve interferência de Alexandre de Moraes em processos do banco. A banca também sustenta que consultas internas sobre compliance e impedimentos foram feitas para evitar conflitos decorrentes do cargo do ministro.</p>
+<p>A discussão agora passa por duas frentes. No campo jurídico, PGR e STF analisam documentos e mensagens para definir se há fatos com relevância penal. No campo político, as revelações passaram a ser usadas como argumento eleitoral e como instrumento de pressão sobre o Senado. A fala de Caiado mostra que o caso Master deixou de ser apenas uma investigação financeira e se tornou tema central da disputa presidencial.</p>`,
     autor: 'Redação Notícia ES',
     fonteNome: 'CNN Brasil',
     fonteUrl: 'https://www.cnnbrasil.com.br/politica/caiado-diz-que-moraes-nao-tem-condicoes-de-ficar-no-stf-apos-revelacoes/',
     fontesAdicionais: [
-      { nome: 'Folha de S.Paulo', url: 'https://www1.folha.uol.com.br/poder/2026/09/flavio-bolsonaro-diz-que-moraes-nao-tem-condicoes-de-continuar-no-stf-apos-mensagens-com-vorcaro.shtml' },
-      { nome: 'Agência Brasil', url: 'https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-que-levar-ao-plenario-conversas-atribuidas-vorcaro-e-moraes' }
+      { nome: 'Agência Brasil', url: 'https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-que-levar-ao-plenario-conversas-atribuidas-vorcaro-e-moraes' },
+      { nome: 'UOL', url: 'https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/01/mendonca-retira-sigilo-de-inquerito-e-expoe-relacao-entre-moraes-e-vorcaro.htm' }
     ],
     automatico: true,
     publicadoEm: '2026-09-01T21:02:14-03:00'
@@ -106,27 +106,26 @@ const noticiasAutoRedacao20260901210214 = [
     data: '2026-09-01',
     imagem: 'https://s2-g1.glbimg.com/0hhjRUJwbZo4HcCEThv1kfuzivY=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/G/U5827PSHSf3Q7KFjqlPg/55238691420-5cfd1225ed-k.jpg',
     resumo: 'Ex-presidente do Senado foi aprovado para ocupar a vaga deixada por Bruno Dantas no Tribunal de Contas da União; Câmara marcou análise da indicação para esta quarta-feira.',
-    conteudo: `<p>O Senado aprovou nesta terça-feira, 1º de setembro, a indicação do senador Rodrigo Pacheco (PSB-MG) para uma vaga de ministro do Tribunal de Contas da União. O placar foi de 63 votos favoráveis e quatro contrários. A indicação segue agora para análise da Câmara dos Deputados, etapa necessária antes da nomeação definitiva para a Corte de Contas.</p>
-<p>Pacheco foi indicado para a vaga aberta com a saída antecipada do ministro Bruno Dantas. O presidente do Senado, Davi Alcolumbre, patrocinou a escolha do ex-presidente da Casa e reuniu apoio de lideranças de partidos governistas e de oposição. A votação ocorreu de forma acelerada e foi concluída no mesmo dia em que a indicação ganhou tramitação formal no plenário.</p>
-<h2>Câmara deve votar nesta quarta-feira</h2>
-<p>O presidente da Câmara, Hugo Motta, anunciou que os deputados analisarão a indicação às 11 horas desta quarta-feira, 2 de setembro. Segundo a Câmara, a votação ocorrerá pelo sistema eletrônico. Caso a maioria confirme o nome de Pacheco, o processo poderá seguir para os atos formais de nomeação e posse.</p>
-<p>A vaga no TCU pertence à cota do Congresso Nacional. Pela Constituição, parte dos nove ministros do tribunal é escolhida pelo Legislativo e outra parte pelo presidente da República, com critérios específicos para composição da Corte. Os indicados precisam atender requisitos de idade, idoneidade moral, reputação ilibada e conhecimento jurídico, contábil, econômico, financeiro ou de administração pública.</p>
-<h2>Pacheco agradece apoio</h2>
-<p>Depois da votação, Pacheco agradeceu aos colegas e afirmou reconhecer a importância do controle sobre a qualidade do gasto público. Ex-presidente do Senado e do Congresso, ele deixa uma trajetória marcada pela condução da Casa durante períodos de forte conflito político e institucional, além de negociações de reformas e pautas econômicas.</p>
-<p>Pacheco é advogado e foi eleito senador por Minas Gerais em 2018. Antes disso, exerceu mandato de deputado federal. Na presidência do Senado, ocupou papel central nas relações entre Executivo, Legislativo e Judiciário e se tornou um dos principais interlocutores de diferentes forças partidárias.</p>
-<h2>Vaga surgiu com saída de Bruno Dantas</h2>
-<p>Bruno Dantas anunciou a saída antecipada do Tribunal de Contas da União, abrindo a cadeira agora disputada. O movimento acelerou articulações no Senado e consolidou Pacheco como nome de consenso entre lideranças importantes. A indicação recebeu apoio formal de senadores de diferentes bancadas.</p>
-<p>O TCU exerce controle externo da administração pública federal em apoio ao Congresso. Entre suas funções estão fiscalizar contratos, obras, políticas públicas e a aplicação de recursos federais, além de emitir parecer prévio sobre as contas anuais do presidente da República.</p>
-<h2>Ministros permanecem até os 75 anos</h2>
-<p>Os ministros do TCU têm garantia de permanência no cargo até a aposentadoria compulsória, atualmente aos 75 anos, salvo hipóteses legais específicas. Isso dá à escolha impacto institucional de longo prazo, já que o indicado pode participar durante anos de decisões sobre gastos bilionários, concessões, estatais, políticas públicas e responsabilização de gestores.</p>
-<p>A votação na Câmara será, portanto, a última etapa política relevante da indicação. Se aprovado pelos deputados, Pacheco deixará o Senado para integrar um dos principais órgãos de fiscalização financeira e orçamentária do país.</p>`,
+    conteudo: `<p>O Senado aprovou nesta terça-feira, 1º de setembro, por 63 votos a 4, a indicação do senador Rodrigo Pacheco para uma vaga de ministro do Tribunal de Contas da União. O nome foi escolhido para ocupar a cadeira aberta após a saída de Bruno Dantas e agora ainda precisa passar pela Câmara dos Deputados antes da formalização da nomeação.</p>
+<p>A votação ocorreu depois de articulação conduzida pelo presidente do Senado, Davi Alcolumbre, que havia apresentado Pacheco como nome de consenso entre diferentes bancadas. A margem expressiva confirma o apoio acumulado pelo ex-presidente da Casa, que comandou o Senado entre 2021 e 2025.</p>
+<h2>Próxima etapa será na Câmara</h2>
+<p>A indicação ao TCU feita pelo Congresso exige aprovação das duas Casas. Depois do aval do Senado, a Câmara marcou a análise para esta quarta-feira. Caso os deputados confirmem o nome, o processo segue para nomeação formal e posse no tribunal.</p>
+<p>O TCU é responsável por fiscalizar a aplicação de recursos federais, contratos, obras e contas da administração pública. Seus ministros têm mandato até a aposentadoria compulsória, o que torna cada vaga uma decisão institucional de longo prazo.</p>
+<h2>Trajetória de Pacheco</h2>
+<p>Advogado e senador por Minas Gerais, Pacheco ganhou projeção nacional ao presidir o Senado durante quatro anos. Nesse período, conduziu votações de reformas econômicas, medidas relacionadas à pandemia, indicações para tribunais superiores e embates entre Legislativo, Executivo e Judiciário.</p>
+<p>A indicação para o TCU encerra, na prática, uma etapa de sua carreira parlamentar e abre caminho para uma atuação de perfil técnico e fiscalizador. O nome de Pacheco vinha sendo mencionado para outras funções institucionais, mas a vaga no tribunal ganhou força depois da abertura da cadeira.</p>
+<h2>Votação ampla no Senado</h2>
+<p>O placar de 63 a 4 mostrou que a indicação reuniu apoio de governistas e oposicionistas. A votação secreta reduziu a exposição individual dos senadores, mas o resultado demonstra que as articulações prévias foram suficientes para superar com folga o número mínimo necessário.</p>
+<p>A escolha também reforça o peso do Senado na composição do TCU. Parte das cadeiras do tribunal é indicada pelo Congresso, enquanto outras são preenchidas por escolhas do presidente da República entre auditores e membros do Ministério Público de Contas, conforme regras constitucionais.</p>
+<h2>O que acontece agora</h2>
+<p>A Câmara precisa concluir sua própria votação. Depois disso, não havendo impedimentos formais, Pacheco poderá ser nomeado e tomar posse no TCU. A saída do Senado também provocará efeitos políticos em Minas Gerais, pois a vaga parlamentar deverá ser ocupada conforme as regras de suplência.</p>
+<p>Até a conclusão de todas as etapas, Pacheco continua senador. A aprovação expressiva desta terça-feira, porém, deixou a indicação próxima de se tornar definitiva e confirmou uma movimentação que vinha sendo construída nos bastidores do Congresso nas últimas semanas.</p>`,
     autor: 'Redação Notícia ES',
     fonteNome: 'g1 - Política',
-    fonteUrl: 'https://g1.globo.com/politica/noticia/2026/09/01/senado-aprova-indicacao-de-rodrigo-pacheco-para-o-tribunal-de-contas-da-uniao.ghtml',
+    fonteUrl: 'https://g1.globo.com/politica/noticia/2026/09/01/senado-aprova-indicacao-rodrigo-pacheco-tcu.ghtml',
     fontesAdicionais: [
-      { nome: 'Senado Notícias', url: 'https://www12.senado.leg.br/noticias/materias/2026/09/01/senado-aprova-ex-presidente-rodrigo-pacheco-para-o-tcu' },
-      { nome: 'Câmara dos Deputados', url: 'https://www.camara.leg.br/noticias/1301859-camara-vai-analisar-indicacao-de-rodrigo-pacheco-ao-tcu-nesta-quarta' },
-      { nome: 'Folha de S.Paulo', url: 'https://www1.folha.uol.com.br/poder/2026/09/senado-aprova-indicacao-de-rodrigo-pacheco-como-ministro-do-tcu.shtml' }
+      { nome: 'Senado Federal', url: 'https://www12.senado.leg.br/noticias' },
+      { nome: 'Câmara dos Deputados', url: 'https://www.camara.leg.br/noticias/' }
     ],
     automatico: true,
     publicadoEm: '2026-09-01T21:02:14-03:00'
@@ -139,27 +138,26 @@ const noticiasAutoRedacao20260901210214 = [
     data: '2026-09-01',
     imagem: 'https://s2-cbn.glbimg.com/kkcrTGXgV_XcbDtrrx1qtxMQIQw=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/f/C/hONi81THOF6FB8jTABJg/53910099022-f26c773231-k.jpg',
     resumo: 'Ministro afirmou que regras explícitas de conduta ajudam a preservar a confiança da sociedade no Judiciário; proposta é defendida pelo presidente do STF, Edson Fachin, e está sob relatoria de Cármen Lúcia.',
-    conteudo: `<p>O ministro André Mendonça, do Supremo Tribunal Federal, voltou a defender nesta terça-feira, 1º de setembro, a criação de um código de conduta para os integrantes da Corte. A manifestação ocorreu durante seminário sobre inteligência artificial e Judiciário e foi apresentada como uma medida de governança destinada a explicitar padrões éticos, ampliar a prestação de contas e preservar a confiança da sociedade nos magistrados.</p>
-<p>Mendonça afirmou que instituições públicas dependem de uma relação de confiança com a população e que mecanismos internos de prevenção se tornam especialmente importantes quando essa relação é submetida a desgaste. O ministro já havia apoiado publicamente a proposta apresentada pelo presidente do STF, Edson Fachin.</p>
-<h2>Proposta está sob relatoria de Cármen Lúcia</h2>
-<p>Fachin colocou a elaboração do código entre suas prioridades institucionais e designou a ministra Cármen Lúcia para conduzir o tema. A discussão envolve regras sobre transparência, comportamento público, participação em eventos, relações com partes e escritórios, atividades acadêmicas, potenciais conflitos de interesse e outros pontos capazes de afetar a percepção de imparcialidade do tribunal.</p>
-<p>O projeto enfrenta resistência interna. Ministros divergem sobre a necessidade de formalizar regras além das normas já existentes na magistratura e sobre a melhor forma de compatibilizar o código com as garantias constitucionais dos integrantes da Corte. Fachin tem buscado ampliar o apoio antes de levar um texto definitivo à deliberação.</p>
-<h2>Mendonça fala em governança e prestação de contas</h2>
-<p>Na fala desta terça, Mendonça associou o código aos conceitos de transparência e accountability. Para ele, o documento permitiria que a sociedade soubesse com maior clareza quais padrões os próprios ministros consideram obrigatórios para sua atuação. O magistrado afirmou que ajustes de formato podem ser discutidos, mas sustentou que a Corte precisa de regras explícitas de conduta.</p>
-<p>O ministro também disse que o Judiciário deve permanecer atento ao impacto social de suas decisões. Isso, segundo ele, não significa decidir conforme pressões externas ou pesquisas de opinião, mas compreender como a atuação judicial é percebida e como a legitimidade das instituições depende de procedimentos imparciais e previsíveis.</p>
-<h2>Debate ocorre em momento de forte exposição do STF</h2>
-<p>A discussão ganhou novo peso diante das investigações relacionadas ao Banco Master. Nesta mesma terça-feira, Mendonça retirou o sigilo de relatório da Polícia Federal com mensagens atribuídas a Daniel Vorcaro e Alexandre de Moraes e determinou o envio das informações à Procuradoria-Geral da República.</p>
-<p>O código de conduta, no entanto, é uma proposta mais ampla e anterior à atual crise. Fachin já vinha defendendo o instrumento como resposta a questionamentos públicos sobre integridade, conflitos de interesse e limites de atuação dos ministros. A relatoria de Cármen Lúcia foi anunciada no início do ano judiciário.</p>
-<h2>Regras formais ainda não estão definidas</h2>
-<p>Até agora, não há texto final aprovado nem data fechada para votação. Parte dos ministros defende cautela para evitar que a discussão seja contaminada pelo calendário eleitoral. Outros consideram que o momento de pressão sobre a Corte reforça a necessidade de avançar.</p>
-<p>Qualquer código aprovado pelo STF terá de conviver com normas constitucionais, leis da magistratura e regras já existentes sobre impedimento, suspeição e ética judicial. O alcance das sanções, a forma de fiscalização e a publicidade de eventuais violações são pontos que ainda dependem de definição. A defesa pública de Mendonça aumenta a pressão interna para que o tribunal transforme o debate em uma proposta concreta.</p>`,
+    conteudo: `<p>O ministro André Mendonça, do Supremo Tribunal Federal, defendeu nesta terça-feira, 1º de setembro, a adoção de um código de conduta para ministros da Corte e magistrados. A declaração foi feita durante um seminário no STF e ocorreu em meio ao debate sobre transparência, conflitos de interesse e confiança pública no Judiciário.</p>
+<p>Mendonça afirmou que regras claras de comportamento ajudam a preservar a credibilidade das instituições e reduzem dúvidas sobre situações pessoais, profissionais ou econômicas que possam ser interpretadas como incompatíveis com a função judicial.</p>
+<h2>Fachin também apoia iniciativa</h2>
+<p>O presidente do STF, Edson Fachin, já havia defendido a elaboração de parâmetros de conduta para os ministros. A proposta está sob relatoria da ministra Cármen Lúcia e deve discutir temas como participação em eventos, relações profissionais, presentes, viagens, conflitos de interesse e exposição pública.</p>
+<p>O Brasil já possui normas gerais aplicáveis à magistratura, incluindo a Lei Orgânica da Magistratura Nacional e resoluções do Conselho Nacional de Justiça. A discussão no Supremo, porém, busca estabelecer regras específicas para ministros das cortes superiores, cuja atuação e exposição pública possuem características próprias.</p>
+<h2>Confiança institucional</h2>
+<p>Ao defender o código, Mendonça associou a iniciativa à necessidade de preservar a relação de confiança entre Judiciário e sociedade. O ministro argumentou que previsibilidade e transparência ajudam a reduzir questionamentos sobre decisões e comportamentos de integrantes da Corte.</p>
+<p>O debate ganhou força diante do aumento da polarização política e da exposição pública do Supremo. Decisões sobre eleições, redes sociais, investigações criminais e conflitos entre Poderes colocaram os ministros no centro de disputas que extrapolam o campo jurídico.</p>
+<h2>Casos recentes ampliam pressão</h2>
+<p>A defesa de regras de conduta ocorre no mesmo momento em que documentos relacionados ao Banco Master levantaram questionamentos públicos sobre contratos celebrados pelo escritório de Viviane Barci de Moraes, esposa do ministro Alexandre de Moraes. Embora não haja conclusão de ilegalidade, o episódio reforçou o debate sobre critérios objetivos para situações que possam gerar aparência de conflito.</p>
+<p>O próprio escritório afirma que adotou procedimentos de compliance e que Moraes não atuou em processos do banco. A existência de regras mais detalhadas poderia ajudar a antecipar esse tipo de discussão, estabelecendo procedimentos para declaração de impedimentos, comunicação de interesses e análise de situações privadas.</p>
+<h2>Próximos passos</h2>
+<p>A proposta ainda precisa ser elaborada e submetida aos integrantes do Supremo. Não há texto final nem cronograma definido para aprovação. A relatoria de Cármen Lúcia deverá reunir referências nacionais e internacionais antes de apresentar um modelo.</p>
+<p>Se aprovado, um código de conduta não substituirá regras constitucionais ou disciplinares existentes, mas poderá funcionar como guia adicional para situações que hoje dependem de interpretação. A iniciativa também tende a entrar no debate político, já que parlamentares discutem projetos semelhantes e cobram maior transparência de integrantes do Judiciário.</p>`,
     autor: 'Redação Notícia ES',
     fonteNome: 'CBN - Política',
-    fonteUrl: 'https://cbn.globo.com/politica/noticia/2026/09/01/andre-mendonca-defende-codigo-de-conduta-para-ministros-do-stf-e-fala-em-preservar-relacao-de-confianca.ghtml',
+    fonteUrl: 'https://cbn.globo.com/politica/noticia/2026/09/01/mendonca-defende-codigo-de-conduta-para-magistrados.ghtml',
     fontesAdicionais: [
-      { nome: 'UOL', url: 'https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/01/andre-mendonca-ve-confianca-no-stf-em-risco-e-defende-codigo-de-conduta.ghtm' },
-      { nome: 'SBT News', url: 'https://sbtnews.sbt.com.br/noticia/politica/mendonca-precisamos-ter-um-codigo-de-conduta-no-stf' },
-      { nome: 'Folha de S.Paulo', url: 'https://www1.folha.uol.com.br/poder/2026/02/ministros-respondem-pelas-proprias-escolhas-e-hora-e-de-retomada-institucional-diz-fachin-no-stf.shtml' }
+      { nome: 'g1', url: 'https://g1.globo.com/politica/noticia/2026/09/01/mendonca-defende-codigo-de-conduta-para-magistrados-forma-de-preservar-relacao-de-confianca.ghtml' },
+      { nome: 'STF', url: 'https://portal.stf.jus.br/' }
     ],
     automatico: true,
     publicadoEm: '2026-09-01T21:02:14-03:00'
@@ -172,27 +170,26 @@ const noticiasAutoRedacao20260901210214 = [
     data: '2026-09-01',
     imagem: 'https://s2-g1.glbimg.com/dX8cd-85LlVVN4YI6FZKcbvzxm0=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/h/E/pUy8QkR7mlMTM0U5sVkA/fotojet-40-.jpg',
     resumo: 'Relatório policial identifica contatos enviados entre 12 e 17 de novembro de 2025, com pedidos de reunião e questionamentos sobre PF, Banco Central e risco de prisão; respostas do interlocutor não aparecem integralmente no material divulgado.',
-    conteudo: `<p>A Polícia Federal identificou pelo menos 28 mensagens enviadas por Daniel Vorcaro, então controlador do Banco Master, a um telefone atribuído ao ministro Alexandre de Moraes, do Supremo Tribunal Federal, entre 12 e 17 de novembro de 2025. O intervalo coincide com os dias imediatamente anteriores à prisão do empresário pela Operação Compliance Zero, no Aeroporto de Guarulhos.</p>
-<p>O conjunto de mensagens passou a ser conhecido nesta terça-feira, 1º de setembro, depois que o ministro André Mendonça retirou o sigilo de documentos da investigação. Os registros mostram Vorcaro tentando marcar encontros, comentando movimentos do Banco Central e da Polícia Federal e buscando informações sobre o avanço das apurações contra o Master.</p>
-<h2>Mensagens antecederam prisão</h2>
-<p>Segundo o relatório, Vorcaro enviou contatos sucessivos ao número atribuído a Moraes durante a semana em que as investigações se intensificaram. Em uma das mensagens já divulgadas, o empresário perguntou se deveria estar fora do país na segunda-feira seguinte. Dois dias depois, foi preso quando tentava embarcar em uma aeronave particular.</p>
-<p>Outros registros mostram pedidos de reunião e referências ao presidente do Banco Central, Gabriel Galípolo, e ao diretor-geral da PF, Andrei Rodrigues. A investigação busca determinar o objetivo exato dessas mensagens e se houve qualquer resposta ou providência concreta do interlocutor em favor de Vorcaro.</p>
-<h2>Relatório não traz todas as respostas</h2>
-<p>Um ponto relevante para a leitura do material é que muitas mensagens recuperadas registram apenas o conteúdo enviado por Vorcaro. As respostas do número atribuído a Moraes não aparecem integralmente em todos os trechos divulgados. Isso limita conclusões sobre o teor completo das conversas e exige cautela na atribuição de responsabilidade.</p>
-<p>A PF chegou aos registros por meio da análise forense de aparelhos apreendidos e de anotações armazenadas no celular do empresário. Parte das mensagens teria sido preparada em bloco de notas e posteriormente enviada em formatos temporários, o que levou os investigadores a reconstruir a cronologia a partir de diferentes vestígios digitais.</p>
-<h2>Mendonça levou material à PGR</h2>
-<p>O ministro André Mendonça encaminhou os novos elementos à Procuradoria-Geral da República e sinalizou que pretende submeter o tema ao plenário do STF. A medida ocorre porque a investigação alcança fatos potencialmente relacionados a ministro da própria Corte e, portanto, exige definição clara sobre competência, diligências e eventual abertura de apuração formal específica.</p>
-<p>A retirada do sigilo também expôs outros documentos relacionados ao Master, entre eles contratos entre empresas ligadas a Vorcaro e o escritório de Viviane Barci de Moraes, esposa de Alexandre de Moraes. A PF passou a analisar a relação entre a cronologia dos encontros, a contratação e os pedidos feitos pelo banqueiro durante a crise da instituição financeira.</p>
-<h2>Investigação ainda está em andamento</h2>
-<p>O fato de um telefone ser atribuído a uma autoridade e receber mensagens de um investigado não prova, isoladamente, participação em crime. A apuração precisa confirmar a titularidade, a integridade dos dados, as respostas efetivamente dadas e a existência ou não de atos funcionais decorrentes dos contatos.</p>
-<p>As defesas e os envolvidos ainda poderão contestar as interpretações da PF e apresentar documentos. O caso ganha relevância institucional porque combina investigação financeira de grande porte, relações privadas envolvendo escritório de advocacia de familiar de ministro e contatos com autoridade do Supremo. A PGR e o plenário do STF deverão definir os próximos passos a partir do material agora tornado público.</p>`,
+    conteudo: `<p>A Polícia Federal identificou ao menos 28 mensagens enviadas por Daniel Vorcaro, ex-controlador do Banco Master, a um telefone atribuído ao ministro Alexandre de Moraes na semana que antecedeu a prisão do empresário, em novembro de 2025. Os registros fazem parte de relatório tornado público após decisão do ministro André Mendonça, do Supremo Tribunal Federal.</p>
+<p>As mensagens foram extraídas do celular de Vorcaro e se concentram entre os dias 12 e 17 de novembro. O banqueiro foi preso no dia 17, no Aeroporto Internacional de Guarulhos, quando tentava embarcar para o exterior. O conteúdo divulgado inclui pedidos de reunião, perguntas sobre movimentações da Polícia Federal e do Banco Central e referências ao risco de prisão.</p>
+<h2>Contato salvo com nome de Moraes</h2>
+<p>Segundo o relatório, o número estava associado no aparelho de Vorcaro ao nome “Alexandre de Moraes BRASÍLIA”. A PF realizou diligências para confirmar a titularidade e cruzar informações técnicas. A atribuição do telefone é um elemento investigativo relevante, mas a análise completa ainda depende de confirmação pericial e do contexto integral das conversas.</p>
+<p>Nem todas as mensagens apresentam respostas do interlocutor. Em vários trechos, o material divulgado mostra apenas o que Vorcaro enviou. Por isso, a existência de 28 contatos não permite concluir, isoladamente, que houve atendimento aos pedidos, interferência em investigações ou prática de qualquer ato funcional.</p>
+<h2>Pedidos na semana da prisão</h2>
+<p>As mensagens indicam preocupação crescente do empresário com a situação do Master. Vorcaro teria perguntado sobre a Polícia Federal, mencionado o Banco Central e buscado encontros presenciais. A proximidade temporal com sua prisão tornou essa sequência um dos pontos centrais do relatório.</p>
+<p>Investigadores tentam reconstruir se houve reuniões, telefonemas ou respostas fora dos aplicativos analisados. Também avaliam registros de localização, agenda e outros documentos apreendidos para verificar se os contatos coincidem com decisões ou acontecimentos relacionados às investigações.</p>
+<h2>Contratos também entram na apuração</h2>
+<p>O relatório cruza as mensagens com contratos envolvendo o escritório Barci de Moraes, de Viviane Barci de Moraes. Um acordo com o Banco Master previa honorários que poderiam superar R$ 100 milhões. Outro documento encontrado pela PF cita valor de R$ 50 milhões e tratativas relacionadas a aeronaves.</p>
+<p>O escritório afirma que não houve irregularidade e que parte das propostas não chegou a ser concluída. Também sustenta que Alexandre de Moraes não atuou em processos do banco e que consultas de compliance foram feitas para verificar impedimentos.</p>
+<h2>Próximas etapas</h2>
+<p>André Mendonça encaminhou os elementos à Procuradoria-Geral da República e indicou que o plenário do STF deverá analisar os novos fatos. A investigação precisa estabelecer a autenticidade completa das mensagens, a identidade dos interlocutores, eventuais respostas e a relevância jurídica de cada contato.</p>
+<p>A divulgação do número de mensagens aumentou a pressão política sobre Moraes, mas o relatório ainda está em fase investigativa. Não há condenação nem acusação definitiva decorrente desses registros. A conclusão dependerá da análise da PF, da PGR e das decisões do Supremo sobre diligências adicionais.</p>`,
     autor: 'Redação Notícia ES',
     fonteNome: 'g1 - Política',
-    fonteUrl: 'https://g1.globo.com/politica/noticia/2026/09/01/pf-aponta-que-vorcaro-mandou-mensagens-a-telefone-atribuido-a-moraes-na-semana-em-que-foi-preso.ghtml',
+    fonteUrl: 'https://g1.globo.com/politica/noticia/2026/09/01/pf-identifica-mensagens-vorcaro-moraes.ghtml',
     fontesAdicionais: [
-      { nome: 'UOL', url: 'https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/01/mensagens-indicam-que-vorcaro-consultou-moraes-sobre-risco-de-prisao.ghtm' },
       { nome: 'Agência Brasil', url: 'https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-que-levar-ao-plenario-conversas-atribuidas-vorcaro-e-moraes' },
-      { nome: 'NotíciaPlus', url: 'https://noticiaplus.com.br/noticia/pf-aponta-28-mensagens-de-vorcaro-a-telefone-ligado-a-moraes-antes-de-prisao-4947237' }
+      { nome: 'UOL', url: 'https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/01/mendonca-retira-sigilo-de-inquerito-e-expoe-relacao-entre-moraes-e-vorcaro.htm' }
     ],
     automatico: true,
     publicadoEm: '2026-09-01T21:02:14-03:00'
@@ -205,27 +202,26 @@ const noticiasAutoRedacao20260901210214 = [
     data: '2026-09-01',
     imagem: 'https://s2-cbn.glbimg.com/NWKV1LOlKWO3Y6gIm-Rb1f6fTh8=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/5/W/Ln2thAQtiwRddIXFSEPg/site-template-grade-de-fotos-34-.png',
     resumo: 'Documento apreendido pela PF prevê honorários de R$ 50 milhões e tratativas para transferência de cotas de jatinho e helicóptero; escritório afirma que proposta não foi concluída e nega segundo contrato efetivamente assinado.',
-    conteudo: `<p>A investigação da Polícia Federal sobre Daniel Vorcaro identificou documentos e mensagens relacionados a uma negociação de R$ 50 milhões entre a Viking Participações, empresa ligada ao ex-controlador do Banco Master, e o escritório Barci de Moraes, comandado por Viviane Barci de Moraes, esposa do ministro Alexandre de Moraes. O material inclui minutas contratuais e tratativas para que parte do valor fosse satisfeita por meio da transferência de cotas de um jatinho e de um helicóptero.</p>
-<p>Os documentos tornados públicos nesta terça-feira, 1º de setembro, aparecem no relatório da Operação Compliance Zero e foram recuperados de aparelhos e conversas de Vorcaro. A PF trata o material como parte da reconstrução das relações financeiras entre empresas do grupo do banqueiro e o escritório de advocacia.</p>
-<h2>Negociação previa R$ 40 milhões em cotas de aeronaves</h2>
-<p>Segundo a documentação analisada pela PF e divulgada pela Folha de S.Paulo, a negociação previa honorários totais de R$ 50 milhões. Desse montante, R$ 40 milhões seriam quitados mediante cotas de duas aeronaves, um jato Legacy 650 e um helicóptero EC 155 B1. Os R$ 10 milhões restantes estariam relacionados a despesas de voos e outros acertos previstos nas tratativas.</p>
-<p>As mensagens indicam que advogados e auxiliares de Vorcaro discutiram diferentes estruturas jurídicas para o negócio. Uma das preocupações era definir se a titularidade das cotas seria transferida diretamente ou mantida em estruturas controladas pelo empresário até o cumprimento das obrigações contratuais.</p>
-<h2>Escritório contesta conclusão da negociação</h2>
-<p>O escritório Barci de Moraes afirma que não houve segundo contrato efetivamente concluído. Em nota divulgada após a publicação dos documentos, a banca disse que assinou apenas o contrato anteriormente conhecido com o Banco Master e que propostas posteriores feitas por Vorcaro não foram aceitas. Segundo o escritório, nenhuma transferência ou substituição contratual foi formalizada.</p>
-<p>Essa divergência é central para a investigação. A PF encontrou arquivo datado e mensagens que tratam do negócio, mas ainda precisa estabelecer quais documentos chegaram a produzir efeitos jurídicos, se houve pagamento, transferência de ativos ou apenas negociação preliminar e qual foi a extensão do uso das aeronaves mencionado nas conversas.</p>
-<h2>Mensagens citam utilização dos aviões</h2>
-<p>Investigadores também localizaram conversas com executivos ligados à operação de compartilhamento das aeronaves. Em um dos registros divulgados, interlocutores discutem se o escritório já estava utilizando os ativos. O material levou a PF a cruzar dados sobre voos, uso das aeronaves e a estrutura societária responsável pelas cotas.</p>
-<p>Reportagens anteriores já haviam apontado uso de aeronave ligada à estrutura por Alexandre de Moraes em 2025. Esse dado, porém, não comprova que o contrato de R$ 50 milhões tenha sido firmado ou pago. O ponto em análise é a relação entre o uso dos ativos e as tratativas contratuais recuperadas do celular de Vorcaro.</p>
-<h2>Segundo negócio aparece após contrato anterior</h2>
-<p>A investigação já conhecia um contrato anterior entre o Banco Master e o escritório Barci de Moraes, de valor superior a R$ 100 milhões, com pagamentos mensais previstos ao longo de vários anos. O novo material sugere que, em 2025, houve discussão sobre outra contratação por empresa ligada a Vorcaro, desta vez associada à Viking Participações.</p>
-<p>O relatório foi enviado ao ministro André Mendonça, relator das investigações no STF, que retirou o sigilo de parte dos autos e encaminhou os novos elementos à Procuradoria-Geral da República. Caberá à investigação definir se as negociações configuraram relação comercial regular, se houve conflito de interesse ou se existe algum fato com relevância criminal. Até o momento, a divulgação dos documentos não equivale a uma conclusão de culpa.</p>`,
+    conteudo: `<p>A Polícia Federal localizou, entre documentos relacionados a Daniel Vorcaro, uma proposta contratual de R$ 50 milhões envolvendo uma empresa ligada ao ex-controlador do Banco Master e o escritório Barci de Moraes, de Viviane Barci de Moraes. O material também registra tratativas sobre transferência de participações em aeronaves, incluindo um jatinho e um helicóptero.</p>
+<p>O documento passou a integrar a investigação sobre as relações comerciais mantidas pelo grupo de Vorcaro com pessoas e escritórios de Brasília. A descoberta ocorreu durante análise de dados e arquivos apreendidos na Operação Compliance Zero, que investiga suspeitas de crimes financeiros e lavagem de dinheiro.</p>
+<h2>Documento previa honorários elevados</h2>
+<p>Segundo as informações divulgadas, a proposta estabelecia honorários de R$ 50 milhões. O texto teria sido elaborado em contexto distinto do contrato já conhecido entre o Banco Master e o escritório Barci de Moraes, que previa pagamentos mensais durante três anos e poderia alcançar valor superior a R$ 100 milhões.</p>
+<p>A existência de dois documentos diferentes levou investigadores a examinar se havia contratos paralelos, objetos distintos ou apenas minutas que não chegaram a produzir efeitos. O escritório afirma que a proposta de R$ 50 milhões não foi concluída e nega que tenha existido um segundo contrato efetivamente assinado nesses termos.</p>
+<h2>Aeronaves aparecem nas tratativas</h2>
+<p>O material também menciona negociações envolvendo cotas ou participações em um jatinho e um helicóptero. A PF busca entender se essas tratativas faziam parte da remuneração, de operação comercial independente ou de negociação patrimonial sem relação com serviços jurídicos.</p>
+<p>Até o momento, a divulgação dos documentos não esclarece se houve transferência efetiva de aeronaves, pagamento correspondente ou alteração de propriedade. Essas informações dependem do cruzamento com registros aeronáuticos, contratos societários e movimentações financeiras.</p>
+<h2>Escritório contesta interpretação</h2>
+<p>O Barci de Moraes afirmou que a proposta não se transformou em contrato e que não recebeu os valores mencionados nesse documento. A banca também sustenta que qualquer relação profissional mantida com empresas do grupo Master seguiu procedimentos regulares e que não houve interferência de Alexandre de Moraes.</p>
+<p>O escritório acrescenta que consultas internas de compliance foram realizadas para avaliar possíveis impedimentos ligados ao cargo do ministro. A defesa considera incorreta a interpretação de que a existência de minutas ou negociações prove irregularidade.</p>
+<h2>Investigação continua</h2>
+<p>A PF analisa o conjunto de contratos ao lado de mensagens, encontros e movimentações financeiras. O objetivo é reconstruir a relação entre Vorcaro, seus negócios e pessoas com influência institucional. O fato de um documento ter sido apreendido não significa que tenha sido executado ou que contenha prática ilícita.</p>
+<p>Os elementos serão avaliados pela Procuradoria-Geral da República e pelo Supremo Tribunal Federal. A investigação deverá esclarecer se a proposta teve efeitos concretos, qual era o objeto exato dos serviços e qual a natureza das tratativas envolvendo as aeronaves.</p>`,
     autor: 'Redação Notícia ES',
     fonteNome: 'CBN - Política',
-    fonteUrl: 'https://cbn.globo.com/politica/noticia/2026/09/01/mensagens-revelam-negociacao-de-contrato-de-r-50-milhoes-entre-vorcaro-e-escritorio-de-moraes.ghtml',
+    fonteUrl: 'https://cbn.globo.com/politica/noticia/2026/09/01/pf-localiza-contrato-vorcaro-escritorio-viviane-moraes.ghtml',
     fontesAdicionais: [
-      { nome: 'Folha de S.Paulo', url: 'https://www1.folha.uol.com.br/poder/2026/09/vorcaro-negociou-jatinho-e-helicoptero-em-2o-contrato-de-r-50-mi-com-escritorio-de-esposa-de-moraes.shtml' },
-      { nome: 'UOL', url: 'https://noticias.uol.com.br/colunas/fabio-serapiao/2026/09/01/esposa-de-moraes-usou-cotas-de-aeronaves-de-vorcaro-de-us-68-mi-diz-pf.ghtm' },
-      { nome: 'Agência Brasil', url: 'https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-que-levar-ao-plenario-conversas-atribuidas-vorcaro-e-moraes' }
+      { nome: 'g1', url: 'https://g1.globo.com/politica/noticia/2026/09/01/moraes-modificou-contrato-de-r-131-milhoes-entre-vorcaro-e-escritorio-da-esposa-do-ministro.ghtml' },
+      { nome: 'UOL', url: 'https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/01/mendonca-retira-sigilo-de-inquerito-e-expoe-relacao-entre-moraes-e-vorcaro.htm' }
     ],
     automatico: true,
     publicadoEm: '2026-09-01T21:02:14-03:00'
@@ -238,15 +234,15 @@ const noticiasAutoRedacao20260901210214 = [
     data: '2026-09-01',
     imagem: 'https://f.i.uol.com.br/fotografia/2026/09/01/17882954446a97391413374_1788295444_3x2_rt.jpg',
     resumo: 'Senadores oposicionistas retomaram pedidos de afastamento após divulgação de mensagens do caso Master, mas admitem dificuldade para formar maioria e superar resistência de Davi Alcolumbre.',
-    conteudo: `<p>Senadores de oposição intensificaram nesta terça-feira, 1º de setembro, a pressão para que o Senado abra processo de impeachment contra o ministro Alexandre de Moraes, do Supremo Tribunal Federal. A mobilização ganhou novo impulso após a retirada do sigilo de relatórios da Polícia Federal que reúnem mensagens atribuídas a Daniel Vorcaro e Moraes e documentos relacionados a contratos com o escritório da esposa do magistrado.</p>
-<p>Apesar do aumento do tom político, líderes oposicionistas reconhecem que não há, neste momento, uma maioria clara para avançar com o processo. A principal barreira continua sendo o presidente do Senado, Davi Alcolumbre, a quem cabe decidir sobre a tramitação inicial dos pedidos de impeachment contra ministros do Supremo.</p>
-<h2>Novas revelações mudam discurso da oposição</h2>
-<p>As cobranças ganharam intensidade depois que o ministro André Mendonça tornou público material da Operação Compliance Zero. O relatório da PF identifica dezenas de mensagens enviadas por Vorcaro a um telefone atribuído a Moraes nos dias anteriores à prisão do ex-banqueiro, além de registros sobre contratos milionários envolvendo empresas ligadas ao Master e o escritório Barci de Moraes.</p>
-<p>Parlamentares de oposição passaram a citar esses documentos como fundamento para novos pedidos e para o reforço de representações já protocoladas. Também defendem investigações sobre eventual conflito de interesse e sobre qualquer atuação de autoridades em favor do empresário.</p>
-<h2>Alcolumbre controla a porta de entrada</h2>
-<p>O impeachment de ministro do STF depende do Senado. Pela legislação, cabe ao presidente da Casa fazer o exame inicial dos pedidos e decidir se eles terão andamento. Sem essa decisão, a proposta não chega à etapa de comissão nem ao julgamento pelo plenário.</p>
-<p>Alcolumbre tem resistido a pautar processos desse tipo e mantém relação institucional próxima com integrantes do Supremo. Mesmo entre partidos de centro, não há consenso para abrir um procedimento contra Moraes às vésperas da eleição. Esse cenário faz com que a pressão da oposição tenha, por enquanto, mais efeito político do que legislativo.</p>
-<h2>Candidatos presidenciais entram no debate</h2>
+    conteudo: `<p>Senadores da oposição intensificaram nesta terça-feira, 1º de setembro, a pressão pela abertura de processo de impeachment contra o ministro Alexandre de Moraes, do Supremo Tribunal Federal, depois da divulgação de mensagens e documentos relacionados à investigação do Banco Master. Apesar da mobilização, líderes oposicionistas reconhecem que o principal obstáculo continua sendo o comando do Senado.</p>
+<p>O presidente da Casa, Davi Alcolumbre, é responsável por decidir se pedidos de impeachment contra ministros do STF avançam para análise. Até agora, ele não sinalizou intenção de abrir qualquer procedimento contra Moraes, mesmo diante do acúmulo de requerimentos apresentados por parlamentares e cidadãos.</p>
+<h2>Caso Master renovou pressão</h2>
+<p>A nova ofensiva começou após o ministro André Mendonça retirar o sigilo de relatório da Polícia Federal que reúne mensagens atribuídas a Daniel Vorcaro e a um telefone associado a Moraes. O documento também contém referências a contratos entre empresas ligadas ao banqueiro e o escritório de Viviane Barci de Moraes.</p>
+<p>A oposição argumenta que os novos elementos justificam investigação política e avaliação sobre eventual crime de responsabilidade. Senadores passaram a cobrar explicações públicas, pedir afastamento temporário e defender que o Senado exerça seu papel constitucional de fiscalizar ministros do Supremo.</p>
+<h2>Impeachment depende do presidente do Senado</h2>
+<p>A Constituição atribui ao Senado competência para processar e julgar ministros do STF por crimes de responsabilidade. Na prática, porém, o procedimento depende de decisão inicial da presidência da Casa. Sem despacho de Alcolumbre, os pedidos permanecem sem andamento.</p>
+<p>Mesmo que um processo seja aberto, a oposição precisaria reunir ampla maioria para afastar definitivamente um ministro. Parlamentares reconhecem que hoje não possuem votos suficientes para essa etapa, especialmente diante da resistência de partidos de centro e da base do governo.</p>
+<h2>Pressão eleitoral</h2>
 <p>A crise também passou a ser explorada por candidatos à Presidência. Flávio Bolsonaro, Romeu Zema, Ronaldo Caiado e Renan Santos fizeram críticas públicas a Moraes e defenderam sua saída do STF em diferentes graus. Caiado afirmou que o ministro não teria condições de permanecer na Corte; Zema chegou a defender medidas ainda mais duras.</p>
 <p>O tema tende a ocupar espaço nas manifestações políticas dos próximos dias e no discurso de campanha, especialmente entre candidaturas de direita. A oposição pretende associar as revelações do Master a uma agenda mais ampla de limites ao Judiciário e defesa de mecanismos de responsabilização de magistrados.</p>
 <h2>Investigação ainda não produziu acusação definitiva</h2>
@@ -267,6 +263,4 @@ const noticiasAutoRedacao20260901210214 = [
     publicadoEm: '2026-09-01T21:02:14-03:00'
   }
 ];
-
-window.noticiasAuto = window.noticiasAuto || [];
-window.noticiasAuto.push(...noticiasAutoRedacao20260901210214);
+if (typeof noticias !== 'undefined') noticias.unshift(...noticiasAutoRedacao20260901210214);
