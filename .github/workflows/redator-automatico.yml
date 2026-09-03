@@ -2,11 +2,6 @@ name: Redator automático Notícia ES
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'lote-redacao.json'
-      - 'scripts/redator-automatico.mjs'
-      - '.github/workflows/redator-automatico.yml'
 
 permissions:
   contents: write
