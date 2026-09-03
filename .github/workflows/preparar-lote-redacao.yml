@@ -2,17 +2,6 @@ name: Preparar lote da redação automática
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'pautas.json'
-      - 'noticias.js'
-      - 'editorial*.js'
-      - 'auto-redacao-*.js'
-      - 'auto-manifest.js'
-      - 'opiniao.js'
-      - 'fe-sociedade.js'
-      - 'scripts/preparar-lote-redacao.mjs'
-      - '.github/workflows/preparar-lote-redacao.yml'
 
 permissions:
   contents: write
