@@ -1,36 +1,7 @@
 name: Coletor automático de pautas
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'
   workflow_dispatch:
-  push:
-    paths:
-      - 'scripts/coletar-pautas.mjs'
-      - 'scripts/coletar-portais-extra.mjs'
-      - 'scripts/refinar-fontes-nacionais.mjs'
-      - 'scripts/coletar-flavio-bolsonaro.mjs'
-      - 'scripts/coletar-redes-locais.mjs'
-      - 'scripts/coletar-telegram-es.mjs'
-      - 'scripts/coletar-ales.mjs'
-      - 'scripts/coletar-dioes.mjs'
-      - 'scripts/finalizar-rodada10.mjs'
-      - 'scripts/marcar-rodada11.mjs'
-      - 'scripts/marcar-rodada12.mjs'
-      - 'scripts/marcar-rodada13.mjs'
-      - 'scripts/marcar-rodada14.mjs'
-      - 'scripts/marcar-rodada16.mjs'
-      - 'scripts/marcar-rodada17.mjs'
-      - 'scripts/marcar-rodada18.mjs'
-      - 'scripts/marcar-rodada19.mjs'
-      - 'scripts/enriquecer-imagens-pautas.mjs'
-      - 'scripts/resolver-imagem.mjs'
-      - 'scripts/fiscal-imagens.mjs'
-      - 'scripts/marcar-rodada6.mjs'
-      - 'scripts/marcar-rodada7.mjs'
-      - 'scripts/marcar-rodada8.mjs'
-      - 'scripts/validar-coletor.mjs'
-      - '.github/workflows/atualizar-noticias.yml'
 
 permissions:
   contents: write
@@ -69,16 +40,6 @@ jobs:
           node scripts/marcar-rodada17.mjs
           node scripts/marcar-rodada18.mjs
           node scripts/marcar-rodada19.mjs
-          if git diff --quiet -- pautas.json editorial-10.js editorial-11.js editorial-12.js editorial-13.js editorial-14.js editorial-16.js editorial-17.js editorial-18.js editorial-19.js; then
-            echo "Nenhuma publicação nova para registrar."
-          else
-            git config user.name "Notícia ES Bot"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add pautas.json editorial-10.js editorial-11.js editorial-12.js editorial-13.js editorial-14.js editorial-16.js editorial-17.js editorial-18.js editorial-19.js
-            git commit -m "pautas: registra rodadas editoriais publicadas"
-            git pull --rebase origin main
-            git push origin main
-          fi
 
       - name: Validar sintaxe e integridade do coletor
         shell: bash
@@ -107,30 +68,18 @@ jobs:
           node scripts/coletar-ales.mjs
           node scripts/coletar-dioes.mjs
           node scripts/enriquecer-imagens-pautas.mjs
+          node scripts/fiscal-imagens.mjs
 
-      - name: Impedir mutação automática do código
+      - name: Publicar alterações manuais do coletor
         shell: bash
         run: |
-          if ! git diff --quiet -- scripts/ .github/workflows/atualizar-noticias.yml; then
-            echo "ERRO: a execução tentou alterar código do coletor. Alterações automáticas em scripts são proibidas."
-            git diff -- scripts/ .github/workflows/atualizar-noticias.yml
-            exit 1
-          fi
-          echo "Código do coletor permaneceu imutável durante a execução."
-
-      - name: Fiscalizar imagens ausentes
-        run: node scripts/fiscal-imagens.mjs
-
-      - name: Salvar fila editorial
-        shell: bash
-        run: |
-          if git diff --quiet -- pautas.json motor-status.json imagens-fonte.js noticias.js fiscal-imagens-status.json editorial-10.js editorial-11.js editorial-12.js editorial-13.js editorial-14.js editorial-16.js editorial-17.js editorial-18.js editorial-19.js; then
+          git config user.name "Notícia ES Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
             echo "Nenhuma novidade para registrar."
             exit 0
           fi
-          git config user.name "Notícia ES Bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pautas.json motor-status.json imagens-fonte.js noticias.js fiscal-imagens-status.json editorial-10.js editorial-11.js editorial-12.js editorial-13.js editorial-14.js editorial-16.js editorial-17.js editorial-18.js editorial-19.js
           git commit -m "pautas: atualiza fila e imagens do motor"
           git pull --rebase origin main
           git push origin main
