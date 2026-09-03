@@ -1,0 +1,96 @@
+name: Atualizar matéria Pastor Josias
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/atualizar-josias-versao-corrigida.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Aplicar versão editorial corrigida
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          p = Path('fe-sociedade.js')
+          s = p.read_text(encoding='utf-8')
+          novo = r'''(function(){
+          if(typeof noticias==='undefined'||!Array.isArray(noticias)) return;
+          const materia={
+          id:202609030001,
+          slug:'pastor-josias-junior-59-anos-igreja-crista-maranata',
+          titulo:'Pastor Josias Júnior completa 59 anos a serviço da Palavra e da comunicação',
+          categoria:'Fé e Sociedade',
+          data:'2026-09-03',
+          publicadoEm:'2026-09-03T17:54:00-03:00',
+          imagem:'imagens/pastor-josias-junior-59-anos.png',
+          legendaImagem:'Pastor Josias Júnior, da Igreja Cristã Maranata.',
+          resumo:'Nascido em Recife em 3 de setembro de 1967, o pastor da Igreja Cristã Maranata dedica-se agora ao canal no YouTube Papo Fora do Script, com conversas sobre fé, vocação, família e memória da Obra.',
+          conteudo:`<p>A paz do Senhor Jesus.</p>
+          <p>Neste 3 de setembro de 2026, o pastor Josias Rocha da Silva Júnior completa 59 anos. Para a Igreja Cristã Maranata, a data não é festa mundana. É ocasião de reconhecer o chamado de um varão que o Senhor levantou para o Ministério da Palavra e para a comunicação.</p>
+          <p>Josias Júnior nasceu em Recife, em 3 de setembro de 1967. Foi ordenado ao Ministério da Palavra em 2004. Publicitário, especialista em marketing e gestão de negócios, especialista em marketing digital e mestrando em jornalismo, passou cerca de três décadas em rádio e televisão e doze anos no magistério universitário. Projetou estúdios e estruturas de transmissão. Por anos foi voz conhecida das Conversas Bíblicas no canal oficial da Igreja Cristã Maranata e atuou na comunicação institucional da Obra, inclusive na Rádio Maanaim.</p>
+          <p>Hoje esse capítulo institucional ficou para trás. Por enquanto, o projeto do pastor é o canal no YouTube Papo Fora do Script. Lá ele conversa sobre fé, comunicação, vocação, família e memória da Obra. Um dos primeiros programas tratou da trajetória do pastor Gedelti Victalino Teixeira Gueiros. Outro reuniu a irmã Jurama. O formato não substitui o púlpito. Amplia o alcance da mesma vocação: falar com clareza, sem firula, do que o Senhor tem feito.</p>
+          <p>Ao lado da irmã Valéria, o pastor tem sido testemunho de família constituída no chamado. Em novembro de 2022, recebeu na Assembleia Legislativa do Espírito Santo a Comenda Gedelti Victalino Teixeira Gueiros, honraria criada para reconhecer fiéis da Maranata que se destacam na educação cristã e nas obras de assistência. A comenda não engrandece o homem. Testemunha que a Obra produz fruto visível também nesta terra.</p>
+          <p>A Igreja Cristã Maranata nasceu em Vila Velha, em 1968, e hoje soma milhares de templos e dezenas de Maanaim. O Ministério da Palavra, exercido de forma voluntária, é um dos seus pilares. Josias Júnior tem dito, com razão, que os varões levantados para esse ministério carregam responsabilidade extrema: pregar o Evangelho e cuidar das igrejas locais, sem remuneração, porque o chamado é de Deus.</p>
+          <p>Neste aniversário, o que se pede primeiro não é aplauso. É que o Senhor continue ungindo a boca desse servo, preserve a sua saúde, fortaleça a sua casa e o use no canal que agora está em suas mãos, enquanto o tempo da graça permanece. A Obra não para. O melhor ainda está por vir. Maranata.</p>`,
+          autor:'Redação Notícia ES',
+          manual:true,
+          secaoEspecial:true,
+          automatico:false,
+          fonteNome:'Hinologia Cristã — perfil de Josias Junior',
+          fonteUrl:'https://www.hinologia.org/josias-junior/',
+          fontesAdicionais:[
+            {nome:'ES360 — 56 anos da Igreja Cristã Maranata',url:'https://es360.com.br/es360/56-anos-igreja-crista-maranata-mantem-viva-a-mensagem-do-retorno-de-cristo'},
+            {nome:'Estúdio Folha — Igreja completa 54 anos presente em mais de 100 países',url:'https://estudio.folha.uol.com.br/igrejamaranata/2022/11/igreja-completa-54-anos-presente-em-mais-de-100-paises.shtml'}
+          ],
+          aeo:[
+            {pergunta:'O que aconteceu?',resposta:'O pastor Josias Rocha da Silva Júnior, da Igreja Cristã Maranata, completa 59 anos neste 3 de setembro de 2026.'},
+            {pergunta:'Quem está envolvido?',resposta:'Pastor Josias Júnior, a irmã Valéria, a Igreja Cristã Maranata e a memória institucional ligada ao pastor Gedelti Gueiros.'},
+            {pergunta:'Onde aconteceu?',resposta:'Espírito Santo, com origem em Recife e atuação pública pelo canal no YouTube Papo Fora do Script.'},
+            {pergunta:'Quando aconteceu?',resposta:'Nascimento em 03/09/1967. Ordenação ao Ministério da Palavra em 2004. Comenda Gedelti Gueiros em novembro de 2022. Aniversário de 59 anos em 03/09/2026.'},
+            {pergunta:'Por que isso importa?',resposta:'Josias Júnior marcou a comunicação da Maranata nas Conversas Bíblicas e na Rádio Maanaim. Agora o projeto imediato dele é o canal Papo Fora do Script. A data reconhece o chamado, não o cargo.'},
+            {pergunta:'O que acontece agora?',resposta:'A data serve de reconhecimento do chamado e de intercessão pela continuidade do ministério no canal, pela saúde e pela família do pastor.'}
+          ],
+          entidades:[
+            {tipo:'Person',nome:'Josias Rocha da Silva Júnior'},
+            {tipo:'Organization',nome:'Igreja Cristã Maranata'},
+            {tipo:'Organization',nome:'Rádio Maanaim'},
+            {tipo:'Thing',nome:'Papo Fora do Script'},
+            {tipo:'Person',nome:'Gedelti Victalino Teixeira Gueiros'}
+          ]};
+          const i=noticias.findIndex(n=>n.slug===materia.slug); if(i>=0) noticias[i]=materia; else noticias.unshift(materia);
+          })();'''
+          pat = r"\(function\(\)\{\nif\(typeof noticias==='undefined'\|\|!Array\.isArray\(noticias\)\) return;\nconst materia=\{\nid:202609030001,[\s\S]*?\n\}\)\(\);\s*$"
+          s2, n = re.subn(pat, novo, s, count=1)
+          if n != 1:
+              raise SystemExit(f'Bloco da matéria não encontrado exatamente uma vez: {n}')
+          p.write_text(s2 + '\n', encoding='utf-8')
+          PY
+      - name: Regenerar página e descoberta
+        run: |
+          node scripts/gerar-paginas-og.mjs
+          node scripts/reposicionar-aeo.mjs
+          node scripts/enriquecer-ai-schema.mjs
+          node scripts/gerar-sitemap.mjs
+          node scripts/gerar-rss-llms.mjs
+      - name: Salvar atualização
+        shell: bash
+        run: |
+          git config user.name 'Notícia ES Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add fe-sociedade.js m/pastor-josias-junior-59-anos-igreja-crista-maranata.html sitemap.xml sitemap-news.xml rss.xml llms.txt
+          git commit -m 'fix(fe): atualiza trajetória e projeto atual de Josias Júnior'
+          git push origin HEAD:main
