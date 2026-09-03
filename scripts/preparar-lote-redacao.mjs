@@ -96,6 +96,31 @@ function fonteBloqueada(pauta) {
   return FONTES_BLOQUEADAS.some((x) => texto.includes(x));
 }
 
+function pautaEditorialmenteBloqueada(pauta) {
+  const titulo = normalizar(pauta?.titulo || '');
+  const resumo = normalizar(pauta?.resumoFonte || '');
+  const fonte = normalizar(pauta?.fonteNome || '');
+  const url = String(pauta?.urlFonte || '').toLowerCase();
+
+  // Opinião, coluna e editorial não entram no redator factual automático.
+  if (/^(opiniao|editorial|artigo)\b/.test(titulo)) return true;
+  if (/\b(opiniao|colunista|artigo de opiniao)\b/.test(fonte) && !/\bpesquisa\b/.test(titulo)) return true;
+
+  // Diário Oficial genérico só pode virar pauta quando houver ato específico já identificado.
+  if ((fonte.includes('dio es edicao') || titulo.startsWith('diario oficial do es edicao') || url === 'https://dio.es.gov.br/diario-oficial') &&
+      /\b(conferir|consulta|edicao|diario oficial)\b/.test(`${titulo} ${resumo}`) &&
+      !/\b(decreto|lei|nomeacao|exoneracao|portaria|licitacao|contrato|ato especifico)\b/.test(titulo)) return true;
+
+  // Homepages e páginas de listagem sem fato específico não são matéria.
+  try {
+    const u = new URL(String(pauta?.urlFonte || ''));
+    const caminho = u.pathname.replace(/\/+$/, '');
+    if ((!caminho || caminho === '') && titulo.split(' ').length < 5) return true;
+  } catch {}
+
+  return false;
+}
+
 function imagemValida(pauta) {
   const img = String(pauta.imagemFonte || pauta.imagem || '').trim();
   if (!/^https:\/\//i.test(img)) return false;
@@ -161,12 +186,13 @@ const pautas = Array.isArray(bruto) ? bruto : (Array.isArray(bruto.pautas) ? bru
 const publicados = await publicadosIndex();
 
 const elegiveis = [];
-const diagnostico = { totalPendentes: 0, bloqueadas: 0, semImagem: 0, duplicadasBasicas: 0, duplicadasSemanticas: 0, foraCategorias: 0 };
+const diagnostico = { totalPendentes: 0, bloqueadas: 0, bloqueadasEditoriais: 0, semImagem: 0, duplicadasBasicas: 0, duplicadasSemanticas: 0, foraCategorias: 0 };
 
 for (const p of pautas) {
   if (p?.status !== 'pendente') continue;
   diagnostico.totalPendentes++;
   if (fonteBloqueada(p)) { diagnostico.bloqueadas++; continue; }
+  if (pautaEditorialmenteBloqueada(p)) { diagnostico.bloqueadasEditoriais++; continue; }
   if (categoriaRank(p.categoria) >= 9) { diagnostico.foraCategorias++; continue; }
   if (!imagemValida(p)) { diagnostico.semImagem++; continue; }
 
@@ -227,4 +253,4 @@ const saida = {
 };
 
 await fs.writeFile(DESTINO, JSON.stringify(saida, null, 2) + '\n', 'utf8');
-console.log(`[lote-redacao] ${candidatas.length} candidata(s). Pendentes=${diagnostico.totalPendentes}; semImagem=${diagnostico.semImagem}; bloqueadas=${diagnostico.bloqueadas}; duplicadasBasicas=${diagnostico.duplicadasBasicas}; duplicadasSemanticas=${diagnostico.duplicadasSemanticas}`);
+console.log(`[lote-redacao] ${candidatas.length} candidata(s). Pendentes=${diagnostico.totalPendentes}; semImagem=${diagnostico.semImagem}; bloqueadas=${diagnostico.bloqueadas}; bloqueadasEditoriais=${diagnostico.bloqueadasEditoriais}; duplicadasBasicas=${diagnostico.duplicadasBasicas}; duplicadasSemanticas=${diagnostico.duplicadasSemanticas}`);
