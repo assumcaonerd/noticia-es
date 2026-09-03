@@ -1,8 +1,6 @@
 name: Redator automático Notícia ES
 
 on:
-  schedule:
-    - cron: '15,45 * * * *'
   workflow_dispatch:
   push:
     paths:
