@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 /**
- * Gera páginas estáticas m/{slug}.html com og:image no HTML.
- * Crawlers (WhatsApp, X, Facebook) não executam JS; por isso
- * noticia.html?slug= nunca leva foto na prévia.
+ * Gera páginas estáticas canônicas em m/{slug}.html.
+ * Cada página contém a reportagem completa, OG/Twitter e JSON-LD NewsArticle.
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -21,6 +20,15 @@ function escapar(texto = '') {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
+}
+
+function sanitizarHtml(html = '') {
+  return String(html)
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+    .replace(/<(iframe|object|embed|form)[\s\S]*?<\/\1>/gi, '')
+    .replace(/\son\w+\s*=\s*(["']).*?\1/gi, '')
+    .replace(/javascript:/gi, '');
 }
 
 function imagemAbsoluta(url = '') {
@@ -53,9 +61,7 @@ async function carregarOverlay() {
     const re = /["']([^"']+)["']\s*:\s*["']([^"']+)["']/g;
     let m;
     while ((m = re.exec(texto))) fotos[m[1]] = m[2];
-  } catch {
-    /* overlay opcional */
-  }
+  } catch {}
   return fotos;
 }
 
@@ -64,10 +70,7 @@ async function carregarNoticias() {
     noticias: [],
     window: { noticiasAuto: [] },
     document: {
-      write() {},
-      querySelector() { return null; },
-      querySelectorAll() { return []; },
-      getElementById() { return null; }
+      write() {}, querySelector() { return null; }, querySelectorAll() { return []; }, getElementById() { return null; }
     }
   };
   contexto.window.window = contexto.window;
@@ -77,29 +80,77 @@ async function carregarNoticias() {
     try {
       const codigo = await fs.readFile(path.join(RAIZ, arquivo), 'utf8');
       const inicioAuto = contexto.window.noticiasAuto.length;
-
       vm.runInNewContext(
         `${codigo}\nif (typeof noticias !== 'undefined' && Array.isArray(noticias)) { this.noticias = noticias; }`,
         contexto,
         { timeout: 12000, filename: arquivo }
       );
-
       const novasViaWindow = contexto.window.noticiasAuto.slice(inicioAuto);
       if (novasViaWindow.length) contexto.noticias.unshift(...novasViaWindow);
     } catch (erro) {
-      if (erro.code !== 'ENOENT') console.warn(`[og] não leu ${arquivo}: ${erro.message}`);
+      if (erro.code !== 'ENOENT') console.warn(`[estatico] não leu ${arquivo}: ${erro.message}`);
     }
   }
   return Array.isArray(contexto.noticias) ? contexto.noticias : [];
 }
 
+function tipoSchema(tipo = '') {
+  const permitidos = new Set(['Person', 'Organization', 'Place', 'Event', 'PoliticalParty', 'GovernmentOrganization']);
+  return permitidos.has(tipo) ? tipo : 'Thing';
+}
+
+function montarNewsArticle(n, url, imagem) {
+  const publicado = n.publicadoEm || (n.data ? `${n.data}T12:00:00-03:00` : new Date().toISOString());
+  const entidades = Array.isArray(n.entidades) ? n.entidades
+    .filter(e => e && e.nome && !/capit[aã]o\s+assum[cç][aã]o/i.test(String(e.nome)))
+    .slice(0, 20)
+    .map(e => ({ '@type': tipoSchema(e.tipo), name: String(e.nome) })) : [];
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    headline: n.titulo || 'Notícia ES',
+    description: n.resumo || '',
+    image: imagem ? [imagem] : undefined,
+    datePublished: publicado,
+    dateModified: n.publicadoEm || publicado,
+    author: { '@type': 'Organization', name: n.autor || 'Redação Notícia ES' },
+    publisher: { '@type': 'Organization', name: 'Notícia ES', url: SITE },
+    articleSection: n.categoria || undefined,
+    about: entidades.length ? entidades : undefined,
+    mentions: entidades.length ? entidades : undefined
+  };
+}
+
+function blocoAeo(n) {
+  const itens = Array.isArray(n.aeo) ? n.aeo.filter(x => x?.pergunta && x?.resposta).filter(x => !/capit[aã]o\s+assum[cç][aã]o/i.test(`${x.pergunta} ${x.resposta}`)).slice(0, 6) : [];
+  if (!itens.length) return '';
+  return `<section class="aeo-resumo" aria-labelledby="aeo-titulo"><h2 id="aeo-titulo">Em resumo</h2>${itens.map(x => `<div class="aeo-item"><strong>${escapar(x.pergunta)}</strong><p>${escapar(x.resposta)}</p></div>`).join('')}</section>`;
+}
+
+function fontesHtml(n) {
+  const fontes = [];
+  if (/^https:\/\//i.test(String(n.fonteUrl || ''))) fontes.push({ nome: n.fonteNome || 'Fonte principal', url: n.fonteUrl });
+  for (const f of Array.isArray(n.fontesAdicionais) ? n.fontesAdicionais : []) {
+    const url = typeof f === 'string' ? f : f?.url;
+    const nome = typeof f === 'string' ? 'Fonte adicional' : (f?.nome || 'Fonte adicional');
+    if (/^https:\/\//i.test(String(url || '')) && !fontes.some(x => x.url === url)) fontes.push({ nome, url });
+  }
+  if (!fontes.length) return '';
+  return `<section class="fontes-materia"><h2>Fontes</h2><ul>${fontes.map(f => `<li><a href="${escapar(f.url)}" rel="nofollow noopener" target="_blank">${escapar(f.nome)}</a></li>`).join('')}</ul></section>`;
+}
+
 function paginaHTML(n, imagem) {
   const titulo = n.titulo || 'Notícia ES';
-  const resumo = n.resumo || 'Política e segurança pública do Espírito Santo.';
+  const resumo = n.resumo || 'Política e segurança pública do Espírito Santo e do Brasil.';
   const url = `${SITE}/m/${n.slug}.html`;
-  const destino = `${SITE}/noticia.html?slug=${encodeURIComponent(n.slug)}`;
   const img = ehBoaParaWhatsapp(imagem) ? imagem : '';
+  const schema = montarNewsArticle(n, url, img);
+  const conteudo = sanitizarHtml(n.conteudo || '');
+  const data = n.data || '';
+  const categoria = n.categoria || 'Notícia';
   const metaImagem = img ? `\n  <meta property="og:image" content="${escapar(img)}">\n  <meta property="og:image:secure_url" content="${escapar(img)}">\n  <meta name="twitter:image" content="${escapar(img)}">` : '';
+
   return `<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -107,6 +158,7 @@ function paginaHTML(n, imagem) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapar(titulo)} | Notícia ES</title>
   <meta name="description" content="${escapar(resumo)}">
+  <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="${escapar(url)}">
   <meta property="og:type" content="article">
   <meta property="og:locale" content="pt_BR">
@@ -117,13 +169,25 @@ function paginaHTML(n, imagem) {
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapar(titulo)}">
   <meta name="twitter:description" content="${escapar(resumo)}">
-  <meta http-equiv="refresh" content="0;url=${escapar(destino)}">
+  <script type="application/ld+json">${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>
+  <link rel="stylesheet" href="../estilo.css">
+  <link rel="stylesheet" href="../imagem-policy.css">
+  <style>.materia-estatica{max-width:860px;margin:0 auto;padding:28px 16px}.materia-estatica h1{line-height:1.08}.materia-resumo{font-size:1.15rem}.materia-meta{opacity:.75;margin:10px 0 22px}.materia-capa{width:100%;height:auto;border-radius:8px}.conteudo-materia p{line-height:1.72;font-size:1.08rem}.conteudo-materia h2{margin-top:30px}.aeo-resumo{margin:28px 0;padding:18px;border:1px solid #ddd;border-radius:8px}.aeo-item p{margin-top:5px}.fontes-materia{margin-top:34px}</style>
 </head>
-<body>
-  <p><a href="${escapar(destino)}">${escapar(titulo)}</a></p>
+<body data-pagina="materia">
+<header class="site-header"><div class="container header-inner"><a class="logo" href="../index.html">Notícia <span>ES</span></a><nav class="nav-principal" aria-label="Navegação principal"><ul><li><a href="../index.html">Início</a></li><li><a href="../index.html?categoria=politica-es">Política ES</a></li><li><a href="../index.html?categoria=seguranca-publica">Segurança Pública</a></li><li><a href="../index.html?categoria=politica-nacional">Política Nacional</a></li><li><a href="../index.html?categoria=opiniao">Opinião</a></li><li><a href="../index.html?categoria=fe-e-sociedade">Fé e Sociedade</a></li></ul></nav></div></header>
+<main class="materia"><article class="materia-estatica">
+  <div class="materia-meta">${escapar(categoria)}${data ? ` · ${escapar(data)}` : ''} · ${escapar(n.autor || 'Redação Notícia ES')}</div>
+  <h1>${escapar(titulo)}</h1>
+  <p class="materia-resumo"><strong>${escapar(resumo)}</strong></p>
+  ${img ? `<figure><img class="materia-capa" src="${escapar(img)}" alt="${escapar(titulo)}" loading="eager"><figcaption>${escapar(titulo)}</figcaption></figure>` : ''}
+  ${blocoAeo(n)}
+  <div class="conteudo-materia">${conteudo}</div>
+  ${fontesHtml(n)}
+</article></main>
+<footer class="site-footer"><div class="container"><strong>Notícia ES</strong> | política e segurança pública do Espírito Santo</div></footer>
 </body>
-</html>
-`;
+</html>\n`;
 }
 
 const overlay = await carregarOverlay();
@@ -136,7 +200,7 @@ for (const n of lista) {
   if (!n?.slug || vistos.has(n.slug)) continue;
   vistos.add(n.slug);
   if (PAGINAS_ESPECIAIS.has(n.slug)) {
-    console.log(`[og] preserva página especial: ${n.slug}`);
+    console.log(`[estatico] preserva página especial: ${n.slug}`);
     continue;
   }
   const imagem = imagemAbsoluta(overlay[n.slug] || n.imagem || '');
@@ -144,4 +208,4 @@ for (const n of lista) {
   geradas++;
 }
 
-console.log(`[og] ${geradas} página(s) em m/{slug}.html`);
+console.log(`[estatico] ${geradas} página(s) canônica(s) completa(s) em m/{slug}.html`);
