@@ -1,0 +1,117 @@
+name: Operação Editorial Horária
+
+on:
+  schedule:
+    - cron: '5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: operacao-editorial-horaria-noticia-es
+  cancel-in-progress: false
+
+jobs:
+  pipeline-editorial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Validar scripts críticos
+        run: |
+          node --check scripts/coletar-pautas.mjs
+          node --check scripts/preparar-lote-redacao.mjs
+          node --check scripts/reapurar-e-redigir.mjs
+          node --check scripts/redator-automatico.mjs
+          node --check scripts/gerar-paginas-og.mjs
+          node --check scripts/gerar-sitemap.mjs
+          node --check scripts/auditoria-pos-publicacao.mjs
+
+      - name: ETAPA 1 - Coletar pautas
+        shell: bash
+        run: |
+          set -euo pipefail
+          node scripts/coletar-pautas.mjs
+          node scripts/coletar-portais-extra.mjs
+          node scripts/refinar-fontes-nacionais.mjs
+          node scripts/coletar-flavio-bolsonaro.mjs
+          node scripts/coletar-redes-locais.mjs
+          node scripts/coletar-telegram-es.mjs
+          node scripts/coletar-ales.mjs
+          node scripts/coletar-dioes.mjs
+
+      - name: ETAPA 2 - Enriquecer e fiscalizar imagens
+        shell: bash
+        run: |
+          node scripts/enriquecer-imagens-pautas.mjs || true
+          node scripts/fiscal-imagens.mjs || true
+
+      - name: ETAPAS 3 e 4 - Deduplicar, ranquear e preparar lote
+        run: node scripts/preparar-lote-redacao.mjs
+
+      - name: ETAPAS 5 a 8 - Reapurar, redigir e aplicar AEO
+        run: node scripts/reapurar-e-redigir.mjs
+
+      - name: ETAPA 9 - Validar e montar shard de publicação
+        run: node scripts/redator-automatico.mjs
+
+      - name: ETAPAS 10 a 12 - Gerar páginas canônicas, OG e sitemaps
+        run: |
+          node scripts/gerar-paginas-og.mjs
+          node scripts/gerar-sitemap.mjs
+
+      - name: ETAPA 13 - Auditoria pós-publicação
+        run: node scripts/auditoria-pos-publicacao.mjs
+
+      - name: Impedir mutação automática do código
+        shell: bash
+        run: |
+          if ! git diff --quiet -- scripts/ .github/workflows/; then
+            echo "ERRO: algum script da rodada tentou modificar código ou workflows."
+            git diff -- scripts/ .github/workflows/
+            exit 1
+          fi
+          echo "Código permaneceu imutável durante a rodada."
+
+      - name: Publicar rodada no GitHub
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Notícia ES Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Rodada concluída sem matéria ou atualização nova."
+            exit 0
+          fi
+
+          git commit -m "auto(editorial): rodada horária completa"
+
+          for tentativa in 1 2 3 4 5; do
+            echo "Tentativa de push ${tentativa}/5"
+            git fetch origin main
+            if git rebase origin/main && git push origin HEAD:main; then
+              echo "Rodada editorial publicada com sucesso."
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((tentativa * 3))
+          done
+
+          echo "FALHA: não foi possível publicar a rodada após 5 tentativas."
+          exit 1
