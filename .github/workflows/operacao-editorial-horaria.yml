@@ -48,7 +48,10 @@ jobs:
           node --check scripts/redator-automatico.mjs
           node --check scripts/gerar-paginas-og.mjs
           node --check scripts/reposicionar-aeo.mjs
+          node --check scripts/enriquecer-ai-schema.mjs
           node --check scripts/gerar-sitemap.mjs
+          node --check scripts/gerar-rss-llms.mjs
+          node --check scripts/notificar-indexnow.mjs
           node --check scripts/auditoria-pos-publicacao.mjs
 
       - name: ETAPA 1 - Coletar pautas
@@ -79,11 +82,13 @@ jobs:
       - name: ETAPA 9 - Validar e montar shard de publicação
         run: node scripts/redator-automatico.mjs
 
-      - name: ETAPAS 10 a 12 - Gerar páginas canônicas, reposicionar AEO, OG e sitemaps
+      - name: ETAPAS 10 a 12 - Gerar páginas, AEO final, schema, sitemaps e feeds
         run: |
           node scripts/gerar-paginas-og.mjs
           node scripts/reposicionar-aeo.mjs
+          node scripts/enriquecer-ai-schema.mjs
           node scripts/gerar-sitemap.mjs
+          node scripts/gerar-rss-llms.mjs
 
       - name: ETAPA 13 - Auditoria pós-publicação
         run: node scripts/auditoria-pos-publicacao.mjs
@@ -126,3 +131,7 @@ jobs:
 
           echo "FALHA: não foi possível publicar a rodada após 5 tentativas."
           exit 1
+
+      - name: Notificar mecanismos via IndexNow
+        if: success()
+        run: node scripts/notificar-indexnow.mjs
