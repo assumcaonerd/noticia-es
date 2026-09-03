@@ -1,8 +1,6 @@
 name: Preparar lote da redação automática
 
 on:
-  schedule:
-    - cron: '10,40 * * * *'
   workflow_dispatch:
   push:
     paths:
@@ -49,8 +47,6 @@ jobs:
           fi
           git commit -m "motor: prepara lote da redação automática"
 
-          # Outros workflows também escrevem na main. Rebaseia e tenta novamente
-          # caso outro commit chegue entre o pull e o push.
           for tentativa in 1 2 3 4 5; do
             echo "Tentativa de publicação ${tentativa}/5"
             git pull --rebase origin main
