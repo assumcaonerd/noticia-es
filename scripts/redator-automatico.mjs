@@ -56,6 +56,9 @@ function fontesValidas(fontes = []) {
     return f && /^https:\/\//i.test(String(f.url || ''));
   });
 }
+function aeoValido(aeo = []) {
+  return Array.isArray(aeo) && aeo.length >= 5 && aeo.every(x => String(x?.pergunta || '').trim() && String(x?.resposta || '').trim());
+}
 function validarReportagem(p) {
   const r = p?.reportagem;
   if (!r || typeof r !== 'object') return 'sem reportagem reapurada';
@@ -78,6 +81,8 @@ function validarReportagem(p) {
   if (palavras < 650) return `texto curto: ${palavras} palavras`;
   if (paragrafos < 7) return `estrutura curta: ${paragrafos} parágrafos`;
   if (subtitulos < 2) return `estrutura sem subtítulos suficientes: ${subtitulos}`;
+  if (!aeoValido(r.aeo)) return 'AEO incompleto';
+  if (/capit[aã]o\s+assum[cç][aã]o/i.test(JSON.stringify(r.aeo || []))) return 'Capitão Assumção não pode aparecer no AEO nesta fase';
   if (/entrou na fila automática|o que se sabe até agora|seguirá atualizando a cobertura/i.test(conteudo)) return 'modelo de nota curta detectado';
   return null;
 }
@@ -102,6 +107,7 @@ for (const p of candidatas) {
 
 if (!publicaveis.length) {
   console.log('[redator] Nenhuma reportagem completa e reapurada disponível. Nada será publicado.');
+  if ((lote?.diagnosticoReapuracao?.produzidas || 0) > 0) process.exit(4);
   process.exit(0);
 }
 
@@ -121,9 +127,11 @@ const artigos = publicaveis.map((p, i) => {
   const fonteNome = String(r.fonteNome || p.fonteNome || 'Fonte principal').trim();
   const fonteUrl = String(r.fonteUrl || p.urlFonte || '').trim();
   const adicionais = fontesValidas(r.fontesAdicionais || []);
+  const entidades = Array.isArray(r.entidades) ? r.entidades.slice(0, 20) : [];
+  const aeo = Array.isArray(r.aeo) ? r.aeo.slice(0, 8) : [];
   const id = Number(`${carimbo.replace(/\D/g, '').slice(2)}${String(i + 1).padStart(2, '0')}`);
 
-  return `  {\n    id: ${id},\n    pautaId: ${js(p.id)},\n    slug: ${js(slug)},\n    titulo: ${js(titulo)},\n    categoria: ${js(r.categoria || p.categoria)},\n    data: ${js(r.data || dia)},\n    imagem: ${js(imagem)},\n    resumo: ${js(r.resumo)},\n    conteudo: ${js(r.conteudo)},\n    autor: 'Redação Notícia ES',\n    fonteNome: ${js(fonteNome)},\n    fonteUrl: ${js(fonteUrl)},\n    fontesAdicionais: ${JSON.stringify(adicionais)},\n    automatico: true,\n    publicadoEm: ${js(iso)}\n  }`;
+  return `  {\n    id: ${id},\n    pautaId: ${js(p.id)},\n    slug: ${js(slug)},\n    titulo: ${js(titulo)},\n    categoria: ${js(r.categoria || p.categoria)},\n    data: ${js(r.data || dia)},\n    imagem: ${js(imagem)},\n    resumo: ${js(r.resumo)},\n    conteudo: ${js(r.conteudo)},\n    autor: 'Redação Notícia ES',\n    fonteNome: ${js(fonteNome)},\n    fonteUrl: ${js(fonteUrl)},\n    fontesAdicionais: ${JSON.stringify(adicionais)},\n    entidades: ${JSON.stringify(entidades)},\n    aeo: ${JSON.stringify(aeo)},\n    automatico: true,\n    publicadoEm: ${js(iso)}\n  }`;
 });
 
 const shard = `const ${varName} = [\n${artigos.join(',\n')}\n];\nif (typeof noticias !== 'undefined') noticias.unshift(...${varName});\n`;
@@ -139,7 +147,12 @@ await fs.writeFile(manifestPath, manifest, 'utf8');
 for (const p of publicaveis) {
   const r = p.reportagem;
   const slugPublicado = slugify(r.slug || r.titulo || p.titulo) || `noticia-${p.id}`;
-  const recibo = { pautaId: p.id, slugPublicado, publicadaEm: iso };
+  const recibo = {
+    pautaId: p.id,
+    slugPublicado,
+    fonteUrl: String(r.fonteUrl || p.urlFonte || ''),
+    publicadaEm: iso
+  };
   await fs.writeFile(
     path.join(pendentesDir, `${p.id}-${carimbo}.json`),
     JSON.stringify(recibo, null, 2) + '\n',
