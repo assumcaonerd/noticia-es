@@ -1,16 +1,28 @@
 {
-  "geradoEm": "2026-09-03T01:25:43.783Z",
+  "geradoEm": "2026-09-03T06:26:32.857Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 10 matérias.",
   "diagnostico": {
-    "totalPendentes": 79,
-    "bloqueadas": 7,
+    "totalPendentes": 80,
+    "bloqueadas": 5,
     "semImagem": 0,
     "duplicadasBasicas": 0,
-    "duplicadasSemanticas": 4,
+    "duplicadasSemanticas": 3,
     "foraCategorias": 1
   },
   "quantidadeCandidatas": 20,
   "candidatas": [
+    {
+      "id": "bac4656762f0cafd",
+      "titulo": "Como dados do Google Fotos e Drive ajudaram a prender mulher na Serra",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/como-dados-do-google-fotos-e-drive-ajudaram-a-prender-mulher-na-serra-0926",
+      "dataFonte": "2026-09-03T00:07:40.000Z",
+      "resumoFonte": "Investigada de 28 anos armazenava material de abuso sexual infantil na nuvem e no celular, segundo a Polícia Civil; ela também foi presa em flagrante",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788385569452_template_radar_a_gazeta_2026_09_02t184320.jpg",
+      "descobertaEm": "2026-09-03T04:09:40.395Z"
+    },
     {
       "id": "54d97374dc53ddd5",
       "titulo": "Suspeita de golpe financeiro entra na investigação de feminicídio no ES",
@@ -36,28 +48,28 @@
       "descobertaEm": "2026-09-02T23:59:07.457Z"
     },
     {
-      "id": "75264bbfd5516d24",
-      "titulo": "A Gazeta lança ferramenta para comparar propostas dos candidatos ao governo do ES e à presidência",
+      "id": "4e02ccb37302ff0e",
+      "titulo": "Shopping Vitória recebe edição especial do festival Ilha do Rock",
       "categoria": "Política ES",
       "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/es/politica/a-gazeta-lanca-ferramenta-para-comparar-propostas-dos-candidatos-ao-governo-do-es-e-a-presidencia-0826",
-      "dataFonte": "2026-09-02T20:51:09.000Z",
-      "resumoFonte": "Plataforma Compare e Vote inclui planos de todos os nomes que disputam o Palácio Anchieta e o Palácio do Planalto, distribuídos em 12 áreas temáticas",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788382137625_imagem_de_sistema.jpg",
-      "descobertaEm": "2026-09-02T21:56:22.971Z"
+      "fonteNome": "Tribuna Online - Capa",
+      "urlFonte": "https://tribunaonline.com.br/social",
+      "dataFonte": "2026-09-03T03:00:00.000Z",
+      "resumoFonte": "Confira a coluna social desta quinta-feira (03)",
+      "imagem": "https://tribunaonline.com.br/themes/TON/assets/img/CLUBE_DE_VANTAGENS_COR-new.webp",
+      "descobertaEm": "2026-09-03T06:12:59.314Z"
     },
     {
-      "id": "c46c65e2ef4a2b75",
-      "titulo": "Você sabe como são eleitos presidente, governador, senador e deputados?",
+      "id": "b92c6f53b8c78dfa",
+      "titulo": "Diário Oficial do ES — edição de 2026-09-03",
       "categoria": "Política ES",
       "radar": null,
-      "fonteNome": "A Gazeta - Política",
-      "urlFonte": "https://www.agazeta.com.br/es/politica/voce-sabe-como-sao-eleitos-presidente-governador-senador-e-deputados-0726",
-      "dataFonte": "2026-09-02T20:38:08.000Z",
-      "resumoFonte": "No país, funcionam os sistemas de votação majoritário e proporcional, cujas regras definem os candidatos vencedores em uma disputa eleitoral",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1783529043782_copia_de_copia_de_copia_de_template_abre_site_eleicoes_2026_1.jpg",
-      "descobertaEm": "2026-09-02T21:56:22.971Z"
+      "fonteNome": "DIO/ES - Edição",
+      "urlFonte": "https://dio.es.gov.br/diario-oficial",
+      "dataFonte": "2026-09-03T04:13:29.702Z",
+      "resumoFonte": "Consulta à edição do Dia do Diário Oficial do Espírito Santo. Conferir decretos, nomeações, leis e atos do Executivo, Legislativo e Judiciário.",
+      "imagem": "https://dio.es.gov.br/media/diulia/diulia-responde.png",
+      "descobertaEm": "2026-09-03T04:13:29.702Z"
     },
     {
       "id": "47fa3b12474622c7",
@@ -84,30 +96,6 @@
       "descobertaEm": "2026-09-02T23:59:29.475Z"
     },
     {
-      "id": "3bd2d36f98777c36",
-      "titulo": "Diário Oficial do ES — edição de 2026-09-02",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "DIO/ES - Edição",
-      "urlFonte": "https://dio.es.gov.br/diario-oficial",
-      "dataFonte": "2026-09-02T21:58:40.539Z",
-      "resumoFonte": "Consulta à edição do Dia do Diário Oficial do Espírito Santo. Conferir decretos, nomeações, leis e atos do Executivo, Legislativo e Judiciário.",
-      "imagem": "https://dio.es.gov.br/media/diulia/diulia-responde.png",
-      "descobertaEm": "2026-09-02T21:58:40.539Z"
-    },
-    {
-      "id": "699af7d99fe51242",
-      "titulo": "Câmera em farda de PM: “Tem medo quem não atua no rigor da lei”",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "YouTube Folha Vitória",
-      "urlFonte": "https://www.youtube.com/shorts/R_-noPPCQc4",
-      "dataFonte": "2026-09-02T21:15:48.000Z",
-      "resumoFonte": "🎥 Candidato ao Senado, Carlos Fabian (Psol) afirmou ser favorável à instalação de câmeras nas fardas dos policiais e criticou o que considera uma baixa adesão à medida no #EspíritoSanto. Segundo ele, o equipamento pode contribuir para reduzir a violência policial e aumentar a transparência das ações. Fabian também defendeu uma ouvidoria independen",
-      "imagem": "https://i.ytimg.com/vi/R_-noPPCQc4/hq720.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLAkakuazsTRFNgi80ifdj7iR8D2JQ",
-      "descobertaEm": "2026-09-02T21:58:27.383Z"
-    },
-    {
       "id": "b53c308ca3845232",
       "titulo": "TSE mantém live em que Bolsonaro indica Flávio",
       "categoria": "Política Nacional",
@@ -118,6 +106,30 @@
       "resumoFonte": "O Tribunal Superior Eleitoral (TSE) negou o pedido para retirar das redes sociais uma live em que o ex-presidente Jair Bolsonaro indica o filho, o senador Flávio Bolsonaro (PL-RJ), como pré-candidato à Presidência da República nas eleições de 2026. A ação foi apresentada pela Federação Brasil da Esperança, formada por PT, PCdoB e PV. A entidade…",
       "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/tse_nunes-marques.jpeg.webp",
       "descobertaEm": "2026-09-02T23:57:14.127Z"
+    },
+    {
+      "id": "1be6e8acaa0711c3",
+      "titulo": "Cury avança, Lula e Flávio empatam no 2º turno: 10 pontos da nova Quaest",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/03/10-pontos-da-nova-pesquisa-quaest.ghtml",
+      "dataFonte": "2026-09-03T03:01:50.000Z",
+      "resumoFonte": "Montagem de fotos com os candidatos Lula (PT), Flávio Bolsonaro (PL) e Augusto Cury (Avante). Manoella Mello/Globo Pesquisa Quaest divulgada nesta quarta-feira (2) sobre a eleição presidencial mostra que Lula (PT) lidera com 37%, Flávio Bolsonaro (PL) tem 29% e Augusto Cury (Avante) agora é o terceiro colocado, com 10%. A nova pesquisa nacional…",
+      "imagem": "https://s2-g1.glbimg.com/KrzTl2S1OoD8Cmx0sbxxR8_AAAA=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/v/9bw26RTrCkhqg0YVAGPQ/montagem-horizontal-1200px-14-.jpg",
+      "descobertaEm": "2026-09-03T04:09:40.395Z"
+    },
+    {
+      "id": "edc66a4632867b62",
+      "titulo": "Quaest, 1º turno: veja intenção de voto por região, gênero, idade, identificação política, cor e religião no cenário sem Pablo Marçal",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/03/quaest-1o-turno-segmentos-cenario-2.ghtml",
+      "dataFonte": "2026-09-03T03:01:29.000Z",
+      "resumoFonte": "Quaest, 1º turno: Lula, 37%; Flávio Bolsonaro, 29%; Cury, 10%; Renan, 3%; Caiado, 1%; Zema, 1% Pesquisa Quaest divulgada nesta quarta-feira (2) mostra Lula (PT) com 37% das intenções de voto no 1º turno da eleição presidencial, contra 29% de Flávio Bolsonaro (PL) no cenário com 12 candidatos, que não inclui o candidato Pablo Marçal (PRTB), que está…",
+      "imagem": "https://s2-g1.glbimg.com/BPAXj_UktdVU3IUg-bnlgt2wN4E=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/0/S/1vYMrcQBKb0WDFDmRAdg/260902-info-intencao-de-voto-1-turno-identificacao-politicasemmarcal.jpg",
+      "descobertaEm": "2026-09-03T04:09:40.395Z"
     },
     {
       "id": "956129a7c8d1560d",
@@ -132,16 +144,76 @@
       "descobertaEm": "2026-09-02T23:59:07.457Z"
     },
     {
-      "id": "64b4d68cad734004",
-      "titulo": "TSE forma maioria para aprovar registros de candidatura de Lula, Flávio Bolsonaro e Romeu Zema",
+      "id": "e66f18a0bb4d498b",
+      "titulo": "Governo retira de pauta fim da escala 6×1",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/02/tse-forma-maioria-para-aprovar-registros-de-candidatura-de-lula-flavio-bolsonaro-e-romeu-zema.ghtml",
-      "dataFonte": "2026-09-02T21:45:16.000Z",
-      "resumoFonte": "O Tribunal Superior Eleitoral (TSE) formou maioria para aprovar os registros de candidatura de Luiz Inácio Lula da Silva (PT), Flávio Bolsonaro (PL) e Romeu Zema (Novo) à Presidência da República. Samara Martins (UP), Hertz Dias (PSTU) e Edmilson Costa (PCB) também têm maioria de votos favoráveis aos seus registros. O julgamento é realizado no…",
-      "imagem": "https://s2-g1.glbimg.com/qovTj1G_IURpMUSlzapg9T9yUGs=/1300x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/g/tQemBNQayD98djCxnQjQ/41f0dcea90a343457df54d34204e67b8.jpg",
-      "descobertaEm": "2026-09-02T21:56:22.971Z"
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/governo-retira-de-pauta-fim-da-escala-6x1/",
+      "dataFonte": "2026-09-03T02:55:24.000Z",
+      "resumoFonte": "A base do governo no Senado desistiu de levar ao plenário, nesta quarta-feira, 2, a proposta que acaba com a escala de trabalho 6x1. A decisão ocorreu depois de os governistas avaliarem que a ausência de senadores poderia impedir a obtenção dos 49 votos necessários para aprovar o texto. Segundo o líder do governo no Congresso, Randolfe Rodrigues…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/12/Dosimetria-Randolfe.jpeg.webp",
+      "descobertaEm": "2026-09-03T04:09:40.395Z"
+    },
+    {
+      "id": "51648cb4edc84f10",
+      "titulo": "Novo imposto pode reduzir voos internacionais para o Brasil",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/economia/novo-imposto-pode-reduzir-voos-internacionais-para-o-brasil/",
+      "dataFonte": "2026-09-03T01:48:43.000Z",
+      "resumoFonte": "Empresas aéreas internacionais avaliam reduzir voos ou desistir de ampliar operações no Brasil diante da possibilidade de cobrança de um novo tributo sobre o transporte aéreo internacional a partir de 2027. O governo recebeu alertas por meio de cartas enviadas por companhias, associações do setor e embaixadas. As manifestações questionam a…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/10/eua-passaporte-brasil-Marcelo-CamargoAgencia-Brasil.jpg.webp",
+      "descobertaEm": "2026-09-03T04:09:40.395Z"
+    },
+    {
+      "id": "49bb8b45fdbda442",
+      "titulo": "Sorrisos no STF contrastam com crise enfrentada pela Corte",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/sorrisos-no-stf-contrastam-com-crise-e-levantam-suspeita-de-deboche/",
+      "dataFonte": "2026-09-03T01:36:31.000Z",
+      "resumoFonte": "Uma fotografia registrada nos corredores do Supremo Tribunal Federal (STF) chamou atenção nesta quarta-feira, 2, pelo contraste entre a descontração de ministros da Corte e o momento de crise institucional enfrentado pela Corte . Na imagem, captada pelo jornalista Brenno Carvalho, do jornal O Globo , aparecem Cristiano Zanin, Alexandre de Moraes e…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/stf_ministros.jpeg.webp",
+      "descobertaEm": "2026-09-03T04:09:40.395Z"
+    },
+    {
+      "id": "f77b59cecae0098a",
+      "titulo": "STF ignora publicamente crise do caso Master durante 1ª sessão pós-revelações",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/no-ponto/stf-ignora-publicamente-crise-do-caso-master-durante-1a-sessao-pos-revelacoes/",
+      "dataFonte": "2026-09-03T01:12:01.000Z",
+      "resumoFonte": "O Supremo Tribunal Federal (STF) ignorou publicamente, nesta quarta-feira, 2, a crise desencadeada pelas novas mensagens de WhatsApp trocadas entre o ministro Alexandre de Moraes e o empresário Daniel Vorcaro, ex-dono do antigo Banco Master. Embora o episódio preocupasse integrantes da Corte nos bastidores, nenhum magistrado mencionou o assunto…",
+      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
+      "descobertaEm": "2026-09-03T04:09:40.395Z"
+    },
+    {
+      "id": "7f4eca022af0e834",
+      "titulo": "Consumidor brasileiro está mais atento à origem dos alimentos",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/agronegocio/consumidor-brasileiro-esta-mais-atento-a-origem-dos-alimentos/",
+      "dataFonte": "2026-09-03T01:00:00.000Z",
+      "resumoFonte": "Durante a Hortitec 2026, um dos assuntos em destaque foi a mudança no perfil do consumidor, no qual a sustentabilidade passou a ser um fator decisivo na compra de alimentos. https://www.youtube.com/watch?v=CKTdSgyQU9o A discussão atual é como a cadeia de hortifruti pode se organizar para atender à nova demanda, diminuir o uso de defensivos…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/a-forca-do-agro-dia-2-de-setembro-22-h.jpg.webp",
+      "descobertaEm": "2026-09-03T04:09:40.395Z"
+    },
+    {
+      "id": "ec7e085554bcd1a8",
+      "titulo": "Lula quer acabar com bets, mas diz que sonha conhecer cassino",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/lula-quer-acabar-com-ibets-i-mas-diz-que-sonha-conhecer-cassino/",
+      "dataFonte": "2026-09-03T00:51:28.000Z",
+      "resumoFonte": "O presidente Luiz Inácio Lula da Silva afirmou nesta terça-feira, 1º, que acabaria com as bets no Brasil se a decisão dependesse exclusivamente de sua vontade. Durante um encontro com entidades contrárias às apostas, o petista também disse que o governo está próximo de adotar uma medida “drástica” contra as plataformas. Na mesma fala, Lula revelou…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/tenho-saudades-de-quando-disputava-eleicoes-com-o-psdb-diz-lula-910x568.jpeg.webp",
+      "descobertaEm": "2026-09-03T04:09:40.395Z"
     },
     {
       "id": "e3255431987c6f20",
@@ -156,100 +228,28 @@
       "descobertaEm": "2026-09-02T22:18:18.382Z"
     },
     {
-      "id": "7e5ccf4eed233809",
-      "titulo": "Senado: oposição obstrui e fim da escala 6x1 não vai a plenário",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Agência Brasil - Política",
-      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/senado-oposicao-obstrui-e-fim-da-escala-6x1-nao-vai-plenario",
-      "dataFonte": "2026-09-02T23:45:00.000Z",
-      "resumoFonte": "Sem ter segurança sobre os votos necessários para aprovar a Proposta de Emenda Constitucional (PEC) do fim da escala 6x1 e da redução da jornada de trabalho, a base do governo no Senado Federal decidiu não arriscar uma apreciação em plenário nesta quarta-feira (2). Com isso, a proposta só deve ser votado após o 1º turno das eleições, em outubro.…",
-      "imagem": "https://imagens.ebc.com.br/eU5H70x69gPSUWhZHAtka1_cm6A=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/13/_raf1125.jpg?itok=MUDE7lES",
-      "descobertaEm": "2026-09-02T23:57:14.127Z"
-    },
-    {
-      "id": "da9a26dea3edb19f",
-      "titulo": "Lula recua em uma série de indicadores, diz diretor da Quaest",
+      "id": "e404477b9eeadfd7",
+      "titulo": "Análise WW: Ramificações de crise do STF se espalham por Brasília",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/lula-recua-em-uma-serie-de-indicadores-diz-diretor-da-quaest/",
-      "dataFonte": "2026-09-02T23:44:53.000Z",
-      "resumoFonte": "Guilherme Russo aponta tendência negativa de Lula em aprovação e intenção de voto; Augusto Cury sobe de 2% para 10% nas pesquisas",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/LulaBlusinha.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-02T23:57:14.127Z"
+      "urlFonte": "https://www.cnnbrasil.com.br/politica/analise-ww-crise-moraes-master-brasilia-stf/",
+      "dataFonte": "2026-09-03T06:00:12.000Z",
+      "resumoFonte": "Enquanto campanha de Lula passa a tratar caso Moraes como peso, oposição recebe relatório da PF como bandeira para o Senado",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/54074459445_3e53eadea4_k-e1788400505498.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-03T06:12:59.314Z"
     },
     {
-      "id": "a993f902123eb3c8",
-      "titulo": "Santos x Palmeiras: escalações e onde assistir ao jogo da Copa do Brasil",
+      "id": "325af82a723ced62",
+      "titulo": "Coreia do Norte revisa regras do partido e amplia poder de Kim Jong Un",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/copa-do-brasil/santos-x-palmeiras-escalacoes-e-onde-assistir-ao-jogo-da-copa-do-brasil/",
-      "dataFonte": "2026-09-02T23:41:02.000Z",
-      "resumoFonte": "Equipes vão a campo nesta quarta-feira (2), na Vila Belmiro, em busca de uma vaga nas semifinais da competição de mata-mata",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/03/vila-belmiro-e1709752993188.jpg?w=1140&h=630&crop=1",
-      "descobertaEm": "2026-09-02T23:57:14.127Z"
-    },
-    {
-      "id": "625608ea194fea58",
-      "titulo": "Toffoli libera campanha digital do Wilson Grassi, candidato à Presidência da República",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/02/toffoli-libera-campanha-digital-do-wilson-grassi-candidato-a-presidencia-da-republica.ghtml",
-      "dataFonte": "2026-09-02T23:34:42.000Z",
-      "resumoFonte": "O ministro Dias Toffoli, do Tribunal Superior Eleitoral (TSE), liberou nesta quarta-feira (2) a campanha digital de Wilson Grassi, candidato do Democrata à Presidência da República. A medida estava suspensa desde domingo (30). Toffoli também liberou repasses de recursos do Fundo Especial de Financiamento de Campanha (FEFC) à chapa majoritária do…",
-      "imagem": "https://s2-g1.glbimg.com/QQb_JTJNfUA0dQxlM--GQ7lbaPE=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/f/z/B13iUwRRqhtHlktwOKXw/globo-canal-4-20260827-2000-frame-108733.jpeg",
-      "descobertaEm": "2026-09-02T23:57:14.127Z"
-    },
-    {
-      "id": "5e3520784be2dc7d",
-      "titulo": "Vitória x Vasco: escalações e onde assistir às quartas da Copa do Brasil",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/copa-do-brasil/vitoria-x-vasco-escalacoes-e-onde-assistir-as-quartas-da-copa-do-brasil/",
-      "dataFonte": "2026-09-02T23:33:31.000Z",
-      "resumoFonte": "Times decidem no Barradão, em Salvador, uma vaga na semifinal do torneio",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/05/Barradao-e1746478954433.jpeg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-02T23:57:14.127Z"
-    },
-    {
-      "id": "f2130f83ca650dfd",
-      "titulo": "Discord terá 10 dias úteis para apresentar proposta ao governo sobre proteção de usuários",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/noticia/2026/09/02/discord-tera-10-dias-uteis-para-apresentar-proposta-ao-governo-sobre-protecao-de-usuarios.ghtml",
-      "dataFonte": "2026-09-02T23:30:54.000Z",
-      "resumoFonte": "A plataforma Discord terá dez dias úteis para apresentar uma proposta para atender às demandas do governo para proteger usuários. Nesta quarta-feira (2), a plataforma e o governo participaram de uma audiência de conciliação, realizada pela Justiça Federal do Distrito Federal. Apresentada a proposta, o governo terá 20 dias úteis para analisar o…",
-      "imagem": "https://s2-g1.glbimg.com/4LC45DFRaRlU3WLHFbkLZ8Amna0=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/j/8/buPHArRkWwcvnTMZussQ/discord-1200.jpg",
-      "descobertaEm": "2026-09-02T23:57:14.127Z"
-    },
-    {
-      "id": "3c128f1676f7393b",
-      "titulo": "Congresso adia “taxa das blusinhas” para quinta; 6×1 não vai a plenário",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/politica/congresso-adia-taxa-das-blusinhas-para-quinta-6x1-nao-vai-a-plenario/",
-      "dataFonte": "2026-09-02T23:29:14.000Z",
-      "resumoFonte": "Governo tinha expectativa de votar textos nesta quarta; fim da 6x1 deve ficar somente para depois das eleições",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/55478925460_df8a9d2340_o.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-02T23:57:14.127Z"
-    },
-    {
-      "id": "304b3118a4735bd8",
-      "titulo": "O alerta para Lula em pesquisa na reta final da campanha eleitoral, segundo diretor da Quaest",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/politica/o-alerta-para-lula-em-pesquisa-na-reta-final-da-campanha-eleitoral-segundo-diretor-da-quaest/",
-      "dataFonte": "2026-09-02T23:25:18.000Z",
-      "resumoFonte": "Queda na aprovação do governo e avanço da desaprovação entre eleitores independentes é motivo para preocupação para a campanha, avalia Guilherme Russo",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2024/08/55492792960_6fe65fc8a8_o.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-02T23:57:14.127Z"
+      "urlFonte": "https://www.cnnbrasil.com.br/internacional/coreia-do-norte-revisa-regras-do-partido-e-amplia-poder-de-kim-jong-un/",
+      "dataFonte": "2026-09-03T05:57:13.000Z",
+      "resumoFonte": "Mudanças dão ao líder poderes ampliados para nomear autoridades, dissolver órgãos e tomar decisões sem depender de instâncias coletivas",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportWorldNews/tagreuters.com2026binary_LYNXMPEM0I18F-BASEIMAGE.jpg?w=800&h=531&crop=1",
+      "descobertaEm": "2026-09-03T06:12:59.314Z"
     }
   ]
 }
