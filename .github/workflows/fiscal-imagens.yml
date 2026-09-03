@@ -1,28 +1,7 @@
 name: Fiscal de imagens
 
 on:
-  schedule:
-    - cron: '*/15 * * * *'
   workflow_dispatch:
-  workflow_run:
-    workflows: ["Coletor automático de pautas"]
-    types: [completed]
-  push:
-    paths:
-      - 'noticias.js'
-      - 'editorial.js'
-      - 'editorial-2.js'
-      - 'editorial-3.js'
-      - 'editorial-4.js'
-      - 'editorial-5.js'
-      - 'editorial-6.js'
-      - 'editorial-7.js'
-      - 'editorial-8.js'
-      - 'opiniao.js'
-      - 'manual-gilvan.js'
-      - 'scripts/fiscal-imagens.mjs'
-      - 'scripts/resolver-imagem.mjs'
-      - '.github/workflows/fiscal-imagens.yml'
 
 permissions:
   contents: write
@@ -43,7 +22,7 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
       - name: Varrer matérias e corrigir foto da fonte
         run: node scripts/fiscal-imagens.mjs
       - name: Publicar correções
