@@ -47,6 +47,7 @@ jobs:
           node --check scripts/reapurar-e-redigir.mjs
           node --check scripts/redator-automatico.mjs
           node --check scripts/gerar-paginas-og.mjs
+          node --check scripts/reposicionar-aeo.mjs
           node --check scripts/gerar-sitemap.mjs
           node --check scripts/auditoria-pos-publicacao.mjs
 
@@ -78,9 +79,10 @@ jobs:
       - name: ETAPA 9 - Validar e montar shard de publicação
         run: node scripts/redator-automatico.mjs
 
-      - name: ETAPAS 10 a 12 - Gerar páginas canônicas, OG e sitemaps
+      - name: ETAPAS 10 a 12 - Gerar páginas canônicas, reposicionar AEO, OG e sitemaps
         run: |
           node scripts/gerar-paginas-og.mjs
+          node scripts/reposicionar-aeo.mjs
           node scripts/gerar-sitemap.mjs
 
       - name: ETAPA 13 - Auditoria pós-publicação
