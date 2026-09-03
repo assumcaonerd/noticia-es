@@ -44,3 +44,50 @@ conteudo:`<p><strong>São Mateus (ES) | 29 de agosto de 2026 | 20 horas | Maanai
 autor:'Redação Notícia ES',manual:true,secaoEspecial:true,origemArquivo:'Igreja-Crista-Maranata-comemora-50-anos-em-Sao-Mateus.docx'};
 const i=noticias.findIndex(n=>n.slug===materia.slug); if(i>=0) noticias[i]=materia; else noticias.unshift(materia);
 })();
+
+(function(){
+if(typeof noticias==='undefined'||!Array.isArray(noticias)) return;
+const materia={
+id:202609030001,
+slug:'pastor-josias-junior-59-anos-igreja-crista-maranata',
+titulo:'Pastor Josias Júnior completa 59 anos a serviço da Palavra e da comunicação da Igreja Cristã Maranata',
+categoria:'Fé e Sociedade',
+data:'2026-09-03',
+publicadoEm:'2026-09-03T17:54:00-03:00',
+imagem:'https://i.ibb.co/HLGfpLL8/image.png',
+legendaImagem:'Pastor Josias Júnior, gerente de Comunicação da Igreja Cristã Maranata.',
+resumo:'Nascido em Recife em 3 de setembro de 1967, o gerente de Comunicação da ICM é voz da Rádio Maanaim, apresentador das Conversas Bíblicas e um dos nomes que levaram o anúncio de “Maranata, o Senhor Jesus vem” às plataformas digitais.',
+conteudo:`<p>A paz do Senhor Jesus.</p>
+<p>Neste 3 de setembro de 2026, o pastor Josias Rocha da Silva Júnior completa 59 anos. Para a Igreja Cristã Maranata, a data não é festa mundana. É ocasião de reconhecer o chamado de um varão que o Senhor levantou para o Ministério da Palavra e para a comunicação da Obra.</p>
+<p>Josias Júnior nasceu em Recife, em 3 de setembro de 1967. Foi ordenado ao Ministério da Palavra em 2004. Publicitário, especialista em marketing e gestão de negócios, especialista em marketing digital e mestrando em jornalismo, passou cerca de três décadas em rádio e televisão e doze anos no magistério universitário. Projetou estúdios, implementou estruturas de transmissão e dirige a Rádio Maanaim, um dos braços que levaram o Evangelho para além das quatro paredes do templo.</p>
+<p>Na Igreja Cristã Maranata, o pastor acumula a função de gerente de Comunicação. É voz conhecida das Conversas Bíblicas no canal oficial da denominação, que reúne cultos, seminários e estudos doutrinários para o Brasil e para os mais de cem países em que a Obra está presente. Em matérias institucionais e em eventos como o Trombetas e Festas, reitera o que a própria identidade da igreja proclama: Maranata, o Senhor Jesus vem. Não se trata, segundo ele, de uma filosofia de vida. Trata-se de experiência real com Deus e da missão de pregar o Evangelho a toda criatura.</p>
+<p>Mais recentemente, passou a manter também um espaço próprio de entrevistas, o Papo Fora do Script, com conversas sobre fé, comunicação, vocação, família e memória da Obra. Um dos primeiros programas tratou da trajetória do pastor Gedelti Victalino Teixeira Gueiros. Outro reuniu a irmã Jurama. O formato não substitui o púlpito. Amplia o alcance da mesma vocação: falar com clareza, sem firula, do que o Senhor tem feito.</p>
+<p>Ao lado da irmã Valéria, o pastor tem sido testemunho de família constituída no chamado. Em novembro de 2022, recebeu na Assembleia Legislativa do Espírito Santo a Comenda Gedelti Victalino Teixeira Gueiros, honraria criada para reconhecer fiéis da Maranata que se destacam na educação cristã e nas obras de assistência. A comenda não engrandece o homem. Testemunha que a Obra produz fruto visível também nesta terra.</p>
+<p>A Igreja Cristã Maranata nasceu em Vila Velha, em 1968, e hoje soma milhares de templos e dezenas de Maanaim. O Ministério da Palavra, exercido de forma voluntária, é um dos seus pilares. Josias Júnior tem dito, com razão, que os varões levantados para esse ministério carregam responsabilidade extrema: pregar o Evangelho e cuidar das igrejas locais, sem remuneração, porque o chamado é de Deus.</p>
+<p>Neste aniversário, o que se pede primeiro não é aplauso. É que o Senhor continue ungindo a boca desse servo, preserve a sua saúde, fortaleça a sua casa e o use enquanto o tempo da graça permanece. A Obra não para. O melhor ainda está por vir. Maranata.</p>`,
+autor:'Redação Notícia ES',
+manual:true,
+secaoEspecial:true,
+automatico:false,
+fonteNome:'Hinologia Cristã — perfil de Josias Junior',
+fonteUrl:'https://www.hinologia.org/josias-junior/',
+fontesAdicionais:[
+  {nome:'ES360 — 56 anos da Igreja Cristã Maranata',url:'https://es360.com.br/es360/56-anos-igreja-crista-maranata-mantem-viva-a-mensagem-do-retorno-de-cristo'},
+  {nome:'Estúdio Folha — Igreja completa 54 anos presente em mais de 100 países',url:'https://estudio.folha.uol.com.br/igrejamaranata/2022/11/igreja-completa-54-anos-presente-em-mais-de-100-paises.shtml'}
+],
+aeo:[
+  {pergunta:'O que aconteceu?',resposta:'O pastor Josias Rocha da Silva Júnior, gerente de Comunicação da Igreja Cristã Maranata, completa 59 anos neste 3 de setembro de 2026.'},
+  {pergunta:'Quem está envolvido?',resposta:'Pastor Josias Júnior, a irmã Valéria, a Igreja Cristã Maranata e a memória institucional ligada ao pastor Gedelti Gueiros.'},
+  {pergunta:'Onde aconteceu?',resposta:'Espírito Santo, com origem familiar em Recife e atuação nacional e internacional pela comunicação da ICM.'},
+  {pergunta:'Quando aconteceu?',resposta:'Nascimento em 03/09/1967. Ordenação ao Ministério da Palavra em 2004. Comenda Gedelti Gueiros em novembro de 2022. Aniversário de 59 anos em 03/09/2026.'},
+  {pergunta:'Por que isso importa?',resposta:'Josias Júnior é peça central da comunicação da Maranata: Rádio Maanaim, Conversas Bíblicas, transmissões multiplataforma e, mais recentemente, o canal Papo Fora do Script. Sua trajetória ilustra o ministério voluntário da Palavra e o anúncio da volta de Cristo.'},
+  {pergunta:'O que acontece agora?',resposta:'A data serve de reconhecimento do chamado e de intercessão pela continuidade do ministério, da saúde e da família do pastor.'}
+],
+entidades:[
+  {tipo:'Person',nome:'Josias Rocha da Silva Júnior'},
+  {tipo:'Organization',nome:'Igreja Cristã Maranata'},
+  {tipo:'Organization',nome:'Rádio Maanaim'},
+  {tipo:'Person',nome:'Gedelti Victalino Teixeira Gueiros'}
+]};
+const i=noticias.findIndex(n=>n.slug===materia.slug); if(i>=0) noticias[i]=materia; else noticias.unshift(materia);
+})();
