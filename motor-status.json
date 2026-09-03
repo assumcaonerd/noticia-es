@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-03T04:09:40.395Z",
+  "atualizadoEm": "2026-09-03T06:12:59.314Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 60,
+  "novasPautas": 31,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -232,7 +232,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 15,
+      "encontrados": 14,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -246,108 +246,9 @@
     {
       "fonte": "TASS",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 2,
       "rota": "https://tass.com/rss/v2.xml",
       "fallback": false
     }
-  ],
-  "redesLocais": {
-    "atualizadoEm": "2026-09-03T04:13:16.565Z",
-    "novas": 0,
-    "fontes": [
-      {
-        "fonte": "YouTube A Gazeta",
-        "ok": false,
-        "erro": "404 Not Found"
-      },
-      {
-        "fonte": "YouTube Folha Vitória",
-        "ok": false,
-        "erro": "404 Not Found"
-      },
-      {
-        "fonte": "YouTube ALES",
-        "ok": false,
-        "erro": "404 Not Found"
-      },
-      {
-        "fonte": "YouTube Polícia Civil ES",
-        "ok": false,
-        "erro": "404 Not Found"
-      },
-      {
-        "fonte": "YouTube PM Ambiental ES",
-        "ok": false,
-        "erro": "404 Not Found"
-      },
-      {
-        "fonte": "YouTube Bombeiros ES",
-        "ok": false,
-        "erro": "404 Not Found"
-      },
-      {
-        "fonte": "YouTube ALES (legado)",
-        "ok": false,
-        "erro": "404 Not Found"
-      },
-      {
-        "fonte": "X Governo ES",
-        "ok": false,
-        "erro": "404 Not Found"
-      },
-      {
-        "fonte": "X A Gazeta",
-        "ok": false,
-        "erro": "404 Not Found"
-      },
-      {
-        "fonte": "X Folha Vitória",
-        "ok": false,
-        "erro": "404 Not Found"
-      },
-      {
-        "fonte": "X ALES",
-        "ok": false,
-        "erro": "404 Not Found"
-      }
-    ]
-  },
-  "telegramEs": {
-    "atualizadoEm": "2026-09-03T04:13:18.126Z",
-    "novas": 0,
-    "fontes": [
-      {
-        "fonte": "Telegram Folha Vitória",
-        "ok": true,
-        "encontrados": 0
-      },
-      {
-        "fonte": "Telegram Tribuna Online",
-        "ok": true,
-        "encontrados": 0
-      }
-    ]
-  },
-  "ales": {
-    "atualizadoEm": "2026-09-03T04:13:19.133Z",
-    "ok": false,
-    "erro": "fetch failed",
-    "novas": 0
-  },
-  "dioes": {
-    "atualizadoEm": "2026-09-03T04:13:29.702Z",
-    "novas": 1,
-    "fontes": [
-      {
-        "fonte": "DIO/ES Notícias",
-        "ok": true,
-        "encontrados": 0
-      },
-      {
-        "fonte": "DIO/ES Edição",
-        "ok": true,
-        "encontrados": 1
-      }
-    ]
-  }
+  ]
 }
