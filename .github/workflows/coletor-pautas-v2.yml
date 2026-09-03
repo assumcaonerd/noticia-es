@@ -1,15 +1,7 @@
 name: Coletor de pautas v2
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'
   workflow_dispatch:
-  push:
-    paths:
-      - 'scripts/coletar-pautas.mjs'
-      - 'scripts/resolver-imagem.mjs'
-      - 'scripts/enriquecer-imagens-pautas.mjs'
-      - '.github/workflows/coletor-pautas-v2.yml'
 
 permissions:
   contents: write
@@ -52,5 +44,3 @@ jobs:
           git commit -m "pautas: coleta v2 atualiza fila editorial"
           git pull --rebase origin main
           git push origin main
-
-# v2.2: execuções nunca são canceladas automaticamente.
