@@ -51,8 +51,6 @@ async function listarArquivosMateria() {
   const nomes = await fs.readdir(RAIZ);
   const editoriais = nomes.filter((n) => /^editorial(-\d+)?\.js$/.test(n));
   const automaticos = nomes.filter((n) => /^auto-redacao-\d{8}-\d{6}\.js$/.test(n));
-  // A lista de remoções é executada POR ÚLTIMO para que slugs duplicados/retirados
-  // não sejam recriados como páginas canônicas em uma rodada automática.
   return ['noticias.js', ...editoriais, ...automaticos, 'opiniao.js', 'fe-sociedade.js', 'manual-gilvan.js', 'remover-materias-20260831.js'];
 }
 
@@ -71,9 +69,7 @@ async function carregarNoticias() {
   const contexto = {
     noticias: [],
     window: { noticiasAuto: [] },
-    document: {
-      write() {}, querySelector() { return null; }, querySelectorAll() { return []; }, getElementById() { return null; }
-    }
+    document: { write() {}, querySelector() { return null; }, querySelectorAll() { return []; }, getElementById() { return null; } }
   };
   contexto.window.window = contexto.window;
   contexto.window.document = contexto.document;
@@ -82,11 +78,7 @@ async function carregarNoticias() {
     try {
       const codigo = await fs.readFile(path.join(RAIZ, arquivo), 'utf8');
       const inicioAuto = contexto.window.noticiasAuto.length;
-      vm.runInNewContext(
-        `${codigo}\nif (typeof noticias !== 'undefined' && Array.isArray(noticias)) { this.noticias = noticias; }`,
-        contexto,
-        { timeout: 12000, filename: arquivo }
-      );
+      vm.runInNewContext(`${codigo}\nif (typeof noticias !== 'undefined' && Array.isArray(noticias)) { this.noticias = noticias; }`, contexto, { timeout: 12000, filename: arquivo });
       const novasViaWindow = contexto.window.noticiasAuto.slice(inicioAuto);
       if (novasViaWindow.length) contexto.noticias.unshift(...novasViaWindow);
     } catch (erro) {
@@ -108,13 +100,10 @@ function montarNewsArticle(n, url, imagem) {
     .slice(0, 20)
     .map(e => ({ '@type': tipoSchema(e.tipo), name: String(e.nome) })) : [];
   return {
-    '@context': 'https://schema.org',
-    '@type': 'NewsArticle',
+    '@context': 'https://schema.org', '@type': 'NewsArticle',
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
-    headline: n.titulo || 'Notícia ES',
-    description: n.resumo || '',
-    image: imagem ? [imagem] : undefined,
-    datePublished: publicado,
+    headline: n.titulo || 'Notícia ES', description: n.resumo || '',
+    image: imagem ? [imagem] : undefined, datePublished: publicado,
     dateModified: n.publicadoEm || publicado,
     author: { '@type': 'Organization', name: n.autor || 'Redação Notícia ES' },
     publisher: { '@type': 'Organization', name: 'Notícia ES', url: SITE },
@@ -139,7 +128,11 @@ function fontesHtml(n) {
     if (/^https:\/\//i.test(String(url || '')) && !fontes.some(x => x.url === url)) fontes.push({ nome, url });
   }
   if (!fontes.length) return '';
-  return `<section class="fontes-materia"><h2>Fontes</h2><ul>${fontes.map(f => `<li><a href="${escapar(f.url)}" rel="nofollow noopener" target="_blank">${escapar(f.nome)}</a></li>`).join('')}</ul></section>`;
+  const semLinks = String(n.categoria || '').toLowerCase() === 'fé e sociedade';
+  const itens = semLinks
+    ? fontes.map(f => `<li>${escapar(f.nome)}</li>`).join('')
+    : fontes.map(f => `<li><a href="${escapar(f.url)}" rel="nofollow noopener" target="_blank">${escapar(f.nome)}</a></li>`).join('');
+  return `<section class="fontes-materia"><h2>Fontes</h2><ul>${itens}</ul></section>`;
 }
 
 function paginaHTML(n, imagem) {
@@ -151,63 +144,42 @@ function paginaHTML(n, imagem) {
   const conteudo = sanitizarHtml(n.conteudo || '');
   const data = n.data || '';
   const categoria = n.categoria || 'Notícia';
+  const legenda = n.legendaImagem || titulo;
   const metaImagem = img ? `\n  <meta property="og:image" content="${escapar(img)}">\n  <meta property="og:image:secure_url" content="${escapar(img)}">\n  <meta name="twitter:image" content="${escapar(img)}">` : '';
 
   return `<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="pt-BR"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapar(titulo)} | Notícia ES</title>
-  <meta name="description" content="${escapar(resumo)}">
-  <meta name="robots" content="index,follow,max-image-preview:large">
-  <link rel="canonical" href="${escapar(url)}">
-  <meta property="og:type" content="article">
-  <meta property="og:locale" content="pt_BR">
-  <meta property="og:site_name" content="Notícia ES">
-  <meta property="og:title" content="${escapar(titulo)}">
-  <meta property="og:description" content="${escapar(resumo)}">
-  <meta property="og:url" content="${escapar(url)}">${metaImagem}
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${escapar(titulo)}">
-  <meta name="twitter:description" content="${escapar(resumo)}">
+  <meta name="description" content="${escapar(resumo)}"><meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="${escapar(url)}"><meta property="og:type" content="article"><meta property="og:locale" content="pt_BR"><meta property="og:site_name" content="Notícia ES"><meta property="og:title" content="${escapar(titulo)}"><meta property="og:description" content="${escapar(resumo)}"><meta property="og:url" content="${escapar(url)}">${metaImagem}
+  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapar(titulo)}"><meta name="twitter:description" content="${escapar(resumo)}">
   <script type="application/ld+json">${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>
-  <link rel="stylesheet" href="../estilo.css">
-  <link rel="stylesheet" href="../imagem-policy.css">
+  <link rel="stylesheet" href="../estilo.css"><link rel="stylesheet" href="../imagem-policy.css">
   <style>.materia-estatica{max-width:860px;margin:0 auto;padding:28px 16px}.materia-estatica h1{line-height:1.08}.materia-resumo{font-size:1.15rem}.materia-meta{opacity:.75;margin:10px 0 22px}.materia-capa{width:100%;height:auto;border-radius:8px}.conteudo-materia p{line-height:1.72;font-size:1.08rem}.conteudo-materia h2{margin-top:30px}.aeo-resumo{margin:28px 0;padding:18px;border:1px solid #ddd;border-radius:8px}.aeo-item p{margin-top:5px}.fontes-materia{margin-top:34px}</style>
-</head>
-<body data-pagina="materia">
+</head><body data-pagina="materia">
 <header class="site-header"><div class="container header-inner"><a class="logo" href="../index.html">Notícia <span>ES</span></a><nav class="nav-principal" aria-label="Navegação principal"><ul><li><a href="../index.html">Início</a></li><li><a href="../index.html?categoria=politica-es">Política ES</a></li><li><a href="../index.html?categoria=seguranca-publica">Segurança Pública</a></li><li><a href="../index.html?categoria=politica-nacional">Política Nacional</a></li><li><a href="../index.html?categoria=opiniao">Opinião</a></li><li><a href="../index.html?categoria=fe-e-sociedade">Fé e Sociedade</a></li></ul></nav></div></header>
 <main class="materia"><article class="materia-estatica">
   <div class="materia-meta">${escapar(categoria)}${data ? ` · ${escapar(data)}` : ''} · ${escapar(n.autor || 'Redação Notícia ES')}</div>
-  <h1>${escapar(titulo)}</h1>
-  <p class="materia-resumo"><strong>${escapar(resumo)}</strong></p>
-  ${img ? `<figure><img class="materia-capa" src="${escapar(img)}" alt="${escapar(titulo)}" loading="eager"><figcaption>${escapar(titulo)}</figcaption></figure>` : ''}
-  ${blocoAeo(n)}
+  <h1>${escapar(titulo)}</h1><p class="materia-resumo"><strong>${escapar(resumo)}</strong></p>
+  ${img ? `<figure><img class="materia-capa" src="${escapar(img)}" alt="${escapar(titulo)}" loading="eager"><figcaption>${escapar(legenda)}</figcaption></figure>` : ''}
   <div class="conteudo-materia">${conteudo}</div>
+  ${blocoAeo(n)}
   ${fontesHtml(n)}
-</article></main>
-<footer class="site-footer"><div class="container"><strong>Notícia ES</strong> | política e segurança pública do Espírito Santo</div></footer>
-</body>
-</html>\n`;
+</article></main><footer class="site-footer"><div class="container"><strong>Notícia ES</strong> | política e segurança pública do Espírito Santo</div></footer>
+</body></html>\n`;
 }
 
 const overlay = await carregarOverlay();
 const lista = await carregarNoticias();
 await fs.mkdir(DESTINO, { recursive: true });
-
-const vistos = new Set();
-let geradas = 0;
+const vistos = new Set(); let geradas = 0;
 for (const n of lista) {
   if (!n?.slug || vistos.has(n.slug)) continue;
   vistos.add(n.slug);
-  if (PAGINAS_ESPECIAIS.has(n.slug)) {
-    console.log(`[estatico] preserva página especial: ${n.slug}`);
-    continue;
-  }
+  if (PAGINAS_ESPECIAIS.has(n.slug)) { console.log(`[estatico] preserva página especial: ${n.slug}`); continue; }
   const imagem = imagemAbsoluta(overlay[n.slug] || n.imagem || '');
   await fs.writeFile(path.join(DESTINO, `${n.slug}.html`), paginaHTML(n, imagem), 'utf8');
   geradas++;
 }
-
 console.log(`[estatico] ${geradas} página(s) canônica(s) completa(s) em m/{slug}.html`);
