@@ -11,34 +11,19 @@ function reposicionar(html) {
   if (!aeoMatch) return html;
 
   const aeo = aeoMatch[1];
-  let semAeo = html.replace(aeoRe, '\n');
-
-  const conteudoIni = semAeo.indexOf('<div class="conteudo-materia">');
-  if (conteudoIni < 0) return html;
-
-  const depoisInicio = semAeo.slice(conteudoIni);
-  const h2Match = depoisInicio.match(/<h2\b[^>]*>[\s\S]*?<\/h2>/i);
-  if (h2Match) {
-    const pos = conteudoIni + h2Match.index + h2Match[0].length;
-    return semAeo.slice(0, pos) + '\n  ' + aeo + semAeo.slice(pos);
-  }
-
-  let posBusca = conteudoIni;
-  let posTerceiroP = -1;
-  for (let i = 0; i < 3; i++) {
-    const p = semAeo.indexOf('</p>', posBusca);
-    if (p < 0) break;
-    posTerceiroP = p + 4;
-    posBusca = posTerceiroP;
-  }
-  if (posTerceiroP > 0) {
-    return semAeo.slice(0, posTerceiroP) + '\n  ' + aeo + semAeo.slice(posTerceiroP);
-  }
+  const semAeo = html.replace(aeoRe, '\n');
 
   const fontes = semAeo.indexOf('<section class="fontes-materia"');
-  if (fontes > 0) return semAeo.slice(0, fontes) + aeo + '\n  ' + semAeo.slice(fontes);
+  if (fontes >= 0) {
+    return semAeo.slice(0, fontes) + `  ${aeo}\n  ` + semAeo.slice(fontes);
+  }
 
-  return semAeo.replace('</article>', `${aeo}\n</article>`);
+  const articleFim = semAeo.indexOf('</article>');
+  if (articleFim >= 0) {
+    return semAeo.slice(0, articleFim) + `  ${aeo}\n` + semAeo.slice(articleFim);
+  }
+
+  return html;
 }
 
 let arquivos = [];
@@ -61,4 +46,4 @@ for (const arquivo of arquivos) {
   }
 }
 
-console.log(`[aeo-posicao] ${alteradas} página(s) com AEO reposicionado após a abertura editorial.`);
+console.log(`[aeo-posicao] ${alteradas} página(s) com AEO imediatamente antes de Fontes.`);
