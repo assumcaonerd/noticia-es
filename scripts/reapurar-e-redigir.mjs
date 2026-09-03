@@ -6,8 +6,8 @@ const RAIZ = process.cwd();
 const LOTE_PATH = path.join(RAIZ, 'lote-redacao.json');
 const MAX_PUBLICAVEIS = 10;
 const MIN_PALAVRAS = 650;
-const MODELO = process.env.OPENAI_MODEL || 'gpt-5.6-luna';
-const API_KEY = process.env.OPENAI_API_KEY || '';
+const MODELO = process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-6';
+const API_KEY = process.env.ANTHROPIC_API_KEY || '';
 
 function textoPuro(html = '') {
   return String(html)
@@ -28,14 +28,11 @@ function contarPalavras(html = '') {
 }
 
 function extrairTextoResposta(data) {
-  if (typeof data?.output_text === 'string' && data.output_text.trim()) return data.output_text.trim();
-  const partes = [];
-  for (const item of data?.output || []) {
-    for (const c of item?.content || []) {
-      if (typeof c?.text === 'string') partes.push(c.text);
-    }
-  }
-  return partes.join('\n').trim();
+  return (Array.isArray(data?.content) ? data.content : [])
+    .filter((bloco) => bloco?.type === 'text' && typeof bloco.text === 'string')
+    .map((bloco) => bloco.text)
+    .join('\n')
+    .trim();
 }
 
 function extrairJson(texto) {
@@ -100,32 +97,42 @@ function validarReportagem(r, pauta) {
   return null;
 }
 
-async function chamarOpenAI(pauta) {
+async function chamarAnthropic(pauta) {
   const prompt = `Você é o núcleo de reapuração e redação do portal Notícia ES, especializado em Política ES, Política Nacional e Segurança Pública.\n\nSua missão é reapurar a pauta abaixo usando busca na web, consultar a fonte principal indicada, localizar fontes públicas adicionais e somente então produzir uma reportagem original, factual e completa.\n\nPAUTA\nTítulo coletado: ${pauta.titulo || ''}\nCategoria: ${pauta.categoria || ''}\nFonte principal: ${pauta.fonteNome || ''}\nURL principal: ${pauta.urlFonte || ''}\nResumo coletado: ${pauta.resumoFonte || ''}\nData da fonte: ${pauta.dataFonte || ''}\n\nREGRAS EDITORIAIS OBRIGATÓRIAS\n1. Consulte efetivamente a URL principal e busque confirmação/contexto em fontes adicionais. Priorize fontes primárias, órgãos oficiais, documentos, entrevistas integrais e veículos reconhecidos.\n2. Não invente fatos, números, datas, cargos ou citações. Não transforme acusação em fato provado, investigação em condenação, pedido em decisão ou opinião em notícia factual.\n3. Escreva em português do Brasil, com lead 5W+1H, pirâmide invertida, contexto, antecedentes, contraponto quando aplicável e próximos passos.\n4. O conteúdo deve ter no mínimo 650 palavras, pelo menos 7 parágrafos <p> e pelo menos 2 subtítulos <h2>. Use normalmente de 650 a 1.200 palavras quando a pauta comportar, sem enchimento artificial.\n5. Não copie trechos extensos das fontes e não reproduza texto protegido. Faça redação original.\n6. AEO obrigatório: a reportagem deve responder naturalmente o que aconteceu, quem está envolvido, onde, quando, por que importa e o que acontece agora. Além disso, preencha o objeto aeo com respostas curtas e factuais.\n7. POR ENQUANTO, NÃO inclua “Capitão Assumção” no objeto AEO. Não introduza o nome artificialmente no texto. Se ele não fizer parte real da pauta, não o mencione em lugar algum.\n8. fontesAdicionais deve conter pelo menos duas fontes efetivamente consultadas, diferentes entre si e, quando possível, diferentes da fonte principal. Não invente URLs.\n9. Se não houver base factual suficiente para uma reportagem completa e verificável, retorne publicar:false e explique o motivo, em vez de preencher lacunas.\n10. Use a imagem fornecida pela pauta; não tente inventar outra URL de imagem.\n\nRETORNE SOMENTE JSON VÁLIDO, SEM MARKDOWN, no formato:\n{\n  "publicar": true,\n  "titulo": "...",\n  "resumo": "subtítulo/resumo com pelo menos 80 caracteres",\n  "conteudo": "<p>...</p><p>...</p><h2>...</h2>...",\n  "fonteNome": "nome da fonte principal",\n  "fonteUrl": "${pauta.urlFonte || ''}",\n  "fontesAdicionais": [{"nome":"...","url":"https://..."},{"nome":"...","url":"https://..."}],\n  "entidades": [{"nome":"...","tipo":"Person|Organization|Place|Event|PoliticalParty|GovernmentOrganization"}],\n  "aeo": {\n    "oQueAconteceu": "...",\n    "quemEstaEnvolvido": "...",\n    "ondeAconteceu": "...",\n    "quandoAconteceu": "...",\n    "porQueImporta": "...",\n    "oQueAconteceAgora": "..."\n  }\n}\n\nSe não for publicável:\n{"publicar":false,"motivo":"..."}`;
 
-  const resp = await fetch('https://api.openai.com/v1/responses', {
+  const resp = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
-      'Authorization': `Bearer ${API_KEY}`,
-      'Content-Type': 'application/json'
+      'x-api-key': API_KEY,
+      'anthropic-version': '2023-06-01',
+      'content-type': 'application/json'
     },
     body: JSON.stringify({
       model: MODELO,
-      tools: [{ type: 'web_search', search_context_size: 'medium', user_location: { type: 'approximate', country: 'BR' } }],
-      input: prompt,
-      max_output_tokens: 9000
+      max_tokens: 9000,
+      temperature: 0.2,
+      tools: [{
+        type: 'web_search_20250305',
+        name: 'web_search',
+        max_uses: 6,
+        user_location: {
+          type: 'approximate',
+          country: 'BR',
+          timezone: 'America/Sao_Paulo'
+        }
+      }],
+      messages: [{ role: 'user', content: prompt }]
     })
   });
 
   const data = await resp.json().catch(() => ({}));
-  if (!resp.ok) throw new Error(`OpenAI ${resp.status}: ${data?.error?.message || 'erro desconhecido'}`);
+  if (!resp.ok) throw new Error(`Anthropic ${resp.status}: ${data?.error?.message || 'erro desconhecido'}`);
   const texto = extrairTextoResposta(data);
-  const obj = extrairJson(texto);
-  return obj;
+  return extrairJson(texto);
 }
 
 if (!API_KEY) {
-  console.error('[reapuracao] FALHA TÉCNICA: OPENAI_API_KEY não está configurada nos Secrets do GitHub Actions.');
+  console.error('[reapuracao] FALHA TÉCNICA: ANTHROPIC_API_KEY não está configurada nos Secrets do GitHub Actions.');
   process.exit(2);
 }
 
@@ -155,7 +162,7 @@ for (const pauta of candidatas) {
 
   try {
     console.log(`[reapuracao] processando ${pauta.id}: ${pauta.titulo}`);
-    const r = await chamarOpenAI(pauta);
+    const r = await chamarAnthropic(pauta);
     const motivo = validarReportagem(r, pauta);
     if (motivo) {
       rejeitadas++;
@@ -195,7 +202,8 @@ const saida = {
     produzidas,
     rejeitadas,
     errosTecnicos,
-    modelo: MODELO
+    modelo: MODELO,
+    provedor: 'Anthropic'
   },
   candidatas: processadas
 };
