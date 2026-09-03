@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: '5 * * * *'
   workflow_dispatch:
-  push:
-    paths:
-      - '.github/workflows/operacao-editorial-horaria.yml'
 
 permissions:
   contents: write
@@ -33,6 +30,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '24'
+
+      - name: Verificar credencial do núcleo de redação
+        shell: bash
+        run: |
+          if [ -z "${OPENAI_API_KEY:-}" ]; then
+            echo "FALHA TÉCNICA: configure o secret OPENAI_API_KEY no repositório para habilitar reapuração e redação automática."
+            exit 2
+          fi
+          echo "Credencial de redação disponível."
 
       - name: Validar scripts críticos
         run: |
