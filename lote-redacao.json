@@ -1,16 +1,52 @@
 {
-  "geradoEm": "2026-09-03T11:40:07.991Z",
+  "geradoEm": "2026-09-03T15:10:04.368Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 10 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
-    "bloqueadas": 11,
+    "bloqueadas": 12,
     "semImagem": 0,
-    "duplicadasBasicas": 1,
+    "duplicadasBasicas": 0,
     "duplicadasSemanticas": 1,
-    "foraCategorias": 7
+    "foraCategorias": 0
   },
   "quantidadeCandidatas": 20,
   "candidatas": [
+    {
+      "id": "4f05f73352f7165f",
+      "titulo": "Polícia mira núcleo ligado ao PCC suspeito de lavar R$ 1 bilhão | G1",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "g1 - Capa",
+      "urlFonte": "https://g1.globo.com/sp/santos-regiao/noticia/2026/09/03/policia-civil-realiza-operacao-contra-nucleo-ligado-ao-pcc-suspeito-de-lavar-cerca-de-r-1-bilhao.ghtml",
+      "dataFonte": "2026-09-03T11:06:39.391Z",
+      "resumoFonte": "Intitulada Operação Helmintos, a ação investiga aquisição de imóveis, exploração de quiosques, favorecimento em licitações e financiamento de agentes políticos em Praia Grande.",
+      "imagem": "https://s2-g1.glbimg.com/fiJtufAIZHKnmkE7Yfysgvr9zic=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/y/Z/q8ONBbRLeptyGLa9cx9Q/operacao-civil-3-.jpg",
+      "descobertaEm": "2026-09-03T13:48:44.506Z"
+    },
+    {
+      "id": "427a16ce3ed1a94e",
+      "titulo": "O que os candidatos ao governo do ES pensam sobre mortes no trânsito",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/es/politica/o-que-os-candidatos-ao-governo-do-es-pensam-sobre-mortes-no-transito-0826",
+      "dataFonte": "2026-09-03T12:59:40.000Z",
+      "resumoFonte": "Série especial de A Gazeta apresenta as propostas dos concorrentes ao Palácio Anchieta para 10 desafios do Estado",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788203657750_mortes_no_transito.jpeg",
+      "descobertaEm": "2026-09-03T13:46:54.893Z"
+    },
+    {
+      "id": "45456fd20045f9e2",
+      "titulo": "Eleições 2026: entenda as funçôes do governador e do presidente",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "A Gazeta - Política",
+      "urlFonte": "https://www.agazeta.com.br/es/politica/eleicoes-2026-entenda-as-funcoes-do-governador-e-do-presidente-0726",
+      "dataFonte": "2026-09-03T12:33:57.000Z",
+      "resumoFonte": "Ambos fazem parte do Poder Executivo, mas atuam em esferas diferentes; governantes serão escolhidos no pleito de outubro",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1783675667711_copia_de_template_abre_site_eleicoes_2026_9.jpg",
+      "descobertaEm": "2026-09-03T13:46:54.893Z"
+    },
     {
       "id": "972483d7f9aedbc4",
       "titulo": "Os pedidos da indústria do ES aos candidatos ao Palácio Anchieta",
@@ -24,28 +60,40 @@
       "descobertaEm": "2026-09-03T11:32:14.025Z"
     },
     {
-      "id": "4e02ccb37302ff0e",
-      "titulo": "Shopping Vitória recebe edição especial do festival Ilha do Rock",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "Tribuna Online - Capa",
-      "urlFonte": "https://tribunaonline.com.br/social",
-      "dataFonte": "2026-09-03T03:00:00.000Z",
-      "resumoFonte": "Confira a coluna social desta quinta-feira (03)",
-      "imagem": "https://tribunaonline.com.br/themes/TON/assets/img/CLUBE_DE_VANTAGENS_COR-new.webp",
-      "descobertaEm": "2026-09-03T06:12:59.314Z"
-    },
-    {
       "id": "b92c6f53b8c78dfa",
       "titulo": "Diário Oficial do ES — edição de 2026-09-03",
       "categoria": "Política ES",
       "radar": null,
       "fonteNome": "DIO/ES - Edição",
       "urlFonte": "https://dio.es.gov.br/diario-oficial",
-      "dataFonte": "2026-09-03T04:13:29.702Z",
+      "dataFonte": "2026-09-03T13:49:24.539Z",
       "resumoFonte": "Consulta à edição do Dia do Diário Oficial do Espírito Santo. Conferir decretos, nomeações, leis e atos do Executivo, Legislativo e Judiciário.",
       "imagem": "https://dio.es.gov.br/media/diulia/diulia-responde.png",
-      "descobertaEm": "2026-09-03T04:13:29.702Z"
+      "descobertaEm": "2026-09-03T13:49:24.539Z"
+    },
+    {
+      "id": "aa517b9953eb9cf3",
+      "titulo": "&quot;Escala não resolve todos os problemas&quot;, diz Evair de Melo sobre a PEC do fim da 6x1",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "YouTube Folha Vitória",
+      "urlFonte": "https://www.youtube.com/shorts/N26czgvYVWY",
+      "dataFonte": "2026-09-03T13:20:43.000Z",
+      "resumoFonte": "🗳️ O candidato ao Senado Evair de Melo (Republicanos) falou sobre a PEC que prevê o fim da escala 6x1 e defendeu que o debate sobre a jornada de trabalho também considere a renda dos trabalhadores. Segundo Evair, a redução da escala, sozinha, não resolve todos os problemas. Para ele, é necessário criar um ambiente econômico que permita ao trabalha",
+      "imagem": "https://i.ytimg.com/vi/N26czgvYVWY/hq720.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLAzkHJ_CdjUpoeqt66_jl0coKifKg",
+      "descobertaEm": "2026-09-03T13:49:11.661Z"
+    },
+    {
+      "id": "6c1e7e1996783778",
+      "titulo": "‘Rabo preso’, diz Flávio sobre o silêncio de Lula em crise do STF",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/rabo-preso-diz-flavio-sobre-o-silencio-de-lula-em-crise-do-stf/",
+      "dataFonte": "2026-09-03T13:31:06.000Z",
+      "resumoFonte": "Durante agenda de campanha em Porto Alegre nesta quarta-feira, 2, o candidato à Presidência Flávio Bolsonaro ( PL ) desafiou Luiz Inácio Lula da Silva (PT) a comentar as conversas vazadas entre o ministro Alexandre de Moraes, do Supremo Tribunal Federal ( STF ), e o ex-banqueiro Daniel Vorcaro, do Banco Master. Para o senador, o silêncio do…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/flavio-bolsonaro-candidato-910x568.jpg.webp",
+      "descobertaEm": "2026-09-03T13:46:54.893Z"
     },
     {
       "id": "7c09457a5ca1a960",
@@ -58,6 +106,30 @@
       "resumoFonte": "O senador Flávio Bolsonaro (PL-RJ) aparece numericamente à frente do presidente Luiz Inácio Lula da Silva na principal simulação de segundo turno da pesquisa PoderData/Aya divulgada nesta quinta-feira, 3. O liberal registra 45% das intenções de voto, contra 44% do petista. + Entenda o que é Política em Oeste A diferença, porém, está dentro da…",
       "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/03/Flavio-e-Lula.jpg.webp",
       "descobertaEm": "2026-09-03T11:32:14.025Z"
+    },
+    {
+      "id": "c2ca1b8a784c5f79",
+      "titulo": "Pool de veículos reforça convite a presidenciáveis para debate em 14/9",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/pool-de-veiculos-reforca-convite-a-presidenciaveis-para-debate-em-14-9/",
+      "dataFonte": "2026-09-03T13:00:04.000Z",
+      "resumoFonte": "\"O Momento da Decisão\", a maior parceria já formada entre grupos de comunicação brasileiros para a realização de debates eleitorais, aguarda confirmação de Lula e Flávio Bolsonaro",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/05/WhatsApp-Image-2025-05-12-at-22.37.42.jpeg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-03T13:46:54.893Z"
+    },
+    {
+      "id": "824cbc58fc9be89d",
+      "titulo": "Como está a disputa pelo governo do Espírito Santo, segundo pesquisa AtlasIntel",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/politica/como-esta-a-disputa-pelo-governo-do-espirito-santo-segundo-pesquisa-atlasintel/",
+      "dataFonte": "2026-09-03T12:54:22.000Z",
+      "resumoFonte": "Levantamento mostra liderança do candidato do Republicanos, Lorenzo Pazolin, na disputa estadual, e de Flávio Bolsonaro (PL) na presidencial",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/03/ricardo-ferraco-lorenzo-pazolini.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-09-03T13:46:54.893Z"
     },
     {
       "id": "4cd952cf9543d495",
@@ -84,52 +156,76 @@
       "descobertaEm": "2026-09-03T11:32:14.025Z"
     },
     {
-      "id": "c058969d15d2e6f8",
-      "titulo": "Mercado refaz as contas e põe eleição competitiva no preço | Blogs | CNN Brasil",
+      "id": "e90a4572a19e2689",
+      "titulo": "Opinião - Bernardo Carvalho: Voto em Flávio Bolsonaro expressa ideia perdida de nação",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "CNN Brasil - Capa",
-      "urlFonte": "https://www.cnnbrasil.com.br/blogs/lucinda-pinto/economia/money/mercado/mercado-refaz-as-contas-e-poe-eleicao-competitiva-no-preco/",
-      "dataFonte": "2026-09-03T06:23:28.000Z",
-      "resumoFonte": "Mercado revê chances de Flávio Bolsonaro e encontra na Bolsa principal espaço para refletir disputa mais equilibrada",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/ChatGPT-Image-2-de-set.-de-2026-22_50_20.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-03T09:07:22.681Z"
+      "fonteNome": "Folha de S.Paulo - Capa",
+      "urlFonte": "https://www1.folha.uol.com.br/colunas/bernardo-carvalho/2026/09/voto-em-flavio-bolsonaro-expressa-ideia-perdida-de-nacao.shtml",
+      "dataFonte": "2026-09-03T10:00:00.000Z",
+      "resumoFonte": "Podemos estar cercados de",
+      "imagem": "https://f.i.uol.com.br/fotografia/2020/09/18/16004566715f6507df49fd2_1600456671_3x2_rt.jpg",
+      "descobertaEm": "2026-09-03T13:48:44.506Z"
     },
     {
-      "id": "1be6e8acaa0711c3",
-      "titulo": "Cury avança, Lula e Flávio empatam no 2º turno: 10 pontos da nova Quaest",
+      "id": "c4ebdc225c0829c4",
+      "titulo": "STF se divide entre investigar Moraes e anular atos de Mendonça",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/03/10-pontos-da-nova-pesquisa-quaest.ghtml",
-      "dataFonte": "2026-09-03T03:01:50.000Z",
-      "resumoFonte": "Montagem de fotos com os candidatos Lula (PT), Flávio Bolsonaro (PL) e Augusto Cury (Avante). Manoella Mello/Globo Pesquisa Quaest divulgada nesta quarta-feira (2) sobre a eleição presidencial mostra que Lula (PT) lidera com 37%, Flávio Bolsonaro (PL) tem 29% e Augusto Cury (Avante) agora é o terceiro colocado, com 10%. A nova pesquisa nacional…",
-      "imagem": "https://s2-g1.glbimg.com/KrzTl2S1OoD8Cmx0sbxxR8_AAAA=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/v/9bw26RTrCkhqg0YVAGPQ/montagem-horizontal-1200px-14-.jpg",
-      "descobertaEm": "2026-09-03T04:09:40.395Z"
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/no-ponto/stf-se-divide-entre-investigar-moraes-e-anular-atos-de-mendonca/",
+      "dataFonte": "2026-09-03T13:40:14.000Z",
+      "resumoFonte": "O presidente do Supremo Tribunal Federal (STF), Edson Fachin, encontra-se sob pressão interna frente às mensagens de WhatsApp trocadas entre o empresário Daniel Vorcaro e o ministro Alexandre de Moraes. Um grupo defende uma resposta que permita apurar a conduta de Moraes. A ala alinhada ao magistrado, por sua vez, tenta deslocar o debate para os…",
+      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
+      "descobertaEm": "2026-09-03T13:46:54.893Z"
     },
     {
-      "id": "edc66a4632867b62",
-      "titulo": "Quaest, 1º turno: veja intenção de voto por região, gênero, idade, identificação política, cor e religião no cenário sem Pablo Marçal",
+      "id": "c09d376d8a577e83",
+      "titulo": "Ministro da Fazenda de Lula diz que rombo nos Correios não é prejuízo",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/03/quaest-1o-turno-segmentos-cenario-2.ghtml",
-      "dataFonte": "2026-09-03T03:01:29.000Z",
-      "resumoFonte": "Quaest, 1º turno: Lula, 37%; Flávio Bolsonaro, 29%; Cury, 10%; Renan, 3%; Caiado, 1%; Zema, 1% Pesquisa Quaest divulgada nesta quarta-feira (2) mostra Lula (PT) com 37% das intenções de voto no 1º turno da eleição presidencial, contra 29% de Flávio Bolsonaro (PL) no cenário com 12 candidatos, que não inclui o candidato Pablo Marçal (PRTB), que está…",
-      "imagem": "https://s2-g1.glbimg.com/BPAXj_UktdVU3IUg-bnlgt2wN4E=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/0/S/1vYMrcQBKb0WDFDmRAdg/260902-info-intencao-de-voto-1-turno-identificacao-politicasemmarcal.jpg",
-      "descobertaEm": "2026-09-03T04:09:40.395Z"
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/economia/ministro-da-fazenda-de-lula-diz-que-rombo-nos-correios-nao-e-prejuizo/",
+      "dataFonte": "2026-09-03T13:02:07.000Z",
+      "resumoFonte": "O ministro da Fazenda , Dario Durigan, que assumiu o cargo em março deste ano com a saída de Fernando Haddad (PT) para disputar o governo de São Paulo, afirmou que o prejuízo de R$ 5,5 bilhões dos Correios registrado no primeiro semestre de 2026, na verdade, não é prejuízo. As declarações do chefe da equipe econômica causaram perplexidade durante…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-26-at-11.24.12.jpeg.webp",
+      "descobertaEm": "2026-09-03T13:46:54.893Z"
     },
     {
-      "id": "583d4ff3c3682b78",
-      "titulo": "Pesquisa Quaest: intenção de voto por recorte no 1º turno de 2026 | G1",
+      "id": "dfd80c81abdf6e4f",
+      "titulo": "Vorcaro diz que pretendia delatar integrantes do governo Lula",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "g1 - Capa",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/03/quaest-1o-turno-segmentos-cenario-1.ghtml",
-      "dataFonte": "2026-09-03T03:01:28.087Z",
-      "resumoFonte": "O levantamento encomendado pela Globo detalha o desempenho de Lula, Flávio Bolsonaro e Pablo Marçal entre diferentes religiões, faixas de renda e regiões do Brasil.",
-      "imagem": "https://s2-g1.glbimg.com/HszsEIP2bNKE38OuMS3I4NjZz7M=/5184x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/V/TlO7yzR12E9L4oYBRwjQ/lacracao-urnas-eletronicas-mcamgo-abr-210920221818-4.jpg",
-      "descobertaEm": "2026-09-03T09:07:22.681Z"
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/vorcaro-diz-que-pretendia-delatar-integrantes-do-governo-lula/",
+      "dataFonte": "2026-09-03T12:45:42.000Z",
+      "resumoFonte": "O ex-banqueiro Daniel Vorcaro afirmou que pretendia incluir integrantes do governo Lula em uma delação premiada e alegou que tentativas anteriores de colaboração não avançaram porque policiais federais estariam “blindando” o diretor-geral da Polícia Federal (PF) , Andrei Rodrigues. As declarações foram dadas na semana passada, durante depoimento à…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/11/daniel-vorcaro-banco-master.jpeg.webp",
+      "descobertaEm": "2026-09-03T13:46:54.893Z"
+    },
+    {
+      "id": "acb708095bd340d5",
+      "titulo": "A um mês da eleição, Lula é rejeitado por 48% dos eleitores, diz PoderData",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/a-um-mes-da-eleicao-lula-e-rejeitado-por-48-dos-eleitores-diz-poderdata/",
+      "dataFonte": "2026-09-03T12:25:41.000Z",
+      "resumoFonte": "A apenas um mês do primeiro turno das eleições de 2026, que acontece no dia 4 de outubro, o presidente Luiz Inácio Lula da Silva (PT) é rejeitado por praticamente metade da população brasileira. É o que mostra a pesquisa do PoderData/Aya divulgada nesta quinta-feira, 3 . De acordo com o levantamento, 48% dos eleitores afirmam que não votarão “de…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/09_ed335-910x568.jpg.webp",
+      "descobertaEm": "2026-09-03T13:46:54.893Z"
+    },
+    {
+      "id": "25f9dcd65140c50f",
+      "titulo": "Desaprovação de Lula chega a 50%, mostra PoderData",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/desaprovacao-de-lula-chega-a-50-mostra-poderdata/",
+      "dataFonte": "2026-09-03T11:59:44.000Z",
+      "resumoFonte": "Pesquisa PoderData realizada de 30 de agosto a 2 de setembro mostra que 50% dos eleitores desaprovam o desempenho pessoal do presidente Luiz Inácio Lula da Silva. Outros 42% aprovam a atuação do chefe do Executivo . Não souberam responder 8% dos entrevistados. Os índices ficaram estáveis em relação ao levantamento anterior, realizado de 23 a 26 de…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/tenho-saudades-de-quando-disputava-eleicoes-com-o-psdb-diz-lula-910x568.jpeg.webp",
+      "descobertaEm": "2026-09-03T13:46:54.893Z"
     },
     {
       "id": "9af83475cc6fca37",
@@ -153,102 +249,6 @@
       "dataFonte": "2026-09-03T11:00:35.000Z",
       "resumoFonte": "A candidata ao governo do Piauí Dra. Lúcia Santos (PSDB) acusou a gestão do governador Rafael Fonteles ( PT ) de usar inteligência artificial para emitir laudos médicos no serviço de telemedicina. A fala foi nesta quarta-feira, 2, durante o debate da TV Meio Norte. “Nós pegamos laudos dando ovário para homens, próstata para mulher, ou seja, ali…",
       "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/captura-de-tela-2026-09-03-as-07.12.15.png.webp",
-      "descobertaEm": "2026-09-03T11:32:14.025Z"
-    },
-    {
-      "id": "e56e2b39a169a44e",
-      "titulo": "Caiado afirma que permanência de Moraes no STF é ‘inaceitável’",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/caiado-afirma-que-permanencia-de-moraes-no-stf-e-inaceitavel/",
-      "dataFonte": "2026-09-03T10:07:43.000Z",
-      "resumoFonte": "O candidato à Presidência Ronaldo Caiado (PSD) afirmou que o ministro Alexandre de Moraes deveria deixar o Supremo Tribunal Federal (STF) . A declaração ocorreu nesta quarta-feira, 2, durante sabatina à emissora CNN Brasil. “Não vejo como ele pode permanecer no Supremo\", disse o candidato. \"É um desrespeito completo com a sociedade brasileira.” Ele…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/moraes_analise-juridica-910x540.jpeg.webp",
-      "descobertaEm": "2026-09-03T11:32:14.025Z"
-    },
-    {
-      "id": "e66f18a0bb4d498b",
-      "titulo": "Governo retira de pauta fim da escala 6×1",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/governo-retira-de-pauta-fim-da-escala-6x1/",
-      "dataFonte": "2026-09-03T02:55:24.000Z",
-      "resumoFonte": "A base do governo no Senado desistiu de levar ao plenário, nesta quarta-feira, 2, a proposta que acaba com a escala de trabalho 6x1. A decisão ocorreu depois de os governistas avaliarem que a ausência de senadores poderia impedir a obtenção dos 49 votos necessários para aprovar o texto. Segundo o líder do governo no Congresso, Randolfe Rodrigues…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/12/Dosimetria-Randolfe.jpeg.webp",
-      "descobertaEm": "2026-09-03T04:09:40.395Z"
-    },
-    {
-      "id": "1396e41416f129bf",
-      "titulo": "Confira a agenda dos presidenciáveis nesta quinta-feira (3)",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Agência Brasil - Política",
-      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/confira-agenda-dos-presidenciaveis-nesta-quinta-feira-3",
-      "dataFonte": "2026-09-03T11:30:00.000Z",
-      "resumoFonte": "A agenda dos presidenciáveis inclui entrevistas e sabatinas em veículos de comunicação, encontros com lideranças religiosas, visitas a instituições e obras sociais. Também estão previstas panfletagem e apresentação de programa eleitoral, além de atividades partidárias. Clariana Barão (Democracia Cristã) Concede entrevista para o canal Leo Dias…",
-      "imagem": "https://imagens.ebc.com.br/mHxHjf7pDxiKyHWFE1hh6tGdJMg=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/08/18/banner_agenda_-_1170x700.png?itok=t-rMkLxv",
-      "descobertaEm": "2026-09-03T11:32:14.025Z"
-    },
-    {
-      "id": "64eaba85307dab4b",
-      "titulo": "Pesquisa mostra a distância entre Lula e Flávio em reduto do bolsonarismo",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/politica/pesquisa-mostra-a-distancia-entre-lula-e-flavio-em-reduto-do-bolsonarismo/",
-      "dataFonte": "2026-09-03T11:14:46.000Z",
-      "resumoFonte": "Novo levantamento AtlasIntel mostra como está a disputa presidencial entre eleitores do estado",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/03/lula-flavio-bolsonaro-4.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-03T11:32:14.025Z"
-    },
-    {
-      "id": "93f47b7916d751cd",
-      "titulo": "Samuel Lino celebra aproximação da liderança do Brasileirão: “Muita força”",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/flamengo/samuel-lino-celebra-aproximacao-da-lideranca-do-brasileirao-muita-forca/",
-      "dataFonte": "2026-09-03T11:13:15.000Z",
-      "resumoFonte": "Flamengo está a um ponto de distância do Palmeiras após vencer o Mirassl na quarta-feira (2)",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Samuel-Lino-e1788433748960.jpeg?w=989&h=557&crop=1",
-      "descobertaEm": "2026-09-03T11:32:14.025Z"
-    },
-    {
-      "id": "bf173ae4e3fd2f75",
-      "titulo": "El Niño deve gerar PIB agropecuário negativo em 2027, diz estudo",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/agro/el-nino-deve-gerar-pib-agropecuario-negativo-em-2027-diz-estudo/",
-      "dataFonte": "2026-09-03T11:06:51.000Z",
-      "resumoFonte": "Estudo do Itaú aponta que fenômeno climático deve pressionar inflação em 2026 e causar retração de 1,5% no setor agro em 2027",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/El-Nino-.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-03T11:32:14.025Z"
-    },
-    {
-      "id": "896ba7c981c90716",
-      "titulo": "Governo do DF e BRB avan�am sobre concess�o de pontos tur�sticos",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/09/governo-do-df-e-brb-avancam-sobre-concessao-de-pontos-turisticos.shtml",
-      "dataFonte": "2026-09-03T11:00:00.000Z",
-      "resumoFonte": "Ap�s o Governo do Distrito Federal iniciar a busca por empresas interessadas em assumir pontos tur�sticos geridos pelo BRB (Banco de Bras�lia), o banco concordou em atuar para conceder os espa�os. Leia mais (09/03/2026 - 08h00)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/09/03/17884044256a98e2c982e7b_1788404425_3x2_xl.jpg",
-      "descobertaEm": "2026-09-03T11:32:14.025Z"
-    },
-    {
-      "id": "20ebc402fefc112b",
-      "titulo": "PGR fecha dela��o com empres�rio que fez pagamentos a fundo que financiaria 'Dark Horse'",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/pgr-fecha-delacao-com-empresario-que-fez-pagamentos-a-fundo-que-financiaria-dark-horse.shtml",
-      "dataFonte": "2026-09-03T10:59:00.000Z",
-      "resumoFonte": "A PGR (Procuradoria-Geral da Rep�blica) fechou acordo de dela��o premiada com Ant�nio Carlos Freixo J�nior , conhecido como Mineiro, dono da empresa que teria sido utilizada por Daniel Vorcaro para enviar recursos que financiariam \"Dark Horse\" filme sobre o ex-presidente Jair Bolsonaro ( PL ), Leia mais (09/03/2026 - 07h59)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/05/19/17792150926a0caaf407983_1779215092_3x2_lg.jpg",
       "descobertaEm": "2026-09-03T11:32:14.025Z"
     }
   ]
