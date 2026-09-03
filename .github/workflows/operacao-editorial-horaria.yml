@@ -17,8 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     env:
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
 
     steps:
       - name: Baixar repositório
@@ -34,11 +34,11 @@ jobs:
       - name: Verificar credencial do núcleo de redação
         shell: bash
         run: |
-          if [ -z "${OPENAI_API_KEY:-}" ]; then
-            echo "FALHA TÉCNICA: configure o secret OPENAI_API_KEY no repositório para habilitar reapuração e redação automática."
+          if [ -z "${ANTHROPIC_API_KEY:-}" ]; then
+            echo "FALHA TÉCNICA: configure o secret ANTHROPIC_API_KEY no repositório para habilitar reapuração e redação automática."
             exit 2
           fi
-          echo "Credencial de redação disponível."
+          echo "Credencial Anthropic disponível."
 
       - name: Validar scripts críticos
         run: |
