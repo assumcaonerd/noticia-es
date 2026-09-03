@@ -66,6 +66,14 @@ const noticiasAutoRedacao20260901094500 = [
   fonteNome: 'Vídeo do encontro na ASPRA-ES e resultado da eleição da entidade',
   fonteUrl: '',
   fontesAdicionais: [],
+  aeo: [
+    { pergunta: 'O que aconteceu?', resposta: 'A Chapa 7 venceu a eleição da ASPRA-ES com 1.604 votos, derrotando a Chapa 22, ligada ao grupo que comandava a associação havia oito anos e que recebeu apoio político público de Lorenzo Pazolini na véspera da votação.' },
+    { pergunta: 'Quem está envolvido?', resposta: 'Lorenzo Pazolini, a direção da ASPRA-ES, o Sargento Eugênio, o Sargento Ted Candeias Silva, candidato da Chapa 22, e o Sargento Leonardo Pinheiro, o Sargento Léo, que liderou a Chapa 7 vencedora.' },
+    { pergunta: 'Onde aconteceu?', resposta: 'A disputa ocorreu na ASPRA-ES, associação que representa policiais e bombeiros militares do Espírito Santo. A reunião política citada na matéria foi realizada na sede da própria entidade.' },
+    { pergunta: 'Quando aconteceu?', resposta: 'Pazolini participou da reunião na ASPRA no domingo, 30 de agosto de 2026. A eleição da entidade ocorreu no dia seguinte, 31 de agosto de 2026.' },
+    { pergunta: 'Por que isso importa?', resposta: 'O resultado teve repercussão política porque a Chapa 22 recebeu apoio público de Pazolini na reta final, enquanto a Chapa 7 venceu defendendo mudança e maior foco da associação nas reivindicações da categoria.' },
+    { pergunta: 'Qual foi o resultado?', resposta: 'A Chapa 7 recebeu 1.604 votos, equivalentes a 52,56%, contra 1.434 votos, ou 46,99%, da Chapa 22. A diferença foi de 170 votos, aproximadamente 5,6 pontos percentuais.' }
+  ],
   automatico: false,
   publicadoEm: '2026-09-01T12:45:00.000Z'
 }
