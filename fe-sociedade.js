@@ -54,7 +54,7 @@ titulo:'Pastor Josias Júnior completa 59 anos a serviço da Palavra e da comuni
 categoria:'Fé e Sociedade',
 data:'2026-09-03',
 publicadoEm:'2026-09-03T17:54:00-03:00',
-imagem:'https://i.ibb.co/HLGfpLL8/image.png',
+imagem:'imagens/pastor-josias-junior-59-anos.png',
 legendaImagem:'Pastor Josias Júnior, gerente de Comunicação da Igreja Cristã Maranata.',
 resumo:'Nascido em Recife em 3 de setembro de 1967, o gerente de Comunicação da ICM é voz da Rádio Maanaim, apresentador das Conversas Bíblicas e um dos nomes que levaram o anúncio de “Maranata, o Senhor Jesus vem” às plataformas digitais.',
 conteudo:`<p>A paz do Senhor Jesus.</p>
