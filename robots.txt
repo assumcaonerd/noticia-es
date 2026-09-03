@@ -1,5 +1,19 @@
 User-agent: *
 Allow: /
 
+# ChatGPT Search: permite descoberta, resumo, citação e linkagem das matérias.
+User-agent: OAI-SearchBot
+Allow: /
+
+# Acesso quando o usuário pede ao ChatGPT para abrir uma página do site.
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
 Sitemap: https://noticiaes.com.br/sitemap.xml
 Sitemap: https://noticiaes.com.br/sitemap-news.xml
