@@ -30,4 +30,4 @@ const noticiasAutoRedacao20260904085400 = [
 }
 ];
 window.noticiasAutoRedacao20260904085400 = noticiasAutoRedacao20260904085400;
-if (Array.isArray(window.noticias)) window.noticias.unshift(...noticiasAutoRedacao20260904085400);
+if (typeof noticias !== 'undefined' && Array.isArray(noticias)) noticias.unshift(...noticiasAutoRedacao20260904085400);
