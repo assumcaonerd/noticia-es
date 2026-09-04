@@ -1,0 +1,35 @@
+name: Espelhar imagem Moraes Mendonça
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/espelhar-imagem-moraes-mendonca.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  espelhar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Baixar foto oficial
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p imagens
+          curl --fail --location --retry 3 --retry-delay 2 \
+            --user-agent 'Mozilla/5.0' \
+            'https://sbt-news-assets-prod.s3.sa-east-1.amazonaws.com/andre_mendonca_alexandre_de_moraes_552d681344.jpg' \
+            --output imagens/moraes-mendonca-vorcaro.jpg
+          test -s imagens/moraes-mendonca-vorcaro.jpg
+          file imagens/moraes-mendonca-vorcaro.jpg
+      - name: Salvar imagem no repositório
+        shell: bash
+        run: |
+          git config user.name 'Notícia ES Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add imagens/moraes-mendonca-vorcaro.jpg
+          git commit -m 'fix(img): hospeda foto de Moraes e Mendonça no Notícia ES'
+          git push origin HEAD:main
