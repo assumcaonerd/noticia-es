@@ -1,0 +1,34 @@
+name: Publicar matéria Casas Bahia ES
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publicar-casas-bahia-es.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Gerar página e derivados
+        run: |
+          node scripts/gerar-paginas-og.mjs
+          node scripts/reposicionar-aeo.mjs
+          node scripts/enriquecer-ai-schema.mjs
+          node scripts/gerar-sitemap.mjs
+          node scripts/gerar-rss-llms.mjs
+      - name: Salvar publicação
+        shell: bash
+        run: |
+          git config user.name 'Notícia ES Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add m/casas-bahia-demissoes-es-capitao-assumcao-liminar.html sitemap.xml sitemap-news.xml rss.xml llms.txt
+          git commit -m 'feat: gera página da matéria Casas Bahia no ES'
+          git push origin HEAD:main
