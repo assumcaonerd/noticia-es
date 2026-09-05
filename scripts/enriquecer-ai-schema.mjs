@@ -16,7 +16,7 @@ function texto(html='') {
 
 function capturar(html,re,f=''){ const m=String(html).match(re); return m?texto(m[1]):f; }
 
-function faqSchema(html) {
+function faqSchema(html, permitirCapitao=false) {
   const bloco = html.match(/<section class="aeo-resumo"[\s\S]*?<\/section>/i)?.[0] || '';
   if (!bloco) return null;
   const itens=[];
@@ -24,7 +24,7 @@ function faqSchema(html) {
   let m;
   while((m=re.exec(bloco))){
     const pergunta=texto(m[1]); const resposta=texto(m[2]);
-    if(!pergunta||!resposta||/capit[aã]o\s+assum[cç][aã]o/i.test(`${pergunta} ${resposta}`)) continue;
+    if(!pergunta||!resposta||(!permitirCapitao && /capit[aã]o\s+assum[cç][aã]o/i.test(`${pergunta} ${resposta}`))) continue;
     itens.push({ '@type':'Question', name:pergunta, acceptedAnswer:{ '@type':'Answer', text:resposta } });
   }
   return itens.length ? { '@context':'https://schema.org', '@type':'FAQPage', mainEntity:itens.slice(0,6) } : null;
@@ -57,7 +57,8 @@ for(const arquivo of arquivos){
     html=html.replace('</head>',`  <link rel="alternate" type="application/rss+xml" title="Notícia ES RSS" href="${SITE}/rss.xml">\n</head>`);
   }
   const blocos=[];
-  const faq=faqSchema(html);
+  const permitirCapitao = arquivo === 'folha-moraes-evangelicos-capitao-assumcao-multa-ales.html';
+  const faq=faqSchema(html, permitirCapitao);
   if(faq) blocos.push(`<script id="aeo-faq-schema" type="application/ld+json">${JSON.stringify(faq).replace(/</g,'\\u003c')}</script>`);
   const bc=breadcrumbSchema(html,arquivo);
   blocos.push(`<script id="breadcrumb-schema" type="application/ld+json">${JSON.stringify(bc).replace(/</g,'\\u003c')}</script>`);
