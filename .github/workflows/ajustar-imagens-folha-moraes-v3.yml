@@ -1,0 +1,141 @@
+name: Ajustar imagens matéria Folha Moraes v3
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ajustar-imagens-folha-moraes-v3.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  ajustar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Preparar conversão de imagens
+        run: python -m pip install --quiet pillow
+
+      - name: Atualizar fonte editorial mantendo posições
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          p=Path('auto-redacao-20260905-154500.js')
+          s=p.read_text(encoding='utf-8')
+          s=s.replace('legendaImagem: "Díptico: Capitão Assumção na tribuna da Ales e o ministro Alexandre de Moraes. A multa diária de R$ 80 mil já soma R$ 56.880.000 até 5 de setembro de 2026.",','legendaImagem: "Capitão Assumção na tribuna da Ales e o ministro Alexandre de Moraes. A multa diária de R$ 80 mil já soma R$ 56.880.000 até 5 de setembro de 2026.",')
+
+          def change(num, old_origin, new_origin, caption=None, alt='Imagem da matéria', count=1):
+              global s
+              pat=rf'<figure><img src="imagens/folha-moraes-evangelicos-{num}\.jpg" alt="[^"]*" loading="lazy" data-origem="{re.escape(old_origin)}"></figure>'
+              found=len(re.findall(pat,s))
+              assert found==count, f'{num}: esperadas {count}, encontradas {found}'
+              fig=f'<figure><img src="imagens/folha-moraes-evangelicos-{num}.jpg" alt="{alt}" loading="lazy" data-origem="{new_origin}">'
+              if caption is not None: fig+=f'<figcaption>{caption}</figcaption>'
+              fig+='</figure>'
+              s=re.sub(pat,lambda _:fig,s)
+
+          change('01','https://ibb.co/6JcX3cpx','https://ibb.co/bRCScW0n','Acuado, Moraes mexeu num vespeiro: evangélicos','Acuado, Moraes mexeu num vespeiro: evangélicos')
+          change('02','https://ibb.co/ycp3jwMp','https://ibb.co/q3g4Q0Mm','“Se eu tiver que voltar para a prisão, que seja como da outra vez: por falar a verdade: Moraes não passa de um LADRÃO!”','Se eu tiver que voltar para a prisão, que seja como da outra vez: por falar a verdade: Moraes não passa de um LADRÃO!',2)
+          change('03','https://ibb.co/wFKmW11z','https://ibb.co/ymXxBJyh','Presidente da Assembléia Legislativa do Espírito Santo foi o responsável por devolver a liberdade de Capitão Assumção','Presidente da Assembléia Legislativa do Espírito Santo foi o responsável por devolver a liberdade de Capitão Assumção')
+          change('04','https://ibb.co/N2W5xmpV','https://ibb.co/N2W5xmpV','Imagem histórica: deputados votam pela liberdade do deputado Capitão Assumção','Imagem histórica: deputados votam pela liberdade do deputado Capitão Assumção')
+          change('05','https://ibb.co/mrxCVW5Z','https://ibb.co/mrxCVW5Z','Deputado Capitão Assumção faz alerta a líder religiosos: "Vão criminalizar a bíblia no Brasil"','Deputado Capitão Assumção faz alerta a líder religiosos: Vão criminalizar a bíblia no Brasil')
+          change('06','https://ibb.co/XrGZ3vb4','https://ibb.co/hFQk3q7C',None)
+          assert 'data-origem="https://ibb.co/8L7bkZLM"' in s
+          p.write_text(s,encoding='utf-8')
+
+      - name: Baixar e converter as cinco imagens alteradas
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p imagens /tmp/nes-img
+          cat > /tmp/nes-img/map.tsv <<'EOF'
+          https://ibb.co/bRCScW0n	folha-moraes-evangelicos-01.jpg
+          https://ibb.co/q3g4Q0Mm	folha-moraes-evangelicos-02.jpg
+          https://ibb.co/ymXxBJyh	folha-moraes-evangelicos-03.jpg
+          https://ibb.co/hFQk3q7C	folha-moraes-evangelicos-06.jpg
+          https://ibb.co/8L7bkZLM	folha-moraes-evangelicos-07.jpg
+          EOF
+          while IFS=$'\t' read -r PAGE NAME; do
+            echo "Página $PAGE -> $NAME"
+            curl --fail --location --retry 4 --user-agent 'Mozilla/5.0' "$PAGE" -o /tmp/nes-img/page.html
+            python - <<'PY'
+          import html,re
+          from pathlib import Path
+          s=Path('/tmp/nes-img/page.html').read_text(encoding='utf-8',errors='ignore')
+          for pat in [r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)',r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']']:
+              m=re.search(pat,s,re.I)
+              if m:
+                  Path('/tmp/nes-img/direct.txt').write_text(html.unescape(m.group(1)),encoding='utf-8');break
+          else: raise SystemExit('og:image não encontrado')
+          PY
+            DIRECT="$(cat /tmp/nes-img/direct.txt)"
+            curl --fail --location --retry 4 --user-agent 'Mozilla/5.0' "$DIRECT" -o /tmp/nes-img/raw
+            python - "$NAME" <<'PY'
+          from PIL import Image, ImageOps
+          from pathlib import Path
+          import sys
+          name=sys.argv[1]
+          im=Image.open('/tmp/nes-img/raw')
+          im=ImageOps.exif_transpose(im).convert('RGB')
+          im.save(Path('imagens')/name,format='JPEG',quality=94,optimize=True)
+          print(name,im.size)
+          PY
+            test -s "imagens/$NAME"
+          done < /tmp/nes-img/map.tsv
+
+      - name: Regenerar página e validar cada posição
+        shell: bash
+        run: |
+          set -euo pipefail
+          node scripts/gerar-paginas-og.mjs
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('m/folha-moraes-evangelicos-capitao-assumcao-multa-ales.html')
+          s=p.read_text(encoding='utf-8').replace('src="imagens/folha-moraes-evangelicos-','src="https://noticiaes.com.br/imagens/folha-moraes-evangelicos-')
+          p.write_text(s,encoding='utf-8')
+          PY
+          node scripts/reposicionar-aeo.mjs
+          node scripts/enriquecer-ai-schema.mjs
+          node scripts/gerar-sitemap.mjs
+          node scripts/gerar-rss-llms.mjs
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          s=Path('m/folha-moraes-evangelicos-capitao-assumcao-multa-ales.html').read_text(encoding='utf-8')
+          expected=[
+          ('01','https://ibb.co/bRCScW0n','Acuado, Moraes mexeu num vespeiro: evangélicos'),
+          ('02','https://ibb.co/q3g4Q0Mm','Moraes não passa de um LADRÃO!'),
+          ('03','https://ibb.co/ymXxBJyh','Presidente da Assembléia Legislativa do Espírito Santo'),
+          ('04','https://ibb.co/N2W5xmpV','Imagem histórica: deputados votam pela liberdade do deputado Capitão Assumção'),
+          ('05','https://ibb.co/mrxCVW5Z','Vão criminalizar a bíblia no Brasil'),
+          ('06','https://ibb.co/hFQk3q7C',None),
+          ('07','https://ibb.co/8L7bkZLM',None)]
+          pos=[]
+          for num,origin,caption in expected:
+              u=f'https://noticiaes.com.br/imagens/folha-moraes-evangelicos-{num}.jpg'
+              assert u in s, u
+              assert origin in s, origin
+              if caption: assert caption in s, caption
+              pos.append(s.index(u))
+              im=Image.open(f'imagens/folha-moraes-evangelicos-{num}.jpg'); im.verify()
+          assert pos==sorted(pos),pos
+          assert s.count('https://noticiaes.com.br/imagens/folha-moraes-evangelicos-02.jpg')==2
+          assert 'Díptico:' not in s
+          print('ORDEM VALIDADA',pos)
+          PY
+
+      - name: Salvar atualização
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'Notícia ES Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add auto-redacao-20260905-154500.js imagens/folha-moraes-evangelicos-01.jpg imagens/folha-moraes-evangelicos-02.jpg imagens/folha-moraes-evangelicos-03.jpg imagens/folha-moraes-evangelicos-06.jpg imagens/folha-moraes-evangelicos-07.jpg m/folha-moraes-evangelicos-capitao-assumcao-multa-ales.html sitemap.xml sitemap-news.xml rss.xml llms.txt
+          git commit -m 'fix: corrige imagens e legendas da matéria Folha Moraes'
+          git push origin HEAD:main
