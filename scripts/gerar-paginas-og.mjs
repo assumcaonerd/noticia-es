@@ -95,8 +95,9 @@ function tipoSchema(tipo = '') {
 
 function montarNewsArticle(n, url, imagem) {
   const publicado = n.publicadoEm || (n.data ? `${n.data}T12:00:00-03:00` : new Date().toISOString());
+  const permitirCapitao = n.permitirCapitaoNoAeo === true;
   const entidades = Array.isArray(n.entidades) ? n.entidades
-    .filter(e => e && e.nome && !/capit[aã]o\s+assum[cç][aã]o/i.test(String(e.nome)))
+    .filter(e => e && e.nome && (permitirCapitao || !/capit[aã]o\s+assum[cç][aã]o/i.test(String(e.nome))))
     .slice(0, 20)
     .map(e => ({ '@type': tipoSchema(e.tipo), name: String(e.nome) })) : [];
   return {
@@ -114,7 +115,11 @@ function montarNewsArticle(n, url, imagem) {
 }
 
 function blocoAeo(n) {
-  const itens = Array.isArray(n.aeo) ? n.aeo.filter(x => x?.pergunta && x?.resposta).filter(x => !/capit[aã]o\s+assum[cç][aã]o/i.test(`${x.pergunta} ${x.resposta}`)).slice(0, 6) : [];
+  const permitirCapitao = n.permitirCapitaoNoAeo === true;
+  const itens = Array.isArray(n.aeo) ? n.aeo
+    .filter(x => x?.pergunta && x?.resposta)
+    .filter(x => permitirCapitao || !/capit[aã]o\s+assum[cç][aã]o/i.test(`${x.pergunta} ${x.resposta}`))
+    .slice(0, 6) : [];
   if (!itens.length) return '';
   return `<section class="aeo-resumo" aria-labelledby="aeo-titulo"><h2 id="aeo-titulo">Em resumo</h2>${itens.map(x => `<div class="aeo-item"><strong>${escapar(x.pergunta)}</strong><p>${escapar(x.resposta)}</p></div>`).join('')}</section>`;
 }
@@ -127,12 +132,14 @@ function fontesHtml(n) {
     const nome = typeof f === 'string' ? 'Fonte adicional' : (f?.nome || 'Fonte adicional');
     if (/^https:\/\//i.test(String(url || '')) && !fontes.some(x => x.url === url)) fontes.push({ nome, url });
   }
-  if (!fontes.length) return '';
+  const textos = Array.isArray(n.fontesTexto) ? n.fontesTexto.filter(Boolean).map(String) : [];
+  if (!fontes.length && !textos.length) return '';
   const semLinks = String(n.categoria || '').toLowerCase() === 'fé e sociedade';
-  const itens = semLinks
+  const itensLinks = semLinks
     ? fontes.map(f => `<li>${escapar(f.nome)}</li>`).join('')
     : fontes.map(f => `<li><a href="${escapar(f.url)}" rel="nofollow noopener" target="_blank">${escapar(f.nome)}</a></li>`).join('');
-  return `<section class="fontes-materia"><h2>Fontes</h2><ul>${itens}</ul></section>`;
+  const itensTexto = textos.map(t => `<li>${escapar(t)}</li>`).join('');
+  return `<section class="fontes-materia"><h2>Fontes</h2><ul>${itensLinks}${itensTexto}</ul></section>`;
 }
 
 function paginaHTML(n, imagem) {
@@ -156,7 +163,7 @@ function paginaHTML(n, imagem) {
   <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapar(titulo)}"><meta name="twitter:description" content="${escapar(resumo)}">
   <script type="application/ld+json">${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>
   <link rel="stylesheet" href="../estilo.css"><link rel="stylesheet" href="../imagem-policy.css">
-  <style>.materia-estatica{max-width:860px;margin:0 auto;padding:28px 16px}.materia-estatica h1{line-height:1.08}.materia-resumo{font-size:1.15rem}.materia-meta{opacity:.75;margin:10px 0 22px}.materia-capa{width:100%;height:auto;border-radius:8px}.conteudo-materia p{line-height:1.72;font-size:1.08rem}.conteudo-materia h2{margin-top:30px}.aeo-resumo{margin:28px 0;padding:18px;border:1px solid #ddd;border-radius:8px}.aeo-item p{margin-top:5px}.fontes-materia{margin-top:34px}</style>
+  <style>.materia-estatica{max-width:860px;margin:0 auto;padding:28px 16px}.materia-estatica h1{line-height:1.08}.materia-resumo{font-size:1.15rem}.materia-meta{opacity:.75;margin:10px 0 22px}.materia-capa{width:100%;height:auto;border-radius:8px}.conteudo-materia p{line-height:1.72;font-size:1.08rem}.conteudo-materia h2{margin-top:30px}.conteudo-materia figure{margin:26px 0}.conteudo-materia figure img{width:100%;height:auto;border-radius:8px}.destaque-numero{margin:28px 0;padding:18px;border:2px solid #222;border-radius:8px;text-align:center;font-size:1.28rem}.aeo-resumo{margin:28px 0;padding:18px;border:1px solid #ddd;border-radius:8px}.aeo-item p{margin-top:5px}.fontes-materia{margin-top:34px}</style>
 </head><body data-pagina="materia">
 <header class="site-header"><div class="container header-inner"><a class="logo" href="../index.html">Notícia <span>ES</span></a><nav class="nav-principal" aria-label="Navegação principal"><ul><li><a href="../index.html">Início</a></li><li><a href="../index.html?categoria=politica-es">Política ES</a></li><li><a href="../index.html?categoria=seguranca-publica">Segurança Pública</a></li><li><a href="../index.html?categoria=politica-nacional">Política Nacional</a></li><li><a href="../index.html?categoria=opiniao">Opinião</a></li><li><a href="../index.html?categoria=fe-e-sociedade">Fé e Sociedade</a></li></ul></nav></div></header>
 <main class="materia"><article class="materia-estatica">
