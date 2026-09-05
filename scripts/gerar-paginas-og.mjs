@@ -148,7 +148,7 @@ function paginaHTML(n, imagem) {
   const url = `${SITE}/m/${n.slug}.html`;
   const img = ehBoaParaWhatsapp(imagem) ? imagem : '';
   const schema = montarNewsArticle(n, url, img);
-  const conteudo = sanitizarHtml(n.conteudo || '');
+  const conteudo = sanitizarHtml(n.conteudo || '').replace(/src=(["'])imagens\//gi, `src=$1${SITE}/imagens/`);
   const data = n.data || '';
   const categoria = n.categoria || 'Notícia';
   const legenda = n.legendaImagem || titulo;
