@@ -1,0 +1,86 @@
+name: Publicar matéria Folha Moraes evangélicos
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publicar-folha-moraes-evangelicos.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Baixar e hospedar imagens da matéria
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p imagens /tmp/nes-img
+          python - <<'PY'
+          from pathlib import Path
+          links = [
+            ('https://ibb.co/pjVV7BCL','folha-moraes-evangelicos-capitao-capa.jpg'),
+            ('https://ibb.co/6JcX3cpx','folha-moraes-evangelicos-01.jpg'),
+            ('https://ibb.co/ycp3jwMp','folha-moraes-evangelicos-02.jpg'),
+            ('https://ibb.co/wFKmW11z','folha-moraes-evangelicos-03.jpg'),
+            ('https://ibb.co/N2W5xmpV','folha-moraes-evangelicos-04.jpg'),
+            ('https://ibb.co/mrxCVW5Z','folha-moraes-evangelicos-05.jpg'),
+            ('https://ibb.co/XrGZ3vb4','folha-moraes-evangelicos-06.jpg'),
+            ('https://ibb.co/8L7bkZLM','folha-moraes-evangelicos-07.jpg'),
+          ]
+          Path('/tmp/nes-img/map.tsv').write_text('\n'.join(f'{u}\t{n}' for u,n in links), encoding='utf-8')
+          PY
+          while IFS=$'\t' read -r PAGE NAME; do
+            curl --fail --location --retry 3 --user-agent 'Mozilla/5.0' "$PAGE" -o /tmp/nes-img/page.html
+            python - "$NAME" <<'PY'
+          import html, re, sys
+          from pathlib import Path
+          name=sys.argv[1]
+          s=Path('/tmp/nes-img/page.html').read_text(encoding='utf-8', errors='ignore')
+          pats=[
+            r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)',
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']'
+          ]
+          for p in pats:
+            m=re.search(p,s,re.I)
+            if m:
+              Path('/tmp/nes-img/direct.txt').write_text(html.unescape(m.group(1)),encoding='utf-8')
+              break
+          else:
+            raise SystemExit(f'og:image não encontrado para {name}')
+          PY
+            DIRECT="$(cat /tmp/nes-img/direct.txt)"
+            curl --fail --location --retry 3 --user-agent 'Mozilla/5.0' "$DIRECT" -o /tmp/nes-img/raw
+            if command -v magick >/dev/null 2>&1; then
+              magick /tmp/nes-img/raw -quality 94 "imagens/$NAME"
+            elif command -v convert >/dev/null 2>&1; then
+              convert /tmp/nes-img/raw -quality 94 "imagens/$NAME"
+            else
+              cp /tmp/nes-img/raw "imagens/$NAME"
+            fi
+            test -s "imagens/$NAME"
+            file "imagens/$NAME"
+          done < /tmp/nes-img/map.tsv
+      - name: Gerar página, AEO e descoberta
+        run: |
+          node scripts/gerar-paginas-og.mjs
+          node scripts/reposicionar-aeo.mjs
+          node scripts/enriquecer-ai-schema.mjs
+          node scripts/gerar-sitemap.mjs
+          node scripts/gerar-rss-llms.mjs
+      - name: Salvar publicação
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'Notícia ES Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          test -f m/folha-moraes-evangelicos-capitao-assumcao-multa-ales.html
+          git add imagens/folha-moraes-evangelicos-capitao-capa.jpg imagens/folha-moraes-evangelicos-0*.jpg m/folha-moraes-evangelicos-capitao-assumcao-multa-ales.html sitemap.xml sitemap-news.xml rss.xml llms.txt
+          git commit -m 'feat: publica matéria Folha Moraes evangélicos no ES'
+          git push origin HEAD:main
