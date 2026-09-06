@@ -1,13 +1,13 @@
 {
-  "geradoEm": "2026-09-06T20:05:39.364Z",
+  "geradoEm": "2026-09-06T20:42:23.445Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 10 matérias.",
   "diagnostico": {
-    "totalPendentes": 69,
-    "bloqueadas": 10,
+    "totalPendentes": 63,
+    "bloqueadas": 5,
     "bloqueadasEditoriais": 1,
     "semImagem": 0,
     "duplicadasBasicas": 1,
-    "duplicadasSemanticas": 1,
+    "duplicadasSemanticas": 3,
     "foraCategorias": 3
   },
   "quantidadeCandidatas": 20,
@@ -23,20 +23,7 @@
       "resumoFonte": "Menina estava no colo da mãe quando o carro bateu contra um barranco. Motorista não tinha CNH e foi autuado por homicídio culposo na direção de veículo",
       "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788714526885_dm_video_44.jpg",
       "descobertaEm": "2026-09-06T20:01:17.123Z",
-      "rejeicaoEditorial": "texto curto: 250 palavras"
-    },
-    {
-      "id": "79c6fcb160070912",
-      "titulo": "Homem em situação de rua é encontrado morto em Colina de Laranjeiras",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/homem-em-situacao-de-rua-e-encontrado-morto-em-colina-de-laranjeiras-0926",
-      "dataFonte": "2026-09-06T14:58:36.000Z",
-      "resumoFonte": "A Polícia Militar foi acionada após relato de tiros na região. O corpo foi levado para o Instituto Médico-Legal de Vitória",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788704917703_homem_de_30_anos_e_encontrado_morto_em_colina_das_laranjeiras_na_serra.jpg",
-      "descobertaEm": "2026-09-06T20:01:17.123Z",
-      "rejeicaoEditorial": "texto curto: 277 palavras"
+      "rejeicaoEditorial": "texto curto: 628 palavras"
     },
     {
       "id": "2e5f5294279b3b39",
@@ -48,7 +35,8 @@
       "dataFonte": "2026-09-06T15:23:01.000Z",
       "resumoFonte": "BRASÍLIA, DF (FOLHAPRESS) - O senador e candidato à Presidência Flávio Bolsonaro (PL) cobrou neste domingo (5) voto da ministra Cármen Lúcia, do STF (Supremo Tribunal Feder...",
       "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1784466148342_dsc08309.jpg",
-      "descobertaEm": "2026-09-06T20:01:17.123Z"
+      "descobertaEm": "2026-09-06T20:01:17.123Z",
+      "rejeicaoEditorial": "texto curto: 542 palavras"
     },
     {
       "id": "10e5a930a1c23987",
@@ -87,16 +75,28 @@
       "descobertaEm": "2026-09-06T20:01:17.123Z"
     },
     {
-      "id": "2c02f26ac311cc93",
-      "titulo": "Cármen Lúcia vira peça-chave na disputa por hegemonia no STF",
+      "id": "cc6f0f1bddbb8d06",
+      "titulo": "Potiguar vence QS 4000 em Guarapari (ES)",
       "categoria": "Política ES",
       "radar": null,
-      "fonteNome": "A Gazeta - Política",
-      "urlFonte": "https://www.agazeta.com.br/es/politica/carmen-lucia-vira-peca-chave-na-disputa-por-hegemonia-no-stf-0926",
-      "dataFonte": "2026-09-06T12:42:08.000Z",
-      "resumoFonte": "BRASÍLIA, DF (FOLHAPRESS) - A ministra Cármen Lúcia, do STF (Supremo Tribunal Federal), vê erros tanto do ministro André Mendonça quanto do ministro Alexandre de Moraes nas...",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1776104670283_2023_06_30_a_ministra_carmen_lucia_do_stf_e_do_tse_1792937_article.jpeg",
-      "descobertaEm": "2026-09-06T20:01:17.123Z"
+      "fonteNome": "YouTube A Gazeta",
+      "urlFonte": "https://www.youtube.com/shorts/C9wRf-nACRo",
+      "dataFonte": "2026-09-06T20:40:11.000Z",
+      "resumoFonte": "🏆🏄‍♂️ O REI DO ULÉ? Jadson André conquistou pela segunda vez consecutiva o título do QS 4000 da WSL em Guarapari. O Potiguar venceu o vice-líder do ranking sul-americano e obteve o primeiro título da temporada. 5 h 📲 Leia mais em www.agazeta.com.br #shorts #surf #qs4000 #wsl #guarapari",
+      "imagem": "https://i.ytimg.com/vi/C9wRf-nACRo/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLBUo9qiiVtdCg0NZBPXns6us_WD4Q&usqp=CCk",
+      "descobertaEm": "2026-09-06T20:41:54.896Z"
+    },
+    {
+      "id": "4153b24a9cefe446",
+      "titulo": "Dupla de bicicleta tenta arrancar cordão de idoso no Centro de Guarapari",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "YouTube Folha Vitória",
+      "urlFonte": "https://www.youtube.com/shorts/GmBqyuNBxJU",
+      "dataFonte": "2026-09-06T20:15:47.000Z",
+      "resumoFonte": "🚨 Uma câmera de videomonitoramento registrou o momento em que uma dupla de bicicleta tentou roubar o cordão de um idoso que caminhava pelo Centro de Guarapari, na última sexta-feira (4). A vítima carregava duas sacolas de compras quando foi surpreendida pelos suspeitos. Nas imagens, os dois aparecem passando de bicicleta pela rua. Depois, eles faz",
+      "imagem": "https://i.ytimg.com/vi/GmBqyuNBxJU/hq720_2.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLDR_gCPtu-1MugkK3xn4nKaIMHPIg",
+      "descobertaEm": "2026-09-06T20:41:54.896Z"
     },
     {
       "id": "d15106b59210215d",
@@ -195,30 +195,6 @@
       "descobertaEm": "2026-09-06T20:01:17.123Z"
     },
     {
-      "id": "e571762b895bd68e",
-      "titulo": "Flávio Bolsonaro cobra voto de Cármen Lúcia para investigar Moraes no STF",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Correio Braziliense - Política",
-      "urlFonte": "https://www.correiobraziliense.com.br/politica/2026/09/7494952-flavio-bolsonaro-cobra-voto-de-carmen-lucia-para-investigar-moraes-no-stf.html",
-      "dataFonte": "2026-09-06T10:47:43.000Z",
-      "resumoFonte": "O candidato à presidência da República convocou os apoiadores para as ruas afirmando que as multidões farão a Suprema Corte investigar o ministro formalmente",
-      "imagem": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/08/18/675x450/1_ept18082026ef28-67453905.jpg?20260830140914?20260830140914",
-      "descobertaEm": "2026-09-06T20:01:17.123Z"
-    },
-    {
-      "id": "de3f5c9fef92167a",
-      "titulo": "Corrupção, defesa da democracia, combate ao crime: Quaest mostra o que mais pesa na escolha do eleitor",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/06/corrupcao-defesa-da-democracia-combate-ao-crime-quaest-mostra-o-que-mais-pesa-na-escolha-do-eleitor.ghtml",
-      "dataFonte": "2026-09-06T06:49:29.000Z",
-      "resumoFonte": "Quaest, 1º turno: Lula, 37%; Flávio Bolsonaro, 29%; Cury, 10%; Renan, 3%; Caiado, 1%; Zema Pesquisa Quaest divulgada neste domingo (6) aponta quais são as características do candidato que os eleitores consideram ser as mais importantes na decisão do voto para presidente. O levantamento foi encomendado pelo jornal O Globo e pela Globo. 31% dos…",
-      "imagem": "https://s2-g1.glbimg.com/NI-a1KES5oCwsk3Sc8RvwZlINyU=/1464x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/f/y5MJIxQCAHBhm9YtSOFg/presidenciaveis.jpg",
-      "descobertaEm": "2026-09-06T20:01:17.123Z"
-    },
-    {
       "id": "0c23b1be45465901",
       "titulo": "Exército Brasileiro reconhece atuação das Farc no Amazonas e aumenta vigilância",
       "categoria": "Política Nacional",
@@ -253,16 +229,42 @@
       "resumoFonte": "Diante de uma fileira de cadáveres cobertos por invólucros brancos, o presidente da Colômbia, Abelardo de la Espriella, anunciou o resultado de uma das maiores operações militares realizadas no país nos últimos anos. Ao lado do ministro da Defesa, Jorge Eduardo Mora López, e da cúpula das forças de segurança , o chefe de Estado afirmou que 23…",
       "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/colombia-910x568.jpg.webp",
       "descobertaEm": "2026-09-06T20:01:17.123Z"
+    },
+    {
+      "id": "f77cba29cc999434",
+      "titulo": "Caiado cobra credibilidade do STF e diz que indicará mulheres se eleito",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/caiado-cobra-credibilidade-do-stf-e-diz-que-indicara-mulheres-se-eleito/",
+      "dataFonte": "2026-09-06T20:33:09.000Z",
+      "resumoFonte": "Em meio a críticas à Suprema Corte, candidato justificou que nunca se vê ministras \"constrangerem o Brasil\"",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/01/55049818956_bbacf3e6b1_o-e1774884435372.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-06T20:39:11.855Z"
+    },
+    {
+      "id": "0bf0bc54a938f6d0",
+      "titulo": "Governo do Irã aumentará preço da gasolina para grandes usuários",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governo-do-ira-aumentara-preco-da-gasolina-para-grandes-usuarios/",
+      "dataFonte": "2026-09-06T20:09:49.000Z",
+      "resumoFonte": "Motoristas ainda podem comprar até 60 litros a 15 mil riais por litro e mais 50 litros a 30 mil riais por litro",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2022binary_LYNXMPEI710HV-FILEDIMAGE.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-06T20:39:11.855Z"
     }
   ],
-  "reapuradoEm": "2026-09-06T20:13:04.843Z",
+  "reapuradoEm": "2026-09-06T20:52:40.494Z",
   "diagnosticoReapuracao": {
     "candidatas": 20,
     "produzidas": 0,
     "rejeitadas": 2,
     "errosTecnicos": 0,
     "chamadasIa": 2,
+    "geracoesModelo": 8,
     "modelo": "qwen2.5:3b",
-    "provedor": "Ollama local"
+    "provedor": "Ollama local",
+    "estrategia": "redação em blocos"
   }
 }
