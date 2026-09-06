@@ -8,7 +8,7 @@ titulo:'A conduta do servo diante de Deus, dos irmãos e do mundo',
 categoria:'Fé e Sociedade',
 data:'2026-09-06',
 publicadoEm:'2026-09-06T17:49:00-03:00',
-imagem:'https://ibb.co/PGPLbJQB',
+imagem:'https://i.ibb.co/HTbSMRdm/image.png',
 legendaImagem:'Pastores Wallace Rozetti, Douglas Panghero, Alexandre Gueiros, Gilson Sousa e Gerson Belutti ao término da Escola Bíblica Dominical de 06/09/26',
 resumo:'Escola Bíblica Dominical da Igreja Cristã Maranata aprofunda Mateus 7 e destaca humildade, misericórdia, prudência, oração, comunhão e perseverança na vida do servo.',
 conteudo:`<p><strong>Escola Bíblica Dominical da Igreja Cristã Maranata, transmitida em 6 de setembro de 2026</strong></p>
@@ -94,11 +94,21 @@ conteudo:`<p><strong>Escola Bíblica Dominical da Igreja Cristã Maranata, trans
 <p>A aula mostrou que a vida cristã exige vigilância constante. O maior perigo é o servo tornar-se especialista nos erros alheios e permanecer cego para suas próprias necessidades espirituais.</p>
 <p>O Espírito Santo deseja produzir em nós uma vida de humildade, misericórdia, prudência e perseverança.</p>
 <p>O ensino pode ser guardado em alguns pontos principais:</p>
-<ol><li>Não assumir a posição de juiz do irmão.</li><li>Reconhecer que somente Deus conhece plenamente o coração.</li><li>Examinar a própria vida antes de apontar a falha do outro.</li><li>Corrigir com amor, temor e propósito de restauração.</li><li>Guardar a comunhão do Corpo de Cristo.</li><li>Tratar as coisas espirituais com reverência e prudência.</li><li>Pedir reconhecendo nossa dependência.</li><li>Buscar ao Senhor de todo o coração.</li><li>Bater com perseverança e fé.</li><li>Tratar o próximo da maneira como desejamos ser tratados.</li></ol>
+<ol>
+<li>Não assumir a posição de juiz do irmão.</li>
+<li>Reconhecer que somente Deus conhece plenamente o coração.</li>
+<li>Examinar a própria vida antes de apontar a falha do outro.</li>
+<li>Corrigir com amor, temor e propósito de restauração.</li>
+<li>Guardar a comunhão do Corpo de Cristo.</li>
+<li>Tratar as coisas espirituais com reverência e prudência.</li>
+<li>Pedir reconhecendo nossa dependência.</li>
+<li>Buscar ao Senhor de todo o coração.</li>
+<li>Bater com perseverança e fé.</li>
+<li>Tratar o próximo da maneira como desejamos ser tratados.</li>
+</ol>
 <p>Foi uma Escola Bíblica de grande alcance para a vida da Igreja. O Senhor nos chamou para uma caminhada na qual a misericórdia prevalece sobre a acusação, a comunhão prevalece sobre as disputas e a dependência do Senhor ocupa o lugar da autossuficiência.</p>
 <p>Que possamos retirar primeiro a trave dos nossos olhos, guardar nossos irmãos em amor e permanecer diante do Senhor, pedindo, buscando e batendo. Ele é o Pai que conhece as necessidades dos seus filhos e permanece fiel em todo o tempo.</p>
-<p><strong>Maranata, o Senhor Jesus vem!</strong></p>
-<p><small>Fontes: <a href="https://www.youtube.com/watch?v=0Z588UTGHtw" target="_blank" rel="noopener noreferrer">transmissão oficial da EBD de 06/09/2026</a>, <a href="https://www.institutoicm.org.br/os-discursos-do-senhor-jesus-o-comportamento-do-servo-do-senhor/" target="_blank" rel="noopener noreferrer">material oficial do Instituto Bíblico da ICM sobre o comportamento do servo</a> e <a href="https://www.igrejacristamaranata.org.br/ebd/" target="_blank" rel="noopener noreferrer">explicação institucional sobre a Escola Bíblica Dominical</a>.</small></p>`,
+<p><strong>Maranata, o Senhor Jesus vem!</strong></p>`,
 autor:'Redação Notícia ES',
 manual:true,
 secaoEspecial:true,
@@ -107,7 +117,7 @@ fonteNome:'Transmissão oficial da Escola Bíblica Dominical da Igreja Cristã M
 fonteUrl:'https://www.youtube.com/watch?v=0Z588UTGHtw',
 fontesAdicionais:[
   {nome:'Instituto Bíblico da Igreja Cristã Maranata',url:'https://www.institutoicm.org.br/os-discursos-do-senhor-jesus-o-comportamento-do-servo-do-senhor/'},
-  {nome:'Igreja Cristã Maranata - Escola Bíblica Dominical',url:'https://www.igrejacristamaranata.org.br/ebd/'}
+  {nome:'Igreja Cristã Maranata | Escola Bíblica Dominical',url:'https://www.igrejacristamaranata.org.br/ebd/'}
 ],
 aeo:[
   {pergunta:'O que aconteceu?',resposta:'A Escola Bíblica Dominical da Igreja Cristã Maranata, transmitida em 6 de setembro de 2026, estudou Mateus 7 e tratou da conduta do servo diante de Deus, dos irmãos e do mundo, com ênfase em não julgar, examinar a própria vida, agir com prudência e perseverar em oração.'},
@@ -121,8 +131,7 @@ entidades:[
   {tipo:'Organization',nome:'Igreja Cristã Maranata'},
   {tipo:'Person',nome:'Douglas Spanghero'},
   {tipo:'Person',nome:'Gerson Belutti'},
-  {tipo:'Person',nome:'Alexandre Guêiros'},
-  {tipo:'Thing',nome:'Escola Bíblica Dominical'}
+  {tipo:'Person',nome:'Alexandre Guêiros'}
 ]};
 const i=noticias.findIndex(n=>n.slug===materia.slug); if(i>=0) noticias[i]=materia; else noticias.unshift(materia);
 })();
