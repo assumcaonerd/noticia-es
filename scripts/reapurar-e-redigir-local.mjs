@@ -111,7 +111,7 @@ async function carregarFontePrincipal(pauta) {
     });
     if (!resp.ok) return '';
     const html = await resp.text();
-    return textoPuro(html).slice(0, 8000);
+    return textoPuro(html).slice(0, 5500);
   } catch {
     return '';
   }
@@ -138,11 +138,11 @@ async function buscarFontesGoogleNews(titulo) {
       const tituloItem = textoPuro(extrairTag(item, 'title'));
       const link = extrairTag(item, 'link');
       const fonteNome = textoPuro(extrairTag(item, 'source')) || 'Google News';
-      const descricao = textoPuro(extrairTag(item, 'description')).slice(0, 450);
+      const descricao = textoPuro(extrairTag(item, 'description')).slice(0, 350);
       if (!tituloItem || !/^https:\/\//i.test(link) || vistas.has(link)) continue;
       vistas.add(link);
       fontes.push({ nome: fonteNome, url: link, titulo: tituloItem, resumo: descricao });
-      if (fontes.length >= 6) break;
+      if (fontes.length >= 5) break;
     }
     return fontes;
   } catch {
@@ -150,10 +150,12 @@ async function buscarFontesGoogleNews(titulo) {
   }
 }
 
-async function chamarOllama(prompt) {
+let geracoesModelo = 0;
+async function chamarOllama(prompt, numPredict = 1150) {
   let ultimoErro = null;
   for (let tentativa = 1; tentativa <= 2; tentativa++) {
     try {
+      geracoesModelo++;
       const resp = await fetch(`${OLLAMA_HOST}/api/generate`, {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
@@ -164,12 +166,12 @@ async function chamarOllama(prompt) {
           format: 'json',
           keep_alive: '10m',
           options: {
-            temperature: 0.2,
+            temperature: 0.15,
             num_ctx: 4096,
-            num_predict: 2600
+            num_predict: numPredict
           }
         }),
-        signal: AbortSignal.timeout(600000)
+        signal: AbortSignal.timeout(420000)
       });
       const data = await resp.json().catch(() => ({}));
       if (!resp.ok) throw new Error(`Ollama ${resp.status}: ${data?.error || 'erro desconhecido'}`);
@@ -179,12 +181,19 @@ async function chamarOllama(prompt) {
       ultimoErro = erro;
       if (tentativa < 2) {
         console.warn(`[reapuracao-local] Ollama falhou na tentativa ${tentativa}; repetindo uma vez: ${erro.message}`);
-        await new Promise(r => setTimeout(r, 3000));
-        continue;
+        await new Promise(r => setTimeout(r, 2500));
       }
     }
   }
   throw ultimoErro || new Error('falha desconhecida no Ollama');
+}
+
+function dossieBase(pauta, textoPrincipal, adicionais) {
+  const dossieFontes = adicionais.map((f, i) =>
+    `FONTE ADICIONAL ${i + 1}\nVeículo: ${f.nome}\nTítulo: ${f.titulo}\nURL: ${f.url}\nResumo disponível: ${f.resumo || 'sem resumo'}`
+  ).join('\n\n');
+
+  return `PAUTA\nTítulo coletado: ${pauta.titulo || ''}\nCategoria: ${pauta.categoria || ''}\nFonte principal: ${pauta.fonteNome || ''}\nURL principal: ${pauta.urlFonte || ''}\nResumo coletado: ${pauta.resumoFonte || ''}\nData da fonte: ${pauta.dataFonte || ''}\n\nTEXTO EXTRAÍDO DA FONTE PRINCIPAL\n${textoPrincipal || '[A página principal não pôde ser extraída. Use somente o resumo e as confirmações adicionais.]'}\n\nFONTES ADICIONAIS\n${dossieFontes}`;
 }
 
 async function reapurarLocal(pauta) {
@@ -201,13 +210,40 @@ async function reapurarLocal(pauta) {
     throw new Error(`reapuração local encontrou apenas ${adicionais.length} fonte(s) adicional(is)`);
   }
 
-  const dossieFontes = adicionais.map((f, i) =>
-    `FONTE ADICIONAL ${i + 1}\nVeículo: ${f.nome}\nTítulo: ${f.titulo}\nURL: ${f.url}\nResumo disponível: ${f.resumo || 'sem resumo'}`
-  ).join('\n\n');
+  const base = dossieBase(pauta, textoPrincipal, adicionais);
+  const regras = `Use SOMENTE fatos sustentados pelo dossiê. Não invente nomes, números, datas, cargos, falas, causas, antecedentes ou consequências. Não crie citações entre aspas. Não copie trechos extensos. Trate alegação como alegação e investigação como investigação. Se não houver base factual suficiente para o bloco pedido, retorne publicar:false.`;
 
-  const prompt = `Você é o núcleo de redação factual do portal Notícia ES. Produza UMA reportagem original em português do Brasil usando SOMENTE o dossiê factual fornecido abaixo. Não invente fatos, números, datas, cargos, declarações ou citações. Se o material for insuficiente, retorne publicar:false.\n\nPAUTA\nTítulo coletado: ${pauta.titulo || ''}\nCategoria: ${pauta.categoria || ''}\nFonte principal: ${pauta.fonteNome || ''}\nURL principal: ${pauta.urlFonte || ''}\nResumo coletado: ${pauta.resumoFonte || ''}\nData da fonte: ${pauta.dataFonte || ''}\n\nTEXTO EXTRAÍDO DA FONTE PRINCIPAL\n${textoPrincipal || '[A página principal não pôde ser extraída. Use apenas o resumo coletado e as confirmações das fontes adicionais.]'}\n\nFONTES ADICIONAIS ENCONTRADAS AUTOMATICAMENTE\n${dossieFontes}\n\nREGRAS OBRIGATÓRIAS\n1. Escreva com lead 5W+1H, pirâmide invertida, contexto, antecedentes e próximos passos quando houver base factual.\n2. Tenha no mínimo 650 palavras, pelo menos 7 parágrafos <p> e pelo menos 2 subtítulos <h2>.\n3. Faça redação original. Não copie trechos extensos das fontes.\n4. Trate alegações como alegações, investigação como investigação e decisão como decisão.\n5. Não crie citações entre aspas que não estejam literalmente sustentadas pelo dossiê.\n6. Preencha o AEO com respostas curtas e factuais.\n7. Não inclua Capitão Assumção no AEO e não introduza nomes que não façam parte real da pauta.\n8. Não invente URLs. O sistema anexará as fontes automaticamente.\n9. Se os dados não sustentarem uma matéria completa e verificável, retorne publicar:false.\n\nRETORNE SOMENTE JSON VÁLIDO, SEM MARKDOWN, exatamente neste formato:\n{\n  "publicar": true,\n  "titulo": "...",\n  "resumo": "resumo com pelo menos 80 caracteres",\n  "conteudo": "<p>...</p><p>...</p><h2>...</h2>...",\n  "entidades": [{"nome":"...","tipo":"Person|Organization|Place|Event|PoliticalParty|GovernmentOrganization"}],\n  "aeo": {\n    "oQueAconteceu": "...",\n    "quemEstaEnvolvido": "...",\n    "ondeAconteceu": "...",\n    "quandoAconteceu": "...",\n    "porQueImporta": "...",\n    "oQueAconteceAgora": "..."\n  }\n}\n\nSe não for publicável: {"publicar":false,"motivo":"..."}`;
+  const parte1 = await chamarOllama(`Você é redator factual do portal Notícia ES.\n${regras}\n\n${base}\n\nProduza a ABERTURA da reportagem com 230 a 300 palavras. Faça lead 5W+1H e desenvolva os fatos confirmados em pelo menos 3 parágrafos HTML <p>. Não use <h2> nesta parte. Crie também título, resumo de pelo menos 80 caracteres, entidades e AEO factual.\n\nRetorne SOMENTE JSON válido:\n{"publicar":true,"titulo":"...","resumo":"...","bloco":"<p>...</p><p>...</p><p>...</p>","entidades":[{"nome":"...","tipo":"Person|Organization|Place|Event|PoliticalParty|GovernmentOrganization"}],"aeo":{"oQueAconteceu":"...","quemEstaEnvolvido":"...","ondeAconteceu":"...","quandoAconteceu":"...","porQueImporta":"...","oQueAconteceAgora":"..."}}\nSe insuficiente: {"publicar":false,"motivo":"..."}`);
 
-  const obj = await chamarOllama(prompt);
+  if (parte1?.publicar === false) return { obj: parte1, adicionais, textoPrincipalDisponivel: Boolean(textoPrincipal) };
+
+  const parte2 = await chamarOllama(`Você é redator factual do portal Notícia ES.\n${regras}\n\n${base}\n\nTítulo já definido: ${parte1.titulo || pauta.titulo}\nAbertura já escrita, não repita seu conteúdo: ${textoPuro(parte1.bloco || '').slice(0, 1400)}\n\nProduza SOMENTE o bloco de CONTEXTO E ANTECEDENTES, com 230 a 300 palavras. Comece com um <h2> informativo e escreva pelo menos 3 parágrafos <p>. Acrescente apenas contexto sustentado pelo dossiê. Evite repetir a abertura.\n\nRetorne SOMENTE JSON válido: {"publicar":true,"bloco":"<h2>...</h2><p>...</p><p>...</p><p>...</p>"}\nSe insuficiente: {"publicar":false,"motivo":"..."}`);
+
+  if (parte2?.publicar === false) return { obj: parte2, adicionais, textoPrincipalDisponivel: Boolean(textoPrincipal) };
+
+  const parte3 = await chamarOllama(`Você é redator factual do portal Notícia ES.\n${regras}\n\n${base}\n\nTítulo: ${parte1.titulo || pauta.titulo}\nO texto já cobriu a abertura e o contexto. Não repita esses trechos.\n\nProduza SOMENTE o bloco final, com 230 a 300 palavras, tratando desdobramentos, providências, situação atual e próximos passos APENAS quando sustentados pelas fontes. Comece com outro <h2> informativo e escreva pelo menos 3 parágrafos <p>. Se não houver próximos passos confirmados, aprofunde apenas implicações factuais já presentes no dossiê, sem especular.\n\nRetorne SOMENTE JSON válido: {"publicar":true,"bloco":"<h2>...</h2><p>...</p><p>...</p><p>...</p>"}\nSe insuficiente: {"publicar":false,"motivo":"..."}`);
+
+  if (parte3?.publicar === false) return { obj: parte3, adicionais, textoPrincipalDisponivel: Boolean(textoPrincipal) };
+
+  let conteudo = `${String(parte1.bloco || '').trim()}${String(parte2.bloco || '').trim()}${String(parte3.bloco || '').trim()}`;
+  let palavras = contarPalavras(conteudo);
+
+  if (palavras < MIN_PALAVRAS) {
+    const complemento = await chamarOllama(`Você é redator factual do portal Notícia ES.\n${regras}\n\n${base}\n\nA reportagem já tem ${palavras} palavras e precisa ultrapassar 650 sem repetição nem invenção. Produza um complemento factual de 160 a 220 palavras com 2 ou 3 parágrafos <p>, usando apenas informações do dossiê que ainda possam ser explicadas ou contextualizadas. Não use novo <h2>.\n\nRetorne SOMENTE JSON válido: {"publicar":true,"bloco":"<p>...</p><p>...</p>"}\nSe não houver material factual suficiente: {"publicar":false,"motivo":"..."}`, 900);
+    if (complemento?.publicar !== false) conteudo += String(complemento.bloco || '').trim();
+    palavras = contarPalavras(conteudo);
+  }
+
+  console.log(`[reapuracao-local] montagem em blocos: ${palavras} palavras`);
+  const obj = {
+    publicar: true,
+    titulo: String(parte1.titulo || '').trim(),
+    resumo: String(parte1.resumo || '').trim(),
+    conteudo,
+    entidades: Array.isArray(parte1.entidades) ? parte1.entidades : [],
+    aeo: parte1.aeo || {}
+  };
+
   return { obj, adicionais: adicionais.slice(0, 3), textoPrincipalDisponivel: Boolean(textoPrincipal) };
 }
 
@@ -256,6 +292,7 @@ for (const pauta of candidatas) {
       reapuração: {
         provedor: 'Ollama local',
         modelo: MODELO,
+        estratégia: 'redação em blocos',
         busca: 'Google News RSS',
         fontesAdicionais: adicionais.length,
         fontePrincipalExtraida: textoPrincipalDisponivel
@@ -281,14 +318,16 @@ const saida = {
     rejeitadas,
     errosTecnicos,
     chamadasIa,
+    geracoesModelo,
     modelo: MODELO,
-    provedor: 'Ollama local'
+    provedor: 'Ollama local',
+    estrategia: 'redação em blocos'
   },
   candidatas: processadas
 };
 
 await fs.writeFile(LOTE_PATH, JSON.stringify(saida, null, 2) + '\n', 'utf8');
-console.log(`[reapuracao-local] ${produzidas} reportagem(ns) completas; ${rejeitadas} rejeitada(s); ${errosTecnicos} erro(s) técnico(s).`);
+console.log(`[reapuracao-local] ${produzidas} reportagem(ns) completas; ${rejeitadas} rejeitada(s); ${errosTecnicos} erro(s) técnico(s); ${geracoesModelo} geração(ões) local(is).`);
 
 if (produzidas === 0 && chamadasIa > 0 && errosTecnicos >= chamadasIa) {
   console.error('[reapuracao-local] FALHA EDITORIAL: nenhuma reportagem foi produzida por falha técnica.');
