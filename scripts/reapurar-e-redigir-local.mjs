@@ -7,7 +7,7 @@ const LOTE_PATH = path.join(RAIZ, 'lote-redacao.json');
 const MAX_PUBLICAVEIS = 1;
 const MAX_CANDIDATAS_IA = 2;
 const MIN_PALAVRAS = 650;
-const MODELO = process.env.OLLAMA_MODEL || 'qwen2.5:7b';
+const MODELO = process.env.OLLAMA_MODEL || 'qwen2.5:3b';
 const OLLAMA_HOST = process.env.OLLAMA_HOST || 'http://127.0.0.1:11434';
 
 function textoPuro(html = '') {
@@ -111,7 +111,7 @@ async function carregarFontePrincipal(pauta) {
     });
     if (!resp.ok) return '';
     const html = await resp.text();
-    return textoPuro(html).slice(0, 18000);
+    return textoPuro(html).slice(0, 8000);
   } catch {
     return '';
   }
@@ -138,7 +138,7 @@ async function buscarFontesGoogleNews(titulo) {
       const tituloItem = textoPuro(extrairTag(item, 'title'));
       const link = extrairTag(item, 'link');
       const fonteNome = textoPuro(extrairTag(item, 'source')) || 'Google News';
-      const descricao = textoPuro(extrairTag(item, 'description')).slice(0, 700);
+      const descricao = textoPuro(extrairTag(item, 'description')).slice(0, 450);
       if (!tituloItem || !/^https:\/\//i.test(link) || vistas.has(link)) continue;
       vistas.add(link);
       fontes.push({ nome: fonteNome, url: link, titulo: tituloItem, resumo: descricao });
@@ -151,27 +151,40 @@ async function buscarFontesGoogleNews(titulo) {
 }
 
 async function chamarOllama(prompt) {
-  const resp = await fetch(`${OLLAMA_HOST}/api/generate`, {
-    method: 'POST',
-    headers: { 'content-type': 'application/json' },
-    body: JSON.stringify({
-      model: MODELO,
-      prompt,
-      stream: false,
-      format: 'json',
-      keep_alive: '5m',
-      options: {
-        temperature: 0.2,
-        num_ctx: 8192,
-        num_predict: 5200
+  let ultimoErro = null;
+  for (let tentativa = 1; tentativa <= 2; tentativa++) {
+    try {
+      const resp = await fetch(`${OLLAMA_HOST}/api/generate`, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({
+          model: MODELO,
+          prompt,
+          stream: false,
+          format: 'json',
+          keep_alive: '10m',
+          options: {
+            temperature: 0.2,
+            num_ctx: 4096,
+            num_predict: 2600
+          }
+        }),
+        signal: AbortSignal.timeout(600000)
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok) throw new Error(`Ollama ${resp.status}: ${data?.error || 'erro desconhecido'}`);
+      if (!data?.response) throw new Error('Ollama retornou resposta vazia');
+      return extrairJson(data.response);
+    } catch (erro) {
+      ultimoErro = erro;
+      if (tentativa < 2) {
+        console.warn(`[reapuracao-local] Ollama falhou na tentativa ${tentativa}; repetindo uma vez: ${erro.message}`);
+        await new Promise(r => setTimeout(r, 3000));
+        continue;
       }
-    }),
-    signal: AbortSignal.timeout(900000)
-  });
-  const data = await resp.json().catch(() => ({}));
-  if (!resp.ok) throw new Error(`Ollama ${resp.status}: ${data?.error || 'erro desconhecido'}`);
-  if (!data?.response) throw new Error('Ollama retornou resposta vazia');
-  return extrairJson(data.response);
+    }
+  }
+  throw ultimoErro || new Error('falha desconhecida no Ollama');
 }
 
 async function reapurarLocal(pauta) {
