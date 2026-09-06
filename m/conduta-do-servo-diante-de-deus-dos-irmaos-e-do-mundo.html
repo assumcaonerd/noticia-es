@@ -88,7 +88,8 @@
   const fontes=[];
   if(n.fonteNome) fontes.push('<li><a href="'+n.fonteUrl+'" target="_blank" rel="noopener noreferrer">'+n.fonteNome+'</a></li>');
   if(Array.isArray(n.fontesAdicionais)) n.fontesAdicionais.forEach(f=>fontes.push('<li><a href="'+f.url+'" target="_blank" rel="noopener noreferrer">'+f.nome+'</a></li>'));
-  const blocoFontes=fontes.length?'  <section class="aeo-resumo"><h2>Em resumo</h2>'+n.aeo.map(item=>'<div class="aeo-item"><strong>'+item.pergunta+'</strong><p>'+item.resposta+'</p></div>').join('')+'</section>
+  const blocoFontes=fontes.length?'
+  <section class="aeo-resumo"><h2>Em resumo</h2>'+n.aeo.map(item=>'<div class="aeo-item"><strong>'+item.pergunta+'</strong><p>'+item.resposta+'</p></div>').join('')+'</section>
   <section class="fontes-materia"><h2>Fontes</h2><ul>'+fontes.join('')+'</ul></section>':'';
 
   root.innerHTML=
