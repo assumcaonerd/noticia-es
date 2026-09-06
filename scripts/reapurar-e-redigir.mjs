@@ -4,7 +4,7 @@ import path from 'node:path';
 
 const RAIZ = process.cwd();
 const LOTE_PATH = path.join(RAIZ, 'lote-redacao.json');
-const MAX_PUBLICAVEIS = 10;
+const MAX_PUBLICAVEIS = 1;
 const MIN_PALAVRAS = 650;
 const MODELO = process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-6';
 const API_KEY = process.env.ANTHROPIC_API_KEY || '';
