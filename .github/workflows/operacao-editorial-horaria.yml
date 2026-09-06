@@ -1,8 +1,8 @@
-name: Operação Editorial Horária
+name: Operação Editorial a Cada 2 Horas
 
 on:
   schedule:
-    - cron: '5 * * * *'
+    - cron: '5 */2 * * *'
   workflow_dispatch:
 
 permissions:
@@ -116,7 +116,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "auto(editorial): rodada horária completa"
+          git commit -m "auto(editorial): rodada a cada duas horas completa"
 
           for tentativa in 1 2 3 4 5; do
             echo "Tentativa de push ${tentativa}/5"
