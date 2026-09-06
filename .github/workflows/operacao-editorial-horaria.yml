@@ -1,6 +1,10 @@
 name: Operação Editorial Horária com IA Local
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/operacao-editorial-horaria.yml'
   schedule:
     - cron: '5 * * * *'
   workflow_dispatch:
