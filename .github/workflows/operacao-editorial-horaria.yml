@@ -1,8 +1,8 @@
-name: Operação Editorial a Cada 2 Horas
+name: Operação Editorial Horária com IA Local
 
 on:
   schedule:
-    - cron: '5 */2 * * *'
+    - cron: '5 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -15,10 +15,13 @@ concurrency:
 jobs:
   pipeline-editorial:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 55
     env:
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+      OLLAMA_MODEL: qwen2.5:7b
+      OLLAMA_HOST: http://127.0.0.1:11434
+      OLLAMA_KEEP_ALIVE: 5m
+      OLLAMA_NUM_PARALLEL: 1
+      OLLAMA_MAX_LOADED_MODELS: 1
 
     steps:
       - name: Baixar repositório
@@ -31,20 +34,40 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Verificar credencial do núcleo de redação
+      - name: Restaurar cache do modelo local
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-${{ runner.os }}-qwen2.5-7b-v1
+
+      - name: Instalar e iniciar IA local
         shell: bash
         run: |
-          if [ -z "${ANTHROPIC_API_KEY:-}" ]; then
-            echo "FALHA TÉCNICA: configure o secret ANTHROPIC_API_KEY no repositório para habilitar reapuração e redação automática."
-            exit 2
-          fi
-          echo "Credencial Anthropic disponível."
+          set -euo pipefail
+          curl -fsSL https://ollama.com/install.sh | sh
+          nohup ollama serve >/tmp/ollama.log 2>&1 &
+
+          for tentativa in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:11434/api/tags >/dev/null; then
+              echo "Ollama local disponível."
+              break
+            fi
+            if [ "$tentativa" -eq 30 ]; then
+              echo "FALHA: Ollama não iniciou."
+              cat /tmp/ollama.log || true
+              exit 2
+            fi
+            sleep 2
+          done
+
+          ollama pull "$OLLAMA_MODEL"
+          ollama list
 
       - name: Validar scripts críticos
         run: |
           node --check scripts/coletar-pautas.mjs
           node --check scripts/preparar-lote-redacao.mjs
-          node --check scripts/reapurar-e-redigir.mjs
+          node --check scripts/reapurar-e-redigir-local.mjs
           node --check scripts/redator-automatico.mjs
           node --check scripts/gerar-paginas-og.mjs
           node --check scripts/reposicionar-aeo.mjs
@@ -76,8 +99,8 @@ jobs:
       - name: ETAPAS 3 e 4 - Deduplicar, ranquear e preparar lote
         run: node scripts/preparar-lote-redacao.mjs
 
-      - name: ETAPAS 5 a 8 - Reapurar, redigir e aplicar AEO
-        run: node scripts/reapurar-e-redigir.mjs
+      - name: ETAPAS 5 a 8 - Reapurar e redigir com IA local
+        run: node scripts/reapurar-e-redigir-local.mjs
 
       - name: ETAPA 9 - Validar e montar shard de publicação
         run: node scripts/redator-automatico.mjs
@@ -116,7 +139,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "auto(editorial): rodada a cada duas horas completa"
+          git commit -m "auto(editorial): rodada horária com IA local"
 
           for tentativa in 1 2 3 4 5; do
             echo "Tentativa de push ${tentativa}/5"
