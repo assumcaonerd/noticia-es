@@ -6,8 +6,9 @@ on:
     paths:
       - '.github/workflows/operacao-editorial-horaria.yml'
       - 'scripts/reapurar-e-redigir-local.mjs'
+      - 'scripts/redator-automatico.mjs'
   schedule:
-    - cron: '17 * * * *'
+    - cron: '37 * * * *'
   workflow_dispatch:
 
 permissions:
