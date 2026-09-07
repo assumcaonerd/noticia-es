@@ -11,7 +11,8 @@ const RAIZ = process.cwd();
 const DESTINO = path.join(RAIZ, 'm');
 const SITE = 'https://noticiaes.com.br';
 const PAGINAS_ESPECIAIS = new Set([
-  'igreja-crista-maranata-comemora-50-anos-em-sao-mateus'
+  'igreja-crista-maranata-comemora-50-anos-em-sao-mateus',
+  'folha-moraes-evangelicos-capitao-assumcao-multa-ales'
 ]);
 
 function escapar(texto = '') {
