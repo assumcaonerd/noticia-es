@@ -78,7 +78,7 @@ function validarReportagem(p) {
   if (!imagemValida(imagem)) return 'imagem editorial inválida';
   if (!/^https:\/\//i.test(fonteUrl)) return 'fonte principal inválida';
   if (adicionais.length < 2) return 'menos de duas fontes adicionais';
-  if (palavras < 650) return `texto curto: ${palavras} palavras`;
+  if (palavras < 400) return `texto curto: ${palavras} palavras`;
   if (paragrafos < 7) return `estrutura curta: ${paragrafos} parágrafos`;
   if (subtitulos < 2) return `estrutura sem subtítulos suficientes: ${subtitulos}`;
   if (!aeoValido(r.aeo)) return 'AEO incompleto';
