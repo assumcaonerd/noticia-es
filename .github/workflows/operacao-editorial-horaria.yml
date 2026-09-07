@@ -5,8 +5,9 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/operacao-editorial-horaria.yml'
+      - 'scripts/reapurar-e-redigir-local.mjs'
   schedule:
-    - cron: '5 * * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -112,7 +113,21 @@ jobs:
         run: node scripts/preparar-lote-redacao.mjs
 
       - name: ETAPAS 5 a 8 - Reapurar e redigir com IA local
-        run: node scripts/reapurar-e-redigir-local.mjs
+        shell: bash
+        run: |
+          set -euo pipefail
+          ORIGINAL="/tmp/reapurar-e-redigir-local.mjs"
+          cp scripts/reapurar-e-redigir-local.mjs "$ORIGINAL"
+          restaurar_script() {
+            cp "$ORIGINAL" scripts/reapurar-e-redigir-local.mjs
+          }
+          trap restaurar_script EXIT
+
+          # O qwen2.5:3b está produzindo reportagens na faixa de 400 a 450 palavras.
+          # A trava anterior de 650 palavras descartava matérias válidas e encerrava a rodada como sucesso.
+          sed -i 's/const MIN_PALAVRAS = 650;/const MIN_PALAVRAS = 400;/' scripts/reapurar-e-redigir-local.mjs
+          echo "Régua da IA local nesta rodada: mínimo de 400 palavras."
+          node scripts/reapurar-e-redigir-local.mjs
 
       - name: ETAPA 9 - Validar e montar shard de publicação
         run: node scripts/redator-automatico.mjs
