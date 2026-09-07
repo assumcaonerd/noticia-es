@@ -90,18 +90,139 @@ jobs:
           node --check scripts/notificar-indexnow.mjs
           node --check scripts/auditoria-pos-publicacao.mjs
 
-      - name: ETAPA 1 - Coletar pautas
+      - name: ETAPA 1 - Coletar pautas sem fontes bloqueadas
         shell: bash
         run: |
           set -euo pipefail
+
+          BACKUP_DIR="/tmp/fontes-bloqueadas-noticia-es"
+          rm -rf "$BACKUP_DIR"
+          mkdir -p "$BACKUP_DIR"
+          ARQUIVOS_FONTES=(
+            scripts/coletar-pautas.mjs
+            scripts/coletar-portais-extra.mjs
+            scripts/refinar-fontes-nacionais.mjs
+            scripts/coletar-flavio-bolsonaro.mjs
+          )
+
+          for arquivo in "${ARQUIVOS_FONTES[@]}"; do
+            cp "$arquivo" "$BACKUP_DIR/$(basename "$arquivo")"
+          done
+
+          restaurar_fontes() {
+            for arquivo in "${ARQUIVOS_FONTES[@]}"; do
+              cp "$BACKUP_DIR/$(basename "$arquivo")" "$arquivo"
+            done
+          }
+          trap restaurar_fontes EXIT
+
+          python3 <<'PY'
+          from pathlib import Path
+          import re
+
+          def remover_linhas_de_fontes(caminho, nomes):
+              p = Path(caminho)
+              linhas = p.read_text(encoding='utf-8').splitlines()
+              filtradas = [
+                  linha for linha in linhas
+                  if not ('{ nome:' in linha and any(nome in linha for nome in nomes))
+              ]
+              p.write_text('\n'.join(filtradas) + '\n', encoding='utf-8')
+
+          def remover_bloco_por_nome(caminho, nome):
+              p = Path(caminho)
+              texto = p.read_text(encoding='utf-8')
+              padrao = re.compile(
+                  r"\n  \{\n    nome: '" + re.escape(nome) + r"',[\s\S]*?\n  \}(?:,)?"
+              )
+              texto_novo, n = padrao.subn('', texto, count=1)
+              if n != 1:
+                  raise SystemExit(f'Fonte não localizada para remoção: {nome} em {caminho}')
+              p.write_text(texto_novo, encoding='utf-8')
+
+          remover_linhas_de_fontes(
+              'scripts/coletar-pautas.mjs',
+              ['Folha Vitória', 'Revista Oeste']
+          )
+          remover_bloco_por_nome(
+              'scripts/coletar-portais-extra.mjs',
+              'O Antagonista - Capa'
+          )
+          remover_bloco_por_nome(
+              'scripts/coletar-portais-extra.mjs',
+              'Reuters - World'
+          )
+          remover_bloco_por_nome(
+              'scripts/refinar-fontes-nacionais.mjs',
+              'Revista Oeste - Política'
+          )
+          remover_linhas_de_fontes(
+              'scripts/coletar-flavio-bolsonaro.mjs',
+              ['Revista Oeste - Radar Flávio', 'O Antagonista - Radar Flávio']
+          )
+          PY
+
+          node --check scripts/coletar-pautas.mjs
+          node --check scripts/coletar-portais-extra.mjs
+          node --check scripts/refinar-fontes-nacionais.mjs
+          node --check scripts/coletar-flavio-bolsonaro.mjs
+
           node scripts/coletar-pautas.mjs
           node scripts/coletar-portais-extra.mjs
           node scripts/refinar-fontes-nacionais.mjs
           node scripts/coletar-flavio-bolsonaro.mjs
           node scripts/coletar-redes-locais.mjs
           node scripts/coletar-telegram-es.mjs
-          node scripts/coletar-ales.mjs
           node scripts/coletar-dioes.mjs
+
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs/promises';
+
+          const DOMINIOS_REMOVIDOS = [
+            'folhavitoria.com.br',
+            'revistaoeste.com',
+            'oantagonista.com.br',
+            'reuters.com',
+            'al.es.gov.br'
+          ];
+
+          const arquivo = JSON.parse(await fs.readFile('pautas.json', 'utf8'));
+          const pautas = Array.isArray(arquivo.pautas) ? arquivo.pautas : [];
+          const bloqueada = (pauta) => {
+            const alvo = [pauta?.urlFonte, pauta?.fonteNome, pauta?.origem]
+              .filter(Boolean)
+              .join(' ')
+              .toLowerCase();
+            return DOMINIOS_REMOVIDOS.some((dominio) => alvo.includes(dominio))
+              || /folha vit[oó]ria|revista oeste|o antagonista|reuters|ales - not[ií]cias/i.test(alvo);
+          };
+
+          let removidas = 0;
+          arquivo.pautas = pautas.filter((pauta) => {
+            if (pauta?.status === 'publicada') return true;
+            if (bloqueada(pauta)) {
+              removidas++;
+              return false;
+            }
+            return true;
+          });
+
+          arquivo.portaisPrioritarios = (arquivo.portaisPrioritarios || []).filter((portal) => {
+            const valor = String(portal).toLowerCase();
+            return !DOMINIOS_REMOVIDOS.some((dominio) => valor.includes(dominio));
+          });
+
+          await fs.writeFile('pautas.json', JSON.stringify(arquivo, null, 2) + '\n', 'utf8');
+
+          try {
+            const status = JSON.parse(await fs.readFile('motor-status.json', 'utf8'));
+            delete status.ales;
+            await fs.writeFile('motor-status.json', JSON.stringify(status, null, 2) + '\n', 'utf8');
+          } catch {}
+
+          console.log(`[fontes] ${removidas} pauta(s) pendente(s) de fontes removidas foram descartadas.`);
+          console.log('[fontes] Folha Vitória, Revista Oeste, O Antagonista, Reuters e ALES estão fora da coleta automática.');
+          NODE
 
       - name: ETAPA 2 - Enriquecer e fiscalizar imagens
         shell: bash
