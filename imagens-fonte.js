@@ -3,6 +3,8 @@
   if (typeof noticias === 'undefined' || !Array.isArray(noticias)) return;
 
   const fotos = {
+    "mulher-presa-injuria-racial-desacato-pm-itaparica-vila-velha":
+      "https://s2-g1.glbimg.com/0BX1oOHXCZX5PYnjwed0bDHQf98=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/B/AfDMKKQACmqnsYB3VWYw/img-mulher-presa-gmd-07-09.mov-snapshot-00.11.156.jpg",
     "antonio-gobbi-morte-vitoria-contas-bancarias-investigacao":
       "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1787857850064_copia_de_template_radar_a_gazeta_2.jpg",
     "btg-nexus-lula-flavio-empate-tecnico-segundo-turno-31-agosto-2026":
