@@ -3,15 +3,15 @@
 if(typeof noticias==='undefined'||!Array.isArray(noticias)) return;
 const materia={
 id:202609060001,
-slug:'conduta-do-servo-diante-de-deus-dos-irmaos-e-do-mundo',
-titulo:'A conduta do servo diante de Deus, dos irmãos e do mundo',
+slug:'ebd-maranata-porta-estreita-casa-sobre-a-rocha-6-setembro-2026',
+titulo:'EBD da Maranata destaca a porta estreita e a casa edificada sobre a Rocha',
 categoria:'Fé e Sociedade',
 data:'2026-09-06',
 publicadoEm:'2026-09-06T22:48:00-03:00',
 imagem:'https://i.ibb.co/HTbSMRdm/image.png',
 imagemOriginal:'https://ibb.co/PGPLbJQB',
 legendaImagem:'Pastores Wallace Rozetti, Douglas Panghero, Alexandre Gueiros, Gilson Sousa e Gerson Belutti ao término da Escola Bíblica Dominical de 06/09/26',
-resumo:'EBD da Igreja Cristã Maranata de 6 de setembro abordou Mateus 7, com ensinamentos sobre julgamento, autoexame, prudência, oração perseverante e a regra de ouro.',
+resumo:'Aula transmitida pelo canal oficial da Igreja Cristã Maranata reuniu ensinamentos do final do Sermão da Montanha sobre salvação, discernimento, santificação e obediência à Palavra.',
 conteudo:`<p><strong>Escola Bíblica Dominical da Igreja Cristã Maranata, transmitida em 6 de setembro de 2026</strong></p>
 <p>A Escola Bíblica Dominical deste domingo apresentou um ensino profundo e muito necessário sobre o comportamento do servo do Senhor. A aula deu continuidade ao estudo dos discursos do Senhor Jesus, especialmente aos ensinos registrados em Mateus, capítulo 7.</p>
 <p>Participaram da exposição os pastores <strong>Douglas Spanghero</strong>, <strong>Gerson Belutti</strong> e <strong>Alexandre Guêiros</strong>. Cada um contribuiu dentro de uma sequência muito clara: primeiro, o cuidado para não julgarmos; depois, a necessidade de examinarmos nossa própria vida; por fim, a perseverança em pedir, buscar e bater.</p>
@@ -115,21 +115,22 @@ autor:'Redação Notícia ES',
 manual:true,
 secaoEspecial:true,
 automatico:false,
-fonteNome:'Transmissão oficial da EBD da Igreja Cristã Maranata de 06/09/2026',
+fonteNome:'Canal oficial da Igreja Cristã Maranata no YouTube',
 fonteUrl:'https://www.youtube.com/watch?v=0Z588UTGHtw',
 fontesAdicionais:[
-  {nome:'Material oficial do Instituto Bíblico da ICM sobre o comportamento do servo'},
-  {nome:'Explicação institucional sobre a Escola Bíblica Dominical'}
+  {nome:'Mateus 7.13-27'},
+  {nome:'Efésios 2.8-9; João 3; Gálatas 5.22-23'}
 ],
 aeo:[
-  {pergunta:'O que aconteceu?',resposta:'A Escola Bíblica Dominical da Igreja Cristã Maranata estudou ensinamentos de Mateus 7 sobre julgamento, autoexame, prudência espiritual, oração perseverante e a forma de tratar o próximo.'},
-  {pergunta:'Quem está envolvido?',resposta:'Os pastores Douglas Spanghero, Gerson Belutti e Alexandre Guêiros participaram da exposição da aula.'},
-  {pergunta:'Onde aconteceu?',resposta:'Na transmissão oficial da Escola Bíblica Dominical da Igreja Cristã Maranata, disponibilizada pelo canal oficial da instituição.'},
+  {pergunta:'O que aconteceu?',resposta:'A Escola Bíblica Dominical estudou o final do Sermão da Montanha, com ênfase na porta estreita, no discernimento espiritual e na casa edificada sobre a Rocha.'},
+  {pergunta:'Quem está envolvido?',resposta:'Os pastores Douglas Spanghero, Gerson Beluci e Alexandre Gueiros participaram da ministração.'},
+  {pergunta:'Onde aconteceu?',resposta:'Na transmissão das 10 horas pelo canal oficial da Igreja Cristã Maranata no YouTube.'},
   {pergunta:'Quando aconteceu?',resposta:'Domingo, 6 de setembro de 2026.'},
-  {pergunta:'Por que isso importa?',resposta:'O ensino trata diretamente da conduta cristã, orientando o servo a evitar julgamentos precipitados, examinar a própria vida, preservar a comunhão e perseverar na dependência do Senhor.'},
-  {pergunta:'O que acontece agora?',resposta:'O conteúdo permanece como orientação para estudo e prática na vida da Igreja, especialmente nos relacionamentos, na oração e no cuidado com a comunhão.'}
+  {pergunta:'Por que isso importa?',resposta:'O estudo reforça que a salvação é individual e que ouvir a Palavra deve conduzir à obediência, à santificação e à perseverança.'},
+  {pergunta:'O que acontece agora?',resposta:'O ensino permanece como orientação para que cada servo edifique toda a vida sobre Cristo e pratique a Palavra.'}
 ]
 };
+materia.conteudo='<p>Leia a matéria completa na página publicada.</p>';
 const slugsAntigos=['ebd-maranata-porta-estreita-casa-sobre-a-rocha-6-setembro-2026','conduta-do-servo-diante-de-deus-dos-irmaos-e-do-mundo'];
 for(let j=noticias.length-1;j>=0;j--){if(slugsAntigos.includes(noticias[j]&&noticias[j].slug)) noticias.splice(j,1);}
 noticias.unshift(materia);
