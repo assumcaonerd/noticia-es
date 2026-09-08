@@ -52,7 +52,8 @@ async function listarArquivosMateria() {
   const nomes = await fs.readdir(RAIZ);
   const editoriais = nomes.filter((n) => /^editorial(-\d+)?\.js$/.test(n));
   const automaticos = nomes.filter((n) => /^auto-redacao-\d{8}-\d{6}\.js$/.test(n));
-  return ['noticias.js', ...editoriais, ...automaticos, 'opiniao.js', 'fe-sociedade.js', 'manual-gilvan.js', 'remover-materias-20260831.js'];
+  const feSociedade = nomes.filter((n) => /^fe-sociedade(?:-[\w-]+)?\.js$/.test(n)).sort();
+  return ['noticias.js', ...editoriais, ...automaticos, 'opiniao.js', ...feSociedade, 'manual-gilvan.js', 'remover-materias-20260831.js'];
 }
 
 async function carregarOverlay() {
