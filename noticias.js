@@ -8,6 +8,45 @@
 
 const noticias = [
   {
+    id: 8092026003901,
+    slug: "sao-mateus-1-bilhao-investimentos-20-empresas-polo-industrial",
+    titulo: "São Mateus anuncia mais de R$ 1,1 bilhão em investimentos e chegada de 20 empresas",
+    categoria: "Política Estadual",
+    data: "2026-09-08",
+    imagem: "imagens/auto-politica-es.svg",
+    resumo: "Pacote privado reúne expansão industrial, novos empreendimentos e infraestrutura no Norte do ES; previsão divulgada pelo município é de mais de mil empregos diretos.",
+    conteudo: `<p>São Mateus, no Norte do Espírito Santo, anunciou um conjunto de investimentos privados superior a R$ 1,1 bilhão, associado à chegada de mais de 20 empresas, expansões industriais e projetos de infraestrutura. Segundo a Prefeitura, o movimento deve gerar mais de mil empregos diretos e ampliar o peso do município como polo industrial da região Norte capixaba.</p>
+<p>O anúncio reúne projetos em diferentes estágios, desde ampliações de fábricas já instaladas até novos centros de distribuição, empreendimentos de energia, indústrias e obras de infraestrutura. A lista divulgada pelo município inclui empresas dos setores automotivo, cerâmico, alimentício, petróleo e gás, energia, logística, construção e reciclagem.</p>
+<p>Os valores são projeções de investimentos privados divulgadas pela administração municipal e pelas empresas envolvidas. Por isso, a concretização integral do montante depende da execução de cada projeto, de seus cronogramas, licenciamentos e decisões empresariais. Ainda assim, a soma anunciada mostra uma mudança relevante de escala na atividade econômica planejada para São Mateus.</p>
+<h2>Marcopolo concentra uma das maiores expansões</h2>
+<p>Entre os projetos relacionados pela Prefeitura está a expansão da Marcopolo, com investimento informado de R$ 260 milhões. A empresa já possui operação no município e integra um setor que vem estimulando ações locais de qualificação de mão de obra.</p>
+<p>Na semana passada, a Prefeitura também informou a contratação de 102 vagas gratuitas de capacitação profissional em parceria com Sesi, Senai, Findes e Marcopolo. Os cursos presenciais são voltados às áreas de solda, montagem e manutenção. O programa municipal tem custo próximo de R$ 100 mil e busca preparar trabalhadores para vagas ligadas ao setor automobilístico.</p>
+<p>Outras expansões listadas são as da Oxford, com R$ 6 milhões, e da Café Duarte, com R$ 10 milhões. Na frente de inaugurações, a relação divulgada inclui Technobrass, com R$ 100 milhões; Carnes Nobres, com R$ 60 milhões; Enpex, com R$ 30 milhões; NBS Petróleo, com R$ 18 milhões; e CBF, com R$ 8 milhões.</p>
+<h2>Energia e logística aparecem entre os maiores projetos</h2>
+<p>A carteira anunciada também contém empreendimentos que, individualmente, representam parcelas expressivas do total. A Termelétrica Urca aparece com previsão de R$ 350 milhões, o maior valor unitário da lista divulgada. A Hidrelétrica Santa Maria é relacionada com R$ 60 milhões.</p>
+<p>Na logística, a Prefeitura informou projetos de centros de distribuição da Shopee e do Mercado Livre, com valores indicados de R$ 10 milhões e R$ 32 milhões, respectivamente. A presença desses projetos, caso sejam executados conforme anunciado, acrescenta ao polo industrial uma frente ligada à distribuição de mercadorias e à cadeia do comércio eletrônico.</p>
+<p>A lista de novos empreendimentos inclui ainda Biopetro, com R$ 15 milhões; Biomarca, com R$ 2 milhões; Recicla, com R$ 6 milhões; Pedreira São Vicente, com R$ 20 milhões; Consigaz, com R$ 10 milhões; Pneuvix, com R$ 8 milhões; e GTK Pré-Moldados, com R$ 5 milhões. Os valores foram apresentados pela Prefeitura de São Mateus e reproduzidos em cobertura local publicada no fim de semana.</p>
+<h2>Infraestrutura acompanha expansão do polo</h2>
+<p>O pacote econômico não se limita às plantas industriais. A administração municipal relaciona R$ 10 milhões em investimentos da ES Gás e R$ 50 milhões da Ecovias. A infraestrutura é um ponto central para a expansão industrial porque São Mateus é cortado pela BR-101, corredor usado para o transporte de cargas entre o Espírito Santo e outros estados.</p>
+<p>A Prefeitura informou anteriormente que acompanha com a Ecovias Capixaba a previsão de faixas adicionais na BR-101 entre Pedro Canário e Sooretama, trecho que inclui São Mateus, Jaguaré e Sooretama. O cronograma contratual mencionado pelo município prevê execução até 2034, enquanto a administração local busca antecipar 21 quilômetros de faixas adicionais.</p>
+<p>Esse componente ajuda a explicar por que a discussão sobre crescimento industrial está ligada à mobilidade. Novas fábricas e centros de distribuição aumentam a circulação de trabalhadores, fornecedores e cargas. A capacidade da rodovia e dos acessos ao polo passa, portanto, a fazer parte da viabilidade operacional do crescimento anunciado.</p>
+<h2>Qualificação profissional entra na conta</h2>
+<p>Além dos aportes empresariais, São Mateus vem articulando projetos de formação profissional. Um deles é o novo Centro de Treinamento do Serviço Nacional de Aprendizagem Rural no Espírito Santo, o Senar-ES. A Prefeitura encaminhou à Câmara Municipal projeto para doação do terreno e informou investimento previsto superior a R$ 20 milhões na estrutura educacional e tecnológica.</p>
+<p>Segundo o município, a unidade deverá oferecer formação profissional rural, promoção social, ensino técnico de nível médio e assistência técnica e gerencial. Paralelamente, convênios com o Senai mantêm turmas de formação técnica, incluindo capacitação em soldagem.</p>
+<p>A qualificação é um dos pontos que determinarão quanto do emprego criado pelos novos investimentos poderá ser ocupado por moradores da própria região. A previsão oficial de mais de mil empregos diretos representa uma estimativa associada ao conjunto de projetos e não significa que todas as vagas estarão disponíveis imediatamente. Cada empreendimento terá seu próprio calendário de implantação e contratação.</p>
+<h2>O que muda para a economia do Norte do ES</h2>
+<p>São Mateus já exerce papel regional em comércio, serviços, agricultura, petróleo e gás e atividade industrial. A nova carteira amplia a diversidade dos setores presentes no município. O efeito econômico potencial não fica restrito aos empregos dentro das fábricas: empreendimentos desse porte demandam transporte, alimentação, manutenção, construção, serviços técnicos, hospedagem e fornecedores.</p>
+<p>Ao mesmo tempo, o volume anunciado exige acompanhamento da execução. A referência de R$ 1,1 bilhão é uma soma de projetos distintos, e o resultado efetivo dependerá de quanto cada empresa desembolsar, do ritmo das obras e do início das operações. Para a população, os indicadores mais concretos serão a abertura real das vagas, a conclusão dos empreendimentos e a entrada das novas unidades em funcionamento.</p>
+<p>O anúncio coloca São Mateus em uma posição de destaque no mapa de investimentos privados do Norte capixaba. A próxima etapa será transformar a carteira divulgada em obras, unidades produtivas e empregos efetivamente entregues. Com projetos industriais, energéticos, logísticos e de infraestrutura na mesma agenda, o município tenta consolidar uma base econômica mais diversificada e ampliar sua capacidade de atrair novos negócios.</p>
+<p><strong>Fontes consultadas:</strong> Prefeitura de São Mateus, divulgação oficial dos investimentos e programas de capacitação; Corrivus, detalhamento dos valores e empresas incluídas no pacote anunciado; Prefeitura de São Mateus, informações sobre o novo Centro de Treinamento do Senar-ES e acompanhamento das intervenções da Ecovias na BR-101.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Prefeitura de São Mateus",
+    fonteUrl: "https://saomateus.es.gov.br/noticia/sao-mateus-recebe-mais-de-r%24-11-bilhao-em-investimentos-privados-e-consolida-polo-industrial-no-norte-do-espirito-santo-2026-09-05",
+    fontesAdicionais: ["https://corrivus.com.br/espirito-santo/sao-mateus/sao-mateus-investimentos-industriais-2026", "https://saomateus.es.gov.br/noticia/prefeitura-de-sao-mateus-lanca-programa-de-capacitacao-em-parceria-com-sesi-senai-findes-e-marcopolo", "https://www.saomateus.es.gov.br/noticia/sao-mateus-avanca-no-fortalecimento-do-agronegocio-com-novo-centro-de-capacitacao-do-senar-es-2026-07-03", "https://www.saomateus.es.gov.br/noticia/prefeitura-de-sao-mateus-acompanha-investimentos-e-melhorias-da-ecovias-capixaba-no-municipio-2026-05-08"],
+    automatico: true,
+    coletadoEm: "2026-09-08T03:39:00.000Z"
+  },
+  {
     id: 8092026234101,
     slug: "quilombolas-protesto-br-101-sao-mateus-anexo-3-rio-doce",
     titulo: "Quilombolas bloqueiam BR-101 em São Mateus e cobram inclusão na reparação do Rio Doce",
@@ -119,7 +158,7 @@ const noticias = [
     conteudo: `<p>O plano de governo inclui propostas para 19 áreas, como segurança pública, educação, saúde, meio ambiente, gestão, entre outras</p><p>O Notícia ES identificou esta atualização em uma fonte monitorada pelo motor automático do portal. Para preservar contexto, autoria e eventuais atualizações posteriores, o texto integral permanece na publicação original.</p><p><strong>Fonte:</strong> <a href="https://www.folhavitoria.com.br/eleicoes/plano-de-ricardo-ferraco-preve-escolas-integrais-hospital-veterinario-e-aeroporto-de-cargas/" target="_blank" rel="noopener noreferrer">Folha Vitória - Política</a>.</p>`,
     autor: "Redação Notícia ES",
     fonteNome: "Folha Vitória - Política",
-    fonteUrl: "https://www.folhavitoria.com.br/eleicoes/plano-de-ricardo-ferraco-preve-escolas-integrais-hospital-veterinario-e-aeroporto-de-cargas/",
+    fonteUrl: "https://www.folhavitoria.com.br/eleicoes/plano-de-ricardo-ferracco-preve-escolas-integrais-hospital-veterinario-e-aeroporto-de-cargas/",
     automatico: true,
     coletadoEm: "2026-08-28T00:53:48.958Z"
   }
