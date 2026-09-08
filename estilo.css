@@ -330,6 +330,24 @@ main {
   margin: 0 0 1.25em;
 }
 
+.materia-figura-interna {
+  margin: 2rem 0;
+}
+
+.materia-figura-interna img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--raio);
+}
+
+.materia-figura-interna figcaption {
+  margin-top: 0.55rem;
+  color: var(--cor-texto-suave);
+  font-family: Inter, Arial, sans-serif;
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
 .compartilhar {
   display: flex;
   flex-wrap: wrap;

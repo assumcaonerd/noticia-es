@@ -36,3 +36,4 @@ const slugsAntigos=['ebd-maranata-porta-estreita-casa-sobre-a-rocha-6-setembro-2
 for(let j=noticias.length-1;j>=0;j--){if(slugsAntigos.includes(noticias[j]&&noticias[j].slug)) noticias.splice(j,1);}
 noticias.unshift(materia);
 })();
+document.write('<script src="fe-sociedade-cantata-20260908.js?v=1"><\/script>');
