@@ -10,6 +10,8 @@ on:
       - 'scripts/publicar-chatgpt-horario.mjs'
       - 'scripts/corrigir-publicacao-chatgpt.mjs'
       - 'scripts/garantir-padrao-publicacao.mjs'
+      - '.github/workflows/gerar-paginas-og.yml'
+      - '.github/workflows/publicar-proseg-temp.yml'
 
 permissions:
   contents: write
@@ -29,13 +31,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: Aplicar matéria preparada pelo ChatGPT
+      - name: Aplicar matéria PROSEG preparada pelo ChatGPT
+        shell: bash
         run: |
-          if [ -f scripts/corrigir-publicacao-chatgpt.mjs ]; then
-            node scripts/corrigir-publicacao-chatgpt.mjs
-          else
-            node scripts/publicar-chatgpt-horario.mjs
-          fi
+          python3 - <<'PY'
+          from pathlib import Path
+          y = Path('.github/workflows/publicar-proseg-temp.yml').read_text(encoding='utf-8').splitlines()
+          start = next(i for i,l in enumerate(y) if l.strip() == '- name: Inserir exatamente uma matéria')
+          run = next(i for i in range(start+1, len(y)) if y[i].strip() == 'run: |')
+          end = next(i for i in range(run+1, len(y)) if y[i].startswith('      - name:'))
+          code = '\n'.join((l[10:] if l.startswith('          ') else l) for l in y[run+1:end])
+          exec(compile(code, '<publicacao-proseg>', 'exec'))
+          PY
       - name: Garantir padrão obrigatório de publicação
         run: |
           node --check scripts/garantir-padrao-publicacao.mjs
