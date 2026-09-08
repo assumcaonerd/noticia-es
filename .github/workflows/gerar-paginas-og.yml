@@ -9,6 +9,7 @@ on:
       - 'noticias.js'
       - 'scripts/publicar-chatgpt-horario.mjs'
       - 'scripts/corrigir-publicacao-chatgpt.mjs'
+      - 'scripts/garantir-padrao-publicacao.mjs'
 
 permissions:
   contents: write
@@ -35,6 +36,10 @@ jobs:
           else
             node scripts/publicar-chatgpt-horario.mjs
           fi
+      - name: Garantir padrão obrigatório de publicação
+        run: |
+          node --check scripts/garantir-padrao-publicacao.mjs
+          node scripts/garantir-padrao-publicacao.mjs
       - name: Gerar m/{slug}.html
         run: node scripts/gerar-paginas-og.mjs
       - name: Gerar sitemaps
