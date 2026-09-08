@@ -8,6 +8,7 @@ on:
     paths:
       - 'noticias.js'
       - 'scripts/publicar-chatgpt-horario.mjs'
+      - 'scripts/corrigir-publicacao-chatgpt.mjs'
 
 permissions:
   contents: write
@@ -28,7 +29,12 @@ jobs:
         with:
           node-version: '24'
       - name: Aplicar matéria preparada pelo ChatGPT
-        run: node scripts/publicar-chatgpt-horario.mjs
+        run: |
+          if [ -f scripts/corrigir-publicacao-chatgpt.mjs ]; then
+            node scripts/corrigir-publicacao-chatgpt.mjs
+          else
+            node scripts/publicar-chatgpt-horario.mjs
+          fi
       - name: Gerar m/{slug}.html
         run: node scripts/gerar-paginas-og.mjs
       - name: Gerar sitemaps
