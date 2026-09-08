@@ -37,3 +37,20 @@
     window.gtag('event', String(eventName), params || {});
   };
 })();
+
+/*
+ * Compartilhamento das matérias.
+ * O carregamento parte daqui porque analytics.js já está presente nas matérias
+ * estáticas e no template dinâmico do portal.
+ */
+(function () {
+  'use strict';
+
+  if (window.NOTICIAES_SHARE_BAR_LOADED) return;
+  window.NOTICIAES_SHARE_BAR_LOADED = true;
+
+  const script = document.createElement('script');
+  script.src = '/share-bar.js?v=20260907-1';
+  script.async = true;
+  document.head.appendChild(script);
+})();
