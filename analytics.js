@@ -1,16 +1,12 @@
 /*
  * Notícia ES | Google Analytics 4
- *
- * Para ativar a medição, substitua G-XXXXXXXXXX pelo ID de medição
- * da propriedade GA4 do Notícia ES. Enquanto o ID não for informado,
- * este arquivo não envia dados ao Google.
  */
 (function () {
   'use strict';
 
-  const MEASUREMENT_ID = 'G-XXXXXXXXXX';
+  const MEASUREMENT_ID = 'G-03KKXJHR1K';
   const id = String(MEASUREMENT_ID || '').trim().toUpperCase();
-  const configurado = /^G-[A-Z0-9]+$/.test(id) && id !== 'G-XXXXXXXXXX';
+  const configurado = /^G-[A-Z0-9]+$/.test(id);
 
   window.NOTICIAES_ANALYTICS = {
     ready: false,
