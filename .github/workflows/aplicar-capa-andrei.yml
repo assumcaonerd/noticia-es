@@ -1,0 +1,99 @@
+name: Aplicar capa Andrei Rodrigues
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/aplicar-capa-andrei.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  aplicar-capa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Montar imagem enviada
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p imagens
+          cat .tmp/andrei-cover-part1.b64 .tmp/andrei-cover-part2.b64 .tmp/andrei-cover-part3.b64 .tmp/andrei-cover-part4.b64 | base64 -d > imagens/andrei-rodrigues-master-inss-mendonca-capa.jpg
+          file imagens/andrei-rodrigues-master-inss-mendonca-capa.jpg
+          test -s imagens/andrei-rodrigues-master-inss-mendonca-capa.jpg
+
+      - name: Aplicar imagem à matéria e metadados
+        shell: bash
+        run: |
+          python3 <<'PY'
+          from pathlib import Path
+          import json, re
+
+          p = Path('m/andrei-rodrigues-afastamento-pf-master-inss-mendonca.html')
+          html = p.read_text(encoding='utf-8')
+          url = 'https://noticiaes.com.br/imagens/andrei-rodrigues-master-inss-mendonca-capa.jpg'
+          rel = '../imagens/andrei-rodrigues-master-inss-mendonca-capa.jpg'
+          alt = 'Capa da reportagem sobre o afastamento de Andrei Rodrigues e a crise envolvendo PF, Banco Master e INSS'
+
+          # Open Graph
+          html = re.sub(r'<meta property="og:image"[^>]*>', '', html)
+          html = html.replace(
+              '<meta property="og:url" content="https://noticiaes.com.br/m/andrei-rodrigues-afastamento-pf-master-inss-mendonca.html">',
+              '<meta property="og:url" content="https://noticiaes.com.br/m/andrei-rodrigues-afastamento-pf-master-inss-mendonca.html"><meta property="og:image" content="' + url + '"><meta property="og:image:width" content="640"><meta property="og:image:height" content="360">'
+          )
+
+          # Twitter
+          html = re.sub(r'<meta name="twitter:image"[^>]*>', '', html)
+          tw_desc = '<meta name="twitter:description" content="Diretor-geral escolhido por Lula é afastado em meio a acusações envolvendo Banco Master, caso INSS, relatórios de inteligência contra André Mendonça e suspeitas de interferência na condução de investigações.">'
+          html = html.replace(tw_desc, tw_desc + '<meta name="twitter:image" content="' + url + '">')
+
+          # NewsArticle JSON-LD
+          m = re.search(r'(<script type="application/ld\+json">)(.*?)(</script>)', html, re.S)
+          if m:
+              try:
+                  data = json.loads(m.group(2))
+                  if data.get('@type') == 'NewsArticle':
+                      data['image'] = url
+                      novo = m.group(1) + json.dumps(data, ensure_ascii=False, separators=(',', ':')) + m.group(3)
+                      html = html[:m.start()] + novo + html[m.end():]
+              except Exception:
+                  pass
+
+          # Capa visível, logo após o resumo
+          html = re.sub(r'\n\s*<img[^>]*class="materia-capa"[^>]*>\s*', '\n', html)
+          resumo_fim = '</strong></p>\n  '
+          capa = f'</strong></p>\n  <img class="materia-capa" src="{rel}" alt="{alt}" width="640" height="360" loading="eager" fetchpriority="high">\n  '
+          if resumo_fim in html:
+              html = html.replace(resumo_fim, capa, 1)
+          else:
+              raise SystemExit('Não foi possível localizar o fim do resumo para inserir a capa.')
+
+          p.write_text(html, encoding='utf-8')
+          PY
+
+      - name: Validar aplicação
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -q 'andrei-rodrigues-master-inss-mendonca-capa.jpg' m/andrei-rodrigues-afastamento-pf-master-inss-mendonca.html
+          grep -q 'class="materia-capa"' m/andrei-rodrigues-afastamento-pf-master-inss-mendonca.html
+          grep -q 'property="og:image"' m/andrei-rodrigues-afastamento-pf-master-inss-mendonca.html
+
+      - name: Publicar capa e limpar temporários
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Notícia ES Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm -f .tmp/andrei-cover-part1.b64 .tmp/andrei-cover-part2.b64 .tmp/andrei-cover-part3.b64 .tmp/andrei-cover-part4.b64
+          git rm -f .github/workflows/aplicar-capa-andrei.yml
+          git add imagens/andrei-rodrigues-master-inss-mendonca-capa.jpg m/andrei-rodrigues-afastamento-pf-master-inss-mendonca.html
+          git commit -m "imagem: aplica capa enviada à matéria Andrei Rodrigues"
+          git pull --rebase origin main
+          git push origin main
