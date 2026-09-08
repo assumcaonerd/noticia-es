@@ -54,3 +54,36 @@
   script.async = true;
   document.head.appendChild(script);
 })();
+
+/*
+ * Correção de capa para matéria estática dos quilombolas.
+ * A home já recebe a imagem pelo banco de notícias, mas esta página estática
+ * foi gerada sem a tag <img> no corpo da matéria.
+ */
+(function () {
+  'use strict';
+
+  const slug = '/m/quilombolas-protesto-br-101-sao-mateus-anexo-3-rio-doce.html';
+  if (window.location.pathname !== slug) return;
+
+  const imagem = 'https://files.ndeal.app/api/images/proxy?quality=100&src=https%3A%2F%2Fwww.netdeal.com.br%2Fapi%2Fimages%2Fproducao.spayce.com.br%2F1788794901676_whatsapp_image_2026_09_07_at_10.jpeg';
+
+  function inserirImagem() {
+    const artigo = document.querySelector('.materia-estatica');
+    if (!artigo || artigo.querySelector('img.materia-capa')) return;
+
+    const resumo = artigo.querySelector('.materia-resumo');
+    if (!resumo) return;
+
+    const figure = document.createElement('figure');
+    figure.className = 'materia-capa-wrap';
+    figure.innerHTML = '<img class="materia-capa" src="' + imagem + '" alt="Manifestação de comunidades quilombolas e povos tradicionais na BR-101, em São Mateus" loading="eager" referrerpolicy="no-referrer"><figcaption>Manifestação na BR-101, em São Mateus. Foto: Oziel Gabriel</figcaption>';
+    resumo.insertAdjacentElement('afterend', figure);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', inserirImagem, { once: true });
+  } else {
+    inserirImagem();
+  }
+})();
