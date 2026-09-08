@@ -4,7 +4,7 @@ if(typeof noticias==='undefined'||!Array.isArray(noticias)) return;
 const materia={
 id:202609080002,
 slug:'cantata-maranata-pedra-da-cebola-475-anos-vitoria-2026',
-titulo:'Fé toma o Pedra da Cebola: Cantata da Maranata marca os 475 anos de Vitória e alcança vidas',
+titulo:'Cantata da Maranata marca os 475 anos de Vitória e alcança vidas',
 categoria:'Fé e Sociedade',
 data:'2026-09-08',
 publicadoEm:'2026-09-08T19:30:00-03:00',
