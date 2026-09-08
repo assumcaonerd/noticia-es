@@ -3,7 +3,10 @@
   ==================================================
   Este arquivo recebe notícias manuais e automáticas.
   O motor automático roda pelo GitHub Actions e insere novas matérias no topo.
-  Para publicação manual, use publicar.html e cole o objeto logo após "const noticias = [
+  Para publicação manual, use publicar.html e cole o objeto logo após "const noticias = [".
+*/
+
+const noticias = [
   {
     id: 8092026234101,
     slug: "quilombolas-protesto-br-101-sao-mateus-anexo-3-rio-doce",
@@ -42,10 +45,7 @@
     fontesAdicionais: ["https://portalunicoriodoce.es.gov.br/pt-br/medidas-reparacao-e-compensacao/anexo-3", "https://www.gov.br/povosindigenas/pt-br/assuntos/noticias/2026/02/comite-do-rio-doce-aprova-projeto-voltado-a-consulta-de-comunidades-indigenas-impactadas-pelo-rompimento-da-barragem-de-mariana", "https://agenciagov.ebc.com.br/noticias/202508/mec-se-reune-com-representantes-quilombolas-no-es", "https://www.gov.br/incra/pt-br/centrais-de-conteudos/publicacoes/quilombolas/aquisicao-de-imoveis-rurais"],
     automatico: true,
     coletadoEm: "2026-09-08T02:41:00.000Z"
-  },".
-*/
-
-const noticias = [
+  },
   {
     id: 8302026143401,
     slug: "flavio-bolsonaro-ministro-bukele-seguranca-faccoes-presidios",
