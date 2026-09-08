@@ -3,7 +3,46 @@
   ==================================================
   Este arquivo recebe notícias manuais e automáticas.
   O motor automático roda pelo GitHub Actions e insere novas matérias no topo.
-  Para publicação manual, use publicar.html e cole o objeto logo após "const noticias = [".
+  Para publicação manual, use publicar.html e cole o objeto logo após "const noticias = [
+  {
+    id: 8092026234101,
+    slug: "quilombolas-protesto-br-101-sao-mateus-anexo-3-rio-doce",
+    titulo: "Quilombolas bloqueiam BR-101 em São Mateus e cobram inclusão na reparação do Rio Doce",
+    categoria: "Política Estadual",
+    data: "2026-09-07",
+    imagem: "imagens/auto-politica-es.svg",
+    resumo: "Manifestação interrompeu a BR-101 no Norte do ES e cobrou acesso de comunidades às medidas do Anexo 3 do Novo Acordo do Rio Doce; tráfego foi liberado às 10h30.",
+    conteudo: `<p>Uma manifestação de comunidades quilombolas e povos tradicionais interrompeu o trânsito na BR-101, em São Mateus, no Norte do Espírito Santo, na manhã desta segunda-feira (7). O ato ocorreu nas proximidades do campus da Universidade Federal do Espírito Santo (Ufes) e teve como principal reivindicação a inclusão de comunidades nas medidas previstas pelo Anexo 3 do Novo Acordo do Rio Doce, firmado para reparar os danos provocados pelo rompimento da barragem de Fundão, em Mariana, em 2015.</p>
+<p>A interdição começou nas primeiras horas da manhã. Segundo informações divulgadas pela Ecovias Capixaba e pela Polícia Rodoviária Federal, a rodovia chegou a ficar totalmente bloqueada. Por volta das 9h, o tráfego passou a ser liberado de forma alternada, com passagem de veículos em cada sentido a intervalos de aproximadamente 20 minutos. Às 10h30, a PRF informou que o fluxo havia sido totalmente restabelecido.</p>
+<p>A mobilização levou para uma das principais rodovias do Estado uma discussão que se arrasta no processo de reparação do desastre do Rio Doce: quais comunidades tradicionais são reconhecidas como atingidas e de que forma terão acesso às medidas específicas previstas no acordo.</p>
+<h2>O que prevê o Anexo 3</h2>
+<p>O Portal Único da Reparação do Rio Doce, mantido pelo poder público, informa que o Anexo 3 é dedicado aos povos indígenas, comunidades quilombolas, povos e comunidades tradicionais. O documento prevê medidas de reparação e compensação por danos coletivos, além de auxílios de subsistência e financeiros às famílias pertencentes aos grupos indicados no próprio anexo.</p>
+<p>A gestão temática é atribuída à União, com participação do Ministério dos Povos Indígenas, do Ministério da Igualdade Racial e do Ministério do Desenvolvimento Agrário e Agricultura Familiar. Isso significa que a execução dessa parte da repactuação envolve decisões administrativas e processos de consulta que não ficam exclusivamente sob responsabilidade da Samarco.</p>
+<p>O Governo Federal já informou que o Anexo 3 reservou R$ 8 bilhões para ações destinadas a indígenas, quilombolas e povos e comunidades tradicionais. Os recursos são voltados a diferentes frentes, entre elas assistência às famílias, assessorias técnicas independentes e medidas estruturantes coletivas definidas conforme os processos de consulta e as características de cada território.</p>
+<p>A reivindicação apresentada em São Mateus, portanto, toca diretamente no critério de abrangência do acordo. Os manifestantes querem que as comunidades que representam sejam alcançadas pelo regime específico de reparação e pelos mecanismos financeiros e coletivos vinculados ao anexo.</p>
+<h2>Sapê do Norte está no centro da reparação quilombola</h2>
+<p>São Mateus tem relação direta com a pauta quilombola do Novo Acordo. Em agosto de 2025, o Ministério da Educação recebeu representantes de comunidades da região de Sapê do Norte afetadas pelo rompimento da barragem de Fundão. Na ocasião, participaram lideranças de comunidades como Coxi, Córrego do Alexandre, Barreiras, Angelim Disa, Beira Rio, Córrego Seco, Córrego do Chiado e Nova Vista.</p>
+<p>O próprio governo federal registrou naquele encontro que o Anexo 3 reconhece impactos diferenciados sobre povos indígenas, comunidades quilombolas e comunidades tradicionais, o que exige reparação com dimensões culturais, territoriais e sociais específicas.</p>
+<p>A presença quilombola em São Mateus também aparece em processos fundiários recentes. O Incra registra, em 2026, editais relacionados ao território quilombola Serraria e São Cristóvão, no município. Esse procedimento fundiário é distinto da reparação do Rio Doce, mas demonstra a existência de territórios quilombolas formalmente tratados por políticas públicas federais na região.</p>
+<h2>Recursos já foram aprovados para comunidades capixabas</h2>
+<p>A discussão sobre o Anexo 3 avançou ao longo de 2026. Em fevereiro, o subcomitê responsável aprovou um projeto de R$ 14,5 milhões para viabilizar estudos de impactos ambientais e consultas a povos indígenas atingidos. O Ministério dos Povos Indígenas informou que o projeto seria executado tecnicamente pelo Instituto Federal do Espírito Santo e alcançaria aproximadamente 7 mil indígenas dos povos Tupiniquim, Guarani e Puri.</p>
+<p>Em outras comunidades tradicionais, os processos de consulta também produziram decisões concretas. Em abril, mais de 3 mil faiscadores e faiscadoras tradicionais da Bacia do Rio Doce aprovaram a adesão ao Novo Acordo após nove meses de consulta, segundo o Ministério do Desenvolvimento Agrário.</p>
+<p>No Espírito Santo, medidas específicas para comunidades quilombolas também começaram a receber recursos. Informações divulgadas no fim de agosto apontam a aprovação de aproximadamente R$ 100,9 milhões para projetos de apoio familiar destinados a Sapê do Norte, Degredo, em Linhares, e Santa Efigênia, em Minas Gerais. A maior parcela, cerca de R$ 92,7 milhões, foi destinada a Sapê do Norte.</p>
+<h2>Samarco diz cumprir o acordo</h2>
+<p>Após a manifestação desta segunda-feira, a Samarco informou, em nota divulgada por A Gazeta, que cumpre integralmente as obrigações estabelecidas no Novo Acordo do Rio Doce. Sobre as comunidades quilombolas, a mineradora afirmou que a reparação segue os critérios definidos no documento.</p>
+<p>A resposta não encerra a controvérsia levantada pelos manifestantes. O ponto apresentado no protesto é justamente a reivindicação de inclusão de comunidades no alcance das medidas do Anexo 3. A definição de elegibilidade, os processos de consulta e a execução dos programas envolvem diferentes órgãos federais e os mecanismos de governança criados pela repactuação.</p>
+<p>O protesto terminou sem registro de manutenção do bloqueio ao longo do dia. Depois da liberação integral às 10h30, o trânsito voltou a fluir nos dois sentidos da BR-101. A reivindicação, porém, permanece ligada à execução do Novo Acordo do Rio Doce e às decisões sobre quais comunidades terão acesso às reparações específicas previstas para povos tradicionais.</p>
+<h2>O que acontece agora</h2>
+<p>A liberação da rodovia resolveu o impacto imediato sobre o trânsito, mas não representa uma decisão sobre o pedido feito pelas comunidades. A reivindicação terá de ser tratada dentro das instâncias responsáveis pela execução do Anexo 3 e pelos processos de consulta e reconhecimento previstos no Novo Acordo.</p>
+<p>O caso também mostra que, quase onze anos após o rompimento da barragem de Fundão, a reparação continua produzindo disputas sobre alcance, critérios e execução. Em São Mateus, essas discussões ganharam visibilidade ao chegar à BR-101. O acompanhamento das próximas decisões do poder público será determinante para saber se as comunidades que participaram da mobilização serão formalmente incluídas nas medidas que reivindicam.</p>
+<p><strong>Fontes consultadas:</strong> A Gazeta, cobertura do protesto e posicionamento da Samarco; Portal Único Reparação Rio Doce, descrição oficial do Anexo 3; Ministério dos Povos Indígenas, informações sobre recursos e consultas; Ministério da Educação, registro de comunidades quilombolas de Sapê do Norte; Incra, registros fundiários quilombolas de São Mateus.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "A Gazeta",
+    fonteUrl: "https://www.agazeta.com.br/agora/protesto-interdita-a-br-101-em-sao-mateus-no-es-0926",
+    fontesAdicionais: ["https://portalunicoriodoce.es.gov.br/pt-br/medidas-reparacao-e-compensacao/anexo-3", "https://www.gov.br/povosindigenas/pt-br/assuntos/noticias/2026/02/comite-do-rio-doce-aprova-projeto-voltado-a-consulta-de-comunidades-indigenas-impactadas-pelo-rompimento-da-barragem-de-mariana", "https://agenciagov.ebc.com.br/noticias/202508/mec-se-reune-com-representantes-quilombolas-no-es", "https://www.gov.br/incra/pt-br/centrais-de-conteudos/publicacoes/quilombolas/aquisicao-de-imoveis-rurais"],
+    automatico: true,
+    coletadoEm: "2026-09-08T02:41:00.000Z"
+  },".
 */
 
 const noticias = [
