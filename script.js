@@ -22,6 +22,29 @@
       .trim();
   }
 
+  function categoriaCanonica(valor = '') {
+    const c = normalizar(valor)
+      .replace(/[-_]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    const aliases = {
+      'politica es': 'politica-es',
+      'politica estadual': 'politica-es',
+      'politica do es': 'politica-es',
+      'politica espirito santo': 'politica-es',
+      'politica do espirito santo': 'politica-es',
+      'seguranca publica': 'seguranca-publica',
+      'seguranca': 'seguranca-publica',
+      'politica nacional': 'politica-nacional',
+      'opiniao': 'opiniao',
+      'fe e sociedade': 'fe-e-sociedade',
+      'fe sociedade': 'fe-e-sociedade'
+    };
+
+    return aliases[c] || c.replace(/\s+/g, '-');
+  }
+
   function formatarData(dataISO) {
     if (!dataISO) return '';
     const [ano, mes, dia] = dataISO.split('-').map(Number);
@@ -36,7 +59,7 @@
   }
 
   function slugCategoria(categoria) {
-    return normalizar(categoria).replace(/\s+/g, '-');
+    return categoriaCanonica(categoria);
   }
 
   function obterParametro(nome) {
@@ -47,8 +70,8 @@
     let resultado = [...lista];
 
     if (categoria) {
-      const categoriaNormalizada = normalizar(categoria).replace(/-/g, ' ');
-      resultado = resultado.filter(n => normalizar(n.categoria) === categoriaNormalizada);
+      const categoriaEsperada = categoriaCanonica(categoria);
+      resultado = resultado.filter(n => categoriaCanonica(n.categoria) === categoriaEsperada);
     }
 
     if (termo) {
@@ -246,7 +269,7 @@
 
     const outras = noticias
       .filter(n => n.slug !== noticia.slug)
-      .sort((a, b) => (a.categoria === noticia.categoria ? -1 : 1))
+      .sort((a, b) => (categoriaCanonica(a.categoria) === categoriaCanonica(noticia.categoria) ? -1 : 1))
       .slice(0, 3);
 
     if (relacionados) {
@@ -259,14 +282,13 @@
         </div>`;
     }
 
-    document.querySelectorAll('[data-share]').forEach(btn => {
+    container.querySelectorAll('[data-share]').forEach(btn => {
       btn.addEventListener('click', () => compartilhar(btn.dataset.share, noticia));
     });
   }
 
   function compartilhar(rede, noticia) {
-    const canonico = `https://noticiaes.com.br/m/${encodeURIComponent(noticia.slug)}.html`;
-    const url = encodeURIComponent(canonico);
+    const url = encodeURIComponent(`https://noticiaes.com.br/m/${noticia.slug}.html`);
     const texto = encodeURIComponent(noticia.titulo);
     let destino = '';
 
@@ -277,35 +299,15 @@
     if (destino) window.open(destino, '_blank', 'noopener,noreferrer');
   }
 
-  function configurarBusca() {
-    if (!buscaForm || !buscaInput) return;
-
-    buscaForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const termo = buscaInput.value.trim();
-      const destino = termo ? `index.html?q=${encodeURIComponent(termo)}` : 'index.html';
-      window.location.href = destino;
+  if (buscaForm) {
+    buscaForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const termo = buscaInput ? buscaInput.value.trim() : '';
+      const params = new URLSearchParams(window.location.search);
+      if (termo) params.set('q', termo); else params.delete('q');
+      window.location.href = `index.html?${params.toString()}`;
     });
   }
-
-  function configurarLinksCategoria() {
-    document.querySelectorAll('[data-categoria]').forEach(link => {
-      link.addEventListener('click', () => {
-        document.querySelectorAll('[data-categoria]').forEach(a => a.classList.remove('ativo'));
-        link.classList.add('ativo');
-      });
-    });
-  }
-
-  function configurarAno() {
-    document.querySelectorAll('[data-ano]').forEach(el => {
-      el.textContent = new Date().getFullYear();
-    });
-  }
-
-  configurarBusca();
-  configurarLinksCategoria();
-  configurarAno();
 
   if (pagina === 'home') renderHome();
   if (pagina === 'materia') renderMateria();
