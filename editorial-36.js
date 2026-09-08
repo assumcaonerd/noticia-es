@@ -6,7 +6,7 @@ const materiasEditoriais36 = [
     titulo: "Andrei cai no dia em que a crise explode: afastamento expõe guerra na PF em meio aos casos Master e INSS",
     categoria: "Política Nacional",
     data: "2026-09-08",
-    imagem: "imagens/auto-politica-nacional.svg",
+    imagem: "imagens/andrei-rodrigues-master-inss-mendonca-capa.jpg",
     legendaImagem: "Crise no comando da Polícia Federal ganha novo capítulo com o afastamento de Andrei Rodrigues",
     resumo: "Diretor-geral escolhido por Lula é afastado em meio a acusações envolvendo Banco Master, caso INSS, relatórios de inteligência contra André Mendonça e suspeitas de interferência na condução de investigações.",
     conteudo: `<p><strong>O afastamento de Andrei Rodrigues do comando da Polícia Federal nesta terça-feira, 8 de setembro, transforma em crise aberta uma sequência de acusações que já atingia o coração da corporação. No centro da disputa estão as investigações relacionadas ao Banco Master e ao INSS, o nome de Fábio Luís Lula da Silva, o Lulinha, e uma guerra institucional que alcançou ministros do Supremo Tribunal Federal.</strong></p>
