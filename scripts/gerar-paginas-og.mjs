@@ -158,6 +158,7 @@ function paginaHTML(n, imagem) {
   return `<!doctype html>
 <html lang="pt-BR"><head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="/analytics.js"></script>
   <title>${escapar(titulo)} | Notícia ES</title>
   <meta name="description" content="${escapar(resumo)}"><meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="${escapar(url)}"><meta property="og:type" content="article"><meta property="og:locale" content="pt_BR"><meta property="og:site_name" content="Notícia ES"><meta property="og:title" content="${escapar(titulo)}"><meta property="og:description" content="${escapar(resumo)}"><meta property="og:url" content="${escapar(url)}">${metaImagem}
