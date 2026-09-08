@@ -85,3 +85,4 @@ const noticias = [
     coletadoEm: "2026-08-28T00:53:48.958Z"
   }
 ];
+if (typeof materiasEditoriais35 !== "undefined") noticias.unshift(...materiasEditoriais35);
