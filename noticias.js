@@ -8,6 +8,79 @@
 
 const noticias = [
   {
+    id: 9092026174501,
+    slug: "tre-es-indefere-candidatura-armandinho-falsidade-ideologica",
+    titulo: "TRE-ES barra candidatura de Armandinho após condenação por falsidade ideológica",
+    categoria: "Política Estadual",
+    data: "2026-09-09",
+    publicadoEm: "2026-09-09T17:45:00-03:00",
+    imagem: "https://i.ibb.co/SXG39JXF/Chat-GPT-Image-9-de-set-de-2026-17-39-50.png",
+    legendaImagem: "O TRE do Espírito Santo indeferiu por unanimidade o registro de candidatura de Armandinho Fontoura a deputado estadual",
+    resumo: "Decisão unânime aplica a Lei da Ficha Limpa após condenação colegiada no caso do perfil ‘Dra. Laura’; defesa ainda pode recorrer ao TSE.",
+    conteudo: `<p><strong>O Tribunal Regional Eleitoral do Espírito Santo indeferiu, por unanimidade, nesta quarta-feira, 9 de setembro de 2026, o registro da candidatura do vereador Armandinho Fontoura, do PL, a deputado estadual. A decisão retira, por ora, o candidato da disputa pela Assembleia Legislativa a menos de um mês do primeiro turno, marcado para 4 de outubro.</strong></p>
+<p>O fundamento que derrubou o registro é uma condenação criminal imposta por órgão colegiado. Em 18 de agosto, a 1ª Câmara Criminal do Tribunal de Justiça do Espírito Santo condenou Armandinho por falsidade ideológica, delito previsto no artigo 299 do Código Penal e classificado como crime contra a fé pública.</p>
+<p>A consequência chegou imediatamente à Justiça Eleitoral. A Lei Complementar nº 64/1990, conhecida como Lei da Ficha Limpa, estabelece a inelegibilidade de quem é condenado por órgão colegiado por crimes dessa natureza. A regra não exige o trânsito em julgado, isto é, não obriga a Justiça Eleitoral a esperar que se esgotem todos os recursos na esfera criminal.</p>
+<p>Foi esse enquadramento que sustentou a Ação de Impugnação de Registro de Candidatura nº 0600588-19.2026.6.08.0000, apresentada pelo Ministério Público Eleitoral e acolhida pelo TRE-ES. A jornalista Fabiana Tostes esteve entre as primeiras a noticiar o resultado do julgamento.</p>
+<p>A decisão é um golpe direto no projeto político de Armandinho. Vereador reeleito de Vitória, ele tentava levar para a disputa estadual o número 22456 e uma votação municipal que quase triplicou entre 2020 e 2024. Agora, seu nome depende de uma reversão no Tribunal Superior Eleitoral para chegar à urna.</p>
+<h2>Ficha Limpa alcança a candidatura imediatamente</h2>
+<p>O centro jurídico do caso é objetivo. A alínea “e”, item 1, do inciso I do artigo 1º da Lei Complementar nº 64/1990 inclui entre as causas de inelegibilidade a condenação proferida por órgão judicial colegiado em crimes contra a fé pública. Falsidade ideológica pertence exatamente a essa categoria.</p>
+<p>Ao analisar o registro, o tribunal eleitoral não refaz o julgamento criminal. A Súmula 41 do TSE impede que a Justiça Eleitoral reexamine o acerto ou o erro da decisão proferida pela Justiça comum. O trabalho do TRE, nesse estágio, consiste em verificar se existe condenação colegiada e se o crime reconhecido está entre aqueles previstos pela Ficha Limpa.</p>
+<p>No caso de Armandinho, os dois elementos foram identificados: a decisão partiu da 1ª Câmara Criminal do TJES, um colegiado, e a condenação foi por falsidade ideológica, crime contra a fé pública. A partir dessa combinação, o Ministério Público Eleitoral pediu a impugnação e o TRE acolheu o pedido sem divergência.</p>
+<p>A unanimidade dá peso político ao resultado, mas não encerra o caminho processual. Cabe recurso ao TSE. Até que o tribunal superior se manifeste, a situação da candidatura permanece submetida ao relógio apertado da eleição.</p>
+<h2>O caso “Dra. Laura” começou em 2018</h2>
+<p>A origem da condenação está em fatos atribuídos a Armandinho quando ele ainda atuava como secretário parlamentar, em 2018. Segundo o histórico do processo, Armando Fontoura Borges Filho, seu nome de registro, teria usado dados do ex-vereador Max da Mata para cadastrar uma linha de celular.</p>
+<p>Essa linha teria sido utilizada para criar no WhatsApp um perfil chamado “Dra. Laura”. Por meio da conta, foram divulgadas mensagens e montagens que associavam o advogado Luciano Ceotto a um esquema da Operação Lava Jato.</p>
+<p>A Polícia Civil concluiu o inquérito em 2020. A apuração deu origem a duas ações judiciais distintas. Uma delas, de natureza pública, foi proposta pelo Ministério Público Estadual e tratou das acusações de falsidade ideológica e denunciação caluniosa. A outra, privada, foi movida por Luciano Ceotto e abordou crimes contra a honra.</p>
+<p>Esses processos tiveram trajetórias diferentes. A distinção é decisiva para compreender por que o registro foi indeferido agora e por que outros episódios judiciais não foram usados como fundamento para a decisão eleitoral desta quarta-feira.</p>
+<h2>Absolvição em primeiro grau foi reformada pelo TJES</h2>
+<p>Na ação pública, Armandinho havia sido absolvido em fevereiro de 2025 pelo juiz Luiz Guilherme Risso, da 2ª Vara Criminal de Vitória. O magistrado entendeu que uma montagem gráfica publicada na internet não configuraria “documento penalmente relevante” para caracterizar falsidade ideológica. Com essa interpretação, considerou a conduta atípica.</p>
+<p>O desfecho mudou no julgamento da apelação. A 1ª Câmara Criminal do TJES reformou a absolvição e condenou Armandinho por falsidade ideológica. Ao mesmo tempo, manteve a absolvição quanto à acusação de denunciação caluniosa.</p>
+<p>A pena foi fixada em 2 anos e 3 meses de reclusão, em regime aberto, além de 23 dias-multa. A prisão foi substituída por prestação de serviços à comunidade e pelo pagamento de prestação pecuniária de R$ 50 mil.</p>
+<p>Para o processo eleitoral, o ponto determinante não foi o regime da pena nem sua substituição. O elemento decisivo foi a existência de uma condenação colegiada por crime contra a fé pública. A partir da publicação desse julgamento, a barreira prevista na Ficha Limpa passou a incidir sobre a candidatura.</p>
+<h2>A outra ação foi anulada e voltou à instrução</h2>
+<p>Na ação privada apresentada por Luciano Ceotto, o juiz Luiz Guilherme Risso havia condenado Armandinho por injúria e difamação. A pena foi convertida no pagamento de 15 salários mínimos, acompanhado de R$ 10 mil a título de reparação.</p>
+<p>Essa condenação, porém, foi anulada em maio de 2026 pela 2ª Câmara Criminal do TJES. O colegiado reconheceu cerceamento de defesa porque testemunhas indicadas pelo réu não haviam sido ouvidas. Com a anulação, o processo retornou à fase de instrução.</p>
+<p>Portanto, não foi essa ação privada que tornou Armandinho inelegível. O indeferimento decidido pelo TRE-ES está vinculado especificamente à condenação proferida pela 1ª Câmara Criminal na ação pública, por falsidade ideológica.</p>
+<h2>Bloqueio pode alcançar 2034</h2>
+<p>Pela regra da Ficha Limpa, o prazo de oito anos de inelegibilidade começa a ser contado depois do cumprimento da pena. Na projeção apresentada pelo Ministério Público Eleitoral e reproduzida pela cobertura local, o impedimento pode alcançar 2034.</p>
+<p>A data final ainda poderá ser discutida em recurso. A contagem exata depende do momento em que a pena alternativa será considerada cumprida e da forma como o TSE aplicará a legislação após as mudanças ocorridas em 2025.</p>
+<p>Essa controvérsia sobre o término da inelegibilidade não altera o efeito imediato do julgamento. Sem o registro deferido, o nome do candidato não entra na urna, a menos que o TSE reverta a decisão ou conceda uma medida que assegure sua participação a tempo.</p>
+<p>Armandinho pode continuar praticando atos de campanha enquanto o pedido estiver sub judice. Essa possibilidade, contudo, não equivale à garantia de presença na urna. Se houver recurso e o TSE não conceder uma liminar ou não reformar o indeferimento antes da preparação final do pleito, a candidatura ficará fora da votação.</p>
+<h2>Uma ascensão política interrompida</h2>
+<p>Armandinho nasceu em Vitória em 25 de julho de 1991. Empresário, com ensino superior completo e atualmente filiado ao PL, construiu sua trajetória eleitoral na Câmara Municipal da capital.</p>
+<p>Foi eleito vereador pelo DEM em 2016, pelo Podemos em 2020 e pelo PL em 2024. Na eleição municipal mais recente, recebeu 3.076 votos, quase três vezes o resultado obtido quatro anos antes. O crescimento nas urnas servia como plataforma para a tentativa de chegar à Assembleia Legislativa.</p>
+<p>Em 2025, destacou-se como o vereador de maior produção na Câmara de Vitória. Sua atuação reuniu dezenas de projetos, milhares de indicações, gabinete itinerante, a chamada Lei Anti-Oruam e uma comissão voltada ao combate ao crime organizado.</p>
+<p>Esse volume político tornava a candidatura estadual uma etapa natural de expansão. A decisão unânime do TRE interrompe esse movimento no ponto mais sensível da campanha: faltando poucas semanas para o primeiro turno e quando cada dia disponível para recurso passa a ter peso decisivo.</p>
+<h2>Outras condenações estão na esteira, mas não decidiram o registro</h2>
+<p>O vereador também responde a outras decisões judiciais. Em junho de 2025, a 2ª Vara Criminal o condenou em primeiro grau por coação contra a juíza Gisele Souza de Oliveira e o promotor Rafael Calhau Bastos.</p>
+<p>Nesse processo, a pena foi fixada em 3 anos e 3 meses, em regime aberto, e convertida em medidas restritivas de direitos. Também foi determinada reparação de R$ 5 mil para cada vítima. A defesa alegou contradições e recorreu.</p>
+<p>Em julho de 2026, a 10ª Vara Criminal condenou Armandinho por injúria e difamação contra a jornalista Fabiana Tostes, em razão de declarações feitas na tribuna da Câmara em maio de 2025. A pena foi convertida em prestação de serviços, com reparação de R$ 15 mil. Ele foi absolvido da acusação de calúnia nesse processo.</p>
+<p>Nenhuma dessas duas decisões, isoladamente, explica o indeferimento anunciado nesta quarta-feira. A Justiça Eleitoral utilizou a condenação colegiada por falsidade ideológica no caso “Dra. Laura”. Separar os processos evita transformar o histórico judicial em uma acusação genérica e permite identificar com precisão qual decisão produziu a inelegibilidade.</p>
+<h2>Campanha entra em contagem regressiva</h2>
+<p>Em agosto, enquanto a ação de impugnação ainda tramitava, Armandinho afirmou que manteria sua campanha e que estava convicto de vencer a disputa judicial. Com o indeferimento unânime, essa estratégia passa a depender diretamente da velocidade e do resultado do recurso ao TSE.</p>
+<p>O calendário é implacável. O primeiro turno será realizado em 4 de outubro. Entre a decisão do TRE e a votação, há menos de um mês para que a defesa provoque o tribunal superior e tente obter uma resposta capaz de recolocar o candidato na disputa.</p>
+<p>O julgamento desta quarta-feira não atinge automaticamente o atual mandato de vereador em Vitória. O processo analisado trata do registro da candidatura a deputado estadual. Eventuais efeitos sobre o cargo municipal pertencem a outra discussão jurídica e não foram definidos por essa decisão eleitoral.</p>
+<p>O quadro imediato pode ser resumido sem atalhos: o registro foi indeferido por unanimidade; a causa é a condenação colegiada por falsidade ideológica no caso “Dra. Laura”; a inelegibilidade, se mantida, atravessa a eleição de 2026 e pode se prolongar até 2034; e ainda cabe recurso ao Tribunal Superior Eleitoral.</p>
+<p><strong>Armandinho ainda pode recorrer, mas agora corre contra dois adversários que nenhuma campanha controla: a Ficha Limpa e o calendário. Sem uma virada no TSE, o número 22456 não chegará à urna.</strong></p>`,
+    autor: "Redação Notícia ES",
+    entidades: [
+      { tipo: "Person", nome: "Armandinho Fontoura" },
+      { tipo: "Organization", nome: "Tribunal Regional Eleitoral do Espírito Santo" },
+      { tipo: "Organization", nome: "Tribunal de Justiça do Espírito Santo" },
+      { tipo: "Organization", nome: "Tribunal Superior Eleitoral" },
+      { tipo: "PoliticalParty", nome: "PL" }
+    ],
+    aeo: [
+      { pergunta: "Por que o TRE-ES indeferiu a candidatura de Armandinho?", resposta: "Porque ele foi condenado por órgão colegiado por falsidade ideológica, crime contra a fé pública alcançado pela Lei da Ficha Limpa." },
+      { pergunta: "A decisão foi unânime?", resposta: "Sim. O Tribunal Regional Eleitoral do Espírito Santo indeferiu o registro por unanimidade em 9 de setembro de 2026." },
+      { pergunta: "Armandinho ainda pode recorrer?", resposta: "Sim. A defesa pode recorrer ao Tribunal Superior Eleitoral e tentar reverter a decisão a tempo da eleição." },
+      { pergunta: "Qual processo provocou a inelegibilidade?", resposta: "A condenação colegiada por falsidade ideológica no caso do perfil de WhatsApp chamado ‘Dra. Laura’." },
+      { pergunta: "O nome pode entrar na urna?", resposta: "Sem reforma da decisão ou medida favorável do TSE em tempo hábil, o nome fica fora da urna." },
+      { pergunta: "O mandato de vereador foi afetado?", resposta: "Não por esta decisão. O julgamento trata do registro da candidatura a deputado estadual." }
+    ],
+    automatico: false
+  },
+  {
     id: 9092026102501,
     slug: "guerra-stf-dino-reintegra-cupula-pf-desafia-mendonca",
     titulo: "Guerra aberta no STF: Dino reintegra cúpula da PF e desafia decisão de Mendonça",
