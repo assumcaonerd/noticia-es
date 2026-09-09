@@ -8,6 +8,81 @@
 
 const noticias = [
   {
+    id: 9092026183001,
+    slug: "fachin-tira-moraes-inquerito-fake-news-sete-anos",
+    titulo: "Finalmente: Fachin tira de Moraes o Inquérito das Fake News após sete anos",
+    categoria: "Política Nacional",
+    data: "2026-09-09",
+    publicadoEm: "2026-09-09T18:30:00-03:00",
+    imagem: "https://i.ibb.co/SDMMs1vQ/fachin-moraes-inquerito-das-fake-news-660x372-jpg.webp",
+    legendaImagem: "Edson Fachin revogou a designação de Alexandre de Moraes para a condução do Inquérito 4.781",
+    resumo: "Portaria 189 revoga a designação de Alexandre de Moraes no Inquérito 4.781, preserva atos já praticados e devolve procedimentos conexos à Presidência do STF.",
+    conteudo: `<p><strong>Depois de sete anos, dois meses e alguns dias, o Inquérito 4.781 deixa de permanecer sob a condução permanente de Alexandre de Moraes. O presidente do Supremo Tribunal Federal, Edson Fachin, assinou a Portaria 189 e revogou a designação do ministro para o chamado Inquérito das Fake News, com efeitos a partir de 9 de setembro de 2026.</strong></p>
+<p>A medida altera o comando de um dos procedimentos mais longos, controversos e poderosos da história recente do Supremo. Aberto em março de 2019 por portaria do então presidente da Corte, Dias Toffoli, o inquérito nasceu sem sorteio e teve Moraes escolhido diretamente para apurar “notícias fraudulentas, ameaças e ataques” contra o tribunal.</p>
+<p>O plenário do STF posteriormente validou a abertura do procedimento no julgamento da ADPF 572. A partir daí, o inquérito atravessou anos, governos, eleições e crises institucionais. Dele saíram investigações, denúncias, prisões, multas, bloqueios de perfis e outras medidas que atingiram críticos da Corte e personagens da vida política nacional.</p>
+<p>A decisão de Fachin não apaga os atos já praticados. Eles permanecem válidos, salvo se forem posteriormente desconstituídos pelos instrumentos jurídicos próprios. Também não retira de Moraes as ações penais nas quais a denúncia já tenha sido recebida.</p>
+<p>A mudança alcança o restante da estrutura que se acumulou ao redor do inquérito. Investigações preliminares, petições e procedimentos conexos distribuídos por prevenção retornam à Presidência do Supremo. Caberá a Fachin analisá-los e encaminhá-los à Polícia Federal e, depois, à Procuradoria-Geral da República, que poderá oferecer denúncia ou pedir arquivamento.</p>
+<p>É uma correção de rota que chega depois de uma semana em que o conflito interno do STF deixou de ser uma divergência discreta entre gabinetes. A guerra de decisões envolvendo Alexandre de Moraes, André Mendonça, Flávio Dino, a direção da Polícia Federal e o caso Banco Master transformou o problema em uma crise exposta diante do país.</p>
+<h2>Um inquérito criado sem sorteio e conduzido por sete anos</h2>
+<p>O Inquérito 4.781 foi instaurado em março de 2019 por uma portaria assinada por Dias Toffoli. Não houve sorteio para definir o relator. Alexandre de Moraes foi designado diretamente para conduzir a apuração de ataques, ameaças e informações fraudulentas dirigidas contra integrantes do Supremo e seus familiares.</p>
+<p>Essa origem excepcional acompanhou o procedimento durante toda a sua existência. Em vez de uma investigação com prazo delimitado e objeto progressivamente encerrado, o inquérito tornou-se uma estrutura permanente, capaz de receber novos fatos, novos alvos e procedimentos ligados por prevenção.</p>
+<p>A validação pelo plenário na ADPF 572 garantiu sustentação institucional ao modelo. Ainda assim, a duração e a concentração de funções permaneceram no centro das críticas. Ao longo dos anos, Moraes esteve à frente de decisões de investigação, busca, bloqueio, prisão, aplicação de multa e restrição de contas em redes sociais.</p>
+<p>Para os atingidos, o debate nunca foi apenas teórico. Críticas publicadas na internet passaram a integrar investigações criminais. Postagens foram tratadas como elementos de prova. Salários foram retidos, contas bloqueadas, multas foram impostas e pessoas permaneceram por longos períodos submetidas a tornozeleira eletrônica.</p>
+<p>O questionamento central sempre esteve na concentração de poderes. O mesmo gabinete conduzia o inquérito, determinava diligências e julgava pedidos relacionados aos fatos investigados. O procedimento, apresentado como resposta cautelar a uma ameaça excepcional, atravessou mais de sete anos sem um encerramento claramente definido.</p>
+<h2>O que muda com a Portaria 189</h2>
+<p>A Portaria 189 revoga a designação que mantinha Alexandre de Moraes no comando do Inquérito 4.781. A mudança vale a partir de 9 de setembro de 2026 e encerra a permanência automática do ministro na relatoria de tudo o que continuava chegando ao núcleo do procedimento.</p>
+<p>Os efeitos, porém, têm limites precisos. Os atos anteriormente praticados permanecem de pé. Quem pretender anulá-los terá de buscar essa revisão pelas vias processuais adequadas. A portaria também preserva com Moraes as ações penais em que o Supremo já recebeu denúncia.</p>
+<p>Nos demais casos, o caminho muda. Inquéritos conexos, petições e investigações preliminares que haviam sido encaminhados ao mesmo relator pelo critério de prevenção voltam para a Presidência da Corte.</p>
+<p>Fachin fará a análise inicial e encaminhará o material à Polícia Federal. Após as diligências cabíveis, os autos seguem para a Procuradoria-Geral da República. A PGR deverá então assumir a posição prevista no processo penal: apresentar denúncia quando entender que há prova suficiente ou pedir o arquivamento quando não houver base para acusação.</p>
+<p>A alteração devolve ao fluxo institucional funções que, durante anos, ficaram concentradas no inquérito. O presidente do STF deixa de tratar a designação original como uma autorização sem limite de tempo e impõe uma divisão mais clara entre investigação policial, manifestação do Ministério Público e julgamento.</p>
+<h2>Fachin já havia anunciado que o fim era urgente</h2>
+<p>A portaria não surgiu de maneira isolada. Na sexta-feira, 4 de setembro, Fachin afirmou publicamente que acontecimentos recentes tornavam urgente o encerramento do procedimento. Na mesma manifestação, defendeu a criação de um código de ética e a modernização do Supremo.</p>
+<p>As palavras foram pronunciadas no momento em que o Inquérito 4.781 voltava a ocupar o centro de uma disputa entre ministros. Alexandre de Moraes havia utilizado o procedimento para pedir uma investigação contra André Mendonça.</p>
+<p>Fachin retirou o pedido daquele inquérito e assumiu sua análise. O gesto já indicava que a Presidência pretendia impedir que a estrutura criada em 2019 continuasse absorvendo qualquer novo conflito relacionado à Corte.</p>
+<p>Nos dias seguintes, a crise aumentou. Mendonça determinou o afastamento de Andrei Rodrigues da Direção-Geral da Polícia Federal. Flávio Dino, no dia seguinte, ordenou a reintegração. As duas decisões passaram a produzir comandos opostos sobre a mesma autoridade e sobre o funcionamento da inteligência da corporação.</p>
+<p>Fachin então suspendeu as duas decisões, sobrestou o processo sob a condução de Mendonça e convocou sessão presencial do plenário para 15 de setembro, às 10h. A Presidência tentou recolocar no colegiado uma controvérsia que havia se transformado em uma sequência de liminares cruzadas.</p>
+<p>A Portaria 189 completa esse movimento de recentralização institucional. Depois de intervir na disputa sobre o comando da PF, Fachin corta a designação que mantinha Moraes como relator permanente do Inquérito das Fake News.</p>
+<h2>A decisão chega depois de uma guerra aberta no STF</h2>
+<p>A sucessão dos acontecimentos revelou uma Corte dividida. Moraes pediu a investigação de Mendonça dentro do inquérito que conduzia. Mendonça afastou a cúpula da Polícia Federal. Dino anulou, na prática, o afastamento. Fachin suspendeu os dois lados e chamou o plenário.</p>
+<p>O conflito ultrapassou o campo das interpretações jurídicas. Decisões individuais começaram a neutralizar decisões individuais, enquanto ministros faziam acusações diretas sobre a conduta de colegas e sobre a atuação da PF.</p>
+<p>O modelo do Inquérito 4.781, sustentado por mais de sete anos, passou a ser observado dentro de uma crise na qual o próprio instrumento era usado para alcançar um integrante do Supremo. O que antes atingia principalmente personagens externos chegou ao interior do tribunal.</p>
+<p>Ao revogar a designação de Moraes, Fachin estabelece um limite objetivo. Novos desdobramentos já não poderão continuar sendo enviados automaticamente ao mesmo gabinete apenas porque foram ligados ao inquérito original.</p>
+<p>A mudança não resolve todas as divergências. O plenário ainda terá de enfrentar os conflitos recentes e estabelecer os limites das decisões proferidas nos diferentes processos. Mas a Presidência retoma o controle de um acervo investigativo que havia permanecido por anos sob uma única relatoria.</p>
+<h2>Para os atingidos, o passado continua valendo</h2>
+<p>A revogação da designação tem grande peso institucional, mas não repara automaticamente as consequências produzidas desde 2019. Prisões já cumpridas não desaparecem. Valores bloqueados não são liberados apenas pela publicação da portaria. Multas, restrições e danos à reputação não são revertidos em bloco.</p>
+<p>Cada ato terá de ser questionado no processo correspondente. A preservação das decisões anteriores significa que a mudança olha prioritariamente para a condução futura do acervo, sem declarar inválido tudo o que foi feito sob a relatoria de Moraes.</p>
+<p>Também não há encerramento instantâneo de todas as investigações. A Presidência receberá os procedimentos remanescentes, fará a triagem e os encaminhará para análise da Polícia Federal e da PGR. Casos com prova poderão se transformar em denúncia. Casos sem base poderão terminar em pedido de arquivamento.</p>
+<p>Para quem criticou o inquérito desde o início, o passo é tardio diante do tamanho do impacto. Foram mais de sete anos sob um desenho excepcional, com relator fixo, ausência de sorteio na origem e sucessiva incorporação de novos fatos.</p>
+<p>Ao mesmo tempo, a portaria rompe uma continuidade que parecia não ter data para acabar. Pela primeira vez, a própria Presidência do Supremo estabelece formalmente que aquela designação não seguirá funcionando como fundamento permanente para concentrar novos procedimentos.</p>
+<h2>A exceção finalmente encontra um limite</h2>
+<p>Durante anos, o Brasil assistiu à normalização de um inquérito que nasceu de uma decisão administrativa do próprio tribunal, escolheu diretamente seu relator e continuou aberto enquanto acumulava investigações e medidas cautelares.</p>
+<p>A justificativa inicial era proteger a Corte contra ameaças, notícias fraudulentas e ataques. Com o tempo, a abrangência do procedimento cresceu e passou a alcançar manifestações políticas, publicações em redes sociais e conflitos que se conectavam ao Supremo por diferentes caminhos.</p>
+<p>A Portaria 189 não reescreve essa história. Ela marca o primeiro corte institucional claro na permanência da relatoria. Ao retirar Moraes do comando do inquérito e devolver os procedimentos remanescentes à Presidência, Fachin reconhece, na prática, que a excepcionalidade precisava de um ponto final administrativo.</p>
+<p>O próximo teste será o destino concreto do acervo. A credibilidade da mudança dependerá da separação entre casos sustentados por provas e investigações que permaneceram abertas sem fundamento suficiente. A Polícia Federal e a PGR terão papel decisivo nessa filtragem.</p>
+<p>Também caberá ao plenário demonstrar se a reorganização vai além de uma resposta momentânea à crise entre ministros. O código de ética mencionado por Fachin, a modernização da Corte e a definição dos limites de decisões individuais permanecem como temas pendentes.</p>
+<p>Depois de sete anos, a designação acabou. O estrago alegado por quem foi atingido continua em discussão, os atos permanecem válidos e as ações penais já abertas seguem com Moraes. Ainda assim, uma porta que parecia permanentemente fechada foi finalmente aberta: o inquérito volta a ter caminho institucional para denúncia ou arquivamento.</p>
+<p><strong>Fachin colocou a conta sobre a mesa do próprio Supremo. Agora a Corte terá de escolher entre reconduzir cada investigação ao rito legal ou preservar, sob outro nome, a exceção que permitiu durante sete anos.</strong></p>`,
+    autor: "Redação Notícia ES",
+    entidades: [
+      { tipo: "Person", nome: "Edson Fachin" },
+      { tipo: "Person", nome: "Alexandre de Moraes" },
+      { tipo: "Person", nome: "André Mendonça" },
+      { tipo: "Person", nome: "Flávio Dino" },
+      { tipo: "Organization", nome: "Supremo Tribunal Federal" },
+      { tipo: "GovernmentOrganization", nome: "Polícia Federal" },
+      { tipo: "GovernmentOrganization", nome: "Procuradoria-Geral da República" }
+    ],
+    aeo: [
+      { pergunta: "O que Fachin decidiu sobre o Inquérito das Fake News?", resposta: "A Portaria 189 revogou a designação de Alexandre de Moraes para a condução do Inquérito 4.781 a partir de 9 de setembro de 2026." },
+      { pergunta: "Os atos já praticados foram anulados?", resposta: "Não. Os atos permanecem válidos, salvo se forem posteriormente desconstituídos pelas vias jurídicas próprias." },
+      { pergunta: "Moraes perde todas as ações relacionadas ao inquérito?", resposta: "Não. As ações penais em que a denúncia já foi recebida continuam sob sua relatoria." },
+      { pergunta: "O que acontece com os procedimentos restantes?", resposta: "Inquéritos conexos, petições e investigações preliminares retornam à Presidência do STF para análise e encaminhamento à Polícia Federal e à PGR." },
+      { pergunta: "Quando o Inquérito 4.781 foi aberto?", resposta: "O procedimento foi aberto em março de 2019 por portaria do então presidente do STF, Dias Toffoli." },
+      { pergunta: "O inquérito foi encerrado imediatamente?", resposta: "Não. A portaria encerra a designação permanente do relator e reorganiza o destino dos procedimentos remanescentes." }
+    ],
+    automatico: false
+  },
+  {
     id: 9092026174501,
     slug: "tre-es-indefere-candidatura-armandinho-falsidade-ideologica",
     titulo: "TRE-ES barra candidatura de Armandinho após condenação por falsidade ideológica",
