@@ -1,0 +1,69 @@
+name: Gerar slides das notícias
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'm/**/*.html'
+      - 'scripts/gerar-slides.mjs'
+      - '.github/workflows/gerar-slides-noticias.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gerar-slides-noticia-es
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Instalar renderizador de imagens
+        run: npm install --no-save --no-package-lock sharp@0.34.4
+
+      - name: Identificar matérias novas ou alteradas
+        id: materias
+        shell: bash
+        run: |
+          set -euo pipefail
+          ARQUIVOS="$(git diff --diff-filter=A --name-only HEAD^ HEAD -- 'm/*.html' | tr '\n' ' ')"
+          echo "arquivos=$ARQUIVOS" >> "$GITHUB_OUTPUT"
+
+      - name: Gerar artes 1080x1350
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -n "${{ steps.materias.outputs.arquivos }}" ]; then
+            node scripts/gerar-slides.mjs ${{ steps.materias.outputs.arquivos }}
+          else
+            node scripts/gerar-slides.mjs
+          fi
+
+      - name: Publicar slides
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Notícia ES Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add slides/
+          if git diff --cached --quiet; then
+            echo "Nenhum slide novo para publicar."
+            exit 0
+          fi
+          git commit -m "design: gera slides 1080x1350 das notícias"
+          git pull --rebase origin main
+          git push origin main
