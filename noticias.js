@@ -8,6 +8,107 @@
 
 const noticias = [
   {
+    id: 9092026102501,
+    slug: "guerra-stf-dino-reintegra-cupula-pf-desafia-mendonca",
+    titulo: "Guerra aberta no STF: Dino reintegra cúpula da PF e desafia decisão de Mendonça",
+    categoria: "Política Nacional",
+    data: "2026-09-09",
+    publicadoEm: "2026-09-09T10:25:00-03:00",
+    imagem: "https://i.ibb.co/VYLf5cPw/Chat-GPT-Image-9-de-set-de-2026-10-20-10.png",
+    legendaImagem: "Flávio Dino determinou a reintegração de Andrei Rodrigues e Leandro Almada menos de 24 horas após os afastamentos ordenados por André Mendonça",
+    resumo: "Em menos de 24 horas, ministro manda reintegrar Andrei Rodrigues e Leandro Almada, reativa a inteligência da PF e impede nova cautelar baseada no cumprimento de ordens judiciais.",
+    conteudo: `<p><strong>A crise que começou com mensagens extraídas do celular do banqueiro Daniel Vorcaro, atravessou as investigações do Banco Master e do INSS e alcançou a cúpula da Polícia Federal explodiu, nesta quarta-feira, 9 de setembro, no centro do Supremo Tribunal Federal.</strong></p>
+<p>Em menos de 24 horas, o ministro Flávio Dino anulou, na prática, os principais efeitos da decisão do ministro André Mendonça que havia afastado preventivamente Andrei Augusto Passos Rodrigues da Direção-Geral da Polícia Federal e Leandro Almada da Costa da Diretoria de Inteligência da corporação.</p>
+<p>Dino determinou ao presidente da República a reintegração imediata dos dois servidores, restabeleceu integralmente suas funções, ordenou a retomada das atividades de inteligência e impôs uma barreira contra novas medidas cautelares fundamentadas apenas em atos praticados no exercício regular dos cargos ou no cumprimento de ordens judiciais.</p>
+<p>A decisão foi tomada em um processo diferente daquele em que ocorreu o afastamento. Dino utilizou a investigação sobre emendas destinadas ao filme <em>Dark Horse</em>, uma cinebiografia de Jair Bolsonaro, para devolver os dois dirigentes aos postos dos quais Mendonça os havia retirado.</p>
+<p>O confronto institucional está exposto. Na terça-feira, 8 de setembro, Mendonça afastou os dirigentes. Luiz Fux e Nunes Marques acompanharam o relator, formando maioria na Segunda Turma do Supremo. Gilmar Mendes pediu vista e suspendeu o julgamento, mas a liminar permanecia válida.</p>
+<p>Na quarta-feira, antes da devolução da vista, antes de uma manifestação definitiva do colegiado e antes da conclusão da apuração determinada à Corregedoria da Polícia Federal, Dino ordenou a reintegração.</p>
+<p>O resultado é uma situação raríssima: uma decisão individual neutralizando os efeitos de outra decisão individual que já contava com maioria formada em uma das turmas do próprio Supremo.</p>
+<h2>A ordem que afastou a cúpula da PF</h2>
+<p>A decisão de André Mendonça não se limitou ao afastamento de Andrei Rodrigues e Leandro Almada.</p>
+<p>O ministro também determinou a interrupção da produção e do compartilhamento de relatórios de inteligência que analisassem atos praticados por magistrados, integrantes da advocacia pública ou autoridades da polícia judiciária. Mandou, ainda, que a Corregedoria da Polícia Federal instaurasse apuração penal e disciplinar para identificar responsabilidades.</p>
+<p>No centro da decisão estavam pelo menos seis documentos encaminhados por Andrei Rodrigues ao ministro Alexandre de Moraes, no âmbito do inquérito das fake news.</p>
+<p>Os relatórios teriam sido produzidos entre 3 e 31 de agosto. Segundo os elementos descritos por Mendonça, os papéis não apresentavam timbre, brasão, assinatura ou numeração oficial. Internamente, teriam sido classificados pela própria corporação como materiais de “confiança agregada baixa” e “sem valor probatório”.</p>
+<p>Apesar dessas limitações, os documentos chegaram ao Supremo e foram usados no ambiente de uma investigação judicial.</p>
+<p>Na avaliação de Mendonça, os relatórios serviram para monitorar, por mais de 30 dias, o próprio ministro responsável pelos casos envolvendo o Banco Master e o INSS, além do advogado-geral da União, Jorge Messias.</p>
+<p>Os papéis empregavam expressões como “monitoramento e coleta dirigida”. Também avaliavam a conduta de integrante do Supremo, a meritocracia dentro da Advocacia-Geral da União e o trabalho de outros delegados da Polícia Federal.</p>
+<p>Um dos trechos continha informações sobre investigação em andamento contra Antonio Rueda e ACM Neto. Para Mendonça, a exposição desses dados poderia comprometer a eficácia de medidas cautelares.</p>
+<p>O ministro classificou o conjunto como monitoramento ilícito de integrante da Corte. Citou precedentes que autorizam o afastamento de autoridades com poder para interferir em investigações e determinou que fossem identificados os responsáveis pelas ordens, pela redação e pelo encaminhamento dos documentos.</p>
+<p>Mendonça também exigiu que se apurasse a existência de outros relatórios semelhantes.</p>
+<h2>O celular de Vorcaro e o início da escalada</h2>
+<p>O estopim público da crise surgiu em outra investigação.</p>
+<p>Em 1º de setembro, André Mendonça retirou o sigilo de um relatório com mais de 200 páginas produzido a partir do conteúdo extraído do celular de Daniel Vorcaro, do Banco Master. Entre as mensagens analisadas, aparecia o nome “Andrei”.</p>
+<p>No dia seguinte, 2 de setembro, o Partido Novo pediu providências para preservar as investigações. Em 3 de setembro, a legenda apresentou novo pedido, desta vez requerendo a prisão preventiva de Andrei Rodrigues e apontando a possível existência de uma rede de influência.</p>
+<p>Também no dia 3, Alexandre de Moraes publicou trechos dos relatórios produzidos pela Polícia Federal e pediu que André Mendonça passasse a integrar o inquérito das fake news.</p>
+<p>A partir desse momento, a controvérsia deixou de envolver apenas os casos Banco Master e INSS. O embate alcançou diferentes gabinetes do Supremo, expôs divergências sobre a atuação da Polícia Federal e colocou o comando da corporação no centro de uma disputa entre ministros.</p>
+<p>Foi nesse ambiente que Mendonça determinou os afastamentos.</p>
+<p>A Segunda Turma começou a analisar a liminar. Luiz Fux e Nunes Marques acompanharam o relator. Com três votos, estava formada a maioria pela manutenção da medida. Gilmar Mendes pediu vista, suspendendo a conclusão formal do julgamento.</p>
+<p>Até que o processo retornasse à pauta, a decisão de Mendonça continuava produzindo efeitos. Continuava, ao menos, até a intervenção de Flávio Dino.</p>
+<h2>Dino usa o caso <em>Dark Horse</em> para reintegrar os dirigentes</h2>
+<p>O recurso analisado por Dino foi apresentado pelo próprio Andrei Rodrigues no processo relacionado às emendas destinadas ao filme <em>Dark Horse</em>.</p>
+<p>Andrei sustentou que seu afastamento havia desorganizado a equipe responsável pela investigação, atrasado o acesso a materiais em poder da Polícia Civil de São Paulo e comprometido a velocidade de uma apuração considerada urgente.</p>
+<p>Dino acolheu o argumento.</p>
+<p>Em sua decisão, determinou ao presidente da República a reintegração imediata de Andrei Rodrigues e Leandro Almada, com o restabelecimento integral das respectivas atribuições. Também mandou que as atividades da Diretoria de Inteligência voltassem a funcionar.</p>
+<p>O ministro proibiu a imposição de nova medida cautelar pessoal baseada exclusivamente em ato praticado no exercício regular do cargo ou no cumprimento de ordem judicial. Nesse contexto, a proteção alcança atos relacionados ao atendimento de determinações expedidas por Alexandre de Moraes.</p>
+<p>Dino ainda estabeleceu que sua decisão somente poderá ser revista pelo plenário do Supremo.</p>
+<p>A medida foi tomada sem esperar o julgamento definitivo da Segunda Turma, sem aguardar a devolução da vista de Gilmar Mendes e sem esperar o resultado da investigação determinada à Corregedoria da Polícia Federal.</p>
+<p>Na prática, a liminar de um ministro avançou sobre os efeitos da liminar de outro, embora esta já tivesse recebido o apoio da maioria do colegiado competente.</p>
+<h2>Ataques diretos à decisão de Mendonça</h2>
+<p>Dino não se limitou a apresentar uma interpretação jurídica diferente. O texto da decisão contém críticas diretas e severas à atuação do colega.</p>
+<p>O ministro classificou a interrupção dos relatórios de inteligência como “medida inédita na história da corporação”.</p>
+<p>Afirmou que Mendonça poderia ter “divergências funcionais ou pessoais com a Polícia Federal” e defender seus direitos “na instância própria”, mas declarou que tais divergências não poderiam resultar em uma “decisão em causa própria” capaz de paralisar investigações.</p>
+<p>Dino também escreveu que não seria admissível interromper uma apuração urgente “como se houvesse um único inquérito e um único julgador a envergar a toga do STF”.</p>
+<p>A linguagem revela a profundidade do conflito. Um ministro do Supremo atribuiu publicamente a outro a possibilidade de ter agido em causa própria e sugeriu a existência de divergências pessoais ou funcionais com a Polícia Federal.</p>
+<p>Para justificar a necessidade de manutenção das atividades de inteligência, Dino mencionou investigações relacionadas ao assassinato de Marielle Franco, à venda de decisões judiciais e a fraudes financeiras. Segundo sua linha de raciocínio, a paralisação da estrutura atingiria diversos casos relevantes, e não apenas a investigação que provocou o afastamento.</p>
+<p>Dino também considerou o Partido Novo parte ilegítima para formular pedidos de cautelares pessoais no processo penal. Ao lembrar que a legenda possui candidato à Presidência da República, afirmou que partido político não tem legitimidade para requerer esse tipo de medida com base no Código de Processo Penal.</p>
+<p>O ministro recorreu ainda ao procedimento aberto pelo presidente do STF, Edson Fachin, para levar o conflito ao plenário. Usou essa iniciativa como fundamento para sustentar que Mendonça não deveria ter decidido sozinho.</p>
+<p>A crítica, contudo, foi registrada quando a Segunda Turma já havia formado maioria pela manutenção do afastamento.</p>
+<h2>A reunião de Mendonça com Daniel Vorcaro</h2>
+<p>Outro ponto explosivo surgiu quando Dino incluiu em sua decisão uma referência à reunião mantida por André Mendonça com Daniel Vorcaro em março de 2025.</p>
+<p>O encontro ocorreu em uma empresa privada e teria sido intermediado por pessoas mencionadas em investigação. Dino declarou que não estava fazendo juízo de valor sobre o episódio, mas classificou a situação como “complexa”, especialmente em ano eleitoral.</p>
+<p>Mendonça já havia confirmado a reunião. Segundo sua versão, encontrou Vorcaro uma única vez para tratar de precatórios ligados à STP 976. O encontro teria ocorrido antes de o ministro se tornar relator do caso Banco Master, o que aconteceu em fevereiro de 2026.</p>
+<p>Mendonça também afirmou que sua decisão no processo dos precatórios foi contrária ao interesse do banco.</p>
+<p>Mesmo com essas explicações, Dino inseriu o episódio no mesmo documento em que determinou a volta de Andrei Rodrigues e Leandro Almada aos respectivos cargos.</p>
+<p>O efeito político e institucional é inevitável. A reunião passou a integrar formalmente a disputa entre os dois ministros justamente no momento em que Mendonça investiga documentos que, em sua avaliação, foram produzidos para monitorá-lo.</p>
+<h2>AGU entrou no conflito antes da decisão</h2>
+<p>Na véspera da decisão de Dino, a Advocacia-Geral da União já havia procurado o presidente do STF, Edson Fachin.</p>
+<p>A AGU sustentou que somente o presidente da República possui competência para nomear e exonerar o diretor-geral da Polícia Federal. O argumento questionava, portanto, a possibilidade de afastamento judicial de Andrei Rodrigues.</p>
+<p>Dino incorporou essa controvérsia ao determinar que o presidente da República realizasse a reintegração imediata.</p>
+<p>O Planalto, assim, recebeu uma ordem direta para restabelecer no comando da PF o homem escolhido por Luiz Inácio Lula da Silva para dirigir a corporação.</p>
+<p>Andrei Rodrigues não ocupa um posto técnico isolado. Ele comanda toda a Polícia Federal. Os relatórios encaminhados a Alexandre de Moraes saíram da estrutura sob sua direção. Leandro Almada, por sua vez, comandava a área de inteligência responsável pelos documentos cuja produção Mendonça mandou investigar.</p>
+<p>Dino considerou que o afastamento produzia um “caos administrativo imposto externamente”. O elemento “externo”, no caso, era uma ordem expedida por outro ministro do Supremo e apoiada pela maioria já formada na Segunda Turma.</p>
+<h2>Duas decisões e uma pergunta: quem manda?</h2>
+<p>A sequência dos acontecimentos desenha um cenário institucional sem disfarces.</p>
+<p>André Mendonça afastou os dois principais dirigentes envolvidos na cadeia de produção e encaminhamento de relatórios que considerou apócrifos. Determinou investigação penal e disciplinar, bloqueou a continuidade desse tipo de monitoramento e obteve maioria na Segunda Turma.</p>
+<p>No dia seguinte, Flávio Dino utilizou outro processo, sob sua própria relatoria, para reintegrar os dirigentes, reativar a inteligência da PF e impedir novas cautelares fundamentadas apenas no cumprimento de ordens judiciais.</p>
+<p>Tudo ocorreu sem decisão do plenário, sem conclusão do julgamento na turma e sem resposta da Corregedoria.</p>
+<p>No mesmo tabuleiro estão o Banco Master, as fraudes do INSS, Daniel Vorcaro, Alexandre de Moraes, André Mendonça, Flávio Dino, a Advocacia-Geral da União, a direção da Polícia Federal e uma investigação sobre recursos destinados a um filme de Jair Bolsonaro.</p>
+<p>A disputa acontece em pleno ano eleitoral.</p>
+<p>O Supremo agora enfrenta uma questão que ultrapassa os nomes de Mendonça, Dino, Andrei ou Almada. A Corte precisará definir se um ministro pode, por meio de processo diferente, neutralizar uma decisão de outro integrante do tribunal que já recebeu o apoio da maioria de uma turma.</p>
+<p>Até que o plenário responda, a ordem que prevalece é a de Flávio Dino.</p>
+<p>Andrei Rodrigues volta ao comando da Polícia Federal. Leandro Almada retorna à Diretoria de Inteligência. A estrutura que produziu os documentos questionados por Mendonça é reativada. E o ministro que ordenou os afastamentos recebe, por escrito, a acusação de ter proferido uma decisão em causa própria.</p>
+<p>Em menos de 24 horas, a crise deixou de ser apenas da Polícia Federal. Passou a ser uma crise do próprio Supremo, diante de um país que assiste a ministros anularem, na prática, as decisões uns dos outros.</p>
+<p><strong>Quando duas canetas da mais alta Corte apontam em direções opostas, a dúvida deixa de estar restrita aos autos: quem, afinal, tem a última palavra no Supremo Tribunal Federal?</strong></p>`,
+    autor: "Redação Notícia ES",
+    entidades: [
+      { tipo: "Person", nome: "Flávio Dino" },
+      { tipo: "Person", nome: "André Mendonça" },
+      { tipo: "Person", nome: "Andrei Rodrigues" },
+      { tipo: "Person", nome: "Leandro Almada" },
+      { tipo: "Organization", nome: "Supremo Tribunal Federal" },
+      { tipo: "GovernmentOrganization", nome: "Polícia Federal" }
+    ],
+    aeo: [
+      { pergunta: "O que Flávio Dino decidiu?", resposta: "Determinou a reintegração imediata de Andrei Rodrigues e Leandro Almada, restabeleceu suas funções e mandou retomar as atividades de inteligência da Polícia Federal." },
+      { pergunta: "Quem havia afastado os dirigentes da PF?", resposta: "O ministro André Mendonça havia determinado preventivamente o afastamento de Andrei Rodrigues e Leandro Almada." },
+      { pergunta: "A Segunda Turma apoiou o afastamento?", resposta: "Luiz Fux e Nunes Marques acompanharam Mendonça, formando maioria, antes de Gilmar Mendes pedir vista e suspender a conclusão formal do julgamento." },
+      { pergunta: "Em qual processo Dino determinou a reintegração?", resposta: "No processo relacionado às emendas destinadas ao filme Dark Horse, cinebiografia de Jair Bolsonaro." },
+      { pergunta: "Por que os relatórios da PF foram questionados?", resposta: "Segundo os elementos descritos por Mendonça, os documentos não tinham timbre, brasão, assinatura ou numeração e teriam sido usados para monitoramento dirigido." },
+      { pergunta: "Quem poderá rever a decisão de Dino?", resposta: "Dino estabeleceu que sua decisão somente poderá ser revista pelo plenário do Supremo Tribunal Federal." }
+    ],
+    automatico: false
+  },
+  {
     id: 8092026023901,
     slug: "espirito-santo-credito-barragens-rurais-bandes-seguranca-hidrica",
     titulo: "ES financia pequenas barragens com crédito de até R$ 150 mil e mira 1.362 reservatórios",
