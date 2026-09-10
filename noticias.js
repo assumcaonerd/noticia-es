@@ -14,7 +14,7 @@ const noticias = [
     categoria: "Política Nacional",
     data: "2026-09-10",
     publicadoEm: "2026-09-10T10:15:00-03:00",
-    imagem: "/imagens/og/bastidor-gilvan-paulinho-toffoli.png",
+    imagem: "/imagens/og/bastidor-gilvan-paulinho-toffoli.jpg",
     legendaImagem: "Relato de fontes internas do PL levanta questionamentos sobre uma possível articulação para manter Gilvan Aguiar Costa na disputa à Câmara",
     resumo: "Fontes do PL nacional afirmam que Gilvan mantém contato com Paulinho da Força em busca de influência junto a Dias Toffoli; relato ainda não foi comprovado por documento público.",
     conteudo: `<p><strong>Fontes ligadas à direção nacional do PL afirmam que o deputado federal Gilvan Aguiar Costa mantém contato com Paulinho da Força, presidente do Solidariedade, para tentar abrir uma ponte política até o ministro Dias Toffoli e obter uma liminar que o mantenha na disputa por uma vaga na Câmara dos Deputados. O relato chegou ao Notícia ES em meio ao agravamento da situação eleitoral do parlamentar capixaba, cuja inelegibilidade voltou a produzir efeitos depois da queda de uma decisão provisória que havia permitido o registro de sua candidatura.</strong></p>
