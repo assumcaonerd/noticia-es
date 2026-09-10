@@ -15,6 +15,11 @@ const noticias = [
     data: "2026-09-10",
     publicadoEm: "2026-09-10T15:53:00-03:00",
     imagem: "/imagens/og/estadao-dark-horse-nova-capa.jpg",
+    imagemX: "/imagens/og/estadao-dark-horse-x-1200x628.jpg?v=20260910-2",
+    imagemLargura: 1536,
+    imagemAltura: 1024,
+    imagemXLargura: 1200,
+    imagemXAltura: 628,
     legendaImagem: "Estadão transforma R$ 750 mil numa cadeia de contratos no “abastecimento” do filme de Bolsonaro",
     resumo: "PF aponta repasse de empresa ligada a projeto de emenda para a produtora de “Dark Horse”. Jornal trata a suspeita como fato consumado e esquece o outro lado da conta pública.",
     conteudo: `<p>Nesta quinta-feira, 10 de setembro de 2026, a Polícia Federal deflagrou operação autorizada pelo ministro Flávio Dino, do STF, com 49 mandados de busca contra o deputado federal Mario Frias (PL-SP), a empresária Karina Ferreira da Gama e entidades ligadas a ela. O Estadão estampou: a PF “diz que ao menos R$ 750 mil de recursos públicos abasteceram produtora de filme sobre Bolsonaro”. A reportagem, no Blog do Fausto Macedo, amarra emendas, um instituto e a Go Up Entertainment, dona de “Dark Horse”.</p>

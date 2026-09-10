@@ -149,12 +149,20 @@ function paginaHTML(n, imagem) {
   const resumo = n.resumo || 'Política e segurança pública do Espírito Santo e do Brasil.';
   const url = `${SITE}/m/${n.slug}.html`;
   const img = ehBoaParaWhatsapp(imagem) ? imagem : '';
+  const imagemTwitter = imagemAbsoluta(n.imagemX || imagem);
+  const imgX = ehBoaParaWhatsapp(imagemTwitter) ? imagemTwitter : img;
   const schema = montarNewsArticle(n, url, img);
   const conteudo = sanitizarHtml(n.conteudo || '').replace(/src=(["'])imagens\//gi, `src=$1${SITE}/imagens/`);
   const data = n.data || '';
   const categoria = n.categoria || 'Notícia';
   const legenda = n.legendaImagem || titulo;
-  const metaImagem = img ? `\n  <meta property="og:image" content="${escapar(img)}">\n  <meta property="og:image:secure_url" content="${escapar(img)}">\n  <meta name="twitter:image" content="${escapar(img)}">` : '';
+  const dimensoesOg = n.imagemLargura && n.imagemAltura
+    ? `\n  <meta property="og:image:width" content="${escapar(n.imagemLargura)}">\n  <meta property="og:image:height" content="${escapar(n.imagemAltura)}">`
+    : '';
+  const dimensoesX = n.imagemXLargura && n.imagemXAltura
+    ? `\n  <meta name="twitter:image:width" content="${escapar(n.imagemXLargura)}">\n  <meta name="twitter:image:height" content="${escapar(n.imagemXAltura)}">`
+    : '';
+  const metaImagem = img ? `\n  <meta property="og:image" content="${escapar(img)}">\n  <meta property="og:image:secure_url" content="${escapar(img)}">\n  <meta property="og:image:type" content="image/jpeg">${dimensoesOg}\n  <meta property="og:image:alt" content="${escapar(titulo)}">\n  <meta name="twitter:image" content="${escapar(imgX)}">${dimensoesX}\n  <meta name="twitter:image:alt" content="${escapar(titulo)}">` : '';
 
   return `<!doctype html>
 <html lang="pt-BR"><head>
