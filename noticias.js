@@ -14,8 +14,8 @@ const noticias = [
     categoria: "Política Nacional",
     data: "2026-09-10",
     publicadoEm: "2026-09-10T15:53:00-03:00",
-    imagem: "/imagens/og/estadao-dark-horse-frias-karina.jpg",
-    legendaImagem: "Karina da Gama ao lado de Mario Frias, alvos da operação que apura o caminho de recursos ligados ao Instituto Conhecer Brasil e à Go Up Entertainment",
+    imagem: "/imagens/og/estadao-dark-horse-nova-capa.jpg",
+    legendaImagem: "Estadão transforma R$ 750 mil numa cadeia de contratos no “abastecimento” do filme de Bolsonaro",
     resumo: "PF aponta repasse de empresa ligada a projeto de emenda para a produtora de “Dark Horse”. Jornal trata a suspeita como fato consumado e esquece o outro lado da conta pública.",
     conteudo: `<p>Nesta quinta-feira, 10 de setembro de 2026, a Polícia Federal deflagrou operação autorizada pelo ministro Flávio Dino, do STF, com 49 mandados de busca contra o deputado federal Mario Frias (PL-SP), a empresária Karina Ferreira da Gama e entidades ligadas a ela. O Estadão estampou: a PF “diz que ao menos R$ 750 mil de recursos públicos abasteceram produtora de filme sobre Bolsonaro”. A reportagem, no Blog do Fausto Macedo, amarra emendas, um instituto e a Go Up Entertainment, dona de “Dark Horse”.</p>
 <p>O fato bruto existe. A leitura que o jornal faz dele é outra história.</p>
@@ -26,6 +26,7 @@ const noticias = [
 <p>Em maio, Frias já havia dito ao STF que a afirmação de destinação das emendas a “qualquer produção cinematográfica” era “absolutamente falsa, desprovida de qualquer lastro probatório e difamatória”.</p>
 <p>A defesa existe. O Estadão prefere o verbo da PF.</p>
 <p>Há um segundo fio, mais concreto e menos cinematográfico: o projeto educacional financiado com emenda. Relatos de auditoria descrevem curso online pago na casa dos R$ 300 mil, site registrado depois do fim do convênio, videoaulas publicadas meses depois e visualizações ridículas (aulas sem um único acesso). Se o serviço não foi prestado, isso é problema de emenda, de prestação de contas e, se comprovado, de peculato. Vale para Frias. Vale para qualquer parlamentar que tenha feito o mesmo com ONG amiga.</p>
+<figure><img src="/imagens/og/estadao-dark-horse-frias-karina.jpg" alt="Karina da Gama ao lado de Mario Frias" loading="lazy"><figcaption>Karina da Gama ao lado de Mario Frias, alvos da operação que apura o caminho de recursos ligados ao Instituto Conhecer Brasil e à Go Up Entertainment</figcaption></figure>
 <h2>O que o Estadão fez com o fato</h2>
 <p>Título: “PF diz que ao menos R$ 750 mil de recursos públicos abasteceram produtora de filme sobre Bolsonaro”. Data: 10 de setembro de 2026. O gancho é o filme. Não é “PF investiga execução atrasada de projeto educacional financiado por emenda”. Não é “ONG da mesma dona da produtora movimentou dezenas de milhões e pagou empresas do mesmo grupo”. O filme é o produto. O resto é cenário.</p>
 <p>O jornal cita o ICB como “principal entidade captadora”, menciona R$ 83 milhões movimentados entre setembro de 2023 e agosto de 2024 e sugere devolução a pessoas ligadas a Frias. Tudo isso pode ser grave. Continua sendo o mercado de emendas e de contratos com prefeitura, um mercado que não nasceu em 2025 e não é monopólio do PL.</p>
