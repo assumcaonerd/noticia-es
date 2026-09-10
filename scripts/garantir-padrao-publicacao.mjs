@@ -36,7 +36,7 @@ function campoString(bloco, nome) {
 }
 
 function campoTemplate(bloco, nome) {
-  const re = new RegExp(`\\b${nome}\\s*:\\s*\\`([\\s\\S]*?)\\`\\s*,`);
+  const re = new RegExp('\\b' + nome + '\\s*:\\s*`([\\s\\S]*?)`\\s*,');
   return bloco.match(re)?.[1] || '';
 }
 
