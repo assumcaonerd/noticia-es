@@ -152,7 +152,7 @@ function montarSvg(materia, imagemData) {
   ${blocoTexto(linhasResumo, 48, resumoY, 35, 42, 400, '#4e5969')}
   ${imagem}
   <rect x="48" y="1240" width="984" height="4" fill="#1766d8"/>
-  <text x="48" y="1305" fill="#4e5969" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400">noticiaes.com.br</text>
+  <text x="48" y="1305" fill="#4e5969" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400">noticiaes.com.br</text>\n  <rect x="2" y="2" width="1076" height="1346" fill="none" stroke="#1766d8" stroke-width="4"/>
   </svg>`;
 }
 
