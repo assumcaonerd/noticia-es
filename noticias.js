@@ -8,6 +8,86 @@
 
 const noticias = [
   {
+    id: 10092026101501,
+    slug: "bastidor-pl-gilvan-paulinho-forca-toffoli-liminar",
+    titulo: "Bastidor explosivo no PL: fontes relatam ponte de Gilvan com Paulinho da Força para chegar a Toffoli",
+    categoria: "Política Nacional",
+    data: "2026-09-10",
+    publicadoEm: "2026-09-10T10:15:00-03:00",
+    imagem: "https://i.ibb.co/SwKbchsN/Chat-GPT-Image-10-de-set-de-2026-09-23-04.png",
+    legendaImagem: "Relato de fontes internas do PL levanta questionamentos sobre uma possível articulação para manter Gilvan Aguiar Costa na disputa à Câmara",
+    resumo: "Fontes do PL nacional afirmam que Gilvan mantém contato com Paulinho da Força em busca de influência junto a Dias Toffoli; relato ainda não foi comprovado por documento público.",
+    conteudo: `<p><strong>Fontes ligadas à direção nacional do PL afirmam que o deputado federal Gilvan Aguiar Costa mantém contato com Paulinho da Força, presidente do Solidariedade, para tentar abrir uma ponte política até o ministro Dias Toffoli e obter uma liminar que o mantenha na disputa por uma vaga na Câmara dos Deputados. O relato chegou ao Notícia ES em meio ao agravamento da situação eleitoral do parlamentar capixaba, cuja inelegibilidade voltou a produzir efeitos depois da queda de uma decisão provisória que havia permitido o registro de sua candidatura.</strong></p>
+<p>A informação sobre a suposta articulação é de bastidor. Até o momento, não foi acompanhada de documento público, mensagem, gravação ou decisão judicial que demonstre a existência do contato ou de um pedido de interferência. Por isso, deve ser lida como uma afirmação de fontes internas, e não como fato comprovado. Ainda assim, o conteúdo do relato é politicamente grave e exige uma resposta clara, sobretudo porque envolve um deputado que construiu sua identidade pública atacando a esquerda, o Supremo Tribunal Federal e o Tribunal Superior Eleitoral.</p>
+<p>O caso precisa ser compreendido por duas chaves. A primeira é jurídica e está registrada em decisões judiciais. A segunda é moral e depende da veracidade do bastidor narrado por integrantes do próprio partido. Separar uma dimensão da outra é indispensável. A condenação e seus efeitos podem ser discutidos nos autos. Uma eventual tentativa de alcançar um ministro por meio de influência política, se confirmada, pertence ao campo da coerência, da ética pública e do compromisso assumido com o eleitor.</p>
+
+<h2>A condenação que fechou o caminho eleitoral</h2>
+<p>Gilvan Aguiar Costa é policial federal licenciado e foi eleito deputado federal em 2022 com quase 88 mil votos, a segunda maior votação do Espírito Santo para a Câmara. Sua atual crise eleitoral tem origem em um episódio ocorrido em 2021, quando ele e Camila Valadão exerciam mandato de vereador na Câmara Municipal de Vitória.</p>
+<p>Na ocasião, Gilvan mandou a colega calar a boca e a chamou de satanista, assassina de bebês e assassina de crianças. O Ministério Público Eleitoral enquadrou a conduta como violência política de gênero. Em 2024, veio a condenação em primeiro grau. Em dezembro de 2025, o Tribunal Regional Eleitoral do Espírito Santo manteve a sentença por unanimidade.</p>
+<p>A confirmação da condenação por um órgão colegiado acionou a regra da Lei da Ficha Limpa e produziu inelegibilidade pelo prazo de oito anos. Esse é o centro jurídico da crise. O impedimento não surgiu às vésperas da eleição nem nasceu de uma movimentação repentina em 2026. O processo percorreu instâncias e chegou ao atual calendário eleitoral carregando uma decisão unânime do TRE-ES.</p>
+<p>O parlamentar também acumulou outros conflitos judiciais e políticos. Houve condenação criminal por transfobia, suspensão de três meses no Conselho de Ética da Câmara dos Deputados e ação no Supremo Tribunal Federal relacionada a ofensas ao comandante do Exército e a uma declaração em que desejou a morte de Luiz Inácio Lula da Silva.</p>
+<p>Em julho de 2026, o ministro Nunes Marques concedeu uma liminar que permitiu a Gilvan registrar sua candidatura. A decisão era provisória. Em 26 de agosto, o ministro Ricardo Villas Bôas Cueva analisou o mérito, negou o habeas corpus e derrubou a liminar. Com isso, a inelegibilidade voltou a produzir efeitos.</p>
+<p>Até esse ponto, há uma sequência jurídica objetiva: condenação em primeiro grau, confirmação unânime pelo TRE-ES, incidência da Ficha Limpa, autorização provisória para o registro e posterior revogação da medida. O relato sobre Paulinho da Força e Dias Toffoli começa exatamente onde terminam os fatos documentados apresentados a esta reportagem.</p>
+
+<h2>O bastidor que atravessa a fronteira ideológica</h2>
+<p>Segundo as fontes do PL nacional, Gilvan estaria buscando Paulinho da Força para que o sindicalista utilizasse sua influência junto a Dias Toffoli na tentativa de viabilizar uma nova liminar. Se verdadeira, a movimentação colocaria no mesmo enredo três personagens que, publicamente, ocupam posições muito diferentes.</p>
+<p>Gilvan se apresenta como representante da direita mais combativa. Paulinho da Força preside o Solidariedade, legenda de origem sindical e historicamente ligada à esquerda e ao universo das centrais. Toffoli foi advogado-geral da União durante o governo Lula e ocupa uma cadeira no Tribunal Superior Eleitoral.</p>
+<p>Uma aproximação política entre adversários não configura, por si só, irregularidade. A política institucional exige diálogo e permite convergências pontuais. O problema descrito pelas fontes seria outro: a possível utilização de uma ponte partidária para tentar influenciar o resultado de uma causa individual, destinada a preservar a candidatura de um parlamentar.</p>
+<p>Se houve apenas conversa política, cabe explicar seu conteúdo. Se houve pedido de apoio jurídico ou institucional por vias regulares, também é possível esclarecê-lo. Se o contato nunca existiu, um desmentido direto encerra a acusação. Mas, caso tenha ocorrido uma tentativa de fazer chegar ao gabinete de um ministro um pedido sustentado por relações pessoais ou influência partidária, a questão ultrapassa a estratégia eleitoral.</p>
+<p>Nesse cenário, a palavra adequada seria fisiologismo: a troca da coerência pública pela conveniência privada do poder. E a contradição seria impossível de esconder.</p>
+
+<h2>O contrato moral firmado com o eleitor</h2>
+<p>Gilvan construiu seu nome falando grosso contra aquilo que chama de sistema. Atacou o STF, confrontou o TSE, escolheu a esquerda como adversária permanente e apresentou a própria atuação como uma trincheira moral. Ao eleitor conservador capixaba, entregou uma mensagem de intransigência: não faria o jogo dos mesmos grupos que denunciava no microfone.</p>
+<p>Esse discurso produziu um contrato político implícito. Quem depositou o voto esperava resistência, inclusive quando a pressão chegasse ao próprio mandato. A coerência dessa promessa é testada quando o risco deixa de atingir aliados e alcança pessoalmente quem fez o discurso.</p>
+<p>Depois da condenação colegiada e da queda da liminar, o caminho institucional continua aberto: recorrer, discutir provas, questionar a tipificação, contestar a proporcionalidade da pena e buscar uma decisão judicial favorável pelos instrumentos previstos em lei. Recurso é direito de qualquer cidadão. Defesa técnica não é favor político.</p>
+<p>A eventual busca de uma ponte informal para influenciar um ministro seria de outra natureza. Ela significaria recorrer ao trânsito político de um dirigente situado no campo ideológico que o deputado passou anos combatendo. O contraste se torna ainda mais profundo porque a finalidade relatada não seria aprovar uma pauta de interesse público ou defender o Espírito Santo. Seria salvar a própria candidatura.</p>
+<p>O mandato pertence ao eleitor, não ao parlamentar. A votação recebida em 2022 não transformou a cadeira em patrimônio pessoal. Ela confiou ao deputado uma representação temporária, condicionada às leis e aos princípios que ele próprio afirmou defender.</p>
+
+<h2>A régua que a direita aplica aos adversários</h2>
+<p>O campo conservador costuma reagir com dureza quando um integrante da esquerda procura o centro político para escapar de uma crise. Quando aliados do governo buscam ministros ou negociam apoio para conter os efeitos de processos, a denúncia é imediata: conluio, proteção, influência e uso do sistema em benefício próprio.</p>
+<p>Essa régua perde legitimidade se for abandonada no instante em que o acusado veste a camisa da direita. Princípio aplicado apenas ao adversário deixa de ser princípio. Torna-se ferramenta de ocasião.</p>
+<p>Se o relato das fontes estiver correto, a defesa de Gilvan exigiria que seus eleitores aceitassem exatamente o método que aprenderam a condenar: a aproximação com o campo adversário para tentar obter uma saída pessoal em tribunal superior. A consequência seria corrosiva. O discurso contra o sistema passaria a valer apenas enquanto o sistema não fosse necessário para garantir a sobrevivência eleitoral de quem o ataca.</p>
+<p>Há também um peso especial para a parcela do eleitorado que vota orientada por valores cristãos e pela defesa de uma vida pública coerente. Ética não é enfeite de campanha. Ela aparece quando cumprir o que se prometeu custa caro. É justamente no risco da perda que a convicção deixa de ser frase e passa a ser conduta.</p>
+<p>Se a permanência na disputa depende do mesmo tipo de articulação de bastidor denunciado nos palanques, o eleitor não terá sido apenas contrariado. Terá sido usado como tropa de mobilização para sustentar uma personagem pública diferente daquela que age quando as portas se fecham.</p>
+
+<h2>O cálculo do PL e o peso de um puxador de votos</h2>
+<p>A situação também produz um problema eleitoral para o PL capixaba. Gilvan foi um dos nomes mais votados do Espírito Santo em 2022 e representa um ativo importante para a chapa federal. Sua ausência da urna ameaça retirar do partido um puxador de votos e alterar o cálculo de cadeiras na Câmara.</p>
+<p>Esse interesse explica a pressa e a movimentação interna. Fontes partidárias já tratam a inelegibilidade como um risco concreto, quase consumado, caso uma nova decisão não reverta o cenário. A pressão do calendário eleitoral aumenta a disposição para encontrar uma saída rápida.</p>
+<p>Mas a necessidade partidária não absolve qualquer método. Um partido que se apresenta como alternativa moral não pode medir a qualidade de seus candidatos apenas pela capacidade de acumular votos. A ficha jurídica, a coerência e a forma de enfrentar derrotas também integram o valor político de uma candidatura.</p>
+<p>Se uma chapa depende de um nome mantido apenas por decisões provisórias sucessivas, sua fragilidade antecede a votação. Um candidato com menor potencial eleitoral, mas sem a mesma pendência, pode oferecer ao partido uma base mais sólida do que um grande puxador cuja presença na urna depende de uma corrida contra decisões colegiadas.</p>
+
+<h2>Defesa judicial é legítima; influência precisa ser esclarecida</h2>
+<p>Há espaço legítimo para defender Gilvan no mérito. Seus advogados podem argumentar sobre prova, enquadramento legal, competência, extensão da pena e aplicação da inelegibilidade. Podem recorrer às instâncias superiores e pedir medidas urgentes. É assim que o sistema de Justiça funciona.</p>
+<p>O ponto levantado pelas fontes não questiona o direito de recorrer. Questiona o método político que teria sido escolhido para alcançar uma decisão. Uma petição protocolada, sustentada por argumentos e submetida ao contraditório é diferente de um pedido de influência dirigido por terceiros a quem julga.</p>
+<p>Por isso, o relato não pode ser encerrado com a palavra “estratégia”. O eleitor tem o direito de saber se houve contato com Paulinho da Força, qual foi o teor da conversa e se Dias Toffoli foi procurado direta ou indiretamente para tratar da candidatura.</p>
+<p>A resposta precisa ser objetiva. O deputado pode negar a articulação, reconhecer apenas um contato sem relação com o processo ou explicar publicamente os motivos da aproximação. O silêncio deixaria o terreno livre para a versão que circula dentro do próprio PL.</p>
+
+<h2>O teste final de coerência</h2>
+<p>A política brasileira está repleta de discursos inflamados que desaparecem diante da ameaça de perda de poder. Parlamentares constroem reputações atacando acordos, tribunais e adversários, mas descobrem caminhos inesperados de conciliação quando o próprio nome corre risco.</p>
+<p>É por isso que o bastidor relatado importa, mesmo antes de aparecer em papel assinado. Ele oferece a Gilvan a oportunidade de esclarecer publicamente sua conduta. Se a informação for falsa, o deputado pode desmenti-la de forma inequívoca. Se for verdadeira, sua base terá o direito de julgar se aceita que a cadeira justifique a travessia de todas as fronteiras discursivas.</p>
+<p>O caso não trata apenas da presença de um nome na urna. Trata do valor da palavra empenhada ao eleitor. Para a direita capixaba, a pergunta permanece aberta: até onde pode ir um político que se apresenta como inimigo do sistema quando o próprio mandato passa a depender de uma porta aberta dentro dele?</p>
+<p><strong>Quando a cadeira balança, o discurso perde o microfone e o caráter entra sozinho na sala.</strong></p>`,
+    autor: "Redação Notícia ES",
+    entidades: [
+      { tipo: "Person", nome: "Gilvan Aguiar Costa" },
+      { tipo: "Person", nome: "Paulinho da Força" },
+      { tipo: "Person", nome: "Dias Toffoli" },
+      { tipo: "Person", nome: "Camila Valadão" },
+      { tipo: "Person", nome: "Nunes Marques" },
+      { tipo: "Person", nome: "Ricardo Villas Bôas Cueva" },
+      { tipo: "Organization", nome: "Partido Liberal" },
+      { tipo: "Organization", nome: "Solidariedade" },
+      { tipo: "GovernmentOrganization", nome: "Tribunal Superior Eleitoral" }
+    ],
+    aeo: [
+      { pergunta: "O que fontes do PL afirmam sobre Gilvan?", resposta: "Fontes ligadas à direção nacional do PL afirmam que Gilvan mantém contato com Paulinho da Força para tentar abrir uma ponte política até Dias Toffoli e obter uma liminar que o mantenha na disputa." },
+      { pergunta: "A articulação foi comprovada?", resposta: "Não. A informação foi apresentada como relato de bastidor e, até o momento descrito na reportagem, não veio acompanhada de documento público, mensagem, gravação ou decisão que a comprove." },
+      { pergunta: "Por que Gilvan está inelegível?", resposta: "A condenação por violência política de gênero foi mantida por unanimidade pelo TRE-ES, produzindo os efeitos previstos na Lei da Ficha Limpa." },
+      { pergunta: "Gilvan ainda pode recorrer?", resposta: "Sim. A reportagem distingue o direito de apresentar recursos e pedidos judiciais regulares de uma eventual tentativa de obter influência política sobre quem julga." }
+    ],
+    automatico: false
+  },
+  {
     id: 10092026073001,
     slug: "curva-virou-caneta-acelerou-pf-dark-horse-flavio-lula",
     titulo: "A curva virou, a caneta acelerou: operação da PF explode quando Flávio ultrapassa Lula",
