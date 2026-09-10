@@ -8,6 +8,51 @@
 
 const noticias = [
   {
+    id: 10092026134500,
+    slug: "a-regua-que-so-vale-para-o-irmao-de-mendonca",
+    titulo: "A régua que só vale para o irmão de Mendonça",
+    categoria: "Política Nacional",
+    data: "2026-09-10",
+    publicadoEm: "2026-09-10T13:45:00-03:00",
+    imagem: "https://i.ibb.co/Mk7MqSb0/Chat-GPT-Image-10-de-set-de-2026-13-32-16.png",
+    legendaImagem: "A régua que só vale para o irmão de Mendonça",
+    resumo: "ICL transforma promoção tardia em moeda de voto. O relator da mesma ação, o partido que ajuizou o processo e o TCE do Estado que ele governou ficam fora da capa.",
+    conteudo: `<p>Nesta quinta-feira, 10 de setembro de 2026, o ICL Notícias publicou que Alexandre de Almeida Mendonça, irmão do ministro André Mendonça, foi promovido a secretário-executivo da SP Regula em junho deste ano, depois de o magistrado ter votado na ADPF 1196, ação do PCdoB contra a concessão dos serviços funerários de São Paulo. A tese é simples e explosiva: o voto teria sido a moeda, a promoção o pagamento, o prefeito Ricardo Nunes o caixa.</p>
+<p>Nenhuma irregularidade foi comprovada. O Diário Oficial da capital registra o ingresso de Alexandre na agência em fevereiro de 2024, como gerente, e a passagem a superintendente em julho daquele mesmo ano. As duas datas antecedem o voto. A secretaria-executiva veio só em junho de 2026, mais de um ano depois. Correlação não é causalidade. Sem o canal entre o voto e o cargo, a engrenagem da barganha some.</p>
+<p>O voto de Mendonça, em março e abril de 2025, foi para não referendar as cautelares de Flávio Dino. Gilmar Mendes pediu destaque e zerou os votos. Luiz Fux pediu vista. Não houve favor formal a Ricardo Nunes. O julgamento segue aberto.</p>
+<p>A Prefeitura de São Paulo respondeu no mesmo dia. Chamou a insinuação de “irresponsável e sem fundamento”. Disse o óbvio institucional: quem representa o Município no STF é a Procuradoria Geral do Município, não a SP Regula. A agência não litiga a ADPF. Sem esse canal, some o elo que transformaria uma promoção administrativa em moeda de voto. A nota acrescenta que Alexandre exerce gestão administrativa, sem comando direto dos contratos de concessão.</p>
+<p>Até aqui, o fato. O restante é a régua.</p>
+<h2>O que a grande imprensa fez com o fato</h2>
+<p>Folha, Estadão, O Globo e Veja não colocaram o irmão de Mendonça na capa com o verbo de barganha. Quem o fez, nesta manhã, foi o ICL, portal de linha à esquerda, com o título que já condena: “promovido por Ricardo Nunes após voto favorável”. O verbo escolhido une promoção e voto como se a segunda fosse causa comprovada da primeira. Não é. É hipótese. A Prefeitura negou. O calendário contraria. A representação judicial do Município no Supremo não passa pela agência em que o irmão trabalha.</p>
+<p>A pergunta da linha editorial é outra. Se a mesma construção vale para o relator da ADPF 1196, por que ela não entra no mesmo tamanho de capa?</p>
+<h2>O caso espelho: quem relata a ação do próprio partido</h2>
+<p>Flávio Dino é o relator da ADPF 1196, ajuizada pelo PCdoB. Dino foi militante do PCdoB por 15 anos e se elegeu duas vezes governador do Maranhão pela legenda. Sua mulher, Daniela Dino Farias Lima, figura no Portal da Câmara como secretária parlamentar do gabinete de Márcio Jerry, presidente estadual do PCdoB no Maranhão. Jerry foi secretário de Dino. A mulher de Jerry foi chefe de gabinete de Dino no Palácio dos Leões.</p>
+<p>Não é correlação distante. É o mesmo partido, o mesmo Estado, o mesmo círculo de gabinete. A ADPF que Dino relata não é um processo abstrato. É petição da legendária à qual ele pertenceu e pela qual governou.</p>
+<p>Na ADI 7780, sobre o Tribunal de Contas do Maranhão, a Federação Brasil da Esperança (PT, PCdoB e PV) impugnou o ingresso isolado do PCdoB como amicus curiae. Dino rejeitou a impugnação e admitiu o ex-partido no processo do Estado que ele governou. Dino foi ministro da Justiça de Lula, do PT, o maior partido dessa mesma federação.</p>
+<p>Ontem, 9 de setembro, Dino reintegrou o diretor-geral da Polícia Federal, Andrei Rodrigues, um dia depois de Mendonça tê-lo afastado. Andrei não pediu a Edson Fachin, presidente do STF. Peticionou direto a Dino, no processo do filme Dark Horse. Andrei foi indicado à PF por Dino quando Dino era ministro da Justiça. Comandou a segurança da campanha e da transição de Lula. Fachin, depois, suspendeu as duas decisões.</p>
+<p>Se a regra do ICL é “parente no órgão + voto no processo = suspeita de moeda”, a regra aplicada a Dino seria outra: relator da ação do partido que o elegeu, mulher no gabinete do presidente estadual desse partido, reintegração do diretor da PF que ele próprio indicou. O verbo, no entanto, muda. Para Mendonça, “promovido após voto”. Para Dino, “reintegra”, “decide”, “afasta”. Sem a palavra barganha. Sem a palavra moeda.</p>
+<h2>No Maranhão o padrão aparece em estado puro</h2>
+<p>Dino relata as ADIs 7603, 7605 e 7780 sobre o TCE do Estado que governou. Trava nomeações por liminar e deixa o tribunal incompleto, enquanto casos iguais em outros Estados já foram julgados. Em agosto, afastou Daniel Brandão, sobrinho do governador Carlos Brandão, ex-vice e hoje desafeto. No lugar subiu Marcelo Tavares, que foi chefe da Casa Civil de Dino e entrou no TCE ainda no ciclo do grupo. Três cadeiras travadas, a mesma assinatura. Pedidos de impedimento de Brandão e de Raimundo Cutrim estão com Fachin. Dino não se declarou impedido.</p>
+<p>Aqui a diferença de intensidade fica nítida. O ICL descreve a carreira de Alexandre Mendonça como “ascensão meteórica” numa agência que regula funerárias. No TCE do Maranhão, o relator do Supremo decide quem senta, quem sai e quem assume a presidência do órgão que fiscaliza o governo do Estado que ele administrou. O Estadão registrou o fato: “Indicado por Flávio Dino vai presidir TCE-MA, que tem 3 cadeiras vagas por decisões do ministro.” O registro existe. O verbo de escândalo, o mesmo aplicado ao irmão de Mendonça, não atravessa a primeira página com a mesma fúria.</p>
+<h2>A régua de Toffoli, para quem ainda duvida</h2>
+<p>O padrão não começa nem termina em Dino. Dias Toffoli suspendeu a multa de R$ 10,3 bilhões do acordo de leniência da J&amp;F, grupo para o qual a então esposa, a advogada Roberta Rangel, prestava serviços. Depois arquivou a apuração correlata. A Gazeta do Povo e o próprio Estadão publicaram o vínculo. A multa bilionária saiu do caminho. A capa de “voto em troca de cargo” não foi o enquadramento dominante.</p>
+<p>Sobre Alexandre de Moraes, o texto-base desta pauta prefere o silêncio. A régua, quando chega nele, muda de unidade de medida.</p>
+<h2>O interesse que a capa esconde</h2>
+<p>O ICL não é Folha, Estadão, Globo ou Veja. É um ator de outro campo. Mesmo assim, a operação de hoje serve ao mesmo efeito: transformar um calendário desfavorável à tese em narrativa de compra de voto, no momento em que Mendonça enfrenta a cúpula da PF e o núcleo de Moraes no caso Master e no INSS. A Prefeitura de São Paulo, governada por um prefeito do MDB que já vestiu camisa de apoio a Mendonça, vira o vilão conveniente. O relator da ADPF, o partido autor da ação e o TCE do Maranhão ficam no segundo parágrafo, quando aparecem.</p>
+<p>Folha, Estadão, O Globo e Veja cobriram com fôlego a reintegração de Andrei, o afastamento de Daniel Brandão e a crise no Supremo. Cobriram com o verbo institucional. Não cobriram, nesta manhã, o irmão de Mendonça com o mesmo verbo que o ICL escolheu. Tampouco inverteram a manchete: “Relator da ADPF do PCdoB admite o PCdoB no TCE do Estado que governou.” Essa manchete, se a cor partidária mudasse, sobreviveria? A pergunta é o método. A resposta, pelo tamanho da capa, é não.</p>
+<h2>A regra que deveria valer para os dois</h2>
+<p>Se promoção de irmão, um ano depois do voto, sem representação judicial da agência no processo, vira matéria de barganha, então relatoria da ação do próprio partido, mulher no gabinete do presidente estadual da legenda, admissão do ex-partido como amicus no TCE do Estado governado, e reintegração do diretor da PF indicado pelo próprio relator também viram matéria de barganha. Ou nenhuma das duas vira. O que não se sustenta é uma só.</p>
+<p>Alexandre de Almeida Mendonça entrou na SP Regula antes do voto. Virou secretário-executivo depois. A Prefeitura diz que ele não manda nos contratos e que a PGM, não a agência, fala no STF. Até agora, isso é o que o papel oficial registra. Do outro lado da mesma Corte, o relator da ADPF 1196 continua relatando o processo do partido que o elegeu, o TCE do Maranhão continua com cadeiras travadas pela mesma caneta, e Andrei Rodrigues voltou à PF pelo gabinete de quem o indicou.</p>
+<p>A bomba não é o irmão no organograma da SP Regula. A bomba é a régua que mede um palmo num ministro e um quilômetro no outro. Enquanto essa conta não fechar no mesmo caderno, o leitor brasileiro fica com duas matérias e uma só justiça. A próxima capa vai dizer de que lado a fita métrica dobra.</p>`,
+    autor: "Redação Notícia ES",
+    aeo: [
+      { pergunta: "Qual é a acusação examinada pela matéria?", resposta: "A publicação do ICL relacionou a promoção de Alexandre de Almeida Mendonça na SP Regula ao voto do ministro André Mendonça na ADPF 1196." },
+      { pergunta: "Alguma irregularidade foi comprovada?", resposta: "Não. A matéria registra que nenhuma irregularidade foi comprovada." },
+      { pergunta: "Qual foi a resposta da Prefeitura de São Paulo?", resposta: "A Prefeitura classificou a insinuação como irresponsável e sem fundamento." }
+    ],
+    editorial: true
+  },
+  {
     id: 10092026131000,
     slug: "o-crime-organizado-esta-no-centro-do-poder",
     titulo: "O crime organizado está no centro do poder",
