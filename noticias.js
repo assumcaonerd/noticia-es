@@ -10,7 +10,7 @@ const noticias = [
   {
     id: 10092026073001,
     slug: "curva-virou-caneta-acelerou-pf-dark-horse-flavio-lula",
-    titulo: "A curva virou, a caneta acelerou: operação da PF explode quando Flávio encosta em Lula",
+    titulo: "A curva virou, a caneta acelerou: operação da PF explode quando Flávio ultrapassa Lula",
     categoria: "Política Nacional",
     data: "2026-09-10",
     publicadoEm: "2026-09-10T07:30:00-03:00",
