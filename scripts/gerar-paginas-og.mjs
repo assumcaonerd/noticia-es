@@ -162,6 +162,9 @@ function paginaHTML(n, imagem) {
   <script src="/analytics.js"></script>
   <title>${escapar(titulo)} | Notícia ES</title>
   <meta name="description" content="${escapar(resumo)}"><meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg">
+  <meta name="theme-color" content="#0b1320">
   <link rel="canonical" href="${escapar(url)}"><meta property="og:type" content="article"><meta property="og:locale" content="pt_BR"><meta property="og:site_name" content="Notícia ES"><meta property="og:title" content="${escapar(titulo)}"><meta property="og:description" content="${escapar(resumo)}"><meta property="og:url" content="${escapar(url)}">${metaImagem}
   <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapar(titulo)}"><meta name="twitter:description" content="${escapar(resumo)}">
   <script type="application/ld+json">${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>
