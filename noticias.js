@@ -28,6 +28,13 @@ const noticias = [
 <p>Não há espaço para essa dispersão. Não existe terceira via. Ou o voto se concentra em Flávio Bolsonaro no primeiro turno, ou o mesmo aparato que prendeu Bolsonaro, condenou Eduardo Bolsonaro e agora bate na porta da produtora do filme vai terminar o serviço. Reagir nas urnas ainda é o único instrumento que eles não conseguiram confiscá-lo por completo.</p>
 <p>Quem achar que isso é só um filme, uma ONG ou uma emenda de R$ 2 milhões não entendeu o país em que vive. O alvo nunca foi a nota fiscal. O alvo é impedir que o Brasil se liberte da maior organização criminosa que assolou os três poderes.</p>`,
     autor: "Redação Notícia ES",
+    aeo: [
+      { pergunta: "O que aconteceu com a produtora de Dark Horse?", resposta: "Segundo o texto, Karina Gama relatou abordagens a fornecedores e familiares e disse que pessoas se apresentaram como oficiais de Justiça em sua casa, sem mostrar documentos, na noite anterior à operação." },
+      { pergunta: "Quantos mandados foram cumpridos na Operação Make Up?", resposta: "A Polícia Federal e a CGU cumpriram 49 mandados de busca e apreensão em São Paulo, Rio de Janeiro, Ceará e Distrito Federal." },
+      { pergunta: "Quem autorizou a Operação Make Up?", resposta: "A operação foi autorizada pelo ministro Flávio Dino." },
+      { pergunta: "Qual é a relação de Mário Frias com os recursos investigados?", resposta: "Mário Frias, roteirista do filme, é apontado como autor de emendas de R$ 2 milhões destinadas ao Instituto Conhecer Brasil para os projetos Jovem Empreendedor e Lutando pela Vida." },
+      { pergunta: "Havia mandado de prisão na operação?", resposta: "Não. Conforme o conteúdo publicado, não havia mandado de prisão entre as medidas cumpridas." }
+    ],
     editorial: true
   },
   {
