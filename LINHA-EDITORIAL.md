@@ -48,10 +48,3 @@ Categoria nacional: `Política Nacional`.
 ## 6. Proibido
 
 Inventar manchete. Transformar publicidade em crime. Copiar Folha/Globo e chamar de reescrita. Esconder fato ruim da direita. Meter a tese nacional em boletim de Cariacica sem gancho.
-
-## Artes automáticas para Instagram
-
-- Formato obrigatório: 1080 x 1350 px.
-- Toda arte deve receber uma moldura azul fina no limite interno dos quatro lados.
-- A moldura deve usar o azul institucional #1766d8 e espessura de 4 px, igual à linha horizontal posicionada abaixo da fotografia.
-- O contorno precisa aparecer na imagem exportada para caracterizar a peça como uma arte editorial finalizada e evitar aparência de captura de tela.
