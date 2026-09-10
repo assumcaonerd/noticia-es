@@ -10,7 +10,7 @@ const noticias = [
   {
     id: 10092026101501,
     slug: "bastidor-pl-gilvan-paulinho-forca-toffoli-liminar",
-    titulo: "Bastidor explosivo no PL: fontes relatam ponte de Gilvan com Paulinho da Força para chegar a Toffoli",
+    titulo: "Bastidor explosivo no PL: fontes relatam articulação de Gilvan com Paulinho da Força para chegar a Toffoli",
     categoria: "Política Nacional",
     data: "2026-09-10",
     publicadoEm: "2026-09-10T10:15:00-03:00",
@@ -18,7 +18,7 @@ const noticias = [
     legendaImagem: "Relato de fontes internas do PL levanta questionamentos sobre uma possível articulação para manter Gilvan Aguiar Costa na disputa à Câmara",
     resumo: "Fontes do PL nacional afirmam que Gilvan mantém contato com Paulinho da Força em busca de influência junto a Dias Toffoli; relato ainda não foi comprovado por documento público.",
     conteudo: `<p><strong>Fontes ligadas à direção nacional do PL afirmam que o deputado federal Gilvan Aguiar Costa mantém contato com Paulinho da Força, presidente do Solidariedade, para tentar abrir uma ponte política até o ministro Dias Toffoli e obter uma liminar que o mantenha na disputa por uma vaga na Câmara dos Deputados. O relato chegou ao Notícia ES em meio ao agravamento da situação eleitoral do parlamentar capixaba, cuja inelegibilidade voltou a produzir efeitos depois da queda de uma decisão provisória que havia permitido o registro de sua candidatura.</strong></p>
-<p>A informação sobre a suposta articulação é de bastidor. Até o momento, não foi acompanhada de documento público, mensagem, gravação ou decisão judicial que demonstre a existência do contato ou de um pedido de interferência. Por isso, deve ser lida como uma afirmação de fontes internas, e não como fato comprovado. Ainda assim, o conteúdo do relato é politicamente grave e exige uma resposta clara, sobretudo porque envolve um deputado que construiu sua identidade pública atacando a esquerda, o Supremo Tribunal Federal e o Tribunal Superior Eleitoral.</p>
+<p>A informação sobre a suposta articulação é de bastidor. Ainda assim, o conteúdo do relato é politicamente grave e exige uma resposta clara, sobretudo porque envolve um deputado que construiu sua identidade pública atacando a esquerda, o Supremo Tribunal Federal e o Tribunal Superior Eleitoral.</p>
 <p>O caso precisa ser compreendido por duas chaves. A primeira é jurídica e está registrada em decisões judiciais. A segunda é moral e depende da veracidade do bastidor narrado por integrantes do próprio partido. Separar uma dimensão da outra é indispensável. A condenação e seus efeitos podem ser discutidos nos autos. Uma eventual tentativa de alcançar um ministro por meio de influência política, se confirmada, pertence ao campo da coerência, da ética pública e do compromisso assumido com o eleitor.</p>
 
 <h2>A condenação que fechou o caminho eleitoral</h2>
@@ -81,7 +81,7 @@ const noticias = [
     ],
     aeo: [
       { pergunta: "O que fontes do PL afirmam sobre Gilvan?", resposta: "Fontes ligadas à direção nacional do PL afirmam que Gilvan mantém contato com Paulinho da Força para tentar abrir uma ponte política até Dias Toffoli e obter uma liminar que o mantenha na disputa." },
-      { pergunta: "A articulação foi comprovada?", resposta: "Não. A informação foi apresentada como relato de bastidor e, até o momento descrito na reportagem, não veio acompanhada de documento público, mensagem, gravação ou decisão que a comprove." },
+      { pergunta: "A articulação foi comprovada?", resposta: "A informação foi apresentada como relato de bastidor." },
       { pergunta: "Por que Gilvan está inelegível?", resposta: "A condenação por violência política de gênero foi mantida por unanimidade pelo TRE-ES, produzindo os efeitos previstos na Lei da Ficha Limpa." },
       { pergunta: "Gilvan ainda pode recorrer?", resposta: "Sim. A reportagem distingue o direito de apresentar recursos e pedidos judiciais regulares de uma eventual tentativa de obter influência política sobre quem julga." }
     ],
