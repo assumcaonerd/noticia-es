@@ -8,6 +8,29 @@
 
 const noticias = [
   {
+    id: 10092026131000,
+    slug: "o-crime-organizado-esta-no-centro-do-poder",
+    titulo: "O crime organizado está no centro do poder",
+    categoria: "Política Nacional",
+    data: "2026-09-10",
+    publicadoEm: "2026-09-10T13:10:00-03:00",
+    imagem: "https://i.ibb.co/LD4Vt5vW/Chat-GPT-Image-10-de-set-de-2026-12-57-01.png",
+    legendaImagem: "O crime organizado está no centro do poder",
+    resumo: "O que está em curso hoje contra a produtora do filme sobre o presidente Bolsonaro, condenado sem motivo e preso é o mesmo manual que já usaram contra ele.",
+    conteudo: `<p>O que está em curso hoje contra a produtora do filme sobre o presidente Bolsonaro, condenado sem motivo e preso é o mesmo manual que já usaram contra ele: primeiro a pressão, depois o espetáculo, depois a tentativa de transformar gente miúda em peça de delação.</p>
+<p>Karina Gama, dona da Go Up e produtora do <em>Dark Horse</em>, ligou para a imprensa no dia anterior à operação e disse o que o sistema não quer ouvir. Pessoas se passando por oficiais de Justiça, sem documento, tocaram a campainha da casa dela às 21 horas. Fornecedores e familiares foram abordados. Ela se sentiu ameaçada e chantageada. E foi clara: se for presa, não tem o que delatar. Nunca captei dinheiro para o filme, nunca tratei com financiador. Prestei um serviço, produzi a obra e fui remunerada.</p>
+<p>Na manhã seguinte, a Polícia Federal e a CGU cumpriram 49 mandados de busca e apreensão em São Paulo, Rio, Ceará e Distrito Federal. Operação batizada de Make Up. Autorizada por Flávio Dino. Alvos: a produtora e o deputado Mário Frias, roteirista do filme e autor de emendas de R$ 2 milhões ao Instituto Conhecer Brasil, entidade presidida pela mesma Karina. Os recursos oficiais foram indicados para projetos chamados Jovem Empreendedor e Lutando pela Vida. A investigação cola esses convênios no filme, fala em peculato, lavagem, organização criminosa e movimentação de “centenas de milhões” entre empresas. Não havia mandado de prisão. Havia o recado.</p>
+<p>É o mesmo desenho. Primeiro se escolhe o alvo. Depois se junta o que for: emenda, ONG, subcontratação, nota fiscal incompleta, endereço compartilhado. Em seguida se transforma procedimento administrativo em crime hediondo. Por último se aperta o mais fraco até aparecer uma delação que preencha o que a prova não deu conta.</p>
+<p>Foi assim com Jair Bolsonaro. Viagem. Cartão de vacina. Inserção de dado em sistema. Coisas que, ao pé da lei penal clássica, não sustentam um dia de cadeia para um ex-presidente da República. Serviram de porta de entrada. Mauro Cid foi preso, negociou e passou a ser o instrumento. O inquérito do cartão, no fim, foi arquivado em relação ao próprio Bolsonaro porque a PGR reconheceu que faltava prova de participação dele. O dano já estava feito. A prisão, a tornozeleira, a condenação por outro enredo e o apagamento político já estavam em curso. A acusação menor cumpriu a missão maior.</p>
+<p>Agora o roteiro se desloca para quem ousou filmar a trajetória do homem que o sistema quer sepultado. Um filme vira organização criminosa. Uma produtora vira peça de chantagem. Uma mãe solteira que diz não saber de financiador vira alvo de 49 mandados autorizados por um ministro do Supremo. Enquanto isso, o outro inquérito sobre o mesmo filme, o que mira o dinheiro de Daniel Vorcaro, segue em trilho separado. E o filho do presidente da República, o mesmo que o sistema trabalha para impedir, é o nome que precisa ser isolado até outubro.</p>
+<p>A seletividade é o método. Contra o círculo de Bolsonaro, busca, apreensão, pressão noturna, ameaça de prisão e convite à delação. Contra o outro lado, o tempo corre diferente. INSS, Banco Master, emendas de sempre, filhos, amigos e operadores passam por outro crivo. Quando a corda estica, estica no lado que filmou o preso político, não no lado que governa.</p>
+<p>Isso tem nome: várzea institucional. O Estado deixou de investigar para punir crime e passou a investigar para cumprir missão. A missão é simples. Quebrar a cadeia de quem ainda fala o nome de Jair. Assustar quem produz, quem emenda, quem apoia, quem filma. Transformar cada aliado em potencial delator. E, com isso, abrir espaço para que em outubro o eleitor se disperse, vote em qualquer nome “permitido” e enterre de vez o que restou da reação.</p>
+<p>Não há espaço para essa dispersão. Não existe terceira via. Ou o voto se concentra em Flávio Bolsonaro no primeiro turno, ou o mesmo aparato que prendeu Bolsonaro, condenou Eduardo Bolsonaro e agora bate na porta da produtora do filme vai terminar o serviço. Reagir nas urnas ainda é o único instrumento que eles não conseguiram confiscá-lo por completo.</p>
+<p>Quem achar que isso é só um filme, uma ONG ou uma emenda de R$ 2 milhões não entendeu o país em que vive. O alvo nunca foi a nota fiscal. O alvo é impedir que o Brasil se liberte da maior organização criminosa que assolou os três poderes.</p>`,
+    autor: "Redação Notícia ES",
+    editorial: true
+  },
+  {
     id: 10092026101501,
     slug: "bastidor-pl-gilvan-paulinho-forca-toffoli-liminar",
     titulo: "Bastidor explosivo no PL: fontes relatam articulação de Gilvan com Paulinho da Força para chegar a Toffoli",
