@@ -8,6 +8,99 @@
 
 const noticias = [
   {
+    id: 10092026073001,
+    slug: "curva-virou-caneta-acelerou-pf-dark-horse-flavio-lula",
+    titulo: "A curva virou, a caneta acelerou: operação da PF explode quando Flávio encosta em Lula",
+    categoria: "Política Nacional",
+    data: "2026-09-10",
+    publicadoEm: "2026-09-10T07:30:00-03:00",
+    imagem: "https://i.ibb.co/trjLsfx/lula-com-flavio-dino-foto-marcelo-camargo-agencia-brasil-1-960x540.jpg",
+    legendaImagem: "Lula e Flávio Dino. Foto: Marcelo Camargo/Agência Brasil",
+    resumo: "Recondução de Andrei Rodrigues e operação Dark Horse ocorrem em meio à subida de Flávio Bolsonaro nas pesquisas e ampliam a crise de confiança sobre STF e PF.",
+    conteudo: `<p><strong>A Polícia Federal cumpriu, nesta quarta-feira, cerca de 50 mandados de busca em Brasília e São Paulo no âmbito do caso Dark Horse, que envolve a produção de uma cinebiografia de Jair Bolsonaro e emendas parlamentares destinadas a empresas relacionadas ao projeto. Entre os alvos citados estão a empresária Karina Gama e o deputado Mario Frias.</strong></p>
+<p>A operação foi realizada um dia depois de o ministro Flávio Dino, do Supremo Tribunal Federal, reverter uma decisão do ministro André Mendonça e restabelecer Andrei Rodrigues no comando da Polícia Federal. A coincidência temporal ganhou imediatamente dimensão política porque ocorreu justamente quando pesquisas eleitorais passaram a indicar uma queda de Luiz Inácio Lula da Silva e um crescimento expressivo de Flávio Bolsonaro na disputa presidencial.</p>
+<p>A sucessão dos acontecimentos lançou uma pergunta incômoda no centro de Brasília: a atuação das instituições está seguindo apenas o ritmo das investigações ou passou a acompanhar também o relógio eleitoral?</p>
+<p>Flávio Bolsonaro já havia acusado Dino de agir como alguém que teria uma causa política a defender, em vez de apenas um processo para julgar. Também afirmou que o Brasil teria se transformado em uma “terra sem lei” e em uma “várzea”, onde autoridades agiriam sem qualquer preocupação com as aparências.</p>
+<p>A operação realizada agora oferece combustível para que essa acusação ganhe força política.</p>
+<h2>As pesquisas que acenderam o alerta</h2>
+<p>O pano de fundo é uma mudança rápida e simultânea em diferentes levantamentos eleitorais apresentados no material que fundamenta esta reportagem.</p>
+<p>Segundo os números atribuídos ao instituto Meio/Ideia, Lula caiu de 43% para 38,4% em uma simulação de primeiro turno. Flávio Bolsonaro, no mesmo intervalo, subiu de 35% para 37,3%. A vantagem que antes parecia confortável foi reduzida a pouco mais de um ponto percentual.</p>
+<p>No segundo turno, a transformação seria ainda mais evidente. Um cenário que anteriormente registrava Lula com 48,5% e Flávio com 43% passou a mostrar empate numérico: 46% para cada candidato.</p>
+<p>Outros levantamentos mencionados no material caminham na mesma direção. A pesquisa Gerp colocaria Flávio Bolsonaro à frente de Lula no segundo turno, por 47% a 40%. O levantamento BTG/Nexus apontaria, pela primeira vez em sua série, vantagem numérica de Flávio, com 46%, contra 45% de Lula. A Palver também registraria empate no primeiro turno e liderança de Flávio no segundo.</p>
+<p>Ao mesmo tempo, a rejeição de Lula teria se aproximado de 49%.</p>
+<p>Considerados em conjunto, esses números formam um cenário politicamente explosivo. O presidente, que antes aparecia em posição mais confortável, passa a enfrentar um adversário em ascensão. Flávio Bolsonaro deixa de ser tratado apenas como uma candidatura competitiva e começa a aparecer como uma possibilidade concreta de vitória.</p>
+<p>É nesse exato momento que a Polícia Federal avança sobre o caso Dark Horse.</p>
+<p>A proximidade entre a mudança das pesquisas, a decisão de Flávio Dino e a operação policial não prova, isoladamente, uma articulação eleitoral. Mas a sequência dos acontecimentos impõe uma cobrança legítima por transparência. Quando uma ação policial alcança pessoas associadas ao círculo político de um candidato presidencial em crescimento, o dever de fundamentação precisa ser ainda mais rigoroso.</p>
+<h2>A queda e o retorno de Andrei Rodrigues</h2>
+<p>Antes da operação, o ministro André Mendonça havia determinado o afastamento de Andrei Rodrigues do comando da Polícia Federal e também do chefe da área de Inteligência da corporação.</p>
+<p>A medida foi provocada por um pedido do Partido Novo, que apontava suposto monitoramento irregular e a utilização de relatórios de inteligência contra o próprio ministro e outras autoridades.</p>
+<p>O afastamento, entretanto, durou pouco. Em aproximadamente 24 horas, Flávio Dino reverteu a decisão. O ministro sustentou que um partido político não teria legitimidade para pedir medida cautelar em matéria criminal. Também afirmou que a paralisação da cúpula da Polícia Federal beneficiaria pessoas investigadas.</p>
+<p>No mesmo despacho, Dino mencionou elementos relacionados ao filme Dark Horse e emendas destinadas a empresas que também participaram da produção da cinebiografia de Jair Bolsonaro.</p>
+<p>Além de reconduzir Andrei Rodrigues ao cargo, o ministro proibiu a adoção de novas medidas contra ele e advertiu que eventual resistência ao cumprimento da decisão poderia caracterizar ilícito.</p>
+<p>O efeito foi imediato. Andrei retornou ao comando da corporação. No dia seguinte, a Polícia Federal saiu às ruas para cumprir dezenas de mandados em uma investigação relatada pelo próprio Flávio Dino.</p>
+<p>A rapidez da sequência transformou um debate jurídico em uma tempestade política.</p>
+<h2>O caso Dark Horse e a acusação de “expedição de pesca”</h2>
+<p>O argumento central dos críticos da operação é que, até o momento descrito pelo material, não teria sido demonstrado o uso de dinheiro público na produção do filme Dark Horse.</p>
+<p>Uma perícia independente, conforme as informações fornecidas, teria concluído que não houve utilização direta ou indireta de recursos públicos no projeto cinematográfico.</p>
+<p>Essa conclusão não encerra automaticamente qualquer possibilidade de investigação. Emendas parlamentares e contratos envolvendo empresas relacionadas ao filme podem ser apurados sempre que existirem indícios concretos de irregularidade. A questão está justamente na existência e na qualidade desses indícios.</p>
+<p>Sem a apresentação pública de um fato determinado que sustente as buscas, a operação passa a ser acusada por seus críticos de funcionar como uma “expedição de pesca”. A expressão é utilizada no meio jurídico para descrever uma investigação ampla, lançada sem delimitação suficientemente clara, na expectativa de que alguma irregularidade seja encontrada durante o caminho.</p>
+<p>Nesse cenário, o risco não se limita à apreensão de documentos ou equipamentos. Uma operação dessa dimensão produz imagens, manchetes e repercussão imediata. Portas abertas por agentes, endereços vasculhados e nomes associados a buscas policiais formam uma narrativa pública antes mesmo de qualquer denúncia, julgamento ou condenação.</p>
+<p>Na política, a imagem frequentemente chega ao eleitor muito antes dos autos.</p>
+<p>Por isso, a preocupação com possíveis vazamentos seletivos ganha relevância. Informações fragmentadas, retiradas de contexto e divulgadas durante a campanha podem provocar um estrago eleitoral impossível de reparar, ainda que posteriormente nenhuma acusação seja confirmada.</p>
+<h2>Uma disputa anterior pela relatoria</h2>
+<p>Outro elemento que aumenta a desconfiança é a alegação de que já existia uma apuração sobre o mesmo objeto sob responsabilidade de André Mendonça.</p>
+<p>Segundo a narrativa apresentada, teria ocorrido uma movimentação destinada a deslocar o tema para Flávio Dino. Caso essa sobreposição seja confirmada, será necessário esclarecer por que duas frentes de apuração alcançaram matérias semelhantes e qual foi o critério utilizado para definir a relatoria.</p>
+<p>A competência do relator não é uma formalidade sem importância. Ela determina quem autoriza buscas, analisa pedidos, controla o sigilo e decide o alcance das medidas investigativas.</p>
+<p>Em um caso com repercussão eleitoral direta, qualquer dúvida sobre a distribuição do processo enfraquece a confiança pública. A aparência de imparcialidade também integra a legitimidade da Justiça.</p>
+<h2>As conexões políticas que aumentam a pressão</h2>
+<p>Andrei Rodrigues foi responsável pela segurança de Lula durante a campanha presidencial de 2022. Flávio Dino ocupou o Ministério da Justiça no governo Lula e foi indicado pelo presidente para uma cadeira no Supremo Tribunal Federal.</p>
+<p>Esses vínculos anteriores não demonstram, por si mesmos, que exista interferência política na Polícia Federal ou nas decisões de Dino. Autoridades não perdem automaticamente a capacidade de agir com independência por terem ocupado cargos em determinado governo.</p>
+<p>Ainda assim, essas relações tornam indispensável um grau superior de cautela.</p>
+<p>Quando um ex-ministro indicado por Lula ao Supremo restabelece no cargo um diretor da PF que trabalhou na segurança do próprio Lula, e a corporação realiza no dia seguinte uma operação contra pessoas ligadas ao campo político do adversário que cresce nas pesquisas, a população inevitavelmente exige explicações.</p>
+<p>A resposta não pode se resumir a apelos genéricos à autonomia institucional. É preciso apresentar fundamentos concretos, demonstrar a origem das provas e esclarecer por que as medidas foram consideradas urgentes justamente agora.</p>
+<h2>A acusação de seletividade</h2>
+<p>Os críticos da atuação da Polícia Federal também apontam uma diferença de velocidade entre investigações.</p>
+<p>De acordo com o material fornecido, a PF comandada por Andrei Rodrigues avançou sobre o empresário Daniel Vorcaro e sobre o esquema relacionado ao INSS. Ao mesmo tempo, apurações que poderiam alcançar Lulinha, emendas associadas ao Centrão governista ou encontros constrangedores envolvendo ministros seguiriam em outro ritmo.</p>
+<p>Flávio Dino também é acusado de ter invalidado, no contexto da CPI do INSS, uma quebra de sigilo considerada politicamente incômoda para o Palácio do Planalto. Agora, o caso Dark Horse avança com dezenas de mandados.</p>
+<p>A simples diferença de velocidade entre investigações não comprova favorecimento. Cada procedimento tem provas, dificuldades e necessidades próprias. Porém, quando essa diferença coincide repetidamente com interesses políticos, a suspeita pública deixa de ser uma reação irracional.</p>
+<p>Justiça seletiva é aquela que escolhe quem será alcançado, em que momento e com qual intensidade. Uma democracia saudável precisa impedir até mesmo a aparência desse tipo de escolha.</p>
+<h2>O alerta feito por Flávio Bolsonaro</h2>
+<p>Antes da operação, Flávio Bolsonaro afirmou que Alexandre de Moraes, Davi Alcolumbre e Flávio Dino estariam articulando uma reação contra André Mendonça e uma tentativa de desgaste eleitoral.</p>
+<p>O senador acusou autoridades de armarem uma farsa contra adversários políticos e de agirem como se jamais fossem responsabilizadas.</p>
+<p>A sequência posterior foi interpretada por seus aliados como confirmação desse alerta: primeiro, Andrei Rodrigues foi reconduzido; depois, a Polícia Federal realizou as buscas; agora, cresce a expectativa sobre quais informações poderão ser divulgadas nos próximos dias.</p>
+<p>Essa leitura continua sendo uma acusação política e precisa ser apresentada como tal. Até aqui, o material fornecido não apresenta prova documental de uma ordem expressa para utilizar a operação com finalidade eleitoral.</p>
+<p>Mas a ausência dessa prova não elimina o problema institucional provocado pelo calendário. A sucessão dos fatos é objetiva. A interpretação sobre suas motivações permanece em disputa.</p>
+<h2>Investigação legítima exige prova, limite e transparência</h2>
+<p>O filme Dark Horse pode ser investigado se houver indício de desvio. Empresas que receberam emendas parlamentares também podem e devem prestar contas sobre a aplicação dos recursos. Ninguém envolvido na política está acima da lei.</p>
+<p>O mesmo princípio, porém, precisa alcançar quem investiga e quem julga. Mandados de busca não podem servir como ferramenta genérica de pressão. Inquéritos não podem ser utilizados para gerar material eleitoral. Autoridades judiciais precisam evitar decisões que permitam a percepção de alinhamento com qualquer campanha.</p>
+<p>Se existem provas de que dinheiro público financiou irregularmente o filme, elas devem ser apresentadas e confrontadas com a perícia independente mencionada no material. Se as emendas foram desviadas, os responsáveis devem responder. Se não houve desvio, a reputação dos atingidos não pode ser destruída por insinuações.</p>
+<p>A credibilidade da Polícia Federal e do Supremo depende dessa distinção.</p>
+<h2>O voto ainda pertence ao eleitor</h2>
+<p>A eleição será decidida em outubro. As pesquisas citadas mostram uma disputa que teria mudado rapidamente, com Lula em queda e Flávio Bolsonaro avançando até o empate ou a liderança numérica em diferentes levantamentos.</p>
+<p>Nesse ambiente, qualquer operação contra pessoas próximas a um dos principais candidatos terá impacto político, independentemente da intenção declarada de seus responsáveis.</p>
+<p>É por isso que a atuação das instituições precisa ser clara, tecnicamente fundamentada e resistente a qualquer suspeita de manipulação. A toga não pode produzir o desgaste que uma campanha adversária não conseguiu provocar. A Polícia Federal não pode ser percebida como instrumento de correção do placar eleitoral.</p>
+<p>Flávio Bolsonaro afirmou que as autoridades “perderam o pudor”. Seus adversários dirão que as instituições estão apenas funcionando. Entre essas duas versões, existem fatos que não podem ser ignorados: Andrei Rodrigues foi afastado, Flávio Dino o reconduziu, a operação ocorreu no dia seguinte e o alvo político indireto é o campo de um candidato que cresce nas pesquisas contra Lula.</p>
+<p>Agora, cabe às autoridades revelar as provas, explicar a urgência e demonstrar que o calendário foi apenas uma coincidência.</p>
+<p><strong>Até lá, a pergunta permanecerá aberta sobre Brasília: quando a curva eleitoral virou, quem decidiu acelerar a caneta?</strong></p>`,
+    autor: "Redação Notícia ES",
+    entidades: [
+      { tipo: "Person", nome: "Flávio Bolsonaro" },
+      { tipo: "Person", nome: "Luiz Inácio Lula da Silva" },
+      { tipo: "Person", nome: "Flávio Dino" },
+      { tipo: "Person", nome: "Andrei Rodrigues" },
+      { tipo: "Person", nome: "André Mendonça" },
+      { tipo: "GovernmentOrganization", nome: "Polícia Federal" },
+      { tipo: "Organization", nome: "Supremo Tribunal Federal" }
+    ],
+    aeo: [
+      { pergunta: "O que é o caso Dark Horse?", resposta: "É a investigação mencionada na operação da Polícia Federal que envolve a produção de uma cinebiografia de Jair Bolsonaro e emendas parlamentares destinadas a empresas relacionadas ao projeto." },
+      { pergunta: "Quantos mandados foram cumpridos?", resposta: "Segundo as informações que fundamentam a reportagem, a Polícia Federal cumpriu cerca de 50 mandados de busca em Brasília e São Paulo." },
+      { pergunta: "Por que o momento da operação provocou controvérsia?", resposta: "A operação ocorreu um dia depois da recondução de Andrei Rodrigues ao comando da PF e em meio a pesquisas que indicam crescimento de Flávio Bolsonaro contra Lula." },
+      { pergunta: "A coincidência de datas prova interferência eleitoral?", resposta: "Não. A sequência temporal sustenta questionamentos políticos e cobrança por transparência, mas não comprova isoladamente uma articulação eleitoral." }
+    ],
+    automatico: false
+  },
+  {
     id: 9092026183001,
     slug: "fachin-tira-moraes-inquerito-fake-news-sete-anos",
     titulo: "Finalmente: Fachin tira de Moraes o Inquérito das Fake News após sete anos",
