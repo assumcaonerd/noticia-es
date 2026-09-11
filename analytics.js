@@ -72,7 +72,7 @@
   if (window.NOTICIAES_MONETIZATION_LOADED) return;
   window.NOTICIAES_MONETIZATION_LOADED = true;
   const script = document.createElement('script');
-  script.src = '/monetization.js?v=20260911-1';
+  script.src = '/monetization.js?v=20260911-2';
   script.defer = true;
   document.head.appendChild(script);
 })();

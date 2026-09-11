@@ -37,6 +37,10 @@
       'seguranca publica': 'seguranca-publica',
       'seguranca': 'seguranca-publica',
       'politica nacional': 'politica-nacional',
+      'economia': 'economia',
+      'economia es': 'economia',
+      'financas': 'economia',
+      'negocios': 'economia',
       'opiniao': 'opiniao',
       'fe e sociedade': 'fe-e-sociedade',
       'fe sociedade': 'fe-e-sociedade'
@@ -166,9 +170,11 @@
       hero.style.display = 'none';
       if (tituloSecao) {
         const partes = [];
-        if (categoria) partes.push(categoria.replace(/-/g, ' '));
+        if (categoria) partes.push(categoriaCanonica(categoria) === 'economia' ? 'Economia' : categoria.replace(/-/g, ' '));
         if (termo) partes.push(`busca: “${termo}”`);
-        tituloSecao.textContent = `Resultados para ${partes.join(' · ')}`;
+        tituloSecao.textContent = categoriaCanonica(categoria) === 'economia' && !termo
+          ? 'Economia'
+          : `Resultados para ${partes.join(' · ')}`;
       }
       grade.innerHTML = lista.length
         ? lista.map(cardHTML).join('')
