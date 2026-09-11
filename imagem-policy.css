@@ -45,3 +45,16 @@
   .materia-header h1 { overflow-wrap: anywhere; }
   .materia-conteudo { font-size: 1.05rem; line-height: 1.72; }
 }
+
+/* Regra editorial: todo texto de rodapé de imagem é pequeno e em itálico. */
+figcaption,
+.materia-figura figcaption,
+.conteudo-materia figcaption,
+.materia-estatica figcaption {
+  margin-top: 7px;
+  font-size: 0.78rem !important;
+  line-height: 1.4;
+  font-style: italic !important;
+  font-weight: 400;
+  color: #626a73;
+}
