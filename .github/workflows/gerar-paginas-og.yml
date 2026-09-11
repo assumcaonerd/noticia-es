@@ -8,6 +8,7 @@ on:
     paths:
       - 'noticias.js'
       - 'scripts/gerar-paginas-og.mjs'
+      - 'scripts/normalizar-paginas-estaticas.mjs'
       - 'scripts/publicar-chatgpt-horario.mjs'
       - 'scripts/corrigir-publicacao-chatgpt.mjs'
       - 'scripts/garantir-padrao-publicacao.mjs'
@@ -60,6 +61,8 @@ jobs:
           PY
       - name: Gerar m/{slug}.html
         run: node scripts/gerar-paginas-og.mjs
+      - name: Normalizar metadados e compartilhamento
+        run: node scripts/normalizar-paginas-estaticas.mjs
       - name: Gerar sitemaps
         run: node scripts/gerar-sitemap.mjs
       - name: Publicar páginas
