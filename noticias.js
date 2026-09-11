@@ -8,6 +8,122 @@
 
 const noticias = [
   {
+    id: 11092026190600,
+    slug: "liminar-caiu-registro-barrado-gilvan-da-federal-tre-es",
+    titulo: "A liminar caiu, o registro foi barrado: o que Gilvan da Federal não contou no vídeo",
+    categoria: "Política ES",
+    data: "2026-09-11",
+    publicadoEm: "2026-09-11T19:06:00-03:00",
+    imagem: "https://noticiaes.com.br/assets/og/gilvan-registro-barrado-tre-es.jpg",
+    imagemX: "https://noticiaes.com.br/assets/og/gilvan-registro-barrado-tre-es.jpg",
+    imagemLargura: 1536,
+    imagemAltura: 1024,
+    imagemXLargura: 1536,
+    imagemXAltura: 1024,
+    legendaImagem: "Gilvan da Federal teve o registro de candidatura indeferido por unanimidade pelo TRE-ES nesta sexta-feira, 11 de setembro.",
+    resumo: "Deputado divulgou trechos de uma decisão provisória de julho como sinal de vitória, mas omitiu que a medida foi revogada em agosto e que, nesta sexta-feira, o TRE-ES indeferiu por unanimidade sua candidatura à reeleição.",
+    conteudo: `<p>O eleitor capixaba precisa olhar a sequência inteira, não apenas o recorte que Gilvan da Federal escolheu apresentar.</p>
+<p>Na noite de quinta-feira, 10 de setembro, o deputado federal Gilvan da Federal, do PL, divulgou um vídeo no qual aparece lendo trechos de uma decisão do ministro Kássio Nunes Marques. Para quem assistiu à gravação sem conhecer o andamento completo do processo, a mensagem transmitida foi clara: a Justiça teria reconhecido fragilidade na acusação contra o parlamentar, suspendido os efeitos de sua condenação e aberto definitivamente o caminho para sua candidatura à reeleição.</p>
+<p>Mas aquela decisão já não produz efeitos.</p>
+<p>A liminar citada por Gilvan foi concedida em 14 de julho de 2026. Pouco mais de um mês depois, em 26 de agosto, o ministro Ricardo Villas Bôas Cueva revogou expressamente a medida e restabeleceu os efeitos eleitorais da condenação. Nesta sexta-feira, 11 de setembro, veio o novo golpe: o plenário do Tribunal Regional Eleitoral do Espírito Santo, por unanimidade, indeferiu o pedido de registro da candidatura de Gilvan à Câmara dos Deputados.</p>
+<p>Em outras palavras, o vídeo exibiu uma fotografia jurídica antiga como se representasse a situação atual.</p>
+<p>O documento lido por Gilvan existiu. A liminar foi efetivamente concedida. O parlamentar chegou a ter os efeitos eleitorais da condenação suspensos temporariamente. O que não aparece no vídeo é que essa proteção provisória caiu em agosto e que o registro da candidatura acabou barrado pelo TRE-ES em setembro.</p>
+<p>A diferença entre essas informações muda completamente o sentido da história.</p>
+<section class="aeo-resumo" aria-labelledby="resposta-direta"><h2 id="resposta-direta">Resposta direta: Gilvan da Federal está com a candidatura liberada?</h2><p><strong>Não. A liminar concedida em julho foi revogada em 26 de agosto. Nesta sexta-feira, 11 de setembro, o TRE-ES indeferiu por unanimidade o registro da candidatura de Gilvan à reeleição. Ele ainda pode recorrer ao TSE, mas o estado atual do processo é de registro indeferido.</strong></p></section>
+<h2>A origem da condenação</h2>
+<p>O processo começou a partir de um episódio ocorrido em 1º de dezembro de 2021, quando Gilvan ainda exercia o mandato de vereador em Vitória.</p>
+<p>Durante uma sessão parlamentar, ele mandou a então vereadora Camila Valadão, do PSOL, “calar a boca”. A Justiça Eleitoral entendeu que a declaração, analisada dentro do conjunto da conduta, configurou violência política de gênero, crime previsto no artigo 326-B do Código Eleitoral.</p>
+<p>A condenação foi fixada em 1 ano, 4 meses e 15 dias de reclusão, em regime aberto, além do pagamento de 50 dias-multa.</p>
+<p>Em março de 2026, o Tribunal Regional Eleitoral do Espírito Santo manteve a condenação. Como a decisão foi confirmada por órgão colegiado, passaram a incidir os efeitos previstos na Lei da Ficha Limpa, entre eles a inelegibilidade pelo período de oito anos.</p>
+<p>Esse é o ponto de partida jurídico da controvérsia.</p>
+<p>Tudo o que aconteceu depois decorreu de tentativas da defesa de suspender os efeitos eleitorais da condenação. Nenhuma das medidas provisórias mencionadas por Gilvan apagou a sentença, anulou o processo ou declarou definitivamente a inexistência do crime.</p>
+<h2>O que Nunes Marques decidiu em julho</h2>
+<p>Em 14 de julho, durante o recesso do Tribunal Superior Eleitoral, o ministro Kássio Nunes Marques concedeu uma liminar favorável a Gilvan.</p>
+<p>Na decisão, o ministro apontou a existência de dúvida razoável a respeito da caracterização dos elementos exigidos pelo artigo 326-B do Código Eleitoral. Nunes Marques observou que manifestações consideradas mais contundentes haviam sido protegidas pela imunidade parlamentar, enquanto a condenação remanescente estava concentrada essencialmente na expressão “cala a boca”.</p>
+<p>Um dos trechos posteriormente lidos por Gilvan afirmava:</p>
+<blockquote>“A qualificação simultânea da mesma base fática, ora como embate ideológico protegido, ora como conduta orientada pelo especial fim de agir do art. 326-B, revela, em juízo de delibação, dúvida razoável quanto à demonstração do elemento subjetivo específico do tipo.”</blockquote>
+<p>Em outro ponto, o ministro registrou:</p>
+<blockquote>“Essa dúvida se acentua porque a condenação remanescente tem por núcleo, essencialmente, a expressão ‘cala a boca’, considerada não abrangida pela imunidade parlamentar que alcançou manifestações objetivamente mais contundentes proferidas no mesmo contexto.”</blockquote>
+<p>Nunes Marques também destacou que a configuração do crime exigiria a demonstração simultânea de dois elementos: a motivação decorrente de menosprezo ou discriminação à condição de mulher e a finalidade específica de impedir ou dificultar o exercício do mandato.</p>
+<p>Com base nessa avaliação preliminar, o ministro suspendeu temporariamente os efeitos eleitorais da condenação.</p>
+<p>A liminar permitiu que Gilvan participasse da convenção partidária e apresentasse o pedido de registro de candidatura. Naquele momento, a medida funcionou como uma proteção cautelar enquanto o caso aguardava nova apreciação.</p>
+<p>Mas a decisão continha um limite objetivo: seus efeitos durariam somente até que o relator julgasse o recurso ou até que o próprio TSE deliberasse novamente sobre o assunto.</p>
+<p>Nunes Marques não absolveu Gilvan. Não anulou a condenação. Não declarou que o crime jamais existiu. Concedeu uma medida provisória, sujeita a revisão.</p>
+<p>E foi exatamente isso que aconteceu.</p>
+<h2>A decisão de agosto que o vídeo não mostra</h2>
+<p>Em 26 de agosto, o ministro Ricardo Villas Bôas Cueva analisou o recurso, negou seu seguimento, considerou prejudicado o habeas corpus e revogou a liminar concedida durante o recesso.</p>
+<p>O trecho central da decisão é direto:</p>
+<blockquote>“Julgo prejudicado o HC nº 0601229-29/ES e revogo a medida liminar nele concedida, restabelecendo-se os efeitos eleitorais decorrentes da condenação.”</blockquote>
+<p>Essa frase altera todo o quadro apresentado no vídeo.</p>
+<p>A partir de 26 de agosto, a liminar de Nunes Marques deixou de produzir os efeitos que haviam permitido a Gilvan avançar inicialmente no processo eleitoral. A condenação continuou existindo, e suas consequências eleitorais foram restabelecidas.</p>
+<p>Quando Gilvan publicou o vídeo em 10 de setembro, a decisão que ele lia já estava revogada havia mais de duas semanas.</p>
+<p>O problema central não está na leitura literal dos trechos de Nunes Marques. Os trechos existem e fazem parte do processo. O problema está na ausência da decisão posterior que retirou a eficácia da medida e recolocou em vigor os efeitos eleitorais da condenação.</p>
+<p>Uma decisão judicial não pode ser compreendida apenas pela passagem mais conveniente. É preciso saber se ela continua vigente, se foi reformada, se perdeu objeto ou se acabou expressamente revogada.</p>
+<p>No caso de Gilvan, a liminar apresentada ao público como sinal de liberação já havia caído.</p>
+<h2>TRE-ES barra candidatura por unanimidade</h2>
+<p>Nesta sexta-feira, 11 de setembro, o plenário do TRE-ES analisou o pedido de registro de candidatura de Gilvan da Federal à reeleição.</p>
+<p>A Corte decidiu, por unanimidade, indeferir o registro.</p>
+<p>A relatoria ficou com a juíza Isabella Rossi Naumann Chaves. Os pedidos de impugnação foram apresentados pela Federação PSOL/Rede e pelo Ministério Público Eleitoral.</p>
+<p>O tribunal aplicou ao pedido de registro a situação jurídica restabelecida desde agosto: a existência de uma condenação colegiada por violência política de gênero, com os respectivos efeitos de inelegibilidade.</p>
+<p>A consequência foi o indeferimento da candidatura.</p>
+<p>Gilvan ainda pode recorrer ao Tribunal Superior Eleitoral. A possibilidade de recurso faz parte do processo e poderá levar o caso a uma nova análise. Isso, porém, não modifica o estado atual: o registro foi indeferido pelo TRE-ES.</p>
+<p>Recurso não equivale a registro deferido. Possibilidade de reversão não equivale a candidatura liberada. A situação jurídica válida nesta sexta-feira é a decisão unânime da Corte Eleitoral capixaba barrando o pedido de Gilvan.</p>
+<h2>Três decisões que não podem ser misturadas</h2>
+<p>A controvérsia pode ser compreendida a partir de três pontos distintos.</p>
+<p>O primeiro é a condenação criminal por violência política de gênero. Ela continua de pé.</p>
+<p>O segundo é a liminar concedida por Nunes Marques em julho. A medida existiu, foi provisória e acabou revogada por Cueva em agosto.</p>
+<p>O terceiro é o registro eleitoral de 2026. O TRE-ES analisou o pedido e o indeferiu por unanimidade nesta sexta-feira.</p>
+<p>Misturar essas três etapas cria uma aparência jurídica que já não corresponde ao processo.</p>
+<p>Quem assiste apenas ao vídeo de Gilvan ouve expressões como “dúvida razoável”, “imunidade parlamentar” e “suspensão dos efeitos eleitorais”. Quem acompanha a tramitação completa também encontra as palavras “revogo a medida liminar”, “restabelecendo-se os efeitos eleitorais” e “registro indeferido”.</p>
+<p>É essa segunda parte que define a realidade atual.</p>
+<p>A omissão das decisões de agosto e setembro transforma um documento vencido em certificado de candidatura regular. O efeito político é imediato, principalmente para o eleitor que acompanha a disputa por vídeos curtos, discursos de palanque e publicações nas redes sociais.</p>
+<h2>O impacto sobre o voto conservador</h2>
+<p>O caso ultrapassa a situação pessoal de Gilvan e produz consequências dentro do próprio campo conservador capixaba.</p>
+<p>Mesmo com a liminar revogada e o registro indeferido, o deputado segue se apresentando como candidato à reeleição, participando de atos políticos, ocupando espaço de campanha e concentrando a atenção de eleitores que acreditam que sua presença na disputa já está juridicamente garantida.</p>
+<p>Não está.</p>
+<p>A campanha eleitoral obedece a um calendário apertado. Estrutura partidária, propaganda, mobilização, militância e votos são recursos limitados. Quando toda essa energia é direcionada a uma candidatura cujo registro foi recusado pela Justiça Eleitoral, o risco político deixa de atingir apenas o candidato.</p>
+<p>Ele alcança a chapa proporcional, os demais nomes do partido e o eleitor que toma sua decisão com base em uma informação incompleta.</p>
+<p>A impressão de que “Kássio já liberou” pode levar parte do eleitorado a ignorar que a liminar foi revogada e que, depois disso, o próprio TRE-ES indeferiu a candidatura. Pode também manter a base política mobilizada em torno de uma segurança jurídica que não existe no momento.</p>
+<p>O mérito político da discussão é outro assunto. O eleitor pode discordar de Camila Valadão, rejeitar o PSOL, questionar a interpretação dada ao artigo 326-B ou considerar excessiva a condenação. Também pode apoiar Gilvan e defender que o TSE reforme a decisão do tribunal capixaba.</p>
+<p>Nenhuma dessas posições muda a cronologia documental.</p>
+<p>Em julho, houve uma liminar.</p>
+<p>Em agosto, a liminar foi revogada.</p>
+<p>Em setembro, o registro foi indeferido.</p>
+<h2>O documento antigo e a realidade de hoje</h2>
+<p>O vídeo de Gilvan entrega ao eleitor um pedaço verdadeiro de uma história incompleta.</p>
+<p>A decisão de Nunes Marques existiu e levantou dúvidas jurídicas relevantes. Mas foi provisória. Seus efeitos estavam condicionados à análise posterior do processo. Essa análise ocorreu, a medida foi revogada e as consequências eleitorais da condenação foram restabelecidas.</p>
+<p>Depois disso, o TRE-ES examinou o registro e fechou a porta por unanimidade.</p>
+<p>Gilvan pode continuar recorrendo. Pode contestar a condenação. Pode sustentar que houve erro na interpretação da imunidade parlamentar ou dos elementos do crime de violência política de gênero. O que não corresponde ao estado atual do processo é apresentar a liminar de julho como se ainda estivesse em vigor ou como se tivesse garantido definitivamente sua presença na eleição.</p>
+<p>O eleitor capixaba tem direito à linha do tempo completa.</p>
+<p>Tem direito de saber que a condenação permanece.</p>
+<p>Tem direito de saber que a liminar caiu.</p>
+<p>E tem direito de saber que, nesta sexta-feira, sete semanas depois da decisão lida no vídeo, o Tribunal Regional Eleitoral do Espírito Santo indeferiu por unanimidade o registro da candidatura.</p>
+<p>Na política, um recorte pode produzir aplausos. Nos autos, porém, quem manda é a decisão que continua valendo.</p>
+<p><strong>E a decisão que vale hoje diz exatamente o contrário do vídeo: Gilvan da Federal está com o registro barrado.</strong></p>`,
+    autor: "Redação Notícia ES",
+    aeo: [
+      { pergunta: "Gilvan da Federal está com a candidatura liberada?", resposta: "Não. O TRE-ES indeferiu por unanimidade o registro de sua candidatura nesta sexta-feira, 11 de setembro de 2026." },
+      { pergunta: "O que aconteceu com a liminar de Kássio Nunes Marques?", resposta: "A liminar foi concedida em 14 de julho, mas acabou revogada pelo ministro Ricardo Villas Bôas Cueva em 26 de agosto." },
+      { pergunta: "Nunes Marques absolveu Gilvan da Federal?", resposta: "Não. A decisão de julho suspendeu temporariamente os efeitos eleitorais da condenação, mas não absolveu Gilvan nem anulou a condenação." },
+      { pergunta: "Por que o TRE-ES indeferiu o registro?", resposta: "A Corte aplicou os efeitos da condenação colegiada por violência política de gênero, que haviam sido restabelecidos após a revogação da liminar." },
+      { pergunta: "Gilvan ainda pode recorrer?", resposta: "Sim. Ele ainda pode recorrer ao Tribunal Superior Eleitoral, mas o estado atual do processo é de registro indeferido." }
+    ],
+    entidades: [
+      { tipo: "Person", nome: "Gilvan da Federal" },
+      { tipo: "Person", nome: "Kássio Nunes Marques" },
+      { tipo: "Person", nome: "Ricardo Villas Bôas Cueva" },
+      { tipo: "Person", nome: "Isabella Rossi Naumann Chaves" },
+      { tipo: "Organization", nome: "Tribunal Regional Eleitoral do Espírito Santo" },
+      { tipo: "Organization", nome: "Tribunal Superior Eleitoral" }
+    ],
+    fontesTexto: [
+      "Decisão liminar de 14 de julho de 2026, citada na reportagem.",
+      "Decisão de 26 de agosto de 2026 no HC nº 0601229-29/ES, citada na reportagem.",
+      "Julgamento do TRE-ES de 11 de setembro de 2026, conforme as informações fornecidas à redação."
+    ],
+    editorial: true
+  },
+  {
     id: 11092026151800,
     slug: "flavio-ganhou-dinheiro-vorcaro-documentos-dark-horse",
     titulo: "Flávio ganhou dinheiro de Vorcaro? A resposta que manchetes e inteligências artificiais estão omitindo",
