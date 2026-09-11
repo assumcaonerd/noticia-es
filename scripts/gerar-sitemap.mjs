@@ -5,6 +5,15 @@ import path from 'node:path';
 const RAIZ = process.cwd();
 const DIR = path.join(RAIZ, 'm');
 const SITE = 'https://noticiaes.com.br';
+const PAGINAS_INSTITUCIONAIS = [
+  '/',
+  '/sobre.html',
+  '/expediente.html',
+  '/contato.html',
+  '/anuncie.html',
+  '/politica-de-privacidade.html',
+  '/termos-de-uso.html'
+];
 
 function esc(s = '') {
   return String(s)
@@ -66,7 +75,10 @@ for (const arquivo of arquivos) {
 const itens = [...itensPorCanonical.values()];
 itens.sort((a, b) => String(b.mod).localeCompare(String(a.mod)));
 
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${itens.map(i => `  <url><loc>${esc(i.canonical)}</loc><lastmod>${esc(i.mod)}</lastmod></url>`).join('\n')}\n</urlset>\n`;
+const paginasFixas = PAGINAS_INSTITUCIONAIS.map(pagina =>
+  `  <url><loc>${esc(SITE + pagina)}</loc><lastmod>${new Date().toISOString()}</lastmod></url>`
+).join('\n');
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${paginasFixas}\n${itens.map(i => `  <url><loc>${esc(i.canonical)}</loc><lastmod>${esc(i.mod)}</lastmod></url>`).join('\n')}\n</urlset>\n`;
 await fs.writeFile(path.join(RAIZ, 'sitemap.xml'), sitemap, 'utf8');
 
 const limite = Date.now() - 2 * 24 * 60 * 60 * 1000;

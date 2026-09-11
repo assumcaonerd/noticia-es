@@ -20,6 +20,31 @@
     window.dataLayer.push(arguments);
   };
 
+  // Consentimento negado por padrão até a escolha do visitante.
+  window.gtag('consent', 'default', {
+    ad_storage: 'denied',
+    analytics_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    wait_for_update: 500
+  });
+
+  try {
+    const escolha = JSON.parse(localStorage.getItem('nes_privacy_consent') || 'null');
+    if (escolha && escolha.analytics) {
+      window.gtag('consent', 'update', { analytics_storage: 'granted' });
+    }
+    if (escolha && escolha.ads) {
+      window.gtag('consent', 'update', {
+        ad_storage: 'granted',
+        ad_user_data: 'granted',
+        ad_personalization: 'granted'
+      });
+    }
+  } catch (e) {
+    // O site permanece funcional mesmo se o armazenamento local estiver bloqueado.
+  }
+
   const tag = document.createElement('script');
   tag.async = true;
   tag.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
@@ -36,6 +61,20 @@
     if (!eventName || !window.NOTICIAES_ANALYTICS.ready) return;
     window.gtag('event', String(eventName), params || {});
   };
+})();
+
+/*
+ * Camada única de monetização, publicidade direta e privacidade.
+ * Carregada em todas as páginas que já usam o Analytics.
+ */
+(function () {
+  'use strict';
+  if (window.NOTICIAES_MONETIZATION_LOADED) return;
+  window.NOTICIAES_MONETIZATION_LOADED = true;
+  const script = document.createElement('script');
+  script.src = '/monetization.js?v=20260911-1';
+  script.defer = true;
+  document.head.appendChild(script);
 })();
 
 /*
