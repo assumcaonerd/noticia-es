@@ -7,7 +7,7 @@ const materiasEditoriais37 = [
     categoria: "Política Nacional",
     data: "2026-09-10",
     publicadoEm: "2026-09-10T21:44:00-03:00",
-    imagem: "https://i.ibb.co/N6qRWTmp/Chat-GPT-Image-10-de-set-de-2026-21-41-45.png",
+    imagem: "https://noticiaes.com.br/assets/og/o-calhorda-tem-nome.png",
     legendaImagem: "Declaração registrada em cartório por Karina Ferreira da Gama e apreendida pela PF cita Breno Pires, da revista piauí",
     resumo: "Documento registrado em cartório por Karina Gama e apreendido pela PF cita Breno Pires em relato sobre pressão por delação no caso Dark Horse.",
     conteudo: `<p><strong>O nome está no papel. Breno Pires, repórter da revista <em>piauí</em>, aparece numa declaração registrada em cartório por Karina Ferreira da Gama no dia 4 de setembro e encontrada nesta quinta-feira, 10 de setembro, pela Polícia Federal durante as buscas da Operação Make Up. No trecho intitulado “Do contato posterior do jornalista”, Karina afirma que Pires já havia perguntado se ela faria delação premiada, voltou ao assunto em 3 de setembro e disse que ela estaria “servindo de bucha de canhão para o candidato”. Segundo a declaração, ele também teria dado a entender que, sem colaboração, ela poderia se tornar alvo de medida judicial.</strong></p>
