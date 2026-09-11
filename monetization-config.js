@@ -1,5 +1,4 @@
 window.NOTICIAES_MONETIZATION = Object.freeze({
-  // Preencher após a aprovação do Google AdSense: ca-pub-0000000000000000
-  adsenseClient: '',
+  adsenseClient: 'ca-pub-7706889080150817',
   autoAds: true
 });
