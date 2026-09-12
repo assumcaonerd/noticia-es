@@ -220,8 +220,8 @@
 
   function urlParaX(urlCanonica) {
     if (urlCanonica === 'https://noticiaes.com.br/m/flavio-sob-suspeita-outro-lado-sob-eufemismo-estadao.html') {
-      return 'https://noticiaes.com.br/x/flavio-sob-suspeita-outro-lado-sob-eufemismo-estadao.html';
-    }
+      return 'https://noticiaes.com.br/x/flavio-sob-suspeita-estadao-card-2.html';
+}
     return urlCanonica;
   }
 
