@@ -99,7 +99,7 @@ const materiasEditoriais41 = [
       { tipo: "Organization", nome: "Banco Master" }
     ],
     aeo: [
-      { pergunta: "O que a coluna de Celso Rocha de Barros afirmou?", resposta: "A coluna afirmou que Flávio Bolsonaro e Alexandre de Moraes teriam recebido promessas de valores do mesmo esquema ligado ao Banco Master e os classificou como cúmplices caso as acusações sejam verdadeiras." },
+      { pergunta: "O patrocínio do filme e o contrato do escritório de Viviane Barci de Moraes são a mesma coisa?", resposta: "Não. São situações diferentes. De um lado, há valores negociados para financiar o filme Dark Horse. Do outro, há um contrato de R$ 130 milhões entre o Banco Master e o escritório de Viviane Barci de Moraes. A matéria critica a Folha por juntar as duas situações sob a expressão ‘mesma grana do mesmo esquema’." },
       { pergunta: "Qual é a crítica central desta matéria à Folha?", resposta: "A matéria critica a equiparação entre recursos negociados para o filme Dark Horse e um contrato milionário ligado ao escritório da esposa de Alexandre de Moraes, além da omissão das relações de Daniel Vorcaro com o governo Lula." },
       { pergunta: "O que a Veja publicou sobre Vorcaro e o governo Lula?", resposta: "A Veja divulgou mensagem em que Daniel Vorcaro dizia ser próximo do governo, comparava essa proximidade à dos irmãos Batista e pedia que o conteúdo fosse enviado a Lula e à base aliada." },
       { pergunta: "A matéria ignora a investigação sobre Flávio Bolsonaro?", resposta: "Não. O texto registra que há investigação sobre mensagens, encontros e valores relacionados ao filme Dark Horse e cobra esclarecimentos sobre cada parcela e documento." }
