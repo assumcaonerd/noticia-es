@@ -50,7 +50,7 @@ jobs:
               s = p.read_text(encoding='utf-8')
               s = s.replace(
                   'https://i.ibb.co/N6qRWTmp/Chat-GPT-Image-10-de-set-de-2026-21-41-45.png',
-                  'https://noticiaes.com.br/assets/og/o-calharda-tem-nome.png'
+                  'https://noticiaes.com.br/assets/og/o-calhorda-tem-nome.png'
               )
               p.write_text(s, encoding='utf-8')
           PY
