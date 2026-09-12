@@ -113,5 +113,5 @@ jobs:
             exit 0
           fi
           git commit -m "seo: hospeda capas OG e atualiza páginas"
-          git pull --rebase origin main
+          git pull --rebase -X theirs origin main
           git push origin main
