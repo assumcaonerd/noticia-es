@@ -8,6 +8,64 @@
 
 const noticias = [
   {
+    id: 12092026100200,
+    slug: "flavio-sob-suspeita-outro-lado-sob-eufemismo-estadao",
+    titulo: "Flávio sob suspeita. O outro lado, sob eufemismo",
+    categoria: "Política Nacional",
+    data: "2026-09-12",
+    publicadoEm: "2026-09-12T10:02:00-03:00",
+    imagem: "https://noticiaes.com.br/assets/og/flavio-sob-suspeita-estadao-eufemismo.jpg",
+    imagemX: "https://noticiaes.com.br/assets/og/flavio-sob-suspeita-estadao-eufemismo.jpg",
+    imagemLargura: 1200,
+    imagemAltura: 675,
+    imagemXLargura: 1200,
+    imagemXAltura: 675,
+    legendaImagem: "Flávio sob suspeita. O outro lado, sob eufemismo",
+    resumo: "Editorial tendencioso do Estadão transforma inquérito contra Flávio Bolsonaro em sentença moral e descredencia o jornalismo brasileiro. No mesmo ciclo, filho de Lula, líder do governo e visitas de Vorcaro ao Planalto não renderam a mesma capa",
+    conteudo: `<p>SÃO PAULO / BRASÍLIA — No sábado, 12 de setembro de 2026, o jornal O Estado de S. Paulo publicou o editorial “Flávio é um candidato sob suspeita”. O texto, assinado pela seção institucional Notas &amp; Informações, afirma que o candidato do PL à Presidência é investigado pela Polícia Federal, com autorização do ministro André Mendonça, por associação com Daniel Vorcaro no financiamento do filme Dark Horse. Aponta pedido de R$ 134 milhões, recebimento de mais de R$ 60 milhões, encontro com o banqueiro ainda de tornozeleira e conclui que Flávio “não reúne condições morais nem sequer para disputar cargos eletivos”. O recado foi ao ar no X do próprio jornal na manhã deste sábado.</p>
+<p>O fato existe. A operação de linguagem é outra coisa.</p>
+<p>O País precisa saber o que pesa sobre quem pede voto. Essa frase, no fechamento do editorial, está correta. O problema começa quando o mesmo critério some no corredor ao lado.</p>
+<h2>O que o Estadão escreveu, palavra por palavra</h2>
+<p>O lead não descreve um inquérito. Ele decreta. Flávio “é oficialmente investigado”. A PF “apura se cometeu” corrupção, lavagem de dinheiro e evasão de divisas. Em seguida o jornal troca o condicional pelo adjetivo: Vorcaro vira “banqueiro vigarista”; o dinheiro, “sujo”; a defesa de Flávio, “dupla mentira”; o candidato, “cínico”; o episódio, “falência ética”.</p>
+<p>Há um salto de categoria. Investigado não é condenado. Autorização de inquérito não é sentença. O editorial trata os dois como se fossem a mesma peça.</p>
+<p>O texto ainda amarra o filme a gastos de “figuras de proa do bolsonarismo”, ao “sustento da vida de playboy” de Eduardo Bolsonaro nos Estados Unidos, a um fundo no Texas e à suspeita, “ainda a ser investigada”, de caixa dois de campanha. Cita emendas do deputado Mario Frias e a Operação Make Up. Louva Edson Fachin por pedir a quebra parcial de sigilo. Fecha com a pergunta sobre a “irmandade” entre Flávio e Vorcaro, a partir do áudio em que o senador chama o banqueiro de “irmão”.</p>
+<p>Nada disso é invenção do jornal. Os elementos circulam no inquérito. O que o Estadão fez foi escolher o grau máximo de verbo para um lado da disputa e guardar o dicionário para o outro.</p>
+<h2>A série não começou ontem</h2>
+<p>Quem lê o Estadão de 2026 já conhece a cadência. Em maio, o editorial “Isto é Flávio Bolsonaro” recapitulou rachadinha, milícia e imóveis em dinheiro vivo e disse que o caso Master “não torna Flávio pior do que ele já era”. Em julho, “Flávio deve explicações ao País” e “Quem sai aos seus não degenera”. Em agosto, “A página que Flávio não virou”. Em setembro, de novo o mesmo alvo, agora com título de urna: candidato sob suspeita.</p>
+<p>Repetição não é pecaminosa. Jornalismo de opinião pode martelar. O teste é outro: o martelo sobe com a mesma força quando o sobrenome muda?</p>
+<h2>O caso espelho que o editorial desta sábado não cabeçalho</h2>
+<p>Um dia antes, 11 de setembro, a Folha publicou editorial pedindo luz nos inquéritos do Master e do INSS. O texto da concorrente admite o ponto que o Estadão desta sábado evitou no título: depois da quebra parcial de sigilo, veio a público a decisão de investigar Flávio; “em outro inquérito nas sombras está o filho de Lula”.</p>
+<p>Fábio Luís Lula da Silva, o Lulinha, acumula inquéritos da PF por suspeita de tráfico de influência e corrupção ligados ao entorno do INSS, à Dataprev e a contratos federais. O nome aparece em diálogos do operador Antônio Camilo Antunes, o Careca do INSS, com a lobista Roberta Luchsinger. Há menção a pagamento de R$ 300 mil a empresa dela e à expressão “o filho do rapaz”. Lula disse, em dezembro de 2025, que “se tiver filho meu metido nisso, será investigado”. Em agosto de 2026, no Jornal Nacional, o presidente defendeu o filho, tratou conversas telefônicas como “ilações” e reconheceu como “totalmente errado” o fato de o ex-chefe de gabinete Marco Aurélio Santana Ribeiro, o Marcola, ter recebido recursos da mesma lobista. Marcola foi exonerado em julho. O Estadão cobriu o caso na coluna política. Não publicou editorial dizendo que Lula “não reúne condições morais” para disputar a reeleição.</p>
+<p>O Master também não é propriedade exclusiva de um clã. Reportagem do próprio Estadão, ainda em 2025, descreveu Vorcaro transitando de aliados de Bolsonaro a ministros de Lula. O banco contratou Guido Mantega e Ricardo Lewandowski como consultores. Mantega intermediou encontro de Vorcaro com Lula. Registros do GSI apontam o banqueiro no Palácio do Planalto em 4 de dezembro de 2023, 1º de março de 2024 e 3 de abril de 2024.</p>
+<p>Na sexta, 11 de setembro de 2026, a Veja noticiou relatório da PF com hipótese criminal contra o senador Jaques Wagner, então figura central da base de Lula no Senado: pedido e recebimento de vantagens de Augusto Ferreira Lima, sócio de Vorcaro, entre elas apartamento de R$ 2,45 milhões e transferências de ao menos R$ 3,5 milhões. Há áudio de Wagner, de agosto de 2024, pedindo para “saber como estavam as coisas do banco”. O FGC, citado pelo Estadão como prova de que o dinheiro de Vorcaro não é “privado”, já havia desembolsado dezenas de bilhões para cobrir o rombo. Esse prejuízo também passou pelo salão de quem frequentava o Planalto. O editorial de sábado não dedica a Wagner, a Mantega ou às visitas oficiosas a mesma sentença de “falência ética”.</p>
+<p>A regra anunciada pelo jornal é uma só: o eleitor tem o direito de saber o que pesa contra quem pretende governá-lo. Aplicada pela metade, a regra vira campanha.</p>
+<h2>Como o verbo muda de lado</h2>
+<p>Vale a régua seca, sem teoria da conspiração.</p>
+<p>Para Flávio, o Estadão usa: vigarista, dinheiro sujo, cínico, dupla mentira, falência ética, sem condições morais, mixórdia entre público e privado.</p>
+<p>Para o entorno de Lula no mesmo ciclo, o vocabulário institucional costuma ser outro: “suspeita na antessala”, “encruzilhada”, “ilações”, “o presidente defende o filho”, “reconhece que é errado”. O alvo recebe adjetivo de caráter. O incumbente recebe substantivo de processo.</p>
+<p>Isso não precisa de ordem partidária por escrito. Basta a série. Quatro, cinco editoriais seguidos no mesmo nome, no mesmo ano eleitoral, com o mesmo salto de inquérito para indignidade. Do outro lado, cobertura fria, coluna, pergunta. Raramente a capa moral.</p>
+<p>O jornal acerta ao lembrar que recurso do FGC saiu do bolso de correntista, servidor e aposentado. Erra ao insinuar que essa origem só contamina quem pediu dinheiro para filme. A mesma origem circulou em consultoria milionária, visita a palácio e, segundo a PF, em vantagem a líder do governo. Se o dinheiro é “fruto da maior fraude financeira de que o País já teve notícia”, a frase vale para todos os que se sentaram à mesa. Ou não vale para ninguém até haver condenação.</p>
+<h2>O que o editorial esconde sem mentir</h2>
+<p>Técnica clássica de omissão seletiva: cada frase isolada pode ser defendida. O conjunto não.</p>
+<p>O texto não diz que Flávio foi condenado. Diz que é “gravíssimo” um favorito concorrer “na condição de investigado”. A gravidade, porém, só opera numa direção. Lula disputa a reeleição com filho sob três frentes de apuração, ex-chefe de gabinete admitindo recebimento de lobista do INSS e base parlamentar citada em relatório do Master. O editorial de sábado não dedica um parágrafo a esse espelho.</p>
+<p>Não diz que Mendonça é relator dos dois mundos. Diz que a autorização de Mendonça “desmonta” a tese de perseguição, como já havia escrito em julho. Omitir que o mesmo ministro segura inquéritos que tocam o clã Lula é escolha de enquadramento.</p>
+<p>Não inventa o áudio do “irmão”. Usa o áudio como prova de caráter e para no primeiro irmão. Vorcaro colecionou irmãos de ocasião nos dois campos. O Estadão já mapeou isso em reportagem. O editorial desta sábado finja amnésia.</p>
+<p>Há ainda o timing. Fachin pede levantamento de sigilo. Sai o recorte Flávio. A Folha, no dia anterior, alerta para vazamento seletivo perto da eleição. O Estadão transforma o recorte em juízo de aptidão moral. Quem controla a torneira do sigilo ganha a manchete. Quem fica no escuro vira nota.</p>
+<h2>Interesse à vista</h2>
+<p>O Estado de S. Paulo não é panfleto de partido. É jornal de elite paulista, com linha histórica de desconfiança do bolsonarismo e de tutela do “centro responsável”. Editoriais unsigned de Notas &amp; Informações funcionam como voz da casa. A casa decidiu que o risco eleitoral a ser moralizado em setembro de 2026 se chama Flávio.</p>
+<p>Isso explica a cadência. Explica o título. Explica por que “caráter ainda importa” aparece no parágrafo em que só um caráter está em julgamento.</p>
+<p>Ninguém precisa alegar que o dono do jornal recebeu envelope. Basta ler a prateleira de 2026: o mesmo veículo que cobra de Flávio “explicações convincentes” aceita, no caso do incumbente, a coreografia do “se meu filho estiver metido, será investigado”, repetida sem o complemento que o próprio editorial exige do adversário: prestação de contas agora, com documento, não com frase de café da manhã.</p>
+<h2>A regra que deveria valer para os dois</h2>
+<p>Se investigado não pode ser candidato “nem sequer” a cargo eletivo, a frase atinge Flávio e atinge o campo de Lula no mesmo movimento. Ou a frase é demagogia de campanha.</p>
+<p>Se dinheiro de Vorcaro é prejuízo de aposentado e não recurso privado, a mesa do Planalto, a consultoria de ex-ministros e o relatório sobre Wagner entram no mesmo balcão em que entrou o filme Dark Horse.</p>
+<p>Se o eleitor tem o direito de ir à urna sabendo o que pesa contra quem pede voto, o sigilo seletivo é o contrário desse direito. Quebrar metade do envelope e transformar a metade visível em editorial de desqualificação moral não é serviço ao eleitor. É serviço ao recorte.</p>
+<p>Flávio deve explicações sobre os R$ 60 milhões, o encontro com Vorcaro, o fundo no Texas, as emendas e a fronteira entre filme e campanha. Deve. Ponto. Lulinha deve explicações sobre o INSS, a Dataprev e a lobista. Marcola deve sobre o dinheiro na antessala do presidente. Wagner deve sobre o apartamento e o áudio do banco. Lula deve sobre as visitas de Vorcaro ao Palácio e sobre o padrão de verbo que aplica ao filho e cobra do adversário.</p>
+<p>O Estadão desta sábado fez só a primeira lista. Chamou isso de caráter.</p>
+<p>Caráter, de fato, ainda importa. Inclusive o do jornal que escolhe contra quem o caráter será medido em voz alta, e contra quem será medido em voz baixa, um dia antes da urna.</p>`,
+    autor: "Redação Notícia ES",
+    editorial: true
+  },
+  {
     id: 11092026190600,
     slug: "liminar-caiu-registro-barrado-gilvan-da-federal-tre-es",
     titulo: "A liminar caiu, o registro foi barrado: o que Gilvan da Federal não contou no vídeo",
