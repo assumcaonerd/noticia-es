@@ -7,8 +7,8 @@ const materiasEditoriais39 = [
     categoria: "Política Nacional",
     data: "2026-09-12",
     publicadoEm: "2026-09-12T11:38:00-03:00",
-    imagem: "https://i.ibb.co/R44BNMW6/Chat-GPT-Image-12-de-set-de-2026-11-36-53.png",
-    imagemX: "https://i.ibb.co/R44BNMW6/Chat-GPT-Image-12-de-set-de-2026-11-36-53.png",
+    imagem: "https://noticiaes.com.br/assets/og/mesma-sala-mesmo-crime-icl-inss.png",
+    imagemX: "https://noticiaes.com.br/assets/og/mesma-sala-mesmo-crime-icl-inss.png",
     legendaImagem: "Mesma sala, mesmo crime? ICL transforma coworking de capacete em QG do INSS e a esquerda corre para o STF",
     resumo: "Endereço cadastral no Connect Towers vira “conexão direta” da família Bolsonaro com o Careca. No prédio, a porta 2601 estava fechada. O advogado falou em coworking. A viagem de Lulinha em primeira classe, paga pelo mesmo operador, saiu com outro verbo.",
     conteudo: `<p>Na sexta-feira 11 de setembro de 2026, o ICL Notícias publicou uma “exclusiva” assinada por Alice Maciel: a Bravo Grafeno, empresa de capacetes com Flávio Bolsonaro e Carlos Bolsonaro no quadro, está registrada na sala 2601, bloco D, do Edifício Connect Towers, em Águas Claras, no Distrito Federal, o mesmo endereço cadastral de pelo menos 16 empresas ligadas a Antonio Carlos Camilo Antunes, o Careca do INSS. O texto soma a isso o contador Alexandre Caetano dos Reis, da Voga Serviços Contábeis, preso desde dezembro de 2025 e sócio do Careca numa offshore nas Ilhas Virgens Britânicas. A conclusão do portal não espera prova de caixa: “Esta revelação conecta diretamente a família Bolsonaro ao Careca do INSS.”</p>
