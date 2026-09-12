@@ -85,7 +85,9 @@ const materiasEditoriais41 = [
 
 <p>O que não pode é a Folha aplicar a Flávio o verbo da organização criminosa familiar e a Moraes o verbo da ressalva histórica. Não pode chamar de “mesma grana” o que ela mesma descreve como coisas diferentes (filme de um lado, compra tardia de juiz do outro) e depois usar a fusão para explicar a pesquisa. Não pode, no mesmo sábado em que a Veja estampa Vorcaro como quase-Batista do lulismo, fingir que o esquema tem dois sócios e um só endereço ideológico.</p>
 
-<p>O critério único é simples e é o contrário da coluna de hoje. Publique o contrato do escritório com o mesmo corpo de letra do roteiro do filme. Publique a mensagem do Planalto com o mesmo corpo de letra da figurinha de Trump. Chame de investigação o que é investigação e de sentença o que ainda não é. E, se for para explicar 2026, coloque todos os nomes no título.</p>`,
+<p>O critério único é simples e é o contrário da coluna de hoje. Publique o contrato do escritório com o mesmo corpo de letra do roteiro do filme. Publique a mensagem do Planalto com o mesmo corpo de letra da figurinha de Trump. Chame de investigação o que é investigação e de sentença o que ainda não é. E, se for para dizer que dois homens “receberam a mesma grana do mesmo esquema”, comece listando todos os que receberam. Inclusive os que não servem para o título de sábado.</p>
+
+<p>Até lá, o que a Folha publicou não é a chave da eleição. É o manual de como uma coluna transforma dois inquéritos em um só adversário.</p>`,
     autor: "Redação Notícia ES",
     entidades: [
       { tipo: "Person", nome: "Celso Rocha de Barros" },
