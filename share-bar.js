@@ -218,6 +218,13 @@
     });
   }
 
+  function urlParaX(urlCanonica) {
+    if (urlCanonica === 'https://noticiaes.com.br/m/flavio-sob-suspeita-outro-lado-sob-eufemismo-estadao.html') {
+      return 'https://noticiaes.com.br/x/flavio-sob-suspeita-outro-lado-sob-eufemismo-estadao.html';
+    }
+    return urlCanonica;
+  }
+
   function iniciar() {
     if (document.querySelector('.nes-share-rail')) return;
 
@@ -235,6 +242,7 @@
     const urlCanonica = canonicalDaPagina();
     const titulo = tituloDaMateria();
     const url = encodeURIComponent(urlCanonica);
+    const urlX = encodeURIComponent(urlParaX(urlCanonica));
     const texto = encodeURIComponent(titulo);
     const textoWhatsApp = encodeURIComponent(titulo + ' ' + urlCanonica);
 
@@ -245,7 +253,7 @@
     const home = criarLink('nes-share-home', 'Ir para a página inicial do Notícia ES', 'https://noticiaes.com.br/', ICONES.home);
     const facebook = criarLink('nes-share-facebook', 'Compartilhar no Facebook', 'https://www.facebook.com/sharer/sharer.php?u=' + url, ICONES.facebook);
     const whatsapp = criarLink('nes-share-whatsapp', 'Compartilhar no WhatsApp', 'https://wa.me/?text=' + textoWhatsApp, ICONES.whatsapp);
-    const x = criarLink('nes-share-x', 'Compartilhar no X', 'https://twitter.com/intent/tweet?text=' + texto + '&url=' + url, ICONES.x);
+    const x = criarLink('nes-share-x', 'Compartilhar no X', 'https://twitter.com/intent/tweet?text=' + texto + '&url=' + urlX, ICONES.x);
     const instagram = criarLink('nes-share-instagram', 'Compartilhar no Instagram', 'https://www.instagram.com/', ICONES.instagram);
     const copiar = criarBotao('nes-share-link', 'Copiar link da notícia', ICONES.link);
 
