@@ -1,0 +1,50 @@
+name: Finalizar capa IBGE temporário
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/finalizar-capa-ibge-temp.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  finalizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Usar PNG real na matéria e nos metadados
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          old = 'https://noticiaes.com.br/assets/og/nem-o-ibge-acredita-no-ibge.jpg'
+          new = 'https://noticiaes.com.br/assets/og/nem-o-ibge-acredita-no-ibge.png'
+          for nome in ['editorial-45.js', 'm/nem-o-ibge-acredita-no-ibge.html']:
+              p = Path(nome)
+              if p.exists():
+                  s = p.read_text(encoding='utf-8').replace(old, new)
+                  s = s.replace('<meta property="og:image:type" content="image/jpeg">', '<meta property="og:image:type" content="image/png">')
+                  p.write_text(s, encoding='utf-8')
+          PY
+          rm -f assets/og/nem-o-ibge-acredita-no-ibge.jpg
+
+      - name: Limpar workflows temporários e publicar
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Notícia ES Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -f .github/workflows/corrigir-capa-ibge-temp.yml
+          rm -f .github/workflows/finalizar-capa-ibge-temp.yml
+          git add -A editorial-45.js m/nem-o-ibge-acredita-no-ibge.html assets/og .github/workflows
+          git commit -m "fix: usa PNG correto na capa e metadados do IBGE"
+          git pull --rebase -X theirs origin main
+          git push origin main
