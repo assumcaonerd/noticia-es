@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 51850)
+Total output lines: 1011
+
 /*
   NOTÍCIA ES - BANCO DE NOTÍCIAS EM ARQUIVO ESTÁTICO
   ==================================================
@@ -470,48 +473,7 @@ const noticias = [
 <p>Na política, a imagem frequentemente chega ao eleitor muito antes dos autos.</p>
 <p>Por isso, a preocupação com possíveis vazamentos seletivos ganha relevância. Informações fragmentadas, retiradas de contexto e divulgadas durante a campanha podem provocar um estrago eleitoral impossível de reparar, ainda que posteriormente nenhuma acusação seja confirmada.</p>
 <h2>Uma disputa anterior pela relatoria</h2>
-<p>Outro elemento que aumenta a desconfiança é a alegação de que já existia uma apuração sobre o mesmo objeto sob responsabilidade de André Mendonça.</p>
-<p>Segundo a narrativa apresentada, teria ocorrido uma movimentação destinada a deslocar o tema para Flávio Dino. Caso essa sobreposição seja confirmada, será necessário esclarecer por que duas frentes de apuração alcançaram matérias semelhantes e qual foi o critério utilizado para definir a relatoria.</p>
-<p>A competência do relator não é uma formalidade sem importância. Ela determina quem autoriza buscas, analisa pedidos, controla o sigilo e decide o alcance das medidas investigativas.</p>
-<p>Em um caso com repercussão eleitoral direta, qualquer dúvida sobre a distribuição do processo enfraquece a confiança pública. A aparência de imparcialidade também integra a legitimidade da Justiça.</p>
-<h2>As conexões políticas que aumentam a pressão</h2>
-<p>Andrei Rodrigues foi responsável pela segurança de Lula durante a campanha presidencial de 2022. Flávio Dino ocupou o Ministério da Justiça no governo Lula e foi indicado pelo presidente para uma cadeira no Supremo Tribunal Federal.</p>
-<p>Esses vínculos anteriores não demonstram, por si mesmos, que exista interferência política na Polícia Federal ou nas decisões de Dino. Autoridades não perdem automaticamente a capacidade de agir com independência por terem ocupado cargos em determinado governo.</p>
-<p>Ainda assim, essas relações tornam indispensável um grau superior de cautela.</p>
-<p>Quando um ex-ministro indicado por Lula ao Supremo restabelece no cargo um diretor da PF que trabalhou na segurança do próprio Lula, e a corporação realiza no dia seguinte uma operação contra pessoas ligadas ao campo político do adversário que cresce nas pesquisas, a população inevitavelmente exige explicações.</p>
-<p>A resposta não pode se resumir a apelos genéricos à autonomia institucional. É preciso apresentar fundamentos concretos, demonstrar a origem das provas e esclarecer por que as medidas foram consideradas urgentes justamente agora.</p>
-<h2>A acusação de seletividade</h2>
-<p>Os críticos da atuação da Polícia Federal também apontam uma diferença de velocidade entre investigações.</p>
-<p>De acordo com o material fornecido, a PF comandada por Andrei Rodrigues avançou sobre o empresário Daniel Vorcaro e sobre o esquema relacionado ao INSS. Ao mesmo tempo, apurações que poderiam alcançar Lulinha, emendas associadas ao Centrão governista ou encontros constrangedores envolvendo ministros seguiriam em outro ritmo.</p>
-<p>Flávio Dino também é acusado de ter invalidado, no contexto da CPI do INSS, uma quebra de sigilo considerada politicamente incômoda para o Palácio do Planalto. Agora, o caso Dark Horse avança com dezenas de mandados.</p>
-<p>A simples diferença de velocidade entre investigações não comprova favorecimento. Cada procedimento tem provas, dificuldades e necessidades próprias. Porém, quando essa diferença coincide repetidamente com interesses políticos, a suspeita pública deixa de ser uma reação irracional.</p>
-<p>Justiça seletiva é aquela que escolhe quem será alcançado, em que momento e com qual intensidade. Uma democracia saudável precisa impedir até mesmo a aparência desse tipo de escolha.</p>
-<h2>O alerta feito por Flávio Bolsonaro</h2>
-<p>Antes da operação, Flávio Bolsonaro afirmou que Alexandre de Moraes, Davi Alcolumbre e Flávio Dino estariam articulando uma reação contra André Mendonça e uma tentativa de desgaste eleitoral.</p>
-<p>O senador acusou autoridades de armarem uma farsa contra adversários políticos e de agirem como se jamais fossem responsabilizadas.</p>
-<p>A sequência posterior foi interpretada por seus aliados como confirmação desse alerta: primeiro, Andrei Rodrigues foi reconduzido; depois, a Polícia Federal realizou as buscas; agora, cresce a expectativa sobre quais informações poderão ser divulgadas nos próximos dias.</p>
-<p>Essa leitura continua sendo uma acusação política e precisa ser apresentada como tal. Até aqui, o material fornecido não apresenta prova documental de uma ordem expressa para utilizar a operação com finalidade eleitoral.</p>
-<p>Mas a ausência dessa prova não elimina o problema institucional provocado pelo calendário. A sucessão dos fatos é objetiva. A interpretação sobre suas motivações permanece em disputa.</p>
-<h2>Investigação legítima exige prova, limite e transparência</h2>
-<p>O filme Dark Horse pode ser investigado se houver indício de desvio. Empresas que receberam emendas parlamentares também podem e devem prestar contas sobre a aplicação dos recursos. Ninguém envolvido na política está acima da lei.</p>
-<p>O mesmo princípio, porém, precisa alcançar quem investiga e quem julga. Mandados de busca não podem servir como ferramenta genérica de pressão. Inquéritos não podem ser utilizados para gerar material eleitoral. Autoridades judiciais precisam evitar decisões que permitam a percepção de alinhamento com qualquer campanha.</p>
-<p>Se existem provas de que dinheiro público financiou irregularmente o filme, elas devem ser apresentadas e confrontadas com a perícia independente mencionada no material. Se as emendas foram desviadas, os responsáveis devem responder. Se não houve desvio, a reputação dos atingidos não pode ser destruída por insinuações.</p>
-<p>A credibilidade da Polícia Federal e do Supremo depende dessa distinção.</p>
-<h2>O voto ainda pertence ao eleitor</h2>
-<p>A eleição será decidida em outubro. As pesquisas citadas mostram uma disputa que teria mudado rapidamente, com Lula em queda e Flávio Bolsonaro avançando até o empate ou a liderança numérica em diferentes levantamentos.</p>
-<p>Nesse ambiente, qualquer operação contra pessoas próximas a um dos principais candidatos terá impacto político, independentemente da intenção declarada de seus responsáveis.</p>
-<p>É por isso que a atuação das instituições precisa ser clara, tecnicamente fundamentada e resistente a qualquer suspeita de manipulação. A toga não pode produzir o desgaste que uma campanha adversária não conseguiu provocar. A Polícia Federal não pode ser percebida como instrumento de correção do placar eleitoral.</p>
-<p>Flávio Bolsonaro afirmou que as autoridades “perderam o pudor”. Seus adversários dirão que as instituições estão apenas funcionando. Entre essas duas versões, existem fatos que não podem ser ignorados: Andrei Rodrigues foi afastado, Flávio Dino o reconduziu, a operação ocorreu no dia seguinte e o alvo político indireto é o campo de um candidato que cresce nas pesquisas contra Lula.</p>
-<p>Agora, cabe às autoridades revelar as provas, explicar a urgência e demonstrar que o calendário foi apenas uma coincidência.</p>
-<p><strong>Até lá, a pergunta permanecerá aberta sobre Brasília: quando a curva eleitoral virou, quem decidiu acelerar a caneta?</strong></p>`,
-    autor: "Redação Notícia ES",
-    entidades: [
-      { tipo: "Person", nome: "Flávio Bolsonaro" },
-      { tipo: "Person", nome: "Luiz Inácio Lula da Silva" },
-      { tipo: "Person", nome: "Flávio Dino" },
-      { tipo: "Person", nome: "Andrei Rodrigues" },
-      { tipo: "Person", nome: "André Mendonça" },
-      { tipo: "GovernmentOrganization", nome: "Polícia Federal" },
+<p>Outro elemen…1850 tokens truncated…ícia Federal" },
       { tipo: "Organization", nome: "Supremo Tribunal Federal" }
     ],
     aeo: [
@@ -1008,3 +970,4 @@ const noticias = [
 ];
 if (typeof materiasEditoriais35 !== "undefined") noticias.unshift(...materiasEditoriais35);
 if (typeof materiasEditoriais41 !== "undefined") noticias.unshift(...materiasEditoriais41);
+if (typeof materiasEditoriais42 !== "undefined") noticias.unshift(...materiasEditoriais42);
