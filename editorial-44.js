@@ -1,0 +1,117 @@
+/* NOTÍCIA ES - MATÉRIA EDITORIAL PRÓPRIA / 13 DE SETEMBRO DE 2026 */
+const materiasEditoriais44 = [
+  {
+    id: 13092026161000,
+    slug: "mendonca-denuncia-pf-copia-celular-vorcaro-gabinete-domingo",
+    titulo: "Mendonça denuncia: PF levou cópia do celular de Vorcaro ao gabinete num domingo",
+    categoria: "Política Nacional",
+    data: "2026-09-13",
+    publicadoEm: "2026-09-13T16:10:00-03:00",
+    imagem: "https://noticiaes.com.br/assets/og/mendonca-denuncia-pf-celular-vorcaro-domingo.jpg",
+    imagemX: "https://noticiaes.com.br/assets/og/mendonca-denuncia-pf-celular-vorcaro-domingo.jpg",
+    imagemLargura: 1536,
+    imagemAltura: 864,
+    imagemXLargura: 1536,
+    imagemXAltura: 864,
+    legendaImagem: "Mendonça denuncia: PF levou cópia do celular de Vorcaro ao gabinete num domingo.",
+    resumo: "HD criptografado com a extração do iPhone chegou lacrado em 8 de março de 2026. Relator pede que quatro delegados expliquem a entrega e barra abrir o conteúdo integral antes do julgamento de Moraes na terça.",
+    conteudo: `<p><strong>No despacho da PET 16.704, o ministro registra que a cópia do celular de Vorcaro chegou ao gabinete em 8 de março de 2026, um domingo, pede explicação a quatro delegados em 24 horas e barra a abertura integral do aparelho antes da sessão</strong></p>
+
+<p>Neste domingo, 13 de setembro de 2026, o ministro André Mendonça assinou despacho na PET 16.704 e fez questão de um detalhe que não é burocracia. O ofício 33V/2026-CINQ/CGRC/DICOR/PF, com o qual a Polícia Federal levou ao gabinete dele uma cópia de segurança do celular de Daniel Vorcaro, chegou em 8 de março de 2026. Entre parênteses, o relator escreveu: um domingo.</p>
+
+<p>Não é data jogada no meio do texto. É recado. Em Brasília, órgão federal não costuma protocolar material sensível fora do expediente. Mendonça marcou o calendário de propósito. Na terça-feira, 15 de setembro, o plenário do STF julga o relatório da PF com as mensagens entre Vorcaro e Alexandre de Moraes e decide se abre investigação contra o ministro. No sábado, o presidente da Corte, Edson Fachin, tirou o caso das mãos de Mendonça e assumiu a relatoria. Separou as pautas: terça é Moraes e Vorcaro. No dia 23 de setembro fica a discussão sobre a conduta do próprio Mendonça nos casos Master e INSS.</p>
+
+<p>O que o despacho faz, na prática, são três movimentos no mesmo papel.</p>
+
+<p>Primeiro, Mendonça registra divergência de versões sobre como aquele material da PF chegou ao gabinete. Diz que não havia decisão judicial apontada que justificasse aquela entrega daquele jeito. Por isso pede a Fachin que determine a quatro delegados, em 24 horas, as circunstâncias e o contexto da entrega e se eles sofreram constrangimento ao longo das investigações. Os nomes são Daniel Mostardeiro Cola, Wedson Cajé Lopes, Victor Arruda de Oliveira e Guilherme Alves de Siqueira. São os subscritores da representação inicial da PET 15.556, um dos procedimentos do caso Master.</p>
+
+<p>Segundo, ele reforça que todo o material para o julgamento de terça já está disponível na íntegra para todos os ministros. Ninguém precisa de peça nova para votar.</p>
+
+<p>Terceiro, ele barra o pedido de abrir agora o conteúdo completo do celular de Vorcaro. Incluir elementos que ainda não estão nos autos, inclusive a abertura de todas as informações contidas no aparelho, só tumultuaria o julgamento e colocaria em risco o andamento das investigações. Cita o próprio Fachin: a gravidade dos fatos não autoriza atalhos.</p>
+
+<h2>O ofício que virou recibo de uma prova</h2>
+
+<p>O documento de 8 de março não é recado administrativo qualquer. É o papel com o qual a PF entregou, em envelope lacrado, um HD criptografado com a extração do iPhone de Vorcaro, formalizada no Laudo 4281 da SETEC/PF de São Paulo. O próprio Mendonça descreveu isso dias atrás: a autoridade policial, de forma voluntária e espontânea, levou aquela mídia ao gabinete. Segundo ele, a cópia permanece lacrada e intocada.</p>
+
+<p>A sequência importa. Em 3 de março, Mendonça decretou a prisão de Vorcaro na PET 15.556, a peça-mãe da Operação Compliance Zero. Cinco dias depois, num domingo, a PF levou a cópia de segurança. Em setembro, o relatório da PF sobre as conversas Vorcaro-Moraes virou pauta da sessão extraordinária do dia 15. O material que o plenário discute na terça saiu daquele celular. O ofício de março é o recibo de como uma cópia dessa extração chegou ao relator.</p>
+
+<p>Março de 2026 é bem anterior à explosão de setembro. Mendonça voltou a um episódio antigo e disse, entre parênteses, que a PF protocolou aquilo num dia em que órgão federal normalmente não trabalha. A leitura que circulou na hora é direta: a PF do então diretor-geral Andrei Rodrigues teria se mexido no domingo.</p>
+
+<h2>Por que o domingo voltou hoje</h2>
+
+<p>Nos últimos dias a briga virou troca de ofício. Moraes e aliados querem mais peças, inclusive o celular inteiro de Vorcaro. Zanin e Moraes pedem o HD completo nos gabinetes antes da sessão. Mendonça responde que o que interessa para terça já está nos autos e que abrir o restante agora é desviar o julgamento.</p>
+
+<p>Há, ao mesmo tempo, divergência de informações sobre as circunstâncias daquela entrega de março. Daí o pedido para ouvir os quatro delegados da PET 15.556. O recado do parêntese é este: a PF se mexeu fora do expediente para colocar aquela mídia no gabinete. Seis meses depois, a mesma mídia é o centro do julgamento sobre Moraes. Mendonça está dizendo que a cadeia de custódia daquele domingo precisa ser esclarecida antes de alguém pedir para romper o lacre e jogar o celular inteiro no meio da sessão.</p>
+
+<p>Cadeia de custódia é o histórico oficial de uma prova. Quem achou, quem guardou, quem abriu, quem copiou, quem transportou e quem devolveu. Se esse histórico quebra, a prova fica vulnerável. No celular de Vorcaro, essa briga é o centro do caso.</p>
+
+<h2>O que a lei pede e o que o processo mostra</h2>
+
+<p>No processo penal brasileiro, depois do Pacote Anticrime, a cadeia de custódia de vestígio digital precisa ser documentada do começo ao fim. O aparelho original é apreendido, lacrado e registrado. A extração é feita em laboratório. Gera-se um laudo. Cada cópia precisa ter registro de hash, lacre, data, responsável e destino. Quem recebe uma cópia não pode tratar o arquivo como pendrive de trabalho. O objetivo é simples: ninguém no meio do caminho pode selecionar, apagar, acrescentar ou olhar o que bem entender sem deixar rastro.</p>
+
+<p>No caso Vorcaro havia três camadas do mesmo material.</p>
+
+<p>A primeira é o aparelho original. A PF diz que o iPhone permanece sob custódia dela, com cadeia de custódia preservada.</p>
+
+<p>A segunda é a extração técnica. Isso virou o Laudo 4281 da SETEC da PF em São Paulo. É o trabalho pericial: o que saiu do telefone, como saiu, com qual integridade.</p>
+
+<p>A terceira é a cópia de segurança. Em 8 de março de 2026, um domingo, a PF levou ao gabinete de Mendonça, em envelope lacrado, um HD criptografado com essa extração. O ofício 33V/2026 é o recibo dessa entrega. Mendonça diz que a cópia segue lacrada e intocada.</p>
+
+<p>O problema começa aqui. Uma prova digital não deveria aparecer no gabinete do relator de forma voluntária e espontânea, num domingo, sem uma decisão clara mandando aquela entrega daquele jeito. Mendonça admite hoje que há divergência sobre as circunstâncias. Por isso quer ouvir os quatro delegados.</p>
+
+<h2>Duas teses, a mesma palavra</h2>
+
+<p>A PF e aliados de Moraes sustentam, nos relatórios de inteligência de agosto, que Mendonça pediu material bruto cedo demais. Segundo essa versão, o relator teria acesso a acervo extraído antes da triagem policial completa e teria atuado como investigador, não só como juiz. Se isso for verdade, a cadeia sofre em dois pontos: destino irregular da cópia e uso da prova fora do rito.</p>
+
+<p>Mendonça inverte a acusação. Diz que a cópia de segurança está lacrada, que o original está com a PF e que abrir agora o celular inteiro para todos os gabinetes, fora do que já está nos autos, tumultua o julgamento de terça e arrisca o restante da investigação. Na leitura dele, o risco não é o lacre de março. O risco é romper esse lacre no calor da sessão política.</p>
+
+<p>Os dois lados falam a mesma expressão, cadeia de custódia, para defender teses opostas. Um diz que o juiz não podia ter aquela mídia daquele jeito. O outro diz que a mídia está lacrada e quem quer abrir agora é que quer bagunçar a prova.</p>
+
+<h2>O pano de fundo que a sessão não apaga</h2>
+
+<p>Isso não nasceu hoje. Mendonça é o relator das duas investigações mais quentes do momento: Banco Master, de Vorcaro, e fraudes no INSS. Em 1º de setembro ele tirou o sigilo de mensagens do celular de Vorcaro que apontam conversa intensa com Moraes, inclusive às vésperas da prisão do banqueiro. Moraes revidou com relatórios de inteligência da PF que criticam a atuação de Mendonça e pediu investigação contra o colega. Mendonça, por sua vez, afastou Andrei Rodrigues, diretor-geral da PF indicado por Lula, acusando monitoramento ilegal contra ele e contra o AGU Jorge Messias. Flávio Dino reintegrou Andrei. Fachin tentou segurar a Corte.</p>
+
+<p>O ofício de março e os quatro delegados entram nessa guerra de versões. De um lado, quem vê a cúpula da PF alinhada a Moraes e ao governo. Do outro, quem acusa Mendonça de agir como investigador, em causa própria, e de selecionar o que vaza.</p>
+
+<p>O parêntese “um domingo” é o recado curto. O resto do despacho é o recado longo: não mexam no celular agora, ouçam os delegados que assinaram a peça original, e julguem terça com o que já está nos autos.</p>
+
+<h2>O que a terça decide de fato</h2>
+
+<p>Terça o plenário não julga o Banco Master inteiro. Julga um ponto só: se abre investigação contra Alexandre de Moraes por causa das mensagens com Vorcaro encontradas nesse mesmo celular. Não precisa, em tese, do celular inteiro para votar aquilo. O pedido de Zanin e de Moraes é outro: querem a íntegra da extração nos gabinetes antes da sessão.</p>
+
+<p>Se a Corte aceita abrir o HD completo agora, duas coisas acontecem ao mesmo tempo. Os ministros passam a ter acesso a um universo de dados que ainda não está nos autos do julgamento. E a discussão deixa de ser se as mensagens já documentadas bastam e vira quem mexeu nesse arquivo desde março.</p>
+
+<p>Por isso Mendonça amarrou o ofício de domingo ao julgamento de terça. Ele está dizendo: antes de romper o lacre, expliquem como aquela cópia saiu da PF e entrou no gabinete. Sem esse relato, a cadeia de custódia da prova que vai a plenário continua com um furo na data e no modo da entrega.</p>
+
+<h2>O que a imprensa fez com o recado</h2>
+
+<p>O que chamou atenção, e o que fez algumas redações reagir no mesmo tom, foi o parêntese. Em vez de tratar o domingo como pergunta sobre expediente, transporte de prova e destino irregular de mídia lacrada, o reflexo imediato em parte da cobertura foi deslocar o foco para Mendonça: o relator que “seleciona”, o ministro que “atua como investigador”, o colega que “tumultua” a Corte. O mesmo movimento que, ao longo desta guerra de versões, tentou desconstruir o trabalho de quem tirou o sigilo das mensagens Vorcaro-Moraes e sustentou que o que interessa para terça já está nos autos.</p>
+
+<p>O ofício existe. A data existe. Os quatro delegados existem. O HD lacrado existe. O julgamento de terça existe. A frase de Fachin sobre atalhos também existe. Nada disso some porque o alvo preferido da semana é André Mendonça e o protegido preferido da cobertura é Alexandre de Moraes.</p>
+
+<p>Dois ministros do Supremo estão em guerra aberta. Um é André Mendonça. O outro é Alexandre de Moraes. No meio estão a Polícia Federal, o banqueiro Daniel Vorcaro e um julgamento marcado para terça-feira. O recado de hoje cabe numa frase: a PF mandou um ofício no domingo. Mendonça fez questão de escrever isso entre parênteses.</p>
+
+<p>Em Brasília, isso não é data. É acusação. E na terça a Corte vai ter de decidir se investiga Moraes com o que já está nos autos ou se aceita romper o lacre de março no calor da sessão. A gravidade dos fatos, como o próprio presidente do STF já escreveu, não autoriza atalhos.</p>`,
+    autor: "Redação Notícia ES",
+    entidades: [
+      { tipo: "Person", nome: "André Mendonça" },
+      { tipo: "Person", nome: "Daniel Vorcaro" },
+      { tipo: "Person", nome: "Alexandre de Moraes" },
+      { tipo: "Person", nome: "Edson Fachin" },
+      { tipo: "Person", nome: "Andrei Rodrigues" },
+      { tipo: "Person", nome: "Cristiano Zanin" },
+      { tipo: "Organization", nome: "Polícia Federal" },
+      { tipo: "Organization", nome: "Supremo Tribunal Federal" },
+      { tipo: "Organization", nome: "Banco Master" }
+    ],
+    aeo: [
+      { pergunta: "Quando a cópia do celular de Daniel Vorcaro chegou ao gabinete de André Mendonça?", resposta: "Segundo o despacho na PET 16.704, a Polícia Federal entregou a cópia de segurança em 8 de março de 2026, um domingo, por meio do ofício 33V/2026-CINQ/CGRC/DICOR/PF." },
+      { pergunta: "O que havia no material entregue pela Polícia Federal?", resposta: "Um HD criptografado, acondicionado em envelope lacrado, com a extração do iPhone de Daniel Vorcaro formalizada no Laudo 4281 da SETEC/PF de São Paulo." },
+      { pergunta: "Por que André Mendonça pediu explicações a quatro delegados?", resposta: "Porque há divergência sobre as circunstâncias e o contexto da entrega da cópia ao gabinete. O ministro pede que os quatro delegados esclareçam a entrega e informem se sofreram constrangimento durante as investigações." },
+      { pergunta: "André Mendonça autorizou a abertura integral do celular antes da sessão?", resposta: "Não. Segundo a matéria, ele barrou a abertura integral por entender que a inclusão de elementos ainda ausentes dos autos poderia tumultuar o julgamento e prejudicar as investigações." },
+      { pergunta: "O que o STF deve decidir na terça-feira, 15 de setembro?", resposta: "O plenário deve decidir se abre investigação contra Alexandre de Moraes por causa das mensagens com Daniel Vorcaro já documentadas nos autos." }
+    ],
+    editorial: true
+  }
+];
+if (typeof noticias !== "undefined") noticias.unshift(...materiasEditoriais44);
