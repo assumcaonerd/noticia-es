@@ -2,7 +2,7 @@
 const materiasEditoriais42 = [
   {
     id: 13092026080500,
-    slug: "mendonca-presidencia-stf-votar-terca-investigacao-moraes",
+    slug: "mendonca-pediu-presidencia-stf-investigacao-moraes",
     titulo: "Mendonça pediu que o caso fosse à Presidência do STF. O motivo: votar na terça se abre investigação contra Moraes",
     categoria: "Política Nacional",
     data: "2026-09-13",
