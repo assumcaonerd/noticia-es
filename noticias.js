@@ -1007,4 +1007,5 @@ const noticias = [
   }
 ];
 if (typeof materiasEditoriais35 !== "undefined") noticias.unshift(...materiasEditoriais35);
-if (typeof materiasEditoriais41 !== "undefined") noticias.unshift(...materiasEditoriais41);\nif (typeof materiasEditoriais42 !== "undefined") noticias.unshift(...materiasEditoriais42);
+if (typeof materiasEditoriais41 !== "undefined") noticias.unshift(...materiasEditoriais41);
+if (typeof materiasEditoriais42 !== "undefined") noticias.unshift(...materiasEditoriais42);
