@@ -1,0 +1,40 @@
+name: Fiscal de imagens
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fiscal-imagens-noticia-es
+  cancel-in-progress: false
+
+jobs:
+  fiscalizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Varrer matérias e corrigir foto da fonte
+        run: node scripts/fiscal-imagens.mjs
+      - name: Publicar correções
+        shell: bash
+        run: |
+          if git diff --quiet -- imagens-fonte.js noticias.js pautas.json fiscal-imagens-status.json; then
+            echo "Nenhuma imagem para corrigir."
+            exit 0
+          fi
+          git config user.name "Notícia ES Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add imagens-fonte.js noticias.js pautas.json fiscal-imagens-status.json
+          git commit -m "fiscal: corrige matérias sem imagem da fonte"
+          git pull --rebase origin main
+          git push origin main

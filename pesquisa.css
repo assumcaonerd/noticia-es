@@ -1,0 +1,149 @@
+.arquivo-pesquisa {
+  padding: 34px 0 52px;
+}
+
+.arquivo-cabecalho {
+  max-width: 860px;
+  margin-bottom: 24px;
+}
+
+.arquivo-cabecalho h1 {
+  margin: 12px 0 10px;
+  font-size: clamp(2rem, 7vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -0.045em;
+}
+
+.arquivo-cabecalho p {
+  color: var(--cor-texto-suave);
+  font-size: 1.05rem;
+}
+
+.arquivo-filtros {
+  display: grid;
+  gap: 14px;
+  background: #fff;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio);
+  padding: 18px;
+  box-shadow: 0 8px 22px rgba(18, 26, 36, 0.05);
+  margin-bottom: 16px;
+}
+
+.campo-pesquisa {
+  display: grid;
+  gap: 6px;
+}
+
+.campo-pesquisa label {
+  font-weight: 800;
+}
+
+.campo-pesquisa input,
+.campo-pesquisa select {
+  width: 100%;
+  border: 1px solid var(--cor-borda);
+  border-radius: 12px;
+  padding: 11px 12px;
+  background: #fff;
+  outline: none;
+}
+
+.campo-pesquisa input:focus,
+.campo-pesquisa select:focus {
+  border-color: var(--cor-destaque);
+  box-shadow: 0 0 0 3px rgba(122, 24, 48, 0.08);
+}
+
+.arquivo-acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: end;
+}
+
+.arquivo-resumo {
+  color: var(--cor-texto-suave);
+  font-size: .92rem;
+  margin: 14px 0;
+}
+
+.arquivo-lista {
+  display: grid;
+  gap: 14px;
+}
+
+.arquivo-item {
+  background: #fff;
+  border: 1px solid var(--cor-borda);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 6px 18px rgba(18, 26, 36, 0.045);
+}
+
+.arquivo-item-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.arquivo-data {
+  color: var(--cor-texto-suave);
+  font-size: .88rem;
+}
+
+.arquivo-item h2 {
+  margin: 10px 0 6px;
+  font-size: 1.15rem;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.arquivo-item p {
+  margin: 0 0 14px;
+  color: var(--cor-texto-suave);
+}
+
+.arquivo-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.link-pesquisa,
+.fonte-ausente {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: .88rem;
+  font-weight: 800;
+}
+
+.link-portal {
+  background: #eef2f6;
+  color: var(--cor-azul);
+}
+
+.link-fonte {
+  background: #f3e8eb;
+  color: var(--cor-destaque);
+}
+
+.link-pesquisa:hover {
+  filter: brightness(.96);
+}
+
+.fonte-ausente {
+  background: #f3f3f3;
+  color: var(--cor-texto-suave);
+}
+
+@media (min-width: 760px) {
+  .arquivo-filtros {
+    grid-template-columns: 2fr 1fr auto;
+    align-items: end;
+  }
+}

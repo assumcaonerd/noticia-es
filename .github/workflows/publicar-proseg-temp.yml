@@ -1,0 +1,95 @@
+name: Publicar matéria PROSEG
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publicar-proseg-temp.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Inserir exatamente uma matéria
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('noticias.js')
+          s = p.read_text(encoding='utf-8')
+          slug = 'proseg-espirito-santo-r-142-milhoes-seguranca-bndes-modernizacao'
+          if slug in s:
+              raise SystemExit('Matéria já existe; nenhuma duplicação será feita.')
+          obj = r'''  {
+            id: 8092026035801,
+            slug: "proseg-espirito-santo-r-142-milhoes-seguranca-bndes-modernizacao",
+            titulo: "PROSEG prevê R$ 142,6 milhões para modernizar infraestrutura e inteligência da segurança no ES",
+            categoria: "Segurança Pública",
+            data: "2026-09-08",
+            imagem: "imagens/auto-seguranca.svg",
+            resumo: "Programa financiado pelo BNDES reúne Sesp, PMES, PCES, Casa Militar, DER-ES e Planejamento em investimentos para infraestrutura e inteligência da segurança pública capixaba.",
+            conteudo: `<p>O Programa de Segurança Pública do Espírito Santo, o PROSEG, reúne uma contratação de R$ 142.665.350 com o Banco Nacional de Desenvolvimento Econômico e Social, o BNDES, para financiar ações de expansão e modernização da infraestrutura e da inteligência da segurança pública capixaba. As informações constam na página do programa mantida pela Secretaria de Estado de Economia e Planejamento, atualizada em setembro de 2026. O contrato identificado pelo número 18.2.0648.1 envolve diferentes órgãos estaduais e coloca tecnologia, estrutura física e eficiência operacional no centro da aplicação dos recursos.</p>
+<p>Segundo a Secretaria de Economia e Planejamento, o objetivo formal do PROSEG é promover a expansão e a modernização da infraestrutura e da inteligência da segurança pública, buscando melhorar o atendimento à população e ampliar a eficiência operacional. Participam do programa a Secretaria de Estado da Segurança Pública e Defesa Social, a Polícia Militar do Espírito Santo, a Polícia Civil do Espírito Santo, a Secretaria da Casa Militar, o Departamento de Edificações e de Rodovias do Espírito Santo e a própria Secretaria de Economia e Planejamento.</p>
+<p>O valor da contratação, superior a R$ 142 milhões, insere o programa em uma política de investimentos que atravessa diferentes áreas do sistema estadual de segurança. A participação simultânea de órgãos policiais, planejamento, infraestrutura e Casa Militar mostra que a operação não está limitada à compra isolada de equipamentos. O desenho oficial vincula os recursos à modernização da capacidade estatal de atender ocorrências, processar informações e dar suporte às atividades operacionais.</p>
+<h2>Financiamento do BNDES sustenta programa estadual</h2>
+<p>O agente financiador informado pelo Estado é o BNDES. A Secretaria de Economia e Planejamento orienta que as condições financeiras da operação podem ser consultadas na base de transparência do banco, utilizando o Estado do Espírito Santo como cliente e o número do contrato PROSEG, 18206481. Essa identificação permite relacionar o programa estadual à operação de crédito correspondente e acompanhar as informações disponibilizadas pelo financiador.</p>
+<p>A origem do PROSEG remonta ao ciclo de investimentos anunciado pelo Governo do Espírito Santo em 2018. Naquele período, o Estado apresentou um pacote mais amplo de R$ 350 milhões para a segurança pública, com recursos do Tesouro Estadual, convênios federais e financiamentos contratados junto a instituições como BNDES e BID. O planejamento divulgado à época previa investimentos em estruturas da Sesp, Polícia Militar, Polícia Civil e Corpo de Bombeiros.</p>
+<p>Entre as prioridades anunciadas naquele ciclo estavam ampliação da Delegacia Online, implantação de estruturas de observação da violência, obras em delegacias, modernização de tecnologia da informação, aquisição de viaturas, armamentos e equipamentos de proteção. Na Polícia Civil, também havia previsão de investimentos em estrutura técnico-científica. O PROSEG passou a integrar esse esforço com uma contratação específica voltada à expansão e modernização da infraestrutura e da inteligência.</p>
+<h2>PMES e PCES estão entre os órgãos envolvidos</h2>
+<p>A presença da Polícia Militar e da Polícia Civil entre os órgãos formalmente envolvidos é relevante porque as duas corporações concentram atividades diferentes e complementares. A PMES atua no policiamento ostensivo e na preservação da ordem pública, enquanto a PCES exerce funções de polícia judiciária e investigação criminal. Investimentos em infraestrutura e inteligência podem, portanto, alcançar etapas distintas do trabalho de prevenção, resposta e investigação.</p>
+<p>A Sesp aparece como órgão central da política de segurança, enquanto o DER-ES integra o programa pelo componente relacionado à infraestrutura. A Secretaria de Economia e Planejamento participa da coordenação e do acompanhamento dos investimentos. A Casa Militar também consta na relação oficial. A página do PROSEG não apresenta, no entanto, uma divisão atualizada do valor total por órgão nem informa, em seu resumo público, quanto cada instituição já executou do montante contratado.</p>
+<p>Essa distinção é importante para a leitura dos números. Os R$ 142.665.350 correspondem ao valor da contratação informado pelo Estado e não devem ser interpretados automaticamente como valor já desembolsado ou gasto. A execução financeira depende das condições da operação, dos projetos e das etapas de implementação. O acompanhamento do contrato e das despesas públicas é o caminho para separar valor contratado, recursos liberados e pagamentos efetivamente realizados.</p>
+<h2>Inteligência e tecnologia ganharam peso na segurança</h2>
+<p>O foco do PROSEG em inteligência acompanha uma transformação mais ampla das políticas de segurança. Sistemas de informação, integração de bancos de dados, videomonitoramento, análise criminal e comunicação entre órgãos passaram a ocupar espaço crescente ao lado dos investimentos tradicionais em viaturas, instalações e equipamentos. No Espírito Santo, iniciativas posteriores também passaram a usar integração de dados e protocolos específicos para orientar respostas operacionais.</p>
+<p>O Plano Estadual de Segurança Escolar, por exemplo, lançado em 2023, estruturou ações de gestão, inteligência, prevenção e fortalecimento operacional. Entre as medidas estavam protocolos específicos no Ciodes, uso de informações do Disque-Denúncia 181 e articulação entre forças de segurança. Embora esse plano seja uma política distinta do PROSEG, ele ajuda a mostrar como a integração de informações se tornou parte do modelo de atuação adotado pelo Estado.</p>
+<p>Na prática, a modernização da segurança depende tanto da aquisição de recursos físicos quanto da capacidade de transformar dados em decisões operacionais. O objetivo publicado para o PROSEG associa diretamente infraestrutura e inteligência à melhoria do atendimento e da eficiência. Essa formulação permite avaliar o programa por resultados concretos, como estruturas entregues, sistemas implantados, equipamentos incorporados e capacidade operacional ampliada.</p>
+<h2>Transparência permite acompanhar a contratação</h2>
+<p>A Secretaria de Economia e Planejamento mantém uma página específica do PROSEG com o número do contrato, o valor da contratação, o agente financiador, o objetivo e os órgãos participantes. O próprio Estado direciona o cidadão para a consulta de operações do BNDES, onde é possível procurar o contrato correspondente. A existência dessas referências facilita a fiscalização pública sobre uma operação de valor elevado e destinada a uma área sensível do governo.</p>
+<p>Para saber quanto do programa já se converteu em investimento efetivamente entregue, porém, é necessário cruzar a contratação com dados de execução, licitações, contratos derivados, pagamentos e entregas dos órgãos envolvidos. O resumo público do PROSEG consultado pelo Notícia ES não traz um balanço consolidado de execução física e financeira até setembro de 2026. Por isso, a cifra de R$ 142,6 milhões deve ser apresentada como valor contratado, sem antecipar conclusões sobre execução integral.</p>
+<p>O programa permanece como uma das referências formais de financiamento da modernização da segurança capixaba. Com Sesp, PMES, PCES, Casa Militar, DER-ES e Planejamento relacionados à operação, o acompanhamento da aplicação dos recursos permite verificar em que medida o financiamento se transforma em infraestrutura, tecnologia e inteligência disponíveis para os profissionais de segurança e para o atendimento à população.</p>
+<h2>Perguntas e respostas</h2>
+<p><strong>Qual é o valor do PROSEG?</strong> A Secretaria de Economia e Planejamento informa contratação de R$ 142.665.350.</p>
+<p><strong>Quem financia?</strong> O agente financiador informado pelo Estado é o Banco Nacional de Desenvolvimento Econômico e Social, o BNDES.</p>
+<p><strong>Quais órgãos participam?</strong> Sesp, Polícia Militar, Polícia Civil, Casa Militar, DER-ES e Secretaria de Economia e Planejamento aparecem na relação oficial do programa.</p>
+<p><strong>O valor já foi totalmente gasto?</strong> A página pública consultada informa o valor da contratação, mas não apresenta um balanço consolidado que permita afirmar que todo o montante já foi executado.</p>
+<p><strong>Fontes consultadas:</strong> Secretaria de Estado de Economia e Planejamento do Espírito Santo; Banco Nacional de Desenvolvimento Econômico e Social; Governo do Estado do Espírito Santo. Informações verificadas em 8 de setembro de 2026.</p>`,
+            autor: "Redação Notícia ES",
+            fonteNome: "Secretaria de Estado de Economia e Planejamento do Espírito Santo (SEP)",
+            fonteUrl: "https://planejamento.es.gov.br/programa-de-investimentos-em-seguranca-publica-do-espirito-santo",
+            fontesAdicionais: ["https://www.bndes.gov.br/wps/portal/site/home/transparencia/consulta-operacoes-bndes/consulta-op-dir-ind-nao-aut","https://rtv.es.gov.br/Not%C3%ADcia/reuniao-do-comite-para-investimentos-na-seguranca-publica","https://pc.es.gov.br/Not%C3%ADcia/governo-do-estado-lanca-plano-estadual-de-seguranca-escolar"],
+            automatico: true,
+            coletadoEm: "2026-09-08T06:58:00.000Z"
+          },
+          '''
+          marker = 'const noticias = [\n'
+          if marker not in s:
+              raise SystemExit('Marcador de notícias não encontrado')
+          p.write_text(s.replace(marker, marker + obj, 1), encoding='utf-8')
+      - name: Validar e gerar derivados
+        run: |
+          node --check noticias.js
+          node scripts/gerar-paginas-og.mjs
+          node scripts/reposicionar-aeo.mjs || true
+          node scripts/enriquecer-ai-schema.mjs || true
+          node scripts/gerar-sitemap.mjs
+          node scripts/gerar-rss-llms.mjs || true
+      - name: Publicar
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Notícia ES Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add noticias.js m sitemap.xml sitemap-news.xml 2>/dev/null || true
+          git add -A
+          git commit -m "auto(editorial): publica matéria sobre PROSEG"
+          git pull --rebase origin main
+          git push origin main

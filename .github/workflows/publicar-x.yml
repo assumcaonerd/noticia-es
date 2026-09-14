@@ -1,0 +1,94 @@
+name: Publicar novas matérias no X
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'm/*.html'
+  workflow_dispatch:
+    inputs:
+      pagina:
+        description: 'Opcional: página específica no formato m/slug.html'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-x-noticia-es
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validar publicador do X
+        run: node --check scripts/publicar-x.mjs
+
+      - name: Aguardar propagação da página
+        if: github.event_name == 'push'
+        run: sleep 45
+
+      - name: Publicar novas matérias no X
+        id: publicar
+        continue-on-error: true
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          X_PAGINA_MANUAL: ${{ inputs.pagina }}
+          GITHUB_BEFORE: ${{ github.event.before }}
+          GITHUB_SHA_ATUAL: ${{ github.sha }}
+        run: node scripts/publicar-x.mjs
+
+      - name: Registrar recibos das postagens
+        if: always()
+        shell: bash
+        run: |
+          if [ ! -d publicacoes-x ]; then
+            echo "Nenhum recibo de X criado."
+            exit 0
+          fi
+
+          git config user.name "Notícia ES Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add publicacoes-x
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma nova postagem do X para registrar."
+            exit 0
+          fi
+
+          git commit -m "social: registra matérias publicadas no X"
+
+          for tentativa in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Recibos do X registrados."
+              exit 0
+            fi
+            echo "Tentativa ${tentativa} de sincronização falhou; tentando novamente..."
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            sleep $((tentativa * 3))
+          done
+
+          echo "Não foi possível registrar os recibos do X após 3 tentativas."
+          exit 1
+
+      - name: Sinalizar falha de publicação
+        if: steps.publicar.outcome == 'failure'
+        run: |
+          echo "Uma ou mais matérias não puderam ser publicadas no X. Consulte o log da etapa anterior."
+          exit 1

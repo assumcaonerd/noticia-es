@@ -1,0 +1,28 @@
+name: Validar redação pronta
+
+on:
+  push:
+    paths:
+      - 'redacao-pronta/**'
+      - 'scripts/validar-redacao-pronta.mjs'
+      - '.github/workflows/validar-redacao-pronta.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validar-redacao-pronta
+  cancel-in-progress: true
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Validar matérias preparadas sem publicar
+        run: node scripts/validar-redacao-pronta.mjs

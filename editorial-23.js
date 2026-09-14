@@ -1,0 +1,57 @@
+/* NOTÍCIA ES - MATÉRIAS EDITORIAIS PRÓPRIAS / RODADA 23 */
+const materiasEditoriais23 = [
+  {
+    id: 2026082936,
+    slug: "mapa-estadual-pl-psd-mdb-governos-eleicoes-2026",
+    titulo: "Mapa estadual expõe força de PL, PSD e MDB e mostra disputa por governos desconectada da corrida presidencial",
+    categoria: "Política Nacional",
+    data: "2026-08-29",
+    imagem: "https://www.correiodamanha.com.br/_midias/jpg/2026/07/15/600x378/1_larissa_navarro_alesp-646027.jpg",
+    resumo: "Levantamento nacional baseado nas pesquisas mais recentes coloca PL, PSD e MDB à frente em cinco estados cada, mas diferenças de metodologia e margens de erro impedem tratar o quadro como projeção fechada.",
+    conteudo: `<p><strong>O mapa das eleições estaduais de 2026 revela uma disputa bem mais fragmentada do que a corrida pelo Palácio do Planalto. Um levantamento publicado pelo Correio da Manhã, reunindo pesquisas recentes em praticamente todos os estados, indica que PL, PSD e MDB aparecem hoje na liderança de cinco governos estaduais cada. O retrato chama atenção porque a distribuição regional de forças não reproduz automaticamente a polarização presidencial entre Luiz Inácio Lula da Silva e Flávio Bolsonaro.</strong></p>
+<p>O dado, porém, precisa ser lido como fotografia do momento, e não como previsão de resultado. Os levantamentos utilizados foram realizados por institutos diferentes, em datas distintas e com margens de erro próprias. Em alguns estados, a diferença entre primeiro e segundo colocado está dentro da margem de erro. Em outros, a liderança é mais consistente.</p>
+<h2>Três partidos ocupam o centro do mapa</h2>
+<p>Na consolidação feita pelo Correio da Manhã, o PL aparece numericamente à frente no Rio Grande do Sul, Santa Catarina, Paraná, Rondônia e Mato Grosso. O PSD lidera no Rio de Janeiro, Sergipe, Pernambuco, Maranhão e Amazonas. O MDB, por sua vez, ocupa a primeira posição no Espírito Santo, Alagoas, Pará, Amapá e Goiás.</p>
+<p>Esse desenho ajuda a mostrar como as eleições para governador seguem lógicas próprias. Alianças locais, popularidade dos atuais governadores, força de prefeitos, estrutura partidária e identidade regional pesam tanto quanto o desempenho dos presidenciáveis.</p>
+<p>Nos dois maiores colégios eleitorais do país, São Paulo e Minas Gerais, o Republicanos aparece em posição de destaque. Em São Paulo, Tarcísio de Freitas lidera as pesquisas para a reeleição. Em Minas, levantamentos recentes colocam Cleitinho Azevedo na dianteira.</p>
+<h2>Paraná reforça presença do PL</h2>
+<p>No Paraná, pesquisa Quaest divulgada em 24 de agosto colocou Sergio Moro, do PL, com 37% das intenções de voto. Requião Filho, do PDT, apareceu com 21%, enquanto Sandro Alex, do PSD, marcou 15%. O levantamento ouviu 804 eleitores, tem margem de erro de três pontos percentuais e foi registrado na Justiça Eleitoral sob o número PR-05388/2026.</p>
+<p>Uma rodada posterior do Real Time Big Data também apontou Moro na liderança. Nesse caso, foram ouvidos 1.600 eleitores entre 24 e 27 de agosto, com margem de erro de dois pontos. A coincidência entre pesquisas distintas fortalece a leitura de vantagem do candidato do PL no estado, embora a campanha ainda tenha mais de um mês até o primeiro turno.</p>
+<h2>MDB lidera no Espírito Santo e em Goiás</h2>
+<p>No Espírito Santo, a Quaest divulgada em 27 de agosto mostrou Ricardo Ferraço, do MDB, com 35% das intenções de voto, contra 28% de Lorenzo Pazolini, do Republicanos. Helder Salomão, do PT, apareceu com 10%. Foram entrevistados 804 eleitores entre 23 e 26 de agosto. A margem de erro é de três pontos percentuais.</p>
+<p>O levantamento está registrado no TSE sob os números ES-04444/2026 e BR-06255/2026. Como a diferença entre Ricardo e Pazolini é de sete pontos, a vantagem numérica supera a margem de erro total para cada candidato no cenário divulgado, embora isso não transforme a corrida em resultado definido.</p>
+<p>Em Goiás, pesquisa Quaest divulgada no mesmo período colocou Daniel Vilela, do MDB, com 37%, seguido de Marconi Perillo, com 20%. O Real Time Big Data, em levantamento realizado entre 24 e 27 de agosto com 1.600 entrevistados, também apontou Daniel na liderança. A convergência entre institutos diferentes ajuda a explicar por que Goiás aparece no grupo de estados em que o MDB está hoje na frente.</p>
+<h2>Bahia mostra o risco de simplificar o mapa</h2>
+<p>A Bahia é um bom exemplo de por que uma consolidação nacional precisa ser interpretada com cautela. Uma pesquisa Paraná Pesquisas divulgada em 27 de agosto registrou ACM Neto, do União Brasil, com 48,6%, e Jerônimo Rodrigues, do PT, com 40,1%.</p>
+<p>No mesmo período, a Quaest encontrou cenário bem mais apertado, com ACM Neto em 39% e Jerônimo em 37%, tecnicamente empatados dentro da margem de erro de três pontos percentuais. Os dois levantamentos apontam os mesmos candidatos nas primeiras posições, mas produzem leituras diferentes sobre o tamanho da vantagem.</p>
+<p>Isso ocorre porque pesquisas distintas podem variar em método de coleta, desenho amostral, ponderações, período de campo e formulação das perguntas. Por esse motivo, somar lideranças partidárias de diferentes pesquisas é útil para visualizar tendências, mas não permite afirmar quantos governadores cada partido efetivamente elegerá.</p>
+<h2>Disputa presidencial não controla todas as eleições locais</h2>
+<p>O quadro estadual também mostra que o desempenho de Lula e Flávio Bolsonaro na eleição presidencial não se transfere de forma automática para seus aliados nos estados. Há unidades da Federação em que candidatos de partidos aliados ao governo federal lideram, outras em que partidos de oposição estão na frente e várias nas quais alianças locais reúnem legendas que ocupam campos diferentes no debate nacional.</p>
+<p>A consequência prática é que a eleição de 2026 tende a produzir campanhas simultâneas: uma nacionalizada, centrada na Presidência, e outra profundamente estadual, em que candidatos a governador tentam se apresentar como gestores locais e reduzir a dependência da disputa pelo Planalto.</p>
+<h2>Senado amplia ainda mais a fragmentação</h2>
+<p>O levantamento do Correio da Manhã também observa que a corrida para o Senado é ainda mais pulverizada. Como cada estado elegerá dois senadores, pesquisas mostram empates múltiplos e diferenças pequenas entre diversos candidatos.</p>
+<p>O jornal estima, a partir das atuais lideranças numéricas, que o PL poderia chegar a 18 cadeiras em disputa, o PT a 12 e o MDB a dez. Esses números devem ser tratados com cautela redobrada. Em eleições para duas vagas, a intenção de voto pode se distribuir de maneiras diferentes e a margem de erro pode colocar vários candidatos em situação de empate técnico.</p>
+<h2>Retrato importante, mas ainda provisório</h2>
+<p>Faltando pouco mais de um mês para o primeiro turno, marcado para 4 de outubro, o principal sinal do mapa estadual é a ausência de um partido dominante em todo o país. PL, PSD e MDB aparecem espalhados por regiões distintas, enquanto Republicanos, União Brasil, PT, PSB, PP e outras legendas seguem competitivas em diferentes estados.</p>
+<p>O cenário confirma que a eleição para os governos estaduais não pode ser lida apenas como extensão da presidencial. O mapa atual é fragmentado, sujeito a mudanças e fortemente condicionado pelas realidades locais. As próximas rodadas de pesquisa serão decisivas para mostrar quais dessas lideranças estão consolidadas e quais ainda refletem disputas abertas dentro da margem de erro.</p>
+<h2>Fontes da apuração</h2><ul>
+<li><a href="https://www.correiodamanha.com.br/politica/2026/08/314858-hoje-pl-psd-e-mdb-elegeriam-cada-um-cinco-governadores.html" target="_blank" rel="noopener noreferrer">Correio da Manhã: levantamento nacional que originou a pauta</a></li>
+<li><a href="https://www1.folha.uol.com.br/poder/2026/08/quaest-mostra-ricardo-ferraco-com-35-e-pazolini-com-28-na-disputa-pelo-governo-do-es.shtml" target="_blank" rel="noopener noreferrer">Folha de S.Paulo: pesquisa Quaest no Espírito Santo</a></li>
+<li><a href="https://noticias.uol.com.br/eleicoes/2026/08/27/quaest-go-governador-e-senado.ghtm" target="_blank" rel="noopener noreferrer">UOL: pesquisa Quaest em Goiás</a></li>
+<li><a href="https://www1.folha.uol.com.br/poder/2026/08/quaest-moro-lidera-no-pr-com-37-seguido-por-requiao-filho-21-e-sandro-alex-15.shtml" target="_blank" rel="noopener noreferrer">Folha de S.Paulo: pesquisa Quaest no Paraná</a></li>
+<li><a href="https://noticias.uol.com.br/eleicoes/2026/08/27/quaest-ba-governo-e-senado-agosto.ghtm" target="_blank" rel="noopener noreferrer">UOL: pesquisa Quaest na Bahia</a></li>
+</ul>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Correio da Manhã - Capa",
+    fonteUrl: "https://www.correiodamanha.com.br/politica/2026/08/314858-hoje-pl-psd-e-mdb-elegeriam-cada-um-cinco-governadores.html",
+    fontes: [
+      "https://www.correiodamanha.com.br/politica/2026/08/314858-hoje-pl-psd-e-mdb-elegeriam-cada-um-cinco-governadores.html",
+      "https://www1.folha.uol.com.br/poder/2026/08/quaest-mostra-ricardo-ferraco-com-35-e-pazolini-com-28-na-disputa-pelo-governo-do-es.shtml",
+      "https://noticias.uol.com.br/eleicoes/2026/08/27/quaest-go-governador-e-senado.ghtm",
+      "https://www1.folha.uol.com.br/poder/2026/08/quaest-moro-lidera-no-pr-com-37-seguido-por-requiao-filho-21-e-sandro-alex-15.shtml",
+      "https://noticias.uol.com.br/eleicoes/2026/08/27/quaest-ba-governo-e-senado-agosto.ghtm"
+    ],
+    editorial: true
+  }
+];
+if (typeof noticias !== "undefined") noticias.unshift(...materiasEditoriais23);

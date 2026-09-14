@@ -1,0 +1,66 @@
+name: Publicar matéria pendente do ChatGPT
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'publicacoes-chatgpt/*.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-chatgpt-noticia-es
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Inserir exatamente uma matéria no topo de noticias.js
+        shell: bash
+        run: |
+          set -euo pipefail
+          ARQ=$(find publicacoes-chatgpt -maxdepth 1 -type f -name '*.json' | sort | head -n 1 || true)
+          if [ -z "$ARQ" ]; then echo 'Nenhuma publicação pendente.'; exit 0; fi
+          node - "$ARQ" <<'NODE'
+          const fs = require('fs');
+          const arq = process.argv[2];
+          const n = JSON.parse(fs.readFileSync(arq,'utf8'));
+          const p = 'noticias.js';
+          let s = fs.readFileSync(p,'utf8');
+          if (s.includes(`slug: "${n.slug}"`) || s.includes(`slug: '${n.slug}'`)) { fs.unlinkSync(arq); process.exit(0); }
+          const esc = v => String(v ?? '').replace(/\\/g,'\\\\').replace(/"/g,'\\"');
+          const html = String(n.conteudo).replace(/`/g,'\\`').replace(/\$\{/g,'\\${');
+          const adicionais = JSON.stringify(n.fontesAdicionais || []);
+          const obj = `  {\n    id: ${n.id},\n    slug: "${esc(n.slug)}",\n    titulo: "${esc(n.titulo)}",\n    categoria: "${esc(n.categoria)}",\n    data: "${esc(n.data)}",\n    imagem: "${esc(n.imagem)}",\n    resumo: "${esc(n.resumo)}",\n    conteudo: \`${html}\`,\n    autor: "Redação Notícia ES",\n    fonteNome: "${esc(n.fonteNome)}",\n    fonteUrl: "${esc(n.fonteUrl)}",\n    fontesAdicionais: ${adicionais},\n    automatico: true,\n    coletadoEm: "${esc(n.coletadoEm)}"\n  },\n`;
+          const marca = 'const noticias = [\n';
+          if (!s.includes(marca)) throw new Error('marcador const noticias não encontrado');
+          s = s.replace(marca, marca + obj);
+          fs.writeFileSync(p,s);
+          fs.unlinkSync(arq);
+          NODE
+      - name: Gerar derivados
+        run: |
+          node scripts/gerar-paginas-og.mjs
+          node scripts/reposicionar-aeo.mjs || true
+          node scripts/enriquecer-ai-schema.mjs || true
+          node scripts/gerar-sitemap.mjs
+          node scripts/gerar-rss-llms.mjs || true
+      - name: Publicar no repositório
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Notícia ES Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "auto(editorial): publica matéria redigida pelo ChatGPT"
+          git pull --rebase origin main
+          git push origin main

@@ -1,0 +1,40 @@
+const noticiasAutoRedacao20260901093700 = [
+{
+  id: 20260901093701,
+  slug: 'operacao-malorum-victores-mira-trafico-homicidios-sao-mateus-jaguare',
+  titulo: 'Operação mira grupo ligado ao tráfico e a homicídios em São Mateus e Jaguaré',
+  categoria: 'Segurança Pública',
+  data: '2026-09-01',
+  imagem: 'https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788259351664_template_radar_a_gazeta_2026_09_01t073904.jpg',
+  resumo: 'Operação Malorum Victores mobiliza 54 agentes e 14 viaturas para cumprir dez mandados de busca e um de prisão na região do Km 35, em São Mateus; investigação também alcança assassinatos atribuídos ao principal alvo.',
+  conteudo: `<p>A Polícia Civil do Espírito Santo deflagrou na manhã desta terça-feira (1º) a Operação Malorum Victores, na região de Nova Aimorés, conhecida como Km 35, na zona rural de São Mateus. A ação busca desarticular um grupo investigado por tráfico de drogas e reunir provas sobre homicídios ocorridos em São Mateus e Jaguaré, no Norte capixaba.</p>
+<p>Segundo informações divulgadas pela Polícia Civil e confirmadas por diferentes veículos locais, as equipes saíram para cumprir dez mandados de busca e apreensão e um mandado de prisão. O principal alvo é apontado pela investigação como traficante e suspeito de envolvimento direto em assassinatos registrados nos dois municípios. A corporação não divulgou, até a manhã desta terça, a identidade do investigado nem detalhou quais homicídios estão sob apuração.</p>
+<h2>Força-tarefa reúne três forças de segurança</h2>
+<p>A operação mobiliza 54 agentes e 14 viaturas. Participam 25 policiais civis, 24 policiais militares e cinco policiais penais. A estrutura reúne integrantes da 18ª e da 16ª Delegacias Regionais da Polícia Civil, do 13º Batalhão da Polícia Militar, da 22ª Companhia Independente e da Polícia Penal.</p>
+<p>A coordenação está a cargo da Delegacia Regional de São Mateus, da Delegacia Especializada de Homicídios e Proteção à Pessoa de São Mateus e da Delegacia de Polícia de Jaguaré. A integração indica que a investigação não se limita à apreensão de entorpecentes: as diligências procuram conectar pessoas, locais e objetos que possam esclarecer tanto a estrutura do comércio ilegal de drogas quanto crimes violentos atribuídos ao grupo.</p>
+<h2>Buscas procuram provas e possíveis pontos de venda</h2>
+<p>As ordens de busca têm como objetivo localizar elementos de interesse da investigação, objetos relacionados às atividades criminosas e possíveis locais utilizados para comercialização de drogas. O material eventualmente apreendido poderá ser submetido a perícia e análise policial para identificar outros envolvidos e reconstruir a dinâmica do grupo investigado.</p>
+<p>Até a atualização desta reportagem, as autoridades não haviam apresentado um balanço final das diligências. Por isso, informações sobre prisões efetivamente realizadas, quantidade de drogas, armas, dinheiro ou equipamentos apreendidos dependem da conclusão da operação e de divulgação oficial posterior.</p>
+<h2>Região tem sido alvo de operações recentes</h2>
+<p>A ofensiva ocorre poucos dias depois de outra grande mobilização policial no Norte do Espírito Santo. Em 27 de agosto, a Operação Sentinela Norte cumpriu dezenas de mandados relacionados a investigações sobre tráfico de drogas, homicídios, organização criminosa, lavagem de dinheiro, armas e outros delitos em municípios da região. Vinte e cinco pessoas foram presas naquela ação, segundo balanço divulgado pela Polícia Civil.</p>
+<p>Em 20 de agosto, a Polícia Federal também realizou a Operação Último Post, com diligências em São Mateus e Governador Valadares, em Minas Gerais. A investigação federal apura tráfico de drogas, comércio ilegal de armas, lavagem de dinheiro e associação criminosa. Naquela operação, foram cumpridos dois mandados de prisão preventiva e cinco de busca e apreensão.</p>
+<p>As operações são investigações distintas e não há informação pública, até o momento, de que os alvos da Malorum Victores integrem necessariamente os mesmos grupos investigados nas ações anteriores. A proximidade temporal, porém, evidencia a concentração de esforços das forças de segurança sobre organizações envolvidas com drogas, armas e crimes violentos no Norte capixaba.</p>
+<h2>Homicídios permanecem sob investigação</h2>
+<p>Um dos pontos centrais da Malorum Victores é esclarecer a possível participação do principal investigado em assassinatos ocorridos em Jaguaré e São Mateus. A Polícia Civil preservou detalhes sobre os casos, medida que pode evitar prejuízo às diligências enquanto os mandados são cumpridos e o material apreendido é analisado.</p>
+<p>Do ponto de vista jurídico, os alvos permanecem investigados e eventuais responsabilidades individuais dependem das provas reunidas, da atuação do Ministério Público e de decisão judicial. Mandados de busca ou a condição de investigado, isoladamente, não equivalem a condenação.</p>
+<p>A reportagem será atualizada quando a Polícia Civil divulgar o balanço oficial da operação.</p>
+<h2>Fontes consultadas</h2>
+<p><strong>Polícia Civil do Espírito Santo</strong>, informações oficiais reproduzidas na cobertura da operação; <strong>A Gazeta</strong>, cobertura publicada em 1º de setembro; <strong>ES Hoje</strong>, cobertura da Operação Malorum Victores; <strong>TC Online</strong>, informações locais sobre as diligências em Nova Aimorés; e <strong>Polícia Federal</strong>, dados oficiais da Operação Último Post usados exclusivamente para contextualização.</p>`,
+  autor: 'Redação Notícia ES',
+  fonteNome: 'Polícia Civil do Espírito Santo / A Gazeta',
+  fonteUrl: 'https://www.agazeta.com.br/es/policia/operacao-mira-traficante-suspeito-de-ligacao-com-assassinatos-no-norte-do-es-0926',
+  fontesAdicionais: [
+    'https://eshoje.com.br/seguranca/policia/2026/09/operacao-combate-trafico-e-homicidios-no-norte-do-es/',
+    'https://tconline.com.br/operacao-em-sao-mateus-mira-grupo-investigado-por-trafico-e-homicidios/',
+    'https://www.gov.br/pf/pt-br/assuntos/noticias/2026/08/pf-reprime-trafico-de-drogas-trafico-de-armas-e-lavagem-de-dinheiro-no-espirito-santo'
+  ],
+  automatico: true,
+  publicadoEm: '2026-09-01T12:37:00.000Z'
+}
+];
+if (typeof noticias !== 'undefined') noticias.unshift(...noticiasAutoRedacao20260901093700);
