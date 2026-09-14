@@ -673,3 +673,42 @@ main {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
+
+.anuncio-topo {
+  padding: 18px 0 0;
+}
+
+.anuncio-topo .ad-label {
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.anuncio-topo a {
+  display: block;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(18, 26, 36, 0.1);
+}
+
+.anuncio-topo img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 1;
+  object-fit: contain;
+  background: #062b57;
+}
+
+@media (max-width: 699px) {
+  .anuncio-topo {
+    padding-top: 12px;
+  }
+
+  .anuncio-topo .container {
+    width: 100%;
+  }
+
+  .anuncio-topo a {
+    border-radius: 0;
+  }
+}
