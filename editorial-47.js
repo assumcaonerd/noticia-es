@@ -2,7 +2,7 @@
 const materiasEditoriais47 = [
   {
     id: 14092026080100,
-    slug: "estadao-descobre-desobediencia-civil-esqueceu-quem-pagou-preco-dizer-nao",
+    slug: "estadao-desobediencia-civil-preco-de-dizer-nao",
     titulo: "Estadão descobre a desobediência civil. Só esqueceu quem já pagou o preço de dizer não",
     categoria: "Opinião",
     data: "2026-09-14",
