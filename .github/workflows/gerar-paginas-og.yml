@@ -13,6 +13,7 @@ on:
       - 'scripts/publicar-chatgpt-horario.mjs'
       - 'scripts/corrigir-publicacao-chatgpt.mjs'
       - 'scripts/garantir-padrao-publicacao.mjs'
+      - 'scripts/validar-cards-sociais.mjs'
       - '.github/workflows/gerar-paginas-og.yml'
       - '.github/workflows/publicar-proseg-temp.yml'
 
@@ -119,6 +120,8 @@ jobs:
         run: node scripts/gerar-paginas-og.mjs
       - name: Normalizar metadados e compartilhamento
         run: node scripts/normalizar-paginas-estaticas.mjs
+      - name: Bloquear publicação com miniatura inválida
+        run: node scripts/validar-cards-sociais.mjs
       - name: Gerar sitemaps
         run: node scripts/gerar-sitemap.mjs
       - name: Publicar páginas
@@ -127,7 +130,7 @@ jobs:
           set -euo pipefail
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add m sitemap.xml sitemap-news.xml assets/og editorial-37.js editorial-39.js editorial-41.js editorial-42.js
+          git add m sitemap.xml sitemap-news.xml assets/og editorial-37.js editorial-39.js editorial-41.js editorial-42.js scripts/validar-cards-sociais.mjs
           if git diff --cached --quiet; then
             echo "Nenhuma página estática nova."
             exit 0

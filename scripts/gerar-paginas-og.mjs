@@ -40,6 +40,28 @@ function imagemAbsoluta(url = '') {
   return `${SITE}/${u.replace(/^\.\//, '')}`;
 }
 
+function tipoMimeImagem(url = '') {
+  let pathname = '';
+  try { pathname = new URL(String(url), SITE).pathname.toLowerCase(); } catch { pathname = String(url).split('?')[0].toLowerCase(); }
+  if (pathname.endsWith('.png')) return 'image/png';
+  if (pathname.endsWith('.webp')) return 'image/webp';
+  if (pathname.endsWith('.gif')) return 'image/gif';
+  return 'image/jpeg';
+}
+
+function versionarImagemLocal(url = '', n = {}) {
+  const absoluta = imagemAbsoluta(url);
+  if (!absoluta) return '';
+  try {
+    const u = new URL(absoluta);
+    if (u.hostname === 'noticiaes.com.br' && !u.searchParams.has('v')) {
+      const versao = String(n.publicadoEm || n.id || n.data || Date.now()).replace(/\D/g, '').slice(0, 14);
+      u.searchParams.set('v', versao || '1');
+    }
+    return u.href;
+  } catch { return absoluta; }
+}
+
 function ehBoaParaWhatsapp(url = '') {
   const u = String(url || '');
   if (!/^https:\/\//i.test(u)) return false;
@@ -148,8 +170,9 @@ function paginaHTML(n, imagem) {
   const titulo = n.titulo || 'Notícia ES';
   const resumo = n.resumo || 'Política e segurança pública do Espírito Santo e do Brasil.';
   const url = `${SITE}/m/${n.slug}.html`;
-  const img = ehBoaParaWhatsapp(imagem) ? imagem : '';
-  const imagemTwitter = imagemAbsoluta(n.imagemX || imagem);
+  const imagemVersionada = versionarImagemLocal(imagem, n);
+  const img = ehBoaParaWhatsapp(imagemVersionada) ? imagemVersionada : '';
+  const imagemTwitter = versionarImagemLocal(n.imagemX || imagem, n);
   const imgX = ehBoaParaWhatsapp(imagemTwitter) ? imagemTwitter : img;
   const schema = montarNewsArticle(n, url, img);
   const conteudo = sanitizarHtml(n.conteudo || '').replace(/src=(["'])imagens\//gi, `src=$1${SITE}/imagens/`);
@@ -162,7 +185,7 @@ function paginaHTML(n, imagem) {
   const dimensoesX = n.imagemXLargura && n.imagemXAltura
     ? `\n  <meta name="twitter:image:width" content="${escapar(n.imagemXLargura)}">\n  <meta name="twitter:image:height" content="${escapar(n.imagemXAltura)}">`
     : '';
-  const metaImagem = img ? `\n  <meta property="og:image" content="${escapar(img)}">\n  <meta property="og:image:secure_url" content="${escapar(img)}">\n  <meta property="og:image:type" content="image/jpeg">${dimensoesOg}\n  <meta property="og:image:alt" content="${escapar(titulo)}">\n  <meta name="twitter:image" content="${escapar(imgX)}">${dimensoesX}\n  <meta name="twitter:image:alt" content="${escapar(titulo)}">` : '';
+  const metaImagem = img ? `\n  <meta property="og:image" content="${escapar(img)}">\n  <meta property="og:image:secure_url" content="${escapar(img)}">\n  <meta property="og:image:type" content="${tipoMimeImagem(img)}">${dimensoesOg}\n  <meta property="og:image:alt" content="${escapar(titulo)}">\n  <meta name="twitter:image" content="${escapar(imgX)}">\n  <meta name="twitter:image:src" content="${escapar(imgX)}">${dimensoesX}\n  <meta name="twitter:image:alt" content="${escapar(titulo)}">` : '';
 
   return `<!doctype html>
 <html lang="pt-BR"><head>

@@ -18,6 +18,7 @@ on:
       - 'scripts/gerar-sitemap.mjs'
       - 'scripts/gerar-rss-llms.mjs'
       - 'scripts/notificar-indexnow.mjs'
+      - 'scripts/validar-cards-sociais.mjs'
       - '.github/workflows/ai-discovery-infra.yml'
   workflow_dispatch:
 
@@ -49,6 +50,7 @@ jobs:
           node --check scripts/gerar-sitemap.mjs
           node --check scripts/gerar-rss-llms.mjs
           node --check scripts/notificar-indexnow.mjs
+          node --check scripts/validar-cards-sociais.mjs
 
       - name: Atualizar infraestrutura de descoberta
         run: |
@@ -57,6 +59,7 @@ jobs:
           node scripts/enriquecer-ai-schema.mjs
           node scripts/gerar-sitemap.mjs
           node scripts/gerar-rss-llms.mjs
+          node scripts/validar-cards-sociais.mjs
 
       - name: Salvar arquivos gerados
         shell: bash
