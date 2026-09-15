@@ -1,4 +1,5 @@
 const noticiasAutoArquivos = [
+  "editorial-51.js",
   "editorial-50.js",
   "editorial-49.js",
   "editorial-48.js",
