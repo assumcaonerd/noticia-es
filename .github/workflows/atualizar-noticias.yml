@@ -1,6 +1,9 @@
 name: Coletor automático de pautas
 
 on:
+  schedule:
+    # GitHub Actions usa UTC. A coleta roda uma vez por hora.
+    - cron: '17 * * * *'
   workflow_dispatch:
 
 permissions:
