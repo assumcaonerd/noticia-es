@@ -31,6 +31,13 @@ const fontesHtml = [
   { nome: 'Polícia Penal do ES', url: 'https://sejus.es.gov.br/noticias', categoria: 'Segurança Pública', hosts: ['sejus.es.gov.br'] },
   { nome: 'Agentes Socioeducativos do ES', url: 'https://iases.es.gov.br/Noticias', categoria: 'Segurança Pública', hosts: ['iases.es.gov.br'] },
 
+  // Fé e Sociedade — prioridade editorial para fontes evangélicas capixabas oficiais.
+  { nome: 'Igreja Cristã Maranata - Oficial', url: 'https://www.igrejacristamaranata.org.br/', categoria: 'Fé e Sociedade', homepage: true, hosts: ['www.igrejacristamaranata.org.br', 'igrejacristamaranata.org.br'] },
+  { nome: 'Assembleia de Deus Fonte de Vida - Oficial', url: 'https://www.adfontedevida.org.br/', categoria: 'Fé e Sociedade', homepage: true, hosts: ['www.adfontedevida.org.br', 'adfontedevida.org.br'] },
+  { nome: 'Primeira Igreja Presbiteriana de Vitória - Oficial', url: 'https://ipbvit.org.br/', categoria: 'Fé e Sociedade', homepage: true, hosts: ['ipbvit.org.br', 'www.ipbvit.org.br'] },
+  { nome: 'Convenção Batista do Estado do Espírito Santo - Oficial', url: 'https://www.batistas.es/', categoria: 'Fé e Sociedade', homepage: true, hosts: ['www.batistas.es', 'batistas.es'] },
+  { nome: 'IECLB - Sínodo Espiritossantense', url: 'https://www.ieclb.org.br/', categoria: 'Fé e Sociedade', homepage: true, hosts: ['www.ieclb.org.br', 'ieclb.org.br'], filtroTitulo: /(esp[ií]rito santo|espiritossantense|vit[oó]ria|vila velha|cariacica|serra|domingos martins|marechal floriano|santa teresa|santa maria de jetib[aá]|colatina|linhares)/i },
+
   // Fallbacks HTML para feeds que deixaram de existir.
   { nome: 'Estadão - Política', url: 'https://www.estadao.com.br/politica/', categoria: 'Política Nacional', hosts: ['www.estadao.com.br', 'estadao.com.br'] },
   { nome: 'Valor Econômico - Política', url: 'https://valor.globo.com/politica/', categoria: 'Política Nacional', hosts: ['valor.globo.com'] },
@@ -255,6 +262,7 @@ async function coletarFonteHtml(fonte) {
           const resumoFonte = resumir(meta(pagina, 'og:description') || meta(pagina, 'description', 'name') || link.tituloLista);
           const data = extrairData(pagina);
           if (!titulo || !resumoFonte || !ehRecente(data)) continue;
+          if (fonte.filtroTitulo && !fonte.filtroTitulo.test(`${titulo} ${resumoFonte}`)) continue;
           const categoria = classificarCategoria(titulo, link.url, fonte);
           itens.push({ titulo, url: link.url, resumoFonte, data, fonteNome: fonte.nome, categoria });
           if (itens.length >= MAX_POR_FONTE) break;
