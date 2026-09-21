@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-21T19:34:16.955Z",
+  "atualizadoEm": "2026-09-21T23:20:10.420Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 63,
+  "novasPautas": 58,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -205,8 +205,10 @@
     },
     {
       "fonte": "Câmara dos Deputados",
-      "ok": false,
-      "erro": "https://www.camara.leg.br/noticias/rss/ultimas -> fetch failed"
+      "ok": true,
+      "encontrados": 0,
+      "rota": "https://www.camara.leg.br/noticias/rss/ultimas",
+      "fallback": false
     },
     {
       "fonte": "Agência Brasil - Política",
@@ -232,14 +234,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 5,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 2,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -270,7 +272,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 13,
+      "encontrados": 11,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -284,13 +286,13 @@
     {
       "fonte": "TASS",
       "ok": true,
-      "encontrados": 1,
+      "encontrados": 3,
       "rota": "https://tass.com/rss/v2.xml",
       "fallback": false
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-21T19:38:28.458Z",
+    "atualizadoEm": "2026-09-21T23:22:37.798Z",
     "novas": 2,
     "fontes": [
       {
@@ -351,7 +353,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-21T19:38:30.472Z",
+    "atualizadoEm": "2026-09-21T23:22:39.169Z",
     "novas": 0,
     "fontes": [
       {
@@ -367,14 +369,14 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-21T19:38:31.600Z",
+    "atualizadoEm": "2026-09-21T23:22:39.993Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-21T19:38:42.177Z",
-    "novas": 0,
+    "atualizadoEm": "2026-09-21T23:22:50.568Z",
+    "novas": 1,
     "fontes": [
       {
         "fonte": "DIO/ES Notícias",
