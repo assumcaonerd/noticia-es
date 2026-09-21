@@ -138,6 +138,24 @@ function montarNewsArticle(n, url, imagem) {
   };
 }
 
+function montarFaqPage(n) {
+  const permitirCapitao = n.permitirCapitaoNoAeo === true;
+  const itens = Array.isArray(n.aeo) ? n.aeo
+    .filter(x => x?.pergunta && x?.resposta)
+    .filter(x => permitirCapitao || !/capit[aã]o\s+assum[cç][aã]o/i.test(`${x.pergunta} ${x.resposta}`))
+    .slice(0, 6) : [];
+  if (!itens.length) return null;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: itens.map(x => ({
+      '@type': 'Question',
+      name: String(x.pergunta),
+      acceptedAnswer: { '@type': 'Answer', text: String(x.resposta) }
+    }))
+  };
+}
+
 function blocoAeo(n) {
   const permitirCapitao = n.permitirCapitaoNoAeo === true;
   const itens = Array.isArray(n.aeo) ? n.aeo
@@ -175,6 +193,7 @@ function paginaHTML(n, imagem) {
   const imagemTwitter = versionarImagemLocal(n.imagemX || imagem, n);
   const imgX = ehBoaParaWhatsapp(imagemTwitter) ? imagemTwitter : img;
   const schema = montarNewsArticle(n, url, img);
+  const faqSchema = montarFaqPage(n);
   const conteudo = sanitizarHtml(n.conteudo || '').replace(/src=(["'])imagens\//gi, `src=$1${SITE}/imagens/`);
   const data = n.data || '';
   const categoria = n.categoria || 'Notícia';
@@ -199,6 +218,7 @@ function paginaHTML(n, imagem) {
   <link rel="canonical" href="${escapar(url)}"><meta property="og:type" content="article"><meta property="og:locale" content="pt_BR"><meta property="og:site_name" content="Notícia ES"><meta property="og:title" content="${escapar(titulo)}"><meta property="og:description" content="${escapar(resumo)}"><meta property="og:url" content="${escapar(url)}">${metaImagem}
   <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapar(titulo)}"><meta name="twitter:description" content="${escapar(resumo)}">
   <script type="application/ld+json">${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>
+  ${faqSchema ? `<script type="application/ld+json">${JSON.stringify(faqSchema).replace(/</g, '\\u003c')}</script>` : ''}
   <link rel="stylesheet" href="../estilo.css"><link rel="stylesheet" href="../imagem-policy.css">
   <style>.materia-estatica{max-width:860px;margin:0 auto;padding:28px 16px}.materia-estatica h1{line-height:1.08}.materia-resumo{font-size:1.15rem}.materia-meta{opacity:.75;margin:10px 0 22px}.materia-capa{width:100%;height:auto;border-radius:8px}.conteudo-materia p{line-height:1.72;font-size:1.08rem}.conteudo-materia h2{margin-top:30px}.conteudo-materia figure{margin:26px 0}.conteudo-materia figure img{width:100%;height:auto;border-radius:8px}.destaque-numero{margin:28px 0;padding:18px;border:2px solid #222;border-radius:8px;text-align:center;font-size:1.28rem}.aeo-resumo{margin:28px 0;padding:18px;border:1px solid #ddd;border-radius:8px}.aeo-item p{margin-top:5px}.fontes-materia{margin-top:34px}</style>
 </head><body data-pagina="materia">
