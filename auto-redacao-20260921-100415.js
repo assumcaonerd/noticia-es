@@ -1,40 +1,50 @@
 const noticiasAutoRedacao20260921100415 = [
 {
   id: 21092026100415,
-  slug: "candidatos-nao-podem-ser-presos-periodo-eleitoral-2026-excecao-flagrante",
-  titulo: "Candidatos entram em período de restrição à prisão; exceção é flagrante delito",
+  slug: "debate-senado-ceara-quatro-candidatos-21-setembro-2026",
+  titulo: "Debate do Senado no Ceará reúne quatro candidatos às 14h nesta segunda",
   categoria: "Política Nacional",
   data: "2026-09-21",
-  publicadoEm: "2026-09-21T10:04:15-03:00",
-  imagem: "https://uploads.folhavitoria.com.br/imagens/2026/09/Prisao-preso-presa-algema-1000x582.jpg",
-  imagemX: "https://uploads.folhavitoria.com.br/imagens/2026/09/Prisao-preso-presa-algema-1000x582.jpg",
+  publicadoEm: "2026-09-21T10:14:08-03:00",
+  imagem: "https://s2-g1.glbimg.com/UbtALf2n5huaN2uOsrG4cgRMlX4=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/V/V/KNyFz5RtyFDcaxUdkn2Q/senadores-debate-2.jpg",
+  imagemX: "https://s2-g1.glbimg.com/UbtALf2n5huaN2uOsrG4cgRMlX4=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/V/V/KNyFz5RtyFDcaxUdkn2Q/senadores-debate-2.jpg",
   imagemLargura: 1200,
   imagemAltura: 630,
   imagemXLargura: 1200,
   imagemXAltura: 630,
-  legendaImagem: "Código Eleitoral estabelece período especial de restrição à prisão de candidatos antes e depois da votação. Foto: Magnific/Folha Vitória.",
-  resumo: "Regra do artigo 236 do Código Eleitoral vale desde 19 de setembro até 48 horas depois do primeiro turno; proteção não impede prisão em flagrante e tem prazos diferentes para eleitores.",
-  conteudo: `<p>BRASÍLIA. Candidatas e candidatos registrados para as Eleições 2026 estão, desde sábado, 19 de setembro, no período em que não podem ser detidos ou presos, salvo em flagrante delito. A regra está no artigo 236, parágrafo 1º, do Código Eleitoral e vale até 48 horas depois do encerramento do primeiro turno, marcado para 4 de outubro.</p>
-<p>O calendário do Tribunal Superior Eleitoral fixa o intervalo de 19 de setembro a 6 de outubro. A proteção alcança candidaturas de todos os cargos e estados. Ela não equivale a uma imunidade penal permanente nem impede investigações, processos ou decisões judiciais sobre fatos ocorridos antes ou durante a campanha.</p>
-<p>O objetivo histórico da norma é proteger a normalidade da eleição contra prisões usadas para afastar artificialmente candidatos da disputa em momento próximo à votação. A garantia está ligada ao processo eleitoral e possui duração curta e exceções definidas em lei.</p>
-<h2>Flagrante delito é a exceção para candidatos</h2>
-<p>Durante o período especial, candidato pode ser preso se houver flagrante delito. Fora dessa hipótese, a restrição limita o cumprimento de prisões enquanto a janela eleitoral estiver em vigor. O alcance concreto de cada decisão depende da natureza da ordem judicial e da interpretação aplicada ao caso pelas autoridades competentes.</p>
-<p>O TSE destaca que a regra dos candidatos é diferente daquela destinada ao eleitorado. Para eleitoras e eleitores, a proteção começa cinco dias antes da votação e termina 48 horas depois. Nesse caso, além do flagrante, a legislação prevê outras exceções, como sentença criminal condenatória por crime inafiançável e desrespeito a salvo-conduto.</p>
-<p>Mesários e fiscais de partidos também possuem proteção ligada ao exercício das funções eleitorais. Os prazos e as condições variam conforme a categoria, razão pela qual não é correto tratar todas as pessoas envolvidas no pleito como sujeitas à mesma regra.</p>
-<h2>Medida não apaga processos nem acusações</h2>
-<p>A restrição temporária não encerra inquéritos, ações penais ou investigações. Um candidato pode continuar sendo investigado, denunciado ou julgado. A norma trata especificamente da detenção ou prisão durante o intervalo estabelecido pelo Código Eleitoral.</p>
-<p>Também não transforma eventual decisão de prisão em absolvição. Depois do término do período, ordens válidas podem voltar a ser analisadas para cumprimento conforme a situação processual. Cada caso deve ser examinado pelo juízo competente à luz do Código Eleitoral e da legislação penal aplicável.</p>
-<p>Advogados ouvidos pelo Folha Vitória destacam que o mecanismo foi concebido em um contexto histórico em que autoridades locais podiam usar prisões para interferir diretamente na competição eleitoral. A função atual permanece ligada à liberdade do voto e à igualdade de condições entre concorrentes, não a um benefício pessoal irrestrito.</p>
-<h2>Regra volta a valer antes de eventual segundo turno</h2>
-<p>Se houver segundo turno, a legislação produz novo período de proteção para os candidatos que permanecerem na disputa. A contagem volta a considerar os 15 dias anteriores à votação e se estende pelas 48 horas seguintes ao encerramento do pleito.</p>
-<p>O primeiro turno ocorre em 4 de outubro e o eventual segundo turno em 25 de outubro. As datas e os marcos legais estão consolidados na Resolução TSE nº 23.760/2026, que organiza o calendário eleitoral deste ano.</p>
-<p>A leitura correta da regra evita duas interpretações equivocadas: ela não significa que candidatos estejam acima da lei e também não permite que qualquer prisão seja executada normalmente durante o período. Há uma proteção legal específica, de duração determinada, cuja principal exceção para candidaturas é o flagrante delito.</p>`,
+  legendaImagem: "Alcides Fernandes, Capitão Wagner, Cid Gomes e Luizianne Lins participam do debate promovido pelo g1 no Ceará. Imagem: reprodução/g1.",
+  resumo: "Encontro em Fortaleza terá Alcides Fernandes, Capitão Wagner, Cid Gomes e Luizianne Lins, com seis temas, tempo administrado e transmissão pelo portal e redes sociais.",
+  conteudo: `<p>FORTALEZA. Quatro candidatos ao Senado pelo Ceará participam nesta segunda-feira, 21 de setembro, de debate promovido pelo g1 em estúdio montado na redação do Sistema Verdes Mares, em Fortaleza. O encontro começa às 14h, com mediação do jornalista William Santos e transmissão pelo portal e pelos perfis do g1 no YouTube, TikTok e Instagram.</p>
+<p>Foram convidados Alcides Fernandes (PL), Capitão Wagner (União Brasil), Cid Gomes (PSB) e Luizianne Lins (Rede). Segundo as regras divulgadas pela organização, o critério de participação considerou partidos ou federações com representação mínima de cinco parlamentares no Congresso Nacional ou candidaturas que alcançaram pelo menos 5% das intenções de voto na pesquisa Quaest divulgada em 4 de setembro.</p>
+<p>O debate ocorre em uma eleição na qual o Ceará, assim como os demais estados e o Distrito Federal, escolherá dois senadores. Em 2026, o Senado renova dois terços de suas 81 cadeiras, totalizando 54 vagas. A eleição é majoritária simples: os dois candidatos mais votados em cada unidade da Federação são eleitos.</p>
+<h2>Seis temas e tempo administrado</h2>
+<p>O formato anunciado prevê uma mesa redonda com os quatro participantes e o mediador. Cada candidato terá 15 minutos de tempo de fala para administrar ao longo da discussão. Seis temas serão definidos previamente e comunicados às campanhas, enquanto a ordem dos assuntos será sorteada antes do início.</p>
+<p>As intervenções poderão ter até um minuto e trinta segundos. A regra impede falas consecutivas do mesmo candidato, de modo que um participante só poderá voltar a usar a palavra depois que outro tiver se manifestado. O objetivo declarado pela organização é permitir confronto de propostas sem transformar o encontro em uma sequência de perguntas previamente dirigidas a um único concorrente.</p>
+<p>Ao final, cada candidato terá um minuto para considerações finais. Pedidos de direito de resposta serão analisados pela produção e pelo mediador e poderão ser concedidos em situações de ofensa pessoal, de acordo com as regras previamente acordadas com as campanhas.</p>
+<h2>Eleitor terá dois votos para o Senado</h2>
+<p>Uma particularidade da eleição deste ano é que cada eleitor poderá escolher dois nomes diferentes para o Senado. A urna apresentará primeiro a votação para deputado federal e deputado estadual ou distrital, seguida da primeira e da segunda vagas para senador, governador e presidente da República.</p>
+<p>O Tribunal Superior Eleitoral informa que votar duas vezes no mesmo candidato ao Senado não duplica o voto. Como existem duas vagas, a segunda escolha deve ser feita em candidato diferente. A renovação de dois terços ocorre alternadamente com eleições em que apenas um terço das cadeiras do Senado é colocado em disputa.</p>
+<p>O mandato de senador é de oito anos. Entre as atribuições do cargo estão a participação na elaboração de leis federais, a votação do Orçamento e competências exclusivas previstas na Constituição, como a análise de determinadas autoridades indicadas pelo Poder Executivo.</p>
+<h2>Debates integram a reta final da campanha</h2>
+<p>O encontro do Ceará integra uma série de debates promovidos pelo g1 para o Senado em diferentes estados. A emissora também anunciou eventos em outras praças ao longo de setembro. As regras de cada debate podem variar conforme o número de convidados, os critérios legais e os acordos firmados com as campanhas.</p>
+<p>Debates jornalísticos não substituem a propaganda eleitoral gratuita nem os demais espaços de campanha. Eles permitem que eleitores observem respostas dadas sob as mesmas condições de tempo e confronto. O Notícia ES não atribui vencedor ou classificação aos participantes; a cobertura deve registrar propostas, afirmações verificáveis e eventuais correções factuais.</p>
+<p>Como o debate começa às 14h, declarações e propostas apresentadas durante a transmissão poderão acrescentar elementos ao que consta nos planos de governo e nas entrevistas anteriores. Informações sobre candidaturas, registros e contas de campanha permanecem disponíveis nos sistemas oficiais da Justiça Eleitoral.</p>`,
   autor: "Redação Notícia ES",
-  entidades: [{"tipo":"Organization","nome":"Tribunal Superior Eleitoral"},{"tipo":"Thing","nome":"Código Eleitoral"}],
-  aeo: [{"pergunta":"Desde quando candidatos não podem ser presos antes do primeiro turno?","resposta":"Desde 19 de setembro de 2026, quinze dias antes da votação de 4 de outubro."},{"pergunta":"Qual é a exceção para candidatos?","resposta":"A lei permite prisão de candidata ou candidato em caso de flagrante delito."},{"pergunta":"Até quando vale a restrição?","resposta":"Até 48 horas depois do encerramento do primeiro turno, ou seja, até 6 de outubro segundo o calendário do TSE."},{"pergunta":"A regra impede investigações e processos?","resposta":"Não. Ela trata da prisão ou detenção no período eleitoral e não extingue investigações, ações ou decisões judiciais."},{"pergunta":"Eleitores têm a mesma regra?","resposta":"Não. Para eleitores, o período começa cinco dias antes da eleição e há exceções adicionais previstas no Código Eleitoral."}],
-  fonteUrl: "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/faltam-15-dias-candidatas-e-candidatos-nao-podem-ser-presos-a-partir-de-hoje-19",
-  fonteNome: "Tribunal Superior Eleitoral — restrição à prisão de candidatas e candidatos",
-  fontesAdicionais: [{"nome":"TSE — Resolução nº 23.760/2026, calendário eleitoral","url":"https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-760-de-2-de-marco-de-2026"},{"nome":"Folha Vitória — regra para prisão de candidatos","url":"https://www.folhavitoria.com.br/eleicoes/candidatos-nao-poderao-ser-presos-a-partir-deste-sabado/"}],
+  entidades: [{"tipo":"Person","nome":"Alcides Fernandes"},{"tipo":"Person","nome":"Capitão Wagner"},{"tipo":"Person","nome":"Cid Gomes"},{"tipo":"Person","nome":"Luizianne Lins"},{"tipo":"Organization","nome":"g1"}],
+  aeo: [
+    {"pergunta":"Que horas começa o debate do Senado no Ceará?","resposta":"O encontro está marcado para 14h desta segunda-feira, 21 de setembro."},
+    {"pergunta":"Quem participa do debate?","resposta":"Alcides Fernandes, Capitão Wagner, Cid Gomes e Luizianne Lins."},
+    {"pergunta":"Onde assistir?","resposta":"No portal g1 e nos perfis do g1 no YouTube, TikTok e Instagram."},
+    {"pergunta":"Como será o formato?","resposta":"Serão seis temas, com 15 minutos de tempo administrado para cada candidato e intervenções de até um minuto e trinta segundos."},
+    {"pergunta":"Quantos senadores o Ceará elegerá em 2026?","resposta":"Dois. Em 2026, cada estado e o Distrito Federal elegem dois senadores."},
+    {"pergunta":"Como são definidos os eleitos para o Senado?","resposta":"Pelo sistema majoritário simples: os dois candidatos com maior votação no estado são eleitos."}
+  ],
+  fonteUrl: "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/21/g1-realiza-debate-com-candidatos-do-ce-ao-senado-nesta-segunda-21-veja-quem-participa-horario-regras-e-como-assistir.ghtml",
+  fonteNome: "g1 Ceará — regras e participantes do debate ao Senado",
+  fontesAdicionais: [
+    {"nome":"TSE — cargos em disputa nas Eleições 2026","url":"https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/faltam-21-dias-conheca-os-cargos-em-disputa-nas-eleicoes-2026"},
+    {"nome":"TSE — ordem de votação nas Eleições 2026","url":"https://www.tse.jus.br/comunicacao/noticias/2026/Marco/eleicoes-2026-conheca-a-ordem-de-votacao-na-urna-eletronica"}
+  ],
   automatico: true,
   manual: false
 }
