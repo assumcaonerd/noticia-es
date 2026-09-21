@@ -8,6 +8,8 @@ on:
     paths:
       - 'noticias.js'
       - 'editorial-*.js'
+      - 'auto-redacao-*.js'
+      - 'auto-manifest.js'
       - 'scripts/gerar-paginas-og.mjs'
       - 'scripts/normalizar-paginas-estaticas.mjs'
       - 'scripts/publicar-chatgpt-horario.mjs'
