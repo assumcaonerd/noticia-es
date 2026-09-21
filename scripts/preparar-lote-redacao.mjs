@@ -7,6 +7,12 @@ const PAUTAS = path.join(RAIZ, 'pautas.json');
 const DESTINO = path.join(RAIZ, 'lote-redacao.json');
 
 const FONTES_PRIORITARIAS = [
+  // Fé e Sociedade: fontes oficiais evangélicas do ES vêm primeiro dentro da editoria.
+  'igrejacristamaranata.org.br',
+  'adfontedevida.org.br',
+  'ipbvit.org.br',
+  'batistas.es',
+  'ieclb.org.br',
   'agazeta.com.br',
   'folhavitoria.com.br',
   'tribunaonline.com.br',
@@ -134,6 +140,7 @@ function categoriaRank(categoria = '') {
   if (c === 'seguranca publica') return 0;
   if (c === 'politica es') return 1;
   if (c === 'politica nacional') return 2;
+  if (c === 'fe e sociedade') return 3;
   return 9;
 }
 
