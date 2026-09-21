@@ -73,14 +73,24 @@
 
     const materia = document.querySelector('.conteudo-materia, .materia-conteudo');
     if (materia) {
-      const paragrafos = materia.querySelectorAll(':scope > p');
-      if (paragrafos.length >= 3) paragrafos[Math.min(3, paragrafos.length - 1)].after(blocoDireto('meio-materia'));
+      if (materia.dataset.adsInserted === 'true') return;
+      materia.dataset.adsInserted = 'true';
+
+      const paragrafos = Array.from(materia.querySelectorAll('p'));
+      if (paragrafos.length >= 2) {
+        const indiceMeio = Math.min(Math.max(2, Math.floor(paragrafos.length / 2)), paragrafos.length - 1);
+        paragrafos[indiceMeio].after(blocoDireto('meio-materia'));
+      } else if (materia.children.length) {
+        materia.children[Math.floor(materia.children.length / 2)].after(blocoDireto('meio-materia'));
+      } else {
+        materia.appendChild(blocoDireto('meio-materia'));
+      }
       materia.appendChild(blocoDireto('fim-materia'));
       return;
     }
 
     const hero = document.querySelector('.hero-area');
-    if (hero) hero.after(blocoDireto('home-topo'));
+    if (hero && !document.querySelector('.ad-space-home-topo')) hero.after(blocoDireto('home-topo'));
   }
 
   function completarNavegacaoERodape() {
