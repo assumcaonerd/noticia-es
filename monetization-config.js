@@ -6,7 +6,7 @@ window.NOTICIAES_MONETIZATION = Object.freeze({
     takeover: true,
     name: 'BYD',
     image: '/assets/ads/byd-ofertas.webp',
-    href: '',
+    href: 'https://www.byd.com/br/ofertas?state=ES&city=3205309&model=CX013016',
     alt: 'Ofertas exclusivas BYD',
     width: 750,
     height: 155
