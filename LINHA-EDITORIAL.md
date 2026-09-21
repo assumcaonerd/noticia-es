@@ -45,6 +45,21 @@ Categoria nacional: `Política Nacional`.
 
 **Fontes excluídas do motor:** Valor Econômico e agências internacionais de notícias, incluindo Reuters, AP, AFP, EFE, Xinhua e TASS. Não devem entrar como fonte de coleta, pauta automática ou reprodução no Notícia ES.
 
+
+## 5A. Fé e Sociedade
+
+Na editoria `Fé e Sociedade`, a seleção automática deve privilegiar pautas evangélicas, com prioridade máxima para fatos, eventos, projetos, missões, ações sociais, estudos e comunicados de igrejas e denominações do Espírito Santo.
+
+Ordem editorial de preferência:
+
+1. Pautas evangélicas do Espírito Santo em fontes oficiais.
+2. Pautas evangélicas nacionais com relevância jornalística.
+3. Outras pautas religiosas, inclusive católicas, quando tiverem relevância jornalística clara.
+
+**Fontes evangélicas capixabas prioritárias:** Igreja Cristã Maranata (ICM), Assembleia de Deus Fonte de Vida, Primeira Igreja Presbiteriana de Vitória, Convenção Batista do Estado do Espírito Santo (CBEES) e IECLB, neste último caso priorizando conteúdos do Sínodo Espiritossantense e comunidades capixabas.
+
+A preferência é de seleção de pauta. Não autoriza transformar comunicado institucional em propaganda. O texto final continua sujeito a apuração, contexto e redação jornalística própria.
+
 ## 6. Proibido
 
 Inventar manchete. Transformar publicidade em crime. Copiar Folha/Globo e chamar de reescrita. Esconder fato ruim da direita. Meter a tese nacional em boletim de Cariacica sem gancho.
