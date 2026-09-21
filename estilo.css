@@ -712,3 +712,54 @@ main {
     border-radius: 0;
   }
 }
+
+
+/* Campanha direta BYD | 2026-09-21 */
+.campaign-ad {
+  display: block;
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 12px;
+  line-height: 0;
+  background: transparent;
+}
+
+.campaign-ad img {
+  display: block;
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+  aspect-ratio: 750 / 155;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+a.campaign-ad:hover {
+  opacity: .98;
+}
+
+.ad-space-home-topo {
+  width: min(calc(100% - 32px), 750px);
+  max-width: 750px;
+}
+
+.ad-space-meio-materia,
+.ad-space-fim-materia {
+  max-width: 750px;
+}
+
+@media (max-width: 699px) {
+  .ad-space {
+    margin: 18px auto;
+  }
+
+  .ad-space-home-topo {
+    width: calc(100% - 24px);
+  }
+
+  .campaign-ad {
+    border-radius: 8px;
+  }
+}

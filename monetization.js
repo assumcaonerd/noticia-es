@@ -14,6 +14,8 @@
 
   function ativarAdSense() {
     const cfg = window.NOTICIAES_MONETIZATION || {};
+    const campanha = cfg.directCampaign || {};
+    if (campanha.active && campanha.takeover) return;
     const client = String(cfg.adsenseClient || '').trim();
     if (!/^ca-pub-\d{16}$/.test(client) || document.querySelector('script[data-nes-adsense]')) return;
     const tag = document.createElement('script');
@@ -28,6 +30,38 @@
     const box = document.createElement('aside');
     box.className = 'ad-space ad-space-' + posicao;
     box.setAttribute('aria-label', 'Publicidade');
+
+    const cfg = window.NOTICIAES_MONETIZATION || {};
+    const campanha = cfg.directCampaign || {};
+
+    if (campanha.active && campanha.image) {
+      const rotulo = document.createElement('span');
+      rotulo.className = 'ad-label';
+      rotulo.textContent = 'Publicidade';
+      box.appendChild(rotulo);
+
+      const temLink = /^https?:\/\//i.test(String(campanha.href || ''));
+      const suporte = document.createElement(temLink ? 'a' : 'div');
+      suporte.className = 'campaign-ad';
+      if (temLink) {
+        suporte.href = campanha.href;
+        suporte.target = '_blank';
+        suporte.rel = 'sponsored noopener noreferrer';
+        suporte.setAttribute('aria-label', 'Abrir oferta ' + (campanha.name || 'do anunciante'));
+      }
+
+      const img = document.createElement('img');
+      img.src = campanha.image;
+      img.alt = campanha.alt || campanha.name || 'Publicidade';
+      img.width = Number(campanha.width) || 750;
+      img.height = Number(campanha.height) || 155;
+      img.loading = posicao === 'home-topo' ? 'eager' : 'lazy';
+      img.decoding = 'async';
+      suporte.appendChild(img);
+      box.appendChild(suporte);
+      return box;
+    }
+
     box.innerHTML = '<span class="ad-label">Publicidade</span>' +
       '<a class="direct-ad" href="/anuncie.html?posicao=' + encodeURIComponent(posicao) + '">' +
       '<span><strong>Anuncie no Notícia ES</strong><span>Divulgue sua marca para leitores do Espírito Santo</span></span></a>';
@@ -112,9 +146,11 @@
 
   function iniciar() {
     completarNavegacaoERodape();
-    inserirEspacos();
     mostrarConsentimento();
-    carregarConfiguracao().then(ativarAdSense);
+    carregarConfiguracao().then(function () {
+      inserirEspacos();
+      ativarAdSense();
+    });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', iniciar, { once: true });
