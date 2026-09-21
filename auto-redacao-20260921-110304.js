@@ -2,7 +2,7 @@ const noticiasAutoRedacao20260921110304 = [
 {
   "id": 21092026110304,
   "slug": "pix-novas-regras-conta-salario-cobranca-hibrida-2027",
-  "titulo": "Pix terá débito automático em conta-salário e cobrança híbrida a partir de 2027",
+  "titulo": "Pix Automático chegará à conta-salário e cobrança híbrida valerá em 2027",
   "categoria": "Economia",
   "data": "2026-09-21",
   "publicadoEm": "2026-09-21T11:03:04-03:00",
