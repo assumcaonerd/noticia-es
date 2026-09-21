@@ -5,7 +5,7 @@
     return new Promise(function (resolve) {
       if (window.NOTICIAES_MONETIZATION) return resolve();
       const config = document.createElement('script');
-      config.src = '/monetization-config.js?v=20260921-2';
+      config.src = '/monetization-config.js?v=20260921-4';
       config.onload = resolve;
       config.onerror = resolve;
       document.head.appendChild(config);
@@ -90,7 +90,10 @@
     }
 
     const hero = document.querySelector('.hero-area');
-    if (hero && !document.querySelector('.ad-space-home-topo')) hero.after(blocoDireto('home-topo'));
+    if (hero) {
+      document.querySelectorAll('.anuncio-topo, .ad-space-home-topo').forEach(function (el) { el.remove(); });
+      hero.after(blocoDireto('home-topo'));
+    }
   }
 
   function completarNavegacaoERodape() {
