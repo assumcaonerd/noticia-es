@@ -5,7 +5,7 @@
     return new Promise(function (resolve) {
       if (window.NOTICIAES_MONETIZATION) return resolve();
       const config = document.createElement('script');
-      config.src = '/monetization-config.js?v=20260911-1';
+      config.src = '/monetization-config.js?v=20260921-2';
       config.onload = resolve;
       config.onerror = resolve;
       document.head.appendChild(config);
