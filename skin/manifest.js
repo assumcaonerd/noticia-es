@@ -1,12 +1,4 @@
-/* SKIN NOTÍCIA ES
- * Lista as matérias manuais. Não edite auto-manifest.js, noticias.js
- * nem os arquivos auto-redacao-*.js.
- *
- * Para publicar:
- * 1. grave o JS em skin/materias/{slug}.js
- * 2. coloque o nome do arquivo nesta lista
- * 3. envie só a pasta skin/
- */
+/* SKIN NOTÍCIA ES */
 window.SKIN_MATERIAS = [
-  /* "exemplo-slug.js" */
+  "vai-ter-22190-nas-urnas-capitao-assumcao-tre.js"
 ];
