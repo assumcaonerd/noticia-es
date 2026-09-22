@@ -1,6 +1,9 @@
 name: Infraestrutura de descoberta por IA
 
 on:
+  schedule:
+    # Regera o sitemap de notícias a cada hora e expira itens com mais de 48 horas.
+    - cron: '43 * * * *'
   push:
     branches: [main]
     paths:
