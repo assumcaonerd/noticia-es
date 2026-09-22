@@ -7,7 +7,8 @@
   const menuToggle = document.querySelector('[data-menu-toggle]');
   const nav = document.querySelector('[data-nav]');
 
-  if (menuToggle && nav) {
+  if (menuToggle && nav && menuToggle.dataset.menuLigado !== 'true') {
+    menuToggle.dataset.menuLigado = 'true';
     menuToggle.addEventListener('click', () => {
       const aberto = nav.classList.toggle('aberto');
       menuToggle.setAttribute('aria-expanded', String(aberto));
