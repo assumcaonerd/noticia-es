@@ -1,6 +1,9 @@
 name: Preparar lote da redação automática
 
 on:
+  schedule:
+    # UTC. Coletor roda em :17. A redação fecha o ciclo 30 minutos depois.
+    - cron: '47 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -11,9 +14,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  preparar:
+  redigir:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -23,24 +26,29 @@ jobs:
           node-version: '24'
       - name: Gerar lote enxuto
         run: node scripts/preparar-lote-redacao.mjs
-      - name: Publicar lote
+      - name: Reapurar pautas em reportagens completas
+        run: node scripts/reapurar-lote-redacao.mjs
+      - name: Publicar reportagens reapuradas
+        run: node scripts/redator-automatico.mjs
+        continue-on-error: true
+      - name: Gravar lote e matérias
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add lote-redacao.json
+          git add lote-redacao.json auto-manifest.js publicacoes-pendentes/ auto-redacao-*.js || true
           if git diff --cached --quiet; then
-            echo "Lote sem alterações."
+            echo "Nada novo para publicar."
             exit 0
           fi
-          git commit -m "motor: prepara lote da redação automática"
+          git commit -m "motor: reapura lote e publica redação automática"
 
           for tentativa in 1 2 3 4 5; do
             echo "Tentativa de publicação ${tentativa}/5"
-            git pull --rebase origin main
+            git pull --rebase origin main || true
             if git push origin HEAD:main; then
-              echo "Lote publicado com sucesso."
+              echo "Lote e redação publicados."
               exit 0
             fi
             if [ "$tentativa" -lt 5 ]; then
@@ -48,5 +56,5 @@ jobs:
             fi
           done
 
-          echo "Falha ao publicar lote após 5 tentativas."
+          echo "Falha ao publicar após 5 tentativas."
           exit 1
