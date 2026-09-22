@@ -44,6 +44,9 @@
       'opiniao': 'opiniao',
       'fe e sociedade': 'fe-e-sociedade',
       'fe sociedade': 'fe-e-sociedade',
+      'cidades': 'cidades',
+      'cidade': 'cidades',
+      'noticias locais': 'cidades',
       'cultura': 'cultura',
       'tecnologia': 'tecnologia'
     };
