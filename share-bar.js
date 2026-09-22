@@ -184,6 +184,67 @@
     document.body.classList.add('nes-share-rail-enabled');
   }
 
+  function sincronizarMenuEditorial() {
+    var headerInner = document.querySelector('.site-header .header-inner');
+    var nav = headerInner && headerInner.querySelector('.nav-principal');
+    if (!headerInner || !nav) return;
+
+    var inicio = location.pathname.indexOf('/m/') !== -1 ? '../index.html' : '/index.html';
+    var itens = [
+      ['Início', inicio],
+      ['Política ES', inicio + '?categoria=politica-es'],
+      ['Segurança Pública', inicio + '?categoria=seguranca-publica'],
+      ['Justiça', inicio + '?categoria=justica'],
+      ['Política Nacional', inicio + '?categoria=politica-nacional'],
+      ['Economia', inicio + '?categoria=economia'],
+      ['Opinião', inicio + '?categoria=opiniao'],
+      ['Fé e Sociedade', inicio + '?categoria=fe-e-sociedade'],
+      ['Cidades', inicio + '?categoria=cidades'],
+      ['Cultura', inicio + '?categoria=cultura'],
+      ['Tecnologia', inicio + '?categoria=tecnologia'],
+      ['Esporte', inicio + '?categoria=esporte'],
+      ['Pesquisa', '/pesquisa.html'],
+      ['Anuncie', '/anuncie.html']
+    ];
+
+    nav.id = 'menu-principal';
+    nav.setAttribute('data-nav', '');
+    nav.setAttribute('aria-label', 'Navegação principal');
+    nav.innerHTML = '<ul>' + itens.map(function (item) {
+      return '<li><a href="' + item[1] + '">' + item[0] + '</a></li>';
+    }).join('') + '</ul>';
+
+    var logo = headerInner.querySelector('.logo');
+    if (logo && !logo.closest('.marca-site')) {
+      var marca = document.createElement('div');
+      marca.className = 'marca-site';
+      logo.parentNode.insertBefore(marca, logo);
+      marca.appendChild(logo);
+      var slogan = document.createElement('span');
+      slogan.className = 'slogan-site';
+      slogan.textContent = 'O maior portal de notícias capixaba';
+      marca.appendChild(slogan);
+    }
+
+    var botao = headerInner.querySelector('[data-menu-toggle]');
+    if (!botao) {
+      botao = document.createElement('button');
+      botao.className = 'menu-toggle';
+      botao.type = 'button';
+      botao.setAttribute('data-menu-toggle', '');
+      botao.setAttribute('aria-expanded', 'false');
+      botao.setAttribute('aria-controls', 'menu-principal');
+      botao.textContent = 'Menu';
+      nav.parentNode.insertBefore(botao, nav);
+    }
+
+    botao.addEventListener('click', function () {
+      var aberto = nav.classList.toggle('aberto');
+      botao.setAttribute('aria-expanded', String(aberto));
+    });
+  }
+
+  quandoPronto(sincronizarMenuEditorial);
   quandoPronto(iniciar);
   quandoPronto(function () {
     if (!/pazolini-verita-pesquisa-mapa-espirito-santo/.test(location.pathname + location.search)) return;
