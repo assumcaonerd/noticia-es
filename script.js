@@ -62,8 +62,11 @@
 
   function formatarData(dataISO) {
     if (!dataISO) return '';
-    const [ano, mes, dia] = dataISO.split('-').map(Number);
-    const data = new Date(ano, mes - 1, dia);
+    const iso = String(dataISO).match(/^(\d{4})-(\d{2})-(\d{2})/);
+    const data = iso
+      ? new Date(Number(iso[1]), Number(iso[2]) - 1, Number(iso[3]))
+      : new Date(dataISO);
+    if (!Number.isFinite(data.getTime())) return String(dataISO);
     return new Intl.DateTimeFormat('pt-BR', {
       day: '2-digit', month: 'long', year: 'numeric'
     }).format(data);
