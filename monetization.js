@@ -119,7 +119,7 @@
       const links = document.createElement('nav');
       links.className = 'footer-links';
       links.setAttribute('aria-label', 'Informações institucionais');
-      links.innerHTML = '<a href="/sobre.html">Sobre</a><a href="/expediente.html">Expediente</a>' +
+      links.innerHTML = '<a href="/sobre.html">Sobre</a><a href="/sobre.html#expediente">Expediente</a>' +
         '<a href="/contato.html">Contato</a><a href="/anuncie.html">Anuncie</a>' +
         '<a href="/politica-de-privacidade.html">Privacidade</a><a href="/termos-de-uso.html">Termos</a>';
       footer.appendChild(links);
