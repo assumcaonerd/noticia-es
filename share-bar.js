@@ -198,7 +198,7 @@
       ['Política Nacional', inicio + '?categoria=politica-nacional'],
       ['Economia', inicio + '?categoria=economia'],
       ['Opinião', inicio + '?categoria=opiniao'],
-      ['Fé e Sociedade', inicio + '?categoria=fe-e-sociedade'],
+      ['Fé', inicio + '?categoria=fe-e-sociedade'],
       ['Cidades', inicio + '?categoria=cidades'],
       ['Cultura', inicio + '?categoria=cultura'],
       ['Tecnologia', inicio + '?categoria=tecnologia'],
@@ -246,6 +246,12 @@
       });
     }
   }
+
+  quandoPronto(function () {
+    document.querySelectorAll('.chapeu').forEach(function (elemento) {
+      if (elemento.textContent.trim() === 'Fé e Sociedade') elemento.textContent = 'Fé';
+    });
+  });
 
   quandoPronto(sincronizarMenuEditorial);
   quandoPronto(iniciar);
