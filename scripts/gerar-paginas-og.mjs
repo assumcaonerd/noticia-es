@@ -230,7 +230,7 @@ function paginaHTML(n, imagem) {
   <div class="conteudo-materia">${conteudo}</div>
   ${blocoAeo(n)}
   ${fontesHtml(n)}
-</article></main><footer class="site-footer"><div class="container"><strong>Notícia ES</strong> | política e segurança pública do Espírito Santo</div></footer>
+</article></main><footer class="site-footer"><div class="container"><strong>Notícia ES</strong> | política e segurança pública do Espírito Santo · <a href="/sobre.html#expediente">Expediente</a></div></footer>
 </body></html>\n`;
 }
 
