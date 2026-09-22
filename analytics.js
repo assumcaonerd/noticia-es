@@ -84,6 +84,7 @@
   'use strict';
 
   function garantirShareBarUnica() {
+    if (!/^\/m\//.test(window.location.pathname)) return;
     const existente = document.querySelector('script[src*="share-bar.js"]');
     if (existente || window.NOTICIAES_SHARE_BAR_LOADED) return;
     window.NOTICIAES_SHARE_BAR_LOADED = true;
