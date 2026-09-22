@@ -21,5 +21,6 @@ const noticiasAutoRedacao20260921222201 = [
   "automatico": true, "manual": false
 }
 ];
-if (typeof window !== "undefined") { window.noticias = window.noticias || []; window.noticias.push(...noticiasAutoRedacao20260921222201); }
-if (typeof module !== "undefined") module.exports = noticiasAutoRedacao20260921222201;
+if (typeof window !== 'undefined') window.noticiasAutoRedacao20260921222201 = noticiasAutoRedacao20260921222201;
+if (typeof noticias !== 'undefined' && Array.isArray(noticias)) noticias.unshift(...noticiasAutoRedacao20260921222201);
+if (typeof window !== 'undefined' && Array.isArray(window.noticias) && (typeof noticias === 'undefined' || window.noticias !== noticias)) window.noticias.unshift(...noticiasAutoRedacao20260921222201);
