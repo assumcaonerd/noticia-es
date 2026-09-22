@@ -1,0 +1,41 @@
+const noticiasAutoRedacao20260922063001 = [
+  {
+    "slug": "justica-eleitoral-seguranca-votacao-vila-velha",
+    "titulo": "Justiça Eleitoral e forças de segurança alinham votação em Vila Velha",
+    "categoria": "Política ES",
+    "resumo": "Juízes das três zonas eleitorais do município conheceram o planejamento policial para o primeiro turno de 4 de outubro.",
+    "legendaImagem": "Representantes da Justiça Eleitoral, Ministério Público, cartórios, Guarda Municipal e Polícia Militar durante reunião em Vila Velha. Crédito: Divulgação/TRE-ES.",
+    "fonteNome": "TRE-ES — reunião com forças de segurança em Vila Velha",
+    "fonteUrl": "https://www.tre-es.jus.br/comunicacao/noticias/2026/Setembro/juizes-eleitorais-de-vila-velha-se-reunem-com-representantes-das-forcas-de-seguranca-1",
+    "fontesAdicionais": [
+      {"nome":"TSE — livre deslocamento do eleitorado","url":"https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/tse-e-ministerio-da-justica-vao-garantir-livre-deslocamento-de-eleitores-nos-dias-de-votacao"},
+      {"nome":"TRE-ES — informações das Eleições 2026","url":"https://www.tre-es.jus.br/eleicoes/eleicoes-2026/informacoes"},
+      {"nome":"Polícia Militar do Espírito Santo","url":"https://pm.es.gov.br/"}
+    ],
+    "aeo": [
+      {"pergunta":"Qual foi o objetivo da reunião em Vila Velha?","resposta":"Conhecer o planejamento policial e coordenar medidas para uma votação pacífica e segura no primeiro turno."},
+      {"pergunta":"Quais zonas eleitorais participaram?","resposta":"As zonas eleitorais 32ª, 55ª e 57ª, responsáveis pelo município de Vila Velha."},
+      {"pergunta":"Quais forças de segurança estiveram representadas?","resposta":"A Guarda Municipal de Vila Velha e a Polícia Militar do Espírito Santo."},
+      {"pergunta":"Quando será o primeiro turno?","resposta":"Em 4 de outubro de 2026, conforme o calendário da Justiça Eleitoral."},
+      {"pergunta":"A reunião alterou local ou horário de votação?","resposta":"Não houve anúncio de mudança. Local e seção devem ser consultados nos canais oficiais da Justiça Eleitoral."},
+      {"pergunta":"Como denunciar uma emergência no dia da eleição?","resposta":"Situações imediatas de segurança devem ser comunicadas pelo 190; questões eleitorais devem seguir os canais oficiais do TRE-ES."}
+    ],
+    "conteudo": "<p><strong>Juízes das três zonas eleitorais responsáveis por Vila Velha reuniram-se com representantes da Guarda Municipal e da Polícia Militar na sexta-feira, 18 de setembro, para conhecer o planejamento policial do primeiro turno das Eleições 2026.</strong> O encontro foi divulgado pelo Tribunal Regional Eleitoral do Espírito Santo na segunda-feira (21), a menos de duas semanas da votação marcada para 4 de outubro.</p>\n<p>A reunião envolveu as zonas 32ª, 55ª e 57ª, que dividem a organização eleitoral do município. Participaram as juízas Lucianne Keijok Spitz Costa e Mariana Lisboa Cruz e o juiz Manoel Cruz Doval, titulares das respectivas unidades. Também estiveram presentes integrantes do Ministério Público Eleitoral e as chefias dos três cartórios.</p>\n<p>Pelas forças de segurança, compareceram o subcomandante da Guarda Municipal de Vila Velha, Thiago Nylander Veronez, e oficiais da Polícia Militar: o tenente-coronel Kunsch, os majores Andrade e Lorenzo, o capitão Willian e os tenentes Campelo e Fabrício. O TRE-ES não divulgou detalhes operacionais, efetivo, rotas ou pontos de emprego das equipes, informação que deve ser tratada com cautela por envolver planejamento de segurança.</p>\n<h2>Coordenação reúne competências diferentes</h2>\n<p>A Justiça Eleitoral organiza seções, urnas, equipes de mesários, transporte de materiais e decisões administrativas do pleito. O Ministério Público fiscaliza a legalidade eleitoral, enquanto as forças de segurança atuam na prevenção e na resposta a ocorrências. A reunião antecipa a coordenação entre órgãos que terão funções distintas, mas precisam compartilhar fluxos de comunicação durante o domingo de votação.</p>\n<p>Na prática, essa articulação serve para que chamados de cartórios e presidentes de seção cheguem ao órgão competente sem demora. Situações de violência, ameaça, dano a equipamento ou perturbação dos trabalhos exigem resposta policial. Questões sobre fila, identificação do eleitor, funcionamento da urna ou aplicação das normas eleitorais permanecem sob responsabilidade da mesa e da autoridade eleitoral.</p>\n<p>O encontro também permite revisar contatos, áreas de responsabilidade e procedimentos de escalonamento. O comunicado do TRE-ES, porém, limitou-se a informar que os participantes conheceram o planejamento policial voltado a uma votação pacífica e segura. Não há base pública para afirmar que exista ameaça específica contra Vila Velha ou mudança extraordinária no regime de policiamento.</p>\n<h2>Livre circulação deve ser preservada</h2>\n<p>Em âmbito nacional, o Tribunal Superior Eleitoral e o Ministério da Justiça publicaram a Portaria Conjunta TSE nº 4/2026 para orientar órgãos federais de segurança nos dias 4 e 25 de outubro. A norma determina que fiscalização e patrulhamento não criem barreiras injustificadas ao deslocamento de eleitores. Bloqueios em rodovias federais devem ser comunicados ao tribunal regional competente, salvo situações de flagrante ou risco imediato.</p>\n<p>A regra federal não substitui o plano municipal apresentado em Vila Velha, mas estabelece um princípio comum: segurança pública deve proteger o acesso às urnas, e não dificultá-lo. Abordagens continuam possíveis dentro das atribuições legais, especialmente diante de crime ou perigo concreto. A atuação precisa ser proporcional ao risco e compatível com o direito de circulação no horário de votação.</p>\n<p>A cooperação inclui atenção a imprevistos que afetem o deslocamento, como interdição de via, acidente ou evento climático. Nesses casos, segurança, trânsito, defesa civil e Justiça Eleitoral podem precisar informar rotas alternativas e preservar o transporte de pessoas e materiais. Nenhuma ocorrência desse tipo foi anunciada para Vila Velha; trata-se de preparação preventiva para cenários que podem surgir.</p>\n<h2>Eleitor deve conferir seção nos canais oficiais</h2>\n<p>O primeiro turno será realizado em 4 de outubro, das 8h às 17h no horário de Brasília. A reunião de segurança não alterou endereços nem horários. O eleitor deve consultar zona, seção e local pelo e-Título ou pelo Autoatendimento Eleitoral e verificar a informação novamente perto da data, especialmente se houve mudança recente de domicílio ou de prédio de votação.</p>\n<p>No dia do pleito, dúvidas sobre o procedimento de voto devem ser apresentadas à mesa receptora. Emergências de segurança podem ser comunicadas ao 190, enquanto denúncias de propaganda irregular ou ilícitos eleitorais devem usar os canais indicados pelo TRE-ES e pelo aplicativo Pardal. Publicações em redes sociais não substituem o registro oficial e podem expor pessoas sem necessidade.</p>\n<p>Os próximos passos são a conclusão do plano operacional, a distribuição de urnas e materiais e a ativação dos contatos entre cartórios e forças de segurança. O TRE-ES poderá publicar orientações adicionais se houver mudança logística. Até lá, a informação confirmada é que as três zonas eleitorais de Vila Velha e os órgãos policiais já realizaram a reunião de alinhamento para o primeiro turno.</p>",
+    "id": 22092026063001,
+    "data": "2026-09-22",
+    "publicadoEm": "2026-09-22T06:29:12-03:00",
+    "img": "assets/og/justica-eleitoral-seguranca-votacao-vila-velha.jpg",
+    "imagem": "assets/og/justica-eleitoral-seguranca-votacao-vila-velha.jpg",
+    "imagemX": "https://noticiaes.com.br/assets/og/justica-eleitoral-seguranca-votacao-vila-velha.jpg",
+    "imagemLargura": 1200,
+    "imagemAltura": 630,
+    "autor": "Redação Notícia ES",
+    "automatico": true,
+    "manual": false,
+    "entidades": []
+  }
+];
+
+if (typeof window !== 'undefined') window.noticiasAutoRedacao20260922063001 = noticiasAutoRedacao20260922063001;
+if (typeof noticias !== 'undefined' && Array.isArray(noticias)) noticias.unshift(...noticiasAutoRedacao20260922063001);
+if (typeof window !== 'undefined' && Array.isArray(window.noticias) && (typeof noticias === 'undefined' || window.noticias !== noticias)) window.noticias.unshift(...noticiasAutoRedacao20260922063001);
