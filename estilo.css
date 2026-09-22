@@ -72,6 +72,21 @@ button {
   padding-block: 10px;
 }
 
+.marca-site {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.slogan-site {
+  margin-top: 3px;
+  color: var(--cor-texto-suave);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
 .logo {
   font-size: 1.55rem;
   font-weight: 900;
