@@ -46,9 +46,9 @@ Categoria nacional: `Política Nacional`.
 **Fontes excluídas do motor:** Valor Econômico e agências internacionais de notícias, incluindo Reuters, AP, AFP, EFE, Xinhua e TASS. Não devem entrar como fonte de coleta, pauta automática ou reprodução no Notícia ES.
 
 
-## 5A. Fé e Sociedade
+## 5A. Fé
 
-Na editoria `Fé e Sociedade`, a seleção automática deve privilegiar pautas evangélicas, com prioridade máxima para fatos, eventos, projetos, missões, ações sociais, estudos e comunicados de igrejas e denominações do Espírito Santo.
+Na editoria `Fé`, a seleção automática deve privilegiar pautas evangélicas, com prioridade máxima para fatos, eventos, projetos, missões, ações sociais, estudos e comunicados de igrejas e denominações do Espírito Santo.
 
 Ordem editorial de preferência:
 
