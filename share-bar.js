@@ -238,10 +238,13 @@
       nav.parentNode.insertBefore(botao, nav);
     }
 
-    botao.addEventListener('click', function () {
-      var aberto = nav.classList.toggle('aberto');
-      botao.setAttribute('aria-expanded', String(aberto));
-    });
+    if (botao.dataset.menuLigado !== 'true') {
+      botao.dataset.menuLigado = 'true';
+      botao.addEventListener('click', function () {
+        var aberto = nav.classList.toggle('aberto');
+        botao.setAttribute('aria-expanded', String(aberto));
+      });
+    }
   }
 
   quandoPronto(sincronizarMenuEditorial);
