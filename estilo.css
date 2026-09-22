@@ -624,7 +624,7 @@ main {
 
 @media (min-width: 980px) {
   .header-inner {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     min-height: 78px;
   }
 
@@ -635,7 +635,8 @@ main {
   .nav-principal,
   .nav-principal.aberto {
     display: block;
-    width: auto;
+    width: 100%;
+    order: 3;
   }
 
   .nav-principal ul {
@@ -643,6 +644,7 @@ main {
     align-items: center;
     padding: 0;
     gap: 1px;
+    justify-content: center;
   }
 
   .nav-principal a {
