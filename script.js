@@ -43,7 +43,9 @@
       'negocios': 'economia',
       'opiniao': 'opiniao',
       'fe e sociedade': 'fe-e-sociedade',
-      'fe sociedade': 'fe-e-sociedade'
+      'fe sociedade': 'fe-e-sociedade',
+      'cultura': 'cultura',
+      'tecnologia': 'tecnologia'
     };
 
     return aliases[c] || c.replace(/\s+/g, '-');
