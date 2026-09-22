@@ -36,6 +36,8 @@
       'politica do espirito santo': 'politica-es',
       'seguranca publica': 'seguranca-publica',
       'seguranca': 'seguranca-publica',
+      'justica': 'justica',
+      'judiciario': 'justica',
       'politica nacional': 'politica-nacional',
       'economia': 'economia',
       'economia es': 'economia',
