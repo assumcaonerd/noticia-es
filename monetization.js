@@ -98,7 +98,7 @@
 
   function completarNavegacaoERodape() {
     document.querySelectorAll('.nav-principal ul').forEach(function (lista) {
-      if (!lista.querySelector('a[href*="categoria=economia"]')) {
+      if (!document.body.matches('[data-no-ads="true"]') && !lista.querySelector('a[href*="categoria=economia"]')) {
         const itemEconomia = document.createElement('li');
         itemEconomia.innerHTML = '<a href="/index.html?categoria=economia" data-categoria="economia">Economia</a>';
         const opiniao = Array.from(lista.querySelectorAll('a')).find(function (link) {
