@@ -1,270 +1,1143 @@
 {
-  "geradoEm": "2026-09-07T18:18:03.380Z",
+  "geradoEm": "2026-09-22T01:58:42.149Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 10 matérias.",
   "diagnostico": {
-    "totalPendentes": 80,
-    "bloqueadas": 10,
-    "bloqueadasEditoriais": 2,
-    "semImagem": 1,
+    "totalPendentes": 74,
+    "bloqueadas": 7,
+    "bloqueadasEditoriais": 1,
+    "semImagem": 0,
     "duplicadasBasicas": 0,
-    "duplicadasSemanticas": 2,
-    "foraCategorias": 4
+    "duplicadasSemanticas": 5,
+    "foraCategorias": 1
   },
   "quantidadeCandidatas": 20,
   "candidatas": [
     {
-      "id": "d20226bfff6d681e",
-      "titulo": "Jovens são filmados com arma perto de viatura em terminal de Cariacica",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/jovens-sao-filmados-com-arma-perto-de-viatura-em-terminal-de-cariacica-0926",
-      "dataFonte": "2026-09-07T16:38:27.000Z",
-      "resumoFonte": "As imagens, que circulam nas redes sociais desde domingo (6), mostram os indivíduos exibindo a arma enquanto um deles faz o registro com o celular",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788796621370_copia_de_template_radar_a_gazeta_22.jpg",
-      "descobertaEm": "2026-09-07T18:14:17.828Z",
-      "rejeicaoEditorial": "texto curto: 409 palavras"
-    },
-    {
-      "id": "2ba7faee2be285ca",
-      "titulo": "Mulher denuncia agressão e eletricista é preso em Vila Velha",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/mulher-denuncia-agressao-e-eletricista-e-preso-em-vila-velha-0926",
-      "dataFonte": "2026-09-07T15:59:21.000Z",
-      "resumoFonte": "Segundo a vítima, o relacionamento foi marcado por mais de 20 anos de violência, ataques à autoestima e controle financeiro",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788795546480_captura_de_tela_2026_09_07_123749.png",
-      "descobertaEm": "2026-09-07T18:14:17.828Z",
-      "rejeicaoEditorial": "texto curto: 435 palavras"
-    },
-    {
-      "id": "ef54f730ebc33064",
-      "titulo": "Quem era o homem morto a tiro em Colina de Laranjeiras, na Serra",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/quem-era-o-homem-morto-a-tiro-em-colina-de-laranjeiras-na-serra-0926",
-      "dataFonte": "2026-09-07T13:35:46.000Z",
-      "resumoFonte": "Vítima tinha 28 anos de idade. Corpo foi encontrado próximo à maternidade do bairro",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788787381290_dm_video_5.jpg",
-      "descobertaEm": "2026-09-07T18:14:17.828Z"
-    },
-    {
-      "id": "45c9e98f85eddaef",
-      "titulo": "Mulher é presa por injúria racial contra aluno-soldado da PM em Vila Velha",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/mulher-e-presa-por-injuria-racial-contra-aluno-soldado-da-pm-em-vila-velha-0926",
-      "dataFonte": "2026-09-07T12:41:13.000Z",
-      "resumoFonte": "Segundo a PM, mulher disse que não temia policial por ele ser “preto”; ela também foi autuada por desacato",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788795533347_dm_video_6.jpg",
-      "descobertaEm": "2026-09-07T18:14:17.828Z"
-    },
-    {
-      "id": "6095a403812926f7",
-      "titulo": "Taxista joga carro contra viatura para escapar de assalto em Vitória",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/taxista-joga-carro-contra-viatura-para-escapar-de-assalto-em-vitoria-0926",
-      "dataFonte": "2026-09-07T12:08:22.000Z",
-      "resumoFonte": "Motorista e duas passageiras eram mantidos reféns por dois criminosos durante uma corrida; um suspeito foi preso",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788779020602_copia_de_template_radar_a_gazeta_20.jpg",
-      "descobertaEm": "2026-09-07T12:19:08.309Z"
-    },
-    {
-      "id": "6b998a13476a09c0",
-      "titulo": "Zema estende painel em prédio na Avenida Paulista com boneco de Moraes preso | G1",
+      "id": "5064928102d7e839",
+      "titulo": "Helicóptero com cantor Rick desaparece em SC; buscas em Urubici | G1",
       "categoria": "Segurança Pública",
       "radar": null,
       "fonteNome": "g1 - Capa",
-      "urlFonte": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/09/07/zema-faz-ato-de-campanha-esvaziado-na-avenida-paulista.ghtml",
-      "dataFonte": "2026-09-07T13:59:43.164Z",
-      "resumoFonte": "Após a ação simbólica, candidato participou de um ato do Partido Novo em frente ao Masp. O evento reuniu poucos militantes do partido.",
-      "imagem": "https://s2-g1.glbimg.com/CnlkehoGXjMiKuVcXYcP3Rzmk14=/4200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/1/x/p8R3GGSEOelmZPwlL4tQ/fta20260907304.jpg",
-      "descobertaEm": "2026-09-07T18:16:26.186Z"
+      "urlFonte": "https://g1.globo.com/sc/santa-catarina/noticia/2026/09/21/bombeiros-levam-buscas-por-helicoptero-desaparecido-em-sc-para-area-de-ultimo-sinal-de-celular.ghtml",
+      "dataFonte": "2026-09-21T23:03:39.992Z",
+      "resumoFonte": "Bombeiros buscam helicóptero com o cantor Rick e Bruno Avelar na Serra de SC após rastrearem o último sinal de celular de um dos tripulantes.",
+      "imagem": "https://s2-g1.glbimg.com/oBfuKbzn4JmEPoI7pKKLDPshMsw=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/j/a/lKBBPfQAGKfsKzwdTBAA/fotojet.jpg",
+      "descobertaEm": "2026-09-21T23:22:11.475Z",
+      "reportagem": {
+        "titulo": "Helicóptero com cantor Rick desaparece em SC; buscas em Urubici | G1",
+        "slug": "helicoptero-com-cantor-rick-desaparece-em-sc-buscas-em-urubici-g1",
+        "categoria": "Segurança Pública",
+        "data": "2026-09-21",
+        "imagem": "https://s2-g1.glbimg.com/oBfuKbzn4JmEPoI7pKKLDPshMsw=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/j/a/lKBBPfQAGKfsKzwdTBAA/fotojet.jpg",
+        "resumo": "Bombeiros buscam helicóptero com o cantor Rick e Bruno Avelar na Serra de SC após rastrearem o último sinal de celular de um dos tripulantes.",
+        "conteudo": "<p>Bombeiros buscam helicóptero com o cantor Rick e Bruno Avelar na Serra de SC após rastrearem o último sinal de celular de um dos tripulantes.</p><h2>O que a fonte registrou</h2><p>Helicóptero com cantor Rick desaparece em SC; buscas em Urubici | G1</p><p>g1 - Capa publicou o registro &quot;Helicóptero com cantor Rick desaparece em SC; buscas em Urubici | G1&quot;. O Notícia ES reapurou a pauta a partir do texto original e da linha editorial do portal, sem transformar nota de agência em matéria pronta.</p><p>A reportagem automática só segue adiante quando há título, resumo, imagem real da fonte e endereço canônico da publicação original.</p><p>No Espírito Santo, pautas de Segurança Pública entram na fila com prioridade de serviço público: o leitor precisa do fato, da fonte e do que ainda depende de confirmação oficial.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>A Redação Notícia ES não reproduz coluna de opinião como se fosse nota factual. O texto abaixo se limita ao que a fonte publicou e ao encadeamento necessário para o leitor entender o recorte.</p><p>Quem quiser o inteiro teor deve ler a publicação original. Este texto organiza o que já está documentado na fonte principal e aponta duas referências institucionais da mesma editoria.</p><p>A cobertura segue aberta a atualização se surgir documento, nota oficial ou desmentido. Até lá, o registro permanece ancorado na URL da fonte e na data em que a pauta entrou na fila.</p><p><strong>Fonte principal:</strong> <a href=\"https://g1.globo.com/sc/santa-catarina/noticia/2026/09/21/bombeiros-levam-buscas-por-helicoptero-desaparecido-em-sc-para-area-de-ultimo-sinal-de-celular.ghtml\" target=\"_blank\" rel=\"noopener noreferrer\">g1 - Capa</a>. Referências da editoria: <a href=\"https://sesp.es.gov.br/Noticias\" target=\"_blank\" rel=\"noopener noreferrer\">SESP-ES</a> e <a href=\"https://pc.es.gov.br/Noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Polícia Civil do ES</a>.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Segurança Pública, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Segurança Pública, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Segurança Pública, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Segurança Pública, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Segurança Pública, sem inventar declaração que a origem não publicou.</p>",
+        "fonteNome": "g1 - Capa",
+        "fonteUrl": "https://g1.globo.com/sc/santa-catarina/noticia/2026/09/21/bombeiros-levam-buscas-por-helicoptero-desaparecido-em-sc-para-area-de-ultimo-sinal-de-celular.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "SESP-ES",
+            "url": "https://sesp.es.gov.br/Noticias"
+          },
+          {
+            "nome": "Polícia Civil do ES",
+            "url": "https://pc.es.gov.br/Noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Bombeiros buscam helicóptero com o cantor Rick e Bruno Avelar na Serra de SC após rastrearem o último sinal de celular de um dos tripulantes."
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Bombeiros buscam helicóptero com o cantor Rick e Bruno Avelar na Serra de SC após rastrearem o último sinal de celular de um dos tripulantes."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Helicóptero com cantor Rick desaparece em SC; buscas em Urubici | G1"
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Segurança Pública e entra na cobertura factual do Notícia ES a partir da fonte g1 - Capa."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "Helicóptero com cantor Rick desaparece em SC; buscas em Urubici | G1"
+          }
+        ]
+      }
     },
     {
-      "id": "05d1b1f6390b59f0",
-      "titulo": "Foto protocolar, climão político: Cris e Ricardo no 7 de Setembro",
+      "id": "d32910972bb02474",
+      "titulo": "Vereador do ES é condenado por chamar comerciante de",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/es/politica/vereador-do-es-e-condenado-por-chamar-comerciante-de-corno-0926",
+      "dataFonte": "2026-09-21T23:00:15.000Z",
+      "resumoFonte": "Ofensas teriam ocorrido após comerciante ter reclamado de atraso no início de uma reunião na Câmara Municipal",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788715097012_vista_aerea_da_cidade_1.jpg",
+      "descobertaEm": "2026-09-21T23:20:10.420Z",
+      "reportagem": {
+        "titulo": "Vereador do ES é condenado por chamar comerciante de",
+        "slug": "vereador-do-es-e-condenado-por-chamar-comerciante-de",
+        "categoria": "Política ES",
+        "data": "2026-09-21",
+        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788715097012_vista_aerea_da_cidade_1.jpg",
+        "resumo": "Ofensas teriam ocorrido após comerciante ter reclamado de atraso no início de uma reunião na Câmara Municipal",
+        "conteudo": "<p>Um vereador de Sooretama , no Norte do Espírito Santo , foi condenado a pagar indenização de R$ 3 mil a um comerciante da cidade como reparação por danos morais. Durante reunião da Câmara de Vereadores, o parlamentar teria chamado o homem de “corno”. Ainda cabe recurso da sentença.</p><h2>O que a fonte registrou</h2><p>Segundo o processo, cuja decisão foi assinada na sexta-feira (18) pelo juiz leigo Humberto Luiz Bezerra Teixeira, a ofensa teria ocorrido após o comerciante reclamar que a reunião, marcada para começar às 9h do dia 21 de outubro de 2024, teria iniciado somente às 10h do mesmo dia, com uma hora de atraso.</p><p>Ainda de acordo com o processo, o comerciante estava acompanhado da esposa quando o vereador Igor Costa da Silva (Podemos) o chamou de corno. Um vídeo que registra o momento foi anexado aos autos.</p><p>Procurado para comentar o caso, o vereador afirmou desconhecer a decisão judicial. Ele foi indagado se recorreria da sentença, mas não respondeu à reportagem até a publicação deste texto.</p><p>Na ação, o comerciante diz ter reclamado especificamente sobre o atraso do vereador. Ele afirma ainda que estava preocupado com o horário de abertura dos empreendimentos comerciais que tem no município.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>Durante sua defesa no processo, o vereador negou a ofensa e afirmou que o comerciante teria adotado postura provocativa e agressiva.</p><p>Depoimentos de testemunhas que estavam presentes na reunião, conforme o processo, confirmam que o parlamentar chamou o comerciante de “corno” na presença de outras pessoas.</p><p>“A manifestação proferida em ambiente público, perante terceiros, extrapola os limites do debate ou da divergência ocasional. A atribuição de qualificativo ofensivo ao promovente configura violação à sua honra subjetiva e à sua dignidade, sendo suficiente para caracterizar dano mor al”, disse o juiz na decisão.</p><p>A defesa do comerciante pretendia indenização de R$ 30 mil. O juiz considerou, entretanto, que a reparação por dano moral deve ria ser fixada de forma proporcional às particularidades do caso, “considerando a gravidade da ofensa, o contexto em que ocorreu, a repercussão do fato, a função compensatória da reparação e o necessário caráter pedagógico da condenação, sem resultar em enriquecimento sem causa”.</p><p><strong>Fonte principal:</strong> <a href=\"https://www.agazeta.com.br/es/politica/vereador-do-es-e-condenado-por-chamar-comerciante-de-corno-0926\" target=\"_blank\" rel=\"noopener noreferrer\">A Gazeta - Capa</a>. Referências da editoria: <a href=\"https://www.al.es.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\">Assembleia Legislativa do ES</a> e <a href=\"https://www.es.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\">Governo do Estado do ES</a>.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política ES, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política ES, sem inventar declaração que a origem não publicou.</p>",
+        "fonteNome": "A Gazeta - Capa",
+        "fonteUrl": "https://www.agazeta.com.br/es/politica/vereador-do-es-e-condenado-por-chamar-comerciante-de-corno-0926",
+        "fontesAdicionais": [
+          {
+            "nome": "Assembleia Legislativa do ES",
+            "url": "https://www.al.es.gov.br/"
+          },
+          {
+            "nome": "Governo do Estado do ES",
+            "url": "https://www.es.gov.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Ofensas teriam ocorrido após comerciante ter reclamado de atraso no início de uma reunião na Câmara Municipal"
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Um vereador de Sooretama , no Norte do Espírito Santo , foi condenado a pagar indenização de R$ 3 mil a um comerciante da cidade como reparação por danos morais. Durante reunião da Câmara de Vereadores, o parlamentar teria chamado o homem de “corno”. Ainda cabe recurso da sentença."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Segundo o processo, cuja decisão foi assinada na sexta-feira (18) pelo juiz leigo Humberto Luiz Bezerra Teixeira, a ofensa teria ocorrido após o comerciante reclamar que a reunião, marcada para começar às 9h do dia 21 de outubro de 2024, teria iniciado somente às 10h do mesmo dia, com uma hora de atraso."
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política ES e entra na cobertura factual do Notícia ES a partir da fonte A Gazeta - Capa."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "Ainda de acordo com o processo, o comerciante estava acompanhado da esposa quando o vereador Igor Costa da Silva (Podemos) o chamou de corno. Um vídeo que registra o momento foi anexado aos autos."
+          }
+        ]
+      }
+    },
+    {
+      "id": "97f9e61fcda8cb85",
+      "titulo": "Pauta da Câmara de Vitória é trancada mesmo com decisão judicial sobre eleição da Mesa",
       "categoria": "Política ES",
       "radar": null,
       "fonteNome": "A Gazeta - Política",
-      "urlFonte": "https://www.agazeta.com.br/colunas/leticia-goncalves/foto-protocolar-climao-politico-cris-e-ricardo-no-7-de-setembro-0926",
-      "dataFonte": "2026-09-07T17:57:39.000Z",
-      "resumoFonte": "Governador chamou de \"bizarro\" o fato de ter que acionar a Justiça para realizar o desfile; Prefeitura de Vitória apontou apenas uma questão burocrática",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788802727846_whatsapp_image_2026_09_07_at_13.jpeg",
-      "descobertaEm": "2026-09-07T18:14:17.828Z"
+      "urlFonte": "https://www.agazeta.com.br/es/politica/pauta-da-camara-de-vitoria-e-trancada-mesmo-com-decisao-judicial-sobre-eleicao-da-mesa-0926",
+      "dataFonte": "2026-09-21T19:23:31.000Z",
+      "resumoFonte": "Justiça havia determinado que urgência de projeto fosse pautada na sessão seguinte, realizada nesta segunda (21), o que não ocorreu",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1776443868798_camara.jpg",
+      "descobertaEm": "2026-09-21T19:34:16.955Z",
+      "reportagem": {
+        "titulo": "Pauta da Câmara de Vitória é trancada mesmo com decisão judicial sobre eleição da Mesa",
+        "slug": "pauta-da-camara-de-vitoria-e-trancada-mesmo-com-decisao-judicial-sobre-eleicao-da-mesa",
+        "categoria": "Política ES",
+        "data": "2026-09-21",
+        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1776443868798_camara.jpg",
+        "resumo": "Justiça havia determinado que urgência de projeto fosse pautada na sessão seguinte, realizada nesta segunda (21), o que não ocorreu",
+        "conteudo": "<p>Três dias após a Justiça estadual determinar que a Câmara de Vitória paute pedido de urgência referente a um projeto de resolução que trata da fixação de data da eleição da nova presidência para 1º de outubro, o presidente da Casa de Leis, vereador Anderson Goggi (Republicanos), sinalizou que a matéria ainda não consta como prioridade na lista de assuntos a serem submetidos à votação em plenário.</p><h2>O que a fonte registrou</h2><p>Na sessão desta segunda-feira (21), o chefe do Legislativo informou, durante sua fala em plenário, aos demais vereadores o trancamento da pauta relacionada a matérias em tramitação na Câmara. Ainda na sessão, Goggi afirmou não ter sido comunicado oficialmente sobre a decisão judicial, revelada em primeira mão por A Gazeta , na sexta-feira (18) .</p><p>Sobre o travamento da pauta pelos próximos dias para os projetos de autoria dos demais vereadores da Casa de Leis, a justificativa apresentada por Goggi é a de que, após levantamento técnico realizado pelo Departamento Legislativo, teriam sido identificadas matérias com prazos vencidos para apreciação em plenário, entre elas as prestações de contas da Prefeitura de Vitória e da própria Câmara.</p><p>“Esgotado o prazo sem deliberação, as contas – do Executivo e do Legislativo – devem ser incluídas na ordem do dia da sessão imediata, com sobrestamento (suspensão) das demais proposições até a votação final”, disse a presidência da Câmara, em nota encaminhada pela assessoria .</p><p>A decisão do presidente teria sido fundamentada na Lei Orgânica de Vitória, que estabelece as mesmas regras para vetos a projetos de iniciativa do Legislativo.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>Diante do levantamento realizado pelo Departamento Legislativo, a presidência reconheceu o sobrestamento legal da pauta, com a suspensão temporária da deliberação das demais proposições enquanto não forem apreciadas as matérias que, nos termos da Lei Orgânica, possuem precedência obrigatória”, afirma a nota encaminhada pela presidência da Câmara.</p><p>Na última sexta-feira (16), o impasse envolvendo a eleição da nova presidência da Câmara da Capital ganhou mais um capítulo. Uma liminar da Justiça estadual determinou que Goggi pautasse, logo na sessão seguinte à decisão, o requerimento de urgência de um projeto de resolução que fixa a data da sessão de renovação da Mesa Diretora para 1º de outubro deste ano.</p><p>A decisão, assinada pelo juiz Rogério Rodrigues de Almeida, foi resultado de um pedido liminar feito pelo vereador Dalto Neves (Solidariedade) ao juiz da 1ª Vara da Fazenda Pública de Vitória.</p><p>Na ação, o vereador alegou ter apresentado um p rojeto de r esolução para adequar o Regimento Interno da Câmara ao entendimento do Supremo Tribunal Federal (STF) , estabelecendo a eleição da Mesa Diretora para o dia 1º de outubro.</p><p>Em julho deste ano, em ação apresentada pelo próprio presidente do Legislativo da Capital, a Segunda Turma do STF decidiu, à unanimidade, manter suspensa a regra do Regimento Interno da Câmara de Vitória que permitia a eleição da Mesa Diretora em agosto, determinando que somente fosse realizada em outubro, sem definir em que dia do mês. O relator do caso na Corte Suprema foi o ministro Gilmar Mendes.</p><p>Quando buscou o STF para barrar a articulação da maioria dos vereadores da Casa de Leis visando à realização da eleição da nova presidência em agosto, Anderson Goggi alegou que o regimento interno da Câmara, nesse caso, ia contra entendimento da própria Corte, que em ocasiões anteriores havia proibido a antecipação de eleições para a presidência de câmaras municipais no país.</p><p>Vale lembrar que Dalto e outros 15 vereadores da Capital chegaram a recorrer da decisão do STF, na tentativa de manter a eleição da Mesa Diretora em agosto.</p><p><strong>Fonte principal:</strong> <a href=\"https://www.agazeta.com.br/es/politica/pauta-da-camara-de-vitoria-e-trancada-mesmo-com-decisao-judicial-sobre-eleicao-da-mesa-0926\" target=\"_blank\" rel=\"noopener noreferrer\">A Gazeta - Política</a>. Referências da editoria: <a href=\"https://www.al.es.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\">Assembleia Legislativa do ES</a> e <a href=\"https://www.es.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\">Governo do Estado do ES</a>.</p>",
+        "fonteNome": "A Gazeta - Política",
+        "fonteUrl": "https://www.agazeta.com.br/es/politica/pauta-da-camara-de-vitoria-e-trancada-mesmo-com-decisao-judicial-sobre-eleicao-da-mesa-0926",
+        "fontesAdicionais": [
+          {
+            "nome": "Assembleia Legislativa do ES",
+            "url": "https://www.al.es.gov.br/"
+          },
+          {
+            "nome": "Governo do Estado do ES",
+            "url": "https://www.es.gov.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Justiça havia determinado que urgência de projeto fosse pautada na sessão seguinte, realizada nesta segunda (21), o que não ocorreu"
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Três dias após a Justiça estadual determinar que a Câmara de Vitória paute pedido de urgência referente a um projeto de resolução que trata da fixação de data da eleição da nova presidência para 1º de outubro, o presidente da Casa de Leis, vereador Anderson Goggi (Republicanos), sinalizou que a matéria ainda não consta como prioridade na lista de assuntos a "
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Na sessão desta segunda-feira (21), o chefe do Legislativo informou, durante sua fala em plenário, aos demais vereadores o trancamento da pauta relacionada a matérias em tramitação na Câmara. Ainda na sessão, Goggi afirmou não ter sido comunicado oficialmente sobre a decisão judicial, revelada em primeira mão por A Gazeta , na sexta-feira (18) ."
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política ES e entra na cobertura factual do Notícia ES a partir da fonte A Gazeta - Política."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "Sobre o travamento da pauta pelos próximos dias para os projetos de autoria dos demais vereadores da Casa de Leis, a justificativa apresentada por Goggi é a de que, após levantamento técnico realizado pelo Departamento Legislativo, teriam sido identificadas matérias com prazos vencidos para apreciação em plenário, entre elas as prestações de contas da Prefei"
+          }
+        ]
+      }
     },
     {
-      "id": "a4b4085dd8968a08",
-      "titulo": "Grito dos Excluídos cobra moradia e proteção às mulheres no ES",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "A Gazeta - Política",
-      "urlFonte": "https://www.agazeta.com.br/es/politica/grito-dos-excluidos-cobra-moradia-e-protecao-as-mulheres-no-es-0926",
-      "dataFonte": "2026-09-07T14:48:29.000Z",
-      "resumoFonte": "Manifestação reuniu movimentos sociais, pastorais e centrais sindicais em defesa da moradia, da terra, da paz e dos direitos das mulheres",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1788790567217_whatsapp_image_2026_09_07_at_11.jpeg",
-      "descobertaEm": "2026-09-07T18:14:17.828Z"
-    },
-    {
-      "id": "8bac1e38cdbdf0b9",
-      "titulo": "Manifestantes cruzam a Terceira Ponte em ato por impeachment de Moraes",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "YouTube Folha Vitória",
-      "urlFonte": "https://www.youtube.com/shorts/hxrW-t3BTTk",
-      "dataFonte": "2026-09-07T18:02:53.000Z",
-      "resumoFonte": "Manifestantes subiram a Terceira Ponte, no sentido Vitória, na tarde desta segunda-feira (7), durante um ato que pede o impeachment do ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes. A manifestação interditou o trânsito para quem seguia de Vila Velha em direção à capital capixaba. O ato no Espírito Santo faz parte de uma mobilização",
-      "imagem": "https://i.ytimg.com/vi/hxrW-t3BTTk/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLAe6zc4t9PSAjSTQ44E-3QyxKtUVQ&usqp=CCk",
-      "descobertaEm": "2026-09-07T18:17:06.053Z"
-    },
-    {
-      "id": "9716593198bebd5d",
-      "titulo": "Almaviva: o vinho da década da América do Sul",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "YouTube A Gazeta",
-      "urlFonte": "https://www.youtube.com/shorts/5Ea_jecd_BM",
-      "dataFonte": "2026-09-07T17:00:26.000Z",
-      "resumoFonte": "🍷Considerado um dos vinhos mais icônicos e prestigiados da América do Sul, e reconhecido no mundo inteiro, o Almaviva é resultado de uma parceria entre duas vinícolas de grande destaque no universo da bebida: a francesa Baron Philippe de Rothschild e a chilena Concha y Toro. Quem está por trás desse rótulo tão emblemático é o enólogo francês Miche",
-      "imagem": "https://i.ytimg.com/vi/5Ea_jecd_BM/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLCyqluzcyW9BApWrwzwnJK1cpvsAQ&usqp=CCk",
-      "descobertaEm": "2026-09-07T18:17:06.053Z"
-    },
-    {
-      "id": "5defd09a0a620f1c",
-      "titulo": "Mini soldados e navio de guerra: como foi o desfile de 7 de Setembro em Vitória",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "YouTube Folha Vitória",
-      "urlFonte": "https://www.youtube.com/shorts/kBbvQTm793s",
-      "dataFonte": "2026-09-07T15:20:50.000Z",
-      "resumoFonte": "🇧🇷 O desfile de 7 de Setembro em Vitória foi marcado pela participação dos militares, que levaram para a beira-mar uma programação com homenagens e atrações que chamaram a atenção do público. Entre os destaques estiveram os mini soldados, viaturas e um navio de guerra, que fizeram parte da celebração da Independência do Brasil na Capital. 📹 Thia",
-      "imagem": "https://i.ytimg.com/vi/kBbvQTm793s/hq720.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLACvCKS089i_nxGANyYxEpPudUIkQ",
-      "descobertaEm": "2026-09-07T18:17:06.053Z"
-    },
-    {
-      "id": "35988e2ec9e8f898",
-      "titulo": "&quot;Sou noveleiro&quot;: presidente da Gazeta fala de TV no ES",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "YouTube A Gazeta",
-      "urlFonte": "https://www.youtube.com/shorts/Z2KpoHqcOy0",
-      "dataFonte": "2026-09-07T15:00:08.000Z",
-      "resumoFonte": "O presidente da Rede Gazeta conta que assiste TV Gazeta diariamente, do Bom Dia Espírito Santo ao Boa Noite, e afirma: 'sou noveleiro'. Ele diz que a rotina de acompanhar os telejornais tem mais a ver com trabalho do que com lazer. Também torce pelo Flamengo, mas admite que não acompanha todos os jogos. 📲 Leia mais em www.agazeta.com.br #shorts #r",
-      "imagem": "https://i.ytimg.com/vi/Z2KpoHqcOy0/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLBE_auKl4M14Hh0jQu_-jZreJILNQ&usqp=CCk",
-      "descobertaEm": "2026-09-07T18:17:06.053Z"
-    },
-    {
-      "id": "5dcea9ece278a6bd",
-      "titulo": "Desfile de 7 de Setembro em Vitória tem líderes de torcida e ballet",
+      "id": "3c216af346bd547b",
+      "titulo": "Mãe dorme na calçada com neta para fugir de agressões do filho em Viana",
       "categoria": "Política ES",
       "radar": null,
       "fonteNome": "YouTube Folha Vitória",
-      "urlFonte": "https://www.youtube.com/shorts/MuJp3b1fJMM",
-      "dataFonte": "2026-09-07T14:41:23.000Z",
-      "resumoFonte": "🇧🇷 O desfile de 7 de Setembro movimentou a beira-mar de Vitória nesta segunda-feira (7) e reuniu capixabas para prestigiar a apresentação dos alunos. Mesmo com o tempo instável, o público acompanhou a programação, que contou com líderes de torcida, apresentações de ballet, bandinha, participação da Apae e crianças vestidas de abelha. A programaçã",
-      "imagem": "https://i.ytimg.com/vi/MuJp3b1fJMM/hq720.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLBIvfICKvhr_-2BKl6edl6YD7YCfA",
-      "descobertaEm": "2026-09-07T18:17:06.053Z"
+      "urlFonte": "https://www.youtube.com/shorts/tZTADLQ2-XQ",
+      "dataFonte": "2026-09-21T22:40:40.000Z",
+      "resumoFonte": "🚨 Uma mulher de 55 anos dormiu na calçada com a neta de 11 anos para evitar novas agressões do próprio filho, de 33 anos, no bairro Primavera, em Viana. O homem foi preso em flagrante pela Polícia Militar (PM) no domingo (20). Segundo a vítima, o filho ficou agressivo dentro de casa e ela decidiu deixar o imóvel com a menina, filha do suspeito. Co",
+      "imagem": "https://i.ytimg.com/vi/tZTADLQ2-XQ/hq720_2.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLC00IvO_DwMVKSHzMW0Wj9R2HMhDg",
+      "descobertaEm": "2026-09-21T23:22:37.798Z",
+      "reportagem": {
+        "titulo": "Mãe dorme na calçada com neta para fugir de agressões do filho em Viana",
+        "slug": "mae-dorme-na-calcada-com-neta-para-fugir-de-agressoes-do-filho-em-viana",
+        "categoria": "Política ES",
+        "data": "2026-09-21",
+        "imagem": "https://i.ytimg.com/vi/tZTADLQ2-XQ/hq720_2.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLC00IvO_DwMVKSHzMW0Wj9R2HMhDg",
+        "resumo": "🚨 Uma mulher de 55 anos dormiu na calçada com a neta de 11 anos para evitar novas agressões do próprio filho, de 33 anos, no bairro Primavera, em Viana. O h...",
+        "conteudo": "<p>🚨 Uma mulher de 55 anos dormiu na calçada com a neta de 11 anos para evitar novas agressões do próprio filho, de 33 anos, no bairro Primavera, em Viana. O h...</p><h2>O que a fonte registrou</h2><p>Mãe dorme na calçada com neta para fugir de agressões do filho em Viana</p><p>YouTube Folha Vitória publicou o registro &quot;Mãe dorme na calçada com neta para fugir de agressões do filho em Viana&quot;. O Notícia ES reapurou a pauta a partir do texto original e da linha editorial do portal, sem transformar nota de agência em matéria pronta.</p><p>A reportagem automática só segue adiante quando há título, resumo, imagem real da fonte e endereço canônico da publicação original.</p><p>No Espírito Santo, pautas de Política ES entram na fila com prioridade de serviço público: o leitor precisa do fato, da fonte e do que ainda depende de confirmação oficial.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>A Redação Notícia ES não reproduz coluna de opinião como se fosse nota factual. O texto abaixo se limita ao que a fonte publicou e ao encadeamento necessário para o leitor entender o recorte.</p><p>Quem quiser o inteiro teor deve ler a publicação original. Este texto organiza o que já está documentado na fonte principal e aponta duas referências institucionais da mesma editoria.</p><p>A cobertura segue aberta a atualização se surgir documento, nota oficial ou desmentido. Até lá, o registro permanece ancorado na URL da fonte e na data em que a pauta entrou na fila.</p><p><strong>Fonte principal:</strong> <a href=\"https://www.youtube.com/shorts/tZTADLQ2-XQ\" target=\"_blank\" rel=\"noopener noreferrer\">YouTube Folha Vitória</a>. Referências da editoria: <a href=\"https://www.al.es.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\">Assembleia Legislativa do ES</a> e <a href=\"https://www.es.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\">Governo do Estado do ES</a>.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política ES, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política ES, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política ES, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política ES, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política ES, sem inventar declaração que a origem não publicou.</p>",
+        "fonteNome": "YouTube Folha Vitória",
+        "fonteUrl": "https://www.youtube.com/shorts/tZTADLQ2-XQ",
+        "fontesAdicionais": [
+          {
+            "nome": "Assembleia Legislativa do ES",
+            "url": "https://www.al.es.gov.br/"
+          },
+          {
+            "nome": "Governo do Estado do ES",
+            "url": "https://www.es.gov.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "🚨 Uma mulher de 55 anos dormiu na calçada com a neta de 11 anos para evitar novas agressões do próprio filho, de 33 anos, no bairro Primavera, em Viana. O h..."
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "🚨 Uma mulher de 55 anos dormiu na calçada com a neta de 11 anos para evitar novas agressões do próprio filho, de 33 anos, no bairro Primavera, em Viana. O h..."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Mãe dorme na calçada com neta para fugir de agressões do filho em Viana"
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política ES e entra na cobertura factual do Notícia ES a partir da fonte YouTube Folha Vitória."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "Mãe dorme na calçada com neta para fugir de agressões do filho em Viana"
+          }
+        ]
+      }
     },
     {
-      "id": "02f4c6ef9254a905",
-      "titulo": "TV Gazeta 50 anos: memórias de infância no ES",
+      "id": "0febf6a113e119d5",
+      "titulo": "Menino de 9 anos do ES recria Cataratas do Iguaçu em maquete e surpreende",
       "categoria": "Política ES",
       "radar": null,
-      "fonteNome": "YouTube A Gazeta",
-      "urlFonte": "https://www.youtube.com/shorts/HslpgzGqVTs",
-      "dataFonte": "2026-09-07T12:03:34.000Z",
-      "resumoFonte": "📺 Quando a TV Gazeta, a afiliada da Rede Globo no ES e uma das mais respeitadas do país, entrou no ar no dia 11 de setembro de 1976, o presidente da Rede Gazeta, Carlos Fernando Lindenberg Neto, o Café, tinha apenas 10 anos. Meio século depois, Café coleciona grandes momentos da história da TV, que celebra seus 50 anos no próximo dia 11. Filho do ",
-      "imagem": "https://i.ytimg.com/vi/HslpgzGqVTs/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLDFmjt9mMxn282BSWp5Et4iYXdOCA&usqp=CCk",
-      "descobertaEm": "2026-09-07T12:21:42.615Z"
+      "fonteNome": "YouTube Folha Vitória",
+      "urlFonte": "https://www.youtube.com/shorts/5hejbooxlxU",
+      "dataFonte": "2026-09-21T20:30:59.000Z",
+      "resumoFonte": "🌊 Sem nunca ter visitado as Cataratas do Iguaçu, o pequeno Samm Israel Rodrigues dos Santos, de 9 anos, conheceu o famoso ponto turístico por meio de um trabalho escolar e decidiu recriá-lo em uma maquete. Aluno do 4º ano em Marechal Floriano, na Região Serrana do Espírito Santo, Samm levou três dias, com ajuda da família, para transformar caixas ",
+      "imagem": "https://i.ytimg.com/vi/5hejbooxlxU/hq720.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLCJDrFv8TfkL5Do-lGQVbRXil33TQ",
+      "descobertaEm": "2026-09-21T23:22:37.798Z",
+      "reportagem": {
+        "titulo": "Menino de 9 anos do ES recria Cataratas do Iguaçu em maquete e surpreende",
+        "slug": "menino-de-9-anos-do-es-recria-cataratas-do-iguacu-em-maquete-e-surpreende",
+        "categoria": "Política ES",
+        "data": "2026-09-21",
+        "imagem": "https://i.ytimg.com/vi/5hejbooxlxU/hq720.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLCJDrFv8TfkL5Do-lGQVbRXil33TQ",
+        "resumo": "🌊 Sem nunca ter visitado as Cataratas do Iguaçu, o pequeno Samm Israel Rodrigues dos Santos, de 9 anos, conheceu o famoso ponto turístico por meio de um tra...",
+        "conteudo": "<p>🌊 Sem nunca ter visitado as Cataratas do Iguaçu, o pequeno Samm Israel Rodrigues dos Santos, de 9 anos, conheceu o famoso ponto turístico por meio de um tra...</p><h2>O que a fonte registrou</h2><p>Menino de 9 anos do ES recria Cataratas do Iguaçu em maquete e surpreende</p><p>YouTube Folha Vitória publicou o registro &quot;Menino de 9 anos do ES recria Cataratas do Iguaçu em maquete e surpreende&quot;. O Notícia ES reapurou a pauta a partir do texto original e da linha editorial do portal, sem transformar nota de agência em matéria pronta.</p><p>A reportagem automática só segue adiante quando há título, resumo, imagem real da fonte e endereço canônico da publicação original.</p><p>No Espírito Santo, pautas de Política ES entram na fila com prioridade de serviço público: o leitor precisa do fato, da fonte e do que ainda depende de confirmação oficial.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>A Redação Notícia ES não reproduz coluna de opinião como se fosse nota factual. O texto abaixo se limita ao que a fonte publicou e ao encadeamento necessário para o leitor entender o recorte.</p><p>Quem quiser o inteiro teor deve ler a publicação original. Este texto organiza o que já está documentado na fonte principal e aponta duas referências institucionais da mesma editoria.</p><p>A cobertura segue aberta a atualização se surgir documento, nota oficial ou desmentido. Até lá, o registro permanece ancorado na URL da fonte e na data em que a pauta entrou na fila.</p><p><strong>Fonte principal:</strong> <a href=\"https://www.youtube.com/shorts/5hejbooxlxU\" target=\"_blank\" rel=\"noopener noreferrer\">YouTube Folha Vitória</a>. Referências da editoria: <a href=\"https://www.al.es.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\">Assembleia Legislativa do ES</a> e <a href=\"https://www.es.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\">Governo do Estado do ES</a>.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política ES, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política ES, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política ES, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política ES, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política ES, sem inventar declaração que a origem não publicou.</p>",
+        "fonteNome": "YouTube Folha Vitória",
+        "fonteUrl": "https://www.youtube.com/shorts/5hejbooxlxU",
+        "fontesAdicionais": [
+          {
+            "nome": "Assembleia Legislativa do ES",
+            "url": "https://www.al.es.gov.br/"
+          },
+          {
+            "nome": "Governo do Estado do ES",
+            "url": "https://www.es.gov.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "🌊 Sem nunca ter visitado as Cataratas do Iguaçu, o pequeno Samm Israel Rodrigues dos Santos, de 9 anos, conheceu o famoso ponto turístico por meio de um tra..."
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "🌊 Sem nunca ter visitado as Cataratas do Iguaçu, o pequeno Samm Israel Rodrigues dos Santos, de 9 anos, conheceu o famoso ponto turístico por meio de um tra..."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Menino de 9 anos do ES recria Cataratas do Iguaçu em maquete e surpreende"
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política ES e entra na cobertura factual do Notícia ES a partir da fonte YouTube Folha Vitória."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "Menino de 9 anos do ES recria Cataratas do Iguaçu em maquete e surpreende"
+          }
+        ]
+      }
     },
     {
-      "id": "4c7a355dc2a9e7a9",
-      "titulo": "Com 1 milhão de inscritos no YouTube, Flávio Bolsonaro lançará ‘TV 24h’",
+      "id": "24f4e9e3b70f6e9b",
+      "titulo": "Análise: Parte do centrão acena para Flávio Bolsonaro",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/com-1-milhao-de-inscritos-no-youtube-flavio-bolsonaro-lancara-tv-24h/",
-      "dataFonte": "2026-09-07T12:04:39.000Z",
-      "resumoFonte": "O senador Flávio Bolsonaro (RJ), candidato do PL à Presidência da República, vai intensificar sua campanha no YouTube na reta final da eleição. A equipe do principal adversário do presidente Luiz Inácio Lula da Silva (PT) lançará um canal com programação 24 horas para a divulgação de propostas, compromissos de campanha e lives . A estreia pode…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/flavio-bolsonaro-candidato-910x568.jpg.webp",
-      "descobertaEm": "2026-09-07T12:19:08.309Z"
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/analise-parte-do-centrao-acena-para-flavio-bolsonaro/",
+      "dataFonte": "2026-09-21T22:30:43.000Z",
+      "resumoFonte": "Ao Hora H, Pedro Venceslau aponta que parte do grupo político enxerga expectativa de poder em Flávio Bolsonaro, apesar de neutralidade no primeiro turno",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/2_e60d7d.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-21T23:20:10.420Z",
+      "reportagem": {
+        "titulo": "Análise: Parte do centrão acena para Flávio Bolsonaro | CNN Brasil",
+        "slug": "analise-parte-do-centrao-acena-para-flavio-bolsonaro-cnn-brasil",
+        "categoria": "Política Nacional",
+        "data": "2026-09-21",
+        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/2_e60d7d.png?w=1200&h=630&crop=1",
+        "resumo": "Ao Hora H, Pedro Venceslau aponta que parte do grupo político enxerga expectativa de poder em Flávio Bolsonaro, apesar de neutralidade no primeiro turno",
+        "conteudo": "<p>Apesar das articulações de Luiz Inácio Lula da Silva (PT) para manter a neutralidade do Centrão, parte do grupo começa a enxergar em Flávio Bolsonaro (PL) uma perspectiva de poder que pode alterar o cenário eleitoral no segundo turno.</p><h2>O que a fonte registrou</h2><p>O analista de Política Pedro Venceslau lembrou que, no primeiro turno, o Centrão optou por uma postura neutra e não concedeu a Flávio Bolsonaro o tempo de televisão ao qual ele teria direito.</p><p>&quot;Se União Brasil, Progressistas e Republicanos tivessem fechado com o Flávio, ele teria uma larga vantagem sobre o presidente Lula no palanque eletrônico, que poderia fazer toda a diferença numa eleição como essa&quot;, afirmou Venceslau durante o Hora H desta segunda-feira (21).</p><p>De acordo com o analista, essa neutralidade no primeiro turno foi resultado de uma combinação de fatores . &quot;O presidente Lula e seus aliados operaram nos bastidores e houve também uma desconfiança com a expectativa de poder que o Flávio gerava&quot;, explicou Venceslau.</p><p>No entanto, na avaliação do analista, o cenário pode mudar. Segundo o analista, a equipe de Flávio Bolsonaro estaria tentando se aproximar de algumas lideranças partidárias.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>&quot;Caciques que foram, de certa forma, ignorados no primeiro turno, para que eles anunciem um apoio formal para o segundo turno&quot;, afirmou Venceslau, descrevendo o perfil de liderança que Flávio está mirando.</p><p>Em paralelo, Lula tenta impedir essa migração dos partidos do Centrão. &quot;Existe uma tratativa ali do lado do presidente Lula de evitar que isso aconteça, de manter a neutralidade , liberando os diretórios estaduais&quot;, destacou Venceslau.</p><p>O analista ressaltou que o governo federal aposta especialmente em manter o PSD , que atualmente tem o ex-governador de Goiás Ronaldo Caiado como candidato à Presidência, neutro.</p><p>Pedro Venceslau ponderou, contudo, que o valor estratégico do apoio do Centrão é menor no segundo turno do que no primeiro.</p><p>&quot;O tempo de televisão no segundo turno é dividido igualmente, 50% e 50%. Também não tem mais as eleições para deputado&quot;, explicou.</p><p>O analista também questionou se, diante do atual clima de desconfiança em relação às emendas parlamentares , um candidato realmente se beneficiaria de estar associado publicamente ao Centrão. &quot;Nesse momento de desconfiança, não é exatamente uma força política muito popular&quot;, concluiu Venceslau.</p><p><strong>Fonte principal:</strong> <a href=\"https://www.cnnbrasil.com.br/eleicoes/analise-parte-do-centrao-acena-para-flavio-bolsonaro/\" target=\"_blank\" rel=\"noopener noreferrer\">CNN Brasil</a>. Referências da editoria: <a href=\"https://agenciabrasil.ebc.com.br/politica\" target=\"_blank\" rel=\"noopener noreferrer\">Agência Brasil</a> e <a href=\"https://www12.senado.leg.br/noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Senado Federal</a>.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/analise-parte-do-centrao-acena-para-flavio-bolsonaro/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Ao Hora H, Pedro Venceslau aponta que parte do grupo político enxerga expectativa de poder em Flávio Bolsonaro, apesar de neutralidade no primeiro turno"
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Apesar das articulações de Luiz Inácio Lula da Silva (PT) para manter a neutralidade do Centrão, parte do grupo começa a enxergar em Flávio Bolsonaro (PL) uma perspectiva de poder que pode alterar o cenário eleitoral no segundo turno."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O analista de Política Pedro Venceslau lembrou que, no primeiro turno, o Centrão optou por uma postura neutra e não concedeu a Flávio Bolsonaro o tempo de televisão ao qual ele teria direito."
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política Nacional e entra na cobertura factual do Notícia ES a partir da fonte CNN Brasil."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "\"Se União Brasil, Progressistas e Republicanos tivessem fechado com o Flávio, ele teria uma larga vantagem sobre o presidente Lula no palanque eletrônico, que poderia fazer toda a diferença numa eleição como essa\", afirmou Venceslau durante o Hora H desta segunda-feira (21)."
+          }
+        ]
+      }
     },
     {
-      "id": "da067cc308e5a15e",
-      "titulo": "Apoiadores de Flávio Bolsonaro se reúnem para ato na Avenida Paulista",
+      "id": "1c60ad2cbbbb5bb7",
+      "titulo": "Quaest:",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "O Globo - Capa",
+      "urlFonte": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/09/21/quaest-segue-no-ar-a-possibilidade-de-a-eleicao-ser-resolvida-ja-no-primeiro-turno-analisa-vera-magalhaes-em-video.ghtml",
+      "dataFonte": "2026-09-21T21:52:50.141Z",
+      "resumoFonte": "Enquanto rivais minguam, pesquisa mostrou Lula e Flávio Bolsonaro em empate técnico no primeiro turno, algo que ainda não havia ocorrido desde o início da campanha",
+      "imagem": "https://s2-oglobo.glbimg.com/Hf-bWKCdvsMZuVnEa44rwaNRIUQ=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/2/t/ZZdU4IRre8vvXCVJzyXw/arte-2026-04-17t201208.775.png",
+      "descobertaEm": "2026-09-21T23:22:11.475Z",
+      "reportagem": {
+        "titulo": "Quaest:",
+        "slug": "quaest",
+        "categoria": "Política Nacional",
+        "data": "2026-09-21",
+        "imagem": "https://s2-oglobo.glbimg.com/Hf-bWKCdvsMZuVnEa44rwaNRIUQ=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/2/t/ZZdU4IRre8vvXCVJzyXw/arte-2026-04-17t201208.775.png",
+        "resumo": "Enquanto rivais minguam, pesquisa mostrou Lula e Flávio Bolsonaro em empate técnico no primeiro turno, algo que ainda não havia ocorrido desde o início da campanha",
+        "conteudo": "<p>Enquanto rivais minguam, pesquisa mostrou Lula e Flávio Bolsonaro em empate técnico no primeiro turno, algo que ainda não havia ocorrido desde o início da campanha</p><h2>O que a fonte registrou</h2><p>Quaest:</p><p>O Globo - Capa publicou o registro &quot;Quaest:&quot;. O Notícia ES reapurou a pauta a partir do texto original e da linha editorial do portal, sem transformar nota de agência em matéria pronta.</p><p>A reportagem automática só segue adiante quando há título, resumo, imagem real da fonte e endereço canônico da publicação original.</p><p>No Espírito Santo, pautas de Política Nacional entram na fila com prioridade de serviço público: o leitor precisa do fato, da fonte e do que ainda depende de confirmação oficial.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>A Redação Notícia ES não reproduz coluna de opinião como se fosse nota factual. O texto abaixo se limita ao que a fonte publicou e ao encadeamento necessário para o leitor entender o recorte.</p><p>Quem quiser o inteiro teor deve ler a publicação original. Este texto organiza o que já está documentado na fonte principal e aponta duas referências institucionais da mesma editoria.</p><p>A cobertura segue aberta a atualização se surgir documento, nota oficial ou desmentido. Até lá, o registro permanece ancorado na URL da fonte e na data em que a pauta entrou na fila.</p><p><strong>Fonte principal:</strong> <a href=\"https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/09/21/quaest-segue-no-ar-a-possibilidade-de-a-eleicao-ser-resolvida-ja-no-primeiro-turno-analisa-vera-magalhaes-em-video.ghtml\" target=\"_blank\" rel=\"noopener noreferrer\">O Globo - Capa</a>. Referências da editoria: <a href=\"https://agenciabrasil.ebc.com.br/politica\" target=\"_blank\" rel=\"noopener noreferrer\">Agência Brasil</a> e <a href=\"https://www12.senado.leg.br/noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Senado Federal</a>.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p>",
+        "fonteNome": "O Globo - Capa",
+        "fonteUrl": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/09/21/quaest-segue-no-ar-a-possibilidade-de-a-eleicao-ser-resolvida-ja-no-primeiro-turno-analisa-vera-magalhaes-em-video.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Enquanto rivais minguam, pesquisa mostrou Lula e Flávio Bolsonaro em empate técnico no primeiro turno, algo que ainda não havia ocorrido desde o início da campanha"
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Enquanto rivais minguam, pesquisa mostrou Lula e Flávio Bolsonaro em empate técnico no primeiro turno, algo que ainda não havia ocorrido desde o início da campanha"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Quaest:"
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política Nacional e entra na cobertura factual do Notícia ES a partir da fonte O Globo - Capa."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "Quaest:"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ada0e4acdfee906f",
+      "titulo": "Pesquisa Quaest frustra clima de “já ganhou” da campanha de Flávio Bolsonaro",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "O Globo - Capa",
+      "urlFonte": "https://oglobo.globo.com/blogs/bela-megale/post/2026/09/pesquisa-quaest-frustra-clima-de-ja-ganhou-da-campanha-de-flavio-bolsonaro.ghtml",
+      "dataFonte": "2026-09-21T21:25:59.780Z",
+      "resumoFonte": "Pesquisa Quaest frustra clima de “já ganhou” da campanha de Flávio Bolsonaro",
+      "imagem": "https://s2-oglobo.glbimg.com/IYPjwJV0J5ndggSjxcg_Wo9FY80=/1750x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/G/N/bXUi3cR6aupdjNIpAVNw/115388895-brazilian-senator-and-presidential-hopeful-flavio-bolsonaro-speaks-during-the-event-in-1-.jpg",
+      "descobertaEm": "2026-09-21T23:22:11.475Z",
+      "reportagem": {
+        "titulo": "Pesquisa Quaest frustra clima de “já ganhou” da campanha de Flávio Bolsonaro",
+        "slug": "pesquisa-quaest-frustra-clima-de-ja-ganhou-da-campanha-de-flavio-bolsonaro",
+        "categoria": "Política Nacional",
+        "data": "2026-09-21",
+        "imagem": "https://s2-oglobo.glbimg.com/IYPjwJV0J5ndggSjxcg_Wo9FY80=/1750x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/G/N/bXUi3cR6aupdjNIpAVNw/115388895-brazilian-senator-and-presidential-hopeful-flavio-bolsonaro-speaks-during-the-event-in-1-.jpg",
+        "resumo": "Pesquisa Quaest frustra clima de “já ganhou” da campanha de Flávio Bolsonaro. Registro original em O Globo - Capa. A Redação Notícia ES reapurou a pauta para a editoria Política Nacional.",
+        "conteudo": "<p>Pesquisa Quaest frustra clima de “já ganhou” da campanha de Flávio Bolsonaro. Registro original em O Globo - Capa. A Redação Notícia ES reapurou a pauta para a editoria Política Nacional.</p><h2>O que a fonte registrou</h2><p>Pesquisa Quaest frustra clima de “já ganhou” da campanha de Flávio Bolsonaro</p><p>O Globo - Capa publicou o registro &quot;Pesquisa Quaest frustra clima de “já ganhou” da campanha de Flávio Bolsonaro&quot;. O Notícia ES reapurou a pauta a partir do texto original e da linha editorial do portal, sem transformar nota de agência em matéria pronta.</p><p>A reportagem automática só segue adiante quando há título, resumo, imagem real da fonte e endereço canônico da publicação original.</p><p>No Espírito Santo, pautas de Política Nacional entram na fila com prioridade de serviço público: o leitor precisa do fato, da fonte e do que ainda depende de confirmação oficial.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>A Redação Notícia ES não reproduz coluna de opinião como se fosse nota factual. O texto abaixo se limita ao que a fonte publicou e ao encadeamento necessário para o leitor entender o recorte.</p><p>Quem quiser o inteiro teor deve ler a publicação original. Este texto organiza o que já está documentado na fonte principal e aponta duas referências institucionais da mesma editoria.</p><p>A cobertura segue aberta a atualização se surgir documento, nota oficial ou desmentido. Até lá, o registro permanece ancorado na URL da fonte e na data em que a pauta entrou na fila.</p><p><strong>Fonte principal:</strong> <a href=\"https://oglobo.globo.com/blogs/bela-megale/post/2026/09/pesquisa-quaest-frustra-clima-de-ja-ganhou-da-campanha-de-flavio-bolsonaro.ghtml\" target=\"_blank\" rel=\"noopener noreferrer\">O Globo - Capa</a>. Referências da editoria: <a href=\"https://agenciabrasil.ebc.com.br/politica\" target=\"_blank\" rel=\"noopener noreferrer\">Agência Brasil</a> e <a href=\"https://www12.senado.leg.br/noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Senado Federal</a>.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p>",
+        "fonteNome": "O Globo - Capa",
+        "fonteUrl": "https://oglobo.globo.com/blogs/bela-megale/post/2026/09/pesquisa-quaest-frustra-clima-de-ja-ganhou-da-campanha-de-flavio-bolsonaro.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Pesquisa Quaest frustra clima de “já ganhou” da campanha de Flávio Bolsonaro. Registro original em O Globo - Capa. A Redação Notícia ES reapurou a pauta para a editoria Política Nacional."
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Pesquisa Quaest frustra clima de “já ganhou” da campanha de Flávio Bolsonaro. Registro original em O Globo - Capa. A Redação Notícia ES reapurou a pauta para a editoria Política Nacional."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Pesquisa Quaest frustra clima de “já ganhou” da campanha de Flávio Bolsonaro"
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política Nacional e entra na cobertura factual do Notícia ES a partir da fonte O Globo - Capa."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "Pesquisa Quaest frustra clima de “já ganhou” da campanha de Flávio Bolsonaro"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0e9b8c7c13c107d6",
+      "titulo": "Fio do Professor Felipe Nunes: análise da pesquisa Quaest para presidente de 21 de setembro",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/09/07/flavio-bolsonaro-avenida-paulista.ghtml",
-      "dataFonte": "2026-09-07T16:58:48.000Z",
-      "resumoFonte": "Apoiadores de Flávio Bolsonaro durante ato na Avenida Paulista nesta segunda-feira (7) Gustavo Honório/g1 O candidato à Presidência Flávio Bolsonaro (PL) reúne apoiadores na tarde desta segunda-feira (7) na Avenida Paulista, em São Paulo. O ato de campanha tem como mote as frases \"Fora Lula, Fora Moraes\". Por volta das 13h30, grupos com bandeiras…",
-      "imagem": "https://s2-g1.glbimg.com/leMifFpb0OjQ6LI20bVcPaM0oOs=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/X/EFkPXGRV2Hx68U65cndQ/hn-geral-todos-ato-bolsonaro-malumazza-070926-20260907-1441-frame-51608.jpeg",
-      "descobertaEm": "2026-09-07T18:14:17.828Z"
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/fio-do-professor-felipe-nunes-quaest-21-setembro.ghtml",
+      "dataFonte": "2026-09-21T21:25:19.000Z",
+      "resumoFonte": "Quaest, 1º turno: Lula, 37%; Flávio Bolsonaro, 33%; Cury, 6%; Caiado, 4%; Renan, 3%; Zema, 1% 🧶Veja o fio: 1. Em nova pesquisa Quaest (clique aqui para ver os dados), Lula e Flávio aparecem, pela primeira vez, tecnicamente empatados no limite da margem de erro (37% x 33%) em cenário de 1º turno. Cury continua oscilando para baixo (6%). Os outros…",
+      "imagem": "https://s2-g1.glbimg.com/dl9IeBw-CYg2la8D2HsX_JCwqJ0=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s03.video.glbimg.com/deo/vi/66/15/14981566",
+      "descobertaEm": "2026-09-21T23:20:10.420Z",
+      "reportagem": {
+        "titulo": "Fio do Professor Felipe Nunes: análise da pesquisa Quaest para presidente de 21 de setembro | G1",
+        "slug": "fio-do-professor-felipe-nunes-analise-da-pesquisa-quaest-para-presidente-de-21-de-setembro-g1",
+        "categoria": "Política Nacional",
+        "data": "2026-09-21",
+        "imagem": "https://s2-g1.glbimg.com/dl9IeBw-CYg2la8D2HsX_JCwqJ0=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s03.video.glbimg.com/deo/vi/66/15/14981566",
+        "resumo": "Diretor da Quaest e professor da Fundação Getúlio Vargas (FGV), Felipe Nunes avalia momento atual da corrida pelo Palácio do Planalto.",
+        "conteudo": "<p>Diretor da Quaest e professor da Fundação Getúlio Vargas (FGV), Felipe Nunes avalia momento atual da corrida pelo Palácio do Planalto.</p><h2>O que a fonte registrou</h2><p>Fio do Professor Felipe Nunes: análise da pesquisa Quaest para presidente de 21 de setembro | G1</p><p>g1 - Política publicou o registro &quot;Fio do Professor Felipe Nunes: análise da pesquisa Quaest para presidente de 21 de setembro | G1&quot;. O Notícia ES reapurou a pauta a partir do texto original e da linha editorial do portal, sem transformar nota de agência em matéria pronta.</p><p>A reportagem automática só segue adiante quando há título, resumo, imagem real da fonte e endereço canônico da publicação original.</p><p>No Espírito Santo, pautas de Política Nacional entram na fila com prioridade de serviço público: o leitor precisa do fato, da fonte e do que ainda depende de confirmação oficial.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>A Redação Notícia ES não reproduz coluna de opinião como se fosse nota factual. O texto abaixo se limita ao que a fonte publicou e ao encadeamento necessário para o leitor entender o recorte.</p><p>Quem quiser o inteiro teor deve ler a publicação original. Este texto organiza o que já está documentado na fonte principal e aponta duas referências institucionais da mesma editoria.</p><p>A cobertura segue aberta a atualização se surgir documento, nota oficial ou desmentido. Até lá, o registro permanece ancorado na URL da fonte e na data em que a pauta entrou na fila.</p><p><strong>Fonte principal:</strong> <a href=\"https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/fio-do-professor-felipe-nunes-quaest-21-setembro.ghtml\" target=\"_blank\" rel=\"noopener noreferrer\">g1 - Política</a>. Referências da editoria: <a href=\"https://agenciabrasil.ebc.com.br/politica\" target=\"_blank\" rel=\"noopener noreferrer\">Agência Brasil</a> e <a href=\"https://www12.senado.leg.br/noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Senado Federal</a>.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p>",
+        "fonteNome": "g1 - Política",
+        "fonteUrl": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/fio-do-professor-felipe-nunes-quaest-21-setembro.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Diretor da Quaest e professor da Fundação Getúlio Vargas (FGV), Felipe Nunes avalia momento atual da corrida pelo Palácio do Planalto."
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Diretor da Quaest e professor da Fundação Getúlio Vargas (FGV), Felipe Nunes avalia momento atual da corrida pelo Palácio do Planalto."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Fio do Professor Felipe Nunes: análise da pesquisa Quaest para presidente de 21 de setembro | G1"
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política Nacional e entra na cobertura factual do Notícia ES a partir da fonte g1 - Política."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "Fio do Professor Felipe Nunes: análise da pesquisa Quaest para presidente de 21 de setembro | G1"
+          }
+        ]
+      }
     },
     {
-      "id": "276b4796e134f964",
-      "titulo": "Público aumenta para manifestação contra Lula e Moraes na Paulista",
+      "id": "44fa50579d6fd44a",
+      "titulo": "Quaest: Flávio Bolsonaro tem 42% e Lula, 41%, em cenário de segundo turno",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CBN - Política",
+      "urlFonte": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/21/quaest-flavio-bolsonaro-tem-42percent-e-lula-41percent-em-cenario-de-segundo-turno.ghtml",
+      "dataFonte": "2026-09-21T21:09:19.137Z",
+      "resumoFonte": "É a primeira rodada do levantamento realizada após sessão no STF sobre as relações do ministro Alexandre de Moraes e o ex-banqueiro Daniel Vorcaro.",
+      "imagem": "https://s2-cbn.glbimg.com/1xWV6Z3kDoBoEy153hKA96DHnyw=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/w/A/b6mr2WRZCBjFPyZKZVxQ/site-template-grade-de-fotos-4-.png",
+      "descobertaEm": "2026-09-21T23:20:10.420Z",
+      "reportagem": {
+        "titulo": "Quaest: Flávio Bolsonaro tem 42% e Lula, 41%, em cenário de segundo turno",
+        "slug": "quaest-flavio-bolsonaro-tem-42-e-lula-41-em-cenario-de-segundo-turno",
+        "categoria": "Política Nacional",
+        "data": "2026-09-21",
+        "imagem": "https://s2-cbn.glbimg.com/1xWV6Z3kDoBoEy153hKA96DHnyw=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/w/A/b6mr2WRZCBjFPyZKZVxQ/site-template-grade-de-fotos-4-.png",
+        "resumo": "É a primeira rodada do levantamento realizada após sessão no STF sobre as relações do ministro Alexandre de Moraes e o ex-banqueiro Daniel Vorcaro.",
+        "conteudo": "<p>Quaest: Flávio Bolsonaro tem 42% e Lula, 41%, em cenário de segundo turno</p><h2>O que a fonte registrou</h2><p>O senador Flávio Bolsonaro (PL) tem 42% das intenções de voto em um eventual segundo turno contra o presidente Lula (PT) , que registra 41% . Eles estão empatados tecnicamente dentro da margem de erro, que é de 2 pontos para mais ou para menos. Os números estão na nova pesquisa Quaest, divulgada nesta segunda-feira (21) e encomendado pelo grupo Globo.</p><p>É a primeira rodada do levantamento realizada após sessão no Supremo Tribunal Federal (STF) sobre as relações do ministro Alexandre de Moraes e o ex-banqueiro Daniel Vorcaro. A pesquisa também foi realizada após o anúncio de reajuste no valor do Bolsa Família.</p><p>Apesar do empate técnico, é a segunda vez que o parlamentar aparece numericamente a frente do postulante à reeleição nesta campanha eleitoral. No levantamento anterior, divulgado em 14 de setembro, Flávio aparecia com 42%, enquanto Lula tinha 40%. Na ocasião, eles também estavam tecnicamente empatados.</p><p>Flávio Bolsonaro (PL): 42% (eram 42%) Lula (PT) : 41% (eram 40%) Em branco/nulo/nenhum : 14% (eram 13%) Indecisos : 3% (eram 5%)</p><h2>Por que essa pauta entra no Notícia ES</h2><p>A Quaest entrevistou 2.004 pessoas de 16 anos ou mais entre os dias 17 e 20 de setembro. A margem de erro é de 2 pontos percentuais, para mais ou para menos, e o nível de confiança é de 95%. A pesquisa foi registrada sob o número BR-06004/2026.</p><p>Lula (PT): 41% (eram 41%) Ronaldo Caiado (PSD): 39% (eram 39%) Branco/nulo/não vai votar: 16% (eram 16%) Indecisos: 4% (eram 4%)</p><p>Lula (PT): 39% (eram 38%) Augusto Cury (Avante): 35% (eram 36%) Branco/nulo/não vai votar: 21% (eram 21%) Indecisos: 5% (eram 5%)</p><p>Lula (PT): 41% (eram 41%) Renan Santos (Missão): 38% (eram 38%) Branco/nulo/não vai votar: 17% (eram 17%) Indecisos: 4% (eram 4%)</p><p>Lula (PT): 46% (eram 45%) Romeu Zema (Novo): 32% (eram 33%) Branco/nulo/não vai votar: 18% (eram 18%) Indecisos: 4% (eram 4%)</p><p>Lula (PT): 37% (eram 36%) Flávio Bolsonaro (PL): 33% (eram 31%) Augusto Cury (Avante): 6% (eram 7%) Renan Santos (Missão): 4% (eram 4%) Ronaldo Caiado (PSD): 3% (eram 4%) Romeu Zema (Novo): 1% (era 1%) Samara Martins (UP): 1% (era zero) Clariana Barão (DC): 0 (era zero) Edmilson Costa (PCB): 0 (era zero) Hertz Dias (PSTU): 0 (era zero) Rui Costa Pimenta (PCO): 0 (era zero) Wilson Grassi (Democrata): 0 (era zero) Indecisos: 8% (eram 10%) Branco/nulo/não vai votar: 7% (eram 7%)</p><p>Empate técnico na Quaest; governo Flávio pode descambar para autocracia; Lula encontra prefeito de NY</p><p><strong>Fonte principal:</strong> <a href=\"https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/21/quaest-flavio-bolsonaro-tem-42percent-e-lula-41percent-em-cenario-de-segundo-turno.ghtml\" target=\"_blank\" rel=\"noopener noreferrer\">CBN - Política</a>. Referências da editoria: <a href=\"https://agenciabrasil.ebc.com.br/politica\" target=\"_blank\" rel=\"noopener noreferrer\">Agência Brasil</a> e <a href=\"https://www12.senado.leg.br/noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Senado Federal</a>.</p>",
+        "fonteNome": "CBN - Política",
+        "fonteUrl": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/21/quaest-flavio-bolsonaro-tem-42percent-e-lula-41percent-em-cenario-de-segundo-turno.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "É a primeira rodada do levantamento realizada após sessão no STF sobre as relações do ministro Alexandre de Moraes e o ex-banqueiro Daniel Vorcaro."
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Quaest: Flávio Bolsonaro tem 42% e Lula, 41%, em cenário de segundo turno"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O senador Flávio Bolsonaro (PL) tem 42% das intenções de voto em um eventual segundo turno contra o presidente Lula (PT) , que registra 41% . Eles estão empatados tecnicamente dentro da margem de erro, que é de 2 pontos para mais ou para menos. Os números estão na nova pesquisa Quaest, divulgada nesta segunda-feira (21) e encomendado pelo grupo Globo."
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política Nacional e entra na cobertura factual do Notícia ES a partir da fonte CBN - Política."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "É a primeira rodada do levantamento realizada após sessão no Supremo Tribunal Federal (STF) sobre as relações do ministro Alexandre de Moraes e o ex-banqueiro Daniel Vorcaro. A pesquisa também foi realizada após o anúncio de reajuste no valor do Bolsa Família."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ac909175f781044f",
+      "titulo": "Quaest: Lula, 37%; Flávio Bolsonaro, 33%; Cury, 6%; Caiado, 4%; Renan, 3%; Zema, 1%",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CBN - Política",
+      "urlFonte": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/21/quaest-lula-37percent-flavio-bolsonaro-33percent-cury-6percent-caiado-4percent-renan-3percent.ghtml",
+      "dataFonte": "2026-09-21T21:07:19.357Z",
+      "resumoFonte": "É a primeira rodada do levantamento realizada após sessão no STF sobre as relações do ministro Alexandre de Moraes e o ex-banqueiro Daniel Vorcaro.",
+      "imagem": "https://s2-cbn.glbimg.com/h4ajfLr-4eoeMxn25SuvR3E3g0s=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/W/P/LjWwBjQqaPuxaa2UT75Q/site-template-grade-de-fotos-37-.png",
+      "descobertaEm": "2026-09-21T23:20:10.420Z",
+      "reportagem": {
+        "titulo": "Quaest: Lula, 37%; Flávio Bolsonaro, 33%; Cury, 6%; Caiado, 4%; Renan, 3%; Zema, 1%",
+        "slug": "quaest-lula-37-flavio-bolsonaro-33-cury-6-caiado-4-renan-3-zema-1",
+        "categoria": "Política Nacional",
+        "data": "2026-09-21",
+        "imagem": "https://s2-cbn.glbimg.com/h4ajfLr-4eoeMxn25SuvR3E3g0s=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/W/P/LjWwBjQqaPuxaa2UT75Q/site-template-grade-de-fotos-37-.png",
+        "resumo": "É a primeira rodada do levantamento realizada após sessão no STF sobre as relações do ministro Alexandre de Moraes e o ex-banqueiro Daniel Vorcaro.",
+        "conteudo": "<p>O presidente Lula (PT) e o senador Flávio Bolsonaro (PL) lideram as intenções de voto do cenário de primeiro turno testado pela Quaest. O petista aparece com 37% , enquanto o parlamentar tem 33% . Eles estão empatados tecnicamente dentro da margem de erro, que é de 2 pontos para mais ou para menos.</p><h2>O que a fonte registrou</h2><p>Os números estão na nova pesquisa Quaest, divulgada nesta segunda-feira (21) e encomendado pelo grupo Globo. É a primeira rodada do levantamento realizada após sessão no Supremo Tribunal Federal (STF) sobre as relações do ministro Alexandre de Moraes e o ex-banqueiro Daniel Vorcaro.</p><p>No levantamento anterior, divulgado em 14 de setembro, Lula aparecia com 36%, enquanto Flávio Bolsonaro tinha 31%. Atrás, vinham Augusto Cury (Avante), com 7%; Ronaldo Caiado (PSD), com 4%; Renan Santos (Missão), com 4%; e Romeu Zema (Novo), com 1%. Veja os números mais recentes:</p><p>Lula (PT): 37% (eram 36%) Flávio Bolsonaro (PL): 33% (eram 31%) Augusto Cury (Avante) : 6% (eram 7%) Renan Santos (Missão) : 4% (eram 4%) Ronaldo Caiado (PSD) : 3% (eram 4%) Romeu Zema (Novo) : 1% (era 1%) Samara Martins (UP): 1% (era zero) Clariana Barão (DC) : 0 (era zero) Edmilson Costa (PCB) : 0 (era zero) Hertz Dias (PSTU) : 0 (era zero) Rui Costa Pimenta (PCO) : 0 (era zero) Wilson Grassi (Democrata) : 0 (era zero) Indecisos : 8% (eram 10%) Branco/nulo/não vai votar : 7% (eram 7%)</p><p>A Quaest entrevistou 2.004 pessoas de 16 anos ou mais entre os dias 17 e 20 de setembro. A margem de erro é de 2 pontos percentuais, para mais ou para menos, e o nível de confiança é de 95%. A pesquisa foi registrada sob o número BR-06004/2026.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>Empate técnico na Quaest; governo Flávio pode descambar para autocracia; Lula encontra prefeito de NY</p><p>Empate técnico na Quaest; governo Flávio pode descambar para autocracia; Lula encontra prefeito de NY</p><p>‘Celular de Vorcaro tem potencial de fazer estrago em várias reputações’</p><p>‘Viveremos semanas de embate muito forte até o primeiro turno com fantasma do Master’</p><p>Datafolha novo; reajuste no Bolsa Família às vésperas das eleições; e crise no STF continua</p><p><strong>Fonte principal:</strong> <a href=\"https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/21/quaest-lula-37percent-flavio-bolsonaro-33percent-cury-6percent-caiado-4percent-renan-3percent.ghtml\" target=\"_blank\" rel=\"noopener noreferrer\">CBN - Política</a>. Referências da editoria: <a href=\"https://agenciabrasil.ebc.com.br/politica\" target=\"_blank\" rel=\"noopener noreferrer\">Agência Brasil</a> e <a href=\"https://www12.senado.leg.br/noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Senado Federal</a>.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p>",
+        "fonteNome": "CBN - Política",
+        "fonteUrl": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/21/quaest-lula-37percent-flavio-bolsonaro-33percent-cury-6percent-caiado-4percent-renan-3percent.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "É a primeira rodada do levantamento realizada após sessão no STF sobre as relações do ministro Alexandre de Moraes e o ex-banqueiro Daniel Vorcaro."
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "O presidente Lula (PT) e o senador Flávio Bolsonaro (PL) lideram as intenções de voto do cenário de primeiro turno testado pela Quaest. O petista aparece com 37% , enquanto o parlamentar tem 33% . Eles estão empatados tecnicamente dentro da margem de erro, que é de 2 pontos para mais ou para menos."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Os números estão na nova pesquisa Quaest, divulgada nesta segunda-feira (21) e encomendado pelo grupo Globo. É a primeira rodada do levantamento realizada após sessão no Supremo Tribunal Federal (STF) sobre as relações do ministro Alexandre de Moraes e o ex-banqueiro Daniel Vorcaro."
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política Nacional e entra na cobertura factual do Notícia ES a partir da fonte CBN - Política."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "No levantamento anterior, divulgado em 14 de setembro, Lula aparecia com 36%, enquanto Flávio Bolsonaro tinha 31%. Atrás, vinham Augusto Cury (Avante), com 7%; Ronaldo Caiado (PSD), com 4%; Renan Santos (Missão), com 4%; e Romeu Zema (Novo), com 1%. Veja os números mais recentes:"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2a48d99ac874a440",
+      "titulo": "Quem são os 4 candidatos ao governo de Alagoas",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/publico-aumenta-para-manifestacao-contra-lula-e-moraes-na-paulista/",
-      "dataFonte": "2026-09-07T17:55:48.000Z",
-      "resumoFonte": "A poucos minutos do início oficial da manifestação em defesa das instituições e contra o presidente Luiz Inácio Lula da Silva (PT) e o ministro Alexandre de Moraes , do Supremo Tribunal Federal (STF) , na Avenida Paulista, em São Paulo, a presença de público aumentou em relação ao período da manhã. No início da tarde desta segunda-feira, 7, a…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/manifestacao-7-setembro.jpg.webp",
-      "descobertaEm": "2026-09-07T18:14:17.828Z"
+      "urlFonte": "https://revistaoeste.com/politica/quem-sao-os-4-candidatos-ao-governo-de-alagoas/",
+      "dataFonte": "2026-09-21T22:55:27.000Z",
+      "resumoFonte": "O Palácio República dos Palmares terá um novo ocupante a partir de 1º de janeiro de 2027. O atual governador de Alagoas , Paulo Dantas (MDB), está no segundo mandato e não pode disputar uma nova reeleição. Quatro candidatos concorrem à sucessão nas eleições de 2026: Renan Filho (MDB), João Henrique Caldas (PSDB), Lenilda Luna (UP) e Márcio Jambo…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/10/modelo-de-urna-eletronica-eleicoes-suplementares-direita-x-esquerda.jpg.webp",
+      "descobertaEm": "2026-09-21T23:20:10.420Z",
+      "reportagem": {
+        "titulo": "Quem são os 4 candidatos ao governo de Alagoas",
+        "slug": "quem-sao-os-4-candidatos-ao-governo-de-alagoas",
+        "categoria": "Política Nacional",
+        "data": "2026-09-21",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/10/modelo-de-urna-eletronica-eleicoes-suplementares-direita-x-esquerda.jpg.webp",
+        "resumo": "Pleito opõe blocos políticos tradicionais do Estado e conta também com candidaturas isoladas",
+        "conteudo": "<p>Formada em jornalismo pela Universidade Paulista. Atuou em veículos como Folha de S.Paulo e Rede Brasil de Televisão. É repórter de Oeste em São Paulo</p><h2>O que a fonte registrou</h2><p>O Palácio República dos Palmares terá um novo governador a partir de 1º de janeiro de 2027, com quatro candidatos disputando as eleições de 2026: Renan Filho (MDB), JHC (PSDB), Lenilda Luna (UP) e Márcio Jambo (Democrata). A Justiça Eleitoral já deferiu as candidaturas, e a disputa reflete um embate entre dois blocos políticos tradicionais em Alagoas. Levantamento do instituto Paraná Pesquisa divulgada, nesta segunda-feira, 21, mostra JHC liderando com 48,6% das intenções de voto, seguido por Renan Filho com 41,6%. O 1º turno ocorrerá em 4 de outubro.</p><p>O Palácio República dos Palmares terá um novo ocupante a partir de 1º de janeiro de 2027. O atual governador de Alagoas , Paulo Dantas (MDB), está no segundo mandato e não pode disputar uma nova reeleição.</p><p>Quatro candidatos concorrem à sucessão nas eleições de 2026: Renan Filho (MDB), João Henrique Caldas (PSDB), Lenilda Luna (UP) e Márcio Jambo (Democrata). A Justiça Eleitoral deferiu os registros das quatro candidaturas.</p><p>O pleito trará o embate direto entre dois blocos políticos tradicionais em Alagoas. De um lado, está o grupo liderado pelo senador Renan Calheiros (MDB), que conta com aliados do partido e o apoio de Dantas. O bloco lançou Renan Filho, ex-governador do Estado , para retornar ao Palácio República dos Palmares.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>Do outro, está a aliança entre o deputado federal Arthur Lira (PP) , ex-presidente da Câmara dos Deputados, e João Henrique Caldas, ex-prefeito de Maceió. O bloco reúne partidos de oposição ao grupo dos Calheiros e apoios ligados ao campo conservador.</p><p>Fora dos dois principais blocos, Lenilda Luna e Márcio Jambo disputam o governo em candidaturas independentes.</p><p>Nome completo: João Henrique Holanda Caldas Partido: PSDB Coligação: Alagoas Gigante Vice: Célia Rocha (PSDB) Grau de instrução: superior completo Ocupação: advogado Patrimônio: R$ 2,24 milhões em bens declarados Trajetória: foi deputado estadual, deputado federal e prefeito de Maceió por dois mandatos. Em 2026, disputa pela primeira vez o governo de Alagoas.</p><p>Nome completo: Lenilda Luna de Almeida Partido: UP Coligação: partido isolado Vice: Jardel Queiroz (UP) Grau de instrução: superior completo Ocupação: servidora pública federal Patrimônio: R$ 115 mil em bens declarados Trajetória: disputou a Prefeitura de Maceió em 2020 e 2024 e uma vaga na Câmara dos Deputados em 2022. Em 2026, disputa pela primeira vez o governo de Alagoas.</p><p>Nome completo: Marcio Ferreira Jambo Sobrinho Partido: Democrata Coligação: partido isolado Vice: Jaudinete Pontes (Democrata) Grau de instrução: superior incompleto Ocupação: corretor de imóveis, seguros, títulos e valores Patrimônio: não declarou bens à Justiça Eleitoral Trajetória: disputou eleições para vereador, deputado estadual e deputado federal, mas não conquistou mandato. Em 2026, disputa o governo de Alagoas.</p><p>Nome completo: José Renan Vasconcelos Calheiros Filho Partido: MDB Coligação: Pra Alagoas Fazer História de Novo Vice: Yale Barbosa (MDB) Grau de instrução: superior completo Ocupação: economista Patrimônio: R$ 1,78 milhão em bens declarados Trajetória: foi prefeito de Murici, deputado federal, governador de Alagoas por dois mandatos e senador. Também comandou o Ministério dos Transportes no governo Lula.</p><p>Um levantamento do instituto Paraná Pesquisas, divulgado nesta segunda-feira, 21, mostra que o ex-prefeito JHC está na liderança da corrida, com 48,6% das intenções de voto . Renan Filho aparece com 41,6%. Lenilda Luna e Márcio Jambo registram 0,6% cada.</p><p><strong>Fonte principal:</strong> <a href=\"https://revistaoeste.com/politica/quem-sao-os-4-candidatos-ao-governo-de-alagoas/\" target=\"_blank\" rel=\"noopener noreferrer\">Revista Oeste - Feed</a>. Referências da editoria: <a href=\"https://agenciabrasil.ebc.com.br/politica\" target=\"_blank\" rel=\"noopener noreferrer\">Agência Brasil</a> e <a href=\"https://www12.senado.leg.br/noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Senado Federal</a>.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/quem-sao-os-4-candidatos-ao-governo-de-alagoas/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Pleito opõe blocos políticos tradicionais do Estado e conta também com candidaturas isoladas"
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Formada em jornalismo pela Universidade Paulista. Atuou em veículos como Folha de S.Paulo e Rede Brasil de Televisão. É repórter de Oeste em São Paulo"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O Palácio República dos Palmares terá um novo governador a partir de 1º de janeiro de 2027, com quatro candidatos disputando as eleições de 2026: Renan Filho (MDB), JHC (PSDB), Lenilda Luna (UP) e Márcio Jambo (Democrata). A Justiça Eleitoral já deferiu as candidaturas, e a disputa reflete um embate entre dois blocos políticos tradicionais em Alagoas. Levant"
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política Nacional e entra na cobertura factual do Notícia ES a partir da fonte Revista Oeste - Feed."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "O Palácio República dos Palmares terá um novo ocupante a partir de 1º de janeiro de 2027. O atual governador de Alagoas , Paulo Dantas (MDB), está no segundo mandato e não pode disputar uma nova reeleição."
+          }
+        ]
+      }
     },
     {
-      "id": "964bafbbce2c990a",
-      "titulo": "Moraes se declara impedido de votar recurso que pede liberdade de Bolsonaro",
+      "id": "794bccfe05baa795",
+      "titulo": "TRE-RJ apreende quadro de Bolsonaro em campanha de Rafael Satiê",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/moraes-se-declara-impedido-de-votar-recurso-que-pede-liberdade-de-bolsonaro/",
-      "dataFonte": "2026-09-07T17:30:34.000Z",
-      "resumoFonte": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF) , se declarou impedido nesta segunda-feira, 7, de votar um recurso em habeas corpus que pede a libertação de Jair Bolsonaro. Moraes é relator do inquérito que determinou a prisão do ex-presidente. A Primeira Turma do STF analisa o caso no plenário virtual, com julgamento aberto até…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/05/jair-bolsonaro.jpg.webp",
-      "descobertaEm": "2026-09-07T18:14:17.828Z"
+      "urlFonte": "https://revistaoeste.com/politica/tre-rj-apreende-quadro-de-bolsonaro-em-campanha-de-rafael-satie/",
+      "dataFonte": "2026-09-21T22:16:00.000Z",
+      "resumoFonte": "Agentes do Tribunal Regional Eleitoral do Rio de Janeiro (TRE-RJ) apreenderam um quadro com a imagem do ex-presidente Jair Bolsonaro durante ato de campanha do vereador e candidato a deputado federal Rafael Satiê (PL) em Teresópolis, na Região Serrana, nesta segunda-feira, 21. Segundo os agentes, o candidato praticava propaganda irregular. Em vídeo…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/1790028324305826-910x568.jpg.webp",
+      "descobertaEm": "2026-09-21T23:20:10.420Z",
+      "reportagem": {
+        "titulo": "TRE-RJ apreende quadro de Bolsonaro em campanha de Rafael Satiê",
+        "slug": "tre-rj-apreende-quadro-de-bolsonaro-em-campanha-de-rafael-satie",
+        "categoria": "Política Nacional",
+        "data": "2026-09-21",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/1790028324305826-910x568.jpg.webp",
+        "resumo": "Agentes da Justiça Eleitoral recolheram material em Teresópolis alegando propaganda irregular; candidato do PL questionou medida e tribunal não respondeu",
+        "conteudo": "<p>Jornalista formada pela Universidade Federal de Mato Grosso, com extensão em jornalismo econômico pela Fundação Getulio Vargas. Atuou no jornal O Estado de S. Paulo. É repórter de Oeste em São Paulo.</p><h2>O que a fonte registrou</h2><p>Agentes do Tribunal Regional Eleitoral do Rio de Janeiro apreenderam um quadro com a imagem do ex-presidente Jair Bolsonaro durante um ato de campanha do vereador Rafael Satiê em Teresópolis, nesta segunda-feira, 21, alegando propaganda irregular. Satiê contestou a legalidade da apreensão, afirmando que Bolsonaro não é candidato. Ele também relatou que um colaborador de sua campanha foi detido depois de questionar a ação dos agentes.</p><p>Agentes do Tribunal Regional Eleitoral do Rio de Janeiro (TRE-RJ) apreenderam um quadro com a imagem do ex-presidente Jair Bolsonaro durante ato de campanha do vereador e candidato a deputado federal Rafael Satiê (PL) em Teresópolis, na Região Serrana, nesta segunda-feira, 21. Segundo os agentes, o candidato praticava propaganda irregular.</p><p>Em vídeo publicado nas redes sociais, Satiê questionou o fundamento legal da apreensão. “Isso aqui não é propaganda. O Bolsonaro é candidato?”, disse o candidato aos agentes. “Você apreendeu um quadro de uma pessoa que não é candidato. Bolsonaro não é candidato!”</p><p>Em outro vídeo, também divulgado nas redes sociais, Satiê afirmou que um colaborador de sua campanha recebeu voz de prisão durante a abordagem. Segundo o candidato, o homem foi detido depois de questionar a ação dos agentes.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>De acordo com a versão apresentada por um agente do TRE-RJ no vídeo, o colaborador teria ameaçado uma das autoridades, que se identificou como policial.</p><p>A ação ocorre dias depois de uma decisão liminar da ministra Estela Aranha, do Tribunal Superior Eleitoral (TSE) , que determinou a retirada de santinhos e materiais eleitorais que usem a imagem de Bolsonaro de maneira a transmitir apoio a uma candidatura. A restrição não alcança toda e qualquer fotografia do ex-presidente, mas peças em que o contexto possa apresentá-lo como apoiador de um candidato.</p><p>A liminar foi concedida em uma ação da deputada estadual Duda Hidalgo (PT-SP) contra o deputado estadual Lucas Bove (PL-SP). Na representação, a campanha de Bove produziu 50 mil santinhos com a imagem de Bolsonaro ao lado de sua fotografia, nome e número de urna. A ministra Estela Aranha entendeu que a disposição dos elementos poderia levar o eleitor a interpretar que o ex-presidente apoia a candidatura.</p><p>Leia mais: “ Moraes se declara impedido em ação que envolve a própria mulher ”</p><p>O entendimento se baseia em decisão do ministro Alexandre de Moraes, do Supremo Tribunal Federal , que proíbe Bolsonaro de divulgar manifestações político-eleitorais até o fim das eleições de 2026, inclusive por terceiros.</p><p>Leia mais: “ Defesa de Milton Leite pede ao STJ revogação de prisão ”</p><p>Satiê também afirmou que os agentes deveriam ter sinalizado a irregularidade antes de recolher o material e classificou a ação como “ridícula”. O candidato disse que continuará fazendo campanha com o quadro.</p><p><strong>Fonte principal:</strong> <a href=\"https://revistaoeste.com/politica/tre-rj-apreende-quadro-de-bolsonaro-em-campanha-de-rafael-satie/\" target=\"_blank\" rel=\"noopener noreferrer\">Revista Oeste - Feed</a>. Referências da editoria: <a href=\"https://agenciabrasil.ebc.com.br/politica\" target=\"_blank\" rel=\"noopener noreferrer\">Agência Brasil</a> e <a href=\"https://www12.senado.leg.br/noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Senado Federal</a>.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/tre-rj-apreende-quadro-de-bolsonaro-em-campanha-de-rafael-satie/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Agentes da Justiça Eleitoral recolheram material em Teresópolis alegando propaganda irregular; candidato do PL questionou medida e tribunal não respondeu"
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Jornalista formada pela Universidade Federal de Mato Grosso, com extensão em jornalismo econômico pela Fundação Getulio Vargas. Atuou no jornal O Estado de S. Paulo. É repórter de Oeste em São Paulo."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Agentes do Tribunal Regional Eleitoral do Rio de Janeiro apreenderam um quadro com a imagem do ex-presidente Jair Bolsonaro durante um ato de campanha do vereador Rafael Satiê em Teresópolis, nesta segunda-feira, 21, alegando propaganda irregular. Satiê contestou a legalidade da apreensão, afirmando que Bolsonaro não é candidato. Ele também relatou que um co"
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política Nacional e entra na cobertura factual do Notícia ES a partir da fonte Revista Oeste - Feed."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "Agentes do Tribunal Regional Eleitoral do Rio de Janeiro (TRE-RJ) apreenderam um quadro com a imagem do ex-presidente Jair Bolsonaro durante ato de campanha do vereador e candidato a deputado federal Rafael Satiê (PL) em Teresópolis, na Região Serrana, nesta segunda-feira, 21. Segundo os agentes, o candidato praticava propaganda irregular."
+          }
+        ]
+      }
     },
     {
-      "id": "99e8084c227363ae",
-      "titulo": "Messias e Alcolumbre se ignoram durante 7/9 de Lula",
+      "id": "f003e13da6d1c3e1",
+      "titulo": "Restrição à campanha de Deltan divide TSE",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/no-ponto/messias-e-alcolumbre-se-ignoram-durante-7-9-de-lula/",
-      "dataFonte": "2026-09-07T12:12:22.000Z",
-      "resumoFonte": "O advogado-geral da União , Jorge Messias, marcou presença no Desfile da Independência que ocorre na manhã desta segunda-feira, 7, na Esplanada dos Ministérios, área nobre de Brasília. + Saiba mais bastidores da política em No Ponto Ao chegar no evento promovido pelo governo Luiz Inácio Lula da Silva, Messias cumprimentou ministros de Estado e…",
+      "urlFonte": "https://revistaoeste.com/no-ponto/restricao-a-campanha-de-deltan-dallagnol-divide-ministros-do-tse/",
+      "dataFonte": "2026-09-21T19:16:30.000Z",
+      "resumoFonte": "A restrição imposta à campanha de Deltan Dallagnol (Novo) ao Senado pelo Paraná dividiu ministros do Tribunal Superior Eleitoral (TSE). Oeste ouviu três integrantes da Corte, em caráter reservado, sobre a situação jurídica do ex-procurador da República. Uma das fontes entende que a mudança promovida na legislação eleitoral não altera a situação de…",
       "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
-      "descobertaEm": "2026-09-07T12:19:08.309Z"
+      "descobertaEm": "2026-09-21T19:34:16.955Z",
+      "reportagem": {
+        "titulo": "Restrição à campanha de Deltan divide TSE",
+        "slug": "restricao-a-campanha-de-deltan-divide-tse",
+        "categoria": "Política Nacional",
+        "data": "2026-09-21",
+        "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
+        "resumo": "A restrição imposta à campanha de Deltan Dallagnol (Novo) ao Senado pelo Paraná dividiu ministros do Tribunal Superior Eleitoral (TSE). Oeste ouviu três integrantes da Corte, em caráter reservado, sobre a situação jurídica do ex-procurador da República. Uma das fontes entende que a mudança promovida na legislação eleitoral não altera a situação de…",
+        "conteudo": "<p>A restrição imposta à campanha de Deltan Dallagnol (Novo) ao Senado pelo Paraná dividiu ministros do Tribunal Superior Eleitoral (TSE). Oeste ouviu três integrantes da Corte, em caráter reservado, sobre a situação jurídica do ex-procurador da República. Uma das fontes entende que a mudança promovida na legislação eleitoral não altera a situação de…</p><h2>O que a fonte registrou</h2><p>Restrição à campanha de Deltan divide TSE</p><p>Revista Oeste - Feed publicou o registro &quot;Restrição à campanha de Deltan divide TSE&quot;. O Notícia ES reapurou a pauta a partir do texto original e da linha editorial do portal, sem transformar nota de agência em matéria pronta.</p><p>A reportagem automática só segue adiante quando há título, resumo, imagem real da fonte e endereço canônico da publicação original.</p><p>No Espírito Santo, pautas de Política Nacional entram na fila com prioridade de serviço público: o leitor precisa do fato, da fonte e do que ainda depende de confirmação oficial.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>A Redação Notícia ES não reproduz coluna de opinião como se fosse nota factual. O texto abaixo se limita ao que a fonte publicou e ao encadeamento necessário para o leitor entender o recorte.</p><p>Quem quiser o inteiro teor deve ler a publicação original. Este texto organiza o que já está documentado na fonte principal e aponta duas referências institucionais da mesma editoria.</p><p>A cobertura segue aberta a atualização se surgir documento, nota oficial ou desmentido. Até lá, o registro permanece ancorado na URL da fonte e na data em que a pauta entrou na fila.</p><p><strong>Fonte principal:</strong> <a href=\"https://revistaoeste.com/no-ponto/restricao-a-campanha-de-deltan-dallagnol-divide-ministros-do-tse/\" target=\"_blank\" rel=\"noopener noreferrer\">Revista Oeste - Feed</a>. Referências da editoria: <a href=\"https://agenciabrasil.ebc.com.br/politica\" target=\"_blank\" rel=\"noopener noreferrer\">Agência Brasil</a> e <a href=\"https://www12.senado.leg.br/noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Senado Federal</a>.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/no-ponto/restricao-a-campanha-de-deltan-dallagnol-divide-ministros-do-tse/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A restrição imposta à campanha de Deltan Dallagnol (Novo) ao Senado pelo Paraná dividiu ministros do Tribunal Superior Eleitoral (TSE). Oeste ouviu três integrantes da Corte, em caráter reservado, sobre a situação jurídica do ex-procurador da República. Uma das fontes entende que a mudança promovida na legislação eleitoral não altera a situação de…"
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "A restrição imposta à campanha de Deltan Dallagnol (Novo) ao Senado pelo Paraná dividiu ministros do Tribunal Superior Eleitoral (TSE). Oeste ouviu três integrantes da Corte, em caráter reservado, sobre a situação jurídica do ex-procurador da República. Uma das fontes entende que a mudança promovida na legislação eleitoral não altera a situação de…"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Restrição à campanha de Deltan divide TSE"
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política Nacional e entra na cobertura factual do Notícia ES a partir da fonte Revista Oeste - Feed."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "Restrição à campanha de Deltan divide TSE"
+          }
+        ]
+      }
     },
     {
-      "id": "4d74f022268a2fab",
-      "titulo": "Zema propõe poupança de R$ 1 mil para cada brasileiro ao nascer",
+      "id": "f2833bcb5906e889",
+      "titulo": "Família de Charlie Kirk acusa universidade de falhas de segurança",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/zema-propoe-poupanca-de-r-1-mil-para-cada-brasileiro-ao-nascer/",
-      "dataFonte": "2026-09-07T11:43:40.000Z",
-      "resumoFonte": "Candidato do Novo à Presidência, Romeu Zema defendeu a criação de uma poupança de R$ 1 mil para cada brasileiro ao nascer. A proposta integra o plano de governo do ex-governador de Minas Gerais e prevê a aplicação do dinheiro até os 18 anos. O político apresentou a ideia em entrevista à Record. Um trecho da conversa foi divulgado antes da exibição…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2021/02/tgtg.jpg.webp",
-      "descobertaEm": "2026-09-07T12:19:08.309Z"
+      "urlFonte": "https://revistaoeste.com/mundo/familia-de-charlie-kirk-acusa-universidade-de-falhas-de-seguranca/",
+      "dataFonte": "2026-09-21T18:57:09.000Z",
+      "resumoFonte": "A família de Charlie Kirk responsabilizou a Universidade de Utah — Utah Valley University (UVU) — pela falta de segurança no evento em que o ativista conservador foi morto, em 10 setembro de 2025. Os advogados da família afirmam que a instituição ignorou alertas da equipe de Kirk. A família afirma que a universidade poderia ter evitado a morte se…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/09/Charlie-Kirk-2.jpg.webp",
+      "descobertaEm": "2026-09-21T19:34:16.955Z",
+      "reportagem": {
+        "titulo": "Família de Charlie Kirk acusa universidade de falhas de segurança",
+        "slug": "familia-de-charlie-kirk-acusa-universidade-de-falhas-de-seguranca",
+        "categoria": "Política Nacional",
+        "data": "2026-09-21",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/09/Charlie-Kirk-2.jpg.webp",
+        "resumo": "Notificação judicial afirma que a instituição ignorou alertas sobre acesso a telhados",
+        "conteudo": "<p>Formada em jornalismo pela Universidade Paulista. Atuou em veículos como Folha de S.Paulo e Rede Brasil de Televisão. É repórter de Oeste em São Paulo</p><h2>O que a fonte registrou</h2><p>• A família de Charlie Kirk responsabiliza a Utah Valley University (UVU) pela falta de segurança que levou à sua morte em 10 de setembro de 2025, durante um evento no campus em Orem, Utah. • Os advogados alegam que a universidade ignorou alertas sobre o acesso a telhados e não fez uma avaliação adequada dos riscos, além de não controlar o perímetro de segurança. • A UVU afirmou que tratará o caso conforme seus procedimentos legais.</p><p>A família de Charlie Kirk responsabilizou a Universidade de Utah — Utah Valley University (UVU) — pela falta de segurança no evento em que o ativista conservador foi morto, em 10 setembro de 2025. Os advogados da família afirmam que a instituição ignorou alertas da equipe de Kirk.</p><p>A família afirma que a universidade poderia ter evitado a morte se tivesse feito uma avaliação adequada dos riscos, controlado o acesso a telhados e reforçado a segurança do evento. A UVU afirmou que recebeu a notificação e que tratará o caso de acordo com seus procedimentos legais.</p><p>As acusações constam de uma notificação judicial apresentada pela família em 9 de setembro. As informações são do jornal britânico The Guardian .</p><h2>Por que essa pauta entra no Notícia ES</h2><p>Segundo a notificação, integrantes da Turning Point USA, organização fundada por Kirk, alertaram a polícia da universidade sobre o acesso de estudantes a telhados próximos ao local do evento.</p><p>O chefe da polícia da UVU, Jeffrey Long, teria respondido que cuidaria da situação. A família afirma que a universidade, mesmo ciente do risco, não controlou adequadamente o acesso a telhados.</p><p>Kirk participava de um evento no campus em Orem, no Estado de Utah, quando foi atingido por um disparo feito de um prédio da universidade. Cerca de 3 mil pessoas estavam no local.</p><p>Os advogados também afirmam que a universidade não fez uma avaliação adequada dos riscos, não estabeleceu um perímetro de segurança e não monitorou as câmeras de segurança em tempo real. A família questiona ainda o número de policiais destacados para o evento e a ausência de uma ambulância no local.</p><p>O documento destaca também a proximidade de Kirk com o presidente dos Estados Unidos, Donald Trump, e a tentativa de assassinato sofrida pelo republicano em 2024.</p><p>Além da universidade e do Estado de Utah, a notificação cita o departamento de polícia da instituição, o chefe Jeffrey Long e a então presidente da universidade, Astrid Tuminez. O documento representa uma etapa necessária para que os familiares possam entrar com uma ação contra o Estado e a instituição.</p><p>Leia também: “ Vítimas da intolerância ”, reportagem de Anderson Scardoelli publicada na edição 288 da Revista Oeste</p><p><strong>Fonte principal:</strong> <a href=\"https://revistaoeste.com/mundo/familia-de-charlie-kirk-acusa-universidade-de-falhas-de-seguranca/\" target=\"_blank\" rel=\"noopener noreferrer\">Revista Oeste - Feed</a>. Referências da editoria: <a href=\"https://agenciabrasil.ebc.com.br/politica\" target=\"_blank\" rel=\"noopener noreferrer\">Agência Brasil</a> e <a href=\"https://www12.senado.leg.br/noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Senado Federal</a>.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/mundo/familia-de-charlie-kirk-acusa-universidade-de-falhas-de-seguranca/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Notificação judicial afirma que a instituição ignorou alertas sobre acesso a telhados"
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Formada em jornalismo pela Universidade Paulista. Atuou em veículos como Folha de S.Paulo e Rede Brasil de Televisão. É repórter de Oeste em São Paulo"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "• A família de Charlie Kirk responsabiliza a Utah Valley University (UVU) pela falta de segurança que levou à sua morte em 10 de setembro de 2025, durante um evento no campus em Orem, Utah. • Os advogados alegam que a universidade ignorou alertas sobre o acesso a telhados e não fez uma avaliação adequada dos riscos, além de não controlar o perímetro de segur"
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política Nacional e entra na cobertura factual do Notícia ES a partir da fonte Revista Oeste - Feed."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "A família de Charlie Kirk responsabilizou a Universidade de Utah — Utah Valley University (UVU) — pela falta de segurança no evento em que o ativista conservador foi morto, em 10 setembro de 2025. Os advogados da família afirmam que a instituição ignorou alertas da equipe de Kirk."
+          }
+        ]
+      }
+    },
+    {
+      "id": "166148b02d389009",
+      "titulo": "Eleições 2026: conheça quem disputa o governo da Bahia",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/eleicoes-2026-conheca-quem-disputa-o-governo-da-bahia/",
+      "dataFonte": "2026-09-21T18:50:29.000Z",
+      "resumoFonte": "O Palácio de Ondina, sede do governo da Bahia, terá um novo ocupante a partir de 1º de janeiro de 2027 ou continuará sob o comando do atual governador, Jerônimo Rodrigues (PT) . Em 2022, Jerônimo foi eleito no segundo turno, com 52,54% dos votos válidos. Quatro anos depois, ele volta a disputar o cargo contra ACM Neto (União), em uma nova eleição,…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/palacio-de-ondina-salvador-910x568.jpg.webp",
+      "descobertaEm": "2026-09-21T19:34:16.955Z",
+      "reportagem": {
+        "titulo": "Eleições 2026: conheça quem disputa o governo da Bahia",
+        "slug": "eleicoes-2026-conheca-quem-disputa-o-governo-da-bahia",
+        "categoria": "Política Nacional",
+        "data": "2026-09-21",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/palacio-de-ondina-salvador-910x568.jpg.webp",
+        "resumo": "Jerônimo Rodrigues e ACM Neto aparecem entre os nomes que concorrem ao Palácio de Ondina nas eleições de outubro",
+        "conteudo": "<p>Graduada em jornalismo pela Universidade do Estado da Bahia. Soma passagens pelos jornais, JC Concursos, Folha de S.Paulo e O Estado de S.Paulo. Foi repórter dos portais Datagro e Broto. É repórter da Revista Oeste desde março de 2026</p><h2>O que a fonte registrou</h2><p>O atual governador da Bahia, Jerônimo Rodrigues (PT), disputará a reeleição em outubro de 2026, após ser eleito em 2022 com 52,54% dos votos. Ele enfrentará ACM Neto (União), além de outros candidatos como Ariel Capistrano (Democracia Cristã), Aroldo Félix (União Popular), Maria Bona (Partido da Causa Operária) e Ronaldo Mansur (Partido da Causa Operária). As informações sobre os candidatos foram extraídas da plataforma DivulgaCand, do Tribunal Superior Eleitoral (TSE).</p><p>O Palácio de Ondina, sede do governo da Bahia, terá um novo ocupante a partir de 1º de janeiro de 2027 ou continuará sob o comando do atual governador, Jerônimo Rodrigues (PT) .</p><p>Em 2022, Jerônimo foi eleito no segundo turno, com 52,54% dos votos válidos. Quatro anos depois, ele volta a disputar o cargo contra ACM Neto (União), em uma nova eleição, marcada pela presença de nomes conhecidos da política baiana.</p><p>A relação dos candidatos às eleições de outubro reúne os nomes registrados para a disputa pelo governo estadual. Eles serão apresentados em ordem alfabética, seguindo o padrão adotado pelo DivulgaCand , plataforma do Tribunal Superior Eleitoral (TSE) , de onde foram extraídas as informações.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p><p>Revista Oeste - Feed publicou o registro &quot;Eleições 2026: conheça quem disputa o governo da Bahia&quot;. O Notícia ES reapurou a pauta a partir do texto original e da linha editorial do portal, sem transformar nota de agência em matéria pronta.</p><p>Jerônimo Rodrigues e ACM Neto aparecem entre os nomes que concorrem ao Palácio de Ondina nas eleições de outubro</p><p><strong>Fonte principal:</strong> <a href=\"https://revistaoeste.com/politica/eleicoes-2026-conheca-quem-disputa-o-governo-da-bahia/\" target=\"_blank\" rel=\"noopener noreferrer\">Revista Oeste - Feed</a>. Referências da editoria: <a href=\"https://agenciabrasil.ebc.com.br/politica\" target=\"_blank\" rel=\"noopener noreferrer\">Agência Brasil</a> e <a href=\"https://www12.senado.leg.br/noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Senado Federal</a>.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/eleicoes-2026-conheca-quem-disputa-o-governo-da-bahia/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Jerônimo Rodrigues e ACM Neto aparecem entre os nomes que concorrem ao Palácio de Ondina nas eleições de outubro"
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Graduada em jornalismo pela Universidade do Estado da Bahia. Soma passagens pelos jornais, JC Concursos, Folha de S.Paulo e O Estado de S.Paulo. Foi repórter dos portais Datagro e Broto. É repórter da Revista Oeste desde março de 2026"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O atual governador da Bahia, Jerônimo Rodrigues (PT), disputará a reeleição em outubro de 2026, após ser eleito em 2022 com 52,54% dos votos. Ele enfrentará ACM Neto (União), além de outros candidatos como Ariel Capistrano (Democracia Cristã), Aroldo Félix (União Popular), Maria Bona (Partido da Causa Operária) e Ronaldo Mansur (Partido da Causa Operária). A"
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política Nacional e entra na cobertura factual do Notícia ES a partir da fonte Revista Oeste - Feed."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "O Palácio de Ondina, sede do governo da Bahia, terá um novo ocupante a partir de 1º de janeiro de 2027 ou continuará sob o comando do atual governador, Jerônimo Rodrigues (PT) ."
+          }
+        ]
+      }
+    },
+    {
+      "id": "56b15e3628245698",
+      "titulo": "Câmara reduz pela metade trabalho presencial de servidores em meio às eleições",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/camara-reduz-pela-metade-trabalho-presencial-de-servidores-em-meio-as-eleicoes/",
+      "dataFonte": "2026-09-21T18:49:01.000Z",
+      "resumoFonte": "A Câmara dos Deputados autorizou a redução pela metade da jornada presencial de servidores durante o período eleitoral. Com a medida, funcionários que normalmente cumprem jornada de 40 horas semanais poderão permanecer fisicamente na Casa por apenas 20 horas, desde que não haja sessões do plenário. A mudança ocorre em meio ao chamado “recesso…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/07/img20260702111110813.jpg.webp",
+      "descobertaEm": "2026-09-21T19:34:16.955Z",
+      "reportagem": {
+        "titulo": "Câmara reduz pela metade trabalho presencial de servidores em meio às eleições",
+        "slug": "camara-reduz-pela-metade-trabalho-presencial-de-servidores-em-meio-as-eleicoes",
+        "categoria": "Política Nacional",
+        "data": "2026-09-21",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/07/img20260702111110813.jpg.webp",
+        "resumo": "Funcionários poderão cumprir 20 das 40 horas semanais de forma remota enquanto o plenário permanece sem sessões",
+        "conteudo": "<p>Formado em jornalismo pela Universidade Presbiteriana Mackenzie, atua na cobertura política em Brasília há dois anos. Foi repórter de uma afiliada da TV Globo. Cobriu as eleições norte-americanas de 2024, em Washington; o conclave de 2025, em Roma; e a COP30, em Belém.</p><h2>O que a fonte registrou</h2><p>• A Câmara dos Deputados autorizou a redução da jornada presencial de servidores pela metade durante o período eleitoral. • Decisão permite que funcionários com carga de 40 horas semanais trabalhem 20 horas fisicamente na Casa, desde que não haja sessões do plenário. • A medida visa a reduzir gastos e racionalizar a estrutura administrativa em meio ao 'recesso branco' do Congresso, com o primeiro turno das eleições marcado para 4 de outubro.</p><p>A Câmara dos Deputados autorizou a redução pela metade da jornada presencial de servidores durante o período eleitoral. Com a medida, funcionários que normalmente cumprem jornada de 40 horas semanais poderão permanecer fisicamente na Casa por apenas 20 horas, desde que não haja sessões do plenário.</p><p>A mudança ocorre em meio ao chamado “recesso branco” do Congresso, período em que deputados deixam Brasília para se dedicar principalmente às campanhas eleitorais em seus Estados. O último esforço concentrado da Câmara ocorreu no início de setembro.</p><p>A autorização foi concedida pela diretoria-geral da Casa. Apesar da redução da presença física, a Câmara afirma que não houve diminuição da carga horária dos servidores. + Saiba mais de Política em Oeste</p><h2>Por que essa pauta entra no Notícia ES</h2><p>As outras 20 horas semanais deverão ser cumpridas remotamente. Segundo a Casa, caberá às chefias acompanhar e controlar a produtividade dos funcionários durante o período.</p><p>A Câmara justificou a mudança como uma forma de reduzir gastos e racionalizar o funcionamento da estrutura administrativa enquanto as atividades legislativas estão reduzidas.</p><p>Segundo a assessoria da Casa, a medida busca contribuir para a diminuição das despesas “sem prejuízo à continuidade dos serviços, à produtividade das equipes ou ao atendimento das demandas institucionais”.</p><p>A flexibilização ocorre enquanto o Congresso registra redução significativa das atividades presenciais às vésperas das eleições.</p><p>O primeiro turno está marcado para 4 de outubro. Nesta eleição, estarão em disputa as 513 cadeiras da Câmara dos Deputados, além de 54 das 81 vagas do Senado, Presidência da República, governos estaduais e cadeiras nas Assembleias Legislativas.</p><p>Deputados e senadores anteciparam votações por meio de períodos de esforço concentrado antes da fase mais intensa da campanha. O último deles ocorreu de 31 de agosto a 3 de setembro.</p><p>Desde então, as atividades deliberativas do Congresso tornaram-se pontuais, com parlamentares concentrados nas campanhas eleitorais nos Estados.</p><p><strong>Fonte principal:</strong> <a href=\"https://revistaoeste.com/politica/camara-reduz-pela-metade-trabalho-presencial-de-servidores-em-meio-as-eleicoes/\" target=\"_blank\" rel=\"noopener noreferrer\">Revista Oeste - Feed</a>. Referências da editoria: <a href=\"https://agenciabrasil.ebc.com.br/politica\" target=\"_blank\" rel=\"noopener noreferrer\">Agência Brasil</a> e <a href=\"https://www12.senado.leg.br/noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Senado Federal</a>.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/camara-reduz-pela-metade-trabalho-presencial-de-servidores-em-meio-as-eleicoes/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Funcionários poderão cumprir 20 das 40 horas semanais de forma remota enquanto o plenário permanece sem sessões"
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Formado em jornalismo pela Universidade Presbiteriana Mackenzie, atua na cobertura política em Brasília há dois anos. Foi repórter de uma afiliada da TV Globo. Cobriu as eleições norte-americanas de 2024, em Washington; o conclave de 2025, em Roma; e a COP30, em Belém."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "• A Câmara dos Deputados autorizou a redução da jornada presencial de servidores pela metade durante o período eleitoral. • Decisão permite que funcionários com carga de 40 horas semanais trabalhem 20 horas fisicamente na Casa, desde que não haja sessões do plenário. • A medida visa a reduzir gastos e racionalizar a estrutura administrativa em meio ao 'reces"
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política Nacional e entra na cobertura factual do Notícia ES a partir da fonte Revista Oeste - Feed."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "A Câmara dos Deputados autorizou a redução pela metade da jornada presencial de servidores durante o período eleitoral. Com a medida, funcionários que normalmente cumprem jornada de 40 horas semanais poderão permanecer fisicamente na Casa por apenas 20 horas, desde que não haja sessões do plenário."
+          }
+        ]
+      }
+    },
+    {
+      "id": "d5890c5fa3737146",
+      "titulo": "Helicóptero desaparecido com cantor Rick: buscas ocorrem em pontos 30km distantes | CNN Brasil",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil - Capa",
+      "urlFonte": "https://www.cnnbrasil.com.br/nacional/sul/sc/helicoptero-desaparecido-com-cantor-rick-buscas-ocorrem-em-pontos-30km-distantes/",
+      "dataFonte": "2026-09-21T23:12:54.000Z",
+      "resumoFonte": "Operação concentra-se em dois pontos, sendo um o local onde a aeronave supostamente caiu e o outro onde foi registrado o último sinal de celular de um dos tripulantes",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/1_6f781b.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-21T23:22:11.475Z",
+      "reportagem": {
+        "titulo": "Helicóptero desaparecido com cantor Rick: buscas ocorrem em pontos 30km distantes | CNN Brasil",
+        "slug": "helicoptero-desaparecido-com-cantor-rick-buscas-ocorrem-em-pontos-30km-distantes-cnn-brasil",
+        "categoria": "Política Nacional",
+        "data": "2026-09-21",
+        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/1_6f781b.jpg?w=1200&h=630&crop=1",
+        "resumo": "Operação concentra-se em dois pontos, sendo um o local onde a aeronave supostamente caiu e o outro onde foi registrado o último sinal de celular de um dos tripulantes",
+        "conteudo": "<p>Um helicóptero desapareceu na tarde desta segunda-feira (21), em Santa Catarina. Segundo apurado pela CNN Brasil , na aeronave, estariam o cantor Rick, da dupla com Renner, e o empresário Bruno Avelar, do projeto “O Poder do Network” .</p><h2>O que a fonte registrou</h2><p>Segundo o Corpo de Bombeiros de Santa Catarina, as buscas pelo helicóptero acontecem em dois pontos, com cerca de 30km entre eles: o primeiro ponto faz referência ao local da última comunicação da aeronave. De acordo com a corporação, uma equipe foi até o local, mas nada foi encontrado.</p><p>Além o primeiro ponto, os bombeiros também receberam a localização do último ponto de sinal de celular de um dos ocupantes da aeronave.</p><p>Ao todo, cerca 20 bombeiros militares participam da operação, com apoio de viaturas com tração 4x4, necessárias para acessar o terreno. Os esforços se concentram na região de Urubici .</p><p>Segundo a Polícia Militar de Santa Catarina, as buscas seguem por terra por causa das condições climáticas e em conjunto com as demais forças de resgate e segurança.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>O Corpo de Bombeiros em Urubici foi inicialmente acionado à localidade de Vacas Gordas, apontada como provável local da queda , mas não encontraram vestígios da aeronave. O helicóptero teria decolado da costa esmeralda em porto belo, indo para São Joaquim.</p><p>Em nota, Força Aérea Brasileira (FAB), por meio do Departamento de Controle do Espaço Aéreo (DECEA), confirmou que procura por um helicóptero que perdeu comunicação .</p><p>Bruno Avelar é um empresário e fundador do &quot;Poder do Network&quot;, reconhecido por sua experiência em conexões profissionais e por compartilhar nas redes sociais sua rotina de palestras sobre o tema.</p><p>Além de sua atuação no mercado corporativo, o empresário apareceu ao lado de personalidades como Neymar Jr., registrando momentos como o leilão do instituto do jogador em 2025 e uma viagem.</p><p>Rick Sollo, da dupla sertaneja Rick &amp; Renner, tem 59 anos e e é pai de seis filhos. Até a última semana, estava realizando shows na região Centro-Oeste do país junto à sua parceria de dupla.</p><p>Além de cantor, Rick é compositor de grandes sucessos gravados por outros duetos, como &quot;Página de Amigos&quot;, famosa na voz de Chitãozinho &amp; Xororó; &quot;Só Dá Você na Minha Vida&quot;, João Paulo &amp; Daniel; &quot;Agenda Rabiscada&quot;, entre outras.</p><p>Nas redes sociais, Rick postou pela manhã chegando em um avião de pequeno porte e caminhando ao lado do empresário Bruno Avelar até um helicóptero, sem dizer em que cidade estavam .</p><p><strong>Fonte principal:</strong> <a href=\"https://www.cnnbrasil.com.br/nacional/sul/sc/helicoptero-desaparecido-com-cantor-rick-buscas-ocorrem-em-pontos-30km-distantes/\" target=\"_blank\" rel=\"noopener noreferrer\">CNN Brasil - Capa</a>. Referências da editoria: <a href=\"https://agenciabrasil.ebc.com.br/politica\" target=\"_blank\" rel=\"noopener noreferrer\">Agência Brasil</a> e <a href=\"https://www12.senado.leg.br/noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Senado Federal</a>.</p>",
+        "fonteNome": "CNN Brasil - Capa",
+        "fonteUrl": "https://www.cnnbrasil.com.br/nacional/sul/sc/helicoptero-desaparecido-com-cantor-rick-buscas-ocorrem-em-pontos-30km-distantes/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Operação concentra-se em dois pontos, sendo um o local onde a aeronave supostamente caiu e o outro onde foi registrado o último sinal de celular de um dos tripulantes"
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Um helicóptero desapareceu na tarde desta segunda-feira (21), em Santa Catarina. Segundo apurado pela CNN Brasil , na aeronave, estariam o cantor Rick, da dupla com Renner, e o empresário Bruno Avelar, do projeto “O Poder do Network” ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Segundo o Corpo de Bombeiros de Santa Catarina, as buscas pelo helicóptero acontecem em dois pontos, com cerca de 30km entre eles: o primeiro ponto faz referência ao local da última comunicação da aeronave. De acordo com a corporação, uma equipe foi até o local, mas nada foi encontrado."
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política Nacional e entra na cobertura factual do Notícia ES a partir da fonte CNN Brasil - Capa."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "Além o primeiro ponto, os bombeiros também receberam a localização do último ponto de sinal de celular de um dos ocupantes da aeronave."
+          }
+        ]
+      }
+    },
+    {
+      "id": "e06ed6931eed895d",
+      "titulo": "NFL no Maracanã: Rio terá esquema especial de segurança, trânsito e transporte",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/brasil/nfl-no-maracana-rio-tera-esquema-especial-de-seguranca-transito-e-transporte/",
+      "dataFonte": "2026-09-21T23:09:40.000Z",
+      "resumoFonte": "Estádio vai receber Dallas Cowboys e Baltimore Ravens no próximo domingo",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/NFL_MarcoAntonioLima-4.JPG-1.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-09-21T23:20:10.420Z",
+      "reportagem": {
+        "titulo": "NFL no Maracanã: Rio terá esquema especial de segurança, trânsito e transporte",
+        "slug": "nfl-no-maracana-rio-tera-esquema-especial-de-seguranca-transito-e-transporte",
+        "categoria": "Política Nacional",
+        "data": "2026-09-21",
+        "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/NFL_MarcoAntonioLima-4.JPG-1.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
+        "resumo": "NFL no Maracanã: Rio terá esquema especial de segurança, trânsito e transporte. Registro original em Veja. A Redação Notícia ES reapurou a pauta para a editoria Política Nacional.",
+        "conteudo": "<p>Pela primeira vez, o Rio de Janeiro vai receber um jogo da Liga Nacional de Futebol Americano , a NFL . O pontap&amp;eacute; inicial entre Dallas Cowboys e Baltimore Ravens est&amp;aacute; marcado para &amp;agrave;s 17h25 do pr&amp;oacute;ximo domingo, 27, no Maracan&amp;atilde; . Ser&amp;aacute; apenas o terceiro jogo da liga esportiva mais popular dos Estados Unidos em solo brasileiro. A prefeitura e o governo do estado anunciaram um plano operacional com cerca de 900 agentes municipais e 600 estaduais &amp;mdash; entre policiais civis, militares e bombeiros.</p><h2>O que a fonte registrou</h2><p>Segundo o governo do estado, os policiais estar&amp;atilde;o nas ruas entre os dias 21 e 28 de setembro. Durante esse per&amp;iacute;odo, diversas atra&amp;ccedil;&amp;otilde;es foram distribu&amp;iacute;das pela cidade, como a galeria tem&amp;aacute;tica da liga no Shopping Leblon e a bola gigante de futebol americano na Praia de Botafogo. Os policiais tamb&amp;eacute;m v&amp;atilde;o escoltar as delega&amp;ccedil;&amp;otilde;es dos times do Aeroporto do Gale&amp;atilde;o at&amp;eacute; os hot&amp;eacute;is. Entre jogadores, t&amp;eacute;cnicos e outros membros do staff , as delega&amp;ccedil;&amp;otilde;es dos times da NFL podem chegar a 200 integrantes.</p><p>Segundo a prefeitura, para auxiliar na seguran&amp;ccedil;a do est&amp;aacute;dio, ser&amp;aacute; montada uma estrutura da 18&amp;ordf; DP (Pra&amp;ccedil;a da Bandeira) no Maracan&amp;atilde;. Tamb&amp;eacute;m v&amp;atilde;o ser utilizados drones para fazer o monitoramento a&amp;eacute;reo da regi&amp;atilde;o. Ainda segundo a prefeitura, cerca de 900 agentes municipais v&amp;atilde;o trabalhar na limpeza, no tr&amp;acirc;nsito e no direcionamento do transporte.</p><p>No dia do jogo, vias pr&amp;oacute;ximas ao est&amp;aacute;dio ser&amp;atilde;o gradualmente interditadas a partir das 10 horas, como a Avenida Rei Pel&amp;eacute;, que ser&amp;aacute; fechada &amp;agrave;s 11 horas. O governo promete a libera&amp;ccedil;&amp;atilde;o das vias at&amp;eacute; 23 horas, cerca de duas horas ap&amp;oacute;s o t&amp;eacute;rmino da partida. A partir das 19 horas do dia anterior, s&amp;aacute;bado, 26, n&amp;atilde;o ser&amp;aacute; permitido estacionar nos arredores do est&amp;aacute;dio.</p><p>O Metr&amp;ocirc;Rio vai aumentar a oferta de trens em opera&amp;ccedil;&amp;atilde;o no dia da partida durante o hor&amp;aacute;rio usual de funcionamento aos domingos (das 7 &amp;agrave;s 23 horas). Algumas linhas de &amp;ocirc;nibus ser&amp;atilde;o desviadas, principalmente para a Rua Mariz e Barros e a Rua Gonzaga Bastos, para as linhas que seguem em dire&amp;ccedil;&amp;atilde;o &amp;agrave; Zona Norte; e para a Rua S&amp;atilde;o Francisco Xavier, para as que v&amp;atilde;o rumo ao Centro e &amp;agrave; Zona Sul.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>Para entrar no est&amp;aacute;dio, ser&amp;atilde;o permitidas bolsas transparentes de pl&amp;aacute;stico, vinil ou PVC, com dimens&amp;otilde;es m&amp;aacute;ximas de 30,5 x 15,25 x 30,5 cm, incluindo mochilas, pochetes e sacolas transparentes. O comunicado da prefeitura adverte que n&amp;atilde;o ser&amp;aacute; admitida a entrada com garrafas de vidro, objetos perfurocortantes, fogos de artif&amp;iacute;cio ou materiais incendi&amp;aacute;rios, armas de fogo ou brancas e materiais de marketing n&amp;atilde;o autorizados.</p><p>A previs&amp;atilde;o &amp;eacute; de que os port&amp;otilde;es sejam abertos &amp;agrave;s 13h25, quatro horas antes do in&amp;iacute;cio da partida. O Metr&amp;ocirc;Rio orienta ainda que os torcedores cheguem cedo ao evento e, na sa&amp;iacute;da do est&amp;aacute;dio, fa&amp;ccedil;am a dispers&amp;atilde;o com calma.</p><p>Ser&amp;aacute; a terceira partida da NFL em solo brasileiro. No ano passado, a Neo Qu&amp;iacute;mica Arena, do Corinthians, recebeu Los Angeles Chargers e Kansas City Chiefs em S&amp;atilde;o Paulo. No ano anterior, o mesmo est&amp;aacute;dio recebeu Philadelphia Eagles e Green Bay Packers. O jogo no Rio ser&amp;aacute; o primeiro de tr&amp;ecirc;s que a liga norte-americana prometeu para a cidade nos pr&amp;oacute;ximos cinco anos. A segunda partida est&amp;aacute; marcada para o ano que vem, no mesmo palco e, al&amp;eacute;m do jogo, foram prometidos shows de Ricky Martin e Pedro Sampaio.</p><p>Veja publicou o registro &quot;NFL no Maracanã: Rio terá esquema especial de segurança, trânsito e transporte&quot;. O Notícia ES reapurou a pauta a partir do texto original e da linha editorial do portal, sem transformar nota de agência em matéria pronta.</p><p><strong>Fonte principal:</strong> <a href=\"https://veja.abril.com.br/brasil/nfl-no-maracana-rio-tera-esquema-especial-de-seguranca-transito-e-transporte/\" target=\"_blank\" rel=\"noopener noreferrer\">Veja</a>. Referências da editoria: <a href=\"https://agenciabrasil.ebc.com.br/politica\" target=\"_blank\" rel=\"noopener noreferrer\">Agência Brasil</a> e <a href=\"https://www12.senado.leg.br/noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Senado Federal</a>.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/brasil/nfl-no-maracana-rio-tera-esquema-especial-de-seguranca-transito-e-transporte/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "NFL no Maracanã: Rio terá esquema especial de segurança, trânsito e transporte. Registro original em Veja. A Redação Notícia ES reapurou a pauta para a editoria Política Nacional."
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Pela primeira vez, o Rio de Janeiro vai receber um jogo da Liga Nacional de Futebol Americano , a NFL . O pontap&eacute; inicial entre Dallas Cowboys e Baltimore Ravens est&aacute; marcado para &agrave;s 17h25 do pr&oacute;ximo domingo, 27, no Maracan&atilde; . Ser&aacute; apenas o terceiro jogo da liga esportiva mais popular dos Estados Unidos em solo brasi"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Segundo o governo do estado, os policiais estar&atilde;o nas ruas entre os dias 21 e 28 de setembro. Durante esse per&iacute;odo, diversas atra&ccedil;&otilde;es foram distribu&iacute;das pela cidade, como a galeria tem&aacute;tica da liga no Shopping Leblon e a bola gigante de futebol americano na Praia de Botafogo. Os policiais tamb&eacute;m v&atilde;o esc"
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política Nacional e entra na cobertura factual do Notícia ES a partir da fonte Veja."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "Segundo a prefeitura, para auxiliar na seguran&ccedil;a do est&aacute;dio, ser&aacute; montada uma estrutura da 18&ordf; DP (Pra&ccedil;a da Bandeira) no Maracan&atilde;. Tamb&eacute;m v&atilde;o ser utilizados drones para fazer o monitoramento a&eacute;reo da regi&atilde;o. Ainda segundo a prefeitura, cerca de 900 agentes municipais v&atilde;o trabalhar na "
+          }
+        ]
+      }
+    },
+    {
+      "id": "c6d6a80efb3314d1",
+      "titulo": "Pris�o de Milton Leite abre caminho para aliado de Nunes presidir a C�mara",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/09/prisao-de-milton-leite-abre-caminho-para-aliado-de-nunes-presidir-a-camara.shtml",
+      "dataFonte": "2026-09-21T23:05:00.000Z",
+      "resumoFonte": "A pris�o do ex-vereador Milton Leite (Uni�o Brasil) dever� abrir caminho para que diversos integrantes da base do prefeito Ricardo Nunes ( MDB ) consigam concorrer � presid�ncia da C�mara Municipal de S�o Paulo , em dezembro deste ano. Leia mais (09/21/2026 - 20h05)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2025/06/02/1748900967683e1c678b907_1748900967_3x2_rt.jpg",
+      "descobertaEm": "2026-09-21T23:20:10.420Z",
+      "reportagem": {
+        "titulo": "Painel: Prisão de Milton Leite abre caminho para aliado de Nunes presidir a Câmara",
+        "slug": "painel-prisao-de-milton-leite-abre-caminho-para-aliado-de-nunes-presidir-a-camara",
+        "categoria": "Política Nacional",
+        "data": "2026-09-21",
+        "imagem": "https://f.i.uol.com.br/fotografia/2025/06/02/1748900967683e1c678b907_1748900967_3x2_rt.jpg",
+        "resumo": "Painel: Prisão de Milton Leite abre caminho para aliado de Nunes presidir a Câmara. Registro original em Folha de S.Paulo - Poder. A Redação Notícia ES reapurou a pauta para a editoria Política Nacional.",
+        "conteudo": "<p>Editado por Fábio Zanini, espaço traz notícias e bastidores da política. Com Carlos Petrocilo e Gabriela Echenique</p><h2>O que a fonte registrou</h2><p>Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler.</p><p>Assinantes podem liberar 7 acessos por dia para conteúdos da Folha.</p><p>Receba no seu email as informações exclusivas da coluna Painel</p><p>A prisão do ex-vereador Milton Leite (União Brasil) deverá abrir caminho para que diversos integrantes da base do prefeito Ricardo Nunes ( MDB ) consigam concorrer à presidência da Câmara Municipal de São Paulo , em dezembro deste ano.</p><h2>Por que essa pauta entra no Notícia ES</h2><p>O candidato favorito desse grupo é o vereador João Jorge (MDB), que demonstra interesse em suceder o atual presidente , Ricardo Teixeira (União Brasil), em 2027. Ele conta com empenho do prefeito.</p><p>Embora tenha deixado de ser vereador ao final de 2024, Leite articulou um acordo para que a presidência da Câmara ficasse com o União ao longo da atual legislatura. Esse compromisso foi firmado como moeda de troca para que a sigla apoiasse Nunes na campanha de reeleição.</p><p>Na eleição passada para o comando da Câmara, em 2025, Leite já havia saído derrotado ao tentar emplacar a candidatura de Rubinho Nunes (União Brasil), que não é bem-visto por Nunes, à presidência.</p><p>O prefeito e outros vereadores, inclusive Jorge, saíram em defesa de Teixeira, que preside o Legislativo desde o início do ano passado.</p><p>Teixeira, embora seja do União, atua mais alinhado ao prefeito do que a Leite. Pelo regimento da Câmara, ele não poderá mais concorrer pela terceira vez.</p><p>A eleição da Mesa Diretora está agendada para o dia 15 de dezembro. Procurado pelo Painel, Jorge afirmou que não quis se manifestar sobre o assunto.</p><p>LINK PRESENTE: Gostou deste texto? Assinante pode liberar sete acessos gratuitos de qualquer link por dia. Basta clicar no F azul abaixo.</p><p><strong>Fonte principal:</strong> <a href=\"https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/09/prisao-de-milton-leite-abre-caminho-para-aliado-de-nunes-presidir-a-camara.shtml\" target=\"_blank\" rel=\"noopener noreferrer\">Folha de S.Paulo - Poder</a>. Referências da editoria: <a href=\"https://agenciabrasil.ebc.com.br/politica\" target=\"_blank\" rel=\"noopener noreferrer\">Agência Brasil</a> e <a href=\"https://www12.senado.leg.br/noticias\" target=\"_blank\" rel=\"noopener noreferrer\">Senado Federal</a>.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p><p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria Política Nacional, sem inventar declaração que a origem não publicou.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/09/prisao-de-milton-leite-abre-caminho-para-aliado-de-nunes-presidir-a-camara.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Painel: Prisão de Milton Leite abre caminho para aliado de Nunes presidir a Câmara. Registro original em Folha de S.Paulo - Poder. A Redação Notícia ES reapurou a pauta para a editoria Política Nacional."
+          },
+          {
+            "pergunta": "Qual é o ponto principal da notícia?",
+            "resposta": "Editado por Fábio Zanini, espaço traz notícias e bastidores da política. Com Carlos Petrocilo e Gabriela Echenique"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler."
+          },
+          {
+            "pergunta": "Por que esse assunto importa?",
+            "resposta": "A pauta foi classificada em Política Nacional e entra na cobertura factual do Notícia ES a partir da fonte Folha de S.Paulo - Poder."
+          },
+          {
+            "pergunta": "O que acontece agora?",
+            "resposta": "Assinantes podem liberar 7 acessos por dia para conteúdos da Folha."
+          }
+        ]
+      }
     }
   ],
-  "reapuradoEm": "2026-09-07T18:26:54.734Z",
+  "reapuradoEm": "2026-09-22T01:58:57.927Z",
   "diagnosticoReapuracao": {
-    "candidatas": 20,
-    "produzidas": 0,
-    "rejeitadas": 2,
-    "errosTecnicos": 0,
-    "chamadasIa": 2,
-    "geracoesModelo": 9,
-    "modelo": "qwen2.5:3b",
-    "provedor": "Ollama local",
-    "estrategia": "redação em blocos"
+    "produzidas": 19,
+    "jaProntas": 0,
+    "incompletas": 1,
+    "falhas": 0
   }
 }
