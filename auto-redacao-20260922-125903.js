@@ -2,7 +2,7 @@ const noticiasAutoRedacao20260922125903 = [
   {
     "slug": "globalsys-aplicativo-shoppings-bronze-premio-clicc",
     "titulo": "Aplicativo de empresa capixaba ganha bronze em prêmio latino-americano",
-    "categoria": "Economia",
+    "categoria": "Tecnologia",
     "resumo": "Solução da Globalsys para shoppings reúne estacionamento, promoções e benefícios e foi reconhecida pelo Prêmios CLICC 2026.",
     "legendaImagem": "Aplicativo desenvolvido pela Globalsys foi reconhecido na categoria Tecnologia e Inovação do Prêmios CLICC.",
     "fonteNome": "Folha Vitória — prêmio da Globalsys no CLICC 2026",
