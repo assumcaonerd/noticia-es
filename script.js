@@ -48,7 +48,9 @@
       'cidade': 'cidades',
       'noticias locais': 'cidades',
       'cultura': 'cultura',
-      'tecnologia': 'tecnologia'
+      'tecnologia': 'tecnologia',
+      'esporte': 'esporte',
+      'esportes': 'esporte'
     };
 
     return aliases[c] || c.replace(/\s+/g, '-');
