@@ -47,6 +47,7 @@
       'opiniao': 'opiniao',
       'fe e sociedade': 'fe-e-sociedade',
       'fe sociedade': 'fe-e-sociedade',
+      'fe': 'fe-e-sociedade',
       'cidades': 'cidades',
       'cidade': 'cidades',
       'noticias locais': 'cidades',
@@ -128,6 +129,10 @@
     });
   }
 
+  function nomeCategoria(categoria) {
+    return categoriaCanonica(categoria) === 'fe-e-sociedade' ? 'Fé' : categoria;
+  }
+
   function cardHTML(n) {
     const link = linkMateria(n);
     return `
@@ -136,7 +141,7 @@
           ${capaHTML(n)}
         </a>
         <div class="card-body">
-          <span class="chapeu">${n.categoria}</span>
+          <span class="chapeu">${nomeCategoria(n.categoria)}</span>
           <h3><a href="${link}">${n.titulo}</a></h3>
           <div class="meta"><span>${formatarData(n.data)}</span><span>${n.autor}</span></div>
           <p>${n.resumo}</p>
@@ -206,7 +211,7 @@
           ${capaHTML(destaque)}
         </a>
         <div class="hero-conteudo">
-          <span class="chapeu">${destaque.categoria}</span>
+          <span class="chapeu">${nomeCategoria(destaque.categoria)}</span>
           <h1><a href="${linkMateria(destaque)}">${destaque.titulo}</a></h1>
           <div class="meta"><span>${formatarData(destaque.data)}</span><span>${destaque.autor}</span></div>
           <p>${destaque.resumo}</p>
@@ -264,7 +269,7 @@
     container.innerHTML = `
       <article class="materia-wrap">
         <header class="materia-header">
-          <span class="chapeu">${noticia.categoria}</span>
+          <span class="chapeu">${nomeCategoria(noticia.categoria)}</span>
           <h1>${noticia.titulo}</h1>
           <p class="materia-resumo">${noticia.resumo}</p>
           <div class="meta">
