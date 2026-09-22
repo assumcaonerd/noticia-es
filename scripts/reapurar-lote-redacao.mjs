@@ -146,44 +146,21 @@ function fontesAdicionais(p) {
 }
 
 function completarParagrafos(base, p) {
-  const out = [...base];
-  const titulo = String(p.titulo || '').trim();
-  const resumo = String(p.resumoFonte || '').trim();
-  const fonte = String(p.fonteNome || 'a fonte monitorada').trim();
-  const extras = [
-    `${fonte} publicou o registro "${titulo}". O Notícia ES reapurou a pauta a partir do texto original e da linha editorial do portal, sem transformar nota de agência em matéria pronta.`,
-    resumo || `O fato descrito pela fonte entra na cobertura da editoria ${p.categoria}.`,
-    `A reportagem automática só segue adiante quando há título, resumo, imagem real da fonte e endereço canônico da publicação original.`,
-    `No Espírito Santo, pautas de ${p.categoria} entram na fila com prioridade de serviço público: o leitor precisa do fato, da fonte e do que ainda depende de confirmação oficial.`,
-    `A Redação Notícia ES não reproduz coluna de opinião como se fosse nota factual. O texto abaixo se limita ao que a fonte publicou e ao encadeamento necessário para o leitor entender o recorte.`,
-    `Quem quiser o inteiro teor deve ler a publicação original. Este texto organiza o que já está documentado na fonte principal e aponta duas referências institucionais da mesma editoria.`,
-    `A cobertura segue aberta a atualização se surgir documento, nota oficial ou desmentido. Até lá, o registro permanece ancorado na URL da fonte e na data em que a pauta entrou na fila.`
-  ];
-  for (const e of extras) {
-    if (out.length >= 9) break;
-    if (!out.some((x) => x.slice(0, 40) === e.slice(0, 40))) out.push(e);
-  }
-  return out;
+  return Array.isArray(base) ? base.filter(Boolean) : [];
 }
 
 function montarConteudo(p, paragrafos, adicionais) {
-  const fonte = escapar(p.fonteNome || 'Fonte principal');
-  const url = escapar(p.urlFonte);
   const blocos = completarParagrafos(paragrafos, p);
-  const p1 = blocos[0];
-  const meio = blocos.slice(1, 5);
-  const fim = blocos.slice(5);
-  const links = adicionais
-    .map((f) => `<a href="${escapar(f.url)}" target="_blank" rel="noopener noreferrer">${escapar(f.nome)}</a>`)
-    .join(' e ');
-
+  if (blocos.length < 7) return '';
+  const primeiro = blocos[0];
+  const meio = blocos.slice(1, 4);
+  const fim = blocos.slice(4);
   return [
-    `<p>${escapar(p1)}</p>`,
-    `<h2>O que a fonte registrou</h2>`,
+    `<p>${escapar(primeiro)}</p>`,
+    '<h2>Contexto</h2>',
     ...meio.map((t) => `<p>${escapar(t)}</p>`),
-    `<h2>Por que essa pauta entra no Notícia ES</h2>`,
-    ...fim.map((t) => `<p>${escapar(t)}</p>`),
-    `<p><strong>Fonte principal:</strong> <a href="${url}" target="_blank" rel="noopener noreferrer">${fonte}</a>. Referências da editoria: ${links}.</p>`
+    '<h2>Desdobramentos</h2>',
+    ...fim.map((t) => `<p>${escapar(t)}</p>`)
   ].join('');
 }
 
@@ -193,26 +170,18 @@ function contarPalavras(html = '') {
 }
 
 function garantirTamanho(html, p) {
-  let atual = html;
-  let n = 0;
-  while ((contarPalavras(atual) < 420 || (atual.match(/<p\b/gi) || []).length < 7) && n < 6) {
-    atual += `<p>A reapuração automática amplia o texto apenas para cumprir o padrão mínimo de reportagem do motor: fato atribuído, fonte clicável e contexto da editoria ${escapar(p.categoria)}, sem inventar declaração que a origem não publicou.</p>`;
-    n++;
-  }
-  return atual;
+  return String(html || '');
 }
 
 function montarAeo(p, paragrafos) {
-  const r = String(p.resumoFonte || paragrafos[0] || p.titulo).trim();
-  const a = paragrafos[0] || r;
-  const b = paragrafos[1] || a;
-  const c = paragrafos[2] || b;
+  const base = paragrafos.filter(Boolean);
+  if (base.length < 5) return [];
   return [
-    { pergunta: 'O que aconteceu?', resposta: r.slice(0, 360) },
-    { pergunta: 'Qual é o ponto principal da notícia?', resposta: a.slice(0, 360) },
-    { pergunta: 'Quais são os dados mais importantes?', resposta: b.slice(0, 360) },
-    { pergunta: 'Por que esse assunto importa?', resposta: `A pauta foi classificada em ${p.categoria} e entra na cobertura factual do Notícia ES a partir da fonte ${p.fonteNome}.`.slice(0, 360) },
-    { pergunta: 'O que acontece agora?', resposta: (c || 'A Redação Notícia ES segue o desdobramento oficial da fonte principal.').slice(0, 360) }
+    { pergunta: 'O que aconteceu?', resposta: String(base[0]).slice(0, 360) },
+    { pergunta: 'Qual é o ponto principal?', resposta: String(base[1] || base[0]).slice(0, 360) },
+    { pergunta: 'Quais são os dados mais importantes?', resposta: String(base[2] || base[1]).slice(0, 360) },
+    { pergunta: 'Qual é o contexto?', resposta: String(base[3] || base[2]).slice(0, 360) },
+    { pergunta: 'Quais são os próximos desdobramentos?', resposta: String(base[4] || base[3]).slice(0, 360) }
   ];
 }
 
@@ -226,7 +195,9 @@ function reportagemValida(r, p) {
   if (!/^https:\/\//i.test(String(r.imagem || p.imagem || ''))) return false;
   if (!/^https:\/\//i.test(String(r.fonteUrl || p.urlFonte || ''))) return false;
   if (!Array.isArray(r.fontesAdicionais) || r.fontesAdicionais.length < 2) return false;
-  if (palavras < 400 || paragrafos < 7 || subtitulos < 2) return false;
+  if (palavras < 650 || palavras > 1200 || paragrafos < 7 || subtitulos < 2) return false;
+  if (/por que essa pauta entra no not[ií]cia es|o que a fonte registrou|reapura[cç][aã]o autom[aá]tica|entra na cobertura factual do not[ií]cia es|linha editorial do portal/i.test(String(r.conteudo || ''))) return false;
+  if (/entra na cobertura factual do not[ií]cia es|a pauta foi classificada/i.test(JSON.stringify(r.aeo || []))) return false;
   if (!Array.isArray(r.aeo) || r.aeo.length < 5) return false;
   return true;
 }
@@ -259,6 +230,7 @@ async function reapurarUma(p) {
   const paragrafos = extraidos.length ? extraidos : [resumo, titulo];
   let conteudo = montarConteudo({ ...p, titulo, resumoFonte: resumo }, paragrafos, adicionais);
   conteudo = garantirTamanho(conteudo, p);
+  if (!conteudo) return { pauta: p, status: 'incompleta' };
 
   const reportagem = {
     titulo,
