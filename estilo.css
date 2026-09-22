@@ -642,11 +642,16 @@ main {
     display: flex;
     align-items: center;
     padding: 0;
-    gap: 2px;
+    gap: 1px;
+  }
+
+  .nav-principal a {
+    padding-inline: 8px;
+    font-size: 0.92rem;
   }
 
   .busca {
-    width: 300px;
+    width: 230px;
     margin-left: auto;
     padding-bottom: 0;
   }
