@@ -60,6 +60,19 @@ Ordem editorial de preferência:
 
 A preferência é de seleção de pauta. Não autoriza transformar comunicado institucional em propaganda. O texto final continua sujeito a apuração, contexto e redação jornalística própria.
 
+## 5B. Cidades
+
+A editoria `Cidades` publica exclusivamente notícias locais dos municípios do Espírito Santo. Não entram nela notícias municipais de outros estados nem pautas nacionais sem impacto municipal direto e comprovado no território capixaba.
+
+Prioridade editorial:
+
+1. Fatos de interesse público ocorridos nos 78 municípios do Espírito Santo.
+2. Serviços municipais, mobilidade, saúde, educação, obras, meio ambiente, turismo, cultura local, eventos e cotidiano das comunidades capixabas.
+3. Decisões de prefeituras e câmaras municipais que produzam efeito direto sobre a população local.
+4. Fontes oficiais municipais, órgãos estaduais, veículos locais e apuração própria.
+
+Toda matéria deve identificar claramente o município capixaba no título, subtítulo ou lead. Pautas estaduais amplas permanecem nas demais editorias quando não houver recorte municipal predominante.
+
 ## 6. Proibido
 
 Inventar manchete. Transformar publicidade em crime. Copiar Folha/Globo e chamar de reescrita. Esconder fato ruim da direita. Meter a tese nacional em boletim de Cariacica sem gancho.
