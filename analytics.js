@@ -83,12 +83,20 @@
 (function () {
   'use strict';
 
-  if (!window.NOTICIAES_SHARE_BAR_LOADED) {
+  function garantirShareBarUnica() {
+    const existente = document.querySelector('script[src*="share-bar.js"]');
+    if (existente || window.NOTICIAES_SHARE_BAR_LOADED) return;
     window.NOTICIAES_SHARE_BAR_LOADED = true;
     const script = document.createElement('script');
-    script.src = '/share-bar.js?v=20260907-1';
+    script.src = '/share-bar.js?v=20260922-2';
     script.async = true;
     document.head.appendChild(script);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', garantirShareBarUnica, { once: true });
+  } else {
+    garantirShareBarUnica();
   }
 
   if (!window.NOTICIAES_AEO_LATEST_FIX_LOADED) {
