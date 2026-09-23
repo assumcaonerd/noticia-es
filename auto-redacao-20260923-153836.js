@@ -3,7 +3,7 @@ const noticiasAutoRedacao20260923153836 = [
     id: 26092315383601,
     pautaId: "9ffa51e24621f7f6",
     slug: "justi-ccedil-a-revoga-pris-atilde-o-de-suspeito-de-matar-mulher-para-expulsar-dem-ocirc-nios-na-serra",
-    titulo: "Justi&ccedil;a revoga pris&atilde;o de suspeito de matar mulher para \"expulsar dem&ocirc;nios\" na Serra",
+    titulo: "Justiça revoga prisão de suspeito de matar mulher para \"expulsar demônios\" na Serra",
     categoria: "Segurança Pública",
     data: "2026-09-23",
     imagem: "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1782128639561_copia_de_template_radar_a_gazeta_69.jpg",
