@@ -20,7 +20,7 @@ const noticias = [
     imagemAltura: 887,
     imagemXLargura: 1774,
     imagemXAltura: 887,
-    legendaImagem: "Montagem editorial enviada à redação; as pessoas aparecem em fotografias reunidas em uma única composição.",
+    legendaImagem: "Descrição da imagem: seis pessoas lado a lado. As três à esquerda aparecem sérias, em preto e branco, diante de um fundo escuro. As três à direita aparecem sorrindo, em cores, diante de um fundo claro. A mulher de branco e o homem de camiseta laranja, no centro, unem as mãos.",
     resumo: "Lorenzo Pazolini passou 14 minutos no palanque do Romualdo e citou Evair, Manato, Erick Musso, o próprio Romualdo e, no apagar das luzes, Flávio Bolsonaro.",
     ocultarResumoVisivel: true,
     aeo: [
