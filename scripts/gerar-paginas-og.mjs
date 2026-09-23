@@ -198,6 +198,10 @@ function paginaHTML(n, imagem) {
   const data = n.data || '';
   const categoria = n.categoria || 'Notícia';
   const legenda = n.legendaImagem || titulo;
+  const legendaEscapada = escapar(legenda);
+  const legendaHtml = String(legenda).startsWith('Descrição da imagem:')
+    ? legendaEscapada.replace(/^Descrição da imagem:/, '<strong>Descrição da imagem:</strong>')
+    : legendaEscapada;
   const dimensoesOg = n.imagemLargura && n.imagemAltura
     ? `\n  <meta property="og:image:width" content="${escapar(n.imagemLargura)}">\n  <meta property="og:image:height" content="${escapar(n.imagemAltura)}">`
     : '';
@@ -226,7 +230,7 @@ function paginaHTML(n, imagem) {
 <main class="materia"><article class="materia-estatica">
   <div class="materia-meta">${escapar(categoria)}${data ? ` · ${escapar(data)}` : ''} · ${escapar(n.autor || 'Redação Notícia ES')}</div>
   <h1>${escapar(titulo)}</h1>${n.ocultarResumoVisivel ? '' : `<p class="materia-resumo"><strong>${escapar(resumo)}</strong></p>`}
-  ${img ? `<figure><img class="materia-capa" src="${escapar(img)}" alt="${escapar(titulo)}" loading="eager"><figcaption>${escapar(legenda)}</figcaption></figure>` : ''}
+  ${img ? `<figure><img class="materia-capa" src="${escapar(img)}" alt="${escapar(titulo)}" loading="eager"><figcaption>${legendaHtml}</figcaption></figure>` : ''}
   <div class="conteudo-materia">${conteudo}</div>
   ${blocoAeo(n)}
   ${fontesHtml(n)}
