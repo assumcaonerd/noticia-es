@@ -274,7 +274,7 @@
         <header class="materia-header">
           <span class="chapeu">${nomeCategoria(noticia.categoria)}</span>
           <h1>${noticia.titulo}</h1>
-          <p class="materia-resumo">${noticia.resumo}</p>
+          ${noticia.ocultarResumoVisivel ? "" : `<p class="materia-resumo">${noticia.resumo}</p>`}
           <div class="meta">
             <span>${formatarData(noticia.data)}</span>
             <span>Por ${noticia.autor}</span>
@@ -282,6 +282,7 @@
         </header>
         ${capaHTML(noticia, "materia-imagem")}
         <div class="materia-conteudo">${noticia.conteudo}</div>
+        ${Array.isArray(noticia.aeo) && noticia.aeo.length ? `<section class="aeo-resumo"><h2>Em resumo</h2>${noticia.aeo.map(item => `<div class="aeo-item"><strong>${item.pergunta}</strong><p>${item.resposta}</p></div>`).join("")}</section>` : ""}
         <div class="compartilhar" aria-label="Compartilhar notícia">
           <button class="btn-share" data-share="whatsapp">WhatsApp</button>
           <button class="btn-share" data-share="x">X</button>

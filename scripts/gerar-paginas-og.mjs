@@ -215,7 +215,7 @@ function paginaHTML(n, imagem) {
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg">
   <meta name="theme-color" content="#0b1320">
-  <link rel="canonical" href="${escapar(url)}"><meta property="og:type" content="article"><meta property="og:locale" content="pt_BR"><meta property="og:site_name" content="Notícia ES"><meta property="og:title" content="${escapar(titulo)}"><meta property="og:description" content="${escapar(resumo)}"><meta property="og:url" content="${escapar(url)}">${metaImagem}
+  <link rel="canonical" href="${escapar(url)}"><meta property="og:type" content="article"><meta property="article:published_time" content="${escapar(n.publicadoEm || (n.data ? `${n.data}T12:00:00-03:00` : ''))}"><meta property="og:locale" content="pt_BR"><meta property="og:site_name" content="Notícia ES"><meta property="og:title" content="${escapar(titulo)}"><meta property="og:description" content="${escapar(resumo)}"><meta property="og:url" content="${escapar(url)}">${metaImagem}
   <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapar(titulo)}"><meta name="twitter:description" content="${escapar(resumo)}">
   <script type="application/ld+json">${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>
   ${faqSchema ? `<script type="application/ld+json">${JSON.stringify(faqSchema).replace(/</g, '\\u003c')}</script>` : ''}
@@ -225,13 +225,13 @@ function paginaHTML(n, imagem) {
 <header class="site-header"><div class="container header-inner"><a class="logo" href="../index.html">Notícia <span>ES</span></a><nav class="nav-principal" aria-label="Navegação principal"><ul><li><a href="../index.html">Início</a></li><li><a href="../index.html?categoria=politica-es">Política ES</a></li><li><a href="../index.html?categoria=seguranca-publica">Segurança Pública</a></li><li><a href="../index.html?categoria=politica-nacional">Política Nacional</a></li><li><a href="../index.html?categoria=economia">Economia</a></li><li><a href="../index.html?categoria=opiniao">Opinião</a></li><li><a href="../index.html?categoria=fe-e-sociedade">Fé e Sociedade</a></li><li><a href="../index.html?categoria=cidades">Cidades</a></li><li><a href="../index.html?categoria=cultura">Cultura</a></li><li><a href="../index.html?categoria=tecnologia">Tecnologia</a></li><li><a href="../index.html?categoria=esporte">Esporte</a></li><li><a href="../index.html?categoria=justica">Justiça</a></li></ul></nav></div></header>
 <main class="materia"><article class="materia-estatica">
   <div class="materia-meta">${escapar(categoria)}${data ? ` · ${escapar(data)}` : ''} · ${escapar(n.autor || 'Redação Notícia ES')}</div>
-  <h1>${escapar(titulo)}</h1><p class="materia-resumo"><strong>${escapar(resumo)}</strong></p>
+  <h1>${escapar(titulo)}</h1>${n.ocultarResumoVisivel ? '' : `<p class="materia-resumo"><strong>${escapar(resumo)}</strong></p>`}
   ${img ? `<figure><img class="materia-capa" src="${escapar(img)}" alt="${escapar(titulo)}" loading="eager"><figcaption>${escapar(legenda)}</figcaption></figure>` : ''}
   <div class="conteudo-materia">${conteudo}</div>
   ${blocoAeo(n)}
   ${fontesHtml(n)}
 </article></main><footer class="site-footer"><div class="container"><strong>Notícia ES</strong> | política e segurança pública do Espírito Santo · <a href="/sobre.html#expediente">Expediente</a></div></footer>
-</body></html>\n`;
+  <script src="../share-bar.js"></script>\n</body></html>\n`;
 }
 
 const overlay = await carregarOverlay();

@@ -21,15 +21,31 @@ const noticias = [
     imagemXLargura: 1774,
     imagemXAltura: 887,
     legendaImagem: "Montagem editorial enviada à redação; as pessoas aparecem em fotografias reunidas em uma única composição.",
-    resumo: "Texto de opinião critica a ausência de Magno Malta, Maguinha Malta e Eliane Leal nas menções de Lorenzo Pazolini durante evento de Romualdo no Espírito Santo.",
-    conteudo: `<p>Lorenzo Pazolini passou 14 minutos no palanque do Romualdo e citou Evair, Manato, Erick Musso, o próprio Romualdo e, no apagar das luzes, Flávio Bolsonaro. Magno Malta, Maguinha Malta e a vice Eliane Leal saíram do discurso como se não existissem. A omissão não foi acidental. É método.</p>
+    resumo: "Lorenzo Pazolini passou 14 minutos no palanque do Romualdo e citou Evair, Manato, Erick Musso, o próprio Romualdo e, no apagar das luzes, Flávio Bolsonaro.",
+    ocultarResumoVisivel: true,
+    aeo: [
+      { pergunta: "Quem Pazolini citou no palanque de Romualdo?", resposta: "Segundo o texto, ele citou Evair, Manato, Erick Musso, Romualdo e, no final, Flávio Bolsonaro." },
+      { pergunta: "Quais nomes ficaram fora do discurso?", resposta: "O texto aponta a ausência de Magno Malta, Maguinha Malta e Eliane Leal, vice na chapa de Pazolini." },
+      { pergunta: "Qual é a participação do PL na chapa?", resposta: "O texto afirma que o PL integra a coligação Paz pra Viver um Novo Tempo e indicou Eliane Leal para vice." },
+      { pergunta: "Qual é a avaliação apresentada na matéria?", resposta: "A análise interpreta essas ausências como um afastamento público de aliados do PL durante a campanha." }
+    ],
+    conteudo: `<h2>Os nomes que ficaram fora do discurso</h2>
+<p>Lorenzo Pazolini passou 14 minutos no palanque do Romualdo e citou Evair, Manato, Erick Musso, o próprio Romualdo e, no apagar das luzes, Flávio Bolsonaro. Magno Malta, Maguinha Malta e a vice Eliane Leal saíram do discurso como se não existissem. A omissão não foi acidental. É método.</p>
+<h2>O acordo anunciado em julho</h2>
 <p>Em julho, no encontro do PL em Vitória, com Flávio Bolsonaro na mesa, Pazolini subiu no palanque, elogiou Maguinha e recebeu o apoio público do partido de Magno. A coligação “Paz pra Viver um Novo Tempo” saiu no papel: Republicanos, PL e Democrata. A vice na chapa de Pazolini é Eliane Leal, do PL, escolha do partido de Malta. Maguinha concorre ao Senado com o 222. Evair concorre com o 100. Flávio declarou apoio aos dois nomes para o Senado no Espírito Santo. Magno, presidente estadual do PL, entregou o partido para o projeto do Republicanos, cedeu a vaga de vice e abriu mão de uma candidatura própria ao Palácio Anchieta.</p>
+<h2>Quem Pazolini citou no palanque</h2>
 <p>No jantar de lançamento do Delegado Romualdo, o candidato a governador fez o inventário da chapa que lhe convém. Pediu salva de palmas para Evair. Pediu voto para Erick Musso. Pediu para Romualdo. Pediu Manato na Câmara. Balbuciou os últimos segundos para Flávio Bolsonaro. Não saiu da boca o nome de Maguinha. Não saiu o nome de Magno. Não saiu o nome da vice. Quem estava lá saiu com a impressão de que a aliança com o PL é um detalhe decorativo, não a condição que tornou a candidatura de Pazolini viável no campo conservador.</p>
+<h2>O lugar do PL na aliança</h2>
 <p>Isso tem nome: usar o eleitor bolsonarista sem pagar a conta política de quem construiu essa base no Estado. Magno Malta passou anos carregando o PL capixaba, a militância evangélica e a briga aberta com o STF. Maguinha é a candidata do partido do presidenciável que Pazolini agora cita para fechar discurso. Eliane Leal é a assinatura do PL na chapa majoritária. Esconder os três no palanque, onze dias antes do primeiro turno, é tratar o voto conservador como captação e o PL como estorvo que só aparece na urna e some no microfone.</p>
+<h2>A candidatura que o PL deixou de lançar</h2>
 <p>A conta que Pazolini não quer fazer em público é simples. Se o PL tivesse recusado o abraço com o Republicanos e lançado chapa própria, o segundo turno do governo poderia ter sido Magno contra Ricardo Ferraço.</p>
+<h2>O apoio entregue e o silêncio no palanque</h2>
 <p>Mesmo assim, o partido dele entregou estrutura, tempo de TV, militância, a filha no Senado e a vice na chapa para o projeto do ex-prefeito de Vitória. Em troca, Pazolini oferece o que o palanque de ontem mostrou: Flávio no finalzinho e silêncio sobre a família Malta e sobre a própria companheira de chapa.</p>
+<h2>O padrão de aproximação e afastamento</h2>
 <p>Há um padrão nisso. Pazolini se apresenta como conservador quando precisa do voto de quem anda com Bolsonaro. No mesmo movimento, administra distância de Magno, o nome que a imprensa de centro capixaba trata como lastro pesado demais. A aliança serve para ganhar o primeiro turno. O apagamento serve para não assustar quem ainda enxerga Pazolini como “o novo” contra a “velha política”. O eleitor do PL fica no meio: pede-se o voto, some-se o agradecimento, some-se até a vice que o partido botou ao lado dele.</p>
+<h2>As ausências no recado institucional</h2>
 <p>O discurso de ontem foi explícito no recado institucional. Pazolini falou de Senado, de freios e contrapesos, de uma mesma pessoa que investiga, acusa, condena e executa mas teve medo de dar nome aos bois. Não falou o nome de Moraes. Falou de Evair como o nome da coragem. Não falou da candidata do PL que Flávio apoiou no mesmo pacote. Não falou do senador que, em agosto, chamou Pazolini de “o que mais se parece conosco” e fechou a convenção do partido em cima desse apoio. Não falou de Eliane Leal, que aparece no registro do TSE como vice e desaparece quando o candidato precisa soar dono do próprio projeto.</p>
+<h2>A decisão que cabe ao eleitor</h2>
 <p>Quem esconde o aliado, a senadora do PL e a própria vice no palanque já revelou o tamanho da aliança. Não é parceria. É empréstimo de voto. No dia 4, o eleitor conservador vai decidir se aceita ser prostituta de malandro ou se cobra os nomes que Pazolini preferiu não pronunciar.</p>`,
     autor: "Redação Notícia ES",
     editorial: true
