@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-23T20:26:57.395Z",
+  "atualizadoEm": "2026-09-23T23:45:04.116Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 61,
+  "novasPautas": 65,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -100,9 +100,11 @@
     },
     {
       "fonte": "Polícia Militar do ES",
-      "ok": false,
-      "erro": "https://pm.es.gov.br/Noticias -> fetch failed | https://pm.es.gov.br/noticias -> fetch failed",
-      "capa": false
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://pm.es.gov.br/Noticias",
+      "fallback": false
     },
     {
       "fonte": "Polícia Penal do ES",
@@ -234,14 +236,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 10,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 5,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -272,7 +274,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 14,
+      "encontrados": 11,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -286,14 +288,14 @@
     {
       "fonte": "TASS",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 4,
       "rota": "https://tass.com/rss/v2.xml",
       "fallback": false
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-23T20:30:10.391Z",
-    "novas": 7,
+    "atualizadoEm": "2026-09-23T23:48:12.625Z",
+    "novas": 6,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -353,7 +355,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-23T20:30:12.344Z",
+    "atualizadoEm": "2026-09-23T23:48:14.513Z",
     "novas": 0,
     "fontes": [
       {
@@ -369,13 +371,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-23T20:30:13.415Z",
+    "atualizadoEm": "2026-09-23T23:48:15.621Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-23T20:30:23.990Z",
+    "atualizadoEm": "2026-09-23T23:48:26.180Z",
     "novas": 0,
     "fontes": [
       {
