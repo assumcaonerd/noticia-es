@@ -1,40 +1,412 @@
 {
-  "geradoEm": "2026-09-23T13:51:18.331Z",
+  "geradoEm": "2026-09-23T18:38:28.902Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 10 matérias.",
   "diagnostico": {
-    "totalPendentes": 59,
-    "bloqueadas": 12,
+    "totalPendentes": 63,
+    "bloqueadas": 6,
     "bloqueadasEditoriais": 0,
     "semImagem": 0,
-    "duplicadasBasicas": 1,
+    "duplicadasBasicas": 0,
     "duplicadasSemanticas": 1,
     "foraCategorias": 3
   },
   "quantidadeCandidatas": 20,
   "candidatas": [
     {
-      "id": "ccc47f72dd2e41c1",
-      "titulo": "Presídios no ES: gestão é parte crucial da segurança pública",
+      "id": "aaa7ae74c15edd32",
+      "titulo": "Caso Lázaro: seis réus vão a júri por sequestro e morte em São Mateus",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/caso-lazaro-seis-reus-vao-a-juri-por-sequestro-e-morte-em-sao-mateus-0926",
+      "dataFonte": "2026-09-23T16:27:28.000Z",
+      "resumoFonte": "Lázaro Airan, de 17 anos, desapareceu em junho de 2025 e foi encontrado morto semanas depois; data do julgamento ainda não foi definida",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1774819292964_2025_07_06_o_corpo_de_lazaro_airan_dos_santos_pereira_de_17_anos_foi_encontrado_em_uma_cova_numa_area_de_mata_na_sexta_feira_4_2800235_article.webp",
+      "descobertaEm": "2026-09-23T17:08:47.777Z",
+      "reportagem": {
+        "titulo": "Caso Lázaro: seis réus vão a júri por sequestro e morte em São Mateus",
+        "slug": "caso-lazaro-seis-reus-vao-a-juri-por-sequestro-e-morte-em-sao-mateus",
+        "categoria": "Segurança Pública",
+        "data": "2026-09-23",
+        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1774819292964_2025_07_06_o_corpo_de_lazaro_airan_dos_santos_pereira_de_17_anos_foi_encontrado_em_uma_cova_numa_area_de_mata_na_sexta_feira_4_2800235_article.webp",
+        "resumo": "Lázaro Airan, de 17 anos, desapareceu em junho de 2025 e foi encontrado morto semanas depois; data do julgamento ainda não foi definida",
+        "conteudo": "<p>Os seis réus pelo sequestro e morte de Lázaro Airan dos Santos Pereira, de 17 anos, em São Mateus , no Norte do Espírito Santo , foram pronunciados para julgamento pelo Tribunal do Júri . A decisão foi tomada na última segunda-feira (21), segundo o Tribunal de Justiça do Espírito Santo (TJES) .</p><h2>Contexto</h2><p>Os réus foram denunciados pelo Ministério Público do Espírito Santo (MPES) pelos crimes de homicídio qualificado consumado, ocultação de cadáver, sequestro e cárcere privado e associação criminosa. A data do julgamento ainda não foi definida.</p><p>O processo tramita em segredo de Justiça e, por isso, o TJES informou que não pode fornecer outros detalhes sobre o caso.</p><p>Os advogados Lázaro Souza Lopes e Higor Constâncio Blunck, que defendem Yan Krislan Pereira Dias, afirmaram que o cliente não teve participação no homicídio e não sabe quem são os autores do crime.</p><h2>Desdobramentos</h2><p>Segundo a defesa, a participação de Yan se limitou à recuperação do televisor furtado, sem que ele soubesse o que teria acontecido depois que Lázaro entrou no veículo de um policial militar. Os advogados disseram que a inocência do cliente será demonstrada no Tribunal do Júri.</p><p>Gabriel Almeida, que representa Alex Nascimento, informou que o réu respeita a decisão, embora discorde dela. Segundo o advogado, Alex e a defesa decidiram não se manifestar sobre o caso.</p><p>A defesa de Felipe Silva Rodrigues, representada pela advogada Luciana Costa, informou que prefere não se manifestar neste momento. A reportagem mantém o espaço aberto para manifestações das defesas dos demais réus.</p><p>Lázaro saiu de casa em 12 de junho de 2025 para entregar uma televisão que havia sido vendida por um amigo , próximo a um restaurante no Centro de São Mateus. Câmeras de segurança registraram o adolescente entrando em um carro. Depois disso, ele não foi mais visto.</p><p>O corpo foi encontrado em 4 de julho, semanas após o desaparecimento, enterrado em uma área de mata em Barra Nova, em São Mateus.</p><p>Em agosto de 2025, a Polícia Civil concluiu o inquérito e apontou a existência de uma milícia armada. Na ocasião, sete pessoas foram presas e, segundo a investigação, indiciadas por homicídio qualificado, milícia armada, sequestro e ocultação de cadáver.</p><p>Bruno Alves, que havia sido preso no início da investigação, foi posteriormente solto. Segundo a defesa, ele deixou a prisão depois que o MPES concluiu não haver elementos suficientes para denunciá-lo.</p>",
+        "fonteNome": "A Gazeta - Polícia",
+        "fonteUrl": "https://www.agazeta.com.br/es/policia/caso-lazaro-seis-reus-vao-a-juri-por-sequestro-e-morte-em-sao-mateus-0926",
+        "fontesAdicionais": [
+          {
+            "nome": "SESP-ES",
+            "url": "https://sesp.es.gov.br/Noticias"
+          },
+          {
+            "nome": "Polícia Civil do ES",
+            "url": "https://pc.es.gov.br/Noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Os seis réus pelo sequestro e morte de Lázaro Airan dos Santos Pereira, de 17 anos, em São Mateus , no Norte do Espírito Santo , foram pronunciados para julgamento pelo Tribunal do Júri . A decisão foi tomada na última segunda-feira (21), segundo o Tribunal de Justiça do Espírito Santo (TJES) ."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Os réus foram denunciados pelo Ministério Público do Espírito Santo (MPES) pelos crimes de homicídio qualificado consumado, ocultação de cadáver, sequestro e cárcere privado e associação criminosa. A data do julgamento ainda não foi definida."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O processo tramita em segredo de Justiça e, por isso, o TJES informou que não pode fornecer outros detalhes sobre o caso."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Os advogados Lázaro Souza Lopes e Higor Constâncio Blunck, que defendem Yan Krislan Pereira Dias, afirmaram que o cliente não teve participação no homicídio e não sabe quem são os autores do crime."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Segundo a defesa, a participação de Yan se limitou à recuperação do televisor furtado, sem que ele soubesse o que teria acontecido depois que Lázaro entrou no veículo de um policial militar. Os advogados disseram que a inocência do cliente será demonstrada no Tribunal do Júri."
+          }
+        ]
+      }
+    },
+    {
+      "id": "f8b73ed92e06cb02",
+      "titulo": "MPES denuncia ex-vereador por estupro e exploração sexual de vulnerável",
       "categoria": "Segurança Pública",
       "radar": null,
       "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/editorial/presidios-no-es-gestao-e-parte-crucial-da-seguranca-publica-0926",
-      "dataFonte": "2026-09-23T08:00:00.000Z",
-      "resumoFonte": "Já faz algum tempo que o problema da criminalidade não se encerra na prisão, pelo contrário",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1774897799948_2022_02_11_presidio_699939_article.jpg",
-      "descobertaEm": "2026-09-23T11:44:52.400Z"
+      "urlFonte": "https://www.agazeta.com.br/es/policia/mpes-denuncia-ex-vereador-por-estupro-e-exploracao-sexual-de-vulneravel-0926",
+      "dataFonte": "2026-09-23T16:02:34.000Z",
+      "resumoFonte": "A Polícia Civil informou que o investigado não foi localizado e que há indicação de que ele deixou o município após saber do inquérito",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790179267452_capa_video_1.jpg",
+      "descobertaEm": "2026-09-23T17:08:47.777Z",
+      "reportagem": {
+        "titulo": "MPES denuncia ex-vereador por estupro e exploração sexual de vulnerável",
+        "slug": "mpes-denuncia-ex-vereador-por-estupro-e-exploracao-sexual-de-vulneravel",
+        "categoria": "Segurança Pública",
+        "data": "2026-09-23",
+        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790179267452_capa_video_1.jpg",
+        "resumo": "A Polícia Civil informou que o investigado não foi localizado e que há indicação de que ele deixou o município após saber do inquérito",
+        "conteudo": "<p>Um ex-vereador de Brejetuba, na Região Serrana do Espírito Santo , foi denunciado pelo Ministério Público do Estado (MPES) pelos crimes de estupro e tentativa de favorecimento da prostituição ou exploração sexual de vulnerável, por duas vezes.</p><h2>Contexto</h2><p>O nome do investigado não foi divulgado para preservar a identidade das vítimas, e o processo na Justiça tramita sob sigilo.</p><p>O processo tramita sob sigilo, conforme a legislação de proteção à criança e ao adolescente. Por essa razão, não é possível compartilhar mais informações no momento</p><p>Trecho da nota da Promotoria de Justiça de Conceição do Castelo</p><h2>Desdobramentos</h2><p>Os crimes foram investigados pela Polícia Civil, por meio da Delegacia de Brejetuba, e a conclusão do inquérito ocorreu no dia 18 de setembro, quando o material foi encaminhado ao Poder Judiciário. Também alegando sigilo, a corporação não informou se pediu à Justiça a prisão do investigação. Informação também não fornecida pela Tribunal de Justiça do Espírito Santo, já que o processo tramita sob sigilo.</p><p>Apesar disso, a Polícia Civil cita que o ex-vereador não foi localizado e que há indicações de que ele deixou Brejetuba após tomar conhecimento da investigação. Como não há confirmação sobre a existência de um mandado de prisão, a reportagem procurou a Secretaria de Estado da Justiça (Sejus), que informou não haver registro de entrada dele no sistema prisional.</p><p>A quantidade de vítimas não foi revelada. A Polícia Civil acrescentou que outras diligências continuam, apesar da conclusão do inquérito, e que ainda é apurada uma denúncia sobre possível participação de familiares e terceiros nos crimes.</p><p>&quot;Quanto à suposta participação ou conivência de familiares, agentes públicos ou terceiros, não há, até o momento, elementos confirmados que permitam atribuir-lhes responsabilidade pelos fatos investigados&quot;, destacou a corporação.</p><p>A reportagem procurou o TJES para saber se a Justiça recebeu a denúncia do MPES, mas o tribunal informou que não divulgará informações sobre o caso.</p>",
+        "fonteNome": "A Gazeta - Capa",
+        "fonteUrl": "https://www.agazeta.com.br/es/policia/mpes-denuncia-ex-vereador-por-estupro-e-exploracao-sexual-de-vulneravel-0926",
+        "fontesAdicionais": [
+          {
+            "nome": "SESP-ES",
+            "url": "https://sesp.es.gov.br/Noticias"
+          },
+          {
+            "nome": "Polícia Civil do ES",
+            "url": "https://pc.es.gov.br/Noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Um ex-vereador de Brejetuba, na Região Serrana do Espírito Santo , foi denunciado pelo Ministério Público do Estado (MPES) pelos crimes de estupro e tentativa de favorecimento da prostituição ou exploração sexual de vulnerável, por duas vezes."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O nome do investigado não foi divulgado para preservar a identidade das vítimas, e o processo na Justiça tramita sob sigilo."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O processo tramita sob sigilo, conforme a legislação de proteção à criança e ao adolescente. Por essa razão, não é possível compartilhar mais informações no momento"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Trecho da nota da Promotoria de Justiça de Conceição do Castelo"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Os crimes foram investigados pela Polícia Civil, por meio da Delegacia de Brejetuba, e a conclusão do inquérito ocorreu no dia 18 de setembro, quando o material foi encaminhado ao Poder Judiciário. Também alegando sigilo, a corporação não informou se pediu à Justiça a prisão do investigação. Informação também não fornecida pela Tribunal de Justiça do Espírit"
+          }
+        ]
+      }
     },
     {
-      "id": "dfce9f09f1d2a88d",
-      "titulo": "Não fiquem surpresos se a eleição acabar dia 4 de outubro",
+      "id": "2abe90490837d3ea",
+      "titulo": "Adolescente é baleado ao tentar furtar moto de policial na Serra",
       "categoria": "Segurança Pública",
       "radar": null,
-      "fonteNome": "O Globo - Capa",
-      "urlFonte": "https://oglobo.globo.com/politica/mauricio-moura/coluna/2026/09/nao-fiquem-surpresos-se-a-eleicao-acabar-dia-4-de-outubro.ghtml",
-      "dataFonte": "2026-09-23T06:30:00.386Z",
-      "resumoFonte": "As disputas para governos estaduais devem terminar a sua maioria em primeiro turno",
-      "imagem": "https://s2-oglobo.glbimg.com/FOfk07PxZzRknS36Q0vWPbti_dc=/5760x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/r/T/ReBOwpROmK4mOT9IF7uw/101013577-pais-rio-de-janeiro-rj-30-10-2022-eleicoes-2022-eleicao-para-presidente-senai-de-benfica-1.jpg",
-      "descobertaEm": "2026-09-23T11:49:49.220Z"
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/adolescente-e-baleado-ao-tentar-furtar-moto-de-policial-na-serra-0926",
+      "dataFonte": "2026-09-23T14:16:16.000Z",
+      "resumoFonte": "Outros dois adolescentes, de 15 e 16 anos, também foram apreendidos após tentarem fugir; trio foi autuado em flagrante",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790157765796_whatsapp_image_2026_09_23_at_06.jpeg",
+      "descobertaEm": "2026-09-23T17:08:47.777Z",
+      "reportagem": {
+        "titulo": "Adolescente é baleado ao tentar furtar moto de policial na Serra",
+        "slug": "adolescente-e-baleado-ao-tentar-furtar-moto-de-policial-na-serra",
+        "categoria": "Segurança Pública",
+        "data": "2026-09-23",
+        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790157765796_whatsapp_image_2026_09_23_at_06.jpeg",
+        "resumo": "Outros dois adolescentes, de 15 e 16 anos, também foram apreendidos após tentarem fugir; trio foi autuado em flagrante",
+        "conteudo": "<p>Um adolescente de 16 anos foi baleado na região das nádegas após apontar um simulacro de arma de fogo para um policial militar durante uma tentativa de roubo na tarde de terça-feira (22), no bairro Eurico Salles, na Serra . Outros dois adolescentes, de 15 e 16 anos, que, segundo a polícia, participavam da ação, foram apreendidos.</p><h2>Contexto</h2><p>Segundo o relato do cabo da PM, os três tentaram roubar sua motocicleta usando uma chave conhecida como “micha”, ferramenta utilizada para abrir fechaduras, cadeados e portas de veículos sem a chave original. Ao perceber a ação, o militar saiu pelo portão de casa.</p><p>O policial deu voz de abordagem, mas um dos adolescentes não obedeceu e correu, apontando a arma na direção do militar. Diante da situação, o cabo efetuou quatro disparos.</p><p>Os outros dois adolescentes tentaram fugir, mas foram detidos por populares. Eles foram encontrados e apresentavam lesões provocadas por agressões físicas, mas, segundo a PM, não foi possível identificar quem teria provocado os ferimentos.</p><h2>Desdobramentos</h2><p>O adolescente baleado correu para dentro de um supermercado. Em seguida, ele foi encaminhado ao Hospital Estadual Jayme Santos Neves. Até a última atualização desta reportagem, ele permanecia internado e sob custódia policial.</p><p>O militar apreendeu a arma e constatou que se tratava de um simulacro (réplica).</p><p>Segundo a Polícia Civil , a ocorrência foi encaminhada à Delegacia Especializada do Adolescente em Conflito com a Lei (Deacle). Os três adolescentes foram autuados em flagrante por tentativa de roubo majorado e serão encaminhados ao Centro Integrado de Atendimento Socioeducativo (Ciase).</p>",
+        "fonteNome": "A Gazeta - Polícia",
+        "fonteUrl": "https://www.agazeta.com.br/es/policia/adolescente-e-baleado-ao-tentar-furtar-moto-de-policial-na-serra-0926",
+        "fontesAdicionais": [
+          {
+            "nome": "SESP-ES",
+            "url": "https://sesp.es.gov.br/Noticias"
+          },
+          {
+            "nome": "Polícia Civil do ES",
+            "url": "https://pc.es.gov.br/Noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Um adolescente de 16 anos foi baleado na região das nádegas após apontar um simulacro de arma de fogo para um policial militar durante uma tentativa de roubo na tarde de terça-feira (22), no bairro Eurico Salles, na Serra . Outros dois adolescentes, de 15 e 16 anos, que, segundo a polícia, participavam da ação, foram apreendidos."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Segundo o relato do cabo da PM, os três tentaram roubar sua motocicleta usando uma chave conhecida como “micha”, ferramenta utilizada para abrir fechaduras, cadeados e portas de veículos sem a chave original. Ao perceber a ação, o militar saiu pelo portão de casa."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O policial deu voz de abordagem, mas um dos adolescentes não obedeceu e correu, apontando a arma na direção do militar. Diante da situação, o cabo efetuou quatro disparos."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Os outros dois adolescentes tentaram fugir, mas foram detidos por populares. Eles foram encontrados e apresentavam lesões provocadas por agressões físicas, mas, segundo a PM, não foi possível identificar quem teria provocado os ferimentos."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O adolescente baleado correu para dentro de um supermercado. Em seguida, ele foi encaminhado ao Hospital Estadual Jayme Santos Neves. Até a última atualização desta reportagem, ele permanecia internado e sob custódia policial."
+          }
+        ]
+      }
+    },
+    {
+      "id": "9b39bb792be9bed4",
+      "titulo": "Mulher liga para o marido e escuta ele ser morto a tiros em Vila Velha",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/mulher-liga-para-o-marido-e-escuta-ele-ser-morto-a-tiros-em-vila-velha-0926",
+      "dataFonte": "2026-09-23T13:59:11.000Z",
+      "resumoFonte": "Segundo a Polícia Militar, homem de 32 anos estava com um amigo no local quando foi atingido pelos disparos; suspeito fugiu de moto",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790169425249_template_radar_a_gazeta_2.jpg",
+      "descobertaEm": "2026-09-23T17:08:47.777Z"
+    },
+    {
+      "id": "b59696c017bcc0f1",
+      "titulo": "Paciente é presa após chamar técnica de enfermagem de “neguinha” em Vila Velha",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/agora/paciente-e-presa-apos-chamar-tecnica-de-enfermagem-de-neguinha-em-vila-velha-0926",
+      "dataFonte": "2026-09-23T13:59:00.000Z",
+      "resumoFonte": "Mulher de 37 anos também teria arremessado um vidro de álcool contra as costas da técnica durante espera por atendimento no PA da Glória",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1774820118583_2025_05_02_bebe_e_levado_ao_pa_da_gloria_apos_possivel_ingestao_de_haxixe_mae_foi_ouvida_e_liberada_pela_policia_2713224_article.webp",
+      "descobertaEm": "2026-09-23T17:08:47.777Z"
+    },
+    {
+      "id": "9ffa51e24621f7f6",
+      "titulo": "Justi&ccedil;a revoga pris&atilde;o de suspeito de matar mulher para \"expulsar dem&ocirc;nios\" na Serra",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/justica-revoga-prisao-de-suspeito-de-matar-mulher-para-expulsar-demonios-na-serra-0926",
+      "dataFonte": "2026-09-23T13:16:19.000Z",
+      "resumoFonte": "Decisão aponta indícios de que investigado pode ter assumido o risco de provocar a morte, mas substituiu a prisão preventiva por medida cautelar",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1782128639561_copia_de_template_radar_a_gazeta_69.jpg",
+      "descobertaEm": "2026-09-23T17:08:47.777Z",
+      "reportagem": {
+        "titulo": "Justi&ccedil;a revoga pris&atilde;o de suspeito de matar mulher para \"expulsar dem&ocirc;nios\" na Serra",
+        "slug": "justi-ccedil-a-revoga-pris-atilde-o-de-suspeito-de-matar-mulher-para-expulsar-dem-ocirc-nios-na-serra",
+        "categoria": "Segurança Pública",
+        "data": "2026-09-23",
+        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1782128639561_copia_de_template_radar_a_gazeta_69.jpg",
+        "resumo": "Decisão aponta indícios de que investigado pode ter assumido o risco de provocar a morte, mas substituiu a prisão preventiva por medida cautelar",
+        "conteudo": "<p>A Justiça revogou a prisão preventiva de Bryan Fernando Gimenez Souza, investigado pela morte de Marceli de Oliveira Gottardo em junho deste ano , em Jardim Limoeiro, na Serra . A decisão, assinada em 19 de agosto pela juíza Cristina Eller Pimenta Bernardo, estabeleceu como medida cautelar a proibição do suspeito deixar a comarca, ou seja, o município.</p><h2>Contexto</h2><p>Segundo as informações que constam do processo, após o consumo de LSD e cocaína, Bryan teria agredido Marceli dentro do apartamento onde os dois estavam. Ele teria dito que a vítima estava &quot;possuída por demônios&quot; e que as agressões tinham como objetivo &quot;expulsar a entidade&quot;.</p><p>Vizinhos relataram ter ouvido gritos de dor da vítima durante um período prolongado. Quando entraram no imóvel para prestar socorro, encontraram Marceli caída, convulsionando, com hematomas no rosto, sangramento no ouvido e marcas no pescoço compatíveis com esganadura.</p><p>Na decisão, a magistrada afirmou que os elementos reunidos durante a investigação não permitem afastar a possibilidade de que Bryan tenha tido intenção de matar ou, no mínimo, assumido o risco de provocar a morte.</p><h2>Desdobramentos</h2><p>A juíza destacou os sucessivos golpes, os indícios de esganadura e a condição de extrema vulnerabilidade da vítima no momento das agressões. A causa da morte foi hemorragia intracraniana provocada por traumatismo cranioencefálico por meio contundente.</p><p>A magistrada também afirmou que a alegação de que as agressões tinham como finalidade &quot;expulsar demônios&quot;, somada ao consumo voluntário de drogas, não permite, nesta fase, concluir que o caso seria apenas de lesão corporal seguida de morte ou homicídio culposo.</p><p>Apesar da gravidade do caso, a juíza entendeu que a prisão preventiva poderia ser substituída por uma medida cautelar.</p><p>A decisão cita a possibilidade de aplicação de medidas alternativas à prisão e conclui que, no momento, é suficiente determinar que Bryan não deixe a comarca. Com isso, a prisão preventiva foi revogada e foi expedido alvará de soltura.</p><p>Em caso de descumprimento da determinação judicial, a decisão prevê que a prisão preventiva poderá ser decretada novamente.</p><p>Além de analisar a prisão, a decisão trata da competência para julgar o caso.</p><p>A 5ª Vara Criminal da Serra entendeu que existem indícios suficientes de um possível crime doloso contra a vida e, por isso, considerou que o caso deve ser analisado pelo Tribunal do Júri.</p><p>Por meio de nota, a defesa de Bryan, feita pelos advogados Lucas Menegussi Medeiros, Alan Gimenes e Alvaro França Teixeira, afirmou que não nega a gravidade da morte de Marceli, mas sustenta que a conduta atribuída ao investigado não configura homicídio doloso, seja por intenção direta de matar ou por dolo eventual.</p>",
+        "fonteNome": "A Gazeta - Capa",
+        "fonteUrl": "https://www.agazeta.com.br/es/policia/justica-revoga-prisao-de-suspeito-de-matar-mulher-para-expulsar-demonios-na-serra-0926",
+        "fontesAdicionais": [
+          {
+            "nome": "SESP-ES",
+            "url": "https://sesp.es.gov.br/Noticias"
+          },
+          {
+            "nome": "Polícia Civil do ES",
+            "url": "https://pc.es.gov.br/Noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A Justiça revogou a prisão preventiva de Bryan Fernando Gimenez Souza, investigado pela morte de Marceli de Oliveira Gottardo em junho deste ano , em Jardim Limoeiro, na Serra . A decisão, assinada em 19 de agosto pela juíza Cristina Eller Pimenta Bernardo, estabeleceu como medida cautelar a proibição do suspeito deixar a comarca, ou seja, o município."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Segundo as informações que constam do processo, após o consumo de LSD e cocaína, Bryan teria agredido Marceli dentro do apartamento onde os dois estavam. Ele teria dito que a vítima estava \"possuída por demônios\" e que as agressões tinham como objetivo \"expulsar a entidade\"."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Vizinhos relataram ter ouvido gritos de dor da vítima durante um período prolongado. Quando entraram no imóvel para prestar socorro, encontraram Marceli caída, convulsionando, com hematomas no rosto, sangramento no ouvido e marcas no pescoço compatíveis com esganadura."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Na decisão, a magistrada afirmou que os elementos reunidos durante a investigação não permitem afastar a possibilidade de que Bryan tenha tido intenção de matar ou, no mínimo, assumido o risco de provocar a morte."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A juíza destacou os sucessivos golpes, os indícios de esganadura e a condição de extrema vulnerabilidade da vítima no momento das agressões. A causa da morte foi hemorragia intracraniana provocada por traumatismo cranioencefálico por meio contundente."
+          }
+        ]
+      }
+    },
+    {
+      "id": "42b515237bb1e0cf",
+      "titulo": "Harvey Weinstein é condenado a 15 anos de prisão em Nova York | G1",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "g1 - Capa",
+      "urlFonte": "https://g1.globo.com/pop-arte/cinema/noticia/2026/09/23/harvey-weinstein-e-condenado-a-15-anos-de-prisao-por-crime-sexual-de-2006-em-nova-york.ghtml",
+      "dataFonte": "2026-09-23T16:05:39.203Z",
+      "resumoFonte": "Harvey Weinstein recebeu a sentença de 15 anos por crime sexual contra Miriam Haley após a anulação de sua condenação anterior pela corte de Nova York.",
+      "imagem": "https://s2-g1.glbimg.com/32_Q3xtRVrUhohZ00WzIlGBNSIo=/6621x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/d/l/yWsJBwRh6Lb3v3ENEOmQ/ap26266543641630.jpg",
+      "descobertaEm": "2026-09-23T17:11:34.824Z"
+    },
+    {
+      "id": "9d7fb4f6b66ceca5",
+      "titulo": "Monjardim defende redução de tributos e flexibilização de leis ambientais",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "A Gazeta - Política",
+      "urlFonte": "https://www.agazeta.com.br/es/politica/monjardim-defende-reducao-de-tributos-e-flexibilizacao-de-leis-ambientais-0926",
+      "dataFonte": "2026-09-23T16:12:46.000Z",
+      "resumoFonte": "O vereador de Vitória, que disputa uma vaga no Senado Federal, também tem propostas nas áreas de segurança, saúde e educação",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1789768640409_leonardo_monjardim.jpeg",
+      "descobertaEm": "2026-09-23T17:08:47.777Z",
+      "reportagem": {
+        "titulo": "Monjardim defende redução de tributos e flexibilização de leis ambientais",
+        "slug": "monjardim-defende-reducao-de-tributos-e-flexibilizacao-de-leis-ambientais",
+        "categoria": "Política ES",
+        "data": "2026-09-23",
+        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1789768640409_leonardo_monjardim.jpeg",
+        "resumo": "O vereador de Vitória, que disputa uma vaga no Senado Federal, também tem propostas nas áreas de segurança, saúde e educação",
+        "conteudo": "<p>Vereador de Vitória em segundo mandato, Leonardo Monjardim (Novo) pretende levar suas ideias para outro espaço legislativo: o Senado Federal . Entre as propostas, o candidato defende a redução de tributos e mais flexibilização de leis ambientes para o desenvolvimento de projetos estruturantes.</p><h2>Contexto</h2><p>O parlamentar apresentou suas propostas num bate-papo com a jornalista Juliana Morgado, na rodada de entrevistas realizada por A Gazeta e CBN Vitória com candidatos a senador nas Eleições 2026 .</p><p>Monjardim disse que o empreendedorismo é uma pauta importante para seu eventual mandato no Senado.</p><p>&quot;A gente sabe que os empresários são fundamentais na construção da riqueza do país, gerando emprego e renda. Precisamos tirar um pouco a mão do Estado sobre essas pessoas que produzem, reduzir carga tributária, criar facilidade pra abrir negócios e flexibilizar, por exemplo, leis ambientais que muitas vezes emperram obras estruturantes que geram emprego e trazem benefícios para as regiões.&quot;</p><h2>Desdobramentos</h2><p>Na segurança, o candidato acredita que é preciso endurecer as leis penais. Para ele, trata-se de uma área que representa um problema crônico em todo o país. &quot;E eu percebo que um dos motivos é a frouxidão das nossas leis. Precisamos resgatar a segurança jurídica, mas, sobretudo, a segurança dos brasileiros&quot;, sustenta.</p><p>A série de sabatinas com os candidatos ao Senado Federal foi realizada ao longo da semana de 14 a 18 de setembro. Conforme as regras registradas no Tribunal Regional Eleitoral do Espírito Santo ( TRE-ES ), os entrevistados seriam os concorrentes que obtiveram pelo menos 5% das intenções de voto na última pesquisa estimulada do Instituto Quaest , contratada pela Rede Gazeta e divulgada no dia 27 de agosto.</p><p>Pelas normas, portanto, foram ouvidos Renato Casagrande (PSB), Evair de Melo (Republicanos), Fabiano Contarato (PT), Rose de Freitas (MDB) e Maguinha Malta (PL) em uma entrevista ao vivo de 40 minutos. A ordem das sabatinas foi definida a partir do levantamento Quaest. O candidato Sérgio Meneguelli (PSD), que também havia sido convidado, não chegou a tempo para participar do bate-papo .</p><p>Os candidatos que não atingiram o percentual mínimo previsto nas regras foram chamados para uma entrevista gravada, de 3 minutos, a ser também veiculada em A Gazeta e na CBN Vitória após o encerramento das sabatinas.</p><p>São eles: Marcos do Val (Avante), que alcançou 4% na pesquisa; Rodney Miranda (PRTB) e Professor Fabian (PSol), ambos com 2%; Leonardo Monjardim (Novo) e Wellington Callegari (DC), que obtiveram 1%.</p><p>Callegari e Do Val recusaram-se a participar. O candidato do Avante chegou a ingressar com uma ação na Justiça Eleitoral para participar da entrevista de 40 minutos, mas o pedido foi negado.</p>",
+        "fonteNome": "A Gazeta - Política",
+        "fonteUrl": "https://www.agazeta.com.br/es/politica/monjardim-defende-reducao-de-tributos-e-flexibilizacao-de-leis-ambientais-0926",
+        "fontesAdicionais": [
+          {
+            "nome": "Assembleia Legislativa do ES",
+            "url": "https://www.al.es.gov.br/"
+          },
+          {
+            "nome": "Governo do Estado do ES",
+            "url": "https://www.es.gov.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Vereador de Vitória em segundo mandato, Leonardo Monjardim (Novo) pretende levar suas ideias para outro espaço legislativo: o Senado Federal . Entre as propostas, o candidato defende a redução de tributos e mais flexibilização de leis ambientes para o desenvolvimento de projetos estruturantes."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O parlamentar apresentou suas propostas num bate-papo com a jornalista Juliana Morgado, na rodada de entrevistas realizada por A Gazeta e CBN Vitória com candidatos a senador nas Eleições 2026 ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Monjardim disse que o empreendedorismo é uma pauta importante para seu eventual mandato no Senado."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "\"A gente sabe que os empresários são fundamentais na construção da riqueza do país, gerando emprego e renda. Precisamos tirar um pouco a mão do Estado sobre essas pessoas que produzem, reduzir carga tributária, criar facilidade pra abrir negócios e flexibilizar, por exemplo, leis ambientais que muitas vezes emperram obras estruturantes que geram emprego e tr"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Na segurança, o candidato acredita que é preciso endurecer as leis penais. Para ele, trata-se de uma área que representa um problema crônico em todo o país. \"E eu percebo que um dos motivos é a frouxidão das nossas leis. Precisamos resgatar a segurança jurídica, mas, sobretudo, a segurança dos brasileiros\", sustenta."
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2ae3146cfbb632f",
+      "titulo": "Viu algum crime eleitoral? Saiba como denunciar por aplicativo",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "A Gazeta - Política",
+      "urlFonte": "https://www.agazeta.com.br/es/politica/viu-algum-crime-eleitoral-saiba-como-denunciar-por-aplicativo-0726",
+      "dataFonte": "2026-09-23T14:46:31.000Z",
+      "resumoFonte": "O Pardal, ferramenta criada pela Justiça Eleitoral do Espírito Santo, ajuda no processo de fiscalização em todo o país",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790174752857_56_aprovam_e_10_desaprovam_governo_de_ricardo_ferraco_aline_weber.jpg",
+      "descobertaEm": "2026-09-23T17:08:47.777Z"
+    },
+    {
+      "id": "7fc1d96bcb0d4a14",
+      "titulo": "Quem &eacute; \"o federal\" de cada prefeito da Grande Vit&oacute;ria nas elei&ccedil;&otilde;es 2026",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/colunas/leticia-goncalves/quem-e-o-federal-de-cada-prefeito-da-grande-vitoria-nas-eleicoes-0926",
+      "dataFonte": "2026-09-23T13:32:15.000Z",
+      "resumoFonte": "Transferência de voto, e de carisma, não é ciência exata. Alguns candidatos a deputado federal contam com apoios que podem (ou não) fazer a diferença. Veja na coluna",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790168818507_manu.jpeg",
+      "descobertaEm": "2026-09-23T17:08:47.777Z",
+      "reportagem": {
+        "titulo": "Quem &eacute; \"o federal\" de cada prefeito da Grande Vit&oacute;ria nas elei&ccedil;&otilde;es 2026",
+        "slug": "quem-eacute-o-federal-de-cada-prefeito-da-grande-vit-oacute-ria-nas-elei-ccedil-otilde-es-2026",
+        "categoria": "Política ES",
+        "data": "2026-09-23",
+        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790168818507_manu.jpeg",
+        "resumo": "Transferência de voto, e de carisma, não é ciência exata. Alguns candidatos a deputado federal contam com apoios que podem (ou não) fazer a diferença. Veja na coluna",
+        "conteudo": "<p>Transferência de voto, de prestígio e de carisma não é ciência exata. Às vezes, não é nem possível, mas, nas eleições, é melhor um candidato ter o apoio de lideranças políticas do que não ter. Além disso, quem conta com o endosso, por exemplo, de alguém que comanda uma prefeitura pode ter ainda a máquina municipal trabalhando a seu favor, espera-se que dentro da lei.</p><h2>Contexto</h2><p>Não à toa, os prefeitos dos municípios da Grande Vitória deixam evidente quem são seus favoritos na disputa pela Câmara dos Deputados.</p><p>Essa é uma faca de dois gumes. A vitória do candidato apoiado demonstra a força do prefeito em questão. A eventual derrota, porém, marca pontos negativos no termômetro de prestígio político.</p><p>Em Vila Velha, a ex-secretária estadual de Governo da gestão Renato Casagrande (PSB) Emanuela Pedroso, a Manu (PSB), é &quot;a federal do Arnaldinho&quot;.</p><h2>Desdobramentos</h2><p>E isso não é apenas modo de dizer. A frase está na boca do prefeito Arnaldinho Borgo (PSDB) em discursos públicos e também estampada no material de campanha da candidata.</p><p>Manu foi prefeita de Alto Rio Novo (2013-2016) e apenas recentemente radicou-se na cidade canela-verde. Em 2025, filiou-se ao PSB e passou a presidir o diretório municipal do partido.</p><p>A sigla é aliada a Arnaldinho, embora a relação tenha passado por um breve rompimento em fevereiro , quando o tucano se juntou ao então prefeito de Vitória Lorenzo Pazolini (Republicanos), que é adversário do grupo político integrado pelo PSB.</p><p>Tudo voltou às boas quando Arnaldinho retornou ao círculo liderado por Casagrande e por Ricardo Ferraço (MDB).</p><p>Mas como Manu assumiu o protagonismo no palanque do prefeito?</p><p>&gt; Quer receber as publicações da coluna Letícia Gonçalves em primeira mão pelo WhatsApp? Clique aqui</p><p>Bem, em 2022, &quot;o federal do Arnaldinho&quot; foi Victor Linhalis, o Dr. Victor, então vice-prefeito de Vila Velha.</p><p>Foi muito graças ao prefeito que o aliado conquistou o mandato na Câmara.</p>",
+        "fonteNome": "A Gazeta - Capa",
+        "fonteUrl": "https://www.agazeta.com.br/colunas/leticia-goncalves/quem-e-o-federal-de-cada-prefeito-da-grande-vitoria-nas-eleicoes-0926",
+        "fontesAdicionais": [
+          {
+            "nome": "Assembleia Legislativa do ES",
+            "url": "https://www.al.es.gov.br/"
+          },
+          {
+            "nome": "Governo do Estado do ES",
+            "url": "https://www.es.gov.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Transferência de voto, de prestígio e de carisma não é ciência exata. Às vezes, não é nem possível, mas, nas eleições, é melhor um candidato ter o apoio de lideranças políticas do que não ter. Além disso, quem conta com o endosso, por exemplo, de alguém que comanda uma prefeitura pode ter ainda a máquina municipal trabalhando a seu favor, espera-se que dentr"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Não à toa, os prefeitos dos municípios da Grande Vitória deixam evidente quem são seus favoritos na disputa pela Câmara dos Deputados."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Essa é uma faca de dois gumes. A vitória do candidato apoiado demonstra a força do prefeito em questão. A eventual derrota, porém, marca pontos negativos no termômetro de prestígio político."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Em Vila Velha, a ex-secretária estadual de Governo da gestão Renato Casagrande (PSB) Emanuela Pedroso, a Manu (PSB), é \"a federal do Arnaldinho\"."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "E isso não é apenas modo de dizer. A frase está na boca do prefeito Arnaldinho Borgo (PSDB) em discursos públicos e também estampada no material de campanha da candidata."
+          }
+        ]
+      }
+    },
+    {
+      "id": "60ca861dfe5ac47b",
+      "titulo": "ES leva empresas à feira no Rio para ampliar negócios em petróleo, gás e energia",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "YouTube Folha Vitória",
+      "urlFonte": "https://www.youtube.com/shorts/C6Pu6jbQrYI",
+      "dataFonte": "2026-09-23T14:40:58.000Z",
+      "resumoFonte": "⛽ O Espírito Santo ganhou um espaço próprio na Rio Oil &amp; Gas 2026, no Rio de Janeiro, um dos grandes eventos do setor de energia. O estande reúne uma parceria entre Findes, Aderes, Nova Agência de Promoção de Investimentos do Espírito Santo e Sebrae, com empresas capixabas apresentando soluções e oportunidades ligadas ao setor de petróleo, gás ",
+      "imagem": "https://i.ytimg.com/vi/C6Pu6jbQrYI/hq720.jpg?sqp=-oaymwEoCJUDENAFSFryq4qpAxoIARUAAAAAJQAAyEI9AICiQ3gB0AEBuAL3GA==&rs=AOn4CLAjfwi4LRGswknmyN3O4tSg_PJZbg",
+      "descobertaEm": "2026-09-23T17:12:13.161Z"
     },
     {
       "id": "df0ac716c25daf91",
@@ -46,31 +418,7 @@
       "dataFonte": "2026-09-23T00:20:51.000Z",
       "resumoFonte": "🎬 As primeiras imagens de “Nárnia: O Sobrinho do Mago” foram divulgadas e já estão dando o que falar! O filme, dirigido por Greta Gerwig, vai apresentar a origem de Nárnia antes dos acontecimentos de “O Leão, A Feiticeira e O Guarda-Roupa”. A produção também chamou atenção pela escolha de Meryl Streep para dar voz a Aslan e pelo visual inspirado n",
       "imagem": "https://i.ytimg.com/vi/n2-kDHwekbw/hq720.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLDuzX5mbtOvc6isn7WQtAXsxsH9Dw",
-      "descobertaEm": "2026-09-23T11:50:23.014Z"
-    },
-    {
-      "id": "cebccab476819e4d",
-      "titulo": "Pazolini promete Casa Rosa, botão do pânico e escola em tempo integral para todo o ES",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "YouTube A Gazeta",
-      "urlFonte": "https://www.youtube.com/shorts/mcTLI3F7nSU",
-      "dataFonte": "2026-09-22T20:58:16.000Z",
-      "resumoFonte": "O candidato Lorenzo Pazolini (Republicanos) apresentou, durante o debate promovido nesta terça-feira (22) por A Gazeta e CBN Vitória entre concorrentes ao governo do Espírito Santo, uma série de compromissos para uma eventual administração. Em relação à segurança pública, o candidato apresentou propostas específicas para o enfrentamento à violência",
-      "imagem": "https://i.ytimg.com/vi/mcTLI3F7nSU/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLAG7VZfaX3xjFT4bBnPI-GKMXMK_w&usqp=CCk",
-      "descobertaEm": "2026-09-23T11:50:23.014Z"
-    },
-    {
-      "id": "87473c7a5ab05abc",
-      "titulo": "Casacas da Paixão | CAP. 5 — &quot;Você é o João Casaca!&quot;",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "YouTube A Gazeta",
-      "urlFonte": "https://www.youtube.com/shorts/hyBZRsau_hc",
-      "dataFonte": "2026-09-22T19:00:15.000Z",
-      "resumoFonte": "Será o fim de #Jereza? Não perca o próximo episódio para descobrir. A novela vertical capixaba 'Casacas da Paixão', série em episódios curtos que mistura cultura do Espírito Santo com linguagem de internet. A trama acompanha uma marisqueira da orla capixaba e um herdeiro de uma marca ligada ao congo que esconde a própria origem para conquistá-la. A",
-      "imagem": "https://i.ytimg.com/vi/hyBZRsau_hc/sardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLC4tb3mqvBWaMHOF2EjrxhnzSaADw",
-      "descobertaEm": "2026-09-23T11:50:23.014Z"
+      "descobertaEm": "2026-09-23T17:12:13.161Z"
     },
     {
       "id": "c05c2c0c66f7c291",
@@ -82,53 +430,41 @@
       "dataFonte": "2026-09-22T17:20:49.000Z",
       "resumoFonte": "🎥 Um vídeo mostra os destroços do helicóptero em que estava o cantor Rick, da dupla sertaneja Rick &amp; Renner, encontrado nesta terça-feira (22) na Serra de Santa Catarina. As imagens mostram partes da aeronave espalhadas por uma área de mata. Os destroços foram localizados por volta das 12h pela aeronave Arcanjo 03. Segundo o Corpo de Bombeiros",
       "imagem": "https://i.ytimg.com/vi/-1KgsqTFm24/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLBnfc_MgJ_2f2lkMHF30IbnH9U3Ew&usqp=CCk",
-      "descobertaEm": "2026-09-23T11:50:23.014Z"
+      "descobertaEm": "2026-09-23T17:12:13.161Z"
     },
     {
-      "id": "5a55ebf0b3ede4b9",
-      "titulo": "Cantor Rick, empresário e mais 3 pessoas morrem em queda de helicóptero em SC",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "YouTube Folha Vitória",
-      "urlFonte": "https://www.youtube.com/shorts/T-8_CVD_1eQ",
-      "dataFonte": "2026-09-22T17:01:12.000Z",
-      "resumoFonte": "🖤 O cantor Rick, da dupla Rick e Renner, morreu após o helicóptero em que estava desaparecer durante um voo em Santa Catarina. A aeronave foi localizada nesta terça-feira (22), na região de Urubici, após uma operação de buscas que mobilizou equipes da Força Aérea Brasileira (FAB) e do Corpo de Bombeiros. Além do cantor, também foram encontrados mo",
-      "imagem": "https://i.ytimg.com/vi/T-8_CVD_1eQ/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLD4-ALY-tfa5olkC_FcrcVyEj5arA&usqp=CCk",
-      "descobertaEm": "2026-09-23T11:50:23.014Z"
-    },
-    {
-      "id": "42f3a7cca5f5ab2d",
-      "titulo": "Reconhecimento facial prende suspeitos no ES",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "YouTube A Gazeta",
-      "urlFonte": "https://www.youtube.com/shorts/ZcSp5BIK2SI",
-      "dataFonte": "2026-09-22T16:17:46.000Z",
-      "resumoFonte": "📹 Dois homens foram presos após serem identificados com auxílio das câmeras de reconhecimento facial do transporte coletivo da Grande Vitória. As informações foram divulgadas nesta segunda-feira (21) pela Polícia Civil do Espírito Santo (PCES). Um deles é investigado por uma tentativa de latrocínio em Vila Velha, enquanto o outro foi identificado ",
-      "imagem": "https://i.ytimg.com/vi/ZcSp5BIK2SI/hq720.jpg?sqp=-oaymwEoCJUDENAFSFryq4qpAxoIARUAAAAAJQAAyEI9AICiQ3gB0AEBuALzGA==&rs=AOn4CLAfV0G1Ht-p0x8bQP76DMU6qBi4kw",
-      "descobertaEm": "2026-09-23T11:50:23.014Z"
-    },
-    {
-      "id": "8b1fe66ab26d42a4",
-      "titulo": "Crise no STF prejudica mais Lula do que Flávio, dizem 52% dos brasileiros",
+      "id": "2b1169512cda68df",
+      "titulo": "Quaest no Ceará: Lula, 55%; Flávio Bolsonaro, 23%; Augusto Cury, 5%; Renan Santos, 3%; Ronaldo Caiado, 1%",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/crise-no-stf-prejudica-mais-lula-do-que-flavio-dizem-52-dos-brasileiros/",
-      "dataFonte": "2026-09-23T10:40:00.000Z",
-      "resumoFonte": "A crise entre ministros do Supremo Tribunal Federal (STF) prejudica mais a candidatura do presidente Luiz Inácio Lula da Silva (PT) do que a do senador Flávio Bolsonaro (PL), segundo 52,3% dos entrevistados pela pesquisa Atlas/Bloomberg divulgada nesta quarta-feira, 23. Para 20,8% dos brasileiros, a crise prejudica mais Flávio. Outros 15,5%…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/stf-910x568.jpg.webp",
-      "descobertaEm": "2026-09-23T11:44:52.400Z",
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/09/23/quaest-ce-presidente-23-setembro.ghtml",
+      "dataFonte": "2026-09-23T15:54:54.000Z",
+      "resumoFonte": "Lula, Flávio, Augusto Cury, Renan e Caiado Globo Pesquisa Quaest divulgada nesta quarta-feira (23) mostra como está a disputa pela Presidência da República no 1º turno entre os eleitores do Ceará. O levantamento foi encomendado pela TV Verdes Mares. Veja, abaixo, os resultados da pesquisa estimulada, em que a Quaest mostra a lista de candidatos aos…",
+      "imagem": "https://s2-g1.glbimg.com/pdXg6JED06LRqpmLHiER494aEcc=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/l/9/LBMTzkRkqHtF63WGsImQ/candidatos.jpg",
+      "descobertaEm": "2026-09-23T17:08:47.777Z"
+    },
+    {
+      "id": "9e819526419d201a",
+      "titulo": "Análise: Flávio Bolsonaro usa precedente do pai contra Lula | CNN Brasil",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil - Capa",
+      "urlFonte": "https://www.cnnbrasil.com.br/politica/analise-flavio-bolsonaro-usa-precedente-do-pai-contra-lula/",
+      "dataFonte": "2026-09-23T14:18:59.000Z",
+      "resumoFonte": "Analista de Política da CNN Clarissa Oliveira explica, ao Live CNN, que campanha de Flávio ingressou com representação no TSE para impedir uso de imagens do discurso de Lula na ONU na propaganda eleitoral",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/lula_flavio.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-23T17:11:34.824Z",
       "reportagem": {
-        "titulo": "Crise no STF prejudica mais Lula do que Flávio, dizem 52% dos brasileiros",
-        "slug": "crise-no-stf-prejudica-mais-lula-do-que-flavio-dizem-52-dos-brasileiros",
+        "titulo": "Análise: Flávio Bolsonaro usa precedente do pai contra Lula | CNN Brasil",
+        "slug": "analise-flavio-bolsonaro-usa-precedente-do-pai-contra-lula-cnn-brasil",
         "categoria": "Política Nacional",
         "data": "2026-09-23",
-        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/stf-910x568.jpg.webp",
-        "resumo": "Pesquisa Atlas/Bloomberg aponta maior impacto sobre o senador para 20,8% dos entrevistados; outros 15,5% consideram ambos igualmente prejudicados",
-        "conteudo": "<p>Formado em jornalismo pela Universidade Estadual Paulista Júlio de Mesquita Filho. Repórter da Revista Oeste desde setembro de 2024.</p><h2>Contexto</h2><p>Uma pesquisa Atlas/Bloomberg, divulgada em 23 de setembro de 2026, revela que 52,3% dos entrevistados acreditam que a crise no Supremo Tribunal Federal (STF) prejudica mais a candidatura do presidente Luiz Inácio Lula da Silva (PT) do que a do senador Flávio Bolsonaro (PL). A crise, que se intensificou depois do ministro André Mendonça retirar o sigilo de um relatório da Polícia Federal sobre o Banco Master, gerou divisões entre eleitores, com 80,8% dos apoiadores de Jair Bolsonaro apontando Lula como o mais afetado.</p><p>A crise entre ministros do Supremo Tribunal Federal (STF) prejudica mais a candidatura do presidente Luiz Inácio Lula da Silva (PT) do que a do senador Flávio Bolsonaro (PL), segundo 52,3% dos entrevistados pela pesquisa Atlas/Bloomberg divulgada nesta quarta-feira, 23.</p><p>Para 20,8% dos brasileiros, a crise prejudica mais Flávio. Outros 15,5% acreditam em consequências iguais para os dois candidatos, enquanto 7,5% não veem prejuízo para nenhum deles. Os indecisos somam 3,9%.</p><h2>Desdobramentos</h2><p>A pesquisa também identificou diferenças entre os eleitores de cada candidato. Entre os eleitores de Jair Bolsonaro (PL) no segundo turno de 2022, 80,8% apontam Lula como o mais prejudicado pela crise. Já entre os eleitores do petista, 34,6% apontam maior prejuízo para Flávio, enquanto 28% citam o atual presidente.</p><p>A AtlasIntel entrevistou 5 mil pessoas entre 17 e 22 de setembro, por meio de recrutamento digital aleatório. A pesquisa tem margem de erro de 1 ponto porcentual, para mais ou para menos.</p><p>A crise no Supremo ganhou força depois que o ministro André Mendonça retirou o sigilo de um relatório da Polícia Federal (PF) sobre o Banco Master, em 1º de setembro. O documento reúne mensagens extraídas do celular do ex-banqueiro Daniel Vorcaro enviadas ao ministro Alexandre de Moraes.</p><p>Entre os elementos investigados está um contrato de R$ 131 milhões firmado pelo Master com o escritório de advocacia de Viviane Barci de Moraes, mulher do ministro. Moraes nega ter mantido diálogos com Vorcaro e questiona a existência de provas de que as mensagens tenham sido efetivamente enviadas a ele.</p><p>Além disso, Moraes pediu a investigação de Mendonça por supostos abuso de autoridade, improbidade administrativa e crime de responsabilidade na condução dos casos Master e INSS. Gilmar Mendes defendeu a análise conjunta dos procedimentos que envolvem os dois ministros, mas um pedido de vista de Flávio Dino suspendeu a discussão no plenário do STF.</p><p>O caso também provocou divergências sobre o acesso às provas. Moraes e Cristiano Zanin solicitaram cópias integrais dos dados extraídos do celular de Vorcaro. Já Mendonça e Luiz Fux relataram dificuldades para abrir os arquivos recebidos e pediram auxílio técnico à PF.</p><p>Leia também: “Togas fora da lei” , artigo de Augusto Nunes publicado na Edição 245 da Revista Oeste</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/crise-no-stf-prejudica-mais-lula-do-que-flavio-dizem-52-dos-brasileiros/",
+        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/lula_flavio.jpg?w=1200&h=630&crop=1",
+        "resumo": "Analista de Política da CNN Clarissa Oliveira explica, ao Live CNN, que campanha de Flávio ingressou com representação no TSE para impedir uso de imagens do discurso de Lula na ONU na propaganda eleitoral",
+        "conteudo": "<p>A campanha de Flávio Bolsonaro (PL) ingressou na madrugada desta quarta-feira (23) com uma representação no TSE (Tribunal Superior Eleitoral) para impedir que Luiz Inácio Lula da Silva utilize na propaganda eleitoral imagens ou trechos do discurso proferido na Assembleia Geral da ONU (Organização das Nações Unidas), em Nova York.</p><h2>Contexto</h2><p>A analista de Política da CNN Clarissa Oliveira avalia, ao Live CNN , que a estratégia jurídica se apoia em um precedente criado durante a campanha de Jair Bolsonaro , quando a campanha adversária acionou a Justiça Eleitoral por situação semelhante.</p><p>Segundo Clarissa, a leitura do movimento é bastante evidente: &quot;A gente não acha errado que ele suba na tribuna, na ONU e faça um discurso como esse. Afinal de contas, Jair Bolsonaro fez e foi a campanha adversária que acionou a Justiça Eleitoral na época contra ele. Mas a questão é: se não pode para um, não pode para o outro também&quot;, explicou o argumento usado pela campanha.</p><p>O problema da alegação da campanha de Flávio Bolsonaro, de acordo com Clarissa Oliveira, é que, na época do caso envolvendo Jair Bolsonaro, o próprio TSE não foi unânime em seu julgamento .</p><h2>Desdobramentos</h2><p>&quot;O Tribunal Superior Eleitoral não era unânime em avaliar que teria de fato havido um abuso da parte de Jair Bolsonaro ao falar sobre eleições na tribuna da ONU&quot;, destacou a analista.</p><p>Ela acrescentou que, se o caso cair nas mãos de um ministro com entendimento de que outros chefes de Estado também trouxeram questões eleitorais à tribuna da ONU sem que isso fosse considerado problema, a campanha de Flávio pode ter um revés .</p><p>Clarissa Oliveira fez uma comparação entre os discursos de Jair Bolsonaro, em 2022, e o de Lula na Assembleia Geral deste ano . Segundo ela, o discurso de Jair Bolsonaro teve &quot;movimentações mais explícitas em aproveitar aquele momento para fazer um discurso voltado ao eleitorado brasileiro&quot;.</p><p>O ex-presidente teria citado desemprego, economia, o número de venezuelanos que chegou ao Brasil, a 'Operação Acolhida', a guerra na Ucrânia e ainda encerrando com referência às manifestações do 7 de setembro.</p><p>Já Lula, segundo a analista, também direcionou parte de seu discurso ao eleitorado nacional, mencionando, por exemplo, o fim da escala 6x1, tema que, nas palavras de Clarissa, &quot;nada tem a ver com o palco da ONU&quot;.</p><p>Apesar de considerar a representação um movimento jurídico legítimo e esperado da campanha de Flávio Bolsonaro, Clarissa Oliveira ressaltou que ele tem impacto limitado.</p><p>Mesmo que o TSE vete o uso das imagens na propaganda eleitoral gratuita , isso não impede que o material seja disseminado nas redes sociais e aproveitado como estratégia de campanha por outras vias.</p><p>&quot;Isso valeu também para Jair Bolsonaro naquela época&quot;, lembrou a analista. Clarissa ainda observou que a exposição de Lula na ONU é especialmente relevante neste momento eleitoral, em especial diante das especulações sobre uma possível interferência dos Estados Unidos no processo eleitoral brasileiro .</p>",
+        "fonteNome": "CNN Brasil - Capa",
+        "fonteUrl": "https://www.cnnbrasil.com.br/politica/analise-flavio-bolsonaro-usa-precedente-do-pai-contra-lula/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -143,60 +479,48 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Formado em jornalismo pela Universidade Estadual Paulista Júlio de Mesquita Filho. Repórter da Revista Oeste desde setembro de 2024."
+            "resposta": "A campanha de Flávio Bolsonaro (PL) ingressou na madrugada desta quarta-feira (23) com uma representação no TSE (Tribunal Superior Eleitoral) para impedir que Luiz Inácio Lula da Silva utilize na propaganda eleitoral imagens ou trechos do discurso proferido na Assembleia Geral da ONU (Organização das Nações Unidas), em Nova York."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Uma pesquisa Atlas/Bloomberg, divulgada em 23 de setembro de 2026, revela que 52,3% dos entrevistados acreditam que a crise no Supremo Tribunal Federal (STF) prejudica mais a candidatura do presidente Luiz Inácio Lula da Silva (PT) do que a do senador Flávio Bolsonaro (PL). A crise, que se intensificou depois do ministro André Mendonça retirar o sigilo de um"
+            "resposta": "A analista de Política da CNN Clarissa Oliveira avalia, ao Live CNN , que a estratégia jurídica se apoia em um precedente criado durante a campanha de Jair Bolsonaro , quando a campanha adversária acionou a Justiça Eleitoral por situação semelhante."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A crise entre ministros do Supremo Tribunal Federal (STF) prejudica mais a candidatura do presidente Luiz Inácio Lula da Silva (PT) do que a do senador Flávio Bolsonaro (PL), segundo 52,3% dos entrevistados pela pesquisa Atlas/Bloomberg divulgada nesta quarta-feira, 23."
+            "resposta": "Segundo Clarissa, a leitura do movimento é bastante evidente: \"A gente não acha errado que ele suba na tribuna, na ONU e faça um discurso como esse. Afinal de contas, Jair Bolsonaro fez e foi a campanha adversária que acionou a Justiça Eleitoral na época contra ele. Mas a questão é: se não pode para um, não pode para o outro também\", explicou o argumento usa"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Para 20,8% dos brasileiros, a crise prejudica mais Flávio. Outros 15,5% acreditam em consequências iguais para os dois candidatos, enquanto 7,5% não veem prejuízo para nenhum deles. Os indecisos somam 3,9%."
+            "resposta": "O problema da alegação da campanha de Flávio Bolsonaro, de acordo com Clarissa Oliveira, é que, na época do caso envolvendo Jair Bolsonaro, o próprio TSE não foi unânime em seu julgamento ."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A pesquisa também identificou diferenças entre os eleitores de cada candidato. Entre os eleitores de Jair Bolsonaro (PL) no segundo turno de 2022, 80,8% apontam Lula como o mais prejudicado pela crise. Já entre os eleitores do petista, 34,6% apontam maior prejuízo para Flávio, enquanto 28% citam o atual presidente."
+            "resposta": "\"O Tribunal Superior Eleitoral não era unânime em avaliar que teria de fato havido um abuso da parte de Jair Bolsonaro ao falar sobre eleições na tribuna da ONU\", destacou a analista."
           }
         ]
       }
     },
     {
-      "id": "804a855c840c0238",
-      "titulo": "A nova pesquisa AtlasIntel sobre a disputa Lula x Flávio Bolsonaro a menos de duas semanas da eleição",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/politica/a-disputa-lula-x-flavio-bolsonaro-segundo-mais-nova-pesquisa-do-atlasintel/",
-      "dataFonte": "2026-09-23T10:30:03.000Z",
-      "resumoFonte": "Levantamento aponta para empate técnico no segundo turno, com vantagem numérica de apenas 0,3 ponto percentual para um dos dois",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/08/lula-flavio1.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-23T11:44:52.400Z"
-    },
-    {
-      "id": "8e05b614a6584e4f",
-      "titulo": "Toffoli lidera rejeição entre ministros do STF, mostra AtlasIntel",
+      "id": "9febcd50f9e5b505",
+      "titulo": "Entenda a decisão que libera propaganda de Michelle com imagem de Bolsonaro",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/toffoli-lidera-rejeicao-entre-ministros-do-stf-mostra-atlasintel/",
-      "dataFonte": "2026-09-23T11:13:59.000Z",
-      "resumoFonte": "Pesquisa AtlasIntel/Estadão, divulgada nesta terça-feira, 22, mostra Dias Toffoli como o ministro com maior rejeição no Supremo Tribunal Federal (STF). O índice chega a 79%. Já Kassio Nunes Marques registra 63% de rejeição. Gilmar Mendes e Alexandre de Moraes aparecem com 59% cada. Edson Fachin, por sua vez, tem 54%. + Entenda o que é Política em…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/02/55092695590_335e8c54f3_o-copiar.jpg.webp",
-      "descobertaEm": "2026-09-23T11:44:52.400Z",
+      "urlFonte": "https://revistaoeste.com/politica/entenda-a-decisao-que-libera-propaganda-de-michelle-com-imagem-de-bolsonaro/",
+      "dataFonte": "2026-09-23T17:09:02.000Z",
+      "resumoFonte": "O Tribunal Regional Eleitoral do Distrito Federal (TRE-DF) autorizou, nesta terça-feira, 22, a veiculação de uma propaganda eleitoral da candidata ao Senado, Michelle Bolsonaro (PL-DF), que exibe imagens do ex-presidente Jair Bolsonaro (PL). O órgão voltou atrás de decisão anterior, em que havia determinado a retirada do material do ar. + Leia mais…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/miche.jpg.webp",
+      "descobertaEm": "2026-09-23T17:08:47.777Z",
       "reportagem": {
-        "titulo": "Toffoli lidera rejeição entre ministros do STF, mostra AtlasIntel",
-        "slug": "toffoli-lidera-rejeicao-entre-ministros-do-stf-mostra-atlasintel",
+        "titulo": "Entenda a decisão que libera propaganda de Michelle com imagem de Bolsonaro",
+        "slug": "entenda-a-decisao-que-libera-propaganda-de-michelle-com-imagem-de-bolsonaro",
         "categoria": "Política Nacional",
         "data": "2026-09-23",
-        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/02/55092695590_335e8c54f3_o-copiar.jpg.webp",
-        "resumo": "Pesquisa mostra ministro com 79% de rejeição; 61% dos entrevistados dizem não confiar no Supremo nem em seus integrantes",
-        "conteudo": "<p>Letícia Alves nasceu em Fortaleza e se formou em jornalismo na Universidade Federal do Ceará. Atuou no jornal O Povo, Poder360, Brasil sem Medo e Gazeta do Povo. Atualmente, é repórter na Revista Oeste.</p><h2>Contexto</h2><p>Uma pesquisa AtlasIntel/Estadão, divulgada em 22 de setembro de 2026, revela que Dias Toffoli é o ministro do Supremo Tribunal Federal (STF) com a maior rejeição, atingindo 79%. Kassio Nunes Marques tem 63% de rejeição, enquanto Gilmar Mendes e Alexandre de Moraes apresentam 59% cada. Edson Fachin tem 54% de rejeição. André Mendonça e Cármen Lúcia possuem os maiores índices de imagem positiva, com 47% cada, mas Mendonça enfrenta 48% de rejeição e Cármen Lúcia 38%.</p><p>Pesquisa AtlasIntel/Estadão divulgada nesta terça-feira, 22, mostra Dias Toffoli como o ministro com maior rejeição no Supremo Tribunal Federal (STF). O índice chega a 79%.</p><p>Já Kassio Nunes Marques registra 63% de rejeição. Gilmar Mendes e Alexandre de Moraes aparecem com 59% cada um. Edson Fachin, por sua vez, tem 54%.</p><h2>Desdobramentos</h2><p>André Mendonça e Cármen Lúcia possuem os maiores índices de imagem positiva, com 47% cada um. A rejeição chega a 48% para Mendonça e a 38% para Cármen Lúcia. Ela é a única entre os dez ministros com aprovação superior à rejeição.</p><p>A pesquisa foi realizada durante um período de crise no Supremo, em meio a novos desdobramentos do caso Banco Master e a menções a magistrados em relatórios da Polícia Federal .</p><p>A percepção negativa também aparece na avaliação geral da Corte. Segundo o levantamento, 61% dos entrevistados afirmam não confiar no trabalho do STF nem nos ministros. Outros 27,8% dizem confiar no tribunal, enquanto 11,1% não souberam responder.</p><p>A parcela dos que afirmam não confiar no STF aumentou quase 10 pontos porcentuais em um ano. Em agosto de 2025, o índice era de 51,3%.</p><p>Leia também o artigo “As bestas do apocalipse” , de Augusto Nunes, na Edição 340 da Revista Oeste</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/miche.jpg.webp",
+        "resumo": "Juiz auxiliar do Tribunal Regional Eleitoral do Distrito Federal reviu decisão anterior, que contestava a presença do ex-presidente",
+        "conteudo": "<p>Formado em jornalismo pela Cásper Líbero, tem curso de especialização em teoria da história, pela Universidade de São Paulo e em economia e finanças pelo Instituto Brasileiro de Economia e Finanças. Atuou no Jornal do Brasil, O Estado de S. Paulo e portal R7, entre outros, tendo feito coberturas fora do país. Foi também assessor de imprensa do Consulado de Israel e da Secretaria da Educação do Estado de São Paulo. Autor de cinco livros, foi vencedor do Prêmio Clio de História e recebeu menção honrosa no Prêmio Sindiclube de Contos e Crônicas. Atualmente é jornalista da Revista Oeste.</p><h2>Contexto</h2><p>O Tribunal Regional Eleitoral do Distrito Federal (TRE-DF) autorizou, nesta terça-feira, 22,, a veiculação de uma propaganda eleitoral da candidata ao Senado Michelle Bolsonaro (PL-DF), que inclui imagens do ex-presidente Jair Bolsonaro (PL). A decisão reverte uma determinação anterior que havia solicitado a retirada do material, sob a alegação de que poderia sugerir apoio do ex-presidente à candidatura.</p><p>O Tribunal Regional Eleitoral do Distrito Federal (TRE-DF) autorizou, nesta terça-feira, 22, a veiculação de uma propaganda eleitoral da candidata ao Senado Michelle Bolsonaro (PL-DF) que exibe imagens do ex-presidente Jair Bolsonaro (PL). O órgão voltou atrás de decisão anterior, em que havia determinado a retirada do material do ar.</p><p>Na ocasião, o argumento foi que a peça poderia transmitir ao eleitorado a ideia de apoio do ex-presidente à candidatura. Naquele entendimento inicial, publicado na quinta-feira 17, a participação de Bolsonaro contrariava a determinação do Supremo Tribunal Federal (STF) que restringia manifestações eleitorais do ex-presidente, inclusive por meio de terceiros.</p><h2>Desdobramentos</h2><p>A primeira representação havia sido apresentada pela também candidata ao Senado Erika Kokay (PT-DF), que solicitava a suspensão da propaganda sob pena de multa diária de R$ 5 mil. A defesa de Michelle contestou a determinação.</p><p>Depois do pedido da defesa, o juiz auxiliar Rafael Moreira Mota reconsiderou a decisão. Passou a afirmar que a propaganda está centrada em uma declaração feita pela própria Michelle, o que não permite concluir que houve tentativa de induzir os eleitores.</p><p>Segundo Mota, Michelle e o ex-presidente fazem parte do mesmo grupo político, o que não é motivo, por si só, para que a presença de Bolsonaro na propaganda seja considerada uma interferência ilegítima na escolha do eleitor.</p><p>Leia mais: “Michelle lamenta morte de Rick: ‘Eu e Bolsonaro seremos sempre fãs'”</p><p>A decisão do STF, na avaliação do magistrado, não proíbe o uso do nome nem da imagem de Bolsonaro em peças eleitorais. O entendimento coincide com a posição do Ministério Público Eleitoral (MPE), que também defendeu a rejeição da ação.</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
         "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/toffoli-lidera-rejeicao-entre-ministros-do-stf-mostra-atlasintel/",
+        "fonteUrl": "https://revistaoeste.com/politica/entenda-a-decisao-que-libera-propaganda-de-michelle-com-imagem-de-bolsonaro/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -211,48 +535,104 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Letícia Alves nasceu em Fortaleza e se formou em jornalismo na Universidade Federal do Ceará. Atuou no jornal O Povo, Poder360, Brasil sem Medo e Gazeta do Povo. Atualmente, é repórter na Revista Oeste."
+            "resposta": "Formado em jornalismo pela Cásper Líbero, tem curso de especialização em teoria da história, pela Universidade de São Paulo e em economia e finanças pelo Instituto Brasileiro de Economia e Finanças. Atuou no Jornal do Brasil, O Estado de S. Paulo e portal R7, entre outros, tendo feito coberturas fora do país. Foi também assessor de imprensa do Consulado de I"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Uma pesquisa AtlasIntel/Estadão, divulgada em 22 de setembro de 2026, revela que Dias Toffoli é o ministro do Supremo Tribunal Federal (STF) com a maior rejeição, atingindo 79%. Kassio Nunes Marques tem 63% de rejeição, enquanto Gilmar Mendes e Alexandre de Moraes apresentam 59% cada. Edson Fachin tem 54% de rejeição. André Mendonça e Cármen Lúcia possuem os"
+            "resposta": "O Tribunal Regional Eleitoral do Distrito Federal (TRE-DF) autorizou, nesta terça-feira, 22,, a veiculação de uma propaganda eleitoral da candidata ao Senado Michelle Bolsonaro (PL-DF), que inclui imagens do ex-presidente Jair Bolsonaro (PL). A decisão reverte uma determinação anterior que havia solicitado a retirada do material, sob a alegação de que poderi"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Pesquisa AtlasIntel/Estadão divulgada nesta terça-feira, 22, mostra Dias Toffoli como o ministro com maior rejeição no Supremo Tribunal Federal (STF). O índice chega a 79%."
+            "resposta": "O Tribunal Regional Eleitoral do Distrito Federal (TRE-DF) autorizou, nesta terça-feira, 22, a veiculação de uma propaganda eleitoral da candidata ao Senado Michelle Bolsonaro (PL-DF) que exibe imagens do ex-presidente Jair Bolsonaro (PL). O órgão voltou atrás de decisão anterior, em que havia determinado a retirada do material do ar."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Já Kassio Nunes Marques registra 63% de rejeição. Gilmar Mendes e Alexandre de Moraes aparecem com 59% cada um. Edson Fachin, por sua vez, tem 54%."
+            "resposta": "Na ocasião, o argumento foi que a peça poderia transmitir ao eleitorado a ideia de apoio do ex-presidente à candidatura. Naquele entendimento inicial, publicado na quinta-feira 17, a participação de Bolsonaro contrariava a determinação do Supremo Tribunal Federal (STF) que restringia manifestações eleitorais do ex-presidente, inclusive por meio de terceiros."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "André Mendonça e Cármen Lúcia possuem os maiores índices de imagem positiva, com 47% cada um. A rejeição chega a 48% para Mendonça e a 38% para Cármen Lúcia. Ela é a única entre os dez ministros com aprovação superior à rejeição."
+            "resposta": "A primeira representação havia sido apresentada pela também candidata ao Senado Erika Kokay (PT-DF), que solicitava a suspensão da propaganda sob pena de multa diária de R$ 5 mil. A defesa de Michelle contestou a determinação."
           }
         ]
       }
     },
     {
-      "id": "f96cb9ab912e7a68",
-      "titulo": "36% veem governo Lula como principal responsável pela disseminação das bets",
+      "id": "edd1e75286d0f424",
+      "titulo": "Atlas/Estadão: 81% dos brasileiros não confiam no Congresso Nacional",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/36-veem-governo-lula-como-principal-responsavel-pela-disseminacao-das-bets/",
-      "dataFonte": "2026-09-23T10:40:00.000Z",
-      "resumoFonte": "Trinta e seis por cento dos brasileiros apontam o governo do presidente Luiz Inácio Lula da Silva como o principal responsável pela disseminação das apostas esportivas on-line, as bets , no país. O dado consta de pesquisa AtlasIntel divulgada nesta quarta-feira, 23. Na pergunta “Na sua opinião, quem foi o principal responsável pela disseminação das…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/06/Lula-4.jpg.webp",
-      "descobertaEm": "2026-09-23T11:44:52.400Z",
+      "urlFonte": "https://revistaoeste.com/politica/atlas-estadao-81-dos-brasileiros-nao-confiam-no-congresso-nacional/",
+      "dataFonte": "2026-09-23T17:02:25.000Z",
+      "resumoFonte": "O Congresso Nacional aparece como a instituição que mais desperta desconfiança entre os brasileiros, segundo a pesquisa Atlas/Estadão divulgada nesta terça-feira, 22. Ao todo, 81% dos entrevistados afirmam não confiar no Legislativo federal . Apenas 8% dizem confiar na instituição. + Entenda o que é Política em Oeste O resultado representa uma…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2024/07/52232492084_af532418cf_o.jpg.webp",
+      "descobertaEm": "2026-09-23T17:08:47.777Z",
       "reportagem": {
-        "titulo": "36% veem governo Lula como principal responsável pela disseminação das bets",
-        "slug": "36-veem-governo-lula-como-principal-responsavel-pela-disseminacao-das-bets",
+        "titulo": "Atlas/Estadão: 81% dos brasileiros não confiam no Congresso Nacional",
+        "slug": "atlas-estadao-81-dos-brasileiros-nao-confiam-no-congresso-nacional",
         "categoria": "Política Nacional",
         "data": "2026-09-23",
-        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/06/Lula-4.jpg.webp",
-        "resumo": "Pesquisa Atlas/Bloomberg mostra governo Bolsonaro em 2º lugar, com 25,4%; Congresso é citado por 16,5% dos entrevistados",
-        "conteudo": "<p>Formada em jornalismo pela Universidade Veiga de Almeida e com pós-graduação em mercado financeiro e de capitais pela Pontifícia Universidade Católica de Minas Gerais. Passou pelo TradeNews antes de se tornar repórter da Revista Oeste.</p><h2>Contexto</h2><p>Uma pesquisa da AtlasIntel, divulgada em 23 de setembro de 2026, revela que 36% dos brasileiros acreditam que o governo do presidente Luiz Inácio Lula da Silva é o principal responsável pela disseminação das apostas esportivas online no país. O governo Jair Bolsonaro foi citado por 25,4% dos entrevistados, enquanto 16,5% atribuíram a responsabilidade ao Congresso Nacional.</p><p>Trinta e seis por cento dos brasileiros apontam o governo do presidente Luiz Inácio Lula da Silva como o principal responsável pela disseminação das apostas esportivas on-line, as bets , no país. O dado consta de pesquisa AtlasIntel divulgada nesta quarta-feira, 23.</p><p>Na pergunta “Na sua opinião, quem foi o principal responsável pela disseminação das apostas on-line ( bets ) no Brasil?”, 25,4% dos entrevistados atribuíram a responsabilidade ao governo Jair Bolsonaro. O Congresso Nacional foi citado por 16,5%.</p><h2>Desdobramentos</h2><p>O Supremo Tribunal Federal foi apontado por 0,7% dos participantes. Outros 6,4% responderam “nenhum”, enquanto 15% disseram não saber.</p><p>O levantamento foi realizado entre 17 e 22 de setembro e ouviu 5.015 pessoas da população adulta brasileira. A pesquisa utilizou o método de recrutamento digital aleatório (Atlas RDR), com entrevistas realizadas durante a navegação na internet em diferentes dispositivos.</p><p>Segundo a metodologia apresentada pela AtlasIntel, a amostra foi pós-estratificada segundo sexo, faixa etária, escolaridade, renda, região e comportamento eleitoral anterior, com o objetivo de aproximá-la do perfil da população adulta brasileira.</p><p>A margem de erro estimada é de 1 ponto porcentual, para mais ou para menos, com nível de confiança de 95%. O levantamento foi financiado pela Bloomberg e está registrado no Tribunal Superior Eleitoral sob o número BR-04739/2026.</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2024/07/52232492084_af532418cf_o.jpg.webp",
+        "resumo": "Levantamento registra ainda 61% de desconfiança no STF e mostra polícias entre as instituições mais confiáveis do país; veja números",
+        "conteudo": "<p>Formado em jornalismo pela Faculdade Cásper Líbero, escreve sobre política, esportes e internacional. Antes de fazer parte da Revista Oeste, colaborou na Assembleia Legislativa do Estado de São Paulo e no Sistema Brasileiro de Televisão (SBT).</p><h2>Contexto</h2><p>Uma pesquisa Atlas/Estadão, divulgada nesta terça-feira, 22, revelou que 81% dos brasileiros não confiam no Congresso Nacional, um aumento em relação a janeiro de 2023, quando 57% expressavam desconfiança. A confiança no Legislativo caiu de 24% para 8% no mesmo período. O Supremo Tribunal Federal (STF) também apresenta altos índices de desconfiança, com cerca de 60% dos entrevistados sem confiança na Corte.</p><p>O Congresso Nacional aparece como a instituição que mais desperta desconfiança entre os brasileiros, segundo a pesquisa Atlas/Estadão divulgada nesta terça-feira, 22. Ao todo, 81% dos entrevistados afirmam não confiar no Legislativo federal . Apenas 8% dizem confiar na instituição.</p><p>O resultado representa uma piora em relação ao início da série histórica da Atlas, em janeiro de 2023. Naquele período, 57% dos entrevistados afirmavam não confiar no Congresso. O índice chegou a 86% em março deste ano e recuou para 81% no levantamento mais recente. No mesmo intervalo, a parcela que declarava confiança caiu de 24% para 8%.</p><h2>Desdobramentos</h2><p>A pesquisa avaliou a percepção dos brasileiros sobre 13 instituições. O Supremo Tribunal Federal (STF) aparece na segunda posição entre aquelas que mais despertam desconfiança. Cerca de seis de cada dez entrevistados afirmam não confiar na Suprema Corte.</p><p>Yuri Sanches, líder de análise política da AtlasIntel, relacionou a piora na percepção sobre o Congresso às investigações que atingiram parlamentares. Entre os casos citados estão apurações sobre a destinação de emendas e sobre possíveis relações com Daniel Vorcaro, ex-dono do Banco Master.</p><p>Segundo Sanches, existe uma percepção de que congressistas priorizam interesses corporativos em detrimento de pautas consideradas de interesse da população.</p><p>No caso do STF, o analista afirmou que o nível de desconfiança também alcançou um patamar elevado. Para ele, o resultado está relacionado às revelações que envolvem ministros da Corte e o ex-banqueiro Daniel Vorcaro.</p><p>Sanches afirmou que novos avanços nas investigações da Polícia Federal podem prolongar essa percepção negativa. Na avaliação dele, a baixa confiança no Congresso e no STF favorece o surgimento de candidaturas com discurso antissistema e aumenta a atenção sobre a eleição para o Senado.</p><p>Leia mais: “O retrato do Brasil” , artigo de Ana Paula Henkel publicado na Edição 340 da Revista Oeste</p><p>Enquanto Congresso e STF registram os maiores índices de desconfiança, as Polícias aparecem entre as instituições com maior confiança. A Polícia Civil registra 60%; a Polícia Federal , 58%; e a Polícia Militar, 56%.</p><p>O levantamento ouviu 1.852 brasileiros entre 17 e 21 de setembro, por meio de recrutamento digital aleatório. A margem de erro é de 2 pontos porcentuais, para mais ou para menos, com nível de confiança de 95%.</p>",
         "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/36-veem-governo-lula-como-principal-responsavel-pela-disseminacao-das-bets/",
+        "fonteUrl": "https://revistaoeste.com/politica/atlas-estadao-81-dos-brasileiros-nao-confiam-no-congresso-nacional/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Formado em jornalismo pela Faculdade Cásper Líbero, escreve sobre política, esportes e internacional. Antes de fazer parte da Revista Oeste, colaborou na Assembleia Legislativa do Estado de São Paulo e no Sistema Brasileiro de Televisão (SBT)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Uma pesquisa Atlas/Estadão, divulgada nesta terça-feira, 22, revelou que 81% dos brasileiros não confiam no Congresso Nacional, um aumento em relação a janeiro de 2023, quando 57% expressavam desconfiança. A confiança no Legislativo caiu de 24% para 8% no mesmo período. O Supremo Tribunal Federal (STF) também apresenta altos índices de desconfiança, com cerc"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O Congresso Nacional aparece como a instituição que mais desperta desconfiança entre os brasileiros, segundo a pesquisa Atlas/Estadão divulgada nesta terça-feira, 22. Ao todo, 81% dos entrevistados afirmam não confiar no Legislativo federal . Apenas 8% dizem confiar na instituição."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O resultado representa uma piora em relação ao início da série histórica da Atlas, em janeiro de 2023. Naquele período, 57% dos entrevistados afirmavam não confiar no Congresso. O índice chegou a 86% em março deste ano e recuou para 81% no levantamento mais recente. No mesmo intervalo, a parcela que declarava confiança caiu de 24% para 8%."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A pesquisa avaliou a percepção dos brasileiros sobre 13 instituições. O Supremo Tribunal Federal (STF) aparece na segunda posição entre aquelas que mais despertam desconfiança. Cerca de seis de cada dez entrevistados afirmam não confiar na Suprema Corte."
+          }
+        ]
+      }
+    },
+    {
+      "id": "0a6fcc46c2aa975c",
+      "titulo": "MPE pede rejeição de recurso de Arruda no TSE",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/mpe-pede-rejeicao-de-recurso-de-arruda-no-tse/",
+      "dataFonte": "2026-09-23T16:22:32.000Z",
+      "resumoFonte": "O Ministério Público Eleitoral (MPE) se manifestou pelo indeferimento do recurso de José Roberto Arruda (PSD) contra a decisão que negou o registro de sua candidatura ao governo do Distrito Federal nas eleições de 2026. O parecer foi apresentado nesta terça-feira, 22, ao Tribunal Superior Eleitoral (TSE) pelo vice-procurador-geral Eleitoral,…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2022/05/929622-arruda0013.jpg.webp",
+      "descobertaEm": "2026-09-23T17:08:47.777Z",
+      "reportagem": {
+        "titulo": "MPE pede rejeição de recurso de Arruda no TSE",
+        "slug": "mpe-pede-rejeicao-de-recurso-de-arruda-no-tse",
+        "categoria": "Política Nacional",
+        "data": "2026-09-23",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2022/05/929622-arruda0013.jpg.webp",
+        "resumo": "Vice-procurador-geral Eleitoral sustenta manutenção da negativa de registro da candidatura a governador do DF",
+        "conteudo": "<p>Formada em jornalismo pela Universidade Veiga de Almeida e com pós-graduação em mercado financeiro e de capitais pela Pontifícia Universidade Católica de Minas Gerais. Passou pelo TradeNews antes de se tornar repórter da Revista Oeste.</p><h2>Contexto</h2><p>O Ministério Público Eleitoral (MPE) manifestou-se pelo indeferimento do recurso de José Roberto Arruda (PSD) contra a negativa de registro de sua candidatura ao governo do Distrito Federal nas eleições de 2026. O parecer, apresentado ao Tribunal Superior Eleitoral (TSE) em 22 de setembro de 2026, rejeitou a argumentação da defesa sobre a flexibilização da Lei da Ficha Limpa.</p><p>O Ministério Público Eleitoral (MPE) se manifestou pelo indeferimento do recurso de José Roberto Arruda (PSD) contra a decisão que negou o registro de sua candidatura ao governo do Distrito Federal nas eleições de 2026. O parecer foi apresentado nesta terça-feira, 22, ao Tribunal Superior Eleitoral (TSE) pelo vice-procurador-geral Eleitoral, Alexandre Espinosa Bravo Barbosa.</p><p>O processo é relatado pelo ministro Dias Toffoli. No documento, Barbosa rejeitou o argumento da defesa de que a flexibilização da Lei da Ficha Limpa teria tornado Arruda elegível para a disputa deste ano.</p><h2>Desdobramentos</h2><p>A defesa sustenta que o prazo de inelegibilidade deveria ser contado a partir da primeira condenação colegiada do ex-governador, em 2014. Segundo o MPE, os efeitos dessa condenação terminaram em julho de 2022, antes da mudança nas regras da Lei da Ficha Limpa.</p><p>Arruda foi condenado em seis processos por improbidade administrativa. A defesa argumenta que as ações possuem conexão e que, por isso, o prazo de inelegibilidade deveria considerar a primeira condenação.</p><p>Barbosa rejeitou a tese. Para o vice-procurador-geral, a existência de elementos semelhantes em alguns processos não é suficiente para estabelecer uma relação jurídica entre todos eles.</p><p>“Ainda que eventualmente haja a coincidência do elemento ‘compra de apoio político’ em duas das ações, nada ampara a tese de que exista comunhão de causa de pedir entre todas elas a ponto de autorizar a aplicação do art. 55, caput , do CPC”, afirmou.</p><p>O dispositivo citado trata da conexão entre processos. De acordo com o MPE, se fosse considerada a segunda condenação colegiada, de dezembro de 2018, o prazo de 12 anos de inelegibilidade terminaria somente em dezembro de 2030, caso a conexão entre os processos fosse reconhecida.</p><p>O parecer também trata do recurso de Cláudio Ferreira Domingues, autor de uma das impugnações à candidatura de Arruda. Barbosa afirmou não haver crítica ao acórdão do Tribunal Regional Eleitoral do Distrito Federal (TRE-DF) que permitiu a continuidade dos atos de campanha e a presença do nome de Arruda na urna.</p><p>A decisão do TRE-DF, contudo, condicionou a validade dos votos ao eventual deferimento do registro da candidatura por uma instância superior.</p><p>Em nota, Arruda afirmou que a manifestação do MPE repete argumentos já apresentados. “Nada mais natural do que o MP defender a própria tese. Mas todos esses pontos já foram contestados pela minha defesa. Registrei minha candidatura absolutamente dentro da lei vigente. Estou elegível e confio na Justiça”, declarou.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/mpe-pede-rejeicao-de-recurso-de-arruda-no-tse/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -271,44 +651,44 @@
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Uma pesquisa da AtlasIntel, divulgada em 23 de setembro de 2026, revela que 36% dos brasileiros acreditam que o governo do presidente Luiz Inácio Lula da Silva é o principal responsável pela disseminação das apostas esportivas online no país. O governo Jair Bolsonaro foi citado por 25,4% dos entrevistados, enquanto 16,5% atribuíram a responsabilidade ao Cong"
+            "resposta": "O Ministério Público Eleitoral (MPE) manifestou-se pelo indeferimento do recurso de José Roberto Arruda (PSD) contra a negativa de registro de sua candidatura ao governo do Distrito Federal nas eleições de 2026. O parecer, apresentado ao Tribunal Superior Eleitoral (TSE) em 22 de setembro de 2026, rejeitou a argumentação da defesa sobre a flexibilização da L"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Trinta e seis por cento dos brasileiros apontam o governo do presidente Luiz Inácio Lula da Silva como o principal responsável pela disseminação das apostas esportivas on-line, as bets , no país. O dado consta de pesquisa AtlasIntel divulgada nesta quarta-feira, 23."
+            "resposta": "O Ministério Público Eleitoral (MPE) se manifestou pelo indeferimento do recurso de José Roberto Arruda (PSD) contra a decisão que negou o registro de sua candidatura ao governo do Distrito Federal nas eleições de 2026. O parecer foi apresentado nesta terça-feira, 22, ao Tribunal Superior Eleitoral (TSE) pelo vice-procurador-geral Eleitoral, Alexandre Espino"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Na pergunta “Na sua opinião, quem foi o principal responsável pela disseminação das apostas on-line ( bets ) no Brasil?”, 25,4% dos entrevistados atribuíram a responsabilidade ao governo Jair Bolsonaro. O Congresso Nacional foi citado por 16,5%."
+            "resposta": "O processo é relatado pelo ministro Dias Toffoli. No documento, Barbosa rejeitou o argumento da defesa de que a flexibilização da Lei da Ficha Limpa teria tornado Arruda elegível para a disputa deste ano."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O Supremo Tribunal Federal foi apontado por 0,7% dos participantes. Outros 6,4% responderam “nenhum”, enquanto 15% disseram não saber."
+            "resposta": "A defesa sustenta que o prazo de inelegibilidade deveria ser contado a partir da primeira condenação colegiada do ex-governador, em 2014. Segundo o MPE, os efeitos dessa condenação terminaram em julho de 2022, antes da mudança nas regras da Lei da Ficha Limpa."
           }
         ]
       }
     },
     {
-      "id": "2cb310f25dcfc4f3",
-      "titulo": "Desaprovação de Lula chega a 53%, aponta Atlas/Bloomberg",
+      "id": "2516a9032f8948a8",
+      "titulo": "Na ONU, presidente do Paraguai defende volta da Venezuela ao Mercosul",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/desaprovacao-de-lula-chega-a-53-aponta-atlas-bloomberg/",
-      "dataFonte": "2026-09-23T10:35:00.000Z",
-      "resumoFonte": "A desaprovação do presidente Luiz Inácio Lula da Silva (PT) chegou a 53%, segundo pesquisa Atlas/Bloomberg divulgada nesta quarta-feira, 23. O levantamento mostra que 45,4% dos brasileiros aprovam o desempenho do petista, enquanto 1,6% não soube responder. Em relação à pesquisa anterior, a desaprovação recuou de 54% para 53%, enquanto a aprovação…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/11/AGF20250930012.jpg.webp",
-      "descobertaEm": "2026-09-23T11:44:52.400Z",
+      "urlFonte": "https://revistaoeste.com/mundo/na-onu-presidente-do-paraguai-defende-volta-da-venezuela-ao-mercosul/",
+      "dataFonte": "2026-09-23T16:19:51.000Z",
+      "resumoFonte": "Em discurso na Assembleia-Geral da Organização das Nações Unidas (ONU) , nesta quarta-feira, 23, o presidente do Paraguai, Santiago Peña , de centro-direita, defendeu a reintegração da Venezuela ao Mercosul, bloco econômico sul-americano criado no início da década de 1990 e que conta com a participação do Brasil. A Venezuela foi suspensa do…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/santiago-pena-paraguai-onu.jpg.webp",
+      "descobertaEm": "2026-09-23T17:08:47.777Z",
       "reportagem": {
-        "titulo": "Desaprovação de Lula chega a 53%, aponta Atlas/Bloomberg",
-        "slug": "desaprovacao-de-lula-chega-a-53-aponta-atlas-bloomberg",
+        "titulo": "Na ONU, presidente do Paraguai defende volta da Venezuela ao Mercosul",
+        "slug": "na-onu-presidente-do-paraguai-defende-volta-da-venezuela-ao-mercosul",
         "categoria": "Política Nacional",
         "data": "2026-09-23",
-        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/11/AGF20250930012.jpg.webp",
-        "resumo": "51% dos brasileiros avaliam o governo como ruim ou péssimo; imagem negativa do presidente também supera a positiva",
-        "conteudo": "<p>Formado em jornalismo pela Universidade Estadual Paulista Júlio de Mesquita Filho. Repórter da Revista Oeste desde setembro de 2024.</p><h2>Contexto</h2><p>A desaprovação do presidente Luiz Inácio Lula da Silva (PT) chegou a 53%, segundo pesquisa Atlas/Bloomberg divulgada nesta quarta-feira, 23. O levantamento mostra que 45,4% dos brasileiros aprovam o desempenho do petista, enquanto 1,6% não soube responder.</p><p>Em relação à pesquisa anterior, a desaprovação recuou de 54% para 53%, enquanto a aprovação permaneceu em aproximadamente 45%. A diferença entre os dois índices é de 7,6 pontos porcentuais.</p><p>A avaliação do governo também registra mais opiniões negativas do que positivas. Para 50,9% dos entrevistados, a gestão de Lula é ruim ou péssima. Outros 40,4% consideram o governo ótimo ou bom, enquanto 8,7% o classificam como regular.</p><h2>Desdobramentos</h2><p>Na comparação com o levantamento anterior, a avaliação ruim ou péssima permaneceu em aproximadamente 51%. Já a avaliação ótima ou boa passou de 41% para 40%.</p><p>A pesquisa Atlas/Bloomberg também mediu a percepção dos brasileiros sobre integrantes do governo federal.</p><p>Lula tem imagem negativa para 53% dos entrevistados, enquanto 46% afirmam ter uma percepção positiva do presidente. Outros 2% não manifestaram opinião.</p><p>O vice-presidente Geraldo Alckmin (PSB) registra 51% de imagem negativa e 42% de positiva. Outros 7% não souberam responder.</p><p>Já a primeira-dama Rosângela da Silva, a Janja , tem imagem negativa para 55% dos entrevistados, ante 36% que manifestaram uma percepção positiva. Outros 8% não souberam responder.</p><p>A AtlasIntel entrevistou 5 mil pessoas entre 17 e 22 de setembro, por meio de recrutamento digital aleatório. A pesquisa tem margem de erro de 1 ponto porcentual, para mais ou para menos.</p><p>Leia também: “O PT destruiu o Brasil… novamente!” , artigo de Rodrigo Constantino publicado na Edição 326 da Revista Oeste</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p>",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/santiago-pena-paraguai-onu.jpg.webp",
+        "resumo": "Santiago Peña defendeu a reintegração do país governado por Delcy Rodríguez ao bloco, do qual foi suspenso em 2016. Saiba mais",
+        "conteudo": "<p>Jornalista formado pela Cásper Líbero, é pós-graduado em marketing político e propaganda eleitoral pela USP. Trabalhou no site da ESPN, pelo qual foi à China para cobrir a Olimpíada de Pequim, em 2008. Também teve passagens por Metrópoles, InfoMoney, O Antagonista, iG e Terra, cobrindo política e economia. Como assessor de imprensa, atuou na Câmara dos Deputados e no Ministério da Cultura. É autor dos livros “Dias: a Vida do Maior Jogador do São Paulo nos Anos 1960” e “20 Jogos Eternos do São Paulo”.</p><h2>Contexto</h2><p>Em discurso na Assembleia-Geral da ONU em 23 de setembro de 2026, o presidente do Paraguai, Santiago Peña, defendeu a reintegração da Venezuela ao Mercosul, bloco do qual foi suspensa em 2016 por não ser mais uma democracia. A suspensão ocorreu durante o governo de Nicolás Maduro, que descumpriu normas do bloco. Atualmente, a Venezuela é governada por Delcy Rodríguez, que assumiu em janeiro, depois da captura de Maduro pelas forças dos EUA.</p><p>Em discurso na Assembleia-Geral da Organização das Nações Unidas (ONU) , nesta quarta-feira, 23, o presidente do Paraguai, Santiago Peña , de centro-direita, defendeu a reintegração da Venezuela ao Mercosul, bloco econômico sul-americano criado no início da década de 1990 e que conta com a participação do Brasil.</p><p>A Venezuela foi suspensa do Mercosul em 2016, por tempo indeterminado, por não ser mais uma democracia. De acordo com os países membros, o país que, à época, era governado pelo ditador Nicolás Maduro , descumpriu normas do bloco.</p><h2>Desdobramentos</h2><p>“Não fui à Venezuela para validar um regime, muito pelo contrário”, afirmou Peña, que recentemente esteve em Caracas. “O Paraguai acredita que o povo venezuelano merece a democracia. Durante 25 anos, os líderes sul-americanos passaram o tempo proferindo belas palavras líricas sobre a Venezuela, sem fazer nada pelo povo venezuelano.”</p><p>No discurso, o líder paraguaio afirmou ainda que pretendeu “dar um segundo passo” ao visitar a Venezuela depois da captura de Maduro e demonstrou confiança em uma “transição” política do país rumo a “uma democracia pluralista”.</p><p>O governo do Paraguai já havia consultado o Brasil a respeito da possibilidade de convidar a Venezuela para participar da Cúpula do Mercosul, realizada em junho, em Assunção – o que acabou não ocorrendo.</p><p>Leia também: “Lula critica tarifaço e faz campanha eleitoral na ONU: ‘Brasil escolherá entre democracia e negacionismo”</p><p>Atualmente, a Venezuela é governada por Delcy Rodríguez , que assumiu o cargo em janeiro deste ano, depois da captura de Maduro pelas forças militares dos Estados Unidos. Desde então, a nova chefe de Estado vem mantendo uma relação política alinhada ao presidente dos EUA, Donald Trump .</p><p>Maduro está preso no Centro de Detenção Metropolitano do Brooklyn, em Nova York, assim como sua esposa, Cilia Flores. O ex-ditador venezuelano é acusado pela Justiça norte-americana de narcoterrorismo, conspiração e participação em organização criminosa. Seu julgamento está previsto para 2027.</p><p>Atualmente, o Mercosul tem como membros plenos Brasil, Argentina, Paraguai, Uruguai e Bolívia. Além disso, o bloco conta com sete países associados: Chile, Colômbia, Equador, Peru, Guiana, Suriname e Panamá.</p><p>Leia também: “Venezuelanos protestam contra Delcy Rodríguez na ONU: ‘Ela não nos representa'”</p>",
         "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/desaprovacao-de-lula-chega-a-53-aponta-atlas-bloomberg/",
+        "fonteUrl": "https://revistaoeste.com/mundo/na-onu-presidente-do-paraguai-defende-volta-da-venezuela-ao-mercosul/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -323,377 +703,41 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Formado em jornalismo pela Universidade Estadual Paulista Júlio de Mesquita Filho. Repórter da Revista Oeste desde setembro de 2024."
+            "resposta": "Jornalista formado pela Cásper Líbero, é pós-graduado em marketing político e propaganda eleitoral pela USP. Trabalhou no site da ESPN, pelo qual foi à China para cobrir a Olimpíada de Pequim, em 2008. Também teve passagens por Metrópoles, InfoMoney, O Antagonista, iG e Terra, cobrindo política e economia. Como assessor de imprensa, atuou na Câmara dos Deput"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A desaprovação do presidente Luiz Inácio Lula da Silva (PT) chegou a 53%, segundo pesquisa Atlas/Bloomberg divulgada nesta quarta-feira, 23. O levantamento mostra que 45,4% dos brasileiros aprovam o desempenho do petista, enquanto 1,6% não soube responder."
+            "resposta": "Em discurso na Assembleia-Geral da ONU em 23 de setembro de 2026, o presidente do Paraguai, Santiago Peña, defendeu a reintegração da Venezuela ao Mercosul, bloco do qual foi suspensa em 2016 por não ser mais uma democracia. A suspensão ocorreu durante o governo de Nicolás Maduro, que descumpriu normas do bloco. Atualmente, a Venezuela é governada por Delcy "
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Em relação à pesquisa anterior, a desaprovação recuou de 54% para 53%, enquanto a aprovação permaneceu em aproximadamente 45%. A diferença entre os dois índices é de 7,6 pontos porcentuais."
+            "resposta": "Em discurso na Assembleia-Geral da Organização das Nações Unidas (ONU) , nesta quarta-feira, 23, o presidente do Paraguai, Santiago Peña , de centro-direita, defendeu a reintegração da Venezuela ao Mercosul, bloco econômico sul-americano criado no início da década de 1990 e que conta com a participação do Brasil."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A avaliação do governo também registra mais opiniões negativas do que positivas. Para 50,9% dos entrevistados, a gestão de Lula é ruim ou péssima. Outros 40,4% consideram o governo ótimo ou bom, enquanto 8,7% o classificam como regular."
+            "resposta": "A Venezuela foi suspensa do Mercosul em 2016, por tempo indeterminado, por não ser mais uma democracia. De acordo com os países membros, o país que, à época, era governado pelo ditador Nicolás Maduro , descumpriu normas do bloco."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Na comparação com o levantamento anterior, a avaliação ruim ou péssima permaneceu em aproximadamente 51%. Já a avaliação ótima ou boa passou de 41% para 40%."
+            "resposta": "“Não fui à Venezuela para validar um regime, muito pelo contrário”, afirmou Peña, que recentemente esteve em Caracas. “O Paraguai acredita que o povo venezuelano merece a democracia. Durante 25 anos, os líderes sul-americanos passaram o tempo proferindo belas palavras líricas sobre a Venezuela, sem fazer nada pelo povo venezuelano.”"
           }
         ]
       }
     },
     {
-      "id": "c64a237827957ea9",
-      "titulo": "Discurso de Lula na ONU contrasta com déficit na fiscalização do trabalho escravo no Brasil",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/politica/discurso-de-lula-na-onu-contrasta-com-deficit-na-fiscalizacao-do-trabalho-escravo-no-brasil/",
-      "dataFonte": "2026-09-23T11:30:39.000Z",
-      "resumoFonte": "Enquanto presidente celebra avanços diplomáticos em Nova York, relatório das Nações Unidas cobra recomposição do quadro de auditores-fiscais no país",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/GettyImages-2296029782.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-23T11:44:52.400Z"
-    },
-    {
-      "id": "8e9c0ac80e089065",
-      "titulo": "Legisladores de 13 países pedem fim dos ataques dos EUA a embarcações nas Américas",
+      "id": "49fd4707f19bee72",
+      "titulo": "Corregedoria do CNJ cancela R$ 4,7 bilhões em precatórios de empresas que venderam crédito ao Banco Master",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/mundo/noticia/2026/09/23/legisladores-de-13-paises-pedem-fim-dos-ataques-dos-eua-a-embarcacoes-nas-americas.ghtml",
-      "dataFonte": "2026-09-23T11:26:30.000Z",
-      "resumoFonte": "EUA atacam barco na região do Caribe; explosão deixou quatro mortos, segundo as Forças Armadas Reprodução/X/@Southcom Um grupo de parlamentares de 13 países das Américas divulgou uma declaração conjunta em que pede o fim dos ataques realizados pelos Estados Unidos contra pequenas embarcações no Caribe e no Pacífico oriental. A manifestação ocorre…",
-      "imagem": "https://s2-g1.glbimg.com/ZCmICQT3wch3TAyQTDd8TgJgI24=/1422x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/z/m/H7xn4HSKWiQ0ZWSpePHw/barco.png",
-      "descobertaEm": "2026-09-23T11:44:52.400Z",
-      "reportagem": {
-        "titulo": "Países pedem fim de ataques dos EUA a embarcações nas Américas | G1",
-        "slug": "paises-pedem-fim-de-ataques-dos-eua-a-embarcacoes-nas-americas-g1",
-        "categoria": "Política Nacional",
-        "data": "2026-09-23",
-        "imagem": "https://s2-g1.glbimg.com/ZCmICQT3wch3TAyQTDd8TgJgI24=/1422x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/z/m/H7xn4HSKWiQ0ZWSpePHw/barco.png",
-        "resumo": "Declaração conjunta questiona a legalidade das operações no Caribe e no Pacífico e afirma que ataques já mataram ao menos 234 pessoas desde setembro de 2025.",
-        "conteudo": "<p>EUA atacam barco na região do Caribe; explosão deixou quatro mortos, segundo as Forças Armadas — Foto: Reprodução/X/@Southcom</p><h2>Contexto</h2><p>Um grupo de parlamentares de 13 países das Américas divulgou uma declaração conjunta em que pede o fim dos ataques realizados pelos Estados Unidos contra pequenas embarcações no Caribe e no Pacífico oriental.</p><p>A manifestação ocorre dias após os Estados Unidos afirmarem ter matado quatro pessoas em um ataque contra uma embarcação no mar do Caribe . Segundo o Comando Sul das Forças Armadas americanas, o barco estaria envolvido com o tráfico de drogas. Os militares, porém, não apresentaram evidências públicas de que a embarcação transportava drogas.</p><p>Mais de 70 legisladores assinam ao documento. Entre os signatários estão parlamentares dos Estados Unidos, Brasil, Colômbia, Argentina, Chile, Equador, Honduras, Uruguai, Canadá, Guatemala, México, Peru e Paraguai. Pelo Brasil, assinam a declaração as deputadas federais Luciene Cavalcante e Ana Pimentel.</p><h2>Desdobramentos</h2><p>O documento foi publicado após uma série de operações militares americanas que, segundo os signatários, já deixaram ao menos 234 mortos desde setembro de 2025.</p><p>Na declaração, os parlamentares afirmam que não há evidências de que os alvos dos ataques representassem uma ameaça iminente que justificasse o uso de força letal. Eles também dizem que as identidades da maioria das vítimas permanecem desconhecidas e que muitas famílias não têm acesso a meios seguros para obter informações ou buscar reparação.</p><p>Os signatários afirmam que acusações de envolvimento com o narcotráfico não afastam, por si só, direitos como o à vida e ao devido processo legal. Segundo eles, especialistas em direito, organizações de direitos humanos e integrantes e ex-integrantes das Forças Armadas dos EUA levantaram preocupações sobre a legalidade das operações e apontaram que elas poderiam configurar execuções extrajudiciais.</p><p>A declaração também questiona a eficácia da estratégia americana no combate ao tráfico de drogas. Os parlamentares afirmam que, segundo avaliações do próprio governo dos EUA citadas no documento, os ataques não teriam reduzido significativamente o fluxo de cocaína para o país. Eles também afirmam que a produção de cocaína na região não diminuiu.</p><p>O grupo critica ainda a possibilidade de ampliação das operações para alvos terrestres e manifesta preocupação com eventual participação de outros governos por meio de compartilhamento de inteligência, acesso a bases militares e apoio logístico.</p>",
-        "fonteNome": "g1 - Política",
-        "fonteUrl": "https://g1.globo.com/mundo/noticia/2026/09/23/legisladores-de-13-paises-pedem-fim-dos-ataques-dos-eua-a-embarcacoes-nas-americas.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "EUA atacam barco na região do Caribe; explosão deixou quatro mortos, segundo as Forças Armadas — Foto: Reprodução/X/@Southcom"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Um grupo de parlamentares de 13 países das Américas divulgou uma declaração conjunta em que pede o fim dos ataques realizados pelos Estados Unidos contra pequenas embarcações no Caribe e no Pacífico oriental."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A manifestação ocorre dias após os Estados Unidos afirmarem ter matado quatro pessoas em um ataque contra uma embarcação no mar do Caribe . Segundo o Comando Sul das Forças Armadas americanas, o barco estaria envolvido com o tráfico de drogas. Os militares, porém, não apresentaram evidências públicas de que a embarcação transportava drogas."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Mais de 70 legisladores assinam ao documento. Entre os signatários estão parlamentares dos Estados Unidos, Brasil, Colômbia, Argentina, Chile, Equador, Honduras, Uruguai, Canadá, Guatemala, México, Peru e Paraguai. Pelo Brasil, assinam a declaração as deputadas federais Luciene Cavalcante e Ana Pimentel."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O documento foi publicado após uma série de operações militares americanas que, segundo os signatários, já deixaram ao menos 234 mortos desde setembro de 2025."
-          }
-        ]
-      }
-    },
-    {
-      "id": "fd9067da666f932b",
-      "titulo": "Adriana Esteves revela quando começam as gravações de “Avenida Brasil 2”",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/pop/tv/adriana-esteves-revela-quando-comecam-as-gravacoes-de-avenida-brasil-2/",
-      "dataFonte": "2026-09-23T11:22:31.000Z",
-      "resumoFonte": "A continuação da trama de João Emanuel Carneiro tem previsão de estreia para janeiro de 2027, com o retorno de parte do elenco da novela original",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/adriana-esteves-e-murilo-benicio-voltam-ao-universo-de-avenida-brasil-no-conversa-com-bial-454e2265012f.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-23T11:44:52.400Z",
-      "reportagem": {
-        "titulo": "Adriana Esteves revela quando começam as gravações de \"Avenida Brasil 2\" | CNN Brasil",
-        "slug": "adriana-esteves-revela-quando-comecam-as-gravacoes-de-avenida-brasil-2-cnn-brasil",
-        "categoria": "Política Nacional",
-        "data": "2026-09-23",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/adriana-esteves-e-murilo-benicio-voltam-ao-universo-de-avenida-brasil-no-conversa-com-bial-454e2265012f.jpg?w=1200&h=630&crop=1",
-        "resumo": "A continuação da trama de João Emanuel Carneiro tem previsão de estreia para janeiro de 2027, com o retorno de parte do elenco da novela original",
-        "conteudo": "<p>Adriana Esteves , 56, e Murilo Benício , 55, revisitaram &quot;Avenida Brasil&quot; , trama de João Emanuel Carneiro, na noite da última terça-feira (22), durante o &quot;Conversa com Bial&quot;.</p><h2>Contexto</h2><p>Diretamente do sala fictícia da casa do então casal, Carminha e Tufão , os dois revelaram que as gravações da sequência começam em outubro e comentaram o desafio de encarar a continuação 14 anos mais tarde.</p><p>&quot;Eu fiquei com muito medo de não corresponder a expectativa do público e da nossa, da gente que fez. Eu tive medo, mas já transformei isso em coragem de se jogar&quot;, confessou Adriana.</p><p>&quot;Pânico&quot;, brincou Murilo. &quot;'Avenida Brasil' ocupa um espaço tão grande e tão carinhoso na cabeça das pessoas que se a gente voltar e não vingar parece que a gente vai estar manchando o que fizemos. Esse era o nosso medo&quot;, adicionou o ator.</p><h2>Desdobramentos</h2><p>Ainda no papo, a dupla abriu o jogo sobre o sentimento de reencontrar personagens que seguem vivos no imaginário do público.</p><p>&quot;Eu não consigo imaginar a Carminha hoje em dia. Sendo sincera. Mais uma vez eu acredito no texto do João e nessa equipe maravilhosa que fez a novela antes e vai estar nessa também. No elenco deslumbrante. Então é me jogar, com a cara e com a coragem&quot;, disse Esteves .</p><p>&quot;Desde a primeira [novela] eu tinha muito o Zeca Pagodinho na minha cabeça. O Tufão é aquele cara que venceu na vida e quer conforto. Não sai do Divino, fez a realeza dele...&quot;, refletiu Benício.</p><p>Os atores compartilharam ainda a importância da novela nas respectivas carreiras. &quot;Não importa o que eu faça nessa vida, provavelmente ela vai morrer como Carminha e eu como Tufão&quot;, garantiu ele.</p><p>&quot;É um encontro maravilhoso. É um presente gigantesco na vida, uma surpresa, um resgate de autoestima. É muito saber que você fazendo uma coisa que as pessoas adoram. Era uma novela que parecia feita junto com o público. Surgia uma ideia na rua, num restaurante, alguém comentaram, a gente levava para a direção e aquilo podia ser incorporado. Todo mundo fazia junto. Hoje, com a internet, isso poderia ser ainda mais intenso e gostoso&quot;, complementou a atriz.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/pop/tv/adriana-esteves-revela-quando-comecam-as-gravacoes-de-avenida-brasil-2/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Adriana Esteves , 56, e Murilo Benício , 55, revisitaram \"Avenida Brasil\" , trama de João Emanuel Carneiro, na noite da última terça-feira (22), durante o \"Conversa com Bial\"."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Diretamente do sala fictícia da casa do então casal, Carminha e Tufão , os dois revelaram que as gravações da sequência começam em outubro e comentaram o desafio de encarar a continuação 14 anos mais tarde."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "\"Eu fiquei com muito medo de não corresponder a expectativa do público e da nossa, da gente que fez. Eu tive medo, mas já transformei isso em coragem de se jogar\", confessou Adriana."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "\"Pânico\", brincou Murilo. \"'Avenida Brasil' ocupa um espaço tão grande e tão carinhoso na cabeça das pessoas que se a gente voltar e não vingar parece que a gente vai estar manchando o que fizemos. Esse era o nosso medo\", adicionou o ator."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Ainda no papo, a dupla abriu o jogo sobre o sentimento de reencontrar personagens que seguem vivos no imaginário do público."
-          }
-        ]
-      }
-    },
-    {
-      "id": "ffe36e01030c1df5",
-      "titulo": "Além do sabor: o que o mercado internacional exige da fruta brasileira",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/agro/alem-do-sabor-o-que-o-mercado-internacional-exige-da-fruta-brasileira/",
-      "dataFonte": "2026-09-23T11:18:33.000Z",
-      "resumoFonte": "Produtores chegam à Fruit Attraction Madrid atentos a novas demandas do mercado internacional, que vão além de qualidade e preço",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/limao-taihiti.jpeg?w=768&h=511&crop=1",
-      "descobertaEm": "2026-09-23T11:44:52.400Z",
-      "reportagem": {
-        "titulo": "Além do sabor: o que o mercado internacional exige da fruta brasileira | CNN Brasil",
-        "slug": "alem-do-sabor-o-que-o-mercado-internacional-exige-da-fruta-brasileira-cnn-brasil",
-        "categoria": "Política Nacional",
-        "data": "2026-09-23",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/limao-taihiti.jpeg?w=768&h=511&crop=1",
-        "resumo": "Produtores chegam à Fruit Attraction Madrid atentos a novas demandas do mercado internacional, que vão além de qualidade e preço",
-        "conteudo": "<p>Para acessar mercados internacionais estratégicos, as frutas brasileiras precisam atender a exigências que vão além da qualidade e do sabor.</p><h2>Contexto</h2><p>Produtores e exportadores são cada vez mais cobrados por rastreabilidade, sustentabilidade, segurança dos alimentos, regularidade no fornecimento, tecnologia e eficiência logística .</p><p>O Brasil se destaca entre os três maiores produtores mundiais de frutas, mas ainda ocupa uma posição menos relevante, em 23ª lugar, entre os fornecedores internacionais.</p><p>Para Waldyr Promicia, presidente da Abrafrutas (Associação Brasileira dos Produtores e Exportadores de Frutas e Derivados), ampliar a participação brasileira nas exportações depende da abertura de novos mercados e da adaptação dos produtores e exportadores às exigências dos compradores.</p><h2>Desdobramentos</h2><p>&quot;Somos um importante produtor, mas exportamos em 2025 cerca de U$ 1,5 bilhão, enquanto produtores menores, como o Chile, exportam US$ 10 bilhões. Precisamos continuar avançando na abertura de mercados&quot;, diz.</p><p>Segundo ele, a União Europeia é atualmente um dos principais destinos das frutas brasileiras, mas o mercado vem aumentando a cobrança sobre aspectos relacionados à produção, à segurança dos alimentos e à sustentabilidade.</p><p>Entre as mudanças observadas pelo setor está a maior importância dada às certificações e à rastreabilidade.</p><p>Segundo Promicia, certificações como a Global GAP, por exemplo, que atesta boas práticas agrícolas, eram facultativas, mas se tornaram obrigatórias.</p><p>A rastreabilidade também ganhou espaço ao longo da cadeia, com informações sobre a produção no campo, aplicação de produtos, beneficiamento, embalagem e transporte.</p><p>As exigências ambientais hoje já chegam inclusive às embalagens. Exportadores precisam fornecer informações sobre os materiais utilizados e comprovar que eles atendem às especificações de sustentabilidade.</p><p>Temas como estes serão discutidos por produtores e compradores durante a Fruit Attraction Madrid , uma das principais feiras internacionais de frutas e hortaliças, que acontece de 6 a 8 de outubro, na Espanha.</p><p>A presença brasileira ocorre por meio do Frutas do Brasil , projeto de internacionalização da Abrafrutas em parceria com a ApexBrasil (Agência Brasileira de Promoção de Exportações e Investimentos).</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/agro/alem-do-sabor-o-que-o-mercado-internacional-exige-da-fruta-brasileira/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Para acessar mercados internacionais estratégicos, as frutas brasileiras precisam atender a exigências que vão além da qualidade e do sabor."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Produtores e exportadores são cada vez mais cobrados por rastreabilidade, sustentabilidade, segurança dos alimentos, regularidade no fornecimento, tecnologia e eficiência logística ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O Brasil se destaca entre os três maiores produtores mundiais de frutas, mas ainda ocupa uma posição menos relevante, em 23ª lugar, entre os fornecedores internacionais."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Para Waldyr Promicia, presidente da Abrafrutas (Associação Brasileira dos Produtores e Exportadores de Frutas e Derivados), ampliar a participação brasileira nas exportações depende da abertura de novos mercados e da adaptação dos produtores e exportadores às exigências dos compradores."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "\"Somos um importante produtor, mas exportamos em 2025 cerca de U$ 1,5 bilhão, enquanto produtores menores, como o Chile, exportam US$ 10 bilhões. Precisamos continuar avançando na abertura de mercados\", diz."
-          }
-        ]
-      }
-    },
-    {
-      "id": "4c843e78758fccc6",
-      "titulo": "Brasil é 3º país com mais pets e setor prevê faturar R$ 81 bilhões em 2026",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/negocios/brasil-e-3o-pais-com-mais-pets-e-setor-preve-faturar-r-81-bilhoes-em-2026/",
-      "dataFonte": "2026-09-23T11:13:35.000Z",
-      "resumoFonte": "Mercado brasileiro faturou R$ 77,96 bi no ano passado e concentra 166,8 milhões de animais de estimação",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/beautiful-pet-portrait-small-dog-cat.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-23T11:44:52.400Z",
-      "reportagem": {
-        "titulo": "Brasil é 3º país com mais pets e setor prevê faturar R$ 81 bilhões em 2026 | CNN Brasil",
-        "slug": "brasil-e-3-pais-com-mais-pets-e-setor-preve-faturar-r-81-bilhoes-em-2026-cnn-brasil",
-        "categoria": "Política Nacional",
-        "data": "2026-09-23",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/beautiful-pet-portrait-small-dog-cat.jpg?w=1200&h=630&crop=1",
-        "resumo": "Mercado brasileiro faturou R$ 77,96 bi no ano passado e concentra 166,8 milhões de animais de estimação",
-        "conteudo": "<p>Após o mercado brasileiro de animais de estimação faturar R$ 77,96 bilhões em 2025, o Brasil, terceiro país com a maior população pet do mundo, projeta uma receita 4,35% maior em 2026, chegando a R$ 81 bilhões.</p><h2>Contexto</h2><p>Os dados fazem parte do estudo “ Faturamento e População Pet no Mundo – 2026 ”, elaborado pela Abempet (Associação Brasileira das Empresas do Setor de Animais de Estimação).</p><p>Ao detalhar a projeção para este ano, baseada no faturamento do primeiro semestre de 2026, o segmento de pet food (alimentos para animais de estimação) representa 52,8% do faturamento total, o equivalente a R$ 42,9 bilhões.</p><p>Na sequência aparece a venda de animais, que deve faturar R$ 8,9 bilhões e avançar cerca de 4,45% entre 2025 e 2026. Já o segmento Pet Vet deve registrar faturamento de R$ 8,6 bilhões, alta de 5,11%.</p><h2>Desdobramentos</h2><p>Entre os canais de acesso ao mercado, os pet shops pequenos e médios concentram a maior parcela do faturamento, com 48%, ou R$ 39 bilhões.</p><p>Na sequência aparecem as clínicas e hospitais veterinários , que devem faturar R$ 14 bilhões, equivalentes a 17,3% do total.</p><p>Depois vêm e-commerce, varejo alimentar, megastores e outros serviços.</p><p>No primeiro semestre deste ano, as exportações do setor cresceram 12%. Desse total, 89% dos produtos exportados pertencem ao segmento de pet food, seguido por pet care (9%) e animais vivos (1,5%).</p><p>Entre os mercados que mais importaram produtos brasileiros, Áustria , Estados Unidos e China concentram cerca de 70% do valor total exportado.</p><p>Apesar de ter crescido entre 2021 e 2025, o setor passou por uma desaceleração. A alta de 26,4% registrada no primeiro ano caiu para 3,4% no segundo, uma redução de cerca de 23 pontos percentuais no ritmo de crescimento.</p><p>O resultado projetado para este ano consolida a presença do Brasil no mercado pet , mas também evidencia uma desaceleração influenciada por fatores como inflação, câmbio e menor ritmo de crescimento.</p><p>Segundo a Abempet, a alta carga tributária também continua impactando o setor.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/negocios/brasil-e-3o-pais-com-mais-pets-e-setor-preve-faturar-r-81-bilhoes-em-2026/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Após o mercado brasileiro de animais de estimação faturar R$ 77,96 bilhões em 2025, o Brasil, terceiro país com a maior população pet do mundo, projeta uma receita 4,35% maior em 2026, chegando a R$ 81 bilhões."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Os dados fazem parte do estudo “ Faturamento e População Pet no Mundo – 2026 ”, elaborado pela Abempet (Associação Brasileira das Empresas do Setor de Animais de Estimação)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Ao detalhar a projeção para este ano, baseada no faturamento do primeiro semestre de 2026, o segmento de pet food (alimentos para animais de estimação) representa 52,8% do faturamento total, o equivalente a R$ 42,9 bilhões."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Na sequência aparece a venda de animais, que deve faturar R$ 8,9 bilhões e avançar cerca de 4,45% entre 2025 e 2026. Já o segmento Pet Vet deve registrar faturamento de R$ 8,6 bilhões, alta de 5,11%."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Entre os canais de acesso ao mercado, os pet shops pequenos e médios concentram a maior parcela do faturamento, com 48%, ou R$ 39 bilhões."
-          }
-        ]
-      }
-    },
-    {
-      "id": "323a8431eaaf1bfb",
-      "titulo": "Análise: Trump impõe política externa da força nas Américas",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/internacional/analise-trump-impoe-politica-externa-da-forca-nas-americas/",
-      "dataFonte": "2026-09-23T11:11:36.000Z",
-      "resumoFonte": "Escudo das Américas sanciona 24 facções, incluindo PCC (Primeiro Comando da Capital) e o CV (Comando Vermelho); analistas debatem credibilidade das ameaças de Trump",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Trump-participa-de-encontro-do-grupo-Escudo-da-America-3.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-23T11:44:52.400Z",
-      "reportagem": {
-        "titulo": "Análise: Trump impõe política externa da força nas Américas | CNN Brasil",
-        "slug": "analise-trump-impoe-politica-externa-da-forca-nas-americas-cnn-brasil",
-        "categoria": "Política Nacional",
-        "data": "2026-09-23",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Trump-participa-de-encontro-do-grupo-Escudo-da-America-3.jpg?w=1200&h=630&crop=1",
-        "resumo": "Escudo das Américas sanciona 24 facções, incluindo PCC (Primeiro Comando da Capital) e o CV (Comando Vermelho); analistas debatem credibilidade das ameaças de Trump",
-        "conteudo": "<p>Os países integrantes do chamado Escudo das Américas assinaram na terça-feira (22) um acordo para designar formalmente 24 facções acusadas de narcotráfico como &quot;ameaças compartilhadas&quot; , entre elas o PCC (Primeiro Comando da Capital) e o CV (Comando Vermelho).</p><h2>Contexto</h2><p>As medidas preveem sanções como congelamento de bens, restrições de imigração a integrantes e apoiadores dos grupos, além da responsabilização criminal de quem forneça apoio material às organizações.</p><p>O acordo foi assinado pelo grupo formado por 14 países no mesmo dia em que, na Assembleia Geral da ONU, em Nova York, Donald Trump anunciou uma série de ações contra cartéis, com ameaças militares explícitas . O Brasil não faz parte do Escudo das Américas e é contrário à classificação do PCC e do CV como organizações terroristas.</p><p>O professor da UFF (Universidade Federal Fluminense) e pesquisador de Harvard Vitelio Brustolin analisou o conteúdo da declaração assinada pelo grupo .</p><h2>Desdobramentos</h2><p>Segundo ele, o documento está estruturado em três pilares: a defesa das economias mediante cooperação econômica, a governança democrática contra redes armadas de narcoterrorismo e o respeito mútuo à soberania nacional dos países signatários .</p><p>&quot;A declaração joga tudo para uma reunião da OEA (Organização dos Estados Americanos), para usar o estatuto da organização&quot;, explicou Brustolin, acrescentando que o Brasil é membro da OEA, embora não integre o Escudo das Américas.</p><p>Brustolin destacou ainda que a declaração prevê compartilhamento de inteligência e de tecnologia de vigilância e repressão , o que poderia viabilizar o uso da força. &quot;Pela declaração, isso deve ser feito em cooperação com os países signatários&quot;, pontuou.</p><p>Ele observou que o Brasil e o México não foram convidados a integrar o grupo, apesar de Trump ter afirmado em entrevista que acreditava que ambos tinham recebido convite. Para o professor, o Escudo das Américas reúne governos ideologicamente alinhados aos Estados Unidos.</p><p>No discurso na Assembleia Geral da ONU, Trump também fez ameaças militares ao Irã, afirmando que tomaria uma &quot;decisão muito importante&quot; entre negociar ou &quot;aniquilar&quot; o país . O analista de Internacional da CNN Lourival Sant'Anna avaliou que a retórica é parte de um jogo político.</p><p>&quot;Ele já tentou usar esse estratagema diversas vezes ao longo dessa crise, que já dura seis meses&quot;, afirmou Sant'Anna. Segundo ele, Trump não dispõe de novas ferramentas: &quot;Tudo que ele está fazendo é apenas mais do mesmo, que é coerção econômica, bloqueio naval, alguns ataques pontuais e a retórica &quot;.</p><p>Lourival argumentou que, mesmo após as eleições legislativas de meio de mandato nos Estados Unidos, Trump não teria a opção política de desembarcar tropas no Irã.</p><p>&quot;Os republicanos não aceitam, o país não aceita, já é uma guerra impopular mesmo sem desembarque de tropas&quot;, disse. Sem essa medida, segundo o analista, não seria possível dobrar o Irã ou desbloquear de forma sustentável o Estreito de Ormuz.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/internacional/analise-trump-impoe-politica-externa-da-forca-nas-americas/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Os países integrantes do chamado Escudo das Américas assinaram na terça-feira (22) um acordo para designar formalmente 24 facções acusadas de narcotráfico como \"ameaças compartilhadas\" , entre elas o PCC (Primeiro Comando da Capital) e o CV (Comando Vermelho)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "As medidas preveem sanções como congelamento de bens, restrições de imigração a integrantes e apoiadores dos grupos, além da responsabilização criminal de quem forneça apoio material às organizações."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O acordo foi assinado pelo grupo formado por 14 países no mesmo dia em que, na Assembleia Geral da ONU, em Nova York, Donald Trump anunciou uma série de ações contra cartéis, com ameaças militares explícitas . O Brasil não faz parte do Escudo das Américas e é contrário à classificação do PCC e do CV como organizações terroristas."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O professor da UFF (Universidade Federal Fluminense) e pesquisador de Harvard Vitelio Brustolin analisou o conteúdo da declaração assinada pelo grupo ."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Segundo ele, o documento está estruturado em três pilares: a defesa das economias mediante cooperação econômica, a governança democrática contra redes armadas de narcoterrorismo e o respeito mútuo à soberania nacional dos países signatários ."
-          }
-        ]
-      }
-    },
-    {
-      "id": "fcfd4bd1c3045a2d",
-      "titulo": "Jovem australiano vive ascensão meteórica antes de enfrentar o Brasil",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/jovem-australiano-vive-ascensao-meteorica-antes-de-enfrentar-o-brasil/",
-      "dataFonte": "2026-09-23T11:04:58.000Z",
-      "resumoFonte": "Defensor do Hull City venceu prêmio de melhor atleta sub-23 do país e se prepara para dois duelos internacionais",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Lucas-Herrington-e1790161378595.jpeg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-23T11:44:52.400Z",
-      "reportagem": {
-        "titulo": "Jovem australiano vive ascensão meteórica antes de enfrentar o Brasil | CNN Brasil",
-        "slug": "jovem-australiano-vive-ascensao-meteorica-antes-de-enfrentar-o-brasil-cnn-brasil",
-        "categoria": "Política Nacional",
-        "data": "2026-09-23",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Lucas-Herrington-e1790161378595.jpeg?w=1200&h=630&crop=1",
-        "resumo": "Defensor do Hull City venceu prêmio de melhor atleta sub-23 do país e se prepara para dois duelos internacionais",
-        "conteudo": "<p>O zagueiro australiano Lucas Herrington, de 19 anos, vive uma trajetória de destaque nos últimos nove meses . De volta a Brisbane nesta semana, o defensor se prepara para enfrentar a Seleção Brasileira em dois amistosos internacionais e realizar um sonho de infância com a camisa da seleção.</p><h2>Contexto</h2><p>No início do ano, Herrington era considerado uma jovem promessa do Brisbane Roar, clube da A-League. Desde então, uma passagem pelo Colorado Rapids, da MLS, uma campanha de destaque na Copa do Mundo e a transferência para o Hull City, da Premier League, mudaram seu status no futebol.</p><p>&quot;É bastante louco... passou voando&quot;, afirmou Herrington aos jornalistas nesta quarta-feira (23). O jogador completou 19 anos no início de setembro e destacou a importância da trajetória recente em sua carreira.</p><p>&quot; Foi uma grande jornada para mim. Aproveitei cada minuto. Estou apenas tentando manter os pés no chão, continuar trabalhando duro e aproveitar a jornada&quot;, disse o zagueiro.</p><h2>Desdobramentos</h2><p>Na terça-feira, Herrington recebeu a Medalha Harry Kewell, prêmio destinado ao melhor jogador australiano com menos de 23 anos. Apesar do reconhecimento, ele rejeitou a ideia de que o talento natural tenha facilitado sua chegada ao alto nível.</p><p>&quot;Obviamente, tive que trabalhar e me adaptar a cada situação&quot;, afirmou. Para o defensor, cada etapa da carreira apresentou desafios e exigiu uma capacidade diferente de adaptação.</p><p>&quot;De Brisbane para o Colorado, dos Socceroos para a Premier League, são todos ambientes diferentes, com treinamentos diferentes. Você precisa se adaptar a todos eles. Mas, no fim das contas, é apenas futebol, e eu simplesmente amo jogar futebol &quot;, completou Herrington.</p><p>A Austrália enfrenta o Brasil nesta sexta-feira, na cidade de Townsville, no norte de Queensland. O segundo amistoso contra os pentacampeões mundiais será na próxima terça-feira, no Lang Park, em Brisbane, estádio onde Herrington estreou como profissional há menos de dois anos.</p><p>Além da oportunidade de enfrentar jogadores como Vinicius Jr. , a segunda partida terá um significado especial para o jovem defensor. Herrington nunca defendeu a seleção australiana em sua cidade natal.</p><p>&quot; Mal posso esperar. Sempre foi um sonho meu representar os Socceroos em Brisbane&quot;, afirmou o jogador .</p><p>Herrington também revelou que terá familiares e amigos nas arquibancadas para acompanhar o duelo contra o Brasil. Para o zagueiro, enfrentar uma das principais seleções do mundo torna o momento ainda mais especial.</p><p>&quot;Tenho muitos familiares e amigos que virão me ver jogar contra um grande adversário. Internacionalmente, não há coisa muito melhor do que o Brasil &quot;, declarou.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/jovem-australiano-vive-ascensao-meteorica-antes-de-enfrentar-o-brasil/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O zagueiro australiano Lucas Herrington, de 19 anos, vive uma trajetória de destaque nos últimos nove meses . De volta a Brisbane nesta semana, o defensor se prepara para enfrentar a Seleção Brasileira em dois amistosos internacionais e realizar um sonho de infância com a camisa da seleção."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "No início do ano, Herrington era considerado uma jovem promessa do Brisbane Roar, clube da A-League. Desde então, uma passagem pelo Colorado Rapids, da MLS, uma campanha de destaque na Copa do Mundo e a transferência para o Hull City, da Premier League, mudaram seu status no futebol."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "\"É bastante louco... passou voando\", afirmou Herrington aos jornalistas nesta quarta-feira (23). O jogador completou 19 anos no início de setembro e destacou a importância da trajetória recente em sua carreira."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "\" Foi uma grande jornada para mim. Aproveitei cada minuto. Estou apenas tentando manter os pés no chão, continuar trabalhando duro e aproveitar a jornada\", disse o zagueiro."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Na terça-feira, Herrington recebeu a Medalha Harry Kewell, prêmio destinado ao melhor jogador australiano com menos de 23 anos. Apesar do reconhecimento, ele rejeitou a ideia de que o talento natural tenha facilitado sua chegada ao alto nível."
-          }
-        ]
-      }
+      "urlFonte": "https://g1.globo.com/politica/noticia/2026/09/23/corregedoria-do-cnj-cancela-r-47-bilhoes-em-precatorios-de-empresas-que-venderam-credito-ao-banco-master.ghtml",
+      "dataFonte": "2026-09-23T17:04:37.000Z",
+      "resumoFonte": "O corregedor Nacional de Justiça, Benedito Gonçalves, determinou, em decisão divulgada nesta quarta-feira (23), o cancelamento do pagamento de R$ 4,7 bilhões em precatório do setor sucroalcooleiro — ligados à indústrias de açúcar e etanol — e a devolução do montante à Conta Única do Tesouro Nacional. A decisão atende a pedido de liminar…",
+      "imagem": "https://s2-g1.glbimg.com/Zvv-jqGcFbnvCWJNOXWvQd3ZeDI=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/1/5/fHKpQaQuudcLRp9GKRdQ/globo-canal-4-20260803-2000-frame-114313.jpeg",
+      "descobertaEm": "2026-09-23T17:08:47.777Z"
     }
   ],
-  "reapuradoEm": "2026-09-23T13:51:30.688Z",
+  "reapuradoEm": "2026-09-23T18:38:36.797Z",
   "diagnosticoReapuracao": {
     "produzidas": 0,
     "jaProntas": 0,
