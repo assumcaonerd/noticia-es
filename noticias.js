@@ -24,10 +24,10 @@ const noticias = [
     resumo: "Lorenzo Pazolini passou 14 minutos no palanque do Romualdo e citou Evair, Manato, Erick Musso, o próprio Romualdo e, no apagar das luzes, Flávio Bolsonaro.",
     ocultarResumoVisivel: true,
     aeo: [
-      { pergunta: "Quem Pazolini citou no palanque de Romualdo?", resposta: "Segundo o texto, ele citou Evair, Manato, Erick Musso, Romualdo e, no final, Flávio Bolsonaro." },
-      { pergunta: "Quais nomes ficaram fora do discurso?", resposta: "O texto aponta a ausência de Magno Malta, Maguinha Malta e Eliane Leal, vice na chapa de Pazolini." },
-      { pergunta: "Qual é a participação do PL na chapa?", resposta: "O texto afirma que o PL integra a coligação Paz pra Viver um Novo Tempo e indicou Eliane Leal para vice." },
-      { pergunta: "Qual é a avaliação apresentada na matéria?", resposta: "A análise interpreta essas ausências como um afastamento público de aliados do PL durante a campanha." }
+      { pergunta: "Quem Pazolini citou no palanque de Romualdo?", resposta: "Ele citou Evair, Manato, Erick Musso, Romualdo e, no final, Flávio Bolsonaro." },
+      { pergunta: "Quais nomes ficaram fora do discurso?", resposta: "Não foram citados Magno Malta, Maguinha Malta e Eliane Leal, vice na chapa de Pazolini." },
+      { pergunta: "Qual é a participação do PL na chapa?", resposta: "O PL integra a coligação Paz pra Viver um Novo Tempo e indicou Eliane Leal para vice." },
+      { pergunta: "Qual é a avaliação apresentada na matéria?", resposta: "Essas ausências são interpretadas como um afastamento público de aliados do PL durante a campanha." }
     ],
     conteudo: `<h2>Os nomes que ficaram fora do discurso</h2>
 <p>Lorenzo Pazolini passou 14 minutos no palanque do Romualdo e citou Evair, Manato, Erick Musso, o próprio Romualdo e, no apagar das luzes, Flávio Bolsonaro. Magno Malta, Maguinha Malta e a vice Eliane Leal saíram do discurso como se não existissem. A omissão não foi acidental. É método.</p>
