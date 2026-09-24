@@ -9,8 +9,15 @@ function imagemValida(url = '') {
   return /^https:\/\//i.test(u) && !/\.svg(\?|$)/i.test(u) && !PADRAO_IMAGEM_INVALIDA.test(u);
 }
 
+function decodificarEntidades(s = '') {
+  const mapa = { aacute:'á', Aacute:'Á', atilde:'ã', Atilde:'Ã', acirc:'â', Acirc:'Â', agrave:'à', ccedil:'ç', Ccedil:'Ç', eacute:'é', Eacute:'É', ecirc:'ê', Ecirc:'Ê', iacute:'í', Iacute:'Í', oacute:'ó', Oacute:'Ó', ocirc:'ô', Ocirc:'Ô', otilde:'õ', Otilde:'Õ', uacute:'ú', Uacute:'Ú', uuml:'ü', ldquo:'“', rdquo:'”', lsquo:'‘', rsquo:'’', mdash:'—', ndash:'–', quot:'"', amp:'&', nbsp:' ' };
+  let t = String(s);
+  for (let i = 0; i < 3; i++) t = t.replace(/&amp;/gi, '&').replace(/&([A-Za-z]+);/g, (m,n) => mapa[n] ?? m).replace(/&#(\d+);/g, (m,n) => String.fromCodePoint(Number(n)));
+  return t;
+}
+
 function limparHtml(s = '') {
-  return String(s)
+  return decodificarEntidades(String(s))
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
     .replace(/<[^>]+>/g, ' ')
@@ -20,6 +27,23 @@ function limparHtml(s = '') {
     .replace(/&#39;|&apos;/gi, "'")
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+function conteudoEditorialValido(conteudo = '') {
+  const texto = limparHtml(conteudo);
+  const proibidos = [
+    /Jornalista, pós-graduad[oa]/i,
+    /Graduad[oa] em jornalismo/i,
+    /É repórter (?:da|de) Revista Oeste/i,
+    /Você tem \d+ acessos por dia/i,
+    /Assinantes podem liberar \d+ acessos por dia/i,
+    /pic\.twitter\.com\//i,
+    /Leia também:/i
+  ];
+  if (proibidos.some(re => re.test(texto))) return false;
+  if (/<h2[^>]*>\s*(Contexto|Desdobramentos)\s*<\/h2>/i.test(conteudo)) return false;
+  if (/&(?:amp;)?(?:ccedil|atilde|aacute|eacute|iacute|oacute|uacute|ecirc|ocirc);/i.test(conteudo)) return false;
+  return true;
 }
 
 function limitar(s = '', n = 320) {
@@ -151,6 +175,9 @@ let imagem = campoString(bloco, 'imagem');
 
 if (!slug || !titulo || !resumo || !conteudo) {
   throw new Error('Matéria mais recente incompleta: slug, título, resumo e conteúdo são obrigatórios.');
+}
+if (!conteudoEditorialValido(conteudo)) {
+  throw new Error(`Publicação bloqueada: ${slug} contém resíduos de fonte, subtítulos genéricos, rede social crua ou entidades HTML quebradas. A matéria precisa ser redigida antes de publicar.`);
 }
 
 if (!imagemValida(imagem)) {
