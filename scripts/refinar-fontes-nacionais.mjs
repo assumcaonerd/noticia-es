@@ -105,8 +105,8 @@ const portais = [...new Set([
   ...(arquivo.portaisPrioritarios || []),
   'agazeta.com.br','folhavitoria.com.br','tribunaonline.com.br','revistaoeste.com','gazetadopovo.com.br',
   'oantagonista.com.br','correiodamanha.com.br','pm.es.gov.br','sejus.es.gov.br','iases.es.gov.br',
-  'folha.uol.com.br','estadao.com.br','oglobo.globo.com','veja.abril.com.br','valor.globo.com',
-  'g1.globo.com','cnnbrasil.com.br','reuters.com'
+  'folha.uol.com.br','estadao.com.br','oglobo.globo.com','veja.abril.com.br',
+  'g1.globo.com','cnnbrasil.com.br'
 ])];
 await fs.writeFile(ARQUIVO,JSON.stringify({...arquivo,atualizadoEm:AGORA.toISOString(),portaisPrioritarios:portais,pautas:[...pendentes,...publicadas]},null,2)+'\n','utf8');
 console.log(`Refino nacional concluído: ${novas.length} nova(s) pauta(s).`);
