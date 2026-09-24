@@ -76,6 +76,9 @@ for (const arquivo of arquivos) {
     if (m.publicadoEm != null) fail(`${pref}: publicadoEm deve permanecer null antes da ordem de publicação`);
     if (imagensInvalidas(m.imagem)) fail(`${pref}: imagem rejeitada pela política editorial`);
     if (String(m.conteudo||'').replace(/<[^>]+>/g,' ').trim().length < 2500) fail(`${pref}: reportagem curta demais`);
+    if (/<h2[^>]*>\s*(Contexto|Desdobramentos?)\s*<\/h2>/i.test(String(m.conteudo||''))) fail(`${pref}: intertítulo genérico proibido`);
+    if (/Leia também:|pic\.twitter\.com\/|Você tem \d+ acessos por dia|Assinantes podem liberar \d+ acessos por dia|Jornalista, pós-graduad[oa]|Graduad[oa] em jornalismo/i.test(String(m.conteudo||'').replace(/<[^>]+>/g,' '))) fail(`${pref}: resíduo da fonte detectado`);
+    if (/&(?:amp;)?(?:ccedil|atilde|aacute|eacute|iacute|oacute|uacute|ecirc|ocirc);/i.test(String(m.conteudo||''))) fail(`${pref}: entidade HTML quebrada`);
     if (!Array.isArray(m.fontesAdicionais) || m.fontesAdicionais.length < 1) fail(`${pref}: fontesAdicionais insuficientes`);
     if (slugsPublicados.has(m.slug)) fail(`${pref}: slug já publicado: ${m.slug}`);
     if (vistos.has(m.slug)) fail(`${pref}: slug duplicado na própria rodada`);
