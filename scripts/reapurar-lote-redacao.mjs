@@ -149,17 +149,32 @@ function completarParagrafos(base, p) {
   return Array.isArray(base) ? base.filter(Boolean) : [];
 }
 
+function intertituloDoParagrafo(texto = '', fallback = 'Mais informações') {
+  const t = limparHtml(texto);
+  const primeira = t.split(/[.!?]/)[0].trim();
+  let titulo = primeira
+    .replace(/^(Segundo|De acordo com|Conforme|Ainda segundo)\s+[^,]{1,80},\s*/i, '')
+    .replace(/^(O|A|Os|As|Um|Uma)\s+/i, '')
+    .trim();
+  const palavras = titulo.split(/\s+/).filter(Boolean);
+  if (palavras.length < 3) return fallback;
+  if (palavras.length > 9) titulo = palavras.slice(0, 9).join(' ');
+  return titulo.charAt(0).toUpperCase() + titulo.slice(1);
+}
+
 function montarConteudo(p, paragrafos, adicionais) {
   const blocos = completarParagrafos(paragrafos, p);
   if (blocos.length < 7) return '';
   const primeiro = blocos[0];
   const meio = blocos.slice(1, 4);
   const fim = blocos.slice(4);
+  const h2a = intertituloDoParagrafo(meio[0], 'Detalhes da notícia');
+  const h2b = intertituloDoParagrafo(fim[0], 'Próximos passos');
   return [
     `<p>${escapar(primeiro)}</p>`,
-    '<h2>Contexto</h2>',
+    `<h2>${escapar(h2a)}</h2>`,
     ...meio.map((t) => `<p>${escapar(t)}</p>`),
-    '<h2>Desdobramentos</h2>',
+    `<h2>${escapar(h2b)}</h2>`,
     ...fim.map((t) => `<p>${escapar(t)}</p>`)
   ].join('');
 }
@@ -197,6 +212,7 @@ function reportagemValida(r, p) {
   if (!Array.isArray(r.fontesAdicionais) || r.fontesAdicionais.length < 2) return false;
   if (palavras < 650 || palavras > 1200 || paragrafos < 7 || subtitulos < 2) return false;
   if (/por que essa pauta entra no not[ií]cia es|o que a fonte registrou|reapura[cç][aã]o autom[aá]tica|entra na cobertura factual do not[ií]cia es|linha editorial do portal/i.test(String(r.conteudo || ''))) return false;
+  if (/<h2[^>]*>\s*(Contexto|Desdobramentos?)\s*<\/h2>/i.test(String(r.conteudo || ''))) return false;
   if (/entra na cobertura factual do not[ií]cia es|a pauta foi classificada/i.test(JSON.stringify(r.aeo || []))) return false;
   if (!Array.isArray(r.aeo) || r.aeo.length < 5) return false;
   return true;
