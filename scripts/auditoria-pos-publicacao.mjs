@@ -67,6 +67,9 @@ for (const slug of slugs) {
   if (/capit[aã]o\s+assum[cç][aã]o/i.test(html.match(/<section class="aeo-resumo"[\s\S]*?<\/section>/i)?.[0] || '')) {
     checks.push(['Capitão Assumção apareceu no AEO', false]);
   }
+  if (/<h2[^>]*>\s*(Contexto|Desdobramentos?)\s*<\/h2>/i.test(corpo)) checks.push(['intertítulo genérico proibido', false]);
+  if (/Leia também:|pic\.twitter\.com\/|Você tem \d+ acessos por dia|Assinantes podem liberar \d+ acessos por dia|Jornalista, pós-graduad[oa]|Graduad[oa] em jornalismo/i.test(textoPuro(corpo))) checks.push(['resíduo da fonte', false]);
+  if (/&(?:amp;)?(?:ccedil|atilde|aacute|eacute|iacute|oacute|uacute|ecirc|ocirc);/i.test(corpo)) checks.push(['entidade HTML quebrada', false]);
 
   for (const [nome, ok] of checks) {
     if (!ok) {
