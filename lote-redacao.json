@@ -1,17 +1,41 @@
 {
-  "geradoEm": "2026-09-24T20:47:11.169Z",
+  "geradoEm": "2026-09-24T23:31:29.921Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 10 matérias.",
   "diagnostico": {
-    "totalPendentes": 64,
+    "totalPendentes": 68,
     "bloqueadas": 0,
     "bloqueadasEditoriais": 0,
     "semImagem": 0,
-    "duplicadasBasicas": 0,
-    "duplicadasSemanticas": 2,
-    "foraCategorias": 1
+    "duplicadasBasicas": 2,
+    "duplicadasSemanticas": 8,
+    "foraCategorias": 2
   },
   "quantidadeCandidatas": 20,
   "candidatas": [
+    {
+      "id": "af85772697c06478",
+      "titulo": "Flávio Bolsonaro tentou falar com Vorcaro na véspera da prisão do banqueiro, mostram mensagens",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "O Globo - Capa",
+      "urlFonte": "https://oglobo.globo.com/politica/noticia/2026/09/24/flavio-bolsonaro-tentou-falar-com-vorcaro-na-vespera-da-prisao-do-banqueiro-mostram-mensagens.ghtml",
+      "dataFonte": "2026-09-24T19:53:19.000Z",
+      "resumoFonte": "Daniel Vorcaro, do Banco Master, foi preso no dia 17 de novembro quando estava prestes a deixar o país",
+      "imagem": "https://s2-oglobo.glbimg.com/E3Q5MHza4UlJ64HPL2sz4qTUnjo=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/k/n/FEeaD4TvaHNSo1fiDRqg/arte-2026-05-13t163745.194.png",
+      "descobertaEm": "2026-09-24T22:32:38.640Z"
+    },
+    {
+      "id": "caf60f0f488d9fd2",
+      "titulo": "Homem foge por telhados durante duas horas para escapar da polícia em Vila Velha",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/agora/homem-foge-por-telhados-durante-duas-horas-para-escapar-da-policia-em-vila-velha-0926",
+      "dataFonte": "2026-09-24T20:45:30.000Z",
+      "resumoFonte": "Suspeito de descumprir medida protetiva invadiu imóveis no bairro Cristóvão Colombo, caiu de um telhado e foi contido por um morador",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1780506556390_dsc_6776.jpg",
+      "descobertaEm": "2026-09-24T22:30:05.555Z"
+    },
     {
       "id": "77f1a1352bd7ad5c",
       "titulo": "Personal troca moto por carro e leva golpe de R$ 100 mil no ES",
@@ -69,26 +93,26 @@
       }
     },
     {
-      "id": "01362c049969cdbe",
-      "titulo": "Carisma, religião e partido: eleitores do ES revelam como escolhem candidatos",
+      "id": "9c6516faf5b4b4dd",
+      "titulo": "Brasil",
       "categoria": "Política ES",
       "radar": null,
-      "fonteNome": "A Gazeta - Política",
-      "urlFonte": "https://www.agazeta.com.br/es/politica/carisma-religiao-e-partido-eleitores-do-es-revelam-como-escolhem-candidatos-0926",
-      "dataFonte": "2026-09-24T18:11:41.000Z",
-      "resumoFonte": "Na definição do voto, saber onde buscar informações confiáveis sobre quem concorre é importante para evitar notícias falsas",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790275081983_capa_thumbnail_horizontal_eleicoes_2026_21.png",
-      "descobertaEm": "2026-09-24T19:14:26.910Z",
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/mundo/brasil-da-as-costas-ao-futuro-em-eleicao-com-candidatos-desoladores-diz-the-economist-0926",
+      "dataFonte": "2026-09-24T21:34:59.000Z",
+      "resumoFonte": "Com críticas a Lula e Flávio Bolsonaro e apoio a Renan Santos, editorial da revista britânica diz que o Brasil",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790285985343_2026_09_24_bbco_brasil_da_as_costas_para_o_futuro_diz_o_titulo_de_editorial_da_economist_325anti6_sys.png",
+      "descobertaEm": "2026-09-24T22:30:05.555Z",
       "reportagem": {
-        "titulo": "Carisma, religião e partido: eleitores do ES revelam como escolhem candidatos",
-        "slug": "carisma-religiao-e-partido-eleitores-do-es-revelam-como-escolhem-candidatos",
+        "titulo": "Brasil",
+        "slug": "brasil",
         "categoria": "Política ES",
         "data": "2026-09-24",
-        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790275081983_capa_thumbnail_horizontal_eleicoes_2026_21.png",
-        "resumo": "Na definição do voto, saber onde buscar informações confiáveis sobre quem concorre é importante para evitar notícias falsas",
-        "conteudo": "<p>Avaliação de propostas? Identificação partidária? Carisma do candidato? Antes de apertar a tecla “Confirma” e ouvir o som mais famoso das eleições, escolher os candidatos é uma parte essencial do processo democrático. Mas como fazer essa escolha? Para entender essa questão, A Gazeta foi às ruas para escutar o eleitorado do Espírito Santo.</p><h2>Conheça os candidatos do Espírito Santo que estão na</h2><p>Conheça os candidatos do Espírito Santo que estão na disputa eleitoral</p><p>Nas ruas, os critérios para optar por um candidato são variados. Para a estudante Carla Dias, é necessário avaliar e comparar as propostas dos concorrentes no pleito. Segundo ela, as pautas mais decisivas na escolha do voto são educação e segurança pública.</p><p>A jovem acrescenta que analisa o histórico do candidato e possíveis envolvimentos em casos de corrupção. “A gente precisa de um candidato que nos represente. Se coloco um com a ficha suja no poder, ele estará me representando de alguma forma”, destaca.</p><h2>Além da vida pública, a vida pessoal do candidato,</h2><p>Além da vida pública, a vida pessoal do candidato, como a religião e o histórico familiar, é citada como um dos critérios para essa seleção. Segundo a enfermeira Carina dos Santos, família e religião são pilares que influenciam a decisão final.</p><p>“O histórico familiar dele e também a questão em relação às famílias da sociedade, no geral, hoje, contam muito para eu poder dar o meu voto aos candidatos”, pontua.</p><p>Mas também há quem vote pelo partido ou pela federação. A identificação partidária pode orientar a escolha, principalmente nas eleições proporcionais, para deputados estadual e federal. O estudante Pedro Pagotto afirma que essa questão guia suas escolhas. Primeiro, ele analisa as opções dentro do partido com o qual possui afinidade e, depois, escolhe os candidatos que defendem pautas que o agradam.</p><p>E quem vem de fora do Estado e não conhece os candidatos? O auxiliar administrativo Michel Boldrin disse que, apesar de ser capixaba, morou por muito tempo fora do Espírito Santo e, por isso, considera não ter conhecimento suficiente sobre a política local. Ele ressalta que buscará a orientação de pessoas de sua confiança para conhecer os nomes em quem poderá votar.</p><p>“Eu teria que entrar em contato com pessoas mais informadas para me dizer, para me orientar, em quem votar”, reforça.</p><p>O posicionamento dos candidatos diante de algumas pautas também entra na decisão. A trancista Ester Machado comenta que, antes de definir em quem vai votar, observa quais são as pautas sociais defendidas pelos candidatos. Segundo ela, a forma como o político enxerga as minorias, a educação e a economia vai determinar sua decisão final.</p><p>Compare as propostas entre candidatos ao governo do ES e à Presidência</p><p>Em muitos casos, alguns eleitores não conseguem estar completamente atualizados sobre todos os candidatos e suas propostas. Esse é o caso do tatuador Yago Paraíso. Ele admite que é difícil estar a par de todas as notícias. Por isso, costuma avaliar o viés político e o perfil do nome selecionado.</p>",
-        "fonteNome": "A Gazeta - Política",
-        "fonteUrl": "https://www.agazeta.com.br/es/politica/carisma-religiao-e-partido-eleitores-do-es-revelam-como-escolhem-candidatos-0926",
+        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790285985343_2026_09_24_bbco_brasil_da_as_costas_para_o_futuro_diz_o_titulo_de_editorial_da_economist_325anti6_sys.png",
+        "resumo": "Com críticas a Lula e Flávio Bolsonaro e apoio a Renan Santos, editorial da revista britânica diz que o Brasil",
+        "conteudo": "<p>Em editorial publicado nesta quinta-feira (24/9), a influente revista britânica The Economist comparou o Brasil a um avião &quot;parado na pista&quot;, que vai enfrentar mais uma eleição desanimadora com candidatos &quot;desoladores&quot;, diante de mais um confronto entre o presidente Luiz Inácio Lula da Silva (PT) e a família Bolsonaro.</p><h2>&quot;Nenhum dos dois é convincente quando se trata de</h2><p>&quot;Nenhum dos dois é convincente quando se trata de enfrentar os dois maiores problemas do Brasil: a corrupção entranhada e a expansão incessante dos gastos públicos&quot;, defende a publicação.</p><p>O texto começa elencando as riquezas naturais e a diversidade do povo brasileiro, mencionando a construção de Brasília na década de 1950, com &quot;ruas traçadas no formato de um avião, simbolizando um país pronto para decolar&quot;.</p><p>&quot;No entanto, ele continua parado na pista. Ao longo do último meio século, em vez de ganhar os céus, a economia brasileira estagnou tanto em relação a seus pares quanto em comparação ao crescimento médio global. A eleição geral de 4 de outubro oferece pouca esperança de uma reviravolta&quot;, escreve.</p><h2>Essa não é a primeira comparação com decolagem que</h2><p>Essa não é a primeira comparação com decolagem que a revista faz sobre o Brasil. Em 2009, ela publicou a icônica capa em que estátua do Cristo Redentor aparece subindo aos céus como foguete , com o título &quot;Brazil takes off&quot; ou Brasil decola, na tradução para o português.</p><p>Quatro anos depois, em 2013, a revista conhecida pelo pensamento liberal na economia e progressista nos costumes, substituiu o otimismo por uma reportagem repleta de críticas ao país. Na capa, o Cristo aparecia em queda desgovernada. O título questionava se o Brasil havia jogado fora a chance de ser o &quot;país do futuro&quot;.</p><p>A revista britânica, que defende reformas econômicas e redução dos gastos públicos, escolhe a candidatura de Renan Santos (Missão) como a que mais se &quot;aproxima do que o momento exige&quot;, na concepção de seus editores.</p><p>&quot;Mas nem ele nem qualquer outro outsider conseguiram avançar contra as máquinas políticas rivais de Lula e Bolsonaro. O país está caminhando para uma crise previsível&quot;, diz o texto.</p><p>&quot;Assim, o futuro brilhante do Brasil ficará em suspenso por pelo menos mais quatro anos. Ele não está totalmente morto.&quot;</p><p>A The Economist escreve que, &quot;apesar da corrupção e da visão limitada dos políticos adeptos da distribuição de favores e verbas&quot;, muitas das instituições vitais do país ainda funcionam, como Polícia Federal, que tem investigado a fraude de Daniel Vorcaro, do banco Master, e &quot;a conspiração golpista&quot; da família Bolsonaro.</p><p>A revista elogia a imprensa &quot;feroz e independente&quot;, a diplomacia &quot;respeitada em todo o mundo&quot; e &quot;até mesmo o Supremo Tribunal Federal&quot;, que, &quot;apesar de suas muitas falhas, foi capaz de mandar para a prisão alguém que conspirou por um golpe de Estado&quot;, referindo-se a Jair Bolsonaro.</p><p>Sobre os dois principais candidatos, o editorial diz que Lula, apesar de uma postura correta sobre o meio ambiente, &quot;fez muito pouco para impulsionar o crescimento econômico ou conter os gastos públicos&quot;, &quot;sem conseguir promover reformas econômicas&quot;.</p>",
+        "fonteNome": "A Gazeta - Capa",
+        "fonteUrl": "https://www.agazeta.com.br/mundo/brasil-da-as-costas-ao-futuro-em-eleicao-com-candidatos-desoladores-diz-the-economist-0926",
         "fontesAdicionais": [
           {
             "nome": "Assembleia Legislativa do ES",
@@ -103,50 +127,154 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Avaliação de propostas? Identificação partidária? Carisma do candidato? Antes de apertar a tecla “Confirma” e ouvir o som mais famoso das eleições, escolher os candidatos é uma parte essencial do processo democrático. Mas como fazer essa escolha? Para entender essa questão, A Gazeta foi às ruas para escutar o eleitorado do Espírito Santo."
+            "resposta": "Em editorial publicado nesta quinta-feira (24/9), a influente revista britânica The Economist comparou o Brasil a um avião \"parado na pista\", que vai enfrentar mais uma eleição desanimadora com candidatos \"desoladores\", diante de mais um confronto entre o presidente Luiz Inácio Lula da Silva (PT) e a família Bolsonaro."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Conheça os candidatos do Espírito Santo que estão na disputa eleitoral"
+            "resposta": "\"Nenhum dos dois é convincente quando se trata de enfrentar os dois maiores problemas do Brasil: a corrupção entranhada e a expansão incessante dos gastos públicos\", defende a publicação."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Nas ruas, os critérios para optar por um candidato são variados. Para a estudante Carla Dias, é necessário avaliar e comparar as propostas dos concorrentes no pleito. Segundo ela, as pautas mais decisivas na escolha do voto são educação e segurança pública."
+            "resposta": "O texto começa elencando as riquezas naturais e a diversidade do povo brasileiro, mencionando a construção de Brasília na década de 1950, com \"ruas traçadas no formato de um avião, simbolizando um país pronto para decolar\"."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A jovem acrescenta que analisa o histórico do candidato e possíveis envolvimentos em casos de corrupção. “A gente precisa de um candidato que nos represente. Se coloco um com a ficha suja no poder, ele estará me representando de alguma forma”, destaca."
+            "resposta": "\"No entanto, ele continua parado na pista. Ao longo do último meio século, em vez de ganhar os céus, a economia brasileira estagnou tanto em relação a seus pares quanto em comparação ao crescimento médio global. A eleição geral de 4 de outubro oferece pouca esperança de uma reviravolta\", escreve."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Além da vida pública, a vida pessoal do candidato, como a religião e o histórico familiar, é citada como um dos critérios para essa seleção. Segundo a enfermeira Carina dos Santos, família e religião são pilares que influenciam a decisão final."
+            "resposta": "Essa não é a primeira comparação com decolagem que a revista faz sobre o Brasil. Em 2009, ela publicou a icônica capa em que estátua do Cristo Redentor aparece subindo aos céus como foguete , com o título \"Brazil takes off\" ou Brasil decola, na tradução para o português."
           }
         ]
       }
     },
     {
-      "id": "b55316bcdd5d7768",
-      "titulo": "Reta final: Papo de Eleições analisa estratégias dos candidatos ao governo do ES",
+      "id": "5af558b0040bf133",
+      "titulo": "Vereadora Verônica Costa procurada, conversa de Flávio Bolsonaro e Vorcaro e mais #notícias",
       "categoria": "Política ES",
       "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/es/politica/reta-final-papo-de-eleicoes-analisa-estrategias-dos-candidatos-ao-governo-do-es-0926",
-      "dataFonte": "2026-09-24T17:57:00.000Z",
-      "resumoFonte": "Letícia Gonçalves e Vitor Vogas comentam as últimas movimentações da campanha eleitoral e desempenho dos concorrentes durante debate na útlima terça-feira (22)",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790270343669_papo_de_eleicoes_7.png",
-      "descobertaEm": "2026-09-24T19:14:26.910Z"
+      "fonteNome": "YouTube Folha Vitória",
+      "urlFonte": "https://www.youtube.com/shorts/-AELR56wfSM",
+      "dataFonte": "2026-09-24T21:00:07.000Z",
+      "resumoFonte": "A polícia procura pela ex-vereadora do PL pelo Rio de Janeiro, Verônica Costa. Conhecida como &quot;Mãe loira do funk&quot;, ela foi foi condenada por torturar o ex-marido. Veja outros destaques de hoje (24): Justiça manda prender Veronica Costa, a &quot;Mãe loira do funk&quot; ▶️ https://www.folhavitoria.com.br/e/8028082 Flávio Bolsonaro tentou li",
+      "imagem": "https://i.ytimg.com/vi/-AELR56wfSM/sardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLAk9DHqpmY4UA62ra3FnmTgl8R7-g",
+      "descobertaEm": "2026-09-24T22:33:28.396Z"
     },
     {
-      "id": "d6e59cb947180d16",
-      "titulo": "Paulo Hartung declara apoio a Evair de Melo para senador",
+      "id": "925ef7843f01ac60",
+      "titulo": "Se eu justificar o voto, posso fazer concurso público? Entenda",
       "categoria": "Política ES",
       "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/colunas/vitor-vogas/paulo-hartung-declara-apoio-a-evair-de-melo-para-senador-0926",
-      "dataFonte": "2026-09-24T16:27:52.000Z",
-      "resumoFonte": "Ex-governador gravou um vídeo com declaração de apoio ao deputado do Republicanos para o Senado Federal. A informação foi confirmada pela assessoria de Hartung. Evair é aliado de Pazolini",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1780326219010_2025_05_22_paulo_hartung_economista_ex_governador_do_estado_do_espirito_santo_2736080_article.webp",
-      "descobertaEm": "2026-09-24T19:14:26.910Z"
+      "fonteNome": "A Gazeta - Política",
+      "urlFonte": "https://www.agazeta.com.br/es/politica/se-eu-justificar-o-voto-posso-fazer-concurso-publico-entenda-0726",
+      "dataFonte": "2026-09-24T19:12:28.000Z",
+      "resumoFonte": "Quem deixa de votar e de justificar a ausência no pleito sofre uma série de restrições; confira",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1784915469375_copia_de_template_abre_site_eleicoes_2026_10.jpg",
+      "descobertaEm": "2026-09-24T22:30:05.555Z",
+      "reportagem": {
+        "titulo": "Se eu justificar o voto, posso fazer concurso público? Entenda",
+        "slug": "se-eu-justificar-o-voto-posso-fazer-concurso-publico-entenda",
+        "categoria": "Política ES",
+        "data": "2026-09-24",
+        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1784915469375_copia_de_template_abre_site_eleicoes_2026_10.jpg",
+        "resumo": "Quem deixa de votar e de justificar a ausência no pleito sofre uma série de restrições; confira",
+        "conteudo": "<p>Quase 3 milhões de p essoas no Espírito Santo estão aptas a ir às urnas nas Eleições 2026 . O voto é obrigatório para quem tem de 18 a 70 anos , e a ausência no pleito pode trazer algumas consequências para o eleitor. Por isso, muitos têm dúvidas, se, por exemplo, quem justificou o voto pode fazer concurso público . A resposta é sim.</p><h2>Chefe do cartório da 1ª Zona Eleitoral do Tribunal</h2><p>A chefe do cartório da 1ª Zona Eleitoral do Tribunal Regional Eleitoral do Espírito Santo (TRE-ES) , Giane Medeiros, explicou que o eleitor pode prestar concurso público e tomar posse, desde que esteja quite com a Justiça Eleitoral. Estar em dia significa que o eleitor cumpriu suas obrigações: ou ele votou, ou ele justificou a sua ausência dentro do prazo legal.</p><p>Giane lembra que o impedimento para assumir cargos de concursos públicos surge apenas quando o eleitor não vota nem justifica a ausência. Caso o cidadão falte a três eleições consecutivas sem apresentar justificativa ou pagar as multas devidas, o seu título de eleitor é cancelado.</p><p>Nessa situação, o eleitor perde a quitação eleitoral, o que costuma ser um dos itens obrigatórios exigidos nos editais de concursos públicos para a investidura no cargo.</p><h2>Mesmo para quem está com o título cancelado por</h2><p>Mesmo para quem está com o título cancelado por falta de votação e justificativa, ainda há solução. Giane explica que, mesmo no período em que o cadastro eleitoral está fechado para atualizações, o eleitor pode procurar o cartório para quitar seus débitos .</p><p>Nesses casos, a Justiça Eleitoral emite uma certidão circunstanciada. &quot;A certidão vai dizer que ele está quite com a Justiça Eleitoral. Só não tem como atualizar os dados no sistema no momento porque o cadastro está fechado, mas ele consegue ainda assim levar para o concurso&quot;, detalha a chefe de cartório.</p><p>Enquanto não regularizar a situação com a Justiça Eleitoral, o eleitor não poderá:</p>",
+        "fonteNome": "A Gazeta - Política",
+        "fonteUrl": "https://www.agazeta.com.br/es/politica/se-eu-justificar-o-voto-posso-fazer-concurso-publico-entenda-0726",
+        "fontesAdicionais": [
+          {
+            "nome": "Assembleia Legislativa do ES",
+            "url": "https://www.al.es.gov.br/"
+          },
+          {
+            "nome": "Governo do Estado do ES",
+            "url": "https://www.es.gov.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Quase 3 milhões de p essoas no Espírito Santo estão aptas a ir às urnas nas Eleições 2026 . O voto é obrigatório para quem tem de 18 a 70 anos , e a ausência no pleito pode trazer algumas consequências para o eleitor. Por isso, muitos têm dúvidas, se, por exemplo, quem justificou o voto pode fazer concurso público . A resposta é sim."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A chefe do cartório da 1ª Zona Eleitoral do Tribunal Regional Eleitoral do Espírito Santo (TRE-ES) , Giane Medeiros, explicou que o eleitor pode prestar concurso público e tomar posse, desde que esteja quite com a Justiça Eleitoral. Estar em dia significa que o eleitor cumpriu suas obrigações: ou ele votou, ou ele justificou a sua ausência dentro do prazo le"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Giane lembra que o impedimento para assumir cargos de concursos públicos surge apenas quando o eleitor não vota nem justifica a ausência. Caso o cidadão falte a três eleições consecutivas sem apresentar justificativa ou pagar as multas devidas, o seu título de eleitor é cancelado."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Nessa situação, o eleitor perde a quitação eleitoral, o que costuma ser um dos itens obrigatórios exigidos nos editais de concursos públicos para a investidura no cargo."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Mesmo para quem está com o título cancelado por falta de votação e justificativa, ainda há solução. Giane explica que, mesmo no período em que o cadastro eleitoral está fechado para atualizações, o eleitor pode procurar o cartório para quitar seus débitos ."
+          }
+        ]
+      }
+    },
+    {
+      "id": "7068dfc844204908",
+      "titulo": "Dupla é presa suspeita de aplicar golpe de boleto falso com Pix em lotéricas",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "YouTube Folha Vitória",
+      "urlFonte": "https://www.youtube.com/shorts/YlKwRAjzB6Y",
+      "dataFonte": "2026-09-24T21:45:41.000Z",
+      "resumoFonte": "🚨 Dois homens foram presos em flagrante, suspeitos de aplicar golpes com pagamentos de boletos via Pix em lotéricas de Colatina, no Noroeste do Espírito Santo. Os detidos foram identificados como Diego Adelino de Lima e Gabriel Marcelo Santos. Imagens do sistema de monitoramento de uma lotérica mostraram a movimentação da dupla no estabelecimento.",
+      "imagem": "https://i.ytimg.com/vi/YlKwRAjzB6Y/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLAmEhONnHzgIZo5k_SyJOsIexEPJQ&usqp=CCk",
+      "descobertaEm": "2026-09-24T22:33:28.396Z"
+    },
+    {
+      "id": "fa0f259794a2f4ae",
+      "titulo": "Bastidores do debate ao governo do ES",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "YouTube A Gazeta",
+      "urlFonte": "https://www.youtube.com/shorts/KoM8iI2bj8o",
+      "dataFonte": "2026-09-24T21:00:16.000Z",
+      "resumoFonte": "Veja como funciona a produção nos bastidores do debate ao governo do Espírito Santo realizado pela CBN Vitória e A Gazeta. Uma equipe de produção, técnicos, sonoplastia, cinegrafistas, fotógrafos, repórteres e equipe de redes sociais trabalhou para levar o debate ao público. 📲 Leia mais em www.agazeta.com.br #shorts #debate #espiritosanto #jornali",
+      "imagem": "https://i.ytimg.com/vi/KoM8iI2bj8o/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLAws98QY65O0dNQb7WLvRKUaXSsvA&usqp=CCk",
+      "descobertaEm": "2026-09-24T22:33:28.396Z"
+    },
+    {
+      "id": "09edd10b6da14d38",
+      "titulo": "O menor campeonato do mundo foi no ES",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "YouTube A Gazeta",
+      "urlFonte": "https://www.youtube.com/shorts/e3EiLFZ3YT4",
+      "dataFonte": "2026-09-24T20:30:35.000Z",
+      "resumoFonte": "Em 1996, o Campeonato Capixaba Série B teve apenas dois times na disputa: Estrela do Norte e Capixaba de Guaçuí. Seis dos oito clubes inscritos desistiram por falta de patrocínio em ano eleitoral. O título foi decidido em dois jogos, e a revista Placar chamou o torneio de menor campeonato do mundo. O Estrela do Norte venceu e conquistou seu primeir",
+      "imagem": "https://i.ytimg.com/vi/e3EiLFZ3YT4/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLD22Hw18BQ9OsBhPKxj7ThNfT1m1g&usqp=CCk",
+      "descobertaEm": "2026-09-24T22:33:28.396Z"
+    },
+    {
+      "id": "8c559924df0982c0",
+      "titulo": "Debate ao governo do ES: os melhores momentos",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "YouTube A Gazeta",
+      "urlFonte": "https://www.youtube.com/shorts/OFNUqsHVBkk",
+      "dataFonte": "2026-09-24T20:13:56.000Z",
+      "resumoFonte": "Comentaristas analisam os principais momentos do debate ao governo do Espírito Santo, realizado na última terça-feira (22) pela CBN Vitória e A Gazeta. Os candidatos Helder Salomão (PT), Lorenzo Pazolini (Republicanos) e Ricardo Ferraço (MDB) participaram do encontro. O debate completo está disponível no YouTube de A Gazeta e no site da CBN Vitória",
+      "imagem": "https://i.ytimg.com/vi/OFNUqsHVBkk/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLBcKHDjOcGL-23nex-j4AyuqPVwnw&usqp=CCk",
+      "descobertaEm": "2026-09-24T22:33:28.396Z"
+    },
+    {
+      "id": "b7626c8c5941815e",
+      "titulo": "Homens no porta-malas de carro na Terceira Ponte",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "YouTube A Gazeta",
+      "urlFonte": "https://www.youtube.com/shorts/qlrP2onANOU",
+      "dataFonte": "2026-09-24T20:00:38.000Z",
+      "resumoFonte": "Um carro foi flagrado com homens sentados no porta-malas aberto na Terceira Ponte, no trajeto de Vila Velha para Vitória, no Espírito Santo. Nas imagens, o trio aparecia com câmeras nas mãos, aparentemente filmando um grupo de motociclistas. A Polícia Militar e a Ceturb-ES informaram que não havia registro relacionado à situação. 📲 Leia mais em ww",
+      "imagem": "https://i.ytimg.com/vi/qlrP2onANOU/hq720.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLCzCZXN5ZqOpTsgkvx6uz3i-9KJuQ",
+      "descobertaEm": "2026-09-24T22:33:28.396Z"
     },
     {
       "id": "15a9aa151001b08f",
@@ -161,18 +289,6 @@
       "descobertaEm": "2026-09-24T19:16:54.074Z"
     },
     {
-      "id": "8d100c308e645860",
-      "titulo": "Sombra na praia suspensa em Vila Velha, ES",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "YouTube A Gazeta",
-      "urlFonte": "https://www.youtube.com/shorts/vlBcwDUBYr0",
-      "dataFonte": "2026-09-24T16:30:28.000Z",
-      "resumoFonte": "A Justiça Federal determinou que a Prefeitura de Vila Velha, no Espírito Santo, suspenda a regra do Plano Diretor Municipal que permitia a projeção de sombra de prédios sobre a faixa de areia a partir das 15 horas. A decisão atende a pedido do Ministério Público Federal e obriga o município a retomar o limite anterior, de 16 horas, já fixado em aco",
-      "imagem": "https://i.ytimg.com/vi/vlBcwDUBYr0/sardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLAxOQEXbacU3tBSE_5CoJjfZiu9jw",
-      "descobertaEm": "2026-09-24T19:16:54.074Z"
-    },
-    {
       "id": "14fa06e85640e973",
       "titulo": "Guia do eleitor: não fiz o cadastro da biometria, posso votar nas eleições?",
       "categoria": "Política ES",
@@ -181,8 +297,8 @@
       "urlFonte": "https://www.youtube.com/shorts/-oFcGaU0QD4",
       "dataFonte": "2026-09-24T15:01:14.000Z",
       "resumoFonte": "#Eleições2026 🗳️ Ainda não fez a biometria? Isso não impede você de votar nas eleições deste ano, desde que o título esteja regularizado. A biometria ajuda a tornar a identificação mais segura e rápida durante a votação, mas quem ainda não fez o cadastro pode votar normalmente se estiver com a situação eleitoral regular. Salve este vídeo e compart",
-      "imagem": "https://i.ytimg.com/vi/-oFcGaU0QD4/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLCBPy5f3DTSLaonuXzSLn5YS_G2xg&usqp=CCk",
-      "descobertaEm": "2026-09-24T15:13:33.990Z"
+      "imagem": "https://i.ytimg.com/vi/-oFcGaU0QD4/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAAAAJQAAyEI9AICiQ3gBuALzGA==&rs=AOn4CLA2cLhTwSnjJ7XlgtDRLApIJ0IkpA&usqp=CCk",
+      "descobertaEm": "2026-09-24T22:33:28.396Z"
     },
     {
       "id": "e0fdae9712f8a378",
@@ -194,19 +310,19 @@
       "dataFonte": "2026-09-24T14:00:56.000Z",
       "resumoFonte": "EMOCIONANTE 🥲 “Minha Vida com Shurastey”, filme de Diego Freitas baseado na história real do influenciador brasileiro Jesse Koz e de seu cachorro Shurastey, um golden retriever, ganhou o primeiro trailer. Estrelado por Nicolas Prattes, o longa acompanha a viagem da dupla em um Fusca branco de 1978. Eles percorreram 17 países em uma jornada entre U",
       "imagem": "https://i.ytimg.com/vi/l5OPO-Dx2co/hq720.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLDVKWuF4Rk5UTLI9IzOHsKz8AAdXQ",
-      "descobertaEm": "2026-09-24T19:16:54.074Z"
+      "descobertaEm": "2026-09-24T22:33:28.396Z"
     },
     {
-      "id": "2bf9e941ebae014a",
-      "titulo": "A natureza não é de esquerda nem de direita, mas depende de decisões políticas",
-      "categoria": "Política ES",
+      "id": "fcb07f2833969a46",
+      "titulo": "Datafolha, 2º turno: Lula, 47%; Flávio Bolsonaro, 45%",
+      "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "YouTube Folha Vitória",
-      "urlFonte": "https://www.youtube.com/shorts/WC6rfrLGCbQ",
-      "dataFonte": "2026-09-24T09:00:45.000Z",
-      "resumoFonte": "A natureza não vota, mas está em todas as decisões depois da urna. 🌿 Nas Eleições 2026, meio ambiente também precisa entrar na conversa sobre economia, saúde, agricultura, cidades e qualidade de vida. Água na torneira, alimento na mesa, café nas montanhas capixabas, rios, florestas, manguezais, calor e chuva fazem parte da mesma discussão. A natur",
-      "imagem": "https://i.ytimg.com/vi/WC6rfrLGCbQ/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAAAAJQAAyEI9AICiQ3gBuAL3GA==&rs=AOn4CLDUiK4lEKHJsQ5WOFSciIrZ5Sc2kA&usqp=CCk",
-      "descobertaEm": "2026-09-24T19:16:54.074Z"
+      "fonteNome": "CBN - Política",
+      "urlFonte": "https://cbn.globo.com/politica/noticia/2026/09/24/datafolha-2o-turno-lula-47percent-flavio-bolsonaro-45percent.ghtml",
+      "dataFonte": "2026-09-24T21:52:07.577Z",
+      "resumoFonte": "Datafolha, 2º turno: Lula, 47%; Flávio Bolsonaro, 45%",
+      "imagem": "https://s2-cbn.glbimg.com/i3nwbXwb6UWHHMJc3-hePbFSu3s=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/w/D/m66z5pQ3iDNS5ae1BE0Q/site-template-grade-de-fotos-2026-08-14t175458.588.png",
+      "descobertaEm": "2026-09-24T22:30:05.555Z"
     },
     {
       "id": "427081f1f71005c8",
@@ -277,26 +393,26 @@
       "descobertaEm": "2026-09-24T19:14:26.910Z"
     },
     {
-      "id": "a4cd373b6a1da8c4",
-      "titulo": "Federação União Progressista deve apoiar Flávio Bolsonaro em eventual 2° turno",
+      "id": "33cf4c163a0b3330",
+      "titulo": "Fachin manda a PGR opinar sobre pedido do governo contra afastamento de Andrei",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "CBN - Política",
-      "urlFonte": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/24/federacao-uniao-progressista-deve-apoiar-flavio-bolsonaro-em-eventual-2-turno.ghtml",
-      "dataFonte": "2026-09-24T18:27:50.962Z",
-      "resumoFonte": "União Progressista caminha para apoiar o candidato à presidência Flávio Bolsonaro em um eventual segundo turno. Nesta quinta-feira (24), o senador Ciro Nogueira, presidente nacional do PP, conversou com o deputado federal Maurício Neves, presidente do PP no estado de São Paulo, sobre a possibilidade.",
-      "imagem": "https://s2-cbn.glbimg.com/nB0WLD5h6cpYN_Ki3vcYJKyZwDY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/G/u/yqIkmFSAulgjP6Kr5jOA/pol428890.jpg",
-      "descobertaEm": "2026-09-24T19:14:26.910Z",
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/fachin-manda-a-pgr-opinar-sobre-pedido-do-governo-contra-afastamento-de-andrei/",
+      "dataFonte": "2026-09-24T21:40:00.000Z",
+      "resumoFonte": "Nesta quinta-feira, 24, o presidente do Supremo Tribunal Federal (STF), Edson Fachin, mandou a Procuradoria-Geral da República (PGR) opinar sobre o pedido do governo Lula para suspender a decisão que afastou o diretor-geral da Polícia Federal (PF), Andrei Rodrigues. A medida, determinada pelo ministro André Mendonça, também atingiu o diretor de…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/02/FTA20260202278.jpg.webp",
+      "descobertaEm": "2026-09-24T22:30:05.555Z",
       "reportagem": {
-        "titulo": "Federação União Progressista deve apoiar Flávio Bolsonaro em eventual 2° turno",
-        "slug": "federacao-uniao-progressista-deve-apoiar-flavio-bolsonaro-em-eventual-2-turno",
+        "titulo": "Fachin manda a PGR opinar sobre pedido do governo contra afastamento de Andrei",
+        "slug": "fachin-manda-a-pgr-opinar-sobre-pedido-do-governo-contra-afastamento-de-andrei",
         "categoria": "Política Nacional",
         "data": "2026-09-24",
-        "imagem": "https://s2-cbn.glbimg.com/nB0WLD5h6cpYN_Ki3vcYJKyZwDY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/G/u/yqIkmFSAulgjP6Kr5jOA/pol428890.jpg",
-        "resumo": "União Progressista caminha para apoiar o candidato à presidência Flávio Bolsonaro em um eventual segundo turno. Nesta quinta-feira (24), o senador Ciro Nogueira, presidente nacional do PP, conversou com o deputado federal Maurício Neves, presidente do PP no estado de São Paulo, sobre a possibilidade.",
-        "conteudo": "<p>A federação União Progressista caminha para apoiar o candidato à presidência Flávio Bolsonaro em um eventual segundo turno. Nesta quinta-feira (24), o senador Ciro Nogueira, presidente nacional do PP, conversou com o deputado federal Maurício Neves, presidente do PP no estado de São Paulo, sobre a possibilidade.</p><h2>TSE barra candidatura de José Roberto Arruda ao governo</h2><p>TSE barra candidatura de José Roberto Arruda ao governo do Distrito Federal Lula diz que o ‘amigo’ dele é o povo ao negar intimidade com Daniel Vorcaro</p><p>Após a ligação, Neves disse que tem certeza de que o partido tomará a &quot;decisão certa&quot; na reunião da Executiva do dia 6 de outubro O deputado ainda disse que vem &quot;trabalhado diariamente&quot; para que o PP e a federação União Progressista apoiem Flávio Bolsonaro no segundo turno. Em São Paulo, a sigla já apoia o filho do ex-presidente desde o início da campanha.</p><p>O movimento ganhou força com a adesão de outros nomes do grupo, como o do deputado Ricardo Barros (PP-PR), que também falou que propôs ao PP o apoio a Flávio no segundo turno. O parlamentar diz que o pensamento é majoritário no partido.</p><h2>No dia 31 de julho, o PP decidiu pela</h2><p>No dia 31 de julho, o PP decidiu pela neutralidade no primeiro turno. O que facilitaria a articulação de Lula nos palanques regionais, uma vez que os estados foram liberados para apoiar quem fosse conveniente. Fato que impediu a senadora Tereza Cristina de ser &quot;a vice dos sonhos&quot; de Flávio Bolsonaro.</p><p>Nos bastidores, Ciro Nogueira teria fechado um acordo velado com Lula para que o presidente não o atrapalhasse na campanha de reeleição no Piauí, estado que deu a maior votação a Lula em 2022, em troca da neutralidade.</p><p>No entanto, em comício no Piauí, no início do mês, Lula que tinha a orientação dos aliados de &quot;silenciar&quot; sobre Ciro, se referiu ao senador como &quot;vira-lata&quot; ao dizer que não tinha outro candidato ao Senado no estado, pois não aceita a espécie do seu lado. A fala, de acordo com interlocutores de Ciro, irritou o cacique do centrão, que nos eventos de campanha evitar falar mal de Lula.</p><p>Em sabatina, Kalil diz que errou ao deixar prefeitura de BH para disputar governo estadual em 2022</p><p>Em sabatina, Kalil diz que errou ao deixar prefeitura de BH para disputar governo estadual em 2022</p><p>TSE barra candidatura de José Roberto Arruda ao governo do Distrito Federal</p><p>Lula diz que o ‘amigo’ dele é o povo ao negar intimidade com Daniel Vorcaro</p><p>'O Rio em cinco atos': após demissões de fantasmas e assinatura do Propag, RJ projeta superávit para 2027</p>",
-        "fonteNome": "CBN - Política",
-        "fonteUrl": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/24/federacao-uniao-progressista-deve-apoiar-flavio-bolsonaro-em-eventual-2-turno.ghtml",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/02/FTA20260202278.jpg.webp",
+        "resumo": "A Fachin, União contesta decisão de Mendonça que determinou afastamento do diretor-geral da PF. Clique para sabe rmais",
+        "conteudo": "<p>Formado em jornalismo pela Universidade Presbiteriana Mackenzie, é editor em Brasília. Em Oeste, atuou como repórter especial, editor-assistente e redator. Começou a carreira na revista Veja, na coluna de Augusto Nunes. Cobre política, Judiciário e Mundo</p><h2>• Fachin pediu parecer da PGR sobre pedido do</h2><p>• Fachin pediu parecer da PGR sobre pedido do governo contra afastamento de Andrei; • A AGU contesta a decisão de Mendonça e alega risco ao funcionamento da PF; e • O novo despacho não resolve o pedido nem altera a situação dos dirigentes.</p><p>Nesta quinta-feira, 24, o presidente do Supremo Tribunal Federal (STF), Edson Fachin, mandou a Procuradoria-Geral da República (PGR) opinar sobre o pedido do governo Lula para suspender a decisão que afastou o diretor-geral da Polícia Federal (PF), Andrei Rodrigues. A medida, determinada pelo ministro André Mendonça, também atingiu o diretor de Inteligência Policial da corporação, Leandro Almada.</p><p>Paralelamente, Mendonça havia determinado a abertura de investigações criminais e de procedimentos administrativos para apurar os fatos.</p><h2>Ele também suspendeu a produção e o compartilhamento de</h2><p>Ele também suspendeu a produção e o compartilhamento de relatórios de inteligência destinados à análise de atos praticados no exercício das funções constitucionais de prestação jurisdicional, advocacia pública e polícia judiciária.</p><p>A Advocacia-Geral da União (AGU) sustentou que Mendonça invadiu atribuições de Lula a respeito da direção da PF e que o afastamento dos dirigentes poderia comprometer o funcionamento da instituição.</p><p>O governo também interpelou a competência do ministro para decidir acerca do assunto.</p><p>De acordo com a AGU, os fatos relacionados à produção e à divulgação dos relatórios de inteligência já estavam sob análise de Fachin na Petição 16.704 e deveriam ser examinados pelo plenário.</p><p>Com esses argumentos, a AGU pediu a suspensão imediata dos efeitos da decisão de Mendonça, até um pronunciamento definitivo do órgão competente do Supremo.</p><p>Em manifestação de 11 de setembro, Mendonça rebateu os argumentos do governo e defendeu a decisão.</p><p>O magistrado afirmou que o afastamento preventivo de servidores por ordem judicial encontra respaldo em precedentes do próprio STF e não representa, por si só, interferência indevida nas atribuições do Executivo.</p><p>Mendonça também contestou a alegação de que teria invadido a competência do plenário.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/fachin-manda-a-pgr-opinar-sobre-pedido-do-governo-contra-afastamento-de-andrei/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -311,159 +427,23 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "A federação União Progressista caminha para apoiar o candidato à presidência Flávio Bolsonaro em um eventual segundo turno. Nesta quinta-feira (24), o senador Ciro Nogueira, presidente nacional do PP, conversou com o deputado federal Maurício Neves, presidente do PP no estado de São Paulo, sobre a possibilidade."
+            "resposta": "Formado em jornalismo pela Universidade Presbiteriana Mackenzie, é editor em Brasília. Em Oeste, atuou como repórter especial, editor-assistente e redator. Começou a carreira na revista Veja, na coluna de Augusto Nunes. Cobre política, Judiciário e Mundo"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "TSE barra candidatura de José Roberto Arruda ao governo do Distrito Federal Lula diz que o ‘amigo’ dele é o povo ao negar intimidade com Daniel Vorcaro"
+            "resposta": "• Fachin pediu parecer da PGR sobre pedido do governo contra afastamento de Andrei; • A AGU contesta a decisão de Mendonça e alega risco ao funcionamento da PF; e • O novo despacho não resolve o pedido nem altera a situação dos dirigentes."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Após a ligação, Neves disse que tem certeza de que o partido tomará a \"decisão certa\" na reunião da Executiva do dia 6 de outubro O deputado ainda disse que vem \"trabalhado diariamente\" para que o PP e a federação União Progressista apoiem Flávio Bolsonaro no segundo turno. Em São Paulo, a sigla já apoia o filho do ex-presidente desde o início da campanha."
+            "resposta": "Nesta quinta-feira, 24, o presidente do Supremo Tribunal Federal (STF), Edson Fachin, mandou a Procuradoria-Geral da República (PGR) opinar sobre o pedido do governo Lula para suspender a decisão que afastou o diretor-geral da Polícia Federal (PF), Andrei Rodrigues. A medida, determinada pelo ministro André Mendonça, também atingiu o diretor de Inteligência "
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "O movimento ganhou força com a adesão de outros nomes do grupo, como o do deputado Ricardo Barros (PP-PR), que também falou que propôs ao PP o apoio a Flávio no segundo turno. O parlamentar diz que o pensamento é majoritário no partido."
+            "resposta": "Paralelamente, Mendonça havia determinado a abertura de investigações criminais e de procedimentos administrativos para apurar os fatos."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "No dia 31 de julho, o PP decidiu pela neutralidade no primeiro turno. O que facilitaria a articulação de Lula nos palanques regionais, uma vez que os estados foram liberados para apoiar quem fosse conveniente. Fato que impediu a senadora Tereza Cristina de ser \"a vice dos sonhos\" de Flávio Bolsonaro."
-          }
-        ]
-      }
-    },
-    {
-      "id": "d25e6d9de77371ae",
-      "titulo": "A ONG que recebeu emendas de Flávio Bolsonaro e Chiquinho Brazão investigada pela PF",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/brasil/a-ong-que-recebeu-emendas-de-flavio-bolsonaro-e-chiquinho-brazao-investigada-pela-pf/",
-      "dataFonte": "2026-09-24T18:23:19.000Z",
-      "resumoFonte": "Instituto de Formação Profissional José Carlos Procópio (Ifop) se apresenta como 'uma associação civil sem fins lucrativos, de natureza privada'",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/GettyImages-2293606676.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-24T19:14:26.910Z",
-      "reportagem": {
-        "titulo": "A ONG que recebeu emendas de Flávio Bolsonaro e Chiquinho Brazão investigada pela PF",
-        "slug": "a-ong-que-recebeu-emendas-de-flavio-bolsonaro-e-chiquinho-brazao-investigada-pela-pf",
-        "categoria": "Política Nacional",
-        "data": "2026-09-24",
-        "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/GettyImages-2293606676.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "resumo": "Instituto de Formação Profissional José Carlos Procópio (Ifop) se apresenta como 'uma associação civil sem fins lucrativos, de natureza privada'",
-        "conteudo": "<p>Uma investiga&amp;ccedil;&amp;atilde;o da Pol&amp;iacute;cia Federal (PF) apontou que o Instituto de Forma&amp;ccedil;&amp;atilde;o Profissional Jos&amp;eacute; Carlos Proc&amp;oacute;pio (Ifop) recebeu milhares de reais do senador Fl&amp;aacute;vio Bolsonaro (PL) , da deputada federal Chris Tonietto (PL-RJ) e do ex-deputado federal Chiquinho Braz&amp;atilde;o , condenado pelo assassinato da vereadora carioca Marielle Franco (PSOL) e do motorista Anderson Torres . As verbas, supostamente destinadas a a&amp;ccedil;&amp;otilde;es sociais, nunca teriam sido convertidos em doa&amp;ccedil;&amp;otilde;es e seriam os &amp;uacute;nicos valores recebidos pela ONG.</p><h2>No site oficial, o Ifop se apresenta como &amp;ldquo;uma</h2><p>No site oficial, o Ifop se apresenta como &amp;ldquo;uma associa&amp;ccedil;&amp;atilde;o civil sem fins lucrativos, de natureza privada, fundada em 2008 na cidade do Rio de Janeiro &amp;ndash; RJ com a miss&amp;atilde;o de atuar nos mais variados segmentos&amp;rdquo;. O instituto tamb&amp;eacute;m se prop&amp;otilde;e a oferecer educa&amp;ccedil;&amp;atilde;o de qualidade, esporte, lazer, cursos e capacita&amp;ccedil;&amp;atilde;o profissional a pessoas de &amp;ldquo;menor poder aquisitivo&amp;rdquo;.</p><p>&amp;ldquo; Decorrendo assim, que as pessoas impactadas pelas a&amp;ccedil;&amp;otilde;es alcan&amp;ccedil;assem o seu melhor potencial, de tal maneira que hoje o IFOP se orgulha de ter em seu hist&amp;oacute;rico grandes projetos j&amp;aacute; realizados junto Associa&amp;ccedil;&amp;otilde;es e Institui&amp;ccedil;&amp;otilde;es&amp;rdquo;, acrescenta o portal do Ifop.</p><p>+ &amp;lsquo;M&amp;atilde;e Loira do Funk&amp;rsquo;: condenada por tortura, ex-vereadora do PL &amp;eacute; considerada foragida</p><h2>Apura&amp;ccedil;&amp;otilde;es da revista Piau&amp;iacute; e dos jornais O GLOBO</h2><p>Apura&amp;ccedil;&amp;otilde;es da revista Piau&amp;iacute; e dos jornais O GLOBO e Estad&amp;atilde;o, com base em documentos da investiga&amp;ccedil;&amp;atilde;o da PF, mostram que parte das emendas parlamentares teria sido &amp;ldquo;desviada por meio de pagamentos indevidos&amp;rdquo;. Ao todo, Fl&amp;aacute;vio destinou R$ 200 mil, enquanto Tonietto e Braz&amp;atilde;o enviaram R$ 300 mil e R$ 1,5 milh&amp;atilde;o, respectivamente, &amp;agrave; ONG.</p><p>O valores, segundo o inqu&amp;eacute;rito, foram intermediados pelo miliciano Robson Calixto , o &amp;ldquo;Peixe&amp;rdquo;, que tamb&amp;eacute;m foi condenado pela morte de Marielle. No momento, a PF investiga se o repasse integra um esquema maior de desvios de verbas p&amp;uacute;blicas pelos irm&amp;atilde;os Braz&amp;atilde;o e aliados.</p><p>Na segunda-feira 21, um relat&amp;oacute;rio do Tribunal de Contas da Uni&amp;atilde;o (TCU), divulgado pelo jornal Valor Econ&amp;ocirc;mico, indicou suspeitas de irregularidades no uso da emenda de Fl&amp;aacute;vio pela ONG. &amp;ldquo;O Ifop, ao inv&amp;eacute;s de buscar condi&amp;ccedil;&amp;otilde;es mais vantajosas ou pre&amp;ccedil;os reduzidos, limitou-se a distribuir o valor total recebido entre os fornecedores e prestadores de servi&amp;ccedil;os contratados, sem demonstrar qualquer preocupa&amp;ccedil;&amp;atilde;o com a obten&amp;ccedil;&amp;atilde;o de economia ou efici&amp;ecirc;ncia na aplica&amp;ccedil;&amp;atilde;o dos recursos p&amp;uacute;blicos&amp;rdquo;, afirmou o documento.</p><p>VEJA tenta contato com o Ifop. O espa&amp;ccedil;o est&amp;aacute; aberto.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/brasil/a-ong-que-recebeu-emendas-de-flavio-bolsonaro-e-chiquinho-brazao-investigada-pela-pf/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Uma investiga&ccedil;&atilde;o da Pol&iacute;cia Federal (PF) apontou que o Instituto de Forma&ccedil;&atilde;o Profissional Jos&eacute; Carlos Proc&oacute;pio (Ifop) recebeu milhares de reais do senador Fl&aacute;vio Bolsonaro (PL) , da deputada federal Chris Tonietto (PL-RJ) e do ex-deputado federal Chiquinho Braz&atilde;o , condenado pelo assassinato da v"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "No site oficial, o Ifop se apresenta como &ldquo;uma associa&ccedil;&atilde;o civil sem fins lucrativos, de natureza privada, fundada em 2008 na cidade do Rio de Janeiro &ndash; RJ com a miss&atilde;o de atuar nos mais variados segmentos&rdquo;. O instituto tamb&eacute;m se prop&otilde;e a oferecer educa&ccedil;&atilde;o de qualidade, esporte, lazer, cursos "
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "&ldquo; Decorrendo assim, que as pessoas impactadas pelas a&ccedil;&otilde;es alcan&ccedil;assem o seu melhor potencial, de tal maneira que hoje o IFOP se orgulha de ter em seu hist&oacute;rico grandes projetos j&aacute; realizados junto Associa&ccedil;&otilde;es e Institui&ccedil;&otilde;es&rdquo;, acrescenta o portal do Ifop."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "+ &lsquo;M&atilde;e Loira do Funk&rsquo;: condenada por tortura, ex-vereadora do PL &eacute; considerada foragida"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Apura&ccedil;&otilde;es da revista Piau&iacute; e dos jornais O GLOBO e Estad&atilde;o, com base em documentos da investiga&ccedil;&atilde;o da PF, mostram que parte das emendas parlamentares teria sido &ldquo;desviada por meio de pagamentos indevidos&rdquo;. Ao todo, Fl&aacute;vio destinou R$ 200 mil, enquanto Tonietto e Braz&atilde;o enviaram R$ 300 mil e "
-          }
-        ]
-      }
-    },
-    {
-      "id": "ec65705cd4d3338f",
-      "titulo": "FOTOS: veja como é avião de Vorcaro usado por Flávio Bolsonaro e Moraes",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/noticia/2026/09/24/fotos-veja-como-e-aviao-de-vorcaro-usado-por-flavio-bolsonaro-e-moraes.ghtml",
-      "dataFonte": "2026-09-24T17:11:54.000Z",
-      "resumoFonte": "Flávio Bolsonaro viajou em jato ligado a Vorcaro A aeronave usada pelo senador e candidato à Presidência Flávio Bolsonaro (PL-RJ) e pelo ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), é um Legacy 650, jato executivo fabricado pela Embraer. O avião era administrado por uma empresa do banqueiro Daniel Vorcaro. 📱Favorite o g1 no…",
-      "imagem": "https://s2-g1.glbimg.com/13bTvJ2jFlJOvlB6xenwfpJmKsI=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/x/U/VnFzv7TaGhQhEKaicBAA/p1079211-1280x853.jpg",
-      "descobertaEm": "2026-09-24T19:14:26.910Z"
-    },
-    {
-      "id": "c2e3be8923116c24",
-      "titulo": "Flávio usou jatinho ligado a Vorcaro em viagem em 2025, diz revista",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Agência Brasil - Política",
-      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/flavio-usou-jatinho-ligado-vorcaro-em-viagem-em-2025-diz-revista",
-      "dataFonte": "2026-09-24T15:59:00.000Z",
-      "resumoFonte": "Reportagem publicada nesta quarta-feira (23) pela revista piauí revelou que o candidato do PL à presidência da República, Flávio Bolsonaro, viajou em janeiro de 2025 em um jato executivo ligado ao ex-banqueiro Daniel Vorcaro, investigado nas fraudes relacionadas ao Banco Master. O voo ocorreu entre Fort Lauderdale, nos Estados Unidos, e Brasília.…",
-      "imagem": "https://imagens.ebc.com.br/PYodJjBS7uCQfpm5k2RrJPqy50M=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/25/whatsapp_image_2026-07-25_at_18.26.34_3.jpeg?itok=G8PmWjXT",
-      "descobertaEm": "2026-09-24T19:14:26.910Z"
-    },
-    {
-      "id": "4b7c41159d9fe846",
-      "titulo": "Lula pede voto de eleitores da terceira idade:",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Correio Braziliense - Política",
-      "urlFonte": "https://www.correiobraziliense.com.br/politica/2026/09/7507811-lula-cobra-voto-de-eleitores-da-terceira-idade-desistiu-da-vida.html",
-      "dataFonte": "2026-09-24T15:33:00.000Z",
-      "resumoFonte": "Aceno ocorre em meio a pesquisas que apontam empate técnico entre Lula e Flávio Bolsonaro entre eleitores com mais de 60 anos",
-      "imagem": "https://midias.correiobraziliense.com.br/_midias/png/2026/09/24/675x450/1_lula-paes-67782006.png?20260924161246?20260924161246",
-      "descobertaEm": "2026-09-24T19:14:26.910Z",
-      "reportagem": {
-        "titulo": "Lula cobra voto de eleitores da terceira idade:",
-        "slug": "lula-cobra-voto-de-eleitores-da-terceira-idade",
-        "categoria": "Política Nacional",
-        "data": "2026-09-24",
-        "imagem": "https://midias.correiobraziliense.com.br/_midias/png/2026/09/24/675x450/1_lula-paes-67782006.png?20260924161246?20260924161246",
-        "resumo": "Aceno ocorre em meio a pesquisas que apontam empate técnico entre Lula e Flávio Bolsonaro entre eleitores com mais de 60 anos",
-        "conteudo": "<p>O presidente e candidato &amp;agrave; reelei&amp;ccedil;&amp;atilde;o pelo PT, Luiz In&amp;aacute;cio Lula da Silva , fez um aceno, nesta quinta-feira (24/9), aos eleitores com mais de 70 anos. Durante uma caminhada de campanha em S&amp;atilde;o Gon&amp;ccedil;alo, no Rio de Janeiro, o presidente comparou sua disposi&amp;ccedil;&amp;atilde;o na disputa eleitoral &amp;agrave; de idosos para ir &amp;agrave;s urnas no dia 4 de outubro.</p><h2>Siga o canal do Correio Braziliense no WhatsApp e</h2><p>Siga o canal do Correio Braziliense no WhatsApp e receba as principais notícias do dia no seu celular.</p><p>&quot;Se eu tenho 80 anos, estou aqui pulando e sou candidato, por que o cara de 70 anos iria dizer: &amp;lsquo;ah, n&amp;atilde;o preciso votar&amp;rsquo;. Desistiu da vida? Se ele n&amp;atilde;o tem motiva&amp;ccedil;&amp;atilde;o pra viver, ele tem filho&quot;, disse Lula, ao acrescentar que a identifica&amp;ccedil;&amp;atilde;o com uma causa &amp;eacute; o motivo para algu&amp;eacute;m decidir votar.</p><p>Leia Mais: Lula diz que governo deve priorizar o povo, n&amp;atilde;o os amigos</p><h2>No Brasil, diferentemente dos eleitores com idade entre 18</h2><p>No Brasil, diferentemente dos eleitores com idade entre 18 e 69 anos, o voto &amp;eacute; facultativo para pessoas com 70 anos ou mais. O aceno &amp;agrave; terceira idade ocorreu em meio a pesquisas que apontam empate t&amp;eacute;cnico entre Lula e Fl&amp;aacute;vio Bolsonaro entre eleitores com mais de 60 anos.</p><p>Publicada na ter&amp;ccedil;a-feira (22/9), uma pesquisa Quaest &amp;mdash; encomendada pela TV Globo &amp;mdash; mostrou que, entre eleitores com 60 anos ou mais, Lula tem 45%, e Fl&amp;aacute;vio Bolsonaro, 39%. Nesse recorte, a margem de erro &amp;eacute; de 5 pontos percentuais para mais ou para menos.</p><p>Al&amp;eacute;m do empate t&amp;eacute;cnico apontado entre esse segmento, a pesquisa Quaest tamb&amp;eacute;m registrou esse cen&amp;aacute;rio na an&amp;aacute;lise geral. O levantamento, que ouviu 2.004 pessoas de 16 anos ou mais entre os dias 17 e 20 de setembro, mostrou que Lula tem 37% e Fl&amp;aacute;vio Bolsonaro, 33% das inten&amp;ccedil;&amp;otilde;es de voto no 1&amp;ordm; turno.</p><p>Em eventual segundo turno entre os dois, a Quaest mostrou mais um empate t&amp;eacute;cnico. Fl&amp;aacute;vio Bolsonaro com 42% e Lula, com 41% dos votos.</p><p>Saiba Mais Política Voto envergonhado de bolsonaristas é mito ou verdade? Especialista da Universidade de Michigan explica Política PL de Damares propõe punição para vilipêndio de cadáver na internet Política Defesa de Bolsonaro recua e desiste de suspender execução da pena</p><p>Jornalista soteropolitano em Brasília, com experiência nos jornais O Estado de S.Paulo e A Tarde. Hoje, integro a equipe de Política, Economia e Brasil do Correio</p>",
-        "fonteNome": "Correio Braziliense - Política",
-        "fonteUrl": "https://www.correiobraziliense.com.br/politica/2026/09/7507811-lula-cobra-voto-de-eleitores-da-terceira-idade-desistiu-da-vida.html",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O presidente e candidato &agrave; reelei&ccedil;&atilde;o pelo PT, Luiz In&aacute;cio Lula da Silva , fez um aceno, nesta quinta-feira (24/9), aos eleitores com mais de 70 anos. Durante uma caminhada de campanha em S&atilde;o Gon&ccedil;alo, no Rio de Janeiro, o presidente comparou sua disposi&ccedil;&atilde;o na disputa eleitoral &agrave; de idosos para ir "
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Siga o canal do Correio Braziliense no WhatsApp e receba as principais notícias do dia no seu celular."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "\"Se eu tenho 80 anos, estou aqui pulando e sou candidato, por que o cara de 70 anos iria dizer: &lsquo;ah, n&atilde;o preciso votar&rsquo;. Desistiu da vida? Se ele n&atilde;o tem motiva&ccedil;&atilde;o pra viver, ele tem filho\", disse Lula, ao acrescentar que a identifica&ccedil;&atilde;o com uma causa &eacute; o motivo para algu&eacute;m decidir votar."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Leia Mais: Lula diz que governo deve priorizar o povo, n&atilde;o os amigos"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "No Brasil, diferentemente dos eleitores com idade entre 18 e 69 anos, o voto &eacute; facultativo para pessoas com 70 anos ou mais. O aceno &agrave; terceira idade ocorreu em meio a pesquisas que apontam empate t&eacute;cnico entre Lula e Fl&aacute;vio Bolsonaro entre eleitores com mais de 60 anos."
+            "resposta": "Ele também suspendeu a produção e o compartilhamento de relatórios de inteligência destinados à análise de atos praticados no exercício das funções constitucionais de prestação jurisdicional, advocacia pública e polícia judiciária."
           }
         ]
       }
@@ -486,7 +466,7 @@
         "data": "2026-09-24",
         "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/03/Haddad-2-scaled.jpg.webp",
         "resumo": "Número reduzido de candidaturas dificulta eleição em dois turnos, afirma o candidato do PT ao governo do Estado",
-        "conteudo": "<p>Jornalista formado pela Cásper Líbero, é pós-graduado em marketing político e propaganda eleitoral pela USP. Trabalhou no site da ESPN, pelo qual foi à China para cobrir a Olimpíada de Pequim, em 2008. Também teve passagens por Metrópoles, InfoMoney, O Antagonista, iG e Terra, cobrindo política e economia. Como assessor de imprensa, atuou na Câmara dos Deputados e no Ministério da Cultura. É autor dos livros “Dias: a Vida do Maior Jogador do São Paulo nos Anos 1960” e “20 Jogos Eternos do São Paulo”.</p><h2>Fernando Haddad, candidato do PT ao governo de São</h2><p>Fernando Haddad, candidato do PT ao governo de São Paulo, reconheceu que a eleição pode ser decidida já no primeiro turno, marcado para 4 de outubro, devido à competitividade entre ele e o governador Tarcísio de Freitas (Republicanos) e à ausência de outras candidaturas mais fortes. Apesar de Tarcísio liderar as pesquisas de intenção de voto, Haddad afirmou que ainda há espaço para reverter a situação em dez dias.</p><p>O candidato do PT ao governo de São Paulo, Fernando Haddad , reconheceu nesta quinta-feira, 24, que a disputa pelo Palácio dos Bandeirantes, que neste ano conta com apenas duas candidaturas realmente competitivas, pode terminar já no primeiro turno, no dia 4 de outubro.</p><p>O ex-ministro da Fazenda tenta reverter uma vantagem expressiva do governador do Estado, Tarcísio de Freitas (Republicanos), favorito à reeleição. Segundo as últimas pesquisas de intenção de voto, Tarcísio pode vencer a eleição já na primeira rodada.</p><h2>“Quando só tem dois candidatos, como é que vai</h2><p>“Quando só tem dois candidatos, como é que vai levar para o segundo turno?”, indagou Haddad, admitindo as próprias dificuldades na campanha. “Pode acabar no primeiro turno? Claro, só tem dois candidatos. Pode”, completou, durante sabatina ao Metrópoles.</p><p>Apesar de reconhecer o favoritismo do adversário, o petista procurou demonstrar confiança na reversão do cenário e disse que ainda é possível derrotar o atual governador.</p><p>“Eu entendo a ansiedade de querer dizer que está tudo liquidado, mas não está, ainda está tudo em aberto. E nós temos dez dias muito importantes pela frente”, afirmou.</p><p>Leia também: “Governo de SP: quem é quem na disputa pelo Palácio dos Bandeirantes”</p><p>Neste ano, seis candidaturas foram homologadas no maior colégio eleitoral do país, mas apenas duas são realmente competitivas – as de Tarcísio e Haddad.</p><p>Com apenas dois candidatos com chances reais de vitória, a eleição em São Paulo se transformou praticamente em uma disputa de segundo turno já no primeiro. O embate entre Tarcísio e Haddad reedita o confronto do pleito de 2022 e, segundo analistas políticos, pode até ser uma espécie de antecipação de um eventual duelo pela Presidência da República em 2030.</p><p>Tarcísio conta com a maior coligação de partidos e o maior tempo de propaganda eleitoral no rádio e na televisão (6min20s). Ex-ministro da Infraestrutura do governo de Jair Bolsonaro (PL), o governador de São Paulo é apoiado pelo senador Flávio Bolsonaro , candidato do PL à Presidência da República. Ele também tem o apoio do prefeito da capital paulista, Ricardo Nunes (MDB).</p><p>Com uma coligação de sete partidos políticos, Haddad unificou a esquerda em torno do seu nome na corrida pelo governo do Estado. O petista tem o apoio do presidente Luiz Inácio Lula da Silva (PT) e do vice-presidente Geraldo Alckmin (PSB) – que foi por quatro vezes governador do Estado. Também integram a chapa as ex-senadoras e ex-ministras Simone Tebet (PSB) e Marina Silva (Rede). Haddad tem 2min39s de propaganda eleitoral no rádio e na TV.</p>",
+        "conteudo": "<p>Jornalista formado pela Cásper Líbero, é pós-graduado em marketing político e propaganda eleitoral pela USP. Trabalhou no site da ESPN, pelo qual foi à China para cobrir a Olimpíada de Pequim, em 2008. Também teve passagens por Metrópoles, InfoMoney, O Antagonista, iG e Terra, cobrindo política e economia. Como assessor de imprensa, atuou na Câmara dos Deputados e no Ministério da Cultura. É autor dos livros “Dias: a Vida do Maior Jogador do São Paulo nos Anos 1960” e “20 Jogos Eternos do São Paulo”.</p><h2>• Fernando Haddad, candidato do PT ao governo de</h2><p>• Fernando Haddad, candidato do PT ao governo de São Paulo, reconheceu que a eleição pode ser decidida já no primeiro turno. • De acordo com o petista, isso pode ocorrer devido à ausência de outras candidaturas mais fortes. • Apesar de Tarcísio liderar as pesquisas de intenção de voto, Haddad afirmou que ainda há espaço para reverter a situação em dez dias.</p><p>O candidato do PT ao governo de São Paulo, Fernando Haddad , reconheceu nesta quinta-feira, 24, que a disputa pelo Palácio dos Bandeirantes, que neste ano conta com apenas duas candidaturas realmente competitivas, pode terminar já no primeiro turno, no dia 4 de outubro.</p><p>O ex-ministro da Fazenda tenta reverter uma vantagem expressiva do governador do Estado, Tarcísio de Freitas (Republicanos), favorito à reeleição. Segundo as últimas pesquisas de intenção de voto, Tarcísio pode vencer a eleição já na primeira rodada.</p><h2>“Quando só tem dois candidatos, como é que vai</h2><p>“Quando só tem dois candidatos, como é que vai levar para o segundo turno?”, indagou Haddad, admitindo as próprias dificuldades na campanha. “Pode acabar no primeiro turno? Claro, só tem dois candidatos. Pode”, completou, durante sabatina ao Metrópoles.</p><p>Apesar de reconhecer o favoritismo do adversário, o petista procurou demonstrar confiança na reversão do cenário e disse que ainda é possível derrotar o atual governador.</p><p>“Eu entendo a ansiedade de querer dizer que está tudo liquidado, mas não está, ainda está tudo em aberto. E nós temos dez dias muito importantes pela frente”, afirmou.</p><p>Leia também: “Governo de SP: quem é quem na disputa pelo Palácio dos Bandeirantes”</p><p>Neste ano, seis candidaturas foram homologadas no maior colégio eleitoral do país, mas apenas duas são realmente competitivas – as de Tarcísio e Haddad.</p><p>Com apenas dois candidatos com chances reais de vitória, a eleição em São Paulo se transformou praticamente em uma disputa de segundo turno já no primeiro. O embate entre Tarcísio e Haddad reedita o confronto do pleito de 2022 e, segundo analistas políticos, pode até ser uma espécie de antecipação de um eventual duelo pela Presidência da República em 2030.</p><p>Tarcísio conta com a maior coligação de partidos e o maior tempo de propaganda eleitoral no rádio e na televisão (6min20s). Ex-ministro da Infraestrutura do governo de Jair Bolsonaro (PL), o governador de São Paulo é apoiado pelo senador Flávio Bolsonaro , candidato do PL à Presidência da República. Ele também tem o apoio do prefeito da capital paulista, Ricardo Nunes (MDB).</p><p>Com uma coligação de sete partidos políticos, Haddad unificou a esquerda em torno do seu nome na corrida pelo governo do Estado. O petista tem o apoio do presidente Luiz Inácio Lula da Silva (PT) e do vice-presidente Geraldo Alckmin (PSB) – que foi por quatro vezes governador do Estado. Também integram a chapa as ex-senadoras e ex-ministras Simone Tebet (PSB) e Marina Silva (Rede). Haddad tem 2min39s de propaganda eleitoral no rádio e na TV.</p>",
         "fonteNome": "Revista Oeste - Feed",
         "fonteUrl": "https://revistaoeste.com/politica/em-desvantagem-haddad-admite-que-eleicao-em-sp-pode-acabar-no-1-turno/",
         "fontesAdicionais": [
@@ -507,7 +487,7 @@
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Fernando Haddad, candidato do PT ao governo de São Paulo, reconheceu que a eleição pode ser decidida já no primeiro turno, marcado para 4 de outubro, devido à competitividade entre ele e o governador Tarcísio de Freitas (Republicanos) e à ausência de outras candidaturas mais fortes. Apesar de Tarcísio liderar as pesquisas de intenção de voto, Haddad afirmou "
+            "resposta": "• Fernando Haddad, candidato do PT ao governo de São Paulo, reconheceu que a eleição pode ser decidida já no primeiro turno. • De acordo com o petista, isso pode ocorrer devido à ausência de outras candidaturas mais fortes. • Apesar de Tarcísio liderar as pesquisas de intenção de voto, Haddad afirmou que ainda há espaço para reverter a situação em dez dias."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
@@ -520,118 +500,6 @@
           {
             "pergunta": "Quais são os próximos desdobramentos?",
             "resposta": "“Quando só tem dois candidatos, como é que vai levar para o segundo turno?”, indagou Haddad, admitindo as próprias dificuldades na campanha. “Pode acabar no primeiro turno? Claro, só tem dois candidatos. Pode”, completou, durante sabatina ao Metrópoles."
-          }
-        ]
-      }
-    },
-    {
-      "id": "0a1d78ca25344410",
-      "titulo": "TSE rejeita recurso e barra candidatura de Arruda ao governo do DF",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/tse-rejeita-recurso-e-barra-candidatura-de-arruda-ao-governo-do-df/",
-      "dataFonte": "2026-09-24T18:42:01.000Z",
-      "resumoFonte": "O Tribunal Superior Eleitoral (TSE) rejeitou, nesta quinta-feira, 24, por 5 votos a 2, o recurso da defesa do ex-governador do Distrito Federal José Roberto Arruda (PSD) e manteve o indeferimento de sua candidatura ao governo do DF. Com a decisão, o nome de Arruda deve ser retirado das urnas. O relator, ministro Dias Toffoli, votou contra o recurso…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2022/05/929622-arruda0013.jpg.webp",
-      "descobertaEm": "2026-09-24T19:14:26.910Z",
-      "reportagem": {
-        "titulo": "TSE rejeita recurso e barra candidatura de Arruda ao governo do DF",
-        "slug": "tse-rejeita-recurso-e-barra-candidatura-de-arruda-ao-governo-do-df",
-        "categoria": "Política Nacional",
-        "data": "2026-09-24",
-        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2022/05/929622-arruda0013.jpg.webp",
-        "resumo": "Placar foi de 5 a 2; ex-governador diz que confia na Justiça mesmo contrariado e afirma: 'Peço perdão por desapontá-los'",
-        "conteudo": "<p>Jornalista formada pela Universidade Federal de Mato Grosso, com extensão em jornalismo econômico pela Fundação Getulio Vargas. Atuou no jornal O Estado de S. Paulo. É repórter de Oeste em São Paulo.</p><h2>Tribunal Superior Eleitoral (TSE) rejeitou, nesta quinta-feira, 24, por</h2><p>O Tribunal Superior Eleitoral (TSE) rejeitou, nesta quinta-feira, 24, por 5 votos a 2, o recurso da defesa do ex-governador do DF, José Roberto Arruda (PSD), mantendo sua inelegibilidade devido a sete condenações por improbidade administrativa relacionadas à Operação Caixa de Pandora. O relator, ministro Dias Toffoli, e outros quatro ministros votaram pela rejeição, enquanto dois divergiram.</p><p>O Tribunal Superior Eleitoral (TSE) rejeitou, nesta quinta-feira, 24, por 5 votos a 2, o recurso da defesa do ex-governador do Distrito Federal José Roberto Arruda (PSD) e manteve o indeferimento de sua candidatura ao governo do DF. Com a decisão, o nome de Arruda deve ser retirado das urnas.</p><p>O relator, ministro Dias Toffoli, votou contra o recurso e liderou a maioria formada pelos ministros Ricardo Villas Bôas Cueva, Sebastião Alves dos Reis Júnior, André Mendonça e Nunes Marques. Os ministros Floriano Peixoto e Estela Aranha divergiram. O colegiado manteve a inelegibilidade de Arruda, porque condenações colegiadas por improbidade administrativa nos últimos oito anos enquadram o político na Lei da Ficha Limpa.</p><h2>Principal motivo da decisão são as sete condenações de</h2><p>O principal motivo da decisão são as sete condenações de Arruda em segunda instância por atos dolosos de improbidade administrativa, todas relacionadas à Operação Caixa de Pandora, deflagrada em 2009 para investigar um esquema de corrupção que envolveu contratos de informática do governo do DF. O ex-governador chegou a ser preso quando chefiava o Executivo local durante as investigações.</p><p>Leia mais: “ Arruda não indica substituto e mantém candidatura indefinida no DF ”</p><p>A defesa alegava que as alterações promovidas pelo Congresso na Lei da Ficha Limpa no ano passado garantiam a ele o direito de concorrer. O argumento central era que as sete condenações eram conexas, e somente a primeira deveria servir como marco inicial para a contagem do período de inelegibilidade. O vice-procurador-geral eleitoral, Alexandre Espinosa, classificou a tese como baseada em “interpretações equivocadas” da lei.</p><p>Pouco depois do julgamento, Arruda divulgou um pronunciamento em suas redes sociais. Ele afirmou que mantém a fé e o respeito ao Poder Judiciário , mesmo em um momento que classificou como difícil.</p><p>“Quero falar do meu respeito ao Poder Judiciário, mesmo com tudo que está acontecendo na Justiça brasileira, infelizmente”, declarou. “A contribuição que devo dar neste momento como brasileiro é dizer que confio na Justiça mesmo quando suas decisões contrariam o meu ponto de vista.”</p><p>Um post compartilhado por José Arruda | Candidato a Governador do DF 55 (@arruda.df)</p><p>O ex-governador agradeceu aos apoiadores que o acompanharam durante a campanha e pediu perdão pelo resultado. “A cada um de vocês, o meu abraço de profunda gratidão”, disse. “Não desistam de Brasília, não desistam do Brasil. Esses tempos difíceis vão passar e tempos melhores virão, com fé em Deus”. “Peço perdão por desapontá-los.”</p><p>Arruda também mencionou os dois votos divergentes no TSE. “Os dois votos divergentes no TSE deixam muito claro, à luz do dia, a vigência da lei e o meu direito”, afirmou. Para ele, a decisão pode representar o fim de sua trajetória política na capital. “Talvez tenha cumprido minha última missão em Brasília.”</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/tse-rejeita-recurso-e-barra-candidatura-de-arruda-ao-governo-do-df/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Jornalista formada pela Universidade Federal de Mato Grosso, com extensão em jornalismo econômico pela Fundação Getulio Vargas. Atuou no jornal O Estado de S. Paulo. É repórter de Oeste em São Paulo."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Tribunal Superior Eleitoral (TSE) rejeitou, nesta quinta-feira, 24, por 5 votos a 2, o recurso da defesa do ex-governador do DF, José Roberto Arruda (PSD), mantendo sua inelegibilidade devido a sete condenações por improbidade administrativa relacionadas à Operação Caixa de Pandora. O relator, ministro Dias Toffoli, e outros quatro ministros votaram pela r"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O Tribunal Superior Eleitoral (TSE) rejeitou, nesta quinta-feira, 24, por 5 votos a 2, o recurso da defesa do ex-governador do Distrito Federal José Roberto Arruda (PSD) e manteve o indeferimento de sua candidatura ao governo do DF. Com a decisão, o nome de Arruda deve ser retirado das urnas."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O relator, ministro Dias Toffoli, votou contra o recurso e liderou a maioria formada pelos ministros Ricardo Villas Bôas Cueva, Sebastião Alves dos Reis Júnior, André Mendonça e Nunes Marques. Os ministros Floriano Peixoto e Estela Aranha divergiram. O colegiado manteve a inelegibilidade de Arruda, porque condenações colegiadas por improbidade administrativa"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O principal motivo da decisão são as sete condenações de Arruda em segunda instância por atos dolosos de improbidade administrativa, todas relacionadas à Operação Caixa de Pandora, deflagrada em 2009 para investigar um esquema de corrupção que envolveu contratos de informática do governo do DF. O ex-governador chegou a ser preso quando chefiava o Executivo l"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a80b813b654a8182",
-      "titulo": "TSE vai exigir mais detalhes de pesquisas eleitorais no 2º turno",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/tse-vai-exigir-mais-detalhes-de-pesquisas-eleitorais-no-segundo-turno/",
-      "dataFonte": "2026-09-24T18:33:27.000Z",
-      "resumoFonte": "O Tribunal Superior Eleitoral (TSE) pretende aumentar as exigências feitas aos institutos de pesquisa para o registro de levantamentos no segundo turno das eleições de 2026. O presidente da Corte, ministro Kassio Nunes Marques, deve comunicar as empresas sobre as mudanças nos próximos dias. A medida prevê a apresentação de informações mais…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/06/TSE-Filme.jpeg.webp",
-      "descobertaEm": "2026-09-24T19:14:26.910Z",
-      "reportagem": {
-        "titulo": "TSE vai exigir mais detalhes de pesquisas eleitorais no segundo turno",
-        "slug": "tse-vai-exigir-mais-detalhes-de-pesquisas-eleitorais-no-segundo-turno",
-        "categoria": "Política Nacional",
-        "data": "2026-09-24",
-        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/06/TSE-Filme.jpeg.webp",
-        "resumo": "TSE vai exigir mais detalhes de pesquisas eleitorais no segundo turno. Registro original em Revista Oeste - Feed. A Redação Notícia ES reapurou a pauta para a editoria Política Nacional.",
-        "conteudo": "<p>Formado em jornalismo pela Universidade Presbiteriana Mackenzie, atua na cobertura política em Brasília há dois anos. Foi repórter de uma afiliada da TV Globo. Cobriu as eleições norte-americanas de 2024, em Washington; o conclave de 2025, em Roma; e a COP30, em Belém.</p><h2>Tribunal Superior Eleitoral (TSE) planeja aumentar as exigências para</h2><p>O Tribunal Superior Eleitoral (TSE) planeja aumentar as exigências para o registro de pesquisas eleitorais no segundo turno das eleições de 2026, com o presidente Kassio Nunes Marques comunicando as mudanças em breve. As novas regras exigirão informações mais detalhadas sobre metodologias, embora ainda não tenham sido especificados os dados adicionais. O debate sobre as regras ganhou destaque após a suspensão de uma pesquisa da AtlasIntel, questionada pelo Partido Liberal por suposta indução de respostas.</p><p>O Tribunal Superior Eleitoral (TSE) pretende aumentar as exigências feitas aos institutos de pesquisa para o registro de levantamentos no segundo turno das eleições de 2026. O presidente da Corte, ministro Kassio Nunes Marques, deve comunicar as empresas sobre as mudanças nos próximos dias.</p><p>A medida prevê a apresentação de informações mais detalhadas sobre as metodologias utilizadas pelos institutos. Até o momento, contudo, o TSE não informou quais novos dados cobrará nem como aplicará as alterações.</p><h2>Atualmente, empresas que realizam pesquisas eleitorais já precisam registrar</h2><p>Atualmente, empresas que realizam pesquisas eleitorais já precisam registrar os levantamentos no Sistema de Registro de Pesquisas Eleitorais (PesqEle) até cinco dias antes da divulgação. + Saiba mais de Política em Oeste</p><p>Entre as informações obrigatórias estão o contratante, o valor e a origem dos recursos, a metodologia, o período de realização, o plano amostral, as ponderações utilizadas, o intervalo de confiança e a margem de erro.</p><p>O debate sobre as regras para pesquisas eleitorais ganhou espaço no TSE ao longo deste ano.</p><p>Em julho, Kassio discutiu com representantes de institutos mudanças na regulamentação dos levantamentos. Na ocasião, o presidente do TSE apresentou a proposta de criação de um chamado ‘selo de acurácia eleitoral’.</p><p>A ideia buscava estabelecer uma forma de reconhecimento para pesquisas cujos números ficassem mais próximos dos resultados registrados nas urnas.</p><p>A proposta, no entanto, enfrentou críticas de representantes do setor e especialistas e acabou não avançando. Entre os questionamentos estava a avaliação de que pesquisas medem a intenção de voto em determinado momento e não devem ser tratadas como previsão do resultado das eleições.</p><p>As discussões ocorrem depois de uma decisão de Kassio que suspendeu, em junho, a divulgação de uma pesquisa da AtlasIntel sobre a disputa pela Presidência da República.</p><p>O levantamento, registrado sob o número BR-06939/2026, foi questionado pelo Partido Liberal (PL).</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/tse-vai-exigir-mais-detalhes-de-pesquisas-eleitorais-no-segundo-turno/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Formado em jornalismo pela Universidade Presbiteriana Mackenzie, atua na cobertura política em Brasília há dois anos. Foi repórter de uma afiliada da TV Globo. Cobriu as eleições norte-americanas de 2024, em Washington; o conclave de 2025, em Roma; e a COP30, em Belém."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Tribunal Superior Eleitoral (TSE) planeja aumentar as exigências para o registro de pesquisas eleitorais no segundo turno das eleições de 2026, com o presidente Kassio Nunes Marques comunicando as mudanças em breve. As novas regras exigirão informações mais detalhadas sobre metodologias, embora ainda não tenham sido especificados os dados adicionais. O deb"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O Tribunal Superior Eleitoral (TSE) pretende aumentar as exigências feitas aos institutos de pesquisa para o registro de levantamentos no segundo turno das eleições de 2026. O presidente da Corte, ministro Kassio Nunes Marques, deve comunicar as empresas sobre as mudanças nos próximos dias."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A medida prevê a apresentação de informações mais detalhadas sobre as metodologias utilizadas pelos institutos. Até o momento, contudo, o TSE não informou quais novos dados cobrará nem como aplicará as alterações."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Atualmente, empresas que realizam pesquisas eleitorais já precisam registrar os levantamentos no Sistema de Registro de Pesquisas Eleitorais (PesqEle) até cinco dias antes da divulgação. + Saiba mais de Política em Oeste"
           }
         ]
       }
@@ -693,7 +561,7 @@
       }
     }
   ],
-  "reapuradoEm": "2026-09-24T20:47:26.650Z",
+  "reapuradoEm": "2026-09-24T23:31:47.816Z",
   "diagnosticoReapuracao": {
     "produzidas": 0,
     "jaProntas": 0,
