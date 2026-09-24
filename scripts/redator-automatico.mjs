@@ -84,6 +84,9 @@ function validarReportagem(p) {
   if (!aeoValido(r.aeo)) return 'AEO incompleto';
   if (/capit[aã]o\s+assum[cç][aã]o/i.test(JSON.stringify(r.aeo || []))) return 'Capitão Assumção não pode aparecer no AEO nesta fase';
   if (/entrou na fila automática|o que se sabe até agora|seguirá atualizando a cobertura/i.test(conteudo)) return 'modelo de nota curta detectado';
+  if (/<h2[^>]*>\s*(Contexto|Desdobramentos?)\s*<\/h2>/i.test(conteudo)) return 'intertítulo genérico proibido';
+  if (/Leia também:|pic\.twitter\.com\/|Você tem \d+ acessos por dia|Assinantes podem liberar \d+ acessos por dia|Jornalista, pós-graduad[oa]|Graduad[oa] em jornalismo/i.test(textoPuro(conteudo))) return 'resíduo da fonte detectado';
+  if (/&(?:amp;)?(?:ccedil|atilde|aacute|eacute|iacute|oacute|uacute|ecirc|ocirc);/i.test(conteudo)) return 'entidade HTML quebrada';
   return null;
 }
 
