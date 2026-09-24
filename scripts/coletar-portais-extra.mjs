@@ -49,12 +49,6 @@ const fontes = [
     hosts: ['veja.abril.com.br']
   },
   {
-    nome: 'Valor Econômico - Capa',
-    url: 'https://valor.globo.com/',
-    categoria: 'Política Nacional',
-    hosts: ['valor.globo.com']
-  },
-  {
     nome: 'g1 - Capa',
     url: 'https://g1.globo.com/',
     categoria: 'Política Nacional',
@@ -66,12 +60,6 @@ const fontes = [
     categoria: 'Política Nacional',
     hosts: ['www.cnnbrasil.com.br', 'cnnbrasil.com.br']
   },
-  {
-    nome: 'Reuters - World',
-    url: 'https://www.reuters.com/world/',
-    categoria: 'Política Nacional',
-    hosts: ['www.reuters.com', 'reuters.com']
-  }
 ];
 
 function normalizar(texto = '') {
@@ -230,7 +218,7 @@ async function principal() {
 
   const portais = new Set([...(arquivo.portaisPrioritarios || []),
     'oantagonista.com.br', 'correiodamanha.com.br', 'folha.uol.com.br', 'estadao.com.br',
-    'oglobo.globo.com', 'veja.abril.com.br', 'valor.globo.com', 'g1.globo.com', 'cnnbrasil.com.br', 'reuters.com'
+    'oglobo.globo.com', 'veja.abril.com.br', 'g1.globo.com', 'cnnbrasil.com.br'
   ]);
   const saida = {
     ...arquivo,
