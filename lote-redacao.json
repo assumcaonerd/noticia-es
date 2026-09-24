@@ -1,276 +1,76 @@
 {
-  "geradoEm": "2026-09-23T21:47:31.945Z",
+  "geradoEm": "2026-09-24T00:53:19.680Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 10 matérias.",
   "diagnostico": {
-    "totalPendentes": 67,
+    "totalPendentes": 66,
     "bloqueadas": 5,
     "bloqueadasEditoriais": 0,
     "semImagem": 0,
-    "duplicadasBasicas": 2,
-    "duplicadasSemanticas": 2,
-    "foraCategorias": 2
+    "duplicadasBasicas": 0,
+    "duplicadasSemanticas": 4,
+    "foraCategorias": 1
   },
   "quantidadeCandidatas": 20,
   "candidatas": [
     {
-      "id": "279050905f527f46",
-      "titulo": "Carga de cigarros eletrônicos é apreendida em ação da PF em Cariacica",
+      "id": "d8d5442fb4ba0b77",
+      "titulo": "Acidente entre carro e ônibus do Transcol deixa dois feridos na Serra",
       "categoria": "Segurança Pública",
       "radar": null,
       "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/carga-de-cigarros-eletronicos-e-apreendida-em-acao-da-pf-em-cariacica-0926",
-      "dataFonte": "2026-09-23T19:56:22.000Z",
-      "resumoFonte": "Correios identificaram encomenda suspeita e acionaram a PF; ao todo, 247 dispositivos foram apreendidos e um homem foi preso em flagrante",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790190896908_cigarros_eletronicos_pf.jpeg",
-      "descobertaEm": "2026-09-23T20:26:57.395Z"
+      "urlFonte": "https://www.agazeta.com.br/agora/acidente-entre-carro-e-onibus-do-transcol-deixa-dois-feridos-na-serra-0926",
+      "dataFonte": "2026-09-23T23:26:07.000Z",
+      "resumoFonte": "Coletivo estava vazio e saía da garagem no momento da colisão; ocupantes do carro foram levados ao Hospital Jayme Santos Neves",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790201025631_copia_de_template_radar_a_gazeta_1.png",
+      "descobertaEm": "2026-09-23T23:45:04.116Z"
     },
     {
-      "id": "6c69b6d6536c51d1",
-      "titulo": "Dois funcionários são feridos com tesoura durante furto em supermercado de Vitória",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/dois-funcionarios-sao-feridos-com-tesoura-durante-furto-em-supermercado-de-vitoria-0926",
-      "dataFonte": "2026-09-23T18:58:13.000Z",
-      "resumoFonte": "Segundo a Guarda Municipal, mulher de 34 anos tentou levar cigarros e esponjas de aço e atacou os trabalhadores ao ser detida",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790187549007_copia_de_template_radar_a_gazeta.png",
-      "descobertaEm": "2026-09-23T20:26:57.395Z",
-      "reportagem": {
-        "titulo": "Dois funcionários são feridos com tesoura durante furto em supermercado de Vitória",
-        "slug": "dois-funcionarios-sao-feridos-com-tesoura-durante-furto-em-supermercado-de-vitoria",
-        "categoria": "Segurança Pública",
-        "data": "2026-09-23",
-        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790187549007_copia_de_template_radar_a_gazeta.png",
-        "resumo": "Segundo a Guarda Municipal, mulher de 34 anos tentou levar cigarros e esponjas de aço e atacou os trabalhadores ao ser detida",
-        "conteudo": "<p>Uma mulher de 34 anos foi detida na manhã desta quarta-feira (23) após tentar levar produtos de um supermercado localizado na Vila Rubim, em Vitória, e ferir dois funcionários, de 21 e 30 anos, com uma tesoura. A identidade dela não foi divulgada.</p><h2>Contexto</h2><p>Segundo a Guarda Municipal de Vitória, que foi acionada por testemunhas durante um patrulhamento na região, a suspeita tentava fugir do local com três maços de cigarro e um pacote de esponjas de aço.</p><p>Os funcionários do estabelecimento conseguiram detê-la antes da fuga, levando-a para o depósito do supermercado. Segundo o inspetor Alberti, da Guarda Municipal, enquanto os trabalhadores conferiam os itens furtados, a mulher os atacou.</p><p>&quot;Eles estavam conferindo os itens furtados, quando a mulher pegou uma tesoura esquecida no local e partiu pra cima dos dois&quot;, relata o inspetor.</p><h2>Desdobramentos</h2><p>Um dos funcionários sofreu dois cortes superficiais, um no ombro e outro na perna. O outro trabalhador foi atingido com mais força no ombro.</p><p>A tesoura utilizada pela suspeita chegou a quebrar durante o ataque. As duas vítimas foram levadas para o Pronto Atendimento da Praia do Suá.</p><p>Após as agressões, a suspeita foi contida por testemunhas até a chegada da Guarda Municipal. Em seguida, foi conduzida à Delegacia Regional de Vitória. Segundo a Polícia Civil, ela foi autuada em flagrante por roubo majorado e será encaminhada ao sistema prisional.</p>",
-        "fonteNome": "A Gazeta - Polícia",
-        "fonteUrl": "https://www.agazeta.com.br/es/policia/dois-funcionarios-sao-feridos-com-tesoura-durante-furto-em-supermercado-de-vitoria-0926",
-        "fontesAdicionais": [
-          {
-            "nome": "SESP-ES",
-            "url": "https://sesp.es.gov.br/Noticias"
-          },
-          {
-            "nome": "Polícia Civil do ES",
-            "url": "https://pc.es.gov.br/Noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Uma mulher de 34 anos foi detida na manhã desta quarta-feira (23) após tentar levar produtos de um supermercado localizado na Vila Rubim, em Vitória, e ferir dois funcionários, de 21 e 30 anos, com uma tesoura. A identidade dela não foi divulgada."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Segundo a Guarda Municipal de Vitória, que foi acionada por testemunhas durante um patrulhamento na região, a suspeita tentava fugir do local com três maços de cigarro e um pacote de esponjas de aço."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Os funcionários do estabelecimento conseguiram detê-la antes da fuga, levando-a para o depósito do supermercado. Segundo o inspetor Alberti, da Guarda Municipal, enquanto os trabalhadores conferiam os itens furtados, a mulher os atacou."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "\"Eles estavam conferindo os itens furtados, quando a mulher pegou uma tesoura esquecida no local e partiu pra cima dos dois\", relata o inspetor."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Um dos funcionários sofreu dois cortes superficiais, um no ombro e outro na perna. O outro trabalhador foi atingido com mais força no ombro."
-          }
-        ]
-      }
-    },
-    {
-      "id": "1480022f35656a45",
-      "titulo": "Polícia do ES divulga fotos de apreensões modificadas por IA com erros",
+      "id": "9462c8fa00251d57",
+      "titulo": "Morre detento condenado por matar sogros de ex-prefeito no ES",
       "categoria": "Segurança Pública",
       "radar": null,
       "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/es/cotidiano/policia-do-es-divulga-fotos-de-apreensoes-modificadas-por-ia-com-erros-0926",
-      "dataFonte": "2026-09-23T17:52:48.000Z",
-      "resumoFonte": "Análise técnica de imagens enviadas pelas polícias Civil e Militar a veículos de imprensa aponta que registros oficiais de operações contra o tráfico não são fotografias reais",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790176383506_template_radar_a_gazeta_2026_09_23t121242.jpg",
-      "descobertaEm": "2026-09-23T20:26:57.395Z",
-      "reportagem": {
-        "titulo": "Polícia do ES divulga fotos de apreensões modificadas por IA com erros",
-        "slug": "policia-do-es-divulga-fotos-de-apreensoes-modificadas-por-ia-com-erros",
-        "categoria": "Segurança Pública",
-        "data": "2026-09-23",
-        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790176383506_template_radar_a_gazeta_2026_09_23t121242.jpg",
-        "resumo": "Análise técnica de imagens enviadas pelas polícias Civil e Militar a veículos de imprensa aponta que registros oficiais de operações contra o tráfico não são fotografias reais",
-        "conteudo": "<p>Imagens de apreensões divulgadas pelas polícias Civil e Militar do Espírito Santo foram modificadas por ferramentas de inteligência artificial (IA) . A investigação realizada com exclusividade pelo g1 ES revela falhas como cédulas de Real deformadas, munições flutuantes e pinos de cocaína distorcidos.</p><h2>Contexto</h2><p>O levantamento , realizado ao longo do mês de agosto, analisou os materiais distribuídos pelas assessorias das corporações a veículos de imprensa e revelou que ao menos oito supostos registros de apreensões de drogas e armas não são fotografias documentais autênticas .</p><p>Os exames técnicos, feitos por especialistas e ferramentas de detecção de IA, revelam também itens duplicados e armas mecanicamente incoerentes .</p><p>Segundo o advogado criminalista Raphael Boldt, a manipulação das imagens pode colocar sob suspeita outras divulgações e até elementos de prova produzidos pelas corporações . “Mesmo sem integrar o inquérito, essa prática pode produzir desinformação institucional, violar direitos de pessoas identificáveis, justificar direito de resposta e indenização e, em situações mais graves, gerar responsabilização administrativa ou penal”, destacou.</p><h2>Desdobramentos</h2><p>As oito imagens, enviadas pelas corporações entre os dias 4 e 28 de agosto no WhatsApp, foram analisadas com o auxílio de especialistas em inteligência artificial e de ferramentas de detecção de conteúdo gerado ou modificado por IA.</p><p>As fotografias foram submetidas a três detectores: &quot;Hive Moderation&quot;, &quot;Is It AI?&quot; e &quot;AI or Not&quot;. Os percentuais apresentados nesta reportagem correspondem aos índices atribuídos por cada ferramenta à possibilidade de uso de inteligência artificial nas imagens.</p><p>Os resultados variaram entre as plataformas. Em alguns casos, uma ferramenta apresentou um índice baixo, enquanto as demais apontaram percentuais elevados. Por isso, os resultados dos detectores não foram considerados isoladamente, mas confrontados com as distorções encontradas nas imagens e com a análise técnica do material.</p><p>Segundo o especialista em Inteligência Artificial, Breno Lobato, todas as imagens analisadas possuem indícios de manipulação por IA. &quot;Dá para ver pelas notas que não tem consistência, informações que não batem, números e informações incoerentes e inconsistentes. Onde não há imagem de nota, fica bem evidente pela textura dos panos das bandeiras do qual as tramas, sombra e impressão estão 'fakes'&quot;, destacou.</p><p>A Secretaria de Estado da Segurança Pública e Defesa Social (Sesp) confirmou que identificou o &quot;uso de recursos de inteligência artificial na edição de algumas imagens de materiais apreendidos encaminhadas à imprensa&quot;. Por nota, afirmou que as imagens citadas na reportagem foram enviadas exclusivamente para fins de divulgação e não integram os registros oficiais das ocorrências ou investigações (veja a nota na íntegra no final do texto).</p><p>A imagem foi divulgada pela Polícia Militar no dia 28 de agosto após uma operação no bairro Jaburuna, em Vila Velha. Segundo a corporação, foram apreendidas seis armas de fogo, duas granadas, drogas, dinheiro e rádios comunicadores.</p><p>Entre as distorções visíveis estão alterações nas cédulas de Real. Em uma das notas, aparece uma figura semelhante à silhueta de um homem , elemento que não faz parte do desenho original da cédula. Números, inscrições e outros detalhes gráficos do dinheiro também aparecem deformados e pouco definidos.</p><p>Há ainda irregularidades em detalhes de armas, carregadores e munições. Alguns componentes apresentam contornos pouco definidos ou formatos diferentes entre objetos aparentemente semelhantes.</p>",
-        "fonteNome": "A Gazeta - Capa",
-        "fonteUrl": "https://www.agazeta.com.br/es/cotidiano/policia-do-es-divulga-fotos-de-apreensoes-modificadas-por-ia-com-erros-0926",
-        "fontesAdicionais": [
-          {
-            "nome": "SESP-ES",
-            "url": "https://sesp.es.gov.br/Noticias"
-          },
-          {
-            "nome": "Polícia Civil do ES",
-            "url": "https://pc.es.gov.br/Noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Imagens de apreensões divulgadas pelas polícias Civil e Militar do Espírito Santo foram modificadas por ferramentas de inteligência artificial (IA) . A investigação realizada com exclusividade pelo g1 ES revela falhas como cédulas de Real deformadas, munições flutuantes e pinos de cocaína distorcidos."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O levantamento , realizado ao longo do mês de agosto, analisou os materiais distribuídos pelas assessorias das corporações a veículos de imprensa e revelou que ao menos oito supostos registros de apreensões de drogas e armas não são fotografias documentais autênticas ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Os exames técnicos, feitos por especialistas e ferramentas de detecção de IA, revelam também itens duplicados e armas mecanicamente incoerentes ."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Segundo o advogado criminalista Raphael Boldt, a manipulação das imagens pode colocar sob suspeita outras divulgações e até elementos de prova produzidos pelas corporações . “Mesmo sem integrar o inquérito, essa prática pode produzir desinformação institucional, violar direitos de pessoas identificáveis, justificar direito de resposta e indenização e, em sit"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "As oito imagens, enviadas pelas corporações entre os dias 4 e 28 de agosto no WhatsApp, foram analisadas com o auxílio de especialistas em inteligência artificial e de ferramentas de detecção de conteúdo gerado ou modificado por IA."
-          }
-        ]
-      }
+      "urlFonte": "https://www.agazeta.com.br/es/policia/morre-detento-condenado-por-matar-sogros-de-ex-prefeito-no-es-0926",
+      "dataFonte": "2026-09-23T21:17:08.000Z",
+      "resumoFonte": "Valmir Santana Ribeiro cumpria pena de 67 anos pelo assassinato de um casal dentro de um hotel em Cachoeiro de Itapemirim",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790197788812_dm_video_22.jpg",
+      "descobertaEm": "2026-09-23T23:45:04.116Z"
     },
     {
-      "id": "73432a84e8a0ad73",
-      "titulo": "Ex-servidor é condenado a devolver salários que recebeu sem trabalhar no ES",
+      "id": "8d3e39ea8e92a3d6",
+      "titulo": "“Pilili”: de onde vem o som que o eleitor ouve na urna eletrônica?",
       "categoria": "Política ES",
       "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/es/politica/ex-servidor-e-condenado-a-devolver-salarios-que-recebeu-sem-trabalhar-no-es-0926",
-      "dataFonte": "2026-09-23T19:52:12.000Z",
-      "resumoFonte": "Réu teria ficado mais de um ano sendo remunerado sem exercer atividade em prefeitura; ainda cabe recurso da decisão judicial",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1786461457007_midias_jpg_2019_08_14_jaguare_6269006.jpg",
-      "descobertaEm": "2026-09-23T20:26:57.395Z",
-      "reportagem": {
-        "titulo": "Ex-servidor é condenado a devolver salários que recebeu sem trabalhar no ES",
-        "slug": "ex-servidor-e-condenado-a-devolver-salarios-que-recebeu-sem-trabalhar-no-es",
-        "categoria": "Política ES",
-        "data": "2026-09-23",
-        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1786461457007_midias_jpg_2019_08_14_jaguare_6269006.jpg",
-        "resumo": "Réu teria ficado mais de um ano sendo remunerado sem exercer atividade em prefeitura; ainda cabe recurso da decisão judicial",
-        "conteudo": "<p>Um ex-servidor da Prefeitura de Jaguaré , no Norte do Espírito Santo , foi condenado a devolver valores relacionados a salários que teria recebido irregularmente, após ficar um ano sem bater ponto no Executivo municipal.</p><h2>Contexto</h2><p>A sentença judicial, assinada na segunda-feira (21) pelo juiz da Vara Única de Jaguaré, Ronaldo Domingues de Almeida, determina que o ex-servidor devolva aos cofres públicos o valor de R$ 13.148,23. A quantia é referente ao período de mais de um ano em que ele seguiu sendo remunerado sem trabalhar. Ainda cabe recurso da decisão.</p><p>Consta do processo que a defesa do ex-servidor foi feita por representante da Defensoria Pública. A reportagem não conseguiu localizar a advogada indicada nos autos. O espaço segue aberto para eventuais esclarecimentos.</p><p>O caso foi revelado em ação de improbidade administrativa apresentada pelo Ministério Público Estadual (MPES) . Conforme a denúncia, o réu ficou de janeiro de 2018 a abril de 2019 sendo renumerado de maneira indevida.</p><h2>Desdobramentos</h2><p>Também segundo o órgão ministerial, o ex-servidor foi nomeado no cargo comissionado de assessor técnico na Secretaria Municipal de Finanças em 16 de janeiro de 2018. Em 29 de janeiro do mesmo ano, ele sofreu um acidente de trânsito, com fratura grave no joelho.</p><p>Logo na sequência do ocorrido, o então servidor apresentou um atestado médico prevendo seu afastamento das funções por 15 dias. Na denúncia à Justiça, o MPES afirmou que, após o fim do prazo da licença médica, o funcionário não prestou informações ao setor de Recursos Humanos da prefeitura, bem como não registrou pedido de benefício junto ao Instituto Nacional do Seguro Social (INSS) .</p><p>Ao prestar depoimento durante a instrução do processo, a prefeitura sustentou que a situação do então servidor não teria sido percebida em função de o controle de frequência não ficar diretamente a cargo da sede administrativa do município.</p><p>Em esclarecimentos prestados à Justiça pelo então prefeito Rogério Feitani, houve a alegação de que o réu foi exonerado do cargo assim que a situação foi descoberta. O desligamento ocorreu em 9 de abril de 2019, mais de um ano depois do acidente sofrido pelo então servidor.</p><p>Na sentença, o magistrado destaca que a impossibilidade de controle efetivo da frequência dos servidores pela administração não liberava o então servidor de seguir recebendo seu salário sem a devida prestação de serviços.</p><p>“ Eventuais falhas administrativas ou deficiência no controle de frequência que tenham contribuído para a continuidade dos pagamentos não têm o condão de converter o pagamento indevido em liberalidade da administração ou de conferir ao requerido direito à incorporação definitiva dos valores ao seu patrimônio”, ressaltou o juiz.</p>",
-        "fonteNome": "A Gazeta - Capa",
-        "fonteUrl": "https://www.agazeta.com.br/es/politica/ex-servidor-e-condenado-a-devolver-salarios-que-recebeu-sem-trabalhar-no-es-0926",
-        "fontesAdicionais": [
-          {
-            "nome": "Assembleia Legislativa do ES",
-            "url": "https://www.al.es.gov.br/"
-          },
-          {
-            "nome": "Governo do Estado do ES",
-            "url": "https://www.es.gov.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Um ex-servidor da Prefeitura de Jaguaré , no Norte do Espírito Santo , foi condenado a devolver valores relacionados a salários que teria recebido irregularmente, após ficar um ano sem bater ponto no Executivo municipal."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A sentença judicial, assinada na segunda-feira (21) pelo juiz da Vara Única de Jaguaré, Ronaldo Domingues de Almeida, determina que o ex-servidor devolva aos cofres públicos o valor de R$ 13.148,23. A quantia é referente ao período de mais de um ano em que ele seguiu sendo remunerado sem trabalhar. Ainda cabe recurso da decisão."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Consta do processo que a defesa do ex-servidor foi feita por representante da Defensoria Pública. A reportagem não conseguiu localizar a advogada indicada nos autos. O espaço segue aberto para eventuais esclarecimentos."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O caso foi revelado em ação de improbidade administrativa apresentada pelo Ministério Público Estadual (MPES) . Conforme a denúncia, o réu ficou de janeiro de 2018 a abril de 2019 sendo renumerado de maneira indevida."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Também segundo o órgão ministerial, o ex-servidor foi nomeado no cargo comissionado de assessor técnico na Secretaria Municipal de Finanças em 16 de janeiro de 2018. Em 29 de janeiro do mesmo ano, ele sofreu um acidente de trânsito, com fratura grave no joelho."
-          }
-        ]
-      }
+      "fonteNome": "YouTube Folha Vitória",
+      "urlFonte": "https://www.youtube.com/shorts/dB77eHS1Ubw",
+      "dataFonte": "2026-09-23T21:01:16.000Z",
+      "resumoFonte": "🗳️ O som que confirma o voto na urna eletrônica completa 30 anos nesta #eleição. Criada em 1996, a sequência sonora não surgiu por puro charme. Quando o Brasil trocou as células de papel pelo voto digital, o sistema precisava avisar de forma simples aos mesários que o eleitor tinha terminado de votar. O som foi a solução técnica para ajudar no con",
+      "imagem": "https://i.ytimg.com/vi/dB77eHS1Ubw/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLBnS5s7L7sMc5HsGUQCIe19jdCmJQ&usqp=CCk",
+      "descobertaEm": "2026-09-23T23:48:12.625Z"
     },
     {
-      "id": "18ed65309d3e9374",
-      "titulo": "Prefeitura cancela tradicional festa nas montanhas capixabas",
+      "id": "a029be9d412878a3",
+      "titulo": "Forró capixaba: cantor fala sobre nova fase no ES",
       "categoria": "Política ES",
       "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/colunas/leonel-ximenes/prefeitura-cancela-tradicional-festa-nas-montanhas-capixabas-0926",
-      "dataFonte": "2026-09-23T18:52:33.000Z",
-      "resumoFonte": "Evento, um dos mais tradicionais do município, estava previsto para ser realizado em outubro",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1776102031051_2025_02_19_edicasea_festa_das_flores_e_realizada_anualmente_em_novembro_imagem_sieghard_m_ennulat_shutterstock_dht927.jpg",
-      "descobertaEm": "2026-09-23T20:26:57.395Z"
+      "fonteNome": "YouTube A Gazeta",
+      "urlFonte": "https://www.youtube.com/shorts/QUjlsjeP6dU",
+      "dataFonte": "2026-09-23T21:00:22.000Z",
+      "resumoFonte": "Forró capixaba ganha nova fase: cantor fala sobre parcerias sertanejas e anuncia lançamento no ES. Em entrevista ao HZ, o cantor conhecido como Alemão do Forró, fala sobre a nova fase da carreira no cenário do forró capixaba, no Espírito Santo. No bate-papo, o artista comenta as parcerias firmadas com cantores do sertanejo e como essas colaborações",
+      "imagem": "https://i.ytimg.com/vi/QUjlsjeP6dU/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLCbek3rmtrqLF9N4Za3vSltw_Fg2w&usqp=CCk",
+      "descobertaEm": "2026-09-23T23:48:12.625Z"
     },
     {
-      "id": "dd74750ebb43fd2a",
-      "titulo": "Presos podem votar no dia da eleição no ES? Entenda",
+      "id": "4ab6364ecdbc4c50",
+      "titulo": "Campeão da Série B capixaba pelo Estreia do Norte com 17 anos, é recebido com festa na escola.",
       "categoria": "Política ES",
       "radar": null,
-      "fonteNome": "A Gazeta - Política",
-      "urlFonte": "https://www.agazeta.com.br/es/politica/presos-podem-votar-no-dia-da-eleicao-no-es-entenda-0726",
-      "dataFonte": "2026-09-23T18:26:13.000Z",
-      "resumoFonte": "Participação de alguns grupos de detentos é garantida por meio de direito constitucional; saiba quem poderá ir às urnas",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1784026939566_copia_de_copia_de_copia_de_copia_de_template_abre_site_eleicoes_2026_1.jpg",
-      "descobertaEm": "2026-09-23T20:26:57.395Z"
-    },
-    {
-      "id": "8470e5f719d2a7d4",
-      "titulo": "Não vai votar? Veja como justificar a ausência nas eleições",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "A Gazeta - Política",
-      "urlFonte": "https://www.agazeta.com.br/es/politica/nao-vai-votar-veja-como-justificar-a-ausencia-nas-eleicoes-0726",
-      "dataFonte": "2026-09-23T17:39:50.000Z",
-      "resumoFonte": "Eleitores fora do domicílio eleitoral podem justificar a ausência pelo e-Título ou por formulário da Justiça Eleitoral",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1783524773942_copia_de_copia_de_template_abre_site_eleicoes_2026.jpg",
-      "descobertaEm": "2026-09-23T20:26:57.395Z",
-      "reportagem": {
-        "titulo": "Não vai votar? Veja como justificar a ausência nas eleições",
-        "slug": "nao-vai-votar-veja-como-justificar-a-ausencia-nas-eleicoes",
-        "categoria": "Política ES",
-        "data": "2026-09-23",
-        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1783524773942_copia_de_copia_de_template_abre_site_eleicoes_2026.jpg",
-        "resumo": "Eleitores fora do domicílio eleitoral podem justificar a ausência pelo e-Título ou por formulário da Justiça Eleitoral",
-        "conteudo": "<p>Quem estiver fora do seu domicílio eleitoral no dia da eleição e não puder votar entre 8h e 17h (horário de Brasília) pode justificar a ausência. A justificativa pode ser feita para o primeiro turno, no dia 4 de outubro, para o segundo turno, em 26 de outubro, ou para ambos, desde que seja apresentada separadamente para cada turno.</p><h2>Contexto</h2><p>Pelo aplicativo e-Título , disponível gratuitamente para celulares Android e iPhone (iOS);</p><p>Por meio do Requerimento de Justificativa Eleitoral (RJE ) , que deve ser entregue em uma mesa de justificativa ou de votação autorizada pela Justiça Eleitoral.</p><p>Quem justificar no próprio dia da eleição não precisa apresentar documentos que comprovem o motivo da ausência.</p><h2>Desdobramentos</h2><p>O aplicativo permite fazer a justificativa no dia da votação e também consultar o histórico de justificativas eleitorais.</p><p>O acesso ao e-Título está disponível para quem está com o título eleitoral regular ou suspenso .</p><p>Na página inicial do app, o eleitor deve acessar “mais opções” e selecionar “Justificativa de ausência” para fazer o pedido. No dia da eleição, não é necessário anexar documentos que comprovem o motivo da ausência.</p><p>A Justiça Eleitoral orienta os eleitores a baixar o aplicativo com o máximo de antecedência possível, a fim de evitar possíveis problemas de conexão com a aproximação das eleições. Para quem já tem o app, é importante ficar atento para baixar eventuais atualizações no programa. Além disso, no dia do primeiro e do segundo turnos, não será possível fazer o download do aplicativo.</p><p>Quem optar pelo formulário RJE deve apresentar também um documento oficial com foto , como carteira de identidade, passaporte, Carteira Nacional de Habilitação (CNH), carteira de trabalho, certificado de reservista, e-Título (desde que tenha foto) ou outro documento com validade legal. Esses documentos são aceitos mesmo que estejam vencidos.</p><p>É importante preencher o formulário com o número do título de eleitor . O CPF não substitui essa informação. Se os dados estiverem incorretos ou incompletos, a justificativa poderá não ser aceita.</p><p>Quem não conseguir justificar no dia da votação poderá apresentar a justificativa em até 60 dias após cada turno por meio de uma dessas opções:</p><p>Sim. Cada turno é considerado uma eleição diferente. Por isso, quem faltar no primeiro e no segundo turnos deve apresentar uma justificativa para cada ausência .</p>",
-        "fonteNome": "A Gazeta - Política",
-        "fonteUrl": "https://www.agazeta.com.br/es/politica/nao-vai-votar-veja-como-justificar-a-ausencia-nas-eleicoes-0726",
-        "fontesAdicionais": [
-          {
-            "nome": "Assembleia Legislativa do ES",
-            "url": "https://www.al.es.gov.br/"
-          },
-          {
-            "nome": "Governo do Estado do ES",
-            "url": "https://www.es.gov.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Quem estiver fora do seu domicílio eleitoral no dia da eleição e não puder votar entre 8h e 17h (horário de Brasília) pode justificar a ausência. A justificativa pode ser feita para o primeiro turno, no dia 4 de outubro, para o segundo turno, em 26 de outubro, ou para ambos, desde que seja apresentada separadamente para cada turno."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Pelo aplicativo e-Título , disponível gratuitamente para celulares Android e iPhone (iOS);"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Por meio do Requerimento de Justificativa Eleitoral (RJE ) , que deve ser entregue em uma mesa de justificativa ou de votação autorizada pela Justiça Eleitoral."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Quem justificar no próprio dia da eleição não precisa apresentar documentos que comprovem o motivo da ausência."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O aplicativo permite fazer a justificativa no dia da votação e também consultar o histórico de justificativas eleitorais."
-          }
-        ]
-      }
+      "fonteNome": "YouTube A Gazeta",
+      "urlFonte": "https://www.youtube.com/shorts/hbUxfdYQmRA",
+      "dataFonte": "2026-09-23T20:53:13.000Z",
+      "resumoFonte": "Já pensou ter 17 anos de idade e ser campeão profissional de futebol? Pois bem, o Leozinho realizou esse sonho de muitos jovens que sonham em atuar profissionalmente um dia. O atleta foi integrado ao elenco principal do Estrela do Norte e entrou em campo na finalíssima do Campeonato Capixaba Série B. Após a partida no tempo normal, disputada no últ",
+      "imagem": "https://i.ytimg.com/vi/hbUxfdYQmRA/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLCyBF9SgeC_OCeGTBhcdEXIxFphag&usqp=CCk",
+      "descobertaEm": "2026-09-23T23:48:12.625Z"
     },
     {
       "id": "09a4d7ac579beeb1",
@@ -285,18 +85,6 @@
       "descobertaEm": "2026-09-23T20:30:10.391Z"
     },
     {
-      "id": "542c4fefa7ca3a75",
-      "titulo": "Casacas da Paixão | CAP. 6 — &quot;Meia dúzia de tocadores de congo&quot;",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "YouTube A Gazeta",
-      "urlFonte": "https://www.youtube.com/shorts/FI8x8oT09pg",
-      "dataFonte": "2026-09-23T19:00:01.000Z",
-      "resumoFonte": "Será que a Viviane vai se safar dessa? Descubra no próximo episódio A novela vertical capixaba 'Casacas da Paixão', série em episódios curtos que mistura cultura do Espírito Santo com linguagem de internet. A trama acompanha uma marisqueira da orla capixaba e um herdeiro de uma marca ligada ao congo que esconde a própria origem para conquistá-la. A",
-      "imagem": "https://i.ytimg.com/vi/FI8x8oT09pg/sardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLDVNvFayXKUTH_RocFxhwb7M5ufMw",
-      "descobertaEm": "2026-09-23T20:30:10.391Z"
-    },
-    {
       "id": "d009c453483af508",
       "titulo": "Dia vira noite na Grande Vitória com céu carregado e chuva",
       "categoria": "Política ES",
@@ -306,7 +94,7 @@
       "dataFonte": "2026-09-23T18:48:40.000Z",
       "resumoFonte": "🌧️ Os capixabas que começaram esta quarta-feira (23) com céu claro e sol devem encontrar um cenário diferente ao voltar para casa. No início da tarde, o céu fechou completamente, com nuvens escuras e pancadas de chuva. Imagens gravadas em Jardim Camburi, em Vitória, no Centro da capital e em Vila Palestina, Cariacica, mostram o tempo fechado entre",
       "imagem": "https://i.ytimg.com/vi/0vM2vGboodE/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLAkMbRwsjrO3ZfX90HBtCWYOlUDrg&usqp=CCk",
-      "descobertaEm": "2026-09-23T20:30:10.391Z"
+      "descobertaEm": "2026-09-23T23:48:12.625Z"
     },
     {
       "id": "c132faf665ac08b4",
@@ -318,43 +106,187 @@
       "dataFonte": "2026-09-23T18:16:24.000Z",
       "resumoFonte": "⚠️ Uma idosa de 77 anos está desaparecida desde sábado (19), quando saiu de casa, no bairro Guriri Norte, em Guriri. Venilda Kuster Frisso, que tem Alzheimer, foi registrada por uma câmera de segurança às 16h52, enquanto caminhava pela Rua 8. Nas imagens, Venilda aparece caminhando por uma rua de terra. No momento do registro, ela usava bermuda pre",
       "imagem": "https://i.ytimg.com/vi/85cJTi2glK4/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLCDFX6FaYWH8HZ4xgNIYkO9IYc_Qg&usqp=CCk",
-      "descobertaEm": "2026-09-23T20:30:10.391Z"
+      "descobertaEm": "2026-09-23T23:48:12.625Z"
     },
     {
-      "id": "5e75f643be100ac9",
-      "titulo": "Ricardo vai ampliar fiscalização com 4 novas companhias independentes no ES",
-      "categoria": "Política ES",
+      "id": "02be86ab160e0d46",
+      "titulo": "Flávio Bolsonaro defende novo programa contra dívidas dos brasileiros e critica ausência do Brasil no Escudo das Américas",
+      "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "YouTube A Gazeta",
-      "urlFonte": "https://www.youtube.com/shorts/QI84njeqWyU",
-      "dataFonte": "2026-09-23T17:20:31.000Z",
-      "resumoFonte": "Candidato à reeleição, o governador Ricardo Ferraço (MDB) falou sobre ações para reduzir o índice de mortes causado pela violência no trânsito. Além de campanhas de conscientização, inclusive nas escolas, a ideia é ampliar a capacidade de fiscalização com companhias independentes da Polícia Militar em São Mateus, Linhares, Cachoeiro de Itapemirim e",
-      "imagem": "https://i.ytimg.com/vi/QI84njeqWyU/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLBbeRJpJh7kAR9tJZ9EUi4YnC2IMA&usqp=CCk",
-      "descobertaEm": "2026-09-23T20:30:10.391Z"
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/23/flavio-bolsonaro-live-dividas.ghtml",
+      "dataFonte": "2026-09-23T23:37:29.000Z",
+      "resumoFonte": "Flávio Bolsonaro durante live na noite de 23 de setembro Reprodução O candidato à Presidência Flávio Bolsonaro (PL) defendeu na noite desta quarta-feira (23) um novo programa para reduzir o endividamento dos brasileiros e criticou a ausência do Brasil do Escudo das Américas -- grupo criado pelo presidente americano Donald Trump com aliados na…",
+      "imagem": "https://s2-g1.glbimg.com/Jd6IToS5U7r7isBS-_R1YlVV7Ts=/1919x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/Y/s062vdSYmGSK6yycXYvg/flavio-bolsonaro-live-23-set.jpg",
+      "descobertaEm": "2026-09-23T23:45:04.116Z",
+      "reportagem": {
+        "titulo": "Flávio Bolsonaro promete novo programa contra dívidas dos brasileiros | G1",
+        "slug": "flavio-bolsonaro-promete-novo-programa-contra-dividas-dos-brasileiros-g1",
+        "categoria": "Política Nacional",
+        "data": "2026-09-23",
+        "imagem": "https://s2-g1.glbimg.com/Jd6IToS5U7r7isBS-_R1YlVV7Ts=/1919x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/Y/s062vdSYmGSK6yycXYvg/flavio-bolsonaro-live-23-set.jpg",
+        "resumo": "Senador anunciou programa que prevê receitas com concessões de petróleo, venda de dívidas públicas à iniciativa privada e imóveis federais.",
+        "conteudo": "<p>Flávio Bolsonaro durante live na noite de 23 de setembro — Foto: Reprodução</p><h2>Contexto</h2><p>O candidato à Presidência Flávio Bolsonaro (PL) defendeu na noite desta quarta-feira (23) um novo programa para reduzir o endividamento dos brasileiros e criticou a ausência do Brasil do Escudo das Américas -- grupo criado pelo presidente americano Donald Trump com aliados na América Latina.</p><p>Em uma live nas redes sociais, o senador apresentou um programa chamado SOS Brasil. Segundo ele, a proposta prevê alianças com a iniciativa privada para gerar receitas e auxiliar no pagamento das dívidas.</p><p>&quot;A gente vai fazer um programa que nós vamos criar um fundo que vai ser com novas receitas, receitas dos royalties do petróleo, receitas dos imóveis da União&quot;, afirmou.</p><h2>Desdobramentos</h2><p>De acordo com Flávio Bolsonaro, as estratégias de ganhos de recursos envolvem sair da partilha do petróleo para a concessão de extração, vender dívidas da União para a iniciativa privada (que compra por valor menor e depois recebe a quantia integral) e a administração dos imóveis federais.</p><p>📱Baixe o app do g1 para ver notícias em tempo real e de graça</p><p>&quot;A gente estima que, nesse fundo, a gente vai ter aproximadamente algo em torno de R$ 3 trilhões. O que que eu vou fazer com esses R$ 3 trilhões? Uma parte eu vou usar para pagar dívida do governo primeiro&quot;, diz, alegando que o pagamento da dívida pública poderá acarretar na diminuição da taxa Selic.</p><p>O senador afirmou que, caso eleito, fará &quot;um governo moderno, um governo enxuto com corte de despesa&quot;.</p><p>Ainda na live, feita no YouTube, Flávio Bolsonaro criticou o discurso feito pelo presidente Lula na Assembleia das Nações Unidas, nos Estados Unidos. Na oportunidade, o presidente disse que o Brasil &quot;não cabe no quintal de ninguém&quot; .</p>",
+        "fonteNome": "g1 - Política",
+        "fonteUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/23/flavio-bolsonaro-live-dividas.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Flávio Bolsonaro durante live na noite de 23 de setembro — Foto: Reprodução"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O candidato à Presidência Flávio Bolsonaro (PL) defendeu na noite desta quarta-feira (23) um novo programa para reduzir o endividamento dos brasileiros e criticou a ausência do Brasil do Escudo das Américas -- grupo criado pelo presidente americano Donald Trump com aliados na América Latina."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Em uma live nas redes sociais, o senador apresentou um programa chamado SOS Brasil. Segundo ele, a proposta prevê alianças com a iniciativa privada para gerar receitas e auxiliar no pagamento das dívidas."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "\"A gente vai fazer um programa que nós vamos criar um fundo que vai ser com novas receitas, receitas dos royalties do petróleo, receitas dos imóveis da União\", afirmou."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "De acordo com Flávio Bolsonaro, as estratégias de ganhos de recursos envolvem sair da partilha do petróleo para a concessão de extração, vender dívidas da União para a iniciativa privada (que compra por valor menor e depois recebe a quantia integral) e a administração dos imóveis federais."
+          }
+        ]
+      }
     },
     {
-      "id": "60ca861dfe5ac47b",
-      "titulo": "ES leva empresas à feira no Rio para ampliar negócios em petróleo, gás e energia",
-      "categoria": "Política ES",
+      "id": "c7944c75a38e5162",
+      "titulo": "PT pede para STF investigar possível interferência estrangeira na eleição | Blogs | CNN Brasil",
+      "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "YouTube Folha Vitória",
-      "urlFonte": "https://www.youtube.com/shorts/C6Pu6jbQrYI",
-      "dataFonte": "2026-09-23T14:40:58.000Z",
-      "resumoFonte": "⛽ O Espírito Santo ganhou um espaço próprio na Rio Oil &amp; Gas 2026, no Rio de Janeiro, um dos grandes eventos do setor de energia. O estande reúne uma parceria entre Findes, Aderes, Nova Agência de Promoção de Investimentos do Espírito Santo e Sebrae, com empresas capixabas apresentando soluções e oportunidades ligadas ao setor de petróleo, gás ",
-      "imagem": "https://i.ytimg.com/vi/C6Pu6jbQrYI/hq720.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLABhTw868-3P09c0d8nCirtlb1kvA",
-      "descobertaEm": "2026-09-23T20:30:10.391Z"
+      "fonteNome": "CNN Brasil - Capa",
+      "urlFonte": "https://www.cnnbrasil.com.br/blogs/julliana-lopes/eleicoes/pt-pede-para-stf-investigar-possivel-interferencia-estrangeira-na-eleicao/",
+      "dataFonte": "2026-09-23T22:53:01.000Z",
+      "resumoFonte": "Partido quer inquérito da PF e cita anúncios pagos no exterior e suspeitas de apoio à campanha de Flávio Bolsonaro",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/STF.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-23T23:47:27.442Z",
+      "reportagem": {
+        "titulo": "PT pede para STF investigar possível interferência estrangeira na eleição | Blogs | CNN Brasil",
+        "slug": "pt-pede-para-stf-investigar-possivel-interferencia-estrangeira-na-eleicao-blogs-cnn-brasil",
+        "categoria": "Política Nacional",
+        "data": "2026-09-23",
+        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/STF.jpg?w=1200&h=630&crop=1",
+        "resumo": "Partido quer inquérito da PF e cita anúncios pagos no exterior e suspeitas de apoio à campanha de Flávio Bolsonaro",
+        "conteudo": "<p>O PT (Partido dos Trabalhadores) pediu ao Supremo Tribunal Federal (STF) a abertura de um inquérito pela Polícia Federal para investigar possível interferência estrangeira na eleição presidencial. O partido quer apurar anúncios pagos no exterior favoráveis a Flávio Bolsonaro (PL), suspeitas de eventual apoio estrangeiro à campanha e possíveis vínculos financeiros e operações digitais na reta final da disputa.</p><h2>Contexto</h2><p>O pedido foi apresentado ao ministro Flávio Dino em um processo no qual o Supremo já decidiu que medidas impostas por governos estrangeiros não podem produzir efeitos no Brasil sem respaldo da legislação brasileira. O PT quer que essa proteção também alcance as eleições.</p><p>O documento concentra a investigação em quatro frentes principais.</p><p>O PT cita anúncios publicados no X por perfis estrangeiros entre 18 e 21 de setembro, com conteúdo favorável a Flávio Bolsonaro e referências à alta do candidato na Polymarket. Segundo a petição , não foi possível identificar quem financiou as publicações. A campanha de Flávio afirmou não ter conhecimento dos anúncios.</p><h2>Desdobramentos</h2><p>A manifestação retoma suspeitas já levadas ao TSE (Tribunal Superior Eleitoral) sobre eventual apoio de grupos ligados à Rockbridge Network à campanha de Flávio Bolsonaro. O partido pede que sejam esclarecidos contatos e tratativas envolvendo Tallis Gomes , Pedro Sang e André Marinho . O próprio documento registra as negativas dos envolvidos e afirma que ainda não há prova de repasse de recursos à campanha.</p><p>Outra frente busca esclarecer se empresas brasileiras ligadas a estruturas societárias no exterior teriam intermediado recursos ou serviços em benefício do PL (Partido Liberal) ou de sua fundação. A petição ressalta que essas ligações, por si só, não comprovam financiamento estrangeiro.</p><p>O PT pede acesso a contratos, registros de pagamento e dados de plataformas para identificar eventuais financiadores, intermediários e beneficiários. Também solicita a preservação de documentos e, caso surjam elementos suficientes, pede que sejam avaliadas medidas como buscas em locais ligados à campanha de Flávio e à sede nacional do PL, mediante autorização judicial.</p><p>A petição cita ainda sanções, tarifas e outras medidas adotadas pelos Estados Unidos contra o Brasil como parte do contexto usado para sustentar o pedido.</p><p>O documento ressalta que parte dessas conexões ainda precisa ser esclarecida e que a investigação serviria para verificar a origem de recursos , os responsáveis pelas operações e eventual impacto sobre a disputa eleitoral.</p>",
+        "fonteNome": "CNN Brasil - Capa",
+        "fonteUrl": "https://www.cnnbrasil.com.br/blogs/julliana-lopes/eleicoes/pt-pede-para-stf-investigar-possivel-interferencia-estrangeira-na-eleicao/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O PT (Partido dos Trabalhadores) pediu ao Supremo Tribunal Federal (STF) a abertura de um inquérito pela Polícia Federal para investigar possível interferência estrangeira na eleição presidencial. O partido quer apurar anúncios pagos no exterior favoráveis a Flávio Bolsonaro (PL), suspeitas de eventual apoio estrangeiro à campanha e possíveis vínculos financ"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O pedido foi apresentado ao ministro Flávio Dino em um processo no qual o Supremo já decidiu que medidas impostas por governos estrangeiros não podem produzir efeitos no Brasil sem respaldo da legislação brasileira. O PT quer que essa proteção também alcance as eleições."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O documento concentra a investigação em quatro frentes principais."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O PT cita anúncios publicados no X por perfis estrangeiros entre 18 e 21 de setembro, com conteúdo favorável a Flávio Bolsonaro e referências à alta do candidato na Polymarket. Segundo a petição , não foi possível identificar quem financiou as publicações. A campanha de Flávio afirmou não ter conhecimento dos anúncios."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A manifestação retoma suspeitas já levadas ao TSE (Tribunal Superior Eleitoral) sobre eventual apoio de grupos ligados à Rockbridge Network à campanha de Flávio Bolsonaro. O partido pede que sejam esclarecidos contatos e tratativas envolvendo Tallis Gomes , Pedro Sang e André Marinho . O próprio documento registra as negativas dos envolvidos e afirma que ain"
+          }
+        ]
+      }
     },
     {
-      "id": "df0ac716c25daf91",
-      "titulo": "Greta Gerwig mudou Aslan e provocou uma discussão entre os fãs de Nárnia",
-      "categoria": "Política ES",
+      "id": "ee58bbbce54bafee",
+      "titulo": "Analista avalia efeito negativo de crise do STF para reeleição de Lula",
+      "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "YouTube Folha Vitória",
-      "urlFonte": "https://www.youtube.com/shorts/n2-kDHwekbw",
-      "dataFonte": "2026-09-23T00:20:51.000Z",
-      "resumoFonte": "🎬 As primeiras imagens de “Nárnia: O Sobrinho do Mago” foram divulgadas e já estão dando o que falar! O filme, dirigido por Greta Gerwig, vai apresentar a origem de Nárnia antes dos acontecimentos de “O Leão, A Feiticeira e O Guarda-Roupa”. A produção também chamou atenção pela escolha de Meryl Streep para dar voz a Aslan e pelo visual inspirado n",
-      "imagem": "https://i.ytimg.com/vi/n2-kDHwekbw/hq720.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLDuzX5mbtOvc6isn7WQtAXsxsH9Dw",
-      "descobertaEm": "2026-09-23T20:30:10.391Z"
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/politica/analista-avalia-efeito-negativo-de-crise-do-stf-para-reeleicao-de-lula/",
+      "dataFonte": "2026-09-23T22:43:22.000Z",
+      "resumoFonte": "Pesquisa AtlasIntel/Bloomberg mostra que 52,3% dos eleitores acreditam que a crise no STF prejudica mais Lula do que Flávio Bolsonaro; Rafael Cortez comenta em entrevista ao Hora H",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/fachada-plenario-stf_52617d.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-23T23:45:04.116Z",
+      "reportagem": {
+        "titulo": "Analista avalia efeito negativo de crise do STF para reeleição de Lula | CNN Brasil",
+        "slug": "analista-avalia-efeito-negativo-de-crise-do-stf-para-reeleicao-de-lula-cnn-brasil",
+        "categoria": "Política Nacional",
+        "data": "2026-09-23",
+        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/fachada-plenario-stf_52617d.jpg?w=1200&h=630&crop=1",
+        "resumo": "Pesquisa AtlasIntel/Bloomberg mostra que 52,3% dos eleitores acreditam que a crise no STF prejudica mais Lula do que Flávio Bolsonaro; Rafael Cortez comenta em entrevista ao Hora H",
+        "conteudo": "<p>A pesquisa AtlasIntel/Bloomberg divulgada nesta quarta-feira (23) revela que a crise envolvendo o Supremo Tribunal Federal impacta de forma mais negativa a campanha de Lula (PT) do que a de Flávio Bolsonaro (PL).</p><h2>Contexto</h2><p>O analista Rafael Cortez, em entrevista ao Hora H desta quarta, explicou que, apesar de o escândalo do Master estar mais associado a Flávio, Lula é quem sai mais prejudicado politicamente .</p><p>&quot;A agenda que vem do Supremo Tribunal Federal é negativa para a campanha de reeleição. A gente pode até discutir a intensidade desse efeito negativo, mas é um tema que dificulta que o governo melhore sua imagem ao longo da campanha eleitoral&quot;, afirmou Cortez.</p><p>Segundo o analista, o que costuma acontecer nas democracias é o governo tradicionalmente partir com vantagem na disputa pela reeleição por ter uma mensagem mais forte.</p><h2>Desdobramentos</h2><p>Contudo, Cortez ressaltou que a crise do STF impediu que a opinião pública se concentrasse em assuntos mais favoráveis à campanha de reeleição.</p><p>Segundo o levantamento da AtlasIntel/Bloomberg , 52,3% dos eleitores acreditam que a crise no STF prejudica mais Lula, enquanto apenas 20,7% consideram que o maior prejudicado é Flávio. Outros 15,5% avaliam que os dois são igualmente afetados, 7,5% entendem que nenhum dos dois é prejudicado e quase 4% não souberam responder.</p><p>Já no que diz respeito ao escândalo do Master, os dados apontam um cenário de empate técnico . De acordo com a pesquisa, 43,8% dos eleitores atribuem o envolvimento no esquema aos aliados de Bolsonaro, enquanto 43,4% apontam os aliados de Lula.</p><p>Outros 10,6% responsabilizam todos os lados, 1,5% indicam o Centrão e apenas 0,6% não souberam responder.</p><p>&quot;Mesmo que a pesquisa mostre algum equilíbrio na ideia de quem estaria por trás do caso Master, ainda assim não me parece que seja um tema que ajude a campanha de reeleição&quot;, destacou Cortez.</p><p>Nesse contexto, o analista mencionou que o Palácio do Planalto adotou a medida de reajustar o Bolsa Família , não apenas pelo efeito concreto da política, mas também para tentar trazer uma agenda mais favorável à campanha.</p><p>Sobre a possibilidade de o STF adiar ao máximo suas sessões, incluindo o caso de Alexandre de Moraes, que pode ficar para o ano que vem, Cortez avaliou que a postergação tenderia a reduzir o efeito negativo para o governo , à medida que outros temas passem a dominar o debate público.</p><p>No entanto, o analista alertou que, do ponto de vista institucional, o cenário ainda é muito complicado. &quot;Os movimentos mais recentes por parte dos ministros não sugerem que eles, individualmente, queiram dar uma contribuição para a superação dessa tensão.&quot;</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/politica/analista-avalia-efeito-negativo-de-crise-do-stf-para-reeleicao-de-lula/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A pesquisa AtlasIntel/Bloomberg divulgada nesta quarta-feira (23) revela que a crise envolvendo o Supremo Tribunal Federal impacta de forma mais negativa a campanha de Lula (PT) do que a de Flávio Bolsonaro (PL)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O analista Rafael Cortez, em entrevista ao Hora H desta quarta, explicou que, apesar de o escândalo do Master estar mais associado a Flávio, Lula é quem sai mais prejudicado politicamente ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "\"A agenda que vem do Supremo Tribunal Federal é negativa para a campanha de reeleição. A gente pode até discutir a intensidade desse efeito negativo, mas é um tema que dificulta que o governo melhore sua imagem ao longo da campanha eleitoral\", afirmou Cortez."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Segundo o analista, o que costuma acontecer nas democracias é o governo tradicionalmente partir com vantagem na disputa pela reeleição por ter uma mensagem mais forte."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Contudo, Cortez ressaltou que a crise do STF impediu que a opinião pública se concentrasse em assuntos mais favoráveis à campanha de reeleição."
+          }
+        ]
+      }
+    },
+    {
+      "id": "462d2ddd6bd4ca47",
+      "titulo": "Quaest: Flávio Bolsonaro tem 34% das intenções de voto em São Paulo e Lula, 31% no 1º turno",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "O Globo - Capa",
+      "urlFonte": "https://oglobo.globo.com/blogs/pulso/post/2026/09/quaest-flavio-bolsonaro-tem-34percent-das-intencoes-de-voto-em-sao-paulo-e-lula-31percent-no-1o-turno.ghtml",
+      "dataFonte": "2026-09-23T20:19:38.118Z",
+      "resumoFonte": "Candidato à reeleição, petista é rejeitado por 61% dos paulistas; em um eventual segundo turno, presidente aparece em empate técnico contra Romeu Zema (Novo) e Ronaldo Caiado (PSD)",
+      "imagem": "https://s2-oglobo.glbimg.com/HwrP_xi6GpjENayzBPsgn8OE0_A=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/F/s/Xg0UWhRyOR4lHD2CZ6Qg/arte-9-.png",
+      "descobertaEm": "2026-09-23T23:47:27.442Z"
     },
     {
       "id": "25f3d1a4a94fec2f",
@@ -374,7 +306,7 @@
         "data": "2026-09-23",
         "imagem": "https://s2-g1.glbimg.com/NI-a1KES5oCwsk3Sc8RvwZlINyU=/1464x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/f/y5MJIxQCAHBhm9YtSOFg/presidenciaveis.jpg",
         "resumo": "Levantamento da Quaest para a Presidência da República no Distrito Federal foi divulgado nesta quarta (23). Margem de erro é de 3 pontos percentuais.",
-        "conteudo": "<p>Lula, Flávio Bolsonaro, Augusto Cury, Ronaldo Caiado, Renan Santos e Romeu Zema — Foto: Globo</p><h2>Contexto</h2><p>Pesquisa Quaest divulgada nesta quarta-feira (23) mostra como está a disputa pela Presidência da República entre os eleitores do Distrito Federal . O levantamento foi encomendado pela Globo.</p><p>Veja, abaixo, os resultados da pesquisa estimulada , em que a Quaest mostra a lista de candidatos aos eleitores entrevistados.</p><p>Flávio Bolsonaro (PL): 33% (eram 31%) Lula (PT): 32% (eram 28%) Ronaldo Caiado (PSD): 8% (eram 12%) Augusto Cury (Avante): 7% (eram 8%) Renan Santos (Missão): 3% (eram 2%) Romeu Zema (Novo): 1% (eram 2%) Samara Martins (UP): 0% (eram 1%) Rui Costa Pimenta (PCO): 0% (eram 0%) Leonardo Avalanche (PRTB): 0% (não estava no levantamento anterior*) Veterinário Wilson Grassi (Democrata): 0% (eram 0%) Edmilson Costa (PCB): 0% (eram 0%) Clariana Barão (DC): 0% (eram 0%) Hertz Dias (PSTU): 0% (eram 0%) Branco/nulo/não vai votar: 8% (eram 7%) Indecisos: 8% (eram 9%)</p><h2>Desdobramentos</h2><p>*Leonardo Avalanche voltou a ser o candidato do PRTB após a Justiça Eleitoral barrar Pablo Marçal, que está inelegível .</p><p>Para 80% dos eleitores ouvidos no levantamento, a escolha do candidato é definitiva. Outros 19% dizem que ainda podem mudar o voto até as eleições, em 4 de outubro.</p><p>A Quaest ouviu 1.104 pessoas de 16 anos ou mais entre os dias 19 e 22 de setembro . A margem de erro é de 3 pontos percentuais , para mais ou para menos, e o nível de confiança é de 95% . Os números de registro da pesquisa são DF-02596/2026 e BR-03609/2026.</p><p>Pela segunda vez, a Quaest questionou os eleitores do Distrito Federal sobre um eventual segundo turno entre Lula (PT) e Flávio Bolsonaro (PL) . Veja o resultado:</p><p>Flávio Bolsonaro (PL): 49% (eram 45%) Lula (PT): 38% (eram 38%) Branco/nulo/não vai votar: 12% (eram 13%) Indecisos: 1% (eram 4%)</p><p>Ainda sobre a eleição presidencial deste ano, a Quaest perguntou aos eleitores do DF qual era o principal &quot;medo&quot; deles em relação ao resultado das urnas .</p><p>Mais um mandato de Lula: 46% A volta da família Bolsonaro ao poder: 39% Tenho medo dos dois (espontânea): 8% Não tenho medo de nenhum dos dois (espontânea): 3% Não souberam ou não quiseram responder: 4%</p><p>Flávio Bolsonaro e Lula durante a propaganda eleitoral nesta terça-feira (22). — Foto: Reprodução</p>",
+        "conteudo": "<p>Lula, Flávio Bolsonaro, Augusto Cury, Ronaldo Caiado, Renan Santos e Romeu Zema — Foto: Globo</p><h2>Contexto</h2><p>Pesquisa Quaest divulgada nesta quarta-feira (23) mostra como está a disputa pela Presidência da República entre os eleitores do Distrito Federal . O levantamento foi encomendado pela Globo.</p><p>Veja, abaixo, os resultados da pesquisa estimulada , em que a Quaest mostra a lista de candidatos aos eleitores entrevistados.</p><p>Flávio Bolsonaro (PL): 33% (eram 31%) Lula (PT): 32% (eram 28%) Ronaldo Caiado (PSD): 8% (eram 12%) Augusto Cury (Avante): 7% (eram 8%) Renan Santos (Missão): 3% (eram 2%) Romeu Zema (Novo): 1% (eram 2%) Samara Martins (UP): 0% (eram 1%) Rui Costa Pimenta (PCO): 0% (eram 0%) Leonardo Avalanche (PRTB): 0% (não estava no levantamento anterior*) Veterinário Wilson Grassi (Democrata): 0% (eram 0%) Edmilson Costa (PCB): 0% (eram 0%) Clariana Barão (DC): 0% (eram 0%) Hertz Dias (PSTU): 0% (eram 0%) Branco/nulo/não vai votar: 8% (eram 7%) Indecisos: 8% (eram 9%)</p><h2>Desdobramentos</h2><p>Quaest, 23 de setembro: intenção de voto para presidente no DF, 1º turno — Foto: Arte/g1</p><p>*Leonardo Avalanche voltou a ser o candidato do PRTB após a Justiça Eleitoral barrar Pablo Marçal, que está inelegível .</p><p>Para 80% dos eleitores ouvidos no levantamento, a escolha do candidato é definitiva. Outros 19% dizem que ainda podem mudar o voto até as eleições, em 4 de outubro.</p><p>A Quaest ouviu 1.104 pessoas de 16 anos ou mais entre os dias 19 e 22 de setembro . A margem de erro é de 3 pontos percentuais , para mais ou para menos, e o nível de confiança é de 95% . Os números de registro da pesquisa são DF-02596/2026 e BR-03609/2026.</p><p>Celina, 33%; Grass, 21%; Arruda, 17% Senado no DF: Michelle, 26%; Leila, 19%; Erika, 15%; Bia, 15% 47% aprovam e 39% desaprovam governo de Celina Leão (PP) Veja as intenções de voto para governo em três cenários de segundo turno Veja como está a disputa presidencial em 6 estados e no DF</p>",
         "fonteNome": "g1 - Política",
         "fonteUrl": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/09/23/quaest-df-presidente-23-setembro.ghtml",
         "fontesAdicionais": [
@@ -407,156 +339,32 @@
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "*Leonardo Avalanche voltou a ser o candidato do PRTB após a Justiça Eleitoral barrar Pablo Marçal, que está inelegível ."
+            "resposta": "Quaest, 23 de setembro: intenção de voto para presidente no DF, 1º turno — Foto: Arte/g1"
           }
         ]
       }
     },
     {
-      "id": "4ea423466c1a780b",
-      "titulo": "Quaest: veja números da disputa presidencial em MG | G1",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "g1 - Capa",
-      "urlFonte": "https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/09/23/quaest-mg-presidente-23-setembro.ghtml",
-      "dataFonte": "2026-09-23T20:05:34.291Z",
-      "resumoFonte": "Pesquisa divulgada nesta quarta (23) foi encomendada pela Globo. Lula aparece numericamente à frente no cenário de 1º turno, mas está empatado com Flávio Bolsonaro (PL) no 2º.",
-      "imagem": "https://s2-g1.glbimg.com/ekPl-FRDJQfQGYUhKAo_o-ouLjY=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/q/y/pYHVzkTjK0CyGMp2UhGQ/montagem-horizontal-1280x720px-8-.jpg",
-      "descobertaEm": "2026-09-23T20:29:33.941Z",
-      "reportagem": {
-        "titulo": "Quaest: veja números da disputa presidencial em MG | G1",
-        "slug": "quaest-veja-numeros-da-disputa-presidencial-em-mg-g1",
-        "categoria": "Política Nacional",
-        "data": "2026-09-23",
-        "imagem": "https://s2-g1.glbimg.com/ekPl-FRDJQfQGYUhKAo_o-ouLjY=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/q/y/pYHVzkTjK0CyGMp2UhGQ/montagem-horizontal-1280x720px-8-.jpg",
-        "resumo": "Pesquisa divulgada nesta quarta (23) foi encomendada pela Globo. Lula aparece numericamente à frente no cenário de 1º turno, mas está empatado com Flávio Bolsonaro (PL) no 2º.",
-        "conteudo": "<p>Lula, Flávio, Cury e Caiado no horário eleitoral de TV — Foto: Reprodução</p><h2>Contexto</h2><p>Pesquisa Quaest divulgada nesta quarta-feira (23) mostra como está a disputa pela Presidência da República entre os eleitores de Minas Gerais. O levantamento foi encomendado pela Globo.</p><p>Lula aparece numericamente à frente nos cenários de 1º turno e aparece empatado de Flávio Bolsonaro (PL) na simulação de 2º turno.</p><p>Lula (PT): 35% (eram 31% em 8 de setembro ) Flávio Bolsonaro (PL): 30% (eram 27%) Escritor Augusto Cury (Avante): 5% (eram 8%) Ronaldo Caiado (PSD): 4% (eram 3%) Romeu Zema (Novo): 2% (eram 6%) Renan Santos (Missão): 2% (eram 2%) Samara Martins (UP): 0% (era 0%) Edmilson Costa (PCB): 0% (era 0%) Rui Costa Pimenta (PCO): 0% (era 0%) Hertz Dias (PSTU): 0% (era 0%) Clariana Barão (DC): 0% (era 0%) Veterinário Wilson Grassi (Democrata): 0% (era 0%) Indecisos: 13% (eram 15%) Branco/nulo/não vai votar: 9% (eram 8%)</p><h2>Desdobramentos</h2><p>LEIA TAMBÉM: Quaest: veja como está a disputa presidencial em 6 estados e no DF</p><p>Intenção de voto estimulada para presidente em MG no 1º turno — Foto: Quaest</p><p>Quaest: como está a disputa em 1º turno da eleição presidencial em Minas Gerais — Foto: Arte/g1</p><p>O levantamento foi encomendado pela Globo e ouviu 1.506 eleitores de 16 anos ou mais entre os dias 19 e 22 de setembro. A margem de erro é de três pontos percentuais, para mais ou para menos. O nível de confiança é de 95%. A pesquisa foi registrada na Justiça Eleitoral sob o número BR-07664/2026.</p><p>No cenário de 2º turno, Lula (PT) e Flávio Bolsonaro (PL) aparecem empatados com 40% das intenções de voto. Na pesquisa anterior, Flávio tinha 40% e Lula, 37%.</p><p>Flávio Bolsonaro (PL): 40% (eram 40% em 8 de setembro) Lula (PT): 40% (eram 37%) Branco/nulo/não vai votar: 13% (eram 15%) Indecisos: 7% (eram 8%)</p><p>A Quaest também perguntou aos eleitores se a escolha de voto era definitiva.</p><p>É definitiva: 81% (eram 71% em 8 de setembro) Pode mudar: 19% (eram 28%) Não sabe/não responderam: 0% (era 1%)</p>",
-        "fonteNome": "g1 - Capa",
-        "fonteUrl": "https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/09/23/quaest-mg-presidente-23-setembro.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Lula, Flávio, Cury e Caiado no horário eleitoral de TV — Foto: Reprodução"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Pesquisa Quaest divulgada nesta quarta-feira (23) mostra como está a disputa pela Presidência da República entre os eleitores de Minas Gerais. O levantamento foi encomendado pela Globo."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Lula aparece numericamente à frente nos cenários de 1º turno e aparece empatado de Flávio Bolsonaro (PL) na simulação de 2º turno."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Lula (PT): 35% (eram 31% em 8 de setembro ) Flávio Bolsonaro (PL): 30% (eram 27%) Escritor Augusto Cury (Avante): 5% (eram 8%) Ronaldo Caiado (PSD): 4% (eram 3%) Romeu Zema (Novo): 2% (eram 6%) Renan Santos (Missão): 2% (eram 2%) Samara Martins (UP): 0% (era 0%) Edmilson Costa (PCB): 0% (era 0%) Rui Costa Pimenta (PCO): 0% (era 0%) Hertz Dias (PSTU): 0% (era"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "LEIA TAMBÉM: Quaest: veja como está a disputa presidencial em 6 estados e no DF"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2df58e936b77bef2",
-      "titulo": "Renan Santos aciona TSE contra perfis estrangeiros no X por conteúdo pago favorável a Flávio Bolsonaro",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CBN - Política",
-      "urlFonte": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/23/renan-santos-aciona-tse-contra-perfis-estrangeiros-no-x-por-conteudo-pago-favoravel-a-flavio-bolsonaro.ghtml",
-      "dataFonte": "2026-09-23T18:33:23.929Z",
-      "resumoFonte": "Juntos, os perfis têm cerca de 8 milhões de seguidores.",
-      "imagem": "https://s2-cbn.glbimg.com/A-Zo9Qp8VdlkwsnafGu0iupWnNY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/W/L/C1mpMDTZCoq58C8q1vAg/pol428996.jpg",
-      "descobertaEm": "2026-09-23T20:26:57.395Z"
-    },
-    {
-      "id": "732f1998163124dc",
-      "titulo": "Lula e Flávio Bolsonaro começam a investir em alianças para eventual 2° turno",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CBN - Política",
-      "urlFonte": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/23/lula-e-flavio-bolsonaro-comecam-a-investir-em-aliancas-para-eventual-2-turno.ghtml",
-      "dataFonte": "2026-09-23T17:49:11.792Z",
-      "resumoFonte": "Ambos vinham aparecendo nas pesquisas tecnicamente empatados no segundo turno; Agora, aparecem também no primeiro.",
-      "imagem": "https://s2-cbn.glbimg.com/9C5IZB6sVALU75BAV9pORzaSIOs=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/z/w/uUFfGFQGehklDmCqGCpA/site-template-grade-de-fotos-2026-09-07t142421.189.png",
-      "descobertaEm": "2026-09-23T20:26:57.395Z",
-      "reportagem": {
-        "titulo": "Lula e Flávio Bolsonaro começam a investir em alianças para eventual 2° turno",
-        "slug": "lula-e-flavio-bolsonaro-comecam-a-investir-em-aliancas-para-eventual-2-turno",
-        "categoria": "Política Nacional",
-        "data": "2026-09-23",
-        "imagem": "https://s2-cbn.glbimg.com/9C5IZB6sVALU75BAV9pORzaSIOs=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/z/w/uUFfGFQGehklDmCqGCpA/site-template-grade-de-fotos-2026-09-07t142421.189.png",
-        "resumo": "Ambos vinham aparecendo nas pesquisas tecnicamente empatados no segundo turno; Agora, aparecem também no primeiro.",
-        "conteudo": "<p>Lula e Flávio Bolsonaro começam a investir em alianças para eventual 2° turno</p><h2>Contexto</h2><p>Faltando 11 dias para a eleição, Flávio Bolsonaro (PL) e Lula (PT) já investem nos bastidores na formação das alianças para um eventual segundo turno. Eles que vinham aparecendo tecnicamente empatados no segundo turno, agora também no primeiro turno.</p><p>Lula se reúne com ministros para discutir medidas contra bets Flávio Bolsonaro grava com Tarcísio, Nunes e aliados em SP para reforçar campanha no Sudeste</p><p>Enquanto Flávio Bolsonaro se apoia no capital político com a votação do primeiro turno e a eleição de deputados federais pelo PL para atrair partidos do Centrão, como União Brasil, PP e Republicanos; Lula aposta na neutralidade das siglas. Dessa forma, com os palanques liberados, o presidente pode consolidar apoios, sobretudo no Nordeste.</p><h2>Desdobramentos</h2><p>Mas os planos podem ser frustrados pela federação União Progressista, que se reúne logo no dia 6 de outubro para definir se irão apoiar um candidato à presidência. De acordo com interlocutores de Ciro Nogueira, ele teria se incomodado com a fala de Lula em que ele é chamado de “vira-lata” durante comício no Piauí, estado pelo qual o senador disputa a reeleição. O fato pode impactar na decisão da sigla que tem uma das maiores bancadas da Câmara.</p><p>Já o Republicanos diz que a discussão ocorrerá internamente no partido em momento adequado. Apesar do presidente da Câmara, Hugo Motta, candidato à reeleição, fazer campanha pra Lula no seu estado, na Paraíba, o presidente da sigla, Marcos Pereira, apoia Flávio Bolsonaro.</p><p>Sobre os outros candidatos à presidência, Augusto Cury, do Avante, que vem figurando em terceiro nas pesquisas, disse que não vai apoiar ninguém no segundo turno. Romeu Zema, do Novo, afirmou que se não ganhar, vai se afastar da política.</p><p>Ronaldo Caiado, do PSD, flerta com o bolsonarismo há muito tempo. Ele é a favor da anistia geral aos condenados pelo 8 de janeiro. Renan Santos, do Missão, ainda não debateu a possibilidade.</p><p>Confira resultado da pesquisa Quaest desta quarta-feira (23) para governador</p><p>Confira resultado da pesquisa Quaest desta quarta-feira (23) para governador</p><p>Renan Santos aciona TSE contra perfis estrangeiros no X por conteúdo pago favorável a Flávio Bolsonaro</p><p>Lula e Flávio Bolsonaro começam a investir em alianças para eventual 2° turno</p>",
-        "fonteNome": "CBN - Política",
-        "fonteUrl": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/23/lula-e-flavio-bolsonaro-comecam-a-investir-em-aliancas-para-eventual-2-turno.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Lula e Flávio Bolsonaro começam a investir em alianças para eventual 2° turno"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Faltando 11 dias para a eleição, Flávio Bolsonaro (PL) e Lula (PT) já investem nos bastidores na formação das alianças para um eventual segundo turno. Eles que vinham aparecendo tecnicamente empatados no segundo turno, agora também no primeiro turno."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Lula se reúne com ministros para discutir medidas contra bets Flávio Bolsonaro grava com Tarcísio, Nunes e aliados em SP para reforçar campanha no Sudeste"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Enquanto Flávio Bolsonaro se apoia no capital político com a votação do primeiro turno e a eleição de deputados federais pelo PL para atrair partidos do Centrão, como União Brasil, PP e Republicanos; Lula aposta na neutralidade das siglas. Dessa forma, com os palanques liberados, o presidente pode consolidar apoios, sobretudo no Nordeste."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Mas os planos podem ser frustrados pela federação União Progressista, que se reúne logo no dia 6 de outubro para definir se irão apoiar um candidato à presidência. De acordo com interlocutores de Ciro Nogueira, ele teria se incomodado com a fala de Lula em que ele é chamado de “vira-lata” durante comício no Piauí, estado pelo qual o senador disputa a reeleiç"
-          }
-        ]
-      }
-    },
-    {
-      "id": "64e7c7cb260244d9",
-      "titulo": "EUA vetam presença da China em negociações com Brasil",
+      "id": "f35bc9e2dc1d65c4",
+      "titulo": "Quaest: Celina lidera no DF com 33%; Michelle tem 26% ao Senado",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/economia/eua-vetam-presenca-da-china-em-negociacoes-com-brasil/",
-      "dataFonte": "2026-09-23T19:45:44.000Z",
-      "resumoFonte": "A tentativa da China de acompanhar as discussões entre Brasil e Estados Unidos na Organização Mundial do Comércio (OMC) não recebeu a permissão norte-americana. Pequim pretendia ingressar como terceira interessada nas consultas abertas por Brasília para questionar as tarifas impostas pelo governo Donald Trump aos produtos brasileiros. + Leia mais…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/trump-4.jpg.webp",
-      "descobertaEm": "2026-09-23T20:26:57.395Z",
+      "urlFonte": "https://revistaoeste.com/politica/quaest-celina-lidera-no-df-com-33-michelle-tem-26-ao-senado/",
+      "dataFonte": "2026-09-23T23:16:48.000Z",
+      "resumoFonte": "Pesquisa Quaest divulgada nesta quarta-feira, 23, mostra a governadora Celina Leão (PP) liderando a disputa pelo governo do Distrito Federal com 33% das intenções de voto no cenário estimulado. Leandro Grass (PT) aparece em segundo, com 21%, seguido por Arruda (PSD), com 17%. O levantamento foi encomendado pela TV Globo. + Entenda notícias de…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/image-4-888x568.jpg.webp",
+      "descobertaEm": "2026-09-23T23:45:04.116Z",
       "reportagem": {
-        "titulo": "EUA vetam presença da China em negociações com Brasil",
-        "slug": "eua-vetam-presenca-da-china-em-negociacoes-com-brasil",
+        "titulo": "Quaest: Celina lidera no DF com 33%; Michelle tem 26% ao Senado",
+        "slug": "quaest-celina-lidera-no-df-com-33-michelle-tem-26-ao-senado",
         "categoria": "Política Nacional",
         "data": "2026-09-23",
-        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/trump-4.jpg.webp",
-        "resumo": "Governos brasileiro e norte-americanos realizarão consultas na OMC a respeito das tarifas entre os dois países",
-        "conteudo": "<p>Formado em jornalismo pela Cásper Líbero, tem curso de especialização em teoria da história, pela Universidade de São Paulo e em economia e finanças pelo Instituto Brasileiro de Economia e Finanças. Atuou no Jornal do Brasil, O Estado de S. Paulo e portal R7, entre outros, tendo feito coberturas fora do país. Foi também assessor de imprensa do Consulado de Israel e da Secretaria da Educação do Estado de São Paulo. Autor de cinco livros, foi vencedor do Prêmio Clio de História e recebeu menção honrosa no Prêmio Sindiclube de Contos e Crônicas. Atualmente é jornalista da Revista Oeste.</p><h2>Contexto</h2><p>A China tentou se envolver nas discussões entre Brasil e Estados Unidos na OMC, buscando ser terceira interessada nas consultas sobre tarifas impostas pelo governo Trump, mas não obteve permissão dos EUA, que alegaram que o processo não envolve práticas chinesas. A solicitação da China, feita em 6 de agosto, foi considerada inadequada pelos EUA, que não reconheceram o &quot;interesse comercial substancial&quot; alegado.</p><p>A tentativa da China de acompanhar as discussões entre Brasil e Estados Unidos na Organização Mundial do Comércio (OMC) não recebeu a permissão norte-americana. Pequim pretendia ingressar como terceira interessada nas consultas abertas por Brasília para questionar as tarifas impostas pelo governo Donald Trump a produtos brasileiros.</p><p>A posição dos EUA foi registrada em documento encaminhado à OMC nesta terça-feira, 22. A delegação norte-americana sustentou que o processo iniciado pelo Brasil não trata de políticas ou práticas adotadas pela China. Também não estão em discussão tarifas dos EUA dirigidas especificamente a mercadorias de origem chinesa.</p><h2>Desdobramentos</h2><p>Para o governo Trump, esses elementos não sustentam o chamado “interesse comercial substancial” reivindicado por Pequim como fundamento para acompanhar as consultas. Pequim apresentou sua solicitação em 6 de agosto. A justificativa era que uma das medidas incluídas na contestação brasileira produziria efeitos também sobre produtos chineses.</p><p>A possibilidade de entrada de outro país nessa fase está prevista no artigo 4.11, do Entendimento sobre Solução de Controvérsias da OMC . Pelo dispositivo, um membro da organização pode participar das consultas de uma disputa da qual originalmente não faz parte quando demonstra interesse comercial substancial no assunto.</p><p>Há, contudo, uma condição para isso. O país que responde à contestação precisa reconhecer que o interesse apresentado pelo terceiro participante possui fundamentação suficiente. Foi esse requisito que, na avaliação dos EUA, a solicitação chinesa não preencheu.</p><p>A iniciativa brasileira contra as tarifas dos EUA abriu uma discussão formal dentro da OMC. O governo brasileiro busca contestar as medidas norte-americanas por meio dos instrumentos previstos no sistema multilateral de comércio.</p><p>O recurso à organização permite ao governo brasileiro apresentar formalmente suas objeções e fundamentá-las nas normas internacionais aplicáveis ao comércio entre os países.</p><p>O mecanismo de solução de controvérsias da OMC enfrenta limitações atualmente, mas a fase inicial do procedimento continua oferecendo espaço para negociação. Antes de qualquer avanço para uma etapa de análise da controvérsia, Brasil e EUA terão a oportunidade de buscar um entendimento diretamente.</p><p>Leia mais: “China entra em disputa do Brasil contra tarifaço de Trump”</p><p>O primeiro encontro está previsto para esta sexta-feira, 25, em Genebra , na Suíça. Representantes dos dois países participarão das consultas, etapa que inaugura o procedimento de solução de controvérsias da OMC.</p>",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/image-4-888x568.jpg.webp",
+        "resumo": "Levantamento encomendado pela TV Globo mostra Leandro Grass em segundo lugar na disputa pelo Palácio do Buriti; amostragem ouviu 1,1 mil eleitores",
+        "conteudo": "<p>Jornalista formada pela Universidade Federal de Mato Grosso, com extensão em jornalismo econômico pela Fundação Getulio Vargas. Atuou no jornal O Estado de S. Paulo. É repórter de Oeste em São Paulo.</p><h2>Contexto</h2><p>Pesquisa da Quaest, divulgada nesta quarta-feira, 23, mostra a governadora Celina Leão (PP) liderando a corrida pelo governo do Distrito Federal com 33% das intenções de voto, seguida por Leandro Grass (PT) com 21% e Arruda (PSD) com 17%. Em um cenário sem Arruda, Celina sobe para 34%. Para o Senado, Michelle Bolsonaro (PL) lidera com 26%, seguida por Leila do Vôlei (PDT) com 19%. A pesquisa, realizada de 19 a 22 de setembro, ouviu 1.104 pessoas e tem margem de erro de 3 pontos percentuais.</p><p>Pesquisa Quaest divulgada nesta quarta-feira, 23, mostra a governadora Celina Leão (PP) liderando a disputa pelo governo do Distrito Federal com 33% das intenções de voto no cenário estimulado. Leandro Grass (PT) aparece em segundo, com 21%, seguido por Arruda (PSD), com 17%. O levantamento foi encomendado pela TV Globo.</p><p>No primeiro cenário, que inclui todos os candidatos, Celina Leão tem 33%, Leandro Grass, 21%, e Arruda, 17%. Paula Belmonte (PSDB) registra 5%, e Cappelli (PSB) e Kiko Caputo (Novo) somam 2% cada. Brancos e nulos somam 8%, e os indecisos, 12%.</p><h2>Desdobramentos</h2><p>A Quaest também simulou um cenário sem Arruda, Elisson (Agir) e Rico Pinheiro (PRTB), cujas candidaturas foram indeferidas pelo Tribunal Regional Eleitoral do Distrito Federal (TRE-DF) . Os três recorreram ao Tribunal Superior Eleitoral (TSE) e podem seguir em campanha até o julgamento dos recursos.</p><p>Nesse cenário, Celina Leão aparece com 34%, Leandro Grass, com 23%, e Paula Belmonte, com 7%. Kiko Caputo tem 3%, e Cappelli, 2%. Brancos e nulos somam 15%, e os indecisos, 15%.</p><p>Na disputa pelas duas vagas ao Senado , Michelle Bolsonaro (PL) lidera com 26% das intenções de voto no cenário estimulado. Leila do Vôlei (PDT) aparece em segundo, com 19%, seguida por Erika Kokay (PT) e Bia Kicis (PL), ambas com 15%. Sebastião Coelho (Novo) registra 2%, e Ronaldo Fonseca (PSD), Professor Guilherme Amorim (UP) e Guto Felício dos Santos (PSDB) somam 1% cada.</p><p>Leia mais: “ Advogados reiteram pedido de afastamento e prisão preventiva de Moraes ”</p><p>Brancos e nulos somam 9%, e os indecisos, 11%. Na pesquisa espontânea, 56% dos entrevistados não souberam citar um candidato.</p><p>Quando a pesquisa considera apenas as respostas para o primeiro voto, Michelle Bolsonaro tem 40%. Leila do Vôlei e Erika Kokay aparecem com 19%, e Bia Kicis, com 8%.</p><p>Leia mais: “ Quem são os candidatos ao Senado por Minas em 2026 ”</p><p>Para a segunda vaga, Bia Kicis lidera com 22%, Leila do Vôlei 18%, seguida por Michelle Bolsonaro, com 13%, e Erika Kokay, com 11%.</p>",
         "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/economia/eua-vetam-presenca-da-china-em-negociacoes-com-brasil/",
+        "fonteUrl": "https://revistaoeste.com/politica/quaest-celina-lidera-no-df-com-33-michelle-tem-26-ao-senado/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -571,48 +379,48 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Formado em jornalismo pela Cásper Líbero, tem curso de especialização em teoria da história, pela Universidade de São Paulo e em economia e finanças pelo Instituto Brasileiro de Economia e Finanças. Atuou no Jornal do Brasil, O Estado de S. Paulo e portal R7, entre outros, tendo feito coberturas fora do país. Foi também assessor de imprensa do Consulado de I"
+            "resposta": "Jornalista formada pela Universidade Federal de Mato Grosso, com extensão em jornalismo econômico pela Fundação Getulio Vargas. Atuou no jornal O Estado de S. Paulo. É repórter de Oeste em São Paulo."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A China tentou se envolver nas discussões entre Brasil e Estados Unidos na OMC, buscando ser terceira interessada nas consultas sobre tarifas impostas pelo governo Trump, mas não obteve permissão dos EUA, que alegaram que o processo não envolve práticas chinesas. A solicitação da China, feita em 6 de agosto, foi considerada inadequada pelos EUA, que não reco"
+            "resposta": "Pesquisa da Quaest, divulgada nesta quarta-feira, 23, mostra a governadora Celina Leão (PP) liderando a corrida pelo governo do Distrito Federal com 33% das intenções de voto, seguida por Leandro Grass (PT) com 21% e Arruda (PSD) com 17%. Em um cenário sem Arruda, Celina sobe para 34%. Para o Senado, Michelle Bolsonaro (PL) lidera com 26%, seguida por Leila "
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A tentativa da China de acompanhar as discussões entre Brasil e Estados Unidos na Organização Mundial do Comércio (OMC) não recebeu a permissão norte-americana. Pequim pretendia ingressar como terceira interessada nas consultas abertas por Brasília para questionar as tarifas impostas pelo governo Donald Trump a produtos brasileiros."
+            "resposta": "Pesquisa Quaest divulgada nesta quarta-feira, 23, mostra a governadora Celina Leão (PP) liderando a disputa pelo governo do Distrito Federal com 33% das intenções de voto no cenário estimulado. Leandro Grass (PT) aparece em segundo, com 21%, seguido por Arruda (PSD), com 17%. O levantamento foi encomendado pela TV Globo."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A posição dos EUA foi registrada em documento encaminhado à OMC nesta terça-feira, 22. A delegação norte-americana sustentou que o processo iniciado pelo Brasil não trata de políticas ou práticas adotadas pela China. Também não estão em discussão tarifas dos EUA dirigidas especificamente a mercadorias de origem chinesa."
+            "resposta": "No primeiro cenário, que inclui todos os candidatos, Celina Leão tem 33%, Leandro Grass, 21%, e Arruda, 17%. Paula Belmonte (PSDB) registra 5%, e Cappelli (PSB) e Kiko Caputo (Novo) somam 2% cada. Brancos e nulos somam 8%, e os indecisos, 12%."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Para o governo Trump, esses elementos não sustentam o chamado “interesse comercial substancial” reivindicado por Pequim como fundamento para acompanhar as consultas. Pequim apresentou sua solicitação em 6 de agosto. A justificativa era que uma das medidas incluídas na contestação brasileira produziria efeitos também sobre produtos chineses."
+            "resposta": "A Quaest também simulou um cenário sem Arruda, Elisson (Agir) e Rico Pinheiro (PRTB), cujas candidaturas foram indeferidas pelo Tribunal Regional Eleitoral do Distrito Federal (TRE-DF) . Os três recorreram ao Tribunal Superior Eleitoral (TSE) e podem seguir em campanha até o julgamento dos recursos."
           }
         ]
       }
     },
     {
-      "id": "d16e19a9da4de1ef",
-      "titulo": "Veja os 10 candidatos ao Senado pela Bahia",
+      "id": "98ab6b8418bfbf3e",
+      "titulo": "Tarcísio lidera disputa pelo governo de SP com 44%, diz Quaest",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/veja-os-10-candidatos-ao-senado-pela-bahia/",
-      "dataFonte": "2026-09-23T19:23:25.000Z",
-      "resumoFonte": "Nas eleições de outubro de 2026, os eleitores da Bahia escolherão dois senadores, além de presidente da República, governador, deputados federais e deputados estaduais. Dez candidatos disputam as duas cadeiras destinadas ao Estado. O primeiro turno está marcado para 4 de outubro. Pesquisa Real Time Big Data divulgada em 9 de setembro mostra o…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/plenario-do-senado-na-sessao-final-do-julgamento-de-impeachment-de-dilma-rousseff-geraldo-magela-agencia-senado-860x568.jpg.webp",
-      "descobertaEm": "2026-09-23T20:26:57.395Z",
+      "urlFonte": "https://revistaoeste.com/politica/tarcisio-lidera-disputa-pelo-governo-de-sp-com-44-diz-quaest/",
+      "dataFonte": "2026-09-23T23:09:36.000Z",
+      "resumoFonte": "O governador de São Paulo, Tarcísio de Freitas (Republicanos) , aparece com 44% das intenções de voto na disputa pela reeleição, segundo pesquisa Quaest divulgada nesta quarta-feira, 23. Fernando Haddad (PT) registra 27%. Na pesquisa estimulada, quando os nomes dos candidatos são apresentados aos entrevistados, Policial Edjane (Agir), Vera Lúcia…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/tarcisio-e-haddad.jpg.webp",
+      "descobertaEm": "2026-09-23T23:45:04.116Z",
       "reportagem": {
-        "titulo": "Veja os 10 candidatos ao Senado pela Bahia",
-        "slug": "veja-os-10-candidatos-ao-senado-pela-bahia",
+        "titulo": "Tarcísio lidera disputa pelo governo de SP com 44%, diz Quaest",
+        "slug": "tarcisio-lidera-disputa-pelo-governo-de-sp-com-44-diz-quaest",
         "categoria": "Política Nacional",
         "data": "2026-09-23",
-        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/plenario-do-senado-na-sessao-final-do-julgamento-de-impeachment-de-dilma-rousseff-geraldo-magela-agencia-senado-860x568.jpg.webp",
-        "resumo": "Estado terá duas vagas em disputa; pesquisa mostra Rui Costa com 26% das intenções de voto",
-        "conteudo": "<p>Graduada em jornalismo pela Universidade do Estado da Bahia. Soma passagens pelos jornais, JC Concursos, Folha de S.Paulo e O Estado de S.Paulo. Foi repórter dos portais Datagro e Broto. É repórter da Revista Oeste desde março de 2026</p><h2>Contexto</h2><p>Nas eleições de outubro de 2026, os eleitores da Bahia escolherão dois senadores, além de presidente, governador e deputados. O primeiro turno ocorrerá em 4 de outubro, com dez candidatos disputando as cadeiras. Uma pesquisa de 9 de setembro indica Rui Costa (PT) com 26% das intenções de voto, seguido por Jaques Wagner (PT) com 19%, João Roma (PL) com 17% e Angelo Coronel (Republicanos) com 15%. A pesquisa, realizada entre 4 e 8 de setembro, ouviu 1.600 eleitores e tem margem de erro de 2 pontos porcentuais.</p><p>Nas eleições de outubro de 2026, os eleitores da Bahia escolherão dois senadores, além de presidente da República, governador, deputados federais e deputados estaduais. Dez candidatos disputam as duas cadeiras destinadas ao Estado. O primeiro turno está marcado para 4 de outubro.</p><p>Pesquisa Real Time Big Data divulgada em 9 de setembro mostra o ex-ministro da Casa Civil e ex-governador da Bahia Rui Costa (PT) com 26% das intenções de voto. Como cada eleitor poderá escolher dois nomes para o Senado, o instituto perguntou separadamente quais seriam as escolhas para a primeira e a segunda vaga. Depois, os resultados foram consolidados e ajustados proporcionalmente para totalizar 100%.</p><h2>Desdobramentos</h2><p>Leia também: “ 10 candidatos disputam as duas vagas de Mato Grosso no Senado “</p><p>O senador Jaques Wagner (PT) aparece com 19%. Na sequência, João Roma (PL) registra 17%, enquanto Angelo Coronel (Republicanos) tem 15%. Os três estão dentro da margem de erro na disputa pela segunda cadeira, de acordo com o levantamento.</p><p>A pesquisa ouviu 1,6 mil eleitores da Bahia entre 4 e 8 de setembro. A margem de erro é de 2 pontos porcentuais, para mais ou para menos, com nível de confiança de 95%.</p><p>O levantamento foi contratado pela própria Real Time Big Data e está registrado no Tribunal Superior Eleitoral (TSE) sob o protocolo BA-01568/2026.</p><p>Os candidatos serão apresentados em ordem alfabética, conforme a relação disponível no DivulgaCand , plataforma do TSE.</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/tarcisio-e-haddad.jpg.webp",
+        "resumo": "Governador aparece à frente de Fernando Haddad, que registra 27% das intenções de voto; pesquisa também mostra cenário para o Senado",
+        "conteudo": "<p>Graduada em jornalismo pela Universidade do Estado da Bahia. Soma passagens pelos jornais, JC Concursos, Folha de S.Paulo e O Estado de S.Paulo. Foi repórter dos portais Datagro e Broto. É repórter da Revista Oeste desde março de 2026</p><h2>Contexto</h2><p>O governador de São Paulo, Tarcísio de Freitas (Republicanos), lidera as intenções de voto para reeleição com 44%, segundo pesquisa Quaest divulgada nesta quarta-feira, 23. Fernando Haddad (PT) aparece com 27%. Em uma simulação de segundo turno, Tarcísio tem 49% contra 30% de Haddad. A pesquisa também revela que 72% dos entrevistados consideram sua escolha de voto definitiva. A aprovação do governo Tarcísio é de 58%, e 59% acreditam que ele merece a reeleição.</p><p>O governador de São Paulo, Tarcísio de Freitas (Republicanos) , aparece com 44% das intenções de voto na disputa pela reeleição, segundo pesquisa Quaest divulgada nesta quarta-feira, 23. Fernando Haddad (PT) registra 27%.</p><p>Na pesquisa estimulada, quando os nomes dos candidatos são apresentados aos entrevistados, Policial Edjane (Agir), Vera Lúcia (PSTU), Carlos Machado (PCB) e Izadora Dias (PCO) têm 1% cada. Vivian Mendes (UP) não pontuou.</p><h2>Desdobramentos</h2><p>Policial Edjane aparece no levantamento porque estava apta no momento do registro da pesquisa. O Tribunal Regional Eleitoral (TRE) indeferiu a candidatura na sexta-feira, 18.</p><p>Brancos, nulos ou eleitores que afirmaram não votar somam 11%. Outros 14% estão indecisos.</p><p>Leia também: “ Tarcísio deve vencer Haddad já no 1° turno, aponta AtlasIntel “</p><p>Na comparação com a pesquisa de 8 de setembro, Tarcísio passou de 42% para 44%, enquanto Haddad permaneceu em 27%. Os demais candidatos mantiveram os mesmos percentuais.</p><p>Em uma eventual disputa de segundo turno entre Tarcísio e Haddad, o governador registra 49% das intenções de voto, contra 30% do petista. Brancos, nulos ou eleitores que não pretendem votar somam 12%, enquanto 9% estão indecisos.</p><p>Na pesquisa espontânea, quando os nomes dos candidatos não são apresentados, Tarcísio aparece com 27%, ante 13% de Haddad. Outros candidatos somam 1%. Brancos, nulos ou eleitores que não pretendem votar representam 3%, enquanto 56% não souberam ou não responderam.</p><p>A pesquisa também perguntou sobre a possibilidade de mudança de voto. Para 72% dos entrevistados, a escolha é definitiva. Outros 28% afirmam que ainda podem mudar de candidato até 4 de outubro.</p><p>Haddad registra 57% entre os eleitores que dizem conhecê-lo e não votariam nele. Tarcísio aparece com 35%. No caso do governador, 52% afirmam conhecê-lo e votariam nele, enquanto 13% dizem não conhecê-lo.</p>",
         "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/veja-os-10-candidatos-ao-senado-pela-bahia/",
+        "fonteUrl": "https://revistaoeste.com/politica/tarcisio-lidera-disputa-pelo-governo-de-sp-com-44-diz-quaest/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -631,25 +439,305 @@
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Nas eleições de outubro de 2026, os eleitores da Bahia escolherão dois senadores, além de presidente, governador e deputados. O primeiro turno ocorrerá em 4 de outubro, com dez candidatos disputando as cadeiras. Uma pesquisa de 9 de setembro indica Rui Costa (PT) com 26% das intenções de voto, seguido por Jaques Wagner (PT) com 19%, João Roma (PL) com 17% e "
+            "resposta": "O governador de São Paulo, Tarcísio de Freitas (Republicanos), lidera as intenções de voto para reeleição com 44%, segundo pesquisa Quaest divulgada nesta quarta-feira, 23. Fernando Haddad (PT) aparece com 27%. Em uma simulação de segundo turno, Tarcísio tem 49% contra 30% de Haddad. A pesquisa também revela que 72% dos entrevistados consideram sua escolha d"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Nas eleições de outubro de 2026, os eleitores da Bahia escolherão dois senadores, além de presidente da República, governador, deputados federais e deputados estaduais. Dez candidatos disputam as duas cadeiras destinadas ao Estado. O primeiro turno está marcado para 4 de outubro."
+            "resposta": "O governador de São Paulo, Tarcísio de Freitas (Republicanos) , aparece com 44% das intenções de voto na disputa pela reeleição, segundo pesquisa Quaest divulgada nesta quarta-feira, 23. Fernando Haddad (PT) registra 27%."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Pesquisa Real Time Big Data divulgada em 9 de setembro mostra o ex-ministro da Casa Civil e ex-governador da Bahia Rui Costa (PT) com 26% das intenções de voto. Como cada eleitor poderá escolher dois nomes para o Senado, o instituto perguntou separadamente quais seriam as escolhas para a primeira e a segunda vaga. Depois, os resultados foram consolidados e a"
+            "resposta": "Na pesquisa estimulada, quando os nomes dos candidatos são apresentados aos entrevistados, Policial Edjane (Agir), Vera Lúcia (PSTU), Carlos Machado (PCB) e Izadora Dias (PCO) têm 1% cada. Vivian Mendes (UP) não pontuou."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Leia também: “ 10 candidatos disputam as duas vagas de Mato Grosso no Senado “"
+            "resposta": "Policial Edjane aparece no levantamento porque estava apta no momento do registro da pesquisa. O Tribunal Regional Eleitoral (TRE) indeferiu a candidatura na sexta-feira, 18."
+          }
+        ]
+      }
+    },
+    {
+      "id": "03f9f9af906740dc",
+      "titulo": "Disputa ao governo do Rio tem Paes com 36% e Ruas com 23%",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/disputa-ao-governo-do-rio-tem-paes-com-36-e-ruas-com-23/",
+      "dataFonte": "2026-09-23T23:07:47.000Z",
+      "resumoFonte": "Eduardo Paes (PSD) aparece com 36% das intenções de voto na disputa pelo governo do Rio de Janeiro , segundo pesquisa Quaest divulgada nesta quarta-feira, 23. Douglas Ruas (PL) tem 23% e Anthony Garotinho (Republicanos), 8%. Na rodada anterior, de 8 de setembro, Paes tinha 39%, Ruas, 18%, e Garotinho, 8%. A diferença entre Paes e Ruas caiu de 21…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/rio_governosenado-910x568.jpg.webp",
+      "descobertaEm": "2026-09-23T23:45:04.116Z",
+      "reportagem": {
+        "titulo": "Disputa ao governo do Rio tem Paes com 36% e Ruas com 23%",
+        "slug": "disputa-ao-governo-do-rio-tem-paes-com-36-e-ruas-com-23",
+        "categoria": "Política Nacional",
+        "data": "2026-09-23",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/rio_governosenado-910x568.jpg.webp",
+        "resumo": "Pesquisa mostra queda de 8 pontos na distância entre rivais; Senado segue com Benedita à frente",
+        "conteudo": "<p>Jornalista, pós-graduado em marketing e mestre em comunicação e consumo. Especialista em comunicação e consumo e análise política.</p><h2>Contexto</h2><p>Eduardo Paes (PSD) lidera a disputa pelo governo do Rio de Janeiro com 36% das intenções de voto, segundo pesquisa Quaest divulgada nesta quarta-feira, 23. Douglas Ruas (PL) aparece em segundo com 23%, e Anthony Garotinho (Republicanos) tem 8%. A diferença entre Paes e Ruas diminuiu de 21 para 13 pontos percentuais desde a pesquisa anterior, realizada em 8 de setembro. Em um cenário sem Garotinho, Paes teria 38% e Ruas, 25%. Para o Senado, Benedita da Silva (PT) lidera com 15%, enquanto os indecisos somam 21%.</p><p>Eduardo Paes (PSD) aparece com 36% das intenções de voto na disputa pelo governo do Rio de Janeiro , segundo pesquisa Quaest divulgada nesta quarta-feira, 23. Douglas Ruas (PL) tem 23% e Anthony Garotinho (Republicanos), 8%. Na rodada anterior, de 8 de setembro, Paes tinha 39%, Ruas, 18%, e Garotinho, 8%.</p><p>A diferença entre Paes e Ruas caiu de 21 para 13 pontos percentuais. Os demais candidatos aparecem com 1% ou menos. Em um cenário sem Garotinho, Paes registra 38% e Ruas, 25%. A Quaest também simulou um segundo turno entre Paes e Ruas, no qual o ex-prefeito soma 44% contra 31%.</p><h2>Desdobramentos</h2><p>Na disputa pelas duas vagas ao Senado pelo Rio de janeiro, Benedita da Silva (PT) aparece com 15% das intenções de voto. Carlos Jordy (PL) e Carlos Portinho (PL) têm 10% cada, seguidos por Marcelo Crivella (Republicanos), com 7%, e Pedro Paulo (PSD), com 6%.</p><p>Monica Benicio (Psol) registra 4%, Waguinho (Republicanos), 3%, e Helio Secco (Missão), 3%. Michelly Xavier (UP) e Marcos Dias (Podemos) têm 1% cada. Outros cinco candidatos não pontuaram. Os indecisos somam 21%, mesmo percentual dos que declararam voto branco, nulo ou disseram que não pretendem votar.</p><p>Leia também: “O fenômeno Nikolas Ferreira” , reportagem publicada na Edição 340 da Revista Oeste</p><p>A pesquisa ouviu 1.302 eleitores de 16 anos ou mais entre 19 e 22 de setembro. A margem de erro é de três pontos percentuais, com nível de confiança de 95%. O levantamento foi contratado pela Globo e registrado no Tribunal Superior Eleitoral sob o número RJ-04982/2026.</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/disputa-ao-governo-do-rio-tem-paes-com-36-e-ruas-com-23/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Jornalista, pós-graduado em marketing e mestre em comunicação e consumo. Especialista em comunicação e consumo e análise política."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Eduardo Paes (PSD) lidera a disputa pelo governo do Rio de Janeiro com 36% das intenções de voto, segundo pesquisa Quaest divulgada nesta quarta-feira, 23. Douglas Ruas (PL) aparece em segundo com 23%, e Anthony Garotinho (Republicanos) tem 8%. A diferença entre Paes e Ruas diminuiu de 21 para 13 pontos percentuais desde a pesquisa anterior, realizada em 8 d"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Eduardo Paes (PSD) aparece com 36% das intenções de voto na disputa pelo governo do Rio de Janeiro , segundo pesquisa Quaest divulgada nesta quarta-feira, 23. Douglas Ruas (PL) tem 23% e Anthony Garotinho (Republicanos), 8%. Na rodada anterior, de 8 de setembro, Paes tinha 39%, Ruas, 18%, e Garotinho, 8%."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A diferença entre Paes e Ruas caiu de 21 para 13 pontos percentuais. Os demais candidatos aparecem com 1% ou menos. Em um cenário sem Garotinho, Paes registra 38% e Ruas, 25%. A Quaest também simulou um segundo turno entre Paes e Ruas, no qual o ex-prefeito soma 44% contra 31%."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Na disputa pelas duas vagas ao Senado pelo Rio de janeiro, Benedita da Silva (PT) aparece com 15% das intenções de voto. Carlos Jordy (PL) e Carlos Portinho (PL) têm 10% cada, seguidos por Marcelo Crivella (Republicanos), com 7%, e Pedro Paulo (PSD), com 6%."
+          }
+        ]
+      }
+    },
+    {
+      "id": "26bc482aef204f6d",
+      "titulo": "Quem são os candidatos ao Senado por Minas em 2026",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/quem-sao-os-candidatos-ao-senado-por-minas-em-2026/",
+      "dataFonte": "2026-09-23T22:25:05.000Z",
+      "resumoFonte": "Minas Gerais tem 16 candidaturas ao Senado na relação atualizada da Justiça Eleitoral. Os eleitores poderão escolher dois nomes diferentes em 4 de outubro. Os dois mais votados assumirão mandatos de oito anos . A lista exige atenção às mudanças ocorridas depois do registro inicial: Aécio Neves substituiu Gustavo Galassi na candidatura do PSDB, e…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/04/55210014716_882d047c65_o-copiar.jpg.webp",
+      "descobertaEm": "2026-09-23T23:45:04.116Z",
+      "reportagem": {
+        "titulo": "Quem são os candidatos ao Senado por Minas em 2026",
+        "slug": "quem-sao-os-candidatos-ao-senado-por-minas-em-2026",
+        "categoria": "Política Nacional",
+        "data": "2026-09-23",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/04/55210014716_882d047c65_o-copiar.jpg.webp",
+        "resumo": "Estado tem 2 vagas em disputa; relação inclui ex-governador, senador em exercício e ex-prefeita de Contagem",
+        "conteudo": "<p>Formado em jornalismo pela Universidade Estadual Paulista Júlio de Mesquita Filho. Repórter da Revista Oeste desde setembro de 2024.</p><h2>Contexto</h2><p>Minas Gerais tem 16 candidaturas ao Senado na relação atualizada da Justiça Eleitoral. Os eleitores poderão escolher dois nomes diferentes em 4 de outubro. Os dois mais votados assumirão mandatos de oito anos . A lista exige atenção às mudanças ocorridas depois do registro inicial: Aécio Neves substituiu Gustavo Galassi na candidatura do PSDB, e Marcelo Heringer passou a integrar a chapa como suplente.</p><p>Como duas vagas de Minas Gerais estão em disputa em 2026, partidos e federações podem lançar até dois candidatos ao Senado. É o caso do MDB, do PSTU e da UP, que têm dois nomes cada na disputa.</p><p>Os dois eleitos representarão Minas Gerais no Senado pelos próximos oito anos. Diferentemente da eleição para governador, a disputa não tem segundo turno : as duas vagas serão preenchidas conforme o resultado da votação de 4 de outubro.</p><h2>Desdobramentos</h2><p>Leia também: “Eleição para quem precisa” , artigo de Guilherme Fiuza publicado na Edição 332 da Revista Oeste</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/quem-sao-os-candidatos-ao-senado-por-minas-em-2026/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Formado em jornalismo pela Universidade Estadual Paulista Júlio de Mesquita Filho. Repórter da Revista Oeste desde setembro de 2024."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Minas Gerais tem 16 candidaturas ao Senado na relação atualizada da Justiça Eleitoral. Os eleitores poderão escolher dois nomes diferentes em 4 de outubro. Os dois mais votados assumirão mandatos de oito anos . A lista exige atenção às mudanças ocorridas depois do registro inicial: Aécio Neves substituiu Gustavo Galassi na candidatura do PSDB, e Marcelo Heri"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Como duas vagas de Minas Gerais estão em disputa em 2026, partidos e federações podem lançar até dois candidatos ao Senado. É o caso do MDB, do PSTU e da UP, que têm dois nomes cada na disputa."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Os dois eleitos representarão Minas Gerais no Senado pelos próximos oito anos. Diferentemente da eleição para governador, a disputa não tem segundo turno : as duas vagas serão preenchidas conforme o resultado da votação de 4 de outubro."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Leia também: “Eleição para quem precisa” , artigo de Guilherme Fiuza publicado na Edição 332 da Revista Oeste"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c17ddad0b2ced998",
+      "titulo": "Em discurso ambíguo na ONU, presidente da Venezuela critica interferência externa e elogia acordo com os EUA",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/mundo/ao-vivo/assembleia-geral-da-onu-2026.ghtml",
+      "dataFonte": "2026-09-23T23:36:21.000Z",
+      "resumoFonte": "Em discurso ambíguo na ONU, presidente da Venezuela critica interferência externa e elogia acordo com os EUA Mais cedo, discursaram o presidente do Irã, Javier Milei e Zelesnky. Na terça (22), Lula, Trump e secretário-geral da ONU discursaram. Neste ano, g1 está em Nova York para mostrar os bastidores, as tensões e as curiosidades que envolvem a…",
+      "imagem": "https://s2-g1.glbimg.com/NEW87Yh0BwN9hVvwqiaBedg5smA=/smart/filters:strip_icc()/s2-g1.glbimg.com/iKiWnDCVkbXiPtjd4p5saQ247Cw%3D/4000x0/filters%3Aformat%28jpeg%29/https%3A//i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/T/B/3Y2XzCTteOqgId03eb9Q/2026-09-23t232727z-2068869748-rc2bpnaao0ol-rtrmadp-3-un-assembly.jpg",
+      "descobertaEm": "2026-09-23T23:45:04.116Z",
+      "reportagem": {
+        "titulo": "Na ONU, presidente da Venezuela critica interferência externa, elogia acordo com os EUA e fala em",
+        "slug": "na-onu-presidente-da-venezuela-critica-interferencia-externa-elogia-acordo-com-os-eua-e-fala-em",
+        "categoria": "Política Nacional",
+        "data": "2026-09-23",
+        "imagem": "https://s2-g1.glbimg.com/NEW87Yh0BwN9hVvwqiaBedg5smA=/smart/filters:strip_icc()/s2-g1.glbimg.com/iKiWnDCVkbXiPtjd4p5saQ247Cw%3D/4000x0/filters%3Aformat%28jpeg%29/https%3A//i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/T/B/3Y2XzCTteOqgId03eb9Q/2026-09-23t232727z-2068869748-rc2bpnaao0ol-rtrmadp-3-un-assembly.jpg",
+        "resumo": "Mais cedo, discursaram o presidente do Irã, Javier Milei e Zelesnky. Na terça (22), Lula, Trump e secretário-geral da ONU discursaram. Neste ano, g1 está em Nova York para mostrar os bastidores, as tensões e as curiosidades que envolvem a Assembleia.",
+        "conteudo": "<p>A ONU realiza nesta semana a 81ª Assembleia Geral, em Nova York, em meio a uma grave crise existencial . O secretário-geral António Guterres admitiu em discurso que há uma crise no órgão internacional.</p><h2>Contexto</h2><p>Lula, Trump também discursaram no 1º dia. O presidente brasileiro disse, em indireta aos EUA, que o Brasil &quot;não cabe no quintal de ninguém&quot; . Trump ameaçou o Irã e uma ação militar na América Latina.</p><p>SANDRA COHEN: ONU vira palanque eleitoral para Lula e Trump em discursos de visões opostas</p><p>Também na terça, a coalizão anticartéis 'Escudo das Américas', liderada pelos EUA, anunciou sanções contra o PPC, o CV e outros grupos chamados de 'narcoterroristas'.</p><h2>Desdobramentos</h2><p>O presidente do Irã discursou nesta quarta e chamou EUA e Israel de terroristas e que seu país nunca não busca armas nucleares. Também discursaram Milei e Zelensky .</p><p>Delcy está prometendo uma ampla reforma nos poderes do país, incluindo no Judiciário. Ela também prometeu a realização de eleições. Para isso, disse que é preciso conversar com a oposição para haver algo justo para todos.</p><p>Recentemente, ela e Trump disseram que a Venezuela ainda não estava pronta para novas eleições.</p><p>Delcy afirmou que &quot;a democracia não se meda pela existência de eleições&quot;, mas pela qualidade da competição que as antecede.</p><p>&quot;Em 2026, a Venezuela viveu duas grandes e dolorosas provações em sua trajetória como nação. Uma delas, decorrente do estrangulamento de sua vida política interna e do acirramento do confronto com os Estados Unidos da América. A outra, provocada pela força implacável da natureza: o duplo terremoto de 24 de junho&quot;, afirmou Delcy.</p><p>Delcy diz que acordo binacional entre Venezuela e EUA contribuirá para o equilíbrio energético da economia e do comércio internacional.</p><p>A delegação dos EUA é uma das mais completas neste momento na ONU, informa o repórter do g1 Wesley Bischoff. A comitiva americana está ocupando 5 das 6 cadeiras.</p><p>Presidente da Venezuela, Delcy Rodríguez, ignora perguntas de jornalistas na chegada à ONU</p>",
+        "fonteNome": "g1 - Política",
+        "fonteUrl": "https://g1.globo.com/mundo/ao-vivo/assembleia-geral-da-onu-2026.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A ONU realiza nesta semana a 81ª Assembleia Geral, em Nova York, em meio a uma grave crise existencial . O secretário-geral António Guterres admitiu em discurso que há uma crise no órgão internacional."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Lula, Trump também discursaram no 1º dia. O presidente brasileiro disse, em indireta aos EUA, que o Brasil \"não cabe no quintal de ninguém\" . Trump ameaçou o Irã e uma ação militar na América Latina."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "SANDRA COHEN: ONU vira palanque eleitoral para Lula e Trump em discursos de visões opostas"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Também na terça, a coalizão anticartéis 'Escudo das Américas', liderada pelos EUA, anunciou sanções contra o PPC, o CV e outros grupos chamados de 'narcoterroristas'."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O presidente do Irã discursou nesta quarta e chamou EUA e Israel de terroristas e que seu país nunca não busca armas nucleares. Também discursaram Milei e Zelensky ."
+          }
+        ]
+      }
+    },
+    {
+      "id": "0ee97b444cb50365",
+      "titulo": "Em discurso na ONU, Delcy confirma eleições na Venezuela",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/internacional/em-discurso-na-onu-delcy-confirma-eleicoes-na-venezuela/",
+      "dataFonte": "2026-09-23T23:27:43.000Z",
+      "resumoFonte": "Presidente interina afirmou que Caracas iniciou o diálogo com a oposição e deve conduzir o processo \"à plena democracia\"",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/1_25d851.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-23T23:45:04.116Z",
+      "reportagem": {
+        "titulo": "Em discurso na ONU, Delcy confirma eleições na Venezuela | CNN Brasil",
+        "slug": "em-discurso-na-onu-delcy-confirma-eleicoes-na-venezuela-cnn-brasil",
+        "categoria": "Política Nacional",
+        "data": "2026-09-23",
+        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/1_25d851.png?w=1200&h=630&crop=1",
+        "resumo": "Presidente interina afirmou que Caracas iniciou o diálogo com a oposição e deve conduzir o processo \"à plena democracia\"",
+        "conteudo": "<p>A presidente interina da Venezuela, Delcy Rodríguez, confirmou nesta quarta-feira (23) que haverá um processo eleitoral para determinar o novo presidente do país.</p><h2>Contexto</h2><p>A afirmação aconteceu durante o discurso de Rodríguez na Assembleia Geral da ONU, nesta quarta-feira (23).</p><p>Segundo a presidente interina, o governo de Caracas iniciou o diálogo com a oposição, e deve conduzir o processo &quot;à plena democracia&quot;. Ela ainda afirmou que as &quot;instituições estarão prontas para esse processo&quot;.</p><p>&quot;Este é o momento de construir a nação para a qual muitas pessoas desejam retornar&quot;, disse Rodriguez, alertando que a recuperação do país &quot;levará tempo&quot;.</p><h2>Desdobramentos</h2><p>Rodríguez não especificou quando a votação ocorrerá, dizendo apenas que o povo venezuelano &quot;determinará o momento certo para essas eleições&quot;.</p><p>&quot;Assumirei uma responsabilidade histórica. É a responsabilidade de conduzir a Venezuela da incerteza e do conflito para uma democracia plena, reconhecida pelo seu próprio povo e pelo mundo&quot;, declarou ela.</p><p>Rodríguez, que assumiu a presidência interina depois que os Estados Unidos derrubaram o ditador Nicolás Maduro, disse que a transição democrática está em andamento e prometeu que o processo será transparente, inclusivo e verificável.</p><p>O secretário de Estado dos EUA, Marco Rubio, afirmou que Delcy e o presidente americano, Donald Trump, discutiram o processo de transição política durante a primeira reunião que tiveram desde a captura de Nicolás Maduro, em janeiro.</p><p>&quot;A liderança da Assembleia Nacional de 2015 tem mantido conversas regulares com as autoridades interinas para criar as bases e reconstruir as instituições necessárias para a realização de eleições livres e justas na Venezuela, o que é crucial&quot;, comentou.</p><p>Ele também destacou que &quot;vários veículos de comunicação independentes&quot; conseguiram transmitir a partir da Venezuela nas últimas duas semanas.</p><p>Rubio disse que eles não querem que alguém seja eleito e herde &quot;uma catástrofe completa&quot;.</p><p>Questionado sobre relatos de que a líder da oposição venezuelana, María Corina Machado, teve sua entrada na Venezuela negada três vezes, Rubio sugeriu não estar a par desses relatos.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/internacional/em-discurso-na-onu-delcy-confirma-eleicoes-na-venezuela/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A presidente interina da Venezuela, Delcy Rodríguez, confirmou nesta quarta-feira (23) que haverá um processo eleitoral para determinar o novo presidente do país."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A afirmação aconteceu durante o discurso de Rodríguez na Assembleia Geral da ONU, nesta quarta-feira (23)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Segundo a presidente interina, o governo de Caracas iniciou o diálogo com a oposição, e deve conduzir o processo \"à plena democracia\". Ela ainda afirmou que as \"instituições estarão prontas para esse processo\"."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "\"Este é o momento de construir a nação para a qual muitas pessoas desejam retornar\", disse Rodriguez, alertando que a recuperação do país \"levará tempo\"."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Rodríguez não especificou quando a votação ocorrerá, dizendo apenas que o povo venezuelano \"determinará o momento certo para essas eleições\"."
+          }
+        ]
+      }
+    },
+    {
+      "id": "56d459b8ce6dd651",
+      "titulo": "Em discurso na ONU, Delcy agradece Trump por retomar relações diplomáticas",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/internacional/em-discurso-na-onu-delcy-agradece-trump-por-retomar-relacoes-diplomaticas/",
+      "dataFonte": "2026-09-23T23:23:48.000Z",
+      "resumoFonte": "Presidente interina afirmou que Caracas \"aspira construir relacionamentos com os EUA e seus vizinhos\"",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/1_25d851.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-23T23:45:04.116Z",
+      "reportagem": {
+        "titulo": "Em discurso na ONU, Delcy agradece Trump por retomar relações diplomáticas | CNN Brasil",
+        "slug": "em-discurso-na-onu-delcy-agradece-trump-por-retomar-relacoes-diplomaticas-cnn-brasil",
+        "categoria": "Política Nacional",
+        "data": "2026-09-23",
+        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/1_25d851.png?w=1200&h=630&crop=1",
+        "resumo": "Presidente interina afirmou que Caracas \"aspira construir relacionamentos com os EUA e seus vizinhos\"",
+        "conteudo": "<p>A presidente interina da Venezuela, Delcy Rodríguez, agradeceu ao presidente dos EUA, Donald Trump, por &quot;retomar relações diplomáticas&quot; com Caracas.</p><h2>Contexto</h2><p>Durante discurso na Assembleia Geral da ONU, nesta quarta-feira (23), Rodríguez afirmou que Caracas &quot;aspira construir relacionamentos com os EUA e seus vizinhos&quot;.</p><p>A presidente interina também disse que a Venezuela busca &quot;renascer&quot; após dois golpe sofridos neste ano: primeiro, o &quot;estrangulamento de sua vida política interna e a intensificação do confronto com os Estados Unidos&quot;; segundo, o duplo terremoto de 24 de junho, que causou a morte de mais de 6.500 pessoas e extensos danos materiais.</p><p>&quot;A Venezuela aspira, com os Estados Unidos, com seus vizinhos, com todos os países do nosso continente e com a comunidade internacional, a reconstruir e manter relações de cooperação, respeito e igualdade&quot;, afirmou.</p><h2>Desdobramentos</h2><p>Rodríguez também afirmou que haverá um processo eleitoral para determinar o novo presidente do país .</p><p>Segundo a presidente interina, o governo de Caracas iniciou o diálogo com a oposição, e deve conduzir o processo &quot;à plena democracia&quot;. Ela ainda afirmou que as &quot;instituições estarão prontas para esse processo&quot;.</p><p>Em 3 de janeiro, forças dos EUA realizaram uma operação de alto risco para capturar o ditador venezuelano Nicolás Maduro em um complexo em Caracas e levá-lo aos EUA para responder a acusações criminais.</p><p>A vice-líder de Maduro, Delcy Rodríguez, assumiu o cargo de presidente em exercício.</p><p>Desde então, Rodríguez — figura central tanto no governo de Hugo Chávez quanto no de Maduro — tem trabalhado para conquistar o apoio do presidente dos EUA, Donald Trump, ao mesmo tempo em que mantém vivo o chavismo.</p><p>Rodríguez tem supervisionado concessões táticas a Washington, incluindo posições favoráveis ​​em setores estratégicos como o petróleo e a permissão para uma maior supervisão e presença dos EUA no país. Enquanto isso, muita coisa permaneceu inalterada na Venezuela sob sua gestão, e houve pouco progresso em direção à realização de eleições democráticas.</p><p>Em agosto, o governo venezuelano reuniu-se com figuras da oposição para iniciar negociações apoiadas pelos EUA, visando uma transição democrática. Em 2 de setembro, Trump afirmou que a Venezuela &quot;não estará pronta&quot; para eleições democráticas, mas que espera realizá-las &quot;em breve&quot;.</p><p>Em junho, Rodríguez enfrentou a maior crise de seu mandato até o momento, quando terremotos catastróficos mataram milhares de pessoas e deixaram dezenas de milhares de feridos e desalojados. O Departamento de Estado dos EUA anunciou que forneceria US$ 150 milhões em ajuda à Venezuela após a tragédia.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/internacional/em-discurso-na-onu-delcy-agradece-trump-por-retomar-relacoes-diplomaticas/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A presidente interina da Venezuela, Delcy Rodríguez, agradeceu ao presidente dos EUA, Donald Trump, por \"retomar relações diplomáticas\" com Caracas."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Durante discurso na Assembleia Geral da ONU, nesta quarta-feira (23), Rodríguez afirmou que Caracas \"aspira construir relacionamentos com os EUA e seus vizinhos\"."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A presidente interina também disse que a Venezuela busca \"renascer\" após dois golpe sofridos neste ano: primeiro, o \"estrangulamento de sua vida política interna e a intensificação do confronto com os Estados Unidos\"; segundo, o duplo terremoto de 24 de junho, que causou a morte de mais de 6.500 pessoas e extensos danos materiais."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "\"A Venezuela aspira, com os Estados Unidos, com seus vizinhos, com todos os países do nosso continente e com a comunidade internacional, a reconstruir e manter relações de cooperação, respeito e igualdade\", afirmou."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Rodríguez também afirmou que haverá um processo eleitoral para determinar o novo presidente do país ."
           }
         ]
       }
     }
   ],
-  "reapuradoEm": "2026-09-23T21:47:46.645Z",
+  "reapuradoEm": "2026-09-24T00:53:36.598Z",
   "diagnosticoReapuracao": {
     "produzidas": 0,
     "jaProntas": 0,
