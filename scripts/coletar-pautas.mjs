@@ -40,7 +40,6 @@ const fontesHtml = [
 
   // Fallbacks HTML para feeds que deixaram de existir.
   { nome: 'Estadão - Política', url: 'https://www.estadao.com.br/politica/', categoria: 'Política Nacional', hosts: ['www.estadao.com.br', 'estadao.com.br'] },
-  { nome: 'Valor Econômico - Política', url: 'https://valor.globo.com/politica/', categoria: 'Política Nacional', hosts: ['valor.globo.com'] },
   { nome: 'Correio Braziliense - Política', url: 'https://www.correiobraziliense.com.br/politica/', categoria: 'Política Nacional', hosts: ['www.correiobraziliense.com.br', 'correiobraziliense.com.br'] },
   { nome: 'Band - Política', url: 'https://www.band.com.br/politica/', categoria: 'Política Nacional', hosts: ['www.band.com.br', 'band.com.br'] },
   { nome: 'CBN - Política', url: 'https://cbn.globo.com/politica/', categoria: 'Política Nacional', hosts: ['cbn.globo.com'] }
@@ -54,13 +53,10 @@ const fontesRss = [
   { nome: 'O Globo - Política', url: 'https://oglobo.globo.com/rss.xml?secao=politica', categoria: 'Política Nacional' },
   { nome: 'Veja', url: 'https://veja.abril.com.br/feed/', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
   { nome: 'Revista Oeste - Feed', url: 'https://revistaoeste.com/feed/', fallbackUrls: ['https://revistaoeste.com/atom'], categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
-  { nome: 'Valor Econômico - Feed', url: 'https://valor.globo.com/rss/politica', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
   { nome: 'Correio Braziliense - Feed', url: 'https://www.correiobraziliense.com.br/rss/politica', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
   { nome: 'g1 - Política', url: 'https://g1.globo.com/rss/g1/politica/', categoria: 'Política Nacional' },
   { nome: 'UOL Notícias', url: 'https://rss.uol.com.br/feed/noticias.xml', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
   { nome: 'CNN Brasil', url: 'https://www.cnnbrasil.com.br/feed/', fallbackUrls: ['https://admin.cnnbrasil.com.br/feed/'], categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
-  { nome: 'Xinhua', url: 'https://english.news.cn/rss/worldrss.xml', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL },
-  { nome: 'TASS', url: 'https://tass.com/rss/v2.xml', categoria: 'Política Nacional', filtroTitulo: FILTRO_NACIONAL }
 ];
 
 const esperar = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -375,7 +371,7 @@ async function principal() {
     portaisPrioritarios: [
       'agazeta.com.br', 'folhavitoria.com.br', 'tribunaonline.com.br', 'revistaoeste.com', 'gazetadopovo.com.br',
       'pm.es.gov.br', 'sejus.es.gov.br', 'iases.es.gov.br', 'camara.leg.br',
-      'folha.uol.com.br', 'estadao.com.br', 'oglobo.globo.com', 'veja.abril.com.br', 'valor.globo.com',
+      'folha.uol.com.br', 'estadao.com.br', 'oglobo.globo.com', 'veja.abril.com.br',
       'correiobraziliense.com.br', 'g1.globo.com', 'uol.com.br', 'cnnbrasil.com.br', 'band.com.br', 'cbn.globo.com'
     ],
     pautas: [...pendentes, ...publicadas]
