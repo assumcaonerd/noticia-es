@@ -53,6 +53,43 @@ function normalizar(s = '') {
     .trim();
 }
 
+function limparTituloFonte(titulo = '') {
+  return String(titulo)
+    .replace(/\s*\|\s*(?:Blogs\s*\|\s*)?(?:CNN Brasil|Folha(?: de S\.?Paulo)?|O Globo|Estad[aã]o|Veja|Revista Oeste|Ag[eê]ncia Brasil).*$/i, '')
+    .replace(/\s*[-–—]\s*(?:CNN(?: Brasil)?|Folha(?: de S\.?Paulo)?|O Globo|Estad[aã]o|Veja|Revista Oeste).*$/i, '')
+    .trim();
+}
+
+function classificarEditoria(pauta) {
+  const titulo = limparTituloFonte(pauta?.titulo || '');
+  const resumo = String(pauta?.resumoFonte || '');
+  const url = String(pauta?.urlFonte || '');
+  let caminho = '';
+  try { caminho = new URL(url).pathname.toLowerCase(); } catch {}
+  const alvo = normalizar(`${titulo} ${resumo} ${caminho}`);
+
+  if (/\b(processo|conselho|pgr|stf|stj|mpf|mpe|ministerio publico|inquerito|relator|denuncia|prisao preventiva|habeas corpus|hc\b|decisao judicial|sentenca|liminar|tribunal|procurador geral)\b/.test(alvo)) return 'Justiça';
+
+  if (/\b(chip|nvidia|inteligencia artificial|\bia\b|celular|aplicativo|app\b|foguete|ciencia|lua|satelite|semicondutor|software|chatgpt|llm|openai|smartphone|zoom optico)\b/.test(alvo)
+      || /\/(ciencia|tecnologia|tech)(\/|$)/i.test(caminho)) return 'Tecnologia';
+
+  if (/\b(igreja|culto|pastor|pastora|evangelic|maranata|presbiter|batista|assembleia de deus|ieclb|biblia|cristaos?)\b/.test(alvo)) return 'Fé e Sociedade';
+
+  const esExplicito = /\b(espirito santo|vitoria|vila velha|serra|cariacica|guarapari|linhares|colatina|cachoeiro|santa teresa|domingos martins|ales|assembleia legislativa do es|pazolini|governo do es|pmes|pces|sesp es)\b/.test(alvo);
+  if (esExplicito && /\b(policia|crime|prisao|preso|homicidio|trafico|roubo|furto|mandado|seguranca publica|bombeiro)\b/.test(alvo)) return 'Segurança Pública';
+  if (esExplicito && /\b(prefeit|governo|governador|vereador|deputad|assembleia|ales|eleicao|candidato|politica|secretari)\b/.test(alvo)) return 'Política ES';
+
+  if (/\b(futebol|brasileirao|campeonato|copa|partida|clube|atleta|esporte|gol\b|rio branco|desportiva|estrela do norte)\b/.test(alvo) || /\/esporte(\/|$)/i.test(caminho)) return 'Esporte';
+  if (/\b(economia|mercado|banco|juros|selic|inflacao|pib|emprego|investimento|empresa|negocio|dolar|ibovespa|financas|imposto)\b/.test(alvo) || /\/economia(\/|$)/i.test(caminho)) return 'Economia';
+  if (/\b(cultura|cinema|filme|musica|cantor|cantora|show|teatro|livro|literatura|festival|exposicao|arte)\b/.test(alvo)) return 'Cultura';
+  if (/^(opiniao|editorial|artigo|coluna)\b/.test(normalizar(titulo)) || /\b(colunista|artigo de opiniao)\b/.test(alvo)) return 'Opinião';
+  if (esExplicito) return 'Cidades';
+
+  if (/\b(eleicao presidencial|presidente da republica|planalto|congresso|camara dos deputados|senado|campanha nacional|candidato a presidente|presidenciavel)\b/.test(alvo)) return 'Política Nacional';
+
+  return null;
+}
+
 function tokensTitulo(s = '') {
   return new Set(normalizar(s).split(/\s+/).filter((t) => t.length >= 3 && !STOP.has(t)));
 }
@@ -110,6 +147,10 @@ function pautaEditorialmenteBloqueada(pauta) {
 
   // Opinião é uma editoria válida. O redator deve preservar a atribuição e não converter opinião alheia em fato.
   if (/youtube\.com\/shorts\//i.test(url) || /youtu\.be\//i.test(url) && /short/i.test(fonte)) return true;
+  if (/\/ciencia\//i.test(url) && !/\b(governo|congresso|lei|regulacao|politica publica)\b/.test(`${titulo} ${resumo}`)) return true;
+  if (/saiba como fotografar/i.test(String(pauta?.titulo || ''))) return true;
+  if (/quem [ée] quem.*conselho/i.test(String(pauta?.titulo || ''))) return true;
+  if (/\|\s*(CNN Brasil|Folha|O Globo|Estad[aã]o|Veja|Revista Oeste)/i.test(String(pauta?.titulo || ''))) return true;
 
   // Diário Oficial genérico só pode virar pauta quando houver ato específico já identificado.
   if ((fonte.includes('dio es edicao') || titulo.startsWith('diario oficial do es edicao') || url === 'https://dio.es.gov.br/diario-oficial') &&
@@ -192,12 +233,16 @@ const publicados = await publicadosIndex();
 const elegiveis = [];
 const diagnostico = { totalPendentes: 0, bloqueadas: 0, bloqueadasEditoriais: 0, semImagem: 0, duplicadasBasicas: 0, duplicadasSemanticas: 0, foraCategorias: 0 };
 
-for (const p of pautas) {
-  if (p?.status !== 'pendente') continue;
+for (const pOriginal of pautas) {
+  if (pOriginal?.status !== 'pendente') continue;
   diagnostico.totalPendentes++;
+  const tituloLimpo = limparTituloFonte(pOriginal.titulo || '');
+  const categoriaClassificada = classificarEditoria({ ...pOriginal, titulo: tituloLimpo });
+  const p = { ...pOriginal, titulo: tituloLimpo, categoria: categoriaClassificada };
   if (fonteBloqueada(p)) { diagnostico.bloqueadas++; continue; }
+  if (!tituloLimpo || tituloLimpo.length < 20) { diagnostico.bloqueadasEditoriais++; continue; }
   if (pautaEditorialmenteBloqueada(p)) { diagnostico.bloqueadasEditoriais++; continue; }
-  if (categoriaRank(p.categoria) >= 99) { diagnostico.foraCategorias++; continue; }
+  if (!categoriaClassificada || categoriaRank(categoriaClassificada) >= 99) { diagnostico.foraCategorias++; continue; }
   if (!imagemValida(p)) { diagnostico.semImagem++; continue; }
 
   const slugConhecido = normalizar(p.slugPublicado || p.slug || '');
