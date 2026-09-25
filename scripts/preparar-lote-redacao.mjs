@@ -137,11 +137,9 @@ function imagemValida(pauta) {
 
 function categoriaRank(categoria = '') {
   const c = normalizar(categoria);
-  if (c === 'seguranca publica') return 0;
-  if (c === 'politica es') return 1;
-  if (c === 'politica nacional') return 2;
-  if (c === 'fe e sociedade') return 3;
-  return 9;
+  const ordem = ['politica es','seguranca publica','politica nacional','economia','opiniao','fe','fe e sociedade','cidades','cultura','tecnologia','esporte','justica'];
+  const i = ordem.indexOf(c);
+  return i === -1 ? 99 : i;
 }
 
 function radarFlavio(pauta) {
@@ -238,7 +236,22 @@ elegiveis.sort((a, b) => {
     || dataRank(a) - dataRank(b);
 });
 
-const candidatas = elegiveis.slice(0, 20).map((p) => ({
+// Mantém diversidade editorial: primeiro tenta uma pauta de cada editoria, depois completa por prioridade.
+const selecionadas = [];
+const categoriasVistas = new Set();
+for (const p of elegiveis) {
+  const c = normalizar(p.categoria);
+  if (!categoriasVistas.has(c)) {
+    selecionadas.push(p);
+    categoriasVistas.add(c);
+  }
+}
+for (const p of elegiveis) {
+  if (selecionadas.includes(p)) continue;
+  selecionadas.push(p);
+  if (selecionadas.length >= 33) break;
+}
+const candidatas = selecionadas.slice(0, 33).map((p) => ({
   id: p.id,
   titulo: p.titulo,
   categoria: p.categoria,
@@ -253,7 +266,7 @@ const candidatas = elegiveis.slice(0, 20).map((p) => ({
 
 const saida = {
   geradoEm: new Date().toISOString(),
-  objetivo: 'Fornecer uma fila curta para a redação automática reapurar e publicar até 10 matérias.',
+  objetivo: 'Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.',
   diagnostico,
   quantidadeCandidatas: candidatas.length,
   candidatas
