@@ -22,6 +22,21 @@ const FONTES_POR_CATEGORIA = {
     { nome: 'Senado Federal', url: 'https://www12.senado.leg.br/noticias' },
     { nome: 'Câmara dos Deputados', url: 'https://www.camara.leg.br/noticias/' }
   ],
+  'Justiça': [
+    { nome: 'STF Notícias', url: 'https://portal.stf.jus.br/noticias/' },
+    { nome: 'MPF', url: 'https://www.mpf.mp.br/pgr/noticias-pgr' },
+    { nome: 'STJ Notícias', url: 'https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias.aspx' }
+  ],
+  'Tecnologia': [
+    { nome: 'Agência Brasil', url: 'https://agenciabrasil.ebc.com.br/' },
+    { nome: 'MCTI', url: 'https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias' },
+    { nome: 'Governo Federal', url: 'https://www.gov.br/pt-br/noticias' }
+  ],
+  'Economia': [
+    { nome: 'Agência Brasil Economia', url: 'https://agenciabrasil.ebc.com.br/economia' },
+    { nome: 'Banco Central', url: 'https://www.bcb.gov.br/detalhenoticia' },
+    { nome: 'Ministério da Fazenda', url: 'https://www.gov.br/fazenda/pt-br/assuntos/noticias' }
+  ],
   'Fé e Sociedade': [
     { nome: 'Igreja Cristã Maranata', url: 'https://www.igrejacristamaranata.org.br/' },
     { nome: 'Convenção Batista do ES', url: 'https://www.batistas.es/' },
@@ -72,6 +87,13 @@ function slugify(s = '') {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '')
     .slice(0, 110);
+}
+
+function limparTituloFonte(titulo = '') {
+  return String(titulo)
+    .replace(/\s*\|\s*(?:Blogs\s*\|\s*)?(?:CNN Brasil|Folha(?: de S\.?Paulo)?|O Globo|Estad[aã]o|Veja|Revista Oeste|Ag[eê]ncia Brasil).*$/i, '')
+    .replace(/\s*[-–—]\s*(?:CNN(?: Brasil)?|Folha(?: de S\.?Paulo)?|O Globo|Estad[aã]o|Veja|Revista Oeste).*$/i, '')
+    .trim();
 }
 
 function dataLocal(d = new Date()) {
@@ -258,9 +280,10 @@ async function reapurarUma(p) {
     console.warn(`[reapurar] falha ao baixar ${p.id}: ${erro.message}`);
   }
 
-  const tituloFonte = limparHtml(meta(html, 'og:title') || '') || String(p.titulo || '').trim();
+  const tituloFonte = limparTituloFonte(limparHtml(meta(html, 'og:title') || '') || String(p.titulo || '').trim());
   const resumoFonte = limparHtml(meta(html, 'og:description') || meta(html, 'description', 'name') || '') || String(p.resumoFonte || '').trim();
-  const titulo = (tituloFonte.length >= 20 ? tituloFonte : String(p.titulo || 'Atualização registrada pelo Notícia ES')).trim();
+  const titulo = limparTituloFonte(tituloFonte.length >= 20 ? tituloFonte : String(p.titulo || '')).trim();
+  if (titulo.length < 20) return { pauta: p, status: 'incompleta' };
   let resumo = resumoFonte;
   if (resumo.length < 80) {
     resumo = `${titulo}. Registro original em ${p.fonteNome}. A Redação Notícia ES reapurou a pauta para a editoria ${p.categoria}.`;
