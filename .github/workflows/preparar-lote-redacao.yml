@@ -36,26 +36,24 @@ jobs:
         run: node scripts/preparar-lote-redacao.mjs
       - name: Reapurar pautas em reportagens completas
         run: node scripts/reapurar-lote-redacao.mjs
-      - name: Publicar reportagens reapuradas
-        run: node scripts/redator-automatico.mjs
-      - name: Gravar lote e matérias
+      - name: Gravar somente o caderno
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add lote-redacao.json auto-manifest.js publicacoes-pendentes/ auto-redacao-*.js || true
+          git add lote-redacao.json publicacoes-pendentes/ || true
           if git diff --cached --quiet; then
             echo "Nada novo para publicar."
             exit 0
           fi
-          git commit -m "motor: reapura lote e publica redação automática"
+          git commit -m "motor: atualiza caderno sem publicar raspador"
 
           for tentativa in 1 2 3 4 5; do
             echo "Tentativa de publicação ${tentativa}/5"
             git pull --rebase origin main || true
             if git push origin HEAD:main; then
-              echo "Lote e redação publicados."
+              echo "Caderno atualizado sem publicação automática."
               exit 0
             fi
             if [ "$tentativa" -lt 5 ]; then
