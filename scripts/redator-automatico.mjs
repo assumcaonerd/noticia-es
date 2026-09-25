@@ -105,7 +105,7 @@ for (const p of candidatas) {
     continue;
   }
   publicaveis.push(p);
-  if (publicaveis.length === 10) break;
+  if (publicaveis.length === 11) break;
 }
 
 if (!publicaveis.length) {
