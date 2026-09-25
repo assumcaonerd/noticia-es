@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-25T13:52:59.493Z",
+  "atualizadoEm": "2026-09-25T18:40:58.927Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 59,
+  "novasPautas": 53,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -116,9 +116,11 @@
     },
     {
       "fonte": "Agentes Socioeducativos do ES",
-      "ok": false,
-      "erro": "https://iases.es.gov.br/Noticias -> The operation was aborted due to timeout",
-      "capa": false
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://iases.es.gov.br/Noticias",
+      "fallback": false
     },
     {
       "fonte": "Igreja Cristã Maranata - Oficial",
@@ -226,14 +228,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 6,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 2,
+      "encontrados": 5,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -259,14 +261,14 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 10,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-25T13:58:45.491Z",
-    "novas": 6,
+    "atualizadoEm": "2026-09-25T18:43:44.698Z",
+    "novas": 5,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -281,7 +283,7 @@
       {
         "fonte": "YouTube ALES",
         "ok": true,
-        "encontrados": 1
+        "encontrados": 2
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -301,7 +303,7 @@
       {
         "fonte": "YouTube ALES (legado)",
         "ok": true,
-        "encontrados": 1
+        "encontrados": 2
       },
       {
         "fonte": "X Governo ES",
@@ -326,7 +328,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-25T13:58:47.299Z",
+    "atualizadoEm": "2026-09-25T18:43:46.478Z",
     "novas": 0,
     "fontes": [
       {
@@ -342,19 +344,19 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-25T13:58:48.406Z",
+    "atualizadoEm": "2026-09-25T18:43:47.524Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-25T13:58:58.959Z",
+    "atualizadoEm": "2026-09-25T18:43:58.096Z",
     "novas": 0,
     "fontes": [
       {
         "fonte": "DIO/ES Notícias",
-        "ok": false,
-        "erro": "fetch failed"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "DIO/ES Edição",
