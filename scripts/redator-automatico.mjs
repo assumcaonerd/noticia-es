@@ -130,6 +130,15 @@ if (!publicaveis.length) {
   process.exit(candidatas.length ? 4 : 0);
 }
 
+if (publicaveis.length >= 2) {
+  const categoriasRodada = new Set(publicaveis.map(p => String(p?.reportagem?.categoria || p?.categoria || '').trim()).filter(Boolean));
+  if (categoriasRodada.size < 2) {
+    console.error('[redator] Rodada bloqueada: mais de uma matéria válida, mas apenas uma editoria representada.');
+    process.exit(5);
+  }
+}
+
+
 await fs.mkdir(pendentesDir, { recursive: true });
 const agora = new Date();
 const carimbo = stamp(agora);
