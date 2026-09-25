@@ -109,6 +109,7 @@ function pautaEditorialmenteBloqueada(pauta) {
   const url = String(pauta?.urlFonte || '').toLowerCase();
 
   // Opinião é uma editoria válida. O redator deve preservar a atribuição e não converter opinião alheia em fato.
+  if (/youtube\.com\/shorts\//i.test(url) || /youtu\.be\//i.test(url) && /short/i.test(fonte)) return true;
 
   // Diário Oficial genérico só pode virar pauta quando houver ato específico já identificado.
   if ((fonte.includes('dio es edicao') || titulo.startsWith('diario oficial do es edicao') || url === 'https://dio.es.gov.br/diario-oficial') &&
@@ -196,7 +197,7 @@ for (const p of pautas) {
   diagnostico.totalPendentes++;
   if (fonteBloqueada(p)) { diagnostico.bloqueadas++; continue; }
   if (pautaEditorialmenteBloqueada(p)) { diagnostico.bloqueadasEditoriais++; continue; }
-  if (categoriaRank(p.categoria) >= 9) { diagnostico.foraCategorias++; continue; }
+  if (categoriaRank(p.categoria) >= 99) { diagnostico.foraCategorias++; continue; }
   if (!imagemValida(p)) { diagnostico.semImagem++; continue; }
 
   const slugConhecido = normalizar(p.slugPublicado || p.slug || '');
