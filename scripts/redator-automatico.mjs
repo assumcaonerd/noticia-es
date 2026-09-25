@@ -74,6 +74,8 @@ function validarReportagem(p) {
   const subtitulos = (conteudo.match(/<h2\b/gi) || []).length;
 
   if (!titulo || titulo.length < 20) return 'título insuficiente';
+  if (/\|?\s*(cnn brasil|blogs\s*\||folha de s\.?paulo|o globo|estad[aã]o|veja)/i.test(titulo)) return 'título ainda contém marca da fonte';
+  if (/blogs-cnn-brasil|cnn-brasil$/i.test(String(r.slug || ''))) return 'slug ainda contém marca da fonte';
   if (!resumo || resumo.length < 80) return 'resumo/subtítulo insuficiente';
   if (!imagemValida(imagem)) return 'imagem editorial inválida';
   if (!/^https:\/\//i.test(fonteUrl)) return 'fonte principal inválida';
@@ -81,9 +83,15 @@ function validarReportagem(p) {
   if (palavras < 400) return `texto curto: ${palavras} palavras`;
   if (paragrafos < 7) return `estrutura curta: ${paragrafos} parágrafos`;
   if (subtitulos < 2) return `estrutura sem subtítulos suficientes: ${subtitulos}`;
+  const h2s = [...conteudo.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/gi)].map(m => textoPuro(m[1]));
+  if (h2s.some(h => /\b(de|da|do|das|dos|em|no|na|para|com|por|que|se|contra|sobre|entre|uma|um|o|a)$/i.test(h))) return 'intertítulo truncado';
+  if (h2s.some(h => /^(Contexto|Desdobramentos?|Mais informações|Detalhes da notícia|Próximos passos)$/i.test(h))) return 'intertítulo genérico proibido';
   if (!aeoValido(r.aeo)) return 'AEO incompleto';
   if (/capit[aã]o\s+assum[cç][aã]o/i.test(JSON.stringify(r.aeo || []))) return 'Capitão Assumção não pode aparecer no AEO nesta fase';
   if (/entrou na fila automática|o que se sabe até agora|seguirá atualizando a cobertura/i.test(conteudo)) return 'modelo de nota curta detectado';
+  const primeiroParagrafo = textoPuro(conteudo.match(/<p\b[^>]*>([\s\S]*?)<\/p>/i)?.[1] || '');
+  if (/formado em jornalismo|editor-assistente|colunista da|\bblogs\b/i.test(primeiroParagrafo)) return 'lead contaminado por biografia da fonte';
+  if (String(r.categoria || p.categoria) === 'Política Nacional' && /\b(lua|fotografar|celular|zoom [óo]ptico|nvidia|chip|semiconductor|semicondutor)\b/i.test(textoPuro(conteudo))) return 'classificação incompatível com Política Nacional';
   if (/<h2[^>]*>\s*(Contexto|Desdobramentos?)\s*<\/h2>/i.test(conteudo)) return 'intertítulo genérico proibido';
   if (/Leia também:|pic\.twitter\.com\/|Você tem \d+ acessos por dia|Assinantes podem liberar \d+ acessos por dia|Jornalista, pós-graduad[oa]|Graduad[oa] em jornalismo/i.test(textoPuro(conteudo))) return 'resíduo da fonte detectado';
   if (/&(?:amp;)?(?:ccedil|atilde|aacute|eacute|iacute|oacute|uacute|ecirc|ocirc);/i.test(conteudo)) return 'entidade HTML quebrada';
