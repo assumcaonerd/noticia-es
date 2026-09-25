@@ -33,8 +33,8 @@ function extraiObjetosJS(codigo, arquivo) {
 }
 
 function imagensInvalidas(url='') {
-  const u = String(url).toLowerCase();
-  return !/^https?:\/\//.test(u) || u.includes('placeholder') || u.includes('fallback') || u.includes('/logo') || u.includes('logo.') || u.includes('auto-') && u.endsWith('.svg') || u.endsWith('.svg');
+  const u = String(url).trim();
+  return !/^https:\/\/noticiaes\.com\.br\/imagens\/lapis\/[a-z0-9._-]+\.(?:jpg|jpeg|png)(?:\?.*)?$/i.test(u);
 }
 
 const manifest = fs.existsSync(path.join(ROOT,'auto-manifest.js')) ? texto('auto-manifest.js') : '';
@@ -72,6 +72,8 @@ for (const arquivo of arquivos) {
       if (m[campo] === undefined || m[campo] === null || m[campo] === '') fail(`${pref}: falta ${campo}`);
     }
     if (m.autor !== 'Redação Notícia ES') fail(`${pref}: autor inválido`);
+    if (m.redacaoPropria !== true) fail(`${pref}: redacaoPropria precisa ser true`);
+    if (String(m.origemTexto || '') !== 'redacao-noticia-es') fail(`${pref}: origemTexto inválida`);
     if (m.status !== 'pronta') fail(`${pref}: status deve ser 'pronta'`);
     if (m.publicadoEm != null) fail(`${pref}: publicadoEm deve permanecer null antes da ordem de publicação`);
     if (imagensInvalidas(m.imagem)) fail(`${pref}: imagem rejeitada pela política editorial`);
