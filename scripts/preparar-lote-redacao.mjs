@@ -108,9 +108,7 @@ function pautaEditorialmenteBloqueada(pauta) {
   const fonte = normalizar(pauta?.fonteNome || '');
   const url = String(pauta?.urlFonte || '').toLowerCase();
 
-  // Opinião, coluna e editorial não entram no redator factual automático.
-  if (/^(opiniao|editorial|artigo)\b/.test(titulo)) return true;
-  if (/\b(opiniao|colunista|artigo de opiniao)\b/.test(fonte) && !/\bpesquisa\b/.test(titulo)) return true;
+  // Opinião é uma editoria válida. O redator deve preservar a atribuição e não converter opinião alheia em fato.
 
   // Diário Oficial genérico só pode virar pauta quando houver ato específico já identificado.
   if ((fonte.includes('dio es edicao') || titulo.startsWith('diario oficial do es edicao') || url === 'https://dio.es.gov.br/diario-oficial') &&
