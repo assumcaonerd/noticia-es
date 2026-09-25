@@ -5,6 +5,14 @@ on:
     # UTC. Coletor roda em :17. A redação fecha o ciclo 30 minutos depois.
     - cron: '47 * * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/preparar-lote-redacao.mjs'
+      - 'scripts/reapurar-lote-redacao.mjs'
+      - 'scripts/redator-automatico.mjs'
+      - '.github/workflows/preparar-lote-redacao.yml'
 
 permissions:
   contents: write
