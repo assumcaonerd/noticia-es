@@ -199,17 +199,43 @@ function completarParagrafos(base, p) {
   return divididos.filter(t => limparHtml(t).length >= 60);
 }
 
-function intertituloDoParagrafo(texto = '', fallback = 'Mais informações') {
+function fallbackIntertitulo(texto = '') {
+  const t = limparHtml(texto).toLowerCase();
+  if (/conselho|mpf|pgr|stf|stj|tribunal/.test(t)) return 'O que o Conselho vai decidir';
+  if (/mensagem|relat[oó]rio|documento|conversa|registro/.test(t)) return 'O que as mensagens mostram';
+  return 'O que muda na prática';
+}
+
+function intertituloDoParagrafo(texto = '') {
   const t = limparHtml(texto);
   const primeira = t.split(/[.!?]/)[0].trim();
   let titulo = primeira
     .replace(/^(Segundo|De acordo com|Conforme|Ainda segundo)\s+[^,]{1,80},\s*/i, '')
     .replace(/^(O|A|Os|As|Um|Uma)\s+/i, '')
     .trim();
-  const palavras = titulo.split(/\s+/).filter(Boolean);
-  if (palavras.length < 3) return fallback;
-  if (palavras.length > 9) titulo = palavras.slice(0, 9).join(' ');
-  return titulo.charAt(0).toUpperCase() + titulo.slice(1);
+
+  let palavras = titulo.split(/\s+/).filter(Boolean);
+  if (palavras.length < 3) return fallbackIntertitulo(texto);
+  if (palavras.length <= 8) {
+    const pronto = palavras.join(' ');
+    if (!/\b(de|da|do|das|dos|em|no|na|para|com|por|que|se|contra|sobre|entre|uma|um|o|a)$/i.test(pronto)) {
+      return pronto.charAt(0).toUpperCase() + pronto.slice(1);
+    }
+    return fallbackIntertitulo(texto);
+  }
+
+  palavras = palavras.slice(0, 8);
+  while (palavras.length >= 3 && /^(de|da|do|das|dos|em|no|na|para|com|por|que|se|contra|sobre|entre|uma|um|o|a)$/i.test(palavras.at(-1))) {
+    palavras.pop();
+  }
+  const candidato = palavras.join(' ').trim();
+  if (palavras.length < 3 || /\b(de|da|do|das|dos|em|no|na|para|com|por|que|se|contra|sobre|entre|uma|um|o|a)$/i.test(candidato)) {
+    return fallbackIntertitulo(texto);
+  }
+  if (/\b(analisar|avaliar|investigar|decidir|apurar|abrir|designar|encaminhar)$/i.test(candidato)) {
+    return fallbackIntertitulo(texto);
+  }
+  return candidato.charAt(0).toUpperCase() + candidato.slice(1);
 }
 
 function montarConteudo(p, paragrafos, adicionais) {
@@ -218,8 +244,8 @@ function montarConteudo(p, paragrafos, adicionais) {
   const primeiro = blocos[0];
   const meio = blocos.slice(1, 4);
   const fim = blocos.slice(4);
-  const h2a = intertituloDoParagrafo(meio[0], 'Detalhes da notícia');
-  const h2b = intertituloDoParagrafo(fim[0], 'Próximos passos');
+  const h2a = intertituloDoParagrafo(meio[0]);
+  const h2b = intertituloDoParagrafo(fim[0]);
   return [
     `<p>${escapar(primeiro)}</p>`,
     `<h2>${escapar(h2a)}</h2>`,
