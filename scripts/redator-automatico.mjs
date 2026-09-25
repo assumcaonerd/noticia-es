@@ -47,7 +47,7 @@ function contarPalavras(html = '') {
 }
 function imagemValida(url = '') {
   const u = String(url || '').trim();
-  return /^https:\/\//i.test(u) && !/\.svg(\?|$)/i.test(u) && !PADRAO_IMAGEM_INVALIDA.test(u);
+  return /^https:\/\/noticiaes\.com\.br\/imagens\/lapis\/[a-z0-9._-]+\.(?:jpg|jpeg|png)(?:\?.*)?$/i.test(u);
 }
 function fontesValidas(fontes = []) {
   if (!Array.isArray(fontes)) return [];
@@ -66,7 +66,7 @@ function validarReportagem(p) {
   const conteudo = String(r.conteudo || '').trim();
   const resumo = String(r.resumo || '').trim();
   const titulo = String(r.titulo || p.titulo || '').trim();
-  const imagem = String(r.imagem || p.imagem || '').trim();
+  const imagem = String(r.imagem || '').trim();
   const fonteUrl = String(r.fonteUrl || p.urlFonte || '').trim();
   const adicionais = fontesValidas(r.fontesAdicionais || []);
   const palavras = contarPalavras(conteudo);
@@ -77,7 +77,9 @@ function validarReportagem(p) {
   if (/\|?\s*(cnn brasil|blogs\s*\||folha de s\.?paulo|o globo|estad[aã]o|veja)/i.test(titulo)) return 'título ainda contém marca da fonte';
   if (/blogs-cnn-brasil|cnn-brasil$/i.test(String(r.slug || ''))) return 'slug ainda contém marca da fonte';
   if (!resumo || resumo.length < 80) return 'resumo/subtítulo insuficiente';
-  if (!imagemValida(imagem)) return 'imagem editorial inválida';
+  if (!imagemValida(imagem)) return 'imagem inválida: exige arte própria em noticiaes.com.br/imagens/lapis/';
+  if (r.redacaoPropria !== true) return 'redacaoPropria precisa ser true';
+  if (String(r.origemTexto || '') !== 'redacao-noticia-es') return 'origemTexto inválida';
   if (!/^https:\/\//i.test(fonteUrl)) return 'fonte principal inválida';
   if (adicionais.length < 2) return 'menos de duas fontes adicionais';
   if (palavras < 400) return `texto curto: ${palavras} palavras`;
@@ -151,7 +153,7 @@ const artigos = publicaveis.map((p, i) => {
   const r = p.reportagem;
   const titulo = String(r.titulo || p.titulo).trim();
   const slug = slugify(r.slug || titulo) || `noticia-${p.id}`;
-  const imagem = String(r.imagem || p.imagem || '').trim();
+  const imagem = String(r.imagem || '').trim();
   const fonteNome = String(r.fonteNome || p.fonteNome || 'Fonte principal').trim();
   const fonteUrl = String(r.fonteUrl || p.urlFonte || '').trim();
   const adicionais = fontesValidas(r.fontesAdicionais || []);
@@ -159,7 +161,7 @@ const artigos = publicaveis.map((p, i) => {
   const aeo = Array.isArray(r.aeo) ? r.aeo.slice(0, 8) : [];
   const id = Number(`${carimbo.replace(/\D/g, '').slice(2)}${String(i + 1).padStart(2, '0')}`);
 
-  return `  {\n    id: ${id},\n    pautaId: ${js(p.id)},\n    slug: ${js(slug)},\n    titulo: ${js(titulo)},\n    categoria: ${js(r.categoria || p.categoria)},\n    data: ${js(r.data || dia)},\n    imagem: ${js(imagem)},\n    resumo: ${js(r.resumo)},\n    conteudo: ${js(r.conteudo)},\n    autor: 'Redação Notícia ES',\n    fonteNome: ${js(fonteNome)},\n    fonteUrl: ${js(fonteUrl)},\n    fontesAdicionais: ${JSON.stringify(adicionais)},\n    entidades: ${JSON.stringify(entidades)},\n    aeo: ${JSON.stringify(aeo)},\n    automatico: true,\n    publicadoEm: ${js(iso)}\n  }`;
+  return `  {\n    id: ${id},\n    pautaId: ${js(p.id)},\n    slug: ${js(slug)},\n    titulo: ${js(titulo)},\n    categoria: ${js(r.categoria || p.categoria)},\n    data: ${js(r.data || dia)},\n    imagem: ${js(imagem)},\n    resumo: ${js(r.resumo)},\n    conteudo: ${js(r.conteudo)},\n    autor: 'Redação Notícia ES',\n    fonteNome: ${js(fonteNome)},\n    fonteUrl: ${js(fonteUrl)},\n    fontesAdicionais: ${JSON.stringify(adicionais)},\n    entidades: ${JSON.stringify(entidades)},\n    aeo: ${JSON.stringify(aeo)},\n    redacaoPropria: true,\n    origemTexto: 'redacao-noticia-es',\n    automatico: true,\n    publicadoEm: ${js(iso)}\n  }`;
 });
 
 const shard = `const ${varName} = [\n${artigos.join(',\n')}\n];\nif (typeof noticias !== 'undefined') noticias.unshift(...${varName});\n`;
