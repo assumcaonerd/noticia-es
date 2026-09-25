@@ -30,7 +30,6 @@ jobs:
         run: node scripts/reapurar-lote-redacao.mjs
       - name: Publicar reportagens reapuradas
         run: node scripts/redator-automatico.mjs
-        continue-on-error: true
       - name: Gravar lote e matérias
         shell: bash
         run: |
