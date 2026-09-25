@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-24T22:30:05.555Z",
+  "atualizadoEm": "2026-09-25T01:34:48.289Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 60,
+  "novasPautas": 54,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -235,7 +235,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 7,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -261,24 +261,24 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 12,
+      "encontrados": 11,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-24T22:33:28.396Z",
-    "novas": 8,
+    "atualizadoEm": "2026-09-25T01:38:04.305Z",
+    "novas": 0,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Folha Vitória",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES",
@@ -292,8 +292,8 @@
       },
       {
         "fonte": "YouTube PM Ambiental ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Bombeiros ES",
@@ -328,7 +328,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-24T22:33:30.494Z",
+    "atualizadoEm": "2026-09-25T01:38:06.769Z",
     "novas": 0,
     "fontes": [
       {
@@ -344,13 +344,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-24T22:33:31.586Z",
+    "atualizadoEm": "2026-09-25T01:38:07.894Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-24T22:33:42.165Z",
+    "atualizadoEm": "2026-09-25T01:38:18.471Z",
     "novas": 0,
     "fontes": [
       {
