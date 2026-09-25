@@ -79,13 +79,13 @@ function classificarEditoria(pauta) {
   if (esExplicito && /\b(policia|crime|prisao|preso|homicidio|trafico|roubo|furto|mandado|seguranca publica|bombeiro)\b/.test(alvo)) return 'Segurança Pública';
   if (esExplicito && /\b(prefeit|governo|governador|vereador|deputad|assembleia|ales|eleicao|candidato|politica|secretari)\b/.test(alvo)) return 'Política ES';
 
+  if (/\b(eleicao presidencial|presidente da republica|planalto|congresso|camara dos deputados|senado|campanha nacional|candidato a presidente|presidenciavel)\b/.test(alvo)) return 'Política Nacional';
+
   if (/\b(futebol|brasileirao|campeonato|copa|partida|clube|atleta|esporte|gol\b|rio branco|desportiva|estrela do norte)\b/.test(alvo) || /\/esporte(\/|$)/i.test(caminho)) return 'Esporte';
   if (/\b(economia|mercado|banco|juros|selic|inflacao|pib|emprego|investimento|empresa|negocio|dolar|ibovespa|financas|imposto)\b/.test(alvo) || /\/economia(\/|$)/i.test(caminho)) return 'Economia';
   if (/\b(cultura|cinema|filme|musica|cantor|cantora|show|teatro|livro|literatura|festival|exposicao|arte)\b/.test(alvo)) return 'Cultura';
   if (/^(opiniao|editorial|artigo|coluna)\b/.test(normalizar(titulo)) || /\b(colunista|artigo de opiniao)\b/.test(alvo)) return 'Opinião';
   if (esExplicito) return 'Cidades';
-
-  if (/\b(eleicao presidencial|presidente da republica|planalto|congresso|camara dos deputados|senado|campanha nacional|candidato a presidente|presidenciavel)\b/.test(alvo)) return 'Política Nacional';
 
   return null;
 }
