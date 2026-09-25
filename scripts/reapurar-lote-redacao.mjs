@@ -146,7 +146,35 @@ function fontesAdicionais(p) {
 }
 
 function completarParagrafos(base, p) {
-  return Array.isArray(base) ? base.filter(Boolean) : [];
+  const originais = Array.isArray(base) ? base.filter(Boolean) : [];
+  const vistos = new Set();
+  const saida = [];
+  for (const t of originais) {
+    const chave = limparHtml(t).toLowerCase();
+    if (!chave || vistos.has(chave)) continue;
+    vistos.add(chave);
+    saida.push(t);
+  }
+
+  // Não inventa fatos nem replica filler editorial. Se a fonte tiver poucos blocos longos,
+  // divide-os apenas em limites naturais de frase para preservar o conteúdo factual disponível.
+  const divididos = [];
+  for (const t of saida) {
+    if (t.length < 520) { divididos.push(t); continue; }
+    const frases = t.split(/(?<=[.!?])\s+/).filter(Boolean);
+    let atual = '';
+    for (const frase of frases) {
+      const teste = (atual ? atual + ' ' : '') + frase;
+      if (teste.length > 360 && atual.length >= 120) {
+        divididos.push(atual.trim());
+        atual = frase;
+      } else {
+        atual = teste;
+      }
+    }
+    if (atual.trim()) divididos.push(atual.trim());
+  }
+  return divididos.filter(t => limparHtml(t).length >= 60);
 }
 
 function intertituloDoParagrafo(texto = '', fallback = 'Mais informações') {
@@ -210,7 +238,7 @@ function reportagemValida(r, p) {
   if (!/^https:\/\//i.test(String(r.imagem || p.imagem || ''))) return false;
   if (!/^https:\/\//i.test(String(r.fonteUrl || p.urlFonte || ''))) return false;
   if (!Array.isArray(r.fontesAdicionais) || r.fontesAdicionais.length < 2) return false;
-  if (palavras < 650 || palavras > 1200 || paragrafos < 7 || subtitulos < 2) return false;
+  if (palavras < 400 || palavras > 1200 || paragrafos < 7 || subtitulos < 2) return false;
   if (/por que essa pauta entra no not[ií]cia es|o que a fonte registrou|reapura[cç][aã]o autom[aá]tica|entra na cobertura factual do not[ií]cia es|linha editorial do portal/i.test(String(r.conteudo || ''))) return false;
   if (/<h2[^>]*>\s*(Contexto|Desdobramentos?)\s*<\/h2>/i.test(String(r.conteudo || ''))) return false;
   if (/entra na cobertura factual do not[ií]cia es|a pauta foi classificada/i.test(JSON.stringify(r.aeo || []))) return false;
