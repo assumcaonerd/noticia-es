@@ -182,7 +182,8 @@
     const categoria = obterParametro('categoria') || '';
     if (buscaInput) buscaInput.value = termo;
 
-    const lista = filtrarNoticias(noticias, termo, categoria);
+    const baseNoticias = (typeof noticias !== 'undefined' && Array.isArray(noticias)) ? noticias : [];
+    const lista = filtrarNoticias(baseNoticias, termo, categoria);
 
     if (categoria || termo) {
       hero.style.display = 'none';
@@ -253,7 +254,8 @@
     if (!container) return;
 
     const slug = obterParametro('slug');
-    const noticia = noticias.find(n => n.slug === slug);
+    const baseNoticias = (typeof noticias !== 'undefined' && Array.isArray(noticias)) ? noticias : [];
+    const noticia = baseNoticias.find(n => n.slug === slug);
 
     if (!noticia) {
       document.title = 'Notícia não encontrada | Notícia ES';
@@ -292,7 +294,7 @@
 
     removerCapaDuplicadaNoCorpo(container.querySelector('.materia-conteudo'), noticia.imagem);
 
-    const outras = noticias
+    const outras = baseNoticias
       .filter(n => n.slug !== noticia.slug)
       .sort((a, b) => (categoriaCanonica(a.categoria) === categoriaCanonica(noticia.categoria) ? -1 : 1))
       .slice(0, 3);
