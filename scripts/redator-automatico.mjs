@@ -106,13 +106,21 @@ if (!candidatas.length) {
 }
 
 const publicaveis = [];
+const contagemPorCategoria = new Map();
 for (const p of candidatas) {
   const motivo = validarReportagem(p);
   if (motivo) {
     console.log(`[redator] pula ${p.id || 'sem-id'}: ${motivo}`);
     continue;
   }
+  const categoria = String(p?.reportagem?.categoria || p?.categoria || '').trim();
+  const usados = contagemPorCategoria.get(categoria) || 0;
+  if (usados >= 3) {
+    console.log(`[redator] pula ${p.id || 'sem-id'}: teto de 3 matérias em ${categoria}`);
+    continue;
+  }
   publicaveis.push(p);
+  contagemPorCategoria.set(categoria, usados + 1);
   if (publicaveis.length === 11) break;
 }
 
