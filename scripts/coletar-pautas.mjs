@@ -13,6 +13,14 @@ const USER_AGENT = 'NoticiaESBot/2.5 (+https://noticiaes.com.br)';
 const PADRAO_POLITICA = /(elei[cç]|governo|governador|prefeit|prefeito|senado|senador|c[âa]mara|deputad|assembleia|ales|congresso|presid|stf|tse|ministro|partido|pol[ií]tica|mandato|candidato|vota[cç]|pec|projeto de lei|constitui[cç]|lula|bolsonaro)/i;
 const PADRAO_SEGURANCA = /(pol[ií]cia|pm\b|pmes|pc\b|pces|sesp|bombeir|pris[ãa]o|preso|crime|homic[ií]dio|assassin|tr[áa]fico|drogas|opera[cç][ãa]o policial|roubo|furto|tiroteio|seguran[cç]a p[ú]blica|delegacia|foragid|mandado|socioeducativ|prisional)/i;
 const FILTRO_NACIONAL = /(elei[cç]|senado|c[âa]mara|congresso|governo|presid|stf|tse|seguran[cç]a|pec|projeto|comiss[ãa]o|vota[cç]|pol[ií]tica|partido|constitui[cç]|medida provis[óo]ria|mp\b|lula|bolsonaro|ministro|deputad|brasil|brazil)/i;
+const PADRAO_JUSTICA = /(stf|stj|tj-?es|tribunal|justi[cç]a|juiz|ju[ií]za|desembarg|minist[eé]rio p[uú]blico|mpf|mpe|pgr|procurador|decis[aã]o judicial|senten[cç]a|liminar|a[cç][aã]o judicial)/i;
+const PADRAO_ECONOMIA = /(economia|mercado|banco|juros|selic|infla[cç][aã]o|pib|emprego|desemprego|investimento|empresa|neg[oó]cio|d[oó]lar|real|bolsa|ibovespa|finan[cç]|imposto|receita federal)/i;
+const PADRAO_TECNOLOGIA = /(tecnologia|intelig[eê]ncia artificial|\bia\b|software|aplicativo|app\b|startup|rob[oô]|chatgpt|llm|openai|google|microsoft|apple|nvidia|chip|semicondutor|celular|internet|ciber)/i;
+const PADRAO_ESPORTE = /(futebol|brasileir[aã]o|campeonato|copa|jogo|partida|gol\b|time\b|clube|atleta|esporte|vit[oó]ria-?es|rio branco|desportiva|estrela do norte)/i;
+const PADRAO_CULTURA = /(cultura|cinema|filme|m[uú]sica|cantor|cantora|show|teatro|livro|literatura|festival|exposi[cç][aã]o|arte\b)/i;
+const PADRAO_FE = /(igreja|evang[eé]lic|crist[aã]o|pastor|pastora|culto|b[ií]blia|f[eé]\b|relig|maranata|presbiter|batista|assembleia de deus|ieclb)/i;
+const PADRAO_CIDADES = /(vit[oó]ria|vila velha|serra|cariacica|guarapari|linhares|colatina|cachoeiro|santa teresa|domingos martins|esp[ií]rito santo|\bes\b)/i;
+const PADRAO_OPINIAO = /^(opini[aã]o|editorial|artigo|coluna)\b|\b(colunista|artigo de opini[aã]o)\b/i;
 
 const fontesHtml = [
   { nome: 'A Gazeta - Capa', url: 'https://www.agazeta.com.br/', categoria: 'Geral ES', homepage: true, hosts: ['www.agazeta.com.br', 'agazeta.com.br'] },
@@ -94,11 +102,18 @@ function resumir(texto = '', limite = 350) {
   return `${corte.slice(0, i > limite * 0.7 ? i : limite).trim()}…`;
 }
 function classificarCategoria(titulo, url, fonte) {
-  if (!fonte.homepage) return fonte.categoria;
   const alvo = `${titulo} ${url}`;
+  if (PADRAO_OPINIAO.test(titulo)) return 'Opinião';
   if (PADRAO_SEGURANCA.test(alvo)) return 'Segurança Pública';
-  if (PADRAO_POLITICA.test(alvo)) return fonte.categoria === 'Política Nacional' ? 'Política Nacional' : 'Política ES';
-  return fonte.categoria;
+  if (PADRAO_JUSTICA.test(alvo)) return 'Justiça';
+  if (PADRAO_TECNOLOGIA.test(alvo)) return 'Tecnologia';
+  if (PADRAO_ESPORTE.test(alvo)) return 'Esporte';
+  if (PADRAO_FE.test(alvo)) return 'Fé';
+  if (PADRAO_CULTURA.test(alvo)) return 'Cultura';
+  if (PADRAO_ECONOMIA.test(alvo)) return 'Economia';
+  if (PADRAO_POLITICA.test(alvo)) return PADRAO_CIDADES.test(alvo) && !/presid|senado|congresso|stf|stj|tse|lula|bolsonaro/i.test(alvo) ? 'Política ES' : 'Política Nacional';
+  if (PADRAO_CIDADES.test(alvo)) return 'Cidades';
+  return fonte.categoria === 'Geral ES' ? 'Cidades' : fonte.categoria;
 }
 function retryAfterMs(resposta, tentativa) {
   const cabecalho = resposta.headers.get('retry-after');
@@ -124,7 +139,18 @@ async function baixar(url, { tentativas = 3 } = {}) {
         signal: AbortSignal.timeout(20000)
       });
 
-      if (resposta.ok) return resposta.text();
+      if (resposta.ok) {
+        const bytes = await resposta.arrayBuffer();
+        const tipo = resposta.headers.get('content-type') || '';
+        const declarado = tipo.match(/charset=([^;\s]+)/i)?.[1]?.replace(/["']/g, '') || '';
+        let charset = declarado;
+        if (!charset) {
+          const amostra = new TextDecoder('ascii').decode(bytes.slice(0, 300));
+          charset = amostra.match(/encoding=["']([^"']+)/i)?.[1] || 'utf-8';
+        }
+        try { return new TextDecoder(charset).decode(bytes); }
+        catch { return new TextDecoder('utf-8').decode(bytes); }
+      }
 
       const erro = new Error(`${resposta.status} ${resposta.statusText}`);
       erro.status = resposta.status;
@@ -218,7 +244,7 @@ function parseRss(xml, fonte) {
     const data = new Date(dataTxt);
     if (!titulo || !url || Number.isNaN(data.getTime()) || !ehRecente(data)) continue;
     if (fonte.filtroTitulo && !fonte.filtroTitulo.test(titulo)) continue;
-    itens.push({ titulo, url, resumoFonte: resumir(descricao), data, fonteNome: fonte.nome, categoria: fonte.categoria });
+    itens.push({ titulo, url, resumoFonte: resumir(descricao), data, fonteNome: fonte.nome, categoria: classificarCategoria(titulo, url, fonte) });
   }
   return itens;
 }
