@@ -109,9 +109,9 @@ for (const p of candidatas) {
 }
 
 if (!publicaveis.length) {
-  console.log('[redator] Nenhuma reportagem completa e reapurada disponível. Nada será publicado.');
-  if ((lote?.diagnosticoReapuracao?.produzidas || 0) > 0) process.exit(4);
-  process.exit(0);
+  console.error('[redator] Nenhuma reportagem completa e reapurada disponível. Rodada inválida.');
+  console.error('[redator] diagnosticoReapuracao=', JSON.stringify(lote?.diagnosticoReapuracao || {}));
+  process.exit(candidatas.length ? 4 : 0);
 }
 
 await fs.mkdir(pendentesDir, { recursive: true });
