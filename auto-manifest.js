@@ -1,4 +1,5 @@
 const noticiasAutoArquivos = [
+  "auto-redacao-20260927-023919.js",
   "auto-redacao-20260927-014037.js",
   "auto-redacao-20260927-004041.js",
   "auto-redacao-20260926-234252.js",
@@ -412,4 +413,5 @@ const noticiasAutoArquivos = [
   "fe-sociedade.js"
 ];
 for (const arquivo of noticiasAutoArquivos) document.write('<script src="' + arquivo + '"><' + '/script>');
+
 
