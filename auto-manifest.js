@@ -1,4 +1,6 @@
-const noticiasAutoArquivos = [\n  "auto-redacao-20260926-234252.js",\n  "auto-redacao-20260926-223947.js",
+const noticiasAutoArquivos = [
+  "auto-redacao-20260926-234252.js",
+  "auto-redacao-20260926-223947.js",
   "auto-redacao-20260926-213839.js",
   "auto-redacao-20260926-203720.js",
   "auto-redacao-20260926-193712.js",
