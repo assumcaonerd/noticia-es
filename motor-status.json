@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-28T18:17:57.989Z",
+  "atualizadoEm": "2026-09-28T19:17:58.862Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 56,
+  "novasPautas": 46,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -45,7 +45,7 @@
     {
       "fonte": "A Gazeta - Política",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 6,
       "capa": false,
       "rota": "https://www.agazeta.com.br/es/politica",
       "fallback": false
@@ -228,14 +228,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 7,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 4,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -261,13 +261,13 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 13,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-28T18:22:19.164Z",
+    "atualizadoEm": "2026-09-28T19:21:22.987Z",
     "novas": 4,
     "fontes": [
       {
@@ -297,8 +297,8 @@
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "YouTube ALES (legado)",
@@ -328,7 +328,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-28T18:22:21.010Z",
+    "atualizadoEm": "2026-09-28T19:21:25.023Z",
     "novas": 0,
     "fontes": [
       {
@@ -344,13 +344,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-28T18:22:22.003Z",
+    "atualizadoEm": "2026-09-28T19:21:25.981Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-28T18:22:32.563Z",
+    "atualizadoEm": "2026-09-28T19:21:36.553Z",
     "novas": 0,
     "fontes": [
       {
