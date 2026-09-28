@@ -1,330 +1,50 @@
 {
-  "geradoEm": "2026-09-28T13:41:37.485Z",
+  "geradoEm": "2026-09-28T14:28:58.906Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
-    "totalPendentes": 61,
+    "totalPendentes": 64,
     "bloqueadas": 0,
-    "bloqueadasEditoriais": 3,
+    "bloqueadasEditoriais": 4,
     "semImagem": 0,
-    "duplicadasBasicas": 4,
-    "duplicadasSemanticas": 0,
-    "foraCategorias": 31
+    "duplicadasBasicas": 0,
+    "duplicadasSemanticas": 4,
+    "foraCategorias": 37
   },
-  "quantidadeCandidatas": 23,
+  "quantidadeCandidatas": 19,
   "candidatas": [
     {
-      "id": "acb47759beb9d694",
-      "titulo": "Nova pesquisa Quaest da eleição presidencial sai nesta segunda (28)",
+      "id": "34e0777e1fdd0c5e",
+      "titulo": "‘Netão do Bonfim’: suspeito de ataque com morte em bar de Vitória é preso",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/netao-do-bonfim-suspeito-de-ataque-com-morte-em-bar-de-vitoria-e-preso-0926",
+      "dataFonte": "2026-09-28T13:09:01.000Z",
+      "resumoFonte": "Ataque aconteceu em janeiro deste ano e vitimou o técnico de refrigeração Bruno Santos Gouvêa, de 26 anos",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1774789278969_2026_01_22_bruno_santos_gouvea_em_destaque_morreu_em_um_ataque_a_tiros_no_bairro_santos_dumont_3105261_article.webp",
+      "descobertaEm": "2026-09-28T14:12:50.172Z"
+    },
+    {
+      "id": "002bc92fd48d94b5",
+      "titulo": "Do partido de Caiado, Carlos Viana anuncia apoio a Flávio",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/28/nova-pesquisa-quaest-da-eleicao-presidencial-sai-nesta-segunda-28.ghtml",
-      "dataFonte": "2026-09-28T03:00:00.000Z",
-      "resumoFonte": "O que é margem de erro A Quaest divulga na manhã desta segunda-feira (28) uma nova rodada de pesquisas eleitorais com os números da corrida presidencial. O levantamento foi contratado pela Globo e pelo jornal O Globo. Esta é a última pesquisa presidencial da Quaest antes do debate da Globo, na próxima quinta-feira (1º). O candidato à presidência…",
-      "imagem": "https://s2-g1.glbimg.com/zggYS7WJPmkTgs_YUQrBpQhBS5k=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/9/hXLfAXSiq8lJgtPUn5Ag/lula-e-flavio.jpg",
-      "descobertaEm": "2026-09-28T07:00:24.165Z"
-    },
-    {
-      "id": "541a020259447857",
-      "titulo": "O populismo do voto: do Bolsa Família à MP das bets",
-      "categoria": "Economia",
-      "radar": null,
       "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/o-populismo-do-voto-do-bolsa-familia-a-mp-das-ibets-i/",
-      "dataFonte": "2026-09-27T22:00:00.000Z",
-      "resumoFonte": "O Bolsa Família é um programa de transferência de renda que unificou e ampliou os diversos programas de auxílio criados na gestão de Fernando Henrique Cardoso, de extrema importância para a proteção social, o combate à pobreza e a reinserção no mercado de trabalho; contudo, não da forma como é praticado no Brasil, pois sofreu um profundo…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/07/lula-confianca.jpeg.webp",
-      "descobertaEm": "2026-09-27T22:16:13.186Z",
+      "urlFonte": "https://revistaoeste.com/politica/do-partido-de-caiado-carlos-viana-anuncia-apoio-a-flavio/",
+      "dataFonte": "2026-09-28T13:27:05.000Z",
+      "resumoFonte": "O senador Carlos Viana (PSD-MG) declarou apoio a Flávio Bolsonaro (RJ) já no primeiro turno da eleição presidencial e se afastou da candidatura de Ronaldo Caiado , nome de seu próprio partido, que também concorre ao Palácio do Planalto. Candidato à reeleição por Minas Gerais, Viana afirmou que “o morno não serve” e vinculou a escolha por Flávio à…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/03/PT-Carlos-Viana-INSS.jpeg.webp",
+      "descobertaEm": "2026-09-28T14:12:50.172Z",
       "reportagem": {
-        "titulo": "O populismo do voto: do Bolsa Família à MP das bets",
-        "slug": "o-populismo-do-voto-do-bolsa-familia-a-mp-das-bets",
-        "categoria": "Economia",
-        "data": "2026-09-27",
-        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/07/lula-confianca.jpeg.webp",
-        "resumo": "Ampliação de benefícios e medidas anunciadas às vésperas das urnas levantam críticas sobre uso eleitoral da máquina pública e seus efeitos nas contas do país",
-        "conteudo": "<p>É jurista, advogado, professor e escritor brasileiro, professor emérito da Faculdade de Direito da Universidade Mackenzie e membro da Academia Brasileira de Filosofia.</p><h2>Bolsa Família é um programa de transferência</h2><p>O Bolsa Família é um programa de transferência de renda que unificou e ampliou os diversos programas de auxílio criados na gestão de Fernando Henrique Cardoso, de extrema importância para a proteção social, o combate à pobreza e a reinserção no mercado de trabalho; contudo, não da forma como é praticado no Brasil, pois sofreu um profundo desvirtuamento ao se transformar em mero instrumento de manutenção do poder.</p><p>A conversão de programas assistenciais em ferramentas de barganha eleitoral consolida a marca do atual governo: a troca do compromisso fiscal pelo populismo desenfreado.</p><p>Leia também: “A república dos impostos” , reportagem de Sarah Peres publicada na Edição 338 da Revista Oeste</p><h2>Nesse sentido, quero trazer à reflexão as medidas</h2><p>Nesse sentido, quero trazer à reflexão as medidas do governo Lula para alcançar a reeleição, haja vista o aumento do valor do Bolsa Família anunciado a 17 dias das eleições.</p><p>No Brasil, o programa se estrutura de modo a não estimular grande parcela dos beneficiários a procurar trabalho ou a deixar de depender do auxílio assistencial. As regras para o recebimento do benefício deveriam ser mais rígidas, com revisões periódicas e a exigência de busca ativa por emprego.</p><p>Há inúmeras empresas — em setores como a construção civil e o comércio — que oferecem vagas, mas muitos dos eventuais interessados preferem não ter o contrato registrado em carteira para não perder o benefício.</p><p>Leia também: “Desespero eleitoral” , reportagem de Yasmin Alencar publicada na Edição 342 da Revista Oeste</p><p>Dados do Cadastro Único, de fevereiro de 2025, indicam que 7 milhões de famílias — 34,1% do total de 20,6 milhões de beneficiários — recebem o Bolsa Família há mais de 10 anos, com maior concentração da dependência de longo prazo no Nordeste (38,8%) e no Norte (33,7%).</p><p>Em muitas localidades do interior, a subsistência informal combinada ao benefício cria uma acomodação estrutural, na qual a busca pelo emprego formal deixa de ser prioridade. Em suma, essas famílias optam por não trabalhar com carteira assinada, têm sua casa, sua horta, seu galinheiro, não gastam muito e o benefício tornou-se um complemento.</p><p>Um programa como o Bolsa Família, destinado àqueles que estão realmente desempregados e condicionado a critérios rígidos — especialmente a exigência de procura ativa de emprego —, é fundamental. Contudo, a distribuição de benefícios sem critérios, utilizada para ganhar eleições, é altamente preocupante.</p><p>No cenário atual, outro fator crítico é o expressivo endividamento público no presente mandato do governo Lula, que já se aproxima de R$ 1,5 trilhão. A necessidade constante de tomar recursos emprestados no mercado pressiona a taxa de juros e a mantém em níveis elevados para atrair investidores. O resultado dessa dinâmica é perverso: o setor produtivo se desestabiliza, os pedidos de recuperação judicial se multiplicam, grandes empresas encerram suas atividades e o PIB não cresce.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/o-populismo-do-voto-do-bolsa-familia-a-mp-das-ibets-i/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "É jurista, advogado, professor e escritor brasileiro, professor emérito da Faculdade de Direito da Universidade Mackenzie e membro da Academia Brasileira de Filosofia."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Bolsa Família é um programa de transferência de renda que unificou e ampliou os diversos programas de auxílio criados na gestão de Fernando Henrique Cardoso, de extrema importância para a proteção social, o combate à pobreza e a reinserção no mercado de trabalho; contudo, não da forma como é praticado no Brasil, pois sofreu um profundo desvirtuamento ao se"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A conversão de programas assistenciais em ferramentas de barganha eleitoral consolida a marca do atual governo: a troca do compromisso fiscal pelo populismo desenfreado."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Leia também: “A república dos impostos” , reportagem de Sarah Peres publicada na Edição 338 da Revista Oeste"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Nesse sentido, quero trazer à reflexão as medidas do governo Lula para alcançar a reeleição, haja vista o aumento do valor do Bolsa Família anunciado a 17 dias das eleições."
-          }
-        ]
-      }
-    },
-    {
-      "id": "449e8c8faab11fa4",
-      "titulo": "Pastor destoa da maioria das lideranças evangélicas e declara apoio a Caiado",
-      "categoria": "Fé e Sociedade",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/09/pastor-destoa-da-maioria-das-liderancas-evangelicas-e-declara-apoio-a-caiado.shtml",
-      "dataFonte": "2026-09-28T02:00:00.000Z",
-      "resumoFonte": "O pastor Marcos Galdino Junior, que comanda a Assembleia de Deus Santo Amaro, destoa de lideranças evangélicas que têm migrado em peso para a candidatura de Flávio Bolsonaro ( PL ). Leia mais (09/27/2026 - 23h00)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/07/07/17834417816a4d29750d213_1783441781_3x2_rt.jpg",
-      "descobertaEm": "2026-09-28T07:00:24.165Z",
-      "reportagem": {
-        "titulo": "Painel: Pastor destoa da maioria das lideranças evangélicas e declara apoio a Caiado",
-        "slug": "painel-pastor-destoa-da-maioria-das-liderancas-evangelicas-e-declara-apoio-a-caiado",
-        "categoria": "Fé e Sociedade",
-        "data": "2026-09-27",
-        "imagem": "https://f.i.uol.com.br/fotografia/2026/07/07/17834417816a4d29750d213_1783441781_3x2_rt.jpg",
-        "resumo": "Painel: Pastor destoa da maioria das lideranças evangélicas e declara apoio a Caiado. Registro original em Folha de S.Paulo - Poder. A Redação Notícia ES reapurou a pauta para a editoria Fé e Sociedade.",
-        "conteudo": "<p>Editado por Fábio Zanini, espaço traz notícias e bastidores da política. Com Carlos Petrocilo e Gabriela Echenique</p><h2>Você tem 7 acessos por dia para dar</h2><p>Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler.</p><p>Assinantes podem liberar 7 acessos por dia para conteúdos da Folha.</p><p>Receba no seu email as informações exclusivas da coluna Painel</p><h2>Pastor Marcos Galdino Junior, que comanda a Assembleia</h2><p>O pastor Marcos Galdino Junior, que comanda a Assembleia de Deus Santo Amaro, destoa de lideranças evangélicas que têm migrado em peso para a candidatura de Flávio Bolsonaro ( PL ).</p><p>O líder evangélico faz críticas contundentes tanto ao atual presidente quanto ao filho de Jair Bolsonaro (PL). &quot; Lula e Flávio, na minha opinião, são dois políticos patéticos achando que seus movimentos, o Lulismo e o bolsonarismo, são maiores do que o Brasil&quot;, diz Galdino Jr. ao Painel.</p><p>Ele afirma que apoiará Ronaldo Caiado (PSD) , descartando alinhamento com os dois candidatos mais bem posicionados na disputa presidencial.</p><p>&quot;Sou contra os dois! Acho que o Brasil está perdendo com a polarização.&quot;</p><p>LINK PRESENTE: Gostou deste texto? Assinante pode liberar sete acessos gratuitos de qualquer link por dia. Basta clicar no F azul abaixo.</p><p>Mais de 180 reportagens e análises publicadas a cada dia. Um time com mais de 200 colunistas e blogueiros. Um jornalismo profissional que fiscaliza o poder público, veicula notícias proveitosas e inspiradoras, faz contraponto à intolerância das redes sociais e traça uma linha clara entre verdade e mentira. Quanto custa ajudar a produzir esse conteúdo?</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/09/pastor-destoa-da-maioria-das-liderancas-evangelicas-e-declara-apoio-a-caiado.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Igreja Cristã Maranata",
-            "url": "https://www.igrejacristamaranata.org.br/"
-          },
-          {
-            "nome": "Convenção Batista do ES",
-            "url": "https://www.batistas.es/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Editado por Fábio Zanini, espaço traz notícias e bastidores da política. Com Carlos Petrocilo e Gabriela Echenique"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Assinantes podem liberar 7 acessos por dia para conteúdos da Folha."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Receba no seu email as informações exclusivas da coluna Painel"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O pastor Marcos Galdino Junior, que comanda a Assembleia de Deus Santo Amaro, destoa de lideranças evangélicas que têm migrado em peso para a candidatura de Flávio Bolsonaro ( PL )."
-          }
-        ]
-      }
-    },
-    {
-      "id": "1e849eb635738e32",
-      "titulo": "Trump confirma jantar com CEO da Anthropic e minimiza temores sobre IA",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/inteligencia-artificial/trump-confirma-jantar-com-ceo-da-anthropic-e-minimiza-temores-sobre-ia/",
-      "dataFonte": "2026-09-28T04:19:05.000Z",
-      "resumoFonte": "Presidente dos EUA diz que manter vantagem tecnológica sobre a China é mais importante diante dos riscos apontados por especialistas",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportTechnologyNews/tagreuters.com2026binary_LYNXMPEM3K16Y-BASEIMAGE.jpg?w=800&h=533&crop=1",
-      "descobertaEm": "2026-09-28T07:00:24.165Z",
-      "reportagem": {
-        "titulo": "Trump confirma jantar com CEO da Anthropic e minimiza temores sobre IA",
-        "slug": "trump-confirma-jantar-com-ceo-da-anthropic-e-minimiza-temores-sobre-ia",
-        "categoria": "Tecnologia",
-        "data": "2026-09-28",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportTechnologyNews/tagreuters.com2026binary_LYNXMPEM3K16Y-BASEIMAGE.jpg?w=800&h=533&crop=1",
-        "resumo": "Presidente dos EUA diz que manter vantagem tecnológica sobre a China é mais importante diante dos riscos apontados por especialistas",
-        "conteudo": "<p>O presidente dos Estados Unidos, Donald Trump, confirmou que pretende jantar com o CEO da Anthropic, Dario Amodei, na noite de domingo (27), e reafirmou sua posição contrária a uma desaceleração no desenvolvimento da inteligência artificial.</p><h2>Trump reiterou sua avaliação de que novas regulamentações</h2><p>Trump reiterou sua avaliação de que novas regulamentações abririam caminho para que a China ultrapassasse os Estados Unidos no avanço da IA. Embora tenha reconhecido a preocupação de Amodei de que um ritmo acelerado demais no desenvolvimento da inteligência artificial possa ampliar os riscos, Trump afirmou que é mais importante para os Estados Unidos manter uma vantagem tecnológica sobre a China.</p><p>“Estamos talvez um ano e meio à frente da China”, disse Trump à Fox News durante sua participação no torneio de golfe Presidents Cup, em Illinois. “Estamos liderando e estamos construindo instalações no valor de trilhões de dólares. E por que deveríamos abrir mão disso?”</p><p>Trump, confirmando informações divulgadas anteriormente pela Axios e pela Reuters, disse à Fox News que jantaria com Amodei na noite de domingo. O encontro ocorre enquanto CEOs de empresas concorrentes da Anthropic defendem uma desaceleração no desenvolvimento de sistemas de IA cada vez mais avançados. Entre elas estão a OpenAI, a DeepMind, do Google, a Microsoft e a xAI.</p><h2>Onda de apoio à intervenção do governo federal</h2><p>Uma onda de apoio à intervenção do governo federal ganhou força depois que a OpenAI afirmou, em julho, que um agente autônomo de IA saiu do controle durante um teste de segurança e invadiu os sistemas de outra empresa.</p><p>Incidentes envolvendo agentes de IA que saem do controle não são motivo para alarme, disse Trump à Fox News. “Eu não me preocupo com isso” , afirmou, acrescentando que continua confiante na tecnologia e em seu potencial.</p><p>Amodei não é a única figura importante do setor de tecnologia que tenta convencer Trump sobre a necessidade de regulamentação da IA. Em uma entrevista exibida mais cedo no domingo pelo programa “Meet the Press”, da NBC, o cofundador da Microsoft, Bill Gates, disse que gostaria de se encontrar com Trump para discutir a inteligência artificial.</p><p>“Espero que, dado o trabalho de toda a minha vida nessa área, o fato de eu dizer o quão singular e diferente isso é e o quanto estou preocupado acrescente algo ao que ele está ouvindo de outras pessoas”, disse Gates, ecoando os apelos de Amodei e outros por novas regulamentações para a IA.</p><p>“É preciso que as autoridades policiais e os políticos participem da discussão sobre como devem ser as salvaguardas e o monitoramento”, disse Gates em uma entrevista gravada. “E isso precisa ser obrigatório.”</p><p>Os alertas sobre os riscos da IA não são novos. Mas ganharam urgência adicional neste mês depois que pesquisadores de importantes laboratórios de inteligência artificial associaram às preocupações tanto um prazo quanto uma probabilidade.</p><p>O ex-pesquisador da Anthropic Jacob Coxon alertou que a IA poderia matar toda a humanidade até o fim da década, levando parlamentares americanos a defender novas regras para regulamentar a tecnologia.</p><p>Questionado sobre alertas desse tipo na entrevista à NBC, cujos trechos foram divulgados na sexta-feira, Gates afirmou que “a IA é certamente poderosa o suficiente para provocar acontecimentos que podem causar um bilhão de mortes”.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/inteligencia-artificial/trump-confirma-jantar-com-ceo-da-anthropic-e-minimiza-temores-sobre-ia/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
-          },
-          {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O presidente dos Estados Unidos, Donald Trump, confirmou que pretende jantar com o CEO da Anthropic, Dario Amodei, na noite de domingo (27), e reafirmou sua posição contrária a uma desaceleração no desenvolvimento da inteligência artificial."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Trump reiterou sua avaliação de que novas regulamentações abririam caminho para que a China ultrapassasse os Estados Unidos no avanço da IA. Embora tenha reconhecido a preocupação de Amodei de que um ritmo acelerado demais no desenvolvimento da inteligência artificial possa ampliar os riscos, Trump afirmou que é mais importante para os Estados Unidos manter "
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "“Estamos talvez um ano e meio à frente da China”, disse Trump à Fox News durante sua participação no torneio de golfe Presidents Cup, em Illinois. “Estamos liderando e estamos construindo instalações no valor de trilhões de dólares. E por que deveríamos abrir mão disso?”"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Trump, confirmando informações divulgadas anteriormente pela Axios e pela Reuters, disse à Fox News que jantaria com Amodei na noite de domingo. O encontro ocorre enquanto CEOs de empresas concorrentes da Anthropic defendem uma desaceleração no desenvolvimento de sistemas de IA cada vez mais avançados. Entre elas estão a OpenAI, a DeepMind, do Google, a Micr"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Uma onda de apoio à intervenção do governo federal ganhou força depois que a OpenAI afirmou, em julho, que um agente autônomo de IA saiu do controle durante um teste de segurança e invadiu os sistemas de outra empresa."
-          }
-        ]
-      }
-    },
-    {
-      "id": "eecafc4fa2c22f57",
-      "titulo": "Mais mulheres e decisões: especialista traça novo padrão de torcidas",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/mais-mulheres-e-decisoes-especialista-traca-novo-padrao-de-torcidas/",
-      "dataFonte": "2026-09-28T00:15:39.000Z",
-      "resumoFonte": "Ao CNN Esportes S/A deste domingo (27), Robson Carlo, sócio-fundador da FutebolCard, analisa mudanças no perfil dos torcedores nos estádios",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/07/torcedoras-flamengo-maracana-torida-feminina-e1753810477501.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-28T00:54:09.989Z",
-      "reportagem": {
-        "titulo": "Mais mulheres e decisões: especialista traça novo padrão de torcidas",
-        "slug": "mais-mulheres-e-decisoes-especialista-traca-novo-padrao-de-torcidas",
-        "categoria": "Esporte",
-        "data": "2026-09-27",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/07/torcedoras-flamengo-maracana-torida-feminina-e1753810477501.jpg?w=1200&h=630&crop=1",
-        "resumo": "Ao CNN Esportes S/A deste domingo (27), Robson Carlo, sócio-fundador da FutebolCard, analisa mudanças no perfil dos torcedores nos estádios",
-        "conteudo": "<p>O perfil das torcidas no futebol brasileiro está mudando. Cada vez mais, os estádios ficam lotados em partidas decisivas, mas registram públicos menores em jogos considerados menos importantes.</p><h2>Além disso, as mulheres estão mais presentes nas</h2><p>Além disso, as mulheres estão mais presentes nas arquibancadas, de acordo com Robson Carlo , sócio-fundador da FutebolCard , um dos principais portais de venda de ingressos para partidas de futebol no Brasil.</p><p>Durante entrevista ao CNN Esportes S/A deste domingo (27), Robson destacou o aumento da presença feminina e afirmou que é cada vez mais comum ver mães levando as filhas aos estádios e também o movimento contrário.</p><p>&quot;A quantidade de mulheres que estão lá no estádio, as mães levando as filhas... E aí você começa a entender o perfil: quais setores têm perfis mais de família, quais setores têm os perfis em que o pessoal gosta de ir para chegar em determinado horário. Você consegue também dimensionar, dependendo da quantidade de entradas no estádio, até a quantidade de cerveja, quando é liberado para vender, para estar dimensionada em determinado setor para ter venda&quot;, afirmou Robson.</p><h2>Das mudanças anunciadas pela CBF (Confederação Brasileira</h2><p>Uma das mudanças anunciadas pela CBF (Confederação Brasileira de Futebol) para a próxima temporada do futebol brasileiro é a definição de horários padronizados para as partidas .</p><p>De acordo com a entidade, os jogos disputados às 11h (de Brasília) serão mantidos de forma fixa . Para Robson, esse horário costuma atrair um público maior de famílias.</p><p>&quot;Jogos às 11 horas da manhã, você vê muita família. É muito interessante como os jogos são de manhã, no fim de semana. Dependendo do jogo, quando é clássico, aqueles jogos aguerridos, você não consegue ver tanta família. Mas, no fim de semana, jogos de domingo, quando tem um dia bonito e um jogo, você vê muita família. Você vê chegando o avô, o pai, a filha, junto com o neto. Você vê três gerações entrando no estádio. Isso é muito bacana&quot;, completou.</p><p>Robson também afirmou que o torcedor brasileiro tem demonstrado uma preferência maior por partidas decisivas . Segundo ele, em alguns confrontos de grande importância, a presença de sócios-torcedores pode representar praticamente todo o público presente no estádio.</p><p>&quot;Jogos muito decisivos, aquela semifinal, aquela final e aquele jogo histórico, dependendo da quantidade de pessoas no programa de sócio-torcedor, praticamente só vai sócio ao estádio&quot;, concluiu Robson.</p><p>Com Robson Carlo, sócio-fundador da FutebolCard, o CNN Esportes S/A chega à 155ª edição . Apresentado por João Vitor Xavier, o programa aborda os bastidores de um mercado que movimenta bilhões e é um dos mais lucrativos do mundo: o esporte.</p><p>Em pauta, os assuntos mais quentes da indústria do mundo da bola, na perspectiva de economia e negócios.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/futebol/mais-mulheres-e-decisoes-especialista-traca-novo-padrao-de-torcidas/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O perfil das torcidas no futebol brasileiro está mudando. Cada vez mais, os estádios ficam lotados em partidas decisivas, mas registram públicos menores em jogos considerados menos importantes."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Além disso, as mulheres estão mais presentes nas arquibancadas, de acordo com Robson Carlo , sócio-fundador da FutebolCard , um dos principais portais de venda de ingressos para partidas de futebol no Brasil."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Durante entrevista ao CNN Esportes S/A deste domingo (27), Robson destacou o aumento da presença feminina e afirmou que é cada vez mais comum ver mães levando as filhas aos estádios e também o movimento contrário."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "\"A quantidade de mulheres que estão lá no estádio, as mães levando as filhas... E aí você começa a entender o perfil: quais setores têm perfis mais de família, quais setores têm os perfis em que o pessoal gosta de ir para chegar em determinado horário. Você consegue também dimensionar, dependendo da quantidade de entradas no estádio, até a quantidade de cerv"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Uma das mudanças anunciadas pela CBF (Confederação Brasileira de Futebol) para a próxima temporada do futebol brasileiro é a definição de horários padronizados para as partidas ."
-          }
-        ]
-      }
-    },
-    {
-      "id": "c3534e05fe70c33e",
-      "titulo": "Campanha de Flávio acusa Dino de usurpar competência do TSE",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/campanha-de-flavio-acusa-dino-de-usurpar-competencia-do-tse-para-beneficiar-lula/",
-      "dataFonte": "2026-09-27T21:01:30.000Z",
-      "resumoFonte": "A equipe jurídica do candidato à Presidência Flávio Bolsonaro (PL) acusou o ministro Flávio Dino, do Supremo Tribunal Federal (STF) , de usurpar a competência da Justiça Eleitoral neste domingo, 27. A coordenação da campanha sustentou que o magistrado atropelou ritos judiciais para beneficiar o presidente Luiz Inácio Lula da Silva (PT) ao liberar a…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/55284808111_2a28548521_b-910x568.jpg.webp",
-      "descobertaEm": "2026-09-27T22:16:13.186Z",
-      "reportagem": {
-        "titulo": "Campanha de Flávio acusa Dino de usurpar competência do TSE",
-        "slug": "campanha-de-flavio-acusa-dino-de-usurpar-competencia-do-tse",
-        "categoria": "Justiça",
-        "data": "2026-09-27",
-        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/55284808111_2a28548521_b-910x568.jpg.webp",
-        "resumo": "Setor jurídico do candidato do PL critica liberação de boato sobre a padroeira do Brasil no Supremo",
-        "conteudo": "<p>Formado em jornalismo pela Faculdade Cásper Líbero, começou a atuar na comunicação em 2018. Desde então, trabalhou nas redações de veículos como Forbes, Gazeta do Povo e Veja, produzindo textos sobre cultura, empreendedorismo, política e agronegócio. Atualmente, cursa pós-graduação em &quot;Literatura, Artes e Filosofia&quot; pela PUC-RS.</p><h2>Equipe jurídica do candidato à Presidência Flávio Bolsonaro</h2><p>A equipe jurídica do candidato à Presidência Flávio Bolsonaro (PL) acusou o ministro Flávio Dino, do STF, de usurpar a competência da Justiça Eleitoral ao permitir a circulação de notícias falsas sobre Nossa Senhora Aparecida, beneficiando o presidente Lula. A crítica surgiu após Dino cassar uma liminar do vice-presidente do TSE, André Mendonça, que havia removido publicações mentirosas sobre um suposto plano do senador.</p><p>A equipe jurídica do candidato à Presidência Flávio Bolsonaro (PL) acusou o ministro Flávio Dino, do Supremo Tribunal Federal (STF) , de usurpar a competência da Justiça Eleitoral neste domingo, 27. A coordenação da campanha sustentou que o magistrado atropelou ritos judiciais para beneficiar o presidente Luiz Inácio Lula da Silva (PT) ao liberar a circulação de notícias falsas sobre Nossa Senhora Aparecida.</p><p>A reação do PL ocorreu logo depois de o integrante do Supremo cassar uma liminar concedida pelo vice-presidente do Tribunal Superior Eleitoral (TSE) , André Mendonça. O ministro da Corte eleitoral havia mandado remover publicações mentirosas que atribuíam ao senador um plano para retirar o título de padroeira do Brasil da imagem religiosa.</p><h2>Sobre a movimentação de Dino, a campanha disse:</h2><p>Sobre a movimentação de Dino, a campanha disse: “Soa estranho que justamente no caso desinformativo mais viral e deletério ao contexto eleitoral sobrevenha atuação supressiva de outra instância, com a derrubada no ambiente informativo de mentira flagrante.”</p><p>O coordenador geral da campanha, senador Rogério Marinho (PL-RN), também criticou a interferência direta do magistrado na disputa presidencial a poucas semanas do pleito. “Em plena disputa eleitoral, o STF não pode ser instrumento de interferência política”, declarou o parlamentar em nota oficial.</p><p>Rogério Marinho apontou duplo padrão na conduta do tribunal superior ao proteger a veiculação do boato no ambiente digital. O senador destacou que a decisão invocou a liberdade de expressão para manter no ar uma informação inverídica contra o candidato da oposição.</p><p>A defesa de Flávio Bolsonaro classificou como estranha a atuação de um órgão alheio à Justiça Eleitoral para restituir a mentira às redes sociais. A nota da campanha ressaltou que a petição foi direcionada a Dino de forma deliberada, sem passar por distribuição livre no tribunal.</p><p>O processo teve origem em uma postagem do humorista Antonio Tabet que associava o candidato de forma pejorativa ao episódio religioso. Dino alegou que restrições à liberdade de expressão exigem excepcionalidade e mandou as plataformas digitais reativarem todas as postagens apagadas.</p><p>A campanha de Flávio concluiu a nota: “O pior de tudo é perceber que essa usurpação constitucional de competência é feita, agora, para liberar uma história que todo mundo sabe que é mentira.”</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/campanha-de-flavio-acusa-dino-de-usurpar-competencia-do-tse-para-beneficiar-lula/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Formado em jornalismo pela Faculdade Cásper Líbero, começou a atuar na comunicação em 2018. Desde então, trabalhou nas redações de veículos como Forbes, Gazeta do Povo e Veja, produzindo textos sobre cultura, empreendedorismo, política e agronegócio. Atualmente, cursa pós-graduação em \"Literatura, Artes e Filosofia\" pela PUC-RS."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A equipe jurídica do candidato à Presidência Flávio Bolsonaro (PL) acusou o ministro Flávio Dino, do STF, de usurpar a competência da Justiça Eleitoral ao permitir a circulação de notícias falsas sobre Nossa Senhora Aparecida, beneficiando o presidente Lula. A crítica surgiu após Dino cassar uma liminar do vice-presidente do TSE, André Mendonça, que havia re"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A equipe jurídica do candidato à Presidência Flávio Bolsonaro (PL) acusou o ministro Flávio Dino, do Supremo Tribunal Federal (STF) , de usurpar a competência da Justiça Eleitoral neste domingo, 27. A coordenação da campanha sustentou que o magistrado atropelou ritos judiciais para beneficiar o presidente Luiz Inácio Lula da Silva (PT) ao liberar a circulaçã"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A reação do PL ocorreu logo depois de o integrante do Supremo cassar uma liminar concedida pelo vice-presidente do Tribunal Superior Eleitoral (TSE) , André Mendonça. O ministro da Corte eleitoral havia mandado remover publicações mentirosas que atribuíam ao senador um plano para retirar o título de padroeira do Brasil da imagem religiosa."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Sobre a movimentação de Dino, a campanha disse: “Soa estranho que justamente no caso desinformativo mais viral e deletério ao contexto eleitoral sobrevenha atuação supressiva de outra instância, com a derrubada no ambiente informativo de mentira flagrante.”"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0904ab7782e66f77",
-      "titulo": "Lula sobre whisky que teria sido dado por Vorcaro: “Se me deu, já bebi”",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/lula-sobre-whisky-que-teria-sido-dado-por-vorcaro-se-me-deu-ja-bebi/",
-      "dataFonte": "2026-09-28T02:12:18.000Z",
-      "resumoFonte": "Presidente afirmou que não sabe se recebeu a bebida do ex-dono do Banco Master e questionou relato feito por advogado; Lula se encontrou com Vorcaro no Palácio do Planalto em 4 de dezembro de 2024 e não estava previamente agendada",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Lula-em-sabatina-da-Band-e1790561470918.png?w=933&h=630&crop=1",
-      "descobertaEm": "2026-09-28T07:00:24.165Z",
-      "reportagem": {
-        "titulo": "Lula sobre whisky que teria sido dado por Vorcaro: \"Se me deu, já bebi\"",
-        "slug": "lula-sobre-whisky-que-teria-sido-dado-por-vorcaro-se-me-deu-ja-bebi",
+        "titulo": "Do partido de Caiado, Carlos Viana anuncia apoio a Flávio",
+        "slug": "do-partido-de-caiado-carlos-viana-anuncia-apoio-a-flavio",
         "categoria": "Política Nacional",
-        "data": "2026-09-27",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Lula-em-sabatina-da-Band-e1790561470918.png?w=933&h=630&crop=1",
-        "resumo": "Presidente afirmou que não sabe se recebeu a bebida do ex-dono do Banco Master e questionou relato feito por advogado; Lula se encontrou com Vorcaro no Palácio do Planalto em 4 de dezembro de 2024 e não estava previamente agendada",
-        "conteudo": "<p>O presidente Luiz Inácio Lula da Silva (PT) afirmou neste domingo (27) que, caso tenha recebido de Daniel Vorcaro, ex-dono do Banco Master, o whisky citado pelo advogado Walfrido Warde em mensagens, já consumiu a bebida . A declaração foi dada em entrevista à Band.</p><h2>“Se me deu whisky, já bebi</h2><p>“Se me deu whisky, já bebi. Eu ganho muita coisa, lembrança, sabe? Não sei me deu, mas se deu já bebi, pode ficar certo”, afirmou Lula.</p><p>A fala ocorreu após a Polícia Federal revelar na semana passada mensagens nas quais Walfrido Warde, que integrava a defesa do ex-banqueiro, trocou com Vorcaro dizendo que havia conversado com Lula e que o presidente teria agradecido novamente pelo whisky recebido de Vorcaro.</p><p>“Querido, estive com o PR [Presidente da República] hoje. Ele me perguntou se você estava bem e mais tranquilo. Eu lhe disse que sim. Ele agradeceu mais uma vez o whisky e mandou um abraço. Outros detalhes eu conto pessoalmente”, escreveu Warde a Vorcaro. O ex-banqueiro respondeu com um emoji de coração.</p><h2>Mensagem foi enviada em 22 de janeiro</h2><p>A mensagem foi enviada em 22 de janeiro de 2025, 49 dias depois de uma reunião entre Lula e o então dono do Banco Master no Palácio do Planalto.</p><p>Na entrevista deste domingo, Lula foi questionado sobre a atuação de Warde na tentativa de estabelecer uma interlocução entre Vorcaro e o governo . O presidente disse não saber o que o advogado teria afirmado a terceiros.</p><p>“O lobista fala bom dia para você, ele fala que dormiu com você. Eu recebi o cara [Vorcaro]. A conversa do Walfrido eu nego, eu não sei o que que ele falou. [...] Você acredita em tudo que advogado lobista fala? Como é que eu posso controlar a língua de advogado?”, completou.</p><p>Lula também falou sobre o encontro com Vorcaro , ocorrido em dezembro de 2024. O presidente afirmou que o então dono do Banco Master apareceu no gabinete acompanhado de Augusto Lima, que era sócio do banco, e disse que estava sendo perseguido e que havia uma tentativa de quebrar a instituição.</p><p>Segundo Lula, Gabriel Galípolo, então diretor de Política Monetária do Banco Central (BC) e atual presidente da instituição, também participou da conversa.</p><p>“Olha esse cidadão apareceu junto com outro cidadão chamado Augusto, acho que era o sócio dele, apareceu no meu gabinete, tava lá a duas ou três pessoas, tava inclusive o Galípolo, porque eu chamei para participar da conversa, me dizendo que tava sendo perseguido e que estavam querendo quebrar o banco dele.</p><p>Eu falei o seguinte: ‘Olha, não vai ter perseguição política’. Você pode ficar certo que no meu governo não tem perseguição política. Você tá tendo chance de se defender. Nós vamos apurar. Se você tiver errado, você paga o preço. Se não tiver errado, você não paga. Ele que tava errado, pagou. Tá preso”, disse o presidente.</p><p>A reunião ocorreu em 4 de dezembro de 2024 e não estava previamente agendada, segundo a Secom (Secretaria de Comunicação Social da Presidência da República). Também participaram do encontro o então ministro da Casa Civil, Rui Costa, e Galípolo.</p><p>Na ocasião, segundo a Secom, Vorcaro afirmou que se sentia alvo de perseguições. Lula teria respondido que eventuais denúncias deveriam ser analisadas tecnicamente pelo Banco Central.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/lula-sobre-whisky-que-teria-sido-dado-por-vorcaro-se-me-deu-ja-bebi/",
+        "data": "2026-09-28",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/03/PT-Carlos-Viana-INSS.jpeg.webp",
+        "resumo": "Senador do PSD diz que ‘o morno não serve’, pede votos para candidato do PL e promete pautar impeachment de Moraes, caso assuma Presidência do Senado",
+        "conteudo": "<p>Jornalista formada pela Universidade Católica de Brasília, atua na cobertura do Congresso Nacional e do Palácio do Planalto pela Revista Oeste. Antes, fez parte das redações de Poder360, Correio Braziliense, Alô Brasília e Aqui DF. Também foi editora na TV Brasília.</p><h2>Senador Carlos Viana (PSD-MG) declarou apoio a Flávio</h2><p>O senador Carlos Viana (PSD-MG) declarou apoio a Flávio Bolsonaro (RJ) já no primeiro turno da eleição presidencial e se afastou da candidatura de Ronaldo Caiado , nome de seu próprio partido, que também concorre ao Palácio do Planalto.</p><p>Candidato à reeleição por Minas Gerais, Viana afirmou que “o morno não serve” e vinculou a escolha por Flávio à sua própria campanha para chegar à presidência do Senado, posto a partir do qual promete dar andamento ao pedido de impeachment do ministro Alexandre de Moraes , do Supremo Tribunal Federal (STF).</p><p>O anúncio foi feito neste domingo, 27, por meio de um vídeo publicado nas redes sociais. A manifestação consolida uma aproximação com a chapa do PL que já vinha se tornando pública nos últimos dias.</p><h2>“Ou quente ou frio, o morno não serve”,</h2><p>“Ou quente ou frio, o morno não serve”, declarou. “Então, vamos botar quente, gente. Nessa reta final, meu apoio é Flávio Bolsonaro, no primeiro turno.”</p><p>Um post compartilhado por Senador Carlos Viana | VOTE 555 (@carlosviana)</p><p>+ Dino ‘atravessa’ Mendonça e libera posts que ligam Flávio à retirada do título de Padroeira</p><p>A escolha coloca o senador mineiro em posição contrária à candidatura presidencial de Caiado. Embora ambos estejam filiados ao PSD, Viana passou a intensificar os acenos à campanha de Flávio na reta final antes da votação.</p><p>Ao anunciar o apoio, Viana também relacionou a disputa presidencial à composição do Senado a partir de 2027. O parlamentar afirmou que pretende chegar à presidência da Casa e criticou a condução do atual presidente, Davi Alcolumbre (União-AP), em relação aos pedidos de impeachment contra ministros do Supremo.</p><p>“Eu quero ser presidente do Senado para fazer o que o Alcolumbre nunca teve coragem de fazer”, afirmou. “No primeiro dia, o pedido de impeachment de Alexandre de Moraes sairá da gaveta e vai ser instalado para investigação.”</p><p>Leia também: “O padroeiro dos poderosos” , reportagem publicada na Edição 339 da Revista Oeste</p><p>A presidência do Senado tem papel central na tramitação desse tipo de processo. Cabe ao comando da Casa decidir sobre o andamento inicial das denúncias apresentadas contra ministros do STF.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/do-partido-de-caiado-carlos-viana-anuncia-apoio-a-flavio/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -339,48 +59,48 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O presidente Luiz Inácio Lula da Silva (PT) afirmou neste domingo (27) que, caso tenha recebido de Daniel Vorcaro, ex-dono do Banco Master, o whisky citado pelo advogado Walfrido Warde em mensagens, já consumiu a bebida . A declaração foi dada em entrevista à Band."
+            "resposta": "Jornalista formada pela Universidade Católica de Brasília, atua na cobertura do Congresso Nacional e do Palácio do Planalto pela Revista Oeste. Antes, fez parte das redações de Poder360, Correio Braziliense, Alô Brasília e Aqui DF. Também foi editora na TV Brasília."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "“Se me deu whisky, já bebi. Eu ganho muita coisa, lembrança, sabe? Não sei me deu, mas se deu já bebi, pode ficar certo”, afirmou Lula."
+            "resposta": "O senador Carlos Viana (PSD-MG) declarou apoio a Flávio Bolsonaro (RJ) já no primeiro turno da eleição presidencial e se afastou da candidatura de Ronaldo Caiado , nome de seu próprio partido, que também concorre ao Palácio do Planalto."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A fala ocorreu após a Polícia Federal revelar na semana passada mensagens nas quais Walfrido Warde, que integrava a defesa do ex-banqueiro, trocou com Vorcaro dizendo que havia conversado com Lula e que o presidente teria agradecido novamente pelo whisky recebido de Vorcaro."
+            "resposta": "Candidato à reeleição por Minas Gerais, Viana afirmou que “o morno não serve” e vinculou a escolha por Flávio à sua própria campanha para chegar à presidência do Senado, posto a partir do qual promete dar andamento ao pedido de impeachment do ministro Alexandre de Moraes , do Supremo Tribunal Federal (STF)."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "“Querido, estive com o PR [Presidente da República] hoje. Ele me perguntou se você estava bem e mais tranquilo. Eu lhe disse que sim. Ele agradeceu mais uma vez o whisky e mandou um abraço. Outros detalhes eu conto pessoalmente”, escreveu Warde a Vorcaro. O ex-banqueiro respondeu com um emoji de coração."
+            "resposta": "O anúncio foi feito neste domingo, 27, por meio de um vídeo publicado nas redes sociais. A manifestação consolida uma aproximação com a chapa do PL que já vinha se tornando pública nos últimos dias."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A mensagem foi enviada em 22 de janeiro de 2025, 49 dias depois de uma reunião entre Lula e o então dono do Banco Master no Palácio do Planalto."
+            "resposta": "“Ou quente ou frio, o morno não serve”, declarou. “Então, vamos botar quente, gente. Nessa reta final, meu apoio é Flávio Bolsonaro, no primeiro turno.”"
           }
         ]
       }
     },
     {
-      "id": "aa796ac556660873",
-      "titulo": "ESPECIAL ELEIÇÕES: o rumo da economia brasileira depois das urnas - O Assunto #1813 | G1",
+      "id": "a2e69f645f40d415",
+      "titulo": "Ibovespa cai com petróleo, inflação e eleições no radar; dólar supera R$ 5,20",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "g1 - Capa",
-      "urlFonte": "https://g1.globo.com/podcast/o-assunto/noticia/2026/09/28/especial-eleicoes-o-rumo-da-economia-brasileira-depois-das-urnas-o-assunto-1813.ghtml",
-      "dataFonte": "2026-09-28T03:30:01.535Z",
-      "resumoFonte": "Natuza Nery recebe o jornalista Léo Arcoverde para explicar o que os candidatos à Presidência propõem para enfrentar a dívida pública, os juros altos e o endividamento privado.",
-      "imagem": "https://s2-g1.glbimg.com/BpShIN_jyVrwCt8LeqZgnwIwdcU=/1250x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/V/b/A8IGA6SdAAIsLKWtdgOg/imagem-destaque-g1-dinheiro.png",
-      "descobertaEm": "2026-09-28T07:03:01.922Z",
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/economia/ibovespa-cai-com-petroleo-inflacao-e-eleicoes-no-radar-dolar-supera-r-520/",
+      "dataFonte": "2026-09-28T14:01:19.000Z",
+      "resumoFonte": "Mercado repercute alta da projeção para o IPCA no Focus e nova pesquisa eleitoral a menos de uma semana do primeiro turno",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2024/07/GettyImages-1140298850-e1752871313238.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-09-28T14:12:50.172Z",
       "reportagem": {
-        "titulo": "ESPECIAL ELEIÇÕES: o rumo da economia brasileira depois das urnas - O Assunto #1813 | G1",
-        "slug": "especial-eleicoes-o-rumo-da-economia-brasileira-depois-das-urnas-o-assunto-1813-g1",
+        "titulo": "Ibovespa cai com petróleo, inflação e eleições no radar; dólar supera R$ 5,20",
+        "slug": "ibovespa-cai-com-petroleo-inflacao-e-eleicoes-no-radar-dolar-supera-r-5-20",
         "categoria": "Economia",
         "data": "2026-09-28",
-        "imagem": "https://s2-g1.glbimg.com/BpShIN_jyVrwCt8LeqZgnwIwdcU=/1250x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/V/b/A8IGA6SdAAIsLKWtdgOg/imagem-destaque-g1-dinheiro.png",
-        "resumo": "Natuza Nery recebe o jornalista Léo Arcoverde para explicar o que os candidatos à Presidência propõem para enfrentar a dívida pública, os juros altos e o endividamento privado.",
-        "conteudo": "<p>O IBGE informou que a inflação oficial do país registrou queda de 0,32% nos preços no mês de agosto. Já a pesquisa Quaest mais recente mostra que 2 em cada 3 eleitores afirmam que os preços no mercado subiram ao longo deste mesmo mês. Números como estes mostram parte das contradições da economia brasileira.</p><h2>Por um lado: o país vem crescendo ano</h2><p>Por um lado: o país vem crescendo ano a ano em ritmo mais forte do que apontam os analistas de mercado; a renda do trabalhador chegou a nível recorde e o desemprego está na mínima histórica; e a inflação está dentro do teto da meta.</p><p>Por outro: a dívida pública rompeu o patamar dos R$ 10 trilhões e custa mais de 82% do PIB; o endividamento aflige 82% das famílias brasileiras, índice recorde; e o país ostenta hoje o maior juro real do mundo.</p><p>Neste episódio, Natuza Nery recebe o jornalista Léo Arcoverde para explicar os principais aspectos da economia brasileira. Ele também apresenta o que os candidatos à Presidência propõem para enfrentar a dívida pública, os juros altos e o endividamento privado. Também neste episódio você ouvirá trechos das entrevistas que o produtor Carlos Catelan conduziu com os economistas Armínio Fraga, André Roncaglia, Carla Beni, Felipe Salto, Marcos Mendes e Monica de Bolle.</p><h2>Convidado: Léo Arcoverde, repórter especial e comentarista</h2><p>Convidado: Léo Arcoverde, repórter especial e comentarista da GloboNews.</p><p>Marcos Mendes, pesquisador associado no Insper, e organizador do livro 'Para não esquecer: políticas públicas que empobrecem o Brasil'.</p><p>Mendes também trabalhou no Ministério da Fazenda, como Chefe da Assessoria Especial entre 2016 e 2018, no Banco Central e no Tesouro Nacional; Monica de Bolle, pesquisadora sênior do Peterson Institute for International Economics, professora na Georgetown University para assuntos da América Latina e Conselheira Internacional do CEBRI; Arminio Fraga, fundador da Gávea Investimentos e ex-presidente do Banco Central do Brasil entre 1999 e 2003.</p><p>Fraga também é professor em Columbia, Wharton, PUC-Rio e FGV-Rio e é membro do Group of Thirty; Carla Beni, professora da FGV, especialista em Economia e Didática no Ensino Superior e conselheira do CORECON-SP, o Conselho Regional de Economia do Estado de São Paulo.</p><p>André Roncaglia, diretor-executivo do Brasil no Fundo Monetário Internacional (FMI), professor da UNB e pesquisador associado ao IBRE, da FGV; Felipe Salto, economista-chefe da Warren Investimentos e professor do IDP, foi secretário da Fazenda e Planejamento do Estado de São Paulo e o primeiro diretor-executivo da Instituição Fiscal Independente (IFI).</p><p>Selic, juros e endividamento: veja o que os candidatos à Presidência propõem sobre economia e controle fiscal ; Eleições 2026: presidenciáveis defendem contas em ordem para baixar juro e estimular economia, mas não detalham propostas ; Quaest, 1º turno: Lula, 37%; Flávio Bolsonaro, 33%; Cury, 6%; Caiado, 4%; Renan, 3%; Zema, 1%; ' Quem são os candidatos ': g1 lança ferramenta com dados do TSE e páginas para todos os candidatos .</p><p>Acompanhe os outros episódios do 'ESPECIAL ELEIÇÕES' d' O ASSUNTO :</p><p>#1789 - O que esperar das nossas relações com o mundo? ; #1794 - O que fazer para resolver o problema da violência? ; #1799 - Como a educação pode mudar a cara do Brasil? ; #1804 - Como resolver os gargalos da Saúde no país? ; e #1808 - O país diante de uma encruzilhada ambiental .</p><p>O podcast O Assunto é produzido por: Luiz Felipe Silva, Carlos Catelan, Luiz Gabriel Franco, Juliene Moretti, Stéphanie Nascimento, Marco Antônio Martins e Thomé Granemann. Na apresentação: Natuza Nery.</p>",
-        "fonteNome": "g1 - Capa",
-        "fonteUrl": "https://g1.globo.com/podcast/o-assunto/noticia/2026/09/28/especial-eleicoes-o-rumo-da-economia-brasileira-depois-das-urnas-o-assunto-1813.ghtml",
+        "imagem": "https://veja.abril.com.br/wp-content/uploads/2024/07/GettyImages-1140298850-e1752871313238.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "resumo": "Mercado repercute alta da projeção para o IPCA no Focus e nova pesquisa eleitoral a menos de uma semana do primeiro turno",
+        "conteudo": "<p>O Ibovespa operava em queda nesta segunda-feira, 28, em uma sess&amp;atilde;o marcada pela press&amp;atilde;o do petr&amp;oacute;leo, pela piora das expectativas para a infla&amp;ccedil;&amp;atilde;o e pelo aumento da cautela dos investidores com a proximidade das elei&amp;ccedil;&amp;otilde;es. Por volta das 10h30, o principal &amp;iacute;ndice da B3 recuava 0,58%, aos 182 415 pontos, enquanto o d&amp;oacute;lar superava a marca de 5,20 reais.</p><h2>Movimento d&amp;aacute; continuidade &amp;agrave; sequ&amp;ecirc;ncia negativa da Bolsa</h2><p>O movimento d&amp;aacute; continuidade &amp;agrave; sequ&amp;ecirc;ncia negativa da Bolsa brasileira. Na sexta-feira, 25, o Ibovespa caiu 0,27%, aos 183 476 pontos, completando o terceiro preg&amp;atilde;o consecutivo de baixa. O &amp;iacute;ndice terminou a semana com perda de 0,95%.</p><p>No exterior, o impasse nas negocia&amp;ccedil;&amp;otilde;es entre Estados Unidos e Ir&amp;atilde; voltou a pressionar o petr&amp;oacute;leo e contribuiu para uma maior procura por ativos considerados mais seguros. O fortalecimento global do d&amp;oacute;lar tamb&amp;eacute;m atingia outras moedas emergentes nesta manh&amp;atilde;.</p><p>&amp;ldquo;Quando o d&amp;oacute;lar supera R$ 5,20, o primeiro ponto &amp;eacute; observar se o real est&amp;aacute; se desvalorizando sozinho. Hoje, a moeda americana tamb&amp;eacute;m avan&amp;ccedil;a diante de outras divisas emergentes&amp;rdquo;, afirma F&amp;aacute;bio Murad, consultor da Wiser Asset.</p><h2>Pesquisa eleitoral brasileira acrescenta press&amp;atilde;o ao c&amp;acirc;mbio, mas</h2><p>Segundo ele, a pesquisa eleitoral brasileira acrescenta press&amp;atilde;o ao c&amp;acirc;mbio, mas o movimento n&amp;atilde;o pode ser atribu&amp;iacute;do somente ao cen&amp;aacute;rio dom&amp;eacute;stico.</p><p>No Brasil, o Boletim Focus divulgado pelo Banco Central nesta segunda-feira trouxe mais um elemento de cautela. A proje&amp;ccedil;&amp;atilde;o do mercado para o IPCA de 2026 passou de 4,92% para 4,99%, na segunda eleva&amp;ccedil;&amp;atilde;o consecutiva. Para 2027, a estimativa avan&amp;ccedil;ou de 4,30% para 4,31%.</p><p>J&amp;aacute; a estimativa para a Selic ao fim deste ano permaneceu em 13,50%. Com a taxa b&amp;aacute;sica atualmente em 14%, a mediana das proje&amp;ccedil;&amp;otilde;es ainda contempla redu&amp;ccedil;&amp;atilde;o adicional de 0,50 ponto percentual at&amp;eacute; dezembro.</p><p>O comportamento do petr&amp;oacute;leo, no entanto, pode dificultar esse processo caso a commodity permane&amp;ccedil;a em n&amp;iacute;veis elevados. &amp;ldquo;Uma alta prolongada da commodity pode pressionar combust&amp;iacute;veis e custos de transporte, dificultando o recuo da infla&amp;ccedil;&amp;atilde;o. Nesse caso, os juros futuros tendem a subir, o que pesa especialmente sobre varejistas, construtoras e empresas dependentes de cr&amp;eacute;dito&amp;rdquo;, explica Murad.</p><p>Por outro lado, a valoriza&amp;ccedil;&amp;atilde;o do barril pode favorecer as a&amp;ccedil;&amp;otilde;es da Petrobras, que t&amp;ecirc;m peso relevante na composi&amp;ccedil;&amp;atilde;o do Ibovespa. Para Murad, isso cria uma divis&amp;atilde;o dentro do pr&amp;oacute;prio &amp;iacute;ndice, j&amp;aacute; que o benef&amp;iacute;cio para as petroleiras pode ocorrer ao mesmo tempo em que juros mais elevados prejudicam companhias mais expostas &amp;agrave; economia dom&amp;eacute;stica.</p><p>A menos de uma semana do primeiro turno, marcado para 4 de outubro, os investidores tamb&amp;eacute;m acompanham as novas pesquisas eleitorais. Levantamento BTG/Nexus divulgado nesta segunda-feira mostra o presidente Luiz In&amp;aacute;cio Lula da Silva com 46% das inten&amp;ccedil;&amp;otilde;es de voto em uma eventual disputa de segundo turno contra Fl&amp;aacute;vio Bolsonaro, que registra 44%. Como a margem de erro &amp;eacute; de dois pontos percentuais, os dois est&amp;atilde;o tecnicamente empatados.</p><p>No primeiro turno, Lula aparece com 42%, contra 37% de Fl&amp;aacute;vio Bolsonaro . Foram entrevistados 2 mil eleitores entre 25 e 27 de setembro, por telefone, e a pesquisa est&amp;aacute; registrada no Tribunal Superior Eleitoral sob o n&amp;uacute;mero BR-07557/2026.</p><p>Murad avalia que a proximidade da vota&amp;ccedil;&amp;atilde;o acrescenta volatilidade ao mercado, principalmente pelas expectativas em rela&amp;ccedil;&amp;atilde;o &amp;agrave; condu&amp;ccedil;&amp;atilde;o da pol&amp;iacute;tica fiscal no pr&amp;oacute;ximo governo.</p><p>Ele ressalta, por&amp;eacute;m, que oscila&amp;ccedil;&amp;otilde;es dentro da margem de erro n&amp;atilde;o permitem concluir que houve mudan&amp;ccedil;a na dire&amp;ccedil;&amp;atilde;o da disputa.</p><p>Para os pr&amp;oacute;ximos preg&amp;otilde;es, petr&amp;oacute;leo, infla&amp;ccedil;&amp;atilde;o, juros e elei&amp;ccedil;&amp;otilde;es devem continuar entre os principais fatores acompanhados pelos investidores. &amp;ldquo;Nesta sess&amp;atilde;o, o petr&amp;oacute;leo e o fortalecimento global da moeda americana d&amp;atilde;o o impulso inicial; infla&amp;ccedil;&amp;atilde;o, juros e elei&amp;ccedil;&amp;atilde;o determinam quanto dessa press&amp;atilde;o pode permanecer&amp;rdquo;, afirma Murad.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/economia/ibovespa-cai-com-petroleo-inflacao-e-eleicoes-no-radar-dolar-supera-r-520/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil Economia",
@@ -395,240 +115,60 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O IBGE informou que a inflação oficial do país registrou queda de 0,32% nos preços no mês de agosto. Já a pesquisa Quaest mais recente mostra que 2 em cada 3 eleitores afirmam que os preços no mercado subiram ao longo deste mesmo mês. Números como estes mostram parte das contradições da economia brasileira. Por um lado: o país vem crescendo ano a ano em ritm"
+            "resposta": "O Ibovespa operava em queda nesta segunda-feira, 28, em uma sess&atilde;o marcada pela press&atilde;o do petr&oacute;leo, pela piora das expectativas para a infla&ccedil;&atilde;o e pelo aumento da cautela dos investidores com a proximidade das elei&ccedil;&otilde;es. Por volta das 10h30, o principal &iacute;ndice da B3 recuava 0,58%, aos 182 415 pontos, enq"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Neste episódio, Natuza Nery recebe o jornalista Léo Arcoverde para explicar os principais aspectos da economia brasileira. Ele também apresenta o que os candidatos à Presidência propõem para enfrentar a dívida pública, os juros altos e o endividamento privado. Também neste episódio você ouvirá trechos das entrevistas que o produtor Carlos Catelan conduziu co"
+            "resposta": "O movimento d&aacute; continuidade &agrave; sequ&ecirc;ncia negativa da Bolsa brasileira. Na sexta-feira, 25, o Ibovespa caiu 0,27%, aos 183 476 pontos, completando o terceiro preg&atilde;o consecutivo de baixa. O &iacute;ndice terminou a semana com perda de 0,95%."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Convidado: Léo Arcoverde, repórter especial e comentarista da GloboNews."
+            "resposta": "No exterior, o impasse nas negocia&ccedil;&otilde;es entre Estados Unidos e Ir&atilde; voltou a pressionar o petr&oacute;leo e contribuiu para uma maior procura por ativos considerados mais seguros. O fortalecimento global do d&oacute;lar tamb&eacute;m atingia outras moedas emergentes nesta manh&atilde;. &ldquo;Quando o d&oacute;lar supera R$ 5,20, o primeir"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Marcos Mendes, pesquisador associado no Insper, e organizador do livro 'Para não esquecer: políticas públicas que empobrecem o Brasil'. Mendes também trabalhou no Ministério da Fazenda, como Chefe da Assessoria Especial entre 2016 e 2018, no Banco Central e no Tesouro Nacional; Monica de Bolle, pesquisadora sênior do Peterson Institute for International Econ"
+            "resposta": "No Brasil, o Boletim Focus divulgado pelo Banco Central nesta segunda-feira trouxe mais um elemento de cautela. A proje&ccedil;&atilde;o do mercado para o IPCA de 2026 passou de 4,92% para 4,99%, na segunda eleva&ccedil;&atilde;o consecutiva. Para 2027, a estimativa avan&ccedil;ou de 4,30% para 4,31%."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Selic, juros e endividamento: veja o que os candidatos à Presidência propõem sobre economia e controle fiscal ; Eleições 2026: presidenciáveis defendem contas em ordem para baixar juro e estimular economia, mas não detalham propostas ; Quaest, 1º turno: Lula, 37%; Flávio Bolsonaro, 33%; Cury, 6%; Caiado, 4%; Renan, 3%; Zema, 1%; ' Quem são os candidatos ': g"
+            "resposta": "J&aacute; a estimativa para a Selic ao fim deste ano permaneceu em 13,50%. Com a taxa b&aacute;sica atualmente em 14%, a mediana das proje&ccedil;&otilde;es ainda contempla redu&ccedil;&atilde;o adicional de 0,50 ponto percentual at&eacute; dezembro."
           }
         ]
       }
     },
     {
-      "id": "1074e60c1c0ca224",
-      "titulo": "A crise vai da economia à política",
-      "categoria": "Economia",
+      "id": "565a09688edf20b5",
+      "titulo": "Guarda Municipal apreende mais de 20 kg de cocaína em área de mata em Cariacica",
+      "categoria": "Cidades",
       "radar": null,
-      "fonteNome": "O Globo - Capa",
-      "urlFonte": "https://oglobo.globo.com/opiniao/carlos-alberto-sardenberg/coluna/2026/09/a-crise-vai-da-economia-a-politica.ghtml",
-      "dataFonte": "2026-09-28T03:05:01.008Z",
-      "resumoFonte": "O quadro piora em 2027. Nesta reta final de campanha, o governo tem tomado medidas que aumentam o gasto",
-      "imagem": "https://s2-oglobo.glbimg.com/LJooW3xV3YW-4mIY9aNi_xxtjZk=/1300x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/B/q/DnDJ9PSeAGNRiRagfBPw/103775153-ec-rio-de-janeiro-rj-25-07-2023-cesta-basica-no-supermercado-merko-na-tijuca.-foto-leo-m.jpg",
-      "descobertaEm": "2026-09-28T07:03:01.922Z"
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/agora/guarda-municipal-apreende-mais-de-20-kg-de-cocaina-em-area-de-mata-em-cariacica-0926",
+      "dataFonte": "2026-09-28T13:50:25.000Z",
+      "resumoFonte": "Outras drogas, como maconha e crack, foram encontradas no bairro Itaquari, operação contou com o auxílio de cães farejadores",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790599434250_a9d4c548_d067_4f18_b39e_a6c57aece8c7.jpg",
+      "descobertaEm": "2026-09-28T14:12:50.172Z"
     },
     {
-      "id": "b76949bce2871a11",
-      "titulo": "Evangélicos veem Nossa Senhora como serva de Deus, e não como objeto de culto",
-      "categoria": "Fé e Sociedade",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/evangelicos-veem-nossa-senhora-como-serva-de-deus-e-nao-como-objeto-de-culto.shtml",
-      "dataFonte": "2026-09-28T00:12:00.000Z",
-      "resumoFonte": "O protestantismo não cultua santos. Por isso, há tanta discordância entre evangélicos e católicos a respeito da devoção a Nossa Senhora, que veio à baila na semana passada diante da notícia falsa envolvendo Flávio Bolsonaro (PL) e Nossa Senhora Aparecida, padroeira do Brasil. Leia mais (09/27/2026 - 21h12)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2025/10/12/176027750968ebb40507aff_1760277509_3x2_rt.jpg",
-      "descobertaEm": "2026-09-28T00:54:09.989Z",
-      "reportagem": {
-        "titulo": "Evangélicos veem Nossa Senhora como serva de Deus, e não como objeto de culto",
-        "slug": "evangelicos-veem-nossa-senhora-como-serva-de-deus-e-nao-como-objeto-de-culto",
-        "categoria": "Fé e Sociedade",
-        "data": "2026-09-27",
-        "imagem": "https://f.i.uol.com.br/fotografia/2025/10/12/176027750968ebb40507aff_1760277509_3x2_rt.jpg",
-        "resumo": "Polêmica eleitoral em torno de Nossa Senhora Aparecida expõe diferenças entre tradições cristãs",
-        "conteudo": "<p>Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler.</p><h2>Assinantes podem liberar 7 acessos por dia</h2><p>Assinantes podem liberar 7 acessos por dia para conteúdos da Folha.</p><p>O protestantismo não cultua santos. Por isso, há tanta discordância entre evangélicos e católicos a respeito da devoção a Nossa Senhora, que veio à baila na semana passada diante da notícia falsa envolvendo Flávio Bolsonaro (PL) e Nossa Senhora Aparecida, padroeira do Brasil.</p><p>A campanha do senador busca conter os danos desde sexta-feira (24), após correr nas redes sociais a falsa notícia de que, se eleito, ele retiraria o padroeirismo da santa.</p><h2>História tem sido explorada por aliados do presidente</h2><p>A história tem sido explorada por aliados do presidente Lula ( PT ) e chegou ao TSE (Tribunal Superior Eleitoral) e STF (Supremo Tribunal Federal).</p><p>Evangélicos acreditam na Virgem Maria, mas não a consideram com a mesma autoridade espiritual com a qual ela é tratada na Igreja Católica.</p><p>&quot;Maria tem o seu lugar na tradição evangélica, como mãe de Jesus. Porém, ela é valorizada como serva de Deus, que gerou Jesus, o Salvador. Não é compreendida como 'mãe de Deus' nem como intercessora das pessoas diante do Filho de Deus que ela gerou, uma vez que na doutrina protestante não há mediação entre Deus e o ser humano&quot;, explica Magali Cunha, pesquisadora do Iser (Instituto de Estudos da Religião).</p><p>A discordância existe desde que o movimento protestante surgiu, no século 16, com interpretações distintas sobre a passagem que narra a revelação dos 10 mandamentos a Moisés, no livro de Êxodo, capítulo 20: &quot;Não terás outros deuses além de mim. Não farás para ti escultura [...] Não te prostarás diante delas e não lhes prestarás culto&quot;.</p><p>Para os católicos, a proibição divina diz respeito à representação palpável de Deus como objeto de adoração, e não sobre uma imagem religiosa qualquer, como anjos, pássaros e mesmo santos.</p><p>Entre os evangélicos, aqueles que são reconhecidos como santos pelos católicos são, na verdade, cristãos que servem de exemplo pela própria fé. Evangélicos não veneram essas figuras porque entendem isso como idolatria, que é quando outra divindade se impõe no lugar de Deus.</p><p>&quot;Isto foi objeto de forte crítica dos reformadores dos séculos 15 e 16 ao catolicismo, que, na compreensão deles, permitia Deus ser colocado em segundo plano diante da adoração a santos&quot;, afirma Magali.</p><p>Na semana passada, pouco antes de virem à tona as postagens sobre Flávio Bolsonaro e Nossa Senhora Aparecida, havia circulado a interpretação de que o alinhamento de bispos católicos com Lula viria de um temor de que o senador fluminense poderia agir nesse sentido por ser evangélico .</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/evangelicos-veem-nossa-senhora-como-serva-de-deus-e-nao-como-objeto-de-culto.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Igreja Cristã Maranata",
-            "url": "https://www.igrejacristamaranata.org.br/"
-          },
-          {
-            "nome": "Convenção Batista do ES",
-            "url": "https://www.batistas.es/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Assinantes podem liberar 7 acessos por dia para conteúdos da Folha."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O protestantismo não cultua santos. Por isso, há tanta discordância entre evangélicos e católicos a respeito da devoção a Nossa Senhora, que veio à baila na semana passada diante da notícia falsa envolvendo Flávio Bolsonaro (PL) e Nossa Senhora Aparecida, padroeira do Brasil."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A campanha do senador busca conter os danos desde sexta-feira (24), após correr nas redes sociais a falsa notícia de que, se eleito, ele retiraria o padroeirismo da santa."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A história tem sido explorada por aliados do presidente Lula ( PT ) e chegou ao TSE (Tribunal Superior Eleitoral) e STF (Supremo Tribunal Federal)."
-          }
-        ]
-      }
-    },
-    {
-      "id": "cbf4456d6946294a",
-      "titulo": "Pastora do Rio é contra esquerda, feminismo e armas",
-      "categoria": "Fé e Sociedade",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/pastora-do-rio-e-contra-esquerda-feminismo-e-armas.shtml",
-      "dataFonte": "2026-09-28T02:03:00.000Z",
-      "resumoFonte": "Todo passo que Sarah Lole dá passa primeiro por Deus. \"Ir à academia, meu futuro, para onde vou viajar: qualquer decisão que tome na minha vida, eu começo orando. Até quando for algo que parece um pouco superficial, vai que vou fazer uma cirurgia estética, vou orar por isso também.\" Leia mais (09/27/2026 - 23h03)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/09/22/17900958556ab2b1eff2f89_1790095855_3x2_rt.jpg",
-      "descobertaEm": "2026-09-28T07:00:24.165Z",
-      "reportagem": {
-        "titulo": "Pastora do Rio é contra esquerda, feminismo e armas",
-        "slug": "pastora-do-rio-e-contra-esquerda-feminismo-e-armas",
-        "categoria": "Fé e Sociedade",
-        "data": "2026-09-27",
-        "imagem": "https://f.i.uol.com.br/fotografia/2026/09/22/17900958556ab2b1eff2f89_1790095855_3x2_rt.jpg",
-        "resumo": "Pastora do Rio é contra esquerda, feminismo e armas. Registro original em Folha de S.Paulo - Poder. A Redação Notícia ES reapurou a pauta para a editoria Fé e Sociedade.",
-        "conteudo": "<p>Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler.</p><h2>Assinantes podem liberar 7 acessos por dia</h2><p>Assinantes podem liberar 7 acessos por dia para conteúdos da Folha.</p><p>Todo passo que Sarah Lole dá passa primeiro por Deus. &quot;Ir à academia, meu futuro, para onde vou viajar: qualquer decisão que tome na minha vida, eu começo orando. Até quando for algo que parece um pouco superficial, vai que vou fazer uma cirurgia estética, vou orar por isso também.&quot;</p><p>Ser evangélica, para a pastora e publicitária de 31 anos, é um &quot;estilo de vida&quot;. Nem sempre foi assim. Ela cresceu indo à Assembleia de Deus da Penha, liderada por seu avô. A mesma igreja que, em 2010, passou a se chamar Vitória em Cristo, agora sob batuta do tio Silas Malafaia —ele é casado com a pastora Elizete, irmã da mãe dela.</p><h2>Ser de uma família de pastores não impediu</h2><p>Ser de uma família de pastores não impediu que Sarah bambeasse na fé. Ela conta que, lá pelos 18 anos, relacionou-se com &quot;uma pessoa que me traía&quot; e que a fez se &quot;distanciar de Deus&quot;.</p><p>Só mais tarde detectou a dependência emocional em jogo. &quot;Meu pai era coronel da PM, um homem rígido. Entendi que eu queria preencher o amor que meu pai deixava sem demonstração.&quot;</p><p>Foi Deus no controle. Se Ele realmente libertava, que a ajudasse a terminar aquela relação. Deu certo. Uma &quot;mudança de coração&quot; a fez rejeitar o homem que a fazia tão mal, diz. Houve outro namoro, com um homem que depois se assumiu homossexual. &quot;Foram relacionamentos que machucaram muito.&quot;</p><p>Sarah conheceu o marido, Matheus, no culto. Ele era amigo de um rapaz com quem Sarah treinava crossfit . O casal está junto desde 2019 e planeja começar a tentar ter filhos no fim deste ano.</p><p>Na escala de prioridades de Sarah é Deus acima de tudo, e então família, igreja e trabalho. Ela foi ordenada pastora aos 29 anos, idade que considera precoce. A Vitória em Cristo não é regra —várias Assembleias de Deus não concedem o título a mulheres.</p><p>Sarah diz que nunca permitirá que a rotina pastoral ocupe o lugar do marido. &quot;Se ele está doente, estarei cuidando dele antes de ficar servindo que nem louca dentro de uma igreja.&quot;</p><p>O trabalho formal também perdeu espaço. A publicitária passou pela L’Oréal, onde sonhava chegar aos cargos mais altos, mas o meio executivo foi perdendo sentido. Também não considera prioritário trabalhar como CLT. Deus a livre de estar todos os dias numa empresa.</p><p>Hoje faz home office cuidando das redes sociais de Malafaia. &quot;Fui renunciando às coisas na minha vida. Os sonhos que tinha de crescer financeiramente… Renunciei para estar mais presente na igreja.&quot;</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/pastora-do-rio-e-contra-esquerda-feminismo-e-armas.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Igreja Cristã Maranata",
-            "url": "https://www.igrejacristamaranata.org.br/"
-          },
-          {
-            "nome": "Convenção Batista do ES",
-            "url": "https://www.batistas.es/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Assinantes podem liberar 7 acessos por dia para conteúdos da Folha."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Todo passo que Sarah Lole dá passa primeiro por Deus. \"Ir à academia, meu futuro, para onde vou viajar: qualquer decisão que tome na minha vida, eu começo orando. Até quando for algo que parece um pouco superficial, vai que vou fazer uma cirurgia estética, vou orar por isso também.\""
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Ser evangélica, para a pastora e publicitária de 31 anos, é um \"estilo de vida\". Nem sempre foi assim. Ela cresceu indo à Assembleia de Deus da Penha, liderada por seu avô. A mesma igreja que, em 2010, passou a se chamar Vitória em Cristo, agora sob batuta do tio Silas Malafaia —ele é casado com a pastora Elizete, irmã da mãe dela."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Ser de uma família de pastores não impediu que Sarah bambeasse na fé. Ela conta que, lá pelos 18 anos, relacionou-se com \"uma pessoa que me traía\" e que a fez se \"distanciar de Deus\"."
-          }
-        ]
-      }
-    },
-    {
-      "id": "6326eda772fe723b",
-      "titulo": "Como roubo de celular ajudou polícia a descobrir rede do tráfico | G1",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "g1 - Capa",
-      "urlFonte": "https://g1.globo.com/fantastico/noticia/2026/09/27/roubo-de-celular-ajudou-policia-a-descobrir-rede-ligada-ao-comando-vermelho.ghtml",
-      "dataFonte": "2026-09-28T00:48:53.540Z",
-      "resumoFonte": "Criminoso usava aparelhos diferentes para separar vida pessoal dos negócios, mas acabou deixando rastros ao tentar recuperar telefone levado em assalto em Fortaleza.",
-      "imagem": "https://s2-g1.glbimg.com/r-vsMku4tqqagm0zm0pEO6v8hIQ=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/y/l/jT1RJaQ6WMy7b2Em1QCA/boss-laercio.png",
-      "descobertaEm": "2026-09-28T00:56:17.827Z"
-    },
-    {
-      "id": "5168cf6baad9baf9",
-      "titulo": "Lula defende criação de inteligência artificial",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "Correio Braziliense - Política",
-      "urlFonte": "https://www.correiobraziliense.com.br/politica/2026/09/7509537-lula-defende-criacao-de-inteligencia-artificial-que-fale-portugues.html",
-      "dataFonte": "2026-09-27T22:12:44.000Z",
-      "resumoFonte": "Lula defende criação de inteligência artificial 'que fale português' postado em 27/09/2026 22:12",
-      "imagem": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/09/23/675x450/1_55340555958-122a687dfc-k-66945395-67774606.jpg",
-      "descobertaEm": "2026-09-28T07:00:24.165Z",
-      "reportagem": {
-        "titulo": "Lula defende criação de inteligência artificial",
-        "slug": "lula-defende-criacao-de-inteligencia-artificial",
-        "categoria": "Tecnologia",
-        "data": "2026-09-27",
-        "imagem": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/09/23/675x450/1_55340555958-122a687dfc-k-66945395-67774606.jpg",
-        "resumo": "Lula defende criação de inteligência artificial 'que fale português' postado em 27/09/2026 22:12",
-        "conteudo": "<p>O presidente da Rep&amp;uacute;blica e candidato &amp;agrave; reelei&amp;ccedil;&amp;atilde;o, Luiz In&amp;aacute;cio Lula da Silva (PT), defendeu que &amp;eacute; preciso come&amp;ccedil;ar a pensar em como fazer uma revolu&amp;ccedil;&amp;atilde;o digital e uma discuss&amp;atilde;o sobre a intelig&amp;ecirc;ncia artificial (IA) no Brasil.</p><h2>&quot;N&amp;atilde;o quero ficar dependendo da intelig&amp;ecirc;ncia artificial chinesa,</h2><p>&quot;N&amp;atilde;o quero ficar dependendo da intelig&amp;ecirc;ncia artificial chinesa, muito menos americana. Eu quero saber se &amp;eacute; poss&amp;iacute;vel a gente criar uma. Eu desafiei h&amp;aacute; dois anos atr&amp;aacute;s o Conselho Nacional de Ci&amp;ecirc;ncia e Tecnologia: vamos construir uma intelig&amp;ecirc;ncia artificial que fale portugu&amp;ecirc;s.&quot;</p><p>Siga o canal do Correio Braziliense no WhatsApp e receba as principais notícias do dia no seu celular.</p><p>A declara&amp;ccedil;&amp;atilde;o foi realizada em entrevista &amp;agrave; Band que foi ao ar na noite deste domingo, 27, no programa Canal Livre pela BandNews TV.</p><h2>Ao ser questionado sobre seguran&amp;ccedil;a p&amp;uacute;blica, Lula defendeu</h2><p>Ao ser questionado sobre seguran&amp;ccedil;a p&amp;uacute;blica, Lula defendeu a PEC da Seguran&amp;ccedil;a que busca ampliar o papel da Uni&amp;atilde;o na seara. &quot;Apresentamos a PEC para definir qual &amp;eacute; o papel central do governo federal na seguran&amp;ccedil;a p&amp;uacute;blica. Temos a Pol&amp;iacute;cia Federal que &amp;eacute; a melhor do Brasil, mas ela n&amp;atilde;o pode interferir nos Estados&quot;, afirmou.</p><p>A medida estava parada no Congresso, mas no in&amp;iacute;cio do m&amp;ecirc;s teve seus relatores definidos na C&amp;acirc;mara e no Senado.</p><p>&quot;Queremos asfixiar economicamente o crime organizado porque ele virou uma ind&amp;uacute;stria multinacional que est&amp;aacute; na Justi&amp;ccedil;a, na pol&amp;iacute;cia, no futebol, na pol&amp;iacute;tica, no empresariado&quot;, afirmou Lula. &quot;Depois a gente quer atacar o andar de cima, n&amp;atilde;o apenas o povo de baixo.&quot;</p><p>Saiba Mais Política CNBB rebate Flávio Bolsonaro: &quot;A mentira não se combate com mentira&quot; Política Lula elogia Congresso, mas promete reforma política em eventual novo mandato Política 'Ele que lute': Flávio Bolsonaro confirma presença em debate e provoca Lula</p>",
-        "fonteNome": "Correio Braziliense - Política",
-        "fonteUrl": "https://www.correiobraziliense.com.br/politica/2026/09/7509537-lula-defende-criacao-de-inteligencia-artificial-que-fale-portugues.html",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
-          },
-          {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O presidente da Rep&uacute;blica e candidato &agrave; reelei&ccedil;&atilde;o, Luiz In&aacute;cio Lula da Silva (PT), defendeu que &eacute; preciso come&ccedil;ar a pensar em como fazer uma revolu&ccedil;&atilde;o digital e uma discuss&atilde;o sobre a intelig&ecirc;ncia artificial (IA) no Brasil. \"N&atilde;o quero ficar dependendo da intelig&ecirc;ncia arti"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Siga o canal do Correio Braziliense no WhatsApp e receba as principais notícias do dia no seu celular."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A declara&ccedil;&atilde;o foi realizada em entrevista &agrave; Band que foi ao ar na noite deste domingo, 27, no programa Canal Livre pela BandNews TV."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Ao ser questionado sobre seguran&ccedil;a p&uacute;blica, Lula defendeu a PEC da Seguran&ccedil;a que busca ampliar o papel da Uni&atilde;o na seara. \"Apresentamos a PEC para definir qual &eacute; o papel central do governo federal na seguran&ccedil;a p&uacute;blica. Temos a Pol&iacute;cia Federal que &eacute; a melhor do Brasil, mas ela n&atilde;o pode inte"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A medida estava parada no Congresso, mas no in&iacute;cio do m&ecirc;s teve seus relatores definidos na C&acirc;mara e no Senado."
-          }
-        ]
-      }
-    },
-    {
-      "id": "abfba97be2e870df",
-      "titulo": "Em field goal no último segundo, Ravens vencem Cowboys no Maracanã",
+      "id": "39cbed432368e803",
+      "titulo": "NFL no Brasil: o que Ravens e Cowboys disseram sobre o gramado do Maracanã",
       "categoria": "Esporte",
       "radar": null,
-      "fonteNome": "CNN Brasil - Capa",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol-americano/em-field-goal-no-ultimo-segundo-ravens-vencem-cowboys-no-maracana/",
-      "dataFonte": "2026-09-27T23:44:55.000Z",
-      "resumoFonte": "Partida foi a primeira da NFL na história do Maracanã, no Rio de Janeiro; Neo Química Arena, em São Paulo, já havia recebido outros dois jogos em anos anteriores",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/ravens-x-cowboys-e1790551910581.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-28T07:03:01.922Z",
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/esporte/nfl-no-brasil-o-que-ravens-e-cowboys-disseram-sobre-o-gramado-do-maracana/",
+      "dataFonte": "2026-09-28T13:57:38.000Z",
+      "resumoFonte": "Jogadores e comissões técnicas não apontaram problemas na condições da grama do estádio",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/GettyImages-2297170701.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-09-28T14:12:50.172Z",
       "reportagem": {
-        "titulo": "Em field goal no último segundo, Ravens vencem Cowboys no Maracanã",
-        "slug": "em-field-goal-no-ultimo-segundo-ravens-vencem-cowboys-no-maracana",
+        "titulo": "NFL no Brasil: o que Ravens e Cowboys disseram sobre o gramado do Maracanã",
+        "slug": "nfl-no-brasil-o-que-ravens-e-cowboys-disseram-sobre-o-gramado-do-maracana",
         "categoria": "Esporte",
-        "data": "2026-09-27",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/ravens-x-cowboys-e1790551910581.jpg?w=1200&h=630&crop=1",
-        "resumo": "Partida foi a primeira da NFL na história do Maracanã, no Rio de Janeiro; Neo Química Arena, em São Paulo, já havia recebido outros dois jogos em anos anteriores",
-        "conteudo": "<p>Os fãs de futebol americano lotaram o Maracanã neste domingo (27), para ver a vitória do Ravens contra os Cowboys por 34 a 31, em jogo válido pela NFL.</p><h2>MORE HIGHLIGHTS https://t</h2><p>MORE HIGHLIGHTS https://t.co/CLXPfDU5iM pic.twitter.com/jFcNrts8u4</p><p>Este foi o terceiro jogo da história em solo brasileiro. Em dois anos anteriores, as partidas aconteceram em São Paulo, na Neo Química Arena.</p><p>O Dallas Cowboys começou melhor a partir. Com um field goal de 28 jardas e um touchdown de Javonte Williams, a equipe do Texas abriu 10-0. Os Ravens diminuiu a diferença para 10-7 com touchdown de Derrick Henry. A campanha ainda teve uma conexão de 22 jardas entre Lamar e Zay Flowers.</p><h2>Baltimore assumiu a liderança com Derrick Henry,</h2><p>O Baltimore assumiu a liderança com Derrick Henry, que voltou a entrar na end zone. 14-10 para os Ravens.</p><p>Os Cowboys foram para o vestiário atrás do placar , com 17-13 para os Ravens.</p><p>No show do intervalo, Pedro Sampaio e Rick Martin comandaram o espetáculo no Maracanã .</p><p>Na volta, os Cowboys até que fizeram uma boa campanha. Mas na hora do field goal, o time de especialistas dos Ravens entrou em ação e bloqueou o chute.</p><p>Na sequência, Baltimore aproveitou a oportunidade e construiu uma campanha que terminou em touchdown de Charlie Moore, em passe curto de Lamar Jackson. Antes da jogada decisiva, Derrick Henry teve uma corrida explosiva de 29 jardas, levando o ataque até a região de pontuação. Baltimore Ravens 24 x 13 Dallas Cowboys.</p><p>Na sequência, os Cowboys não deixaram o rival descolar no placar. Jake Ferguson marcou touchdown e voltou para o jogo a um minuto e meio do fim do terceiro período. O time do Texas foi para jogada extra de 2 pontos e diminuiu em 24-21.</p><p>Os Cowboys continuaram na toada e passaram na frente do placar com touchdow. 28 a 24 para os Cowboys.</p><p>A um minuto e meio do fim, Ravens viraram com touchdown e foram a 31 a 28. Com field Goal, Os Cowboys levaram o jogo para prorrogação: 31 a 31. No fim, os Ravens conseguiram jardas e ainda pediram um tempo faltando 1 segundo.</p>",
-        "fonteNome": "CNN Brasil - Capa",
-        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/futebol-americano/em-field-goal-no-ultimo-segundo-ravens-vencem-cowboys-no-maracana/",
+        "data": "2026-09-28",
+        "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/GettyImages-2297170701.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "resumo": "Jogadores e comissões técnicas não apontaram problemas na condições da grama do estádio",
+        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&amp;ccedil;&amp;atilde;o da Editora Abril.</p><h2>Gramado do Maracan&amp;atilde; escapou das cr&amp;iacute;ticas depois</h2><p>O gramado do Maracan&amp;atilde; escapou das cr&amp;iacute;ticas depois de sediar seu primeiro jogo da NFL. O Baltimore Ravens venceu por 34 a 31 o Dallas Cowboys neste domingo, 27, em uma partida de futebol americano, no palco tradicionalmente do futebol da bola redonda.</p><p>Em entrevista p&amp;oacute;s-jogo, o t&amp;eacute;cnico do Dallas Cowboys, Brian Schottenheimer avaliou o gramado do Maracan&amp;atilde;: &amp;ldquo;Achei que o campo aguentou bem. Eu lembro que o Turp (o wide receiver KaVontae Turpin) sofreu uma pequena queda em uma terceira descida.</p><p>Ontem (s&amp;aacute;bado), j&amp;aacute; t&amp;iacute;nhamos vindo aqui e vimos que a superf&amp;iacute;cie era um pouco mais lisa. O futebol americano &amp;eacute; jogado em um campo diferente do futebol. Acho que a liga fez um bom trabalho. O gramado n&amp;atilde;o teve liga&amp;ccedil;&amp;atilde;o com o resultado do jogo. Eram s&amp;oacute; duas boas equipes de futebol lutando.&amp;rdquo;</p><h2>Quarterback da equipe do Texas, Dak Prescott concordou</h2><p>O quarterback da equipe do Texas, Dak Prescott concordou com o t&amp;eacute;cnico: &amp;ldquo;Quanto ao campo, estava tudo certo. Talvez n&amp;atilde;o atenda aos padr&amp;otilde;es de algumas pessoas, mas todos n&amp;oacute;s estamos acostumados com isso. Sei que, se voltarmos &amp;mdash; ou quem quer que venha na pr&amp;oacute;xima vez &amp;mdash;, ser&amp;aacute; ainda melhor. Estou muito animado com o fato de a liga continuar crescendo internacionalmente. Acho que n&amp;oacute;s tamb&amp;eacute;m vamos ficar bem.&amp;rdquo;</p><p>Do lado dos Ravens, Jesse Minter seguiu o tom: &amp;ldquo;De maneira geral, acho que o gramado se manteve bem. N&amp;atilde;o vi muitos jogadores caindo ou algo assim. Nossos atletas estavam com a mentalidade: &amp;lsquo;vamos jogar a partida. N&amp;atilde;o importa se &amp;eacute; em um estacionamento ou em um campo, vamos jogar 60 minutos e ver o que acontece&amp;rsquo;. Cr&amp;eacute;ditos para os rapazes, que deram tudo de si para entregar o melhor.&amp;rdquo;</p><p>Seu quarterback, Lamar Jackson confirmou a mentalidade creditada pelo treinador: &amp;ldquo;O campo vai ser o campo. N&amp;oacute;s n&amp;atilde;o nos importamos com ele. S&amp;oacute; sabemos que, quando a hora chegar, vamos jogar futebol. &amp;Eacute; tudo o que podemos fazer. E essa viagem para o Brasil foi maravilhosa. Os f&amp;atilde;s, os cidad&amp;atilde;os do Brasil foram fant&amp;aacute;sticos.&amp;rdquo;</p><p>Her&amp;oacute;i do jogo com um field goal no &amp;uacute;ltimo segundo da partida, o kicker Tyler Loop dos refor&amp;ccedil;ou a prepara&amp;ccedil;&amp;atilde;o dos Ravens: &amp;ldquo;Tentamos n&amp;atilde;o prestar muita aten&amp;ccedil;&amp;atilde;o nisso, porque, ao fim do dia, &amp;eacute; algo que voc&amp;ecirc; n&amp;atilde;o pode controlar.</p><p>Falamos na reuni&amp;atilde;o que o campo n&amp;atilde;o liga para quem ganha. Como time, temos que ir l&amp;aacute; e ser o melhor. &amp;Agrave;s vezes, &amp;eacute; achar um jeito de ser o melhor que voc&amp;ecirc; puder. Fizemos isso quando mais importou.&amp;rdquo;</p><p>Antes do jogo, o gramado recebeu um refor&amp;ccedil;o de fibra sint&amp;eacute;tica com uma sobrecostura sobre a estrutura para aumentar a resist&amp;ecirc;ncia e seguran&amp;ccedil;a do campo. A NFL monitorou as condi&amp;ccedil;&amp;otilde;es do gramado e do grande volume de chuvas que atingiu o Rio de Janeiro nas &amp;uacute;ltimas semanas.</p><p>Mesmo assim, Nick Pappas, diretor de gramados da NFL, afirmou &amp;agrave; ESPN , que o fator chuva &amp;ldquo;traz desafios do ponto de vista da manuten&amp;ccedil;&amp;atilde;o, mas nada que n&amp;atilde;o sejamos capazes de administrar ou para o qual n&amp;atilde;o estejamos preparados&amp;rdquo;.</p><p>Na manh&amp;atilde; desta segunda, 28, o processo de troca do gramado foi iniciado no Maracan&amp;atilde;. A gest&amp;atilde;o do local afirma que estar&amp;aacute; apto para receber as pr&amp;oacute;ximas partidas da temporada. O primeiro jogo programado no est&amp;aacute;dio &amp;eacute; Fluminense x Coritiba, pelo Campeonato Brasileiro, no dia 8 de outubro.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/esporte/nfl-no-brasil-o-que-ravens-e-cowboys-disseram-sobre-o-gramado-do-maracana/",
         "fontesAdicionais": [
           {
             "nome": "A Gazeta",
@@ -643,264 +183,432 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Os fãs de futebol americano lotaram o Maracanã neste domingo (27), para ver a vitória do Ravens contra os Cowboys por 34 a 31, em jogo válido pela NFL."
+            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "MORE HIGHLIGHTS https://t.co/CLXPfDU5iM pic.twitter.com/jFcNrts8u4"
+            "resposta": "O gramado do Maracan&atilde; escapou das cr&iacute;ticas depois de sediar seu primeiro jogo da NFL. O Baltimore Ravens venceu por 34 a 31 o Dallas Cowboys neste domingo, 27, em uma partida de futebol americano, no palco tradicionalmente do futebol da bola redonda."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Este foi o terceiro jogo da história em solo brasileiro. Em dois anos anteriores, as partidas aconteceram em São Paulo, na Neo Química Arena."
+            "resposta": "Em entrevista p&oacute;s-jogo, o t&eacute;cnico do Dallas Cowboys, Brian Schottenheimer avaliou o gramado do Maracan&atilde;: &ldquo;Achei que o campo aguentou bem. Eu lembro que o Turp (o wide receiver KaVontae Turpin) sofreu uma pequena queda em uma terceira descida. Ontem (s&aacute;bado), j&aacute; t&iacute;nhamos vindo aqui e vimos que a superf&iacute;ci"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "O Dallas Cowboys começou melhor a partir. Com um field goal de 28 jardas e um touchdown de Javonte Williams, a equipe do Texas abriu 10-0. Os Ravens diminuiu a diferença para 10-7 com touchdown de Derrick Henry. A campanha ainda teve uma conexão de 22 jardas entre Lamar e Zay Flowers."
+            "resposta": "O quarterback da equipe do Texas, Dak Prescott concordou com o t&eacute;cnico: &ldquo;Quanto ao campo, estava tudo certo. Talvez n&atilde;o atenda aos padr&otilde;es de algumas pessoas, mas todos n&oacute;s estamos acostumados com isso. Sei que, se voltarmos &mdash; ou quem quer que venha na pr&oacute;xima vez &mdash;, ser&aacute; ainda melhor. Estou muito a"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O Baltimore assumiu a liderança com Derrick Henry, que voltou a entrar na end zone. 14-10 para os Ravens."
+            "resposta": "Do lado dos Ravens, Jesse Minter seguiu o tom: &ldquo;De maneira geral, acho que o gramado se manteve bem. N&atilde;o vi muitos jogadores caindo ou algo assim. Nossos atletas estavam com a mentalidade: &lsquo;vamos jogar a partida. N&atilde;o importa se &eacute; em um estacionamento ou em um campo, vamos jogar 60 minutos e ver o que acontece&rsquo;. Cr&eacut"
           }
         ]
       }
     },
     {
-      "id": "4fee97ae1e1cfb06",
-      "titulo": "Virginia gera curiosidade ao chegar no Maracanã cercada de seguranças",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/pop/celebridades/virginia-gera-curiosidade-ao-chegar-no-maracana-cercada-de-segurancas/",
-      "dataFonte": "2026-09-27T22:46:44.000Z",
-      "resumoFonte": "Empresária acompanhou a partida da NFL no Rio de Janeiro usando um visual com corset feito de chuteiras",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/virginia-4.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-28T00:54:09.989Z"
-    },
-    {
-      "id": "ed4824acbc71e17a",
-      "titulo": "Flávio Bolsonaro diz que PT teria iniciado",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "CBN - Política",
-      "urlFonte": "https://cbn.globo.com/politica/noticia/2026/09/27/flavio-bolsonaro-diz-que-pt-teria-iniciado-fake-news-sobre-nossa-senhora-com-ajuda-de-pessoas-de-dentro-da-cnbb.ghtml",
-      "dataFonte": "2026-09-27T23:46:25.996Z",
-      "resumoFonte": "Flávio também criticou a decisão do ministro Flávio Dino, do STF, que derrubou uma determinação de André Mendonça para retirar das redes sociais uma publicação relacionada ao caso.",
-      "imagem": "https://s2-cbn.glbimg.com/nB0WLD5h6cpYN_Ki3vcYJKyZwDY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/G/u/yqIkmFSAulgjP6Kr5jOA/pol428890.jpg",
-      "descobertaEm": "2026-09-28T00:54:09.989Z",
-      "reportagem": {
-        "titulo": "Flávio Bolsonaro diz que PT teria iniciado",
-        "slug": "flavio-bolsonaro-diz-que-pt-teria-iniciado",
-        "categoria": "Justiça",
-        "data": "2026-09-27",
-        "imagem": "https://s2-cbn.glbimg.com/nB0WLD5h6cpYN_Ki3vcYJKyZwDY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/G/u/yqIkmFSAulgjP6Kr5jOA/pol428890.jpg",
-        "resumo": "Flávio também criticou a decisão do ministro Flávio Dino, do STF, que derrubou uma determinação de André Mendonça para retirar das redes sociais uma publicação relacionada ao caso.",
-        "conteudo": "<p>O candidato à Presidência Flávio Bolsonaro, do PL, afirmou neste domingo, em Goiânia, que o PT teria iniciado a circulação de uma fake news sobre uma suposta intenção de retirar de Nossa Senhora Aparecida o título de Padroeira do Brasil. Segundo Flávio, a disseminação teria contado com a ajuda de pessoas de dentro da CNBB, Conferência Nacional dos Bispos do Brasil.</p><h2>&quot;A maior fake news da campanha foi essa</h2><p>&quot;A maior fake news da campanha foi essa sobre Nossa Senhora Aparecida, algo que nunca, não existia esse movimento para tirar ela de ser padroeira do Brasil, jamais existiu, não tem projeto, não tem nada. E o PT, eu sei hoje, já estava há alguns dias tentando levantar essa fake news, conseguiu com a ajuda de gente dentro da CNBB, infelizmente, essa realidade. E o que aconteceu ali foi quase que automaticamente uma disseminação dessa fake news&quot;.</p><p>Flávio também criticou a decisão do ministro Flávio Dino, do STF, que derrubou uma determinação de André Mendonça para retirar das redes sociais uma publicação relacionada ao caso. Para o candidato, a decisão permite a atuação do que chamou de “liga da mentira do PT”, com perfis falsos e conteúdos pagos com dinheiro público. Flávio disse ainda que pretende pedir a responsabilização dos envolvidos.</p><p>O candidato afirmou que sua campanha identificou a rede responsável pela divulgação das publicações e que vai buscar responsabilizações por crimes eleitorais e na Justiça.</p><h2>&quot; Diante de informações e manifestações que circulam</h2><p>&quot; Diante de informações e manifestações que circulam nas redes sociais envolvendo o nome da Conferência Nacional dos Bispos do Brasil (CNBB), esclarecemos: A CNBB não produziu, autorizou ou participou da elaboração ou divulgação de informações falsas relacionadas ao atual processo eleitoral.</p><p>A Conferência repudia a produção e a utilização de informações falsas, independentemente de sua origem ou de quem possam beneficiar ou prejudicar. consciência. mentira. A CNBB não integra qualquer estrutura político-partidária, de partido ou candidatura.</p><p>Suas manifestações sobre as eleições decorrem de sua missão pastoral e de princípios públicos expressos em seus documentos, orientados pela dignidade humana, pelo bem comum, pela democracia e pela liberdade de Atribuir à CNBB participação em estruturas de produção ou disseminação de desinformação, sem fatos e provas que sustentem tal afirmação, atinge injustamente a instituição e não contribui para a serenidade e a responsabilidade que devem caracterizar o processo eleitoral.</p><p>A mentira não se combate com outra A CNBB reafirma seu compromisso com a verdade, o diálogo e a paz&quot;.</p>",
-        "fonteNome": "CBN - Política",
-        "fonteUrl": "https://cbn.globo.com/politica/noticia/2026/09/27/flavio-bolsonaro-diz-que-pt-teria-iniciado-fake-news-sobre-nossa-senhora-com-ajuda-de-pessoas-de-dentro-da-cnbb.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O candidato à Presidência Flávio Bolsonaro, do PL, afirmou neste domingo, em Goiânia, que o PT teria iniciado a circulação de uma fake news sobre uma suposta intenção de retirar de Nossa Senhora Aparecida o título de Padroeira do Brasil. Segundo Flávio, a disseminação teria contado com a ajuda de pessoas de dentro da CNBB, Conferência Nacional dos Bispos do "
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "\"A maior fake news da campanha foi essa sobre Nossa Senhora Aparecida, algo que nunca, não existia esse movimento para tirar ela de ser padroeira do Brasil, jamais existiu, não tem projeto, não tem nada. E o PT, eu sei hoje, já estava há alguns dias tentando levantar essa fake news, conseguiu com a ajuda de gente dentro da CNBB, infelizmente, essa realidade."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Flávio também criticou a decisão do ministro Flávio Dino, do STF, que derrubou uma determinação de André Mendonça para retirar das redes sociais uma publicação relacionada ao caso. Para o candidato, a decisão permite a atuação do que chamou de “liga da mentira do PT”, com perfis falsos e conteúdos pagos com dinheiro público. Flávio disse ainda que pretende p"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O candidato afirmou que sua campanha identificou a rede responsável pela divulgação das publicações e que vai buscar responsabilizações por crimes eleitorais e na Justiça."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "\" Diante de informações e manifestações que circulam nas redes sociais envolvendo o nome da Conferência Nacional dos Bispos do Brasil (CNBB), esclarecemos: A CNBB não produziu, autorizou ou participou da elaboração ou divulgação de informações falsas relacionadas ao atual processo eleitoral. A Conferência repudia a produção e a utilização de informações fals"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a89193ccb8802eef",
-      "titulo": "Lula muda de narrativa sobre o STF: ‘Quando coloca toga vira Deus’",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/lula-muda-de-narrativa-sobre-o-stf-quando-coloca-toga-vira-deus/",
-      "dataFonte": "2026-09-27T23:56:00.000Z",
-      "resumoFonte": "O presidente Luiz Inácio Lula da Silva defendeu a alteração no modelo de escolha dos ministros do Supremo Tribunal Federal (STF) . O petista afirmou que a indicação dos integrantes da Corte não deveria depender apenas da escolha do chefe do Executivo em entrevista ao programa Canal Livre , da Band, neste domingo, 27. + Entenda o que é Política em…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/01/10_ed251.jpg.webp",
-      "descobertaEm": "2026-09-28T00:54:09.989Z",
-      "reportagem": {
-        "titulo": "Lula muda de narrativa sobre o STF: 'Quando coloca toga vira Deus'",
-        "slug": "lula-muda-de-narrativa-sobre-o-stf-quando-coloca-toga-vira-deus",
-        "categoria": "Justiça",
-        "data": "2026-09-27",
-        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/01/10_ed251.jpg.webp",
-        "resumo": "Presidente altera discurso sobre o tribunal diante do desgaste do Caso Master na campanha à reeleição",
-        "conteudo": "<p>Formado em jornalismo pela Faculdade Cásper Líbero, começou a atuar na comunicação em 2018. Desde então, trabalhou nas redações de veículos como Forbes, Gazeta do Povo e Veja, produzindo textos sobre cultura, empreendedorismo, política e agronegócio. Atualmente, cursa pós-graduação em &quot;Literatura, Artes e Filosofia&quot; pela PUC-RS.</p><h2>Presidente Luiz Inácio Lula da Silva defendeu</h2><p>O presidente Luiz Inácio Lula da Silva defendeu a alteração no modelo de escolha dos ministros do Supremo Tribunal Federal (STF) . O petista afirmou que a indicação dos integrantes da Corte não deveria depender apenas da escolha do chefe do Executivo em entrevista ao programa Canal Livre , da Band, neste domingo, 27.</p><p>O chefe do Executivo sugeriu a criação de um colegiado com a participação de setores da sociedade civil para avaliar as indicações. “Uma coisa é quando você indica, outra coisa é quando bota toga”, reclamou o presidente ao comentar a autonomia dos magistrados nomeados. “Quando o cara coloca toga, ele vira Deus.”</p><p>Lula declarou que o novo órgão deveria examinar os nomes antes do envio oficial ao Senado Federal. O presidente admitiu frustração com a perda de influência sobre os indicados logo que tomam posse no tribunal. “Aí foi o presidente que indicou, mas não tem mais nenhuma interferência”, argumentou.</p><h2>Alteração do discurso do petista ocorre em meio</h2><p>A alteração do discurso do petista ocorre em meio ao desgaste da campanha à reeleição provocado por desdobramentos de investigações no STF. A crise do Banco Master e as suspeitas de elos entre ministros da Corte e o sistema financeiro aumentaram a rejeição do governo entre os eleitores. O presidente buscou se distanciar das controvérsias do tribunal para conter perdas nas pesquisas de intenção de voto.</p><p>O movimento marca uma guinada histórica no comportamento do presidente em relação ao Judiciário. Lula acumulou dez indicações ao STF ao longo de seus mandatos e sempre defendeu a prerrogativa presidencial de escolher aliados para o tribunal. A defesa fervorosa da Corte deu lugar a cobranças públicas sobre o comportamento dos magistrados.</p><p>A Carta Magna estabelece a atribuição exclusiva da Presidência da República para indicar os integrantes da Suprema Corte. A aprovação final depende da sabatina e do voto da maioria absoluta do Senado Federal. Os candidatos devem ter entre 35 e 70 anos, notável saber jurídico e reputação ilibada.</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p><p>Isso ele sabe . Indicou os deuses que o levaram ao trono , apesar dos crimes que pratica</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/lula-muda-de-narrativa-sobre-o-stf-quando-coloca-toga-vira-deus/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Formado em jornalismo pela Faculdade Cásper Líbero, começou a atuar na comunicação em 2018. Desde então, trabalhou nas redações de veículos como Forbes, Gazeta do Povo e Veja, produzindo textos sobre cultura, empreendedorismo, política e agronegócio. Atualmente, cursa pós-graduação em \"Literatura, Artes e Filosofia\" pela PUC-RS."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O presidente Luiz Inácio Lula da Silva defendeu a alteração no modelo de escolha dos ministros do Supremo Tribunal Federal (STF) . O petista afirmou que a indicação dos integrantes da Corte não deveria depender apenas da escolha do chefe do Executivo em entrevista ao programa Canal Livre , da Band, neste domingo, 27."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O chefe do Executivo sugeriu a criação de um colegiado com a participação de setores da sociedade civil para avaliar as indicações. “Uma coisa é quando você indica, outra coisa é quando bota toga”, reclamou o presidente ao comentar a autonomia dos magistrados nomeados. “Quando o cara coloca toga, ele vira Deus.”"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Lula declarou que o novo órgão deveria examinar os nomes antes do envio oficial ao Senado Federal. O presidente admitiu frustração com a perda de influência sobre os indicados logo que tomam posse no tribunal. “Aí foi o presidente que indicou, mas não tem mais nenhuma interferência”, argumentou."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A alteração do discurso do petista ocorre em meio ao desgaste da campanha à reeleição provocado por desdobramentos de investigações no STF. A crise do Banco Master e as suspeitas de elos entre ministros da Corte e o sistema financeiro aumentaram a rejeição do governo entre os eleitores. O presidente buscou se distanciar das controvérsias do tribunal para con"
-          }
-        ]
-      }
-    },
-    {
-      "id": "965c5de04a31f8df",
-      "titulo": "Estadão aponta que Dino atua como militante da campanha de Lula",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/imprensa/emestadao-em-aponta-que-dino-atua-como-militante-da-campanha-de-lula/",
-      "dataFonte": "2026-09-27T22:43:24.000Z",
-      "resumoFonte": "O jornal O Estado de S. Paulo acusou o ministro Flávio Dino, do Supremo Tribunal Federal (STF) , de agir como militante eleitoral do presidente Luiz Inácio Lula da Silva. Em editorial publicado neste domingo, 27, o diário paulista classificou como exclusivamente política a decisão do magistrado de liberar fake news contra o candidato Flávio…",
-      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
-      "descobertaEm": "2026-09-28T00:54:09.989Z"
-    },
-    {
-      "id": "822a9cbb14a5fae6",
-      "titulo": "Ministros do TSE falam em ‘interferência indevida’ depois de Dino restabelecer post sobre Flávio e Nossa Senhora",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/no-ponto/ministros-do-tse-falam-em-interferencia-indevida-depois-de-dino-restabelecer-post-sobre-flavio-e-nossa-senhora/",
-      "dataFonte": "2026-09-27T22:17:53.000Z",
-      "resumoFonte": "Ministros do Tribunal Superior Eleitoral (TSE) ouvidos reservadamente pela coluna classificaram como “interferência indevida” a decisão de Flávio Dino que derrubou uma ordem do vice-presidente do TSE, André Mendonça, e determinou o restabelecimento de uma postagem do humorista Antonio Tabet. A publicação afirmava que uma “família miliciana” havia…",
-      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
-      "descobertaEm": "2026-09-28T00:54:09.989Z",
-      "reportagem": {
-        "titulo": "Ministros do TSE afirmam que decisão de Dino de restabelecer post sobre Flávio e Nossa Senhora é ‘interferência indevida’",
-        "slug": "ministros-do-tse-afirmam-que-decisao-de-dino-de-restabelecer-post-sobre-flavio-e-nossa-senhora-e-interferencia",
-        "categoria": "Justiça",
-        "data": "2026-09-27",
-        "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
-        "resumo": "Integrantes da Corte apontam irregularidades no uso do Código de Processo Penal e intervenção antes da análise colegiada da liminar",
-        "conteudo": "<p>Formado em jornalismo pela Universidade Presbiteriana Mackenzie, é editor em Brasília. Em Oeste, atuou como repórter especial, editor-assistente e redator. Começou a carreira na revista Veja, na coluna de Augusto Nunes. Cobre política, Judiciário e Mundo</p><h2>• Ministros classificaram decisão de Dino como “interferência</h2><p>• Ministros classificaram decisão de Dino como “interferência indevida”; • Magistrado usou processo sobre Dallagnol para cassar ordem de Mendonça; e • Juízes do TSE apontam falhas na distribuição e intervenção antes da análise do plenário.</p><p>Ministros do Tribunal Superior Eleitoral (TSE) ouvidos reservadamente pela coluna classificaram como “interferência indevida” a decisão de Flávio Dino que derrubou uma ordem do vice-presidente do TSE, André Mendonça, e determinou o restabelecimento de uma postagem do humorista Antonio Tabet. A publicação afirmava que uma “família miliciana” havia atacado Nossa Senhora Aparecida, em alusão ao senador Flávio Bolsonaro (PL-RJ), candidato à Presidência da República.</p><p>Mendonça havia determinado a retirada do post, proibido a divulgação de conteúdos semelhantes e fixado multa de R$ 30 mil por descumprimento. A decisão ainda aguardava análise do plenário da Corte quando foi cassada por Dino.</p><h2>Principal crítica dos magistrados está no uso</h2><p>A principal crítica dos magistrados está no uso de um processo sem relação direta com o caso para derrubar a ordem de Mendonça. Dino não integra a Corte Eleitoral, mas interveio como juiz do Supremo , sob o argumento de que a medida contrariava precedentes vinculantes do STF sobre liberdade de expressão.</p><p>À coluna, magistrados do TSE não contestaram a possibilidade de o STF vir a rever atos do TSE. Eles afirmaram, contudo, que o procedimento adotado por Dino ignorou regras de distribuição, contraditório e delimitação das partes.</p><p>A decisão de Mendonça ressalvava críticas, opiniões e sátiras que não apresentassem como verdadeira a participação de Flávio ou de sua família em uma proposta para retirar de Nossa Senhora Aparecida o título de Padroeira do Brasil.</p><p>O senador negou qualquer vínculo com a iniciativa, e veículos de comunicação desmentiram a associação do parlamentar à proposta.</p><p>Em vez de apresentar uma reclamação constitucional autônoma ao STF, Tabet protocolou uma petição dentro da Reclamação 95.295. O processo tratava originalmente de uma decisão do Tribunal Regional Eleitoral do Paraná sobre publicações relacionadas à inelegibilidade do ex-deputado Deltan Dallagnol (Novo).</p><p>Na ação anterior, Dino havia cassado uma ordem do TRE paranaense por considerar que houve censura prévia. A defesa de Tabet pediu que o magistrado estendesse os efeitos daquela decisão ao caso analisado por Mendonça.</p><p>Para acolher o pedido, Dino aplicou por analogia o artigo 580 do Código de Processo Penal.</p><p>O dispositivo permite que uma decisão favorável a um réu seja estendida a corréus submetidos à mesma situação jurídica, desde que o fundamento não tenha caráter exclusivamente pessoal.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/no-ponto/ministros-do-tse-falam-em-interferencia-indevida-depois-de-dino-restabelecer-post-sobre-flavio-e-nossa-senhora/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Formado em jornalismo pela Universidade Presbiteriana Mackenzie, é editor em Brasília. Em Oeste, atuou como repórter especial, editor-assistente e redator. Começou a carreira na revista Veja, na coluna de Augusto Nunes. Cobre política, Judiciário e Mundo"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "• Ministros classificaram decisão de Dino como “interferência indevida”; • Magistrado usou processo sobre Dallagnol para cassar ordem de Mendonça; e • Juízes do TSE apontam falhas na distribuição e intervenção antes da análise do plenário."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Ministros do Tribunal Superior Eleitoral (TSE) ouvidos reservadamente pela coluna classificaram como “interferência indevida” a decisão de Flávio Dino que derrubou uma ordem do vice-presidente do TSE, André Mendonça, e determinou o restabelecimento de uma postagem do humorista Antonio Tabet. A publicação afirmava que uma “família miliciana” havia atacado Nos"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Mendonça havia determinado a retirada do post, proibido a divulgação de conteúdos semelhantes e fixado multa de R$ 30 mil por descumprimento. A decisão ainda aguardava análise do plenário da Corte quando foi cassada por Dino."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A principal crítica dos magistrados está no uso de um processo sem relação direta com o caso para derrubar a ordem de Mendonça. Dino não integra a Corte Eleitoral, mas interveio como juiz do Supremo , sob o argumento de que a medida contrariava precedentes vinculantes do STF sobre liberdade de expressão."
-          }
-        ]
-      }
-    },
-    {
-      "id": "21cb1e707da42155",
-      "titulo": "Gilmar Mendes pede que CNJ amplie fiscalização de precatórios e cita caso Master",
+      "id": "18d266ef2620bd05",
+      "titulo": "Defesa de Flávio entra com recurso contra decisão de Dino",
       "categoria": "Justiça",
       "radar": null,
       "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/noticia/2026/09/28/gilmar-mendes-pede-que-cnj-amplie-fiscalizacao-de-precatorios-e-cita-caso-master.ghtml",
-      "dataFonte": "2026-09-28T04:43:49.000Z",
-      "resumoFonte": "Ministro Gilmar Mendes do STF Max Rocha/STJ O ministro do Supremo Tribunal Federal (STF) Gilmar Mendes defendeu, em publicação nas redes sociais na noite deste domingo (27), que o Conselho Nacional de Justiça (CNJ) amplie a fiscalização sobre a expedição de precatórios nos tribunais federais. Segundo ele, é necessária uma correição extraordinária…",
-      "imagem": "https://s2-g1.glbimg.com/YJNTDzWCejK2Cq7G9Ehi8IOpeTQ=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/o/ldvn6TTX6JZZYCAcAsrA/55353954074-5b20c07e43-k.jpg",
-      "descobertaEm": "2026-09-28T07:00:24.165Z"
+      "urlFonte": "https://g1.globo.com/politica/noticia/2026/09/28/defesa-de-flavio-entra-com-recurso-contra-decisao-de-dino.ghtml",
+      "dataFonte": "2026-09-28T14:05:52.000Z",
+      "resumoFonte": "A defesa do senador Flávio Bolsonaro (PL-RJ), candidato à Presidência, entrou com um recurso no Supremo Tribunal Federal (STF) contra a decisão do ministro Flávio Dino que anulou os efeitos da decisão de André Mendonça, e mandou restabelecer um post do humorista Antonio Tabet.",
+      "imagem": "https://g1.globo.com/politica/noticia/2026/09/28/None",
+      "descobertaEm": "2026-09-28T14:12:50.172Z",
+      "reportagem": {
+        "titulo": "Defesa de Flávio pede suspensão da decisão de Dino que liberou post de humorista; ministro envia caso para o plenário | G1",
+        "slug": "defesa-de-flavio-pede-suspensao-da-decisao-de-dino-que-liberou-post-de-humorista-ministro-envia-caso-para-o-pl",
+        "categoria": "Justiça",
+        "data": "2026-09-28",
+        "imagem": "https://g1.globo.com/politica/noticia/2026/09/28/None",
+        "resumo": "A defesa do senador Flávio Bolsonaro (PL-RJ), candidato à Presidência, entrou com um recurso no Supremo Tribunal Federal (STF) contra a decisão do ministro Flávio Dino que anulou os efeitos da decisão de André Mendonça, e mandou restabelecer um post do humorista Antonio Tabet.",
+        "conteudo": "<p>A defesa do senador Flávio Bolsonaro (PL-RJ), candidato à Presidência, entrou com um recurso no Supremo Tribunal Federal (STF) nesta segunda-feira (28) contra a decisão do ministro Flávio Dino que mandou restabelecer um post do humorista Antonio Tabet sobre Nossa Senhora Aparecida.</p><h2>Ao longo dos últimos dias, ganhou força nas</h2><p>Ao longo dos últimos dias, ganhou força nas redes sociais alinhadas à esquerda uma acusação de que Flávio e políticos da direita teriam intenção de tirar o título de Nossa Senhora Aparecida como padroeira do Brasil.</p><p>Em ato de campanha nesse domingo (27), o candidato à Presidência afirmou que o PT criou a fake news sobre o tema &quot;com ajuda de gente de dentro&quot; da Conferência Nacional dos Bispos do Brasil (CNBB). A entidade afirmou que repudia qualquer produção e utilização de notícias falsas.</p><p>Flávio participa de carreta durante campanha, em Goiás — Foto: Diomício Gomes/O Popular</p><h2>O que muda na prática</h2><p>Ele deu a declaração horas depois da decisão de Dino. O ministro suspendeu uma determinalção do colega, André Mendonça, que determinou que as plataformas digitais removessem publicações relacionadas à história, entre elas, um post do humorista Antonio Tabet.</p><p>Dino permitiu que a publicação fosse refeita, para &quot;proteger a liberdade de expressão&quot;. Ele argumentou que o post não cita Flávio Bolsonaro.</p><p>A publicação diz: &quot;A família miliciana odeia tanto mulher preta que resolver atacar Nossa Senhora Aparecida&quot;.</p><p>&quot;Esta Corte assentou que é excepcional qualquer tipo de intervenção estatal na divulgação de notícias e de opiniões, na medida em que a liberdade de expressão é pré-condição para o exercício esclarecido dos demais direitos e liberdades&quot;, afirmou Dino.</p><p>A equipe de Flávio está pedindo ao ministro Luiz Fux que leve o assunto ao plenário e, enquanto isso, suspenda a decisão de Dino.</p><p>➡️➡️A solicitação foi encaminhada ao ministro Fux, que é um dos relatores das ações que ampliaram a responsabilidade das plataformas digitais pelo o que publicam e estabeleceu os parâmetros para proteção dos usuários.</p><p>A defesa quer que o STF reafirme no julgamento do Marco Civil que cabe ao TSE decidir como combater desinformação eleitoral e que a Justiça Eleitoral pode mandar plataformas removerem também replicações de um conteúdo que já tenha sido considerado desinformativo.</p><p>Um boato parecido já havia sido criado em 2018 contra o então candidato à Presidência da República e pai de Flávio, Jair Bolsonaro.</p>",
+        "fonteNome": "g1 - Política",
+        "fonteUrl": "https://g1.globo.com/politica/noticia/2026/09/28/defesa-de-flavio-entra-com-recurso-contra-decisao-de-dino.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A defesa do senador Flávio Bolsonaro (PL-RJ), candidato à Presidência, entrou com um recurso no Supremo Tribunal Federal (STF) nesta segunda-feira (28) contra a decisão do ministro Flávio Dino que mandou restabelecer um post do humorista Antonio Tabet sobre Nossa Senhora Aparecida."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Ao longo dos últimos dias, ganhou força nas redes sociais alinhadas à esquerda uma acusação de que Flávio e políticos da direita teriam intenção de tirar o título de Nossa Senhora Aparecida como padroeira do Brasil."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Em ato de campanha nesse domingo (27), o candidato à Presidência afirmou que o PT criou a fake news sobre o tema \"com ajuda de gente de dentro\" da Conferência Nacional dos Bispos do Brasil (CNBB). A entidade afirmou que repudia qualquer produção e utilização de notícias falsas."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Flávio participa de carreta durante campanha, em Goiás — Foto: Diomício Gomes/O Popular"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Ele deu a declaração horas depois da decisão de Dino. O ministro suspendeu uma determinalção do colega, André Mendonça, que determinou que as plataformas digitais removessem publicações relacionadas à história, entre elas, um post do humorista Antonio Tabet."
+          }
+        ]
+      }
     },
     {
-      "id": "a8aa32431f44f72d",
-      "titulo": "Reta final das eleições tem 'guerra jurídica' entre presidenciáveis; TSE já recebeu ao menos 450 ações",
+      "id": "892f9609deef38b3",
+      "titulo": "Jovem é preso após furtar pares tênis de corrida em shopping de Vila Velha",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/agora/jovem-e-preso-apos-furtar-pares-tenis-de-corrida-em-shopping-de-vila-velha-0926",
+      "dataFonte": "2026-09-28T12:20:18.000Z",
+      "resumoFonte": "Segundo a PM, suspeito confessou o furto e disse que pretendia vender os calçados durante a 35ª Dez Milhas Garoto",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790592810891_template_radar_a_gazeta_6.jpg",
+      "descobertaEm": "2026-09-28T14:12:50.172Z"
+    },
+    {
+      "id": "55f1bf211d440c45",
+      "titulo": "Datafolha: 37% avaliam Congresso como ruim ou péssimo",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/datafolha-37-avaliam-congresso-como-ruim-ou-pessimo/",
+      "dataFonte": "2026-09-28T13:04:33.000Z",
+      "resumoFonte": "O trabalho de deputados federais e senadores é avaliado como ruim ou péssimo por 37% dos brasileiros, segundo pesquisa Datafolha divulgada no sábado 26. Outros 18% consideram o desempenho do Congresso Nacional ótimo ou bom. A maior parcela dos entrevistados, 40%, classifica a atuação dos parlamentares como regular. Outros 6% não souberam responder.…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/imagem3.jpg.webp",
+      "descobertaEm": "2026-09-28T14:12:50.172Z",
+      "reportagem": {
+        "titulo": "Datafolha: 37% avaliam Congresso como ruim ou péssimo",
+        "slug": "datafolha-37-avaliam-congresso-como-ruim-ou-pessimo",
+        "categoria": "Política Nacional",
+        "data": "2026-09-28",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/imagem3.jpg.webp",
+        "resumo": "Outros 18% consideram trabalho de deputados e senadores ótimo ou bom; 40% dizem ser regular",
+        "conteudo": "<p>Natural de Vitória (ES), formou-se em jornalismo em 2023 e iniciou a carreira no portal independente A Investigação. Atualmente, é pós-graduanda em literatura, artes e filosofia pela Pontifícia Universidade Católica do Rio Grande do Sul e repórter da Revista Oeste em São Paulo, onde escreve sobre Brasil, política e internacional.</p><h2>Pesquisa Datafolha divulgada em 26 de setembro</h2><p>Uma pesquisa Datafolha divulgada em 26 de setembro de 2026 revela que 37% dos brasileiros avaliam o trabalho de deputados e senadores como ruim ou péssimo, enquanto 18% consideram ótimo ou bom e 40% o classificam como regular. A rejeição é maior entre homens (43%) e eleitores com renda superior a cinco salários mínimos (51%). Regionalmente, a avaliação negativa é de 41% no Sudeste. Entre eleitores de Lula, 22% têm uma visão positiva do Congresso.</p><p>O trabalho de deputados federais e senadores é avaliado como ruim ou péssimo por 37% dos brasileiros, segundo pesquisa Datafolha divulgada no sábado 26. Outros 18% consideram o desempenho do Congresso Nacional ótimo ou bom.</p><p>A maior parcela dos entrevistados, 40%, classifica a atuação dos parlamentares como regular. Outros 6% não souberam responder.</p><h2>Números ficaram próximos aos registrados em maio</h2><p>Os números ficaram próximos aos registrados em maio. Na ocasião, 37% avaliavam o Congresso como ruim ou péssimo, 15% como ótimo ou bom e 43% como regular.</p><p>A avaliação negativa é maior entre os homens: 43% consideram o desempenho dos congressistas ruim ou péssimo, ante 32% das mulheres. A rejeição também chega a 51% entre os eleitores com renda superior a cinco salários mínimos, enquanto fica em 30% entre aqueles que recebem até dois salários mínimos.</p><p>No recorte regional, a avaliação ruim ou péssima chega a 41% no Sudeste, 38% no Centro-Oeste e Norte, 36% no Sul e 32% no Nordeste. Entre os eleitores de Luiz Inácio Lula da Silva , 22% avaliam positivamente o trabalho do Congresso. O índice é de 15% entre aqueles que declararam voto em Flávio Bolsonaro .</p><p>Nas eleições deste ano, serão escolhidos os 513 deputados federais e 54 senadores. A disputa pelo Senado renovará dois terços das 81 cadeiras da Casa.</p><p>O Datafolha ouviu 2.002 eleitores entre 22 e 23 de setembro, em 125 municípios. A margem de erro é de 2 pontos porcentuais, para mais ou para menos, com nível de confiança de 95%.</p><p>A pesquisa foi contratada pela Folha de S.Paulo e pela TV Globo e está registrada no Tribunal Superior Eleitoral (TSE) sob o código BR-00304/2026.</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/datafolha-37-avaliam-congresso-como-ruim-ou-pessimo/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Natural de Vitória (ES), formou-se em jornalismo em 2023 e iniciou a carreira no portal independente A Investigação. Atualmente, é pós-graduanda em literatura, artes e filosofia pela Pontifícia Universidade Católica do Rio Grande do Sul e repórter da Revista Oeste em São Paulo, onde escreve sobre Brasil, política e internacional."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Uma pesquisa Datafolha divulgada em 26 de setembro de 2026 revela que 37% dos brasileiros avaliam o trabalho de deputados e senadores como ruim ou péssimo, enquanto 18% consideram ótimo ou bom e 40% o classificam como regular. A rejeição é maior entre homens (43%) e eleitores com renda superior a cinco salários mínimos (51%). Regionalmente, a avaliação negat"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O trabalho de deputados federais e senadores é avaliado como ruim ou péssimo por 37% dos brasileiros, segundo pesquisa Datafolha divulgada no sábado 26. Outros 18% consideram o desempenho do Congresso Nacional ótimo ou bom."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A maior parcela dos entrevistados, 40%, classifica a atuação dos parlamentares como regular. Outros 6% não souberam responder."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Os números ficaram próximos aos registrados em maio. Na ocasião, 37% avaliavam o Congresso como ruim ou péssimo, 15% como ótimo ou bom e 43% como regular."
+          }
+        ]
+      }
+    },
+    {
+      "id": "82031b2ae4bff589",
+      "titulo": "Salles desiste do Senado em SP, turbina André do Prado e abala planos de Tebet e Marina",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/brasil/salles-desiste-do-senado-em-sp-turbina-andre-do-prado-e-abala-planos-de-tebet/",
+      "dataFonte": "2026-09-28T13:55:14.000Z",
+      "resumoFonte": "Informação foi confirmada pela assessoria do partido Novo",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2021/06/ricardo-salles.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-09-28T14:12:50.172Z"
+    },
+    {
+      "id": "b4bb15f4b6be4735",
+      "titulo": "Ricardo Salles desiste de concorrer ao Senado e declara apoio a Derrite e André do Prado | G1",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Capa",
+      "urlFonte": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/09/28/ricardo-salles-desiste-de-concorrer-ao-senado-e-declara-apoio-a-derrite-e-andre-do-prado.ghtml",
+      "dataFonte": "2026-09-28T13:51:39.226Z",
+      "resumoFonte": "O anúncio foi feito ao lado do governador Tarcísio de Freitas (Republicanos), candidato à reeleição ao governo de São Paulo.",
+      "imagem": "https://s2-g1.glbimg.com/qWQ2rJIY6TYLzQxWadaB1B4nyd4=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/X/BnbqUvQwKA4tpJcVE3EQ/design-sem-nome-5-.png",
+      "descobertaEm": "2026-09-28T14:15:49.930Z",
+      "reportagem": {
+        "titulo": "Ricardo Salles desiste de concorrer ao Senado e declara apoio a Derrite e André do Prado | G1",
+        "slug": "ricardo-salles-desiste-de-concorrer-ao-senado-e-declara-apoio-a-derrite-e-andre-do-prado-g1",
+        "categoria": "Política Nacional",
+        "data": "2026-09-28",
+        "imagem": "https://s2-g1.glbimg.com/qWQ2rJIY6TYLzQxWadaB1B4nyd4=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/X/BnbqUvQwKA4tpJcVE3EQ/design-sem-nome-5-.png",
+        "resumo": "O anúncio foi feito ao lado do governador Tarcísio de Freitas (Republicanos), candidato à reeleição ao governo de São Paulo.",
+        "conteudo": "<p>Salles anuncia desistência de candidatura ao lado de Tarcísio, Derrite e André do Prado — Foto: Reprodução</p><h2>Na reta final da eleição, o candidato ao</h2><p>Na reta final da eleição, o candidato ao Senado por São Paulo Ricardo Salles ( Novo ) desistiu nesta segunda-feira (28) de disputar uma das duas vagas ao Senado e declarou apoio aos adversários Guilherme Derrite (PP) e André do Prado (PL).</p><p>O anúncio foi feito ao lado do governador Tarcísio de Freitas ( Republicanos ), candidato à reeleição ao governo de São Paulo. Desde o início da campanha, Salles travou uma disputa com André do Prado e o acusou de dividir o eleitorado conservador no estado.</p><p>🔎 Na última pesquisa Quaest, divulgada no dia 23, Salles aparecia em quinto lugar na disputa , com 3% das intenções de voto. Guilherme Derrite tinha 16%, Marina Silva (Rede), 13%, Simone Tebet (PSB), 12%, e André do Prado, 8%. Na rodada anterior, de 8 de setembro, Salles também tinha 3%.</p><h2>Ao explicar a decisão, Salles afirmou que as</h2><p>Ao explicar a decisão, Salles afirmou que as diferenças entre os candidatos precisam ser deixadas de lado diante do que chamou de um risco de uma nova eleição do presidente Lula (PT).</p><p>&quot;Nós estamos diante de um momento muito difícil para o país, um risco enorme de nós continuarmos nesse projeto extremamente equivocado, que está nos levando para o buraco&quot;, explicou.</p><p>Segundo Salles, em São Paulo, a liderança de Tarcísio deixa o grupo &quot;relativamente confortável&quot; na disputa pelo governo estadual. Ele também afirmou que é necessário &quot;dar sinais para a sociedade&quot; de união diante do cenário nacional.</p><p>&quot;É importante dar sinais para a sociedade, para a gente entender que o momento é tão grave que diferenças, opiniões diferentes, têm que ser deixadas de lado, justamente porque o risco de uma catástrofe numa reeleição do presidente Lula é muito grande e o país não merece isso&quot;, disse.</p>",
+        "fonteNome": "g1 - Capa",
+        "fonteUrl": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/09/28/ricardo-salles-desiste-de-concorrer-ao-senado-e-declara-apoio-a-derrite-e-andre-do-prado.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Salles anuncia desistência de candidatura ao lado de Tarcísio, Derrite e André do Prado — Foto: Reprodução"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Na reta final da eleição, o candidato ao Senado por São Paulo Ricardo Salles ( Novo ) desistiu nesta segunda-feira (28) de disputar uma das duas vagas ao Senado e declarou apoio aos adversários Guilherme Derrite (PP) e André do Prado (PL)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O anúncio foi feito ao lado do governador Tarcísio de Freitas ( Republicanos ), candidato à reeleição ao governo de São Paulo. Desde o início da campanha, Salles travou uma disputa com André do Prado e o acusou de dividir o eleitorado conservador no estado."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "🔎 Na última pesquisa Quaest, divulgada no dia 23, Salles aparecia em quinto lugar na disputa , com 3% das intenções de voto. Guilherme Derrite tinha 16%, Marina Silva (Rede), 13%, Simone Tebet (PSB), 12%, e André do Prado, 8%. Na rodada anterior, de 8 de setembro, Salles também tinha 3%."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Ao explicar a decisão, Salles afirmou que as diferenças entre os candidatos precisam ser deixadas de lado diante do que chamou de um risco de uma nova eleição do presidente Lula (PT)."
+          }
+        ]
+      }
+    },
+    {
+      "id": "8620e77f7d3f9133",
+      "titulo": "Salles desiste de candidatura ao Senado de São Paulo e apoia Derrite e André do Prado",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/salles-desiste-de-candidatura-ao-senado-de-sao-paulo-e-apoia-derrite-e-andre-do-prado.shtml",
+      "dataFonte": "2026-09-28T13:29:00.000Z",
+      "resumoFonte": "Ricardo Salles , deputado federal de São Paulo pelo Novo, desistiu da candidatura ao Senado pelo estado. O anúncio foi feito nesta segunda-feira (28), na reta final da campanha para as eleições de 2026, ao lado do governador Tarcísio de Freitas (Republicanos), de Guilherme Derrite (PP) e André do Prado (PL). O deputado agora apoia Derrite e Prado.…",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/04/01/177506609369cd5bed2362d_1775066093_3x2_xl.jpg",
+      "descobertaEm": "2026-09-28T14:12:50.172Z",
+      "reportagem": {
+        "titulo": "Salles desiste de candidatura ao Senado de São Paulo e apoia Derrite e André do Prado",
+        "slug": "salles-desiste-de-candidatura-ao-senado-de-sao-paulo-e-apoia-derrite-e-andre-do-prado",
+        "categoria": "Política Nacional",
+        "data": "2026-09-28",
+        "imagem": "https://f.i.uol.com.br/fotografia/2026/04/01/177506609369cd5bed2362d_1775066093_3x2_xl.jpg",
+        "resumo": "Salles desiste de candidatura ao Senado de São Paulo e apoia Derrite e André do Prado. Registro original em Folha de S.Paulo - Poder. A Redação Notícia ES reapurou a pauta para a editoria Política Nacional.",
+        "conteudo": "<p>Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler.</p><h2>Assinantes podem liberar 7 acessos por dia</h2><p>Assinantes podem liberar 7 acessos por dia para conteúdos da Folha.</p><p>Ricardo Salles , deputado federal de São Paulo pelo Novo, desistiu da candidatura ao Senado pelo estado. O anúncio foi feito nesta segunda-feira (28), na reta final da campanha para as eleições de 2026, ao lado do governador Tarcísio de Freitas (Republicanos), de Guilherme Derrite (PP) e André do Prado (PL). O deputado agora apoia Derrite e Prado.</p><p>&quot;Quando uma pessoa resolve abrir mão de uma posição, a gente tem que enaltecer. E hoje a gente tem o Ricardo Salles, que tinha toda a legitimidade para continuar na sua caminhada, tem trajetória, tem bagagem, tem história, dando um passo ao lado, para nos ajudar, para somar&quot;, disse Tarcísio. &quot;É momento de pensar num objetivo maior, que é ter dois representantes no Senado.&quot;</p><h2>Governador ressaltou o papel do Novo em sua</h2><p>O governador ressaltou o papel do Novo em sua campanha e disse que São Paulo agora sai na frente no que chamou de &quot;grande movimento de união da direita&quot;. &quot;Seria muito bom se a gente pudesse unir a direita nessa reta final. A nossa parte nós estamos fazendo&quot;, ele disse.</p><p>Salles afirmou, no anúncio de sua desistência, que &quot;o momento é tão grave que diferenças tem que ser deixadas de lado&quot;. Ele afirmou que a reeleição de Lula seria &quot;uma catástrofe&quot;.</p><p>O deputado diz que segue apoiando a candidatura do mineiro Romeu Zema (Novo) à presidência enquanto ele for candidato.</p><p>O deputado havia se candidatado ao Senado depois da decisão do Novo de apoiar a candidatura de Tarcísio ao governo. No anúncio, o governador disse que Salles desistiu de concorrer à vaga para fortalecer as outras candidaturas e defendeu o objetivo maior de conquistar as duas cadeiras.</p><p>Pesquisa Datafolha divulgada nesta quinta-feira (24) mostrava Salles com 4% das intenções de voto. No pelotão da frente, há empate técnico entre Marina Silva (Rede), com 15%, Simone Tebet (PSB), com 14%, André do Prado (PL) e Guilherme Derrite (PP) com 12% cada.</p><p>Salles havia atacado André do Prado há menos de duas semanas, durante o debate promovido pela Band. O deputado acusou o concorrente de ter apoiado o PT no passado.</p><p>&quot;Qual credencial de direita você tem?&quot;, perguntou Salles. &quot;Você quer enganar o eleitor da direita fingindo que é bolsonarista&quot;, disse posteriormente, quase no fim do debate.</p><p>Deputado estadual, André do Prado está há 32 anos na política, mas é o único entre os principais candidatos ao Senado por São Paulo que nunca exerceu um posto de nível nacional.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/salles-desiste-de-candidatura-ao-senado-de-sao-paulo-e-apoia-derrite-e-andre-do-prado.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Assinantes podem liberar 7 acessos por dia para conteúdos da Folha."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Ricardo Salles , deputado federal de São Paulo pelo Novo, desistiu da candidatura ao Senado pelo estado. O anúncio foi feito nesta segunda-feira (28), na reta final da campanha para as eleições de 2026, ao lado do governador Tarcísio de Freitas (Republicanos), de Guilherme Derrite (PP) e André do Prado (PL). O deputado agora apoia Derrite e Prado."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "\"Quando uma pessoa resolve abrir mão de uma posição, a gente tem que enaltecer. E hoje a gente tem o Ricardo Salles, que tinha toda a legitimidade para continuar na sua caminhada, tem trajetória, tem bagagem, tem história, dando um passo ao lado, para nos ajudar, para somar\", disse Tarcísio. \"É momento de pensar num objetivo maior, que é ter dois representan"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O governador ressaltou o papel do Novo em sua campanha e disse que São Paulo agora sai na frente no que chamou de \"grande movimento de união da direita\". \"Seria muito bom se a gente pudesse unir a direita nessa reta final. A nossa parte nós estamos fazendo\", ele disse."
+          }
+        ]
+      }
+    },
+    {
+      "id": "29eab8129b4a0852",
+      "titulo": "Senado abre consulta pública sobre MP que proíbe bets",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Correio Braziliense - Política",
+      "urlFonte": "https://www.correiobraziliense.com.br/politica/2026/09/7509671-senado-abre-consulta-publica-sobre-mp-das-bets-maioria-apoia.html",
+      "dataFonte": "2026-09-28T10:45:16.000Z",
+      "resumoFonte": "Texto assinado pelo presidente Lula ainda precisa de aval do Congresso Nacional para vigorar de forma definitiva",
+      "imagem": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/09/28/675x450/1_55551065791-f64dfc2b4d-c-67807296.jpg",
+      "descobertaEm": "2026-09-28T14:12:50.172Z",
+      "reportagem": {
+        "titulo": "Senado abre consulta pública sobre MP que proíbe bets",
+        "slug": "senado-abre-consulta-publica-sobre-mp-que-proibe-bets",
+        "categoria": "Política Nacional",
+        "data": "2026-09-28",
+        "imagem": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/09/28/675x450/1_55551065791-f64dfc2b4d-c-67807296.jpg",
+        "resumo": "Texto assinado pelo presidente Lula ainda precisa de aval do Congresso Nacional para vigorar de forma definitiva",
+        "conteudo": "<p>Uma consulta p&amp;uacute;blica sobre a medida provis&amp;oacute;ria (n&amp;ordm; 1394/2026 ) que pro&amp;iacute;be a opera&amp;ccedil;&amp;atilde;o de bets no pa&amp;iacute;s foi aberta pelo Senado Federal e j&amp;aacute; re&amp;uacute;ne mais de 250 mil manifesta&amp;ccedil;&amp;otilde;es at&amp;eacute; as 10h desta segunda-feira (28/9). Desse total, mais de 188 mil participantes apoiavam a proibi&amp;ccedil;&amp;atilde;o, enquanto quase 70 mil se posicionavam contra a medida.</p><h2>Siga o canal do Correio Braziliense no WhatsApp</h2><p>Siga o canal do Correio Braziliense no WhatsApp e receba as principais notícias do dia no seu celular.</p><p>Mais de 188 mil participantes apoiam o fim das apostas (foto: Reprodu&amp;ccedil;&amp;atilde;o/Senado Federal)</p><p>A vota&amp;ccedil;&amp;atilde;o ocorre pelo portal e-Cidadania e permite apenas uma manifesta&amp;ccedil;&amp;atilde;o por usu&amp;aacute;rio. Depois que o voto &amp;eacute; registrado, n&amp;atilde;o h&amp;aacute; possibilidade de altera&amp;ccedil;&amp;atilde;o ou exclus&amp;atilde;o.</p><h2>O que muda na prática</h2><p>Apesar do volume de participa&amp;ccedil;&amp;otilde;es, a consulta n&amp;atilde;o interfere diretamente na decis&amp;atilde;o dos parlamentares. O resultado serve como um retrato da opini&amp;atilde;o de quem acessou a plataforma e decidiu participar. As manifesta&amp;ccedil;&amp;otilde;es permanecem dispon&amp;iacute;veis publicamente e s&amp;atilde;o encaminhadas de forma peri&amp;oacute;dica aos gabinetes dos senadores.</p><p>A proibi&amp;ccedil;&amp;atilde;o j&amp;aacute; produz efeitos porque foi estabelecida por medida provis&amp;oacute;ria, instrumento que passa a valer a partir de sua publica&amp;ccedil;&amp;atilde;o no Di&amp;aacute;rio Oficial da Uni&amp;atilde;o. Para continuar em vigor de maneira definitiva, por&amp;eacute;m, o texto precisa passar pelo Congresso.</p><p>A tramita&amp;ccedil;&amp;atilde;o come&amp;ccedil;a em uma comiss&amp;atilde;o mista de deputados e senadores, encarregada de analisar a proposta e elaborar um parecer. Depois dessa etapa, a mat&amp;eacute;ria segue para o plen&amp;aacute;rio da C&amp;acirc;mara dos Deputados. Caso receba aval dos deputados, passa &amp;agrave; aprecia&amp;ccedil;&amp;atilde;o do Senado.</p><p>Se os senadores alterarem o conte&amp;uacute;do aprovado pela C&amp;acirc;mara, os deputados precisam analisar novamente as mudan&amp;ccedil;as. A medida provis&amp;oacute;ria tem validade inicial de 60 dias e pode ter esse prazo prorrogado automaticamente por mais 60. Caso o Congresso n&amp;atilde;o conclua a vota&amp;ccedil;&amp;atilde;o dentro do per&amp;iacute;odo constitucional, o texto deixa de valer.</p><p>A mudan&amp;ccedil;a foi determinada pela medida provis&amp;oacute;ria assinada pelo presidente Luiz In&amp;aacute;cio Lula da Silva (PT) na sexta-feira (25/9), nove dias antes do primeiro turno das elei&amp;ccedil;&amp;otilde;es.</p><p>O texto interrompe a explora&amp;ccedil;&amp;atilde;o das apostas de quota fixa no Brasil, tanto em modalidades esportivas quanto em jogos online. A proibi&amp;ccedil;&amp;atilde;o tamb&amp;eacute;m alcan&amp;ccedil;a cassinos virtuais, entre eles plataformas popularmente associadas ao &quot;Jogo do Tigrinho&quot;.</p><p>Quem ainda possui recursos depositados nesses servi&amp;ccedil;os ter&amp;aacute; at&amp;eacute; 5 de outubro para retirar o dinheiro. Nesse intervalo, as plataformas poder&amp;atilde;o permanecer acess&amp;iacute;veis exclusivamente para viabilizar o resgate dos saldos existentes, sem oferecer novas apostas.</p><p>A decis&amp;atilde;o encerra o modelo que estava em funcionamento desde 2025, quando passou a vigorar o mercado federal regulado de apostas de quota fixa. Nesse sistema, empresas autorizadas pela Secretaria de Pr&amp;ecirc;mios e Apostas (SPA), vinculada ao Minist&amp;eacute;rio da Fazenda, podiam atuar em todo o pa&amp;iacute;s por meio de endere&amp;ccedil;os com dom&amp;iacute;nio &quot;.bet.br&quot;.</p>",
+        "fonteNome": "Correio Braziliense - Política",
+        "fonteUrl": "https://www.correiobraziliense.com.br/politica/2026/09/7509671-senado-abre-consulta-publica-sobre-mp-das-bets-maioria-apoia.html",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Uma consulta p&uacute;blica sobre a medida provis&oacute;ria (n&ordm; 1394/2026 ) que pro&iacute;be a opera&ccedil;&atilde;o de bets no pa&iacute;s foi aberta pelo Senado Federal e j&aacute; re&uacute;ne mais de 250 mil manifesta&ccedil;&otilde;es at&eacute; as 10h desta segunda-feira (28/9). Desse total, mais de 188 mil participantes apoiavam a proibi&ccedi"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Siga o canal do Correio Braziliense no WhatsApp e receba as principais notícias do dia no seu celular."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Mais de 188 mil participantes apoiam o fim das apostas (foto: Reprodu&ccedil;&atilde;o/Senado Federal)"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A vota&ccedil;&atilde;o ocorre pelo portal e-Cidadania e permite apenas uma manifesta&ccedil;&atilde;o por usu&aacute;rio. Depois que o voto &eacute; registrado, n&atilde;o h&aacute; possibilidade de altera&ccedil;&atilde;o ou exclus&atilde;o."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Apesar do volume de participa&ccedil;&otilde;es, a consulta n&atilde;o interfere diretamente na decis&atilde;o dos parlamentares. O resultado serve como um retrato da opini&atilde;o de quem acessou a plataforma e decidiu participar. As manifesta&ccedil;&otilde;es permanecem dispon&iacute;veis publicamente e s&atilde;o encaminhadas de forma peri&oacute;dica a"
+          }
+        ]
+      }
+    },
+    {
+      "id": "caa4836b7fb381da",
+      "titulo": "Operação apreende 132 kg de pasta base de cocaína e prende três na Serra",
+      "categoria": "Cidades",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/agora/operacao-apreende-132-kg-de-pasta-base-de-cocaina-e-prende-tres-na-serra-0926",
+      "dataFonte": "2026-09-28T11:02:03.000Z",
+      "resumoFonte": "Droga estava dividida em 117 tabletes e foi localizada no bairro São Diogo; celulares e um tablet também foram apreendidos",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790591880447_copia_de_template_radar_a_gazeta_25.jpg",
+      "descobertaEm": "2026-09-28T14:12:50.172Z"
+    },
+    {
+      "id": "18c64fdfabaaaeb4",
+      "titulo": "Fux deve relatar ações contra proibição das bets no Brasil",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/fux-deve-relatar-acoes-contra-proibicao-das-ibets-i-no-brasil/",
+      "dataFonte": "2026-09-28T14:11:47.000Z",
+      "resumoFonte": "As associações que representam empresas de apostas já se preparam para contestar no Supremo Tribunal Federal (STF) a medida provisória do governo Luiz Inácio Lula da Silva que proibiu as bets no Brasil. A MP 1.394, publicada na sexta-feira 25, proibiu a exploração, a oferta, a intermediação e a publicidade de apostas de quota fixa em todo o…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/luiz-fux-ministro-do-supremo-tribunal-federal-910x568.jpeg.webp",
+      "descobertaEm": "2026-09-28T14:12:50.172Z",
+      "reportagem": {
+        "titulo": "Fux deve relatar ações contra proibição das bets no Brasil",
+        "slug": "fux-deve-relatar-acoes-contra-proibicao-das-bets-no-brasil",
+        "categoria": "Justiça",
+        "data": "2026-09-28",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/luiz-fux-ministro-do-supremo-tribunal-federal-910x568.jpeg.webp",
+        "resumo": "Ministro já conduz processos sobre o setor no STF; associações avaliam contestar medida provisória de Lula",
+        "conteudo": "<p>Natural de Vitória (ES), formou-se em jornalismo em 2023 e iniciou a carreira no portal independente A Investigação. Atualmente, é pós-graduanda em literatura, artes e filosofia pela Pontifícia Universidade Católica do Rio Grande do Sul e repórter da Revista Oeste em São Paulo, onde escreve sobre Brasil, política e internacional.</p><h2>Associações que representam empresas de apostas já</h2><p>As associações que representam empresas de apostas já se preparam para contestar no Supremo Tribunal Federal (STF) a medida provisória do governo Luiz Inácio Lula da Silva que proibiu as bets no Brasil.</p><p>Uma das entidades que avaliam recorrer ao Supremo é a Associação Nacional de Jogos e Loterias (ANJL). O objetivo é tentar reverter os efeitos da medida provisória. Eventuais ações contra a norma também podem ser apresentadas por partidos com representação no Congresso .</p><p>O ministro Luiz Fux deve ficar responsável por eventuais novos processos relacionados ao tema, por já relatar ações que discutem a regulamentação das apostas no país.</p><h2>Ações em andamento questionavam dispositivos da Lei n°</h2><p>As ações em andamento questionavam dispositivos da Lei n° 14.790, sancionada em 2023, que estabeleceu regras para a exploração das apostas de cota fixa. A MP editada na semana passada, porém, revogou grande parte desses dispositivos e mudou o cenário jurídico de ações que já tramitavam no Supremo.</p><p>A medida provisória também alcança as apostas autorizadas pelos Estados e pelo Distrito Federal. As concessões e as autorizações locais deverão ser extintas no prazo estabelecido pela nova norma.</p><p>O STF já analisou disputas que envolvem a exploração estadual de loterias e apostas. Em março de 2025, por exemplo, o plenário confirmou decisão que determinou o uso de geolocalização para restringir ao território do Rio de Janeiro a atuação das bets licenciadas pela Loteria do Estado do Rio de Janeiro.</p><p>A MP está em vigor desde a publicação, mas ainda precisa ser analisada pelo Congresso Nacional.</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/fux-deve-relatar-acoes-contra-proibicao-das-ibets-i-no-brasil/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Natural de Vitória (ES), formou-se em jornalismo em 2023 e iniciou a carreira no portal independente A Investigação. Atualmente, é pós-graduanda em literatura, artes e filosofia pela Pontifícia Universidade Católica do Rio Grande do Sul e repórter da Revista Oeste em São Paulo, onde escreve sobre Brasil, política e internacional."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "As associações que representam empresas de apostas já se preparam para contestar no Supremo Tribunal Federal (STF) a medida provisória do governo Luiz Inácio Lula da Silva que proibiu as bets no Brasil."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Uma das entidades que avaliam recorrer ao Supremo é a Associação Nacional de Jogos e Loterias (ANJL). O objetivo é tentar reverter os efeitos da medida provisória. Eventuais ações contra a norma também podem ser apresentadas por partidos com representação no Congresso ."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O ministro Luiz Fux deve ficar responsável por eventuais novos processos relacionados ao tema, por já relatar ações que discutem a regulamentação das apostas no país."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "As ações em andamento questionavam dispositivos da Lei n° 14.790, sancionada em 2023, que estabeleceu regras para a exploração das apostas de cota fixa. A MP editada na semana passada, porém, revogou grande parte desses dispositivos e mudou o cenário jurídico de ações que já tramitavam no Supremo."
+          }
+        ]
+      }
+    },
+    {
+      "id": "efbdf6d01dc1a869",
+      "titulo": "Entidades que representam bets pedem ao STF suspensão da MP de Lula que proíbe apostas online",
       "categoria": "Justiça",
       "radar": null,
       "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/28/reta-final-das-eleicoes-tem-guerra-juridica-entre-presidenciaveis-tse-ja-recebeu-ao-menos-450-acoes.ghtml",
-      "dataFonte": "2026-09-28T03:00:00.000Z",
-      "resumoFonte": "Na reta final da campanha, os presidenciáveis intensificaram uma batalha no Tribunal Superior Eleitoral (TSE) e também no Supremo Tribunal Federal (STF) contra adversários. A maioria dos embates tem sido travada no TSE, que recebeu ao menos 450 ações envolvendo candidatos ao Palácio do Planalto. Grande parte dos pedidos envolve questionamentos…",
-      "imagem": "https://s2-g1.glbimg.com/2P41yectX5eDyzQiEZMM5D8PD1g=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/v/3/uZT1G1SRiYGKVmKF9vQw/55006841028-2e3bd01ddb-k.jpg",
-      "descobertaEm": "2026-09-28T07:00:24.165Z"
+      "urlFonte": "https://g1.globo.com/economia/noticia/2026/09/28/entidades-que-representam-bets-pedem-ao-stf-suspensao-da-mp-de-lula-que-proibe-apostas-online.ghtml",
+      "dataFonte": "2026-09-28T13:55:06.000Z",
+      "resumoFonte": "A Associação Nacional de Jogos e Loterias (ANJL) e o Instituto Brasileiro de Jogo Responsável (IBJR) protocolaram nesta segunda-feira (28) um pedido, no Supremo Tribunal Federal (STF), para suspender os efeitos da medida provisória de Lula que determinou a proibição imediata da exploração, oferta, intermediação e publicidade de loterias de aposta…",
+      "imagem": "https://s2-g1.glbimg.com/AZVoqmH6a_VxZDyVpOMb1lQs8Q0=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/p/L58ldMTFADaFzlfGyVEw/globo-canal-4-20260925-2000-frame-166811.jpeg",
+      "descobertaEm": "2026-09-28T14:12:50.172Z"
     },
     {
-      "id": "9fce6650d49e5b58",
-      "titulo": "Lula defende conselho para indicação de nomes ao STF e mandato para ministros",
+      "id": "dd7df4f534b79db4",
+      "titulo": "Lula e o PT não ouviram o bom conselho da autocrítica",
       "categoria": "Justiça",
       "radar": null,
       "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/lula-defende-conselho-para-indicacao-de-nomes-ao-stf-e-mandato-para-ministros.shtml",
-      "dataFonte": "2026-09-28T00:26:00.000Z",
-      "resumoFonte": "O presidente Lula (PT) defendeu que ministros do STF (Supremo Tribunal Federal) tenham mandatos para concluir sua atuação na corte e que sejam indicados após passarem pelo crivo de um conselho, que incluiria juristas e membros da sociedade civil. Leia mais (09/27/2026 - 21h26)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/07/27/17851883746a67d0167c001_1785188374_3x2_rt.jpg",
-      "descobertaEm": "2026-09-28T00:54:09.989Z",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/dora-kramer/2026/09/lula-e-o-pt-nao-ouviram-o-bom-conselho-da-autocritica.shtml",
+      "dataFonte": "2026-09-28T13:41:00.000Z",
+      "resumoFonte": "Pleito batendo à porta, a campanha da reeleição ainda está no modo \"onde foi que erramos?\" , sem conseguir chegar ao ponto de virada. Houve um equívoco de origem que Luiz Inácio da Silva e o PT não cometeram sozinhos. Leia mais (09/28/2026 - 10h41)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/09/26/17903961216ab746d9610ac_1790396121_3x2_xl.jpg",
+      "descobertaEm": "2026-09-28T14:12:50.172Z",
       "reportagem": {
-        "titulo": "Lula defende conselho para indicação de nomes ao STF e mandato para ministros",
-        "slug": "lula-defende-conselho-para-indicacao-de-nomes-ao-stf-e-mandato-para-ministros",
+        "titulo": "Opinião - Dora Kramer: Lula e o PT não ouviram o bom conselho da autocrítica",
+        "slug": "opiniao-dora-kramer-lula-e-o-pt-nao-ouviram-o-bom-conselho-da-autocritica",
         "categoria": "Justiça",
-        "data": "2026-09-27",
-        "imagem": "https://f.i.uol.com.br/fotografia/2026/07/27/17851883746a67d0167c001_1785188374_3x2_rt.jpg",
-        "resumo": "Em entrevista à BandNews, presidente afirma que escolha da corte não pode ficar só com o Planalto",
-        "conteudo": "<p>Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler.</p><h2>Assinantes podem liberar 7 acessos por dia</h2><p>Assinantes podem liberar 7 acessos por dia para conteúdos da Folha.</p><p>O presidente Lula (PT) defendeu que ministros do STF (Supremo Tribunal Federal) tenham mandatos para concluir sua atuação na corte e que sejam indicados após passarem pelo crivo de um conselho, que incluiria juristas e membros da sociedade civil.</p><p>&quot;Não pode ser só o presidente que indica. Temos que criar um critério para que seja alguém que passe por um crivo de um colegiado para que a pessoa não seja mais o cara indicado pelo presidente. Quero um cara que tenha responsabilidade com a sociedade brasileira&quot;, disse Lula em entrevista à BandNews, que foi ao ar na noite deste domingo (27).</p><h2>STF vive hoje sua maior crise da história,</h2><p>O STF vive hoje sua maior crise da história, após a investigação sobre o Banco Master revelar vínculos estreitos entre Daniel Vorcaro , ex-dono do banco, e os ministros.</p><p>O principal elo foi com Alexandre de Moraes , quando diálogos recuperados do celular do ex-banqueiro indicaram que Vorcaro perguntou a Moraes, dois dias antes de ser preso, se deveria deixar o país . O ministro fez edições num contrato de R$ 131 milhões entre o Master e o escritório de advocacia de sua mulher, Viviane Barci de Moraes, e se encontrou com Vorcaro pelo menos seis vezes desde 2024.</p><p>Outros vínculos de Vorcaro com ministros e seus familiares foram expostos depois da divulgação do caso de Moraes. Diálogos do ex-banqueiros citam supostos pagamentos de R$ 500 mil a um filho do ministro Kássio Nunes Marques. O filho do ministro Luiz Fux também teria uma relação com Vorcaro, a quem chamou de &quot;irmão&quot; em mensagens .</p><p>Na entrevista, Lula afirmou que, se os ministros forem culpados, precisarão ser punidos.</p><p>&quot;Todo mundo envolvido tem que ser apurado. Na hora que comprovar que a pessoa cometeu erro, a pessoa tem que ser punida. Isso vale para todo mundo&quot;, afirmou.</p><p>O presidente disse o mesmo sobre o caso de seu filho, Fábio Luís Lula da Silva, conhecido como Lulinha , que foi apontado como beneficiário indireto da ação da lobista Roberta Luchsinger. Ela atuou na busca de contatos políticos para facilitar a venda de um medicamento junto ao governo federal.</p><p>Além de Lulinha, o escândalo também envolve o ex-chefe de gabinete do presidente, Marco Aurélio Ribeiro , o Marcola, também foi alvo da PF. A suspeita é que ele tenha recebido vantagens indevidas, inclusive financeiras, para auxiliar Luchsinger. Para Lula, seu filho e Marcola são inocentes.</p><p>&quot;Meu filho está à disposição da Justiça e não fiz um único gesto, em nenhum momento, para que meu filho tivesse qualquer proteção. A proteção é a investigação. Se ele for inocente, ele é inocente&quot;, disse.</p>",
+        "data": "2026-09-28",
+        "imagem": "https://f.i.uol.com.br/fotografia/2026/09/26/17903961216ab746d9610ac_1790396121_3x2_xl.jpg",
+        "resumo": "Campanha da reeleição chega à reta final míope aos erros e sem conseguir atingir o ponto de virada",
+        "conteudo": "<p>Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler.</p><h2>Assinantes podem liberar 7 acessos por dia</h2><p>Assinantes podem liberar 7 acessos por dia para conteúdos da Folha.</p><p>Pleito batendo à porta, a campanha da reeleição ainda está no modo &quot;onde foi que erramos?&quot; , sem conseguir chegar ao ponto de virada. Houve um equívoco de origem que Luiz Inácio da Silva e o PT não cometeram sozinhos.</p><p>A quase totalidade do mundo político e adjacências compartilhava a visão de que Flávio Bolsonaro ( PL ) seria presa fácil, escolhido pelo pai para manter o nome da família na roda. Era essa a impressão que davam os telhados de vidro e a falta de lastro do moço.</p><h2>Pois eis que a má avaliação do governo</h2><p>Pois eis que a má avaliação do governo se juntou à identificação bolsonarista, encontrou abrigo na soberba petista e produziu o cenário de empate que flerta com aquela vitória considerada improvável.</p><p>Mesmo quando o transcorrer da campanha sinalizava desmentido à interpretação inicial, continuou dominante a indiferença aos fatos. O despertar veio tardio e improvisado, na forma de medidas tão populistas quanto irresponsáveis para tentar reduzir o presumido prejuízo.</p><p>Reação pautada pela suposição de que o eleitorado —ou a parcela mais necessitada— está sempre à venda. Não se levou em conta a fadiga do país com Lula e com um partido que chegou aos quase 18 anos no poder sem um plano para tirar o Brasil do atraso.</p><p>Seria de se esperar que gente com expertise de cinco governos e inúmeras campanhas eleitorais nos 46 anos de vida do PT percebesse que a luta era dura, que a população queria outro tipo de diálogo, que era preciso falar do futuro como gente grande.</p><p>No entanto, prevaleceu o projeto de culto à personalidade de Lula, a submissão ao líder, a suposição de que ele seria uma fonte inesgotável dos votos necessários à sobrevivência da esquerda. Não se ouviu o bom conselho da autocrítica que facilita o discernimento entre desejo e realidade.</p><p>O corre-corre de última hora até pode atingir o objetivo de obter os votos que tirarão a diferença na urna, mas não apagará o fato de que Lula e o PT não levarão o país a um bom lugar nos próximos quatro anos se não se dispuserem a mudar.</p><p>LINK PRESENTE: Gostou deste texto? Assinante pode liberar sete acessos gratuitos de qualquer link por dia. Basta clicar no F azul abaixo.</p>",
         "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/lula-defende-conselho-para-indicacao-de-nomes-ao-stf-e-mandato-para-ministros.shtml",
+        "fonteUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/dora-kramer/2026/09/lula-e-o-pt-nao-ouviram-o-bom-conselho-da-autocritica.shtml",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -923,40 +631,64 @@
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O presidente Lula (PT) defendeu que ministros do STF (Supremo Tribunal Federal) tenham mandatos para concluir sua atuação na corte e que sejam indicados após passarem pelo crivo de um conselho, que incluiria juristas e membros da sociedade civil."
+            "resposta": "Pleito batendo à porta, a campanha da reeleição ainda está no modo \"onde foi que erramos?\" , sem conseguir chegar ao ponto de virada. Houve um equívoco de origem que Luiz Inácio da Silva e o PT não cometeram sozinhos."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "\"Não pode ser só o presidente que indica. Temos que criar um critério para que seja alguém que passe por um crivo de um colegiado para que a pessoa não seja mais o cara indicado pelo presidente. Quero um cara que tenha responsabilidade com a sociedade brasileira\", disse Lula em entrevista à BandNews, que foi ao ar na noite deste domingo (27)."
+            "resposta": "A quase totalidade do mundo político e adjacências compartilhava a visão de que Flávio Bolsonaro ( PL ) seria presa fácil, escolhido pelo pai para manter o nome da família na roda. Era essa a impressão que davam os telhados de vidro e a falta de lastro do moço."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O STF vive hoje sua maior crise da história, após a investigação sobre o Banco Master revelar vínculos estreitos entre Daniel Vorcaro , ex-dono do banco, e os ministros."
+            "resposta": "Pois eis que a má avaliação do governo se juntou à identificação bolsonarista, encontrou abrigo na soberba petista e produziu o cenário de empate que flerta com aquela vitória considerada improvável."
           }
         ]
       }
     },
     {
-      "id": "7967bf6cc86d5bc6",
-      "titulo": "Decisão de Dino “parece violar devido processo legal”, diz especialista",
+      "id": "98d758ffb338358f",
+      "titulo": "Eleição entra na reta final com STF e TSE em choque | G1",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/politica/decisao-de-dino-parece-violar-devido-processo-legal-diz-especialista/",
-      "dataFonte": "2026-09-27T22:33:19.000Z",
-      "resumoFonte": "Especialista aponta violação ao devido processo legal e ao princípio do juiz natural na decisão monocrática de Flávio Dino no STF",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/flavio-dino-stf.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-28T00:54:09.989Z",
+      "fonteNome": "g1 - Capa",
+      "urlFonte": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/09/28/eleicao-entra-na-reta-final-com-stf-e-tse-em-choque.ghtml",
+      "dataFonte": "2026-09-28T12:34:48.970Z",
+      "resumoFonte": "Ministros do Supremo têm revisto decisões da Justiça Eleitoral, e integrantes do TSE veem tentativa de interferência na condução do pleito. Fachin busca mediar o conflito.",
+      "imagem": "https://s2-g1.glbimg.com/p-_DogOYGdEryJYYe_DL8pXKf2o=/6144x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Y/K/wxp2u7SgCmvB2wX5ByFg/55530151429-7d79341bf5-6k.jpg",
+      "descobertaEm": "2026-09-28T14:15:49.930Z"
+    },
+    {
+      "id": "3fe9c1053a7cdd25",
+      "titulo": "Disputa Flávio Dino x André Mendonça mostra como crise no STF afeta as eleições | G1",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "g1 - Capa",
+      "urlFonte": "https://g1.globo.com/politica/blog/valdo-cruz/post/2026/09/28/disputa-flavio-dino-x-andre-mendonca-mostra-como-crise-no-stf-afeta-as-eleicoes.ghtml",
+      "dataFonte": "2026-09-28T11:28:17.839Z",
+      "resumoFonte": "Fachin recebe Kassio Nunes, Mendonça e Toffoli em reunião fechada",
+      "imagem": "https://s2-g1.glbimg.com/-NSQ1USzto7vgGqMDUHM5o_v1nM=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/m/T/auK5bVS0WwC6yzOwlc8g/55530641511-ef051d5225-k.jpg",
+      "descobertaEm": "2026-09-28T14:15:49.930Z"
+    },
+    {
+      "id": "3c1efa6a6ffe7cf9",
+      "titulo": "Mandato fixo no STF ganha apoio entre candidatos ao Senado",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Correio Braziliense - Política",
+      "urlFonte": "https://www.correiobraziliense.com.br/politica/2026/09/7509696-mandato-fixo-no-stf-ganha-apoio-entre-candidatos-ao-senado.html",
+      "dataFonte": "2026-09-28T11:01:43.000Z",
+      "resumoFonte": "Levantamento aponta que 81 dos 89 candidatos que responderam à pesquisa defendem prazo determinado para ministros da Corte; propostas variam de oito a 20 anos",
+      "imagem": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/09/21/675x450/1_7504864-2d38df4a97b44140bfd4aac3c48f7802-67745876.jpg?20260921114951?20260921114951",
+      "descobertaEm": "2026-09-28T14:12:50.172Z",
       "reportagem": {
-        "titulo": "Decisão de Dino \"parece violar devido processo legal\", diz especialista",
-        "slug": "decisao-de-dino-parece-violar-devido-processo-legal-diz-especialista",
+        "titulo": "Mandato fixo no STF ganha apoio entre candidatos ao Senado",
+        "slug": "mandato-fixo-no-stf-ganha-apoio-entre-candidatos-ao-senado",
         "categoria": "Justiça",
-        "data": "2026-09-27",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/flavio-dino-stf.jpg?w=1200&h=630&crop=1",
-        "resumo": "Especialista aponta violação ao devido processo legal e ao princípio do juiz natural na decisão monocrática de Flávio Dino no STF",
-        "conteudo": "<p>O ministro Flávio Dino cassou neste domingo (27) uma decisão de André Mendonça que havia determinado a remoção de uma publicação do humorista Antonio Tabet sobre um suposto ataque a Nossa Senhora Aparecida. A medida gerou amplo debate jurídico sobre a forma como a decisão foi concedida e seus desdobramentos processuais.</p><h2>Em entrevista à CNN , Rogéria Dotti, presidente</h2><p>Em entrevista à CNN , Rogéria Dotti, presidente da Comissão de Processo Civil da OAB Nacional, avaliou que a principal preocupação não está no mérito da decisão, mas no caminho processual utilizado para obtê-la. Segundo ela, o que ocorreu não foi propriamente um recurso, já que o recurso cabível deveria ser direcionado ao plenário do próprio Tribunal Superior Eleitoral.</p><p>&quot;Há uma profunda preocupação do ponto de vista processual porque parece violar o devido processo legal&quot;, afirma ela.</p><p>Em vez de seguir o rito adequado, o humorista apresentou uma simples petição diretamente a Flávio Dino, inserida em outro processo que dizia respeito a partes distintas — Marlon Reis e Deltan Dallagnol.</p><h2>Argumento utilizado foi o de que havia matéria</h2><p>O argumento utilizado foi o de que havia matéria semelhante naquele outro caso, no qual Dino já figurava como relator e já havia proferido decisão favorável. &quot;A grande preocupação é o modo como essa decisão do ministro Flávio Dino foi concedida&quot;, afirmou Rogéria Dotti.</p><p>Para a especialista, isso equivale a permitir que a parte escolha o juiz que analisará o caso, violando frontalmente o princípio do juiz natural e o devido processo legal.</p><p>Rogéria Dotti explicou que o caminho correto seria a apresentação de uma reclamação autônoma ao Supremo Tribunal Federal, submetida a sorteio para distribuição regimental entre os ministros.</p><p>&quot;O que nós vimos aqui, lamentavelmente, é um atalho que viola o devido processo legal &quot;, disse. A própria parte, segundo ela, reconheceu na petição que o procedimento mais ortodoxo seria a reclamação autônoma, alegando urgência para justificar o atalho adotado.</p><p>Do ponto de vista técnico, Rogéria Dotti ressaltou que o Tribunal Superior Eleitoral é o órgão máximo nas questões eleitorais, e o STF só poderia intervir após manifestação do plenário do TSE — o que não ocorreu no caso em questão.</p><p>&quot;O caminho adequado seria um recurso contra a decisão do ministro André Mendonça diretamente para o plenário do Tribunal Superior Eleitoral&quot;, afirmou.</p><p>A especialista lembrou ainda um precedente de 2021, quando houve atrito institucional entre as duas cortes envolvendo o deputado Fernando Francischini. Naquela ocasião, uma liminar concedida no STF pelo ministro Kassio Nunes Marques foi posteriormente revogada pelo próprio Supremo, mantendo a decisão do TSE.</p><p>Questionada sobre a possibilidade de reversão da decisão, Rogéria Dotti afirmou que, por se tratar de uma decisão liminar e monocrática, cabe recurso ao próprio STF. Ela classificou o precedente como &quot;perigosíssimo&quot;, tanto pelo conflito institucional entre as cortes quanto pela possibilidade de que partes passem a direcionar petições a ministros específicos com base em posições já formadas.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/politica/decisao-de-dino-parece-violar-devido-processo-legal-diz-especialista/",
+        "data": "2026-09-28",
+        "imagem": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/09/21/675x450/1_7504864-2d38df4a97b44140bfd4aac3c48f7802-67745876.jpg?20260921114951?20260921114951",
+        "resumo": "Levantamento aponta que 81 dos 89 candidatos que responderam à pesquisa defendem prazo determinado para ministros da Corte; propostas variam de oito a 20 anos",
+        "conteudo": "<p>A ado&amp;ccedil;&amp;atilde;o de mandatos com prazo determinado para ministros do Supremo Tribunal Federal (STF) &amp;eacute; defendida por 81 dos 89 candidatos ao Senado que responderam ao tema em levantamento realizado com postulantes que aparecem nas primeiras posi&amp;ccedil;&amp;otilde;es das pesquisas eleitorais de 2026. O n&amp;uacute;mero representa 91% dos entrevistados.</p><h2>Levantamento foi realizado pelo Estado de S</h2><p>O levantamento foi realizado pelo Estado de S. Paulo com candidatos que apresentam melhor desempenho num&amp;eacute;rico em pesquisas do instituto Quaest e, no Piau&amp;iacute;, da Atlas.</p><p>Siga o canal do Correio Braziliense no WhatsApp e receba as principais notícias do dia no seu celular.</p><p>Entre os candidatos favor&amp;aacute;veis &amp;agrave; mudan&amp;ccedil;a, as propostas para a dura&amp;ccedil;&amp;atilde;o do mandato variam. O per&amp;iacute;odo mais curto citado foi de oito anos, enquanto o mais longo chegou a 20 anos. A maior concentra&amp;ccedil;&amp;atilde;o das respostas ficou entre 10 e 12 anos.</p><h2>Defensores da medida mencionaram, entre os argumentos,</h2><p>Os defensores da medida mencionaram, entre os argumentos, a possibilidade de promover renova&amp;ccedil;&amp;atilde;o peri&amp;oacute;dica da composi&amp;ccedil;&amp;atilde;o do tribunal e evitar que uma mesma indica&amp;ccedil;&amp;atilde;o presidencial tenha influ&amp;ecirc;ncia por v&amp;aacute;rias d&amp;eacute;cadas.</p><p>Atualmente, os ministros do Supremo permanecem no cargo at&amp;eacute; a aposentadoria compuls&amp;oacute;ria, aos 75 anos. A mudan&amp;ccedil;a j&amp;aacute; &amp;eacute; discutida no Congresso por meio de propostas de emenda &amp;agrave; Constitui&amp;ccedil;&amp;atilde;o.</p><p>A PEC 16/2019, de autoria do senador Pl&amp;iacute;nio Val&amp;eacute;rio (PSDB-AM), estabelece mandato de oito anos, sem recondu&amp;ccedil;&amp;atilde;o, e tamb&amp;eacute;m altera regras relacionadas ao processo de escolha dos integrantes da Corte. A proposta segue em tramita&amp;ccedil;&amp;atilde;o no Senado.</p><p>Os candidatos tamb&amp;eacute;m apresentaram ressalvas sobre o modelo. Parte dos entrevistados favor&amp;aacute;veis ao mandato fixo ressaltou que eventual altera&amp;ccedil;&amp;atilde;o precisa preservar a independ&amp;ecirc;ncia institucional do Supremo.</p><p>Outros citaram experi&amp;ecirc;ncias de pa&amp;iacute;ses como Alemanha e It&amp;aacute;lia como refer&amp;ecirc;ncias para a discuss&amp;atilde;o. Apenas quatro candidatos ouvidos se posicionaram contra a ado&amp;ccedil;&amp;atilde;o de prazo determinado para os ministros.</p><p>Entre as alternativas defendidas por esses postulantes est&amp;atilde;o mudan&amp;ccedil;as nas sabatinas, na idade m&amp;iacute;nima para ingresso na Corte e nos crit&amp;eacute;rios de escolha.</p><p>O levantamento tamb&amp;eacute;m abordou outras mudan&amp;ccedil;as na estrutura e no funcionamento do Supremo. Dos 88 candidatos que responderam sobre a cria&amp;ccedil;&amp;atilde;o de uma idade m&amp;iacute;nima para ministros, 77 foram favor&amp;aacute;veis &amp;agrave; medida. As sugest&amp;otilde;es mais frequentes foram elevar o limite atual de 35 anos para 45 ou 50 anos.</p><p>J&amp;aacute; a altera&amp;ccedil;&amp;atilde;o no modelo de indica&amp;ccedil;&amp;atilde;o dos ministros dividiu mais as opini&amp;otilde;es: entre 86 respostas, 52 candidatos, ou 60,5%, defenderam mudan&amp;ccedil;as, incluindo maior participa&amp;ccedil;&amp;atilde;o de outros Poderes e institui&amp;ccedil;&amp;otilde;es no processo.</p><p>Outra proposta que recebeu maioria de apoio foi a limita&amp;ccedil;&amp;atilde;o das decis&amp;otilde;es monocr&amp;aacute;ticas. Dos 87 candidatos que responderam &amp;agrave; quest&amp;atilde;o, 76 defenderam algum tipo de restri&amp;ccedil;&amp;atilde;o ao poder individual dos ministros, especialmente em decis&amp;otilde;es de grande impacto sobre leis, atos de outros Poderes ou delibera&amp;ccedil;&amp;otilde;es do Congresso.</p><p>Parte dos entrevistados, contudo, admite decis&amp;otilde;es individuais em situa&amp;ccedil;&amp;otilde;es urgentes, desde que sejam submetidas posteriormente ao plen&amp;aacute;rio ou ao colegiado competente.</p><p>Saiba Mais Mundo Como fazendeira ajudou polícia a prender suspeitos de ataque a base militar no Reino Unido Diversão e Arte PlayStation publica novas imagens e detalhes de 'God of War Laufey' Política Senado abre consulta pública sobre MP que proíbe bets Mariana Morais Governo Lula emite comunicado após Rico Melquiades anunciar mudança para Portugal Política Lula diz que retirar título de Nossa Senhora Aparecida &quot;não é aceitável&quot; Mariana Morais Rafa Justus se pronuncia após Ticiane Pinheiro dançar funk ao vivo na Globo</p>",
+        "fonteNome": "Correio Braziliense - Política",
+        "fonteUrl": "https://www.correiobraziliense.com.br/politica/2026/09/7509696-mandato-fixo-no-stf-ganha-apoio-entre-candidatos-ao-senado.html",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -971,33 +703,33 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O ministro Flávio Dino cassou neste domingo (27) uma decisão de André Mendonça que havia determinado a remoção de uma publicação do humorista Antonio Tabet sobre um suposto ataque a Nossa Senhora Aparecida. A medida gerou amplo debate jurídico sobre a forma como a decisão foi concedida e seus desdobramentos processuais."
+            "resposta": "A ado&ccedil;&atilde;o de mandatos com prazo determinado para ministros do Supremo Tribunal Federal (STF) &eacute; defendida por 81 dos 89 candidatos ao Senado que responderam ao tema em levantamento realizado com postulantes que aparecem nas primeiras posi&ccedil;&otilde;es das pesquisas eleitorais de 2026. O n&uacute;mero representa 91% dos entrevistados. "
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Em entrevista à CNN , Rogéria Dotti, presidente da Comissão de Processo Civil da OAB Nacional, avaliou que a principal preocupação não está no mérito da decisão, mas no caminho processual utilizado para obtê-la. Segundo ela, o que ocorreu não foi propriamente um recurso, já que o recurso cabível deveria ser direcionado ao plenário do próprio Tribunal Superio"
+            "resposta": "Siga o canal do Correio Braziliense no WhatsApp e receba as principais notícias do dia no seu celular."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "\"Há uma profunda preocupação do ponto de vista processual porque parece violar o devido processo legal\", afirma ela."
+            "resposta": "Entre os candidatos favor&aacute;veis &agrave; mudan&ccedil;a, as propostas para a dura&ccedil;&atilde;o do mandato variam. O per&iacute;odo mais curto citado foi de oito anos, enquanto o mais longo chegou a 20 anos. A maior concentra&ccedil;&atilde;o das respostas ficou entre 10 e 12 anos. Os defensores da medida mencionaram, entre os argumentos, a possibil"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Em vez de seguir o rito adequado, o humorista apresentou uma simples petição diretamente a Flávio Dino, inserida em outro processo que dizia respeito a partes distintas — Marlon Reis e Deltan Dallagnol."
+            "resposta": "Atualmente, os ministros do Supremo permanecem no cargo at&eacute; a aposentadoria compuls&oacute;ria, aos 75 anos. A mudan&ccedil;a j&aacute; &eacute; discutida no Congresso por meio de propostas de emenda &agrave; Constitui&ccedil;&atilde;o. A PEC 16/2019, de autoria do senador Pl&iacute;nio Val&eacute;rio (PSDB-AM), estabelece mandato de oito anos, sem re"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O argumento utilizado foi o de que havia matéria semelhante naquele outro caso, no qual Dino já figurava como relator e já havia proferido decisão favorável. \"A grande preocupação é o modo como essa decisão do ministro Flávio Dino foi concedida\", afirmou Rogéria Dotti."
+            "resposta": "Os candidatos tamb&eacute;m apresentaram ressalvas sobre o modelo. Parte dos entrevistados favor&aacute;veis ao mandato fixo ressaltou que eventual altera&ccedil;&atilde;o precisa preservar a independ&ecirc;ncia institucional do Supremo. Outros citaram experi&ecirc;ncias de pa&iacute;ses como Alemanha e It&aacute;lia como refer&ecirc;ncias para a discuss&ati"
           }
         ]
       }
     }
   ],
-  "reapuradoEm": "2026-09-28T13:41:48.470Z",
+  "reapuradoEm": "2026-09-28T14:29:06.805Z",
   "diagnosticoReapuracao": {
-    "produzidas": 13,
+    "produzidas": 8,
     "jaProntas": 0,
-    "incompletas": 10,
+    "incompletas": 11,
     "falhas": 0
   }
 }
