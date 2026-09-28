@@ -1,16 +1,16 @@
 {
-  "geradoEm": "2026-09-28T21:47:57.074Z",
+  "geradoEm": "2026-09-28T22:47:57.035Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
-    "totalPendentes": 65,
+    "totalPendentes": 62,
     "bloqueadas": 0,
-    "bloqueadasEditoriais": 5,
+    "bloqueadasEditoriais": 6,
     "semImagem": 0,
-    "duplicadasBasicas": 0,
+    "duplicadasBasicas": 2,
     "duplicadasSemanticas": 2,
-    "foraCategorias": 29
+    "foraCategorias": 25
   },
-  "quantidadeCandidatas": 29,
+  "quantidadeCandidatas": 27,
   "candidatas": [
     {
       "id": "6c82479d9ae7d09f",
@@ -69,82 +69,26 @@
       }
     },
     {
-      "id": "b1dce463fdee870f",
-      "titulo": "Jovem é presa suspeita de incendiar casa após término de namoro na Serra",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/jovem-e-presa-suspeita-de-incendiar-casa-apos-termino-de-namoro-na-serra-0926",
-      "dataFonte": "2026-09-28T19:26:05.000Z",
-      "resumoFonte": "Segundo a PM, mulher de 18 anos também ameaçou e agrediu o ex-companheiro; ela afirma que fogo começou após brasas de cigarro caírem no sofá",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790608353937_template_radar_a_gazeta_36.png",
-      "descobertaEm": "2026-09-28T20:17:59.891Z",
-      "reportagem": {
-        "titulo": "Jovem é presa suspeita de incendiar casa após término de namoro na Serra",
-        "slug": "jovem-e-presa-suspeita-de-incendiar-casa-apos-termino-de-namoro-na-serra",
-        "categoria": "Segurança Pública",
-        "data": "2026-09-28",
-        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790608353937_template_radar_a_gazeta_36.png",
-        "resumo": "Segundo a PM, mulher de 18 anos também ameaçou e agrediu o ex-companheiro; ela afirma que fogo começou após brasas de cigarro caírem no sofá",
-        "conteudo": "<p>Uma jovem de 18 anos foi presa em flagrante após incendiar a casa onde morava com o namorado, no bairro Feu Rosa, na Serra , no domingo (27). Segundo a Polícia Militar, o episódio ocorreu após o homem decidir terminar o relacionamento. O fogo foi contido por vizinhos e ninguém ficou ferido.</p><h2>Identificada como Ramona Vitória de Jesus Queiroz,</h2><p>Identificada como Ramona Vitória de Jesus Queiroz, a jovem mantinha um relacionamento havia cerca de três meses com um homem de 36 anos. De acordo com vizinhos, a jovem tinha um temperamento desafiador e agredia o namorado antes do incêndio.</p><p>Segundo relatos colhidos no local, no sábado (26), Ramona estava em uma feijoada no bairro quando começou a discutir com uma vizinha. O companheiro foi até o local para tentar intervir, mas teria sido ameaçado com um facão. Depois do episódio, ele decidiu encerrar o relacionamento.</p><p>Ainda conforme o relato registrado pela PM, Ramona se recusou a deixar a residência e teria ameaçado o companheiro com uma faca enquanto ele dormisse. Diante da situação, o homem foi para a casa da mãe e disse que voltaria para buscar os seus pertences no dia seguinte.</p><h2>Ele voltou ao imóvel no domingo (27) e</h2><p>Segundo a Polícia, ele voltou ao imóvel no domingo (27) e foi agredido por Ramona enquanto retirava os objetos. Na sequência, a jovem ateou fogo na residência e voltou a avançar contra o ex-companheiro. Durante as agressões, o homem sofreu uma lesão na mão direita. A situação só foi contida após a intervenção de vizinhos.</p><p>O Corpo de Bombeiros foi acionado, mas, quando chegou ao local, as chamas já tinha sido apagas por moradores. O incêndio começou no quarto da enteada da mulher, uma adolescente de 13 anos, que não se encontrava na casa no momento. Ninguém ficou ferido em decorrência do fogo.</p><p>No entanto, Ramona apresentou outra versão aos policiais. Segundo ela, ao acender um cigarro, brasas caíram no sofá e, quando percebeu o cheiro de fumaça, a casa já estava em chamas. A jovem apresentava escoriações leves nas costas, no braço esquerdo e na coxa esquerda, que, conforme o registro policia, teriam ocorrido durante agreções entre os envolvidos.</p><p>Uma vizinha, que também é familiar do homem, afirmou à reportagem que Ramona está grávida e que o relacionamento durava cerca de três meses.</p><p>A Polícia Civil informou que a jovem foi conduzida à Delegacia Regional da Serra e autuada em flagrante por lesão corporal qualificada, ameaça e por causar incêndio, expondo a perigo a vida, a integridade física ou o patrimônio de terceiros. Ela foi encaminhada ao Centro Prisional Feminino de Cariacica.</p>",
-        "fonteNome": "A Gazeta - Polícia",
-        "fonteUrl": "https://www.agazeta.com.br/es/policia/jovem-e-presa-suspeita-de-incendiar-casa-apos-termino-de-namoro-na-serra-0926",
-        "fontesAdicionais": [
-          {
-            "nome": "SESP-ES",
-            "url": "https://sesp.es.gov.br/Noticias"
-          },
-          {
-            "nome": "Polícia Civil do ES",
-            "url": "https://pc.es.gov.br/Noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Uma jovem de 18 anos foi presa em flagrante após incendiar a casa onde morava com o namorado, no bairro Feu Rosa, na Serra , no domingo (27). Segundo a Polícia Militar, o episódio ocorreu após o homem decidir terminar o relacionamento. O fogo foi contido por vizinhos e ninguém ficou ferido."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Identificada como Ramona Vitória de Jesus Queiroz, a jovem mantinha um relacionamento havia cerca de três meses com um homem de 36 anos. De acordo com vizinhos, a jovem tinha um temperamento desafiador e agredia o namorado antes do incêndio."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Segundo relatos colhidos no local, no sábado (26), Ramona estava em uma feijoada no bairro quando começou a discutir com uma vizinha. O companheiro foi até o local para tentar intervir, mas teria sido ameaçado com um facão. Depois do episódio, ele decidiu encerrar o relacionamento."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Ainda conforme o relato registrado pela PM, Ramona se recusou a deixar a residência e teria ameaçado o companheiro com uma faca enquanto ele dormisse. Diante da situação, o homem foi para a casa da mãe e disse que voltaria para buscar os seus pertences no dia seguinte."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Segundo a Polícia, ele voltou ao imóvel no domingo (27) e foi agredido por Ramona enquanto retirava os objetos. Na sequência, a jovem ateou fogo na residência e voltou a avançar contra o ex-companheiro. Durante as agressões, o homem sofreu uma lesão na mão direita. A situação só foi contida após a intervenção de vizinhos."
-          }
-        ]
-      }
-    },
-    {
-      "id": "2fcdae6277bc79ec",
-      "titulo": "Flávio Bolsonaro vai a podcast católico após desgaste com notícia falsa sobre Nossa Senhora",
+      "id": "ee510a4f44588913",
+      "titulo": "Gayer e Gracinha lideram disputa pelo Senado em GO, diz pesquisa",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/blogs/brasilia-hoje/2026/09/flavio-bolsonaro-vai-a-podcast-catolico-apos-desgaste-com-noticia-falsa-sobre-nossa-senhora.shtml",
-      "dataFonte": "2026-09-28T19:05:00.000Z",
-      "resumoFonte": "Flávio Bolsonaro ( PL ), candidato a presidente, vai participar, nesta segunda-feira (28), do podcast SantoFlow, um programa católico, após a polêmica envolvendo a fake news de que o senador retiraria de Nossa Senhora Aparecida o título de padroeira do Brasil. O programa vai ao ar às 21h. Leia mais (09/28/2026 - 16h05)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/09/28/17906218696abab8adb0b71_1790621869_3x2_rt.jpg",
-      "descobertaEm": "2026-09-28T19:17:58.862Z",
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/gayer-e-gracinha-lideram-disputa-pelo-senado-em-go-diz-pesquisa/",
+      "dataFonte": "2026-09-28T21:08:25.000Z",
+      "resumoFonte": "O deputado federal Gustavo Gayer (PL) lidera a disputa pelas duas vagas de Goiás no Senado, segundo pesquisa do Instituto Veritá. Na consolidação das duas escolhas dos eleitores, Gayer é citado por 41,8% dos entrevistados. O levantamento mostra que o parlamentar é seguido pela ex-primeira-dama de Goiás Gracinha Caiado, que tem 38,6% das intenções…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/gayer-e-gracinha-caiado-910x568.jpg.webp",
+      "descobertaEm": "2026-09-28T21:17:58.102Z",
       "reportagem": {
-        "titulo": "Brasília Hoje: Flávio Bolsonaro vai a podcast católico após desgaste com notícia falsa sobre Nossa Senhora",
-        "slug": "brasilia-hoje-flavio-bolsonaro-vai-a-podcast-catolico-apos-desgaste-com-noticia-falsa-sobre-nossa-senhora",
+        "titulo": "Gayer e Gracinha lideram disputa pelo Senado em GO, diz pesquisa",
+        "slug": "gayer-e-gracinha-lideram-disputa-pelo-senado-em-go-diz-pesquisa",
         "categoria": "Política Nacional",
         "data": "2026-09-28",
-        "imagem": "https://f.i.uol.com.br/fotografia/2026/09/28/17906218696abab8adb0b71_1790621869_3x2_rt.jpg",
-        "resumo": "Candidato do PL tenta conter danos de boato de que tiraria o título da padroeira da Brasil",
-        "conteudo": "<p>Bastidores, vídeos e análises de economia e política. De segunda a sexta-feira.</p><h2>Você tem 7 acessos por dia para dar</h2><p>Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler.</p><p>Assinantes podem liberar 7 acessos por dia para conteúdos da Folha.</p><p>Flávio Bolsonaro ( PL ), candidato a presidente, vai participar, nesta segunda-feira (28), do podcast SantoFlow, um programa católico, após a polêmica envolvendo a fake news de que o senador retiraria de Nossa Senhora Aparecida o título de padroeira do Brasil. O programa vai ao ar às 21h.</p><h2>Notícia falsa viralizou nos últimos dias e tem</h2><p>A notícia falsa viralizou nos últimos dias e tem preocupado a campanha do senador, que colocou em prática uma série de respostas à crise, incluindo acionar o TSE (Tribunal Superior Eleitoral) para tentar conter a circulação das publicações.</p><p>Nesta segunda, durante evento de campanha em São Paulo , Flávio segurou uma imagem de Nossa Senhora e agradeceu à CNBB (Conferência Nacional de Bispos do Brasil) um dia após responsabilizar &quot;gente de dentro&quot; da entidade católica pela notícia falsa.</p><p>Receba no seu email destaques das campanhas, pesquisas e disputas nos estados</p><p>Desde que a notícia falsa viralizou, a campanha de Flávio tem tentado conter danos para a candidatura. A desinformação virou munição de rivais e abriu uma disputa religiosa com aliados de Lula (PT). O tema envolvendo Nossa Senhora Aparecida já foi utilizado, por exemplo, pela primeira-dama Janja e pelo vice-presidente Geraldo Alckmin (PSB) nas redes sociais.</p><p>A fake news começou a circular na semana passada e gira em torno de um projeto arquivado há quase 20 anos para retirar de Nossa Senhora Aparecida o título de Padroeira do Brasil. O texto foi apresentado em 2007 pelo então deputado federal Victorio Galli (MT), que foi assessor especial da Presidência da República no governo de Jair Bolsonaro (PL), porém, foi arquivado em 2008.</p><p>LINK PRESENTE: Gostou deste texto? Assinante pode liberar sete acessos gratuitos de qualquer link por dia. Basta clicar no F azul abaixo.</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/blogs/brasilia-hoje/2026/09/flavio-bolsonaro-vai-a-podcast-catolico-apos-desgaste-com-noticia-falsa-sobre-nossa-senhora.shtml",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/gayer-e-gracinha-caiado-910x568.jpg.webp",
+        "resumo": "Instituto Veritá mostra deputado do PL com 41,8% das citações na soma das duas escolhas; ex-primeira-dama registra 38,6%",
+        "conteudo": "<p>Jornalista formada pela Universidade Católica de Brasília, atua na cobertura do Congresso Nacional e do Palácio do Planalto pela Revista Oeste. Antes, fez parte das redações de Poder360, Correio Braziliense, Alô Brasília e Aqui DF. Também foi editora na TV Brasília.</p><h2>Deputado federal Gustavo Gayer (PL) lidera a disputa</h2><p>O deputado federal Gustavo Gayer (PL) lidera a disputa pelas duas vagas de Goiás no Senado, segundo pesquisa do Instituto Veritá. Na consolidação das duas escolhas dos eleitores, Gayer é citado por 41,8% dos entrevistados.</p><p>O levantamento mostra que o parlamentar é seguido pela ex-primeira-dama de Goiás Gracinha Caiado, que tem 38,6% das intenções de voto no Estado. Zacharias Calil aparece na terceira posição, com 30,9%.</p><p>+ Flávio chega a quase 60% contra Lula no 2º turno em GO, aponta Pesquisa Veritá</p><h2>Como cada eleitor poderá escolher dois candidatos ao</h2><p>Como cada eleitor poderá escolher dois candidatos ao Senado, os porcentuais consolidados indicam a parcela dos entrevistados que mencionou cada nome em uma das duas escolhas e, por isso, não somam 100%.</p><p>A vantagem do candidato do PL também aparece quando considerada apenas a primeira opção para o Senado. Nesse cenário, Gayer registra 32,1%, enquanto Gracinha aparece com 24,7% — diferença de 7,4 pontos porcentuais. Zacharias Calil novamente ocupa a terceira posição, com 20,4%.</p><p>Como estão em disputa duas cadeiras no Senado, o levantamento também mediu a segunda escolha dos entrevistados e apresentou o resultado consolidado das duas opções.</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/gayer-e-gracinha-lideram-disputa-pelo-senado-em-go-diz-pesquisa/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -159,38 +103,82 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Bastidores, vídeos e análises de economia e política. De segunda a sexta-feira."
+            "resposta": "Jornalista formada pela Universidade Católica de Brasília, atua na cobertura do Congresso Nacional e do Palácio do Planalto pela Revista Oeste. Antes, fez parte das redações de Poder360, Correio Braziliense, Alô Brasília e Aqui DF. Também foi editora na TV Brasília."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler."
+            "resposta": "O deputado federal Gustavo Gayer (PL) lidera a disputa pelas duas vagas de Goiás no Senado, segundo pesquisa do Instituto Veritá. Na consolidação das duas escolhas dos eleitores, Gayer é citado por 41,8% dos entrevistados."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Assinantes podem liberar 7 acessos por dia para conteúdos da Folha."
+            "resposta": "O levantamento mostra que o parlamentar é seguido pela ex-primeira-dama de Goiás Gracinha Caiado, que tem 38,6% das intenções de voto no Estado. Zacharias Calil aparece na terceira posição, com 30,9%."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Flávio Bolsonaro ( PL ), candidato a presidente, vai participar, nesta segunda-feira (28), do podcast SantoFlow, um programa católico, após a polêmica envolvendo a fake news de que o senador retiraria de Nossa Senhora Aparecida o título de padroeira do Brasil. O programa vai ao ar às 21h."
+            "resposta": "+ Flávio chega a quase 60% contra Lula no 2º turno em GO, aponta Pesquisa Veritá"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A notícia falsa viralizou nos últimos dias e tem preocupado a campanha do senador, que colocou em prática uma série de respostas à crise, incluindo acionar o TSE (Tribunal Superior Eleitoral) para tentar conter a circulação das publicações."
+            "resposta": "Como cada eleitor poderá escolher dois candidatos ao Senado, os porcentuais consolidados indicam a parcela dos entrevistados que mencionou cada nome em uma das duas escolhas e, por isso, não somam 100%."
           }
         ]
       }
     },
     {
-      "id": "3ad5c3c0a9d0b166",
-      "titulo": "Ibovespa tem baixa de olho em Treasuries, petróleo e eleições nesta segunda-feira",
+      "id": "d74ff01439d0d5f6",
+      "titulo": "Vida global, carteira local: o paradoxo do investidor brasileiro",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/economia/ibovespa-tem-baixa-de-olho-em-treasuries-petroleo-e-eleicoes-nesta-segunda-feira/",
-      "dataFonte": "2026-09-28T21:03:14.000Z",
-      "resumoFonte": "Para especialistas, bolsa de valores deve ter semana volátil com indicadores econômicos no Brasil e nos EUA",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2025/11/GettyImages-1236444882-e1764968991535.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-28T21:17:58.102Z"
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/branded-content/economia/money/vida-global-carteira-local-o-paradoxo-do-investidor-brasileiro-2/",
+      "dataFonte": "2026-09-28T21:31:31.000Z",
+      "resumoFonte": "Concentrado em ativos domésticos, o investidor brasileiro ainda busca equilibrar o conforto do CDI com oportunidades no mercado global.",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/1920x1080_eeaf2a.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-28T22:05:55.707Z",
+      "reportagem": {
+        "titulo": "Vida global, carteira local: o paradoxo do investidor brasileiro",
+        "slug": "vida-global-carteira-local-o-paradoxo-do-investidor-brasileiro",
+        "categoria": "Economia",
+        "data": "2026-09-28",
+        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/1920x1080_eeaf2a.png?w=1200&h=630&crop=1",
+        "resumo": "Concentrado em ativos domésticos, o investidor brasileiro ainda busca equilibrar o conforto do CDI com oportunidades no mercado global.",
+        "conteudo": "<p>Em um mundo globalizado, o acesso ao exterior não acontece mais de maneira pontual. Desde a rotina básica de consumo diário até movimentos internacionais, o consumo do brasileiro é, em parte, dolarizado. Segundo estudos da FGV, realizados em 2024, entre 16% e 18% do consumo do brasileiro está sujeito ao câmbio, mostrando que essa relação com o exterior deixou de ser pontual e faz parte do estilo de vida.</p><h2>Quando o assunto é investimento, porém, as fronteiras</h2><p>Quando o assunto é investimento, porém, as fronteiras são visíveis. O Brasil está entre os países em que investidores apresentam elevado home bias , expressão usada para definir a preferência por manter a concentração dos investimentos no próprio mercado. Levantamentos do mesmo estudo apontam que a parcela de investimentos internacionais declarada no Imposto de Renda em 2024 foi de 2,2% do patrimônio, demonstrando a tendência do investidor brasileiro de manter seus recursos em ativos domésticos.</p><p>Um dos fatores que mais influenciam a permanência do investidor brasileiro em ativos domésticos é a taxa básica de juros historicamente elevada no país. Se analisarmos a janela dos últimos 20 anos, por exemplo, a rentabilidade acumulada do CDI corresponde a uma média anual composta de 10,25%. A depender do ano analisado, o CDI pagou taxas ainda mais elevadas, caso, inclusive, de 2026, que até setembro mantém um ritmo de aproximadamente 12,5% de rentabilidade no ano.</p><p>Com retornos próximos de 1% ao mês em ativos de renda fixa, a preferência pelo mercado doméstico parece natural. No entanto, uma perspectiva global mostra que, embora ativos de renda fixa americanos com nível de risco de crédito semelhante ofereçam taxas nominais mais baixas, a valorização do dólar frente ao real ao longo do tempo pode contribuir para retornos finais superiores para o investidor brasileiro.</p><h2>Além disso, quando comparado a outros mercados</h2><p>Além disso, quando comparado a outros mercados do mundo, o mercado brasileiro ainda apresenta níveis intermediários de rating e oferece riscos e menor oportunidade de exposição a setores e empresas relevantes do mercado global.</p><p>O que vale observar é que, ao investir parte do patrimônio internacionalmente, o investidor passa a ter exposição a outras economias, moedas, setores e classes de ativos. Ou seja, a carteira deixa de depender exclusivamente das condições econômicas, fiscais e financeiras de um único país, reduzindo o risco sistêmico de uma única economia. Soma-se a isso a vida globalizada do investidor, que reforça a necessidade de uma estratégia de proteção da carteira.</p><p>Além da estratégia de proteção, a diversificação internacional também permite o acesso a oportunidades que não estão disponíveis, ou têm presença mais limitada, no mercado brasileiro, como, por exemplo, estruturas de produtos, setores, empresas e tendências, com um universo significativamente maior de ativos e estratégias.</p><p>“Investir internacionalmente vai além da proteção. É uma forma de acessar oportunidades que não existem no mercado local e participar das transformações que estão moldando o futuro da economia global. A diversificação internacional protege o patrimônio, mas, acima de tudo, amplia possibilidades”, afirma Martin Iglesias, Especialista Líder em Recomendação do Itaú.</p><p>Isso não significa substituir os investimentos feitos no Brasil, mas combinar opções locais e internacionais de acordo com o perfil, os objetivos e o horizonte de tempo de cada investidor, alocando investimentos que reagem de diferentes formas aos variados acontecimentos econômicos globais.</p><p>No Itaú Personnalité , o investimento internacional é tratado como um componente de uma carteira verdadeiramente diversificada. A instituição oferece soluções de investimento no Brasil e no exterior, aliadas a estratégias de alocação que consideram diferentes perfis e momentos de vida.</p><p>Um time de especialistas em investimentos on e offshore apoia o acesso a mercados globais, a diversificação de potenciais fontes de retorno, a redução da dependência de uma única economia e a dolarização do patrimônio. A proposta é facilitar a inclusão da diversificação internacional no portfólio de quem já vive de forma cada vez mais global.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/branded-content/economia/money/vida-global-carteira-local-o-paradoxo-do-investidor-brasileiro-2/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Em um mundo globalizado, o acesso ao exterior não acontece mais de maneira pontual. Desde a rotina básica de consumo diário até movimentos internacionais, o consumo do brasileiro é, em parte, dolarizado. Segundo estudos da FGV, realizados em 2024, entre 16% e 18% do consumo do brasileiro está sujeito ao câmbio, mostrando que essa relação com o exterior deixo"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Quando o assunto é investimento, porém, as fronteiras são visíveis. O Brasil está entre os países em que investidores apresentam elevado home bias , expressão usada para definir a preferência por manter a concentração dos investimentos no próprio mercado. Levantamentos do mesmo estudo apontam que a parcela de investimentos internacionais declarada no Imposto"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Um dos fatores que mais influenciam a permanência do investidor brasileiro em ativos domésticos é a taxa básica de juros historicamente elevada no país. Se analisarmos a janela dos últimos 20 anos, por exemplo, a rentabilidade acumulada do CDI corresponde a uma média anual composta de 10,25%. A depender do ano analisado, o CDI pagou taxas ainda mais elevadas"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Com retornos próximos de 1% ao mês em ativos de renda fixa, a preferência pelo mercado doméstico parece natural. No entanto, uma perspectiva global mostra que, embora ativos de renda fixa americanos com nível de risco de crédito semelhante ofereçam taxas nominais mais baixas, a valorização do dólar frente ao real ao longo do tempo pode contribuir para retorn"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Além disso, quando comparado a outros mercados do mundo, o mercado brasileiro ainda apresenta níveis intermediários de rating e oferece riscos e menor oportunidade de exposição a setores e empresas relevantes do mercado global."
+          }
+        ]
+      }
     },
     {
       "id": "c307c0cb9f6e03d5",
@@ -340,128 +328,72 @@
       }
     },
     {
-      "id": "f27dd76633cb7e86",
-      "titulo": "Após proibição, mais de 500 novas bets ilegais foram criadas, aponta levantamento",
+      "id": "5436c8bab16e1dba",
+      "titulo": "Justiça absolve ex-prefeito e clube de futebol em ação sobre terreno de R$ 480 mil no ES",
       "categoria": "Esporte",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/economia/noticia/2026/09/28/bets-ilegais-foram-criadas-aponta-levantamento.ghtml",
-      "dataFonte": "2026-09-28T20:30:25.000Z",
-      "resumoFonte": "Lula diz que acabar com bets não traz 'prejuízo para o futebol' Um levantamento da plataforma Bet Legal mostra que 543 casas de apostas foram lançadas ilegalmente após a proibição das bets pelo governo federal na última sexta-feira (25). O número considera as novas casas identificadas entre as 18h de sexta-feira e a tarde desta segunda-feira (28).…",
-      "imagem": "https://s2-g1.glbimg.com/ZQfCrZ-Mwzko_YBlo5PIadc4Fu4=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/I/LoPoJyQQWmSUYxxqBuRA/globo-canal-4-20260925-2000-frame-159558.jpeg",
-      "descobertaEm": "2026-09-28T21:17:58.102Z"
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/es/politica/justica-absolve-ex-prefeito-e-clube-de-futebol-em-acao-sobre-terreno-de-r-480-mil-no-es-0926",
+      "dataFonte": "2026-09-28T21:19:48.000Z",
+      "resumoFonte": "Reformulação em lei livrou réus de condenação",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790611220862_midias_jpg_2018_05_18_law_5615639.jpg",
+      "descobertaEm": "2026-09-28T22:05:55.707Z",
+      "reportagem": {
+        "titulo": "Justiça absolve ex-prefeito e clube de futebol em ação sobre terreno de R$ 480 mil no ES",
+        "slug": "justica-absolve-ex-prefeito-e-clube-de-futebol-em-acao-sobre-terreno-de-r-480-mil-no-es",
+        "categoria": "Esporte",
+        "data": "2026-09-28",
+        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790611220862_midias_jpg_2018_05_18_law_5615639.jpg",
+        "resumo": "Justiça absolve ex-prefeito e clube de futebol em ação sobre terreno de R$ 480 mil no ES. Registro original em A Gazeta - Capa. A Redação Notícia ES reapurou a pauta para a editoria Esporte.",
+        "conteudo": "<p>Uma decisão da Justiça do Espírito Santo absolveu o ex-prefeito de Jaguaré Domingos Sávio Martins e um clube de futebol da cidade, em uma ação de improbidade administrativa envolvendo um acordo judicial de R$ 480 mil relacionado a uma área no município, localizado no Norte do Estado.</p><h2>Sentença é do juiz Thiago Albani Oliveira Galvêas,</h2><p>A sentença é do juiz Thiago Albani Oliveira Galvêas, da Vara Única de Jaguaré, e foi assinada em 22 de setembro. A absolvição dos réus ocorreu também com base em manifestação do Ministério Público Estadual (MPES) pela improcedência da ação, ajuizada em 2013.</p><p>O caso teve origem na disputa pela área localizada no centro da cidade. O imóvel teria sido doado ao município em 1994, sendo emprestado ao Botafogo Futebol Clube de Jaguaré em seguida.</p><p>Em 2006, a prefeitura ajuizou uma ação de reintegração de posse contra a agremiação, na tentativa de reaver o terreno. Segundo o processo, durante a gestão de Domingos Sávio como prefeito, entre 2011 e 2013, foi celebrada uma transação judicial na qual o município pagaria R$ 480 mil ao Botafogo Futebol Clube para reter 75% da área.</p><h2>O que o Conselho vai decidir</h2><p>À época, entretanto, o MPES entrou com ação no Tribunal de Justiça do Espírito Santo (TJES) visando à anulação do acordo, garantindo que a posse do terreno permanecesse integralmente com o município. Com o cancelamento da transação por decisão judicial, nenhum valor chegou a ser pago aos réus.</p><p>A decisão que rejeitou a ação civil oública levou em conta a aplicação retroativa da Lei nº 14.230/2021 (Lei de Improbidade Administrativa), conforme entendimento do Supremo Tribunal Federal (STF).</p><p>Nos autos, o magistrado destaca que a nova lei passou a exigir a comprovação de que houve intenção de cometer a irregularidade e suprimiu as situações que podem ser consideradas atos de improbidade.</p><p>Com a mudança na lei, o fato apontado na ação deixou de se enquadrar como ato de improbidade. Além disso, não foi comprovado que o ex-prefeito teria agido com a intenção de causar prejuízo ao município ou beneficiar alguém, diz a sentença.</p><p>A decisão também considerou que a tentativa de acordo com o clube de futebol tinha previsão em uma lei municipal aprovada pela Câmara de Vereadores.</p><p>Outro ponto foi que não houve prejuízo aos cofres públicos. Os R$ 480 mil previstos no acordo não chegaram a ser pagos. Por isso, o próprio Ministério Público pediu que a ação fosse rejeitada.</p>",
+        "fonteNome": "A Gazeta - Capa",
+        "fonteUrl": "https://www.agazeta.com.br/es/politica/justica-absolve-ex-prefeito-e-clube-de-futebol-em-acao-sobre-terreno-de-r-480-mil-no-es-0926",
+        "fontesAdicionais": [
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          },
+          {
+            "nome": "Tribuna Online",
+            "url": "https://tribunaonline.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Uma decisão da Justiça do Espírito Santo absolveu o ex-prefeito de Jaguaré Domingos Sávio Martins e um clube de futebol da cidade, em uma ação de improbidade administrativa envolvendo um acordo judicial de R$ 480 mil relacionado a uma área no município, localizado no Norte do Estado."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A sentença é do juiz Thiago Albani Oliveira Galvêas, da Vara Única de Jaguaré, e foi assinada em 22 de setembro. A absolvição dos réus ocorreu também com base em manifestação do Ministério Público Estadual (MPES) pela improcedência da ação, ajuizada em 2013."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O caso teve origem na disputa pela área localizada no centro da cidade. O imóvel teria sido doado ao município em 1994, sendo emprestado ao Botafogo Futebol Clube de Jaguaré em seguida."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Em 2006, a prefeitura ajuizou uma ação de reintegração de posse contra a agremiação, na tentativa de reaver o terreno. Segundo o processo, durante a gestão de Domingos Sávio como prefeito, entre 2011 e 2013, foi celebrada uma transação judicial na qual o município pagaria R$ 480 mil ao Botafogo Futebol Clube para reter 75% da área."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "À época, entretanto, o MPES entrou com ação no Tribunal de Justiça do Espírito Santo (TJES) visando à anulação do acordo, garantindo que a posse do terreno permanecesse integralmente com o município. Com o cancelamento da transação por decisão judicial, nenhum valor chegou a ser pago aos réus."
+          }
+        ]
+      }
     },
     {
-      "id": "3aca1230da644f8f",
-      "titulo": "Justiça pede que MPE dê parecer sobre pedido de prisão de servidor de Lula",
+      "id": "9fde3a3f2dd99ffb",
+      "titulo": "Novo pede ao STF que desconsidere pedido de Dino no caso Moraes",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "CNN Brasil - Capa",
-      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/justica-pede-que-mpe-de-parecer-sobre-pedido-de-prisao-de-servidor-de-lula/",
-      "dataFonte": "2026-09-28T20:05:50.000Z",
-      "resumoFonte": "Campanha de Flávio Bolsonaro pediu prisão preventiva, busca e apreensão e, alternativamente, afastamento do servidor e restrição às redes sociais em razão da divulgação de informações falsas sobre Nossa Senhora Aparecida; Ministério Público terá prazo de 24h para se manifestar",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/flavio-bolsonaro_9f968e.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-28T20:19:31.003Z",
-      "reportagem": {
-        "titulo": "Justiça pede que MPE dê parecer sobre pedido de prisão de servidor de Lula",
-        "slug": "justica-pede-que-mpe-de-parecer-sobre-pedido-de-prisao-de-servidor-de-lula",
-        "categoria": "Justiça",
-        "data": "2026-09-28",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/flavio-bolsonaro_9f968e.jpg?w=1200&h=630&crop=1",
-        "resumo": "Campanha de Flávio Bolsonaro pediu prisão preventiva, busca e apreensão e, alternativamente, afastamento do servidor e restrição às redes sociais em razão da divulgação de informações falsas sobre Nossa Senhora Aparecida; Ministério Público terá prazo de 24h para se manifestar",
-        "conteudo": "<p>A Justiça Eleitoral deu 24 horas para que o MPE (Ministério Público Eleitoral) se manifeste sobre o pedido de prisão preventiva de George Marques , coordenador-geral de Estratégia e Informação da Secom (Secretaria de Comunicação Social) da Presidência da República.</p><h2>Pedido foi apresentado pela campanha do candidato</h2><p>O pedido foi apresentado pela campanha do candidato do PL à Presidência, Flávio Bolsonaro (RJ) , em uma notícia-crime. A decisão é do juiz Wagner Pessoa Vieira , do Juízo das Garantias da Justiça Eleitoral.</p><p>Além da prisão preventiva, a campanha pede busca e apreensão contra o servidor. De forma alternativa, solicita que ele seja afastado da função pública e proibido de usar redes sociais.</p><p>Antes de decidir sobre qualquer uma das medidas, o magistrado determinou que o MPE avalie se os fatos têm natureza eleitoral, informe se já há investigação em andamento e se posicione sobre os requisitos legais das cautelares.</p><h2>Em relação à prisão, o juiz quer</h2><p>Em relação à prisão, o juiz quer que o órgão diga expressamente se também requer a medida e quais elementos a justificariam. O MPE deverá ainda analisar a necessidade de preservar conteúdos e registros digitais ligados às publicações atribuídas ao servidor.</p><p>O episódio começou na noite de 23 de setembro, quando passou a circular nas redes sociais a afirmação de que Flávio Bolsonaro, se eleito presidente, retiraria de Nossa Senhora Aparecida o título de Padroeira do Brasil . O candidato nega.</p><p>Segundo a campanha, Marques teria compartilhado nas redes sociais uma publicação que orientava os usuários a ignorar a retratação da imprensa sobre a informação falsa. A postagem dizia: “parem de divulgar a retratação. Deixem o assunto rolar. […] Continuem compartilhando que nossa senhora foi atacada, precisa chegar no interior do Nordeste, no interior do Norte” .</p><p>O documento atribui ao servidor outras republicações sobre o tema e sustenta que elas indicariam tentativa de manter uma informação falsa em circulação durante o período eleitoral.</p><p>A petição pede a abertura de investigação para apurar, em tese, os crimes de divulgação de fato sabidamente inverídico em período eleitoral, incitação ao crime e associação criminosa.</p><p>Em nota, a Secretaria de Comunicação Social da Presidência afirmou que as alegações de Flávio &quot;não procedem&quot;. Disse ainda causar estranheza um &quot;pedido injusto e arbitrário&quot; de prisão de um cidadão brasileiro.</p><p>A Secom afirma que, ao atribuir ao Governo Federal a responsabilidade por uma republicação realizada por George, Flávio estaria distorcendo os fatos e ignorando que a manifestação ocorreu em caráter estritamente pessoal, por meio de perfil particular, fora do horário de expediente e com a utilização de equipamento próprio.</p><p>&quot;O Governo Federal reitera seu compromisso com a liberdade de expressão e de religião de todos os brasileiros e manifesta repúdio e profunda preocupação com o patrulhamento e a censura impostos à população nesse episódio, a pedido do candidato Flávio Bolsonaro&quot; , diz.</p>",
-        "fonteNome": "CNN Brasil - Capa",
-        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/justica-pede-que-mpe-de-parecer-sobre-pedido-de-prisao-de-servidor-de-lula/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A Justiça Eleitoral deu 24 horas para que o MPE (Ministério Público Eleitoral) se manifeste sobre o pedido de prisão preventiva de George Marques , coordenador-geral de Estratégia e Informação da Secom (Secretaria de Comunicação Social) da Presidência da República."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O pedido foi apresentado pela campanha do candidato do PL à Presidência, Flávio Bolsonaro (RJ) , em uma notícia-crime. A decisão é do juiz Wagner Pessoa Vieira , do Juízo das Garantias da Justiça Eleitoral."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Além da prisão preventiva, a campanha pede busca e apreensão contra o servidor. De forma alternativa, solicita que ele seja afastado da função pública e proibido de usar redes sociais."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Antes de decidir sobre qualquer uma das medidas, o magistrado determinou que o MPE avalie se os fatos têm natureza eleitoral, informe se já há investigação em andamento e se posicione sobre os requisitos legais das cautelares."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Em relação à prisão, o juiz quer que o órgão diga expressamente se também requer a medida e quais elementos a justificariam. O MPE deverá ainda analisar a necessidade de preservar conteúdos e registros digitais ligados às publicações atribuídas ao servidor."
-          }
-        ]
-      }
-    },
-    {
-      "id": "ee510a4f44588913",
-      "titulo": "Gayer e Gracinha lideram disputa pelo Senado em GO, diz pesquisa",
-      "categoria": "Política Nacional",
-      "radar": null,
       "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/gayer-e-gracinha-lideram-disputa-pelo-senado-em-go-diz-pesquisa/",
-      "dataFonte": "2026-09-28T21:08:25.000Z",
-      "resumoFonte": "O deputado federal Gustavo Gayer (PL) lidera a disputa pelas duas vagas de Goiás no Senado, segundo pesquisa do Instituto Veritá. Na consolidação das duas escolhas dos eleitores, Gayer é citado por 41,8% dos entrevistados. O levantamento mostra que o parlamentar é seguido pela ex-primeira-dama de Goiás Gracinha Caiado, que tem 38,6% das intenções…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/gayer-e-gracinha-caiado-910x568.jpg.webp",
-      "descobertaEm": "2026-09-28T21:17:58.102Z",
-      "reportagem": {
-        "titulo": "Gayer e Gracinha lideram disputa pelo Senado em GO, diz pesquisa",
-        "slug": "gayer-e-gracinha-lideram-disputa-pelo-senado-em-go-diz-pesquisa",
-        "categoria": "Política Nacional",
-        "data": "2026-09-28",
-        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/gayer-e-gracinha-caiado-910x568.jpg.webp",
-        "resumo": "Instituto Veritá mostra deputado do PL com 41,8% das citações na soma das duas escolhas; ex-primeira-dama registra 38,6%",
-        "conteudo": "<p>Jornalista formada pela Universidade Católica de Brasília, atua na cobertura do Congresso Nacional e do Palácio do Planalto pela Revista Oeste. Antes, fez parte das redações de Poder360, Correio Braziliense, Alô Brasília e Aqui DF. Também foi editora na TV Brasília.</p><h2>Deputado federal Gustavo Gayer (PL) lidera a disputa</h2><p>O deputado federal Gustavo Gayer (PL) lidera a disputa pelas duas vagas de Goiás no Senado, segundo pesquisa do Instituto Veritá. Na consolidação das duas escolhas dos eleitores, Gayer é citado por 41,8% dos entrevistados.</p><p>O levantamento mostra que o parlamentar é seguido pela ex-primeira-dama de Goiás Gracinha Caiado, que tem 38,6% das intenções de voto no Estado. Zacharias Calil aparece na terceira posição, com 30,9%.</p><p>+ Flávio chega a quase 60% contra Lula no 2º turno em GO, aponta Pesquisa Veritá</p><h2>Como cada eleitor poderá escolher dois candidatos ao</h2><p>Como cada eleitor poderá escolher dois candidatos ao Senado, os porcentuais consolidados indicam a parcela dos entrevistados que mencionou cada nome em uma das duas escolhas e, por isso, não somam 100%.</p><p>A vantagem do candidato do PL também aparece quando considerada apenas a primeira opção para o Senado. Nesse cenário, Gayer registra 32,1%, enquanto Gracinha aparece com 24,7% — diferença de 7,4 pontos porcentuais. Zacharias Calil novamente ocupa a terceira posição, com 20,4%.</p><p>Como estão em disputa duas cadeiras no Senado, o levantamento também mediu a segunda escolha dos entrevistados e apresentou o resultado consolidado das duas opções.</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/gayer-e-gracinha-lideram-disputa-pelo-senado-em-go-diz-pesquisa/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Jornalista formada pela Universidade Católica de Brasília, atua na cobertura do Congresso Nacional e do Palácio do Planalto pela Revista Oeste. Antes, fez parte das redações de Poder360, Correio Braziliense, Alô Brasília e Aqui DF. Também foi editora na TV Brasília."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O deputado federal Gustavo Gayer (PL) lidera a disputa pelas duas vagas de Goiás no Senado, segundo pesquisa do Instituto Veritá. Na consolidação das duas escolhas dos eleitores, Gayer é citado por 41,8% dos entrevistados."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O levantamento mostra que o parlamentar é seguido pela ex-primeira-dama de Goiás Gracinha Caiado, que tem 38,6% das intenções de voto no Estado. Zacharias Calil aparece na terceira posição, com 30,9%."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "+ Flávio chega a quase 60% contra Lula no 2º turno em GO, aponta Pesquisa Veritá"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Como cada eleitor poderá escolher dois candidatos ao Senado, os porcentuais consolidados indicam a parcela dos entrevistados que mencionou cada nome em uma das duas escolhas e, por isso, não somam 100%."
-          }
-        ]
-      }
+      "urlFonte": "https://revistaoeste.com/no-ponto/pedido-de-vista-de-dino-novo-anulacao-stf/",
+      "dataFonte": "2026-09-28T21:36:15.000Z",
+      "resumoFonte": "O Partido Novo pediu ao Supremo Tribunal Federal (STF) que anule o pedido de vista (mais tempo para análise de um processo) feito por Flávio Dino no julgamento que pode levar à abertura de uma investigação contra Alexandre de Moraes. A legenda quer que a Corte registre o voto anunciado pelo ministro antes da interrupção da sessão. O pedido do Novo…",
+      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
+      "descobertaEm": "2026-09-28T22:05:55.707Z"
     },
     {
       "id": "7bd80a6dcc6ae1bd",
@@ -520,26 +452,26 @@
       }
     },
     {
-      "id": "219735a25a6f56d7",
-      "titulo": "Tebet distribui panfletos sem números de Lula, Haddad e Marina",
+      "id": "3dc16c16185f7f91",
+      "titulo": "Nova pesquisa Quaest testa disputa pelas duas vagas ao Senado em São Paulo",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/tebet-distribui-panfletos-sem-numeros-de-lula-haddad-e-marina/",
-      "dataFonte": "2026-09-28T18:49:14.000Z",
-      "resumoFonte": "Candidata ao Senado Federal por São Paulo, Simone Tebet (PSB) mandou imprimir 1 milhão de panfletos sem o nome, a imagem e o número de urna de Luiz Inácio Lula da Silva (PT), Fernando Haddad (PT) e Marina Silva (Rede). Os três integram a composição eleitoral apoiada pela socialista no Estado. O material apresenta apenas a identificação de Tebet,…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2022/12/simone-tebet-planejamento.webp",
-      "descobertaEm": "2026-09-28T19:17:58.862Z",
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/politica/nova-pesquisa-quaest-testa-disputa-pelas-duas-vagas-ao-senado-em-sao-paulo/",
+      "dataFonte": "2026-09-28T22:00:07.000Z",
+      "resumoFonte": "Levantamento avalia primeira e segunda escolhas dos eleitores, além de rejeição aos candidatos",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/marina-tebet-andre-derrite.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-09-28T22:05:55.707Z",
       "reportagem": {
-        "titulo": "Tebet distribui panfletos sem números de Lula, Haddad e Marina",
-        "slug": "tebet-distribui-panfletos-sem-numeros-de-lula-haddad-e-marina",
+        "titulo": "Nova pesquisa Quaest testa disputa pelas duas vagas ao Senado em São Paulo",
+        "slug": "nova-pesquisa-quaest-testa-disputa-pelas-duas-vagas-ao-senado-em-sao-paulo",
         "categoria": "Política Nacional",
         "data": "2026-09-28",
-        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2022/12/simone-tebet-planejamento.webp",
-        "resumo": "Material de campanha deixa em branco os espaços destinados aos demais cargos e foi produzido depois de pedidos de políticos do PSD e do MDB",
-        "conteudo": "<p>Formada em jornalismo pela Universidade Paulista. Atuou em veículos como Folha de S.Paulo e Rede Brasil de Televisão. É repórter de Oeste em São Paulo</p><h2>• Candidata ao Senado por São Paulo, Simone</h2><p>• Candidata ao Senado por São Paulo, Simone Tebet (PSB) distribuiu 1 milhão de panfletos que não mencionam os nomes, imagens ou números de Lula, Haddad e Marina Silva, seus aliados na eleição.</p><p>• O material, que contém apenas a identificação de Tebet, foi produzido depois de solicitações de políticos do PSD e MDB que desejam apoiar sua candidatura sem vinculação aos outros candidatos. • A estratégia visa a permitir que aliados utilizem o panfleto sem apresentar uma lista fechada.</p><p>• Formato, no entanto, infringe as regras eleitorais, que obriga a divulgação da coligação da qual a candidata faz parte.</p><h2>Candidata ao Senado Federal por São Paulo, Simone</h2><p>Candidata ao Senado Federal por São Paulo, Simone Tebet (PSB) mandou imprimir 1 milhão de panfletos sem o nome, a imagem nem o número de urna de Luiz Inácio Lula da Silva (PT), Fernando Haddad (PT) e Marina Silva (Rede). Os três integram a composição eleitoral apoiada pela socialista no Estado.</p><p>O material apresenta apenas a identificação de Tebet, com seu nome e número de urna. Os espaços destinados aos candidatos a deputado federal, deputado estadual, governador, presidente da República e à segunda vaga do Senado aparecem sem preenchimento.</p><p>De acordo com o jornal Folha de S.Paulo , Tebet autorizou a produção dos panfletos depois de receber pedidos de políticos ligados ao PSD e ao MDB que pretendem apoiar sua candidatura, mas não querem associar suas campanhas aos demais integrantes da composição eleitoral.</p><p>Tebet deixou o MDB e ingressou no PSB em março de 2026. Na composição eleitoral em São Paulo, Tebet disputa uma das duas vagas ao Senado. Marina Silva concorre à outra vaga pela mesma coligação, que se aliou formalmente ao PT. Haddad disputa o governo estadual. Lula concorre à Presidência da República.</p><p>Ao deixar os demais campos vazios, o panfleto permite que aliados de Tebet utilizem o material sem apresentar ao eleitor uma lista fechada de candidatos para os outros cargos.</p><p>Leia também: “ Salles retira candidatura ao Senado e apoia Derrite e André ”</p><p>“Na propaganda para eleição majoritária, a coligação usará, obrigatoriamente, sob sua denominação, as legendas de todos os partidos que a integram; na propaganda para eleição proporcional, cada partido usará apenas sua legenda sob o nome da coligação”, afirma o § 2º do Art. 6º da Lei 9.504/1997, que define as regras do processo eleitoral brasileiro.</p><p>O caso ganhou repercussão na reta final da campanha, a menos de uma semana do primeiro turno das eleições de 2026. A equipe de Simone Tebet não comentou o assunto.</p><p>Uma pesquisa do instituto Futura divulgada nesta segunda-feira, 28, mostra Tebet entre os três candidatos numericamente à frente na disputa pelas duas vagas ao Senado por São Paulo. O levantamento registra empate técnico entre Marina Silva, com 35,1%; Guilherme Derrite (PP) , com 34,7%; e Simone Tebet, que aparece com 33,3%.</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/tebet-distribui-panfletos-sem-numeros-de-lula-haddad-e-marina/",
+        "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/marina-tebet-andre-derrite.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "resumo": "Levantamento avalia primeira e segunda escolhas dos eleitores, além de rejeição aos candidatos",
+        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&amp;ccedil;&amp;atilde;o da Editora Abril.</p><h2>Nova pesquisa Quaest em S&amp;atilde;o Paulo vai medir</h2><p>Uma nova pesquisa Quaest em S&amp;atilde;o Paulo vai medir a corrida pelas duas vagas do estado no Senado . O levantamento, com divulga&amp;ccedil;&amp;atilde;o prevista para esta ter&amp;ccedil;a-feira, 29, apresenta aos eleitores uma lista de quinze candidatos e pergunta separadamente em quem votariam para a primeira e para a segunda vaga.</p><p>O question&amp;aacute;rio inclui Andr&amp;eacute; do Prado (PL), Dra. Eliana Ferreira (PSTU), Ednelson Cesaretti (PCO), Geraldo Rufino (Podemos), Guilherme Derrite (PP), Guto Schiavetto (Miss&amp;atilde;o), Ma&amp;iacute;ra de Souza (UP), Marcio Alves (UP), Marina Silva (Rede), Petter Maahs (PCB), Salles (Novo), Simone Tebet (PSB), Soninha Francine (Cidadania), Weller Gon&amp;ccedil;alves (PSTU) e William Teixeira (Agir).</p><p>Al&amp;eacute;m da inten&amp;ccedil;&amp;atilde;o de voto estimulada, a Quaest pergunta espontaneamente se o eleitor j&amp;aacute; escolheu seus candidatos para o Senado e, em caso positivo, quais s&amp;atilde;o os dois nomes.</p><h2>Levantamento tamb&amp;eacute;m avalia o grau de conhecimento</h2><p>O levantamento tamb&amp;eacute;m avalia o grau de conhecimento de cada candidato, o potencial de voto e a rejei&amp;ccedil;&amp;atilde;o. Para cada nome, o entrevistado pode informar se nunca ouviu falar, se conhece e poderia votar ou se conhece, mas n&amp;atilde;o votaria de jeito nenhum.</p><p>A pesquisa ainda pergunta aos eleitores que j&amp;aacute; fizeram uma escolha se o voto para senador &amp;eacute; definitivo ou se pode mudar at&amp;eacute; a elei&amp;ccedil;&amp;atilde;o.</p><p>Na rodada anterior da Quaest, divulgada no dia 23 de setembro, Guilherme Derrite (PP) aparecia numericamente &amp;agrave; frente, com 16%, seguido por Marina Silva (Rede), com 13%, e Simone Tebet (PSB), com 12%. Os tr&amp;ecirc;s estavam tecnicamente empatados. Andr&amp;eacute; do Prado (PL) tinha 8% e empatava, dentro da margem de erro, com Marina e Simone, mas n&amp;atilde;o com Derrite. Ricardo Salles (Novo) aparecia com 3%.</p><p>A pesquisa ouviu 1.800 eleitores entre 19 e 22 de setembro. A margem de erro era de dois pontos percentuais, para mais ou para menos, com n&amp;iacute;vel de confian&amp;ccedil;a de 95%. O levantamento foi registrado na Justi&amp;ccedil;a Eleitoral sob o n&amp;uacute;mero SP-02456/2026.</p><p>A Quaest ouviu 1.800 eleitores de 16 anos ou mais em S&amp;atilde;o Paulo entre 25 e 28 de setembro. A margem de erro m&amp;aacute;xima prevista &amp;eacute; de dois pontos percentuais, para mais ou para menos, com n&amp;iacute;vel de confian&amp;ccedil;a de 95%. O levantamento foi contratado pela Globo Comunica&amp;ccedil;&amp;atilde;o e Participa&amp;ccedil;&amp;otilde;es e est&amp;aacute; registrado no Tribunal Superior Eleitoral sob o n&amp;uacute;mero SP-01590/2026.</p><p>VEJA+IA: Este conte&amp;uacute;do foi produzido com aux&amp;iacute;lio de intelig&amp;ecirc;ncia artificial e supervis&amp;atilde;o humana.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/politica/nova-pesquisa-quaest-testa-disputa-pelas-duas-vagas-ao-senado-em-sao-paulo/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -554,26 +486,38 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Formada em jornalismo pela Universidade Paulista. Atuou em veículos como Folha de S.Paulo e Rede Brasil de Televisão. É repórter de Oeste em São Paulo"
+            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "• Candidata ao Senado por São Paulo, Simone Tebet (PSB) distribuiu 1 milhão de panfletos que não mencionam os nomes, imagens ou números de Lula, Haddad e Marina Silva, seus aliados na eleição. • O material, que contém apenas a identificação de Tebet, foi produzido depois de solicitações de políticos do PSD e MDB que desejam apoiar sua candidatura sem vincula"
+            "resposta": "Uma nova pesquisa Quaest em S&atilde;o Paulo vai medir a corrida pelas duas vagas do estado no Senado . O levantamento, com divulga&ccedil;&atilde;o prevista para esta ter&ccedil;a-feira, 29, apresenta aos eleitores uma lista de quinze candidatos e pergunta separadamente em quem votariam para a primeira e para a segunda vaga."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Candidata ao Senado Federal por São Paulo, Simone Tebet (PSB) mandou imprimir 1 milhão de panfletos sem o nome, a imagem nem o número de urna de Luiz Inácio Lula da Silva (PT), Fernando Haddad (PT) e Marina Silva (Rede). Os três integram a composição eleitoral apoiada pela socialista no Estado."
+            "resposta": "O question&aacute;rio inclui Andr&eacute; do Prado (PL), Dra. Eliana Ferreira (PSTU), Ednelson Cesaretti (PCO), Geraldo Rufino (Podemos), Guilherme Derrite (PP), Guto Schiavetto (Miss&atilde;o), Ma&iacute;ra de Souza (UP), Marcio Alves (UP), Marina Silva (Rede), Petter Maahs (PCB), Salles (Novo), Simone Tebet (PSB), Soninha Francine (Cidadania), Weller Gon&c"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "O material apresenta apenas a identificação de Tebet, com seu nome e número de urna. Os espaços destinados aos candidatos a deputado federal, deputado estadual, governador, presidente da República e à segunda vaga do Senado aparecem sem preenchimento."
+            "resposta": "Al&eacute;m da inten&ccedil;&atilde;o de voto estimulada, a Quaest pergunta espontaneamente se o eleitor j&aacute; escolheu seus candidatos para o Senado e, em caso positivo, quais s&atilde;o os dois nomes."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "De acordo com o jornal Folha de S.Paulo , Tebet autorizou a produção dos panfletos depois de receber pedidos de políticos ligados ao PSD e ao MDB que pretendem apoiar sua candidatura, mas não querem associar suas campanhas aos demais integrantes da composição eleitoral."
+            "resposta": "O levantamento tamb&eacute;m avalia o grau de conhecimento de cada candidato, o potencial de voto e a rejei&ccedil;&atilde;o. Para cada nome, o entrevistado pode informar se nunca ouviu falar, se conhece e poderia votar ou se conhece, mas n&atilde;o votaria de jeito nenhum."
           }
         ]
       }
+    },
+    {
+      "id": "1519a12bdee7fb09",
+      "titulo": "O que o brasileiro pensa sobre o fim das bets, segundo enquete do Senado Federal",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/brasil/o-que-o-brasileiro-pensa-sobre-o-fim-das-bets-segundo-enquete-do-senado-federal/",
+      "dataFonte": "2026-09-28T21:44:47.000Z",
+      "resumoFonte": "Para votar, é necessário fazer login pelo gov.br",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/04/GettyImages-1426353191.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-09-28T22:05:55.707Z"
     },
     {
       "id": "9c2c6a6a370002f3",
@@ -588,72 +532,16 @@
       "descobertaEm": "2026-09-28T20:17:59.891Z"
     },
     {
-      "id": "d999205226bdf85b",
-      "titulo": "Ricardo Salles recebeu R$ 4,6 milhões antes de desistir de campanha ao Senado",
-      "categoria": "Política Nacional",
+      "id": "3ad5c3c0a9d0b166",
+      "titulo": "Ibovespa tem baixa de olho em Treasuries, petróleo e eleições nesta segunda-feira",
+      "categoria": "Economia",
       "radar": null,
-      "fonteNome": "O Globo - Capa",
-      "urlFonte": "https://oglobo.globo.com/blogs/bernardo-mello-franco/post/2026/09/ricardo-salles-recebeu-r-46-milhoes-antes-de-desistir-de-campanha-ao-senado.ghtml",
-      "dataFonte": "2026-09-28T18:44:54.001Z",
-      "resumoFonte": "Ex-ministro de Bolsonaro só ficou atrás de Romeu Zema em repasses do Novo",
-      "imagem": "https://s2-oglobo.glbimg.com/ItKNdfFLxkWd3L13wwXEwL1kxXI=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/B/a/lFRdi2TGAV1SzbNdBVhg/bren0647.jpeg",
-      "descobertaEm": "2026-09-28T19:20:54.757Z"
-    },
-    {
-      "id": "a67b7b63dc5572d5",
-      "titulo": "Líderes do Congresso já estimam modificações na MP das bets",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CBN - Política",
-      "urlFonte": "https://cbn.globo.com/politica/noticia/2026/09/28/lideres-do-congresso-ja-estimam-modificacoes-na-mp-das-bets.ghtml",
-      "dataFonte": "2026-09-28T18:40:21.824Z",
-      "resumoFonte": "MP tem prazo de 120 dias, portanto, a expectativa é que o texto seja analisado depois das eleições.",
-      "imagem": "https://s2-cbn.glbimg.com/_x5ebGODGvaK1LuW41HV2Z54Ts0=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2024/B/6/FBCFYoRFiSrWaFNq0vew/sem-titulo.png",
-      "descobertaEm": "2026-09-28T19:17:58.862Z",
-      "reportagem": {
-        "titulo": "Líderes do Congresso já estimam modificações na MP das bets",
-        "slug": "lideres-do-congresso-ja-estimam-modificacoes-na-mp-das-bets",
-        "categoria": "Política Nacional",
-        "data": "2026-09-28",
-        "imagem": "https://s2-cbn.glbimg.com/_x5ebGODGvaK1LuW41HV2Z54Ts0=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2024/B/6/FBCFYoRFiSrWaFNq0vew/sem-titulo.png",
-        "resumo": "MP tem prazo de 120 dias, portanto, a expectativa é que o texto seja analisado depois das eleições.",
-        "conteudo": "<p>Os líderes dos partidos na Câmara e Senado já preveem mudanças à medida provisória que acabou com as casas de apostas e cassinos online no Brasil. A MP tem prazo de 120 dias, portanto, a expectativa é que o texto seja analisado depois das eleições.</p><h2>AGU pede 72 horas ao STF</h2><p>AGU pede 72 horas ao STF para se manifestar sobre ações das bets MP contra as bets foi ação eleitoreira e deu certo, afirma Pedro Doria</p><p>Entre as possibilidades de alteração do texto estão a autorização para as apostas esportivas operarem no país. Isso porque as entidades e os clubes de futebol, que recebem patrocínios bilionários, têm poder de pressão no Congresso.</p><p>Por outro lado, há maiores entre os parlamentares pela manutenção da proibição total aos caça-níqueis, como o Tigrinho.</p><h2>Mário Heringer, &quot;sem dúvidas ocorrerão mudanças no texto</h2><p>Conforme o líder do PDT na Câmara, Mário Heringer, &quot;sem dúvidas ocorrerão mudanças no texto. Mas até dia 5 de outubro ninguém está pensando nisso&quot;, disse.</p><p>Para o senador Carlos Portinho (PL-RJ), o problema já poderia ter sido resolvido com a aprovação da emenda de autoria dele. O parlamentar vai insistir na proposta de proibir os cassinos online. Portinho também destaca que a propaganda das bets precisa ser regulamentada restrita.</p><p>Para o senador Eduardo Girão (Novo-CE), a medida provisória é eleitoreira. Ele criticou ainda que um destaque da oposição para proibir jogos como o Tigrinho foi derrubado quando o projeto de lei para regulamentar as casas de apostas online chegou à Câmara dos Deputados. Girão ainda destacou que somente o candidato Romeu Zema (Novo) teve um posicionamento genuíno contra as bets, muito antes da MP ser assinada por Lula.</p><p>O líder do PL, Sóstenes Cavalcante (PL-RJ), disse que sempre foram &quot;contra as bets, quem deve explicação porque agora mudou de opinião é o Lula&quot;. O parlamentar ainda afirma que &quot;82% das famílias&quot; se endividaram durante a gestão petista.</p><p>Em meio a polêmica, Flávio Bolsonaro ergue imagem de Nossa Senhora Aparecida em SP</p><p>Presidente do PT sinaliza que Lula não participará de debate na TV Globo nesta quinta (1º)</p><p>Cury diz que Lula 'usou a dor das pessoas para ganhar votos' ao editar MP contra as bets</p>",
-        "fonteNome": "CBN - Política",
-        "fonteUrl": "https://cbn.globo.com/politica/noticia/2026/09/28/lideres-do-congresso-ja-estimam-modificacoes-na-mp-das-bets.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Os líderes dos partidos na Câmara e Senado já preveem mudanças à medida provisória que acabou com as casas de apostas e cassinos online no Brasil. A MP tem prazo de 120 dias, portanto, a expectativa é que o texto seja analisado depois das eleições."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "AGU pede 72 horas ao STF para se manifestar sobre ações das bets MP contra as bets foi ação eleitoreira e deu certo, afirma Pedro Doria"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Entre as possibilidades de alteração do texto estão a autorização para as apostas esportivas operarem no país. Isso porque as entidades e os clubes de futebol, que recebem patrocínios bilionários, têm poder de pressão no Congresso."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Por outro lado, há maiores entre os parlamentares pela manutenção da proibição total aos caça-níqueis, como o Tigrinho."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Conforme o líder do PDT na Câmara, Mário Heringer, \"sem dúvidas ocorrerão mudanças no texto. Mas até dia 5 de outubro ninguém está pensando nisso\", disse."
-          }
-        ]
-      }
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/economia/ibovespa-tem-baixa-de-olho-em-treasuries-petroleo-e-eleicoes-nesta-segunda-feira/",
+      "dataFonte": "2026-09-28T21:03:14.000Z",
+      "resumoFonte": "Para especialistas, bolsa de valores deve ter semana volátil com indicadores econômicos no Brasil e nos EUA",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2025/11/GettyImages-1236444882-e1764968991535.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-09-28T21:17:58.102Z"
     },
     {
       "id": "87c6f0fb24969d8a",
@@ -712,250 +600,26 @@
       }
     },
     {
-      "id": "28ebea8b6807a096",
-      "titulo": "Governo aumenta para R$ 500 milhões multa por abuso no valor do combustível",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governo-aumenta-para-r-500-milhoes-multa-por-abuso-no-valor-do-combustivel/",
-      "dataFonte": "2026-09-28T19:08:42.000Z",
-      "resumoFonte": "Alteração mira recusa de fornecimento e alta sem justa causa; segundo Ministro da Justiça, foram registrados casos de mais de 1.300% de aumento da margem de lucro",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2026binary_LYNXMPEM4L1IR-BASEIMAGE.jpg?w=800&h=533&crop=1",
-      "descobertaEm": "2026-09-28T19:17:58.862Z",
-      "reportagem": {
-        "titulo": "Governo aumenta para R$ 500 milhões multa por abuso no valor do combustível",
-        "slug": "governo-aumenta-para-r-500-milhoes-multa-por-abuso-no-valor-do-combustivel",
-        "categoria": "Economia",
-        "data": "2026-09-28",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2026binary_LYNXMPEM4L1IR-BASEIMAGE.jpg?w=800&h=533&crop=1",
-        "resumo": "Alteração mira recusa de fornecimento e alta sem justa causa; segundo Ministro da Justiça, foram registrados casos de mais de 1.300% de aumento da margem de lucro",
-        "conteudo": "<p>O governo federal aumentou de R$ 14 milhões para até R$ 500 milhões o teto das multas aplicáveis a empresas do setor de combustíveis por recusa de fornecimento e aumento de preços sem justa causa, segundo anuncio feito nesta segunda-feira (28).</p><h2>Mudança ocorre após a ANP (Agência Nacional</h2><p>A mudança ocorre após a ANP (Agência Nacional do Petróleo) registrar cerca de 330 denúncias de possíveis abusos. Em coletiva, o ministro da Justiça e Segurança Pública, Wellington César Lima, afirmou que houve casos de aumento superior a 1.300% na margem de lucro.</p><p>“Seria inaceitável que o Estado brasileiro, fazendo todo esse esforço, fechasse os olhos para essas evidências”, disse.</p><p>A nova faixa de punição foi estabelecida pela MP (Medida Provisória) do Desenrola, publicada na última sexta-feira (25), e vale para importadores, produtores, distribuidoras e revendedores de combustíveis.</p><h2>Fiscalização foi reforçada após medidas de subsídio e</h2><p>A fiscalização foi reforçada após medidas de subsídio e desoneração adotadas pelo governo para conter a alta dos combustíveis.</p><p>Segundo a equipe econômica, essas ações já somam cerca de R$ 27 bilhões e, mesmo com a as novas medidas, os valores da alta do combustível ainda estão sendo cobrados aos consumidores.</p><p>&quot;Essa conduta é bastante inadequada, excessiva e abusiva, diante de uma subvenção -- ou seja, quando o Estado brasileiro paga parte desse combustível -- ou ainda diante de uma desoneração, quando o Estado deixa de recolher aqueles impostos, você tem, como foi noticiado, essa cadeia de combustíveis, especificamente os postos, aumentando o preço do combustível e, mais do que tudo, elevando a margem de lucro&quot;, afirmou o secretario Nacional do Consumidor, Ricardo Morishita.</p><p>De acordo com o secretário, 330 novas denúncias foram recebidas no últimas mês. Na semana passada, segundo Morishita, 154 postos foram fiscalizados, outras 87 operações de fiscalização estão marcados para esta semana.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governo-aumenta-para-r-500-milhoes-multa-por-abuso-no-valor-do-combustivel/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O governo federal aumentou de R$ 14 milhões para até R$ 500 milhões o teto das multas aplicáveis a empresas do setor de combustíveis por recusa de fornecimento e aumento de preços sem justa causa, segundo anuncio feito nesta segunda-feira (28)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A mudança ocorre após a ANP (Agência Nacional do Petróleo) registrar cerca de 330 denúncias de possíveis abusos. Em coletiva, o ministro da Justiça e Segurança Pública, Wellington César Lima, afirmou que houve casos de aumento superior a 1.300% na margem de lucro."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "“Seria inaceitável que o Estado brasileiro, fazendo todo esse esforço, fechasse os olhos para essas evidências”, disse."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A nova faixa de punição foi estabelecida pela MP (Medida Provisória) do Desenrola, publicada na última sexta-feira (25), e vale para importadores, produtores, distribuidoras e revendedores de combustíveis."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A fiscalização foi reforçada após medidas de subsídio e desoneração adotadas pelo governo para conter a alta dos combustíveis."
-          }
-        ]
-      }
-    },
-    {
-      "id": "fd7994ea4e34c4f2",
-      "titulo": "Senacon amplia fiscalização de preços de combustíveis e prevê multas de até R$ 500 milhões",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "CBN - Política",
-      "urlFonte": "https://cbn.globo.com/economia/noticia/2026/09/28/senacon-amplia-fiscalizacao-de-precos-de-combustiveis-e-preve-multas-de-ate-r-500-milhoes.ghtml",
-      "dataFonte": "2026-09-28T19:08:16.505Z",
-      "resumoFonte": "Medidas foram anunciadas em resposta à alta do petróleo no mercado internacional, com o barril na casa dos US$ 100.",
-      "imagem": "https://s2-cbn.glbimg.com/JPUahNlSI4xihbbuZNNTPGUTo4I=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/z/A/bB23LKRjKgB58l6zsd6Q/elegant-woman-standing-gas-station.jpg",
-      "descobertaEm": "2026-09-28T19:17:58.862Z",
-      "reportagem": {
-        "titulo": "Senacon amplia fiscalização de preços de combustíveis e prevê multas de até R$ 500 milhões",
-        "slug": "senacon-amplia-fiscalizacao-de-precos-de-combustiveis-e-preve-multas-de-ate-r-500-milhoes",
-        "categoria": "Economia",
-        "data": "2026-09-28",
-        "imagem": "https://s2-cbn.glbimg.com/JPUahNlSI4xihbbuZNNTPGUTo4I=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/z/A/bB23LKRjKgB58l6zsd6Q/elegant-woman-standing-gas-station.jpg",
-        "resumo": "Medidas foram anunciadas em resposta à alta do petróleo no mercado internacional, com o barril na casa dos US$ 100.",
-        "conteudo": "<p>O governo anunciou nesta segunda-feira (28) novas medidas para tentar conter os aumentos nos preços dos combustíveis. As ações incluem mais fiscalizações em postos e distribuidoras e multas que podem chegar a R$ 500 milhões para determinadas infrações relacionadas a reajustes abusivos.</p><h2>Pela nova regra, quando agentes da cadeia</h2><p>Pela nova regra, quando agentes da cadeia de combustíveis aumentarem os preços sem justificativa, a multa administrativa poderá variar de R$ 20 mil a R$ 500 milhões. Nesses casos, não se aplica o limite geral de multa previsto no Código do Consumidor.</p><p>Desde que iniciaram as fiscalizações contra preços abusivos, a Agência Nacional do Petróleo (ANP) determinou multas que somam mais de R$ 700 milhões a distribuidoras de combustíveis.</p><p>Segundo o governo, as medidas são uma resposta à alta do petróleo no mercado internacional, em meio ao prolongamento dos conflitos no Oriente Médio. O barril está na casa dos US$ 100.</p><h2>O que muda na prática</h2><p>O pacote também prevê a manutenção da subvenção de R$ 2,12 por litro de óleo diesel, além do reforço das ações de fiscalização da Secretaria Nacional do Consumidor (Senacon) e ANP.</p><p>Expectativas de inflação pioram mesmo com desaceleração da economia</p><p>Proibição das bets abre rombo na arrecadação e deve provocar disputa judicial</p><p>Bets deixam de ser só questão de regulação e viram problema social e econômico</p><p>Banco Central reduz previsão de crescimento e vê risco maior de inflação acima da meta</p>",
-        "fonteNome": "CBN - Política",
-        "fonteUrl": "https://cbn.globo.com/economia/noticia/2026/09/28/senacon-amplia-fiscalizacao-de-precos-de-combustiveis-e-preve-multas-de-ate-r-500-milhoes.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O governo anunciou nesta segunda-feira (28) novas medidas para tentar conter os aumentos nos preços dos combustíveis. As ações incluem mais fiscalizações em postos e distribuidoras e multas que podem chegar a R$ 500 milhões para determinadas infrações relacionadas a reajustes abusivos."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Pela nova regra, quando agentes da cadeia de combustíveis aumentarem os preços sem justificativa, a multa administrativa poderá variar de R$ 20 mil a R$ 500 milhões. Nesses casos, não se aplica o limite geral de multa previsto no Código do Consumidor."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Desde que iniciaram as fiscalizações contra preços abusivos, a Agência Nacional do Petróleo (ANP) determinou multas que somam mais de R$ 700 milhões a distribuidoras de combustíveis."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Segundo o governo, as medidas são uma resposta à alta do petróleo no mercado internacional, em meio ao prolongamento dos conflitos no Oriente Médio. O barril está na casa dos US$ 100."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O pacote também prevê a manutenção da subvenção de R$ 2,12 por litro de óleo diesel, além do reforço das ações de fiscalização da Secretaria Nacional do Consumidor (Senacon) e ANP."
-          }
-        ]
-      }
-    },
-    {
-      "id": "8a8fdeaf7252b9bb",
-      "titulo": "Cury critica Lula sobre bets e defende aumento da taxação do setor",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/cury-critica-lula-sobre-bets-e-defende-aumento-da-taxacao-do-setor/",
-      "dataFonte": "2026-09-28T19:06:16.000Z",
-      "resumoFonte": "Candidato do Avante à Presidência diz que medida anunciada às vésperas da eleição não será efetiva e propõe imposto de 50% a 60% sobre apostas",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/IMG_0526.JPG-e1788209783789.jpeg?w=832&h=468&crop=1",
-      "descobertaEm": "2026-09-28T19:17:58.862Z",
-      "reportagem": {
-        "titulo": "Cury critica Lula sobre bets e defende aumento da taxação do setor",
-        "slug": "cury-critica-lula-sobre-bets-e-defende-aumento-da-taxacao-do-setor",
-        "categoria": "Economia",
-        "data": "2026-09-28",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/IMG_0526.JPG-e1788209783789.jpeg?w=832&h=468&crop=1",
-        "resumo": "Candidato do Avante à Presidência diz que medida anunciada às vésperas da eleição não será efetiva e propõe imposto de 50% a 60% sobre apostas",
-        "conteudo": "<p>O candidato do Avante à Presidência da República, Augusto Cury , criticou nesta segunda-feira (28) a decisão do presidente Luiz Inácio Lula da Silva (PT) de proibir as bets no Brasil e defendeu o aumento da taxação do setor caso as apostas online não sejam eliminadas.</p><h2>Declaração ocorreu após uma reunião fechada</h2><p>A declaração ocorreu após uma reunião fechada com a diretoria do Bradesco, na região da Faria Lima, em São Paulo. Na avaliação de Cury, a MP (medida provisória) anunciada por Lula na sexta-feira (25), a poucos dias do primeiro turno, não será suficiente para enfrentar os problemas provocados pelas apostas esportivas e pelos cassinos online.</p><p>“Eu não entendo por que às vésperas da eleição o Lula faz isso. Está usando a dor das pessoas para ganhar voto”, afirmou. Na avaliação do candidato, o presidente estaria mais preocupado com a permanência no Poder do que com a situação das famílias brasileiras.</p><p>Cury defendeu que as bets sejam eliminadas ou submetidas a uma tributação elevada. “Bet tem que ser, se não eliminada, tem que ter uma taxa de responsabilidade fiscal nos níveis de cigarro, que gera dependência. Então, tem que pagar altíssimo imposto, 50% a 60%, ou então eliminá-las” , disse.</p><h2>Candidato também criticou o fato de o governo</h2><p>O candidato também criticou o fato de o governo Lula ter regulamentado as apostas de quota fixa antes de anunciar a proibição. “Quem foi que deu o alvará o ano passado para as bets funcionarem? Foi o Lula”, afirmou.</p><p>Cury também associou as apostas ao endividamento das famílias. Segundo ele, os recursos destinados às plataformas deixam de circular no comércio e na compra de produtos e serviços. “As famílias estão tão endividadas. Elas pagam R$ 1,2 trilhão por ano de juros. Isso é inaceitável” , afirmou.</p><p>O candidato voltou a defender responsabilidade fiscal e redução da taxa básica de juros. Segundo Cury, um eventual governo seu faria uma revisão dos gastos públicos para reduzir o déficit e criar condições para a queda dos juros.</p><p>“Nós temos que baixar os juros o mais rapidamente possível, ter responsabilidade fiscal para que o Banco Central tenha a capacidade de abaixar, dentro de um ano a um ano e meio, para níveis de quem sabe 7% ou 8% e logo, mais ainda” , declarou.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/cury-critica-lula-sobre-bets-e-defende-aumento-da-taxacao-do-setor/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O candidato do Avante à Presidência da República, Augusto Cury , criticou nesta segunda-feira (28) a decisão do presidente Luiz Inácio Lula da Silva (PT) de proibir as bets no Brasil e defendeu o aumento da taxação do setor caso as apostas online não sejam eliminadas."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A declaração ocorreu após uma reunião fechada com a diretoria do Bradesco, na região da Faria Lima, em São Paulo. Na avaliação de Cury, a MP (medida provisória) anunciada por Lula na sexta-feira (25), a poucos dias do primeiro turno, não será suficiente para enfrentar os problemas provocados pelas apostas esportivas e pelos cassinos online."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "“Eu não entendo por que às vésperas da eleição o Lula faz isso. Está usando a dor das pessoas para ganhar voto”, afirmou. Na avaliação do candidato, o presidente estaria mais preocupado com a permanência no Poder do que com a situação das famílias brasileiras."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Cury defendeu que as bets sejam eliminadas ou submetidas a uma tributação elevada. “Bet tem que ser, se não eliminada, tem que ter uma taxa de responsabilidade fiscal nos níveis de cigarro, que gera dependência. Então, tem que pagar altíssimo imposto, 50% a 60%, ou então eliminá-las” , disse."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O candidato também criticou o fato de o governo Lula ter regulamentado as apostas de quota fixa antes de anunciar a proibição. “Quem foi que deu o alvará o ano passado para as bets funcionarem? Foi o Lula”, afirmou."
-          }
-        ]
-      }
-    },
-    {
-      "id": "f00f38300e2ebcb7",
-      "titulo": "Só 30% das maiores bets no Brasil têm proteção máxima contra e-mails falsos",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/economia/so-30-das-maiores-bets-no-brasil-tem-protecao-maxima-contra-e-mails-falsos/",
-      "dataFonte": "2026-09-28T18:21:04.000Z",
-      "resumoFonte": "Levantamento da Proofpoint analisou 20 plataformas de apostas e aponta brechas que podem facilitar golpes de phishing e falsificação de marcas",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/04/GettyImages-1426353191.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-28T18:17:57.989Z",
-      "reportagem": {
-        "titulo": "Só 30% das maiores bets no Brasil têm proteção máxima contra e-mails falsos",
-        "slug": "so-30-das-maiores-bets-no-brasil-tem-protecao-maxima-contra-e-mails-falsos",
-        "categoria": "Economia",
-        "data": "2026-09-28",
-        "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/04/GettyImages-1426353191.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "resumo": "Levantamento da Proofpoint analisou 20 plataformas de apostas e aponta brechas que podem facilitar golpes de phishing e falsificação de marcas",
-        "conteudo": "<p>A r&amp;aacute;pida expans&amp;atilde;o das apostas online no Brasil tamb&amp;eacute;m abre espa&amp;ccedil;o para um problema que vai al&amp;eacute;m das discuss&amp;otilde;es sobre v&amp;iacute;cio e endividamento: a seguran&amp;ccedil;a digital dos apostadores.</p><h2>Levantamento da empresa de ciberseguran&amp;ccedil;a Proofpoint aponta</h2><p>Um levantamento da empresa de ciberseguran&amp;ccedil;a Proofpoint aponta que apenas 30% das 20 maiores plataformas de apostas e jogos online analisadas no pa&amp;iacute;s adotam o n&amp;iacute;vel mais r&amp;iacute;gido de prote&amp;ccedil;&amp;atilde;o contra e- mails fraudulentos enviados em nome de suas marcas.</p><p>A pesquisa avaliou a ado&amp;ccedil;&amp;atilde;o do DMARC ( Domain- based Message Authentication, Reporting and Conformance), protocolo utilizado para autenticar a origem dos e- mails e dificultar que criminosos se passem por empresas leg&amp;iacute;timas. Na configura&amp;ccedil;&amp;atilde;o mais rigorosa, mensagens que n&amp;atilde;o passam pela autentica&amp;ccedil;&amp;atilde;o podem ser rejeitadas antes de chegar ao destinat&amp;aacute;rio.</p><p>Entre as plataformas analisadas, 30% adotam essa pol&amp;iacute;tica de rejei&amp;ccedil;&amp;atilde;o. Outros 30% utilizam uma configura&amp;ccedil;&amp;atilde;o de quarentena, na qual mensagens consideradas suspeitas podem ser direcionadas para &amp;aacute;reas como a caixa de spam. J&amp;aacute; 25% est&amp;atilde;o apenas no modo de monitoramento, enquanto 15% n&amp;atilde;o possuem registro DMARC, segundo a Proofpoint.</p><h2>Aus&amp;ecirc;ncia das configura&amp;ccedil;&amp;otilde;es mais restritivas pode facilitar tentativas</h2><p>A aus&amp;ecirc;ncia das configura&amp;ccedil;&amp;otilde;es mais restritivas pode facilitar tentativas de falsifica&amp;ccedil;&amp;atilde;o do dom&amp;iacute;nio de uma empresa.</p><p>Na pr&amp;aacute;tica, criminosos podem criar mensagens que aparentam ter sido enviadas por uma plataforma conhecida para induzir o usu&amp;aacute;rio a fornecer senhas, dados pessoais ou informa&amp;ccedil;&amp;otilde;es de pagamento.</p><p>&amp;ldquo; Quando criminosos podem facilmente se passar por plataformas de apostas, eles podem enganar usu&amp;aacute;rios para que compartilhem dados pessoais, credenciais de conta ou informa&amp;ccedil;&amp;otilde;es de pagamento &amp;mdash; muitas vezes usando mensagens convincentes ligadas a jogos ao vivo, b&amp;ocirc;nus ou saques&amp;rdquo;, afirma Marcos Nehme, Country Manager da Proofpoint no Brasil.</p><p>O risco ganha relev&amp;acirc;ncia diante do tamanho alcan&amp;ccedil;ado pelo mercado de apostas online no pa&amp;iacute;s. O setor cresceu 734% em tr&amp;ecirc;s anos, segundo levantamento citado pela Proofpoint, enquanto estimativas mencionadas pela companhia projetam que a receita brasileira com jogos online poder&amp;aacute; superar 3 bilh&amp;otilde;es de reais at&amp;eacute; 2030, ante cerca de 1,5 bilh&amp;atilde;o de reais em 2024.</p><p>O pr&amp;oacute;prio funcionamento das plataformas pode fornecer elementos para tornar as fraudes mais convincentes. Promo&amp;ccedil;&amp;otilde;es, b&amp;ocirc;nus, altera&amp;ccedil;&amp;otilde;es de odds, notifica&amp;ccedil;&amp;otilde;es sobre apostas e solicita&amp;ccedil;&amp;otilde;es relacionadas a saques podem ser reproduzidas em mensagens falsas para criar um senso de urg&amp;ecirc;ncia e levar o usu&amp;aacute;rio a clicar em links maliciosos.</p><p>Segundo a Proofpoint, os golpes podem incluir desde ofertas falsas de b&amp;ocirc;nus e apostas gr&amp;aacute;tis at&amp;eacute; avisos de problemas na conta, saques pendentes ou necessidade de atualiza&amp;ccedil;&amp;atilde;o de dados. Os links enviados nessas mensagens podem direcionar o apostador a p&amp;aacute;ginas falsas que imitam as plataformas originais.</p><p>&amp;ldquo; O mercado de apostas do Brasil est&amp;aacute; amadurecendo rapidamente, mas controles b&amp;aacute;sicos de seguran&amp;ccedil;a de e- mail ainda est&amp;atilde;o atrasados&amp;rdquo;, afirma Nehme.</p><p>Para o executivo, a prote&amp;ccedil;&amp;atilde;o dos consumidores passa n&amp;atilde;o apenas pela regulamenta&amp;ccedil;&amp;atilde;o do setor, mas tamb&amp;eacute;m pela seguran&amp;ccedil;a dos canais digitais utilizados pelas pr&amp;oacute;prias empresas.</p><p>Para reduzir os riscos, a recomenda&amp;ccedil;&amp;atilde;o &amp;eacute; evitar acessar a conta a partir de links recebidos por e- mail ou SMS quando houver d&amp;uacute;vidas sobre a proced&amp;ecirc;ncia da mensagem. O usu&amp;aacute;rio pode entrar diretamente no aplicativo ou digitar o endere&amp;ccedil;o oficial da plataforma no navegador. Senhas diferentes para cada servi&amp;ccedil;o e autentica&amp;ccedil;&amp;atilde;o multifator tamb&amp;eacute;m ajudam a dificultar o acesso indevido &amp;agrave;s contas.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/economia/so-30-das-maiores-bets-no-brasil-tem-protecao-maxima-contra-e-mails-falsos/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A r&aacute;pida expans&atilde;o das apostas online no Brasil tamb&eacute;m abre espa&ccedil;o para um problema que vai al&eacute;m das discuss&otilde;es sobre v&iacute;cio e endividamento: a seguran&ccedil;a digital dos apostadores. Um levantamento da empresa de ciberseguran&ccedil;a Proofpoint aponta que apenas 30% das 20 maiores plataformas de apostas e jo"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A pesquisa avaliou a ado&ccedil;&atilde;o do DMARC ( Domain- based Message Authentication, Reporting and Conformance), protocolo utilizado para autenticar a origem dos e- mails e dificultar que criminosos se passem por empresas leg&iacute;timas. Na configura&ccedil;&atilde;o mais rigorosa, mensagens que n&atilde;o passam pela autentica&ccedil;&atilde;o podem"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Entre as plataformas analisadas, 30% adotam essa pol&iacute;tica de rejei&ccedil;&atilde;o. Outros 30% utilizam uma configura&ccedil;&atilde;o de quarentena, na qual mensagens consideradas suspeitas podem ser direcionadas para &aacute;reas como a caixa de spam. J&aacute; 25% est&atilde;o apenas no modo de monitoramento, enquanto 15% n&atilde;o possuem regist"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A aus&ecirc;ncia das configura&ccedil;&otilde;es mais restritivas pode facilitar tentativas de falsifica&ccedil;&atilde;o do dom&iacute;nio de uma empresa. Na pr&aacute;tica, criminosos podem criar mensagens que aparentam ter sido enviadas por uma plataforma conhecida para induzir o usu&aacute;rio a fornecer senhas, dados pessoais ou informa&ccedil;&otilde;e"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O risco ganha relev&acirc;ncia diante do tamanho alcan&ccedil;ado pelo mercado de apostas online no pa&iacute;s. O setor cresceu 734% em tr&ecirc;s anos, segundo levantamento citado pela Proofpoint, enquanto estimativas mencionadas pela companhia projetam que a receita brasileira com jogos online poder&aacute; superar 3 bilh&otilde;es de reais at&eacute; 203"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b360ba36528a3434",
-      "titulo": "Projeto Comprova cria canal de apoio a repórteres na cobertura eleitoral",
+      "id": "911d02233e1ead54",
+      "titulo": "Atlético-MG firma parceria com multinacional chinesa de tecnologia",
       "categoria": "Tecnologia",
       "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/blogs/novo-em-folha/2026/09/projeto-comprova-cria-canal-de-apoio-a-reporteres-na-cobertura-eleitoral.shtml",
-      "dataFonte": "2026-09-28T18:42:00.000Z",
-      "resumoFonte": "O Projeto Comprova lançou um serviço gratuito de consultoria para jornalistas que atuam na cobertura das eleições de 2026. Batizada de Consulte o Comprova, a iniciativa oferece orientação sobre verificação de fatos, investigação digital e checagem de conteúdos gerados por inteligência artificial . Leia mais (09/28/2026 - 15h42)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/09/25/17903748446ab6f3bc4ab91_1790374844_3x2_xl.jpg",
-      "descobertaEm": "2026-09-28T19:17:58.862Z",
+      "fonteNome": "CNN Brasil - Capa",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/atletico-mineiro/atletico-mg-firma-parceria-com-multinacional-chinesa-de-tecnologia/",
+      "dataFonte": "2026-09-28T20:11:43.000Z",
+      "resumoFonte": "Clube mineiro levará soluções tecnológicas avançadas e inteligência artificial para modernizar seu estádio",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/10/arena-mrv-e1761700681237.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-28T22:08:32.617Z",
       "reportagem": {
-        "titulo": "Novo em Folha: Projeto Comprova cria canal de apoio a repórteres na cobertura eleitoral",
-        "slug": "novo-em-folha-projeto-comprova-cria-canal-de-apoio-a-reporteres-na-cobertura-eleitoral",
+        "titulo": "Atlético-MG firma parceria com multinacional chinesa de tecnologia",
+        "slug": "atletico-mg-firma-parceria-com-multinacional-chinesa-de-tecnologia",
         "categoria": "Tecnologia",
         "data": "2026-09-28",
-        "imagem": "https://f.i.uol.com.br/fotografia/2026/09/25/17903748446ab6f3bc4ab91_1790374844_3x2_xl.jpg",
-        "resumo": "Novo em Folha: Projeto Comprova cria canal de apoio a repórteres na cobertura eleitoral. Registro original em Folha de S.Paulo - Poder. A Redação Notícia ES reapurou a pauta para a editoria Tecnologia.",
-        "conteudo": "<p>Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler.</p><h2>Assinantes podem liberar 7 acessos por dia</h2><p>Assinantes podem liberar 7 acessos por dia para conteúdos da Folha.</p><p>O Projeto Comprova lançou um serviço gratuito de consultoria para jornalistas que atuam na cobertura das eleições de 2026. Batizada de Consulte o Comprova, a iniciativa oferece orientação sobre verificação de fatos, investigação digital e checagem de conteúdos gerados por inteligência artificial .</p><p>O atendimento é feito pelo WhatsApp do Comprova. Pelo canal, repórteres poderão pedir o apoio de jornalistas especializados em checagem e investigação visual para auxiliar na apuração de conteúdos relacionados às campanhas para governos estaduais, Senado, Câmara dos Deputados e assembleias legislativas.</p><h2>Canal também receberá relatos de assédio e ataques</h2><p>O canal também receberá relatos de assédio e ataques online sofridos por jornalistas em razão da cobertura eleitoral. Os casos poderão ser encaminhados ao Núcleo de Segurança da Abraji (Associação Brasileira de Jornalismo Investigativo), que terá plantão nos finais de semana.</p><p>Além do atendimento específico a jornalistas, o número (11) 97045-4984 continua aberto ao público. Leitores podem enviar conteúdos suspeitos e sugerir verificações relacionadas às eleições, políticas públicas, golpes digitais, saúde e crise climática.</p><p>O projeto tem apoio da ElevenLabs e do Jusbrasil. Mais informações estão disponíveis no site do projeto.</p><p>LINK PRESENTE: Gostou deste texto? Assinante pode liberar sete acessos gratuitos de qualquer link por dia. Basta clicar no F azul abaixo.</p><p>Mais de 180 reportagens e análises publicadas a cada dia. Um time com mais de 200 colunistas e blogueiros. Um jornalismo profissional que fiscaliza o poder público, veicula notícias proveitosas e inspiradoras, faz contraponto à intolerância das redes sociais e traça uma linha clara entre verdade e mentira. Quanto custa ajudar a produzir esse conteúdo?</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/blogs/novo-em-folha/2026/09/projeto-comprova-cria-canal-de-apoio-a-reporteres-na-cobertura-eleitoral.shtml",
+        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/10/arena-mrv-e1761700681237.jpg?w=1200&h=630&crop=1",
+        "resumo": "Clube mineiro levará soluções tecnológicas avançadas e inteligência artificial para modernizar seu estádio",
+        "conteudo": "<p>O Atlético-MG fechou parceria com a multinacional chinesa Huawei para modernizar a Arena MRV, em Belo Horizonte.</p><h2>O que muda na prática</h2><p>O acordo, anunciado nesta segunda-feira (28), prevê a implementação de soluções tecnológicas avançadas na casa do Galo, incluindo uso de inteligência artificial e conectividade.</p><p>O contrato entre o clube mineiro e a empresa de tecnologia terá duração de cinco anos. A fase de implantação da nova infraestrutura está prevista para começar em novembro, e a partir daí a Arena MRV operará integralmente com a tecnologia da Huawei em sua rede de dados.</p><p>A SYX-AI, parceira tecnológica da Huawei no Brasil, será a integradora responsável por todo o projeto.</p><h2>Empresa desenvolverá a solução, fará a implantação e</h2><p>A empresa desenvolverá a solução, fará a implantação e acompanhará a operação para garantir o funcionamento adequado dos sistemas.</p><p>A iniciativa se inspira no Shanghai Stadium, na China, um complexo esportivo com capacidade para 80 mil pessoas que já utiliza diversas soluções da Huawei.</p><p>Entre elas estão câmeras de segurança, conectividade avançada, gerenciamento de dados e um centro de operações que monitora o estádio em tempo real.</p><p>O diretor de Tecnologia do Atlético-MG destacou que o sistema usará &quot;inteligência artificial para avaliar o que está acontecendo com o público e os cenários, tudo o que acontece dentro do estádio&quot;. Essa abordagem visa otimizar a segurança e a experiência dos torcedores.</p><p>A expectativa é que, nos próximos anos, a Arena MRV incorpore essas soluções, transformando-a na arena mais tecnológica da América Latina .</p><p>O objetivo é ampliar o uso de dados e inteligência artificial tanto na gestão do espaço quanto na interação com os fãs.</p><p>Esse texto foi gerado por inteligência artificial com base no conteúdo produzido pela Itatiaia. Todas as informações são apuradas e checadas por jornalistas. O texto final também passa pela revisão da equipe de jornalismo da CNN Brasil.</p>",
+        "fonteNome": "CNN Brasil - Capa",
+        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/futebol/atletico-mineiro/atletico-mg-firma-parceria-com-multinacional-chinesa-de-tecnologia/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -970,48 +634,48 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler."
+            "resposta": "O Atlético-MG fechou parceria com a multinacional chinesa Huawei para modernizar a Arena MRV, em Belo Horizonte."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Assinantes podem liberar 7 acessos por dia para conteúdos da Folha."
+            "resposta": "O acordo, anunciado nesta segunda-feira (28), prevê a implementação de soluções tecnológicas avançadas na casa do Galo, incluindo uso de inteligência artificial e conectividade."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O Projeto Comprova lançou um serviço gratuito de consultoria para jornalistas que atuam na cobertura das eleições de 2026. Batizada de Consulte o Comprova, a iniciativa oferece orientação sobre verificação de fatos, investigação digital e checagem de conteúdos gerados por inteligência artificial ."
+            "resposta": "O contrato entre o clube mineiro e a empresa de tecnologia terá duração de cinco anos. A fase de implantação da nova infraestrutura está prevista para começar em novembro, e a partir daí a Arena MRV operará integralmente com a tecnologia da Huawei em sua rede de dados."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "O atendimento é feito pelo WhatsApp do Comprova. Pelo canal, repórteres poderão pedir o apoio de jornalistas especializados em checagem e investigação visual para auxiliar na apuração de conteúdos relacionados às campanhas para governos estaduais, Senado, Câmara dos Deputados e assembleias legislativas."
+            "resposta": "A SYX-AI, parceira tecnológica da Huawei no Brasil, será a integradora responsável por todo o projeto."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O canal também receberá relatos de assédio e ataques online sofridos por jornalistas em razão da cobertura eleitoral. Os casos poderão ser encaminhados ao Núcleo de Segurança da Abraji (Associação Brasileira de Jornalismo Investigativo), que terá plantão nos finais de semana."
+            "resposta": "A empresa desenvolverá a solução, fará a implantação e acompanhará a operação para garantir o funcionamento adequado dos sistemas."
           }
         ]
       }
     },
     {
-      "id": "ef1f27923841f63e",
-      "titulo": "Integrantes de torcida organizada de time do Brasileirão são presos acusados de tortura",
+      "id": "741d3675d2b5c924",
+      "titulo": "Austrália x Brasil: onde assistir, horário e escalações",
       "categoria": "Esporte",
       "radar": null,
       "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/brasil/integrantes-de-torcida-organizada-de-time-do-brasileirao-sao-presos-acusados-de-tortura/",
-      "dataFonte": "2026-09-28T19:39:45.000Z",
-      "resumoFonte": "Agressões, ameaças, sufocamento e afogamento ocorreram com ao menos duas vítimas, informou a Promotoria da Bahia",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-28-at-12.50.08.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-28T20:17:59.891Z",
+      "urlFonte": "https://veja.abril.com.br/esporte/australia-x-brasil-onde-assistir-horario-e-escalacoes-2/",
+      "dataFonte": "2026-09-28T22:00:25.000Z",
+      "resumoFonte": "Seleções voltam a se enfrentar nesta terça-feira, 29, quatro dias depois do empate por 1 a 1",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/GettyImages-2296414983.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-09-28T22:05:55.707Z",
       "reportagem": {
-        "titulo": "Integrantes de torcida organizada de time do Brasileirão são presos acusados de tortura",
-        "slug": "integrantes-de-torcida-organizada-de-time-do-brasileirao-sao-presos-acusados-de-tortura",
+        "titulo": "Austrália x Brasil: onde assistir, horário e escalações",
+        "slug": "australia-x-brasil-onde-assistir-horario-e-escalacoes",
         "categoria": "Esporte",
         "data": "2026-09-28",
-        "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-28-at-12.50.08.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
-        "resumo": "Agressões, ameaças, sufocamento e afogamento ocorreram com ao menos duas vítimas, informou a Promotoria da Bahia",
-        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&amp;ccedil;&amp;atilde;o da Editora Abril.</p><h2>Opera&amp;ccedil;&amp;atilde;o do Grupo de Atua&amp;ccedil;&amp;atilde;o Especial de Combate</h2><p>Uma opera&amp;ccedil;&amp;atilde;o do Grupo de Atua&amp;ccedil;&amp;atilde;o Especial de Combate ao Crime Organizado (Gaeco) , do Minist&amp;eacute;rio P&amp;uacute;blico da Bahia (MP-BA) , prendeu nesta segunda-feira, 28, dez integrantes da presid&amp;ecirc;ncia e diretoria da torcida organizada &amp;ldquo; Bamor &amp;rdquo; em uma investiga&amp;ccedil;&amp;atilde;o que envolve tortura, roubo, extors&amp;atilde;o, amea&amp;ccedil;a e associa&amp;ccedil;&amp;atilde;o criminosa.</p><p>O grupo &amp;eacute; formado por torcedores do Bahia, que disputa a primeira divis&amp;atilde;o do Campeonato Brasileiro. Tamb&amp;eacute;m foram cumpridos quinze mandados de busca e apreens&amp;atilde;o.</p><p>Entre os detidos est&amp;atilde;o o presidente e o vice-presidente da torcida organizada, Matheus Castro e Luciano Ven&amp;acirc;ncio, respectivamente. &amp;ldquo;As investiga&amp;ccedil;&amp;otilde;es apuram pr&amp;aacute;tica de tortura f&amp;iacute;sica e psicol&amp;oacute;gica ocorrida dentro da sede da torcida organizada contra pelo menos duas v&amp;iacute;timas em julho deste ano.</p><h2>Apura&amp;ccedil;&amp;otilde;es apontam que elas foram constrangidas a confessar</h2><p>As apura&amp;ccedil;&amp;otilde;es apontam que elas foram constrangidas a confessar supostas irregularidades mediante agress&amp;otilde;es, amea&amp;ccedil;as, sufocamento e afogamento. A tortura teria se estendido por horas com a utiliza&amp;ccedil;&amp;atilde;o de tacos de beisebol, martelo e faca.</p><p>Tamb&amp;eacute;m s&amp;atilde;o investigados crimes de roubo, extors&amp;atilde;o, amea&amp;ccedil;a e associa&amp;ccedil;&amp;atilde;o criminosa&amp;rdquo;, afirmou nota divulgada pelo MP baiano nesta segunda. Entre os alvos da opera&amp;ccedil;&amp;atilde;o est&amp;aacute; um policial militar. O espa&amp;ccedil;o para manifesta&amp;ccedil;&amp;atilde;o das defesas est&amp;aacute; aberto.</p><p>De acordo com as apura&amp;ccedil;&amp;otilde;es, uma das v&amp;iacute;timas teria sido chamada para prestar esclarecimentos sobre um poss&amp;iacute;vel desfalque financeiro nas contas da organizada. A v&amp;iacute;tima foi ao local e n&amp;atilde;o desconfiou de que se tratava de uma emboscada. A partir daquele momento, o grupo acusado do crime de tortura for&amp;ccedil;ou a v&amp;iacute;tima a confessar o suposto desfalque, o que n&amp;atilde;o ocorreu. Ao afirmar que n&amp;atilde;o havia cometido nenhum desvio, a v&amp;iacute;tima foi torturada.</p><p>A opera&amp;ccedil;&amp;atilde;o foi realizada de forma integrada com o Departamento Especializado de Investiga&amp;ccedil;&amp;otilde;es Criminais (Deic), o Departamento Estadual de Repress&amp;atilde;o ao Narcotr&amp;aacute;fico (Denarc), a For&amp;ccedil;a Correcional Especial Integrada (Force) da Corregedoria-Geral da SSP, com o apoio da Pol&amp;iacute;cia Militar, por meio dos Batalh&amp;otilde;es de Choque, Especializado de Policiamento de Eventos (Bepe) e de Opera&amp;ccedil;&amp;otilde;es Policiais Especiais (Bope), do Patrulhamento T&amp;aacute;tico M&amp;oacute;vel ou Motorizado (Patamo) e da Corregedoria.</p>",
+        "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/GettyImages-2296414983.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "resumo": "Seleções voltam a se enfrentar nesta terça-feira, 29, quatro dias depois do empate por 1 a 1",
+        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&amp;ccedil;&amp;atilde;o da Editora Abril.</p><h2>Austr&amp;aacute;lia e Brasil se enfrentam nesta ter&amp;ccedil;a-feira, 29,</h2><p>Austr&amp;aacute;lia e Brasil se enfrentam nesta ter&amp;ccedil;a-feira, 29, &amp;agrave;s 7h (hor&amp;aacute;rio de Bras&amp;iacute;lia), no Suncorp Stadium, em Brisbane, no segundo amistoso entre as sele&amp;ccedil;&amp;otilde;es nesta Data Fifa .</p><p>O reencontro acontece apenas quatro dias depois do empate por 1 a 1 em Townsville . Nestory Irankunda abriu o placar para os australianos no segundo tempo, em cobran&amp;ccedil;a de falta, e Rayan marcou de cabe&amp;ccedil;a nos acr&amp;eacute;scimos para evitar a derrota brasileira.</p><p>O resultado aumentou a import&amp;acirc;ncia do segundo teste de Carlo Ancelotti neste in&amp;iacute;cio de ciclo para a Copa do Mundo de 2030. Para o duelo em Brisbane, o treinador prepara uma equipe bastante diferente. No &amp;uacute;ltimo treinamento, o Brasil foi montado no 4-3-3, com sete mudan&amp;ccedil;as em rela&amp;ccedil;&amp;atilde;o ao time que come&amp;ccedil;ou o primeiro amistoso . Raphinha foi deslocado para o centro do ataque, enquanto Rayan e Vinicius Junior apareceram pelos lados.</p><h2>Forma&amp;ccedil;&amp;atilde;o tamb&amp;eacute;m abre espa&amp;ccedil;o para alguns dos jovens</h2><p>A forma&amp;ccedil;&amp;atilde;o tamb&amp;eacute;m abre espa&amp;ccedil;o para alguns dos jovens observados pela comiss&amp;atilde;o t&amp;eacute;cnica nesta Data Fifa. Gabriel Bontempo aparece no meio ao lado de Danilo e Bruno Guimar&amp;atilde;es, enquanto Jair forma a dupla de zaga com Gabriel Magalh&amp;atilde;es.</p><p>Ot&amp;aacute;vio foi utilizado no gol no treinamento que encaminhou a equipe. Ancelotti afirmou que a prioridade neste momento &amp;eacute; ampliar a nova gera&amp;ccedil;&amp;atilde;o de jogadores que poder&amp;aacute; acompanhar a Sele&amp;ccedil;&amp;atilde;o ao longo do pr&amp;oacute;ximo ciclo.</p><p>Do outro lado, a Austr&amp;aacute;lia tenta repetir a boa atua&amp;ccedil;&amp;atilde;o que teve em Townsville. A sele&amp;ccedil;&amp;atilde;o comandada por Tony Popovic conseguiu limitar o ataque brasileiro durante boa parte do primeiro amistoso e voltou a mostrar for&amp;ccedil;a nas transi&amp;ccedil;&amp;otilde;es e nas bolas paradas. Irankunda, autor do gol australiano na sexta-feira, permanece como uma das principais armas ofensivas dos Socceroos .</p><p>Austr&amp;aacute;lia e Brasil se enfrentam em amistoso internacional nesta ter&amp;ccedil;a-feira, 29, &amp;agrave;s 7h (hor&amp;aacute;rio de Bras&amp;iacute;lia), no Suncorp Stadium, em Brisbane. A partida ter&amp;aacute; transmiss&amp;atilde;o ao vivo da TV Globo, do SporTV, do Globoplay e da ge tv , no YouTube.</p><p>Austr&amp;aacute;lia: Patrick Beach; Milos Degenek, Harry Souttar e Lucas Herrington; Kasey Bos, Jackson Irvine, Patrick Yazbek e Aziz Behich; Riley McGree e Nestory Irankunda; Tete Yengi. T&amp;eacute;cnico: Tony Popovic.</p><p>Brasil: Ot&amp;aacute;vio; Vanderson, Jair, Gabriel Magalh&amp;atilde;es e Mauro J&amp;uacute;nior; Danilo, Bruno Guimar&amp;atilde;es e Gabriel Bontempo; Rayan, Raphinha e Vinicius Junior. T&amp;eacute;cnico: Carlo Ancelotti.</p>",
         "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/brasil/integrantes-de-torcida-organizada-de-time-do-brasileirao-sao-presos-acusados-de-tortura/",
+        "fonteUrl": "https://veja.abril.com.br/esporte/australia-x-brasil-onde-assistir-horario-e-escalacoes-2/",
         "fontesAdicionais": [
           {
             "nome": "A Gazeta",
@@ -1030,34 +694,382 @@
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Uma opera&ccedil;&atilde;o do Grupo de Atua&ccedil;&atilde;o Especial de Combate ao Crime Organizado (Gaeco) , do Minist&eacute;rio P&uacute;blico da Bahia (MP-BA) , prendeu nesta segunda-feira, 28, dez integrantes da presid&ecirc;ncia e diretoria da torcida organizada &ldquo; Bamor &rdquo; em uma investiga&ccedil;&atilde;o que envolve tortura, roubo, extors"
+            "resposta": "Austr&aacute;lia e Brasil se enfrentam nesta ter&ccedil;a-feira, 29, &agrave;s 7h (hor&aacute;rio de Bras&iacute;lia), no Suncorp Stadium, em Brisbane, no segundo amistoso entre as sele&ccedil;&otilde;es nesta Data Fifa ."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Entre os detidos est&atilde;o o presidente e o vice-presidente da torcida organizada, Matheus Castro e Luciano Ven&acirc;ncio, respectivamente. &ldquo;As investiga&ccedil;&otilde;es apuram pr&aacute;tica de tortura f&iacute;sica e psicol&oacute;gica ocorrida dentro da sede da torcida organizada contra pelo menos duas v&iacute;timas em julho deste ano. As apu"
+            "resposta": "O reencontro acontece apenas quatro dias depois do empate por 1 a 1 em Townsville . Nestory Irankunda abriu o placar para os australianos no segundo tempo, em cobran&ccedil;a de falta, e Rayan marcou de cabe&ccedil;a nos acr&eacute;scimos para evitar a derrota brasileira."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "De acordo com as apura&ccedil;&otilde;es, uma das v&iacute;timas teria sido chamada para prestar esclarecimentos sobre um poss&iacute;vel desfalque financeiro nas contas da organizada. A v&iacute;tima foi ao local e n&atilde;o desconfiou de que se tratava de uma emboscada. A partir daquele momento, o grupo acusado do crime de tortura for&ccedil;ou a v&iacute"
+            "resposta": "O resultado aumentou a import&acirc;ncia do segundo teste de Carlo Ancelotti neste in&iacute;cio de ciclo para a Copa do Mundo de 2030. Para o duelo em Brisbane, o treinador prepara uma equipe bastante diferente. No &uacute;ltimo treinamento, o Brasil foi montado no 4-3-3, com sete mudan&ccedil;as em rela&ccedil;&atilde;o ao time que come&ccedil;ou o primeir"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A opera&ccedil;&atilde;o foi realizada de forma integrada com o Departamento Especializado de Investiga&ccedil;&otilde;es Criminais (Deic), o Departamento Estadual de Repress&atilde;o ao Narcotr&aacute;fico (Denarc), a For&ccedil;a Correcional Especial Integrada (Force) da Corregedoria-Geral da SSP, com o apoio da Pol&iacute;cia Militar, por meio dos Batalh&"
+            "resposta": "A forma&ccedil;&atilde;o tamb&eacute;m abre espa&ccedil;o para alguns dos jovens observados pela comiss&atilde;o t&eacute;cnica nesta Data Fifa. Gabriel Bontempo aparece no meio ao lado de Danilo e Bruno Guimar&atilde;es, enquanto Jair forma a dupla de zaga com Gabriel Magalh&atilde;es. Ot&aacute;vio foi utilizado no gol no treinamento que encaminhou a equip"
           }
         ]
       }
     },
     {
-      "id": "9ec83568ae0dc721",
-      "titulo": "CNBB nega envolvimento em polêmica sobre santa católica",
+      "id": "f27dd76633cb7e86",
+      "titulo": "Após proibição, mais de 500 novas bets ilegais foram criadas, aponta levantamento",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/economia/noticia/2026/09/28/bets-ilegais-foram-criadas-aponta-levantamento.ghtml",
+      "dataFonte": "2026-09-28T20:30:25.000Z",
+      "resumoFonte": "Lula diz que acabar com bets não traz 'prejuízo para o futebol' Um levantamento da plataforma Bet Legal mostra que 543 casas de apostas foram lançadas ilegalmente após a proibição das bets pelo governo federal na última sexta-feira (25). O número considera as novas casas identificadas entre as 18h de sexta-feira e a tarde desta segunda-feira (28).…",
+      "imagem": "https://s2-g1.glbimg.com/ZQfCrZ-Mwzko_YBlo5PIadc4Fu4=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/I/LoPoJyQQWmSUYxxqBuRA/globo-canal-4-20260925-2000-frame-159558.jpeg",
+      "descobertaEm": "2026-09-28T21:17:58.102Z"
+    },
+    {
+      "id": "72b1be73a8843d19",
+      "titulo": "Após decisões de Dino e Mendonça sobre Nossa Senhora, Nunes Marques envia ofício a Fachin",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Agência Brasil - Política",
-      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/cnbb-nega-envolvimento-em-polemica-sobre-santa-catolica",
-      "dataFonte": "2026-09-28T18:47:00.000Z",
-      "resumoFonte": "A Conferência Nacional dos Bispos do Brasil (CNBB) divulgou uma nota na qual nega ter produzido, autorizado ou participado da elaboração ou divulgação de informações falsas relacionadas ao atual processo eleitoral. A declaração veio a público após o candidato do PL à Presidência da República, Flávio Bolsonaro, ter acusado “gente de dentro da CNBB”…",
-      "imagem": "https://imagens.ebc.com.br/bW9B8951CeUVLXAvmgjtUYflYLM=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/10/12/0d9a2137.jpg?itok=0fJHrXoz",
-      "descobertaEm": "2026-09-28T19:17:58.862Z"
+      "fonteNome": "CBN - Política",
+      "urlFonte": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/28/apos-decisoes-de-dino-e-mendonca-sobre-nossa-senhora-nunes-marques-envia-oficio-a-fachin.ghtml",
+      "dataFonte": "2026-09-28T22:05:45.703Z",
+      "resumoFonte": "A manifestação de Nunes Marques à Fachin ocorre depois que Flávio Dino derrubou a liminar de André Mendonça, no âmbito do TSE, que mandou retirar do ar publicações sobre a Nossa Senhora Aparecida.",
+      "imagem": "https://s2-cbn.glbimg.com/bsMJyBX9ndOc7tCQ1P7CNaHDmLQ=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/C/v/jckrpiQZyJ6U6ErSDXwA/55368499694-71316830e5-k.jpg",
+      "descobertaEm": "2026-09-28T22:05:55.707Z",
+      "reportagem": {
+        "titulo": "Após decisões sobre Nossa Senhora, Nunes Marques critica",
+        "slug": "apos-decisoes-sobre-nossa-senhora-nunes-marques-critica",
+        "categoria": "Justiça",
+        "data": "2026-09-28",
+        "imagem": "https://s2-cbn.glbimg.com/bsMJyBX9ndOc7tCQ1P7CNaHDmLQ=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/C/v/jckrpiQZyJ6U6ErSDXwA/55368499694-71316830e5-k.jpg",
+        "resumo": "A manifestação de Nunes Marques à Fachin ocorre depois que Flávio Dino derrubou a liminar de André Mendonça, no âmbito do TSE, que mandou retirar do ar publicações sobre a Nossa Senhora Aparecida.",
+        "conteudo": "<p>Depois das recentes decisões de Flávio Dino e André Mendonça envolvendo a menção à Nossa Senhora Aparecida em publicações eleitorais, o presidente do TSE, Nunes Marques, enviou um ofício ao presidente do STF, Edson Fachin, em que pede filtro na distribuição das ações envolvendo as eleições e fala do risco de &quot;captura institucional&quot;.</p><h2>O que o Conselho vai decidir</h2><p>No documento, Nunes Marques cita &quot;elevada preocupação com episódios de indevida sobreposição de competência e de violação ao juiz natural no âmbito do Supremo Tribunal Federal que vêm impactando diretamente a condução da eleição pelo Tribunal Superior Eleitoral&quot;.</p><p>A manifestação de Nunes Marques à Fachin ocorre depois que Flávio Dino derrubou a liminar de André Mendonça, no âmbito do TSE, que mandou retirar do ar publicações sobre a Nossa Senhora Aparecida. Após tomar a decisão, Dino enviou o caso ao plenário e, agora, cabe a Fachin marcar uma data.</p><p>Após a polêmica, Nunes Marques se reuniu com Fachin nesta segunda-feira e encaminhou o ofício à presidência em que diz que &quot;em período eleitoral, marcado por prazos exíguos&quot;, a instabilidade gera insegurança jurídica, e fala do risco de erosão democrática.</p><h2>Esse é mais um capítulo nos embates</h2><p>Esse é mais um capítulo nos embates entre ministros do STF. Na decisão que manda reativar a postagem sobre Nossa Senhora Aparecida, Dino cita que a remoção violava as liberdades de expressão e religiosa. Mas, ao determinar a exclusão da postagem, Mendonça atendeu a um pedido do candidato à presidência, Flávio Bolsonaro, feito diretamente ao TSR.</p><p>Nesta segunda-feira, em agenda de campanha em São Paulo, Flávio levantou uma imagem de Nossa Senhora Aparecida ao lado do governador, Tarcísio de Freitas, e disse que está sendo vítima de fake news.</p><p>No fim de semana, Flávio afirmou que a informação teria sido disseminada pelo PT com a ajuda de pessoas de dentro da Conferência Nacional dos Bispos do Brasil. A entidade reagiu, negou participação na produção ou divulgação de informações falsas e declarou que “a mentira não se combate com outra mentira”.</p>",
+        "fonteNome": "CBN - Política",
+        "fonteUrl": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/28/apos-decisoes-de-dino-e-mendonca-sobre-nossa-senhora-nunes-marques-envia-oficio-a-fachin.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Depois das recentes decisões de Flávio Dino e André Mendonça envolvendo a menção à Nossa Senhora Aparecida em publicações eleitorais, o presidente do TSE, Nunes Marques, enviou um ofício ao presidente do STF, Edson Fachin, em que pede filtro na distribuição das ações envolvendo as eleições e fala do risco de \"captura institucional\"."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "No documento, Nunes Marques cita \"elevada preocupação com episódios de indevida sobreposição de competência e de violação ao juiz natural no âmbito do Supremo Tribunal Federal que vêm impactando diretamente a condução da eleição pelo Tribunal Superior Eleitoral\"."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A manifestação de Nunes Marques à Fachin ocorre depois que Flávio Dino derrubou a liminar de André Mendonça, no âmbito do TSE, que mandou retirar do ar publicações sobre a Nossa Senhora Aparecida. Após tomar a decisão, Dino enviou o caso ao plenário e, agora, cabe a Fachin marcar uma data. Após a polêmica, Nunes Marques se reuniu com Fachin nesta segunda-fei"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Esse é mais um capítulo nos embates entre ministros do STF. Na decisão que manda reativar a postagem sobre Nossa Senhora Aparecida, Dino cita que a remoção violava as liberdades de expressão e religiosa. Mas, ao determinar a exclusão da postagem, Mendonça atendeu a um pedido do candidato à presidência, Flávio Bolsonaro, feito diretamente ao TSR. Nesta segund"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "No fim de semana, Flávio afirmou que a informação teria sido disseminada pelo PT com a ajuda de pessoas de dentro da Conferência Nacional dos Bispos do Brasil. A entidade reagiu, negou participação na produção ou divulgação de informações falsas e declarou que “a mentira não se combate com outra mentira”."
+          }
+        ]
+      }
+    },
+    {
+      "id": "63a1e90a86c9fa2a",
+      "titulo": "MP defende suspender redes de servidor por caso Nossa Senhora Aparecida",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "CNN Brasil - Capa",
+      "urlFonte": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/eleicoes/mp-defende-suspender-redes-de-servidor-por-caso-nossa-senhora-aparecida/",
+      "dataFonte": "2026-09-28T21:56:35.000Z",
+      "resumoFonte": "Procurador-geral eleitoral porém se manifestou contra a prisão e busca e apreensão",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/palacio-do-planalto.webp?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-28T22:08:32.617Z",
+      "reportagem": {
+        "titulo": "MP defende suspender redes de servidor por caso Nossa Senhora Aparecida",
+        "slug": "mp-defende-suspender-redes-de-servidor-por-caso-nossa-senhora-aparecida",
+        "categoria": "Justiça",
+        "data": "2026-09-28",
+        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/palacio-do-planalto.webp?w=1200&h=630&crop=1",
+        "resumo": "Procurador-geral eleitoral porém se manifestou contra a prisão e busca e apreensão",
+        "conteudo": "<p>O Ministério Público Eleitoral defendeu na noite desta segunda-feira suspender as redes sociais do servidor do palácio do Planalto que postou em suas redes sociais mensagens estimulando a disseminação das informações de que o candidato Flávio Bolsonaro defenderia a substituição da padroeira do Brasil. Ele é lotado na Secretaria de Comunicação da Presidência da República.</p><h2>&quot;Pede que seja determinada a suspensão temporária</h2><p>&quot;Pede que seja determinada a suspensão temporária do perfil na plataforma X até a realização do segundo turno das Eleições de 2026, caso venha a ocorrer, ou, inexistindo segundo turno, até o encerramento do primeiro turno, como medida cautelar destinada a fazer cessar a possível continuidade das condutas penalmente relevantes objeto da presente investigação&quot;, disse o promotor de Justiça Eleitoral Paulo Roberto Binicheski.</p><p>Ele também pede que &quot;seja imposta, pelo mesmo período, a proibição de utilização de redes sociais pelo investigado, por si ou por interposta pessoa, vedada a criação ou utilização de outros perfis ou contas com a finalidade de contornar a medida judicial, inclusive mediante contas de terceiros, bem como a utilização de interpostas pessoas para publicação, republicação ou divulgação de conteúdos em seu nome com a finalidade de frustrar a eficácia da cautelar&quot;.</p><p>O MP porém negou o pedido de prisão e de busca e apreensão contra ele:</p><h2>&quot;Quanto ao pedido de prisão preventiva, o Ministério</h2><p>&quot;Quanto ao pedido de prisão preventiva, o Ministério Público Eleitoral manifesta se pelo não acolhimento da medida e expressamente deixa de requerê-la, neste momento, para os fins do art. 311 do Código de Processo Penal, diante de seu caráter excepcional e da existência de medidas cautelares menos gravosas aptas, nesta fase, a enfrentar o risco concreto identificado&quot;, afirmou.</p><p>A campanha do senador havia pedido na sexta-feira a prisão preventiva e a expedição de um mandado de busca e apreensão contra o servidor do Palácio do Planalto, acusado de disseminar desinformação sobre o caso envolvendo Nossa Senhora Aparecida.</p><p>Segundo a campanha, Marques teria compartilhado nas redes sociais uma publicação que orientava os usuários a ignorar a retratação da imprensa sobre a informação falsa. A postagem dizia: “parem de divulgar a retratação. Deixem o assunto rolar. […] Continuem compartilhando que nossa senhora foi atacada, precisa chegar no interior do Nordeste, no interior do Norte”.</p><p>A campanha afirma que o servidor tinha conhecimento de que a informação era falsa e de que havia sido desmentida publicamente. Segundo a petição, ele teria compartilhado o conteúdo com seus mais de 200 mil seguidores.</p><p>A petição também cita outras publicações republicadas por Marques, nas quais usuários acusam Flávio Bolsonaro de tentar enfraquecer as igrejas católicas no Brasil.</p><p>ara a campanha, o conteúdo compartilhado pelo servidor indicaria uma atuação coordenada para manter a informação falsa em circulação até o primeiro turno das eleições. “Não se trata de opinião. Trata-se de um plano”, afirma a notícia-crime.</p><p>Para os advogados, a conduta configura os crimes de divulgação de fatos sabidamente inverídicos em período eleitoral, além de incitação ao crime e associação criminosa.</p><p>Por isso, a campanha pediu a abertura de investigação para apurar a conduta de Marques e de outros envolvidos, além de mandado de busca e apreensão para recolher computador, celular e outros dispositivos eletrônicos do servidor.</p>",
+        "fonteNome": "CNN Brasil - Capa",
+        "fonteUrl": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/eleicoes/mp-defende-suspender-redes-de-servidor-por-caso-nossa-senhora-aparecida/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Ministério Público Eleitoral defendeu na noite desta segunda-feira suspender as redes sociais do servidor do palácio do Planalto que postou em suas redes sociais mensagens estimulando a disseminação das informações de que o candidato Flávio Bolsonaro defenderia a substituição da padroeira do Brasil. Ele é lotado na Secretaria de Comunicação da Presidência "
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "\"Pede que seja determinada a suspensão temporária do perfil na plataforma X até a realização do segundo turno das Eleições de 2026, caso venha a ocorrer, ou, inexistindo segundo turno, até o encerramento do primeiro turno, como medida cautelar destinada a fazer cessar a possível continuidade das condutas penalmente relevantes objeto da presente investigação\""
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Ele também pede que \"seja imposta, pelo mesmo período, a proibição de utilização de redes sociais pelo investigado, por si ou por interposta pessoa, vedada a criação ou utilização de outros perfis ou contas com a finalidade de contornar a medida judicial, inclusive mediante contas de terceiros, bem como a utilização de interpostas pessoas para publicação, re"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O MP porém negou o pedido de prisão e de busca e apreensão contra ele:"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "\"Quanto ao pedido de prisão preventiva, o Ministério Público Eleitoral manifesta se pelo não acolhimento da medida e expressamente deixa de requerê-la, neste momento, para os fins do art. 311 do Código de Processo Penal, diante de seu caráter excepcional e da existência de medidas cautelares menos gravosas aptas, nesta fase, a enfrentar o risco concreto iden"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2d09a9e8d73bc1bd",
+      "titulo": "Advocacia-Geral da União pede mais de R$ 1 bilhão em processo contra bets",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "CBN - Política",
+      "urlFonte": "https://cbn.globo.com/politica/noticia/2026/09/28/advocacia-geral-da-uniao-pede-mais-de-r-1-bilhao-em-processo-contra-bets.ghtml",
+      "dataFonte": "2026-09-28T21:54:28.412Z",
+      "resumoFonte": "Segundo o Ministério da Saúde, quase 11 milhões apresentam padrão de risco ou problemático de jogo",
+      "imagem": "https://s2-cbn.glbimg.com/FP1hG-ESpaDQKcUsHYVElr5TlAE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2024/F/h/EEV8QzQASZkEV4bhi3wQ/e49c0c8f-f5b6-4ecd-95d9-da7813132b5b-1-.jfif",
+      "descobertaEm": "2026-09-28T22:05:55.707Z",
+      "reportagem": {
+        "titulo": "Advocacia-Geral da União pede mais de R$ 1 bilhão em processo contra bets",
+        "slug": "advocacia-geral-da-uniao-pede-mais-de-r-1-bilhao-em-processo-contra-bets",
+        "categoria": "Justiça",
+        "data": "2026-09-28",
+        "imagem": "https://s2-cbn.glbimg.com/FP1hG-ESpaDQKcUsHYVElr5TlAE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2024/F/h/EEV8QzQASZkEV4bhi3wQ/e49c0c8f-f5b6-4ecd-95d9-da7813132b5b-1-.jfif",
+        "resumo": "Segundo o Ministério da Saúde, quase 11 milhões apresentam padrão de risco ou problemático de jogo",
+        "conteudo": "<p>A Advocacia-Geral da União (AGU) ajuizou nesta segunda ação civil pública contra 17 operadoras de bets para cobrar ressarcimento de despesas do Sistema Único de Saúde (SUS) atribuídas aos danos causados pelo jogo. A ação foi impetrada na Justiça Federal em Pernambuco.</p><h2>Além do ressarcimento ao SUS, a ação inclui</h2><p>Além do ressarcimento ao SUS, a ação inclui um pedido de danos morais coletivos de, no mínimo, R$ 1 bilhão, em razão de violações a valores como a dignidade da pessoa humana, proteção da família e dos vulneráveis. A AGU ainda pede a restituição em dobro dos valores apostados por pessoas diagnosticadas por ludopatia (transtorno do jogo patológico).</p><p>Segundo a Receita Federal, cerca de 28 milhões de brasileiros apostam atualmente e, conforme o Ministério da Saúde, quase 11 milhões de apostadores apresentam padrão de risco ou problemático de jogo. Entre janeiro de 2018 e dezembro de 2025, os atendimentos do SUS ligados aos diagnósticos de jogo patológico e comportamento de jogo excessivo cresceram aproximadamente 140%.</p><p>A AGU argumenta que a compensação prevista pela legislação para as bets é insuficiente para cobrir os custos do sistema de saúde. Das destinações obrigatórias sobre a receita das operadoras, apenas 0,12% vão para o Ministério da Saúde.</p><h2>No último exercício, foram transferidos somente R$ 50</h2><p>No último exercício, foram transferidos somente R$ 50 milhões por parte das bets. O valor exato a ser ressarcido pelas empresas ao SUS a título de danos materiais, em caso de sucesso na ação, será calculado na fase processual de liquidação, mas estudos preliminares do MS indicam prejuízo mínimo de cerca de R$ 2,6 bilhões.</p><p>As entidades ligadas às bets e as empresas listadas ainda não se manifestaram.</p><p>Mais cedo, a AGU pediu um prazo de 72 horas ao Supremo Tribunal Federal (STF) para que o para se manifestar sobre as ações nas quais as empresas de bets pedem a retomada imediata das operações no Brasil antes da análise do ministro Luiz Fux.</p>",
+        "fonteNome": "CBN - Política",
+        "fonteUrl": "https://cbn.globo.com/politica/noticia/2026/09/28/advocacia-geral-da-uniao-pede-mais-de-r-1-bilhao-em-processo-contra-bets.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A Advocacia-Geral da União (AGU) ajuizou nesta segunda ação civil pública contra 17 operadoras de bets para cobrar ressarcimento de despesas do Sistema Único de Saúde (SUS) atribuídas aos danos causados pelo jogo. A ação foi impetrada na Justiça Federal em Pernambuco."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Além do ressarcimento ao SUS, a ação inclui um pedido de danos morais coletivos de, no mínimo, R$ 1 bilhão, em razão de violações a valores como a dignidade da pessoa humana, proteção da família e dos vulneráveis. A AGU ainda pede a restituição em dobro dos valores apostados por pessoas diagnosticadas por ludopatia (transtorno do jogo patológico)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Segundo a Receita Federal, cerca de 28 milhões de brasileiros apostam atualmente e, conforme o Ministério da Saúde, quase 11 milhões de apostadores apresentam padrão de risco ou problemático de jogo. Entre janeiro de 2018 e dezembro de 2025, os atendimentos do SUS ligados aos diagnósticos de jogo patológico e comportamento de jogo excessivo cresceram aproxim"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A AGU argumenta que a compensação prevista pela legislação para as bets é insuficiente para cobrir os custos do sistema de saúde. Das destinações obrigatórias sobre a receita das operadoras, apenas 0,12% vão para o Ministério da Saúde."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "No último exercício, foram transferidos somente R$ 50 milhões por parte das bets. O valor exato a ser ressarcido pelas empresas ao SUS a título de danos materiais, em caso de sucesso na ação, será calculado na fase processual de liquidação, mas estudos preliminares do MS indicam prejuízo mínimo de cerca de R$ 2,6 bilhões."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cac2809604d76887",
+      "titulo": "Subordinação do TSE ao STF esvazia os dois tribunais, diz Nunes Marques",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/politica/subordinacao-do-tse-ao-stf-esvazia-os-dois-tribunais-diz-nunes-marques/",
+      "dataFonte": "2026-09-28T21:53:33.000Z",
+      "resumoFonte": "Como mostrou a CNN, presidente do TSE formalizou a Fachin pedido para ampliar filtro na distribuição de ações eleitorais no STF",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/nunes-marques-plenario-stf.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-28T22:05:55.707Z",
+      "reportagem": {
+        "titulo": "Subordinação do TSE ao STF esvazia os dois tribunais, diz Nunes Marques",
+        "slug": "subordinacao-do-tse-ao-stf-esvazia-os-dois-tribunais-diz-nunes-marques",
+        "categoria": "Justiça",
+        "data": "2026-09-28",
+        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/nunes-marques-plenario-stf.jpg?w=1200&h=630&crop=1",
+        "resumo": "Como mostrou a CNN, presidente do TSE formalizou a Fachin pedido para ampliar filtro na distribuição de ações eleitorais no STF",
+        "conteudo": "<p>O presidente do TSE (Tribunal Superior Eleitoral) , ministro Kassio Nunes Marques , afirmou que a subordinação da Corte Eleitoral a decisões individuais de ministros do STF (Supremo Tribunal Federal) pode esvaziar a atuação dos dois tribunais e gerar insegurança jurídica durante as eleições.</p><h2>Avaliação consta de ofício enviado nesta segunda-feira (28)</h2><p>A avaliação consta de ofício enviado nesta segunda-feira (28) ao presidente do Supremo, Edson Fachin , no qual Kassio formalizou o pedido para que a Corte adote um filtro na distribuição de ações relacionadas ao processo eleitoral , como antecipou a CNN .</p><p>No documento, o presidente do TSE diz haver risco de “captura institucional” quando decisões individuais de ministros do STF interferem em matérias atribuídas à Justiça Eleitoral.</p><p>“Tal subordinação esvazia tanto a especialização constitucionalmente delineada quanto a colegialidade que confere legitimidade às decisões de ambos os tribunais” , afirmou.</p><h2>Esse tipo de interferência, durante o período eleitoral,</h2><p>Segundo Kassio, esse tipo de interferência, durante o período eleitoral, pode gerar instabilidade nas decisões, estimular a busca pela instância considerada mais favorável e comprometer a previsibilidade das regras do processo eleitoral. No ofício, ele afirma ainda que esse cenário pode levar ao enfraquecimento das instituições responsáveis pela integridade das eleições.</p><p>Kassio pediu a Fachin que a Presidência do STF faça uma análise prévia de petições com pedidos urgentes ligados às eleições antes da distribuição dos casos, inclusive quando os requerimentos forem apresentados em ações que já tramitam no Supremo. Segundo ele, a medida serviria para evitar decisões que possam afetar a isonomia entre os candidatos.</p><p>O ofício foi encaminhado após a decisão do ministro Flávio Dino que derrubou uma determinação de André Mendonça, no TSE, para remover publicações relacionadas à falsa informação de que Flávio Bolsonaro (PL) retiraria de Nossa Senhora Aparecida o título de Padroeira do Brasil caso fosse eleito presidente.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/politica/subordinacao-do-tse-ao-stf-esvazia-os-dois-tribunais-diz-nunes-marques/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O presidente do TSE (Tribunal Superior Eleitoral) , ministro Kassio Nunes Marques , afirmou que a subordinação da Corte Eleitoral a decisões individuais de ministros do STF (Supremo Tribunal Federal) pode esvaziar a atuação dos dois tribunais e gerar insegurança jurídica durante as eleições."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A avaliação consta de ofício enviado nesta segunda-feira (28) ao presidente do Supremo, Edson Fachin , no qual Kassio formalizou o pedido para que a Corte adote um filtro na distribuição de ações relacionadas ao processo eleitoral , como antecipou a CNN ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "No documento, o presidente do TSE diz haver risco de “captura institucional” quando decisões individuais de ministros do STF interferem em matérias atribuídas à Justiça Eleitoral."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "“Tal subordinação esvazia tanto a especialização constitucionalmente delineada quanto a colegialidade que confere legitimidade às decisões de ambos os tribunais” , afirmou."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Segundo Kassio, esse tipo de interferência, durante o período eleitoral, pode gerar instabilidade nas decisões, estimular a busca pela instância considerada mais favorável e comprometer a previsibilidade das regras do processo eleitoral. No ofício, ele afirma ainda que esse cenário pode levar ao enfraquecimento das instituições responsáveis pela integridade "
+          }
+        ]
+      }
+    },
+    {
+      "id": "db079de5f79d007a",
+      "titulo": "Governo Trump revoga vistos de quase 30 autoridades latino-americanas por ‘corrupção’",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/mundo/governo-trump-revoga-vistos-de-quase-30-autoridades-latino-americanas-por-corrupcao/",
+      "dataFonte": "2026-09-28T21:32:51.000Z",
+      "resumoFonte": "Procurador-geral boliviano está entre os alvos da medida, que mira gente em nações aliadas para facilitar combate ao tráfico junto a governos de direita",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2025/10/000_786P467.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-09-28T22:05:55.707Z",
+      "reportagem": {
+        "titulo": "Governo Trump revoga vistos de quase 30 autoridades latino-americanas por ‘corrupção’",
+        "slug": "governo-trump-revoga-vistos-de-quase-30-autoridades-latino-americanas-por-corrupcao",
+        "categoria": "Justiça",
+        "data": "2026-09-28",
+        "imagem": "https://veja.abril.com.br/wp-content/uploads/2025/10/000_786P467.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "resumo": "Procurador-geral boliviano está entre os alvos da medida, que mira gente em nações aliadas para facilitar combate ao tráfico junto a governos de direita",
+        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&amp;ccedil;&amp;atilde;o da Editora Abril.</p><h2>Governo do presidente dos Estados Unidos , Donald</h2><p>O governo do presidente dos Estados Unidos , Donald Trump , anunciou nesta segunda-feira, 28, a revoga&amp;ccedil;&amp;atilde;o ou restri&amp;ccedil;&amp;atilde;o de vistos de 27 autoridades, ex-autoridades, empres&amp;aacute;rios e seus familiares de pa&amp;iacute;ses da Am&amp;eacute;rica Latina .</p><p>A medida atinge pessoas da Bol&amp;iacute;via , Col&amp;ocirc;mbia , Equador e Peru e, segundo o Departamento de Estado, tem como alvo estrangeiros envolvidos em corrup&amp;ccedil;&amp;atilde;o ou narcotr&amp;aacute;fico que tenham atuado para &amp;ldquo;minar um governo democraticamente eleito&amp;rdquo;.</p><p>A decis&amp;atilde;o integra a uma estrat&amp;eacute;gia mais ampla do governo Trump de ampliar a coopera&amp;ccedil;&amp;atilde;o com governos latino-americanos no combate ao narcotr&amp;aacute;fico e ao crime organizado.</p><h2>Bol&amp;iacute;via, Col&amp;ocirc;mbia, Equador e Peru fazem parte</h2><p>Bol&amp;iacute;via, Col&amp;ocirc;mbia, Equador e Peru fazem parte do chamado Escudo das Am&amp;eacute;ricas, coaliz&amp;atilde;o criada neste ano por Trump para articular pa&amp;iacute;ses do hemisf&amp;eacute;rio ocidental em a&amp;ccedil;&amp;otilde;es contra o tr&amp;aacute;fico de drogas, o crime organizado e outras amea&amp;ccedil;as &amp;agrave; seguran&amp;ccedil;a regional.</p><p>O secret&amp;aacute;rio de Estado americano, Marco Rubio, visitou Col&amp;ocirc;mbia, Equador e Peru neste m&amp;ecirc;s e prometeu apoio americano &amp;agrave;s a&amp;ccedil;&amp;otilde;es dos tr&amp;ecirc;s pa&amp;iacute;ses contra o tr&amp;aacute;fico de drogas e de pessoas. &amp;ldquo;Funcion&amp;aacute;rios corruptos &amp;mdash; e os criminosos que eles protegem &amp;mdash; n&amp;atilde;o s&amp;atilde;o bem-vindos nos Estados Unidos&amp;rdquo;, afirmou o Departamento de Estado ao anunciar a medida.</p><p>Entre os principais alvos est&amp;aacute; o procurador-geral da Bol&amp;iacute;via, Roger Mariaca , eleito em 2024 para um mandato de seis anos.</p><p>O Departamento de Estado o acusou de ter &amp;ldquo;abusado de seus cargos p&amp;uacute;blicos ao solicitar e aceitar subornos para facilitar o narcotr&amp;aacute;fico&amp;rdquo; e de ter ajudado &amp;ldquo;criminosos violentos a escapar da Justi&amp;ccedil;a&amp;rdquo;.</p><p>Segundo Washington, suas a&amp;ccedil;&amp;otilde;es &amp;ldquo;colocam em risco os esfor&amp;ccedil;os do presidente Trump para combater o narcoterrorismo&amp;rdquo; e &amp;ldquo;enfraquecem as pr&amp;oacute;prias institui&amp;ccedil;&amp;otilde;es democr&amp;aacute;ticas que a Bol&amp;iacute;via, como participante do Escudo das Am&amp;eacute;ricas, est&amp;aacute; trabalhando para fortalecer&amp;rdquo;.</p><p>Mariaca e seus familiares imediatos foram considerados ineleg&amp;iacute;veis para entrar nos Estados Unidos. Em uma designa&amp;ccedil;&amp;atilde;o p&amp;uacute;blica, o Departamento de Estado afirmou que o procurador-geral est&amp;aacute; envolvido em &amp;ldquo;corrup&amp;ccedil;&amp;atilde;o significativa&amp;rdquo;.</p><p>A medida foi tomada com base na se&amp;ccedil;&amp;atilde;o 7031(c) da legisla&amp;ccedil;&amp;atilde;o americana, que permite designar estrangeiros sobre os quais o secret&amp;aacute;rio de Estado tenha &amp;ldquo;informa&amp;ccedil;&amp;otilde;es confi&amp;aacute;veis&amp;rdquo; de envolvimento em corrup&amp;ccedil;&amp;atilde;o significativa ou graves viola&amp;ccedil;&amp;otilde;es de direitos humanos.</p><p>A ofensiva tamb&amp;eacute;m alcan&amp;ccedil;a outros 12 cidad&amp;atilde;os bolivianos e seus familiares, entre eles procuradores, ju&amp;iacute;zes, um ex-ministro da Justi&amp;ccedil;a, um magistrado constitucional e um coronel da pol&amp;iacute;cia. De acordo com o governo americano, os vistos existentes dessas pessoas foram revogados. Outros nove bolivianos que atualmente n&amp;atilde;o possuem visto foram considerados ineleg&amp;iacute;veis para obter o documento.</p><p>Na Col&amp;ocirc;mbia, os atingidos s&amp;atilde;o o empres&amp;aacute;rio Euclides Antonio Torres Romero, dono de um conglomerado que atua principalmente nos setores de energia, sinaliza&amp;ccedil;&amp;atilde;o de tr&amp;acirc;nsito e ilumina&amp;ccedil;&amp;atilde;o p&amp;uacute;blica, e a senadora Martha Isabel Peralta Epiey&amp;uacute;, ligada ao Pacto Hist&amp;oacute;rico e ao Movimento Alternativo Ind&amp;iacute;gena e Social (MAIS).</p><p>O Departamento de Estado tamb&amp;eacute;m anunciou restri&amp;ccedil;&amp;otilde;es contra dois cidad&amp;atilde;os do Equador e contra o juiz constitucional peruano Juan Carlos N&amp;uacute;&amp;ntilde;ez Matos.</p><p>Ao anunciar a medida, o Departamento de Estado afirmou que os Estados Unidos est&amp;atilde;o adotando uma nova pol&amp;iacute;tica de restri&amp;ccedil;&amp;atilde;o de vistos contra estrangeiros e familiares pr&amp;oacute;ximos que &amp;ldquo;minam um governo democraticamente eleito por meio de corrup&amp;ccedil;&amp;atilde;o ou atividades de narcotr&amp;aacute;fico&amp;rdquo;.</p><p>Segundo a pasta, esse tipo de atua&amp;ccedil;&amp;atilde;o &amp;eacute; uma amea&amp;ccedil;a &amp;agrave; seguran&amp;ccedil;a e ao Estado de Direito nas Am&amp;eacute;ricas e n&amp;atilde;o ser&amp;aacute; tolerado.</p><p>A pol&amp;iacute;tica &amp;eacute; baseada na Lei de Imigra&amp;ccedil;&amp;atilde;o e Nacionalidade dos Estados Unidos, que permite restringir a entrada de estrangeiros cuja presen&amp;ccedil;a ou atividades possam produzir &amp;ldquo;consequ&amp;ecirc;ncias adversas potencialmente graves&amp;rdquo; para a pol&amp;iacute;tica externa americana.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/mundo/governo-trump-revoga-vistos-de-quase-30-autoridades-latino-americanas-por-corrupcao/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O governo do presidente dos Estados Unidos , Donald Trump , anunciou nesta segunda-feira, 28, a revoga&ccedil;&atilde;o ou restri&ccedil;&atilde;o de vistos de 27 autoridades, ex-autoridades, empres&aacute;rios e seus familiares de pa&iacute;ses da Am&eacute;rica Latina . A medida atinge pessoas da Bol&iacute;via , Col&ocirc;mbia , Equador e Peru e, segundo "
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A decis&atilde;o integra a uma estrat&eacute;gia mais ampla do governo Trump de ampliar a coopera&ccedil;&atilde;o com governos latino-americanos no combate ao narcotr&aacute;fico e ao crime organizado. Bol&iacute;via, Col&ocirc;mbia, Equador e Peru fazem parte do chamado Escudo das Am&eacute;ricas, coaliz&atilde;o criada neste ano por Trump para articular p"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O secret&aacute;rio de Estado americano, Marco Rubio, visitou Col&ocirc;mbia, Equador e Peru neste m&ecirc;s e prometeu apoio americano &agrave;s a&ccedil;&otilde;es dos tr&ecirc;s pa&iacute;ses contra o tr&aacute;fico de drogas e de pessoas. &ldquo;Funcion&aacute;rios corruptos &mdash; e os criminosos que eles protegem &mdash; n&atilde;o s&atilde;o bem-vind"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Entre os principais alvos est&aacute; o procurador-geral da Bol&iacute;via, Roger Mariaca , eleito em 2024 para um mandato de seis anos. O Departamento de Estado o acusou de ter &ldquo;abusado de seus cargos p&uacute;blicos ao solicitar e aceitar subornos para facilitar o narcotr&aacute;fico&rdquo; e de ter ajudado &ldquo;criminosos violentos a escapar da Ju"
+          }
+        ]
+      }
+    },
+    {
+      "id": "55719a084c981c0c",
+      "titulo": "Kassio Nunes Marques reclama de 'indevida sobreposição de competência' do STF sobre o TSE",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/noticia/2026/09/28/kassio-nunes-marques-reclama-de-indevida-sobreposicao-de-competencia-do-stf-sobre-o-tse.ghtml",
+      "dataFonte": "2026-09-28T21:25:54.000Z",
+      "resumoFonte": "O ministro Nunes Marques durante o julgamento no TSE Alejandro Zambrana/Secom/TSE O presidente do Tribunal Superior Eleitoral (TSE), Kassio Nunes Marques, reclamou ao presidente do Supremo Tribunal Federal (STF), Edson Fachin, de 'indevida sobreposição de competência' da Suprema Corte sobre a Corte Eleitoral. \"Venho manifestar minha elevada…",
+      "imagem": "https://s2-g1.glbimg.com/OoML7r1oe1Dr2ubjNAU_vSMJOHk=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/h/j/Eq3ZokTTyUwibWOHaaCA/53013054839-adb26eec52-k.jpg",
+      "descobertaEm": "2026-09-28T22:05:55.707Z"
+    },
+    {
+      "id": "5702c90667ec234b",
+      "titulo": "Deltan diz que suspensão de campanha causou 40 demissões e encalhe de 350 mil panfletos",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/09/deltan-diz-que-suspensao-de-campanha-causou-40-demissoes-e-encalhe-de-350-mil-panfletos.shtml",
+      "dataFonte": "2026-09-28T21:15:00.000Z",
+      "resumoFonte": "A suspensão da campanha ao Senado de Deltan Dallagnol (Novo-PR) por ordem do Tribunal Superior Eleitoral, na semana passada, resultou na demissão de cerca de 40 pessoas ligadas à candidatura. Leia mais (09/28/2026 - 18h15)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/09/28/17906283976abad22ddcc96_1790628397_3x2_rt.jpg",
+      "descobertaEm": "2026-09-28T22:05:55.707Z",
+      "reportagem": {
+        "titulo": "Painel: Deltan diz que suspensão de campanha causou 40 demissões e encalhe de 350 mil panfletos",
+        "slug": "painel-deltan-diz-que-suspensao-de-campanha-causou-40-demissoes-e-encalhe-de-350-mil-panfletos",
+        "categoria": "Justiça",
+        "data": "2026-09-28",
+        "imagem": "https://f.i.uol.com.br/fotografia/2026/09/28/17906283976abad22ddcc96_1790628397_3x2_rt.jpg",
+        "resumo": "Ex-procurador teve divulgação de atos suspensa pelo TSE, embora candidatura esteja mantida",
+        "conteudo": "<p>Editado por Fábio Zanini, espaço traz notícias e bastidores da política. Com Carlos Petrocilo e Gabriela Echenique</p><h2>Você tem 7 acessos por dia para dar</h2><p>Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler.</p><p>Assinantes podem liberar 7 acessos por dia para conteúdos da Folha.</p><p>Receba no seu email as informações exclusivas da coluna Painel</p><h2>Suspensão da campanha ao Senado de Deltan Dallagnol</h2><p>A suspensão da campanha ao Senado de Deltan Dallagnol (Novo-PR) por ordem do Tribunal Superior Eleitoral, na semana passada, resultou na demissão de cerca de 40 pessoas ligadas à candidatura.</p><p>A estimativa é da própria campanha do ex-procurador, que cita ainda o cancelamento da contratação de aproximadamente 360 panfleteiros e o encalhe de 350 mil panfletos e 80 mil &quot;colinhas&quot;.</p><p>Além disso, foi interrompido o impulsionamento digital, que já havia gasto R$ 217 mil junto à Meta.</p><p>A campanha de Deltan foi suspensa, embora sua candidatura esteja ainda valendo. A decisão do TSE se baseou na cassação dele como deputado federal, em 2023.</p><p>Na época, a corte eleitoral considerou Deltan inelegível por entender que ele pediu exoneração do Ministério Público Federal de forma antecipada para evitar a conclusão de procedimentos disciplinares que poderiam comprometer sua candidatura.</p><p>&quot;Democracia exige igualdade na disputa. Não faz sentido eu continuar candidato, estar com meu nome na urna e poder receber votos, mas ser impedido de falar com o eleitor e pedir esses votos enquanto todos os meus adversários seguem fazendo campanha normalmente&quot;, diz Deltan.</p><p>Segundo a campanha, foram perdidos 32 minutos e 24 segundos de propaganda em rádio e televisão. Se a restrição alcançar 1º de outubro, último dia do horário eleitoral, serão 50 minutos fora do ar.</p><p>LINK PRESENTE: Gostou deste texto? Assinante pode liberar sete acessos gratuitos de qualquer link por dia. Basta clicar no F azul abaixo.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/09/deltan-diz-que-suspensao-de-campanha-causou-40-demissoes-e-encalhe-de-350-mil-panfletos.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Editado por Fábio Zanini, espaço traz notícias e bastidores da política. Com Carlos Petrocilo e Gabriela Echenique"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Assinantes podem liberar 7 acessos por dia para conteúdos da Folha."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Receba no seu email as informações exclusivas da coluna Painel"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A suspensão da campanha ao Senado de Deltan Dallagnol (Novo-PR) por ordem do Tribunal Superior Eleitoral, na semana passada, resultou na demissão de cerca de 40 pessoas ligadas à candidatura."
+          }
+        ]
+      }
     },
     {
       "id": "70b1ac7591cd7f6d",
@@ -1089,7 +1101,7 @@
         "data": "2026-09-28",
         "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Thumb-para-corte-74.png?w=1200&h=630&crop=1",
         "resumo": "Presidente do TSE cobrou atuação do presidente do Supremo após ministro Flávio Dino anular decisão tomada pela Corte eleitoral",
-        "conteudo": "<p>O presidente do TSE (Tribunal Superior Eleitoral), Kássio Nunes Marques, alertou o presidente do STF (Supremo Tribunal Federal), Edson Fachin, sobre o perigo de violação à competência da Justiça Eleitoral em recentes decisões dos ministros da Corte e propôs ao colega ampliar as regras sobre a distribuição de processos por prevenção no Supremo.</p><h2>Dois magistrados se reuniram nesta segunda-feira (28),</h2><p>Os dois magistrados se reuniram nesta segunda-feira (28), em agenda fechada no gabinete da presidência do STF.</p><p>A reunião foi solicitada por Nunes Marques no domingo (27). Ele telefonou para Fachin logo após a decisão de Flávio Dino de cassar a determinação de André Mendonça no TSE, que havia mandado derrubar publicações com a fake news de que Flávio Bolsonaro (PL) retiraria o título de padroeira do Brasil de Nossa Senhora Aparecida .</p><p>O presidente do TSE sugeriu que Edson Fachin estenda aos processos ativos a mesma obrigatoriedade já imposta aos processos arquivados ou encerrados de validação pela presidência do STF as petições protocoladas antes que sejam distribuídas por prevenção a determinado relator.</p><h2>Em ofício enviado a presidência do Supremo, Nunes</h2><p>Em ofício enviado a presidência do Supremo, Nunes Marques pediu a Fachin &quot;que promova filtro na distribuição das petições que solicitem medidas urgentes relacionadas às eleições deste ano, inclusive no âmbito de ações já em curso, para prevenir a prolação de decisões que, no limite, possam impactar negativamente a isonomia entre os candidatos.&quot;</p><p>O chefe do TSE disse ainda que &quot;o tema assume especial relevância quando tais iniciativas, ainda que sob a invocação de questões submetidas à apreciação do Supremo Tribunal Federal, buscam alcançar matérias inseridas na competência constitucional da Justiça Eleitoral ou interferir na condução do processo eleitoral, especialmente em período crítico das eleições.&quot;</p><p>Segundo Nunes Marques, ações como essas de ministros do STF têm como resultado &quot;risco de captura institucional, aqui compreendida como a subordinação funcional do TSE a juízos individuais externos à estrutura da Justiça Eleitoral.&quot; &quot;Tal subordinação esvazia tanto a especialização constitucionalmente delineada quanto a colegialidade que confere legitimidade às decisões de ambos os tribunais&quot;, completou o ministro.</p><p>O ajuste evitaria eventuais violações ao princípio do juiz natural , garantia fundamental da Constituição, o que para críticos, não tem sido respeitada em decisões monocráticas consideradas de cunho eleitoral, a exemplo da de Flávio Dino.</p><p>Outro exemplo seria a decisão do ministro Gilmar Mendes de utilizar uma ação arquivada para validar o reajuste do Bolsa Família concedido por Lula.</p><p>Dias Toffoli e André Mendonça, ambos ministros do STF, que também integram o TSE, não participaram da reunião.</p><p>Nesta segunda-feira, o ministro Flávio Dino submeteu à análise do plenário do STF, em sessão presencial, sua ordem judicial que derrubou decisão do ministro André Mendonça de mandar retirar do ar publicações sobre a Nossa Senhora Aparecida.</p><p>Agora, cabe ao presidente da Corte, Edson Fachin, marcar uma data para apreciação da matéria.</p>",
+        "conteudo": "<p>O presidente do TSE (Tribunal Superior Eleitoral), Kássio Nunes Marques, alertou o presidente do STF (Supremo Tribunal Federal), Edson Fachin, sobre o perigo de violação à competência da Justiça Eleitoral em recentes decisões dos ministros da Corte e propôs ao colega ampliar as regras sobre a distribuição de processos por prevenção no Supremo.</p><h2>Dois magistrados se reuniram nesta segunda-feira (28),</h2><p>Os dois magistrados se reuniram nesta segunda-feira (28), em agenda fechada no gabinete da presidência do STF.</p><p>A reunião foi solicitada por Nunes Marques no domingo (27). Ele telefonou para Fachin logo após a decisão de Flávio Dino de cassar a determinação de André Mendonça no TSE, que havia mandado derrubar publicações com a fake news de que Flávio Bolsonaro (PL) retiraria o título de padroeira do Brasil de Nossa Senhora Aparecida .</p><p>O presidente do TSE sugeriu que Edson Fachin estenda aos processos ativos a mesma obrigatoriedade já imposta aos processos arquivados ou encerrados de validação pela presidência do STF as petições protocoladas antes que sejam distribuídas por prevenção a determinado relator.</p><h2>Em ofício enviado a presidência do Supremo, Nunes</h2><p>Em ofício enviado a presidência do Supremo, Nunes Marques pediu a Fachin &quot;que promova filtro na distribuição das petições que solicitem medidas urgentes relacionadas às eleições deste ano, inclusive no âmbito de ações já em curso, para prevenir a prolação de decisões que, no limite, possam impactar negativamente a isonomia entre os candidatos.&quot;</p><p>O chefe do TSE disse ainda que &quot;o tema assume especial relevância quando tais iniciativas, ainda que sob a invocação de questões submetidas à apreciação do Supremo Tribunal Federal, buscam alcançar matérias inseridas na competência constitucional da Justiça Eleitoral ou interferir na condução do processo eleitoral, especialmente em período crítico das eleições.&quot;</p><p>Segundo Nunes Marques, ações como essas de ministros do STF têm como resultado &quot;risco de captura institucional, aqui compreendida como a subordinação funcional do TSE a juízos individuais externos à estrutura da Justiça Eleitoral.&quot; &quot;Tal subordinação esvazia tanto a especialização constitucionalmente delineada quanto a colegialidade que confere legitimidade às decisões de ambos os tribunais&quot;, completou o ministro.</p><p>O ajuste evitaria eventuais violações ao princípio do juiz natural , garantia fundamental da Constituição, o que para críticos, não tem sido respeitada em decisões monocráticas consideradas de cunho eleitoral, a exemplo da de Flávio Dino.</p><p>Dias Toffoli e André Mendonça, ambos ministros do STF, que também integram o TSE, não participaram da reunião.</p><p>Nesta segunda-feira, o ministro Flávio Dino submeteu à análise do plenário do STF, em sessão presencial, sua ordem judicial que derrubou decisão do ministro André Mendonça de mandar retirar do ar publicações sobre a Nossa Senhora Aparecida.</p><p>Agora, cabe ao presidente da Corte, Edson Fachin, marcar uma data para apreciação da matéria.</p>",
         "fonteNome": "CNN Brasil",
         "fonteUrl": "https://www.cnnbrasil.com.br/politica/kassio-pede-que-fachin-ajuste-regra-de-distribuicao-de-processos-no-stf/",
         "fontesAdicionais": [
@@ -1182,181 +1194,13 @@
           }
         ]
       }
-    },
-    {
-      "id": "8ab0511d98536b62",
-      "titulo": "STF vira alvo de críticas da imprensa estrangeira com tom negativo em quase 60% das manchetes",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/mundo/stf-vira-alvo-de-criticas-da-imprensa-estrangeira-com-tom-negativo-em-quase-60-das-manchetes/",
-      "dataFonte": "2026-09-28T19:27:44.000Z",
-      "resumoFonte": "Levantamento da FIA Business School analisou 172 matérias publicadas em nove países – nenhuma abordou a corte de forma positiva",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/55530791759_ac72c7a555_c.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-28T20:17:59.891Z",
-      "reportagem": {
-        "titulo": "STF vira alvo de críticas da imprensa estrangeira com tom negativo em quase 60% das manchetes",
-        "slug": "stf-vira-alvo-de-criticas-da-imprensa-estrangeira-com-tom-negativo-em-quase-60-das-manchetes",
-        "categoria": "Justiça",
-        "data": "2026-09-28",
-        "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/55530791759_ac72c7a555_c.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "resumo": "Levantamento da FIA Business School analisou 172 matérias publicadas em nove países – nenhuma abordou a corte de forma positiva",
-        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&amp;ccedil;&amp;atilde;o da Editora Abril.</p><h2>Mais da metade das manchetes da imprensa internacional</h2><p>Mais da metade das manchetes da imprensa internacional analisadas em um levantamento do IBEVAR-FIA Business School apresentou tom negativo em rela&amp;ccedil;&amp;atilde;o ao Supremo Tribunal Federal ( STF ). Segundo o estudo, divulgado nesta segunda-feira, 28, 58% das 172 mat&amp;eacute;rias avaliadas foram classificadas como desfavor&amp;aacute;veis &amp;agrave; corte, enquanto nenhuma recebeu classifica&amp;ccedil;&amp;atilde;o positiva. As demais foram consideradas neutras.</p><p>A pesquisa utilizou t&amp;eacute;cnicas de Processamento de Linguagem Natural (NLP) para examinar manchetes publicadas em ve&amp;iacute;culos de nove pa&amp;iacute;ses, distribu&amp;iacute;dos por quatro continentes, sobre a &amp;uacute;ltima sess&amp;atilde;o do tribunal em meio ao esc&amp;acirc;ndalo do Banco Master , de Daniel Vorcaro .</p><p>Inicialmente, os pesquisadores reuniram 183 manchetes. Onze delas foram descartadas ap&amp;oacute;s uma etapa de verifica&amp;ccedil;&amp;atilde;o porque a sigla &amp;ldquo; STF &amp;rdquo; n&amp;atilde;o se referia ao Supremo brasileiro. Entre os falsos positivos estavam refer&amp;ecirc;ncias a um partido regional da &amp;Aacute;ustria e a um termo t&amp;eacute;cnico da ind&amp;uacute;stria japonesa de materiais. Ap&amp;oacute;s a filtragem, a amostra final ficou em 172 t&amp;iacute;tulos.</p><h2>+ Crise no STF pode ter &amp;lsquo;impacto decisivo&amp;rsquo;</h2><p>+ Crise no STF pode ter &amp;lsquo;impacto decisivo&amp;rsquo; nas elei&amp;ccedil;&amp;otilde;es brasileiras, diz Financial Times</p><p>O levantamento tamb&amp;eacute;m buscou identificar se o tom adotado em rela&amp;ccedil;&amp;atilde;o ao Supremo nascia de vi&amp;eacute;s pol&amp;iacute;tico . De acordo com os pesquisadores, um teste estat&amp;iacute;stico n&amp;atilde;o encontrou associa&amp;ccedil;&amp;atilde;o significativa entre a classifica&amp;ccedil;&amp;atilde;o dos ve&amp;iacute;culos como de esquerda ou de direita e a avalia&amp;ccedil;&amp;atilde;o positiva, negativa ou neutra da Corte.</p><p>Outra etapa da pesquisa avaliou quais elementos presentes nas manchetes estavam mais associados a avalia&amp;ccedil;&amp;otilde;es negativas. As men&amp;ccedil;&amp;otilde;es isoladas ao ministro Alexandre de Moraes e ao ex-presidente Jair Bolsonaro n&amp;atilde;o apresentaram resultados estatisticamente significativos, segundo o estudo.</p><p>A refer&amp;ecirc;ncia ao contexto eleitoral, por outro lado, apresentou associa&amp;ccedil;&amp;atilde;o com o tom das manchetes. Segundo o modelo de regress&amp;atilde;o log&amp;iacute;stica utilizado pelos pesquisadores, t&amp;iacute;tulos que relacionavam o STF &amp;agrave; disputa presidencial registraram uma chance estimada 92,3% maior de serem classificados como negativos.</p><p>A pesquisa ainda identificou diferen&amp;ccedil;as no enquadramento adotado por ve&amp;iacute;culos de diferentes pa&amp;iacute;ses. Segundo o levantamento, publica&amp;ccedil;&amp;otilde;es de na&amp;ccedil;&amp;otilde;es angl&amp;oacute;fonas, como Reino Unido e Canad&amp;aacute; , enquadraram o epis&amp;oacute;dio como uma investiga&amp;ccedil;&amp;atilde;o processual contra integrantes da Corte.</p><p>Na Espanha e no M&amp;eacute;xico , a cobertura teria dado maior destaque &amp;agrave;s poss&amp;iacute;veis repercuss&amp;otilde;es eleitorais. J&amp;aacute; em Portugal , pa&amp;iacute;s com o maior n&amp;uacute;mero de manchetes na amostra, o STF apareceu com maior frequ&amp;ecirc;ncia associado a uma crise institucional mais ampla.</p><p>Nenhuma publica&amp;ccedil;&amp;atilde;o de pa&amp;iacute;ses africanos foi inclu&amp;iacute;da na amostra final.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/mundo/stf-vira-alvo-de-criticas-da-imprensa-estrangeira-com-tom-negativo-em-quase-60-das-manchetes/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Mais da metade das manchetes da imprensa internacional analisadas em um levantamento do IBEVAR-FIA Business School apresentou tom negativo em rela&ccedil;&atilde;o ao Supremo Tribunal Federal ( STF ). Segundo o estudo, divulgado nesta segunda-feira, 28, 58% das 172 mat&eacute;rias avaliadas foram classificadas como desfavor&aacute;veis &agrave; corte, enquan"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A pesquisa utilizou t&eacute;cnicas de Processamento de Linguagem Natural (NLP) para examinar manchetes publicadas em ve&iacute;culos de nove pa&iacute;ses, distribu&iacute;dos por quatro continentes, sobre a &uacute;ltima sess&atilde;o do tribunal em meio ao esc&acirc;ndalo do Banco Master , de Daniel Vorcaro ."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Inicialmente, os pesquisadores reuniram 183 manchetes. Onze delas foram descartadas ap&oacute;s uma etapa de verifica&ccedil;&atilde;o porque a sigla &ldquo; STF &rdquo; n&atilde;o se referia ao Supremo brasileiro. Entre os falsos positivos estavam refer&ecirc;ncias a um partido regional da &Aacute;ustria e a um termo t&eacute;cnico da ind&uacute;stria japon"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "+ Crise no STF pode ter &lsquo;impacto decisivo&rsquo; nas elei&ccedil;&otilde;es brasileiras, diz Financial Times"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3c0c9c7f66b2f686",
-      "titulo": "Associações de jogos acionam STF para derrubar medida de Lula que proibiu as bets",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/economia/associacoes-de-jogos-acionam-stf-para-derrubar-medida-de-lula-que-proibiu-as-bets/",
-      "dataFonte": "2026-09-28T19:22:45.000Z",
-      "resumoFonte": "Entidades representam as empresas que eram regularizadas contestam a urgência e a maneira como projeto foi feito",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/55551449675_2d73cc7e25_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-28T20:17:59.891Z",
-      "reportagem": {
-        "titulo": "Associações de jogos acionam STF para derrubar medida de Lula que proibiu as bets",
-        "slug": "associacoes-de-jogos-acionam-stf-para-derrubar-medida-de-lula-que-proibiu-as-bets",
-        "categoria": "Justiça",
-        "data": "2026-09-28",
-        "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/55551449675_2d73cc7e25_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "resumo": "Entidades representam as empresas que eram regularizadas contestam a urgência e a maneira como projeto foi feito",
-        "conteudo": "<p>A Associa&amp;ccedil;&amp;atilde;o Nacional de Jogos e Loterias (ANJL) e o Instituto Brasileiro de Jogo Respons&amp;aacute;vel (IBJR) pediram nesta segunda-feira (28) ao Supremo Tribunal Federal (STF) a suspens&amp;atilde;o da medida provis&amp;oacute;ria que vedou as bets no Brasil.</p><h2>Entidades representativas do setor argumentam que a medida</h2><p>As entidades representativas do setor argumentam que a medida foi abrupta, provocando preju&amp;iacute;zos bilion&amp;aacute;rios para as empresas que acreditaram no marco regulat&amp;oacute;rio vigente no pa&amp;iacute;s e fizeram investimentos. As associa&amp;ccedil;&amp;otilde;es alegam ainda desvio de finalidade da MP, pois o governo n&amp;atilde;o teria demonstrado a urg&amp;ecirc;ncia que justificasse o atropelo do processo legislativo sobre o tema.</p><p>Na pe&amp;ccedil;a inicial, as entidades destacam que o pr&amp;oacute;prio governo Lula enviou ao Congresso um projeto de lei para regulamentar o mercado de apostas online, o que foi aprovado e resultou no marco regulat&amp;oacute;rio sobre o tema, sancionado em 2023.</p><p>Sobre esse marco, h&amp;aacute; no Supremo ao menos tr&amp;ecirc;s a&amp;ccedil;&amp;otilde;es que questionam essa legisla&amp;ccedil;&amp;atilde;o. As associa&amp;ccedil;&amp;otilde;es pediram ao relator desses processos, ministro Luiz Fux, a suspens&amp;atilde;o imediata dos efeitos da MP, ao menos at&amp;eacute; que o STF julgue o tema ou que o Congresso delibere novamente sobre o assunto. Enquanto isso, deve prevalecer a legisla&amp;ccedil;&amp;atilde;o anterior &amp;agrave; MP, defendem as entidades representativas do setor.</p><h2>Ministro Luiz Fux deve agora decidir se delibera</h2><p>O ministro Luiz Fux deve agora decidir se delibera sobre o assunto monocraticamente, submetendo a decis&amp;atilde;o a referendo em seguida, ou se j&amp;aacute; envia o pedido para an&amp;aacute;lise pelo plen&amp;aacute;rio do STF. Antes, &amp;eacute; praxe que o relator pe&amp;ccedil;a informa&amp;ccedil;&amp;otilde;es ao governo e o parecer da Advocacia-Geral da Uni&amp;atilde;o ( AGU ) e da Procuradoria-Geral da Rep&amp;uacute;blica (PGR).</p><p>Em requerimento enviado a Fux nesta segunda-feira, a AGU solicitou que o ministro aguarde ao menos 72 horas para que o &amp;oacute;rg&amp;atilde;o se manifeste antes de eventual decis&amp;atilde;o do relator.</p><p>Por se tratar de uma pol&amp;iacute;tica por meio de medida provis&amp;oacute;ria, o banimento das bets entra em vigor imediatamente de maneira tempor&amp;aacute;ria, mas depende de vota&amp;ccedil;&amp;atilde;o e aprova&amp;ccedil;&amp;atilde;o posterior do Congresso para que n&amp;atilde;o percam a validade (ou seja, para que as bets n&amp;atilde;o voltem a poder funcionar no pa&amp;iacute;s), o que precisa acontecer em um prazo de at&amp;eacute; 120 dias.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/economia/associacoes-de-jogos-acionam-stf-para-derrubar-medida-de-lula-que-proibiu-as-bets/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A Associa&ccedil;&atilde;o Nacional de Jogos e Loterias (ANJL) e o Instituto Brasileiro de Jogo Respons&aacute;vel (IBJR) pediram nesta segunda-feira (28) ao Supremo Tribunal Federal (STF) a suspens&atilde;o da medida provis&oacute;ria que vedou as bets no Brasil."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "As entidades representativas do setor argumentam que a medida foi abrupta, provocando preju&iacute;zos bilion&aacute;rios para as empresas que acreditaram no marco regulat&oacute;rio vigente no pa&iacute;s e fizeram investimentos. As associa&ccedil;&otilde;es alegam ainda desvio de finalidade da MP, pois o governo n&atilde;o teria demonstrado a urg&ecirc;nci"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na pe&ccedil;a inicial, as entidades destacam que o pr&oacute;prio governo Lula enviou ao Congresso um projeto de lei para regulamentar o mercado de apostas online, o que foi aprovado e resultou no marco regulat&oacute;rio sobre o tema, sancionado em 2023."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Sobre esse marco, h&aacute; no Supremo ao menos tr&ecirc;s a&ccedil;&otilde;es que questionam essa legisla&ccedil;&atilde;o. As associa&ccedil;&otilde;es pediram ao relator desses processos, ministro Luiz Fux, a suspens&atilde;o imediata dos efeitos da MP, ao menos at&eacute; que o STF julgue o tema ou que o Congresso delibere novamente sobre o assunto. Enqu"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O ministro Luiz Fux deve agora decidir se delibera sobre o assunto monocraticamente, submetendo a decis&atilde;o a referendo em seguida, ou se j&aacute; envia o pedido para an&aacute;lise pelo plen&aacute;rio do STF. Antes, &eacute; praxe que o relator pe&ccedil;a informa&ccedil;&otilde;es ao governo e o parecer da Advocacia-Geral da Uni&atilde;o ( AGU ) e d"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0fa1568443a4a77d",
-      "titulo": "Bets pedem para Fux derrubar medida provisória de Lula que proibiu apostas",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/politica/bets-pedem-para-fux-derrubar-medida-provisoria-de-lula-que-proibiu-apostas/",
-      "dataFonte": "2026-09-28T18:42:49.000Z",
-      "resumoFonte": "Entidades do setor formalizaram pedidos em ações do STF que já discutem a constitucionalidade das apostas online",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/55530120621_f7ba450e9a_c_60d4a9.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-28T19:17:58.862Z",
-      "reportagem": {
-        "titulo": "Bets pedem para Fux derrubar medida provisória de Lula que proibiu apostas",
-        "slug": "bets-pedem-para-fux-derrubar-medida-provisoria-de-lula-que-proibiu-apostas",
-        "categoria": "Justiça",
-        "data": "2026-09-28",
-        "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/55530120621_f7ba450e9a_c_60d4a9.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "resumo": "Entidades do setor formalizaram pedidos em ações do STF que já discutem a constitucionalidade das apostas online",
-        "conteudo": "<p>Entidades que representam casas de aposta foram nesta segunda-feira, 28, ao Supremo Tribunal Federal (STF) pedir a derrubada da medida provis&amp;oacute;ria assinada pelo governo Lula que colocou fim &amp;agrave;s casas de aposta. A Associa&amp;ccedil;&amp;atilde;o Nacional de Jogos e Loterias (ANJL) e o Instituto Brasileiro de Jogo Respons&amp;aacute;vel (IBJR) fizeram o pedido diretamente ao ministro Luiz Fux, que j&amp;aacute; &amp;eacute; relator das a&amp;ccedil;&amp;otilde;es que discutem a constitucionalidade das apostas online.</p><h2>No pedido desta segunda, o que as casas</h2><p>No pedido desta segunda, o que as casas de aposta querem &amp;eacute; suspender a medida provis&amp;oacute;ria de Lula at&amp;eacute; que as a&amp;ccedil;&amp;otilde;es do STF terminem de ser julgadas.</p><p>Elas s&amp;atilde;o movidas pela Procuradoria-Geral da Rep&amp;uacute;blica (PGR) e por entidades do setor do com&amp;eacute;rcio, que afirmam terem sofrido preju&amp;iacute;zos com o endividamento dos consumidores nas apostas. As a&amp;ccedil;&amp;otilde;es s&amp;atilde;o do fim de 2024 e n&amp;atilde;o tiveram movimenta&amp;ccedil;&amp;otilde;es significativas at&amp;eacute; o momento.</p><p>Na &amp;uacute;ltima sexta, 25, o presidente Luiz In&amp;aacute;cio Lula da Silva baixou uma medida provis&amp;oacute;ria proibindo definitivamente as casas de aposta de funcionarem. A ANJL e o IBJR disseram que o ato do petista foi &amp;ldquo;oportunista e grav&amp;iacute;ssimo&amp;rdquo; e que n&amp;atilde;o haveria urg&amp;ecirc;ncia para justificar a edi&amp;ccedil;&amp;atilde;o de uma medida provis&amp;oacute;ria sobre uma atividade regulamentada pelo pr&amp;oacute;prio governo h&amp;aacute; pouco mais de tr&amp;ecirc;s anos.</p><h2>O que muda na prática</h2><p>&amp;ldquo;Nada aconteceu ou piorou gravemente na explora&amp;ccedil;&amp;atilde;o da atividade de jogos on-line e apostas esportivas que n&amp;atilde;o tenha sido antevisto pelo Legislador &amp;mdash; como se observou, por exemplo, (h&amp;aacute; n&amp;atilde;o muito tempo) na pandemia &amp;ndash;, a reclamar uma legisla&amp;ccedil;&amp;atilde;o de urg&amp;ecirc;ncia que p&amp;otilde;e no ch&amp;atilde;o, da noite para o dia, atividade que fora largamente regulada h&amp;aacute; menos de 3 (tr&amp;ecirc;s) anos e segue amplamente fiscalizada.</p><p>Esse arrependimento legislativo, sem prova de urg&amp;ecirc;ncia, &amp;eacute; oportunista e grav&amp;iacute;ssimo&amp;rdquo;, diz trecho do pedido enviado nesta segunda-feira.</p><p>No pedido, as entidades de casas de apostas tamb&amp;eacute;m afirmam que ir&amp;atilde;o ingressar com outras a&amp;ccedil;&amp;otilde;es judiciais separadas no STF para derrubar a medida provis&amp;oacute;ria de Lula. Como Fux j&amp;aacute; concentra os processos sobre o assunto, a tend&amp;ecirc;ncia &amp;eacute; que, caso novos pedidos sejam feitos, sejam direcionados a ele.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/politica/bets-pedem-para-fux-derrubar-medida-provisoria-de-lula-que-proibiu-apostas/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Entidades que representam casas de aposta foram nesta segunda-feira, 28, ao Supremo Tribunal Federal (STF) pedir a derrubada da medida provis&oacute;ria assinada pelo governo Lula que colocou fim &agrave;s casas de aposta. A Associa&ccedil;&atilde;o Nacional de Jogos e Loterias (ANJL) e o Instituto Brasileiro de Jogo Respons&aacute;vel (IBJR) fizeram o pedid"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "No pedido desta segunda, o que as casas de aposta querem &eacute; suspender a medida provis&oacute;ria de Lula at&eacute; que as a&ccedil;&otilde;es do STF terminem de ser julgadas. Elas s&atilde;o movidas pela Procuradoria-Geral da Rep&uacute;blica (PGR) e por entidades do setor do com&eacute;rcio, que afirmam terem sofrido preju&iacute;zos com o endividame"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na &uacute;ltima sexta, 25, o presidente Luiz In&aacute;cio Lula da Silva baixou uma medida provis&oacute;ria proibindo definitivamente as casas de aposta de funcionarem. A ANJL e o IBJR disseram que o ato do petista foi &ldquo;oportunista e grav&iacute;ssimo&rdquo; e que n&atilde;o haveria urg&ecirc;ncia para justificar a edi&ccedil;&atilde;o de uma medida "
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "&ldquo;Nada aconteceu ou piorou gravemente na explora&ccedil;&atilde;o da atividade de jogos on-line e apostas esportivas que n&atilde;o tenha sido antevisto pelo Legislador &mdash; como se observou, por exemplo, (h&aacute; n&atilde;o muito tempo) na pandemia &ndash;, a reclamar uma legisla&ccedil;&atilde;o de urg&ecirc;ncia que p&otilde;e no ch&atilde;o, da"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "No pedido, as entidades de casas de apostas tamb&eacute;m afirmam que ir&atilde;o ingressar com outras a&ccedil;&otilde;es judiciais separadas no STF para derrubar a medida provis&oacute;ria de Lula. Como Fux j&aacute; concentra os processos sobre o assunto, a tend&ecirc;ncia &eacute; que, caso novos pedidos sejam feitos, sejam direcionados a ele."
-          }
-        ]
-      }
     }
   ],
-  "reapuradoEm": "2026-09-28T21:48:13.566Z",
+  "reapuradoEm": "2026-09-28T22:48:06.896Z",
   "diagnosticoReapuracao": {
     "produzidas": 9,
     "jaProntas": 0,
-    "incompletas": 20,
+    "incompletas": 18,
     "falhas": 0
   }
 }
