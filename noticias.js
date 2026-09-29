@@ -3,7 +3,48 @@
   ==================================================
   Este arquivo recebe notícias manuais e automáticas.
   O motor automático roda pelo GitHub Actions e insere novas matérias no topo.
-  Para publicação manual, use publicar.html e cole o objeto logo após "const noticias = [".
+  Para publicação manual, use publicar.html e cole o objeto logo após "const noticias = [
+  {
+    id: 29092026194500,
+    slug: "fala-lula-toque-desde-pequenas-reacao-contexto",
+    titulo: "Fala de Lula sobre “toque desde pequenas” provoca reação e disputa de contexto",
+    categoria: "Opinião",
+    data: "2026-09-29",
+    publicadoEm: "2026-09-29T19:45:00-03:00",
+    imagem: "https://static.poder360.com.br/uploads/2026/09/Lula-Belem-PA-28-set-2026-848x477.jpg",
+    imagemX: "https://static.poder360.com.br/uploads/2026/09/Lula-Belem-PA-28-set-2026-848x477.jpg",
+    imagemLargura: 848,
+    imagemAltura: 477,
+    imagemXLargura: 848,
+    imagemXAltura: 477,
+    legendaImagem: "Luiz Inácio Lula da Silva durante comício em Belém, no Pará, em 28 de setembro de 2026.",
+    resumo: "Declaração do presidente ao comparar a resistência masculina ao exame de próstata com cuidados ginecológicos femininos gerou críticas da oposição; campanha de Lula afirma que a frase se referia a exames preventivos.",
+    ocultarResumoVisivel: true,
+    aeo: [
+      { pergunta: "O que Lula disse em Belém?", resposta: "Ao defender a prevenção do câncer de próstata, Lula afirmou que homens resistem ao exame de toque e disse que mulheres aprendem a 'tomar toque' desde pequenas." },
+      { pergunta: "Em que contexto a frase foi dita?", resposta: "A declaração ocorreu durante um comício em Belém, enquanto Lula falava sobre prevenção, câncer de próstata e cirurgia robótica." },
+      { pergunta: "Como a campanha de Lula explicou a declaração?", resposta: "A campanha afirmou que o presidente se referia a exames ginecológicos preventivos e acusou adversários de retirar a frase de contexto." },
+      { pergunta: "O que dizem as diretrizes de rastreamento do colo do útero?", resposta: "As diretrizes nacionais recomendam o rastreamento organizado, em regra, a partir dos 25 anos para mulheres que já tiveram atividade sexual." }
+    ],
+    conteudo: `<h2>A frase que provocou reação</h2>
+<p>O presidente Luiz Inácio Lula da Silva afirmou, durante comício em Belém, no Pará, na segunda-feira, 28 de setembro, que “as mulheres aprendem a tomar toque desde pequenas” ao comparar a resistência de homens ao exame de próstata com os cuidados de saúde das mulheres. A declaração foi registrada em vídeo e passou a circular nas redes sociais.</p>
+<h2>O contexto do discurso</h2>
+<p>Lula falava sobre prevenção e tratamento do câncer de próstata. No mesmo trecho, chamou os homens de “covardes” por resistirem ao exame de toque e mencionou a realização de cirurgia robótica de próstata no Pará. A frase sobre mulheres foi pronunciada dentro dessa comparação entre cuidados médicos masculinos e femininos.</p>
+<h2>Críticas vieram da oposição</h2>
+<p>Integrantes da oposição criticaram duramente a escolha das palavras. Parlamentares e representantes do PL disseram que a expressão “desde pequenas” era inadequada e relacionaram a fala à necessidade de proteção de crianças. Algumas manifestações foram além da crítica à formulação e atribuíram interpretações sobre intenção ou caráter ao presidente. Essas interpretações são avaliações políticas dos autores e não fatos demonstrados pela declaração isoladamente.</p>
+<h2>Campanha apresentou sua explicação</h2>
+<p>A campanha de Lula afirmou que o presidente “obviamente se referiu a exames ginecológicos preventivos que, culturalmente, fazem parte da rotina da saúde da mulher, desde jovem”. Também acusou adversários do campo bolsonarista de retirar a frase de contexto para explorá-la eleitoralmente.</p>
+<h2>Diretriz não fala em rastreamento infantil</h2>
+<p>As diretrizes brasileiras para rastreamento do câncer do colo do útero não estabelecem toque vaginal rotineiro em crianças como método preventivo. O rastreamento organizado do câncer do colo do útero é indicado, em regra, a partir dos 25 anos para mulheres que já tiveram atividade sexual. Atendimento ginecológico pediátrico depende da situação clínica e não equivale ao rastreamento preventivo de mulheres adultas.</p>
+<h2>Palavras públicas têm consequência</h2>
+<p>Em campanha eleitoral, uma frase presidencial é examinada literalmente e também pelo contexto em que foi pronunciada. Neste caso, o registro integral mostra que Lula falava de saúde e prevenção do câncer de próstata. Isso não elimina a controvérsia sobre a expressão “desde pequenas”, nem transforma automaticamente as interpretações mais graves feitas por adversários em fatos.</p>
+<h2>Opinião exige separar crítica e fato</h2>
+<p>É legítimo considerar a formulação inadequada, grosseira ou incompatível com a precisão esperada de um presidente da República. Também é necessário distinguir essa avaliação de acusações de crime, pedofilia ou abuso, para as quais a fala, por si só, não apresenta prova. O debate público ganha clareza quando a frase é reproduzida, seu contexto é mostrado e cada interpretação aparece identificada como interpretação.</p>`,
+    autor: "Redação Notícia ES",
+    editorial: true,
+    redacaoPropria: true,
+    origemTexto: "redacao-noticia-es"
+  },".
 */
 
 const noticias = [
