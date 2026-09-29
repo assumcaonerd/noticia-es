@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-29T03:18:00.245Z",
+  "atualizadoEm": "2026-09-29T04:17:55.232Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 49,
+  "novasPautas": 43,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -261,19 +261,19 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 13,
+      "encontrados": 17,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-29T03:20:15.847Z",
+    "atualizadoEm": "2026-09-29T04:20:11.111Z",
     "novas": 0,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube Folha Vitória",
@@ -302,8 +302,8 @@
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "X Governo ES",
@@ -328,7 +328,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-29T03:20:17.131Z",
+    "atualizadoEm": "2026-09-29T04:20:12.447Z",
     "novas": 0,
     "fontes": [
       {
@@ -344,13 +344,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-29T03:20:18.038Z",
+    "atualizadoEm": "2026-09-29T04:20:13.317Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-29T03:20:28.614Z",
+    "atualizadoEm": "2026-09-29T04:20:23.876Z",
     "novas": 0,
     "fontes": [
       {
