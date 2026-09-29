@@ -1,17 +1,73 @@
 {
-  "geradoEm": "2026-09-29T23:12:19.171Z",
+  "geradoEm": "2026-09-29T23:47:37.873Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
-    "totalPendentes": 62,
+    "totalPendentes": 64,
     "bloqueadas": 0,
-    "bloqueadasEditoriais": 7,
+    "bloqueadasEditoriais": 8,
     "semImagem": 0,
     "duplicadasBasicas": 0,
-    "duplicadasSemanticas": 0,
-    "foraCategorias": 24
+    "duplicadasSemanticas": 1,
+    "foraCategorias": 22
   },
-  "quantidadeCandidatas": 31,
+  "quantidadeCandidatas": 33,
   "candidatas": [
+    {
+      "id": "753ba5f274b23ace",
+      "titulo": "Três pessoas da mesma família são presas em ação contra o tráfico no ES",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/tres-pessoas-da-mesma-familia-sao-presas-em-acao-contra-o-trafico-no-es-0926",
+      "dataFonte": "2026-09-29T23:09:01.000Z",
+      "resumoFonte": "Operação em Cariacica e Viana apreendeu cerca de 30 quilos de maconha, cocaína, uma pistola com seletor de rajada e uma granada",
+      "imagem": "https://files.ndeal.app/api/images/proxy?quality=100&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790704632133_whatsapp_image_2026_09_29_at_12.jpeg",
+      "descobertaEm": "2026-09-29T23:17:38.696Z",
+      "reportagem": {
+        "titulo": "Três pessoas da mesma família são presas em ação contra o tráfico no ES",
+        "slug": "tres-pessoas-da-mesma-familia-sao-presas-em-acao-contra-o-trafico-no-es",
+        "categoria": "Segurança Pública",
+        "data": "2026-09-29",
+        "imagem": "https://files.ndeal.app/api/images/proxy?quality=100&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790704632133_whatsapp_image_2026_09_29_at_12.jpeg",
+        "resumo": "Operação em Cariacica e Viana apreendeu cerca de 30 quilos de maconha, cocaína, uma pistola com seletor de rajada e uma granada",
+        "conteudo": "<p>A Polícia Militar prendeu cinco pessoas durante uma operação realizada entre Cariacica e Viana na noite desta segunda-feira (28). Segundo a corporação, entre os detidos estão três integrantes de uma mesma família suspeitos de envolvimento com o armazenamento e a distribuição de drogas ligadas à facção Terceiro Comando Puro (TCP).</p><h2>Ação teve início após denúncias anônimas</h2><p>A ação teve início após denúncias anônimas sobre uma movimentação de entorpecentes que seriam distribuídos em bairros da região de São Francisco, em Cariacica, área onde o TCP possui atuação. Conforme a PM, as informações indicavam que uma grande quantidade de drogas estaria sendo transportada para abastecer pontos de venda ligados à facção.</p><p>O primeiro alvo da operação foi uma residência no bairro Campo Verde, em Viana. No local, os militares encontraram um veículo citado nas denúncias e, da área externa da casa, visualizaram um casal manipulando entorpecentes.</p><p>Segundo a PM, a o perceber a presença dos policiais, a mulher alertou o companheiro. Os dois tentaram fugir, mas foram alcançados após perseguição por residências vizinhas.</p><h2>Durante a ação, dois policiais sofreram ferimentos leves</h2><p>Durante a ação, dois policiais sofreram ferimentos leves ao transpor muros. O suspeito também caiu durante a fuga e recebeu atendimento médico no PA de Alto Lage.</p><p>No imóvel, foram apreendidos 28 tabletes de maconha, que totalizaram cerca de 30 quilos da droga. Jéssica de Jesus Machado, de 19 anos, e Guilherme Soares Ribeiro, também de 19, foram presos.</p><p>A partir de novas informações, os policiais seguiram para outro endereço no mesmo bairro, também apontado como local utilizado por integrantes do tráfico. A residência seria ligada a um homem conhecido como &quot;Castor&quot;, apontado pela polícia como uma das lideranças do TCP na região de São Francisco.</p><p>Durante o cerco policial, a mãe do suspeito, Célia da Silva Lemos Lopes, de 51 anos, teria arremessado pela janela uma pistola Glock calibre 9 mm com seletor de rajada, além de munições e porções de drogas.</p><p>Os policiais entraram na residência e prenderam Célia em flagrante. Durante as buscas, mais entorpecentes foram encontrados dentro da casa.</p><p>As equipes seguiram, então, para um terceiro endereço, no bairro Vila Rica, em Cariacica. No local, os policiais abordaram Mably Lemos, de 22 anos, filha de Célia e irmã do homem apontado como liderança da facção.</p><p>Segundo a PM, a jovem carregava uma bolsa com porções de drogas. Durante as diligências no prédio, os militares também viram um homem arremessar uma sacola de um dos andares. Ele foi identificado como Adriano dos Santos Almeida, genro de Célia.</p><p>Dentro da sacola, foram encontrados mais entorpecentes e uma granada. A Companhia de Operações Especiais (COE) foi acionada e realizou os procedimentos de segurança e a detonação controlada do artefato.</p>",
+        "fonteNome": "A Gazeta - Polícia",
+        "fonteUrl": "https://www.agazeta.com.br/es/policia/tres-pessoas-da-mesma-familia-sao-presas-em-acao-contra-o-trafico-no-es-0926",
+        "fontesAdicionais": [
+          {
+            "nome": "SESP-ES",
+            "url": "https://sesp.es.gov.br/Noticias"
+          },
+          {
+            "nome": "Polícia Civil do ES",
+            "url": "https://pc.es.gov.br/Noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A Polícia Militar prendeu cinco pessoas durante uma operação realizada entre Cariacica e Viana na noite desta segunda-feira (28). Segundo a corporação, entre os detidos estão três integrantes de uma mesma família suspeitos de envolvimento com o armazenamento e a distribuição de drogas ligadas à facção Terceiro Comando Puro (TCP)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A ação teve início após denúncias anônimas sobre uma movimentação de entorpecentes que seriam distribuídos em bairros da região de São Francisco, em Cariacica, área onde o TCP possui atuação. Conforme a PM, as informações indicavam que uma grande quantidade de drogas estaria sendo transportada para abastecer pontos de venda ligados à facção."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O primeiro alvo da operação foi uma residência no bairro Campo Verde, em Viana. No local, os militares encontraram um veículo citado nas denúncias e, da área externa da casa, visualizaram um casal manipulando entorpecentes."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Segundo a PM, a o perceber a presença dos policiais, a mulher alertou o companheiro. Os dois tentaram fugir, mas foram alcançados após perseguição por residências vizinhas."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Durante a ação, dois policiais sofreram ferimentos leves ao transpor muros. O suspeito também caiu durante a fuga e recebeu atendimento médico no PA de Alto Lage."
+          }
+        ]
+      }
+    },
     {
       "id": "2aa1c0c2206d85bf",
       "titulo": "Após fracasso em candidatura ao Planalto, Pablo Marçal anuncia apoio a Flávio Bolsonaro",
@@ -69,16 +125,60 @@
       }
     },
     {
-      "id": "77cc8fd43abff54a",
-      "titulo": "A cinco dias das eleições, governo lança Desenrola MEI e novas medidas de renegociação de dívidas",
+      "id": "35187b729ec52494",
+      "titulo": "A 5 dias da eleção, governo lança Desenrola MEI e amplia renegociação",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/economia/noticia/2026/09/29/a-cinco-dias-das-eleicoes-governo-lanca-desenrola-mei-e-outras-medidas-de-renegociacao-de-dividas.ghtml",
-      "dataFonte": "2026-09-29T21:30:18.000Z",
-      "resumoFonte": "A cinco dias das eleições, o governo federal anunciou nesta terça-feira (29) um pacote de medidas destinadas à renegociação de dívidas de microempreendedores individuais (MEIs), produtores rurais, pessoas físicas, empregadores e ex-bolsistas de pesquisa. As iniciativas incluem a criação de novos programas de transação tributária e a prorrogação de…",
-      "imagem": "https://s2-g1.glbimg.com/wHhNL1rQ05VUkxg6mJbrjc-VJjw=/5760x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/U/Y/jB4AF9QjSVcFM46UBkZA/fta20240520073-1-.jpg",
-      "descobertaEm": "2026-09-29T22:17:41.008Z"
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/a-5-dias-da-elecao-governo-lanca-desenrola-mei-e-amplia-renegociacao/",
+      "dataFonte": "2026-09-29T23:00:51.000Z",
+      "resumoFonte": "Nova modalidade de programa permite negociar débitos de até R$ 8.105; governo também prorrogou o prazo do Desenrola MEI até janeiro de 2027",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/09/como-cancelar-mei.jpg?w=1000&h=630&crop=1",
+      "descobertaEm": "2026-09-29T23:17:38.696Z",
+      "reportagem": {
+        "titulo": "A 5 dias da eleção, governo lança Desenrola MEI e amplia renegociação",
+        "slug": "a-5-dias-da-elecao-governo-lanca-desenrola-mei-e-amplia-renegociacao",
+        "categoria": "Economia",
+        "data": "2026-09-29",
+        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/09/como-cancelar-mei.jpg?w=1000&h=630&crop=1",
+        "resumo": "Nova modalidade de programa permite negociar débitos de até R$ 8.105; governo também prorrogou o prazo do Desenrola MEI até janeiro de 2027",
+        "conteudo": "<p>O governo federal anunciou nesta terça-feira (29) uma nova modalidade de renegociação de dívidas para microempreendedores individuais.</p><h2>O que muda na prática</h2><p>O Desenrola MEI Pequeno Valor permitirá a negociação de débitos de até cinco salários mínimos, o equivalente a R$ 8.105 em 2026, com entrada reduzida, desconto sobre o saldo devedor e parcelamento. A adesão começa nesta quinta-feira (1º).</p><p>Pelas regras anunciadas, o microempreendedor deverá pagar uma entrada correspondente a 5% da dívida, sem desconto. Sobre o valor restante, será aplicada redução de 50%, e o saldo poderá ser parcelado em até 55 meses.</p><p>O prazo para adesão à nova modalidade termina em 31 de janeiro de 2027.</p><h2>Dívida média dos microempreendedores individuais é de aproximadamente</h2><p>Segundo o governo, a dívida média dos microempreendedores individuais é de aproximadamente R$ 3 mil.</p><p>Como o limite da nova modalidade chega a R$ 8.105, a estimativa é de que a medida possa atender a maior parte dos mais de três milhões de MEIs que possuem dívidas.</p><p>Além da criação do Desenrola MEI Pequeno Valor, o governo prorrogou o prazo do Desenrola MEI já existente.</p><p>A modalidade, que teria adesões encerradas nesta quarta-feira (30), ficará disponível até 29 de janeiro de 2027. Ela é destinada a microempreendedores com dívidas de até R$ 20 mil inscritas na dívida ativa da União .</p><p>Nesse caso, o desconto pode alcançar 100% dos juros, multas e encargos legais, sem redução do valor principal da dívida. A diminuição total, no entanto, fica limitada a 70% do débito.</p><p>O pacote também prevê uma nova negociação para dívidas de MEIs com autarquias e fundações públicas federais. Entram nessa modalidade débitos tributários e não tributários de até R$ 8.105 inscritos em dívida ativa até 28 de setembro de 2025, incluindo obrigações com órgãos como ANTT, DNIT, Incra, Anatel, ANP, FNDE e ICMBio.</p><p>A adesão a essa modalidade ficará aberta entre 16 de outubro deste ano e 31 de março de 2027. O desconto será de 50% sobre o valor consolidado da dívida — incluindo principal, juros, multas e encargos — e o pagamento poderá ser dividido em até 60 meses.</p><p>Também foi prorrogada, até 29 de janeiro de 2027, uma transação mais ampla da Procuradoria-Geral da Fazenda Nacional, aberta a pessoas físicas e empresas com dívidas de até R$ 45 milhões. MEIs, microempresas e empresas de pequeno porte terão condições prioritárias, com possibilidade de descontos sobre juros, multas e encargos.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/a-5-dias-da-elecao-governo-lanca-desenrola-mei-e-amplia-renegociacao/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O governo federal anunciou nesta terça-feira (29) uma nova modalidade de renegociação de dívidas para microempreendedores individuais."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O Desenrola MEI Pequeno Valor permitirá a negociação de débitos de até cinco salários mínimos, o equivalente a R$ 8.105 em 2026, com entrada reduzida, desconto sobre o saldo devedor e parcelamento. A adesão começa nesta quinta-feira (1º)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Pelas regras anunciadas, o microempreendedor deverá pagar uma entrada correspondente a 5% da dívida, sem desconto. Sobre o valor restante, será aplicada redução de 50%, e o saldo poderá ser parcelado em até 55 meses."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O prazo para adesão à nova modalidade termina em 31 de janeiro de 2027."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Segundo o governo, a dívida média dos microempreendedores individuais é de aproximadamente R$ 3 mil."
+          }
+        ]
+      }
     },
     {
       "id": "0a07a0abbeceb3d7",
@@ -93,16 +193,60 @@
       "descobertaEm": "2026-09-29T22:17:41.008Z"
     },
     {
-      "id": "19598ab7a1e36bb7",
-      "titulo": "Neymar deve ser reforço no Santos contra o Flamengo pelo Brasileirão",
+      "id": "df0f9d9d2a0315dd",
+      "titulo": "Palmeiras descarta reunião com governo e tem cautela sobre contrato com bet",
       "categoria": "Esporte",
       "radar": null,
       "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/santos/neymar-deve-ser-reforco-no-santos-contra-o-flamengo-pelo-brasileirao/",
-      "dataFonte": "2026-09-29T21:49:18.000Z",
-      "resumoFonte": "Craque do Peixe iniciou transição no campo após lesão que o deixou de fora dos gramados por um mês e deve enfrentar o Rubro-Negro no dia 8",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/55556450467_1d53e11b2d_o-e1790712288987.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-29T22:17:41.008Z"
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/palmeiras/palmeiras-descarta-reuniao-com-governo-e-tem-cautela-sobre-contrato-com-bet/",
+      "dataFonte": "2026-09-29T22:17:19.000Z",
+      "resumoFonte": "Clube possui contrato vigente com a Sportingbet pelo patrocínio máster; partes aguardam andamento da judicialização da Medida Provisória que barrou casas de apostas no Brasil",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/lopez-sosa_ed3a46-e1778024454807.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-29T23:17:38.696Z",
+      "reportagem": {
+        "titulo": "Palmeiras descarta reunião com governo e tem cautela sobre contrato com bet",
+        "slug": "palmeiras-descarta-reuniao-com-governo-e-tem-cautela-sobre-contrato-com-bet",
+        "categoria": "Esporte",
+        "data": "2026-09-29",
+        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/lopez-sosa_ed3a46-e1778024454807.jpg?w=1200&h=630&crop=1",
+        "resumo": "Clube possui contrato vigente com a Sportingbet pelo patrocínio máster; partes aguardam andamento da judicialização da Medida Provisória que barrou casas de apostas no Brasil",
+        "conteudo": "<p>O Palmeiras tem agido nos bastidores diante da Medida Provisória (MP) que proíbe a atuação das casas de apostas no Brasil. O clube negou participar, neste momento, da reunião prevista entre os times brasileiros e o Governo Federal.</p><h2>Palmeiras não enviaria um representante ao encontro,</h2><p>O Palmeiras não enviaria um representante ao encontro, que estava previsto para esta terça-feira (29) e foi desmarcado.</p><p>Segundo apuração da &quot;Itatiaia&quot;, o clube entende que, a menos de uma semana das eleições, o momento não é o ideal para realizar a reunião com o governo .</p><p>Também há passos a serem tomados sobre o contrato com a Sportingbet, que prevê R$ 100 milhões anuais ao Palmeiras pelo patrocínio máster de forma fixa.</p><h2>Reportagem buscou entender como os dois lados tratam</h2><p>A reportagem buscou entender como os dois lados tratam a questão. Ambos estão em fase de espera, já que qualquer decisão sobre manutenção do acordo ou rescisão é incerta, porque o caso está em processo de judicialização. Palmeiras e Sportingbet mantêm respeito pela parceria, além de terem contato frequente e transparente.</p><p>O Instituto Brasileiro de Jogo Responsável (IBJR), por exemplo, acionou o Supremo Tribunal Federal (STF) contra a MP do Governo Federal.</p><p>A Medida Provisória que proíbe as bets tem validade inicial de 60 dias, prorrogável até 120 dias para ser analisada e votada pelo Congresso Nacional. Portanto, os próximos passos são dados com cautela.</p><p>O contrato do Palmeiras com a Sportingbet foi firmado em 2025 e tem validade por três anos, até 2027. São aproximadamente R$ 300 milhões fixos no total do acordo, além de valores previstos em metas.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/futebol/palmeiras/palmeiras-descarta-reuniao-com-governo-e-tem-cautela-sobre-contrato-com-bet/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Palmeiras tem agido nos bastidores diante da Medida Provisória (MP) que proíbe a atuação das casas de apostas no Brasil. O clube negou participar, neste momento, da reunião prevista entre os times brasileiros e o Governo Federal."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O Palmeiras não enviaria um representante ao encontro, que estava previsto para esta terça-feira (29) e foi desmarcado."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Segundo apuração da \"Itatiaia\", o clube entende que, a menos de uma semana das eleições, o momento não é o ideal para realizar a reunião com o governo ."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Também há passos a serem tomados sobre o contrato com a Sportingbet, que prevê R$ 100 milhões anuais ao Palmeiras pelo patrocínio máster de forma fixa."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A reportagem buscou entender como os dois lados tratam a questão. Ambos estão em fase de espera, já que qualquer decisão sobre manutenção do acordo ou rescisão é incerta, porque o caso está em processo de judicialização. Palmeiras e Sportingbet mantêm respeito pela parceria, além de terem contato frequente e transparente."
+          }
+        ]
+      }
     },
     {
       "id": "ec66b14edbac6c95",
@@ -377,142 +521,6 @@
       "descobertaEm": "2026-09-29T21:17:42.776Z"
     },
     {
-      "id": "7aee25c30a0c8fb7",
-      "titulo": "A novidade na disputa para o Senado em Pernambuco, segundo pesquisa Quaest",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/politica/a-novidade-na-disputa-para-o-senado-em-pernambuco-segundo-pesquisa-quaest/",
-      "dataFonte": "2026-09-29T20:34:23.000Z",
-      "resumoFonte": "Humberto Costa oscilou para cima e se descolou de Mendonça Filho",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/05/marilia-arraes-humberto-costa.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-29T20:51:54.126Z"
-    },
-    {
-      "id": "18676c4a51a80d61",
-      "titulo": "Os números da corrida pelo Senado em São Paulo, segundo pesquisa Quaest",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/politica/os-numeros-da-corrida-pelo-senado-em-sao-paulo-segundo-pesquisa-quaest/",
-      "dataFonte": "2026-09-29T20:31:58.000Z",
-      "resumoFonte": "Levantamento divulgado nesta terça-feira, 29, mostra que Guilherme Derrite (PP) lidera numericamente, mas continua empatado na margem de erro com rivais",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/marina-tebet-andre-derrite.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-29T20:51:54.126Z"
-    },
-    {
-      "id": "ba8e38b738a5e64d",
-      "titulo": "Quaest para o Senado em MG: Sávio tem 14%; Marília, 13%; Viana, 12%; Aécio, 12%",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CBN - Política",
-      "urlFonte": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/29/quaest-para-o-senado-em-mg-savio-tem-14percent-marilia-13percent-viana-12percent-aecio-12percent.ghtml",
-      "dataFonte": "2026-09-29T20:30:58.689Z",
-      "resumoFonte": "O levantamento foi encomendado pela Globo e ouviu 1.506 eleitores de 16 anos ou mais entre os dias 25 e 28 de setembro.",
-      "imagem": "https://s2-cbn.glbimg.com/09LZITPKE7XgWERdNGy0guQhpu0=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/t/K/srgW1ATnygK9hUChQYPw/site-template-grade-de-fotos.png",
-      "descobertaEm": "2026-09-29T20:51:54.126Z",
-      "reportagem": {
-        "titulo": "Quaest para o Senado em MG: Sávio tem 14%; Marília, 13%; Viana, 12%; Aécio, 12%",
-        "slug": "quaest-para-o-senado-em-mg-savio-tem-14-marilia-13-viana-12-aecio-12",
-        "categoria": "Política Nacional",
-        "data": "2026-09-29",
-        "imagem": "https://s2-cbn.glbimg.com/09LZITPKE7XgWERdNGy0guQhpu0=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/t/K/srgW1ATnygK9hUChQYPw/site-template-grade-de-fotos.png",
-        "resumo": "O levantamento foi encomendado pela Globo e ouviu 1.506 eleitores de 16 anos ou mais entre os dias 25 e 28 de setembro.",
-        "conteudo": "<p>A nova pesquisa Quaest divulgada nesta terça-feira (29) mostra como está a disputa pelo Senado em Minas Gerais. O levantamento foi encomendado pela Globo.</p><h2>Quaest Senado em SP: Derrite, 18%; Tebet, 15%;</h2><p>Quaest Senado em SP: Derrite, 18%; Tebet, 15%; Marina, 15% e André do Prado, 12% Quaest Senado no RJ: Benedita da Silva, Carlos Jordy e Carlos Portinho registram 15% cada</p><p>Em 2026, serão eleitos dois senadores em cada estado e no Distrito Federal, para renovar 54 das 81 cadeiras. Por isso, cada eleitor precisa votar em dois candidatos diferentes. Não é possível escolher o mesmo nome duas vezes.</p><p>Os resultados da pesquisa para o Senado consideram as menções para a primeira e a segunda vagas em um total que soma 100% das intenções de voto e mantém a proporção entre candidatos, brancos/nulos e indecisos.</p><h2>Domingos Sávio (PL): 14% (eram 10% em 23</h2><p>Domingos Sávio (PL): 14% (eram 10% em 23 de setembro) Marília Campos (PT): 13% (eram 13%) Carlos Viana (PSD): 12% (eram 10%) Aécio Neves (PSDB): 12% (eram 10%) Marcelo Aro (PP): 6% (eram 6%) Marco Antônio Superman (Novo): 4% (era 1%) Áurea Carolina (PSOL): 4% (eram 3%) Ana Luiza do MLB (UP): 0% (era 1%) Arcanjo Pimenta (MDB): 0% (era 0%) Carlin Moura (Avante): 0% (era 1%) Fidélis Alcântara (UP): 0% (era 1%) Jordano Metalúrgico (PSTU): % (era 0%) Juiz Ramon Moreira (DC): % (era 0%) Manoel Carvalho (MDB): % (era 0%) Tião Pessoa (PCO): % (era 0%) Victória Mello Vic (PSTU): 0% (era 0%) Indecisos: 18% (eram 29%) Branco/ Nulo/ Não vai votar: 17% (eram 15%)</p><p>A Quaest ouviu 1.506 eleitores de 16 anos ou mais entre os dias 25 e 28 de setembro. A margem de erro é de três pontos percentuais, para mais ou para menos. O nível de confiança é de 95%. A pesquisa foi registrada na Justiça Eleitoral sob o número MG-02019/2026.</p><p>Flávio Bolsonaro anuncia Pablo Marçal como integrante do governo se for eleito</p><p>Quaest SP: Tarcísio tem 44% e Haddad, 24%, em cenário de 1º turno</p><p>Quaest RJ: Paes registra 34%; Ruas, 25%; e Garotinho, 9%, em cenário de 1º turno</p><p>Lula liga para Dino antes de sancionar projeto no PA; ligação cai antes de ministro responder</p><p>Lula promete manter Nossa Senhora como padroeira do país: ‘quem não quiser que mude do Brasil’</p>",
-        "fonteNome": "CBN - Política",
-        "fonteUrl": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/29/quaest-para-o-senado-em-mg-savio-tem-14percent-marilia-13percent-viana-12percent-aecio-12percent.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A nova pesquisa Quaest divulgada nesta terça-feira (29) mostra como está a disputa pelo Senado em Minas Gerais. O levantamento foi encomendado pela Globo."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Quaest Senado em SP: Derrite, 18%; Tebet, 15%; Marina, 15% e André do Prado, 12% Quaest Senado no RJ: Benedita da Silva, Carlos Jordy e Carlos Portinho registram 15% cada"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Em 2026, serão eleitos dois senadores em cada estado e no Distrito Federal, para renovar 54 das 81 cadeiras. Por isso, cada eleitor precisa votar em dois candidatos diferentes. Não é possível escolher o mesmo nome duas vezes."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Os resultados da pesquisa para o Senado consideram as menções para a primeira e a segunda vagas em um total que soma 100% das intenções de voto e mantém a proporção entre candidatos, brancos/nulos e indecisos."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Domingos Sávio (PL): 14% (eram 10% em 23 de setembro) Marília Campos (PT): 13% (eram 13%) Carlos Viana (PSD): 12% (eram 10%) Aécio Neves (PSDB): 12% (eram 10%) Marcelo Aro (PP): 6% (eram 6%) Marco Antônio Superman (Novo): 4% (era 1%) Áurea Carolina (PSOL): 4% (eram 3%) Ana Luiza do MLB (UP): 0% (era 1%) Arcanjo Pimenta (MDB): 0% (era 0%) Carlin Moura (Avante"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4c8322945179bab6",
-      "titulo": "Quaest Senado no RJ: Benedita da Silva, Carlos Jordy e Carlos Portinho registram 15% cada",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CBN - Política",
-      "urlFonte": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/29/quaest-senado-no-rj-benedita-da-silva-carlos-jordy-e-carlos-portinho-registram-15percent-cada.ghtml",
-      "dataFonte": "2026-09-29T20:26:17.780Z",
-      "resumoFonte": "Pesquisa divulgada nesta terça-feira (29) foi encomendada pela Globo.",
-      "imagem": "https://s2-cbn.glbimg.com/dyt_jU1zMK_HkLLZuKTfxWxSssw=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/Q/P/B1ivelSCSAV5W5y1U6Gw/site-template-grade-de-fotos-42-.png",
-      "descobertaEm": "2026-09-29T20:51:54.126Z",
-      "reportagem": {
-        "titulo": "Quaest Senado no RJ: Benedita da Silva, Carlos Jordy e Carlos Portinho registram 15% cada",
-        "slug": "quaest-senado-no-rj-benedita-da-silva-carlos-jordy-e-carlos-portinho-registram-15-cada",
-        "categoria": "Política Nacional",
-        "data": "2026-09-29",
-        "imagem": "https://s2-cbn.glbimg.com/dyt_jU1zMK_HkLLZuKTfxWxSssw=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/Q/P/B1ivelSCSAV5W5y1U6Gw/site-template-grade-de-fotos-42-.png",
-        "resumo": "Quaest Senado no RJ: Benedita da Silva, Carlos Jordy e Carlos Portinho registram 15% cada. Registro original em CBN - Política. A Redação Notícia ES reapurou a pauta para a editoria Política Nacional.",
-        "conteudo": "<p>Nova pesquisa Quaest, divulgada nesta terça-feira (29), mostra como está a disputa pelo Senado no Rio de Janeiro. Os eleitores terão que votar em dois nomes no domingo (4), dia do primeiro turno das eleições 2026.</p><h2>Benedita da Silva (PT) liderava o último levantamento,</h2><p>Benedita da Silva (PT) liderava o último levantamento, divulgado em 23 de setembro. Atrás, apareciam Carlos Jordy (PL), Carlos Portinho (PL) e Marcelo Crivella (REPUBLICANOS). Veja os dados mais recentes abaixo.</p><p>A pesquisa é estimulada, ou seja, os candidatos são apresentados aos entrevistados, que indicam duas vezes em quem pretendem votar: um nome para a primeira vaga e, dpeois, outro para segunda vaga. No resultado, as menções às duas vagas são somadas e distribuídas em um total de 100%, mantendo a proporção entre candidatos, brancos e nulos e indecisos.</p><p>Benedita da Silva (PT) — 15% (eram 15%) Carlos Jordy (PL) — 15% (eram 10%) Carlos Portinho (PL) — 15% (eram 10%) Marcelo Crivella (REPUBLICANOS) — 7% (eram 7%) Pedro Paulo (PSD) — 7% (eram 6%) Monica Benicio (PSOL) — 6% (eram 4%) Waguinho (REPUBLICANOS) — 2% (eram 3%) Helio Secco (MISSÃO) — 0% (era 1%) Michelly Xavier (UP) — 1% (era 1%) Marcos Dias (PODEMOS) — 1% (era 1%) Paula Falcão (PSTU) — 0% (era 0%) Luciano Mattos (PRTB) — 0% (era 0%) Vinicius Benevides (UP) — 0% (era 0%) Luiz Eugenio (PCO) — 0% (era 0%) Ó Clemente (DEMOCRATA) — 0% (era 0%) Indecisos — 9% (eram 21%) Branco/Nulo/Não vai votar — 22% (eram 21%)</p><h2>Quaest ouviu 1</h2><p>A Quaest ouviu 1.302 pessoas de 16 anos ou mais entre os dias 25 e 28 de setembro. A margem de erro é de três pontos percentuais , para mais ou para menos, e o nível de confiança é de 95%. O número de registro no TSE é RJ-04419/2026.</p><p>Disputa sobre Nossa Senhora expõe novo confronto entre ministros do STF</p><p>Quaest e efeitos da 'guerra religiosa'; Lula deve faltar a debate da Globo; direita pede voto útil</p><p>Debate da Globo pode ser decisivo após empate entre Lula e Bolsonaro na Quaest</p><p>‘Proibição das bets pode render votos a Lula, mas também arregimentar resistência’</p>",
-        "fonteNome": "CBN - Política",
-        "fonteUrl": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/29/quaest-senado-no-rj-benedita-da-silva-carlos-jordy-e-carlos-portinho-registram-15percent-cada.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Nova pesquisa Quaest, divulgada nesta terça-feira (29), mostra como está a disputa pelo Senado no Rio de Janeiro. Os eleitores terão que votar em dois nomes no domingo (4), dia do primeiro turno das eleições 2026."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Benedita da Silva (PT) liderava o último levantamento, divulgado em 23 de setembro. Atrás, apareciam Carlos Jordy (PL), Carlos Portinho (PL) e Marcelo Crivella (REPUBLICANOS). Veja os dados mais recentes abaixo."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A pesquisa é estimulada, ou seja, os candidatos são apresentados aos entrevistados, que indicam duas vezes em quem pretendem votar: um nome para a primeira vaga e, dpeois, outro para segunda vaga. No resultado, as menções às duas vagas são somadas e distribuídas em um total de 100%, mantendo a proporção entre candidatos, brancos e nulos e indecisos."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Benedita da Silva (PT) — 15% (eram 15%) Carlos Jordy (PL) — 15% (eram 10%) Carlos Portinho (PL) — 15% (eram 10%) Marcelo Crivella (REPUBLICANOS) — 7% (eram 7%) Pedro Paulo (PSD) — 7% (eram 6%) Monica Benicio (PSOL) — 6% (eram 4%) Waguinho (REPUBLICANOS) — 2% (eram 3%) Helio Secco (MISSÃO) — 0% (era 1%) Michelly Xavier (UP) — 1% (era 1%) Marcos Dias (PODEMOS)"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A Quaest ouviu 1.302 pessoas de 16 anos ou mais entre os dias 25 e 28 de setembro. A margem de erro é de três pontos percentuais , para mais ou para menos, e o nível de confiança é de 95%. O número de registro no TSE é RJ-04419/2026."
-          }
-        ]
-      }
-    },
-    {
       "id": "a48bca0843f5dbfe",
       "titulo": "Vida global, carteira local: o paradoxo do investidor brasileiro",
       "categoria": "Economia",
@@ -623,6 +631,18 @@
           }
         ]
       }
+    },
+    {
+      "id": "19598ab7a1e36bb7",
+      "titulo": "Neymar deve ser reforço no Santos contra o Flamengo pelo Brasileirão",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/santos/neymar-deve-ser-reforco-no-santos-contra-o-flamengo-pelo-brasileirao/",
+      "dataFonte": "2026-09-29T21:49:18.000Z",
+      "resumoFonte": "Craque do Peixe iniciou transição no campo após lesão que o deixou de fora dos gramados por um mês e deve enfrentar o Rubro-Negro no dia 8",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/55556450467_1d53e11b2d_o-e1790712288987.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-29T22:17:41.008Z"
     },
     {
       "id": "c5dfba6e5ba0888a",
@@ -793,6 +813,62 @@
       }
     },
     {
+      "id": "7c293b5480763f4c",
+      "titulo": "Nikolas critica ligação de Lula para Dino",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/nikolas-critica-ligacao-de-lula-para-dino/",
+      "dataFonte": "2026-09-29T22:24:13.000Z",
+      "resumoFonte": "O deputado federal Nikolas Ferreira (PL-MG) criticou, nesta terça-feira, 29, uma ligação do presidente Luiz Inácio Lula da Silva (PT) ao ministro Flávio Dino, do Supremo Tribunal Federal (STF). “Dino, ministro do STF, funcionário do Lula”, escreveu o parlamentar no X, ao compartilhar o vídeo do telefonema. + Leia mais notícias de Política em Oeste…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/lula-6.jpg.webp",
+      "descobertaEm": "2026-09-29T23:17:38.696Z",
+      "reportagem": {
+        "titulo": "Nikolas critica ligação de Lula para Dino",
+        "slug": "nikolas-critica-ligacao-de-lula-para-dino",
+        "categoria": "Justiça",
+        "data": "2026-09-29",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/lula-6.jpg.webp",
+        "resumo": "Deputado do PL mineiro compartilhou vídeo no qual o presidente tenta consultar o ministro a respeito da implantação de um projeto",
+        "conteudo": "<p>Formado em jornalismo pela Cásper Líbero, tem curso de especialização em teoria da história, pela Universidade de São Paulo e em economia e finanças pelo Instituto Brasileiro de Economia e Finanças. Atuou no Jornal do Brasil, O Estado de S. Paulo e portal R7, entre outros, tendo feito coberturas fora do país.</p><h2>Foi também assessor de imprensa do Consulado</h2><p>Foi também assessor de imprensa do Consulado de Israel e da Secretaria da Educação do Estado de São Paulo. Autor de cinco livros, foi vencedor do Prêmio Clio de História e recebeu menção honrosa no Prêmio Sindiclube de Contos e Crônicas. Atualmente é jornalista da Revista Oeste.</p><p>O deputado federal Nikolas Ferreira (PL-MG) criticou uma ligação do presidente Luiz Inácio Lula da Silva ao ministro Flávio Dino, do STF, ocorrida na segunda-feira, 28, durante a sanção da Lei nº 15.524, que cria a Estratégia Nacional de Controle e Avaliação da Qualidade da Assistência à Saúde. A proposta, originada do PL 287/2024 apresentado por Dino em fevereiro de 2024, estabelece padrões de qualidade para serviços de saúde. A conversa entre Lula e Dino, que começou cordialmente, aparentemente caiu.</p><p>O deputado federal Nikolas Ferreira (PL-MG) criticou, nesta terça-feira, 29, uma ligação do presidente Luiz Inácio Lula da Silva (PT) ao ministro Flávio Dino, do Supremo Tribunal Federal (STF). “Dino, ministro do STF, funcionário do Lula”, escreveu o parlamentar no X, ao compartilhar o vídeo do telefonema.</p><h2>Ligação ocorreu na segunda-feira, 28, durante uma agenda</h2><p>A ligação ocorreu na segunda-feira, 28, durante uma agenda de Lula em Belém (PA) . Na ocasião, o presidente sancionou a lei que cria a Estratégia Nacional de Controle e Avaliação da Qualidade da Assistência à Saúde prestada pela Iniciativa Privada.</p><p>Dino, ministro do STF, funcionário do Lula. pic.twitter.com/FgckDLQ7Gu</p><p>O Palácio do Planalto publicou a norma como Lei nº 15.524, de 28 de setembro de 2026. Lula fez a ligação enquanto visitava o complexo hospitalar da Benemérita Sociedade Portuguesa Beneficente do Pará, no bairro Umarizal.</p><p>A proposta teve origem no PL 287/2024, apresentado por Dino em 19 de fevereiro de 2024, quando ele ainda exercia o mandato de senador pelo PSB do Maranhão. Três dias depois, em 22 de fevereiro, Dino tomou posse como ministro do STF . Ele havia sido indicado à Corte por Lula em novembro de 2023.</p><p>O projeto estabelece padrões de qualidade e mecanismos de avaliação para serviços de saúde e prevê a divulgação periódica dos resultados. A Câmara aprovou a proposta em 1º de setembro deste ano e a enviou para sanção presidencial.</p><p>Leia mais: “ Folha diz que ‘Dino abusa da toga para reeleger Lula'”</p><p>A iniciativa de Dino está relacionada à morte de seu filho Marcelo, de 13 anos, em 2012, por causa de falhas no atendimento médico em um hospital de Brasília. O menino teve uma crise de asma e não resistiu em função da demora para ser atendido. A família entrou com processo contra a unidade de saúde.</p><p>Durante a cerimônia, Lula tentou colocar Dino na ligação para falar sobre o projeto. A conversa teve início, com Dino chamando Lula de presidente, ao cumprimentá-lo, mas aparentemente caiu.</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/nikolas-critica-ligacao-de-lula-para-dino/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Formado em jornalismo pela Cásper Líbero, tem curso de especialização em teoria da história, pela Universidade de São Paulo e em economia e finanças pelo Instituto Brasileiro de Economia e Finanças. Atuou no Jornal do Brasil, O Estado de S. Paulo e portal R7, entre outros, tendo feito coberturas fora do país. Foi também assessor de imprensa do Consulado de I"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O deputado federal Nikolas Ferreira (PL-MG) criticou uma ligação do presidente Luiz Inácio Lula da Silva ao ministro Flávio Dino, do STF, ocorrida na segunda-feira, 28, durante a sanção da Lei nº 15.524, que cria a Estratégia Nacional de Controle e Avaliação da Qualidade da Assistência à Saúde. A proposta, originada do PL 287/2024 apresentado por Dino em fev"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O deputado federal Nikolas Ferreira (PL-MG) criticou, nesta terça-feira, 29, uma ligação do presidente Luiz Inácio Lula da Silva (PT) ao ministro Flávio Dino, do Supremo Tribunal Federal (STF). “Dino, ministro do STF, funcionário do Lula”, escreveu o parlamentar no X, ao compartilhar o vídeo do telefonema."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A ligação ocorreu na segunda-feira, 28, durante uma agenda de Lula em Belém (PA) . Na ocasião, o presidente sancionou a lei que cria a Estratégia Nacional de Controle e Avaliação da Qualidade da Assistência à Saúde prestada pela Iniciativa Privada."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Dino, ministro do STF, funcionário do Lula. pic.twitter.com/FgckDLQ7Gu"
+          }
+        ]
+      }
+    },
+    {
       "id": "b2f7f5b94b58779f",
       "titulo": "Nunes Marques vê ataque à Justiça Eleitoral e impõe restrições à campanha de Lula",
       "categoria": "Justiça",
@@ -915,6 +991,86 @@
       "resumoFonte": "A coligação do presidente e candidato à reeleição Luiz Inácio Lula da Silva acionou o Tribunal Superior Eleitoral (TSE) nesta terça-feira, 29, contra publicações do deputado federal Nikolas Ferreira (PL-MG) sobre uma declaração do petista que provocou críticas nas redes sociais sobre “toque” em mulheres. Durante comício em Belém na segunda-feira…",
       "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
       "descobertaEm": "2026-09-29T22:17:41.008Z"
+    },
+    {
+      "id": "51382abf004731d4",
+      "titulo": "TRE-SP inicia teste de integridade das urnas eletrônicas para o 1º turno das eleições",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/09/29/tre-sp-inicia-teste-de-integridade-das-urnas-eletronicas-para-o-1o-turno-das-eleicoes.ghtml",
+      "dataFonte": "2026-09-29T23:05:54.000Z",
+      "resumoFonte": "TRE-SP inicia teste de integridade das urnas eletrônicas para o 1º turno das eleições O Tribunal Regional Eleitoral de São Paulo (TRE-SP) iniciou nesta terça-feira (29) o teste de integridade das urnas eletrônicas que serão utilizadas no primeiro turno das eleições. O procedimento tem o objetivo de verificar se os votos digitados nos equipamentos…",
+      "imagem": "https://s2-g1.glbimg.com/3mwjmo-pcSitg4OKVbFZVoKHwwY=/1300x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/5/k/KtFAoLRVKjIdqAXpb6dQ/urnaeletronica-tse.jpg",
+      "descobertaEm": "2026-09-29T23:17:38.696Z"
+    },
+    {
+      "id": "f43e62d80eab95f3",
+      "titulo": "Mendonça libera publicação de Erika Hilton sobre Nossa Senhora Aparecida",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/blogs/brasilia-hoje/2026/09/mendonca-libera-publicacao-de-erika-hilton-sobre-nossa-senhora-aparecida.shtml",
+      "dataFonte": "2026-09-29T23:05:00.000Z",
+      "resumoFonte": "O ministro André Mendonça , do TSE (Tribunal Superior Eleitoral), liberou nesta terça-feira (29) uma publicação da deputada federal Erika Hilton ( PSOL -SP) sobre o caso de Nossa Senhora Aparecida. Na decisão, o relator afirma que não atingiu a liberdade religiosa ao determinar anteriormente a derrubada de postagens do tema. Leia mais (09/29/2026 -…",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/09/25/17903644376ab6cb15905e8_1790364437_3x2_rt.jpg",
+      "descobertaEm": "2026-09-29T23:17:38.696Z",
+      "reportagem": {
+        "titulo": "Brasília Hoje: Mendonça libera publicação de Erika Hilton sobre Nossa Senhora Aparecida",
+        "slug": "brasilia-hoje-mendonca-libera-publicacao-de-erika-hilton-sobre-nossa-senhora-aparecida",
+        "categoria": "Justiça",
+        "data": "2026-09-29",
+        "imagem": "https://f.i.uol.com.br/fotografia/2026/09/25/17903644376ab6cb15905e8_1790364437_3x2_rt.jpg",
+        "resumo": "Ministro diz que ordem dada anteriormente não violou liberdade religiosa e que conteúdo de deputada não reproduz informação falsa",
+        "conteudo": "<p>Bastidores, vídeos e análises de economia e política. De segunda a sexta-feira.</p><h2>Você tem 7 acessos por dia para dar</h2><p>Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler.</p><p>Assinantes podem liberar 7 acessos por dia para conteúdos da Folha.</p><p>O ministro André Mendonça , do TSE (Tribunal Superior Eleitoral), liberou nesta terça-feira (29) uma publicação da deputada federal Erika Hilton ( PSOL -SP) sobre o caso de Nossa Senhora Aparecida. Na decisão, o relator afirma que não atingiu a liberdade religiosa ao determinar anteriormente a derrubada de postagens do tema.</p><h2>No despacho, Mendonça defendeu a própria decisão, afirmando</h2><p>No despacho, Mendonça defendeu a própria decisão, afirmando não ter transferido às plataformas a análise dos conteúdos a serem removidos com a ordem de retirada em massa.</p><p>&quot;O que se reputou juridicamente relevante foi apenas a atribuição, como fato, ao representante ou à sua família, de determinada iniciativa para a qual não havia suporte fático. Aliás, a inverdade dessa premissa foi objeto de ampla verificação pública por veículos jornalísticos e agências de checagem&quot;, disse Mendonça.</p><p>No despacho, o ministro listou links de veículos de comunicação que apontaram a informação como falsa. Segundo ele, portanto, o controle judicial sobre conteúdo ilícito &quot;permanece indispensável&quot;.</p><p>&quot;Em hipóteses de viralização dessa magnitude, exigir que a Justiça Eleitoral examinasse, de antemão e individualmente, cada reprodução antes de qualquer providência destinada a fazer cessar a propagação do conteúdo já reconhecido judicialmente como falso tornaria a tutela jurisdicional materialmente ineficaz&quot;, afirmou.</p><p>No pedido ao ministro, a parlamentar reclamou ter tido sua postagem incluída entre os endereços indicados pela campanha de Flávio Bolsonaro (PL) sem que tivesse divulgado informação falsa. Por isso, pediu o reconhecimento da veracidade e da validade do post.</p><p>A publicação feita pelo X (ex-Twitter) ainda na sexta (25) cita o projeto de Lei apresentado a Câmara por Victório Galli Filho, ex-assessor especial da Presidência da República de Jair Bolsonaro. &quot;A finalidade da proposta é apagar um símbolo de profunda identificação do nosso povo para beneficiar a visão de mundo de uma minoria radical e fundamentalista&quot;, disse a deputada.</p><p>&quot;A existência de eventual falso positivo, portanto, recomenda a correção individual do alcance da medida, e não a inviabilização de instrumento normativamente previsto para enfrentar fenômenos de replicação massiva de conteúdo notoriamente reconhecido como falso&quot;, disse Mendonça, ao liberar o post.</p><p>O caso se tornou o centro de disputas dos candidatos à Presidência nos últimos dias e entre os integrantes do STF (Supremo Tribunal Federal) desde a primeira decisão de Mendonça, na última sexta (25).</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/blogs/brasilia-hoje/2026/09/mendonca-libera-publicacao-de-erika-hilton-sobre-nossa-senhora-aparecida.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Bastidores, vídeos e análises de economia e política. De segunda a sexta-feira."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Você tem 7 acessos por dia para dar de presente. Qualquer pessoa que não é assinante poderá ler."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Assinantes podem liberar 7 acessos por dia para conteúdos da Folha."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O ministro André Mendonça , do TSE (Tribunal Superior Eleitoral), liberou nesta terça-feira (29) uma publicação da deputada federal Erika Hilton ( PSOL -SP) sobre o caso de Nossa Senhora Aparecida. Na decisão, o relator afirma que não atingiu a liberdade religiosa ao determinar anteriormente a derrubada de postagens do tema."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "No despacho, Mendonça defendeu a própria decisão, afirmando não ter transferido às plataformas a análise dos conteúdos a serem removidos com a ordem de retirada em massa."
+          }
+        ]
+      }
+    },
+    {
+      "id": "8d71f30a8d2f0aaa",
+      "titulo": "TSE amplia exigências para registro de pesquisas eleitorais; institutos criticam mudança nas regras durante a eleição",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/29/tse-amplia-exigencias-para-registro-de-pesquisas-eleitorais-institutos-criticam-mudanca-nas-regras.ghtml",
+      "dataFonte": "2026-09-29T23:02:05.000Z",
+      "resumoFonte": "Prédio do Tribunal Superior Eleitoral (TSE), em Brasília Luiz Roberto/TSE O Tribunal Superior Eleitoral (TSE) mudou as regras para o registro de pesquisas eleitorais no Sistema de Registro de Pesquisas Eleitorais (PesqEle), sistema público de consulta a levantamentos de intenção de voto, e passou a exigir mais detalhes sobre a coleta de dados, a…",
+      "imagem": "https://s2-g1.glbimg.com/QbG4SvYgM8lb-G4XYb-FzyFnAo0=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/C/M/CBOzy3TXqi80tcM5otRA/55461989581-dcd063a0ae-k.jpg",
+      "descobertaEm": "2026-09-29T23:17:38.696Z"
     },
     {
       "id": "74a4d77d7d74b02d",
@@ -1221,11 +1377,11 @@
       }
     }
   ],
-  "reapuradoEm": "2026-09-29T23:12:33.951Z",
+  "reapuradoEm": "2026-09-29T23:47:46.965Z",
   "diagnosticoReapuracao": {
-    "produzidas": 6,
+    "produzidas": 9,
     "jaProntas": 0,
-    "incompletas": 25,
+    "incompletas": 24,
     "falhas": 0
   }
 }
