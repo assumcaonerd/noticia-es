@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-29T01:17:56.983Z",
+  "atualizadoEm": "2026-09-29T02:01:42.457Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 45,
+  "novasPautas": 39,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -228,7 +228,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 11,
+      "encontrados": 13,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -267,23 +267,23 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-29T01:21:03.957Z",
-    "novas": 6,
+    "atualizadoEm": "2026-09-29T02:03:35.499Z",
+    "novas": 0,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Folha Vitória",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube ALES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -292,18 +292,18 @@
       },
       {
         "fonte": "YouTube PM Ambiental ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "X Governo ES",
@@ -328,7 +328,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-29T01:21:07.089Z",
+    "atualizadoEm": "2026-09-29T02:03:36.615Z",
     "novas": 0,
     "fontes": [
       {
@@ -344,13 +344,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-29T01:21:08.114Z",
+    "atualizadoEm": "2026-09-29T02:03:37.416Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-29T01:21:18.664Z",
+    "atualizadoEm": "2026-09-29T02:03:47.991Z",
     "novas": 0,
     "fontes": [
       {
