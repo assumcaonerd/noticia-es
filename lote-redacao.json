@@ -1,16 +1,16 @@
 {
-  "geradoEm": "2026-09-29T14:21:16.346Z",
+  "geradoEm": "2026-09-29T14:47:46.701Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
-    "totalPendentes": 67,
+    "totalPendentes": 65,
     "bloqueadas": 0,
-    "bloqueadasEditoriais": 7,
+    "bloqueadasEditoriais": 6,
     "semImagem": 0,
     "duplicadasBasicas": 0,
-    "duplicadasSemanticas": 0,
-    "foraCategorias": 25
+    "duplicadasSemanticas": 2,
+    "foraCategorias": 27
   },
-  "quantidadeCandidatas": 33,
+  "quantidadeCandidatas": 30,
   "candidatas": [
     {
       "id": "fa3c5b71f918b983",
@@ -181,16 +181,16 @@
       }
     },
     {
-      "id": "42e8de87ffd65b32",
-      "titulo": "Vitória suspende ciclofaixas e ruas de lazer no domingo (4) por causa das eleições",
+      "id": "f8b460585b7f3f3a",
+      "titulo": "Idoso é assassinado a tiros dentro de casa na Serra",
       "categoria": "Cidades",
       "radar": null,
-      "fonteNome": "A Gazeta - Política",
-      "urlFonte": "https://www.agazeta.com.br/agora/vitoria-suspende-ciclofaixas-e-ruas-de-lazer-no-domingo-4-por-causa-das-eleicoes-0926",
-      "dataFonte": "2026-09-29T12:20:48.000Z",
-      "resumoFonte": "O objetivo, segundo a prefeitura, é dar vazão ao maior fluxo de veículos aos locais de votação durante o pleito",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1780324781196_2019_11_07_rua_de_lazer_tera_horario_reduzido_neste_domingo_por_conta_do_segundo_dia_de_provas_do_enem_111160_article.jpg",
-      "descobertaEm": "2026-09-29T13:17:51.338Z"
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/agora/idoso-e-assassinado-a-tiros-dentro-de-casa-na-serra-0926",
+      "dataFonte": "2026-09-29T13:24:42.000Z",
+      "resumoFonte": "Familiar ouviu barulhos na casa horas antes, mas só encontrou Jorge Luiz Ribeiro, de 67 anos, morto no chão da sala no fim da tarde",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1775080509749_2019_11_26_data_26112019_es_vitoria_viaturas_da_delegacia_de_homicidios_e_protecao_a_pessoa_dhpp_136442_article.jpg",
+      "descobertaEm": "2026-09-29T14:17:46.091Z"
     },
     {
       "id": "005b6acf4d3e8f0c",
@@ -305,34 +305,46 @@
       }
     },
     {
-      "id": "f0297afb98d21e86",
-      "titulo": "Lula e Flávio Bolsonaro agora estimulam guerrilha religiosa no palanque",
+      "id": "63e0bd46b2ee38a7",
+      "titulo": "Folha diz que ‘Dino abusa da toga para reeleger Lula’",
       "categoria": "Justiça",
       "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/imprensa/ifolha-i-diz-que-dino-abusa-da-toga-para-reeleger-lula/",
+      "dataFonte": "2026-09-29T13:32:08.000Z",
+      "resumoFonte": "A Folha de S.Paulo criticou a atuação do ministro Flávio Dino, do Supremo Tribunal Federal (STF), no caso envolvendo publicações falsas sobre o candidato à Presidência e senador, Flávio Bolsonaro (PL-RJ), e Nossa Senhora Aparecida. Em editorial publicado na noite desta segunda-feira, 28, o jornal afirmou que a decisão do ministro representa uma…",
+      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
+      "descobertaEm": "2026-09-29T14:17:46.091Z"
+    },
+    {
+      "id": "5126b25a7cfad020",
+      "titulo": "Tarcísio x Haddad: nova pesquisa AtlasIntel mostra disputa ao governo de SP",
+      "categoria": "Política ES",
+      "radar": null,
       "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/coluna/jose-casado/lula-e-flavio-bolsonaro-agora-estimulam-guerrilha-religiosa-no-palanque/",
-      "dataFonte": "2026-09-29T11:00:01.000Z",
-      "resumoFonte": "Já acirrou a crise no STF com reflexos Justiça Eleitoral. E ameaça arrastar lideranças católicas e protestantes num embate bizarro",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/07/lula-flavio-bolsonaro-10.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-29T11:18:01.277Z",
+      "urlFonte": "https://veja.abril.com.br/politica/tarcisio-x-haddad-nova-pesquisa-atlasintel-mostra-disputa-ao-governo-de-sp/",
+      "dataFonte": "2026-09-29T13:49:48.000Z",
+      "resumoFonte": "Governador segue liderando todos os cenários e com altas chances de vitória no primeiro turno, já no próximo domingo, 4",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/03/tarcisio-de-freitas-fernando-haddad.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-09-29T14:17:46.091Z",
       "reportagem": {
-        "titulo": "Lula e Flávio Bolsonaro agora estimulam guerrilha religiosa no palanque | José Casado",
-        "slug": "lula-e-flavio-bolsonaro-agora-estimulam-guerrilha-religiosa-no-palanque-jose-casado",
-        "categoria": "Justiça",
+        "titulo": "Tarcísio x Haddad: nova pesquisa AtlasIntel mostra disputa ao governo de SP",
+        "slug": "tarcisio-x-haddad-nova-pesquisa-atlasintel-mostra-disputa-ao-governo-de-sp",
+        "categoria": "Política ES",
         "data": "2026-09-29",
-        "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/07/lula-flavio-bolsonaro-10.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "resumo": "Já acirrou a crise no STF com reflexos Justiça Eleitoral. E ameaça arrastar lideranças católicas e protestantes num embate bizarro",
-        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&amp;ccedil;&amp;atilde;o da Editora Abril.</p><h2>Donald Trump e Xi Jinping atravessaram a &amp;uacute;ltima</h2><p>Donald Trump e Xi Jinping atravessaram a &amp;uacute;ltima semana empenhados em encontrar a trilha mais r&amp;aacute;pida e segura para que americanos e chineses desfrutem das benesses da lideran&amp;ccedil;a na nova etapa do capitalismo, a era da Intelig&amp;ecirc;ncia Artificial.</p><p>Lula e Fl&amp;aacute;vio Bolsonaro, favoritos na disputa pela presid&amp;ecirc;ncia da Rep&amp;uacute;blica, est&amp;atilde;o h&amp;aacute; cinco dias gastando tempo e energia numa discuss&amp;atilde;o bizantina, que revela muito sobre os desertos de ideias onde cultivam suas candidaturas.</p><p>Desde quinta-feira (24/9), eles discutem se Nossa Senhora Aparecida deve continuar no altar de padroeira nacional, ser substitu&amp;iacute;da por Cristo ou ficar restrita &amp;agrave; prote&amp;ccedil;&amp;atilde;o do Brasil cat&amp;oacute;lico.</p><h2>Lula e Fl&amp;aacute;vio Bolsonaro passaram a estimular</h2><p>Lula e Fl&amp;aacute;vio Bolsonaro passaram a estimular uma guerrilha religiosa no palanque. Ou seja, resolveram se devotar &amp;agrave; manipula&amp;ccedil;&amp;atilde;o eleitoreira de s&amp;iacute;mbolos religiosos apenas para reafirmar a rejei&amp;ccedil;&amp;atilde;o ao advers&amp;aacute;rio.</p><p>Na pr&amp;aacute;tica, oferecem mais do mesmo card&amp;aacute;pio que servem h&amp;aacute; oito anos: votar em Lula para impedir Bolsonaro, votar em Bolsonaro para impedir Lula. Nas pesquisas, empatam na rejei&amp;ccedil;&amp;atilde;o de metade do eleitorado.</p><p>Faltam seis dias para o primeiro turno eleitoral e, at&amp;eacute; hoje, n&amp;atilde;o se sabe o que eles pensam e querem, quais s&amp;atilde;o as propostas comuns e eventuais diverg&amp;ecirc;ncias sobre a condu&amp;ccedil;&amp;atilde;o do pa&amp;iacute;s nesse novo ciclo capitalista.</p><p>N&amp;atilde;o s&amp;atilde;o conhecidas as ideias de Lula nem de Fl&amp;aacute;vio Bolsonaro sobre as mudan&amp;ccedil;as necess&amp;aacute;rias nos padr&amp;otilde;es de educa&amp;ccedil;&amp;atilde;o, sa&amp;uacute;de, seguran&amp;ccedil;a p&amp;uacute;blica, produ&amp;ccedil;&amp;atilde;o e de investimento para a travessia de 214 milh&amp;otilde;es de brasileiros na revolu&amp;ccedil;&amp;atilde;o tecnol&amp;oacute;gica que j&amp;aacute; come&amp;ccedil;ou. N&amp;atilde;o conseguiram ir al&amp;eacute;m dos bord&amp;otilde;es da marquetagem sobre quest&amp;otilde;es fundamentais ao futuro.</p><p>Eles se escolheram advers&amp;aacute;rios preferenciais e, nos &amp;uacute;ltimos nove meses, conseguiram manter o favoritismo a bordo de discursos vagos, numa fuga constante da compara&amp;ccedil;&amp;atilde;o p&amp;uacute;blica de biografias, de propostas, do escrut&amp;iacute;nio do oponente sobre os respectivos planos sob o olhar do eleitorado. Temem o confronto, admitem assessores. Por isso, a desist&amp;ecirc;ncia dos debates.</p><p>Lula e Fl&amp;aacute;vio Bolsonaro est&amp;atilde;o, literalmente, empurrando o Estado laico para uma esp&amp;eacute;cie de guerrilha pol&amp;iacute;tico-religiosa, por raz&amp;otilde;es restritas aos seus interesses eleitorais.</p><p>J&amp;aacute; serviu de pretexto ao acirramento da crise entre ju&amp;iacute;zes do Supremo Tribunal Federal , com reflexos diretos nas decis&amp;otilde;es do Tribunal Superior Eleitoral, guardi&amp;atilde;o da elei&amp;ccedil;&amp;otilde;es.</p><p>Agora, amea&amp;ccedil;a arrastar lideran&amp;ccedil;as cat&amp;oacute;licas e protestantes num embate bizarro sobre quem deve ocupar o padroado nacional &amp;mdash; a m&amp;atilde;e (N. Senhora) ou o filho (Cristo).</p>",
+        "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/03/tarcisio-de-freitas-fernando-haddad.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "resumo": "Governador segue liderando todos os cenários e com altas chances de vitória no primeiro turno, já no próximo domingo, 4",
+        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&amp;ccedil;&amp;atilde;o da Editora Abril.</p><h2>Governador de S&amp;atilde;o Paulo, Tarc&amp;iacute;sio de Freitas (Republicanos),</h2><p>O governador de S&amp;atilde;o Paulo, Tarc&amp;iacute;sio de Freitas (Republicanos), lidera todos os cen&amp;aacute;rios para sua reelei&amp;ccedil;&amp;atilde;o, inclusive com grande probabilidade de vit&amp;oacute;ria no primeiro turno, segundo pesquisa AtlasIntel divulgada nesta ter&amp;ccedil;a-feira, 29. Para fazer o levantamento, foram ouvidos 1.833 eleitores do estado entre os dias 22 e 27 de setembro, gerando documento com margem de erro de dois pontos percentuais, cujo n&amp;iacute;vel de confian&amp;ccedil;a &amp;eacute; de 95%.</p><p>No primeiro turno, ele tem 53,3% das inten&amp;ccedil;&amp;otilde;es de voto contra 40,1% do ex-ministro da Fazenda Fernando Haddad (PT). N&amp;atilde;o h&amp;aacute; outros candidatos competitivos, com mais de dois d&amp;iacute;gitos, no pleito paulista.</p><p>Os n&amp;uacute;meros s&amp;atilde;o semelhantes ao de outro levantamento divulgado tamb&amp;eacute;m nesta segunda, do Real Time Big Data, no qual Tarc&amp;iacute;sio tinha 53% conta 39% de Haddad. Clique aqui para ver tamb&amp;eacute;m esta segunda pesquisa .</p><h2>Foram classificados como &amp;ldquo;outros&amp;rdquo;: Vivian Mendes (UP): 1,3%;</h2><p>Foram classificados como &amp;ldquo;outros&amp;rdquo;: Vivian Mendes (UP): 1,3%; Carlos Machado (PCB): 0,4%; Vera L&amp;uacute;cia (PSTU): 0,1%; e Izadora Dias (PCO): n&amp;atilde;o pontuou.</p><p>Mesmo sendo muito improv&amp;aacute;vel, o instituto tamb&amp;eacute;m desenhou um cen&amp;aacute;rio de segundo turno, no qual o governador tamb&amp;eacute;m sairia vencedor.</p><p>A pesquisa foi registrada no sistema do Tribunal Superior Eleitoral ( TSE ) com o c&amp;oacute;digo SP-01486/2026.</p>",
         "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/coluna/jose-casado/lula-e-flavio-bolsonaro-agora-estimulam-guerrilha-religiosa-no-palanque/",
+        "fonteUrl": "https://veja.abril.com.br/politica/tarcisio-x-haddad-nova-pesquisa-atlasintel-mostra-disputa-ao-governo-de-sp/",
         "fontesAdicionais": [
           {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
+            "nome": "Assembleia Legislativa do ES",
+            "url": "https://www.al.es.gov.br/"
           },
           {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+            "nome": "Governo do Estado do ES",
+            "url": "https://www.es.gov.br/"
           }
         ],
         "entidades": [],
@@ -343,75 +355,19 @@
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Donald Trump e Xi Jinping atravessaram a &uacute;ltima semana empenhados em encontrar a trilha mais r&aacute;pida e segura para que americanos e chineses desfrutem das benesses da lideran&ccedil;a na nova etapa do capitalismo, a era da Intelig&ecirc;ncia Artificial."
+            "resposta": "O governador de S&atilde;o Paulo, Tarc&iacute;sio de Freitas (Republicanos), lidera todos os cen&aacute;rios para sua reelei&ccedil;&atilde;o, inclusive com grande probabilidade de vit&oacute;ria no primeiro turno, segundo pesquisa AtlasIntel divulgada nesta ter&ccedil;a-feira, 29. Para fazer o levantamento, foram ouvidos 1.833 eleitores do estado entre os d"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Lula e Fl&aacute;vio Bolsonaro, favoritos na disputa pela presid&ecirc;ncia da Rep&uacute;blica, est&atilde;o h&aacute; cinco dias gastando tempo e energia numa discuss&atilde;o bizantina, que revela muito sobre os desertos de ideias onde cultivam suas candidaturas."
+            "resposta": "No primeiro turno, ele tem 53,3% das inten&ccedil;&otilde;es de voto contra 40,1% do ex-ministro da Fazenda Fernando Haddad (PT). N&atilde;o h&aacute; outros candidatos competitivos, com mais de dois d&iacute;gitos, no pleito paulista."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Desde quinta-feira (24/9), eles discutem se Nossa Senhora Aparecida deve continuar no altar de padroeira nacional, ser substitu&iacute;da por Cristo ou ficar restrita &agrave; prote&ccedil;&atilde;o do Brasil cat&oacute;lico."
+            "resposta": "Os n&uacute;meros s&atilde;o semelhantes ao de outro levantamento divulgado tamb&eacute;m nesta segunda, do Real Time Big Data, no qual Tarc&iacute;sio tinha 53% conta 39% de Haddad. Clique aqui para ver tamb&eacute;m esta segunda pesquisa ."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Lula e Fl&aacute;vio Bolsonaro passaram a estimular uma guerrilha religiosa no palanque. Ou seja, resolveram se devotar &agrave; manipula&ccedil;&atilde;o eleitoreira de s&iacute;mbolos religiosos apenas para reafirmar a rejei&ccedil;&atilde;o ao advers&aacute;rio."
-          }
-        ]
-      }
-    },
-    {
-      "id": "d43f2e312a19a31c",
-      "titulo": "Real Time: Derrite e André do Prado lideram corrida pelo Senado em SP",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/real-time-derrite-e-andre-do-prado-lideram-corrida-pelo-senado-em-sp/",
-      "dataFonte": "2026-09-29T11:39:08.000Z",
-      "resumoFonte": "A cinco dias do primeiro turno das eleições gerais no país, os dois candidatos apoiados pelo governador Tarcísio de Freitas (Republicanos) estão numericamente à frente na corrida pelas duas vagas em disputa ao Senado pelo Estado de São Paulo , de acordo com pesquisa do Real Time Big Data divulgada nesta terça-feira, 29. Segundo o levantamento, o…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/derrite-1.jpg.webp",
-      "descobertaEm": "2026-09-29T12:17:44.291Z",
-      "reportagem": {
-        "titulo": "Real Time: Derrite e André do Prado lideram corrida pelo Senado em SP",
-        "slug": "real-time-derrite-e-andre-do-prado-lideram-corrida-pelo-senado-em-sp",
-        "categoria": "Política Nacional",
-        "data": "2026-09-29",
-        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/derrite-1.jpg.webp",
-        "resumo": "Um pouco atrás, estão as ex-senadoras e ex-ministras Simone Tebet (PSB) e Marina Silva (Rede)",
-        "conteudo": "<p>Jornalista formado pela Cásper Líbero, é pós-graduado em marketing político e propaganda eleitoral pela USP. Trabalhou no site da ESPN, pelo qual foi à China para cobrir a Olimpíada de Pequim, em 2008. Também teve passagens por Metrópoles, InfoMoney, O Antagonista, iG e Terra, cobrindo política e economia. Como assessor de imprensa, atuou na Câmara dos Deputados e no Ministério da Cultura. É autor dos livros “Dias: a Vida do Maior Jogador do São Paulo nos Anos 1960” e “20 Jogos Eternos do São Paulo”.</p><h2>Cinco dias do primeiro turno das eleições gerais,</h2><p>A cinco dias do primeiro turno das eleições gerais, a pesquisa do Real Time Big Data revela que os candidatos apoiados pelo governador Tarcísio de Freitas, Guilherme Derrite (PP) e André do Prado (PL), lideram as intenções de voto para o Senado em São Paulo, com 22% e 20%, respectivamente.</p><p>Simone Tebet (PSB) e Marina Silva (Rede) seguem respectivamente com 18% e 15%, ambas apoiadas por Fernando Haddad e Lula. A pesquisa, realizada entre 24 e 28 de setembro, entrevistou 2 mil eleitores e tem margem de erro de 2 pontos porcentuais.</p><p>A cinco dias do primeiro turno das eleições gerais no país, os dois candidatos apoiados pelo governador Tarcísio de Freitas (Republicanos) estão numericamente à frente na corrida pelas duas vagas em disputa ao Senado pelo Estado de São Paulo , de acordo com pesquisa do Real Time Big Data divulgada nesta terça-feira, 29.</p><h2>Ex-secretário estadual de Segurança Pública Guilherme Derrite (PP)</h2><p>Segundo o levantamento, o ex-secretário estadual de Segurança Pública Guilherme Derrite (PP) aparece com 22% das intenções de voto, enquanto o presidente da Assembleia Legislativa de São Paulo (Alesp), André do Prado (PL), marca 20%.</p><p>Um pouco atrás, estão as ex-senadoras e ex-ministras Simone Tebet (PSB), com 18% das intenções de voto, e Marina Silva (Rede), com 15%. Ambas contam com o apoio do candidato do PT ao governo do Estado, Fernando Haddad, e do presidente Luiz Inácio Lula da Silva (PT).</p><p>Como a margem de erro da pesquisa é de 2 pontos porcentuais, Derrite, Prado e Tebet estão tecnicamente empatados na liderança.</p><p>O ex-ministro do Meio Ambiente Ricardo Salles (Novo), que anunciou a desistência da candidatura nesta segunda-feira, 28 , tem 6% da preferência do eleitorado – ele já não deve aparecer nas próximas pesquisas. Salles decidiu apoiar Derrite e Prado.</p><p>Leia também: “Salles retira candidatura ao Senado e declara apoio a Derrite e André do Prado”</p><p>O Real Time Big Data entrevistou 2 mil eleitores do Estado de São Paulo entre os dias 24 e 28 de setembro de 2026.</p><p>A margem de erro é de 2 pontos porcentuais, para mais ou para menos, e o nível de confiança é de 95%.</p><p>A pesquisa está registrada no Tribunal Superior Eleitoral (TSE) sob o código nº SP-06293/2026.</p><p>Ao todo, 15 candidaturas foram homologadas para a eleição ao Senado Federal pelo Estado de São Paulo – com a desistência de Salles, restam 14. Neste ano, serão duas vagas em disputa – os senadores Giordano (Podemos) e Mara Gabrilli (PSD) encerrarão seus mandatos no início de 2027. Eleito em 2022, o senador Astronauta Marcos Pontes (PL) tem mandato até 2031.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/real-time-derrite-e-andre-do-prado-lideram-corrida-pelo-senado-em-sp/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Jornalista formado pela Cásper Líbero, é pós-graduado em marketing político e propaganda eleitoral pela USP. Trabalhou no site da ESPN, pelo qual foi à China para cobrir a Olimpíada de Pequim, em 2008. Também teve passagens por Metrópoles, InfoMoney, O Antagonista, iG e Terra, cobrindo política e economia. Como assessor de imprensa, atuou na Câmara dos Deput"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A cinco dias do primeiro turno das eleições gerais, a pesquisa do Real Time Big Data revela que os candidatos apoiados pelo governador Tarcísio de Freitas, Guilherme Derrite (PP) e André do Prado (PL), lideram as intenções de voto para o Senado em São Paulo, com 22% e 20%, respectivamente. Simone Tebet (PSB) e Marina Silva (Rede) seguem respectivamente com 1"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A cinco dias do primeiro turno das eleições gerais no país, os dois candidatos apoiados pelo governador Tarcísio de Freitas (Republicanos) estão numericamente à frente na corrida pelas duas vagas em disputa ao Senado pelo Estado de São Paulo , de acordo com pesquisa do Real Time Big Data divulgada nesta terça-feira, 29."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Segundo o levantamento, o ex-secretário estadual de Segurança Pública Guilherme Derrite (PP) aparece com 22% das intenções de voto, enquanto o presidente da Assembleia Legislativa de São Paulo (Alesp), André do Prado (PL), marca 20%."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Um pouco atrás, estão as ex-senadoras e ex-ministras Simone Tebet (PSB), com 18% das intenções de voto, e Marina Silva (Rede), com 15%. Ambas contam com o apoio do candidato do PT ao governo do Estado, Fernando Haddad, e do presidente Luiz Inácio Lula da Silva (PT)."
+            "resposta": "Foram classificados como &ldquo;outros&rdquo;: Vivian Mendes (UP): 1,3%; Carlos Machado (PCB): 0,4%; Vera L&uacute;cia (PSTU): 0,1%; e Izadora Dias (PCO): n&atilde;o pontuou."
           }
         ]
       }
@@ -597,130 +553,6 @@
       }
     },
     {
-      "id": "f5f293995d6162ae",
-      "titulo": "Real Time Senado SP: Derrite tem 22%; Prado, 20%; Tebet, 18% e Marina, 15%",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/real-time-senado-sp-derrite-tem-22-prado-20-tebet-18-e-marina-15/",
-      "dataFonte": "2026-09-29T11:36:49.000Z",
-      "resumoFonte": "Foram ouvidos 2.000 eleitores de São Paulo entre os dias 24 e 28 de setembro; margem de erro é de dois pontos percentuais, para mais ou para menos",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Guilherme-Derrite-Andre-do-Prado-Simone-Tebet-Marina-Sena.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-29T12:17:44.291Z",
-      "reportagem": {
-        "titulo": "Real Time Senado SP: Derrite tem 22%; Prado, 20%; Tebet, 18% e Marina, 15%",
-        "slug": "real-time-senado-sp-derrite-tem-22-prado-20-tebet-18-e-marina-15",
-        "categoria": "Política Nacional",
-        "data": "2026-09-29",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Guilherme-Derrite-Andre-do-Prado-Simone-Tebet-Marina-Sena.png?w=1200&h=630&crop=1",
-        "resumo": "Foram ouvidos 2.000 eleitores de São Paulo entre os dias 24 e 28 de setembro; margem de erro é de dois pontos percentuais, para mais ou para menos",
-        "conteudo": "<p>Nova rodada da pesquisa Real Time Big Data divulgada nesta terça-feira (29) mostra Guilherme Derrite (PP), André do Prado (PL) e Simone Tebet (PSB) empatados tecnicamente na corrida pelas duas vagas para representar São Paulo no Senado Federal.</p><h2>Dois candidatos da chapa do governador Tarcísio</h2><p>Os dois candidatos da chapa do governador Tarcísio de Freitas lideram numericamente. Neste cenário, Derrite tem 22% das intenções de voto, enquanto André do Prado chega a 20% e Simone Tebet pontua 18% .</p><p>Na sequência, Marina Silva (Rede) aparece com 15% da preferência do eleitorado. A ex-ministra empata dentro da margem de erro, que é de dois pontos percentuais, com Tebet.</p><p>Completam o cenário Ricardo Salles (Novo), que anunciou na última segunda-feira (28) a retirada de sua candidatura, mas pontua 6% ; Geraldo Rufino (Podemos), tem 3%; Soninha Francine (Cidadania) e Guto Schiavetto (Missão), pontuam 2%, cada.</p><h2>Candidatos Petter Maahs (PCB), William Teixeira (Agir), Maíra</h2><p>Os candidatos Petter Maahs (PCB), William Teixeira (Agir), Maíra de Souza (UP), Márcio Alves (UP), Ednelson Cesaretti (PCO), Dra. Eliana Ferreira (PSTU) e Weller Gonçalves (PSTU) pontuaram, juntos, 1% e foram classificados como &quot;outros&quot;.</p><p>Aqueles que declaram voto em branco ou nulo somam 6% , enquanto 5% não sabem ou não responderam.</p><p>A Real Time Big Data entrevistou 2 .000 eleitores de São Paulo entre os dias 24 e 28 de setembro . A margem de erro do levantamento é de dois pontos percentuais, para mais ou para menos, com índice de confiança de 95% .</p><p>O levantamento foi realizado com recursos do próprio instituto e está registrado no TSE (Tribunal Superior Eleitoral) sob o protocolo SP-06293/2026 .</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/real-time-senado-sp-derrite-tem-22-prado-20-tebet-18-e-marina-15/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Nova rodada da pesquisa Real Time Big Data divulgada nesta terça-feira (29) mostra Guilherme Derrite (PP), André do Prado (PL) e Simone Tebet (PSB) empatados tecnicamente na corrida pelas duas vagas para representar São Paulo no Senado Federal."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Os dois candidatos da chapa do governador Tarcísio de Freitas lideram numericamente. Neste cenário, Derrite tem 22% das intenções de voto, enquanto André do Prado chega a 20% e Simone Tebet pontua 18% ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na sequência, Marina Silva (Rede) aparece com 15% da preferência do eleitorado. A ex-ministra empata dentro da margem de erro, que é de dois pontos percentuais, com Tebet."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Completam o cenário Ricardo Salles (Novo), que anunciou na última segunda-feira (28) a retirada de sua candidatura, mas pontua 6% ; Geraldo Rufino (Podemos), tem 3%; Soninha Francine (Cidadania) e Guto Schiavetto (Missão), pontuam 2%, cada."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os candidatos Petter Maahs (PCB), William Teixeira (Agir), Maíra de Souza (UP), Márcio Alves (UP), Ednelson Cesaretti (PCO), Dra. Eliana Ferreira (PSTU) e Weller Gonçalves (PSTU) pontuaram, juntos, 1% e foram classificados como \"outros\"."
-          }
-        ]
-      }
-    },
-    {
-      "id": "e3b5c281b80ddefc",
-      "titulo": "MP que proíbe bets precisa ser aprovada pelo Congresso até o começo de março para não perder validade",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/noticia/2026/09/29/mp-que-proibe-bets-precisa-ser-aprovada-pelo-congresso-ate-o-comeco-de-marco-para-nao-perder-validade.ghtml",
-      "dataFonte": "2026-09-29T11:23:08.000Z",
-      "resumoFonte": "Joédson Alves/Agência Brasil A medida provisória que proibiu as empresas de apostas online, chamadas de bets, foi publicada na última sexta-feira (25), com validade imediata, a nove dias do primeiro turno das eleições. Mas para que seja mantida, ela tem de ser votada e aprovada pelo Congresso Nacional em até 120 dias, ou seja, até o fim de janeiro…",
-      "imagem": "https://s2-g1.glbimg.com/mL52Y2AK9iNL5ERbOecvLG_TyOo=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/B/j/8jYBXsTD2iSC0kW5mYIw/apostas-esportivas-foto-joedson-alves-abr-agencia-brasil.jpg",
-      "descobertaEm": "2026-09-29T12:17:44.291Z"
-    },
-    {
-      "id": "24f7c0c270130abe",
-      "titulo": "A primeira pesquisa para Senado de São Paulo após desistência de Ricardo Salles",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/politica/a-primeira-pesquisa-para-senado-de-sao-paulo-apos-desistencia-de-ricardo-salles/",
-      "dataFonte": "2026-09-29T10:36:04.000Z",
-      "resumoFonte": "Levantamento do Real Time Big Data foi feito entre 24 e 28 de setembro: candidato saiu da disputa no último dia",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/marina-tebet-andre-derrite.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-29T11:18:01.277Z",
-      "reportagem": {
-        "titulo": "A primeira pesquisa para Senado de São Paulo após desistência de Ricardo Salles",
-        "slug": "a-primeira-pesquisa-para-senado-de-sao-paulo-apos-desistencia-de-ricardo-salles",
-        "categoria": "Política Nacional",
-        "data": "2026-09-29",
-        "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/marina-tebet-andre-derrite.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "resumo": "Levantamento do Real Time Big Data foi feito entre 24 e 28 de setembro: candidato saiu da disputa no último dia",
-        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&amp;ccedil;&amp;atilde;o da Editora Abril.</p><h2>Disputa ao Senado por S&amp;atilde;o Paulo teve</h2><p>A disputa ao Senado por S&amp;atilde;o Paulo teve um importante epis&amp;oacute;dio na &amp;uacute;ltima segunda-feira, 29: a desist&amp;ecirc;ncia do deputado Ricardo Salles (Novo), que declarou apoio ao deputado Guilherme Derrite (PP). As primeiras pesquisas ap&amp;oacute;s a sa&amp;iacute;da dele da disputa ser&amp;atilde;o divulgadas j&amp;aacute; nesta ter&amp;ccedil;a, 28.</p><p>Uma delas foi feita pelo Real Time Big Data e contou com entrevistas de 2.000 eleitores do estado entre os dias 24 e 28 de setembro, gerando documento com margem de erro de dois pontos percentuais, cujo &amp;iacute;ndice de confian&amp;ccedil;a &amp;eacute; de 95%.</p><p>Como a desist&amp;ecirc;ncia s&amp;oacute; ocorreu no &amp;uacute;ltimo dia do levantamento, o nome de Salles ainda aparece entre as inten&amp;ccedil;&amp;otilde;es de voto. Ele figurava com 6%.</p><h2>Mais novo cen&amp;aacute;rio mostra Derrite na lideran&amp;ccedil;a,</h2><p>O mais novo cen&amp;aacute;rio mostra Derrite na lideran&amp;ccedil;a, com 22%, empatado tecnicamente com o deputado estadual Andr&amp;eacute; do Prado (PL), que tem 20%, e a ex-ministra Simone Tebet (PSB), que aparece com 18% nesse levantamento. A tamb&amp;eacute;m ex-ministra Marina Silva (Rede) est&amp;aacute; em quarto lugar, com 15%, e empatada tecnicamente com Tebet e Do Prado.</p><p>Os candidatos Petter Maahs (PCB), William Teixeira (Agir), Ma&amp;iacute;ra de Souza (UP), Marcio Alves (UP), Ednelson Cesaretti (PCO), Dra. Eliana Ferreira (PSTU) e Weller Gon&amp;ccedil;alves (PSTU), juntos, somaram 1% dos votos e est&amp;atilde;o categorizados como &amp;ldquo;outros&amp;rdquo;.</p><p>Os n&amp;uacute;meros acima s&amp;atilde;o uma m&amp;eacute;dia das op&amp;ccedil;&amp;otilde;es de primeiro e segundo voto, visto que o eleitor dever&amp;aacute; escolher dois candidatos ao Senado em 2026. Confira abaixo como se dividem os votos entre as duas prefer&amp;ecirc;ncias dos entrevistados.</p><p>A pesquisa foi registrada no sistema do Tribunal Superior Eleitoral ( TSE ) pelo c&amp;oacute;digo SP-06293/2026.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/politica/a-primeira-pesquisa-para-senado-de-sao-paulo-apos-desistencia-de-ricardo-salles/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A disputa ao Senado por S&atilde;o Paulo teve um importante epis&oacute;dio na &uacute;ltima segunda-feira, 29: a desist&ecirc;ncia do deputado Ricardo Salles (Novo), que declarou apoio ao deputado Guilherme Derrite (PP). As primeiras pesquisas ap&oacute;s a sa&iacute;da dele da disputa ser&atilde;o divulgadas j&aacute; nesta ter&ccedil;a, 28. Uma delas foi "
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Como a desist&ecirc;ncia s&oacute; ocorreu no &uacute;ltimo dia do levantamento, o nome de Salles ainda aparece entre as inten&ccedil;&otilde;es de voto. Ele figurava com 6%."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O mais novo cen&aacute;rio mostra Derrite na lideran&ccedil;a, com 22%, empatado tecnicamente com o deputado estadual Andr&eacute; do Prado (PL), que tem 20%, e a ex-ministra Simone Tebet (PSB), que aparece com 18% nesse levantamento. A tamb&eacute;m ex-ministra Marina Silva (Rede) est&aacute; em quarto lugar, com 15%, e empatada tecnicamente com Tebet e Do "
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os candidatos Petter Maahs (PCB), William Teixeira (Agir), Ma&iacute;ra de Souza (UP), Marcio Alves (UP), Ednelson Cesaretti (PCO), Dra. Eliana Ferreira (PSTU) e Weller Gon&ccedil;alves (PSTU), juntos, somaram 1% dos votos e est&atilde;o categorizados como &ldquo;outros&rdquo;."
-          }
-        ]
-      }
-    },
-    {
       "id": "e9a57766bda62766",
       "titulo": "Desemprego no Brasil atinge 5,8 milhões em agosto, aponta IBGE",
       "categoria": "Economia",
@@ -777,16 +609,16 @@
       }
     },
     {
-      "id": "653146411f32a881",
-      "titulo": "Contas do governo têm déficit de R$ 13,6 bilhões em agosto",
+      "id": "8f62fda61a7bd4c3",
+      "titulo": "Governo central fecha as contas de agosto devendo R$ 13,6 bilhões no mês",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/economia/noticia/2026/09/29/contas-do-governo-tem-deficit-de-r-136-bilhoes-em-agosto.ghtml",
-      "dataFonte": "2026-09-29T13:03:42.000Z",
-      "resumoFonte": "As contas do governo registraram um déficit primário de R$ 13,58 bilhões em agosto, informou Tesouro Nacional nesta terça-feira (29). 🔎 O déficit primário ocorre quando as receitas com tributos e impostos ficam abaixo das despesas do governo. Se as receitas ficam acima as despesas, o resultado é um superávit primário. Esses valores não englobam os…",
-      "imagem": "https://g1.globo.com/economia/noticia/2026/09/29/None",
-      "descobertaEm": "2026-09-29T13:17:51.338Z"
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/economia/governo-central-deficit-primario-r-13-bilhoes-agosto/",
+      "dataFonte": "2026-09-29T14:01:58.000Z",
+      "resumoFonte": "Déficit das contas públicas caiu em relação a julho, mas, no acumulado do ano, está pior do que em 2025",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/06/dji_20260621145838_0073_d.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-09-29T14:17:46.091Z"
     },
     {
       "id": "ca5f869ffbeb9296",
@@ -901,28 +733,16 @@
       }
     },
     {
-      "id": "68b7cd8e1e4af333",
-      "titulo": "Em meio à corrida eleitoral, inadimplência volta a subir e bate novo recorde em agosto",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/economia/noticia/2026/09/29/em-meio-a-corrida-eleitoral-inadimplencia-volta-a-subir-e-bate-novo-recorde-em-agosto.ghtml",
-      "dataFonte": "2026-09-29T11:40:42.000Z",
-      "resumoFonte": "A taxa de inadimplência média total registrada pelos bancos nas operações de crédito subiu de 4,9% para 5% de julho para agosto, informou nesta terça-feira (29) o Banco Central (BC). O valor atingiu, assim, o maior patamar desde o início da série histórica revisada pela autoridade monetária, em março de 2011. O indicador de inadimplência do Banco…",
-      "imagem": "https://s2-g1.glbimg.com/0DF8JvbZYk2dFXopn_3FZQ5R65w=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s04.video.glbimg.com/deo/vi/55/20/992055",
-      "descobertaEm": "2026-09-29T12:17:44.291Z"
-    },
-    {
-      "id": "813748206be56705",
-      "titulo": "PM encontra submetralhadora, 1,2 mil munições e drogas em Vitória",
+      "id": "42e8de87ffd65b32",
+      "titulo": "Vitória suspende ciclofaixas e ruas de lazer no domingo (4) por causa das eleições",
       "categoria": "Cidades",
       "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/agora/pm-encontra-submetralhadora-1-2-mil-municoes-e-drogas-em-vitoria-0926",
-      "dataFonte": "2026-09-29T11:27:59.000Z",
-      "resumoFonte": "Os materiais foram encontrados em diferentes pontos do Morro da Garrafa, no bairro de Santa Helena, em Vitória",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790677331428_whatsapp_image_2026_09_28_at_20.jpeg",
-      "descobertaEm": "2026-09-29T12:17:44.291Z"
+      "fonteNome": "A Gazeta - Política",
+      "urlFonte": "https://www.agazeta.com.br/agora/vitoria-suspende-ciclofaixas-e-ruas-de-lazer-no-domingo-4-por-causa-das-eleicoes-0926",
+      "dataFonte": "2026-09-29T12:20:48.000Z",
+      "resumoFonte": "O objetivo, segundo a prefeitura, é dar vazão ao maior fluxo de veículos aos locais de votação durante o pleito",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1780324781196_2019_11_07_rua_de_lazer_tera_horario_reduzido_neste_domingo_por_conta_do_segundo_dia_de_provas_do_enem_111160_article.jpg",
+      "descobertaEm": "2026-09-29T13:17:51.338Z"
     },
     {
       "id": "75a97896e284ecdc",
@@ -935,62 +755,6 @@
       "resumoFonte": "Vitória por 4 a 2 foi marcada por melhora na criação em relação ao primeiro jogo, mas atuação foi de altos e baixos",
       "imagem": "https://s2-oglobo.glbimg.com/eBYFNzb42QIgvWFsmzy5A5_ga6M=/4685x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/9/M/BaNrAnS6y07OzYjnVceA/29set2026-australua-x-brasil-46-bruno-guimaraes.jpg",
       "descobertaEm": "2026-09-29T13:20:05.477Z"
-    },
-    {
-      "id": "50a3d1e7a130c55a",
-      "titulo": "IA vira aliada na Black Friday, mas brasileiro ainda desconfia do algoritmo na hora de comprar",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/economia/ia-vira-aliada-na-black-friday-mas-brasileiro-ainda-desconfia-do-algoritmo-na-hora-de-comprar/",
-      "dataFonte": "2026-09-29T11:37:51.000Z",
-      "resumoFonte": "Pesquisa do Reclame AQUI mostra que 87% pretendem usar a tecnologia, mas só 15% deixariam a IA escolher a loja",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2024/08/GettyImages-2285079184.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-29T12:17:44.291Z",
-      "reportagem": {
-        "titulo": "IA vira aliada na Black Friday, mas brasileiro ainda desconfia do algoritmo na hora de comprar",
-        "slug": "ia-vira-aliada-na-black-friday-mas-brasileiro-ainda-desconfia-do-algoritmo-na-hora-de-comprar",
-        "categoria": "Tecnologia",
-        "data": "2026-09-29",
-        "imagem": "https://veja.abril.com.br/wp-content/uploads/2024/08/GettyImages-2285079184.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "resumo": "Pesquisa do Reclame AQUI mostra que 87% pretendem usar a tecnologia, mas só 15% deixariam a IA escolher a loja",
-        "conteudo": "<p>A intelig&amp;ecirc;ncia artificial deve ganhar espa&amp;ccedil;o na Black Friday dos brasileiros em 2026, principalmente para pesquisar produtos, comparar modelos e encontrar pre&amp;ccedil;os. Na hora de decidir onde gastar o dinheiro, por&amp;eacute;m, o consumidor ainda prefere fazer a pr&amp;oacute;pria checagem.</p><h2>Pesquisa do Reclame AQUI mostra que 87%</h2><p>Pesquisa do Reclame AQUI mostra que 87% dos entrevistados pretendem recorrer &amp;agrave; IA durante as compras da data, mas apenas 15% aceitariam deixar a tecnologia escolher a loja ou o vendedor. S&amp;oacute; 4% seguiriam uma recomenda&amp;ccedil;&amp;atilde;o sem conferir.</p><p>A reputa&amp;ccedil;&amp;atilde;o da empresa aparece como uma das principais barreiras entre a recomenda&amp;ccedil;&amp;atilde;o do algoritmo e a compra. Segundo o levantamento, 64% dos consumidores descartariam uma sugest&amp;atilde;o feita por IA ao descobrir que a loja tem reputa&amp;ccedil;&amp;atilde;o ruim no Reclame AQUI. Outros sinais de alerta s&amp;atilde;o pre&amp;ccedil;os baixos demais, citados por 43%, direcionamento para sites desconhecidos, com 38%, e exig&amp;ecirc;ncia de pagamento exclusivamente por Pix ou boleto, com 31%.</p><p>O levantamento indica que a tecnologia deve ser usada sobretudo como ferramenta de pesquisa. Entre aqueles que pretendem recorrer a assistentes de IA, 46% afirmam que far&amp;atilde;o uso pontual e 41%, de maneira intensa.</p><h2>Comparar especifica&amp;ccedil;&amp;otilde;es t&amp;eacute;cnicas e modelos &amp;eacute; a finalidade</h2><p>Comparar especifica&amp;ccedil;&amp;otilde;es t&amp;eacute;cnicas e modelos &amp;eacute; a finalidade mais citada, por 71% dos entrevistados, enquanto 44% pretendem utilizar a ferramenta para procurar cupons e pre&amp;ccedil;os mais baixos. &amp;ldquo;A intelig&amp;ecirc;ncia artificial resolveu o problema da informa&amp;ccedil;&amp;atilde;o, n&amp;atilde;o o da confian&amp;ccedil;a.</p><p>Ela compara modelos e encontra o menor pre&amp;ccedil;o em segundos, mas n&amp;atilde;o responde &amp;agrave; &amp;uacute;nica pergunta que trava a m&amp;atilde;o do consumidor na hora de pagar: essa empresa resolve quando d&amp;aacute; errado?&amp;rdquo;, afirma Edu Neves, CEO e cofundador do Reclame AQUI.</p><p>A preocupa&amp;ccedil;&amp;atilde;o ganha peso com o avan&amp;ccedil;o de golpes que tamb&amp;eacute;m utilizam intelig&amp;ecirc;ncia artificial. Na pesquisa, 88% dos consumidores disseram ter muito medo de fraudes produzidas com a tecnologia, como sites clonados e an&amp;uacute;ncios hiper-realistas. Ao mesmo tempo, 63% admitiram n&amp;atilde;o conseguir identificar quando uma oferta falsa foi criada com IA.</p><p>Apesar da cautela, a Black Friday pode abrir espa&amp;ccedil;o para marcas conquistarem novos clientes. Entre os consumidores dispostos a comprar, 62% afirmam estar abertos a experimentar lojas nas quais nunca compraram. Outros 44% ainda n&amp;atilde;o decidiram onde far&amp;atilde;o suas compras e 18% j&amp;aacute; pretendem recorrer a novos e-commerces. Em contrapartida, 38% dizem comprar apenas de empresas que j&amp;aacute; conhecem.</p><p>Na escolha final, pre&amp;ccedil;o permanece como o fator mais importante, citado por 67% dos entrevistados. A reputa&amp;ccedil;&amp;atilde;o da empresa aparece em seguida, com 28%, pr&amp;oacute;xima da seguran&amp;ccedil;a da navega&amp;ccedil;&amp;atilde;o contra golpes e fraudes, com 26%. Frete pesa para 25%, avalia&amp;ccedil;&amp;otilde;es de outros consumidores para 22% e condi&amp;ccedil;&amp;otilde;es de pagamento para 20%.</p><p>Roupas e cal&amp;ccedil;ados lideram as inten&amp;ccedil;&amp;otilde;es de compra, com 29%, seguidos por eletr&amp;ocirc;nicos, com 28%, e eletrodom&amp;eacute;sticos e eletroport&amp;aacute;teis, com 25%. Casa e decora&amp;ccedil;&amp;atilde;o aparecem com 21%, enquanto viagens s&amp;atilde;o mencionadas por 14%. A pesquisa foi realizada no site do Reclame AQUI entre 21 e 26 de agosto, com 2.161 consumidores. O levantamento informa grau de confian&amp;ccedil;a de 95% e margem de erro de dois pontos percentuais.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/economia/ia-vira-aliada-na-black-friday-mas-brasileiro-ainda-desconfia-do-algoritmo-na-hora-de-comprar/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
-          },
-          {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A intelig&ecirc;ncia artificial deve ganhar espa&ccedil;o na Black Friday dos brasileiros em 2026, principalmente para pesquisar produtos, comparar modelos e encontrar pre&ccedil;os. Na hora de decidir onde gastar o dinheiro, por&eacute;m, o consumidor ainda prefere fazer a pr&oacute;pria checagem. Pesquisa do Reclame AQUI mostra que 87% dos entrevistados pr"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A reputa&ccedil;&atilde;o da empresa aparece como uma das principais barreiras entre a recomenda&ccedil;&atilde;o do algoritmo e a compra. Segundo o levantamento, 64% dos consumidores descartariam uma sugest&atilde;o feita por IA ao descobrir que a loja tem reputa&ccedil;&atilde;o ruim no Reclame AQUI. Outros sinais de alerta s&atilde;o pre&ccedil;os baixos "
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O levantamento indica que a tecnologia deve ser usada sobretudo como ferramenta de pesquisa. Entre aqueles que pretendem recorrer a assistentes de IA, 46% afirmam que far&atilde;o uso pontual e 41%, de maneira intensa. Comparar especifica&ccedil;&otilde;es t&eacute;cnicas e modelos &eacute; a finalidade mais citada, por 71% dos entrevistados, enquanto 44% pr"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A preocupa&ccedil;&atilde;o ganha peso com o avan&ccedil;o de golpes que tamb&eacute;m utilizam intelig&ecirc;ncia artificial. Na pesquisa, 88% dos consumidores disseram ter muito medo de fraudes produzidas com a tecnologia, como sites clonados e an&uacute;ncios hiper-realistas. Ao mesmo tempo, 63% admitiram n&atilde;o conseguir identificar quando uma oferta"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Apesar da cautela, a Black Friday pode abrir espa&ccedil;o para marcas conquistarem novos clientes. Entre os consumidores dispostos a comprar, 62% afirmam estar abertos a experimentar lojas nas quais nunca compraram. Outros 44% ainda n&atilde;o decidiram onde far&atilde;o suas compras e 18% j&aacute; pretendem recorrer a novos e-commerces. Em contrapartida, "
-          }
-        ]
-      }
     },
     {
       "id": "a768661833e1d5d6",
@@ -1105,118 +869,38 @@
       }
     },
     {
-      "id": "eb6e1b8d0b83adc6",
-      "titulo": "Após boa jogada, Bruno Guimarães vira para o Brasil contra a Austrália",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/apos-boa-jogada-bruno-guimaraes-vira-para-o-brasil-contra-a-australia/",
-      "dataFonte": "2026-09-29T11:50:09.000Z",
-      "resumoFonte": "Meio-campista da Seleção Brasileira completou jogada de Vinícius Junior e Endrick",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/bruno_guimaraes_amistoso-e1790682578696.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-29T12:17:44.291Z"
-    },
-    {
-      "id": "94e67d57d5035eff",
-      "titulo": "Raphinha, de pênalti, empata para o Brasil contra a Austrália",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/raphinha-de-penalti-empata-para-o-brasil-contra-a-australia/",
-      "dataFonte": "2026-09-29T11:06:46.000Z",
-      "resumoFonte": "Camisa 10 converteu penalidade no fim da primeira etapa",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/raphinha_selecao-e1790679873713.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-29T11:18:01.277Z"
-    },
-    {
-      "id": "e4878de92ef1fbeb",
-      "titulo": "Austrália vira sobre o Brasil com golaço de Metcalfe; veja o lance",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/australia-vira-sobre-o-brasil-com-golaco-de-metcalfe-veja-o-lance/",
-      "dataFonte": "2026-09-29T11:05:52.000Z",
-      "resumoFonte": "Atacante aproveita falha na saída de bola para colocar Socceroos a frente no placar",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/gol-australia-virada-metcalfe-e1790679884603.png?w=797&h=448&crop=1",
-      "descobertaEm": "2026-09-29T11:18:01.277Z"
-    },
-    {
-      "id": "fcda96cb7d7678d6",
-      "titulo": "Falha? Web detona gol sofrido por Otávio contra a Austrália",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil - Capa",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/falha-web-critica-gol-sofrido-por-otavio-contra-a-australia/",
-      "dataFonte": "2026-09-29T10:57:51.000Z",
-      "resumoFonte": "Goleiro estreou pela Seleção Brasileira e virou assunto após Circati marcar no primeiro tempo em Brisbane",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/OTAVIO-FALHA-e1790679350800.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-29T11:20:09.898Z",
-      "reportagem": {
-        "titulo": "Falha? Web detona gol sofrido por Otávio contra a Austrália",
-        "slug": "falha-web-detona-gol-sofrido-por-otavio-contra-a-australia",
-        "categoria": "Esporte",
-        "data": "2026-09-29",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/OTAVIO-FALHA-e1790679350800.jpg?w=1200&h=630&crop=1",
-        "resumo": "Goleiro estreou pela Seleção Brasileira e virou assunto após Circati marcar no primeiro tempo em Brisbane",
-        "conteudo": "<p>Otávio virou assunto entre torcedores após o gol da Austrália contra o Brasil, nesta terça-feira (29), em Brisbane. O goleiro do Cruzeiro foi questionado pela reação na finalização de Alessandro Circati.</p><h2>Jogada aconteceu aos 29 minutos do primeiro tempo,</h2><p>A jogada aconteceu aos 29 minutos do primeiro tempo, após cobrança de escanteio. A defesa brasileira desviou a bola, que sobrou para Circati dentro da área.</p><p>O zagueiro australiano finalizou e marcou. A arbitragem, porém, assinalou impedimento inicialmente e levou o lance para análise antes de confirmar o gol.</p><p>After being initially ruled out, Alessandro Circati's goal stands to bring us level!</p><h2>🎥 @ParamountPlusAU #Socceroos #QLDFootballSeries2026 pic</h2><p>🎥 @ParamountPlusAU #Socceroos #QLDFootballSeries2026 pic.twitter.com/0k6kUOV5zq</p><p>Nas redes sociais, parte dos torcedores apontou uma possível falha do goleiro na jogada. A discussão se concentrou na reação de Otávio após o desvio da defesa brasileira e na finalização de Circati.</p><p>Se fosse Hugo Souza todo mundo estaria cornetando ( e com razão)</p><p>Que esse seja o primeiro e o último jogo do Otávio pela seleção</p><p>O jogo com os pés é disparadamente a principal coisa que o Otávio tem que trabalhar para melhorar. É bem abaixo.</p><p>O lance marcou o primeiro gol sofrido por Otávio com a camisa da Seleção Brasileira. O goleiro de 20 anos foi escolhido por Carlo Ancelotti para começar a partida em Brisbane.</p><p>Otávio foi uma das novidades promovidas por Ancelotti para o segundo amistoso contra a Austrália . O treinador fez sete mudanças em relação ao empate por 1 a 1 em Townsville, quatro dias antes.</p><p>O goleiro do Cruzeiro recebeu sua primeira convocação para a Seleção principal nesta Data Fifa. Antes de estrear, ele havia sido eleito o melhor goleiro de agosto do Campeonato Brasileiro.</p>",
-        "fonteNome": "CNN Brasil - Capa",
-        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/falha-web-critica-gol-sofrido-por-otavio-contra-a-australia/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Otávio virou assunto entre torcedores após o gol da Austrália contra o Brasil, nesta terça-feira (29), em Brisbane. O goleiro do Cruzeiro foi questionado pela reação na finalização de Alessandro Circati."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A jogada aconteceu aos 29 minutos do primeiro tempo, após cobrança de escanteio. A defesa brasileira desviou a bola, que sobrou para Circati dentro da área."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O zagueiro australiano finalizou e marcou. A arbitragem, porém, assinalou impedimento inicialmente e levou o lance para análise antes de confirmar o gol."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "After being initially ruled out, Alessandro Circati's goal stands to bring us level!"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "🎥 @ParamountPlusAU #Socceroos #QLDFootballSeries2026 pic.twitter.com/0k6kUOV5zq"
-          }
-        ]
-      }
-    },
-    {
-      "id": "df219b98b74cad47",
-      "titulo": "Rodrigo Pacheco é oficialmente nomeado como ministro no TCU",
+      "id": "5f69d10d519b1e3b",
+      "titulo": "Em vez de propostas, eleição presidencial chega na reta final discutindo religião e STF entra na briga",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/rodrigo-pacheco-e-oficialmente-nomeado-como-ministro-no-tcu/",
-      "dataFonte": "2026-09-29T11:10:36.000Z",
-      "resumoFonte": "O Diário Oficial da União publicou a nomeação do senador Rodrigo Pacheco (PSB-MG) para o cargo de ministro do Tribunal de Contas da União (TCU) nesta terça-feira, 29. O parlamentar assume a cadeira deixada por Bruno Dantas. A cerimônia de posse do novo integrante da Corte ocorre nesta quarta-feira, 30, às 11 horas. + Entenda o que é Política em…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/55503465325_cbd87beec9_o-910x568.jpg.webp",
-      "descobertaEm": "2026-09-29T11:18:01.277Z",
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/blog/valdo-cruz/post/2026/09/29/em-vez-de-propostas-eleicao-presidencial-chega-na-reta-final-discutindo-religiao-e-stf-entra-na-briga.ghtml",
+      "dataFonte": "2026-09-29T13:20:02.000Z",
+      "resumoFonte": "Flávio Bolsonaro segurando imagem de N. Senhora Aparecida. Lula segurando imagem de Nossa Senhora de Nazaré Reprodução/ Redes Sociais e Ricardo Stuckert Em vez de propostas para saúde, educação e economia, a campanha eleitoral chega na reta final do primeiro turno discutindo religião, e o Supremo Tribunal Federal (STF) entrou na briga atropelando o…",
+      "imagem": "https://s2-g1.glbimg.com/x-2FUGhx_VrA_PYjAiwdy1nubjA=/1280x0/filters:format(jpeg)/https://s02.video.glbimg.com/x720/15002705.jpg",
+      "descobertaEm": "2026-09-29T14:17:46.091Z"
+    },
+    {
+      "id": "b2f59c430a1fa953",
+      "titulo": "14 concursos públicos previstos no ES para ficar de olho",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/concursos/14-concursos-publicos-previstos-no-es-para-ficar-de-olho-0926",
+      "dataFonte": "2026-09-29T13:46:47.000Z",
+      "resumoFonte": "Entre as seleções mais aguardadas, estão as do Tribunal de Justiça, com chances para profissionais da área de Tecnologia da Informação, e do Corpo de Bombeiros Militar",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790689350243_whatsapp_image_2026_09_01_at_09.jpeg",
+      "descobertaEm": "2026-09-29T14:17:46.091Z",
       "reportagem": {
-        "titulo": "Rodrigo Pacheco é oficialmente nomeado como ministro no TCU",
-        "slug": "rodrigo-pacheco-e-oficialmente-nomeado-como-ministro-no-tcu",
+        "titulo": "14 concursos públicos previstos no ES para ficar de olho",
+        "slug": "14-concursos-publicos-previstos-no-es-para-ficar-de-olho",
         "categoria": "Justiça",
         "data": "2026-09-29",
-        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/55503465325_cbd87beec9_o-910x568.jpg.webp",
-        "resumo": "Rodrigo Pacheco é oficialmente nomeado como ministro no TCU. Registro original em Revista Oeste - Feed. A Redação Notícia ES reapurou a pauta para a editoria Justiça.",
-        "conteudo": "<p>Formado em jornalismo pela Faculdade Cásper Líbero, começou a atuar na comunicação em 2018. Desde então, trabalhou nas redações de veículos como Forbes, Gazeta do Povo e Veja, produzindo textos sobre cultura, empreendedorismo, política e agronegócio. Atualmente, cursa pós-graduação em &quot;Literatura, Artes e Filosofia&quot; pela PUC-RS.</p><h2>Diário Oficial da União publicou, em 29</h2><p>O Diário Oficial da União publicou, em 29 de setembro de 2026, a nomeação do senador Rodrigo Pacheco (PSB-MG) como ministro do Tribunal de Contas da União (TCU), cargo deixado por Bruno Dantas. A posse ocorrerá em 30 de setembro, às 11 horas. A indicação foi aprovada pelo Congresso Nacional no início do mês, com 63 votos a favor no Senado e 404 na Câmara. O presidente do Senado, Davi Alcolumbre, apoiou a escolha. Com a saída de Pacheco, o ex-deputado Renzo Braz (PP-MG) assume sua vaga no Senado.</p><p>O Diário Oficial da União publicou a nomeação do senador Rodrigo Pacheco (PSB-MG) para o cargo de ministro do Tribunal de Contas da União (TCU) nesta terça-feira, 29. O parlamentar assume a cadeira deixada por Bruno Dantas. A cerimônia de posse do novo integrante da Corte ocorre nesta quarta-feira, 30, às 11 horas.</p><p>O Congresso Nacional aprovou a indicação do parlamentar no início do mês. O plenário do Senado chancelou a escolha por 63 votos a favor e 4 contrários. A Câmara dos Deputados ratificou o nome com 404 votos favoráveis e 61 contrários.</p><h2>Presidente do Senado, Davi Alcolumbre (União Brasil-AP), articulou</h2><p>O presidente do Senado, Davi Alcolumbre (União Brasil-AP), articulou o apoio à indicação de Pacheco. O congressista amapaense tentou emplacar o aliado no Supremo Tribunal Federal (STF) em negociações anteriores.</p><p>O ex-deputado federal Renzo Braz (PP-MG) assume a cadeira de Minas Gerais no Senado com a ida de Pacheco para o tribunal. O novo ministro cumpre o último ano de mandato e recusou convite do presidente Luiz Inácio Lula da Silva para disputar o governo mineiro nas eleições.</p><p>O tribunal atua como órgão de controle externo das contas públicas federais com o Poder Legislativo. O Congresso escolhe dois terços dos nove ministros da casa. A Presidência da República indica o restante dos membros em lista tríplice do Ministério Público e de auditores.</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p><p>Ais outra canalhice, o Bruno Dantas renunciou o Camargo no TCU em troca de ganhar uma licitação para explorar o pátio de manobra no Porto de Santos, um contrato de dois bilhões de reais, ele criou uma empresa em março deste ano para concorrer, uma empresa que não tem nenhum expertise no ramo e qu derrotou concorrentes muito melhores. Este é o Brasil do FDP do Lula ladrão e do canalhas do Alcolumbre e do Hugo Motta.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/rodrigo-pacheco-e-oficialmente-nomeado-como-ministro-no-tcu/",
+        "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790689350243_whatsapp_image_2026_09_01_at_09.jpeg",
+        "resumo": "Entre as seleções mais aguardadas, estão as do Tribunal de Justiça, com chances para profissionais da área de Tecnologia da Informação, e do Corpo de Bombeiros Militar",
+        "conteudo": "<p>O Espírito Santo conta com 14 concursos públicos com editais previstos para lançamento nos próximos meses. Os certames deverão ofertar oportunidades para cargos de diferentes níveis de escolaridade.</p><h2>Entre as seleções mais aguardadas, estão as</h2><p>Entre as seleções mais aguardadas, estão as do Tribunal de Justiça do Espírito Santo (TJES), com chances para profissionais da área de Tecnologia da Informação, e do Corpo de Bombeiros Militar (CBMES), com postos para soldados. Há previsão ainda de abertura de vagas efetivas na Prefeitura de Muqui e na Câmara de Cachoeiro de Itapemirim.</p><p>Diante da diversidade de opções, o diretor de mentorias do Gran Concursos, Diego Fontes, destaca que a escolha do concurso ideal deve começar pela definição de uma área específica de atuação — como a fiscal, jurídica, policial ou administrativa —, em vez de tentar conciliar certames com conteúdos completamente distintos.</p><p>“Disparar para todos os lados gera sobrecarga de disciplinas diferentes e impede o aprofundamento necessário para a aprovação. Para selecionar a carreira adequada, o candidato deve analisar sua escolaridade, sua afinidade com o grupo de matérias básicas da área e a rotina diária da profissão”, comenta.</p><h2>Especialista alerta que o candidato não deve</h2><p>O especialista alerta que o candidato não deve se deixar guiar apenas pela remuneração ou pela relação candidatos por vaga — indicador que muitas vezes é ilusório, pois grande parte dos inscritos não possui preparação competitiva.</p><p>“Caso o concurso dos sonhos ainda esteja distante, vale a pena buscar cargos intermediários ou correlatos na mesma área, aproveitando as disciplinas em comum para obter estabilidade e experiência real de prova”, analisa.</p><p>Fontes orienta que o início da preparação exige planejamento prévio e organização da rotina. O primeiro passo, segundo o diretor, é mapear os horários livres da semana para identificar o tempo real disponível e organizar o ambiente de estudos.</p><p>“O caminho mais eficiente para começar é focar prioritariamente nas disciplinas normalmente cobradas na área escolhida, criando uma base sólida em conteúdos essenciais. Para organizar a rotina, recomenda-se a montagem de um ciclo de estudos flexível, que intercale matérias teóricas com disciplinas de raciocínio e se adapte aos imprevistos do dia a dia”, ressalta.</p><p>Por fim, o diretor destaca que o estudo deve combinar materiais teóricos de qualidade e a leitura da legislação atualizada com a resolução constante de questões de provas anteriores e revisões periódicas, garantindo a fixação do conteúdo na memória de longo prazo.</p><p>Confira abaixo a lista de concursos previstos para o Espírito Santo:</p><p>A validade do concurso realizado em 2022 pelo Banco do Estado do Espírito Santo (Banestes) vai até 23 de junho de 2027. De acordo com a instituição, o novo certame encontra-se em fase de estruturação administrativa, com cuidado técnico para garantir a conformidade e a segurança jurídica de todo o processo. A escolha da banca organizadora está em fase de trâmites internos.</p><p>O banco informou que, assim que o contrato for formalizado, a informação será tornada pública, conforme as normas de transparência. O cronograma de lançamento do edital ainda está sendo estruturado e será divulgado posteriormente. O novo concurso contemplará cargos de níveis médio e técnico. O detalhamento das vagas e especialidades será definido no edital de abertura.</p>",
+        "fonteNome": "A Gazeta - Capa",
+        "fonteUrl": "https://www.agazeta.com.br/concursos/14-concursos-publicos-previstos-no-es-para-ficar-de-olho-0926",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -1231,26 +915,230 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Formado em jornalismo pela Faculdade Cásper Líbero, começou a atuar na comunicação em 2018. Desde então, trabalhou nas redações de veículos como Forbes, Gazeta do Povo e Veja, produzindo textos sobre cultura, empreendedorismo, política e agronegócio. Atualmente, cursa pós-graduação em \"Literatura, Artes e Filosofia\" pela PUC-RS."
+            "resposta": "O Espírito Santo conta com 14 concursos públicos com editais previstos para lançamento nos próximos meses. Os certames deverão ofertar oportunidades para cargos de diferentes níveis de escolaridade."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Diário Oficial da União publicou, em 29 de setembro de 2026, a nomeação do senador Rodrigo Pacheco (PSB-MG) como ministro do Tribunal de Contas da União (TCU), cargo deixado por Bruno Dantas. A posse ocorrerá em 30 de setembro, às 11 horas. A indicação foi aprovada pelo Congresso Nacional no início do mês, com 63 votos a favor no Senado e 404 na Câmara. O "
+            "resposta": "Entre as seleções mais aguardadas, estão as do Tribunal de Justiça do Espírito Santo (TJES), com chances para profissionais da área de Tecnologia da Informação, e do Corpo de Bombeiros Militar (CBMES), com postos para soldados. Há previsão ainda de abertura de vagas efetivas na Prefeitura de Muqui e na Câmara de Cachoeiro de Itapemirim."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O Diário Oficial da União publicou a nomeação do senador Rodrigo Pacheco (PSB-MG) para o cargo de ministro do Tribunal de Contas da União (TCU) nesta terça-feira, 29. O parlamentar assume a cadeira deixada por Bruno Dantas. A cerimônia de posse do novo integrante da Corte ocorre nesta quarta-feira, 30, às 11 horas."
+            "resposta": "Diante da diversidade de opções, o diretor de mentorias do Gran Concursos, Diego Fontes, destaca que a escolha do concurso ideal deve começar pela definição de uma área específica de atuação — como a fiscal, jurídica, policial ou administrativa —, em vez de tentar conciliar certames com conteúdos completamente distintos."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "O Congresso Nacional aprovou a indicação do parlamentar no início do mês. O plenário do Senado chancelou a escolha por 63 votos a favor e 4 contrários. A Câmara dos Deputados ratificou o nome com 404 votos favoráveis e 61 contrários."
+            "resposta": "“Disparar para todos os lados gera sobrecarga de disciplinas diferentes e impede o aprofundamento necessário para a aprovação. Para selecionar a carreira adequada, o candidato deve analisar sua escolaridade, sua afinidade com o grupo de matérias básicas da área e a rotina diária da profissão”, comenta."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O presidente do Senado, Davi Alcolumbre (União Brasil-AP), articulou o apoio à indicação de Pacheco. O congressista amapaense tentou emplacar o aliado no Supremo Tribunal Federal (STF) em negociações anteriores."
+            "resposta": "O especialista alerta que o candidato não deve se deixar guiar apenas pela remuneração ou pela relação candidatos por vaga — indicador que muitas vezes é ilusório, pois grande parte dos inscritos não possui preparação competitiva."
           }
         ]
       }
+    },
+    {
+      "id": "44bc23bd8aea71d9",
+      "titulo": "Dallagnol estará na urna, mas validade dos votos depende do TSE; entenda",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/dallagnol-estara-na-urna-mas-validade-dos-votos-depende-do-tse-entenda/",
+      "dataFonte": "2026-09-29T14:19:08.000Z",
+      "resumoFonte": "O ex-deputado federal Deltan Dallagnol (Novo) continua candidato ao Senado pelo Paraná. Seu nome consta no sistema da Justiça Eleitoral e aparecerá na urna no domingo 4. Isso, porém, não significa que seu registro de candidatura esteja garantido. Entenda a situação. O Tribunal Regional Eleitoral do Paraná (TRE-PR) aprovou o registro por quatro…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2024/01/Deltan.jpg.webp",
+      "descobertaEm": "2026-09-29T14:17:46.091Z",
+      "reportagem": {
+        "titulo": "Dallagnol estará na urna, mas validade dos votos depende do TSE; entenda",
+        "slug": "dallagnol-estara-na-urna-mas-validade-dos-votos-depende-do-tse-entenda",
+        "categoria": "Justiça",
+        "data": "2026-09-29",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2024/01/Deltan.jpg.webp",
+        "resumo": "Ex-procurador segue na disputa pelo Senado, mas está impedido de fazer campanha enquanto aguarda o julgamento de seu registro",
+        "conteudo": "<p>Letícia Alves nasceu em Fortaleza e se formou em jornalismo na Universidade Federal do Ceará. Atuou no jornal O Povo, Poder360, Brasil sem Medo e Gazeta do Povo. Atualmente, é repórter na Revista Oeste.</p><h2>Ex-deputado Deltan Dallagnol (Novo) é candidato ao Senado</h2><p>O ex-deputado Deltan Dallagnol (Novo) é candidato ao Senado pelo Paraná, com seu nome registrado na Justiça Eleitoral para as eleições de 4 de outubro de 2026, mas seu registro ainda não está garantido. O Tribunal Regional Eleitoral do Paraná (TRE-PR) aprovou sua candidatura, mas a Federação Brasil da Esperança e a coligação “Paraná para Todos” recorreram ao Tribunal Superior Eleitoral (TSE), que ainda não decidiu sobre o caso.</p><p>O ex-deputado federal Deltan Dallagnol (Novo) continua candidato ao Senado pelo Paraná. Seu nome consta no sistema da Justiça Eleitoral e aparecerá na urna no domingo 4. Isso, porém, não significa que seu registro de candidatura esteja garantido. Entenda a situação.</p><p>O Tribunal Regional Eleitoral do Paraná (TRE-PR) aprovou o registro por quatro votos a três. A Federação Brasil da Esperança (PT, PCdoB e PV) e a coligação “Paraná para Todos”, no entanto, recorreram ao Tribunal Superior Eleitoral (TSE) , que ainda não marcou uma data para julgar o caso.</p><h2>Enquanto aguarda a decisão, Dallagnol está impedido pelo</h2><p>Enquanto aguarda a decisão, Dallagnol está impedido pelo TSE de fazer atos de campanha. O TRE-PR também determinou que aliados não podem atuar para restabelecer, na prática, a campanha suspensa.</p><p>“A atuação de terceiros candidatos não pode servir como via de burla para o restabelecimento prático de uma campanha eleitoral expressamente suspensa pela Corte Superior”, afirmou a juíza Sandra Bauermann.</p><p>Os partidos que recorreram alegam que Dallagnol não pode concorrer por causa da decisão de 2023 que cassou seu mandato de deputado federal. Naquele processo, o TSE entendeu que ele pediu exoneração do cargo de procurador para evitar processos administrativos.</p><p>A defesa afirma, porém, que a decisão de 2023 se refere apenas ao mandato anterior e não retirou os direitos políticos do ex-procurador. Cabe agora ao TSE confirmar o registro ou cassá-lo. O julgamento pode ocorrer depois da votação.</p><p>Leia também: “Dallagnol volta ao Instagram e diz que o TSE o proíbe de fazer campanha há 8 dias”</p><p>Por isso, o eleitor encontrará o nome de Dallagnol na urna, mas o resultado de uma eventual eleição dependerá da decisão sobre o registro. Se ele vencer e o TSE cassar a candidatura, os votos serão anulados e uma nova eleição será convocada no Estado.</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/dallagnol-estara-na-urna-mas-validade-dos-votos-depende-do-tse-entenda/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Letícia Alves nasceu em Fortaleza e se formou em jornalismo na Universidade Federal do Ceará. Atuou no jornal O Povo, Poder360, Brasil sem Medo e Gazeta do Povo. Atualmente, é repórter na Revista Oeste."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O ex-deputado Deltan Dallagnol (Novo) é candidato ao Senado pelo Paraná, com seu nome registrado na Justiça Eleitoral para as eleições de 4 de outubro de 2026, mas seu registro ainda não está garantido. O Tribunal Regional Eleitoral do Paraná (TRE-PR) aprovou sua candidatura, mas a Federação Brasil da Esperança e a coligação “Paraná para Todos” recorreram ao"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O ex-deputado federal Deltan Dallagnol (Novo) continua candidato ao Senado pelo Paraná. Seu nome consta no sistema da Justiça Eleitoral e aparecerá na urna no domingo 4. Isso, porém, não significa que seu registro de candidatura esteja garantido. Entenda a situação."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O Tribunal Regional Eleitoral do Paraná (TRE-PR) aprovou o registro por quatro votos a três. A Federação Brasil da Esperança (PT, PCdoB e PV) e a coligação “Paraná para Todos”, no entanto, recorreram ao Tribunal Superior Eleitoral (TSE) , que ainda não marcou uma data para julgar o caso."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Enquanto aguarda a decisão, Dallagnol está impedido pelo TSE de fazer atos de campanha. O TRE-PR também determinou que aliados não podem atuar para restabelecer, na prática, a campanha suspensa."
+          }
+        ]
+      }
+    },
+    {
+      "id": "a790f41258b25b5d",
+      "titulo": "Moraes autoriza entrada de barbeiro na casa de Bolsonaro",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/moraes-autoriza-entrada-de-barbeiro-na-casa-de-bolsonaro/",
+      "dataFonte": "2026-09-29T13:27:24.000Z",
+      "resumoFonte": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF) , autorizou a entrada de um barbeiro na casa do ex-presidente Jair Bolsonaro (PL). O magistrado tomou a decisão nesta segunda-feira, 28. A defesa de Bolsonaro apresentou o pedido na semana passada. Ele está em prisão domiciliar desde março. + Entenda o que é Política em Oeste O…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/04/Bolso.jpg.webp",
+      "descobertaEm": "2026-09-29T14:17:46.091Z",
+      "reportagem": {
+        "titulo": "Moraes autoriza entrada de barbeiro na casa de Bolsonaro",
+        "slug": "moraes-autoriza-entrada-de-barbeiro-na-casa-de-bolsonaro",
+        "categoria": "Justiça",
+        "data": "2026-09-29",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/04/Bolso.jpg.webp",
+        "resumo": "Profissional poderá atender o ex-presidente nesta quarta-feira, 30, às 14h, seguindo as regras de segurança da residência",
+        "conteudo": "<p>Letícia Alves nasceu em Fortaleza e se formou em jornalismo na Universidade Federal do Ceará. Atuou no jornal O Povo, Poder360, Brasil sem Medo e Gazeta do Povo. Atualmente, é repórter na Revista Oeste.</p><h2>Ministro Alexandre de Moraes, do STF, autorizou</h2><p>O ministro Alexandre de Moraes, do STF, autorizou a entrada de um barbeiro na casa do ex-presidente Jair Bolsonaro, que está em prisão domiciliar desde março, cumprindo pena de 27 anos e 3 meses por uma suposta trama golpista. A decisão foi tomada em 28 de setembro de 2026, após pedido da defesa de Bolsonaro na semana anterior. O barbeiro poderá entrar na residência no dia 30 de setembro, às 14h, desde que siga as regras de segurança estabelecidas para o local.</p><p>O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF) , autorizou a entrada de um barbeiro na casa do ex-presidente Jair Bolsonaro (PL). O magistrado tomou a decisão nesta segunda-feira, 28.</p><p>A defesa de Bolsonaro apresentou o pedido na semana passada. Ele está em prisão domiciliar desde março.</p><h2>Ex-presidente cumpre pena de 27 anos e 3</h2><p>O ex-presidente cumpre pena de 27 anos e 3 meses por uma suposta trama golpista. Ele esteve preso na Papudinha e depois foi internado no hospital DF Star , em Brasília, devido à gravidade de seu estado de saúde.</p><p>O profissional poderá entrar na residência nesta quarta-feira, 30, às 14h.</p><p>“A autorização ora concedida fica condicionada ao cumprimento das regras e dos procedimentos de segurança estabelecidos para o ingresso e a permanência de pessoas na residência, devendo o profissional submeter-se às orientações e determinações dos agentes responsáveis pela segurança do local”, escreveu Moraes.</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/moraes-autoriza-entrada-de-barbeiro-na-casa-de-bolsonaro/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Letícia Alves nasceu em Fortaleza e se formou em jornalismo na Universidade Federal do Ceará. Atuou no jornal O Povo, Poder360, Brasil sem Medo e Gazeta do Povo. Atualmente, é repórter na Revista Oeste."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O ministro Alexandre de Moraes, do STF, autorizou a entrada de um barbeiro na casa do ex-presidente Jair Bolsonaro, que está em prisão domiciliar desde março, cumprindo pena de 27 anos e 3 meses por uma suposta trama golpista. A decisão foi tomada em 28 de setembro de 2026, após pedido da defesa de Bolsonaro na semana anterior. O barbeiro poderá entrar na re"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF) , autorizou a entrada de um barbeiro na casa do ex-presidente Jair Bolsonaro (PL). O magistrado tomou a decisão nesta segunda-feira, 28."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A defesa de Bolsonaro apresentou o pedido na semana passada. Ele está em prisão domiciliar desde março."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O ex-presidente cumpre pena de 27 anos e 3 meses por uma suposta trama golpista. Ele esteve preso na Papudinha e depois foi internado no hospital DF Star , em Brasília, devido à gravidade de seu estado de saúde."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5bd148f4d3811927",
+      "titulo": "Gilmar Mendes cobra ação do STF e STJ para investigar precatórios ligados ao Banco Master",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "CBN - Política",
+      "urlFonte": "https://cbn.globo.com/politica/noticia/2026/09/29/gilmar-mendes-cobra-acao-do-stf-e-stj-para-investigar-precatorios-ligados-ao-banco-master.ghtml",
+      "dataFonte": "2026-09-29T13:56:33.417Z",
+      "resumoFonte": "Ministro afirma que as investigações sobre o banco revelaram um modelo de negócios baseado na utilização de créditos judiciais como lastro para operações financeiras.",
+      "imagem": "https://s2-cbn.glbimg.com/8twn1PUvRadL1-YOIGs62M6CzKc=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2025/8/5/BcB0thQh2cFLGGayspOg/175660676968b3b1314ec4b-1756606769-3x2-md.jpg",
+      "descobertaEm": "2026-09-29T14:17:46.091Z"
+    },
+    {
+      "id": "5b0f2abc6fefcb29",
+      "titulo": "Caso Master: Fachin defende transparência sobre precatórios em meio a apurações",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/noticia/2026/09/29/caso-master-fachin-defende-transparencia-sobre-precatorios-em-meio-a-apuracoes.ghtml",
+      "dataFonte": "2026-09-29T13:51:58.000Z",
+      "resumoFonte": "O presidente do Supremo Tribunal Federal (STF) e do Conselho Nacional de Justiça (CNJ), Edson Fachin, afirmou nesta terça-feira (29) sobre a necessidade de se conferir segurança transparência e rastreabilidade aos precatórios. 🔎Precatórios são dívidas que governos (União, estados e municípios) são obrigados a pagar após perderem uma ação na…",
+      "imagem": "https://s2-g1.glbimg.com/3egkkMick7uPktUHVbuhYEutRZI=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/k/t/Ye2YqNTLqKoYbZN8MZ7g/55530102134-a92e1cc182-k.jpg",
+      "descobertaEm": "2026-09-29T14:17:46.091Z"
+    },
+    {
+      "id": "b8abad0b03403bd2",
+      "titulo": "Análise: Disputa eleitoral assumiu controle do STF",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/analise-disputa-eleitoral-assumiu-controle-do-stf/",
+      "dataFonte": "2026-09-29T13:44:19.000Z",
+      "resumoFonte": "Analista de Política da CNN Clarissa Oliveira avalia, ao Live CNN, que decisões de ministros da Corte tornam contaminação eleitoral evidente",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/fachada-stf.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-29T14:17:46.091Z",
+      "reportagem": {
+        "titulo": "Análise: Disputa eleitoral assumiu controle do STF",
+        "slug": "analise-disputa-eleitoral-assumiu-controle-do-stf",
+        "categoria": "Justiça",
+        "data": "2026-09-29",
+        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/fachada-stf.jpg?w=1200&h=630&crop=1",
+        "resumo": "Analista de Política da CNN Clarissa Oliveira avalia, ao Live CNN, que decisões de ministros da Corte tornam contaminação eleitoral evidente",
+        "conteudo": "<p>A cinco dias do primeiro turno das eleições de 2026, marcado para o próximo domingo (4), o STF (Supremo Tribunal Federal) e o TSE (Tribunal Superior Eleitoral) vivem um momento de tensão interna . Ministros das duas cortes divergem sobre até onde o STF pode rever decisões da Justiça Eleitoral, e o embate tem extrapolado os bastidores institucionais.</p><h2>Para a analista de Política da CNN Clarissa</h2><p>Para a analista de Política da CNN Clarissa Oliveira, ao Live CNN , a disputa eleitoral assumiu o controle do Supremo . A analista destacou que o fenômeno não é pontual, mas resultado de uma tendência que vem se consolidando ao longo dos últimos meses.</p><p>Clarissa Oliveira aponta que episódios recentes, como a polêmica envolvendo Nossa Senhora Aparecida e a disseminação de notícias falsas, são sintomas de um movimento mais amplo.</p><p>Segundo ela, a forma como um ministro busca &quot;subterfúgios dentro das regras do próprio Supremo Tribunal Federal para desfazer a decisão de outro tem por único objetivo mobilizar eleitoralmente a Corte&quot;. As decisões dos ministros Flávio Dino e Luiz Fux sobre o tema , segundo a analista, tornam evidente essa contaminação eleitoral .</p><h2>Analista também citou o pedido feito pelo ministro</h2><p>A analista também citou o pedido feito pelo ministro Gilmar Mendes como mais um exemplo de como decisões aparentemente técnicas escondem motivações eleitorais. &quot;Ah, é precatório, está falando de precatório. Não, não está falando de precatório, está falando de eleição&quot;, disse Clarissa.</p><p>Ela mencionou ainda referências veladas à chamada &quot;turma do KN&quot;, a um contrato de R$ 427 milhões com a mulher de um desembargador com vínculos a Kassio Nunes Marques, e ao embate entre apoiadores de Alexandre de Moraes e André Mendonça.</p><p>De acordo com Clarissa, o que diferencia o atual momento de eleições anteriores é a exposição pública do conflito . Embora o STF sempre tenha tido uma composição de indicação política — com cada ministro nomeado por um presidente da República —, o jogo político costumava ficar restrito aos corredores da Corte.</p><p>&quot;A gente não viu isso tomar um patamar tão escancarado e tão estatelado dessa forma&quot;, afirmou a analista.</p><p>Para ela, o jogo político &quot;saiu totalmente dos corredores, dos bastidores do Supremo para se tornar a atuação principal da Corte&quot;. Clarissa concluiu que, ao analisar a maioria das grandes decisões do STF que repercutiram nas últimas semanas, é possível identificar, em todas elas, uma conexão direta com a corrida eleitoral.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/analise-disputa-eleitoral-assumiu-controle-do-stf/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A cinco dias do primeiro turno das eleições de 2026, marcado para o próximo domingo (4), o STF (Supremo Tribunal Federal) e o TSE (Tribunal Superior Eleitoral) vivem um momento de tensão interna . Ministros das duas cortes divergem sobre até onde o STF pode rever decisões da Justiça Eleitoral, e o embate tem extrapolado os bastidores institucionais."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Para a analista de Política da CNN Clarissa Oliveira, ao Live CNN , a disputa eleitoral assumiu o controle do Supremo . A analista destacou que o fenômeno não é pontual, mas resultado de uma tendência que vem se consolidando ao longo dos últimos meses."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Clarissa Oliveira aponta que episódios recentes, como a polêmica envolvendo Nossa Senhora Aparecida e a disseminação de notícias falsas, são sintomas de um movimento mais amplo."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Segundo ela, a forma como um ministro busca \"subterfúgios dentro das regras do próprio Supremo Tribunal Federal para desfazer a decisão de outro tem por único objetivo mobilizar eleitoralmente a Corte\". As decisões dos ministros Flávio Dino e Luiz Fux sobre o tema , segundo a analista, tornam evidente essa contaminação eleitoral ."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A analista também citou o pedido feito pelo ministro Gilmar Mendes como mais um exemplo de como decisões aparentemente técnicas escondem motivações eleitorais. \"Ah, é precatório, está falando de precatório. Não, não está falando de precatório, está falando de eleição\", disse Clarissa."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fdee638770c59e2a",
+      "titulo": "Fachin faz balanço à frente do CNJ: 'Instituições não se fortalecem para si mesmas; fortalecem-se para servir'",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/noticia/2026/09/29/fachin-faz-balanco-de-um-ano-a-frente-do-cnj-instituicoes-nao-se-fortalecem-para-si-mesmas-fortalecem-se-para-servir.ghtml",
+      "dataFonte": "2026-09-29T13:14:05.000Z",
+      "resumoFonte": "'Instituições não se fortalecem para si mesmas; fortalecem-se para servir', diz Fachin O presidente do Conselho Nacional de Justiça (CNJ), ministro Edson Fachin, fez nesta terça-feira (29) um balanço de seu primeiro ano à frente do órgão. Durante a sessão do conselho, Fachin apresentou resultados da gestão e as prioridades para 2026. \"As…",
+      "imagem": "https://s2-g1.glbimg.com/ChKvBe48PRGyEDn1Ja2UbXt0kZI=/2047x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/R/D/YZzw2wQGArVKiQJ3j5KA/55529050602-c84ab877b5-k.jpg",
+      "descobertaEm": "2026-09-29T14:17:46.091Z"
     },
     {
       "id": "14d10d5f6b1c1219",
@@ -1319,69 +1207,13 @@
           }
         ]
       }
-    },
-    {
-      "id": "daad5145ef96f3b9",
-      "titulo": "Gilmar cobra presidentes do STF e do STJ por ação conjunta em precatórios",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/politica/gilmar-cobra-presidentes-do-stf-e-do-stj-por-acao-conjunta-em-precatorios/",
-      "dataFonte": "2026-09-29T12:29:28.000Z",
-      "resumoFonte": "Ministro afirmou que as investigações do Banco Master revelaram um modelo de negócios \"parasitário\" e defendeu um pente-fino em tribunais federais para identificação de irregularidades",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/ministro-gilmar-mendes-plenario-stf.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-09-29T13:17:51.338Z",
-      "reportagem": {
-        "titulo": "Gilmar cobra presidentes do STF e do STJ por ação conjunta em precatórios",
-        "slug": "gilmar-cobra-presidentes-do-stf-e-do-stj-por-acao-conjunta-em-precatorios",
-        "categoria": "Justiça",
-        "data": "2026-09-29",
-        "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/ministro-gilmar-mendes-plenario-stf.jpg?w=1200&h=630&crop=1",
-        "resumo": "Ministro afirmou que as investigações do Banco Master revelaram um modelo de negócios \"parasitário\" e defendeu um pente-fino em tribunais federais para identificação de irregularidades",
-        "conteudo": "<p>O ministro Gilmar Mendes , do STF (Supremo Tribunal Federal), enviou ofícios aos presidentes do STJ (Superior Tribunal de Justiça), Luis Felipe Salomão , e da Suprema Corte, Edson Fachin , cobrando uma reação coordenada das instituições contra irregularidades na expedição de precatórios .</p><h2>No documento, Gilmar afirma que as investigações relativas</h2><p>No documento, Gilmar afirma que as investigações relativas ao Banco Master revelaram um modelo de negócios &quot;parasitário&quot;, no qual créditos judiciais contra a União eram adquiridos com grande desconto, contabilizados por valores muito superiores e usados como lastro para captar recursos no mercado, drenando os recursos públicos.</p><p>O ministro citou como exemplo os precatórios do setor sucroalcooleiro. As ações envolvem indenizações a usinas por preços fixados pelo extinto IAA (Instituto do Açúcar e do Álcool) nas décadas de 1980 e 1990.</p><p>Gilmar afirma que parte dos processos foi baseada em estudos genéricos, sem a perícia individual que, segundo precedente do STF, seria necessária para comprovar o prejuízo de cada empresa. De acordo com o ministro, a Lei de Diretrizes Orçamentárias de 2026 estima em mais de R$ 100 bilhões o potencial impacto dessas ações.</p><h2>&quot;Preocupo-me, nesta missiva, especialmente com as medidas</h2><p>&quot;Preocupo-me, nesta missiva, especialmente com as medidas que podem ser tomadas no âmbito do Judiciário para enfrentar essas questões e evitar que esse tipo de irregularidade volte a ocorrer&quot;, afirmou Gilmar.</p><p>Para o ministro, a Corregedoria Nacional de Justiça deve fazer uma correição etraordinária em todos os Tribunais Regionais Federais , com atenção especial ao TRF-1, para identificar precatórios com possíveis irregularidades.</p><p>Ele também defendeu o fim da expedição de precatórios antes do trânsito em julgado e pediu maior fiscalização do Banco Central e da CVM (Comissão de Valores Mobiliários) sobre a comercialização desses créditos. Segundo ele, eventuais envolvimentos de magistrados e advogados também devem ser alvo de investigações criminais.</p><p>&quot;O MPF, a OAB e o Conselho da Justiça Federal também poderiam ser convocados a agir, cada um em sua esfera, em nome da legalidade e da probidade. Impõe-se uma resposta coordenada das instituições, à altura da gravidade dos fatos revelados&quot;, disse.</p><p>O tema sobre a fiscalização dos precatórios ganhou destaque após mensagens extraídas pela Polícia Federal do celular de Daniel Vorcaro, dono do Banco Master. Nas conversas, a advogada Camilla Ramos, mulher do desembargador do TRF-1 Newton Ramos, comemora um voto do ministro Kassio Nunes Marques em uma ação relacionada ao setor sucroalcooleiro .</p><p>O escritório de Camilla havia negociado um contrato de até R$ 427 milhões com o Banco Master para atuar em 12 ações do setor, com honorários condicionados a resultados favoráveis que poderiam liberar R$ 8,5 bilhões em precatórios. Nas mensagens, Newton e Camilla são identificados como integrantes da chamada “Turma do KN”, expressão associada ao ministro Kassio Nunes Marques.</p><p>Em nota, o ministro afirmou que nunca votou a favor de Vorcaro ou do Master e sustentou que o processo julgado por ele tratava de uma tese jurídica ampla, aplicável a diferentes empresas, sem relação direta com as ações defendidas pela advogada.</p><p>Na quinta-feira (24), Gilmar determinou que um processo sobre indenizações a usinas de açúcar e álcool fosse levado ao plenário do STF . O caso envolve a União e a Raízen Energia e discute justamente a necessidade de perícia individual para comprovar os prejuízos das usinas. A decisão apontou um risco fiscal de R$ 103,4 bilhões para a União.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/politica/gilmar-cobra-presidentes-do-stf-e-do-stj-por-acao-conjunta-em-precatorios/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O ministro Gilmar Mendes , do STF (Supremo Tribunal Federal), enviou ofícios aos presidentes do STJ (Superior Tribunal de Justiça), Luis Felipe Salomão , e da Suprema Corte, Edson Fachin , cobrando uma reação coordenada das instituições contra irregularidades na expedição de precatórios ."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "No documento, Gilmar afirma que as investigações relativas ao Banco Master revelaram um modelo de negócios \"parasitário\", no qual créditos judiciais contra a União eram adquiridos com grande desconto, contabilizados por valores muito superiores e usados como lastro para captar recursos no mercado, drenando os recursos públicos."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O ministro citou como exemplo os precatórios do setor sucroalcooleiro. As ações envolvem indenizações a usinas por preços fixados pelo extinto IAA (Instituto do Açúcar e do Álcool) nas décadas de 1980 e 1990."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Gilmar afirma que parte dos processos foi baseada em estudos genéricos, sem a perícia individual que, segundo precedente do STF, seria necessária para comprovar o prejuízo de cada empresa. De acordo com o ministro, a Lei de Diretrizes Orçamentárias de 2026 estima em mais de R$ 100 bilhões o potencial impacto dessas ações."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "\"Preocupo-me, nesta missiva, especialmente com as medidas que podem ser tomadas no âmbito do Judiciário para enfrentar essas questões e evitar que esse tipo de irregularidade volte a ocorrer\", afirmou Gilmar."
-          }
-        ]
-      }
     }
   ],
-  "reapuradoEm": "2026-09-29T14:21:22.605Z",
+  "reapuradoEm": "2026-09-29T14:48:00.004Z",
   "diagnosticoReapuracao": {
-    "produzidas": 14,
+    "produzidas": 12,
     "jaProntas": 0,
-    "incompletas": 19,
+    "incompletas": 18,
     "falhas": 0
   }
 }
