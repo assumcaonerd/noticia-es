@@ -15,6 +15,7 @@ on:
       - 'scripts/publicar-chatgpt-horario.mjs'
       - 'scripts/corrigir-publicacao-chatgpt.mjs'
       - 'scripts/garantir-padrao-publicacao.mjs'
+      - 'scripts/consertar-cabecalho-noticias.mjs'
       - 'scripts/validar-cards-sociais.mjs'
       - '.github/workflows/gerar-paginas-og.yml'
       - '.github/workflows/publicar-proseg-temp.yml'
@@ -120,6 +121,8 @@ jobs:
               p.write_text(s, encoding='utf-8')
           PY
 
+      - name: Consertar cabeçalho de noticias.js
+        run: node scripts/consertar-cabecalho-noticias.mjs
       - name: Validar padrão editorial antes de gerar páginas
         run: node scripts/garantir-padrao-publicacao.mjs
       - name: Gerar m/{slug}.html
@@ -138,12 +141,12 @@ jobs:
           set -euo pipefail
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add m imagens/lapis sitemap.xml sitemap-news.xml rss.xml llms.txt assets/og editorial-37.js editorial-39.js editorial-41.js editorial-42.js scripts/validar-cards-sociais.mjs
+          git add m imagens/lapis sitemap.xml sitemap-news.xml rss.xml llms.txt assets/og editorial-37.js editorial-39.js editorial-41.js editorial-42.js scripts/validar-cards-sociais.mjs noticias.js
           if git diff --cached --quiet; then
             echo "Nenhuma página estática nova."
             exit 0
           fi
-          git commit -m "seo: hospeda capas OG e atualiza páginas"
+          git commit -m "seo: hospeda capas OG, conserta noticias.js e atualiza páginas"
           git pull --rebase -X theirs origin main
           git push origin main
 
