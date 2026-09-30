@@ -3,7 +3,10 @@
   ==================================================
   Este arquivo recebe notícias manuais e automáticas.
   O motor automático roda pelo GitHub Actions e insere novas matérias no topo.
-  Para publicação manual, use publicar.html e cole o objeto logo após "const noticias = [
+  Para publicação manual, use publicar.html e cole o objeto no início do array de notícias.
+*/
+
+const noticias = [
   {
     id: 29092026194500,
     slug: "fala-lula-toque-desde-pequenas-reacao-contexto",
@@ -24,7 +27,8 @@
       { pergunta: "O que Lula disse em Belém?", resposta: "Ao defender a prevenção do câncer de próstata, Lula afirmou que homens resistem ao exame de toque e disse que mulheres aprendem a 'tomar toque' desde pequenas." },
       { pergunta: "Em que contexto a frase foi dita?", resposta: "A declaração ocorreu durante um comício em Belém, enquanto Lula falava sobre prevenção, câncer de próstata e cirurgia robótica." },
       { pergunta: "Como a campanha de Lula explicou a declaração?", resposta: "A campanha afirmou que o presidente se referia a exames ginecológicos preventivos e acusou adversários de retirar a frase de contexto." },
-      { pergunta: "O que dizem as diretrizes de rastreamento do colo do útero?", resposta: "As diretrizes nacionais recomendam o rastreamento organizado, em regra, a partir dos 25 anos para mulheres que já tiveram atividade sexual." }
+      { pergunta: "O que dizem as diretrizes de rastreamento do colo do útero?", resposta: "As diretrizes nacionais recomendam o rastreamento organizado, em regra, a partir dos 25 anos para mulheres que já tiveram atividade sexual." },
+      { pergunta: "Como a opinião deve tratar a frase?", resposta: "É legítimo criticar a formulação. Acusações de crime exigem prova que a fala, por si só, não apresenta." }
     ],
     conteudo: `<h2>A frase que provocou reação</h2>
 <p>O presidente Luiz Inácio Lula da Silva afirmou, durante comício em Belém, no Pará, na segunda-feira, 28 de setembro, que “as mulheres aprendem a tomar toque desde pequenas” ao comparar a resistência de homens ao exame de próstata com os cuidados de saúde das mulheres. A declaração foi registrada em vídeo e passou a circular nas redes sociais.</p>
@@ -44,10 +48,7 @@
     editorial: true,
     redacaoPropria: true,
     origemTexto: "redacao-noticia-es"
-  },".
-*/
-
-const noticias = [
+  },
   {
     id: 23092026083500,
     slug: "pazolini-omite-magno-maguinha-eliane-leal-discurso-romualdo",
