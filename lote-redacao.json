@@ -1,16 +1,16 @@
 {
-  "geradoEm": "2026-09-30T13:48:14.783Z",
+  "geradoEm": "2026-09-30T14:52:10.057Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
-    "totalPendentes": 65,
+    "totalPendentes": 66,
     "bloqueadas": 0,
     "bloqueadasEditoriais": 6,
     "semImagem": 0,
-    "duplicadasBasicas": 1,
+    "duplicadasBasicas": 4,
     "duplicadasSemanticas": 0,
-    "foraCategorias": 31
+    "foraCategorias": 32
   },
-  "quantidadeCandidatas": 27,
+  "quantidadeCandidatas": 24,
   "candidatas": [
     {
       "id": "fdfa759dbcc4d6e0",
@@ -25,86 +25,110 @@
       "descobertaEm": "2026-09-30T13:17:57.335Z"
     },
     {
-      "id": "f3372b6cf1d3152b",
-      "titulo": "Lula e Flávio Bolsonaro seguem empatados no 1º e no 2º turno, diz Meio/Ideia",
+      "id": "4a9bb8acf32ac873",
+      "titulo": "Homem é preso por importunação sexual em Cachoeiro",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/homem-e-preso-por-importunacao-sexual-em-cachoeiro-0926",
+      "dataFonte": "2026-09-30T13:27:35.000Z",
+      "resumoFonte": "Caso aconteceu em um ponto de ônibus no Centro de Cachoeiro; segundo a GCM, suspeito tentou fugir de bicicleta após a revolta de populares que presenciaram a situação",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1775079204581_2020_04_12_cachoeiro_de_itapemirim_es_vista_noturna_do_rio_itapemirim_226634_article.jpg",
+      "descobertaEm": "2026-09-30T13:49:26.159Z"
+    },
+    {
+      "id": "3946e223ceba2063",
+      "titulo": "Real Time Senado RJ: Jordy tem 18%; Benedita, 15%; Portinho, 14%",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/lula-e-flavio-bolsonaro-seguem-empatados-no-1o-e-no-2o-turno-diz-meioideia.shtml",
-      "dataFonte": "2026-09-30T10:00:00.000Z",
-      "resumoFonte": "O presidente Lula (PT) e o senador Flávio Bolsonaro ( PL ) continuam tecnicamente empatados nas simulações de primeiro e segundo turno da eleição presidencial, mostra nova rodada da pesquisa Meio/Ideia. Leia mais (09/30/2026 - 07h00)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/06/15/17815210026a2fda6ab514c_1781521002_3x2_xl.jpg",
-      "descobertaEm": "2026-09-30T10:17:49.130Z"
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/real-time-senado-rj-jordy-tem-18-benedita-15-portinho-14/",
+      "dataFonte": "2026-09-30T13:18:14.000Z",
+      "resumoFonte": "Pesquisa ouviu 2.000 eleitores no Rio de Janeiro, entre os dias 25 e 29 de setembro; margem de erro é de dois pontos percentuais, para mais ou para menos",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/JORDY-BENETIDA-PORTINHO.png?w=900&h=506&crop=1",
+      "descobertaEm": "2026-09-30T13:49:26.159Z"
     },
     {
-      "id": "c2294e8127129cee",
-      "titulo": "Segurança e saúde dominam urgências entre eleitores de Lula, aponta BTG/Nexus",
+      "id": "2a3ff1856a3adf13",
+      "titulo": "Governo altera portaria para viabilizar importação de energia do Paraguai",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/brasil/seguranca-e-saude-dominam-urgencias-entre-eleitores-de-lula-aponta-btg-nexus/",
-      "dataFonte": "2026-09-30T13:01:43.000Z",
-      "resumoFonte": "Dados também apontam uma preocupação acentuada com os serviços de assistência e com a economia primária",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/M0A0234.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-30T13:17:57.335Z"
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/infra/governo-altera-portaria-para-viabilizar-importacao-de-energia-do-paraguai/",
+      "dataFonte": "2026-09-30T13:51:46.000Z",
+      "resumoFonte": "Norma detalha encargos de conexão e tarifas do uso da transmissão para importar energia ao mercado livre brasileiro, incluindo a infraestrutura de Itaipu",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportAgribusinessNews/tagreuters.com2025binary_LYNXMPEL840Q3-BASEIMAGE.jpg?w=800&h=508&crop=1",
+      "descobertaEm": "2026-09-30T14:17:48.358Z"
     },
     {
-      "id": "cf95c86b451c8747",
-      "titulo": "O voto útil já começou — e ele beneficia quem lidera em cada estado",
-      "categoria": "Cultura",
+      "id": "b9e51ac610cae4da",
+      "titulo": "Flávio e Michelle se aproximaram de bispo que defendeu retirar título de padroeira de Nossa Senhora",
+      "categoria": "Fé e Sociedade",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/30/voto-util-analise-quaest.ghtml",
-      "dataFonte": "2026-09-30T11:46:50.000Z",
-      "resumoFonte": "Urnas eletrônicas em Alagoas prontas para eleições 2026 - 20.09.2026 Luiz Roberto/TSE Em 1997, o cientista político Gary Cox publicou \"Making Votes Count\", o livro que se tornou a referência sobre como as regras eleitorais moldam o comportamento do eleitor. A ideia central é simples: o voto útil não é um ato de traição às convicções, mas um…",
-      "imagem": "https://s2-g1.glbimg.com/i98y7GoSc9lYq9QLQxHovQ56r78=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/7/Kgm2BuSOmGUMdGI9AC8w/55540794112-e0aca16375-k.jpg",
-      "descobertaEm": "2026-09-30T13:17:57.335Z",
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/flavio-e-michelle-se-aproximaram-de-bispo-que-defendeu-retirar-titulo-de-padroeira-de-aparecida.shtml",
+      "dataFonte": "2026-09-30T13:20:00.000Z",
+      "resumoFonte": "O candidato à Presidência Flávio Bolsonaro (PL) , seu pai, Jair Bolsonaro, e Michelle Bolsonaro, candidata ao Senado, mantêm relação próxima com a Comunidade das Nações, igreja fundada pelo bispo JB Carvalho. Apoiador do ex-presidente nas eleições de 2022, o religioso defendeu em livro que Nossa Senhora Aparecida deixasse de ser reconhecida como…",
+      "imagem": "https://f.i.uol.com.br/fotografia/2025/11/25/17640754266925a7a2871aa_1764075426_3x2_xl.jpg",
+      "descobertaEm": "2026-09-30T13:49:26.159Z",
       "reportagem": {
-        "titulo": "Voto útil já começou — e beneficia quem lidera em cada estado | G1",
-        "slug": "voto-util-ja-comecou-e-beneficia-quem-lidera-em-cada-estado-g1",
-        "categoria": "Cultura",
+        "titulo": "Flávio e Michelle se aproximaram de bispo que defendeu retirar título de padroeira de Nossa Senhora",
+        "slug": "flavio-e-michelle-se-aproximaram-de-bispo-que-defendeu-retirar-titulo-de-padroeira-de-noss",
+        "categoria": "Fé e Sociedade",
         "data": "2026-09-30",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/voto-util-ja-comecou-e-beneficia-quem-lidera-em-cada-estado-g1.jpg",
-        "resumo": "O voto útil já começou a desidratar a terceira via e fortalecer Lula e Flávio Bolsonaro nos estados, segundo análise de dados da pesquisa Quaest.",
-        "conteudo": "<p>Em 1997, o cientista político Gary Cox publicou &quot;Making Votes Count&quot;, o livro que se tornou a referência sobre como as regras eleitorais moldam o comportamento do eleitor. A ideia central é simples: o voto útil não é um ato de traição às convicções, mas um cálculo. O eleitor abandona o candidato de sua preferência quando percebe que ele não tem chance de vencer e que insistir nele pode facilitar a vitória justamente daquele que mais rejeita.</p><h2>Para esse cálculo acontecer, Cox mostra que três condições</h2><p>Para esse cálculo acontecer, Cox mostra que três condições precisam estar presentes: o eleitor se importa com o resultado (não vota apenas para expressar uma identidade), sabe quem é viável e quem não é, e essa informação é compartilhada por todos — o que, nas democracias modernas, é o papel das pesquisas. Quando os três ingredientes se combinam, a disputa converge para os dois nomes com chances reais, e os demais encolhem. Cox chama isso de &quot;deserção estratégica&quot;.</p><p>As últimas três rodadas da Quaest em São Paulo, Minas Gerais, Rio de Janeiro, Pernambuco e Distrito Federal mostram esse mecanismo em funcionamento.</p><p>Somei, em cada estado, as intenções de voto de Augusto Cury (Avante), Ronaldo Caiado (PSD), Romeu Zema (Novo) e Renan Santos (Missão) — os quatro nomes que disputam o espaço fora da polarização — e comparei com a evolução da vantagem de quem lidera o primeiro turno nas três últimas rodadas (8, 23 e 29 de setembro).</p><h2>Padrão é consistente: a terceira via murcha e</h2><p>O padrão é consistente: a terceira via murcha e o voto migra para o candidato que já estava na frente naquele território.</p><p>Quaest para Globo, rodadas de 8, 23 e 29 de setembro de 2026, PE, MG, RJ, SP e DF — Foto: Reprodução</p><p>Em quatro dos cinco estados, a queda da terceira via se converte em vantagem maior para quem já liderava; em Minas, os dois crescem igualmente e a dianteira do presidente Lula (PT) fica em 4 pontos.</p><p>Em Pernambuco, o bloco de candidatos fora da polarização foi de 10% em 8 de setembro para 6% agora. No mesmo período, Lula subiu de 51% para 58%, enquanto Flávio Bolsonaro (PL) oscilou de 21% para 20%. A vantagem do presidente, que era de 30 pontos, foi a 38. O eleitor pernambucano que experimentou Cury em setembro voltou para seu voto de origem.</p><p>No Rio de Janeiro, o movimento é o espelho. A terceira via foi de 12% para 8%; Flávio Bolsonaro saiu de 34% para 38% e Lula oscilou de 32% para 31%. A vantagem do senador, que era de 2 pontos, chegou a 7. Em São Paulo, o bloco foi de 15% para 13%, Flávio subiu cinco pontos (de 31% para 36%) e Lula ficou onde estava, em 30%. A dianteira bolsonarista passou de 1 para 6 pontos.</p>",
-        "fonteNome": "g1 - Política",
-        "fonteUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/30/voto-util-analise-quaest.ghtml",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/flavio-e-michelle-se-aproximaram-de-bispo-que-defendeu-retirar-titulo-de-padroeira-de-noss.jpg",
+        "resumo": "Presidenciável foi batizado na igreja de JB Carvalho e já levou ao pai, na prisão, livro do fundador",
+        "conteudo": "<p>O candidato à Presidência Flávio Bolsonaro (PL) , seu pai, Jair Bolsonaro, e Michelle Bolsonaro, candidata ao Senado, mantêm relação próxima com a Comunidade das Nações, igreja fundada pelo bispo JB Carvalho. Apoiador do ex-presidente nas eleições de 2022, o religioso defendeu em livro que Nossa Senhora Aparecida deixasse de ser reconhecida como padroeira do Brasil.</p><h2>JB Carvalho é teólogo, escritor, conferencista e bispo</h2><p>JB Carvalho é teólogo, escritor, conferencista e bispo da Comunidade das Nações, igreja que fundou em Brasília e que se expandiu também para os Estados Unidos e Portugal. Sua biografia na página oficial da igreja afirma que o ministério tem mais de 50 unidades no Brasil, Estados Unidos e Portugal. Também preside a Editora Chara, a Faculdade das Nações, a Academia das Nações e o Instituto Filhos do Brasil. Segundo a mesma biografia, tem 32 anos de ministério e é autor de 23 livros.</p><p>Flávio e a mulher, Fernanda Bolsonaro, foram batizados na Comunidade das Nações, em Brasília, em janeiro de 2024. O senador postou uma foto do dia para marcar o que chamou de &quot;mais uma guinada pro lado certo na vida&quot;. Em dezembro do ano passado, dois dias depois de anunciar sua pré-candidatura ao Planalto, escolheu a igreja para a sua primeira aparição pública após o anúncio.</p><p>Em 25 de novembro de 2025, três dias depois da prisão de Jair Bolsonaro, a Folha noticiou que Flávio foi visitar o pai na Superintendência da Polícia Federal, em Brasília. Levava em mãos um dos livros de JB Carvalho, &quot;Metanoia — A Chave Está em Sua Mente&quot;.</p><h2>Obra trata da transformação da maneira de pensar sob</h2><p>A obra trata da transformação da maneira de pensar sob uma perspectiva cristã. Carvalho apresenta a &quot;metanoia&quot; como uma mudança de mentalidade e propõe a superação do que chama de racionalismo frio, vieses e determinismos. Não há, no material disponível sobre &quot;Metanoia&quot;, referência a Nossa Senhora Aparecida nem uma discussão específica sobre imagens católicas.</p><p>A crítica à devoção a Maria e ao reconhecimento de Aparecida como padroeira aparece em outro livro de Carvalho, &quot;A Bomba: A verdade pode ser explosiva&quot;, publicado em 2001.</p><p>No capítulo &quot;A Rainha dos Céus no Brasil&quot;, Carvalho associa a devoção católica a Maria ao culto à chamada &quot;Rainha dos Céus&quot;, condenado em passagens do Antigo Testamento. O bispo escreveu que &quot;Deus odeia o culto à Rainha dos Céus&quot;, questionou a legalidade do feriado de 12 de outubro e defendeu que Nossa Senhora Aparecida deixasse de ser reconhecida como padroeira nacional. Também convocou cristãos e parlamentares a se mobilizarem pela mudança.</p><p>A Igreja Católica distingue a veneração a Maria de adoração, ato que reserva exclusivamente a Deus.</p><p>Michelle Bolsonaro também frequenta a Comunidade das Nações e é próxima de Dirce Carvalho, mulher do bispo. Em 2022, durante a campanha à reeleição de Jair Bolsonaro, Michelle participou de eventos da igreja, onde foi ungida pelo próprio bispo JB Carvalho . Na noite da derrota de Bolsonaro para Lula, Carvalho, apoiador do então presidente, pregou para os fiéis da Comunidade das Nações e afirmou que &quot;nada está perdido&quot;.</p><p>Jair Bolsonaro também participou, quando presidente, de evento promovido pela igreja de Carvalho. Em julho de 2022, ele e Michelle estiveram na Conferência Hombridade, a Jornada da Masculinidade, organizada pela Comunidade das Nações.</p><p>Michelle também visitou o marido levando obras de Carvalho. Segundo publicou o site Metrópoles, foram ao menos dois livros. Em 9 de dezembro de 2025, levou &quot;A Batalha de Todas as Gerações — Um Chamado à Reconciliação&quot;, sobre guerra espiritual, reconciliação e o combate ao que Carvalho chama de &quot;exército de Amaleque&quot; — referência bíblica aos amalequitas, povo apresentado no Antigo Testamento como inimigo de Israel.</p><p>Em 6 de janeiro de 2026, Michelle chegou à Polícia Federal com &quot;A Jornada — De Meninos a Homens&quot;, livro em que o bispo aborda a formação masculina sob uma perspectiva cristã e critica o que chama de desconstrução da masculinidade e &quot;agenda progressista&quot;.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/flavio-e-michelle-se-aproximaram-de-bispo-que-defendeu-retirar-titulo-de-padroeira-de-aparecida.shtml",
         "fontesAdicionais": [
           {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
+            "nome": "Igreja Cristã Maranata",
+            "url": "https://www.igrejacristamaranata.org.br/"
           },
           {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
+            "nome": "Convenção Batista do ES",
+            "url": "https://www.batistas.es/"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Em 1997, o cientista político Gary Cox publicou \"Making Votes Count\", o livro que se tornou a referência sobre como as regras eleitorais moldam o comportamento do eleitor. A ideia central é simples: o voto útil não é um ato de traição às convicções, mas um cálculo. O eleitor abandona o candidato de sua preferência quando percebe que ele não tem chance de ven"
+            "resposta": "O candidato à Presidência Flávio Bolsonaro (PL) , seu pai, Jair Bolsonaro, e Michelle Bolsonaro, candidata ao Senado, mantêm relação próxima com a Comunidade das Nações, igreja fundada pelo bispo JB Carvalho. Apoiador do ex-presidente nas eleições de 2022, o religioso defendeu em livro que Nossa Senhora Aparecida deixasse de ser reconhecida como padroeira do"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Para esse cálculo acontecer, Cox mostra que três condições precisam estar presentes: o eleitor se importa com o resultado (não vota apenas para expressar uma identidade), sabe quem é viável e quem não é, e essa informação é compartilhada por todos — o que, nas democracias modernas, é o papel das pesquisas. Quando os três ingredientes se combinam, a disputa c"
+            "resposta": "JB Carvalho é teólogo, escritor, conferencista e bispo da Comunidade das Nações, igreja que fundou em Brasília e que se expandiu também para os Estados Unidos e Portugal. Sua biografia na página oficial da igreja afirma que o ministério tem mais de 50 unidades no Brasil, Estados Unidos e Portugal. Também preside a Editora Chara, a Faculdade das Nações, a Aca"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "As últimas três rodadas da Quaest em São Paulo, Minas Gerais, Rio de Janeiro, Pernambuco e Distrito Federal mostram esse mecanismo em funcionamento. Somei, em cada estado, as intenções de voto de Augusto Cury (Avante), Ronaldo Caiado (PSD), Romeu Zema (Novo) e Renan Santos (Missão) — os quatro nomes que disputam o espaço fora da polarização — e comparei com "
+            "resposta": "Flávio e a mulher, Fernanda Bolsonaro, foram batizados na Comunidade das Nações, em Brasília, em janeiro de 2024. O senador postou uma foto do dia para marcar o que chamou de \"mais uma guinada pro lado certo na vida\". Em dezembro do ano passado, dois dias depois de anunciar sua pré-candidatura ao Planalto, escolheu a igreja para a sua primeira aparição públi"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Quaest para Globo, rodadas de 8, 23 e 29 de setembro de 2026, PE, MG, RJ, SP e DF — Foto: Reprodução"
+            "resposta": "Em 25 de novembro de 2025, três dias depois da prisão de Jair Bolsonaro, a Folha noticiou que Flávio foi visitar o pai na Superintendência da Polícia Federal, em Brasília. Levava em mãos um dos livros de JB Carvalho, \"Metanoia — A Chave Está em Sua Mente\"."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Em quatro dos cinco estados, a queda da terceira via se converte em vantagem maior para quem já liderava; em Minas, os dois crescem igualmente e a dianteira do presidente Lula (PT) fica em 4 pontos."
+            "resposta": "A obra trata da transformação da maneira de pensar sob uma perspectiva cristã. Carvalho apresenta a \"metanoia\" como uma mudança de mentalidade e propõe a superação do que chama de racionalismo frio, vieses e determinismos. Não há, no material disponível sobre \"Metanoia\", referência a Nossa Senhora Aparecida nem uma discussão específica sobre imagens católica"
           }
         ],
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
+    },
+    {
+      "id": "f56d25c90de6abd4",
+      "titulo": "Açougueiro é baleado ao chegar para trabalhar na Serra",
+      "categoria": "Cidades",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/agora/acougueiro-e-baleado-ao-chegar-para-trabalhar-na-serra-0926",
+      "dataFonte": "2026-09-30T14:06:08.000Z",
+      "resumoFonte": "Homem de 36 anos foi atingido por disparos na manhã desta quarta-feira (30), em Jardim Carapina, e levado em estado grave para o Hospital Jayme Santos Neves",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790776475789_whatsapp_image_2026_09_30_at_08.jpeg",
+      "descobertaEm": "2026-09-30T14:17:48.358Z"
     },
     {
       "id": "9ae09ff3cb59376c",
@@ -119,62 +143,28 @@
       "descobertaEm": "2026-09-30T13:17:57.335Z"
     },
     {
-      "id": "4066e6b927ef4bc4",
-      "titulo": "Mendonça recua e libera post de Erika Hilton sobre Flávio Bolsonaro",
+      "id": "8a08d36758880313",
+      "titulo": "TSE vai limitar decisão de André Mendonça ao que é de fato fake news contra Flávio Bolsonaro",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/mendonca-recua-e-libera-post-de-erika-hilton-sobre-flavio-bolsonaro/",
-      "dataFonte": "2026-09-30T12:35:20.000Z",
-      "resumoFonte": "O ministro André Mendonça, do Tribunal Superior Eleitoral (TSE), voltou atrás em uma decisão e permitiu, na terça-feira 29, que a deputada Erika Hilton (Psol-SP) restabeleça uma publicação sobre o candidato à Presidência Flávio Bolsonaro (PL-RJ) e um antigo projeto que pretendia retirar de Nossa Senhora Aparecida o título de Padroeira do Brasil. A…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/03/img20260311155507610MED.jpg.webp",
-      "descobertaEm": "2026-09-30T13:17:57.335Z",
-      "reportagem": {
-        "titulo": "Mendonça recua e libera post de Erika Hilton sobre Flávio Bolsonaro",
-        "slug": "mendonca-recua-e-libera-post-de-erika-hilton-sobre-flavio-bolsonaro",
-        "categoria": "Justiça",
-        "data": "2026-09-30",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mendonca-recua-e-libera-post-de-erika-hilton-sobre-flavio-bolsonaro.jpg",
-        "resumo": "Ministro entendeu que publicação não afirma que candidato apoia projeto para retirar de Nossa Senhora Aparecida o título de Padroeira do Brasil",
-        "conteudo": "<p>Natural de Vitória (ES), formou-se em jornalismo em 2023 e iniciou a carreira no portal independente A Investigação. Atualmente, é pós-graduanda em literatura, artes e filosofia pela Pontifícia Universidade Católica do Rio Grande do Sul e repórter da Revista Oeste em São Paulo, onde escreve sobre Brasil, política e internacional.</p><h2>Ministro André Mendonça, do TSE, permitiu que a deputada</h2><p>O ministro André Mendonça, do TSE, permitiu que a deputada Erika Hilton (Psol-SP) restabelecesse uma publicação sobre Flávio Bolsonaro (PL-RJ) e um projeto de 2007 que visava retirar o título de Padroeira do Brasil de Nossa Senhora Aparecida. Hilton relacionou o tema ao atual cenário eleitoral, alertando sobre possíveis retornos ao debate. Mendonça, ao rever sua decisão, afirmou que a postagem não implica que Flávio pretende retomar a proposta, mas manteve a exclusão de publicações com fake news sobre ele.</p><p>O ministro André Mendonça, do Tribunal Superior Eleitoral (TSE), voltou atrás em uma decisão e permitiu, na terça-feira 29, que a deputada Erika Hilton (Psol-SP) restabeleça uma publicação sobre o candidato à Presidência Flávio Bolsonaro (PL-RJ) e um antigo projeto que pretendia retirar de Nossa Senhora Aparecida o título de Padroeira do Brasil.</p><p>A proposta foi apresentada em 2007 pelo então deputado Victório Galli Filho e posteriormente arquivada. Na publicação, Erika relacionou o tema ao atual cenário eleitoral.</p><h2>“Apesar de a proposta ser de 2007 e já</h2><p>“Apesar de a proposta ser de 2007 e já ter sido arquivada, qualquer movimento que sugira que ela pode retornar ao debate público pelas mãos de Flávio Bolsonaro, que quer ser presidente do Brasil, ou pelas mãos de seus aliados políticos, precisa ser observado com cautela e atenção”, escreveu a deputada.</p><p>Repudio, com veemência, o Projeto de Lei que retira o título de Padroeira do Brasil de Nossa Senhora Aparecida, apresentado na Câmara por Victório Galli Filho, ex-assessor especial da Presidência da República de Jair Bolsonaro. Cresci em lar evangélico, não sou católica, defendo…</p><p>Ao rever a decisão, Mendonça entendeu que a postagem não apresenta como fato que Flávio pretenda retomar a proposta. Segundo o ministro, a referência ao candidato ocorre de forma condicional, como uma hipótese relacionada a uma eventual vitória nas eleições.</p><p>Com isso, Mendonça determinou que o X restabeleça a publicação ou se abstenha de bloqueá-la. O ministro, contudo, manteve a determinação para retirada de publicações que afirmem que Flávio ou integrantes de sua família propuseram, apoiaram ou pretendem promover o fim do título de Padroeira do Brasil concedido a Nossa Senhora Aparecida.</p><p>A decisão de Mendonça abriu uma nova frente de tensão dentro do STF. O episódio gerou decisões conflitantes e discussões internas, e Kassio chegou a pedir providências ao presidente da Corte, Edson Fachin.</p><p>O presidente do Tribunal Superior Eleitoral (TSE) , Kassio Nunes Marques, marcou para esta quarta-feira, 30, o julgamento que vai analisar a decisão do ministro do Supremo Tribunal Federal (STF) André Mendonça sobre publicações relacionadas ao senador e candidato à Presidência da República Flávio Bolsonaro (PL).</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/mendonca-recua-e-libera-post-de-erika-hilton-sobre-flavio-bolsonaro/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Natural de Vitória (ES), formou-se em jornalismo em 2023 e iniciou a carreira no portal independente A Investigação. Atualmente, é pós-graduanda em literatura, artes e filosofia pela Pontifícia Universidade Católica do Rio Grande do Sul e repórter da Revista Oeste em São Paulo, onde escreve sobre Brasil, política e internacional."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O ministro André Mendonça, do TSE, permitiu que a deputada Erika Hilton (Psol-SP) restabelecesse uma publicação sobre Flávio Bolsonaro (PL-RJ) e um projeto de 2007 que visava retirar o título de Padroeira do Brasil de Nossa Senhora Aparecida. Hilton relacionou o tema ao atual cenário eleitoral, alertando sobre possíveis retornos ao debate. Mendonça, ao rever"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O ministro André Mendonça, do Tribunal Superior Eleitoral (TSE), voltou atrás em uma decisão e permitiu, na terça-feira 29, que a deputada Erika Hilton (Psol-SP) restabeleça uma publicação sobre o candidato à Presidência Flávio Bolsonaro (PL-RJ) e um antigo projeto que pretendia retirar de Nossa Senhora Aparecida o título de Padroeira do Brasil."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A proposta foi apresentada em 2007 pelo então deputado Victório Galli Filho e posteriormente arquivada. Na publicação, Erika relacionou o tema ao atual cenário eleitoral."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "“Apesar de a proposta ser de 2007 e já ter sido arquivada, qualquer movimento que sugira que ela pode retornar ao debate público pelas mãos de Flávio Bolsonaro, que quer ser presidente do Brasil, ou pelas mãos de seus aliados políticos, precisa ser observado com cautela e atenção”, escreveu a deputada."
-          }
-        ],
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/blog/valdo-cruz/post/2026/09/30/tse-vai-limitar-decisao-de-andre-mendonca-ao-que-e-de-fato-fake-news-contra-flavio-bolsonaro.ghtml",
+      "dataFonte": "2026-09-30T13:37:10.000Z",
+      "resumoFonte": "O Tribunal Superior Eleitoral (TSE) deve limitar o alcance da decisão do ministro André Mendonça às publicações que associam falsamente o candidato à Presidência Flávio Bolsonaro (PL) a uma iniciativa para retirar de Nossa Senhora Aparecida o título de padroeira do Brasil. Segundo apurou o blog, vários ministros devem apresentar votos para…",
+      "imagem": "https://s2-g1.glbimg.com/IvqWWBc7zoUJumCgUzbcnNZVd60=/2047x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/0/i/NbOJP2QySdi1wc9oY4Ig/55530621830-f769a54c90-k.jpg",
+      "descobertaEm": "2026-09-30T13:49:26.159Z"
+    },
+    {
+      "id": "2aa7f37777ed29d3",
+      "titulo": "Pesquisa Real Time Big Data mostra como está disputa pelo governo em Rondônia",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/politica/pesquisa-real-time-big-data-mostra-como-esta-disputa-pelo-governo-em-rondonia/",
+      "dataFonte": "2026-09-30T13:20:16.000Z",
+      "resumoFonte": "Levantamento divulgado nesta quarta-feira, 30, mostra senador com chances de vitória no segundo turno",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/Design-sem-nome-2026-09-30T101527.332.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-09-30T13:49:26.159Z"
     },
     {
       "id": "8da67bd7df44c36e",
@@ -187,6 +177,18 @@
       "resumoFonte": "Encontro é transmitido ao vivo na rádio CBN e nas redes sociais e no site do jornal O GLOBO",
       "imagem": "https://s2-oglobo.glbimg.com/Nk1S64JKmunt_Du8FIsMGcy0LZc=/715x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/W/N/JeTdedSRSVweMYwmtPGg/senado2.png",
       "descobertaEm": "2026-09-30T13:20:17.381Z"
+    },
+    {
+      "id": "c2294e8127129cee",
+      "titulo": "Segurança e saúde dominam urgências entre eleitores de Lula, aponta BTG/Nexus",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/brasil/seguranca-e-saude-dominam-urgencias-entre-eleitores-de-lula-aponta-btg-nexus/",
+      "dataFonte": "2026-09-30T13:01:43.000Z",
+      "resumoFonte": "Dados também apontam uma preocupação acentuada com os serviços de assistência e com a economia primária",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/M0A0234.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-09-30T13:17:57.335Z"
     },
     {
       "id": "5edd1c3690ed555f",
@@ -271,132 +273,16 @@
       }
     },
     {
-      "id": "ca06298523753b8a",
-      "titulo": "Vanessa assume a presidência do hospital: confira resumo de Por Você nesta quarta-feira, 30/09",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/cultura/vanessa-assume-a-presidencia-do-hospital-confira-resumo-de-por-voce-nesta-quarta-feira-30-09/",
-      "dataFonte": "2026-09-30T09:00:48.000Z",
-      "resumoFonte": "Resumo da novela das 7 da Globo, escrita por Dino Cantelli e Juliana Peres",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/Captura-de-tela-2026-09-07-213448.png?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-30T09:17:47.839Z"
-    },
-    {
-      "id": "e7a4b0521a4d1b2b",
-      "titulo": "CBF toma decisão sobre sequência de Raphinha na seleção brasileira após gol de pênalti do atacante em amistoso",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/esporte/cbf-toma-decisao-sobre-sequencia-de-raphinha-na-selecao-brasileira-apos-gol-de-penalti-do-atacante-em-amistoso/",
-      "dataFonte": "2026-09-30T10:15:54.000Z",
-      "resumoFonte": "Atacante vive bom momento no Barcelona, mas não vai disputar o duelo contra a Índia, no próximo sábado",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/29SET2026-AUSTRALUA-X-BRASIL-98-RAPHINHA.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-30T10:17:49.130Z",
-      "reportagem": {
-        "titulo": "CBF toma decisão sobre sequência de Raphinha na seleção brasileira após gol de pênalti do atacante em amistoso",
-        "slug": "cbf-toma-decisao-sobre-sequencia-de-raphinha-na-selecao-brasileira-apos-gol-de-penalti-do-",
-        "categoria": "Esporte",
-        "data": "2026-09-30",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/cbf-toma-decisao-sobre-sequencia-de-raphinha-na-selecao-brasileira-apos-gol-de-penalti-do-.jpg",
-        "resumo": "Atacante vive bom momento no Barcelona, mas não vai disputar o duelo contra a Índia, no próximo sábado",
-        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&amp;ccedil;&amp;atilde;o da Editora Abril.</p><h2>Confedera&amp;ccedil;&amp;atilde;o Brasileira de Futebol (CBF) anunciou nesta quarta-feira, 30,</h2><p>A Confedera&amp;ccedil;&amp;atilde;o Brasileira de Futebol (CBF) anunciou nesta quarta-feira, 30, a libera&amp;ccedil;&amp;atilde;o do atacante Raphinha, do Barcelona-ESP, ap&amp;oacute;s a constata&amp;ccedil;&amp;atilde;o de um pequeno edema muscular na regi&amp;atilde;o posterior da coxa direita. O atleta marcou um gol na vit&amp;oacute;ria sobre a Austr&amp;aacute;lia por 4 a 2 em amistoso nesta ter&amp;ccedil;a-feira, 29, em Brisbane, cidade australiana.</p><p>Desta forma, Raphinha n&amp;atilde;o disputar&amp;aacute; o terceiro amistoso desta Data Fifa, marcado para o pr&amp;oacute;ximo s&amp;aacute;bado, 3, contra a &amp;Iacute;ndia, em Calcut&amp;aacute;, &amp;agrave;s 11h.</p><p>O atleta Raphinha passou, nesta quarta-feira (30), por exame de imagem que constatou um pequeno edema muscular na regi&amp;atilde;o posterior da coxa direita. Por precau&amp;ccedil;&amp;atilde;o e visando sua pronta recupera&amp;ccedil;&amp;atilde;o, o jogador ser&amp;aacute; liberado da Sele&amp;ccedil;&amp;atilde;o Brasileira. Nenhum atleta ser&amp;aacute; convocado em seu lugar para o amistoso contra a &amp;Iacute;ndia.</p><h2>Depois de um empate suado com a Austr&amp;aacute;lia</h2><p>Depois de um empate suado com a Austr&amp;aacute;lia no primeiro jogo p&amp;oacute;s-Copa , a equipe de Ancelotti goleou a mesma advers&amp;aacute;ria por 4 a 2 nesta ter&amp;ccedil;a, 29, no est&amp;aacute;dio de Brisbane. Vanderson abriu o placar para a Canarinho, que ainda levou um susto com a virada dos &amp;lsquo;Socceroos&amp;rsquo; com gols de Circati e Metcalfe em um intervalo de cinco minutos, mas conquistou a vit&amp;oacute;ria com gols de Raphinha, Bruno Guimar&amp;atilde;es e Vini Jr.</p><p>Diferentemente do primeiro amistoso, o t&amp;eacute;cnico italiano apostou no esquema t&amp;aacute;tico com tr&amp;ecirc;s jogadores no meio de campo. Gabriel Bontempo, do Santos, se juntou a Bruno Guimar&amp;atilde;es e Danilo entre os titulares.</p><p>A vit&amp;oacute;ria foi a primeira da sele&amp;ccedil;&amp;atilde;o de Carlo Ancelotti desde a elimina&amp;ccedil;&amp;atilde;o na Copa do Mundo para a Noruega.</p><p>Depois de um primeiro jogo lento e sem conex&amp;atilde;o entre o meio de campo, com dois volantes, a op&amp;ccedil;&amp;atilde;o por tr&amp;ecirc;s homens no setor logo surtiu efeito: com 2 minutos de jogo, o Brasil construiu uma jogada pela direita com Rayan, Gabriel Bontempo e Vanderson. O lateral do M&amp;ocirc;naco, que perdeu a Copa do Mundo por les&amp;atilde;o, pisou na &amp;aacute;rea e chutou, encobrindo o goleiro australiano para abrir o placar.</p><p>Em ritmo acelerado, a Pentacampe&amp;atilde; continuou pressionando depois da sa&amp;iacute;da de bola. Raphinha, artilheiro do Barcelona e da La Liga na temporada at&amp;eacute; esta Data Fifa, fez duas finaliza&amp;ccedil;&amp;otilde;es em um mesmo lance, ambas defendidas pelo goleiro Beach.</p><p>A Austr&amp;aacute;lia n&amp;atilde;o se acanhou diante do ritmo de jogo acelerado dos visitantes. Irankunda, autor do gol dos Socceroos na primeira partida, foi a principal v&amp;aacute;lvula de escape dos donos da casa com sua velocidade, for&amp;ccedil;a e qualidade t&amp;eacute;cnica, mas foi bem marcado pela defesa brasileira, com destaque para o estreante Jair.</p><p>Sem grandes chances com a bola rolando, a Austr&amp;aacute;lia chegou com perigo na bola parada: em um escanteio, aos 29 minutos, Rayan desviou a bola para tr&amp;aacute;s, tirando o goleiro Ot&amp;aacute;vio do lance, e Circati se esticou para finalizar de chaleira, meio sem querer, e mandou para o fundo da rede.</p><p>O VAR revisou o lance por poss&amp;iacute;vel impedimento do zagueiro australiano, mas validou o gol, j&amp;aacute; que o desvio foi do atacante brasileiro.</p><p>Ap&amp;oacute;s o empate, a Austr&amp;aacute;lia saiu mais para o jogo. A equipe organizada que j&amp;aacute; tinha dado trabalho ao Brasil no primeiro jogo voltou a gerar jogadas ofensivas. Aos 33 minutos, em um erro de passe do meio de campo brasileiro, Irankunda iniciou o ataque, encontrou Yengi, que trocou passes na frente da &amp;aacute;rea com Metcalfe. O volante acertou um chute no &amp;acirc;ngulo do gol de Ot&amp;aacute;vio, virando a partida em menos de cinco minutos.</p><p>Atr&amp;aacute;s no placar, o Brasil voltou a pressionar nos &amp;uacute;ltimos minutos do primeiro tempo. Bruno Guimar&amp;atilde;es deu passe entre linhas para Danilo dentro da &amp;aacute;rea. O volante do Botafogo tentou limpar a jogada, mas foi derrubado por Souttar. O &amp;aacute;rbitro de campo n&amp;atilde;o marcou a falta, mas o VAR interveio e a penalidade foi marcada.</p><p>O capit&amp;atilde;o da sele&amp;ccedil;&amp;atilde;o no jogo, Raphinha, assumiu a responsabilidade e cobrou com seguran&amp;ccedil;a para levar o jogo em 2 a 2 para o intervalo.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/esporte/cbf-toma-decisao-sobre-sequencia-de-raphinha-na-selecao-brasileira-apos-gol-de-penalti-do-atacante-em-amistoso/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A Confedera&ccedil;&atilde;o Brasileira de Futebol (CBF) anunciou nesta quarta-feira, 30, a libera&ccedil;&atilde;o do atacante Raphinha, do Barcelona-ESP, ap&oacute;s a constata&ccedil;&atilde;o de um pequeno edema muscular na regi&atilde;o posterior da coxa direita. O atleta marcou um gol na vit&oacute;ria sobre a Austr&aacute;lia por 4 a 2 em amistoso nes"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Desta forma, Raphinha n&atilde;o disputar&aacute; o terceiro amistoso desta Data Fifa, marcado para o pr&oacute;ximo s&aacute;bado, 3, contra a &Iacute;ndia, em Calcut&aacute;, &agrave;s 11h."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O atleta Raphinha passou, nesta quarta-feira (30), por exame de imagem que constatou um pequeno edema muscular na regi&atilde;o posterior da coxa direita. Por precau&ccedil;&atilde;o e visando sua pronta recupera&ccedil;&atilde;o, o jogador ser&aacute; liberado da Sele&ccedil;&atilde;o Brasileira. Nenhum atleta ser&aacute; convocado em seu lugar para o amist"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Depois de um empate suado com a Austr&aacute;lia no primeiro jogo p&oacute;s-Copa , a equipe de Ancelotti goleou a mesma advers&aacute;ria por 4 a 2 nesta ter&ccedil;a, 29, no est&aacute;dio de Brisbane. Vanderson abriu o placar para a Canarinho, que ainda levou um susto com a virada dos &lsquo;Socceroos&rsquo; com gols de Circati e Metcalfe em um intervalo "
-          }
-        ],
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "3d3a0c0f2b275dc1",
-      "titulo": "Mendonça nega censura e vota para manter derrubada de notícia falsa sobre Flávio e Nossa Senhora",
+      "id": "84b7f0011e10c1eb",
+      "titulo": "Mendonça vota no TSE para remover posts que associam Flávio Bolsonaro a projeto para tirar Nossa Senhora do posto de padroeira",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/mendonca-nega-censura-e-vota-para-manter-derrubada-de-noticia-falsa-sobre-flavio-e-nossa-senhora.shtml",
-      "dataFonte": "2026-09-30T12:56:00.000Z",
-      "resumoFonte": "O ministro André Mendonça , vice-presidente do TSE (Tribunal Superior Eleitoral), votou nesta quarta-feira (30) para manter sua decisão provisória que, na última semana, mandou derrubar publicações nas redes sociais com a notícia falsa de que o candidato à Presidência Flávio Bolsonaro ( PL ) iria retirar o título de padroeira do Brasil de Nossa…",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/09/29/17907267836abc527feb42e_1790726783_3x2_xl.jpg",
-      "descobertaEm": "2026-09-30T13:17:57.335Z",
-      "reportagem": {
-        "titulo": "Mendonça nega censura e vota para manter derrubada de notícia falsa sobre Flávio e Nossa Senhora",
-        "slug": "mendonca-nega-censura-e-vota-para-manter-derrubada-de-noticia-falsa-sobre-flavio-e-nossa-s",
-        "categoria": "Justiça",
-        "data": "2026-09-30",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mendonca-nega-censura-e-vota-para-manter-derrubada-de-noticia-falsa-sobre-flavio-e-nossa-s.jpg",
-        "resumo": "Na sexta (25), ministro do TSE havia mandado tirar publicações das redes a pedido da campanha de Flávio Bolsonaro (PL)",
-        "conteudo": "<p>O ministro André Mendonça , vice-presidente do TSE (Tribunal Superior Eleitoral), votou nesta quarta-feira (30) para manter sua decisão provisória que, na última semana, mandou derrubar publicações nas redes sociais com a notícia falsa de que o candidato à Presidência Flávio Bolsonaro ( PL ) iria retirar o título de padroeira do Brasil de Nossa Senhora Aparecida.</p><h2>Mendonça disse que as ordens</h2><p>Mendonça disse que as ordens de remoção de conteúdo &quot;não constituem censura prévia&quot;, nem violação à liberdade religiosa. Também afirma que suas decisões não englobam críticas e opiniões sobre questões alheias à notícia falsa. &quot;Em caso de dúvida razoável quanto à equivalência substancial de determinada publicação, a preservação da liberdade de expressão recomenda a manutenção do conteúdo.&quot;</p><p>O julgamento na corte eleitoral foi pautado pelo presidente do TSE, Kassio Nunes Marques , na noite de terça (29). Às vésperas do primeiro turno das eleições, o caso abriu uma nova disputa interna no STF (Supremo Tribunal Federal), com sobreposição de decisões de três diferentes ministros sobre o mesmo tema.</p><p>Como relator original do processo no TSE, Mendonça foi o primeiro a se posicionar no julgamento em plenário virtual, e reiterou sua decisão de sexta-feira. Além dele, votam os ministros titulares da corte eleitoral —Kassio, Dias Toffoli , Sebastião Reis Júnior, Ricardo Villas Bôas Cueva, Floriano Peixoto de Azevedo e Estela Aranha.</p><h2>Mendonça afirmou que são &quot;irresponsáveis&quot; as alegações</h2><p>Mendonça afirmou que são &quot;irresponsáveis&quot; as alegações de que a sua decisão tenha implicado em violação à liberdade religiosa —argumento utilizado pelo ministro Flávio Dino para restaurar as publicações. &quot;Nenhum dos pronunciamentos contém comando dessa natureza e, ademais, a trajetória acadêmica e jurisdicional deste julgador aponta precisamente em direção contrária&quot;, defendeu-se.</p><p>&quot;Causa especial perplexidade a insinuação de que as decisões proferidas nestes autos teriam buscado impedir fiéis católicos de manifestar apoio ou devoção a Nossa Senhora Aparecida. Nada, absolutamente nada, nas decisões autoriza semelhante conclusão&quot;, disse, salientando que não ordenou &quot;proibições genéricas&quot;.</p><p>Segundo Mendonça, suas decisões &quot;preservam o direito irrestrito de qualquer pessoa defender a manutenção de Nossa Senhora Aparecida como Padroeira do Brasil&quot; e &quot;não proíbem críticas a eventual proposta legislativa que objetive alterar esse regime&quot;, nem manifestações de fé ou debates que envolvam religião e política.</p><p>&quot;A questão posta nestes autos sempre foi outra: pode-se atribuir a determinado candidato, como fato ocorrido, a formulação, o apoio, a articulação ou o compromisso com uma iniciativa que ele não formulou, não apoiou e não articulou? Evidentemente não, seja ele quem for. Confundir uma fake news com restrição à fé representa inversão do conteúdo objetivo da decisão. A fé não estava em julgamento&quot;, escreveu.</p><p>Na sexta (25), o ministro disse que os posts sobre Nossa Senhora que viralizaram são &quot;notoriamente inverídicos&quot; e, por isso, determinou que as plataformas atuassem preventivamente contra a disseminação dos conteúdos, com a remoção imediata das publicações que reproduzam essa notícia falsa mesmo sem uma nova ordem judicial específica para isso.</p><p>Em sua decisão inicial, o ministro também estabeleceu uma multa de R$ 50 mil por dia por provedor em caso de descumprimento e mandou-os informar, em até 48 horas, quais foram as providências que tomaram e qual foi a quantidade de conteúdos derrubados.</p><p>A decisão de Mendonça atendeu a um pedido da campanha de Flávio, liderado pela ex-ministra do TSE Maria Claudia Bucchianeri.</p><p>A notícia falsa sobre a retirada do título de padroeira do Brasil viralizou nas redes sociais na quinta (24) . Dias antes, havia circulado a interpretação que uma manifestação de bispos católicos alinhada com discursos do presidente Lula (PT) vinha de um suposto temor da Igreja Católica de que o candidato bolsonarista, se eleito, poderia retirar o título da santa.</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/mendonca-nega-censura-e-vota-para-manter-derrubada-de-noticia-falsa-sobre-flavio-e-nossa-senhora.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O ministro André Mendonça , vice-presidente do TSE (Tribunal Superior Eleitoral), votou nesta quarta-feira (30) para manter sua decisão provisória que, na última semana, mandou derrubar publicações nas redes sociais com a notícia falsa de que o candidato à Presidência Flávio Bolsonaro ( PL ) iria retirar o título de padroeira do Brasil de Nossa Senhora Apare"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Mendonça disse que as ordens de remoção de conteúdo \"não constituem censura prévia\", nem violação à liberdade religiosa. Também afirma que suas decisões não englobam críticas e opiniões sobre questões alheias à notícia falsa. \"Em caso de dúvida razoável quanto à equivalência substancial de determinada publicação, a preservação da liberdade de expressão recom"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O julgamento na corte eleitoral foi pautado pelo presidente do TSE, Kassio Nunes Marques , na noite de terça (29). Às vésperas do primeiro turno das eleições, o caso abriu uma nova disputa interna no STF (Supremo Tribunal Federal), com sobreposição de decisões de três diferentes ministros sobre o mesmo tema."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Como relator original do processo no TSE, Mendonça foi o primeiro a se posicionar no julgamento em plenário virtual, e reiterou sua decisão de sexta-feira. Além dele, votam os ministros titulares da corte eleitoral —Kassio, Dias Toffoli , Sebastião Reis Júnior, Ricardo Villas Bôas Cueva, Floriano Peixoto de Azevedo e Estela Aranha."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Mendonça afirmou que são \"irresponsáveis\" as alegações de que a sua decisão tenha implicado em violação à liberdade religiosa —argumento utilizado pelo ministro Flávio Dino para restaurar as publicações. \"Nenhum dos pronunciamentos contém comando dessa natureza e, ademais, a trajetória acadêmica e jurisdicional deste julgador aponta precisamente em direção c"
-          }
-        ],
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "O Globo - Capa",
+      "urlFonte": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/09/30/sessao-tse.ghtml",
+      "dataFonte": "2026-09-30T12:44:26.933Z",
+      "resumoFonte": "Análise ocorre no plenário virtual e pode esvaziar controvérsia que provocou decisões conflitantes de Dino e Fux no STF",
+      "imagem": "https://s2-oglobo.glbimg.com/S-SP_glyJlMS9_3uYxPxjjqkHBs=/799x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/R/A/6fpDGcSI6CqlJGH89Wsw/54210571967-7b3ede6326-c.jpg",
+      "descobertaEm": "2026-09-30T14:21:59.182Z"
     },
     {
       "id": "789cd3797ded4cb0",
@@ -409,100 +295,6 @@
       "resumoFonte": "Mendonça confirma em voto decisão que tirou do ar posts sobre Nossa Senhora Aparecida O ministro André Mendonça, do Tribunal Superior Eleitoral (TSE), se manifestou para confirmar as próprias decisões que determinaram a retirada do ar de publicações que ligavam o candidato Flávio Bolsonaro (PL) a um suposto movimento de retirada de Nossa Senhora…",
       "imagem": "https://s2-g1.glbimg.com/UrcoBb8rR-FObO-KEj3P3VcKZ2k=/4833x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/G/6/wUP7mQTamFljoG2PpDmQ/54747506304-ac65b32330-o.jpg",
       "descobertaEm": "2026-09-30T13:17:57.335Z"
-    },
-    {
-      "id": "8e616b64c99f0342",
-      "titulo": "Guerrilha religiosa de Lula e Flávio Bolsonaro amplia a crise no STF",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/coluna/jose-casado/guerrilha-religiosa-de-lula-e-flavio-bolsonaro-amplia-a-crise-no-stf/",
-      "dataFonte": "2026-09-30T11:00:27.000Z",
-      "resumoFonte": "No sábado, véspera da eleição, começa a festa da Padroeira Aparecida, devoção popular de 309 anos",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2016/06/nossa-senhora-aparecida-20111012-42-original5.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-30T11:17:45.526Z"
-    },
-    {
-      "id": "dde0c8fc4de98517",
-      "titulo": "Eleições: Lula x Flávio Bolsonaro escancara guerra pelo futuro do poder no STF",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/09/30/eleicoes-lula-flavio-stf-poder.ghtml",
-      "dataFonte": "2026-09-30T10:48:59.000Z",
-      "resumoFonte": "A disputa entre Lula (PT) e Flávio Bolsonaro (PL) escancara uma outra guerra que está sendo travada nesta eleição: a disputa pelo futuro dos grupos de poder dentro do Supremo Tribunal Federal (STF). De acordo com ministros do STF ouvidos pelo blog, o que fica claro é que o resultado das urnas será lido também como uma medição de forças dentro dos…",
-      "imagem": "https://s2-g1.glbimg.com/aIm_A7B3NvCEmFo7B-OqYP3Ihdw=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/4/a/Jj2BABSlKeQQ6AXQj7Gg/55530031913-e90369df0a-k.jpg",
-      "descobertaEm": "2026-09-30T11:17:45.526Z"
-    },
-    {
-      "id": "bfc4b1843bf8c5be",
-      "titulo": "Caso Rayssa: ex-namorado é condenado a 28 anos de prisão por feminicídio de adolescente em Cariacica",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/caso-rayssa-ex-namorado-e-condenado-a-28-anos-de-prisao-por-feminicidio-de-adolescente-em-cariacica-0926",
-      "dataFonte": "2026-09-30T11:00:39.000Z",
-      "resumoFonte": "Rayssa da Silva Souza tinha 15 anos quando foi morta com um tiro na cabeça, em abril de 2021. Guilherme Mamede Santos foi condenado pelo Tribunal do Júri na terça-feira (29)",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1774902523061_2021_05_05_guilherme_mamede_santos_e_ex_namorado_de_raissa_e_suspeito_de_assassina_la_em_cariacica_487292_article.jpg",
-      "descobertaEm": "2026-09-30T13:17:57.335Z"
-    },
-    {
-      "id": "c929631a4b822da6",
-      "titulo": "Mais de 90% das urnas já estão preparadas para eleição, diz Nunes Marques",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/mais-de-90-das-urnas-ja-estao-preparadas-para-eleicao-diz-nunes-marques/",
-      "dataFonte": "2026-09-30T13:02:18.000Z",
-      "resumoFonte": "Mais de 90% das urnas eletrônicas de todo o país já estão preparadas para a eleição de domingo, 4 de outubro, informou nesta terça-feira, 29, o presidente do Tribunal Superior Eleitoral (TSE), ministro Kassio Nunes Marques. Segundo ele, parte dos equipamentos já chegou aos locais onde serão realizadas as votações . “Muitas, inclusive, já chegaram…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/tse_nunes-marques.jpeg.webp",
-      "descobertaEm": "2026-09-30T13:17:57.335Z",
-      "reportagem": {
-        "titulo": "Mais de 90% das urnas já estão preparadas para eleição, diz Nunes Marques",
-        "slug": "mais-de-90-das-urnas-ja-estao-preparadas-para-eleicao-diz-nunes-marques",
-        "categoria": "Justiça",
-        "data": "2026-09-30",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mais-de-90-das-urnas-ja-estao-preparadas-para-eleicao-diz-nunes-marques.jpg",
-        "resumo": "Presidente do TSE afirma que equipamentos já começaram a chegar aos locais de votação",
-        "conteudo": "<p>Mais de 90% das urnas eletrônicas estão prontas para a eleição de 4 de outubro, conforme informou o presidente do TSE, Kassio Nunes Marques, em 29 de setembro. Ele destacou que algumas urnas já chegaram aos locais de votação e que a Justiça Eleitoral está atenta às condições climáticas, com um grupo específico monitorando riscos.</p><h2>Situação da Região Norte é preocupante devido à seca,</h2><p>A situação da Região Norte é preocupante devido à seca, que pode dificultar o transporte dos equipamentos, enquanto no Rio Grande do Sul, as chuvas intensas podem exigir medidas emergencia</p><p>Mais de 90% das urnas eletrônicas de todo o país já estão preparadas para a eleição de domingo, 4 de outubro, informou nesta terça-feira, 29, o presidente do Tribunal Superior Eleitoral (TSE), ministro Kassio Nunes Marques. Segundo ele, parte dos equipamentos já chegou aos locais onde serão realizadas as votações .</p><p>“Muitas, inclusive, já chegaram ao seu destino, concretizando um árduo trabalho de distribuição”, afirmou Nunes Marques durante sessão do TSE.</p><h2>Ministro também destacou a preocupação da Justiça Eleitoral</h2><p>O ministro também destacou a preocupação da Justiça Eleitoral com as condições climáticas previstas para os próximos dias. Segundo ele, foi criado um grupo específico para acompanhar o tema, além da Sala Nacional de Situação Climática.</p><p>“A Sala vai monitorar riscos, integrar informações e apoiar os Tribunais Regionais Eleitorais na prevenção e na resposta a possíveis intempéries nos dias de votação”, disse.</p><p>Nunes Marques afirmou que a estrutura contará com informações de diferentes órgãos para antecipar possíveis problemas e acelerar a resposta da Justiça Eleitoral. “Fechamos parcerias que vão nos ajudar a fazer previsões para podermos agir no menor tempo possível.”</p><p>O presidente do TSE citou especialmente a situação da Região Norte, onde os rios são utilizados como vias de acesso a diversas localidades. A redução do nível das águas pode dificultar o transporte de equipamentos e a instalação das seções eleitorais.</p><p>“Se eles secam, precisamos da ajuda das Forças Armadas para instalar as seções eleitorais”, explicou o ministro.</p><p>Nunes Marques também mencionou o risco de enchentes e de chuvas intensas. Ele citou o Rio Grande do Sul, que registrou fortes precipitações no fim de semana, como exemplo de situação que pode exigir medidas emergenciais da Justiça Eleitoral.</p><p>Em áreas atingidas pela elevação das águas, poderá ser necessário transferir locais de votação ou organizar transporte para eleitores afetados pelas cheias.</p><p>“Além de garantir segurança à votação, a Justiça Eleitoral tem atuado intensamente para assegurar que todas e todos tenham informações claras e transparentes sobre o processo eleitoral”, afirmou o presidente do TSE.</p><p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/mais-de-90-das-urnas-ja-estao-preparadas-para-eleicao-diz-nunes-marques/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Mais de 90% das urnas eletrônicas estão prontas para a eleição de 4 de outubro, conforme informou o presidente do TSE, Kassio Nunes Marques, em 29 de setembro. Ele destacou que algumas urnas já chegaram aos locais de votação e que a Justiça Eleitoral está atenta às condições climáticas, com um grupo específico monitorando riscos. A situação da Região Norte é"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Mais de 90% das urnas eletrônicas de todo o país já estão preparadas para a eleição de domingo, 4 de outubro, informou nesta terça-feira, 29, o presidente do Tribunal Superior Eleitoral (TSE), ministro Kassio Nunes Marques. Segundo ele, parte dos equipamentos já chegou aos locais onde serão realizadas as votações ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "“Muitas, inclusive, já chegaram ao seu destino, concretizando um árduo trabalho de distribuição”, afirmou Nunes Marques durante sessão do TSE."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O ministro também destacou a preocupação da Justiça Eleitoral com as condições climáticas previstas para os próximos dias. Segundo ele, foi criado um grupo específico para acompanhar o tema, além da Sala Nacional de Situação Climática."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "“A Sala vai monitorar riscos, integrar informações e apoiar os Tribunais Regionais Eleitorais na prevenção e na resposta a possíveis intempéries nos dias de votação”, disse."
-          }
-        ],
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
     },
     {
       "id": "ec43481a31f10687",
@@ -568,6 +360,122 @@
           {
             "pergunta": "Quais são os próximos desdobramentos?",
             "resposta": "Com a condenação, Bolsonaro ficou com seus direitos políticos suspensos, o que o impede de votar ou ser votado em eleições. Na prática, portanto, o ex-presidente não poderá votar no filho, o senador Flávio Bolsonaro, escolhido por ele para ser o candidato do PL ao Palácio do Planalto – nem em qualquer outra pessoa para outro cargo."
+          }
+        ],
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "450df976afbec1c9",
+      "titulo": "O Grande Debate: Embate STF-TSE a dias do 1º turno vai impactar eleição?",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/o-grande-debate-embate-stf-tse-a-dias-do-1o-turno-vai-impactar-eleicao/",
+      "dataFonte": "2026-09-30T13:59:42.000Z",
+      "resumoFonte": "Divergência entre ministros do STF e TSE sobre postagens religiosas acirra tensão institucional a cinco dias do primeiro turno de 2026",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/BR_CNN_290926_OGD_CLEAN_frame_20639-e1790776737327.jpeg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-09-30T14:17:48.358Z",
+      "reportagem": {
+        "titulo": "O Grande Debate: Embate STF-TSE a dias do 1º turno vai impactar eleição?",
+        "slug": "o-grande-debate-embate-stf-tse-a-dias-do-1-turno-vai-impactar-eleicao",
+        "categoria": "Justiça",
+        "data": "2026-09-30",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/o-grande-debate-embate-stf-tse-a-dias-do-1-turno-vai-impactar-eleicao.jpg",
+        "resumo": "Divergência entre ministros do STF e TSE sobre postagens religiosas acirra tensão institucional a cinco dias do primeiro turno de 2026",
+        "conteudo": "<p>A jornalista e ex-senadora Ana Amélia Lemos e o comentarista da CNN José Eduardo Cardozo debateram, na terça-feira (29), em O Grande Debate (de segunda a sexta-feira, às 23h), sobre se &quot;o embate entre o STF (Supremo Tribunal Federal) e o TSE (Tribunal Superior Eleitoral) a dias do primeiro turno vai impactar a eleição&quot;.</p><h2>Cinco dias do primeiro turno das eleições de 2026</h2><p>A cinco dias do primeiro turno das eleições de 2026 , um embate entre ministros do Supremo Tribunal Federal e a cúpula do Tribunal Superior Eleitoral acirra a tensão no Judiciário brasileiro.</p><p>A disputa gira em torno da competência do STF para rever decisões da Justiça Eleitoral, e ganhou contornos ainda mais agudos após decisões conflitantes envolvendo publicações relacionadas a Nossa Senhora Aparecida e ao candidato à Presidência Flávio Bolsonaro (PL).</p><p>O episódio teve início quando o ministro André Mendonça, do TSE (Tribunal Superior Eleitoral), determinou a retirada de postagens que relacionavam o senador Flávio Bolsonaro (PL) ou sua família à intenção de retirar de Nossa Senhora Aparecida o título de Padroeira do Brasil.</p><h2>Em seguida, o ministro Flávio Dino derrubou a medida</h2><p>Em seguida, o ministro Flávio Dino derrubou a medida , e o ministro Luiz Fux retomou a decisão anterior , evidenciando uma cadeia de reviravoltas que expôs publicamente a fissura entre as duas Cortes.</p><p>O comentarista José Eduardo Cardozo avaliou que a situação coloca o STF numa posição de &quot;politização eleitoral que é muito ruim para o próprio Supremo&quot;.</p><p>Para ele, alguma forma de &quot;freio de arrumação&quot; seria necessária para restaurar o equilíbrio institucional. &quot;O desgaste do Supremo só fortalece discursos autoritários, só fortalece aqueles que têm discurso de negação da democracia&quot;, afirmou.</p><p>Cardozo defendeu ainda que a melhor forma de recuperar o respeito às instituições seria uma &quot;apuração criteriosa, rigorosa de tudo o que aconteceu&quot;, sem distinções entre aliados e adversários. &quot;Ninguém está acima da lei&quot;, concluiu.</p><p>A jornalista Ana Amélia Lemos afirmou que o embate &quot;já impactou&quot; a eleição, especialmente a candidatura de Flávio Bolsonaro, ao misturar religião e política. &quot;A religião não é política e, lamentavelmente, isso entrou no jogo&quot;, disse.</p><p>Ana Amélia também criticou a decisão de adiar para depois das eleições a resolução do conflito entre as Cortes , classificando-a como &quot;lamentável&quot;. Para ela, o STF está &quot;cada vez mais desacreditado e desrespeitado&quot; perante os cidadãos brasileiros.</p><p>A jornalista projetou ainda consequências políticas de médio prazo, sugerindo que as eleições de 2026 podem resultar na formação de uma maioria no Senado favorável a pedidos de impeachment de ministros do STF. &quot;O Supremo certamente vai ter os primeiros exemplos de pedido de impeachment de uma maioria no Senado Federal&quot;, afirmou.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/o-grande-debate-embate-stf-tse-a-dias-do-1o-turno-vai-impactar-eleicao/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A jornalista e ex-senadora Ana Amélia Lemos e o comentarista da CNN José Eduardo Cardozo debateram, na terça-feira (29), em O Grande Debate (de segunda a sexta-feira, às 23h), sobre se \"o embate entre o STF (Supremo Tribunal Federal) e o TSE (Tribunal Superior Eleitoral) a dias do primeiro turno vai impactar a eleição\"."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A cinco dias do primeiro turno das eleições de 2026 , um embate entre ministros do Supremo Tribunal Federal e a cúpula do Tribunal Superior Eleitoral acirra a tensão no Judiciário brasileiro."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A disputa gira em torno da competência do STF para rever decisões da Justiça Eleitoral, e ganhou contornos ainda mais agudos após decisões conflitantes envolvendo publicações relacionadas a Nossa Senhora Aparecida e ao candidato à Presidência Flávio Bolsonaro (PL)."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O episódio teve início quando o ministro André Mendonça, do TSE (Tribunal Superior Eleitoral), determinou a retirada de postagens que relacionavam o senador Flávio Bolsonaro (PL) ou sua família à intenção de retirar de Nossa Senhora Aparecida o título de Padroeira do Brasil."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Em seguida, o ministro Flávio Dino derrubou a medida , e o ministro Luiz Fux retomou a decisão anterior , evidenciando uma cadeia de reviravoltas que expôs publicamente a fissura entre as duas Cortes."
+          }
+        ],
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "a2effeb515920120",
+      "titulo": "Dino pede inquérito sobre 'ataques a imagens religiosas' após Nossa Senhora virar pauta eleitoral",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/dino-pede-inquerito-sobre-ataques-a-imagens-religiosas-apos-nossa-senhora-virar-pauta-eleitoral.shtml",
+      "dataFonte": "2026-09-30T13:31:00.000Z",
+      "resumoFonte": "O ministro Flávio Dino , do STF (Supremo Tribunal Federal), determinou a abertura de inquérito pela Polícia Federal para investigar o que chamou de \"onda de ataques nos últimos meses contra imagens religiosas\". Leia mais (09/30/2026 - 10h31)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/09/30/17907749846abd0ec8f2499_1790774984_3x2_lg.jpg",
+      "descobertaEm": "2026-09-30T13:49:26.159Z",
+      "reportagem": {
+        "titulo": "Dino pede inquérito sobre",
+        "slug": "dino-pede-inquerito-sobre",
+        "categoria": "Justiça",
+        "data": "2026-09-30",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/dino-pede-inquerito-sobre.jpg",
+        "resumo": "Campanha de Flávio Bolsonaro tenta reduzir impacto de notícia falsa que o acusa de querer retirar título de padroeira do Brasil",
+        "conteudo": "<p>O ministro Flávio Dino , do STF (Supremo Tribunal Federal), determinou a abertura de inquérito pela Polícia Federal (PF) para investigar o que chamou de &quot;onda de ataques nos últimos meses contra imagens religiosas&quot;.</p><h2>Decisão do ministro ocorre no momento</h2><p>A decisão do ministro ocorre no momento em que a campanha do senador Flávio Bolsonaro ( PL ) tenta reduzir os impactos da disseminação de uma notícia falsa que o acusa de querer retirar de Nossa Senhora Aparecida o título de padroeira do Brasil.</p><p>A decisão de Dino foi divulgada quase simultaneamente ao início do julgamento do caso pelo TSE (Tribunal Superior Eleitoral), em que o ministro André Mendonça reiterou seu voto pela remoção dos conteúdos e chamou de &quot;irresponsáveis&quot; as alegações de que estaria restringindo a liberdade religiosa.</p><p>No domingo (27), Dino havia derrubado a decisão de Mendonça e liberado a publicação de postagens sobre a padroeira. No dia seguinte, em mais um capítulo da guerra de liminares, o ministro Luiz Fux deu uma nova ordem judicial contrariando Dino e restaurando a determinação de Mendonça, de quem é aliado.</p><h2>Dino afirmou que sua decisão visou &quot;preservar a liberdade</h2><p>Dino afirmou que sua decisão visou &quot;preservar a liberdade religiosa especialmente em favor dos participantes do culto à Nossa Senhora Aparecida&quot;, já que a data em que se celebra a santa, 12 de outubro, se aproxima.</p><p>De acordo com o ministro, após a sua decisão, &quot;chegaram ao gabinete, por vários meios, notícias de várias partes do Brasil demonstrando uma aparente onda de ataques nos últimos meses contra imagens religiosas&quot;.</p><p>Uma dessas notícias foi encaminhada pelo decano, ministro Gilmar Mendes, apontando para a vandalização de uma imagem de Nossa Senhora Aparecida em Cuiabá (MT), encontrada quebrada pela arquidiocese local na sexta-feira (25).</p><p>Outras notícias falam da destruição da estátua de uma santa em uma paróquia de Salvador (BA), de uma loja de artigos religiosos em Londrina (PR) e de imagens sacras localizadas dentro de uma igreja em Rio Grande (RS).</p><p>Receba no seu email destaques das campanhas, pesquisas e disputas nos estados</p><p>Os episódios mencionados por Dino também incluem casos de vandalismo a imagens cultuadas por religiões de matriz africana, como imagens de orixás atacadas em terreiros localizados em Esmeraldas (MG) e em Santo Amaro (BA).</p><p>&quot;Assim, temos um quadro bastante grave, em que existem indícios de crimes variados, tais como: ultraje a culto, na modalidade vilipêndio; preconceito religioso; violência contra práticas religiosas; injúria qualificada por elemento religioso; ameaça, furto, dano, incêndio e violação de domicílio&quot;, diz Dino.</p><p>O ministro diz que tem o dever legal de, ao tomar conhecimento de indícios dos chamados &quot;crimes de ação pública&quot;, comunicar as autoridades (PF e Ministério Público) para que tomem as providências necessárias.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/09/dino-pede-inquerito-sobre-ataques-a-imagens-religiosas-apos-nossa-senhora-virar-pauta-eleitoral.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O ministro Flávio Dino , do STF (Supremo Tribunal Federal), determinou a abertura de inquérito pela Polícia Federal (PF) para investigar o que chamou de \"onda de ataques nos últimos meses contra imagens religiosas\"."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A decisão do ministro ocorre no momento em que a campanha do senador Flávio Bolsonaro ( PL ) tenta reduzir os impactos da disseminação de uma notícia falsa que o acusa de querer retirar de Nossa Senhora Aparecida o título de padroeira do Brasil."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A decisão de Dino foi divulgada quase simultaneamente ao início do julgamento do caso pelo TSE (Tribunal Superior Eleitoral), em que o ministro André Mendonça reiterou seu voto pela remoção dos conteúdos e chamou de \"irresponsáveis\" as alegações de que estaria restringindo a liberdade religiosa."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "No domingo (27), Dino havia derrubado a decisão de Mendonça e liberado a publicação de postagens sobre a padroeira. No dia seguinte, em mais um capítulo da guerra de liminares, o ministro Luiz Fux deu uma nova ordem judicial contrariando Dino e restaurando a determinação de Mendonça, de quem é aliado."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Dino afirmou que sua decisão visou \"preservar a liberdade religiosa especialmente em favor dos participantes do culto à Nossa Senhora Aparecida\", já que a data em que se celebra a santa, 12 de outubro, se aproxima."
           }
         ],
         "redacaoPropria": true,
@@ -667,56 +575,20 @@
       "resumoFonte": "A crise envolvendo ministros do Supremo Tribunal Federal (STF) e do Tribunal Superior Eleitoral (TSE) expôs uma disputa entre diferentes grupos dentro do Judiciário sobre a atuação dos integrantes das duas cortes. Parte dos ministros do STF questiona decisões tomadas no TSE e defende que determinadas questões sejam submetidas ao Supremo. O TSE é…",
       "imagem": "https://s2-g1.glbimg.com/jUorDtitZOj1D5lna5icbPvsBeU=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/z/6k7qa7SzG0CbeV5hAGwA/55341724835-cde8e245d0-k.jpg",
       "descobertaEm": "2026-09-30T11:17:45.526Z"
-    },
-    {
-      "id": "fcbcbd3eb548cf97",
-      "titulo": "Caviar, vieiras e vinhos: imagens mostram como foi o almoço",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "O Globo - Capa",
-      "urlFonte": "https://oglobo.globo.com/politica/noticia/2026/09/30/caviar-vieiras-e-vinhos-imagens-mostram-como-foi-o-almoco-ultra-vip-organizado-por-vorcaro-para-moraes.ghtml",
-      "dataFonte": "2026-09-30T10:52:27.172Z",
-      "resumoFonte": "Ex-dono do Banco Master cuidou de cada detalhe do menu preparado para receber o ministro do Supremo Tribunal Federal em Campos do Jordão (SP)",
-      "imagem": "https://s2-oglobo.glbimg.com/5pvhFLMrYlGCqRxg1TRA2yX36Z8=/1292x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/k/B/9xkgEpQ4aOLcA09wFjKA/alexandre-de-moraes-e-chef-jose-maria-meira.png",
-      "descobertaEm": "2026-09-30T11:20:05.389Z"
-    },
-    {
-      "id": "6de170675c828996",
-      "titulo": "TSE analisa nesta quarta (30) decisão de Mendonça sobre publicações de Nossa Senhora Aparecida",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "CBN - Política",
-      "urlFonte": "https://cbn.globo.com/politica/noticia/2026/09/30/tse-analisa-nesta-quarta-30-decisao-de-mendonca-sobre-publicacoes-de-nossa-senhora-aparecida.ghtml",
-      "dataFonte": "2026-09-30T09:26:30.026Z",
-      "resumoFonte": "Articulação busca dar uma resposta colegiada institucional rápida antes do primeiro turno e esvaziar o impasse que havia transbordado para o Supremo Tribunal Federal nos últimos dias.",
-      "imagem": "https://s2-cbn.glbimg.com/fKOFeBsvgX5DVhzfojg0W7NLj2w=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/B/I/MNqwF8QF6qmkUJ3zBz5g/predio-tse-mcamgo-abr-22062023-7.jpg",
-      "descobertaEm": "2026-09-30T10:17:49.130Z"
-    },
-    {
-      "id": "b6a7ca1e3cbdf257",
-      "titulo": "Com guerra de decisões entre ministros, STF terá sessão normal nesta quarta",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/brasil/com-guerra-de-decisoes-entre-ministros-stf-tera-sessao-normal-nesta-quarta/",
-      "dataFonte": "2026-09-30T09:01:15.000Z",
-      "resumoFonte": "Fachin optou por seguir pauta prevista e não incluir discussão sobre retirada de publicações envolvendo Nossa Senhora Aparecida",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/55549027489_bee46135ef_c.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-09-30T09:17:47.839Z"
     }
   ],
-  "reapuradoEm": "2026-09-30T13:48:26.987Z",
+  "reapuradoEm": "2026-09-30T14:52:22.246Z",
   "diagnosticoReapuracao": {
-    "produzidas": 8,
+    "produzidas": 6,
     "jaProntas": 0,
-    "incompletas": 19,
+    "incompletas": 18,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 8,
+    "geradas": 6,
     "reaproveitadas": 0,
-    "puladas": 19,
+    "puladas": 18,
     "falhas": 0
   },
-  "lapisEm": "2026-09-30T13:48:27.613Z"
+  "lapisEm": "2026-09-30T14:52:22.706Z"
 }
