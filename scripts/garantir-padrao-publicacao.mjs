@@ -12,7 +12,7 @@ function imagemValida(url = '') {
 function decodificarEntidades(s = '') {
   const mapa = { aacute:'á', Aacute:'Á', atilde:'ã', Atilde:'Ã', acirc:'â', Acirc:'Â', agrave:'à', ccedil:'ç', Ccedil:'Ç', eacute:'é', Eacute:'É', ecirc:'ê', Ecirc:'Ê', iacute:'í', Iacute:'Í', oacute:'ó', Oacute:'Ó', ocirc:'ô', Ocirc:'Ô', otilde:'õ', Otilde:'Õ', uacute:'ú', Uacute:'Ú', uuml:'ü', ldquo:'“', rdquo:'”', lsquo:'‘', rsquo:'’', mdash:'—', ndash:'–', quot:'"', amp:'&', nbsp:' ' };
   let t = String(s);
-  for (let i = 0; i < 3; i++) t = t.replace(/&amp;/gi, '&').replace(/&([A-Za-z]+);/g, (m,n) => mapa[n] ?? m).replace(/&#(\d+);/g, (m,n) => String.fromCodePoint(Number(n)));
+  for (let i = 0; i < 3; i++) t = t.replace(/&/gi, '&').replace(/&([A-Za-z]+);/g, (m,n) => mapa[n] ?? m).replace(/&#(\d+);/g, (m,n) => String.fromCodePoint(Number(n)));
   return t;
 }
 
@@ -22,9 +22,9 @@ function limparHtml(s = '') {
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
     .replace(/<[^>]+>/g, ' ')
     .replace(/&nbsp;|&#160;/gi, ' ')
-    .replace(/&amp;/gi, '&')
-    .replace(/&quot;/gi, '"')
-    .replace(/&#39;|&apos;/gi, "'")
+    .replace(/&/gi, '&')
+    .replace(/"/gi, '"')
+    .replace(/&#39;|'/gi, "'")
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -113,3 +113,117 @@ function acharPrimeiroObjeto(texto) {
   }
   throw new Error('Não foi possível delimitar a primeira matéria.');
 }
+
+async function buscarOgImage(url) {
+  if (!/^https:\/\//i.test(String(url || ''))) return '';
+  const res = await fetch(url, {
+    redirect: 'follow',
+    headers: { 'user-agent': 'Mozilla/5.0 NoticiaESBot/1.0' },
+    signal: AbortSignal.timeout(12000)
+  });
+  if (!res.ok) throw new Error(`Fonte respondeu HTTP ${res.status}`);
+  const html = await res.text();
+  const candidatos = [];
+  for (const re of [
+    /<meta[^>]+property=["']og:image(?::secure_url)?["'][^>]+content=["']([^"']+)["']/ig,
+    /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image(?::secure_url)?["']/ig,
+    /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/ig,
+    /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image["']/ig
+  ]) {
+    let m;
+    while ((m = re.exec(html))) candidatos.push(m[1].replace(/&/g, '&'));
+  }
+  for (const c of candidatos) {
+    try {
+      const absoluta = new URL(c, url).href;
+      if (imagemValida(absoluta)) return absoluta;
+    } catch {}
+  }
+  return '';
+}
+
+function extrairParagrafos(conteudo) {
+  const pars = [...String(conteudo).matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)]
+    .map(m => limitar(m[1], 360))
+    .filter(x => x.length >= 40);
+  return pars;
+}
+
+function montarAeo(titulo, resumo, conteudo) {
+  const pars = extrairParagrafos(conteudo);
+  const respostas = [
+    limitar(resumo, 360),
+    pars[0] || limitar(conteudo, 360),
+    pars[1] || pars[0] || limitar(resumo, 360),
+    pars[2] || pars[1] || pars[0] || limitar(resumo, 360),
+    pars.at(-1) || pars[2] || pars[0] || limitar(resumo, 360)
+  ];
+  return [
+    { pergunta: 'O que aconteceu?', resposta: respostas[0] },
+    { pergunta: 'Qual é o ponto principal da notícia?', resposta: respostas[1] },
+    { pergunta: 'Quais são os dados mais importantes?', resposta: respostas[2] },
+    { pergunta: 'Por que esse assunto importa?', resposta: respostas[3] },
+    { pergunta: 'O que acontece agora?', resposta: respostas[4] }
+  ];
+}
+
+function aeoValido(bloco) {
+  const m = bloco.match(/\baeo\s*:\s*(\[[\s\S]*?\])\s*,/);
+  if (!m) return false;
+  try {
+    const arr = Function(`"use strict"; return (${m[1]});`)();
+    return Array.isArray(arr) && arr.length >= 5 && arr.every(x => String(x?.pergunta || '').trim() && String(x?.resposta || '').trim());
+  } catch {
+    return false;
+  }
+}
+
+let texto = await fs.readFile(ARQUIVO, 'utf8');
+const info = acharPrimeiroObjeto(texto);
+let bloco = info.bloco;
+
+const slug = campoString(bloco, 'slug');
+const titulo = campoString(bloco, 'titulo');
+const resumo = campoString(bloco, 'resumo');
+const fonteUrl = campoString(bloco, 'fonteUrl');
+const conteudo = campoTemplate(bloco, 'conteudo');
+let imagem = campoString(bloco, 'imagem');
+
+if (!slug || !titulo || !resumo || !conteudo) {
+  throw new Error('Matéria mais recente incompleta: slug, título, resumo e conteúdo são obrigatórios.');
+}
+if (!conteudoEditorialValido(conteudo)) {
+  throw new Error(`Publicação bloqueada: ${slug} contém resíduos de fonte, subtítulos genéricos, rede social crua ou entidades HTML quebradas. A matéria precisa ser redigida antes de publicar.`);
+}
+
+if (!imagemValida(imagem)) {
+  const encontrada = await buscarOgImage(fonteUrl).catch(err => {
+    console.warn(`[padrão] falha ao buscar imagem na fonte: ${err.message}`);
+    return '';
+  });
+  if (!imagemValida(encontrada)) {
+    throw new Error(`Publicação bloqueada: a matéria ${slug} não possui imagem editorial real válida.`);
+  }
+  bloco = bloco.replace(/\bimagem\s*:\s*(["'])[^"']*\1\s*,/, `imagem: ${JSON.stringify(encontrada)},`);
+  imagem = encontrada;
+  console.log(`[padrão] imagem real aplicada em ${slug}`);
+}
+
+if (!aeoValido(bloco)) {
+  const aeo = montarAeo(titulo, resumo, conteudo);
+  const linha = `    aeo: ${JSON.stringify(aeo)},\n`;
+  if (/\n\s*autor\s*:/.test(bloco)) {
+    bloco = bloco.replace(/(\n\s*autor\s*:)/, `\n${linha}$1`);
+  } else {
+    bloco = bloco.replace(/\n\s*automatico\s*:/, `\n${linha}    automatico:`);
+  }
+  console.log(`[padrão] AEO obrigatório aplicado em ${slug}`);
+}
+
+if (!aeoValido(bloco) || !imagemValida(campoString(bloco, 'imagem'))) {
+  throw new Error(`Publicação bloqueada: ${slug} falhou na validação final de imagem/AEO.`);
+}
+
+texto = texto.slice(0, info.inicio) + bloco + texto.slice(info.fim);
+await fs.writeFile(ARQUIVO, texto, 'utf8');
+console.log(`[padrão] ${slug} aprovado: imagem real + AEO com no mínimo 5 respostas.`);
