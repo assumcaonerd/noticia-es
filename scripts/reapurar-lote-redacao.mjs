@@ -118,13 +118,18 @@ function meta(html, chave, atributo = 'property') {
   return '';
 }
 
+function paragrafoSujo(texto = '') {
+  const t = limparHtml(texto);
+  return /cookie|newsletter|assine|publicidade|coment[aá]rio|leia também|pic\.twitter\.com|você tem \d+ acessos por dia|assinantes podem liberar(?: \d+)? acessos por dia|jornalista(?:,)?\s+pós-graduad[oa]|graduad[oa] em jornalismo|formad[oa] em jornalismo|editor-assistente|colunista da|\bblogs\b/i.test(t);
+}
+
 function extrairParagrafos(html = '') {
   const blocos = [];
   const artigo = html.match(/<article\b[\s\S]{200,}?<\/article>/i)?.[0] || html;
   for (const m of artigo.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)) {
     const t = limparHtml(m[1]);
     if (t.length < 60) continue;
-    if (/cookie|newsletter|assine|publicidade|coment[aá]rio/i.test(t)) continue;
+    if (paragrafoSujo(t)) continue;
     blocos.push(t);
     if (blocos.length >= 12) break;
   }
@@ -199,14 +204,22 @@ function completarParagrafos(base, p) {
   return divididos.filter(t => limparHtml(t).length >= 60);
 }
 
-function fallbackIntertitulo(texto = '') {
+const FIM_INCOMPLETO = /\b(?:de|da|do|das|dos|em|no|na|para|com|por|que|se|contra|sobre|entre|uma|um|o|a|estar|fazer|tem|ter|ser|vai|pode|deve|chegar|cheguei|publicar|analisar|avaliar|investigar|decidir|apurar|abrir|designar|encaminhar|filiado|ligado)$/i;
+
+function fallbackIntertitulo(texto = '', categoria = '') {
   const t = limparHtml(texto).toLowerCase();
-  if (/conselho|mpf|pgr|stf|stj|tribunal/.test(t)) return 'O que o Conselho vai decidir';
-  if (/mensagem|relat[oó]rio|documento|conversa|registro/.test(t)) return 'O que as mensagens mostram';
+  const c = String(categoria || '').toLowerCase();
+  if (/pesquisa|levantamento|percentual|índice|indice|datafolha|quaest|veritá|verita/.test(t)) return 'O que a pesquisa mostra';
+  if (/tribunal|stf|stj|tse|tre|juiz|justiça|justica|processo|recurso/.test(t) || /justiça/.test(c)) return 'O que o tribunal vai decidir';
+  if (/documento|mensagem|relatório|relatorio|conversa|registro|ofício|oficio/.test(t)) return 'O que os documentos mostram';
+  if (/segurança|seguranca|polícia|policia|crime|prisão|prisao/.test(t) || /segurança/.test(c)) return 'O que muda na segurança';
+  if (/economia|preço|preco|renda|imposto|tarifa|salário|salario|custo/.test(t) || /economia/.test(c)) return 'O que muda no bolso';
+  if (/espírito santo|espirito santo|capixaba|vitória|vitoria|governo do es|assembleia/.test(t) || /es$/.test(c)) return 'O que está em jogo no ES';
+  if (/debate|discussão|discussao|divergência|divergencia/.test(t)) return 'O que pesou no debate';
   return 'O que muda na prática';
 }
 
-function intertituloDoParagrafo(texto = '') {
+function intertituloDoParagrafo(texto = '', categoria = '') {
   const t = limparHtml(texto);
   const primeira = t.split(/[.!?]/)[0].trim();
   let titulo = primeira
@@ -215,26 +228,16 @@ function intertituloDoParagrafo(texto = '') {
     .trim();
 
   let palavras = titulo.split(/\s+/).filter(Boolean);
-  if (palavras.length < 3) return fallbackIntertitulo(texto);
-  if (palavras.length <= 8) {
+  if (palavras.length < 4) return fallbackIntertitulo(texto, categoria);
+  if (palavras.length <= 9) {
     const pronto = palavras.join(' ');
-    if (!/\b(de|da|do|das|dos|em|no|na|para|com|por|que|se|contra|sobre|entre|uma|um|o|a)$/i.test(pronto)) {
-      return pronto.charAt(0).toUpperCase() + pronto.slice(1);
-    }
-    return fallbackIntertitulo(texto);
+    if (!FIM_INCOMPLETO.test(pronto)) return pronto.charAt(0).toUpperCase() + pronto.slice(1);
+    return fallbackIntertitulo(texto, categoria);
   }
-
-  palavras = palavras.slice(0, 8);
-  while (palavras.length >= 3 && /^(de|da|do|das|dos|em|no|na|para|com|por|que|se|contra|sobre|entre|uma|um|o|a)$/i.test(palavras.at(-1))) {
-    palavras.pop();
-  }
+  palavras = palavras.slice(0, 9);
+  while (palavras.length > 4 && FIM_INCOMPLETO.test(palavras.join(' '))) palavras.pop();
   const candidato = palavras.join(' ').trim();
-  if (palavras.length < 3 || /\b(de|da|do|das|dos|em|no|na|para|com|por|que|se|contra|sobre|entre|uma|um|o|a)$/i.test(candidato)) {
-    return fallbackIntertitulo(texto);
-  }
-  if (/\b(analisar|avaliar|investigar|decidir|apurar|abrir|designar|encaminhar)$/i.test(candidato)) {
-    return fallbackIntertitulo(texto);
-  }
+  if (palavras.length < 4 || FIM_INCOMPLETO.test(candidato)) return fallbackIntertitulo(texto, categoria);
   return candidato.charAt(0).toUpperCase() + candidato.slice(1);
 }
 
@@ -244,8 +247,8 @@ function montarConteudo(p, paragrafos, adicionais) {
   const primeiro = blocos[0];
   const meio = blocos.slice(1, 4);
   const fim = blocos.slice(4);
-  const h2a = intertituloDoParagrafo(meio[0]);
-  const h2b = intertituloDoParagrafo(fim[0]);
+  const h2a = intertituloDoParagrafo(meio[0], p.categoria);
+  const h2b = intertituloDoParagrafo(fim[0], p.categoria);
   return [
     `<p>${escapar(primeiro)}</p>`,
     `<h2>${escapar(h2a)}</h2>`,
@@ -289,6 +292,10 @@ function reportagemValida(r, p) {
   if (palavras < 400 || palavras > 1200 || paragrafos < 7 || subtitulos < 2) return false;
   if (/por que essa pauta entra no not[ií]cia es|o que a fonte registrou|reapura[cç][aã]o autom[aá]tica|entra na cobertura factual do not[ií]cia es|linha editorial do portal/i.test(String(r.conteudo || ''))) return false;
   if (/<h2[^>]*>\s*(Contexto|Desdobramentos?)\s*<\/h2>/i.test(String(r.conteudo || ''))) return false;
+  const conteudo = String(r.conteudo || '');
+  const h2s = [...conteudo.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/gi)].map(m => limparHtml(m[1]));
+  if (h2s.some(h => h.split(/\s+/).filter(Boolean).length < 4 || FIM_INCOMPLETO.test(h))) return false;
+  if (paragrafoSujo(conteudo)) return false;
   if (/entra na cobertura factual do not[ií]cia es|a pauta foi classificada/i.test(JSON.stringify(r.aeo || []))) return false;
   if (!Array.isArray(r.aeo) || r.aeo.length < 5) return false;
   return true;
@@ -341,7 +348,8 @@ async function reapurarUma(p) {
   };
 
   if (!reportagemValida(reportagem, p)) {
-    return { pauta: { ...p, reportagem }, status: 'incompleta' };
+    const { reportagem: _descartada, ...pautaLimpa } = p;
+    return { pauta: pautaLimpa, status: 'incompleta' };
   }
 
   return { pauta: { ...p, reportagem }, status: 'produzida' };

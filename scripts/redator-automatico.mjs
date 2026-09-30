@@ -86,7 +86,8 @@ function validarReportagem(p) {
   if (paragrafos < 7) return `estrutura curta: ${paragrafos} parágrafos`;
   if (subtitulos < 2) return `estrutura sem subtítulos suficientes: ${subtitulos}`;
   const h2s = [...conteudo.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/gi)].map(m => textoPuro(m[1]));
-  if (h2s.some(h => /\b(de|da|do|das|dos|em|no|na|para|com|por|que|se|contra|sobre|entre|uma|um|o|a)$/i.test(h))) return 'intertítulo truncado';
+  if (h2s.some(h => h.split(/\s+/).filter(Boolean).length < 4)) return 'intertítulo com menos de 4 palavras';
+  if (h2s.some(h => /\b(de|da|do|das|dos|em|no|na|para|com|por|que|se|contra|sobre|entre|uma|um|o|a|estar|fazer|tem|ter|ser|vai|pode|deve|chegar|cheguei|publicar|analisar|avaliar|investigar|decidir|apurar|abrir|designar|encaminhar|filiado|ligado)$/i.test(h))) return 'intertítulo truncado';
   if (h2s.some(h => /^(Contexto|Desdobramentos?|Mais informações|Detalhes da notícia|Próximos passos)$/i.test(h))) return 'intertítulo genérico proibido';
   if (!aeoValido(r.aeo)) return 'AEO incompleto';
   if (/capit[aã]o\s+assum[cç][aã]o/i.test(JSON.stringify(r.aeo || []))) return 'Capitão Assumção não pode aparecer no AEO nesta fase';
