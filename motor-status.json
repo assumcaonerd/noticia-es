@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-30T13:49:26.159Z",
+  "atualizadoEm": "2026-09-30T14:17:48.358Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 35,
+  "novasPautas": 33,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -100,11 +100,9 @@
     },
     {
       "fonte": "Polícia Militar do ES",
-      "ok": true,
-      "encontrados": 0,
-      "capa": false,
-      "rota": "https://pm.es.gov.br/Noticias",
-      "fallback": false
+      "ok": false,
+      "erro": "https://pm.es.gov.br/Noticias -> The operation was aborted due to timeout | https://pm.es.gov.br/noticias -> 500 Internal Server Error",
+      "capa": false
     },
     {
       "fonte": "Polícia Penal do ES",
@@ -199,10 +197,8 @@
     },
     {
       "fonte": "Câmara dos Deputados",
-      "ok": true,
-      "encontrados": 0,
-      "rota": "https://www.camara.leg.br/noticias/rss/ultimas",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.camara.leg.br/noticias/rss/ultimas -> fetch failed"
     },
     {
       "fonte": "Agência Brasil - Política",
@@ -228,14 +224,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 4,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 3,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -261,13 +257,13 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 8,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-30T13:51:19.842Z",
+    "atualizadoEm": "2026-09-30T14:22:15.836Z",
     "novas": 6,
     "fontes": [
       {
@@ -328,7 +324,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-30T13:51:21.379Z",
+    "atualizadoEm": "2026-09-30T14:22:17.409Z",
     "novas": 0,
     "fontes": [
       {
@@ -344,13 +340,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-30T13:51:22.352Z",
+    "atualizadoEm": "2026-09-30T14:22:18.306Z",
     "ok": true,
     "erro": null,
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-30T13:51:23.209Z",
+    "atualizadoEm": "2026-09-30T14:22:19.275Z",
     "novas": 0,
     "fontes": [
       {
