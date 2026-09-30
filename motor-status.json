@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-30T05:17:43.552Z",
+  "atualizadoEm": "2026-09-30T06:17:47.192Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 48,
+  "novasPautas": 46,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -199,10 +199,8 @@
     },
     {
       "fonte": "Câmara dos Deputados",
-      "ok": true,
-      "encontrados": 0,
-      "rota": "https://www.camara.leg.br/noticias/rss/ultimas",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.camara.leg.br/noticias/rss/ultimas -> fetch failed"
     },
     {
       "fonte": "Agência Brasil - Política",
@@ -228,7 +226,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 8,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -261,13 +259,13 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 10,
+      "encontrados": 11,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-30T05:21:22.318Z",
+    "atualizadoEm": "2026-09-30T06:20:52.973Z",
     "novas": 0,
     "fontes": [
       {
@@ -278,12 +276,12 @@
       {
         "fonte": "YouTube Folha Vitória",
         "ok": false,
-        "erro": "500 Internal Server Error"
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES",
         "ok": false,
-        "erro": "500 Internal Server Error"
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -328,7 +326,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-30T05:21:23.762Z",
+    "atualizadoEm": "2026-09-30T06:20:53.895Z",
     "novas": 0,
     "fontes": [
       {
@@ -344,13 +342,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-30T05:21:24.939Z",
+    "atualizadoEm": "2026-09-30T06:20:54.737Z",
     "ok": true,
     "erro": null,
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-30T05:21:26.720Z",
+    "atualizadoEm": "2026-09-30T06:20:56.010Z",
     "novas": 0,
     "fontes": [
       {
