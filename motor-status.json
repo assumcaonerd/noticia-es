@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-30T03:17:40.560Z",
+  "atualizadoEm": "2026-09-30T04:17:47.401Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 47,
+  "novasPautas": 50,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -140,11 +140,9 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://ipbvit.org.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://ipbvit.org.br/ -> fetch failed",
+      "capa": true
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -261,13 +259,13 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 10,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-30T03:19:56.971Z",
+    "atualizadoEm": "2026-09-30T04:19:57.824Z",
     "novas": 0,
     "fontes": [
       {
@@ -328,7 +326,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-30T03:19:58.266Z",
+    "atualizadoEm": "2026-09-30T04:19:58.737Z",
     "novas": 0,
     "fontes": [
       {
@@ -344,13 +342,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-30T03:19:59.123Z",
+    "atualizadoEm": "2026-09-30T04:19:59.550Z",
     "ok": true,
     "erro": null,
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-30T03:20:00.200Z",
+    "atualizadoEm": "2026-09-30T04:20:00.413Z",
     "novas": 0,
     "fontes": [
       {
