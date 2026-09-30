@@ -37,6 +37,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+      - name: Instalar ImageMagick para capas a lápis
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
 
       - name: Hospedar capa OG de O calhorda tem nome no Notícia ES
         shell: bash
@@ -136,7 +138,7 @@ jobs:
           set -euo pipefail
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add m sitemap.xml sitemap-news.xml rss.xml llms.txt assets/og editorial-37.js editorial-39.js editorial-41.js editorial-42.js scripts/validar-cards-sociais.mjs
+          git add m imagens/lapis sitemap.xml sitemap-news.xml rss.xml llms.txt assets/og editorial-37.js editorial-39.js editorial-41.js editorial-42.js scripts/validar-cards-sociais.mjs
           if git diff --cached --quiet; then
             echo "Nenhuma página estática nova."
             exit 0
