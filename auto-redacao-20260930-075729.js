@@ -1,7 +1,7 @@
 const noticiasAutoRedacao20260930075729 = [
   {
     id: 26093007572901,
-    pautaId: "26093007572901",
+    pautaId: "767dd0db4760baf2",
     slug: "candidatos-ao-governo-do-es-sobem-o-tom-em-ultimo-debate-antes-das-eleicoes",
     titulo: "Debate no ES reúne críticas e propostas entre candidatos",
     categoria: "Política ES",
@@ -22,7 +22,7 @@ const noticiasAutoRedacao20260930075729 = [
   },
   {
     id: 26093007572902,
-    pautaId: "26093007572902",
+    pautaId: "c9a4b12f345ee4d4",
     slug: "quem-esta-de-verdade-na-disputa-pela-camara-dos-deputados-no-es-atualizado",
     titulo: "Disputa pela Câmara no ES reúne chapas por 10 vagas",
     categoria: "Política ES",

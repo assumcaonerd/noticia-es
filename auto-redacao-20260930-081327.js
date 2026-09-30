@@ -1,7 +1,7 @@
 const noticiasAutoRedacao20260930081327 = [
   {
     id: 26093008132701,
-    pautaId: "26093008132701",
+    pautaId: "72218cab2bab538b",
     slug: "historico-de-escandalos-e-noticias-a-conta-gotas-levam-eleitor-a-associar-esquerda-ao-mast",
     titulo: "Datafolha: eleitor associa mais a esquerda ao caso Master",
     categoria: "Economia",
@@ -22,7 +22,7 @@ const noticiasAutoRedacao20260930081327 = [
   },
   {
     id: 26093008132702,
-    pautaId: "26093008132702",
+    pautaId: "35fd573ea25f4fba",
     slug: "opiniao-gabriel-casalecchi-e-victor-coelho-evangelicos-votam-a-direita-mesmo-sem-indicacao",
     titulo: "Pesquisa aponta peso da convivência no voto evangélico",
     categoria: "Fé",
@@ -43,7 +43,7 @@ const noticiasAutoRedacao20260930081327 = [
   },
   {
     id: 26093008132703,
-    pautaId: "26093008132703",
+    pautaId: "a64a02c1d0f63284",
     slug: "lula-liga-ao-vivo-para-dino-do-stf-e-e-questionado-por-flavio-bolsonaro",
     titulo: "Lula liga para Flávio Dino durante evento em Belém",
     categoria: "Justiça",
@@ -64,7 +64,7 @@ const noticiasAutoRedacao20260930081327 = [
   },
   {
     id: 26093008132704,
-    pautaId: "26093008132704",
+    pautaId: "80f02ad970c599ea",
     slug: "opiniao-marcos-augusto-goncalves-anarquia-que-corroi-stf-nao-vai-acabar-antes-da-eleicao",
     titulo: "Coluna da Folha critica tensão interna no STF",
     categoria: "Opinião",
