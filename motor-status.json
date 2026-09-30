@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-30T09:17:47.839Z",
+  "atualizadoEm": "2026-09-30T10:17:49.130Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 48,
+  "novasPautas": 38,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -199,8 +199,10 @@
     },
     {
       "fonte": "Câmara dos Deputados",
-      "ok": false,
-      "erro": "https://www.camara.leg.br/noticias/rss/ultimas -> fetch failed"
+      "ok": true,
+      "encontrados": 0,
+      "rota": "https://www.camara.leg.br/noticias/rss/ultimas",
+      "fallback": false
     },
     {
       "fonte": "Agência Brasil - Política",
@@ -233,7 +235,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 5,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -259,14 +261,14 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 17,
+      "encontrados": 9,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-30T09:21:24.472Z",
-    "novas": 6,
+    "atualizadoEm": "2026-09-30T10:22:28.205Z",
+    "novas": 5,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -326,7 +328,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-30T09:21:26.781Z",
+    "atualizadoEm": "2026-09-30T10:22:30.534Z",
     "novas": 0,
     "fontes": [
       {
@@ -342,13 +344,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-30T09:21:27.859Z",
+    "atualizadoEm": "2026-09-30T10:22:31.604Z",
     "ok": true,
     "erro": null,
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-30T09:21:28.972Z",
+    "atualizadoEm": "2026-09-30T10:22:32.681Z",
     "novas": 0,
     "fontes": [
       {
