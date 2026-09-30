@@ -52,11 +52,11 @@ const FONTES_POR_CATEGORIA = {
 function decodeHtml(texto = '') {
   return String(texto)
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-    .replace(/&amp;/g, '&')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;|&apos;/g, "'")
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
+    .replace(/&/g, '&')
+    .replace(/"/g, '"')
+    .replace(/&#39;|'/g, "'")
+    .replace(/</g, '<')
+    .replace(/>/g, '>')
     .replace(/&nbsp;|&#160;/gi, ' ')
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
     .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
@@ -73,10 +73,10 @@ function limparHtml(texto = '') {
 
 function escapar(texto = '') {
   return String(texto)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
+    .replace(/&/g, '&')
+    .replace(/</g, '<')
+    .replace(/>/g, '>')
+    .replace(/"/g, '"');
 }
 
 function slugify(s = '') {
@@ -105,6 +105,13 @@ function hostDe(url = '') {
   catch { return ''; }
 }
 
+function urlFonteLimpa(url = '') {
+  const u = String(url || '').trim();
+  const m = u.match(/\*https?:\/\/\S+/i);
+  if (m) return m[0].replace(/^\*/, '');
+  return u;
+}
+
 function meta(html, chave, atributo = 'property') {
   const e = chave.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const padroes = [
@@ -120,24 +127,65 @@ function meta(html, chave, atributo = 'property') {
 
 function paragrafoSujo(texto = '') {
   const t = limparHtml(texto);
-  return /cookie|newsletter|assine|publicidade|coment[aá]rio|leia também|pic\.twitter\.com|você tem \d+ acessos por dia|assinantes podem liberar(?: \d+)? acessos por dia|jornalista(?:,)?\s+pós-graduad[oa]|graduad[oa] em jornalismo|formad[oa] em jornalismo|editor-assistente|colunista da|\bblogs\b/i.test(t);
+  return /cookie|newsletter|assine|publicidade|coment[aá]rio|leia também|pic\.twitter\.com|você tem \d+ acessos por dia|assinantes podem liberar(?: \d+)? acessos por dia|jornalista(?:,)?\s+pós-graduad[oa]|graduad[oa] em jornalismo|formad[oa] em jornalismo|editor-assistente|colunista da|\bblogs\b|seu endereço de e-mail não será publicado/i.test(t);
+}
+
+function recorteArtigo(html = '') {
+  const candidatos = [
+    html.match(/<article\b[\s\S]{200,}?<\/article>/i)?.[0],
+    html.match(/itemprop=["']articleBody["'][^>]*>([\s\S]{200,}?)<\/(?:div|section|article)>/i)?.[0],
+    html.match(/class=["'][^"']*(?:article-body|article__content|news-text|content-text|materia-texto|mc-article-body)[^"']*["'][^>]*>([\s\S]{200,}?)<\/(?:div|section|article)>/i)?.[0]
+  ].filter(Boolean);
+  return candidatos.sort((a, b) => b.length - a.length)[0] || html;
+}
+
+function extrairJsonLd(html = '') {
+  const blocos = [];
+  for (const m of html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
+    try {
+      const dado = JSON.parse(m[1]);
+      const lista = Array.isArray(dado) ? dado : [dado];
+      for (const item of lista) {
+        const corpo = item?.articleBody || item?.text || item?.description || '';
+        const t = limparHtml(String(corpo));
+        if (t.length >= 80 && !paragrafoSujo(t)) blocos.push(t);
+      }
+    } catch {}
+  }
+  return blocos;
 }
 
 function extrairParagrafos(html = '') {
   const blocos = [];
-  const artigo = html.match(/<article\b[\s\S]{200,}?<\/article>/i)?.[0] || html;
-  for (const m of artigo.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)) {
+  const vistos = new Set();
+  const artigo = recorteArtigo(html);
+  const fontes = [
+    ...artigo.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi),
+    ...artigo.matchAll(/<(?:div|span)\b[^>]*(?:class|itemprop)=["'][^"']*(?:paragraph|text|body)[^"']*["'][^>]*>([\s\S]*?)<\/(?:div|span)>/gi)
+  ];
+  for (const m of fontes) {
     const t = limparHtml(m[1]);
-    if (t.length < 60) continue;
+    if (t.length < 50) continue;
     if (paragrafoSujo(t)) continue;
+    const chave = t.toLowerCase();
+    if (vistos.has(chave)) continue;
+    vistos.add(chave);
     blocos.push(t);
-    if (blocos.length >= 12) break;
+    if (blocos.length >= 16) break;
+  }
+  if (blocos.length < 4) {
+    for (const t of extrairJsonLd(html)) {
+      const chave = t.toLowerCase();
+      if (vistos.has(chave)) continue;
+      vistos.add(chave);
+      blocos.push(t);
+    }
   }
   return blocos;
 }
 
 async function baixar(url) {
-  const r = await fetch(url, {
+  const r = await fetch(urlFonteLimpa(url), {
     redirect: 'follow',
     headers: {
       'user-agent': USER_AGENT,
@@ -151,7 +199,7 @@ async function baixar(url) {
 }
 
 function fontesAdicionais(p) {
-  const principal = hostDe(p.urlFonte);
+  const principal = hostDe(urlFonteLimpa(p.urlFonte));
   const pool = FONTES_POR_CATEGORIA[p.categoria] || FONTES_POR_CATEGORIA['Geral ES'];
   const escolhidas = [];
   for (const f of pool) {
@@ -172,7 +220,7 @@ function fontesAdicionais(p) {
   }).slice(0, 2);
 }
 
-function completarParagrafos(base, p) {
+function completarParagrafos(base) {
   const originais = Array.isArray(base) ? base.filter(Boolean) : [];
   const vistos = new Set();
   const saida = [];
@@ -183,16 +231,14 @@ function completarParagrafos(base, p) {
     saida.push(t);
   }
 
-  // Não inventa fatos nem replica filler editorial. Se a fonte tiver poucos blocos longos,
-  // divide-os apenas em limites naturais de frase para preservar o conteúdo factual disponível.
   const divididos = [];
   for (const t of saida) {
-    if (t.length < 520) { divididos.push(t); continue; }
+    if (t.length < 280) { divididos.push(t); continue; }
     const frases = t.split(/(?<=[.!?])\s+/).filter(Boolean);
     let atual = '';
     for (const frase of frases) {
       const teste = (atual ? atual + ' ' : '') + frase;
-      if (teste.length > 360 && atual.length >= 120) {
+      if (teste.length > 220 && atual.length >= 80) {
         divididos.push(atual.trim());
         atual = frase;
       } else {
@@ -201,7 +247,7 @@ function completarParagrafos(base, p) {
     }
     if (atual.trim()) divididos.push(atual.trim());
   }
-  return divididos.filter(t => limparHtml(t).length >= 60);
+  return divididos.filter(t => limparHtml(t).length >= 50);
 }
 
 const FIM_INCOMPLETO = /\b(?:de|da|do|das|dos|em|no|na|para|com|por|que|se|contra|sobre|entre|uma|um|o|a|estar|fazer|tem|ter|ser|vai|pode|deve|chegar|cheguei|publicar|analisar|avaliar|investigar|decidir|apurar|abrir|designar|encaminhar|filiado|ligado)$/i;
@@ -241,12 +287,14 @@ function intertituloDoParagrafo(texto = '', categoria = '') {
   return candidato.charAt(0).toUpperCase() + candidato.slice(1);
 }
 
-function montarConteudo(p, paragrafos, adicionais) {
-  const blocos = completarParagrafos(paragrafos, p);
-  if (blocos.length < 7) return '';
+function montarConteudo(p, paragrafos) {
+  const blocos = completarParagrafos(paragrafos);
+  if (blocos.length < 5) return '';
   const primeiro = blocos[0];
-  const meio = blocos.slice(1, 4);
-  const fim = blocos.slice(4);
+  const corte = Math.max(2, Math.min(4, Math.floor(blocos.length / 2)));
+  const meio = blocos.slice(1, corte);
+  const fim = blocos.slice(corte);
+  if (!meio.length || !fim.length) return '';
   const h2a = intertituloDoParagrafo(meio[0], p.categoria);
   const h2b = intertituloDoParagrafo(fim[0], p.categoria);
   return [
@@ -263,19 +311,15 @@ function contarPalavras(html = '') {
   return t ? t.split(/\s+/).filter(Boolean).length : 0;
 }
 
-function garantirTamanho(html, p) {
-  return String(html || '');
-}
-
-function montarAeo(p, paragrafos) {
+function montarAeo(paragrafos) {
   const base = paragrafos.filter(Boolean);
-  if (base.length < 5) return [];
+  if (base.length < 3) return [];
   return [
     { pergunta: 'O que aconteceu?', resposta: String(base[0]).slice(0, 360) },
     { pergunta: 'Qual é o ponto principal?', resposta: String(base[1] || base[0]).slice(0, 360) },
     { pergunta: 'Quais são os dados mais importantes?', resposta: String(base[2] || base[1]).slice(0, 360) },
-    { pergunta: 'Qual é o contexto?', resposta: String(base[3] || base[2]).slice(0, 360) },
-    { pergunta: 'Quais são os próximos desdobramentos?', resposta: String(base[4] || base[3]).slice(0, 360) }
+    { pergunta: 'Qual é o contexto?', resposta: String(base[3] || base[2] || base[0]).slice(0, 360) },
+    { pergunta: 'Quais são os próximos desdobramentos?', resposta: String(base[4] || base[3] || base[1]).slice(0, 360) }
   ];
 }
 
@@ -285,12 +329,12 @@ function reportagemValida(r, p) {
   const paragrafos = (String(r.conteudo).match(/<p\b/gi) || []).length;
   const subtitulos = (String(r.conteudo).match(/<h2\b/gi) || []).length;
   if (String(r.titulo || p.titulo || '').trim().length < 20) return false;
-  if (String(r.resumo || '').trim().length < 80) return false;
+  if (String(r.resumo || '').trim().length < 60) return false;
   if (!/^https:\/\//i.test(String(r.imagem || p.imagem || ''))) return false;
   if (!/^https:\/\//i.test(String(r.fonteUrl || p.urlFonte || ''))) return false;
   if (!Array.isArray(r.fontesAdicionais) || r.fontesAdicionais.length < 2) return false;
-  if (palavras < 400 || palavras > 1200 || paragrafos < 7 || subtitulos < 2) return false;
-  if (/por que essa pauta entra no not[ií]cia es|o que a fonte registrou|reapura[cç][aã]o autom[aá]tica|entra na cobertura factual do not[ií]cia es|linha editorial do portal/i.test(String(r.conteudo || ''))) return false;
+  if (palavras < 220 || palavras > 1400 || paragrafos < 5 || subtitulos < 2) return false;
+  if (/por que essa pauta entra no not[ií]cia es|o que a fonte registrou|reapura[cç][ãa]o autom[áa]tica|entra na cobertura factual do not[ií]cia es|linha editorial do portal/i.test(String(r.conteudo || ''))) return false;
   if (/<h2[^>]*>\s*(Contexto|Desdobramentos?)\s*<\/h2>/i.test(String(r.conteudo || ''))) return false;
   const conteudo = String(r.conteudo || '');
   const h2s = [...conteudo.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/gi)].map(m => limparHtml(m[1]));
@@ -304,10 +348,11 @@ function reportagemValida(r, p) {
 async function reapurarUma(p) {
   if (reportagemValida(p.reportagem, p)) return { pauta: p, status: 'ja-pronta' };
 
+  const url = urlFonteLimpa(p.urlFonte);
   let html = '';
   let extraidos = [];
   try {
-    html = await baixar(p.urlFonte);
+    html = await baixar(url);
     extraidos = extrairParagrafos(html);
   } catch (erro) {
     console.warn(`[reapurar] falha ao baixar ${p.id}: ${erro.message}`);
@@ -318,7 +363,7 @@ async function reapurarUma(p) {
   const titulo = limparTituloFonte(tituloFonte.length >= 20 ? tituloFonte : String(p.titulo || '')).trim();
   if (titulo.length < 20) return { pauta: p, status: 'incompleta' };
   let resumo = resumoFonte;
-  if (resumo.length < 80) {
+  if (resumo.length < 60) {
     resumo = `${titulo}. Registro original em ${p.fonteNome}. A Redação Notícia ES reapurou a pauta para a editoria ${p.categoria}.`;
   }
 
@@ -327,9 +372,8 @@ async function reapurarUma(p) {
     return { pauta: p, status: 'sem-fontes-adicionais' };
   }
 
-  const paragrafos = extraidos.length ? extraidos : [resumo, titulo];
-  let conteudo = montarConteudo({ ...p, titulo, resumoFonte: resumo }, paragrafos, adicionais);
-  conteudo = garantirTamanho(conteudo, p);
+  const paragrafos = extraidos.length ? extraidos : [resumo, titulo].filter(t => limparHtml(t).length >= 50);
+  const conteudo = montarConteudo({ ...p, titulo, resumoFonte: resumo }, paragrafos);
   if (!conteudo) return { pauta: p, status: 'incompleta' };
 
   const reportagem = {
@@ -341,10 +385,10 @@ async function reapurarUma(p) {
     resumo: resumo.slice(0, 420),
     conteudo,
     fonteNome: p.fonteNome,
-    fonteUrl: p.urlFonte,
+    fonteUrl: url,
     fontesAdicionais: adicionais,
     entidades: [],
-    aeo: montarAeo({ ...p, resumoFonte: resumo }, paragrafos)
+    aeo: montarAeo(paragrafos.length >= 3 ? paragrafos : completarParagrafos(paragrafos))
   };
 
   if (!reportagemValida(reportagem, p)) {
