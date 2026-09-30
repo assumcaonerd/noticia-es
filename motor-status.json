@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-30T08:17:51.018Z",
+  "atualizadoEm": "2026-09-30T09:17:47.839Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 46,
+  "novasPautas": 48,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -199,10 +199,8 @@
     },
     {
       "fonte": "Câmara dos Deputados",
-      "ok": true,
-      "encontrados": 0,
-      "rota": "https://www.camara.leg.br/noticias/rss/ultimas",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.camara.leg.br/noticias/rss/ultimas -> fetch failed"
     },
     {
       "fonte": "Agência Brasil - Política",
@@ -228,21 +226,21 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 7,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 7,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
     {
       "fonte": "Correio Braziliense - Feed",
       "ok": false,
-      "erro": "https://www.correiobraziliense.com.br/rss/politica -> The operation was aborted due to timeout"
+      "erro": "https://www.correiobraziliense.com.br/rss/politica -> 404 Not Found"
     },
     {
       "fonte": "g1 - Política",
@@ -261,13 +259,13 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 20,
+      "encontrados": 17,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-30T08:22:29.488Z",
+    "atualizadoEm": "2026-09-30T09:21:24.472Z",
     "novas": 6,
     "fontes": [
       {
@@ -328,7 +326,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-30T08:22:32.016Z",
+    "atualizadoEm": "2026-09-30T09:21:26.781Z",
     "novas": 0,
     "fontes": [
       {
@@ -344,13 +342,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-30T08:22:32.991Z",
+    "atualizadoEm": "2026-09-30T09:21:27.859Z",
     "ok": true,
     "erro": null,
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-30T08:22:34.097Z",
+    "atualizadoEm": "2026-09-30T09:21:28.972Z",
     "novas": 0,
     "fontes": [
       {
