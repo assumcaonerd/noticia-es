@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-30T06:17:47.192Z",
+  "atualizadoEm": "2026-09-30T06:47:43.773Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 46,
+  "novasPautas": 45,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -140,11 +140,9 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://ipbvit.org.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://ipbvit.org.br/ -> fetch failed",
+      "capa": true
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -199,8 +197,10 @@
     },
     {
       "fonte": "Câmara dos Deputados",
-      "ok": false,
-      "erro": "https://www.camara.leg.br/noticias/rss/ultimas -> fetch failed"
+      "ok": true,
+      "encontrados": 0,
+      "rota": "https://www.camara.leg.br/noticias/rss/ultimas",
+      "fallback": false
     },
     {
       "fonte": "Agência Brasil - Política",
@@ -240,7 +240,7 @@
     {
       "fonte": "Correio Braziliense - Feed",
       "ok": false,
-      "erro": "https://www.correiobraziliense.com.br/rss/politica -> 404 Not Found"
+      "erro": "https://www.correiobraziliense.com.br/rss/politica -> The operation was aborted due to timeout"
     },
     {
       "fonte": "g1 - Política",
@@ -259,13 +259,13 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 11,
+      "encontrados": 14,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-30T06:20:52.973Z",
+    "atualizadoEm": "2026-09-30T06:51:05.836Z",
     "novas": 0,
     "fontes": [
       {
@@ -326,7 +326,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-30T06:20:53.895Z",
+    "atualizadoEm": "2026-09-30T06:51:07.466Z",
     "novas": 0,
     "fontes": [
       {
@@ -342,13 +342,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-30T06:20:54.737Z",
+    "atualizadoEm": "2026-09-30T06:51:08.488Z",
     "ok": true,
     "erro": null,
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-30T06:20:56.010Z",
+    "atualizadoEm": "2026-09-30T06:51:09.591Z",
     "novas": 0,
     "fontes": [
       {
