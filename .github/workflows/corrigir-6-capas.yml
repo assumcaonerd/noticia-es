@@ -1,0 +1,47 @@
+name: Corrigir 6 capas a lápis
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/corrigir-6-capas.mjs'
+      - '.github/workflows/corrigir-6-capas.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: corrigir-6-capas
+  cancel-in-progress: true
+
+jobs:
+  corrigir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Instalar ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+      - name: Gerar as seis capas
+        run: node scripts/corrigir-6-capas.mjs
+      - name: Gravar capas
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Notícia ES Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add imagens/lapis/
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração nas capas."
+            exit 0
+          fi
+          git commit -m "design: corrige 6 capas como desenho a lápis"
+          git pull --rebase -X theirs origin main
+          git push origin main
