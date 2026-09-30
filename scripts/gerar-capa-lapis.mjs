@@ -5,9 +5,11 @@ import path from 'node:path';
 
 const RAIZ = process.cwd();
 const DESTINO = path.join(RAIZ, 'imagens', 'lapis');
+const TMP = path.join(RAIZ, '.tmp-capas-lapis');
 const LOTE = path.join(RAIZ, 'lote-redacao.json');
 const LARGURA = 1200;
 const ALTURA = 630;
+const INVALIDA = /(auto-(politica|seguranca)|placeholder|fallback|default[-_]?image|og[-_]?default|\/logo[._/-]|logo\.(svg|png|jpg|jpeg|webp)(\?|$)|imagens\/auto-.*\.svg)/i;
 
 const CORES = {
   'Política ES': { fundo: '#1b2a4a', faixa: '#c9a227' },
@@ -52,8 +54,28 @@ function quebrarTitulo(titulo = '', max = 42) {
   return linhas.slice(0, 4).join('\n');
 }
 
-function jaELapis(url = '') {
-  return /^https:\/\/noticiaes\.com\.br\/imagens\/lapis\/[a-z0-9._-]+\.(?:jpg|jpeg|png)(?:\?.*)?$/i.test(String(url || '').trim());
+function ehLapis(url = '') {
+  return /^https:\/\/noticiaes\.com\.br\/imagens\/lapis\//i.test(String(url || '').trim());
+}
+
+function fotoValida(url = '') {
+  const u = String(url || '').trim();
+  if (!/^https:\/\//i.test(u)) return false;
+  if (/\.svg(\?|$)/i.test(u)) return false;
+  if (INVALIDA.test(u)) return false;
+  if (ehLapis(u)) return false;
+  return true;
+}
+
+function fotoFonte(pauta, reportagem) {
+  const candidatos = [
+    reportagem?.imagemOriginal,
+    reportagem?.imagemFonte,
+    pauta?.imagemOriginal,
+    pauta?.imagem,
+    reportagem?.imagem
+  ];
+  return candidatos.map(x => String(x || '').trim()).find(fotoValida) || '';
 }
 
 function run(cmd, args) {
@@ -69,14 +91,41 @@ function run(cmd, args) {
   });
 }
 
-async function gerarUma(titulo, categoria, slug) {
-  await fs.mkdir(DESTINO, { recursive: true });
-  const arquivo = `${slug}.jpg`;
-  const destino = path.join(DESTINO, arquivo);
+async function baixarFoto(url, destino) {
+  const res = await fetch(url, {
+    redirect: 'follow',
+    headers: { 'user-agent': 'Mozilla/5.0 NoticiaESBot/2.6 (+https://noticiaes.com.br)' },
+    signal: AbortSignal.timeout(25000)
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const tipo = String(res.headers.get('content-type') || '');
+  if (tipo && !/image\//i.test(tipo) && !/octet-stream/i.test(tipo)) {
+    throw new Error(`tipo não é imagem: ${tipo}`);
+  }
+  const buf = Buffer.from(await res.arrayBuffer());
+  if (buf.length < 4000) throw new Error(`arquivo pequeno demais (${buf.length} bytes)`);
+  await fs.writeFile(destino, buf);
+}
+
+async function desenharLapis(entrada, saida) {
+  await run('convert', [
+    entrada, '-auto-orient',
+    '-resize', `${LARGURA}x${ALTURA}^`,
+    '-gravity', 'center', '-extent', `${LARGURA}x${ALTURA}`,
+    '-colorspace', 'Gray',
+    '-sketch', '0x20+120',
+    '-contrast-stretch', '1%x1%',
+    '-brightness-contrast', '6x10',
+    '-unsharp', '0x0.8+0.7+0',
+    '-quality', '88',
+    saida
+  ]);
+}
+
+async function gerarCartao(titulo, categoria, saida) {
   const paleta = CORES[categoria] || CORES.padrao;
   const texto = quebrarTitulo(titulo, 36);
   const editoria = String(categoria || 'Notícia ES').toUpperCase();
-
   await run('convert', [
     '-size', `${LARGURA}x${ALTURA}`,
     `xc:${paleta.fundo}`,
@@ -97,16 +146,16 @@ async function gerarUma(titulo, categoria, slug) {
     '-fill', '#d7c9a3',
     '-annotate', '+48+560', 'NOTÍCIA ES  ·  redação própria',
     '-quality', '86',
-    destino
+    saida
   ]);
-
-  const url = `https://noticiaes.com.br/imagens/lapis/${arquivo}`;
-  return { arquivo, url, destino };
 }
+
+await fs.mkdir(DESTINO, { recursive: true });
+await fs.mkdir(TMP, { recursive: true });
 
 const lote = JSON.parse(await fs.readFile(LOTE, 'utf8'));
 const candidatas = Array.isArray(lote.candidatas) ? lote.candidatas : [];
-const diagnostico = { geradas: 0, reaproveitadas: 0, puladas: 0, falhas: 0 };
+const diagnostico = { geradas: 0, reaproveitadas: 0, reserva: 0, puladas: 0, falhas: 0 };
 
 for (const p of candidatas) {
   const r = p.reportagem;
@@ -117,29 +166,61 @@ for (const p of candidatas) {
   const titulo = String(r.titulo || p.titulo || '').trim();
   const slug = slugify(r.slug || titulo || p.id) || `pauta-${p.id}`;
   const categoria = String(r.categoria || p.categoria || '').trim();
-
-  if (jaELapis(r.imagem)) {
-    r.redacaoPropria = true;
-    r.origemTexto = 'redacao-noticia-es';
-    diagnostico.reaproveitadas++;
-    continue;
-  }
+  const fonte = fotoFonte(p, r);
+  const arquivo = `${slug}.jpg`;
+  const saida = path.join(DESTINO, arquivo);
+  const urlFinal = `https://noticiaes.com.br/imagens/lapis/${arquivo}`;
 
   try {
-    const capa = await gerarUma(titulo, categoria, slug);
-    r.imagem = capa.url;
+    if (fonte) {
+      const entrada = path.join(TMP, `${slug}.orig`);
+      await baixarFoto(fonte, entrada);
+      await desenharLapis(entrada, saida);
+      r.imagemOriginal = fonte;
+      r.imagem = urlFinal;
+      r.imagemX = urlFinal;
+      r.redacaoPropria = true;
+      r.origemTexto = 'redacao-noticia-es';
+      r.slug = slug;
+      diagnostico.geradas++;
+      console.log(`[lapis] ${p.id}: sketch de ${fonte} -> ${arquivo}`);
+      continue;
+    }
+
+    if (ehLapis(r.imagem)) {
+      r.redacaoPropria = true;
+      r.origemTexto = 'redacao-noticia-es';
+      diagnostico.reaproveitadas++;
+      continue;
+    }
+
+    await gerarCartao(titulo, categoria, saida);
+    r.imagem = urlFinal;
+    r.imagemX = urlFinal;
     r.redacaoPropria = true;
     r.origemTexto = 'redacao-noticia-es';
     r.slug = slug;
-    diagnostico.geradas++;
-    console.log(`[lapis] ${p.id}: ${capa.arquivo}`);
+    diagnostico.reserva++;
+    console.warn(`[lapis] ${p.id}: sem foto da fonte; cartão de reserva`);
   } catch (erro) {
-    diagnostico.falhas++;
-    console.warn(`[lapis] ${p.id}: ${erro.message}`);
+    try {
+      await gerarCartao(titulo, categoria, saida);
+      r.imagem = urlFinal;
+      r.imagemX = urlFinal;
+      r.redacaoPropria = true;
+      r.origemTexto = 'redacao-noticia-es';
+      r.slug = slug;
+      diagnostico.reserva++;
+      console.warn(`[lapis] ${p.id}: falhou sketch (${erro.message}); cartão de reserva`);
+    } catch (erro2) {
+      diagnostico.falhas++;
+      console.warn(`[lapis] ${p.id}: ${erro.message} / ${erro2.message}`);
+    }
   }
 }
 
+await fs.rm(TMP, { recursive: true, force: true });
 lote.diagnosticoLapis = diagnostico;
 lote.lapisEm = new Date().toISOString();
 await fs.writeFile(LOTE, JSON.stringify(lote, null, 2) + '\n', 'utf8');
-console.log(`[lapis] geradas=${diagnostico.geradas} reaproveitadas=${diagnostico.reaproveitadas} puladas=${diagnostico.puladas} falhas=${diagnostico.falhas}`);
+console.log(`[lapis] geradas=${diagnostico.geradas} reserva=${diagnostico.reserva} reaproveitadas=${diagnostico.reaproveitadas} puladas=${diagnostico.puladas} falhas=${diagnostico.falhas}`);
