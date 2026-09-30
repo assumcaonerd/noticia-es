@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-30T04:17:47.401Z",
+  "atualizadoEm": "2026-09-30T05:17:43.552Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 50,
+  "novasPautas": 48,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -45,7 +45,7 @@
     {
       "fonte": "A Gazeta - Política",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 4,
       "capa": false,
       "rota": "https://www.agazeta.com.br/es/politica",
       "fallback": false
@@ -140,9 +140,11 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": false,
-      "erro": "https://ipbvit.org.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://ipbvit.org.br/",
+      "fallback": false
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -265,7 +267,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-30T04:19:57.824Z",
+    "atualizadoEm": "2026-09-30T05:21:22.318Z",
     "novas": 0,
     "fontes": [
       {
@@ -276,12 +278,12 @@
       {
         "fonte": "YouTube Folha Vitória",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube ALES",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -326,7 +328,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-30T04:19:58.737Z",
+    "atualizadoEm": "2026-09-30T05:21:23.762Z",
     "novas": 0,
     "fontes": [
       {
@@ -342,13 +344,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-30T04:19:59.550Z",
+    "atualizadoEm": "2026-09-30T05:21:24.939Z",
     "ok": true,
     "erro": null,
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-30T04:20:00.413Z",
+    "atualizadoEm": "2026-09-30T05:21:26.720Z",
     "novas": 0,
     "fontes": [
       {
