@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-30T14:17:48.358Z",
+  "atualizadoEm": "2026-09-30T15:17:51.182Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 33,
+  "novasPautas": 42,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -45,7 +45,7 @@
     {
       "fonte": "A Gazeta - Política",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 4,
       "capa": false,
       "rota": "https://www.agazeta.com.br/es/politica",
       "fallback": false
@@ -100,9 +100,11 @@
     },
     {
       "fonte": "Polícia Militar do ES",
-      "ok": false,
-      "erro": "https://pm.es.gov.br/Noticias -> The operation was aborted due to timeout | https://pm.es.gov.br/noticias -> 500 Internal Server Error",
-      "capa": false
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://pm.es.gov.br/Noticias",
+      "fallback": false
     },
     {
       "fonte": "Polícia Penal do ES",
@@ -197,8 +199,10 @@
     },
     {
       "fonte": "Câmara dos Deputados",
-      "ok": false,
-      "erro": "https://www.camara.leg.br/noticias/rss/ultimas -> fetch failed"
+      "ok": true,
+      "encontrados": 0,
+      "rota": "https://www.camara.leg.br/noticias/rss/ultimas",
+      "fallback": false
     },
     {
       "fonte": "Agência Brasil - Política",
@@ -224,14 +228,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 8,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 2,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -257,13 +261,13 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 11,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-30T14:22:15.836Z",
+    "atualizadoEm": "2026-09-30T15:20:02.975Z",
     "novas": 6,
     "fontes": [
       {
@@ -324,7 +328,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-30T14:22:17.409Z",
+    "atualizadoEm": "2026-09-30T15:20:04.449Z",
     "novas": 0,
     "fontes": [
       {
@@ -340,13 +344,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-30T14:22:18.306Z",
+    "atualizadoEm": "2026-09-30T15:20:05.356Z",
     "ok": true,
     "erro": null,
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-30T14:22:19.275Z",
+    "atualizadoEm": "2026-09-30T15:20:06.227Z",
     "novas": 0,
     "fontes": [
       {
