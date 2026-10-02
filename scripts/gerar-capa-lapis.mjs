@@ -74,16 +74,21 @@ async function baixarFoto(url, destino) {
   await fs.writeFile(destino, buf);
 }
 
+// Prompt da capa: desenho a lápis feito só da foto da pauta.
+// Sem cartão gráfico, sem título sobreposto, sem logo de outro veículo.
+// A foto entra cortada nas bordas para sair marca d'água, vira grafite e ganha papel.
 async function desenharLapis(entrada, saida) {
   await run('convert', [
     entrada, '-auto-orient',
+    '-gravity', 'center', '-crop', '86%x82%+0+0', '+repage',
     '-resize', `${LARGURA}x${ALTURA}^`,
     '-gravity', 'center', '-extent', `${LARGURA}x${ALTURA}`,
     '-colorspace', 'Gray',
-    '-sketch', '0x20+120',
-    '-contrast-stretch', '1%x1%',
-    '-brightness-contrast', '6x10',
-    '-unsharp', '0x0.8+0.7+0',
+    '-blur', '0x0.4',
+    '-sketch', '0x32+145',
+    '-contrast-stretch', '3%x2%',
+    '-brightness-contrast', '12x28',
+    '-attenuate', '0.35', '+noise', 'Gaussian',
     '-quality', '88',
     saida
   ]);

@@ -40,16 +40,16 @@ for (const item of ITENS) {
   if (!res.ok) throw new Error(`${item.slug}: HTTP ${res.status}`);
   await fs.writeFile(entrada, Buffer.from(await res.arrayBuffer()));
   await run('convert', [
-    entrada,
-    '-auto-orient',
+    entrada, '-auto-orient',
+    '-gravity', 'center', '-crop', '86%x82%+0+0', '+repage',
     '-resize', '1200x630^',
-    '-gravity', 'center',
-    '-extent', '1200x630',
+    '-gravity', 'center', '-extent', '1200x630',
     '-colorspace', 'Gray',
-    '-sketch', '0x20+120',
-    '-contrast-stretch', '1%x1%',
-    '-brightness-contrast', '6x10',
-    '-unsharp', '0x0.8+0.7+0',
+    '-blur', '0x0.4',
+    '-sketch', '0x32+145',
+    '-contrast-stretch', '3%x2%',
+    '-brightness-contrast', '12x28',
+    '-attenuate', '0.35', '+noise', 'Gaussian',
     '-quality', '88',
     saida
   ]);
