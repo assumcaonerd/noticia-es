@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-02T19:17:50.767Z",
+  "atualizadoEm": "2026-10-02T20:17:47.289Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 82,
+  "novasPautas": 116,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -45,7 +45,7 @@
     {
       "fonte": "A Gazeta - Política",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 5,
       "capa": false,
       "rota": "https://www.agazeta.com.br/es/politica",
       "fallback": false
@@ -192,11 +192,9 @@
     },
     {
       "fonte": "ES Hoje",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://www.eshoje.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.eshoje.com.br/ -> 403 Forbidden",
+      "capa": true
     },
     {
       "fonte": "Século Diário",
@@ -208,11 +206,9 @@
     },
     {
       "fonte": "ES Hoje - Política",
-      "ok": true,
-      "encontrados": 0,
-      "capa": false,
-      "rota": "https://www.eshoje.com.br/politica/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.eshoje.com.br/politica/ -> 403 Forbidden",
+      "capa": false
     },
     {
       "fonte": "Poder360",
@@ -224,9 +220,11 @@
     },
     {
       "fonte": "Congresso em Foco",
-      "ok": false,
-      "erro": "https://congressoemfoco.uol.com.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://congressoemfoco.uol.com.br/",
+      "fallback": false
     },
     {
       "fonte": "Jovem Pan - Política",
@@ -294,14 +292,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 6,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 4,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -380,8 +378,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-02T19:20:59.777Z",
-    "novas": 2,
+    "atualizadoEm": "2026-10-02T20:21:02.501Z",
+    "novas": 3,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -396,7 +394,7 @@
       {
         "fonte": "YouTube ALES",
         "ok": true,
-        "encontrados": 2
+        "encontrados": 1
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -416,7 +414,7 @@
       {
         "fonte": "YouTube ALES (legado)",
         "ok": true,
-        "encontrados": 2
+        "encontrados": 1
       },
       {
         "fonte": "X Governo ES",
@@ -441,7 +439,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-02T19:21:02.035Z",
+    "atualizadoEm": "2026-10-02T20:21:05.255Z",
     "novas": 0,
     "fontes": [
       {
@@ -457,13 +455,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-02T19:21:03.289Z",
+    "atualizadoEm": "2026-10-02T20:21:06.257Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-02T19:21:13.855Z",
+    "atualizadoEm": "2026-10-02T20:21:16.815Z",
     "novas": 0,
     "fontes": [
       {
