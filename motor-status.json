@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-02T18:41:45.533Z",
+  "atualizadoEm": "2026-10-02T19:17:50.767Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 127,
+  "novasPautas": 82,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -192,9 +192,11 @@
     },
     {
       "fonte": "ES Hoje",
-      "ok": false,
-      "erro": "https://www.eshoje.com.br/ -> 403 Forbidden",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://www.eshoje.com.br/",
+      "fallback": false
     },
     {
       "fonte": "Século Diário",
@@ -206,9 +208,11 @@
     },
     {
       "fonte": "ES Hoje - Política",
-      "ok": false,
-      "erro": "https://www.eshoje.com.br/politica/ -> 403 Forbidden",
-      "capa": false
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://www.eshoje.com.br/politica/",
+      "fallback": false
     },
     {
       "fonte": "Poder360",
@@ -220,11 +224,9 @@
     },
     {
       "fonte": "Congresso em Foco",
-      "ok": true,
-      "encontrados": 6,
-      "capa": true,
-      "rota": "https://congressoemfoco.uol.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://congressoemfoco.uol.com.br/ -> fetch failed",
+      "capa": true
     },
     {
       "fonte": "Jovem Pan - Política",
@@ -292,14 +294,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 3,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 6,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -325,7 +327,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 8,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -378,7 +380,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-02T18:45:16.757Z",
+    "atualizadoEm": "2026-10-02T19:20:59.777Z",
     "novas": 2,
     "fontes": [
       {
@@ -439,7 +441,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-02T18:45:19.164Z",
+    "atualizadoEm": "2026-10-02T19:21:02.035Z",
     "novas": 0,
     "fontes": [
       {
@@ -455,13 +457,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-02T18:45:20.196Z",
+    "atualizadoEm": "2026-10-02T19:21:03.289Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-02T18:45:30.754Z",
+    "atualizadoEm": "2026-10-02T19:21:13.855Z",
     "novas": 0,
     "fontes": [
       {
