@@ -297,7 +297,7 @@ async function principal() {
   const saida = {
     atualizadoEm: AGORA.toISOString(),
     observacao: 'Pautas coletadas automaticamente. Folha, Estadão, O Globo e Veja entram como pauta bruta; a reescrita de Política Nacional aplica a régua editorial. Não publicar sem pesquisa multifonte e redação própria.',
-    portaisPrioritarios: ['agazeta.com.br', 'folhavitoria.com.br', 'tribunaonline.com.br', 'revistaoeste.com', 'gazetadopovo.com.br', 'pm.es.gov.br', 'sejus.es.gov.br', 'iases.es.gov.br', 'camara.leg.br', 'folha.uol.com.br', 'estadao.com.br', 'oglobo.globo.com', 'veja.abril.com.br', 'correiobraziliense.com.br', 'g1.globo.com', 'uol.com.br', 'cnnbrasil.com.br', 'band.com.br', 'cbn.globo.com', 'poder360.com.br', 'jovempan.com.br', 'metropoles.com', 'eshoje.com.br', 'seculodiario.com.br', 'tse.jus.br'],
+    portaisPrioritarios: ['agazeta.com.br', 'folhavitoria.com.br', 'tribunaonline.com.br', 'revistaoeste.com', 'gazetadopovo.com.br', 'pm.es.gov.br', 'sejus.es.gov.br', 'iases.es.gov.br', 'camara.leg.br', 'folha.uol.com.br', 'estadao.com.br', 'oglobo.globo.com', 'veja.abril.com.br', 'correiobraziliense.com.br', 'g1.globo.com', 'uol.com.br', 'cnnbrasil.com.br', 'band.com.br', 'cbn.globo.com', 'poder360.com.br', 'jovempan.com.br', 'metropoles.com', 'seculodiario.com.br', 'tse.jus.br'],
     pautas: [...pendentes, ...publicadas]
   };
   await fs.writeFile(ARQUIVO_PAUTAS, `${JSON.stringify(saida, null, 2)}\n`, 'utf8');
