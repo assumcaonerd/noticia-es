@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-09-30T19:26:02.027Z",
+  "atualizadoEm": "2026-10-02T18:41:45.533Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 35,
+  "novasPautas": 127,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -191,6 +191,70 @@
       "fallback": false
     },
     {
+      "fonte": "ES Hoje",
+      "ok": false,
+      "erro": "https://www.eshoje.com.br/ -> 403 Forbidden",
+      "capa": true
+    },
+    {
+      "fonte": "Século Diário",
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://www.seculodiario.com.br/",
+      "fallback": false
+    },
+    {
+      "fonte": "ES Hoje - Política",
+      "ok": false,
+      "erro": "https://www.eshoje.com.br/politica/ -> 403 Forbidden",
+      "capa": false
+    },
+    {
+      "fonte": "Poder360",
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://www.poder360.com.br/",
+      "fallback": false
+    },
+    {
+      "fonte": "Congresso em Foco",
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://congressoemfoco.uol.com.br/",
+      "fallback": false
+    },
+    {
+      "fonte": "Jovem Pan - Política",
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://jovempan.com.br/noticias/politica",
+      "fallback": false
+    },
+    {
+      "fonte": "Metrópoles - Política",
+      "ok": true,
+      "encontrados": 6,
+      "capa": false,
+      "rota": "https://www.metropoles.com/brasil/politica-brasil",
+      "fallback": false
+    },
+    {
+      "fonte": "TSE Notícias",
+      "ok": false,
+      "erro": "https://www.tse.jus.br/comunicacao/noticias -> 403 Forbidden",
+      "capa": false
+    },
+    {
+      "fonte": "STF Notícias",
+      "ok": false,
+      "erro": "https://portal.stf.jus.br/noticias/ -> 403 Forbidden",
+      "capa": false
+    },
+    {
       "fonte": "Senado Notícias",
       "ok": true,
       "encontrados": 0,
@@ -228,14 +292,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 6,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 9,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -261,14 +325,61 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 9,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
+    },
+    {
+      "fonte": "Poder360 - Feed",
+      "ok": true,
+      "encontrados": 10,
+      "rota": "https://www.poder360.com.br/feed/",
+      "fallback": false
+    },
+    {
+      "fonte": "Jovem Pan - Feed",
+      "ok": true,
+      "encontrados": 10,
+      "rota": "https://jovempan.com.br/feed",
+      "fallback": false
+    },
+    {
+      "fonte": "Metrópoles - Feed",
+      "ok": true,
+      "encontrados": 20,
+      "rota": "https://www.metropoles.com/feed",
+      "fallback": false
+    },
+    {
+      "fonte": "BBC Brasil",
+      "ok": true,
+      "encontrados": 27,
+      "rota": "https://feeds.bbci.co.uk/portuguese/rss.xml",
+      "fallback": false
+    },
+    {
+      "fonte": "Agência Brasil - Economia",
+      "ok": true,
+      "encontrados": 10,
+      "rota": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml",
+      "fallback": false
+    },
+    {
+      "fonte": "InfoMoney",
+      "ok": true,
+      "encontrados": 10,
+      "rota": "https://www.infomoney.com.br/feed/",
+      "fallback": false
+    },
+    {
+      "fonte": "R7 Brasil",
+      "ok": false,
+      "erro": "https://noticias.r7.com/brasil/feed.xml -> 404 Not Found"
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-09-30T19:27:57.254Z",
-    "novas": 0,
+    "atualizadoEm": "2026-10-02T18:45:16.757Z",
+    "novas": 2,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -283,7 +394,7 @@
       {
         "fonte": "YouTube ALES",
         "ok": true,
-        "encontrados": 1
+        "encontrados": 2
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -303,7 +414,7 @@
       {
         "fonte": "YouTube ALES (legado)",
         "ok": true,
-        "encontrados": 1
+        "encontrados": 2
       },
       {
         "fonte": "X Governo ES",
@@ -328,7 +439,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-09-30T19:27:59.015Z",
+    "atualizadoEm": "2026-10-02T18:45:19.164Z",
     "novas": 0,
     "fontes": [
       {
@@ -344,13 +455,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-09-30T19:27:59.908Z",
+    "atualizadoEm": "2026-10-02T18:45:20.196Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-09-30T19:28:10.481Z",
+    "atualizadoEm": "2026-10-02T18:45:30.754Z",
     "novas": 0,
     "fontes": [
       {
