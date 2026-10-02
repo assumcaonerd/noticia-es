@@ -187,7 +187,7 @@ function tagXml(bloco, tag) {
   return decodeHtml(bloco.match(re)?.[1] || '').trim();
 }
 function parseRss(xml, fonte) {
-  const blocos = xml.match(/<item\\b[\\s\\S]*?<\\/item>/gi) || xml.match(/<entry\\b[\\s\\S]*?<\\/entry>/gi) || [];
+  const blocos = xml.match(/<item\b[\s\S]*?<\/item>/gi) || xml.match(/<entry\b[\s\S]*?<\/entry>/gi) || [];
   const itens = [];
   for (const bloco of blocos.slice(0, 30)) {
     const titulo = limparHtml(tagXml(bloco, 'title'));
@@ -204,15 +204,15 @@ function parseRss(xml, fonte) {
 }
 function extrairLinksLista(html, fonte, baseUrl = fonte.url) {
   const resultado = []; const vistos = new Set();
-  const re = /<a\\b[^>]*href=["']([^"'#]+)["'][^>]*>([\\s\\S]*?)<\\/a>/gi;
+  const re = /<a\b[^>]*href=["']([^"'#]+)["'][^>]*>([\s\S]*?)<\/a>/gi;
   let m;
   while ((m = re.exec(html)) && resultado.length < 80) {
     const texto = limparHtml(m[2]);
     if (texto.length < 25 || texto.length > 240 || texto.split(' ').length < 4) continue;
     let url; try { url = new URL(decodeHtml(m[1]), baseUrl); } catch { continue; }
     if (!fonte.hosts.includes(url.hostname)) continue;
-    if (/\\.(pdf|jpg|jpeg|png|gif|zip)$/i.test(url.pathname)) continue;
-    if (/\\/(autor|tag|categoria|category|busca|search|newsletter|assine|login)(\\/|$)/i.test(url.pathname)) continue;
+    if (/\.(pdf|jpg|jpeg|png|gif|zip)$/i.test(url.pathname)) continue;
+    if (/\/(autor|tag|categoria|category|busca|search|newsletter|assine|login)(\/|$)/i.test(url.pathname)) continue;
     const chave = url.href.split('#')[0];
     if (vistos.has(chave)) continue;
     vistos.add(chave);

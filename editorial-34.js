@@ -20,4 +20,4 @@ const materiasEditoriais34 = [
     publicadoEm: "2026-09-07T18:20:00-03:00"
   }
 ];
-if (typeof noticias !== \"undefined\") noticias.unshift(...materiasEditoriais34);
+if (typeof noticias !== "undefined") noticias.unshift(...materiasEditoriais34);
