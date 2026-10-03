@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import { spawn } from 'node:child_process';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { desenharLapis } from './lapis-filtro.mjs';
 
 const RAIZ = process.cwd();
 const DESTINO = path.join(RAIZ, 'imagens', 'lapis');
@@ -45,19 +45,6 @@ function fotoFonte(pauta, reportagem) {
   return candidatos.map(x => String(x || '').trim()).find(fotoValida) || '';
 }
 
-function run(cmd, args) {
-  return new Promise((resolve, reject) => {
-    const child = spawn(cmd, args, { stdio: ['ignore', 'pipe', 'pipe'] });
-    let err = '';
-    child.stderr.on('data', (b) => { err += b.toString(); });
-    child.on('error', reject);
-    child.on('close', (code) => {
-      if (code === 0) resolve();
-      else reject(new Error(`${cmd} saiu ${code}: ${err.slice(0, 400)}`));
-    });
-  });
-}
-
 async function baixarFoto(url, destino) {
   const res = await fetch(url, {
     redirect: 'follow',
@@ -74,26 +61,8 @@ async function baixarFoto(url, destino) {
   await fs.writeFile(destino, buf);
 }
 
-// Prompt da capa: desenho a lápis feito só da foto da pauta.
-// Sem cartão gráfico, sem título sobreposto, sem logo de outro veículo.
-// A foto entra cortada nas bordas para sair marca d'água, vira grafite e ganha papel.
-async function desenharLapis(entrada, saida) {
-  await run('convert', [
-    entrada, '-auto-orient',
-    '-gravity', 'center', '-crop', '86%x82%+0+0', '+repage',
-    '-resize', `${LARGURA}x${ALTURA}^`,
-    '-gravity', 'center', '-extent', `${LARGURA}x${ALTURA}`,
-    '-colorspace', 'Gray',
-    '-blur', '0x0.4',
-    '-sketch', '0x32+145',
-    '-contrast-stretch', '3%x2%',
-    '-brightness-contrast', '12x28',
-    '-attenuate', '0.35', '+noise', 'Gaussian',
-    '-quality', '88',
-    saida
-  ]);
-}
-
+// Capa: grafite fiel à foto da pauta, sem título, logo ou cartão.
+// O desenho sai de scripts/lapis-filtro.mjs para manter um único padrão.
 await fs.mkdir(DESTINO, { recursive: true });
 await fs.mkdir(TMP, { recursive: true });
 
@@ -131,7 +100,7 @@ for (const p of candidatas) {
     r.origemTexto = 'redacao-noticia-es';
     r.slug = slug;
     diagnostico.geradas++;
-    console.log(`[lapis] ${p.id}: sketch de ${fonte} -> ${arquivo}`);
+    console.log(`[lapis] ${p.id}: grafite de ${fonte} -> ${arquivo}`);
   } catch (erro) {
     diagnostico.falhas++;
     console.warn(`[lapis] ${p.id}: ${erro.message}`);

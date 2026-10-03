@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import { spawn } from 'node:child_process';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { desenharLapis } from './lapis-filtro.mjs';
 
 const RAIZ = process.cwd();
 const DESTINO = path.join(RAIZ, 'imagens', 'lapis');
@@ -15,15 +15,6 @@ const ITENS = [
   { slug: 'quem-esta-de-verdade-na-disputa-pela-camara-dos-deputados-no-es-atualizado', fonte: 'https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790607374382_2019_11_01_3rhbhhitd42.png' }
 ];
 
-function run(cmd, args) {
-  return new Promise((resolve, reject) => {
-    const p = spawn(cmd, args, { stdio: ['ignore', 'pipe', 'pipe'] });
-    let err = '';
-    p.stderr.on('data', b => { err += b.toString(); });
-    p.on('error', reject);
-    p.on('close', code => code === 0 ? resolve() : reject(new Error(`${cmd} saiu ${code}: ${err.slice(0,500)}`)));
-  });
-}
 
 await fs.mkdir(DESTINO, { recursive: true });
 const tmp = path.join(RAIZ, '.tmp-capas-lapis-6');
@@ -39,20 +30,7 @@ for (const item of ITENS) {
   });
   if (!res.ok) throw new Error(`${item.slug}: HTTP ${res.status}`);
   await fs.writeFile(entrada, Buffer.from(await res.arrayBuffer()));
-  await run('convert', [
-    entrada, '-auto-orient',
-    '-gravity', 'center', '-crop', '86%x82%+0+0', '+repage',
-    '-resize', '1200x630^',
-    '-gravity', 'center', '-extent', '1200x630',
-    '-colorspace', 'Gray',
-    '-blur', '0x0.4',
-    '-sketch', '0x32+145',
-    '-contrast-stretch', '3%x2%',
-    '-brightness-contrast', '12x28',
-    '-attenuate', '0.35', '+noise', 'Gaussian',
-    '-quality', '88',
-    saida
-  ]);
+  await desenharLapis(entrada, saida);
   console.log('[capas-6] ' + item.slug + '.jpg');
 }
 await fs.rm(tmp, { recursive: true, force: true });
