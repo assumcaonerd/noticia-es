@@ -1,85 +1,97 @@
 {
-  "geradoEm": "2026-10-03T01:48:07.082Z",
+  "geradoEm": "2026-10-03T03:48:07.976Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 60,
     "bloqueadas": 0,
     "bloqueadasEditoriais": 0,
     "semImagem": 0,
-    "duplicadasBasicas": 10,
-    "duplicadasSemanticas": 4,
-    "foraCategorias": 30
+    "duplicadasBasicas": 0,
+    "duplicadasSemanticas": 1,
+    "foraCategorias": 34
   },
-  "quantidadeCandidatas": 16,
+  "quantidadeCandidatas": 25,
   "candidatas": [
     {
-      "id": "7a5ab62cf9e7ecd0",
-      "titulo": "Exata OP: Michelle 25,3%; Bia 19,4%; Leila 18,5%; Erika 15,8% ao Senado",
+      "id": "0f6080f5bcfae1eb",
+      "titulo": "VÍDEO: como funcionam as emendas parlamentares?",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/distrito-federal/exata-op-michelle-253-bia-194-leila-185-erika-158-ao-senado",
-      "dataFonte": "2026-10-03T00:49:19.000Z",
-      "resumoFonte": "Pesquisa da Exata OP, divulgada nesta sexta-feira (2/10), mostra a ex-primeira do Brasil na liderança ao Senado pelo DF",
-      "imagem": "https://i.metroimg.com/WER6NNsN9NVp6qupKkQ_PgtHAy0xj68mBwrfvVnJ58I/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/08/michelle-leila-bia-e-erika.jpg",
-      "descobertaEm": "2026-10-03T01:17:44.041Z"
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/videos/noticia/2026/10/03/video-como-funcionam-as-emendas-parlamentares.ghtml",
+      "dataFonte": "2026-10-03T03:00:00.000Z",
+      "resumoFonte": "CONGRESSO: Entenda as emendas parlamentares Quando um deputado ou senador é eleito, ele não participa apenas da votação de leis. Os parlamentares também podem indicar onde uma parte dos recursos previstos no Orçamento federal deve ser aplicada — em uma obra, um hospital ou um projeto em determinado município, por exemplo. É o que se chama de emenda…",
+      "imagem": "https://s2-g1.glbimg.com/1jJHv9kqx7-pt6QUYZaZXPdsKI0=/1207x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/L/x/J86dCCRsa3A73bqUvSFw/54702520336-8cdcf7eaac-o-1-.jpg",
+      "descobertaEm": "2026-10-03T03:17:43.794Z"
     },
     {
-      "id": "b043c4a21847f0c8",
-      "titulo": "Trump nega banir exportações de diesel e cita eleições no Brasil",
+      "id": "8c283759099586dd",
+      "titulo": "Lula e Jair Bolsonaro são os mais reprovados entre os presidentes que buscaram reeleição",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/trump-nega-banir-exportacoes-de-diesel-e-cita-eleicoes-no-brasil/",
-      "dataFonte": "2026-10-02T23:53:33.000Z",
-      "resumoFonte": "Presidente também falou sobre o projeto de infraestrutura energética no Alasca com a Coreia do Sul que, se não avançar, Washington irá aumentar as tarifas contra o país",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Donald-Trump-e1790874404957.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-03T00:17:47.294Z",
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/03/lula-e-jair-bolsonaro-sao-os-mais-reprovados-entre-os-presidentes-que-buscaram-reeleicao.ghtml",
+      "dataFonte": "2026-10-03T03:00:00.000Z",
+      "resumoFonte": "O terceiro governo de Luiz Inácio Lula da Silva (PT) chega em seu quarto ano como um dos mais desaprovados nas pesquisas desde a redemocratização. Lula não consegue aprovação da maioria da população mesmo com melhora nos índices econômicos. O desemprego registra as menores taxas da série histórica e a inflação é menor quando comparada à do fim do…",
+      "imagem": "https://s2-g1.glbimg.com/EawxM-UrmXAGi3i581mAsJ5Vanw=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/F/O/KPAnPOSaA9eMtxZcF2Bw/lula-bolsonaro.jpg",
+      "descobertaEm": "2026-10-03T03:17:43.794Z"
+    },
+    {
+      "id": "cb843d9fff3ea90a",
+      "titulo": "Datafolha: Amigos, redes sociais, igreja e imprensa influenciam mais o voto ao final da eleição",
+      "categoria": "Fé e Sociedade",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/datafolha-amigos-redes-sociais-igreja-e-imprensa-influenciam-mais-o-voto-ao-final-da-eleicao.shtml",
+      "dataFonte": "2026-10-03T02:30:00.000Z",
+      "resumoFonte": "A influência de amigos, de perfis seguidos nas redes sociais e de líderes religiosos sobre o voto para presidente cresceu às vésperas do primeiro turno, mostra pesquisa Datafolha divulgada na sexta-feira (2). Leia mais (10/02/2026 - 23h30)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/02/17909650196abff51b5930d_1790965019_3x2_lg.jpg",
+      "descobertaEm": "2026-10-03T03:17:43.794Z",
       "reportagem": {
-        "titulo": "Trump nega banir exportações de diesel e cita eleições no Brasil",
-        "slug": "trump-nega-banir-exportacoes-de-diesel-e-cita-eleicoes-no-brasil",
-        "categoria": "Economia",
+        "titulo": "Datafolha: Amigos, redes sociais, igreja e imprensa influenciam mais o voto ao final da eleição",
+        "slug": "datafolha-amigos-redes-sociais-igreja-e-imprensa-influenciam-mais-o-voto-ao-final-da-eleic",
+        "categoria": "Fé e Sociedade",
         "data": "2026-10-02",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/trump-nega-banir-exportacoes-de-diesel-e-cita-eleicoes-no-brasil.jpg",
-        "resumo": "Presidente também falou sobre o projeto de infraestrutura energética no Alasca com a Coreia do Sul que, se não avançar, Washington irá aumentar as tarifas contra o país",
-        "conteudo": "<p>O presidente dos Estados Unidos, Donald Trump, negou na tarde desta sexta-feira (2) que o governo americano estivesse considerando, de fato, impor uma proibição às exportações de diesel e elogiou a contribuição europeia para a injeção de 100 milhões de barris de petróleo no mercado global.</p><h2>&quot;Nunca esteve realmente sobre a mesa&quot;, afirmou o presidente</h2><p>&quot;Nunca esteve realmente sobre a mesa&quot;, afirmou o presidente a jornalistas antes de uma viagem ao Alabama. &quot;Nós nunca íamos fazer um banimento de exportação de diesel&quot;.</p><p>O presidente também falou sobre o projeto de infraestrutura energética no Alasca com a Coreia do Sul que, se não avançar, Washington irá aumentar as tarifas contra o país.</p><h2>&quot;Se a Coreia do Sul não fizer o gasoduto,</h2><p>&quot;Se a Coreia do Sul não fizer o gasoduto, vamos cobrar mais deles&quot;, disse ele, ao afirmar que não se antecipou ao anunciar os investimentos.</p><p>Questionado sobre as eleições no Brasil, marcadas para o próximo domingo, Trump repetiu a mensagem de que os Estados Unidos estão &quot;monitorando de perto&quot; o pleito brasileiro.</p><p>O presidente dos Estados Unidos, Donald Trump, negou na tarde desta sexta-feira (2) que o governo americano estivesse considerando, de fato, impor uma proibição às exportações de diesel e elogiou a contribuição europeia para a injeção de 100 milhões de barris de petróleo no mercado global.</p><p>&quot;Nunca esteve realmente sobre a mesa&quot;, afirmou o presidente a jornalistas antes de uma viagem ao Alabama. &quot;Nós nunca íamos fazer um banimento de exportação de diesel&quot;. Leia Mais</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/trump-nega-banir-exportacoes-de-diesel-e-cita-eleicoes-no-brasil/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/datafolha-amigos-redes-sociais-igreja-e-imprensa-influenciam-mais-o-voto-ao-final-da-eleic.jpg",
+        "resumo": "Impacto da família na decisão também oscilou positivamente, mas cresceu menos que demais grupos",
+        "conteudo": "<p>A influência de amigos, de perfis seguidos nas redes sociais e de líderes religiosos sobre o voto para presidente cresceu às vésperas do primeiro turno, mostra pesquisa Datafolha divulgada na sexta-feira (2).</p><h2>Nos três casos, a parcela de eleitores que diz</h2><p>Nos três casos, a parcela de eleitores que diz considerar, muito ou pouco, a opinião desses grupos subiu 7 pontos percentuais em relação a julho. Os amigos próximos passaram de 36% para 43%, as redes sociais, de 32% para 39%, e os líderes da igreja, de 23% para 30%.</p><p>O Datafolha perguntou aos eleitores quanto a opinião de seis grupos de pessoas pesa no voto para Presidente da República: amigos próximos, cônjuge ou namorado, filhos, pessoas seguidas nas redes sociais, jornalistas e líderes da igreja.</p><p>Os entrevistados responderam se há muita, um pouco ou nenhuma influência.</p><h2>Influência de jornalistas e profissionais da imprensa no voto</h2><p>A influência de jornalistas e profissionais da imprensa no voto para o Executivo federal oscilou 4 pontos para cima, no limite da margem de erro. Em julho, 38% diziam que essas pessoas teriam muita ou um pouco de influência. Agora, são 42%.</p><p>Já a influência da família pouco mudou. O companheiro ou a companheira pesa na decisão de 41% de quem vive um relacionamento estável, ante 38% em julho, variação dentro da margem de erro.</p><p>Entre os eleitores com filhos de 16 anos ou mais, 37% dizem considerar a opinião deles, índice praticamente igual ao anterior (36%).</p><p>Apesar dos avanços, a maioria ainda diz, em todos os seis grupos testados pelo instituto, que a opinião deles não terá nenhuma influência na escolha.</p><p>Foram realizadas 2.506 entrevistas distribuídas em 152 municípios. A margem de erro máxima para o total da amostra é de 2 pontos percentuais para mais ou para menos, e o nível de confiança é 95%. A pesquisa está registrada sob o número BR-08039/2026.</p><p>Entre os amigos próximos, 20% dos eleitores esperam muita influência e 23%, um pouco, ante 16% e 20% em julho. Outros 55% descartam qualquer efeito dessas opiniões sobre o voto, contra 62% na rodada anterior.</p><p>No caso das redes sociais, 19% dizem que os perfis que seguem terão muita influência, e 20%, um pouco. Em julho, eram 15% e 17%. A parcela que nega que essas pessoas interfiram na decisão caiu de 62% para 54%.</p><p>Os líderes religiosos seguem como o grupo de menor peso. São 16% que veem muita influência e 14%, um pouco, contra 13% e 10% em julho.</p><p>Outros 61% dizem que ela será nula, ante 67%, e 7% afirmam não ter líderes religiosos ou não frequentar igreja, mesmo índice de dois meses atrás.</p><p>Na parcela de católicos, cuja margem de erro é de 3 pontos percentuais, 31% dizem que líderes religiosos têm muita ou alguma influência em seu voto, e entre evangélicos esse índice é de 39%, e margem de erro de 4 pontos.</p><p>A imprensa divide o eleitorado igualmente entre quem fala em muita influência (21%) e quem fala em um pouco (21%). Em julho, eram 17% e 21%. Outros 54% dizem que a opinião de jornalistas não mudará seu voto, ante 58%.</p><p>Entre quem vive um relacionamento estável, a parcela que vê muita influência do companheiro ou da companheira oscilou de 20%, em julho, para 24%.</p><p>Já a dos que falam em um pouco de influência teve oscilação negativa, de 18% para 17%. Outros 58% dizem que a opinião do parceiro ou da parceira não pesará, contra 60% na rodada anterior.</p><p>Para os pais de filhos com 16 anos ou mais, a opinião deles pesa muito para 22% e um pouco para 15%, ante 21% e 15% na rodada anterior. Outros 61% afirmam que o que os filhos pensam não interfere na escolha, contra 62% em julho.</p><p>Os homens dizem ser mais influenciados do que as mulheres na escolha do presidente, e a diferença é maior quando se trata de pessoas próximas. Entre eles, 48% afirmam que a opinião de amigos próximos terá influência no voto, contra 39% entre elas.</p><p>A distância é ainda maior no caso do cônjuge. Entre os que vivem um relacionamento estável, 46% dos homens dizem considerar a opinião da companheira ou do companheiro, ante 36% das mulheres, uma diferença de 10 pontos.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-amigos-redes-sociais-igreja-e-imprensa-influenciam-mais-o-voto-ao-final-da-eleicao.shtml",
         "fontesAdicionais": [
           {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
+            "nome": "Igreja Cristã Maranata",
+            "url": "https://www.igrejacristamaranata.org.br/"
           },
           {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
+            "nome": "Convenção Batista do ES",
+            "url": "https://www.batistas.es/"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O presidente dos Estados Unidos, Donald Trump, negou na tarde desta sexta-feira (2) que o governo americano estivesse considerando, de fato, impor uma proibição às exportações de diesel e elogiou a contribuição europeia para a injeção de 100 milhões de barris de petróleo no mercado global."
+            "resposta": "A influência de amigos, de perfis seguidos nas redes sociais e de líderes religiosos sobre o voto para presidente cresceu às vésperas do primeiro turno, mostra pesquisa Datafolha divulgada na sexta-feira (2)."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "&quot;Nunca esteve realmente sobre a mesa&quot;, afirmou o presidente a jornalistas antes de uma viagem ao Alabama. &quot;Nós nunca íamos fazer um banimento de exportação de diesel&quot;."
+            "resposta": "Nos três casos, a parcela de eleitores que diz considerar, muito ou pouco, a opinião desses grupos subiu 7 pontos percentuais em relação a julho. Os amigos próximos passaram de 36% para 43%, as redes sociais, de 32% para 39%, e os líderes da igreja, de 23% para 30%."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O presidente também falou sobre o projeto de infraestrutura energética no Alasca com a Coreia do Sul que, se não avançar, Washington irá aumentar as tarifas contra o país. &quot;Se a Coreia do Sul não fizer o gasoduto, vamos cobrar mais deles&quot;, disse ele, ao afirmar que não se antecipou ao anunciar os investimentos."
+            "resposta": "O Datafolha perguntou aos eleitores quanto a opinião de seis grupos de pessoas pesa no voto para Presidente da República: amigos próximos, cônjuge ou namorado, filhos, pessoas seguidas nas redes sociais, jornalistas e líderes da igreja. Os entrevistados responderam se há muita, um pouco ou nenhuma influência."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Questionado sobre as eleições no Brasil, marcadas para o próximo domingo, Trump repetiu a mensagem de que os Estados Unidos estão &quot;monitorando de perto&quot; o pleito brasileiro."
+            "resposta": "A influência de jornalistas e profissionais da imprensa no voto para o Executivo federal oscilou 4 pontos para cima, no limite da margem de erro. Em julho, 38% diziam que essas pessoas teriam muita ou um pouco de influência. Agora, são 42%."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O presidente dos Estados Unidos, Donald Trump, negou na tarde desta sexta-feira (2) que o governo americano estivesse considerando, de fato, impor uma proibição às exportações de diesel e elogiou a contribuição europeia para a injeção de 100 milhões de barris de petróleo no mercado global. &quot;Nunca esteve realmente sobre a mesa&quot;, afirmou o presidente"
+            "resposta": "Já a influência da família pouco mudou. O companheiro ou a companheira pesa na decisão de 41% de quem vive um relacionamento estável, ante 38% em julho, variação dentro da margem de erro. Entre os eleitores com filhos de 16 anos ou mais, 37% dizem considerar a opinião deles, índice praticamente igual ao anterior (36%)."
           }
         ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Donald-Trump-e1790874404957.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/trump-nega-banir-exportacoes-de-diesel-e-cita-eleicoes-no-brasil.jpg",
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/02/17909650196abff51b5930d_1790965019_3x2_lg.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/datafolha-amigos-redes-sociais-igreja-e-imprensa-influenciam-mais-o-voto-ao-final-da-eleic.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -145,86 +157,38 @@
       }
     },
     {
-      "id": "5e8c04a86639630a",
-      "titulo": "Não é sujeira: saiba por que a capinha transparente do celular fica amarelada com o tempo",
+      "id": "97f3c3ce8a3df720",
+      "titulo": "Eleições 2026: g1 faz 'colinha' para eleitor baixar e levar no dia da votação",
       "categoria": "Tecnologia",
       "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/curiosidades/nao-e-sujeira-saiba-por-que-a-capinha-transparente-do-celular-fica-amarelada-com-o-tempo/",
-      "dataFonte": "2026-10-03T00:06:10.000Z",
-      "resumoFonte": "Material que protege aparelho eletrônico de quedas e arranhões costuma apresentar mudanças em sua aparência com o passar do tempo",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/capinhas-de-celular-amareladas.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-03T00:17:47.294Z",
-      "reportagem": {
-        "titulo": "Não é sujeira: saiba por que a capinha transparente do celular fica amarelada com o tempo",
-        "slug": "nao-e-sujeira-saiba-por-que-a-capinha-transparente-do-celular-fica-amarelada-com-o-tempo",
-        "categoria": "Tecnologia",
-        "data": "2026-10-02",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/nao-e-sujeira-saiba-por-que-a-capinha-transparente-do-celular-fica-amarelada-com-o-tempo.jpg",
-        "resumo": "Material que protege aparelho eletrônico de quedas e arranhões costuma apresentar mudanças em sua aparência com o passar do tempo",
-        "conteudo": "<p>Capinhas de celular transparentes inevitavelmente ficam amareladas com o tempo. Apesar de parecer, esse efeito não é resultado de mau uso ou sujeiras.</p><h2>Capinhas de celular são produzidas por plásticos que reagem</h2><p>As capinhas de celular são produzidas por plásticos que reagem à temperatura. São usados poliuretanos (TPU), PVC (policloreto de vinila) e policarbonatos em sua composição.</p><p>Com o uso, uma reação química provocada pelo calor gerado pelo aparelho , principalmente durante o carregamento, muda a coloração do plástico.</p><p>O mesmo pode acontecer com capinhas de outras cores, que apesar de não ficarem amareladas como o que ocorre com as transparentes, podem apresentar mudanças em sua tonalidade.</p><h2>Infelizmente, não é possível reverter essas mudanças que acontecem</h2><p>Infelizmente, não é possível reverter essas mudanças que acontecem nas capinhas.</p><p>Para voltar a ter a mostrar os detalhes de seu aparelho celular que somente as capinhas transparentes apresentam, é necessário comprar um novo acessório .</p><p>É possível seguir algumas dicas que podem prolongar a vida útil da capa:</p><p>Capinhas de celular passam por processos químicos até ficarem amareladas</p><p>Capinhas de celular transparentes inevitavelmente ficam amareladas com o tempo. Apesar de parecer, esse efeito não é resultado de mau uso ou sujeiras.</p><p>As capinhas de celular são produzidas por plásticos que reagem à temperatura. São usados poliuretanos (TPU), PVC (policloreto de vinila) e policarbonatos em sua composição.</p><p>Com o uso, uma reação química provocada pelo calor gerado pelo aparelho , principalmente durante o carregamento, muda a coloração do plástico.</p><p>O mesmo pode acontecer com capinhas de outras cores, que apesar de não ficarem amareladas como o que ocorre com as transparentes, podem apresentar mudanças em sua tonalidade. Leia mais</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/curiosidades/nao-e-sujeira-saiba-por-que-a-capinha-transparente-do-celular-fica-amarelada-com-o-tempo/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
-          },
-          {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Capinhas de celular transparentes inevitavelmente ficam amareladas com o tempo. Apesar de parecer, esse efeito não é resultado de mau uso ou sujeiras."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "As capinhas de celular são produzidas por plásticos que reagem à temperatura. São usados poliuretanos (TPU), PVC (policloreto de vinila) e policarbonatos em sua composição."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Com o uso, uma reação química provocada pelo calor gerado pelo aparelho , principalmente durante o carregamento, muda a coloração do plástico."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O mesmo pode acontecer com capinhas de outras cores, que apesar de não ficarem amareladas como o que ocorre com as transparentes, podem apresentar mudanças em sua tonalidade."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Infelizmente, não é possível reverter essas mudanças que acontecem nas capinhas."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/capinhas-de-celular-amareladas.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/nao-e-sujeira-saiba-por-que-a-capinha-transparente-do-celular-fica-amarelada-com-o-tempo.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/03/eleicoes-2026-g1-faz-colinha-para-eleitor-baixar-e-levar-no-dia-da-votacao.ghtml",
+      "dataFonte": "2026-10-03T03:00:00.000Z",
+      "resumoFonte": "Guia do Eleitor: Posso levar cola para votar? O eleitor pode levar uma cola em papel para votar. Como são vários números para lembrar, é possível anotar os números dos candidatos e consultar o papel na cabine de votação. AO VIVO: acompanhe a apuração em todo o Brasil A cola deve ser em papel. É proibido o uso do celular na urna eletrônica, assim…",
+      "imagem": "https://s2-g1.glbimg.com/tlxyWj90wwHwjhCWjFPvqh1_9vA=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/I/a/BnnFthRtyh8s2A7uVm2A/whatsapp-image-2026-08-22-at-12.53.36.jpeg",
+      "descobertaEm": "2026-10-03T03:17:43.794Z"
     },
     {
-      "id": "bda30d6f3e1e173a",
-      "titulo": "Empresas fazem protesto no MorumBis em 1° jogo após MP das bets",
+      "id": "68795026d70482c6",
+      "titulo": "Fluminense derrota Brasília Vôlei e enfrenta Universitário na final da Copa",
       "categoria": "Esporte",
       "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-sportsmkt/empresas-fazem-protesto-no-morumbis-em-1-jogo-apos-mp-das-bets/",
-      "dataFonte": "2026-10-03T00:46:21.000Z",
-      "resumoFonte": "Partida entre São Paulo e Santos tem frases nas placas de publicidade: “A proibição não acaba com as apostas. Proibir não é proteger”",
-      "imagem": "https://static.poder360.com.br/uploads/2026/10/jogo-sao-paulo-santos-protesto-contra-proibicao-das-bets-1200x675.png",
-      "descobertaEm": "2026-10-03T01:17:44.041Z",
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/fluminense-derrota-brasilia-volei-e-enfrenta-universitario-na-final-da-copa",
+      "dataFonte": "2026-10-03T02:15:34.000Z",
+      "resumoFonte": "A Copa Brasília de Vôlei está sendo disputada no Distrito Federal. O Fluminense enfrentará o Universitário, do Peru, na final",
+      "imagem": "https://i.metroimg.com/JWPiv692zsaeDQVHEsRfEH9c9wLFPeXNkh6OyikhFxg/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/img-6921.jpg",
+      "descobertaEm": "2026-10-03T02:17:47.623Z",
       "reportagem": {
-        "titulo": "Empresas fazem protesto no MorumBis em 1° jogo após MP das bets",
-        "slug": "empresas-fazem-protesto-no-morumbis-em-1-jogo-apos-mp-das-bets",
+        "titulo": "Fluminense derrota Brasília Vôlei e enfrenta Universitário na final da Copa",
+        "slug": "fluminense-derrota-brasilia-volei-e-enfrenta-universitario-na-final-da-copa",
         "categoria": "Esporte",
         "data": "2026-10-02",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/empresas-fazem-protesto-no-morumbis-em-1-jogo-apos-mp-das-bets.jpg",
-        "resumo": "Partida entre São Paulo e Santos tem frases nas placas de publicidade: “A proibição não acaba com as apostas. Proibir não é proteger”. Leia no Poder360.",
-        "conteudo": "<p>Na semana anterior à publicação da MP, em 17 de setembro, clubes da Série A também haviam criticado possíveis restrições às apostas esportivas.</p><h2>Times divulgaram uma nota conjunta intitulada “O fim</h2><p>Os times divulgaram uma nota conjunta intitulada “O fim do futebol brasileiro” , em que afirmaram que a medida afetaria as receitas do futebol brasileiro.</p><p>O São Paulo entrou em campo com a marca da Superbet estampada no uniforme, assim como o Campeonato Brasileiro ainda leva o nome da Betano.</p><p>As marcas podem continuar sendo exibidas porque os sites e aplicativos de apostas só deverão ficar indisponíveis a partir de 3ª feira (6.out).</p><h2>Apostadores têm até 2ª feira (5</h2><p>Os apostadores têm até 2ª feira (5.out), às 23h59, para retirar os valores disponíveis nas plataformas.</p><p>A medida determina ainda o fim, em 25 de outubro, das autorizações existentes para operar nesse mercado.</p><p>Assinada pelo presidente Luiz Inácio Lula da Silva (PT), a MP foi publicada na 6ª feira (25.set.) e estabelece a proibição de apostas de quota fixa e jogos on-line no país. Leia a íntegra da MP das bets (PDF – 377 kB).</p><p>As bets se tornaram uma das principais fontes de patrocínio do futebol brasileiro nos últimos anos.</p><p>Em 2025, as casas de apostas responderam por 34% das receitas de marketing dos 20 maiores clubes do país, segundo levantamento da Sports Value.</p><p>Os times movimentaram R$ 3,2 bilhões em marketing no ano, dos quais cerca de R$ 1,1 bilhão veio de patrocínios de empresas do setor.</p><p>Na 5ª feira (1º.out), São Paulo e outros clubes pediram ao Supremo Tribunal Federal um prazo de 6 meses a 1 ano para se adaptar às regras da MP.</p><p>Os clubes afirmaram que o fim das bets coloca em risco a continuidade das competições e pediram a retirada gradual das marcas de patrocínio.</p><p>Nesta 6ª feira (2.out), o ministro Luiz Fux, do STF, deu 72 horas para a Advocacia Geral da União prestar informações sobre a MP . Fux é relator das ações que questionam a medida e deve analisar os pedidos ao longo da próxima semana.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-sportsmkt/empresas-fazem-protesto-no-morumbis-em-1-jogo-apos-mp-das-bets/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/fluminense-derrota-brasilia-volei-e-enfrenta-universitario-na-final-da-copa.jpg",
+        "resumo": "A Copa Brasília de Vôlei está sendo disputada no Distrito Federal. O Fluminense enfrentará o Universitário, do Peru, na final",
+        "conteudo": "<p>Na segunda partida da semifinal da Copa Brasília de Vôlei , nesta sexta-feira (2/10), o Fluminense superou o Brasília por 3 sets a 1, parciais de 25/20, 20/25, 25/22 e 25/18. Com o triunfo, o time do Rio de Janeiro vai enfrentar o Universitário , do Peru, na final do torneio.</p><h2>Todas as partidas da V Copa Brasília de Vôlei</h2><p>Todas as partidas da V Copa Brasília de Vôlei serão transmitidas pelo Metrópoles Esportes. Os torcedores podem acompanhar os duelos pelo canal oficial no YouTube.</p><p>A final entre Fluminense e o time peruano será disputada neste sábado (3/10), às 18h30, no Ginásio da Federação de Vôlei do Distrito Federal, localizado na Asa Sul.</p><h2>Antes da grande decisão, o Brasília Vôlei ,</h2><p>Antes da grande decisão, o Brasília Vôlei , anfitrião da competição, enfrenta o Gerdau Minas , atual vice-campeão da Superliga Feminina, às 16h. As equipes entram em quadra em busca do terceiro lugar.</p><p>Um post compartilhado por Brasília Vôlei (@brasiliavolei)</p><p>Resultado da semifinal: o Fluminense venceu o Brasília Vôlei por 3 sets a 1, com parciais de 25/20, 20/25, 25/22 e 25/18; Final do torneio: o Fluminense enfrentará o Universitário, do Peru, em 3 de outubro, às 18h30, no Ginásio da Federação de Vôlei do Distrito Federal; Disputa de terceiro lugar: o Brasília Vôlei joga contra o Gerdau Minas em 3 de outubro, às 16h.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/esportes/fluminense-derrota-brasilia-volei-e-enfrenta-universitario-na-final-da-copa",
         "fontesAdicionais": [
           {
             "nome": "A Gazeta",
@@ -239,172 +203,64 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Na semana anterior à publicação da MP, em 17 de setembro, clubes da Série A também haviam criticado possíveis restrições às apostas esportivas. Os times divulgaram uma nota conjunta intitulada “O fim do futebol brasileiro” , em que afirmaram que a medida afetaria as receitas do futebol brasileiro."
+            "resposta": "Na segunda partida da semifinal da Copa Brasília de Vôlei , nesta sexta-feira (2/10), o Fluminense superou o Brasília por 3 sets a 1, parciais de 25/20, 20/25, 25/22 e 25/18. Com o triunfo, o time do Rio de Janeiro vai enfrentar o Universitário , do Peru, na final do torneio."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O São Paulo entrou em campo com a marca da Superbet estampada no uniforme, assim como o Campeonato Brasileiro ainda leva o nome da Betano. As marcas podem continuar sendo exibidas porque os sites e aplicativos de apostas só deverão ficar indisponíveis a partir de 3ª feira (6.out). Os apostadores têm até 2ª feira (5.out), às 23h59, para retirar os valores dis"
+            "resposta": "Todas as partidas da V Copa Brasília de Vôlei serão transmitidas pelo Metrópoles Esportes. Os torcedores podem acompanhar os duelos pelo canal oficial no YouTube."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A medida determina ainda o fim, em 25 de outubro, das autorizações existentes para operar nesse mercado. Assinada pelo presidente Luiz Inácio Lula da Silva (PT), a MP foi publicada na 6ª feira (25.set.) e estabelece a proibição de apostas de quota fixa e jogos on-line no país. Leia a íntegra da MP das bets (PDF – 377 kB)."
+            "resposta": "A final entre Fluminense e o time peruano será disputada neste sábado (3/10), às 18h30, no Ginásio da Federação de Vôlei do Distrito Federal, localizado na Asa Sul."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "As bets se tornaram uma das principais fontes de patrocínio do futebol brasileiro nos últimos anos. Em 2025, as casas de apostas responderam por 34% das receitas de marketing dos 20 maiores clubes do país, segundo levantamento da Sports Value. Os times movimentaram R$ 3,2 bilhões em marketing no ano, dos quais cerca de R$ 1,1 bilhão veio de patrocínios de em"
+            "resposta": "Antes da grande decisão, o Brasília Vôlei , anfitrião da competição, enfrenta o Gerdau Minas , atual vice-campeão da Superliga Feminina, às 16h. As equipes entram em quadra em busca do terceiro lugar."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Na 5ª feira (1º.out), São Paulo e outros clubes pediram ao Supremo Tribunal Federal um prazo de 6 meses a 1 ano para se adaptar às regras da MP. Os clubes afirmaram que o fim das bets coloca em risco a continuidade das competições e pediram a retirada gradual das marcas de patrocínio."
+            "resposta": "Um post compartilhado por Brasília Vôlei (@brasiliavolei)"
           }
         ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/jogo-sao-paulo-santos-protesto-contra-proibicao-das-bets-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/empresas-fazem-protesto-no-morumbis-em-1-jogo-apos-mp-das-bets.jpg",
+        "imagemOriginal": "https://i.metroimg.com/JWPiv692zsaeDQVHEsRfEH9c9wLFPeXNkh6OyikhFxg/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/img-6921.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/fluminense-derrota-brasilia-volei-e-enfrenta-universitario-na-final-da-copa.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "6e712137a9f389b0",
-      "titulo": "Rondônia: veja os candidatos ao governo do Estado",
+      "id": "794b7ef0d0fe0ccd",
+      "titulo": "Disputas para Senado e Câmara são estratégicas para os próximos anos do STF e da Presidência",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/rondonia-veja-os-candidatos-ao-governo-do-estado/",
-      "dataFonte": "2026-10-02T23:30:19.000Z",
-      "resumoFonte": "Há seis candidatos na corrida pelo Governo de Rondônia nas eleições. A disputa pelo Palácio Rio Madeira inclui um senador , dois ex-prefeitos — da capital e de Cacoal —, um ex-deputado federal e dois candidatos que nunca haviam disputado o cargo de governador. O pleito também apresenta diferenças significativas no patrimônio declarado ao Tribunal…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/palacio-rio-madeira-910x568.jpeg.webp",
-      "descobertaEm": "2026-10-03T00:17:47.294Z",
-      "reportagem": {
-        "titulo": "Rondônia: veja os candidatos ao governo do Estado",
-        "slug": "rondonia-veja-os-candidatos-ao-governo-do-estado",
-        "categoria": "Justiça",
-        "data": "2026-10-02",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/rondonia-veja-os-candidatos-ao-governo-do-estado.jpg",
-        "resumo": "Rondônia: veja os candidatos ao governo do Estado. Registro original em Revista Oeste - Feed. A Redação Notícia ES reapurou a pauta para a editoria Justiça.",
-        "conteudo": "<p>Há seis candidatos na corrida pelo Governo de Rondônia nas eleições. A disputa pelo Palácio Rio Madeira inclui um senador , dois ex-prefeitos — da capital e de Cacoal —, um ex-deputado federal e dois candidatos que nunca haviam disputado o cargo de governador.</p><h2>Pleito também apresenta diferenças significativas no patrimônio declarado ao</h2><p>O pleito também apresenta diferenças significativas no patrimônio declarado ao Tribunal Superior Eleitoral . Os valores informados pelos candidatos vão de R$ 351,2 mil a R$ 30,3 milhões.</p><p>Rondônia tem 1.267.105 eleitores aptos a votar. O primeiro turno ocorre em 4 de outubro. Se nenhum candidato alcançar mais da metade dos votos válidos, os dois mais votados disputarão o segundo turno, marcado para 25 de outubro.</p><p>Nome completo: Adailton Antunes Ferreira Partido: PSD Número: 55 Coligação: Gente que Gosta de Gente Grau de instrução: superior completo Ocupação: outros Patrimônio: R$ 1,67 milhão Eleições disputadas: 5, incluindo a de 2026 (primeira candidatura ao governo)</p><h2>Nome completo: Expedito Gonçalves Ferreira Netto Partido: PT Número:</h2><p>Nome completo: Expedito Gonçalves Ferreira Netto Partido: PT Número: 13 Coligação: Fé Rondônia Grau de instrução: superior completo Ocupação: empresário Patrimônio: R$ 351,2 mil Eleições disputadas: 4, incluindo a de 2026 (primeira candidatura ao governo)</p><p>Nome completo: Hildon de Lima Chaves Partido: União Brasil Número: 44 Coligação: Rondônia com a Força do Trabalho e da União Grau de instrução: superior completo Ocupação: empresário Patrimônio: R$ 30,33 milhões Eleições disputadas: 3, incluindo a de 2026 (primeira candidatura ao governo)</p><p>Nome completo: Marcos Rogério da Silva Brito Partido: PL Número: 22 Coligação: Juntos por Rondônia Grau de instrução: superior completo Ocupação: senador Patrimônio: R$ 2,38 milhões Eleições disputadas: 8, incluindo a de 2026 (chegou ao segundo turno para governador em 2022)</p><p>Nome completo: Pedro Abib Hecktheuer Partido: MDB Número: 15 Coligação: Experiência, Fé e Autoridade — Rondônia Forte de Verdade Grau de instrução: superior completo Ocupação: advogado Patrimônio: R$ 2,94 milhões Eleições disputadas: 1, a de 2026</p><p>Nome completo: Samuel Costa Menezes Partido: PSB Número: 40 Coligação: partido isolado Grau de instrução: superior completo Ocupação: advogado Patrimônio: R$ 3,63 milhões Eleições disputadas: 6, incluindo a de 2026 (primeira candidatura ao governo)</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/rondonia-veja-os-candidatos-ao-governo-do-estado/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Há seis candidatos na corrida pelo Governo de Rondônia nas eleições. A disputa pelo Palácio Rio Madeira inclui um senador , dois ex-prefeitos — da capital e de Cacoal —, um ex-deputado federal e dois candidatos que nunca haviam disputado o cargo de governador."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O pleito também apresenta diferenças significativas no patrimônio declarado ao Tribunal Superior Eleitoral . Os valores informados pelos candidatos vão de R$ 351,2 mil a R$ 30,3 milhões."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Rondônia tem 1.267.105 eleitores aptos a votar. O primeiro turno ocorre em 4 de outubro. Se nenhum candidato alcançar mais da metade dos votos válidos, os dois mais votados disputarão o segundo turno, marcado para 25 de outubro."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Nome completo: Adailton Antunes Ferreira Partido: PSD Número: 55 Coligação: Gente que Gosta de Gente Grau de instrução: superior completo Ocupação: outros Patrimônio: R$ 1,67 milhão Eleições disputadas: 5, incluindo a de 2026 (primeira candidatura ao governo)"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Nome completo: Expedito Gonçalves Ferreira Netto Partido: PT Número: 13 Coligação: Fé Rondônia Grau de instrução: superior completo Ocupação: empresário Patrimônio: R$ 351,2 mil Eleições disputadas: 4, incluindo a de 2026 (primeira candidatura ao governo)"
-          }
-        ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/palacio-rio-madeira-910x568.jpeg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/rondonia-veja-os-candidatos-ao-governo-do-estado.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/03/disputas-para-senado-e-camara-sao-estrategicas-para-os-proximos-anos-do-stf-e-da-presidencia.ghtml",
+      "dataFonte": "2026-10-03T03:00:00.000Z",
+      "resumoFonte": "CONGRESSO: Por que existem duas casas? Nas eleições de 2026, os holofotes estão voltados principalmente para a disputa à Presidência da República. Mas outra corrida eleitoral é central para a correlação de poderes na política brasileira: a do Congresso Nacional. 🔎 As eleições para o Legislativo serão definidas neste domingo (4), já que não há…",
+      "imagem": "https://s2-g1.glbimg.com/536Kaooo1mXVjUaTM54LU3xuJwc=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s04.video.glbimg.com/deo/vi/79/49/14994979",
+      "descobertaEm": "2026-10-03T03:17:43.794Z"
     },
     {
-      "id": "5b052135c73c4bc1",
-      "titulo": "As pesquisas e o momento crítico da disputa entre Lula e Flávio na eleição presidencial",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/politica/as-pesquisas-e-o-momento-critico-da-disputa-entre-lula-e-flavio-na-eleicao-presidencial/",
-      "dataFonte": "2026-10-03T00:45:45.000Z",
-      "resumoFonte": "Cientista político aponta a reta final como decisiva para o eleitor que ainda está definindo o voto e pode levar a escolha até o dia da eleição",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/10/AFP__20260929__C9LQ3ZQ__v1__HighRes__ComboBrazilElectionCandidates.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-10-03T01:17:44.041Z",
-      "reportagem": {
-        "titulo": "As pesquisas e o momento crítico da disputa entre Lula e Flávio na eleição presidencial",
-        "slug": "as-pesquisas-e-o-momento-critico-da-disputa-entre-lula-e-flavio-na-eleicao-presidencial",
-        "categoria": "Política Nacional",
-        "data": "2026-10-02",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/as-pesquisas-e-o-momento-critico-da-disputa-entre-lula-e-flavio-na-eleicao-presidencial.jpg",
-        "resumo": "Cientista político aponta a reta final como decisiva para o eleitor que ainda está definindo o voto e pode levar a escolha até o dia da eleição",
-        "conteudo": "<p>A reta final da elei&ccedil;&atilde;o presidencial encontra Luiz In&aacute;cio Lula da Silva e Fl&aacute;vio Bolsonaro em uma disputa apertada e com diferen&ccedil;as importantes entre os maiores col&eacute;gios eleitorais do pa&iacute;s.</p><h2>Pesquisa Datafolha apresentada no VEJA em Foco , comandado</h2><p>Pesquisa Datafolha apresentada no VEJA em Foco , comandado por Raquel Novaes, mostrou cen&aacute;rios distintos em S&atilde;o Paulo, Minas Gerais e Rio de Janeiro.</p><p>Para o cientista pol&iacute;tico Leo Barreto, o momento &eacute; especialmente sens&iacute;vel porque uma parcela dos eleitores ainda est&aacute; definindo o voto &mdash; e pode ter peso relevante no resultado.</p><p>(este texto &eacute; um resumo do v&iacute;deo acima)</p><h2>Considerando os votos v&aacute;lidos, o levantamento apresentado no programa</h2><p>Considerando os votos v&aacute;lidos, o levantamento apresentado no programa mostrou Fl&aacute;vio com 39% em S&atilde;o Paulo, ante 38% de Lula.</p><p>Em uma simula&ccedil;&atilde;o de segundo turno no estado, os n&uacute;meros eram de 48% para Fl&aacute;vio e 45% para Lula.</p><p>Em Minas Gerais, a situa&ccedil;&atilde;o se invertia: Lula aparecia com 42% no primeiro turno, contra 36% de Fl&aacute;vio, e marcava 48% a 44% em uma eventual segunda etapa.</p><p>No Rio de Janeiro, Fl&aacute;vio registrava 45%, contra 38% de Lula, e chegava a 51% diante de 42% do petista no cen&aacute;rio de segundo turno.</p><p>Ao analisar o cen&aacute;rio no VEJA em Foco , Barreto chamou aten&ccedil;&atilde;o para as movimenta&ccedil;&otilde;es registradas pelas pesquisas durante a &uacute;ltima semana de campanha.</p><p>Na avalia&ccedil;&atilde;o do cientista pol&iacute;tico, elas mostram que parte do eleitorado ainda estava consolidando sua escolha pouco antes da vota&ccedil;&atilde;o.</p><p>&ldquo;Esse &eacute; o momento em que os eleitores est&atilde;o tomando posi&ccedil;&atilde;o, est&atilde;o fazendo ali a sua colinha&rdquo;, afirmou.</p><p>Barreto citou, entre os exemplos, a movimenta&ccedil;&atilde;o de Lula em S&atilde;o Paulo nas pesquisas apresentadas durante a semana e argumentou que o comportamento &eacute; diferente daquele observado em fases anteriores da campanha, quando uma parcela maior do eleitorado ainda estava distante da disputa.</p><p>&ldquo;Esse &eacute; um momento cr&iacute;tico do processo eleitoral&rdquo;, resumiu.</p><p>Para Barreto, &eacute; justamente nos &uacute;ltimos dias que eleitores pouco mobilizados ao longo da campanha passam a prestar mais aten&ccedil;&atilde;o nas candidaturas e a decidir efetivamente em quem votar.</p><p>Na avalia&ccedil;&atilde;o do cientista pol&iacute;tico, o grupo de eleitores ainda n&atilde;o plenamente alinhado a Lula ou Fl&aacute;vio pode ter import&acirc;ncia desproporcional ao seu tamanho.</p><p>Barreto estimou, durante o programa, que esse contingente poderia representar algo entre 10% e 15% do eleitorado, embora tenha ressaltado que se tratava de uma aproxima&ccedil;&atilde;o.</p><p>&ldquo;&Eacute; um grupo pequeno que n&atilde;o vai aparecer nos grandes retratos das pesquisas&rdquo;, disse.</p><p>&ldquo;Mas que tem um papel decisivo na hora de definir o resultado.&rdquo; Para ele, parte desses eleitores pode levar a defini&ccedil;&atilde;o do voto at&eacute; o pr&oacute;prio domingo da elei&ccedil;&atilde;o.</p><p>A an&aacute;lise foi feita no contexto do cancelamento do debate da Globo, que poderia ter oferecido aos principais candidatos mais uma oportunidade de falar justamente com esse p&uacute;blico.</p><p>Segundo Barreto, debates na reta final t&ecirc;m import&acirc;ncia especial para quem n&atilde;o est&aacute; completamente identificado com nenhum dos polos da disputa.</p><p>Os n&uacute;meros apresentados pelo Datafolha tamb&eacute;m refor&ccedil;am que Lula e Fl&aacute;vio chegam &agrave; reta final com desempenhos distintos nos tr&ecirc;s maiores col&eacute;gios eleitorais.</p><p>Enquanto Fl&aacute;vio aparece numericamente &agrave; frente de Lula nos cen&aacute;rios exibidos para S&atilde;o Paulo e Rio de Janeiro, o petista ocupa essa posi&ccedil;&atilde;o em Minas Gerais.</p><p>Mais do que produzir uma conclus&atilde;o antecipada sobre o resultado, os dados ajudam a retratar uma elei&ccedil;&atilde;o ainda em movimento nos dias imediatamente anteriores &agrave; vota&ccedil;&atilde;o.</p><p>&Eacute; nesse ambiente que, segundo Barreto, decis&otilde;es tomadas na reta final &mdash; e a escolha dos eleitores ainda n&atilde;o consolidados &mdash; ganham import&acirc;ncia adicional.</p><p>&ldquo;Os indecisos v&atilde;o esperar at&eacute; domingo para isso&rdquo;, afirmou o cientista pol&iacute;tico.</p><p>Num cen&aacute;rio de disputa marcada por diferen&ccedil;as estaduais e mudan&ccedil;as recentes nos levantamentos apresentados pelo programa, a reta final deixa de ser apenas o encerramento formal da campanha e passa a concentrar uma parcela relevante da decis&atilde;o eleitoral.</p><p>VEJA+IA: Este texto resume um trecho do telejornal VEJA em Foco (confira o v&iacute;deo acima). Conte&uacute;do produzido com aux&iacute;lio de intelig&ecirc;ncia artificial e supervis&atilde;o humana.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/politica/as-pesquisas-e-o-momento-critico-da-disputa-entre-lula-e-flavio-na-eleicao-presidencial/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A reta final da elei&ccedil;&atilde;o presidencial encontra Luiz In&aacute;cio Lula da Silva e Fl&aacute;vio Bolsonaro em uma disputa apertada e com diferen&ccedil;as importantes entre os maiores col&eacute;gios eleitorais do pa&iacute;s. Pesquisa Datafolha apresentada no VEJA em Foco , comandado por Raquel Novaes, mostrou cen&aacute;rios distintos em S&atil"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Considerando os votos v&aacute;lidos, o levantamento apresentado no programa mostrou Fl&aacute;vio com 39% em S&atilde;o Paulo, ante 38% de Lula. Em uma simula&ccedil;&atilde;o de segundo turno no estado, os n&uacute;meros eram de 48% para Fl&aacute;vio e 45% para Lula. Em Minas Gerais, a situa&ccedil;&atilde;o se invertia: Lula aparecia com 42% no primeiro "
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Ao analisar o cen&aacute;rio no VEJA em Foco , Barreto chamou aten&ccedil;&atilde;o para as movimenta&ccedil;&otilde;es registradas pelas pesquisas durante a &uacute;ltima semana de campanha. Na avalia&ccedil;&atilde;o do cientista pol&iacute;tico, elas mostram que parte do eleitorado ainda estava consolidando sua escolha pouco antes da vota&ccedil;&atilde;o"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "&ldquo;Esse &eacute; o momento em que os eleitores est&atilde;o tomando posi&ccedil;&atilde;o, est&atilde;o fazendo ali a sua colinha&rdquo;, afirmou. Barreto citou, entre os exemplos, a movimenta&ccedil;&atilde;o de Lula em S&atilde;o Paulo nas pesquisas apresentadas durante a semana e argumentou que o comportamento &eacute; diferente daquele observado em f"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "&ldquo;Esse &eacute; um momento cr&iacute;tico do processo eleitoral&rdquo;, resumiu. Para Barreto, &eacute; justamente nos &uacute;ltimos dias que eleitores pouco mobilizados ao longo da campanha passam a prestar mais aten&ccedil;&atilde;o nas candidaturas e a decidir efetivamente em quem votar."
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/10/AFP__20260929__C9LQ3ZQ__v1__HighRes__ComboBrazilElectionCandidates.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/as-pesquisas-e-o-momento-critico-da-disputa-entre-lula-e-flavio-na-eleicao-presidencial.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "24a7e71e87f7edef",
-      "titulo": "Governistas articulam pular intervalo entre sessões e votar fim da 6x1 antes do segundo turno",
+      "id": "2fb96c22d42b7a4f",
+      "titulo": "Deputados e senadores recebem 54% mais emendas e dificultam renovação no Congresso",
       "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/10/governistas-articulam-pular-intervalo-entre-sessoes-e-votar-fim-da-6x1-antes-do-segundo-turno.shtml",
-      "dataFonte": "2026-10-02T23:24:00.000Z",
-      "resumoFonte": "Após o presidente do Senado , Davi Alcolumbre (União-AP), agendar a tramitação da PEC que prevê o fim da escala 6x1 no plenário da Casa, senadores governistas já articulam maneiras de acelerar a votação. Leia mais (10/02/2026 - 20h24)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/02/17909821746ac0381ea25f6_1790982174_3x2_xl.jpg",
-      "descobertaEm": "2026-10-03T00:17:47.294Z",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/deputados-e-senadores-recebem-54-mais-emendas-e-dificultam-renovacao-no-congresso.shtml",
+      "dataFonte": "2026-10-03T02:00:00.000Z",
+      "resumoFonte": "O pagamento de emendas parlamentares cresceu 54% em relação ao ciclo eleitoral anterior (2019 a agosto de 2022), de acordo com dados do Siga Brasil, portal do Senado. O volume de recursos torna mais difícil a eleição de quem não tem mandato e ajuda a blindar os atuais deputados e senadores por votos impopulares em projetos de lei e outras matérias…",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/04/30/177758648769f3d137bbac5_1777586487_3x2_rt.jpg",
+      "descobertaEm": "2026-10-03T02:02:48.646Z",
       "reportagem": {
-        "titulo": "Painel: Governistas articulam pular intervalo entre sessões e votar fim da 6x1 antes do segundo turno",
-        "slug": "painel-governistas-articulam-pular-intervalo-entre-sessoes-e-votar-fim-da-6x1-antes-do-seg",
+        "titulo": "Deputados e senadores recebem 54% mais emendas e dificultam renovação no Congresso",
+        "slug": "deputados-e-senadores-recebem-54-mais-emendas-e-dificultam-renovacao-no-congresso",
         "categoria": "Política Nacional",
         "data": "2026-10-02",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/painel-governistas-articulam-pular-intervalo-entre-sessoes-e-votar-fim-da-6x1-antes-do-seg.jpg",
-        "resumo": "Ideia é apresentar requerimento de quebra de interstício e acelerar votação da matéria",
-        "conteudo": "<p>Editado por Fábio Zanini, espaço traz notícias e bastidores da política. Com Carlos Petrocilo e Gabriela Echenique</p><h2>Receba no seu email as informações exclusivas da coluna</h2><p>Receba no seu email as informações exclusivas da coluna Painel</p><p>Após o presidente do Senado , Davi Alcolumbre (União-AP), agendar a tramitação da PEC que prevê o fim da escala 6x1 no plenário da Casa, senadores governistas já articulam maneiras de acelerar a votação.</p><p>Uma delas é apresentar um requerimento de quebra de interstício (intervalo) para pular as sessões de discussão da proposta. Isso porque são necessárias cinco sessões para votar o texto em primeiro turno e mais cinco para votar em segundo turno.</p><h2>Se todo o prazo regimental for respeitado, o calendário</h2><p>Se todo o prazo regimental for respeitado, o calendário fica apertado e os governistas não dão como certa a aprovação da PEC antes do segundo turno.</p><p>Por isso, numa estratégia para fortalecer o presidente Lula ( PT ) na disputa contra Flávio Bolsonaro ( PL ), os petistas já pensam em formas de acelerar a votação no Senado. Nos bastidores, contam inclusive com o apoio do presidente da Casa.</p><p>A avaliação do governo é de que mesmo a oposição não conseguirá votar contra a medida , que é popular.</p><p>Os governistas admitem, no entanto, que o risco é maior, já que os eleitores já terão votado para deputado e senador e os parlamentares não se sentirão pressionados pelas eleições.</p><p>LINK PRESENTE: Gostou deste texto? Assinante pode liberar sete acessos gratuitos de qualquer link por dia. Basta clicar no F azul abaixo.</p><p>Mais de 180 reportagens e análises publicadas a cada dia. Um time com mais de 200 colunistas e blogueiros.</p><p>Um jornalismo profissional que fiscaliza o poder público, veicula notícias proveitosas e inspiradoras, faz contraponto à intolerância das redes sociais e traça uma linha clara entre verdade e mentira.</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/deputados-e-senadores-recebem-54-mais-emendas-e-dificultam-renovacao-no-congresso.jpg",
+        "resumo": "Governo pagou R$ 165 bi de 2023 até agosto deste ano, ante R$ 107 bi de 2019 a agosto de 2022, na gestão de Bolsonaro",
+        "conteudo": "<p>O pagamento de emendas parlamentares cresceu 54% em relação ao ciclo eleitoral anterior (2019 a agosto de 2022), de acordo com dados do Siga Brasil, portal do Senado.</p><h2>Volume de recursos torna mais difícil</h2><p>O volume de recursos torna mais difícil a eleição de quem não tem mandato e ajuda a blindar os atuais deputados e senadores por votos impopulares em projetos de lei e outras matérias em discussão no Congresso, segundo especialistas.</p><p>As emendas são verbas incluídas pelos parlamentares no Orçamento para destinar recursos a investimentos e custeio em suas bases eleitorais.</p><p>Além do ganho político das obras entregues, o dinheiro também se transformou na principal forma de fidelizar o apoio de prefeitos, que dependem desses repasses para reforçar o caixa do município e melhorar sua própria aprovação.</p><h2>Na atual legislatura, o volume de emendas pagas pelo</h2><p>Na atual legislatura, o volume de emendas pagas pelo governo federal chegou ao valor recorde de R$ 165,4 bilhões (de janeiro de 2023 a agosto de 2026).</p><p>A conta inclui restos a pagar de anos anteriores, já que parte dos convênios demora a ser executada por entraves da burocracia estatal.</p><p>No mandato anterior, foram R$ 107 bilhões nos três anos e oito meses que antecederam as eleições, em valores já corrigidos pelo IPCA (Índice de Preços ao Consumidor Amplo).</p><p>De 2015 a agosto de 2018, o governo pagou R$ 24,4 bilhões –número que, hoje, é menor do que o quitado pela União em um único ano.</p><p>Bruno Bondarovsky, gestor da organização Central das Emendas e pesquisador associado da PUC-Rio, afirma que esta eleição consolidou o modelo de cooptação de prefeitos pelos atuais parlamentares com base na distribuição de verbas e numa atuação que seria, na verdade, do Poder Executivo.</p><p>\"A imagem do parlamentar começa a ir para a de uma pessoa que entrega produtos e serviços para a população\", diz.</p><p>Ele aponta ainda que mais de R$ 2 bilhões em emendas foram direcionados para organizações da sociedade civil e entidades do terceiro setor, nem sempre aplicados corretamente.</p><p>\"É muito dinheiro e tem muitas histórias que a gente encontra nas auditorias de ONGs usadas só como meio de contratação de cabo eleitoral ou de compra de voto\", afirma.</p><p>O Diap (Departamento Intersindical de Assessoria Parlamentar) projeta que a renovação da Câmara será de 35% a 40%, abaixo da média histórica de 46%, devido a emendas, ao fundo eleitoral concentrado em quem já tem mandato e à redução do número de candidatos e partidos, afirma o analista político Neuriberg Dias, que coordenou um estudo sobre as eleições para deputado federal.</p><p>Dias afirma que a campanha do governo Lula (PT) de \" Congresso inimigo do povo \" e a mobilização popular para rejeitar a PEC (Proposta de Emenda à Constituição) que blindava os parlamentares contra investigações criminais terão pouco efeito sobre o resultado eleitoral.</p><p>\"As emendas criam uma distorção. O voto não passa mais a ser vinculado a como ele vota nas matérias. É mais destinado a que benefício o parlamentar traz para a prefeitura\", diz.</p><p>O pagamento de emendas em anos eleitorais também é um tópico sensível para deputados e senadores, que usam a verba para amarrar o apoio nas bases eleitorais. Nesse sentido, o de 2026 se destaca.</p><p>De janeiro a agosto deste ano, foram liberados R$ 35,2 bilhões, um aumento de 21% em relação ao valor pago no mesmo período em 2022.</p><p>Em 2018, antes do crescimento explosivo no valor das emendas , o governo quitou R$ 10,6 bilhões de janeiro a agosto.</p><p>Em 2019, com a eleição de Jair Bolsonaro (PL) para a Presidência, o Congresso criou a chamada emenda de relator ao Orçamento e passou a controlar um volume ainda maior de verbas, distribuídas sem transparência sobre o real autor e sem critérios técnicos.</p><p>Essas emendas de transparência opaca irrigaram municípios pelo país e fortaleceram os então deputados e senadores.</p><p>Mas o crescimento maior no ritmo de pagamentos na atual legislatura indica que, em muitos casos, as obras demoraram a chegar para a população devido a entraves da burocracia estatal, e seus efeitos serão sentidos com mais força na atual eleição.</p><p>O valor empenhado (termo que significa que a despesa foi autorizada pelo governo) cresceu na metade do ritmo dos pagamentos.</p><p>Foi de R$ 138,4 bilhões no período de janeiro de 2019 a agosto de 2022 para R$ 178 bilhões desde 2023, alta de 28%.</p><p>No caso dos pagamentos, o valor cresceu 54%, reforçando seu uso como mote da campanha dos políticos do centrão, que destacam nas redes as obras entregues aos municípios.</p><p>O cientista político Fenelon Rocha, que atuou na comunicação de mais de 40 campanhas, afirma que as emendas também são hoje a principal fonte de caixa dois das candidaturas, com indícios de desvios das verbas para uso nas eleições.</p><p>\"O principal gasto é com a compra de lideranças. Aqui no Piauí, a estimativa é que as campanhas para deputado federal custarão R$ 30 milhões cada, dez vezes o teto [autorizado pela lei]\", diz.</p><p>O volume de recursos deu impulso ainda a novas candidaturas: 503 parlamentares que foram autores de emendas individuais ao Orçamento concorrem a cargos eletivos neste ano, segundo levantamento da Folha com dados do Siga Brasil e do TSE (Tribunal Superior Eleitoral).</p><p>As emendas individuais são uma das modalidades que existem, além das emendas de bancada estadual (em que não consta o nome do real autor) e das emendas de comissão (em que o nome do autor só passou a ser obrigatório a partir de 2024, e mesmo assim, com falhas na divulgação).</p>",
         "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://www1.folha.uol.com.br/colunas/painel/2026/10/governistas-articulam-pular-intervalo-entre-sessoes-e-votar-fim-da-6x1-antes-do-segundo-turno.shtml",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/deputados-e-senadores-recebem-54-mais-emendas-e-dificultam-renovacao-no-congresso.shtml",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -419,52 +275,112 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Editado por Fábio Zanini, espaço traz notícias e bastidores da política. Com Carlos Petrocilo e Gabriela Echenique"
+            "resposta": "O pagamento de emendas parlamentares cresceu 54% em relação ao ciclo eleitoral anterior (2019 a agosto de 2022), de acordo com dados do Siga Brasil, portal do Senado. O volume de recursos torna mais difícil a eleição de quem não tem mandato e ajuda a blindar os atuais deputados e senadores por votos impopulares em projetos de lei e outras matérias em discuss"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Receba no seu email as informações exclusivas da coluna Painel"
+            "resposta": "As emendas são verbas incluídas pelos parlamentares no Orçamento para destinar recursos a investimentos e custeio em suas bases eleitorais. Além do ganho político das obras entregues, o dinheiro também se transformou na principal forma de fidelizar o apoio de prefeitos, que dependem desses repasses para reforçar o caixa do município e melhorar sua própria ap"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Após o presidente do Senado , Davi Alcolumbre (União-AP), agendar a tramitação da PEC que prevê o fim da escala 6x1 no plenário da Casa, senadores governistas já articulam maneiras de acelerar a votação."
+            "resposta": "Na atual legislatura, o volume de emendas pagas pelo governo federal chegou ao valor recorde de R$ 165,4 bilhões (de janeiro de 2023 a agosto de 2026). A conta inclui restos a pagar de anos anteriores, já que parte dos convênios demora a ser executada por entraves da burocracia estatal."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Uma delas é apresentar um requerimento de quebra de interstício (intervalo) para pular as sessões de discussão da proposta. Isso porque são necessárias cinco sessões para votar o texto em primeiro turno e mais cinco para votar em segundo turno."
+            "resposta": "No mandato anterior, foram R$ 107 bilhões nos três anos e oito meses que antecederam as eleições, em valores já corrigidos pelo IPCA (Índice de Preços ao Consumidor Amplo). De 2015 a agosto de 2018, o governo pagou R$ 24,4 bilhões –número que, hoje, é menor do que o quitado pela União em um único ano."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Se todo o prazo regimental for respeitado, o calendário fica apertado e os governistas não dão como certa a aprovação da PEC antes do segundo turno."
+            "resposta": "Bruno Bondarovsky, gestor da organização Central das Emendas e pesquisador associado da PUC-Rio, afirma que esta eleição consolidou o modelo de cooptação de prefeitos pelos atuais parlamentares com base na distribuição de verbas e numa atuação que seria, na verdade, do Poder Executivo. \"A imagem do parlamentar começa a ir para a de uma pessoa que entrega pro"
           }
         ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/02/17909821746ac0381ea25f6_1790982174_3x2_xl.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/painel-governistas-articulam-pular-intervalo-entre-sessoes-e-votar-fim-da-6x1-antes-do-seg.jpg",
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/04/30/177758648769f3d137bbac5_1777586487_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/deputados-e-senadores-recebem-54-mais-emendas-e-dificultam-renovacao-no-congresso.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "6f7f4235b2217b4f",
-      "titulo": "Juros futuros caem com mercado otimista às vésperas das eleições",
+      "id": "f48120035bfd3758",
+      "titulo": "Paula Belmonte declara apoio à candidatura de Erika Kokay no Senado",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/distrito-federal/paula-belmonte-declara-apoio-a-candidatura-de-erika-kokay-no-senado",
+      "dataFonte": "2026-10-03T01:52:00.000Z",
+      "resumoFonte": "Anúncio foi feito nesta sexta em uma rede social. Paula afirmou que mesmo em lados opostos da política, ela reconhece trabalho de Kokay",
+      "imagem": "https://i.metroimg.com/ZGfsaZYiLQMy_srtIntWonmAZZEXimYMerStvTP0UMs/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/paula-erika-apoio.jpg",
+      "descobertaEm": "2026-10-03T02:02:48.646Z",
+      "reportagem": {
+        "titulo": "Paula Belmonte declara apoio à candidatura de Erika Kokay no Senado",
+        "slug": "paula-belmonte-declara-apoio-a-candidatura-de-erika-kokay-no-senado",
+        "categoria": "Política Nacional",
+        "data": "2026-10-02",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/paula-belmonte-declara-apoio-a-candidatura-de-erika-kokay-no-senado.jpg",
+        "resumo": "Anúncio foi feito nesta sexta em uma rede social. Paula afirmou que, mesmo em lados opostos da política, ela reconhece trabalho de Kokay",
+        "conteudo": "<p>A candidata ao Governo do Distrito Federal Paula Belmonte (PSDB) declarou apoio à candidatura de Erika Kokay (PT) ao Senado. O anúncio foi feito nesta sexta-feira (2/10), por meio de um vídeo publicado nas redes sociais. Veja abaixo.</p><h2>No vídeo, Paula Belmonte elogiou a candidata e disse</h2><p>No vídeo, Paula Belmonte elogiou a candidata e disse que o que Senado precisa de “gente com competência e compromisso”. A postulante ao GDF ainda afirmou que Erika sempre chegava primeiro no plenário da Câmara durante mandato como deputada federal e que abordava todas as pautas.</p><p>“Eu quero, mais uma vez, chamar atenção a pessoas que a gente pode até pensar diferente, não há problema, eu defendo isso, a democracia, mas o que a gente precisa é ter gente com competência e compromisso.</p><p>E aqui a Érika sempre teve no plenário da Câmara, chegava primeiro que todo mundo, falava de tudo, de todos os problemas, nenhum projeto passou sem a Érika examinar”, afirmou Paula Belmonte.</p><h2>Na publicação, Erika Kokay agradeceu o apoio e escreveu</h2><p>Na publicação, Erika Kokay agradeceu o apoio e escreveu que, mesmo que ambas representem linhas políticas diferentes, o diálogo com as diferenças é do que o sistema democrático precisa.</p><p>“A política não pode ser feita de inimigos. Podemos pensar diferente, estar em campos diferentes e, ainda assim, reconhecer trajetórias e respeitar quem faz política com seriedade.</p><p>Obrigada, Paula Belmonte, pelas palavras e pelo gesto de respeito. É desse debate, com diferenças e sem perder a humanidade, que a democracia precisa”, declarou.</p><p>Apoio eleitoral: Paula Belmonte (PSDB), candidata ao Governo do Distrito Federal, declarou apoio a Erika Kokay (PT) na disputa pelo Senado; Justificativa declarada: Paula Belmonte afirmou que o Senado precisa de competência e compromisso, destacando a trajetória de Erika Kokay na Câmara; Consulta eleitoral: o TSE disponibiliza a conferência do local de votação para o pleito de 4 de outubro pelo portal da Justiça Eleitoral e pelo aplicativo e-Título.</p><p>Receba no seu email as notícias de Metrópoles DF Frequência de envio: Diário Ver todas</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/distrito-federal/paula-belmonte-declara-apoio-a-candidatura-de-erika-kokay-no-senado",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A candidata ao Governo do Distrito Federal Paula Belmonte (PSDB) declarou apoio à candidatura de Erika Kokay (PT) ao Senado. O anúncio foi feito nesta sexta-feira (2/10), por meio de um vídeo publicado nas redes sociais. Veja abaixo."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "No vídeo, Paula Belmonte elogiou a candidata e disse que o que Senado precisa de “gente com competência e compromisso”. A postulante ao GDF ainda afirmou que Erika sempre chegava primeiro no plenário da Câmara durante mandato como deputada federal e que abordava todas as pautas."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "“Eu quero, mais uma vez, chamar atenção a pessoas que a gente pode até pensar diferente, não há problema, eu defendo isso, a democracia, mas o que a gente precisa é ter gente com competência e compromisso. E aqui a Érika sempre teve no plenário da Câmara, chegava primeiro que todo mundo, falava de tudo, de todos os problemas, nenhum projeto passou sem a Érik"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Na publicação, Erika Kokay agradeceu o apoio e escreveu que, mesmo que ambas representem linhas políticas diferentes, o diálogo com as diferenças é do que o sistema democrático precisa."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "“A política não pode ser feita de inimigos. Podemos pensar diferente, estar em campos diferentes e, ainda assim, reconhecer trajetórias e respeitar quem faz política com seriedade. Obrigada, Paula Belmonte, pelas palavras e pelo gesto de respeito. É desse debate, com diferenças e sem perder a humanidade, que a democracia precisa”, declarou."
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/ZGfsaZYiLQMy_srtIntWonmAZZEXimYMerStvTP0UMs/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/paula-erika-apoio.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/paula-belmonte-declara-apoio-a-candidatura-de-erika-kokay-no-senado.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "b076f8b45b040399",
+      "titulo": "Vorcaro fez empréstimo de R$ 25 mi a Cruzeiro a pedido de Ronaldo",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-caem-com-mercado-otimista-as-vesperas-das-eleicoes/",
-      "dataFonte": "2026-10-02T23:37:50.000Z",
-      "resumoFonte": "Taxa para janeiro de 2027 recuou de 13,563%, no ajuste da véspera, a 13,510%",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/ChatGPT-Image-20-de-mai.-de-2026-21_23_33.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-03T00:17:47.294Z",
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-gente/vorcaro-fez-emprestimo-de-r-25-mi-a-cruzeiro-a-pedido-de-ronaldo/",
+      "dataFonte": "2026-10-03T01:52:52.000Z",
+      "resumoFonte": "Valor foi emprestado pelo Fundo Victória, pertencente ao fundador do Master; com juros, dívida chegou a R$ 28 milhões",
+      "imagem": "https://static.poder360.com.br/uploads/2026/10/ronaldo-vorcaro-2-out-2026-1200x675.jpg",
+      "descobertaEm": "2026-10-03T02:02:48.646Z",
       "reportagem": {
-        "titulo": "Juros futuros caem com mercado otimista às vésperas das eleições",
-        "slug": "juros-futuros-caem-com-mercado-otimista-as-vesperas-das-eleicoes",
+        "titulo": "Vorcaro fez empréstimo de R$ 25 mi a Cruzeiro a pedido de Ronaldo",
+        "slug": "vorcaro-fez-emprestimo-de-r-25-mi-a-cruzeiro-a-pedido-de-ronaldo",
         "categoria": "Economia",
         "data": "2026-10-02",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/juros-futuros-caem-com-mercado-otimista-as-vesperas-das-eleicoes.jpg",
-        "resumo": "Taxa para janeiro de 2027 recuou de 13,563%, no ajuste da véspera, a 13,510%",
-        "conteudo": "<p>Os juros futuros inverteram o sinal de alta para queda no meio da tarde e consolidaram firme baixa no fim do pregão desta sexta-feira (2) que antecedeu o primeiro turno da disputa presidencial.</p><h2>Segundo agentes consultados pela Broadcast (sistema de notícias</h2><p>Segundo agentes consultados pela Broadcast (sistema de notícias em tempo real do Grupo Estado), a melhora refletiu um ajuste de posições com a precificação de maiores chances de que Flávio Bolsonaro (PL) vença o pleito, às vésperas da decisão de domingo.</p><p>A vitória da oposição é vista como um indutor de redução dos prêmios de risco associados ao quadro fiscal.</p><p>Encerrados os negócios, a taxa do contrato de Depósito Interfinanceiro (DI) para janeiro de 2027 recuou de 13,563%, no ajuste da véspera, a 13,510%. O DI para janeiro de 2029 caiu de 13,821% a 13,690%, e o para janeiro de 2031 diminuiu a 13,920%, de 14,034%.</p><h2>No cômputo semanal, porém, a curva de juros futuros</h2><p>No cômputo semanal, porém, a curva de juros futuros ganhou inclinação, com recuo de cerca de 5 pontos-base e 15 pontos-base da taxa para janeiro de 2027 e para janeiro de 2029, pela ordem, e estabilidade na ponta longa.</p><p>Nesta sexta, as taxas apagaram sinal levemente positivo por volta das 15h, mesmo com a pressão na curva dos Treasuries.</p><p>E, rumo ao fim dos negócios, renovaram mínimas e passaram a ceder ao redor de 10 pontos-base nos trechos médios e longos, movimento que, segundo um estrategista de uma grande tesouraria, não teve um gatilho específico. &quot;É só animação com a eleição mesmo&quot;, disse.</p><p>&quot;É o mercado ajustando pelas melhores chances de vitória de Flávio&quot;, concorda o economista-chefe da Montebravo, Felipe Tavares.</p><p>Segundo a economista sênior para mercados emergentes da Capital Economics, Kimberley Sperrfechter, um desempenho forte de Flávio no domingo impulsionaria o real e as ações, possivelmente em 3% a 4%, tendo como base a reação dos ativos nas eleições de 2018 e 2022, e poderia levar a novas quedas nos rendimentos dos títulos soberanos locais.</p><p>&quot;As apostas na Polymarket apontam Flávio como leve favorito&quot;, nota Sperrfechter em relatório. Segundo a plataforma de apostas, o senador tem 55% de chances de vitória, contra 45% do presidente Lula.</p><p>Publicada na noite de quinta-feira, pesquisa Datafolha não fez preço nos ativos, mostrando manutenção do cenário de empate técnico entre os dois candidatos.</p><p>Pela manhã, porém, eventos ocorridos nesta quinta impuseram cautela aos negócios. Flávio decidiu de última hora não participar de debate eleitoral na TV Globo , que cancelou o embate político.</p><p>Lula já havia declarado que não compareceria, e concedeu entrevista ao Flow Podcast . O senador do PL acabou realizando uma live no mesmo horário.</p><p>Segundo a economista-chefe da Mirae Asset, Marianna Costa, a visão do mercado ainda é de um cenário muito empatado, e a expectativa em relação à realização do debate, que poderia mudar esse quadro, acabou sendo frustrada.</p><p>&quot;Entendo que, para domingo, o mercado precifica um cenário muito apertado, mas com Lula à frente&quot;, apontou.</p><p>Em sua avaliação, o Datafolha , assim como os demais levantamentos publicados ao longo da semana, indica acomodação dos dois principais presidenciáveis na margem - tanto da piora de Lula quanto da melhora de Flávio.</p><p>&quot;A tendência de alta do Flávio e queda do Lula perdeu força, e é exatamente essa força que determina o fôlego dos ativos&quot;, comentou a economista.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-caem-com-mercado-otimista-as-vesperas-das-eleicoes/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/vorcaro-fez-emprestimo-de-r-25-mi-a-cruzeiro-a-pedido-de-ronaldo.jpg",
+        "resumo": "Valor foi emprestado pelo Fundo Victória, pertencente ao fundador do Master; com juros, dívida chegou a R$ 28 milhões. Leia no Poder360.",
+        "conteudo": "<p>Valor foi emprestado pelo Fundo Victória, pertencente ao fundador do Master; com juros, dívida chegou a R$ 28 milhões</p><h2>Fundo ligado ao fundador do Banco Master, Daniel Vorcaro</h2><p>Um fundo ligado ao fundador do Banco Master, Daniel Vorcaro , fez um empréstimo de R$ 25 milhões em 2024 ao clube Cruzeiro , a pedido de Ronaldo Fenômeno –ex-sócio majoritário do time.</p><p>A transação foi revelada pelo balanço financeiro do clube e também por conversas entre a dupla reveladas pela Polícia Federal . Leia a íntegra do balanço (PDF – 4,3 MB).</p><p>Em prints de conversas do Whatsapp datadas de 19 de março de 2024, o ex-jogador pede a Vorcaro uma “ajuda” para o clube depois da eliminação da equipe na Copa do Brasil: “ Preciso de uma ajuda tua.</p><h2>Como fomos eliminados da Copa do Brasil, deixamos</h2><p>Como fomos eliminados da Copa do Brasil, deixamos de ter um dinheiro com o qual contávamos e estamos apertados para fluxo de caixa. O Gabriel Lima [CEO do Cruzeiro] está indo para Londres.</p><p>Ele pode te encontrar e explicar melhor essa operação” .</p><p>Vorcaro aceita encontrar Gabriel Lima e, dias depois, em 9 de abril, Ronaldo agradece pelo empréstimo: “Amigo, o empréstimo saiu lá para o Cruzeiro! Muito obrigado, irmão!” .</p><p>O aporte foi realizado pelo Fundo Victória, pertencente a Vorcaro. Apesar de ser um empréstimo inicial de R$ 25 milhões, o montante total chegou a R$ 28 milhões com a soma de juros.</p><p>Segundo o balanço do clube, o vencimento do empréstimo era em 8 de abril de 2025 e o montante aparece como quitado.</p><p>As conversas mostram também uma rotina de proximidade familiar e trocas de favores entre eles. Em 27 de março de 2024, Vorcaro pediu ajuda a para de Ronaldo para organizar a presença da sua família num evento desportivo.</p><p>O ex-jogador interveio pessoalmente para garantir o acesso da família de Vorcaro ao astro argentino Lionel Messi depois de uma partida, e Vorcaro agradeceu afirmando que seu filho “iria morrer” .</p><p>Toda essa movimentação aconteceu antes do escândalo do Master, no qual resultaria na prisão de Vorcaro e na liquidação da instituição financeira. Pouco depois do empréstimo, em abril de 2024, Ronaldo vendeu suas ações do Cruzeiro para o empresário Pedro Lourenço.</p><p>O Poder360 questionou Ronaldo Fenômeno sobre as mensagens trocadas com Daniel Vorcaro a respeito do empréstimo, mas não obteve resposta até a publicação desta reportagem. Este texto será atualizado assim que alguma manifestação for recebida.</p><p>Vorcaro fez empréstimo de R$ 25 mi a Cruzeiro a pedido de Ronaldo Valor foi emprestado pelo Fundo Victória, pertencente ao fundador do Master; com juros, dívida chegou a R$ 28 milhões --> copiar link --></p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-gente/vorcaro-fez-emprestimo-de-r-25-mi-a-cruzeiro-a-pedido-de-ronaldo/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil Economia",
@@ -479,27 +395,159 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Os juros futuros inverteram o sinal de alta para queda no meio da tarde e consolidaram firme baixa no fim do pregão desta sexta-feira (2) que antecedeu o primeiro turno da disputa presidencial."
+            "resposta": "Valor foi emprestado pelo Fundo Victória, pertencente ao fundador do Master; com juros, dívida chegou a R$ 28 milhões"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Segundo agentes consultados pela Broadcast (sistema de notícias em tempo real do Grupo Estado), a melhora refletiu um ajuste de posições com a precificação de maiores chances de que Flávio Bolsonaro (PL) vença o pleito, às vésperas da decisão de domingo. A vitória da oposição é vista como um indutor de redução dos prêmios de risco associados ao quadro fiscal"
+            "resposta": "Um fundo ligado ao fundador do Banco Master, Daniel Vorcaro , fez um empréstimo de R$ 25 milhões em 2024 ao clube Cruzeiro , a pedido de Ronaldo Fenômeno –ex-sócio majoritário do time. A transação foi revelada pelo balanço financeiro do clube e também por conversas entre a dupla reveladas pela Polícia Federal . Leia a íntegra do balanço (PDF – 4,3 MB)."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Encerrados os negócios, a taxa do contrato de Depósito Interfinanceiro (DI) para janeiro de 2027 recuou de 13,563%, no ajuste da véspera, a 13,510%. O DI para janeiro de 2029 caiu de 13,821% a 13,690%, e o para janeiro de 2031 diminuiu a 13,920%, de 14,034%."
+            "resposta": "Em prints de conversas do Whatsapp datadas de 19 de março de 2024, o ex-jogador pede a Vorcaro uma “ajuda” para o clube depois da eliminação da equipe na Copa do Brasil: “ Preciso de uma ajuda tua. Como fomos eliminados da Copa do Brasil, deixamos de ter um dinheiro com o qual contávamos e estamos apertados para fluxo de caixa. O Gabriel Lima [CEO do Cruzeir"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "No cômputo semanal, porém, a curva de juros futuros ganhou inclinação, com recuo de cerca de 5 pontos-base e 15 pontos-base da taxa para janeiro de 2027 e para janeiro de 2029, pela ordem, e estabilidade na ponta longa."
+            "resposta": "Vorcaro aceita encontrar Gabriel Lima e, dias depois, em 9 de abril, Ronaldo agradece pelo empréstimo: “Amigo, o empréstimo saiu lá para o Cruzeiro! Muito obrigado, irmão!” ."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Nesta sexta, as taxas apagaram sinal levemente positivo por volta das 15h, mesmo com a pressão na curva dos Treasuries."
+            "resposta": "O aporte foi realizado pelo Fundo Victória, pertencente a Vorcaro. Apesar de ser um empréstimo inicial de R$ 25 milhões, o montante total chegou a R$ 28 milhões com a soma de juros. Segundo o balanço do clube, o vencimento do empréstimo era em 8 de abril de 2025 e o montante aparece como quitado."
           }
         ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/ChatGPT-Image-20-de-mai.-de-2026-21_23_33.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/juros-futuros-caem-com-mercado-otimista-as-vesperas-das-eleicoes.jpg",
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/ronaldo-vorcaro-2-out-2026-1200x675.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/vorcaro-fez-emprestimo-de-r-25-mi-a-cruzeiro-a-pedido-de-ronaldo.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "ca086c57bac3a896",
+      "titulo": "A 2 dias das eleições, artistas lançam música “Bora Lula”",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-eleicoes-2026/a-2-dias-das-eleicoes-artistas-lancam-musica-bora-lula/",
+      "dataFonte": "2026-10-03T02:50:59.000Z",
+      "resumoFonte": "Cantores e atores se reuniram para gravar clipe em apoio à reeleição do presidente, que busca um 4º mandato",
+      "imagem": "https://static.poder360.com.br/uploads/2026/09/arte-artistas-famosos-lula-l-24-set-2026-1200x675.png",
+      "descobertaEm": "2026-10-03T03:17:43.794Z"
+    },
+    {
+      "id": "64e6cfa5ba77ff04",
+      "titulo": "Brasil chega à eleição sob degradação institucional sem precedentes, diz coautor de livro sobre democracia",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/brasil-chega-a-eleicao-sob-degradacao-institucional-sem-precedentes-diz-coautor-de-livro-sobre-democracia.shtml",
+      "dataFonte": "2026-10-03T02:00:00.000Z",
+      "resumoFonte": "O cientista político Marcus André Melo vê o Brasil diante de uma deterioração institucional que, em sua avaliação, ultrapassa os padrões das crises anteriores. Para ele, o caso Master expõe um entrelaçamento inédito entre interesses públicos e privados e alcança instituições que ocupam o centro do sistema de freios e contrapesos da República. Leia…",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/02/17909569146abfd572ddc52_1790956914_3x2_rt.jpg",
+      "descobertaEm": "2026-10-03T02:02:48.646Z",
+      "reportagem": {
+        "titulo": "Brasil chega à eleição sob degradação institucional sem precedentes, diz coautor de livro sobre democracia",
+        "slug": "brasil-chega-a-eleicao-sob-degradacao-institucional-sem-precedentes-diz-coautor-de-livro-s",
+        "categoria": "Cultura",
+        "data": "2026-10-02",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/brasil-chega-a-eleicao-sob-degradacao-institucional-sem-precedentes-diz-coautor-de-livro-s.jpg",
+        "resumo": "Segundo Marcus Melo, cientista político e colunista da Folha, há escalada no conluio entre interesses públicos e privados, com suspeitas sobre núcleo do Judiciário e outras instituições",
+        "conteudo": "<p>O cientista político Marcus André Melo vê o Brasil diante de uma deterioração institucional que, em sua avaliação, ultrapassa os padrões das crises anteriores.</p><h2>Para ele, o caso Master expõe um entrelaçamento inédito</h2><p>Para ele, o caso Master expõe um entrelaçamento inédito entre interesses públicos e privados e alcança instituições que ocupam o centro do sistema de freios e contrapesos da República.</p><p>Apesar do diagnóstico sombrio, Melo, coautor do livro \"Por que a democracia brasileira não morreu?\" (Companhia das Letras), vê instituições e setores da sociedade que continuam funcionando e capazes de reagir.</p><p>Nesta entrevista, ele analisa a trajetória da democracia brasileira desde a redemocratização, os efeitos da Lava Jato , a relação entre Executivo, Legislativo e Judiciário e os riscos de uma crescente degradação institucional.</p><h2>Senhor descreve a redemocratização como um período</h2><p>O senhor descreve a redemocratização como um período em que o Brasil conseguiu, a partir do Plano Real e dos governos FHC e Lula 1 , construir uma certa normalidade institucional e econômica.</p><p>Em que momento essa trajetória se rompeu —e o que explica o fato de o país não ter conseguido retomá-la desde então?</p><p>No início da redemocratização do país , forjou-se certo consenso negativo entre os analistas de que as instituições políticas brasileiras eram obstáculos à consolidação democrática e à governabilidade.</p><p>O diagnóstico era de um país ingovernável: partidos fragmentados e débeis impediam a formação de maiorias; presidentes eram reféns do Congresso; e os governadores abusavam das estatais e dos bancos estaduais, comprometendo planos de estabilização econômica.</p><p>A corrupção aflorava em escândalos e no impeachment presidencial [de Fernando Collor]. Os resultados econômicos eram os piores possíveis: hiperinflação, déficits fiscais alarmantes e desequilíbrio externo. Um \"País bêbado\", como no título de um dossiê da The Economist em 1990.</p><p>Sob os dois mandatos de FHC, o presidencialismo multipartidário funcionou. Reformas difíceis alteraram a bizarra Constituição econômica de 1988 —repleta de monopólios estatais, definição de empresa de capital nacional, juros tabelados etc.</p><p>Aprovou-se o que se julgava impossível: a privatização . Mais importante: o dilema de uma geração —a inflação— foi resolvido. A alternância pacífica de poder em 2002 foi o teste da maturidade.</p><p>Receba no seu email destaques das campanhas, pesquisas e disputas nos estados</p><p>O mensalão pôs à prova a independência do STF, com maioria indicada pelo novo grupo no poder: as sanções foram impostas a uma força política que ainda governava. Algo inédito.</p><p>O equilíbrio foi desfeito por uma tempestade perfeita gestada a partir de 2008: um boom de commodities e euforia do pré-sal, com gestão fiscal temerária de Dilma Rousseff [a partir de 2011], em meio à exposição inédita de corrupção sistêmica [ Lava Jato e Petrolão ].</p><p>A reação não demorou a vir. Em seu bojo, um outsider [ Jair Bolsonaro ] com pretensões hegemônicas foi eleito e patrocinou o desmonte institucional de políticas.</p><p>Nosso forte e, em certo sentido, disfuncional multipartidarismo e o caráter hiperminoritário do presidente tiveram papel central na contenção de suas iniciativas.</p><p>Como também o Supremo, para cuja reputação seu legado histórico e o desfecho do mensalão haviam sido importantes.</p><p>A política de terra arrasada em relação à Lava Jato inaugurou um vale-tudo institucional. Ela mostra agora sua fatura.</p><p>E fica claro que a necessária defesa da democracia serviu como biombo para desmandos individuais e para garantir impunidade.</p><p>A disfuncionalidade contamina o Supremo como colegiado porque se aliou à extensa patologia do ativismo processual individual.</p><p>Alguns dos protagonistas da Lava Jato —o que inclui setores da comunidade jurídica— reaparecem no escândalo do Master.</p><p>O avanço e o retrocesso que observamos sugerem uma armadilha da democracia de qualidade média, que é incapaz de convergir para um padrão superior de institucionalidade.</p><p>O senhor fala de uma degradação institucional que hoje parece mais profunda do que se imaginava, inclusive com o envolvimento de setores do Judiciário nas investigações sobre Master .</p><p>O que há de efetivamente inédito nessa crise institucional e quais são, na sua avaliação, os riscos para a democracia?</p><p>Nos escândalos do passado, os \"suspeitos usuais\" eram setores contratistas de obras e serviços públicos, concessionários, empreiteiras etc. E os protagonistas eram membros dos Poderes Executivo e Legislativo.</p><p>O escândalo atinge simultaneamente o Supremo, o TCU (Tribunal de Contas da União), o Banco Central , a CVM (Comissão de Valores Mobiliários), enfim, o núcleo duro da institucionalidade do Estado brasileiro.</p><p>Isto não tem precedentes. Envolvimento de ministros de cortes superiores em corrupção é evento raro nas democracias. São maçãs podres —raramente envolvem mais do que um indivíduo.</p><p>Tampouco envolve blindagem de malfeitos com facções judiciais e \"mob lawyers\" [advogados de mafiosos].</p><p>As implicações para a democracia são importantíssimas: o Judiciário arbitra conflitos, e sua legitimidade é seu maior ativo.</p><p>Não há democracia sem Judiciário autônomo, tanto em relação aos demais Poderes quanto a interesses privados.</p><p>A eleição presidencial de 2026 tem uma característica particularmente importante: dependendo do resultado, o próximo presidente poderá indicar até quatro ministros do STF.</p><p>Isso aumenta de que maneira o peso dessa eleição e pode alterar o equilíbrio entre os Poderes no Brasil?</p><p>O fato de que o comando do Supremo tenha se convertido no prêmio maior da disputa política do país sinaliza para o tamanho da disfuncionalidade que tem caracterizado a Corte nos últimos anos.</p><p>Provavelmente é um evento sem paralelo em qualquer país.</p><p>O caso extremo do México se aproxima do nosso, mas preveem-se eleições, não nomeação pelo chefe do Executivo.</p><p>Claudia Sheinbaum [presidente mexicana] foi eleita defendendo a reforma judicial constitucional proposta por López Obrador, que previa submeter os cargos da Suprema Corte a uma eleição extraordinária e, assim, renovar integralmente sua composição.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/brasil-chega-a-eleicao-sob-degradacao-institucional-sem-precedentes-diz-coautor-de-livro-sobre-democracia.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O cientista político Marcus André Melo vê o Brasil diante de uma deterioração institucional que, em sua avaliação, ultrapassa os padrões das crises anteriores. Para ele, o caso Master expõe um entrelaçamento inédito entre interesses públicos e privados e alcança instituições que ocupam o centro do sistema de freios e contrapesos da República."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Apesar do diagnóstico sombrio, Melo, coautor do livro \"Por que a democracia brasileira não morreu?\" (Companhia das Letras), vê instituições e setores da sociedade que continuam funcionando e capazes de reagir."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Nesta entrevista, ele analisa a trajetória da democracia brasileira desde a redemocratização, os efeitos da Lava Jato , a relação entre Executivo, Legislativo e Judiciário e os riscos de uma crescente degradação institucional."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O senhor descreve a redemocratização como um período em que o Brasil conseguiu, a partir do Plano Real e dos governos FHC e Lula 1 , construir uma certa normalidade institucional e econômica. Em que momento essa trajetória se rompeu —e o que explica o fato de o país não ter conseguido retomá-la desde então? No início da redemocratização do país , forjou-se c"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A corrupção aflorava em escândalos e no impeachment presidencial [de Fernando Collor]. Os resultados econômicos eram os piores possíveis: hiperinflação, déficits fiscais alarmantes e desequilíbrio externo. Um \"País bêbado\", como no título de um dossiê da The Economist em 1990."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/02/17909569146abfd572ddc52_1790956914_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/brasil-chega-a-eleicao-sob-degradacao-institucional-sem-precedentes-diz-coautor-de-livro-s.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "c684b226fcb7c10e",
+      "titulo": "Sem citar Lula, Anitta diz em vídeo que vota em quem é contra as bets",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-eleicoes-2026/sem-citar-lula-anitta-diz-em-video-que-vota-em-quem-e-contra-as-bets/",
+      "dataFonte": "2026-10-03T01:26:21.000Z",
+      "resumoFonte": "Cantora também defendeu o fim da escala 6 X 1; presidente comentou a publicação nas redes sociais",
+      "imagem": "https://static.poder360.com.br/uploads/2026/10/anitta-1200x675.jpg",
+      "descobertaEm": "2026-10-03T02:02:48.646Z",
+      "reportagem": {
+        "titulo": "Sem citar Lula, Anitta diz em vídeo que vota em quem é contra as bets",
+        "slug": "sem-citar-lula-anitta-diz-em-video-que-vota-em-quem-e-contra-as-bets",
+        "categoria": "Cultura",
+        "data": "2026-10-02",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/sem-citar-lula-anitta-diz-em-video-que-vota-em-quem-e-contra-as-bets.jpg",
+        "resumo": "Cantora também defendeu o fim da escala 6 X 1; presidente comentou a publicação nas redes sociais. Leia no Poder360.",
+        "conteudo": "<p>Cantora também defendeu o fim da escala 6 X 1; presidente comentou a publicação nas redes sociais</p><h2>Sem citar o presidente Luiz Inácio Lula da Silva</h2><p>Sem citar o presidente Luiz Inácio Lula da Silva (PT), a cantora Anitta afirmou nesta 6ª feira (2.out.2026) que votará em candidatos que sejam contra as bets. O vídeo foi publicado pelos perfis Mídia Ninja e 342artes no Instagram e repostado pela artista nos stories.</p><p>Anitta disse ser favorável ao fim das plataformas de apostas e orientou os eleitores a pesquisar as posições dos candidatos antes de votar.</p><p>A manifestação se dá depois de Lula editar, em 25 de setembro, medida provisória que proíbe as bets no Brasil. A MP determina que sites e aplicativos deixem de funcionar a partir da próxima 3ª feira (6.out).</p><h2>Formulário de cadastro alertas grátis do Poder360 concordo</h2><p>Formulário de cadastro alertas grátis do Poder360 concordo com os termos da LGPD .</p><p>Inscreva-se Inscreva-se “Eu sou a favor do fim das bets, eu acho que tá acabando com as famílias, com as pessoas, com a saúde mental, acabando com a economia do país, acabando com a vida financeira de muita gente, de muitas famílias, das marcas, das empresas, de tudo.</p><p>‘Quais são os políticos que também estão de acordo com esse pensamento? Que quando chegar lá, na hora de todo mundo votar e decidir, vai decidir mais a favor daquilo que eu penso?’.</p><p>Aí você vai e encontra essas pessoas”, disse Anitta.</p><p>A cantora também defendeu o fim da escala de trabalho 6 X 1 e maior presença de mulheres na política. Disse que os eleitores devem comparar as posições dos candidatos com aquilo que acreditam.</p><p>“Quais são os políticos que também estão de acordo com esse pensamento? Que quando chegar lá, na hora de todo mundo votar e decidir, vai decidir mais a favor daquilo que eu penso”, disse Anitta.</p><p>Lula comentou a publicação de Anitta nas redes sociais. O presidente escreveu que o voto é secreto, mas que ela teria dado um “tutorial” .</p><p>Sem citar Lula, Anitta diz em vídeo que vota em quem é contra as bets Cantora também defendeu o fim da escala 6 X 1; presidente comentou a publicação nas redes sociais --> copiar link --></p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-eleicoes-2026/sem-citar-lula-anitta-diz-em-video-que-vota-em-quem-e-contra-as-bets/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Cantora também defendeu o fim da escala 6 X 1; presidente comentou a publicação nas redes sociais"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Sem citar o presidente Luiz Inácio Lula da Silva (PT), a cantora Anitta afirmou nesta 6ª feira (2.out.2026) que votará em candidatos que sejam contra as bets. O vídeo foi publicado pelos perfis Mídia Ninja e 342artes no Instagram e repostado pela artista nos stories."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Anitta disse ser favorável ao fim das plataformas de apostas e orientou os eleitores a pesquisar as posições dos candidatos antes de votar. A manifestação se dá depois de Lula editar, em 25 de setembro, medida provisória que proíbe as bets no Brasil. A MP determina que sites e aplicativos deixem de funcionar a partir da próxima 3ª feira (6.out)."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Formulário de cadastro alertas grátis do Poder360 concordo com os termos da LGPD . Inscreva-se Inscreva-se “Eu sou a favor do fim das bets, eu acho que tá acabando com as famílias, com as pessoas, com a saúde mental, acabando com a economia do país, acabando com a vida financeira de muita gente, de muitas famílias, das marcas, das empresas, de tudo. ‘Quais s"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A cantora também defendeu o fim da escala de trabalho 6 X 1 e maior presença de mulheres na política. Disse que os eleitores devem comparar as posições dos candidatos com aquilo que acreditam."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/anitta-1200x675.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/sem-citar-lula-anitta-diz-em-video-que-vota-em-quem-e-contra-as-bets.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -517,74 +565,350 @@
       "descobertaEm": "2026-10-03T01:17:44.041Z"
     },
     {
-      "id": "b82035c96719982d",
-      "titulo": "Ingra Soares ganha flores de Zé Vaqueiro: “O futuro a Deus pertence”",
+      "id": "ca989ea8ae82af5c",
+      "titulo": "Sony compra direitos de ‘Buddy’, terror polêmico que transformou um unicórnio em pesadelo",
       "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Metrópoles - Política",
-      "urlFonte": "https://www.metropoles.com/colunas/fabia-oliveira/ingra-soares-ganha-flores-de-ze-vaqueiro-o-futuro-a-deus-pertence",
-      "dataFonte": "2026-10-02T23:53:00.000Z",
-      "resumoFonte": "Influenciadora Ingra Soares revelou que o cantor enviou o buquê e afirmou que os dois ainda se amam",
-      "imagem": "https://i.metroimg.com/jDqzHDpH0RQ8terHMnXWg-JRLiF5dzAzleOOOUiMgDU/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/ingra-soares-ganha-flores-de-ze-vaqueiro-o-futuro-a-deus-pertence.jpg",
-      "descobertaEm": "2026-10-03T00:17:47.294Z"
-    },
-    {
-      "id": "7bcd4cbfc18fa7cd",
-      "titulo": "Irmão diz que princesa Diana revelou \"affair\" de Charles com um mordomo",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Metrópoles - Política",
-      "urlFonte": "https://www.metropoles.com/colunas/claudia-meireles/irmao-diz-que-princesa-diana-revelou-affair-de-charles-com-um-mordomo",
-      "dataFonte": "2026-10-02T23:36:00.000Z",
-      "resumoFonte": "Charles Spencer, irmão mais novo da princesa Diana, disponibilizou detalhes sobre uma das declarações mais controversas de seu livro",
-      "imagem": "https://i.metroimg.com/Rg-4ZA5PmpYwS9btFuZBKkWlsBgSHWDn2lVJGKWMqzw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/charles-spencer-princesa-diana-e-rei-charles.png",
-      "descobertaEm": "2026-10-03T00:17:47.294Z"
-    },
-    {
-      "id": "7508f3661d43a7b5",
-      "titulo": "São Paulo exibe mensagem contra proibição das apostas em placas no MorumBis",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/esportes/sao-paulo-exibe-mensagem-contra-proibicao-das-apostas-em-placas-no-morumbis",
-      "dataFonte": "2026-10-03T00:15:05.000Z",
-      "resumoFonte": "O Tricolor Paulista enfrenta o Santos, nesta sexta-feira (2/10), em clássico pela 21ª rodada do Brasileirão",
-      "imagem": "https://i.metroimg.com/5ijZmk53X-LkJbncJAQDq162PPZ2BVoXvPHbBAenMts/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/jornais-ingleses-28.png",
-      "descobertaEm": "2026-10-03T00:17:47.294Z"
-    },
-    {
-      "id": "23921dd204b58a48",
-      "titulo": "Após gol contra o São Paulo, Gabigol fala sobre convocação: \"Sonho\"",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/esportes/apos-gol-contra-sao-paulo-gabigol-fala-sobre-convocacao-sonho",
-      "dataFonte": "2026-10-03T00:12:27.000Z",
-      "resumoFonte": "Gabigol não foi convocado para a Data Fifa de setembro/outubro, mas sonha em voltar a defender a Amarelinha em novembro",
-      "imagem": "https://i.metroimg.com/FxoNpXBRm7_-l8ps34s0fUG09O2kdtXW14D1UNjOHNc/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/gabigol-santos-sao-paulo.jpg",
-      "descobertaEm": "2026-10-03T00:17:47.294Z"
-    },
-    {
-      "id": "364b331231758d1e",
-      "titulo": "São Paulo quita um mês de direitos de imagem atrasados",
-      "categoria": "Justiça",
       "radar": null,
       "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/esportes/futebol/sao-paulo-futebol-clube/sao-paulo-quita-um-mes-de-direitos-de-imagem-atrasados/",
-      "dataFonte": "2026-10-02T23:28:31.000Z",
-      "resumoFonte": "O valor, de cerca de R$ 8 milhões, foi pago nesta sexta-feira (02), um dia após a aprovação do contrato pelo Conselho Deliberativo do clube",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/02/calleri-desencanta.jpg?w=1000&h=600&crop=1",
-      "descobertaEm": "2026-10-03T00:17:47.294Z",
+      "urlFonte": "https://jovempan.com.br/entretenimento/tv-e-cinema/sony-compra-direitos-de-buddy-terror-polemico-que-transformou-um-unicornio-em-pesadelo/",
+      "dataFonte": "2026-10-03T01:00:00.000Z",
+      "resumoFonte": "Filme inspirado na estética dos programas infantis dos anos 1990 virou assunto nos Estados Unidos após famílias levarem crianças para sessões sem saber que se tratava de um terror",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/buddy-.jpg?w=1000&h=600&crop=1",
+      "descobertaEm": "2026-10-03T01:17:44.041Z",
       "reportagem": {
-        "titulo": "São Paulo quita um mês de direitos de imagem atrasados | Jovem Pan",
-        "slug": "sao-paulo-quita-um-mes-de-direitos-de-imagem-atrasados-jovem-pan",
+        "titulo": "Sony compra direitos de ‘Buddy’, terror polêmico que transformou um unicórnio em pesadelo | Jovem Pan",
+        "slug": "sony-compra-direitos-de-buddy-terror-polemico-que-transformou-um-unicornio-em-pesadelo-jov",
+        "categoria": "Cultura",
+        "data": "2026-10-02",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/sony-compra-direitos-de-buddy-terror-polemico-que-transformou-um-unicornio-em-pesadelo-jov.jpg",
+        "resumo": "Filme inspirado na estética dos programas infantis dos anos 1990 virou assunto nos Estados Unidos após famílias levarem crianças para sessões sem saber que se tratava de um terror",
+        "conteudo": "<p>Um unicórnio laranja sorridente, músicas infantis e uma estética que parece saída diretamente de um programa de televisão dos anos 1990.</p><h2>À primeira vista, Buddy poderia facilmente ser confundido</h2><p>À primeira vista, Buddy poderia facilmente ser confundido com uma produção voltada para crianças.</p><p>O problema é que, por trás das cores vibrantes e do mascote aparentemente adorável, existe um filme de terror violento que chegou a provocar pânico em algumas famílias nos cinemas dos Estados Unidos.</p><p>Agora, o longa ganhou um novo capítulo: a **Sony Pictures Worldwide Acquisitions adquiriu os direitos internacionais de **Buddy em um acordo de sete dígitos.</p><h2>Negociação coloca o estúdio responsável pela distribuição internacional</h2><p>A negociação coloca o estúdio responsável pela distribuição internacional do filme e pode abrir caminho para seu lançamento em outros mercados.</p><p>Dirigido e coescrito por Casper Kelly, conhecido por Too Many Cooks, o filme mistura terror e comédia sombria com uma estética propositalmente nostálgica.</p><p>A história acompanha os bastidores de um fictício programa infantil dos anos 1990 chamado It’s Buddy!, comandado por Buddy, um enorme unicórnio laranja dublado por Keegan-Michael Key.</p><p>No começo, tudo parece inofensivo. Crianças cantam, brincam e participam de um universo colorido ao lado do mascote. A inspiração visual lembra programas infantis que fizeram sucesso nos anos 1990, justamente para criar uma sensação de familiaridade.</p><p>Só que a fantasia começa a desmoronar quando uma das crianças decide que não quer mais participar das atividades do programa.</p><p>A partir daí, o simpático Buddy revela seu lado sombrio. As crianças acabam presas naquele universo e precisam encontrar uma maneira de escapar enquanto descobrem que o personagem aparentemente amigável esconde uma natureza extremamente violenta.</p><p>A polêmica surgiu justamente porque a estética de Buddy brinca com a aparência de um programa infantil.</p><p>Durante a exibição nos cinemas americanos, alguns pais teriam levado crianças pequenas para assistir ao filme acreditando que se tratava de uma produção familiar.</p><p>A surpresa veio quando perceberam que estavam diante de um terror com classificação R nos Estados Unidos, voltado para o público adulto.</p><p>Relatos sobre famílias deixando as salas, crianças chorando e espectadores surpresos começaram a circular, transformando a situação em um dos assuntos mais comentados em torno do longa.</p><p>A confusão, porém, faz parte da própria proposta de Buddy. O filme usa deliberadamente a estética de programas infantis para criar um contraste com o horror. O enorme unicórnio laranja e o cenário colorido funcionam justamente como uma espécie de armadilha visual.</p><p>A produção brinca com uma ideia simples: e se aquele personagem infantil que parece completamente inofensivo escondesse algo muito mais perturbador?</p><p>Buddy começa como um mascote carismático, mas sua verdadeira personalidade transforma o universo aparentemente alegre em um cenário de perseguição e violência. A história acompanha crianças tentando sobreviver enquanto descobrem as regras daquele mundo.</p><p>O elenco ainda conta com nomes conhecidos como Cristin Milioti, Topher Grace, Delaney Quinn, Michael Shannon, Patton Oswalt e Keegan-Michael Key.</p><p>Apesar da controvérsia, Buddy não ficou conhecido apenas pela reação das famílias. O filme também chamou atenção em festivais e teve uma passagem positiva pela crítica.</p><p>A produção estreou no Festival de Sundance de 2026 e posteriormente chegou aos cinemas norte-americanos.</p><p>Com um orçamento estimado em cerca de US$ 5 milhões, o longa já teria arrecadado aproximadamente US$ 26,5 milhões nos Estados Unidos, ultrapassando em várias vezes o valor investido na produção.</p><p>O resultado chamou a atenção de diferentes distribuidores e acabou levando a Sony a adquirir os direitos internacionais em uma negociação de sete dígitos.</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/entretenimento/tv-e-cinema/sony-compra-direitos-de-buddy-terror-polemico-que-transformou-um-unicornio-em-pesadelo/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Um unicórnio laranja sorridente, músicas infantis e uma estética que parece saída diretamente de um programa de televisão dos anos 1990. À primeira vista, Buddy poderia facilmente ser confundido com uma produção voltada para crianças. O problema é que, por trás das cores vibrantes e do mascote aparentemente adorável, existe um filme de terror violento que ch"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Agora, o longa ganhou um novo capítulo: a **Sony Pictures Worldwide Acquisitions adquiriu os direitos internacionais de **Buddy em um acordo de sete dígitos. A negociação coloca o estúdio responsável pela distribuição internacional do filme e pode abrir caminho para seu lançamento em outros mercados."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Dirigido e coescrito por Casper Kelly, conhecido por Too Many Cooks, o filme mistura terror e comédia sombria com uma estética propositalmente nostálgica. A história acompanha os bastidores de um fictício programa infantil dos anos 1990 chamado It’s Buddy!, comandado por Buddy, um enorme unicórnio laranja dublado por Keegan-Michael Key."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "No começo, tudo parece inofensivo. Crianças cantam, brincam e participam de um universo colorido ao lado do mascote. A inspiração visual lembra programas infantis que fizeram sucesso nos anos 1990, justamente para criar uma sensação de familiaridade."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Só que a fantasia começa a desmoronar quando uma das crianças decide que não quer mais participar das atividades do programa."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/buddy-.jpg?w=1000&h=600&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/sony-compra-direitos-de-buddy-terror-polemico-que-transformou-um-unicornio-em-pesadelo-jov.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "100d34206bc659cc",
+      "titulo": "Cuca indica retorno de Neymar em Santos x Flamengo, pelo Brasileirão",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/santos/cuca-indica-retorno-de-neymar-em-santos-x-flamengo-pelo-brasileirao/",
+      "dataFonte": "2026-10-03T02:06:37.000Z",
+      "resumoFonte": "Camisa 10 está em fase avançada de recuperação de lesão na coxa direita, e técnico se mostra otimista para a partida na Vila Belmiro",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/neymar_cuca-e1787749637432.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-03T03:17:43.794Z",
+      "reportagem": {
+        "titulo": "Cuca indica retorno de Neymar em Santos x Flamengo, pelo Brasileirão",
+        "slug": "cuca-indica-retorno-de-neymar-em-santos-x-flamengo-pelo-brasileirao",
+        "categoria": "Esporte",
+        "data": "2026-10-02",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/cuca-indica-retorno-de-neymar-em-santos-x-flamengo-pelo-brasileirao.jpg",
+        "resumo": "Camisa 10 está em fase avançada de recuperação de lesão na coxa direita, e técnico se mostra otimista para a partida na Vila Belmiro",
+        "conteudo": "<p>O técnico Cuca, do Santos, indicou que o atacante Neymar, em fase final de recuperação de lesão na coxa direita, deve estar à disposição para o jogo contra o Flamengo, na próxima quinta-feira (8), na Vila Belmiro.</p><h2>&quot;Neymar talvez já esteja em condição, vamos trabalhar nesses</h2><p>&quot;Neymar talvez já esteja em condição, vamos trabalhar nesses dias para ver a condição dele. Mas a chance de ele jogar é grande, ele está treinando bem, se preparando bem&quot;, disse Cuca, após a vitória do Santos sobre o São Paulo, no Morumbis.</p><p>O camisa 10 passou por uma transição física após tratar uma lesão muscular tipo 2B no reto anterior da coxa direita. Ele não atua desde 2 de setembro, quando o Santos enfrentou o Palmeiras pela Copa do Brasil.</p><p>Na temporada, Neymar acumula oito gols e oito assistências em 24 jogos, sendo 21 como titular.</p><h2>Santos venceu o São Paulo de virada por 2</h2><p>O Santos venceu o São Paulo de virada por 2 a 1 na última sexta-feira (2), em partida atrasada da 21ª rodada da Série A do Campeonato Brasileiro, no Morumbis. Gabigol foi o destaque, balançando as redes duas vezes. Luciano abriu o placar para o Tricolor de pênalti.</p><p>O Peixe empatou com Gabi após cruzamento de Escobar e, na segunda etapa, o atacante virou o jogo após jogada com Coutinho e Cebolinha, deixando Toloi para trás.</p><p>Com a vitória, o Santos igualou a quantidade de jogos dos times acima na tabela e subiu para a sétima colocação, com 41 pontos. O São Paulo, por sua vez, permanece em 11º lugar, com 36 pontos.</p><p>Na próxima quinta-feira (8), o Santos receberá o Flamengo às 19h30, na Vila Belmiro. Já o São Paulo visitará o Cruzeiro na quarta (7), às 21h30.</p><p>Esse texto foi gerado por inteligência artificial com base no conteúdo produzido pela Itatiaia. Todas as informações são apuradas e checadas por jornalistas. O texto final também passa pela revisão da equipe de jornalismo da CNN Brasil.</p><p>O técnico Cuca, do Santos, indicou que o atacante Neymar, em fase final de recuperação de lesão na coxa direita, deve estar à disposição para o jogo contra o Flamengo, na próxima quinta-feira (8), na Vila Belmiro.</p><p>&quot;Neymar talvez já esteja em condição, vamos trabalhar nesses dias para ver a condição dele.</p><p>Mas a chance de ele jogar é grande, ele está treinando bem, se preparando bem&quot;, disse Cuca, após a vitória do Santos sobre o São Paulo, no Morumbis.</p><p>O camisa 10 passou por uma transição física após tratar uma lesão muscular tipo 2B no reto anterior da coxa direita. Ele não atua desde 2 de setembro, quando o Santos enfrentou o Palmeiras pela Copa do Brasil. Leia Mais</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/futebol/santos/cuca-indica-retorno-de-neymar-em-santos-x-flamengo-pelo-brasileirao/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O técnico Cuca, do Santos, indicou que o atacante Neymar, em fase final de recuperação de lesão na coxa direita, deve estar à disposição para o jogo contra o Flamengo, na próxima quinta-feira (8), na Vila Belmiro."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "&quot;Neymar talvez já esteja em condição, vamos trabalhar nesses dias para ver a condição dele. Mas a chance de ele jogar é grande, ele está treinando bem, se preparando bem&quot;, disse Cuca, após a vitória do Santos sobre o São Paulo, no Morumbis."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O camisa 10 passou por uma transição física após tratar uma lesão muscular tipo 2B no reto anterior da coxa direita. Ele não atua desde 2 de setembro, quando o Santos enfrentou o Palmeiras pela Copa do Brasil."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Na temporada, Neymar acumula oito gols e oito assistências em 24 jogos, sendo 21 como titular."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O Santos venceu o São Paulo de virada por 2 a 1 na última sexta-feira (2), em partida atrasada da 21ª rodada da Série A do Campeonato Brasileiro, no Morumbis. Gabigol foi o destaque, balançando as redes duas vezes. Luciano abriu o placar para o Tricolor de pênalti."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/neymar_cuca-e1787749637432.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/cuca-indica-retorno-de-neymar-em-santos-x-flamengo-pelo-brasileirao.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "79cd47570813c4bb",
+      "titulo": "Brasileirão: Cuca exalta melhora do elenco e comemora campanha no 2º turno",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/brasileirao-cuca-exalta-melhora-do-elenco-e-comemora-campanha-no-2o-turno",
+      "dataFonte": "2026-10-03T01:58:24.000Z",
+      "resumoFonte": "O Santos venceu o São Paulo por 2 x 1, nesta sexta-feira (2/10), pela 21ª rodada do Campeonato Brasileiro",
+      "imagem": "https://i.metroimg.com/4_-SFGfCT2oI_9e42wWdO7rG0rluIuzT5PCWM9ZtOP8/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/gettyimages-2295080819.jpg",
+      "descobertaEm": "2026-10-03T02:02:48.646Z",
+      "reportagem": {
+        "titulo": "Brasileirão: Cuca exalta melhora do elenco e comemora campanha no 2º turno",
+        "slug": "brasileirao-cuca-exalta-melhora-do-elenco-e-comemora-campanha-no-2-turno",
+        "categoria": "Esporte",
+        "data": "2026-10-02",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/brasileirao-cuca-exalta-melhora-do-elenco-e-comemora-campanha-no-2-turno.jpg",
+        "resumo": "O Santos venceu o São Paulo por 2 x 1, nesta sexta-feira (2/10), pela 21ª rodada do Campeonato Brasileiro",
+        "conteudo": "<p>Após conquistar a vitória por 2 x 1 no clássico San-São em jogo atrasado da 21ª rodada do Campeonato Brasileiro, nesta sexta-feira (2/10) , Cuca tratou de exaltar o elenco do Santos .</p><h2>Atletas apresentaram melhora tática, e o treinador destacou as</h2><p>De acordo com ele, os atletas apresentaram melhora tática, e o treinador destacou as contratações realizadas pela equipe.</p><p>“ Eu atribuo à melhora de todos os jogadores que estão no elenco. Não só a chegada de alguns atletas importantes, mas muitos subiram de produção.</p><p>Nós nos entendemos melhor taticamente, temos formas de trabalhar e utilizamos durante o jogo. A gente está muito contente, os números falam “, iniciou Cuca.</p><h2>Com nove jogos disputados no segundo turno do Brasileirão,</h2><p>Com nove jogos disputados no segundo turno do Brasileirão, o Santos chegou aos 20 pontos conquistados, empatando com o Flamengo na liderança do returno. O técnico do Peixe lembrou da boa trajetória nessas partidas e comemorou o bom momento.</p><p>“No segundo turno a gente está no primeiro lugar junto com o Flamengo. Uma arrancada fantástica! Na parada da Copa do Mundo, tínhamos 21 pontos e estava a um ponto da zona de rebaixamento.</p><p>E hoje a gente disparou, está lá em cima, graças às cinco vitórias fora de casa”, concluiu Cuca.</p><p>Um post compartilhado por Santos Futebol Clube (@santosfc)</p><p>Resultado da partida: o Santos venceu o São Paulo por 2 x 1 em jogo atrasado da 21ª rodada do Campeonato Brasileiro; Desempenho no torneio: a equipe atingiu 20 pontos no returno, empatando com o Flamengo na liderança desta fase; Situação de Neymar: o técnico Cuca afirmou que a chance de o jogador atuar na partida contra o Flamengo, em 8 de outubro, é grande.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/esportes/brasileirao-cuca-exalta-melhora-do-elenco-e-comemora-campanha-no-2o-turno",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Após conquistar a vitória por 2 x 1 no clássico San-São em jogo atrasado da 21ª rodada do Campeonato Brasileiro, nesta sexta-feira (2/10) , Cuca tratou de exaltar o elenco do Santos . De acordo com ele, os atletas apresentaram melhora tática, e o treinador destacou as contratações realizadas pela equipe."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "“ Eu atribuo à melhora de todos os jogadores que estão no elenco. Não só a chegada de alguns atletas importantes, mas muitos subiram de produção. Nós nos entendemos melhor taticamente, temos formas de trabalhar e utilizamos durante o jogo. A gente está muito contente, os números falam “, iniciou Cuca."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Com nove jogos disputados no segundo turno do Brasileirão, o Santos chegou aos 20 pontos conquistados, empatando com o Flamengo na liderança do returno. O técnico do Peixe lembrou da boa trajetória nessas partidas e comemorou o bom momento."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "“No segundo turno a gente está no primeiro lugar junto com o Flamengo. Uma arrancada fantástica! Na parada da Copa do Mundo, tínhamos 21 pontos e estava a um ponto da zona de rebaixamento. E hoje a gente disparou, está lá em cima, graças às cinco vitórias fora de casa”, concluiu Cuca."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Um post compartilhado por Santos Futebol Clube (@santosfc)"
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/4_-SFGfCT2oI_9e42wWdO7rG0rluIuzT5PCWM9ZtOP8/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/gettyimages-2295080819.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/brasileirao-cuca-exalta-melhora-do-elenco-e-comemora-campanha-no-2-turno.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "f12f4c4cc8746d14",
+      "titulo": "Santos provoca o São Paulo após vitória no clássico pelo Brasileirão; veja",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/santos/santos-provoca-o-sao-paulo-apos-vitoria-no-classico-veja/",
+      "dataFonte": "2026-10-03T01:39:58.000Z",
+      "resumoFonte": "Peixe venceu o Tricolor no Morumbis e se aproximou da zona de classificação para a Libertadores",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/sao-paulo-santos-brasileirao-e1790986764116.jpeg?w=1080&h=608&crop=1",
+      "descobertaEm": "2026-10-03T02:02:48.646Z"
+    },
+    {
+      "id": "faad043da5b25db9",
+      "titulo": "Diógenes brilha, Santos encerra jejum contra São Paulo e vence a 5ª seguida",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/diogenes-brilha-santos-encerra-jejum-contra-sao-paulo-e-vence-a-5a-seguida",
+      "dataFonte": "2026-10-03T01:17:50.000Z",
+      "resumoFonte": "Em jogo atrasado da 21ª rodada, o Santos venceu o São Paulo, no MorumBIS. Diógenes brilhou no gol e Gabigol marcou doblete na partida",
+      "imagem": "https://i.metroimg.com/RAt2JxXi7MA2ZMjUaAosNNBWpX07yJ8ZV7KpSx71Bbs/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/gabigolsantosfc.jpg",
+      "descobertaEm": "2026-10-03T01:17:44.041Z",
+      "reportagem": {
+        "titulo": "Diógenes brilha, Santos encerra jejum contra São Paulo e vence a 5ª seguida",
+        "slug": "diogenes-brilha-santos-encerra-jejum-contra-sao-paulo-e-vence-a-5-seguida",
+        "categoria": "Esporte",
+        "data": "2026-10-02",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/diogenes-brilha-santos-encerra-jejum-contra-sao-paulo-e-vence-a-5-seguida.jpg",
+        "resumo": "Em jogo atrasado da 21ª rodada, o Santos venceu o São Paulo, no MorumBIS. Diógenes brilhou no gol e Gabigol marcou doblete na partida",
+        "conteudo": "<p>O Santos venceu o São Paulo por 2 x 1 de virada , nesta sexta-feira (2/10), no MorumBIS, em jogo atrasado da 21ª rodada do Campeonato Brasileiro .</p><h2>Gols do Peixe foram marcados por Gabigol, enquanto Luciano</h2><p>Os gols do Peixe foram marcados por Gabigol, enquanto Luciano balançou as redes para o Tricolor . Outro destaque da partida foi o goleiro santista Diógenes, que fez oito defesas.</p><p>Com o resultado, o Santos sobe para o 7º lugar, com 41 pontos, enquanto o São Paulo ocupa a 11ª colocação, com 36. A campanha do Peixe é de 11 vitórias, oito empates e nove derrotas. Já o Soberano soma 10 vitórias, seis empates e 12 derrotas.</p><p>Com a vitória, o Alvinegro encerrou um jejum de seis anos sem vencer o rival no MorumBIS. A última vez que isso havia acontecido foi no Brasileirão de 2020. Adiado para 2021 por conta da pandemia, o confronto terminou 1 x 0, com gol de Jobson.</p><h2>No primeiro ataque do jogo, o São Paulo chegou</h2><p>No primeiro ataque do jogo, o São Paulo chegou com perigo e conseguiu uma finalização, mas Diógenes espalmou para escanteio. O Santos respondeu na sequência.</p><p>Everton Cebolinha chutou de longe e Carlos Coronel espalmou para o meio. Gabigol pegou o rebote e finalizou, mas acertou a rede pelo lado de fora.</p><p>Com cinco minutos de jogo, o Tricolor teve nova oportunidade para marcar. Pedro Lima cobrou escanteio e Diógenes defendeu. No rebote, Artur arriscou de longe e o goleiro santista fez nova intervenção.</p><p>Rodinei quase marcou para o Santos. O lateral-direito aproveitou cruzamento de Álvaro Barreal e chutou de primeira. A bola passou perto da trave.</p><p>Em disputa de bola com Lucas Veríssimo, Ryan Francisco caiu dentro da área. Os jogadores do São Paulo pediram pênalti, que foi confirmado após revisão no VAR. Luciano foi para a cobrança e converteu aos 34 minutos da primeira etapa .</p><p>Entretanto, a vantagem tricolor durou pouco. Um minuto depois, Gabigol marcou e empatou a partida no MorumBIS. Gonzalo Escobar cruzou e o atacante santista cabeceou firme para deixar tudo igual .</p><p>Movimentado, o primeiro tempo ainda rendeu uma confusão entre os jogadores. Diógenes saiu do gol para cortar, mas, além da bola, acertou o rosto de Iago. Lucas Veríssimo tirou satisfação com o lateral e Luciano empurrou o zagueiro santista.</p><p>Em seguida, uma troca de empurrões entre os jogadores se instaurou. Matheus Candançan aplicou cartão amarelo para o camisa 10 do São Paulo.</p><p>Nos acréscimos da primeira etapa, Ryan Francisco arriscou de cabeça, mas mandou para fora.</p><p>Resultado da partida: o Santos venceu o São Paulo por 2 x 1, em 2 de outubro, no MorumBIS; Desempenho dos atletas: Gabigol marcou os dois gols do Santos e Luciano descontou para o São Paulo; Classificação atual: o Santos ocupa a 7ª posição com 41 pontos, enquanto o São Paulo está em 11º lugar, com 36 pontos.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/esportes/diogenes-brilha-santos-encerra-jejum-contra-sao-paulo-e-vence-a-5a-seguida",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Santos venceu o São Paulo por 2 x 1 de virada , nesta sexta-feira (2/10), no MorumBIS, em jogo atrasado da 21ª rodada do Campeonato Brasileiro . Os gols do Peixe foram marcados por Gabigol, enquanto Luciano balançou as redes para o Tricolor . Outro destaque da partida foi o goleiro santista Diógenes, que fez oito defesas."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Com o resultado, o Santos sobe para o 7º lugar, com 41 pontos, enquanto o São Paulo ocupa a 11ª colocação, com 36. A campanha do Peixe é de 11 vitórias, oito empates e nove derrotas. Já o Soberano soma 10 vitórias, seis empates e 12 derrotas."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Com a vitória, o Alvinegro encerrou um jejum de seis anos sem vencer o rival no MorumBIS. A última vez que isso havia acontecido foi no Brasileirão de 2020. Adiado para 2021 por conta da pandemia, o confronto terminou 1 x 0, com gol de Jobson."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "No primeiro ataque do jogo, o São Paulo chegou com perigo e conseguiu uma finalização, mas Diógenes espalmou para escanteio. O Santos respondeu na sequência. Everton Cebolinha chutou de longe e Carlos Coronel espalmou para o meio. Gabigol pegou o rebote e finalizou, mas acertou a rede pelo lado de fora."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Com cinco minutos de jogo, o Tricolor teve nova oportunidade para marcar. Pedro Lima cobrou escanteio e Diógenes defendeu. No rebote, Artur arriscou de longe e o goleiro santista fez nova intervenção."
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/RAt2JxXi7MA2ZMjUaAosNNBWpX07yJ8ZV7KpSx71Bbs/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/gabigolsantosfc.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/diogenes-brilha-santos-encerra-jejum-contra-sao-paulo-e-vence-a-5-seguida.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "338f91e1396c0da5",
+      "titulo": "Gabigol brilha, e Santos vence o São Paulo em jogo atrasado do Brasileirão",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/gabigol-brilha-e-santos-vence-o-sao-paulo-em-jogo-atrasado-do-brasileirao/",
+      "dataFonte": "2026-10-03T01:05:32.000Z",
+      "resumoFonte": "Atacante marca duas vezes e garante a vitória do Peixe no Morumbis, a quarta seguida na liga nacional; Tricolor segue com problemas",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/1-gabigol_coutinho_santos.jpg?w=984&h=630&crop=1",
+      "descobertaEm": "2026-10-03T02:02:48.646Z",
+      "reportagem": {
+        "titulo": "Gabigol brilha, e Santos vence o São Paulo em jogo atrasado do Brasileirão",
+        "slug": "gabigol-brilha-e-santos-vence-o-sao-paulo-em-jogo-atrasado-do-brasileirao",
+        "categoria": "Esporte",
+        "data": "2026-10-02",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/gabigol-brilha-e-santos-vence-o-sao-paulo-em-jogo-atrasado-do-brasileirao.jpg",
+        "resumo": "Atacante marca duas vezes e garante a vitória do Peixe no Morumbis, a quarta seguida na liga nacional; Tricolor segue com problemas",
+        "conteudo": "<p>O Santos venceu o São Paulo por 2 a 1 na noite desta sexta-feira, diante de mais de 43 mil torcedores no Morumbis, em jogo atrasado da 21ª rodada do Campeonato Brasileiro.</p><h2>Luciano abriu o placar de pênalti, mas Gabigol foi</h2><p>Luciano abriu o placar de pênalti, mas Gabigol foi decisivo para a vitória do Peixe com dois gols. O quarto triunfo consecutivo no Brasileirão coloca o Santos mais próximo da zona de classificação para a Libertadores.</p><p>O São Paulo começou pressionando e obrigou Diógenes a fazer três boas defesas antes do relógio marcar dez minutos na primeira etapa. Pelo lado do Santos, Gabigol quase marcou em escapada de contra-ataque.</p><p>Depois disso, foram dez minutos mais mornos até que Rodinei reacendeu a chama da partida com chute de primeira. A bola passou tirando tinta da trave de Coronel.</p><h2>Passada a metade do primeiro tempo, o árbitro Matheus</h2><p>Passada a metade do primeiro tempo, o árbitro Matheus Candançan virou protagonista ao marcar pênalti para o São Paulo, com auxílio do VAR, em lance envolvendo Iago e Lucas Veríssimo. Luciano bateu bem e abriu o placar.</p><p>No minuto seguinte, o Santos buscou o empate com Gabigol. Escobar foi ao fundo e acertou lindo cruzamento para o atacante, que deslocou Coronel com cabeçada precisa.</p><p>A reta final do primeiro tempo ainda teve confusão entre as equipes, protagonizada por Diógenes e Luciano, além de um São Paulo mais incisivo, que poderia ter chegado ao segundo gol. No fim, os times foram para o vestiário com igualdade no placar.</p><p>O início do segundo tempo reservou a entrada de Philippe Coutinho, estreando com a camisa do Santos. Foi dele o drible e o passe para Everton Cebolinha puxar contra-ataque, que terminou de Gabigol. Virada do Peixe.</p><p>Após o segundo gol, o jogo ficou mais truncado. Muitas reclamações com a arbitragem e chances perdidas pelo São Paulo, como a de Luciano, que não conseguiu vencer Diógenes em cabeçada.</p><p>O Peixe também ficou na bronca com Candançan após suposta falta em Rony. Arzul, preparador de goleiros da equipe, foi expulso por reclamação.</p><p>Já nos acréscimos, Artur fez linda jogada pela direita ao deixar Escobar no chão e bateu bonito, mas não contava com a defesa impressionante de Diógenes. O goleiro do Santos foi um dos principais destaques da partida.</p><p>Com o resultado, o Santos aproveitou a chance de chegar mais perto do pelotão de cima e deixou o São Paulo estacionado na parte de baixo da tabela . O Peixe foi a 41 pontos e ocupa a sétima posição, enquanto o Tricolor Paulista estacionou nos 36 e está em 11º.</p><p>O Santos volta a campo na próxima quinta-feira (8), para enfrentar o Flamengo na Vila Belmiro. O São Paulo visita o Cruzeiro na noite anterior. Ambas as partidas valerão pela 29ª rodada do Brasileirão.</p><p>O Santos venceu o São Paulo por 2 a 1 na noite desta sexta-feira, diante de mais de 43 mil torcedores no Morumbis, em jogo atrasado da 21ª rodada do Campeonato Brasileiro.</p><p>Luciano abriu o placar de pênalti, mas Gabigol foi decisivo para a vitória do Peixe com dois gols. O quarto triunfo consecutivo no Brasileirão coloca o Santos mais próximo da zona de classificação para a Libertadores.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/brasileirao/gabigol-brilha-e-santos-vence-o-sao-paulo-em-jogo-atrasado-do-brasileirao/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Santos venceu o São Paulo por 2 a 1 na noite desta sexta-feira, diante de mais de 43 mil torcedores no Morumbis, em jogo atrasado da 21ª rodada do Campeonato Brasileiro."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Luciano abriu o placar de pênalti, mas Gabigol foi decisivo para a vitória do Peixe com dois gols. O quarto triunfo consecutivo no Brasileirão coloca o Santos mais próximo da zona de classificação para a Libertadores."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O São Paulo começou pressionando e obrigou Diógenes a fazer três boas defesas antes do relógio marcar dez minutos na primeira etapa. Pelo lado do Santos, Gabigol quase marcou em escapada de contra-ataque."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Depois disso, foram dez minutos mais mornos até que Rodinei reacendeu a chama da partida com chute de primeira. A bola passou tirando tinta da trave de Coronel."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Passada a metade do primeiro tempo, o árbitro Matheus Candançan virou protagonista ao marcar pênalti para o São Paulo, com auxílio do VAR, em lance envolvendo Iago e Lucas Veríssimo. Luciano bateu bem e abriu o placar."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/1-gabigol_coutinho_santos.jpg?w=984&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/gabigol-brilha-e-santos-vence-o-sao-paulo-em-jogo-atrasado-do-brasileirao.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "8d39c5b657faf2b7",
+      "titulo": "Eleições 2026: veja os principais temas que marcaram a campanha presidencial até aqui",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/03/eleicoes-2026-veja-os-principais-temas-que-marcaram-a-campanha-presidencial-ate-aqui.ghtml",
+      "dataFonte": "2026-10-03T03:00:00.000Z",
+      "resumoFonte": "Na reta final da campanha presidencial, os candidatos concentraram esforços em temas que dominaram o debate público ao longo dos últimos meses. Da crise envolvendo o Supremo Tribunal Federal (STF) ao avanço da Inteligência Artificial (IA), passando pelo fim das apostas esportivas on-line e por temas como economia e segurança pública, a eleição foi…",
+      "imagem": "https://s2-g1.glbimg.com/pdXg6JED06LRqpmLHiER494aEcc=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/l/9/LBMTzkRkqHtF63WGsImQ/candidatos.jpg",
+      "descobertaEm": "2026-10-03T03:17:43.794Z"
+    },
+    {
+      "id": "5364e80541c40d20",
+      "titulo": "TSE revoga liminar e torna votos de Anthony Garotinho nulos no RJ",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/politica/tse-revoga-liminar-e-torna-votos-de-anthony-garotinho-nulos-no-rj/",
+      "dataFonte": "2026-10-03T02:50:15.000Z",
+      "resumoFonte": "Anthony Garotinho, que também foi secretário estadual de Segurança Pública, durante sessão da CPI do Crime Organizado. Foto: Leonardo Prado / Câmara dos Deputados \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/09/ANTHONY-GAROTINHO.jpeg?fit=860%2C570&quality=70&strip=all\" />Decisão de Floriano de Azevedo Marques ocorre a…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/09/ANTHONY-GAROTINHO.jpeg",
+      "descobertaEm": "2026-10-03T03:17:43.794Z",
+      "reportagem": {
+        "titulo": "TSE revoga liminar e torna votos de Anthony Garotinho nulos no RJ",
+        "slug": "tse-revoga-liminar-e-torna-votos-de-anthony-garotinho-nulos-no-rj",
         "categoria": "Justiça",
         "data": "2026-10-02",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/sao-paulo-quita-um-mes-de-direitos-de-imagem-atrasados-jovem-pan.jpg",
-        "resumo": "O valor, de cerca de R$ 8 milhões, foi pago nesta sexta-feira (02), um dia após a aprovação do contrato pelo Conselho Deliberativo do clube",
-        "conteudo": "<p>O São Paulo acertou um mês de direitos de imagem atrasados de seus jogadores com uma antecipação paga pela Ticketmaster.</p><h2>Valor, de cerca de R$ 8 milhões, foi pago</h2><p>O valor, de cerca de R$ 8 milhões, foi pago nesta sexta-feira, um dia após a aprovação do contrato pelo Conselho Deliberativo do clube. A informação foi publicada pelo UOL e confirmada pelo Estadão.</p><p>O acordo prevê R$ 140 milhões ao caixa tricolor, entre a antecipação de R$ 110 milhões em receitas e os R$ 30 milhões pela exploração do camarote 29A. Mesmo com o pagamento, ainda restam três meses de direitos de imagem atrasados, sendo o último registrado na segunda-feira.</p><p>Dos R$ 110 milhões previstos, R$ 8 milhões foram pagos nesta sexta-feira. Os R$ 102 milhões restantes serão liberados pela Ticketmaster no prazo de até 45 dias estabelecido no contrato .</p><h2>Empresa será responsável pela gestão de ingressos do Morumbis</h2><p>A empresa será responsável pela gestão de ingressos do Morumbis e do programa de sócio-torcedor pelos próximos cinco anos.</p><p>O acordo com a Ticketmaster foi aprovado pelo Conselho Deliberativo do São Paulo na quinta-feira, 30, por 184 votos a 44, com uma abstenção.</p><p>A decisão encerrou um processo marcado por questionamentos sobre a escolha da empresa para assumir a gestão da bilheteri a do Morumbis e do programa de sócio-torcedor</p><p>Uma das principais contestações partiu da NewC, empresa que também participou da disputa.</p><p>A concorrente questionou a condução do processo e alegou falta de respostas da diretoria, uso de informações desatualizadas e desvalorização de critérios técnicos.</p><p>A empresa afirmou ainda que sua proposta poderia chegar a R$ 500 milhões. Diante dos questionamentos , o clube criou uma comissão para analisar o contrato com a Ticketmaster.</p><p>O grupo concluiu que não havia elementos suficientes para caracterizar fraude ou favorecimento deliberado, mas apontou “fragilidades” e “inconsistências” na condução do processo.</p><p>Mesmo com as ressalvas, a comissão deu parecer favorável ao acordo e considerou a proposta da Ticketmaster mais vantajosa entre as analisadas.</p><p>A votação também foi antecedida por movimentações nos bastidores . Em áudio ao qual o Estadão teve acesso, o presidente Harry Massis pressionou pela inclusão do contrato na pauta do Conselho Deliberativo e relacionou a aprovação à situação financeira do clube.</p><p>Antes da definição da data da votação, Massis e Olten Ayres de Abreu Júnior, presidente do Conselho, chegaram a um entendimento que permitiu o avanço da análise da proposta.</p><p>O valor, de cerca de R$ 8 milhões, foi pago nesta sexta-feira (02), um dia após a aprovação do contrato pelo Conselho Deliberativo do clube</p><p>Justiça de SP determina suspensão de seis perfis de rede social ligados ao movimento ‘red pill’</p><p>Decisão também ordenou a preservação de dados cadastrais e registros técnicos que permitam identificar os responsáveis pelas contas</p><p>Júlio Casares é expulso do São Paulo após votação do Conselho Deliberativo</p><p>São Paulo supera Atlético-MG pelo Brasileirão e ultrapassa Corinthians</p><p>Luciano celebra vitória do São Paulo em meio a momento ruim: ‘Pior fase de sua história’</p><p>São Paulo bate Bragantino, volta a vencer no Brasileiro após 10 jogos e finda drama de Dorival</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/esportes/futebol/sao-paulo-futebol-clube/sao-paulo-quita-um-mes-de-direitos-de-imagem-atrasados/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/tse-revoga-liminar-e-torna-votos-de-anthony-garotinho-nulos-no-rj.jpg",
+        "resumo": "Decisão de Floriano de Azevedo Marques ocorre a menos de dois dias da eleição; candidato teve registro indeferido pelo TRE-RJ por condenação por improbidade administrativa",
+        "conteudo": "<p>O ministro Floriano de Azevedo Marques, do Tribunal Superior Eleitoral (TSE), revogou liminar que havia permitido a Anthony Garotinho (Republicanos) manter sua candidatura ao governo do Rio de Janeiro.</p><h2>Na decisão, determinou que votos computados a favor dele</h2><p>Na decisão, determinou que votos computados a favor dele sejam considerados nulos.</p><p>Essa medida foi tomada nesta sexta-feira, 2, a menos de dois dias das eleições. O magistrado também suspendeu o acesso do candidato aos fundos eleitoral e partidário, vedou veiculação de propagandas da campanha e determinou a devolução de doações ainda não utilizadas.</p><p>Garotinho não teve o registro de sua candidatura deferido e disputou as eleições até aqui por conta de uma liminar do próprio Azevedo Marques.</p><h2>Ele foi condenado por improbidade administrativa relacionada a desvios</h2><p>Ele foi condenado por improbidade administrativa relacionada a desvios na Secretaria de Saúde do Rio e, por isso, estaria inelegível até 2033.</p><p>Na quarta-feira, 30, o Tribunal Regional Eleitoral do Rio de Janeiro (TRE-RJ) concluiu o julgamento e manteve o indeferimento da candidatura. Por isso, o ministro do TSE revogou a liminar.</p><p>Na fundamentação, Azevedo Marques cita “ausência das condições de elegibilidade do pleno exercício dos direitos políticos e da filiação partidária, decorrente da condenação do embargante, por ato doloso de improbidade administrativa que acarretou lesão ao patrimônio público e enriquecimento ilícito de terceiros, à suspensão dos direitos políticos pelo prazo de 8 anos”.</p><p>Ele determinou ainda que o TRE-RJ remeta os autos ao TSE, que analisará recurso da defesa de Garotinho.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/politica/tse-revoga-liminar-e-torna-votos-de-anthony-garotinho-nulos-no-rj/",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -599,57 +923,225 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O São Paulo acertou um mês de direitos de imagem atrasados de seus jogadores com uma antecipação paga pela Ticketmaster. O valor, de cerca de R$ 8 milhões, foi pago nesta sexta-feira, um dia após a aprovação do contrato pelo Conselho Deliberativo do clube. A informação foi publicada pelo UOL e confirmada pelo Estadão."
+            "resposta": "O ministro Floriano de Azevedo Marques, do Tribunal Superior Eleitoral (TSE), revogou liminar que havia permitido a Anthony Garotinho (Republicanos) manter sua candidatura ao governo do Rio de Janeiro. Na decisão, determinou que votos computados a favor dele sejam considerados nulos."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O acordo prevê R$ 140 milhões ao caixa tricolor, entre a antecipação de R$ 110 milhões em receitas e os R$ 30 milhões pela exploração do camarote 29A. Mesmo com o pagamento, ainda restam três meses de direitos de imagem atrasados, sendo o último registrado na segunda-feira."
+            "resposta": "Essa medida foi tomada nesta sexta-feira, 2, a menos de dois dias das eleições. O magistrado também suspendeu o acesso do candidato aos fundos eleitoral e partidário, vedou veiculação de propagandas da campanha e determinou a devolução de doações ainda não utilizadas."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Dos R$ 110 milhões previstos, R$ 8 milhões foram pagos nesta sexta-feira. Os R$ 102 milhões restantes serão liberados pela Ticketmaster no prazo de até 45 dias estabelecido no contrato . A empresa será responsável pela gestão de ingressos do Morumbis e do programa de sócio-torcedor pelos próximos cinco anos."
+            "resposta": "Garotinho não teve o registro de sua candidatura deferido e disputou as eleições até aqui por conta de uma liminar do próprio Azevedo Marques. Ele foi condenado por improbidade administrativa relacionada a desvios na Secretaria de Saúde do Rio e, por isso, estaria inelegível até 2033."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "O acordo com a Ticketmaster foi aprovado pelo Conselho Deliberativo do São Paulo na quinta-feira, 30, por 184 votos a 44, com uma abstenção. A decisão encerrou um processo marcado por questionamentos sobre a escolha da empresa para assumir a gestão da bilheteri a do Morumbis e do programa de sócio-torcedor"
+            "resposta": "Na quarta-feira, 30, o Tribunal Regional Eleitoral do Rio de Janeiro (TRE-RJ) concluiu o julgamento e manteve o indeferimento da candidatura. Por isso, o ministro do TSE revogou a liminar."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Uma das principais contestações partiu da NewC, empresa que também participou da disputa. A concorrente questionou a condução do processo e alegou falta de respostas da diretoria, uso de informações desatualizadas e desvalorização de critérios técnicos. A empresa afirmou ainda que sua proposta poderia chegar a R$ 500 milhões. Diante dos questionamentos , o c"
+            "resposta": "Na fundamentação, Azevedo Marques cita “ausência das condições de elegibilidade do pleno exercício dos direitos políticos e da filiação partidária, decorrente da condenação do embargante, por ato doloso de improbidade administrativa que acarretou lesão ao patrimônio público e enriquecimento ilícito de terceiros, à suspensão dos direitos políticos pelo prazo "
           }
         ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/02/calleri-desencanta.jpg?w=1000&h=600&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/sao-paulo-quita-um-mes-de-direitos-de-imagem-atrasados-jovem-pan.jpg",
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/09/ANTHONY-GAROTINHO.jpeg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/tse-revoga-liminar-e-torna-votos-de-anthony-garotinho-nulos-no-rj.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "cb928959beaaea1c",
-      "titulo": "MPE pede cassação de Furlan por abuso de poder político e econômico",
+      "id": "4cd90afaabb347f7",
+      "titulo": "Lula pede que TSE investigue suspensão de serviços de embaixadas dos EUA",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Metrópoles - Política",
-      "urlFonte": "https://www.metropoles.com/colunas/grande-angular/mpe-pede-cassacao-de-furlan-por-abuso-de-poder-politico-e-economico",
-      "dataFonte": "2026-10-02T23:25:00.000Z",
-      "resumoFonte": "MPE acusa Furlan de integrar estrutura digital financiada com recursos públicos para promover candidatura e atacar adversários",
-      "imagem": "https://i.metroimg.com/n_HjbsStlch7wxtTcvNQtGje3-_tAxeNPjYFqe6zxj0/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2024/03/05090719/Dr-Furlan-e-prefeito-de-Macapa.jpg",
-      "descobertaEm": "2026-10-03T00:17:47.294Z"
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/lula-pede-que-tse-investigue-suspensao-de-servicos-de-embaixadas-dos-eua.shtml",
+      "dataFonte": "2026-10-03T02:29:00.000Z",
+      "resumoFonte": "A campanha do presidente Lula ( PT ) à reeleição pediu nesta sexta-feira (2) ao TSE (Tribunal Superior Eleitoral) que a decisão dos Estados Unidos de suspender os serviços consulares no Brasil seja incluída em uma investigação que apura suposta interferência externa nas eleições brasileiras. Leia mais (10/02/2026 - 23h29)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/02/17909712356ac00d639c2fe_1790971235_3x2_rt.jpg",
+      "descobertaEm": "2026-10-03T03:17:43.794Z",
+      "reportagem": {
+        "titulo": "Lula pede que TSE investigue suspensão de serviços de embaixadas dos EUA",
+        "slug": "lula-pede-que-tse-investigue-suspensao-de-servicos-de-embaixadas-dos-eua",
+        "categoria": "Justiça",
+        "data": "2026-10-02",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-pede-que-tse-investigue-suspensao-de-servicos-de-embaixadas-dos-eua.jpg",
+        "resumo": "Defesa vê sintonia entre gesto externo e propostas de Flávio, e diz que ordem veio de Rubio",
+        "conteudo": "<p>A campanha do presidente Lula ( PT ) à reeleição pediu nesta sexta-feira (2) ao TSE (Tribunal Superior Eleitoral) que a decisão dos Estados Unidos de suspender os serviços consulares no Brasil seja incluída em uma investigação que apura suposta interferência externa nas eleições brasileiras.</p><h2>Advogados afirmam que, segundo reportagens, a ordem teria partido</h2><p>Os advogados afirmam que, segundo reportagens, a ordem teria partido diretamente do secretário de Estado americano, Marco Rubio .</p><p>\"Um gesto diplomático anômalo dessa magnitude, deflagrado por Estado estrangeiro no exato interregno eleitoral, projeta instabilidade sobre o ambiente do pleito\", diz a petição.</p><p>Segundo a equipe do petista, há alinhamento entre Rubio e as propostas do senador Flávio Bolsonaro ( PL -RJ), adversário na disputa pelo Palácio do Planalto.</p><h2>Petição cita reportagem da Folha que mostrou</h2><p>A petição cita reportagem da Folha que mostrou que o congresssita pretende, se eleito, implementar no Itamaraty uma reforma importada do governo de Donald Trump na diplomacia americana.</p><p>A petição menciona ainda a carta na qual os senadores democratas Jeanne Shaheen, Tim Kaine e Peter Welch advertem o governo americano contra a interferência nas eleições brasileiras.</p><p>\"Estes fatos apenas são mais um desdobramento gravíssimo da interferência nas eleições brasileiras pelo governo norte-americano, articulada, ao que tudo indica, diretamente pelos irmãos Flávio e Eduardo Bolsonaro \", afirmaram os advogados de Lula no pedido de investigação ao TSE.</p><p>Os EUA suspenderam nesta sexta serviços consulares na Embaixada e nos consulados no Brasil, citando questões de segurança. Não há, por ora, previsão para o retorno dos atendimentos presenciais.</p><p>A Polícia Federal informou em nota que realizou operação para investigar potenciais ameaças contra as representações diplomáticas americanas. Foram cumpridos dois mandados de busca e apreensão em São Paulo e no entorno do Distrito Federal .</p><p>A operação foi feita no âmbito de uma investigação sigilosa, com a cooperação de forças estrangeiras e, segundo o comunicado da corporação, não encontrou \"até o momento elementos que corroborassem os riscos inicialmente apontados\".</p><p>Foram apreendidos equipamentos de comunicação e mídias.</p><p>Mais de 180 reportagens e análises publicadas a cada dia. Um time com mais de 200 colunistas e blogueiros.</p><p>Um jornalismo profissional que fiscaliza o poder público, veicula notícias proveitosas e inspiradoras, faz contraponto à intolerância das redes sociais e traça uma linha clara entre verdade e mentira.</p><p>A campanha do presidente Lula ( PT ) à reeleição pediu nesta sexta-feira (2) ao TSE (Tribunal Superior Eleitoral) que a decisão dos Estados Unidos de suspender os serviços consulares no Brasil seja incluída em uma investigação que apura suposta interferência externa nas eleições brasileiras.</p><p>Os advogados afirmam que, segundo reportagens, a ordem teria partido diretamente do secretário de Estado americano, Marco Rubio .</p><p>\"Um gesto diplomático anômalo dessa magnitude, deflagrado por Estado estrangeiro no exato interregno eleitoral, projeta instabilidade sobre o ambiente do pleito\", diz a petição.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/lula-pede-que-tse-investigue-suspensao-de-servicos-de-embaixadas-dos-eua.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A campanha do presidente Lula ( PT ) à reeleição pediu nesta sexta-feira (2) ao TSE (Tribunal Superior Eleitoral) que a decisão dos Estados Unidos de suspender os serviços consulares no Brasil seja incluída em uma investigação que apura suposta interferência externa nas eleições brasileiras."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Os advogados afirmam que, segundo reportagens, a ordem teria partido diretamente do secretário de Estado americano, Marco Rubio . \"Um gesto diplomático anômalo dessa magnitude, deflagrado por Estado estrangeiro no exato interregno eleitoral, projeta instabilidade sobre o ambiente do pleito\", diz a petição."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Segundo a equipe do petista, há alinhamento entre Rubio e as propostas do senador Flávio Bolsonaro ( PL -RJ), adversário na disputa pelo Palácio do Planalto. A petição cita reportagem da Folha que mostrou que o congresssita pretende, se eleito, implementar no Itamaraty uma reforma importada do governo de Donald Trump na diplomacia americana."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A petição menciona ainda a carta na qual os senadores democratas Jeanne Shaheen, Tim Kaine e Peter Welch advertem o governo americano contra a interferência nas eleições brasileiras."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "\"Estes fatos apenas são mais um desdobramento gravíssimo da interferência nas eleições brasileiras pelo governo norte-americano, articulada, ao que tudo indica, diretamente pelos irmãos Flávio e Eduardo Bolsonaro \", afirmaram os advogados de Lula no pedido de investigação ao TSE."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/02/17909712356ac00d639c2fe_1790971235_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-pede-que-tse-investigue-suspensao-de-servicos-de-embaixadas-dos-eua.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "5b03f39e559b7f7a",
+      "titulo": "Conselho pede monitoramento da liberdade religiosa nas eleições",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-eleicoes-2026/conselho-pede-monitoramento-da-liberdade-religiosa-nas-eleicoes/",
+      "dataFonte": "2026-10-03T01:51:37.000Z",
+      "resumoFonte": "Entidade ligada ao Ministério dos Direitos Humanos e da Cidadania cita caso envolvendo Flávio e decisões sobre conteúdos nas redes sociais",
+      "imagem": "https://static.poder360.com.br/uploads/2026/10/nossa-senhora-flavio-1-1200x675.jpg",
+      "descobertaEm": "2026-10-03T02:02:48.646Z",
+      "reportagem": {
+        "titulo": "Conselho pede monitoramento da liberdade religiosa nas eleições",
+        "slug": "conselho-pede-monitoramento-da-liberdade-religiosa-nas-eleicoes",
+        "categoria": "Justiça",
+        "data": "2026-10-02",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/conselho-pede-monitoramento-da-liberdade-religiosa-nas-eleicoes.jpg",
+        "resumo": "Entidade ligada ao Ministério dos Direitos Humanos e da Cidadania cita caso envolvendo Flávio. Leia no Poder360.",
+        "conteudo": "<p>Entidade ligada ao Ministério dos Direitos Humanos e da Cidadania cita caso envolvendo Flávio e decisões sobre conteúdos nas redes sociais</p><h2>CNDH (Conselho Nacional dos Direitos Humanos), ligado ao Ministério</h2><p>O CNDH (Conselho Nacional dos Direitos Humanos), ligado ao Ministério dos Direitos Humanos e da Cidadania , pediu à CIDH (Comissão Interamericana de Direitos Humanos) e à Relatoria Especial para a Liberdade de Expressão que monitorem possíveis riscos à liberdade religiosa e de expressão durante as eleições de 2026 no Brasil.</p><p>A informação foi publicada nesta 6ª feira (2.out.2026) pela jornalista Mônica Bergamo, da Folha de S.Paulo . O pedido foi formalizado em um informe assinado na 5ª feira (1º.out.2026) pela presidente do CNDH, Ivana Claudia Leal de Souza.</p><p>O conselho quer que a CIDH acompanhe episódios de hostilidade e intimidação contra religiosos e instituições religiosas. Também solicita o monitoramento de decisões judiciais que determinem a retirada de conteúdos políticos ou religiosos das redes sociais.</p><h2>CNDH pede ainda que a Comissão Interamericana observe como</h2><p>O CNDH pede ainda que a Comissão Interamericana observe como o Estado brasileiro responde a esses episódios e avalie eventuais impactos sobre a participação de religiosos no debate público.</p><p>O documento também menciona a proteção de dados e os critérios utilizados para restringir conteúdos nas plataformas digitais.</p><p>Entre os casos citados pelo CNDH está a fake news envolvendo Flávio Bolsonaro (PL) e Nossa Senhora Aparecida . O episódio provocou decisões do Tribunal Superior Eleitoral e do Supremo Tribunal Federal relacionadas a publicações nas redes sociais.</p><p>Segundo o conselho, o objetivo do monitoramento não é impedir críticas a instituições religiosas.</p><p>O informe afirma que manifestações políticas, religiosas, satíricas e de opinião devem ser diferenciadas de conteúdos que possam configurar ameaça, intimidação ou incitação à violência.</p><p>O CNDH afirma ter reunido informações de decisões do TSE e do STF, documentos oficiais, monitoramento de redes sociais, pesquisas acadêmicas e levantamentos de organizações da sociedade civil para elaborar o informe.</p><p>Entre os dados citados está um levantamento que identificou 1,3 milhão de publicações sobre a controvérsia envolvendo Nossa Senhora Aparecida de 23 a 27 de setembro.</p><p>A controvérsia envolvendo Flávio Bolsonaro e Nossa Senhora Aparecida começou depois de uma fala da jornalista Maria Cristina Fernandes, da GloboNews, em 24 de setembro.</p><p>A declaração mencionou um projeto para retirar da santa o título de padroeira do Brasil e acabou sendo associada nas redes sociais ao candidato. A emissora corrigiu a informação horas depois e pediu desculpas.</p><p>Flávio negou a informação e afirmou que se tratava de uma fake news . A campanha do candidato levou o caso ao TSE , que determinou a remoção de publicações que atribuíssem a ele ou à sua família a intenção de retirar o título de Nossa Senhora Aparecida.</p><p>O ministro André Mendonça classificou a afirmação como “notoriamente inverídica” .</p><p>A discussão, porém, ganhou novas proporções nas redes sociais e passou a envolver também a CNBB (Conferência Nacional dos Bispos do Brasil), além de críticas e manifestações de integrantes das campanhas de Flávio e do presidente Luiz Inácio Lula da Silva (PT).</p><p>Conselho pede monitoramento da liberdade religiosa nas eleições Entidade ligada ao Ministério dos Direitos Humanos e da Cidadania cita caso envolvendo Flávio e decisões sobre conteúdos nas redes sociais --> copiar link --></p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-eleicoes-2026/conselho-pede-monitoramento-da-liberdade-religiosa-nas-eleicoes/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Entidade ligada ao Ministério dos Direitos Humanos e da Cidadania cita caso envolvendo Flávio e decisões sobre conteúdos nas redes sociais"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O CNDH (Conselho Nacional dos Direitos Humanos), ligado ao Ministério dos Direitos Humanos e da Cidadania , pediu à CIDH (Comissão Interamericana de Direitos Humanos) e à Relatoria Especial para a Liberdade de Expressão que monitorem possíveis riscos à liberdade religiosa e de expressão durante as eleições de 2026 no Brasil."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A informação foi publicada nesta 6ª feira (2.out.2026) pela jornalista Mônica Bergamo, da Folha de S.Paulo . O pedido foi formalizado em um informe assinado na 5ª feira (1º.out.2026) pela presidente do CNDH, Ivana Claudia Leal de Souza."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O conselho quer que a CIDH acompanhe episódios de hostilidade e intimidação contra religiosos e instituições religiosas. Também solicita o monitoramento de decisões judiciais que determinem a retirada de conteúdos políticos ou religiosos das redes sociais."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O CNDH pede ainda que a Comissão Interamericana observe como o Estado brasileiro responde a esses episódios e avalie eventuais impactos sobre a participação de religiosos no debate público. O documento também menciona a proteção de dados e os critérios utilizados para restringir conteúdos nas plataformas digitais."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/nossa-senhora-flavio-1-1200x675.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/conselho-pede-monitoramento-da-liberdade-religiosa-nas-eleicoes.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "7d5815f276373721",
+      "titulo": "Defesa de deputados do PT acusa Flávio de tentar escolher relator no STF",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/colunas/neila-guimaraes/defesa-de-deputados-do-pt-acusa-flavio-de-tentar-escolher-relator-no-stf",
+      "dataFonte": "2026-10-03T01:00:21.000Z",
+      "resumoFonte": "Lindbergh Farias e Rogério Correia pedem arquivamento e dizem que ação apresentada pelo senador não tem justa causa",
+      "imagem": "https://i.metroimg.com/ldhJ0LZ90jx417zVDKuZkjD1ILxVwQX2TVv-aBSPC_Q/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/sem-titulo-02-de-outubro-de-2026-as-21-49-45-1.png",
+      "descobertaEm": "2026-10-03T01:17:44.041Z",
+      "reportagem": {
+        "titulo": "Defesa de deputados do PT acusa Flávio de tentar escolher relator no STF",
+        "slug": "defesa-de-deputados-do-pt-acusa-flavio-de-tentar-escolher-relator-no-stf",
+        "categoria": "Justiça",
+        "data": "2026-10-02",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/defesa-de-deputados-do-pt-acusa-flavio-de-tentar-escolher-relator-no-stf.jpg",
+        "resumo": "Lindbergh Farias e Rogério Correia pedem arquivamento e dizem que ação apresentada pelo senador não tem justa causa",
+        "conteudo": "<p>A defesa dos deputados federais Lindbergh Farias (PT-RJ) e Rogério Correia (PT-MG) reagiu à notícia-crime apresentada por Flávio Bolsonaro (PL-RJ) no Supremo Tribunal Federal (STF) e acusou o senador de tentar escolher o próprio julgador no caso.</p><h2>Em manifestação protocolada nesta sexta-feira (2), os advogados pedem</h2><p>Em manifestação protocolada nesta sexta-feira (2), os advogados pedem que a notícia-crime seja retirada dos autos de uma ação que já tramita no STF, autuada separadamente e submetida à livre distribuição.</p><p>Para a defesa, a estratégia adotada por Flávio contorna as regras de distribuição e viola o princípio do juiz natural.</p><p>A notícia-crime foi apresentada contra os dois deputados e atribui a eles, segundo a manifestação, os crimes de denunciação caluniosa e comunicação falsa de crime.</p><h2>Flávio relacionou 19 requerimentos apresentados pelos parlamentares ao STF,</h2><p>Flávio relacionou 19 requerimentos apresentados pelos parlamentares ao STF, à Procuradoria-Geral da República (PGR) e à Polícia Federal entre março e setembro deste ano.</p><p>Para os advogados, porém, a própria peça apresentada pelo senador não comprovaria um dos elementos necessários para caracterizar a denunciação caluniosa: a efetiva instauração de procedimento em razão das comunicações feitas pelos parlamentares.</p><p>A defesa destaca que a notícia-crime pede ao STF justamente que verifique quais requerimentos deram origem a investigações.</p><p>A defesa sustenta que a notícia-crime não tem relação suficiente com a queixa-crime que já tramita sob relatoria de Luiz Fux.</p><p>O processo original envolve Rogério Correia e uma postagem sobre um imóvel em Angra dos Reis, enquanto a nova iniciativa inclui Lindbergh e 19 fatos distintos, relacionados a requerimentos apresentados em diferentes órgãos e procedimentos.</p><p>Segundo os advogados, ao apresentar a nova acusação diretamente nos autos da ação já existente, Flávio teria criado um caminho para manter o caso sob a relatoria de Fux sem passar pelo sorteio.</p><p>A defesa afirma que, sem conexão ou continência, a medida “funciona apenas como instrumento de escolha do julgador”.</p><p>Outro argumento central da defesa é que os deputados apenas levaram informações e documentos às autoridades competentes, no exercício do direito de petição e da atividade fiscalizatória do mandato.</p><p>Os advogados afirmam que a apresentação reiterada de requerimentos não transforma a atuação parlamentar em crime e sustentam que eventual investigação deveria ser conduzida pelas autoridades responsáveis, e não tratada como denunciação caluniosa apenas porque os fatos foram comunicados por adversários políticos.</p><p>Em nota, os advogados ainda afirmam que Flávio recorre ao STF contra adversários enquanto critica a própria Corte e fazem referência à tentativa anterior da defesa do senador de alterar a relatoria do caso Dark Horse.</p><p>Já leu todas as notas e reportagens da coluna hoje? Acesse a coluna do Metrópoles .</p><p>Notícia-crime no STF: a defesa de Lindbergh Farias e Rogério Correia contesta petição de Flávio Bolsonaro que os acusa de denunciação caluniosa e comunicação falsa de crime; Princípio do juiz natural: advogados dos deputados afirmam que o senador tenta escolher o relator ao anexar a acusação a um processo já existente; Pedido da defesa: o grupo requer o desentranhamento da peça, sua livre distribuição e o arquivamento sumário da notícia-crime.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/colunas/neila-guimaraes/defesa-de-deputados-do-pt-acusa-flavio-de-tentar-escolher-relator-no-stf",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A defesa dos deputados federais Lindbergh Farias (PT-RJ) e Rogério Correia (PT-MG) reagiu à notícia-crime apresentada por Flávio Bolsonaro (PL-RJ) no Supremo Tribunal Federal (STF) e acusou o senador de tentar escolher o próprio julgador no caso."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Em manifestação protocolada nesta sexta-feira (2), os advogados pedem que a notícia-crime seja retirada dos autos de uma ação que já tramita no STF, autuada separadamente e submetida à livre distribuição. Para a defesa, a estratégia adotada por Flávio contorna as regras de distribuição e viola o princípio do juiz natural."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A notícia-crime foi apresentada contra os dois deputados e atribui a eles, segundo a manifestação, os crimes de denunciação caluniosa e comunicação falsa de crime. Flávio relacionou 19 requerimentos apresentados pelos parlamentares ao STF, à Procuradoria-Geral da República (PGR) e à Polícia Federal entre março e setembro deste ano."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Para os advogados, porém, a própria peça apresentada pelo senador não comprovaria um dos elementos necessários para caracterizar a denunciação caluniosa: a efetiva instauração de procedimento em razão das comunicações feitas pelos parlamentares. A defesa destaca que a notícia-crime pede ao STF justamente que verifique quais requerimentos deram origem a inves"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A defesa sustenta que a notícia-crime não tem relação suficiente com a queixa-crime que já tramita sob relatoria de Luiz Fux. O processo original envolve Rogério Correia e uma postagem sobre um imóvel em Angra dos Reis, enquanto a nova iniciativa inclui Lindbergh e 19 fatos distintos, relacionados a requerimentos apresentados em diferentes órgãos e procedime"
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/ldhJ0LZ90jx417zVDKuZkjD1ILxVwQX2TVv-aBSPC_Q/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/sem-titulo-02-de-outubro-de-2026-as-21-49-45-1.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/defesa-de-deputados-do-pt-acusa-flavio-de-tentar-escolher-relator-no-stf.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     }
   ],
-  "reapuradoEm": "2026-10-03T01:48:11.296Z",
+  "reapuradoEm": "2026-10-03T03:48:17.742Z",
   "diagnosticoReapuracao": {
-    "produzidas": 9,
+    "produzidas": 17,
     "jaProntas": 0,
-    "incompletas": 7,
+    "incompletas": 8,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 9,
+    "geradas": 17,
     "reaproveitadas": 0,
-    "puladas": 7,
+    "puladas": 8,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-10-03T01:50:22.410Z"
+  "lapisEm": "2026-10-03T03:51:03.864Z"
 }
