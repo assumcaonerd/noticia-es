@@ -16,9 +16,10 @@ function run(cmd, args) {
   });
 }
 
-// Grafite fiel à foto. O filtro -sketch 0x32 do ImageMagick desenhava
-// hachura solta e apagava rosto, cenário e enquadramento. Color dodge
-// com desfoque curto preserva o retrato e padroniza todas as capas.
+// Padrão da capa do Garotinho: grafite fiel à foto, com meio-tom do rosto
+// e traço fino. Não usar -sketch sozinho (vira rabisco) nem color dodge
+// (estoura o branco e apaga o retrato). O traço entra multiplicado sobre
+// o cinza da própria foto.
 export async function desenharLapis(entrada, saida) {
   await run('convert', [
     entrada, '-auto-orient',
@@ -26,11 +27,10 @@ export async function desenharLapis(entrada, saida) {
     '-resize', `${LARGURA}x${ALTURA}^`,
     '-gravity', 'center', '-extent', `${LARGURA}x${ALTURA}`,
     '-colorspace', 'Gray',
-    '-contrast-stretch', '0.6%x0.6%',
-    '(', '+clone', '-negate', '-blur', '0x4.2', ')',
-    '-compose', 'colordodge', '-composite',
-    '-contrast-stretch', '1%x1%',
-    '-brightness-contrast', '2x16',
+    '-contrast-stretch', '0.4%x0.4%',
+    '(', '+clone', '-sketch', '0x10+30', '-level', '6%,94%', ')',
+    '-compose', 'multiply', '-composite',
+    '-brightness-contrast', '8x3',
     '-quality', '90',
     saida
   ]);

@@ -43,7 +43,7 @@ for (const nome of nomes) {
     await baixar(url, entrada);
     await desenharLapis(entrada, saida);
     const st = await fs.stat(saida);
-    if (st.size < 40000) throw new Error(`capa final pequena demais (${st.size} bytes)`);
+    if (st.size < 25000) throw new Error(`capa final pequena demais (${st.size} bytes)`);
     diag.geradas++;
     console.log(`[regen] ${nome}`);
   } catch (erro) {
