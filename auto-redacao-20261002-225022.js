@@ -1,45 +1,116 @@
 const noticiasAutoRedacao20261002225022 = [
   {
-    id: 26100222502201,
-    pautaId: "2df1a025b6bb7cd7",
-    slug: "direita-prova-do-proprio-veneno-diz-paul-freston-sobre-fake-news-de-nossa-senhora",
-    titulo: "'Direita prova do próprio veneno', diz Paul Freston sobre fake news de Nossa Senhora",
-    categoria: "Cultura",
-    data: "2026-10-02",
-    imagem: "https://noticiaes.com.br/imagens/lapis/direita-prova-do-proprio-veneno-diz-paul-freston-sobre-fake-news-de-nossa-senhora.jpg",
-    resumo: "Para sociólogo da religião, esquerda é alvo frequente desse tipo de desinformação religiosa",
-    conteudo: "<p>Não deixa de ser irônico que a mesma direita que tanto difundiu fake news de frete religioso contra adversários seja atingida em cheio por uma desinformação da mesma natureza —e pior, envolvendo Nossa Senhora Aparecida , símbolo católico enraizado na cultura popular.</p><h2>Desinformação da vez prega que Flávio Bolsonaro (PL) quer</h2><p>A desinformação da vez prega que Flávio Bolsonaro (PL) quer resgatar um projeto de lei para removê-la no posto de padroeira do Brasil.</p><p>\"A direita está provando do próprio veneno\", diz Paul Freston , sociólogo inglês naturalizado brasileiro e pioneiro nos estudos de pentecostalismo e política. \"O feitiço virou contra o feiticeiro.\"</p><p>A notícia falsa de que Lula ( PT ) fecharia igrejas foi reciclada em todas as eleições, lembra. A primeira delas, em 1989, escancarou atritos entre setores católicos e um incipiente bloco evangélico .</p><h2>Freston entrevistou dois anos depois o pastor José Wellington</h2><p>Freston entrevistou dois anos depois o pastor José Wellington Bezerra da Costa, por anos presidente da Convenção Geral das Assembleias de Deus no Brasil.</p><p>Costa lhe disse que evangélicos tinham informações \"de que a CNBB estava com um esquema armado para estabelecer a religião católica como a única religião oficial\". Nunca houve qualquer indício disso.</p><p>Freston lançou em 1993 tese de doutorado na Unicamp, que será relançada em dezembro pelo Instituto de Estudos da Religião, sob o título \"Protestantes e Política no Brasil: Do Império ao Impeachment de Collor\".</p><p>Décadas se passaram, e o campo progressista continua empacado no diálogo com evangélicos, apostando em estratégias que o sociólogo julga equivocadas, como pôr a primeira-dama Janja na linha de frente dessa mediação.</p><p>\"Que esquerda é essa que acha que não pode aprender nada com a religião mais bem-sucedida entre os pobres?\"</p><p>Receba no seu email destaques das campanhas, pesquisas e disputas nos estados</p><p>Por que o engajamento bolsonarista lhe parece menor nas igrejas em 2026? Pode ser uma combinação de duas coisas. Flávio tem, digamos, os senões, então [os fiéis] não se entusiasmam tanto.</p><p>Por outro lado, talvez um pouco de reavaliação depois de 2022, um pouco de \"puxa, excedemos, o tiro saiu pela culatra, tem que ser um pouco mais sutil\".</p><p>Talvez tenha tido menos daquele negócio de \"então procure outra igreja\" [para quem discordava da pregação política de direita]. Acho que isso pegou muito mal.</p><p>Por que Aparecida ganhou tanto relevo nessa reta final? Faz parte da crítica evangélica tradicional à idolatria. Aparecida é o suprassumo da ideia da idolatria, né?</p><p>E é o símbolo supremo do catolicismo, que não é compartilhado com o protestantismo. Nos pontos mais extremos, tem até o componente racista da negritude da imagem, a ideia de \"ah, mas que coisa feia\" e tal.</p><p>Há risco de uma espécie de guerra religiosa no país? Animosidade entre católicos e evangélicos existe desde a implantação das primeiras igrejas evangélicas, e dos dois lados.</p><p>Do lado das igrejas pentecostais, em alguns momentos perdeu um pouco a centralidade para a questão dos cultos afro, que passaram a ser percebidos como a concorrência mais imediata.</p><p>O que está acontecendo agora é outro nível, é a concorrência na religião civil para se afirmar na praça pública. A Assembleia de Deus teve, nos anos 1980, uma tremenda mudança de estratégia.</p><p>Saiu da ideia de \"crente não se mete em política\" para \"irmão vota em irmão\". Tem uma citação da entrevista que fiz com José Wellington em 1991.</p><p>Ele disse assim: \"Nós tínhamos informações de que a CNBB estava com esquema armado para estabelecer a religião católica como a única religião oficial\".</p><p>A fala de Flávio sobre decretar o Brasil para Cristo é uma reatualização dessa disputa por espaço religioso? É uma afirmação de que o Brasil vai reconhecer a centralidade [evangélica] na vida pública.</p><p>O Brasil é do Senhor Jesus Cristo, não de Nossa Senhora Aparecida. Claro, não se diz isso com todas as letras, por extenso, mas implicitamente é a disputa por espaço.</p><p>À primeira vista, ela pode parecer uma frase genérica cristã, embora seja uma fórmula tipicamente pentecostal. Qual seu apelo entre evangélicos? Na Zâmbia aconteceu algo interessante nos anos 1990.</p><p>Ganhou a presidência um cara de origem sindical [Frederick Chiluba], mas que tinha se convertido a uma igreja com uma teologia forte.</p><p>A primeira coisa que fez foi uma cerimônia para limpar o palácio dos espíritos maus e declarar a Zâmbia uma nação cristã. Alguns setores ficaram entusiasmados com a ideia da guerra espiritual.</p><p>Outros, horrorizados, perguntando o que isso significava concretamente, se haveria uma igreja oficial ou obrigatoriedade de ser cristão para votar. Não significava nada disso na prática.</p><p>É uma fala que evoca em setores seculares e de outras religiões o medo de uma teocracia.</p><p>Essa ideia de \"o Brasil será do Senhor Jesus Cristo\" não significa necessariamente que vai se instituir uma teocracia que vai coibir os direitos civis de não cristãos. É uma abordagem muito mística da realidade.</p><p>Para boa parte dos evangélicos isso pega. Para outra, não. Acham isso ridículo e sem efeito nenhum, defendendo que o país deve ser do Senhor através de políticas para os pobres.</p><p>Quando se vê isso na boca de um candidato à Presidência, existe uma agenda eleitoral clara.</p><p>O Flávio tem uma relação de pertencimento ao mundo evangélico que o pai não tem, mas será que num governo ele tomaria medidas assim, que não teriam apoio nem de boa parte dos próprios evangélicos?</p><p>O sr. apostaria que não? Com certeza também não teria apoio dos não evangélicos, o que levaria rapidamente a um desgaste político severo. Duvido que ele esteja tão alienado da realidade. Acho que isso é oportunismo eleitoral.</p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "Folha de S.Paulo - Poder",
-    fonteUrl: "https://www1.folha.uol.com.br/poder/2026/10/direita-prova-do-proprio-veneno-diz-paul-freston-sobre-fake-news-de-nossa-senhora.shtml",
-    fontesAdicionais: [{"nome":"A Gazeta","url":"https://www.agazeta.com.br/"},{"nome":"Folha Vitória","url":"https://www.folhavitoria.com.br/"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"Não deixa de ser irônico que a mesma direita que tanto difundiu fake news de frete religioso contra adversários seja atingida em cheio por uma desinformação da mesma natureza —e pior, envolvendo Nossa Senhora Aparecida , símbolo católico enraizado na cultura popular. A desinformação da vez prega que Flávio Bolsonaro (PL) quer resgatar um projeto de lei para "},{"pergunta":"Qual é o ponto principal?","resposta":"\"A direita está provando do próprio veneno\", diz Paul Freston , sociólogo inglês naturalizado brasileiro e pioneiro nos estudos de pentecostalismo e política. \"O feitiço virou contra o feiticeiro.\""},{"pergunta":"Quais são os dados mais importantes?","resposta":"A notícia falsa de que Lula ( PT ) fecharia igrejas foi reciclada em todas as eleições, lembra. A primeira delas, em 1989, escancarou atritos entre setores católicos e um incipiente bloco evangélico . Freston entrevistou dois anos depois o pastor José Wellington Bezerra da Costa, por anos presidente da Convenção Geral das Assembleias de Deus no Brasil."},{"pergunta":"Qual é o contexto?","resposta":"Costa lhe disse que evangélicos tinham informações \"de que a CNBB estava com um esquema armado para estabelecer a religião católica como a única religião oficial\". Nunca houve qualquer indício disso."},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"Freston lançou em 1993 tese de doutorado na Unicamp, que será relançada em dezembro pelo Instituto de Estudos da Religião, sob o título \"Protestantes e Política no Brasil: Do Império ao Impeachment de Collor\"."}],
-    redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
-    automatico: true,
-    publicadoEm: "2026-10-03T01:50:22.460Z"
+    "id": 26100222502201,
+    "pautaId": "2df1a025b6bb7cd7",
+    "slug": "paul-freston-analisa-fake-news-religiosa-contra-direita",
+    "titulo": "Paul Freston analisa fake news religiosa contra direita",
+    "categoria": "Fé e Sociedade",
+    "data": "2026-10-02",
+    "imagem": "https://noticiaes.com.br/imagens/lapis/20261002-paul-freston-analisa-fake-news-religiosa-contra-direita.jpg",
+    "resumo": "Sociólogo avalia que boato sobre Nossa Senhora Aparecida expõe a direita ao tipo de desinformação religiosa antes dirigido à esquerda.",
+    "conteudo": "<p>O sociólogo da religião Paul Freston afirmou nesta sexta-feira (2) que a direita passou a enfrentar, na reta final da eleição, um tipo de desinformação religiosa que durante anos atingiu adversários de esquerda. A análise surgiu após o boato que ligou Flávio Bolsonaro a uma suposta tentativa de retirar de Nossa Senhora Aparecida o título de padroeira do Brasil.</p>\n<p>A avaliação foi publicada pela Folha de S.Paulo em entrevista com Freston. A falsidade central do rumor é confirmada por checagem do Projeto Comprova, reproduzida pelo UOL: o projeto citado nas redes foi apresentado por outro parlamentar em 2007, rejeitado e arquivado em 2008, sem participação de Flávio.</p>\n<p>Freston resumiu a inversão ao dizer que a direita estaria experimentando o próprio método de ataque. Para ele, o episódio é irônico porque boatos com linguagem religiosa já foram usados contra candidaturas petistas, entre eles a alegação recorrente e falsa de que Lula fecharia igrejas.</p>\n<p>O caso mais recente ganhou força depois que publicações associaram uma fala de Flávio sobre dedicar o Brasil a Jesus a um projeto antigo sobre a padroeira. O candidato negou qualquer plano nesse sentido. A CNBB também declarou que não produziu nem participou da divulgação de informação falsa no processo eleitoral.</p>\n<h2>Boato reacende disputa religiosa</h2>\n<p>A checagem do Comprova mostrou que o Projeto de Lei 2.623/2007 buscava alterar a forma como o título de Nossa Senhora Aparecida aparecia na legislação. A proposta era de Victório Galli, então deputado federal, e foi arquivada no ano seguinte. Não há evidência de que Flávio tenha retomado ou defendido aquele texto.</p>\n<p>A discussão extrapolou a verificação factual porque Nossa Senhora Aparecida ocupa lugar central na identidade católica brasileira. O tema ativou desconfianças entre setores católicos e evangélicos e transformou uma informação falsa em instrumento de disputa eleitoral. Para Freston, essa concorrência por presença religiosa no espaço público não começou agora, mas ganhou nova intensidade.</p>\n<p>O pesquisador recordou a mudança de postura de igrejas pentecostais a partir dos anos 1980, quando parte dessas denominações abandonou uma posição mais distante da política institucional. Com o crescimento da representação evangélica, símbolos, discursos e alianças religiosas passaram a ocupar papel mais visível nas campanhas.</p>\n<h2>Freston aponta riscos políticos</h2>\n<p>Na avaliação de Freston, o campo progressista ainda encontra dificuldade para dialogar com o eleitorado evangélico e muitas vezes escolhe interlocutores pouco eficazes. Ele também considera que a linguagem religiosa usada por candidatos pode servir como mobilização eleitoral sem necessariamente se converter em um programa de governo.</p>\n<p>O sociólogo distingue a retórica de campanha de uma proposta concreta de teocracia. Ainda assim, alerta que frases que reivindicam o país para uma tradição religiosa podem provocar temor entre cidadãos de outras crenças. A reação política, portanto, não depende apenas do conteúdo literal da fala, mas também de como ela é recebida por comunidades que disputam reconhecimento.</p>\n<p>O episódio ainda gerou decisões judiciais sobre remoção de postagens. O TSE delimitou que conteúdos que apresentem como fato a ligação de Flávio com a retirada do título podem ser retirados, enquanto críticas, manifestações religiosas e opiniões permanecem protegidas. A distinção procura atingir a afirmação comprovadamente falsa sem eliminar o debate político.</p>\n<p>Para o eleitor, a informação verificável é direta: não existe proposta de Flávio Bolsonaro para retirar o título de Nossa Senhora Aparecida, e o projeto antigo usado no boato está arquivado desde 2008. A entrevista de Freston trata do efeito político dessa desinformação e de como a religião se tornou uma frente decisiva da campanha.</p>",
+    "autor": "Redação Notícia ES",
+    "fonteNome": "Folha de S.Paulo",
+    "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/direita-prova-do-proprio-veneno-diz-paul-freston-sobre-fake-news-de-nossa-senhora.shtml",
+    "fontesAdicionais": [
+      {
+        "nome": "Projeto Comprova — desinformação sobre Nossa Senhora Aparecida",
+        "url": "https://noticias.uol.com.br/comprova/ultimas-noticias/2026/09/29/desinformacao-flavio-bolsonaro-padroeira-nossa-senhora-aparecida-eleicoes.ghtm"
+      },
+      {
+        "nome": "UOL — regras do TSE para postagens sobre a padroeira",
+        "url": "https://noticias.uol.com.br/eleicoes/2026/10/02/mendonca-plataformas-posts-nossa-senhora.ghtm"
+      }
+    ],
+    "entidades": [
+      "Paul Freston",
+      "Nossa Senhora Aparecida",
+      "Flávio Bolsonaro",
+      "CNBB"
+    ],
+    "aeo": [
+      {
+        "pergunta": "Qual foi a avaliação de Paul Freston?",
+        "resposta": "Ele disse que a direita passou a sofrer o tipo de desinformação religiosa que por anos foi dirigido a adversários de esquerda."
+      },
+      {
+        "pergunta": "Flávio Bolsonaro quer retirar o título da padroeira?",
+        "resposta": "Não há evidência disso; a afirmação foi classificada como falsa pelo Projeto Comprova."
+      },
+      {
+        "pergunta": "De onde veio o projeto citado no boato?",
+        "resposta": "O texto foi apresentado por Victório Galli em 2007 e arquivado em 2008, sem participação de Flávio."
+      },
+      {
+        "pergunta": "Por que o caso ganhou força?",
+        "resposta": "Nossa Senhora Aparecida é um símbolo central do catolicismo, e o rumor ativou tensões religiosas na reta final da eleição."
+      },
+      {
+        "pergunta": "O que o TSE determinou?",
+        "resposta": "A corte delimitou a remoção de conteúdos que apresentem a informação falsa como fato, preservando críticas e opiniões."
+      }
+    ],
+    "redacaoPropria": true,
+    "origemTexto": "redacao-noticia-es",
+    "automatico": true,
+    "publicadoEm": "2026-10-03T01:50:22Z"
   },
   {
-    id: 26100222502202,
-    pautaId: "364b331231758d1e",
-    slug: "sao-paulo-quita-um-mes-de-direitos-de-imagem-atrasados-jovem-pan",
-    titulo: "São Paulo quita um mês de direitos de imagem atrasados | Jovem Pan",
-    categoria: "Justiça",
-    data: "2026-10-02",
-    imagem: "https://noticiaes.com.br/imagens/lapis/sao-paulo-quita-um-mes-de-direitos-de-imagem-atrasados-jovem-pan.jpg",
-    resumo: "O valor, de cerca de R$ 8 milhões, foi pago nesta sexta-feira (02), um dia após a aprovação do contrato pelo Conselho Deliberativo do clube",
-    conteudo: "<p>O São Paulo acertou um mês de direitos de imagem atrasados de seus jogadores com uma antecipação paga pela Ticketmaster.</p><h2>Valor, de cerca de R$ 8 milhões, foi pago</h2><p>O valor, de cerca de R$ 8 milhões, foi pago nesta sexta-feira, um dia após a aprovação do contrato pelo Conselho Deliberativo do clube. A informação foi publicada pelo UOL e confirmada pelo Estadão.</p><p>O acordo prevê R$ 140 milhões ao caixa tricolor, entre a antecipação de R$ 110 milhões em receitas e os R$ 30 milhões pela exploração do camarote 29A. Mesmo com o pagamento, ainda restam três meses de direitos de imagem atrasados, sendo o último registrado na segunda-feira.</p><p>Dos R$ 110 milhões previstos, R$ 8 milhões foram pagos nesta sexta-feira. Os R$ 102 milhões restantes serão liberados pela Ticketmaster no prazo de até 45 dias estabelecido no contrato .</p><h2>Empresa será responsável pela gestão de ingressos do Morumbis</h2><p>A empresa será responsável pela gestão de ingressos do Morumbis e do programa de sócio-torcedor pelos próximos cinco anos.</p><p>O acordo com a Ticketmaster foi aprovado pelo Conselho Deliberativo do São Paulo na quinta-feira, 30, por 184 votos a 44, com uma abstenção.</p><p>A decisão encerrou um processo marcado por questionamentos sobre a escolha da empresa para assumir a gestão da bilheteri a do Morumbis e do programa de sócio-torcedor</p><p>Uma das principais contestações partiu da NewC, empresa que também participou da disputa.</p><p>A concorrente questionou a condução do processo e alegou falta de respostas da diretoria, uso de informações desatualizadas e desvalorização de critérios técnicos.</p><p>A empresa afirmou ainda que sua proposta poderia chegar a R$ 500 milhões. Diante dos questionamentos , o clube criou uma comissão para analisar o contrato com a Ticketmaster.</p><p>O grupo concluiu que não havia elementos suficientes para caracterizar fraude ou favorecimento deliberado, mas apontou “fragilidades” e “inconsistências” na condução do processo.</p><p>Mesmo com as ressalvas, a comissão deu parecer favorável ao acordo e considerou a proposta da Ticketmaster mais vantajosa entre as analisadas.</p><p>A votação também foi antecedida por movimentações nos bastidores . Em áudio ao qual o Estadão teve acesso, o presidente Harry Massis pressionou pela inclusão do contrato na pauta do Conselho Deliberativo e relacionou a aprovação à situação financeira do clube.</p><p>Antes da definição da data da votação, Massis e Olten Ayres de Abreu Júnior, presidente do Conselho, chegaram a um entendimento que permitiu o avanço da análise da proposta.</p><p>O valor, de cerca de R$ 8 milhões, foi pago nesta sexta-feira (02), um dia após a aprovação do contrato pelo Conselho Deliberativo do clube</p><p>Justiça de SP determina suspensão de seis perfis de rede social ligados ao movimento ‘red pill’</p><p>Decisão também ordenou a preservação de dados cadastrais e registros técnicos que permitam identificar os responsáveis pelas contas</p><p>Júlio Casares é expulso do São Paulo após votação do Conselho Deliberativo</p><p>São Paulo supera Atlético-MG pelo Brasileirão e ultrapassa Corinthians</p><p>Luciano celebra vitória do São Paulo em meio a momento ruim: ‘Pior fase de sua história’</p><p>São Paulo bate Bragantino, volta a vencer no Brasileiro após 10 jogos e finda drama de Dorival</p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "Jovem Pan - Feed",
-    fonteUrl: "https://jovempan.com.br/esportes/futebol/sao-paulo-futebol-clube/sao-paulo-quita-um-mes-de-direitos-de-imagem-atrasados/",
-    fontesAdicionais: [{"nome":"STF Notícias","url":"https://portal.stf.jus.br/noticias/"},{"nome":"MPF","url":"https://www.mpf.mp.br/pgr/noticias-pgr"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"O São Paulo acertou um mês de direitos de imagem atrasados de seus jogadores com uma antecipação paga pela Ticketmaster. O valor, de cerca de R$ 8 milhões, foi pago nesta sexta-feira, um dia após a aprovação do contrato pelo Conselho Deliberativo do clube. A informação foi publicada pelo UOL e confirmada pelo Estadão."},{"pergunta":"Qual é o ponto principal?","resposta":"O acordo prevê R$ 140 milhões ao caixa tricolor, entre a antecipação de R$ 110 milhões em receitas e os R$ 30 milhões pela exploração do camarote 29A. Mesmo com o pagamento, ainda restam três meses de direitos de imagem atrasados, sendo o último registrado na segunda-feira."},{"pergunta":"Quais são os dados mais importantes?","resposta":"Dos R$ 110 milhões previstos, R$ 8 milhões foram pagos nesta sexta-feira. Os R$ 102 milhões restantes serão liberados pela Ticketmaster no prazo de até 45 dias estabelecido no contrato . A empresa será responsável pela gestão de ingressos do Morumbis e do programa de sócio-torcedor pelos próximos cinco anos."},{"pergunta":"Qual é o contexto?","resposta":"O acordo com a Ticketmaster foi aprovado pelo Conselho Deliberativo do São Paulo na quinta-feira, 30, por 184 votos a 44, com uma abstenção. A decisão encerrou um processo marcado por questionamentos sobre a escolha da empresa para assumir a gestão da bilheteri a do Morumbis e do programa de sócio-torcedor"},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"Uma das principais contestações partiu da NewC, empresa que também participou da disputa. A concorrente questionou a condução do processo e alegou falta de respostas da diretoria, uso de informações desatualizadas e desvalorização de critérios técnicos. A empresa afirmou ainda que sua proposta poderia chegar a R$ 500 milhões. Diante dos questionamentos , o c"}],
-    redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
-    automatico: true,
-    publicadoEm: "2026-10-03T01:50:22.460Z"
+    "id": 26100222502202,
+    "pautaId": "364b331231758d1e",
+    "slug": "sao-paulo-usa-r-8-milhoes-para-quitar-direitos-de-imagem",
+    "titulo": "São Paulo usa R$ 8 milhões para quitar direitos de imagem",
+    "categoria": "Esporte",
+    "data": "2026-10-02",
+    "imagem": "https://noticiaes.com.br/imagens/lapis/20261002-sao-paulo-usa-r-8-milhoes-para-quitar-direitos-de-imagem.jpg",
+    "resumo": "Clube destinou antecipação inicial da Ticketmaster ao pagamento de um mês atrasado; contrato prevê R$ 140 milhões em receitas e crédito.",
+    "conteudo": "<p>O São Paulo recebeu nesta sexta-feira (2) cerca de R$ 8 milhões da Ticketmaster e usou o valor para pagar um mês de direitos de imagem atrasados do elenco profissional. A transferência ocorreu um dia depois de o Conselho Deliberativo aprovar o contrato com a empresa.</p>\n<p>A Jovem Pan informou o pagamento, confirmado em reportagem do UOL. As duas fontes registram que o repasse faz parte de um acordo mais amplo, com R$ 140 milhões previstos entre antecipação de receitas e exploração comercial de um camarote no Morumbis.</p>\n<p>O valor recebido agora representa uma parcela do crédito de R$ 110 milhões contratado pelo clube. Outros R$ 30 milhões estão vinculados à exploração do camarote 29A por cinco anos. Segundo o UOL, a liberação integral dos recursos antecipados poderá ocorrer em até 45 dias.</p>\n<p>Mesmo com a quitação desta sexta-feira, o São Paulo ainda mantém meses pendentes de direitos de imagem. A antecipação inicial reduz parte do passivo imediato, mas não encerra a necessidade de regularização com os jogadores. A diretoria trata o contrato como peça importante para aliviar o fluxo de caixa.</p>\n<h2>Acordo antecipa receitas futuras</h2>\n<p>A Ticketmaster assumirá a operação de ingressos do Morumbis e a gestão do programa de sócio-torcedor por cinco anos. Em troca da antecipação, o São Paulo deverá devolver o crédito ao longo do período, com as condições previstas no contrato aprovado pelos conselheiros.</p>\n<p>A votação terminou com 184 votos favoráveis, 44 contrários e uma abstenção. O processo foi acompanhado por questionamentos sobre a escolha da parceira e sobre os critérios de comparação com propostas concorrentes. Uma comissão interna analisou o negócio antes de emitir parecer favorável.</p>\n<p>O grupo não identificou elementos suficientes para caracterizar fraude ou favorecimento deliberado, mas apontou fragilidades e inconsistências na condução da concorrência. A NewC, uma das participantes, alegou que informações desatualizadas e critérios técnicos pouco claros prejudicaram sua proposta.</p>\n<p>Apesar das ressalvas, a maioria do Conselho considerou a oferta da Ticketmaster mais vantajosa. O clube também renegociou pontos do contrato, entre eles a multa de rescisão. A urgência financeira pesou no debate, já que o elenco acumulava atrasos e a equipe entraria em campo contra o Santos na mesma noite do primeiro repasse.</p>\n<h2>Pagamento reduz parte dos atrasos</h2>\n<p>Direitos de imagem são valores previstos em contratos separados dos salários trabalhistas e remuneram o uso comercial da imagem do atleta. No futebol brasileiro, eles integram a composição mensal acertada com jogadores. Quando há atraso, a pendência afeta diretamente a relação entre elenco e diretoria.</p>\n<p>O pagamento de R$ 8 milhões cobriu uma competência, mas ainda restam outras obrigações a regularizar. O montante de R$ 102 milhões do crédito inicial, se liberado dentro do prazo contratual, dará ao clube margem para enfrentar parte dessas pendências e outros compromissos de curto prazo.</p>\n<p>A operação não representa receita sem custo. O São Paulo transforma entradas futuras ligadas à bilheteria e ao programa de sócios em dinheiro disponível agora, que será devolvido ao longo de cinco anos. A vantagem é o alívio imediato; a contrapartida é comprometer receitas posteriores com a quitação do crédito.</p>\n<p>Para o elenco, o efeito concreto desta sexta-feira foi a baixa de um mês atrasado. Para a administração, começa agora a etapa de assinatura, liberação dos valores restantes e execução dos serviços de ingressos e sócio-torcedor previstos no acordo com a Ticketmaster.</p>",
+    "autor": "Redação Notícia ES",
+    "fonteNome": "Jovem Pan",
+    "fonteUrl": "https://jovempan.com.br/esportes/futebol/sao-paulo-futebol-clube/sao-paulo-quita-um-mes-de-direitos-de-imagem-atrasados/",
+    "fontesAdicionais": [
+      {
+        "nome": "UOL — pagamento de direitos de imagem do elenco",
+        "url": "https://www.uol.com.br/esporte/colunas/gabriel-sa/2026/10/02/sao-paulo-paga-parte-dos-atrasados-em-direitos-de-imagem-com-o-elenco.ghtm"
+      },
+      {
+        "nome": "UOL — aprovação do acordo com a Ticketmaster",
+        "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/30/sao-paulo-conselho-aprova-acordo-da-ticketmaster-com-r-110-mi-antecipados.ghtm"
+      }
+    ],
+    "entidades": [
+      "São Paulo Futebol Clube",
+      "Ticketmaster",
+      "Conselho Deliberativo"
+    ],
+    "aeo": [
+      {
+        "pergunta": "Quanto o São Paulo recebeu agora?",
+        "resposta": "O clube recebeu cerca de R$ 8 milhões da Ticketmaster nesta sexta-feira."
+      },
+      {
+        "pergunta": "Como o dinheiro foi usado?",
+        "resposta": "O valor pagou um mês de direitos de imagem atrasados do elenco profissional."
+      },
+      {
+        "pergunta": "Qual é o valor total do acordo?",
+        "resposta": "O contrato prevê R$ 140 milhões, sendo R$ 110 milhões em crédito antecipado e R$ 30 milhões pela exploração de camarote."
+      },
+      {
+        "pergunta": "O clube quitou todos os atrasos?",
+        "resposta": "Não. O repasse cobriu uma competência, mas ainda existem outros meses pendentes."
+      },
+      {
+        "pergunta": "O que a Ticketmaster vai administrar?",
+        "resposta": "A empresa assumirá a operação de ingressos do Morumbis e o programa de sócio-torcedor por cinco anos."
+      }
+    ],
+    "redacaoPropria": true,
+    "origemTexto": "redacao-noticia-es",
+    "automatico": true,
+    "publicadoEm": "2026-10-03T01:50:22Z"
   }
 ];
-if (typeof noticias !== 'undefined') noticias.unshift(...noticiasAutoRedacao20261002225022);
+
+if (typeof window !== "undefined") window.noticiasAutoRedacao20261002225022 = noticiasAutoRedacao20261002225022;
+if (typeof noticias !== "undefined" && Array.isArray(noticias)) noticias.unshift(...noticiasAutoRedacao20261002225022);
