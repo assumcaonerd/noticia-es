@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-03T00:17:47.294Z",
+  "atualizadoEm": "2026-10-03T01:17:44.041Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 97,
+  "novasPautas": 91,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -290,7 +290,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 10,
+      "encontrados": 11,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -323,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 12,
+      "encontrados": 10,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,23 +376,23 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-03T00:21:02.406Z",
-    "novas": 5,
+    "atualizadoEm": "2026-10-03T01:20:16.923Z",
+    "novas": 0,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Folha Vitória",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube ALES",
-        "ok": true,
-        "encontrados": 1
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -401,18 +401,18 @@
       },
       {
         "fonte": "YouTube PM Ambiental ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": true,
-        "encontrados": 1
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "X Governo ES",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-03T00:21:04.776Z",
+    "atualizadoEm": "2026-10-03T01:20:18.455Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-03T00:21:05.884Z",
+    "atualizadoEm": "2026-10-03T01:20:19.306Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-03T00:21:16.460Z",
+    "atualizadoEm": "2026-10-03T01:20:29.857Z",
     "novas": 0,
     "fontes": [
       {
