@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-04T00:42:13.256Z",
+  "atualizadoEm": "2026-10-04T01:17:48.208Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 79,
+  "novasPautas": 81,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -140,9 +140,11 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": false,
-      "erro": "https://ipbvit.org.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://ipbvit.org.br/",
+      "fallback": false
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -321,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 10,
+      "encontrados": 12,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -374,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-04T00:44:58.563Z",
+    "atualizadoEm": "2026-10-04T01:20:33.842Z",
     "novas": 0,
     "fontes": [
       {
@@ -385,7 +387,7 @@
       {
         "fonte": "YouTube Folha Vitória",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube ALES",
@@ -410,7 +412,7 @@
       {
         "fonte": "YouTube ALES (legado)",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "X Governo ES",
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-04T00:45:00.408Z",
+    "atualizadoEm": "2026-10-04T01:20:35.853Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-04T00:45:01.391Z",
+    "atualizadoEm": "2026-10-04T01:20:36.798Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-04T00:45:11.968Z",
+    "atualizadoEm": "2026-10-04T01:20:47.380Z",
     "novas": 0,
     "fontes": [
       {
