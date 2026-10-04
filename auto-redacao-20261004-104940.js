@@ -1,87 +1,113 @@
 const noticiasAutoRedacao20261004104940 = [
   {
-    id: 26100410494001,
-    pautaId: "aa810020ef7ed384",
-    slug: "nunes-marques-nega-ameaca-as-eleicoes-e-descarta-interferencia-no-pleito",
-    titulo: "Nunes Marques nega ameaça às eleições e descarta interferência no pleito",
-    categoria: "Justiça",
-    data: "2026-10-04",
-    imagem: "https://noticiaes.com.br/imagens/lapis/nunes-marques-nega-ameaca-as-eleicoes-e-descarta-interferencia-no-pleito.jpg",
-    resumo: "Presidente do TSE afirma que órgãos de inteligência não identificaram riscos internacionais ou ligados ao crime organizado",
-    conteudo: "<p>O presidente do Tribunal Superior Eleitoral (TSE), Kassio Nunes Marques, afirmou em pronunciamento no dia 3 de outubro de 2026 que não há risco de interferência nas eleições de 1º turno, que ocorrem neste domingo, 4.</p><h2>Ele destacou o trabalho conjunto das instituições de monitoramento</h2><p>Ele destacou o trabalho conjunto das instituições de monitoramento e pediu atenção dos eleitores às informações circulantes.</p><p>Nunes Marques também garantiu que a Justiça Eleitoral reprimirá tentativas de pressão sobre os eleitores e ressaltou a segurança das urnas eletrônicas, que têm mecanismos de fiscalizaç</p><p>O presidente do Tribunal Superior Eleitoral (TSE) , ministro Kassio Nunes Marques, afirmou neste sábado, 3, que não há risco concreto de interferência na realização do 1º turno das eleições de 2026.</p><h2>Em pronunciamento transmitido por emissoras de rádio e</h2><p>Em pronunciamento transmitido por emissoras de rádio e televisão e divulgado nas redes sociais, Nunes Marques citou o trabalho conjunto realizado pelas instituições responsáveis pelo monitoramento de possíveis riscos.</p><p>“Nosso pleito não está sob ameaça concreta, seja internacional ou do crime organizado”, afirmou o ministro. “Os órgãos de inteligência que trabalham em parceria conosco não apontam qualquer indício disso.”</p><p>O presidente do TSE ainda descartou a possibilidade de mudanças no calendário eleitoral e pediu que os eleitores tenham atenção às informações que circulam durante o processo eleitoral.</p><p>Nunes Marques fez ainda um apelo aos candidatos e aos eleitores para que respeitem a liberdade de escolha nas urnas. O presidente do TSE afirmou que a Justiça Eleitoral atuará diante de tentativas de pressionar ou constranger os cidadãos durante a votação.</p><p>“Ameaças, assédio ou tentativa de interferência na vontade do eleitor, em qualquer de suas formas, serão prontamente reprimidas.”</p><p>O ministro pediu que os brasileiros verifiquem a procedência de conteúdos antes de repassá-los. Ele recomendou o uso dos canais oficiais para esclarecer dúvidas sobre o processo de votação.</p><p>O pronunciamento também destacou os mecanismos de segurança e fiscalização do sistema eletrônico de votação. A urna eletrônica é utilizada no país há três décadas e passa por atualizações a cada eleição.</p><p>O TSE convidará os dois últimos eleitores aptos a votar em cada seção eleitoral para acompanhar o encerramento da votação. Eles receberão o boletim de urna com os votos registrados naquele local.</p><p>O documento terá um QR Code para permitir a conferência dos dados por meio do aplicativo Boletim na Mão. A medida faz parte das iniciativas apresentadas pelo tribunal para ampliar a possibilidade de fiscalização do processo eleitoral.</p><p>O 1º turno ocorre neste domingo, 4. Os eleitores escolherão deputados federais, deputados estaduais, dois senadores, governador e presidente da República.</p><p>Os eleitores devem levar documento de identificação com foto e a chamada “cola eleitoral” preenchida com os nomes e números dos candidatos.</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "Revista Oeste - Feed",
-    fonteUrl: "https://revistaoeste.com/politica/nunes-marques-nega-ameaca-as-eleicoes-e-descarta-interferencia-no-pleito/",
-    fontesAdicionais: [{"nome":"STF Notícias","url":"https://portal.stf.jus.br/noticias/"},{"nome":"MPF","url":"https://www.mpf.mp.br/pgr/noticias-pgr"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"O presidente do Tribunal Superior Eleitoral (TSE), Kassio Nunes Marques, afirmou em pronunciamento no dia 3 de outubro de 2026 que não há risco de interferência nas eleições de 1º turno, que ocorrem neste domingo, 4. Ele destacou o trabalho conjunto das instituições de monitoramento e pediu atenção dos eleitores às informações circulantes. Nunes Marques tamb"},{"pergunta":"Qual é o ponto principal?","resposta":"O presidente do Tribunal Superior Eleitoral (TSE) , ministro Kassio Nunes Marques, afirmou neste sábado, 3, que não há risco concreto de interferência na realização do 1º turno das eleições de 2026."},{"pergunta":"Quais são os dados mais importantes?","resposta":"Em pronunciamento transmitido por emissoras de rádio e televisão e divulgado nas redes sociais, Nunes Marques citou o trabalho conjunto realizado pelas instituições responsáveis pelo monitoramento de possíveis riscos."},{"pergunta":"Qual é o contexto?","resposta":"“Nosso pleito não está sob ameaça concreta, seja internacional ou do crime organizado”, afirmou o ministro. “Os órgãos de inteligência que trabalham em parceria conosco não apontam qualquer indício disso.”"},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"O presidente do TSE ainda descartou a possibilidade de mudanças no calendário eleitoral e pediu que os eleitores tenham atenção às informações que circulam durante o processo eleitoral."}],
-    redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
-    automatico: true,
-    publicadoEm: "2026-10-04T13:49:40.080Z"
+    "id": 26100410494001,
+    "pautaId": "0339d7120ca23f2d",
+    "slug": "lula-contrapoe-democracia-e-barbarie-apos-votar",
+    "titulo": "Lula contrapõe democracia e barbárie após votar",
+    "categoria": "Política Nacional",
+    "data": "2026-10-04",
+    "imagem": "https://noticiaes.com.br/imagens/lapis/20261004-lula-contrapoe-democracia-e-barbarie-apos-votar.jpg",
+    "resumo": "Presidente votou em São Bernardo do Campo, disse confiar na vitória e apresentou a disputa nacional como escolha entre projetos opostos.",
+    "conteudo": "<p>O presidente Luiz Inácio Lula da Silva votou na manhã deste domingo, 4 de outubro, em São Bernardo do Campo e apresentou a eleição presidencial como uma escolha entre democracia e barbárie. Candidato à reeleição, ele declarou confiança na vitória e disse que respeitará o resultado das urnas.</p><p>A Revista Oeste publicou a declaração feita depois da votação. O relato foi confrontado com informações do InfoMoney e do UOL, que registraram o comparecimento do presidente ao colégio eleitoral no ABC Paulista e os principais pontos de sua entrevista.</p><p>Lula estava acompanhado do vice-presidente Geraldo Alckmin, de Fernando Haddad e das candidatas ao Senado Simone Tebet e Marina Silva. A presença conjunta procurou demonstrar unidade da aliança governista no momento em que os eleitores já estavam nas seções.</p><h2>Discurso amplia tom da disputa</h2><p>Ao falar com jornalistas, Lula afirmou que o país decidirá entre o fortalecimento do regime democrático e a barbárie, além de contrapor desenvolvimento e atraso. A formulação elevou o tom político da votação, transformando a escolha de candidatos em um julgamento sobre projetos nacionais.</p><p>O presidente também atacou a ampliação da venda de armas, as milícias e os envolvidos no escândalo do Banco Master. Segundo ele, o Brasil precisa avançar com seriedade, caráter e dignidade de seus governantes. As declarações reuniram segurança pública, integridade institucional e economia numa mesma mensagem.</p><p>O Banco Master esteve presente na campanha por causa das investigações e das relações políticas atribuídas a pessoas ligadas ao caso. Lula utilizou o episódio para reforçar sua crítica aos adversários, sem apresentar naquele momento fatos novos sobre os procedimentos em curso.</p><p>A fala ocorreu depois de uma campanha marcada pela polarização entre Lula e Flávio Bolsonaro. As pesquisas finais mostraram diferença pequena entre os dois principais candidatos, mas somente a apuração oficial poderá definir se haverá vencedor no primeiro turno ou uma nova votação.</p><h2>Resultado será respeitado</h2><p>Lula declarou que aceitará a decisão das urnas. A afirmação tem peso num ambiente em que campanhas e autoridades discutiram durante meses a segurança do sistema eletrônico, a circulação de desinformação e o respeito à vontade dos eleitores.</p><p>O candidato também defendeu participação elevada, inclusive de pessoas com mais de 70 anos, para quem o voto é facultativo. Comparecimento e abstenção podem alterar o desempenho observado nas pesquisas, sobretudo numa disputa em que a diferença estimada ficou próxima das margens de erro.</p><p>A votação presidencial ocorre junto com as escolhas para governos estaduais, Senado, Câmara dos Deputados e assembleias legislativas. Para vencer no primeiro turno, um candidato precisa obter mais da metade dos votos válidos, excluídos brancos e nulos.</p><p>Se ninguém alcançar essa maioria, os dois nomes mais votados disputarão o segundo turno em 25 de outubro. Até a conclusão da totalização, declarações de confiança permanecem como posicionamentos de campanha, não como indicação do resultado.</p><p>O pronunciamento de Lula resumiu a estratégia usada na reta final: apresentar sua candidatura como defesa institucional e associar os adversários a retrocesso político e práticas ilegais. A resposta dos eleitores será medida pelos boletins de urna e pela totalização da Justiça Eleitoral.</p>",
+    "autor": "Redação Notícia ES",
+    "fonteNome": "Revista Oeste",
+    "fonteUrl": "https://revistaoeste.com/politica/lula-diz-que-eleicao-opoe-democracia-e-barbarie-e-afirma-que-vai-vencer/",
+    "fontesAdicionais": [
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/politica/lula-vota-no-abc-se-diz-confiante-na-vitoria-e-ataca-quadrilha-do-banco-master/"
+      },
+      {
+        "nome": "UOL",
+        "url": "https://noticias.uol.com.br/eleicoes/2026/10/04/lula-voto-primeiro-turno.ghtm"
+      }
+    ],
+    "entidades": [
+      "Presidência da República",
+      "Tribunal Superior Eleitoral"
+    ],
+    "aeo": [
+      {
+        "pergunta": "Onde Lula votou?",
+        "resposta": "Ele votou em São Bernardo do Campo, no ABC Paulista."
+      },
+      {
+        "pergunta": "Como Lula definiu a eleição?",
+        "resposta": "Ele afirmou que o eleitor escolherá entre o fortalecimento da democracia e a barbárie."
+      },
+      {
+        "pergunta": "Lula disse que respeitará o resultado?",
+        "resposta": "Sim. O candidato declarou que aceitará a decisão das urnas."
+      },
+      {
+        "pergunta": "Quem acompanhou o presidente?",
+        "resposta": "Geraldo Alckmin, Fernando Haddad, Simone Tebet e Marina Silva estavam com ele."
+      },
+      {
+        "pergunta": "Quando haverá segundo turno?",
+        "resposta": "Se necessário, a nova votação presidencial ocorrerá em 25 de outubro."
+      }
+    ],
+    "redacaoPropria": true,
+    "origemTexto": "redacao-noticia-es",
+    "automatico": true,
+    "publicadoEm": "2026-10-04T13:49:40.000Z"
   },
   {
-    id: 26100410494002,
-    pautaId: "0339d7120ca23f2d",
-    slug: "lula-diz-que-eleicao-opoe-democracia-e-barbarie-e-afirma-que-vai-vencer",
-    titulo: "Lula diz que eleição opõe democracia e 'barbárie' e afirma que vai vencer",
-    categoria: "Política ES",
-    data: "2026-10-04",
-    imagem: "https://noticiaes.com.br/imagens/lapis/lula-diz-que-eleicao-opoe-democracia-e-barbarie-e-afirma-que-vai-vencer.jpg",
-    resumo: "Depois de votar em São Bernardo do Campo, presidente fala com a imprensa e diz que resultado das urnas será acatado",
-    conteudo: "<p>Letícia Alves nasceu em Fortaleza e se formou em jornalismo na Universidade Federal do Ceará. Atuou no jornal O Povo, Poder360, Brasil sem Medo e Gazeta do Povo. Atualmente, é repórter na Revista Oeste.</p><h2>Presidente Luiz Inácio Lula da Silva, após votar</h2><p>O presidente Luiz Inácio Lula da Silva, após votar em São Bernardo do Campo no dia 4 de outubro de 2026, afirmou que os brasileiros devem escolher entre \"o fortalecimento do regime democrático ou a barbárie\".</p><p>Ele expressou confiança na vitória e ressaltou que o resultado das eleições será respeitado. Lula criticou a venda de armas e a atuação de milicianos, defendendo a distribuição de livros didáticos.</p><p>O presidente Luiz Inácio Lula da Silva afirmou neste domingo, 4, que os brasileiros terão de escolher entre “o fortalecimento do regime democrático ou a barbárie”.</p><h2>Em declaração à imprensa depois de votar</h2><p>Em declaração à imprensa depois de votar em São Bernardo do Campo, no ABC Paulista, ele disse estar confiante na vitória e afirmou que o resultado das urnas será acatado.</p><p>“O que está em jogo é um projeto de Brasil”, afirmou. “O povo vai ter que escolher entre o fortalecimento do regime democrático ou a barbárie. Entre o positivismo e o negacionismo. Entre o desenvolvimento e o atraso, entre o crescimento econômico e o retrocesso.”</p><p>Lula votou pela manhã na Escola Estadual João Firmino, no bairro Assunção. Ele estava acompanhado do vice-presidente Geraldo Alckmin e dos candidatos Marina Silva, Simone Tebet e Fernando Haddad.</p><p>Lula atribuiu sua confiança ao governo e ao trabalho durante a campanha. “Estou certo que nós temos uma participação a nível nacional muito grande e estou certo que vamos ganhar essas eleições ”, disse.</p><p>Na declaração, o presidente criticou a facilitação da venda de armas e defendeu, em contraponto, a distribuição de livros didáticos nas escolas. Também mencionou “milicianos” e o Banco Master.</p><p>“O Brasil não irá pra frente com miliciano, com essa orgia que se faz em torno da quadrilha do Banco Master, mas com seriedade, comportamento de caráter e dignidade de seus governantes”, afirmou.</p><p>O presidente, no entanto, omitiu seus aliados envolvidos no escândalo com Daniel Vorcaro.</p><p>Se vencer, Lula exercerá o quarto mandato no Palácio do Planalto e chegará a 16 anos como presidente. Ao defender a continuidade de seu governo, Lula afirmou que ainda há trabalho a fazer.</p><p>“São 500 anos de atraso, e não se resolve 500 anos em 10 anos, 15 anos, 20 anos”, disse. “É preciso muito tempo pra gente consertar esse país.”</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "Revista Oeste - Feed",
-    fonteUrl: "https://revistaoeste.com/politica/lula-diz-que-eleicao-opoe-democracia-e-barbarie-e-afirma-que-vai-vencer/",
-    fontesAdicionais: [{"nome":"Assembleia Legislativa do ES","url":"https://www.al.es.gov.br/"},{"nome":"Governo do Estado do ES","url":"https://www.es.gov.br/"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"Letícia Alves nasceu em Fortaleza e se formou em jornalismo na Universidade Federal do Ceará. Atuou no jornal O Povo, Poder360, Brasil sem Medo e Gazeta do Povo. Atualmente, é repórter na Revista Oeste."},{"pergunta":"Qual é o ponto principal?","resposta":"O presidente Luiz Inácio Lula da Silva, após votar em São Bernardo do Campo no dia 4 de outubro de 2026, afirmou que os brasileiros devem escolher entre \"o fortalecimento do regime democrático ou a barbárie\". Ele expressou confiança na vitória e ressaltou que o resultado das eleições será respeitado. Lula criticou a venda de armas e a atuação de milicianos, "},{"pergunta":"Quais são os dados mais importantes?","resposta":"O presidente Luiz Inácio Lula da Silva afirmou neste domingo, 4, que os brasileiros terão de escolher entre “o fortalecimento do regime democrático ou a barbárie”. Em declaração à imprensa depois de votar em São Bernardo do Campo, no ABC Paulista, ele disse estar confiante na vitória e afirmou que o resultado das urnas será acatado."},{"pergunta":"Qual é o contexto?","resposta":"“O que está em jogo é um projeto de Brasil”, afirmou. “O povo vai ter que escolher entre o fortalecimento do regime democrático ou a barbárie. Entre o positivismo e o negacionismo. Entre o desenvolvimento e o atraso, entre o crescimento econômico e o retrocesso.”"},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"Lula votou pela manhã na Escola Estadual João Firmino, no bairro Assunção. Ele estava acompanhado do vice-presidente Geraldo Alckmin e dos candidatos Marina Silva, Simone Tebet e Fernando Haddad."}],
-    redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
-    automatico: true,
-    publicadoEm: "2026-10-04T13:49:40.080Z"
-  },
-  {
-    id: 26100410494003,
-    pautaId: "e41e63f7865c80bc",
-    slug: "senado-renova-dois-tercos-das-vagas-sob-disputa-acirrada-jovem-pan",
-    titulo: "Senado renova dois terços das vagas sob disputa acirrada | Jovem Pan",
-    categoria: "Política Nacional",
-    data: "2026-10-04",
-    imagem: "https://noticiaes.com.br/imagens/lapis/senado-renova-dois-tercos-das-vagas-sob-disputa-acirrada-jovem-pan.jpg",
-    resumo: "A eleição para o Senado é uma das prioridades do grupo ligado ao ex-presidente Jair Bolsonaro (PL)",
-    conteudo: "<p>A disputa por dois terços das cadeiras do Senado chega aberta em 24 Estados e no Distrito Federal, com pesquisas de intenção de voto mostrando uma corrida acirrada entre nomes ligados ao senador Flávio Bolsonaro (PL) e ao presidente Luiz Inácio Lula da Silva (PT).</p><h2>Eleição para o Senado é uma das prioridades</h2><p>A eleição para o Senado é uma das prioridades do grupo ligado ao ex-presidente Jair Bolsonaro (PL).</p><p>Em julho de 2025, em entrevista ao portal Poder360, ele afirmou que, com metade do Senado, teria mais poder que o presidente da República.</p><p>“Não adianta ele (o presidente) indicar o João (nome fictício) para o Supremo (Tribunal Federal), que eu falo para o pessoal: ‘aprova ou não aprova’.” Pesquisas de intenção de voto divulgadas pela Quaest nos últimos dias indicam que, em pelo menos dois Estados, candidatos ligados a Flávio aparecem isolados nas duas primeiras colocações – com a ressalva de que os levantamentos têm dificuldade para retratar a corrida pelo Senado, que costuma ser um dos últimos votos definidos pelos eleitores.</p><h2>No caso do Piauí, foram considerados dados do Datafolha</h2><p>No caso do Piauí, foram considerados dados do Datafolha. Em Mato Grosso e Mato Grosso do Sul, a distância dos dois primeiros colocados para os demais supera a margem de erro da Quaest.</p><p>Em comum, Mauro Mendes (União) e Janaína Riva (MDB), em Mato Grosso, e Capitão Contar (PL) e Reinaldo Azambuja (PL), no Estado vizinho, declararam apoio ao filho mais velho do ex-presidente na corrida pelo Palácio do Planalto.</p><p>Em Santa Catarina, Carol de Toni (PL), Carlos Bolsonaro (PL), filho do ex-presidente, e Esperidião Amin (PP) estão tecnicamente empatados.</p><p>Em Rondônia, Roraima, Tocantins e Acre, candidatos que apoiam explicitamente Flávio aparecem numericamente nas duas primeiras colocações.</p><p>Na eleição no Distrito Federal, a ex-primeira-dama Michelle Bolsonaro (PL) surge isolada na primeira posição, segundo a Quaest, com 31%.</p><p>Aliada de Lula, a senadora Leila do Vôlei (PDT) está em segundo, com 27% das intenções, seguida pela deputada federal Bia Kicis (PL) 24% e pela deputada federal Erika Kokay (PT), com 17%.</p><p>Nos três maiores colégios eleitorais do País – São Paulo, Minas Gerais e Rio de Janeiro -, o cenário é mais nebuloso.</p><p>A última Quaest mostrou o ex-secretário de Segurança Pública de São Paulo, Guilherme Derrite (PP), com 25% das intenções de voto, seguido por André do Prado (PL), com 23%, e as ex-ministras de Lula, Marina Silva (Rede) e Simone Tebet (PSB), com 22% cada na disputa pelas duas vagas no Senado por São Paulo (mais informações nesta página).</p><p>No Rio de Janeiro, origem do bolsonarismo, dois aliados de Flávio – o senador Carlos Portinho (PL) e o deputado federal Carlos Jordy (PL) – aparecem no mesmo patamar da petista Benedita da Silva.</p><p>Em Minas Gerais, o bolsonarista Domingos Sávio (PL) tem 22%, ante 18% de Marília Campos (PT) e 18% de Carlos Viana (PSD), aliado de Flávio. Aécio Neves (PSDB), que não declarou voto, tem 17%.</p><p>Lula tem um respiro em Estados do Nordeste. Na Bahia, Rui Costa (PT), seu ex-ministro da Casa Civil, e Jaques Wagner (PT), que foi líder do governo no Senado, aparecem numericamente à frente dos adversários, com alguma folga.</p><p>Na Paraíba, os três nomes mais competitivos estão no campo de Lula: João Azevêdo (PSB), Veneziano (MDB) e Nabor Wanderley (Republicanos).</p><p>Em Pernambuco, Marília Arraes (PDT) e Humberto Costa (PT) aparecem numericamente à frente.</p><p>No Maranhão, a ex-senadora Roseana Sarney (MDB) e o ex-ministro André Fufuca (PP), nas primeiras posições, também são aliados do petista.</p><p>Outros Estados em que apoiadores do presidente aparecem competitivos são Amazonas, Amapá, Ceará, Espírito Santo, Pará, Rio Grande do Norte, Rio Grande do Sul e Sergipe.</p><p>BANCADAS Como mostrou o Estadão, caso as projeções se concretizem, o PL teria o maior ganho no número de senadores a partir de 2027. O PSD, por outro lado, sofreria a maior baixa.</p><p>Os dados estão em ferramenta lançada pelo Estadão para projetar a futura bancada no Senado a partir dos resultados das pesquisas mais recentes da Quaest em 26 unidades da Federação.</p><p>O PL pode chegar a 25 senadores – hoje, tem 15. Mesmo com o crescimento projetado, o PL ainda dependeria de aliados para aprovar algumas das principais pautas defendidas pelo bolsonarismo.</p><p>O Senado tem 81 integrantes, e são necessários 41 votos para formar maioria absoluta.</p><p>Já a aprovação de um pedido de impeachment contra ministro do STF, uma das bandeiras do grupo, exige o apoio de dois terços da Casa, ou 54 senadores. O PT de Lula manteria nove assentos.</p><p>O PP, presidido pelo senador Ciro Nogueira (PI), aumentaria de sete para nove. O MDB diminuiria de nove para oito. A Quaest projeta uma redução na bancada do PSD, que passaria de 14 senadores para cinco.</p><p>O União Brasil, partido de Davi Alcolumbre (AP), ganharia cinco assentos, indo até oito.</p><p>A eleição para o Senado é uma das prioridades do grupo ligado ao ex-presidente Jair Bolsonaro (PL)</p><p>Messias diz que eleição é escolha entre ‘honra ou humilhação’</p><p>&quot;É chegada a hora de verdade em relação ao que queremos ser como país: se queremos ser uma Nação soberana, guiada pelo interesse do povo brasileiro, ou se aceitaremos servir e nos subordinar como meros fantoches de um projeto de dominação estrangeira&quot;, disse</p><p>Pesquisas mostram que 13 estados estão perto de definir governadores já no 1º turno; veja</p><p>Lula vota em São Bernardo e diz estar confiante na vitória: ‘O jogo está jogado’</p><p>Após votar, Nunes Marques diz que TSE está preparado para eleições ‘mais tranquilas e exitosas’</p><p>Entenda o espectro político de Fernando Collor na história da república</p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "Jovem Pan - Feed",
-    fonteUrl: "https://jovempan.com.br/politica/senado-renova-dois-tercos-das-vagas-sob-disputa-acirrada/",
-    fontesAdicionais: [{"nome":"Agência Brasil","url":"https://agenciabrasil.ebc.com.br/politica"},{"nome":"Senado Federal","url":"https://www12.senado.leg.br/noticias"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"A disputa por dois terços das cadeiras do Senado chega aberta em 24 Estados e no Distrito Federal, com pesquisas de intenção de voto mostrando uma corrida acirrada entre nomes ligados ao senador Flávio Bolsonaro (PL) e ao presidente Luiz Inácio Lula da Silva (PT). A eleição para o Senado é uma das prioridades do grupo ligado ao ex-presidente Jair Bolsonaro ("},{"pergunta":"Qual é o ponto principal?","resposta":"A eleição para o Senado é uma das prioridades do grupo ligado ao ex-presidente Jair Bolsonaro (PL)"},{"pergunta":"Quais são os dados mais importantes?","resposta":"Messias diz que eleição é escolha entre ‘honra ou humilhação’"},{"pergunta":"Qual é o contexto?","resposta":"&quot;É chegada a hora de verdade em relação ao que queremos ser como país: se queremos ser uma Nação soberana, guiada pelo interesse do povo brasileiro, ou se aceitaremos servir e nos subordinar como meros fantoches de um projeto de dominação estrangeira&quot;, disse"},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"Pesquisas mostram que 13 estados estão perto de definir governadores já no 1º turno; veja"}],
-    redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
-    automatico: true,
-    publicadoEm: "2026-10-04T13:49:40.080Z"
-  },
-  {
-    id: 26100410494004,
-    pautaId: "f16d7b674e6b1698",
-    slug: "cristiano-zanin-ministro-do-supremo-tribunal-federal-vota-em-brasilia",
-    titulo: "Cristiano Zanin, ministro do Supremo Tribunal Federal, vota em Brasília",
-    categoria: "Justiça",
-    data: "2026-10-04",
-    imagem: "https://noticiaes.com.br/imagens/lapis/cristiano-zanin-ministro-do-supremo-tribunal-federal-vota-em-brasilia.jpg",
-    resumo: "Ministro registrou seu voto no Lago Sul, região nobre da capital federal; outros cinco ministros do Supremo Tribunal Federal também votam em Brasília",
-    conteudo: "<p>O ministro do STF ( Supremo Tribunal Federal ) Cristiano Zanin votou neste domingo (4) no primeiro turno das eleições, em Brasília (DF). O ministro registrou seu voto por volta das 9h30, no Lago Sul, região nobre de Brasília (DF).</p><h2>Além de Zanin , outros cinco ministros da Suprema</h2><p>Além de Zanin , outros cinco ministros da Suprema Corte também votam em Brasília.</p><p>Nas eleições de 2026, espera-se que 158.745.483 brasileiros se dirijam às urnas, segundo informações do TSE ( Tribunal Superior Eleitoral ).</p><p>O número representa um acréscimo de 2,2 milhões de eleitores em relação ao pleito anterior.</p><h2>Neste pleito, os eleitores decidem seis cargos : deputado</h2><p>Neste pleito, os eleitores decidem seis cargos : deputado federal, deputado estadual ou distrital, senador (duas vagas), governador e presidente. Se necessário, o segundo turno para cargos executivos (governo e Presidência) será realizado em 25 de outubro .</p><p>Na reta final do período eleitoral, o STF foi um dos protagonistas do período eleitoral. Os embates se deram em especial entre os ministros André Mendonça e Alexandre de Moraes envolvendo as investigações sobre Daniel Vorcaro e a fraude do Banco Master .</p><p>Durante a crise institucional provocada pelo embate entre os colegas, a atuação de Zanin combinou posicionamentos procedimentais no Plenário da Corte e decisões estratégicas sobre o desdobramento do caso na Câmara dos Deputados.</p><p>Zanin assumiu a relatoria do mandado de segurança que pedia a abertura de uma CPI (Comissão Parlamentar de Inquérito) na Câmara dos Deputados destinada a investigar o Master e Vorcaro.</p><p>Em sua decisão, o ministro negou o pedido de liminar feito por parlamentares e manteve o rito interno sob a prerrogativa da própria Câmara.</p><p>Zanin argumentou que a organização da pauta e a definição das comissões constituem matérias interna corporis da Casa Legislativa, cabendo à mesa diretora avaliar a fila e a oportunidade de instalação do colegiado.</p><p>No ápice do conflito entre Moraes e Mendonça, durante a sessão do dia 15 de setembro, Zanin adotou uma linha de voto focada na redução de desgastes políticos para o tribunal .</p><p>O magistrado acompanhou a divergência aberta pelo ministro Flávio Dino para reunir, em um único julgamento colegiado, todas as frentes de análise referentes às acusações, nulidades de provas e relatórios da Polícia Federal.</p><p>A tese apoiada por Zanin buscou uniformizar a posição do Supremo sobre o segredo de justiça e evitar deliberações fragmentadas sobre a conduta dos colegas.</p><p>Para respaldar suas análises formais e fundamentar os votos nos processos correlatos sob sua análise, Zanin enviou ofício ao presidente do STF , ministro Edson Fachin , solicitando acesso à íntegra do material extraído do celular de Daniel Vorcaro.</p><p>Ministro Cristiano Zanin, do STF, durante votação neste domingo (4)</p><p>O ministro do STF ( Supremo Tribunal Federal ) Cristiano Zanin votou neste domingo (4) no primeiro turno das eleições, em Brasília (DF).</p><p>O ministro registrou seu voto por volta das 9h30, no Lago Sul, região nobre de Brasília (DF). Além de Zanin , outros cinco ministros da Suprema Corte também votam em Brasília.</p><p>Nas eleições de 2026, espera-se que 158.745.483 brasileiros se dirijam às urnas, segundo informações do TSE ( Tribunal Superior Eleitoral ).</p><p>O número representa um acréscimo de 2,2 milhões de eleitores em relação ao pleito anterior. Leia Mais</p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "CNN Brasil",
-    fonteUrl: "https://www.cnnbrasil.com.br/eleicoes/cristiano-zanin-ministro-do-supremo-tribunal-federal-vota-em-brasilia/",
-    fontesAdicionais: [{"nome":"STF Notícias","url":"https://portal.stf.jus.br/noticias/"},{"nome":"MPF","url":"https://www.mpf.mp.br/pgr/noticias-pgr"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"O ministro do STF ( Supremo Tribunal Federal ) Cristiano Zanin votou neste domingo (4) no primeiro turno das eleições, em Brasília (DF). O ministro registrou seu voto por volta das 9h30, no Lago Sul, região nobre de Brasília (DF)."},{"pergunta":"Qual é o ponto principal?","resposta":"Além de Zanin , outros cinco ministros da Suprema Corte também votam em Brasília. Nas eleições de 2026, espera-se que 158.745.483 brasileiros se dirijam às urnas, segundo informações do TSE ( Tribunal Superior Eleitoral ). O número representa um acréscimo de 2,2 milhões de eleitores em relação ao pleito anterior."},{"pergunta":"Quais são os dados mais importantes?","resposta":"Neste pleito, os eleitores decidem seis cargos : deputado federal, deputado estadual ou distrital, senador (duas vagas), governador e presidente. Se necessário, o segundo turno para cargos executivos (governo e Presidência) será realizado em 25 de outubro ."},{"pergunta":"Qual é o contexto?","resposta":"Na reta final do período eleitoral, o STF foi um dos protagonistas do período eleitoral. Os embates se deram em especial entre os ministros André Mendonça e Alexandre de Moraes envolvendo as investigações sobre Daniel Vorcaro e a fraude do Banco Master ."},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"Durante a crise institucional provocada pelo embate entre os colegas, a atuação de Zanin combinou posicionamentos procedimentais no Plenário da Corte e decisões estratégicas sobre o desdobramento do caso na Câmara dos Deputados."}],
-    redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
-    automatico: true,
-    publicadoEm: "2026-10-04T13:49:40.080Z"
+    "id": 26100410494002,
+    "pautaId": "2411f56af9555b2c",
+    "slug": "nunes-marques-manda-processar-votos-de-deltan",
+    "titulo": "Nunes Marques manda processar votos de Deltan",
+    "categoria": "Justiça",
+    "data": "2026-10-04",
+    "imagem": "https://noticiaes.com.br/imagens/lapis/20261004-nunes-marques-manda-processar-votos-de-deltan.jpg",
+    "resumo": "Presidente do TSE suspendeu decisão tomada na véspera, manteve o registro com recurso e condicionou a validade final ao plenário da Corte.",
+    "conteudo": "<p>O presidente do Tribunal Superior Eleitoral, Kassio Nunes Marques, suspendeu neste domingo, 4 de outubro, a decisão que havia indeferido a candidatura de Deltan Dallagnol ao Senado pelo Paraná. Os votos destinados ao candidato serão processados normalmente, mas a validade final dependerá do plenário da Corte.</p><p>O Poder360 noticiou a decisão tomada poucas horas antes da abertura das urnas. O conteúdo foi confirmado pelo UOL e pela Folha de S.Paulo, que detalharam a situação do registro, os efeitos sobre a apuração e a necessidade de julgamento colegiado.</p><p>A ordem suspensa havia sido assinada na noite de sábado pelo ministro Floriano de Azevedo Marques. Ela alterava o registro para indeferido e determinava que os votos dados à chapa fossem considerados nulos, revertendo entendimento anterior do Tribunal Regional Eleitoral do Paraná.</p><h2>Registro fica deferido com recurso</h2><p>Com a decisão de Nunes Marques, o sistema eleitoral mantém Deltan na condição de candidato deferido com recurso. Isso permite o processamento dos votos durante a totalização, sem resolver definitivamente a controvérsia jurídica sobre sua elegibilidade.</p><p>O presidente do TSE afirmou que a decisão anterior antecipou individualmente efeitos reservados ao plenário. Também considerou o impacto de uma mudança feita quando as urnas já estavam preparadas e não havia tempo suficiente para informar todo o eleitorado paranaense.</p><p>Nunes Marques deixou claro que não julgou o mérito da inelegibilidade. Questões como a aplicação da Lei da Ficha Limpa, a existência de coisa julgada e a alegação de fraude à lei permanecem abertas para análise dos ministros do tribunal.</p><p>A disputa começou com recursos de PT e PDT contra a candidatura. Os partidos sustentam que Deltan deixou o Ministério Público Federal em 2021 quando respondia a procedimentos disciplinares, numa tentativa de evitar uma futura causa de inelegibilidade.</p><h2>Plenário decidirá validade final</h2><p>Em 2023, o TSE cassou o mandato de deputado federal de Deltan com base na controvérsia sobre a exoneração do Ministério Público. Neste ano, porém, o TRE-PR autorizou a nova candidatura por quatro votos a três, entendimento depois questionado na Corte superior.</p><p>A suspensão assinada neste domingo funciona como medida provisória para preservar a apuração até a decisão coletiva. Se o plenário confirmar o registro, os votos já estarão contabilizados; se concluir pela inelegibilidade, os efeitos eleitorais serão definidos conforme a decisão final.</p><p>A distinção entre processamento e validade é central. Processar os votos significa registrá-los no sistema e mantê-los identificáveis, enquanto a atribuição definitiva ao candidato depende do desfecho do recurso.</p><p>Deltan comemorou a suspensão e criticou a mudança ocorrida na véspera. Os autores da impugnação, por outro lado, sustentam que a decisão de 2023 impede a candidatura. As manifestações das partes não substituem o julgamento que ainda precisa ocorrer.</p><p>Para o eleitor paranaense, a consequência imediata é que o número de Deltan permanece apto a receber votos e seus resultados serão exibidos na apuração. A composição final da disputa ao Senado poderá depender da análise posterior do plenário do TSE.</p>",
+    "autor": "Redação Notícia ES",
+    "fonteNome": "Poder360",
+    "fonteUrl": "https://www.poder360.com.br/poder-justica/nunes-marques-reverte-decisao-e-autoriza-votos-para-deltan/",
+    "fontesAdicionais": [
+      {
+        "nome": "UOL",
+        "url": "https://noticias.uol.com.br/eleicoes/2026/10/04/nunes-marques-suspende-decisao-que-indeferiu-candidatura-de-deltan.ghtm"
+      },
+      {
+        "nome": "Folha de S.Paulo",
+        "url": "https://www1.folha.uol.com.br/poder/2026/10/kassio-suspende-decisao-e-deltan-volta-a-ter-candidatura-deferida.shtml"
+      }
+    ],
+    "entidades": [
+      "Tribunal Superior Eleitoral",
+      "Tribunal Regional Eleitoral do Paraná",
+      "Ministério Público Federal"
+    ],
+    "aeo": [
+      {
+        "pergunta": "Os votos de Deltan serão contados?",
+        "resposta": "Eles serão processados normalmente, com validade condicionada ao julgamento do plenário do TSE."
+      },
+      {
+        "pergunta": "Quem suspendeu o indeferimento?",
+        "resposta": "O presidente do TSE, Kassio Nunes Marques, suspendeu a decisão anterior."
+      },
+      {
+        "pergunta": "O registro está definitivamente aprovado?",
+        "resposta": "Não. A candidatura permanece deferida com recurso até a decisão colegiada."
+      },
+      {
+        "pergunta": "Quando ocorreu a mudança?",
+        "resposta": "A suspensão foi assinada no domingo da votação, após decisão contrária na noite anterior."
+      },
+      {
+        "pergunta": "Quem dará a decisão final?",
+        "resposta": "O plenário do Tribunal Superior Eleitoral julgará o recurso."
+      }
+    ],
+    "redacaoPropria": true,
+    "origemTexto": "redacao-noticia-es",
+    "automatico": true,
+    "publicadoEm": "2026-10-04T13:49:40.000Z"
   }
 ];
+
 if (typeof noticias !== 'undefined') noticias.unshift(...noticiasAutoRedacao20261004104940);
