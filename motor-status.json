@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-04T09:17:50.599Z",
+  "atualizadoEm": "2026-10-04T10:17:51.156Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
   "novasPautas": 88,
   "pautasPendentes": 80,
@@ -297,7 +297,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 8,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -329,10 +329,8 @@
     },
     {
       "fonte": "Poder360 - Feed",
-      "ok": true,
-      "encontrados": 10,
-      "rota": "https://www.poder360.com.br/feed/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.poder360.com.br/feed/ -> The operation was aborted due to timeout"
     },
     {
       "fonte": "Jovem Pan - Feed",
@@ -376,7 +374,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-04T09:19:52.558Z",
+    "atualizadoEm": "2026-10-04T10:20:27.396Z",
     "novas": 6,
     "fontes": [
       {
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-04T09:19:53.990Z",
+    "atualizadoEm": "2026-10-04T10:20:28.688Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-04T09:19:54.838Z",
+    "atualizadoEm": "2026-10-04T10:20:29.479Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-04T09:20:05.413Z",
+    "atualizadoEm": "2026-10-04T10:20:40.042Z",
     "novas": 0,
     "fontes": [
       {
