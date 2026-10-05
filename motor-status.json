@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-05T19:18:03.257Z",
+  "atualizadoEm": "2026-10-05T21:18:13.771Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 105,
+  "novasPautas": 110,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -140,11 +140,9 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://ipbvit.org.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://ipbvit.org.br/ -> 403 Forbidden",
+      "capa": true
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -290,14 +288,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 11,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 6,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -323,7 +321,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 13,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -358,7 +356,7 @@
     {
       "fonte": "Agência Brasil - Economia",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 6,
       "rota": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml",
       "fallback": false
     },
@@ -376,8 +374,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-05T19:21:27.588Z",
-    "novas": 4,
+    "atualizadoEm": "2026-10-05T21:23:18.707Z",
+    "novas": 5,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -392,7 +390,7 @@
       {
         "fonte": "YouTube ALES",
         "ok": true,
-        "encontrados": 2
+        "encontrados": 3
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -412,7 +410,7 @@
       {
         "fonte": "YouTube ALES (legado)",
         "ok": true,
-        "encontrados": 2
+        "encontrados": 3
       },
       {
         "fonte": "X Governo ES",
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-05T19:21:29.716Z",
+    "atualizadoEm": "2026-10-05T21:23:20.781Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-05T19:21:30.749Z",
+    "atualizadoEm": "2026-10-05T21:23:21.865Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-05T19:21:41.323Z",
+    "atualizadoEm": "2026-10-05T21:23:32.437Z",
     "novas": 0,
     "fontes": [
       {
