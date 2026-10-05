@@ -1,73 +1,145 @@
 {
-  "geradoEm": "2026-10-05T04:48:12.022Z",
+  "geradoEm": "2026-10-05T05:48:28.680Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 0,
-    "bloqueadasEditoriais": 0,
+    "bloqueadasEditoriais": 1,
     "semImagem": 0,
-    "duplicadasBasicas": 3,
-    "duplicadasSemanticas": 3,
-    "foraCategorias": 48
+    "duplicadasBasicas": 5,
+    "duplicadasSemanticas": 1,
+    "foraCategorias": 41
   },
-  "quantidadeCandidatas": 26,
+  "quantidadeCandidatas": 32,
   "candidatas": [
     {
-      "id": "221471d7cb8be178",
-      "titulo": "Flávio diz que resultado das eleições decreta “fim da era do PT”",
-      "categoria": "Política ES",
+      "id": "ee9d0f654312972a",
+      "titulo": "Veja os estados onde Flávio Bolsonaro e Lula abriram as maiores vantagens",
+      "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Poder360",
-      "urlFonte": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-diz-que-resultado-das-eleicoes-decreta-fim-da-era-do-pt/",
-      "dataFonte": "2026-10-05T03:30:01.000Z",
-      "resumoFonte": "Candidato do PL afirma que brasileiros votaram pela mudança e diz que vitória no 1º turno ficou “por muito pouco”. Leia no Poder360.",
-      "imagem": "https://static.poder360.com.br/uploads/2026/10/IMG_6038-1200x675.jpg",
-      "descobertaEm": "2026-10-05T04:18:08.736Z",
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/veja-os-estados-onde-flavio-bolsonaro-e-lula-abriram-as-maiores-vantagens.ghtml",
+      "dataFonte": "2026-10-05T05:06:05.000Z",
+      "resumoFonte": "Flavio Bolsonaro (PL) e Lula (PT) vão ao segundo turno, e eleição presidencial será decidida dia 25 de outubro Os candidatos Flávio Bolsonaro (PL) e Luiz Inácio Lula da Silva (PT) vão disputar o segundo turno das eleições presidenciais. Com 99,99% das urnas apuradas, Flávio tinha 56,1 milhões de votos (47,03%), e Lula, 53,8 milhões de votos…",
+      "imagem": "https://s2-g1.glbimg.com/U9FaHapxu88xSkJBvOEFCY0nSUA=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/Z/0nZ0s3TVmydSHAgN4KHw/flavio-lula-1-.jpg",
+      "descobertaEm": "2026-10-05T05:17:52.257Z"
+    },
+    {
+      "id": "1770d6954aadeac1",
+      "titulo": "Editor de moda Bruno Uchôa debate futuro e desafios do mercado fashion",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Metrópoles - Política",
+      "urlFonte": "https://www.metropoles.com/colunas/ilca-maria-estevao/editor-de-moda-bruno-uchoa-debate-futuro-e-desafios-do-mercado-fashion",
+      "dataFonte": "2026-10-05T05:00:00.000Z",
+      "resumoFonte": "Bruno Uchôa é editor de moda da Haper´s Bazaar Brasil há 3 anos e conversou com a coluna Ilca Maria Estevão durante o Metrópoles Catwalk",
+      "imagem": "https://i.metroimg.com/-AhUIqgPgK-bbnXNWsg0VKGyMvejIi-bOD5scOZ5aTU/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/capas-6.jpg",
+      "descobertaEm": "2026-10-05T05:17:52.257Z"
+    },
+    {
+      "id": "d2c7958203d12797",
+      "titulo": "SIBO: gastroenterologista alerta para condição intestinal de Selena Gomez",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/colunas/claudia-meireles/sibo-gastroenterologista-alerta-para-condicao-intestinal-de-selena-gomez",
+      "dataFonte": "2026-10-05T05:00:54.000Z",
+      "resumoFonte": "Conhecida como SIBO, a condição intestinal da cantora Selena Gomez pode ocasionar em distensão abdominal, com sensação de ganho de peso",
+      "imagem": "https://i.metroimg.com/QtVl9m2Vznkm9IN1ZWeFlGnev-LMxLMCpmLB977-sQw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/selena-gomez.jpg",
+      "descobertaEm": "2026-10-05T05:17:52.257Z"
+    },
+    {
+      "id": "916923672d8220f5",
+      "titulo": "Brasileirão volta após a Data Fifa com briga pelo posto de melhor garçom",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/brasileirao-volta-apos-a-data-fifa-com-briga-pelo-posto-de-melhor-garcom",
+      "dataFonte": "2026-10-05T05:00:59.000Z",
+      "resumoFonte": "Brasileirão ficou paralisado durante a Super Data Fifa de 2026, com exceção de dois jogos atrasados da 21ª rodada",
+      "imagem": "https://i.metroimg.com/hJpoY1u1RhBSj8BNMIAfsR-drTeQrjWMoR1NMH-IogQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/campeonato-brasileiro-brasileirao-andreas-pereira-josue-lideranca-de-assistencias.jpg",
+      "descobertaEm": "2026-10-05T05:17:52.257Z"
+    },
+    {
+      "id": "d4ffb41a99ec55c8",
+      "titulo": "Nem o próprio voto: 7 candidatos terminam a eleição sem nenhum voto",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/candidatos-sem-votos-eleicoes-2026.ghtml",
+      "dataFonte": "2026-10-05T05:03:21.000Z",
+      "resumoFonte": "Sete candidatos a deputado estadual aparecem com zero voto computado nos resultados do TSE no 1º turno das eleições de 2026. Arte/g1 Sete candidatos a deputado estadual aparecem com zero voto computado nos resultados do primeiro turno das eleições de 2026, segundo os dados do Tribunal Superior Eleitoral (TSE) consultados pelo g1. Eles disputaram…",
+      "imagem": "https://s2-g1.glbimg.com/eUFQU2Pk4J3dY2Cv7LLsAgy8iFA=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/d/X/B9xlYMSo2AAn359S7pHw/thumb-fotos-9-.jpg",
+      "descobertaEm": "2026-10-05T05:17:52.257Z"
+    },
+    {
+      "id": "759ca8b0660a6876",
+      "titulo": "Flávio Bolsonaro supera 50% dos votos válidos no DF e em 13 estados, e Lula, em 9",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/1-turno-flavio-bolsonaro-lula-estados-maioria.ghtml",
+      "dataFonte": "2026-10-05T05:00:51.000Z",
+      "resumoFonte": "Flavio Bolsonaro (PL) e Lula (PT) vão ao segundo turno, e eleição presidencial será decidida dia 25 de outubro Os candidatos Flávio Bolsonaro (PL) e Luiz Inácio Lula da Silva (PT) vão disputar o segundo turno das eleições presidenciais. Com 99,99% das urnas apuradas, Flávio tinha 56,1 milhões de votos (47,03%), e Lula, 53,8 milhões de votos…",
+      "imagem": "https://s2-g1.glbimg.com/WgGl8T1TFQQhxuiVaThKEbonoWg=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/3/8XYHQzQsiPYFNlAQax5A/flavio-lula-2.jpg",
+      "descobertaEm": "2026-10-05T05:17:52.257Z"
+    },
+    {
+      "id": "9a6b90258097c72a",
+      "titulo": "As cidades de São Paulo onde Flávio Bolsonaro venceu e onde Lula ficou na frente",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/10/05/as-cidades-de-sao-paulo-onde-flavio-bolsonaro-venceu-e-onde-lula-ficou-na-frente.ghtml",
+      "dataFonte": "2026-10-05T04:55:54.000Z",
+      "resumoFonte": "Flávio Bolsonaro e Lula Evaristo Sá/AFP e Amanda Perobelli/Reuters Flávio Bolsonaro (PL) venceu em 605 cidades de São Paulo no primeiro turno da eleição presidencial de 2026, enquanto Lula (PT) ficou na frente em 39 municípios, segundo o levantamento de apuração com 100% das urnas. A capital paulista foi uma das cidades em que o presidente venceu.…",
+      "imagem": "https://s2-g1.glbimg.com/U9FaHapxu88xSkJBvOEFCY0nSUA=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/Z/0nZ0s3TVmydSHAgN4KHw/flavio-lula-1-.jpg",
+      "descobertaEm": "2026-10-05T05:17:52.257Z",
       "reportagem": {
-        "titulo": "Flávio diz que resultado das eleições decreta “fim da era do PT”",
-        "slug": "flavio-diz-que-resultado-das-eleicoes-decreta-fim-da-era-do-pt",
-        "categoria": "Política ES",
+        "titulo": "As cidades de São Paulo onde Flávio Bolsonaro venceu e onde Lula ficou na frente | G1",
+        "slug": "as-cidades-de-sao-paulo-onde-flavio-bolsonaro-venceu-e-onde-lula-ficou-na-frente-g1",
+        "categoria": "Política Nacional",
         "data": "2026-10-05",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/flavio-diz-que-resultado-das-eleicoes-decreta-fim-da-era-do-pt.jpg",
-        "resumo": "Candidato do PL afirma que brasileiros votaram pela mudança e diz que vitória no 1º turno ficou “por muito pouco”. Leia no Poder360.",
-        "conteudo": "<p>Candidato do PL à Presidência afirma que brasileiros votaram pela mudança e diz que vitória no 1º turno ficou “por muito pouco”</p><h2>Senador e candidato à Presidência Flávio Bolsonaro (PL) afirmou</h2><p>O senador e candidato à Presidência Flávio Bolsonaro (PL) afirmou neste domingo (4.out.2026) que o resultado do 1º turno decreta o “fim da era do PT” .</p><p>Em discurso após a apuração das urnas, o senador disse estar “muito feliz” com os 56 milhões de votos recebidos e afirmou que os eleitores deram um “voto de confiança” pela mudança no país.</p><p>Filho mais velho do ex-presidente Jair Bolsonaro (PL), Flávio vai disputar com o presidente Luiz Inácio Lula da Silva (PT) o 2º turno da eleição presidencial em 25 de outubro de 2026. Com 99,99% das urnas apuradas, Flávio registrava 47,03% dos votos válidos e Lula, 45,16%.</p><h2>No QG da campanha, o senador afirmou a jornalistas</h2><p>No QG da campanha, o senador afirmou a jornalistas que, embora pesquisas eleitorais o colocassem atrás do presidente Lula, os levantamentos internos da campanha apontavam sua vantagem.</p><p>Segundo ele, havia uma “chance real” de vitória no 1º turno, que não se confirmou “por muito pouco” .</p><p>Flávio afirmou que pretende manter uma “campanha limpa” nas 3 semanas até o 2º turno. Prometeu um governo com menos ministérios e disse que, se for eleito, “vai resgatar a democracia” .</p><p>Ao citar Lula, Flávio disse que o presidente “ está preocupado com o poder” e que, para tentar vencer as eleições, o petista gastou mais de R$ 350 bilhões –em referência ao pacote de bondades na reta final da campanha.</p><p>“Ele já disputou 7 eleições presidenciais. Sete eleições presidenciais. Ele está preocupado com o poder. Eu estou preocupado com o futuro do Brasil, eu estou disputando o Brasil” , afirmou.</p><p>O candidato do PL voltou a defender o fim da reeleição e disse que pretende governar por apenas 1 mandato.</p><p>“Eu sou o único candidato que assumiu o compromisso pelo fim da reeleição. Porque eu só preciso de 1 mandato pra colocar o brasileiro e a brasileira no centro do meu governo, pra que eu possa atacar e resolver os problemas reais do Brasil” , declarou.</p><p>Flávio criticou o governo federal e afirmou que a gestão petista deixa como legado recordes de violência contra mulheres , endividamento, impostos elevados, “desesperança” e fechamento de empresas.</p><p>Ele também voltou a criticar o Supremo Tribunal Federal. Disse que, caso seja eleito, pretende indicar ao menos 4 ministros para a Corte e que os escolhidos não deverão “tentar interferir em eleições” .</p><p>Flávio diz que resultado das eleições decreta “fim da era do PT” Candidato do PL à Presidência afirma que brasileiros votaram pela mudança e diz que vitória no 1º turno ficou “por muito pouco” --> copiar link --></p>",
-        "fonteNome": "Poder360",
-        "fonteUrl": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-diz-que-resultado-das-eleicoes-decreta-fim-da-era-do-pt/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/as-cidades-de-sao-paulo-onde-flavio-bolsonaro-venceu-e-onde-lula-ficou-na-frente-g1.jpg",
+        "resumo": "Candidato do PL foi o mais votado na maioria dos municípios paulistas; petista ganhou em 39 cidades, incluindo a capital, segundo levantamento com 100% das urnas.",
+        "conteudo": "<p>Flávio Bolsonaro e Lula — Foto: Evaristo Sá/AFP e Amanda Perobelli/Reuters</p><h2>Flávio Bolsonaro (PL) venceu em 605 cidades</h2><p>Flávio Bolsonaro (PL) venceu em 605 cidades de São Paulo no primeiro turno da eleição presidencial de 2026, enquanto Lula (PT) ficou na frente em 39 municípios, segundo o levantamento de apuração com 100% das urnas.</p><p>A capital paulista foi uma das cidades em que o presidente venceu.</p><p>O resultado mostra uma vantagem de Flávio no interior e em grande parte da região metropolitana. Lula, por sua vez, concentrou suas vitórias principalmente em municípios da Grande São Paulo e em algumas cidades do interior e do Vale do Ribeira.</p><h2>Américo Brasiliense Areias Bananal Caiuá Carapicuíba Castilho Coronel Macedo</h2><p>Américo Brasiliense Areias Bananal Caiuá Carapicuíba Castilho Coronel Macedo Cubatão Diadema Dolcinópolis Embu das Artes Euclides da Cunha Paulista Ferraz de Vasconcelos Francisco Morato Franco da Rocha Gastão Vidigal Gavião Peixoto Guapiara Iporanga Itaoca Itapecerica da Serra Itapevi Itapura Itaquaquecetuba Marabá Paulista Mauá Mirante do Paranapanema Populina Ribeira Rio Grande da Serra Rosana Sandovalina Santa Lúcia São Bernardo do Campo São José do Barreiro São João de Iracema Taboão da Serra Teodoro Sampaio</p><p>Flávio ficou na frente nas demais cidades listadas no levantamento, incluindo grandes municípios como Campinas, Guarulhos, Osasco, Santos, São José dos Campos, Sorocaba, Ribeirão Preto, São José do Rio Preto, Bauru, Piracicaba, Jundiaí, Mogi das Cruzes e Santo André.</p><p>Entre as cidades em que o candidato do PL venceu também estão municípios do litoral, como Santos, Guarujá, Praia Grande, São Vicente, Caraguatatuba, Ubatuba e Ilhabela, além de cidades do interior e da região metropolitana.</p><p>Na cidade de São Paulo, Lula venceu Flávio Bolsonaro por uma diferença de pouco mais de quatro pontos percentuais: 46,58% a 42,13%. Foram cerca de 3 milhões de votos para o presidente e 2,7 milhões para o candidato do PL.</p><p>O resultado também se refletiu nas zonas eleitorais: Lula venceu em 35 zonas, enquanto Flávio ficou na frente em 22.</p><p>A cidade onde Flávio Bolsonaro alcançou seu maior percentual foi Saltinho, com 78,71% dos votos. Lula teve seu melhor desempenho proporcional em Itapura, com 62,57%.</p>",
+        "fonteNome": "g1 - Política",
+        "fonteUrl": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/10/05/as-cidades-de-sao-paulo-onde-flavio-bolsonaro-venceu-e-onde-lula-ficou-na-frente.ghtml",
         "fontesAdicionais": [
           {
-            "nome": "Assembleia Legislativa do ES",
-            "url": "https://www.al.es.gov.br/"
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
           },
           {
-            "nome": "Governo do Estado do ES",
-            "url": "https://www.es.gov.br/"
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Candidato do PL à Presidência afirma que brasileiros votaram pela mudança e diz que vitória no 1º turno ficou “por muito pouco”"
+            "resposta": "Flávio Bolsonaro e Lula — Foto: Evaristo Sá/AFP e Amanda Perobelli/Reuters"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O senador e candidato à Presidência Flávio Bolsonaro (PL) afirmou neste domingo (4.out.2026) que o resultado do 1º turno decreta o “fim da era do PT” . Em discurso após a apuração das urnas, o senador disse estar “muito feliz” com os 56 milhões de votos recebidos e afirmou que os eleitores deram um “voto de confiança” pela mudança no país."
+            "resposta": "Flávio Bolsonaro (PL) venceu em 605 cidades de São Paulo no primeiro turno da eleição presidencial de 2026, enquanto Lula (PT) ficou na frente em 39 municípios, segundo o levantamento de apuração com 100% das urnas. A capital paulista foi uma das cidades em que o presidente venceu."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Filho mais velho do ex-presidente Jair Bolsonaro (PL), Flávio vai disputar com o presidente Luiz Inácio Lula da Silva (PT) o 2º turno da eleição presidencial em 25 de outubro de 2026. Com 99,99% das urnas apuradas, Flávio registrava 47,03% dos votos válidos e Lula, 45,16%."
+            "resposta": "O resultado mostra uma vantagem de Flávio no interior e em grande parte da região metropolitana. Lula, por sua vez, concentrou suas vitórias principalmente em municípios da Grande São Paulo e em algumas cidades do interior e do Vale do Ribeira."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "No QG da campanha, o senador afirmou a jornalistas que, embora pesquisas eleitorais o colocassem atrás do presidente Lula, os levantamentos internos da campanha apontavam sua vantagem. Segundo ele, havia uma “chance real” de vitória no 1º turno, que não se confirmou “por muito pouco” ."
+            "resposta": "Américo Brasiliense Areias Bananal Caiuá Carapicuíba Castilho Coronel Macedo Cubatão Diadema Dolcinópolis Embu das Artes Euclides da Cunha Paulista Ferraz de Vasconcelos Francisco Morato Franco da Rocha Gastão Vidigal Gavião Peixoto Guapiara Iporanga Itaoca Itapecerica da Serra Itapevi Itapura Itaquaquecetuba Marabá Paulista Mauá Mirante do Paranapanema Popu"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Flávio afirmou que pretende manter uma “campanha limpa” nas 3 semanas até o 2º turno. Prometeu um governo com menos ministérios e disse que, se for eleito, “vai resgatar a democracia” ."
+            "resposta": "Flávio ficou na frente nas demais cidades listadas no levantamento, incluindo grandes municípios como Campinas, Guarulhos, Osasco, Santos, São José dos Campos, Sorocaba, Ribeirão Preto, São José do Rio Preto, Bauru, Piracicaba, Jundiaí, Mogi das Cruzes e Santo André."
           }
         ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/IMG_6038-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/flavio-diz-que-resultado-das-eleicoes-decreta-fim-da-era-do-pt.jpg",
+        "imagemOriginal": "https://s2-g1.glbimg.com/U9FaHapxu88xSkJBvOEFCY0nSUA=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/Z/0nZ0s3TVmydSHAgN4KHw/flavio-lula-1-.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/as-cidades-de-sao-paulo-onde-flavio-bolsonaro-venceu-e-onde-lula-ficou-na-frente-g1.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -82,78 +154,6 @@
       "dataFonte": "2026-10-05T03:50:18.000Z",
       "resumoFonte": "Flavio Bolsonaro (PL) e Lula (PT) vão ao segundo turno, e eleição presidencial será decidida dia 25 de outubro Os candidatos Flávio Bolsonaro (PL) e Lula (PT) vão disputar o segundo turno das eleições presidenciais, em 25 de outubro. Com 99,99% das urnas apuradas, Flávio Bolsonaro obteve 56,1 milhões de votos (47,03%), e Lula, 53,9 milhões de votos…",
       "imagem": "https://s2-g1.glbimg.com/U9FaHapxu88xSkJBvOEFCY0nSUA=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/Z/0nZ0s3TVmydSHAgN4KHw/flavio-lula-1-.jpg",
-      "descobertaEm": "2026-10-05T04:18:08.736Z"
-    },
-    {
-      "id": "b61dcfb54689e426",
-      "titulo": "Urnas refletem insatisfação com a economia do país, analisa especialista",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/economia/urnas-refletem-insatisfacao-com-a-economia-do-pais-analisa-especialista/",
-      "dataFonte": "2026-10-05T03:46:00.000Z",
-      "resumoFonte": "Antonio Lavareda afirma, durante o CNN Eleições, que governo não conseguiu mudar percepção dos brasileiros e que eleição é marcada pelo tema da mudança",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/11/real_moeda_05.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-05T04:18:08.736Z",
-      "reportagem": {
-        "titulo": "Urnas refletem insatisfação com a economia do país, analisa especialista",
-        "slug": "urnas-refletem-insatisfacao-com-a-economia-do-pais-analisa-especialista",
-        "categoria": "Economia",
-        "data": "2026-10-05",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/urnas-refletem-insatisfacao-com-a-economia-do-pais-analisa-especialista.jpg",
-        "resumo": "Antonio Lavareda afirma, durante o CNN Eleições, que governo não conseguiu mudar percepção dos brasileiros e que eleição é marcada pelo tema da mudança",
-        "conteudo": "<p>O resultado do primeiro turno das eleições, com Flávio Bolsonaro (PL) à frente, foi classificado como inesperado por Luiz Inácio Lula da Silva (PT).</p><h2>Para o sociólogo e cientista político Antonio Lavareda ,</h2><p>Para o sociólogo e cientista político Antonio Lavareda , durante o CNN Eleições , a reação de Lula ao resultado revela a dificuldade do PT em compreender o que estava ocorrendo no país ao longo da campanha.</p><p>Lavareda avaliou que, durante os últimos três anos, o governo &quot;patinou no esforço de mudar a percepção dos brasileiros sobre a condução da economia do país&quot;.</p><p>Segundo ele, o que se viu nas urnas foi a expressão direta da insatisfação do eleitorado com o encaminhamento econômico.</p><h2>&quot;A economia, o que nós estamos assistindo hoje, é</h2><p>&quot;A economia, o que nós estamos assistindo hoje, é a expressão nas urnas da insatisfação com a dimensão econômica&quot;, afirmou.</p><p>O analista traçou um paralelo com o cenário internacional, destacando que a questão econômica tem sido determinante em eleições ao redor do mundo.</p><p>Para Lavareda, o governo não foi capaz de reverter o déficit de aprovação acumulado ao longo do mandato. O índice acompanhado pela CNN Brasil encerrou a semana anterior ao pleito em menos quatro pontos.</p><p>Lavareda destacou que Flávio Bolsonaro apostou fortemente na narrativa de mudança ao longo de toda a campanha.</p><p>Diante disso, Lula enfrenta agora o desafio de demonstrar que o incumbente pode representar mais mudança do que o desafiante — algo que, segundo o analista, a ex-presidente Dilma Rousseff conseguiu fazer de forma exitosa em 2014, mas que se mostra bastante difícil a partir dos dados atuais.</p><p>A análise também ressaltou que Lula não conseguiu, ao longo de 2026, melhorar sua aprovação a ponto de reduzir a diferença em relação à desaprovação, que permaneceu elevada durante todo o ano.</p><p>Urnas refletem insatisfação com a economia, diz especialista | CNN ELEIÇÕES</p><p>O resultado do primeiro turno das eleições, com Flávio Bolsonaro (PL) à frente, foi classificado como inesperado por Luiz Inácio Lula da Silva (PT).</p><p>Para o sociólogo e cientista político Antonio Lavareda , durante o CNN Eleições , a reação de Lula ao resultado revela a dificuldade do PT em compreender o que estava ocorrendo no país ao longo da campanha.</p><p>Dificuldade de mudar a percepção econômica Lavareda avaliou que, durante os últimos três anos, o governo &quot;patinou no esforço de mudar a percepção dos brasileiros sobre a condução da economia do país&quot;.</p><p>Segundo ele, o que se viu nas urnas foi a expressão direta da insatisfação do eleitorado com o encaminhamento econômico.</p><p>&quot;A economia, o que nós estamos assistindo hoje, é a expressão nas urnas da insatisfação com a dimensão econômica&quot;, afirmou. Leia Mais</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/economia/urnas-refletem-insatisfacao-com-a-economia-do-pais-analisa-especialista/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O resultado do primeiro turno das eleições, com Flávio Bolsonaro (PL) à frente, foi classificado como inesperado por Luiz Inácio Lula da Silva (PT)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Para o sociólogo e cientista político Antonio Lavareda , durante o CNN Eleições , a reação de Lula ao resultado revela a dificuldade do PT em compreender o que estava ocorrendo no país ao longo da campanha."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Lavareda avaliou que, durante os últimos três anos, o governo &quot;patinou no esforço de mudar a percepção dos brasileiros sobre a condução da economia do país&quot;. Segundo ele, o que se viu nas urnas foi a expressão direta da insatisfação do eleitorado com o encaminhamento econômico."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "&quot;A economia, o que nós estamos assistindo hoje, é a expressão nas urnas da insatisfação com a dimensão econômica&quot;, afirmou."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O analista traçou um paralelo com o cenário internacional, destacando que a questão econômica tem sido determinante em eleições ao redor do mundo."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/11/real_moeda_05.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/urnas-refletem-insatisfacao-com-a-economia-do-pais-analisa-especialista.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "3fa362c2a1cc1228",
-      "titulo": "5 candidatos negros são eleitos governadores no 1º turno; veja lista",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/5-candidatos-negros-sao-eleitos-governadores-no-1o-turno-veja-lista.ghtml",
-      "dataFonte": "2026-10-05T03:44:23.000Z",
-      "resumoFonte": "Elmano de Freitas, governador do Ceará, e JHC, governador de Alagoas Thiago Gadelha/SVM e Lucas Leite/g1 O resultado do 1º turno das eleições de 2026 confirmou a vitória de cinco governadores que se declararam negros no Tribunal Superior Eleitoral (TSE). Em 2022, nove chefes de Executivo estadual que se declaravam negros foram eleitos no 1º turno.…",
-      "imagem": "https://s2-g1.glbimg.com/rjyimR5UIWQVKp5fh8OO_STti8w=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/B/u548RQT6AfihbonecsCg/fotos-g1-1920-x-1080-px-2026-10-05t003502.258.png",
       "descobertaEm": "2026-10-05T04:18:08.736Z"
     },
     {
@@ -229,78 +229,6 @@
       }
     },
     {
-      "id": "c802c6bf1dc3e971",
-      "titulo": "Derrotado em eleição na Bahia, ACM Neto diz que União Brasil vai discutir eventual apoio a Flávio",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://aovivo.folha.uol.com.br/poder/2026/10/03/6564-eleicoes-2026-flavio-bolsonaro-e-lula-vao-disputar-o-segundo-turno.shtml#post467426",
-      "dataFonte": "2026-10-05T02:56:00.000Z",
-      "resumoFonte": "O ex-prefeito de Salvador, ACM Neto (União Brasil), disse neste domingo (4) que conversará com a Executiva nacional do seu partido para definir um eventual apoio ao presidenciável Flávio Bolsonaro (PL-RJ) no segundo turno das eleições contra o presidente Lula (PT). Leia mais (10/04/2026 - 23h56)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/04/17911180206ac24ac4e4d18_1791118020_3x2_md.jpg",
-      "descobertaEm": "2026-10-05T03:17:58.496Z"
-    },
-    {
-      "id": "cf5de8190d5c5c45",
-      "titulo": "Quando será o segundo turno das eleições? Veja a data",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Agência Brasil - Política",
-      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/quando-sera-o-segundo-turno-das-eleicoes-veja-data",
-      "dataFonte": "2026-10-05T02:25:00.000Z",
-      "resumoFonte": "Os candidatos Flávio Bolsonaro (PL) e Luiz Inácio Lula da Silva (PT) irão disputar o segundo turno da eleição para presidente da República. Com isso, os eleitores voltam às urnas para o segundo turno no dia 25 de outubro de 2026 (domingo). Flávio terminou a apuração em primeiro lugar, com 47,03% dos votos válidos, o equivalente a 56.103.033 votos.…",
-      "imagem": "https://imagens.ebc.com.br/gfD8Bxrq1Mg8kdXdQhckzaJ4dUo=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/04/0d4a2062.jpg?itok=SXhxG8l6",
-      "descobertaEm": "2026-10-05T03:17:58.496Z",
-      "reportagem": {
-        "titulo": "Quando será o segundo turno das eleições? Veja a data",
-        "slug": "quando-sera-o-segundo-turno-das-eleicoes-veja-a-data",
-        "categoria": "Política Nacional",
-        "data": "2026-10-04",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/quando-sera-o-segundo-turno-das-eleicoes-veja-a-data.jpg",
-        "resumo": "Além de presidente, 6 estados e o DF irão decidir governador no dia 25 de outubro de 2026.",
-        "conteudo": "<p>Os candidatos Flávio Bolsonaro (PL) e Luiz Inácio Lula da Silva (PT) irão disputar o segundo turno da eleição para presidente da República. Com isso, os eleitores voltam às urnas para o segundo turno no dia 25 de outubro de 2026 (domingo).</p><h2>Flávio terminou a apuração em primeiro lugar, com 47,03%</h2><p>Flávio terminou a apuração em primeiro lugar, com 47,03% dos votos válidos, o equivalente a 56.103.033 votos. Lula ficou em segundo, com 45,16%, ou 53.870.724 votos.</p><p>A eleição presidencial é decidida em segundo turno quando nenhum candidato obtém mais da metade dos votos válidos no primeiro turno.</p><p>Em seis estados e no DF, a eleição para governador foi para o segundo turno, e também será decidida no dia 25 de outubro.</p><h2>Amazonas Omar Aziz (PSD) e Professora Maria do Carmo</h2><p>Amazonas Omar Aziz (PSD) e Professora Maria do Carmo (PL)</p><p>Distrito Federal Celina Leão (PP) e Leandro Grass (PT)</p><p>Espírito Santo Lorenzo Pazolini (Republicanos) e Ricardo Ferraço (MDB) vão disputar o segundo turno no Espírito Santo. Pazolini obteve 49,65% dos votos válidos e Ferraço ficou com 34,06%.</p><p>Rio de Janeiro Douglas Ruas (PL) e Eduardo Paes (PSD)</p><p>Rio Grande do Norte Allyson (União) e Cadu de Lula (PT)</p><p>Tocantins Professora Dorinha (União) e Vicentinho Júnior (PSDB)</p><p>Política Quando será o segundo turno das eleições? Veja a data dom, 04/10/2026 - 23:25</p><p>Justiça TSE vai trabalhar para diminuir a abstenção no segundo turno dom, 04/10/2026 - 23:06</p><p>Justiça Kassio diz que não há alerta de interferência nas eleições brasileiras dom, 04/10/2026 - 22:57</p><p>Política Reeleito em SP, Tarcísio promete mais entregas para o próximo mandato dom, 04/10/2026 - 22:31</p><p>Política Veja os 20 estados onde o governador foi eleito no 1º turno dom, 04/10/2026 - 22:28</p><p>Política Ceará reelege Elmano governador no primeiro turno dom, 04/10/2026 - 22:24</p>",
-        "fonteNome": "Agência Brasil - Política",
-        "fonteUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/quando-sera-o-segundo-turno-das-eleicoes-veja-data",
-        "fontesAdicionais": [
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          },
-          {
-            "nome": "Câmara dos Deputados",
-            "url": "https://www.camara.leg.br/noticias/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Os candidatos Flávio Bolsonaro (PL) e Luiz Inácio Lula da Silva (PT) irão disputar o segundo turno da eleição para presidente da República. Com isso, os eleitores voltam às urnas para o segundo turno no dia 25 de outubro de 2026 (domingo)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Flávio terminou a apuração em primeiro lugar, com 47,03% dos votos válidos, o equivalente a 56.103.033 votos. Lula ficou em segundo, com 45,16%, ou 53.870.724 votos."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A eleição presidencial é decidida em segundo turno quando nenhum candidato obtém mais da metade dos votos válidos no primeiro turno."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Em seis estados e no DF, a eleição para governador foi para o segundo turno, e também será decidida no dia 25 de outubro."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Amazonas Omar Aziz (PSD) e Professora Maria do Carmo (PL)"
-          }
-        ],
-        "imagemOriginal": "https://imagens.ebc.com.br/gfD8Bxrq1Mg8kdXdQhckzaJ4dUo=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/04/0d4a2062.jpg?itok=SXhxG8l6",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/quando-sera-o-segundo-turno-das-eleicoes-veja-a-data.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
       "id": "9ea42b98f66b3281",
       "titulo": "Dirceu, Delúbio, André Vargas e Rui Falcão: os derrotados do PT na Câmara",
       "categoria": "Política Nacional",
@@ -361,26 +289,26 @@
       }
     },
     {
-      "id": "3f78c66c636a41ee",
-      "titulo": "Sergipe elege Rogério Carvalho (PT) e Delegado Alessandro (MDB) para o Senado",
+      "id": "c0c03a8961fa3c0d",
+      "titulo": "Família Bolsonaro elege 4 congressistas e Flávio vai ao 2º turno",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/sergipe-elege-rogerio-carvalho-pt-e-delegado-alessandro-mdb-para-o-senado/",
-      "dataFonte": "2026-10-05T02:52:32.000Z",
-      "resumoFonte": "Rogério Carvalho (PT) e Delegado Alessandro (MDB) foram reeleitos para o Senado por Sergipe nas eleições deste domingo (4). Rogério recebeu 511.142 votos, o equivalente a 21,91% dos votos válidos. Delegado Alessandro obteve 399.775 votos (17,13%). Delegado André David (Republicanos) ficou em terceiro, com 378.710 votos (16,23%), e André Moura…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/sergipe_senado-860x568.jpeg.webp",
-      "descobertaEm": "2026-10-05T03:17:58.496Z",
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-eleicoes-2026/familia-bolsonaro-elege-4-congressistas-e-flavio-vai-ao-2o-turno/",
+      "dataFonte": "2026-10-05T05:18:41.000Z",
+      "resumoFonte": "Michelle e Carlos conquistaram vagas no Senado; Jair Renan e Renato foram eleitos deputados federais",
+      "imagem": "https://static.poder360.com.br/uploads/2026/10/familiares-bolsonaro-eleitos-3-out-2026-02-1200x675.png",
+      "descobertaEm": "2026-10-05T05:17:52.257Z",
       "reportagem": {
-        "titulo": "Sergipe elege Rogério Carvalho (PT) e Delegado Alessandro (MDB) para o Senado",
-        "slug": "sergipe-elege-rogerio-carvalho-pt-e-delegado-alessandro-mdb-para-o-senado",
+        "titulo": "Família Bolsonaro elege 4 congressistas e Flávio vai ao 2º turno",
+        "slug": "familia-bolsonaro-elege-4-congressistas-e-flavio-vai-ao-2-turno",
         "categoria": "Política Nacional",
-        "data": "2026-10-04",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/sergipe-elege-rogerio-carvalho-pt-e-delegado-alessandro-mdb-para-o-senado.jpg",
-        "resumo": "Sergipe: ambos candidatos conseguiram a reeleição em cenário de disputa acirrada",
-        "conteudo": "<p>Rogério Carvalho (PT) e Delegado Alessandro (MDB) foram reeleitos para o Senado por Sergipe nas eleições deste domingo, 4. Rogério recebeu 511.142 votos (21,91% dos válidos) e Alessandro obteve 399.775 votos (17,13%).</p><h2>André David (Republicanos) e André Moura (União) ficaram</h2><p>André David (Republicanos) e André Moura (União) ficaram em terceiro e quarto lugares, respectivamente.</p><p>Rogério, médico de 58 anos, e Alessandro, delegado de 51 anos, assumirão seus novos mandatos em 1º de fevereiro de 2027, com duração até 31 de janeiro de 2035.</p><p>Rogério Carvalho (PT) e Delegado Alessandro (MDB) foram reeleitos para o Senado por Sergipe nas eleições deste domingo (4). Rogério recebeu 511.142 votos, o equivalente a 21,91% dos votos válidos. Delegado Alessandro obteve 399.775 votos (17,13%).</p><h2>Delegado André David (Republicanos) ficou em terceiro, com 378</h2><p>Delegado André David (Republicanos) ficou em terceiro, com 378.710 votos (16,23%), e André Moura (União) terminou em quarto, com 377.669 (16,19%).</p><p>Rogério Carvalho, de 58 anos, é médico formado pela Universidade Federal de Sergipe (UFS). Natural de Aracaju, iniciou a carreira política como deputado estadual e posteriormente foi deputado federal.</p><p>Em 2018, foi eleito pela primeira vez para o Senado. No atual mandato, foi relator da PEC 18/2025, que trata do financiamento da segurança pública.</p><p>Delegado Alessandro Vieira, de 51 anos, nasceu em Passo Fundo (RS) e é delegado de polícia, carreira que exerceu por mais de duas décadas.</p><p>Foi eleito senador pela primeira vez em 2018 e agora garantiu mais oito anos de mandato. No Senado, foi relator da CPI do Crime Organizado e da proposta de auxílio emergencial durante a pandemia de covid-19.</p><p>Os dois parlamentares tomarão posse para o novo mandato em 1º de fevereiro de 2027. A nova legislatura terá duração de oito anos, até 31 de janeiro de 2035.</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/sergipe-elege-rogerio-carvalho-pt-e-delegado-alessandro-mdb-para-o-senado/",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/familia-bolsonaro-elege-4-congressistas-e-flavio-vai-ao-2-turno.jpg",
+        "resumo": "Michelle e Carlos conquistaram vagas no Senado; Jair Renan e Renato foram eleitos deputados federais. Leia no Poder360.",
+        "conteudo": "<p>Michelle e Carlos conquistaram vagas no Senado; Jair Renan e Renato foram eleitos deputados federais</p><h2>Quatro dos 8 familiares do ex-presidente Jair Bolsonaro (PL)</h2><p>Quatro dos 8 familiares do ex-presidente Jair Bolsonaro (PL) que disputaram as eleições deste domingo (4.out.2026) foram eleitos: Michelle Bolsonaro, Carlos Bolsonaro, Jair Renan Bolsonaro e Renato Bolsonaro.</p><p>Outro filho do ex-presidente, o senador Flávio Bolsonaro (PL-RJ), avançou ao 2º turno presidencial contra Luiz Inácio Lula da Silva (PT).</p><p>Carlos Bolsonaro (PL) foi eleito senador por Santa Catarina com 25,35% dos votos válidos. Jair Renan Bolsonaro (PL) conquistou uma vaga de deputado federal pelo mesmo Estado, com 131.555 votos.</p><h2>Mulher do ex-presidente, Michelle Bolsonaro (PL), foi eleita senadora</h2><p>A mulher do ex-presidente, Michelle Bolsonaro (PL), foi eleita senadora pelo Distrito Federal com 29,05% dos votos válidos. Renato Bolsonaro (PL), irmão de Jair, recebeu 379.312 votos e foi eleito deputado federal por São Paulo.</p><p>Outros 3 familiares ficaram fora das vagas. Rogéria Bolsonaro (PL), ex-mulher de Jair e mãe de Flávio e Carlos, recebeu 65.496 votos para deputada federal pelo Rio de Janeiro.</p><p>Valéria Bolsonaro e Marcelo Bolsonaro , ambos do PL, disputaram vagas de deputado estadual por São Paulo. Receberam 51.274 e 8.904 votos, respectivamente, e não foram eleitos.</p><p>Outros candidatos usaram “Bolsonaro” no nome de urna em 2026, embora não tenham parentesco com o ex-presidente. Entre eles estão:</p><p>O Poder360 acompanhou a apuração do 1º turno das eleições de 2026 em tempo real. A página reúne os resultados e permite consultar a votação dos candidatos.</p><p>Família Bolsonaro elege 4 congressistas e Flávio vai ao 2º turno Michelle e Carlos conquistaram vagas no Senado; Jair Renan e Renato foram eleitos deputados federais --> copiar link --></p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-eleicoes-2026/familia-bolsonaro-elege-4-congressistas-e-flavio-vai-ao-2o-turno/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -395,27 +323,447 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Rogério Carvalho (PT) e Delegado Alessandro (MDB) foram reeleitos para o Senado por Sergipe nas eleições deste domingo, 4. Rogério recebeu 511.142 votos (21,91% dos válidos) e Alessandro obteve 399.775 votos (17,13%). André David (Republicanos) e André Moura (União) ficaram em terceiro e quarto lugares, respectivamente. Rogério, médico de 58 anos, e Alessand"
+            "resposta": "Michelle e Carlos conquistaram vagas no Senado; Jair Renan e Renato foram eleitos deputados federais"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Rogério Carvalho (PT) e Delegado Alessandro (MDB) foram reeleitos para o Senado por Sergipe nas eleições deste domingo (4). Rogério recebeu 511.142 votos, o equivalente a 21,91% dos votos válidos. Delegado Alessandro obteve 399.775 votos (17,13%)."
+            "resposta": "Quatro dos 8 familiares do ex-presidente Jair Bolsonaro (PL) que disputaram as eleições deste domingo (4.out.2026) foram eleitos: Michelle Bolsonaro, Carlos Bolsonaro, Jair Renan Bolsonaro e Renato Bolsonaro. Outro filho do ex-presidente, o senador Flávio Bolsonaro (PL-RJ), avançou ao 2º turno presidencial contra Luiz Inácio Lula da Silva (PT)."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Delegado André David (Republicanos) ficou em terceiro, com 378.710 votos (16,23%), e André Moura (União) terminou em quarto, com 377.669 (16,19%)."
+            "resposta": "Carlos Bolsonaro (PL) foi eleito senador por Santa Catarina com 25,35% dos votos válidos. Jair Renan Bolsonaro (PL) conquistou uma vaga de deputado federal pelo mesmo Estado, com 131.555 votos."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Rogério Carvalho, de 58 anos, é médico formado pela Universidade Federal de Sergipe (UFS). Natural de Aracaju, iniciou a carreira política como deputado estadual e posteriormente foi deputado federal. Em 2018, foi eleito pela primeira vez para o Senado. No atual mandato, foi relator da PEC 18/2025, que trata do financiamento da segurança pública."
+            "resposta": "A mulher do ex-presidente, Michelle Bolsonaro (PL), foi eleita senadora pelo Distrito Federal com 29,05% dos votos válidos. Renato Bolsonaro (PL), irmão de Jair, recebeu 379.312 votos e foi eleito deputado federal por São Paulo."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Delegado Alessandro Vieira, de 51 anos, nasceu em Passo Fundo (RS) e é delegado de polícia, carreira que exerceu por mais de duas décadas. Foi eleito senador pela primeira vez em 2018 e agora garantiu mais oito anos de mandato. No Senado, foi relator da CPI do Crime Organizado e da proposta de auxílio emergencial durante a pandemia de covid-19."
+            "resposta": "Outros 3 familiares ficaram fora das vagas. Rogéria Bolsonaro (PL), ex-mulher de Jair e mãe de Flávio e Carlos, recebeu 65.496 votos para deputada federal pelo Rio de Janeiro. Valéria Bolsonaro e Marcelo Bolsonaro , ambos do PL, disputaram vagas de deputado estadual por São Paulo. Receberam 51.274 e 8.904 votos, respectivamente, e não foram eleitos."
           }
         ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/sergipe_senado-860x568.jpeg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/sergipe-elege-rogerio-carvalho-pt-e-delegado-alessandro-mdb-para-o-senado.jpg",
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/familiares-bolsonaro-eleitos-3-out-2026-02-1200x675.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/familia-bolsonaro-elege-4-congressistas-e-flavio-vai-ao-2-turno.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "385f8d018216e79f",
+      "titulo": "Direita domina Senado com agenda estridente e terá poder sobre indicações do governo",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/direita-domina-senado-com-agenda-estridente-e-tera-poder-sobre-indicacoes-do-governo.shtml",
+      "dataFonte": "2026-10-05T04:58:00.000Z",
+      "resumoFonte": "A direita dominará o Senado a partir de 2027 e deve impor uma guinada na agenda da Casa Alta do Congresso Nacional , qualquer que seja o presidente da República eleito no segundo turno. O grupo terá força para influenciar as indicações do governo, pressionar o Poder Judiciário e amplificar o peso da pauta de costumes e de uma segurança pública mais…",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/05/17911747176ac3283d4c9de_1791174717_3x2_rt.jpg",
+      "descobertaEm": "2026-10-05T05:17:52.257Z",
+      "reportagem": {
+        "titulo": "Análise: Direita domina Senado com agenda estridente e terá poder sobre indicações do governo",
+        "slug": "analise-direita-domina-senado-com-agenda-estridente-e-tera-poder-sobre-indicacoes-do-gover",
+        "categoria": "Política Nacional",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/analise-direita-domina-senado-com-agenda-estridente-e-tera-poder-sobre-indicacoes-do-gover.jpg",
+        "resumo": "PL reúne a maior bancada, mira comissões centrais da Casa e ofensiva contra o Judiciário",
+        "conteudo": "<p>Contextualiza um acontecimento e aprofunda a compreensão de seus diversos ângulos</p><h2>Reporter da Folha em Brasília, especializado em política e</h2><p>Reporter da Folha em Brasília, especializado em política e economia. Antes, passou pelo Valor Econômico.</p><p>A direita dominará o Senado a partir de 2027 e deve impor uma guinada na agenda da Casa Alta do Congresso Nacional , qualquer que seja o presidente da República eleito no segundo turno.</p><p>O grupo terá força para influenciar as indicações do governo, pressionar o Poder Judiciário e amplificar o peso da pauta de costumes e de uma segurança pública mais linha-dura.</p><h2>Senado possui uma diferença importante em relação à Câmara</h2><p>O Senado possui uma diferença importante em relação à Câmara dos Deputados : as comissões temáticas têm poder terminativo, com os projetos sendo aprovados sem precisarem passar pelo plenário.</p><p>Com 28 senadores, o PL terá força para comandar as comissões mais importantes, como a de Constituição e Justiça e a de Assuntos Econômicos.</p><p>Os eleitos para o Senado também são mais estridentes que a atual ala conservadora.</p><p>A partir de fevereiro, políticos como Marcel Van Hattem (Novo-RS), Carlos Bolsonaro (PL-SC), Gustavo Gayer (PL-GO), Deltan Dallagnol (Novo-PR) e Carlos Jordy (PL-RJ) vão subir à tribuna e passar a fazer parte de CPIs (Comissões Parlamentares de Inquérito).</p><p>Saem outros eleitos pelo campo mais conservador ou com a imagem de outsiders em 2018, mas que se aliaram a Lula ( PT ) e ajudaram o petista a ter governabilidade nos últimos quatro anos, como Soraya Thronicke (PSB-MS), Carlos Fávaro (PSD-MT), Fabiano Contarato (que venceu pela Rede e migrou para o PT) e Alexandre Giordano ( Podemos -SP).</p><p>Se Flávio Bolsonaro (PL) confirmar o favoritismo deste domingo (4) e for eleito no dia 25, terá número suficiente para pressionar o STF (Supremo Tribunal Federal), fazer uma reforma do Judiciário e passar emendas constitucionais.</p><p>Se Lula conseguir uma improvável virada, terá dificuldade até de passar projetos de lei ordinária.</p><p>O PL elegeu 28 senadores e será de longe a maior bancada. Contará ainda com apoio dos seis senadores do Republicanos, três do Novo, dois do Podemos e um PP mais bolsonarista.</p><p>Davi Alcolumbre ( União Brasil -AP) virou alvo na campanha eleitoral e terá muitas dificuldades de se reinventar no cargo e se reeleger, embora ainda possa buscar sobrevida como fiador de Lula num governo do petista.</p><p>O grupo que chega agora ao Senado terá número para barrar ou facilitar a indicação dos diretores do Banco Central, das agências reguladoras, da CVM (Comissão de Valores Mobiliários) e embaixadas, além de influenciar as escolhas para o STF.</p><p>Lula terá que fazer escolhas mais técnicas e negociar ainda mais com o centrão para emplacar seus escolhidos.</p><p>No atual mandato, precisou ceder metade dos cargos para indicação dos senadores, deixou agências acéfalas e sofreu uma histórica derrota para o Supremo, com a rejeição de Jorge Messias para a vaga de Luís Roberto Barroso.</p><p>Se Flávio for eleito, a bancada bolsonarista pode lhe dar o conforto de prescindir de alianças com o centrão para escolher os dirigentes de agências reguladoras, da CVM e do Banco Central.</p><p>São postos aos quais o mercado financeiro e empresários estão atentos, após o escândalo do Banco Master mostrar a cooptação de agentes desses órgãos.</p><p>Também permitirá maior interferência política nas embaixadas. Como mostrou a Folha , ele planeja implementar o modelo do secretário de Estado americano, Marco Rubio, com escolhas de fora da carreira de diplomata para postos em embaixadas, uma reforma no sistema de promoções e dos objetivos da política externa brasileira.</p><p>Cabe ao Senado sabatinar e aprovar os embaixadores do país.</p><p>A maioria de direita também influenciará nas escolhas para o STF. Se o número de eleitos que defendem abertamente o impeachment de ministros ainda não é o necessário para afastá-los, já é mais do que suficiente para uma CPI que investigue o tribunal e para aprovar emendas constitucionais que diminuam os poderes da Suprema Corte, que durante o governo Bolsonaro conteve as forças do ex-presidente.</p><p>Mais de 180 reportagens e análises publicadas a cada dia. Um time com mais de 200 colunistas e blogueiros.</p><p>Um jornalismo profissional que fiscaliza o poder público, veicula notícias proveitosas e inspiradoras, faz contraponto à intolerância das redes sociais e traça uma linha clara entre verdade e mentira.</p><p>A direita dominará o Senado a partir de 2027 e deve impor uma guinada na agenda da Casa Alta do Congresso Nacional , qualquer que seja o presidente da República eleito no segundo turno.</p><p>O grupo terá força para influenciar as indicações do governo, pressionar o Poder Judiciário e amplificar o peso da pauta de costumes e de uma segurança pública mais linha-dura.</p><p>O Senado possui uma diferença importante em relação à Câmara dos Deputados : as comissões temáticas têm poder terminativo, com os projetos sendo aprovados sem precisarem passar pelo plenário.</p><p>Com 28 senadores, o PL terá força para comandar as comissões mais importantes, como a de Constituição e Justiça e a de Assuntos Econômicos.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/direita-domina-senado-com-agenda-estridente-e-tera-poder-sobre-indicacoes-do-governo.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Contextualiza um acontecimento e aprofunda a compreensão de seus diversos ângulos"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Reporter da Folha em Brasília, especializado em política e economia. Antes, passou pelo Valor Econômico."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A direita dominará o Senado a partir de 2027 e deve impor uma guinada na agenda da Casa Alta do Congresso Nacional , qualquer que seja o presidente da República eleito no segundo turno. O grupo terá força para influenciar as indicações do governo, pressionar o Poder Judiciário e amplificar o peso da pauta de costumes e de uma segurança pública mais linha-dur"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O Senado possui uma diferença importante em relação à Câmara dos Deputados : as comissões temáticas têm poder terminativo, com os projetos sendo aprovados sem precisarem passar pelo plenário. Com 28 senadores, o PL terá força para comandar as comissões mais importantes, como a de Constituição e Justiça e a de Assuntos Econômicos."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Os eleitos para o Senado também são mais estridentes que a atual ala conservadora. A partir de fevereiro, políticos como Marcel Van Hattem (Novo-RS), Carlos Bolsonaro (PL-SC), Gustavo Gayer (PL-GO), Deltan Dallagnol (Novo-PR) e Carlos Jordy (PL-RJ) vão subir à tribuna e passar a fazer parte de CPIs (Comissões Parlamentares de Inquérito)."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/05/17911747176ac3283d4c9de_1791174717_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/analise-direita-domina-senado-com-agenda-estridente-e-tera-poder-sobre-indicacoes-do-gover.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "f8d45aafc90e4bc7",
+      "titulo": "Dos 32 senadores que tentaram reeleição, 14 venceram",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-eleicoes-2026/dos-32-senadores-que-tentaram-reeleicao-14-venceram/",
+      "dataFonte": "2026-10-05T04:52:26.000Z",
+      "resumoFonte": "Eleitores escolheram 2 representantes por Estado na renovação de 2/3 do Senado Federal",
+      "imagem": "https://static.poder360.com.br/uploads/2025/06/CongressoNacional-Fachada-10-scaled.jpg",
+      "descobertaEm": "2026-10-05T05:17:52.257Z",
+      "reportagem": {
+        "titulo": "Dos 32 senadores que tentaram reeleição, 14 venceram",
+        "slug": "dos-32-senadores-que-tentaram-reeleicao-14-venceram",
+        "categoria": "Política Nacional",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/dos-32-senadores-que-tentaram-reeleicao-14-venceram.jpg",
+        "resumo": "Eleitores escolheram 2 representantes por Estado na renovação de 2/3 do Senado Federal. Leia no Poder360.",
+        "conteudo": "<p>Eleitores escolheram 2 representantes por Estado na renovação de 2/3 do Senado Federal</p><h2>Dos 32 senadores que tentaram a reeleição em 2026,</h2><p>Dos 32 senadores que tentaram a reeleição em 2026, 14 venceram o pleito e garantiram novo mandato de 8 anos. Sete são aliados do presidente Luiz Inácio Lula da Silva (PT) e 5, de Flávio Bolsonaro (PL). Ambos seguem para o 2º turno pelo Planalto.</p><p>A votação direta sem 2º turno definiu os 2 representantes por Estado, enquanto a estrutura do Senado segue fixa em 81 congressistas.</p><p>Entre os candidatos que buscavam permanecer na Casa, 17 eram aliados do governo de Lula, 9 da oposição e 5 mantinham atuação independente no Congresso.</p><h2>Grupo de congressistas em fim de mandato que buscou</h2><p>O grupo de congressistas em fim de mandato que buscou a manutenção da vaga representou 59,2% das 54 cadeiras em disputa no Senado Federal —volume idêntico ao registrado nas eleições de 2018, quando apenas 8 obtiveram sucesso nas urnas.</p><p>Outros 27 integrantes do Senado, como o presidente Davi Alcolumbre (União Brasil-AP), foram eleitos em 2022 e continuarão exercendo seus mandatos até janeiro de 2031, já que o mandato para o cargo tem duração de 8 anos.</p><p>O Senado Federal é composto por 81 senadores (3 por Estado e pelo DF). Diferentemente da Câmara dos Deputados, a renovação da Casa é gradual e alternada: em uma eleição (como em 2022), renova-se 1/3 das vagas (27 cadeiras); 4 anos depois (como em 2026), renovam-se 2/3 (ou 54 cadeiras).</p><p>O mandato no Senado é de 8 anos, com direito a concorrer a reeleições ilimitadas.</p><p>O salário mensal bruto de um senador em 2026 é de R$ 46.366,19, equiparado ao teto constitucional do funcionalismo público.</p><p>Além do vencimento base, os congressistas contam com verba indenizatória para despesas do mandato (cotas parlamentares), além de cobertura de gastos de moradia ou imóvel funcional em Brasília.</p><p>Dos 32 senadores que tentaram reeleição, 14 venceram Eleitores escolheram 2 representantes por Estado na renovação de 2/3 do Senado Federal --> copiar link --></p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-eleicoes-2026/dos-32-senadores-que-tentaram-reeleicao-14-venceram/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Eleitores escolheram 2 representantes por Estado na renovação de 2/3 do Senado Federal"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Dos 32 senadores que tentaram a reeleição em 2026, 14 venceram o pleito e garantiram novo mandato de 8 anos. Sete são aliados do presidente Luiz Inácio Lula da Silva (PT) e 5, de Flávio Bolsonaro (PL). Ambos seguem para o 2º turno pelo Planalto."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A votação direta sem 2º turno definiu os 2 representantes por Estado, enquanto a estrutura do Senado segue fixa em 81 congressistas."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Entre os candidatos que buscavam permanecer na Casa, 17 eram aliados do governo de Lula, 9 da oposição e 5 mantinham atuação independente no Congresso."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O grupo de congressistas em fim de mandato que buscou a manutenção da vaga representou 59,2% das 54 cadeiras em disputa no Senado Federal —volume idêntico ao registrado nas eleições de 2018, quando apenas 8 obtiveram sucesso nas urnas."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2025/06/CongressoNacional-Fachada-10-scaled.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/dos-32-senadores-que-tentaram-reeleicao-14-venceram.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "77846b7046560e2d",
+      "titulo": "Flávio e Lula têm menor diferença em 1º turno desde redemocratização",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/flavio-e-lula-tem-menor-diferenca-em-1o-turno-desde-redemocratizacao/",
+      "dataFonte": "2026-10-05T04:51:20.000Z",
+      "resumoFonte": "Com os 47,03% do filho do ex-presidente Jair Bolsonaro (PL) e os 45,16% do incumbente do Palácio do Planalto, distância foi de 1,87 ponto",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Flavio-e-Lula.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-05T05:17:52.257Z",
+      "reportagem": {
+        "titulo": "Flávio e Lula têm menor diferença em 1º turno desde redemocratização",
+        "slug": "flavio-e-lula-tem-menor-diferenca-em-1-turno-desde-redemocratizacao",
+        "categoria": "Política Nacional",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/flavio-e-lula-tem-menor-diferenca-em-1-turno-desde-redemocratizacao.jpg",
+        "resumo": "Com os 47,03% do filho do ex-presidente Jair Bolsonaro (PL) e os 45,16% do incumbente do Palácio do Planalto, distância foi de 1,87 ponto",
+        "conteudo": "<p>Com pouco menos de dois pontos percentuais de diferença, a margem de votos observada entre Flávio Bolsonaro (PL) e o presidente Luiz Inácio Lula da Silva (PT) é a menor desde a redemocratização .</p><h2>Com os 47,03% do filho do ex-presidente Jair Bolsonaro</h2><p>Com os 47,03% do filho do ex-presidente Jair Bolsonaro (PL) e os 45,16% do incumbente do Palácio do Planalto, a distância entre os dois foi de 1,87 ponto .</p><p>O recorde anterior foi registrado na disputa de 2022 entre Lula e Bolsonaro, quando o petista colheu 48,43% dos votos válidos e Jair, 43,2%. A diferença foi de 5,23 pontos.</p><p>Fechando o pódio das disputas mais apertadas, aparece o pleito de 2006. Tentando o segundo mandato, Lula obteve 48,61% dos votos, contra 41,64% de Geraldo Alckmin, então candidato pelo PSDB.</p><h2>Veja como ficaram os primeiros turnos de cada</h2><p>Veja como ficaram os primeiros turnos de cada eleição desde a redemocratização.</p><p>O senador Flávio Bolsonaro (PL-RJ) e o presidente Luiz Inácio Lula da Silva (PT)</p><p>Com pouco menos de dois pontos percentuais de diferença, a margem de votos observada entre Flávio Bolsonaro (PL) e o presidente Luiz Inácio Lula da Silva (PT) é a menor desde a redemocratização .</p><p>Com os 47,03% do filho do ex-presidente Jair Bolsonaro (PL) e os 45,16% do incumbente do Palácio do Planalto, a distância entre os dois foi de 1,87 ponto . Leia Mais</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/flavio-e-lula-tem-menor-diferenca-em-1o-turno-desde-redemocratizacao/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Com pouco menos de dois pontos percentuais de diferença, a margem de votos observada entre Flávio Bolsonaro (PL) e o presidente Luiz Inácio Lula da Silva (PT) é a menor desde a redemocratização ."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Com os 47,03% do filho do ex-presidente Jair Bolsonaro (PL) e os 45,16% do incumbente do Palácio do Planalto, a distância entre os dois foi de 1,87 ponto ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O recorde anterior foi registrado na disputa de 2022 entre Lula e Bolsonaro, quando o petista colheu 48,43% dos votos válidos e Jair, 43,2%. A diferença foi de 5,23 pontos."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Fechando o pódio das disputas mais apertadas, aparece o pleito de 2006. Tentando o segundo mandato, Lula obteve 48,61% dos votos, contra 41,64% de Geraldo Alckmin, então candidato pelo PSDB."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Veja como ficaram os primeiros turnos de cada eleição desde a redemocratização."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Flavio-e-Lula.png?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/flavio-e-lula-tem-menor-diferenca-em-1-turno-desde-redemocratizacao.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "25b351036c45183c",
+      "titulo": "Renan Calheiros, Ciro Nogueira e Randolfe são derrotados e deixam Senado após longa trajetória",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/renan-calheiros-ciro-nogueira-e-randolfe-sao-derrotados-e-deixam-senado-apos-longa-trajetoria.shtml",
+      "dataFonte": "2026-10-05T04:35:00.000Z",
+      "resumoFonte": "Os decanos do Senado Renan Calheiros (MDB-AL), Ciro Nogueira (PP-PI) e Randolfe Rodrigues (PT-AP) não conseguiram se reeleger e deixarão o Congresso Nacional em 2027 após longas trajetórias no Legislativo. Leia mais (10/05/2026 - 01h35)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/05/17911711266ac31a366f0d4_1791171126_3x2_rt.jpg",
+      "descobertaEm": "2026-10-05T05:17:52.257Z",
+      "reportagem": {
+        "titulo": "Renan Calheiros, Ciro Nogueira e Randolfe são derrotados e deixam Senado após longa trajetória",
+        "slug": "renan-calheiros-ciro-nogueira-e-randolfe-sao-derrotados-e-deixam-senado-apos-longa-trajeto",
+        "categoria": "Política Nacional",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/renan-calheiros-ciro-nogueira-e-randolfe-sao-derrotados-e-deixam-senado-apos-longa-trajeto.jpg",
+        "resumo": "Decanos no Congresso perderam as eleições e agora passam por transição até 2027",
+        "conteudo": "<p>Os decanos do Senado Renan Calheiros (MDB-AL), Ciro Nogueira (PP-PI) e Randolfe Rodrigues (PT-AP) não conseguiram se reeleger e deixarão o Congresso Nacional em 2027 após longas trajetórias no Legislativo.</p><h2>Calheiros, 71, deixará o Senado depois de 32 anos</h2><p>Calheiros, 71, deixará o Senado depois de 32 anos de atuação. Ele estava no cargo desde 1995, quando tomou posse pela primeira vez, e chegou a cadeira de presidente do Congresso por três períodos: de 2005 até 2007, quando renunciou ao cargo após denúncias de corrupção; de 2013 a 2015 e de 2015 a 2017.</p><p>Com 22,24% dos votos, o emedebista perdeu a corrida eleitoral para o ex-presidente da Câmara dos Deputados Arthur Lira (PP) e Marina JHC (PSDB) , que tiveram 28,87% e 28,20% respectivamente.</p><p>Antes da apuração dos votos, Calheiros disse estar confiante. Ele não se pronunciou após a derrota.</p><h2>Quando era universitário, na década de 1970, Calheiros já</h2><p>Quando era universitário, na década de 1970, Calheiros já dava sinais de que seguiria a carreira política.</p><p>Ele presidiu o diretório acadêmico da área de ciências humanas e sociais da Universidade Federal de Alagoas e se filiou à legenda do antigo MDB, no período em que Brasil ainda vivia sob a ditadura militar.</p><p>O atual líder do governo Lula (PT) no Congresso Nacional, Randolfe Rodrigues, ficou em terceiro lugar com 18,55% dos votos no Amapá. Ele perdeu a vaga para a dobradinha de Rayssa Furlan (Podemos) e Lucas Barreto (PSD) , que concentraram 29,98% e 24,22%, respectivamente.</p><p>Rayssa e Lucas são aliados do governador eleito do Amapá, Dr. Antônio Furlan (PSD). Eles formam o grupo político adversário do presidente da Congresso, Davi Alcolumbre (União Brasil), que se vê agora com poucos aliados e um grande desafio para a reeleição em 2030.</p><p>Randolfe, 53, é derrotado em meio ao crescimento da direita em todo país e o enfraquecimento do PT. Ele foi eleito pela primeira vez como deputado federal pelo PT e exerceu o cargo entre 1999 e 2007. Já em 2011, assumiu o cargo de senador.</p><p>Ele passou pelo PSOL, Rede e voltou ao PT, em 2023, após de divergências quanto à exploração de petróleo na foz do rio Amazonas com a então ministra de Meio Ambiente, Marina Silva.</p><p>Randolfe teve embates memoráveis com políticos de direita, como em 2013 quando se envolveu em uma briga com o então deputado Jair Bolsonaro, que o acusou de ter lhe agredido.</p><p>\"Em primeiro lugar, quero agradecer a confiança de cada amapaense através dos mais de 150 mil votos que tive em minha candidatura ao Senado da República.</p><p>Além disso, quero agradecer sobretudo o carinho com que fui recebido em cada rua, em cada casa do Amapá\", disse Randolfe, em vídeo publicado nas redes sociais.</p><p>Ciro Nogueira teve 24,68% dos votos contra os eleitos Marcelo Castro (MDB-PI) e Júlio César (PSD-PI), que tiveram 35,65% e 26,97%, respectivamente. Nas pesquisas, ele chegou a figurar mais intenção que os concorrentes.</p><p>Nogueira também assumiu um cargo no Senado pela primeira vez em 2011 e chegou ao cargo de ministro da Casa Civil (2021-2022) do governo do ex-presidente Jair Bolsonaro (PL). Antes disso, foi deputado estadual pelo Piauí entre 1995 até 2010.</p><p>\"Só tenho a agradecer ao povo do Piauí pelas manifestações de carinho, de afeto.</p><p>Cada abraço, cada aperto de mão, cada mensagem de incentivo, para ter mais força para lutar pelo potencial que só precisa que homens públicos tenham coragem de tomar a decisão de cuidar da população\", disse nas redes.</p><p>O Senado terá, a partir de 2027, uma nova configuração que pode afetar pautas como o fim da escala 6x1 e a CPI do Banco Master, que devem enfraquecer após os eleitos assumirem os cargos, enquanto o debate sobtre o impeachment de ministros do STF (Supremo Tribunal Federal) pode ganhar força.</p><p>Ao menos 49 congressistas, entre eleitos e titulares que continuarão no Senado, defendem o impeachment de ministros da corte ainda que com ressalvas, segundo levantamento da Folha .</p><p>Para aprovar o afastamento de magistrados são necessários 54 votos, ou seja, dois terços das cadeiras.</p><p>Hoje, 14 senadores que têm mais quatro anos de mandato já se posicionaram a favor da abertura de processos por crimes de responsabilidade contra ministros do Supremo.</p><p>A partir do próximo ano, eles se somarão aos 35 que foram eleitos neste domingo (4) e que também endossam a medida.</p><p>É o caso, por exemplo, de Michelle Bolsonaro (PL) e de Bia Kicis (PL), eleitas com recorde de votos pelo Distrito Federal, e de Guilherme Derrite ( PP ), por São Paulo, e Carlos Portinho (PL), pelo Rio de Janeiro.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/renan-calheiros-ciro-nogueira-e-randolfe-sao-derrotados-e-deixam-senado-apos-longa-trajetoria.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Os decanos do Senado Renan Calheiros (MDB-AL), Ciro Nogueira (PP-PI) e Randolfe Rodrigues (PT-AP) não conseguiram se reeleger e deixarão o Congresso Nacional em 2027 após longas trajetórias no Legislativo."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Calheiros, 71, deixará o Senado depois de 32 anos de atuação. Ele estava no cargo desde 1995, quando tomou posse pela primeira vez, e chegou a cadeira de presidente do Congresso por três períodos: de 2005 até 2007, quando renunciou ao cargo após denúncias de corrupção; de 2013 a 2015 e de 2015 a 2017."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Com 22,24% dos votos, o emedebista perdeu a corrida eleitoral para o ex-presidente da Câmara dos Deputados Arthur Lira (PP) e Marina JHC (PSDB) , que tiveram 28,87% e 28,20% respectivamente. Antes da apuração dos votos, Calheiros disse estar confiante. Ele não se pronunciou após a derrota."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Quando era universitário, na década de 1970, Calheiros já dava sinais de que seguiria a carreira política. Ele presidiu o diretório acadêmico da área de ciências humanas e sociais da Universidade Federal de Alagoas e se filiou à legenda do antigo MDB, no período em que Brasil ainda vivia sob a ditadura militar."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O atual líder do governo Lula (PT) no Congresso Nacional, Randolfe Rodrigues, ficou em terceiro lugar com 18,55% dos votos no Amapá. Ele perdeu a vaga para a dobradinha de Rayssa Furlan (Podemos) e Lucas Barreto (PSD) , que concentraram 29,98% e 24,22%, respectivamente."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/05/17911711266ac31a366f0d4_1791171126_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/renan-calheiros-ciro-nogueira-e-randolfe-sao-derrotados-e-deixam-senado-apos-longa-trajeto.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "19ef8e9b8790ee45",
+      "titulo": "PL conquista as duas vagas ao Senado em quatro estados e no DF",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/pl-conquista-as-duas-vagas-ao-senado-em-quatro-estados-e-no-df/",
+      "dataFonte": "2026-10-05T04:30:21.000Z",
+      "resumoFonte": "Vitórias nessas disputas somam dez das 19 cadeiras obtidas pelo partido, que liderou a eleição para a Casa",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/senado-federal.jpg?w=1023&h=630&crop=1",
+      "descobertaEm": "2026-10-05T05:17:52.257Z",
+      "reportagem": {
+        "titulo": "PL conquista as duas vagas ao Senado em quatro estados e no DF",
+        "slug": "pl-conquista-as-duas-vagas-ao-senado-em-quatro-estados-e-no-df",
+        "categoria": "Política Nacional",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/pl-conquista-as-duas-vagas-ao-senado-em-quatro-estados-e-no-df.jpg",
+        "resumo": "Vitórias nessas disputas somam dez das 19 cadeiras obtidas pelo partido, que liderou a eleição para a Casa",
+        "conteudo": "<p>O PL (Partido Liberal) conquistou as duas vagas em disputa ao Senado em Santa Catarina, Rio de Janeiro, Mato Grosso do Sul, Rondônia e no Distrito Federal nas eleições deste domingo (4).</p><h2>Juntos, os quatro estados e o DF garantiram dez</h2><p>Juntos, os quatro estados e o DF garantiram dez das 19 cadeiras obtidas pelo partido no país.</p><p>O resultado colocou a legenda à frente das demais siglas na disputa pelas 54 vagas renovadas neste ano. Entre os eleitos estão integrantes da família Bolsonaro, deputados que passarão ao Senado e um parlamentar reeleito.</p><p>No Distrito Federal , Michelle Bolsonaro conquistou seu primeiro mandato eletivo, enquanto Bia Kicis chegará à Casa após dois mandatos como deputada federal.</p><h2>Duas se juntarão a Damares Alves (Republicanos), cujo mandato</h2><p>As duas se juntarão a Damares Alves (Republicanos), cujo mandato vai até 2031, formando uma bancada inteiramente feminina.</p><p>A família do ex-presidente também estará representada por Santa Catarina , onde Carlos Bolsonaro foi eleito ao lado de Carol de Toni.</p><p>Carlos construiu sua trajetória como vereador do Rio de Janeiro antes de transferir o domicílio eleitoral.</p><p>Carol, por sua vez, chega ao Senado após atuar como deputada federal e presidir a Comissão de Constituição e Justiça da Câmara em 2024.</p><p>A dupla superou Esperidião Amin (PP), que tentava a reeleição. O resultado marcou uma mudança na correlação de forças dentro da própria direita catarinense, com duas candidaturas ligadas ao bolsonarismo vencendo uma liderança tradicional do campo conservador.</p><p>No Rio de Janeiro , o PL reelegeu Carlos Portinho e elegeu o deputado federal Carlos Jordy. Os dois ficaram à frente de Benedita da Silva (PT), que buscava retornar ao Senado.</p><p>Assim, a legenda manteve as duas cadeiras em disputa pelo estado, uma delas ocupada por Flávio Bolsonaro, candidato à Presidência da República.</p><p>O partido também venceu com seus dois candidatos em Mato Grosso do Sul , que elegeu Reinaldo Azambuja e Capitão Contar, e em Rondônia , onde as vagas ficaram com Fernando Máximo e Bruno Scheid.</p><p>Os eleitos assumirão em fevereiro de 2027 para mandatos de oito anos. Como cada estado e o DF têm três representantes no Senado, as vitórias asseguram ao PL duas cadeiras em cada uma dessas bancadas.</p><p>A terceira não estava em disputa neste ano e pertence a parlamentares com mandato até 2031.</p><p>Ao todo, PL terá a maior bancada do Senado, com 28 senadores</p><p>O PL (Partido Liberal) conquistou as duas vagas em disputa ao Senado em Santa Catarina, Rio de Janeiro, Mato Grosso do Sul, Rondônia e no Distrito Federal nas eleições deste domingo (4).</p><p>Juntos, os quatro estados e o DF garantiram dez das 19 cadeiras obtidas pelo partido no país. O resultado colocou a legenda à frente das demais siglas na disputa pelas 54 vagas renovadas neste ano.</p><p>Entre os eleitos estão integrantes da família Bolsonaro, deputados que passarão ao Senado e um parlamentar reeleito.</p><p>No Distrito Federal , Michelle Bolsonaro conquistou seu primeiro mandato eletivo, enquanto Bia Kicis chegará à Casa após dois mandatos como deputada federal.</p><p>As duas se juntarão a Damares Alves (Republicanos), cujo mandato vai até 2031, formando uma bancada inteiramente feminina.</p><p>A família do ex-presidente também estará representada por Santa Catarina , onde Carlos Bolsonaro foi eleito ao lado de Carol de Toni.</p><p>Carlos construiu sua trajetória como vereador do Rio de Janeiro antes de transferir o domicílio eleitoral.</p><p>Carol, por sua vez, chega ao Senado após atuar como deputada federal e presidir a Comissão de Constituição e Justiça da Câmara em 2024. A dupla superou Esperidião Amin (PP), que tentava a reeleição.</p><p>O resultado marcou uma mudança na correlação de forças dentro da própria direita catarinense, com duas candidaturas ligadas ao bolsonarismo vencendo uma liderança tradicional do campo conservador.</p><p>No Rio de Janeiro , o PL reelegeu Carlos Portinho e elegeu o deputado federal Carlos Jordy. Os dois ficaram à frente de Benedita da Silva (PT), que buscava retornar ao Senado.</p><p>Assim, a legenda manteve as duas cadeiras em disputa pelo estado, uma delas ocupada por Flávio Bolsonaro, candidato à Presidência da República.</p><p>O partido também venceu com seus dois candidatos em Mato Grosso do Sul , que elegeu Reinaldo Azambuja e Capitão Contar, e em Rondônia , onde as vagas ficaram com Fernando Máximo e Bruno Scheid.</p><p>Os eleitos assumirão em fevereiro de 2027 para mandatos de oito anos. Como cada estado e o DF têm três representantes no Senado, as vitórias asseguram ao PL duas cadeiras em cada uma dessas bancadas.</p><p>A terceira não estava em disputa neste ano e pertence a parlamentares com mandato até 2031.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/pl-conquista-as-duas-vagas-ao-senado-em-quatro-estados-e-no-df/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O PL (Partido Liberal) conquistou as duas vagas em disputa ao Senado em Santa Catarina, Rio de Janeiro, Mato Grosso do Sul, Rondônia e no Distrito Federal nas eleições deste domingo (4). Juntos, os quatro estados e o DF garantiram dez das 19 cadeiras obtidas pelo partido no país."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O resultado colocou a legenda à frente das demais siglas na disputa pelas 54 vagas renovadas neste ano. Entre os eleitos estão integrantes da família Bolsonaro, deputados que passarão ao Senado e um parlamentar reeleito."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "No Distrito Federal , Michelle Bolsonaro conquistou seu primeiro mandato eletivo, enquanto Bia Kicis chegará à Casa após dois mandatos como deputada federal. As duas se juntarão a Damares Alves (Republicanos), cujo mandato vai até 2031, formando uma bancada inteiramente feminina."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A família do ex-presidente também estará representada por Santa Catarina , onde Carlos Bolsonaro foi eleito ao lado de Carol de Toni. Carlos construiu sua trajetória como vereador do Rio de Janeiro antes de transferir o domicílio eleitoral. Carol, por sua vez, chega ao Senado após atuar como deputada federal e presidir a Comissão de Constituição e Justiça da"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A dupla superou Esperidião Amin (PP), que tentava a reeleição. O resultado marcou uma mudança na correlação de forças dentro da própria direita catarinense, com duas candidaturas ligadas ao bolsonarismo vencendo uma liderança tradicional do campo conservador."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/senado-federal.jpg?w=1023&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/pl-conquista-as-duas-vagas-ao-senado-em-quatro-estados-e-no-df.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "0133e8c501669188",
+      "titulo": "Família Bolsonaro elege deputados, senadores e vai ao 2º turno ao Planalto",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/familia-bolsonaro-elege-deputados-senadores-e-vai-ao-2o-turno-ao-planalto/",
+      "dataFonte": "2026-10-05T04:29:43.000Z",
+      "resumoFonte": "Michelle, Carlos, Jair Renan e Renato, irmão do ex-presidente, conquistaram vagas no Congresso; Flávio disputa o segundo turno contra Lula",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/01/52005545524_f526da9de1_o-e1763935501963.jpg?w=575&h=324&crop=1",
+      "descobertaEm": "2026-10-05T05:17:52.257Z",
+      "reportagem": {
+        "titulo": "Família Bolsonaro elege deputados, senadores e vai ao 2º turno ao Planalto",
+        "slug": "familia-bolsonaro-elege-deputados-senadores-e-vai-ao-2-turno-ao-planalto",
+        "categoria": "Política Nacional",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/familia-bolsonaro-elege-deputados-senadores-e-vai-ao-2-turno-ao-planalto.jpg",
+        "resumo": "Michelle, Carlos, Jair Renan e Renato, irmão do ex-presidente, conquistaram vagas no Congresso; Flávio disputa o segundo turno contra Lula",
+        "conteudo": "<p>A família Bolsonaro elegeu quatro integrantes para o Congresso Nacional nas eleições deste domingo (4), enquanto Flávio Bolsonaro (PL) , filho mais velho do ex-presidente Jair Bolsonaro, avançou ao segundo turno da disputa presidencial contra o presidente Luiz Inácio Lula da Silva (PT) .</p><h2>Michelle Bolsonaro (PL) , esposa do ex-presidente, foi eleita</h2><p>Michelle Bolsonaro (PL) , esposa do ex-presidente, foi eleita senadora pelo Distrito Federal em sua primeira disputa por um cargo eletivo. Ela foi a candidata mais votada na capital federal, com 29,05% dos votos , segundo a apuração do TSE (Tribunal Superior Eleitoral).</p><p>Carlos Bolsonaro (PL) , filho do ex-presidente Jair Bolsonaro, foi eleito senador por Santa Catarina , com 25,35% dos votos válidos .</p><p>Aos 43 anos, Carlos construiu sua carreira política no Rio de Janeiro, onde foi eleito vereador pela primeira vez em 2000 e permaneceu na Câmara Municipal por seis mandatos consecutivos.</p><h2>Em 2026, deixou a disputa no estado de origem</h2><p>Em 2026, deixou a disputa no estado de origem para concorrer ao Senado por Santa Catarina. Carlos transferiu o domicílio eleitoral do Rio de Janeiro para o estado em 2025, movimento que antecedeu a decisão de lançá-lo candidato ao Senado.</p><p>Renato Bolsonaro (PL) , irmão do ex-presidente Jair Bolsonaro, foi eleito deputado federal por São Paulo . Segundo o TSE, ele recebeu 379.312 votos .</p><p>O parlamentar eleito já havia disputado nove eleições para cargos como vereador, prefeito e deputado. Na década de 1990, exerceu mandato de vereador em Praia Grande.</p><p>Jair Renan Bolsonaro (PL) , filho do ex-presidente, foi eleito deputado federal por Santa Catarina com 131.555 votos . Ele foi o quarto mais votado no estado.</p><p>Vereador de Balneário Camboriú, Jair Renan estreou na política em 2024, quando foi o vereador mais votado do município. Antes disso, viveu entre o Rio de Janeiro e Brasília.</p><p>Para disputar uma vaga na Câmara dos Deputados, transferiu o domicílio eleitoral para Santa Catarina. Durante a campanha, Jair Renan fez da candidatura uma extensão da campanha presidencial do irmão, Flávio Bolsonaro.</p><p>Flávio Bolsonaro avançou ao segundo turno da eleição presidencial de 2026 contra Lula.</p><p>Os dois candidatos foram os mais votados no primeiro turno, segundo divulgação da apuração do TSE na noite deste domingo.</p><p>Com 99,99% das urnas apuradas, Flávio tinha 47,03%, com 55,7 milhões de votos. Lula chegou a 45,16%, com 53 milhões.</p><p>Nascido em 1981 no município de Resende (RJ), Flávio Nantes Bolsonaro é o filho mais velho do ex-presidente Jair Bolsonaro. É graduado em Direito pela Universidade Candido Mendes e tem especialização em Ciência Política pela UFRJ (Universidade Federal do Rio de Janeiro).</p><p>O “filho 01” de Jair Bolsonaro iniciou a vida pública em 2002, quando foi eleito deputado estadual do Rio de Janeiro pelo PP (Progressistas), partido pelo qual permaneceu na Alerj (Assembleia Legislativa do Rio de Janeiro) até 2015.</p><p>A família Bolsonaro elegeu quatro integrantes para o Congresso Nacional nas eleições deste domingo (4), enquanto Flávio Bolsonaro (PL) , filho mais velho do ex-presidente Jair Bolsonaro, avançou ao segundo turno da disputa presidencial contra o presidente Luiz Inácio Lula da Silva (PT) .</p><p>Michelle Bolsonaro (PL) , esposa do ex-presidente, foi eleita senadora pelo Distrito Federal em sua primeira disputa por um cargo eletivo.</p><p>Ela foi a candidata mais votada na capital federal, com 29,05% dos votos , segundo a apuração do TSE (Tribunal Superior Eleitoral).</p><p>Carlos Bolsonaro (PL) , filho do ex-presidente Jair Bolsonaro, foi eleito senador por Santa Catarina , com 25,35% dos votos válidos . Leia mais</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/familia-bolsonaro-elege-deputados-senadores-e-vai-ao-2o-turno-ao-planalto/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A família Bolsonaro elegeu quatro integrantes para o Congresso Nacional nas eleições deste domingo (4), enquanto Flávio Bolsonaro (PL) , filho mais velho do ex-presidente Jair Bolsonaro, avançou ao segundo turno da disputa presidencial contra o presidente Luiz Inácio Lula da Silva (PT) ."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Michelle Bolsonaro (PL) , esposa do ex-presidente, foi eleita senadora pelo Distrito Federal em sua primeira disputa por um cargo eletivo. Ela foi a candidata mais votada na capital federal, com 29,05% dos votos , segundo a apuração do TSE (Tribunal Superior Eleitoral)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Carlos Bolsonaro (PL) , filho do ex-presidente Jair Bolsonaro, foi eleito senador por Santa Catarina , com 25,35% dos votos válidos ."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Aos 43 anos, Carlos construiu sua carreira política no Rio de Janeiro, onde foi eleito vereador pela primeira vez em 2000 e permaneceu na Câmara Municipal por seis mandatos consecutivos."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Em 2026, deixou a disputa no estado de origem para concorrer ao Senado por Santa Catarina. Carlos transferiu o domicílio eleitoral do Rio de Janeiro para o estado em 2025, movimento que antecedeu a decisão de lançá-lo candidato ao Senado."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/01/52005545524_f526da9de1_o-e1763935501963.jpg?w=575&h=324&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/familia-bolsonaro-elege-deputados-senadores-e-vai-ao-2-turno-ao-planalto.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "027313c5f4d73300",
+      "titulo": "Eleição leva ao Senado esposas e filhos de lideranças políticas",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/eleicao-leva-ao-senado-esposas-e-filhos-de-liderancas-politicas/",
+      "dataFonte": "2026-10-05T04:27:46.000Z",
+      "resumoFonte": "Eleitos incluem familiares de Bolsonaro, Caiado e governadores escolhidos neste domingo; relações de parentesco se estendem às suplências",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Michelle-Bolsonaro-Gracinha-Caiado-Marina-JHC-Rayssa-Furlan-Senado.png?w=888&h=592&crop=1",
+      "descobertaEm": "2026-10-05T05:17:52.257Z",
+      "reportagem": {
+        "titulo": "Eleição leva ao Senado esposas e filhos de lideranças políticas",
+        "slug": "eleicao-leva-ao-senado-esposas-e-filhos-de-liderancas-politicas",
+        "categoria": "Política Nacional",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/eleicao-leva-ao-senado-esposas-e-filhos-de-liderancas-politicas.jpg",
+        "resumo": "Eleitos incluem familiares de Bolsonaro, Caiado e governadores escolhidos neste domingo; relações de parentesco se estendem às suplências",
+        "conteudo": "<p>As eleições deste domingo (4) levaram ao Senado esposas e filhos de lideranças políticas nacionais e estaduais.</p><h2>Entre os eleitos estão Michelle e Carlos Bolsonaro (PL)</h2><p>Entre os eleitos estão Michelle e Carlos Bolsonaro (PL) , mulher e filho do ex-presidente Jair Bolsonaro (PL), e Gracinha Caiado (União Brasil), casada com o ex-governador de Goiás Ronaldo Caiado (PSD).</p><p>Em Alagoas e no Amapá, Marina JHC (PSDB) e Rayssa Furlan (Podemos) conquistaram vagas na mesma eleição em que seus maridos venceram as disputas pelos governos estaduais.</p><p>O grupo reúne estreantes em cargos eletivos e políticos com carreiras consolidadas. Embora tenham percursos diferentes, suas vitórias mostram como a chegada de novos nomes ao Senado também pode dar continuidade à presença de famílias nas instituições.</p><h2>Michelle Bolsonaro venceu pelo Distrito Federal e assumirá como</h2><p>Michelle Bolsonaro venceu pelo Distrito Federal e assumirá como senadora o seu primeiro mandato. Primeira-dama entre 2019 e 2022, ela atuou em iniciativas de voluntariado e inclusão de pessoas com deficiência durante o governo do marido.</p><p>Já Carlos foi eleito por Santa Catarina após construir sua carreira como vereador do Rio de Janeiro. Filho de Jair Bolsonaro e enteado de Michelle, ele transferiu o domicílio eleitoral para o estado do Sul. Os dois representarão, assim, unidades distintas da Federação.</p><p>Em Goiás , Gracinha Caiado venceu sua primeira disputa eleitoral. Mulher de Ronaldo Caiado, que concorreu à Presidência neste ano, ela chega ao Legislativo após atuar na gestão de políticas sociais do estado.</p><p>Atuou na Organização das Voluntárias de Goiás e no Gabinete de Políticas Sociais.</p><p>Em Alagoas , os laços familiares alcançam também a composição da chapa eleita. Marina Candia, que adotou o nome de urna Marina JHC, é casada com João Henrique Caldas, o JHC (PSDB), eleito governador.</p><p>Ex-primeira-dama de Maceió, ela ocupará seu primeiro cargo eletivo e terá como primeira suplente a sogra, a senadora Dra. Eudócia (PSDB), mãe de JHC.</p><p>No Amapá, Rayssa Furlan também foi eleita para o Senado enquanto o marido, Dr. Furlan (PSD), venceu a disputa pelo governo.</p><p>Médica, ela comandou a Secretaria de Mobilização e Participação Popular de Macapá durante a gestão dele na prefeitura. A vitória veio na segunda tentativa de chegar à Casa, após uma candidatura em 2022.</p><p>Entre os filhos de políticos, há nomes que assumirão o mandato após comandar governos e ocupar posições de destaque no Congresso.</p><p>É o caso de Helder Barbalho (MDB), eleito pelo Pará depois de governar o estado por dois mandatos. Seu pai, o senador Jader Barbalho (MDB), deixará a cadeira de titular em 2027 e será seu primeiro suplente.</p><p>Arthur Lira (PP), eleito senador por Alagoas ao lado de Marina JHC, é filho do ex-senador Benedito de Lira. Antes de conquistar uma vaga na Casa em que o pai atuou, foi vereador, deputado estadual e deputado federal, além de presidir a Câmara entre 2021 e 2025.</p><p>A presença de famílias tradicionais também se estende aos netos. Eleita por Pernambuco, Marília Arraes (PDT) é neta do ex-governador Miguel Arraes e chegará ao Senado após exercer mandatos como vereadora do Recife e deputada.</p><p>Assim como nas chapas de Marina e Helder, outros eleitos terão parentes nas suplências. Michelle terá o irmão Diego Torres (PL) como primeiro suplente.</p><p>Bia Kicis (PL), que conquistou a outra vaga do Distrito Federal, terá o filho Samuel Kicis (PL) nessa posição. Eles integram as chapas vencedoras, mas só assumem uma cadeira em caso de substituição dos titulares.</p><p>Marina JHC (PSDB-AL), esposa de JHC, eleito governador de Alagoas; Michelle Bolsonaro (PL-DF), esposa de Jair Bolsonaro; Rayssa Furlan (Podemos-AP), esposa de Dr. Furlan, eleito governador do Amapá; e Gracinha Caiado (União Brasil-GO), esposa de Ronaldo Caiado</p><p>As eleições deste domingo (4) levaram ao Senado esposas e filhos de lideranças políticas nacionais e estaduais.</p><p>Entre os eleitos estão Michelle e Carlos Bolsonaro (PL) , mulher e filho do ex-presidente Jair Bolsonaro (PL), e Gracinha Caiado (União Brasil), casada com o ex-governador de Goiás Ronaldo Caiado (PSD).</p><p>Em Alagoas e no Amapá, Marina JHC (PSDB) e Rayssa Furlan (Podemos) conquistaram vagas na mesma eleição em que seus maridos venceram as disputas pelos governos estaduais.</p><p>O grupo reúne estreantes em cargos eletivos e políticos com carreiras consolidadas.</p><p>Embora tenham percursos diferentes, suas vitórias mostram como a chegada de novos nomes ao Senado também pode dar continuidade à presença de famílias nas instituições.</p><p>Michelle Bolsonaro venceu pelo Distrito Federal e assumirá como senadora o seu primeiro mandato.</p><p>Primeira-dama entre 2019 e 2022, ela atuou em iniciativas de voluntariado e inclusão de pessoas com deficiência durante o governo do marido.</p><p>Já Carlos foi eleito por Santa Catarina após construir sua carreira como vereador do Rio de Janeiro. Filho de Jair Bolsonaro e enteado de Michelle, ele transferiu o domicílio eleitoral para o estado do Sul.</p><p>Os dois representarão, assim, unidades distintas da Federação. Em Goiás , Gracinha Caiado venceu sua primeira disputa eleitoral.</p><p>Mulher de Ronaldo Caiado, que concorreu à Presidência neste ano, ela chega ao Legislativo após atuar na gestão de políticas sociais do estado.</p><p>Atuou na Organização das Voluntárias de Goiás e no Gabinete de Políticas Sociais. Em Alagoas , os laços familiares alcançam também a composição da chapa eleita.</p><p>Marina Candia, que adotou o nome de urna Marina JHC, é casada com João Henrique Caldas, o JHC (PSDB), eleito governador.</p><p>Ex-primeira-dama de Maceió, ela ocupará seu primeiro cargo eletivo e terá como primeira suplente a sogra, a senadora Dra. Eudócia (PSDB), mãe de JHC.</p><p>No Amapá, Rayssa Furlan também foi eleita para o Senado enquanto o marido, Dr. Furlan (PSD), venceu a disputa pelo governo.</p><p>Médica, ela comandou a Secretaria de Mobilização e Participação Popular de Macapá durante a gestão dele na prefeitura. A vitória veio na segunda tentativa de chegar à Casa, após uma candidatura em 2022.</p><p>Entre os filhos de políticos, há nomes que assumirão o mandato após comandar governos e ocupar posições de destaque no Congresso.</p><p>É o caso de Helder Barbalho (MDB), eleito pelo Pará depois de governar o estado por dois mandatos. Seu pai, o senador Jader Barbalho (MDB), deixará a cadeira de titular em 2027 e será seu primeiro suplente.</p><p>Arthur Lira (PP), eleito senador por Alagoas ao lado de Marina JHC, é filho do ex-senador Benedito de Lira.</p><p>Antes de conquistar uma vaga na Casa em que o pai atuou, foi vereador, deputado estadual e deputado federal, além de presidir a Câmara entre 2021 e 2025. A presença de famílias tradicionais também se estende aos netos.</p><p>Eleita por Pernambuco, Marília Arraes (PDT) é neta do ex-governador Miguel Arraes e chegará ao Senado após exercer mandatos como vereadora do Recife e deputada.</p><p>Assim como nas chapas de Marina e Helder, outros eleitos terão parentes nas suplências. Michelle terá o irmão Diego Torres (PL) como primeiro suplente.</p><p>Bia Kicis (PL), que conquistou a outra vaga do Distrito Federal, terá o filho Samuel Kicis (PL) nessa posição. Eles integram as chapas vencedoras, mas só assumem uma cadeira em caso de substituição dos titulares.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/eleicao-leva-ao-senado-esposas-e-filhos-de-liderancas-politicas/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "As eleições deste domingo (4) levaram ao Senado esposas e filhos de lideranças políticas nacionais e estaduais. Entre os eleitos estão Michelle e Carlos Bolsonaro (PL) , mulher e filho do ex-presidente Jair Bolsonaro (PL), e Gracinha Caiado (União Brasil), casada com o ex-governador de Goiás Ronaldo Caiado (PSD)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Em Alagoas e no Amapá, Marina JHC (PSDB) e Rayssa Furlan (Podemos) conquistaram vagas na mesma eleição em que seus maridos venceram as disputas pelos governos estaduais."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O grupo reúne estreantes em cargos eletivos e políticos com carreiras consolidadas. Embora tenham percursos diferentes, suas vitórias mostram como a chegada de novos nomes ao Senado também pode dar continuidade à presença de famílias nas instituições."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Michelle Bolsonaro venceu pelo Distrito Federal e assumirá como senadora o seu primeiro mandato. Primeira-dama entre 2019 e 2022, ela atuou em iniciativas de voluntariado e inclusão de pessoas com deficiência durante o governo do marido."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Já Carlos foi eleito por Santa Catarina após construir sua carreira como vereador do Rio de Janeiro. Filho de Jair Bolsonaro e enteado de Michelle, ele transferiu o domicílio eleitoral para o estado do Sul. Os dois representarão, assim, unidades distintas da Federação."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Michelle-Bolsonaro-Gracinha-Caiado-Marina-JHC-Rayssa-Furlan-Senado.png?w=888&h=592&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/eleicao-leva-ao-senado-esposas-e-filhos-de-liderancas-politicas.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -937,88 +1285,16 @@
       }
     },
     {
-      "id": "1e9f682bb26892e6",
-      "titulo": "Tarcísio de Freitas é reeleito governador em SP",
-      "categoria": "Política Nacional",
+      "id": "3fa362c2a1cc1228",
+      "titulo": "5 candidatos negros são eleitos governadores no 1º turno; veja lista",
+      "categoria": "Justiça",
       "radar": null,
       "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/ao-vivo/cobertura-apuracao-votacao-1-turno-sp.ghtml",
-      "dataFonte": "2026-10-05T02:44:44.000Z",
-      "resumoFonte": "Tarcísio de Freitas é reeleito governador em SP Guilherme Derrite e André do Prado são eleitos senadores pelo estado. O primeiro turno das Eleições 2026 acontece neste domingo (4);. Eleitores de São Paulo vão escolher candidatos a deputado federal, deputado estadual, duas vagas para o Senado, governador e presidente;. A votação será realizada das…",
-      "imagem": "https://s2-g1.glbimg.com/6YnBQCbxeVfWmXE9DXC5KoT-PcY=/smart/filters:strip_icc()/s2-g1.glbimg.com/W5gN9FGuBMKozlboZHb00G8oQd0%3D/1200x0/filters%3Aformat%28jpeg%29/https%3A//i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/D/U/GCupaBT5uL9DBH72n5vA/urna-eletronica.jpg",
-      "descobertaEm": "2026-10-05T03:17:58.496Z"
-    },
-    {
-      "id": "2cbe0732ca93fa1d",
-      "titulo": "Distrito Federal é a primeira Unidade Federativa a ter três mulheres no Senado",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/politica/distrito-federal-e-a-primeira-unidade-federativa-a-ter-tres-mulheres-no-senado/",
-      "dataFonte": "2026-10-05T02:39:13.000Z",
-      "resumoFonte": "O Senado passou mais de 150 anos sem uma mulher ocupando as cadeiras que representam os Estados da Federação no Congresso Nacional",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/Damares-Alves-Michelle-Bolsonaro-e-Bia-Kicis-senadoras-do-DF.jpg?w=1000&h=600&crop=1",
-      "descobertaEm": "2026-10-05T03:17:58.496Z",
-      "reportagem": {
-        "titulo": "Distrito Federal é a primeira Unidade Federativa a ter três mulheres no Senado | Jovem Pan",
-        "slug": "distrito-federal-e-a-primeira-unidade-federativa-a-ter-tres-mulheres-no-senado-jovem-pan",
-        "categoria": "Política Nacional",
-        "data": "2026-10-04",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/distrito-federal-e-a-primeira-unidade-federativa-a-ter-tres-mulheres-no-senado-jovem-pan.jpg",
-        "resumo": "O Senado passou mais de 150 anos sem uma mulher ocupando as cadeiras que representam os Estados da Federação no Congresso Nacional",
-        "conteudo": "<p>O Distrito Federal entrou para a história neste domingo (4) e será a primeira Unidade da Federação a ter três senadoras mulheres na história do Brasil.</p><h2>Com a eleição de Michelle Bolsonaro (PL) e Bia</h2><p>Com a eleição de Michelle Bolsonaro (PL) e Bia Kicis (PL), as duas se juntam à senadora Damares Alves (Republicanos) na bancada do DF no Senado.</p><p>Em 202 anos de história, o Senado teve 78 senadoras. A primeira foi Eunice Michiles (AM), de 1979 a 1987. O Senado passou mais de 150 anos sem uma mulher ocupando as cadeiras que representam os Estados da Federação no Congresso Nacional.</p><p>No Distrito Federal, terminarão os mandatos atuais Izalci Lucas (PL), que concorreu a deputado federal, e Leila do Vôlei (PDT), que concorreu à reeleição, mas não conseguiu a vaga.</p><h2>Damares, Michelle e Bia fazem parte do mesmo grupo</h2><p>Damares, Michelle e Bia fazem parte do mesmo grupo político. As três se identificam como nomes da direita e apoiadoras do ex-presidente Jair Bolsonaro (PL), marido de Michelle Bolsonaro, que foi condenado por tentativa de golpe de Estado e está em prisão domiciliar.</p><p>Durante a campanha, Michelle e Bia apostaram em propagandas eleitorais em conjunto, exibindo sempre os dois nomes para o eleitor, inclusive com jingles feitos em parceria. As novas eleitas tomarão posse no Senado em fevereiro de 2027.</p><p>Com 96% das urnas apuradas, Michele tinha mais de 896 mil votos (29%). Em seguida aparece Bia Kicis, com mais de 847 mil votos (27,4%). Em terceiro lugar, Leila do Vôlei (PDT), que ficou de fora do Legislativo, tinha 658,4 mil votos (21,3 mil).</p><p>O Senado passou mais de 150 anos sem uma mulher ocupando as cadeiras que representam os Estados da Federação no Congresso Nacional</p><p>Quaest: Michelle tem 31%, Leila, 27%, e Bia Kicis, 24%, no Senado do DF</p><p>Erika Kokay registra 17% dos votos válidos; eleitores escolherão dois senadores neste domingo</p><p>Quatro integrantes da família Bolsonaro são eleitos para o Congresso</p><p>Conheça o Dr. Daniel Santos, governador eleito do Pará em primeiro turno</p><p>Saiba quem é Raquel Lyra, governadora reeleita em Pernambuco</p><p>Quem é Eduardo Braide, governador eleito no Maranhão</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/politica/distrito-federal-e-a-primeira-unidade-federativa-a-ter-tres-mulheres-no-senado/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Distrito Federal entrou para a história neste domingo (4) e será a primeira Unidade da Federação a ter três senadoras mulheres na história do Brasil. Com a eleição de Michelle Bolsonaro (PL) e Bia Kicis (PL), as duas se juntam à senadora Damares Alves (Republicanos) na bancada do DF no Senado."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Em 202 anos de história, o Senado teve 78 senadoras. A primeira foi Eunice Michiles (AM), de 1979 a 1987. O Senado passou mais de 150 anos sem uma mulher ocupando as cadeiras que representam os Estados da Federação no Congresso Nacional."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "No Distrito Federal, terminarão os mandatos atuais Izalci Lucas (PL), que concorreu a deputado federal, e Leila do Vôlei (PDT), que concorreu à reeleição, mas não conseguiu a vaga."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Damares, Michelle e Bia fazem parte do mesmo grupo político. As três se identificam como nomes da direita e apoiadoras do ex-presidente Jair Bolsonaro (PL), marido de Michelle Bolsonaro, que foi condenado por tentativa de golpe de Estado e está em prisão domiciliar."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Durante a campanha, Michelle e Bia apostaram em propagandas eleitorais em conjunto, exibindo sempre os dois nomes para o eleitor, inclusive com jingles feitos em parceria. As novas eleitas tomarão posse no Senado em fevereiro de 2027."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/Damares-Alves-Michelle-Bolsonaro-e-Bia-Kicis-senadoras-do-DF.jpg?w=1000&h=600&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/distrito-federal-e-a-primeira-unidade-federativa-a-ter-tres-mulheres-no-senado-jovem-pan.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "c50b1972a4289a9f",
-      "titulo": "Liderança de Flávio faz fundo de Ibovespa disparar quase 10% em Tóquio | G1",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "g1 - Capa",
-      "urlFonte": "https://g1.globo.com/economia/noticia/2026/10/04/lideranca-de-flavio-bolsonaro-faz-fundo-de-ibovespa-disparar-quase-10percent-em-toquio.ghtml",
-      "dataFonte": "2026-10-05T02:35:47.759Z",
-      "resumoFonte": "Investidores avaliam que cresce chance de mudança na condução econômica e alta na Ásia é prenúncio de dia de euforia no mercado financeiro.",
-      "imagem": "https://s2-g1.glbimg.com/a3Ac97sbXpOcK3H5fSMFOxD4SFw=/4927x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/1/V0iSAGQlqTvi6oQVW3dg/afp-20261005-d28g6nk-v1-highres-brazilelectionvote.jpg",
-      "descobertaEm": "2026-10-05T03:20:35.612Z"
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/5-candidatos-negros-sao-eleitos-governadores-no-1o-turno-veja-lista.ghtml",
+      "dataFonte": "2026-10-05T03:44:23.000Z",
+      "resumoFonte": "Elmano de Freitas, governador do Ceará, e JHC, governador de Alagoas Thiago Gadelha/SVM e Lucas Leite/g1 O resultado do 1º turno das eleições de 2026 confirmou a vitória de cinco governadores que se declararam negros no Tribunal Superior Eleitoral (TSE). Em 2022, nove chefes de Executivo estadual que se declaravam negros foram eleitos no 1º turno.…",
+      "imagem": "https://s2-g1.glbimg.com/rjyimR5UIWQVKp5fh8OO_STti8w=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/B/u548RQT6AfihbonecsCg/fotos-g1-1920-x-1080-px-2026-10-05t003502.258.png",
+      "descobertaEm": "2026-10-05T04:18:08.736Z"
     },
     {
       "id": "49cfb2d972337a9e",
@@ -1031,81 +1307,21 @@
       "resumoFonte": "É #FAKE que Mendonça alterou locais de votação em reduto lulista no Rio Reprodução Circula nas redes sociais um post afirmando que André Mendonça, ministro do Supremo Tribunal Federal (STF) e vice-presidente do Tribunal Superior Eleitoral (TSE), autorizou \"a mudança de locais de votos dos moradores de uma das comunidades mais lulistas do Rio de…",
       "imagem": "https://s2-g1.glbimg.com/Wram4Vn7zZbFjDcp1NoffjRVu-U=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/W/LIW5hHQ4qum7mRAhYX7w/55545366678-be34bcc3dc-k.jpg",
       "descobertaEm": "2026-10-05T03:17:58.496Z"
-    },
-    {
-      "id": "91084a823b002538",
-      "titulo": "PL vai querer a Presidência da Câmara e do Senado, diz Arko Advice",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/pl-vai-querer-a-presidencia-da-camara-e-do-senado-diz-arko-advice/",
-      "dataFonte": "2026-10-05T02:26:48.000Z",
-      "resumoFonte": "Ao WW, o CEO da Arko Advice, Murillo de Aragão, afirma que articulações sobre impeachment no STF, anistia do 8/1 e emendas serão decisivas",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/SESSAO-CONGRESSO-21-05-26.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-05T03:17:58.496Z",
-      "reportagem": {
-        "titulo": "PL vai querer a Presidência da Câmara e do Senado, diz Arko Advice",
-        "slug": "pl-vai-querer-a-presidencia-da-camara-e-do-senado-diz-arko-advice",
-        "categoria": "Justiça",
-        "data": "2026-10-04",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/pl-vai-querer-a-presidencia-da-camara-e-do-senado-diz-arko-advice.jpg",
-        "resumo": "Ao WW, o CEO da Arko Advice, Murillo de Aragão, afirma que articulações sobre impeachment no STF, anistia do 8/1 e emendas serão decisivas",
-        "conteudo": "<p>O cientista político Murillo de Aragão, CEO da Arko Advice, avaliou, ao WW Especial , que o PL irá buscar a presidência da Câmara dos Deputados e do Senado Federal após as eleições.</p><h2>Ele afirmou que o desempenho eleitoral do partido justifica</h2><p>Ele afirmou que o desempenho eleitoral do partido justifica essa ambição, mas alertou que a conquista das cadeiras de comando das duas casas legislativas não será simples.</p><p>Segundo Aragão, o PL tende a se articular com partidos do centro para viabilizar sua candidatura à presidência das duas casas. &quot;Obviamente, o PL , pelo desempenho, vai querer ter a presidência&quot;, afirmou.</p><p>&quot;Isso é uma tendência de que ele tente se organizar com os demais partidos do centro para ocupar a presidência da Câmara — e no Senado, a mesma coisa.&quot;</p><h2>Analista destacou que o cenário político será fortemente influenciado</h2><p>O analista destacou que o cenário político será fortemente influenciado por três questões em discussão no Judiciário: o impeachment de ministros do STF (Supremo Tribunal Federal), a anistia aos envolvidos nos atos do 8 de janeiro e as investigações sobre emendas parlamentares ao orçamento da União.</p><p>Para Aragão, as lideranças que emergirem do novo Congresso precisarão considerar suas posições em relação a esses três temas antes de pleitear o comando das casas legislativas.</p><p>Aragão chamou atenção ainda para o impacto das investigações conduzidas pelo ministro Flávio Dino sobre as emendas parlamentares.</p><p>Segundo ele, quase 70 parlamentares estão envolvidos nessas apurações, entre reeleitos e não reeleitos, o que representa uma fonte adicional de tensão entre o Congresso e o STF .</p><p>&quot;Isso também gera uma ponta de atrito entre Congresso e Supremo que não vai estar resolvida e que somente agregará mais tensão a este relacionamento&quot;, disse.</p><p>Para o analista, um bom desempenho nas urnas não será suficiente para garantir o comando das casas legislativas.</p><p>&quot;Não é uma decisão simples e que apenas, naturalmente, as lideranças que foram bem votadas e que tenham tido um desempenho eleitoral positivo seja suficiente para levá-las ao comando das casas&quot;, afirmou Aragão.</p><p>Ele concluiu que &quot;vão ter que existir articulações muito importantes considerando os três temas&quot;: o relacionamento com o STF, o impeachment de ministros, a questão da anistia e as investigações sobre as emendas ao orçamento da União.</p><p>PL vai querer a Presidência da Câmara e do Senado, diz Arko Advice | WW ESPECIAL</p><p>O cientista político Murillo de Aragão, CEO da Arko Advice, avaliou, ao WW Especial , que o PL irá buscar a presidência da Câmara dos Deputados e do Senado Federal após as eleições.</p><p>Ele afirmou que o desempenho eleitoral do partido justifica essa ambição, mas alertou que a conquista das cadeiras de comando das duas casas legislativas não será simples.</p><p>Segundo Aragão, o PL tende a se articular com partidos do centro para viabilizar sua candidatura à presidência das duas casas. &quot;Obviamente, o PL , pelo desempenho, vai querer ter a presidência&quot;, afirmou.</p><p>&quot;Isso é uma tendência de que ele tente se organizar com os demais partidos do centro para ocupar a presidência da Câmara — e no Senado, a mesma coisa.&quot; Leia Mais</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/pl-vai-querer-a-presidencia-da-camara-e-do-senado-diz-arko-advice/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O cientista político Murillo de Aragão, CEO da Arko Advice, avaliou, ao WW Especial , que o PL irá buscar a presidência da Câmara dos Deputados e do Senado Federal após as eleições. Ele afirmou que o desempenho eleitoral do partido justifica essa ambição, mas alertou que a conquista das cadeiras de comando das duas casas legislativas não será simples."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Segundo Aragão, o PL tende a se articular com partidos do centro para viabilizar sua candidatura à presidência das duas casas. &quot;Obviamente, o PL , pelo desempenho, vai querer ter a presidência&quot;, afirmou."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "&quot;Isso é uma tendência de que ele tente se organizar com os demais partidos do centro para ocupar a presidência da Câmara — e no Senado, a mesma coisa.&quot;"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O analista destacou que o cenário político será fortemente influenciado por três questões em discussão no Judiciário: o impeachment de ministros do STF (Supremo Tribunal Federal), a anistia aos envolvidos nos atos do 8 de janeiro e as investigações sobre emendas parlamentares ao orçamento da União."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Para Aragão, as lideranças que emergirem do novo Congresso precisarão considerar suas posições em relação a esses três temas antes de pleitear o comando das casas legislativas."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/SESSAO-CONGRESSO-21-05-26.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/pl-vai-querer-a-presidencia-da-camara-e-do-senado-diz-arko-advice.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
     }
   ],
-  "reapuradoEm": "2026-10-05T04:48:22.569Z",
+  "reapuradoEm": "2026-10-05T05:48:42.291Z",
   "diagnosticoReapuracao": {
-    "produzidas": 16,
+    "produzidas": 19,
     "jaProntas": 0,
-    "incompletas": 10,
+    "incompletas": 13,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 16,
+    "geradas": 19,
     "reaproveitadas": 0,
-    "puladas": 10,
+    "puladas": 13,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-10-05T04:49:32.527Z"
+  "lapisEm": "2026-10-05T05:50:13.839Z"
 }
