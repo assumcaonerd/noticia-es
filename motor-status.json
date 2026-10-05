@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-05T01:00:24.070Z",
+  "atualizadoEm": "2026-10-05T01:17:45.957Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 106,
+  "novasPautas": 96,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -288,7 +288,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 14,
+      "encontrados": 16,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -321,9 +321,9 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 25,
-      "rota": "https://www.cnnbrasil.com.br/feed/",
-      "fallback": false
+      "encontrados": 23,
+      "rota": "https://admin.cnnbrasil.com.br/feed/",
+      "fallback": true
     },
     {
       "fonte": "Poder360 - Feed",
@@ -374,8 +374,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-05T01:04:34.433Z",
-    "novas": 5,
+    "atualizadoEm": "2026-10-05T01:20:47.376Z",
+    "novas": 1,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -384,8 +384,8 @@
       },
       {
         "fonte": "YouTube Folha Vitória",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube ALES",
@@ -404,8 +404,8 @@
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
@@ -435,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-05T01:04:36.259Z",
+    "atualizadoEm": "2026-10-05T01:20:48.607Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-05T01:04:37.522Z",
+    "atualizadoEm": "2026-10-05T01:20:49.384Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-05T01:04:48.081Z",
+    "atualizadoEm": "2026-10-05T01:20:59.955Z",
     "novas": 0,
     "fontes": [
       {
