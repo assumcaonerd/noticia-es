@@ -1,76 +1,376 @@
 {
-  "geradoEm": "2026-10-05T07:48:02.904Z",
+  "geradoEm": "2026-10-05T09:48:32.315Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 0,
-    "bloqueadasEditoriais": 1,
+    "bloqueadasEditoriais": 2,
     "semImagem": 0,
-    "duplicadasBasicas": 6,
-    "duplicadasSemanticas": 2,
-    "foraCategorias": 44
+    "duplicadasBasicas": 1,
+    "duplicadasSemanticas": 0,
+    "foraCategorias": 46
   },
-  "quantidadeCandidatas": 27,
+  "quantidadeCandidatas": 31,
   "candidatas": [
     {
-      "id": "8dd4df103730ac7c",
-      "titulo": "Filhos, mulher e parentes: como foi a eleição da família Bolsonaro",
+      "id": "5c3e824981bbadf6",
+      "titulo": "Com a máquina na mão e o apoio de Casagrande, por que Ricardo ficou para trás?",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/colunas/leticia-goncalves/com-a-maquina-na-mao-e-o-apoio-de-casagrande-por-que-ricardo-ficou-para-tras-1026",
+      "dataFonte": "2026-10-05T07:38:55.000Z",
+      "resumoFonte": "Emedebista ainda está no páreo, disputa o governo do ES no 2º turno contra Lorenzo Pazolini. Mas o resultado de domingo (4) tem sabor de derrota",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1791144316128_whatsapp_image_2026_10_04_at_17.jpeg",
+      "descobertaEm": "2026-10-05T09:17:58.374Z"
+    },
+    {
+      "id": "af11205d032be696",
+      "titulo": "Veja como se saíram governadores e senadores que disputaram outros cargos na eleição de 2026",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/brasil/filhos-mulher-e-parentes-como-foi-a-eleicao-da-familia-bolsonaro",
-      "dataFonte": "2026-10-05T07:17:58.000Z",
-      "resumoFonte": "Clã elegeu quatro nomes na Câmara e no Senado. Dois ficaram como suplentes. Flávio Bolsonaro avançou ao segundo turno da corrida ao Planalto",
-      "imagem": "https://i.metroimg.com/bAuVdqUpF8R1xPCBZxxfCtOBXIbQdLdTYJWiKPZKNR4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/familia-bolsonaro.jpg",
-      "descobertaEm": "2026-10-05T07:18:02.003Z"
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/resultados-governadores-e-senadores-que-disputaram-outros-cargos-eleicao-2026.ghtml",
+      "dataFonte": "2026-10-05T08:06:06.000Z",
+      "resumoFonte": "Flavio Bolsonaro (PL) e Lula (PT) vão ao segundo turno, e eleição presidencial será decidida dia 25 de outubro Nas eleições de 2026, sete governadores e 12 senadores disputaram cargos diferentes dos que ocupavam antes da disputa. Entre esses nomes, sete foram eleitos neste domingo (4), e outros quatro passaram para o segundo turno, marcado para 25…",
+      "imagem": "https://s2-g1.glbimg.com/ECS-or1VBN6QaA93rvNFK1_UEes=/4023x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/R/AWT6SwTcyzVVJQYrYpbg/ton-molina.jpg",
+      "descobertaEm": "2026-10-05T09:17:58.374Z"
     },
     {
-      "id": "6d8a00a25f9a80b5",
-      "titulo": "Prazo para sacar o dinheiro nas bets termina nesta segunda; veja perguntas e respostas",
+      "id": "c2a1ef6530795131",
+      "titulo": "Flávio à frente de Lula domina mercado, com PMI e Focus na agenda desta segunda",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/economia/noticia/2026/10/05/prazo-para-sacar-o-dinheiro-nas-bets-termina-nesta-segunda.ghtml",
-      "dataFonte": "2026-10-05T05:12:45.000Z",
-      "resumoFonte": "Governo anuncia proibição das bets no Brasil Com a proibição de apostas e jogos virtuais online, como o \"jogo do tigrinho\", os apostadores terão até as 23h59 desta segunda-feira (5) para retirar os valores mantidos nas plataformas. Caso os apostadores percam o prazo — ou seja, não resgatem os valores até 5 de outubro —, a devolução será feita…",
-      "imagem": "https://s2-g1.glbimg.com/q8JlyJxxxAgTxfYgj1KZrd0AqKQ=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/l/j/A15LXkRK2IA5i4CCV7AA/thumb-fotos-2026-08-10t130151.958.jpg",
-      "descobertaEm": "2026-10-05T06:17:48.854Z"
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/mercados/eleicao-pmi-focus-agenda-05102026/",
+      "dataFonte": "2026-10-05T08:56:50.000Z",
+      "resumoFonte": "(Foto: Ricardo Stuckert / PR e Adriano Machado / Reuters) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/08/eleicoes2026-pesquisa-lula-flavio-01.jpg?fit=1120%2C720&quality=70&strip=all\" />InfoMoney reúne as principais informações que devem movimentar os mercados nesta segunda-feira (5) The post Flávio à frente de Lula…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/08/eleicoes2026-pesquisa-lula-flavio-01.jpg",
+      "descobertaEm": "2026-10-05T09:17:58.374Z",
+      "reportagem": {
+        "titulo": "Flávio à frente de Lula domina mercado, com PMI e Focus na agenda desta segunda",
+        "slug": "flavio-a-frente-de-lula-domina-mercado-com-pmi-e-focus-na-agenda-desta-segunda",
+        "categoria": "Economia",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/flavio-a-frente-de-lula-domina-mercado-com-pmi-e-focus-na-agenda-desta-segunda.jpg",
+        "resumo": "InfoMoney reúne as principais informações que devem movimentar os mercados nesta segunda-feira (5)",
+        "conteudo": "<p>O mercado deve iniciar a segunda-feira (5) com viés positivo após o resultado do primeiro turno das eleições presidenciais, que colocou o senador Flávio Bolsonaro (PL) à frente do presidente Luiz Inácio Lula da Silva (PT).</p><h2>EWZ, principal ETF brasileiro negociado nos Estados Unidos e</h2><p>O EWZ, principal ETF brasileiro negociado nos Estados Unidos e que acompanha o índice MSCI Brazil , chegou a subir mais de 10% no after market em Nova York, sinalizando uma forte reação inicial dos ativos brasileiros.</p><p>Flávio ficou cerca de 47,03% dos votos válidos, ante 45,16% de Lula, resultado que contrariou a liderança numérica atribuída ao atual presidente pela maior parte das pesquisas na reta final da campanha.</p><p>Na véspera, Datafolha, Quaest e AtlasIntel indicavam Lula à frente. Na pesquisa AtlasIntel/Bloomberg, por exemplo, Lula aparecia com 47% dos votos válidos, contra 44,1% de Flávio.</p><h2>Definição do segundo turno manterá a política no centro</h2><p>A definição do segundo turno manterá a política no centro das atenções dos mercados, especialmente diante da necessidade dos investidores reavaliarem cenários para política econômica e fiscal.</p><p>Migração de indecisos e de eleitores da direita ajuda a explicar diferença em relação aos levantamentos</p><p>Senador do PL supera o presidente no primeiro turno; pesquisas da reta final já apontavam segunda votação e mostravam confronto direto equilibrado</p><p>No cenário doméstico, a agenda econômica começa a semana com poucos indicadores.</p><p>O destaque fica para o PMI global, com dados referentes ao Brasil, que ajudam a medir o ritmo da atividade econômica, e para uma nova edição semanal do Boletim Focus, do Banco Central, que reúne as projeções do mercado para inflação, atividade, câmbio e juros.</p><p>No exterior, também serão divulgados dados do PMI dos Estados Unidos, indicador acompanhado pelo mercado para avaliar a evolução da atividade econômica e do setor privado.</p><p>A bolsa de valores de São Paulo encerrou a sexta-feira em forte alta, avançando além dos 190 mil pontos, com os investidores ajustando posições antes do primeiro turno das eleições presidenciais no fim de semana.</p><p>Índice de referência do mercado acionário brasileiro, o Ibovespa fechou em alta de 2,63%, a 192.114,55 pontos.</p><p>Às 9h30, os diretores do Banco Central Nilton David e Paulo Picchetti participam de reunião trimestral com economistas.</p><p>08:25 — BCB: Relatório Focus (semanal) Período: Semanal</p><p>10:00 — S&amp;P Global: Índice PMI composto Período: Setembro</p><p>10:45 — S&amp;P Global: Índice PMI composto Período: Setembro</p><p>11:00 — Índice ISM do setor de serviços Período: Setembro</p><p>A ⁠Guarda Costeira dos EUA ⁠interceptou um grande navio de carga que ‌transportava combustível com destino a Cuba, enquanto o embargo petrolífero devastador imposto pelo ‌governo Trump contra a nação insular continua, informou o New York Times nesta sexta-feira.</p><p>A embarcação de 91 metros de comprimento, chamada “Grace”, foi interceptada no Mar do Caribe, entre ⁠Cuba ‌e o México, em 5 de ⁠setembro, após utilizar manobras da “frota oculta” na tentativa de escapar das autoridades, segundo a reportagem, citando um comunicado da Guarda Costeira.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/mercados/eleicao-pmi-focus-agenda-05102026/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O mercado deve iniciar a segunda-feira (5) com viés positivo após o resultado do primeiro turno das eleições presidenciais, que colocou o senador Flávio Bolsonaro (PL) à frente do presidente Luiz Inácio Lula da Silva (PT). O EWZ, principal ETF brasileiro negociado nos Estados Unidos e que acompanha o índice MSCI Brazil , chegou a subir mais de 10% no after m"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Flávio ficou cerca de 47,03% dos votos válidos, ante 45,16% de Lula, resultado que contrariou a liderança numérica atribuída ao atual presidente pela maior parte das pesquisas na reta final da campanha."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Na véspera, Datafolha, Quaest e AtlasIntel indicavam Lula à frente. Na pesquisa AtlasIntel/Bloomberg, por exemplo, Lula aparecia com 47% dos votos válidos, contra 44,1% de Flávio. A definição do segundo turno manterá a política no centro das atenções dos mercados, especialmente diante da necessidade dos investidores reavaliarem cenários para política econômi"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Migração de indecisos e de eleitores da direita ajuda a explicar diferença em relação aos levantamentos"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Senador do PL supera o presidente no primeiro turno; pesquisas da reta final já apontavam segunda votação e mostravam confronto direto equilibrado"
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/08/eleicoes2026-pesquisa-lula-flavio-01.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/flavio-a-frente-de-lula-domina-mercado-com-pmi-e-focus-na-agenda-desta-segunda.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
-      "id": "1339f2e696d668c8",
-      "titulo": "Ingressos para shows do Festival Estilo Brasil já estão à venda",
-      "categoria": "Cultura",
+      "id": "28c839c2f660ade7",
+      "titulo": "'Virada surpreendente': como imprensa internacional repercutiu vitória de Flávio Bolsonaro sobre Lula no 1º turno",
+      "categoria": "Cidades",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/metropoles-music/ingressos-estilo-brasil-a-venda",
-      "dataFonte": "2026-10-05T06:00:53.000Z",
-      "resumoFonte": "Evento une grandes ícones da MPB, novos talentos do pop nacional e uma atração internacional no Centro de Convenções Ulysses Guimarães",
-      "imagem": "https://i.metroimg.com/Anh8q1ncQ2grK0baKtOhzvTJeHVFuJ2jy-IcosbwXQE/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/festival-estilo-brasil-2026.jpg",
-      "descobertaEm": "2026-10-05T06:17:48.854Z"
+      "fonteNome": "BBC Brasil",
+      "urlFonte": "https://www.bbc.com/portuguese/articles/ckj0l4dgd24lo?at_medium=RSS&at_campaign=rss",
+      "dataFonte": "2026-10-05T08:58:41.000Z",
+      "resumoFonte": "Jornais da Europa, da América Latina, do Oriente Médio e da Ásia destacaram o erro das pesquisas e apontaram o senador como favorito para o segundo turno.",
+      "imagem": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/01c3/live/ae9c8fd0-c087-11f1-a4af-19dbf5352a59.jpg",
+      "descobertaEm": "2026-10-05T09:17:58.374Z",
+      "reportagem": {
+        "titulo": "Eleição no Brasil: como a imprensa internacional repercutiu a vitória de Flávio Bolsonaro sobre Lula no 1º turno - BBC News Brasil",
+        "slug": "eleicao-no-brasil-como-a-imprensa-internacional-repercutiu-a-vitoria-de-flavio-bolsonaro-s",
+        "categoria": "Cidades",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/eleicao-no-brasil-como-a-imprensa-internacional-repercutiu-a-vitoria-de-flavio-bolsonaro-s.jpg",
+        "resumo": "Jornais da Europa, da América Latina, do Oriente Médio e da Ásia destacaram o erro das pesquisas e apontaram o senador como favorito para o segundo turno.",
+        "conteudo": "<p>Acompanhe a apuração para presidente e governador em seu Estado e município com o mapa interativo da BBC News Brasil</p><h2>Senador Flávio Bolsonaro (PL) terminou o primeiro turno</h2><p>O senador Flávio Bolsonaro (PL) terminou o primeiro turno da eleição presidencial à frente do presidente Luiz Inácio Lula da Silva (PT) , contrariando as pesquisas, que davam leve vantagem ao petista.</p><p>Com 99,9% das urnas apuradas, Flávio teve 47,05% dos votos válidos e Lula , 45,13%, o que equivale a cerca de 56,1 milhões de votos contra 53,8 milhões. Os dois voltam a se enfrentar em 25 de outubro.</p><p>Lula classificou o resultado como inesperado e admitiu que estava convencido de que venceria já no domingo. Flávio disse que o resultado mostra que o Brasil quer mudança. A direita também teve um desempenho expressivo nas disputas para o Congresso e para os governos estaduais .</p><h2>Veja abaixo como veículos de diferentes partes do mundo</h2><p>Veja abaixo como veículos de diferentes partes do mundo noticiaram o resultado.</p><p>O jornal argentino Clarín descreveu o resultado como &quot;uma virada surpreendente e dramática&quot;. O francês Le Monde observou que, assim como em 2018, as pesquisas subestimaram a força da direita.</p><p>Em reportagem de seus correspondentes, o jornal também resumiu a noite com o título &quot;Lula pagou o preço do descontentamento dos eleitores&quot;.</p><p>O britânico Financial Times afirmou que Flávio está em &quot;pole position&quot; [a posição de largada mais vantajosa numa corrida] para vencer a eleição.</p><p>Segundo analistas ouvidos pelo jornal, as chances do senador são maiores porque a maioria dos outros candidatos do primeiro turno vem de partidos de direita. O Guardian, também britânico, foi na mesma linha.</p><p>Para o jornal, Flávio deve se beneficiar da migração de votos de candidatos como Ronaldo Caiado (2,1%) e Renan Santos (2,2%).</p><p>A emissora France 24 reforçou essa leitura com um dado histórico. Segundo a cientista política Carolina Botelho, da UERJ, o primeiro colocado no primeiro turno venceu todas as eleições presidenciais desde o fim da ditadura.</p><p>A rede catariana Al Jazeera trouxe um contraponto, com base em análise da agência Reuters. Flávio pode ter recebido já no domingo o &quot;voto útil&quot; antipetista que se esperava apenas no segundo turno.</p><p>Para o analista político Rafael Favetti, isso o beneficia agora, mas reduz seu potencial de crescimento até 25 de outubro, porque esse apoio foi antecipado. A emissora também lembra que Caiado e Renan Santos já disseram que não vão apoiar nenhum dos dois candidatos.</p><p>O Clarín deu destaque à abstenção, de cerca de 21%, e a interpretou como um voto de castigo dos eleitores de baixa renda, tradicionalmente fiéis a Lula, sufocados por dívidas. Segundo o jornal, oito em cada dez famílias recorrem a empréstimos para cobrir necessidades básicas.</p><p>O texto também ressalta que esta foi a campanha com menor mobilização desde a redemocratização e a primeira sem debates entre os principais candidatos.</p><p>A France 24 ouviu eleitores pouco convictos, como uma cuidadora de 62 anos que pretendia votar em Lula, como sempre, mas mudou de ideia diante da urna, &quot;só para ver se alguma coisa muda&quot;.</p><p>O Guardian descreveu uma visita a um bar de esquerda em Laranjeiras, no Rio de Janeiro. Ali, apoiadores de Lula esperavam comemorar ao som de samba, mas acabaram em lágrimas.</p><p>Ao lado do bar, uma bandeira com o rosto de Lula pedia uma guinada à esquerda. O Brasil, conclui o jornal, votou por uma guinada à extrema direita.</p><p>Segundo o Guardian, Donald Trump se tornou um tema central da eleição. O jornal relata que Lula acusou o presidente americano de tentar influenciar o resultado a favor de Bolsonaro para &quot;colonizar&quot; o Brasil e se apropriar de seus recursos naturais.</p><p>Ainda de acordo com o Guardian, Trump espera que uma vitória da direita ajude a consolidar o controle dos EUA sobre a América Latina, depois da eleição de líderes alinhados a ele no Chile, na Colômbia e no Peru.</p><p>O Clarín foi além e disse que os EUA fizeram uma aposta total em Flávio, com apoio público do secretário de Estado, Marco Rubio.</p><p>O jornal lembra que, desde a chegada de Trump ao poder, todas as sete eleições presidenciais na região foram vencidas por candidatos alinhados a Washington, e que o Brasil é o prato principal dessa estratégia.</p>",
+        "fonteNome": "BBC Brasil",
+        "fonteUrl": "https://www.bbc.com/portuguese/articles/ckj0l4dgd24lo?at_medium=RSS&at_campaign=rss",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Acompanhe a apuração para presidente e governador em seu Estado e município com o mapa interativo da BBC News Brasil"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O senador Flávio Bolsonaro (PL) terminou o primeiro turno da eleição presidencial à frente do presidente Luiz Inácio Lula da Silva (PT) , contrariando as pesquisas, que davam leve vantagem ao petista. Com 99,9% das urnas apuradas, Flávio teve 47,05% dos votos válidos e Lula , 45,13%, o que equivale a cerca de 56,1 milhões de votos contra 53,8 milhões. Os doi"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Lula classificou o resultado como inesperado e admitiu que estava convencido de que venceria já no domingo. Flávio disse que o resultado mostra que o Brasil quer mudança. A direita também teve um desempenho expressivo nas disputas para o Congresso e para os governos estaduais ."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Veja abaixo como veículos de diferentes partes do mundo noticiaram o resultado."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O jornal argentino Clarín descreveu o resultado como &quot;uma virada surpreendente e dramática&quot;. O francês Le Monde observou que, assim como em 2018, as pesquisas subestimaram a força da direita. Em reportagem de seus correspondentes, o jornal também resumiu a noite com o título &quot;Lula pagou o preço do descontentamento dos eleitores&quot;."
+          }
+        ],
+        "imagemOriginal": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/01c3/live/ae9c8fd0-c087-11f1-a4af-19dbf5352a59.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/eleicao-no-brasil-como-a-imprensa-internacional-repercutiu-a-vitoria-de-flavio-bolsonaro-s.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
-      "id": "916923672d8220f5",
-      "titulo": "Brasileirão volta após a Data Fifa com briga pelo posto de melhor garçom",
-      "categoria": "Esporte",
+      "id": "b45e614d60cacdf0",
+      "titulo": "ASSISTA: Eleições 2026: live do InfoMoney analisa o 1º turno e a reação dos mercados",
+      "categoria": "Tecnologia",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/esportes/brasileirao-volta-apos-a-data-fifa-com-briga-pelo-posto-de-melhor-garcom",
-      "dataFonte": "2026-10-05T05:00:59.000Z",
-      "resumoFonte": "Brasileirão ficou paralisado durante a Super Data Fifa de 2026, com exceção de dois jogos atrasados da 21ª rodada",
-      "imagem": "https://i.metroimg.com/hJpoY1u1RhBSj8BNMIAfsR-drTeQrjWMoR1NMH-IogQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/campeonato-brasileiro-brasileirao-andreas-pereira-josue-lideranca-de-assistencias.jpg",
-      "descobertaEm": "2026-10-05T05:17:52.257Z"
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/politica/assista-eleicoes-2026-live-do-infomoney-analisa-o-1o-turno-e-a-reacao-dos-mercados/",
+      "dataFonte": "2026-10-05T08:00:00.000Z",
+      "resumoFonte": "Ilustração criada para representar o comportamento do mercado brasileiro na reta final do 1º turno das eleições de 2026, com urna eletrônica, gráficos de Bolsa, bandeira do Brasil e elementos ligados ao dólar. Imagem gerada com uso de IA. \" data-image-caption=\" Urna eletrônica, gráficos de mercado e referência ao dólar ilustram a cautela dos…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/09/Imagem-do-ChatGPT-28-de-set.-de-2026-19_11_53.jpg?fit=1672%2C941&quality=70&strip=all",
+      "descobertaEm": "2026-10-05T08:17:58.071Z",
+      "reportagem": {
+        "titulo": "ASSISTA: Eleições 2026: live do InfoMoney analisa o 1º turno e a reação dos mercados",
+        "slug": "assista-eleicoes-2026-live-do-infomoney-analisa-o-1-turno-e-a-reacao-dos-mercados",
+        "categoria": "Tecnologia",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/assista-eleicoes-2026-live-do-infomoney-analisa-o-1-turno-e-a-reacao-dos-mercados.jpg",
+        "resumo": "Especialistas em política e investimentos comentam os resultados da votação, os cenários para o segundo turno e os impactos sobre Bolsa, dólar, juros e governabilidade",
+        "conteudo": "<p>O InfoMoney realiza, a partir das 9h30 desta segunda-feira (5), uma live especial para analisar os resultados do primeiro turno das eleições de 2026 e acompanhar a reação dos mercados à nova configuração da disputa eleitoral.</p><h2>Transmissão reunirá as equipes de Política e Mercados</h2><p>A transmissão reunirá as equipes de Política e Mercados do InfoMoney para acompanhar os primeiros movimentos da Bolsa, do dólar e dos juros após a votação de domingo (4).</p><p>Além do desempenho dos candidatos à Presidência, a live discutirá os resultados das eleições para os governos estaduais, a Câmara dos Deputados e o Senado, bem como o que a nova composição política sinaliza para a etapa final da corrida eleitoral e para a governabilidade a partir de 2027.</p><p>No bloco de política, participam Josué Medeiros , cientista político, e Leopoldo Vieira , cientista político e CEO da IdealPolitik.</p><h2>Análise de mercados contará com Bruno Benassi , analista</h2><p>A análise de mercados contará com Bruno Benassi , analista de ativos da Monte Bravo, e Dyego Galdino , CEO da Global 360 Invest.</p><p>Os especialistas discutirão como os investidores interpretam o resultado das urnas e quais sinais devem ser observados nos primeiros negócios da semana.</p><p>A transmissão também acompanhará de que forma as expectativas para a continuidade da disputa presidencial serão refletidas nos preços dos ativos.</p><p>A cobertura especial ocorre após uma campanha marcada por uma corrida acirrada à Presidência e por uma atenção crescente à composição do Congresso Nacional, com as 513 cadeiras da Câmara dos Deputados e 54 das 81 vagas do Senado em disputa neste primeiro turno.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/politica/assista-eleicoes-2026-live-do-infomoney-analisa-o-1o-turno-e-a-reacao-dos-mercados/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/"
+          },
+          {
+            "nome": "MCTI",
+            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O InfoMoney realiza, a partir das 9h30 desta segunda-feira (5), uma live especial para analisar os resultados do primeiro turno das eleições de 2026 e acompanhar a reação dos mercados à nova configuração da disputa eleitoral."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A transmissão reunirá as equipes de Política e Mercados do InfoMoney para acompanhar os primeiros movimentos da Bolsa, do dólar e dos juros após a votação de domingo (4)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Além do desempenho dos candidatos à Presidência, a live discutirá os resultados das eleições para os governos estaduais, a Câmara dos Deputados e o Senado, bem como o que a nova composição política sinaliza para a etapa final da corrida eleitoral e para a governabilidade a partir de 2027."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "No bloco de política, participam Josué Medeiros , cientista político, e Leopoldo Vieira , cientista político e CEO da IdealPolitik."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A análise de mercados contará com Bruno Benassi , analista de ativos da Monte Bravo, e Dyego Galdino , CEO da Global 360 Invest."
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/09/Imagem-do-ChatGPT-28-de-set.-de-2026-19_11_53.jpg?fit=1672%2C941&quality=70&strip=all",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/assista-eleicoes-2026-live-do-infomoney-analisa-o-1-turno-e-a-reacao-dos-mercados.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
-      "id": "b6fd8b30617391f8",
-      "titulo": "A reação no STF depois da vitória da direita no Senado",
+      "id": "4a95366679fbec0e",
+      "titulo": "Bancada pró-impeachment de ministros do STF deve chegar a 49 senadores",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/no-ponto/a-reacao-no-stf-depois-da-vitoria-da-direita-no-senado/",
-      "dataFonte": "2026-10-05T06:00:00.000Z",
-      "resumoFonte": "A aparência é de normalidade. Por baixo dela, contudo, ministros do Supremo Tribunal Federal (STF) ainda digerem — e mal — a vitória da direita no Senado. Oeste apurou que magistrados estão \"visivelmente incomodados\" e \"silenciosos\". No 1º turno, o Partido Liberal ocupou 19 cadeiras e, com isso, a partir de 2027, terá 28 assentos — somando-se a…",
-      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
-      "descobertaEm": "2026-10-05T06:17:48.854Z"
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/brasil/bancada-pro-impeachment-de-ministros-do-stf-deve-chegar-a-49-senadores",
+      "dataFonte": "2026-10-05T09:19:33.000Z",
+      "resumoFonte": "Para que um impeachment de ministro seja aprovado, são necessários 54 votos favoráveis no plenário do Senado",
+      "imagem": "https://i.metroimg.com/eQVzUNs-PppnpDmocKfGC8iw1pd6V1yYYbd8k6Oi6-4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/03/Plenario-Senado-Federal.jpg",
+      "descobertaEm": "2026-10-05T09:17:58.374Z"
+    },
+    {
+      "id": "a19ce2bcb2788568",
+      "titulo": "Brasil entrará na ‘prorrogação’ das eleições, diz Lula, falando em vitória",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/politica/brasil-entrara-na-prorrogacao-das-eleicoes-diz-lula-falando-em-vitoria/",
+      "dataFonte": "2026-10-05T09:10:29.000Z",
+      "resumoFonte": "O presidente brasileiro e candidato à reeleição pelo Partido dos Trabalhadores (PT), Luiz Inácio Lula da Silva, segura a bandeira nacional ao lado do vice-presidente Geraldo Alckmin ao chegar para votar nas eleições gerais em São Bernardo do Campo, Brasil, em 4 de outubro de 2026. REUTERS/Amanda Perobelli \"…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-04T122320Z_465391442_RC2BWNA16J0Q_RTRMADP_3_BRAZIL-ELECTION.jpg",
+      "descobertaEm": "2026-10-05T09:17:58.374Z"
+    },
+    {
+      "id": "d73e56a5e17bea4b",
+      "titulo": "Com Zucco e Tarcísio, país terá pela primeira vez na democracia 2 governadores oriundos do Exército",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/com-zucco-e-tarcisio-pais-tera-pela-primeira-vez-na-democracia-2-governadores-oriundos-do-exercito.shtml",
+      "dataFonte": "2026-10-05T07:00:00.000Z",
+      "resumoFonte": "Oito anos depois da onda de militarização da política a reboque do bolsonarismo, dois oficiais da reserva do Exército foram eleitos governadores. Além do novo mandato conquistado em São Paulo pelo capitão Tarcísio de Freitas (Republicanos), a novidade é a vitória do tenente-coronel Luciano Zucco (PL), eleito governador do Rio Grande do Sul. Leia…",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/04/17911632086ac2fb481297e_1791163208_3x2_lg.jpg",
+      "descobertaEm": "2026-10-05T07:08:22.231Z",
+      "reportagem": {
+        "titulo": "Com Zucco e Tarcísio, país terá pela primeira vez na democracia 2 governadores oriundos do Exército",
+        "slug": "com-zucco-e-tarcisio-pais-tera-pela-primeira-vez-na-democracia-2-governadores-oriundos-do-",
+        "categoria": "Política ES",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/com-zucco-e-tarcisio-pais-tera-pela-primeira-vez-na-democracia-2-governadores-oriundos-do-.jpg",
+        "resumo": "Com Zucco e Tarcísio, país terá pela primeira vez na democracia 2 governadores oriundos do Exército. Registro original em Folha de S.Paulo - Poder. A Redação Notícia ES reapurou a pauta para a editoria Política ES.",
+        "conteudo": "<p>Oito anos depois da onda de militarização da política a reboque do bolsonarismo, dois oficiais da reserva do Exército foram eleitos governadores.</p><h2>Além do novo mandato conquistado em São Paulo pelo</h2><p>Além do novo mandato conquistado em São Paulo pelo capitão Tarcísio de Freitas (Republicanos), a novidade é a vitória do tenente-coronel Luciano Zucco (PL), eleito governador do Rio Grande do Sul.</p><p>Desde o retorno da democracia, nunca dois políticos oriundos das Forças Armadas ocuparam ao mesmo tempo a chefia do Executivo de dois estados importantes.</p><p>A coincidência ocorre na primeira eleição após a condenação e prisão de militares de altas patentes das Forças Armadas por tentativa de golpe em 2022.</p><h2>Tarcísio, 51, e Zucco, 52, guardam entre si outra</h2><p>Tarcísio, 51, e Zucco, 52, guardam entre si outra particularidade: são da mesma turma da Aman (Academia Militar das Agulhas Negras), principal escola de formação de oficiais do Exército. Concluíram o curso, tornando-se aspirantes a oficiais, em 1996.</p><p>Zucco é da arma de Cavalaria, e Tarcísio, da engenharia. Integraram a mesma turma Wagner Rosário, conselheiro do TCE-SP (Tribunal de Contas do Estado de São Paulo), ex-ministro da CGU (Controladoria-Geral da União) nos governos Temer e Bolsonaro, e Arthur Lima, secretário de Justiça do governo de SP.</p><p>Tarcísio e Zucco ingressaram na política na onda bolsonarista que varreu o país em 2018, mas naquela época já guardavam entre si uma diferença significativa.</p><p>O primeiro, ao ser nomeado ministro da Infraestrutura por Jair Bolsonaro, tinha largado a farda para entrar no serviço público dez anos antes, em 2008. Já Zucco pulou dos quartéis direto para a política.</p><p>Além da bênção do candidato a presidente, Zucco teve como principal padrinho em 2018 o general Hamilton Mourão (vice de Bolsonaro e hoje senador pelo Republicanos-RS), que antes mesmo de passar à reserva gravou um vídeo de apoio ao tenente-coronel, ambos fardados, contrariando as regras militares.</p><p>Outra diferença é que, nas duas primeiras eleições que disputou, Zucco lançou mão de sua patente, se apresentando nas urnas como \"Tenente-coronel Zucco\", mais uma vez contrariando as leis que regem os militares.</p><p>Em 2018, foi o deputado estadual mais votado do RS, pelo PSL –e passou automaticamente à reserva, como determina a legislação. Em 2022, pelo Republicanos, foi o deputado federal mais votado do estado.</p><p>Agora, ao concorrer ao governo pelo PL, abandonou a patente, algo que Tarcísio já fizera desde a sua primeira disputa, em 2022.</p><p>\"O Zucco se preparou muito bem para essa eleição. Juntou apoio de diversos partidos. Rodou o estado todo e manteve um discurso coerente e focado. Soube explorar a polarização nacional a seu favor, bem como a alma patriótica do gaúcho. O resultado está aí\", disse Mourão à Folha .</p><p>Indagado sobre ter tido papel fundamental para alçar Zucco à política, o general revelou modéstia. \"Fui um humilde indutor do crescimento dele.\"</p><p>Antes de se lançar à política, Zucco atuou no GSI (Gabinete de Segurança Institucional) de 2010 a 2016 na equipe responsável pela segurança presidencial durante o governo de Dilma Rousseff .</p><p>Receba no seu email destaques das campanhas, pesquisas e disputas nos estados</p><p>Na Câmara dos Deputados, Zucco foi líder da oposição ao governo Lula em 2025. Durante o mandato parlamentar, ganhou projeção nacional ao presidir a CPI do MST , quando lideranças de esquerda o acusaram de tentar criminalizar o movimento.</p><p>Apesar do alinhamento com o bolsonarismo, Zucco evitou nacionalizar a disputa ao governo no primeiro turno, com poucas menções a Flávio Bolsonaro e foco em pautas estaduais nas propagandas de televisão.</p><p>Zucco também criticou a gestão de Eduardo Leite durante as enchentes que atingiram o Rio Grande do Sul em maio de 2024 . Na ocasião, afirmou que o governador não havia dado a devida importância aos alertas sobre a tragédia e defendeu maior investimento em prevenção.</p><p>Filho de um capitão do Exército, o governador eleito do RS é irmão do general de divisão Marcelo Lorenzini Zucco, comandante da 2ª Divisão do Exército, com sede em São Paulo e subordinada ao Comando Militar do Sudeste.</p><p>Ao TSE, nem Tarcísio nem Zucco declararam ser militares ao informarem suas ocupações –o primeiro disse ser governador e o segundo, deputado. São exceções. Grande parte dos candidatos oriundos das Forças Armadas e das forças de segurança usam as patentes como apelo nas urnas.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/com-zucco-e-tarcisio-pais-tera-pela-primeira-vez-na-democracia-2-governadores-oriundos-do-exercito.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Assembleia Legislativa do ES",
+            "url": "https://www.al.es.gov.br/"
+          },
+          {
+            "nome": "Governo do Estado do ES",
+            "url": "https://www.es.gov.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Oito anos depois da onda de militarização da política a reboque do bolsonarismo, dois oficiais da reserva do Exército foram eleitos governadores. Além do novo mandato conquistado em São Paulo pelo capitão Tarcísio de Freitas (Republicanos), a novidade é a vitória do tenente-coronel Luciano Zucco (PL), eleito governador do Rio Grande do Sul."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Desde o retorno da democracia, nunca dois políticos oriundos das Forças Armadas ocuparam ao mesmo tempo a chefia do Executivo de dois estados importantes. A coincidência ocorre na primeira eleição após a condenação e prisão de militares de altas patentes das Forças Armadas por tentativa de golpe em 2022."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Tarcísio, 51, e Zucco, 52, guardam entre si outra particularidade: são da mesma turma da Aman (Academia Militar das Agulhas Negras), principal escola de formação de oficiais do Exército. Concluíram o curso, tornando-se aspirantes a oficiais, em 1996."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Zucco é da arma de Cavalaria, e Tarcísio, da engenharia. Integraram a mesma turma Wagner Rosário, conselheiro do TCE-SP (Tribunal de Contas do Estado de São Paulo), ex-ministro da CGU (Controladoria-Geral da União) nos governos Temer e Bolsonaro, e Arthur Lima, secretário de Justiça do governo de SP."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Tarcísio e Zucco ingressaram na política na onda bolsonarista que varreu o país em 2018, mas naquela época já guardavam entre si uma diferença significativa. O primeiro, ao ser nomeado ministro da Infraestrutura por Jair Bolsonaro, tinha largado a farda para entrar no serviço público dez anos antes, em 2008. Já Zucco pulou dos quartéis direto para a política"
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/04/17911632086ac2fb481297e_1791163208_3x2_lg.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/com-zucco-e-tarcisio-pais-tera-pela-primeira-vez-na-democracia-2-governadores-oriundos-do-.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "f75d059a7038ffa5",
+      "titulo": "'Ligeirinhos': veja quem foram os primeiros candidatos eleitos na apuração",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/ligeirinhos-veja-quem-foram-os-primeiros-candidatos-eleitos-na-apuracao.ghtml",
+      "dataFonte": "2026-10-05T07:14:02.000Z",
+      "resumoFonte": "Flavio Bolsonaro (PL) e Lula (PT) vão ao segundo turno, e eleição presidencial será decidida dia 25 de outubro Os nomes dos primeiros eleitos de 2026 saíram menos de 1h30 depois do fechamento dos locais de votação. A eleição de Reinaldo Azambuja e Capitão Contar, candidatos do PL para o Senado por Mato Grosso do Sul, foi confirmada às 18h29…",
+      "imagem": "https://s2-g1.glbimg.com/MgGRzMD7-6_1bVyjWcKzvaqTNrQ=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/I/9xoA8sSYSMS74bImzNmA/261005-info-ligeirinho-1-.png",
+      "descobertaEm": "2026-10-05T08:17:58.071Z"
+    },
+    {
+      "id": "ad83026f891216b7",
+      "titulo": "Revés no 1º turno força Lula a rever estratégia de campanha contra Flávio Bolsonaro",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/reves-no-1o-turno-forca-lula-a-rever-estrategia-de-campanha-contra-flavio-bolsonaro.shtml",
+      "dataFonte": "2026-10-05T07:00:00.000Z",
+      "resumoFonte": "O presidente Lula ( PT ) atribuiu o mau resultado obtido no primeiro turno da eleição presidencial, no qual terminou com menos votos que Flávio Bolsonaro ( PL ), a problemas na comunicação de sua campanha, que deve passar por uma reformulação. Leia mais (10/05/2026 - 04h00)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/03/17910635036ac175cfcdf4e_1791063503_3x2_rt.jpg",
+      "descobertaEm": "2026-10-05T07:08:22.231Z",
+      "reportagem": {
+        "titulo": "Revés no 1º turno força Lula a rever estratégia de campanha contra Flávio Bolsonaro",
+        "slug": "reves-no-1-turno-forca-lula-a-rever-estrategia-de-campanha-contra-flavio-bolsonaro",
+        "categoria": "Política Nacional",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/reves-no-1-turno-forca-lula-a-rever-estrategia-de-campanha-contra-flavio-bolsonaro.jpg",
+        "resumo": "Petistas avaliam acirrar disputa contra adversário em estados com tendência conservadora",
+        "conteudo": "<p>O presidente Lula ( PT ) atribuiu o mau resultado obtido no primeiro turno da eleição presidencial, no qual terminou com menos votos que Flávio Bolsonaro ( PL ), a problemas na comunicação de sua campanha, que deve passar por uma reformulação.</p><h2>Campanha petista avalia ter perdido terreno nos grandes centros,</h2><p>A campanha petista avalia ter perdido terreno nos grandes centros, como Minas Gerais e São Paulo. Além disso, deve trazer para dentro da campanha aliados como a ex-presidente do PT Gleisi Hoffmann, derrotada na eleição ao Senado no Paraná.</p><p>Integrantes da campanha veem como essencial aumentar a rejeição do eleitorado a Flávio. As pesquisas de opinião mostram que os candidatos bolsonarista e petista têm níveis de rejeição semelhantes.</p><p>Lula acompanhou quase toda apuração de votos de um hotel em São Paulo. A previsão é de que ele volte a Brasília na manhã desta segunda-feira (5), e há expectativa de uma reunião do comando da campanha no período da tarde.</p><h2>Na primeira declaração após a apuração, na noite</h2><p>Na primeira declaração após a apuração, na noite de domingo, Lula disse que o resultado foi inesperado e que, a partir de segunda, \"começa uma nova campanha\".</p><p>\"O resultado muitas vezes é inesperado, a gente nunca consegue tudo aquilo que queria. Eu confesso para vocês que estava convencido que ia ganhar a eleição no primeiro turno\", disse, mantendo publicamente um tom confiante.</p><p>O presidente da República afirmou que no segundo turno começa uma nova campanha, só entre os dois. \"Apenas entre dois candidatos a gente vai poder mostrar a diferença das propostas que a gente tem para o Brasil\", afirmou.</p><p>O ministro José Guimarães (Relações Institucionais) afirmou ser necessário reforçar a busca de apoio dos partidos de centro para derrotar Flávio Bolsonaro na etapa decisiva.</p><p>Desde a redemocratização, em 1989, nenhum candidato a presidente que terminou o primeiro turno na liderança perdeu uma eleição.</p><p>A comunicação, especificamente, foi um assunto que causou atritos em diversos momentos da campanha. Há três, às vezes quatro, núcleos nesse setor, que não agem de forma coordenada.</p><p>Esses grupos são capitaneados pelos marqueteiros Sidônio Palmeira e Raul Rebelo, pelo fotógrafo Ricardo Stuckert, pela responsável pelas redes sociais do PT, Nicole Briones, e até pela primeira-dama, Janja Lula da Silva.</p><p>Inicialmente, a ideia do entorno de Lula era uma campanha de segundo turno que reforçasse a comparação entre os governos petistas e a gestão de Jair Bolsonaro (PL), pai de Flávio. Também era previsto foco nas regiões Sul e Sudeste.</p><p>Esse cenário, porém, foi traçado antes da votação de domingo (4). Nas últimas semanas, as pesquisas mostravam um cenário acirrado, com crescimento de Flávio, mas Lula sempre aparecia numericamente à frente nas intenções de voto.</p><p>A avaliação dos petistas era que Lula terminaria a primeira etapa à frente de Flávio. Ou seja, trata-se de um plano feito para um cenário diferente do atual, e que poderá ser revisto.</p><p>Com 99,35% das urnas apuradas, o filho do ex-presidente Jair Bolsonaro tinha 47,16% dos votos e Lula, 45,01%.</p><p>O grupo político do presidente da República chegou ao fim de semana da eleição embalado graças ao alto comparecimento de apoiadores nos últimos atos de campanha de Lula, principalmente em Recife, Belém, Salvador e São Paulo.</p><p>No domingo da eleição, porém, o clima foi mudando. Diversos aliados de Lula relataram à reportagem ao longo do dia de votação estarem aflitos e chegaram a temer que Flávio pudesse ser eleito no primeiro turno.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/reves-no-1o-turno-forca-lula-a-rever-estrategia-de-campanha-contra-flavio-bolsonaro.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O presidente Lula ( PT ) atribuiu o mau resultado obtido no primeiro turno da eleição presidencial, no qual terminou com menos votos que Flávio Bolsonaro ( PL ), a problemas na comunicação de sua campanha, que deve passar por uma reformulação."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A campanha petista avalia ter perdido terreno nos grandes centros, como Minas Gerais e São Paulo. Além disso, deve trazer para dentro da campanha aliados como a ex-presidente do PT Gleisi Hoffmann, derrotada na eleição ao Senado no Paraná."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Integrantes da campanha veem como essencial aumentar a rejeição do eleitorado a Flávio. As pesquisas de opinião mostram que os candidatos bolsonarista e petista têm níveis de rejeição semelhantes."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Lula acompanhou quase toda apuração de votos de um hotel em São Paulo. A previsão é de que ele volte a Brasília na manhã desta segunda-feira (5), e há expectativa de uma reunião do comando da campanha no período da tarde."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Na primeira declaração após a apuração, na noite de domingo, Lula disse que o resultado foi inesperado e que, a partir de segunda, \"começa uma nova campanha\"."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/03/17910635036ac175cfcdf4e_1791063503_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/reves-no-1-turno-forca-lula-a-rever-estrategia-de-campanha-contra-flavio-bolsonaro.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
       "id": "3f123ec00c72537f",
@@ -205,50 +505,50 @@
       "descobertaEm": "2026-10-05T07:08:22.231Z"
     },
     {
-      "id": "ee9d0f654312972a",
-      "titulo": "Veja os estados onde Flávio Bolsonaro e Lula abriram as maiores vantagens",
+      "id": "2562e704930fcdea",
+      "titulo": "Com mais de um terço das cadeiras, domínio do PL no Senado desafia o Supremo",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/veja-os-estados-onde-flavio-bolsonaro-e-lula-abriram-as-maiores-vantagens.ghtml",
-      "dataFonte": "2026-10-05T05:06:05.000Z",
-      "resumoFonte": "Flavio Bolsonaro (PL) e Lula (PT) vão ao segundo turno, e eleição presidencial será decidida dia 25 de outubro Os candidatos Flávio Bolsonaro (PL) e Luiz Inácio Lula da Silva (PT) vão disputar o segundo turno das eleições presidenciais. Com 99,99% das urnas apuradas, Flávio tinha 56,1 milhões de votos (47,03%), e Lula, 53,8 milhões de votos…",
-      "imagem": "https://s2-g1.glbimg.com/U9FaHapxu88xSkJBvOEFCY0nSUA=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/Z/0nZ0s3TVmydSHAgN4KHw/flavio-lula-1-.jpg",
-      "descobertaEm": "2026-10-05T05:17:52.257Z"
+      "fonteNome": "O Globo - Capa",
+      "urlFonte": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/05/com-mais-de-um-terco-das-cadeiras-dominio-do-pl-no-senado-desafia-o-supremo.ghtml",
+      "dataFonte": "2026-10-05T06:30:00.440Z",
+      "resumoFonte": "Partido de Flávio Bolsonaro vai de 15 a 28 cadeiras e poderá pressionar por avanço de pautas como o impeachment de integrantes da Corte",
+      "imagem": "https://s2-oglobo.glbimg.com/0055B6PtquTq5ayf4n60mmQvD6s=/1400x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/f/g/4Fz2yYSmWOWgBCI4sN4g/montagem-1791076255930.jpg",
+      "descobertaEm": "2026-10-05T09:21:44.243Z"
     },
     {
-      "id": "759ca8b0660a6876",
-      "titulo": "Flávio Bolsonaro supera 50% dos votos válidos no DF e em 13 estados, e Lula, em 9",
+      "id": "4f3883c3cc16afda",
+      "titulo": "Corrida da apuração: Flávio Bolsonaro chegou a ter dobro da vantagem aberta pelo pai contra Lula em 2022; veja evolução",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/1-turno-flavio-bolsonaro-lula-estados-maioria.ghtml",
-      "dataFonte": "2026-10-05T05:00:51.000Z",
-      "resumoFonte": "Flavio Bolsonaro (PL) e Lula (PT) vão ao segundo turno, e eleição presidencial será decidida dia 25 de outubro Os candidatos Flávio Bolsonaro (PL) e Luiz Inácio Lula da Silva (PT) vão disputar o segundo turno das eleições presidenciais. Com 99,99% das urnas apuradas, Flávio tinha 56,1 milhões de votos (47,03%), e Lula, 53,8 milhões de votos…",
-      "imagem": "https://s2-g1.glbimg.com/WgGl8T1TFQQhxuiVaThKEbonoWg=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/3/8XYHQzQsiPYFNlAQax5A/flavio-lula-2.jpg",
-      "descobertaEm": "2026-10-05T05:17:52.257Z"
+      "fonteNome": "O Globo - Capa",
+      "urlFonte": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/05/corrida-da-apuracao-flavio-bolsonaro-chegou-a-ter-dobro-da-vantagem-aberta-pelo-pai-contra-lula-em-2022-veja-evolucao.ghtml",
+      "dataFonte": "2026-10-05T06:30:00.385Z",
+      "resumoFonte": "Dados do TSE mostram que presidenciável do PL neste ano chegou a abrir dez pontos para o petista, mas viu diferença encolher na reta final",
+      "imagem": "https://s2-oglobo.glbimg.com/losXQbyI7QrqIhOc2XxYfpv4QC8=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/6/F/AFVAEARGWQgsUZZfBDVg/whatsapp-image-2026-10-04-at-21.56.20.jpeg",
+      "descobertaEm": "2026-10-05T08:19:59.854Z"
     },
     {
-      "id": "9a6b90258097c72a",
-      "titulo": "As cidades de São Paulo onde Flávio Bolsonaro venceu e onde Lula ficou na frente",
+      "id": "bd9856fbe7dcc884",
+      "titulo": "Brasil tem maior onda de direita pós-ditadura",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/10/05/as-cidades-de-sao-paulo-onde-flavio-bolsonaro-venceu-e-onde-lula-ficou-na-frente.ghtml",
-      "dataFonte": "2026-10-05T04:55:54.000Z",
-      "resumoFonte": "Flávio Bolsonaro e Lula Evaristo Sá/AFP e Amanda Perobelli/Reuters Flávio Bolsonaro (PL) venceu em 605 cidades de São Paulo no primeiro turno da eleição presidencial de 2026, enquanto Lula (PT) ficou na frente em 39 municípios, segundo o levantamento de apuração com 100% das urnas. A capital paulista foi uma das cidades em que o presidente venceu.…",
-      "imagem": "https://s2-g1.glbimg.com/U9FaHapxu88xSkJBvOEFCY0nSUA=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/Z/0nZ0s3TVmydSHAgN4KHw/flavio-lula-1-.jpg",
-      "descobertaEm": "2026-10-05T05:17:52.257Z",
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-eleicoes-2026/brasil-tem-maior-onda-de-direita-pos-ditadura/",
+      "dataFonte": "2026-10-05T09:00:27.000Z",
+      "resumoFonte": "Flávio terminou o 1º turno à frente de Lula, o Congresso terá 4 Bolsonaros em 2027 e 1/3 do Senado será do PL",
+      "imagem": "https://static.poder360.com.br/uploads/2026/10/prismada-tarcisio-flavio-michelle-1200x675.jpg",
+      "descobertaEm": "2026-10-05T09:17:58.374Z",
       "reportagem": {
-        "titulo": "As cidades de São Paulo onde Flávio Bolsonaro venceu e onde Lula ficou na frente | G1",
-        "slug": "as-cidades-de-sao-paulo-onde-flavio-bolsonaro-venceu-e-onde-lula-ficou-na-frente-g1",
+        "titulo": "Brasil tem maior onda de direita pós-ditadura",
+        "slug": "brasil-tem-maior-onda-de-direita-pos-ditadura",
         "categoria": "Política Nacional",
         "data": "2026-10-05",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/as-cidades-de-sao-paulo-onde-flavio-bolsonaro-venceu-e-onde-lula-ficou-na-frente-g1.jpg",
-        "resumo": "Candidato do PL foi o mais votado na maioria dos municípios paulistas; petista ganhou em 39 cidades, incluindo a capital, segundo levantamento com 100% das urnas.",
-        "conteudo": "<p>Flávio Bolsonaro e Lula — Foto: Evaristo Sá/AFP e Amanda Perobelli/Reuters</p><h2>Flávio Bolsonaro (PL) venceu em 605 cidades</h2><p>Flávio Bolsonaro (PL) venceu em 605 cidades de São Paulo no primeiro turno da eleição presidencial de 2026, enquanto Lula (PT) ficou na frente em 39 municípios, segundo o levantamento de apuração com 100% das urnas.</p><p>A capital paulista foi uma das cidades em que o presidente venceu.</p><p>O resultado mostra uma vantagem de Flávio no interior e em grande parte da região metropolitana. Lula, por sua vez, concentrou suas vitórias principalmente em municípios da Grande São Paulo e em algumas cidades do interior e do Vale do Ribeira.</p><h2>Américo Brasiliense Areias Bananal Caiuá Carapicuíba Castilho Coronel Macedo</h2><p>Américo Brasiliense Areias Bananal Caiuá Carapicuíba Castilho Coronel Macedo Cubatão Diadema Dolcinópolis Embu das Artes Euclides da Cunha Paulista Ferraz de Vasconcelos Francisco Morato Franco da Rocha Gastão Vidigal Gavião Peixoto Guapiara Iporanga Itaoca Itapecerica da Serra Itapevi Itapura Itaquaquecetuba Marabá Paulista Mauá Mirante do Paranapanema Populina Ribeira Rio Grande da Serra Rosana Sandovalina Santa Lúcia São Bernardo do Campo São José do Barreiro São João de Iracema Taboão da Serra Teodoro Sampaio</p><p>Flávio ficou na frente nas demais cidades listadas no levantamento, incluindo grandes municípios como Campinas, Guarulhos, Osasco, Santos, São José dos Campos, Sorocaba, Ribeirão Preto, São José do Rio Preto, Bauru, Piracicaba, Jundiaí, Mogi das Cruzes e Santo André.</p><p>Entre as cidades em que o candidato do PL venceu também estão municípios do litoral, como Santos, Guarujá, Praia Grande, São Vicente, Caraguatatuba, Ubatuba e Ilhabela, além de cidades do interior e da região metropolitana.</p><p>Na cidade de São Paulo, Lula venceu Flávio Bolsonaro por uma diferença de pouco mais de quatro pontos percentuais: 46,58% a 42,13%. Foram cerca de 3 milhões de votos para o presidente e 2,7 milhões para o candidato do PL.</p><p>O resultado também se refletiu nas zonas eleitorais: Lula venceu em 35 zonas, enquanto Flávio ficou na frente em 22.</p><p>A cidade onde Flávio Bolsonaro alcançou seu maior percentual foi Saltinho, com 78,71% dos votos. Lula teve seu melhor desempenho proporcional em Itapura, com 62,57%.</p>",
-        "fonteNome": "g1 - Política",
-        "fonteUrl": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/10/05/as-cidades-de-sao-paulo-onde-flavio-bolsonaro-venceu-e-onde-lula-ficou-na-frente.ghtml",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/brasil-tem-maior-onda-de-direita-pos-ditadura.jpg",
+        "resumo": "Flávio terminou o 1º turno à frente de Lula, o Congresso terá 4 Bolsonaros em 2027 e 1/3 do Senado será do PL. Leia no Poder360.",
+        "conteudo": "<p>Flávio terminou o 1º turno à frente de Lula, o Congresso terá 4 Bolsonaros em 2027 e 1/3 do Senado será do PL</p><h2>Eleições de 2026 mostram uma guinada à direita inédita</h2><p>As eleições de 2026 mostram uma guinada à direita inédita no cenário político brasileiro desde o fim da ditadura militar, em 1985.</p><p>O senador e candidato do PL ao Planalto, Flávio Bolsonaro , terminou o 1º turno à frente do presidente Luiz Inácio Lula da Silva (PT): 47,03% X 45,16%.</p><p>Recebeu 5 milhões de votos a mais que o pai, o ex-presidente Jair Bolsonaro (PL), em 2022 . O 2º turno será em 25 de outubro.</p><h2>Vantagem de Flávio para Lula é de só 1,87</h2><p>A vantagem de Flávio para Lula é de só 1,87 ponto percentual. É a menor diferença entre o 1º e o 2º colocado desde a 1ª eleição direta desde 1989.</p><p>A disputa pela Presidência nunca teve uma virada desde que passou a contar com 2º turno. Ou seja, quem terminou a 1ª etapa à frente foi eleito presidente.</p><p>A maior onda da direita depois da ditadura militar (1964-1985) não se resume ao 1º turno da eleição presidencial. O Congresso Nacional terá 4 Bolsonaros em 2027 e o PL (mesmo com a apuração ainda em andamento), a maior bancada:</p><p>O partido de Flávio Bolsonaro terá 28 senadores em 2027 . É mais que o triplo da 2ª maior bancada da Casa, a do PT, com 9. Foram eleitos 19 no domingo (4.out).</p><p>Há ainda nomes que não são do partido, mas estão alinhados à direita. É o caso de Marcel van Hattem (Novo), Deltan Dallagnol (Novo) e Guilherme Derrite (Republicanos).</p><p>Entre os senadores eleitos, houve algumas dobradinhas:</p><p>Dos 7 Estados da região, 5 serão chefiados ou permanecerão sob o comando da direita a partir de 6 de janeiro de 2027. O maior colégio eleitoral do país, São Paulo, reelegeu Tarcísio de Freitas (Republicanos).</p><p>Em Minas Gerais , deu Cleitinho (Republicanos) no 1º turno.</p><p>No Rio de Janeiro, houve uma surpresa. O candidato apoiado por Flávio, Douglas Ruas (PL), disputará o 2º turno Eduardo Paes (PSD). Há, no entanto, uma pendência.</p><p>O Tribunal Superior Eleitoral precisa definir o que será da candidatura de Anthony Garotinho (Republicanos), que concorreu sub judice.</p><p>Se os votos do ex-governador forem anulados, Ruas terá mais de 50% dos votos válidos e será considerado o vencedor do pleito –e será mais um político de direita a governar um Estado no Sudeste.</p><p>Dos 20 governadores eleitos ou reeleitos no 1º turno, 13 são de direita.</p><p>Brasil tem maior onda de direita pós-ditadura Flávio terminou o 1º turno à frente de Lula, o Congresso terá 4 Bolsonaros em 2027 e 1/3 do Senado será do PL --> copiar link --></p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-eleicoes-2026/brasil-tem-maior-onda-de-direita-pos-ditadura/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -263,30 +563,294 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Flávio Bolsonaro e Lula — Foto: Evaristo Sá/AFP e Amanda Perobelli/Reuters"
+            "resposta": "Flávio terminou o 1º turno à frente de Lula, o Congresso terá 4 Bolsonaros em 2027 e 1/3 do Senado será do PL"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Flávio Bolsonaro (PL) venceu em 605 cidades de São Paulo no primeiro turno da eleição presidencial de 2026, enquanto Lula (PT) ficou na frente em 39 municípios, segundo o levantamento de apuração com 100% das urnas. A capital paulista foi uma das cidades em que o presidente venceu."
+            "resposta": "As eleições de 2026 mostram uma guinada à direita inédita no cenário político brasileiro desde o fim da ditadura militar, em 1985. O senador e candidato do PL ao Planalto, Flávio Bolsonaro , terminou o 1º turno à frente do presidente Luiz Inácio Lula da Silva (PT): 47,03% X 45,16%. Recebeu 5 milhões de votos a mais que o pai, o ex-presidente Jair Bolsonaro ("
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O resultado mostra uma vantagem de Flávio no interior e em grande parte da região metropolitana. Lula, por sua vez, concentrou suas vitórias principalmente em municípios da Grande São Paulo e em algumas cidades do interior e do Vale do Ribeira."
+            "resposta": "A vantagem de Flávio para Lula é de só 1,87 ponto percentual. É a menor diferença entre o 1º e o 2º colocado desde a 1ª eleição direta desde 1989. A disputa pela Presidência nunca teve uma virada desde que passou a contar com 2º turno. Ou seja, quem terminou a 1ª etapa à frente foi eleito presidente."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Américo Brasiliense Areias Bananal Caiuá Carapicuíba Castilho Coronel Macedo Cubatão Diadema Dolcinópolis Embu das Artes Euclides da Cunha Paulista Ferraz de Vasconcelos Francisco Morato Franco da Rocha Gastão Vidigal Gavião Peixoto Guapiara Iporanga Itaoca Itapecerica da Serra Itapevi Itapura Itaquaquecetuba Marabá Paulista Mauá Mirante do Paranapanema Popu"
+            "resposta": "A maior onda da direita depois da ditadura militar (1964-1985) não se resume ao 1º turno da eleição presidencial. O Congresso Nacional terá 4 Bolsonaros em 2027 e o PL (mesmo com a apuração ainda em andamento), a maior bancada:"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Flávio ficou na frente nas demais cidades listadas no levantamento, incluindo grandes municípios como Campinas, Guarulhos, Osasco, Santos, São José dos Campos, Sorocaba, Ribeirão Preto, São José do Rio Preto, Bauru, Piracicaba, Jundiaí, Mogi das Cruzes e Santo André."
+            "resposta": "O partido de Flávio Bolsonaro terá 28 senadores em 2027 . É mais que o triplo da 2ª maior bancada da Casa, a do PT, com 9. Foram eleitos 19 no domingo (4.out). Há ainda nomes que não são do partido, mas estão alinhados à direita. É o caso de Marcel van Hattem (Novo), Deltan Dallagnol (Novo) e Guilherme Derrite (Republicanos)."
           }
         ],
-        "imagemOriginal": "https://s2-g1.glbimg.com/U9FaHapxu88xSkJBvOEFCY0nSUA=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/Z/0nZ0s3TVmydSHAgN4KHw/flavio-lula-1-.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/as-cidades-de-sao-paulo-onde-flavio-bolsonaro-venceu-e-onde-lula-ficou-na-frente-g1.jpg",
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/prismada-tarcisio-flavio-michelle-1200x675.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/brasil-tem-maior-onda-de-direita-pos-ditadura.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
+    },
+    {
+      "id": "6707280ff90c29a9",
+      "titulo": "Senado terá recorde de 18 mulheres a partir de 2027",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/politica/senado-tera-recorde-de-18-mulheres-a-partir-de-2027/",
+      "dataFonte": "2026-10-05T09:00:00.000Z",
+      "resumoFonte": "Doze mulheres foram eleitas neste domingo (4) e se juntarão a outras 6 senadoras com mandato até 2031",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/02/plenario-do-senado-federal-1.jpg?w=1000&h=630&crop=1",
+      "descobertaEm": "2026-10-05T09:17:58.374Z",
+      "reportagem": {
+        "titulo": "Senado terá recorde de 18 mulheres a partir de 2027 | Jovem Pan",
+        "slug": "senado-tera-recorde-de-18-mulheres-a-partir-de-2027-jovem-pan",
+        "categoria": "Política Nacional",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/senado-tera-recorde-de-18-mulheres-a-partir-de-2027-jovem-pan.jpg",
+        "resumo": "Doze mulheres foram eleitas neste domingo (4) e se juntarão a outras 6 senadoras com mandato até 2031",
+        "conteudo": "<p>O Senado terá 18 mulheres a partir de 2027, a maior presença feminina já registrada na Casa. Doze senadoras foram eleitas neste domingo (4) e se juntarão a outras 6 que têm mandato até 2031.</p><h2>Mulheres passarão a ocupar 22% das 81 cadeiras</h2><p>As mulheres passarão a ocupar 22% das 81 cadeiras do Senado. Atualmente, a Casa Alta tem 15 senadoras, o equivalente a 18% do total. A nova composição representa um aumento de 3 cadeiras.</p><p>As 12 mulheres eleitas também representam um recorde para uma única eleição ao Senado. A maior marca anterior havia sido registrada em 2002, quando 8 mulheres foram eleitas. Em 2018, última eleição em que 2/3 das cadeiras da Casa estavam em disputa, foram 7.</p><p>Foram eleitas representantes por Acre, Alagoas, Amapá, Ceará, Distrito Federal, Goiás, Minas Gerais, Pernambuco, Roraima e Santa Catarina.</p><h2>Distrito Federal foi a única unidade</h2><p>O Distrito Federal foi a única unidade da Federação a eleger 2 mulheres para o Senado neste ano: Michelle Bolsonaro (PL) e Bia Kicis (PL). As 12 mulheres eleitas para o Senado neste domingo são:</p><p>As novas senadoras tomarão posse em fevereiro de 2027 e terão mandato de 8 anos, até 2035.</p><p>Com a nova composição, haverá mulheres representando 15 unidades da Federação no Senado: Acre, Alagoas, Amapá, Ceará, Distrito Federal, Goiás, Maranhão, Minas Gerais, Pernambuco, Piauí, Mato Grosso do Sul e Tocantins.</p><p>Doze mulheres foram eleitas neste domingo (4) e se juntarão a outras 6 senadoras com mandato até 2031</p><p>Senado renova dois terços das vagas sob disputa acirrada</p><p>A eleição para o Senado é uma das prioridades do grupo ligado ao ex-presidente Jair Bolsonaro (PL)</p><p>Lula vence em 52 países e territórios; Flávio lidera em 32 no exterior</p><p>Flávio lidera em 15 estados e Lula em 12 no 1º turno; veja o mapa da eleição</p><p>Nikolas Ferreira lidera ranking dos deputados mais votados do país; veja top 20</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/politica/senado-tera-recorde-de-18-mulheres-a-partir-de-2027/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Senado terá 18 mulheres a partir de 2027, a maior presença feminina já registrada na Casa. Doze senadoras foram eleitas neste domingo (4) e se juntarão a outras 6 que têm mandato até 2031."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "As mulheres passarão a ocupar 22% das 81 cadeiras do Senado. Atualmente, a Casa Alta tem 15 senadoras, o equivalente a 18% do total. A nova composição representa um aumento de 3 cadeiras."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "As 12 mulheres eleitas também representam um recorde para uma única eleição ao Senado. A maior marca anterior havia sido registrada em 2002, quando 8 mulheres foram eleitas. Em 2018, última eleição em que 2/3 das cadeiras da Casa estavam em disputa, foram 7."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Foram eleitas representantes por Acre, Alagoas, Amapá, Ceará, Distrito Federal, Goiás, Minas Gerais, Pernambuco, Roraima e Santa Catarina. O Distrito Federal foi a única unidade da Federação a eleger 2 mulheres para o Senado neste ano: Michelle Bolsonaro (PL) e Bia Kicis (PL). As 12 mulheres eleitas para o Senado neste domingo são:"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "As novas senadoras tomarão posse em fevereiro de 2027 e terão mandato de 8 anos, até 2035."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/02/plenario-do-senado-federal-1.jpg?w=1000&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/senado-tera-recorde-de-18-mulheres-a-partir-de-2027-jovem-pan.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "b2e38e4054e73dbc",
+      "titulo": "Flávio elege 30 apoiados para o Senado; Lula, 18",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/politica/flavio-elege-30-apoiados-para-o-senado-lula-18/",
+      "dataFonte": "2026-10-05T09:00:00.000Z",
+      "resumoFonte": "Candidatos que estão no 2º turno da disputa presidencial tiveram 46 dos 54 nomes apoiados eleitos para o Senado",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/Mapa-eleitoral_-aliados-de-Flavio-e-Lula.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-05T09:17:58.374Z",
+      "reportagem": {
+        "titulo": "Flávio elege 30 apoiados para o Senado; Lula, 18 | Jovem Pan",
+        "slug": "flavio-elege-30-apoiados-para-o-senado-lula-18-jovem-pan",
+        "categoria": "Política Nacional",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/flavio-elege-30-apoiados-para-o-senado-lula-18-jovem-pan.jpg",
+        "resumo": "Candidatos que estão no 2º turno da disputa presidencial tiveram 46 dos 54 nomes apoiados eleitos para o Senado",
+        "conteudo": "<p>O senador Flávio Bolsonaro (PL-RJ) conseguiu eleger 30 dos 48 candidatos ao Senado que receberam seu apoio durante a campanha. O presidente Luiz Inácio Lula da Silva (PT) teve 18 nomes de seus palanques oficiais eleitos neste domingo (4).</p><h2>2 candidatos também avançaram para o 2º turno</h2><p>Os 2 candidatos também avançaram para o 2º turno da disputa pela Presidência da República. Flávio terminou o primeiro turno com 47,04% dos votos válidos, enquanto Lula recebeu 45,15%. A decisão será no dia 25 de outubro.</p><p>Juntos, candidatos apoiados pelos 2 presidenciáveis conquistaram 48 das 54 cadeiras do Senado que estavam em disputa, o equivalente a cerca de 89% das vagas renovadas neste ano.</p><p>Flávio teve candidatos apoiados eleitos em todas as regiões do país. O melhor resultado foi no Norte, onde 8 nomes de sua lista conquistaram vagas. No Centro-Oeste, Sudeste e Sul, foram 6 em cada região. No Nordeste, 4.</p><h2>No caso de Lula, 13 dos 18 candidatos eleitos</h2><p>No caso de Lula, 13 dos 18 candidatos eleitos estão no Nordeste. O presidente também teve 3 apoiados eleitos no Norte e 2 no Sudeste. Nenhum nome de seus palanques oficiais foi eleito no Centro-Oeste ou no Sul.</p><p>Lula não teve candidatos de seus palanques oficiais eleitos no Centro-Oeste e no Sul.</p><p>Dos 54 senadores eleitos neste domingo, 6 não aparecem nas listas de candidatos apoiados por Lula ou Flávio. São eles:</p><p>Neste ano, 54 das 81 cadeiras do Senado estavam em disputa. Cada Estado e o Distrito Federal elegeram 2 senadores para mandatos de 8 anos, de 2027 a 2035.</p><p>Flávio anunciou durante a campanha apoio a 48 candidatos ao Senado, distribuídos pelas 27 unidades da Federação. A relação incluía 33 candidatos do PL e nomes de outras 8 siglas.</p><p>Lula teve 51 candidatos em seus palanques oficiais para o Senado. A relação também reuniu políticos de diferentes partidos, entre eles PT, MDB, PSB, PSD, PDT, Rede, PSOL, PV e União Brasil.</p><p>Candidatos que estão no 2º turno da disputa presidencial tiveram 46 dos 54 nomes apoiados eleitos para o Senado</p><p>Flávio lidera em 15 estados e Lula em 12 no 1º turno; veja o mapa da eleição</p><p>Candidato do PL ficou à frente no Sul, Sudeste e Centro-Oeste; petista liderou em todos os estados do Nordeste e em três da Região Norte</p><p>Lula vence em 52 países e territórios; Flávio lidera em 32 no exterior</p><p>Senado terá recorde de 18 mulheres a partir de 2027</p><p>Nikolas Ferreira lidera ranking dos deputados mais votados do país; veja top 20</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/politica/flavio-elege-30-apoiados-para-o-senado-lula-18/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O senador Flávio Bolsonaro (PL-RJ) conseguiu eleger 30 dos 48 candidatos ao Senado que receberam seu apoio durante a campanha. O presidente Luiz Inácio Lula da Silva (PT) teve 18 nomes de seus palanques oficiais eleitos neste domingo (4)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Os 2 candidatos também avançaram para o 2º turno da disputa pela Presidência da República. Flávio terminou o primeiro turno com 47,04% dos votos válidos, enquanto Lula recebeu 45,15%. A decisão será no dia 25 de outubro."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Juntos, candidatos apoiados pelos 2 presidenciáveis conquistaram 48 das 54 cadeiras do Senado que estavam em disputa, o equivalente a cerca de 89% das vagas renovadas neste ano."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Flávio teve candidatos apoiados eleitos em todas as regiões do país. O melhor resultado foi no Norte, onde 8 nomes de sua lista conquistaram vagas. No Centro-Oeste, Sudeste e Sul, foram 6 em cada região. No Nordeste, 4."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "No caso de Lula, 13 dos 18 candidatos eleitos estão no Nordeste. O presidente também teve 3 apoiados eleitos no Norte e 2 no Sudeste. Nenhum nome de seus palanques oficiais foi eleito no Centro-Oeste ou no Sul."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/Mapa-eleitoral_-aliados-de-Flavio-e-Lula.png?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/flavio-elege-30-apoiados-para-o-senado-lula-18-jovem-pan.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "1984a7d33c31f368",
+      "titulo": "Direita domina Brasil nas urnas e Lula tem pior votação desde 1998",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/direita-urnas-lula-derrota/",
+      "dataFonte": "2026-10-05T08:55:08.000Z",
+      "resumoFonte": "Presidente perde 3,4 milhões de votos entre 2022 e 2026 e vê PL e Novo conseguirem dominar quase 40% do Senado a partir do ano que vem",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Flavio-Bolsonaro.jpeg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-05T09:17:58.374Z",
+      "reportagem": {
+        "titulo": "Direita domina Brasil nas urnas e Lula tem pior votação desde 1998",
+        "slug": "direita-domina-brasil-nas-urnas-e-lula-tem-pior-votacao-desde-1998",
+        "categoria": "Política Nacional",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/direita-domina-brasil-nas-urnas-e-lula-tem-pior-votacao-desde-1998.jpg",
+        "resumo": "Presidente perde 3,4 milhões de votos entre 2022 e 2026 e vê PL e Novo conseguirem dominar quase 40% do Senado a partir do ano que vem",
+        "conteudo": "<p>Capitaneada pelo PL de Flávio Bolsonaro , a direita tirou cadeiras do centrão no Senado e fez o presidente Luiz Inácio Lula da Silva (PT) amargar a sua pior votação em termos de votos válidos em um primeiro turno desde 1998 .</p><h2>Lula teve 53,9 milhões de votos neste domingo (4)</h2><p>Lula teve 53,9 milhões de votos neste domingo (4) e ficou atrás de Flávio, com 56,1 milhões de votos. Em porcentagem, o candidato do PL teve 47% dos votos válidos e o petista, 45,2% .</p><p>Em 2022 , quando enfrentou Jair Bolsonaro (PL), Lula teve 48,4% dos votos válidos. Em 2006 , quando disputava a reeleição, marcou 48,6% . E em 2002 , quando chegou à Presidência pela primeira vez, teve 46,4% .</p><p>A última vez que o petista teve uma porcentagem de votos válidos tão baixa em um primeiro turno foi em 1998 , quando enfrentou Fernando Henrique Cardoso (PSDB) em busca da reeleição e marcou 31,7% . Na ocasião, Lula foi derrotado ainda no primeiro turno.</p><h2>Lula perdeu cerca de 3,4 milhões de votos</h2><p>Lula perdeu cerca de 3,4 milhões de votos entre 2022 e 2026 e saiu derrotado em estados-chave para o resultado eleitoral, como em Minas Gerais, que sempre deu maioria dos votos a todos os presidentes eleitos desde 1989.</p><p>Na outra ponta, Flávio superou a votação do pai em 2022 em cerca de 5 milhões de votos , saltando de 51,1 milhões (43,2% dos votos válidos) para 56,1 milhões.</p><p>Os números de Flávio neste domingo se refletem nos resultados do PL nas eleições para o Senado.</p><p>O PL elegeu 19 senadores . Somados aos nove que já cumpriam mandatos definidos pelas urnas em 2022, o Partido Liberal tem hoje a previsão de ocupar 28 cadeiras no Senado a partir de 2027.</p><p>O partido Novo vai ter três senadores . Deste trio, dois abandonaram a campanha do correligionário Zema e apoiaram a candidatura de Flávio ao Palácio do Planalto ainda no primeiro turno: Marcel van Hattem (RS) e Deltan Dallagnol (PR).</p><p>Somados, PL e Novo terão 31 senadores -- quase 40% do Plenário da Casa . E há outros senadores bolsonaristas fora do PL, como Damares Alves (Republicanos-DF) e o recém-eleito Guilherme Derrite (PP-SP) .</p><p>O PT não ganhou cadeiras, mas também não perdeu: seguirá com as dez que já possui.</p><p>Mas, no saldo, a esquerda vai ficar com três cadeiras a menos: o PSB saiu de sete para três; a Rede foi de zero para uma; e o PDT caiu de duas pra uma.</p><p>Quem mais teve que ceder espaço foi centrão . O PSD, por exemplo, perdeu nove cadeiras no Senado.</p><p>A onda de direita também foi sentida nas eleições para os governos estaduais.</p><p>Hoje, o PL comanda apenas um estado: Santa Catarina, com Jorginho Mello.</p><p>Já em 2027, serão no mínimo cinco, com Paraná (Sergio Moro), Rondônia (Marcos Rogério), Roraima (Arthur Henrique) e Rio Grande do Sul (Zucco) . Santa Catarina, com Jorginho Mello reeleito, fecha a lista.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/direita-urnas-lula-derrota/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Capitaneada pelo PL de Flávio Bolsonaro , a direita tirou cadeiras do centrão no Senado e fez o presidente Luiz Inácio Lula da Silva (PT) amargar a sua pior votação em termos de votos válidos em um primeiro turno desde 1998 ."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Lula teve 53,9 milhões de votos neste domingo (4) e ficou atrás de Flávio, com 56,1 milhões de votos. Em porcentagem, o candidato do PL teve 47% dos votos válidos e o petista, 45,2% ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Em 2022 , quando enfrentou Jair Bolsonaro (PL), Lula teve 48,4% dos votos válidos. Em 2006 , quando disputava a reeleição, marcou 48,6% . E em 2002 , quando chegou à Presidência pela primeira vez, teve 46,4% ."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A última vez que o petista teve uma porcentagem de votos válidos tão baixa em um primeiro turno foi em 1998 , quando enfrentou Fernando Henrique Cardoso (PSDB) em busca da reeleição e marcou 31,7% . Na ocasião, Lula foi derrotado ainda no primeiro turno."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Lula perdeu cerca de 3,4 milhões de votos entre 2022 e 2026 e saiu derrotado em estados-chave para o resultado eleitoral, como em Minas Gerais, que sempre deu maioria dos votos a todos os presidentes eleitos desde 1989."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Flavio-Bolsonaro.jpeg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/direita-domina-brasil-nas-urnas-e-lula-tem-pior-votacao-desde-1998.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "07c4762d1535b1b8",
+      "titulo": "Câmara terá 35,7% de deputados federais em primeiro mandato, menor percentual em quatro eleições",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/camara-tera-357percent-de-deputados-federais-em-primeiro-mandato-menor-percentual-em-quatro-eleicoes.ghtml",
+      "dataFonte": "2026-10-05T08:14:48.000Z",
+      "resumoFonte": "Bruno Spada / Câmara dos Deputados A Câmara dos Deputados terá 183 parlamentares em primeiro mandato a partir de 2027, o equivalente a 35,7% das 513 cadeiras da Casa. É a menor proporção das últimas quatro eleições. Veja a comparação de deputados em 1º mandato: 2014 - 198 (38,6%) 2018 - 243 (47,37%) 2022 - 202 (39,38%) 2026 - 183 (35,67%) – veja…",
+      "imagem": "https://s2-g1.glbimg.com/Jwh5PZzlb2EcKhz-UxkzgklM6eQ=/3244x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/u/M/e9CiojTjAVLHehYXhgsw/img20260528103530485.jpg",
+      "descobertaEm": "2026-10-05T09:17:58.374Z",
+      "reportagem": {
+        "titulo": "Renovação na Câmara dos Deputados será a menor em quatro eleições | G1",
+        "slug": "renovacao-na-camara-dos-deputados-sera-a-menor-em-quatro-eleicoes-g1",
+        "categoria": "Política Nacional",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/renovacao-na-camara-dos-deputados-sera-a-menor-em-quatro-eleicoes-g1.jpg",
+        "resumo": "A renovação na Câmara dos Deputados será de 35,7%, com 183 parlamentares em primeiro mandato, o menor índice registrado nas últimas quatro eleições nacionais.",
+        "conteudo": "<p>A Câmara dos Deputados terá 183 parlamentares em primeiro mandato a partir de 2027 , o equivalente a 35,7% das 513 cadeiras da Casa . É a menor proporção das últimas quatro eleições.</p><h2>2014 - 198 (38,6%) 2018 - 243 (47,37%) 2022</h2><p>2014 - 198 (38,6%) 2018 - 243 (47,37%) 2022 - 202 (39,38%) 2026 - 183 (35,67%) – veja lista completa ao final desta reportagem</p><p>O levantamento considerou como renovação os parlamentares que nunca haviam exercido mandato de deputado federal.</p><p>Esse é o critério usado para identificar os 183 deputados que vão exercer o primeiro mandato a partir de 2027. A relação dos eleitos de primeiro mandato reúne representantes de diferentes partidos e estados.</p><h2>PL é o partido com o maior número</h2><p>O PL é o partido com o maior número de deputados que chegam à Câmara pela primeira vez: são 46 dos 183. O PT tem 22. Na sequência aparecem União Brasil, com 16; Republicanos, com 15; PSD, com 14; e Podemos, com 13.</p><p>A contagem foi feita a partir da relação dos deputados de primeiro mandato.</p><p>PL: 46 PT: 22 União Brasil: 16 Republicanos: 15 PSD: 14 Podemos: 13 PP: 11 MDB: 10 PSB: 7 Novo: 6 PSOL: 6 PSDB: 5 PV: 4 PCdoB: 3 PRD: 2 Avante: 1 PDT: 1 Solidariedade: 1</p><p>A Câmara dos Deputados terá 183 parlamentares em primeiro mandato a partir de 2027 , o equivalente a 35,7% das 513 cadeiras da Casa</p>",
+        "fonteNome": "g1 - Política",
+        "fonteUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/camara-tera-357percent-de-deputados-federais-em-primeiro-mandato-menor-percentual-em-quatro-eleicoes.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A Câmara dos Deputados terá 183 parlamentares em primeiro mandato a partir de 2027 , o equivalente a 35,7% das 513 cadeiras da Casa . É a menor proporção das últimas quatro eleições."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "2014 - 198 (38,6%) 2018 - 243 (47,37%) 2022 - 202 (39,38%) 2026 - 183 (35,67%) – veja lista completa ao final desta reportagem"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O levantamento considerou como renovação os parlamentares que nunca haviam exercido mandato de deputado federal. Esse é o critério usado para identificar os 183 deputados que vão exercer o primeiro mandato a partir de 2027. A relação dos eleitos de primeiro mandato reúne representantes de diferentes partidos e estados."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O PL é o partido com o maior número de deputados que chegam à Câmara pela primeira vez: são 46 dos 183. O PT tem 22. Na sequência aparecem União Brasil, com 16; Republicanos, com 15; PSD, com 14; e Podemos, com 13. A contagem foi feita a partir da relação dos deputados de primeiro mandato."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "PL: 46 PT: 22 União Brasil: 16 Republicanos: 15 PSD: 14 Podemos: 13 PP: 11 MDB: 10 PSB: 7 Novo: 6 PSOL: 6 PSDB: 5 PV: 4 PCdoB: 3 PRD: 2 Avante: 1 PDT: 1 Solidariedade: 1"
+          }
+        ],
+        "imagemOriginal": "https://s2-g1.glbimg.com/Jwh5PZzlb2EcKhz-UxkzgklM6eQ=/3244x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/u/M/e9CiojTjAVLHehYXhgsw/img20260528103530485.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/renovacao-na-camara-dos-deputados-sera-a-menor-em-quatro-eleicoes-g1.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "b86ac1308aebff11",
+      "titulo": "Renan, Randolfe e Ciro: eleição traz fim de uma era para caciques do Senado",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/colunas/igor-gadelha/renan-randolfe-e-ciro-eleicao-traz-fim-de-uma-era-para-caciques-do-senado",
+      "dataFonte": "2026-10-05T08:00:10.000Z",
+      "resumoFonte": "Eleição de 2026 tirou vários caciques do Senado, que não se reelegeram. Entre eles, Renan Calheiros, Ciro Nogueira e Randolfe Rodrigues",
+      "imagem": "https://i.metroimg.com/kPDryW75cYrRUfERqkR2zC7cf1mN1uhbMdp5hW6F4Lo/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2025/08/12153733/Ministro-da-Fazenda-Fernando-Haddad-e-ouvido-pela-comissao-mista-que-analisa-a-Medida-Provisoria-MP-130325-que-tributa-aplicacoes-financeiras-e-ativos-virtuais-Metropoles-1.jpg",
+      "descobertaEm": "2026-10-05T08:17:58.071Z"
+    },
+    {
+      "id": "c9c55d30a24a0329",
+      "titulo": "Com 2,2%, Caiado tem 5 vezes mais votos para presidente em 2026 do que em 1989",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/com-22percent-caiado-tem-5-vezes-mais-votos-para-presidente-em-2026-do-que-em-1989.ghtml",
+      "dataFonte": "2026-10-05T07:27:16.000Z",
+      "resumoFonte": "Ronaldo Caiado (PSD) após votação em Nova Crixás (GO) Divulgação O candidato Ronaldo Caiado (PSD) registrou 2,18% das intenções de voto na eleição presidencial. A quantidade o deixou na 5ª colocação da disputa em 2026, com 2.605.148 votos. Esta não é a primeira vez que Caiado disputa o Palácio do Planalto. Ele também esteve na primeira eleição após…",
+      "imagem": "https://s2-g1.glbimg.com/twQn5arCATi_vZ70VxvoBef-MQE=/3672x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/o/t/Pgs8r6RRum14q4Woyseg/img-4152.jpg",
+      "descobertaEm": "2026-10-05T08:17:58.071Z"
     },
     {
       "id": "c57b38c61c72a678",
@@ -299,6 +863,66 @@
       "resumoFonte": "Resultado do 1º turno acende alerta entre governistas sobre o ritmo da tramitação da PEC no Senado",
       "imagem": "https://i.metroimg.com/1rpDppEfK2WCM6pzqHnxK8dKd5kAUTPhFWhAYJkpb8M/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/03/captura-de-tela-2026-03-31-173557.jpg",
       "descobertaEm": "2026-10-05T07:08:22.231Z"
+    },
+    {
+      "id": "78ff76bed8249466",
+      "titulo": "Veja os 50 candidatos a deputado federal mais votados do país",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/veja-os-50-candidatos-a-deputado-federal-mais-votados-do-pais.ghtml",
+      "dataFonte": "2026-10-05T06:43:52.000Z",
+      "resumoFonte": "Plenário da Câmara dos Deputados Bruno Spada / Câmara dos Deputados Com 100% das urnas apuradas após a votação de primeiro turno neste domingo (4), os eleitores já sabem quais são os candidatos a deputado federal mais votados do país. O ranking é liderado por Nikolas Ferreira (PL-MG) e Lucas Pavanato (PL-SP), que bateram recorde ao receber mais de…",
+      "imagem": "https://s2-g1.glbimg.com/eVE42eih1-KTZ-SAsGT_h50ks6E=/1984x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/4/YA8VsWR6eSGZoor8zmbg/img20260917101908252.jpg",
+      "descobertaEm": "2026-10-05T08:17:58.071Z",
+      "reportagem": {
+        "titulo": "Deputados federais mais votados: confira os 50 nomes do ranking | G1",
+        "slug": "deputados-federais-mais-votados-confira-os-50-nomes-do-ranking-g1",
+        "categoria": "Política Nacional",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/deputados-federais-mais-votados-confira-os-50-nomes-do-ranking-g1.jpg",
+        "resumo": "Lista destaca recordes de Nikolas Ferreira e Lucas Pavanato, além do desempenho expressivo de Erika Hilton e Sâmia Bomfim.",
+        "conteudo": "<p>Plenário da Câmara dos Deputados — Foto: Bruno Spada / Câmara dos Deputados</p><h2>Com 100% das urnas apuradas após</h2><p>Com 100% das urnas apuradas após a votação de primeiro turno neste domingo (4), os eleitores já sabem quais são os candidatos a deputado federal mais votados do país.</p><p>O ranking é liderado por Nikolas Ferreira (PL-MG) e Lucas Pavanato (PL-SP), que bateram recorde ao receber mais de 3 milhões de votos.</p><p>As candidatas Erika Hilton (PSOL-SP), com 1,5 milhão de votos, e Sâmia Bomfim (PSOL-SP), com cerca de 580 mil votos, tiveram os resultados mais expressivos no campo da esquerda.</p><h2>Com o maior colégio eleitoral, o estado</h2><p>Com o maior colégio eleitoral, o estado de São Paulo tem 16 candidatos entre os mais 50 mais votados. O PL é o partido que aparece mais vezes na lista, com 12 nomes.</p><p>➡️ Embora o número de votos seja um importante indicador de força eleitoral, a eleição para deputado federal segue o sistema proporcional, que leva em consideração os votos obtidos pelos partidos e federações na distribuição das cadeiras.</p><p>Confira abaixo os 50 candidatos a deputado federal mais votados do Brasil:</p><p>Nikolas Ferreira (PL-MG) - 3.119.318 votos Lucas Pavanato (PL-SP) - 3.038.438 votos Erika Hilton (PSOL-SP) - 1.596.472 votos André Fernandes (PL-CE) - 684.372 votos Sâmia Bomfim (PSOL-SP) - 583.107 votos Julia Zanatta (PL-SC) - 560.223 votos Ana Elisa (PT-MG) - 524.219 votos Kim Kataguiri (Partido Missão-SP) - 520.071 votos Tabata Amaral (PSB-SP) - 476.383 votos Jeffrey Chiquini (Novo-PR) - 425.399 votos Lucas Polese (PL-ES) - 419.735 votos Delegado Caveira (PL-PA) - 414.927 votos Maurício Marcon (PL-RS) - 379.834 votos Renato Bolsonaro (PL-SP) - 379.312 votos Sargento Nantes (PP-SP) - 333.401 votos Jader Filho (MDB-PA) - 326.617 votos Delegado Palumbo (PODE-SP) - 303.271 votos Fernanda Melchionna (PSOL-RS) - 280.262 votos Guilherme Cortez (PSOL-SP) - 275.450 votos Dra.</p><p>Alessandra Haber (PODE-PA) - 272.856 votos Mauricio Neves (PP-SP) - 269.996 votos Guilherme Kilter (Novo-PR) - 269.832 votos Cabo Gilberto Silva (PL-PB) - 267.142 votos Tainah Marinho (PSB-CE) - 265.585 votos Pedro Campos (PSB-PE) - 261.555 votos Marcio Alvino (PL-SP) - 261.325 votos Yury do Paredão (MDB-CE) - 261.291 votos Professora Luciene Cavalcante (PSOL-SP) - 253.778 votos Jones Manoel (PSOL-PE) - 249.077 votos Pastor Sargento Isidório (Avante-BA) - 248.147 votos Ana Carolina Oliveira (PODE-SP) - 246.741 votos Sargento Fahur (PL-PR) - 242.643 votos Baleia Rossi (MDB-SP) - 239.124 votos Giordanna Mano (PRD-CE) - 235.848 votos Georgiano (PSD-PI) - 234.254 votos Giovani Cherini (PL-RS) - 234.171 votos Luna Zarattini (PT-SP) - 233.733 votos Marina Helena (Novo-SP) - 230.866 votos Duda Salabert (PSOL-MG) - 229.535 votos Fábio Felix (PSOL-DF) - 224.224 votos Rony Gabriel (PODE-RS) - 223.643 votos Delegado Bruno Lima (PODE-SP) - 217.952 votos Alceu Moreira (MDB-RS) - 217.208 votos Natália Bonavides (PT-RN) - 215.509 votos Reginaldo Lopes (PT-MG) - 215.192 votos Dr.</p><p>Luizinho (PP-RJ) - 213.904 votos Rosana Valle (PL-SP) - 213.752 votos Júnior Ferrari (PSD-PA) - 213.645 votos Sargento Salazar (PL-AM) - 212.948 votos Bruno Peixoto (União-GO) - 207.899 votos</p><p>Entre os 50 campeões de voto do país, os estados com mais representantes foram:</p><p>São Paulo - 18 deputados Rio Grande do Sul - 5 deputados Minas Gerais - 4 deputados Ceará - 4 deputados Pará - 4 deputados</p><p>Os partidos com maior presença entre os 50 deputados federais mais votados foram:</p><p>PL - 14 deputados PSOL - 8 deputados PODE - 5 deputados PT - 4 deputados MDB - 4 deputados</p>",
+        "fonteNome": "g1 - Política",
+        "fonteUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/veja-os-50-candidatos-a-deputado-federal-mais-votados-do-pais.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Plenário da Câmara dos Deputados — Foto: Bruno Spada / Câmara dos Deputados"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Com 100% das urnas apuradas após a votação de primeiro turno neste domingo (4), os eleitores já sabem quais são os candidatos a deputado federal mais votados do país."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O ranking é liderado por Nikolas Ferreira (PL-MG) e Lucas Pavanato (PL-SP), que bateram recorde ao receber mais de 3 milhões de votos. As candidatas Erika Hilton (PSOL-SP), com 1,5 milhão de votos, e Sâmia Bomfim (PSOL-SP), com cerca de 580 mil votos, tiveram os resultados mais expressivos no campo da esquerda. Com o maior colégio eleitoral, o estado de São "
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "➡️ Embora o número de votos seja um importante indicador de força eleitoral, a eleição para deputado federal segue o sistema proporcional, que leva em consideração os votos obtidos pelos partidos e federações na distribuição das cadeiras."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Confira abaixo os 50 candidatos a deputado federal mais votados do Brasil:"
+          }
+        ],
+        "imagemOriginal": "https://s2-g1.glbimg.com/eVE42eih1-KTZ-SAsGT_h50ks6E=/1984x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/4/YA8VsWR6eSGZoor8zmbg/img20260917101908252.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/deputados-federais-mais-votados-confira-os-50-nomes-do-ranking-g1.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
       "id": "691b5adb42fefd18",
@@ -421,302 +1045,146 @@
       }
     },
     {
-      "id": "68abd32985e49cf4",
-      "titulo": "DF: Fred Linhares e Rollemberg perdem vagas na Câmara dos Deputados",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/grande-angular/df-fred-linhares-e-rollemberg-perdem-vagas-camara-dos-deputados",
-      "dataFonte": "2026-10-05T05:56:14.000Z",
-      "resumoFonte": "Metade da bancada do DF na Câmara dos Deputados foi reeleita. Nenhuma mulher foi escolhida pelos eleitores",
-      "imagem": "https://i.metroimg.com/f6gzRJ6iSSIm27xHTVRJm-ZEbaf-q0d-OAHI2mZgx5M/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/07/fred-linhares.jpg",
-      "descobertaEm": "2026-10-05T06:17:48.854Z"
-    },
-    {
-      "id": "c9355316ff7680d7",
-      "titulo": "Veja cidades com maiores percentuais de votos brancos e nulos no 1º turno da eleição presidencial de 2026",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/veja-cidades-com-maiores-percentuais-de-votos-brancos-e-nulos-no-1o-turno-da-eleicao-presidencial-de-2026.ghtml",
-      "dataFonte": "2026-10-05T05:23:19.000Z",
-      "resumoFonte": "Os votos brancos e nulos somaram 4,8% no primeiro turno da eleição presidencial de 2026, segundo dados que haviam sido apurados até a última atualização desta reportagem. O índice resulta da soma de 1,84% de votos em branco e de 2,93% de votos nulos. Veja as dez cidades com maiores percentuais de votos brancos Santana Da Boa Vista (RS): 5,43% Chuí…",
-      "imagem": "https://s2-g1.glbimg.com/DiO0abihJG6YbdTIWTiqTeLDljE=/3245x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/R/bTDzoNQmCROm9vZyPUkg/fta20260924107.jpg",
-      "descobertaEm": "2026-10-05T06:17:48.854Z"
-    },
-    {
-      "id": "c0c03a8961fa3c0d",
-      "titulo": "Família Bolsonaro elege 4 congressistas e Flávio vai ao 2º turno",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-eleicoes-2026/familia-bolsonaro-elege-4-congressistas-e-flavio-vai-ao-2o-turno/",
-      "dataFonte": "2026-10-05T05:18:41.000Z",
-      "resumoFonte": "Michelle e Carlos conquistaram vagas no Senado; Jair Renan e Renato foram eleitos deputados federais",
-      "imagem": "https://static.poder360.com.br/uploads/2026/10/familiares-bolsonaro-eleitos-3-out-2026-02-1200x675.png",
-      "descobertaEm": "2026-10-05T05:17:52.257Z",
-      "reportagem": {
-        "titulo": "Família Bolsonaro elege 4 congressistas e Flávio vai ao 2º turno",
-        "slug": "familia-bolsonaro-elege-4-congressistas-e-flavio-vai-ao-2-turno",
-        "categoria": "Política Nacional",
-        "data": "2026-10-05",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/familia-bolsonaro-elege-4-congressistas-e-flavio-vai-ao-2-turno.jpg",
-        "resumo": "Michelle e Carlos conquistaram vagas no Senado; Jair Renan e Renato foram eleitos deputados federais. Leia no Poder360.",
-        "conteudo": "<p>Michelle e Carlos conquistaram vagas no Senado; Jair Renan e Renato foram eleitos deputados federais</p><h2>Quatro dos 8 familiares do ex-presidente Jair Bolsonaro (PL)</h2><p>Quatro dos 8 familiares do ex-presidente Jair Bolsonaro (PL) que disputaram as eleições deste domingo (4.out.2026) foram eleitos: Michelle Bolsonaro, Carlos Bolsonaro, Jair Renan Bolsonaro e Renato Bolsonaro.</p><p>Outro filho do ex-presidente, o senador Flávio Bolsonaro (PL-RJ), avançou ao 2º turno presidencial contra Luiz Inácio Lula da Silva (PT).</p><p>Carlos Bolsonaro (PL) foi eleito senador por Santa Catarina com 25,35% dos votos válidos. Jair Renan Bolsonaro (PL) conquistou uma vaga de deputado federal pelo mesmo Estado, com 131.555 votos.</p><h2>Mulher do ex-presidente, Michelle Bolsonaro (PL), foi eleita senadora</h2><p>A mulher do ex-presidente, Michelle Bolsonaro (PL), foi eleita senadora pelo Distrito Federal com 29,05% dos votos válidos. Renato Bolsonaro (PL), irmão de Jair, recebeu 379.312 votos e foi eleito deputado federal por São Paulo.</p><p>Outros 3 familiares ficaram fora das vagas. Rogéria Bolsonaro (PL), ex-mulher de Jair e mãe de Flávio e Carlos, recebeu 65.496 votos para deputada federal pelo Rio de Janeiro.</p><p>Valéria Bolsonaro e Marcelo Bolsonaro , ambos do PL, disputaram vagas de deputado estadual por São Paulo. Receberam 51.274 e 8.904 votos, respectivamente, e não foram eleitos.</p><p>Outros candidatos usaram “Bolsonaro” no nome de urna em 2026, embora não tenham parentesco com o ex-presidente. Entre eles estão:</p><p>O Poder360 acompanhou a apuração do 1º turno das eleições de 2026 em tempo real. A página reúne os resultados e permite consultar a votação dos candidatos.</p><p>Família Bolsonaro elege 4 congressistas e Flávio vai ao 2º turno Michelle e Carlos conquistaram vagas no Senado; Jair Renan e Renato foram eleitos deputados federais --> copiar link --></p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-eleicoes-2026/familia-bolsonaro-elege-4-congressistas-e-flavio-vai-ao-2o-turno/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Michelle e Carlos conquistaram vagas no Senado; Jair Renan e Renato foram eleitos deputados federais"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Quatro dos 8 familiares do ex-presidente Jair Bolsonaro (PL) que disputaram as eleições deste domingo (4.out.2026) foram eleitos: Michelle Bolsonaro, Carlos Bolsonaro, Jair Renan Bolsonaro e Renato Bolsonaro. Outro filho do ex-presidente, o senador Flávio Bolsonaro (PL-RJ), avançou ao 2º turno presidencial contra Luiz Inácio Lula da Silva (PT)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Carlos Bolsonaro (PL) foi eleito senador por Santa Catarina com 25,35% dos votos válidos. Jair Renan Bolsonaro (PL) conquistou uma vaga de deputado federal pelo mesmo Estado, com 131.555 votos."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A mulher do ex-presidente, Michelle Bolsonaro (PL), foi eleita senadora pelo Distrito Federal com 29,05% dos votos válidos. Renato Bolsonaro (PL), irmão de Jair, recebeu 379.312 votos e foi eleito deputado federal por São Paulo."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Outros 3 familiares ficaram fora das vagas. Rogéria Bolsonaro (PL), ex-mulher de Jair e mãe de Flávio e Carlos, recebeu 65.496 votos para deputada federal pelo Rio de Janeiro. Valéria Bolsonaro e Marcelo Bolsonaro , ambos do PL, disputaram vagas de deputado estadual por São Paulo. Receberam 51.274 e 8.904 votos, respectivamente, e não foram eleitos."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/familiares-bolsonaro-eleitos-3-out-2026-02-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/familia-bolsonaro-elege-4-congressistas-e-flavio-vai-ao-2-turno.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "f8d45aafc90e4bc7",
-      "titulo": "Dos 32 senadores que tentaram reeleição, 14 venceram",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-eleicoes-2026/dos-32-senadores-que-tentaram-reeleicao-14-venceram/",
-      "dataFonte": "2026-10-05T04:52:26.000Z",
-      "resumoFonte": "Eleitores escolheram 2 representantes por Estado na renovação de 2/3 do Senado Federal",
-      "imagem": "https://static.poder360.com.br/uploads/2025/06/CongressoNacional-Fachada-10-scaled.jpg",
-      "descobertaEm": "2026-10-05T05:17:52.257Z",
-      "reportagem": {
-        "titulo": "Dos 32 senadores que tentaram reeleição, 14 venceram",
-        "slug": "dos-32-senadores-que-tentaram-reeleicao-14-venceram",
-        "categoria": "Política Nacional",
-        "data": "2026-10-05",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/dos-32-senadores-que-tentaram-reeleicao-14-venceram.jpg",
-        "resumo": "Eleitores escolheram 2 representantes por Estado na renovação de 2/3 do Senado Federal. Leia no Poder360.",
-        "conteudo": "<p>Eleitores escolheram 2 representantes por Estado na renovação de 2/3 do Senado Federal</p><h2>Dos 32 senadores que tentaram a reeleição em 2026,</h2><p>Dos 32 senadores que tentaram a reeleição em 2026, 14 venceram o pleito e garantiram novo mandato de 8 anos. Sete são aliados do presidente Luiz Inácio Lula da Silva (PT) e 5, de Flávio Bolsonaro (PL). Ambos seguem para o 2º turno pelo Planalto.</p><p>A votação direta sem 2º turno definiu os 2 representantes por Estado, enquanto a estrutura do Senado segue fixa em 81 congressistas.</p><p>Entre os candidatos que buscavam permanecer na Casa, 17 eram aliados do governo de Lula, 9 da oposição e 5 mantinham atuação independente no Congresso.</p><h2>Grupo de congressistas em fim de mandato que buscou</h2><p>O grupo de congressistas em fim de mandato que buscou a manutenção da vaga representou 59,2% das 54 cadeiras em disputa no Senado Federal —volume idêntico ao registrado nas eleições de 2018, quando apenas 8 obtiveram sucesso nas urnas.</p><p>Outros 27 integrantes do Senado, como o presidente Davi Alcolumbre (União Brasil-AP), foram eleitos em 2022 e continuarão exercendo seus mandatos até janeiro de 2031, já que o mandato para o cargo tem duração de 8 anos.</p><p>O Senado Federal é composto por 81 senadores (3 por Estado e pelo DF). Diferentemente da Câmara dos Deputados, a renovação da Casa é gradual e alternada: em uma eleição (como em 2022), renova-se 1/3 das vagas (27 cadeiras); 4 anos depois (como em 2026), renovam-se 2/3 (ou 54 cadeiras).</p><p>O mandato no Senado é de 8 anos, com direito a concorrer a reeleições ilimitadas.</p><p>O salário mensal bruto de um senador em 2026 é de R$ 46.366,19, equiparado ao teto constitucional do funcionalismo público.</p><p>Além do vencimento base, os congressistas contam com verba indenizatória para despesas do mandato (cotas parlamentares), além de cobertura de gastos de moradia ou imóvel funcional em Brasília.</p><p>Dos 32 senadores que tentaram reeleição, 14 venceram Eleitores escolheram 2 representantes por Estado na renovação de 2/3 do Senado Federal --> copiar link --></p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-eleicoes-2026/dos-32-senadores-que-tentaram-reeleicao-14-venceram/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Eleitores escolheram 2 representantes por Estado na renovação de 2/3 do Senado Federal"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Dos 32 senadores que tentaram a reeleição em 2026, 14 venceram o pleito e garantiram novo mandato de 8 anos. Sete são aliados do presidente Luiz Inácio Lula da Silva (PT) e 5, de Flávio Bolsonaro (PL). Ambos seguem para o 2º turno pelo Planalto."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A votação direta sem 2º turno definiu os 2 representantes por Estado, enquanto a estrutura do Senado segue fixa em 81 congressistas."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Entre os candidatos que buscavam permanecer na Casa, 17 eram aliados do governo de Lula, 9 da oposição e 5 mantinham atuação independente no Congresso."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O grupo de congressistas em fim de mandato que buscou a manutenção da vaga representou 59,2% das 54 cadeiras em disputa no Senado Federal —volume idêntico ao registrado nas eleições de 2018, quando apenas 8 obtiveram sucesso nas urnas."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2025/06/CongressoNacional-Fachada-10-scaled.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/dos-32-senadores-que-tentaram-reeleicao-14-venceram.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "77846b7046560e2d",
-      "titulo": "Flávio e Lula têm menor diferença em 1º turno desde redemocratização",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/flavio-e-lula-tem-menor-diferenca-em-1o-turno-desde-redemocratizacao/",
-      "dataFonte": "2026-10-05T04:51:20.000Z",
-      "resumoFonte": "Com os 47,03% do filho do ex-presidente Jair Bolsonaro (PL) e os 45,16% do incumbente do Palácio do Planalto, distância foi de 1,87 ponto",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Flavio-e-Lula.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-05T05:17:52.257Z",
-      "reportagem": {
-        "titulo": "Flávio e Lula têm menor diferença em 1º turno desde redemocratização",
-        "slug": "flavio-e-lula-tem-menor-diferenca-em-1-turno-desde-redemocratizacao",
-        "categoria": "Política Nacional",
-        "data": "2026-10-05",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/flavio-e-lula-tem-menor-diferenca-em-1-turno-desde-redemocratizacao.jpg",
-        "resumo": "Com os 47,03% do filho do ex-presidente Jair Bolsonaro (PL) e os 45,16% do incumbente do Palácio do Planalto, distância foi de 1,87 ponto",
-        "conteudo": "<p>Com pouco menos de dois pontos percentuais de diferença, a margem de votos observada entre Flávio Bolsonaro (PL) e o presidente Luiz Inácio Lula da Silva (PT) é a menor desde a redemocratização .</p><h2>Com os 47,03% do filho do ex-presidente Jair Bolsonaro</h2><p>Com os 47,03% do filho do ex-presidente Jair Bolsonaro (PL) e os 45,16% do incumbente do Palácio do Planalto, a distância entre os dois foi de 1,87 ponto .</p><p>O recorde anterior foi registrado na disputa de 2022 entre Lula e Bolsonaro, quando o petista colheu 48,43% dos votos válidos e Jair, 43,2%. A diferença foi de 5,23 pontos.</p><p>Fechando o pódio das disputas mais apertadas, aparece o pleito de 2006. Tentando o segundo mandato, Lula obteve 48,61% dos votos, contra 41,64% de Geraldo Alckmin, então candidato pelo PSDB.</p><h2>Veja como ficaram os primeiros turnos de cada</h2><p>Veja como ficaram os primeiros turnos de cada eleição desde a redemocratização.</p><p>O senador Flávio Bolsonaro (PL-RJ) e o presidente Luiz Inácio Lula da Silva (PT)</p><p>Com pouco menos de dois pontos percentuais de diferença, a margem de votos observada entre Flávio Bolsonaro (PL) e o presidente Luiz Inácio Lula da Silva (PT) é a menor desde a redemocratização .</p><p>Com os 47,03% do filho do ex-presidente Jair Bolsonaro (PL) e os 45,16% do incumbente do Palácio do Planalto, a distância entre os dois foi de 1,87 ponto . Leia Mais</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/flavio-e-lula-tem-menor-diferenca-em-1o-turno-desde-redemocratizacao/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Com pouco menos de dois pontos percentuais de diferença, a margem de votos observada entre Flávio Bolsonaro (PL) e o presidente Luiz Inácio Lula da Silva (PT) é a menor desde a redemocratização ."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Com os 47,03% do filho do ex-presidente Jair Bolsonaro (PL) e os 45,16% do incumbente do Palácio do Planalto, a distância entre os dois foi de 1,87 ponto ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O recorde anterior foi registrado na disputa de 2022 entre Lula e Bolsonaro, quando o petista colheu 48,43% dos votos válidos e Jair, 43,2%. A diferença foi de 5,23 pontos."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Fechando o pódio das disputas mais apertadas, aparece o pleito de 2006. Tentando o segundo mandato, Lula obteve 48,61% dos votos, contra 41,64% de Geraldo Alckmin, então candidato pelo PSDB."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Veja como ficaram os primeiros turnos de cada eleição desde a redemocratização."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Flavio-e-Lula.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/flavio-e-lula-tem-menor-diferenca-em-1-turno-desde-redemocratizacao.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "25b351036c45183c",
-      "titulo": "Renan Calheiros, Ciro Nogueira e Randolfe são derrotados e deixam Senado após longa trajetória",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/renan-calheiros-ciro-nogueira-e-randolfe-sao-derrotados-e-deixam-senado-apos-longa-trajetoria.shtml",
-      "dataFonte": "2026-10-05T04:35:00.000Z",
-      "resumoFonte": "Os decanos do Senado Renan Calheiros (MDB-AL), Ciro Nogueira (PP-PI) e Randolfe Rodrigues (PT-AP) não conseguiram se reeleger e deixarão o Congresso Nacional em 2027 após longas trajetórias no Legislativo. Leia mais (10/05/2026 - 01h35)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/05/17911711266ac31a366f0d4_1791171126_3x2_rt.jpg",
-      "descobertaEm": "2026-10-05T05:17:52.257Z",
-      "reportagem": {
-        "titulo": "Renan Calheiros, Ciro Nogueira e Randolfe são derrotados e deixam Senado após longa trajetória",
-        "slug": "renan-calheiros-ciro-nogueira-e-randolfe-sao-derrotados-e-deixam-senado-apos-longa-trajeto",
-        "categoria": "Política Nacional",
-        "data": "2026-10-05",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/renan-calheiros-ciro-nogueira-e-randolfe-sao-derrotados-e-deixam-senado-apos-longa-trajeto.jpg",
-        "resumo": "Decanos no Congresso perderam as eleições e agora passam por transição até 2027",
-        "conteudo": "<p>Os decanos do Senado Renan Calheiros (MDB-AL), Ciro Nogueira (PP-PI) e Randolfe Rodrigues (PT-AP) não conseguiram se reeleger e deixarão o Congresso Nacional em 2027 após longas trajetórias no Legislativo.</p><h2>Calheiros, 71, deixará o Senado depois de 32 anos</h2><p>Calheiros, 71, deixará o Senado depois de 32 anos de atuação. Ele estava no cargo desde 1995, quando tomou posse pela primeira vez, e chegou a cadeira de presidente do Congresso por três períodos: de 2005 até 2007, quando renunciou ao cargo após denúncias de corrupção; de 2013 a 2015 e de 2015 a 2017.</p><p>Com 22,24% dos votos, o emedebista perdeu a corrida eleitoral para o ex-presidente da Câmara dos Deputados Arthur Lira (PP) e Marina JHC (PSDB) , que tiveram 28,87% e 28,20% respectivamente.</p><p>Antes da apuração dos votos, Calheiros disse estar confiante. Ele não se pronunciou após a derrota.</p><h2>Quando era universitário, na década de 1970, Calheiros já</h2><p>Quando era universitário, na década de 1970, Calheiros já dava sinais de que seguiria a carreira política.</p><p>Ele presidiu o diretório acadêmico da área de ciências humanas e sociais da Universidade Federal de Alagoas e se filiou à legenda do antigo MDB, no período em que Brasil ainda vivia sob a ditadura militar.</p><p>O atual líder do governo Lula (PT) no Congresso Nacional, Randolfe Rodrigues, ficou em terceiro lugar com 18,55% dos votos no Amapá. Ele perdeu a vaga para a dobradinha de Rayssa Furlan (Podemos) e Lucas Barreto (PSD) , que concentraram 29,98% e 24,22%, respectivamente.</p><p>Rayssa e Lucas são aliados do governador eleito do Amapá, Dr. Antônio Furlan (PSD). Eles formam o grupo político adversário do presidente da Congresso, Davi Alcolumbre (União Brasil), que se vê agora com poucos aliados e um grande desafio para a reeleição em 2030.</p><p>Randolfe, 53, é derrotado em meio ao crescimento da direita em todo país e o enfraquecimento do PT. Ele foi eleito pela primeira vez como deputado federal pelo PT e exerceu o cargo entre 1999 e 2007. Já em 2011, assumiu o cargo de senador.</p><p>Ele passou pelo PSOL, Rede e voltou ao PT, em 2023, após de divergências quanto à exploração de petróleo na foz do rio Amazonas com a então ministra de Meio Ambiente, Marina Silva.</p><p>Randolfe teve embates memoráveis com políticos de direita, como em 2013 quando se envolveu em uma briga com o então deputado Jair Bolsonaro, que o acusou de ter lhe agredido.</p><p>\"Em primeiro lugar, quero agradecer a confiança de cada amapaense através dos mais de 150 mil votos que tive em minha candidatura ao Senado da República.</p><p>Além disso, quero agradecer sobretudo o carinho com que fui recebido em cada rua, em cada casa do Amapá\", disse Randolfe, em vídeo publicado nas redes sociais.</p><p>Ciro Nogueira teve 24,68% dos votos contra os eleitos Marcelo Castro (MDB-PI) e Júlio César (PSD-PI), que tiveram 35,65% e 26,97%, respectivamente. Nas pesquisas, ele chegou a figurar mais intenção que os concorrentes.</p><p>Nogueira também assumiu um cargo no Senado pela primeira vez em 2011 e chegou ao cargo de ministro da Casa Civil (2021-2022) do governo do ex-presidente Jair Bolsonaro (PL). Antes disso, foi deputado estadual pelo Piauí entre 1995 até 2010.</p><p>\"Só tenho a agradecer ao povo do Piauí pelas manifestações de carinho, de afeto.</p><p>Cada abraço, cada aperto de mão, cada mensagem de incentivo, para ter mais força para lutar pelo potencial que só precisa que homens públicos tenham coragem de tomar a decisão de cuidar da população\", disse nas redes.</p><p>O Senado terá, a partir de 2027, uma nova configuração que pode afetar pautas como o fim da escala 6x1 e a CPI do Banco Master, que devem enfraquecer após os eleitos assumirem os cargos, enquanto o debate sobtre o impeachment de ministros do STF (Supremo Tribunal Federal) pode ganhar força.</p><p>Ao menos 49 congressistas, entre eleitos e titulares que continuarão no Senado, defendem o impeachment de ministros da corte ainda que com ressalvas, segundo levantamento da Folha .</p><p>Para aprovar o afastamento de magistrados são necessários 54 votos, ou seja, dois terços das cadeiras.</p><p>Hoje, 14 senadores que têm mais quatro anos de mandato já se posicionaram a favor da abertura de processos por crimes de responsabilidade contra ministros do Supremo.</p><p>A partir do próximo ano, eles se somarão aos 35 que foram eleitos neste domingo (4) e que também endossam a medida.</p><p>É o caso, por exemplo, de Michelle Bolsonaro (PL) e de Bia Kicis (PL), eleitas com recorde de votos pelo Distrito Federal, e de Guilherme Derrite ( PP ), por São Paulo, e Carlos Portinho (PL), pelo Rio de Janeiro.</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/renan-calheiros-ciro-nogueira-e-randolfe-sao-derrotados-e-deixam-senado-apos-longa-trajetoria.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Os decanos do Senado Renan Calheiros (MDB-AL), Ciro Nogueira (PP-PI) e Randolfe Rodrigues (PT-AP) não conseguiram se reeleger e deixarão o Congresso Nacional em 2027 após longas trajetórias no Legislativo."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Calheiros, 71, deixará o Senado depois de 32 anos de atuação. Ele estava no cargo desde 1995, quando tomou posse pela primeira vez, e chegou a cadeira de presidente do Congresso por três períodos: de 2005 até 2007, quando renunciou ao cargo após denúncias de corrupção; de 2013 a 2015 e de 2015 a 2017."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Com 22,24% dos votos, o emedebista perdeu a corrida eleitoral para o ex-presidente da Câmara dos Deputados Arthur Lira (PP) e Marina JHC (PSDB) , que tiveram 28,87% e 28,20% respectivamente. Antes da apuração dos votos, Calheiros disse estar confiante. Ele não se pronunciou após a derrota."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Quando era universitário, na década de 1970, Calheiros já dava sinais de que seguiria a carreira política. Ele presidiu o diretório acadêmico da área de ciências humanas e sociais da Universidade Federal de Alagoas e se filiou à legenda do antigo MDB, no período em que Brasil ainda vivia sob a ditadura militar."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O atual líder do governo Lula (PT) no Congresso Nacional, Randolfe Rodrigues, ficou em terceiro lugar com 18,55% dos votos no Amapá. Ele perdeu a vaga para a dobradinha de Rayssa Furlan (Podemos) e Lucas Barreto (PSD) , que concentraram 29,98% e 24,22%, respectivamente."
-          }
-        ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/05/17911711266ac31a366f0d4_1791171126_3x2_rt.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/renan-calheiros-ciro-nogueira-e-randolfe-sao-derrotados-e-deixam-senado-apos-longa-trajeto.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "1770d6954aadeac1",
-      "titulo": "Editor de moda Bruno Uchôa debate futuro e desafios do mercado fashion",
+      "id": "f8ed84b8f49da1de",
+      "titulo": "Fundos ligados à Bolsa brasileira disparam após liderança de Flávio",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "Metrópoles - Política",
-      "urlFonte": "https://www.metropoles.com/colunas/ilca-maria-estevao/editor-de-moda-bruno-uchoa-debate-futuro-e-desafios-do-mercado-fashion",
-      "dataFonte": "2026-10-05T05:00:00.000Z",
-      "resumoFonte": "Bruno Uchôa é editor de moda da Haper´s Bazaar Brasil há 3 anos e conversou com a coluna Ilca Maria Estevão durante o Metrópoles Catwalk",
-      "imagem": "https://i.metroimg.com/-AhUIqgPgK-bbnXNWsg0VKGyMvejIi-bOD5scOZ5aTU/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/capas-6.jpg",
-      "descobertaEm": "2026-10-05T05:17:52.257Z"
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-economia/fundos-ligados-a-bolsa-brasileira-disparam-apos-lideranca-de-flavio/",
+      "dataFonte": "2026-10-05T08:42:13.000Z",
+      "resumoFonte": "EWZ, negociado nos EUA, teve alta de 10,16% no after-hours; em Tóquio, fundo que acompanha Ibovespa fechou com alta de 12,32%",
+      "imagem": "https://static.poder360.com.br/uploads/2026/01/Bolsa-Valores-1080.png",
+      "descobertaEm": "2026-10-05T09:17:58.374Z",
+      "reportagem": {
+        "titulo": "Fundos ligados à Bolsa brasileira disparam após liderança de Flávio",
+        "slug": "fundos-ligados-a-bolsa-brasileira-disparam-apos-lideranca-de-flavio",
+        "categoria": "Economia",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/fundos-ligados-a-bolsa-brasileira-disparam-apos-lideranca-de-flavio.jpg",
+        "resumo": "EWZ, negociado nos EUA, teve alta de 10,16%; em Tóquio, fundo que acompanha Ibovespa fechou com alta de 12,32%. Leia no Poder360.",
+        "conteudo": "<p>EWZ, negociado nos EUA, teve alta de 10,16% no after-hours; em Tóquio, fundo que acompanha Ibovespa fechou com alta de 12,32%</p><h2>Fundos que acompanham o desempenho das ações brasileiras</h2><p>Fundos que acompanham o desempenho das ações brasileiras no exterior dispararam depois de o senador Flávio Bolsonaro (PL) liderar o 1º turno da eleição para presidente.</p><p>O EWZ (iShares MSCI Brazil ETF), fundo negociado em Nova York, teve alta de 10,16% no after-hours (período de negociação depois do fechamento da Bolsa nova-iorquina).</p><p>Formulário de cadastro alertas grátis do Poder360 concordo com os termos da LGPD . Inscreva-se Inscreva-se</p><h2>Às 4h58 (horário de Brasília) desta 2ª feira (5</h2><p>Às 4h58 (horário de Brasília) desta 2ª feira (5.out), o EWZ era negociado a US$ 42,06, uma alta de 10,16%. No pregão regular, o fundo havia fechado a US$ 38,19, com alta de 2,83%.</p><p>Em Tóquio, o NEXT FUNDS Ibovespa Linked Exchange Traded Fund (1325), ETF que acompanha o Ibovespa, fechou o pregão em alta de 12,32%, a 331 ienes, às 15h30 desta 2ª feira (5.out) no horário local (3h30 em Brasília).</p><p>Leia como estavam as principais bolsas às 5h10 (em Brasília):</p><p>Flávio e o presidente Luiz Inácio Lula da Silva (PT) vão disputar o 2º turno da eleição presidencial em 25 de outubro de 2026.</p><p>Às 2h58 de 2ª feira (5.out) e com 100% das urnas apuradas, Flávio registrou 47,03% dos votos válidos (56.104.503 votos). Lula, 45,16% (53.879.538 votos).</p><p>O resultado repete pela 3ª vez a polarização entre o lulismo/petismo (esquerda) contra o bolsonarismo/conservadorismo (direita). Esses 2 grupos foram finalistas em 2018 e em 2022. Agora, repetem o confronto em 2026.</p><p>Caso vença em 25 de outubro, Lula será o 1º presidente eleito 4 vezes pelo voto popular. Já uma vitória de Flávio marcará a eleição do 2º governo de direita declarada no Brasil desde a volta do país à democracia civil, em 1985.</p><p>Fundos ligados à Bolsa brasileira disparam após liderança de Flávio EWZ, negociado nos EUA, teve alta de 10,16% no after-hours; em Tóquio, fundo que acompanha Ibovespa fechou com alta de 12,32% --> copiar link --></p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-economia/fundos-ligados-a-bolsa-brasileira-disparam-apos-lideranca-de-flavio/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "EWZ, negociado nos EUA, teve alta de 10,16% no after-hours; em Tóquio, fundo que acompanha Ibovespa fechou com alta de 12,32%"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Fundos que acompanham o desempenho das ações brasileiras no exterior dispararam depois de o senador Flávio Bolsonaro (PL) liderar o 1º turno da eleição para presidente."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O EWZ (iShares MSCI Brazil ETF), fundo negociado em Nova York, teve alta de 10,16% no after-hours (período de negociação depois do fechamento da Bolsa nova-iorquina)."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Formulário de cadastro alertas grátis do Poder360 concordo com os termos da LGPD . Inscreva-se Inscreva-se"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Às 4h58 (horário de Brasília) desta 2ª feira (5.out), o EWZ era negociado a US$ 42,06, uma alta de 10,16%. No pregão regular, o fundo havia fechado a US$ 38,19, com alta de 2,83%."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/01/Bolsa-Valores-1080.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/fundos-ligados-a-bolsa-brasileira-disparam-apos-lideranca-de-flavio.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
-      "id": "52845c7fa9bf12ec",
-      "titulo": "“Caneta Azul” registra 7 mil votos e não se elege deputado federal",
-      "categoria": "Cultura",
+      "id": "e375594d93a59acd",
+      "titulo": "Futuros de Nova York oscilam perto da estabilidade com Fed e Treasuries no foco",
+      "categoria": "Economia",
       "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/caneta-azul-registra-7-mil-votos-e-nao-se-elege-deputado-federal/",
-      "dataFonte": "2026-10-05T05:41:38.000Z",
-      "resumoFonte": "Cantor ficou famoso pela música que se tornou meme viral e usa como título nas urnas",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Design-sem-nome-3.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-05T06:17:48.854Z",
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/mercados/futuros-de-nova-york-oscilam-perto-da-estabilidade-com-fed-e-treasuries-no-foco/",
+      "dataFonte": "2026-10-05T08:39:10.000Z",
+      "resumoFonte": "Operadores na bolsa de Nova York 04/04/2024. REUTERS/Andrew Kelly \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2024/04/2024-04-12T144116Z_1_LYNXNPEK3B0M4_RTROPTP_4_USA-STOCKS.jpg?fit=1280%2C854&quality=70&strip=all\" />Mercado reduz apostas em alta de juros em outubro, mas Treasuries elevados e petróleo ainda caro mantêm…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2024/04/2024-04-12T144116Z_1_LYNXNPEK3B0M4_RTROPTP_4_USA-STOCKS.jpg",
+      "descobertaEm": "2026-10-05T09:17:58.374Z",
       "reportagem": {
-        "titulo": "&quot;Caneta Azul&quot; registra 7 mil votos e não se elege deputado federal",
-        "slug": "quot-caneta-azul-quot-registra-7-mil-votos-e-nao-se-elege-deputado-federal",
-        "categoria": "Cultura",
+        "titulo": "Futuros de Nova York oscilam perto da estabilidade com Fed e Treasuries no foco",
+        "slug": "futuros-de-nova-york-oscilam-perto-da-estabilidade-com-fed-e-treasuries-no-foco",
+        "categoria": "Economia",
         "data": "2026-10-05",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/quot-caneta-azul-quot-registra-7-mil-votos-e-nao-se-elege-deputado-federal.jpg",
-        "resumo": "Cantor ficou famoso pela música que se tornou meme viral e usa como título nas urnas",
-        "conteudo": "<p>O cantor Manoel Gomes - conhecido como &quot;Caneta Azul&quot; — não conseguiu se eleger deputado federal por São Paulo neste domingo (4).</p><h2>Com pouco mais de 7 mil votos, o candidato</h2><p>Com pouco mais de 7 mil votos, o candidato foi o oitavo colocado do Avante. Porém, os 202 mil votos recebidos pela legenda no estado não garantiram nenhuma cadeira ao partido na Câmara dos Deputados.</p><p>Natural do município de Balsas, localizado no sul do Maranhão, Manoel Gomes ganhou notoriedade em meados de 2019 quando viralizou na internet com a música &quot;Caneta Azul&quot;. Seu um minuto e treze segundos de duração foi suficiente para se tornar um meme nas redes sociais.</p><p>Mais tarde, em 2020, lançou álbum homônimo. O projeto e trabalhos subsequentes lhe mantiveram popular no TikTok e no Instagram.</p><h2>Essa não foi a primeira vez que Manoel disputou</h2><p>Essa não foi a primeira vez que Manoel disputou um cargo público. Em 2022, tentou a Assembleia Legislativa do Maranhão pelo PL. Na ocasião, recebeu 7.543 votos, conseguindo apenas uma vaga de suplente.</p><p>Manoel Gomes, conhecido como &quot;Caneta Azul&quot;</p><p>O cantor Manoel Gomes - conhecido como &quot;Caneta Azul&quot; — não conseguiu se eleger deputado federal por São Paulo neste domingo (4). Com pouco mais de 7 mil votos, o candidato foi o oitavo colocado do Avante.</p><p>Porém, os 202 mil votos recebidos pela legenda no estado não garantiram nenhuma cadeira ao partido na Câmara dos Deputados. Leia Mais</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/caneta-azul-registra-7-mil-votos-e-nao-se-elege-deputado-federal/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/futuros-de-nova-york-oscilam-perto-da-estabilidade-com-fed-e-treasuries-no-foco.jpg",
+        "resumo": "Mercado reduz apostas em alta de juros em outubro, mas Treasuries elevados e petróleo ainda caro mantêm investidores cautelosos",
+        "conteudo": "<p>Os índices futuros dos EUA operam próximos da estabilidade nesta segunda-feira (5), com investidores avaliando o impacto do mercado de trabalho mais fraco sobre a trajetória dos juros do Federal Reserve (Fed).</p><h2>Dado de emprego de setembro reduziu as apostas</h2><p>O dado de emprego de setembro reduziu as apostas em uma nova alta de juros em outubro, mas os rendimentos dos Treasuries seguem elevados e limitam o apetite por risco.</p><p>Os investidores agora precificam uma probabilidade inferior a 20% de que o Fed possa aumentar as taxas de juros em outubro, embora uma medida em dezembro continue sendo uma possibilidade bastante real.</p><p>O petróleo também recua, diante de sinais de recuperação das exportações do Oriente Médio e da liberação de estoques pelo G7.</p><h2>Investidores estarão atentos, ao longo da semana, aos dados</h2><p>Os investidores estarão atentos, ao longo da semana, aos dados de atividade dos Estados Unidos. Na segunda-feira, o destaque será o índice de serviços do Instituto de Gestão de Fornecimento (ISM), referente a setembro.</p><p>Na quarta-feira, será divulgada a ata da reunião de setembro do Federal Reserve (Fed), enquanto, na sexta-feira, sai a leitura preliminar da confiança do consumidor da Universidade de Michigan em outubro.</p><p>Na temporada de balanços, os destaques incluem os resultados de Constellation Brands, Levi Strauss &amp; Co., PepsiCo e Delta Air Lines. A Delta, por exemplo, divulgará seus números do terceiro trimestre na sexta-feira, 9 de outubro.</p><p>Os mercados europeus operam sem direção única, à medida que os investidores demonstram pouco apetite por risco, com a turbulência política e as tensões fiscais na região sendo o foco principal, e o euro caindo para a mínima em 17 meses em relação ao dólar.</p><p>A queda ocorreu após o primeiro-ministro espanhol, Pedro Sánchez, convocar eleições antecipadas, aumentando as preocupações que já afetavam a dívida soberana francesa e de outros países vulneráveis.</p><p>Os mercados da Ásia-Pacífico fecharam em alta generalizada nesta segunda-feira, impulsionados pela recuperação do fluxo de petróleo do Oriente Médio, embora os elevados rendimentos dos títulos do Tesouro mantenham os investidores apreensivos.</p><p>Os mercados da China continental e da Coreia do Sul estavam fechados devido a feriados.</p><p>Os preços do petróleo sobem com o aumento das exportações de petróleo bruto do Oriente Médio e a liberação de estoques de petróleo dos países do G7 elevando a oferta, apesar das preocupações contínuas com possíveis danos adicionais à infraestrutura petrolífera do Golfo em meio à guerra no Irã.</p><p>No domingo, o governo do Iêmen, apoiado pela Arábia Saudita e reconhecido internacionalmente, anunciou uma grande campanha militar para retomar todas as áreas do país controladas pelos houthis, grupo apoiado pelo Irã.</p><p>Enquanto isso, a petroleira Aramco reduziu inesperadamente os preços do petróleo bruto para novembro na Ásia para as mínimas em seis anos.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/mercados/futuros-de-nova-york-oscilam-perto-da-estabilidade-com-fed-e-treasuries-no-foco/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Os índices futuros dos EUA operam próximos da estabilidade nesta segunda-feira (5), com investidores avaliando o impacto do mercado de trabalho mais fraco sobre a trajetória dos juros do Federal Reserve (Fed). O dado de emprego de setembro reduziu as apostas em uma nova alta de juros em outubro, mas os rendimentos dos Treasuries seguem elevados e limitam o a"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Os investidores agora precificam uma probabilidade inferior a 20% de que o Fed possa aumentar as taxas de juros em outubro, embora uma medida em dezembro continue sendo uma possibilidade bastante real."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O petróleo também recua, diante de sinais de recuperação das exportações do Oriente Médio e da liberação de estoques pelo G7."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Os investidores estarão atentos, ao longo da semana, aos dados de atividade dos Estados Unidos. Na segunda-feira, o destaque será o índice de serviços do Instituto de Gestão de Fornecimento (ISM), referente a setembro. Na quarta-feira, será divulgada a ata da reunião de setembro do Federal Reserve (Fed), enquanto, na sexta-feira, sai a leitura preliminar da "
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Na temporada de balanços, os destaques incluem os resultados de Constellation Brands, Levi Strauss &amp; Co., PepsiCo e Delta Air Lines. A Delta, por exemplo, divulgará seus números do terceiro trimestre na sexta-feira, 9 de outubro."
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2024/04/2024-04-12T144116Z_1_LYNXNPEK3B0M4_RTROPTP_4_USA-STOCKS.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/futuros-de-nova-york-oscilam-perto-da-estabilidade-com-fed-e-treasuries-no-foco.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "fdc3ab4d0045f9cc",
+      "titulo": "Netanyahu deseja 'grande' vitória a Flávio Bolsonaro no 2º turno",
+      "categoria": "Cidades",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/netanyahu-deseja-grande-vitoria-a-flavio-bolsonaro-no-2o-turno.shtml",
+      "dataFonte": "2026-10-05T08:43:00.000Z",
+      "resumoFonte": "O primeiro-ministro israelense, Binyamin Netanyahu , desejou nesta segunda-feira (5) uma \"grande vitória\" a Flávio Bolsonaro ( PL ), 45, no segundo turno das eleições presidenciais do Brasil. Leia mais (10/05/2026 - 05h43)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2023/10/25/1698255866653953fa1a767_1698255866_3x2_xl.jpg",
+      "descobertaEm": "2026-10-05T09:17:58.374Z",
+      "reportagem": {
+        "titulo": "Netanyahu deseja 'grande' vitória a Flávio Bolsonaro no 2º turno",
+        "slug": "netanyahu-deseja-grande-vitoria-a-flavio-bolsonaro-no-2-turno",
+        "categoria": "Cidades",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/netanyahu-deseja-grande-vitoria-a-flavio-bolsonaro-no-2-turno.jpg",
+        "resumo": "O primeiro-ministro israelense, Binyamin Netanyahu , desejou nesta segunda-feira (5) uma \"grande vitória\" a Flávio Bolsonaro ( PL ), 45, no segundo turno das eleições presidenciais do Brasil. Leia mais (10/05/2026 - 05h43)",
+        "conteudo": "<p>O primeiro-ministro israelense, Binyamin Netanyahu , desejou nesta segunda-feira (5) uma \"grande vitória\" a Flávio Bolsonaro ( PL ), 45, no segundo turno das eleições presidenciais do Brasil.</p><h2>\"Estou muito ansioso para restabelecer a extraordinária amizade</h2><p>\"Estou muito ansioso para restabelecer a extraordinária amizade entre Israel e Brasil. Meus melhores votos para sua grande vitória, meu amigo\", disse Netanyahu em um comunicado publicado no X.</p><p>Na eleição deste domingo (4), o senador obteve 47,03% dos votos, ante 45,16% do presidente Luiz Inácio Lula da Silva (PT), 80. Ambos disputarão o segundo turno em 25 de outubro.</p><p>O senador prometeu visitar Israel logo no início de um eventual governo, inspirado no que fez seu pai, Jair Bolsonaro (PL), em 2019.</p><h2>Recado foi dado em reunião com representantes da Conib</h2><p>O recado foi dado em reunião com representantes da Conib (Confederação Israelita do Brasil) em um apartamento em Higienópolis, área nobre de São Paulo, na noite de 29 de setembro.</p><p>Bolsonaro pai esteve no Estado judeu três meses após ser eleito. A direita brasileira tem grande identificação com Israel e vê no primeiro-ministro Netanyahu um aliado.</p><p>O candidato do PL venceu com ampla vantagem em Israel, com 523 votos (74,29%). Lula, cujo governo foi marcado por atritos diplomáticos com Tel Aviv, recebeu 92 votos (13,07%).</p><p>Mais de 180 reportagens e análises publicadas a cada dia. Um time com mais de 200 colunistas e blogueiros.</p><p>Um jornalismo profissional que fiscaliza o poder público, veicula notícias proveitosas e inspiradoras, faz contraponto à intolerância das redes sociais e traça uma linha clara entre verdade e mentira.</p><p>O primeiro-ministro israelense, Binyamin Netanyahu , desejou nesta segunda-feira (5) uma \"grande vitória\" a Flávio Bolsonaro ( PL ), 45, no segundo turno das eleições presidenciais do Brasil.</p><p>\"Estou muito ansioso para restabelecer a extraordinária amizade entre Israel e Brasil. Meus melhores votos para sua grande vitória, meu amigo\", disse Netanyahu em um comunicado publicado no X.</p><p>Na eleição deste domingo (4), o senador obteve 47,03% dos votos, ante 45,16% do presidente Luiz Inácio Lula da Silva (PT), 80. Ambos disputarão o segundo turno em 25 de outubro.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/netanyahu-deseja-grande-vitoria-a-flavio-bolsonaro-no-2o-turno.shtml",
         "fontesAdicionais": [
           {
             "nome": "A Gazeta",
@@ -731,76 +1199,52 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O cantor Manoel Gomes - conhecido como &quot;Caneta Azul&quot; — não conseguiu se eleger deputado federal por São Paulo neste domingo (4)."
+            "resposta": "O primeiro-ministro israelense, Binyamin Netanyahu , desejou nesta segunda-feira (5) uma \"grande vitória\" a Flávio Bolsonaro ( PL ), 45, no segundo turno das eleições presidenciais do Brasil."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Com pouco mais de 7 mil votos, o candidato foi o oitavo colocado do Avante. Porém, os 202 mil votos recebidos pela legenda no estado não garantiram nenhuma cadeira ao partido na Câmara dos Deputados."
+            "resposta": "\"Estou muito ansioso para restabelecer a extraordinária amizade entre Israel e Brasil. Meus melhores votos para sua grande vitória, meu amigo\", disse Netanyahu em um comunicado publicado no X."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Natural do município de Balsas, localizado no sul do Maranhão, Manoel Gomes ganhou notoriedade em meados de 2019 quando viralizou na internet com a música &quot;Caneta Azul&quot;. Seu um minuto e treze segundos de duração foi suficiente para se tornar um meme nas redes sociais."
+            "resposta": "Na eleição deste domingo (4), o senador obteve 47,03% dos votos, ante 45,16% do presidente Luiz Inácio Lula da Silva (PT), 80. Ambos disputarão o segundo turno em 25 de outubro."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Mais tarde, em 2020, lançou álbum homônimo. O projeto e trabalhos subsequentes lhe mantiveram popular no TikTok e no Instagram."
+            "resposta": "O senador prometeu visitar Israel logo no início de um eventual governo, inspirado no que fez seu pai, Jair Bolsonaro (PL), em 2019."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Essa não foi a primeira vez que Manoel disputou um cargo público. Em 2022, tentou a Assembleia Legislativa do Maranhão pelo PL. Na ocasião, recebeu 7.543 votos, conseguindo apenas uma vaga de suplente."
+            "resposta": "O recado foi dado em reunião com representantes da Conib (Confederação Israelita do Brasil) em um apartamento em Higienópolis, área nobre de São Paulo, na noite de 29 de setembro."
           }
         ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Design-sem-nome-3.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/quot-caneta-azul-quot-registra-7-mil-votos-e-nao-se-elege-deputado-federal.jpg",
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2023/10/25/1698255866653953fa1a767_1698255866_3x2_xl.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/netanyahu-deseja-grande-vitoria-a-flavio-bolsonaro-no-2-turno.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "d2c7958203d12797",
-      "titulo": "SIBO: gastroenterologista alerta para condição intestinal de Selena Gomez",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/claudia-meireles/sibo-gastroenterologista-alerta-para-condicao-intestinal-de-selena-gomez",
-      "dataFonte": "2026-10-05T05:00:54.000Z",
-      "resumoFonte": "Conhecida como SIBO, a condição intestinal da cantora Selena Gomez pode ocasionar em distensão abdominal, com sensação de ganho de peso",
-      "imagem": "https://i.metroimg.com/QtVl9m2Vznkm9IN1ZWeFlGnev-LMxLMCpmLB977-sQw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/selena-gomez.jpg",
-      "descobertaEm": "2026-10-05T05:17:52.257Z"
-    },
-    {
-      "id": "70f640a47c6ed7aa",
-      "titulo": "Veja as 10 cidades com maior abstenção e o que mudou desde 2022",
+      "id": "1efae401f0d1dcc0",
+      "titulo": "Não foram constatados fatos que indiquem interferência estrangeira no pleito, diz TSE",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/veja-as-10-cidades-com-maior-abstencao-e-o-que-mudou-desde-2022.ghtml",
-      "dataFonte": "2026-10-05T06:28:21.000Z",
-      "resumoFonte": "'Santinhos' em calçada de local de votação em Teresina - Eleições 2026 no Piauí Gil Oliveira/TV Clube Rio Vermelho (MG) registra a maior taxa de abstenção no primeiro turno das eleições de 2026: 40,09% dos eleitores não compareceram às urnas, segundo os dados do Tribunal Superior Eleitoral (TSE) consultados pelo g1. Foram 4.079 ausentes na cidade…",
-      "imagem": "https://s2-g1.glbimg.com/CZdeJBc8kWivsDF2Egjjv5-4b1c=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/P/o/ADzedHQG2RhTANF3oniw/whatsapp-image-2026-10-04-at-07.55.52.jpeg",
-      "descobertaEm": "2026-10-05T07:08:22.231Z"
-    },
-    {
-      "id": "4a010dd81a634572",
-      "titulo": "De 20 a 86 anos: veja os mais novos e os mais velhos entre os eleitos já confirmados",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/eleitos-mais-novos-mais-velhos-eleicoes-2026.ghtml",
-      "dataFonte": "2026-10-05T05:49:17.000Z",
-      "resumoFonte": "Alvinho Lira (PP-AL), filho de Arthur Lira Reprodução Alvinho Lira (PP-AL), de 20 anos, e Zé Teixeira (PL-MS), de 86, são o mais novo e o mais velho entre os 1.139 candidatos eleitos reunidos no levantamento parcial do g1, com base nos dados do Tribunal Superior Eleitoral (TSE) do primeiro turno das eleições de 2026. Alvinho conquistou uma vaga de…",
-      "imagem": "https://s2-g1.glbimg.com/Z4mkmuTWOlmve4tMigxDtEQewqU=/1250x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/r/l/m41CzFQyyaFNPbcr0BjA/lucas.jpg",
-      "descobertaEm": "2026-10-05T06:17:48.854Z",
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/politica/nao-foram-constatados-fatos-que-indiquem-interferencia-estrangeira-no-pleito-diz-tse/",
+      "dataFonte": "2026-10-05T09:13:27.000Z",
+      "resumoFonte": "Presidente do Tribunal Superior Eleitoral, Nunes Marques, participa de cerimônia em Brasília, 4 de setembro de 2026. REUTERS/Adriano Machado \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-04T173957Z_1_LYNXMPEM930HY_RTROPTP_4_BRAZIL-ELECTION.jpg?fit=1125%2C750&quality=70&strip=all\" />Os relatórios de observadores…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-04T173957Z_1_LYNXMPEM930HY_RTROPTP_4_BRAZIL-ELECTION.jpg",
+      "descobertaEm": "2026-10-05T09:17:58.374Z",
       "reportagem": {
-        "titulo": "De 20 a 86 anos: veja os mais jovens e mais velhos entre eleitos | G1",
-        "slug": "de-20-a-86-anos-veja-os-mais-jovens-e-mais-velhos-entre-eleitos-g1",
+        "titulo": "Não foram constatados fatos que indiquem interferência estrangeira no pleito, diz TSE",
+        "slug": "nao-foram-constatados-fatos-que-indiquem-interferencia-estrangeira-no-pleito-diz-tse",
         "categoria": "Justiça",
         "data": "2026-10-05",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/de-20-a-86-anos-veja-os-mais-jovens-e-mais-velhos-entre-eleitos-g1.jpg",
-        "resumo": "Levantamento parcial reúne 1.139 eleitos. Entre os 20 governadores incluídos, Lucas Ribeiro, de 37 anos, é o mais novo, e Jorginho Mello, de 70, o mais velho.",
-        "conteudo": "<p>Alvinho Lira (PP-AL), filho de Arthur Lira — Foto: Reprodução</p><h2>Alvinho Lira (PP-AL), de 20 anos, e Zé Teixeira</h2><p>Alvinho Lira (PP-AL), de 20 anos, e Zé Teixeira (PL-MS), de 86, são o mais novo e o mais velho entre os 1.139 candidatos eleitos reunidos no levantamento parcial do g1 , com base nos dados do Tribunal Superior Eleitoral (TSE) do primeiro turno das eleições de 2026.</p><p>Alvinho conquistou uma vaga de deputado federal por Alagoas. Já Zé Teixeira foi eleito deputado estadual por Mato Grosso do Sul.</p><p>Entre os mais jovens, Alvinho é seguido por Sandro Filho (PP-BA), de 21 anos, eleito deputado federal pela Bahia.</p><h2>Na sequência aparecem Poubel Filho (PL-RJ), Marcos Junior (Pode-TO)</h2><p>Na sequência aparecem Poubel Filho (PL-RJ), Marcos Junior (Pode-TO) e Thiago Medina (PL-PE), todos com 23 anos. Na outra ponta, Londres Machado (PP-MS), de 84 anos, aparece depois de Zé Teixeira.</p><p>Os dois foram eleitos para a Assembleia Legislativa de Mato Grosso do Sul. Luiz Paulo (PSD-RJ) e José Esmeraldo (União-ES), ambos com 80 anos, vêm em seguida.</p><p>Entre os 20 governadores eleitos em primeiro turno, Lucas Ribeiro (PP), na Paraíba, é o mais novo, com 37 anos. Jorginho Mello (PL), eleito em Santa Catarina, é o mais velho, com 70.</p><p>As idades foram calculadas a partir do nascimento informado ao TSE.</p><p>🔄 Esta reportagem está em atualização. O levantamento reúne os candidatos que já apareciam como eleitos nos arquivos consultados e ainda não representa o resultado completo do país. As posições podem mudar com a inclusão de novos resultados.</p>",
-        "fonteNome": "g1 - Política",
-        "fonteUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/eleitos-mais-novos-mais-velhos-eleicoes-2026.ghtml",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/nao-foram-constatados-fatos-que-indiquem-interferencia-estrangeira-no-pleito-diz-tse.jpg",
+        "resumo": "Os relatórios de observadores internacionais apontaram transparência e normalidade no 1º turno das eleições",
+        "conteudo": "<p>O presidente do Tribunal Superior Eleitoral (TSE), o ministro Kassio Nunes Marques, afirmou neste domingo, 4, que os relatórios de observadores internacionais apontaram transparência e normalidade no 1º turno das eleições, realizado neste domingo.</p><h2>Também destacou que, no período observado, não foram constatados</h2><p>Também destacou que, no período observado, não foram constatados fatos que indicassem interferência estrangeira no processo eleitoral brasileiro.</p><p>InfoMoney reúne as principais informações que devem movimentar os mercados nesta segunda-feira (5)</p><p>Migração de indecisos e de eleitores da direita ajuda a explicar diferença em relação aos levantamentos</p><h2>“Indicaram ainda que, ao longo da missão de observação,</h2><p>“Indicaram ainda que, ao longo da missão de observação, obtiveram acesso às informações necessárias e puderam conhecer o sistema eleitoral brasileiro, registrando que este sistema conta com a confiança de instituições da sociedade civil, órgãos governamentais e partidos políticos com os quais seus integrantes mantiveram reuniões”, afirmou o presidente do TSE.</p><p>Nunes Marques acrescentou que, até o momento, os observadores não informaram ter identificado incidentes graves ou ocorrências relacionadas às urnas eletrônicas, identificação dos eleitores ou transporte.</p><p>“Recebemos estes registros com satisfação e os entendemos também como uma demonstração da importância da observação eleitoral e do diálogo entre instituições democráticas”, afirmou.</p><p>Nunes Marques também afirmou que houve uma redução expressiva do número de denúncias relacionadas à integridade do processo eleitoral e a possível supressão do voto em relação a 2022, conforme registros do Sistema de Alerta de Desinformação Eleitoral.</p><p>“Em 2022, entre o primeiro de agosto e a véspera da votação, foram registradas 18.487 denúncias. No mesmo período de 2026, foram 2.604 denúncias.</p><p>Isso representa uma redução de aproximadamente 86% no volume de registros”, disse o ministro.</p><p>“É importante esclarecer que esses números dizem respeito exclusivamente a conteúdos relacionados à integridade do processo eleitoral ou que possam contribuir para a supressão do voto.”</p><p>Nunes Marques disse que a redução foi significativa e merece ser reconhecida, mas não significa que se deve baixar a guarda. “A defesa da verdade, da informação de qualidade e da liberdade de escolha do eleitor exige vigilância permanente”, acrescentou.</p><p>Ao fazer um balanço do 1º turno das eleições, Nunes Marques pontuou que, conforme dados compilados pelo Ministério da Justiça e da Segurança Pública, a ocorrência mais frequente nesta eleição foi, até o momento, de boca de urna.</p><p>Voltou a mencionar que o TSE permaneceu atento às condições climáticas. “No que diz respeito às condições climáticas, o Tribunal Superior Eleitoral permaneceu atento às condições meteorológicas em todo o país, em articulação com os órgãos responsáveis, de modo a acompanhar eventuais impactos sobre a votação, a apuração e a logística eleitoral”, pontuou.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/politica/nao-foram-constatados-fatos-que-indiquem-interferencia-estrangeira-no-pleito-diz-tse/",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -815,69 +1259,105 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Alvinho Lira (PP-AL), filho de Arthur Lira — Foto: Reprodução"
+            "resposta": "O presidente do Tribunal Superior Eleitoral (TSE), o ministro Kassio Nunes Marques, afirmou neste domingo, 4, que os relatórios de observadores internacionais apontaram transparência e normalidade no 1º turno das eleições, realizado neste domingo. Também destacou que, no período observado, não foram constatados fatos que indicassem interferência estrangeira "
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Alvinho Lira (PP-AL), de 20 anos, e Zé Teixeira (PL-MS), de 86, são o mais novo e o mais velho entre os 1.139 candidatos eleitos reunidos no levantamento parcial do g1 , com base nos dados do Tribunal Superior Eleitoral (TSE) do primeiro turno das eleições de 2026."
+            "resposta": "InfoMoney reúne as principais informações que devem movimentar os mercados nesta segunda-feira (5)"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Alvinho conquistou uma vaga de deputado federal por Alagoas. Já Zé Teixeira foi eleito deputado estadual por Mato Grosso do Sul. Entre os mais jovens, Alvinho é seguido por Sandro Filho (PP-BA), de 21 anos, eleito deputado federal pela Bahia. Na sequência aparecem Poubel Filho (PL-RJ), Marcos Junior (Pode-TO) e Thiago Medina (PL-PE), todos com 23 anos. Na ou"
+            "resposta": "Migração de indecisos e de eleitores da direita ajuda a explicar diferença em relação aos levantamentos"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "As idades foram calculadas a partir do nascimento informado ao TSE."
+            "resposta": "“Indicaram ainda que, ao longo da missão de observação, obtiveram acesso às informações necessárias e puderam conhecer o sistema eleitoral brasileiro, registrando que este sistema conta com a confiança de instituições da sociedade civil, órgãos governamentais e partidos políticos com os quais seus integrantes mantiveram reuniões”, afirmou o presidente do TSE"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "🔄 Esta reportagem está em atualização. O levantamento reúne os candidatos que já apareciam como eleitos nos arquivos consultados e ainda não representa o resultado completo do país. As posições podem mudar com a inclusão de novos resultados."
+            "resposta": "Nunes Marques acrescentou que, até o momento, os observadores não informaram ter identificado incidentes graves ou ocorrências relacionadas às urnas eletrônicas, identificação dos eleitores ou transporte. “Recebemos estes registros com satisfação e os entendemos também como uma demonstração da importância da observação eleitoral e do diálogo entre instituiçõ"
           }
         ],
-        "imagemOriginal": "https://s2-g1.glbimg.com/Z4mkmuTWOlmve4tMigxDtEQewqU=/1250x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/r/l/m41CzFQyyaFNPbcr0BjA/lucas.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/de-20-a-86-anos-veja-os-mais-jovens-e-mais-velhos-entre-eleitos-g1.jpg",
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-04T173957Z_1_LYNXMPEM930HY_RTROPTP_4_BRAZIL-ELECTION.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/nao-foram-constatados-fatos-que-indiquem-interferencia-estrangeira-no-pleito-diz-tse.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "eb4ec68e27f041b6",
-      "titulo": "PSOL/Rede, PDT e outras siglas ficam abaixo da cláusula de barreira na apuração; entenda o que pode mudar",
+      "id": "70f640a47c6ed7aa",
+      "titulo": "Veja as 10 cidades com maior abstenção e o que mudou desde 2022",
       "categoria": "Justiça",
       "radar": null,
       "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/psolrede-pdt-clausula-de-barreira-eleicoes-2026.ghtml",
-      "dataFonte": "2026-10-05T05:46:10.000Z",
-      "resumoFonte": "A federação PSOL/Rede, o PDT, o Avante, o Missão e a federação Renovação Solidária, formada por PRD e Solidariedade, estão abaixo dos requisitos da cláusula de barreira, segundo os dados da apuração do Tribunal Superior Eleitoral (TSE) consultados na madrugada desta segunda-feira (5). As cinco agremiações aparecem com cadeiras na distribuição de…",
-      "imagem": "https://s2-g1.glbimg.com/SNv460yaXBUAw7QVZwvNywq_pqI=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/1/u/ddHrukTJOzAQJ3YpQqGA/thumb-fotos-10-.jpg",
-      "descobertaEm": "2026-10-05T06:17:48.854Z"
-    },
-    {
-      "id": "d4ffb41a99ec55c8",
-      "titulo": "Nem o próprio voto: 7 candidatos terminam a eleição sem nenhum voto",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/candidatos-sem-votos-eleicoes-2026.ghtml",
-      "dataFonte": "2026-10-05T05:03:21.000Z",
-      "resumoFonte": "Sete candidatos a deputado estadual aparecem com zero voto computado nos resultados do TSE no 1º turno das eleições de 2026. Arte/g1 Sete candidatos a deputado estadual aparecem com zero voto computado nos resultados do primeiro turno das eleições de 2026, segundo os dados do Tribunal Superior Eleitoral (TSE) consultados pelo g1. Eles disputaram…",
-      "imagem": "https://s2-g1.glbimg.com/eUFQU2Pk4J3dY2Cv7LLsAgy8iFA=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/d/X/B9xlYMSo2AAn359S7pHw/thumb-fotos-9-.jpg",
-      "descobertaEm": "2026-10-05T05:17:52.257Z"
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/veja-as-10-cidades-com-maior-abstencao-e-o-que-mudou-desde-2022.ghtml",
+      "dataFonte": "2026-10-05T06:28:21.000Z",
+      "resumoFonte": "'Santinhos' em calçada de local de votação em Teresina - Eleições 2026 no Piauí Gil Oliveira/TV Clube Rio Vermelho (MG) registra a maior taxa de abstenção no primeiro turno das eleições de 2026: 40,09% dos eleitores não compareceram às urnas, segundo os dados do Tribunal Superior Eleitoral (TSE) consultados pelo g1. Foram 4.079 ausentes na cidade…",
+      "imagem": "https://s2-g1.glbimg.com/CZdeJBc8kWivsDF2Egjjv5-4b1c=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/P/o/ADzedHQG2RhTANF3oniw/whatsapp-image-2026-10-04-at-07.55.52.jpeg",
+      "descobertaEm": "2026-10-05T07:08:22.231Z",
+      "reportagem": {
+        "titulo": "Abstenção eleições 2026: Rio Vermelho (MG) lidera ranking do TSE | G1",
+        "slug": "abstencao-eleicoes-2026-rio-vermelho-mg-lidera-ranking-do-tse-g1",
+        "categoria": "Justiça",
+        "data": "2026-10-05",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/abstencao-eleicoes-2026-rio-vermelho-mg-lidera-ranking-do-tse-g1.jpg",
+        "resumo": "Rio Vermelho (MG) lidera a abstenção nas eleições 2026 com 40,09%, em um ranking do TSE onde oito das dez cidades com mais ausentes ficam em Minas Gerais.",
+        "conteudo": "<p>'Santinhos' em calçada de local de votação em Teresina - Eleições 2026 no Piauí — Foto: Gil Oliveira/TV Clube</p><h2>Rio Vermelho (MG) registra a maior taxa</h2><p>Rio Vermelho (MG) registra a maior taxa de abstenção no primeiro turno das eleições de 2026: 40,09% dos eleitores não compareceram às urnas, segundo os dados do Tribunal Superior Eleitoral (TSE) consultados pelo g1 . Foram 4.079 ausentes na cidade na votação deste domingo (4).</p><p>A cidade também tinha a maior taxa no primeiro turno de 2022, quando o índice chegou a 40,56%. Na comparação entre as duas eleições, houve queda de quase meio ponto percentual.</p><p>Oito das dez cidades com as maiores taxas de abstenção em 2026 ficam em Minas Gerais. As outras duas são Anhanguera (GO) e Barcelos (AM).</p><h2>🔎 Abstenção é o não comparecimento às urnas</h2><p>🔎 Abstenção é o não comparecimento às urnas. O ranking considera a proporção de ausentes em cada cidade, e não o número absoluto de pessoas que deixaram de votar.</p><p>Veja as dez maiores taxas e a comparação com 2022:</p><p>Rio Vermelho (MG) : 40,09% em 2026, ante 40,56% em 2022: queda de 0,47 ponto percentual. Santo Antônio do Itambé (MG): 39,55% em 2026, ante 40,39% em 2022: queda de 0,84 ponto percentual.</p><p>Serra Azul de Minas (MG): 38,71% em 2026, ante 36,73% em 2022: alta de 1,98 ponto percentual. Santa Maria do Suaçuí (MG): 37,72% em 2026, ante 36,26% em 2022: alta de 1,46 ponto percentual.</p><p>Chapada do Norte (MG): 37,25% em 2026, ante 38,40% em 2022: queda de 1,15 ponto percentual. Anhanguera (GO): 37,11% em 2026, ante 26,61% em 2022: alta de 10,50 pontos percentuais.</p><p>Jenipapo de Minas (MG): 37,08% em 2026, ante 37,64% em 2022: queda de 0,56 ponto percentual. Barcelos (AM): 36,70% em 2026, ante 35,97% em 2022: alta de 0,73 ponto percentual.</p><p>Novo Cruzeiro (MG): 36,46% em 2026, ante 39,34% em 2022: queda de 2,88 pontos percentuais. Materlândia (MG): 36,33% em 2026, ante 37,10% em 2022: queda de 0,77 ponto percentual.</p><p>🔄 Todas as dez cidades estão com 100% das seções apuradas. O ranking nacional ainda pode mudar com a conclusão da apuração nos demais municípios.</p><p>Apesar de concentrarem as maiores taxas de abstenção em 2026, seis das dez cidades registraram queda em relação a 2022. Houve aumento nas outras quatro.</p><p>Anhanguera (GO) teve a maior alta entre os municípios da lista: passou de 26,61% para 37,11%, uma diferença de 10,50 pontos percentuais. O número de ausentes subiu de 327 para 645.</p><p>Também houve crescimento em Serra Azul de Minas (MG), de 1,98 ponto percentual; Santa Maria do Suaçuí (MG), de 1,46 ponto; e Barcelos (AM), de 0,73 ponto.</p><p>No sentido contrário, Novo Cruzeiro (MG) teve a maior redução entre as dez cidades: a taxa caiu de 39,34% para 36,46%, uma diferença de 2,88 pontos percentuais. O total de eleitores que não votaram passou de 9.775 para 9.102.</p><p>Rio Vermelho (MG) e Santo Antônio do Itambé (MG) mantiveram, respectivamente, a primeira e a segunda posições do ranking de 2022, mesmo com a redução dos índices.</p><p>🔎 Cinco municípios aparecem entre os dez primeiros nas duas eleições : Rio Vermelho (MG), Santo Antônio do Itambé (MG), Chapada do Norte, (MG), Jenipapo de Minas (MG) e Novo Cruzeiro (MG)🔎.</p><p>O g1 cruzou os dados municipais da apuração de 2026 com a base de resultados do primeiro turno de 2022 disponibilizada pelo TSE.</p><p>Para 2022, foram considerados os registros da eleição para presidente, com a soma dos ausentes e dos eleitores aptos das zonas eleitorais de cada município. A taxa foi calculada pela divisão do total de abstenções pelo eleitorado apto, multiplicada por 100.</p>",
+        "fonteNome": "g1 - Política",
+        "fonteUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/05/veja-as-10-cidades-com-maior-abstencao-e-o-que-mudou-desde-2022.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "'Santinhos' em calçada de local de votação em Teresina - Eleições 2026 no Piauí — Foto: Gil Oliveira/TV Clube"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Rio Vermelho (MG) registra a maior taxa de abstenção no primeiro turno das eleições de 2026: 40,09% dos eleitores não compareceram às urnas, segundo os dados do Tribunal Superior Eleitoral (TSE) consultados pelo g1 . Foram 4.079 ausentes na cidade na votação deste domingo (4)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A cidade também tinha a maior taxa no primeiro turno de 2022, quando o índice chegou a 40,56%. Na comparação entre as duas eleições, houve queda de quase meio ponto percentual."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Oito das dez cidades com as maiores taxas de abstenção em 2026 ficam em Minas Gerais. As outras duas são Anhanguera (GO) e Barcelos (AM)."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "🔎 Abstenção é o não comparecimento às urnas. O ranking considera a proporção de ausentes em cada cidade, e não o número absoluto de pessoas que deixaram de votar."
+          }
+        ],
+        "imagemOriginal": "https://s2-g1.glbimg.com/CZdeJBc8kWivsDF2Egjjv5-4b1c=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/P/o/ADzedHQG2RhTANF3oniw/whatsapp-image-2026-10-04-at-07.55.52.jpeg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/abstencao-eleicoes-2026-rio-vermelho-mg-lidera-ranking-do-tse-g1.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     }
   ],
-  "reapuradoEm": "2026-10-05T07:48:09.797Z",
+  "reapuradoEm": "2026-10-05T09:48:45.724Z",
   "diagnosticoReapuracao": {
-    "produzidas": 11,
+    "produzidas": 20,
     "jaProntas": 0,
-    "incompletas": 16,
+    "incompletas": 11,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 11,
+    "geradas": 20,
     "reaproveitadas": 0,
-    "puladas": 16,
+    "puladas": 11,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-10-05T07:48:45.638Z"
+  "lapisEm": "2026-10-05T09:50:22.547Z"
 }
