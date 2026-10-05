@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-04T23:17:48.780Z",
+  "atualizadoEm": "2026-10-05T00:18:03.298Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
   "novasPautas": 103,
   "pautasPendentes": 80,
@@ -140,11 +140,9 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://ipbvit.org.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://ipbvit.org.br/ -> 403 Forbidden",
+      "capa": true
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -199,7 +197,7 @@
     {
       "fonte": "Século Diário",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 6,
       "capa": true,
       "rota": "https://www.seculodiario.com.br/",
       "fallback": false
@@ -261,10 +259,8 @@
     },
     {
       "fonte": "Câmara dos Deputados",
-      "ok": true,
-      "encontrados": 0,
-      "rota": "https://www.camara.leg.br/noticias/rss/ultimas",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.camara.leg.br/noticias/rss/ultimas -> fetch failed"
     },
     {
       "fonte": "Agência Brasil - Política",
@@ -275,10 +271,8 @@
     },
     {
       "fonte": "Folha de S.Paulo - Poder",
-      "ok": true,
-      "encontrados": 30,
-      "rota": "https://feeds.folha.uol.com.br/poder/rss091.xml",
-      "fallback": false
+      "ok": false,
+      "erro": "https://feeds.folha.uol.com.br/poder/rss091.xml -> 502 Bad Gateway"
     },
     {
       "fonte": "O Globo - Política",
@@ -289,13 +283,15 @@
     },
     {
       "fonte": "Veja",
-      "ok": false,
-      "erro": "https://veja.abril.com.br/feed/ -> 403 Forbidden"
+      "ok": true,
+      "encontrados": 12,
+      "rota": "https://veja.abril.com.br/feed/",
+      "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 5,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -321,9 +317,9 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 9,
-      "rota": "https://admin.cnnbrasil.com.br/feed/",
-      "fallback": true
+      "encontrados": 21,
+      "rota": "https://www.cnnbrasil.com.br/feed/",
+      "fallback": false
     },
     {
       "fonte": "Poder360 - Feed",
@@ -374,7 +370,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-04T23:21:04.063Z",
+    "atualizadoEm": "2026-10-05T00:22:25.073Z",
     "novas": 5,
     "fontes": [
       {
@@ -435,7 +431,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-04T23:21:05.907Z",
+    "atualizadoEm": "2026-10-05T00:22:26.900Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +447,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-04T23:21:06.846Z",
+    "atualizadoEm": "2026-10-05T00:22:28.096Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-04T23:21:17.390Z",
+    "atualizadoEm": "2026-10-05T00:22:38.668Z",
     "novas": 0,
     "fontes": [
       {
