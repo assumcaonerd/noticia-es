@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-05T00:18:03.298Z",
+  "atualizadoEm": "2026-10-05T01:00:24.070Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 103,
+  "novasPautas": 106,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -140,9 +140,11 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": false,
-      "erro": "https://ipbvit.org.br/ -> 403 Forbidden",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://ipbvit.org.br/",
+      "fallback": false
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -271,8 +273,10 @@
     },
     {
       "fonte": "Folha de S.Paulo - Poder",
-      "ok": false,
-      "erro": "https://feeds.folha.uol.com.br/poder/rss091.xml -> 502 Bad Gateway"
+      "ok": true,
+      "encontrados": 30,
+      "rota": "https://feeds.folha.uol.com.br/poder/rss091.xml",
+      "fallback": false
     },
     {
       "fonte": "O Globo - Política",
@@ -284,14 +288,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 12,
+      "encontrados": 14,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 6,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -317,7 +321,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 21,
+      "encontrados": 25,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -370,7 +374,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-05T00:22:25.073Z",
+    "atualizadoEm": "2026-10-05T01:04:34.433Z",
     "novas": 5,
     "fontes": [
       {
@@ -431,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-05T00:22:26.900Z",
+    "atualizadoEm": "2026-10-05T01:04:36.259Z",
     "novas": 0,
     "fontes": [
       {
@@ -447,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-05T00:22:28.096Z",
+    "atualizadoEm": "2026-10-05T01:04:37.522Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-05T00:22:38.668Z",
+    "atualizadoEm": "2026-10-05T01:04:48.081Z",
     "novas": 0,
     "fontes": [
       {
