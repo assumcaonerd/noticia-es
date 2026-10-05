@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-05T10:17:54.035Z",
+  "atualizadoEm": "2026-10-05T11:17:52.397Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 107,
+  "novasPautas": 89,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -192,9 +192,11 @@
     },
     {
       "fonte": "ES Hoje",
-      "ok": false,
-      "erro": "https://www.eshoje.com.br/ -> 403 Forbidden",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://www.eshoje.com.br/",
+      "fallback": false
     },
     {
       "fonte": "Século Diário",
@@ -206,9 +208,11 @@
     },
     {
       "fonte": "ES Hoje - Política",
-      "ok": false,
-      "erro": "https://www.eshoje.com.br/politica/ -> 403 Forbidden",
-      "capa": false
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://www.eshoje.com.br/politica/",
+      "fallback": false
     },
     {
       "fonte": "Poder360",
@@ -323,7 +327,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 15,
+      "encontrados": 13,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -358,7 +362,7 @@
     {
       "fonte": "Agência Brasil - Economia",
       "ok": true,
-      "encontrados": 10,
+      "encontrados": 9,
       "rota": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml",
       "fallback": false
     },
@@ -376,8 +380,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-05T10:20:16.098Z",
-    "novas": 4,
+    "atualizadoEm": "2026-10-05T11:19:54.934Z",
+    "novas": 5,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -437,7 +441,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-05T10:20:17.360Z",
+    "atualizadoEm": "2026-10-05T11:19:56.308Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +457,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-05T10:20:18.325Z",
+    "atualizadoEm": "2026-10-05T11:19:57.192Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-05T10:20:28.899Z",
+    "atualizadoEm": "2026-10-05T11:20:07.770Z",
     "novas": 0,
     "fontes": [
       {
