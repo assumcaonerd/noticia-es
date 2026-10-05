@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-05T09:17:58.374Z",
+  "atualizadoEm": "2026-10-05T10:17:54.035Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 93,
+  "novasPautas": 107,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -212,9 +212,11 @@
     },
     {
       "fonte": "Poder360",
-      "ok": false,
-      "erro": "https://www.poder360.com.br/ -> The operation was aborted due to timeout",
-      "capa": true
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://www.poder360.com.br/",
+      "fallback": false
     },
     {
       "fonte": "Congresso em Foco",
@@ -295,7 +297,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 7,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -321,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 20,
+      "encontrados": 15,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -374,8 +376,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-05T09:22:23.037Z",
-    "novas": 5,
+    "atualizadoEm": "2026-10-05T10:20:16.098Z",
+    "novas": 4,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-05T09:22:25.420Z",
+    "atualizadoEm": "2026-10-05T10:20:17.360Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-05T09:22:26.483Z",
+    "atualizadoEm": "2026-10-05T10:20:18.325Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-05T09:22:37.059Z",
+    "atualizadoEm": "2026-10-05T10:20:28.899Z",
     "novas": 0,
     "fontes": [
       {
