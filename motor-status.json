@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-05T23:17:48.672Z",
+  "atualizadoEm": "2026-10-06T00:17:55.076Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 73,
+  "novasPautas": 97,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -140,11 +140,9 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://ipbvit.org.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://ipbvit.org.br/ -> fetch failed",
+      "capa": true
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -192,21 +190,27 @@
     },
     {
       "fonte": "ES Hoje",
-      "ok": false,
-      "erro": "https://www.eshoje.com.br/ -> 403 Forbidden",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://www.eshoje.com.br/",
+      "fallback": false
     },
     {
       "fonte": "Século Diário",
-      "ok": false,
-      "erro": "https://www.seculodiario.com.br/ -> The operation was aborted due to timeout",
-      "capa": true
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://www.seculodiario.com.br/",
+      "fallback": false
     },
     {
       "fonte": "ES Hoje - Política",
-      "ok": false,
-      "erro": "https://www.eshoje.com.br/politica/ -> 403 Forbidden",
-      "capa": false
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://www.eshoje.com.br/politica/",
+      "fallback": false
     },
     {
       "fonte": "Poder360",
@@ -288,14 +292,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 10,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 3,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -321,7 +325,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 10,
+      "encontrados": 13,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -374,7 +378,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-05T23:21:07.092Z",
+    "atualizadoEm": "2026-10-06T00:24:35.404Z",
     "novas": 5,
     "fontes": [
       {
@@ -435,7 +439,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-05T23:21:08.573Z",
+    "atualizadoEm": "2026-10-06T00:24:36.966Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +455,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-05T23:21:09.458Z",
+    "atualizadoEm": "2026-10-06T00:24:37.770Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-05T23:21:20.036Z",
+    "atualizadoEm": "2026-10-06T00:24:48.347Z",
     "novas": 0,
     "fontes": [
       {
