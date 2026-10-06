@@ -44,8 +44,8 @@ const noticiasAutoRedacao20261005194942 = [
   {
     id: 26100519494203,
     pautaId: "876dd5c249e73578",
-    slug: "amp-quot-2-amp-ordm-turno-amp-eacute-uma-nova-elei-amp-ccedil-amp-atilde-o-amp-quot-diz-ri",
-    titulo: "&amp;quot;2&amp;ordm; turno &amp;eacute; uma nova elei&amp;ccedil;&amp;atilde;o&amp;quot;, diz Ricardo Ferra&amp;ccedil;o ap&amp;oacute;s resultado para governo do ES",
+    slug: "2-turno-e-uma-nova-eleicao-diz-ricardo-ferraco-apos-resultado-para-governo-do-es",
+    titulo: "\"2º turno é uma nova eleição\", diz Ricardo Ferraço após resultado para governo do ES",
     categoria: "Política ES",
     data: "2026-10-05",
     imagem: "https://noticiaes.com.br/imagens/lapis/amp-quot-2-amp-ordm-turno-amp-eacute-uma-nova-elei-amp-ccedil-amp-atilde-o-amp-quot-diz-ri.jpg",
