@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-06T08:18:02.386Z",
+  "atualizadoEm": "2026-10-06T09:17:55.479Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 95,
+  "novasPautas": 97,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -192,11 +192,9 @@
     },
     {
       "fonte": "ES Hoje",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://www.eshoje.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.eshoje.com.br/ -> 403 Forbidden",
+      "capa": true
     },
     {
       "fonte": "Século Diário",
@@ -208,11 +206,9 @@
     },
     {
       "fonte": "ES Hoje - Política",
-      "ok": true,
-      "encontrados": 0,
-      "capa": false,
-      "rota": "https://www.eshoje.com.br/politica/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.eshoje.com.br/politica/ -> 403 Forbidden",
+      "capa": false
     },
     {
       "fonte": "Poder360",
@@ -294,7 +290,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 10,
+      "encontrados": 8,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -355,7 +351,7 @@
     {
       "fonte": "BBC Brasil",
       "ok": true,
-      "encontrados": 22,
+      "encontrados": 23,
       "rota": "https://feeds.bbci.co.uk/portuguese/rss.xml",
       "fallback": false
     },
@@ -380,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-06T08:21:12.379Z",
+    "atualizadoEm": "2026-10-06T09:21:08.949Z",
     "novas": 5,
     "fontes": [
       {
@@ -441,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-06T08:21:14.199Z",
+    "atualizadoEm": "2026-10-06T09:21:11.074Z",
     "novas": 0,
     "fontes": [
       {
@@ -457,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-06T08:21:15.116Z",
+    "atualizadoEm": "2026-10-06T09:21:12.159Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-06T08:21:25.683Z",
+    "atualizadoEm": "2026-10-06T09:21:22.734Z",
     "novas": 0,
     "fontes": [
       {
