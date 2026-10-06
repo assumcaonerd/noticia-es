@@ -62,6 +62,4 @@ const noticiasAutoRedacao20261006044907 = [
   }
 ];
 
-if (typeof window !== "undefined") {
-  window.NOTICIAS_AUTO_REDACAO = (window.NOTICIAS_AUTO_REDACAO || []).concat(noticiasAutoRedacao20261006044907);
-}
+if (typeof noticias !== 'undefined') noticias.unshift(...noticiasAutoRedacao20261006044907);
