@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-06T07:17:56.508Z",
+  "atualizadoEm": "2026-10-06T08:18:02.386Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 89,
+  "novasPautas": 95,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -192,9 +192,11 @@
     },
     {
       "fonte": "ES Hoje",
-      "ok": false,
-      "erro": "https://www.eshoje.com.br/ -> 403 Forbidden",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://www.eshoje.com.br/",
+      "fallback": false
     },
     {
       "fonte": "Século Diário",
@@ -206,9 +208,11 @@
     },
     {
       "fonte": "ES Hoje - Política",
-      "ok": false,
-      "erro": "https://www.eshoje.com.br/politica/ -> 403 Forbidden",
-      "capa": false
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://www.eshoje.com.br/politica/",
+      "fallback": false
     },
     {
       "fonte": "Poder360",
@@ -323,7 +327,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 14,
+      "encontrados": 16,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,7 +380,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-06T07:21:43.881Z",
+    "atualizadoEm": "2026-10-06T08:21:12.379Z",
     "novas": 5,
     "fontes": [
       {
@@ -437,7 +441,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-06T07:21:45.503Z",
+    "atualizadoEm": "2026-10-06T08:21:14.199Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +457,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-06T07:21:46.547Z",
+    "atualizadoEm": "2026-10-06T08:21:15.116Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-06T07:21:57.121Z",
+    "atualizadoEm": "2026-10-06T08:21:25.683Z",
     "novas": 0,
     "fontes": [
       {
