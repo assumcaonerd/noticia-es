@@ -93,3 +93,4 @@ const noticiasAutoRedacao20261006124935 = [
 if (typeof globalThis !== "undefined") {
   globalThis.noticiasAutoRedacao20261006124935 = noticiasAutoRedacao20261006124935;
 }
+if (typeof noticias !== "undefined") noticias.unshift(...noticiasAutoRedacao20261006124935);
