@@ -2,62 +2,62 @@ const noticiasAutoRedacao20261005225007 = [
   {
     id: 26100522500701,
     pautaId: "2e61017f06b31f35",
-    slug: "acucena-e-jose-esmeraldo-marcam-nova-geracao-da-ales",
-    titulo: "Açucena e José Esmeraldo marcam nova geração da Ales",
+    slug: "nova-ales-reune-deputados-separados-por-53-anos",
+    titulo: "Nova Ales reúne deputados separados por 53 anos",
     categoria: "Política ES",
     data: "2026-10-05",
-    imagem: "https://noticiaes.com.br/imagens/lapis/20261005-acucena-e-jose-esmeraldo-marcam-nova-geracao-da-ales.jpg",
-    resumo: "Deputada mais jovem e parlamentar mais velho da próxima legislatura simbolizam renovação e experiência na Assembleia do Espírito Santo.",
-    conteudo: "<p>A próxima composição da Assembleia Legislativa do Espírito Santo reunirá dois extremos geracionais: Açucena (PT), de 27 anos, será a deputada estadual mais jovem da legislatura, enquanto José Esmeraldo (União), de 80, ocupará a posição de mais velho entre os eleitos.</p><p>A Gazeta informou nesta segunda-feira (5) que Açucena recebeu 35.988 votos e assumirá pela primeira vez uma cadeira na Ales. O resultado também é compatível com os dados eleitorais disponibilizados pelo TRE-ES, que mantém os canais oficiais de consulta e totalização das Eleições 2026.</p><h2>Renovação chega ao plenário</h2><p>Enfermeira e vereadora de Cariacica em seu primeiro mandato, Açucena construiu parte de sua trajetória em movimentos estudantis e em espaços de participação na área da saúde. A eleição para a Assembleia amplia sua atuação institucional e coloca uma representante de 27 anos entre os 30 deputados estaduais.</p><p>Ela afirmou que pretende levar ao Legislativo estadual pautas ligadas à juventude, à manutenção de centros de referência e ao debate sobre ensino superior público no Espírito Santo. A nova posição também exigirá adaptação a uma Casa com dinâmica distinta das câmaras municipais, especialmente em orçamento, fiscalização e articulação regional.</p><p>A eleição de Açucena ocorre em uma legislatura que também terá presença feminina recorde. Levantamento publicado por A Gazeta apontou seis mulheres eleitas para a Assembleia, maior número já registrado na história da Casa. Esse dado amplia o peso político da renovação, mas não elimina diferenças partidárias entre as parlamentares.</p><p>O desafio da deputada mais jovem será transformar a identificação geracional em atuação concreta. A pauta da juventude reúne temas como emprego, educação, mobilidade, saúde mental e participação política, todos dependentes de negociação com outras bancadas e com o governo estadual.</p><h2>Experiência retorna com oitavo mandato</h2><p>José Esmeraldo seguirá em direção oposta no aspecto geracional. Aos 80 anos, o parlamentar iniciará o oitavo mandato na Assembleia. Ele afirmou que a longa experiência ajuda a mediar conflitos e a distinguir divergência política de oposição automática a projetos de interesse público.</p><p>O veterano disse que pretende manter uma postura de diálogo e evitar que disputas internas paralisem decisões da Casa. A experiência acumulada em várias legislaturas também lhe dá familiaridade com o regimento, as comissões e a relação institucional com o Executivo.</p><p>A convivência entre uma estreante de 27 anos e um deputado de 80 resume parte do retrato produzido pelas urnas: renovação e continuidade ocuparão o mesmo plenário. A diferença de idade, porém, não define sozinha o comportamento político de cada mandato.</p><p>A nova legislatura começa em fevereiro de 2027. Até lá, os eleitos organizam equipes, prioridades e articulações. O contraste entre Açucena e José Esmeraldo será visível desde a posse, mas a medida efetiva de renovação e experiência virá das votações, projetos e posições que cada um assumir ao longo dos próximos quatro anos.</p>",
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261005-nova-ales-reune-deputados-separados-por-53-anos.jpg",
+    resumo: "Açucena, de 27 anos, e José Esmeraldo, de 80, representam os extremos geracionais da Assembleia eleita no Espírito Santo.",
+    conteudo: "<p>A nova composição da Assembleia Legislativa do Espírito Santo terá uma diferença de 53 anos entre a deputada mais jovem e o parlamentar mais velho. Açucena, do PT, foi eleita aos 27 anos, enquanto José Esmeraldo, do União Brasil, conquistou uma cadeira aos 80.</p><p>A Gazeta publicou nesta segunda-feira (5) entrevistas com os dois eleitos sobre renovação e experiência. A Folha do ES confirmou as idades e informou, com base nos dados eleitorais, que ambos são de Cariacica e ocuparão os extremos geracionais da próxima legislatura.</p><h2>Gerações chegam ao mesmo plenário</h2><p>Ilona Açucena Chaves Gonçalves recebeu 35.988 votos e assumirá pela primeira vez um mandato estadual. Enfermeira e vereadora de Cariacica, ela tem trajetória ligada ao movimento estudantil e ao Conselho Municipal de Saúde.</p><p>A futura deputada disse que pretende levar à Assembleia a experiência adquirida na Câmara Municipal. Entre as pautas mencionadas estão a manutenção dos Centros de Referência da Juventude e o debate sobre uma universidade estadual capixaba.</p><p>José Esmeraldo recebeu 20.394 votos e foi eleito pelo sistema proporcional. O parlamentar retornará para o oitavo mandato na Assembleia, ampliando uma trajetória iniciada décadas antes da chegada de Açucena à política institucional.</p><p>O contraste de idade não define sozinho a atuação dos dois. Açucena chega com experiência de mandato municipal e participação em movimentos sociais. Esmeraldo apresenta como principal ativo o conhecimento acumulado sobre o funcionamento do Legislativo e a interlocução entre bancadas.</p><h2>Mandatos terão desafios distintos</h2><p>A renovação da Ales coloca novos parlamentares diante de regras de orçamento, fiscalização e elaboração de leis estaduais. Para Açucena, a primeira etapa será transformar propostas associadas à juventude e à saúde em projetos capazes de reunir apoio no plenário.</p><p>Esmeraldo afirmou que a experiência ajuda a reduzir conflitos internos e a distinguir divergência política de oposição automática. O desempenho do veterano poderá ser medido pela capacidade de usar essa senioridade para construir acordos transparentes e fiscalizar o Executivo.</p><p>A diferença entre os dois também ajuda a mostrar a diversidade do eleitorado capixaba. Um mandato estreante pode ampliar a presença de novas agendas, enquanto um parlamentar experiente conhece procedimentos e relações institucionais que influenciam a tramitação das propostas.</p><p>Os dois tomarão posse na legislatura de 2027 a 2030. Até lá, a Assembleia organizará a transição, a formação das bancadas e a disputa pelos postos de direção e das comissões permanentes, onde grande parte do trabalho legislativo é examinada antes de chegar ao plenário.</p>",
     autor: "Redação Notícia ES",
     fonteNome: "A Gazeta",
     fonteUrl: "https://www.agazeta.com.br/es/politica/mais-jovem-e-mais-velho-eleitos-para-a-assembleia-do-es-falam-sobre-renovacao-e-experiencia-1026",
     fontesAdicionais: [
-      { nome: "TRE-ES", url: "https://www.tre-es.jus.br/eleicoes/eleicoes-2026" },
-      { nome: "A Gazeta", url: "https://www.agazeta.com.br/es/politica/assembleia-do-es-tera-seis-deputadas-pela-primeira-vez-na-historia-1026" }
+      { nome: "Folha do ES", url: "https://folhadoes.com/assembleia-do-es-tera-diferenca-de-53-anos-entre-deputado-mais-novo-e-mais-velho/" },
+      { nome: "Tribunal Superior Eleitoral", url: "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/resultados-do-1o-turno-das-eleicoes-2026-estao-disponiveis-em-pagina-do-tse" }
     ],
     entidades: ["Açucena", "José Esmeraldo", "Assembleia Legislativa do Espírito Santo"],
     aeo: [
-      { pergunta: "Quem será a deputada mais jovem da Ales?", resposta: "Açucena, do PT, com 27 anos." },
-      { pergunta: "Quem será o deputado mais velho?", resposta: "José Esmeraldo, do União, com 80 anos." },
-      { pergunta: "Quantos votos Açucena recebeu?", resposta: "Ela foi eleita com 35.988 votos." },
-      { pergunta: "Quantos mandatos José Esmeraldo terá?", resposta: "Ele iniciará seu oitavo mandato na Assembleia." },
-      { pergunta: "Quando começa a nova legislatura?", resposta: "A posse dos eleitos ocorrerá em fevereiro de 2027." }
+      { pergunta: "Quem são os extremos geracionais da nova Ales?", resposta: "Açucena, de 27 anos, é a mais jovem; José Esmeraldo, de 80, é o mais velho." },
+      { pergunta: "Qual é a diferença de idade entre eles?", resposta: "A diferença é de 53 anos." },
+      { pergunta: "Quantos votos Açucena recebeu?", resposta: "Açucena foi eleita com 35.988 votos." },
+      { pergunta: "Quantos mandatos José Esmeraldo terá?", resposta: "Ele iniciará o oitavo mandato na Assembleia Legislativa." },
+      { pergunta: "Quando começa a nova legislatura?", resposta: "Os eleitos assumirão a legislatura estadual de 2027 a 2030." }
     ],
     redacaoPropria: true,
     origemTexto: "redacao-noticia-es",
     automatico: true,
-    publicadoEm: "2026-10-06T02:45:00.000Z"
+    publicadoEm: "2026-10-06T01:50:07.264Z"
   },
   {
     id: 26100522500702,
-    pautaId: "7f6f71d3ce8d5a22",
-    slug: "nunes-marques-deixa-revisao-de-bolsonaro-para-depois-da-eleicao",
-    titulo: "Nunes Marques deixa revisão de Bolsonaro para depois da eleição",
-    categoria: "Justiça",
+    pautaId: "15602f5a7e0b93db",
+    slug: "ibovespa-sobe-77-e-fecha-em-recorde",
+    titulo: "Ibovespa sobe 7,7% e fecha em recorde",
+    categoria: "Economia",
     data: "2026-10-05",
-    imagem: "https://noticiaes.com.br/imagens/lapis/20261005-nunes-marques-deixa-revisao-de-bolsonaro-para-depois-da-eleicao.jpg",
-    resumo: "Relator evita decisão durante o processo eleitoral e avalia levar revisão criminal ao plenário do STF depois do segundo turno.",
-    conteudo: "<p>O ministro Kassio Nunes Marques, do Supremo Tribunal Federal, sinalizou a interlocutores que não pretende decidir durante o processo eleitoral o pedido de revisão criminal apresentado pela defesa do ex-presidente Jair Bolsonaro. A análise deve avançar somente depois do segundo turno, marcado para 25 de outubro.</p><p>A CNN Brasil informou que o ministro, que também preside o Tribunal Superior Eleitoral, quer evitar que uma decisão sobre a liberdade do ex-presidente seja interpretada como interferência na disputa presidencial. A Folha de S.Paulo também publicou que Nunes Marques pretende enfrentar o pedido após o encerramento da eleição.</p><h2>Relatoria aguarda fim do pleito</h2><p>Nunes Marques é relator de pedidos de revisão criminal apresentados pela defesa de Bolsonaro. Um deles já estava em seu gabinete desde maio, enquanto outro foi distribuído ao ministro no fim de setembro. Os advogados questionam aspectos do julgamento que levou à condenação do ex-presidente.</p><p>Segundo as informações divulgadas, o ministro entende que qualquer decisão durante a campanha teria impacto político imediato. Por isso, optou por separar o calendário judicial da etapa eleitoral e sinalizou que não pretende conceder liminar antes da conclusão do segundo turno.</p><p>A revisão criminal é um instrumento utilizado para contestar condenações definitivas em hipóteses específicas, como alegação de erro judiciário ou surgimento de elementos capazes de modificar o resultado do processo. A existência do pedido não significa que a condenação será revista ou que a liberdade será concedida.</p><p>O caso também tem uma particularidade institucional. Como Nunes Marques preside o TSE neste período, qualquer decisão envolvendo o ex-presidente poderia ser lida sob o filtro da eleição em curso, ainda que a ação tramite no STF e tenha fundamentos próprios.</p><h2>Plenário terá palavra final</h2><p>A CNN informou que Nunes Marques indicou a intenção de levar a revisão ao plenário do Supremo. A inclusão em pauta, porém, depende do presidente da Corte, Edson Fachin, depois que o relator liberar o processo para julgamento.</p><p>O plenário reúne os 11 ministros do STF. Na condenação original, parte da atual composição não participou do julgamento porque o caso foi decidido pela Primeira Turma. Uma eventual revisão no plenário ampliaria o número de ministros responsáveis por examinar as teses da defesa e a validade da condenação.</p><p>Até o julgamento, a situação jurídica de Bolsonaro permanece inalterada. A defesa pode continuar apresentando argumentos, enquanto a Procuradoria-Geral da República e as demais partes terão espaço para se manifestar conforme o andamento processual.</p><p>O ponto confirmado até agora é temporal: Nunes Marques não pretende decidir durante o segundo turno. O mérito da revisão criminal, a possibilidade de liminar e a eventual data do julgamento continuarão dependentes dos atos processuais e da pauta do Supremo depois de encerrado o calendário eleitoral.</p>",
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261005-ibovespa-sobe-77-e-fecha-em-recorde.jpg",
+    resumo: "Índice encerrou a segunda-feira aos 206.911 pontos, enquanto o dólar recuou para perto de R$ 5 após o primeiro turno.",
+    conteudo: "<p>O Ibovespa subiu 7,7% nesta segunda-feira (5) e encerrou o pregão aos 206.911,89 pontos, novo recorde de fechamento. O movimento ocorreu no primeiro dia de negócios após o resultado do primeiro turno da eleição presidencial.</p><p>O InfoMoney destacou que a alta superou a reação observada depois do primeiro turno de 2022. A Reuters confirmou o fechamento recorde e informou que o dólar também recuou com força, enquanto ações ligadas ao mercado doméstico lideraram os ganhos.</p><h2>Pregão redefine recordes históricos</h2><p>Durante o dia, o índice chegou a 209.605 pontos, a maior marca intradiária já registrada. O avanço foi o mais intenso desde março de 2020 e levou a Bolsa brasileira a terminar uma sessão acima de 200 mil pontos pela primeira vez.</p><p>O dólar comercial caiu cerca de 4,1% e fechou próximo de R$ 5. A valorização do real acompanhou a busca por ativos brasileiros e ajudou a reduzir as taxas dos contratos de juros futuros.</p><p>Bancos, varejistas e construtoras ficaram entre os principais destaques positivos. Essas empresas tendem a reagir com maior intensidade à expectativa de juros menores, crédito mais acessível e aumento da atividade econômica no mercado interno.</p><p>O movimento não foi uniforme. Companhias exportadoras sofreram com a queda do dólar, pois parte relevante de suas receitas é recebida em moeda estrangeira. A valorização do real reduziu o benefício contábil da conversão dessas receitas e pressionou empresas expostas ao mercado externo.</p><h2>Expectativas movem preços domésticos</h2><p>Investidores interpretaram o resultado das urnas e a nova composição do Congresso como sinais de possível mudança na política fiscal. Essa leitura elevou a procura por ações, mas ainda depende das propostas que os candidatos apresentarão durante o segundo turno.</p><p>Analistas ouvidos pelas fontes atribuíram parte da alta à surpresa em relação às pesquisas anteriores à votação. Quando o resultado se afasta do cenário usado nos preços, fundos e investidores ajustam rapidamente as posições, o que amplia oscilações no câmbio, nos juros e na Bolsa.</p><p>A reação de um único pregão não assegura tendência permanente. O mercado continuará acompanhando alianças políticas, compromissos sobre gastos públicos, composição das equipes econômicas e propostas para dívida, inflação e crescimento. Resultados corporativos e o cenário internacional também continuarão influenciando as cotações.</p><p>O segundo turno está marcado para 25 de outubro. Até a votação, novas pesquisas, debates e anúncios poderão alterar as expectativas. O recorde de segunda-feira registra a avaliação inicial dos investidores, não uma garantia sobre o comportamento futuro dos ativos.</p>",
     autor: "Redação Notícia ES",
-    fonteNome: "CNN Brasil",
-    fonteUrl: "https://www.cnnbrasil.com.br/blogs/teo-cury/eleicoes/nunes-marques-avalia-julgar-soltura-de-bolsonaro-apos-2o-turno-das-eleicoes/",
+    fonteNome: "InfoMoney",
+    fonteUrl: "https://www.infomoney.com.br/mercados/com-salto-de-77-apos-primeiro-turno-ibovespa-supera-disparada-de-2022/",
     fontesAdicionais: [
-      { nome: "Folha de S.Paulo", url: "https://www1.folha.uol.com.br/poder/2026/10/kassio-quer-julgar-soltura-de-bolsonaro-apos-2o-turno-e-avalia-libertar-ex-presidente-com-liminar.shtml" },
-      { nome: "UOL", url: "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/01/nunes-marques-vai-analisar-pedido-de-bolsonaro-por-revisao-de-condenacao.ghtm" }
+      { nome: "Reuters", url: "https://www.reuters.com/world/americas/brazil-markets-set-rally-bolsonaro-leads-first-round-vote-2026-10-05/" },
+      { nome: "UOL Economia", url: "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/05/fecha-dolar-bolsa-hoje-05-de-outubro-de-2026.ghtm" }
     ],
-    entidades: ["Kassio Nunes Marques", "Jair Bolsonaro", "STF", "TSE"],
+    entidades: ["Ibovespa", "B3", "dólar"],
     aeo: [
-      { pergunta: "Quando Nunes Marques pretende analisar o pedido?", resposta: "A expectativa é que a análise avance depois do segundo turno das eleições." },
-      { pergunta: "Por que ele adiou a decisão?", resposta: "O ministro quer evitar que a decisão seja interpretada como interferência no processo eleitoral." },
-      { pergunta: "Que tipo de ação a defesa apresentou?", resposta: "A defesa apresentou pedido de revisão criminal da condenação de Jair Bolsonaro." },
-      { pergunta: "Quem define a data de julgamento no plenário?", resposta: "Depois da liberação pelo relator, cabe ao presidente do STF, Edson Fachin, incluir o caso em pauta." },
-      { pergunta: "Bolsonaro será solto automaticamente?", resposta: "Não. A existência da revisão não altera a condenação nem garante concessão de liminar." }
+      { pergunta: "Quanto o Ibovespa subiu?", resposta: "O índice avançou 7,7% no fechamento de segunda-feira." },
+      { pergunta: "Em quantos pontos o índice fechou?", resposta: "O Ibovespa encerrou aos 206.911,89 pontos." },
+      { pergunta: "Qual foi a máxima do dia?", resposta: "O índice chegou a 209.605 pontos durante o pregão." },
+      { pergunta: "O que aconteceu com o dólar?", resposta: "A moeda caiu cerca de 4,1% e fechou próxima de R$ 5." },
+      { pergunta: "A alta garante nova tendência?", resposta: "Não. O movimento refletiu expectativas iniciais e pode mudar com os fatos do segundo turno." }
     ],
     redacaoPropria: true,
     origemTexto: "redacao-noticia-es",
     automatico: true,
-    publicadoEm: "2026-10-06T02:45:00.000Z"
+    publicadoEm: "2026-10-06T01:50:07.264Z"
   }
 ];
 
