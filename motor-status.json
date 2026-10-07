@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-07T22:02:27.528Z",
+  "atualizadoEm": "2026-10-07T22:17:59.151Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 90,
+  "novasPautas": 79,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -290,7 +290,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 4,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -323,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 10,
+      "encontrados": 12,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -372,12 +372,12 @@
     {
       "fonte": "R7 Brasil",
       "ok": false,
-      "erro": "https://noticias.r7.com/brasil/feed.xml -> 502 Bad Gateway"
+      "erro": "https://noticias.r7.com/brasil/feed.xml -> 404 Not Found"
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-07T22:05:21.966Z",
-    "novas": 3,
+    "atualizadoEm": "2026-10-07T22:21:20.846Z",
+    "novas": 2,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-07T22:05:24.091Z",
+    "atualizadoEm": "2026-10-07T22:21:22.993Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-07T22:05:25.092Z",
+    "atualizadoEm": "2026-10-07T22:21:24.123Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-07T22:05:35.671Z",
+    "atualizadoEm": "2026-10-07T22:21:34.698Z",
     "novas": 0,
     "fontes": [
       {
