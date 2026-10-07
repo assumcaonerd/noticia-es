@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-07T13:18:12.098Z",
+  "atualizadoEm": "2026-10-07T14:18:02.125Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 103,
+  "novasPautas": 106,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -14,11 +14,9 @@
     },
     {
       "fonte": "Folha Vitória - Capa",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://www.folhavitoria.com.br/sitemap/",
-      "fallback": true
+      "ok": false,
+      "erro": "https://www.folhavitoria.com.br/ -> 403 Forbidden | https://www.folhavitoria.com.br/sitemap/ -> 403 Forbidden",
+      "capa": true
     },
     {
       "fonte": "Tribuna Online - Capa",
@@ -52,11 +50,9 @@
     },
     {
       "fonte": "Folha Vitória - Política",
-      "ok": true,
-      "encontrados": 0,
-      "capa": false,
-      "rota": "https://www.folhavitoria.com.br/sitemap/",
-      "fallback": true
+      "ok": false,
+      "erro": "https://www.folhavitoria.com.br/politica/ -> 403 Forbidden | https://www.folhavitoria.com.br/sitemap/ -> 403 Forbidden",
+      "capa": false
     },
     {
       "fonte": "A Gazeta - Polícia",
@@ -290,14 +286,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 5,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 6,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -351,7 +347,7 @@
     {
       "fonte": "BBC Brasil",
       "ok": true,
-      "encontrados": 25,
+      "encontrados": 27,
       "rota": "https://feeds.bbci.co.uk/portuguese/rss.xml",
       "fallback": false
     },
@@ -376,7 +372,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-07T13:21:01.678Z",
+    "atualizadoEm": "2026-10-07T14:21:13.827Z",
     "novas": 2,
     "fontes": [
       {
@@ -437,7 +433,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-07T13:21:03.719Z",
+    "atualizadoEm": "2026-10-07T14:21:15.839Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +449,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-07T13:21:04.804Z",
+    "atualizadoEm": "2026-10-07T14:21:16.854Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-07T13:21:15.383Z",
+    "atualizadoEm": "2026-10-07T14:21:27.414Z",
     "novas": 0,
     "fontes": [
       {
