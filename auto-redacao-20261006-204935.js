@@ -58,3 +58,4 @@ const noticiasAutoRedacao20261006204935 = [
     publicadoEm: "2026-10-06T23:49:35.233Z"
   }
 ];
+if (typeof noticias !== "undefined") noticias.unshift(...noticiasAutoRedacao20261006204935);
