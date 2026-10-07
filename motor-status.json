@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-07T14:18:02.125Z",
+  "atualizadoEm": "2026-10-07T15:17:53.754Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 106,
+  "novasPautas": 109,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -14,9 +14,11 @@
     },
     {
       "fonte": "Folha Vitória - Capa",
-      "ok": false,
-      "erro": "https://www.folhavitoria.com.br/ -> 403 Forbidden | https://www.folhavitoria.com.br/sitemap/ -> 403 Forbidden",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://www.folhavitoria.com.br/sitemap/",
+      "fallback": true
     },
     {
       "fonte": "Tribuna Online - Capa",
@@ -50,9 +52,11 @@
     },
     {
       "fonte": "Folha Vitória - Política",
-      "ok": false,
-      "erro": "https://www.folhavitoria.com.br/politica/ -> 403 Forbidden | https://www.folhavitoria.com.br/sitemap/ -> 403 Forbidden",
-      "capa": false
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://www.folhavitoria.com.br/sitemap/",
+      "fallback": true
     },
     {
       "fonte": "A Gazeta - Polícia",
@@ -286,14 +290,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 11,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 8,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -319,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 9,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -347,7 +351,7 @@
     {
       "fonte": "BBC Brasil",
       "ok": true,
-      "encontrados": 27,
+      "encontrados": 28,
       "rota": "https://feeds.bbci.co.uk/portuguese/rss.xml",
       "fallback": false
     },
@@ -372,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-07T14:21:13.827Z",
+    "atualizadoEm": "2026-10-07T15:19:59.577Z",
     "novas": 2,
     "fontes": [
       {
@@ -433,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-07T14:21:15.839Z",
+    "atualizadoEm": "2026-10-07T15:20:01.381Z",
     "novas": 0,
     "fontes": [
       {
@@ -449,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-07T14:21:16.854Z",
+    "atualizadoEm": "2026-10-07T15:20:02.248Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-07T14:21:27.414Z",
+    "atualizadoEm": "2026-10-07T15:20:12.827Z",
     "novas": 0,
     "fontes": [
       {
