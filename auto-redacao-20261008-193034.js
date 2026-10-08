@@ -82,6 +82,4 @@ const noticiasAutoRedacao20261008193034 = [
   }
 ];
 
-if (typeof window !== "undefined") {
-  window.noticiasAutoRedacao20261008193034 = noticiasAutoRedacao20261008193034;
-}
+if (typeof noticias !== "undefined") noticias.unshift(...noticiasAutoRedacao20261008193034);
