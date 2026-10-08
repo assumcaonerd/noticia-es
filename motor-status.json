@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-08T01:17:54.360Z",
+  "atualizadoEm": "2026-10-08T02:00:26.361Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 90,
+  "novasPautas": 83,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -290,7 +290,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 9,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -376,23 +376,23 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-08T01:20:51.874Z",
-    "novas": 5,
+    "atualizadoEm": "2026-10-08T02:03:21.062Z",
+    "novas": 0,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube Folha Vitória",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube ALES",
-        "ok": true,
-        "encontrados": 1
+        "ok": false,
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -411,8 +411,8 @@
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": true,
-        "encontrados": 1
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "X Governo ES",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-08T01:20:53.778Z",
+    "atualizadoEm": "2026-10-08T02:03:22.575Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-08T01:20:54.806Z",
+    "atualizadoEm": "2026-10-08T02:03:23.602Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-08T01:21:05.350Z",
+    "atualizadoEm": "2026-10-08T02:03:34.151Z",
     "novas": 0,
     "fontes": [
       {
