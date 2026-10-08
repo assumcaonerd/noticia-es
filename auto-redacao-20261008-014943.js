@@ -1,24 +1,88 @@
 const noticiasAutoRedacao20261008014943 = [
   {
     id: 26100801494301,
-    pautaId: "42d5ab3510439028",
-    slug: "nao-vou-declarar-apoio-a-presidente-da-republica-diz-raquel-lyra",
-    titulo: "'Não vou declarar apoio a presidente da República', diz Raquel Lyra",
-    categoria: "Política Nacional",
-    data: "2026-10-07",
-    imagem: "https://noticiaes.com.br/imagens/lapis/nao-vou-declarar-apoio-a-presidente-da-republica-diz-raquel-lyra.jpg",
-    resumo: "Governadora reeleita em PE afirma ser grata a Lula e que pode construir pontes com Flávio Bolsonaro",
-    conteudo: "<p>\"Não vou declarar apoio a presidente da República\", afirmou a governadora de Pernambuco , Raquel Lyra (PSD) , reeleita no último domingo (4), ao receber a Folha no Palácio do Campo das Princesas, no Recife, sede do Executivo, nesta quarta-feira (7).</p><h2>Raquel, 47, disse que foi procurada tanto pela campanha</h2><p>Raquel, 47, disse que foi procurada tanto pela campanha de Lula ( PT ) quanto pela de Flávio Bolsonaro ( PL ) para saber seu posicionamento no segundo turno. O próprio petista também a telefonou.</p><p>Ela afirmou que mantém coerência adotada desde 2022 ao não declarar em quem votará na disputa nacional.</p><p>Em entrevista à reportagem, a governadora também disse que a eleição deste ano não deveria ser sobre qual ministro do STF (Supremo Tribunal Federal) sofrerá impeachment .</p><h2>Declarou ainda ser grata a Lula e saber construir</h2><p>Declarou ainda ser grata a Lula e saber construir pontes no caso de eleição de Flávio. Para ela, o próximo governo precisa ser de \"pacificação\".</p><p>Raquel Lyra derrotou no primeiro turno o ex-prefeito do Recife João Campos (PSB) com 53,3% dos votos válidos. O pessebista, que foi apoiado por Lula, marcou 44,8%.</p><p>O PSD , seu partido, perdeu musculatura nacionalmente nas eleições deste ano, tanto no Senado quanto na Câmara dos Deputados. Como a sra. analisa o desempenho?</p><p>Do ponto de vista nacional, a análise precisa ser feita pelo presidente [Gilberto] Kassab , mas eu posso falar sobre nosso estado. O PSD hoje é o maior partido da história de Pernambuco.</p><p>Temos 80 prefeitos filiados, fizemos uma bancada de nove deputados estaduais, aqui foi eleita a governadora e a vice-governadora pelo PSD. Elegemos dois deputados federais.</p><p>Então a gente fez uma campanha exitosa pelo PSD em Pernambuco.</p><p>Acredito muito na capacidade de união que o presidente tem, porque o PSD é um partido de convergência. Sou muito grata ao Kassab porque soube construir um partido que dá solidez e confiança para quem disputa por ele.</p><p>A sra. não conseguiu eleger seus candidatos ao Senado. O que explica esse resultado? A decisão da população. Tem que fazer uma análise de conjuntura política dos candidatos que estavam postos.</p><p>A gente tem uma polarização posta no Brasil também. Isso tem influenciado eleições da composição da própria Câmara Federal e do Senado .</p><p>A sra. acha que o centro está sendo sufocado por uma polarização nacional? Existe uma polarização no Brasil que é inegável, mas também existe o fato de que a população não está presa a isso.</p><p>O povo não tem partido político. Eu penso que o próximo governo do Brasil precisa ser de pacificação.</p><p>Tenho falado que não dá para que a eleição deste ano seja discutida a partir de qual ministro do Supremo vai ser impeachmado e como se dará esse processo. A Constituição prevê tudo.</p><p>Quem cometeu qualquer tipo de irregularidade, qualquer tipo de irresponsabilidade, responda sobre isso dentro do devido processo legal.</p><p>Quarenta anos depois da Constituição, estamos travando uma disputa sobre quais instituições precisam ser preservadas. Todas precisam ser e nenhum homem ou mulher é maior do que elas.</p><p>Preservar a democracia, preservar a Constituição, garantir as instituições fortes, é o legado que a nossa geração pode deixar para os nossos filhos.</p><p>Nesses próximos tempos, independentemente do resultado das eleições nacionais, precisa ser tempo de pacificação. A sra. ficou surpresa com Flávio Bolsonaro (PL) aparecendo à frente no primeiro turno?</p><p>A mim surpreendeu sim. Foi um cenário que apontou em determinada medida que ele poderia vencer no primeiro turno.</p><p>Existe a possibilidade de a sra. declarar voto a presidente ou subir em palanque de algum dos dois candidatos? Desde 2022 eu venho mantendo uma coerência.</p><p>Eu disse sempre que colocaria Pernambuco e seu povo acima de qualquer discussão. Fiz isso durante as eleições, mas sobretudo durante o mandato.</p><p>O governo anterior daqui prejudicou muito Pernambuco. Brigou com Dilma , Temer e Bolsonaro . O resultado é que Pernambuco amargou os piores indicadores de sua história durante as gestões anteriores.</p><p>Então, acima de qualquer coisa, os interesses do povo de Pernambuco. E eu não vou declarar apoio a presidente da República. Eu vou trabalhar para, como governadora, fazer o melhor possível para o meu povo.</p><p>Incomodou a vinda do presidente Lula ao Recife antes do primeiro turno? O presidente da República tem a sua aliança e tem o direito de fazer o que ele entender que é justo e necessário.</p><p>Então, eu não estou aqui para julgar o presidente. Eu sou grata a ele por trabalhar para Pernambuco. A sra. foi procurada pela campanha dos candidatos? Naturalmente, sim.</p><p>Me deram parabéns pela condução da campanha, pela condução do governo, pelo resultado das urnas, que aos olhos de muitos surpreendeu.</p><p>E todo mundo que me ligou, me ligou para parabenizar, para perguntar do meu posicionamento em relação ao segundo turno. E o que eu disse a eles é o que estou dizendo a você.</p><p>Sou muito grata ao presidente Lula pela oportunidade que a gente teve de trabalhar junto, e temos trabalhado até agora. Entregamos 34 mil casas aqui. Retomamos obras que estavam paralisadas.</p><p>Duplicação da BR-104, entrega de água pelas obras da Adutora do Agreste. Retomada de entrega de barragens de contenção de enchentes na Zona da Mata Sul.</p><p>O que vem pela frente é a Transnordestina, obras importantes na BR-101. Então a gente focou em construir relações sólidas e de confiança baseadas em trabalho e entrega.</p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "Folha de S.Paulo - Poder",
-    fonteUrl: "https://www1.folha.uol.com.br/poder/2026/10/nao-vou-declarar-apoio-a-presidente-da-republica-diz-raquel-lyra.shtml",
-    fontesAdicionais: [{"nome":"Agência Brasil","url":"https://agenciabrasil.ebc.com.br/politica"},{"nome":"Senado Federal","url":"https://www12.senado.leg.br/noticias"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"\"Não vou declarar apoio a presidente da República\", afirmou a governadora de Pernambuco , Raquel Lyra (PSD) , reeleita no último domingo (4), ao receber a Folha no Palácio do Campo das Princesas, no Recife, sede do Executivo, nesta quarta-feira (7)."},{"pergunta":"Qual é o ponto principal?","resposta":"Raquel, 47, disse que foi procurada tanto pela campanha de Lula ( PT ) quanto pela de Flávio Bolsonaro ( PL ) para saber seu posicionamento no segundo turno. O próprio petista também a telefonou. Ela afirmou que mantém coerência adotada desde 2022 ao não declarar em quem votará na disputa nacional."},{"pergunta":"Quais são os dados mais importantes?","resposta":"Em entrevista à reportagem, a governadora também disse que a eleição deste ano não deveria ser sobre qual ministro do STF (Supremo Tribunal Federal) sofrerá impeachment . Declarou ainda ser grata a Lula e saber construir pontes no caso de eleição de Flávio. Para ela, o próximo governo precisa ser de \"pacificação\"."},{"pergunta":"Qual é o contexto?","resposta":"Raquel Lyra derrotou no primeiro turno o ex-prefeito do Recife João Campos (PSB) com 53,3% dos votos válidos. O pessebista, que foi apoiado por Lula, marcou 44,8%."},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"O PSD , seu partido, perdeu musculatura nacionalmente nas eleições deste ano, tanto no Senado quanto na Câmara dos Deputados. Como a sra. analisa o desempenho? Do ponto de vista nacional, a análise precisa ser feita pelo presidente [Gilberto] Kassab , mas eu posso falar sobre nosso estado. O PSD hoje é o maior partido da história de Pernambuco. Temos 80 pref"}],
+    pautaId: "3bfbf02d470d109d",
+    slug: "clubes-adotam-patrocinios-pontuais-apos-veto-as-bets",
+    titulo: "Clubes adotam patrocínios pontuais após veto às bets",
+    categoria: "Esporte",
+    data: "2026-10-08",
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261008-clubes-adotam-patrocinios-pontuais-apos-veto-as-bets.jpg",
+    resumo: "Equipes da Série A recorrem a acordos por partida, programas de sócio e espaços vazios nas camisas após a retirada obrigatória das marcas de apostas.",
+    conteudo: `<p>Clubes da Série A passaram a ocupar com acordos pontuais o espaço deixado pelas casas de apostas nos uniformes. A mudança ficou visível nos jogos de quarta-feira (7), dois dias depois do prazo para retirada das marcas previsto na Medida Provisória 1.394 de 2026.</p>
+<p>O Poder360 registrou as soluções adotadas na rodada, e o UOL confirmou o contrato de uma partida fechado pelo Corinthians. As equipes escolheram caminhos diferentes: algumas venderam o espaço principal da camisa, outras divulgaram negócios próprios e parte delas entrou em campo sem patrocinador máster.</p>
+<p>Internacional e Corinthians estrearam a nova fase comercial no Beira-Rio. O clube gaúcho, que já não tinha uma casa de apostas como patrocinadora principal, exibiu uma campanha promocional da Shopee. O time paulista substituiu temporariamente a Esportes da Sorte pela empresa de inteligência artificial Jota.ai.</p>
+<p>O acordo corintiano valeu apenas para a partida e rendeu R$ 1 milhão, segundo as duas publicações. A modalidade reduz o compromisso de longo prazo enquanto o mercado aguarda uma definição sobre a medida provisória e sobre as ações levadas ao Supremo Tribunal Federal.</p>
+<h2>Clubes improvisam novas receitas</h2>
+<p>O Remo trocou a VaideBet pelo Banpará no jogo contra o Grêmio, em Belém. A instituição financeira estadual já mantém relação comercial com o clube e detém os direitos de nome do Baenão, o que permitiu uma substituição rápida no uniforme.</p>
+<p>Outras equipes preferiram usar ativos próprios. Programas de sócio-torcedor, lojas oficiais e campanhas institucionais passaram a ocupar áreas antes vendidas às plataformas de apostas. A estratégia preserva a visibilidade da camisa, mas não significa que a receita perdida tenha sido integralmente reposta.</p>
+<p>Botafogo, Vasco, Cruzeiro, Grêmio e Vitória disputaram seus jogos sem uma nova marca no espaço principal antes reservado às bets. A Chapecoense manteve a Aurora Coop, que já dividia a área central do uniforme, enquanto Bragantino e Mirassol seguiram com os mesmos parceiros porque não tinham patrocínio de apostas naquele espaço.</p>
+<p>A retirada atingiu contratos que estavam incorporados ao planejamento financeiro da temporada. Antes da proibição, 14 dos 20 integrantes da Série A tinham empresas de apostas na posição de maior destaque da camisa, de acordo com levantamento publicado pelo UOL no fim de setembro.</p>
+<h2>Disputa jurídica segue aberta</h2>
+<p>A MP 1.394 proibiu a exploração, a oferta, a intermediação e a publicidade de apostas de quota fixa no país. Os operadores tiveram até 5 de outubro para retirar a propaganda, e a norma também alcançou uniformes, estádios, páginas oficiais e materiais promocionais dos clubes.</p>
+<p>Entidades do futebol e empresas do setor questionam a mudança no STF e pedem uma transição para contratos que já estavam em vigor. A medida provisória também depende de análise do Congresso para permanecer válida, o que mantém incerteza sobre o valor e a duração de novos acordos comerciais.</p>
+<p>Por isso, os patrocínios por jogo funcionam como uma solução de curto prazo. Eles permitem receita imediata e evitam que os clubes assumam contratos extensos antes de saber se a proibição será mantida, modificada ou derrubada.</p>
+<p>Os próximos jogos devem mostrar se o modelo pontual ganhará escala ou ficará restrito à transição. Enquanto não houver decisão definitiva, cada equipe terá de equilibrar exposição comercial, cumprimento da norma e preservação das receitas previstas para a reta final da temporada.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Poder360",
+    fonteUrl: "https://www.poder360.com.br/poder-sportsmkt/times-da-serie-a-usam-patrocinios-pontuais-no-lugar-de-bets/",
+    fontesAdicionais: [
+      { nome: "UOL Esporte", url: "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/07/corinthians-estampa-jotaai-como-master-temporario-contra-o-inter.ghtm" }
+    ],
+    entidades: ["Campeonato Brasileiro", "Corinthians", "Internacional", "MP 1.394/2026"],
+    aeo: [
+      { pergunta: "Por que as marcas de bets saíram das camisas?", resposta: "A Medida Provisória 1.394 proibiu a publicidade de apostas de quota fixa no país." },
+      { pergunta: "O que os clubes colocaram no lugar?", resposta: "As alternativas incluem patrocínios por partida, programas de sócio, lojas próprias e espaços vazios." },
+      { pergunta: "Quanto o Corinthians recebeu pelo acordo pontual?", resposta: "O clube recebeu R$ 1 milhão para exibir a Jota.ai em um jogo." },
+      { pergunta: "Todos os times tinham patrocinador de apostas?", resposta: "Não. Internacional, Bragantino e Mirassol estavam entre os clubes sem bet na posição principal." },
+      { pergunta: "A proibição já é definitiva?", resposta: "Não. A medida depende do Congresso e enfrenta questionamentos no Supremo Tribunal Federal." }
+    ],
     redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
+    origemTexto: "redacao-noticia-es",
     automatico: true,
-    publicadoEm: "2026-10-08T04:49:43.349Z"
+    publicadoEm: "2026-10-08T05:38:00.000Z"
+  },
+  {
+    id: 26100801494302,
+    pautaId: "58347f4b665ffef3",
+    slug: "eleicao-de-ney-santos-depende-de-julgamento-no-tse",
+    titulo: "Eleição de Ney Santos depende de julgamento no TSE",
+    categoria: "Justiça",
+    data: "2026-10-08",
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261008-eleicao-de-ney-santos-depende-de-julgamento-no-tse.jpg",
+    resumo: "Deputado federal eleito por São Paulo teve o registro autorizado pelo TRE, mas recurso do Ministério Público Eleitoral ainda será analisado pelo TSE.",
+    conteudo: `<p>O deputado federal eleito Ney Santos (Republicanos-SP) aguarda uma decisão do Tribunal Superior Eleitoral sobre o registro de sua candidatura. Ele recebeu 118.566 votos no domingo (4), mas um recurso do Ministério Público Eleitoral pode impedir a posse caso seja acolhido pela Corte.</p>
+<p>O Poder360 informou a situação do processo nesta quinta-feira (8), e o UOL confirmou a votação, o recurso e a tramitação no TSE. O caso é relatado pelo ministro Floriano de Azevedo Marques e ainda não tem resultado definitivo.</p>
+<p>Ex-prefeito de Embu das Artes, na Grande São Paulo, Ney Santos teve o registro autorizado pelo Tribunal Regional Eleitoral de São Paulo em 15 de setembro. A decisão foi tomada por três votos a dois e permitiu que ele disputasse a eleição enquanto o recurso seguia para a instância superior.</p>
+<p>O Ministério Público sustenta que existem elementos sobre uma possível ligação do político com o Primeiro Comando da Capital. A acusação também menciona uma ação penal por organização criminosa e lavagem de dinheiro, além de outros episódios do histórico judicial apresentado no processo eleitoral.</p>
+<h2>Registro aguarda decisão final</h2>
+<p>O recurso discute se os elementos reunidos pelo MPE são suficientes para afastar o registro mesmo sem uma condenação penal definitiva. A controvérsia envolve o dever da Justiça Eleitoral de proteger a legitimidade das eleições e, ao mesmo tempo, a presunção de inocência e a necessidade de prova individualizada.</p>
+<p>Ao aprovar a candidatura, a maioria do TRE-SP entendeu que os indícios apresentados não permitiam atribuir ao candidato a autoria de crimes graves sem uma condenação prévia. O Ministério Público recorreu e defende uma interpretação mais rigorosa para situações em que aponta vínculo com o crime organizado.</p>
+<p>Se o TSE mantiver a decisão regional, Ney Santos continuará habilitado a assumir o mandato na Câmara dos Deputados. Se o recurso for acolhido, o registro poderá ser indeferido retroativamente, os votos ficarão sem validade e a composição da bancada paulista terá de ser recalculada.</p>
+<p>A votação expressiva, portanto, não encerrou a disputa jurídica. A diplomação e a posse dependem da situação do registro, e a Justiça Eleitoral deverá indicar os efeitos da decisão sobre os quocientes eleitoral e partidário caso haja mudança no resultado.</p>
+<h2>Defesa rejeita as acusações</h2>
+<p>A defesa de Ney Santos afirma que as suspeitas são antigas, foram investigadas durante anos e não resultaram em prova de vínculo com organização criminosa. Em manifestações anteriores, os advogados classificaram as alegações como infundadas e sustentaram que o candidato preenche os requisitos legais.</p>
+<p>O político é réu em ação por organização criminosa e lavagem de dinheiro, mas essa condição não equivale a condenação. Também houve episódios judiciais com resultados diferentes ao longo dos anos, incluindo absolvição por falta de provas em um caso de roubo a banco, segundo a confirmação publicada pelo UOL.</p>
+<p>O Ministério Público, por outro lado, afirma que o conjunto reunido no processo revela indícios suficientes para o indeferimento. A análise do TSE deverá se concentrar nas provas anexadas ao recurso e na jurisprudência eleitoral aplicável, sem substituir o julgamento das ações penais em curso.</p>
+<p>Até a conclusão do processo, Ney Santos deve ser tratado como deputado eleito com registro questionado, e não como culpado das acusações. O resultado no TSE definirá apenas a validade eleitoral da candidatura; eventual responsabilidade criminal depende dos processos próprios e das garantias de defesa.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Poder360",
+    fonteUrl: "https://www.poder360.com.br/poder-justica/deputado-federal-eleito-por-sp-e-investigado-por-relacao-com-pcc/",
+    fontesAdicionais: [
+      { nome: "UOL Eleições", url: "https://noticias.uol.com.br/eleicoes/2026/10/07/reu-por-lavagem-e-eleito-deputado-tse-analisa-registro.ghtm" }
+    ],
+    entidades: ["Ney Santos", "TSE", "TRE-SP", "Ministério Público Eleitoral"],
+    aeo: [
+      { pergunta: "Quantos votos Ney Santos recebeu?", resposta: "Ele foi eleito deputado federal por São Paulo com 118.566 votos." },
+      { pergunta: "Por que o registro ainda pode ser negado?", resposta: "O Ministério Público Eleitoral recorreu ao TSE e aponta suspeitas de vínculo com o crime organizado." },
+      { pergunta: "O TRE-SP autorizou a candidatura?", resposta: "Sim. O tribunal regional aprovou o registro por três votos a dois em 15 de setembro." },
+      { pergunta: "O que acontece se o TSE aceitar o recurso?", resposta: "O registro pode ser indeferido retroativamente, com anulação dos votos e recálculo da bancada paulista." },
+      { pergunta: "As acusações já resultaram em condenação definitiva?", resposta: "Não. A defesa contesta as alegações, e o processo eleitoral não estabelece culpa criminal." }
+    ],
+    redacaoPropria: true,
+    origemTexto: "redacao-noticia-es",
+    automatico: true,
+    publicadoEm: "2026-10-08T05:38:00.000Z"
   }
 ];
-if (typeof noticias !== 'undefined') noticias.unshift(...noticiasAutoRedacao20261008014943);
+
+if (typeof noticias !== "undefined") noticias.unshift(...noticiasAutoRedacao20261008014943);
