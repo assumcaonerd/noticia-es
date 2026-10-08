@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-08T00:17:57.598Z",
+  "atualizadoEm": "2026-10-08T01:17:54.360Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 87,
+  "novasPautas": 90,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -140,9 +140,11 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": false,
-      "erro": "https://ipbvit.org.br/ -> 403 Forbidden",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://ipbvit.org.br/",
+      "fallback": false
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -233,7 +235,7 @@
     {
       "fonte": "Metrópoles - Política",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 6,
       "capa": false,
       "rota": "https://www.metropoles.com/brasil/politica-brasil",
       "fallback": false
@@ -288,14 +290,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 8,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 4,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -321,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 17,
+      "encontrados": 14,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -374,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-08T00:20:44.852Z",
+    "atualizadoEm": "2026-10-08T01:20:51.874Z",
     "novas": 5,
     "fontes": [
       {
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-08T00:20:46.925Z",
+    "atualizadoEm": "2026-10-08T01:20:53.778Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-08T00:20:47.913Z",
+    "atualizadoEm": "2026-10-08T01:20:54.806Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-08T00:20:58.486Z",
+    "atualizadoEm": "2026-10-08T01:21:05.350Z",
     "novas": 0,
     "fontes": [
       {
