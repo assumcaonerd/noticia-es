@@ -61,3 +61,4 @@ const noticiasAutoRedacao20261008084201 = [
   }
 ];
 if (typeof noticias !== "undefined") noticias.unshift(...noticiasAutoRedacao20261008084201);
+
