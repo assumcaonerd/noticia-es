@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-08T05:18:06.454Z",
+  "atualizadoEm": "2026-10-08T06:17:57.316Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
   "novasPautas": 89,
   "pautasPendentes": 80,
@@ -124,9 +124,11 @@
     },
     {
       "fonte": "Igreja Cristã Maranata - Oficial",
-      "ok": false,
-      "erro": "https://www.igrejacristamaranata.org.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://www.igrejacristamaranata.org.br/",
+      "fallback": false
     },
     {
       "fonte": "Assembleia de Deus Fonte de Vida - Oficial",
@@ -374,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-08T05:21:43.396Z",
+    "atualizadoEm": "2026-10-08T06:19:53.591Z",
     "novas": 0,
     "fontes": [
       {
@@ -404,8 +406,8 @@
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-08T05:21:45.337Z",
+    "atualizadoEm": "2026-10-08T06:19:54.553Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-08T05:21:49.748Z",
+    "atualizadoEm": "2026-10-08T06:19:55.363Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-08T05:22:00.309Z",
+    "atualizadoEm": "2026-10-08T06:20:05.922Z",
     "novas": 0,
     "fontes": [
       {
