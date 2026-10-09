@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-09T21:17:58.478Z",
+  "atualizadoEm": "2026-10-09T21:43:49.547Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 93,
+  "novasPautas": 88,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -140,9 +140,11 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": false,
-      "erro": "https://ipbvit.org.br/ -> 403 Forbidden",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://ipbvit.org.br/",
+      "fallback": false
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -288,14 +290,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 8,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 4,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -321,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 8,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -374,8 +376,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-09T21:21:07.806Z",
-    "novas": 2,
+    "atualizadoEm": "2026-10-09T21:45:50.260Z",
+    "novas": 1,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-09T21:21:09.918Z",
+    "atualizadoEm": "2026-10-09T21:45:51.983Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-09T21:21:10.964Z",
+    "atualizadoEm": "2026-10-09T21:45:52.814Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-09T21:21:21.538Z",
+    "atualizadoEm": "2026-10-09T21:46:03.387Z",
     "novas": 0,
     "fontes": [
       {
