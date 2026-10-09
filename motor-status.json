@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-09T04:18:02.059Z",
+  "atualizadoEm": "2026-10-09T05:18:12.006Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
   "novasPautas": 84,
   "pautasPendentes": 80,
@@ -323,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 14,
+      "encontrados": 15,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,13 +376,13 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-09T04:21:37.110Z",
-    "novas": 0,
+    "atualizadoEm": "2026-10-09T05:20:59.418Z",
+    "novas": 2,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
-        "ok": false,
-        "erro": "500 Internal Server Error"
+        "ok": true,
+        "encontrados": 4
       },
       {
         "fonte": "YouTube Folha Vitória",
@@ -391,8 +391,8 @@
       },
       {
         "fonte": "YouTube ALES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -406,13 +406,13 @@
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "X Governo ES",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-09T04:21:38.895Z",
+    "atualizadoEm": "2026-10-09T05:21:01.532Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-09T04:21:39.969Z",
+    "atualizadoEm": "2026-10-09T05:21:02.629Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-09T04:21:50.527Z",
+    "atualizadoEm": "2026-10-09T05:21:13.208Z",
     "novas": 0,
     "fontes": [
       {
