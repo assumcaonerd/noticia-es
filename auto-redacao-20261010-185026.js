@@ -60,6 +60,4 @@ const noticiasAutoRedacao20261010185026 = [
   }
 ];
 
-if (typeof window !== "undefined") {
-  window.noticiasAutoRedacao20261010185026 = noticiasAutoRedacao20261010185026;
-}
+if (typeof noticias !== 'undefined') noticias.unshift(...noticiasAutoRedacao20261010185026);
