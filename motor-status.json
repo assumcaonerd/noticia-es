@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-10T01:17:57.640Z",
+  "atualizadoEm": "2026-10-10T01:47:06.480Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 77,
+  "novasPautas": 69,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -140,9 +140,11 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": false,
-      "erro": "https://ipbvit.org.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://ipbvit.org.br/",
+      "fallback": false
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -288,14 +290,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 9,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 2,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -321,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 8,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -374,13 +376,13 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-10T01:20:00.856Z",
-    "novas": 2,
+    "atualizadoEm": "2026-10-10T01:49:10.923Z",
+    "novas": 0,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Folha Vitória",
@@ -389,8 +391,8 @@
       },
       {
         "fonte": "YouTube ALES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -399,8 +401,8 @@
       },
       {
         "fonte": "YouTube PM Ambiental ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Bombeiros ES",
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-10T01:20:02.184Z",
+    "atualizadoEm": "2026-10-10T01:49:11.927Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-10T01:20:02.994Z",
+    "atualizadoEm": "2026-10-10T01:49:12.739Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-10T01:20:13.571Z",
+    "atualizadoEm": "2026-10-10T01:49:23.319Z",
     "novas": 0,
     "fontes": [
       {
