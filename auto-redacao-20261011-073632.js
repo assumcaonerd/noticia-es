@@ -24,7 +24,7 @@ const noticiasAutoRedacao20261011073632 = [
     redacaoPropria: true,
     origemTexto: "redacao-noticia-es",
     automatico: true,
-    publicadoEm: "2026-10-11T10:36:32.000Z"
+    publicadoEm: "2026-10-11T10:49:12.000Z"
   },
   {
     id: 26101107363202,
