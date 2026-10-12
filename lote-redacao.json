@@ -1,16 +1,16 @@
 {
-  "geradoEm": "2026-10-12T17:48:30.687Z",
+  "geradoEm": "2026-10-12T18:48:18.074Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 67,
     "bloqueadas": 0,
-    "bloqueadasEditoriais": 9,
+    "bloqueadasEditoriais": 8,
     "semImagem": 0,
-    "duplicadasBasicas": 0,
+    "duplicadasBasicas": 3,
     "duplicadasSemanticas": 0,
-    "foraCategorias": 41
+    "foraCategorias": 40
   },
-  "quantidadeCandidatas": 17,
+  "quantidadeCandidatas": 16,
   "candidatas": [
     {
       "id": "f7b9cdc6ecb85fb3",
@@ -25,64 +25,292 @@
       "descobertaEm": "2026-10-12T17:18:14.023Z"
     },
     {
-      "id": "c50397abbeb51dcf",
-      "titulo": "Governo busca apoio para aprovar fim da 6×1 em dois turnos no mesmo dia",
+      "id": "2fb45bb0092469e7",
+      "titulo": "'Gostaria de ser a primeira mulher presidente do Senado', diz Tereza Cristina",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/politica/governo-busca-apoio-para-aprovar-fim-da-6x1-em-dois-turnos-no-mesmo-dia/",
-      "dataFonte": "2026-10-12T16:19:16.000Z",
-      "resumoFonte": "Senado deve votar primeiro turno da PEC na quarta-feira (14); segundo apuração de Isabel Mega para o Live CNN, oposição defende hora trabalhada e tenta adiar votação",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/plenario_do_senado.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-12T17:18:14.023Z",
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/10/12/entrevista-estudio-i-senadora-tereza-cristina.ghtml",
+      "dataFonte": "2026-10-12T17:37:11.000Z",
+      "resumoFonte": "'Gostaria de ser a primeira mulher presidente do Senado', diz Tereza Cristina A senadora Tereza Cristina (PP-MS) afirmou nesta segunda-feira (12) que gostaria de ser a primeira mulher a presidir o Senado Federal. Ela disse que já conversou com o atual presidente da Casa, Davi Alcolumbre (União Brasil-AP), e com outros senadores sobre a…",
+      "imagem": "https://s2-g1.glbimg.com/xZqmgr1d43MvSa8UZBZiJB-UjJo=/3400x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/7/i/8IqxNASlGIHDRmpG8Psw/55295125729-cafb5cdb20-o.jpg",
+      "descobertaEm": "2026-10-12T18:18:11.866Z"
+    },
+    {
+      "id": "681276a43ea8317c",
+      "titulo": "Lula quer aumentar incentivos à cultura; Flávio defende patrimônio",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Agência Brasil - Política",
+      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/conheca-propostas-de-flavio-e-lula-para-cultura",
+      "dataFonte": "2026-10-12T18:00:00.000Z",
+      "resumoFonte": "A área cultural é tema de forte debate entre os candidatos Flávio Bolsonaro e Luiz Inácio Lula da Silva. No governo de Jair Bolsonaro, que integrou o PL no último ano de mandato, mesmo partido de Flávio, o Ministério da Cultura foi extinto, sendo substituído por uma secretaria. O investimento também foi reduzido. Os valores do Estado destinados a…",
+      "imagem": "https://imagens.ebc.com.br/QjlAr0ny4yNlczC7y_q11sz9B3w=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/sala_de_cinemaagencia_brasilia31122000938.jpg?itok=cln-l4lD",
+      "descobertaEm": "2026-10-12T18:18:11.866Z",
       "reportagem": {
-        "titulo": "Governo busca apoio para aprovar fim da 6x1 em dois turnos no mesmo dia",
-        "slug": "governo-busca-apoio-para-aprovar-fim-da-6x1-em-dois-turnos-no-mesmo-dia",
-        "categoria": "Política Nacional",
+        "titulo": "Lula quer aumentar incentivos à cultura; Flávio defende patrimônio",
+        "slug": "lula-quer-aumentar-incentivos-a-cultura-flavio-defende-patrimonio",
+        "categoria": "Economia",
         "data": "2026-10-12",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/governo-busca-apoio-para-aprovar-fim-da-6x1-em-dois-turnos-no-mesmo-dia.jpg",
-        "resumo": "Senado deve votar primeiro turno da PEC na quarta-feira (14); segundo apuração de Isabel Mega para o Live CNN, oposição defende hora trabalhada e tenta adiar votação",
-        "conteudo": "<p>O Senado deve votar, na quarta-feira (14), o primeiro turno da Proposta de Emenda à Constituição que propõe o fim da escala 6x1 .</p><h2>Pauta foi definida por Davi Alcolumbre (União-AP), e</h2><p>A pauta foi definida por Davi Alcolumbre (União-AP), e o governo articula apoio para que os dois turnos da votação ocorram no mesmo dia, o que permitiria a promulgação da proposta .</p><p>&quot;O desafio do governo não é garantir necessariamente a primeira votação, mas garantir que a segunda votação aconteça ainda nessa semana&quot;, explicou a analista de política Isabel Mega durante o Live CNN desta segunda-feira (12).</p><p>Para a aprovação total de uma PEC no Senado Federal, são necessários dois turnos de votação, com 49 votos favoráveis em cada um deles . Além disso, o regimento da Casa prevê três sessões de discussão entre o primeiro e o segundo turno.</p><h2>Se esse intervalo for respeitado integralmente, a votação final</h2><p>Se esse intervalo for respeitado integralmente, a votação final pode acabar ficando para depois do segundo turno das eleições .</p><p>As discussões sobre a proposta já foram iniciadas na semana passada, com sessões realizadas entre os dias 5 e 7 de outubro .</p><p>Nesta semana, estão previstas mais duas sessões de discussão, na terça (13) e na quarta-feira (14), completando as cinco sessões exigidas pelo regimento antes da votação em primeiro turno.</p><p>Para contornar o intervalo regimental entre os dois turnos, a base aliada ao governo, liderada pela senadora Teresa Leitão (PT-PE), tenta reunir assinaturas suficientes para apresentar um requerimento de calendário especial .</p><p>&quot;O que diz o regimento? Eles precisam ou do apoio de 54 senadores ou dos líderes de bancadas que representem esse total. Esse é o verdadeiro teste para o governo&quot;, afirmou Mega.</p><p>Caso o requerimento seja aprovado, os dois turnos de votação poderão ocorrer no mesmo dia , ainda na quarta-feira, viabilizando a promulgação da PEC antes do segundo turno das eleições.</p><p>Alcolumbre já sinalizou que pautará o requerimento assim que ele chegar à mesa da presidência do Senado.</p><p>A oposição, por sua vez, articula estratégias para dificultar ou adiar a votação . &quot;Vai tentar protelar ao máximo, fazer com que não se chegue ao momento de votação&quot;, afirmou Mega.</p><p>Se não conseguirem, a alternativa é apresentar sugestões de modificação do texto , o que obrigaria a proposta a retornar à Câmara dos Deputados, alongando o processo.</p><p>A oposição defende uma proposta alternativa, de autoria do senador Rogério Marinho (PL-RN), que prevê o pagamento por hora trabalhada , em vez da redução da jornada.</p><p>No entanto, Mega relatou que parlamentares da oposição já admitiram que a PEC do fim da escala 6x1 é popular demais para que votem contra: &quot;Assim como teve na Câmara membros do PL favoráveis à proposta, no Senado não deve ser diferente.&quot;</p><p>A analista destacou ainda que Davi Alcolumbre tem papel central na articulação pela aprovação da PEC. Segundo uma fonte ouvida pela analista, Alcolumbre &quot;quer fazer de tudo para entregar esse trunfo político &quot; ao governo.</p><p>&quot;Ele caminha junto com Lula nessa e, para ele ter sobrevivência política no Senado para o ano que vem, inclusive com alguma chance de ser reconduzido à presidência do Senado , ele entende que precisa continuar atrelado a Lula e que Lula precisa vencer a eleição no dia 25 de outubro&quot;, relatou Mega.</p><p>Além da PEC do fim da escala 6x1, o Senado também deve analisar nesta semana a PEC da Segurança Pública , cuja votação está prevista na CCJ (Comissão de Constituição e Justiça) na mesma quarta-feira. As duas propostas são consideradas prioritárias pelo governo.</p><p>Governo busca apoio para aprovar 6x1 em dois turnos | LIVE CNN</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/politica/governo-busca-apoio-para-aprovar-fim-da-6x1-em-dois-turnos-no-mesmo-dia/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-quer-aumentar-incentivos-a-cultura-flavio-defende-patrimonio.jpg",
+        "resumo": "Plano de governo de Lula detalha incentivos a diversas áreas da cultura. Plano de Flávio defende a preservação do patrimônio histórico.",
+        "conteudo": "<p>A área cultural é tema de forte debate entre os candidatos Flávio Bolsonaro e Luiz Inácio Lula da Silva.</p><h2>No governo de Jair Bolsonaro, que integrou o PL</h2><p>No governo de Jair Bolsonaro, que integrou o PL no último ano de mandato, mesmo partido de Flávio, o Ministério da Cultura foi extinto, sendo substituído por uma secretaria. O investimento também foi reduzido.</p><p>Os valores do Estado destinados a projetos culturais caíram de R$ 245,5 milhões, em 2018, para R$ 89,5 milhões, em 2022, último ano de gestão de Bolsonaro.</p><p>Os governos do Partido dos Trabalhadores (PT) deram maior relevância às políticas de Estado na área cultural, com a construção de Pontos e Pontões de Cultura, a criação do Vale Cultura, além de incentivos ao cinema nacional com iniciativas como Cota de Tela e o Fundo do Audiovisual, que destinaram R$ 3,6 bilhões entre 2023 e 2025.</p><h2>Agência Brasil detalhou as propostas de cada</h2><p>A Agência Brasil detalhou as propostas de cada um sobre o tema de acordo com o Plano de Governo entregue ao Tribunal Superior Eleitoral (TSE).</p><p>O plano de governo do candidato Flávio Bolsonaro diz que vai preservar o patrimônio histórico desde os centros históricos até as obras e acervos.</p><p>O plano de Lula também fala em preservar e difundir saberes, memórias e os patrimônios culturais do Brasil e fortalecer as instituições responsáveis por essas atividades.</p><p>Também promete criar uma política de salvaguarda e valorização das mestras e mestres das culturas populares e tradicionais, com regras claras sobre direito autoral sobre os saberes que eles mantêm vivos.</p><p>O plano de Flávio Bolsonaro não cita aumento de financiamento , mas diz que vai aperfeiçoar as leis de incentivo, corrigir distorções e favorecer o desenvolvimento de outros polos regionais.</p><p>A proposta de Lula diz que vai aperfeiçoar as leis 14.399/2022, conhecida como Lei Aldir Blanc, e 8.313/1991, a Lei Rouanet , e avançar na desconcentração regional.</p><p>Promete ampliar o fomento ao desenvolvimento de infraestrutura cultural em territórios periféricos por meio do programa de Aceleração do Crescimento (PAC).</p><p>O plano de Flávio Bolsonaro não traz propostas para o audiovisual.</p><p>O plano de governo de Lula diz que, se eleito, o presidente irá trabalhar pela aprovação, no Congresso Nacional, de uma regulamentação do streaming (VOD) que atenda aos interesses nacionais; consolidar uma política industrial para o setor audiovisual e fortalecer a proteção aos direitos autorais e à propriedade intelectual.</p><p>O plano de Flávio Bolsonaro não apresenta propostas para o tema.</p><p>O plano de Lula fala em “ampliar as condições de criação, produção e difusão, com acesso a tecnologias e plataformas”; trabalhar pela aprovação de uma lei do direito autoral em ambiente digital e a regulamentação da inteligência artificial.</p><p>Também promete estimular o empreendedorismo cultural, a inovação e a formação profissional para gerar empregos e ampliar oportunidades econômicas no setor cultural; ampliar o acesso a crédito para iniciativas de economia criativa, aumentar a oferta de vagas em cursos técnicos e profissionalizantes de formação e qualificação artística, técnica e cultural.</p><p>Cita ainda o fomento à indústria de games, que considera estratégicos.</p><p>O documento com propostas do candidato Lula também diz que pretende avançar na integração da cultura com a educação por meio de programas como o Arte e Cultura na Educação de Tempo Integral e o desenvolvimento de programas específicos voltados para a formação de plateia, promovendo o acesso a experiências culturais e artísticas desde a infância e juventude.</p><p>No primeiro governo de Luiz Inácio Lula da Silva, o cantor Gilberto Gil assumiu o Ministério da Cultura, dando à pasta destaque internacional.</p><p>Foram criados programas como o Programa Nacional de Cultura, Educação e Cidadania (Cultura Viva), que depois se tornou uma Política Nacional de Cultura Viva e o Arca das Letras, um programa de bibliotecas rurais.</p><p>Foram construídos os Centros de Artes e Esportes Unificados (CEUs), os Pontos e os Pontões de Cultura.</p><p>Em 2013, no governo de Dilma Rousseff, foi criado o Vale Cultura , um benefício de R$ 50 para trabalhadores que recebem até cinco salários mínimos e que pode ser usado apenas para consumo de cultura, como livros, cinema, teatro e outros.</p><p>Também foi criado o Brasil de Todas as Telas, para expandir o mercado audiovisual interno e o acesso da população ao cinema.</p>",
+        "fonteNome": "Agência Brasil - Política",
+        "fonteUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/conheca-propostas-de-flavio-e-lula-para-cultura",
         "fontesAdicionais": [
           {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
           },
           {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
+            "nome": "Ministério da Fazenda",
+            "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O Senado deve votar, na quarta-feira (14), o primeiro turno da Proposta de Emenda à Constituição que propõe o fim da escala 6x1 . A pauta foi definida por Davi Alcolumbre (União-AP), e o governo articula apoio para que os dois turnos da votação ocorram no mesmo dia, o que permitiria a promulgação da proposta ."
+            "resposta": "A área cultural é tema de forte debate entre os candidatos Flávio Bolsonaro e Luiz Inácio Lula da Silva."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "&quot;O desafio do governo não é garantir necessariamente a primeira votação, mas garantir que a segunda votação aconteça ainda nessa semana&quot;, explicou a analista de política Isabel Mega durante o Live CNN desta segunda-feira (12)."
+            "resposta": "No governo de Jair Bolsonaro, que integrou o PL no último ano de mandato, mesmo partido de Flávio, o Ministério da Cultura foi extinto, sendo substituído por uma secretaria. O investimento também foi reduzido. Os valores do Estado destinados a projetos culturais caíram de R$ 245,5 milhões, em 2018, para R$ 89,5 milhões, em 2022, último ano de gestão de Bolso"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Para a aprovação total de uma PEC no Senado Federal, são necessários dois turnos de votação, com 49 votos favoráveis em cada um deles . Além disso, o regimento da Casa prevê três sessões de discussão entre o primeiro e o segundo turno."
+            "resposta": "A Agência Brasil detalhou as propostas de cada um sobre o tema de acordo com o Plano de Governo entregue ao Tribunal Superior Eleitoral (TSE)."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Se esse intervalo for respeitado integralmente, a votação final pode acabar ficando para depois do segundo turno das eleições ."
+            "resposta": "O plano de governo do candidato Flávio Bolsonaro diz que vai preservar o patrimônio histórico desde os centros históricos até as obras e acervos."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "As discussões sobre a proposta já foram iniciadas na semana passada, com sessões realizadas entre os dias 5 e 7 de outubro . Nesta semana, estão previstas mais duas sessões de discussão, na terça (13) e na quarta-feira (14), completando as cinco sessões exigidas pelo regimento antes da votação em primeiro turno."
+            "resposta": "O plano de Lula também fala em preservar e difundir saberes, memórias e os patrimônios culturais do Brasil e fortalecer as instituições responsáveis por essas atividades. Também promete criar uma política de salvaguarda e valorização das mestras e mestres das culturas populares e tradicionais, com regras claras sobre direito autoral sobre os saberes que eles"
           }
         ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/plenario_do_senado.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/governo-busca-apoio-para-aprovar-fim-da-6x1-em-dois-turnos-no-mesmo-dia.jpg",
+        "imagemOriginal": "https://imagens.ebc.com.br/QjlAr0ny4yNlczC7y_q11sz9B3w=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/sala_de_cinemaagencia_brasilia31122000938.jpg?itok=cln-l4lD",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-quer-aumentar-incentivos-a-cultura-flavio-defende-patrimonio.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
+    },
+    {
+      "id": "c64405bd8f70f117",
+      "titulo": "Papa Leão XIV cancela agenda religiosa até 20 de outubro por cirurgia",
+      "categoria": "Fé e Sociedade",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/mundo/papa-leao-xiv-cancela-agenda-religiosa-ate-20-de-outubro-por-cirurgia",
+      "dataFonte": "2026-10-12T16:57:27.000Z",
+      "resumoFonte": "Líder da Igreja Católica afirmou que médicos recomendaram cirurgia para retirada de nódulo no pulmão. Segundo ele, está em \"estágio inicial\"",
+      "imagem": "https://i.metroimg.com/nwIbL9rz5yoa8zNp63UTBAlWnYSjhzkPCdpAx_n4dBU/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/04/papa-leao-xiv.jpg",
+      "descobertaEm": "2026-10-12T17:18:14.023Z"
+    },
+    {
+      "id": "4b3ed084e42e11b7",
+      "titulo": "Ciclovia provisória começa a ganhar forma na Av. Beira-Mar, em Vitória",
+      "categoria": "Cidades",
+      "radar": null,
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/es/transito/ciclovia-provisoria-comeca-a-ganhar-forma-na-av-beira-mar-em-vitoria-1026",
+      "dataFonte": "2026-10-12T17:34:39.000Z",
+      "resumoFonte": "Estrutura ocupará parte de uma faixa de veículos durante as obras de reurbanização; previsão é que esteja totalmente operacional até o fim desta semana",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1791814874455_dsc_6244.jpg",
+      "descobertaEm": "2026-10-12T18:18:11.866Z",
+      "reportagem": {
+        "titulo": "Ciclovia provisória começa a ganhar forma na Av. Beira-Mar, em Vitória",
+        "slug": "ciclovia-provisoria-comeca-a-ganhar-forma-na-av-beira-mar-em-vitoria",
+        "categoria": "Cidades",
+        "data": "2026-10-12",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/ciclovia-provisoria-comeca-a-ganhar-forma-na-av-beira-mar-em-vitoria.jpg",
+        "resumo": "Estrutura ocupará parte de uma faixa de veículos durante as obras de reurbanização; previsão é que esteja totalmente operacional até o fim desta semana",
+        "conteudo": "<p>A instalação da ciclovia provisória n a Avenida Marechal Mascarenhas de Moraes, a Beira-Mar, em Vitória , está avançada.</p><h2>Estrutura, que vai permanecer durante as obras</h2><p>A estrutura, que vai permanecer durante as obras de reurbanização da via, começou a ser instalada no sábado (10) e vai ocupar parte de uma das faixas atualmente destinadas aos veículos.</p><p>Na manhã desta segunda-feira (12), quem passava pela avenida já podia observar as estruturas que vão separar o espaço dos ciclistas da área de circulação dos carros. Na ocasião, parte da via também estava interditada com cones para o projeto Rua de Lazer.</p><p>Segundo a Prefeitura de Vitória , a mudança foi definida após a identificação de ciclistas circulando em áreas de obras , inclusive próximo a máquinas e equipes de trabalho. A previsão é que a ciclovia esteja totalmente operacional até o fim desta semana.</p><h2>Inicialmente, a estrutura será implantada entre a Rua Alberto</h2><p>Inicialmente, a estrutura será implantada entre a Rua Alberto de Oliveira Santos, na altura do Edifício AMES, e a Rua Marcelino Duarte, próximo à Praça Pio XII e à agência do Banco do Brasil.</p><p>A ciclovia provisória terá dois metros de largura e será de mão dupla. Parte da faixa também continuará sendo utilizada pelo canteiro de obras e para as atividades necessárias à execução dos serviços.</p><p>Conforme as intervenções avançarem, a estrutura será estendida para os demais trechos da obra até a região onde começa o calçadão da Beira-Mar, após a antiga sede do Clube Saldanha da Gama.</p><p>Enquanto a ciclovia provisória estiver sendo instalada, a orientação da prefeitura é que os ciclistas utilizem a calçada localizada junto aos edifícios no trecho em obras.</p><p>Segundo o município, a área próxima ao canteiro continuará ocupada por trabalhadores, equipamentos e máquinas de médio porte durante esse período.</p><p>Com parte de uma faixa destinada à ciclovia provisória, haverá redução temporária da capacidade de circulação de veículos no trecho em obras.</p><p>Para quem segue do Centro em direção à Região Norte de Vitória, a prefeitura recomenda utilizar preferencialmente as avenidas Governador Bley, Princesa Isabel e Vitória.</p><p>O motorista poderá retornar à Avenida Beira-Mar pela Rua Dom Bosco, próximo ao antigo Terminal Dom Bosco, ou, mais adiante, pela Avenida Paulino Müller.</p><p>O trecho terá sinalização específica e, segundo a prefeitura, as condições de circulação serão monitoradas durante a operação da ciclovia provisória.</p><p>O município informou que poderá fazer ajustes caso sejam necessários para garantir a segurança e o funcionamento do trânsito na região.</p>",
+        "fonteNome": "A Gazeta - Capa",
+        "fonteUrl": "https://www.agazeta.com.br/es/transito/ciclovia-provisoria-comeca-a-ganhar-forma-na-av-beira-mar-em-vitoria-1026",
+        "fontesAdicionais": [
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          },
+          {
+            "nome": "Tribuna Online",
+            "url": "https://tribunaonline.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A instalação da ciclovia provisória n a Avenida Marechal Mascarenhas de Moraes, a Beira-Mar, em Vitória , está avançada. A estrutura, que vai permanecer durante as obras de reurbanização da via, começou a ser instalada no sábado (10) e vai ocupar parte de uma das faixas atualmente destinadas aos veículos."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Na manhã desta segunda-feira (12), quem passava pela avenida já podia observar as estruturas que vão separar o espaço dos ciclistas da área de circulação dos carros. Na ocasião, parte da via também estava interditada com cones para o projeto Rua de Lazer."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Segundo a Prefeitura de Vitória , a mudança foi definida após a identificação de ciclistas circulando em áreas de obras , inclusive próximo a máquinas e equipes de trabalho. A previsão é que a ciclovia esteja totalmente operacional até o fim desta semana."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Inicialmente, a estrutura será implantada entre a Rua Alberto de Oliveira Santos, na altura do Edifício AMES, e a Rua Marcelino Duarte, próximo à Praça Pio XII e à agência do Banco do Brasil."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A ciclovia provisória terá dois metros de largura e será de mão dupla. Parte da faixa também continuará sendo utilizada pelo canteiro de obras e para as atividades necessárias à execução dos serviços."
+          }
+        ],
+        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1791814874455_dsc_6244.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/ciclovia-provisoria-comeca-a-ganhar-forma-na-av-beira-mar-em-vitoria.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "7a45975eafcaeabe",
+      "titulo": "Perseguidor se passou por marido de Marvvila para se aproximar da cantora",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/colunas/fabia-oliveira/perseguidor-se-passou-por-marido-de-marvvila-para-se-aproximar-da-cantora",
+      "dataFonte": "2026-10-12T18:15:16.000Z",
+      "resumoFonte": "A cantora Marvvila afirmou que stalker acreditava manter relação amorosa e chegou a dizer que ela era “madrasta” dos seus filhos",
+      "imagem": "https://i.metroimg.com/rn_oxQhGFgaockC8ayy9HU2W1qVyRLqlCPivsa6BCLA/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/marvvila.jpg",
+      "descobertaEm": "2026-10-12T18:18:11.866Z",
+      "reportagem": {
+        "titulo": "Perseguidor se passou por marido de Marvvila para se aproximar da cantora",
+        "slug": "perseguidor-se-passou-por-marido-de-marvvila-para-se-aproximar-da-cantora",
+        "categoria": "Cultura",
+        "data": "2026-10-12",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/perseguidor-se-passou-por-marido-de-marvvila-para-se-aproximar-da-cantora.jpg",
+        "resumo": "A cantora Marvvila afirmou que stalker acreditava manter relação amorosa e chegou a dizer que ela era “madrasta” dos seus filhos",
+        "conteudo": "<p>A cantora Marvvila voltou a dar detalhes sobre o caso de perseguição sofrida por um homem que acreditava manter um relacionamento amoroso com ela.</p><h2>Ao Domingo Espetacular , a artista afirmou</h2><p>Ao Domingo Espetacular , a artista afirmou que o stalker chegou a se apresentar como seu marido para ter acesso a áreas restritas. Disse, ainda, que a famosa era a “madrasta” dos seus filhos.</p><p>Um post compartilhado por S U B C E L E B R I T I E S (@subcelebrities)</p><p>À atração da Record, a cantora disse que a situação envolvendo o perseguidor chegou ao extremo quando ele começou a se apresentar como seu marido para acessar seu camarim. “Ele começou a se identificar como meu marido pra poder acessar o camarim”, começou.</p><h2>“E eu não sei como ele conseguiu algumas vezes</h2><p>“E eu não sei como ele conseguiu algumas vezes furar essa barreira e chegar até o camarim se passando por meu marido, dizendo que eu era a melhor coisa que aconteceu na vida dele, que a gente ia se casar, que eu era madrasta dos filhos dele”, reforçou Marvvila.</p><p>A cantora disse que o homem realmente acreditava que ambos viviam um relacionamento amoroso. “Se eu postasse uma música de discussão de relacionamento ele já entendia que eu estava discutindo com ele. Era uma grande confusão e parecia de fato que ele acreditava naquilo”.</p><p>Marvvila cancela shows por orientação médica: &quot;Impacto emocional&quot;</p><p>Marvvila já tinha falado sobre o assunto na semana passada. Na ocasião, ela desabafou nas redes sociais e contou que o contato começou pelas redes sociais, mas avançou para outros meios e chegou a envolver tentativas de aproximação durante seus shows.</p><p>“No começo, a gente tratava como algo engraçado, porque era um cara bem mais velho, mandando mensagem como se fossemos um casal. Às vezes, eu postava uma música minha e ele falava que era pra ele”, comentou a famosa.</p><p>Ela seguiu: “Mas, ele começou a ir aos shows levando muitos presentes, ursos gigantes, flores, vinho, chocolate e cartinhas de declaração. Foi no show, tirou foto comigo, deu esses presentes.</p><p>[…] Ele não conversou comigo, mas nas redes sociais ele começou [a dizer]: ‘amor, amei nossa noite’, como se a gente tivesse algo”, revelou a famosa.</p><p>Já leu todas as notas e reportagens da coluna hoje? Acesse a coluna do Metrópoles .</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/colunas/fabia-oliveira/perseguidor-se-passou-por-marido-de-marvvila-para-se-aproximar-da-cantora",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A cantora Marvvila voltou a dar detalhes sobre o caso de perseguição sofrida por um homem que acreditava manter um relacionamento amoroso com ela. Ao Domingo Espetacular , a artista afirmou que o stalker chegou a se apresentar como seu marido para ter acesso a áreas restritas. Disse, ainda, que a famosa era a “madrasta” dos seus filhos."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Um post compartilhado por S U B C E L E B R I T I E S (@subcelebrities)"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "À atração da Record, a cantora disse que a situação envolvendo o perseguidor chegou ao extremo quando ele começou a se apresentar como seu marido para acessar seu camarim. “Ele começou a se identificar como meu marido pra poder acessar o camarim”, começou."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "“E eu não sei como ele conseguiu algumas vezes furar essa barreira e chegar até o camarim se passando por meu marido, dizendo que eu era a melhor coisa que aconteceu na vida dele, que a gente ia se casar, que eu era madrasta dos filhos dele”, reforçou Marvvila."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A cantora disse que o homem realmente acreditava que ambos viviam um relacionamento amoroso. “Se eu postasse uma música de discussão de relacionamento ele já entendia que eu estava discutindo com ele. Era uma grande confusão e parecia de fato que ele acreditava naquilo”."
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/rn_oxQhGFgaockC8ayy9HU2W1qVyRLqlCPivsa6BCLA/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/marvvila.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/perseguidor-se-passou-por-marido-de-marvvila-para-se-aproximar-da-cantora.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "4a39f7f60f1e0736",
+      "titulo": "Presidente da Microsoft defende regulamentação global de IA",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/tecnologia/presidente-da-microsoft-defende-regulamentacao-global-de-ia/",
+      "dataFonte": "2026-10-12T17:06:25.000Z",
+      "resumoFonte": "O presidente da Microsoft , Brad Smith, defendeu a criação urgente de uma regulamentação global para a inteligência artificial (IA) , com avaliações independentes e regras de segurança para o desenvolvimento da tecnologia. Em entrevista à BBC publicada nesta segunda-feira, 12, o executivo afirmou que sistemas de IA estão sujeitos a menos exigências…",
+      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
+      "descobertaEm": "2026-10-12T17:18:14.023Z"
+    },
+    {
+      "id": "5235c38fa19e5fd9",
+      "titulo": "Coritiba x Botafogo: escalações e onde assistir ao jogo do Brasileirão",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/coritiba-x-botafogo-escalacoes-e-onde-assistir-ao-jogo-do-brasileirao/",
+      "dataFonte": "2026-10-12T18:06:25.000Z",
+      "resumoFonte": "Equipes se enfrentam nesta segunda-feira (12), no Estádio Couto Pereira, em Curitiba, pela 30ª rodada da Série A do Campeonato Brasileiro",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/COUTO-PEREIRA.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-12T18:18:11.866Z",
+      "reportagem": {
+        "titulo": "Coritiba x Botafogo: escalações e onde assistir ao jogo do Brasileirão",
+        "slug": "coritiba-x-botafogo-escalacoes-e-onde-assistir-ao-jogo-do-brasileirao",
+        "categoria": "Esporte",
+        "data": "2026-10-12",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/coritiba-x-botafogo-escalacoes-e-onde-assistir-ao-jogo-do-brasileirao.jpg",
+        "resumo": "Equipes se enfrentam nesta segunda-feira (12), no Estádio Couto Pereira, em Curitiba, pela 30ª rodada da Série A do Campeonato Brasileiro",
+        "conteudo": "<p>Coritiba e Botafogo duelam pela 30ª rodada do Campeonato Brasileiro nesta segunda-feira (12). A partir das 16h (de Brasília), o jogo acontece no Estádio Couto Pereira, em Curitiba.</p><h2>Confronto terá transmissão do Prime Video , no streaming,</h2><p>O confronto terá transmissão do Prime Video , no streaming, enquanto o CNN Esportes acompanha em tempo real .</p><p>O árbitro principal responsável pela partida é Matheus Delgado Candançan, enquanto Thiaggo Americano Labes e Daniel Paulo Ziolli serão as assistentes.</p><p>O Coritiba busca voltar a vencer após 40 dias de jejum e espera encerrar essa sequência negativa justamente no período em que celebra seus 117 anos de história, para tornar a comemoração mais tranquila.</p><h2>Botafogo chega ao confronto após perder por 2</h2><p>O Botafogo chega ao confronto após perder por 2 a 1 para o Vasco , na última quarta-feira (7). Nos últimos cinco compromissos pelo Campeonato Brasileiro, o time alvinegro conquistou apenas uma vitória, diante do Grêmio, em partida atrasada da 21ª rodada.</p><p>Sob o comando de Tite, que estará suspenso nesta segunda-feira (12), a equipe começou a rodada na 13ª colocação, com 35 pontos.</p><p>Coritiba: Pedro Morisco; Bustos, Tiago Cóser, Jacy e Felipe Jonatan; Thiago Santos, Sebastián Gómez e Josué; Lavega, Paulo Roberto e Pedro Rocha. Técnico: Fernando Seabra</p><p>Botafogo: Gabriel Batista; Vitinho, Marçal, Ferraresi e Alex Telles; Allan e Danilo; Ziyech, Matheus Martins e Medina; Arthur Cabral. Técnico: Matheus Bachi (Tite está suspenso)</p><p>Coritiba e Botafogo duelam pela 30ª rodada do Campeonato Brasileiro nesta segunda-feira (12). A partir das 16h (de Brasília), o jogo acontece no Estádio Couto Pereira, em Curitiba.</p><p>O confronto terá transmissão do Prime Video , no streaming, enquanto o CNN Esportes acompanha em tempo real .</p><p>O árbitro principal responsável pela partida é Matheus Delgado Candançan, enquanto Thiaggo Americano Labes e Daniel Paulo Ziolli serão as assistentes.</p><p>O Coritiba busca voltar a vencer após 40 dias de jejum e espera encerrar essa sequência negativa justamente no período em que celebra seus 117 anos de história, para tornar a comemoração mais tranquila.</p><p>O Botafogo chega ao confronto após perder por 2 a 1 para o Vasco , na última quarta-feira (7).</p><p>Nos últimos cinco compromissos pelo Campeonato Brasileiro, o time alvinegro conquistou apenas uma vitória, diante do Grêmio, em partida atrasada da 21ª rodada.</p><p>Sob o comando de Tite, que estará suspenso nesta segunda-feira (12), a equipe começou a rodada na 13ª colocação, com 35 pontos. Leia Mais:</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/brasileirao/coritiba-x-botafogo-escalacoes-e-onde-assistir-ao-jogo-do-brasileirao/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Coritiba e Botafogo duelam pela 30ª rodada do Campeonato Brasileiro nesta segunda-feira (12). A partir das 16h (de Brasília), o jogo acontece no Estádio Couto Pereira, em Curitiba."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O confronto terá transmissão do Prime Video , no streaming, enquanto o CNN Esportes acompanha em tempo real ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O árbitro principal responsável pela partida é Matheus Delgado Candançan, enquanto Thiaggo Americano Labes e Daniel Paulo Ziolli serão as assistentes."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O Coritiba busca voltar a vencer após 40 dias de jejum e espera encerrar essa sequência negativa justamente no período em que celebra seus 117 anos de história, para tornar a comemoração mais tranquila."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O Botafogo chega ao confronto após perder por 2 a 1 para o Vasco , na última quarta-feira (7). Nos últimos cinco compromissos pelo Campeonato Brasileiro, o time alvinegro conquistou apenas uma vitória, diante do Grêmio, em partida atrasada da 21ª rodada."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/COUTO-PEREIRA.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/coritiba-x-botafogo-escalacoes-e-onde-assistir-ao-jogo-do-brasileirao.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "e0e34b554259d984",
+      "titulo": "Ministros veem favorecimento a Lula em decisões do TSE",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/no-ponto/ministros-veem-favorecimento-a-lula-em-decisoes-do-tse/",
+      "dataFonte": "2026-10-12T18:08:16.000Z",
+      "resumoFonte": "Ministros ouvidos pela coluna veem indícios de favorecimento ao presidente Lula em decisões de uma ala do Tribunal Superior Eleitoral (TSE) na disputa contra o senador Flávio Bolsonaro (PL-RJ) . Os magistrados atribuem essa postura a Estela Aranha, Floriano de Azevedo Marques e Ricardo Villas Bôas Cueva. Desde o resultado do primeiro turno, o clima…",
+      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
+      "descobertaEm": "2026-10-12T18:18:11.866Z"
     },
     {
       "id": "14bea48835d6c943",
@@ -145,73 +373,61 @@
       }
     },
     {
-      "id": "c64405bd8f70f117",
-      "titulo": "Papa Leão XIV cancela agenda religiosa até 20 de outubro por cirurgia",
-      "categoria": "Fé e Sociedade",
+      "id": "c3dcdf087cd24d5f",
+      "titulo": "Carta assinada por Wagner Moura e artistas manifesta preocupação com eleições no Brasil",
+      "categoria": "Cultura",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/mundo/papa-leao-xiv-cancela-agenda-religiosa-ate-20-de-outubro-por-cirurgia",
-      "dataFonte": "2026-10-12T16:57:27.000Z",
-      "resumoFonte": "Líder da Igreja Católica afirmou que médicos recomendaram cirurgia para retirada de nódulo no pulmão. Segundo ele, está em \"estágio inicial\"",
-      "imagem": "https://i.metroimg.com/nwIbL9rz5yoa8zNp63UTBAlWnYSjhzkPCdpAx_n4dBU/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/04/papa-leao-xiv.jpg",
-      "descobertaEm": "2026-10-12T17:18:14.023Z"
-    },
-    {
-      "id": "b8b1909ff1323623",
-      "titulo": "Motorista morre em acidente na Serra; três pessoas ficam feridas",
-      "categoria": "Cidades",
-      "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/es/transito/motorista-morre-em-acidente-na-serra-tres-pessoas-ficam-feridas-1026",
-      "dataFonte": "2026-10-12T16:21:29.000Z",
-      "resumoFonte": "Guilherme Pereira de Souza, de 25 anos, dirigia um Fiat Tipo e colidiu de frente contra um Polo na ES 010; vítimas feridas foram levadas ao Hospital Jayme Santos Neves",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1791817505498_copia_de_template_radar_a_gazeta_24.jpg",
-      "descobertaEm": "2026-10-12T17:18:14.023Z",
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/cultura/carta-assinada-por-wagner-moura-e-artistas-manifesta-preocupacao-com-eleicoes-no-brasil/",
+      "dataFonte": "2026-10-12T17:34:15.000Z",
+      "resumoFonte": "Além de nomes como Alice Braga e Fernando Meirelles, profissionais do audiovisual pedem atenção internacional à disputa presidencial",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/01/GettyImages-2254688748.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-10-12T18:18:11.866Z",
       "reportagem": {
-        "titulo": "Motorista morre em acidente na Serra; três pessoas ficam feridas",
-        "slug": "motorista-morre-em-acidente-na-serra-tres-pessoas-ficam-feridas",
-        "categoria": "Cidades",
+        "titulo": "Carta assinada por Wagner Moura e artistas manifesta preocupação com eleições no Brasil",
+        "slug": "carta-assinada-por-wagner-moura-e-artistas-manifesta-preocupacao-com-eleicoes-no-brasil",
+        "categoria": "Cultura",
         "data": "2026-10-12",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/motorista-morre-em-acidente-na-serra-tres-pessoas-ficam-feridas.jpg",
-        "resumo": "Guilherme Pereira de Souza, de 25 anos, dirigia um Fiat Tipo e colidiu de frente contra um Polo na ES 010; vítimas feridas foram levadas ao Hospital Jayme Santos Neves",
-        "conteudo": "<p>Um jovem de 25 anos morreu e outras três pessoas ficaram feridas após uma colisão entre dois carros na Serra, na Grande Vitória. O acidente aconteceu na ES 010, em Costa Bella, no fim da noite de domingo (11).</p><h2>Condutor do veículo Fiat Tipo morreu preso às ferragens</h2><p>O condutor do veículo Fiat Tipo morreu preso às ferragens. Ele foi identificado como Guilherme Pereira de Souza e não possuía Carteira Nacional de Habilitação (CNH), segundo a Polícia Militar.</p><p>As outras três vítimas estavam em um Volkswagen Polo e foram encaminhadas para o Hospital Estadual Dr. Jayme Santos Neves , também na Serra.</p><p>Informações apuradas pela PM indicam que Guilherme seguia no sentido Nova Almeida, quando teria invadido a contramão. O condutor do outro carro tentou desviar em direção a uma área de mata, mas não conseguiu impedir a colisão.</p><h2>Motorista do Polo informou à PM que havia buscado</h2><p>O motorista do Polo informou à PM que havia buscado os dois passageiros, um homem e uma mulher, em uma festa. Ele realizou o teste do bafômetro, que deu negativo para ingestão de álcool.</p><p>Segundo apuração da TV Gazeta , o motorista que morreu morava em Nova Almeida, na Serra, e era mecânico industrial. Naquela noite, Guilherme esteve na casa da namorada e voltava sozinho para casa. Ele deixa uma filha de 5 anos.</p><p>O corpo foi encaminhado para o Instituto Médico-Legal (IML) de Vitória.</p><p>A Polícia Civil informou que as circunstâncias do acidente serão investigadas pela Delegacia Especializada de Delitos de Trânsito (DDT).</p><p>Um jovem de 25 anos morreu e outras três pessoas ficaram feridas após uma colisão entre dois carros na Serra, na Grande Vitória. O acidente aconteceu na ES 010, em Costa Bella, no fim da noite de domingo (11).</p><p>O condutor do veículo Fiat Tipo morreu preso às ferragens. Ele foi identificado como Guilherme Pereira de Souza e não possuía Carteira Nacional de Habilitação (CNH), segundo a Polícia Militar.</p><p>O motorista do Polo informou à PM que havia buscado os dois passageiros, um homem e uma mulher, em uma festa. Ele realizou o teste do bafômetro, que deu negativo para ingestão de álcool. Segundo apuração da</p>",
-        "fonteNome": "A Gazeta - Capa",
-        "fonteUrl": "https://www.agazeta.com.br/es/transito/motorista-morre-em-acidente-na-serra-tres-pessoas-ficam-feridas-1026",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/carta-assinada-por-wagner-moura-e-artistas-manifesta-preocupacao-com-eleicoes-no-brasil.jpg",
+        "resumo": "Além de nomes como Alice Braga e Fernando Meirelles, profissionais do audiovisual pedem atenção internacional à disputa presidencial",
+        "conteudo": "<p>Cineastas, atores e produtores brasileiros integrantes da Academia de Artes e Ci&ecirc;ncias Cinematogr&aacute;ficas de Hollywood, respons&aacute;vel pelo Oscar, divulgaram uma carta aberta manifestando preocupa&ccedil;&atilde;o com o cen&aacute;rio pol&iacute;tico do pa&iacute;s e pedem aten&ccedil;&atilde;o internacional para o segundo turno das elei&ccedil;&otilde;es presidenciais, marcado para 25 de outubro.</p><h2>Entre os 58 signat&aacute;rios est&atilde;o o ator Wagner Moura</h2><p>Entre os 58 signat&aacute;rios est&atilde;o o ator Wagner Moura , os cineastas Kleber Mendon&ccedil;a Filho , Fernando Meirelles e Petra Costa , a atriz Alice Braga e o produtor Rodrigo Teixeira , de Ainda Estou Aqui .</p><p>Tamb&eacute;m assinam o documento nomes como Al&ecirc; Abreu, Anna Muylaert, Karim A&iuml;nouz, S&ocirc;nia Braga e La&iacute;s Bodanzky.</p><p>Publicado pela revista americana Variety , o documento convoca a imprensa internacional a acompanhar o processo eleitoral e cobra investiga&ccedil;&otilde;es independentes sobre den&uacute;ncias relacionadas &agrave; disputa da cadeira de presidente da na&ccedil;&atilde;o.</p><h2>Manifesto traz preocupa&ccedil;&otilde;es com poss&iacute;veis interfer&ecirc;ncias estrangeiras, supostas restri&ccedil;&otilde;es</h2><p>O manifesto traz preocupa&ccedil;&otilde;es com poss&iacute;veis interfer&ecirc;ncias estrangeiras, supostas restri&ccedil;&otilde;es ao alcance de conte&uacute;dos pol&iacute;ticos nas plataformas da Meta e den&uacute;ncias de pagamentos a eleitores em &aacute;reas rurais.</p><p>Os signat&aacute;rios citam uma reportagem do jornal brit&acirc;nico The Guardian sobre a destina&ccedil;&atilde;o de aproximadamente 1 milh&atilde;o de d&oacute;lares de um fundo de direitos humanos do Departamento de Estado americano a um programa chamado &ldquo;Countering Lawfare and Censorship in Brazil&rdquo; (&ldquo;Combatendo a guerra jur&iacute;dica e a censura no Brasil&rdquo;, em tradu&ccedil;&atilde;o livre) de modo que tais suspeitas exigem investiga&ccedil;&atilde;o transparente e aten&ccedil;&atilde;o e acompanhamento internacional do que acontece durante as elei&ccedil;&otilde;es no pa&iacute;s.</p><p>Os profissionais tamb&eacute;m questionam propostas do candidato Fl&aacute;vio Bolsonaro &mdash; entre elas a elabora&ccedil;&atilde;o de uma nova Constitui&ccedil;&atilde;o por um Congresso de maioria alinhada &agrave; direita e a concess&atilde;o de anistia ao pai, o ex-presidente Jair Bolsonaro, atualmente preso.</p><p>O documento relembra a tentativa de golpe de Estado ap&oacute;s a derrota de Jair nas elei&ccedil;&otilde;es de 2022, pela qual ele foi condenado a 27 anos e tr&ecirc;s meses de pris&atilde;o.</p><p>Segundo os signat&aacute;rios, o hist&oacute;rico do ex-presidente e as propostas de seu filho justificam aten&ccedil;&atilde;o especial &agrave;s poss&iacute;veis consequ&ecirc;ncias da disputa para as institui&ccedil;&otilde;es democr&aacute;ticas.</p><p>A preocupa&ccedil;&atilde;o com o resultado eleitoral tamb&eacute;m inclui os rumos que a cultura pode tomar no pa&iacute;s, temendo que uma eventual mudan&ccedil;a de governo comprometa novamente os investimentos p&uacute;blicos e a sustentabilidade da ind&uacute;stria audiovisual brasileira.</p><p>Os signat&aacute;rios recordam que, durante o governo Jair Bolsonaro, o Minist&eacute;rio da Cultura foi extinto, o Fundo Setorial do Audiovisual teve suas atividades e seus recursos afetados e institui&ccedil;&otilde;es culturais foram enfraquecidas, em um per&iacute;odo marcado tamb&eacute;m por den&uacute;ncias de censura.</p><p>&ldquo;Proteger a liberdade de express&atilde;o e garantir a sustentabilidade de longo prazo da ind&uacute;stria audiovisual brasileira s&atilde;o insepar&aacute;veis da defesa da democracia&rdquo;, &eacute; dito no manifesto.</p><p>Para os signat&aacute;rios, a preserva&ccedil;&atilde;o do setor depende de pol&iacute;ticas p&uacute;blicas capazes de assegurar a continuidade da produ&ccedil;&atilde;o cultural e a liberdade de cria&ccedil;&atilde;o art&iacute;stica.</p><p>Ao final, o documento pede que a imprensa internacional cubra o processo com rigor, que a comunidade audiovisual amplie o debate e que as institui&ccedil;&otilde;es competentes investiguem as den&uacute;ncias de forma independente.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/cultura/carta-assinada-por-wagner-moura-e-artistas-manifesta-preocupacao-com-eleicoes-no-brasil/",
         "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
           {
             "nome": "Folha Vitória",
             "url": "https://www.folhavitoria.com.br/"
-          },
-          {
-            "nome": "Tribuna Online",
-            "url": "https://tribunaonline.com.br/"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Um jovem de 25 anos morreu e outras três pessoas ficaram feridas após uma colisão entre dois carros na Serra, na Grande Vitória. O acidente aconteceu na ES 010, em Costa Bella, no fim da noite de domingo (11)."
+            "resposta": "Cineastas, atores e produtores brasileiros integrantes da Academia de Artes e Ci&ecirc;ncias Cinematogr&aacute;ficas de Hollywood, respons&aacute;vel pelo Oscar, divulgaram uma carta aberta manifestando preocupa&ccedil;&atilde;o com o cen&aacute;rio pol&iacute;tico do pa&iacute;s e pedem aten&ccedil;&atilde;o internacional para o segundo turno das elei&ccedi"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O condutor do veículo Fiat Tipo morreu preso às ferragens. Ele foi identificado como Guilherme Pereira de Souza e não possuía Carteira Nacional de Habilitação (CNH), segundo a Polícia Militar."
+            "resposta": "Entre os 58 signat&aacute;rios est&atilde;o o ator Wagner Moura , os cineastas Kleber Mendon&ccedil;a Filho , Fernando Meirelles e Petra Costa , a atriz Alice Braga e o produtor Rodrigo Teixeira , de Ainda Estou Aqui . Tamb&eacute;m assinam o documento nomes como Al&ecirc; Abreu, Anna Muylaert, Karim A&iuml;nouz, S&ocirc;nia Braga e La&iacute;s Bodanzky."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "As outras três vítimas estavam em um Volkswagen Polo e foram encaminhadas para o Hospital Estadual Dr. Jayme Santos Neves , também na Serra."
+            "resposta": "Publicado pela revista americana Variety , o documento convoca a imprensa internacional a acompanhar o processo eleitoral e cobra investiga&ccedil;&otilde;es independentes sobre den&uacute;ncias relacionadas &agrave; disputa da cadeira de presidente da na&ccedil;&atilde;o."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Informações apuradas pela PM indicam que Guilherme seguia no sentido Nova Almeida, quando teria invadido a contramão. O condutor do outro carro tentou desviar em direção a uma área de mata, mas não conseguiu impedir a colisão."
+            "resposta": "O manifesto traz preocupa&ccedil;&otilde;es com poss&iacute;veis interfer&ecirc;ncias estrangeiras, supostas restri&ccedil;&otilde;es ao alcance de conte&uacute;dos pol&iacute;ticos nas plataformas da Meta e den&uacute;ncias de pagamentos a eleitores em &aacute;reas rurais. Os signat&aacute;rios citam uma reportagem do jornal brit&acirc;nico The Guardian sob"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O motorista do Polo informou à PM que havia buscado os dois passageiros, um homem e uma mulher, em uma festa. Ele realizou o teste do bafômetro, que deu negativo para ingestão de álcool."
+            "resposta": "Os profissionais tamb&eacute;m questionam propostas do candidato Fl&aacute;vio Bolsonaro &mdash; entre elas a elabora&ccedil;&atilde;o de uma nova Constitui&ccedil;&atilde;o por um Congresso de maioria alinhada &agrave; direita e a concess&atilde;o de anistia ao pai, o ex-presidente Jair Bolsonaro, atualmente preso. O documento relembra a tentativa de golpe "
           }
         ],
-        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1791817505498_copia_de_template_radar_a_gazeta_24.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/motorista-morre-em-acidente-na-serra-tres-pessoas-ficam-feridas.jpg",
+        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/01/GettyImages-2254688748.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/carta-assinada-por-wagner-moura-e-artistas-manifesta-preocupacao-com-eleicoes-no-brasil.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -234,7 +450,7 @@
         "data": "2026-10-12",
         "imagem": "https://noticiaes.com.br/imagens/lapis/rita-guedes-tira-os-oculos-ao-vivo-no-domingao-e-desabafa-sobre-erro-medico.jpg",
         "resumo": "A atriz Rita Guedes, que está no elenco do Dança dos Famosos, deu um show no palco do programa, no domingo (11/12), e revelou detalhes do problema",
-        "conteudo": "<p>Rita Guedes tira os óculos ao vivo no Domingão e desabafa sobre erro médico</p><h2>Rita Guedes faz pose de óculos escuros e look</h2><p>Rita Guedes faz pose de óculos escuros e look azul</p><p>Rita Guedes foi vítima de erro médico ao fazer uma blefaroplastia</p><p>Rita Guedes estreou no Dança dos Famosos usando óculos</p><h2>Rita Guedes tem se apresentado usando óculos escuros</h2><p>Rita Guedes tem se apresentado usando óculos escuros no Dança dos Famosos</p><p>Rita Guedes se emocionou, no domingo (11/12), ao tirar os óculos pela primeira vez desde que estreou no Dança dos Famosos, do Domingão com Huck. A atriz desabafou e contou que quase perdeu a visão ao passar por um procedimento estético chamado blefaroplastia.</p><p>“ Infelizmente, tive um problema que me causou sérias complicações, inflamações, fiquei internada por 10 dias com possibilidade de ficar estrábica, de perder a visão e de não abrir mais o olho.</p><p>Graças a Deus consegui, com fisioterapia, não ter mais nenhum dano permanente”, contou.</p><p>E finalizou: “Na primeira vez em que pisei aqui, estava de óculos, te mostrei o olho e falei: ‘Não sei quando vai melhorar’. Você falou uma coisa que acalmou meu coração: ‘Fique com os óculos, o tempo que precisar'”, concluiu.</p><p>Proporcionar um aspecto mais descansado e leve à face tem feito a blefaroplastia, cirurgia plástica voltada para a remoção do excesso de pele e das bolsas de gordura nas pálpebras, ganhar cada vez mais espaço nos consultórios e também entre as celebridades.</p><p>Muito além do apelo estético, o procedimento costuma ser buscado para aliviar o peso na região dos olhos e a sensação de cansaço contínuo.</p><p>Receba no seu email as notícias da coluna Fábia Oliveira Frequência de envio: Diário Ver todas</p>",
+        "conteudo": "<p>Rita Guedes se emocionou, no domingo (11/12), ao tirar os óculos pela primeira vez desde que estreou no Dança dos Famosos, do Domingão com Huck. A atriz desabafou e contou que quase perdeu a visão ao passar por um procedimento estético chamado blefaroplastia.</p><h2>“ Infelizmente, tive um problema que me causou sérias</h2><p>“ Infelizmente, tive um problema que me causou sérias complicações, inflamações, fiquei internada por 10 dias com possibilidade de ficar estrábica, de perder a visão e de não abrir mais o olho.</p><p>Graças a Deus consegui, com fisioterapia, não ter mais nenhum dano permanente”, contou.</p><p>E finalizou: “Na primeira vez em que pisei aqui, estava de óculos, te mostrei o olho e falei: ‘Não sei quando vai melhorar’. Você falou uma coisa que acalmou meu coração: ‘Fique com os óculos, o tempo que precisar'”, concluiu.</p><h2>Rita Guedes tira os óculos ao vivo</h2><p>Rita Guedes tira os óculos ao vivo no Domingão e desabafa sobre erro médico</p><p>Rita Guedes faz pose de óculos escuros e look azul</p><p>Rita Guedes foi vítima de erro médico ao fazer uma blefaroplastia</p><p>Rita Guedes estreou no Dança dos Famosos usando óculos</p><p>Rita Guedes tem se apresentado usando óculos escuros no Dança dos Famosos</p><p>Proporcionar um aspecto mais descansado e leve à face tem feito a blefaroplastia, cirurgia plástica voltada para a remoção do excesso de pele e das bolsas de gordura nas pálpebras, ganhar cada vez mais espaço nos consultórios e também entre as celebridades.</p><p>Muito além do apelo estético, o procedimento costuma ser buscado para aliviar o peso na região dos olhos e a sensação de cansaço contínuo.</p><p>Receba no seu email as notícias da coluna Fábia Oliveira Frequência de envio: Diário Ver todas</p>",
         "fonteNome": "Metrópoles - Feed",
         "fonteUrl": "https://www.metropoles.com/colunas/fabia-oliveira/rita-guedes-tira-os-oculos-ao-vivo-no-domingao-e-desabafa-sobre-erro-medico",
         "fontesAdicionais": [
@@ -251,23 +467,23 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Rita Guedes tira os óculos ao vivo no Domingão e desabafa sobre erro médico"
+            "resposta": "Rita Guedes se emocionou, no domingo (11/12), ao tirar os óculos pela primeira vez desde que estreou no Dança dos Famosos, do Domingão com Huck. A atriz desabafou e contou que quase perdeu a visão ao passar por um procedimento estético chamado blefaroplastia."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Rita Guedes faz pose de óculos escuros e look azul"
+            "resposta": "“ Infelizmente, tive um problema que me causou sérias complicações, inflamações, fiquei internada por 10 dias com possibilidade de ficar estrábica, de perder a visão e de não abrir mais o olho. Graças a Deus consegui, com fisioterapia, não ter mais nenhum dano permanente”, contou."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Rita Guedes foi vítima de erro médico ao fazer uma blefaroplastia"
+            "resposta": "E finalizou: “Na primeira vez em que pisei aqui, estava de óculos, te mostrei o olho e falei: ‘Não sei quando vai melhorar’. Você falou uma coisa que acalmou meu coração: ‘Fique com os óculos, o tempo que precisar'”, concluiu."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Rita Guedes estreou no Dança dos Famosos usando óculos"
+            "resposta": "Rita Guedes tira os óculos ao vivo no Domingão e desabafa sobre erro médico"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Rita Guedes tem se apresentado usando óculos escuros no Dança dos Famosos"
+            "resposta": "Rita Guedes faz pose de óculos escuros e look azul"
           }
         ],
         "imagemOriginal": "https://i.metroimg.com/C-CjYWQ-nQVq25oAzzSvd1Xa2NxwE1df72J16IjLHmA/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/rita-guedes-sem-oculos-domingao2.jpg",
@@ -277,38 +493,26 @@
       }
     },
     {
-      "id": "4a39f7f60f1e0736",
-      "titulo": "Presidente da Microsoft defende regulamentação global de IA",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/tecnologia/presidente-da-microsoft-defende-regulamentacao-global-de-ia/",
-      "dataFonte": "2026-10-12T17:06:25.000Z",
-      "resumoFonte": "O presidente da Microsoft , Brad Smith, defendeu a criação urgente de uma regulamentação global para a inteligência artificial (IA) , com avaliações independentes e regras de segurança para o desenvolvimento da tecnologia. Em entrevista à BBC publicada nesta segunda-feira, 12, o executivo afirmou que sistemas de IA estão sujeitos a menos exigências…",
-      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
-      "descobertaEm": "2026-10-12T17:18:14.023Z"
-    },
-    {
-      "id": "3a912242656a0f9f",
-      "titulo": "Jogadora brasileira é apontada por Messi como um das principais promessas do futebol",
+      "id": "39d590c23e00255f",
+      "titulo": "Quem é Giovanna Waksman, brasileira apontada por Messi como promessa do futebol",
       "categoria": "Esporte",
       "radar": null,
       "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/esportes/futebol/jogadora-brasileira-e-apontada-por-messi-como-um-das-principais-promessas-do-futebol/",
-      "dataFonte": "2026-10-12T16:31:48.000Z",
-      "resumoFonte": "Giovanna Waksman, de 17 anos, atua nas categorias de base do Lyon e tem sido destaque da seleção brasileira",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/Giovanna-Waksman.jpg?w=1000&h=600&crop=1",
-      "descobertaEm": "2026-10-12T17:18:14.023Z",
+      "urlFonte": "https://jovempan.com.br/esportes/futebol/quem-e-giovanna-waksman-brasileira-apontada-por-messi-como-promessa-do-futebol/",
+      "dataFonte": "2026-10-12T17:50:09.000Z",
+      "resumoFonte": "Nascida no Rio de Janeiro, Giovanna fez a maior parte de sua formação no Botafogo e era uma das grandes apostas de John Textor",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/Giovanna-Waksman-lyon.jpg?w=1000&h=600&crop=1",
+      "descobertaEm": "2026-10-12T18:18:11.866Z",
       "reportagem": {
-        "titulo": "Jogadora brasileira é apontada por Messi como um das principais promessas do futebol | Jovem Pan",
-        "slug": "jogadora-brasileira-e-apontada-por-messi-como-um-das-principais-promessas-do-futebol-jovem",
+        "titulo": "Quem é Giovanna Waksman, brasileira apontada por Messi como promessa do futebol | Jovem Pan",
+        "slug": "quem-e-giovanna-waksman-brasileira-apontada-por-messi-como-promessa-do-futebol-jovem-pan",
         "categoria": "Esporte",
         "data": "2026-10-12",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/jogadora-brasileira-e-apontada-por-messi-como-um-das-principais-promessas-do-futebol-jovem.jpg",
-        "resumo": "Giovanna Waksman, de 17 anos, atua nas categorias de base do Lyon e tem sido destaque da seleção brasileira",
-        "conteudo": "<p>O argentino Lionel Messi colocou uma jogadora brasileira na lista que principais promessas do futebol.</p><h2>Em uma campanha publicitária, o astro elegeu dez jovens</h2><p>Em uma campanha publicitária, o astro elegeu dez jovens do futebol mundial para a próxima geração de craques e colocou a meia Giovanna Waksman, de 17 anos.</p><p>Outros nove jogadores do masculino e feminino foram lembrados pelo craque.</p><p>A jovem atua nas categorias de base do Lyon e tem sido destaque da seleção brasileira nas competições inferiores, como no Mundial Feminino Sub-17, realizado no ano passado, quando marcou três gols em quatro partidas.</p><h2>Brasil acabou eliminado nas semifinais do torneio, diante</h2><p>O Brasil acabou eliminado nas semifinais do torneio, diante da Coreia do Norte.</p><p>Giovanna nasceu no Rio de Janeiro e fez a maior parte de sua formação no Botafogo e era uma das grandes apostas de John Textor. O empresário norte-americano a levou para o FC Florida, dos Estados Unidos.</p><p>Em março deste ano, foi anunciada pelo Lyon, e assinou até junho de 2028. O clube francês é um dos principais do futebol feminino no mundo.</p><p>A lista foi montada para a campanha ‘Messi+10’, da fabricante de roupas esportivas Adidas. Essa é a terceira temporada da iniciativa e outros brasileiros foram citados nas edições anteriores.</p><p>Na primeira seleção, montada em 2015, o atacante Kenedy, ex-Fluminense e Chelsea, foi lembrado pelo astro. Dez anos depois foi a vez do volante Andrey Santos, atualmente no Manchester United.</p><p>Giovanna Waksman, de 17 anos, atua nas categorias de base do Lyon e tem sido destaque da seleção brasileira</p><p>Angelina e Bruninha são cortadas da seleção brasileira por lesão</p><p>Lesão aconteceu no jogo do Brasil contra a Argentina no sábado (10)</p><p>Com gol de Carrascal, Flamengo vence FlaFlu e mantém liderança do Brasileirão</p><p>Palmeiras atropela Corinthians, vence por 4 a 1 e apresenta ao rival 8ª derrota seguida</p><p>Santos leva virada do Altético-MG com gol de bicicleta aos 51</p><p>Corinthians anuncia contratação de Seedorf como novo técnico</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/quem-e-giovanna-waksman-brasileira-apontada-por-messi-como-promessa-do-futebol-jovem-pan.jpg",
+        "resumo": "Nascida no Rio de Janeiro, Giovanna fez a maior parte de sua formação no Botafogo e era uma das grandes apostas de John Textor",
+        "conteudo": "<p>A jogadora brasileira de 17 anos, Giovanna Waksman, foi apontada pelo craque argentino Lionel Messi como uma das promessas do futebol. Ela foi a única brasileira presenta na lista e uma das três mulheres listada pelo jogador em uma lista que contou com 10 pessoas.</p><h2>Giovanna recentemete foi presenteada com uma chuteira</h2><p>Giovanna recentemete foi presenteada com uma chuteira de edição especial da despedida de Messi, que se aposentou da seleção no último dia 6 de outubro. Na publicação ela escreveu:</p><p>Nascida no Rio de Janeiro, Giovanna fez a maior parte de sua formação no Botafogo , onde iniciou a carreira nas categorias jogando com o time masculino, porque em 2020 o time ainda não tinha uma equipe feminina. A atleta foi uma das grandes apostas de John Textor.</p><p>O empresário norte-americano a levou para o FC Florida, dos Estados Unidos, e também no colégio Pine School, onde cursava o ensino médio.</p><h2>Giovanna é presença cativa nas convocações</h2><p>Giovanna é presença cativa nas convocações da seleção de base e já chegou a ser convidada por Arthur Elias, técninco da seleção feminina, para treinar junto com o time principal.</p><p>Em 2025, participou do Mundial Feminino Sub-17 quando marcou três gols em quatro partidas. O Brasil acabou eliminado nas semifinais do torneio, diante da Coreia do Norte.</p><p>No torneio, a jogadora sofreu uma lesão nos ligamentos do joelho esquerdo, e desde então está afastada, mas faz tratamento no seu atual time, o Lyon, com quem assinou contrato com março deste ano até junho de 2028.</p><p>Esse foi seu primeiro contrato profissional. O clube francês é um dos principais do futebol feminino no mundo, tendo sido oito vezes campeão da Champions League feminina. Quem também está no timer é a brasileira Tarciane.</p><p>Nascida no Rio de Janeiro, Giovanna fez a maior parte de sua formação no Botafogo e era uma das grandes apostas de John Textor</p><p>Jogadora brasileira é apontada por Messi como um das principais promessas do futebol</p><p>Giovanna Waksman, de 17 anos, atua nas categorias de base do Lyon e tem sido destaque da seleção brasileira</p><p>Com gol de Carrascal, Flamengo vence FlaFlu e mantém liderança do Brasileirão</p><p>Palmeiras atropela Corinthians, vence por 4 a 1 e apresenta ao rival 8ª derrota seguida</p><p>Angelina e Bruninha são cortadas da seleção brasileira por lesão</p><p>Santos leva virada do Altético-MG com gol de bicicleta aos 51</p>",
         "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/esportes/futebol/jogadora-brasileira-e-apontada-por-messi-como-um-das-principais-promessas-do-futebol/",
+        "fonteUrl": "https://jovempan.com.br/esportes/futebol/quem-e-giovanna-waksman-brasileira-apontada-por-messi-como-promessa-do-futebol/",
         "fontesAdicionais": [
           {
             "nome": "A Gazeta",
@@ -323,52 +527,52 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O argentino Lionel Messi colocou uma jogadora brasileira na lista que principais promessas do futebol. Em uma campanha publicitária, o astro elegeu dez jovens do futebol mundial para a próxima geração de craques e colocou a meia Giovanna Waksman, de 17 anos. Outros nove jogadores do masculino e feminino foram lembrados pelo craque."
+            "resposta": "A jogadora brasileira de 17 anos, Giovanna Waksman, foi apontada pelo craque argentino Lionel Messi como uma das promessas do futebol. Ela foi a única brasileira presenta na lista e uma das três mulheres listada pelo jogador em uma lista que contou com 10 pessoas."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A jovem atua nas categorias de base do Lyon e tem sido destaque da seleção brasileira nas competições inferiores, como no Mundial Feminino Sub-17, realizado no ano passado, quando marcou três gols em quatro partidas. O Brasil acabou eliminado nas semifinais do torneio, diante da Coreia do Norte."
+            "resposta": "Giovanna recentemete foi presenteada com uma chuteira de edição especial da despedida de Messi, que se aposentou da seleção no último dia 6 de outubro. Na publicação ela escreveu:"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Giovanna nasceu no Rio de Janeiro e fez a maior parte de sua formação no Botafogo e era uma das grandes apostas de John Textor. O empresário norte-americano a levou para o FC Florida, dos Estados Unidos. Em março deste ano, foi anunciada pelo Lyon, e assinou até junho de 2028. O clube francês é um dos principais do futebol feminino no mundo."
+            "resposta": "Nascida no Rio de Janeiro, Giovanna fez a maior parte de sua formação no Botafogo , onde iniciou a carreira nas categorias jogando com o time masculino, porque em 2020 o time ainda não tinha uma equipe feminina. A atleta foi uma das grandes apostas de John Textor."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A lista foi montada para a campanha ‘Messi+10’, da fabricante de roupas esportivas Adidas. Essa é a terceira temporada da iniciativa e outros brasileiros foram citados nas edições anteriores. Na primeira seleção, montada em 2015, o atacante Kenedy, ex-Fluminense e Chelsea, foi lembrado pelo astro. Dez anos depois foi a vez do volante Andrey Santos, atualment"
+            "resposta": "O empresário norte-americano a levou para o FC Florida, dos Estados Unidos, e também no colégio Pine School, onde cursava o ensino médio."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Giovanna Waksman, de 17 anos, atua nas categorias de base do Lyon e tem sido destaque da seleção brasileira"
+            "resposta": "Giovanna é presença cativa nas convocações da seleção de base e já chegou a ser convidada por Arthur Elias, técninco da seleção feminina, para treinar junto com o time principal."
           }
         ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/Giovanna-Waksman.jpg?w=1000&h=600&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/jogadora-brasileira-e-apontada-por-messi-como-um-das-principais-promessas-do-futebol-jovem.jpg",
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/Giovanna-Waksman-lyon.jpg?w=1000&h=600&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/quem-e-giovanna-waksman-brasileira-apontada-por-messi-como-promessa-do-futebol-jovem-pan.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "b0e7187e674d8757",
-      "titulo": "MPF pede à Justiça para isentar até 265 empresas de ônibus de norma da ANTT",
+      "id": "7b4c019462de5464",
+      "titulo": "Kassio censurou canal de WhatsApp de Janones sem documentos mostrando presença de fake news",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/tacio-lorran/mpf-pede-a-justica-para-isentar-ate-265-empresas-de-onibus-de-norma-da-antt",
-      "dataFonte": "2026-10-12T17:00:32.000Z",
-      "resumoFonte": "Ministério Público diz que ANTT atrapalha abertura do mercado e deve isentar até 265 empresas de cumprir regra",
-      "imagem": "https://i.metroimg.com/gcaq0hmyzBwBPhc9Yog-Sp-fB0FzfwKXpW0K0Ou6rbA/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/procuradoria-regional-federal-da-primeira-regiao-mpf.jpg",
-      "descobertaEm": "2026-10-12T17:18:14.023Z",
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/kassio-censurou-canal-de-whatsapp-de-janones-sem-documentos-que-mostrassem-fake-news.shtml",
+      "dataFonte": "2026-10-12T17:28:00.000Z",
+      "resumoFonte": "O presidente do Tribunal Superior Eleitoral, Kassio Nunes Marques , mandou censurar o canal de WhatsApp do deputado André Janones, o Exército do Lula , sem ter indícios ou documentos de que as fake news apontadas na ação da campanha de Flávio Bolsonaro circulavam no canal. Na Ação de Investigação Judicial Eleitoral (AIJE) apresentada pela campanha…",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/12/17918242406acd1170bd75a_1791824240_3x2_rt.jpg",
+      "descobertaEm": "2026-10-12T18:18:11.866Z",
       "reportagem": {
-        "titulo": "MPF pede à Justiça para isentar até 265 empresas de ônibus de norma da ANTT",
-        "slug": "mpf-pede-a-justica-para-isentar-ate-265-empresas-de-onibus-de-norma-da-antt",
+        "titulo": "Kassio censurou canal de WhatsApp de Janones sem documentos mostrando presença de fake news",
+        "slug": "kassio-censurou-canal-de-whatsapp-de-janones-sem-documentos-mostrando-presenca-de-fake-new",
         "categoria": "Justiça",
         "data": "2026-10-12",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mpf-pede-a-justica-para-isentar-ate-265-empresas-de-onibus-de-norma-da-antt.jpg",
-        "resumo": "Ministério Público diz que ANTT atrapalha abertura do mercado e deve isentar até 265 empresas de cumprir regra",
-        "conteudo": "<p>O Ministério Público Federal (MPF) pediu à Justiça que desobrigue até 265 empresas de cumprir as exigências do novo marco do transporte interestadual de passageiros para conseguir explorar 325.409 mercados de ônibus no Brasil.</p><h2>Companhias apresentaram requerimentos à Agência Nacional de Transportes Terrestres</h2><p>As companhias apresentaram requerimentos à Agência Nacional de Transportes Terrestres (ANTT) antes de a norma entrar em vigor, em janeiro de 2024. Para a Procuradoria, devem ser aplicadas a elas as regras de uma resolução anterior, de 2015.</p><p>A manifestação foi enviada no último dia 29 ao Tribunal Regional Federal da Primeira Região (TRF-1), que julgará um incidente de resolução de demandas repetitivas sobre o assunto.</p><p>É um tipo de processo para resolver, a partir de uma só decisão, múltiplos casos que contêm a mesma controvérsia.</p><h2>Ação foi apresentada pela Advocacia-Geral da União (AGU), representante</h2><p>A ação foi apresentada pela Advocacia-Geral da União (AGU), representante da agência, para a qual o novo marco deve valer para todos os requerimentos pendentes.</p><p>Segundo a AGU, cerca de 300 processos judiciais contestam a aplicação da norma de 2024. Na ANTT, são 1.832 requerimentos referentes aos 325.409 mercados de ônibus.</p><p>Nesse contexto, esses mercados correspondem a trechos entre duas cidades ou a determinado par origem-destino de uma rota. Uma única linha interestadual pode, portanto, abranger diversos deles.</p><p>No parecer de 40 páginas enviado ao TRF-1, o Ministério Público sustenta que a ANTT, por meio do novo marco, tem dificultado a entrada de empresas interessadas em explorar o serviço essencial e, com isso, travado a abertura do mercado, interferido na livre concorrência e na liberdade de prática de preços.</p><p>A situação, diz o documento, favorece as viações tradicionais, que exploram linhas rentáveis há décadas, em esquemas de monopólio.</p><p>Segundo o órgão, há um excesso de barreiras, incompatíveis com o regime de autorizações previsto para o serviço. Esse modelo, conforme leis de 2001 e 2022, não prevê limite para o número de participantes, salvo em caso de inviabilidades técnicas, operacionais e econômicas.</p><p>Essas incapacidades, segundo o MPF, estão relacionadas às condições das empresas, a exemplo da falta de motoristas e veículos ou dificuldades financeiras.</p><p>Porém, a agência teria deturpado essa interpretação e passado a analisar, de maneira mais ampla, se um mercado inteiro era capaz de comportar novas empresas.</p><p>Esse entendimento teria transformado as exceções da legislação em regras gerais, restritivas, e ajudado grandes grupos a manter o controle sobre as rotas mais rentáveis.</p><p>“A própria ideia de um estudo sobre o nível de concorrência que um mercado tolera, sobretudo em um setor afeto ao regime jurídico de autorização e como condição prévia para o deferimento de novas autorizações, já deixa entrever o seu desacerto”, diz o parecer do MPF.</p><p>No parecer, o MPF pede que, ao julgar a ação, seja adotada uma resolução da ANTT editada em 2015 para os requerimentos anteriores ante ao novo marco. Não há previsão para o julgamento.</p><p>Já leu todas as notas e reportagens da coluna hoje? Acesse a coluna do Metrópoles .</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/colunas/tacio-lorran/mpf-pede-a-justica-para-isentar-ate-265-empresas-de-onibus-de-norma-da-antt",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/kassio-censurou-canal-de-whatsapp-de-janones-sem-documentos-mostrando-presenca-de-fake-new.jpg",
+        "resumo": "Em ação eleitoral, campanha de Flávio não anexou provas de que conteúdo proibido circulou no canal de WhatsApp",
+        "conteudo": "<p>O presidente do Tribunal Superior Eleitoral, Kassio Nunes Marques , mandou censurar o canal de WhatsApp do deputado André Janones, o Exército do Lula , sem ter indícios ou documentos de que as fake news apontadas na ação da campanha de Flávio Bolsonaro circulavam no canal.</p><h2>Na Ação de Investigação Judicial Eleitoral (AIJE) apresentada pela</h2><p>Na Ação de Investigação Judicial Eleitoral (AIJE) apresentada pela campanha de Flávio, os advogados apontavam conteúdo com informação que já havia sido julgada desinformativa e proibida pelo TSE em decisões relativas a propaganda, proferidas pelos juízes Kassio Nunes Marques e André Mendonça.</p><p>A ação afirmava que conteúdos com fake news sobre Nossa Senhora, ligação de Flávio com milícias e lavagem de dinheiro na Kopenhagen, e cortes no INSS circulavam no canal.</p><p>No entanto, o jurídico de Flávio não anexou nenhum documento relativo a isso, sejam atas notariais ou registros digitais mostrando o conteúdo encontrado no canal.</p><h2>Falta de documentos levou o relator da ação,</h2><p>A falta de documentos levou o relator da ação, o corregedor-geral eleitoral Ricardo Cueva, a pedir mais esclarecimentos para a campanha e documentos mostrando a circulação do conteúdo no canal.</p><p>No entanto, 40 minutos após Cueva pedir esclarecimentos, a campanha de Flávio encaminhou pedido a Kassio, e juntou alguns documentos.</p><p>Nos anexos, juntaram uma página listando uma série de vídeos que Janones havia postado em seu perfil do Instagram, alguns dos quais versavam sobre temas já julgados e proibidos pelo TSE, e que tinham sido derrubados pela Meta.</p><p>Mas não havia nenhum anexo mostrando que esse conteúdo ou vídeos tinham sido encontrados no canal de Janones no WhatsApp. Ainda assim, Kassio mandou derrubar o canal.</p><p>A censura foi revertida por Cueva poucas horas depois e o canal voltou a funcionar.</p><p>No domingo (11), Kássio determinou que a Assessoria de Enfrentamento à Desinformação do TSE investigasse o conteúdo publicado no canal de \"Exército do Lula \".</p><p>Nesta segunda-feira (12), a assessoria de enfrentamento à desinformação do TSE, área técnica do tribunal, divulgou um relatório, que foi anexado à AIJE, afirmando não ter encontrado nenhum dos conteúdos alegados na ação de Flávio no canal de Janones .</p><p>\"Quanto à circulação de conteúdos idênticos ou substancialmente equivalentes, não foram localizadas, entre as publicações do canal no período de 2 a 11 de outubro de 2026, reproduções das afirmações examinadas nos autos\", diz o relatório assinado por Frederico Franco Alvim, Assessor Especial de Enfrentamento à Desinformação.</p><p>O relatório faz a ressalva de que conteúdos podem ter sido apagados.</p><p>A campanha de Flávio, no entanto, nunca apresentou provas documentais da presença dos conteúdos no canal de WhatsApp.</p><p>Procurada, a advogada da campanha de Flávio, Maria Claudia Bucchianneri, e a assessoria de imprensa do candidato não responderam a pedidos de esclarecimentos da Folha até a conclusão desta reportagem.</p><p>O avanço do canal de Janones, que chegou rapidamente a 3 milhões de usuários, tornou-se uma das apostas da campanha de Lula para mobilizar a tropa digital, área em que a direita costuma ter protagonismo.</p><p>Durante ato da esquerda na Paulista no domingo, Lula criticou a decisão de Kassio , que considerou \"absurda\", e disse estar \"desconfiado do comportamento da corte eleitoral\".</p><p>Ministros de uma ala do TSE disseram extraoficialmente neste domingo (11) haver indícios de engajamento de Kassio na campanha de Flávio Bolsonaro ( PL ) à Presidência da República.</p><p>Especialistas em direito eleitoral consultados pela reportagem também questionaram a postura do magistrado.</p><p>Mais de 180 reportagens e análises publicadas a cada dia. Um time com mais de 200 colunistas e blogueiros.</p><p>Um jornalismo profissional que fiscaliza o poder público, veicula notícias proveitosas e inspiradoras, faz contraponto à intolerância das redes sociais e traça uma linha clara entre verdade e mentira.</p><p>O presidente do Tribunal Superior Eleitoral, Kassio Nunes Marques , mandou censurar o canal de WhatsApp do deputado André Janones, o Exército do Lula , sem ter indícios ou documentos de que as fake news apontadas na ação da campanha de Flávio Bolsonaro circulavam no canal.</p><p>Na Ação de Investigação Judicial Eleitoral (AIJE) apresentada pela campanha de Flávio, os advogados apontavam conteúdo com informação que já havia sido julgada desinformativa e proibida pelo TSE em decisões relativas a propaganda, proferidas pelos juízes Kassio Nunes Marques e André Mendonça.</p><p>A ação afirmava que conteúdos com fake news sobre Nossa Senhora, ligação de Flávio com milícias e lavagem de dinheiro na Kopenhagen, e cortes no INSS circulavam no canal.</p><p>No entanto, o jurídico de Flávio não anexou nenhum documento relativo a isso, sejam atas notariais ou registros digitais mostrando o conteúdo encontrado no canal.</p><p>A falta de documentos levou o relator da ação, o corregedor-geral eleitoral Ricardo Cueva, a pedir mais esclarecimentos para a campanha e documentos mostrando a circulação do conteúdo no canal.</p><p>No entanto, 40 minutos após Cueva pedir esclarecimentos, a campanha de Flávio encaminhou pedido a Kassio, e juntou alguns documentos.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/kassio-censurou-canal-de-whatsapp-de-janones-sem-documentos-que-mostrassem-fake-news.shtml",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -383,472 +587,52 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O Ministério Público Federal (MPF) pediu à Justiça que desobrigue até 265 empresas de cumprir as exigências do novo marco do transporte interestadual de passageiros para conseguir explorar 325.409 mercados de ônibus no Brasil."
+            "resposta": "O presidente do Tribunal Superior Eleitoral, Kassio Nunes Marques , mandou censurar o canal de WhatsApp do deputado André Janones, o Exército do Lula , sem ter indícios ou documentos de que as fake news apontadas na ação da campanha de Flávio Bolsonaro circulavam no canal. Na Ação de Investigação Judicial Eleitoral (AIJE) apresentada pela campanha de Flávio,"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "As companhias apresentaram requerimentos à Agência Nacional de Transportes Terrestres (ANTT) antes de a norma entrar em vigor, em janeiro de 2024. Para a Procuradoria, devem ser aplicadas a elas as regras de uma resolução anterior, de 2015."
+            "resposta": "No entanto, o jurídico de Flávio não anexou nenhum documento relativo a isso, sejam atas notariais ou registros digitais mostrando o conteúdo encontrado no canal. A falta de documentos levou o relator da ação, o corregedor-geral eleitoral Ricardo Cueva, a pedir mais esclarecimentos para a campanha e documentos mostrando a circulação do conteúdo no canal."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A manifestação foi enviada no último dia 29 ao Tribunal Regional Federal da Primeira Região (TRF-1), que julgará um incidente de resolução de demandas repetitivas sobre o assunto. É um tipo de processo para resolver, a partir de uma só decisão, múltiplos casos que contêm a mesma controvérsia."
+            "resposta": "No entanto, 40 minutos após Cueva pedir esclarecimentos, a campanha de Flávio encaminhou pedido a Kassio, e juntou alguns documentos."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A ação foi apresentada pela Advocacia-Geral da União (AGU), representante da agência, para a qual o novo marco deve valer para todos os requerimentos pendentes."
+            "resposta": "Nos anexos, juntaram uma página listando uma série de vídeos que Janones havia postado em seu perfil do Instagram, alguns dos quais versavam sobre temas já julgados e proibidos pelo TSE, e que tinham sido derrubados pela Meta. Mas não havia nenhum anexo mostrando que esse conteúdo ou vídeos tinham sido encontrados no canal de Janones no WhatsApp. Ainda assim"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Segundo a AGU, cerca de 300 processos judiciais contestam a aplicação da norma de 2024. Na ANTT, são 1.832 requerimentos referentes aos 325.409 mercados de ônibus. Nesse contexto, esses mercados correspondem a trechos entre duas cidades ou a determinado par origem-destino de uma rota. Uma única linha interestadual pode, portanto, abranger diversos deles."
+            "resposta": "A censura foi revertida por Cueva poucas horas depois e o canal voltou a funcionar."
           }
         ],
-        "imagemOriginal": "https://i.metroimg.com/gcaq0hmyzBwBPhc9Yog-Sp-fB0FzfwKXpW0K0Ou6rbA/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/procuradoria-regional-federal-da-primeira-regiao-mpf.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/mpf-pede-a-justica-para-isentar-ate-265-empresas-de-onibus-de-norma-da-antt.jpg",
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/12/17918242406acd1170bd75a_1791824240_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/kassio-censurou-canal-de-whatsapp-de-janones-sem-documentos-mostrando-presenca-de-fake-new.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "1a3d363ff179e0c7",
-      "titulo": "Detento em saída temporária é morto a tiros na Serra",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/detento-em-saida-temporaria-e-morto-a-tiros-na-serra-1026",
-      "dataFonte": "2026-10-12T16:41:49.000Z",
-      "resumoFonte": "Segundo a Sejus, Henrique cumpria pena na Casa de Custódia de Vila Velha, no regime semiaberto, tinha recebido o benefício de saída temporária na última semana",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1791812990500_template_radar_a_gazeta_19.jpg",
-      "descobertaEm": "2026-10-12T17:18:14.023Z",
-      "reportagem": {
-        "titulo": "Detento em saída temporária é morto a tiros na Serra",
-        "slug": "detento-em-saida-temporaria-e-morto-a-tiros-na-serra",
-        "categoria": "Segurança Pública",
-        "data": "2026-10-12",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/detento-em-saida-temporaria-e-morto-a-tiros-na-serra.jpg",
-        "resumo": "Segundo a Sejus, Henrique cumpria pena na Casa de Custódia de Vila Velha, no regime semiaberto, tinha recebido o benefício de saída temporária na última semana",
-        "conteudo": "<p>Um homem de 30 anos foi morto a tiros na Praça Encontro das Águas, em Jacaraípe, na Serra , na noite de domingo (11) . O corpo de Henrique Valandro de Oliveira foi encontrado pela Polícia Militar em uma ponte da região.</p><h2>Henrique estava com a companheira quando dois suspeitos</h2><p>De acordo com informações apuradas pela polícia, Henrique estava com a companheira quando dois suspeitos se aproximaram. Um deles, que aparentava ser menor de idade, teria atirado contra a vítima. A dupla fugiu em seguida.</p><p>Os policiais militares abasteciam uma viatura em um posto de combustíveis próximo quando ouviram os disparos e foram até o local. Henrique apresentava perfurações de tiro na cabeça, no peito e no braço.</p><h2>Testemunhas reconheceram o comparsa do atirador e informaram à</h2><p>Testemunhas reconheceram o comparsa do atirador e informaram à PM que seria da região de Terereco. Ele teria atraído a vítima para o local em uma emboscada. O caso será investigado pela Polícia Civil.</p><p>Segundo a Secretaria de Estado da Justiça ( Sejus ), Henrique cumpria pena por homicídio desde 2020 e estava na Casa de Custódia de Vila Velha, no regime semiaberto. Ele tinha recebido o benefício de saída temporária na última semana.</p><p>(Com informações do repórter André Afonso, da TV Gazeta)</p><p>Um homem de 30 anos foi morto a tiros na Praça Encontro das Águas, em Jacaraípe, na Serra , na noite de domingo (11)</p>",
-        "fonteNome": "A Gazeta - Polícia",
-        "fonteUrl": "https://www.agazeta.com.br/es/policia/detento-em-saida-temporaria-e-morto-a-tiros-na-serra-1026",
-        "fontesAdicionais": [
-          {
-            "nome": "SESP-ES",
-            "url": "https://sesp.es.gov.br/Noticias"
-          },
-          {
-            "nome": "Polícia Civil do ES",
-            "url": "https://pc.es.gov.br/Noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Um homem de 30 anos foi morto a tiros na Praça Encontro das Águas, em Jacaraípe, na Serra , na noite de domingo (11) . O corpo de Henrique Valandro de Oliveira foi encontrado pela Polícia Militar em uma ponte da região."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "De acordo com informações apuradas pela polícia, Henrique estava com a companheira quando dois suspeitos se aproximaram. Um deles, que aparentava ser menor de idade, teria atirado contra a vítima. A dupla fugiu em seguida."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Os policiais militares abasteciam uma viatura em um posto de combustíveis próximo quando ouviram os disparos e foram até o local. Henrique apresentava perfurações de tiro na cabeça, no peito e no braço."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Testemunhas reconheceram o comparsa do atirador e informaram à PM que seria da região de Terereco. Ele teria atraído a vítima para o local em uma emboscada. O caso será investigado pela Polícia Civil."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Segundo a Secretaria de Estado da Justiça ( Sejus ), Henrique cumpria pena por homicídio desde 2020 e estava na Casa de Custódia de Vila Velha, no regime semiaberto. Ele tinha recebido o benefício de saída temporária na última semana."
-          }
-        ],
-        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1791812990500_template_radar_a_gazeta_19.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/detento-em-saida-temporaria-e-morto-a-tiros-na-serra.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "85288d3cb1808601",
-      "titulo": "MP das bets pode caducar ou ser derrubada por Fux, diz associação",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Poder360",
-      "urlFonte": "https://www.poder360.com.br/poder-congresso/mp-das-bets-pode-caducar-ou-ser-derrubada-por-fux-diz-associacao/",
-      "dataFonte": "2026-10-12T16:00:52.000Z",
-      "resumoFonte": "Diretor-executivo da Associação pelo Livre Mercado afirma que Congresso está preocupado com a segurança jurídica. Leia no Poder360.",
-      "imagem": "https://static.poder360.com.br/uploads/2026/10/Design-sem-nome-72-1200x675.jpg",
-      "descobertaEm": "2026-10-12T16:18:07.808Z",
-      "reportagem": {
-        "titulo": "MP das bets pode caducar ou ser derrubada por Fux, diz associação",
-        "slug": "mp-das-bets-pode-caducar-ou-ser-derrubada-por-fux-diz-associacao",
-        "categoria": "Política Nacional",
-        "data": "2026-10-12",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mp-das-bets-pode-caducar-ou-ser-derrubada-por-fux-diz-associacao.jpg",
-        "resumo": "Diretor-executivo da Associação pelo Livre Mercado afirma que Congresso está preocupado com a segurança jurídica. Leia no Poder360.",
-        "conteudo": "<p>Diretor-executivo da Associação pelo Livre Mercado, Paulo Ganime, afirma que Congresso está preocupado com a segurança jurídica</p><h2>Diretor-executivo da Associação pelo Livre Mercado, Paulo Ganime, disse</h2><p>O diretor-executivo da Associação pelo Livre Mercado, Paulo Ganime, disse ao Poder360 que a MP (Medida Provisória) que proibiu as bets no Brasil poderá ser derrubada pelo ministro Luiz Fux, do Supremo Tribunal Federal, ou perder a validade no Congresso Nacional.</p><p>Na avaliação de Ganime, o Congresso está preocupado com os efeitos da medida sobre a segurança jurídica de setores que mantinham contratos com empresas de apostas, como clubes de futebol e emissoras de rádio e TV.</p><p>A Associação pelo Livre Mercado é o braço técnico permanente da Frente Parlamentar pelo Livre Mercado.</p><h2>Para Ganime, mesmo congressistas contrários à atuação das casas</h2><p>Para Ganime, mesmo congressistas contrários à atuação das casas de apostas ficaram incomodados com a forma como a proibição foi implementada, sem período de transição para as empresas e os setores afetados.</p><p>“As empresas não estavam preparadas para essa medida, sem regras de transição. Imagine um campeonato de futebol com times da América Latina, não será possível ter jogo no Brasil porque os times dos países vizinhos têm propaganda de bets nos uniformes?</p><p>Os jogos transmitidos em outros países não serão transmitidos no Brasil?” , disse.</p><p>Ganime afirmou que uma regulamentação mais rígida seria, na avaliação da associação, uma alternativa à proibição. Segundo ele, a MP pode favorecer a atuação de plataformas clandestinas.</p><p>“Proibir a atuação das casas de apostas vai abrir brecha para o aumento da atuação das bets clandestinas” , declarou.</p><p>O ministro Luiz Fux é o relator no STF de ações que questionam a legislação das bets e recebeu pedidos para suspender os efeitos da MP.</p><p>A ANJL (Associação Nacional de Jogos e Loterias) e o IBJR (Instituto Brasileiro de Jogo Responsável) pediram a suspensão da medida e argumentaram que a proibição ocorreu de forma abrupta.</p><p>A AGU (Advocacia Geral da União), por outro lado, pediu a Fux que mantenha a proibição .</p><p>O órgão também solicitou que o ministro aguarde a manifestação da PGR (Procuradoria Geral da República) antes de decidir sobre os pedidos de suspensão e sugeriu a realização de uma nova audiência pública sobre o tema.</p><p>Segundo a AGU, os atendimentos do SUS (Sistema Único de Saúde) relacionados a transtornos de jogo patológico e mania de apostas aumentaram 140% entre 2018 e 2025.</p><p>O órgão também citou estimativa do IEPS (Instituto de Estudos para Políticas de Saúde) de R$ 30,6 bilhões em custos sociais e de saúde relacionados ao jogo problemático.</p><p>O órgão também argumentou que o modelo anterior de regulamentação não foi suficiente para conter os efeitos associados às apostas.</p><p>Segundo o órgão, a plataforma oficial de autoexclusão acumulou mais de 1,29 milhão de inscritos, dos quais 36,41% apontaram perda de controle financeiro como motivo para o bloqueio.</p><p>Para Ganime, o cenário mais provável é que o Congresso deixe a medida provisória perder a validade, em vez de aprovar a proibição.</p><p>Um segundo cenário, considerado por ele menos provável, seria a derrubada da MP pelo Congresso, seguida da discussão de um projeto de lei sobre o tema.</p><p>“O projeto de lei é formato ideal para analisar esse tipo de tema” , disse.</p><p>A MP tem força de lei desde sua publicação, mas precisa ser analisada pelo Congresso dentro do prazo constitucional para continuar em vigor. Enquanto isso, os efeitos da proibição seguem valendo.</p><p>As plataformas tiveram até 5 de outubro para permitir o resgate voluntário de valores pelos usuários e começaram a sair do ar em 6 de outubro.</p><p>MP das bets pode caducar ou ser derrubada por Fux, diz associação Diretor-executivo da Associação pelo Livre Mercado, Paulo Ganime, afirma que Congresso está preocupado com a segurança jurídica --> copiar link --></p>",
-        "fonteNome": "Poder360",
-        "fonteUrl": "https://www.poder360.com.br/poder-congresso/mp-das-bets-pode-caducar-ou-ser-derrubada-por-fux-diz-associacao/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Diretor-executivo da Associação pelo Livre Mercado, Paulo Ganime, afirma que Congresso está preocupado com a segurança jurídica"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O diretor-executivo da Associação pelo Livre Mercado, Paulo Ganime, disse ao Poder360 que a MP (Medida Provisória) que proibiu as bets no Brasil poderá ser derrubada pelo ministro Luiz Fux, do Supremo Tribunal Federal, ou perder a validade no Congresso Nacional."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na avaliação de Ganime, o Congresso está preocupado com os efeitos da medida sobre a segurança jurídica de setores que mantinham contratos com empresas de apostas, como clubes de futebol e emissoras de rádio e TV."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A Associação pelo Livre Mercado é o braço técnico permanente da Frente Parlamentar pelo Livre Mercado. Para Ganime, mesmo congressistas contrários à atuação das casas de apostas ficaram incomodados com a forma como a proibição foi implementada, sem período de transição para as empresas e os setores afetados."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "“As empresas não estavam preparadas para essa medida, sem regras de transição. Imagine um campeonato de futebol com times da América Latina, não será possível ter jogo no Brasil porque os times dos países vizinhos têm propaganda de bets nos uniformes? Os jogos transmitidos em outros países não serão transmitidos no Brasil?” , disse."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/Design-sem-nome-72-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/mp-das-bets-pode-caducar-ou-ser-derrubada-por-fux-diz-associacao.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "c32bc8a3377f73ee",
-      "titulo": "Economia da Argentina deve se recuperar lentamente em 2027 e desafiar Milei",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mundo/economia-da-argentina-deve-se-recuperar-lentamente-em-2027-e-desafiar-milei/",
-      "dataFonte": "2026-10-12T16:19:53.000Z",
-      "resumoFonte": "Javier Milei Photographer: Eva Marie Uzcategui/Bloomberg \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2025/11/444112761.jpg?fit=1280%2C853&quality=70&strip=all\" />Essas ‌perspectivas desanimadoras podem se tornar um grande desafio para o presidente Javier Milei, que busca consolidar apoio político para sua candidatura à…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2025/11/444112761.jpg",
-      "descobertaEm": "2026-10-12T16:18:07.808Z",
-      "reportagem": {
-        "titulo": "Economia da Argentina deve se recuperar lentamente em 2027 e desafiar Milei",
-        "slug": "economia-da-argentina-deve-se-recuperar-lentamente-em-2027-e-desafiar-milei",
-        "categoria": "Economia",
-        "data": "2026-10-12",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/economia-da-argentina-deve-se-recuperar-lentamente-em-2027-e-desafiar-milei.jpg",
-        "resumo": "Essas ‌perspectivas desanimadoras podem se tornar um grande desafio para o presidente Javier Milei, que busca consolidar apoio político para sua candidatura à reeleição nas eleições nacionais do ano que vem",
-        "conteudo": "<p>BUENOS AIRES, 12 Out (Reuters) – A economia da Argentina ⁠deve se recuperar lentamente à medida que o país se aproxima do ⁠ano eleitoral de 2027, após provavelmente entrar em recessão no terceiro trimestre, segundo uma pesquisa da Reuters ‌com analistas.</p><h2>No entanto, os setores de manufatura e comércio</h2><p>No entanto, os setores de manufatura e comércio em Buenos Aires, o motor econômico do país, provavelmente permanecerão fracos, ficando ainda mais para trás em relação à produção de commodities em franca expansão em outras províncias.</p><p>Essas ‌perspectivas desanimadoras podem se tornar um grande desafio para o presidente Javier Milei, que busca consolidar apoio político para sua candidatura à reeleição nas eleições nacionais do ano que vem.</p><p>Analistas estimam que o produto interno bruto cresça 2,6% no próximo ano, após alta prevista de 1,9% em 2026, de acordo com a mediana das previsões de 32 economistas consultados entre 5 e 8 de outubro.</p><h2>Em postagens no Instagram e no X, Lula associou</h2><p>Em postagens no Instagram e no X, Lula associou o adversário ao que classificou como ‘modelo da direita’ e afirmou que o Brasil correria o risco de ‘virar uma Argentina’ caso Flávio chegue ao Planalto</p><p>Essa foi uma revisão para baixo em relação ao crescimento esperado de 3% para ambos ⁠os ‌anos na pesquisa trimestral de julho, quando os analistas não conseguiram prever uma grande queda naquele mês. Os ⁠dados oficiais do PIB do terceiro trimestre serão divulgados em dezembro.</p><p>Em termos ajustados sazonalmente, o PIB argentino caiu 0,6% no período de abril a junho em relação ao primeiro trimestre, a primeira contração trimestral após crescimento de 0,7% no período de janeiro a março.</p><p>“Parece praticamente impossível que o terceiro trimestre não apresente uma queda, o que significa que a economia estará em recessão técnica este ano”, disse Juan ​Pablo Rotger, analista macroeconômico do Grupo Mariva.</p><p>“Estamos voltando a um ciclo expansionista no quarto trimestre; o crédito parece dar sinais de recuperação, impulsionado pelas hipotecas, e os empréstimos estão se recuperando ligeiramente, embora o crédito ao ​consumidor ainda esteja ficando para trás.”</p><p>Os gastos das famílias também têm sido contidos por tendências inflacionárias desafiadoras.</p><p>Analistas estimam que o índice de preços ao consumidor suba 22,8% em média em 2027, desacelerando em relação ao aumento esperado de 32,1% neste ano.</p><p>Isso impulsionará ainda mais a iniciativa de Milei de reduzir a inflação, que estava em mais de 200% quando ele assumiu o cargo no final de 2023, por meio do corte drástico dos gastos ‌públicos para diminuir a emissão de dinheiro.</p><p>No entanto, uma trajetória acima de 20% ​ainda é difícil de suportar para muitos trabalhadores e pequenas empresas cujas rendas estagnaram nos últimos anos, especialmente em Buenos Aires.</p><p>A recessão na capital, já confirmada pelas estatísticas locais, contrasta fortemente com o crescimento dos investimentos e das exportações que beneficiam outras províncias ricas em ⁠petróleo e gás, recursos minerários e agricultura.</p><p>Os economistas, ​em geral, continuam otimistas, afirmando ​que os resultados das reformas de Milei devem se tornar mais visíveis antes da eleição presidencial de outubro de 2027.</p><p>“As autoridades têm feito um ⁠bom trabalho para garantir estabilidade em 2027 do ponto de ​vista cambial e sustentar a desinflação com salários reais em níveis melhores”, disse Fernando Sedano, economista-chefe para a América Latina (exceto Brasil) do Morgan Stanley.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mundo/economia-da-argentina-deve-se-recuperar-lentamente-em-2027-e-desafiar-milei/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "BUENOS AIRES, 12 Out (Reuters) – A economia da Argentina ⁠deve se recuperar lentamente à medida que o país se aproxima do ⁠ano eleitoral de 2027, após provavelmente entrar em recessão no terceiro trimestre, segundo uma pesquisa da Reuters ‌com analistas."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "No entanto, os setores de manufatura e comércio em Buenos Aires, o motor econômico do país, provavelmente permanecerão fracos, ficando ainda mais para trás em relação à produção de commodities em franca expansão em outras províncias."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Essas ‌perspectivas desanimadoras podem se tornar um grande desafio para o presidente Javier Milei, que busca consolidar apoio político para sua candidatura à reeleição nas eleições nacionais do ano que vem."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Analistas estimam que o produto interno bruto cresça 2,6% no próximo ano, após alta prevista de 1,9% em 2026, de acordo com a mediana das previsões de 32 economistas consultados entre 5 e 8 de outubro."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Em postagens no Instagram e no X, Lula associou o adversário ao que classificou como ‘modelo da direita’ e afirmou que o Brasil correria o risco de ‘virar uma Argentina’ caso Flávio chegue ao Planalto"
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2025/11/444112761.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/economia-da-argentina-deve-se-recuperar-lentamente-em-2027-e-desafiar-milei.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "a909ff7e10ea648f",
-      "titulo": "Diesel russo volta à rota do Brasil após acordo entre Trump e Putin",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/economia/diesel-russo-volta-a-rota-do-brasil-apos-acordo-entre-trump-e-putin/",
-      "dataFonte": "2026-10-12T16:00:10.000Z",
-      "resumoFonte": "Mercado já registra navio com chegada prevista a Santos e oferta de combustível para Paranaguá; movimento ocorre em meio à crise internacional",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2025/01/precos-gasolina-diesel-reajuste-defasagem-posto-combustiveis-anp-lula-petrobras.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-10-12T16:18:07.808Z",
-      "reportagem": {
-        "titulo": "Diesel russo volta à rota do Brasil após acordo entre Trump e Putin",
-        "slug": "diesel-russo-volta-a-rota-do-brasil-apos-acordo-entre-trump-e-putin",
-        "categoria": "Economia",
-        "data": "2026-10-12",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/diesel-russo-volta-a-rota-do-brasil-apos-acordo-entre-trump-e-putin.jpg",
-        "resumo": "Mercado já registra navio com chegada prevista a Santos e oferta de combustível para Paranaguá; movimento ocorre em meio à crise internacional",
-        "conteudo": "<p>O diesel russo est&aacute; de volta &agrave; rota de importa&ccedil;&atilde;o do Brasil.</p><h2>Navio transportando combust&iacute;vel de origem russa j&aacute;</h2><p>Um navio transportando combust&iacute;vel de origem russa j&aacute; tem atraca&ccedil;&atilde;o prevista no porto de Santos, enquanto uma nova oferta para entrega em Paranagu&aacute;, no Paran&aacute;, no in&iacute;cio de novembro, foi identificada pela S&amp;P Global Platts.</p><p>O movimento ocorre em meio &agrave; reviravolta promovida por Donald Trump, que fechou um acordo com Vladimir Putin para ampliar o fornecimento de diesel russo ao mercado internacional.</p><p>Segundo levantamento da Platts divulgado na sexta-feira, 9, o diesel S10 russo foi oferecido para entrega em Paranagu&aacute; com pre&ccedil;o vinculado &agrave; cota&ccedil;&atilde;o americana de dezembro, acrescida de 10 centavos de d&oacute;lar por gal&atilde;o.</p><h2>Relat&oacute;rio tamb&eacute;m aponta a retomada dos fluxos do combust&iacute;vel</h2><p>O relat&oacute;rio tamb&eacute;m aponta a retomada dos fluxos do combust&iacute;vel russo ao Brasil, com uma embarca&ccedil;&atilde;o confirmada na programa&ccedil;&atilde;o de Santos.</p><p>Os volumes e compradores das cargas ainda n&atilde;o foram identificados.</p><p>O retorno das ofertas acontece ap&oacute;s meses de forte depend&ecirc;ncia do diesel americano.</p><p>Com a redu&ccedil;&atilde;o das exporta&ccedil;&otilde;es russas, afetadas por ataques &agrave;s refinarias e restri&ccedil;&otilde;es impostas por Moscou, os Estados Unidos passaram a responder por cerca de 80% do diesel importado pelo Brasil em setembro, segundo representantes do setor.</p><p>Na sexta-feira, Trump anunciou um entendimento com Putin para liberar at&eacute; 4,8 milh&otilde;es de toneladas de diesel russo ao mercado mundial, em diferentes etapas.</p><p>O governo americano tamb&eacute;m suspendeu temporariamente determinadas san&ccedil;&otilde;es sobre transa&ccedil;&otilde;es com o combust&iacute;vel, por meio de autoriza&ccedil;&atilde;o v&aacute;lida at&eacute; abril de 2027.</p><p>A mudan&ccedil;a ocorre justamente quando o governo brasileiro anunciou uma subven&ccedil;&atilde;o adicional de R$ 1,40 por litro de diesel importado, elevando para at&eacute; R$ 3,52 por litro o aux&iacute;lio previsto para opera&ccedil;&otilde;es enquadradas nas regras do programa.</p><p>A medida, com dura&ccedil;&atilde;o anunciada de 30 dias, pretende assegurar o abastecimento diante da press&atilde;o internacional sobre a oferta.</p><p>Ainda n&atilde;o h&aacute; confirma&ccedil;&atilde;o de que as opera&ccedil;&otilde;es identificadas pela Platts tenham sido contratadas em decorr&ecirc;ncia do acordo entre Washington e Moscou.</p><p>Mas a retomada dos fluxos russos oferece uma alternativa ao mercado brasileiro, em um momento de disputa internacional pelo combust&iacute;vel.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/economia/diesel-russo-volta-a-rota-do-brasil-apos-acordo-entre-trump-e-putin/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O diesel russo est&aacute; de volta &agrave; rota de importa&ccedil;&atilde;o do Brasil. Um navio transportando combust&iacute;vel de origem russa j&aacute; tem atraca&ccedil;&atilde;o prevista no porto de Santos, enquanto uma nova oferta para entrega em Paranagu&aacute;, no Paran&aacute;, no in&iacute;cio de novembro, foi identificada pela S&amp;P Global Pl"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Segundo levantamento da Platts divulgado na sexta-feira, 9, o diesel S10 russo foi oferecido para entrega em Paranagu&aacute; com pre&ccedil;o vinculado &agrave; cota&ccedil;&atilde;o americana de dezembro, acrescida de 10 centavos de d&oacute;lar por gal&atilde;o. O relat&oacute;rio tamb&eacute;m aponta a retomada dos fluxos do combust&iacute;vel russo ao B"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O retorno das ofertas acontece ap&oacute;s meses de forte depend&ecirc;ncia do diesel americano. Com a redu&ccedil;&atilde;o das exporta&ccedil;&otilde;es russas, afetadas por ataques &agrave;s refinarias e restri&ccedil;&otilde;es impostas por Moscou, os Estados Unidos passaram a responder por cerca de 80% do diesel importado pelo Brasil em setembro, segund"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Na sexta-feira, Trump anunciou um entendimento com Putin para liberar at&eacute; 4,8 milh&otilde;es de toneladas de diesel russo ao mercado mundial, em diferentes etapas. O governo americano tamb&eacute;m suspendeu temporariamente determinadas san&ccedil;&otilde;es sobre transa&ccedil;&otilde;es com o combust&iacute;vel, por meio de autoriza&ccedil;&atilde;o"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A mudan&ccedil;a ocorre justamente quando o governo brasileiro anunciou uma subven&ccedil;&atilde;o adicional de R$ 1,40 por litro de diesel importado, elevando para at&eacute; R$ 3,52 por litro o aux&iacute;lio previsto para opera&ccedil;&otilde;es enquadradas nas regras do programa. A medida, com dura&ccedil;&atilde;o anunciada de 30 dias, pretende assegur"
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2025/01/precos-gasolina-diesel-reajuste-defasagem-posto-combustiveis-anp-lula-petrobras.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/diesel-russo-volta-a-rota-do-brasil-apos-acordo-entre-trump-e-putin.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "1d33069d3f342872",
-      "titulo": "Arcebispo de Aparecida critica confrontos e pede ‘paz desarmada e desarmante’",
-      "categoria": "Fé e Sociedade",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/brasil/arcebispo-de-aparecida-critica-confrontos-e-pede-paz-desarmada-e-desarmante/",
-      "dataFonte": "2026-10-12T15:59:37.000Z",
-      "resumoFonte": "Dom Mário Antônio da Silva ressaltou que os ensinamentos cristãos não podem ser utilizados para justificar a intolerância e a violência",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/AGF20261012337.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-12T16:18:07.808Z",
-      "reportagem": {
-        "titulo": "Arcebispo de Aparecida critica confrontos e pede ‘paz desarmada e desarmante’ | Jovem Pan",
-        "slug": "arcebispo-de-aparecida-critica-confrontos-e-pede-paz-desarmada-e-desarmante-jovem-pan",
-        "categoria": "Fé e Sociedade",
-        "data": "2026-10-12",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/arcebispo-de-aparecida-critica-confrontos-e-pede-paz-desarmada-e-desarmante-jovem-pan.jpg",
-        "resumo": "Dom Mário Antônio da Silva ressaltou que os ensinamentos cristãos não podem ser utilizados para justificar a intolerância e a violência",
-        "conteudo": "<p>Milhares de fiéis acompanharam nesta segunda-feira (12), a missa solene em homenagem a Nossa Senhora Aparecida , padroeira do Brasil, no Santuário Nacional, em Aparecida, no interior de São Paulo.</p><h2>Durante a celebração, o arcebispo de Aparecida, dom Mário</h2><p>Durante a celebração, o arcebispo de Aparecida, dom Mário Antônio da Silva, fez um apelo pela paz e criticou as divisões e os confrontos, afirmando que o Evangelho “não autoriza o ódio contra quem pensa diferente.”</p><p>Em sua homilia, o religioso defendeu a construção de uma paz baseada no diálogo e na superação das diferenças, fazendo referência à mensagem do papa Leão XIV</p><p>“Sabemos que Jesus manda construir a paz. E, aqui, escutando o papa Leão XIV, u ma paz desarmada e desarmante . Mas muitas vezes alimentamos divisões com armamentos, com guerras e tantos confrontos entre nós”, afirmou.</p><h2>Na sequência, o arcebispo ressaltou que os ensinamentos cristãos</h2><p>Na sequência, o arcebispo ressaltou que os ensinamentos cristãos não podem ser utilizados para justificar a intolerância e a violência .</p><p>“O Evangelho, queridos irmãos e irmãs, não nos autoriza a odiar quem pensa diferente, nem a matar os inimigos . O Evangelho, sim, nos autoriza a construir pontes onde alguém abre precipícios, ou túneis onde alguém perde Deus”, disse.</p><p>Ao abordar a devoção à padroeira do Brasil, dom Mário Antônio recordou a descoberta da imagem de Nossa Senhora Aparecida por pescadores nas águas do Rio Paraíba do Sul, em 1717.</p><p>O arcebispo relacionou a história da santa aos desafios enfrentados atualmente pelo país e pediu maior compromisso com o bem comum .</p><p>“Que Nossa Senhora Aparecida, encontrada nas águas do Paraíba do Sul em 1717, continue encontrando o Brasil nas águas turvas do nosso tempo, para que cresça em nós o compromisso de cuidar da nossa pátria como um jardim que Deus criou para todos”, declarou</p><p>O religioso também destacou o significado da pequena imagem para os milhões de brasileiros que recorrem à padroeira em momentos de dificuldade. Segundo ele, a Igreja é formada por pessoas que enfrentam desafios, conflitos e sofrimentos, mas que permanecem unidas pela fé.</p><p>“Justamente esta pequena imagem se tornou um grande sinal de esperança e ternura para milhões de brasileiros e brasileiras. Aparecida nos recorda que a Igreja não é uma comunidade de perfeitos, é uma comunidade de peregrinos”, afirmou.</p><p>“Somos gente que enfrenta tempestades, dificuldades, divisões, dragões, perigos, sofrimentos, mas que continua caminhando no seguimento ao Cristo, cordeiro imolado por nós e Redentor de toda a humanidade”, acrescentou.</p><p>A missa solene contou com a presença de autoridades políticas, entre elas o vice-presidente da República, Geraldo Alckmin (PSB), o ministro da Saúde, Alexandre Padilha, o presidente nacional do PSD, Gilberto Kassab, e a deputada federal Tabata Amaral (PSB) .</p><p>Católico, Alckmin costuma ir à cidade do interior de São Paulo na data religiosa , mas neste ano a visita é reforçada pelo fato de o tema de Nossa Senhora ter virado assunto de propaganda eleitora l.</p><p>A celebração integra a programação da Festa da Padroeira, que reúne milhares de romeiros de diferentes regiões do País no Santuário Nacional de Aparecida, um dos principais destinos de peregrinação católica do Brasil.</p><p>Dom Mário Antônio da Silva ressaltou que os ensinamentos cristãos não podem ser utilizados para justificar a intolerância e a violência</p><p>Dia das Crianças: veja como fica o tempo no feriado</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/brasil/arcebispo-de-aparecida-critica-confrontos-e-pede-paz-desarmada-e-desarmante/",
-        "fontesAdicionais": [
-          {
-            "nome": "Igreja Cristã Maranata",
-            "url": "https://www.igrejacristamaranata.org.br/"
-          },
-          {
-            "nome": "Convenção Batista do ES",
-            "url": "https://www.batistas.es/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Milhares de fiéis acompanharam nesta segunda-feira (12), a missa solene em homenagem a Nossa Senhora Aparecida , padroeira do Brasil, no Santuário Nacional, em Aparecida, no interior de São Paulo."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Durante a celebração, o arcebispo de Aparecida, dom Mário Antônio da Silva, fez um apelo pela paz e criticou as divisões e os confrontos, afirmando que o Evangelho “não autoriza o ódio contra quem pensa diferente.”"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Em sua homilia, o religioso defendeu a construção de uma paz baseada no diálogo e na superação das diferenças, fazendo referência à mensagem do papa Leão XIV"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "“Sabemos que Jesus manda construir a paz. E, aqui, escutando o papa Leão XIV, u ma paz desarmada e desarmante . Mas muitas vezes alimentamos divisões com armamentos, com guerras e tantos confrontos entre nós”, afirmou."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Na sequência, o arcebispo ressaltou que os ensinamentos cristãos não podem ser utilizados para justificar a intolerância e a violência ."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/AGF20261012337.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/arcebispo-de-aparecida-critica-confrontos-e-pede-paz-desarmada-e-desarmante-jovem-pan.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "084028dc6c109d38",
-      "titulo": "Após Moraes liberar, Flávio afirma que visitará Jair na 3ª feira",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-justica/apos-moraes-liberar-flavio-afirma-que-visitara-jair-na-3a-feira/",
-      "dataFonte": "2026-10-12T17:00:24.000Z",
-      "resumoFonte": "Candidato a presidente disse estar \"ansioso\" para ver o pai e não comentou os temas que quer tratar; também criticou medidas do STF",
-      "imagem": "https://static.poder360.com.br/uploads/2026/10/Flavio-Bolsonaro-Nossa-Senhora-Aparecida-Brasilia-eleicoes-12-out-2026-23-1200x675.jpg",
-      "descobertaEm": "2026-10-12T17:18:14.023Z",
-      "reportagem": {
-        "titulo": "Após Moraes liberar, Flávio afirma que visitará Jair na 3ª feira",
-        "slug": "apos-moraes-liberar-flavio-afirma-que-visitara-jair-na-3-feira",
-        "categoria": "Justiça",
-        "data": "2026-10-12",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/apos-moraes-liberar-flavio-afirma-que-visitara-jair-na-3-feira.jpg",
-        "resumo": "Candidato a presidente disse estar &quot;ansioso&quot; para ver o pai e não comentou os temas que quer tratar. Leia no Poder360.",
-        "conteudo": "<p>Candidato a presidente disse estar “ansioso” para ver o pai e não comentou os temas que quer tratar; também criticou medidas do STF</p><h2>Candidato à Presidência Flávio Bolsonaro (PL) declarou que visitará</h2><p>O candidato à Presidência Flávio Bolsonaro (PL) declarou que visitará o pai, o ex-presidente Jair Bolsonaro (PL), que cumpre prisão domiciliar em Brasília, na manhã de 3ª feira (13.out.2026).</p><p>O senador declarou estar “ansioso” pelo encontro e não detalhou aos jornalistas quais assuntos pretende tratar com o pai.</p><p>Flávio falou com a imprensa nesta 2ª feira (12.out), depois de participar de uma missa na Catedral Metropolitana Nossa Senhora Aparecida, em Brasília, em celebração ao dia da invocação da Virgem Maria.</p><h2>Questionado se conversaria com o pai sobre sua campanha</h2><p>Questionado se conversaria com o pai sobre sua campanha no 2º turno contra o presidente Luiz Inácio Lula da Silva (PT), Flávio disse que precisa “tomar cuidado com as palavras” .</p><p>Criticou decisões judiciais do STF (Supremo Tribunal Federal) que, segundo ele, não têm amparo legal e visam a “separar um líder político de um candidato. E, mais importante, um pai de um filho”.</p><p>A declaração foi uma referência às restrições impostas pelo ministro Alexandre de Moraes , do STF, às visitas e às manifestações políticas de Jair.</p><p>Na decisão que permitiu a retomada das visitas , Moraes manteve a proibição de encontros com finalidade político-eleitoral e de divulgação de manifestações ou declarações de Jair, inclusive por terceiros.</p><p>As visitas estavam suspensas desde julho, depois que Flávio publicou nas redes sociais uma carta escrita pelo pai, contrariando restrições impostas ao ex-presidente.</p><p>Durante a conversa com jornalistas, Flávio disse que reza para que os brasileiros renovem a fé. O senador associou a celebração à esperança para o futuro do país e à sua vitória eleitoral sobre Lula.</p><p>O filho 01 de Bolsonaro terminou o 1º turno à frente do petista, com 56,1 milhões de votos (47,03%), contra 53,9 milhões (45,16%).</p><p>O candidato estava acompanhado da mulher, Fernanda Bolsonaro, e do deputado federal Alfredo Gaspar (PL-AL), candidato a vice-presidente em sua chapa. Também participaram a economista Daniella Marques e o senador Izalci Lucas (PL-DF).</p><p>A participação de Flávio na celebração se deu semanas depois de a campanha ser envolvida em uma polêmica sobre Nossa Senhora Aparecida.</p><p>Publicações nas redes sociais diziam que o candidato pretendia retirar da invocação da Virgem Maria o título de padroeira do Brasil caso fosse eleito.</p><p>A alegação, porém, não se mostra verdadeira e o projeto de lei arquivado que pretendia retirar o título não tem relação com o senador.</p><p>Após Moraes liberar, Flávio afirma que visitará Jair na 3ª feira Candidato a presidente disse estar “ansioso” para ver o pai e não comentou os temas que quer tratar; também criticou medidas do STF --> copiar link --></p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-justica/apos-moraes-liberar-flavio-afirma-que-visitara-jair-na-3a-feira/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Candidato a presidente disse estar “ansioso” para ver o pai e não comentou os temas que quer tratar; também criticou medidas do STF"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O candidato à Presidência Flávio Bolsonaro (PL) declarou que visitará o pai, o ex-presidente Jair Bolsonaro (PL), que cumpre prisão domiciliar em Brasília, na manhã de 3ª feira (13.out.2026). O senador declarou estar “ansioso” pelo encontro e não detalhou aos jornalistas quais assuntos pretende tratar com o pai."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Flávio falou com a imprensa nesta 2ª feira (12.out), depois de participar de uma missa na Catedral Metropolitana Nossa Senhora Aparecida, em Brasília, em celebração ao dia da invocação da Virgem Maria."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Questionado se conversaria com o pai sobre sua campanha no 2º turno contra o presidente Luiz Inácio Lula da Silva (PT), Flávio disse que precisa “tomar cuidado com as palavras” . Criticou decisões judiciais do STF (Supremo Tribunal Federal) que, segundo ele, não têm amparo legal e visam a “separar um líder político de um candidato. E, mais importante, um pai"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A declaração foi uma referência às restrições impostas pelo ministro Alexandre de Moraes , do STF, às visitas e às manifestações políticas de Jair."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/Flavio-Bolsonaro-Nossa-Senhora-Aparecida-Brasilia-eleicoes-12-out-2026-23-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/apos-moraes-liberar-flavio-afirma-que-visitara-jair-na-3-feira.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "acedc9e7a127595e",
-      "titulo": "Técnicos do TSE não encontram conteúdo falso no canal Exército do Lula",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Agência Brasil - Política",
-      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tecnicos-do-tse-nao-encontram-conteudo-falso-no-canal-exercito-do-lula",
-      "dataFonte": "2026-10-12T16:57:00.000Z",
-      "resumoFonte": "Um relatório produzido pela equipe técnica do Tribunal Superior Eleitoral (TSE) não encontrou publicações falsas no canal “Exército do Lula” , criado no WhatsApp para postagens de apoio ao candidato à reeleição Luiz Inácio Lula da Silva (PT). No domingo (11), o corregedor-geral eleitoral, ministro Ricardo Villas Bôas Cuêva, derrubou decisão do…",
-      "imagem": "https://imagens.ebc.com.br/rBS9Tw7Nl02RpZ8iCA-4FkNKDfQ=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/17/dji_20260716174112_0324_d.jpg?itok=FStwrgAD",
-      "descobertaEm": "2026-10-12T17:18:14.023Z",
-      "reportagem": {
-        "titulo": "Técnicos do TSE não encontram conteúdo falso no canal Exército do Lula",
-        "slug": "tecnicos-do-tse-nao-encontram-conteudo-falso-no-canal-exercito-do-lula",
-        "categoria": "Justiça",
-        "data": "2026-10-12",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/tecnicos-do-tse-nao-encontram-conteudo-falso-no-canal-exercito-do-lula.jpg",
-        "resumo": "O setor de combate à desinformação do TSE avaliou os textos de mensagens e os vídeos, a pedido de Nunes Marques, após as decisões conflitantes sobre a liberação do canal.",
-        "conteudo": "<p>Um relatório produzido pela equipe técnica do Tribunal Superior Eleitoral (TSE) não encontrou publicações falsas no canal “Exército do Lula” , criado no WhatsApp para postagens de apoio ao candidato à reeleição Luiz Inácio Lula da Silva (PT).</p><h2>No domingo (11), o corregedor-geral eleitoral, ministro Ricardo Villas</h2><p>No domingo (11), o corregedor-geral eleitoral, ministro Ricardo Villas Bôas Cuêva, derrubou decisão do presidente da Corte, Kassio Nunes Marques, e determinou a reativação do canal , que foi criado pelo deputado federal André Janones (Rede-MG).</p><p>O setor de combate à desinformação do TSE avaliou os textos de mensagens e os vídeos, a pedido de Nunes Marques , após as decisões conflitantes sobre a liberação do canal.</p><p>\"Quanto à circulação de conteúdos idênticos ou substancialmente equivalentes, não foram localizadas, entre as publicações do canal no período de 2 a 11 de outubro de 2026, reproduções das afirmações examinadas nos autos\", afirmou a área técnica.</p><h2>Relatório também apresentou ressalvas sobre os conteúdos postados</h2><p>O relatório também apresentou ressalvas sobre os conteúdos postados por Janones. Conforme as conclusões da perícia, foi observada \"atuação coordenada\" para disseminação de conteúdo .</p><p>\"Registra-se, ainda, nas mensagens examinadas, o emprego recorrente de uma linguagem polarizadora, que tende a estabelecer uma lógica de confronto potencialmente contrária à condição das eleições como um substitutivo do conflito\", completou.</p><p>Antes da decisão de Kassio , a legalidade do canal “Exército do Lula” já estava judicializada no TSE.</p><p>A campanha de Flávio ajuizou uma ação para cassar o mandato de Janones, além de solicitar a suspensão do canal.</p><p>No sábado (10), o ministro Vilas Bôas Cuêva, relator do processo, pediu que o presidenciável apresentasse informações complementares, mas não determinou a suspensão do canal.</p><p>Ao permitir a reativação do canal, no domingo, Vilas Bôas Cuêva informou que o pedido da campanha do candidato Flávio Bolsonaro (PL) para derrubar sua decisão foi protocolado na presidência do TSE em apenas 41 minutos.</p><p>Internacional Ucrânia: Rússia atinge alvos de setor de energia apesar de cessar-fogo seg, 12/10/2026 - 14:10</p><p>Política Técnicos do TSE não encontram conteúdo falso no canal Exército do Lula seg, 12/10/2026 - 13:57</p><p>Esportes Após cortes, seleção feminina chega a Recife para encarar Argentina seg, 12/10/2026 - 13:55</p><p>Meio Ambiente Incêdios no Amazonas resultam de ação humana intencional, diz ministro seg, 12/10/2026 - 13:43</p><p>Internacional Papa será internado na terça para retirada de nódulo do pulmão seg, 12/10/2026 - 13:40</p><p>Internacional Arábia Saudita enfrenta novos ataques com mísseis e drones seg, 12/10/2026 - 13:29</p>",
-        "fonteNome": "Agência Brasil - Política",
-        "fonteUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tecnicos-do-tse-nao-encontram-conteudo-falso-no-canal-exercito-do-lula",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Um relatório produzido pela equipe técnica do Tribunal Superior Eleitoral (TSE) não encontrou publicações falsas no canal “Exército do Lula” , criado no WhatsApp para postagens de apoio ao candidato à reeleição Luiz Inácio Lula da Silva (PT)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "No domingo (11), o corregedor-geral eleitoral, ministro Ricardo Villas Bôas Cuêva, derrubou decisão do presidente da Corte, Kassio Nunes Marques, e determinou a reativação do canal , que foi criado pelo deputado federal André Janones (Rede-MG)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O setor de combate à desinformação do TSE avaliou os textos de mensagens e os vídeos, a pedido de Nunes Marques , após as decisões conflitantes sobre a liberação do canal."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "\"Quanto à circulação de conteúdos idênticos ou substancialmente equivalentes, não foram localizadas, entre as publicações do canal no período de 2 a 11 de outubro de 2026, reproduções das afirmações examinadas nos autos\", afirmou a área técnica."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O relatório também apresentou ressalvas sobre os conteúdos postados por Janones. Conforme as conclusões da perícia, foi observada \"atuação coordenada\" para disseminação de conteúdo ."
-          }
-        ],
-        "imagemOriginal": "https://imagens.ebc.com.br/rBS9Tw7Nl02RpZ8iCA-4FkNKDfQ=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/17/dji_20260716174112_0324_d.jpg?itok=FStwrgAD",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/tecnicos-do-tse-nao-encontram-conteudo-falso-no-canal-exercito-do-lula.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "e9a41c34bb8444e6",
-      "titulo": "‘Ansioso para dar um abraço nele’, diz Flávio após Moraes liberar visitas a Bolsonaro",
+      "id": "08493cc2b00af613",
+      "titulo": "Flávio visitará Jair Bolsonaro nesta terça-feira",
       "categoria": "Justiça",
       "radar": null,
       "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/politica/ansioso-para-dar-um-abraco-nele-diz-flavio-apos-moraes-liberar-visita-a-bolsonaro/",
-      "dataFonte": "2026-10-12T16:46:25.000Z",
-      "resumoFonte": "Nesta segunda-feira (12), o ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, autorizou a retomada das visitas do senador ao pai",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/05/jair-bolsonaro-flavio-bolsonaro-24-06-2019.png?w=680&h=453&crop=1",
-      "descobertaEm": "2026-10-12T17:18:14.023Z",
+      "urlFonte": "https://jovempan.com.br/politica/flavio-visitara-jair-bolsonaro-nesta-terca/",
+      "dataFonte": "2026-10-12T18:12:51.000Z",
+      "resumoFonte": "O encontro vai acontecer após 90 dias, já que ele estava proibido pelo ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, de visitar o pai",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/AGE20261012023.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-12T18:18:11.866Z",
       "reportagem": {
-        "titulo": "‘Ansioso para dar um abraço nele’, diz Flávio após Moraes liberar visitas a Bolsonaro | Jovem Pan",
-        "slug": "ansioso-para-dar-um-abraco-nele-diz-flavio-apos-moraes-liberar-visitas-a-bolsonaro-jovem-p",
+        "titulo": "Flávio visitará Jair Bolsonaro nesta terça-feira | Jovem Pan",
+        "slug": "flavio-visitara-jair-bolsonaro-nesta-terca-feira-jovem-pan",
         "categoria": "Justiça",
         "data": "2026-10-12",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/ansioso-para-dar-um-abraco-nele-diz-flavio-apos-moraes-liberar-visitas-a-bolsonaro-jovem-p.jpg",
-        "resumo": "Nesta segunda-feira (12), o ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, autorizou a retomada das visitas do senador ao pai",
-        "conteudo": "<p>O candidato à Presidência Flávio Bolsonaro (PL) celebrou a possibilidade de voltar a ver o pai, o ex-presidente Jair Bolsonaro, após mais de 90 dias, e disse estar ansioso pelo reencontro.</p><h2>Nesta segunda-feira (12), o ministro do Supremo Tribunal Federal</h2><p>Nesta segunda-feira (12), o ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, autorizou a retomada das visitas do senador e candidato à Presidência Flávio Bolsonaro (PL) ao ex-presidente Jair Bolsonaro (PL).</p><p>A decisão ocorre após o encerramento do período de 90 dias de suspensão , determinado em julho, por descumprimento de medidas cautelares impostas ao ex-presidente.</p><p>A restrição havia sido estabelecida em 13 de julho, depois que Flávio utilizou uma visita ao pai para obter uma carta e divulgá-la nas redes sociais.</p><h2>Flávio participou nesta segunda, feriado nacional de Nossa Senhora</h2><p>Flávio participou nesta segunda, feriado nacional de Nossa Senhora Aparecida, padroeira do Brasil, de uma missa na Catedral de Brasília, onde e agradeceu a todos que estão “rezando pelo nosso Brasil”.</p><p>Nesta segunda-feira (12), o ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, autorizou a retomada das visitas do senador ao pai</p><p>Propaganda de Flávio Bolsonaro fica sem áudio na televisão</p><p>Som retornou na parte do presidente Lula durante o horário de propaganda eleitoral obrigatória</p><p>Empresário e irmão de deputado do PT morre afogado em praia de Fortaleza</p><p>Área técnica do TSE diz não ter encontrado fake news no canal ‘Exército do Lula’</p><p>Lula diz que TSE está extrapolando em decisões contra sua campanha</p><p>Moraes autoriza Flávio Bolsonaro a retomar visitas ao pai após suspensão de 90 dias</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/flavio-visitara-jair-bolsonaro-nesta-terca-feira-jovem-pan.jpg",
+        "resumo": "O encontro vai acontecer após 90 dias, já que ele estava proibido pelo ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, de visitar o pai",
+        "conteudo": "<p>O senador e candidato à Presidência, Flávio Bolsoanro (PL), visitará o pai, Jair Bolsonaro, nesta terça-feira (12).</p><h2>Encontro vai acontecer após 90 dias, já que ele</h2><p>O encontro vai acontecer após 90 dias, já que ele estava proibido pelo ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, de visitar o pai. A suspensão terminou no domingo (11).</p><p>Flávio disse estar ansioso pelo reecontro para dar um abraço forte nele. “Estou ansioso, são mais de três meses sem poder vê-lo”, afirmou, após assistir a uma missa pelo dia de Nossa Senhora Aparecida.</p><p>Nesta segunda-feira (12), o ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, autorizou a retomada das visitas do senador e candidato à Presidência Flávio Bolsonaro (PL) ao ex-presidente Jair Bolsonaro (PL).</p><h2>Decisão ocorre após o encerramento do período de 90</h2><p>A decisão ocorre após o encerramento do período de 90 dias de suspensão , determinado em julho, por descumprimento de medidas cautelares impostas ao ex-presidente.</p><p>A restrição havia sido estabelecida em 13 de julho, depois que Flávio utilizou uma visita ao pai para obter uma carta e divulgá-la nas redes sociais.</p><p>Jair Bolsonaro, de 71 anos cumpre pena de 27 anos de prisão por tentativa de golpe de Estado em 2022 após perder as eleições para Lula.</p><p>Ele está em prisão domiciliar em Brasília por motivos de saúde resultantes de uma facada sofrida em 2018, durante a campanha que o levou ao poder.</p><p>O senador disputará o segundo turno contra o presidente Luiz Inácio Lula da Silva (PT) em 25 de outubro, após ter obtido 47% dos votos no primeiro turno, em 4 de outubro, contra 45% do petista, de 80 anos, que busca um quarto mandato.</p><p>O encontro vai acontecer após 90 dias, já que ele estava proibido pelo ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, de visitar o pai</p><p>‘Ansioso para dar um abraço nele’, diz Flávio após Moraes liberar visitas a Bolsonaro</p><p>Nesta segunda-feira (12), o ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, autorizou a retomada das visitas do senador ao pai</p><p>Empresário e irmão de deputado do PT morre afogado em praia de Fortaleza</p><p>Área técnica do TSE diz não ter encontrado fake news no canal ‘Exército do Lula’</p><p>Lula diz que TSE está extrapolando em decisões contra sua campanha</p><p>Moraes autoriza Flávio Bolsonaro a retomar visitas ao pai após suspensão de 90 dias</p>",
         "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/politica/ansioso-para-dar-um-abraco-nele-diz-flavio-apos-moraes-liberar-visita-a-bolsonaro/",
+        "fonteUrl": "https://jovempan.com.br/politica/flavio-visitara-jair-bolsonaro-nesta-terca/",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -863,45 +647,57 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O candidato à Presidência Flávio Bolsonaro (PL) celebrou a possibilidade de voltar a ver o pai, o ex-presidente Jair Bolsonaro, após mais de 90 dias, e disse estar ansioso pelo reencontro."
+            "resposta": "O senador e candidato à Presidência, Flávio Bolsoanro (PL), visitará o pai, Jair Bolsonaro, nesta terça-feira (12). O encontro vai acontecer após 90 dias, já que ele estava proibido pelo ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, de visitar o pai. A suspensão terminou no domingo (11)."
           },
           {
             "pergunta": "Qual é o ponto principal?",
+            "resposta": "Flávio disse estar ansioso pelo reecontro para dar um abraço forte nele. “Estou ansioso, são mais de três meses sem poder vê-lo”, afirmou, após assistir a uma missa pelo dia de Nossa Senhora Aparecida."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
             "resposta": "Nesta segunda-feira (12), o ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, autorizou a retomada das visitas do senador e candidato à Presidência Flávio Bolsonaro (PL) ao ex-presidente Jair Bolsonaro (PL). A decisão ocorre após o encerramento do período de 90 dias de suspensão , determinado em julho, por descumprimento de medidas cautelares "
           },
           {
-            "pergunta": "Quais são os dados mais importantes?",
+            "pergunta": "Qual é o contexto?",
             "resposta": "A restrição havia sido estabelecida em 13 de julho, depois que Flávio utilizou uma visita ao pai para obter uma carta e divulgá-la nas redes sociais."
           },
           {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Flávio participou nesta segunda, feriado nacional de Nossa Senhora Aparecida, padroeira do Brasil, de uma missa na Catedral de Brasília, onde e agradeceu a todos que estão “rezando pelo nosso Brasil”."
-          },
-          {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Nesta segunda-feira (12), o ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, autorizou a retomada das visitas do senador ao pai"
+            "resposta": "Jair Bolsonaro, de 71 anos cumpre pena de 27 anos de prisão por tentativa de golpe de Estado em 2022 após perder as eleições para Lula."
           }
         ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/05/jair-bolsonaro-flavio-bolsonaro-24-06-2019.png?w=680&h=453&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/ansioso-para-dar-um-abraco-nele-diz-flavio-apos-moraes-liberar-visitas-a-bolsonaro-jovem-p.jpg",
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/AGE20261012023.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/flavio-visitara-jair-bolsonaro-nesta-terca-feira-jovem-pan.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
+    },
+    {
+      "id": "5ac36b1c5ec8bc32",
+      "titulo": "Gilmar Mendes lamenta derrota de Esperidião Amin ao Senado e cita 'irracionalidade' de movimentos populares",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/sc/santa-catarina/eleicoes/2026/noticia/2026/10/12/gilmar-mendes-lamenta-derrota-de-esperidiao-amin-ao-senado.ghtml",
+      "dataFonte": "2026-10-12T17:50:04.000Z",
+      "resumoFonte": "Gilmar Mendes e Esperidião Amin Rosinei Coutinho/SCO/STF - Luis Macedo/Câmara dos Deputados O ministro Gilmar Mendes, do Supremo Tribunal Federal (STF), usou as redes sociais para lamentar a derrota do senador Esperidião Amin (PP), que não foi reeleito para o cargo em Santa Catarina. Em uma publicação de sábado (10) na rede social X (ex-Twitter), o…",
+      "imagem": "https://s2-g1.glbimg.com/P565YBGBy_tn8oukFM1qPQ8hVWM=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/7/L/ifHeCASdO0ScNTfSTGAA/colagem.jpg",
+      "descobertaEm": "2026-10-12T18:18:11.866Z"
     }
   ],
-  "reapuradoEm": "2026-10-12T17:48:35.718Z",
+  "reapuradoEm": "2026-10-12T18:48:25.416Z",
   "diagnosticoReapuracao": {
-    "produzidas": 14,
+    "produzidas": 10,
     "jaProntas": 0,
-    "incompletas": 3,
+    "incompletas": 6,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 14,
+    "geradas": 10,
     "reaproveitadas": 0,
-    "puladas": 3,
+    "puladas": 6,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-10-12T17:49:38.912Z"
+  "lapisEm": "2026-10-12T18:49:27.908Z"
 }
