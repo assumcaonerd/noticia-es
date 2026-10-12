@@ -1,0 +1,43 @@
+name: Atualizar dados Polymarket
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: polymarket-dados
+  cancel-in-progress: false
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Consultar e validar Polymarket
+        shell: python
+        run: |
+          import json, time, urllib.request
+          url = 'https://gamma-api.polymarket.com/events/slug/brazil-presidential-election?_nes=' + str(time.time_ns())
+          req = urllib.request.Request(url, headers={'User-Agent': 'NoticiaES/1.0'})
+          with urllib.request.urlopen(req, timeout=30) as response:
+              evento = json.load(response)
+          candidatos = []
+          for nome in ['Flávio Bolsonaro', 'Luiz Inácio Lula da Silva']:
+              mercado = next(m for m in evento['markets'] if m.get('groupItemTitle') == nome)
+              outcomes = json.loads(mercado['outcomes']) if isinstance(mercado['outcomes'], str) else mercado['outcomes']
+              prices = json.loads(mercado['outcomePrices']) if isinstance(mercado['outcomePrices'], str) else mercado['outcomePrices']
+              percentual = float(prices[outcomes.index('Yes')]) * 100
+              assert 0 <= percentual <= 100
+              candidatos.append(dict(nome=nome, percentual=percentual, foto=mercado.get('icon', '')))
+          with open('polymarket-dados.json', 'w') as f:
+              json.dump(dict(candidatos=candidatos, consultado=int(time.time()*1000)), f, ensure_ascii=False)
+              f.write('\n')
+      - name: Publicar cópia atualizada
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add polymarket-dados.json
+          git diff --cached --quiet && exit 0
+          git commit -m "data: atualizar probabilidades Polymarket"
+          git pull --rebase origin main
+          git push origin HEAD:main
