@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-12T06:18:07.976Z",
+  "atualizadoEm": "2026-10-12T07:17:59.629Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 80,
+  "novasPautas": 79,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -140,11 +140,9 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://ipbvit.org.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://ipbvit.org.br/ -> 403 Forbidden",
+      "capa": true
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -323,7 +321,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 6,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,23 +374,23 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-12T06:20:11.688Z",
-    "novas": 0,
+    "atualizadoEm": "2026-10-12T07:20:10.335Z",
+    "novas": 6,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 4
       },
       {
         "fonte": "YouTube Folha Vitória",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 4
       },
       {
         "fonte": "YouTube ALES",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -401,18 +399,18 @@
       },
       {
         "fonte": "YouTube PM Ambiental ES",
-        "ok": false,
-        "erro": "500 Internal Server Error"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "X Governo ES",
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-12T06:20:12.778Z",
+    "atualizadoEm": "2026-10-12T07:20:11.890Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-12T06:20:13.660Z",
+    "atualizadoEm": "2026-10-12T07:20:12.824Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-12T06:20:24.234Z",
+    "atualizadoEm": "2026-10-12T07:20:23.396Z",
     "novas": 0,
     "fontes": [
       {
