@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-12T02:18:06.754Z",
+  "atualizadoEm": "2026-10-12T03:18:04.525Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 83,
+  "novasPautas": 81,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -376,8 +376,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-12T02:20:32.460Z",
-    "novas": 0,
+    "atualizadoEm": "2026-10-12T03:20:30.692Z",
+    "novas": 2,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -386,8 +386,8 @@
       },
       {
         "fonte": "YouTube Folha Vitória",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 4
       },
       {
         "fonte": "YouTube ALES",
@@ -406,13 +406,13 @@
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "X Governo ES",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-12T02:20:33.478Z",
+    "atualizadoEm": "2026-10-12T03:20:32.127Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-12T02:20:34.271Z",
+    "atualizadoEm": "2026-10-12T03:20:33.036Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-12T02:20:44.845Z",
+    "atualizadoEm": "2026-10-12T03:20:43.613Z",
     "novas": 0,
     "fontes": [
       {
