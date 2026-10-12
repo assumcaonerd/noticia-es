@@ -26,7 +26,91 @@
     document.head.appendChild(tag);
   }
 
+  const paineisPolymarket = [];
+  let consultaPolymarketEmCurso = false;
+  let ultimoPolymarket = null;
+
+  function blocoPolymarket(posicao) {
+    if (!document.getElementById('nes-polymarket-style')) {
+      const style = document.createElement('style');
+      style.id = 'nes-polymarket-style';
+      style.textContent = '.nes-poly{box-sizing:border-box;width:100%;max-width:750px;min-height:155px;margin:26px auto;padding:10px 14px;border:1px solid #34465f;border-radius:12px;background:#121e30;color:#fff;text-align:left;font:12px/1.3 Arial,sans-serif;clear:both}.nes-poly *{box-sizing:border-box}.nes-poly h2{margin:0 0 4px!important;color:#ffd500!important;font:700 15px/1.2 Arial,sans-serif!important}.nes-poly-note{margin:0 0 7px!important;font:10px/1.25 Arial,sans-serif!important;color:#d9e6f5}.nes-poly-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.nes-poly-card{padding:7px 10px;border-radius:8px;background:#1a2a3e;min-width:0}.nes-poly-person{display:flex;align-items:center;gap:7px;font-size:11px;font-weight:700}.nes-poly-person img{width:25px;height:25px;border-radius:50%;object-fit:cover}.nes-poly-value{display:block;margin:2px 0;color:#ffd500;font-size:22px;line-height:1.05}.nes-poly-track{height:4px;border-radius:4px;background:#3c4b61;overflow:hidden}.nes-poly-fill{height:100%;width:0;background:#27c495;transition:width .3s}.nes-poly-footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:3px;margin-top:6px;font-size:9px;color:#d9e6f5}.nes-poly a{color:#a7ddff;text-decoration:underline}@media(max-width:480px){.nes-poly{padding:10px;margin:18px auto;min-height:155px}.nes-poly h2{font-size:13px!important}.nes-poly-grid{gap:6px}.nes-poly-card{padding:7px}.nes-poly-person{font-size:10px;gap:4px}.nes-poly-person img{width:23px;height:23px}.nes-poly-value{font-size:21px}}';
+      document.head.appendChild(style);
+    }
+    const box = document.createElement('aside');
+    box.className = 'nes-poly nes-poly-' + posicao;
+    box.setAttribute('aria-label', 'Probabilidades da eleição presidencial na Polymarket');
+    box.innerHTML = '<h2>PRESIDÊNCIA 2026 · POLYMARKET</h2><p class="nes-poly-note">Probabilidades de vitória no mercado de previsões. Não representam intenção de voto nem resultado oficial do TSE.</p><div class="nes-poly-grid"></div><div class="nes-poly-footer"><span class="nes-poly-status" role="status">Consultando Polymarket…</span><a href="https://polymarket.com/event/brazil-presidential-election" target="_blank" rel="noopener noreferrer">Fonte: Polymarket</a></div>';
+    ['Flávio Bolsonaro', 'Luiz Inácio Lula da Silva'].forEach(function (nome) {
+      const card = document.createElement('div');
+      card.className = 'nes-poly-card';
+      card.dataset.candidato = nome;
+      card.innerHTML = '<div class="nes-poly-person"><img alt="" hidden><span></span></div><strong class="nes-poly-value">…</strong><div class="nes-poly-track"><div class="nes-poly-fill"></div></div>';
+      card.querySelector('span').textContent = nome;
+      box.querySelector('.nes-poly-grid').appendChild(card);
+    });
+    paineisPolymarket.push(box);
+    if (ultimoPolymarket) renderizarPolymarket(ultimoPolymarket);
+    if (paineisPolymarket.length === 1) {
+      atualizarPolymarket();
+      setInterval(function () { if (!document.hidden) atualizarPolymarket(); }, 15000);
+      document.addEventListener('visibilitychange', function () { if (!document.hidden) atualizarPolymarket(); });
+    }
+    return box;
+  }
+
+  function renderizarPolymarket(dados) {
+    paineisPolymarket.forEach(function (box) {
+      dados.candidatos.forEach(function (candidato) {
+        const card = Array.from(box.querySelectorAll('.nes-poly-card')).find(function (el) { return el.dataset.candidato === candidato.nome; });
+        if (!card) return;
+        card.querySelector('.nes-poly-value').textContent = candidato.percentual.toLocaleString('pt-BR', { maximumFractionDigits: 1 }) + '%';
+        card.querySelector('.nes-poly-fill').style.width = candidato.percentual + '%';
+        if (candidato.foto) {
+          const img = card.querySelector('img');
+          img.src = candidato.foto;
+          img.hidden = false;
+          img.onerror = function () { this.hidden = true; };
+        }
+      });
+      box.querySelector('.nes-poly-status').textContent = 'Atualização a cada 15 s. Consultado em ' + new Date(dados.consultado).toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' }) + ' (Brasília).';
+    });
+  }
+
+  async function atualizarPolymarket() {
+    if (consultaPolymarketEmCurso) return;
+    consultaPolymarketEmCurso = true;
+    const controller = new AbortController();
+    const timeout = setTimeout(function () { controller.abort(); }, 10000);
+    try {
+      const resposta = await fetch('https://gamma-api.polymarket.com/events/slug/brazil-presidential-election?_nes=' + Date.now(), { signal: controller.signal, credentials: 'omit', cache: 'no-store' });
+      if (!resposta.ok) throw new Error('Polymarket indisponível');
+      const evento = await resposta.json();
+      const candidatos = ['Flávio Bolsonaro', 'Luiz Inácio Lula da Silva'].map(function (nome) {
+        const mercado = (evento.markets || []).find(function (m) { return m.groupItemTitle === nome; });
+        if (!mercado) throw new Error('Candidato ausente');
+        const outcomes = typeof mercado.outcomes === 'string' ? JSON.parse(mercado.outcomes) : mercado.outcomes;
+        const prices = typeof mercado.outcomePrices === 'string' ? JSON.parse(mercado.outcomePrices) : mercado.outcomePrices;
+        const indice = outcomes.findIndex(function (o) { return /^(yes|sim)$/i.test(o); });
+        const percentual = Number(prices[indice]) * 100;
+        if (indice < 0 || !Number.isFinite(percentual) || percentual < 0 || percentual > 100) throw new Error('Preço inválido');
+        const foto = /^https:\/\//.test(mercado.icon || '') ? mercado.icon : '';
+        return { nome: nome, percentual: percentual, foto: foto };
+      });
+      ultimoPolymarket = { candidatos: candidatos, consultado: Date.now() };
+      renderizarPolymarket(ultimoPolymarket);
+    } catch (e) {
+      paineisPolymarket.forEach(function (box) {
+        box.querySelector('.nes-poly-status').textContent = ultimoPolymarket ? 'Atualização indisponível. Última consulta: ' + new Date(ultimoPolymarket.consultado).toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' }) + ' (Brasília).' : 'Dados temporariamente indisponíveis. Nova tentativa automática.';
+      });
+    } finally {
+      clearTimeout(timeout);
+      consultaPolymarketEmCurso = false;
+    }
+  }
+
   function blocoDireto(posicao) {
+    if (posicao === 'meio-materia' || posicao === 'fim-materia') return blocoPolymarket(posicao);
     const box = document.createElement('aside');
     box.className = 'ad-space ad-space-' + posicao;
     box.setAttribute('aria-label', 'Publicidade');
