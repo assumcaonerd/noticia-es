@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-12T16:18:07.808Z",
+  "atualizadoEm": "2026-10-12T17:18:14.023Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 92,
+  "novasPautas": 95,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -68,11 +68,9 @@
     },
     {
       "fonte": "Folha Vitória - Polícia",
-      "ok": true,
-      "encontrados": 0,
-      "capa": false,
-      "rota": "https://www.folhavitoria.com.br/sitemap/",
-      "fallback": true
+      "ok": false,
+      "erro": "https://www.folhavitoria.com.br/policia/ -> 403 Forbidden | https://www.folhavitoria.com.br/sitemap/ -> 403 Forbidden",
+      "capa": false
     },
     {
       "fonte": "SESP-ES",
@@ -290,14 +288,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 11,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 3,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -323,7 +321,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 8,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -358,7 +356,7 @@
     {
       "fonte": "Agência Brasil - Economia",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 4,
       "rota": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml",
       "fallback": false
     },
@@ -376,8 +374,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-12T16:20:50.899Z",
-    "novas": 4,
+    "atualizadoEm": "2026-10-12T17:21:36.078Z",
+    "novas": 7,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-12T16:20:52.743Z",
+    "atualizadoEm": "2026-10-12T17:21:38.315Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-12T16:20:53.660Z",
+    "atualizadoEm": "2026-10-12T17:21:39.306Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-12T16:21:04.235Z",
+    "atualizadoEm": "2026-10-12T17:21:49.865Z",
     "novas": 0,
     "fontes": [
       {
