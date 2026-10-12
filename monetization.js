@@ -52,6 +52,7 @@
     paineisPolymarket.push(box);
     if (ultimoPolymarket) renderizarPolymarket(ultimoPolymarket);
     if (paineisPolymarket.length === 1) {
+      carregarCopiaPolymarket();
       atualizarPolymarket();
       setInterval(function () { if (!document.hidden) atualizarPolymarket(); }, 15000);
       document.addEventListener('visibilitychange', function () { if (!document.hidden) atualizarPolymarket(); });
@@ -77,6 +78,26 @@
     });
   }
 
+  async function carregarCopiaPolymarket() {
+    const fontes = ['/polymarket-dados.json?v=' + Date.now(), 'https://raw.githubusercontent.com/assumcaonerd/noticia-es/main/polymarket-dados.json?v=' + Date.now()];
+    const resultados = await Promise.allSettled(fontes.map(async function (url) {
+      const resposta = await fetch(url, { credentials: 'omit', cache: 'no-store', signal: AbortSignal.timeout(7000) });
+      if (!resposta.ok) throw new Error('Cópia indisponível');
+      const dados = await resposta.json();
+      if (!Number.isFinite(dados.consultado) || !Array.isArray(dados.candidatos) || dados.candidatos.length !== 2 ||
+          dados.candidatos.some(function (c) { return !['Flávio Bolsonaro', 'Luiz Inácio Lula da Silva'].includes(c.nome) || !Number.isFinite(c.percentual) || c.percentual < 0 || c.percentual > 100; })) throw new Error('Cópia inválida');
+      return dados;
+    }));
+    const copias = resultados.filter(function (r) { return r.status === 'fulfilled'; }).map(function (r) { return r.value; });
+    copias.sort(function (a, b) { return b.consultado - a.consultado; });
+    if (!copias.length) return false;
+    if (!ultimoPolymarket || copias[0].consultado > ultimoPolymarket.consultado) {
+      ultimoPolymarket = copias[0];
+      renderizarPolymarket(ultimoPolymarket);
+    }
+    return true;
+  }
+
   async function atualizarPolymarket() {
     if (consultaPolymarketEmCurso) return;
     consultaPolymarketEmCurso = true;
@@ -100,8 +121,9 @@
       ultimoPolymarket = { candidatos: candidatos, consultado: Date.now() };
       renderizarPolymarket(ultimoPolymarket);
     } catch (e) {
+      await carregarCopiaPolymarket();
       paineisPolymarket.forEach(function (box) {
-        box.querySelector('.nes-poly-status').textContent = ultimoPolymarket ? 'Atualização indisponível. Última consulta: ' + new Date(ultimoPolymarket.consultado).toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' }) + ' (Brasília).' : 'Dados temporariamente indisponíveis. Nova tentativa automática.';
+        box.querySelector('.nes-poly-status').textContent = ultimoPolymarket ? 'Últimos dados disponíveis, coletados em ' + new Date(ultimoPolymarket.consultado).toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' }) + ' (Brasília).' : 'Dados temporariamente indisponíveis. Nova tentativa automática.';
       });
     } finally {
       clearTimeout(timeout);
