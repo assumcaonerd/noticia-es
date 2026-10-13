@@ -1,0 +1,63 @@
+const noticiasAutoRedacao20261013154053 = [
+  {
+    id: 26101315405301,
+    pautaId: "5e6e7d60e4e961d3",
+    slug: "tse-pauta-acoes-sobre-propaganda-entre-lula-e-flavio",
+    titulo: "TSE pauta ações sobre propaganda entre Lula e Flávio",
+    categoria: "Justiça",
+    data: "2026-10-13",
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261013-tse-pauta-acoes-sobre-propaganda-entre-lula-e-flavio.jpg",
+    resumo: "Sessão marcada para as 19h reúne cinco representações sobre publicações da campanha presidencial, incluindo processo contra Janja.",
+    conteudo: `<p>O Tribunal Superior Eleitoral marcou para a noite desta terça-feira (13), a partir das 19h, o julgamento de seis processos. Cinco deles discutem publicações consideradas propaganda eleitoral negativa na disputa presidencial entre Luiz Inácio Lula da Silva e Flávio Bolsonaro.</p><p>A Revista Oeste destacou a ação proposta por Flávio contra a primeira-dama Rosângela Lula da Silva, a Janja. A pauta oficial divulgada pelo TSE confirma o processo, o horário da sessão, os números das representações e os relatores; até a publicação desta reportagem, o julgamento ainda não havia começado.</p><p>Na Representação 0602691-21.2026.6.00.0000, Flávio sustenta que Janja publicou propaganda irregular na internet ao atribuir a ele afirmações inverídicas ou descontextualizadas. Segundo a descrição do Tribunal, o candidato afirma que nunca defendeu jornada de sete dias por semana nem apresentou proposta para extinguir o Programa Farmácia Popular.</p><p>O relator desse processo é o presidente do TSE, ministro Kassio Nunes Marques. A Agência Brasil informou, em 9 de outubro, que o ministro já havia determinado a remoção do vídeo em decisão individual, ao concluir que parte das acusações não tinha apoio mínimo no programa ou em declarações do candidato. A análise colegiada desta terça-feira pode firmar o entendimento do plenário sobre o mérito.</p><h2>Pauta concentra acusações cruzadas</h2><p>Outro processo foi apresentado pelo Partido Liberal contra os deputados Lindbergh Farias e Rogério Correia. As publicações questionadas insinuariam ligações de Flávio com organizações criminosas, milicianos, traficantes e integrantes de facções. A defesa dos parlamentares poderá sustentar os limites da crítica eleitoral; o PL afirma que houve ataque à honra por meio de imputações descontextualizadas.</p><p>Do outro lado, a Federação Brasil da Esperança levou ao Tribunal três representações envolvendo ataques a Lula. Uma contesta vídeo atribuído ao PL e supostamente produzido com inteligência artificial para associar o presidente a facções. Outra questiona publicação de Flávio que teria recortado falas de Lula para vinculá-lo ao narcotráfico, à violência contra a mulher e à oposição ao combate ao crime organizado.</p><p>A quinta representação eleitoral alcança a empresa responsável pelo perfil “Dama de Ferro” na rede X. A federação ligada ao PT acusa o perfil de apresentar Lula como protetor e amigo do Primeiro Comando da Capital e do Comando Vermelho. O TSE informou que a lista está sujeita a alteração, portanto a inclusão na pauta não garante que todos os casos serão concluídos na mesma sessão.</p><h2>Sessão começa nesta noite</h2><p>As ações obrigam a Corte a separar crítica dura, permitida em campanhas, de afirmações factuais potencialmente falsas e capazes de desequilibrar a eleição. Essa distinção não deve variar conforme o autor da postagem: a mesma exigência de prova e de respeito à liberdade de expressão precisa valer para as duas campanhas e para perfis que participam do debate público.</p><p>Três processos têm relatoria do ministro André Mendonça. A ministra Estela Aranha relata a ação sobre o vídeo atribuído ao PL, enquanto Nunes Marques conduz a representação contra Janja. A composição distribui os casos entre diferentes gabinetes, mas o resultado colegiado dependerá dos votos apresentados durante a sessão.</p><p>O julgamento ocorre no segundo turno e pode definir parâmetros para a propaganda digital nos dias finais da campanha. Além de eventual retirada de conteúdo, as decisões servirão de referência para novas contestações sobre montagens, recortes de falas e imputações de crimes feitas nas redes sociais.</p><p>A sessão será transmitida pela Rádio e TV Justiça e pelo canal do TSE no YouTube. Como os votos ainda não haviam sido proferidos no momento desta publicação, qualquer informação sobre vencedores, multas ou ordens adicionais dependerá do resultado oficial do plenário.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Revista Oeste",
+    fonteUrl: "https://revistaoeste.com/politica/tse-julga-acao-de-flavio-bolsonaro-contra-janja-por-propaganda-eleitoral-irregular/",
+    fontesAdicionais: [
+      { nome: "TSE — pauta oficial da sessão de 13 de outubro", url: "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/confira-a-pauta-de-julgamentos-do-tse-desta-terca-feira-13-3" },
+      { nome: "Agência Brasil — decisões sobre os vídeos", url: "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-ministros-ordenam-que-lula-e-janja-removam-videos-contra-flavio" }
+    ],
+    entidades: ["Tribunal Superior Eleitoral", "Flávio Bolsonaro", "Luiz Inácio Lula da Silva", "Rosângela Lula da Silva", "Kassio Nunes Marques"],
+    aeo: [
+      { pergunta: "Quando começa a sessão do TSE?", resposta: "A sessão está marcada para as 19h desta terça-feira, 13 de outubro de 2026." },
+      { pergunta: "O que Flávio Bolsonaro questiona no processo contra Janja?", resposta: "Ele contesta afirmações de que defenderia trabalho sete dias por semana e o fim do Programa Farmácia Popular." },
+      { pergunta: "Quantos processos estão na pauta?", resposta: "O TSE anunciou seis processos, dos quais cinco tratam de publicações contestadas na campanha presidencial." },
+      { pergunta: "As duas campanhas têm ações em julgamento?", resposta: "Sim. Há representações apresentadas por Flávio ou pelo PL e ações movidas pela Federação Brasil da Esperança contra publicações favoráveis ao adversário." },
+      { pergunta: "O resultado já foi divulgado?", resposta: "Não no momento desta publicação; a sessão ainda não havia começado e a pauta podia sofrer alterações." }
+    ],
+    redacaoPropria: true,
+    origemTexto: "redacao-noticia-es",
+    automatico: true,
+    publicadoEm: "2026-10-13T18:40:53.000Z"
+  },
+  {
+    id: 26101315405302,
+    pautaId: "4a770722cc4dd158",
+    slug: "mp-das-bets-recebe-novas-emendas-no-ultimo-dia-do-prazo",
+    titulo: "MP das bets recebe novas emendas no último dia do prazo",
+    categoria: "Política Nacional",
+    data: "2026-10-13",
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261013-mp-das-bets-recebe-novas-emendas-no-ultimo-dia-do-prazo.jpg",
+    resumo: "Portal do Congresso registrava propostas numeradas até 67 na tarde desta terça-feira; parte tenta preservar apostas esportivas e reforçar a fiscalização.",
+    conteudo: `<p>A medida provisória que proíbe apostas de quota fixa no Brasil recebeu novas propostas de alteração nesta terça-feira (13), último dia do prazo para emendas. Às 15h27, o portal do Congresso já exibia documentos numerados até a Emenda 67, com quatro deles marcados como retirados pelos próprios autores.</p><p>A CBN informou às 13h43 que a MP 1.394/2026 acumulava pelo menos 58 emendas e que parte expressiva buscava preservar as apostas esportivas. A página oficial do Congresso, usada como segunda fonte, mostrou nove registros posteriores nessa sequência e fixou as 23h59 desta terça-feira como limite para novas sugestões.</p><p>A MP editada pelo presidente Luiz Inácio Lula da Silva proíbe a exploração, a oferta, a intermediação e a publicidade das bets no território nacional. A regra alcança apostas sobre eventos esportivos reais e jogos on-line e entrou em vigor na data da publicação, em 25 de setembro, embora ainda dependa de aprovação parlamentar para continuar válida.</p><p>A numeração do sistema não equivale automaticamente ao total de propostas ativas. As emendas 18, 19, 20 e 55 aparecem como retiradas, enquanto a relação oficial avançou até a 67 na atualização consultada. Por isso, a informação mais precisa é que 67 documentos foram protocolados na sequência e 63 permaneciam sem anotação de retirada naquele momento.</p><h2>Emendas preservam apostas esportivas</h2><p>Segundo a apuração da CBN, ao menos 11 emendas tentam manter as apostas ligadas a competições esportivas. Os autores argumentam que as operadoras financiam clubes, categorias de base, torneios e modalidades olímpicas por meio de patrocínios. Outras propostas defendem que a proibição alcance apenas empresas sem autorização.</p><p>Essa pressão desloca o debate de uma escolha simples entre liberar e proibir para a definição de quais atividades poderiam sobreviver. A separação entre apostas esportivas e jogos de cassino on-line é uma das alternativas discutidas. Qualquer exceção, porém, exigiria regras claras de fiscalização, publicidade, proteção de dados e prevenção ao endividamento e à ludopatia.</p><p>O cadastro oficial mostra emendas sobre bloqueios bancários, processos sancionadores, estrutura do comitê de fiscalização e destinação de multas ao Fundo Nacional de Saúde. Há também propostas de transição para autorizações já concedidas. O relator poderá acolher, combinar ou rejeitar essas sugestões ao elaborar o parecer da comissão mista.</p><h2>Congresso definirá alcance definitivo</h2><p>A comissão mista foi designada em 30 de setembro e precisa emitir parecer antes da votação nos plenários da Câmara e do Senado. O calendário do Congresso prevê deliberação até 23 de novembro e regime de urgência a partir de 9 de novembro. Se a MP não for aprovada no prazo constitucional, perde eficácia.</p><p>Enquanto a tramitação avança, permanece em vigor o texto que extingue as apostas de quota fixa e cria um comitê interinstitucional para combater exploração e publicidade ilegais. A Câmara informou que a proibição alcança operações físicas e virtuais, além de revogar autorizações concedidas sob a legislação anterior.</p><p>A quantidade de emendas demonstra resistência parlamentar ao alcance integral da medida, mas não significa que a proibição já tenha sido reduzida. Somente o texto aprovado pelas duas Casas, depois da análise das alterações e de eventual sanção ou veto, poderá mudar a regra vigente.</p><p>Como o prazo para protocolar propostas ainda estava aberto quando esta reportagem foi publicada, a lista pode crescer até o fim do dia. A contagem definitiva deverá considerar também retiradas, substituições e decisões da comissão, evitando tratar cada número de protocolo como mudança já incorporada à lei.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "CBN",
+    fonteUrl: "https://cbn.globo.com/politica/noticia/2026/10/13/mp-que-proibe-bets-recebe-58-emendas-no-congresso-parlamentares-tentam-preservar-apostas-esportivas.ghtml",
+    fontesAdicionais: [
+      { nome: "Congresso Nacional — tramitação da MPV 1.394/2026", url: "https://www.congressonacional.leg.br/pt_BR/materias/medidas-provisorias/-/mpv/175871" },
+      { nome: "Câmara dos Deputados — alcance da medida provisória", url: "https://www.camara.leg.br/noticias/1306939-medida-provisoria-proibe-o-funcionamento-de-bets-no-brasil" }
+    ],
+    entidades: ["Congresso Nacional", "Câmara dos Deputados", "Senado Federal", "Luiz Inácio Lula da Silva", "Comissão Mista da MPV 1394/2026"],
+    aeo: [
+      { pergunta: "Quantas emendas foram apresentadas à MP das bets?", resposta: "O sistema do Congresso exibia protocolos numerados até 67 às 15h27 de 13 de outubro, com quatro retiradas registradas." },
+      { pergunta: "O que a MP 1.394/2026 proíbe?", resposta: "Ela proíbe exploração, oferta, intermediação e publicidade de apostas de quota fixa, inclusive esportivas e jogos on-line." },
+      { pergunta: "O Congresso pode mudar a proibição?", resposta: "Sim. O relator pode incorporar emendas ao parecer, que ainda precisará ser aprovado pela Câmara e pelo Senado." },
+      { pergunta: "Por que parlamentares querem preservar apostas esportivas?", resposta: "Os defensores citam patrocínios a clubes, categorias de base, competições e modalidades olímpicas." },
+      { pergunta: "Até quando a medida provisória deve ser votada?", resposta: "O calendário legislativo prevê deliberação até 23 de novembro de 2026 e urgência a partir de 9 de novembro." }
+    ],
+    redacaoPropria: true,
+    origemTexto: "redacao-noticia-es",
+    automatico: true,
+    publicadoEm: "2026-10-13T18:40:53.000Z"
+  }
+];
+if (typeof noticias !== "undefined") noticias.unshift(...noticiasAutoRedacao20261013154053);
