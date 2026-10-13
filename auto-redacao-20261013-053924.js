@@ -1,0 +1,34 @@
+const noticiasAutoRedacao20261013053924 = [
+  {
+    id: 26101305392401,
+    pautaId: "240288a51b19d7ac",
+    slug: "fabio-felix-leva-agenda-de-direitos-a-camara",
+    titulo: "Fábio Felix leva agenda de direitos à Câmara",
+    categoria: "Política Nacional",
+    data: "2026-10-13",
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261013-fabio-felix-leva-agenda-de-direitos-a-camara.jpg",
+    resumo: "Deputado distrital foi o candidato mais votado para a Câmara no Distrito Federal e diz que priorizará direitos trabalhistas, fiscalização e políticas sociais.",
+    conteudo: "<p>Eleito deputado federal pelo Distrito Federal, Fábio Felix (PSOL) afirmou nesta terça-feira (13) que pretende levar à Câmara uma agenda centrada na defesa de direitos trabalhistas e da população LGBT, na fiscalização do governo e em políticas de mobilidade e moradia. Ele assumirá o mandato em 1º de fevereiro de 2027.</p><p>Em entrevista publicada pelo G1, Felix disse que buscará diálogo em matérias negociáveis, sem abrir mão de pautas que considera fundamentais. A Folha de S.Paulo confirmou o resultado oficial: ele recebeu 224.224 votos, foi o candidato a deputado federal mais votado do Distrito Federal e abriu vantagem superior a 100 mil votos sobre o segundo colocado.</p><h2>Mandato prioriza direitos e fiscalização</h2><p>A eleição transfere para o Congresso parte das bandeiras que Felix defendeu como deputado distrital. Entre as prioridades anunciadas estão a proteção de direitos trabalhistas, o combate à violência contra pessoas LGBT, o fortalecimento dos serviços públicos e a ampliação de políticas sociais. O parlamentar também pretende atuar em temas que dependem de articulação entre União e governos locais.</p><p>Na mobilidade, Felix defende o debate sobre tarifa zero no transporte coletivo. A proposta exige definição de fontes de financiamento e participação de municípios, estados e União, porque a operação dos sistemas urbanos não depende apenas da Câmara. No Congresso, o deputado poderá trabalhar em regras nacionais, mecanismos de financiamento e fiscalização dos recursos destinados ao setor.</p><p>Outra frente citada por ele é a moradia. Felix propõe discutir uma legislação voltada ao aluguel e ao acesso à habitação, tema que ganhou peso com o aumento do custo de vida nas grandes cidades. Uma iniciativa dessa natureza precisará detalhar público atendido, impacto orçamentário e relação com programas habitacionais já existentes.</p><p>O deputado eleito também manifestou apoio à criação de uma comissão parlamentar mista de inquérito sobre o Banco Master. A instalação de uma CPMI depende do apoio formal de deputados e senadores e não equivale a condenação de investigados. O instrumento serve para apurar fatos determinados, convocar autoridades e produzir um relatório que pode ser encaminhado a órgãos de controle.</p><p>Felix chegará a uma Câmara que tende a manter forte presença de bancadas conservadoras. Nesse cenário, a capacidade de transformar promessas em projetos aprovados dependerá da construção de maiorias. O próprio deputado reconheceu que haverá espaço para negociação em matérias nas quais seja possível compor, mas indicou que não pretende fazer concessões sobre direitos fundamentais.</p><h2>Votação amplia capital político</h2><p>Os 224.224 votos dão ao parlamentar uma posição de destaque na bancada do Distrito Federal. A votação foi quase o dobro da obtida pelo segundo colocado, Rafael Prudente, que somou 119.427 votos; Alberto Fraga apareceu na sequência, com 118.579. O resultado oferece visibilidade, mas não altera a regra de que cada deputado tem um voto no plenário.</p><p>O capital eleitoral pode ajudar Felix a negociar relatorias, integrar comissões e atrair apoio para propostas. Essas funções são distribuídas conforme acordos entre partidos e blocos, e a bancada do PSOL terá de disputar espaço dentro da composição geral da Casa. A influência efetiva também dependerá da presença do deputado nas comissões relacionadas às prioridades anunciadas.</p><p>A fiscalização será outro eixo do mandato. Além de comissões parlamentares, deputados podem apresentar requerimentos de informação, convocar ministros, analisar contas e acompanhar a execução do orçamento federal. Esses instrumentos permitem cobrar dados do Executivo e verificar a aplicação de recursos, mas precisam ser usados com objeto definido para produzir resultados verificáveis.</p><p>A posse em fevereiro abrirá a etapa de transformar compromissos de campanha em proposições legislativas. Projetos sobre trabalho, transporte ou moradia podem enfrentar análise em várias comissões antes de chegar ao plenário. Em temas com impacto fiscal, será necessário indicar custos, fontes de receita e compatibilidade com as regras orçamentárias.</p><p>A distância entre uma votação expressiva e a aprovação de uma agenda será medida pela capacidade de Felix formar alianças sem descaracterizar as bandeiras apresentadas aos eleitores. O primeiro teste ocorrerá na definição das comissões e das prioridades da nova legislatura, quando partidos negociarão cargos, relatorias e o calendário de votações.</p>",
+    autor: "Redação Notícia ES",
+    fonteNome: "G1",
+    fonteUrl: "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/13/fabio-felix-eleito-deputado-federal-diz-que-vai-fazer-resistencia-em-congresso-conservador.ghtml",
+    fontesAdicionais: [
+      { nome: "Folha de S.Paulo", url: "https://www1.folha.uol.com.br/poder/2026/10/confira-os-deputados-federais-eleitos-no-distrito-federal.shtml" },
+      { nome: "Programa de campanha de Fábio Felix", url: "https://fabiofelix.com.br/campanha/por-que-congresso/" }
+    ],
+    entidades: ["Fábio Felix", "Câmara dos Deputados", "Distrito Federal", "PSOL", "Congresso Nacional"],
+    aeo: [
+      { pergunta: "Quantos votos Fábio Felix recebeu?", resposta: "Ele recebeu 224.224 votos e foi o candidato a deputado federal mais votado do Distrito Federal." },
+      { pergunta: "Quando começa o mandato?", resposta: "A posse dos deputados federais eleitos está prevista para 1º de fevereiro de 2027." },
+      { pergunta: "Quais pautas ele pretende priorizar?", resposta: "Direitos trabalhistas e LGBT, serviços públicos, transporte, moradia e fiscalização estão entre as prioridades anunciadas." },
+      { pergunta: "Ele defende uma investigação sobre o Banco Master?", resposta: "Sim. Felix manifestou apoio a uma CPMI, cuja instalação depende de assinaturas de deputados e senadores." },
+      { pergunta: "A votação garante aprovação dos projetos?", resposta: "Não. A aprovação dependerá de apoio em comissões e no plenário, onde cada deputado dispõe de um voto." }
+    ],
+    redacaoPropria: true,
+    origemTexto: "redacao-noticia-es",
+    automatico: true,
+    publicadoEm: "2026-10-13T08:39:24.000Z"
+  }
+];
+
+if (typeof noticias !== "undefined") noticias.unshift(...noticiasAutoRedacao20261013053924);
