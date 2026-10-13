@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-13T22:50:36.730Z",
+  "atualizadoEm": "2026-10-13T23:18:07.269Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 77,
+  "novasPautas": 81,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -198,9 +198,11 @@
     },
     {
       "fonte": "Século Diário",
-      "ok": false,
-      "erro": "https://www.seculodiario.com.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://www.seculodiario.com.br/",
+      "fallback": false
     },
     {
       "fonte": "ES Hoje - Política",
@@ -295,7 +297,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 4,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -321,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 15,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -374,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-13T22:52:40.609Z",
+    "atualizadoEm": "2026-10-13T23:20:34.517Z",
     "novas": 0,
     "fontes": [
       {
@@ -385,7 +387,7 @@
       {
         "fonte": "YouTube Folha Vitória",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube ALES",
@@ -404,13 +406,13 @@
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "YouTube ALES (legado)",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "X Governo ES",
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-13T22:52:41.632Z",
+    "atualizadoEm": "2026-10-13T23:20:35.853Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-13T22:52:42.425Z",
+    "atualizadoEm": "2026-10-13T23:20:36.673Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-13T22:52:53.003Z",
+    "atualizadoEm": "2026-10-13T23:20:47.253Z",
     "novas": 0,
     "fontes": [
       {
