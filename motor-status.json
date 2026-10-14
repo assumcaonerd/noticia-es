@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-14T12:17:54.512Z",
+  "atualizadoEm": "2026-10-14T13:18:04.813Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 95,
+  "novasPautas": 94,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -61,7 +61,7 @@
     {
       "fonte": "A Gazeta - Polícia",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 5,
       "capa": false,
       "rota": "https://www.agazeta.com.br/es/policia",
       "fallback": false
@@ -140,11 +140,9 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://ipbvit.org.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://ipbvit.org.br/ -> fetch failed",
+      "capa": true
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -199,7 +197,7 @@
     {
       "fonte": "Século Diário",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 5,
       "capa": true,
       "rota": "https://www.seculodiario.com.br/",
       "fallback": false
@@ -297,7 +295,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 4,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -323,7 +321,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 9,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -351,7 +349,7 @@
     {
       "fonte": "BBC Brasil",
       "ok": true,
-      "encontrados": 20,
+      "encontrados": 19,
       "rota": "https://feeds.bbci.co.uk/portuguese/rss.xml",
       "fallback": false
     },
@@ -376,8 +374,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-14T12:21:14.787Z",
-    "novas": 6,
+    "atualizadoEm": "2026-10-14T13:20:58.603Z",
+    "novas": 4,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-14T12:21:16.816Z",
+    "atualizadoEm": "2026-10-14T13:21:00.425Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-14T12:21:17.775Z",
+    "atualizadoEm": "2026-10-14T13:21:01.466Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-14T12:21:28.325Z",
+    "atualizadoEm": "2026-10-14T13:21:12.044Z",
     "novas": 0,
     "fontes": [
       {
