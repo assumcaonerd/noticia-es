@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-14T09:17:58.460Z",
+  "atualizadoEm": "2026-10-14T10:18:02.257Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 93,
+  "novasPautas": 90,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -290,14 +290,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 10,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 4,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -323,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 7,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,8 +376,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-14T09:19:55.219Z",
-    "novas": 7,
+    "atualizadoEm": "2026-10-14T10:20:26.452Z",
+    "novas": 6,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -437,29 +437,29 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-14T09:19:56.598Z",
+    "atualizadoEm": "2026-10-14T10:20:27.975Z",
     "novas": 0,
     "fontes": [
       {
         "fonte": "Telegram Folha Vitória",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "fetch failed | 403 Forbidden"
       },
       {
         "fonte": "Telegram Tribuna Online",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "fetch failed | 403 Forbidden"
       }
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-14T09:19:57.495Z",
+    "atualizadoEm": "2026-10-14T10:20:28.656Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-14T09:20:08.069Z",
+    "atualizadoEm": "2026-10-14T10:20:39.238Z",
     "novas": 0,
     "fontes": [
       {
