@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-14T18:18:04.782Z",
+  "atualizadoEm": "2026-10-14T18:41:15.117Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 96,
+  "novasPautas": 82,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -76,19 +76,15 @@
     },
     {
       "fonte": "SESP-ES",
-      "ok": true,
-      "encontrados": 0,
-      "capa": false,
-      "rota": "https://sesp.es.gov.br/Noticias",
-      "fallback": false
+      "ok": false,
+      "erro": "https://sesp.es.gov.br/Noticias -> fetch failed",
+      "capa": false
     },
     {
       "fonte": "Polícia Civil do ES",
-      "ok": true,
-      "encontrados": 0,
-      "capa": false,
-      "rota": "https://pc.es.gov.br/Noticias",
-      "fallback": false
+      "ok": false,
+      "erro": "https://pc.es.gov.br/Noticias -> fetch failed",
+      "capa": false
     },
     {
       "fonte": "Corpo de Bombeiros do ES",
@@ -290,14 +286,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 7,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 4,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -376,7 +372,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-14T18:22:24.208Z",
+    "atualizadoEm": "2026-10-14T18:46:04.200Z",
     "novas": 2,
     "fontes": [
       {
@@ -437,7 +433,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-14T18:22:26.282Z",
+    "atualizadoEm": "2026-10-14T18:46:06.249Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +449,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-14T18:22:27.326Z",
+    "atualizadoEm": "2026-10-14T18:46:07.240Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-14T18:22:37.873Z",
+    "atualizadoEm": "2026-10-14T18:46:17.808Z",
     "novas": 0,
     "fontes": [
       {
