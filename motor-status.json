@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-15T02:17:56.817Z",
+  "atualizadoEm": "2026-10-15T03:18:08.368Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 78,
+  "novasPautas": 70,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -198,11 +198,9 @@
     },
     {
       "fonte": "Século Diário",
-      "ok": true,
-      "encontrados": 6,
-      "capa": true,
-      "rota": "https://www.seculodiario.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.seculodiario.com.br/ -> fetch failed",
+      "capa": true
     },
     {
       "fonte": "ES Hoje - Política",
@@ -297,7 +295,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 3,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -323,7 +321,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 13,
+      "encontrados": 8,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,13 +374,13 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-15T02:20:34.242Z",
+    "atualizadoEm": "2026-10-15T03:21:11.430Z",
     "novas": 0,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
         "ok": false,
-        "erro": "500 Internal Server Error"
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Folha Vitória",
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-15T02:20:35.636Z",
+    "atualizadoEm": "2026-10-15T03:21:12.779Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-15T02:20:40.261Z",
+    "atualizadoEm": "2026-10-15T03:21:13.666Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-15T02:20:50.840Z",
+    "atualizadoEm": "2026-10-15T03:21:24.240Z",
     "novas": 0,
     "fontes": [
       {
