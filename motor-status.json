@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-15T16:17:59.901Z",
+  "atualizadoEm": "2026-10-15T17:18:09.582Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 79,
+  "novasPautas": 84,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -61,7 +61,7 @@
     {
       "fonte": "A Gazeta - Polícia",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 4,
       "capa": false,
       "rota": "https://www.agazeta.com.br/es/policia",
       "fallback": false
@@ -289,13 +289,15 @@
     },
     {
       "fonte": "Veja",
-      "ok": false,
-      "erro": "https://veja.abril.com.br/feed/ -> 403 Forbidden"
+      "ok": true,
+      "encontrados": 8,
+      "rota": "https://veja.abril.com.br/feed/",
+      "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 2,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -363,7 +365,7 @@
     {
       "fonte": "InfoMoney",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 10,
       "rota": "https://www.infomoney.com.br/feed/",
       "fallback": false
     },
@@ -374,8 +376,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-15T16:20:26.926Z",
-    "novas": 2,
+    "atualizadoEm": "2026-10-15T17:21:10.881Z",
+    "novas": 3,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-15T16:20:28.693Z",
+    "atualizadoEm": "2026-10-15T17:21:12.554Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-15T16:20:29.587Z",
+    "atualizadoEm": "2026-10-15T17:21:13.527Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-15T16:20:40.164Z",
+    "atualizadoEm": "2026-10-15T17:21:24.102Z",
     "novas": 0,
     "fontes": [
       {
