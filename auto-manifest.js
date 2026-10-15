@@ -1,4 +1,5 @@
 const noticiasAutoArquivos = [
+  "auto-redacao-20261014-233840.js",
   "auto-redacao-20261014-224137.js",
   "auto-redacao-20261014-213548.js",
   "auto-redacao-20261014-204223.js",
