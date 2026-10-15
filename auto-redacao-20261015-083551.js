@@ -1,0 +1,34 @@
+const noticiasAutoRedacao20261015083551 = [
+  {
+    id: 26101508355101,
+    pautaId: "36e7f8b76fef7174",
+    slug: "ricardo-ferraco-perde-aliados-para-campanha-de-pazolini",
+    titulo: "Ricardo Ferraço perde aliados para campanha de Pazolini",
+    categoria: "Política ES",
+    data: "2026-10-15",
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261015-ricardo-ferraco-perde-aliados-para-campanha-de-pazolini.jpg",
+    resumo: "Mudanças de lado envolvem partidos da coligação governista e lideranças municipais após Pazolini abrir ampla vantagem no primeiro turno.",
+    conteudo: `<p>Partidos e lideranças que apoiaram Ricardo Ferraço (MDB) no primeiro turno passaram a se aproximar de Lorenzo Pazolini (Republicanos) na disputa pelo governo do Espírito Santo. O movimento ganhou novos episódios nesta quarta-feira (14), a dez dias da votação decisiva.</p><p>A coluna de Letícia Gonçalves em A Gazeta reuniu as mudanças e os conflitos que antecederam o afastamento de antigos aliados. A Folha de S.Paulo confirmou a reunião de Pazolini com os presidentes estaduais do PP e do União Brasil, enquanto o ES Hoje registrou a adesão do ex-prefeito de Ibatiba Luciano Pingo.</p><p>O rearranjo ocorre depois de Pazolini terminar o primeiro turno com 49,65% dos votos válidos, contra 34,06% de Ricardo. O resultado colocou o republicano perto de vencer sem segundo turno e alterou o cálculo de partidos e lideranças que integravam ou orbitavam a base governista.</p><h2>Partidos redesenham alianças estaduais</h2><p>União Brasil e Podemos, integrantes da coligação de Ricardo, tiveram comandos nacionais favoráveis a Pazolini no segundo turno. As decisões abriram divergências dentro das estruturas estaduais. No Podemos, por exemplo, o presidente regional Gilson Daniel declarou inicialmente que continuaria apoiando Ricardo, apesar da posição anunciada pela direção nacional.</p><p>No caso do PP, não houve mudança partidária oficial registrada nas fontes consultadas. Mesmo assim, o presidente estadual da sigla, deputado federal Da Vitória, apareceu ao lado de Pazolini e de Marcelo Santos, que dirige o União Brasil no Espírito Santo, durante um café organizado pelo presidente estadual do Republicanos, Erick Musso.</p><p>A imagem teve peso político porque o PP indicou Camillo Neves para vice na chapa de Ricardo. Da Vitória e Marcelo Santos estavam formalmente ligados à coligação governista quando participaram do encontro. Os dois não haviam apresentado, naquele momento, uma declaração individual explícita de rompimento.</p><p>A Gazeta relacionou o distanciamento a atritos acumulados durante o primeiro turno. Entre os pontos citados estão queixas de lideranças sobre a distribuição de apoio a candidaturas proporcionais e divergências com o grupo do ex-governador Renato Casagrande (PSB), principal aliado de Ricardo.</p><h2>Votação amplia pressão política</h2><p>O deslocamento também alcançou lideranças municipais. Em Vila Velha, os vereadores Renzo Mendes (Podemos), Anadelso Pereira (PSDB) e Carol Caldeira (DC) aderiram à campanha de Pazolini. Os três haviam disputado cargos legislativos no primeiro turno e pertencem a partidos ou grupos com trajetórias distintas na política local.</p><p>Luciano Pingo, ex-prefeito de Ibatiba e filiado ao Agir, anunciou apoio a Pazolini na quarta-feira. Ele esteve com Ricardo na primeira etapa da eleição e justificou a troca como uma opção pela vontade majoritária demonstrada nas urnas. O apoio também foi confirmado pelo ES Hoje.</p><p>Nem toda ausência pública equivale a rompimento. O prefeito de Vila Velha, Arnaldinho Borgo (PSDB), trabalhou pela reeleição de Ricardo no primeiro turno, mas ainda não havia feito manifestação equivalente na segunda etapa. O silêncio político, por si só, não permite afirmar que ele passou a apoiar o adversário.</p><p>As mudanças mostram a disputa por posição em torno do candidato que saiu na frente, mas não permitem atribuir uma única motivação a todos os envolvidos. Diretrizes partidárias nacionais, conflitos locais, resultados de candidatos proporcionais e expectativas sobre o próximo governo aparecem combinados no processo.</p><p>Para Ricardo, o desafio é impedir que as adesões produzam percepção de isolamento e reconstruir uma rede que sustentou sua candidatura no primeiro turno. Para Pazolini, o ganho depende de transformar fotografias, declarações e decisões partidárias em apoio efetivo nas ruas e nas urnas.</p><p>O segundo turno está marcado para 25 de outubro. Até lá, novas adesões podem alterar o ambiente da campanha, mas o resultado continuará definido pelo eleitor. A vantagem do primeiro turno explica a pressão sobre as alianças; não substitui a votação final.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "A Gazeta",
+    fonteUrl: "https://www.agazeta.com.br/colunas/leticia-goncalves/as-intrigas-que-precederam-desercoes-do-palanque-de-ricardo-1026",
+    fontesAdicionais: [
+      { nome: "Folha de S.Paulo — encontro com aliados de Ricardo", url: "https://www1.folha.uol.com.br/colunas/painel/2026/10/republicanos-busca-quarto-governo-e-atrai-aliados-de-ferraco-no-es.shtml" },
+      { nome: "ES Hoje — apoio de Luciano Pingo", url: "https://eshoje.com.br/politica/2026/10/pingo-apoio-a-lorenzo-pazolini/" },
+      { nome: "Assembleia Legislativa — resultado do primeiro turno", url: "https://www.al.es.gov.br/Noticia/2026/10/51398/governo-do-es-pazolini-e-ricardo-vao-disputar-o-segundo-turno.html" }
+    ],
+    entidades: ["Ricardo Ferraço", "Lorenzo Pazolini", "União Brasil", "Podemos", "PP", "Republicanos"],
+    aeo: [
+      { pergunta: "Quais aliados de Ricardo se aproximaram de Pazolini?", resposta: "Dirigentes do União Brasil e do PP apareceram com Pazolini, enquanto lideranças municipais e o ex-prefeito Luciano Pingo anunciaram apoio ao republicano." },
+      { pergunta: "União Brasil e Podemos estavam na coligação de Ricardo?", resposta: "Sim. As duas siglas integravam a coligação de Ricardo, mas seus comandos nacionais se posicionaram por Pazolini no segundo turno." },
+      { pergunta: "O PP rompeu oficialmente com Ricardo?", resposta: "Não havia mudança partidária oficial nas fontes consultadas, embora o presidente estadual do PP tenha se reunido publicamente com Pazolini." },
+      { pergunta: "Qual foi o resultado do primeiro turno no Espírito Santo?", resposta: "Pazolini obteve 49,65% dos votos válidos, e Ricardo Ferraço ficou com 34,06%." },
+      { pergunta: "Quando será o segundo turno para governador?", resposta: "A votação que definirá o governo do Espírito Santo está marcada para 25 de outubro de 2026." }
+    ],
+    redacaoPropria: true,
+    origemTexto: "redacao-noticia-es",
+    automatico: true,
+    publicadoEm: "2026-10-15T11:35:51.000Z"
+  }
+];
+if (typeof noticias !== "undefined") noticias.unshift(...noticiasAutoRedacao20261015083551);
