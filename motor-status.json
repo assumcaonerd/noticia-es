@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-16T16:17:45.592Z",
+  "atualizadoEm": "2026-10-16T17:18:16.052Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 95,
+  "novasPautas": 101,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -198,9 +198,11 @@
     },
     {
       "fonte": "Século Diário",
-      "ok": false,
-      "erro": "https://www.seculodiario.com.br/ -> The operation was aborted due to timeout",
-      "capa": true
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://www.seculodiario.com.br/",
+      "fallback": false
     },
     {
       "fonte": "ES Hoje - Política",
@@ -288,7 +290,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 8,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -321,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 9,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -374,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-16T16:21:46.261Z",
+    "atualizadoEm": "2026-10-16T17:21:57.215Z",
     "novas": 4,
     "fontes": [
       {
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-16T16:21:48.133Z",
+    "atualizadoEm": "2026-10-16T17:21:59.582Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-16T16:21:49.100Z",
+    "atualizadoEm": "2026-10-16T17:22:00.745Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-16T16:21:59.651Z",
+    "atualizadoEm": "2026-10-16T17:22:11.320Z",
     "novas": 0,
     "fontes": [
       {
