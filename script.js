@@ -73,7 +73,7 @@
   }
 
   function linkMateria(noticia) {
-    return `m/${encodeURIComponent(noticia.slug)}.html`;
+    return `noticia.html?slug=${encodeURIComponent(noticia.slug)}`;
   }
 
   function slugCategoria(categoria) {
@@ -315,7 +315,7 @@
   }
 
   function compartilhar(rede, noticia) {
-    const url = encodeURIComponent(`https://noticiaes.com.br/m/${noticia.slug}.html`);
+    const url = encodeURIComponent(`https://noticiaes.com.br/noticia.html?slug=${encodeURIComponent(noticia.slug)}`);
     const texto = encodeURIComponent(noticia.titulo);
     let destino = '';
 
