@@ -35,6 +35,15 @@
   }
 
   function canonicalDaPagina() {
+    // O leitor dinâmico precisa manter o slug no endereço compartilhado.
+    if (/\/noticia\.html$/.test(window.location.pathname)) {
+      const slug = new URLSearchParams(window.location.search).get('slug');
+      if (slug) {
+        const endereco = new URL('/noticia.html', window.location.origin);
+        endereco.searchParams.set('slug', slug);
+        return endereco.href;
+      }
+    }
     const link = document.querySelector('link[rel="canonical"]');
     if (link && link.href) return link.href;
     return window.location.href.split('#')[0];
