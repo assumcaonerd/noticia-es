@@ -73,7 +73,7 @@
   }
 
   function linkMateria(noticia) {
-    return `noticia.html?slug=${encodeURIComponent(noticia.slug)}`;
+    return noticia.urlCanonica || `noticia.html?slug=${encodeURIComponent(noticia.slug)}`;
   }
 
   function slugCategoria(categoria) {
@@ -266,6 +266,12 @@
           <p><a class="btn-primario" href="index.html">Voltar para a página inicial</a></p>
         </div>`;
       if (relacionados) relacionados.style.display = 'none';
+      return;
+    }
+
+    // Matérias com página definitiva usam o HTML completo para prévias sociais.
+    if (noticia.urlCanonica) {
+      window.location.replace(noticia.urlCanonica);
       return;
     }
 

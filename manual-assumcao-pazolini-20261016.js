@@ -4,6 +4,7 @@
   const materia = {
   "id": "manual-assumcao-pazolini-20261016",
   "slug": "assumcao-denunciou-gilmar-mendes-ativismo-judicial-pazolini",
+  "urlCanonica": "https://noticiaes.com.br/m/assumcao-denunciou-gilmar-mendes-ativismo-judicial-pazolini.html",
   "titulo": "Assumção denunciou Gilmar Mendes e o ativismo judicial quando ninguém ousava: a trajetória de resistência que expõe as narrativas de “direita” de Pazolini",
   "categoria": "Política ES",
   "data": "2026-10-16",
