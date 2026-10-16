@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,follow">
+<title>Redirecionando reportagem | Notícia ES</title>
+<script>
+(function(){
+  var match=location.pathname.match(/^\/m\/([^\/]+)\.html$/i);
+  if(match){
+    var slug;
+    try{slug=decodeURIComponent(match[1]);}catch(e){slug=match[1];}
+    location.replace('/noticia.html?slug='+encodeURIComponent(slug)+location.hash);
+  }
+})();
+</script>
+</head>
+<body>
+<main style="font:16px system-ui,Arial,sans-serif;max-width:680px;margin:10vh auto;padding:20px">
+<h1>Notícia ES</h1>
+<p>Estamos abrindo a reportagem solicitada.</p>
+<p>Se a página não abrir, <a href="/">volte à página inicial</a>.</p>
+</main>
+</body>
+</html>
