@@ -4,10 +4,11 @@ window.NOTICIAES_MONETIZATION = Object.freeze({
   directCampaign: Object.freeze({
     active: true,
     takeover: true,
-    name: 'BYD',
-    image: '/assets/ads/byd-ofertas.webp',
-    href: 'https://www.byd.com/br/ofertas?state=ES&city=3205309&model=CX013016',
-    alt: 'Ofertas exclusivas BYD',
+    name: 'Flaviômetro',
+    image: '/assets/ads/flaviometro-banner.svg',
+    href: 'https://flaviometro.com/',
+    alt: 'Flaviômetro: engajamento, visualizações e frequência. Acesse o painel.',
+    linkLabel: 'Acessar o painel Flaviômetro',
     width: 750,
     height: 155
   })

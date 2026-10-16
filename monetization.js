@@ -5,7 +5,7 @@
     return new Promise(function (resolve) {
       if (window.NOTICIAES_MONETIZATION) return resolve();
       const config = document.createElement('script');
-      config.src = '/monetization-config.js?v=20260921-4';
+      config.src = '/monetization-config.js?v=20261016-flaviometro';
       config.onload = resolve;
       config.onerror = resolve;
       document.head.appendChild(config);
@@ -153,7 +153,7 @@
         suporte.href = campanha.href;
         suporte.target = '_blank';
         suporte.rel = 'sponsored noopener noreferrer';
-        suporte.setAttribute('aria-label', 'Abrir oferta ' + (campanha.name || 'do anunciante'));
+        suporte.setAttribute('aria-label', campanha.linkLabel || ('Abrir oferta ' + (campanha.name || 'do anunciante')));
       }
 
       const img = document.createElement('img');
