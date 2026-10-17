@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-17T00:17:43.035Z",
+  "atualizadoEm": "2026-10-17T01:17:46.774Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 78,
+  "novasPautas": 91,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -290,7 +290,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 12,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -323,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 11,
+      "encontrados": 8,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-17T00:19:55.361Z",
+    "atualizadoEm": "2026-10-17T01:20:55.800Z",
     "novas": 0,
     "fontes": [
       {
@@ -392,7 +392,7 @@
       {
         "fonte": "YouTube ALES",
         "ok": false,
-        "erro": "500 Internal Server Error"
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -411,8 +411,8 @@
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "X Governo ES",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-17T00:19:56.331Z",
+    "atualizadoEm": "2026-10-17T01:20:57.387Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-17T00:19:57.228Z",
+    "atualizadoEm": "2026-10-17T01:20:58.249Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-17T00:20:07.802Z",
+    "atualizadoEm": "2026-10-17T01:21:08.790Z",
     "novas": 0,
     "fontes": [
       {
