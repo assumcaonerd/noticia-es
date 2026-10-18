@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-18T20:50:46.093Z",
+  "atualizadoEm": "2026-10-18T21:18:23.199Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 76,
+  "novasPautas": 83,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -198,9 +198,11 @@
     },
     {
       "fonte": "Século Diário",
-      "ok": false,
-      "erro": "https://www.seculodiario.com.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://www.seculodiario.com.br/",
+      "fallback": false
     },
     {
       "fonte": "ES Hoje - Política",
@@ -288,14 +290,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 11,
+      "encontrados": 12,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 2,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -321,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 14,
+      "encontrados": 15,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -374,13 +376,13 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-18T20:54:00.202Z",
-    "novas": 3,
+    "atualizadoEm": "2026-10-18T21:21:16.481Z",
+    "novas": 4,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
         "ok": true,
-        "encontrados": 4
+        "encontrados": 3
       },
       {
         "fonte": "YouTube Folha Vitória",
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-18T20:54:02.004Z",
+    "atualizadoEm": "2026-10-18T21:21:18.257Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-18T20:54:03.093Z",
+    "atualizadoEm": "2026-10-18T21:21:19.376Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-18T20:54:13.654Z",
+    "atualizadoEm": "2026-10-18T21:21:29.954Z",
     "novas": 0,
     "fontes": [
       {
