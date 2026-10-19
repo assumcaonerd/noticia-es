@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-19T02:18:27.131Z",
+  "atualizadoEm": "2026-10-19T03:18:19.545Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 98,
+  "novasPautas": 92,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -290,14 +290,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 12,
+      "encontrados": 14,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 7,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -376,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-19T02:21:38.593Z",
+    "atualizadoEm": "2026-10-19T03:21:07.277Z",
     "novas": 0,
     "fontes": [
       {
@@ -402,12 +402,12 @@
       {
         "fonte": "YouTube PM Ambiental ES",
         "ok": false,
-        "erro": "500 Internal Server Error"
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-19T02:21:40.281Z",
+    "atualizadoEm": "2026-10-19T03:21:08.714Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-19T02:21:41.268Z",
+    "atualizadoEm": "2026-10-19T03:21:09.633Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-19T02:21:51.824Z",
+    "atualizadoEm": "2026-10-19T03:21:20.181Z",
     "novas": 0,
     "fontes": [
       {
