@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-19T16:18:54.137Z",
+  "atualizadoEm": "2026-10-19T17:19:04.213Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 95,
+  "novasPautas": 87,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -45,7 +45,7 @@
     {
       "fonte": "A Gazeta - Política",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 5,
       "capa": false,
       "rota": "https://www.agazeta.com.br/es/politica",
       "fallback": false
@@ -140,9 +140,11 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": false,
-      "erro": "https://ipbvit.org.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://ipbvit.org.br/",
+      "fallback": false
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -196,11 +198,9 @@
     },
     {
       "fonte": "Século Diário",
-      "ok": true,
-      "encontrados": 6,
-      "capa": true,
-      "rota": "https://www.seculodiario.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.seculodiario.com.br/ -> fetch failed",
+      "capa": true
     },
     {
       "fonte": "ES Hoje - Política",
@@ -321,7 +321,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 5,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -356,7 +356,7 @@
     {
       "fonte": "Agência Brasil - Economia",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 8,
       "rota": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml",
       "fallback": false
     },
@@ -374,13 +374,13 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-19T16:21:52.895Z",
+    "atualizadoEm": "2026-10-19T17:22:31.074Z",
     "novas": 4,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
         "ok": true,
-        "encontrados": 3
+        "encontrados": 2
       },
       {
         "fonte": "YouTube Folha Vitória",
@@ -435,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-19T16:21:54.728Z",
+    "atualizadoEm": "2026-10-19T17:22:33.099Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-19T16:21:55.649Z",
+    "atualizadoEm": "2026-10-19T17:22:34.134Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-19T16:22:06.212Z",
+    "atualizadoEm": "2026-10-19T17:22:44.693Z",
     "novas": 0,
     "fontes": [
       {
