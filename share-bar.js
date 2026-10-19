@@ -35,12 +35,11 @@
   }
 
   function canonicalDaPagina() {
-    // O leitor dinâmico precisa manter o slug no endereço compartilhado.
+    // Compartilha a página estática, cujos metadados podem ser lidos pelas redes.
     if (/\/noticia\.html$/.test(window.location.pathname)) {
       const slug = new URLSearchParams(window.location.search).get('slug');
       if (slug) {
-        const endereco = new URL('/noticia.html', window.location.origin);
-        endereco.searchParams.set('slug', slug);
+        const endereco = new URL('/m/' + encodeURIComponent(slug) + '.html', window.location.origin);
         return endereco.href;
       }
     }
@@ -263,7 +262,17 @@
   });
 
   quandoPronto(sincronizarMenuEditorial);
-  quandoPronto(iniciar);
+  quandoPronto(function () {
+    iniciar();
+    // O leitor pode inserir a matéria depois de carregar os dados.
+    if (!document.querySelector('.nes-share-rail')) {
+      const observador = new MutationObserver(function () {
+        iniciar();
+        if (document.querySelector('.nes-share-rail')) observador.disconnect();
+      });
+      observador.observe(document.querySelector('main.materia') || document.body, { childList: true, subtree: true });
+    }
+  });
   quandoPronto(function () {
     if (!/pazolini-verita-pesquisa-mapa-espirito-santo/.test(location.pathname + location.search)) return;
     var url = "https://vitoria.es.gov.br/recursos/imagens/banco/2025/01/01/135425/normal@2x.jpg";
