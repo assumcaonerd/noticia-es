@@ -321,7 +321,7 @@
   }
 
   function compartilhar(rede, noticia) {
-    const url = encodeURIComponent(`https://noticiaes.com.br/noticia.html?slug=${encodeURIComponent(noticia.slug)}`);
+    const url = encodeURIComponent(`https://noticiaes.com.br/m/${encodeURIComponent(noticia.slug)}.html`);
     const texto = encodeURIComponent(noticia.titulo);
     let destino = '';
 
