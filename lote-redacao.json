@@ -1,17 +1,341 @@
 {
-  "geradoEm": "2026-10-20T11:48:39.895Z",
+  "geradoEm": "2026-10-20T12:48:40.809Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 66,
-    "bloqueadas": 0,
+    "bloqueadas": 1,
     "bloqueadasEditoriais": 6,
     "semImagem": 0,
     "duplicadasBasicas": 1,
-    "duplicadasSemanticas": 2,
-    "foraCategorias": 41
+    "duplicadasSemanticas": 0,
+    "foraCategorias": 38
   },
-  "quantidadeCandidatas": 16,
+  "quantidadeCandidatas": 20,
   "candidatas": [
+    {
+      "id": "dc6a29ce82efa7df",
+      "titulo": "Adolescente é agredido após roubo de bicicleta elétrica em Vila Velha",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/agora/adolescente-e-agredido-apos-roubo-de-bicicleta-eletrica-em-vila-velha-1026",
+      "dataFonte": "2026-10-20T12:06:11.000Z",
+      "resumoFonte": "Suspeito de 14 anos ameaçou vítima, de 17, com faca e arma falsa, segundo a PM; ele foi levado a um hospital após sofrer lesões na cabeça e escoriações",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1772194168785_2024_12_05_delegacia_especializada_de_adolescentes_em_conflito_com_a_lei_deacle_2526503.jpeg",
+      "descobertaEm": "2026-10-20T12:18:27.707Z"
+    },
+    {
+      "id": "16ab7caa285fdf85",
+      "titulo": "Qual foi a eleição presidencial mais apertada da história recente do Brasil",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/politica/qual-foi-a-eleicao-presidencial-mais-apertada-da-historia-recente-do-brasil/",
+      "dataFonte": "2026-10-20T12:00:00.000Z",
+      "resumoFonte": "Lula venceu Jair Bolsonaro em 2022 por pouco mais de 2,1 milhões de votos, a menor diferença de um segundo turno desde a redemocratização",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/04/turna.jpg?w=1000&h=630&crop=1",
+      "descobertaEm": "2026-10-20T12:18:27.707Z",
+      "reportagem": {
+        "titulo": "Qual foi a eleição presidencial mais apertada da história recente do Brasil | Jovem Pan",
+        "slug": "qual-foi-a-eleicao-presidencial-mais-apertada-da-historia-recente-do-brasil-jovem-pan",
+        "categoria": "Política Nacional",
+        "data": "2026-10-20",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/qual-foi-a-eleicao-presidencial-mais-apertada-da-historia-recente-do-brasil-jovem-pan.jpg",
+        "resumo": "Lula venceu Jair Bolsonaro em 2022 por pouco mais de 2,1 milhões de votos, a menor diferença de um segundo turno desde a redemocratização",
+        "conteudo": "<p>A eleição presidencial de 2022 foi a mais apertada da história recente do Brasil. Lula terminou o segundo turno com 60.345.999 votos, ou 50,90% dos votos válidos.</p><h2>Jair Bolsonaro recebeu 58</h2><p>Jair Bolsonaro recebeu 58.206.354 votos, equivalentes a 49,10%. A diferença entre os dois foi de 2.139.645 votos.</p><p>Até então, a referência de disputa mais estreita era o segundo turno de 2014. Dilma Rousseff venceu Aécio Neves por 54.501.118 votos a 51.041.155, uma vantagem de aproximadamente 3,46 milhões.</p><p>Outras eleições da atual fase democrática tiveram margens mais amplas. Em 2018, por exemplo, Jair Bolsonaro venceu Fernando Haddad com 55,54% dos votos válidos contra 44,46%.</p><h2>Primeiro turno de 2026 também foi marcado por equilíbrio:</h2><p>O primeiro turno de 2026 também foi marcado por equilíbrio: Flávio Bolsonaro ficou 2.224.965 votos à frente de Lula. A diferença definitiva, porém, só será conhecida após o segundo turno de 25 de outubro.</p><p>Lula venceu Jair Bolsonaro em 2022 por pouco mais de 2,1 milhões de votos, a menor diferença de um segundo turno desde a redemocratização</p><p>Campanha de Lula recorre ao TSE e diz que Meta segue privilegiando Flávio</p><p>PT acusou a plataforma de prejudicar estratégia digital do atual presidente</p><p>Como funciona uma medida provisória e o que o presidente pode fazer com ela</p><p>PGR defende manter prisão de parentes de Vorcaro e outros envolvidos no caso Master</p><p>Como consultar o local de votação para o segundo turno das Eleições 2026</p><p>Como Tarcísio tenta ampliar a votação de Flávio Bolsonaro em São Paulo</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/politica/qual-foi-a-eleicao-presidencial-mais-apertada-da-historia-recente-do-brasil/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A eleição presidencial de 2022 foi a mais apertada da história recente do Brasil. Lula terminou o segundo turno com 60.345.999 votos, ou 50,90% dos votos válidos."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Jair Bolsonaro recebeu 58.206.354 votos, equivalentes a 49,10%. A diferença entre os dois foi de 2.139.645 votos."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Até então, a referência de disputa mais estreita era o segundo turno de 2014. Dilma Rousseff venceu Aécio Neves por 54.501.118 votos a 51.041.155, uma vantagem de aproximadamente 3,46 milhões."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Outras eleições da atual fase democrática tiveram margens mais amplas. Em 2018, por exemplo, Jair Bolsonaro venceu Fernando Haddad com 55,54% dos votos válidos contra 44,46%."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O primeiro turno de 2026 também foi marcado por equilíbrio: Flávio Bolsonaro ficou 2.224.965 votos à frente de Lula. A diferença definitiva, porém, só será conhecida após o segundo turno de 25 de outubro."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/04/turna.jpg?w=1000&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/qual-foi-a-eleicao-presidencial-mais-apertada-da-historia-recente-do-brasil-jovem-pan.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "91508600d48af857",
+      "titulo": "Flávio Bolsonaro (PL) propõe Bolsa Família por até 2 anos para quem arrumar emprego",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/politica/flavio-bolsonaro-pl-propoe-bolsa-familia-por-ate-2-anos-para-quem-arrumar-emprego/",
+      "dataFonte": "2026-10-20T11:22:44.000Z",
+      "resumoFonte": "Brazilian presidential candidate Flavio Bolsonaro of the Liberal Party (PL) speaks during a meeting with city council members of Greater Sao Paulo region, in Sao Paulo, Brazil, October 11, 2026. REUTERS/Jean Carniel \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-11T185232Z_1824565534_RC261OAIDV4W_RTRMADP_3_BRAZIL…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-11T185232Z_1824565534_RC261OAIDV4W_RTRMADP_3_BRAZIL-ELECTION-BOLSONARO_7a2043.jpg",
+      "descobertaEm": "2026-10-20T12:18:27.707Z"
+    },
+    {
+      "id": "2e7c5063d3986e84",
+      "titulo": "Felca promete quebrar silêncio e decepciona eleitores de Lula",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/cultura/felca-promete-quebrar-silencio-e-decepciona-eleitores-de-lula/",
+      "dataFonte": "2026-10-20T12:18:30.000Z",
+      "resumoFonte": "Influenciador criou mistério antes de publicar vídeo na madrugada desta terça-feira, 20, e criou expectativa em torno de um posicionamento que não veio",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/10/x3JpSdy4b-I-HD.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-10-20T12:18:27.707Z",
+      "reportagem": {
+        "titulo": "Felca promete quebrar silêncio e decepciona eleitores de Lula",
+        "slug": "felca-promete-quebrar-silencio-e-decepciona-eleitores-de-lula",
+        "categoria": "Cultura",
+        "data": "2026-10-20",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/felca-promete-quebrar-silencio-e-decepciona-eleitores-de-lula.jpg",
+        "resumo": "Influenciador criou mistério antes de publicar vídeo na madrugada desta terça-feira, 20, e criou expectativa em torno de um posicionamento que não veio",
+        "conteudo": "<p>O influenciador Felipe Bressanim Pereira, mais conhecido como Felca , criou expectativa entre eleitores de Lula neste domingo, 18, quando publicou uma imagem em sua conta de Instagram que dizia apenas: &ldquo;Eu me escondi por tempo demais&rdquo;.</p><h2>Junto &agrave; frase, estava o hor&aacute;rio de meia-noite desta</h2><p>Junto &agrave; frase, estava o hor&aacute;rio de meia-noite desta ter&ccedil;a-feira, 20, quando seria publicado um novo v&iacute;deo do YouTuber que acumula mais de 6,47 milh&otilde;es de inscritos em seu canal.</p><p>Para a ala da esquerda, era claro que o rapaz enfim se posicionaria politicamente e declararia apoio ao petista dias antes do segundo turno da elei&ccedil;&atilde;o presidencial &mdash; como comemoraram celebridades feito Juliette, Juliano Floss, Daniel Rangel e Ana Frango El&eacute;trico nos coment&aacute;rios.</p><p>Em vez disso, milhares de espectadores tiveram uma madrugada frustrante quando leram o t&iacute;tulo do material publicado: Fobia social .</p><h2>No lugar de um coment&aacute;rio categ&oacute;rico sobre o rumo</h2><p>No lugar de um coment&aacute;rio categ&oacute;rico sobre o rumo do pa&iacute;s, Felca se abriu sobre as pr&oacute;prias experi&ecirc;ncias com o bullying nos tempos de escola e as consequ&ecirc;ncias de tal trauma, como o desenvolvimento de um quadro depressivo e a busca por al&iacute;vio via &aacute;lcool.</p><p>Ao fim do desabafo, ele prop&otilde;e o projeto &ldquo;#Simfel&rdquo;, para que tanto ele quanto seus espectadores fujam da zona de conforto e conhe&ccedil;am novas pessoas.</p><p>A ideia &eacute; que Felca tamb&eacute;m compartilhe seu dia a dia com mais afinco via Instagram, para demonstrar como tem combatido a pr&oacute;pria fobia.</p><p>O influenciador ainda afirmou que n&atilde;o sa&iacute;a de casa h&aacute; cinco meses no momento de grava&ccedil;&atilde;o do v&iacute;deo.</p><p>A aba de coment&aacute;rios do v&iacute;deo est&aacute; repleta de mensagens de apoio a Felca.</p><p>Nas redes Instagram e X, antigo Twitter, a resposta &eacute; diferente, e ele &eacute; duramente criticado por n&atilde;o se posicionar quanto &agrave; elei&ccedil;&atilde;o e por escolher publicar o v&iacute;deo nesta semana.</p><p>Memes e v&iacute;deos diversos ridicularizam o desabafo do influenciador. &ldquo;N&atilde;o queremos saber de sa&uacute;de mental agora, Felca, setembro acabou, outubro &eacute; m&ecirc;s de pol&iacute;tica&rdquo;, diz uma publica&ccedil;&atilde;o com mais de 6 000 curtidas.</p><p>Outra com engajamento similar conta com a cena de Todo Mundo em P&acirc;nico 3 no qual a personagem Brenda (Regina Hall) diz: &ldquo;Hoje 50 negros foram espancados pela pol&iacute;cia, mas o mundo s&oacute; quer saber o que aconteceu com a branquelinha que caiu no po&ccedil;o&rdquo;.</p><p>No momento, o nome do influenciador ocupa a primeira posi&ccedil;&atilde;o dos Trending Topics do X. Ele ainda n&atilde;o se pronunciou sobre a resposta adversa.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/cultura/felca-promete-quebrar-silencio-e-decepciona-eleitores-de-lula/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O influenciador Felipe Bressanim Pereira, mais conhecido como Felca , criou expectativa entre eleitores de Lula neste domingo, 18, quando publicou uma imagem em sua conta de Instagram que dizia apenas: &ldquo;Eu me escondi por tempo demais&rdquo;. Junto &agrave; frase, estava o hor&aacute;rio de meia-noite desta ter&ccedil;a-feira, 20, quando seria publicado"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "No lugar de um coment&aacute;rio categ&oacute;rico sobre o rumo do pa&iacute;s, Felca se abriu sobre as pr&oacute;prias experi&ecirc;ncias com o bullying nos tempos de escola e as consequ&ecirc;ncias de tal trauma, como o desenvolvimento de um quadro depressivo e a busca por al&iacute;vio via &aacute;lcool. Ao fim do desabafo, ele prop&otilde;e o projeto &ld"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A aba de coment&aacute;rios do v&iacute;deo est&aacute; repleta de mensagens de apoio a Felca. Nas redes Instagram e X, antigo Twitter, a resposta &eacute; diferente, e ele &eacute; duramente criticado por n&atilde;o se posicionar quanto &agrave; elei&ccedil;&atilde;o e por escolher publicar o v&iacute;deo nesta semana."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Memes e v&iacute;deos diversos ridicularizam o desabafo do influenciador. &ldquo;N&atilde;o queremos saber de sa&uacute;de mental agora, Felca, setembro acabou, outubro &eacute; m&ecirc;s de pol&iacute;tica&rdquo;, diz uma publica&ccedil;&atilde;o com mais de 6 000 curtidas. Outra com engajamento similar conta com a cena de Todo Mundo em P&acirc;nico 3 no qu"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "No momento, o nome do influenciador ocupa a primeira posi&ccedil;&atilde;o dos Trending Topics do X. Ele ainda n&atilde;o se pronunciou sobre a resposta adversa."
+          }
+        ],
+        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/10/x3JpSdy4b-I-HD.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/felca-promete-quebrar-silencio-e-decepciona-eleitores-de-lula.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "b00bb7e6663f811d",
+      "titulo": "Atlético-MG é advertido por dívidas com Bahia e Santos",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-sportsmkt/atletico-mg-e-advertido-por-dividas-com-bahia-e-santos/",
+      "dataFonte": "2026-10-20T12:16:15.000Z",
+      "resumoFonte": "Clube tem 45 dias para quitar ou pode sofrer transfer ban; Anresf rejeitou os argumentos apresentados pela defesa",
+      "imagem": "https://static.poder360.com.br/uploads/2026/10/Atletico-MG-1-1200x675.png",
+      "descobertaEm": "2026-10-20T12:18:27.707Z",
+      "reportagem": {
+        "titulo": "Atlético-MG é advertido por dívidas com Bahia e Santos",
+        "slug": "atletico-mg-e-advertido-por-dividas-com-bahia-e-santos",
+        "categoria": "Esporte",
+        "data": "2026-10-20",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/atletico-mg-e-advertido-por-dividas-com-bahia-e-santos.jpg",
+        "resumo": "Clube tem 45 dias para quitar ou pode sofrer transfer ban; Anresf rejeitou os argumentos apresentados pela defesa. Leia no Poder360.",
+        "conteudo": "<p>Clube tem 45 dias para quitar ou pode sofrer transfer ban; Anresf rejeitou os argumentos apresentados pela defesa</p><h2>Atlético-MG recebeu uma advertência pública da Anresf (Agência Nacional</h2><p>O Atlético-MG recebeu uma advertência pública da Anresf (Agência Nacional de Regulação e Sustentabilidade do Futebol) na 2ª feira (19.out.2026) por atrasos em pagamentos ao Bahia e ao Santos . O clube tem 45 dias, contados da notificação, para regularizar as pendências.</p><p>Se o prazo terminar sem pagamento ou acordo comunicado pelos credores, o time mineiro poderá sofrer um transfer ban , punição que impede o registro de novos jogadores. A restrição está prevista nas regras de controle de dívidas da Anresf .</p><p>Formulário de cadastro alertas grátis do Poder360 concordo com os termos da LGPD . Inscreva-se Inscreva-se</p><h2>Das pendências está relacionada à contratação definitiva do zagueiro</h2><p>Uma das pendências está relacionada à contratação definitiva do zagueiro Vitor Hugo , anunciada pelo Atlético em janeiro de 2026, depois de um período de empréstimo.</p><p>O clube se comprometeu a pagar ao Bahia 100 mil euros, cerca de R$ 597 mil, caso o defensor fosse titular em 15 partidas. A meta foi alcançada no fim de abril, e o pagamento deveria ter sido feito até maio.</p><p>A outra dívida envolve o meio-campista Victor Hugo , contratado do Flamengo quando estava emprestado ao Santos.</p><p>O acordo de empréstimo garantia ao clube paulista 10% de uma eventual transferência, caso não exercesse a preferência de compra e o atleta fosse negociado.</p><p>O percentual, conhecido como taxa de vitrine, ainda não foi repassado.</p><p>O Atlético apresentou argumentos relacionados ao plano coletivo na CNRD (Câmara Nacional de Resolução de Disputas) , a uma proposta de transação tributária e ao parcelamento do ISS (Imposto Sobre Serviços).</p><p>A Anresf rejeitou a defesa por considerar que esses instrumentos não estavam formalizados na data de corte da análise e, portanto, não afastavam os atrasos.</p><p>O clube afirmou que buscará resolver as pendências: “O Atlético foi intimado da decisão proferida pela Anresf e pontua que buscará solucionar as pendências junto aos seus credores, alguns deles frente aos quais o Atlético também possui créditos a receber” .</p><p>Como noticiou o Poder360 , o São Paulo também foi notificado pela agência em agosto. Na ocasião, recebeu prazo de 45 dias para regularizar uma dívida de R$ 600 mil com o Novorizontino, sob risco da mesma punição.</p><p>Atlético-MG é advertido por dívidas com Bahia e Santos Clube tem 45 dias para quitar ou pode sofrer transfer ban; Anresf rejeitou os argumentos apresentados pela defesa --> copiar link --></p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-sportsmkt/atletico-mg-e-advertido-por-dividas-com-bahia-e-santos/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Clube tem 45 dias para quitar ou pode sofrer transfer ban; Anresf rejeitou os argumentos apresentados pela defesa"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O Atlético-MG recebeu uma advertência pública da Anresf (Agência Nacional de Regulação e Sustentabilidade do Futebol) na 2ª feira (19.out.2026) por atrasos em pagamentos ao Bahia e ao Santos . O clube tem 45 dias, contados da notificação, para regularizar as pendências."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Se o prazo terminar sem pagamento ou acordo comunicado pelos credores, o time mineiro poderá sofrer um transfer ban , punição que impede o registro de novos jogadores. A restrição está prevista nas regras de controle de dívidas da Anresf ."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Formulário de cadastro alertas grátis do Poder360 concordo com os termos da LGPD . Inscreva-se Inscreva-se"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Uma das pendências está relacionada à contratação definitiva do zagueiro Vitor Hugo , anunciada pelo Atlético em janeiro de 2026, depois de um período de empréstimo. O clube se comprometeu a pagar ao Bahia 100 mil euros, cerca de R$ 597 mil, caso o defensor fosse titular em 15 partidas. A meta foi alcançada no fim de abril, e o pagamento deveria ter sido fei"
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/Atletico-MG-1-1200x675.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/atletico-mg-e-advertido-por-dividas-com-bahia-e-santos.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "1f23dbfc07372ca0",
+      "titulo": "Ala do STF considera que Moraes deveria pautar dosimetria em aceno ao bolsonarismo",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/politica/ala-do-stf-considera-que-moraes-deveria-pautar-dosimetria-em-aceno-ao-bolsonarismo/",
+      "dataFonte": "2026-10-20T12:00:18.000Z",
+      "resumoFonte": "Magistrado já autorizou retomada de visitas a Jair Bolsonaro, enquanto outros ministros tentam construir pontes com interlocutores de Flávio",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/07/2925611_fotoarena.jpg.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-10-20T12:18:27.707Z",
+      "reportagem": {
+        "titulo": "Ala do STF considera que Moraes deveria pautar dosimetria em aceno ao bolsonarismo",
+        "slug": "ala-do-stf-considera-que-moraes-deveria-pautar-dosimetria-em-aceno-ao-bolsonarismo",
+        "categoria": "Justiça",
+        "data": "2026-10-20",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/ala-do-stf-considera-que-moraes-deveria-pautar-dosimetria-em-aceno-ao-bolsonarismo.jpg",
+        "resumo": "Magistrado já autorizou retomada de visitas a Jair Bolsonaro, enquanto outros ministros tentam construir pontes com interlocutores de Flávio",
+        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril.</p><h2>Ala do Supremo Tribunal Federal (STF) fez chegar ao</h2><p>Uma ala do Supremo Tribunal Federal (STF) fez chegar ao ministro Alexandre de Moraes que ele deveria pautar o mais breve poss&iacute;vel as duas a&ccedil;&otilde;es diretas de inconstitucionalidade (ADI) que questionam a Lei da Dosimetria , que diminuiu as penas dos condenados pelos atos golpistas de 8 de janeiro de 2023 .</p><p>Em maio, Moraes suspendeu em decis&atilde;o individual a aplica&ccedil;&atilde;o do novo c&aacute;lculo das san&ccedil;&otilde;es para antigos apoiadores do ex-presidente Jair Bolsonaro, pediu parecer da Procuradoria-Geral da Rep&uacute;blica, mas n&atilde;o deu qualquer sinaliza&ccedil;&atilde;o de quando submeteria o tema a Plen&aacute;rio.</p><p>Se a ideia for levada adiante, o julgamento seria mais um aceno ao bolsonarismo no momento em que a Corte se encontra acuada pelo desgaste de imagem.</p><h2>Premido pelo Senado eleito no primeiro turno e amplamente</h2><p>Premido pelo Senado eleito no primeiro turno e amplamente favor&aacute;vel a processos de impeachment contra integrantes do Judici&aacute;rio, o STF tem tomado decis&otilde;es que tentam reconstruir pontes com a nova classe pol&iacute;tica eleita.</p><p>Decano do Supremo, o ministro Gilmar Mendes , por exemplo, arquivou o pedido de investiga&ccedil;&atilde;o contra o deputado e candidato a vice-presidente Alberto Gaspar (PL-AL), conforme antecipou VEJA .</p><p>Moraes, por sua vez, autorizou a retomada de visitas a Jair Bolsonaro, preso em pris&atilde;o domiciliar por liderar uma tentativa de golpe de Estado.</p><p>At&eacute; o momento Moraes n&atilde;o deu resposta aos apelos para pautar a dosimetria e se viu mais uma vez rifado pelo presidente Lula , que na quinta-feira, 15, durante sabatina na TV Globo, defendeu que n&atilde;o s&oacute; o magistrado fosse investigado, como tamb&eacute;m o ex-aliado Dias Toffoli e os ministros Andr&eacute; Mendon&ccedil;a, Nunes Marques, este &uacute;ltimo relator da tormentosa revis&atilde;o criminal de Jair Bolsonaro.</p><p>&ldquo;Muito provavelmente a quest&atilde;o da dosimetria tamb&eacute;m vai ser trazida a debate, n&atilde;o s&oacute; na revis&atilde;o do Bolsonaro.</p><p>&Eacute; uma tem&aacute;tica que n&atilde;o vai passar ao largo dessa aprecia&ccedil;&atilde;o.</p><p>Passado o per&iacute;odo eleitoral, vamos enfrentar todas as pautas&rdquo;, disse Nunes Marques &agrave;s P&aacute;ginas Amarelas de VEJA .</p><p>Em outra frente, integrantes do tribunal t&ecirc;m se reunido com interlocutores do senador Fl&aacute;vio Bolsonaro para discutir a rela&ccedil;&atilde;o de um eventual governo do Zero Um com o Judici&aacute;rio.</p><p>Embora o coordenador da campanha bolsonarista Rog&eacute;rio Marinho tenha dito ap&oacute;s encontros no STF que o andamento de um processo de impeachment contra Moraes parece inegoci&aacute;vel, a ideia dos magistrados &eacute; negociar por fora com outros bolsonaristas &mdash; e a partir da&iacute; analisar se Marinho tem ou n&atilde;o ascend&ecirc;ncia suficiente sobre a nova bancada eleita para dar como certo o destino do ministro que comandou o julgamento da chamada trama golpista.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/politica/ala-do-stf-considera-que-moraes-deveria-pautar-dosimetria-em-aceno-ao-bolsonarismo/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Uma ala do Supremo Tribunal Federal (STF) fez chegar ao ministro Alexandre de Moraes que ele deveria pautar o mais breve poss&iacute;vel as duas a&ccedil;&otilde;es diretas de inconstitucionalidade (ADI) que questionam a Lei da Dosimetria , que diminuiu as penas dos condenados pelos atos golpistas de 8 de janeiro de 2023 ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Em maio, Moraes suspendeu em decis&atilde;o individual a aplica&ccedil;&atilde;o do novo c&aacute;lculo das san&ccedil;&otilde;es para antigos apoiadores do ex-presidente Jair Bolsonaro, pediu parecer da Procuradoria-Geral da Rep&uacute;blica, mas n&atilde;o deu qualquer sinaliza&ccedil;&atilde;o de quando submeteria o tema a Plen&aacute;rio."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Se a ideia for levada adiante, o julgamento seria mais um aceno ao bolsonarismo no momento em que a Corte se encontra acuada pelo desgaste de imagem. Premido pelo Senado eleito no primeiro turno e amplamente favor&aacute;vel a processos de impeachment contra integrantes do Judici&aacute;rio, o STF tem tomado decis&otilde;es que tentam reconstruir pontes com "
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Decano do Supremo, o ministro Gilmar Mendes , por exemplo, arquivou o pedido de investiga&ccedil;&atilde;o contra o deputado e candidato a vice-presidente Alberto Gaspar (PL-AL), conforme antecipou VEJA . Moraes, por sua vez, autorizou a retomada de visitas a Jair Bolsonaro, preso em pris&atilde;o domiciliar por liderar uma tentativa de golpe de Estado."
+          }
+        ],
+        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/07/2925611_fotoarena.jpg.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/ala-do-stf-considera-que-moraes-deveria-pautar-dosimetria-em-aceno-ao-bolsonarismo.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "8cb5c02262b00361",
+      "titulo": "Como funciona uma medida provisória e o que o presidente pode fazer com ela",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/politica/como-funciona-uma-medida-provisoria-e-o-que-o-presidente-pode-fazer-com-ela/",
+      "dataFonte": "2026-10-20T12:00:00.000Z",
+      "resumoFonte": "MP entra em vigor imediatamente em casos de relevância e urgência, mas depende do Congresso para se tornar permanente",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/12/design-sem-nome-24.png?w=1000&h=600&crop=1",
+      "descobertaEm": "2026-10-20T12:18:27.707Z",
+      "reportagem": {
+        "titulo": "Como funciona uma medida provisória e o que o presidente pode fazer com ela | Jovem Pan",
+        "slug": "como-funciona-uma-medida-provisoria-e-o-que-o-presidente-pode-fazer-com-ela-jovem-pan",
+        "categoria": "Política Nacional",
+        "data": "2026-10-20",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/como-funciona-uma-medida-provisoria-e-o-que-o-presidente-pode-fazer-com-ela-jovem-pan.jpg",
+        "resumo": "MP entra em vigor imediatamente em casos de relevância e urgência, mas depende do Congresso para se tornar permanente",
+        "conteudo": "<p>Medidas provisórias costumam ganhar destaque no início de governos porque permitem ao presidente colocar uma regra em vigor antes da conclusão de uma votação no Congresso.</p><h2>Instrumento poderá ser usado pelo vencedor da disputa</h2><p>O instrumento poderá ser usado pelo vencedor da disputa entre Lula (PT) e Flávio Bolsonaro (PL), mas não sem limites.</p><p>A Constituição determina que a MP só pode ser adotada em caso de relevância e urgência. Depois de publicada, ela passa a ter força de lei e começa a produzir efeitos imediatamente.</p><p>O texto, no entanto, segue para o Congresso. Deputados e senadores podem aprovar, modificar ou rejeitar a medida. Se a análise não for concluída dentro do prazo constitucional, a MP perde eficácia.</p><h2>Vigência inicial é de 60 dias, prorrogável uma única</h2><p>A vigência inicial é de 60 dias, prorrogável uma única vez por mais 60. A partir de determinado momento da tramitação, a medida também pode trancar a pauta da Casa em que estiver sendo analisada.</p><p>Há assuntos em que a Constituição proíbe o uso de medida provisória. Por isso, o instrumento não funciona como um atalho universal para executar qualquer promessa de campanha.</p><p>Na prática, uma MP dá velocidade ao Executivo, mas a permanência da política depende da maioria parlamentar. Esse desenho ajuda a explicar por que a composição da Câmara e do Senado importa tanto para o próximo governo.</p><p>MP entra em vigor imediatamente em casos de relevância e urgência, mas depende do Congresso para se tornar permanente</p><p>Qual foi a eleição presidencial mais apertada da história recente do Brasil</p><p>Lula venceu Jair Bolsonaro em 2022 por pouco mais de 2,1 milhões de votos, a menor diferença de um segundo turno desde a redemocratização</p><p>Campanha de Lula recorre ao TSE e diz que Meta segue privilegiando Flávio</p><p>PGR defende manter prisão de parentes de Vorcaro e outros envolvidos no caso Master</p><p>Como consultar o local de votação para o segundo turno das Eleições 2026</p><p>Como Tarcísio tenta ampliar a votação de Flávio Bolsonaro em São Paulo</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/politica/como-funciona-uma-medida-provisoria-e-o-que-o-presidente-pode-fazer-com-ela/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Medidas provisórias costumam ganhar destaque no início de governos porque permitem ao presidente colocar uma regra em vigor antes da conclusão de uma votação no Congresso. O instrumento poderá ser usado pelo vencedor da disputa entre Lula (PT) e Flávio Bolsonaro (PL), mas não sem limites."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A Constituição determina que a MP só pode ser adotada em caso de relevância e urgência. Depois de publicada, ela passa a ter força de lei e começa a produzir efeitos imediatamente."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O texto, no entanto, segue para o Congresso. Deputados e senadores podem aprovar, modificar ou rejeitar a medida. Se a análise não for concluída dentro do prazo constitucional, a MP perde eficácia."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A vigência inicial é de 60 dias, prorrogável uma única vez por mais 60. A partir de determinado momento da tramitação, a medida também pode trancar a pauta da Casa em que estiver sendo analisada."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Há assuntos em que a Constituição proíbe o uso de medida provisória. Por isso, o instrumento não funciona como um atalho universal para executar qualquer promessa de campanha."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/12/design-sem-nome-24.png?w=1000&h=600&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/como-funciona-uma-medida-provisoria-e-o-que-o-presidente-pode-fazer-com-ela-jovem-pan.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
     {
       "id": "b8584f8f83b0652a",
       "titulo": "Lula sobre emendas à tarifa zero: disputa com Congresso ‘faz parte da democracia’",
@@ -68,210 +392,6 @@
         ],
         "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/10/lula.png",
         "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-sobre-emendas-a-tarifa-zero-disputa-com-congresso-faz-parte-da-democracia.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "cdea93234c13d9d7",
-      "titulo": "Lula reage, avança e empata com Flávio Bolsonaro a cinco dias da votação",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/coluna/jose-casado/lula-reage-avanca-e-empata-com-flavio-bolsonaro-a-cinco-dias-da-votacao/",
-      "dataFonte": "2026-10-20T11:00:59.000Z",
-      "resumoFonte": "Pesquisa Nexus encomendada pelo banco BTG mostra empate (44,5%) na intenção de voto espontânea e diferença de apenas 0,6 pontos na sondagem estimulada",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/10/55598370129_128ff48696_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-10-20T11:18:25.097Z",
-      "reportagem": {
-        "titulo": "Lula reage, avança e empata com Flávio Bolsonaro a cinco dias da votação | José Casado",
-        "slug": "lula-reage-avanca-e-empata-com-flavio-bolsonaro-a-cinco-dias-da-votacao-jose-casado",
-        "categoria": "Economia",
-        "data": "2026-10-20",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-reage-avanca-e-empata-com-flavio-bolsonaro-a-cinco-dias-da-votacao-jose-casado.jpg",
-        "resumo": "Pesquisa Nexus encomendada pelo banco BTG mostra empate (44,5%) na intenção de voto espontânea e diferença de apenas 0,6 pontos na sondagem estimulada",
-        "conteudo": "<p>Lula avan&ccedil;ou. Chegou &agrave; &uacute;ltima semana da elei&ccedil;&atilde;o presidencial empatado com Fl&aacute;vio Bolsonaro.</p><h2>No domingo (4/10), passou ao segundo turno eleitoral</h2><p>No domingo (4/10), passou ao segundo turno eleitoral com 53,8 milh&otilde;es de votos. N&atilde;o &eacute; pouca coisa para um pol&iacute;tico que est&aacute; completando o terceiro mandato em 37 anos de experi&ecirc;ncia em disputas presidenciais.</p><p>Nessa montanha de votos, por&eacute;m, estava embutida uma redu&ccedil;&atilde;o expressiva (quase 4 milh&otilde;es de votos) em compara&ccedil;&atilde;o com o resultado do primeiro turno em 2022.</p><p>Lula saiu das urnas com 2,3 milh&otilde;es de votos a menos que o advers&aacute;rio Fl&aacute;vio Bolsonaro .</p><h2>Perdeu a primeira rodada de vota&ccedil;&atilde;o por margem apertada</h2><p>Perdeu a primeira rodada de vota&ccedil;&atilde;o por margem apertada &mdash; por ironia, uma diferen&ccedil;a (1,8% do total) igual &agrave; da sua vit&oacute;ria contra Jair Bolsonaro no segundo turno de 2022.</p><p>Na semana passada, Lula continuava atr&aacute;s Fl&aacute;vio Bolsonaro em diferentes pesquisas, quase sempre a uma dist&acirc;ncia equivalente &agrave; do primeiro turno.</p><p>Foi o que mostrou na ter&ccedil;a-feira (13/10), por exemplo, a pesquisa Nexus encomendada pelo banco BTG. Ao medir a inten&ccedil;&atilde;o de voto espont&acirc;nea, constatou-se a tend&ecirc;ncia de manuten&ccedil;&atilde;o da dist&acirc;ncia (1,8%) apurada no primeiro turno.</p><p>A sondagem, com margem de erro admitida de 2 pontos percentuais, mostrava virtual empate entre candidatos, mas com not&aacute;vel vantagem de Fl&aacute;vio Bolsonaro (com 46,3%) em rela&ccedil;&atilde;o a Lula (44,5%).</p><p>A situa&ccedil;&atilde;o mudou na &uacute;ltima semana. Eleitores de Lula promoveram mobiliza&ccedil;&otilde;es nas ruas e nas redes sociais, quase sempre &agrave; margem ou mesmo &agrave; revelia do Partido dos Trabalhadores e do comit&ecirc; informal de campanha instalado no Pal&aacute;cio do Planalto.</p><p>O resultado foi uma rea&ccedil;&atilde;o surpreendente, captada na pesquisa Nexus divulgada nesta segunda-feira (19/10): a cinco dias da vota&ccedil;&atilde;o, a sondagem mostra empate na inten&ccedil;&atilde;o de voto espont&acirc;nea.</p><p>Situa&ccedil;&atilde;o incomum porque os eleitores se dividiram na prefer&ecirc;ncia em propor&ccedil;&atilde;o (44,5%) igual at&eacute; na casa decimal.</p><p>A mudan&ccedil;a se confirma na inten&ccedil;&atilde;o de voto estimulada, quando o eleitor escolhe entre nomes apresentados na pesquisa.</p><p>Uma semana atr&aacute;s, Fl&aacute;vio Bolsonaro (com 47,9%) estava bem &agrave; frente de Lula (45,1%). Na medi&ccedil;&atilde;o desta segunda-feira, a dist&acirc;ncia diminuiu muito.</p><p>Agora, Fl&aacute;vio Bolsonaro (com 46,5%) est&aacute; muito pouco &agrave; frente de Lula (45,9%). A diferen&ccedil;a que era de 2,8 pontos de vantagem caiu para 0,6 pontos.</p><p>Pesquisas n&atilde;o antecipam resultados eleitorais, mostram tend&ecirc;ncias. A da Nexus n&atilde;o captou os efeitos do debate da noite de domingo na Rede Bandeirantes, que acabou inviabilizado por Fl&aacute;vio Bolsonaro e Lula por excesso de insultos.</p><p>Durante duas horas, os candidatos confirmaram a indig&ecirc;ncia de ideias que tende a caracterizar o pr&oacute;ximo governo.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/coluna/jose-casado/lula-reage-avanca-e-empata-com-flavio-bolsonaro-a-cinco-dias-da-votacao/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Lula avan&ccedil;ou. Chegou &agrave; &uacute;ltima semana da elei&ccedil;&atilde;o presidencial empatado com Fl&aacute;vio Bolsonaro."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "No domingo (4/10), passou ao segundo turno eleitoral com 53,8 milh&otilde;es de votos. N&atilde;o &eacute; pouca coisa para um pol&iacute;tico que est&aacute; completando o terceiro mandato em 37 anos de experi&ecirc;ncia em disputas presidenciais."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Nessa montanha de votos, por&eacute;m, estava embutida uma redu&ccedil;&atilde;o expressiva (quase 4 milh&otilde;es de votos) em compara&ccedil;&atilde;o com o resultado do primeiro turno em 2022."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Lula saiu das urnas com 2,3 milh&otilde;es de votos a menos que o advers&aacute;rio Fl&aacute;vio Bolsonaro ."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Perdeu a primeira rodada de vota&ccedil;&atilde;o por margem apertada &mdash; por ironia, uma diferen&ccedil;a (1,8% do total) igual &agrave; da sua vit&oacute;ria contra Jair Bolsonaro no segundo turno de 2022."
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/10/55598370129_128ff48696_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-reage-avanca-e-empata-com-flavio-bolsonaro-a-cinco-dias-da-votacao-jose-casado.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "5e2d2c4e12a170d1",
-      "titulo": "Renan Santos tem razão",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/deborah-bizarria/2026/10/renan-santos-tem-razao.shtml",
-      "dataFonte": "2026-10-20T11:00:00.000Z",
-      "resumoFonte": "\"Nós somos uns idiotas\", disse o ex-candidato Renan Santos , em uma live, ao lamentar o fraco desempenho do seu partido, o Missão. Apontando para o seu livro de propostas, decretou que propor soluções para a coisa pública havia se tornado ultrapassado: na sua avaliação, o político atual existe apenas para validar sua bolha. \"Como é que a gente…",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/19/17924376366ad66d849b767_1792437636_3x2_rt.jpg",
-      "descobertaEm": "2026-10-20T11:18:25.097Z",
-      "reportagem": {
-        "titulo": "Opinião - Deborah Bizarria: Renan Santos tem razão",
-        "slug": "opiniao-deborah-bizarria-renan-santos-tem-razao",
-        "categoria": "Cultura",
-        "data": "2026-10-20",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/opiniao-deborah-bizarria-renan-santos-tem-razao.jpg",
-        "resumo": "Seguimos sem saber como o próximo governo e o Congresso enfrentarão desafios econômicos",
-        "conteudo": "<p>Economista pela UFPE e especialista em gestão pública no Insper. Estudou economia comportamental na Warwick University (Reino Unido) e é associada do Livres</p><h2>\"Nós somos uns idiotas\", disse o ex-candidato Renan Santos</h2><p>\"Nós somos uns idiotas\", disse o ex-candidato Renan Santos , em uma live, ao lamentar o fraco desempenho do seu partido, o Missão.</p><p>Apontando para o seu livro de propostas, decretou que propor soluções para a coisa pública havia se tornado ultrapassado: na sua avaliação, o político atual existe apenas para validar sua bolha.</p><p>\"Como é que a gente gastou nosso tempo?\", perguntou.</p><h2>Receba no seu email uma seleção de colunas</h2><p>Receba no seu email uma seleção de colunas da Folha</p><p>Como alguém que vive discordando de Renan Santos, não imaginava escrever isto: ele tem toda razão. A menos de uma semana do segundo turno, seguimos sem saber como o próximo governo e o Congresso eleito enfrentarão os desafios econômicos.</p><p>Os atuais candidatos e suas equipes tentam nos convencer de que irão equilibrar as contas públicas.</p><p>Embora o problema seja urgente, uma agenda de crescimento exige ir além do fiscal: definir as mudanças necessárias para ampliar a produtividade e a renda e construir apoio político para implementá-las.</p><p>Na prática, elevar a produtividade significa gerar mais valor com os mesmos recursos. Então, se cada hora trabalhada gera mais renda , é possível reduzir o custo de vida, encurtar a jornada de trabalho e financiar políticas que reduzam as desigualdades.</p><p>Assim, para viabilizar esses ganhos, o governo eleito precisa facilitar o acesso a insumos e tecnologias e melhorar a infraestrutura.</p><p>Os investimentos devem ser escolhidos pelos benefícios que trazem à população e devem ter continuidade entre mandatos. Essas frentes integram o estudo sobre produtividade do CDPP (Centro de Debate de Políticas Públicas).</p><p>Além disso, as empresas mais eficientes precisam de espaço para crescer e conquistar mercados.</p><p>Barreiras à entrada e proteções setoriais podem, porém, limitar essa expansão e manter capital e trabalho em atividades menos produtivas.</p><p>Rever essas regras exige contrariar seus beneficiários, inclusive entre os aliados.</p><p>A renovação dos incentivos às empresas deveria depender de ganhos de produtividade. Uma avaliação do BID (Banco Interamericano de Desenvolvimento) , publicada em 2017, identificou poucos efeitos positivos nos programas examinados, com muitos resultados inconclusivos.</p><p>Mas o apoio político de setores beneficiados pesa nas decisões dos governantes, como formalizaram Gene Grossman e Elhanan Helpman .</p><p>Na reforma tributária, por exemplo, a promessa de simplificação cedeu espaço a exceções e regimes diferenciados , incluindo a redução de tributos para parques aquáticos.</p><p>Às vezes, o poder de barganha de um setor atropela a lógica dos ganhos para a sociedade.</p><p>Com ou sem maioria no Congresso, o próximo presidente precisará negociar essas escolhas e enfrentar interesses conflitantes entre seus aliados.</p><p>Afinal, parlamentares unidos na defesa de valores e na oposição a adversários podem se dividir sobre quais subsídios cortar ou quais investimentos priorizar.</p><p>Os parlamentares com força nas redes poderiam ajudar a explicar essas escolhas e mobilizar apoio.</p><p>Ao mesmo tempo, a incerteza sobre quem ganha e quem perde pode bloquear reformas que, depois de realizadas, teriam apoio, segundo estudo de Raquel Fernández e Dani Rodrik .</p><p>Por isso, qualificação, auxílio na busca de emprego e proteção da renda precisam fazer parte da transição, com compromissos que as pessoas possam cobrar.</p><p>Meu receio é que a influência conquistada nas redes continue servindo apenas para reforçar lealdades e poupar os eleitos do desgaste de contrariar a própria base.</p><p>Um livro de propostas pode render poucos votos e uma coluna de análise, poucas visualizações. Mas governar e gerar prosperidade continuarão exigindo decisões difíceis e a coragem de defendê-las.</p><p>Então, acho que vale a pena seguir sendo uma idiota que fala de propostas e evidências e torce pelo melhor.</p><p>LINK PRESENTE: Gostou deste texto? Assinante pode liberar sete acessos gratuitos de qualquer link por dia. Basta clicar no F azul abaixo.</p><p>Mais de 180 reportagens e análises publicadas a cada dia. Um time com mais de 200 colunistas e blogueiros.</p><p>Um jornalismo profissional que fiscaliza o poder público, veicula notícias proveitosas e inspiradoras, faz contraponto à intolerância das redes sociais e traça uma linha clara entre verdade e mentira.</p><p>\"Nós somos uns idiotas\", disse o ex-candidato Renan Santos , em uma live, ao lamentar o fraco desempenho do seu partido, o Missão.</p><p>Apontando para o seu livro de propostas, decretou que propor soluções para a coisa pública havia se tornado ultrapassado: na sua avaliação, o político atual existe apenas para validar sua bolha.</p><p>\"Como é que a gente gastou nosso tempo?\", perguntou. Colunas Receba no seu email uma seleção de colunas da Folha</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://www1.folha.uol.com.br/colunas/deborah-bizarria/2026/10/renan-santos-tem-razao.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Economista pela UFPE e especialista em gestão pública no Insper. Estudou economia comportamental na Warwick University (Reino Unido) e é associada do Livres"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "\"Nós somos uns idiotas\", disse o ex-candidato Renan Santos , em uma live, ao lamentar o fraco desempenho do seu partido, o Missão. Apontando para o seu livro de propostas, decretou que propor soluções para a coisa pública havia se tornado ultrapassado: na sua avaliação, o político atual existe apenas para validar sua bolha. \"Como é que a gente gastou nosso t"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Receba no seu email uma seleção de colunas da Folha"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Como alguém que vive discordando de Renan Santos, não imaginava escrever isto: ele tem toda razão. A menos de uma semana do segundo turno, seguimos sem saber como o próximo governo e o Congresso eleito enfrentarão os desafios econômicos."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os atuais candidatos e suas equipes tentam nos convencer de que irão equilibrar as contas públicas. Embora o problema seja urgente, uma agenda de crescimento exige ir além do fiscal: definir as mudanças necessárias para ampliar a produtividade e a renda e construir apoio político para implementá-las."
-          }
-        ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/19/17924376366ad66d849b767_1792437636_3x2_rt.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/opiniao-deborah-bizarria-renan-santos-tem-razao.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "a6ab7731bbeb49c1",
-      "titulo": "Em missão inédita, Japão lança foguete à lua de Marte para coletar amostras",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/mundo/em-missao-inedita-japao-lanca-foguete-a-lua-de-marte-para-coletar-amostras",
-      "dataFonte": "2026-10-20T11:09:15.000Z",
-      "resumoFonte": "Segundo a transmissão ao vivo da Agência de Exploração Aeroespacial do Japão (Jaxa), às 4h41 de terça-feira (20/10)",
-      "imagem": "https://i.metroimg.com/MPKOshRGnYdbPUVvzUQu1_siIdxFGBHnY3jdRWyeZo4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/foguete-parte-do-japao-em-missao-para-lua-de-marte.jpg",
-      "descobertaEm": "2026-10-20T11:18:25.097Z"
-    },
-    {
-      "id": "bc31e236652dfdd5",
-      "titulo": "Brasileirão: veja as chances de rebaixamento após 31 rodadas",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/esportes/brasileirao-veja-as-chances-de-rebaixamento-apos-31-rodadas",
-      "dataFonte": "2026-10-20T11:10:07.000Z",
-      "resumoFonte": "Após 31ª rodadas, Corinthians segue pressionado pelo Z-4, enquanto Chape, Remo, Grêmio e Internacional aparecem entre os mais ameaçados",
-      "imagem": "https://i.metroimg.com/wncYhVvtRI5hoPlgu097QnCuGvWMB3oCUmQdFVf2f8E/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/renato-gaucho-remo-x-gremio.jpg",
-      "descobertaEm": "2026-10-20T11:18:25.097Z"
-    },
-    {
-      "id": "40ec578b32d95f20",
-      "titulo": "Palmeiras suspende conselheiro por 9 meses",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-sportsmkt/palmeiras-suspende-conselheiro-por-9-meses/",
-      "dataFonte": "2026-10-20T11:15:42.000Z",
-      "resumoFonte": "José Corona Neto foi punido depois de discutir com Leila Pereira em reunião do Conselho Deliberativo, em dezembro de 2025",
-      "imagem": "https://static.poder360.com.br/uploads/2026/08/Palmeiras-Nubank-Parque-1.png",
-      "descobertaEm": "2026-10-20T11:18:25.097Z",
-      "reportagem": {
-        "titulo": "Palmeiras suspende conselheiro por 9 meses",
-        "slug": "palmeiras-suspende-conselheiro-por-9-meses",
-        "categoria": "Justiça",
-        "data": "2026-10-20",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/palmeiras-suspende-conselheiro-por-9-meses.jpg",
-        "resumo": "José Corona Neto foi punido depois de discutir com Leila Pereira em reunião do Conselho Deliberativo, em dezembro de 2025. Leia no Poder360.",
-        "conteudo": "<p>José Corona Neto foi punido depois de discutir com Leila Pereira em reunião do Conselho Deliberativo, em dezembro de 2025</p><h2>Conselho Deliberativo do Palmeiras suspendeu o conselheiro José Corona</h2><p>O Conselho Deliberativo do Palmeiras suspendeu o conselheiro José Corona Neto por 9 meses.</p><p>A decisão foi tomada depois da aprovação do relatório de uma sindicância que investigou a discussão entre ele e a presidente Leila Pereira , segundo reportagem publicada na 2ª feira (19.out.2026) pelos jornalistas Camila Alves e Thiago Ferri do Globo Esporte .</p><p>A suspensão recebeu 121 votos favoráveis. Outros 42 conselheiros votaram contra e 33 se abstiveram. O relatório recomendou a punição por considerar inadequada a conduta de Corona Neto durante a reunião.</p><h2>Formulário de cadastro alertas grátis do Poder360 concordo</h2><p>Formulário de cadastro alertas grátis do Poder360 concordo com os termos da LGPD . Inscreva-se Inscreva-se</p><p>O caso foi em dezembro de 2025, quando o conselheiro criticou a gestão e a montagem do elenco. Corona apresentou números considerados falsos sobre transações do clube.</p><p>Durante o discurso, afirmou que “quem não entende de futebol, não pode ser presidente do Palmeiras, tem que ficar em casa” . Também chamou o diretor de futebol Anderson Barros de incompetente e disse que ele “só pensa em comer” .</p><p>Leila respondeu chamando Corona Neto de covarde, fracassado e desequilibrado. Depois da discussão, o conselheiro acionou a Justiça e pediu R$ 20.000 por danos morais, alegando ter sido ofendido pela dirigente.</p><p>O pedido de indenização foi julgado improcedente. O juiz Fernando Salles Amaral entendeu que a troca de ofensas em um ambiente de disputa política não justificava indenização.</p><p>Palmeiras suspende conselheiro por 9 meses José Corona Neto foi punido depois de discutir com Leila Pereira em reunião do Conselho Deliberativo, em dezembro de 2025 --> copiar link --></p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-sportsmkt/palmeiras-suspende-conselheiro-por-9-meses/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "José Corona Neto foi punido depois de discutir com Leila Pereira em reunião do Conselho Deliberativo, em dezembro de 2025"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Conselho Deliberativo do Palmeiras suspendeu o conselheiro José Corona Neto por 9 meses. A decisão foi tomada depois da aprovação do relatório de uma sindicância que investigou a discussão entre ele e a presidente Leila Pereira , segundo reportagem publicada na 2ª feira (19.out.2026) pelos jornalistas Camila Alves e Thiago Ferri do Globo Esporte ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A suspensão recebeu 121 votos favoráveis. Outros 42 conselheiros votaram contra e 33 se abstiveram. O relatório recomendou a punição por considerar inadequada a conduta de Corona Neto durante a reunião."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Formulário de cadastro alertas grátis do Poder360 concordo com os termos da LGPD . Inscreva-se Inscreva-se"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O caso foi em dezembro de 2025, quando o conselheiro criticou a gestão e a montagem do elenco. Corona apresentou números considerados falsos sobre transações do clube."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/08/Palmeiras-Nubank-Parque-1.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/palmeiras-suspende-conselheiro-por-9-meses.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -337,6 +457,258 @@
       }
     },
     {
+      "id": "cdea93234c13d9d7",
+      "titulo": "Lula reage, avança e empata com Flávio Bolsonaro a cinco dias da votação",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/coluna/jose-casado/lula-reage-avanca-e-empata-com-flavio-bolsonaro-a-cinco-dias-da-votacao/",
+      "dataFonte": "2026-10-20T11:00:59.000Z",
+      "resumoFonte": "Pesquisa Nexus encomendada pelo banco BTG mostra empate (44,5%) na intenção de voto espontânea e diferença de apenas 0,6 pontos na sondagem estimulada",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/10/55598370129_128ff48696_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-10-20T11:18:25.097Z",
+      "reportagem": {
+        "titulo": "Lula reage, avança e empata com Flávio Bolsonaro a cinco dias da votação | José Casado",
+        "slug": "lula-reage-avanca-e-empata-com-flavio-bolsonaro-a-cinco-dias-da-votacao-jose-casado",
+        "categoria": "Economia",
+        "data": "2026-10-20",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-reage-avanca-e-empata-com-flavio-bolsonaro-a-cinco-dias-da-votacao-jose-casado.jpg",
+        "resumo": "Pesquisa Nexus encomendada pelo banco BTG mostra empate (44,5%) na intenção de voto espontânea e diferença de apenas 0,6 pontos na sondagem estimulada",
+        "conteudo": "<p>Lula avan&ccedil;ou. Chegou &agrave; &uacute;ltima semana da elei&ccedil;&atilde;o presidencial empatado com Fl&aacute;vio Bolsonaro .</p><h2>No domingo (4/10), passou ao segundo turno eleitoral</h2><p>No domingo (4/10), passou ao segundo turno eleitoral com 53,8 milh&otilde;es de votos. N&atilde;o &eacute; pouca coisa para um pol&iacute;tico que est&aacute; completando o terceiro mandato em 37 anos de experi&ecirc;ncia em disputas presidenciais.</p><p>Nessa montanha de votos, por&eacute;m, estava embutida uma redu&ccedil;&atilde;o expressiva (quase 4 milh&otilde;es de votos) em compara&ccedil;&atilde;o com o resultado do primeiro turno em 2022.</p><p>Lula saiu das urnas com 2,3 milh&otilde;es de votos a menos que o advers&aacute;rio Fl&aacute;vio Bolsonaro .</p><h2>Perdeu a primeira rodada de vota&ccedil;&atilde;o por margem apertada</h2><p>Perdeu a primeira rodada de vota&ccedil;&atilde;o por margem apertada &mdash; por ironia, uma diferen&ccedil;a (1,8% do total) igual &agrave; da sua vit&oacute;ria contra Jair Bolsonaro no segundo turno de 2022.</p><p>Na semana passada, Lula continuava atr&aacute;s Fl&aacute;vio Bolsonaro em diferentes pesquisas, quase sempre a uma dist&acirc;ncia equivalente &agrave; do primeiro turno.</p><p>Foi o que mostrou na ter&ccedil;a-feira (13/10), por exemplo, a pesquisa Nexus encomendada pelo banco BTG. Ao medir a inten&ccedil;&atilde;o de voto espont&acirc;nea, constatou-se a tend&ecirc;ncia de manuten&ccedil;&atilde;o da dist&acirc;ncia (1,8%) apurada no primeiro turno.</p><p>A sondagem, com margem de erro admitida de 2 pontos percentuais, mostrava virtual empate entre candidatos, mas com not&aacute;vel vantagem de Fl&aacute;vio Bolsonaro (com 46,3%) em rela&ccedil;&atilde;o a Lula (44,5%).</p><p>A situa&ccedil;&atilde;o mudou na &uacute;ltima semana. Eleitores de Lula promoveram mobiliza&ccedil;&otilde;es nas ruas e nas redes sociais, quase sempre &agrave; margem ou mesmo &agrave; revelia do Partido dos Trabalhadores e do comit&ecirc; informal de campanha instalado no Pal&aacute;cio do Planalto.</p><p>O resultado foi uma rea&ccedil;&atilde;o surpreendente, captada na pesquisa Nexus divulgada nesta segunda-feira (19/10): a cinco dias da vota&ccedil;&atilde;o, a sondagem mostra empate na inten&ccedil;&atilde;o de voto espont&acirc;nea.</p><p>Situa&ccedil;&atilde;o incomum porque os eleitores se dividiram na prefer&ecirc;ncia em propor&ccedil;&atilde;o (44,5%) igual at&eacute; na casa decimal.</p><p>A mudan&ccedil;a se confirma na inten&ccedil;&atilde;o de voto estimulada, quando o eleitor escolhe entre nomes apresentados na pesquisa.</p><p>Uma semana atr&aacute;s, Fl&aacute;vio Bolsonaro (com 47,9%) estava bem &agrave; frente de Lula (45,1%). Na medi&ccedil;&atilde;o desta segunda-feira, a dist&acirc;ncia diminuiu muito.</p><p>Agora, Fl&aacute;vio Bolsonaro (com 46,5%) est&aacute; muito pouco &agrave; frente de Lula (45,9%). A diferen&ccedil;a que era de 2,8 pontos de vantagem caiu para 0,6 pontos.</p><p>Pesquisas n&atilde;o antecipam resultados eleitorais, mostram tend&ecirc;ncias. A da Nexus n&atilde;o captou os efeitos do debate da noite de domingo na Rede Bandeirantes, que acabou inviabilizado por Fl&aacute;vio Bolsonaro e Lula por excesso de insultos.</p><p>Durante duas horas, os candidatos confirmaram a indig&ecirc;ncia de ideias que tende a caracterizar o pr&oacute;ximo governo.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/coluna/jose-casado/lula-reage-avanca-e-empata-com-flavio-bolsonaro-a-cinco-dias-da-votacao/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Lula avan&ccedil;ou. Chegou &agrave; &uacute;ltima semana da elei&ccedil;&atilde;o presidencial empatado com Fl&aacute;vio Bolsonaro ."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "No domingo (4/10), passou ao segundo turno eleitoral com 53,8 milh&otilde;es de votos. N&atilde;o &eacute; pouca coisa para um pol&iacute;tico que est&aacute; completando o terceiro mandato em 37 anos de experi&ecirc;ncia em disputas presidenciais."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Nessa montanha de votos, por&eacute;m, estava embutida uma redu&ccedil;&atilde;o expressiva (quase 4 milh&otilde;es de votos) em compara&ccedil;&atilde;o com o resultado do primeiro turno em 2022."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Lula saiu das urnas com 2,3 milh&otilde;es de votos a menos que o advers&aacute;rio Fl&aacute;vio Bolsonaro ."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Perdeu a primeira rodada de vota&ccedil;&atilde;o por margem apertada &mdash; por ironia, uma diferen&ccedil;a (1,8% do total) igual &agrave; da sua vit&oacute;ria contra Jair Bolsonaro no segundo turno de 2022."
+          }
+        ],
+        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/10/55598370129_128ff48696_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-reage-avanca-e-empata-com-flavio-bolsonaro-a-cinco-dias-da-votacao-jose-casado.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "7dceca84d7b9e77c",
+      "titulo": "Dólar hoje recua com exterior e eleições em foco",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-20102026/",
+      "dataFonte": "2026-10-20T12:19:46.000Z",
+      "resumoFonte": "Um caixa conta notas de dólar americano em uma casa de câmbio – 09/04/2025 (Foto: REUTERS/Willy Kurniawan) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/08/Captura-de-tela-2026-08-18-125421.png?fit=908%2C609&quality=70&strip=all\" />Flávio tem 52% dos votos válidos e Lula, 48% no 2º turno, em nova pesquisa The post Dólar…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/08/Captura-de-tela-2026-08-18-125421.png",
+      "descobertaEm": "2026-10-20T12:18:27.707Z"
+    },
+    {
+      "id": "65a565049fb54fff",
+      "titulo": "Dólar abre em queda, cotado a R$ 5,02 nesta terça (20/10)",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/brasil/dolar-nesta-terca-20-10",
+      "dataFonte": "2026-10-20T12:15:57.000Z",
+      "resumoFonte": "Na segunda (19/10), o dólar fechou cotado a R$ 5,05, com recuo de 0,49%. Petróleo é um dos fatores que movimentam o mercado nesta terça",
+      "imagem": "https://i.metroimg.com/sEbBZKyLGNAsDrVA4tr99MUzRHBUQC0LixwHR_50KW8/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/0ebfc0d0-dolar.jpg",
+      "descobertaEm": "2026-10-20T12:18:27.707Z",
+      "reportagem": {
+        "titulo": "Dólar abre em queda, cotado a R$ 5,02 nesta terça (20/10)",
+        "slug": "dolar-abre-em-queda-cotado-a-r-5-02-nesta-terca-20-10",
+        "categoria": "Economia",
+        "data": "2026-10-20",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/dolar-abre-em-queda-cotado-a-r-5-02-nesta-terca-20-10.jpg",
+        "resumo": "Na segunda (19/10), o dólar fechou cotado a R$ 5,05, com recuo de 0,49%. Petróleo é um dos fatores que movimentam o mercado nesta terça",
+        "conteudo": "<p>O dólar comercial abriu esta terça-feira (20/10) operando em queda em relação ao fechamento dessa quinta-feira (19/10). Às 9h07 , a moeda norte-americana estava cotada a R$ 5,02 , com variação negativa de 0,57% .</p><h2>Na segunda (19/10), o dólar fechou cotado a R$</h2><p>Na segunda (19/10), o dólar fechou cotado a R$ 5,05 , com recuo de 0,49% .</p><p>Nesta terça, os mercados internacionais estão atentos à alta do preço do barril do petróleo, que passou dos US$ 111. Também no cenário externo, há expectativa sobre os resultados das empresas de inteligência artificial.</p><p>No Brasil, o foco se mantém na disputa à Presidência da República.</p><h2>Nesta terça, a Pesquisa Real Time Big Data mostra</h2><p>Nesta terça, a Pesquisa Real Time Big Data mostra o senador Flávio Bolsonaro (PL-RJ) com 52% dos votos válidos na disputa pelo segundo turno da Presidência da República.</p><p>O presidente Luiz Inácio Lula da Silva (PT), candidato à reeleição, aparece com 48%. Ambos estão empatados tecnicamente no limite da margem de erro .</p><p>Cotação do dólar: a moeda norte-americana era negociada a R$ 5,02 às 9h07 de 20 de outubro, com variação negativa de 0,57%; Cenário do petróleo: o barril do tipo brent era negociado a US$ 111,46 às 9h03 de 20 de outubro, com alta de 1,74% em 24 horas; Disputa eleitoral: pesquisa Real Time Big Data indica Flávio Bolsonaro com 52% e Luiz Inácio Lula da Silva com 48% dos votos válidos, estando ambos empatados tecnicamente no limite da margem de erro.</p><p>Receba no seu email as notícias de Boletim Metrópoles Frequência de envio: Diário Ver todas</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/brasil/dolar-nesta-terca-20-10",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O dólar comercial abriu esta terça-feira (20/10) operando em queda em relação ao fechamento dessa quinta-feira (19/10). Às 9h07 , a moeda norte-americana estava cotada a R$ 5,02 , com variação negativa de 0,57% ."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Na segunda (19/10), o dólar fechou cotado a R$ 5,05 , com recuo de 0,49% ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Nesta terça, os mercados internacionais estão atentos à alta do preço do barril do petróleo, que passou dos US$ 111. Também no cenário externo, há expectativa sobre os resultados das empresas de inteligência artificial."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "No Brasil, o foco se mantém na disputa à Presidência da República."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Nesta terça, a Pesquisa Real Time Big Data mostra o senador Flávio Bolsonaro (PL-RJ) com 52% dos votos válidos na disputa pelo segundo turno da Presidência da República. O presidente Luiz Inácio Lula da Silva (PT), candidato à reeleição, aparece com 48%. Ambos estão empatados tecnicamente no limite da margem de erro ."
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/sEbBZKyLGNAsDrVA4tr99MUzRHBUQC0LixwHR_50KW8/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/0ebfc0d0-dolar.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/dolar-abre-em-queda-cotado-a-r-5-02-nesta-terca-20-10.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "1f8d02cddba1b453",
+      "titulo": "Ibovespa Futuro sobe 1% com petróleo em alta e nova pesquisa eleitoral",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/mercados/ibovespa-futuro-sobe-1-com-petroleo-em-alta-e-nova-pesquisa-eleitoral/",
+      "dataFonte": "2026-10-20T12:12:14.000Z",
+      "resumoFonte": "(Foto: Divulgação) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/10/b3.webp?fit=1024%2C682&quality=70&strip=all\" />Os preços do barril do petróleo no mercado internacional voltaram a subir nesta terça, com o Brent superando a marca de US$ 110 por barril The post Ibovespa Futuro sobe 1% com petróleo em alta e nova pesquisa…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/10/b3.webp",
+      "descobertaEm": "2026-10-20T12:18:27.707Z",
+      "reportagem": {
+        "titulo": "Ibovespa Futuro sobe 1% com petróleo em alta e nova pesquisa eleitoral",
+        "slug": "ibovespa-futuro-sobe-1-com-petroleo-em-alta-e-nova-pesquisa-eleitoral",
+        "categoria": "Economia",
+        "data": "2026-10-20",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/ibovespa-futuro-sobe-1-com-petroleo-em-alta-e-nova-pesquisa-eleitoral.jpg",
+        "resumo": "Os preços do barril do petróleo no mercado internacional voltaram a subir nesta terça, com o Brent superando a marca de US$ 110 por barril",
+        "conteudo": "<p>O Ibovespa Futuro opera em alta nos primeiro negócios desta terça-feira (20), em meio à nova alta nos preços internacionais do petróleo, enquanto investidores repercutem nova pesquisa eleitoral. Por volta das 9h02 (horário de Brasília), o índice subia 1,04%, aos 210.665 pontos.</p><h2>Preços do barril do petróleo no mercado internacional voltaram</h2><p>Os preços do barril do petróleo no mercado internacional voltaram a subir nesta terça, com o Brent superando a marca de US$110 após os militantes houthis, do Iêmen, afirmarem na segunda-feira que atacaram uma série de instalações do setor de energia, aeroportuário e militar da Arábia Saudita.</p><p>No front dos balanços corporativos, os resultados da SpaceX e da Netflix devem ser anunciados nesta terça-feira, enquanto os números de pesos pesados do setor de IA Meta e Tesla devem sair ainda nesta semana.</p><p>Na cena local, os investidores devem permanecer atentos ao noticiário sobre o segundo turno da eleição presidencial, marcado para o próximo domingo entre o senador Flávio Bolsonaro (PL) e o presidente Luiz Inácio Lula da Silva (PT).</p><h2>Na noite de segunda, em entrevista ao SBT, Lula</h2><p>Na noite de segunda, em entrevista ao SBT, Lula negou que medidas adotadas por seu governo nos últimos dias, como o reajuste do Bolsa Família e o perdão de dívidas de microempreendedores individuais (MEI), sejam uma bomba fiscal e afirmou que há espaço no orçamento para todas elas.</p><p>Flávio Bolsonaro aparece com 52% dos votos válidos em uma simulação de segundo turno contra Lula, segundo pesquisa Real Time Big Data divulgada. O presidente registra 48%.</p><p>Diferença de quatro pontos está no limite da margem de erro do levantamento, de dois pontos percentuais para cada lado</p><p>A estreia desastrosa de uma empresa sul-coreana de data centers reacendeu as preocupações sobre a sustentabilidade do forte ciclo de investimentos na tecnologia</p><p>Em Wall Street, o Dow Jones Futuro operava em alta de 0,11%, o S&amp;P 500 recuava 0,14% e Nasdaq tinha desvalorização de 0,62%.</p><p>O dólar futuro operava com baixa de 0,27% na B3, aos R$ 5,040.</p><p>Os mercados da Ásia-Pacífico fecharam no vermelho, com as ações sul-coreanas liderando as perdas.</p><p>O índice Kospi, da Coreia do Sul, caiu 3,73%, fechando o dia em 5.552,74 pontos. As gigantes SK Hynix e Samsung Electronics recuaram 4,23% e 2,98%, respectivamente. O índice Kosdaq, de pequenas empresas, caiu mais de 3%, para 781,97 pontos.</p><p>Já a empresa de infraestrutura de IA Elice Group teve uma queda de quase 30% em relação ao seu preço inicial de oferta pública nesta terça-feira.</p><p>Os preços do petróleo operam em alta, à medida que os investidores precificavam um prêmio de risco geopolítico decorrente dos ataques dos houthis à infraestrutura saudita e de relatos de ataques a embarcações no Golfo.</p><p>As cotações do minério de ferro na China fecharam em baixa, com um aumento nos embarques globais e na chegada de minério aos portos chineses, evidenciando a oferta abundante no mercado.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/mercados/ibovespa-futuro-sobe-1-com-petroleo-em-alta-e-nova-pesquisa-eleitoral/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Ibovespa Futuro opera em alta nos primeiro negócios desta terça-feira (20), em meio à nova alta nos preços internacionais do petróleo, enquanto investidores repercutem nova pesquisa eleitoral. Por volta das 9h02 (horário de Brasília), o índice subia 1,04%, aos 210.665 pontos."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Os preços do barril do petróleo no mercado internacional voltaram a subir nesta terça, com o Brent superando a marca de US$110 após os militantes houthis, do Iêmen, afirmarem na segunda-feira que atacaram uma série de instalações do setor de energia, aeroportuário e militar da Arábia Saudita."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "No front dos balanços corporativos, os resultados da SpaceX e da Netflix devem ser anunciados nesta terça-feira, enquanto os números de pesos pesados do setor de IA Meta e Tesla devem sair ainda nesta semana."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Na cena local, os investidores devem permanecer atentos ao noticiário sobre o segundo turno da eleição presidencial, marcado para o próximo domingo entre o senador Flávio Bolsonaro (PL) e o presidente Luiz Inácio Lula da Silva (PT)."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Na noite de segunda, em entrevista ao SBT, Lula negou que medidas adotadas por seu governo nos últimos dias, como o reajuste do Bolsa Família e o perdão de dívidas de microempreendedores individuais (MEI), sejam uma bomba fiscal e afirmou que há espaço no orçamento para todas elas."
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/10/b3.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/ibovespa-futuro-sobe-1-com-petroleo-em-alta-e-nova-pesquisa-eleitoral.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "1613d24cf9ec40b4",
+      "titulo": "Brent chega a US$ 111, maior nível em 5 meses",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-economia/brent-chega-a-us-111-maior-nivel-em-5-meses/",
+      "dataFonte": "2026-10-20T11:41:04.000Z",
+      "resumoFonte": "Alta dos preços coincide com os ataques dos houthis à Arábia Saudita e a embarcações no Golfo",
+      "imagem": "https://static.poder360.com.br/uploads/2026/09/petroleo-reproducao-google-gemini-1200x675.jpg",
+      "descobertaEm": "2026-10-20T12:18:27.707Z",
+      "reportagem": {
+        "titulo": "Brent chega a US$ 111, maior nível em 5 meses",
+        "slug": "brent-chega-a-us-111-maior-nivel-em-5-meses",
+        "categoria": "Economia",
+        "data": "2026-10-20",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/brent-chega-a-us-111-maior-nivel-em-5-meses.jpg",
+        "resumo": "Alta dos preços coincide com os ataques dos houthis à Arábia Saudita e a embarcações no Golfo. Leia no Poder360.",
+        "conteudo": "<p>Alta dos preços coincide com os ataques dos houthis à Arábia Saudita e a embarcações no Golfo</p><h2>Preços do petróleo subiram nesta 3ª feira (20</h2><p>Os preços do petróleo subiram nesta 3ª feira (20.out.2026), com o Brent atingindo o maior nível em 5 meses. O mercado embutiu prêmio de risco geopolítico decorrente dos ataques dos houthis à infraestrutura saudita e de relatos de ataques a embarcações no Golfo.</p><p>Às 6h45 (horário de Brasília), o Brent estava cotado a US$ 111,73 o barril, uma alta de 1,7% –o maior valor desde maio.</p><p>Já o contrato de referência norte-americano West Texas Intermediate chegou a atingir US$ 104,94, o maior valor desde setembro, e estava cotado a US$ 104,80, uma alta de 1,1%.</p><h2>Ao menos 18 navios foram atacados no Golfo ao</h2><p>Ao menos 18 navios foram atacados no Golfo ao longo de duas semanas, o que mantém o prêmio de risco intacto.</p><p>Segundo a agência Reuters , na 2ª feira (19.out), um ataque dos houthis a um campo de treinamento das forças de segurança do governo na província de Shabwa, no Iêmen, matou 58 pessoas e feriu mais de 200.</p><p>Esses ataques ressaltaram os riscos contínuos ao fornecimento de energia da região, mantendo os preços do petróleo acima de US$ 100 por barril.</p><p>Brent chega a US$ 111, maior nível em 5 meses Alta dos preços coincide com os ataques dos houthis à Arábia Saudita e a embarcações no Golfo --> copiar link --></p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-economia/brent-chega-a-us-111-maior-nivel-em-5-meses/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Alta dos preços coincide com os ataques dos houthis à Arábia Saudita e a embarcações no Golfo"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Os preços do petróleo subiram nesta 3ª feira (20.out.2026), com o Brent atingindo o maior nível em 5 meses. O mercado embutiu prêmio de risco geopolítico decorrente dos ataques dos houthis à infraestrutura saudita e de relatos de ataques a embarcações no Golfo."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Às 6h45 (horário de Brasília), o Brent estava cotado a US$ 111,73 o barril, uma alta de 1,7% –o maior valor desde maio."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Já o contrato de referência norte-americano West Texas Intermediate chegou a atingir US$ 104,94, o maior valor desde setembro, e estava cotado a US$ 104,80, uma alta de 1,1%."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Ao menos 18 navios foram atacados no Golfo ao longo de duas semanas, o que mantém o prêmio de risco intacto."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/09/petroleo-reproducao-google-gemini-1200x675.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/brent-chega-a-us-111-maior-nivel-em-5-meses.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
       "id": "f96b72c33df40a2a",
       "titulo": "Master: comissão de 10% teria rendido R$ 188 milhões a políticos e agentes",
       "categoria": "Economia",
@@ -397,278 +769,26 @@
       }
     },
     {
-      "id": "2ed23080b5e85cd1",
-      "titulo": "Beneficiários com NIS de final 2 recebem Bolsa Família de outubro",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Agência Brasil - Economia",
-      "urlFonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro",
-      "dataFonte": "2026-10-20T10:30:00.000Z",
-      "resumoFonte": "A Caixa Econômica Federal paga nesta terça-feira (20) a parcela de outubro do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 2. Neste mês, 19,3 milhões de família serão beneficiadas, com o valor médio do benefício em R$ 782,92. Por causa do aumento nos benefícios, o valor da folha de pagamentos subiu de R$ 13 bilhões…",
-      "imagem": "https://cdn.jsdelivr.net/gh/sergiosdlima/assets-ebc@1.0.0/public/thumbs/thumb_1200x600_agbrasil.png",
-      "descobertaEm": "2026-10-20T11:18:25.097Z",
-      "reportagem": {
-        "titulo": "Beneficiários com NIS de final 2 recebem Bolsa Família de outubro",
-        "slug": "beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro",
-        "categoria": "Economia",
-        "data": "2026-10-20",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro.jpg",
-        "resumo": "Neste mês, 19,3 milhões de família serão beneficiadas, com valor médio do benefício em R$ 782,92.",
-        "conteudo": "<p>A Caixa Econômica Federal paga nesta terça-feira (20) a parcela de outubro do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 2. Neste mês, 19,3 milhões de família serão beneficiadas, com o valor médio do benefício em R$ 782,92.</p><h2>Por causa do aumento nos benefícios, o valor</h2><p>Por causa do aumento nos benefícios, o valor da folha de pagamentos subiu de R$ 13 bilhões em setembro para R$ 15 bilhões em outubro.</p><p>Os moradores de 194 municípios de sete estados receberam o crédito na segunda-feira (19), independentemente do número final do NIS.</p><p>O pagamento unificado beneficiou localidades em situação de emergência ou em estado de calamidade pública nos seguintes estados: Acre (22), Amazonas (3), Paraíba (31), Paraná (dez), Rio Grande do Norte (111), Roraima (seis), São Paulo (oito) e Sergipe (três).</p><h2>Lista dos municípios com pagamento unificado está disponível aqui</h2><p>A lista dos municípios com pagamento unificado está disponível aqui .</p><p>No modelo tradicional do Bolsa Família, o pagamento ocorre nos últimos dez dias úteis de cada mês. No entanto, por causa do fenômeno climático El Niño, o governo concentrou os dias de pagamento em três dias por mês até dezembro.</p><p>Os beneficiários com NIS terminado em 1 receberam os pagamentos nesta segunda-feira (19). Na terça-feira (20), é a vez de quem tem NIS terminado em 2.</p><p>O calendário será unificado na quarta-feira (21), com o pagamento, na mesma data, aos beneficiários com NIS terminado em 3, 4, 5, 6, 7, 8, 9 e 0.</p><p>O beneficiário poderá consultar informações sobre as datas de pagamento, o valor do benefício e a composição das parcelas no aplicativo Caixa Tem, usado para acompanhar as contas poupança digitais do banco.</p><p>Com o reajuste anunciado em setembro, que entrou em vigor em outubro, o valor mínimo corresponde a R$ 691. Além do benefício mínimo, há o pagamento de três adicionais.</p><p>O Benefício Variável Familiar Nutriz paga seis parcelas de R$ 58 a mães de bebês de até seis meses de idade, para garantir a alimentação da criança.</p><p>O Bolsa Família também paga um acréscimo de R$ 58 a famílias com gestantes e filhos de 7 a 18 anos e outro, de R$ 173, a famílias com crianças de até 6 anos.</p><p>Além do benefício integral, há o pagamento da regra de proteção. Em vigor desde junho de 2023, essa regra permite que famílias cujos membros consigam emprego e melhorem a renda recebam 50% do benefício a que teriam direito por até dois anos, desde que cada integrante receba o equivalente a até meio salário mínimo.</p><p>Desde junho do ano passado, o tempo de permanência na regra de proteção foi reduzido de dois para um ano. No entanto, quem entrou na regra até maio de 2025 continua a receber metade do benefício por dois anos.</p><p>Desde 2024, os beneficiários do Bolsa Família não têm mais o desconto do Seguro Defeso. A mudança foi estabelecida pela Lei 14.601/2023 , que resgatou o Programa Bolsa Família (PBF).</p><p>O Seguro Defeso é pago a pessoas que sobrevivem exclusivamente da pesca artesanal e que não podem exercer a atividade durante o período da piracema (reprodução dos peixes).</p><p>Confira o novo calendário de pagamentos do Bolsa Família até o fim do ano:</p><p>Fonte: Ministério do Desenvolvimento e Assistência Social</p><p>Política Sociedade civil apresenta propostas aos candidatos à Presidência ter, 20/10/2026 - 08:35</p><p>Meio Ambiente Estiagem: governo federal reconhece emergência em municípios do Amapá ter, 20/10/2026 - 08:34</p><p>Cultura Cena Musical, da TV Brasil, celebra vida e obra de Roberto Menescal ter, 20/10/2026 - 08:30</p>",
-        "fonteNome": "Agência Brasil - Economia",
-        "fonteUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro",
-        "fontesAdicionais": [
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          },
-          {
-            "nome": "Ministério da Fazenda",
-            "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A Caixa Econômica Federal paga nesta terça-feira (20) a parcela de outubro do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 2. Neste mês, 19,3 milhões de família serão beneficiadas, com o valor médio do benefício em R$ 782,92."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Por causa do aumento nos benefícios, o valor da folha de pagamentos subiu de R$ 13 bilhões em setembro para R$ 15 bilhões em outubro."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Os moradores de 194 municípios de sete estados receberam o crédito na segunda-feira (19), independentemente do número final do NIS. O pagamento unificado beneficiou localidades em situação de emergência ou em estado de calamidade pública nos seguintes estados: Acre (22), Amazonas (3), Paraíba (31), Paraná (dez), Rio Grande do Norte (111), Roraima (seis), São"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A lista dos municípios com pagamento unificado está disponível aqui ."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "No modelo tradicional do Bolsa Família, o pagamento ocorre nos últimos dez dias úteis de cada mês. No entanto, por causa do fenômeno climático El Niño, o governo concentrou os dias de pagamento em três dias por mês até dezembro."
-          }
-        ],
-        "imagemOriginal": "https://cdn.jsdelivr.net/gh/sergiosdlima/assets-ebc@1.0.0/public/thumbs/thumb_1200x600_agbrasil.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "4d4c8da4395d5bbc",
-      "titulo": "Minidólar (WDOX26): veja os níveis decisivos para esta terça-feira",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mercados/minidolar-hoje-futuro-do-dolar-wdox26-20102026/",
-      "dataFonte": "2026-10-20T10:13:00.000Z",
-      "resumoFonte": "Saiba o que esperar para o minidólar nesta terça (20) The post Minidólar (WDOX26): veja os níveis decisivos para esta terça-feira appeared first on InfoMoney .",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/10/WDOX26-15-MINUTOS-20.10.2026.png?fit=1880%2C858&quality=70&strip=all",
-      "descobertaEm": "2026-10-20T10:18:24.601Z",
-      "reportagem": {
-        "titulo": "Minidólar (WDOX26): veja os níveis decisivos para esta terça-feira",
-        "slug": "minidolar-wdox26-veja-os-niveis-decisivos-para-esta-terca-feira",
-        "categoria": "Economia",
-        "data": "2026-10-20",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/minidolar-wdox26-veja-os-niveis-decisivos-para-esta-terca-feira.jpg",
-        "resumo": "Minidólar (WDOX26): Confira os pontos de suporte e resistência para esta terça-feira, dia 20. Veja o que esperar dos minicontratos.",
-        "conteudo": "<p>Os contratos de minidólar (WDOX26 ), com vencimento em novembro, encerraram a última sessão (19/10) em queda de 0,52%, aos 5.054 pontos .</p><h2>Contratos de minidólar deverão refletir a queda de 0,50%</h2><p>Os contratos de minidólar deverão refletir a queda de 0,50% do dólar à vista, a R$ 5,0476 , em um dia marcado pela reta final da disputa presidencial e pelo enfraquecimento da moeda norte-americana diante de divisas emergentes.</p><p>As pesquisas BTG/Nexus e AtlasIntel mostraram redução da vantagem de Flávio Bolsonaro sobre Luiz Inácio Lula da Silva, mantendo a tensão eleitoral elevada. A matéria não informa o desempenho do Ibovespa.</p><p>Para os traders de minidólar, o foco estará nas novas sinalizações eleitorais e no comportamento global do dólar.</p><h2>Também entram no radar as projeções do Focus,</h2><p>Também entram no radar as projeções do Focus, que mantiveram a inflação de 2026 em 5,22% e a Selic em 13,25% , enquanto reduziram para R$ 5,13 a estimativa para o câmbio no fim do ano.</p><p>Leia mais: Dólar Hoje: Confira a cotação e fechamento diário do dólar comercial</p><p>No gráfico de 15 minutos , observo que o minidólar encerrou a última sessão no campo negativo, dando continuidade ao fluxo de baixa.</p><p>Apesar da pressão vendedora, o contrato terminou o pregão entre as médias móveis de 9 e 21 períodos, situação que exige atenção à definição do próximo movimento.</p><p>Para a continuidade da queda, considero necessária a entrada de volume vendedor capaz de romper o suporte em 5.043/5.033,5 pontos .</p><p>A perda dessa faixa poderá intensificar as vendas e abrir caminho para 5.013,5/4.995,5 pontos . Em um movimento mais amplo, o alvo passa a ser o suporte de 4.968,5/4.939 pontos .</p><p>No cenário oposto, uma recuperação dependerá do ingresso de volume comprador e do rompimento da resistência em 5.056,5/5.061,5 pontos . Acima dessa região, vejo espaço para o contrato avançar até 5.078,5/5.105 pontos .</p><p>Se a força compradora persistir, o próximo objetivo estará em 5.116,5/5.135 pontos .</p><p>No gráfico diário , vejo a queda da última sessão como uma correção após as altas recentes. O contrato voltou a negociar abaixo das médias móveis de 9 e 21 períodos, deixando em aberto tanto uma tentativa de recuperação quanto o teste de regiões inferiores.</p><p>Para retomar o movimento de alta, o minidólar precisará recuperar as médias e superar as resistências em 5.124,5 , 5.192 e 5.274,5 pontos . O rompimento dessas referências poderá ampliar o fluxo comprador em direção a 5.302,5/5.339 pontos .</p><p>Por outro lado, a continuidade da baixa ganha força com a perda dos suportes em 5.033,5 , 4.995,5 e 4.968,5 pontos . Abaixo dessas regiões, projeto como alvo inicial a faixa de 4.831/4.784 pontos .</p><p>O IFR de 14 períodos está em 41,32 , patamar que não caracteriza sobrecompra nem sobrevenda.</p><p>No gráfico de 60 minutos , observo que o minidólar fechou com fluxo negativo e permanece abaixo das médias móveis de 9, 21 e 200 períodos. Essa configuração mantém a pressão vendedora, embora eventuais rompimentos de resistência possam produzir uma recuperação mais consistente.</p><p>Para retomar a alta, o contrato precisa superar inicialmente a região de 5.078,5/5.116,5 pontos e confirmar força acima de 5.135 pontos . Vencida essa faixa, o próximo objetivo comprador estará em 5.159/5.192 pontos .</p><p>A continuidade do movimento poderá levar o ativo às resistências de 5.226,5 e, posteriormente, 5.274,5 pontos .</p><p>Para dar sequência à baixa, acompanho a perda dos suportes em 5.043/5.013,5 pontos . Se essa região for rompida para baixo, o fluxo vendedor poderá ganhar intensidade e levar o contrato até 4.995,5/4.968,5 pontos .</p><p>Em um movimento mais prolongado, os próximos alvos estarão em 4.950/4.902,5 pontos .</p><p>Confira mais conteúdos sobre análise técnica no IM Trader . Diariamente, o InfoMoney publica o que esperar dos minicontratos de dólar e índice .</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mercados/minidolar-hoje-futuro-do-dolar-wdox26-20102026/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Os contratos de minidólar (WDOX26 ), com vencimento em novembro, encerraram a última sessão (19/10) em queda de 0,52%, aos 5.054 pontos . Os contratos de minidólar deverão refletir a queda de 0,50% do dólar à vista, a R$ 5,0476 , em um dia marcado pela reta final da disputa presidencial e pelo enfraquecimento da moeda norte-americana diante de divisas emerge"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Para os traders de minidólar, o foco estará nas novas sinalizações eleitorais e no comportamento global do dólar. Também entram no radar as projeções do Focus, que mantiveram a inflação de 2026 em 5,22% e a Selic em 13,25% , enquanto reduziram para R$ 5,13 a estimativa para o câmbio no fim do ano."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Leia mais: Dólar Hoje: Confira a cotação e fechamento diário do dólar comercial"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "No gráfico de 15 minutos , observo que o minidólar encerrou a última sessão no campo negativo, dando continuidade ao fluxo de baixa. Apesar da pressão vendedora, o contrato terminou o pregão entre as médias móveis de 9 e 21 períodos, situação que exige atenção à definição do próximo movimento."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Para a continuidade da queda, considero necessária a entrada de volume vendedor capaz de romper o suporte em 5.043/5.033,5 pontos . A perda dessa faixa poderá intensificar as vendas e abrir caminho para 5.013,5/4.995,5 pontos . Em um movimento mais amplo, o alvo passa a ser o suporte de 4.968,5/4.939 pontos ."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/10/WDOX26-15-MINUTOS-20.10.2026.png?fit=1880%2C858&quality=70&strip=all",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/minidolar-wdox26-veja-os-niveis-decisivos-para-esta-terca-feira.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "a1745fb48e1b4cb0",
-      "titulo": "Mini-índice (WINZ26): Ibovespa futuro busca direção entre eleição e exterior",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mercados/mini-indice-hoje-futuro-ibovespa-winz26-20102026/",
-      "dataFonte": "2026-10-20T10:09:00.000Z",
-      "resumoFonte": "Confira o que a análise técnica aponta para o mini-índice hoje (20 de outubro) The post Mini-índice (WINZ26): Ibovespa futuro busca direção entre eleição e exterior appeared first on InfoMoney .",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/10/WINZ26-15-MINUTOS-20.10.2026.png?fit=1882%2C857&quality=70&strip=all",
-      "descobertaEm": "2026-10-20T10:18:24.601Z",
-      "reportagem": {
-        "titulo": "Mini-índice (WINZ26): Ibovespa futuro busca direção entre eleição e exterior",
-        "slug": "mini-indice-winz26-ibovespa-futuro-busca-direcao-entre-eleicao-e-exterior",
-        "categoria": "Economia",
-        "data": "2026-10-20",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mini-indice-winz26-ibovespa-futuro-busca-direcao-entre-eleicao-e-exterior.jpg",
-        "resumo": "Mini-índice (WINZ26): Confira os pontos de suporte e resistência nesta terça (20). Confira também os minicontratos.",
-        "conteudo": "<p>Os contratos de mini-índice (WINZ26) , com vencimento em dezembro, encerraram a última sessão (19/10) em queda de 0,93%, aos 208.520 pontos .</p><h2>Contratos de mini-índice deverão refletir o ambiente de cautela</h2><p>Os contratos de mini-índice deverão refletir o ambiente de cautela após o Ibovespa recuar 0,17%, aos 205.079,25 pontos , pressionado pela incerteza eleitoral.</p><p>Petrobras ( PETR3 ; PETR4 ) e a maioria dos bancos pesaram sobre o índice, enquanto varejistas, B3 ( B3SA3 ), Banco do Brasil ( BBAS3 ) e Vale ( VALE3 ) limitaram as perdas.</p><p>No exterior, Wall Street terminou sem direção única, com alta do Nasdaq apoiada pelas ações de tecnologia, enquanto as bolsas europeias recuaram.</p><h2>Para os traders de mini-índice, o foco nesta terça-feira</h2><p>Para os traders de mini-índice, o foco nesta terça-feira estará na movimentação eleitoral e na rotação entre os principais setores da B3, diante de uma agenda sem indicadores relevantes.</p><p>O comportamento de Petrobras, bancos, Vale e varejistas , além dos juros futuros e de Wall Street, deverá indicar se o contrato encontra espaço para recuperação ou segue lateralizado.</p><p>As pesquisas Quaest e Datafolha, previstas para quarta e quinta-feira, também poderão elevar a volatilidade antes do segundo turno.</p><p>No gráfico de 15 minutos , observo que o WINZ26 encerrou a última sessão no campo negativo e abaixo das médias móveis de 9 e 21 períodos.</p><p>Essa configuração mantém a pressão vendedora no curto prazo e pode favorecer a continuidade da correção, principalmente se os suportes mais próximos forem rompidos com volume.</p><p>Para que o mini-índice prolongue o movimento de baixa, será necessária a perda da faixa de 208.170/207.690 pontos .</p><p>O rompimento desse intervalo poderá ampliar o fôlego vendedor e levar o contrato em direção a 207.235/206.730 pontos . Em uma correção mais extensa, o alvo ficará na região de 206.100/205.290 pontos .</p><p>Para retomar o fluxo de alta, o ativo precisará superar inicialmente a resistência em 209.200/209.980 pontos . Acima dessa faixa, vejo espaço para uma recuperação em direção a 210.100/211.265 pontos . O objetivo mais longo desse movimento está em 211.750/212.315 pontos .</p><p>No gráfico diário , vejo o mini-índice encerrar a sessão em baixa, aumentando a disputa entre a retomada compradora e a continuidade da correção. Apesar do recuo, o contrato ainda negocia acima das médias móveis de 9, 21 e 200 períodos, preservando a estrutura principal de alta.</p><p>Para recuperar o impulso comprador, o WINZ26 precisará superar as resistências em 211.750/212.720/215.685 pontos . Confirmado o rompimento, os próximos objetivos estarão na região de 218.825/221.400 pontos .</p><p>Na direção contrária, acompanho os suportes em 207.235/204.770 pontos . A perda dessa região poderá aprofundar o movimento corretivo e abrir caminho para 198.215/192.730 pontos .</p><p>O IFR de 14 períodos está em 64,12 , ainda em região neutra, mas se aproximando da zona de sobrecompra. O indicador mostra que a força compradora acumulada permanece relevante, embora tenha perdido intensidade com a queda mais recente.</p><p>No gráfico de 60 minutos , observo que o mini-índice fechou em baixa e abaixo das médias móveis de 9 e 21 períodos.</p><p>Ao mesmo tempo, o contrato apresenta uma movimentação mais lateral nas últimas sessões, o que reforça a importância dos próximos rompimentos para definir uma direção mais clara.</p><p>Para retomar o fluxo comprador, será necessária a entrada de volume suficiente para superar as resistências em 209.980/211.750/214.510 pontos . Acima dessa região, o contrato poderá avançar até 215.685/216.720 pontos .</p><p>Em um movimento mais amplo, os alvos estarão em 218.825/220.935 pontos .</p><p>No cenário de baixa, acompanho os suportes em 208.170/207.235/204.770 pontos . A perda dessa faixa poderá intensificar a pressão vendedora e levar o ativo em direção a 203.540/201.620 pontos .</p><p>Se a correção ganhar força, os objetivos mais longos estarão na região de 199.950/196.656 pontos .</p><p>Confira mais conteúdos sobre análise técnica no IM Trader . Diariamente, o InfoMoney publica o que esperar dos minicontratos de dólar e índice .</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mercados/mini-indice-hoje-futuro-ibovespa-winz26-20102026/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Os contratos de mini-índice (WINZ26) , com vencimento em dezembro, encerraram a última sessão (19/10) em queda de 0,93%, aos 208.520 pontos . Os contratos de mini-índice deverão refletir o ambiente de cautela após o Ibovespa recuar 0,17%, aos 205.079,25 pontos , pressionado pela incerteza eleitoral. Petrobras ( PETR3 ; PETR4 ) e a maioria dos bancos pesaram "
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Para os traders de mini-índice, o foco nesta terça-feira estará na movimentação eleitoral e na rotação entre os principais setores da B3, diante de uma agenda sem indicadores relevantes. O comportamento de Petrobras, bancos, Vale e varejistas , além dos juros futuros e de Wall Street, deverá indicar se o contrato encontra espaço para recuperação ou segue lat"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "No gráfico de 15 minutos , observo que o WINZ26 encerrou a última sessão no campo negativo e abaixo das médias móveis de 9 e 21 períodos. Essa configuração mantém a pressão vendedora no curto prazo e pode favorecer a continuidade da correção, principalmente se os suportes mais próximos forem rompidos com volume."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Para que o mini-índice prolongue o movimento de baixa, será necessária a perda da faixa de 208.170/207.690 pontos . O rompimento desse intervalo poderá ampliar o fôlego vendedor e levar o contrato em direção a 207.235/206.730 pontos . Em uma correção mais extensa, o alvo ficará na região de 206.100/205.290 pontos ."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Para retomar o fluxo de alta, o ativo precisará superar inicialmente a resistência em 209.200/209.980 pontos . Acima dessa faixa, vejo espaço para uma recuperação em direção a 210.100/211.265 pontos . O objetivo mais longo desse movimento está em 211.750/212.315 pontos ."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/10/WINZ26-15-MINUTOS-20.10.2026.png?fit=1882%2C857&quality=70&strip=all",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/mini-indice-winz26-ibovespa-futuro-busca-direcao-entre-eleicao-e-exterior.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "e09c8201945d1efb",
-      "titulo": "Day Trade hoje (20): Ibovespa recua; veja os próximos suportes e resistências",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-20102026/",
-      "dataFonte": "2026-10-20T10:06:00.000Z",
-      "resumoFonte": "Confira os pontos de suporte e resistência do mini-índice e minidólar The post Day Trade hoje (20): Ibovespa recua; veja os próximos suportes e resistências appeared first on InfoMoney .",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2024/12/Daytrade-hoje.jpg?fit=1280%2C720&quality=70&strip=all",
-      "descobertaEm": "2026-10-20T10:18:24.601Z",
-      "reportagem": {
-        "titulo": "Day Trade hoje (20): Ibovespa recua; veja os próximos suportes e resistências",
-        "slug": "day-trade-hoje-20-ibovespa-recua-veja-os-proximos-suportes-e-resistencias",
-        "categoria": "Economia",
-        "data": "2026-10-20",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/day-trade-hoje-20-ibovespa-recua-veja-os-proximos-suportes-e-resistencias.jpg",
-        "resumo": "Day Trade Hoje: O que esperar dos minicontratos e do Ibovespa nesta terça. Confira os pontos de suporte do mini-índice e minidólar.",
-        "conteudo": "<p>O Ibovespa encerrou a última sessão em leve queda de 0,17% , aos 205.079 pontos . O índice oscilou entre a mínima de 204.268 pontos e a máxima de 207.387 pontos , permanecendo abaixo do recorde histórico de 209.713 pontos .</p><h2>No gráfico diário , observo que o Ibovespa permanece</h2><p>No gráfico diário , observo que o Ibovespa permanece acima das médias móveis de 9 e 21 períodos, preservando a tendência principal de alta.</p><p>Desde a renovação da máxima histórica, entretanto, o índice passou a apresentar uma movimentação mais lateral, sem confirmar a retomada do impulso comprador.</p><p>Na minha leitura, o mercado aguarda um novo gatilho para definir a direção de curto prazo. O rompimento da máxima histórica poderá destravar uma nova etapa de valorização, enquanto a perda das médias móveis aumentaria o risco de aprofundamento da correção.</p><h2>IFR (14) está em 68,97 pontos , próximo</h2><p>O IFR (14) está em 68,97 pontos , próximo da região de sobrecompra. O indicador ainda não sinaliza uma reversão, mas reforça a necessidade de cautela após a forte valorização recente.</p><p>Para retomar o avanço, o índice precisará superar a máxima histórica de 209.713 pontos . Acima desse nível, projeto alvos em 215.630 pontos , 221.450 pontos e, em um movimento mais prolongado, 230.000 pontos .</p><p>Pelo lado vendedor, a perda dos 203.980 pontos poderá intensificar o fluxo corretivo, com suporte seguinte em 199.354 pontos . Abaixo dessa faixa, acompanho os 189.487 pontos e, em uma correção mais ampla, os 181.560 pontos .</p><p>No gráfico de 60 minutos , identifico maior fragilidade, com o Ibovespa encerrando a sessão abaixo das médias móveis de 9 e 21 períodos, embora ainda próximo delas. A máxima do pregão chegou a superar os 207.300 pontos , mas o índice não sustentou esse patamar até o fechamento.</p><p>Para recuperar força compradora, considero necessário firmar-se acima dos 207.300 pontos e, posteriormente, romper a máxima histórica de 209.713 pontos .</p><p>Caso confirme esse movimento com entrada de volume, os próximos alvos ficam em 212.535/215.470 pontos e 219.890/222.025 pontos .</p><p>No sentido contrário, a perda dos 203.980 pontos poderá ampliar a pressão vendedora e levar o índice ao suporte de 199.354 pontos . Abaixo dessas regiões, vejo espaço para testes em 190.130/189.487 pontos , com alvos mais longos em 184.765/181.560 pontos .</p><p>Os contratos de mini-índice (WINZ26) , com vencimento em dezembro, encerraram a última sessão (19/10) em queda de 0,93%, aos 208.520 pontos .</p><p>Na minha leitura, o mini-índice voltou a perder força e encerrou abaixo das médias móveis de 9 e 21 períodos no gráfico de 15 minutos, mantendo aberto o risco de continuidade da correção.</p><p>Para o pregão, acompanho como referências imediatas o suporte em 208.170/207.690 pontos e a resistência em 209.200/209.980 pontos .</p><p>No gráfico diário, a correção ainda ocorre dentro de uma estrutura predominantemente altista, já que o contrato permanece acima das principais médias móveis.</p><p>No gráfico de 60 minutos, porém, o ativo negocia abaixo das médias curtas e apresenta um comportamento mais lateral nas últimas sessões, cenário que exige confirmação antes de um movimento direcional mais consistente.</p><p>Os contratos de minidólar (WDOX26 ), com vencimento em novembro, encerraram a última sessão (19/10) em queda de 0,52%, aos 5.054 pontos .</p><p>O minidólar manteve o fluxo vendedor na última sessão, embora tenha terminado o dia entre as médias móveis de 9 e 21 períodos no gráfico de 15 minutos.</p><p>O primeiro suporte que acompanho está em 5.043/5.033,5 pontos , enquanto a resistência imediata aparece em 5.056,5/5.061,5 pontos . A saída desse intervalo poderá indicar a direção predominante do próximo movimento.</p><p>No gráfico diário, o ativo segue corrigindo parte das altas recentes e permanece abaixo das médias curtas.</p><p>Já no gráfico de 60 minutos, observo uma configuração mais pressionada, com a cotação abaixo das médias de 9, 21 e 200 períodos, o que mantém o viés vendedor no curto prazo.</p><p>O contrato futuro de Bitcoin (BITV26) , com vencimento em outubro, encerrou a última sessão próximo da estabilidade, com leve queda de 0,08% , aos 413.260 pontos .</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-20102026/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Ibovespa encerrou a última sessão em leve queda de 0,17% , aos 205.079 pontos . O índice oscilou entre a mínima de 204.268 pontos e a máxima de 207.387 pontos , permanecendo abaixo do recorde histórico de 209.713 pontos ."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "No gráfico diário , observo que o Ibovespa permanece acima das médias móveis de 9 e 21 períodos, preservando a tendência principal de alta. Desde a renovação da máxima histórica, entretanto, o índice passou a apresentar uma movimentação mais lateral, sem confirmar a retomada do impulso comprador."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na minha leitura, o mercado aguarda um novo gatilho para definir a direção de curto prazo. O rompimento da máxima histórica poderá destravar uma nova etapa de valorização, enquanto a perda das médias móveis aumentaria o risco de aprofundamento da correção."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O IFR (14) está em 68,97 pontos , próximo da região de sobrecompra. O indicador ainda não sinaliza uma reversão, mas reforça a necessidade de cautela após a forte valorização recente."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Para retomar o avanço, o índice precisará superar a máxima histórica de 209.713 pontos . Acima desse nível, projeto alvos em 215.630 pontos , 221.450 pontos e, em um movimento mais prolongado, 230.000 pontos ."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2024/12/Daytrade-hoje.jpg?fit=1280%2C720&quality=70&strip=all",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/day-trade-hoje-20-ibovespa-recua-veja-os-proximos-suportes-e-resistencias.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "05f99e696ac3e9d6",
-      "titulo": "Milton Cunha fala sobre incômodo com atitude de Pabllo Vittar. Veja vídeo",
+      "id": "5e2d2c4e12a170d1",
+      "titulo": "Renan Santos tem razão",
       "categoria": "Cultura",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/celebridades/milton-cunha-fala-sobre-incomodo-com-atitude-de-pabllo-vittar-veja-video",
-      "dataFonte": "2026-10-20T10:04:27.000Z",
-      "resumoFonte": "Milton Cunha afirmou que Pabllo Vittar se declarou a primeira trans a desfilar em um carro alegórico e criticou a suposta fala da cantora",
-      "imagem": "https://i.metroimg.com/YNHoOU60OE4HQSSh3-T0OX_o6GXV5ea4bvOUJ8Xg8f8/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/pabllo-milton-cunha.jpg",
-      "descobertaEm": "2026-10-20T10:18:24.601Z"
-    },
-    {
-      "id": "3d8e77d6120f3897",
-      "titulo": "Ronaldo e Roberto Carlos fecham acordo pela SAF da Inter de Limeira",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-sportsmkt/ronaldo-e-roberto-carlos-fecham-acordo-pela-saf-da-inter-de-limeira/",
-      "dataFonte": "2026-10-20T10:22:12.000Z",
-      "resumoFonte": "Grupo terá 80% da empresa e projeta investir mais de R$ 450 milhões em 10 anos; clube ficará com os 20% restantes",
-      "imagem": "https://static.poder360.com.br/uploads/2026/09/camisa-Inter-de-Limeira-1-1200x675.png",
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/deborah-bizarria/2026/10/renan-santos-tem-razao.shtml",
+      "dataFonte": "2026-10-20T11:00:00.000Z",
+      "resumoFonte": "\"Nós somos uns idiotas\", disse o ex-candidato Renan Santos , em uma live, ao lamentar o fraco desempenho do seu partido, o Missão. Apontando para o seu livro de propostas, decretou que propor soluções para a coisa pública havia se tornado ultrapassado: na sua avaliação, o político atual existe apenas para validar sua bolha. \"Como é que a gente…",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/19/17924376366ad66d849b767_1792437636_3x2_rt.jpg",
       "descobertaEm": "2026-10-20T11:18:25.097Z",
       "reportagem": {
-        "titulo": "Ronaldo e Roberto Carlos fecham acordo pela SAF da Inter de Limeira",
-        "slug": "ronaldo-e-roberto-carlos-fecham-acordo-pela-saf-da-inter-de-limeira",
-        "categoria": "Esporte",
+        "titulo": "Opinião - Deborah Bizarria: Renan Santos tem razão",
+        "slug": "opiniao-deborah-bizarria-renan-santos-tem-razao",
+        "categoria": "Cultura",
         "data": "2026-10-20",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/ronaldo-e-roberto-carlos-fecham-acordo-pela-saf-da-inter-de-limeira.jpg",
-        "resumo": "Grupo terá 80% da empresa e projeta investir mais de R$ 450 milhões em 10 anos; clube ficará com os 20% restantes. Leia no Poder360.",
-        "conteudo": "<p>Grupo terá 80% da empresa e projeta investir mais de R$ 450 milhões em 10 anos; clube ficará com os 20% restantes</p><h2>Inter de Limeira assinou na 2ª feira (19</h2><p>A Inter de Limeira assinou na 2ª feira (19.out.2026) o acordo de investimento para a constituição de sua SAF (Sociedade Anônima do Futebol), com um grupo que inclui os pentacampeões mundiais Ronaldo e Roberto Carlos .</p><p>O negócio projeta investimentos de até R$ 454 milhões ao longo de 10 anos. Com a conclusão da operação, os investidores terão 80% da empresa, enquanto a associação manterá os outros 20%.</p><p>O acordo estabelece as condições comerciais do negócio. A formalização ainda depende de outras assinaturas e de procedimentos na Jucesp (Junta Comercial do Estado de São Paulo) e na Federação Paulista de Futebol .</p><h2>Assinatura estava marcada para setembro, mas foi adiada</h2><p>A assinatura estava marcada para setembro, mas foi adiada por questões burocráticas. A criação da SAF e a venda de 80% das ações foram aprovadas pelos conselheiros em 31 de agosto , com 53 votos favoráveis e 1 contrário.</p><p>Como informou o Poder360 , o valor de R$ 454 milhões é uma projeção condicionada ao crescimento da empresa e ao cumprimento de metas.</p><p>Nos 2 primeiros anos, estão previstos aportes de até R$ 20 milhões para a reestruturação, incluindo futebol profissional, categorias de base, centro de treinamento e estádio Limeirão.</p><p>Além de Ronaldo e Roberto Carlos, o grupo reúne o príncipe saudita Abdullah bin Saad bin Abdulaziz Al Saud e um empresário haitiano cuja identidade não foi divulgada.</p><p>A operação também conta com Enrico Ambrogini, atual executivo da Inter. Ele foi CEO do clube de 2019 a 2021, atuou como diretor de operações do Cruzeiro durante a gestão de Ronaldo e trabalhou com o ex-atacante no Valladolid, da Espanha.</p><p>O plano é levar a Inter à Série A do Campeonato Brasileiro em até 8 temporadas. O clube garantiu o acesso à Série B de 2027 em 11 de outubro, depois de 35 anos sem disputar a competição. Foi o 2º acesso nacional consecutivo, depois da promoção da Série D para a Série C em 2025.</p><p>No 1º semestre de 2027, o objetivo será conquistar o acesso à Série A1 do Campeonato Paulista, a partir da disputa da Série A2. A diretoria já planeja o elenco, e a renovação do técnico Matheus Costa está encaminhada.</p><p>Ronaldo e Roberto Carlos fecham acordo pela SAF da Inter de Limeira Grupo terá 80% da empresa e projeta investir mais de R$ 450 milhões em 10 anos; clube ficará com os 20% restantes --> copiar link --></p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-sportsmkt/ronaldo-e-roberto-carlos-fecham-acordo-pela-saf-da-inter-de-limeira/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/opiniao-deborah-bizarria-renan-santos-tem-razao.jpg",
+        "resumo": "Seguimos sem saber como o próximo governo e o Congresso enfrentarão desafios econômicos",
+        "conteudo": "<p>Economista pela UFPE e especialista em gestão pública no Insper. Estudou economia comportamental na Warwick University (Reino Unido) e é associada do Livres</p><h2>\"Nós somos uns idiotas\", disse o ex-candidato Renan Santos</h2><p>\"Nós somos uns idiotas\", disse o ex-candidato Renan Santos , em uma live, ao lamentar o fraco desempenho do seu partido, o Missão.</p><p>Apontando para o seu livro de propostas, decretou que propor soluções para a coisa pública havia se tornado ultrapassado: na sua avaliação, o político atual existe apenas para validar sua bolha.</p><p>\"Como é que a gente gastou nosso tempo?\", perguntou.</p><h2>Receba no seu email uma seleção de colunas</h2><p>Receba no seu email uma seleção de colunas da Folha</p><p>Como alguém que vive discordando de Renan Santos, não imaginava escrever isto: ele tem toda razão. A menos de uma semana do segundo turno, seguimos sem saber como o próximo governo e o Congresso eleito enfrentarão os desafios econômicos.</p><p>Os atuais candidatos e suas equipes tentam nos convencer de que irão equilibrar as contas públicas.</p><p>Embora o problema seja urgente, uma agenda de crescimento exige ir além do fiscal: definir as mudanças necessárias para ampliar a produtividade e a renda e construir apoio político para implementá-las.</p><p>Na prática, elevar a produtividade significa gerar mais valor com os mesmos recursos. Então, se cada hora trabalhada gera mais renda , é possível reduzir o custo de vida, encurtar a jornada de trabalho e financiar políticas que reduzam as desigualdades.</p><p>Assim, para viabilizar esses ganhos, o governo eleito precisa facilitar o acesso a insumos e tecnologias e melhorar a infraestrutura.</p><p>Os investimentos devem ser escolhidos pelos benefícios que trazem à população e devem ter continuidade entre mandatos. Essas frentes integram o estudo sobre produtividade do CDPP (Centro de Debate de Políticas Públicas).</p><p>Além disso, as empresas mais eficientes precisam de espaço para crescer e conquistar mercados.</p><p>Barreiras à entrada e proteções setoriais podem, porém, limitar essa expansão e manter capital e trabalho em atividades menos produtivas.</p><p>Rever essas regras exige contrariar seus beneficiários, inclusive entre os aliados.</p><p>A renovação dos incentivos às empresas deveria depender de ganhos de produtividade. Uma avaliação do BID (Banco Interamericano de Desenvolvimento) , publicada em 2017, identificou poucos efeitos positivos nos programas examinados, com muitos resultados inconclusivos.</p><p>Mas o apoio político de setores beneficiados pesa nas decisões dos governantes, como formalizaram Gene Grossman e Elhanan Helpman .</p><p>Na reforma tributária, por exemplo, a promessa de simplificação cedeu espaço a exceções e regimes diferenciados , incluindo a redução de tributos para parques aquáticos.</p><p>Às vezes, o poder de barganha de um setor atropela a lógica dos ganhos para a sociedade.</p><p>Com ou sem maioria no Congresso, o próximo presidente precisará negociar essas escolhas e enfrentar interesses conflitantes entre seus aliados.</p><p>Afinal, parlamentares unidos na defesa de valores e na oposição a adversários podem se dividir sobre quais subsídios cortar ou quais investimentos priorizar.</p><p>Os parlamentares com força nas redes poderiam ajudar a explicar essas escolhas e mobilizar apoio.</p><p>Ao mesmo tempo, a incerteza sobre quem ganha e quem perde pode bloquear reformas que, depois de realizadas, teriam apoio, segundo estudo de Raquel Fernández e Dani Rodrik .</p><p>Por isso, qualificação, auxílio na busca de emprego e proteção da renda precisam fazer parte da transição, com compromissos que as pessoas possam cobrar.</p><p>Meu receio é que a influência conquistada nas redes continue servindo apenas para reforçar lealdades e poupar os eleitos do desgaste de contrariar a própria base.</p><p>Um livro de propostas pode render poucos votos e uma coluna de análise, poucas visualizações. Mas governar e gerar prosperidade continuarão exigindo decisões difíceis e a coragem de defendê-las.</p><p>Então, acho que vale a pena seguir sendo uma idiota que fala de propostas e evidências e torce pelo melhor.</p><p>LINK PRESENTE: Gostou deste texto? Assinante pode liberar sete acessos gratuitos de qualquer link por dia. Basta clicar no F azul abaixo.</p><p>Mais de 180 reportagens e análises publicadas a cada dia. Um time com mais de 200 colunistas e blogueiros.</p><p>Um jornalismo profissional que fiscaliza o poder público, veicula notícias proveitosas e inspiradoras, faz contraponto à intolerância das redes sociais e traça uma linha clara entre verdade e mentira.</p><p>\"Nós somos uns idiotas\", disse o ex-candidato Renan Santos , em uma live, ao lamentar o fraco desempenho do seu partido, o Missão.</p><p>Apontando para o seu livro de propostas, decretou que propor soluções para a coisa pública havia se tornado ultrapassado: na sua avaliação, o político atual existe apenas para validar sua bolha.</p><p>\"Como é que a gente gastou nosso tempo?\", perguntou. Colunas Receba no seu email uma seleção de colunas da Folha</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/colunas/deborah-bizarria/2026/10/renan-santos-tem-razao.shtml",
         "fontesAdicionais": [
           {
             "nome": "A Gazeta",
@@ -683,64 +803,124 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Grupo terá 80% da empresa e projeta investir mais de R$ 450 milhões em 10 anos; clube ficará com os 20% restantes"
+            "resposta": "Economista pela UFPE e especialista em gestão pública no Insper. Estudou economia comportamental na Warwick University (Reino Unido) e é associada do Livres"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A Inter de Limeira assinou na 2ª feira (19.out.2026) o acordo de investimento para a constituição de sua SAF (Sociedade Anônima do Futebol), com um grupo que inclui os pentacampeões mundiais Ronaldo e Roberto Carlos . O negócio projeta investimentos de até R$ 454 milhões ao longo de 10 anos. Com a conclusão da operação, os investidores terão 80% da empresa, "
+            "resposta": "\"Nós somos uns idiotas\", disse o ex-candidato Renan Santos , em uma live, ao lamentar o fraco desempenho do seu partido, o Missão. Apontando para o seu livro de propostas, decretou que propor soluções para a coisa pública havia se tornado ultrapassado: na sua avaliação, o político atual existe apenas para validar sua bolha. \"Como é que a gente gastou nosso t"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O acordo estabelece as condições comerciais do negócio. A formalização ainda depende de outras assinaturas e de procedimentos na Jucesp (Junta Comercial do Estado de São Paulo) e na Federação Paulista de Futebol ."
+            "resposta": "Receba no seu email uma seleção de colunas da Folha"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A assinatura estava marcada para setembro, mas foi adiada por questões burocráticas. A criação da SAF e a venda de 80% das ações foram aprovadas pelos conselheiros em 31 de agosto , com 53 votos favoráveis e 1 contrário."
+            "resposta": "Como alguém que vive discordando de Renan Santos, não imaginava escrever isto: ele tem toda razão. A menos de uma semana do segundo turno, seguimos sem saber como o próximo governo e o Congresso eleito enfrentarão os desafios econômicos."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Como informou o Poder360 , o valor de R$ 454 milhões é uma projeção condicionada ao crescimento da empresa e ao cumprimento de metas. Nos 2 primeiros anos, estão previstos aportes de até R$ 20 milhões para a reestruturação, incluindo futebol profissional, categorias de base, centro de treinamento e estádio Limeirão."
+            "resposta": "Os atuais candidatos e suas equipes tentam nos convencer de que irão equilibrar as contas públicas. Embora o problema seja urgente, uma agenda de crescimento exige ir além do fiscal: definir as mudanças necessárias para ampliar a produtividade e a renda e construir apoio político para implementá-las."
           }
         ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/09/camisa-Inter-de-Limeira-1-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/ronaldo-e-roberto-carlos-fecham-acordo-pela-saf-da-inter-de-limeira.jpg",
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/19/17924376366ad66d849b767_1792437636_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/opiniao-deborah-bizarria-renan-santos-tem-razao.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "a108450f0c8b8c54",
-      "titulo": "35 denúncias de assédio eleitoral no trabalho foram registradas por dia em outubro",
-      "categoria": "Justiça",
+      "id": "c79fae8e46a21f76",
+      "titulo": "Após empate, Corinthians tem 43% de risco de cair; veja probabilidades",
+      "categoria": "Esporte",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/20/35-denuncias-de-assedio-eleitoral-no-trabalho-foram-registradas-por-dia-em-outubro.ghtml",
-      "dataFonte": "2026-10-20T10:57:42.000Z",
-      "resumoFonte": "Assédio eleitoral no trabalho Arte/GloboNews O Brasil registrou uma média de 35 denúncias de assédio público eleitoral por dia, em outubro, de acordo com dados do Ministério Público do Trabalho. O levantamento foi feito até o dia 19, quando 663 denúncias já haviam sido registradas. Assédio eleitoral no trabalho é quando o empregador tenta…",
-      "imagem": "https://s2-g1.glbimg.com/547xEB8VW7RtzgQjo7zSlWATwhA=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/A/c5QNBUQrGAL0MPcbV28g/urna-ceara.jpg",
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/esportes/futebol/apos-empate-corinthians-tem-43-de-risco-de-cair-veja-probabilidades/",
+      "dataFonte": "2026-10-20T12:07:27.000Z",
+      "resumoFonte": "O número era de 41,1% na rodada anterior",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/ODR20261019108.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-20T12:18:27.707Z",
+      "reportagem": {
+        "titulo": "Após empate, Corinthians tem 43% de risco de cair; veja probabilidades | Jovem Pan",
+        "slug": "apos-empate-corinthians-tem-43-de-risco-de-cair-veja-probabilidades-jovem-pan",
+        "categoria": "Esporte",
+        "data": "2026-10-20",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/apos-empate-corinthians-tem-43-de-risco-de-cair-veja-probabilidades-jovem-pan.jpg",
+        "resumo": "Após empate, Corinthians tem 43% de risco de cair; veja probabilidades | Jovem Pan. Registro original em Jovem Pan - Feed. A Redação Notícia ES reapurou a pauta para a editoria Esporte.",
+        "conteudo": "<p>O Corinthians viu o risco de rebaixamento subir após o empate por 1 a 1 com o Vitória, na Neo Química Arena, em jogo válido pela 31ª rodada Campeonato Brasileiro.</p><h2>No primeiro duelo após a contratação de Clarence Seedorf</h2><p>No primeiro duelo após a contratação de Clarence Seedorf como técnico, o time alvinegro amargou a nona partida sem vitória na competição nacional. A equipe soma 32 pontos e está na 16ª posição, colada ao Z-4.</p><p>De acordo com o Departamento de Matemática da Universidade Federal de Minas Gerais (UFMG), o risco do Corinthians ser rebaixado para a Série B é de 43,1%. O número era de 41,1% na rodada anterior.</p><p>O empate fora de casa ajudou o Vitória, cujo risco de ser rebaixado é de somente 4,6%. Os baianos estão na 13ª posição, com 37 pontos.</p><h2>Na próxima rodada, o Corinthians encara o Vasco,</h2><p>Na próxima rodada, o Corinthians encara o Vasco, em São Januário, em confronto direto na briga para se afastar do Z-4. O risco de os cariocas serem rebaixados está em 10,3% .</p><p>Aequipe cruz-maltina tem 35 pontos e está logo acima do time paulista, na 15ª colocação.</p><p>Apesar da derrota para o São Paulo no sábado, os vascaínos estão em momento de ascensão e decidem uma vaga na final da Copa Sul-Americana.</p><p>Por sua vez, a dupla Gre-Nal vive situação dramática. Derrotado em casa pelo Cruzeiro no domingo, o Grêmio viu o risco de rebaixamento subir para 76,1%. A equipe soma apenas 31 pontos e está na 18ª colocação .</p><p>O Internacional, que abre o Z-4, na 17ª posição, estacionou nos 32 pontos após a derrota fora de casa para o Mirassol.</p><p>Enquanto os colorados têm 57,7% da probabilidade de queda, a equipe do interior paulista reduziu o número para 7%.</p><p>O lanterna Chapecoense e o penúltimo colocado Remo não venceram na rodada e praticamente deram adeus à Série A. As equipes têm 99,9% e 98,1% da probabilidade de queda, respectivamente.</p><p>Corinthians sai atrás, mas empata com o Vitória pelo Brasileirão</p><p>Resultado deixa o Timão colado à zona de rebaixamento, mas ainda fora dela, com 33 pontos</p><p>Flamengo ou e Palmeiras: quem tem a tabela mais difícil até o fim do Brasileirão?</p><p>São Paulo, Atlético-MG, Grêmio e Inter correm risco de sofrer transfer ban</p><p>Flamengo é apontado como favorito ao título do Brasileirão; veja probabilidades</p><p>Cristiano Ronaldo é suspenso por 30 dias pela Federação Portuguesa</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/esportes/futebol/apos-empate-corinthians-tem-43-de-risco-de-cair-veja-probabilidades/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Corinthians viu o risco de rebaixamento subir após o empate por 1 a 1 com o Vitória, na Neo Química Arena, em jogo válido pela 31ª rodada Campeonato Brasileiro. No primeiro duelo após a contratação de Clarence Seedorf como técnico, o time alvinegro amargou a nona partida sem vitória na competição nacional. A equipe soma 32 pontos e está na 16ª posição, col"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "De acordo com o Departamento de Matemática da Universidade Federal de Minas Gerais (UFMG), o risco do Corinthians ser rebaixado para a Série B é de 43,1%. O número era de 41,1% na rodada anterior."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O empate fora de casa ajudou o Vitória, cujo risco de ser rebaixado é de somente 4,6%. Os baianos estão na 13ª posição, com 37 pontos."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Na próxima rodada, o Corinthians encara o Vasco, em São Januário, em confronto direto na briga para se afastar do Z-4. O risco de os cariocas serem rebaixados está em 10,3% . Aequipe cruz-maltina tem 35 pontos e está logo acima do time paulista, na 15ª colocação. Apesar da derrota para o São Paulo no sábado, os vascaínos estão em momento de ascensão e decide"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Por sua vez, a dupla Gre-Nal vive situação dramática. Derrotado em casa pelo Cruzeiro no domingo, o Grêmio viu o risco de rebaixamento subir para 76,1%. A equipe soma apenas 31 pontos e está na 18ª colocação . O Internacional, que abre o Z-4, na 17ª posição, estacionou nos 32 pontos após a derrota fora de casa para o Mirassol. Enquanto os colorados têm 57,7%"
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/ODR20261019108.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/apos-empate-corinthians-tem-43-de-risco-de-cair-veja-probabilidades-jovem-pan.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "bc31e236652dfdd5",
+      "titulo": "Brasileirão: veja as chances de rebaixamento após 31 rodadas",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/brasileirao-veja-as-chances-de-rebaixamento-apos-31-rodadas",
+      "dataFonte": "2026-10-20T11:10:07.000Z",
+      "resumoFonte": "Após 31ª rodadas, Corinthians segue pressionado pelo Z-4, enquanto Chape, Remo, Grêmio e Internacional aparecem entre os mais ameaçados",
+      "imagem": "https://i.metroimg.com/wncYhVvtRI5hoPlgu097QnCuGvWMB3oCUmQdFVf2f8E/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/renato-gaucho-remo-x-gremio.jpg",
       "descobertaEm": "2026-10-20T11:18:25.097Z"
     },
     {
-      "id": "ae8e8ccd28c7ecb0",
-      "titulo": "Alesp vai analisar denúncia contra deputado Marcelo Aguiar (PL) por uso irregular de carro oficial",
+      "id": "2e68ccff09fc2a5b",
+      "titulo": "Apoiadora de Bolsonaro faz ofensas racistas contra jovem após briga em SP",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "CBN - Política",
-      "urlFonte": "https://cbn.globo.com/sao-paulo/noticia/2026/10/20/alesp-vai-analisar-denuncia-contra-deputado-marcelo-aguiar-pl-por-uso-irregular-de-carro-oficial.ghtml",
-      "dataFonte": "2026-10-20T10:45:24.614Z",
-      "resumoFonte": "O deputado se envolveu em uma confusão em uma balada na Zona Sul de São Paulo. Um disparo de sua arma atingiu de raspão o pé do apresentador Fred Bruno, da TV Globo.",
-      "imagem": "https://s2-cbn.glbimg.com/AUu19u7UGF6ZqFGix2dBY61OtKQ=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/n/I/qKmLBZQDeeFufPmB9XOQ/marcelo-aguiar.png",
-      "descobertaEm": "2026-10-20T11:18:25.097Z",
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/apoiadora-de-bolsonaro-faz-ofensas-racistas-contra-jovem-apos-briga-em-sp/",
+      "dataFonte": "2026-10-20T11:41:09.000Z",
+      "resumoFonte": "Estudante registrou mulher o xingando de “preto de bosta” após confusão na estação Vila Sônia, da Linha 4-Amarela; Ministério Público informou que abriu um inquérito policial sobre o caso",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/BOLSONARISTA-RACISMO.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-20T12:18:27.707Z",
       "reportagem": {
-        "titulo": "Alesp vai analisar denúncia contra deputado Marcelo Aguiar (PL) por uso irregular de carro oficial",
-        "slug": "alesp-vai-analisar-denuncia-contra-deputado-marcelo-aguiar-pl-por-uso-irregular-de-carro-o",
+        "titulo": "Apoiadora de Bolsonaro faz ofensas racistas contra jovem após briga em SP",
+        "slug": "apoiadora-de-bolsonaro-faz-ofensas-racistas-contra-jovem-apos-briga-em-sp",
         "categoria": "Justiça",
         "data": "2026-10-20",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/alesp-vai-analisar-denuncia-contra-deputado-marcelo-aguiar-pl-por-uso-irregular-de-carro-o.jpg",
-        "resumo": "O deputado se envolveu em uma confusão em uma balada na Zona Sul de São Paulo. Um disparo de sua arma atingiu de raspão o pé do apresentador Fred Bruno, da TV Globo.",
-        "conteudo": "<p>Alesp vai analisar denúncia contra deputado Marcelo Aguiar (PL) por uso irregular de carro oficial</p><h2>Assembleia Legislativa de São Paulo informou que o Conselho</h2><p>A Assembleia Legislativa de São Paulo informou que o Conselho de Ética vai analisar uma denúncia contra o deputado Marcelo Aguiar (PL) pelo uso de um carro com placa oficial da Casa, mas que não estava cadastrado no gabinete do parlamentar.</p><p>Saiba como denunciar fake news eleitoral por meio do Siade Janones volta a publicar em canal pró-Lula no WhatsApp após internação por arritmia</p><p>A denúncia foi apresentada na segunda-feira (19) pelas deputadas Ediane Maria e Monica Seixas, ambas do PSOL.</p><h2>Irregularidade foi identificada depois de uma confusão envolvendo Marcelo</h2><p>A irregularidade foi identificada depois de uma confusão envolvendo Marcelo Aguiar em uma balada no Itaim Bibi, na Zona Sul de São Paulo, na noite de domingo (18).</p><p>Carro usado pelo deputado Marcelo Aguiar (PL) — Foto: Reprodução/ TV Globo</p><p>Segundo testemunhas, o deputado aparentava estar embriagado e assediava mulheres dentro do estabelecimento. Dois homens teriam ido tirar satisfação com ele, quando houve uma discussão e um disparo da arma do parlamentar.</p><p>Fred Bruno, apresentador da TV Globo — Foto: Divulgação/Bob Paulino</p><p>O tiro atingiu de raspão o pé do apresentador Fred Bruno , da TV Globo, que estava no local, que descreveu o momento do impacto.</p><p>&quot;Eu ouvi o disparo e senti um impacto muito grande no meu pé. Começou a latejar, começou a queimar. Não tinha entendido muito bem o que tinha acontecido, mas eu estou bem. Porém, é algo muito sério.</p><p>Poderia ter acontecido algo muito pior ali comigo ou com qualquer outra pessoa.&quot;</p><p>A principal hipótese da Polícia Civil é de que o disparo tenha sido acidental, durante uma queda do deputado. O registro da Polícia Militar, porém, aponta que ele teria sacado a arma para se defender.</p><p>Segundo a segurança da balada, Marcelo entrou sem passar por revista depois de se identificar como deputado e não informou que estava armado.</p><p>Ele precisou ser amparado por policiais para chegar até a delegacia na madrugada desta segunda-feira. Apesar disso, foi liberado sem ser submetido a exame de embriaguez.</p><p>A defesa afirma que Marcelo estava sob efeito de medicamentos fortes, que provocaram uma reação adversa, e nega que ele tenha sido preso.</p><p>O deputado também declarou à polícia que, caso sua arma tenha disparado, o tiro foi acidental.</p><p>Conhecido também como cantor gospel, Marcelo não foi reeleito, mas ficou como suplente para a próxima legislatura.</p>",
-        "fonteNome": "CBN - Política",
-        "fonteUrl": "https://cbn.globo.com/sao-paulo/noticia/2026/10/20/alesp-vai-analisar-denuncia-contra-deputado-marcelo-aguiar-pl-por-uso-irregular-de-carro-oficial.ghtml",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/apoiadora-de-bolsonaro-faz-ofensas-racistas-contra-jovem-apos-briga-em-sp.jpg",
+        "resumo": "Estudante registrou mulher o xingando de “preto de bosta” após confusão na estação Vila Sônia, da Linha 4-Amarela; Ministério Público informou que abriu um inquérito policial sobre o caso",
+        "conteudo": "<p>Um estudante foi alvo de ofensas racistas na noite de domingo (18), na estação Vila Sônia Profª Elisabeth Tenreiro, da Linha 4-Amarela do metrô de São Paulo, após tentar apartar uma discussão entre uma mulher e outras três pessoas.</p><h2>Ofensas começaram quando ele tentou acalmar a mulher,</h2><p>Segundo relato publicado pela vítima nas redes sociais, as ofensas começaram quando ele tentou acalmar a mulher, que se declarou bolsonarista e havia entrado numa briga com outros jovens na estação .</p><p>Em vídeo publicado nas redes sociais, Marcio Ferreira relatou que voltava de uma manifestação política de esquerda na região da Barra Funda quando presenciou a discussão.</p><p>De acordo com ele, o conflito escalou para ofensas verbais e quase uma agressão física. Ao tentar intervir, o estudante pediu que a mulher se acalmasse e deixasse o local.</p><h2>Após ele se referiar à mulher como &quot;bolsonarista&quot; ,</h2><p>Segundo o relato, após ele se referiar à mulher como &quot;bolsonarista&quot; , ela passou a insultá-lo.</p><p>Marcio afirma que começou a gravar a situação e a se afastar, mas a mulher continuou a segui-lo pela escada rolante da estação. Nas imagens, é possível ver a mulher o chamando de “preto de bosta”.</p><p>Um post compartilhado por Marcio Fidelis (@marciofidelisjr)</p><p>O estudante também relatou que, ao chegar à parte superior da estação, a mulher tentou avançar em sua direção e o acusou de tê-la agredido.</p><p>Em seu pronunciamento, Marcio afirmou que pretende denunciar o caso à polícia . Ele também falou sobre o impacto emocional do episódio e ressaltou que não se considera culpado pelas ofensas sofridas.</p><p>Em nota, a Motiva, concessionária responsável pela Linha 4-Amarela, informou que agentes de Atendimento e Segurança atenderam a uma ocorrência de desentendimento entre dois passageiros, com ofensas de cunho racista , na estação Vila Sônia, na noite de domingo.</p><p>&quot;Agentes de Atendimento e Segurança (AAS) da Linha 4-Amarela atenderam a uma ocorrência de desentendimento, com ofensas de cunho racista, entre dois clientes na estação Vila Sônia Profª Elisabeth Tenreiro, na noite do último domingo (18).</p><p>As equipes acolheram a vítima e ofereceram apoio para encaminhá-la a uma delegacia para o registro da ocorrência, que optou por não seguir naquele momento.</p><p>A concessionária reforça a importância de os clientes registrarem formalmente os casos ocorridos nas estações, seja com as equipes de segurança das plataformas ou junto às autoridades policiais, ainda que num momento posterior.</p><p>A empresa repudia veemente qualquer manifestação de racismo e discriminação e permanece à disposição das autoridades para colaborar com a apuração dos fatos.&quot;</p><p>O MPSP (Ministério Público de São Paulo) informou que, por meio do Gecrad (Grupo especial de Combate aos Crimes raciais e de Intolerância), já tomou consciência do ocorrido e requisitou a instauração de um inquérito policial sobre o caso.</p><p>A CNN Brasil entrou em contato com a polícia para saber se o caso é investigado, mas ainda não obteve retorno. O espaço segue aberto.</p><p>Imagens de senhora proferindo falas racistas à estudante no metrô de SP</p><p>Um estudante foi alvo de ofensas racistas na noite de domingo (18), na estação Vila Sônia Profª Elisabeth Tenreiro, da Linha 4-Amarela do metrô de São Paulo, após tentar apartar uma discussão entre uma mulher e outras três pessoas.</p><p>Segundo relato publicado pela vítima nas redes sociais, as ofensas começaram quando ele tentou acalmar a mulher, que se declarou bolsonarista e havia entrado numa briga com outros jovens na estação .</p><p>Em vídeo publicado nas redes sociais, Marcio Ferreira relatou que voltava de uma manifestação política de esquerda na região da Barra Funda quando presenciou a discussão.</p><p>De acordo com ele, o conflito escalou para ofensas verbais e quase uma agressão física. Ao tentar intervir, o estudante pediu que a mulher se acalmasse e deixasse o local.</p><p>Segundo o relato, após ele se referiar à mulher como &quot;bolsonarista&quot; , ela passou a insultá-lo.</p><p>Marcio afirma que começou a gravar a situação e a se afastar, mas a mulher continuou a segui-lo pela escada rolante da estação. Nas imagens, é possível ver a mulher o chamando de “preto de bosta”.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/apoiadora-de-bolsonaro-faz-ofensas-racistas-contra-jovem-apos-briga-em-sp/",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -755,45 +935,105 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Alesp vai analisar denúncia contra deputado Marcelo Aguiar (PL) por uso irregular de carro oficial"
+            "resposta": "Um estudante foi alvo de ofensas racistas na noite de domingo (18), na estação Vila Sônia Profª Elisabeth Tenreiro, da Linha 4-Amarela do metrô de São Paulo, após tentar apartar uma discussão entre uma mulher e outras três pessoas."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A Assembleia Legislativa de São Paulo informou que o Conselho de Ética vai analisar uma denúncia contra o deputado Marcelo Aguiar (PL) pelo uso de um carro com placa oficial da Casa, mas que não estava cadastrado no gabinete do parlamentar."
+            "resposta": "Segundo relato publicado pela vítima nas redes sociais, as ofensas começaram quando ele tentou acalmar a mulher, que se declarou bolsonarista e havia entrado numa briga com outros jovens na estação ."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Saiba como denunciar fake news eleitoral por meio do Siade Janones volta a publicar em canal pró-Lula no WhatsApp após internação por arritmia"
+            "resposta": "Em vídeo publicado nas redes sociais, Marcio Ferreira relatou que voltava de uma manifestação política de esquerda na região da Barra Funda quando presenciou a discussão. De acordo com ele, o conflito escalou para ofensas verbais e quase uma agressão física. Ao tentar intervir, o estudante pediu que a mulher se acalmasse e deixasse o local."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A denúncia foi apresentada na segunda-feira (19) pelas deputadas Ediane Maria e Monica Seixas, ambas do PSOL."
+            "resposta": "Segundo o relato, após ele se referiar à mulher como &quot;bolsonarista&quot; , ela passou a insultá-lo. Marcio afirma que começou a gravar a situação e a se afastar, mas a mulher continuou a segui-lo pela escada rolante da estação. Nas imagens, é possível ver a mulher o chamando de “preto de bosta”."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A irregularidade foi identificada depois de uma confusão envolvendo Marcelo Aguiar em uma balada no Itaim Bibi, na Zona Sul de São Paulo, na noite de domingo (18)."
+            "resposta": "Um post compartilhado por Marcio Fidelis (@marciofidelisjr)"
           }
         ],
-        "imagemOriginal": "https://s2-cbn.glbimg.com/AUu19u7UGF6ZqFGix2dBY61OtKQ=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/n/I/qKmLBZQDeeFufPmB9XOQ/marcelo-aguiar.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/alesp-vai-analisar-denuncia-contra-deputado-marcelo-aguiar-pl-por-uso-irregular-de-carro-o.jpg",
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/BOLSONARISTA-RACISMO.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/apoiadora-de-bolsonaro-faz-ofensas-racistas-contra-jovem-apos-briga-em-sp.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "40ec578b32d95f20",
+      "titulo": "Palmeiras suspende conselheiro por 9 meses",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-sportsmkt/palmeiras-suspende-conselheiro-por-9-meses/",
+      "dataFonte": "2026-10-20T11:15:42.000Z",
+      "resumoFonte": "José Corona Neto foi punido depois de discutir com Leila Pereira em reunião do Conselho Deliberativo, em dezembro de 2025",
+      "imagem": "https://static.poder360.com.br/uploads/2026/08/Palmeiras-Nubank-Parque-1.png",
+      "descobertaEm": "2026-10-20T11:18:25.097Z",
+      "reportagem": {
+        "titulo": "Palmeiras suspende conselheiro por 9 meses",
+        "slug": "palmeiras-suspende-conselheiro-por-9-meses",
+        "categoria": "Justiça",
+        "data": "2026-10-20",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/palmeiras-suspende-conselheiro-por-9-meses.jpg",
+        "resumo": "José Corona Neto foi punido depois de discutir com Leila Pereira em reunião do Conselho Deliberativo, em dezembro de 2025. Leia no Poder360.",
+        "conteudo": "<p>José Corona Neto foi punido depois de discutir com Leila Pereira em reunião do Conselho Deliberativo, em dezembro de 2025</p><h2>Conselho Deliberativo do Palmeiras suspendeu o conselheiro José Corona</h2><p>O Conselho Deliberativo do Palmeiras suspendeu o conselheiro José Corona Neto por 9 meses.</p><p>A decisão foi tomada depois da aprovação do relatório de uma sindicância que investigou a discussão entre ele e a presidente Leila Pereira , segundo reportagem publicada na 2ª feira (19.out.2026) pelos jornalistas Camila Alves e Thiago Ferri do Globo Esporte .</p><p>A suspensão recebeu 121 votos favoráveis. Outros 42 conselheiros votaram contra e 33 se abstiveram. O relatório recomendou a punição por considerar inadequada a conduta de Corona Neto durante a reunião.</p><h2>Formulário de cadastro alertas grátis do Poder360 concordo</h2><p>Formulário de cadastro alertas grátis do Poder360 concordo com os termos da LGPD . Inscreva-se Inscreva-se</p><p>O caso foi em dezembro de 2025, quando o conselheiro criticou a gestão e a montagem do elenco. Corona apresentou números considerados falsos sobre transações do clube.</p><p>Durante o discurso, afirmou que “quem não entende de futebol, não pode ser presidente do Palmeiras, tem que ficar em casa” . Também chamou o diretor de futebol Anderson Barros de incompetente e disse que ele “só pensa em comer” .</p><p>Leila respondeu chamando Corona Neto de covarde, fracassado e desequilibrado. Depois da discussão, o conselheiro acionou a Justiça e pediu R$ 20.000 por danos morais, alegando ter sido ofendido pela dirigente.</p><p>O pedido de indenização foi julgado improcedente. O juiz Fernando Salles Amaral entendeu que a troca de ofensas em um ambiente de disputa política não justificava indenização.</p><p>Palmeiras suspende conselheiro por 9 meses José Corona Neto foi punido depois de discutir com Leila Pereira em reunião do Conselho Deliberativo, em dezembro de 2025 --> copiar link --></p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-sportsmkt/palmeiras-suspende-conselheiro-por-9-meses/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "José Corona Neto foi punido depois de discutir com Leila Pereira em reunião do Conselho Deliberativo, em dezembro de 2025"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O Conselho Deliberativo do Palmeiras suspendeu o conselheiro José Corona Neto por 9 meses. A decisão foi tomada depois da aprovação do relatório de uma sindicância que investigou a discussão entre ele e a presidente Leila Pereira , segundo reportagem publicada na 2ª feira (19.out.2026) pelos jornalistas Camila Alves e Thiago Ferri do Globo Esporte ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A suspensão recebeu 121 votos favoráveis. Outros 42 conselheiros votaram contra e 33 se abstiveram. O relatório recomendou a punição por considerar inadequada a conduta de Corona Neto durante a reunião."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Formulário de cadastro alertas grátis do Poder360 concordo com os termos da LGPD . Inscreva-se Inscreva-se"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O caso foi em dezembro de 2025, quando o conselheiro criticou a gestão e a montagem do elenco. Corona apresentou números considerados falsos sobre transações do clube."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/08/Palmeiras-Nubank-Parque-1.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/palmeiras-suspende-conselheiro-por-9-meses.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     }
   ],
-  "reapuradoEm": "2026-10-20T11:48:46.046Z",
+  "reapuradoEm": "2026-10-20T12:48:43.882Z",
   "diagnosticoReapuracao": {
-    "produzidas": 12,
+    "produzidas": 16,
     "jaProntas": 0,
     "incompletas": 4,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 12,
+    "geradas": 16,
     "reaproveitadas": 0,
     "puladas": 4,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-10-20T11:49:41.845Z"
+  "lapisEm": "2026-10-20T12:49:27.912Z"
 }
