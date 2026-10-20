@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-20T02:18:26.556Z",
+  "atualizadoEm": "2026-10-20T03:18:29.740Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 65,
+  "novasPautas": 74,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -124,9 +124,11 @@
     },
     {
       "fonte": "Igreja Cristã Maranata - Oficial",
-      "ok": false,
-      "erro": "https://www.igrejacristamaranata.org.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://www.igrejacristamaranata.org.br/",
+      "fallback": false
     },
     {
       "fonte": "Assembleia de Deus Fonte de Vida - Oficial",
@@ -196,9 +198,11 @@
     },
     {
       "fonte": "Século Diário",
-      "ok": false,
-      "erro": "https://www.seculodiario.com.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://www.seculodiario.com.br/",
+      "fallback": false
     },
     {
       "fonte": "ES Hoje - Política",
@@ -372,23 +376,23 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-20T02:22:06.882Z",
-    "novas": 7,
+    "atualizadoEm": "2026-10-20T03:21:16.723Z",
+    "novas": 0,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Folha Vitória",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -397,8 +401,8 @@
       },
       {
         "fonte": "YouTube PM Ambiental ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Bombeiros ES",
@@ -407,8 +411,8 @@
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "X Governo ES",
@@ -433,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-20T02:22:09.269Z",
+    "atualizadoEm": "2026-10-20T03:21:18.259Z",
     "novas": 0,
     "fontes": [
       {
@@ -449,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-20T02:22:10.350Z",
+    "atualizadoEm": "2026-10-20T03:21:19.195Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-20T02:22:20.909Z",
+    "atualizadoEm": "2026-10-20T03:21:29.767Z",
     "novas": 0,
     "fontes": [
       {
