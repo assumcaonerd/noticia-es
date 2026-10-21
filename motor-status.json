@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-21T13:52:45.209Z",
+  "atualizadoEm": "2026-10-21T14:18:37.908Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 88,
+  "novasPautas": 82,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -31,7 +31,7 @@
     {
       "fonte": "Revista Oeste - Capa",
       "ok": true,
-      "encontrados": 2,
+      "encontrados": 1,
       "capa": true,
       "rota": "https://revistaoeste.com/",
       "fallback": false
@@ -194,11 +194,9 @@
     },
     {
       "fonte": "ES Hoje",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://www.eshoje.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.eshoje.com.br/ -> 403 Forbidden",
+      "capa": true
     },
     {
       "fonte": "Século Diário",
@@ -210,11 +208,9 @@
     },
     {
       "fonte": "ES Hoje - Política",
-      "ok": true,
-      "encontrados": 0,
-      "capa": false,
-      "rota": "https://www.eshoje.com.br/politica/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.eshoje.com.br/politica/ -> 403 Forbidden",
+      "capa": false
     },
     {
       "fonte": "Poder360",
@@ -382,7 +378,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-21T13:55:24.078Z",
+    "atualizadoEm": "2026-10-21T14:22:14.644Z",
     "novas": 4,
     "fontes": [
       {
@@ -443,7 +439,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-21T13:55:25.367Z",
+    "atualizadoEm": "2026-10-21T14:22:16.759Z",
     "novas": 0,
     "fontes": [
       {
@@ -459,13 +455,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-21T13:55:26.266Z",
+    "atualizadoEm": "2026-10-21T14:22:17.769Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-21T13:55:36.825Z",
+    "atualizadoEm": "2026-10-21T14:22:28.333Z",
     "novas": 0,
     "fontes": [
       {
