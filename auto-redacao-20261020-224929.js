@@ -1,87 +1,153 @@
 const noticiasAutoRedacao20261020224929 = [
   {
-    id: 26102022492901,
+    id: 26102023371201,
+    pautaId: "28d400dc8e919bfc",
+    slug: "mega-sena-acumula-e-premio-chega-a-r-200-milhoes",
+    titulo: "Mega-Sena acumula e prêmio chega a R$ 200 milhões",
+    categoria: "Economia",
+    data: "2026-10-20",
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261020-mega-sena-acumula-e-premio-chega-a-r-200-milhoes.jpg",
+    resumo: "Nenhuma aposta acertou as seis dezenas do concurso 3.072; próximo sorteio está marcado para quinta-feira, com estimativa de R$ 200 milhões.",
+    conteudo: `<p>Nenhuma aposta acertou as seis dezenas do concurso 3.072 da Mega-Sena, sorteado na noite desta terça-feira (20), em São Paulo. Com o novo acúmulo, a Caixa Econômica Federal estima um prêmio de R$ 200 milhões para o próximo sorteio, previsto para quinta-feira (22).</p><p>A Agência Brasil informou o resultado após a apuração da Caixa, e a Folha de S.Paulo confirmou os valores destinados às faixas secundárias. As dezenas sorteadas no Espaço da Sorte foram 02, 06, 09, 16, 31 e 40.</p><p>O prêmio principal antes do sorteio era de R$ 187.648.868,43. Como nenhum bilhete reuniu os seis números, o montante reservado à sena se soma às regras de acumulação da modalidade e eleva a expectativa para o concurso seguinte.</p><h2>Prêmio cresce após novo acúmulo</h2><p>A quina teve 140 apostas vencedoras. Cada uma receberá R$ 38.295,72. Na quadra, 9.261 bilhetes acertaram quatro dezenas e garantiram R$ 954,26 para cada apostador, segundo a divulgação oficial reproduzida pelas duas fontes.</p><p>O resultado mantém a atenção sobre uma sequência de concursos sem ganhador na faixa principal. A cifra anunciada para quinta-feira é uma estimativa: o valor definitivo depende da arrecadação e da aplicação das regras previstas para a distribuição dos recursos entre as faixas de premiação.</p><p>O acúmulo não altera a mecânica do jogo. Para concorrer ao prêmio principal, o apostador precisa marcar ao menos seis dezenas entre as 60 disponíveis e acertar todas as que forem sorteadas. Jogos com mais números custam mais e ampliam a quantidade de combinações registradas.</p><h2>Aposta simples custa seis reais</h2><p>A aposta mínima, com seis números, custa R$ 6. Para o sorteio de quinta-feira, os jogos podem ser feitos até as 20h nas casas lotéricas credenciadas, no portal Loterias Online e no aplicativo Loterias Caixa. Bolões digitais têm prazo específico, que vai até 20h30 nas plataformas eletrônicas.</p><p>Mesmo com o prêmio elevado, a probabilidade de acerto continua muito baixa. Em um jogo simples, a chance de marcar as seis dezenas corretas é superior a uma em 50 milhões. Apostar mais combinações aumenta a possibilidade matemática, mas também eleva rapidamente o custo do bilhete.</p><p>O valor de R$ 200 milhões desperta interesse porque pode produzir rendimento expressivo mesmo em aplicações conservadoras, mas não deve ser tratado como expectativa de retorno. Loteria é uma modalidade de aposta baseada no acaso, sem estratégia capaz de garantir resultado ou recuperar gastos anteriores.</p><p>Quem participar deve guardar o comprovante e conferir o resultado somente em canais oficiais. A Caixa também orienta que os apostadores observem os prazos para retirada, porque prêmios não reclamados dentro do período regulamentar são destinados ao Fundo de Financiamento Estudantil.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Agência Brasil",
+    fonteUrl: "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-acertador-e-premio-vai-r-200-milhoes",
+    fontesAdicionais: [
+      {
+        nome: "Folha de S.Paulo",
+        url: "https://www1.folha.uol.com.br/cotidiano/2026/10/confira-a-partir-das-21h-desta-terca-20-o-resultado-do-concurso-3072-da-mega-sena.shtml"
+      }
+    ],
+    entidades: ["Mega-Sena", "Caixa Econômica Federal", "Espaço da Sorte"],
+    aeo: [
+      {
+        pergunta: "Qual é o prêmio estimado da Mega-Sena?",
+        resposta: "A Caixa estima R$ 200 milhões para o sorteio de quinta-feira, 22 de outubro."
+      },
+      {
+        pergunta: "Quais dezenas foram sorteadas no concurso 3.072?",
+        resposta: "Os números foram 02, 06, 09, 16, 31 e 40."
+      },
+      {
+        pergunta: "Quantas apostas acertaram a quina?",
+        resposta: "Foram 140 apostas, com prêmio de R$ 38.295,72 para cada uma."
+      },
+      {
+        pergunta: "Quanto custa a aposta simples?",
+        resposta: "O jogo mínimo, com seis dezenas, custa R$ 6."
+      },
+      {
+        pergunta: "Até quando é possível apostar?",
+        resposta: "As apostas comuns podem ser registradas até as 20h de quinta-feira nos canais autorizados."
+      }
+    ],
+    redacaoPropria: true,
+    origemTexto: "redacao-noticia-es",
+    automatico: true,
+    publicadoEm: "2026-10-21T02:37:12.000Z"
+  },
+  {
+    id: 26102023371202,
+    pautaId: "b7d16e31f068c6f9",
+    slug: "sertanejos-reforcam-apoio-a-flavio-na-reta-final",
+    titulo: "Sertanejos reforçam apoio a Flávio na reta final",
+    categoria: "Política Nacional",
+    data: "2026-10-20",
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261020-sertanejos-reforcam-apoio-a-flavio-na-reta-final.jpg",
+    resumo: "Candidato do PL reuniu artistas em Goiás para gravar peças de campanha a cinco dias do segundo turno presidencial.",
+    conteudo: `<p>O candidato à Presidência Flávio Bolsonaro (PL) reuniu cantores sertanejos em Goiás nesta terça-feira (20) para gravar vídeos de apoio à campanha. A mobilização ocorreu a cinco dias do segundo turno contra o presidente Luiz Inácio Lula da Silva (PT), marcado para domingo (25).</p><p>A Jovem Pan noticiou a adesão de artistas ao ato, enquanto UOL e Folha de S.Paulo confirmaram a gravação e a participação de nomes do setor. Segundo o UOL, 33 cantores se encontraram com o candidato na propriedade do senador Wilder Morais (PL-GO).</p><p>Entre os presentes citados pela assessoria de Flávio estavam Gusttavo Lima, Zezé Di Camargo, Marrone, Felipe Araújo, Jorge, Gian e Giovani, Murilo Huff, João Neto e Frederico, George Henrique e Rodrigo, além de outros artistas. A relação divulgada descreve quem compareceu ao encontro, mas não transforma automaticamente cada presença em declaração individual de voto.</p><h2>Encontro amplia apoio artístico</h2><p>Gusttavo Lima já havia manifestado apoio público ao candidato durante um show no Paraná. Em Goiás, ele voltou a aparecer ao lado de Flávio e de colegas do gênero em uma ação planejada para produzir material audiovisual destinado às redes e à propaganda da reta final.</p><p>A agenda foi organizada em torno da gravação de peças coletivas. A Folha informou que Bruno &amp; Marrone, Gian &amp; Giovani e Jorge &amp; Mateus estavam entre os artistas previstos para o vídeo. O UOL registrou, porém, que Leonardo e Amado Batista eram esperados, mas não compareceram.</p><p>Essa diferença entre presença confirmada e expectativa é relevante para evitar que listas preliminares sejam tratadas como apoio consumado. O fato político comprovado é a reunião de dezenas de representantes da música sertaneja com o candidato e o uso eleitoral das imagens produzidas no encontro.</p><h2>Mobilização mira reta final</h2><p>A campanha busca ampliar a comunicação com públicos que acompanham os artistas e transformar prestígio cultural em alcance político. A iniciativa também reforça a tentativa de Flávio de consolidar votos no Centro-Oeste e disputar eleitores de menor renda, segmento no qual Lula apresentava desempenho superior em levantamentos citados pela Folha.</p><p>O apoio de uma celebridade não substitui o debate sobre propostas, histórico e responsabilidades do candidato. Ele funciona como sinal público de preferência e como ferramenta de divulgação. Cabe ao eleitor separar o alcance dos artistas do conteúdo político da campanha antes de decidir o voto.</p><p>Também não há equivalência automática entre participar de uma gravação, autorizar o uso de imagem e fazer campanha permanente. Por isso, a cobertura precisa atribuir cada gesto à pessoa correspondente, sem estender a todos os presentes uma fala pronunciada por apenas um dos participantes.</p><p>Os vídeos produzidos em Goiás devem circular nos últimos dias antes da votação. Com a proximidade do segundo turno, as duas candidaturas intensificam agendas, alianças e peças digitais; manifestações de artistas integram essa estratégia, mas o resultado será definido pelos votos válidos depositados nas urnas no domingo.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Jovem Pan",
+    fonteUrl: "https://jovempan.com.br/entretenimento/musica/saiba-quais-cantores-sertanejos-declararam-apoio-a-flavio-bolsonaro/",
+    fontesAdicionais: [
+      {
+        nome: "UOL",
+        url: "https://noticias.uol.com.br/eleicoes/2026/10/20/flavio-vai-a-goias-para-gravar-videos-com-cantores-sertanejos.ghtm"
+      },
+      {
+        nome: "Folha de S.Paulo",
+        url: "https://www1.folha.uol.com.br/colunas/monicabergamo/2026/10/flavio-grava-video-com-sertanejos-como-gusttavo-lima-e-bruno-marrone-em-fazenda-de-go.shtml"
+      }
+    ],
+    entidades: ["Flávio Bolsonaro", "Gusttavo Lima", "Wilder Morais", "PL"],
+    aeo: [
+      {
+        pergunta: "Por que Flávio se reuniu com sertanejos?",
+        resposta: "O encontro foi organizado para gravar vídeos de apoio destinados à reta final da campanha presidencial."
+      },
+      {
+        pergunta: "Quantos cantores participaram do encontro?",
+        resposta: "O UOL informou que a assessoria do candidato registrou a presença de 33 cantores."
+      },
+      {
+        pergunta: "Onde ocorreu a gravação?",
+        resposta: "A reunião ocorreu em Goiás, na propriedade do senador Wilder Morais."
+      },
+      {
+        pergunta: "Leonardo e Amado Batista compareceram?",
+        resposta: "Segundo o UOL, os dois eram esperados, mas não participaram do encontro."
+      },
+      {
+        pergunta: "Quando será o segundo turno?",
+        resposta: "A votação entre Flávio Bolsonaro e Lula está marcada para domingo, 25 de outubro."
+      }
+    ],
+    redacaoPropria: true,
+    origemTexto: "redacao-noticia-es",
+    automatico: true,
+    publicadoEm: "2026-10-21T02:37:12.000Z"
+  },
+  {
+    id: 26102023371203,
     pautaId: "3e5967832bc36f13",
-    slug: "copa-do-brasil-feminina-nos-penaltis-internacional-elimina-atletico-mg",
-    titulo: "Copa do Brasil Feminina: nos pênaltis, Internacional elimina Atlético-MG",
+    slug: "internacional-vence-nos-penaltis-e-avanca-a-semifinal",
+    titulo: "Internacional vence nos pênaltis e avança à semifinal",
     categoria: "Esporte",
     data: "2026-10-20",
-    imagem: "https://noticiaes.com.br/imagens/lapis/copa-do-brasil-feminina-nos-penaltis-internacional-elimina-atletico-mg.jpg",
-    resumo: "Com a classificação sobre o Galo, o Colorado vai à semifinal, se juntando ao Red Bull Bragantino, que despachou a Ferroviária com 4 a 3 no agregado",
-    conteudo: "<p>O Atlético-MG foi eliminado da Copa do Brasil Feminina nesta terça-feira (20). As vingadoras para o Internacional, nos pênaltis, por 4 a 3, pelas quartas de final, na Arena MRV, em Belo Horizonte (MG), após um empate sem gols no tempo normal.</p><h2>Na ida, em Porto Alegre (RS), as equipes tinham</h2><p>Na ida, em Porto Alegre (RS), as equipes tinham ficado no 1 a 1 . Com a vitória, o Colorado vai à próxima fase, se juntando ao Red Bull Bragantino, que despachou a Ferroviária com 4 a 3 no agregado. Os demais classificados virão de Fluminense x Flamengo e São Paulo x Bahia.</p><p>Os adversários e os mandos de campo das semifinais da Copa do Brasil Feminina serão definidos por sorteio. O evento está marcado para sexta-feira (23), às 15h, na sede da CBF, no Rio de Janeiro (RJ).</p><p>A partida na Arena MRV começou com o Internacional buscando mais o ataque. Logo aos 30 segundos, Sole teve a primeira chance para as coloradas, mas a goleira Weber fez a defesa. Apesar da pressão inicial, a defesa atleticana se manteve firme.</p><h2>Na metade da etapa inicial, o Atlético-MG passou</h2><p>Na metade da etapa inicial, o Atlético-MG passou a controlar mais o jogo e a criar oportunidades. A grande chance veio nos acréscimos, em uma jogada de Thalita pela esquerda, que deixou Amália com o gol livre.</p><p>A camisa 17, porém, não conseguiu finalizar bem, e a goleira Mari conseguiu impedir a abertura do placar.</p><p>A segunda etapa iniciou com mais emoção. Aos três minutos, Débora cabeceou após cobrança de falta, e a bola foi na trave. Na sequência, em rápido contra-ataque, Thalita avançou sozinha, mas caiu na área. As vingadoras pediram pênalti, não marcado pela arbitragem.</p><p>Pouco depois, aos sete minutos, o Galo teve outra chance quando Sorriso, zagueira do Inter, quase marcou contra o próprio gol, mas Mari defendeu.</p><p>O Inter continuou criando, enquanto o Atlético apostava nos contra-ataques. Aos dez minutos, Isadora chutou para fora da entrada da área.</p><p>Aos 23 minutos, Pimenta teve mais uma chance clara em contra-ataque, ficando cara a cara com Mari. A goleira levou a melhor, e Pimenta caiu pedindo pênalti, mas o lance não foi assinalado.</p><p>A partida esfriou nos minutos finais, com pressão das coloradas, mas sem alteração no placar.</p><p>Com o placar de 0 a 0 no tempo normal, a decisão foi para as penalidades, onde o Internacional levou a melhor sobre o Atlético-MG por 4 a 3, garantindo sua classificação para as semifinais.</p><p>Esse texto foi gerado por inteligência artificial com base no conteúdo produzido pela Itatiaia. Todas as informações são apuradas e checadas por jornalistas. O texto final também passa pela revisão da equipe de jornalismo da CNN Brasil.</p><p>Copa do Brasil Feminina: nos pênaltis, Internacional elimina Atlético-MG</p>",
-    autor: 'Redação Notícia ES',
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261020-internacional-vence-nos-penaltis-e-avanca-a-semifinal.jpg",
+    resumo: "Gurias Coloradas seguraram empate sem gols com o Atlético-MG e ganharam a disputa por 4 a 3 na Arena MRV.",
+    conteudo: `<p>O Internacional eliminou o Atlético-MG nos pênaltis nesta terça-feira (20) e avançou pela primeira vez à semifinal da Copa do Brasil Feminina. Depois de um empate sem gols na Arena MRV, em Belo Horizonte, as Gurias Coloradas venceram a disputa por 4 a 3.</p><p>A CNN Brasil acompanhou a classificação, e o site oficial do Internacional confirmou o placar das cobranças e o caráter inédito da vaga. A Confederação Brasileira de Futebol havia registrado que o confronto chegou aberto à volta após o empate por 1 a 1 no primeiro jogo, disputado no Beira-Rio.</p><p>Com o 0 a 0 em Minas Gerais, o placar agregado permaneceu em 1 a 1. Como não havia vantagem pelo resultado da ida, a definição foi diretamente para as penalidades, etapa em que o time gaúcho mostrou maior precisão.</p><h2>Defesa colorada segura empate</h2><p>O Atlético-MG tentou aproveitar o mando de campo para controlar a partida e buscar o gol da classificação. O Internacional respondeu com organização defensiva, reduziu os espaços perto da área e atravessou os momentos de pressão sem sofrer o gol que mudaria o confronto.</p><p>O equilíbrio visto no primeiro jogo voltou a aparecer na Arena MRV. As equipes criaram disputas intensas no meio-campo, mas tiveram dificuldade para transformar posse e avanço territorial em finalizações decisivas. O empate sem gols premiou a disciplina de quem errou menos.</p><p>Nos pênaltis, Julia Bianchi, Débora, Bianca Martins e Caty converteram para o Internacional, segundo o relato oficial do clube. O aproveitamento garantiu o 4 a 3 e encerrou a eliminatória depois de 180 minutos sem vantagem no placar agregado.</p><h2>Pênaltis confirmam vaga inédita</h2><p>A classificação representa um marco para a equipe feminina do Internacional na competição. Chegar à semifinal amplia a presença do clube na fase decisiva e dá sequência a uma campanha construída com capacidade de competir fora de casa em um duelo eliminatório equilibrado.</p><p>Para o Atlético-MG, a eliminação ocorreu no detalhe. O time mineiro não perdeu no tempo regulamentar em nenhum dos dois jogos, mas ficou atrás na sequência de cobranças. Em mata-mata, esse critério encerra a disputa mesmo quando o placar agregado permanece igual.</p><p>A vaga também reforça a importância da preparação específica para penalidades. A cobrança exige execução técnica e controle emocional, enquanto a goleira trabalha leitura corporal e tempo de reação. Em confrontos nivelados, esse treinamento pode separar a classificação da eliminação.</p><p>O Internacional agora aguarda a sequência da competição para conhecer os próximos compromissos da semifinal. A vitória na Arena MRV mantém o clube na disputa pelo título e consolida uma noite histórica para as Gurias Coloradas na edição de 2026 da Copa do Brasil Feminina.</p>`,
+    autor: "Redação Notícia ES",
     fonteNome: "CNN Brasil",
     fonteUrl: "https://www.cnnbrasil.com.br/esportes/futebol/copa-do-brasil/copa-do-brasil-feminina-nos-penaltis-internacional-elimina-atletico-mg/",
-    fontesAdicionais: [{"nome":"A Gazeta","url":"https://www.agazeta.com.br/"},{"nome":"Folha Vitória","url":"https://www.folhavitoria.com.br/"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"O Atlético-MG foi eliminado da Copa do Brasil Feminina nesta terça-feira (20). As vingadoras para o Internacional, nos pênaltis, por 4 a 3, pelas quartas de final, na Arena MRV, em Belo Horizonte (MG), após um empate sem gols no tempo normal."},{"pergunta":"Qual é o ponto principal?","resposta":"Na ida, em Porto Alegre (RS), as equipes tinham ficado no 1 a 1 . Com a vitória, o Colorado vai à próxima fase, se juntando ao Red Bull Bragantino, que despachou a Ferroviária com 4 a 3 no agregado. Os demais classificados virão de Fluminense x Flamengo e São Paulo x Bahia."},{"pergunta":"Quais são os dados mais importantes?","resposta":"Os adversários e os mandos de campo das semifinais da Copa do Brasil Feminina serão definidos por sorteio. O evento está marcado para sexta-feira (23), às 15h, na sede da CBF, no Rio de Janeiro (RJ)."},{"pergunta":"Qual é o contexto?","resposta":"A partida na Arena MRV começou com o Internacional buscando mais o ataque. Logo aos 30 segundos, Sole teve a primeira chance para as coloradas, mas a goleira Weber fez a defesa. Apesar da pressão inicial, a defesa atleticana se manteve firme."},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"Na metade da etapa inicial, o Atlético-MG passou a controlar mais o jogo e a criar oportunidades. A grande chance veio nos acréscimos, em uma jogada de Thalita pela esquerda, que deixou Amália com o gol livre. A camisa 17, porém, não conseguiu finalizar bem, e a goleira Mari conseguiu impedir a abertura do placar."}],
+    fontesAdicionais: [
+      {
+        nome: "Internacional",
+        url: "https://ws.internacional.com.br/noticias/feminino/gurias-vencem-o-atletico-mg-nos-penaltis-e-avancam-na-copa-do-brasil"
+      },
+      {
+        nome: "CBF",
+        url: "https://www.cbf.com.br/futebol-brasileiro/noticias/copa-brasil-feminino/a/semifinalistas-da-copa-do-brasil-feminina-comecam-a-ser-definidos-nesta-terca-feira"
+      }
+    ],
+    entidades: ["Internacional", "Atlético-MG", "Copa do Brasil Feminina", "Arena MRV"],
+    aeo: [
+      {
+        pergunta: "Quem avançou à semifinal da Copa do Brasil Feminina?",
+        resposta: "O Internacional eliminou o Atlético-MG e garantiu a vaga."
+      },
+      {
+        pergunta: "Qual foi o placar no tempo regulamentar?",
+        resposta: "O jogo de volta terminou 0 a 0 na Arena MRV."
+      },
+      {
+        pergunta: "Quanto terminou a disputa de pênaltis?",
+        resposta: "As Gurias Coloradas venceram por 4 a 3."
+      },
+      {
+        pergunta: "Como terminou o jogo de ida?",
+        resposta: "Internacional e Atlético-MG empataram por 1 a 1 no Beira-Rio."
+      },
+      {
+        pergunta: "A vaga é inédita para o Internacional?",
+        resposta: "Sim. Foi a primeira classificação do clube à semifinal da Copa do Brasil Feminina."
+      }
+    ],
     redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
+    origemTexto: "redacao-noticia-es",
     automatico: true,
-    publicadoEm: "2026-10-21T01:49:29.548Z"
-  },
-  {
-    id: 26102022492902,
-    pautaId: "c5dc7cfddce9913d",
-    slug: "gusttavo-lima-pede-a-flavio-para-manter-acoes-sociais-quot-proximo-presidente-quot",
-    titulo: "Gusttavo Lima pede a Flávio para manter ações sociais: &quot;Próximo presidente&quot;",
-    categoria: "Cultura",
-    data: "2026-10-20",
-    imagem: "https://noticiaes.com.br/imagens/lapis/gusttavo-lima-pede-a-flavio-para-manter-acoes-sociais-quot-proximo-presidente-quot.jpg",
-    resumo: "Ao lado de Flávio Bolsonaro, cantor defende alternância de poder. Senador promete manter benefícios sociais e diz que vai “consertar o país&quot;",
-    conteudo: "<p>O cantor sertanejo Gusttavo Lima reafirmou, nesta segunda-feira (20/10), apoio à candidatura do senador Flávio Bolsonaro (PL) à Presidência da República e cobrou o compromisso do presidenciável com a manutenção de programas sociais, como o Bolsa Família.</p><h2>“Olha, o meu voto você sabe que você já</h2><p>“Olha, o meu voto você sabe que você já tem, né?”, disse ao receber Flávio em sua casa. Durante a conversa, o cantor também criticou o custo de vida, a carga tributária e a taxa básica de juros, a Selic.</p><p>Um post compartilhado por Gusttavo Lima (@gusttavolima)</p><p>O encontro ocorreu no mesmo dia em que o senador se reuniu com mais de 30 artistas sertanejos em Goiânia , em um encontro organizado pelo senador Wilder Morais (PL), derrotado por Daniel Vilela (MDB) na disputa pelo governo de Goiás ainda no primeiro turno.</p><h2>Além de Gusttavo Lima, participaram nomes como Zezé Di</h2><p>Além de Gusttavo Lima, participaram nomes como Zezé Di Camargo, Jorge, da dupla com Mateus, e Marrone, da dupla com Bruno.</p><p>O senador citou o medo da violência, o endividamento das famílias e a dificuldade de acesso a atividades de lazer como problemas enfrentados pelos brasileiros.</p><p>“Todo mundo hoje vive em pânico de andar na rua, está todo mundo endividado, imposto alto pra caramba. Os artistas, produtores culturais, você que trabalha com show, está difícil. As pessoas não estão tendo dinheiro de comprar ingresso para ir num show”, afirmou.</p><p>O candidato também disse que pretende ouvir representantes de diferentes setores para formular propostas e defendeu que a eleição não seja tratada apenas como uma disputa ideológica.</p><p>“Eu acho que todo mundo quer mudança. Por isso que eu estou aqui pedindo o voto no 22”, declarou.</p><p>Flávio Bolsonaro recebe apoio de mais de 30 cantores sertanejos em Goiás</p><p>O sertanejo pediu que o filho mais velho de Jair Bolsonaro (PL) se comprometa a manter políticas de assistência social, citando o Bolsa Família e o Bolsa Escola . O cantor relatou que o programa educacional foi importante para sua trajetória.</p><p>“Quando eu era criança, irmão, eu só tive condição de estudar porque eu tinha o Bolsa Escola, e o Bolsa Família fez uma diferença incrível na nossa vida, então a gente é grato”, afirmou.</p><p>Em resposta, Flávio garantiu que pretende manter os benefícios e outros serviços públicos.</p><p>“Est á garantido o Bolsa Família, está garantida a aposentadoria, está garantido o servidor, está garantido o Banco do Brasil, Caixa, Petrobras. Fiquem tranquilos, não acreditem em mentira”, disse.</p><p>Receba no seu email as notícias de Boletim Metrópoles Frequência de envio: Diário Ver todas</p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "Metrópoles - Feed",
-    fonteUrl: "https://www.metropoles.com/brasil/gusttavo-lima-pede-a-flavio-para-manter-acoes-sociais-proximo-presidente",
-    fontesAdicionais: [{"nome":"A Gazeta","url":"https://www.agazeta.com.br/"},{"nome":"Folha Vitória","url":"https://www.folhavitoria.com.br/"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"O cantor sertanejo Gusttavo Lima reafirmou, nesta segunda-feira (20/10), apoio à candidatura do senador Flávio Bolsonaro (PL) à Presidência da República e cobrou o compromisso do presidenciável com a manutenção de programas sociais, como o Bolsa Família."},{"pergunta":"Qual é o ponto principal?","resposta":"“Olha, o meu voto você sabe que você já tem, né?”, disse ao receber Flávio em sua casa. Durante a conversa, o cantor também criticou o custo de vida, a carga tributária e a taxa básica de juros, a Selic."},{"pergunta":"Quais são os dados mais importantes?","resposta":"Um post compartilhado por Gusttavo Lima (@gusttavolima)"},{"pergunta":"Qual é o contexto?","resposta":"O encontro ocorreu no mesmo dia em que o senador se reuniu com mais de 30 artistas sertanejos em Goiânia , em um encontro organizado pelo senador Wilder Morais (PL), derrotado por Daniel Vilela (MDB) na disputa pelo governo de Goiás ainda no primeiro turno."},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"Além de Gusttavo Lima, participaram nomes como Zezé Di Camargo, Jorge, da dupla com Mateus, e Marrone, da dupla com Bruno. O senador citou o medo da violência, o endividamento das famílias e a dificuldade de acesso a atividades de lazer como problemas enfrentados pelos brasileiros."}],
-    redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
-    automatico: true,
-    publicadoEm: "2026-10-21T01:49:29.548Z"
-  },
-  {
-    id: 26102022492903,
-    pautaId: "a0b9bfa6278c7596",
-    slug: "final-explicado-de-sobrevivencia-a-chocante-verdade-por-tras-do-sequestro-no-filme-da-netf",
-    titulo: "Final explicado de ‘Sobrevivência’: A chocante verdade por trás do sequestro no filme da Netflix | Jovem Pan",
-    categoria: "Cultura",
-    data: "2026-10-20",
-    imagem: "https://noticiaes.com.br/imagens/lapis/final-explicado-de-sobrevivencia-a-chocante-verdade-por-tras-do-sequestro-no-filme-da-netf.jpg",
-    resumo: "Suspense estrelado e dirigido por Ben Affleck guarda uma grande reviravolta e termina colocando em xeque quem realmente merece ser chamado de herói",
-    conteudo: "<p>ATENÇÃO: ESTE TEXTO CONTÉM SPOILERS DE “SOBREVIVÊNCIA”.</p><h2>“Sobrevivência”, novo suspense da Netflix estrelado e dirigido</h2><p>“Sobrevivência”, novo suspense da Netflix estrelado e dirigido por Ben Affleck, começa como uma história clássica de sequestro, mas rapidamente mostra que está interessado em algo muito mais complicado: até onde alguém está disposto a ir para proteger a própria imagem?</p><p>Na trama, Mark Kimball, vivido por Affleck, é um candidato à prefeitura de Los Angeles que recebe a notícia de que seu filho, Denny, foi sequestrado. O criminoso exige US$ 7 milhões para libertar a criança.</p><p>Ao lado da esposa, Abigail, interpretada por Kerry Washington, Mark tenta encontrar uma solução para o resgate.</p><h2>Só que existe um detalhe que muda completamente</h2><p>Só que existe um detalhe que muda completamente a história.</p><p>A grande virada acontece quando Mark descobre que os criminosos pegaram a criança errada. O menino sequestrado é Hector, filho de Ramon, um trabalhador mexicano que mantém um relacionamento com Cecilia, funcionária da família de Mark.</p><p>Ou seja: enquanto Mark acredita inicialmente que está lutando para salvar o próprio filho, ele percebe que a criança sequestrada pertence a outra família.</p><p>Mesmo assim, ele decide seguir em frente com o resgate. E é aí que o filme começa a revelar quem os personagens realmente são.</p><p>Com a ajuda de Dayle, uma mulher que possui contatos e experiência para lidar com situações extremas, Mark consegue levantar o dinheiro exigido pelos criminosos.</p><p>Mas ele não pretende simplesmente entregar os US$ 7 milhões.</p><p>A estratégia é eliminar os sequestradores e recuperar o dinheiro. Mark segue até o local indicado pelos criminosos, às margens do rio Los Angeles, enquanto o segurança de Dayle, Rand, acompanha tudo preparado para agir.</p><p>Dois homens usando máscaras de coelho aparecem com Hector. Rand consegue atirar e matar os dois, fazendo parecer que o plano finalmente deu certo.</p><p>Um terceiro criminoso surge das sombras e atira contra Dayle e Rand. Os dois ficam gravemente feridos.</p><p>Quando Mark e Hector parecem estar novamente em perigo, uma figura inesperada aparece: Ramon.</p><p>O pai de Hector havia seguido Mark até o local e consegue matar o terceiro sequestrador, salvando o filho e também o candidato à prefeitura.</p><p>É nesse momento que “Sobrevivência” faz sua principal inversão: o homem que parecia estar no centro da história deixa de ser o herói. Quem realmente salva a situação é Ramon.</p><p>Em vez de contar a verdade, Mark decide controlar a narrativa.</p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "Jovem Pan - Feed",
-    fonteUrl: "https://jovempan.com.br/entretenimento/tv-e-cinema/final-explicado-de-sobrevivencia-a-chocante-verdade-por-tras-do-sequestro-no-filme-da-netflix/",
-    fontesAdicionais: [{"nome":"A Gazeta","url":"https://www.agazeta.com.br/"},{"nome":"Folha Vitória","url":"https://www.folhavitoria.com.br/"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"ATENÇÃO: ESTE TEXTO CONTÉM SPOILERS DE “SOBREVIVÊNCIA”."},{"pergunta":"Qual é o ponto principal?","resposta":"“Sobrevivência”, novo suspense da Netflix estrelado e dirigido por Ben Affleck, começa como uma história clássica de sequestro, mas rapidamente mostra que está interessado em algo muito mais complicado: até onde alguém está disposto a ir para proteger a própria imagem?"},{"pergunta":"Quais são os dados mais importantes?","resposta":"Na trama, Mark Kimball, vivido por Affleck, é um candidato à prefeitura de Los Angeles que recebe a notícia de que seu filho, Denny, foi sequestrado. O criminoso exige US$ 7 milhões para libertar a criança. Ao lado da esposa, Abigail, interpretada por Kerry Washington, Mark tenta encontrar uma solução para o resgate."},{"pergunta":"Qual é o contexto?","resposta":"Só que existe um detalhe que muda completamente a história."},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"A grande virada acontece quando Mark descobre que os criminosos pegaram a criança errada. O menino sequestrado é Hector, filho de Ramon, um trabalhador mexicano que mantém um relacionamento com Cecilia, funcionária da família de Mark."}],
-    redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
-    automatico: true,
-    publicadoEm: "2026-10-21T01:49:29.548Z"
-  },
-  {
-    id: 26102022492904,
-    pautaId: "783e6ae5fbdb7a23",
-    slug: "campanha-de-lula-lanca-novo-jingle-flavio-abre-o-sigilo",
-    titulo: "Campanha de Lula lança novo jingle: “Flávio, abre o sigilo”",
-    categoria: "Cultura",
-    data: "2026-10-20",
-    imagem: "https://noticiaes.com.br/imagens/lapis/campanha-de-lula-lanca-novo-jingle-flavio-abre-o-sigilo.jpg",
-    resumo: "Música repete pedido para senador divulgar dados bancários; petistas também cobram posição sobre 6 X 1 e manutenção do Bolsa Família. Leia no Poder360.",
-    conteudo: "<p>Música repete pedido para senador divulgar dados bancários; petistas também cobram posição sobre 6 X 1 e manutenção do Bolsa Família</p><h2>Campanha do presidente Luiz Inácio Lula da Silva (PT)</h2><p>A campanha do presidente Luiz Inácio Lula da Silva (PT) lançou nesta 3ª feira (20.out.2026) um novo jingle que cobra do senador Flávio Bolsonaro (PL) a abertura de seus sigilos bancário, fiscal e telefônico.</p><p>A música repete o refrão “ abre o sigilo ” e questiona se o adversário tem algo a esconder.</p><p>A música foi entoada pela 1ª vez em ato de campanha que passou por Juazeiro (BA) e Petrolina (PE). “ Abre o sigilo! Abre o sigilo, abre, abre o sigilo. Se tá tudo certo, mostra o que há. Flávio, abre o sigilo.</p><h2>Abre, abre o sigilo</h2><p>Abre, abre o sigilo. Abre, abre o sigilo. Abre”, entoava o cantor em um carro de som no evento.</p><p>A cobrança foi apresentada pela campanha depois de Lula autorizar a abertura de seus próprios dados e dos sigilos de familiares. O presidente também desafiou Flávio a tomar a mesma medida.</p><p>Em entrevista a jornalistas, integrantes da campanha disseram que a iniciativa busca dar transparência às informações financeiras dos candidatos e permitir que os eleitores comparem as explicações antes de votar.</p><p>A divulgação da música foi no mesmo dia em que a campanha de Lula protocolou no Tribunal Superior Eleitoral um pedido para autorizar a abertura dos sigilos bancário, fiscal e telefônico do presidente e de familiares.</p><p>A iniciativa condiciona a liberação dos dados à autorização de Flávio para divulgar as próprias informações, conforme noticiou o Poder360 .</p><p>O desafio havia sido lançado por Lula durante o debate presidencial da Band, no domingo (18.out.2026), em São Paulo.</p><p>No dia seguinte, durante ato de campanha em Porto Alegre (RS), o presidente voltou a cobrar a divulgação dos dados e anunciou que encaminharia a autorização ao TSE.</p><p>Durante entrevista a jornalistas nesta 3ª feira (20.out), em Brasília, Camilo Santana (PT-CE) mencionou empresas relacionadas a Flávio Bolsonaro e defendeu a abertura dos sigilos do adversário.</p><p>O senador citou a Alcazar Holdings, sediada na Ilha da Madeira, em Portugal, e a Bravo Grafeno Tecnologia e Inovação.</p><p>As empresas também aparecem no pedido apresentado pela campanha de Lula ao TSE, conforme detalhou o Poder360 .</p><p>Campanha de Lula lança novo jingle: “Flávio, abre o sigilo” Música repete pedido para senador divulgar dados bancários; petistas também cobram posição sobre 6 X 1 e manutenção do Bolsa Família --> copiar link --></p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "Poder360 - Feed",
-    fonteUrl: "https://www.poder360.com.br/poder-eleicoes/campanha-de-lula-lanca-novo-jingle-flavio-abre-o-sigilo/",
-    fontesAdicionais: [{"nome":"A Gazeta","url":"https://www.agazeta.com.br/"},{"nome":"Folha Vitória","url":"https://www.folhavitoria.com.br/"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"Música repete pedido para senador divulgar dados bancários; petistas também cobram posição sobre 6 X 1 e manutenção do Bolsa Família"},{"pergunta":"Qual é o ponto principal?","resposta":"A campanha do presidente Luiz Inácio Lula da Silva (PT) lançou nesta 3ª feira (20.out.2026) um novo jingle que cobra do senador Flávio Bolsonaro (PL) a abertura de seus sigilos bancário, fiscal e telefônico. A música repete o refrão “ abre o sigilo ” e questiona se o adversário tem algo a esconder."},{"pergunta":"Quais são os dados mais importantes?","resposta":"A música foi entoada pela 1ª vez em ato de campanha que passou por Juazeiro (BA) e Petrolina (PE). “ Abre o sigilo! Abre o sigilo, abre, abre o sigilo. Se tá tudo certo, mostra o que há. Flávio, abre o sigilo. Abre, abre o sigilo. Abre, abre o sigilo. Abre”, entoava o cantor em um carro de som no evento."},{"pergunta":"Qual é o contexto?","resposta":"A cobrança foi apresentada pela campanha depois de Lula autorizar a abertura de seus próprios dados e dos sigilos de familiares. O presidente também desafiou Flávio a tomar a mesma medida."},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"Em entrevista a jornalistas, integrantes da campanha disseram que a iniciativa busca dar transparência às informações financeiras dos candidatos e permitir que os eleitores comparem as explicações antes de votar."}],
-    redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
-    automatico: true,
-    publicadoEm: "2026-10-21T01:49:29.548Z"
+    publicadoEm: "2026-10-21T02:37:12.000Z"
   }
 ];
-if (typeof noticias !== 'undefined') noticias.unshift(...noticiasAutoRedacao20261020224929);
+
+if (typeof noticias !== "undefined") noticias.unshift(...noticiasAutoRedacao20261020224929);
