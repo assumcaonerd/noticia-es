@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-21T04:18:31.347Z",
+  "atualizadoEm": "2026-10-21T05:18:54.030Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 75,
+  "novasPautas": 80,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -140,9 +140,11 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": false,
-      "erro": "https://ipbvit.org.br/ -> 403 Forbidden",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://ipbvit.org.br/",
+      "fallback": false
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -190,11 +192,9 @@
     },
     {
       "fonte": "ES Hoje",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://www.eshoje.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.eshoje.com.br/ -> 403 Forbidden",
+      "capa": true
     },
     {
       "fonte": "Século Diário",
@@ -206,11 +206,9 @@
     },
     {
       "fonte": "ES Hoje - Política",
-      "ok": true,
-      "encontrados": 0,
-      "capa": false,
-      "rota": "https://www.eshoje.com.br/politica/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.eshoje.com.br/politica/ -> 403 Forbidden",
+      "capa": false
     },
     {
       "fonte": "Poder360",
@@ -378,13 +376,13 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-21T04:21:10.763Z",
-    "novas": 3,
+    "atualizadoEm": "2026-10-21T05:21:35.547Z",
+    "novas": 0,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Folha Vitória",
@@ -394,7 +392,7 @@
       {
         "fonte": "YouTube ALES",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -439,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-21T04:21:12.036Z",
+    "atualizadoEm": "2026-10-21T05:21:36.962Z",
     "novas": 0,
     "fontes": [
       {
@@ -455,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-21T04:21:13.188Z",
+    "atualizadoEm": "2026-10-21T05:21:38.095Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-21T04:21:23.762Z",
+    "atualizadoEm": "2026-10-21T05:21:48.651Z",
     "novas": 0,
     "fontes": [
       {
