@@ -1,108 +1,157 @@
 const noticiasAutoRedacao20261020215910 = [
   {
-    id: 26102021591001,
-    pautaId: "783e6ae5fbdb7a23",
-    slug: "campanha-de-lula-lanca-novo-jingle-flavio-abre-o-sigilo",
-    titulo: "Campanha de Lula lança novo jingle: “Flávio, abre o sigilo”",
-    categoria: "Cultura",
-    data: "2026-10-20",
-    imagem: "https://noticiaes.com.br/imagens/lapis/campanha-de-lula-lanca-novo-jingle-flavio-abre-o-sigilo.jpg",
-    resumo: "Música repete pedido para senador divulgar dados bancários; petistas também cobram posição sobre 6 X 1 e manutenção do Bolsa Família. Leia no Poder360.",
-    conteudo: "<p>Música repete pedido para senador divulgar dados bancários; petistas também cobram posição sobre 6 X 1 e manutenção do Bolsa Família</p><h2>Campanha do presidente Luiz Inácio Lula da Silva (PT)</h2><p>A campanha do presidente Luiz Inácio Lula da Silva (PT) lançou nesta 3ª feira (20.out.2026) um novo jingle que cobra do senador Flávio Bolsonaro (PL) a abertura de seus sigilos bancário, fiscal e telefônico.</p><p>A música repete o refrão “ abre o sigilo ” e questiona se o adversário tem algo a esconder.</p><p>A música foi entoada pela 1ª vez em ato de campanha que passou por Juazeiro (BA) e Petrolina (PE). “ Abre o sigilo! Abre o sigilo, abre, abre o sigilo. Se tá tudo certo, mostra o que há. Flávio, abre o sigilo.</p><h2>Abre, abre o sigilo</h2><p>Abre, abre o sigilo. Abre, abre o sigilo. Abre”, entoava o cantor em um carro de som no evento.</p><p>A cobrança foi apresentada pela campanha depois de Lula autorizar a abertura de seus próprios dados e dos sigilos de familiares. O presidente também desafiou Flávio a tomar a mesma medida.</p><p>Em entrevista a jornalistas, integrantes da campanha disseram que a iniciativa busca dar transparência às informações financeiras dos candidatos e permitir que os eleitores comparem as explicações antes de votar.</p><p>A divulgação da música foi no mesmo dia em que a campanha de Lula protocolou no Tribunal Superior Eleitoral um pedido para autorizar a abertura dos sigilos bancário, fiscal e telefônico do presidente e de familiares.</p><p>A iniciativa condiciona a liberação dos dados à autorização de Flávio para divulgar as próprias informações, conforme noticiou o Poder360 .</p><p>O desafio havia sido lançado por Lula durante o debate presidencial da Band, no domingo (18.out.2026), em São Paulo.</p><p>No dia seguinte, durante ato de campanha em Porto Alegre (RS), o presidente voltou a cobrar a divulgação dos dados e anunciou que encaminharia a autorização ao TSE.</p><p>Durante entrevista a jornalistas nesta 3ª feira (20.out), em Brasília, Camilo Santana (PT-CE) mencionou empresas relacionadas a Flávio Bolsonaro e defendeu a abertura dos sigilos do adversário.</p><p>O senador citou a Alcazar Holdings, sediada na Ilha da Madeira, em Portugal, e a Bravo Grafeno Tecnologia e Inovação.</p><p>As empresas também aparecem no pedido apresentado pela campanha de Lula ao TSE, conforme detalhou o Poder360 .</p><p>Campanha de Lula lança novo jingle: “Flávio, abre o sigilo” Música repete pedido para senador divulgar dados bancários; petistas também cobram posição sobre 6 X 1 e manutenção do Bolsa Família --> copiar link --></p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "Poder360 - Feed",
-    fonteUrl: "https://www.poder360.com.br/poder-eleicoes/campanha-de-lula-lanca-novo-jingle-flavio-abre-o-sigilo/",
-    fontesAdicionais: [{"nome":"A Gazeta","url":"https://www.agazeta.com.br/"},{"nome":"Folha Vitória","url":"https://www.folhavitoria.com.br/"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"Música repete pedido para senador divulgar dados bancários; petistas também cobram posição sobre 6 X 1 e manutenção do Bolsa Família"},{"pergunta":"Qual é o ponto principal?","resposta":"A campanha do presidente Luiz Inácio Lula da Silva (PT) lançou nesta 3ª feira (20.out.2026) um novo jingle que cobra do senador Flávio Bolsonaro (PL) a abertura de seus sigilos bancário, fiscal e telefônico. A música repete o refrão “ abre o sigilo ” e questiona se o adversário tem algo a esconder."},{"pergunta":"Quais são os dados mais importantes?","resposta":"A música foi entoada pela 1ª vez em ato de campanha que passou por Juazeiro (BA) e Petrolina (PE). “ Abre o sigilo! Abre o sigilo, abre, abre o sigilo. Se tá tudo certo, mostra o que há. Flávio, abre o sigilo. Abre, abre o sigilo. Abre, abre o sigilo. Abre”, entoava o cantor em um carro de som no evento."},{"pergunta":"Qual é o contexto?","resposta":"A cobrança foi apresentada pela campanha depois de Lula autorizar a abertura de seus próprios dados e dos sigilos de familiares. O presidente também desafiou Flávio a tomar a mesma medida."},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"Em entrevista a jornalistas, integrantes da campanha disseram que a iniciativa busca dar transparência às informações financeiras dos candidatos e permitir que os eleitores comparem as explicações antes de votar."}],
-    redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
-    automatico: true,
-    publicadoEm: "2026-10-21T00:59:10.786Z"
-  },
-  {
-    id: 26102021591002,
-    pautaId: "b0a881a7fab2af53",
-    slug: "cidadania-italiana-regra-rigida-sobre-crime-e-idioma-afetaria-brasileiros",
-    titulo: "Cidadania italiana: Regra rígida sobre crime e idioma afetaria brasileiros?",
+    id: 26102022390601,
+    pautaId: "55b8506e5feebd12",
+    slug: "entidades-levam-suspeitas-sobre-a-meta-ao-congresso-dos-eua",
+    titulo: "Entidades levam suspeitas sobre a Meta ao Congresso dos EUA",
     categoria: "Política Nacional",
     data: "2026-10-20",
-    imagem: "https://noticiaes.com.br/imagens/lapis/cidadania-italiana-regra-rigida-sobre-crime-e-idioma-afetaria-brasileiros.jpg",
-    resumo: "Câmara dos Deputados da Itália analisa um projeto de lei que propõe mudanças para aquisição e revogação da cidadania; comissão de assuntos constitucionais deu parecer favorável",
-    conteudo: "<p>A Comissão de Assuntos Constitucionais da Câmara de Deputados da Itália emitiu um parecer favorável a um projeto que propõe mudanças nas regras para aquisição e revogação da cidadania italiana, o que pode afetar diretamente brasileiros.</p><h2>Proposta foi apresentada em 31 de outubro de 2024</h2><p>A proposta foi apresentada em 31 de outubro de 2024 por um grupo de deputados, e o aval da comissão foi emitido no dia 14 de outubro.</p><p>Esse texto prevê restrições relacionadas a condenações criminais e reforça exigências de conhecimento do idioma italiano.</p><p>David Manzini, fundador e CEO da Nostrali Cidadania Italiana, explica que o projeto atinge os naturalizados , e não os descendentes de italianos. Portanto, pode atingir brasileiros, mas apenas um certo grupo.</p><h2>Pessoas que conseguem cidadania por naturalização são aquelas</h2><p>As pessoas que conseguem cidadania por naturalização são aquelas que cumpriram regras, como tempo de residência na Itália, ou então que se casaram com cidadão ou cidadã italiana.</p><p>&quot;São situações juridicamente diferentes. O descendente reconhecido já é cidadão italiano por nascimento, porque a lei diz que é cidadão o filho de pai ou mãe cidadãos.</p><p>O reconhecimento apenas confirma um status que a pessoa já tinha, e por isso não envolve juramento, prova de idioma nem análise de conduta&quot;, pontua Manzini.</p><p>&quot;O naturalizado não era cidadão e passa a ser por concessão do Estado, depois de cumprir requisitos como residência, idioma e conduta e de jurar fidelidade à República&quot;, destaca.</p><p>Wilson Bicalho, advogado especialista em migração, pontua que a Itália já exige conhecimento do idioma para a cidadania por casamento, por exemplo.</p><p>Ele também ressalta que o projeto ainda está em tramitação, ou seja, não altera, no momento , as regras para obtenção da cidadania.</p><p>&quot;O projeto ainda não é lei e ele não cria, por si só, uma exigência geral de prova de italiano para todos os brasileiros que pedem cidadania. Ou seja, nós temos aqui uma perspectiva e não temos ainda a regra efetivamente aplicada&quot;, comenta.</p><p>Além disso, Bicalho ressalta que medidas semelhantes em outros países, como Portugal, mas que são contestadas juridicamente até hoje. Desta maneira, ainda pode haver um embate jurídico em relação à legalidade deste projeto após uma possível aprovação.</p><p>Entre as principais mudanças, está a exigência de que o juramento à República e à Constituição italiana, necessário para a concessão da cidadania, seja feito em italiano. O texto prevê exceção para pessoas que não consigam cumprir essa exigência por causa de deficiência.</p><p>Além disso, determinadas condenações criminais impediriam a obtenção da cidadania do país europeu, como no caso de crimes contra o Estado, delitos relacionados a drogas e a outras infrações específicas previstas no Código Penal italiano.</p><p>Haveria também restrições para algumas condenações a penas superiores a três anos de prisão.</p><p>Outro ponto é que, se ainda houver um processo criminal em andamento por algum dos delitos previstos, o pedido de cidadania ficaria suspenso até que exista uma decisão definitiva da Justiça.</p><p>A proposta em tramitação na Câmara afetaria os pedidos de cidadania por naturalização -- aqueles no caso de pessoas que cumpriram regra de tempo de residência na Itália ou então que se casaram com cidadão ou cidadã italiana.</p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "CNN Brasil",
-    fonteUrl: "https://www.cnnbrasil.com.br/internacional/cidadania-italiana-regra-rigida-sobre-crime-e-idioma-afetaria-brasileiros/",
-    fontesAdicionais: [{"nome":"Agência Brasil","url":"https://agenciabrasil.ebc.com.br/politica"},{"nome":"Senado Federal","url":"https://www12.senado.leg.br/noticias"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"A Comissão de Assuntos Constitucionais da Câmara de Deputados da Itália emitiu um parecer favorável a um projeto que propõe mudanças nas regras para aquisição e revogação da cidadania italiana, o que pode afetar diretamente brasileiros."},{"pergunta":"Qual é o ponto principal?","resposta":"A proposta foi apresentada em 31 de outubro de 2024 por um grupo de deputados, e o aval da comissão foi emitido no dia 14 de outubro."},{"pergunta":"Quais são os dados mais importantes?","resposta":"Esse texto prevê restrições relacionadas a condenações criminais e reforça exigências de conhecimento do idioma italiano."},{"pergunta":"Qual é o contexto?","resposta":"David Manzini, fundador e CEO da Nostrali Cidadania Italiana, explica que o projeto atinge os naturalizados , e não os descendentes de italianos. Portanto, pode atingir brasileiros, mas apenas um certo grupo."},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"As pessoas que conseguem cidadania por naturalização são aquelas que cumpriram regras, como tempo de residência na Itália, ou então que se casaram com cidadão ou cidadã italiana."}],
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261020-entidades-levam-suspeitas-sobre-a-meta-ao-congresso-dos-eua.jpg",
+    resumo: "Cinco organizações pediram investigação sobre moderação, distribuição de conteúdo e anúncios políticos durante a eleição brasileira.",
+    conteudo: `<p>Cinco organizações da sociedade civil pediram nesta terça-feira (20) que o Congresso dos Estados Unidos investigue a atuação da Meta durante a eleição presidencial brasileira. A solicitação foi apresentada a cinco dias do segundo turno entre Luiz Inácio Lula da Silva e Flávio Bolsonaro.</p><p>A Folha de S.Paulo revelou o envio da carta, e o portal Band confirmou o pedido e a lista de signatários. O documento é assinado por Washington Brazil Office, Washington Office on Latin America, Center for Economic and Policy Research, Amazon Watch e Latin America Working Group.</p><p>As entidades sustentam que uma empresa norte-americana com influência sobre o ambiente informacional de outro país deve ser submetida a maior transparência. A Meta controla Facebook, Instagram e WhatsApp, plataformas usadas pelas duas campanhas e por milhões de eleitores brasileiros.</p><h2>Carta reúne episódios eleitorais</h2><p>O pedido menciona problemas de moderação, distribuição de publicações e veiculação de publicidade política. Entre os episódios citados estão restrições que atingiram contas ligadas à campanha de Lula e recomendações de perfis associados à candidatura de Flávio Bolsonaro.</p><p>A carta também incorpora um levantamento do NetLab, da Universidade Federal do Rio de Janeiro. Segundo os dados apresentados, ao menos 1.613 anúncios políticos irregulares foram pagos em moeda estrangeira entre julho e setembro, movimentando cerca de R$ 2 milhões e somando 171,1 milhões de impressões.</p><p>Entre as peças com informação disponível sobre a origem do pagamento, 98,1% indicavam os Estados Unidos. As organizações querem que congressistas norte-americanos cobrem esclarecimentos técnicos, preservação de registros internos e eventual audiência pública sobre os mecanismos de recomendação e moderação.</p><h2>Pedido não prova favorecimento</h2><p>Os próprios signatários afirmam que as inconsistências não demonstram, por si só, favorecimento político deliberado. A diferença é importante: a carta pede investigação e acesso a dados, mas não apresenta uma conclusão definitiva sobre intenção da empresa ou manipulação do resultado eleitoral.</p><p>A Meta nega interferência. A companhia declarou que aplica as mesmas regras aos candidatos e atribuiu os episódios relatados a falhas técnicas ou erros não intencionais. Também informou ao Tribunal Superior Eleitoral que adotou medidas para garantir tratamento equivalente às campanhas.</p><p>O caso coloca sob escrutínio tanto o poder das plataformas quanto a reação das instituições. Uma apuração consistente precisa verificar critérios, alcance, registros de anúncios e decisões internas com a mesma régua para todos, sem presumir culpa nem tratar a explicação da empresa como encerramento do assunto.</p><p>Até a noite desta terça-feira, não havia anúncio público de abertura formal de investigação pelo Congresso dos Estados Unidos. O efeito imediato da carta é político e documental: preservar evidências antes do segundo turno e pressionar a Meta a explicar decisões capazes de alterar a circulação de conteúdo eleitoral.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Folha de S.Paulo",
+    fonteUrl: "https://www1.folha.uol.com.br/poder/2026/10/entidades-pedem-ao-congresso-dos-eua-investigacao-sobre-atuacao-da-meta-na-eleicao-brasileira.shtml",
+    fontesAdicionais: [
+      {
+        nome: "Band",
+        url: "https://www.band.com.br/politica/eleicoes/2026/congresso-dos-eua-e-acionado-para-investigar-acoes-da-meta-nas-eleicoes"
+      },
+      {
+        nome: "Meta",
+        url: "https://about.fb.com/br/news/2026/06/nosso-trabalho-para-as-eleicoes-de-2026-no-brasil/"
+      }
+    ],
+    entidades: ["Meta", "Congresso dos Estados Unidos", "NetLab", "UFRJ"],
+    aeo: [
+      {
+        pergunta: "Quem pediu a investigação sobre a Meta?",
+        resposta: "Cinco organizações, entre elas Washington Brazil Office, WOLA, CEPR, Amazon Watch e Latin America Working Group."
+      },
+      {
+        pergunta: "O que as entidades querem do Congresso dos EUA?",
+        resposta: "Elas pedem esclarecimentos técnicos, preservação de registros internos e avaliação de audiências públicas."
+      },
+      {
+        pergunta: "Quantos anúncios irregulares foram citados?",
+        resposta: "O documento menciona levantamento do NetLab que identificou ao menos 1.613 anúncios políticos irregulares."
+      },
+      {
+        pergunta: "A carta comprova favorecimento eleitoral?",
+        resposta: "Não. Os signatários dizem que os episódios justificam investigação, mas não provam intenção deliberada."
+      },
+      {
+        pergunta: "O que a Meta respondeu?",
+        resposta: "A empresa negou interferência e afirmou que aplica as mesmas regras às duas campanhas."
+      }
+    ],
     redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
+    origemTexto: "redacao-noticia-es",
     automatico: true,
-    publicadoEm: "2026-10-21T00:59:10.786Z"
+    publicadoEm: "2026-10-21T01:39:06.000Z"
   },
   {
-    id: 26102021591003,
-    pautaId: "30f0ba90e5329e8d",
-    slug: "lula-condiciona-debate-na-quot-globo-quot-a-abertura-de-sigilo-de-flavio",
-    titulo: "Lula condiciona debate na &quot;Globo&quot; à abertura de sigilo de Flávio",
-    categoria: "Política Nacional",
+    id: 26102022390602,
+    pautaId: "6e9960a9a40c6b06",
+    slug: "torcida-do-vasco-provoca-rivais-antes-da-semifinal",
+    titulo: "Torcida do Vasco provoca rivais antes da semifinal",
+    categoria: "Esporte",
     data: "2026-10-20",
-    imagem: "https://noticiaes.com.br/imagens/lapis/lula-condiciona-debate-na-quot-globo-quot-a-abertura-de-sigilo-de-flavio.jpg",
-    resumo: "Petista diz que &quot;presidente da República não pode debater com ladrão&quot;; ato em Juazeiro (BA) teve gritos de “Abre o sigilo”. Leia no Poder360.",
-    conteudo: "<p>Petista diz que “presidente da República não pode debater com ladrão”; ato em Juazeiro (BA) teve gritos de “Abre o sigilo”</p><h2>Presidente Luiz Inácio Lula da Silva (PT) condicionou</h2><p>O presidente Luiz Inácio Lula da Silva (PT) condicionou o debate na Globo à autorização do senador Flávio Bolsonaro (PL-RJ) para a quebra de seus sigilos.</p><p>Durante ato de campanha em Juazeiro, na Bahia, nesta 3ª feira (20.out.2026), o petista disse que “vai ter debate” se o adversário apresentar um documento autorizando a medida.</p><p>“Se ele apresentar um documento autorizando a quebrar o sigilo, vai ter debate, porque senão ele não pode ir ao debate, porque o presidente da República não pode debater com ladrão” , declarou Lula ao encerrar o discurso.</p><h2>Fala foi feita durante uma mobilização de campanha</h2><p>A fala foi feita durante uma mobilização de campanha que reuniu apoiadores da Bahia e de Petrolina, em Pernambuco. Um dos motes do evento foi a cobrança para que Flávio autorize a abertura de seus sigilos.</p><p>A militância entoou frases como “Abre o sigilo, Flávio” e “Se tá tudo certo, mostra o que há” .</p><p>Lula também incentivou a mobilização de apoiadores nos últimos dias da campanha. Disse que o grupo deveria continuar nas ruas e nas redes sociais até a votação, marcada para domingo (25.out).</p><p>Também pediu que eleitores com mais de 70 anos façam do voto uma “questão de honra” no 2º turno das eleições.</p><p>A declaração veio depois de a defesa do presidente protocolar no Tribunal Superior Eleitoral um pedido de quebra dos sigilos bancário, fiscal e telefônico de Lula e de familiares.</p><p>A medida abrange os últimos 8 anos e está condicionada à reciprocidade de Flávio. O prazo para resposta é 4ª feira (21.out).</p><p>Durante o ato, a campanha do presidente associou a abertura dos sigilos à transparência e à investigação de possíveis irregularidades. As cobranças foram feitas em músicas e palavras de ordem entoadas pelos participantes.</p><p>No trecho do discurso sobre o debate, Lula não especificou a quais sigilos se referia nem detalhou o procedimento para a autorização.</p><p>A proposta é uma resposta à troca de críticas sobre corrupção durante o debate presidencial da Band, realizado no domingo (18.out).</p><p>No confronto, Flávio mencionou suspeitas envolvendo o filho do presidente, enquanto Lula cobrou explicações sobre o patrimônio do senador e questionou a origem dos recursos para a compra de um imóvel.</p><p>Durante o debate, Lula mencionou o pedido de R$ 134 milhões relacionado ao financiamento do filme “Dark Horse” , sobre o ex-presidente Jair Bolsonaro (PL), atribuído ao senador em negociações com Daniel Vorcaro, fundador do Banco Master.</p><p>No mesmo evento, Lula pediu que eleitores que não votaram no 1º turno fossem convencidos a comparecer às urnas. Também mencionou pessoas com mais de 70 anos, cujo voto é facultativo.</p><p>O presidente declarou que o resultado da eleição definirá os rumos do país e citou políticas de educação, soberania nacional e propostas de seu governo.</p><p>Entre elas, mencionou a criação do Pé-de-Meia Universitário e a intenção de enviar ao Congresso uma proposta de transporte gratuito nos fins de semana.</p><p>Lula estava acompanhado de Marília Arraes (PDT-PE), senadora; João Campos (PSB-PE), presidente nacional do partido; Teresa Leitão (PT-PE), senadora; Humberto Costa (PT-PE), senador; Rui Costa (PT-BA), ex-ministro da Casa Civil; Jaques Wagner (PT-BA), senador; Jerônimo Rodrigues (PT-BA), governador da Bahia; e Rafael Fonteles (PT-PI), governador do Piauí.</p><p>Lula condiciona debate na “Globo” à abertura de sigilo de Flávio Petista diz que “presidente da República não pode debater com ladrão”; ato em Juazeiro (BA) teve gritos de “Abre o sigilo” --> copiar link --></p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "Poder360 - Feed",
-    fonteUrl: "https://www.poder360.com.br/poder-eleicoes-2026/lula-condiciona-debate-na-globo-a-abertura-de-sigilo-de-flavio/",
-    fontesAdicionais: [{"nome":"Agência Brasil","url":"https://agenciabrasil.ebc.com.br/politica"},{"nome":"Senado Federal","url":"https://www12.senado.leg.br/noticias"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"Petista diz que “presidente da República não pode debater com ladrão”; ato em Juazeiro (BA) teve gritos de “Abre o sigilo”"},{"pergunta":"Qual é o ponto principal?","resposta":"O presidente Luiz Inácio Lula da Silva (PT) condicionou o debate na Globo à autorização do senador Flávio Bolsonaro (PL-RJ) para a quebra de seus sigilos. Durante ato de campanha em Juazeiro, na Bahia, nesta 3ª feira (20.out.2026), o petista disse que “vai ter debate” se o adversário apresentar um documento autorizando a medida."},{"pergunta":"Quais são os dados mais importantes?","resposta":"“Se ele apresentar um documento autorizando a quebrar o sigilo, vai ter debate, porque senão ele não pode ir ao debate, porque o presidente da República não pode debater com ladrão” , declarou Lula ao encerrar o discurso."},{"pergunta":"Qual é o contexto?","resposta":"A fala foi feita durante uma mobilização de campanha que reuniu apoiadores da Bahia e de Petrolina, em Pernambuco. Um dos motes do evento foi a cobrança para que Flávio autorize a abertura de seus sigilos. A militância entoou frases como “Abre o sigilo, Flávio” e “Se tá tudo certo, mostra o que há” ."},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"Lula também incentivou a mobilização de apoiadores nos últimos dias da campanha. Disse que o grupo deveria continuar nas ruas e nas redes sociais até a votação, marcada para domingo (25.out). Também pediu que eleitores com mais de 70 anos façam do voto uma “questão de honra” no 2º turno das eleições."}],
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261020-torcida-do-vasco-provoca-rivais-antes-da-semifinal.jpg",
+    resumo: "Adesivos e faixas lembraram a disputa pelo Maracanã antes do jogo decisivo contra o Boca Juniors pela Sul-Americana.",
+    conteudo: `<p>Torcedores do Vasco provocaram Flamengo e Fluminense nesta terça-feira (20) antes da semifinal da Copa Sul-Americana contra o Boca Juniors. A manifestação ocorreu nos arredores e nas arquibancadas do Maracanã, estádio liberado para o confronto depois de uma longa disputa judicial.</p><p>O Metrópoles registrou a mobilização, e o ge confirmou a circulação de adesivos com a frase “síndico não é dono”. A mensagem fazia referência à administração do estádio pela dupla Fla-Flu e à tentativa do Vasco de mandar no local a partida decisiva contra os argentinos.</p><p>O jogo de volta estava marcado para 21h30, com ingressos esgotados. O Vasco entrou em campo com vantagem após vencer o primeiro duelo por 1 a 0 na Bombonera, em Buenos Aires, resultado que lhe permitia avançar à final com um empate no Rio de Janeiro.</p><h2>Disputa saiu dos tribunais</h2><p>A presença vascaína no Maracanã foi confirmada depois que o Superior Tribunal de Justiça rejeitou um pedido do consórcio administrador para impedir o confronto. A decisão manteve entendimento anterior do Tribunal de Justiça do Rio de Janeiro favorável ao uso do estádio.</p><p>Flamengo e Fluminense alegaram conflito de agenda, preservação do gramado e impactos operacionais. O Vasco argumentou que São Januário não atingia a capacidade mínima exigida pela Conmebol para uma semifinal continental e que o contrato de concessão deveria assegurar tratamento não discriminatório.</p><p>O ministro Luis Felipe Salomão entendeu que o consórcio não tinha legitimidade para apresentar o pedido e que não havia demonstração de lesão grave ao interesse público. Com a manutenção da partida, a controvérsia jurídica foi incorporada ao ambiente esportivo e virou mote para cânticos, faixas e publicações de torcedores.</p><h2>Semifinal mobiliza o Maracanã</h2><p>A provocação não mudou o cenário técnico do confronto. O Vasco precisava administrar a vantagem mínima diante de um adversário tradicional em competições continentais, enquanto o Boca buscava reverter no Maracanã a derrota sofrida na Argentina.</p><p>A expectativa era de aproximadamente 70 mil pessoas, incluindo cerca de quatro mil visitantes. A torcida vascaína também preparou mosaico, bandeiras e papel picado, transformando a volta ao estádio em parte central da narrativa do duelo.</p><p>O time brasileiro iniciou a partida sem Andrés Gómez, expulso no jogo de ida, e com David entre os titulares. Pelo Boca, o campeão mundial Leandro Paredes começou no banco. As ausências e escolhas aumentaram a pressão sobre um jogo que já carregava tensão esportiva e institucional.</p><p>A final da Sul-Americana será disputada em partida única em Barranquilla, na Colômbia, em 21 de novembro. O adversário do classificado entre Vasco e Boca sairia do confronto entre Atlético-MG e Montevideo City Torque, com vantagem ampla construída pelo clube mineiro no primeiro jogo.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Metrópoles",
+    fonteUrl: "https://www.metropoles.com/esportes/torcida-do-vasco-provoca-dupla-fla-flu-no-maracana-sindico-nao-e-dono",
+    fontesAdicionais: [
+      {
+        nome: "ge",
+        url: "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/20/torcedores-do-vasco-provocam-flamengo-e-fluminense-em-volta-ao-maracana-sindico-nao-e-dono.ghtml"
+      },
+      {
+        nome: "UOL",
+        url: "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/10/15/stj-vasco-boca-maracana-consorcio-fla-flu.ghtm"
+      }
+    ],
+    entidades: ["Vasco", "Boca Juniors", "Maracanã", "STJ", "Conmebol"],
+    aeo: [
+      {
+        pergunta: "Como a torcida do Vasco provocou os rivais?",
+        resposta: "Torcedores exibiram adesivos e faixas com a frase “síndico não é dono” antes da semifinal."
+      },
+      {
+        pergunta: "Por que houve disputa pelo Maracanã?",
+        resposta: "O consórcio Fla-Flu tentou impedir o uso do estádio, enquanto o Vasco recorreu à Justiça."
+      },
+      {
+        pergunta: "Qual era a vantagem do Vasco?",
+        resposta: "O clube venceu o jogo de ida por 1 a 0 e podia avançar com um empate."
+      },
+      {
+        pergunta: "Quem manteve a partida no Maracanã?",
+        resposta: "O STJ rejeitou o pedido do consórcio e preservou a decisão favorável ao Vasco."
+      },
+      {
+        pergunta: "Onde será a final da Sul-Americana?",
+        resposta: "A decisão está marcada para 21 de novembro, em Barranquilla, na Colômbia."
+      }
+    ],
     redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
+    origemTexto: "redacao-noticia-es",
     automatico: true,
-    publicadoEm: "2026-10-21T00:59:10.786Z"
+    publicadoEm: "2026-10-21T01:39:06.000Z"
   },
   {
-    id: 26102021591004,
-    pautaId: "9e58260ddecaf049",
-    slug: "petrobras-celebra-adiamento-de-audiencia-sobre-gas-release-na-anp",
-    titulo: "Petrobras celebra adiamento de audiência sobre gas release na ANP",
+    id: 26102022390603,
+    pautaId: "315432ce1d5e7979",
+    slug: "risco-pais-argentino-atinge-710-pontos-e-pressiona-divida",
+    titulo: "Risco-país argentino atinge 710 pontos e pressiona dívida",
     categoria: "Economia",
     data: "2026-10-20",
-    imagem: "https://noticiaes.com.br/imagens/lapis/petrobras-celebra-adiamento-de-audiencia-sobre-gas-release-na-anp.jpg",
-    resumo: "Estatal afirmou que prorrogação favorece debate e decisão “qualificada”; programa busca abrir mercado de gás natural. Leia no Poder360.",
-    conteudo: "<p>Estatal afirmou em nota que prorrogação favorece debate e decisão “qualificada”; programa busca abrir mercado de gás natural</p><h2>Petrobras avaliou positivamente, nesta 3ª feira (20</h2><p>A Petrobras avaliou positivamente, nesta 3ª feira (20.out.2026), a decisão da ANP (Agência Nacional do Petróleo, Gás Natural e Biocombustíveis) de adiar a audiência pública sobre o gas release , programa que busca reduzir a concentração do mercado brasileiro de gás natural.</p><p>Segundo a estatal, a mudança permitirá uma análise mais aprofundada dos impactos da proposta. Eis a íntegra da nota divulgada pela empresa (PDF – 2 MB).</p><p>A audiência pública , inicialmente marcada para 21 de outubro, foi remarcada para 19 de novembro. A alteração foi aprovada por unanimidade pela diretoria da agência reguladora na 2ª feira (19.out).</p><h2>Com a decisão, o prazo para inscrições dos interessados</h2><p>Com a decisão, o prazo para inscrições dos interessados foi ampliado até 5 de novembro.</p><p>O gas release é um programa de desconcentração do mercado de gás natural que determina a venda compulsória de parte do insumo comercializado por empresas dominantes, como a Petrobras, por meio de leilões.</p><p>O objetivo é ampliar a concorrência e reduzir os preços para os consumidores. A proposta da ANP cria leilões anuais de 2027 a 2030.</p><p>Seriam vendidos só volumes de gás adquiridos de terceiros, sem atingir a produção própria da estatal.</p><p>A Petrobras, que se opõe ao modelo proposto pela agência, afirmou que o adiamento contribui para uma decisão mais “ qualificada ”.</p><p>A companhia apresentou contribuições à consulta pública em setembro e defende que o programa discutido não cumpriria o seu propósito de baratear o gás no Brasil, pois não aumentaria efetivamente a oferta do combustível.</p><p>A estatal argumenta que a obrigatoriedade de venda pode diminuir a previsibilidade de seus investimentos em produção, importação e infraestrutura.</p><p>A Petrobras detém a maior parte da capacidade nacional de processamento de gás natural, além de controlar integral ou majoritariamente quase todos os gasodutos de escoamento do país.</p><p>O acesso de terceiros a essas instalações depende de negociação com a estatal.</p><p>Apesar da pressão da estatal para evitar o g as release , setores do governo já se mostraram favoráveis à medida.</p><p>A abertura já foi defendida pelo ministro de Minas e Energia, Alexandre Silveira, e pelo vice-presidente, Geraldo Alckmin , embora a Petrobras já tenha encontrado respaldo na Casa Civil, atualmente dirigida pela ministra Miriam Belchior.</p><p>Petrobras celebra adiamento de audiência sobre gas release na ANP Estatal afirmou em nota que prorrogação favorece debate e decisão “qualificada”; programa busca abrir mercado de gás natural --> copiar link --></p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "Poder360 - Feed",
-    fonteUrl: "https://www.poder360.com.br/poder-infra/petrobras-celebra-adiamento-de-audiencia-sobre-gas-release-na-anp/",
-    fontesAdicionais: [{"nome":"Agência Brasil Economia","url":"https://agenciabrasil.ebc.com.br/economia"},{"nome":"Banco Central","url":"https://www.bcb.gov.br/detalhenoticia"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"Estatal afirmou em nota que prorrogação favorece debate e decisão “qualificada”; programa busca abrir mercado de gás natural"},{"pergunta":"Qual é o ponto principal?","resposta":"A Petrobras avaliou positivamente, nesta 3ª feira (20.out.2026), a decisão da ANP (Agência Nacional do Petróleo, Gás Natural e Biocombustíveis) de adiar a audiência pública sobre o gas release , programa que busca reduzir a concentração do mercado brasileiro de gás natural. Segundo a estatal, a mudança permitirá uma análise mais aprofundada dos impactos da p"},{"pergunta":"Quais são os dados mais importantes?","resposta":"A audiência pública , inicialmente marcada para 21 de outubro, foi remarcada para 19 de novembro. A alteração foi aprovada por unanimidade pela diretoria da agência reguladora na 2ª feira (19.out). Com a decisão, o prazo para inscrições dos interessados foi ampliado até 5 de novembro."},{"pergunta":"Qual é o contexto?","resposta":"O gas release é um programa de desconcentração do mercado de gás natural que determina a venda compulsória de parte do insumo comercializado por empresas dominantes, como a Petrobras, por meio de leilões. O objetivo é ampliar a concorrência e reduzir os preços para os consumidores. A proposta da ANP cria leilões anuais de 2027 a 2030. Seriam vendidos só volu"},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"A Petrobras, que se opõe ao modelo proposto pela agência, afirmou que o adiamento contribui para uma decisão mais “ qualificada ”. A companhia apresentou contribuições à consulta pública em setembro e defende que o programa discutido não cumpriria o seu propósito de baratear o gás no Brasil, pois não aumentaria efetivamente a oferta do combustível."}],
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261020-risco-pais-argentino-atinge-710-pontos-e-pressiona-divida.jpg",
+    resumo: "Indicador calculado pelo JPMorgan alcançou o maior nível desde outubro de 2025 antes de encerrar o dia em 672 pontos.",
+    conteudo: `<p>O risco-país da Argentina atingiu 710 pontos básicos nesta terça-feira (20), maior marca intradiária desde outubro de 2025. O indicador recuou no decorrer da sessão e encerrou o dia em 672 pontos, ainda sob pressão provocada pela queda dos títulos argentinos negociados no exterior.</p><p>O Poder360 informou a máxima e o fechamento, enquanto a Veja confirmou o avanço e apontou alta aproximada de 35% em um mês. O índice é calculado pelo JPMorgan e compara o retorno exigido para papéis argentinos com o rendimento de títulos dos Estados Unidos de prazo semelhante.</p><p>Quanto maior a diferença, maior é a percepção de risco atribuída pelos investidores à dívida do país. Isso não significa que todos os empréstimos argentinos sejam automaticamente contratados à mesma taxa, mas funciona como referência importante para o custo de captação do governo e de empresas.</p><h2>Títulos perdem valor externo</h2><p>A elevação ocorreu em uma sessão na qual os papéis argentinos no exterior chegaram a cair cerca de 1,5%. Quando um título perde preço, seu rendimento para um novo comprador tende a subir, ampliando o prêmio cobrado em relação aos ativos considerados mais seguros.</p><p>No começo de outubro, o risco-país havia fechado em 636 pontos e depois recuado a 599. A reversão desse movimento mostrou que o alívio foi temporário e que o mercado voltou a cobrar proteção maior para financiar a Argentina.</p><p>A mudança afeta diretamente a estratégia do governo de Javier Milei para administrar vencimentos e buscar recursos externos. Com um prêmio elevado, novas emissões ficam mais caras e o Tesouro encontra dificuldade adicional para trocar dívidas próximas por obrigações de prazo mais longo.</p><h2>Financiamento segue mais caro</h2><p>O indicador reage a fatores internos e internacionais. Juros de referência nos Estados Unidos, disponibilidade global de dólares, situação fiscal argentina, reservas cambiais e capacidade de pagamento influenciam o preço dos títulos e a disposição dos investidores.</p><p>A máxima de 710 pontos não representa calote nem rebaixamento automático da classificação de crédito. Ela sinaliza, porém, que o mercado enxerga risco maior e exige remuneração adicional para manter exposição ao país.</p><p>Para empresas argentinas, o efeito pode aparecer no custo de financiamentos, na avaliação de projetos e no acesso a investidores. Para o governo, o obstáculo é mais imediato porque a dívida precisa ser administrada sem ampliar excessivamente as despesas com juros.</p><p>A trajetória dos próximos dias dependerá do comportamento dos títulos e das respostas econômicas apresentadas em Buenos Aires. Se o prêmio permanecer próximo das máximas, a Argentina terá menos margem para captar no exterior; uma queda consistente exigirá melhora das expectativas fiscais e cambiais, não apenas recuperação pontual de preços.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Poder360",
+    fonteUrl: "https://www.poder360.com.br/poder-economia/risco-pais-da-argentina-vai-a-710-pontos-e-atinge-maior-nivel-em-1-ano/",
+    fontesAdicionais: [
+      {
+        nome: "Veja",
+        url: "https://veja.abril.com.br/economia/risco-pais-da-argentina-dispara-35-em-um-mes-e-poe-mercado-em-alerta/"
+      },
+      {
+        nome: "IstoÉ",
+        url: "https://istoe.com.br/risco-pais-argentina-dispara-pressao-divida-milei"
+      }
+    ],
+    entidades: ["Argentina", "JPMorgan", "Javier Milei"],
+    aeo: [
+      {
+        pergunta: "Qual foi a máxima do risco-país argentino?",
+        resposta: "O indicador atingiu 710 pontos básicos durante a sessão de 20 de outubro."
+      },
+      {
+        pergunta: "Em quanto o índice encerrou o dia?",
+        resposta: "Depois de recuar da máxima, o risco-país fechou em 672 pontos."
+      },
+      {
+        pergunta: "Quem calcula o risco-país?",
+        resposta: "O indicador de referência citado nas reportagens é calculado pelo JPMorgan."
+      },
+      {
+        pergunta: "O que significa a alta do índice?",
+        resposta: "Significa que investidores exigem prêmio maior para manter títulos argentinos em comparação aos papéis dos EUA."
+      },
+      {
+        pergunta: "A marca de 710 pontos indica calote?",
+        resposta: "Não automaticamente; ela sinaliza aumento da percepção de risco e maior dificuldade de financiamento."
+      }
+    ],
     redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
+    origemTexto: "redacao-noticia-es",
     automatico: true,
-    publicadoEm: "2026-10-21T00:59:10.786Z"
-  },
-  {
-    id: 26102021591005,
-    pautaId: "b1f21e88ea2c86f0",
-    slug: "trump-inflacao-e-imigracao-os-3-temas-que-devem-definir-as-midterms-nos-eua",
-    titulo: "Trump, inflação e imigração: os 3 temas que devem definir as Midterms nos EUA",
-    categoria: "Economia",
-    data: "2026-10-20",
-    imagem: "https://noticiaes.com.br/imagens/lapis/trump-inflacao-e-imigracao-os-3-temas-que-devem-definir-as-midterms-nos-eua.jpg",
-    resumo: "Com popularidade em mínima histórica, Donald Trump tenta mobilizar sua base enquanto custo de vida e políticas migratórias dominam a disputa que decidirá o controle do Congresso",
-    conteudo: "<p>A popularidade do presidente Donald Trump, que atingiu um ⁠nível historicamente baixo, a frustração dos eleitores com o custo de vida e uma acirrada disputa sobre a imigração ⁠estão moldando as eleições de meio de mandato de 3 de novembro, que determinarão se os republicanos manterão o controle do Congresso ou se os ‌democratas conquistarão o poder para desafiar seu governo.</p><h2>Republicanos detêm maiorias estreitas na Câmara dos Deputados e</h2><p>Os republicanos detêm maiorias estreitas na Câmara dos Deputados e no Senado. Os democratas precisam de um ganho líquido de quatro cadeiras para assumir o controle de cada uma das Casas.</p><p>As midterms acontecem na metade do mandato presidencial e renovam as 435 cadeiras da Câmara dos Representantes e cerca de um terço do Senado</p><p>O resultado dependerá de um número relativamente pequeno de disputas acirradas, mas as campanhas estão sendo moldadas em nível ‌nacional pelo próprio Trump e pelas preocupações dos eleitores com o custo de vida e a imigração.</p><h2>Veja a seguir os três temas que definem</h2><p>Veja a seguir os três temas que definem a eleição:</p><p>O presidente colocou-se no centro das atenções na reta final do ciclo eleitoral, apesar de sua popularidade estar em nível recorde de baixa, com comícios programados na Flórida, em Iowa, em Michigan e no Texas.</p><p>O índice de aprovação de Trump caiu para 31%, o menor nível já registrado, de acordo com uma pesquisa Reuters/Ipsos.</p><p>No entanto, ele tem repetidamente instado os eleitores a fingirem que ele está na cédula eleitoral — uma estratégia que poderia motivar democratas e independentes a se unirem contra seu partido, embora a mensagem tenha como objetivo aumentar a participação ⁠eleitoral entre ‌a base de Trump.</p><p>Os democratas afirmam que Trump não cumpriu suas promessas de campanha de reduzir custos e pôr fim às guerras.</p><p>Eles prometeram adotar uma agenda de acessibilidade para ⁠reduzir o custo de vida dos norte-americanos e responsabilizar o governo por supostas práticas de corrupção, caso os eleitores lhes concedam o controle de qualquer uma das duas Casas do Congresso.</p><p>Os eleitores têm consistentemente classificado o custo de vida como o principal tema neste ciclo eleitoral.</p><p>Metade dos eleitores registrados entrevistados em uma pesquisa recente Reuters/Ipsos citou o custo de vida como o fator mais importante na decisão de voto.</p><p>Na mesma pesquisa, os eleitores destacaram saúde, gasolina, alimentação e moradia como as principais despesas domésticas nas quais os parlamentares deveriam se concentrar.</p><p>A principal conquista legislativa dos republicanos foi a prorrogação de um corte de ​impostos que reduziu em cerca de US$1 trilhão os gastos com o Medicaid — o programa governamental de seguro saúde para norte-americanos de baixa renda — e outros programas de saúde.</p><p>No ano passado, os democratas forçaram uma paralisação do governo devido a uma tentativa fracassada de prorrogar subsídios de saúde que estavam prestes a expirar e ​que beneficiavam 24 milhões de norte-americanos.</p><p>Os preços da gasolina dispararam desde que os EUA e Israel lançaram ataques militares contra o Irã em fevereiro. O preço médio nacional da gasolina é de US$4,28 — US$1,20 a mais do que há um ano, segundo a AAA.</p><p>O custo médio do diesel é de US$6,32 — um aumento de US$2,70 em relação ao ano anterior.</p><p>Os custos com mantimentos subiram 1,8% no último ano, de acordo com dados do Departamento de Estatísticas do Trabalho dos EUA sobre preços ao consumidor.</p><p>Dados da Agência Federal de Financiamento Imobiliário mostram que os preços das casas subiram 2,1% no último ano. O Congresso aprovou um projeto de lei bipartidário sobre habitação no início deste ‌ano.</p><p>Dados preliminares do Departamento de Segurança Interna mostraram uma queda ​de 95% no número de migrantes detidos na fronteira sudoeste em comparação com o governo do ex-presidente Joe Biden.</p><p>A agência informou que, pela primeira vez na história, não houve nenhuma liberação pela Patrulha de Fronteira durante todo o ano fiscal.</p><p>No entanto, ocorreram confrontos fatais com agentes federais de imigração no Maine, em Minnesota e no Texas.</p><p>A reação à morte de dois cidadãos norte-americanos em Minnesota levou muitos ⁠democratas em primárias acirradas a se posicionarem mais à esquerda este ano, com ​alguns candidatos pedindo o impeachment da então ​secretária de Segurança Interna, Kristi Noem, e outros defendendo que o Serviço de Imigração e Alfândega (ICE) deveria ser abolido.</p><p>Democratas e republicanos entraram em choque sobre o financiamento da imigração este ano, o que forçou os republicanos ⁠a aprovar unilateralmente um projeto de lei de US$70 bilhões para financiar o ICE e a ​Patrulha de Fronteira até o fim do mandato de Trump.</p><p>Os republicanos rebatem as críticas dos democratas alegando que estes defendem fronteiras abertas.</p><p>Autoridades federais de imigração também realizaram uma operação na residência em Washington da deputada federal democrata Ilhan Omar, de Minnesota, neste mês, o que gerou ampla condenação por parte dos democratas.</p><p>Uma pessoa a par do processo contra Omar disse à Reuters que um ​dos possíveis objetivos da investigação poderia ser retirar-lhe a cidadania norte-americana e deportá-la.</p><p>Inteligência artificial e data centers, criptomoedas, aborto e Israel também podem influenciar os eleitores em disputas eleitorais específicas.</p><p>Na disputa pelo Senado em Ohio, por exemplo, o candidato democrata Sherrod Brown rotulou o senador republicano Jon ​Husted como o rosto dos data centers, e o ⁠super PAC de criptomoedas “Defend American Jobs” gastou mais de US$46 milhões para reeleger Husted em detrimento de Brown, um ex-senador que presidiu a Comissão de Bancos da Câmara.</p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "InfoMoney",
-    fonteUrl: "https://www.infomoney.com.br/mundo/trump-inflacao-e-imigracao-os-3-temas-que-devem-definir-as-midterms-nos-eua/",
-    fontesAdicionais: [{"nome":"Agência Brasil Economia","url":"https://agenciabrasil.ebc.com.br/economia"},{"nome":"Banco Central","url":"https://www.bcb.gov.br/detalhenoticia"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"A popularidade do presidente Donald Trump, que atingiu um ⁠nível historicamente baixo, a frustração dos eleitores com o custo de vida e uma acirrada disputa sobre a imigração ⁠estão moldando as eleições de meio de mandato de 3 de novembro, que determinarão se os republicanos manterão o controle do Congresso ou se os ‌democratas conquistarão o poder para desa"},{"pergunta":"Qual é o ponto principal?","resposta":"Os republicanos detêm maiorias estreitas na Câmara dos Deputados e no Senado. Os democratas precisam de um ganho líquido de quatro cadeiras para assumir o controle de cada uma das Casas."},{"pergunta":"Quais são os dados mais importantes?","resposta":"As midterms acontecem na metade do mandato presidencial e renovam as 435 cadeiras da Câmara dos Representantes e cerca de um terço do Senado"},{"pergunta":"Qual é o contexto?","resposta":"O resultado dependerá de um número relativamente pequeno de disputas acirradas, mas as campanhas estão sendo moldadas em nível ‌nacional pelo próprio Trump e pelas preocupações dos eleitores com o custo de vida e a imigração."},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"Veja a seguir os três temas que definem a eleição:"}],
-    redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
-    automatico: true,
-    publicadoEm: "2026-10-21T00:59:10.786Z"
+    publicadoEm: "2026-10-21T01:39:06.000Z"
   }
 ];
-if (typeof noticias !== 'undefined') noticias.unshift(...noticiasAutoRedacao20261020215910);
+
+if (typeof noticias !== "undefined") noticias.unshift(...noticiasAutoRedacao20261020215910);
