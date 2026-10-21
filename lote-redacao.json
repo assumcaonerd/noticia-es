@@ -1,98 +1,314 @@
 {
-  "geradoEm": "2026-10-21T17:49:32.064Z",
+  "geradoEm": "2026-10-21T18:50:10.404Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
-    "totalPendentes": 64,
+    "totalPendentes": 62,
     "bloqueadas": 0,
-    "bloqueadasEditoriais": 5,
+    "bloqueadasEditoriais": 2,
     "semImagem": 0,
-    "duplicadasBasicas": 10,
-    "duplicadasSemanticas": 1,
-    "foraCategorias": 32
+    "duplicadasBasicas": 1,
+    "duplicadasSemanticas": 0,
+    "foraCategorias": 35
   },
-  "quantidadeCandidatas": 16,
+  "quantidadeCandidatas": 24,
   "candidatas": [
     {
-      "id": "3d2f44cfbdbb80fa",
-      "titulo": "Quem está na frente no 2º turno no Espírito Santo?",
-      "categoria": "Política ES",
+      "id": "65c20d0df45fb5ec",
+      "titulo": "Quaest: 21% apontam crescimento econômico e sair da crise como principal desafio do próximo presidente",
+      "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/politica/quem-esta-na-frente-no-2o-turno-no-espirito-santo/",
-      "dataFonte": "2026-10-21T17:16:59.000Z",
-      "resumoFonte": "Deputado Delegado Lorenzo Pazolini (Foto: Tati Beling) – Ricardo Ferraço (Jefferson Rudy/Agência Senado) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-16-at-12.07.13.jpeg?fit=1200%2C675&quality=70&strip=all\" />Lorenzo Pazolini aparece numericamente à frente, mas pesquisa mais recente mostra empate…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-16-at-12.07.13.jpeg",
-      "descobertaEm": "2026-10-21T17:18:42.964Z",
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/21/quaest-principal-desafio-do-proximo-presidente.ghtml",
+      "dataFonte": "2026-10-21T17:41:15.000Z",
+      "resumoFonte": "Quaest, 2º turno: Flávio Bolsonaro, 45%; Lula, 44% O crescimento da economia e a saída da crise são a prioridade mais citada pelos brasileiros para quem assumir o Palácio do Planalto em 2027. Segundo pesquisa Quaest divulgada nesta quarta-feira (21) encomendada pela Globo e pelo jornal O Globo, 21% dos eleitores afirmam que esse deve ser o…",
+      "imagem": "https://s2-g1.glbimg.com/w-NFEKCHHyXbCwr5VAYqVEtXFPM=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s02.video.glbimg.com/deo/vi/89/85/15108589",
+      "descobertaEm": "2026-10-21T18:18:31.333Z"
+    },
+    {
+      "id": "6d5c4c9f47380653",
+      "titulo": "Governo federal detalha medidas para MEIs e PEC da Tarifa Zero",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/economia/governo-federal-detalha-medidas-para-meis-e-pec-da-tarifa-zero-1026",
+      "dataFonte": "2026-10-21T17:59:44.000Z",
+      "resumoFonte": "Gratuidade no transporte público em fins de semana mobilizará no mínimo 26,8% do montante global anual das emendas parlamentares impositivas",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790611287879_midias_jpg_2017_12_19_onibus_5427586.jpg",
+      "descobertaEm": "2026-10-21T18:18:31.333Z"
+    },
+    {
+      "id": "9f9d5a8c82714f94",
+      "titulo": "Filho cai dentro do túmulo do pai e morre em Linhares, no ES",
+      "categoria": "Cidades",
+      "radar": null,
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/colunas/leonel-ximenes/filho-cai-dentro-do-tumulo-do-pai-e-morre-em-linhares-no-es-1026",
+      "dataFonte": "2026-10-21T18:30:36.000Z",
+      "resumoFonte": "Samu e uma guarnição dos Bombeiros foram acionados, mas o homem já estava sem vida.",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1792607174202_linhares.jpeg",
+      "descobertaEm": "2026-10-21T18:42:17.358Z"
+    },
+    {
+      "id": "beeddc9eb05dfe74",
+      "titulo": "A história por trás do R$ 1 milhão destinado ao filme de Lula",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/a-historia-por-tras-do-r-1-milhao-destinado-ao-filme-de-lula/",
+      "dataFonte": "2026-10-21T18:06:21.000Z",
+      "resumoFonte": "Desde que o nome Dark Horse surgiu na imprensa, em maio de 2026, muito se falou, muito se especulou e inúmeras versões passaram a circular sobre o projeto. Desde o primeiro momento, decidi investigar o assunto a fundo. Conversei com fontes diretamente envolvidas, advogados que acompanham o caso, representantes da produção e profissionais com…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/filme-do-lula-910x568.png.webp",
+      "descobertaEm": "2026-10-21T18:18:31.333Z",
       "reportagem": {
-        "titulo": "Quem está na frente no 2º turno no Espírito Santo?",
-        "slug": "quem-esta-na-frente-no-2-turno-no-espirito-santo",
-        "categoria": "Política ES",
+        "titulo": "Fábio Wajngarten: 'A história por trás do R$ 1 milhão destinado ao filme de Lula'",
+        "slug": "fabio-wajngarten-a-historia-por-tras-do-r-1-milhao-destinado-ao-filme-de-lula",
+        "categoria": "Cultura",
         "data": "2026-10-21",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/quem-esta-na-frente-no-2-turno-no-espirito-santo.jpg",
-        "resumo": "Lorenzo Pazolini aparece numericamente à frente, mas pesquisa mais recente mostra empate técnico com Ricardo Ferraço",
-        "conteudo": "<p>A disputa pelo governo do Espírito Santo apertou na reta final. Lorenzo Pazolini (Republicanos) aparece com 52% dos votos válidos, contra 48% de Ricardo Ferraço (MDB), segundo pesquisa Real Time Big Data divulgada na terça-feira (20).</p><h2>Como a margem de erro é de dois pontos</h2><p>Como a margem de erro é de dois pontos percentuais, os dois estão tecnicamente empatados no limite do intervalo. Nos votos totais, Pazolini tem 46% e Ferraço, 43%. Brancos e nulos somam 8%, e 3% não souberam responder.</p><p>O cenário é considerado empate técnico, com diferença numérica de 1 ponto</p><h2>Para Renato Dolci, da Dados Timeless, rejeição ao campo</h2><p>Para Renato Dolci, da Dados Timeless, rejeição ao campo político rival ajuda a explicar a mobilização digital de apoiadores de Lula e Flávio Bolsonaro</p><p>O resultado indica uma distância menor do que a encontrada pela Quaest na semana anterior. No levantamento realizado entre 10 e 13 de outubro, Pazolini tinha 47% das intenções totais, ante 38% de Ferraço. Outros 10% declaravam voto branco ou nulo e 5% estavam indecisos.</p><p>No primeiro turno, Pazolini recebeu 49,65% dos votos válidos e ficou próximo de encerrar a disputa. Ferraço avançou ao segundo turno com 34,06%.</p><p>A Real Time Big Data ouviu 1.600 eleitores entre 15 e 19 de outubro. A margem de erro é de dois pontos percentuais e o nível de confiança é de 95%. O registro é ES-06599/2026.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/politica/quem-esta-na-frente-no-2o-turno-no-espirito-santo/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/fabio-wajngarten-a-historia-por-tras-do-r-1-milhao-destinado-ao-filme-de-lula.jpg",
+        "resumo": "Investigação sobre 'Dark Horse' resgata delação de Palocci e suspeita de contrapartida envolvendo a Petrobras",
+        "conteudo": "<p>Esse perfil é dedicado ao grupo de redatores da Revista Oeste. Eles são os responsáveis pela produção dos textos que vão ao ar.</p><h2>Desde que o nome Dark Horse surgiu na imprensa,</h2><p>Desde que o nome Dark Horse surgiu na imprensa, em maio de 2026, muito se falou, muito se especulou e inúmeras versões passaram a circular sobre o projeto.</p><p>Desde o primeiro momento, decidi investigar o assunto a fundo.</p><p>Conversei com fontes diretamente envolvidas, advogados que acompanham o caso, representantes da produção e profissionais com conhecimento técnico sobre financiamento audiovisual.</p><h2>Busquei documentos, confrontei informações, ouvi versões distintas e procurei</h2><p>Busquei documentos, confrontei informações, ouvi versões distintas e procurei compreender o que efetivamente existia por trás das manchetes.</p><p>Não me interessavam boatos. Interessavam-me os fatos.</p><p>Foi durante esse trabalho que tomei conhecimento de informações sobre o financiamento de outras duas produções cinematográficas que envolvem ex-presidentes da República: Lula e Michel Temer.</p><p>Segundo as informações que recebi, havia elementos que justificavam examinar essas produções com o mesmo rigor aplicado ao Dark Horse .</p><p>Em um primeiro momento, as informações sobre esses financiamentos foram categoricamente negadas à imprensa, inclusive, segundo os relatos que acompanhei, por meio de manifestação oficial da Secretaria de Comunicação Social.</p><p>Confiava na qualificação das minhas fontes, mas sabia que confiança não substitui prova. Por isso, procurei aprofundar a investigação, identificar documentos e compreender a estrutura financeira de cada produção.</p><p>Enquanto isso, a repercussão do Dark Horse crescia.</p><p>O debate ultrapassou os aspectos técnicos do financiamento cinematográfico e adquiriu contornos políticos cada vez mais intensos, em pleno ano eleitoral.</p><p>Acusações, interpretações e suspeitas passaram a circular com enorme velocidade.</p><p>E existe um aspecto desse processo que não pode ser ignorado: por trás de cada manchete estão pessoas, profissionais, famílias e reputações.</p><p>Quando uma suspeita é apresentada como fato consumado, os danos podem ser profundos e, muitas vezes, irreversíveis.</p><p>Nunca menosprezei o trabalho investigativo da imprensa. Ao contrário. Sempre reconheci sua importância e a necessidade de escrutínio sobre qualquer produção que envolva figuras públicas.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/a-historia-por-tras-do-r-1-milhao-destinado-ao-filme-de-lula/",
         "fontesAdicionais": [
           {
-            "nome": "Assembleia Legislativa do ES",
-            "url": "https://www.al.es.gov.br/"
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
           },
           {
-            "nome": "Governo do Estado do ES",
-            "url": "https://www.es.gov.br/"
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "A disputa pelo governo do Espírito Santo apertou na reta final. Lorenzo Pazolini (Republicanos) aparece com 52% dos votos válidos, contra 48% de Ricardo Ferraço (MDB), segundo pesquisa Real Time Big Data divulgada na terça-feira (20)."
+            "resposta": "Esse perfil é dedicado ao grupo de redatores da Revista Oeste. Eles são os responsáveis pela produção dos textos que vão ao ar."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Como a margem de erro é de dois pontos percentuais, os dois estão tecnicamente empatados no limite do intervalo. Nos votos totais, Pazolini tem 46% e Ferraço, 43%. Brancos e nulos somam 8%, e 3% não souberam responder."
+            "resposta": "Desde que o nome Dark Horse surgiu na imprensa, em maio de 2026, muito se falou, muito se especulou e inúmeras versões passaram a circular sobre o projeto."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O cenário é considerado empate técnico, com diferença numérica de 1 ponto"
+            "resposta": "Desde o primeiro momento, decidi investigar o assunto a fundo."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Para Renato Dolci, da Dados Timeless, rejeição ao campo político rival ajuda a explicar a mobilização digital de apoiadores de Lula e Flávio Bolsonaro"
+            "resposta": "Conversei com fontes diretamente envolvidas, advogados que acompanham o caso, representantes da produção e profissionais com conhecimento técnico sobre financiamento audiovisual."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O resultado indica uma distância menor do que a encontrada pela Quaest na semana anterior. No levantamento realizado entre 10 e 13 de outubro, Pazolini tinha 47% das intenções totais, ante 38% de Ferraço. Outros 10% declaravam voto branco ou nulo e 5% estavam indecisos."
+            "resposta": "Busquei documentos, confrontei informações, ouvi versões distintas e procurei compreender o que efetivamente existia por trás das manchetes."
           }
         ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-16-at-12.07.13.jpeg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/quem-esta-na-frente-no-2-turno-no-espirito-santo.jpg",
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/filme-do-lula-910x568.png.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/fabio-wajngarten-a-historia-por-tras-do-r-1-milhao-destinado-ao-filme-de-lula.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "26bb5ad1050236c1",
-      "titulo": "Lula mira aumento na rejeição de Flávio Bolsonaro na reta final com pressão por abertura de sigilo",
-      "categoria": "Política Nacional",
+      "id": "104783763d805f06",
+      "titulo": "CEO da Nvidia celebra potencial da IA na Europa cercado por patos robôs",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/business/ceo-da-nvidia-celebra-potencial-da-ia-na-europa-cercado-por-patos-robos/",
+      "dataFonte": "2026-10-21T18:26:45.000Z",
+      "resumoFonte": "O logotipo da NVIDIA e uma placa-mãe de computador aparecem nesta ilustração tirada em 25 de agosto de 2025. (Reuters/Dado Ruvic/Ilustração/Foto de arquivo) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/07/2026-07-27T134722Z_1_LYNXMPEM6Q12L_RTROPTP_4_NVIDIA-ASIA-CHIPS.jpg?fit=1280%2C854&quality=70&strip=all\" />'Nenhuma…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/07/2026-07-27T134722Z_1_LYNXMPEM6Q12L_RTROPTP_4_NVIDIA-ASIA-CHIPS.jpg",
+      "descobertaEm": "2026-10-21T18:42:17.358Z",
+      "reportagem": {
+        "titulo": "CEO da Nvidia celebra potencial da IA na Europa cercado por patos robôs",
+        "slug": "ceo-da-nvidia-celebra-potencial-da-ia-na-europa-cercado-por-patos-robos",
+        "categoria": "Tecnologia",
+        "data": "2026-10-21",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/ceo-da-nvidia-celebra-potencial-da-ia-na-europa-cercado-por-patos-robos.jpg",
+        "resumo": "'Nenhuma região se dedicou à produção de mecatrônica, eletrônica e sistemas mecânicos com o mesmo nível de precisão e habilidade que a região europeia&quot;, afirma Jensen Huang",
+        "conteudo": "<p>AMSTERDÃ, 21 Out (Reuters) – O presidente-executivo da Nvidia , Jensen ⁠Huang, acredita que a expertise em engenharia da ⁠Europa lhe confere uma vantagem em inteligência artificial física e robótica, ‌afirmou nesta quarta-feira, enquanto a gigante tecnológica norte-americana anunciava parcerias ampliadas com fabricantes e startups europeias.</p><h2>‘Todas as empresas na Europa se tornarão empresas</h2><p>‘Todas as empresas na Europa se tornarão empresas de ‌IA’, disse Huang na conferência GTC da Nvidia em Berlim, que encerra uma turnê europeia que já o levou a Londres, Paris, Estocolmo e Dublin.</p><p>Empresa de banco de imagens busca reduzir dívida, receber aporte de até US$ 533 milhões e fechar capital em meio ao avanço das ferramentas de IA</p><p>O Grupo Casas Bahia entrou com o pedido de recuperação judicial em 16 de agosto, informando dívidas de R$ 17,3 bilhões, das quais R$ 16,4 bilhões são quirografárias, ou seja, sem garantia real</p><h2>‘Nenhuma região se dedicou à produção de mecatrônica, eletrônica</h2><p>‘Nenhuma região se dedicou à produção de mecatrônica, eletrônica e sistemas mecânicos com o mesmo nível de precisão e habilidade que a região europeia.’</p><p>Em ⁠uma ‌demonstração da criatividade europeia em IA, Huang dividiu o palco com ⁠minúsculos robôs em forma de pato, treinados em IA e desenvolvidos pela startup francesa Pollen Robotics em colaboração com a Hugging Face, pedindo-lhes que dessem cambalhotas.</p><p>A Nvidia afirma ter investido quase US$10 bilhões no ecossistema tecnológico europeu. A empresa assumiu a liderança no fornecimento ​de processadores e softwares necessários para os ‘cérebros’ de robôs, o que lhe confere um interesse comercial no sucesso da indústria europeia.</p><p>Entre as ​parcerias anunciadas na quarta-feira, a alemã Agile Robots planeja produzir de 1.000 a 2.000 robôs humanoides de pequeno porte no próximo ano em colaboração com a Nvidia, disse o presidente-executivo Zhaopeng Chen à Reuters. A produção deve começar no final deste ano.</p><p>Huang afirmou que a ‌Europa — frequentemente deixada para trás pelos EUA e pela ​Ásia na corrida da IA e sem um verdadeiro player nacional na escala de uma Nvidia, Anthropic ou OpenAI — precisa garantir que desempenhe um papel central.</p><p>‘Para fazer parte ⁠dessa economia da IA, você ​não quer apenas ​consumir IA; você quer produzir IA. Nós poderíamos fazer tudo isso aqui na Europa’, disse ⁠ele.</p><p>Em um evento separado na quarta-feira, a ​Nvidia apresentou um novo design chamado DSX POD para módulos de data center pré-fabricados, utilizando sua plataforma Vera Rubin.</p><p>A empresa afirmou que os módulos poderiam ​ser implantados em apenas duas semanas, em vez dos seis meses anteriores.</p><p>No entanto, nem tudo correu como planejado no palco.</p><p>Os ​Microducks mostraram que, mesmo ⁠com o poder da IA, fazer com que robôs sigam instruções não é infalível. Três ⁠deles prontamente se renderam quando Huang ordenou que tirassem uma soneca, mas o quarto precisou de um pouco mais de persuasão.</p><p>Um deles parecia distraído e estava virado para o lado errado enquanto Huang terminava seu discurso. ‘Prestem atenção, mantenham o foco’, disse ele com firmeza.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/business/ceo-da-nvidia-celebra-potencial-da-ia-na-europa-cercado-por-patos-robos/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/"
+          },
+          {
+            "nome": "MCTI",
+            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "AMSTERDÃ, 21 Out (Reuters) – O presidente-executivo da Nvidia , Jensen ⁠Huang, acredita que a expertise em engenharia da ⁠Europa lhe confere uma vantagem em inteligência artificial física e robótica, ‌afirmou nesta quarta-feira, enquanto a gigante tecnológica norte-americana anunciava parcerias ampliadas com fabricantes e startups europeias."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "‘Todas as empresas na Europa se tornarão empresas de ‌IA’, disse Huang na conferência GTC da Nvidia em Berlim, que encerra uma turnê europeia que já o levou a Londres, Paris, Estocolmo e Dublin."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Empresa de banco de imagens busca reduzir dívida, receber aporte de até US$ 533 milhões e fechar capital em meio ao avanço das ferramentas de IA"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O Grupo Casas Bahia entrou com o pedido de recuperação judicial em 16 de agosto, informando dívidas de R$ 17,3 bilhões, das quais R$ 16,4 bilhões são quirografárias, ou seja, sem garantia real"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "‘Nenhuma região se dedicou à produção de mecatrônica, eletrônica e sistemas mecânicos com o mesmo nível de precisão e habilidade que a região europeia.’"
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/07/2026-07-27T134722Z_1_LYNXMPEM6Q12L_RTROPTP_4_NVIDIA-ASIA-CHIPS.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/ceo-da-nvidia-celebra-potencial-da-ia-na-europa-cercado-por-patos-robos.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "1e544cd3a9c63bc9",
+      "titulo": "Capitão do Grêmio pode desfalcar time até a penúltima rodada do Brasileirão",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/gremio/capitao-do-gremio-pode-desfalcar-time-ate-a-penultima-rodada-do-brasileirao/",
+      "dataFonte": "2026-10-21T18:03:05.000Z",
+      "resumoFonte": "Kannemann será julgado pelo STJD nesta quinta-feira (22) e pode pegar de quatro a seis jogos de suspensão por gesto de roubo contra a arbitragem",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Kannemann-e1792605371119.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-21T18:42:17.358Z",
+      "reportagem": {
+        "titulo": "Capitão do Grêmio pode desfalcar time até a penúltima rodada do Brasileirão",
+        "slug": "capitao-do-gremio-pode-desfalcar-time-ate-a-penultima-rodada-do-brasileirao",
+        "categoria": "Esporte",
+        "data": "2026-10-21",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/capitao-do-gremio-pode-desfalcar-time-ate-a-penultima-rodada-do-brasileirao.jpg",
+        "resumo": "Kannemann será julgado pelo STJD nesta quinta-feira (22) e pode pegar de quatro a seis jogos de suspensão por gesto de roubo contra a arbitragem",
+        "conteudo": "<p>O Grêmio pode perder um de seus principais líderes na reta final do Campeonato Brasileiro.</p><h2>Capitão da equipe, o zagueiro Kannemann será julgado pelo</h2><p>Capitão da equipe, o zagueiro Kannemann será julgado pelo Superior Tribunal de Justiça Desportiva (STJD) nesta quinta-feira (22) e corre o risco de receber uma suspensão de até seis partidas, o que pode tirá-lo de campo até a penúltima rodada da competição.</p><p>O defensor foi denunciado com base no artigo 243-F do Código Brasileiro de Justiça Desportiva (CBJD), que trata de ofensas à honra relacionadas diretamente ao esporte.</p><p>A punição prevista inclui multa e suspensão de uma a seis partidas, mas pode ser mais severa em situações envolvendo integrantes da arbitragem.</p><h2>Pelo parágrafo 1º do artigo, a pena mínima sobe</h2><p>Pelo parágrafo 1º do artigo, a pena mínima sobe para quatro jogos quando a infração é cometida por um atleta contra um árbitro ou seus assistentes. Dessa forma, Kannemann pode receber um gancho de quatro a seis partidas, além de multa que pode chegar a R$ 100 mil.</p><p>O episódio aconteceu durante a derrota do Grêmio para o Cruzeiro. Aos 27 minutos do segundo tempo, Kannemann cometeu uma falta em Kaio Jorge e recebeu cartão amarelo do árbitro João Vitor Gobi, de São Paulo.</p><p>Na sequência, ao retornar para o campo de defesa gremista, o zagueiro fez um gesto com a mão interpretado como uma acusação de roubo contra a arbitragem . O auxiliar Bruno Boschilia percebeu a atitude e comunicou o ocorrido ao árbitro principal, que decidiu expulsar o defensor.</p><p>O Grêmio pode perder um de seus principais líderes na reta final do Campeonato Brasileiro.</p><p>Capitão da equipe, o zagueiro Kannemann será julgado pelo Superior Tribunal de Justiça Desportiva (STJD) nesta quinta-feira (22) e corre o risco de receber uma suspensão de até seis partidas, o que pode tirá-lo de campo até a penúltima rodada da competição.</p><p>O defensor foi denunciado com base no artigo 243-F do Código Brasileiro de Justiça Desportiva (CBJD), que trata de ofensas à honra relacionadas diretamente ao esporte.</p><p>A punição prevista inclui multa e suspensão de uma a seis partidas, mas pode ser mais severa em situações envolvendo integrantes da arbitragem.</p><p>Pelo parágrafo 1º do artigo, a pena mínima sobe para quatro jogos quando a infração é cometida por um atleta contra um árbitro ou seus assistentes.</p><p>Dessa forma, Kannemann pode receber um gancho de quatro a seis partidas, além de multa que pode chegar a R$ 100 mil.</p><p>Entenda a expulsão de Kannemann contra o Cruzeiro O episódio aconteceu durante a derrota do Grêmio para o Cruzeiro.</p><p>Aos 27 minutos do segundo tempo, Kannemann cometeu uma falta em Kaio Jorge e recebeu cartão amarelo do árbitro João Vitor Gobi, de São Paulo.</p><p>Na sequência, ao retornar para o campo de defesa gremista, o zagueiro fez um gesto com a mão interpretado como uma acusação de roubo contra a arbitragem .</p><p>O auxiliar Bruno Boschilia percebeu a atitude e comunicou o ocorrido ao árbitro principal, que decidiu expulsar o defensor.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/futebol/gremio/capitao-do-gremio-pode-desfalcar-time-ate-a-penultima-rodada-do-brasileirao/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Grêmio pode perder um de seus principais líderes na reta final do Campeonato Brasileiro. Capitão da equipe, o zagueiro Kannemann será julgado pelo Superior Tribunal de Justiça Desportiva (STJD) nesta quinta-feira (22) e corre o risco de receber uma suspensão de até seis partidas, o que pode tirá-lo de campo até a penúltima rodada da competição."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O defensor foi denunciado com base no artigo 243-F do Código Brasileiro de Justiça Desportiva (CBJD), que trata de ofensas à honra relacionadas diretamente ao esporte. A punição prevista inclui multa e suspensão de uma a seis partidas, mas pode ser mais severa em situações envolvendo integrantes da arbitragem."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Pelo parágrafo 1º do artigo, a pena mínima sobe para quatro jogos quando a infração é cometida por um atleta contra um árbitro ou seus assistentes. Dessa forma, Kannemann pode receber um gancho de quatro a seis partidas, além de multa que pode chegar a R$ 100 mil."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O episódio aconteceu durante a derrota do Grêmio para o Cruzeiro. Aos 27 minutos do segundo tempo, Kannemann cometeu uma falta em Kaio Jorge e recebeu cartão amarelo do árbitro João Vitor Gobi, de São Paulo."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Na sequência, ao retornar para o campo de defesa gremista, o zagueiro fez um gesto com a mão interpretado como uma acusação de roubo contra a arbitragem . O auxiliar Bruno Boschilia percebeu a atitude e comunicou o ocorrido ao árbitro principal, que decidiu expulsar o defensor."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Kannemann-e1792605371119.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/capitao-do-gremio-pode-desfalcar-time-ate-a-penultima-rodada-do-brasileirao.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "26a74d7c7cc69e6b",
+      "titulo": "Flávio Bolsonaro diz que abre sigilo se Lula abrir o de Marcola e critica ministros do STF",
+      "categoria": "Justiça",
       "radar": null,
       "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/lula-mira-aumento-na-rejeicao-de-flavio-bolsonaro-na-reta-final-com-pressao-por-abertura-de-sigilo.shtml",
-      "dataFonte": "2026-10-21T16:00:00.000Z",
-      "resumoFonte": "O presidente Lula ( PT ) mira um aumento na rejeição do senador Flávio Bolsonaro ( PL -RJ), seu adversário no segundo turno da eleição presidencial, ao martelar o desafio da abertura dos sigilos na reta final da disputa. O petista se comprometeu a abrir os sigilos bancário, fiscal e telefônico de si mesmo e de pessoas físicas e jurídicas às quais é…",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/09/18/17897410076aad47cf8eed4_1789741007_3x2_rt.jpg",
-      "descobertaEm": "2026-10-21T16:18:38.811Z",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-diz-que-abre-sigilo-se-lula-abrir-o-de-marcola-e-critica-ministros-do-stf.shtml",
+      "dataFonte": "2026-10-21T18:12:00.000Z",
+      "resumoFonte": "Em seu último evento em São Paulo antes do segundo turno, o senador Flávio Bolsonaro ( PL ) fez críticas a ministros do STF (Supremo Tribunal Federal), especialmente Alexandre de Moraes , prometeu prisão de oito anos para ladrões de celular e, imitando de forma debochada o presidente Lula ( PT ), seu adversário, disse que aceitaria o desafio de…",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/21/17926051406ad8fbd40c7ff_1792605140_3x2_rt.jpg",
+      "descobertaEm": "2026-10-21T18:18:31.333Z",
       "reportagem": {
-        "titulo": "Lula mira aumento na rejeição de Flávio Bolsonaro na reta final com pressão por abertura de sigilo",
-        "slug": "lula-mira-aumento-na-rejeicao-de-flavio-bolsonaro-na-reta-final-com-pressao-por-abertura-d",
+        "titulo": "Flávio Bolsonaro diz que abre sigilo se Lula abrir o de Marcola, e campanha formaliza condição ao TSE",
+        "slug": "flavio-bolsonaro-diz-que-abre-sigilo-se-lula-abrir-o-de-marcola-e-campanha-formaliza-condi",
+        "categoria": "Justiça",
+        "data": "2026-10-21",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/flavio-bolsonaro-diz-que-abre-sigilo-se-lula-abrir-o-de-marcola-e-campanha-formaliza-condi.jpg",
+        "resumo": "Senador diz que abrirá sigilo fiscal e telefônico caso Lula abra dados de Marcola, seu ex-assessor",
+        "conteudo": "<p>Em seu último evento em São Paulo antes do segundo turno, o senador Flávio Bolsonaro ( PL ) fez críticas a ministros do STF (Supremo Tribunal Federal) e disse que aceitaria o desafio de abrir seus sigilos fiscal e telefônico caso Lula (PT) abrisse também as informações de seu ex-assessor Marco Aurélio Santana Ribeiro, o Marcola.</p><h2>Marcola, que foi chefe de gabinete da Presidência, aceitou</h2><p>Segundo a Polícia Federal, Marcola, que foi chefe de gabinete da Presidência, aceitou dinheiro da lobista Roberta Luchsinger, amiga de Fábio Luís Lula da Silva, o Lulinha, enquanto ela tentava negociar contratos com o governo federal que não foram concretizados.</p><p>A condição de Flávio também foi declarada em resposta de sua campanha ao TSE (Tribunal Superior Eleitoral). Em petição, a equipe jurídica de Flávio diz que ele \"não se limita a aceitar o desafio, mas o leva às suas últimas consequências\".</p><p>Na terça-feira (20), a campanha de Lula oficializou, por meio de um documento entregue ao TSE, a proposta de abrir os sigilos bancário, fiscal e telefônico caso Flávio faça o mesmo.</p><h2>Estratégia do petista era uma resposta às acusações</h2><p>A estratégia do petista era uma resposta às acusações de corrupção feitas pelo bolsonarista. A princípio, auxiliares de Flávio afirmaram que o candidato não aceitaria o desafio, mas recuaram nesta quarta.</p><p>Nesta quarta, durante um discurso, o candidato do PL imitou Lula, falando com voz rouca e língua presa, ao falar sobre o desafio. Depois, disse: \"O Lula nem tem celular. Como ele quer abrir o sigilo telefônico dele?\"</p><p>\"Só que eu não só vou aceitar o desafio como vou levar às últimas consequências\", disse o candidato. \"Eu abro meu sigilo de telefone, sim, mas o Marcola tem que abrir o dele\".</p><p>O candidato também fez ataques ao filho do presidente. \"Lula, não me confunda com seu filho. Eu sou filho de Bolsonaro. Não sou ladrão igual seu filho.\"</p><p>Flávio participou de um evento em um salão de eventos em Guarulhos, na Grande São Paulo, organizado por seu partido.</p><p>O governador Tarcísio de Freitas (Republicanos), os senadores eleitos André do Prado (PL) e Guilherme Derrite (PL) e os deputados federais Rosana Vale (PL), reeleita, e Lucas Pavanato (PL), eleito pela primeira vez à Câmara, também discursaram.</p><p>O espaço do encontro tem capacidade para 7 mil pessoas e estava todo ocupado.</p><p>Tanto Flávio quanto André do Prado e Pavanato fizeram referências ao STF e ao ministro Moraes, desafeto dos petistas. O deputado eleito afirmou que a \"mamata vai acabar\" para o ministro.</p><p>André do Prado disse que, na próxima legislatura, seria possível fazer impeachment de ministros.</p><p>Já Flávio, além de ataques a Moraes, afirmou que os ministros do Supremo queriam \"liberar o aborto\" no país, em referência a um julgamento iniciado em 2017, decorrente de uma ação do PSOL ainda em andamento e que descriminaliza a interrupção da gravidez até a décima segunda semana de gestação.</p><p>\"Eles querem assassinar crianças no ventre das mães até 12 anos [meses] de idade. Eu acabei de pegar um bebezinho no colo aqui. Desde a concepção, tem vida no ventre das mães e é isso que a gente vai defender\", afirmou.</p><p>Sobre Moraes, ele disse: \"O Lula teve que compartilhar sua Presidência com Alexandre de Moraes, porque ele deve a eleição dele ao Alexandre de Moraes em 2022.</p><p>Se não fosse o Alexandre de Moraes, Lula, você não estava sentado nessa cadeira. Aí teve que compartilhar o poder\", disse o candidato.</p><p>\"E [Lula] aí começou a colocar os amigos dele no Supremo. Vocês lembram que, nos debates, ele falava que não ia colocar amigo dele no Supremo. Colocou os amigos dele no Supremo.</p><p>Só que a gente não vai deixar ele colocar mais quatro Alexandre de Moraes lá não, porque a gente vai colocar lá pessoas corretas, homens e mulheres que respeitam a Constituição, que sejam contra as drogas, que sejam contra o aborto\".</p><p>A peça da defesa de Flávio lista uma série de exigências em relação a Lula para afirmar que, se o petista apresentar esses documentos pedidos, o candidato do PL também abre seus sigilos.</p><p>Flávio, por sua vez, se compromete a entregar seus sigilos bancário, fiscal e telefônico relativos aos últimos 20 anos e também os sigilos de seus familiares e de empresas em seu nome.</p><p>\"O senador também não se opõe ao levantamento do sigilo de todas as mensagens que trocou com o banqueiro Daniel Vorcaro\", diz a peça.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-diz-que-abre-sigilo-se-lula-abrir-o-de-marcola-e-critica-ministros-do-stf.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Em seu último evento em São Paulo antes do segundo turno, o senador Flávio Bolsonaro ( PL ) fez críticas a ministros do STF (Supremo Tribunal Federal) e disse que aceitaria o desafio de abrir seus sigilos fiscal e telefônico caso Lula (PT) abrisse também as informações de seu ex-assessor Marco Aurélio Santana Ribeiro, o Marcola."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Segundo a Polícia Federal, Marcola, que foi chefe de gabinete da Presidência, aceitou dinheiro da lobista Roberta Luchsinger, amiga de Fábio Luís Lula da Silva, o Lulinha, enquanto ela tentava negociar contratos com o governo federal que não foram concretizados."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A condição de Flávio também foi declarada em resposta de sua campanha ao TSE (Tribunal Superior Eleitoral). Em petição, a equipe jurídica de Flávio diz que ele \"não se limita a aceitar o desafio, mas o leva às suas últimas consequências\"."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Na terça-feira (20), a campanha de Lula oficializou, por meio de um documento entregue ao TSE, a proposta de abrir os sigilos bancário, fiscal e telefônico caso Flávio faça o mesmo. A estratégia do petista era uma resposta às acusações de corrupção feitas pelo bolsonarista. A princípio, auxiliares de Flávio afirmaram que o candidato não aceitaria o desafio, "
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Nesta quarta, durante um discurso, o candidato do PL imitou Lula, falando com voz rouca e língua presa, ao falar sobre o desafio. Depois, disse: \"O Lula nem tem celular. Como ele quer abrir o sigilo telefônico dele?\""
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/21/17926051406ad8fbd40c7ff_1792605140_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/flavio-bolsonaro-diz-que-abre-sigilo-se-lula-abrir-o-de-marcola-e-campanha-formaliza-condi.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "c3d469c565b5534e",
+      "titulo": "A 4 dias do 2º turno, Lula sanciona perdão de dívidas de MEIs",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/a-4-dias-do-2o-turno-lula-sanciona-perdao-de-dividas-de-meis/",
+      "dataFonte": "2026-10-21T17:50:18.000Z",
+      "resumoFonte": "O presidente Luiz Inácio Lula da Silva sancionou nesta quarta-feira, 21, a quatro dias do segundo turno, a lei que perdoa dívidas de microempreendedores individuais (MEIs) com a União. A medida aumenta o limite anual de faturamento da categoria para até R$ 140 mil. Aprovado pela Câmara e pelo Senado na semana passada, o pacote entrega ao candidato…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/55593269713_ba5da2dfed_o-910x568.jpg.webp",
+      "descobertaEm": "2026-10-21T18:18:31.333Z",
+      "reportagem": {
+        "titulo": "A 4 dias do 2º turno, Lula sanciona perdão de dívidas de MEIs",
+        "slug": "a-4-dias-do-2-turno-lula-sanciona-perdao-de-dividas-de-meis",
         "categoria": "Política Nacional",
         "data": "2026-10-21",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-mira-aumento-na-rejeicao-de-flavio-bolsonaro-na-reta-final-com-pressao-por-abertura-d.jpg",
-        "resumo": "Petista tem tido dificuldade para aumentar a própria popularidade",
-        "conteudo": "<p>O presidente Lula ( PT ) mira um aumento na rejeição do senador Flávio Bolsonaro ( PL -RJ), seu adversário no segundo turno da eleição presidencial, ao martelar o desafio da abertura dos sigilos na reta final da disputa.</p><h2>Petista se comprometeu a abrir os sigilos bancário, fiscal</h2><p>O petista se comprometeu a abrir os sigilos bancário, fiscal e telefônico de si mesmo e de pessoas físicas e jurídicas às quais é ligado caso o senador faça o mesmo.</p><p>A proposta de Lula foi lançada no último domingo (18), durante o debate da TV Band. A campanha do presidente da República avalia que, ao não aceitar o desafio, Flávio se desgastou junto ao eleitorado.</p><p>A tática deverá ser repetida no debate da Globo, o de maior audiência, marcado para dois dias antes da votação. Aliados de Lula acreditam que o senador não aceitará abrir os sigilos.</p><h2>Presidente da República tem tido dificuldades para incrementar</h2><p>O presidente da República tem tido dificuldades para incrementar a própria popularidade, por isso precisa aumentar a rejeição do adversário para ganhar a eleição.</p><p>Lula terminou o primeiro turno com cerca de 45% dos votos válidos , atrás dos 47% de Flávio Bolsonaro.</p><p>Desde 1988, quando o segundo turno foi instituído no Brasil, nunca um candidato a presidente que terminou a primeira votação como segundo colocado conseguiu virar na etapa decisiva.</p><p>Na terça-feira (20), Lula entregou ao TSE (Tribunal Superior Eleitoral) um documento assinado em que formaliza o desafio ao adversário.</p><p>\"Em toda eleição inventam alguma coisa contra a minha família e resolvi não ficar quieto.</p><p>Esta é a minha última disputa eleitoral, e eu não posso deixar que um ladrão tente jogar a minha biografia no lixo\", declarou o presidente na segunda-feira (19), em Porto Alegre.</p><p>Na terça, um dos porta-vozes da campanha de Lula, o senador Camilo Santana (PT-CE), disse ter em mãos as procurações dos filhos e netos maiores de 18 anos do presidente em que autorizam a abertura de seus sigilos.</p><p>Questionado sobre por que não abrir o sigilo independentemente de Flávio, o ex-ministro respondeu que a proposta é um desafio lançado contra o adversário. \"Se o presidente devesse alguma coisa não estava fazendo isso.</p><p>Faz isso quem não deve nada a ninguém.\" A relatoria da abertura do sigilo no TSE coube ao ministro André Mendonça . \"Que ele possa agir com imparcialidade\", disse Camilo.</p><p>O porta-voz também foi questionado se Lula também abrirá o sigilo do cartão corporativo do governo. Ele afirmou não ver problema, mas disse que não conversou sobre essa possibilidade com Lula.</p><p>No mesmo dia, o presidente disse, durante passagem por Juazeiro (BA) e Petrolina (PE), que só iria ao debate se Flávio também abrisse o sigilo.</p><p>\"Se ele apresentar o documento autorizando quebrar o sigilo, vai ter debate. Porque se não, ele não pode ir no debate porque o presidente da República não pode debater com ladrão\", disse.</p><p>Antes do evento, o presidente havia dito que Flávio não teria coragem de abrir os dados.</p><p>\"Nem [o sigilo] telefônico nem a conta bancária, e não vai ter coragem de abrir nem como pessoa física nem como pessoa jurídica, porque ele sabe que a vida dele é podre em se tratando de honestidade.\"</p><p>No documento em que formaliza a proposta ao TSE, Lula diz que, além do próprio sigilo, divulgará informações de sua mulher, Rosângela Lula da Silva, a Janja; e de seus filhos Lurian Cordeiro Lula da Silva, Marcos Cláudio Lula da Silva, Fábio Luís Lula da Silva (conhecido como Lulinha), Sandro Luís Lula da Silva e Luís Claudio Lula da Silva.</p><p>O chefe do governo também incluiu na lista de abertura de sigilos a L.I.L.S., empresa de palestras que, de acordo com o documento, é a única da qual o petista é sócio.</p><p>A proposta do petista é que, do lado de Flávio, sejam abertos os sigilos do próprio senador; de seu pai, Jair Bolsonaro ; de sua mãe, Rogéria Bolsonaro; de seus irmãos Carlos Bolsonaro , Eduardo Bolsonaro e Jair Renan Bolsonaro; e de sua mulher, Fernanda Bolsonaro.</p><p>Também inclui cinco empresas com as quais o candidato do PL teria relação.</p><p>O documento em que Lula formaliza o desafio afirma que a abertura dos dados precisaria ser feita até esta quarta-feira (21).</p><p>\"[A medida até esta data] é fundamental para que a população brasileira seja devidamente informada e possa decidir livremente em quem vai votar\", afirma o texto.</p><p>Mais de 180 reportagens e análises publicadas a cada dia. Um time com mais de 200 colunistas e blogueiros.</p><p>Um jornalismo profissional que fiscaliza o poder público, veicula notícias proveitosas e inspiradoras, faz contraponto à intolerância das redes sociais e traça uma linha clara entre verdade e mentira.</p><p>O presidente Lula ( PT ) mira um aumento na rejeição do senador Flávio Bolsonaro ( PL -RJ), seu adversário no segundo turno da eleição presidencial, ao martelar o desafio da abertura dos sigilos na reta final da disputa.</p><p>O petista se comprometeu a abrir os sigilos bancário, fiscal e telefônico de si mesmo e de pessoas físicas e jurídicas às quais é ligado caso o senador faça o mesmo.</p><p>Acompanhe na Folha em tempo real a apuração do 2º turno das eleições A proposta de Lula foi lançada no último domingo (18), durante o debate da TV Band.</p><p>A campanha do presidente da República avalia que, ao não aceitar o desafio, Flávio se desgastou junto ao eleitorado.</p><p>A tática deverá ser repetida no debate da Globo, o de maior audiência, marcado para dois dias antes da votação. Aliados de Lula acreditam que o senador não aceitará abrir os sigilos.</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/lula-mira-aumento-na-rejeicao-de-flavio-bolsonaro-na-reta-final-com-pressao-por-abertura-de-sigilo.shtml",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/a-4-dias-do-2-turno-lula-sanciona-perdao-de-dividas-de-meis.jpg",
+        "resumo": "Pacote aprovado em dois dias no Congresso eleva teto de faturamento para R$ 140 mil e reforça acenos do petista aos pequenos empreendedores",
+        "conteudo": "<p>Jornalista formada pela Universidade Católica de Brasília, atua na cobertura do Congresso Nacional e do Palácio do Planalto pela Revista Oeste. Antes, fez parte das redações de Poder360, Correio Braziliense, Alô Brasília e Aqui DF. Também foi editora na TV Brasília.</p><h2>• O presidente Luiz Inácio Lula da Silva sancionou</h2><p>• O presidente Luiz Inácio Lula da Silva sancionou uma lei que perdoa dívidas de microempreendedores individuais (MEIs) com a União e eleva o limite de faturamento anual para R$ 140 mil.</p><p>• A medida, aprovada pelo Congresso na semana anterior, visa a fortalecer a campanha de reeleição de Lula contra Flávio Bolsonaro.</p><p>• O perdão abrange débitos até 13 de outubro de 2026, e os MEIs devem manter os pagamentos em dia para se beneficiarem.</p><h2>Presidente Luiz Inácio Lula da Silva sancionou nesta quarta-feira,</h2><p>O presidente Luiz Inácio Lula da Silva sancionou nesta quarta-feira, 21, a quatro dias do segundo turno, a lei que perdoa dívidas de microempreendedores individuais (MEIs) com a União. A medida aumenta o limite anual de faturamento da categoria para até R$ 140 mil.</p><p>Aprovado pela Câmara e pelo Senado na semana passada, o pacote entrega ao candidato à reeleição uma medida de apelo econômico na reta final da disputa contra Flávio Bolsonaro (PL) pela Presidência da República.</p><p>A sanção ocorreu em cerimônia no Palácio do Planalto. As iniciativas voltadas aos MEIs integram a estratégia da campanha para reduzir a resistência ao governo entre eleitores que trabalham por conta própria e mantêm pequenos negócios.</p><p>+ Alcolumbre prorroga medidas provisórias que ajudam o governo Lula</p><p>O calendário concentra os anúncios no intervalo entre os dois turnos. Lula apresentou o programa Prospera MEI em 13 de outubro. No dia seguinte, os deputados aprovaram o texto por 461 votos a 4.</p><p>Em 15 de outubro, o Senado concluiu a votação com 78 votos favoráveis e nenhum contrário.</p><p>O projeto que amplia o teto de faturamento havia sido enviado pelo Executivo em junho. Na Câmara, o relator Rubens Pereira Júnior (PT-MA) reuniu essa proposta e o projeto de perdão de dívidas em um substitutivo, aprovado na semana passada.</p><p>Durante a análise no Senado, Carlos Portinho (PL-RJ) e Rogério Marinho (PL-RN) acusaram o governo de explorar eleitoralmente uma atualização que, segundo eles, estava atrasada. A crítica não impediu o apoio unânime dos senadores ao texto.</p><p>A rapidez das votações permitiu ao Planalto formalizar os benefícios antes da eleição, embora as principais mudanças tenham aplicação prevista para 2027.</p><p>Um post compartilhado por Sarah Peres (@sarahperes2)</p><p>A lei contempla débitos tributários federais de responsabilidade dos MEIs, inscritos ou não na Dívida Ativa da União até 13 de outubro de 2026.</p><p>O benefício abrange contribuições previdenciárias em atraso, juros, multas e encargos, inclusive saldos de dívidas parceladas ou cobradas judicialmente.</p><p>Para manter o perdão, o empreendedor deve pagar em dia as contribuições mensais nos seis meses seguintes à entrada em vigor da norma, em 1º de janeiro de 2027. Valores já pagos não serão devolvidos.</p><p>Quem contestar os débitos na Justiça deverá desistir das ações para obter a baixa definitiva.</p><p>Na cerimônia, Lula justificou a medida pela dificuldade de recuperar os créditos: “É um dinheiro que a gente sabia que não ia receber”.</p><p>O perdão tem custo para os cofres públicos. A estimativa apresentada pelo Executivo durante a tramitação apontava renúncia de aproximadamente R$ 3 bilhões entre 2027 e 2029 — valor correspondente à arrecadação que o governo esperava recuperar, e não ao estoque total das dívidas canceladas.</p><p>O limite anual de faturamento passará dos atuais R$ 81 mil para R$ 110 mil em 2027 e chegará a R$ 140 mil em 2028. A legislação também amplia de um para dois o número de empregados que o MEI poderá contratar, com remuneração de um salário mínimo ou do piso da categoria.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/a-4-dias-do-2o-turno-lula-sanciona-perdao-de-dividas-de-meis/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -107,52 +323,172 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O presidente Lula ( PT ) mira um aumento na rejeição do senador Flávio Bolsonaro ( PL -RJ), seu adversário no segundo turno da eleição presidencial, ao martelar o desafio da abertura dos sigilos na reta final da disputa. O petista se comprometeu a abrir os sigilos bancário, fiscal e telefônico de si mesmo e de pessoas físicas e jurídicas às quais é ligado ca"
+            "resposta": "Jornalista formada pela Universidade Católica de Brasília, atua na cobertura do Congresso Nacional e do Palácio do Planalto pela Revista Oeste. Antes, fez parte das redações de Poder360, Correio Braziliense, Alô Brasília e Aqui DF. Também foi editora na TV Brasília."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A proposta de Lula foi lançada no último domingo (18), durante o debate da TV Band. A campanha do presidente da República avalia que, ao não aceitar o desafio, Flávio se desgastou junto ao eleitorado. A tática deverá ser repetida no debate da Globo, o de maior audiência, marcado para dois dias antes da votação. Aliados de Lula acreditam que o senador não ace"
+            "resposta": "• O presidente Luiz Inácio Lula da Silva sancionou uma lei que perdoa dívidas de microempreendedores individuais (MEIs) com a União e eleva o limite de faturamento anual para R$ 140 mil. • A medida, aprovada pelo Congresso na semana anterior, visa a fortalecer a campanha de reeleição de Lula contra Flávio Bolsonaro. • O perdão abrange débitos até 13 de outub"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O presidente da República tem tido dificuldades para incrementar a própria popularidade, por isso precisa aumentar a rejeição do adversário para ganhar a eleição. Lula terminou o primeiro turno com cerca de 45% dos votos válidos , atrás dos 47% de Flávio Bolsonaro. Desde 1988, quando o segundo turno foi instituído no Brasil, nunca um candidato a presidente q"
+            "resposta": "O presidente Luiz Inácio Lula da Silva sancionou nesta quarta-feira, 21, a quatro dias do segundo turno, a lei que perdoa dívidas de microempreendedores individuais (MEIs) com a União. A medida aumenta o limite anual de faturamento da categoria para até R$ 140 mil."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Na terça-feira (20), Lula entregou ao TSE (Tribunal Superior Eleitoral) um documento assinado em que formaliza o desafio ao adversário. \"Em toda eleição inventam alguma coisa contra a minha família e resolvi não ficar quieto. Esta é a minha última disputa eleitoral, e eu não posso deixar que um ladrão tente jogar a minha biografia no lixo\", declarou o presid"
+            "resposta": "Aprovado pela Câmara e pelo Senado na semana passada, o pacote entrega ao candidato à reeleição uma medida de apelo econômico na reta final da disputa contra Flávio Bolsonaro (PL) pela Presidência da República."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Na terça, um dos porta-vozes da campanha de Lula, o senador Camilo Santana (PT-CE), disse ter em mãos as procurações dos filhos e netos maiores de 18 anos do presidente em que autorizam a abertura de seus sigilos. Questionado sobre por que não abrir o sigilo independentemente de Flávio, o ex-ministro respondeu que a proposta é um desafio lançado contra o adv"
+            "resposta": "A sanção ocorreu em cerimônia no Palácio do Planalto. As iniciativas voltadas aos MEIs integram a estratégia da campanha para reduzir a resistência ao governo entre eleitores que trabalham por conta própria e mantêm pequenos negócios."
           }
         ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/09/18/17897410076aad47cf8eed4_1789741007_3x2_rt.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-mira-aumento-na-rejeicao-de-flavio-bolsonaro-na-reta-final-com-pressao-por-abertura-d.jpg",
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/55593269713_ba5da2dfed_o-910x568.jpg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/a-4-dias-do-2-turno-lula-sanciona-perdao-de-dividas-de-meis.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "ddc9716fda3e7ab5",
-      "titulo": "Governo fecha cerco aos créditos de reciclagem de embalagens plásticas",
+      "id": "4f7493130ed0404c",
+      "titulo": "Alcolumbre prorroga medidas provisórias que ajudam o governo Lula",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/alcolumbre-prorroga-medidas-provisorias-que-ajudam-o-governo-lula/",
+      "dataFonte": "2026-10-21T17:31:14.000Z",
+      "resumoFonte": "O presidente do Congresso, senador Davi Alcolumbre (União-AP), prorrogou por 60 dias três medidas provisórias que sustentam ações do governo Luiz Inácio Lula da Silva de apoio a exportadores e ao setor de combustíveis. Os textos mantêm autorizações de R$ 10,1 bilhões em créditos e auxílio financeiro, além da extensão da suspensão de tributos para…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/lula-e-alcolumbre-910x540.jpeg.webp",
+      "descobertaEm": "2026-10-21T18:18:31.333Z",
+      "reportagem": {
+        "titulo": "Alcolumbre prorroga medidas provisórias que ajudam o governo",
+        "slug": "alcolumbre-prorroga-medidas-provisorias-que-ajudam-o-governo",
+        "categoria": "Política Nacional",
+        "data": "2026-10-21",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/alcolumbre-prorroga-medidas-provisorias-que-ajudam-o-governo.jpg",
+        "resumo": "Textos garantem R$ 10 bilhões em créditos e auxílio financeiro ao setor de combustíveis",
+        "conteudo": "<p>Jornalista formada pela Universidade Católica de Brasília, atua na cobertura do Congresso Nacional e do Palácio do Planalto pela Revista Oeste. Antes, fez parte das redações de Poder360, Correio Braziliense, Alô Brasília e Aqui DF. Também foi editora na TV Brasília.</p><h2>• O presidente do Congresso Nacional, Davi Alcolumbre, prorrogou</h2><p>• O presidente do Congresso Nacional, Davi Alcolumbre, prorrogou por 60 dias três medidas provisórias que apoiam ações do governo Lula.</p><p>• As medidas mantêm R$ 10,1 bilhões em créditos e auxílio financeiro, além da suspensão de tributos para empresas afetadas por tarifas dos EUA.</p><p>• A MP 1.387/2026 destina R$ 7 bilhões para exportadores, enquanto a MP 1.386/2026 prorroga a suspensão de tributos para empresas do regime drawback.</p><h2>Presidente do Congresso Nacional, senador Davi Alcolumbre (União-AP), prorrogou</h2><p>O presidente do Congresso Nacional, senador Davi Alcolumbre (União-AP), prorrogou por 60 dias três medidas provisórias que sustentam ações do governo do presidente Luiz Inácio Lula da Silva de apoio a exportadores e ao setor de combustíveis.</p><p>Os textos mantêm autorizações de R$ 10,1 bilhões em créditos e auxílio financeiro, além da extensão da suspensão de tributos para empresas afetadas pelas tarifas dos Estados Unidos.</p><p>A decisão dá mais prazo ao Congresso para analisar as propostas e preserva a vigência das medidas editadas pelo Executivo.</p><p>Do total autorizado, R$ 7 bilhões são destinados ao financiamento de exportadores e fornecedores, enquanto R$ 3,1 bilhões correspondem a subsídios para produtores e importadores de combustíveis.</p><p>A Medida Provisória (MP) 1.387/2026 abriu crédito extraordinário de R$ 7 bilhões para financiar exportadores e seus fornecedores.</p><p>Segundo dados do Sistema Integrado de Planejamento e Orçamento (Siop), o governo já empenhou integralmente o valor destinado ao fundo responsável pelas operações.</p><p>Já a MP 1.386/2026 permite estender por um ano a suspensão de tributos de empresas enquadradas no drawback , regime que suspende a cobrança sobre insumos utilizados na fabricação de produtos destinados à exportação.</p><p>O benefício exige que o prazo original termine de 22 de julho a 31 de dezembro de 2026, tenha sido prorrogado anteriormente e ainda esteja com o procedimento de encerramento em análise pelo governo.</p><p>A extensão também alcança fabricantes de produtos intermediários utilizados pelos exportadores.</p><p>A terceira medida prorrogada, a MP 1.388/2026, autoriza a destinação de R$ 3,1 bilhões em subvenções a produtores e importadores de combustíveis.</p><p>O texto integra um conjunto de oito medidas provisórias que preveem R$ 34,9 bilhões adicionais para conter os efeitos do conflito no Oriente Médio sobre os preços da gasolina, do diesel, do gás de cozinha e da querosene de aviação.</p><p>Conforme o levantamento no Siop, ainda há R$ 1,8 bilhão disponível para destinação em subvenções.</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/alcolumbre-prorroga-medidas-provisorias-que-ajudam-o-governo-lula/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Jornalista formada pela Universidade Católica de Brasília, atua na cobertura do Congresso Nacional e do Palácio do Planalto pela Revista Oeste. Antes, fez parte das redações de Poder360, Correio Braziliense, Alô Brasília e Aqui DF. Também foi editora na TV Brasília."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "• O presidente do Congresso Nacional, Davi Alcolumbre, prorrogou por 60 dias três medidas provisórias que apoiam ações do governo Lula. • As medidas mantêm R$ 10,1 bilhões em créditos e auxílio financeiro, além da suspensão de tributos para empresas afetadas por tarifas dos EUA. • A MP 1.387/2026 destina R$ 7 bilhões para exportadores, enquanto a MP 1.386/20"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O presidente do Congresso Nacional, senador Davi Alcolumbre (União-AP), prorrogou por 60 dias três medidas provisórias que sustentam ações do governo do presidente Luiz Inácio Lula da Silva de apoio a exportadores e ao setor de combustíveis."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Os textos mantêm autorizações de R$ 10,1 bilhões em créditos e auxílio financeiro, além da extensão da suspensão de tributos para empresas afetadas pelas tarifas dos Estados Unidos."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A decisão dá mais prazo ao Congresso para analisar as propostas e preserva a vigência das medidas editadas pelo Executivo. Do total autorizado, R$ 7 bilhões são destinados ao financiamento de exportadores e fornecedores, enquanto R$ 3,1 bilhões correspondem a subsídios para produtores e importadores de combustíveis."
+          }
+        ],
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/lula-e-alcolumbre-910x540.jpeg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/alcolumbre-prorroga-medidas-provisorias-que-ajudam-o-governo.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "ee7db478c08b7a2b",
+      "titulo": "Líder do PSB declara apoio a Motta e partido negocia federação com PDT",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-congresso/lider-do-psb-declara-apoio-a-motta-e-partido-negocia-federacao-com-pdt/",
+      "dataFonte": "2026-10-21T17:59:38.000Z",
+      "resumoFonte": "Donizette vê João Campos em governo Lula e espera apoio do PSB a reeleição de Alcolumbre",
+      "imagem": "https://static.poder360.com.br/uploads/2026/10/Design-sem-nome-79-1200x675.jpg",
+      "descobertaEm": "2026-10-21T18:18:31.333Z",
+      "reportagem": {
+        "titulo": "Líder do PSB sinaliza apoio a Motta e partido negocia federação com PDT",
+        "slug": "lider-do-psb-sinaliza-apoio-a-motta-e-partido-negocia-federacao-com-pdt",
+        "categoria": "Política Nacional",
+        "data": "2026-10-21",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/lider-do-psb-sinaliza-apoio-a-motta-e-partido-negocia-federacao-com-pdt.jpg",
+        "resumo": "Donizette vê João Campos em eventual governo Lula e espera que senadores do PSB apoiem à reeleição de Alcolumbre. Leia no Poder360.",
+        "conteudo": "<p>Donizette vê João Campos em governo Lula e espera apoio do PSB a reeleição de Alcolumbre</p><h2>Líder do PSB na Câmara, Jonas Donizette (SP), disse</h2><p>O líder do PSB na Câmara, Jonas Donizette (SP), disse em entrevista ao Poder360 que “existe uma simpatia grande” para a reeleição de Hugo Motta (Republicanos-PB) à presidência da Câmara dos Deputados e afirmou que o deputado é favorito na disputa.</p><p>O líder declarou que o partido negocia uma federação com o PDT. Segundo o deputado, a união ampliaria a bancada de 15 para 21 deputados e fortaleceria a presença nacional das siglas.</p><p>O apoio formal à recondução de Motta é um dos temas da reunião da bancada desta 4ª feira (21.out.2026).</p><h2>Sobre o Senado, afirmou que espera que os senadores</h2><p>Sobre o Senado, afirmou que espera que os senadores do partido apoiem a reeleição de Davi Alcolumbre (União Brasil-AP), embora avalie que o atual presidente enfrenta dificuldades diante da disputa com Rogério Marinho (PL-RN) e Tereza Cristina (PP-MS).</p><p>Donizette também comentou o futuro político de João Campos , presidente nacional do PSB, depois da derrota na disputa pelo governo de Pernambuco.</p><p>Para o deputado, Campos poderá ocupar um cargo em um eventual novo governo de Luiz Inácio Lula da Silva (PT), como um ministério.</p><p>Ele atribuiu o resultado eleitoral à vantagem da governadora Raquel Lyra (PSD), que disputou a reeleição no exercício do mandato.</p><p>Poder360: O partido vai apoiar a reeleição de Hugo Motta para a presidência da Câmara? E como o senhor avalia a disputa no Senado?</p><p>Jonas Donizette — Vamos decidir hoje. Da minha parte, existe uma simpatia grande para o partido apoiar Motta. Hoje vejo Hugo Motta como favorito à reeleição. A situação na Câmara está mais encaminhada, e não vejo um adversário consolidado.</p><p>No Senado, Davi Alcolumbre terá mais dificuldades. Rogério Marinho, do PL, e Tereza Cristina, da federação União Progressista, são nomes colocados na disputa.</p><p>Alcolumbre não é uma carta fora do baralho, já presidiu a Casa, mas a situação é mais complicada, principalmente depois dos movimentos pró-Lula, como pautar o fim da escala 6 X 1.</p><p>Alcolumbre é muito experiente para fazer um cálculo sem considerar os riscos. Pode estar contando com os votos do PT e de outros grupos. Mas o que eu vejo é a situação da Câmara mais uníssona do que no Senado.</p><p>Qual é o balanço do 1º turno e quais são as expectativas para a disputa presidencial?</p><p>Foi uma eleição atípica por várias razões, principalmente pela atuação dos influenciadores. Eles tiveram efeitos diferentes em cada região e em cada Estado.</p><p>Já existe uma movimentação política para discutir um novo modelo eleitoral e uma possível reforma política, mas ainda está na fase de conversas.</p><p>Minha avaliação é que houve fortalecimento da direita e perda de espaço do centro. Muitos partidos esperavam eleger bancadas maiores, mas mantiveram seus números ou até diminuíram. Ainda assim, o centro continua tendo força.</p><p>Para o PSB, fomos de 14 para 15 deputados, superamos a cláusula de barreira e ampliamos a participação feminina: um terço da nossa bancada é formado por mulheres.</p><p>Em que estágio estão as negociações para uma federação entre PSB e PDT?</p><p>O partido que está mais próximo é o PDT. Quem está se dedicando mais ao processo é o presidente do PSB, João Campos.</p><p>A federação nos interessaria muito porque ampliaria a bancada e fortaleceria o partido nacionalmente. Passaríamos de 15 para 21 deputados. O PDT tem força em Estados como o Rio Grande do Sul e em outras regiões, o que daria mais capilaridade à união.</p><p>Os 2 partidos já estiveram perto de se juntar no passado, mas a negociação não avançou por detalhes. Agora, a conversa pode ser mais simples porque o PDT não atingiu a cláusula de barreira.</p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-congresso/lider-do-psb-declara-apoio-a-motta-e-partido-negocia-federacao-com-pdt/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Donizette vê João Campos em governo Lula e espera apoio do PSB a reeleição de Alcolumbre"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O líder do PSB na Câmara, Jonas Donizette (SP), disse em entrevista ao Poder360 que “existe uma simpatia grande” para a reeleição de Hugo Motta (Republicanos-PB) à presidência da Câmara dos Deputados e afirmou que o deputado é favorito na disputa. O líder declarou que o partido negocia uma federação com o PDT. Segundo o deputado, a união ampliaria a bancada "
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O apoio formal à recondução de Motta é um dos temas da reunião da bancada desta 4ª feira (21.out.2026). Sobre o Senado, afirmou que espera que os senadores do partido apoiem a reeleição de Davi Alcolumbre (União Brasil-AP), embora avalie que o atual presidente enfrenta dificuldades diante da disputa com Rogério Marinho (PL-RN) e Tereza Cristina (PP-MS)."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Donizette também comentou o futuro político de João Campos , presidente nacional do PSB, depois da derrota na disputa pelo governo de Pernambuco. Para o deputado, Campos poderá ocupar um cargo em um eventual novo governo de Luiz Inácio Lula da Silva (PT), como um ministério. Ele atribuiu o resultado eleitoral à vantagem da governadora Raquel Lyra (PSD), que "
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Poder360: O partido vai apoiar a reeleição de Hugo Motta para a presidência da Câmara? E como o senhor avalia a disputa no Senado?"
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/Design-sem-nome-79-1200x675.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/lider-do-psb-sinaliza-apoio-a-motta-e-partido-negocia-federacao-com-pdt.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "812ea13e704c36eb",
+      "titulo": "Lula arrebenta a economia para permanecer no poder",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/economia/governo-fecha-cerco-aos-creditos-de-reciclagem-de-embalagens-plasticas/",
-      "dataFonte": "2026-10-21T17:00:55.000Z",
-      "resumoFonte": "Regulamentação exige rastreamento do material efetivamente utilizado pelas indústrias e cria desafios para fabricantes e cooperativas",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2025/08/A63A6929.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-10-21T17:18:42.964Z",
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/colunistas/alan-ghani/lula-arrebenta-a-economia-para-permanecer-no-poder/",
+      "dataFonte": "2026-10-21T18:24:27.000Z",
+      "resumoFonte": "Governo concedeu um aumento do bolsa família em pleno ano eleitoral, ferindo claramente a Lei de Responsabilidade Fiscal (LRF)",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/FTA20261018890.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-21T18:42:17.358Z",
       "reportagem": {
-        "titulo": "Governo fecha cerco aos créditos de reciclagem de embalagens plásticas",
-        "slug": "governo-fecha-cerco-aos-creditos-de-reciclagem-de-embalagens-plasticas",
+        "titulo": "Lula arrebenta a economia para permanecer no poder | Jovem Pan",
+        "slug": "lula-arrebenta-a-economia-para-permanecer-no-poder-jovem-pan",
         "categoria": "Economia",
         "data": "2026-10-21",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/governo-fecha-cerco-aos-creditos-de-reciclagem-de-embalagens-plasticas.jpg",
-        "resumo": "Regulamentação exige rastreamento do material efetivamente utilizado pelas indústrias e cria desafios para fabricantes e cooperativas",
-        "conteudo": "<p>Fabricantes e importadores de embalagens pl&aacute;sticas ter&atilde;o de comprovar a presen&ccedil;a efetiva de material reciclado em seus produtos, sem poder substituir essa obriga&ccedil;&atilde;o pela compra de cr&eacute;ditos de reciclagem.</p><h2>Exig&ecirc;ncia consta de uma portaria do Minist&eacute;rio do Meio</h2><p>A exig&ecirc;ncia consta de uma portaria do Minist&eacute;rio do Meio Ambiente que regulamentou a rastreabilidade do conte&uacute;do reciclado e criou o Sistema Nacional de Log&iacute;stica Reversa, o Sisrev-BR.</p><p>Pelas regras federais, as embalagens sujeitas &agrave; obriga&ccedil;&atilde;o devem incorporar um percentual m&iacute;nimo de 22% de material reciclado em 2026, &iacute;ndice que subir&aacute; para 24% em 2027 e chegar&aacute; a 30% em 2030.</p><p>A comprova&ccedil;&atilde;o do conte&uacute;do incorporado dever&aacute; observar a origem e a movimenta&ccedil;&atilde;o f&iacute;sica dos res&iacute;duos ao longo da cadeia produtiva.</p><h2>O que muda no bolso</h2><p>A Portaria 1.778, publicada em setembro, determina que cr&eacute;ditos ou certificados de cr&eacute;ditos n&atilde;o poder&atilde;o substituir o cumprimento das metas de conte&uacute;do reciclado.</p><p>A proibi&ccedil;&atilde;o n&atilde;o elimina os mecanismos de certifica&ccedil;&atilde;o previstos separadamente para a log&iacute;stica reversa, que trata da recupera&ccedil;&atilde;o das embalagens descartadas.</p><p>A nova sistem&aacute;tica exige informa&ccedil;&otilde;es sobre fornecedores, quantidades de material reciclado, notas fiscais e documentos de destina&ccedil;&atilde;o dos res&iacute;duos.</p><p>As empresas dever&atilde;o inserir os dados relativos a 2026 nas plataformas de rastreabilidade at&eacute; 30 de abril de 2027.</p><p>O prazo preocupa participantes do setor. Segundo Leonardo Lopes, diretor de Opera&ccedil;&otilde;es da Yatt&oacute;, empresa especializada em infraestrutura de economia circular, a qualifica&ccedil;&atilde;o de uma cadeia de fornecimento pode levar cerca de doze meses.</p><p>O risco &eacute; que fabricantes ainda n&atilde;o preparados tenham dificuldades para comprovar o cumprimento das metas.</p><p>A exig&ecirc;ncia tamb&eacute;m pode criar obst&aacute;culos para cooperativas de catadores, que precisar&atilde;o atender aos requisitos documentais e de rastreabilidade.</p><p>O desafio &eacute; especialmente sens&iacute;vel porque a pr&oacute;pria pol&iacute;tica federal de log&iacute;stica reversa prev&ecirc; a participa&ccedil;&atilde;o priorit&aacute;ria dessas organiza&ccedil;&otilde;es na recupera&ccedil;&atilde;o dos materiais.</p><p>A mudan&ccedil;a amplia a press&atilde;o por investimento em rastreabilidade, certifica&ccedil;&atilde;o e estrutura&ccedil;&atilde;o de fornecedores num setor que, segundo estudo da MaxiQuim para o PICPlast, gerou aproximadamente 5 milh&otilde;es de toneladas de res&iacute;duos pl&aacute;sticos p&oacute;s-consumo no pa&iacute;s em 2025.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/economia/governo-fecha-cerco-aos-creditos-de-reciclagem-de-embalagens-plasticas/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-arrebenta-a-economia-para-permanecer-no-poder-jovem-pan.jpg",
+        "resumo": "Governo concedeu um aumento do bolsa família em pleno ano eleitoral, ferindo claramente a Lei de Responsabilidade Fiscal (LRF)",
+        "conteudo": "<p>É impressionante o populismo eleitoral do governo Lula durante esta campanha. Somente em 2026 aproximadamente R$250 bilhões foram gastos para a expansão do consumo, auxílios governamentais e programas de renegociação de dívida.</p><h2>Como se não bastasse a torneira aberta do gasto</h2><p>Como se não bastasse a torneira aberta do gasto público, o governo concedeu um aumento do bolsa família em pleno ano eleitoral, ferindo claramente a Lei de Responsabilidade Fiscal (LRF), ao não garantir uma fonte permanente de receita a fim de custear o reajuste.</p><p>No cardápio do populismo, entra também o a PEC do fim da escala 6 por 1. O presidente do Senado, Davi Alcolumbre, coincidentemente colocou a matéria em votação às vésperas do 2º turno.</p><p>Com a aprovação da PEC, O objetivo é ajudar a eleger o presidente Lula e garantir a o comando do Czar do Amapá na presidência da Casa alta.</p><h2>Pouco importa as consequências dessa medida como</h2><p>Pouco importa as consequências dessa medida como elevação do desemprego, aumento da informalidade, escassez de mão de obra e alta dos preços das mercadorias, conforme alertado no artigo “O que ninguém fala sobre o fim da escala 6 x 1”.</p><p>A ideia é vender que a população vai trabalhar menos e ganhar o mesmo salário, sem sofrer nenhum efeito da mudança de incentivos dos agentes econômicos.</p><p>Depois da elevação brutal do gasto, aumento ilegal do bolsa família, alteração das relações de trabalho, sem a devida discussão com a sociedade, vem agora o perdão de dívidas de dívidas tributárias dos microempreendedores individuais.</p><p>A proposta é um escândalo por duas razões. A primeira é o rombo nas contas públicos. Com o perdão do passivo tributário, o governo deixa de arrecadar R$12 bilhões. A segunda é mais preocupante: é o incentivo ao calote.</p><p>Se a pessoa sabe que o governo vai perdoar o insolvente, então por que pagar impostos em dia?</p><p>No atual momento, o bom pagador deve estar se sentido um trouxa justamente sabendo que não ter pagado impostos em dia era uma opção financeiramente melhor.</p><p>O perdão de dívidas é um caso clássico em finanças de moral hazard , no qual cria-se um incentivo econômico perverso – nesse caso, o calote.</p><p>Esse é um dos motivos pelo qual a taxa de juros é tão elevada no Brasil. Como a inadimplência no Brasil é muito elevada, os bancos compensam esse risco com altas taxas de juros.</p><p>Não se trata de ganância, mas pura lógica econômica. Quanto maior o risco, maior a taxa de juros. Para piorar a situação, a justiça brasileira é pró devedor, trazendo impactos altistas na taxa de juros.</p><p>Descontrole fiscal e alta inadimplência – incentivada pelo governo (Desenrola, perdão de dívidas) e chancelada pela Justiça – são as principais causas das elevadas taxas de juros no Brasil, penalizando o consumo das famílias d e o investimento das empresas.</p><p>Mas essas questões estruturais não entram na lógica populista. É mais fácil expandir brutalmente o gasto público, perdoar dívidas e depois culpar o Banco Central por todas as desgraças causadas pelas medidas tomadas pelo próprio governo federal.</p><p>Lula, com sua lógica populista, destrói fundamentos econômicos para tentar ganhas as eleições Nada pelo país, tudo pela permanência do poder.</p><p>Governo concedeu um aumento do bolsa família em pleno ano eleitoral, ferindo claramente a Lei de Responsabilidade Fiscal (LRF)</p><p>Flávio diz que aceita abrir sigilo se Lula divulgar dados do cartão corporativo</p><p>Candidato do PL cobrou a abertura do sigilo telefônico do ex-chefe de gabinete do petista Marco Aurélio Santana Ribeiro</p><p>Suspensão do canal ‘Exército de Lula’: pau que bate em Chico, bate em Francisco</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/colunistas/alan-ghani/lula-arrebenta-a-economia-para-permanecer-no-poder/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil Economia",
@@ -167,76 +503,232 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Fabricantes e importadores de embalagens pl&aacute;sticas ter&atilde;o de comprovar a presen&ccedil;a efetiva de material reciclado em seus produtos, sem poder substituir essa obriga&ccedil;&atilde;o pela compra de cr&eacute;ditos de reciclagem. A exig&ecirc;ncia consta de uma portaria do Minist&eacute;rio do Meio Ambiente que regulamentou a rastreabilidade "
+            "resposta": "É impressionante o populismo eleitoral do governo Lula durante esta campanha. Somente em 2026 aproximadamente R$250 bilhões foram gastos para a expansão do consumo, auxílios governamentais e programas de renegociação de dívida. Como se não bastasse a torneira aberta do gasto público, o governo concedeu um aumento do bolsa família em pleno ano eleitoral, feri"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Pelas regras federais, as embalagens sujeitas &agrave; obriga&ccedil;&atilde;o devem incorporar um percentual m&iacute;nimo de 22% de material reciclado em 2026, &iacute;ndice que subir&aacute; para 24% em 2027 e chegar&aacute; a 30% em 2030. A comprova&ccedil;&atilde;o do conte&uacute;do incorporado dever&aacute; observar a origem e a movimenta&ccedil;&atil"
+            "resposta": "No cardápio do populismo, entra também o a PEC do fim da escala 6 por 1. O presidente do Senado, Davi Alcolumbre, coincidentemente colocou a matéria em votação às vésperas do 2º turno. Com a aprovação da PEC, O objetivo é ajudar a eleger o presidente Lula e garantir a o comando do Czar do Amapá na presidência da Casa alta. Pouco importa as consequências dess"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A Portaria 1.778, publicada em setembro, determina que cr&eacute;ditos ou certificados de cr&eacute;ditos n&atilde;o poder&atilde;o substituir o cumprimento das metas de conte&uacute;do reciclado. A proibi&ccedil;&atilde;o n&atilde;o elimina os mecanismos de certifica&ccedil;&atilde;o previstos separadamente para a log&iacute;stica reversa, que trata da recu"
+            "resposta": "Depois da elevação brutal do gasto, aumento ilegal do bolsa família, alteração das relações de trabalho, sem a devida discussão com a sociedade, vem agora o perdão de dívidas de dívidas tributárias dos microempreendedores individuais."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A nova sistem&aacute;tica exige informa&ccedil;&otilde;es sobre fornecedores, quantidades de material reciclado, notas fiscais e documentos de destina&ccedil;&atilde;o dos res&iacute;duos. As empresas dever&atilde;o inserir os dados relativos a 2026 nas plataformas de rastreabilidade at&eacute; 30 de abril de 2027."
+            "resposta": "A proposta é um escândalo por duas razões. A primeira é o rombo nas contas públicos. Com o perdão do passivo tributário, o governo deixa de arrecadar R$12 bilhões. A segunda é mais preocupante: é o incentivo ao calote."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O prazo preocupa participantes do setor. Segundo Leonardo Lopes, diretor de Opera&ccedil;&otilde;es da Yatt&oacute;, empresa especializada em infraestrutura de economia circular, a qualifica&ccedil;&atilde;o de uma cadeia de fornecimento pode levar cerca de doze meses. O risco &eacute; que fabricantes ainda n&atilde;o preparados tenham dificuldades para comp"
+            "resposta": "Se a pessoa sabe que o governo vai perdoar o insolvente, então por que pagar impostos em dia? No atual momento, o bom pagador deve estar se sentido um trouxa justamente sabendo que não ter pagado impostos em dia era uma opção financeiramente melhor. O perdão de dívidas é um caso clássico em finanças de moral hazard , no qual cria-se um incentivo econômico pe"
           }
         ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2025/08/A63A6929.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/governo-fecha-cerco-aos-creditos-de-reciclagem-de-embalagens-plasticas.jpg",
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/FTA20261018890.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-arrebenta-a-economia-para-permanecer-no-poder-jovem-pan.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "16bed5f9048a34f3",
-      "titulo": "Lily Allen cancela show após diagnóstico de infecção viral: \"Arrasada\"",
+      "id": "bcefe7a9c5559621",
+      "titulo": "Flávio reage a Lula e cobra sigilos de Marcola e gastos com Janja",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "CNN Brasil - Capa",
+      "urlFonte": "https://www.cnnbrasil.com.br/blogs/jussara-soares/eleicoes/flavio-reage-a-lula-e-cobra-sigilos-de-marcola-e-gastos-com-janja/",
+      "dataFonte": "2026-10-21T17:35:06.000Z",
+      "resumoFonte": "Senador diz que abre 20 anos do seu sigilo, mas exige dados sobre cartão corporativo e informações sobre relações com dono do Banco Master",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/FLAVIO-BOLSONARO-19-09-26.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-21T18:44:52.581Z",
+      "reportagem": {
+        "titulo": "Flávio reage a Lula e cobra sigilos de Marcola e gastos com Janja",
+        "slug": "flavio-reage-a-lula-e-cobra-sigilos-de-marcola-e-gastos-com-janja",
+        "categoria": "Economia",
+        "data": "2026-10-21",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/flavio-reage-a-lula-e-cobra-sigilos-de-marcola-e-gastos-com-janja.jpg",
+        "resumo": "Senador diz que abre 20 anos do seu sigilo, mas exige dados sobre cartão corporativo e informações sobre relações com dono do Banco Master",
+        "conteudo": "<p>O senador Flávio Bolsonaro (PL), candidato à Presidência da República, apresentou nesta quarta-feira (21) ao Tribunal Superior Eleitoral (TSE) uma petição em resposta ao desafio do presidente Luiz Inácio Lula da Silva (PT) para a abertura dos sigilos bancário, fiscal e telefônico.</p><h2>No documento, Flávio afirma aceitar o desafio, mas impõe</h2><p>No documento, Flávio afirma aceitar o desafio, mas impõe como condição que o petista também autorize a quebra de sigilos de familiares, incluindo o filho Fábio Luís Lula da Silva, o Lulinha, e do ex-chefe de gabinete do presidente, Marco Aurélio Santana Ribeiro, o Marcola.</p><p>O senador também cobra informações sobre despesas da primeira-dama Janja da Silva e gastos do cartão corporativo da Presidência.</p><p>A campanha de Flávio Bolsonaro alega que o presidente Lula não utilizava celular próprio e se comunicava por meio do telefone de Marcola.</p><h2>Com esse argumento, a defesa do senador sustenta</h2><p>Com esse argumento, a defesa do senador sustenta que a abertura apenas do sigilo telefônico de Lula seria insuficiente e cobra também o acesso aos dados de assessores que mantinham linhas utilizadas pelo presidente.</p><p>A cobrança tem como pano de fundo os R$ 249 mil que, segundo a petição, Marcola recebeu de Roberta Luchsinger, investigada no escândalo de fraudes contra aposentados do INSS.</p><p>A defesa de Flávio quer apurar se os recursos foram utilizados para custear despesas pessoais de Lula e Janja.</p><p>Investigado pela PF, o ex-chefe de gabinete de Lula alega que os R$ 249 mil foram depositados em caráter de um empréstimo pessoal, que já foi pago.</p><p>Na petição, Flávio afirma autorizar a abertura de seus sigilos bancário, fiscal e telefônico dos últimos 20 anos, incluindo os de empresas das quais é sócio ou administrador, e diz não se opor à divulgação de todas as mensagens que trocou com o banqueiro Daniel Vorcaro, dono do Banco Master.</p><p>Em contrapartida, o senador exige que Lula esclareça as relações de seu governo com Vorcaro.</p><p>Flávio cobra a divulgação dos participantes, do assunto tratado e de todos os registros da reunião entre o presidente e o banqueiro, realizada em 4 de dezembro de 2024, para a qual, segundo a Presidência, não foram produzidas atas.</p><p>Também pede registros de entradas de Vorcaro e de seus intermediários nos palácios do Planalto e da Alvorada desde 2023, além de informações sobre encontros do ex-ministro Guido Mantega e de Augusto Lima, ex-presidente do Banco Master, com integrantes do governo.</p><p>A petição cita ao menos cinco reuniões de Mantega com Marcola em 2024, a última delas na companhia de Vorcaro, no mesmo dia do encontro do banqueiro com Lula.</p><p>Flávio também cobra a divulgação integral dos gastos do cartão corporativo da Presidência desde janeiro de 2023, da agenda da primeira-dama anterior a fevereiro de 2025 e de registros de visitas dos filhos de Lula ao Palácio da Alvorada.</p><p>O senador pede ao TSE que intime o presidente a responder às condições impostas e afirma que só apresentará os próprios dados depois que Lula entregar a documentação exigida.</p><p>O senador e candidato ao Planalto, Flávio Bolsonaro (PL-RJ)</p><p>O senador Flávio Bolsonaro (PL), candidato à Presidência da República, apresentou nesta quarta-feira (21) ao Tribunal Superior Eleitoral (TSE) uma petição em resposta ao desafio do presidente Luiz Inácio Lula da Silva (PT) para a abertura dos sigilos bancário, fiscal e telefônico.</p><p>No documento, Flávio afirma aceitar o desafio, mas impõe como condição que o petista também autorize a quebra de sigilos de familiares, incluindo o filho Fábio Luís Lula da Silva, o Lulinha, e do ex-chefe de gabinete do presidente, Marco Aurélio Santana Ribeiro, o Marcola.</p><p>O senador também cobra informações sobre despesas da primeira-dama Janja da Silva e gastos do cartão corporativo da Presidência.</p><p>A campanha de Flávio Bolsonaro alega que o presidente Lula não utilizava celular próprio e se comunicava por meio do telefone de Marcola.</p><p>Com esse argumento, a defesa do senador sustenta que a abertura apenas do sigilo telefônico de Lula seria insuficiente e cobra também o acesso aos dados de assessores que mantinham linhas utilizadas pelo presidente.</p>",
+        "fonteNome": "CNN Brasil - Capa",
+        "fonteUrl": "https://www.cnnbrasil.com.br/blogs/jussara-soares/eleicoes/flavio-reage-a-lula-e-cobra-sigilos-de-marcola-e-gastos-com-janja/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O senador Flávio Bolsonaro (PL), candidato à Presidência da República, apresentou nesta quarta-feira (21) ao Tribunal Superior Eleitoral (TSE) uma petição em resposta ao desafio do presidente Luiz Inácio Lula da Silva (PT) para a abertura dos sigilos bancário, fiscal e telefônico."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "No documento, Flávio afirma aceitar o desafio, mas impõe como condição que o petista também autorize a quebra de sigilos de familiares, incluindo o filho Fábio Luís Lula da Silva, o Lulinha, e do ex-chefe de gabinete do presidente, Marco Aurélio Santana Ribeiro, o Marcola. O senador também cobra informações sobre despesas da primeira-dama Janja da Silva e ga"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A campanha de Flávio Bolsonaro alega que o presidente Lula não utilizava celular próprio e se comunicava por meio do telefone de Marcola. Com esse argumento, a defesa do senador sustenta que a abertura apenas do sigilo telefônico de Lula seria insuficiente e cobra também o acesso aos dados de assessores que mantinham linhas utilizadas pelo presidente."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A cobrança tem como pano de fundo os R$ 249 mil que, segundo a petição, Marcola recebeu de Roberta Luchsinger, investigada no escândalo de fraudes contra aposentados do INSS. A defesa de Flávio quer apurar se os recursos foram utilizados para custear despesas pessoais de Lula e Janja."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Investigado pela PF, o ex-chefe de gabinete de Lula alega que os R$ 249 mil foram depositados em caráter de um empréstimo pessoal, que já foi pago."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/FLAVIO-BOLSONARO-19-09-26.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/flavio-reage-a-lula-e-cobra-sigilos-de-marcola-e-gastos-com-janja.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "686cd501a0a787b4",
+      "titulo": "Ossada humana é encontrada em área de mata em Vitória",
+      "categoria": "Cidades",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/agora/ossada-humana-e-encontrada-em-area-de-mata-em-vitoria-1026",
+      "dataFonte": "2026-10-21T17:40:57.000Z",
+      "resumoFonte": "Restos mortais foram localizados junto a peças de roupas. Os materiais foram levados para o IML",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1774902437752_2021_05_06_morro_do_romao_em_vitoria_488700_article.jpg",
+      "descobertaEm": "2026-10-21T18:18:31.333Z"
+    },
+    {
+      "id": "15b8756a7c70925d",
+      "titulo": "Bruce Wayne aparece em Cara-de-Barro? Entenda boatos",
       "categoria": "Cultura",
       "radar": null,
       "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/fabia-oliveira/lily-allen-cancela-show-apos-diagnostico-de-infeccao-viral-arrasada",
-      "dataFonte": "2026-10-21T17:12:05.000Z",
-      "resumoFonte": "A cantora usou os stories do Instagram, na terça-feira (20/10), para se desculpar com os fãs que estavam esperando a apresentação",
-      "imagem": "https://i.metroimg.com/5VCCxI7eE_QpOhhLhcUcoeCHEf47zpB0m1f6xwT3GdM/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/lily-allen-cancela-show-infeccao-viral3.jpg",
-      "descobertaEm": "2026-10-21T17:18:42.964Z"
+      "urlFonte": "https://www.metropoles.com/entretenimento/bruce-wayne-aparece-em-cara-de-barro-entenda-boatos",
+      "dataFonte": "2026-10-21T18:35:33.000Z",
+      "resumoFonte": "Cara-de-Barro, primeiro filme de terror da DC Studios, estreia nesta quinta-feira (22/10)",
+      "imagem": "https://i.metroimg.com/wNkSjk0SNw81cpiXuYXetkp7BNekuAnObMyIj4ndG8k/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/cara-de-barro-e-batman.jpg",
+      "descobertaEm": "2026-10-21T18:42:17.358Z"
     },
     {
-      "id": "e5fda78fcfadd965",
-      "titulo": "Especialistas da ONU questionam papel da Meta nas eleições no Brasil",
+      "id": "c29dc615b168e327",
+      "titulo": "A Fazenda 18: associação promete denunciar Giovanna Gold por homofobia",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/colunas/fabia-oliveira/a-fazenda-18-associacao-promete-denunciar-giovanna-gold-por-homofobia",
+      "dataFonte": "2026-10-21T18:34:03.000Z",
+      "resumoFonte": "Confinada no reality show A Fazenda, da Record, a atriz Giovanna Gold disparou ofensas contra o criador de conteúdo Mayk Leão",
+      "imagem": "https://i.metroimg.com/Vq9Oz4_AyO3cnL4xogUMkmUDdrOu8cN725pfk0lGL3s/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/giovanna-e-mayk.jpg",
+      "descobertaEm": "2026-10-21T18:42:17.358Z"
+    },
+    {
+      "id": "ca2fdaea033005fe",
+      "titulo": "IA em exame do sono pode prever risco de insuficiência cardíaca, diz estudo",
       "categoria": "Tecnologia",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/mundo/noticia/2026/10/21/especialistas-da-onu-questionam-papel-da-meta-nas-eleicoes-no-brasil.ghtml",
-      "dataFonte": "2026-10-21T16:22:55.000Z",
-      "resumoFonte": "TSE pede parecer do MP Eleitoral sobre medidas adotadas pela Meta Especialistas independentes da ONU cobraram nesta quarta-feira (21) que a Meta (dona do Facebook, WhatsApp e Instagram) investigue se seus sistemas de moderação, recomendação e inteligência artificial restringiram de forma desproporcional conteúdos ligados a um dos lados da disputa…",
-      "imagem": "https://s2-g1.glbimg.com/7Fi3QA7sbU5_mcgrdGO53AK0eXM=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/O/3/h2G4lTTvGS8NtJOUCtwg/jn-ato-meta-20261019-1708-frame-7500.jpeg",
-      "descobertaEm": "2026-10-21T17:18:42.964Z"
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/saude/ia-em-exame-do-sono-pode-prever-risco-de-insuficiencia-cardiaca-diz-estudo",
+      "dataFonte": "2026-10-21T18:10:55.000Z",
+      "resumoFonte": "Cientistas usaram inteligência artificial para analisar os sinais do coração durante o sono e estimar risco de doenças cardiovasculares",
+      "imagem": "https://i.metroimg.com/neD3ws0rNuMm1g_2gAR7MJpK12S5ARHsi4Ye-IPoafQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/teste-do-sono-capa.jpg",
+      "descobertaEm": "2026-10-21T18:18:31.333Z"
     },
     {
-      "id": "eeb51e503b3e7295",
-      "titulo": "TSE avalia limitar canais do WhatsApp a 48 horas da eleição",
+      "id": "dd7de31b8876339d",
+      "titulo": "Importações para pesquisa pública terão imunidade tributária",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "Agência Brasil - Economia",
+      "urlFonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/importacoes-para-pesquisa-publica-terao-imunidade-tributaria",
+      "dataFonte": "2026-10-21T17:41:00.000Z",
+      "resumoFonte": "O Ministério da Fazenda anunciou nesta quarta-feira (21) medidas para assegurar a aplicação da imunidade tributária prevista na Constituição nas importações para projetos de universidades públicas, institutos federais e instituições públicas de ciência, tecnologia e inovação. De acordo com o ministério, equipamentos, softwares e insumos importados…",
+      "imagem": "https://imagens.ebc.com.br/0hujUVG6TR9e47aajXwlr6vVkx8=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/20160613_111238_resized.jpg?itok=kG09bo-P",
+      "descobertaEm": "2026-10-21T18:18:31.333Z"
+    },
+    {
+      "id": "b04a492143f35cc7",
+      "titulo": "Pressionada por dívida e IA, Getty Images entra em recuperação judicial nos EUA",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/business/pressionada-por-divida-e-ia-getty-images-entra-em-recuperacao-judicial-nos-eua/",
+      "dataFonte": "2026-10-21T17:36:32.000Z",
+      "resumoFonte": "Bloomberg \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/10/471684286.jpg?fit=1280%2C854&quality=70&strip=all\" />Empresa de banco de imagens busca reduzir dívida, receber aporte de até US$ 533 milhões e fechar capital em meio ao avanço das ferramentas de IA The post Pressionada por dívida e IA, Getty Images entra em…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/10/471684286.jpg",
+      "descobertaEm": "2026-10-21T18:18:31.333Z",
+      "reportagem": {
+        "titulo": "Pressionada por dívida e IA, Getty Images entra em recuperação judicial nos EUA",
+        "slug": "pressionada-por-divida-e-ia-getty-images-entra-em-recuperacao-judicial-nos-eua",
+        "categoria": "Tecnologia",
+        "data": "2026-10-21",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/pressionada-por-divida-e-ia-getty-images-entra-em-recuperacao-judicial-nos-eua.jpg",
+        "resumo": "Empresa de banco de imagens busca reduzir dívida, receber aporte de até US$ 533 milhões e fechar capital em meio ao avanço das ferramentas de IA",
+        "conteudo": "<p>A Getty Images Holdings está iniciando um processo de recuperação judicial pré-negociado ( prepackaged bankruptcy ) após garantir um acordo de apoio à reestruturação que injetará novos recursos na companhia e retirará do mercado acionário a empresa de banco de imagens e arquivo fotográfico.</p><h2>Companhia entrou com pedido de proteção sob o Capítulo</h2><p>A companhia entrou com pedido de proteção sob o Capítulo 11 da Lei de Falências dos Estados Unidos no Tribunal de Falências do Distrito de Delaware. A Getty informou possuir ativos entre US$ 1 bilhão e US$ 10 bilhões, e passivos na mesma faixa.</p><p>A empresa afirmou que avançou na implementação de sua reestruturação financeira, divulgada anteriormente.</p><p>A operação inclui um aporte de até US$ 533 milhões em capital por partes que incluem membros da família Getty e afiliadas da Koch Equity Development.</p><h2>Companhia já havia informado que esses grupos forneceriam novos</h2><p>A companhia já havia informado que esses grupos forneceriam novos recursos em troca de participação acionária.</p><p>O pedido de recuperação judicial ocorre após longas negociações para lidar com uma elevada carga de endividamento e com a migração de clientes para imagens geradas por inteligência artificial, em substituição às tradicionais fotos de banco de imagens.</p><p>A Getty entrou em um período de carência de 30 dias após deixar de realizar pagamentos de juros devidos em 1º de setembro relacionados a títulos sem garantia.</p><p>Na ocasião, a empresa afirmou que tinha caixa suficiente para efetuar os pagamentos, mas optou por utilizar o prazo adicional para concluir um acordo consensual de reestruturação.</p><p>Os fornecedores serão pagos integralmente de acordo com o plano de reestruturação.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/business/pressionada-por-divida-e-ia-getty-images-entra-em-recuperacao-judicial-nos-eua/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/"
+          },
+          {
+            "nome": "MCTI",
+            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A Getty Images Holdings está iniciando um processo de recuperação judicial pré-negociado ( prepackaged bankruptcy ) após garantir um acordo de apoio à reestruturação que injetará novos recursos na companhia e retirará do mercado acionário a empresa de banco de imagens e arquivo fotográfico."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A companhia entrou com pedido de proteção sob o Capítulo 11 da Lei de Falências dos Estados Unidos no Tribunal de Falências do Distrito de Delaware. A Getty informou possuir ativos entre US$ 1 bilhão e US$ 10 bilhões, e passivos na mesma faixa."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A empresa afirmou que avançou na implementação de sua reestruturação financeira, divulgada anteriormente. A operação inclui um aporte de até US$ 533 milhões em capital por partes que incluem membros da família Getty e afiliadas da Koch Equity Development. A companhia já havia informado que esses grupos forneceriam novos recursos em troca de participação acio"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O pedido de recuperação judicial ocorre após longas negociações para lidar com uma elevada carga de endividamento e com a migração de clientes para imagens geradas por inteligência artificial, em substituição às tradicionais fotos de banco de imagens."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A Getty entrou em um período de carência de 30 dias após deixar de realizar pagamentos de juros devidos em 1º de setembro relacionados a títulos sem garantia. Na ocasião, a empresa afirmou que tinha caixa suficiente para efetuar os pagamentos, mas optou por utilizar o prazo adicional para concluir um acordo consensual de reestruturação."
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/10/471684286.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/pressionada-por-divida-e-ia-getty-images-entra-em-recuperacao-judicial-nos-eua.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "0e3a624e1640f1ba",
+      "titulo": "TRE altera 4 locais de votação em SP; veja quais",
       "categoria": "Justiça",
       "radar": null,
       "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/tse-avalia-limitar-canais-do-whatsapp-a-48-horas-da-eleicao/",
-      "dataFonte": "2026-10-21T16:29:08.000Z",
-      "resumoFonte": "Uma minuta de resolução do Tribunal Superior Eleitoral (TSE) prevê proibir canais políticos no WhatsApp com mais de 200 mil usuários a 48 horas da eleição . A medida afetaria o “Exército do Lula”, com 7 milhões de inscritos, e a “Tropa do Flávio”, com 2 milhões. O ministro André Mendonça elaborou a proposta. O documento sugere risco de disseminação…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/52958661310_bc3e9a3316_k-910x568.jpg.webp",
-      "descobertaEm": "2026-10-21T17:18:42.964Z",
+      "urlFonte": "https://revistaoeste.com/politica/tre-altera-4-locais-de-votacao-em-sp-veja-quais/",
+      "dataFonte": "2026-10-21T18:02:38.000Z",
+      "resumoFonte": "O Tribunal Regional Eleitoral de São Paulo (TRE-SP) anunciou nesta terça-feira, 20, mais duas mudanças nos locais de votação para o segundo turno das eleições no Estado. Com as novas alterações, o total chegou a quatro, afetando 10.910 eleitores paulistas. Os remanejamentos foram motivados por problemas estruturais em prédios escolares e danos…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2024/10/Urnas-eletronicas-1.jpg.webp",
+      "descobertaEm": "2026-10-21T18:18:31.333Z",
       "reportagem": {
-        "titulo": "TSE avalia limitar canais do WhatsApp a 48 horas da eleição",
-        "slug": "tse-avalia-limitar-canais-do-whatsapp-a-48-horas-da-eleicao",
+        "titulo": "TRE altera 4 locais de votação em SP; veja quais",
+        "slug": "tre-altera-4-locais-de-votacao-em-sp-veja-quais",
         "categoria": "Justiça",
         "data": "2026-10-21",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/tse-avalia-limitar-canais-do-whatsapp-a-48-horas-da-eleicao.jpg",
-        "resumo": "Proposta de André Mendonça atingiria espaços de apoio a Lula e Flávio; Nunes Marques classifica texto como 'esboço'",
-        "conteudo": "<p>Letícia Alves nasceu em Fortaleza e se formou em jornalismo na Universidade Federal do Ceará. Atuou no jornal O Povo, Poder360, Brasil sem Medo e Gazeta do Povo. Atualmente, é repórter na Revista Oeste.</p><h2>Minuta do Tribunal Superior Eleitoral (TSE) propõe proibir canais</h2><p>Uma minuta do Tribunal Superior Eleitoral (TSE) propõe proibir canais políticos no WhatsApp com mais de 200 mil usuários 48 horas antes da eleição, visando evitar a disseminação de conteúdos ilícitos.</p><p>A medida afetaria canais como o “Exército do Lula” e a “Tropa do Flávio”. O ministro André Mendonça elaborou a proposta, que foi discutida em reunião informal, mas o presidente do TSE, Kassio Nunes Marques, expressou discordância e não convocará uma reunião oficial.</p><p>Uma minuta de resolução do Tribunal Superior Eleitoral (TSE) prevê proibir canais políticos no WhatsApp com mais de 200 mil usuários a 48 horas da eleição . A medida afetaria o “Exército do Lula”, com 7 milhões de inscritos, e a “Tropa do Flávio”, com 2 milhões.</p><h2>Ministro André Mendonça elaborou a proposta</h2><p>O ministro André Mendonça elaborou a proposta. O documento sugere risco de disseminação de conteúdos ilícitos sem tempo para resposta da Justiça Eleitoral.</p><p>Segundo a minuta, o período entre as 48 horas anteriores e as 24 horas seguintes à votação concentra o maior risco de dano irreversível à livre formação da vontade do eleitorado.</p><p>A proposta compara o alcance dos grandes canais ao impulsionamento pago. O texto abrange espaços que divulgam conteúdos da disputa eleitoral, tanto públicos quanto restritos por convite.</p><p>Os ministros discutiram o assunto em reunião informal na terça-feira. “Isso é apenas um esboço”, disse o presidente do TSE, Kassio Nunes Marques, ao jornal O Globo .</p><p>Segundo o veículo, ele informou a interlocutores que discorda da alteração e não convocará reunião oficial sobre o tema.</p><p>O gabinete de Mendonça informou que a Corte debateu a regulação em duas reuniões. Segundo a nota, os ministros concordaram com a necessidade de tratar do assunto e escolheram Mendonça para redigir a proposta, que depende do aval do colegiado.</p><p>“Os critérios em análise são objetivos e impessoais e valem igualmente para todos os canais de natureza político-eleitoral de grande alcance, qualquer que seja o candidato, o partido ou a orientação política”, afirma a nota.</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/tre-altera-4-locais-de-votacao-em-sp-veja-quais.jpg",
+        "resumo": "Mudanças foram motivadas por problemas estruturais, alagamento e destelhamento em escolas",
+        "conteudo": "<p>O Tribunal Regional Eleitoral de São Paulo (TRE-SP) anunciou, em 20 de outubro de 2026, mais duas mudanças nos locais de votação para o segundo turno das eleições, totalizando quatro alterações que afetam 10.910 eleitores.</p><h2>Mudanças foram motivadas por problemas estruturais em prédios escolares</h2><p>As mudanças foram motivadas por problemas estruturais em prédios escolares e danos climáticos.</p><p>Em Jabaquara, eleitores da Emei Professora Lourdes Herédia de Mello devem votar no CEI Indir Jabaquara, enquanto em São João da Boa Vista, os da Emeb Sarah Salomão foram transferidos para a Emeb Antônio dos Santos Cabral.</p><p>O Tribunal Regional Eleitoral de São Paulo (TRE-SP) anunciou nesta terça-feira, 20, mais duas mudanças nos locais de votação para o segundo turno das eleições no Estado. Com as novas alterações, o total chegou a quatro, o que afeta 10.910 eleitores paulistas.</p><h2>Remanejamentos foram motivados por problemas estruturais em prédios escolares</h2><p>Os remanejamentos foram motivados por problemas estruturais em prédios escolares e danos provocados por eventos climáticos.</p><p>Uma das mudanças ocorre na 320ª Zona Eleitoral, no Jabaquara, zona sul da capital paulista. Os eleitores que votariam na Emei Professora Lourdes Herédia de Mello deverão comparecer ao CEI Indir Jabaquara, localizado na Praça Witaker Penteado, 290, na Vila Guarani.</p><p>Os dois endereços ficam a cerca de 2 quilômetros de distância. Segundo o TRE-SP, a alteração afeta 748 eleitores e foi necessária por causa de problemas estruturais no prédio original.</p><p>A outra mudança anunciada na terça-feira ocorreu na 122ª Zona Eleitoral, em São João da Boa Vista, no interior do Estado.</p><p>Os eleitores da Emeb Sarah Salomão, na Rua Zizico Marcondes, 210, deverão votar na Emeb Antônio dos Santos Cabral, na Rua Alfeu Doval. A distância entre os dois locais é de aproximadamente 900 metros.</p><p>De acordo com a Justiça Eleitoral , a transferência atinge 2.246 eleitores e foi determinada em razão de uma reforma estrutural no prédio da antiga seção de votação.</p><p>Na segunda-feira 19, o TRE-SP havia comunicado duas alterações. Uma delas ocorreu na 256ª Zona Eleitoral, no Tucuruvi, zona norte da capital.</p><p>Os eleitores que votariam na Escola Estadual Conselheiro Ruy Barbosa foram transferidos para o Recanto Nossa Senhora de Lourdes, na Avenida Luís Carlos Gentile, 1.736.</p><p>A mudança foi motivada por um alagamento que provocou problemas estruturais no telhado da escola.</p><p>A segunda alteração anunciada no início da semana ocorreu em Presidente Prudente, no interior paulista.</p><p>Os eleitores da 402ª Zona Eleitoral, que votariam na Escola Estadual Florivaldo Leal, na Rua Piracicaba, 90, deverão comparecer à Universidade Estadual Paulista, na Rua Roberto Simonsen, 303, no Jardim das Rosas.</p><p>Nesse caso, a transferência foi necessária depois que um forte vendaval provocou o destelhamento da escola.</p><p>Os eleitores podem verificar o endereço atualizado pelo serviço de autoatendimento eleitoral no site do Tribunal Superior Eleitoral . Basta acessar o menu “Consultas” e selecionar a opção “Onde votar”.</p><p>A ferramenta informa o nome e o endereço do local, além da zona e da seção eleitoral.</p><p>Outra alternativa é o aplicativo e-Título. Depois de fazer login, o eleitor deve selecionar “Onde votar” para consultar o endereço. O aplicativo também permite copiar a localização e abrir outros serviços para traçar a rota até o local.</p><p>Segundo o TRE-SP, “as eventuais mudanças são definidas pelo juízo eleitoral de cada zona, não tendo o Tribunal Superior Eleitoral (TSE) ingerência na decisão”.</p><p>O tribunal regional disponibiliza uma central de atendimento eletrônico que funciona 24 horas por dia, inclusive aos fins de semana e feriados.</p><p>A Justiça Eleitoral afirma que mudanças de endereço são excepcionais e decorrem de circunstâncias extraordinárias, como condições climáticas severas e problemas estruturais nos imóveis utilizados para a votação. Novas alterações ainda podem ser anunciadas até o segundo turno.</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
         "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/tse-avalia-limitar-canais-do-whatsapp-a-48-horas-da-eleicao/",
+        "fonteUrl": "https://revistaoeste.com/politica/tre-altera-4-locais-de-votacao-em-sp-veja-quais/",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -251,316 +743,52 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Letícia Alves nasceu em Fortaleza e se formou em jornalismo na Universidade Federal do Ceará. Atuou no jornal O Povo, Poder360, Brasil sem Medo e Gazeta do Povo. Atualmente, é repórter na Revista Oeste."
+            "resposta": "O Tribunal Regional Eleitoral de São Paulo (TRE-SP) anunciou, em 20 de outubro de 2026, mais duas mudanças nos locais de votação para o segundo turno das eleições, totalizando quatro alterações que afetam 10.910 eleitores. As mudanças foram motivadas por problemas estruturais em prédios escolares e danos climáticos. Em Jabaquara, eleitores da Emei Professora"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Uma minuta do Tribunal Superior Eleitoral (TSE) propõe proibir canais políticos no WhatsApp com mais de 200 mil usuários 48 horas antes da eleição, visando evitar a disseminação de conteúdos ilícitos. A medida afetaria canais como o “Exército do Lula” e a “Tropa do Flávio”. O ministro André Mendonça elaborou a proposta, que foi discutida em reunião informal,"
+            "resposta": "O Tribunal Regional Eleitoral de São Paulo (TRE-SP) anunciou nesta terça-feira, 20, mais duas mudanças nos locais de votação para o segundo turno das eleições no Estado. Com as novas alterações, o total chegou a quatro, o que afeta 10.910 eleitores paulistas."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Uma minuta de resolução do Tribunal Superior Eleitoral (TSE) prevê proibir canais políticos no WhatsApp com mais de 200 mil usuários a 48 horas da eleição . A medida afetaria o “Exército do Lula”, com 7 milhões de inscritos, e a “Tropa do Flávio”, com 2 milhões."
+            "resposta": "Os remanejamentos foram motivados por problemas estruturais em prédios escolares e danos provocados por eventos climáticos."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "O ministro André Mendonça elaborou a proposta. O documento sugere risco de disseminação de conteúdos ilícitos sem tempo para resposta da Justiça Eleitoral."
+            "resposta": "Uma das mudanças ocorre na 320ª Zona Eleitoral, no Jabaquara, zona sul da capital paulista. Os eleitores que votariam na Emei Professora Lourdes Herédia de Mello deverão comparecer ao CEI Indir Jabaquara, localizado na Praça Witaker Penteado, 290, na Vila Guarani."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Segundo a minuta, o período entre as 48 horas anteriores e as 24 horas seguintes à votação concentra o maior risco de dano irreversível à livre formação da vontade do eleitorado."
+            "resposta": "Os dois endereços ficam a cerca de 2 quilômetros de distância. Segundo o TRE-SP, a alteração afeta 748 eleitores e foi necessária por causa de problemas estruturais no prédio original."
           }
         ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/52958661310_bc3e9a3316_k-910x568.jpg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/tse-avalia-limitar-canais-do-whatsapp-a-48-horas-da-eleicao.jpg",
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2024/10/Urnas-eletronicas-1.jpg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/tre-altera-4-locais-de-votacao-em-sp-veja-quais.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "35050ce71fa60a2c",
-      "titulo": "O que faz o vice-presidente da República?",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/politica/o-que-faz-o-vice-presidente-da-republica/",
-      "dataFonte": "2026-10-21T16:40:00.000Z",
-      "resumoFonte": "Vice substitui o presidente em impedimentos, assume definitivamente em caso de vaga e pode receber missões especiais",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/08/Palacio_do_Planalto_GGFD8938.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-21T17:18:42.964Z",
-      "reportagem": {
-        "titulo": "O que faz o vice-presidente da República? | Jovem Pan",
-        "slug": "o-que-faz-o-vice-presidente-da-republica-jovem-pan",
-        "categoria": "Política Nacional",
-        "data": "2026-10-21",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/o-que-faz-o-vice-presidente-da-republica-jovem-pan.jpg",
-        "resumo": "Vice substitui o presidente em impedimentos, assume definitivamente em caso de vaga e pode receber missões especiais",
-        "conteudo": "<p>O vice-presidente não é apenas o segundo nome da chapa eleitoral. A Constituição reserva ao cargo funções importantes na continuidade do Poder Executivo.</p><h2>Em caso de impedimento temporário do presidente, o vice</h2><p>Em caso de impedimento temporário do presidente, o vice assume o exercício da Presidência. Se houver vacância definitiva, o vice sucede o titular e completa o mandato.</p><p>A Constituição também prevê que o vice pode auxiliar o presidente quando for convocado para missões especiais.</p><p>No governo atual, Geraldo Alckmin (PSB) exerce a Vice-Presidência e também ocupou funções ministeriais. Ele volta a compor a chapa de Lula (PT) em 2026.</p><h2>Flávio Bolsonaro (PL) escolheu Alfredo Gaspar (PL-AL) como vice</h2><p>Flávio Bolsonaro (PL) escolheu Alfredo Gaspar (PL-AL) como vice. O deputado construiu carreira no Ministério Público e na segurança pública antes de entrar na política eleitoral.</p><p>Em 25 de outubro, o eleitor escolhe uma chapa completa: o voto dado ao candidato a presidente também elege o vice registrado com ele.</p><p>Vice substitui o presidente em impedimentos, assume definitivamente em caso de vaga e pode receber missões especiais</p><p>Região ficou dividida: Lula venceu em Amazonas, Amapá e Pará, enquanto Flávio liderou em Acre, Rondônia, Roraima e Tocantins</p><p>Quando o Brasil passou a ter segundo turno para presidente</p><p>O presidente pode acabar com o Bolsa Família sozinho?</p><p>‘Exército do Lula’, ‘Tropa do Flávio’: Mendonça confirma discussão sobre suspender canais</p><p>O que acontece se eu faltar ao segundo turno das eleições</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/politica/o-que-faz-o-vice-presidente-da-republica/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O vice-presidente não é apenas o segundo nome da chapa eleitoral. A Constituição reserva ao cargo funções importantes na continuidade do Poder Executivo."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Em caso de impedimento temporário do presidente, o vice assume o exercício da Presidência. Se houver vacância definitiva, o vice sucede o titular e completa o mandato."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A Constituição também prevê que o vice pode auxiliar o presidente quando for convocado para missões especiais."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "No governo atual, Geraldo Alckmin (PSB) exerce a Vice-Presidência e também ocupou funções ministeriais. Ele volta a compor a chapa de Lula (PT) em 2026."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Flávio Bolsonaro (PL) escolheu Alfredo Gaspar (PL-AL) como vice. O deputado construiu carreira no Ministério Público e na segurança pública antes de entrar na política eleitoral."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/08/Palacio_do_Planalto_GGFD8938.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/o-que-faz-o-vice-presidente-da-republica-jovem-pan.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "bb41f810a63eeebf",
-      "titulo": "PEC de Lula prevê uso de R$12 bi em emendas para custear tarifa zero no transporte",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/politica/pec-de-lula-preve-uso-de-r12-bi-em-emendas-para-custear-tarifa-zero-no-transporte/",
-      "dataFonte": "2026-10-21T16:17:11.000Z",
-      "resumoFonte": "Presidente da República, Luiz Inácio Lula da Silva, durante Sanção do PL nº 2465/2026, que prorroga o prazo para aplicação de recursos do FGTS em operações de crédito destinadas a entidades hospitalares filantrópicas e instituições sem fins lucrativos que atuam no SUS, no Palácio do Planalto, Brasília. Foto: Ricardo Stuckert \"…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/09/55447441120_da550a3840_c.jpg",
-      "descobertaEm": "2026-10-21T16:18:38.811Z"
-    },
-    {
-      "id": "90cb408630d970a6",
-      "titulo": "O presidente pode acabar com o Bolsa Família sozinho?",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/politica/o-presidente-pode-acabar-com-o-bolsa-familia-sozinho/",
-      "dataFonte": "2026-10-21T16:00:00.000Z",
-      "resumoFonte": "Programa é sustentado por lei e pelo Orçamento; Executivo administra a política, mas mudanças estruturais precisam respeitar o Congresso",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/08/Palacio_do_Planalto_GGFD8938.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-21T16:18:38.811Z",
-      "reportagem": {
-        "titulo": "O presidente pode acabar com o Bolsa Família sozinho? | Jovem Pan",
-        "slug": "o-presidente-pode-acabar-com-o-bolsa-familia-sozinho-jovem-pan",
-        "categoria": "Política Nacional",
-        "data": "2026-10-21",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/o-presidente-pode-acabar-com-o-bolsa-familia-sozinho-jovem-pan.jpg",
-        "resumo": "Programa é sustentado por lei e pelo Orçamento; Executivo administra a política, mas mudanças estruturais precisam respeitar o Congresso",
-        "conteudo": "<p>O Bolsa Família voltou ao centro da campanha de 2026 depois que montagens atribuíram a Flávio Bolsonaro (PL) a intenção de extinguir o programa. A Jovem Pan analisou o plano do candidato e mostrou que essa proposta não aparece no documento apresentado à Justiça Eleitoral.</p><h2>Independentemente da disputa eleitoral, um presidente não pode simplesmente</h2><p>Independentemente da disputa eleitoral, um presidente não pode simplesmente ignorar a legislação que estrutura uma política pública. O Bolsa Família tem regras definidas em lei e depende de recursos previstos no Orçamento da União.</p><p>O Executivo possui margem para administrar o programa, regulamentar procedimentos e propor mudanças. Alterações que dependam de revogação ou modificação da lei precisam passar pelo processo legislativo.</p><p>O orçamento também funciona como limite. O pagamento dos benefícios precisa estar previsto nas despesas federais e compatível com as regras fiscais em vigor.</p><h2>Lula (PT), candidato à reeleição, tem usado</h2><p>Lula (PT), candidato à reeleição, tem usado a manutenção e a expansão de programas sociais como uma das bandeiras de campanha. Flávio, senador pelo Rio, afirmou que não pretende acabar com o Bolsa Família e rebateu as peças que circulavam nas redes.</p><p>Por isso, além das posições dos candidatos, é importante separar promessa política de poder institucional: uma mudança profunda em um programa desse porte envolve Presidência, Congresso, legislação e Orçamento.</p><p>Programa é sustentado por lei e pelo Orçamento; Executivo administra a política, mas mudanças estruturais precisam respeitar o Congresso</p><p>Quando o Brasil passou a ter segundo turno para presidente</p><p>Modelo entrou na eleição direta de 1989 sob a Constituição de 1988 e já foi usado em sete disputas antes de 2026</p><p>‘Exército do Lula’, ‘Tropa do Flávio’: Mendonça confirma discussão sobre suspender canais</p><p>O que acontece se eu faltar ao segundo turno das eleições</p><p>Como Flávio Bolsonaro tentou se diferenciar de Jair durante a campanha</p><p>Com aliados nas ruas, Lula e Flávio mantêm disputa pelo Nordeste na reta final</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/politica/o-presidente-pode-acabar-com-o-bolsa-familia-sozinho/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Bolsa Família voltou ao centro da campanha de 2026 depois que montagens atribuíram a Flávio Bolsonaro (PL) a intenção de extinguir o programa. A Jovem Pan analisou o plano do candidato e mostrou que essa proposta não aparece no documento apresentado à Justiça Eleitoral."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Independentemente da disputa eleitoral, um presidente não pode simplesmente ignorar a legislação que estrutura uma política pública. O Bolsa Família tem regras definidas em lei e depende de recursos previstos no Orçamento da União."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O Executivo possui margem para administrar o programa, regulamentar procedimentos e propor mudanças. Alterações que dependam de revogação ou modificação da lei precisam passar pelo processo legislativo."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O orçamento também funciona como limite. O pagamento dos benefícios precisa estar previsto nas despesas federais e compatível com as regras fiscais em vigor."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Lula (PT), candidato à reeleição, tem usado a manutenção e a expansão de programas sociais como uma das bandeiras de campanha. Flávio, senador pelo Rio, afirmou que não pretende acabar com o Bolsa Família e rebateu as peças que circulavam nas redes."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/08/Palacio_do_Planalto_GGFD8938.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/o-presidente-pode-acabar-com-o-bolsa-familia-sozinho-jovem-pan.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "5606ceca187951f0",
-      "titulo": "Lula sanciona perdão de dívidas de MEIs e propõe transporte gratuito nos fins de semana",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/economia/lula-sanciona-perdao-de-dividas-de-meis-e-propoe-transporte-gratuito-nos-fins-de-semana/",
-      "dataFonte": "2026-10-21T16:47:28.000Z",
-      "resumoFonte": "Medida para MEIs sancionada na reta final da campanha inclui ampliação do teto de faturamento da categoria",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/55528834029_ee0093b2fc_o.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-10-21T17:18:42.964Z",
-      "reportagem": {
-        "titulo": "Lula sanciona perdão de dívidas de MEIs e propõe transporte gratuito nos fins de semana",
-        "slug": "lula-sanciona-perdao-de-dividas-de-meis-e-propoe-transporte-gratuito-nos-fins-de-semana",
-        "categoria": "Economia",
-        "data": "2026-10-21",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-sanciona-perdao-de-dividas-de-meis-e-propoe-transporte-gratuito-nos-fins-de-semana.jpg",
-        "resumo": "Medida para MEIs sancionada na reta final da campanha inclui ampliação do teto de faturamento da categoria",
-        "conteudo": "<p>Na reta final de seu governo, o presidente Luiz In&aacute;cio Lula da Silva est&aacute; acelerando a edi&ccedil;&atilde;o de medidas com potencial para melhorar sua aprova&ccedil;&atilde;o.</p><h2>Nesta quarta-feira, 21, o petista sancionou uma lei</h2><p>Nesta quarta-feira, 21, o petista sancionou uma lei que amplia o limite de faturamento dos microempreendedores individuais ( MEIs ) e prev&ecirc; o perd&atilde;o de d&iacute;vidas tribut&aacute;rias da categoria.</p><p>No mesmo dia, encaminhou ao Congresso Nacional uma proposta de emenda &agrave; Constitui&ccedil;&atilde;o (PEC) para garantir transporte p&uacute;blico gratuito aos fins de semana e feriados.</p><p>O segundo turno da elei&ccedil;&atilde;o presidencial, disputado entre Lula e o senador Fl&aacute;vio Bolsonaro, ocorre no pr&oacute;ximo domingo, 25 de outubro.</p><h2>Leia mais: Lula sanciona lei que aumenta teto</h2><p>Leia mais: Lula sanciona lei que aumenta teto do MEI e perdoa d&iacute;vidas</p><p>A nova legisla&ccedil;&atilde;o eleva gradualmente o teto de faturamento anual dos MEIs, atualmente fixado em 81 mil reais, para 110 mil reais em 2027 e 140 mil reais em 2028 .</p><p>A lei tamb&eacute;m permite que cada microempreendedor contrate at&eacute; dois funcion&aacute;rios , desde que cada um receba o sal&aacute;rio m&iacute;nimo ou o piso salarial previsto para sua categoria profissional.</p><p>A amplia&ccedil;&atilde;o do limite de receita busca permitir que mais trabalhadores aut&ocirc;nomos e pequenos empres&aacute;rios permane&ccedil;am no regime simplificado de tributa&ccedil;&atilde;o.</p><p>Outro ponto da lei &eacute; a remiss&atilde;o de determinados d&eacute;bitos tribut&aacute;rios devidos &agrave; Uni&atilde;o, constitu&iacute;dos at&eacute; 13 de outubro de 2026, inclusive aqueles inscritos em D&iacute;vida Ativa.</p><p>A medida abrange obriga&ccedil;&otilde;es relacionadas &agrave; Contribui&ccedil;&atilde;o para a Seguridade Social e encargos associados, como juros, multas e custos legais.</p><p>O valor das d&iacute;vidas abrangidas pode chegar a 12 bilh&otilde;es de reais, enquanto o impacto or&ccedil;ament&aacute;rio estimado pelo governo &eacute; de 3 bilh&otilde;es de reais ao longo de tr&ecirc;s anos.</p><p>O benef&iacute;cio depender&aacute; do pagamento regular das contribui&ccedil;&otilde;es com vencimento nos seis meses seguintes &agrave; entrada em vigor da lei, prevista para 1&ordm; de janeiro de 2027, al&eacute;m da desist&ecirc;ncia formal de eventuais processos judiciais relativos aos d&eacute;bitos contemplados.</p><p>Leia mais: Lula envia PEC para garantir transporte gratuito nos fins de semana</p><p>J&aacute; a PEC encaminhada ao Congresso prev&ecirc; a gratuidade do transporte p&uacute;blico aos s&aacute;bados, domingos e feriados.</p><p>Para financiar a iniciativa, o governo prop&otilde;e destinar pelo menos 26,8% do montante global das emendas parlamentares impositivas ao programa.</p><p>A expectativa do Executivo &eacute; reservar cerca de 12 bilh&otilde;es de reais para a medida em 2027.</p><p>Os recursos s&atilde;o provenientes de parcelas do Or&ccedil;amento cuja execu&ccedil;&atilde;o &eacute; obrigat&oacute;ria e que atualmente financiam projetos indicados por deputados e senadores.</p><p>Segundo o governo, a proposta busca ampliar as possibilidades de lazer e deslocamento da popula&ccedil;&atilde;o nos dias de descanso.</p><p>O presidente Lula tamb&eacute;m relaciona a iniciativa &agrave; recente aprova&ccedil;&atilde;o do fim da escala de trabalho 6&times;1 , que amplia o per&iacute;odo de folga semanal dos trabalhadores.</p><p>Diferentemente da lei voltada aos MEIs, j&aacute; sancionada por Lula, a gratuidade no transporte ainda depende da tramita&ccedil;&atilde;o da PEC no Congresso Nacional.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/economia/lula-sanciona-perdao-de-dividas-de-meis-e-propoe-transporte-gratuito-nos-fins-de-semana/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Na reta final de seu governo, o presidente Luiz In&aacute;cio Lula da Silva est&aacute; acelerando a edi&ccedil;&atilde;o de medidas com potencial para melhorar sua aprova&ccedil;&atilde;o. Nesta quarta-feira, 21, o petista sancionou uma lei que amplia o limite de faturamento dos microempreendedores individuais ( MEIs ) e prev&ecirc; o perd&atilde;o de d&iac"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Leia mais: Lula sanciona lei que aumenta teto do MEI e perdoa d&iacute;vidas"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A nova legisla&ccedil;&atilde;o eleva gradualmente o teto de faturamento anual dos MEIs, atualmente fixado em 81 mil reais, para 110 mil reais em 2027 e 140 mil reais em 2028 . A lei tamb&eacute;m permite que cada microempreendedor contrate at&eacute; dois funcion&aacute;rios , desde que cada um receba o sal&aacute;rio m&iacute;nimo ou o piso salarial previs"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Outro ponto da lei &eacute; a remiss&atilde;o de determinados d&eacute;bitos tribut&aacute;rios devidos &agrave; Uni&atilde;o, constitu&iacute;dos at&eacute; 13 de outubro de 2026, inclusive aqueles inscritos em D&iacute;vida Ativa. A medida abrange obriga&ccedil;&otilde;es relacionadas &agrave; Contribui&ccedil;&atilde;o para a Seguridade Social e encargos "
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Leia mais: Lula envia PEC para garantir transporte gratuito nos fins de semana"
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/09/55528834029_ee0093b2fc_o.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-sanciona-perdao-de-dividas-de-meis-e-propoe-transporte-gratuito-nos-fins-de-semana.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "359156ccc9ff3269",
-      "titulo": "A melhora na percepção de renda dos brasileiros medida na pesquisa Quaest",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/economia/a-melhora-na-percepcao-de-renda-dos-brasileiros-medida-na-pesquisa-quaest/",
-      "dataFonte": "2026-10-21T16:04:30.000Z",
-      "resumoFonte": "Parcela que diz ter tido aumento de renda superior à inflação chega ao maior nível da série histórica, iniciada em março",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2016/06/economia-cofrinho-dinheiro-crianca-empreendedorismo-20130610-01-original-11.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-10-21T16:18:38.811Z",
-      "reportagem": {
-        "titulo": "A melhora na percepção de renda dos brasileiros medida na pesquisa Quaest",
-        "slug": "a-melhora-na-percepcao-de-renda-dos-brasileiros-medida-na-pesquisa-quaest",
-        "categoria": "Economia",
-        "data": "2026-10-21",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/a-melhora-na-percepcao-de-renda-dos-brasileiros-medida-na-pesquisa-quaest.jpg",
-        "resumo": "Parcela que diz ter tido aumento de renda superior à inflação chega ao maior nível da série histórica, iniciada em março",
-        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril.</p><h2>Parcela de brasileiros que considera ter obtido um ganho</h2><p>A parcela de brasileiros que considera ter obtido um ganho de renda superior &agrave; alta do custo de vida no &uacute;ltimo ano chegou a 16% em outubro, o maior percentual da s&eacute;rie hist&oacute;rica, iniciada em mar&ccedil;o.</p><p>O resultado consta de pesquisa do instituto Quaest divulgada nesta quarta-feira, 21, e encomendada pela TV Globo.</p><p>Na compara&ccedil;&atilde;o com o levantamento anterior, realizado na semana passada, houve um avan&ccedil;o de tr&ecirc;s pontos percentuais nesse grupo, que passou de 13% para 16%. Em agosto e setembro, o indicador havia permanecido em 10%.</p><h2>Tamb&eacute;m diminuiu a propor&ccedil;&atilde;o de entrevistados que afirmam</h2><p>Tamb&eacute;m diminuiu a propor&ccedil;&atilde;o de entrevistados que afirmam n&atilde;o ter registrado aumento de renda .</p><p>O &iacute;ndice recuou de 32% para 28% em uma semana, atingindo o menor n&iacute;vel da s&eacute;rie. Em junho, essa resposta era dada por 35% dos participantes.</p><p>A percep&ccedil;&atilde;o mais comum entre os brasileiros, contudo, &eacute; a de que os rendimentos acompanharam a eleva&ccedil;&atilde;o dos pre&ccedil;os .</p><p>Essa foi a resposta de 32% dos entrevistados, ante 29% no levantamento anterior.</p><p>J&aacute; 21% disseram que a renda cresceu em ritmo inferior ao custo de vida, percentual tr&ecirc;s pontos menor que o registrado na semana passada.</p><p>Outros 3% n&atilde;o souberam responder ou preferiram n&atilde;o opinar, mesma propor&ccedil;&atilde;o da rodada anterior.</p><p>A pesquisa Quaest tamb&eacute;m avaliou as inten&ccedil;&otilde;es de voto para o segundo turno da elei&ccedil;&atilde;o presidencial.</p><p>Nesse cen&aacute;rio, o senador Fl&aacute;vio Bolsonaro aparece com 45%, enquanto o presidente Luiz In&aacute;cio Lula da Silva registra 44%.</p><p>Como a margem de erro &eacute; de dois pontos percentuais para mais ou para menos, os dois est&atilde;o em situa&ccedil;&atilde;o de empate t&eacute;cnico .</p><p>Em rela&ccedil;&atilde;o ao levantamento anterior, Fl&aacute;vio oscilou de 46% para 45%, enquanto Lula permaneceu com 44%.</p><p>Os eleitores que declaram inten&ccedil;&atilde;o de votar em branco ou nulo, ou que n&atilde;o pretendem comparecer &agrave;s urnas, somam 9%. Os indecisos representam 2%, ante 1% na pesquisa anterior.</p><p>A Quaest ouviu 2.154 pessoas com 16 anos ou mais entre 17 e 20 de outubro. A pesquisa tem n&iacute;vel de confian&ccedil;a de 95%, margem de erro de dois pontos percentuais.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/economia/a-melhora-na-percepcao-de-renda-dos-brasileiros-medida-na-pesquisa-quaest/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A parcela de brasileiros que considera ter obtido um ganho de renda superior &agrave; alta do custo de vida no &uacute;ltimo ano chegou a 16% em outubro, o maior percentual da s&eacute;rie hist&oacute;rica, iniciada em mar&ccedil;o. O resultado consta de pesquisa do instituto Quaest divulgada nesta quarta-feira, 21, e encomendada pela TV Globo."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na compara&ccedil;&atilde;o com o levantamento anterior, realizado na semana passada, houve um avan&ccedil;o de tr&ecirc;s pontos percentuais nesse grupo, que passou de 13% para 16%. Em agosto e setembro, o indicador havia permanecido em 10%."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Tamb&eacute;m diminuiu a propor&ccedil;&atilde;o de entrevistados que afirmam n&atilde;o ter registrado aumento de renda . O &iacute;ndice recuou de 32% para 28% em uma semana, atingindo o menor n&iacute;vel da s&eacute;rie. Em junho, essa resposta era dada por 35% dos participantes."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A percep&ccedil;&atilde;o mais comum entre os brasileiros, contudo, &eacute; a de que os rendimentos acompanharam a eleva&ccedil;&atilde;o dos pre&ccedil;os . Essa foi a resposta de 32% dos entrevistados, ante 29% no levantamento anterior. J&aacute; 21% disseram que a renda cresceu em ritmo inferior ao custo de vida, percentual tr&ecirc;s pontos menor que o "
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2016/06/economia-cofrinho-dinheiro-crianca-empreendedorismo-20130610-01-original-11.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/a-melhora-na-percepcao-de-renda-dos-brasileiros-medida-na-pesquisa-quaest.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "fd46e3ab21bdeb14",
-      "titulo": "Áudio: \"Nosso amor\", diz maquiadora ao revelar mensagem de Lua Blanco",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/fabia-oliveira/audio-nosso-amor-diz-maquiadora-ao-revelar-mensagem-de-lua-blanco",
-      "dataFonte": "2026-10-21T16:13:27.000Z",
-      "resumoFonte": "Vivi Gonzo usou as redes sociais, recentemente, para recordar a relação de amizade com a atriz, que morreu aos 39 anos após um câncer",
-      "imagem": "https://i.metroimg.com/h_Vuu42zAygdNOEO5e_0r9J6RiUPM079KRFIhNSJ0Kw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/maquiadora-mensagem-audio-lua-blanco1.jpg",
-      "descobertaEm": "2026-10-21T16:18:38.811Z"
-    },
-    {
-      "id": "814903b5145e8277",
-      "titulo": "Justiça de SP autoriza processo de recuperação judicial das Casas Bahia",
+      "id": "3cf2e3c7aadae7ad",
+      "titulo": "STF julga limites do acesso da polícia a dados sigilosos",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/sao-paulo/justica-autoriza-processo-recuperacao-judicial-das-casas-bahia",
-      "dataFonte": "2026-10-21T16:14:24.000Z",
-      "resumoFonte": "Decisão da Justiça de SP não concede a recuperação judicial definitiva, mas autoriza fase inicial de análise de documentos",
-      "imagem": "https://i.metroimg.com/M5ZjW4Oc-FItLpUymj818-_Cjwcp1H0l4brU-CX8bOs/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/05/casas-bahia.jpg",
-      "descobertaEm": "2026-10-21T16:18:38.811Z",
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/stf-acesso-dados-policia/",
+      "dataFonte": "2026-10-21T17:51:29.000Z",
+      "resumoFonte": "O Supremo Tribunal Federal (STF) retoma, nesta quarta-feira, 21, o julgamento de três ações sobre os limites do acesso da polícia a dados sigilosos em investigações criminais. Os processos discutem quais informações podem ser requisitadas diretamente e quais dependem de autorização judicial. + Saiba mais de Política em Oeste Estão na pauta três…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/stf.jpg.webp",
+      "descobertaEm": "2026-10-21T18:18:31.333Z",
       "reportagem": {
-        "titulo": "Justiça de SP autoriza processo de recuperação judicial das Casas Bahia",
-        "slug": "justica-de-sp-autoriza-processo-de-recuperacao-judicial-das-casas-bahia",
+        "titulo": "STF julga limites do acesso da polícia a dados sigilosos",
+        "slug": "stf-julga-limites-do-acesso-da-policia-a-dados-sigilosos",
         "categoria": "Justiça",
         "data": "2026-10-21",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/justica-de-sp-autoriza-processo-de-recuperacao-judicial-das-casas-bahia.jpg",
-        "resumo": "Decisão da Justiça de SP não concede a recuperação judicial definitiva, mas autoriza fase inicial de análise de documentos",
-        "conteudo": "<p>São Paulo — A Justiça de São Paulo autorizou, nesta quarta-feira (21/10), o início do processo de recuperação judicial do Grupo Casas Bahia .</p><h2>Juíza Tainá Maria Leonardo de Oliveira, da 2ª Vara</h2><p>A juíza Tainá Maria Leonardo de Oliveira, da 2ª Vara de Falências e Recuperações Judiciais, considerou que a gigante varejista preenche os requisitos formais preliminares.</p><p>A magistrada fixou o prazo de 30 dias para a entrega de documentos pendentes.</p><p>O Grupo Casas Bahia S.A. e outras nove empresas do seu grupo econômico, entrou com o pedido de recuperação judicial em 16 de agosto, informando dívidas estimadas em R$ 17,3 bilhões .</p><h2>Decisão não concede a recuperação judicial definitiva</h2><p>A decisão não concede a recuperação judicial definitiva. Nesta fase inicial, o juízo analisa apenas a regularidade documental, sem examinar a viabilidade econômica da empresa ou deliberar sobre o plano de recuperação.</p><p>A concessão definitiva dependerá de etapas futuras, como a aprovação do plano pelos credores em assembleia e a comprovação de regularidade fiscal.</p><p>Decisão judicial: a Justiça de São Paulo aprovou o início do processo de recuperação judicial do Grupo Casas Bahia em 21 de outubro; Prazo estabelecido: a juíza Tainá Maria Leonardo de Oliveira determinou a entrega de documentos pendentes em até 30 dias; Dívidas da empresa: a varejista protocolou o pedido em 16 de agosto, informando um endividamento estimado em R$ 17,3 bilhões.</p><p>Receba no seu email as notícias de Metrópoles SP Frequência de envio: Diário Ver todas</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/sao-paulo/justica-autoriza-processo-recuperacao-judicial-das-casas-bahia",
+        "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/stf.jpg.webp",
+        "resumo": "Três ações estão na pauta desta quarta-feira, 21; ministros discutem quando investigadores precisam de autorização judicial para obter informações",
+        "conteudo": "<p>O Supremo Tribunal Federal (STF) retoma em 21 de outubro de 2026 o julgamento de três ações sobre o acesso da polícia a dados sigilosos em investigações criminais.</p><h2>Ação Declaratória de Constitucionalidade (ADC) 91, relatada por Cristiano</h2><p>A Ação Declaratória de Constitucionalidade (ADC) 91, relatada por Cristiano Zanin, discute a necessidade de autorização judicial para acessar registros de usuários da internet.</p><p>As Ações Diretas de Inconstitucionalidade (ADIs) 5.059 e 5.073, sob a relatoria de Dias Toffoli, questionam trechos da Lei 12.</p><p>O Supremo Tribunal Federal (STF) retoma, nesta quarta-feira, 21, o julgamento de três ações sobre os limites do acesso da polícia a dados sigilosos em investigações criminais.</p><h2>Processos discutem quais informações podem ser requisitadas diretamente e</h2><p>Os processos discutem quais informações podem ser requisitadas diretamente e quais dependem de autorização judicial.</p><p>Estão na pauta três processos: a Ação Declaratória de Constitucionalidade (ADC) n° 91, relatada pelo ministro Cristiano Zanin, busca confirmar a validade da exigência de ordem judicial para fornecer registros de usuários da internet.</p><p>Já as Ações Diretas de Inconstitucionalidade (ADIs) n° 5.059 e n° 5.073, relatadas pelo ministro Dias Toffoli, questionam trechos da Lei n° 12.830/2013, que regulamenta a investigação criminal conduzida por delegados.</p><p>O debate envolve os limites para requisitar perícias, documentos, informações e dados durante a apuração de crimes.</p><p>No julgamento iniciado em agosto, Toffoli disse que interceptações telefônicas e telemáticas, registros de chamadas e mensagens exigem autorização judicial.</p><p>Já os dados cadastrais básicos do titular de uma linha telefônica, como nome completo, filiação e endereço, podem ser solicitados diretamente pela polícia ou pelo Ministério Público, conforme o entendimento apresentado pelo ministro.</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/stf-acesso-dados-policia/",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -575,172 +803,48 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "São Paulo — A Justiça de São Paulo autorizou, nesta quarta-feira (21/10), o início do processo de recuperação judicial do Grupo Casas Bahia . A juíza Tainá Maria Leonardo de Oliveira, da 2ª Vara de Falências e Recuperações Judiciais, considerou que a gigante varejista preenche os requisitos formais preliminares."
+            "resposta": "O Supremo Tribunal Federal (STF) retoma em 21 de outubro de 2026 o julgamento de três ações sobre o acesso da polícia a dados sigilosos em investigações criminais. A Ação Declaratória de Constitucionalidade (ADC) 91, relatada por Cristiano Zanin, discute a necessidade de autorização judicial para acessar registros de usuários da internet. As Ações Diretas de"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A magistrada fixou o prazo de 30 dias para a entrega de documentos pendentes."
+            "resposta": "O Supremo Tribunal Federal (STF) retoma, nesta quarta-feira, 21, o julgamento de três ações sobre os limites do acesso da polícia a dados sigilosos em investigações criminais."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O Grupo Casas Bahia S.A. e outras nove empresas do seu grupo econômico, entrou com o pedido de recuperação judicial em 16 de agosto, informando dívidas estimadas em R$ 17,3 bilhões ."
+            "resposta": "Os processos discutem quais informações podem ser requisitadas diretamente e quais dependem de autorização judicial."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A decisão não concede a recuperação judicial definitiva. Nesta fase inicial, o juízo analisa apenas a regularidade documental, sem examinar a viabilidade econômica da empresa ou deliberar sobre o plano de recuperação."
+            "resposta": "Estão na pauta três processos: a Ação Declaratória de Constitucionalidade (ADC) n° 91, relatada pelo ministro Cristiano Zanin, busca confirmar a validade da exigência de ordem judicial para fornecer registros de usuários da internet."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A concessão definitiva dependerá de etapas futuras, como a aprovação do plano pelos credores em assembleia e a comprovação de regularidade fiscal."
+            "resposta": "Já as Ações Diretas de Inconstitucionalidade (ADIs) n° 5.059 e n° 5.073, relatadas pelo ministro Dias Toffoli, questionam trechos da Lei n° 12.830/2013, que regulamenta a investigação criminal conduzida por delegados. O debate envolve os limites para requisitar perícias, documentos, informações e dados durante a apuração de crimes."
           }
-        ],
-        "imagemOriginal": "https://i.metroimg.com/M5ZjW4Oc-FItLpUymj818-_Cjwcp1H0l4brU-CX8bOs/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/05/casas-bahia.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/justica-de-sp-autoriza-processo-de-recuperacao-judicial-das-casas-bahia.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
+        ]
       }
     },
     {
-      "id": "647b1215bfb1de77",
-      "titulo": "Fachin defende “lealdade às regras do jogo” às vésperas do 2º turno",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/politica/fachin-defende-lealdade-as-regras-do-jogo-as-vesperas-do-2o-turno/",
-      "dataFonte": "2026-10-21T16:13:23.000Z",
-      "resumoFonte": "O presidente do STF, Edson Fachin, durante sessão plenária da Corte. Foto: Gustavo Moreno/STF \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/09/55505357682_7d18154f02_c.jpg?fit=799%2C533&quality=70&strip=all\" />Ministro destacou que democracias geralmente morrem por \"meios aparentemente legais\", com a captura de…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/09/55505357682_7d18154f02_c.jpg",
-      "descobertaEm": "2026-10-21T16:18:38.811Z",
-      "reportagem": {
-        "titulo": "Fachin defende &quot;lealdade às regras do jogo&quot; às vésperas do 2º turno",
-        "slug": "fachin-defende-quot-lealdade-as-regras-do-jogo-quot-as-vesperas-do-2-turno",
-        "categoria": "Justiça",
-        "data": "2026-10-21",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/fachin-defende-quot-lealdade-as-regras-do-jogo-quot-as-vesperas-do-2-turno.jpg",
-        "resumo": "Ministro destacou que democracias geralmente morrem por &quot;meios aparentemente legais&quot;, com a captura de instituições, e &quot;raramente por golpes abruptos&quot;",
-        "conteudo": "<p>O presidente do Supremo Tribunal Federal, Edson Fachin, afirmou nesta quarta-feira (21) que tribunais como o STF devem fortalecer e “reconquistar diariamente” sua autoridade, já que ela não é resultado do voto popular, mas da fidelidade à Constituição.</p><h2>Às vésperas do segundo turno das eleições 2026,</h2><p>Às vésperas do segundo turno das eleições 2026, o ministro também defendeu “lealdade às regras do jogo, inclusive por parte de quem perde”.</p><p>As declarações ocorreram quando o ministro discursava no evento ‘Diálogos com o Supremo: Tribunais Constitucionais e o Estado de Direito’, que recebe pesquisadores para debates no STF.</p><p>Pesquisa mostra nova movimentação de eleitores dos candidatos derrotados para Lula e Flávio neste 2º turno</p><h2>Presidente reduz resistência de 53% para 47%</h2><p>Presidente reduz resistência de 53% para 47% em uma semana; senador também melhora, mas segue rejeitado por 52% dos eleitores</p><p>No encontro, Fachin abriu sua fala tratando dos tribunais constitucionais, como o STF. Segundo o ministro, as Cortes tem o desafio de se equilibrar entre a “omissão e o protagonismo”.</p><p>— Um tribunal que se retrai diante de violações de direitos fundamentais trai a sua missão. Mas um tribunal que pretende substituir o debate político por sua própria vontade também a trai, pois transforma a guarda da Constituição em governo dos juízes — apontou.</p><p>Em seguida, o ministro explicou que democracias geralmente morrem por “meios aparentemente legais”, com a captura de instituições, e “raramente por golpes abruptos”.</p><p>Foi nesse contexto que o presidente do STF apontou que uma democracia é também uma cultura, que tem limites, respeita decisões judiciais e exige as “lealdade às regras do jogo”.</p><p>— A consolidação democrática nunca é um ponto de chegada que, uma vez ultrapassado, está definitivamente conquistado; é uma tarefa permanente, que depende de instituições capazes de resistir e de uma cidadania disposta a defendê-las — afirmou.</p><p>Ainda com relação aos tribunais como STF, Fachin argumentou que a transparência “não é uma concessão, mas uma condição de legitimidade da Justiça”. Segundo o ministro, é necessário que uma Corte preste contas da “autoridade que lhe foi confiada”.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/politica/fachin-defende-lealdade-as-regras-do-jogo-as-vesperas-do-2o-turno/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O presidente do Supremo Tribunal Federal, Edson Fachin, afirmou nesta quarta-feira (21) que tribunais como o STF devem fortalecer e “reconquistar diariamente” sua autoridade, já que ela não é resultado do voto popular, mas da fidelidade à Constituição. Às vésperas do segundo turno das eleições 2026, o ministro também defendeu “lealdade às regras do jogo, inc"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "As declarações ocorreram quando o ministro discursava no evento ‘Diálogos com o Supremo: Tribunais Constitucionais e o Estado de Direito’, que recebe pesquisadores para debates no STF."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Pesquisa mostra nova movimentação de eleitores dos candidatos derrotados para Lula e Flávio neste 2º turno"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Presidente reduz resistência de 53% para 47% em uma semana; senador também melhora, mas segue rejeitado por 52% dos eleitores"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "No encontro, Fachin abriu sua fala tratando dos tribunais constitucionais, como o STF. Segundo o ministro, as Cortes tem o desafio de se equilibrar entre a “omissão e o protagonismo”."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/09/55505357682_7d18154f02_c.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/fachin-defende-quot-lealdade-as-regras-do-jogo-quot-as-vesperas-do-2-turno.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "fb7fa91bbe4f1b23",
-      "titulo": "Justiça torna réus 12 membros da Voepass por tragédia que matou 62 pessoas",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/sao-paulo/justica-torna-reus-12-membros-da-voepass-por-tragedia-que-matou-62-pessoas",
-      "dataFonte": "2026-10-21T16:06:07.000Z",
-      "resumoFonte": "Segundo o Ministério Público Federal, problemas de manutenção e gestão da segurança contribuíram para tragédia ocorrida em agosto de 2024",
-      "imagem": "https://i.metroimg.com/x5wRlh2rGYbsWGNEFf3CXRQjpGDgcGTdnAcYbs250I0/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2024/09/13170700/aviao-voepass-2.jpg",
-      "descobertaEm": "2026-10-21T16:18:38.811Z",
-      "reportagem": {
-        "titulo": "Justiça torna réus 12 membros da Voepass por tragédia que matou 62 pessoas",
-        "slug": "justica-torna-reus-12-membros-da-voepass-por-tragedia-que-matou-62-pessoas",
-        "categoria": "Justiça",
-        "data": "2026-10-21",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/justica-torna-reus-12-membros-da-voepass-por-tragedia-que-matou-62-pessoas.jpg",
-        "resumo": "Segundo o Ministério Público Federal, problemas de manutenção e gestão da segurança contribuíram para tragédia ocorrida em agosto de 2024",
-        "conteudo": "<p>São Paulo — A Justiça Federal aceitou a denúncia do Ministério Público Federal ( MPF ) e tornou réus o dono da Voepass, José Luiz Felício Filho, e outros 11 ex-funcionários da empresa pela tragédia que matou as 62 pessoas a bordo do voo 2283, que caiu em agosto de 2024 em Vinhedo, no interior de São Paulo .</p><h2>Denúncia foi apresentada em setembro deste ano</h2><p>A denúncia foi apresentada em setembro deste ano .</p><p>De acordo com a promotoria, entre os réus estão pessoas que compunham a cúpula da Voepass, membros da alta administração e ocupantes de diretorias e outros postos de chefia à época do acidente.</p><p>Também responderão pelos crimes dois funcionários que tiveram contribuição direta para o desfecho trágico daquele voo.</p><h2>Outras quatro pessoas indiciadas pela Polícia Federal (PF) após</h2><p>Outras quatro pessoas indiciadas pela Polícia Federal (PF) após as investigações firmaram acordos de não persecução penal e, por isso, não foram incluídas na denúncia do MPF.</p><p>A denúncia apresentada aponta uma sequência de problemas relacionados à manutenção das aeronaves e à gestão da segurança operacional da companhia.</p><p>Para o MPF, o acidente em Vinhedo foi resultado de um conjunto de decisões e práticas irregulares e poderia ter sido evitado se os denunciados tivessem agido conforme as regras da aviação.</p><p>Decisão judicial: a Justiça Federal aceitou a denúncia do Ministério Público Federal e tornou réus o dono da Voepass, José Luiz Felício Filho, e 11 ex-funcionários pelo acidente aéreo que vitimou 62 pessoas em agosto de 2024; Apuração do MPF: a denúncia aponta falhas na manutenção das aeronaves e na gestão da segurança operacional, concluindo que o acidente poderia ter sido evitado; Investigação técnica: o caso baseou-se em apurações da PF, do Cenipa e da Anac.</p><p>Receba no seu email as notícias de Metrópoles SP Frequência de envio: Diário Ver todas</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/sao-paulo/justica-torna-reus-12-membros-da-voepass-por-tragedia-que-matou-62-pessoas",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "São Paulo — A Justiça Federal aceitou a denúncia do Ministério Público Federal ( MPF ) e tornou réus o dono da Voepass, José Luiz Felício Filho, e outros 11 ex-funcionários da empresa pela tragédia que matou as 62 pessoas a bordo do voo 2283, que caiu em agosto de 2024 em Vinhedo, no interior de São Paulo . A denúncia foi apresentada em setembro deste ano ."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "De acordo com a promotoria, entre os réus estão pessoas que compunham a cúpula da Voepass, membros da alta administração e ocupantes de diretorias e outros postos de chefia à época do acidente."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Também responderão pelos crimes dois funcionários que tiveram contribuição direta para o desfecho trágico daquele voo. Outras quatro pessoas indiciadas pela Polícia Federal (PF) após as investigações firmaram acordos de não persecução penal e, por isso, não foram incluídas na denúncia do MPF."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A denúncia apresentada aponta uma sequência de problemas relacionados à manutenção das aeronaves e à gestão da segurança operacional da companhia. Para o MPF, o acidente em Vinhedo foi resultado de um conjunto de decisões e práticas irregulares e poderia ter sido evitado se os denunciados tivessem agido conforme as regras da aviação."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Decisão judicial: a Justiça Federal aceitou a denúncia do Ministério Público Federal e tornou réus o dono da Voepass, José Luiz Felício Filho, e 11 ex-funcionários pelo acidente aéreo que vitimou 62 pessoas em agosto de 2024; Apuração do MPF: a denúncia aponta falhas na manutenção das aeronaves e na gestão da segurança operacional, concluindo que o acidente "
-          }
-        ],
-        "imagemOriginal": "https://i.metroimg.com/x5wRlh2rGYbsWGNEFf3CXRQjpGDgcGTdnAcYbs250I0/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2024/09/13170700/aviao-voepass-2.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/justica-torna-reus-12-membros-da-voepass-por-tragedia-que-matou-62-pessoas.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "b509324e5b2b968d",
-      "titulo": "Ao vivo: STF retoma julgamento sobre ISS no PIS e na Cofins",
+      "id": "7b6d2b62c6a0e3e3",
+      "titulo": "STF exclui ISS da base de cálculo do PIS e da Cofins",
       "categoria": "Justiça",
       "radar": null,
       "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-justica/ao-vivo-stf-retoma-julgamento-sobre-iss-no-pis-e-na-cofins/",
-      "dataFonte": "2026-10-21T16:00:07.000Z",
-      "resumoFonte": "Segundo estimativas, a exclusão do imposto da base de cálculo resultaria em perda de R$ 35,4 bilhões para os cofres públicos",
-      "imagem": "https://static.poder360.com.br/uploads/2026/10/stf-sessao-funrural-15-outubro-2026-1200x675.png",
-      "descobertaEm": "2026-10-21T16:18:38.811Z",
+      "urlFonte": "https://www.poder360.com.br/poder-justica/stf-exclui-iss-da-base-de-calculo-do-pis-e-da-cofins/",
+      "dataFonte": "2026-10-21T18:37:42.000Z",
+      "resumoFonte": "Ministro Luiz Fux desempata julgamento a favor das empresas",
+      "imagem": "https://static.poder360.com.br/uploads/2026/03/plenario-stf.jpg",
+      "descobertaEm": "2026-10-21T18:42:17.358Z",
       "reportagem": {
-        "titulo": "Ao vivo: STF retoma julgamento sobre ISS no PIS e na Cofins",
-        "slug": "ao-vivo-stf-retoma-julgamento-sobre-iss-no-pis-e-na-cofins",
+        "titulo": "STF exclui ISS da base de cálculo do PIS e da Cofins",
+        "slug": "stf-exclui-iss-da-base-de-calculo-do-pis-e-da-cofins",
         "categoria": "Justiça",
         "data": "2026-10-21",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/ao-vivo-stf-retoma-julgamento-sobre-iss-no-pis-e-na-cofins.jpg",
-        "resumo": "Segundo estimativas, a exclusão do imposto da base de cálculo resultaria em perda de R$ 35,4 bilhões para os cofres públicos. Leia no Poder360.",
-        "conteudo": "<p>Segundo estimativas, a exclusão do imposto da base de cálculo resultaria em perda de R$ 35,4 bilhões para os cofres públicos</p><h2>Supremo Tribunal Federal retoma às 14h desta 4ª feira</h2><p>O Supremo Tribunal Federal retoma às 14h desta 4ª feira (21.out.2026) o julgamento do Recurso Extraordinário 592616 , que discute se o ISS (Imposto Sobre Serviços) deve ser excluído da base de cálculo do PIS/Cofins.</p><p>A análise começou em 2020 e pode ter impacto bilionário nas contas públicas. Segundo estimativas do governo federal, uma decisão favorável à exclusão do imposto da base de cálculo das contribuições resultaria em perda de R$ 35,4 bilhões para os cofres públicos em 5 anos.</p><h2>Julgamento definirá se o valor recolhido pelos contribuintes</h2><p>O julgamento definirá se o valor recolhido pelos contribuintes a título de ISS deve integrar a base usada para calcular o PIS e a Cofins, tributos federais que financiam, entre outras áreas, a seguridade social.</p><p>A decisão poderá estabelecer um precedente relevante para empresas que discutem a tributação sobre o faturamento e para a arrecadação da União.</p><p>Formulário de cadastro alertas grátis do Poder360 concordo com os termos da LGPD . Inscreva-se Inscreva-se</p><p>Ao vivo: STF retoma julgamento sobre ISS no PIS e na Cofins Segundo estimativas, a exclusão do imposto da base de cálculo resultaria em perda de R$ 35,4 bilhões para os cofres públicos --> copiar link --></p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/stf-exclui-iss-da-base-de-calculo-do-pis-e-da-cofins.jpg",
+        "resumo": "Ministro Luiz Fux desempata julgamento a favor das empresas. Leia no Poder360.",
+        "conteudo": "<p>Ministro Luiz Fux desempata julgamento a favor das empresas</p><h2>Supremo Tribunal Federal formou maioria nesta 4ª feira (21</h2><p>O Supremo Tribunal Federal formou maioria nesta 4ª feira (21.out.2026) contra a inclusão do ISS (Imposto sobre Serviços) na base de cálculo do PIS e da Cofins. O voto decisivo foi proferido pelo ministro Luiz Fux, que desempatou o placar que estava em 5 a 5.</p><p>Com o posicionamento de Fux, o julgamento do Tema 118 da repercussão geral (RE 592616 ) alcançou 6 votos favoráveis ao pedido das empresas para retirar o imposto municipal do cálculo das contribuições federais.</p><p>Formulário de cadastro alertas grátis do Poder360 concordo com os termos da LGPD . Inscreva-se Inscreva-se</p><h2>Em seu voto, Fux declarou que o valor</h2><p>Em seu voto, Fux declarou que o valor do ISS cobrado pelas prefeituras não se incorpora com definitividade ao patrimônio do pagador de impostos, constituindo apenas uma “mera entrada financeira” .</p><p>Segundo o ministro, a receita tributável engloba somente os recursos que entram em definitivo para o patrimônio da companhia.</p><p>O julgamento do recurso extraordinário estava empatado em 5 a 5. Votaram no mesmo sentido de Fux os ministros aposentados Celso de Mello (relator), Rosa Weber e Ricardo Lewandowski , além da ministra Cármen Lúcia e do ministro aposentado Marco Aurélio .</p><p>Os ministros André Mendonça , Cristiano Zanin , Nunes Marques e Flávio Dino não votaram porque os votos dos seus antecessores no tribunal foram preservados.</p><p>A divergência, favorável à manutenção do imposto municipal na base de cálculo, reuniu 5 votos: Dias Toffoli , Alexandre de Moraes , Edson Fachin , Gilmar Mendes e o ministro aposentado Luís Roberto Barroso .</p><p>Para esse grupo, o valor cobrado integra o faturamento bruto e a receita tributável para fins de incidência das contribuições.</p><p>A discussão sobre o tributo municipal é considerada uma das “teses filhotes” decorrentes do julgamento do STF em 2017, que excluiu o ICMS da base do PIS e da Cofins.</p><p>A LDO (Lei de Diretrizes Orçamentárias) de 2026 estipula uma estimativa fiscal potencial de R$ 35,4 bilhões em impacto para os cofres públicos ao longo de 5 anos.</p><p>STF exclui ISS da base de cálculo do PIS e da Cofins Ministro Luiz Fux desempata julgamento a favor das empresas --> copiar link --></p>",
         "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-justica/ao-vivo-stf-retoma-julgamento-sobre-iss-no-pis-e-na-cofins/",
+        "fonteUrl": "https://www.poder360.com.br/poder-justica/stf-exclui-iss-da-base-de-calculo-do-pis-e-da-cofins/",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -755,15 +859,15 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Segundo estimativas, a exclusão do imposto da base de cálculo resultaria em perda de R$ 35,4 bilhões para os cofres públicos"
+            "resposta": "Ministro Luiz Fux desempata julgamento a favor das empresas"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Supremo Tribunal Federal retoma às 14h desta 4ª feira (21.out.2026) o julgamento do Recurso Extraordinário 592616 , que discute se o ISS (Imposto Sobre Serviços) deve ser excluído da base de cálculo do PIS/Cofins. A análise começou em 2020 e pode ter impacto bilionário nas contas públicas. Segundo estimativas do governo federal, uma decisão favorável à exc"
+            "resposta": "O Supremo Tribunal Federal formou maioria nesta 4ª feira (21.out.2026) contra a inclusão do ISS (Imposto sobre Serviços) na base de cálculo do PIS e da Cofins. O voto decisivo foi proferido pelo ministro Luiz Fux, que desempatou o placar que estava em 5 a 5."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O julgamento definirá se o valor recolhido pelos contribuintes a título de ISS deve integrar a base usada para calcular o PIS e a Cofins, tributos federais que financiam, entre outras áreas, a seguridade social. A decisão poderá estabelecer um precedente relevante para empresas que discutem a tributação sobre o faturamento e para a arrecadação da União."
+            "resposta": "Com o posicionamento de Fux, o julgamento do Tema 118 da repercussão geral (RE 592616 ) alcançou 6 votos favoráveis ao pedido das empresas para retirar o imposto municipal do cálculo das contribuições federais."
           },
           {
             "pergunta": "Qual é o contexto?",
@@ -771,29 +875,161 @@
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Ao vivo: STF retoma julgamento sobre ISS no PIS e na Cofins Segundo estimativas, a exclusão do imposto da base de cálculo resultaria em perda de R$ 35,4 bilhões para os cofres públicos --> copiar link -->"
+            "resposta": "Em seu voto, Fux declarou que o valor do ISS cobrado pelas prefeituras não se incorpora com definitividade ao patrimônio do pagador de impostos, constituindo apenas uma “mera entrada financeira” . Segundo o ministro, a receita tributável engloba somente os recursos que entram em definitivo para o patrimônio da companhia."
           }
         ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/stf-sessao-funrural-15-outubro-2026-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/ao-vivo-stf-retoma-julgamento-sobre-iss-no-pis-e-na-cofins.jpg",
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/03/plenario-stf.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/stf-exclui-iss-da-base-de-calculo-do-pis-e-da-cofins.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "56da220b9ed33b1e",
+      "titulo": "STF começa a julgar exclusão do ISS da base do PIS/Cofins; impacto é de R$ 35,4 bi",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/brasil/stf-comeca-a-julgar-exclusao-do-iss-da-base-do-pis-cofins-impacto-e-de-r-354-bi/",
+      "dataFonte": "2026-10-21T18:37:17.000Z",
+      "resumoFonte": "Atualmente, o placar está empatado em 5 a 5",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/12/53627506793_ad418541b2_k.jpg?w=1000&h=630&crop=1",
+      "descobertaEm": "2026-10-21T18:42:17.358Z",
+      "reportagem": {
+        "titulo": "STF começa a julgar exclusão do ISS da base do PIS/Cofins; impacto é de R$ 35,4 bi | Jovem Pan",
+        "slug": "stf-comeca-a-julgar-exclusao-do-iss-da-base-do-pis-cofins-impacto-e-de-r-35-4-bi-jovem-pan",
+        "categoria": "Justiça",
+        "data": "2026-10-21",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/stf-comeca-a-julgar-exclusao-do-iss-da-base-do-pis-cofins-impacto-e-de-r-35-4-bi-jovem-pan.jpg",
+        "resumo": "STF começa a julgar exclusão do ISS da base do PIS/Cofins; impacto é de R$ 35,4 bi | Jovem Pan. Registro original em Jovem Pan - Feed. A Redação Notícia ES reapurou a pauta para a editoria Justiça.",
+        "conteudo": "<p>O Supremo Tribunal Federal (STF) retomou , no período da tarde desta quarta-feira (21), o julgamento que discute se o Imposto sobre Serviços (ISS) entra na base de cálculo do PIS/Cofins .</p><h2>Impacto para a União em caso de derrota é</h2><p>O impacto para a União em caso de derrota é de até R$ 35,4 bilhões, de acordo com estimativa publicada na Lei de Diretrizes Orçamentárias (LDO) de 2026 .</p><p>Atualmente, o placar está empatado em 5 a 5. O único voto que falta para a conclusão é o do ministro Luiz Fux, encarregado do desempate .</p><p>Em março, o Broadcast (sistema de notícias em tempo real do Grupo Estado) mostrou que Rodrigo Fux, filho do ministro, atua na defesa de empresas em diversas ações que pedem a exclusão do ISS da base do PIS/Cofins.</p><h2>Processos em questão tramitam na Justiça Federal, e</h2><p>Os processos em questão tramitam na Justiça Federal, e não no STF, por isso não há um impedimento formal para que o ministro participe do julgamento.</p><p>Mas o Supremo julga o caso com repercussão geral, o que significa que todas as ações sobre o tema serão diretamente afetadas com a decisão .</p><p>Flávio pede a Moraes acesso a inquérito sobre suspeita de lavagem de dinheiro</p><p>Investigação envolve advogado Willer Tomaz, amigo do candidato; campanha nega irregularidades e demonstra preocupação com andamento do caso</p><p>12 membros da Voepass se tornam réus pelo acidente que matou 62 pessoas</p><p>Tarcísio demite novamente PM acusado de matar lutador de jiu-jitsu Leandro Lo</p><p>São Paulo tem previsão de chuva isolada nesta quarta; veja como fica o tempo</p><p>PF faz operação contra fraudes em concurso público no Rio</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/brasil/stf-comeca-a-julgar-exclusao-do-iss-da-base-do-pis-cofins-impacto-e-de-r-354-bi/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Supremo Tribunal Federal (STF) retomou , no período da tarde desta quarta-feira (21), o julgamento que discute se o Imposto sobre Serviços (ISS) entra na base de cálculo do PIS/Cofins . O impacto para a União em caso de derrota é de até R$ 35,4 bilhões, de acordo com estimativa publicada na Lei de Diretrizes Orçamentárias (LDO) de 2026 ."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Atualmente, o placar está empatado em 5 a 5. O único voto que falta para a conclusão é o do ministro Luiz Fux, encarregado do desempate ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Em março, o Broadcast (sistema de notícias em tempo real do Grupo Estado) mostrou que Rodrigo Fux, filho do ministro, atua na defesa de empresas em diversas ações que pedem a exclusão do ISS da base do PIS/Cofins."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Os processos em questão tramitam na Justiça Federal, e não no STF, por isso não há um impedimento formal para que o ministro participe do julgamento. Mas o Supremo julga o caso com repercussão geral, o que significa que todas as ações sobre o tema serão diretamente afetadas com a decisão ."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Flávio pede a Moraes acesso a inquérito sobre suspeita de lavagem de dinheiro"
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/12/53627506793_ad418541b2_k.jpg?w=1000&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/stf-comeca-a-julgar-exclusao-do-iss-da-base-do-pis-cofins-impacto-e-de-r-35-4-bi-jovem-pan.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "ad14cdf7125c817a",
+      "titulo": "Mulher denuncia ex por ameaças, aciona botão do pânico e é encontrada morta",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/distrito-federal/na-mira/mulher-denuncia-ex-por-ameacas-aciona-botao-do-panico-e-e-encontrada-morta",
+      "dataFonte": "2026-10-21T18:17:47.000Z",
+      "resumoFonte": "Daiana Gisele Müller, que possuía medidas protetivas de urgência contra o ex-marido, foi encontrada morta submersa em um riacho",
+      "imagem": "https://i.metroimg.com/EtMLwiTJSuq2HzSTBlXPjvTjosPpKs0RIXzMUcHlF1w/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/scc.jpg",
+      "descobertaEm": "2026-10-21T18:18:31.333Z"
+    },
+    {
+      "id": "a85f3a255c7ce6c7",
+      "titulo": "Bloquear canais de WhatsApp altera disputa e cria insegurança, afirmam juristas em nota ao TSE",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/bloquear-canais-de-whatsapp-altera-disputa-e-cria-inseguranca-afirmam-juristas-em-nota-ao-tse.shtml",
+      "dataFonte": "2026-10-21T17:55:00.000Z",
+      "resumoFonte": "Um grupo de 110 juristas, pesquisadores e líderes da sociedade civil enviou nesta quarta-feira (21) uma nota técnica ao TSE (Tribunal Superior Eleitoral) afirmando que o bloqueio de canais políticos de WhatsApp nas vésperas da eleição \"restringe a liberdade política de cidadãos e altera significativamente as condições da disputa eleitoral a poucos…",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/21/17926048606ad8fabc13145_1792604860_3x2_rt.jpg",
+      "descobertaEm": "2026-10-21T18:18:31.333Z",
+      "reportagem": {
+        "titulo": "Bloquear canais de WhatsApp altera disputa e cria insegurança, afirmam juristas em nota ao TSE",
+        "slug": "bloquear-canais-de-whatsapp-altera-disputa-e-cria-inseguranca-afirmam-juristas-em-nota-ao-",
+        "categoria": "Justiça",
+        "data": "2026-10-21",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/bloquear-canais-de-whatsapp-altera-disputa-e-cria-inseguranca-afirmam-juristas-em-nota-ao-.jpg",
+        "resumo": "Bloquear canais de WhatsApp altera disputa e cria insegurança, afirmam juristas em nota ao TSE. Registro original em Folha de S.Paulo - Poder. A Redação Notícia ES reapurou a pauta para a editoria Justiça.",
+        "conteudo": "<p>Um grupo de 110 juristas, pesquisadores e líderes da sociedade civil enviou nesta quarta-feira (21) uma nota técnica ao TSE (Tribunal Superior Eleitoral) afirmando que o bloqueio de canais políticos de WhatsApp nas vésperas da eleição \"restringe a liberdade política de cidadãos e altera significativamente as condições da disputa eleitoral a poucos dias da votação.\"</p><h2>Folha revelou que o presidente do TSE (Tribunal Superior</h2><p>A Folha revelou que o presidente do TSE (Tribunal Superior Eleitoral), Kassio Nunes Marques , e o ministro André Mendonça circularam uma minuta de resolução para bloquear todos os canais do aplicativo de mensagens com mais de 200 mil usuários nas 48 horas anteriores à eleição.</p><p>A proposta, de autoria de Mendonça, atingiria em cheio o \" Exército do Lula \", canal de WhatsApp criado pelo deputado André Janones (Rede-MG) que já tem mais de 7 milhões de inscritos e mobiliza a esquerda nas redes.</p><p>A campanha de Flávio Bolsonaro já entrou com várias representações junto ao TSE pedindo a derrubada do canal de Janones. O grupo já foi censurado por Kassio , mas voltou ao ar.</p><h2>Canal de apoio a Flávio no WhatsApp, o \"Tropa</h2><p>O canal de apoio a Flávio no WhatsApp, o \"Tropa do Flávio\", também seria atingido, mas ele tem 2 milhões de inscritos, bem menos que o de Lula , e engajamento menor.</p><p>A nota técnica assinada por juristas como Oscar Vilhena, Ana Frazão, Ingo Sarlet, e ex-integrantes do TSE como Luciana Lossio e Edilene Lobo classifica como um erro a proposta de Mendonça de equiparar os canais de WhatsApp a propaganda paga ou impulsionada, proibida entre as 48 horas anteriores e as 24 horas posteriores à eleição.</p><p>Impulsionamento, explica a nota, é o serviço que, mediante contratação com o provedor, potencializa o alcance do conteúdo para atingir usuários que normalmente não teriam acesso a ele.</p><p>Exige contratação, ampliação artificial do alcance e entrega a quem não escolheu receber. \"O canal não tem nenhum desses elementos: é gratuito, não tem alcance potencializado e só chega a quem decidiu segui-lo.\"</p><p>Segundo os juristas, \"uma interpretação que submeta os canais às restrições temporais próprias do impulsionamento pago poderia impedir a continuidade da comunicação política por meio de funcionalidades ordinárias.\"</p><p>Conforme a nota, a equiparação de canais públicos de WhatsApp ao impulsionamento confundiria duas categorias que a legislação deliberadamente distingue: a difusão orgânica de propaganda eleitoral e a contratação remunerada de serviços de ampliação de alcance.</p><p>A própria Meta, controladora do WhatsApp, enfatiza essa diferença no plano de conformidade que submeteu ao TSE. A empresa esclarece que o mensageiro não classifica nem recomenda mensagens e não oferece impulsionamento pago de conteúdo político-eleitoral.</p><p>\"Os canais são funcionalmente semelhantes a perfis e páginas de redes sociais, eles permitem que administradores publiquem textos, imagens, vídeos, áudios e links para uma audiência que voluntariamente optou por acompanhá-los.\"</p><p>Os juristas argumentam que a mobilização realizada por meio de canais do aplicativo como os de apoio a Lula e Flávio Bolsonaro é lícita.</p><p>Eles citam o artigo 28 da resolução de propaganda do TSE de 2019 que \"reconhece a licitude da propaganda eleitoral em canais e perfis de pessoas naturais que alcancem grandes audiências ou participem de mobilizações destinadas a ampliar o alcance orgânico de mensagens, inclusive por meio de compartilhamentos simultâneos e hashtags\".</p><p>Eles advertem que uma mudança nas regras \"às vésperas da votação comprometeria a segurança jurídica\".</p><p>\"A introdução de uma nova equiparação jurídica, com efeitos restritivos sobre a comunicação política a poucos dias do segundo turno, suscitaria problemas relevantes de legalidade, previsibilidade e segurança jurídica.\"</p><p>Os signatários afirmam que a manutenção dos grupos não significa deixar de identificar conteúdos ou comportamentos irregulares e adotar medidas proporcionais.</p><p>\"Isso é inclusive totalmente possível no caso de canais de WhatsApp, que pela sua natureza são públicos e podem ser facilmente fiscalizados, como inclusive já ocorreu durante este pleito eleitoral\", dizem.</p><p>Receba no seu email destaques das campanhas, pesquisas e disputas nos estados</p><p>Mais de 180 reportagens e análises publicadas a cada dia. Um time com mais de 200 colunistas e blogueiros.</p><p>Um jornalismo profissional que fiscaliza o poder público, veicula notícias proveitosas e inspiradoras, faz contraponto à intolerância das redes sociais e traça uma linha clara entre verdade e mentira.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/bloquear-canais-de-whatsapp-altera-disputa-e-cria-inseguranca-afirmam-juristas-em-nota-ao-tse.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Um grupo de 110 juristas, pesquisadores e líderes da sociedade civil enviou nesta quarta-feira (21) uma nota técnica ao TSE (Tribunal Superior Eleitoral) afirmando que o bloqueio de canais políticos de WhatsApp nas vésperas da eleição \"restringe a liberdade política de cidadãos e altera significativamente as condições da disputa eleitoral a poucos dias da vo"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A Folha revelou que o presidente do TSE (Tribunal Superior Eleitoral), Kassio Nunes Marques , e o ministro André Mendonça circularam uma minuta de resolução para bloquear todos os canais do aplicativo de mensagens com mais de 200 mil usuários nas 48 horas anteriores à eleição."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A proposta, de autoria de Mendonça, atingiria em cheio o \" Exército do Lula \", canal de WhatsApp criado pelo deputado André Janones (Rede-MG) que já tem mais de 7 milhões de inscritos e mobiliza a esquerda nas redes."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A campanha de Flávio Bolsonaro já entrou com várias representações junto ao TSE pedindo a derrubada do canal de Janones. O grupo já foi censurado por Kassio , mas voltou ao ar."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O canal de apoio a Flávio no WhatsApp, o \"Tropa do Flávio\", também seria atingido, mas ele tem 2 milhões de inscritos, bem menos que o de Lula , e engajamento menor."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/21/17926048606ad8fabc13145_1792604860_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/bloquear-canais-de-whatsapp-altera-disputa-e-cria-inseguranca-afirmam-juristas-em-nota-ao-.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     }
   ],
-  "reapuradoEm": "2026-10-21T17:49:36.589Z",
+  "reapuradoEm": "2026-10-21T18:50:19.098Z",
   "diagnosticoReapuracao": {
-    "produzidas": 12,
+    "produzidas": 15,
     "jaProntas": 0,
-    "incompletas": 4,
+    "incompletas": 9,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 12,
+    "geradas": 14,
     "reaproveitadas": 0,
-    "puladas": 4,
+    "puladas": 9,
     "semFoto": 0,
-    "falhas": 0
+    "falhas": 1
   },
-  "lapisEm": "2026-10-21T17:50:30.342Z"
+  "lapisEm": "2026-10-21T18:51:19.290Z"
 }
