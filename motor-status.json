@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-21T13:18:45.221Z",
+  "atualizadoEm": "2026-10-21T13:52:45.209Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 99,
+  "novasPautas": 88,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -63,7 +63,7 @@
     {
       "fonte": "A Gazeta - Polícia",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 5,
       "capa": false,
       "rota": "https://www.agazeta.com.br/es/policia",
       "fallback": false
@@ -194,9 +194,11 @@
     },
     {
       "fonte": "ES Hoje",
-      "ok": false,
-      "erro": "https://www.eshoje.com.br/ -> 403 Forbidden",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://www.eshoje.com.br/",
+      "fallback": false
     },
     {
       "fonte": "Século Diário",
@@ -208,9 +210,11 @@
     },
     {
       "fonte": "ES Hoje - Política",
-      "ok": false,
-      "erro": "https://www.eshoje.com.br/politica/ -> 403 Forbidden",
-      "capa": false
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://www.eshoje.com.br/politica/",
+      "fallback": false
     },
     {
       "fonte": "Poder360",
@@ -299,7 +303,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 9,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -325,7 +329,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 8,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -378,7 +382,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-21T13:22:06.078Z",
+    "atualizadoEm": "2026-10-21T13:55:24.078Z",
     "novas": 4,
     "fontes": [
       {
@@ -439,7 +443,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-21T13:22:08.089Z",
+    "atualizadoEm": "2026-10-21T13:55:25.367Z",
     "novas": 0,
     "fontes": [
       {
@@ -455,13 +459,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-21T13:22:08.962Z",
+    "atualizadoEm": "2026-10-21T13:55:26.266Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-21T13:22:19.525Z",
+    "atualizadoEm": "2026-10-21T13:55:36.825Z",
     "novas": 0,
     "fontes": [
       {
