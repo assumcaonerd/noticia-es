@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-22T21:18:14.247Z",
+  "atualizadoEm": "2026-10-22T22:18:12.290Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 99,
+  "novasPautas": 98,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -142,9 +142,11 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": false,
-      "erro": "https://ipbvit.org.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://ipbvit.org.br/",
+      "fallback": false
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -297,7 +299,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 4,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -323,7 +325,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 6,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -351,7 +353,7 @@
     {
       "fonte": "BBC Brasil",
       "ok": true,
-      "encontrados": 16,
+      "encontrados": 15,
       "rota": "https://feeds.bbci.co.uk/portuguese/rss.xml",
       "fallback": false
     },
@@ -376,8 +378,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-22T21:20:34.043Z",
-    "novas": 4,
+    "atualizadoEm": "2026-10-22T22:20:57.044Z",
+    "novas": 3,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -437,7 +439,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-22T21:20:35.386Z",
+    "atualizadoEm": "2026-10-22T22:20:58.517Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +455,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-22T21:20:36.265Z",
+    "atualizadoEm": "2026-10-22T22:20:59.330Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-22T21:20:46.840Z",
+    "atualizadoEm": "2026-10-22T22:21:09.905Z",
     "novas": 0,
     "fontes": [
       {
