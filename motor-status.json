@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-22T14:18:57.286Z",
+  "atualizadoEm": "2026-10-22T15:18:17.954Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 80,
+  "novasPautas": 86,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -63,7 +63,7 @@
     {
       "fonte": "A Gazeta - Polícia",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 4,
       "capa": false,
       "rota": "https://www.agazeta.com.br/es/policia",
       "fallback": false
@@ -142,9 +142,11 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": false,
-      "erro": "https://ipbvit.org.br/ -> 403 Forbidden",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://ipbvit.org.br/",
+      "fallback": false
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -290,14 +292,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 8,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 3,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -323,7 +325,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 9,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,8 +378,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-22T14:22:28.974Z",
-    "novas": 5,
+    "atualizadoEm": "2026-10-22T15:21:09.906Z",
+    "novas": 4,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -437,7 +439,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-22T14:22:31.078Z",
+    "atualizadoEm": "2026-10-22T15:21:11.616Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +455,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-22T14:22:32.221Z",
+    "atualizadoEm": "2026-10-22T15:21:12.579Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-22T14:22:42.798Z",
+    "atualizadoEm": "2026-10-22T15:21:23.170Z",
     "novas": 0,
     "fontes": [
       {
