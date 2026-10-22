@@ -40,3 +40,5 @@ for(const match of manifest.matchAll(/["'](auto-redacao-[a-zA-Z0-9-]+\.js)["']/g
 }
 console.log('Paginas geradas: '+made+'; erros: '+errors);
 if(errors)process.exitCode=1;
+
+// Atualizacao para disparar a primeira geracao.
