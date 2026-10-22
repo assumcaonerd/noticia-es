@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-21T23:18:27.385Z",
+  "atualizadoEm": "2026-10-22T00:18:05.785Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 85,
+  "novasPautas": 83,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -31,7 +31,7 @@
     {
       "fonte": "Revista Oeste - Capa",
       "ok": true,
-      "encontrados": 2,
+      "encontrados": 3,
       "capa": true,
       "rota": "https://revistaoeste.com/",
       "fallback": false
@@ -299,7 +299,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 6,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -325,7 +325,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 8,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -378,7 +378,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-21T23:21:39.019Z",
+    "atualizadoEm": "2026-10-22T00:21:04.121Z",
     "novas": 0,
     "fontes": [
       {
@@ -393,8 +393,8 @@
       },
       {
         "fonte": "YouTube ALES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -408,8 +408,8 @@
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
@@ -439,7 +439,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-21T23:21:40.949Z",
+    "atualizadoEm": "2026-10-22T00:21:05.665Z",
     "novas": 0,
     "fontes": [
       {
@@ -455,13 +455,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-21T23:21:42.147Z",
+    "atualizadoEm": "2026-10-22T00:21:06.607Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-21T23:21:52.725Z",
+    "atualizadoEm": "2026-10-22T00:21:17.188Z",
     "novas": 0,
     "fontes": [
       {
