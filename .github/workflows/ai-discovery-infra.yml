@@ -72,7 +72,18 @@ jobs:
           git add m/ sitemap.xml sitemap-news.xml rss.xml llms.txt
           if ! git diff --cached --quiet; then
             git commit -m "seo(ai): atualiza páginas, feeds e dados estruturados"
-            git push origin HEAD:main
+            for tentativa in 1 2 3 4; do
+              if git push origin HEAD:main; then
+                echo "Arquivos publicados com sucesso."
+                break
+              fi
+              echo "Push concorrente detectado; atualizando branch (tentativa ${tentativa}/4)."
+              git pull --rebase origin main || exit 1
+              if [ "$tentativa" -eq 4 ]; then
+                git push origin HEAD:main || exit 1
+              fi
+              sleep 5
+            done
           fi
 
       - name: Notificar IndexNow
