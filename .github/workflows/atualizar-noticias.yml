@@ -27,6 +27,17 @@ jobs:
         with:
           fetch-depth: 0
 
+      # A execução pode aguardar outras coletas enquanto a main avança.
+      # O checkout padrão fixa o commit que disparou o workflow, então
+      # sincronize antes de coletar para preservar pautas/status já gravados.
+      - name: Sincronizar a main mais recente antes da coleta
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git reset --hard origin/main
+          echo "Base atualizada para $(git rev-parse --short HEAD)"
+
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
