@@ -69,22 +69,39 @@ jobs:
         run: |
           git config user.name "Notícia ES Discovery Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add m/ sitemap.xml sitemap-news.xml rss.xml llms.txt
-          if ! git diff --cached --quiet; then
+          # Regera os mesmos artefatos sobre o HEAD remoto mais recente quando
+          # outra automacao publicar paginas simultaneamente. Nao faz force-push.
+          for tentativa in 1 2 3 4; do
+            git add m/ sitemap.xml sitemap-news.xml rss.xml llms.txt
+            if git diff --cached --quiet; then
+              echo "Sem novos arquivos para publicar."
+              exit 0
+            fi
+
             git commit -m "seo(ai): atualiza páginas, feeds e dados estruturados"
-            for tentativa in 1 2 3 4; do
-              if git push origin HEAD:main; then
-                echo "Arquivos publicados com sucesso."
-                break
-              fi
-              echo "Push concorrente detectado; atualizando branch (tentativa ${tentativa}/4)."
-              git pull --rebase origin main || exit 1
-              if [ "$tentativa" -eq 4 ]; then
-                git push origin HEAD:main || exit 1
-              fi
-              sleep 5
-            done
-          fi
+            if git push origin HEAD:main; then
+              echo "Arquivos publicados com sucesso."
+              exit 0
+            fi
+
+            if [ "$tentativa" -eq 4 ]; then
+              echo "Falha ao publicar depois de 4 tentativas."
+              exit 1
+            fi
+
+            echo "Publicacao concorrente detectada. Sincronizando e regenerando artefatos (tentativa ${tentativa}/4)."
+            git fetch origin main
+            # Este runner e descartavel. Os artefatos gerados localmente sao
+            # reconstruidos a partir do codigo e conteudo mais novos da main.
+            git reset --hard origin/main
+            node scripts/gerar-paginas-og.mjs
+            node scripts/reposicionar-aeo.mjs
+            node scripts/enriquecer-ai-schema.mjs
+            node scripts/gerar-sitemap.mjs
+            node scripts/gerar-rss-llms.mjs
+            node scripts/validar-cards-sociais.mjs
+            sleep 3
+          done
 
       - name: Notificar IndexNow
         run: node scripts/notificar-indexnow.mjs
