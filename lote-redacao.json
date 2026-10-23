@@ -1,38 +1,98 @@
 {
-  "geradoEm": "2026-10-23T01:07:46.726Z",
+  "geradoEm": "2026-10-23T01:56:46.184Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 0,
     "bloqueadasEditoriais": 0,
     "semImagem": 0,
-    "duplicadasBasicas": 14,
-    "duplicadasSemanticas": 0,
-    "foraCategorias": 55
+    "duplicadasBasicas": 1,
+    "duplicadasSemanticas": 1,
+    "foraCategorias": 58
   },
-  "quantidadeCandidatas": 11,
+  "quantidadeCandidatas": 20,
   "candidatas": [
     {
-      "id": "75f80002ccdc4893",
-      "titulo": "Lula anuncia criação de secretaria para orientar finanças populares caso seja eleito",
+      "id": "238114780e1bc281",
+      "titulo": "Ajudante de pedreiro é morto a tiros em frente a barbearia na Serra",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/ajudante-de-pedreiro-e-morto-a-tiros-em-frente-a-barbearia-na-serra-1026",
+      "dataFonte": "2026-10-23T00:41:14.000Z",
+      "resumoFonte": "Perícia encontrou cerca de 40 cápsulas de munição no local; disparos também atingiram uma barbearia, um carro e uma distribuidora de bebidas",
+      "imagem": "https://files.ndeal.app/api/images/proxy?quality=100&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1792714804493_copia_de_template_radar_a_gazeta_20.jpg",
+      "descobertaEm": "2026-10-23T01:18:15.765Z",
+      "reportagem": {
+        "titulo": "Ajudante de pedreiro é morto a tiros em frente a barbearia na Serra",
+        "slug": "ajudante-de-pedreiro-e-morto-a-tiros-em-frente-a-barbearia-na-serra",
+        "categoria": "Segurança Pública",
+        "data": "2026-10-22",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/ajudante-de-pedreiro-e-morto-a-tiros-em-frente-a-barbearia-na-serra.jpg",
+        "resumo": "Perícia encontrou cerca de 40 cápsulas de munição no local; disparos também atingiram uma barbearia, um carro e uma distribuidora de bebidas",
+        "conteudo": "<p>O ajudante de pedreiro Nilton Rufino Siqueira, de 22 anos, foi morto a tiros no bairro Cascata, na Serra, nesta quinta-feira (22). Segundo testemunhas, a vítima estava em frente a uma barbearia quando uma pessoa passou atirando de dentro de um carro.</p><h2>Perícia da Polícia Científica encontrou cerca de 40 cápsulas</h2><p>A perícia da Polícia Científica encontrou cerca de 40 cápsulas de munição no local do crime e identificou 14 perfurações no corpo da vítima, atingida na cabeça, no braço e no glúteo. Até a publicação desta matéria, ninguém havia sido preso.</p><p>O proprietário da barbearia contou que cortava o cabelo de um funcionário dentro do estabelecimento quando ouviu os disparos. Os dois precisaram se esconder para se proteger.</p><p>Durante o ataque, a porta de vidro da barbearia foi atingida por projéteis e quebrou. Os tiros também atingiram o carro do barbeiro e uma distribuidora de bebidas localizada nas proximidades.</p><h2>Pai da vítima, o pedreiro Pedro Ernesio Siqueira, contou</h2><p>O pai da vítima, o pedreiro Pedro Ernesio Siqueira, contou que o filho havia deixado o envolvimento com o tráfico de drogas e começado a trabalhar como ajudante de pedreiro. Segundo ele, Nilton estava tentando reconstruir a vida quando foi assassinado.</p><p>“Eu espero que peguem as câmeras e descubram alguma coisa. Porque é difícil você perder um filho pelo passado. Ele estava trabalhando; o menino estava se consertando.</p><p>É um orgulho para o pai saber que o filho saiu da situação. Depois de passar pelo processo dele, saindo dessa situação, a gente fica, assim, também amargurado”, desabafou.</p><p>Pedro contou ainda que o filho gostava de pescar e os dois conversavam diariamente. Agora, o pai diz que restam as lembraças e a dor da perda.</p><p>“E isso aí (o assassinato) serve para os rapazes que estão nessa vida. A dor para uma mãe e um pai que perdem um filho para as drogas é terrível. Eu espero que eles escutem isso aí e vejam que é difícil\", alertou o pai.</p><p>A Polícia Civil foi demandada para mais informações. A matéria será atualizada quando houver retorno.</p>",
+        "fonteNome": "A Gazeta - Polícia",
+        "fonteUrl": "https://www.agazeta.com.br/es/policia/ajudante-de-pedreiro-e-morto-a-tiros-em-frente-a-barbearia-na-serra-1026",
+        "fontesAdicionais": [
+          {
+            "nome": "SESP-ES",
+            "url": "https://sesp.es.gov.br/Noticias"
+          },
+          {
+            "nome": "Polícia Civil do ES",
+            "url": "https://pc.es.gov.br/Noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O ajudante de pedreiro Nilton Rufino Siqueira, de 22 anos, foi morto a tiros no bairro Cascata, na Serra, nesta quinta-feira (22). Segundo testemunhas, a vítima estava em frente a uma barbearia quando uma pessoa passou atirando de dentro de um carro."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A perícia da Polícia Científica encontrou cerca de 40 cápsulas de munição no local do crime e identificou 14 perfurações no corpo da vítima, atingida na cabeça, no braço e no glúteo. Até a publicação desta matéria, ninguém havia sido preso."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O proprietário da barbearia contou que cortava o cabelo de um funcionário dentro do estabelecimento quando ouviu os disparos. Os dois precisaram se esconder para se proteger."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Durante o ataque, a porta de vidro da barbearia foi atingida por projéteis e quebrou. Os tiros também atingiram o carro do barbeiro e uma distribuidora de bebidas localizada nas proximidades."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O pai da vítima, o pedreiro Pedro Ernesio Siqueira, contou que o filho havia deixado o envolvimento com o tráfico de drogas e começado a trabalhar como ajudante de pedreiro. Segundo ele, Nilton estava tentando reconstruir a vida quando foi assassinado."
+          }
+        ],
+        "imagemOriginal": "https://files.ndeal.app/api/images/proxy?quality=100&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1792714804493_copia_de_template_radar_a_gazeta_20.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/ajudante-de-pedreiro-e-morto-a-tiros-em-frente-a-barbearia-na-serra.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "f78a84de6bf62d84",
+      "titulo": "Apoiadores de Flávio Bolsonaro promovem atos em Maceió e no Recife",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/politica/lula-anuncia-criacao-de-secretaria-para-orientar-financas-populares-caso-seja-eleito/",
-      "dataFonte": "2026-10-22T23:54:25.000Z",
-      "resumoFonte": "O presidente do Brasil, Luiz Inácio Lula da Silva, candidato do PT à reeleição, discursa durante cerimônia no Palácio do Planalto, em Brasília, em 13 de outubro de 2026. REUTERS/Adriano Machado \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-13T162847Z_6358936_RC2D2OA22QZI_RTRMADP_3_BRAZIL-ELECTION-LULA.jpg?fit=12…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-13T162847Z_6358936_RC2D2OA22QZI_RTRMADP_3_BRAZIL-ELECTION-LULA.jpg",
-      "descobertaEm": "2026-10-23T00:18:33.394Z",
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/apoiadores-de-flavio-bolsonaro-promovem-atos-em-maceio-e-no-recife.shtml",
+      "dataFonte": "2026-10-23T01:28:00.000Z",
+      "resumoFonte": "Apoiadores do presidenciável Flávio Bolsonaro ( PL ) promoveram atos a favor do candidato na noite desta quinta-feira (22), em Maceió e no Recife . Leia mais (10/22/2026 - 22h28)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/22/17927171316adab14b90fe1_1792717131_3x2_lg.jpg",
+      "descobertaEm": "2026-10-23T01:34:56.249Z",
       "reportagem": {
-        "titulo": "Lula anuncia criação de secretaria para orientar finanças populares caso seja eleito",
-        "slug": "lula-anuncia-criacao-de-secretaria-para-orientar-financas-populares-caso-seja-eleito",
+        "titulo": "Apoiadores de Flávio Bolsonaro promovem atos em Maceió e no Recife",
+        "slug": "apoiadores-de-flavio-bolsonaro-promovem-atos-em-maceio-e-no-recife",
         "categoria": "Política Nacional",
         "data": "2026-10-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-anuncia-criacao-de-secretaria-para-orientar-financas-populares-caso-seja-eleito.jpg",
-        "resumo": "Um dos nomes sugeridos para a possível pasta seria da economista e influenciadora Nath Finanças",
-        "conteudo": "<p>O presidente e candidato à reeleição Luiz Inácio Lula da Silva (PT) anunciou, em live promovida pelo deputado federal André Janones (Rede-MG) nesta quinta-feira (22) a intenção de criar uma secretaria para orientar as finanças populares caso seja reeleito.</p><h2>Ele sugeriu a atuação da influenciadora digital Nath Finanças,</h2><p>Ele sugeriu a atuação da influenciadora digital Nath Finanças, que participou da live, nessa possível pasta.</p><p>“Talvez eu queira criar uma secretaria da sociedade civil para discutir finanças populares”, disse Lula na transmissão ao vivo. “Essas pessoas precisam de orientação e o Estado tem que assumir a responsabilidade”, prosseguiu.</p><p>Ministro afirma que divulgação de dados depende dos próprios candidatos, após campanhas firmarem acordo para tornar informações públicas</p><h2>Revista americana vê eleição brasileira como parte</h2><p>Revista americana vê eleição brasileira como parte de avanço da direita na América Latina e afirma que presidente enfrenta dificuldades para mobilizar eleitores</p><p>O presidente ainda reforçou que não pretende retomar a exploração das bets, proibidas no fim de setembro. “Não voltarão mais as bets. Quem quiser ganhar dinheiro, vá trabalhar.</p><p>Apostar no empobrecimento do já pobre e tentar explorar os pobres para ajudar time de futebol não vai mais acontecer neste País”, afirmou.</p><p>Durante a transmissão, Janones disse que não queria que a campanha de Lula aparecesse à frente nas pesquisas cedo, “queria estar na frente mais tarde para não dar tempo de eles recuperarem”.</p><p>“Na sexta e no sábado devemos passar na frente e aí é aumentar a vantagem”, projetou. Ele ainda orientou os seguidores a ter sangue frio e calma, dizendo que os adversários irão “entrar no modo desespero”.</p><p>“No dia 5 de outubro, nosso adversário, já começou a nomear ministro, todo mundo na pose de que já estava com a eleição ganha. Esqueceram que quem estava do outro lado era simplesmente o maior líder popular da história deste País”, elogiou o deputado ao lado de Lula.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/politica/lula-anuncia-criacao-de-secretaria-para-orientar-financas-populares-caso-seja-eleito/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/apoiadores-de-flavio-bolsonaro-promovem-atos-em-maceio-e-no-recife.jpg",
+        "resumo": "Carlos Bolsonaro e candidato a vice comparecem a manifestação em Alagoas",
+        "conteudo": "<p>Apoiadores do presidenciável Flávio Bolsonaro ( PL ) promoveram atos a favor do candidato na noite desta quinta-feira (22), em Maceió e no Recife .</p><h2>Na capital de Alagoas, o evento teve</h2><p>Na capital de Alagoas, o evento teve participação de um dos irmãos do candidato, Carlos Bolsonaro , eleito senador em Santa Catarina, e do candidato a vice-presidente Alfredo Gaspar, do PL.</p><p>O deputado federal Sóstenes Cavalcante (PL-RJ) puxou uma oração durante a manifestação.</p><p>No Recife, bolsonaristas também promoveram ato na praia de Boa Viagem. A convocação para o evento foi feita pelo deputado federal Nikolas Ferreira (PL-MG), que tem feito uma série de atos pelo país a favor de Flávio.</p><h2>Campanha do PL transformou os chamados \"bloquinhos\" impulsionados</h2><p>A campanha do PL transformou os chamados \"bloquinhos\" impulsionados por Nikolas Ferreira em uma das principais apostas para mobilizar apoiadores nas ruas e responder aos atos da esquerda em favor do presidente Lula (PT), que ganharam corpo no segundo turno.</p><p>Com trios elétricos, paredões, jingles provocativos e estética jovem, os atos de rua passaram a concentrar boa parte da agenda do presidenciável na reta final da campanha. Um dos focos da mobilização é o Nordeste, tradicional reduto petista.</p><p>Nesta quinta, Flávio Bolsonaro não participou de agendas. Na sexta-feira (23), ele vai ao debate na TV Globo, que contará também com a participação de Lula .</p><p>Mais de 180 reportagens e análises publicadas a cada dia. Um time com mais de 200 colunistas e blogueiros.</p><p>Um jornalismo profissional que fiscaliza o poder público, veicula notícias proveitosas e inspiradoras, faz contraponto à intolerância das redes sociais e traça uma linha clara entre verdade e mentira.</p><p>Apoiadores do presidenciável Flávio Bolsonaro ( PL ) promoveram atos a favor do candidato na noite desta quinta-feira (22), em Maceió e no Recife .</p><p>Na capital de Alagoas, o evento teve participação de um dos irmãos do candidato, Carlos Bolsonaro , eleito senador em Santa Catarina, e do candidato a vice-presidente Alfredo Gaspar, do PL.</p><p>O deputado federal Sóstenes Cavalcante (PL-RJ) puxou uma oração durante a manifestação.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/apoiadores-de-flavio-bolsonaro-promovem-atos-em-maceio-e-no-recife.shtml",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -47,42 +107,90 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O presidente e candidato à reeleição Luiz Inácio Lula da Silva (PT) anunciou, em live promovida pelo deputado federal André Janones (Rede-MG) nesta quinta-feira (22) a intenção de criar uma secretaria para orientar as finanças populares caso seja reeleito. Ele sugeriu a atuação da influenciadora digital Nath Finanças, que participou da live, nessa possível p"
+            "resposta": "Apoiadores do presidenciável Flávio Bolsonaro ( PL ) promoveram atos a favor do candidato na noite desta quinta-feira (22), em Maceió e no Recife ."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "“Talvez eu queira criar uma secretaria da sociedade civil para discutir finanças populares”, disse Lula na transmissão ao vivo. “Essas pessoas precisam de orientação e o Estado tem que assumir a responsabilidade”, prosseguiu."
+            "resposta": "Na capital de Alagoas, o evento teve participação de um dos irmãos do candidato, Carlos Bolsonaro , eleito senador em Santa Catarina, e do candidato a vice-presidente Alfredo Gaspar, do PL."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Ministro afirma que divulgação de dados depende dos próprios candidatos, após campanhas firmarem acordo para tornar informações públicas"
+            "resposta": "O deputado federal Sóstenes Cavalcante (PL-RJ) puxou uma oração durante a manifestação."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Revista americana vê eleição brasileira como parte de avanço da direita na América Latina e afirma que presidente enfrenta dificuldades para mobilizar eleitores"
+            "resposta": "No Recife, bolsonaristas também promoveram ato na praia de Boa Viagem. A convocação para o evento foi feita pelo deputado federal Nikolas Ferreira (PL-MG), que tem feito uma série de atos pelo país a favor de Flávio."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O presidente ainda reforçou que não pretende retomar a exploração das bets, proibidas no fim de setembro. “Não voltarão mais as bets. Quem quiser ganhar dinheiro, vá trabalhar. Apostar no empobrecimento do já pobre e tentar explorar os pobres para ajudar time de futebol não vai mais acontecer neste País”, afirmou."
+            "resposta": "A campanha do PL transformou os chamados \"bloquinhos\" impulsionados por Nikolas Ferreira em uma das principais apostas para mobilizar apoiadores nas ruas e responder aos atos da esquerda em favor do presidente Lula (PT), que ganharam corpo no segundo turno."
           }
         ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-13T162847Z_6358936_RC2D2OA22QZI_RTRMADP_3_BRAZIL-ELECTION-LULA.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-anuncia-criacao-de-secretaria-para-orientar-financas-populares-caso-seja-eleito.jpg",
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/22/17927171316adab14b90fe1_1792717131_3x2_lg.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/apoiadores-de-flavio-bolsonaro-promovem-atos-em-maceio-e-no-recife.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "d5dcf25c71724d50",
-      "titulo": "Lula diz que Meta vai ter que ser reinventada e que empresa 'não pode enganar a humanidade todo tempo'",
+      "id": "5f3f18ecbd37f011",
+      "titulo": "Willer Tomaz diz que “sala secreta” é cofre de empresa de táxi aéreo",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/22/lula-diz-que-meta-vai-ter-que-ser-reinventada-e-que-empresa-nao-pode-enganar-a-humanidade-todo-tempo.ghtml",
-      "dataFonte": "2026-10-22T23:25:06.000Z",
-      "resumoFonte": "O presidente Luiz Inácio Lula da Silva (PT) disse nesta quinta-feira (22) que a empresa Meta (dona do Facebook, WhatsApp e Instagram) terá que ser reinventada e que não pode achar que pode enganar a humanidade \"todo tempo\". \"A gente vai provar agora que a gente vai derrotar o império digital. A Meta vai ter que ser reinventada porque ela não pode…",
-      "imagem": "https://s2-g1.glbimg.com/jwUI6GTtrqfK3T4Qvjjs_OtEFUI=/5451x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/z/MAtBvTRMCeNwpfxEu8ow/2026-10-19t205006z-1997559598-rc2k6oafwj8d-rtrmadp-3-brazil-election-lula.jpg",
-      "descobertaEm": "2026-10-23T00:18:33.394Z"
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-justica/willer-tomaz-diz-que-sala-secreta-e-cofre-de-empresa-de-taxi-aereo/",
+      "dataFonte": "2026-10-23T00:02:36.000Z",
+      "resumoFonte": "Advogado diz que estrutura em hangar é cofre comercial da firma, que presta serviços para transportadoras de valores; ele também nega ligação do espaço com Flávio Bolsonaro",
+      "imagem": "https://static.poder360.com.br/uploads/2026/10/willer-tomaz-video-sala-cofre-1200x675.jpg",
+      "descobertaEm": "2026-10-23T00:18:33.394Z",
+      "reportagem": {
+        "titulo": "Willer Tomaz diz que “sala secreta” é cofre de empresa de táxi aéreo",
+        "slug": "willer-tomaz-diz-que-sala-secreta-e-cofre-de-empresa-de-taxi-aereo",
+        "categoria": "Economia",
+        "data": "2026-10-22",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/willer-tomaz-diz-que-sala-secreta-e-cofre-de-empresa-de-taxi-aereo.jpg",
+        "resumo": "Advogado diz que estrutura em hangar é cofre comercial de táxi aéreo e nega ligação do espaço com Flávio Bolsonaro. Leia no Poder360.",
+        "conteudo": "<p>Advogado diz que estrutura em hangar é cofre comercial da firma, que presta serviços para transportadoras de valores; ele também nega ligação do espaço com Flávio Bolsonaro</p><h2>Advogado Willer Tomaz publicou, nesta 5ª feira (22</h2><p>O advogado Willer Tomaz publicou, nesta 5ª feira (22.out.2026), um vídeo respondendo a uma reportagem do “ Jornal Nacional” , da TV Globo, que associou a ele uma “sala secreta” descoberta pela Polícia Federal em um hangar no Aeroporto de Brasília.</p><p>Willer afirma que a estrutura é uma sala-cofre de uso comercial de uma empresa de táxi aéreo da qual é sócio. Não divulgou o nome da empresa.</p><p>O advogado disse também que a reportagem foi intencionalmente publicada às vésperas do 2º turno das eleições para prejudicá-lo por meio da menção ao nome do candidato Flávio Bolsonaro (PL), que disputa o Planalto.</p><h2>Sala, que estava oculta atrás de um painel</h2><p>Segundo a reportagem do “Jornal Nacional” , a sala, que estava oculta atrás de um painel de madeira e continha prateleiras, malas e uma máquina de contar dinheiro, era usada para guardar dinheiro vivo.</p><p>Willer rebateu afirmando: “A sala é uma sala-cofre num hangar da empresa de táxi aéreo que eu sou sócio. Ela existe porque a empresa presta serviço para transportadoras de valores, algumas das maiores do país, com contrato”.</p><p>No vídeo, o advogado mostrou trechos do que seriam esses contratos, com os nomes das empresas tarjados por questões de segurança operacional.</p><p>A suspeita da Polícia Federal é de que os recursos tenham origem em fraudes contra aposentados do Instituto Nacional do Seguro Social . Willer é investigado na operação Sem Desconto, que apura desvios indevidos em aposentadorias e pensões de beneficiários do INSS.</p><p>Ele também foi o maior apostador do Brasil em 2025, de acordo com a Secretaria de Apostas. Segundo reportagem de Natália Portinari e Fabio Serapião, do UOL , Willer apostou cerca de R$ 5 bilhões no ano e sacou quase R$ 200 milhões.</p><p>Willer Tomaz descreveu a estrutura como compatível com o serviço prestado: porta blindada, grade e máquina de contar cédulas. Afirmou também que a própria reportagem do “ Jornal Nacional” confirma que nada foi encontrado no local.</p><p>“Nada. Nem um real. Está na própria reportagem. O relatório diz que a estrutura é compatível com custódia de valores. Exatamente. É para isso que ela serve” , disse.</p><p>Willer questionou o momento em que a reportagem foi ao ar. Segundo ele, a Polícia Federal fez a diligência no hangar em agosto, mas a matéria só foi veiculada em outubro, a 4 dias do 2º turno das eleições. Para o advogado, o momento da divulgação não foi coincidência.</p><p>“Virou manchete em outubro, a 4 dias do 2º turno, com o nome do Flávio no meio” , disse. Ele afirmou que o candidato à Presidência não tem qualquer ligação com a empresa de táxi aéreo, com as transportadoras de valores nem com nenhuma outra empresa de sua propriedade.</p><p>A empresa, segundo Willer, opera com autorização da Anac (Agência Nacional de Aviação Civil) e os contratos com as transportadoras são regulares.</p><p>“Transportadora de valores transporta dinheiro, objetos de valor, atividade legal, regulada, fiscalizada. E o malote precisa de lugar seguro antes e depois do deslocamento” , explicou.</p><p>Ao encerrar, Tomaz reforçou o contraste entre sua linha de defesa e a abordagem da emissora: “Eu respondo com documentos, eles [Jornal Nacional] com suposições.”</p><p>A proximidade entre Willer Tomaz e Flávio Bolsonaro também foi citada recentemente pelo jogador de futebol Richarlison, que diz ter perdido para a dupla a posse de uma mansão de luxo avaliada em R$ 10 milhões na Ilha Comprida, em Angra dos Reis (RJ).</p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-justica/willer-tomaz-diz-que-sala-secreta-e-cofre-de-empresa-de-taxi-aereo/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Advogado diz que estrutura em hangar é cofre comercial da firma, que presta serviços para transportadoras de valores; ele também nega ligação do espaço com Flávio Bolsonaro"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O advogado Willer Tomaz publicou, nesta 5ª feira (22.out.2026), um vídeo respondendo a uma reportagem do “ Jornal Nacional” , da TV Globo, que associou a ele uma “sala secreta” descoberta pela Polícia Federal em um hangar no Aeroporto de Brasília."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Willer afirma que a estrutura é uma sala-cofre de uso comercial de uma empresa de táxi aéreo da qual é sócio. Não divulgou o nome da empresa."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O advogado disse também que a reportagem foi intencionalmente publicada às vésperas do 2º turno das eleições para prejudicá-lo por meio da menção ao nome do candidato Flávio Bolsonaro (PL), que disputa o Planalto."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Segundo a reportagem do “Jornal Nacional” , a sala, que estava oculta atrás de um painel de madeira e continha prateleiras, malas e uma máquina de contar dinheiro, era usada para guardar dinheiro vivo."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/willer-tomaz-video-sala-cofre-1200x675.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/willer-tomaz-diz-que-sala-secreta-e-cofre-de-empresa-de-taxi-aereo.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
       "id": "4e47a87d570662c4",
@@ -145,26 +253,26 @@
       }
     },
     {
-      "id": "d73529ed67e5962f",
-      "titulo": "Com 12 mi de seguidores, cantor Neiff divulga bets nas redes sociais",
+      "id": "f9692806887dae06",
+      "titulo": "“Minha Melhor Amiga” se torna a maior bilheteria do Brasil pós-pandemia",
       "categoria": "Cultura",
       "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-gente/com-12-mi-de-seguidores-cantor-neiff-divulga-bets-nas-redes-sociais/",
-      "dataFonte": "2026-10-22T22:23:09.000Z",
-      "resumoFonte": "Casas de apostas online foram proibidas em setembro; em 2025, cantor já havia divulgado bet ilegal",
-      "imagem": "https://static.poder360.com.br/uploads/2026/10/anderson-neiff-1200x675.png",
-      "descobertaEm": "2026-10-22T22:23:57.770Z",
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/pop/cinema/minha-melhor-amiga-se-torna-a-maior-bilheteria-do-brasil-pos-pandemia/",
+      "dataFonte": "2026-10-23T00:36:14.000Z",
+      "resumoFonte": "Longa arrecadou R$ 105,1 milhões e se consolidou como o maior sucesso do cinema brasileiro desde 2019, desbancando \"Ainda Estou Aqui\", \"O Agente Secreto\" e \"O Auto da Compadecida 2\"",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/MV5BM2M0ZGQ3YjYtNjA4Yi00ZDk5LWFiYmYtMTQ0NGE5YWU0Yjc4XkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-23T01:18:15.765Z",
       "reportagem": {
-        "titulo": "Com 12 mi de seguidores, cantor Neiff divulga bets nas redes sociais",
-        "slug": "com-12-mi-de-seguidores-cantor-neiff-divulga-bets-nas-redes-sociais",
+        "titulo": "&quot;Minha Melhor Amiga&quot; se torna a maior bilheteria do Brasil pós-pandemia",
+        "slug": "quot-minha-melhor-amiga-quot-se-torna-a-maior-bilheteria-do-brasil-pos-pandemia",
         "categoria": "Cultura",
         "data": "2026-10-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/com-12-mi-de-seguidores-cantor-neiff-divulga-bets-nas-redes-sociais.jpg",
-        "resumo": "Cantor tem cerca de 12 milhões de seguidores nas redes sociais; encontro com o presidente foi em agosto de 2025. Leia no Poder360.",
-        "conteudo": "<p>Casas de apostas online foram proibidas em setembro; em 2025, cantor já havia divulgado bet ilegal</p><h2>Cantor e influenciador Anderson Neiff , que acumula 12</h2><p>O cantor e influenciador Anderson Neiff , que acumula 12 milhões de seguidores no Instagram, divulgou plataformas de apostas online nas redes sociais, nesta 5ª feira (22.out.2026).</p><p>A divulgação de apostas por influenciadores passou por novas restrições com a edição da MP 1.394 de 2026 , assinada pelo presidente Luiz Inácio Lula da Silva (PT) em 25 de setembro.</p><p>O Poder360 verificou que o site de apostas Betaya, divulgado pelo cantor, continua no ar e aceita novos cadastros para apostas online.</p><h2>Poder360 questionou a assessoria de Anderson Neiff</h2><p>O Poder360 questionou a assessoria de Anderson Neiff sobre a divulgação de plataformas de apostas nas redes sociais e o site de apostas Betaya sobre seu funcionamento no Brasil, mas não obteve resposta até a publicação desta reportagem.</p><p>O texto será atualizado caso uma manifestação seja enviada a este jornal digital.</p><p>Por se tratar de uma medida provisória, o texto ainda precisa ser analisado pelo Congresso Nacional. As empresas contestam a MP no STF e o ministro Luiz Fux, deve decidir sobre o caso depois do 2º turno das eleições.</p><p>Em agosto de 2025, Neiff usou os stories do Instagram para promover uma plataforma de apostas que não constava na lista de operadores autorizados pelo Ministério da Fazenda. As publicações foram retiradas do perfil no dia seguinte.</p><p>No mesmo dia da divulgação, encontrou-se com Lula durante uma visita do presidente a Pernambuco.</p><p>A reunião contou com artistas da cena musical brega do Recife e foi articulada a pedido do deputado federal Pedro Campos (PSB-PE).</p><p>Segundo a Secom do Planalto, o encontro era para apresentar os artistas ao presidente e agradecer pela sanção da lei que instituiu o Dia Nacional do Brega.</p><p>Com 12 mi de seguidores, cantor Neiff divulga bets nas redes sociais Casas de apostas online foram proibidas em setembro; em 2025, cantor já havia divulgado bet ilegal --> copiar link --></p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-gente/com-12-mi-de-seguidores-cantor-neiff-divulga-bets-nas-redes-sociais/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/quot-minha-melhor-amiga-quot-se-torna-a-maior-bilheteria-do-brasil-pos-pandemia.jpg",
+        "resumo": "Longa arrecadou R$ 105,1 milhões e se consolidou como o maior sucesso do cinema brasileiro desde 2019, desbancando &quot;Ainda Estou Aqui&quot;, &quot;O Agente Secreto&quot; e &quot;O Auto da Compadecida 2&quot;",
+        "conteudo": "<p>A comédia nacional &quot;Minha Melhor Amiga&quot; atingiu um novo marco nesta semana, ao se tornar o maior filme brasileiro desde 2019 em público, após ultrapassar recentemente o vencedor do Oscar, &quot;Ainda Estou Aqui&quot; .</p><h2>Até o momento, a comédia protagonizada por Ingrid Guimarães,</h2><p>Até o momento, a comédia protagonizada por Ingrid Guimarães, 54, e Mônica Martelli, 58, lançada em setembro, arrecadou em bilheteria R$ 105,1 milhões e levou 5,9 milhões de pessoas aos cinemas.</p><p>Enquanto o vencedor do Oscar fez uma bilheteria maior, de R$ 117,2 milhões, e levou 5,8 milhões de espectadores nacionais às salas grandes.</p><p>Pouco mais de três semanas após sua estreia, o longa de Susana Garcia se tornou a maior comédia pós-pandemia, desbancando o título de &quot;O Auto da Compadecida 2&quot; , que teve um público de 4,4 milhões de pessoas.</p><h2>Em &quot; Minha Melhor Amiga &quot;, duas amigas</h2><p>Em &quot; Minha Melhor Amiga &quot;, duas amigas na casa dos 50 anos decidem sair da rotina juntas e embarcam em uma viagem para a Europa, motivadas após se despedirem das filhas que embarcam para um intercâmbio em Portugal.</p><p>Com o ninho vazio, elas sonham com a viagem perfeita para elas, mas a realidade se torna bastante diferente do esperado.</p><p>Ingrid Guimarães e Mônia Martelli estrelam &quot;Minha Melhor Amiga&quot;</p><p>A comédia nacional &quot;Minha Melhor Amiga&quot; atingiu um novo marco nesta semana, ao se tornar o maior filme brasileiro desde 2019 em público, após ultrapassar recentemente o vencedor do Oscar, &quot;Ainda Estou Aqui&quot; .</p><p>Até o momento, a comédia protagonizada por Ingrid Guimarães, 54, e Mônica Martelli, 58, lançada em setembro, arrecadou em bilheteria R$ 105,1 milhões e levou 5,9 milhões de pessoas aos cinemas.</p><p>Enquanto o vencedor do Oscar fez uma bilheteria maior, de R$ 117,2 milhões, e levou 5,8 milhões de espectadores nacionais às salas grandes. Leia Mais</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/pop/cinema/minha-melhor-amiga-se-torna-a-maior-bilheteria-do-brasil-pos-pandemia/",
         "fontesAdicionais": [
           {
             "nome": "A Gazeta",
@@ -179,52 +287,556 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Casas de apostas online foram proibidas em setembro; em 2025, cantor já havia divulgado bet ilegal"
+            "resposta": "A comédia nacional &quot;Minha Melhor Amiga&quot; atingiu um novo marco nesta semana, ao se tornar o maior filme brasileiro desde 2019 em público, após ultrapassar recentemente o vencedor do Oscar, &quot;Ainda Estou Aqui&quot; ."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O cantor e influenciador Anderson Neiff , que acumula 12 milhões de seguidores no Instagram, divulgou plataformas de apostas online nas redes sociais, nesta 5ª feira (22.out.2026). A divulgação de apostas por influenciadores passou por novas restrições com a edição da MP 1.394 de 2026 , assinada pelo presidente Luiz Inácio Lula da Silva (PT) em 25 de setembr"
+            "resposta": "Até o momento, a comédia protagonizada por Ingrid Guimarães, 54, e Mônica Martelli, 58, lançada em setembro, arrecadou em bilheteria R$ 105,1 milhões e levou 5,9 milhões de pessoas aos cinemas. Enquanto o vencedor do Oscar fez uma bilheteria maior, de R$ 117,2 milhões, e levou 5,8 milhões de espectadores nacionais às salas grandes."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O Poder360 verificou que o site de apostas Betaya, divulgado pelo cantor, continua no ar e aceita novos cadastros para apostas online."
+            "resposta": "Pouco mais de três semanas após sua estreia, o longa de Susana Garcia se tornou a maior comédia pós-pandemia, desbancando o título de &quot;O Auto da Compadecida 2&quot; , que teve um público de 4,4 milhões de pessoas."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "O Poder360 questionou a assessoria de Anderson Neiff sobre a divulgação de plataformas de apostas nas redes sociais e o site de apostas Betaya sobre seu funcionamento no Brasil, mas não obteve resposta até a publicação desta reportagem. O texto será atualizado caso uma manifestação seja enviada a este jornal digital."
+            "resposta": "Em &quot; Minha Melhor Amiga &quot;, duas amigas na casa dos 50 anos decidem sair da rotina juntas e embarcam em uma viagem para a Europa, motivadas após se despedirem das filhas que embarcam para um intercâmbio em Portugal. Com o ninho vazio, elas sonham com a viagem perfeita para elas, mas a realidade se torna bastante diferente do esperado."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Por se tratar de uma medida provisória, o texto ainda precisa ser analisado pelo Congresso Nacional. As empresas contestam a MP no STF e o ministro Luiz Fux, deve decidir sobre o caso depois do 2º turno das eleições."
+            "resposta": "Ingrid Guimarães e Mônia Martelli estrelam &quot;Minha Melhor Amiga&quot;"
           }
         ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/anderson-neiff-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/com-12-mi-de-seguidores-cantor-neiff-divulga-bets-nas-redes-sociais.jpg",
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/MV5BM2M0ZGQ3YjYtNjA4Yi00ZDk5LWFiYmYtMTQ0NGE5YWU0Yjc4XkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/quot-minha-melhor-amiga-quot-se-torna-a-maior-bilheteria-do-brasil-pos-pandemia.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "0d62ae7c8df2b229",
-      "titulo": "Os órgãos brasileiros afetados por grave falha mundial em sistema digital",
+      "id": "a562719e54b5193f",
+      "titulo": "Saiba como será debate da Globo com candidatos à Presidência da República | G1",
       "categoria": "Tecnologia",
       "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/tecnologia/os-orgaos-brasileiros-afetados-por-grave-falha-mundial-em-sistema-digital/",
-      "dataFonte": "2026-10-22T22:46:24.000Z",
-      "resumoFonte": "Crise mundial foi causada após falhas no PHP serem divulgadas antes do lançamento das novas versões",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/10/GettyImages-2301428719.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-10-22T23:18:16.169Z",
+      "fonteNome": "g1 - Capa",
+      "urlFonte": "https://g1.globo.com/jornal-nacional/noticia/2026/10/22/saiba-como-sera-debate-da-globo-com-candidatos-a-presidencia-da-republica.ghtml",
+      "dataFonte": "2026-10-23T00:34:59.453Z",
+      "resumoFonte": "O Fato ou Fake, serviço de checagem do Grupo Globo, preparou uma cobertura especial para verificar as declarações dos dois candidatos ao longo do debate. As checagens vão estar disponíveis na tela do seu celular.",
+      "imagem": "https://s2-g1.glbimg.com/ziF-zIh8Gpba0HEwlEM13TAIzyY=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/5/JcJcTISWuvhrrMFyqkKg/globo-canal-4-20261022-2000-frame-130166.jpeg",
+      "descobertaEm": "2026-10-23T01:20:47.934Z"
+    },
+    {
+      "id": "a0085a2c9645bd8c",
+      "titulo": "Campanha de Lula recorre a Mendonça por mediação do TSE e pressiona Flávio por quebras de sigilo",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/blogs/brasilia-hoje/2026/10/campanha-de-lula-recorre-a-mendonca-por-mediacao-do-tse-e-pressiona-flavio-por-quebras-de-sigilo.shtml",
+      "dataFonte": "2026-10-23T00:50:00.000Z",
+      "resumoFonte": "A campanha do presidente Lula (PT) recorreu nesta quinta-feira (22) ao ministro André Mendonça, do TSE (Tribunal Superior Eleitoral), para que a corte faça a mediação da divulgação dos sigilos bancário, fiscal e telefônico do petista e do canditado do PL à Presidência, Flávio Bolsonaro . Leia mais (10/22/2026 - 21h50)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/22/17926836446ada2e7c9b9c4_1792683644_3x2_rt.jpg",
+      "descobertaEm": "2026-10-23T01:18:15.765Z",
       "reportagem": {
-        "titulo": "Os órgãos brasileiros afetados por grave falha mundial em sistema digital",
-        "slug": "os-orgaos-brasileiros-afetados-por-grave-falha-mundial-em-sistema-digital",
+        "titulo": "Brasília Hoje: Campanha de Lula recorre a Mendonça por mediação do TSE e pressiona Flávio por quebras de sigilo",
+        "slug": "brasilia-hoje-campanha-de-lula-recorre-a-mendonca-por-mediacao-do-tse-e-pressiona-flavio-p",
+        "categoria": "Justiça",
+        "data": "2026-10-22",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/brasilia-hoje-campanha-de-lula-recorre-a-mendonca-por-mediacao-do-tse-e-pressiona-flavio-p.jpg",
+        "resumo": "Equipe do presidente entregou autorizações para quebras de sigilos à Justiça Eleitoral",
+        "conteudo": "<p>Bastidores, vídeos e análises de economia e política. De segunda a sexta-feira.</p><h2>Campanha do presidente Lula (PT) recorreu nesta quinta-feira (22)</h2><p>A campanha do presidente Lula (PT) recorreu nesta quinta-feira (22) ao ministro André Mendonça, do TSE (Tribunal Superior Eleitoral), para que a corte faça a mediação da divulgação dos sigilos bancário, fiscal e telefônico do petista e do canditado do PL à Presidência, Flávio Bolsonaro .</p><p>\"Estamos recorrendo da decisão do ministro André Mendonça para que ele cumpra o papel de árbitro, para que ele possa validar essas informações, para que ele possa requisitar, porque ele tem esse poder\", disse Edinho Silva, coordenador-geral da campanha.</p><p>A equipe de Lula apresentou nesta noite uma petição pedindo que a Justiça Eleitoral intime Flávio Bolsonaro a entregar os dados, conforme o acordo firmado entre as duas campanhas horas antes, até às 23h59 desta quinta.</p><h2>Junto a ela, foram entregues as autorizações para quebras</h2><p>Junto a ela, foram entregues as autorizações para quebras de sigilo dos parentes, cartão corporativo, agendas do Palácio do Planalto e do Palácio da Alvorada, bem como informações relativas ao Instituto Lula.</p><p>\"Nós queremos que o ministro André Mendonça não só requisite as informações acordadas com a candidatura do Flávio Bolsonaro como tambem valide\", disse ainda.</p><p>A intenção da equipe petista é que os dados dos dois lados sejam disponibilizados no Divulgacand, plataforma do TSE que compila dados relativos a candidaturas políticas.</p><p>Mendonça havia afirmado que não caberia ao TSE determinar eventuais quebras de sigilo e que as campanhas dos dois candidatos poderiam divulgar os dados que quisessem, sem a interferferência da corte eleitoral.</p><p>Segundo Mendonça, não é papel da Justiça Eleitoral definir o que cada candidato quer ou não tornar público e que \"avaliar essa escolha cabe ao eleitor\". Na prática, a decisão do magistrado tira o tribunal da função de mediador do desafio entre os dois postulantes ao Planalto.</p><p>Mais cedo, os candidatos assinaram um acordo pela quebra mútua de seus sigilos. O acerto também envolvia os parentes de ambos.</p><p>Lula desafiou Flávio a abrir seus sigilos no domingo (18), durante o debate da Band. O candidato bolsonarista não aceitou a princípio. Depois, colocou condições para aceitar o acordo .</p><p>A campanha petista vinha pressionando o adversário publicamente. Flávio foi representado na assinatura por sua equipe jurídica.</p><p>Colaboraram Thaísa Oliveira e Carolina Linhares, de Brasília</p><p>LINK PRESENTE: Gostou deste texto? Assinante pode liberar sete acessos gratuitos de qualquer link por dia. Basta clicar no F azul abaixo.</p><p>Mais de 180 reportagens e análises publicadas a cada dia. Um time com mais de 200 colunistas e blogueiros.</p><p>Um jornalismo profissional que fiscaliza o poder público, veicula notícias proveitosas e inspiradoras, faz contraponto à intolerância das redes sociais e traça uma linha clara entre verdade e mentira.</p><p>A campanha do presidente Lula (PT) recorreu nesta quinta-feira (22) ao ministro André Mendonça, do TSE (Tribunal Superior Eleitoral), para que a corte faça a mediação da divulgação dos sigilos bancário, fiscal e telefônico do petista e do canditado do PL à Presidência, Flávio Bolsonaro .</p><p>\"Estamos recorrendo da decisão do ministro André Mendonça para que ele cumpra o papel de árbitro, para que ele possa validar essas informações, para que ele possa requisitar, porque ele tem esse poder\", disse Edinho Silva, coordenador-geral da campanha.</p><p>A equipe de Lula apresentou nesta noite uma petição pedindo que a Justiça Eleitoral intime Flávio Bolsonaro a entregar os dados, conforme o acordo firmado entre as duas campanhas horas antes, até às 23h59 desta quinta.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/blogs/brasilia-hoje/2026/10/campanha-de-lula-recorre-a-mendonca-por-mediacao-do-tse-e-pressiona-flavio-por-quebras-de-sigilo.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Bastidores, vídeos e análises de economia e política. De segunda a sexta-feira."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A campanha do presidente Lula (PT) recorreu nesta quinta-feira (22) ao ministro André Mendonça, do TSE (Tribunal Superior Eleitoral), para que a corte faça a mediação da divulgação dos sigilos bancário, fiscal e telefônico do petista e do canditado do PL à Presidência, Flávio Bolsonaro ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "\"Estamos recorrendo da decisão do ministro André Mendonça para que ele cumpra o papel de árbitro, para que ele possa validar essas informações, para que ele possa requisitar, porque ele tem esse poder\", disse Edinho Silva, coordenador-geral da campanha."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A equipe de Lula apresentou nesta noite uma petição pedindo que a Justiça Eleitoral intime Flávio Bolsonaro a entregar os dados, conforme o acordo firmado entre as duas campanhas horas antes, até às 23h59 desta quinta."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Junto a ela, foram entregues as autorizações para quebras de sigilo dos parentes, cartão corporativo, agendas do Palácio do Planalto e do Palácio da Alvorada, bem como informações relativas ao Instituto Lula."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/22/17926836446ada2e7c9b9c4_1792683644_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/brasilia-hoje-campanha-de-lula-recorre-a-mendonca-por-mediacao-do-tse-e-pressiona-flavio-p.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "708584341dc0c333",
+      "titulo": "Quaest: fim da 6 por 1 e relações com o Caso Master tiveram maior impacto para escolha de presidente no 1º turno",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/22/quaest-noticia-impacto-escolha-voto-presidente-1-turno.ghtml",
+      "dataFonte": "2026-10-23T00:33:17.000Z",
+      "resumoFonte": "Lula (à esq) e Flávio Bolsonaro (à dir) participaram de sabatinas na TV Globo Divulgação Pesquisa Quaest divulgada nesta quinta-feira (22) aponta que os eleitores consideraram notícias sobre o fim da escala 6 por 1 e o Caso Master como mais importantes para definir o voto para presidente da República no 1º turno. Disputada em 4 de outubro, a…",
+      "imagem": "https://s2-g1.glbimg.com/XFB6kcU2hbDvSgFScIuiTAPDotY=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/S/U/fpSH8BRtG9arRyZ4wEXA/montagem-horizontal-1280x720px-6-.jpg",
+      "descobertaEm": "2026-10-23T01:18:15.765Z",
+      "reportagem": {
+        "titulo": "Quaest: veja os temas que definiram escolha de presidente no 1º turno | G1",
+        "slug": "quaest-veja-os-temas-que-definiram-escolha-de-presidente-no-1-turno-g1",
+        "categoria": "Política Nacional",
+        "data": "2026-10-22",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/quaest-veja-os-temas-que-definiram-escolha-de-presidente-no-1-turno-g1.jpg",
+        "resumo": "Aumento do valor do Bolsa Família e polêmica sobre Nossa Senhora Aparecida tiveram os menores impactos, segundo eleitores. Margem de erro é de 2 pontos para mais ou para menos.",
+        "conteudo": "<p>Lula (à esq) e Flávio Bolsonaro (à dir) participaram de sabatinas na TV Globo — Foto: Divulgação</p><h2>Pesquisa Quaest divulgada nesta quinta-feira (22) aponta que os</h2><p>Pesquisa Quaest divulgada nesta quinta-feira (22) aponta que os eleitores consideraram notícias sobre o fim da escala 6 por 1 e o Caso Master como mais importantes para definir o voto para presidente da República no 1º turno.</p><p>Na votação de 4 de outubro, Flávio Bolsonaro (PL) terminou à frente de Lula (PT) por uma diferença de 2,2 milhões de votos.</p><h2>Notícia mais importante para a definição do voto</h2><p>Notícia mais importante para a definição do voto no 1º turno</p><p>Defesa do fim da escala de trabalho 6 por 1: 17% Denúncias sobre o envolvimento de ministros do STF com o caso do Banco Master: 14% Envolvimento de políticos com Daniel Vorcaro e o escândalo do Banco Master: 13% Medidas do governo para proibir bets, sites de apostas e cassinos on-line: 11% Nossa Senhora Aparecida e sua condição como padroeira do Brasil: 8% Aumento do valor do Bolsa Família: 7% Nenhuma dessas opções: 23% Não sabem/não responderam: 7%</p><p>Entre os eleitores de Lula, 25% apontaram o fim da escala 6 por 1 como principal notícia para definição do voto.</p><p>Entre eleitores de Flávio Bolsonaro, 23% responderam denúncias sobre o envolvimento de ministros do STF com o caso do Banco Master.</p>",
+        "fonteNome": "g1 - Política",
+        "fonteUrl": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/22/quaest-noticia-impacto-escolha-voto-presidente-1-turno.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Lula (à esq) e Flávio Bolsonaro (à dir) participaram de sabatinas na TV Globo — Foto: Divulgação"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Pesquisa Quaest divulgada nesta quinta-feira (22) aponta que os eleitores consideraram notícias sobre o fim da escala 6 por 1 e o Caso Master como mais importantes para definir o voto para presidente da República no 1º turno."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Na votação de 4 de outubro, Flávio Bolsonaro (PL) terminou à frente de Lula (PT) por uma diferença de 2,2 milhões de votos."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Notícia mais importante para a definição do voto no 1º turno"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Defesa do fim da escala de trabalho 6 por 1: 17% Denúncias sobre o envolvimento de ministros do STF com o caso do Banco Master: 14% Envolvimento de políticos com Daniel Vorcaro e o escândalo do Banco Master: 13% Medidas do governo para proibir bets, sites de apostas e cassinos on-line: 11% Nossa Senhora Aparecida e sua condição como padroeira do Brasil: 8% A"
+          }
+        ],
+        "imagemOriginal": "https://s2-g1.glbimg.com/XFB6kcU2hbDvSgFScIuiTAPDotY=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/S/U/fpSH8BRtG9arRyZ4wEXA/montagem-horizontal-1280x720px-6-.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/quaest-veja-os-temas-que-definiram-escolha-de-presidente-no-1-turno-g1.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "3b78948d74181cb6",
+      "titulo": "Veja quem Augusto Cury apoia no 2º turno entre Flávio e Lula",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/veja-quem-augusto-cury-apoia-no-2o-turno-entre-flavio-e-lula/",
+      "dataFonte": "2026-10-23T00:57:06.000Z",
+      "resumoFonte": "Terceiro colocado na eleição presidencial, escritor declarou apoio ao senador após negociar compromissos em áreas como saúde e educação",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/DSC07271-rotated-e1788264546293.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-23T01:18:15.765Z",
+      "reportagem": {
+        "titulo": "Veja quem Augusto Cury apoia no 2º turno entre Flávio e Lula",
+        "slug": "veja-quem-augusto-cury-apoia-no-2-turno-entre-flavio-e-lula",
+        "categoria": "Política Nacional",
+        "data": "2026-10-22",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/veja-quem-augusto-cury-apoia-no-2-turno-entre-flavio-e-lula.jpg",
+        "resumo": "Terceiro colocado na eleição presidencial, escritor declarou apoio ao senador após negociar compromissos em áreas como saúde e educação",
+        "conteudo": "<p>O escritor Augusto Cury (Avante) apoia o senador Flávio Bolsonaro (PL) no segundo turno da eleição presidencial de 2026, contra o presidente Luiz Inácio Lula da Silva (PT). A decisão foi anunciada em 8 de outubro, após uma conversa por videochamada entre os dois.</p><h2>Cury terminou o primeiro turno na terceira posição,</h2><p>Cury terminou o primeiro turno na terceira posição, com 3.448.569 votos, equivalentes a 2,89% dos válidos , segundo dados do TSE (Tribunal Superior Eleitoral). A votação ocorreu em 4 de outubro.</p><p>O apoio foi condicionado a uma carta com oito compromissos . Entre eles estão a defesa do fim da reeleição presidencial, a ampliação da educação integral e do ensino técnico, a valorização dos professores e a expansão da telemedicina integrada ao SUS.</p><p>O documento também contempla proteção às mulheres, incentivo às cooperativas, financiamento de micro empreendimentos, aumento da produção de alimentos e pacificação nacional. O texto afirma que o entendimento não envolve troca de cargos ou vantagens pessoais.</p><h2>&quot; O apoio será sempre acompanhado do direito</h2><p>&quot; O apoio será sempre acompanhado do direito de cobrar, questionar, criticar e exigir coerência entre as palavras e os atos &quot;, estabelece a carta.</p><p>Apesar do apoio, eleitores de Cury têm demonstrado em pesquisas outra preferência. Pesquisas da Ideia mostrou, nesta semana, que 48% dos votantes do escritor escolhem Lula mesmo com a sinalização dele de apoiar seu rival, que leva 36% do sufrágio.</p><p>Os eleitores de Augusto Cury são também os que mais aprovam o governo do presidente Lula entre os grupos analisados pela pesquisa Real Time divulgada após o primeiro turno. Segundo o levantamento, 44% dos eleitores de Cury aprovam a atual gestão, enquanto 56% desaprovam.</p><p>Flávio avançou à segunda etapa com 47,03% dos votos válidos, cerca de 56,1 milhões de votos. Lula recebeu 45,16%, aproximadamente 53,8 milhões. A diferença foi de 1,87 ponto percentual.</p><p>O segundo turno está marcado para 25 de outubro , quando os eleitores escolherão quem ocupará a Presidência da República no mandato iniciado em janeiro de 2027.</p><p>O ex-candidato à Presidência em 2026 pelo Avante, o escritor Augusto Cury</p><p>O escritor Augusto Cury (Avante) apoia o senador Flávio Bolsonaro (PL) no segundo turno da eleição presidencial de 2026, contra o presidente Luiz Inácio Lula da Silva (PT).</p><p>A decisão foi anunciada em 8 de outubro, após uma conversa por videochamada entre os dois.</p><p>Cury terminou o primeiro turno na terceira posição, com 3.448.569 votos, equivalentes a 2,89% dos válidos , segundo dados do TSE (Tribunal Superior Eleitoral). A votação ocorreu em 4 de outubro.</p><p>Quais compromissos foram negociados? O apoio foi condicionado a uma carta com oito compromissos .</p><p>Entre eles estão a defesa do fim da reeleição presidencial, a ampliação da educação integral e do ensino técnico, a valorização dos professores e a expansão da telemedicina integrada ao SUS. Leia Mais</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/veja-quem-augusto-cury-apoia-no-2o-turno-entre-flavio-e-lula/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O escritor Augusto Cury (Avante) apoia o senador Flávio Bolsonaro (PL) no segundo turno da eleição presidencial de 2026, contra o presidente Luiz Inácio Lula da Silva (PT). A decisão foi anunciada em 8 de outubro, após uma conversa por videochamada entre os dois."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Cury terminou o primeiro turno na terceira posição, com 3.448.569 votos, equivalentes a 2,89% dos válidos , segundo dados do TSE (Tribunal Superior Eleitoral). A votação ocorreu em 4 de outubro."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O apoio foi condicionado a uma carta com oito compromissos . Entre eles estão a defesa do fim da reeleição presidencial, a ampliação da educação integral e do ensino técnico, a valorização dos professores e a expansão da telemedicina integrada ao SUS."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O documento também contempla proteção às mulheres, incentivo às cooperativas, financiamento de micro empreendimentos, aumento da produção de alimentos e pacificação nacional. O texto afirma que o entendimento não envolve troca de cargos ou vantagens pessoais."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "&quot; O apoio será sempre acompanhado do direito de cobrar, questionar, criticar e exigir coerência entre as palavras e os atos &quot;, estabelece a carta."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/DSC07271-rotated-e1788264546293.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/veja-quem-augusto-cury-apoia-no-2-turno-entre-flavio-e-lula.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "1bf1ebe874eedfbf",
+      "titulo": "No Paraná, lideranças tradicionais e ex-ministro de Collor apoiam Lula no 2º turno",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/politica/no-parana-liderancas-tradicionais-e-ex-ministro-de-collor-apoiam-lula-no-2o-turno/",
+      "dataFonte": "2026-10-23T00:45:05.000Z",
+      "resumoFonte": "Presidente da República, Luiz Inácio Lula da Silva, durante ato de campanha em Belém. Foto: Ricardo Stuckert. \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/09/55556976837_12196b5332_c.jpg?fit=800%2C533&quality=70&strip=all\" />Posicionamentos contrastam com o ex-governador e atual governador eleito, Ratinho Junior (PSD) e…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/09/55556976837_12196b5332_c.jpg",
+      "descobertaEm": "2026-10-23T01:18:15.765Z",
+      "reportagem": {
+        "titulo": "No Paraná, lideranças tradicionais e ex-ministro de Collor apoiam Lula no 2º turno",
+        "slug": "no-parana-liderancas-tradicionais-e-ex-ministro-de-collor-apoiam-lula-no-2-turno",
+        "categoria": "Política Nacional",
+        "data": "2026-10-22",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/no-parana-liderancas-tradicionais-e-ex-ministro-de-collor-apoiam-lula-no-2-turno.jpg",
+        "resumo": "Posicionamentos contrastam com o ex-governador e atual governador eleito, Ratinho Junior (PSD) e Sergio Moro (PL), que declararam apoio à Flávio Bolsonaro",
+        "conteudo": "<p>Lideranças tradicionais da política paranaense, incluindo o ex-prefeito de Curitiba Rafael Greca (MDB), o senador Flávio Arns (PSB), o ex-prefeito Gustavo Fruet (PDT) e o ex-ministro da Saúde do governo Fernando Collor, Alceni Guerra (PSB), manifestaram apoio à reeleição do presidente Luiz Inácio Lula da Silva (PT) no segundo turno.</p><h2>Posicionamentos ganharam destaque durante a passagem do vice-presidente Geraldo</h2><p>Os posicionamentos ganharam destaque durante a passagem do vice-presidente Geraldo Alckmin (PSB) por Curitiba, nesta terça-feira (20) em meio à mobilização da campanha petista no Estado.</p><p>Os apoios contrastam com o posicionamento do governador Ratinho Junior (PSD) e do governador eleito Sergio Moro (PL), que estão alinhados à candidatura de Flávio Bolsonaro (PL).</p><p>A manifestação de Greca contraria seus aliados políticos no Paraná. O ex-prefeito disputou a eleição estadual deste ano como candidato a vice-governador na chapa de Sandro Alex (PSD), apoiada por Ratinho Junior, derrotada por Moro no primeiro turno.</p><h2>Dos nomes sugeridos para a possível pasta seria</h2><p>Um dos nomes sugeridos para a possível pasta seria da economista e influenciadora Nath Finanças</p><p>Ministro afirma que divulgação de dados depende dos próprios candidatos, após campanhas firmarem acordo para tornar informações públicas</p><p>Greca, que governou Curitiba por três mandatos, manifestou apoio a Lula durante um sarau na capital paranaense, na segunda-feira, 19.</p><p>Em discurso, criticou a influência dos Estados Unidos sobre o Brasil e defendeu políticas públicas de saúde, educação e cultura.</p><p>“Não tem música de direita nem de esquerda, porque o gaiteiro, para tocar, precisa das duas mãos, a direita e a esquerda”, afirmou.</p><p>O posicionamento também contraria a orientação do MDB no Paraná, que declarou apoio a Flávio Bolsonaro. Greca deixou o PSD em março deste ano e se filiou ao MDB para disputar as eleições estaduais.</p><p>Durante sua passagem por Curitiba, Alckmin comemorou a manifestação do ex-prefeito e defendeu a ampliação das alianças em torno da candidatura petista.</p><p>Outra liderança que se posicionou a favor de Lula foi o senador Flávio Arns (PSB), que participou do evento “Paraná pela Virada”, realizado na terça-feira, 20, com a presença de Alckmin.</p><p>Arns destacou a capacidade de interlocução do vice-presidente com diferentes setores da economia, incluindo o agronegócio e o empresariado.</p><p>“A gente deseja que o presidente Lula faça um mandato extraordinário com o apoio de Geraldo Alckmin. O Geraldo Alckmin é respeitado no agro, é muito respeitado no comércio, na indústria, nos empresários, nos bancos, e isso a gente viu no tarifaço”, declarou o senador.</p><p>Arns tem uma trajetória política que atravessa diferentes campos partidários. Foi deputado federal pelo PSDB, senador pelo PT entre 2003 e 2011 e vice-governador do Paraná na gestão de Beto Richa (PSDB), entre 2011 e 2014.</p><p>Também ocupou a Secretaria de Estado da Educação e atualmente integra o PSB, partido de Alckmin.</p><p>O ex-prefeito de Curitiba Gustavo Fruet (PDT) também participou do ato e declarou apoio à reeleição do presidente.</p><p>Fruet governou a capital paranaense entre 2013 e 2016 e exerceu mandatos como deputado federal, tendo passado pelo MDB e pelo PSDB antes de ingressar no PDT.</p><p>Sua trajetória inclui a participação na oposição aos governos petistas durante parte de sua atuação no Congresso Nacional.</p><p>Entre os participantes da mobilização esteve ainda Alceni Guerra (PSB), que comandou o Ministério da Saúde durante o governo de Fernando Collor, entre 1990 e 1992.</p><p>Ex-prefeito de Pato Branco e ex-deputado federal, Alceni tem uma relação política antiga com Alckmin, com quem atuou na Assembleia Nacional Constituinte, responsável pela elaboração da Constituição de 1988.</p><p>Durante o encontro em Curitiba, Alceni relembrou a participação dos dois na formulação das bases constitucionais do Sistema Único de Saúde (SUS). “Eu tive a honra de redigir, e ele de relatar. E assim nós temos o melhor sistema público de saúde do mundo”, declarou.</p><p>Diferentemente dos demais apoios anunciados nesta semana, a posição de Alceni em relação a Lula não é inédita. O ex-ministro já havia declarado voto no petista no segundo turno das eleições presidenciais de 2022, quando destacou a defesa do SUS e a relação política com Alckmin.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/politica/no-parana-liderancas-tradicionais-e-ex-ministro-de-collor-apoiam-lula-no-2o-turno/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Lideranças tradicionais da política paranaense, incluindo o ex-prefeito de Curitiba Rafael Greca (MDB), o senador Flávio Arns (PSB), o ex-prefeito Gustavo Fruet (PDT) e o ex-ministro da Saúde do governo Fernando Collor, Alceni Guerra (PSB), manifestaram apoio à reeleição do presidente Luiz Inácio Lula da Silva (PT) no segundo turno. Os posicionamentos ganhar"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Os apoios contrastam com o posicionamento do governador Ratinho Junior (PSD) e do governador eleito Sergio Moro (PL), que estão alinhados à candidatura de Flávio Bolsonaro (PL). A manifestação de Greca contraria seus aliados políticos no Paraná. O ex-prefeito disputou a eleição estadual deste ano como candidato a vice-governador na chapa de Sandro Alex (PSD)"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Um dos nomes sugeridos para a possível pasta seria da economista e influenciadora Nath Finanças"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Ministro afirma que divulgação de dados depende dos próprios candidatos, após campanhas firmarem acordo para tornar informações públicas"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Greca, que governou Curitiba por três mandatos, manifestou apoio a Lula durante um sarau na capital paranaense, na segunda-feira, 19. Em discurso, criticou a influência dos Estados Unidos sobre o Brasil e defendeu políticas públicas de saúde, educação e cultura. “Não tem música de direita nem de esquerda, porque o gaiteiro, para tocar, precisa das duas mãos,"
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/09/55556976837_12196b5332_c.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/no-parana-liderancas-tradicionais-e-ex-ministro-de-collor-apoiam-lula-no-2-turno.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "85436d18ad08929f",
+      "titulo": "Governo publica edital para compra de dívidas no Desenrola 3.0",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governo-publica-edital-para-compra-de-dividas-no-desenrola-3-0/",
+      "dataFonte": "2026-10-23T01:22:51.000Z",
+      "resumoFonte": "Portaria estabelece regras para aquisição de créditos inadimplentes de até R$ 10 mil; credores têm até 30 de outubro para informar carteiras",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2026binary_LYNXMPEM4H17C-BASEIMAGE-e1792718217417.jpg?w=800&h=451&crop=1",
+      "descobertaEm": "2026-10-23T01:34:56.249Z",
+      "reportagem": {
+        "titulo": "Governo publica edital para compra de dívidas no Desenrola 3.0",
+        "slug": "governo-publica-edital-para-compra-de-dividas-no-desenrola-3-0",
+        "categoria": "Economia",
+        "data": "2026-10-22",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/governo-publica-edital-para-compra-de-dividas-no-desenrola-3-0.jpg",
+        "resumo": "Portaria estabelece regras para aquisição de créditos inadimplentes de até R$ 10 mil; credores têm até 30 de outubro para informar carteiras",
+        "conteudo": "<p>O Ministério da Fazenda publicou nesta quinta-feira (22) em edição extra do DOU (Diário Oficial da União) a portaria que estabelece os critérios para a compra de dívidas antigas pelo governo federal no âmbito do Desenrola Brasil 3.0.</p><h2>Texto também torna público o edital</h2><p>O texto também torna público o edital de manifestação de interesse para instituições financeiras e outros credores interessados em ofertar carteiras de crédito à União.</p><p>O prazo para envio das informações termina às 23h59 do dia 30 de outubro. A iniciativa busca levantar o volume de débitos que poderão ser adquiridos pelo governo e subsidiar a organização de um procedimento competitivo para a compra das carteiras.</p><p>A expectativa da Fazenda é receber ofertas que somem até R$ 90 bilhões em dívidas.</p><h2>Como o programa prevê desconto mínimo de 90%</h2><p>Como o programa prevê desconto mínimo de 90% na aquisição dos créditos, o desembolso da União poderia chegar a R$ 9 bilhões caso todo esse volume fosse comprado nas condições mínimas estabelecidas.</p><p>A participação no chamamento, no entanto, não garante que as carteiras serão adquiridas pelo governo. O procedimento desta etapa é voltado aos credores e tem como objetivo reunir informações para estruturar o futuro leilão.</p><p>A primeira etapa abrange dívidas de pessoas físicas, incluindo MEIs (microempreendedores individuais) , com valor original de até R$ 10 mil e atraso superior a 720 dias e inferior a 1.645 dias, considerando a data de referência de 25 de setembro de 2026.</p><p>Entre as modalidades contempladas estão débitos de cartão de crédito rotativo e parcelado, crédito pessoal sem consignação e cheque especial. Para os MEIs, também são consideradas operações de crédito sem garantia real, conforme os critérios definidos na portaria.</p><p>Os créditos devem ter sido originados em operações contratadas com instituições financeiras constituídas por lei ou autorizadas a funcionar pelo Banco Central.</p><p>O chamamento também permite a manifestação de interesse de companhias securitizadoras, FIDCs (fundos de investimento em direitos creditórios) e outras pessoas jurídicas detentoras de carteiras elegíveis.</p><p>Os credores deverão apresentar informações sobre a quantidade de devedores, o número de contratos e o valor dos créditos, com a separação dos dados por modalidade de operação, faixa de renda e tempo de inadimplência, entre outros critérios previstos no edital.</p><p>A compra das carteiras deverá observar um deságio mínimo de 90% sobre o valor original atualizado dos créditos, incluindo juros, multas e encargos.</p><p>Isso significa que a União pagará, no máximo, 10% do valor considerado para a aquisição, respeitadas as condições aplicáveis ao procedimento.</p><p>O desconto mínimo, contudo, não impede que o governo busque condições mais vantajosas na disputa entre os credores.</p><p>A definição das carteiras que serão efetivamente adquiridas dependerá das informações recebidas e das regras do procedimento competitivo a ser realizado posteriormente.</p><p>O governo também pretende avaliar o volume de dívidas por perfil de renda para estruturar a operação.</p><p>A prioridade anunciada é atender devedores de menor renda e microempreendedores individuais, embora o levantamento contemple diferentes faixas de rendimento.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governo-publica-edital-para-compra-de-dividas-no-desenrola-3-0/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Ministério da Fazenda publicou nesta quinta-feira (22) em edição extra do DOU (Diário Oficial da União) a portaria que estabelece os critérios para a compra de dívidas antigas pelo governo federal no âmbito do Desenrola Brasil 3.0."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O texto também torna público o edital de manifestação de interesse para instituições financeiras e outros credores interessados em ofertar carteiras de crédito à União."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O prazo para envio das informações termina às 23h59 do dia 30 de outubro. A iniciativa busca levantar o volume de débitos que poderão ser adquiridos pelo governo e subsidiar a organização de um procedimento competitivo para a compra das carteiras."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A expectativa da Fazenda é receber ofertas que somem até R$ 90 bilhões em dívidas. Como o programa prevê desconto mínimo de 90% na aquisição dos créditos, o desembolso da União poderia chegar a R$ 9 bilhões caso todo esse volume fosse comprado nas condições mínimas estabelecidas."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A participação no chamamento, no entanto, não garante que as carteiras serão adquiridas pelo governo. O procedimento desta etapa é voltado aos credores e tem como objetivo reunir informações para estruturar o futuro leilão."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2026binary_LYNXMPEM4H17C-BASEIMAGE-e1792718217417.jpg?w=800&h=451&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/governo-publica-edital-para-compra-de-dividas-no-desenrola-3-0.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "ad267bde9dcf557d",
+      "titulo": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Agência Brasil - Economia",
+      "urlFonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/portaria-convoca-instituicoes-financeiras-para-3a-fase-do-desenrola",
+      "dataFonte": "2026-10-23T01:04:00.000Z",
+      "resumoFonte": "As instituições financeiras terão cinco dias úteis para a informar ao governo as dívidas que pretendem oferecer para renegociação na primeira etapa do Desenrola 3.0. O Diário Oficial da União publicou, em edição extraordinária, a portaria com o edital de chamamento . A terceira versão do Desenrola prevê a compra de dívidas pelo governo. Na…",
+      "imagem": "https://imagens.ebc.com.br/voll0v2UWNvDmquNcnT9CodBuVA=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/real_moeda_dinheiro_mcajr_2904223671.jpg?itok=aw5KJz5a",
+      "descobertaEm": "2026-10-23T01:18:15.765Z",
+      "reportagem": {
+        "titulo": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
+        "slug": "portaria-convoca-instituicoes-financeiras-para-3-fase-do-desenrola",
+        "categoria": "Economia",
+        "data": "2026-10-22",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/portaria-convoca-instituicoes-financeiras-para-3-fase-do-desenrola.jpg",
+        "resumo": "Bancos terão cinco dias úteis para apresentar dívidas ao governo. Programa prevê a compra, pela União, de carteiras de crédito com dívidas antigas para viabilizar a renegociação dos débitos com os consumidores.",
+        "conteudo": "<p>As instituições financeiras terão cinco dias úteis para a informar ao governo as dívidas que pretendem oferecer para renegociação na primeira etapa do Desenrola 3.0. O Diário Oficial da União publicou, em edição extraordinária, a portaria com o edital de chamamento .</p><h2>Terceira versão do Desenrola prevê a compra de dívidas</h2><p>A terceira versão do Desenrola prevê a compra de dívidas pelo governo. Na quarta-feira (21), o ministro da Fazenda, Dario Durigan, estimou em R$ 90 bilhões o volume de dívidas antigas que podem ser apresentadas nesse edital, que dá início ao processo de habilitação de bancos e fundos interessados em vender carteiras de crédito à União.</p><p>Apesar do volume previsto, o custo máximo estimado para a compra de todo esse montante seria de R$ 9 bilhões, considerando o desconto mínimo de 90% exigido pelo programa.</p><p>As instituições terão cinco dias úteis para informar o volume de débitos que pretendem oferecer.</p><h2>Etapa, no entanto, não é</h2><p>A etapa, no entanto, não é uma convocação para que os consumidores renegociem suas dívidas, mas um procedimento para medir o interesse dos credores e o volume de dívidas por faixas de renda.</p><p>O chamamento público será destinado a bancos, instituições financeiras e fundos de investimento em direitos creditórios (FIDCs).</p><p>Para participar da etapa seguinte, os credores deverão apresentar carteiras de dívidas que atendam aos critérios do programa e aceitar as condições mínimas de desconto.</p><p>Segundo o ministro, o governo pretende estruturar a disputa para favorecer devedores de menor renda e microempreendedores individuais (MEIs). No entanto, caso o volume de dívidas de baixa renda seja menor que o previsto, o governo poderá comprar mais dívidas de alta renda.</p><p>A estimativa inicial é que os credores apresentem até R$ 90 bilhões em dívidas. Como o programa exige deságio mínimo de 90%, a União pagaria, no máximo, 10% do valor nominal das carteiras adquiridas.</p><p>Na hipótese de compra de todo o montante estimado, o desembolso seria de até R$ 9 bilhões.</p><p>O governo, porém, não necessariamente comprará todas as carteiras apresentadas. A intenção é estabelecer um orçamento para o leilão e estimular a concorrência entre os credores, o que pode resultar em descontos superiores ao mínimo exigido.</p><p>A depender do que o governo receber nas carteiras dos bancos e das instituições financeiras, o governo pode pedir desconto de 93% a 95% no leilão.</p><p>O Desenrola 3.0 foi criado por medida provisória assinada pelo presidente Luiz Inácio Lula da Silva em setembro. O programa prevê a compra, pela União, de carteiras de crédito com dívidas antigas para viabilizar a renegociação dos débitos com os consumidores.</p><p>No lançamento da iniciativa, o governo estimou que o volume total de dívidas elegíveis poderia chegar a R$ 150 bilhões, com desembolso de aproximadamente R$ 15 bilhões.</p><p>A previsão de R$ 90 bilhões divulgada agora corresponde à expectativa inicial de dívidas que os credores poderão apresentar na primeira chamada.</p><p>Após o leilão, as dívidas adquiridas pelo governo poderão ser renegociadas com os devedores, com repasse dos descontos obtidos na compra das carteiras.</p><p>O consumidor poderá quitar o débito à vista ou parcelar o pagamento, conforme as condições a serem estabelecidas. No caso do parcelamento, haverá cobrança de juros.</p><p>Os prazos, as taxas e as demais condições operacionais ainda dependem de definições do Conselho Monetário Nacional (CMN) e da regulamentação aplicável.</p><p>Neste momento, os consumidores não precisam procurar os bancos para participar da etapa de chamamento. O governo ainda deverá divulgar as regras e os procedimentos para o acesso às renegociações.</p>",
+        "fonteNome": "Agência Brasil - Economia",
+        "fonteUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/portaria-convoca-instituicoes-financeiras-para-3a-fase-do-desenrola",
+        "fontesAdicionais": [
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          },
+          {
+            "nome": "Ministério da Fazenda",
+            "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "As instituições financeiras terão cinco dias úteis para a informar ao governo as dívidas que pretendem oferecer para renegociação na primeira etapa do Desenrola 3.0. O Diário Oficial da União publicou, em edição extraordinária, a portaria com o edital de chamamento ."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A terceira versão do Desenrola prevê a compra de dívidas pelo governo. Na quarta-feira (21), o ministro da Fazenda, Dario Durigan, estimou em R$ 90 bilhões o volume de dívidas antigas que podem ser apresentadas nesse edital, que dá início ao processo de habilitação de bancos e fundos interessados em vender carteiras de crédito à União."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Apesar do volume previsto, o custo máximo estimado para a compra de todo esse montante seria de R$ 9 bilhões, considerando o desconto mínimo de 90% exigido pelo programa."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "As instituições terão cinco dias úteis para informar o volume de débitos que pretendem oferecer. A etapa, no entanto, não é uma convocação para que os consumidores renegociem suas dívidas, mas um procedimento para medir o interesse dos credores e o volume de dívidas por faixas de renda."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O chamamento público será destinado a bancos, instituições financeiras e fundos de investimento em direitos creditórios (FIDCs). Para participar da etapa seguinte, os credores deverão apresentar carteiras de dívidas que atendam aos critérios do programa e aceitar as condições mínimas de desconto."
+          }
+        ],
+        "imagemOriginal": "https://imagens.ebc.com.br/voll0v2UWNvDmquNcnT9CodBuVA=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/real_moeda_dinheiro_mcajr_2904223671.jpg?itok=aw5KJz5a",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/portaria-convoca-instituicoes-financeiras-para-3-fase-do-desenrola.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "d5dcf25c71724d50",
+      "titulo": "Lula diz que Meta vai ter que ser reinventada e que empresa 'não pode enganar a humanidade todo tempo'",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/22/lula-diz-que-meta-vai-ter-que-ser-reinventada-e-que-empresa-nao-pode-enganar-a-humanidade-todo-tempo.ghtml",
+      "dataFonte": "2026-10-22T23:25:06.000Z",
+      "resumoFonte": "O presidente Luiz Inácio Lula da Silva (PT) disse nesta quinta-feira (22) que a empresa Meta (dona do Facebook, WhatsApp e Instagram) terá que ser reinventada e que não pode achar que pode enganar a humanidade \"todo tempo\". \"A gente vai provar agora que a gente vai derrotar o império digital. A Meta vai ter que ser reinventada porque ela não pode…",
+      "imagem": "https://s2-g1.glbimg.com/jwUI6GTtrqfK3T4Qvjjs_OtEFUI=/5451x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/z/MAtBvTRMCeNwpfxEu8ow/2026-10-19t205006z-1997559598-rc2k6oafwj8d-rtrmadp-3-brazil-election-lula.jpg",
+      "descobertaEm": "2026-10-23T00:18:33.394Z"
+    },
+    {
+      "id": "34c843a6a42de304",
+      "titulo": "Newcastle pode pressionar preço do frango no Brasil em 2027, diz Itaú BBA",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/agro/newcastle-pode-pressionar-preco-do-frango-no-brasil-em-2027-diz-itau-bba/",
+      "dataFonte": "2026-10-22T23:15:53.000Z",
+      "resumoFonte": "Análise do Itaú BBA aponta que restrições comerciais após caso de Newcastle em Santa Catarina podem elevar estoques e ampliar a oferta no mercado interno no início do próximo ano",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportAgribusinessNews/tagreuters.com2025binary_LYNXMPELAO128-BASEIMAGE.jpg?w=800&h=513&crop=1",
+      "descobertaEm": "2026-10-23T00:18:33.394Z",
+      "reportagem": {
+        "titulo": "Newcastle pode pressionar preço do frango no Brasil em 2027, diz Itaú BBA",
+        "slug": "newcastle-pode-pressionar-preco-do-frango-no-brasil-em-2027-diz-itau-bba",
+        "categoria": "Economia",
+        "data": "2026-10-22",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/newcastle-pode-pressionar-preco-do-frango-no-brasil-em-2027-diz-itau-bba.jpg",
+        "resumo": "Análise do Itaú BBA aponta que restrições comerciais após caso de Newcastle em Santa Catarina podem elevar estoques e ampliar a oferta no mercado interno no início do próximo ano",
+        "conteudo": "<p>O aumento da produção brasileira de carne de frango, combinado com possíveis restrições às exportações após a confirmação de um caso de doença de Newcastle em Santa Catarina, pode pressionar os preços da proteína no mercado interno no início de 2027.</p><h2>Avaliação é do Itaú BBA, que aponta riscos</h2><p>A avaliação é do Itaú BBA, que aponta riscos para a comercialização da produção catarinense caso os mercados importadores demorem a retomar as compras.</p><p>Em relatório divulgado, a consultoria destaca que o impacto do episódio sobre o setor brasileiro tende a ser limitado, mas pode ser mais significativo para os produtores e frigoríficos de Santa Catarina.</p><p>O estado é o segundo maior produtor de frango do país e tem forte dependência do mercado externo, com cerca de 63% da produção destinada às exportações.</p><h2>Em 2025, Santa Catarina produziu aproximadamente 1,9</h2><p>Em 2025, Santa Catarina produziu aproximadamente 1,9 milhão de toneladas de carne de frango, o equivalente a 13,4% da produção nacional.</p><p>No comércio exterior, respondeu por 1,2 milhão de toneladas exportadas, que geraram US$ 2,45 bilhões, representando 22,5% do volume e 25% da receita das exportações brasileiras da proteína.</p><p>A confirmação do foco de Newcastle em uma granja comercial de perus em Nova Itaberaba, no oeste catarinense, levou alguns países a impor restrições às compras.</p><p>A China suspendeu 14 unidades de Santa Catarina entre as 61 plantas brasileiras habilitadas, enquanto Arábia Saudita e Chile também adotaram medidas direcionadas ao estado.</p><p>México e Malásia, por sua vez, suspenderam as importações de carne de frango de todo o Brasil.</p><p>Segundo o Itaú BBA, a extensão e a duração dessas restrições serão determinantes para avaliar os efeitos econômicos do episódio.</p><p>Caso os embarques não sejam retomados rapidamente, parte da produção que seria exportada poderá permanecer no mercado brasileiro ou precisar ser armazenada por mais tempo, elevando os custos das empresas.</p><p>Esse cenário pode aumentar a disponibilidade interna de carne de frango justamente em um período em que a produção nacional já apresenta crescimento.</p><p>Entre janeiro e setembro de 2026, os abates de frangos avançaram 3,7%, enquanto o volume de carne produzido aumentou 6,2%, de acordo com os dados citados no relatório.</p><p>Para o ano, a expectativa é de expansão próxima de 6% na produção.</p><p>Com mais produto disponível e dificuldades para escoar parte dos volumes ao exterior, frigoríficos podem recorrer a descontos para vender os estoques, pressionando as cotações.</p><p>O efeito, porém, dependerá da capacidade de redirecionar as exportações para outros destinos, da velocidade de reabertura dos mercados suspensos e do comportamento da demanda doméstica.</p><p>O Brasil vinha registrando crescimento na produção e nas vendas externas de carne de frango em 2026, com possibilidade de alcançar um novo recorde anual de exportações.</p><p>Nesse contexto, a perda temporária de acesso a determinados mercados pode dificultar o escoamento da oferta, sobretudo para empresas com maior exposição a Santa Catarina.</p><p>A China representou cerca de 10% das exportações brasileiras de carne de frango entre janeiro e setembro de 2026.</p><p>A Arábia Saudita também tem peso relevante, tendo sido o terceiro principal destino da proteína brasileira no período, com aproximadamente 327,8 mil toneladas, o equivalente a cerca de 8% dos embarques.</p><p>A possibilidade de redirecionar os volumes para outros compradores pode reduzir os efeitos das suspensões, mas não elimina necessariamente os custos de transição.</p><p>Mudanças de destino podem exigir renegociação de contratos, ajustes logísticos e maior tempo de armazenamento, com consequências para o fluxo de caixa dos frigoríficos e cooperativas.</p><p>O relatório ressalta que a duração dos embargos comerciais pode ser tão importante quanto o controle sanitário do foco.</p><p>Em episódios anteriores, a retomada das compras variou conforme o país importador e as regras adotadas para regionalizar as restrições , o que torna incerto o prazo de normalização dos embarques.</p><p>Para o mercado doméstico, o início de 2027 concentra um risco adicional. A demanda por carne costuma perder força sazonalmente no primeiro trimestre, enquanto o eventual redirecionamento de volumes antes destinados à exportação pode ampliar a oferta disponível no país.</p><p>Se a produção continuar crescendo e as restrições comerciais persistirem, a combinação de maior disponibilidade e demanda sazonalmente mais fraca poderá pressionar os preços do frango.</p><p>O movimento também dependerá do ritmo de consumo, dos estoques acumulados e da capacidade de absorção do mercado interno.</p><p>Além dos preços da carne, uma eventual redução dos abates em Santa Catarina pode repercutir na cadeia de insumos, com efeitos sobre a demanda por milho e farelo de soja utilizados na alimentação das aves.</p><p>Integrados, cooperativas e frigoríficos também podem enfrentar ajustes nos alojamentos, nos contratos e na remuneração ao longo da cadeia produtiva.</p><p>Apesar dos riscos regionais, o Itaú BBA avalia que o efeito agregado sobre o setor brasileiro tende a ser limitado, desde que não ocorram novos focos e que as restrições sejam gradualmente revistas.</p><p>A consultoria recomenda acompanhar a evolução sanitária, as decisões dos países importadores e a retomada das compras, fatores que ajudarão a dimensionar a pressão sobre os preços e as margens do setor nos próximos meses.</p><p>Frangos são fotografados numa fábrica de aves na cidade da Lapa</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/agro/newcastle-pode-pressionar-preco-do-frango-no-brasil-em-2027-diz-itau-bba/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O aumento da produção brasileira de carne de frango, combinado com possíveis restrições às exportações após a confirmação de um caso de doença de Newcastle em Santa Catarina, pode pressionar os preços da proteína no mercado interno no início de 2027. A avaliação é do Itaú BBA, que aponta riscos para a comercialização da produção catarinense caso os mercados "
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Em relatório divulgado, a consultoria destaca que o impacto do episódio sobre o setor brasileiro tende a ser limitado, mas pode ser mais significativo para os produtores e frigoríficos de Santa Catarina. O estado é o segundo maior produtor de frango do país e tem forte dependência do mercado externo, com cerca de 63% da produção destinada às exportações."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Em 2025, Santa Catarina produziu aproximadamente 1,9 milhão de toneladas de carne de frango, o equivalente a 13,4% da produção nacional. No comércio exterior, respondeu por 1,2 milhão de toneladas exportadas, que geraram US$ 2,45 bilhões, representando 22,5% do volume e 25% da receita das exportações brasileiras da proteína."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A confirmação do foco de Newcastle em uma granja comercial de perus em Nova Itaberaba, no oeste catarinense, levou alguns países a impor restrições às compras. A China suspendeu 14 unidades de Santa Catarina entre as 61 plantas brasileiras habilitadas, enquanto Arábia Saudita e Chile também adotaram medidas direcionadas ao estado. México e Malásia, por sua v"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Segundo o Itaú BBA, a extensão e a duração dessas restrições serão determinantes para avaliar os efeitos econômicos do episódio. Caso os embarques não sejam retomados rapidamente, parte da produção que seria exportada poderá permanecer no mercado brasileiro ou precisar ser armazenada por mais tempo, elevando os custos das empresas."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportAgribusinessNews/tagreuters.com2025binary_LYNXMPELAO128-BASEIMAGE.jpg?w=800&h=513&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/newcastle-pode-pressionar-preco-do-frango-no-brasil-em-2027-diz-itau-bba.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "3b6ffc35ec6c3048",
+      "titulo": "Pitbull anuncia turnê pela América do Sul com passagem pelo Brasil",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/pop/musica/pitbull-anuncia-turne-pela-america-do-sul-com-passagem-pelo-brasil/",
+      "dataFonte": "2026-10-23T00:07:24.000Z",
+      "resumoFonte": "De acordo com o rapper, os shows acontecerão também no Chile, Argentina, Colômbia, Peru e México",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Rapper-Pitbull.png?w=626&h=379&crop=1",
+      "descobertaEm": "2026-10-23T00:18:33.394Z",
+      "reportagem": {
+        "titulo": "Pitbull anuncia turnê pela América do Sul com passagem pelo Brasil",
+        "slug": "pitbull-anuncia-turne-pela-america-do-sul-com-passagem-pelo-brasil",
+        "categoria": "Cultura",
+        "data": "2026-10-22",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/pitbull-anuncia-turne-pela-america-do-sul-com-passagem-pelo-brasil.jpg",
+        "resumo": "De acordo com o rapper, os shows acontecerão também no Chile, Argentina, Colômbia, Peru e México",
+        "conteudo": "<p>O cantor Pitbull , 45, anunciou nesta quinta-feira (22) que fará uma turnê pela América do Sul, começando pelo Brasil. A informação foi revelada durante um Q&amp;A na Billboard Latin Music Week.</p><h2>&quot;Vamos começar pelo Brasil, depois Colômbia, Peru, Chile, Argentina</h2><p>&quot;Vamos começar pelo Brasil, depois Colômbia, Peru, Chile, Argentina e também México&quot;, disse o cantor durante a entrevista.</p><p>Uma das apresentadoras chegou a questionar: &quot;Isso era uma informação que já tínhamos?&quot;. Em tom de brincadeira, o cantor respondeu: &quot;Quem não sabia, agora sabe&quot;.</p><p>Além dos shows pelos países da América Latina, Pitbull também afirmou que vai se apresentar em festivais ao longo do ano que vem e que pretende voltar a rodar o mundo com uma turnê em 2028.</p><h2>Pitbull já veio ao Brasil outras vezes</h2><p>Pitbull já veio ao Brasil outras vezes. Em 2010, estreou no país com uma apresentação no festival Telefónica Sonidos, no Jockey Club, em São Paulo.</p><p>Ele retornou com a turnê mundial &quot;Planet Pit World Tour&quot;, que passou por São Paulo, Rio de Janeiro, Manaus, Salvador, Goiânia, Fortaleza e Teresina.</p><p>Em 2014, o rapper teve uma de suas apresentações mais marcantes para o público brasileiro ao cantar ao vivo na cerimônia de abertura da Copa do Mundo de Futebol, realizada na Arena Corinthians, em São Paulo.</p><p>O nome artístico do rapper chama a atenção. De acordo com a biografia &quot; Pitbull: Mr. Worldwide &quot;, ele tinha um motivo para querer ser conhecido pelo nome de uma raça específica de cachorro.</p><p>&quot;Pitbulls mordem para travar&quot;, diz o livro. &quot;O cachorro é burro demais para perder. E eles são proibidos no Condado de Dade, na Flórida. Eles são basicamente tudo o que eu sou. Tem sido uma luta constante&quot;, disse ele em uma entrevista à CNN Internacional.</p><p>&quot;Eu gosto da caçada; gosto quando as pessoas dizem que você não pode, que você não vai conseguir, que você nunca vai conseguir&quot;, disse Pitbull. &quot;Esse tipo de coisa me excita.&quot;</p><p>Seu nome de batismo é Armando Christian Pérez. De ascendência cubana, o rapper é americano e nasceu em Miami, nos Estados Unidos. Outro apelido também passou a ser adotado ao longo de sua carreira: Mr. Worldwide, em referência ao alcance internacional de sua música.</p><p>Pitbull anuncia turnê pela América do Sul com passagem pelo Brasil</p><p>O cantor Pitbull , 45, anunciou nesta quinta-feira (22) que fará uma turnê pela América do Sul, começando pelo Brasil. A informação foi revelada durante um Q&amp;A na Billboard Latin Music Week.</p><p>&quot;Vamos começar pelo Brasil, depois Colômbia, Peru, Chile, Argentina e também México&quot;, disse o cantor durante a entrevista.</p><p>Uma das apresentadoras chegou a questionar: &quot;Isso era uma informação que já tínhamos?&quot;. Em tom de brincadeira, o cantor respondeu: &quot;Quem não sabia, agora sabe&quot;.</p><p>Além dos shows pelos países da América Latina, Pitbull também afirmou que vai se apresentar em festivais ao longo do ano que vem e que pretende voltar a rodar o mundo com uma turnê em 2028. Leia Mais</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/pop/musica/pitbull-anuncia-turne-pela-america-do-sul-com-passagem-pelo-brasil/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O cantor Pitbull , 45, anunciou nesta quinta-feira (22) que fará uma turnê pela América do Sul, começando pelo Brasil. A informação foi revelada durante um Q&amp;A na Billboard Latin Music Week."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "&quot;Vamos começar pelo Brasil, depois Colômbia, Peru, Chile, Argentina e também México&quot;, disse o cantor durante a entrevista. Uma das apresentadoras chegou a questionar: &quot;Isso era uma informação que já tínhamos?&quot;. Em tom de brincadeira, o cantor respondeu: &quot;Quem não sabia, agora sabe&quot;."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Além dos shows pelos países da América Latina, Pitbull também afirmou que vai se apresentar em festivais ao longo do ano que vem e que pretende voltar a rodar o mundo com uma turnê em 2028."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Pitbull já veio ao Brasil outras vezes. Em 2010, estreou no país com uma apresentação no festival Telefónica Sonidos, no Jockey Club, em São Paulo. Ele retornou com a turnê mundial &quot;Planet Pit World Tour&quot;, que passou por São Paulo, Rio de Janeiro, Manaus, Salvador, Goiânia, Fortaleza e Teresina."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Em 2014, o rapper teve uma de suas apresentações mais marcantes para o público brasileiro ao cantar ao vivo na cerimônia de abertura da Copa do Mundo de Futebol, realizada na Arena Corinthians, em São Paulo."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Rapper-Pitbull.png?w=626&h=379&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/pitbull-anuncia-turne-pela-america-do-sul-com-passagem-pelo-brasil.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "0093beb616c02a2d",
+      "titulo": "Você confere o celular várias vezes antes de sair de casa? Entenda o que a psicologia explica sobre esse hábito",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/curiosidades/voce-confere-o-celular-varias-vezes-antes-de-sair-de-casa-entenda-o-que-a-psicologia-explica-sobre-esse-habito/",
+      "dataFonte": "2026-10-22T23:20:13.000Z",
+      "resumoFonte": "Hábito de verificar objetos antes de sair pode estar ligado à busca por segurança e à confiança na memória, mas nem sempre indica ansiedade",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Homem-confere-celular-antes-de-sair-de-casa.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-23T00:18:33.394Z",
+      "reportagem": {
+        "titulo": "Você confere o celular várias vezes antes de sair de casa? Entenda o que a psicologia explica sobre esse hábito",
+        "slug": "voce-confere-o-celular-varias-vezes-antes-de-sair-de-casa-entenda-o-que-a-psicologia-expli",
         "categoria": "Tecnologia",
         "data": "2026-10-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/os-orgaos-brasileiros-afetados-por-grave-falha-mundial-em-sistema-digital.jpg",
-        "resumo": "Crise mundial foi causada após falhas no PHP serem divulgadas antes do lançamento das novas versões",
-        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril.</p><h2>Nesta semana, informa&ccedil;&otilde;es sobre uma falha na linguagem</h2><p>Nesta semana, informa&ccedil;&otilde;es sobre uma falha na linguagem de programa&ccedil;&atilde;o PHP, extremamente presente em diversos sites, geraram caos mundial na internet ap&oacute;s vazarem.</p><p>O caso gerou sequ&ecirc;ncias de tentativas de invas&otilde;es para v&aacute;rios sistemas e afetou organiza&ccedil;&otilde;es por todo o mundo.</p><p>No Brasil, tribunais e outras organiza&ccedil;&otilde;es tiveram de tirar seus sites do ar at&eacute; que a falha fosse resolvida.</p><h2>PHP &eacute; uma linguagem de programa&ccedil;&atilde;o extremamente popular</h2><p>O PHP &eacute; uma linguagem de programa&ccedil;&atilde;o extremamente popular na cria&ccedil;&atilde;o de sites.</p><p>Ela serve como conex&atilde;o entre as informa&ccedil;&otilde;es enviadas pelo usu&aacute;rio e os servidores e bancos de dados conectados &agrave;s organiza&ccedil;&otilde;es.</p><p>Servi&ccedil;os como o Facebook, Wikip&eacute;dia, Moodle e WordPress utilizam a tecnologia em seus sistemas.</p><p>As falhas cr&iacute;ticas (chamadas de zero-day 400;&rdquo;&gt;) foram encontradas em agosto por empresas de ciberseguran&ccedil;a e lideran&ccedil;as no mercado de intelig&ecirc;ncia artificial (IA), como a OpenAI, criadora do ChatGPT.</p><p>As organiza&ccedil;&otilde;es j&aacute; haviam enviado os dados para a PHP Foundation, respons&aacute;vel pela manuten&ccedil;&atilde;o da linguagem, mas um vazamento no dia anterior &agrave; distribui&ccedil;&atilde;o de uma nova vers&atilde;o da linguagem gerou o caos mundial.</p><p>Nos Estados Unidos, a Ag&ecirc;ncia de Seguran&ccedil;a Nacional dos Estados Unidos (NSA) pediu que as organiza&ccedil;&otilde;es corrigissem as falhas imediatamente ou desligassem os sistemas vulner&aacute;veis.</p><p>As falhas &ldquo;frequentemente proporcionam um caminho direto para o sistema de arquivos ou para o banco de dados do servidor&rdquo;, afirmou a NSA em um comunicado no X.</p><p>Hackers poderiam explorar essas vulnerabilidades para assumir o controle de servidores de sites sem precisar de senha.</p><p>No Brasil, a Ag&ecirc;ncia Nacional de Telecomunica&ccedil;&otilde;es (Anatel) suspendeu temporariamente o acesso externo ao Sistema Eletr&ocirc;nico de Informa&ccedil;&otilde;es (SEI) e a outros servi&ccedil;os digitais.</p><p>O governo brasileiro tamb&eacute;m emitiu um comunicado atrav&eacute;s do Centro Integrado de Seguran&ccedil;a Cibern&eacute;tica do Governo Digital (CISC).</p><p>O Minist&eacute;rio da Gest&atilde;o e da Inova&ccedil;&atilde;o em Servi&ccedil;os P&uacute;blicos (MGI) tamb&eacute;m afirmou que a situa&ccedil;&atilde;o foi &ldquo;prontamente comunicada a todas as unidades de tecnologia do governo federal para retirar temporariamente do ar todos os sistemas desenvolvidos em PHP&rdquo;.</p><p>Ao g1, o Gabinete de Seguran&ccedil;a Institucional da Presid&ecirc;ncia da Rep&uacute;blica ( GSI ) explicou que alertou os gestores de Tecnologia da Informa&ccedil;&atilde;o da Administra&ccedil;&atilde;o P&uacute;blica Federal e solicitou que eles atualizem os sistemas de imediato.</p><p>A PHP Foundation, respons&aacute;vel pela linguagem, j&aacute; lan&ccedil;ou atualiza&ccedil;&otilde;es de emerg&ecirc;ncia que cobrem as falhas, mas ainda &eacute; necess&aacute;rio que usu&aacute;rios atualizem seus sistemas para que elas funcionem.</p><p>O Tribunal Regional Federal da 4&ordf; Regi&atilde;o (TRF4), o Tribunal Regional Federal da 1&ordf; Regi&atilde;o (TRF1) e o Tribunal Regional Federal da 6&ordf; Regi&atilde;o (TRF6) suspenderam o acesso ao SEI e a outros sistemas internos.</p><p>No exterior, sites da administra&ccedil;&atilde;o p&uacute;blica francesa sa&iacute;ram do ar, e os Estados Unidos solicitaram que suas entidades e organiza&ccedil;&otilde;es verificassem e suspendessem em tempo recorde seus sites at&eacute; que a falha fosse resolvida.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/tecnologia/os-orgaos-brasileiros-afetados-por-grave-falha-mundial-em-sistema-digital/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/voce-confere-o-celular-varias-vezes-antes-de-sair-de-casa-entenda-o-que-a-psicologia-expli.jpg",
+        "resumo": "Hábito de verificar objetos antes de sair pode estar ligado à busca por segurança e à confiança na memória, mas nem sempre indica ansiedade",
+        "conteudo": "<p>Antes de sair de casa, algumas pessoas repetem um pequeno ritual. Conferem se o celular está no bolso, procuram as chaves e verificam a carteira, mesmo depois de terem certeza de que pegaram tudo.</p><h2>Embora pareça apenas uma precaução, a necessidade de checar</h2><p>Embora pareça apenas uma precaução, a necessidade de checar os mesmos objetos várias vezes pode estar relacionada à maneira como lidamos com dúvidas, responsabilidades e lembranças .</p><p>Na psicologia, esse tipo de comportamento é conhecido como verificação ou checagem. Em situações cotidianas, pode funcionar como uma forma de evitar esquecimentos e imprevistos .</p><p>No entanto, quando se torna repetitivo, nem sempre proporciona a segurança esperada. Pesquisas indicam que conferir algo muitas vezes pode diminuir a confiança na própria memória , aumentando a sensação de dúvida.</p><h2>Celular deixou de ser apenas um meio</h2><p>O celular deixou de ser apenas um meio de comunicação e passou a reunir funções importantes para o cotidiano, como acesso a documentos, aplicativos bancários, pagamentos e informações profissionais.</p><p>Por isso, esquecê-lo em casa pode representar um transtorno, o que ajuda a explicar a preocupação em confirmar se o aparelho está por perto.</p><p>A psicologia também investiga a relação entre comportamentos de checagem e responsabilidade percebida , que envolve a sensação de precisar tomar precauções para evitar consequências negativas.</p><p>Nesse contexto, conferir o celular pode ser uma maneira de tentar prevenir esquecimentos ou situações inconvenientes.</p><p>Uma revisão científica publicada em 2025 na revista Psychology Research and Behavior Management discutiu como fatores como responsabilidade excessiva, dúvidas e desconfiança na memória podem contribuir para verificações compulsivas.</p><p>Embora a pesquisa tenha abordado principalmente comportamentos associados ao transtorno obsessivo-compulsivo (TOC) , ela ajuda a compreender os mecanismos psicológicos envolvidos na repetição dessas ações.</p><p>Mesmo depois de confirmar que o celular está no bolso ou na bolsa , algumas pessoas sentem necessidade de conferir novamente. Embora pareça uma forma de evitar esquecimentos, a repetição nem sempre aumenta a sensação de segurança.</p><p>Conferir o celular antes de sair não significa necessariamente ansiedade ou transtorno obsessivo-compulsivo (TOC).</p><p>Segundo o Instituto Nacional de Saúde Mental dos Estados Unidos (NIMH), verificações compulsivas podem estar associadas a pensamentos persistentes, sofrimento e prejuízos à rotina.</p><p>Quando o hábito provoca atrasos frequentes, angústia ou dificuldade para realizar atividades, buscar orientação psicológica pode ser importante. Já no cotidiano, conferir o aparelho com atenção antes de sair pode ajudar a evitar repetições desnecessárias.</p><p>A psicologia investiga como a necessidade de evitar esquecimentos pode influenciar comportamentos de checagem no dia a dia</p><p>Antes de sair de casa, algumas pessoas repetem um pequeno ritual. Conferem se o celular está no bolso, procuram as chaves e verificam a carteira, mesmo depois de terem certeza de que pegaram tudo.</p><p>Embora pareça apenas uma precaução, a necessidade de checar os mesmos objetos várias vezes pode estar relacionada à maneira como lidamos com dúvidas, responsabilidades e lembranças .</p><p>Na psicologia, esse tipo de comportamento é conhecido como verificação ou checagem. Em situações cotidianas, pode funcionar como uma forma de evitar esquecimentos e imprevistos .</p><p>No entanto, quando se torna repetitivo, nem sempre proporciona a segurança esperada. Pesquisas indicam que conferir algo muitas vezes pode diminuir a confiança na própria memória , aumentando a sensação de dúvida.</p><p>Hábito frequente O celular deixou de ser apenas um meio de comunicação e passou a reunir funções importantes para o cotidiano, como acesso a documentos, aplicativos bancários, pagamentos e informações profissionais.</p><p>Por isso, esquecê-lo em casa pode representar um transtorno, o que ajuda a explicar a preocupação em confirmar se o aparelho está por perto.</p><p>A psicologia também investiga a relação entre comportamentos de checagem e responsabilidade percebida , que envolve a sensação de precisar tomar precauções para evitar consequências negativas.</p><p>Nesse contexto, conferir o celular pode ser uma maneira de tentar prevenir esquecimentos ou situações inconvenientes. Leia Mais:</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/curiosidades/voce-confere-o-celular-varias-vezes-antes-de-sair-de-casa-entenda-o-que-a-psicologia-explica-sobre-esse-habito/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -239,27 +851,159 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
+            "resposta": "Antes de sair de casa, algumas pessoas repetem um pequeno ritual. Conferem se o celular está no bolso, procuram as chaves e verificam a carteira, mesmo depois de terem certeza de que pegaram tudo. Embora pareça apenas uma precaução, a necessidade de checar os mesmos objetos várias vezes pode estar relacionada à maneira como lidamos com dúvidas, responsabilid"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Nesta semana, informa&ccedil;&otilde;es sobre uma falha na linguagem de programa&ccedil;&atilde;o PHP, extremamente presente em diversos sites, geraram caos mundial na internet ap&oacute;s vazarem. O caso gerou sequ&ecirc;ncias de tentativas de invas&otilde;es para v&aacute;rios sistemas e afetou organiza&ccedil;&otilde;es por todo o mundo. No Brasil, tribun"
+            "resposta": "Na psicologia, esse tipo de comportamento é conhecido como verificação ou checagem. Em situações cotidianas, pode funcionar como uma forma de evitar esquecimentos e imprevistos ."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O PHP &eacute; uma linguagem de programa&ccedil;&atilde;o extremamente popular na cria&ccedil;&atilde;o de sites. Ela serve como conex&atilde;o entre as informa&ccedil;&otilde;es enviadas pelo usu&aacute;rio e os servidores e bancos de dados conectados &agrave;s organiza&ccedil;&otilde;es. Servi&ccedil;os como o Facebook, Wikip&eacute;dia, Moodle e WordPress"
+            "resposta": "No entanto, quando se torna repetitivo, nem sempre proporciona a segurança esperada. Pesquisas indicam que conferir algo muitas vezes pode diminuir a confiança na própria memória , aumentando a sensação de dúvida."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "As falhas cr&iacute;ticas (chamadas de zero-day 400;&rdquo;&gt;) foram encontradas em agosto por empresas de ciberseguran&ccedil;a e lideran&ccedil;as no mercado de intelig&ecirc;ncia artificial (IA), como a OpenAI, criadora do ChatGPT. As organiza&ccedil;&otilde;es j&aacute; haviam enviado os dados para a PHP Foundation, respons&aacute;vel pela manuten&cced"
+            "resposta": "O celular deixou de ser apenas um meio de comunicação e passou a reunir funções importantes para o cotidiano, como acesso a documentos, aplicativos bancários, pagamentos e informações profissionais. Por isso, esquecê-lo em casa pode representar um transtorno, o que ajuda a explicar a preocupação em confirmar se o aparelho está por perto."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Nos Estados Unidos, a Ag&ecirc;ncia de Seguran&ccedil;a Nacional dos Estados Unidos (NSA) pediu que as organiza&ccedil;&otilde;es corrigissem as falhas imediatamente ou desligassem os sistemas vulner&aacute;veis. As falhas &ldquo;frequentemente proporcionam um caminho direto para o sistema de arquivos ou para o banco de dados do servidor&rdquo;, afirmou a NS"
+            "resposta": "A psicologia também investiga a relação entre comportamentos de checagem e responsabilidade percebida , que envolve a sensação de precisar tomar precauções para evitar consequências negativas. Nesse contexto, conferir o celular pode ser uma maneira de tentar prevenir esquecimentos ou situações inconvenientes."
           }
         ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/10/GettyImages-2301428719.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/os-orgaos-brasileiros-afetados-por-grave-falha-mundial-em-sistema-digital.jpg",
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Homem-confere-celular-antes-de-sair-de-casa.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/voce-confere-o-celular-varias-vezes-antes-de-sair-de-casa-entenda-o-que-a-psicologia-expli.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "cc2037afa2054eba",
+      "titulo": "Campanha de Lula pede que TSE execute acordo de quebra de sigilo com Flávio Bolsonaro como um intermediador imparcial",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/22/campanha-de-lula-pede-que-tse-execute-acordo-de-quebra-de-sigilo-com-flavio-bolsonaro-como-um-intermediador.ghtml",
+      "dataFonte": "2026-10-23T00:21:28.000Z",
+      "resumoFonte": "A campanha do presidente Luiz Inácio Lula da Silva (PT) recorreu nesta quinta-feira (22) da decisão do ministro André Mendonça, do Tribunal Superior Eleitoral (TSE), de que não cabe ao tribunal definir ou não o que os candidatos querem divulgar, e pediu que a Justiça Eleitoral execute acordo de quebra de sigilo com Flávio Bolsonaro como um…",
+      "imagem": "https://s2-g1.glbimg.com/wOCylxIuXdth3f0veX0YGf6gC3M=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/a/E/Zm4CydSICXyEKjr4AZ1w/montagem-horizontal-1280x720px-1-.jpg",
+      "descobertaEm": "2026-10-23T01:18:15.765Z"
+    },
+    {
+      "id": "d89fa703a52b79fe",
+      "titulo": "Corinthians recebe ultimato para regularizar o RCE sob risco de ter contas bloqueadas",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/esportes/futebol/corinthians/corinthians-recebe-ultimato-para-regularizar-o-rce-sob-risco-de-ter-contas-bloqueadas/",
+      "dataFonte": "2026-10-23T00:20:00.000Z",
+      "resumoFonte": "Ministério Público de São Paulo (MP-SP) deu 15 dias, a partir da última terça-feira (20) para o clube resolver as pendências, que somam aproximadamente R$ 10 milhões",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/08/SnapInsta.to_670912878_18345555007214677_8759894845839780444_n.jpg?w=1199&h=630&crop=1",
+      "descobertaEm": "2026-10-23T00:18:33.394Z",
+      "reportagem": {
+        "titulo": "Corinthians recebe ultimato para regularizar o RCE sob risco de ter contas bloqueadas | Jovem Pan",
+        "slug": "corinthians-recebe-ultimato-para-regularizar-o-rce-sob-risco-de-ter-contas-bloqueadas-jove",
+        "categoria": "Justiça",
+        "data": "2026-10-22",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/corinthians-recebe-ultimato-para-regularizar-o-rce-sob-risco-de-ter-contas-bloqueadas-jove.jpg",
+        "resumo": "Ministério Público de São Paulo (MP-SP) deu 15 dias, a partir da última terça-feira (20) para o clube resolver as pendências, que somam aproximadamente R$ 10 milhões",
+        "conteudo": "<p>Em grave crise financeira, o Corinthians recebeu nesta quinta-feira (22), um ultimato da administradora do Regime Centralizado de Execuções (RCE) para regularizar os pagamentos em atraso do plano sob risco de sofrer bloqueios nas contas bancárias.</p><h2>Ministério Público de São Paulo (MP-SP) deu 15 dias,</h2><p>O Ministério Público de São Paulo (MP-SP) deu 15 dias, a partir da última terça-feira (20) para o clube resolver as pendências , que somam aproximadamente R$ 10 milhões.</p><p>Em nota, o Corinthians informou que “mantém diálogo com os agentes envolvidos e adotará as medidas necessárias para preservar o RCE” e que “segue trabalhando em diferentes frentes para reorganizar seu fluxo de caixa, reduzir seu endividamento e criar condições para o cumprimento sustentável de seus compromissos”.</p><p>O RCE é um mecanismo jurídico adotado pelo Corinthians para organizar e parcelar cerca de R$ 200 milhões em dívidas cíveis e trabalhistas, concentrando processos em uma única vara judicial.</p><h2>Ele evita bloqueios de contas bancárias, permitindo pagar credores</h2><p>Ele evita bloqueios de contas bancárias, permitindo pagar credores de forma ordenada com receitas do clube, visando reestruturação financeira.</p><p>A ação corre na 2ª Vara de Falências e Recuperações Judiciais do Foro Central Cível de São Paulo.</p><p>O valor em atraso é composto por um saldo remanescente de R$ 2,4 milhões relativo à parcela de julho de 2026 – quitada com atraso e de forma apenas parcial em 58,33% – e pelo não pagamento da parcela de agosto de 2026, fixada em R$ 7,6 milhões.</p><p>A administradora judicial Laspro Consultores Ltda. informou ao juízo que o Corinthians também falhou em entregar os documentos e demonstrativos contábeis das competências de agosto e setembro de 2026, além de manter a lista de pagamentos do site oficial desatualizada desde junho.</p><p>A administradoras citou “gravidade” no cenário da prestação de contas do RCE e recomendou que o clube seja intimado a apresentar a documentação pendente no prazo de cinco dias.</p><p>A fiscalização e o MP-SP apontam irregularidades como a dedução não comprovada de R$ 26.034.838,02 atribuída à Caixa Econômica Federal e a uma confissão de dívida de R$ 38.092.456,80 com o FIDC Daycoval, envolvendo conversão indevida de contingência ilíquida e abatimento de fundo de reserva.</p><p>Também são citadas situações como a reclassificação de R$ 32,77 milhões da Nike como operação financeira em vez de patrocínio, e a ausência de identificação do número do processo e da vara nos depósitos judiciais realizados pelo Banco do Brasil.</p><p>Tanto o MP quanto a administradora têm recebido petições de credores que pleiteiam o encerramento imediato do RCE e a liberação das penhoras.</p><p>Credores como a Link, agência do empresário André Cury, e a Pix Star, detentora da marca Pixbet – ex-patrocinadora do Corinthians -, estão entres aqueles que pedem a impugnação do plano.</p><p>A situação tem sido conduzida com cautela. Apesar da advertência formal, os dois órgãos defendem a manutenção temporária da suspensão das execuções individuais para evitar o colapso desordenado das atividades do clube.</p><p>Caso o Corinthians não comprove o depósito dos valores devidos e não sane as pendências dentro dos prazos, a proteção legal será revogada com base no artigo 23 da Lei nº 14.193/2021.</p><p>A partir daí, com a perda da blindagem patrimonial, as execuções serão retomadas imediatamente e os bloqueios de contas bancárias serão reativados, assim como eventuais penhoras.</p><p>Em março deste ano, a Justiça de São Paulo avisou ao Corinthians que poderia recorrer a uma intervenção judicial no clube caso fossem identificadas novas “inconsistências de receitas” nas documentações entregues pela diretoria no âmbito RCE.</p><p>Ministério Público de São Paulo (MP-SP) deu 15 dias, a partir da última terça-feira (20) para o clube resolver as pendências, que somam aproximadamente R$ 10 milhões</p><p>Após empate, Corinthians tem 43% de risco de cair; veja probabilidades</p><p>Corinthians sai atrás, mas empata com o Vitória pelo Brasileirão</p><p>Seedorf é apresentado como técnico do Corinthians: ‘Um dos maiores clubes do mundo’</p><p>Corinthians anuncia contratação de Seedorf como novo técnico</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/esportes/futebol/corinthians/corinthians-recebe-ultimato-para-regularizar-o-rce-sob-risco-de-ter-contas-bloqueadas/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Em grave crise financeira, o Corinthians recebeu nesta quinta-feira (22), um ultimato da administradora do Regime Centralizado de Execuções (RCE) para regularizar os pagamentos em atraso do plano sob risco de sofrer bloqueios nas contas bancárias. O Ministério Público de São Paulo (MP-SP) deu 15 dias, a partir da última terça-feira (20) para o clube resolver"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Em nota, o Corinthians informou que “mantém diálogo com os agentes envolvidos e adotará as medidas necessárias para preservar o RCE” e que “segue trabalhando em diferentes frentes para reorganizar seu fluxo de caixa, reduzir seu endividamento e criar condições para o cumprimento sustentável de seus compromissos”."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O RCE é um mecanismo jurídico adotado pelo Corinthians para organizar e parcelar cerca de R$ 200 milhões em dívidas cíveis e trabalhistas, concentrando processos em uma única vara judicial. Ele evita bloqueios de contas bancárias, permitindo pagar credores de forma ordenada com receitas do clube, visando reestruturação financeira."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A ação corre na 2ª Vara de Falências e Recuperações Judiciais do Foro Central Cível de São Paulo. O valor em atraso é composto por um saldo remanescente de R$ 2,4 milhões relativo à parcela de julho de 2026 – quitada com atraso e de forma apenas parcial em 58,33% – e pelo não pagamento da parcela de agosto de 2026, fixada em R$ 7,6 milhões."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A administradora judicial Laspro Consultores Ltda. informou ao juízo que o Corinthians também falhou em entregar os documentos e demonstrativos contábeis das competências de agosto e setembro de 2026, além de manter a lista de pagamentos do site oficial desatualizada desde junho. A administradoras citou “gravidade” no cenário da prestação de contas do RCE e "
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/08/SnapInsta.to_670912878_18345555007214677_8759894845839780444_n.jpg?w=1199&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/corinthians-recebe-ultimato-para-regularizar-o-rce-sob-risco-de-ter-contas-bloqueadas-jove.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "1c5c8e8403d29d24",
+      "titulo": "Gonet defende barrar acesso a registros de visitas de Vorcaro e mulher de Moraes ao Senado",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/colunistas/bruno-pinheiro/gonet-defende-barrar-acesso-a-registros-de-visitas-de-vorcaro-e-mulher-de-moraes-ao-senado/",
+      "dataFonte": "2026-10-22T23:58:10.000Z",
+      "resumoFonte": "Parecer enviado ao STF pede rejeição de ação que busca informações sobre entrada e saída de oito pessoas na Casa, incluindo Lulinha",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/04/agf20231213029.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-23T00:18:33.394Z",
+      "reportagem": {
+        "titulo": "Gonet defende barrar acesso a registros de visitas de Vorcaro e mulher de Moraes ao Senado | Jovem Pan",
+        "slug": "gonet-defende-barrar-acesso-a-registros-de-visitas-de-vorcaro-e-mulher-de-moraes-ao-senado",
+        "categoria": "Justiça",
+        "data": "2026-10-22",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/gonet-defende-barrar-acesso-a-registros-de-visitas-de-vorcaro-e-mulher-de-moraes-ao-senado.jpg",
+        "resumo": "Parecer enviado ao STF pede rejeição de ação que busca informações sobre entrada e saída de oito pessoas na Casa, incluindo Lulinha",
+        "conteudo": "<p>O procurador-geral da República, Paulo Gonet, defendeu nesta quinta-feira (22) que o STF (Supremo Tribunal Federal) rejeite uma ação que busca obter registros de entrada e saída de Daniel Vorcaro, do Banco Master, e Viviane Barci de Moraes, mulher do ministro Alexandre de Moraes, no Senado Federal.</p><h2>Pedido também inclui Fábio Luís Lula da Silva,</h2><p>O pedido também inclui Fábio Luís Lula da Silva, o Lulinha, filho do presidente Lula (PT), José Ferreira da Silva, o Frei Chico, irmão do presidente, e outras quatro pessoas.</p><p>A manifestação foi encaminhada ao ministro Luiz Fux, relator de um mandado de segurança apresentado pelo vereador de Curitiba Guilherme Kilter, que solicitou os registros referentes ao período de fevereiro de 2019 a fevereiro de 2026.</p><p>O Senado negou o acesso às informações, solicitadas com base na Lei de Acesso à Informação, sob o argumento de que os dados são pessoais e protegidos pela legislação.</p><h2>Vereador recorreu à Justiça afirmando que os registros</h2><p>O vereador recorreu à Justiça afirmando que os registros são de interesse público e devem ser divulgados em nome da transparência.</p><p>No parecer, Gonet sustenta que o STF não tem competência para julgar a ação porque a negativa partiu de setores administrativos do Senado, e não diretamente do presidente da Casa.</p><p>O procurador-geral também afirma que o vereador não demonstrou violação de direito individual que justificasse o mandado de segurança. Segundo ele, esse tipo de ação não pode ser utilizado para defender genericamente interesses da coletividade.</p><p>Em sua defesa, o Senado alegou que a divulgação dos registros poderia expor fontes, interlocutores e contatos de parlamentares, além de permitir a reconstrução de agendas políticas, comprometendo garantias relacionadas ao exercício do mandato.</p><p>A Casa argumentou ainda que as informações são coletadas para fins de segurança institucional e que órgãos de investigação possuem mecanismos próprios para acessá-las.</p><p>Gonet não analisou se as pessoas mencionadas efetivamente visitaram o Senado nem se os registros devem permanecer sob sigilo. O parecer se concentrou em questões processuais e recomendou a rejeição da ação.</p><p>Parecer enviado ao STF pede rejeição de ação que busca informações sobre entrada e saída de oito pessoas na Casa, incluindo Lulinha</p><p>Presidente indica nomes para o Supremo, mas cada candidato precisa ser aprovado pelo Senado antes da nomeação</p><p>Pivetta envia projeto para declarar facções terroristas em MT em meio a impasse sobre PEC da Segurança</p><p>Medeiros aciona MP por suspeita de uso da UFMT pró-Lula e cobra dados sobre tráfico</p><p>Aliados de Flávio apostam em vantagem de quatro pontos apesar de empate no Datafolha</p><p>TSE nega pedido de Flávio para suspender propaganda de Lula com aplausos na ONU</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/colunistas/bruno-pinheiro/gonet-defende-barrar-acesso-a-registros-de-visitas-de-vorcaro-e-mulher-de-moraes-ao-senado/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O procurador-geral da República, Paulo Gonet, defendeu nesta quinta-feira (22) que o STF (Supremo Tribunal Federal) rejeite uma ação que busca obter registros de entrada e saída de Daniel Vorcaro, do Banco Master, e Viviane Barci de Moraes, mulher do ministro Alexandre de Moraes, no Senado Federal."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O pedido também inclui Fábio Luís Lula da Silva, o Lulinha, filho do presidente Lula (PT), José Ferreira da Silva, o Frei Chico, irmão do presidente, e outras quatro pessoas."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A manifestação foi encaminhada ao ministro Luiz Fux, relator de um mandado de segurança apresentado pelo vereador de Curitiba Guilherme Kilter, que solicitou os registros referentes ao período de fevereiro de 2019 a fevereiro de 2026."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O Senado negou o acesso às informações, solicitadas com base na Lei de Acesso à Informação, sob o argumento de que os dados são pessoais e protegidos pela legislação. O vereador recorreu à Justiça afirmando que os registros são de interesse público e devem ser divulgados em nome da transparência."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "No parecer, Gonet sustenta que o STF não tem competência para julgar a ação porque a negativa partiu de setores administrativos do Senado, e não diretamente do presidente da Casa."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/04/agf20231213029.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/gonet-defende-barrar-acesso-a-registros-de-visitas-de-vorcaro-e-mulher-de-moraes-ao-senado.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -275,273 +1019,21 @@
       "resumoFonte": "Em comunicado, porta-voz do Departamento de Estado dos Estados Unidos afirmou que o processo \"continua a fortalecer as instituições democráticas\" e defendeu a libertação imediata de presos políticos no país",
       "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/GettyImages-2224716570.jpg?w=1200&h=630&crop=1",
       "descobertaEm": "2026-10-23T00:18:33.394Z"
-    },
-    {
-      "id": "227c0b0eb3391693",
-      "titulo": "Augusto Nardes, ministro do TCU, diz que dinheiro para pagar aposentados vai acabar",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/economia/augusto-nardes-ministro-do-tcu-diz-que-dinheiro-para-pagar-aposentados-vai-acabar/",
-      "dataFonte": "2026-10-22T22:26:05.000Z",
-      "resumoFonte": "Ministro vê semelhanças entre as pedaladas fiscais que levaram ao impeachment de Dilma Rousseff e a contabilidade do governo Lula",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2019/03/augusto-nardes.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-10-22T23:18:16.169Z",
-      "reportagem": {
-        "titulo": "Augusto Nardes, ministro do TCU, diz que dinheiro para pagar aposentados vai acabar",
-        "slug": "augusto-nardes-ministro-do-tcu-diz-que-dinheiro-para-pagar-aposentados-vai-acabar",
-        "categoria": "Economia",
-        "data": "2026-10-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/augusto-nardes-ministro-do-tcu-diz-que-dinheiro-para-pagar-aposentados-vai-acabar.jpg",
-        "resumo": "Ministro vê semelhanças entre as pedaladas fiscais que levaram ao impeachment de Dilma Rousseff e a contabilidade do governo Lula",
-        "conteudo": "<p>Diante do descontrole da d&iacute;vida p&uacute;blica, que saltou de 72% para 83% do Produto Interno Bruto durante o terceiro mandato do presidente Luiz In&aacute;cio Lula da Silva, faltar&aacute; dinheiro para pagar os aposentados e pensionistas do INSS.</p><h2>Afirma&ccedil;&atilde;o &eacute; de Augusto Nardes, ministro do Tribunal</h2><p>A afirma&ccedil;&atilde;o &eacute; de Augusto Nardes, ministro do Tribunal de Contas da Uni&atilde;o (TCU). Em um v&iacute;deo postado no seu perfil na rede social Instagram, Nardes foi contundente.</p><p>&ldquo;Est&aacute; colapsando a economia nacional&rdquo;, afirmou. Segundo o ministro, o governo Lula promoveu uma &ldquo;desor&ccedil;amenta&ccedil;&atilde;o&rdquo; das contas p&uacute;blicas, isto &eacute;, passou a gastar cada vez mais por fora do Or&ccedil;amento da Uni&atilde;o.</p><p>Segundo suas contas, a parcela n&atilde;o contemplada pelo Or&ccedil;amento j&aacute; soma 326 bilh&otilde;es de reais.</p><h2>Nardes tra&ccedil;ou um paralelo entre o quadro atual e</h2><p>Nardes tra&ccedil;ou um paralelo entre o quadro atual e as pedaladas fiscais cometidas pela presidente Dilma Rousseff, que embasaram seu pedido de impeachment em 2016.</p><p>&ldquo;Houve manipula&ccedil;&atilde;o l&aacute; atr&aacute;s nas contas da presidente e volta a acontecer&rdquo;, afirmou.</p><p>Nardes foi o relator, no TCU, do processo que recomendou a rejei&ccedil;&atilde;o das contas de Dilma.</p><p>No v&iacute;deo, Nardes acrescenta que, diante da situa&ccedil;&atilde;o, decidiu deixar um alerta &ldquo;muito forte&rdquo; no seu parecer sobre a presta&ccedil;&atilde;o de contas do governo federal neste ano &mdash; o de que a Previd&ecirc;ncia Social apresenta um rombo de 404 bilh&otilde;es de reais.</p><p>Dirigindo-se a quem pretende se aposentar pelo INSS , o ministro do TCU afirmou que, &ldquo;como est&aacute;, n&atilde;o haver&aacute; aposentadoria&rdquo;.</p><p>&ldquo;N&atilde;o temos mais economia suficiente nem para pagar os aposentados hoje, e quem dir&aacute; futuramente&rdquo;, declarou.</p><p>A manifesta&ccedil;&atilde;o p&uacute;blica de Nardes, &agrave;s v&eacute;speras do segundo turno da elei&ccedil;&atilde;o presidencial, aumenta a press&atilde;o para que o futuro presidente encampe um ajuste fiscal capaz de conter a expans&atilde;o da d&iacute;vida p&uacute;blica.</p><p>Para a grande maioria dos economistas, se o ajuste n&atilde;o for implementado, o pr&oacute;ximo governo enfrentar&aacute; uma grave crise, j&aacute; que os gastos obrigat&oacute;rios tomar&atilde;o praticamente todo o Or&ccedil;amento, impedindo que sobre algum dinheiro para outros fins, como investimentos e a manuten&ccedil;&atilde;o da m&aacute;quina p&uacute;blica.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/economia/augusto-nardes-ministro-do-tcu-diz-que-dinheiro-para-pagar-aposentados-vai-acabar/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Diante do descontrole da d&iacute;vida p&uacute;blica, que saltou de 72% para 83% do Produto Interno Bruto durante o terceiro mandato do presidente Luiz In&aacute;cio Lula da Silva, faltar&aacute; dinheiro para pagar os aposentados e pensionistas do INSS. A afirma&ccedil;&atilde;o &eacute; de Augusto Nardes, ministro do Tribunal de Contas da Uni&atilde;o (TC"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Segundo suas contas, a parcela n&atilde;o contemplada pelo Or&ccedil;amento j&aacute; soma 326 bilh&otilde;es de reais. Nardes tra&ccedil;ou um paralelo entre o quadro atual e as pedaladas fiscais cometidas pela presidente Dilma Rousseff, que embasaram seu pedido de impeachment em 2016. &ldquo;Houve manipula&ccedil;&atilde;o l&aacute; atr&aacute;s nas contas"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "No v&iacute;deo, Nardes acrescenta que, diante da situa&ccedil;&atilde;o, decidiu deixar um alerta &ldquo;muito forte&rdquo; no seu parecer sobre a presta&ccedil;&atilde;o de contas do governo federal neste ano &mdash; o de que a Previd&ecirc;ncia Social apresenta um rombo de 404 bilh&otilde;es de reais. Dirigindo-se a quem pretende se aposentar pelo INSS , "
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "&ldquo;N&atilde;o temos mais economia suficiente nem para pagar os aposentados hoje, e quem dir&aacute; futuramente&rdquo;, declarou. A manifesta&ccedil;&atilde;o p&uacute;blica de Nardes, &agrave;s v&eacute;speras do segundo turno da elei&ccedil;&atilde;o presidencial, aumenta a press&atilde;o para que o futuro presidente encampe um ajuste fiscal capaz de c"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "&ldquo;N&atilde;o temos mais economia suficiente nem para pagar os aposentados hoje, e quem dir&aacute; futuramente&rdquo;, declarou. A manifesta&ccedil;&atilde;o p&uacute;blica de Nardes, &agrave;s v&eacute;speras do segundo turno da elei&ccedil;&atilde;o presidencial, aumenta a press&atilde;o para que o futuro presidente encampe um ajuste fiscal capaz de c"
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2019/03/augusto-nardes.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/augusto-nardes-ministro-do-tcu-diz-que-dinheiro-para-pagar-aposentados-vai-acabar.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "96ecb6dd2cf2ae32",
-      "titulo": "PGR defende que STF rejeite pedido de acesso a dados de visitas de esposa de Moraes e Vorcaro ao Senado",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/22/pgr-defende-que-stf-rejeite-pedido-de-acesso-a-dados-de-visitas-de-esposa-de-moraes-e-vorcaro-ao-senado.ghtml",
-      "dataFonte": "2026-10-22T22:58:49.000Z",
-      "resumoFonte": "A Procuradoria-Geral da República (PGR) defendeu nesta quinta-feira (22) que o Supremo Tribunal Federal (STF) rejeite o pedido de um vereador de Curitiba (PR) para ter acesso a registros de entrada e saída no Senado Federal de uma lista de pessoas que inclui o ex-banqueiro Daniel Vorcaro e a esposa do ministro Alexandre de Moraes, do STF, a…",
-      "imagem": "https://s2-g1.glbimg.com/t8rowrCISkvFNAHelvo7hLSR7NQ=/2816x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/K/C/bqWYswQBajlQfUiIGe2A/55530224649-0e3185487f-o.jpg",
-      "descobertaEm": "2026-10-22T23:18:16.169Z"
-    },
-    {
-      "id": "46c3a4121c1850a3",
-      "titulo": "PGR defende manter sigilo de visitas de Vorcaro e Viviane Moraes ao Senado",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/politica/pgr-defende-manter-sigilo-de-visitas-de-vorcaro-e-viviane-moraes-ao-senado/",
-      "dataFonte": "2026-10-22T22:55:59.000Z",
-      "resumoFonte": "O procurador-geral da República, Paulo Gonet, defendeu ao STF (Supremo Tribunal Federal) que os dados sobre visitas de Daniel Vorcaro e de Viviane Barci de Moraes, esposa do ministro Alexandre de Moraes, ao Senado sejam mantidos em sigilo. Em atualização.",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/11/PAULO-GONET-1-CCJ-12-11-25.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-22T23:18:16.169Z",
-      "reportagem": {
-        "titulo": "PGR defende manter sigilo de visitas de Vorcaro e Viviane Moraes ao Senado",
-        "slug": "pgr-defende-manter-sigilo-de-visitas-de-vorcaro-e-viviane-moraes-ao-senado",
-        "categoria": "Justiça",
-        "data": "2026-10-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/pgr-defende-manter-sigilo-de-visitas-de-vorcaro-e-viviane-moraes-ao-senado.jpg",
-        "resumo": "Paulo Gonet recomendou ao ministro Luiz Fux, relator do caso no STF, que pedido de acesso seja negado, entre outros fatores, pelo autor não ter legitimidade para tal e pelo caso não ser de competência do Supremo",
-        "conteudo": "<p>O procurador-geral da República, Paulo Gonet , defendeu ao STF (Supremo Tribunal Federal) que os dados sobre visitas de Daniel Vorcaro e de Viviane Barci de Moraes, esposa do ministro Alexandre de Moraes, ao Senado sejam mantidos em sigilo .</p><h2>Encaminhado ao ministro Luiz Fux - relator do pedido</h2><p>Segundo o parecer de Gonet, encaminhado ao ministro Luiz Fux - relator do pedido de acesso na Corte – a ação não deveria ser de competência para análise do STF e o autor do processo não conseguiu justificar sua legitimidade para receber as informações de visitas.</p><p>&quot;Nos termos da jurisprudência do Supremo Tribunal Federal, afasta sua legitimidade ativa e, por conseguinte, o cabimento do mandado de segurança. O parecer é por que a ordem seja denegada&quot;, defendeu Gonet em sua manifestação ao Supremo.</p><p>O caso chegou ao STF após um pedido feito pelo vereador de Curitiba Guilherme Kilter (Novo-PR) , que solicita acesso aos registros de entrada no Senado Federal de várias pessoas, incluindo, além de Vorcaro e Viviane de Moraes, nomes como Fábio Luís Lula da Silva, o Lulinha , e Antônio Carlos Camilo Antunes, o Careca do INSS .</p><h2>Ação foi inicialmente movida por Kilter na Justiça Federal</h2><p>A ação foi inicialmente movida por Kilter na Justiça Federal do Paraná, após o Senado negar o acesso aos dados via LAI (Lei de Acesso à Informação).</p><p>No entanto, como o vereador apontou o presidente da Casa, Davi Alcolumbre (União-AP) , como o responsável no processo judicial, o caso foi enviado ao STF .</p><p>No parecer da PGR, Gonet defendeu que o vereador não conseguiu justificar seu direito e necessidade de acessar os dados.</p><p>Além disso, segundo o procurador-geral, o impetrado na ação – no caso, o senador Davi Alcolumbre – não teve &quot;conduta atribuída&quot; em relação ao pedido.</p><p>No início de outubro, o Senado já havia defendido para o relator Luiz Fux que o sigilo sobre as visitas fosse mantido .</p><p>A Casa pediu ainda que Fux extingua o processo sem nem analisar o mérito, por considerar que Kilter não tem legitimidade para o pedido e que os dados são &quot;sensíveis&quot; e exigem &quot;especial cautela&quot;.</p><p>A Advocacia do Senado solicitou também que, caso Fux analise o mérito do processo, rejeite o pedido de acesso às informações.</p><p>O procurador-geral da República, Paulo Gonet, durante sabatina no Senado</p><p>O procurador-geral da República, Paulo Gonet , defendeu ao STF (Supremo Tribunal Federal) que os dados sobre visitas de Daniel Vorcaro e de Viviane Barci de Moraes, esposa do ministro Alexandre de Moraes, ao Senado sejam mantidos em sigilo .</p><p>Segundo o parecer de Gonet, encaminhado ao ministro Luiz Fux - relator do pedido de acesso na Corte – a ação não deveria ser de competência para análise do STF e o autor do processo não conseguiu justificar sua legitimidade para receber as informações de visitas.</p><p>&quot;Nos termos da jurisprudência do Supremo Tribunal Federal, afasta sua legitimidade ativa e, por conseguinte, o cabimento do mandado de segurança.</p><p>O parecer é por que a ordem seja denegada&quot;, defendeu Gonet em sua manifestação ao Supremo. Leia Mais</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/politica/pgr-defende-manter-sigilo-de-visitas-de-vorcaro-e-viviane-moraes-ao-senado/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O procurador-geral da República, Paulo Gonet , defendeu ao STF (Supremo Tribunal Federal) que os dados sobre visitas de Daniel Vorcaro e de Viviane Barci de Moraes, esposa do ministro Alexandre de Moraes, ao Senado sejam mantidos em sigilo ."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Segundo o parecer de Gonet, encaminhado ao ministro Luiz Fux - relator do pedido de acesso na Corte – a ação não deveria ser de competência para análise do STF e o autor do processo não conseguiu justificar sua legitimidade para receber as informações de visitas."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "&quot;Nos termos da jurisprudência do Supremo Tribunal Federal, afasta sua legitimidade ativa e, por conseguinte, o cabimento do mandado de segurança. O parecer é por que a ordem seja denegada&quot;, defendeu Gonet em sua manifestação ao Supremo."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O caso chegou ao STF após um pedido feito pelo vereador de Curitiba Guilherme Kilter (Novo-PR) , que solicita acesso aos registros de entrada no Senado Federal de várias pessoas, incluindo, além de Vorcaro e Viviane de Moraes, nomes como Fábio Luís Lula da Silva, o Lulinha , e Antônio Carlos Camilo Antunes, o Careca do INSS ."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A ação foi inicialmente movida por Kilter na Justiça Federal do Paraná, após o Senado negar o acesso aos dados via LAI (Lei de Acesso à Informação). No entanto, como o vereador apontou o presidente da Casa, Davi Alcolumbre (União-AP) , como o responsável no processo judicial, o caso foi enviado ao STF ."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/11/PAULO-GONET-1-CCJ-12-11-25.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/pgr-defende-manter-sigilo-de-visitas-de-vorcaro-e-viviane-moraes-ao-senado.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "4de7864f48f1f89b",
-      "titulo": "Quem escolhe os ministros do STF?",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/politica/quem-escolhe-os-ministros-do-stf/",
-      "dataFonte": "2026-10-22T22:30:00.000Z",
-      "resumoFonte": "Presidente indica nomes para o Supremo, mas cada candidato precisa ser aprovado pelo Senado antes da nomeação",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/09/55518667279_97ac2e7463_o.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-22T23:18:16.169Z",
-      "reportagem": {
-        "titulo": "Quem escolhe os ministros do STF? | Jovem Pan",
-        "slug": "quem-escolhe-os-ministros-do-stf-jovem-pan",
-        "categoria": "Justiça",
-        "data": "2026-10-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/quem-escolhe-os-ministros-do-stf-jovem-pan.jpg",
-        "resumo": "Presidente indica nomes para o Supremo, mas cada candidato precisa ser aprovado pelo Senado antes da nomeação",
-        "conteudo": "<p>O Supremo Tribunal Federal entrou diretamente na campanha presidencial de 2026. Flávio Bolsonaro (PL) incluiu em seu programa propostas para limitar decisões individuais da Corte e falou sobre o perfil que pretende buscar em futuras indicações.</p><h2>Constituição determina que os ministros do STF são escolhidos</h2><p>A Constituição determina que os ministros do STF são escolhidos pelo presidente da República, mas a indicação não é suficiente para ocupar a cadeira.</p><p>O nome precisa ser submetido a sabatina na Comissão de Constituição e Justiça do Senado e depois aprovado pelo plenário da Casa por maioria absoluta.</p><p>Somente depois dessa aprovação o presidente faz a nomeação. Os ministros devem ter mais de 35 e menos de 70 anos, notável saber jurídico e reputação ilibada.</p><h2>Lula (PT), atual presidente e candidato à reeleição, já</h2><p>Lula (PT), atual presidente e candidato à reeleição, já fez indicações ao Supremo durante seus mandatos anteriores e no período iniciado em 2023.</p><p>Por isso, a eleição presidencial influencia a composição futura do STF, mas cada indicação depende também de uma maioria no Senado.</p><p>Presidente indica nomes para o Supremo, mas cada candidato precisa ser aprovado pelo Senado antes da nomeação</p><p>Datafolha: Flávio Bolsonaro e Lula empatam com 50% dos votos válidos no 2º turno</p><p>Pesquisa mostrou que o senador oscilou em um ponto percentual para menos, enquanto o chefe do Executivo variou para mais</p><p>Como Flávio Bolsonaro chegou da Alerj à disputa pela Presidência</p><p>Mendonça autoriza quebra de sigilos de Flávio e Lula</p><p>Quanto Lula gastou em redes sociais no primeiro turno das Eleições 2026?</p><p>É possível votar em apenas um cargo no segundo turno e deixar o outro em branco?</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/politica/quem-escolhe-os-ministros-do-stf/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Supremo Tribunal Federal entrou diretamente na campanha presidencial de 2026. Flávio Bolsonaro (PL) incluiu em seu programa propostas para limitar decisões individuais da Corte e falou sobre o perfil que pretende buscar em futuras indicações."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A Constituição determina que os ministros do STF são escolhidos pelo presidente da República, mas a indicação não é suficiente para ocupar a cadeira."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O nome precisa ser submetido a sabatina na Comissão de Constituição e Justiça do Senado e depois aprovado pelo plenário da Casa por maioria absoluta."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Somente depois dessa aprovação o presidente faz a nomeação. Os ministros devem ter mais de 35 e menos de 70 anos, notável saber jurídico e reputação ilibada."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Lula (PT), atual presidente e candidato à reeleição, já fez indicações ao Supremo durante seus mandatos anteriores e no período iniciado em 2023."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/09/55518667279_97ac2e7463_o.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/quem-escolhe-os-ministros-do-stf-jovem-pan.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "22658b1c7dad183d",
-      "titulo": "Primeiro turno contou com 43% mais eleitores de ao menos 70 anos",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Agência Brasil - Política",
-      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/primeiro-turno-contou-com-43-mais-eleitores-de-ao-menos-70-anos",
-      "dataFonte": "2026-10-22T22:23:00.000Z",
-      "resumoFonte": "O número absoluto de eleitores com 70 anos ou mais que foi às urnas no primeiro turno de 2026 aumentou 43% em relação a 2022. A variação foi calculada em uma análise de microdados do Tribunal Superior Eleitoral (TSE), realizada pelo Movimento Voto 70+ em conjunto com o centro de pesquisa Data8. Os pesquisadores apontam que esse crescimento foi…",
-      "imagem": "https://imagens.ebc.com.br/Jz4ySq6HvDx8xhTn3eWawR93F68=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/04/0g0a9919.jpg?itok=eHFzTkek",
-      "descobertaEm": "2026-10-22T23:18:16.169Z",
-      "reportagem": {
-        "titulo": "Primeiro turno contou com 43% mais eleitores de ao menos 70 anos",
-        "slug": "primeiro-turno-contou-com-43-mais-eleitores-de-ao-menos-70-anos",
-        "categoria": "Justiça",
-        "data": "2026-10-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/primeiro-turno-contou-com-43-mais-eleitores-de-ao-menos-70-anos.jpg",
-        "resumo": "Os pesquisadores apontam que esse crescimento foi responsável pelo aumento do número de eleitores que compareceram no primeiro turno de 2026",
-        "conteudo": "<p>O número absoluto de eleitores com 70 anos ou mais que foi às urnas no primeiro turno de 2026 aumentou 43% em relação a 2022.</p><h2>Variação foi calculada em uma análise de microdados</h2><p>A variação foi calculada em uma análise de microdados do Tribunal Superior Eleitoral (TSE), realizada pelo Movimento Voto 70+ em conjunto com o centro de pesquisa Data8.</p><p>Os pesquisadores apontam que esse crescimento foi responsável pelo aumento do número de eleitores que compareceram no primeiro turno de 2026 , que chegou a 125,2 milhões, contra 123,7 milhões em 2022.</p><p>O voto é facultativo para cidadãos com 70 anos ou mais, assim como para analfabetos e jovens maiores de 16 e menores de 18 anos.</p><h2>Nas últimas eleições gerais, havia 14,89 milhões de eleitores</h2><p>Nas últimas eleições gerais, havia 14,89 milhões de eleitores com 70 anos ou mais e 6,13 milhões foram votar. Já em 4 de outubro de 2026, 8,77 milhões compareceram, entre os 17,25 milhões de 70+ que estavam aptos.</p><p>“É a primeira vez, desde 2014, que mais da metade desse eleitorado vota”, destaca a idealizadora do Movimento Voto 70+ e cofundadora do Data8, Cléa Klouri.</p><p>Em números absolutos, os idosos com mais de 70 anos contribuíram com 2,64 milhões de votos a mais em 2026, o que representa mais que os 2,2 milhões de eleitores de Brasília, por exemplo .</p><p>Por outro lado, entre os menores de 70 anos, o número de votantes caiu de 117,59 milhões em 2022 para 116,51 milhões neste ano ─ um recuo de 1,07 milhão.</p><p>Isso aconteceu mesmo que o universo de eleitores aptos tenha se mantido praticamente estável: 141,56 milhões em 2022 e 141,49 milhões em 2026.</p><p>Cléa Klouri destaca, em entrevista à Agência Brasil , que esse eleitorado ganha ainda mais importância em um pleito tão acirrado e pode decidir a eleição.</p><p>“É importante dizer o poder que eles têm de mudar o ponteiro da eleição. É uma quantidade grande de pessoas e são votos que devem contribuir para que essa eleição seja democrática”.</p><p>O Movimento Voto 70+ destaca ainda que a abstenção dos eleitores com 70 anos ou mais caiu 9,7 pontos percentuais nessa eleição , de 58,8% em 2022 para 49,1% no primeiro turno de 2026.</p><p>Para os menores de 70 anos, o percentual subiu de 16,9% para 17,7% na comparação entre os mesmos anos.</p><p>O Norte e o Nordeste tiveram as maiores mudanças de comportamento do eleitorado 70+ entre 2022 e 2026, segundo o levantamento.</p><p>No Nordeste, a abstenção baixou de 56,7% para 45,3%, enquanto, no Norte, caiu de 59,1% para 45,5%.</p><p>No Sudeste, o percentual caiu menos, de 62,9% para 53%. Mesmo assim, a região concentrou 1,15 milhão de novos eleitores 70+.</p><p>Centro-Oeste e Sul tiveram reduções menores, de 6,6 pontos percentuais e 5,9 pontos percentuais, respectivamente.</p><p>Mesmo assim, o Centro-Oeste continuou a ser a região com menor abstenção do eleitorado 70+, com 43,8% em 2026.</p>",
-        "fonteNome": "Agência Brasil - Política",
-        "fonteUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/primeiro-turno-contou-com-43-mais-eleitores-de-ao-menos-70-anos",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O número absoluto de eleitores com 70 anos ou mais que foi às urnas no primeiro turno de 2026 aumentou 43% em relação a 2022. A variação foi calculada em uma análise de microdados do Tribunal Superior Eleitoral (TSE), realizada pelo Movimento Voto 70+ em conjunto com o centro de pesquisa Data8."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Os pesquisadores apontam que esse crescimento foi responsável pelo aumento do número de eleitores que compareceram no primeiro turno de 2026 , que chegou a 125,2 milhões, contra 123,7 milhões em 2022."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O voto é facultativo para cidadãos com 70 anos ou mais, assim como para analfabetos e jovens maiores de 16 e menores de 18 anos."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Nas últimas eleições gerais, havia 14,89 milhões de eleitores com 70 anos ou mais e 6,13 milhões foram votar. Já em 4 de outubro de 2026, 8,77 milhões compareceram, entre os 17,25 milhões de 70+ que estavam aptos."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "“É a primeira vez, desde 2014, que mais da metade desse eleitorado vota”, destaca a idealizadora do Movimento Voto 70+ e cofundadora do Data8, Cléa Klouri."
-          }
-        ],
-        "imagemOriginal": "https://imagens.ebc.com.br/Jz4ySq6HvDx8xhTn3eWawR93F68=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/04/0g0a9919.jpg?itok=eHFzTkek",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/primeiro-turno-contou-com-43-mais-eleitores-de-ao-menos-70-anos.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
     }
   ],
-  "reapuradoEm": "2026-10-23T01:07:51.832Z",
+  "reapuradoEm": "2026-10-23T01:56:55.050Z",
   "diagnosticoReapuracao": {
-    "produzidas": 8,
+    "produzidas": 16,
     "jaProntas": 0,
-    "incompletas": 3,
+    "incompletas": 4,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 8,
+    "geradas": 16,
     "reaproveitadas": 0,
-    "puladas": 3,
+    "puladas": 4,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-10-23T01:08:14.467Z"
+  "lapisEm": "2026-10-23T01:58:07.135Z"
 }
