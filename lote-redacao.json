@@ -1,98 +1,38 @@
 {
-  "geradoEm": "2026-10-23T03:48:34.267Z",
+  "geradoEm": "2026-10-23T04:48:18.591Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 0,
-    "bloqueadasEditoriais": 0,
+    "bloqueadasEditoriais": 1,
     "semImagem": 0,
-    "duplicadasBasicas": 3,
-    "duplicadasSemanticas": 2,
-    "foraCategorias": 58
+    "duplicadasBasicas": 2,
+    "duplicadasSemanticas": 3,
+    "foraCategorias": 60
   },
-  "quantidadeCandidatas": 17,
+  "quantidadeCandidatas": 14,
   "candidatas": [
     {
-      "id": "238114780e1bc281",
-      "titulo": "Ajudante de pedreiro é morto a tiros em frente a barbearia na Serra",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/ajudante-de-pedreiro-e-morto-a-tiros-em-frente-a-barbearia-na-serra-1026",
-      "dataFonte": "2026-10-23T00:41:14.000Z",
-      "resumoFonte": "Perícia encontrou cerca de 40 cápsulas de munição no local; disparos também atingiram uma barbearia, um carro e uma distribuidora de bebidas",
-      "imagem": "https://files.ndeal.app/api/images/proxy?quality=100&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1792714804493_copia_de_template_radar_a_gazeta_20.jpg",
-      "descobertaEm": "2026-10-23T01:18:15.765Z",
-      "reportagem": {
-        "titulo": "Ajudante de pedreiro é morto a tiros em frente a barbearia na Serra",
-        "slug": "ajudante-de-pedreiro-e-morto-a-tiros-em-frente-a-barbearia-na-serra",
-        "categoria": "Segurança Pública",
-        "data": "2026-10-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/ajudante-de-pedreiro-e-morto-a-tiros-em-frente-a-barbearia-na-serra.jpg",
-        "resumo": "Perícia encontrou cerca de 40 cápsulas de munição no local; disparos também atingiram uma barbearia, um carro e uma distribuidora de bebidas",
-        "conteudo": "<p>O ajudante de pedreiro Nilton Rufino Siqueira, de 22 anos, foi morto a tiros no bairro Cascata, na Serra, nesta quinta-feira (22). Segundo testemunhas, a vítima estava em frente a uma barbearia quando uma pessoa passou atirando de dentro de um carro.</p><h2>Perícia da Polícia Científica encontrou cerca de 40 cápsulas</h2><p>A perícia da Polícia Científica encontrou cerca de 40 cápsulas de munição no local do crime e identificou 14 perfurações no corpo da vítima, atingida na cabeça, no braço e no glúteo. Até a publicação desta matéria, ninguém havia sido preso.</p><p>O proprietário da barbearia contou que cortava o cabelo de um funcionário dentro do estabelecimento quando ouviu os disparos. Os dois precisaram se esconder para se proteger.</p><p>Durante o ataque, a porta de vidro da barbearia foi atingida por projéteis e quebrou. Os tiros também atingiram o carro do barbeiro e uma distribuidora de bebidas localizada nas proximidades.</p><h2>Pai da vítima, o pedreiro Pedro Ernesio Siqueira, contou</h2><p>O pai da vítima, o pedreiro Pedro Ernesio Siqueira, contou que o filho havia deixado o envolvimento com o tráfico de drogas e começado a trabalhar como ajudante de pedreiro. Segundo ele, Nilton estava tentando reconstruir a vida quando foi assassinado.</p><p>“Eu espero que peguem as câmeras e descubram alguma coisa. Porque é difícil você perder um filho pelo passado. Ele estava trabalhando; o menino estava se consertando.</p><p>É um orgulho para o pai saber que o filho saiu da situação. Depois de passar pelo processo dele, saindo dessa situação, a gente fica, assim, também amargurado”, desabafou.</p><p>Pedro contou ainda que o filho gostava de pescar e os dois conversavam diariamente. Agora, o pai diz que restam as lembraças e a dor da perda.</p><p>“E isso aí (o assassinato) serve para os rapazes que estão nessa vida. A dor para uma mãe e um pai que perdem um filho para as drogas é terrível. Eu espero que eles escutem isso aí e vejam que é difícil\", alertou o pai.</p><p>A Polícia Civil foi demandada para mais informações. A matéria será atualizada quando houver retorno.</p>",
-        "fonteNome": "A Gazeta - Polícia",
-        "fonteUrl": "https://www.agazeta.com.br/es/policia/ajudante-de-pedreiro-e-morto-a-tiros-em-frente-a-barbearia-na-serra-1026",
-        "fontesAdicionais": [
-          {
-            "nome": "SESP-ES",
-            "url": "https://sesp.es.gov.br/Noticias"
-          },
-          {
-            "nome": "Polícia Civil do ES",
-            "url": "https://pc.es.gov.br/Noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O ajudante de pedreiro Nilton Rufino Siqueira, de 22 anos, foi morto a tiros no bairro Cascata, na Serra, nesta quinta-feira (22). Segundo testemunhas, a vítima estava em frente a uma barbearia quando uma pessoa passou atirando de dentro de um carro."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A perícia da Polícia Científica encontrou cerca de 40 cápsulas de munição no local do crime e identificou 14 perfurações no corpo da vítima, atingida na cabeça, no braço e no glúteo. Até a publicação desta matéria, ninguém havia sido preso."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O proprietário da barbearia contou que cortava o cabelo de um funcionário dentro do estabelecimento quando ouviu os disparos. Os dois precisaram se esconder para se proteger."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Durante o ataque, a porta de vidro da barbearia foi atingida por projéteis e quebrou. Os tiros também atingiram o carro do barbeiro e uma distribuidora de bebidas localizada nas proximidades."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O pai da vítima, o pedreiro Pedro Ernesio Siqueira, contou que o filho havia deixado o envolvimento com o tráfico de drogas e começado a trabalhar como ajudante de pedreiro. Segundo ele, Nilton estava tentando reconstruir a vida quando foi assassinado."
-          }
-        ],
-        "imagemOriginal": "https://files.ndeal.app/api/images/proxy?quality=100&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1792714804493_copia_de_template_radar_a_gazeta_20.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/ajudante-de-pedreiro-e-morto-a-tiros-em-frente-a-barbearia-na-serra.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "1a62ae359587a2df",
-      "titulo": "34% dos doadores da campanha de Flávio Bolsonaro financiaram também Jair em 2022; Lula teve 1,4% de recorrência nas duas eleições",
+      "id": "f131e5148f273d67",
+      "titulo": "Que horas começa o debate entre Lula e Flávio Bolsonaro na TV Globo nesta sexta (23)?",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/23/doadores-recorrentes-campanhas-2022-2026-flavio-bolsonaro-lula.ghtml",
-      "dataFonte": "2026-10-23T03:00:00.000Z",
-      "resumoFonte": "Flávio Bolsonaro e Lula em entrevista com Renata Lo Prete Globo/ Manoella Mello Mais de um terço dos doadores de campanha do candidato a presidente de Flávio Bolsonaro (PL) financiaram também a candidatura do pai dele, Jair Bolsonaro (PL), nas eleições de 2022. Já Lula (PT) reteve oito financiadores do pleito anterior, que representam 1,4% de todas…",
-      "imagem": "https://s2-g1.glbimg.com/aiFZFwDaHSGEk-QSfPRJ8n8kRSo=/1500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/j/g/zuAwceQrC5TCB9uzdtTQ/fotojet.jpg",
-      "descobertaEm": "2026-10-23T03:18:49.591Z",
+      "fonteNome": "CBN - Política",
+      "urlFonte": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/10/23/que-horas-comeca-o-debate-entre-lula-e-flavio-bolsonaro-na-tv-globo-nesta-sexta-23.ghtml",
+      "dataFonte": "2026-10-23T03:00:00.911Z",
+      "resumoFonte": "O confronto na TV Globo será o segundo e último debate entre os candidatos Lula e Flávio Bolsonaro antes da votação do 2º turno da eleição presidencial.",
+      "imagem": "https://s2-cbn.glbimg.com/pryGpUmgCsDHKPyx9D9xj3I3bMc=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/O/Q/X2mqesSai4eGHijmS7JA/55598487220-2cf85d3ec5-c.jpg",
+      "descobertaEm": "2026-10-23T04:18:19.305Z",
       "reportagem": {
-        "titulo": "Flávio Bolsonaro herda doadores do pai; Lula mantém aliados do governo | G1",
-        "slug": "flavio-bolsonaro-herda-doadores-do-pai-lula-mantem-aliados-do-governo-g1",
+        "titulo": "Que horas começa o debate entre Lula e Flávio Bolsonaro na TV Globo nesta sexta (23)?",
+        "slug": "que-horas-comeca-o-debate-entre-lula-e-flavio-bolsonaro-na-tv-globo-nesta-sexta-23",
         "categoria": "Política Nacional",
         "data": "2026-10-23",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/flavio-bolsonaro-herda-doadores-do-pai-lula-mantem-aliados-do-governo-g1.jpg",
-        "resumo": "Flávio Bolsonaro concentra repasses do agronegócio e empresários, enquanto Lula mantém financiadores ligados ao governo federal em sua campanha.",
-        "conteudo": "<p>Flávio Bolsonaro e Lula em entrevista com Renata Lo Prete — Foto: Globo/ Manoella Mello</p><h2>Mais de um terço dos doadores de campanha</h2><p>Mais de um terço dos doadores de campanha do candidato a presidente de Flávio Bolsonaro (PL) financiaram também a candidatura do pai dele, Jair Bolsonaro (PL), nas eleições de 2022.</p><p>Já Lula (PT) reteve oito financiadores do pleito anterior, que representam 1,4% de todas as pessoas físicas que enviaram recursos à campanha do petista neste ano.</p><p>No caso do candidato do PL, dezenove doadores recorrentes fizeram depósitos acima de R$ 100 mil. Destes, treze fizeram as doações depois do primeiro turno das eleições, ou seja, após 4 de outubro.</p><h2>Flávio ficou à frente de Lula nas urnas</h2><p>Flávio ficou à frente de Lula nas urnas no primeiro turno. A maioria desses doadores são empresários, presidentes de empresa e produtores e executivos ligados ao agronegócio.</p><p>Os maiores aportes, de R$ 500 mil a R$ 1 milhão, vieram de Alexandre Grendene Bartelle, empresário bilionário e cofundador da fabricante de calçados Grendene; Fernando de Castro Marques, presidente da farmacêutica União Química; e Gilson Lari Trennepohl, dono da Stara, uma das maiores empresas de máquinas agrícolas da América Latina.</p><p>Do lado de Lula, os oito doadores recorrentes têm relações próximas ou são integrantes do governo.</p><p>A lista inclui nomes como Celso Amorim, assessor especial para assuntos internacionais; Aloizio Mercadante, presidente do Banco Nacional de Desenvolvimento Econômico e Social (BNDES) e Miriam Belchior, ministra da Casa Civil.</p><p>As doações variam, ao todo, de R$ 1 mil a R$ 27 mil.</p>",
-        "fonteNome": "g1 - Política",
-        "fonteUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/23/doadores-recorrentes-campanhas-2022-2026-flavio-bolsonaro-lula.ghtml",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/que-horas-comeca-o-debate-entre-lula-e-flavio-bolsonaro-na-tv-globo-nesta-sexta-23.jpg",
+        "resumo": "O confronto na TV Globo será o segundo e último debate entre os candidatos Lula e Flávio Bolsonaro antes da votação do 2º turno da eleição presidencial.",
+        "conteudo": "<p>O debate presidencial da TV Globo acontece nesta sexta-feira (23), com a participação de Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL), os candidatos que disputam o segundo turno das Eleições 2026.</p><h2>Confronto será transmitido ao vivo após o Jornal Nacional,</h2><p>O confronto será transmitido ao vivo após o Jornal Nacional, com mediação do jornalista César Tralli.</p><p>Este será o segundo e último debate entre os candidatos Lula e Flávio Bolsonaro antes da votação do 2º turno da eleição presidencial.</p><p>O primeiro debate, na Band, foi marcado por trocas de acusações, provocações e uma confusão na plateia durante as considerações finais no domingo (18). Foi preciso a intervenção dos mediadores, que pediram diversas vezes que os convidados permanecessem em silêncio.</p><h2>No último bloco, Lula desafiou Flávio Bolsonaro</h2><p>No último bloco, Lula desafiou Flávio Bolsonaro a abrir os sigilos bancário e telefônico, assim como os de seus familiares, para que a Justiça pudesse apurar eventuais casos de corrupção antes do segundo turno, marcado para 25 de outubro.</p><p>O desafio foi feito depois de uma discussão sobre a atuação da família Bolsonaro nos Estados Unidos. Lula acusou os adversários de pressionarem pela imposição de tarifas contra o Brasil.</p><p>Flávio rebateu, afirmando que a atuação no exterior teve o objetivo de defender empresas brasileiras.</p><p>O debate entre Lula e Flávio Bolsonaro será realizado nesta sexta-feira, 23 de outubro, após o Jornal Nacional, com início programado às 21h20 (horário de Brasília).</p><p>O confronto será o último debate entre os dois candidatos antes do segundo turno das eleições presidenciais de 2026.</p><p>O público poderá acompanhar o debate presidencial ao vivo pelos seguintes canais e plataformas:</p><p>TV Globo: após o Jornal Nacional; CBN: transmissão simultânea no rádio, app e YouTube da CBN. GloboNews: transmissão simultânea; Globoplay: entrevista completa disponível após a exibição;</p><p>O que dizem as pesquisas Quaest e Datafolha antes do debate na Globo?</p><p>QUAEST: Na penúltima pesquisa da Quaest divulgada nesta quarta-feira (21) , o senador e candidato Flávio Bolsonaro (PL) ficou com 45% das intenções de voto , caindo um ponto da última semana.</p><p>Já o presidente e candidato à reeleição Lula (PT) permaneceu com 44% . Os dois, dessa forma, estão em empate técnico, mas a distância diminuiu um ponto desde o último levantamento.</p><p>Na semana passada, Flávio tinha 46% das intenções de voto e, Lula, 44%. Na modalidade espontânea, os dois aparecem com 40%, com uma queda de Flávio 3 pontos e Lula com dois pontos.</p><p>O número de indecisos saltou de 7% para 14%. A rejeição a Lula caiu 6% , já Flávio teve sua rejeição caindo 2%, dentro da margem de erro. DATAFOLHA:</p>",
+        "fonteNome": "CBN - Política",
+        "fonteUrl": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/10/23/que-horas-comeca-o-debate-entre-lula-e-flavio-bolsonaro-na-tv-globo-nesta-sexta-23.ghtml",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -107,27 +47,27 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Flávio Bolsonaro e Lula em entrevista com Renata Lo Prete — Foto: Globo/ Manoella Mello"
+            "resposta": "O debate presidencial da TV Globo acontece nesta sexta-feira (23), com a participação de Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL), os candidatos que disputam o segundo turno das Eleições 2026. O confronto será transmitido ao vivo após o Jornal Nacional, com mediação do jornalista César Tralli."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Mais de um terço dos doadores de campanha do candidato a presidente de Flávio Bolsonaro (PL) financiaram também a candidatura do pai dele, Jair Bolsonaro (PL), nas eleições de 2022. Já Lula (PT) reteve oito financiadores do pleito anterior, que representam 1,4% de todas as pessoas físicas que enviaram recursos à campanha do petista neste ano."
+            "resposta": "Este será o segundo e último debate entre os candidatos Lula e Flávio Bolsonaro antes da votação do 2º turno da eleição presidencial."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "No caso do candidato do PL, dezenove doadores recorrentes fizeram depósitos acima de R$ 100 mil. Destes, treze fizeram as doações depois do primeiro turno das eleições, ou seja, após 4 de outubro. Flávio ficou à frente de Lula nas urnas no primeiro turno. A maioria desses doadores são empresários, presidentes de empresa e produtores e executivos ligados ao a"
+            "resposta": "O primeiro debate, na Band, foi marcado por trocas de acusações, provocações e uma confusão na plateia durante as considerações finais no domingo (18). Foi preciso a intervenção dos mediadores, que pediram diversas vezes que os convidados permanecessem em silêncio."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Os maiores aportes, de R$ 500 mil a R$ 1 milhão, vieram de Alexandre Grendene Bartelle, empresário bilionário e cofundador da fabricante de calçados Grendene; Fernando de Castro Marques, presidente da farmacêutica União Química; e Gilson Lari Trennepohl, dono da Stara, uma das maiores empresas de máquinas agrícolas da América Latina."
+            "resposta": "No último bloco, Lula desafiou Flávio Bolsonaro a abrir os sigilos bancário e telefônico, assim como os de seus familiares, para que a Justiça pudesse apurar eventuais casos de corrupção antes do segundo turno, marcado para 25 de outubro. O desafio foi feito depois de uma discussão sobre a atuação da família Bolsonaro nos Estados Unidos. Lula acusou os adver"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Do lado de Lula, os oito doadores recorrentes têm relações próximas ou são integrantes do governo. A lista inclui nomes como Celso Amorim, assessor especial para assuntos internacionais; Aloizio Mercadante, presidente do Banco Nacional de Desenvolvimento Econômico e Social (BNDES) e Miriam Belchior, ministra da Casa Civil. As doações variam, ao todo, de R$ 1"
+            "resposta": "O debate entre Lula e Flávio Bolsonaro será realizado nesta sexta-feira, 23 de outubro, após o Jornal Nacional, com início programado às 21h20 (horário de Brasília)."
           }
         ],
-        "imagemOriginal": "https://s2-g1.glbimg.com/aiFZFwDaHSGEk-QSfPRJ8n8kRSo=/1500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/j/g/zuAwceQrC5TCB9uzdtTQ/fotojet.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/flavio-bolsonaro-herda-doadores-do-pai-lula-mantem-aliados-do-governo-g1.jpg",
+        "imagemOriginal": "https://s2-cbn.glbimg.com/pryGpUmgCsDHKPyx9D9xj3I3bMc=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/O/Q/X2mqesSai4eGHijmS7JA/55598487220-2cf85d3ec5-c.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/que-horas-comeca-o-debate-entre-lula-e-flavio-bolsonaro-na-tv-globo-nesta-sexta-23.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -188,66 +128,6 @@
         ],
         "imagemOriginal": "https://f.i.uol.com.br/fotografia/2021/09/24/1632514743614e32b74ecab_1632514743_3x2_xl.jpg",
         "imagemX": "https://noticiaes.com.br/imagens/lapis/painel-empresa-que-teria-feito-festa-para-flavio-deve-r-4-milhoes-a-uniao-por-fraude-em-va.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "f9692806887dae06",
-      "titulo": "“Minha Melhor Amiga” se torna a maior bilheteria do Brasil pós-pandemia",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/pop/cinema/minha-melhor-amiga-se-torna-a-maior-bilheteria-do-brasil-pos-pandemia/",
-      "dataFonte": "2026-10-23T00:36:14.000Z",
-      "resumoFonte": "Longa arrecadou R$ 105,1 milhões e se consolidou como o maior sucesso do cinema brasileiro desde 2019, desbancando \"Ainda Estou Aqui\", \"O Agente Secreto\" e \"O Auto da Compadecida 2\"",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/MV5BM2M0ZGQ3YjYtNjA4Yi00ZDk5LWFiYmYtMTQ0NGE5YWU0Yjc4XkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-23T01:18:15.765Z",
-      "reportagem": {
-        "titulo": "&quot;Minha Melhor Amiga&quot; se torna a maior bilheteria do Brasil pós-pandemia",
-        "slug": "quot-minha-melhor-amiga-quot-se-torna-a-maior-bilheteria-do-brasil-pos-pandemia",
-        "categoria": "Cultura",
-        "data": "2026-10-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/quot-minha-melhor-amiga-quot-se-torna-a-maior-bilheteria-do-brasil-pos-pandemia.jpg",
-        "resumo": "Longa arrecadou R$ 105,1 milhões e se consolidou como o maior sucesso do cinema brasileiro desde 2019, desbancando &quot;Ainda Estou Aqui&quot;, &quot;O Agente Secreto&quot; e &quot;O Auto da Compadecida 2&quot;",
-        "conteudo": "<p>A comédia nacional &quot;Minha Melhor Amiga&quot; atingiu um novo marco nesta semana, ao se tornar o maior filme brasileiro desde 2019 em público, após ultrapassar recentemente o vencedor do Oscar, &quot;Ainda Estou Aqui&quot; .</p><h2>Até o momento, a comédia protagonizada por Ingrid Guimarães,</h2><p>Até o momento, a comédia protagonizada por Ingrid Guimarães, 54, e Mônica Martelli, 58, lançada em setembro, arrecadou em bilheteria R$ 105,1 milhões e levou 5,9 milhões de pessoas aos cinemas.</p><p>Enquanto o vencedor do Oscar fez uma bilheteria maior, de R$ 117,2 milhões, e levou 5,8 milhões de espectadores nacionais às salas grandes.</p><p>Pouco mais de três semanas após sua estreia, o longa de Susana Garcia se tornou a maior comédia pós-pandemia, desbancando o título de &quot;O Auto da Compadecida 2&quot; , que teve um público de 4,4 milhões de pessoas.</p><h2>Em &quot; Minha Melhor Amiga &quot;, duas amigas</h2><p>Em &quot; Minha Melhor Amiga &quot;, duas amigas na casa dos 50 anos decidem sair da rotina juntas e embarcam em uma viagem para a Europa, motivadas após se despedirem das filhas que embarcam para um intercâmbio em Portugal.</p><p>Com o ninho vazio, elas sonham com a viagem perfeita para elas, mas a realidade se torna bastante diferente do esperado.</p><p>Ingrid Guimarães e Mônia Martelli estrelam &quot;Minha Melhor Amiga&quot;</p><p>A comédia nacional &quot;Minha Melhor Amiga&quot; atingiu um novo marco nesta semana, ao se tornar o maior filme brasileiro desde 2019 em público, após ultrapassar recentemente o vencedor do Oscar, &quot;Ainda Estou Aqui&quot; .</p><p>Até o momento, a comédia protagonizada por Ingrid Guimarães, 54, e Mônica Martelli, 58, lançada em setembro, arrecadou em bilheteria R$ 105,1 milhões e levou 5,9 milhões de pessoas aos cinemas.</p><p>Enquanto o vencedor do Oscar fez uma bilheteria maior, de R$ 117,2 milhões, e levou 5,8 milhões de espectadores nacionais às salas grandes. Leia Mais</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/pop/cinema/minha-melhor-amiga-se-torna-a-maior-bilheteria-do-brasil-pos-pandemia/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A comédia nacional &quot;Minha Melhor Amiga&quot; atingiu um novo marco nesta semana, ao se tornar o maior filme brasileiro desde 2019 em público, após ultrapassar recentemente o vencedor do Oscar, &quot;Ainda Estou Aqui&quot; ."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Até o momento, a comédia protagonizada por Ingrid Guimarães, 54, e Mônica Martelli, 58, lançada em setembro, arrecadou em bilheteria R$ 105,1 milhões e levou 5,9 milhões de pessoas aos cinemas. Enquanto o vencedor do Oscar fez uma bilheteria maior, de R$ 117,2 milhões, e levou 5,8 milhões de espectadores nacionais às salas grandes."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Pouco mais de três semanas após sua estreia, o longa de Susana Garcia se tornou a maior comédia pós-pandemia, desbancando o título de &quot;O Auto da Compadecida 2&quot; , que teve um público de 4,4 milhões de pessoas."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Em &quot; Minha Melhor Amiga &quot;, duas amigas na casa dos 50 anos decidem sair da rotina juntas e embarcam em uma viagem para a Europa, motivadas após se despedirem das filhas que embarcam para um intercâmbio em Portugal. Com o ninho vazio, elas sonham com a viagem perfeita para elas, mas a realidade se torna bastante diferente do esperado."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Ingrid Guimarães e Mônia Martelli estrelam &quot;Minha Melhor Amiga&quot;"
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/MV5BM2M0ZGQ3YjYtNjA4Yi00ZDk5LWFiYmYtMTQ0NGE5YWU0Yjc4XkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/quot-minha-melhor-amiga-quot-se-torna-a-maior-bilheteria-do-brasil-pos-pandemia.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -373,6 +253,66 @@
       }
     },
     {
+      "id": "1a62ae359587a2df",
+      "titulo": "34% dos doadores da campanha de Flávio Bolsonaro financiaram também Jair em 2022; Lula teve 1,4% de recorrência nas duas eleições",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/23/doadores-recorrentes-campanhas-2022-2026-flavio-bolsonaro-lula.ghtml",
+      "dataFonte": "2026-10-23T03:00:00.000Z",
+      "resumoFonte": "Flávio Bolsonaro e Lula em entrevista com Renata Lo Prete Globo/ Manoella Mello Mais de um terço dos doadores de campanha do candidato a presidente de Flávio Bolsonaro (PL) financiaram também a candidatura do pai dele, Jair Bolsonaro (PL), nas eleições de 2022. Já Lula (PT) reteve oito financiadores do pleito anterior, que representam 1,4% de todas…",
+      "imagem": "https://s2-g1.glbimg.com/aiFZFwDaHSGEk-QSfPRJ8n8kRSo=/1500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/j/g/zuAwceQrC5TCB9uzdtTQ/fotojet.jpg",
+      "descobertaEm": "2026-10-23T03:18:49.591Z",
+      "reportagem": {
+        "titulo": "Flávio Bolsonaro herda doadores do pai; Lula mantém aliados do governo | G1",
+        "slug": "flavio-bolsonaro-herda-doadores-do-pai-lula-mantem-aliados-do-governo-g1",
+        "categoria": "Política Nacional",
+        "data": "2026-10-23",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/flavio-bolsonaro-herda-doadores-do-pai-lula-mantem-aliados-do-governo-g1.jpg",
+        "resumo": "Flávio Bolsonaro concentra repasses do agronegócio e empresários, enquanto Lula mantém financiadores ligados ao governo federal em sua campanha.",
+        "conteudo": "<p>Flávio Bolsonaro e Lula em entrevista com Renata Lo Prete — Foto: Globo/ Manoella Mello</p><h2>Mais de um terço dos doadores de campanha</h2><p>Mais de um terço dos doadores de campanha do candidato a presidente de Flávio Bolsonaro (PL) financiaram também a candidatura do pai dele, Jair Bolsonaro (PL), nas eleições de 2022.</p><p>Já Lula (PT) reteve oito financiadores do pleito anterior, que representam 1,4% de todas as pessoas físicas que enviaram recursos à campanha do petista neste ano.</p><p>No caso do candidato do PL, dezenove doadores recorrentes fizeram depósitos acima de R$ 100 mil. Destes, treze fizeram as doações depois do primeiro turno das eleições, ou seja, após 4 de outubro.</p><h2>Flávio ficou à frente de Lula nas urnas</h2><p>Flávio ficou à frente de Lula nas urnas no primeiro turno. A maioria desses doadores são empresários, presidentes de empresa e produtores e executivos ligados ao agronegócio.</p><p>Os maiores aportes, de R$ 500 mil a R$ 1 milhão, vieram de Alexandre Grendene Bartelle, empresário bilionário e cofundador da fabricante de calçados Grendene; Fernando de Castro Marques, presidente da farmacêutica União Química; e Gilson Lari Trennepohl, dono da Stara, uma das maiores empresas de máquinas agrícolas da América Latina.</p><p>Do lado de Lula, os oito doadores recorrentes têm relações próximas ou são integrantes do governo.</p><p>A lista inclui nomes como Celso Amorim, assessor especial para assuntos internacionais; Aloizio Mercadante, presidente do Banco Nacional de Desenvolvimento Econômico e Social (BNDES) e Miriam Belchior, ministra da Casa Civil.</p><p>As doações variam, ao todo, de R$ 1 mil a R$ 27 mil.</p>",
+        "fonteNome": "g1 - Política",
+        "fonteUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/23/doadores-recorrentes-campanhas-2022-2026-flavio-bolsonaro-lula.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Flávio Bolsonaro e Lula em entrevista com Renata Lo Prete — Foto: Globo/ Manoella Mello"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Mais de um terço dos doadores de campanha do candidato a presidente de Flávio Bolsonaro (PL) financiaram também a candidatura do pai dele, Jair Bolsonaro (PL), nas eleições de 2022. Já Lula (PT) reteve oito financiadores do pleito anterior, que representam 1,4% de todas as pessoas físicas que enviaram recursos à campanha do petista neste ano."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "No caso do candidato do PL, dezenove doadores recorrentes fizeram depósitos acima de R$ 100 mil. Destes, treze fizeram as doações depois do primeiro turno das eleições, ou seja, após 4 de outubro. Flávio ficou à frente de Lula nas urnas no primeiro turno. A maioria desses doadores são empresários, presidentes de empresa e produtores e executivos ligados ao a"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Os maiores aportes, de R$ 500 mil a R$ 1 milhão, vieram de Alexandre Grendene Bartelle, empresário bilionário e cofundador da fabricante de calçados Grendene; Fernando de Castro Marques, presidente da farmacêutica União Química; e Gilson Lari Trennepohl, dono da Stara, uma das maiores empresas de máquinas agrícolas da América Latina."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Do lado de Lula, os oito doadores recorrentes têm relações próximas ou são integrantes do governo. A lista inclui nomes como Celso Amorim, assessor especial para assuntos internacionais; Aloizio Mercadante, presidente do Banco Nacional de Desenvolvimento Econômico e Social (BNDES) e Miriam Belchior, ministra da Casa Civil. As doações variam, ao todo, de R$ 1"
+          }
+        ],
+        "imagemOriginal": "https://s2-g1.glbimg.com/aiFZFwDaHSGEk-QSfPRJ8n8kRSo=/1500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/j/g/zuAwceQrC5TCB9uzdtTQ/fotojet.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/flavio-bolsonaro-herda-doadores-do-pai-lula-mantem-aliados-do-governo-g1.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
       "id": "f78a84de6bf62d84",
       "titulo": "Apoiadores de Flávio Bolsonaro promovem atos em Maceió e no Recife",
       "categoria": "Política Nacional",
@@ -433,66 +373,6 @@
       }
     },
     {
-      "id": "708584341dc0c333",
-      "titulo": "Quaest: fim da 6 por 1 e relações com o Caso Master tiveram maior impacto para escolha de presidente no 1º turno",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/22/quaest-noticia-impacto-escolha-voto-presidente-1-turno.ghtml",
-      "dataFonte": "2026-10-23T00:33:17.000Z",
-      "resumoFonte": "Lula (à esq) e Flávio Bolsonaro (à dir) participaram de sabatinas na TV Globo Divulgação Pesquisa Quaest divulgada nesta quinta-feira (22) aponta que os eleitores consideraram notícias sobre o fim da escala 6 por 1 e o Caso Master como mais importantes para definir o voto para presidente da República no 1º turno. Disputada em 4 de outubro, a…",
-      "imagem": "https://s2-g1.glbimg.com/XFB6kcU2hbDvSgFScIuiTAPDotY=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/S/U/fpSH8BRtG9arRyZ4wEXA/montagem-horizontal-1280x720px-6-.jpg",
-      "descobertaEm": "2026-10-23T01:18:15.765Z",
-      "reportagem": {
-        "titulo": "Quaest: veja os temas que definiram escolha de presidente no 1º turno | G1",
-        "slug": "quaest-veja-os-temas-que-definiram-escolha-de-presidente-no-1-turno-g1",
-        "categoria": "Política Nacional",
-        "data": "2026-10-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/quaest-veja-os-temas-que-definiram-escolha-de-presidente-no-1-turno-g1.jpg",
-        "resumo": "Aumento do valor do Bolsa Família e polêmica sobre Nossa Senhora Aparecida tiveram os menores impactos, segundo eleitores. Margem de erro é de 2 pontos para mais ou para menos.",
-        "conteudo": "<p>Lula (à esq) e Flávio Bolsonaro (à dir) participaram de sabatinas na TV Globo — Foto: Divulgação</p><h2>Pesquisa Quaest divulgada nesta quinta-feira (22) aponta que os</h2><p>Pesquisa Quaest divulgada nesta quinta-feira (22) aponta que os eleitores consideraram notícias sobre o fim da escala 6 por 1 e o Caso Master como mais importantes para definir o voto para presidente da República no 1º turno.</p><p>Na votação de 4 de outubro, Flávio Bolsonaro (PL) terminou à frente de Lula (PT) por uma diferença de 2,2 milhões de votos.</p><h2>Notícia mais importante para a definição do voto</h2><p>Notícia mais importante para a definição do voto no 1º turno</p><p>Defesa do fim da escala de trabalho 6 por 1: 17% Denúncias sobre o envolvimento de ministros do STF com o caso do Banco Master: 14% Envolvimento de políticos com Daniel Vorcaro e o escândalo do Banco Master: 13% Medidas do governo para proibir bets, sites de apostas e cassinos on-line: 11% Nossa Senhora Aparecida e sua condição como padroeira do Brasil: 8% Aumento do valor do Bolsa Família: 7% Nenhuma dessas opções: 23% Não sabem/não responderam: 7%</p><p>Entre os eleitores de Lula, 25% apontaram o fim da escala 6 por 1 como principal notícia para definição do voto.</p><p>Entre eleitores de Flávio Bolsonaro, 23% responderam denúncias sobre o envolvimento de ministros do STF com o caso do Banco Master.</p>",
-        "fonteNome": "g1 - Política",
-        "fonteUrl": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/22/quaest-noticia-impacto-escolha-voto-presidente-1-turno.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Lula (à esq) e Flávio Bolsonaro (à dir) participaram de sabatinas na TV Globo — Foto: Divulgação"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Pesquisa Quaest divulgada nesta quinta-feira (22) aponta que os eleitores consideraram notícias sobre o fim da escala 6 por 1 e o Caso Master como mais importantes para definir o voto para presidente da República no 1º turno."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na votação de 4 de outubro, Flávio Bolsonaro (PL) terminou à frente de Lula (PT) por uma diferença de 2,2 milhões de votos."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Notícia mais importante para a definição do voto no 1º turno"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Defesa do fim da escala de trabalho 6 por 1: 17% Denúncias sobre o envolvimento de ministros do STF com o caso do Banco Master: 14% Envolvimento de políticos com Daniel Vorcaro e o escândalo do Banco Master: 13% Medidas do governo para proibir bets, sites de apostas e cassinos on-line: 11% Nossa Senhora Aparecida e sua condição como padroeira do Brasil: 8% A"
-          }
-        ],
-        "imagemOriginal": "https://s2-g1.glbimg.com/XFB6kcU2hbDvSgFScIuiTAPDotY=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/S/U/fpSH8BRtG9arRyZ4wEXA/montagem-horizontal-1280x720px-6-.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/quaest-veja-os-temas-que-definiram-escolha-de-presidente-no-1-turno-g1.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
       "id": "3b78948d74181cb6",
       "titulo": "Veja quem Augusto Cury apoia no 2º turno entre Flávio e Lula",
       "categoria": "Política Nacional",
@@ -548,66 +428,6 @@
         ],
         "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/DSC07271-rotated-e1788264546293.jpg?w=1200&h=630&crop=1",
         "imagemX": "https://noticiaes.com.br/imagens/lapis/veja-quem-augusto-cury-apoia-no-2-turno-entre-flavio-e-lula.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "1bf1ebe874eedfbf",
-      "titulo": "No Paraná, lideranças tradicionais e ex-ministro de Collor apoiam Lula no 2º turno",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/politica/no-parana-liderancas-tradicionais-e-ex-ministro-de-collor-apoiam-lula-no-2o-turno/",
-      "dataFonte": "2026-10-23T00:45:05.000Z",
-      "resumoFonte": "Presidente da República, Luiz Inácio Lula da Silva, durante ato de campanha em Belém. Foto: Ricardo Stuckert. \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/09/55556976837_12196b5332_c.jpg?fit=800%2C533&quality=70&strip=all\" />Posicionamentos contrastam com o ex-governador e atual governador eleito, Ratinho Junior (PSD) e…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/09/55556976837_12196b5332_c.jpg",
-      "descobertaEm": "2026-10-23T01:18:15.765Z",
-      "reportagem": {
-        "titulo": "No Paraná, lideranças tradicionais e ex-ministro de Collor apoiam Lula no 2º turno",
-        "slug": "no-parana-liderancas-tradicionais-e-ex-ministro-de-collor-apoiam-lula-no-2-turno",
-        "categoria": "Política Nacional",
-        "data": "2026-10-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/no-parana-liderancas-tradicionais-e-ex-ministro-de-collor-apoiam-lula-no-2-turno.jpg",
-        "resumo": "Posicionamentos contrastam com o ex-governador e atual governador eleito, Ratinho Junior (PSD) e Sergio Moro (PL), que declararam apoio à Flávio Bolsonaro",
-        "conteudo": "<p>Lideranças tradicionais da política paranaense, incluindo o ex-prefeito de Curitiba Rafael Greca (MDB), o senador Flávio Arns (PSB), o ex-prefeito Gustavo Fruet (PDT) e o ex-ministro da Saúde do governo Fernando Collor, Alceni Guerra (PSB), manifestaram apoio à reeleição do presidente Luiz Inácio Lula da Silva (PT) no segundo turno.</p><h2>Posicionamentos ganharam destaque durante a passagem do vice-presidente Geraldo</h2><p>Os posicionamentos ganharam destaque durante a passagem do vice-presidente Geraldo Alckmin (PSB) por Curitiba, nesta terça-feira (20) em meio à mobilização da campanha petista no Estado.</p><p>Os apoios contrastam com o posicionamento do governador Ratinho Junior (PSD) e do governador eleito Sergio Moro (PL), que estão alinhados à candidatura de Flávio Bolsonaro (PL).</p><p>A manifestação de Greca contraria seus aliados políticos no Paraná. O ex-prefeito disputou a eleição estadual deste ano como candidato a vice-governador na chapa de Sandro Alex (PSD), apoiada por Ratinho Junior, derrotada por Moro no primeiro turno.</p><h2>Dos nomes sugeridos para a possível pasta seria</h2><p>Um dos nomes sugeridos para a possível pasta seria da economista e influenciadora Nath Finanças</p><p>Ministro afirma que divulgação de dados depende dos próprios candidatos, após campanhas firmarem acordo para tornar informações públicas</p><p>Greca, que governou Curitiba por três mandatos, manifestou apoio a Lula durante um sarau na capital paranaense, na segunda-feira, 19.</p><p>Em discurso, criticou a influência dos Estados Unidos sobre o Brasil e defendeu políticas públicas de saúde, educação e cultura.</p><p>“Não tem música de direita nem de esquerda, porque o gaiteiro, para tocar, precisa das duas mãos, a direita e a esquerda”, afirmou.</p><p>O posicionamento também contraria a orientação do MDB no Paraná, que declarou apoio a Flávio Bolsonaro. Greca deixou o PSD em março deste ano e se filiou ao MDB para disputar as eleições estaduais.</p><p>Durante sua passagem por Curitiba, Alckmin comemorou a manifestação do ex-prefeito e defendeu a ampliação das alianças em torno da candidatura petista.</p><p>Outra liderança que se posicionou a favor de Lula foi o senador Flávio Arns (PSB), que participou do evento “Paraná pela Virada”, realizado na terça-feira, 20, com a presença de Alckmin.</p><p>Arns destacou a capacidade de interlocução do vice-presidente com diferentes setores da economia, incluindo o agronegócio e o empresariado.</p><p>“A gente deseja que o presidente Lula faça um mandato extraordinário com o apoio de Geraldo Alckmin. O Geraldo Alckmin é respeitado no agro, é muito respeitado no comércio, na indústria, nos empresários, nos bancos, e isso a gente viu no tarifaço”, declarou o senador.</p><p>Arns tem uma trajetória política que atravessa diferentes campos partidários. Foi deputado federal pelo PSDB, senador pelo PT entre 2003 e 2011 e vice-governador do Paraná na gestão de Beto Richa (PSDB), entre 2011 e 2014.</p><p>Também ocupou a Secretaria de Estado da Educação e atualmente integra o PSB, partido de Alckmin.</p><p>O ex-prefeito de Curitiba Gustavo Fruet (PDT) também participou do ato e declarou apoio à reeleição do presidente.</p><p>Fruet governou a capital paranaense entre 2013 e 2016 e exerceu mandatos como deputado federal, tendo passado pelo MDB e pelo PSDB antes de ingressar no PDT.</p><p>Sua trajetória inclui a participação na oposição aos governos petistas durante parte de sua atuação no Congresso Nacional.</p><p>Entre os participantes da mobilização esteve ainda Alceni Guerra (PSB), que comandou o Ministério da Saúde durante o governo de Fernando Collor, entre 1990 e 1992.</p><p>Ex-prefeito de Pato Branco e ex-deputado federal, Alceni tem uma relação política antiga com Alckmin, com quem atuou na Assembleia Nacional Constituinte, responsável pela elaboração da Constituição de 1988.</p><p>Durante o encontro em Curitiba, Alceni relembrou a participação dos dois na formulação das bases constitucionais do Sistema Único de Saúde (SUS). “Eu tive a honra de redigir, e ele de relatar. E assim nós temos o melhor sistema público de saúde do mundo”, declarou.</p><p>Diferentemente dos demais apoios anunciados nesta semana, a posição de Alceni em relação a Lula não é inédita. O ex-ministro já havia declarado voto no petista no segundo turno das eleições presidenciais de 2022, quando destacou a defesa do SUS e a relação política com Alckmin.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/politica/no-parana-liderancas-tradicionais-e-ex-ministro-de-collor-apoiam-lula-no-2o-turno/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Lideranças tradicionais da política paranaense, incluindo o ex-prefeito de Curitiba Rafael Greca (MDB), o senador Flávio Arns (PSB), o ex-prefeito Gustavo Fruet (PDT) e o ex-ministro da Saúde do governo Fernando Collor, Alceni Guerra (PSB), manifestaram apoio à reeleição do presidente Luiz Inácio Lula da Silva (PT) no segundo turno. Os posicionamentos ganhar"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Os apoios contrastam com o posicionamento do governador Ratinho Junior (PSD) e do governador eleito Sergio Moro (PL), que estão alinhados à candidatura de Flávio Bolsonaro (PL). A manifestação de Greca contraria seus aliados políticos no Paraná. O ex-prefeito disputou a eleição estadual deste ano como candidato a vice-governador na chapa de Sandro Alex (PSD)"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Um dos nomes sugeridos para a possível pasta seria da economista e influenciadora Nath Finanças"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Ministro afirma que divulgação de dados depende dos próprios candidatos, após campanhas firmarem acordo para tornar informações públicas"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Greca, que governou Curitiba por três mandatos, manifestou apoio a Lula durante um sarau na capital paranaense, na segunda-feira, 19. Em discurso, criticou a influência dos Estados Unidos sobre o Brasil e defendeu políticas públicas de saúde, educação e cultura. “Não tem música de direita nem de esquerda, porque o gaiteiro, para tocar, precisa das duas mãos,"
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/09/55556976837_12196b5332_c.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/no-parana-liderancas-tradicionais-e-ex-ministro-de-collor-apoiam-lula-no-2-turno.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -889,19 +709,19 @@
       "descobertaEm": "2026-10-23T02:18:15.568Z"
     }
   ],
-  "reapuradoEm": "2026-10-23T03:48:45.013Z",
+  "reapuradoEm": "2026-10-23T04:48:24.280Z",
   "diagnosticoReapuracao": {
-    "produzidas": 14,
+    "produzidas": 11,
     "jaProntas": 0,
     "incompletas": 3,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 14,
+    "geradas": 11,
     "reaproveitadas": 0,
     "puladas": 3,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-10-23T03:49:48.902Z"
+  "lapisEm": "2026-10-23T04:49:14.373Z"
 }
