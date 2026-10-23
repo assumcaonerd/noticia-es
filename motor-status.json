@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-23T00:18:33.394Z",
+  "atualizadoEm": "2026-10-23T01:18:15.765Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 82,
+  "novasPautas": 86,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -125,7 +125,7 @@
     {
       "fonte": "Igreja Cristã Maranata - Oficial",
       "ok": true,
-      "encontrados": 0,
+      "encontrados": 2,
       "capa": true,
       "rota": "https://www.igrejacristamaranata.org.br/",
       "fallback": false
@@ -192,11 +192,9 @@
     },
     {
       "fonte": "ES Hoje",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://www.eshoje.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.eshoje.com.br/ -> 403 Forbidden",
+      "capa": true
     },
     {
       "fonte": "Século Diário",
@@ -208,11 +206,9 @@
     },
     {
       "fonte": "ES Hoje - Política",
-      "ok": true,
-      "encontrados": 0,
-      "capa": false,
-      "rota": "https://www.eshoje.com.br/politica/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.eshoje.com.br/politica/ -> 403 Forbidden",
+      "capa": false
     },
     {
       "fonte": "Poder360",
@@ -294,7 +290,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 12,
+      "encontrados": 13,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -325,7 +321,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 13,
+      "encontrados": 14,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -378,23 +374,23 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-23T00:21:21.060Z",
-    "novas": 0,
+    "atualizadoEm": "2026-10-23T01:21:22.957Z",
+    "novas": 4,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 4
       },
       {
         "fonte": "YouTube Folha Vitória",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 4
       },
       {
         "fonte": "YouTube ALES",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -403,18 +399,18 @@
       },
       {
         "fonte": "YouTube PM Ambiental ES",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "X Governo ES",
@@ -439,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-23T00:21:22.369Z",
+    "atualizadoEm": "2026-10-23T01:21:25.072Z",
     "novas": 0,
     "fontes": [
       {
@@ -455,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-23T00:21:23.520Z",
+    "atualizadoEm": "2026-10-23T01:21:26.030Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-23T00:21:34.066Z",
+    "atualizadoEm": "2026-10-23T01:21:36.589Z",
     "novas": 0,
     "fontes": [
       {
