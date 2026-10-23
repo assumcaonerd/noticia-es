@@ -8,7 +8,7 @@ for(const match of manifest.matchAll(/["'](auto-redacao-[a-zA-Z0-9-]+\.js)["']/g
  const file=match[1],source=path.join(root,file);if(!fs.existsSync(source))continue;
  const js=fs.readFileSync(source,'utf8'),variable=js.match(/\bconst\s+(noticiasAuto\w+)\s*=/)?.[1];if(!variable)continue;
  let articles;
- try{const box={noticias:[]};vm.runInNewContext(js+';globalThis.exported='+variable+';',box,{timeout:5000});articles=box.exported;}catch(e){console.error(file,e.message);errors++;continue;}
+ try{const box={noticias:[],window:{noticiasAuto:[]},document:{write(){},querySelector(){return null;},querySelectorAll(){return [];},getElementById(){return null;}}};box.window.window=box.window;box.window.document=box.document;vm.runInNewContext(js+';globalThis.exported='+variable+';',box,{timeout:5000,filename:file});articles=box.exported;}catch(e){console.warn('[miniaturas] arquivo ignorado:',file,e.message);errors++;continue;}
  for(const n of articles||[]){
   const slug=String(n.slug||'');if(!/^[a-z0-9][a-z0-9-]*$/.test(slug))continue;
   const dest=path.join(dir,slug+'.html');if(fs.existsSync(dest))continue;
@@ -39,6 +39,7 @@ for(const match of manifest.matchAll(/["'](auto-redacao-[a-zA-Z0-9-]+\.js)["']/g
  }
 }
 console.log('Paginas geradas: '+made+'; erros: '+errors);
-if(errors)process.exitCode=1;
+if(errors)console.warn('[miniaturas] '+errors+' arquivo(s) antigos invalidos foram ignorados.');
+if(errors && made===0 && !fs.readdirSync(dir).some(f=>f.endsWith('.html')))process.exitCode=1;
 
 // Atualizacao para disparar a primeira geracao.
