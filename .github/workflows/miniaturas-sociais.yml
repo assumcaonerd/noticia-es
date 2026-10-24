@@ -6,6 +6,7 @@ on:
       - 'auto-manifest.js'
       - 'auto-redacao-*.js'
       - 'scripts/gerar-miniaturas-sociais.cjs'
+      - '.github/workflows/miniaturas-sociais.yml'
   schedule:
     - cron: '*/10 * * * *'
   workflow_dispatch:
@@ -24,16 +25,26 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node scripts/gerar-miniaturas-sociais.cjs
-      - name: Commit e publicacao
+      - name: Gerar e publicar miniaturas com tentativas em caso de concorrencia
         run: |
-          git add m/
-          if git diff --cached --quiet; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "fix: publicar miniaturas sociais das materias"
-          for i in 1 2 3 4; do
-            git pull --rebase origin main && git push origin HEAD:main && exit 0
-            sleep 5
+          for tentativa in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            node scripts/gerar-miniaturas-sociais.cjs
+            git add m/
+            if git diff --cached --quiet; then
+              echo "Nenhuma miniatura nova para publicar."
+              exit 0
+            fi
+            git commit -m "fix: publicar miniaturas sociais das materias"
+            if git push origin HEAD:main; then
+              echo "Miniaturas publicadas com sucesso."
+              exit 0
+            fi
+            echo "Publicacao concorrente detectada; refazendo com a main atualizada (tentativa ${tentativa}/5)."
+            sleep $((tentativa * 4))
           done
+          echo "Falha ao publicar apos cinco tentativas." >&2
           exit 1
