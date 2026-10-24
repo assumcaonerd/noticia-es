@@ -1,45 +1,126 @@
 const noticiasAutoRedacao20261023214902 = [
   {
     id: 26102321490201,
-    pautaId: "ce72f879dff4a39e",
-    slug: "datafolha-combate-a-violencia-lidera-como-prioridade-de-eleitores-para-presidente-eleito",
-    titulo: "Datafolha: Combate à violência lidera como prioridade de eleitores para presidente eleito",
-    categoria: "Política Nacional",
+    pautaId: "9b1c8633e74ef0ef",
+    slug: "boca-pode-ser-multado-por-exibir-bet-no-maracana",
+    titulo: "Boca pode ser multado por exibir bet no Maracanã",
+    categoria: "Esporte",
     data: "2026-10-23",
-    imagem: "https://noticiaes.com.br/imagens/lapis/datafolha-combate-a-violencia-lidera-como-prioridade-de-eleitores-para-presidente-eleito.jpg",
-    resumo: "Geração de empregos e redução de impostos vêm em seguida; educação, renda e endividamento também são citados",
-    conteudo: "<p>Pesquisa do Datafolha divulgada nesta sexta-feira (23), a dois dias do segundo turno das eleições , aponta que 69% dos eleitores acreditam que uma das prioridades do próximo presidente da República, seja ele Flávio Bolsonaro ( PL ) ou Luiz Inácio Lula da Silva ( PT ), deve ser combater a violência no país.</p><h2>Entrevistados pelo Datafolha tiveram a oportunidade de escolher</h2><p>Os entrevistados pelo Datafolha tiveram a oportunidade de escolher um tema como prioridade em primeiro, segundo e terceiro lugar a partir de uma lista.</p><p>Elencaram o combate à violência em pelo menos um dos lugares 69%, enquanto 60% disseram que uma das prioridades deve ser gerar mais emprego e 56% optaram por diminuição dos impostos.</p><p>A margem de erro do levantamento, feito de terça-feira (20) a quinta (22), é de dois pontos para mais ou para menos. O instituto entrevistou nessa rodada 2.520 pessoas em 154 cidades sob encomenda da Folha e da TV Globo.</p><h2>Trabalho está registrado no Tribunal Superior Eleitoral</h2><p>O trabalho está registrado no Tribunal Superior Eleitoral com o código BR-09709/2026.</p><p>O tema da violência é um dos mais importantes na disputa entre Flávio e Lula. O senador tem apostado em medidas como a castração química de estupradores e o fim da obrigatoriedade de marcação de munições e da progressão da pena —consideradas por especialistas na área como pouco eficazes ou até mesmo contraproducentes para combater o crime no país.</p><p>Em comício no Recife em setembro, Flávio, empunhando um facão falso, reforçou a promessa da medida contra estupradores.</p><p>\"Atenção, você aí, estuprador, abusador de mulher e de criança, vai ter castração química para você, para aprender a nunca mais tocar em uma mulher sem que ela queira\", disse, empunhando o objeto.</p><p>Já o presidente Lula passou a defender a redução da maioridade penal para crimes hediondos , recuando da posição de longa data da esquerda, que sempre apontou que punir adolescentes a partir de 16 anos como adultos agravaria a superlotação nos presídios e diminuiria a possibilidade de reintegração à sociedade.</p><p>\"Meu pensamento, enquanto cidadão brasileiro, é que [para] todo e qualquer crime hediondo, eu sou a favor de reduzir a maioridade\", disse Lula à jornalista Renata Lo Prete em sabatina no último dia 15.</p><p>Tratou-se de uma mudança de posição: em 2007, por exemplo, em seu primeiro mandato, quando o tema veio à tona, Lula disse: \"Eu fico imaginando que se a gente aceitar a diminuição da maioridade penal para 16 anos, amanhã estarão pedindo para 15 [anos], depois para 10 [anos] e depois para 9 [anos].</p><p>Quem sabe um dia queiram [culpar] até o feto se souberem o que pode acontecer no futuro.\"</p><p>Para 25% dos entrevistados pelo Datafolha na pesquisa, combater a violência deve ser a prioridade número 1 do próximo presidente.</p><p>O tema empata, dentro da margem de erro, com a diminuição de impostos —24% disseram que a redução da carga tributária deve ser o tema número 1 da próxima gestão.</p><p>Em seguida, 17% deram maior importância à geração de empregos e outros 17%, a ações relacionadas à educação.</p><p>Para 8%, aumentar a renda deve ser a principal prioridade, enquanto 5% dizem que a redução do endividamento deve ter primazia e 2%, a anistia aos condenados no âmbito da trama golpista —como o ex-presidente Jair Bolsonaro (PL).</p><p>Sem considerar a ordem de importância, 35% citaram aumentar a renda, 21%, diminuir o endividamento, e 8%, a anistia. Cerca de 2% dos entrevistados disseram não saber responder ou afirmaram que não deve haver prioridade.</p><p>Receba no seu email destaques das campanhas, pesquisas e disputas nos estados</p><p>Para aqueles que declaram voto em Flávio Bolsonaro, a diminuição de impostos é bem mais importante do que para o eleitorado em geral: 35% dos que dizem optar pelo senador acham que a redução da carga tributária deve ser a prioridade número 1.</p><p>Apenas 12% dos que declaram voto em Lula pensam o mesmo.</p><p>Já a educação é citada como prioridade mais importante por 25% dos eleitores do petista, contra apenas 8% daqueles que declaram voto em Flávio.</p><p>De acordo com a mais recente pesquisa de intenção de voto do Datafolha , divulgada nesta quinta, Flávio e Lula estão em empate técnico: tanto o senador quanto o presidente têm 50% dos votos válidos —50,47% a 49,53%, respectivamente, antes do arredondamento.</p><p>Na primeira semana da campanha do segundo turno, o placar aferido pelo Datafolha estava em 52% a 48% para o senador e, na rodada passada, 51% a 49% nos votos válidos.</p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "Folha de S.Paulo - Poder",
-    fonteUrl: "https://www1.folha.uol.com.br/poder/2026/10/datafolha-combate-a-violencia-lidera-como-prioridade-de-eleitores-para-presidente-eleito.shtml",
-    fontesAdicionais: [{"nome":"Agência Brasil","url":"https://agenciabrasil.ebc.com.br/politica"},{"nome":"Senado Federal","url":"https://www12.senado.leg.br/noticias"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"Pesquisa do Datafolha divulgada nesta sexta-feira (23), a dois dias do segundo turno das eleições , aponta que 69% dos eleitores acreditam que uma das prioridades do próximo presidente da República, seja ele Flávio Bolsonaro ( PL ) ou Luiz Inácio Lula da Silva ( PT ), deve ser combater a violência no país."},{"pergunta":"Qual é o ponto principal?","resposta":"Os entrevistados pelo Datafolha tiveram a oportunidade de escolher um tema como prioridade em primeiro, segundo e terceiro lugar a partir de uma lista. Elencaram o combate à violência em pelo menos um dos lugares 69%, enquanto 60% disseram que uma das prioridades deve ser gerar mais emprego e 56% optaram por diminuição dos impostos."},{"pergunta":"Quais são os dados mais importantes?","resposta":"A margem de erro do levantamento, feito de terça-feira (20) a quinta (22), é de dois pontos para mais ou para menos. O instituto entrevistou nessa rodada 2.520 pessoas em 154 cidades sob encomenda da Folha e da TV Globo. O trabalho está registrado no Tribunal Superior Eleitoral com o código BR-09709/2026."},{"pergunta":"Qual é o contexto?","resposta":"O tema da violência é um dos mais importantes na disputa entre Flávio e Lula. O senador tem apostado em medidas como a castração química de estupradores e o fim da obrigatoriedade de marcação de munições e da progressão da pena —consideradas por especialistas na área como pouco eficazes ou até mesmo contraproducentes para combater o crime no país."},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"Em comício no Recife em setembro, Flávio, empunhando um facão falso, reforçou a promessa da medida contra estupradores. \"Atenção, você aí, estuprador, abusador de mulher e de criança, vai ter castração química para você, para aprender a nunca mais tocar em uma mulher sem que ela queira\", disse, empunhando o objeto."}],
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261023-boca-pode-ser-multado-por-exibir-bet-no-maracana.jpg",
+    resumo: "Clube argentino entrou em campo com patrocínio de casa de apostas após a proibição nacional; especialistas apontam possível sanção administrativa.",
+    conteudo: `<p>O Boca Juniors exibiu a marca de uma casa de apostas no uniforme durante a vitória por 3 a 1 sobre o Vasco, na terça-feira (20), no Maracanã. A partida, válida pela semifinal da Copa Sul-Americana, foi realizada depois de entrar em vigor a proibição nacional da publicidade de apostas de quota fixa.</p>
+<p>A ocorrência foi noticiada pela CNN Brasil nesta sexta-feira (23). A redação conferiu o alcance da regra na página oficial do Ministério da Fazenda, que informa que a Medida Provisória nº 1.394, de 25 de setembro de 2026, abrange publicidade em ambientes físicos e virtuais, inclusive quando a oferta parte de agentes sediados no exterior e alcança pessoas localizadas no Brasil.</p>
+<p>O clube argentino é patrocinado pela Betsson e usou no Rio de Janeiro o mesmo padrão de camisa adotado em competições fora do país. O contrato pode obedecer à legislação argentina, mas a exibição ocorreu em estádio brasileiro, diante de público local e com transmissão dirigida ao mercado nacional.</p>
+<h2>Regra alcança publicidade estrangeira</h2>
+<p>A MP proibiu a exploração, a oferta, a intermediação e a publicidade de apostas de quota fixa em território nacional. A redação ampla é a base para a avaliação de que uma marca estampada por uma equipe visitante também pode ser submetida à fiscalização brasileira quando aparece em jogo disputado no país.</p>
+<p>Essa interpretação não significa que o Boca já tenha sido condenado. A responsabilidade precisa ser apurada em procedimento próprio, com análise do contrato de patrocínio, da organização da partida e do público atingido. Também deverá ser avaliado quem tinha capacidade prática para exigir um uniforme sem a marca no evento.</p>
+<p>O advogado Luiz Augusto D’Urso afirmou à CNN Brasil que o clube deveria ter se apresentado sem a publicidade. Marcelo Robalinho ponderou que a lei brasileira não desfaz automaticamente um contrato firmado no exterior, mas reconheceu que a exposição em solo brasileiro cria uma situação sujeita à norma nacional.</p>
+<h2>Multa depende de apuração administrativa</h2>
+<p>Não há, no episódio descrito, previsão automática de perda de pontos, eliminação ou mudança do resultado esportivo. A consequência aventada por especialistas é de natureza administrativa, especialmente multa, caso a autoridade competente conclua que houve publicidade proibida e identifique os responsáveis.</p>
+<p>A Conmebol organiza a Copa Sul-Americana, enquanto o Vasco era o mandante no Maracanã. Essa divisão de atribuições torna a apuração mais complexa: será necessário estabelecer se a obrigação de adequar o uniforme cabia apenas ao visitante ou se alcançava organizadores, anfitrião e agentes envolvidos na promoção e transmissão do jogo.</p>
+<p>O episódio também serve de alerta para clubes brasileiros que recebem equipes estrangeiras. Regulamentos esportivos e contratos internacionais não afastam o cumprimento de regras publicitárias vigentes no território onde a partida acontece, sobretudo quando a comunicação é visível ao público e integrada ao espetáculo.</p>
+<p>Até a conclusão de eventual análise oficial, a afirmação segura é que a publicidade ocorreu e que a MP estava em vigor. Qualquer sanção dependerá de contraditório, enquadramento jurídico e identificação precisa de quem praticou ou permitiu a divulgação.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "CNN Brasil",
+    fonteUrl: "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/sulamericana/boca-jrs-infringiu-mp-ao-expor-bet-no-maracana-veja-o-que-pode-acontecer/",
+    fontesAdicionais: [
+      { nome: "Ministério da Fazenda", url: "https://www.gov.br/fazenda/pt-br/composicao/orgaos/secretaria-de-premios-e-apostas/medida-provisoria-ndeg-1-394-2026-entenda-as-novas-regras-para-as-apostas-de-quota-fixa" }
+    ],
+    entidades: ["Boca Juniors", "Vasco", "Conmebol", "Ministério da Fazenda"],
+    aeo: [
+      { pergunta: "O que o Boca exibiu no Maracanã?", resposta: "O clube entrou em campo com a marca de sua patrocinadora do setor de apostas estampada no uniforme." },
+      { pergunta: "Quando a partida foi disputada?", resposta: "O jogo ocorreu na terça-feira, 20 de outubro de 2026, pela semifinal da Copa Sul-Americana." },
+      { pergunta: "Qual regra pode ter sido infringida?", resposta: "A Medida Provisória nº 1.394/2026 proibiu a publicidade de apostas de quota fixa no território brasileiro." },
+      { pergunta: "O Boca pode perder pontos?", resposta: "Não há indicação de punição esportiva automática; especialistas apontam eventual consequência administrativa." },
+      { pergunta: "A multa já foi aplicada?", resposta: "Não. Qualquer multa depende de apuração, defesa e decisão da autoridade competente." }
+    ],
     redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
+    origemTexto: "redacao-noticia-es",
     automatico: true,
-    publicadoEm: "2026-10-24T00:49:02.694Z"
+    publicadoEm: "2026-10-24T00:49:02.000Z"
   },
   {
     id: 26102321490202,
-    pautaId: "4b031b70e32719fc",
-    slug: "pt-aciona-stf-contra-restricoes-ao-canal-exercito-do-lula",
-    titulo: "PT aciona STF contra restrições ao canal Exército do Lula",
+    pautaId: "0ca8081d5e8b12be",
+    slug: "supermercado-lidera-pressao-sobre-orcamento-familiar",
+    titulo: "Supermercado lidera pressão sobre orçamento familiar",
+    categoria: "Economia",
+    data: "2026-10-23",
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261023-supermercado-lidera-pressao-sobre-orcamento-familiar.jpg",
+    resumo: "Pesquisa da Serasa aponta alimentação como principal peso mensal para 59% dos entrevistados e mostra aperto maior na reta final do mês.",
+    conteudo: `<p>Os gastos com alimentação e supermercado estão entre as despesas que mais comprometem o orçamento de 59% dos brasileiros. O resultado vem de pesquisa nacional realizada pela Serasa em parceria com o Instituto Opinion Box e divulgada nesta semana.</p>
+<p>O levantamento foi publicado pelo InfoMoney nesta sexta-feira (23) e confirmado em reportagem do portal Mercado & Consumo, que reproduz os principais percentuais do estudo. Foram ouvidas 1.008 pessoas por meio de entrevistas on-line, entre 29 de setembro e 5 de outubro, com margem de erro de 3,1 pontos percentuais.</p>
+<p>Depois da alimentação, aparecem moradia, aluguel ou financiamento, citados por 40% dos participantes. Contas da casa, como água, energia e serviços recorrentes, foram apontadas por 32%, mostrando que os três maiores focos de pressão estão ligados a despesas essenciais.</p>
+<h2>Alimentação lidera gastos essenciais</h2>
+<p>A pesquisa não mede apenas o valor absoluto das compras. Ela capta a percepção das famílias sobre quais compromissos mais limitam o dinheiro disponível. Por isso, os percentuais indicam quantos entrevistados incluíram cada despesa entre as mais pesadas, e não a parcela exata da renda destinada a cada item.</p>
+<p>O aperto se torna mais visível na reta final do ciclo de pagamentos. Para 41% dos consumidores, a terceira e a quarta semanas são as mais difíceis para equilibrar as finanças. Outros 13% dizem enfrentar dificuldade durante todo o mês, sem um período claro de alívio.</p>
+<p>Quase três em cada dez entrevistados, ou 28%, afirmaram que precisam cortar despesas, adiar pagamentos ou conviver com contas que não conseguem quitar no próprio mês. Quando o salário ameaça acabar antes do próximo recebimento, 29% reduzem gastos não essenciais e 22% buscam alguma renda extra.</p>
+<h2>Cartão amplia risco mensal</h2>
+<p>O cartão de crédito apareceu como o principal recurso usado nos últimos 12 meses para cobrir despesas quando faltou dinheiro, citado por 28% dos participantes. Ao mesmo tempo, a fatura foi o compromisso deixado sem pagamento por 25%, sinal de que o instrumento pode transferir o problema de um mês para o seguinte.</p>
+<p>Aline Vieira, especialista da Serasa em educação financeira, recomenda que o limite do cartão não seja tratado como extensão da renda. Antes de financiar uma despesa corrente, o consumidor precisa considerar como pagará a fatura e quanto das receitas futuras já está comprometido por parcelas.</p>
+<p>O estudo mostra que 75% dizem planejar os gastos com frequência antes de o mês começar. Entre os instrumentos mais usados, 46% preferem caderno e anotações, enquanto 21% recorrem a planilhas. O hábito, porém, não neutraliza sozinho o peso de despesas essenciais e imprevistos.</p>
+<p>A leitura prática é que o planejamento deve continuar durante o mês, com revisão semanal do saldo e das próximas contas. Quando alimentação, moradia e serviços básicos já absorvem grande parte da renda, identificar cedo o aperto aumenta a chance de ajustar despesas sem recorrer a crédito caro.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "InfoMoney",
+    fonteUrl: "https://www.infomoney.com.br/economia/supermercado-e-o-que-mais-pesa-no-bolso-dos-brasileiros-aponta-pesquisa/",
+    fontesAdicionais: [
+      { nome: "Mercado & Consumo", url: "https://mercadoeconsumo.com.br/23/10/2026/noticias-varejo/alimentacao-e-supermercado-pesam-no-orcamento-de-59-dos-brasileiros-aponta-serasa248256/" }
+    ],
+    entidades: ["Serasa", "Instituto Opinion Box"],
+    aeo: [
+      { pergunta: "Qual despesa mais pesa no orçamento?", resposta: "Alimentação e supermercado foram citados por 59% dos entrevistados." },
+      { pergunta: "Quais gastos aparecem em seguida?", resposta: "Moradia, aluguel ou financiamento somam 40%, e contas da casa aparecem com 32%." },
+      { pergunta: "Quando o mês fica mais difícil?", resposta: "Para 41% dos participantes, a terceira e a quarta semanas concentram o maior aperto." },
+      { pergunta: "Quantas pessoas foram ouvidas?", resposta: "A pesquisa entrevistou 1.008 pessoas on-line em todo o país." },
+      { pergunta: "Como as famílias reagem à falta de dinheiro?", resposta: "Entre as respostas, 29% cortam gastos não essenciais e 22% procuram renda extra." }
+    ],
+    redacaoPropria: true,
+    origemTexto: "redacao-noticia-es",
+    automatico: true,
+    publicadoEm: "2026-10-24T00:49:02.000Z"
+  },
+  {
+    id: 26102321490203,
+    pautaId: "6c48ca1df4493c06",
+    slug: "entidades-cobram-do-tse-protecao-contra-censura-digital",
+    titulo: "Entidades cobram do TSE proteção contra censura digital",
     categoria: "Justiça",
     data: "2026-10-23",
-    imagem: "https://noticiaes.com.br/imagens/lapis/pt-aciona-stf-contra-restricoes-ao-canal-exercito-do-lula.jpg",
-    resumo: "Deputados alegam censura prévia em decisões de Nunes Marques e pedem liminar para impedir bloqueio do grupo. Leia no Poder360.",
-    conteudo: "<p>Deputados alegam censura prévia em decisões de Nunes Marques e pedem liminar para impedir bloqueio do grupo administrado por André Janones</p><h2>Líder do PT na Câmara, Pedro Uczai (PT-SC), e</h2><p>O líder do PT na Câmara, Pedro Uczai (PT-SC), e outros congressistas acionaram o Supremo Tribunal Federal nesta 6ª feira (23.out.2026) contra decisões do presidente do Tribunal Superior Eleitoral, ministro Nunes Marques, que restringiram o canal Exército do Lula, administrado pelo deputado André Janones (PT-MG).</p><p>Na reclamação, os congressistas pedem uma liminar para impedir a suspensão, o bloqueio ou a limitação do funcionamento do canal às vésperas do 2º turno da eleição presidencial, marcado para domingo (25.out).</p><p>A ação questiona decisões tomadas a partir de pedidos do senador Flávio Bolsonaro (PL-RJ), candidato à Presidência.</p><h2>Congressistas afirmam que as medidas configuram censura prévia e</h2><p>Os congressistas afirmam que as medidas configuram censura prévia e contrariam o entendimento do STF na ADPF 130, que protege a liberdade de expressão.</p><p>A petição pede que o Supremo impeça novas restrições ao funcionamento integral do canal, inclusive com base em eventuais regras que venham a ser aprovadas para canais de mensagens no período próximo à votação.</p><p>Em 11 de outubro, Nunes Marques determinou a suspensão do canal até a homologação do resultado do 2º turno, proibindo novas publicações, a entrada de seguidores e a criação de outro canal pelo administrador.</p><p>A decisão foi revertida no mesmo dia pelo corregedor-geral da Justiça Eleitoral, ministro Ricardo Villas Bôas Cueva.</p><p>Em 13 de outubro, porém, Nunes Marques restabeleceu as restrições ao suspender os efeitos da decisão do corregedor-geral, a pedido do PL.</p><p>O funcionamento do canal ficou condicionado à comunicação de seu endereço à Justiça Eleitoral como meio de propaganda da candidatura do presidente Luiz Inácio Lula da Silva (PT).</p><p>O canal foi posteriormente autorizado a funcionar novamente, mas, segundo a reclamação, as decisões anteriores não foram expressamente revogadas.</p><p>Em 22 de outubro, Nunes Marques determinou que a Meta, controladora do WhatsApp, apresentasse um relatório técnico sobre possível comportamento coordenado no canal.</p><p>Também solicitou ao Google e ao X informações sobre a amplificação de termos e hashtags de 18 a 20 de outubro.</p><p>Um dos principais argumentos da reclamação é que a Assessoria de Enfrentamento à Desinformação do próprio TSE não encontrou , nas publicações do canal de 2 a 11 de outubro, a reprodução das afirmações que Flávio apontou como falsas.</p><p>Os autores da ação afirmam que as restrições foram impostas sem a identificação de conteúdo ilícito específico e sem contraditório prévio.</p><p>Para os congressistas, a suspensão de todo o canal impede manifestações futuras, inclusive aquelas que não apresentem qualquer irregularidade.</p><p>A petição também argumenta que a coordenação entre apoiadores de uma candidatura não configura, por si só, uma infração eleitoral.</p><p>Os congressistas citam regras do próprio TSE que permitem a mobilização política espontânea de pessoas físicas em canais de mensagens e redes sociais, desde que respeitada a legislação.</p><p>A reclamação informa que, também nesta 6ª feira (23.out), o ministro Floriano de Azevedo Marques , relator de um mandado de segurança no TSE, concedeu parcialmente uma liminar para suspender os efeitos das decisões que possam resultar na suspensão, na indisponibilização ou na restrição do alcance e do funcionamento do canal.</p><p>A decisão também determinou que a Presidência do TSE se abstenha de usar sua competência administrativa para suspender ou restringir o canal até que haja deliberação do plenário em processo judicial. A medida, no entanto, é provisória e está sujeita a revisão.</p><p>Os autores da reclamação afirmam que essa decisão não elimina a necessidade de atuação do STF, pois a liminar tem alcance delimitado e pode ser modificada. Por isso, pedem uma proteção autônoma com base na ADPF 130.</p><p>Os congressistas solicitam que a reclamação seja distribuída por prevenção ao ministro Flávio Dino , relator da Reclamação nº 95.295, que também trata da proteção à liberdade de expressão em decisões da Justiça Eleitoral.</p><p>Pedem ainda que Nunes Marques seja excluído da distribuição por figurar como autoridade questionada na ação.</p><p>No mérito, a bancada quer que o STF derrube as decisões contestadas e determine que eventuais restrições se limitem à remoção de conteúdos específicos, identificados e considerados ilícitos em decisão fundamentada, após garantia do contraditório.</p><p>Como pedido alternativo, os congressistas defendem que qualquer medida que restrinja o funcionamento do canal seja submetida previamente ao plenário do TSE, com a manifestação do administrador e da coligação.</p>",
-    autor: 'Redação Notícia ES',
-    fonteNome: "Poder360 - Feed",
-    fonteUrl: "https://www.poder360.com.br/poder-congresso/pt-aciona-stf-contra-restricoes-ao-canal-exercito-do-lula/",
-    fontesAdicionais: [{"nome":"STF Notícias","url":"https://portal.stf.jus.br/noticias/"},{"nome":"MPF","url":"https://www.mpf.mp.br/pgr/noticias-pgr"}],
-    entidades: [],
-    aeo: [{"pergunta":"O que aconteceu?","resposta":"Deputados alegam censura prévia em decisões de Nunes Marques e pedem liminar para impedir bloqueio do grupo administrado por André Janones"},{"pergunta":"Qual é o ponto principal?","resposta":"O líder do PT na Câmara, Pedro Uczai (PT-SC), e outros congressistas acionaram o Supremo Tribunal Federal nesta 6ª feira (23.out.2026) contra decisões do presidente do Tribunal Superior Eleitoral, ministro Nunes Marques, que restringiram o canal Exército do Lula, administrado pelo deputado André Janones (PT-MG)."},{"pergunta":"Quais são os dados mais importantes?","resposta":"Na reclamação, os congressistas pedem uma liminar para impedir a suspensão, o bloqueio ou a limitação do funcionamento do canal às vésperas do 2º turno da eleição presidencial, marcado para domingo (25.out). A ação questiona decisões tomadas a partir de pedidos do senador Flávio Bolsonaro (PL-RJ), candidato à Presidência."},{"pergunta":"Qual é o contexto?","resposta":"Os congressistas afirmam que as medidas configuram censura prévia e contrariam o entendimento do STF na ADPF 130, que protege a liberdade de expressão. A petição pede que o Supremo impeça novas restrições ao funcionamento integral do canal, inclusive com base em eventuais regras que venham a ser aprovadas para canais de mensagens no período próximo à votação"},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"Em 11 de outubro, Nunes Marques determinou a suspensão do canal até a homologação do resultado do 2º turno, proibindo novas publicações, a entrada de seguidores e a criação de outro canal pelo administrador. A decisão foi revertida no mesmo dia pelo corregedor-geral da Justiça Eleitoral, ministro Ricardo Villas Bôas Cueva."}],
+    imagem: "https://noticiaes.com.br/imagens/lapis/20261023-entidades-cobram-do-tse-protecao-contra-censura-digital.jpg",
+    resumo: "Documento assinado por 50 organizações pede transparência das plataformas e decisões eleitorais baseadas em prova, devido processo e liberdade de expressão.",
+    conteudo: `<p>Cinquenta organizações sociais, movimentos populares e sindicatos entregaram nesta sexta-feira (23) uma nota pública ao Tribunal Superior Eleitoral. O grupo afirma temer bloqueios, redução de alcance e outras decisões opacas das plataformas digitais durante a eleição presidencial.</p>
+<p>A entrega foi noticiada pela Agência Brasil. O cenário foi confirmado em comunicado do próprio TSE, que deu 24 horas para Meta e X explicarem possível tratamento desigual de candidaturas, após ação eleitoral mencionar restrições de alcance, distribuição de propaganda e uso de ferramentas de inteligência artificial.</p>
+<p>As entidades integram o DiraCom – Direito à Comunicação e Democracia. Elas sustentam que a moderação de conteúdo precisa ser transparente e que providências contra desinformação devem respeitar prova, contraditório, devido processo legal e liberdade de expressão.</p>
+<h2>Nota cobra transparência digital</h2>
+<p>O documento reúne relatos de usuários, comunicadores e perfis políticos que teriam sofrido bloqueio de contas ou redução de alcance. Entre os episódios mencionados está a desativação temporária da ferramenta de anúncios da conta oficial da campanha do presidente Luiz Inácio Lula da Silva.</p>
+<p>Esses relatos são alegações que ainda exigem verificação individual. A cobrança ao TSE não transforma cada denúncia em fato comprovado, mas registra uma preocupação coletiva sobre a falta de critérios visíveis para a moderação, especialmente em período eleitoral.</p>
+<p>A mesma cautela vale para a ideia de censura. Plataformas podem aplicar regras privadas e a Justiça Eleitoral pode determinar medidas legais contra ilícitos, porém restrições desproporcionais ou sem motivação clara afetam o debate público e precisam admitir revisão rápida.</p>
+<h2>Corte apura tratamento eleitoral</h2>
+<p>O TSE informou que a investigação apresentada por uma coligação alega abuso de poder econômico e uso indevido dos meios de comunicação, com possível favorecimento de uma chapa. O corregedor eleitoral pediu explicações sobre alcance de conteúdos, propaganda e respostas de ferramentas de inteligência artificial.</p>
+<p>A nota das entidades também questiona decisões relacionadas ao canal de WhatsApp “Exército do Lula”. No mesmo dia, o ministro Floriano de Azevedo Marques decidiu que o canal não poderia voltar a ser suspenso ou restringido por decisão individual, preservando a análise colegiada da Corte.</p>
+<p>O quadro mostra duas exigências simultâneas. De um lado, a Justiça Eleitoral deve reagir a indícios concretos de abuso, manipulação ou tratamento desigual. De outro, precisa evitar ordens amplas que retirem conteúdo legítimo sem prova suficiente ou sem possibilidade efetiva de defesa.</p>
+<p>Meta e X deverão apresentar ao tribunal os critérios técnicos adotados e explicar se candidatos receberam tratamento diferente. As respostas poderão orientar novas diligências, mas uma conclusão sobre censura, favorecimento ou ilegalidade dependerá dos dados e da decisão judicial, não apenas das acusações públicas.</p>`,
+    autor: "Redação Notícia ES",
+    fonteNome: "Agência Brasil",
+    fonteUrl: "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/sociedade-civil-manifesta-preocupacao-ao-tse-por-censura-nas-redes",
+    fontesAdicionais: [
+      { nome: "Tribunal Superior Eleitoral", url: "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/corregedor-do-tse-da-24-horas-para-meta-e-x-explicarem-possivel-tratamento-desigual-de-candidaturas-nas-redes" }
+    ],
+    entidades: ["Tribunal Superior Eleitoral", "DiraCom", "Meta", "X"],
+    aeo: [
+      { pergunta: "Quem entregou a nota ao TSE?", resposta: "O documento foi assinado por 50 organizações sociais, movimentos populares e sindicatos ligados ao DiraCom." },
+      { pergunta: "Qual é a principal cobrança?", resposta: "As entidades pedem transparência na moderação e respeito ao devido processo e à liberdade de expressão." },
+      { pergunta: "Quais plataformas foram notificadas?", resposta: "O TSE deu prazo para Meta e X explicarem possível tratamento desigual de candidaturas." },
+      { pergunta: "Os bloqueios já foram comprovados?", resposta: "Não em conjunto; os relatos e critérios de moderação ainda precisam de verificação individual." },
+      { pergunta: "O que acontece agora?", resposta: "As plataformas deverão apresentar dados e justificativas, que poderão embasar novas diligências da Justiça Eleitoral." }
+    ],
     redacaoPropria: true,
-    origemTexto: 'redacao-noticia-es',
+    origemTexto: "redacao-noticia-es",
     automatico: true,
-    publicadoEm: "2026-10-24T00:49:02.694Z"
+    publicadoEm: "2026-10-24T00:49:02.000Z"
   }
 ];
-if (typeof noticias !== 'undefined') noticias.unshift(...noticiasAutoRedacao20261023214902);
+
+if (typeof window !== "undefined") {
+  window.noticiasAutoRedacao20261023214902 = noticiasAutoRedacao20261023214902;
+}
