@@ -147,7 +147,20 @@ jobs:
             exit 0
           fi
           git commit -m "seo: hospeda capas OG, conserta noticias.js e atualiza páginas"
-          git pull --rebase -X theirs origin main
-          git push origin main
+          # Outras rotinas publicam na main ao mesmo tempo. Rebase e retry
+          # resolvem a corrida sem sobrescrever o trabalho de outros jobs.
+          for tentativa in 1 2 3 4 5; do
+            git pull --rebase -X theirs origin main
+            if git push origin main; then
+              echo "Páginas OG publicadas na tentativa $tentativa."
+              exit 0
+            fi
+            if [ "$tentativa" -eq 5 ]; then
+              echo "::error::Não foi possível publicar após cinco tentativas."
+              exit 1
+            fi
+            echo "::warning::A branch main mudou durante a publicação; tentativa $tentativa de 5. Repetindo."
+            sleep "$((tentativa * 2))"
+          done
 
 # trigger-capas-lapis-6
