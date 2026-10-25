@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-25T11:18:09.220Z",
+  "atualizadoEm": "2026-10-25T12:18:07.598Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 97,
+  "novasPautas": 89,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -124,9 +124,11 @@
     },
     {
       "fonte": "Igreja Cristã Maranata - Oficial",
-      "ok": false,
-      "erro": "https://www.igrejacristamaranata.org.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 2,
+      "capa": true,
+      "rota": "https://www.igrejacristamaranata.org.br/",
+      "fallback": false
     },
     {
       "fonte": "Assembleia de Deus Fonte de Vida - Oficial",
@@ -288,14 +290,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 14,
+      "encontrados": 13,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 3,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -321,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 18,
+      "encontrados": 17,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -349,7 +351,7 @@
     {
       "fonte": "BBC Brasil",
       "ok": true,
-      "encontrados": 21,
+      "encontrados": 19,
       "rota": "https://feeds.bbci.co.uk/portuguese/rss.xml",
       "fallback": false
     },
@@ -374,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-25T11:21:31.268Z",
+    "atualizadoEm": "2026-10-25T12:20:24.391Z",
     "novas": 5,
     "fontes": [
       {
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-25T11:21:33.499Z",
+    "atualizadoEm": "2026-10-25T12:20:25.786Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-25T11:21:34.615Z",
+    "atualizadoEm": "2026-10-25T12:20:26.753Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-25T11:21:45.175Z",
+    "atualizadoEm": "2026-10-25T12:20:37.307Z",
     "novas": 0,
     "fontes": [
       {
