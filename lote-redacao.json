@@ -1,38 +1,98 @@
 {
-  "geradoEm": "2026-10-25T12:48:26.000Z",
+  "geradoEm": "2026-10-25T13:48:22.260Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 0,
-    "bloqueadasEditoriais": 1,
+    "bloqueadasEditoriais": 3,
     "semImagem": 0,
-    "duplicadasBasicas": 6,
-    "duplicadasSemanticas": 3,
-    "foraCategorias": 59
+    "duplicadasBasicas": 1,
+    "duplicadasSemanticas": 0,
+    "foraCategorias": 55
   },
-  "quantidadeCandidatas": 11,
+  "quantidadeCandidatas": 21,
   "candidatas": [
     {
-      "id": "66189514adf87e93",
-      "titulo": "Como Alfredo Gaspar, candidato a vice de Flávio, usou ligações com Collor e Calheiros para crescer no Congresso",
+      "id": "80d5e2b22783c34c",
+      "titulo": "Ao votar no Rio de Janeiro, Flávio diz que representa a mudança",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "Agência Brasil - Política",
+      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ao-votar-no-rio-de-janeiro-flavio-diz-que-representa-mudanca",
+      "dataFonte": "2026-10-25T12:15:00.000Z",
+      "resumoFonte": "O candidato à Presidência da República Flávio Bolsonaro (PL) defendeu neste domingo (25), no segundo turno das eleições, que representa a mudança, especialmente contra a violência pública e o endividamento. Em frente ao seu local de votação, falou brevemente à imprensa sobre a expectativa de vitória no pleito. Notícias relacionadas: Eleitores vão…",
+      "imagem": "https://imagens.ebc.com.br/S5NyIIMAUvC4KF1poHaK4Qasy30=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/25/toms5517.jpg?itok=LouFV9yP",
+      "descobertaEm": "2026-10-25T13:18:00.984Z",
+      "reportagem": {
+        "titulo": "Ao votar no Rio de Janeiro, Flávio diz que representa a mudança",
+        "slug": "ao-votar-no-rio-de-janeiro-flavio-diz-que-representa-a-mudanca",
+        "categoria": "Política ES",
+        "data": "2026-10-25",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/ao-votar-no-rio-de-janeiro-flavio-diz-que-representa-a-mudanca.jpg",
+        "resumo": "Rua em frente à seção de votação ficou tomada por apoiadores e também por eleitores do presidente Luiz Inácio Lula da Silva, adversário de Flávio neste segundo turno.",
+        "conteudo": "<p>O candidato à Presidência da República Flávio Bolsonaro (PL) defendeu neste domingo (25), no segundo turno das eleições, que representa a mudança, especialmente contra a violência pública e o endividamento.</p><h2>Em frente ao seu local de votação, falou brevemente</h2><p>Em frente ao seu local de votação, falou brevemente à imprensa sobre a expectativa de vitória no pleito.</p><p>\"A vida de todo mundo piorou, então não tem porque continuar insistindo no erro. A esperança virou medo, de andar na rua de noite, de ter o celular roubado, de ter a moto roubada. Medo da geladeira vazia, de não conseguir pagar as contas\", declarou.</p><p>O candidato chegou para votar às 8h20 da manhã, na Escola Municipal Barão Homem de Melo, em Vila Isabel, na zona norte do Rio de Janeiro. Ele estava acompanhado da esposa Fernanda Bolsonaro, da mãe, Rogéria Bolsonaro, e do governador eleito do Rio de Janeiro, Douglas Ruas.</p><h2>Rua em frente ficou tomada por apoiadores e também</h2><p>A rua em frente ficou tomada por apoiadores e também por eleitores do presidente Luiz Inácio Lula da Silva, adversário de Flávio neste segundo turno.</p><p>Os dois grupos rivalizaram com palavras de ordem, a favor e contra Flávio. De um lado, os eleitores de Lula lembravam do caso Ana Clara, e das suspeitas de que o candidato tenha relações com grupos de milícias.</p><p>Os apoiadores do candidato do PL gritavam frases contra o presidente Lula. Logo após a saída de Flávio, o movimento se dispersou e permaneceram apenas os eleitores do local .</p><p>Política TRE-SP substitui 52 urnas que apresentaram problemas no estado dom, 25/10/2026 - 10:06</p><p>Política TSE agiliza aprovação de transporte para indígenas e quilombolas dom, 25/10/2026 - 09:27</p><p>Política Ao votar no Rio de Janeiro, Flávio diz que representa a mudança dom, 25/10/2026 - 09:15</p><p>Saúde Mudanças climáticas já causam aumento de doenças infecciosas no país dom, 25/10/2026 - 09:06</p><p>Política Saiba quais as condutas consideradas crime eleitoral no dia da votação dom, 25/10/2026 - 07:49</p><p>Política Consulte o local de votação antes de sair de casa; saiba como dom, 25/10/2026 - 07:19</p>",
+        "fonteNome": "Agência Brasil - Política",
+        "fonteUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ao-votar-no-rio-de-janeiro-flavio-diz-que-representa-mudanca",
+        "fontesAdicionais": [
+          {
+            "nome": "Assembleia Legislativa do ES",
+            "url": "https://www.al.es.gov.br/"
+          },
+          {
+            "nome": "Governo do Estado do ES",
+            "url": "https://www.es.gov.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O candidato à Presidência da República Flávio Bolsonaro (PL) defendeu neste domingo (25), no segundo turno das eleições, que representa a mudança, especialmente contra a violência pública e o endividamento."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Em frente ao seu local de votação, falou brevemente à imprensa sobre a expectativa de vitória no pleito."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "\"A vida de todo mundo piorou, então não tem porque continuar insistindo no erro. A esperança virou medo, de andar na rua de noite, de ter o celular roubado, de ter a moto roubada. Medo da geladeira vazia, de não conseguir pagar as contas\", declarou."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O candidato chegou para votar às 8h20 da manhã, na Escola Municipal Barão Homem de Melo, em Vila Isabel, na zona norte do Rio de Janeiro. Ele estava acompanhado da esposa Fernanda Bolsonaro, da mãe, Rogéria Bolsonaro, e do governador eleito do Rio de Janeiro, Douglas Ruas."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A rua em frente ficou tomada por apoiadores e também por eleitores do presidente Luiz Inácio Lula da Silva, adversário de Flávio neste segundo turno."
+          }
+        ],
+        "imagemOriginal": "https://imagens.ebc.com.br/S5NyIIMAUvC4KF1poHaK4Qasy30=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/25/toms5517.jpg?itok=LouFV9yP",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/ao-votar-no-rio-de-janeiro-flavio-diz-que-representa-a-mudanca.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "a446673b734416c7",
+      "titulo": "Eventual vitória de Flávio consolidaria ‘onda azul’ da direita, diz jornal La Nación",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "BBC Brasil",
-      "urlFonte": "https://www.bbc.com/portuguese/articles/c95ynje2z7pzo?at_medium=RSS&at_campaign=rss",
-      "dataFonte": "2026-10-25T11:45:14.000Z",
-      "resumoFonte": "Acusado de desviar recursos via emendas PIX e em meio a uma investigação por estupro de menor, promotor foi figura silenciosa durante campanha com Flávio.",
-      "imagem": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/38b5/live/78e0f670-cf6d-11f1-a98a-bb970bd2aa12.jpg",
-      "descobertaEm": "2026-10-25T12:18:07.598Z",
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/mundo/eventual-vitoria-de-flavio-consolidaria-onda-azul-da-direita-diz-jornal-la-nacion/",
+      "dataFonte": "2026-10-25T13:01:41.000Z",
+      "resumoFonte": "Luiz Inácio Lula da Silva (Foto: Marcelo Camargo/Agência Brasil) – Flávio Bolsonaro (Saulo Cruz/Agência Senado) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/10/lulaflavio2_221538.png?fit=888%2C667&quality=70&strip=all\" />Jornais no exterior repercutem eleições no Brasil The post Eventual vitória de Flávio consolidaria…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/10/lulaflavio2_221538.png",
+      "descobertaEm": "2026-10-25T13:18:00.984Z",
       "reportagem": {
-        "titulo": "Quem é Alfredo Gaspar, o candidato a vice de Flávio, que usou ligações com Collor e Calheiros para crescer no Congresso - BBC News Brasil",
-        "slug": "quem-e-alfredo-gaspar-o-candidato-a-vice-de-flavio-que-usou-ligacoes-com-collor-e-calheiro",
+        "titulo": "Eventual vitória de Flávio consolidaria 'onda azul' da direita, diz jornal La Nación",
+        "slug": "eventual-vitoria-de-flavio-consolidaria-onda-azul-da-direita-diz-jornal-la-nacion",
         "categoria": "Política Nacional",
         "data": "2026-10-25",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/quem-e-alfredo-gaspar-o-candidato-a-vice-de-flavio-que-usou-ligacoes-com-collor-e-calheiro.jpg",
-        "resumo": "Acusado de desviar recursos via emendas PIX e em meio a uma investigação por estupro de menor, promotor foi figura silenciosa durante campanha com Flávio.",
-        "conteudo": "<p>Acompanhe a apuração para presidente e governador em seu Estado e município com o mapa interativo da BBC News Brasil</p><h2>&quot;A pessoa que tem que ser meu vice</h2><p>&quot;A pessoa que tem que ser meu vice não dá a mão para criminoso.&quot; Foi assim que o senador Flávio Bolsonaro (PL) anunciou Alfredo Gaspar , filiado ao seu partido no início deste ano, como companheiro de chapa para a disputa presidencial.</p><p>&quot;Eu sou seu soldado. Estarei como para-choque na retaguarda, sempre leal e pronto para te servir&quot;, respondeu Gaspar, na ocasião.</p><p>Antes de assumir a posição ao lado de Flávio, Gaspar liderava as pesquisas de intenção de voto para uma cadeira no Senado por Alagoas , à frente de Renan Calheiros (MDB).</p><h2>Com uma carreira de promotor de Justiça consolidada</h2><p>Com uma carreira de promotor de Justiça consolidada no estado e com laços familiares com tradicionais políticos locais, ele não era a primeira escolha para compor a chapa bolsonarista, que considerou nomes como o de Tereza Cristina (PP) e Renata Abreu (Podemos), na tentativa de aproximar Flávio do eleitorado feminino.</p><p>Mas a decisão de Valdemar Costa Neto, presidente da legenda, prevaleceu.</p><p>Alfredo Gaspar tem ligações políticas desde antes de se candidatar a cargos públicos.</p><p>Seu pai, Carlos Alberto Pinheiro de Mendonça, foi conselheiro da família Collor de Mello e trabalhou na empresa que ela possuía, as Organizações Arnon de Mello (OAM).</p><p>Quando o ex-presidente Fernando Collor de Mello (1990-1992) disputou o governo de Alagoas, em 2010, pelo PTB, Carlos Alberto foi seu coordenador de campanha.</p><p>Gaspar também herdou ligações com o poder pelo seu casamento com Adriana Andrade, filha de Moacir Lopes de Andrade, ex-governador de Alagoas entre 1989 e 1991, que assumiu o cargo depois que Collor saiu para concorrer ao Planalto, em 1990.</p><p>Advogado, Alfredo Gaspar ingressou no Ministério Público (MP) alagoano em 1996 e atuou em diversas frentes: coordenou o Grupo Estadual de Combate às Organizações Criminosas (GECOC) e foi presidente do Grupo Nacional de Combate às Organizações Criminosas (GNCOC), vinculado ao Conselho Nacional de Procuradores-Gerais de Justiça.</p><p>No GECOC, comandou uma denúncia contra a ex-prefeita da cidade de Piranhas, Mellina Freitas, filha do desembargador Washington Luiz Freitas, acusada de 483 crimes — entre eles, de desviar cerca de R$ 16 milhões em obras públicas.</p><p>O GECOC apontou-a como &quot;chefe de quadrilha&quot;, mas ela não foi presa à época. Pelo contrário: no fim de 2014, o governador eleito, Renan Filho (MDB), nomeou Mellina como secretária de Cultura.</p><p>No mesmo governo, Gaspar assumiu a pasta da Defesa Social, onde ficou até 2016. Três anos depois, quando ela deixou o cargo e perdeu o foro privilegiado, ele, já como procurador-geral do estado, designou o GAECO para retomar a ação anterior.</p><p>Ele também denunciou Marcelo Victor, hoje presidente da Assembleia Legislativa de Alagoas, do MDB, junto com Fernando Toledo, ex-presidente da Casa e atual chefe do Tribunal de Contas do Estado, pela acusação de desviar recursos do Legislativo estadual em 2012.</p><p>O candidato a vice-presidente de Flávio Bolsonaro também disputou a Prefeitura de Maceió pelo MDB, de Renan Calheiros, em 2020.</p><p>Foi o mais votado no primeiro turno, com 110.234 votos (28,87%), mas perdeu o segundo para João Henrique Caldas, à época no PSB. Ele acabou de ser eleito para o governo de Alagoas pelo PSDB).</p><p>Depois disso, tornou-se secretário de Segurança Pública do estado, cargo do qual saiu para lançar sua candidatura a deputado federal, em 2022.</p><p>Eleito naquele pleito, Gaspar ganhou mais protagonismo na Câmara dos Deputados a partir do ano passado, quando assumiu a relatoria da CPMI do INSS.</p>",
-        "fonteNome": "BBC Brasil",
-        "fonteUrl": "https://www.bbc.com/portuguese/articles/c95ynje2z7pzo?at_medium=RSS&at_campaign=rss",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/eventual-vitoria-de-flavio-consolidaria-onda-azul-da-direita-diz-jornal-la-nacion.jpg",
+        "resumo": "Eventual vitória de Flávio consolidaria 'onda azul' da direita, diz jornal La Nación. Registro original em InfoMoney. A Redação Notícia ES reapurou a pauta para a editoria Política Nacional.",
+        "conteudo": "<p>Uma eventual vitória de Flávio Bolsonaro (PL) nas eleições presidenciais do Brasil consolidaria o que alguns, entre eles, o presidente da Argentina, Javier Milei, chamam de uma onda azul de governos de direita na região, escreveu o jornal argentino La Nación.</p><h2>“Será o filho do ex-presidente Jair Bolsonaro, condenado e</h2><p>“Será o filho do ex-presidente Jair Bolsonaro, condenado e preso por tentativa de golpe de Estado, mais um do grupo?</p><p>E, ainda mais importante: implicará a chamada onda azul uma virada de médio ou longo prazo ou, pelo contrário, apenas um movimento do pêndulo latino-americano, que carece da força necessária para perdurar por longos anos?”, questiona a publicação.</p><p>Senador venceu o primeiro turno por 2,2 milhões de votos, mas presidente reduziu a distância nas pesquisas; mobilização, rejeição e disputa pelo centro marcaram a reta final</p><h2>No Brasil do presidente Luiz Inácio Lula da Silva</h2><p>No Brasil do presidente Luiz Inácio Lula da Silva (PT) e Bolsonaro, como nos demais países da região, os partidos políticos desempenham um papel secundário, segundo o jornal.</p><p>“Se Flávio Bolsonaro vencer a eleição, não será por pertencer ao Partido Liberal (PL), mas por ser o candidato anti-Lula”, aponta.</p><p>O La Nación acrescenta que, no Brasil, a campanha careceu de debate programático. “Semana após semana, os candidatos trocaram ataques, denúncias judiciais por suposto conteúdo falso e demonstrações de apoio nas ruas.</p><p>Não se discutiu o que pretendem fazer Lula e Flávio Bolsonaro se ganharem a eleição, o que é ainda mais grave no caso do filho de Jair Bolsonaro, porque nunca ocupou nenhum cargo executivo”, escreveu.</p><p>A publicação destaca ainda que o desgaste de Lula após três mandatos foi o principal fator que levou Flávio Bolsonaro a ser o candidato mais votado no primeiro turno.</p><p>“Claro que os Bolsonaro têm sua base ideológica fiel, mas com essa base não ganhariam uma eleição. Se ganharem, será por serem a opção frente a Lula. E o mesmo vale para o presidente do Brasil.</p><p>Ser o único que pode derrotar um Bolsonaro é o que lhe permite dizer que, sem ele, não haverá democracia no Brasil e estará em jogo a soberania do País”, disse.</p><p>Por sua vez, o jornal Clarín observa que a discussão nestas urnas não é um “básico esquerda ou direita”, mas de capacidades.</p><p>A reportagem aponta que Lula vem de três mandatos, incluindo o atual, e com um desempenho macro eficiente, enquanto Flávio tem buscado se firmar nas questões sociais que são as que, em certa medida, explicam a derrota no primeiro turno do presidente.</p><p>“A questão social desempenha um papel decisivo nesta etapa final”, diz o Clarín, acrescentando que o governo conseguiu reverter, segundo as pesquisas, o golpe inicial da derrota com base em uma ofensiva intensa que incluiu benefícios, como o pagamento do reajuste do Bolsa Família e o fim da escala de trabalho 6×1.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/mundo/eventual-vitoria-de-flavio-consolidaria-onda-azul-da-direita-diz-jornal-la-nacion/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -47,42 +107,90 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Acompanhe a apuração para presidente e governador em seu Estado e município com o mapa interativo da BBC News Brasil"
+            "resposta": "Uma eventual vitória de Flávio Bolsonaro (PL) nas eleições presidenciais do Brasil consolidaria o que alguns, entre eles, o presidente da Argentina, Javier Milei, chamam de uma onda azul de governos de direita na região, escreveu o jornal argentino La Nación."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "&quot;A pessoa que tem que ser meu vice não dá a mão para criminoso.&quot; Foi assim que o senador Flávio Bolsonaro (PL) anunciou Alfredo Gaspar , filiado ao seu partido no início deste ano, como companheiro de chapa para a disputa presidencial."
+            "resposta": "“Será o filho do ex-presidente Jair Bolsonaro, condenado e preso por tentativa de golpe de Estado, mais um do grupo? E, ainda mais importante: implicará a chamada onda azul uma virada de médio ou longo prazo ou, pelo contrário, apenas um movimento do pêndulo latino-americano, que carece da força necessária para perdurar por longos anos?”, questiona a publica"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "&quot;Eu sou seu soldado. Estarei como para-choque na retaguarda, sempre leal e pronto para te servir&quot;, respondeu Gaspar, na ocasião."
+            "resposta": "Senador venceu o primeiro turno por 2,2 milhões de votos, mas presidente reduziu a distância nas pesquisas; mobilização, rejeição e disputa pelo centro marcaram a reta final"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Antes de assumir a posição ao lado de Flávio, Gaspar liderava as pesquisas de intenção de voto para uma cadeira no Senado por Alagoas , à frente de Renan Calheiros (MDB)."
+            "resposta": "No Brasil do presidente Luiz Inácio Lula da Silva (PT) e Bolsonaro, como nos demais países da região, os partidos políticos desempenham um papel secundário, segundo o jornal. “Se Flávio Bolsonaro vencer a eleição, não será por pertencer ao Partido Liberal (PL), mas por ser o candidato anti-Lula”, aponta."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Com uma carreira de promotor de Justiça consolidada no estado e com laços familiares com tradicionais políticos locais, ele não era a primeira escolha para compor a chapa bolsonarista, que considerou nomes como o de Tereza Cristina (PP) e Renata Abreu (Podemos), na tentativa de aproximar Flávio do eleitorado feminino. Mas a decisão de Valdemar Costa Neto, pr"
+            "resposta": "O La Nación acrescenta que, no Brasil, a campanha careceu de debate programático. “Semana após semana, os candidatos trocaram ataques, denúncias judiciais por suposto conteúdo falso e demonstrações de apoio nas ruas. Não se discutiu o que pretendem fazer Lula e Flávio Bolsonaro se ganharem a eleição, o que é ainda mais grave no caso do filho de Jair Bolsonar"
           }
         ],
-        "imagemOriginal": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/38b5/live/78e0f670-cf6d-11f1-a98a-bb970bd2aa12.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/quem-e-alfredo-gaspar-o-candidato-a-vice-de-flavio-que-usou-ligacoes-com-collor-e-calheiro.jpg",
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/10/lulaflavio2_221538.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/eventual-vitoria-de-flavio-consolidaria-onda-azul-da-direita-diz-jornal-la-nacion.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "d4dc9c3be6dc038f",
-      "titulo": "Crânio humano é achado atrás de igreja no Lago Norte e PCDF investiga",
-      "categoria": "Fé e Sociedade",
+      "id": "6c724fab4e51f660",
+      "titulo": "Daniella Marques: ‘mais de 70% das mulheres querem ser donas do próprio negócio’",
+      "categoria": "Economia",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/distrito-federal/na-mira/cranio-humano-e-achado-atras-de-igreja-no-lago-norte-e-pcdf-investiga",
-      "dataFonte": "2026-10-25T11:15:09.000Z",
-      "resumoFonte": "O crânio será submetido a exames periciais para tentar identificar a vítima e as possíveis circunstâncias da morte",
-      "imagem": "https://i.metroimg.com/0N2fnTjEknjbBkBd1A28BRJEZTlzBFPbOyYZK-JpywQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2024/11/20072952/Sirene-de-policia-2.jpg",
-      "descobertaEm": "2026-10-25T11:18:09.220Z"
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/politica/daniella-marques-mais-de-70-das-mulheres-querem-ser-donas-do-proprio-negocio/",
+      "dataFonte": "2026-10-25T12:29:00.000Z",
+      "resumoFonte": "A coordenadora econômica da campanha de Flávio Bolsonaro (PL), a ex-presidente da Caixa, Daniella Marques. Foto: Felipe Araújo / Divulgação \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/08/daniella-marques.webp?fit=1200%2C675&quality=70&strip=all\" />A declaração foi feita em vídeo publicado nas redes sociais na noite deste…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/08/daniella-marques.webp",
+      "descobertaEm": "2026-10-25T13:18:00.984Z",
+      "reportagem": {
+        "titulo": "Daniella Marques: 'mais de 70% das mulheres querem ser donas do próprio negócio'",
+        "slug": "daniella-marques-mais-de-70-das-mulheres-querem-ser-donas-do-proprio-negocio",
+        "categoria": "Economia",
+        "data": "2026-10-25",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/daniella-marques-mais-de-70-das-mulheres-querem-ser-donas-do-proprio-negocio.jpg",
+        "resumo": "A declaração foi feita em vídeo publicado nas redes sociais na noite deste sábado, 24, em que a economista apresentou propostas do plano de governo do candidato voltadas ao público feminino",
+        "conteudo": "<p>A coordenadora econômica da campanha de Flávio Bolsonaro (PL), Daniella Marques, afirmou que mais de 70% das mulheres consultadas durante sua passagem pela Caixa Econômica Federal disseram ter o sonho de abrir o próprio negócio.</p><h2>Declaração foi feita em vídeo publicado nas redes sociais</h2><p>A declaração foi feita em vídeo publicado nas redes sociais na noite deste sábado, 24, em que a economista apresentou propostas do plano de governo do candidato voltadas ao público feminino.</p><p>“Quando perguntamos a essas mulheres qual era o sonho delas, mais de 70% responderam: ‘quero ser dona do meu negócio, quero ser dona do meu nariz’. Elas não queriam pena, elas queriam oportunidade”, afirmou.</p><p>Senador venceu o primeiro turno por 2,2 milhões de votos, mas presidente reduziu a distância nas pesquisas; mobilização, rejeição e disputa pelo centro marcaram a reta final</p><h2>No vídeo, Daniella também disse estar preparada para integrar</h2><p>No vídeo, Daniella também disse estar preparada para integrar o eventual governo Flávio Bolsonaro e fez críticas ao presidente Luiz Inácio Lula da Silva (PT).</p><p>Informações, análises e recomendações que valem dinheiro</p><p>A economista também rechaçou críticas à sua atuação na campanha e afirmou que tem sido alvo de tentativas de desqualificação.</p><p>“Fui reduzida ao rótulo de mulher da economia e comparada a outra profissional simplesmente porque somos mulheres ocupando espaço na área econômica”, declarou.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/politica/daniella-marques-mais-de-70-das-mulheres-querem-ser-donas-do-proprio-negocio/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A coordenadora econômica da campanha de Flávio Bolsonaro (PL), Daniella Marques, afirmou que mais de 70% das mulheres consultadas durante sua passagem pela Caixa Econômica Federal disseram ter o sonho de abrir o próprio negócio. A declaração foi feita em vídeo publicado nas redes sociais na noite deste sábado, 24, em que a economista apresentou propostas do "
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "“Quando perguntamos a essas mulheres qual era o sonho delas, mais de 70% responderam: ‘quero ser dona do meu negócio, quero ser dona do meu nariz’. Elas não queriam pena, elas queriam oportunidade”, afirmou."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Senador venceu o primeiro turno por 2,2 milhões de votos, mas presidente reduziu a distância nas pesquisas; mobilização, rejeição e disputa pelo centro marcaram a reta final"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "No vídeo, Daniella também disse estar preparada para integrar o eventual governo Flávio Bolsonaro e fez críticas ao presidente Luiz Inácio Lula da Silva (PT)."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Informações, análises e recomendações que valem dinheiro"
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/08/daniella-marques.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/daniella-marques-mais-de-70-das-mulheres-querem-ser-donas-do-proprio-negocio.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
       "id": "9754f5e9b69d511d",
@@ -145,158 +253,98 @@
       }
     },
     {
-      "id": "cd82286eea9ef660",
-      "titulo": "Votação no exterior: quem ganhou no Japão no 2º turno das eleições 2026?",
-      "categoria": "Justiça",
+      "id": "3266a54f9a015b23",
+      "titulo": "Katy Perry faz 42 anos: relembre as cinco passagens da cantora pelo Brasil",
+      "categoria": "Cultura",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/mundo/noticia/2026/10/25/eleicoes-2026-quem-ganhou-no-japao.ghtml",
-      "dataFonte": "2026-10-25T11:14:46.000Z",
-      "resumoFonte": "O candidato à Presidência Flávio Bolsonaro (PL) venceu o presidente Luiz Inácio Lula da Silva (PT) no Japão, segundo boletins de urna disponibilizados pelo Tribunal Superior Eleitoral (TSE) neste domingo (25), dia do segundo turno das eleições 2026. 📱Favorite o g1 no Google e acompanhe as principais notícias do dia AO VIVO: Acompanhe a apuração…",
-      "imagem": "https://s2-g1.glbimg.com/LP9U1AHWE49Kk31L6xtGnFoWOko=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/E/l/Qaq4thRXeSt87QfbNl1g/flavio-e-lula-fotos.jpg",
-      "descobertaEm": "2026-10-25T12:18:07.598Z"
-    },
-    {
-      "id": "fa61c83e316c71f4",
-      "titulo": "Eleições em SP: veja locais de votação que mudaram, horários, documentos necessários e como justificar ausência",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/10/25/eleicoes-em-sp-veja-locais-de-votacao-que-mudaram-horarios-documentos-necessarios-e-como-justificar-ausencia.ghtml",
-      "dataFonte": "2026-10-25T11:18:48.000Z",
-      "resumoFonte": "Votação na 6ª Zona Eleitoral (ZE), no bairro Paraíso, na Zona Sul da capital Paulo Pinto/Agência Brasil A votação do segundo turno das eleições de 2026 acontece neste domingo (25), das 8h às 17h, em todo o estado de São Paulo. Mais de 34,1 milhões de eleitores paulistas estão aptos a participar da escolha do próximo presidente da República, na…",
-      "imagem": "https://s2-g1.glbimg.com/gbx6lZSeCFmXr7YdpiHyc_-aD4E=/1170x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/x/gewSyBTBGXLwt5NNBewg/pin5468.jpg-3.jpg",
-      "descobertaEm": "2026-10-25T12:18:07.598Z",
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/pop/celebridades/katy-perry-faz-42-anos-relembre-as-cinco-passagens-da-cantora-pelo-brasil/",
+      "dataFonte": "2026-10-25T13:00:40.000Z",
+      "resumoFonte": "Cantora norte-americana é veterana como atração principal do Rock in Rio e teve um dos shows mais comentados da última edição do The Town",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/katy-perry-rock-in-rio_2015.webp?w=1199&h=630&crop=1",
+      "descobertaEm": "2026-10-25T13:18:00.984Z",
       "reportagem": {
-        "titulo": "Eleições em SP: veja locais de votação que mudaram, horários, documentos necessários e como justificar ausência | G1",
-        "slug": "eleicoes-em-sp-veja-locais-de-votacao-que-mudaram-horarios-documentos-necessarios-e-como-j",
-        "categoria": "Política Nacional",
+        "titulo": "Katy Perry faz 42 anos: relembre as cinco passagens da cantora pelo Brasil",
+        "slug": "katy-perry-faz-42-anos-relembre-as-cinco-passagens-da-cantora-pelo-brasil",
+        "categoria": "Cultura",
         "data": "2026-10-25",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/eleicoes-em-sp-veja-locais-de-votacao-que-mudaram-horarios-documentos-necessarios-e-como-j.jpg",
-        "resumo": "Mais de 12 mil eleitores tiveram locais de votação alterados na capital e no interior. Votação ocorre das 8h às 17h; quem não compareceu ao primeiro turno pode votar normalmente neste domingo (25).",
-        "conteudo": "<p>Votação na 6ª Zona Eleitoral (ZE), no bairro Paraíso, na Zona Sul da capital — Foto: Paulo Pinto/Agência Brasil</p><h2>Votação do segundo turno das eleições de 2026 acontece</h2><p>A votação do segundo turno das eleições de 2026 acontece neste domingo (25), das 8h às 17h, em todo o estado de São Paulo.</p><p>Mais de 34,1 milhões de eleitores paulistas estão aptos a participar da escolha do próximo presidente da República, na disputa entre Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL).</p><p>Na capital e em três cidades do interior, 12.110 eleitores tiveram seus locais de votação alterados em relação ao primeiro turno , realizado em 4 de outubro. As mudanças atingem 39 seções eleitorais em São Paulo, Presidente Prudente, Ibitinga e São João da Boa Vista.</p><h2>Alterações ocorreram devido a danos provocados por chuvas e</h2><p>Segundo o Tribunal Regional Eleitoral de São Paulo (TRE-SP), as alterações ocorreram devido a danos provocados por chuvas e ventos fortes, além de problemas estruturais e reformas em prédios que abrigavam seções eleitorais.</p><p>Neste domingo, mais um local de votação foi alterado na cidade de Itapevi, após chuva forte provocar alagamento no acesso a escola.</p><p>Nos demais locais, a votação será realizada nos mesmos endereços do primeiro turno. A Justiça Eleitoral recomenda que todos os eleitores consultem antecipadamente o endereço, a zona e a seção eleitoral para evitar transtornos.</p><p>O eleitor que não compareceu ao primeiro turno pode votar normalmente neste domingo. Isso porque cada turno é considerado uma eleição independente pela Justiça Eleitoral.</p><p>Veja abaixo as principais orientações para votar em São Paulo.</p><p>A mudança afeta 4.649 eleitores de 12 seções eleitorais: 185, 186, 187, 188, 189, 190, 239, 257, 306, 339, 420 e 432.</p><p>Recanto Nossa Senhora de Lourdes — Avenida Luís Carlos Gentile, 1736, Vila Rosa.</p><p>Escola Estadual Conselheiro Ruy Barbosa — Rua Professor Antônio Castelar de Franceschi, 200, Horto Florestal.</p><p>A mudança afeta 748 eleitores de 4 seções eleitorais: 357, 366, 384 e 395.</p><p>CEI Indir Jabaquara — Praça Whitaker Penteado, 290, Vila Guarani.</p><p>EMEI Profª Lourdes Herédia de Mello — Praça Whitaker Penteado, 264, Vila Guarani.</p><p>A alteração foi feita por conta de problemas estruturais no antigo local de votação, segundo o TRE-SP.</p><p>A mudança afeta eleitores de duas seções eleitorais: 439 e 474.</p>",
-        "fonteNome": "g1 - Política",
-        "fonteUrl": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/10/25/eleicoes-em-sp-veja-locais-de-votacao-que-mudaram-horarios-documentos-necessarios-e-como-justificar-ausencia.ghtml",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/katy-perry-faz-42-anos-relembre-as-cinco-passagens-da-cantora-pelo-brasil.jpg",
+        "resumo": "Cantora norte-americana é veterana como atração principal do Rock in Rio e teve um dos shows mais comentados da última edição do The Town",
+        "conteudo": "<p>A cantora Katy Perry está completando 42 anos neste domingo (25). Abertamente fã do Brasil, a cantora já visitou o país latino cinco vezes ao longo de sua carreira.</p><h2>Ainda que sua primeira vinda a São Paulo tenha</h2><p>Ainda que sua primeira vinda a São Paulo tenha sido marcada pelo divórcio de seu antigo marido, ator Russell Brand, a norte-americana nunca escondeu o apreço pelos fãs brasileiros e a vontade de performar diversas vezes pelo país.</p><p>Até o momento, sua última apresentação no Brasil foi em 2025 para a segunda edição do festival paulista &quot;The Town&quot;, e Katy não deu indícios recentes de uma nova viagem ao território brasileiro.</p><p>Ao longo de 2026, ela finalizou sua jornada internacional, passando por diversos locais da Europa com a &quot;The Lifetimes Tour&quot;.</p><h2>Para celebrar o aniversário da diva pop, a CNN</h2><p>Para celebrar o aniversário da diva pop, a CNN Brasil relembra abaixo as cinco passagens da norte-americana pelo Brasil. Confira;</p><p>A primeira passagem de Katy pelo Brasil aconteceu em meados de 2011 com a &quot;California Dreams Tour&quot;.</p><p>Na ocasião, horas antes dela subir ao palco em São Paulo, a artista foi surpreendida pelo então marido, o comediante e ator Russell Brand, com um pedido de divórcio por mensagem de texto.</p><p>Além de se apresentar com a turnê solo em São Paulo, a cantora também foi uma das principais atrações do Rock in Rio daquele ano.</p><p>Já em 2015, ela retornou ao mesmo festival e trouxe em sua setlist hits do álbum &quot;Prism&quot;, como &quot;Legendary Lovers&quot; e &quot;This Is How We Do&quot;.</p><p>Grandes sucessos, trocas de figurinos e um encerramento com &quot;Firework&quot; também marcaram a sua apresentação, que ainda contou com uma fã no palco e alguns aprendizados em português.</p><p>Três anos mais tarde, a cantora retornou ao país latino com a &quot;Witness: The Tour&quot; e visitou três cidades: Porto Alegre, São Paulo e Rio de Janeiro.</p><p>Causando alvoroço entre os fãs, no show da capital paulista, Katy trouxe Gretchen ao palco e elas dançaram juntas &quot;Swish Swish&quot;.</p><p>Assim como boa parte de suas visitas, o palco massivo e o show de luzes foram destaque na apresentação.</p><p>Para essa ocasião, ela trouxe um telão gigante em formato de olho, assim como na capa do álbum &quot;Witness&quot;, que se abriu após a abertura, na qual ela surgiu em cima de uma estrela.</p><p>Vista como uma das visitas mais emblemáticas da artista ao Brasil, em 2024, ela se apresentou pela terceira vez no Rock in Rio.</p><p>Com direito a muitas surpresas, a artista anunciou seu novo álbum &quot;143&quot;, cantou algumas de suas músicas mais conhecidas, dançou ao lado de um fã e convidou de volta para o palco a cantora Cyndi Lauper.</p><p>Depois de confessar o quão ansiosa estava para este show, Katy entrou no palco suspensa por uma borboleta gigante, enquanto cantava &quot;Woman's World&quot;, single de seu novo trabalho.</p><p>Assim como em ocasiões anteriores, Katy encerrou a apresentação performando o clássico &quot;Fireworks&quot;.</p><p>A última passagem da norte-americana pelo Brasil foi em 2025 como headliner do The Town, festival de música realizado bienalmente em São Paulo . Posteriormente, ela ainda anunciou que faria três shows pela &quot;The Lifetimes Tour&quot; — em Curitiba, Brasília e São Paulo.</p><p>“Quando digo que vou ao Brasil, não estou falando só do Rio e de São Paulo! Mal posso esperar para ver vocês em breve na &quot;The Lifetimes Tour&quot;, Brasília e Curitiba! Vai ser uma festa!”, comentou Katy em comunicado antigo divulgado pela Livepass.</p><p>*Com informações de Ana Beatriz Dias, da CNN Brasil. Sob supervisão de Flávio Ismerim, da CNN Brasil</p><p>A cantora Katy Perry está completando 42 anos neste domingo (25). Abertamente fã do Brasil, a cantora já visitou o país latino cinco vezes ao longo de sua carreira.</p><p>Ainda que sua primeira vinda a São Paulo tenha sido marcada pelo divórcio de seu antigo marido, ator Russell Brand, a norte-americana nunca escondeu o apreço pelos fãs brasileiros e a vontade de performar diversas vezes pelo país.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/pop/celebridades/katy-perry-faz-42-anos-relembre-as-cinco-passagens-da-cantora-pelo-brasil/",
         "fontesAdicionais": [
           {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
           },
           {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Votação na 6ª Zona Eleitoral (ZE), no bairro Paraíso, na Zona Sul da capital — Foto: Paulo Pinto/Agência Brasil"
+            "resposta": "A cantora Katy Perry está completando 42 anos neste domingo (25). Abertamente fã do Brasil, a cantora já visitou o país latino cinco vezes ao longo de sua carreira."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A votação do segundo turno das eleições de 2026 acontece neste domingo (25), das 8h às 17h, em todo o estado de São Paulo. Mais de 34,1 milhões de eleitores paulistas estão aptos a participar da escolha do próximo presidente da República, na disputa entre Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL)."
+            "resposta": "Ainda que sua primeira vinda a São Paulo tenha sido marcada pelo divórcio de seu antigo marido, ator Russell Brand, a norte-americana nunca escondeu o apreço pelos fãs brasileiros e a vontade de performar diversas vezes pelo país."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na capital e em três cidades do interior, 12.110 eleitores tiveram seus locais de votação alterados em relação ao primeiro turno , realizado em 4 de outubro. As mudanças atingem 39 seções eleitorais em São Paulo, Presidente Prudente, Ibitinga e São João da Boa Vista."
+            "resposta": "Até o momento, sua última apresentação no Brasil foi em 2025 para a segunda edição do festival paulista &quot;The Town&quot;, e Katy não deu indícios recentes de uma nova viagem ao território brasileiro. Ao longo de 2026, ela finalizou sua jornada internacional, passando por diversos locais da Europa com a &quot;The Lifetimes Tour&quot;."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Segundo o Tribunal Regional Eleitoral de São Paulo (TRE-SP), as alterações ocorreram devido a danos provocados por chuvas e ventos fortes, além de problemas estruturais e reformas em prédios que abrigavam seções eleitorais."
+            "resposta": "Para celebrar o aniversário da diva pop, a CNN Brasil relembra abaixo as cinco passagens da norte-americana pelo Brasil. Confira;"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Neste domingo, mais um local de votação foi alterado na cidade de Itapevi, após chuva forte provocar alagamento no acesso a escola."
+            "resposta": "A primeira passagem de Katy pelo Brasil aconteceu em meados de 2011 com a &quot;California Dreams Tour&quot;. Na ocasião, horas antes dela subir ao palco em São Paulo, a artista foi surpreendida pelo então marido, o comediante e ator Russell Brand, com um pedido de divórcio por mensagem de texto."
           }
         ],
-        "imagemOriginal": "https://s2-g1.glbimg.com/gbx6lZSeCFmXr7YdpiHyc_-aD4E=/1170x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/x/gewSyBTBGXLwt5NNBewg/pin5468.jpg-3.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/eleicoes-em-sp-veja-locais-de-votacao-que-mudaram-horarios-documentos-necessarios-e-como-j.jpg",
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/katy-perry-rock-in-rio_2015.webp?w=1199&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/katy-perry-faz-42-anos-relembre-as-cinco-passagens-da-cantora-pelo-brasil.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "c112d67ced13ecce",
-      "titulo": "Voto branco e nulo já mudou o resultado de uma eleição presidencial?",
-      "categoria": "Política Nacional",
+      "id": "ffa44d93860e5fda",
+      "titulo": "Apuração no Exterior: Flávio larga na frente de Lula na Ásia, mas vantagem diminui",
+      "categoria": "Tecnologia",
       "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/politica/voto-branco-e-nulo-ja-mudou-o-resultado-de-uma-eleicao-presidencial/",
-      "dataFonte": "2026-10-25T11:00:00.000Z",
-      "resumoFonte": "Brancos e nulos não são atribuídos a candidatos e ficam fora do cálculo que define a maioria dos votos válidos",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/04/turna.jpg?w=1000&h=630&crop=1",
-      "descobertaEm": "2026-10-25T11:18:09.220Z",
-      "reportagem": {
-        "titulo": "Voto branco e nulo já mudou o resultado de uma eleição presidencial? | Jovem Pan",
-        "slug": "voto-branco-e-nulo-ja-mudou-o-resultado-de-uma-eleicao-presidencial-jovem-pan",
-        "categoria": "Política Nacional",
-        "data": "2026-10-25",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/voto-branco-e-nulo-ja-mudou-o-resultado-de-uma-eleicao-presidencial-jovem-pan.jpg",
-        "resumo": "Brancos e nulos não são atribuídos a candidatos e ficam fora do cálculo que define a maioria dos votos válidos",
-        "conteudo": "<p>Votos brancos e nulos não são transferidos para nenhum candidato e, por isso, não podem diretamente dar a vitória a uma candidatura.</p><h2>Constituição estabelece que o presidente é escolhido pela maioria</h2><p>A Constituição estabelece que o presidente é escolhido pela maioria dos votos válidos, excluídos os brancos e nulos.</p><p>Na prática, quanto maior a quantidade de votos inválidos, menor é o número absoluto de votos válidos usado como base para o cálculo da maioria.</p><p>Isso não significa, porém, que brancos ou nulos sejam somados ao candidato mais votado. Eles aparecem separadamente na totalização da Justiça Eleitoral.</p><h2>No primeiro turno de 2026, houve 2</h2><p>No primeiro turno de 2026, houve 2.300.798 votos brancos e 3.674.249 nulos. Os 119.300.788 votos válidos foram os considerados para calcular os percentuais dos candidatos.</p><p>Brancos e nulos não são atribuídos a candidatos e ficam fora do cálculo que define a maioria dos votos válidos</p><p>Como votar no segundo turno: guia rápido para usar a urna eletrônica</p><p>Quantidade de escolhas varia por local; em estados com disputa estadual, governador aparece antes de presidente</p><p>Flávio lidera votação no exterior, mas Lula vence em mais países; veja números</p><p>Como funciona a transição entre um presidente e outro</p><p>Quem são os vices de Lula e Flávio Bolsonaro e o que eles acrescentam às chapas?</p><p>Quais municípios deram os maiores percentuais a Flávio Bolsonaro no primeiro turno</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/politica/voto-branco-e-nulo-ja-mudou-o-resultado-de-uma-eleicao-presidencial/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Votos brancos e nulos não são transferidos para nenhum candidato e, por isso, não podem diretamente dar a vitória a uma candidatura."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A Constituição estabelece que o presidente é escolhido pela maioria dos votos válidos, excluídos os brancos e nulos."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na prática, quanto maior a quantidade de votos inválidos, menor é o número absoluto de votos válidos usado como base para o cálculo da maioria."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Isso não significa, porém, que brancos ou nulos sejam somados ao candidato mais votado. Eles aparecem separadamente na totalização da Justiça Eleitoral."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "No primeiro turno de 2026, houve 2.300.798 votos brancos e 3.674.249 nulos. Os 119.300.788 votos válidos foram os considerados para calcular os percentuais dos candidatos."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/04/turna.jpg?w=1000&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/voto-branco-e-nulo-ja-mudou-o-resultado-de-uma-eleicao-presidencial-jovem-pan.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/politica/apuracao-no-exterior-flavio-larga-na-frente-de-lula-na-asia-mas-vantagem-diminui/",
+      "dataFonte": "2026-10-25T12:28:57.000Z",
+      "resumoFonte": "https://www.infomoney.com.br/wp-content/uploads/2026/09/cropped-eleicoes-mercados-urna-grafico.jpg \" data-image-caption=\" Amanda Garcia/Imagem gerada com auxílio de IA \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/09/cropped-eleicoes-mercados-urna-grafico.jpg?fit=640%2C853&quality=70&strip=all\" />Dados são obtidos a partir…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/09/cropped-eleicoes-mercados-urna-grafico.jpg",
+      "descobertaEm": "2026-10-25T13:18:00.984Z"
     },
     {
-      "id": "8fadcc4bbe7c0183",
-      "titulo": "TSE retira do ar vídeo de presos com camisetas do PT",
+      "id": "3a846ffe0ca2772f",
+      "titulo": "Votação no exterior: veja resultados parciais do 2º turno",
       "categoria": "Justiça",
       "radar": null,
       "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/tse-retira-do-ar-video-de-presos-com-camisetas-do-pt/",
-      "dataFonte": "2026-10-25T11:56:47.000Z",
-      "resumoFonte": "A ministra Estela Aranha, do Tribunal Superior Eleitoral (TSE) , determinou a retirada de cinco publicações que exibiam três jovens detidos em Piracicaba (SP) com camisetas que faziam referência ao presidente e candidato à reeleição, Luiz Inácio Lula da Silva. A decisão, divulgada na sexta-feira 23, atingiu postagens dos senadores eleitos Guilherme…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/tse-retira-do-ar-video-de-presos-com-camisetas-do-pt.jpg.webp",
-      "descobertaEm": "2026-10-25T12:18:07.598Z",
+      "urlFonte": "https://revistaoeste.com/politica/votacao-no-exterior-veja-resultados-parciais-do-2o-turno/",
+      "dataFonte": "2026-10-25T13:19:31.000Z",
+      "resumoFonte": "Flávio Bolsonaro (PL) venceu em seis países, e Luiz Inácio Lula da Silva (PT), em cinco, segundo os primeiros boletins de urna parciais do segundo turno das eleições presidenciais de 2026 no exterior, divulgados até as 9h deste domingo, 25. Os documentos publicados pelo Tribunal Superior Eleitoral (TSE) registram os votos contabilizados em cada…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/07/lula-x-flavio.jpg.webp",
+      "descobertaEm": "2026-10-25T13:18:00.984Z",
       "reportagem": {
-        "titulo": "TSE retira do ar vídeo de presos com camisetas do PT",
-        "slug": "tse-retira-do-ar-video-de-presos-com-camisetas-do-pt",
+        "titulo": "Votação no exterior: veja resultados parciais do 2º turno",
+        "slug": "votacao-no-exterior-veja-resultados-parciais-do-2-turno",
         "categoria": "Justiça",
         "data": "2026-10-25",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/tse-retira-do-ar-video-de-presos-com-camisetas-do-pt.jpg",
-        "resumo": "Ministra Estela Aranha determinou a remoção de cinco publicações que associavam suspeitos de tráfico a Lula; denúncia contra policiais segue sob investigação",
-        "conteudo": "<p>A ministra Estela Aranha, do TSE, determinou a remoção de cinco publicações que mostravam três jovens detidos em Piracicaba (SP) com camisetas em apoio ao presidente Luiz Inácio Lula da Silva.</p><h2>Decisão, divulgada na sexta-feira 23, foi baseada na falta</h2><p>A decisão, divulgada na sexta-feira 23, foi baseada na falta de provas que ligassem Lula e o PT aos crimes investigados, considerando que a presença dos jovens com as camisetas não comprova vínculo com atividades criminosas.</p><p>A ministra Estela Aranha, do Tribunal Superior Eleitoral (TSE) , determinou a retirada de cinco publicações que exibiam três jovens detidos em Piracicaba (SP) com camisetas que faziam referência ao presidente e candidato à reeleição, Luiz Inácio Lula da Silva.</p><p>A decisão, divulgada na sexta-feira 23, atingiu postagens dos senadores eleitos Guilherme Derrite (PP-SP) e Carlos Jordy (PL-RJ), além de uma publicação no canal de WhatsApp “Tropa do Flávio”.</p><h2>Ministra entendeu que as imagens não apresentam provas suficientes</h2><p>A ministra entendeu que as imagens não apresentam provas suficientes para associar Lula e o PT aos crimes investigados.</p><p>Segundo a decisão, a presença de suspeitos de envolvimento em atividades criminosas com camisetas de apoio a um candidato não comprova vínculo entre os detidos, o partido e os delitos.</p><p>A magistrada também considerou que as publicações ultrapassam os limites da crítica político-eleitoral quando associam os suspeitos ao presidente e ao partido sem apresentar elementos objetivos que sustentem essa relação. Os autores já excluíram as publicações.</p><p>A Polícia Militar deteve dois homens adultos e apreendeu um adolescente durante uma operação contra o tráfico de drogas na comunidade Pantanal, em Piracicaba, na quarta-feira 21.</p><p>Segundo a Secretaria da Segurança Pública de São Paulo (SSP) , os policiais apreenderam 160 invólucros de cocaína, um revólver e dinheiro.</p><p>Imagens dos suspeitos com camisetas que faziam referência a Lula circularam nas redes sociais. Ao comentar a ocorrência, Guilherme Derrite defendeu leis mais duras e a redução da maioridade penal.</p><p>A mãe do adolescente, porém, afirmou que o filho foi obrigado a vestir a camiseta. Segundo ela, o jovem saiu de casa usando uma regata azul, e não a peça que aparece nas imagens.</p><p>Ela também declarou que o filho saiu de casa, na noite de terça-feira 20, para buscar drogas para consumo próprio.</p><p>A denúncia levantou questionamentos sobre a conduta dos policiais que participaram da ocorrência. A SSP informou que abriu uma investigação preliminar para apurar o relato. A pasta declarou que não compactua com desvios de conduta e que pune os casos comprovados.</p><p>A decisão do TSE trata da divulgação das publicações, mas não estabelece se os policiais obrigaram os jovens a vestir as camisetas. A investigação sobre a atuação dos agentes segue em andamento.</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/votacao-no-exterior-veja-resultados-parciais-do-2-turno.jpg",
+        "resumo": "Brasileiros votam em 186 cidades fora do país; boletins de urna permitem consultar a contagem por seção antes da divulgação do resultado consolidado",
+        "conteudo": "<p>Flávio Bolsonaro (PL) lidera em seis países e Luiz Inácio Lula da Silva (PT) em cinco, conforme os primeiros boletins parciais do segundo turno das eleições presidenciais de 2026 no exterior, divulgados até as 9h do deste domingo, 25.</p><h2>Lula obteve mais votos na Austrália, China, Coreia</h2><p>Lula obteve mais votos na Austrália, China, Coreia do Sul, Nova Zelândia e Singapura, enquanto Flávio venceu no Japão, Filipinas, Indonésia, Malásia, Tailândia e Taiwan.</p><p>Flávio Bolsonaro (PL) venceu em seis países, e Luiz Inácio Lula da Silva (PT), em cinco, segundo os primeiros boletins de urna parciais do segundo turno das eleições presidenciais de 2026 no exterior, divulgados até as 9h deste domingo, 25.</p><p>Os documentos publicados pelo Tribunal Superior Eleitoral (TSE) registram os votos contabilizados em cada seção eleitoral.</p><h2>Lula recebeu mais votos na Austrália, na China,</h2><p>Lula recebeu mais votos na Austrália, na China, na Coreia do Sul, na Nova Zelândia e em Singapura. Flávio ficou à frente no Japão, nas Filipinas, na Indonésia, na Malásia, na Tailândia e em Taiwan.</p><p>Os resultados correspondem aos boletins disponíveis até o horário de referência e podem mudar com a inclusão de novos dados.</p><p>Cerca de 920 mil brasileiros estão aptos a votar no exterior, onde a escolha se restringe aos cargos de presidente e vice-presidente da República. A votação ocorre em 186 localidades, segundo o TSE.</p><p>No Japão, Flávio recebeu cerca de 28,5 mil votos, contra 7,1 mil de Lula. Na Austrália, o resultado foi de aproximadamente 6 mil votos para o petista e 3,5 mil para o senador.</p><p>Já na Nova Zelândia, Lula somou cerca de 420 votos, enquanto Flávio recebeu 100. Na Coreia do Sul, o presidente teve aproximadamente 150 votos, ante 80 do candidato do PL.</p><p>Em Singapura, Lula contabilizou cerca de 210 votos, contra 120 de Flávio. Na China, o petista recebeu aproximadamente 500 votos, enquanto o senador teve 270.</p><p>Nas Filipinas, Flávio somou cerca de 40 votos, e Lula, 30. Na Malásia, o senador recebeu 44 votos, contra 41 do presidente. Na Indonésia, Flávio teve 23 votos, enquanto Lula recebeu 15.</p><p>Em Taiwan, Flávio contabilizou cerca de 130 votos, ante 90 de Lula. Na Tailândia, o resultado parcial foi de 60 votos para o senador e 56 para o presidente. Em Hong Kong, Flávio recebeu 133 votos, enquanto Lula somou 127.</p><p>Os números foram arredondados para facilitar a leitura. Hong Kong aparece separadamente por ser uma região administrativa especial da China, e não um país independente.</p><p>O boletim de urna é emitido ao fim da votação em cada seção eleitoral e registra a quantidade de votos recebidos pelos candidatos. O documento permite conferir os resultados daquela urna individualmente.</p><p>A diferença de fuso horário faz com que a votação termine antes em localidades da Ásia e da Oceania. Assim, os boletins dessas seções podem ficar disponíveis enquanto brasileiros de outros países ainda votam.</p><p>A divulgação dos documentos não equivale à totalização oficial da eleição. O TSE reúne os dados das urnas do Brasil e do exterior para consolidar o resultado nacional. A consulta pode ser feita no portal oficial de resultados da Justiça Eleitoral .</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p><p>Porque não colocaram as apuração fechada do Japão? Pela grandeza do número muda completamente o entendimento!! “Militância!?!?!”</p>",
         "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/tse-retira-do-ar-video-de-presos-com-camisetas-do-pt/",
+        "fonteUrl": "https://revistaoeste.com/politica/votacao-no-exterior-veja-resultados-parciais-do-2o-turno/",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -311,237 +359,645 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "A ministra Estela Aranha, do TSE, determinou a remoção de cinco publicações que mostravam três jovens detidos em Piracicaba (SP) com camisetas em apoio ao presidente Luiz Inácio Lula da Silva. A decisão, divulgada na sexta-feira 23, foi baseada na falta de provas que ligassem Lula e o PT aos crimes investigados, considerando que a presença dos jovens com as "
+            "resposta": "Flávio Bolsonaro (PL) lidera em seis países e Luiz Inácio Lula da Silva (PT) em cinco, conforme os primeiros boletins parciais do segundo turno das eleições presidenciais de 2026 no exterior, divulgados até as 9h do deste domingo, 25. Lula obteve mais votos na Austrália, China, Coreia do Sul, Nova Zelândia e Singapura, enquanto Flávio venceu no Japão, Filipi"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A ministra Estela Aranha, do Tribunal Superior Eleitoral (TSE) , determinou a retirada de cinco publicações que exibiam três jovens detidos em Piracicaba (SP) com camisetas que faziam referência ao presidente e candidato à reeleição, Luiz Inácio Lula da Silva."
+            "resposta": "Flávio Bolsonaro (PL) venceu em seis países, e Luiz Inácio Lula da Silva (PT), em cinco, segundo os primeiros boletins de urna parciais do segundo turno das eleições presidenciais de 2026 no exterior, divulgados até as 9h deste domingo, 25. Os documentos publicados pelo Tribunal Superior Eleitoral (TSE) registram os votos contabilizados em cada seção eleitor"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A decisão, divulgada na sexta-feira 23, atingiu postagens dos senadores eleitos Guilherme Derrite (PP-SP) e Carlos Jordy (PL-RJ), além de uma publicação no canal de WhatsApp “Tropa do Flávio”."
+            "resposta": "Lula recebeu mais votos na Austrália, na China, na Coreia do Sul, na Nova Zelândia e em Singapura. Flávio ficou à frente no Japão, nas Filipinas, na Indonésia, na Malásia, na Tailândia e em Taiwan. Os resultados correspondem aos boletins disponíveis até o horário de referência e podem mudar com a inclusão de novos dados."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A ministra entendeu que as imagens não apresentam provas suficientes para associar Lula e o PT aos crimes investigados. Segundo a decisão, a presença de suspeitos de envolvimento em atividades criminosas com camisetas de apoio a um candidato não comprova vínculo entre os detidos, o partido e os delitos."
+            "resposta": "Cerca de 920 mil brasileiros estão aptos a votar no exterior, onde a escolha se restringe aos cargos de presidente e vice-presidente da República. A votação ocorre em 186 localidades, segundo o TSE."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A magistrada também considerou que as publicações ultrapassam os limites da crítica político-eleitoral quando associam os suspeitos ao presidente e ao partido sem apresentar elementos objetivos que sustentem essa relação. Os autores já excluíram as publicações."
+            "resposta": "No Japão, Flávio recebeu cerca de 28,5 mil votos, contra 7,1 mil de Lula. Na Austrália, o resultado foi de aproximadamente 6 mil votos para o petista e 3,5 mil para o senador."
           }
         ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/tse-retira-do-ar-video-de-presos-com-camisetas-do-pt.jpg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/tse-retira-do-ar-video-de-presos-com-camisetas-do-pt.jpg",
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/07/lula-x-flavio.jpg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/votacao-no-exterior-veja-resultados-parciais-do-2-turno.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "45807984403c86c6",
-      "titulo": "TSE realiza teste de integridade das urnas eletrônicas para o 2° turno",
-      "categoria": "Justiça",
+      "id": "5daeb2ab4805789d",
+      "titulo": "Ricardo Ferraço vota em Vitória e diz confiar em virada no 2º turno",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "A Gazeta - Política",
+      "urlFonte": "https://www.agazeta.com.br/es/politica/ricardo-ferraco-vota-em-vitoria-e-diz-acreditar-em-virada-neste-2-turno-1026",
+      "dataFonte": "2026-10-25T12:33:56.000Z",
+      "resumoFonte": "Candidato à reeleição chegou à Escola da Ilha, na Praia do Canto, por volta das 9h, acompanhado do vice, Camilo Neves, da esposa e do filho mais novo",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1792930932208_whatsapp_image_2026_10_25_at_09.jpeg",
+      "descobertaEm": "2026-10-25T13:18:00.984Z"
+    },
+    {
+      "id": "7ef2afc0a518febd",
+      "titulo": "Celina Leão, candidata ao governo do DF, vota no 2º turno em Brasília",
+      "categoria": "Política ES",
       "radar": null,
       "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/tse-realiza-teste-de-integridade-das-urnas-eletronicas-para-o-2-turno/",
-      "dataFonte": "2026-10-25T11:43:10.000Z",
-      "resumoFonte": "Duas seções do Distrito Federal foram sorteadas para o teste e emissão da \"zerésima\" antes da votação; urnas serão auditadas ao longo do dia nas dependências do tribunal",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/urna-eletronica-tse.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-25T12:18:07.598Z",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/celina-leao-candidata-ao-governo-do-df-vota-no-2o-turno-em-brasilia/",
+      "dataFonte": "2026-10-25T12:59:29.000Z",
+      "resumoFonte": "Nome do PP não consolidou vitória no primeiro turno das eleições, em 4 de outubro, por 0,07% dos votos; na ocasião, ela recebeu 49,93% dos votos, contra 34,47% de Leandro Grass (PT)",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/CELINA-LEAO-SEGUNDO-TURNO-25-10-26.png?w=930&h=545&crop=1",
+      "descobertaEm": "2026-10-25T13:18:00.984Z",
       "reportagem": {
-        "titulo": "TSE realiza teste de integridade das urnas eletrônicas para o 2° turno",
-        "slug": "tse-realiza-teste-de-integridade-das-urnas-eletronicas-para-o-2-turno",
-        "categoria": "Justiça",
+        "titulo": "Celina Leão, candidata ao governo do DF, vota no 2º turno em Brasília",
+        "slug": "celina-leao-candidata-ao-governo-do-df-vota-no-2-turno-em-brasilia",
+        "categoria": "Política ES",
         "data": "2026-10-25",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/tse-realiza-teste-de-integridade-das-urnas-eletronicas-para-o-2-turno.jpg",
-        "resumo": "Duas seções do Distrito Federal foram sorteadas para o teste e emissão da &quot;zerésima&quot; antes da votação; urnas serão auditadas ao longo do dia nas dependências do tribunal",
-        "conteudo": "<p>Por volta das 7h30 da manhã, foram emitidas as chamadas &quot; zerésimas &quot; das urnas eletrônicas de duas seções do Distrito Federal, nas dependências do tribunal e na presença de auditores.</p><h2>Essa é a primeira vez que seções</h2><p>Essa é a primeira vez que seções de votação passam por teste de integridade na sede do TSE. O mesmo procedimento foi realizado em todas as urnas do país antes de abertas as cabines eleitorais.</p><p>A zerésima, documento em papel emitido da urna eletrônica, comprova que nenhum voto foi registrado nos equipamentos antes do início da votação. Nele constam os eleitores aptos daquela seção e a identificação dos candidatos que concorrem ao pleito neste segundo turno.</p><p>No sábado (24), o TSE emitiu a zerésima que comprovou não haver votos registrados para presidente e vice-presidente da República no sistema de totalização das urnas.</p><h2>Mesmo procedimento foi realizado nos TREs (Tribunais Regionais Eleitorais)</h2><p>O mesmo procedimento foi realizado nos TREs (Tribunais Regionais Eleitorais) dos estados onde há o segundo turno para governador.</p><p>As urnas selecionadas para auditoria no TSE estão alocadas em uma sala do Museu do TSE, e serão monitoradas ao longo do dia, com recebimento de votos, e com transmissão ao vivo pelo Youtube.</p><p>O segundo turno das eleições de 2026, que definirá o próximo presidente da República e os governadores de seis estados e do Distrito Federal, ocorre neste domingo (25).</p><p>Além do Amazonas, haverá votação para governador no Acre, no Espírito Santo, no Rio Grande do Norte, em Tocantins e no Distrito Federal.</p><p>O horário de votação é unificado pelo horário de Brasília, das 8h às 17h. Em estados com outros fusos horários, os eleitores devem ficar atentos ao horário local.</p><p>A partir das 17h, pelo horário de Brasília, a Justiça Eleitoral poderá iniciar a divulgação dos resultados e da totalização dos votos.</p><p>A CNN acompanha, em tempo real, a apuração dos votos em todos os estados do Brasil neste domingo (25).</p><p>Para presidente, a contagem dos votos pode ser acompanhada ao vivo.</p><p>Antes da abertura oficial do 2° turno das eleições, neste domingo (25), o TSE (Tribunal Superior Eleitoral) realizou mais uma etapa do teste de integridade das urnas eletrônicas . O procedimento serve para garantir a autenticidade, segurança e transparência do sistema eleitoral.</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/celina-leao-candidata-ao-governo-do-df-vota-no-2-turno-em-brasilia.jpg",
+        "resumo": "Nome do PP não consolidou vitória no primeiro turno das eleições, em 4 de outubro, por 0,07% dos votos; na ocasião, ela recebeu 49,93% dos votos, contra 34,47% de Leandro Grass (PT)",
+        "conteudo": "<p>A candidata ao governo do Distrito Federal, Celina Leão (PP), votou, neste domingo (25), no segundo turno das eleições, em Brasília.</p><h2>Ela registrou seu voto pouco antes das 10h,</h2><p>Ela registrou seu voto pouco antes das 10h, no Lago Norte, região nobre da capital federal. A candidata estava acompanhada das senadoras eleitas pelo DF, Michelle Bolsonaro (PL) e Bia Kicis (PL).</p><p>&quot;Lutamos o bom combate, guardamos a nossa fé. Fizemos uma campanha limpa&quot;, disse Celina em fala a jornalistas após registrar o voto. Ela afirmou que deve assistir a apuração em casa e depois ir ao comitê de campanha.</p><p>Questionada sobre a ausência em debates no segundo turno, Celina afirmou ter comparecido a cinco debates no segundo turno e que foi &quot;muito desrespeitada&quot; nas ocasiões. &quot;Quer minha presença, tem que me respeitar&quot;, declarou.</p><h2>Celina não consolidou uma vitória no primeiro turno</h2><p>Celina não consolidou uma vitória no primeiro turno das eleições, em 4 de outubro, por 0,07% dos votos. Na primeira fase das votações, a atual governadora do DF recebeu 825.530 votos, o equivalente a 49,93% do total.</p><p>Seu principal adversário, Leandro Grass (PT), e com quem disputa o segundo turno neste domingo, somou 569.930 votos (34,47%).</p><p>Para ser eleito presidente da República ou governador no primeiro turno, o candidato precisa receber mais da metade dos votos válidos. Isso é o que a legislação eleitoral chama de maioria absoluta, ultrapassando a metade dos votos válidos contabilizados na eleição.</p><p>Espera-se que 158.745.463 brasileiros de todo o país se dirijam às urnas no pleito deste ano, segundo informações do TSE . O número representa um acréscimo de 2,2 milhões de eleitores em relação ao pleito anterior. No DF, mais de 2,5 milhões de eleitores estão aptos a votar.</p><p>Além do voto para a Presidência, eleitores do Distrito Federal e de cinco estados também decidem o segundo turno para governador: Espírito Santo, Rio Grande do Norte, Amazonas, Acre e Tocantins.</p><p>Segundo o TSE, cada turno é considerado uma eleição diferente para efeito de comparecimento às urnas , dessa forma, eleitores cujo voto é obrigatório devem comparecer às urnas no segundo turno, independente de terem votado ou não no primeiro turno .</p><p>A regra também vale para quem não votou no primeiro turno. A ausência na primeira etapa não impede a participação na segunda, desde que a situação eleitoral esteja regular e o título não esteja cancelado ou suspenso.</p><p>As seções eleitorais de todo o país abrem às 8h de Brasília e encerram às 17h , quando a votação termina e dá-se início à contagem de votos.</p><p>Para votar é obrigatório apresentar um documento oficial com foto como RG, CNH, passaporte ou certificado de reservista, sendo aceito também a versão digital desses documentos.</p><p>O título de eleitor e o e-Título também são documentos aceitos, desde que tenham uma foto do eleitor. A carteira de trabalho também é aceita, mas apenas na sua versão física, já que a versão digital não apresenta foto. Certidões de nascimento ou de casamento não são aceitas.</p><p>Para garantir uma votação sem dúvidas, é permitido levar uma &quot;colinha&quot; com o número do seu candidato anotado em um papel e consultá-la na cabine de votação.</p><p>Celina Leão (PP), candidata a reeleição para o governo do Distrito Federal</p><p>A candidata ao governo do Distrito Federal, Celina Leão (PP), votou, neste domingo (25), no segundo turno das eleições, em Brasília.</p><p>Ela registrou seu voto pouco antes das 10h, no Lago Norte, região nobre da capital federal. A candidata estava acompanhada das senadoras eleitas pelo DF, Michelle Bolsonaro (PL) e Bia Kicis (PL).</p><p>&quot;Lutamos o bom combate, guardamos a nossa fé. Fizemos uma campanha limpa&quot;, disse Celina em fala a jornalistas após registrar o voto.</p><p>Ela afirmou que deve assistir a apuração em casa e depois ir ao comitê de campanha.</p><p>Questionada sobre a ausência em debates no segundo turno, Celina afirmou ter comparecido a cinco debates no segundo turno e que foi &quot;muito desrespeitada&quot; nas ocasiões.</p><p>&quot;Quer minha presença, tem que me respeitar&quot;, declarou. Celina não consolidou uma vitória no primeiro turno das eleições, em 4 de outubro, por 0,07% dos votos.</p><p>Na primeira fase das votações, a atual governadora do DF recebeu 825.530 votos, o equivalente a 49,93% do total.</p><p>Seu principal adversário, Leandro Grass (PT), e com quem disputa o segundo turno neste domingo, somou 569.930 votos (34,47%).</p><p>Para ser eleito presidente da República ou governador no primeiro turno, o candidato precisa receber mais da metade dos votos válidos.</p><p>Isso é o que a legislação eleitoral chama de maioria absoluta, ultrapassando a metade dos votos válidos contabilizados na eleição. Leia Mais:</p>",
         "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/tse-realiza-teste-de-integridade-das-urnas-eletronicas-para-o-2-turno/",
+        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/celina-leao-candidata-ao-governo-do-df-vota-no-2o-turno-em-brasilia/",
         "fontesAdicionais": [
           {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
+            "nome": "Assembleia Legislativa do ES",
+            "url": "https://www.al.es.gov.br/"
           },
           {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+            "nome": "Governo do Estado do ES",
+            "url": "https://www.es.gov.br/"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Por volta das 7h30 da manhã, foram emitidas as chamadas &quot; zerésimas &quot; das urnas eletrônicas de duas seções do Distrito Federal, nas dependências do tribunal e na presença de auditores."
+            "resposta": "A candidata ao governo do Distrito Federal, Celina Leão (PP), votou, neste domingo (25), no segundo turno das eleições, em Brasília. Ela registrou seu voto pouco antes das 10h, no Lago Norte, região nobre da capital federal. A candidata estava acompanhada das senadoras eleitas pelo DF, Michelle Bolsonaro (PL) e Bia Kicis (PL)."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Essa é a primeira vez que seções de votação passam por teste de integridade na sede do TSE. O mesmo procedimento foi realizado em todas as urnas do país antes de abertas as cabines eleitorais."
+            "resposta": "&quot;Lutamos o bom combate, guardamos a nossa fé. Fizemos uma campanha limpa&quot;, disse Celina em fala a jornalistas após registrar o voto. Ela afirmou que deve assistir a apuração em casa e depois ir ao comitê de campanha."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A zerésima, documento em papel emitido da urna eletrônica, comprova que nenhum voto foi registrado nos equipamentos antes do início da votação. Nele constam os eleitores aptos daquela seção e a identificação dos candidatos que concorrem ao pleito neste segundo turno."
+            "resposta": "Questionada sobre a ausência em debates no segundo turno, Celina afirmou ter comparecido a cinco debates no segundo turno e que foi &quot;muito desrespeitada&quot; nas ocasiões. &quot;Quer minha presença, tem que me respeitar&quot;, declarou."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "No sábado (24), o TSE emitiu a zerésima que comprovou não haver votos registrados para presidente e vice-presidente da República no sistema de totalização das urnas. O mesmo procedimento foi realizado nos TREs (Tribunais Regionais Eleitorais) dos estados onde há o segundo turno para governador."
+            "resposta": "Celina não consolidou uma vitória no primeiro turno das eleições, em 4 de outubro, por 0,07% dos votos. Na primeira fase das votações, a atual governadora do DF recebeu 825.530 votos, o equivalente a 49,93% do total. Seu principal adversário, Leandro Grass (PT), e com quem disputa o segundo turno neste domingo, somou 569.930 votos (34,47%)."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "As urnas selecionadas para auditoria no TSE estão alocadas em uma sala do Museu do TSE, e serão monitoradas ao longo do dia, com recebimento de votos, e com transmissão ao vivo pelo Youtube."
+            "resposta": "Para ser eleito presidente da República ou governador no primeiro turno, o candidato precisa receber mais da metade dos votos válidos. Isso é o que a legislação eleitoral chama de maioria absoluta, ultrapassando a metade dos votos válidos contabilizados na eleição."
           }
         ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/urna-eletronica-tse.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/tse-realiza-teste-de-integridade-das-urnas-eletronicas-para-o-2-turno.jpg",
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/CELINA-LEAO-SEGUNDO-TURNO-25-10-26.png?w=930&h=545&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/celina-leao-candidata-ao-governo-do-df-vota-no-2-turno-em-brasilia.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "14c3e805c92f3807",
-      "titulo": "Eleições 2026: Cármen Lúcia, ministra do STF, vota em MG neste domingo (25)",
-      "categoria": "Justiça",
+      "id": "8cf8c25f17d068fe",
+      "titulo": "Quanto tempo costuma levar a apuração de uma eleição presidencial no Brasil?",
+      "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/eleicoes-2026-carmen-lucia-ministra-do-stf-vota-em-mg-neste-domingo-25/",
-      "dataFonte": "2026-10-25T11:25:43.000Z",
-      "resumoFonte": "Ministra registrou voto por volta das 8h, em Belo Horizonte, capital mineira; magistrada ficou marcada pela tentativa de preservar a estabilidade e imagem institucional da Suprema Corte no período eleitoral",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/ministra-carmen-lucia-plenario-stf.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-25T12:18:07.598Z",
-      "reportagem": {
-        "titulo": "Eleições 2026: Cármen Lúcia, ministra do STF, vota em MG neste domingo (25)",
-        "slug": "eleicoes-2026-carmen-lucia-ministra-do-stf-vota-em-mg-neste-domingo-25",
-        "categoria": "Justiça",
-        "data": "2026-10-25",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/eleicoes-2026-carmen-lucia-ministra-do-stf-vota-em-mg-neste-domingo-25.jpg",
-        "resumo": "Ministra registrou voto por volta das 8h, em Belo Horizonte, capital mineira; magistrada ficou marcada pela tentativa de preservar a estabilidade e imagem institucional da Suprema Corte no período eleitoral",
-        "conteudo": "<p>A ministra do STF ( Supremo Tribunal Federal ) Cármen Lúcia votou neste domingo (25) no segundo turno das eleições de 2026. A magistrada registrou seu voto por volta das 8h, em Belo Horizonte, capital de Minas Gerais.</p><h2>Cármen Lúcia chegou ao colégio eleitoral, uma escola</h2><p>Cármen Lúcia chegou ao colégio eleitoral, uma escola na região centro-sul da capital mineira, logo após a abertura das urnas.</p><p>O STF foi um dos protagonistas do período eleitoral de 2026, especialmente na reta final. Os embates se deram em especial entre os ministros André Mendonça e Alexandre de Moraes envolvendo as investigações sobre Daniel Vorcaro e o Banco Master .</p><p>Durante os episódios mais tensionados entre Mendonça e Moraes, a conduta de Cármen Lúcia refletiu a tentativa de preservar a estabilidade e a imagem institucional da Suprema Corte.</p><h2>Segundo turno das eleições de 2026, que definirá</h2><p>O segundo turno das eleições de 2026, que definirá o próximo presidente da República e os governadores de seis estados e do Distrito Federal, ocorre neste domingo (25).</p><p>O horário de votação é unificado pelo horário de Brasília, das 8h às 17h. Em estados com outros fusos horários, os eleitores devem ficar atentos ao horário local.</p><p>A partir das 17h, pelo horário de Brasília, a Justiça Eleitoral poderá iniciar a divulgação dos resultados e da totalização dos votos.</p><p>A CNN acompanha, em tempo real, a apuração dos votos em todos os estados do Brasil neste domingo (25).</p><p>Para presidente, a contagem dos votos pode ser acompanhada neste link.</p><p>A ministra Cármen Lúcia, do Supremo Tribunal Federal</p><p>A ministra do STF ( Supremo Tribunal Federal ) Cármen Lúcia votou neste domingo (25) no segundo turno das eleições de 2026. A magistrada registrou seu voto por volta das 8h, em Belo Horizonte, capital de Minas Gerais.</p><p>Cármen Lúcia chegou ao colégio eleitoral, uma escola na região centro-sul da capital mineira, logo após a abertura das urnas. Leia Mais</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/eleicoes-2026-carmen-lucia-ministra-do-stf-vota-em-mg-neste-domingo-25/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A ministra do STF ( Supremo Tribunal Federal ) Cármen Lúcia votou neste domingo (25) no segundo turno das eleições de 2026. A magistrada registrou seu voto por volta das 8h, em Belo Horizonte, capital de Minas Gerais."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Cármen Lúcia chegou ao colégio eleitoral, uma escola na região centro-sul da capital mineira, logo após a abertura das urnas."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O STF foi um dos protagonistas do período eleitoral de 2026, especialmente na reta final. Os embates se deram em especial entre os ministros André Mendonça e Alexandre de Moraes envolvendo as investigações sobre Daniel Vorcaro e o Banco Master ."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Durante os episódios mais tensionados entre Mendonça e Moraes, a conduta de Cármen Lúcia refletiu a tentativa de preservar a estabilidade e a imagem institucional da Suprema Corte."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O segundo turno das eleições de 2026, que definirá o próximo presidente da República e os governadores de seis estados e do Distrito Federal, ocorre neste domingo (25)."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/ministra-carmen-lucia-plenario-stf.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/eleicoes-2026-carmen-lucia-ministra-do-stf-vota-em-mg-neste-domingo-25.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/politica/quanto-tempo-costuma-levar-a-apuracao-de-uma-eleicao-presidencial-no-brasil/",
+      "dataFonte": "2026-10-25T13:00:00.000Z",
+      "resumoFonte": "Não há duração fixa; resultado depende da velocidade de transmissão e totalização dos boletins de urna",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/03/urna_jose_cruz_2350.jpg?w=1000&h=598&crop=1",
+      "descobertaEm": "2026-10-25T13:18:00.984Z"
     },
     {
-      "id": "f91218b7e8f2623f",
-      "titulo": "Ministro do STF, Alexandre de Moraes vota no 2º turno em São Paulo",
-      "categoria": "Justiça",
+      "id": "2376df1adefa04bf",
+      "titulo": "Um presidente consegue governar sem maioria no Congresso?",
+      "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "CNN Brasil - Capa",
-      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/ministro-do-stf-alexandre-de-moraes-vota-no-2o-turno-em-sao-paulo/",
-      "dataFonte": "2026-10-25T11:13:58.000Z",
-      "resumoFonte": "Magistrado chegou à seção eleitoral na capital paulista por volta das 8 horas da manhã",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Moraes-vota.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-10-25T11:21:04.408Z",
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/politica/um-presidente-consegue-governar-sem-maioria-no-congresso/",
+      "dataFonte": "2026-10-25T13:00:00.000Z",
+      "resumoFonte": "Executivo pode exercer suas competências próprias, mas agenda legislativa e mudanças estruturais dependem de negociação com deputados e senadores",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/12/design-sem-nome-24.png?w=1000&h=600&crop=1",
+      "descobertaEm": "2026-10-25T13:18:00.984Z",
       "reportagem": {
-        "titulo": "Ministro do STF, Alexandre de Moraes vota no 2º turno em São Paulo",
-        "slug": "ministro-do-stf-alexandre-de-moraes-vota-no-2-turno-em-sao-paulo",
-        "categoria": "Justiça",
+        "titulo": "Um presidente consegue governar sem maioria no Congresso? | Jovem Pan",
+        "slug": "um-presidente-consegue-governar-sem-maioria-no-congresso-jovem-pan",
+        "categoria": "Política Nacional",
         "data": "2026-10-25",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/ministro-do-stf-alexandre-de-moraes-vota-no-2-turno-em-sao-paulo.jpg",
-        "resumo": "Magistrado chegou à seção eleitoral na capital paulista por volta das 8 horas da manhã",
-        "conteudo": "<p>O ministro do STF (Supremo Tribunal Federal) Alexandre de Moraes votou no segundo turno das eleições de 2026 , neste domingo (25). O magistrado chegou no Colégio Madre Alix, em São Paulo, por volta das 8 horas.</p><h2>&quot;Hoje nós terminamos mais um ciclo eleitoral, quero novamente</h2><p>&quot;Hoje nós terminamos mais um ciclo eleitoral, quero novamente parabenizar a Justiça Eleitoral.</p><p>É mais uma eleição com calma, tranquilidade e transparência, mostrando novamente que o sistema eleitoral do Brasil é o melhor sistema eleitoral do mundo&quot;, disse o magistrado após votar.</p><p>&quot;Estamos começando agora às oito horas, às cinco nós terminamos e rapidamente o resultado sairá. Parabéns a todos os eleitores e todas as eleitoras que estão aparecendo é para deixar sua opinião, deixar seu voto e decidir o futuro do país&quot;, concluiu Moraes.</p><h2>Segundo turno das eleições de 2026, que definirá</h2><p>O segundo turno das eleições de 2026, que definirá o próximo presidente da República e os governadores de cinco estados e do Distrito Federal, ocorre neste domingo (25).</p><p>Haverá votação para governador no Acre , no Amazonas , no Espírito Santo , no Rio Grande do Norte , em Tocantins e no Distrito Federal .</p><p>O horário de votação é unificado pelo horário de Brasília, das 8h às 17h . Em estados com outros fusos horários, os eleitores devem ficar atentos ao horário local.</p><p>A partir das 17h , pelo horário de Brasília, a Justiça Eleitoral poderá iniciar a divulgação dos resultados e da totalização dos votos.</p><p>A CNN Brasil acompanha, em tempo real, a apuração dos votos em todos os estados do Brasil neste domingo (25) .</p><p>Para presidente, a contagem dos votos pode ser acompanhada neste link .</p><p>O ministro do STF (Supremo Tribunal Federal) Alexandre de Moraes votou no segundo turno das eleições de 2026 , neste domingo (25). O magistrado chegou no Colégio Madre Alix, em São Paulo, por volta das 8 horas.</p><p>&quot;Hoje nós terminamos mais um ciclo eleitoral, quero novamente parabenizar a Justiça Eleitoral.</p><p>É mais uma eleição com calma, tranquilidade e transparência, mostrando novamente que o sistema eleitoral do Brasil é o melhor sistema eleitoral do mundo&quot;, disse o magistrado após votar. Leia Mais</p>",
-        "fonteNome": "CNN Brasil - Capa",
-        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/ministro-do-stf-alexandre-de-moraes-vota-no-2o-turno-em-sao-paulo/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/um-presidente-consegue-governar-sem-maioria-no-congresso-jovem-pan.jpg",
+        "resumo": "Executivo pode exercer suas competências próprias, mas agenda legislativa e mudanças estruturais dependem de negociação com deputados e senadores",
+        "conteudo": "<p>É possível governar sem ter uma maioria partidária própria no Congresso, mas aprovar leis, reformas e mudanças constitucionais se torna mais dependente de negociação.</p><h2>Lula (PT) usou esse argumento no segundo turno</h2><p>Lula (PT) usou esse argumento no segundo turno de 2026. O senador Camilo Santana (PT-CE), um dos coordenadores de sua campanha, afirmou que o governo aprovou projetos mesmo sem controlar maioria na Câmara e no Senado.</p><p>Flávio Bolsonaro (PL), por outro lado, chegou à etapa final ampliando alianças com partidos de centro e direita e contando com o peso de uma bancada do PL fortalecida nas eleições legislativas.</p><p>O presidente conserva competências administrativas mesmo quando enfrenta resistência parlamentar, mas projetos de lei, medidas provisórias, Orçamento e PECs passam pelo Legislativo.</p><h2>Quanto maior o quórum exigido, maior a necessidade</h2><p>Quanto maior o quórum exigido, maior a necessidade de coalizão. Uma PEC, por exemplo, precisa de 308 deputados e 49 senadores em dois turnos.</p><p>Por isso, o resultado presidencial e a composição do Congresso são duas partes do mesmo desenho de governabilidade que começará em 2027.</p><p>Executivo pode exercer suas competências próprias, mas agenda legislativa e mudanças estruturais dependem de negociação com deputados e senadores</p><p>Quem prepara o Orçamento da União e qual é o papel do presidente?</p><p>Executivo envia a proposta orçamentária, mas deputados e senadores analisam, alteram e votam o texto antes da sanção</p><p>Eleitores devem enfrentar tempestades durante 2º turno, segundo Inmet; veja onde</p><p>Alcolumbre vota no Amapá e fala em liberdade de escolha e respeito</p><p>Daniella Marques: ‘Mais de 70% das mulheres querem ser donas do próprio negócio’</p><p>Lula agradece apoio no 2º turno e diz: ‘povo não vai eleger um mentiroso’</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/politica/um-presidente-consegue-governar-sem-maioria-no-congresso/",
         "fontesAdicionais": [
           {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
           },
           {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O ministro do STF (Supremo Tribunal Federal) Alexandre de Moraes votou no segundo turno das eleições de 2026 , neste domingo (25). O magistrado chegou no Colégio Madre Alix, em São Paulo, por volta das 8 horas."
+            "resposta": "É possível governar sem ter uma maioria partidária própria no Congresso, mas aprovar leis, reformas e mudanças constitucionais se torna mais dependente de negociação."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "&quot;Hoje nós terminamos mais um ciclo eleitoral, quero novamente parabenizar a Justiça Eleitoral. É mais uma eleição com calma, tranquilidade e transparência, mostrando novamente que o sistema eleitoral do Brasil é o melhor sistema eleitoral do mundo&quot;, disse o magistrado após votar."
+            "resposta": "Lula (PT) usou esse argumento no segundo turno de 2026. O senador Camilo Santana (PT-CE), um dos coordenadores de sua campanha, afirmou que o governo aprovou projetos mesmo sem controlar maioria na Câmara e no Senado."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "&quot;Estamos começando agora às oito horas, às cinco nós terminamos e rapidamente o resultado sairá. Parabéns a todos os eleitores e todas as eleitoras que estão aparecendo é para deixar sua opinião, deixar seu voto e decidir o futuro do país&quot;, concluiu Moraes."
+            "resposta": "Flávio Bolsonaro (PL), por outro lado, chegou à etapa final ampliando alianças com partidos de centro e direita e contando com o peso de uma bancada do PL fortalecida nas eleições legislativas."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "O segundo turno das eleições de 2026, que definirá o próximo presidente da República e os governadores de cinco estados e do Distrito Federal, ocorre neste domingo (25). Haverá votação para governador no Acre , no Amazonas , no Espírito Santo , no Rio Grande do Norte , em Tocantins e no Distrito Federal ."
+            "resposta": "O presidente conserva competências administrativas mesmo quando enfrenta resistência parlamentar, mas projetos de lei, medidas provisórias, Orçamento e PECs passam pelo Legislativo."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O horário de votação é unificado pelo horário de Brasília, das 8h às 17h . Em estados com outros fusos horários, os eleitores devem ficar atentos ao horário local."
+            "resposta": "Quanto maior o quórum exigido, maior a necessidade de coalizão. Uma PEC, por exemplo, precisa de 308 deputados e 49 senadores em dois turnos."
           }
         ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Moraes-vota.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/ministro-do-stf-alexandre-de-moraes-vota-no-2-turno-em-sao-paulo.jpg",
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/12/design-sem-nome-24.png?w=1000&h=600&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/um-presidente-consegue-governar-sem-maioria-no-congresso-jovem-pan.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "5b9aa3ae7c616a3f",
-      "titulo": "TSE: Eleitores enviaram 103.759 justificativas até às 7h",
-      "categoria": "Justiça",
+      "id": "d2e747926a50f1ba",
+      "titulo": "Lula agradece apoio ao sair de casa para votar e diz: ‘povo não vai eleger mentiroso’",
+      "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/politica/tse-eleitores-enviaram-103-759-justificativas-ate-as-7h/",
-      "dataFonte": "2026-10-25T10:49:00.000Z",
-      "resumoFonte": "Rio de Janeiro (RJ), 03/08/2026 – O Tribunal Regional Eleitoral apresenta a estrutura e demonstra testes da urna eletrônica para as Eleições de 2026. Foto: Fernando Frazão/Agência Brasil \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/10/d6a4562-1.webp?fit=1024%2C768&quality=70&strip=all\" />A parcial do TSE também traz 163…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/10/d6a4562-1.webp",
-      "descobertaEm": "2026-10-25T12:18:07.598Z"
+      "urlFonte": "https://www.infomoney.com.br/politica/lula-agradece-apoio-no-2oturno-e-diz-povo-nao-vai-eleger-um-mentiroso/",
+      "dataFonte": "2026-10-25T12:36:13.000Z",
+      "resumoFonte": "Brazilian President Luiz Inacio Lula da Silva, the candidate for reelection for the Workers’ Party (PT), attends a ceremony to sign the decree regulating the legal framework of the video game industry at the Planalto Palace in Brasilia, Brazil, October 14, 2026. REUTERS/Adriano Machado \"…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-14T173514Z_987321319_RC233OAB8QXH_RTRMADP_3_BRAZIL-ELECTION-LULA.jpg",
+      "descobertaEm": "2026-10-25T13:18:00.984Z"
+    },
+    {
+      "id": "41b4cca2ef574b31",
+      "titulo": "Presidente do Senado, Davi Alcolumbre vota no AP e pede respeito nas urnas: 'Hoje a palavra é do povo'",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/25/presidente-do-senado-davi-alcolumbre-vota-no-ap-e-pede-respeito-nas-urnas-hoje-a-palavra-e-do-povo.ghtml",
+      "dataFonte": "2026-10-25T12:07:54.000Z",
+      "resumoFonte": "Davi Alcolumbre vota no Amapá. Divulgação O presidente do Senado Federal, Davi Alcolumbre (União-AP), votou no início da manhã deste domingo (25) em Macapá, capital do Amapá, e defendeu que a liberdade de escolha, a paz e o respeito prevaleçam neste segundo turno. 🔴 AO VIVO: Acompanhe a apuração do 2º turno das Eleições 2026 pelo Brasil “Hoje, a…",
+      "imagem": "https://s2-g1.glbimg.com/xYA2xl8uQSz7wD5CzMOpbJFKwLA=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/y/u/UI6L82R0WkypBsppXLMg/whatsapp-image-2026-10-25-at-09.05.14d.jpeg",
+      "descobertaEm": "2026-10-25T13:18:00.984Z"
+    },
+    {
+      "id": "d2528cbff31741cd",
+      "titulo": "Trump diz que ficou com Groenlândia e Venezuela “de graça”",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-internacional/trump-diz-que-ficou-com-groenlandia-e-venezuela-de-graca/",
+      "dataFonte": "2026-10-25T12:48:21.000Z",
+      "resumoFonte": "Presidente dos EUA chamou acordo de segurança sobre ilha dinamarquesa de “maior negócio imobiliário da história”",
+      "imagem": "https://static.poder360.com.br/uploads/2026/09/trump-11-setembro-2026-1200x675.png",
+      "descobertaEm": "2026-10-25T13:18:00.984Z",
+      "reportagem": {
+        "titulo": "Trump diz que ficou com Groenlândia e Venezuela &quot;de graça&quot;",
+        "slug": "trump-diz-que-ficou-com-groenlandia-e-venezuela-quot-de-graca-quot",
+        "categoria": "Economia",
+        "data": "2026-10-25",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/trump-diz-que-ficou-com-groenlandia-e-venezuela-quot-de-graca-quot.jpg",
+        "resumo": "Presidente dos EUA chamou acordo de segurança sobre ilha dinamarquesa de “maior negócio imobiliário da história” em comício na Geórgia. Leia no Poder360.",
+        "conteudo": "<p>Presidente dos EUA chamou acordo de segurança sobre ilha dinamarquesa de “maior negócio imobiliário da história”</p><h2>Presidente dos Estados Unidos, Donald Trump (Partido Republicano), afirmou</h2><p>O presidente dos Estados Unidos, Donald Trump (Partido Republicano), afirmou no sábado (24.out.2026), durante um comício em Perry, no Estado da Geórgia , que o país ficou com a Groenlândia e a Venezuela “de graça” .</p><p>Segundo a Reuters , o republicano classificou o acordo de segurança envolvendo a ilha dinamarquesa como o “maior negócio imobiliário da história” .</p><p>“Eles nos deram a Groenlândia. Vocês sabem disso. Vocês não leem sobre isso” , declarou. Ao comparar o território dinamarquês com o país sul-americano, perguntou: “O que vocês preferem? Venezuela ou Groenlândia? As duas. Ficamos com as duas. De graça. Ficamos com elas” .</p><h2>Estados Unidos, Dinamarca e Groenlândia assinaram um acordo</h2><p>Estados Unidos, Dinamarca e Groenlândia assinaram um acordo de segurança em 22 de setembro de 2026.</p><p>O documento atualiza o tratado de defesa de 1951 e autoriza a ampliação das atividades norte-americanas na base de Pituffik, além do estabelecimento de novas áreas militares em Narsarsuaq e Mestersvig.</p><p>Eis a íntegra do acordo (PDF, em inglês – 180 KB).</p><p>Antes da assinatura, a primeira-ministra dinamarquesa, Mette Frederiksen, afirmou que ele não comprometeria a soberania do país sobre a Groenlândia. Trump, por sua vez, apresentou a negociação como um acordo permanente e sem custos aos cofres norte-americanos.</p><p>Em 13 de outubro, o presidente norte-americano também anunciou planos para explorar petróleo, gás e minerais na Groenlândia . A ilha desperta interesse de Washington por sua posição estratégica no Ártico, pelas rotas marítimas e pelos recursos naturais.</p><p>Já a Venezuela foi alvo de uma operação militar norte-americana em 3 de janeiro de 2026 , que resultou na captura de Nicolás Maduro e de sua mulher, Cilia Flores. Ambos foram retirados do país e levados aos Estados Unidos.</p><p>A presidente interina da Venezuela, Delcy Rodríguez (PSUV, esquerda), negocia com a Casa Branca questões relacionadas a petróleo, investimentos e à transição política venezuelana.</p><p>O evento no qual Trump fez a declaração integra a mobilização republicana para as eleições de meio de mandato, marcadas para 3 de novembro. O presidente norte-americano tem participado de comícios para tentar preservar o controle do partido sobre o Congresso.</p><p>Durante o encontro, Trump anunciou que a Audi planeja investir US$ 4 bilhões em uma fábrica na Geórgia . Segundo a Reuters , o projeto estima capacidade para produzir aproximadamente 200 mil SUVs por ano e criar 4.500 empregos.</p><p>As obras devem começar em 2027, com produção no início da década de 2030. A decisão final sobre o investimento ainda depende do conselho de supervisão da Volkswagen, controladora da Audi.</p><p>Trump também voltou a criticar a imigração e repetiu uma piada sobre a popularidade do nome Mohammad em países muçulmanos, segundo a Reuters.</p><p>Trump diz que ficou com Groenlândia e Venezuela “de graça” Presidente dos EUA chamou acordo de segurança sobre ilha dinamarquesa de “maior negócio imobiliário da história” --> copiar link --></p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-internacional/trump-diz-que-ficou-com-groenlandia-e-venezuela-de-graca/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Presidente dos EUA chamou acordo de segurança sobre ilha dinamarquesa de “maior negócio imobiliário da história”"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O presidente dos Estados Unidos, Donald Trump (Partido Republicano), afirmou no sábado (24.out.2026), durante um comício em Perry, no Estado da Geórgia , que o país ficou com a Groenlândia e a Venezuela “de graça” . Segundo a Reuters , o republicano classificou o acordo de segurança envolvendo a ilha dinamarquesa como o “maior negócio imobiliário da história"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "“Eles nos deram a Groenlândia. Vocês sabem disso. Vocês não leem sobre isso” , declarou. Ao comparar o território dinamarquês com o país sul-americano, perguntou: “O que vocês preferem? Venezuela ou Groenlândia? As duas. Ficamos com as duas. De graça. Ficamos com elas” ."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Estados Unidos, Dinamarca e Groenlândia assinaram um acordo de segurança em 22 de setembro de 2026. O documento atualiza o tratado de defesa de 1951 e autoriza a ampliação das atividades norte-americanas na base de Pituffik, além do estabelecimento de novas áreas militares em Narsarsuaq e Mestersvig. Eis a íntegra do acordo (PDF, em inglês – 180 KB)."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Antes da assinatura, a primeira-ministra dinamarquesa, Mette Frederiksen, afirmou que ele não comprometeria a soberania do país sobre a Groenlândia. Trump, por sua vez, apresentou a negociação como um acordo permanente e sem custos aos cofres norte-americanos."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/09/trump-11-setembro-2026-1200x675.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/trump-diz-que-ficou-com-groenlandia-e-venezuela-quot-de-graca-quot.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "deb0cdab7f8f4383",
+      "titulo": "TRE-SP substitui 52 urnas que apresentaram problemas no estado",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Agência Brasil - Política",
+      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tre-sp-substitui-52-urnas-que-apresentaram-problemas-no-estado",
+      "dataFonte": "2026-10-25T13:06:00.000Z",
+      "resumoFonte": "Boletim divulgado por volta das 9h30 deste domingo (25), pelo Tribunal Regional Eleitoral de São Paulo (TRE-SP), informa que 52 urnas eletrônicas utilizadas no estado de São Paulo apresentaram algum tipo de problema e necessitaram de substituição. Isso corresponde a cerca de 0,045% do total de urnas em funcionamento para as eleições deste domingo,…",
+      "imagem": "https://imagens.ebc.com.br/aCTbODm6A-3NoBWEJJNn57NwFBk=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/24/0d4a5003.jpg?itok=5KW0lgx7",
+      "descobertaEm": "2026-10-25T13:18:00.984Z",
+      "reportagem": {
+        "titulo": "TRE-SP substitui 52 urnas que apresentaram problemas no estado",
+        "slug": "tre-sp-substitui-52-urnas-que-apresentaram-problemas-no-estado",
+        "categoria": "Justiça",
+        "data": "2026-10-25",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/tre-sp-substitui-52-urnas-que-apresentaram-problemas-no-estado.jpg",
+        "resumo": "Do total de urnas trocadas, 19 estavam sendo usadas na capital paulista. O restante corresponde a urnas substituídas no interior do estado.",
+        "conteudo": "<p>Boletim divulgado por volta das 9h30 deste domingo (25), pelo Tribunal Regional Eleitoral de São Paulo (TRE-SP), informa que 52 urnas eletrônicas utilizadas no estado de São Paulo apresentaram algum tipo de problema e necessitaram de substituição.</p><h2>Isso corresponde a cerca de 0,045% do total</h2><p>Isso corresponde a cerca de 0,045% do total de urnas em funcionamento para as eleições deste domingo, um índice considerado baixo.</p><p>Do total de urnas substituídas, 19 estavam sendo usadas na capital paulista. O restante corresponde a urnas do interior do estado.</p><p>Ao todo, o TRE-SP preparou 114.605 urnas eletrônicas para votação no segundo turno das eleições. A estrutura inclui também as urnas de contingência, que são equipamentos mantidos de prontidão para eventuais substituições técnicas ao longo da votação.</p><h2>Desde as 8h da manhã, os eleitores do estado</h2><p>Desde as 8h da manhã, os eleitores do estado de São Paulo estão votando em segundo turno para a escolha do novo presidente da República. Desta vez não haverá votação para governador, já que Tarcísio de Freitas foi reeleito ainda no primeiro turno.</p><p>O estado de São Paulo é o maior colégio eleitoral do país, com mais de 34,1 milhões aptas a votar, o que corresponde a cerca de 21,4% do eleitorado nacional.</p><p>Política Eleições: indígenas e quilombolas têm transporte garantido dom, 25/10/2026 - 10:38</p><p>Política Chuva altera local de votação em Itapevi, no interior paulista dom, 25/10/2026 - 10:37</p><p>Política TRE-SP substitui 52 urnas que apresentaram problemas no estado dom, 25/10/2026 - 10:06</p><p>Política TSE agiliza aprovação de transporte para indígenas e quilombolas dom, 25/10/2026 - 09:27</p><p>Política Ao votar no Rio de Janeiro, Flávio diz que representa a mudança dom, 25/10/2026 - 09:15</p><p>Saúde Mudanças climáticas já causam aumento de doenças infecciosas no país dom, 25/10/2026 - 09:06</p>",
+        "fonteNome": "Agência Brasil - Política",
+        "fonteUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tre-sp-substitui-52-urnas-que-apresentaram-problemas-no-estado",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Boletim divulgado por volta das 9h30 deste domingo (25), pelo Tribunal Regional Eleitoral de São Paulo (TRE-SP), informa que 52 urnas eletrônicas utilizadas no estado de São Paulo apresentaram algum tipo de problema e necessitaram de substituição."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Isso corresponde a cerca de 0,045% do total de urnas em funcionamento para as eleições deste domingo, um índice considerado baixo."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Do total de urnas substituídas, 19 estavam sendo usadas na capital paulista. O restante corresponde a urnas do interior do estado."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Ao todo, o TRE-SP preparou 114.605 urnas eletrônicas para votação no segundo turno das eleições. A estrutura inclui também as urnas de contingência, que são equipamentos mantidos de prontidão para eventuais substituições técnicas ao longo da votação."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Desde as 8h da manhã, os eleitores do estado de São Paulo estão votando em segundo turno para a escolha do novo presidente da República. Desta vez não haverá votação para governador, já que Tarcísio de Freitas foi reeleito ainda no primeiro turno."
+          }
+        ],
+        "imagemOriginal": "https://imagens.ebc.com.br/aCTbODm6A-3NoBWEJJNn57NwFBk=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/24/0d4a5003.jpg?itok=5KW0lgx7",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/tre-sp-substitui-52-urnas-que-apresentaram-problemas-no-estado.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "7566f5dd20efc9c3",
+      "titulo": "Juiz proíbe empresário de dar picanha e cerveja para impedir voto em Lula",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/colunas/grande-angular/juiz-proibe-empresario-de-dar-picanha-e-cerveja-para-impedir-voto-em-lula",
+      "dataFonte": "2026-10-25T13:03:39.000Z",
+      "resumoFonte": "A decisão liminar expedida pelo juiz do Tribunal Regional do Trabalho da 18ª Região (TRT-18) atende ao pedido do MPT",
+      "imagem": "https://i.metroimg.com/0WzG6eqfb3IJI8skJacAi6epw68k6qSWaqSj5EtDKqY/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/leandro-nobrega.jpg",
+      "descobertaEm": "2026-10-25T13:18:00.984Z"
+    },
+    {
+      "id": "9d5229fb62c57b6f",
+      "titulo": "Sob aplausos, ministro André Mendonça, do STF, vota no 2º turno em Brasília",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/distrito-federal/ministro-andre-mendonca-vota-no-2o-turno-das-eleicoes-em-escola-no-df",
+      "dataFonte": "2026-10-25T13:03:17.000Z",
+      "resumoFonte": "Enquanto o ministro André Mendonça se dirigia a seção eleitoral foi cumprimentado e aplaudido por eleitores",
+      "imagem": "https://i.metroimg.com/-SjnaqKeb12kkZP95VFdVSE4VwgEEOuOT9AXEnUTtHQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/foto-mendonca-3x2-1.jpg",
+      "descobertaEm": "2026-10-25T13:18:00.984Z",
+      "reportagem": {
+        "titulo": "Sob aplausos, ministro André Mendonça, do STF, vota no 2º turno em Brasília",
+        "slug": "sob-aplausos-ministro-andre-mendonca-do-stf-vota-no-2-turno-em-brasilia",
+        "categoria": "Justiça",
+        "data": "2026-10-25",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/sob-aplausos-ministro-andre-mendonca-do-stf-vota-no-2-turno-em-brasilia.jpg",
+        "resumo": "Enquanto o ministro André Mendonça se dirigia a seção eleitoral foi cumprimentado e aplaudido por eleitores",
+        "conteudo": "<p>O ministro do Supremo Tribunal Federal (STF) André Mendonça votou, na manhã deste domingo (25/10), na Escola Classe 8 da Octogonal (DF) . Ele chegou ao local por volta das 9h30.</p><h2>Enquanto o ministro se dirigia a seção eleitoral foi</h2><p>Enquanto o ministro se dirigia a seção eleitoral foi cumprimentado por eleitores. Dois deles puxaram aplausos para o Mendonça e foram seguidos por outros eleitores.</p><p>“Hoje é um dia importante para a história do país. Hoje se encerram as eleições, o povo decide com liberdade, com segurança quem irá representá-lo, seja no âmbito federal, nacional, seja também em cinco estados mais o Distrito Federal”, disse.</p><h2>Ministro agradeceu aos cidadãos que acompanharam a campanha eleitoral,</h2><p>O ministro agradeceu aos cidadãos que acompanharam a campanha eleitoral, aos servidores da Justiça Eleitoral, aos mesários e aos profissionais de imprensa que trabalham durante o pleito.</p><p>“São pessoas que têm trabalhado incansavelmente para que isso aconteça de forma segura e plena, os quase dois milhões de mesários que estão também trabalhando hoje, ao mesmo tempo a imprensa que exerce um papel não só de transparência daquilo que está acontecendo, mas também de fiscalização de todo o pleito, de toda a campanha eleitoral”, declarou.</p><p>Voto do ministro: o ministro do Supremo Tribunal Federal (STF) André Mendonça votou no segundo turno das eleições na Escola Classe 8 da Octogonal, no Distrito Federal; Horário da chegada: o magistrado compareceu ao local de votação em 25 de outubro, por volta das 9h30; Declaração pública: o ministro afirmou que o dia é importante para a história do país e que o povo decide seus representantes com liberdade e segurança.</p><p>Receba no seu email as notícias de Metrópoles DF Frequência de envio: Diário Ver todas</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/distrito-federal/ministro-andre-mendonca-vota-no-2o-turno-das-eleicoes-em-escola-no-df",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O ministro do Supremo Tribunal Federal (STF) André Mendonça votou, na manhã deste domingo (25/10), na Escola Classe 8 da Octogonal (DF) . Ele chegou ao local por volta das 9h30. Enquanto o ministro se dirigia a seção eleitoral foi cumprimentado por eleitores. Dois deles puxaram aplausos para o Mendonça e foram seguidos por outros eleitores."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "“Hoje é um dia importante para a história do país. Hoje se encerram as eleições, o povo decide com liberdade, com segurança quem irá representá-lo, seja no âmbito federal, nacional, seja também em cinco estados mais o Distrito Federal”, disse."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O ministro agradeceu aos cidadãos que acompanharam a campanha eleitoral, aos servidores da Justiça Eleitoral, aos mesários e aos profissionais de imprensa que trabalham durante o pleito."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "“São pessoas que têm trabalhado incansavelmente para que isso aconteça de forma segura e plena, os quase dois milhões de mesários que estão também trabalhando hoje, ao mesmo tempo a imprensa que exerce um papel não só de transparência daquilo que está acontecendo, mas também de fiscalização de todo o pleito, de toda a campanha eleitoral”, declarou."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Voto do ministro: o ministro do Supremo Tribunal Federal (STF) André Mendonça votou no segundo turno das eleições na Escola Classe 8 da Octogonal, no Distrito Federal; Horário da chegada: o magistrado compareceu ao local de votação em 25 de outubro, por volta das 9h30; Declaração pública: o ministro afirmou que o dia é importante para a história do país e qu"
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/-SjnaqKeb12kkZP95VFdVSE4VwgEEOuOT9AXEnUTtHQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/foto-mendonca-3x2-1.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/sob-aplausos-ministro-andre-mendonca-do-stf-vota-no-2-turno-em-brasilia.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "e04c507e9ceb7038",
+      "titulo": "Eleições 2026: Chuva altera local de votação em Itapevi e Itupeva (SP)",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/eleicoes/eleicoes-2026-chuva-altera-local-de-votacao-em-itapevi-sp-para-2o-turno/",
+      "dataFonte": "2026-10-25T12:57:25.000Z",
+      "resumoFonte": "Tribunal Regional Eleitoral de São Paulo informou que os locais estão inacessível devido aos alagamentos na região; sessões foram transferidas para outras escolas",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/altera-votacao-itapevi.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-25T13:18:00.984Z",
+      "reportagem": {
+        "titulo": "Eleições 2026: Chuva altera local de votação em Itapevi e Itupeva (SP)",
+        "slug": "eleicoes-2026-chuva-altera-local-de-votacao-em-itapevi-e-itupeva-sp",
+        "categoria": "Justiça",
+        "data": "2026-10-25",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/eleicoes-2026-chuva-altera-local-de-votacao-em-itapevi-e-itupeva-sp.jpg",
+        "resumo": "Tribunal Regional Eleitoral de São Paulo informou que os locais estão inacessíveis devido aos alagamentos nas regiões; sessões foram transferidas para outras escolas",
+        "conteudo": "<p>A Justiça Eleitoral de São Paulo alterou emergencialmente um local de votação em Itapevi e dois em Itupeva , na Região Metropolitana de São Paulo, para o segundo turno das Eleições 2026, neste domingo (25).</p><h2>Mudança ocorreu após fortes chuvas atingirem o estado</h2><p>A mudança ocorreu após fortes chuvas atingirem o estado na noite de sábado (24) e na madrugada deste domingo.</p><p>Eleitores das seções 439ª e 474ª, que votariam no Cemeb Prof. Edevaldo Caramez , devem comparecer à Escola do Futuro ETI Professor Irany Toledo de Moraes , localizada na Rodovia Engenheiro Renê Benedito da Silva, 1.400, no Jardim Santa Rita, em Itapevi.</p><p>Segundo o TRE-SP (Tribunal Regional Eleitoral de São Paulo), o antigo local de votação, administrado pela 359ª Zona Eleitoral, está inacessível devido aos alagamentos na região.</p><h2>Em Itupeva , eleitores da Cemeb Monteiro Lobato e</h2><p>Em Itupeva , eleitores da Cemeb Monteiro Lobato e Cemeb Professora Thereza Angelina Lourençon passarão a votar no Centro de Convivência do Idoso, localizado na Rua Hermenegildo Baston, s/n, Jardim Nova Tuiuti.</p><p>Dúvidas sobre a transferência podem ser esclarecidas pela Central de Atendimento Telefônico ao Eleitor, no número 148. O serviço funciona em regime de plantão neste domingo, até as 17h30.</p><p>Os eleitores também podem consultar o endereço atualizado pelo aplicativo e-Título, basta acessar a opção “Onde votar”. Caso tenha ocorrido alteração para o pleito, o aplicativo exibirá um aviso, além de disponibilizar mapa e informações sobre como chegar ao local.</p><p>Outra opção é acessar o portal de autoatendimento eleitoral da Justiça Eleitoral. A consulta permite verificar o endereço, a seção e a zona eleitoral .</p><p>O TRE-SP ressalta que mudanças nos locais de votação são realizadas apenas em situações extraordinárias, como danos provocados por chuvas.</p><p>A Justiça Eleitoral de São Paulo alterou emergencialmente um local de votação em Itapevi e dois em Itupeva , na Região Metropolitana de São Paulo, para o segundo turno das Eleições 2026, neste domingo (25).</p><p>A mudança ocorreu após fortes chuvas atingirem o estado na noite de sábado (24) e na madrugada deste domingo. Eleitores das seções 439ª e 474ª, que votariam no Cemeb Prof.</p><p>Edevaldo Caramez , devem comparecer à Escola do Futuro ETI Professor Irany Toledo de Moraes , localizada na Rodovia Engenheiro Renê Benedito da Silva, 1.400, no Jardim Santa Rita, em Itapevi.</p><p>Segundo o TRE-SP (Tribunal Regional Eleitoral de São Paulo), o antigo local de votação, administrado pela 359ª Zona Eleitoral, está inacessível devido aos alagamentos na região.</p><p>Em Itupeva , eleitores da Cemeb Monteiro Lobato e Cemeb Professora Thereza Angelina Lourençon passarão a votar no Centro de Convivência do Idoso, localizado na Rua Hermenegildo Baston, s/n, Jardim Nova Tuiuti. Leia Mais</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/eleicoes/eleicoes-2026-chuva-altera-local-de-votacao-em-itapevi-sp-para-2o-turno/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A Justiça Eleitoral de São Paulo alterou emergencialmente um local de votação em Itapevi e dois em Itupeva , na Região Metropolitana de São Paulo, para o segundo turno das Eleições 2026, neste domingo (25). A mudança ocorreu após fortes chuvas atingirem o estado na noite de sábado (24) e na madrugada deste domingo."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Eleitores das seções 439ª e 474ª, que votariam no Cemeb Prof. Edevaldo Caramez , devem comparecer à Escola do Futuro ETI Professor Irany Toledo de Moraes , localizada na Rodovia Engenheiro Renê Benedito da Silva, 1.400, no Jardim Santa Rita, em Itapevi."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Segundo o TRE-SP (Tribunal Regional Eleitoral de São Paulo), o antigo local de votação, administrado pela 359ª Zona Eleitoral, está inacessível devido aos alagamentos na região."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Em Itupeva , eleitores da Cemeb Monteiro Lobato e Cemeb Professora Thereza Angelina Lourençon passarão a votar no Centro de Convivência do Idoso, localizado na Rua Hermenegildo Baston, s/n, Jardim Nova Tuiuti."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Dúvidas sobre a transferência podem ser esclarecidas pela Central de Atendimento Telefônico ao Eleitor, no número 148. O serviço funciona em regime de plantão neste domingo, até as 17h30."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/altera-votacao-itapevi.png?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/eleicoes-2026-chuva-altera-local-de-votacao-em-itapevi-e-itupeva-sp.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "e9ba25d49e6f84ea",
+      "titulo": "Moraes vota e diz que sistema eleitoral do Brasil é o melhor do mundo",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-eleicoes-2026/moraes-vota-e-diz-que-sistema-eleitoral-do-brasil-e-o-melhor-do-mundo/",
+      "dataFonte": "2026-10-25T12:43:46.000Z",
+      "resumoFonte": "Ministro do Supremo Tribunal Federal elogiou eleitores que saíram de casa para \"definir o futuro do Brasil\"",
+      "imagem": "https://static.poder360.com.br/uploads/2026/10/alexandre-moraes-1200x675.png",
+      "descobertaEm": "2026-10-25T13:18:00.984Z",
+      "reportagem": {
+        "titulo": "Moraes vota e diz que sistema eleitoral do Brasil é o melhor do mundo",
+        "slug": "moraes-vota-e-diz-que-sistema-eleitoral-do-brasil-e-o-melhor-do-mundo",
+        "categoria": "Justiça",
+        "data": "2026-10-25",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/moraes-vota-e-diz-que-sistema-eleitoral-do-brasil-e-o-melhor-do-mundo.jpg",
+        "resumo": "Ministro do Supremo Tribunal Federal elogiou eleitores que saíram de casa para &quot;definir o futuro do Brasil&quot;. Leia no Poder360.",
+        "conteudo": "<p>Ministro do Supremo Tribunal Federal elogiou eleitores que saíram de casa para “definir o futuro do Brasil”</p><h2>Ministro do Supremo Tribunal Federal, Alexandre de Moraes, votou</h2><p>O ministro do Supremo Tribunal Federal, Alexandre de Moraes, votou neste domingo (25.out.2026), às 8h, no colégio Madre Alix, no Jardim Paulistano, zona oeste de São Paulo (SP). Depois de votar, Moraes falou com jornalistas e elogiou o sistema eleitoral brasileiro.</p><p>“O Brasil tem o melhor sistema eleitoral do mundo. Estamos começando agora, às 8h. Às 17h, nós terminamos, e rapidamente os resultados saem” , declarou.</p><p>Moraes também parabenizou os eleitores que compareceram às urnas. “Parabéns a todos os eleitores e todas as eleitoras que estão comparecendo. É para deixar a sua opinião, deixar seu voto e decidir o futuro do país” , afirmou.</p><h2>Pesquisa do PoderData/Aya , divulgada neste domingo (25</h2><p>Pesquisa do PoderData/Aya , divulgada neste domingo (25.out.2026), mostra o senador Flávio Bolsonaro (PL) e o presidente Luiz Inácio Lula da Silva (PT) tecnicamente empatados em votos válidos na disputa de 2º turno pela Presidência.</p><p>Flávio tem 51% dos votos válidos, ante 49% de Lula.</p><p>A pesquisa foi realizada pelo PoderData , empresa do grupo Poder360 Jornalismo, com recursos próprios. O levantamento teve parceria de divulgação com o Aya Bancah, a maior e mais completa banca digital do Brasil.</p><p>Os dados foram coletados por meio de ligações para celulares e telefones fixos. Foram 4.000 entrevistas em 914 municípios das 27 unidades da Federação. A margem de erro é de 1,6 ponto percentual.</p><p>O intervalo de confiança é de 95%. Está registrada no Tribunal Superior Eleitoral sob o nº BR-02828/2026.</p><p>Moraes vota e diz que sistema eleitoral do Brasil é o melhor do mundo Ministro do Supremo Tribunal Federal elogiou eleitores que saíram de casa para “definir o futuro do Brasil” --> copiar link --></p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-eleicoes-2026/moraes-vota-e-diz-que-sistema-eleitoral-do-brasil-e-o-melhor-do-mundo/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Ministro do Supremo Tribunal Federal elogiou eleitores que saíram de casa para “definir o futuro do Brasil”"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O ministro do Supremo Tribunal Federal, Alexandre de Moraes, votou neste domingo (25.out.2026), às 8h, no colégio Madre Alix, no Jardim Paulistano, zona oeste de São Paulo (SP). Depois de votar, Moraes falou com jornalistas e elogiou o sistema eleitoral brasileiro."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "“O Brasil tem o melhor sistema eleitoral do mundo. Estamos começando agora, às 8h. Às 17h, nós terminamos, e rapidamente os resultados saem” , declarou."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Moraes também parabenizou os eleitores que compareceram às urnas. “Parabéns a todos os eleitores e todas as eleitoras que estão comparecendo. É para deixar a sua opinião, deixar seu voto e decidir o futuro do país” , afirmou."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Pesquisa do PoderData/Aya , divulgada neste domingo (25.out.2026), mostra o senador Flávio Bolsonaro (PL) e o presidente Luiz Inácio Lula da Silva (PT) tecnicamente empatados em votos válidos na disputa de 2º turno pela Presidência. Flávio tem 51% dos votos válidos, ante 49% de Lula."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/alexandre-moraes-1200x675.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/moraes-vota-e-diz-que-sistema-eleitoral-do-brasil-e-o-melhor-do-mundo.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "f19404c198281b67",
+      "titulo": "Expectativa é de paz e tranquilidade, diz Kassio ao votar",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/expectativa-e-de-paz-e-tranquilidade-diz-kassio-ao-votar.shtml",
+      "dataFonte": "2026-10-25T12:34:00.000Z",
+      "resumoFonte": "O presidente do TSE (Tribunal Superior Eleitoral), ministro Kassio Nunes Marques , votou na manhã deste domingo (25), em Brasília. Leia mais (10/25/2026 - 09h34)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/25/17929304796addf2afb7a3d_1792930479_3x2_rt.jpg",
+      "descobertaEm": "2026-10-25T13:18:00.984Z",
+      "reportagem": {
+        "titulo": "Expectativa é de paz e tranquilidade, diz Kassio ao votar",
+        "slug": "expectativa-e-de-paz-e-tranquilidade-diz-kassio-ao-votar",
+        "categoria": "Justiça",
+        "data": "2026-10-25",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/expectativa-e-de-paz-e-tranquilidade-diz-kassio-ao-votar.jpg",
+        "resumo": "Ministro ignorou pergunta sobre transporte de indígenas no segundo turno",
+        "conteudo": "<p>O presidente do TSE (Tribunal Superior Eleitoral), ministro Kassio Nunes Marques , votou na manhã deste domingo (25), em Brasília.</p><h2>\"A expectativa é de que tudo transcorra em paz</h2><p>\"A expectativa é de que tudo transcorra em paz e na normalidade\", disse Kassio a jornalistas ao sair da cabine eleitoral.</p><p>O ministro votou no Colégio Perpétuo Socorro, no Lago Sul, bairro nobre da capital federal, às 8h, quando foi iniciada a votação em todo o país.</p><p>Ele chegou ao local às 7h35, para acompanhar a emissão da zerésima, documento que comprova que a urna eletrônica ainda não recebeu nenhum voto.</p><h2>Kassio é natural de Teresina, capital do Piauí</h2><p>Kassio é natural de Teresina, capital do Piauí. Nas eleições deste ano, ele solicitou voto em trânsito. Dessa forma, ele não votou na disputa pelo governo do Distrito Federal , que será decidida no segundo turno entre Celina Leão (PP) e Leandro Grass (PT).</p><p>Ao sair do local, o magistrado foi questionado pela imprensa sobre determinação dele que exige autorização prévia para que órgãos públicos de todo o país façam o transporte de indígenas para o segundo turno das eleições.</p><p>A decisão foi contestada pela PGR (Procuradoria-Geral da República) no STF (Supremo Tribunal Federal). Kassio não falou sobre o tema.</p><p>Na noite de sábado (24), o presidente da corte eleitoral fez um pronunciamento em rede nacional sobre o segundo turno. O ministro alertou os eleitores para que checassem os locais de votação, já que alguns tiveram alterações ao longo da semana.</p><p>Além disso, o magistrado também pediu para que o eleitorado se mantivesse atento a mensagens com \"caráter sensacionalista e acusatório\" contra quaisquer candidatos ou contra a própria Justiça Eleitoral .</p><p>Kassio tomou posse como presidente do Tribunal Superior Eleitoral sob a promessa de \"autocontenção\", defendendo que a corte interferisse o mínimo possível nas disputas políticas.</p><p>Contudo, na reta final da campanha, Kassio abandonou a ideia, e, na avaliação de outros integrantes do tribunal, ele tem mostrado engajamento explícito na campanha do senador Flávio Bolsonaro (PL), que disputa com Luiz Inácio Lula da Silva (PT) a Presidência.</p><p>Ao longo da campanha, o ministro deu mais de uma decisão controversa, como a suspensão da divulgação da pesquisa Atlas/Bloomberg que mostrou queda nas intenções de voto de Flávio e a censura ao canal \"Exército do Lula\" no WhatsApp .</p><p>Mais de 180 reportagens e análises publicadas a cada dia. Um time com mais de 200 colunistas e blogueiros.</p><p>Um jornalismo profissional que fiscaliza o poder público, veicula notícias proveitosas e inspiradoras, faz contraponto à intolerância das redes sociais e traça uma linha clara entre verdade e mentira.</p><p>O presidente do TSE (Tribunal Superior Eleitoral), ministro Kassio Nunes Marques , votou na manhã deste domingo (25), em Brasília.</p><p>\"A expectativa é de que tudo transcorra em paz e na normalidade\", disse Kassio a jornalistas ao sair da cabine eleitoral.</p><p>O ministro votou no Colégio Perpétuo Socorro, no Lago Sul, bairro nobre da capital federal, às 8h, quando foi iniciada a votação em todo o país.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/10/expectativa-e-de-paz-e-tranquilidade-diz-kassio-ao-votar.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O presidente do TSE (Tribunal Superior Eleitoral), ministro Kassio Nunes Marques , votou na manhã deste domingo (25), em Brasília."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "\"A expectativa é de que tudo transcorra em paz e na normalidade\", disse Kassio a jornalistas ao sair da cabine eleitoral."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O ministro votou no Colégio Perpétuo Socorro, no Lago Sul, bairro nobre da capital federal, às 8h, quando foi iniciada a votação em todo o país."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Ele chegou ao local às 7h35, para acompanhar a emissão da zerésima, documento que comprova que a urna eletrônica ainda não recebeu nenhum voto."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Kassio é natural de Teresina, capital do Piauí. Nas eleições deste ano, ele solicitou voto em trânsito. Dessa forma, ele não votou na disputa pelo governo do Distrito Federal , que será decidida no segundo turno entre Celina Leão (PP) e Leandro Grass (PT)."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/25/17929304796addf2afb7a3d_1792930479_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/expectativa-e-de-paz-e-tranquilidade-diz-kassio-ao-votar.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "977cfa59f2e1d787",
+      "titulo": "TSE agiliza aprovação de transporte para indígenas e quilombolas",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Agência Brasil - Política",
+      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tse-agiliza-aprovacao-de-transporte-para-indigenas-e-quilombolas",
+      "dataFonte": "2026-10-25T12:27:00.000Z",
+      "resumoFonte": "O presidente do Tribunal Superior Eleitoral (TSE), ministro Kassio Nunes Marques, autorizou procedimento mais rápido para aprovar o transporte de indígenas, quilombolas e moradores de comunidades tradicionais até os locais de votação no segundo turno das eleições. A Justiça Eleitoral continuará autorizando os deslocamentos, mas não precisará…",
+      "imagem": "https://imagens.ebc.com.br/-pc2f_7PYY8YWaKNU0MhJV0Vxdc=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/predio-tse_mcamgo_abr_22062023-6.jpg?itok=uiHXLMal",
+      "descobertaEm": "2026-10-25T13:18:00.984Z",
+      "reportagem": {
+        "titulo": "TSE agiliza aprovação de transporte para indígenas e quilombolas",
+        "slug": "tse-agiliza-aprovacao-de-transporte-para-indigenas-e-quilombolas",
+        "categoria": "Justiça",
+        "data": "2026-10-25",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/tse-agiliza-aprovacao-de-transporte-para-indigenas-e-quilombolas.jpg",
+        "resumo": "Decisão foi assinada neste sábado (24), após a União apresentar plano logístico para transportar eleitores de áreas de difícil acesso às seções eleitorais.",
+        "conteudo": "<p>O presidente do Tribunal Superior Eleitoral (TSE), ministro Kassio Nunes Marques, autorizou procedimento mais rápido para aprovar o transporte de indígenas, quilombolas e moradores de comunidades tradicionais até os locais de votação no segundo turno das eleições.</p><h2>Justiça Eleitoral continuará autorizando os deslocamentos, mas não precisará</h2><p>A Justiça Eleitoral continuará autorizando os deslocamentos, mas não precisará analisar cada viagem separadamente.</p><p>A decisão foi assinada no sábado (24), após a União apresentar um plano logístico para levar eleitores de áreas de difícil acesso às seções eleitorais.</p><p>Na sexta-feira (23), Nunes Marques havia negado pedido da coligação Brasil Pronto Pra Mais para que veículos e embarcações da Fundação Nacional dos Povos Indígenas (Funai), da Secretaria de Saúde Indígena (Sesai) e do Ministério dos Povos Indígenas (MPI) fizessem o transporte sem autorização da Justiça Eleitoral.</p><h2>Na ocasião, o ministro determinou que os deslocamentos só</h2><p>Na ocasião, o ministro determinou que os deslocamentos só poderiam ocorrer com autorização prévia dos juízes eleitorais e mediante apresentação de informações sobre veículos, embarcações, condutores, trajetos e horários.</p><p>A nova decisão mantém essa exigência, mas altera a forma de aprovação. Em vez de analisar cada viagem separadamente, os juízes poderão autorizar de uma só vez conjuntos de deslocamentos previamente planejados pela União, com indicação dos veículos, condutores, rotas, horários e número estimado de passageiros.</p><p>Segundo o ministro, a medida preserva a fiscalização da Justiça Eleitoral e evita o problema de tempo para análise das autorizações antes da votação.</p><p>A decisão também requisita para este domingo (25) veículos e embarcações da Funai, da Sesai, dos Distritos Sanitários Especiais Indígenas (DSEIs), do Ministério dos Povos Indígenas e de outros órgãos federais incluídos no plano logístico da União.</p><p>Os meios de transporte em questão só poderão ser usados em deslocamentos autorizados pela Justiça Eleitoral. Nessas situações, serão considerados oficialmente a serviço da Justiça Eleitoral.</p><p>O ministro determinou ainda que veículos e embarcações tenham identificação visível e que não haja propaganda eleitoral nem referência a governo ou candidatura durante os deslocamentos.</p><p>A discussão ganhou destaque nos últimos dias após questionamentos sobre o acesso de eleitores indígenas de regiões remotas aos locais de votação.</p><p>No Amazonas, a União dos Povos Indígenas do Vale do Javari (Univaja) pediu apoio logístico para garantir o deslocamento de moradores da região, e o Tribunal Regional Eleitoral do estado confirmou posteriormente o atendimento da demanda.</p><p>Política Eleições: indígenas e quilombolas têm transporte garantido dom, 25/10/2026 - 10:38</p><p>Política Chuva altera local de votação em Itapevi, no interior paulista dom, 25/10/2026 - 10:37</p><p>Política TRE-SP substitui 52 urnas que apresentaram problemas no estado dom, 25/10/2026 - 10:06</p><p>Política TSE agiliza aprovação de transporte para indígenas e quilombolas dom, 25/10/2026 - 09:27</p>",
+        "fonteNome": "Agência Brasil - Política",
+        "fonteUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tse-agiliza-aprovacao-de-transporte-para-indigenas-e-quilombolas",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O presidente do Tribunal Superior Eleitoral (TSE), ministro Kassio Nunes Marques, autorizou procedimento mais rápido para aprovar o transporte de indígenas, quilombolas e moradores de comunidades tradicionais até os locais de votação no segundo turno das eleições."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A Justiça Eleitoral continuará autorizando os deslocamentos, mas não precisará analisar cada viagem separadamente."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A decisão foi assinada no sábado (24), após a União apresentar um plano logístico para levar eleitores de áreas de difícil acesso às seções eleitorais."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Na sexta-feira (23), Nunes Marques havia negado pedido da coligação Brasil Pronto Pra Mais para que veículos e embarcações da Fundação Nacional dos Povos Indígenas (Funai), da Secretaria de Saúde Indígena (Sesai) e do Ministério dos Povos Indígenas (MPI) fizessem o transporte sem autorização da Justiça Eleitoral."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Na ocasião, o ministro determinou que os deslocamentos só poderiam ocorrer com autorização prévia dos juízes eleitorais e mediante apresentação de informações sobre veículos, embarcações, condutores, trajetos e horários."
+          }
+        ],
+        "imagemOriginal": "https://imagens.ebc.com.br/-pc2f_7PYY8YWaKNU0MhJV0Vxdc=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/predio-tse_mcamgo_abr_22062023-6.jpg?itok=uiHXLMal",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/tse-agiliza-aprovacao-de-transporte-para-indigenas-e-quilombolas.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     }
   ],
-  "reapuradoEm": "2026-10-25T12:48:31.968Z",
+  "reapuradoEm": "2026-10-25T13:48:26.184Z",
   "diagnosticoReapuracao": {
-    "produzidas": 8,
+    "produzidas": 15,
     "jaProntas": 0,
-    "incompletas": 3,
+    "incompletas": 6,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 8,
+    "geradas": 15,
     "reaproveitadas": 0,
-    "puladas": 3,
+    "puladas": 6,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-10-25T12:49:08.047Z"
+  "lapisEm": "2026-10-25T13:49:30.411Z"
 }
