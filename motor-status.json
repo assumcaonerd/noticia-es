@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-25T15:18:05.168Z",
+  "atualizadoEm": "2026-10-25T16:18:11.353Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 91,
+  "novasPautas": 92,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -254,10 +254,8 @@
     },
     {
       "fonte": "Senado Notícias",
-      "ok": true,
-      "encontrados": 0,
-      "rota": "https://www12.senado.leg.br/noticias/feed/todasnoticias",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www12.senado.leg.br/noticias/feed/todasnoticias -> fetch failed"
     },
     {
       "fonte": "Câmara dos Deputados",
@@ -297,7 +295,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 5,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -323,7 +321,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 21,
+      "encontrados": 15,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,7 +374,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-25T15:20:18.455Z",
+    "atualizadoEm": "2026-10-25T16:22:10.028Z",
     "novas": 4,
     "fontes": [
       {
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-25T15:20:19.993Z",
+    "atualizadoEm": "2026-10-25T16:22:12.105Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-25T15:20:20.955Z",
+    "atualizadoEm": "2026-10-25T16:22:13.233Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-25T15:20:31.529Z",
+    "atualizadoEm": "2026-10-25T16:22:23.791Z",
     "novas": 0,
     "fontes": [
       {
