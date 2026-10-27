@@ -37,7 +37,7 @@ for(const match of manifest.matchAll(/["'](auto-redacao-[a-zA-Z0-9-]+\.js)["']/g
    '<div class="conteudo-materia">'+(n.conteudo||'')+'</div></article></main>',
    '<footer class="site-footer"><div class="container"><a href="../index.html">Notícia ES</a></div></footer>',
    '<script src="../share-bar.js?v=20261022"></script></body></html>'].join('\n');
-  fs.writeFileSync(dest,html);made++;
+  if(!fs.existsSync(dest) || fs.readFileSync(dest,'utf8')!==html){fs.writeFileSync(dest,html);made++;}
  }
 }
 console.log('Paginas geradas: '+made+'; erros: '+errors);
