@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-26T23:18:57.462Z",
+  "atualizadoEm": "2026-10-27T00:18:11.349Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 87,
+  "novasPautas": 86,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -290,14 +290,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 10,
+      "encontrados": 8,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 8,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -323,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 13,
+      "encontrados": 9,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-26T23:22:11.257Z",
+    "atualizadoEm": "2026-10-27T00:20:41.684Z",
     "novas": 0,
     "fontes": [
       {
@@ -406,8 +406,8 @@
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-26T23:22:12.993Z",
+    "atualizadoEm": "2026-10-27T00:20:43.020Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-26T23:22:14.295Z",
+    "atualizadoEm": "2026-10-27T00:20:44.073Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-26T23:22:24.868Z",
+    "atualizadoEm": "2026-10-27T00:20:54.647Z",
     "novas": 0,
     "fontes": [
       {
