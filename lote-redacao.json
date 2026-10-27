@@ -1,28 +1,28 @@
 {
-  "geradoEm": "2026-10-27T11:48:34.433Z",
+  "geradoEm": "2026-10-27T12:48:30.421Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
-    "totalPendentes": 66,
-    "bloqueadas": 0,
-    "bloqueadasEditoriais": 8,
+    "totalPendentes": 67,
+    "bloqueadas": 1,
+    "bloqueadasEditoriais": 7,
     "semImagem": 0,
-    "duplicadasBasicas": 5,
+    "duplicadasBasicas": 0,
     "duplicadasSemanticas": 2,
-    "foraCategorias": 33
+    "foraCategorias": 39
   },
   "quantidadeCandidatas": 18,
   "candidatas": [
     {
-      "id": "5c4ed027c3911951",
-      "titulo": "Estadão critica discurso de vitória de Lula e cobra união nacional",
+      "id": "dc58d2aa96eac033",
+      "titulo": "Na Serra, Pazolini venceu em 41 bairros e Ricardo em 30 no 2º turno; veja mapa",
       "categoria": "Política ES",
       "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/imprensa/iestadao-i-critica-discurso-de-vitoria-de-lula-e-cobra-uniao-nacional/",
-      "dataFonte": "2026-10-27T10:08:35.000Z",
-      "resumoFonte": "O jornal O Estado de S.Paulo criticou, em editorial nesta terça-feira, 27, o discurso de vitória do presidente Luiz Inácio Lula da Silva. Para o veículo, o petista perdeu a oportunidade de reduzir a tensão política ao atacar o adversário e a imprensa profissional. O veículo afirma que todos devem respeitar o resultado legítimo das urnas, a começar…",
-      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
-      "descobertaEm": "2026-10-27T10:18:44.228Z"
+      "fonteNome": "A Gazeta - Política",
+      "urlFonte": "https://www.agazeta.com.br/es/politica/na-serra-pazolini-venceu-em-41-bairros-e-ricardo-em-30-no-2-turno-veja-mapa-1026",
+      "dataFonte": "2026-10-27T11:19:22.000Z",
+      "resumoFonte": "O avanço da disputa pelo governo do Estado mudou a preferência do eleitorado nas localidades do município entre os dois turnos de votação",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1793052252980_serra_governador.jpg",
+      "descobertaEm": "2026-10-27T12:18:15.264Z"
     },
     {
       "id": "529b96be057ed27f",
@@ -85,374 +85,86 @@
       }
     },
     {
-      "id": "ac87b740de90eb2e",
-      "titulo": "Governo prorroga subvenção ao diesel por mais 30 dias",
+      "id": "c5ea398d5bc7e691",
+      "titulo": "Dólar hoje corrige parte da forte alta registrada após vitória de Lula",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/economia/noticia/2026/10/27/governo-prorroga-subvencao-ao-diesel-por-mais-30-dias.ghtml",
-      "dataFonte": "2026-10-27T11:13:04.000Z",
-      "resumoFonte": "O Ministério do Planejamento informou nesta terça-feira (27) que foi prorrogada a chamada subvenção ao diesel, ou seja, um tipo de subsídio, por mais 30 dias. Com isso, está mantida em anteve em R$ 2,12 a subvenção para manter o preço do combustível mais baixo (entenda a composição mais abaixo). Sem a renovação, o benefício acabaria nesta semana.…",
-      "imagem": "https://s2-g1.glbimg.com/0DF8JvbZYk2dFXopn_3FZQ5R65w=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s04.video.glbimg.com/deo/vi/55/20/992055",
-      "descobertaEm": "2026-10-27T11:18:25.143Z"
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-27102026/",
+      "dataFonte": "2026-10-27T12:16:36.000Z",
+      "resumoFonte": "Notas de dólar -20/12/2025 (Foto: Majid Asgaripour/WANA – Agência de Notícias da Ásia Ocidental – via REUTERS) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/04/2026-04-23T223943Z_1_LYNXMPEM3M1IY_RTROPTP_4_IRAN-ECONOMY.jpg?fit=1280%2C853&quality=70&strip=all\" />A alta registrada na segunda-feira, na esteira da reeleição do…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/04/2026-04-23T223943Z_1_LYNXMPEM3M1IY_RTROPTP_4_IRAN-ECONOMY.jpg",
+      "descobertaEm": "2026-10-27T12:18:15.264Z",
+      "reportagem": {
+        "titulo": "Dólar hoje corrige parte da forte alta registrada após vitória de Lula",
+        "slug": "dolar-hoje-corrige-parte-da-forte-alta-registrada-apos-vitoria-de-lula",
+        "categoria": "Economia",
+        "data": "2026-10-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/dolar-hoje-corrige-parte-da-forte-alta-registrada-apos-vitoria-de-lula.jpg",
+        "resumo": "A alta registrada na segunda-feira, na esteira da reeleição do presidente Luiz Inácio Lula da Silva, foi a maior da moeda americana em 23 anos",
+        "conteudo": "<p>O dólar à vista opera em queda ante o real nesta terça-feira (27), em movimento de correção após disparar 8,36% na sessão anterior.</p><h2>Alta registrada na segunda-feira (26), na esteira</h2><p>A alta registrada na segunda-feira (26), na esteira da reeleição do presidente Luiz Inácio Lula da Silva (PT), foi a maior da moeda americana em 23 anos.</p><p>Dólar: Confira a cotação e fechamento diário do dólar comercial</p><p>Às 9h05, o dólar à vista operava com baixa de 0,22%, a R$ 5,391 na venda. O dólar futuro para novembro — o mais negociado no Brasil — subia 0,41% na B3, aos R$ 5,400.</p><h2>Índices futuros dos EUA avançam de olho em balanços</h2><p>Índices futuros dos EUA avançam de olho em balanços e decisão sobre juros</p><p>Apesar dos ganhos no pré-mercado, o desempenho dos ativos no exterior não garante uma recuperação do Ibovespa ao longo do pregão</p><p>A atenção dos investidores agora se volta à formação da equipe econômica e aos sinais sobre a condução da política fiscal, especialmente em relação a medidas capazes de colocar a dívida pública em uma trajetória mais sustentável.</p><p>De olho em 2027, Lula já busca apoio dos presidentes da Câmara, Hugo Motta, e do Senado, Davi Alcolumbre, para articular sua agenda em um Congresso que deve impor desafios à governabilidade.</p><p>Nesta manhã, o Citigroup e a BCA Research rebaixaram a recomendação dos ativos brasileiros após a vitória eleitoral de Lula, argumentando que o perfil de risco-retorno para ações, títulos e moeda se deteriorou, à medida que os investidores reavaliam as perspectivas de disciplina fiscal e reformas estruturais sob o novo governo.</p><p>Às 11h, o presidente do Banco Central, Gabriel Galípolo, concede entrevista coletiva sobre o Relatório de Estabilidade Financeira. Às 11h30, o BC realiza leilão de rolagem de swap cambial de até US$ 4 bilhões.</p><p>Ao meio-dia, a autoridade monetária promove operação compromissada de até R$ 5 bilhões em títulos públicos.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-27102026/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O dólar à vista opera em queda ante o real nesta terça-feira (27), em movimento de correção após disparar 8,36% na sessão anterior. A alta registrada na segunda-feira (26), na esteira da reeleição do presidente Luiz Inácio Lula da Silva (PT), foi a maior da moeda americana em 23 anos."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Dólar: Confira a cotação e fechamento diário do dólar comercial"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Às 9h05, o dólar à vista operava com baixa de 0,22%, a R$ 5,391 na venda. O dólar futuro para novembro — o mais negociado no Brasil — subia 0,41% na B3, aos R$ 5,400."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Índices futuros dos EUA avançam de olho em balanços e decisão sobre juros"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Apesar dos ganhos no pré-mercado, o desempenho dos ativos no exterior não garante uma recuperação do Ibovespa ao longo do pregão"
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/04/2026-04-23T223943Z_1_LYNXMPEM3M1IY_RTROPTP_4_IRAN-ECONOMY.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/dolar-hoje-corrige-parte-da-forte-alta-registrada-apos-vitoria-de-lula.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
-      "id": "e15e5bb40ff38734",
-      "titulo": "Filha se declara após morte de cantora gospel: “Mamãe, você é meu coração”",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/distrito-federal/na-mira/filha-se-declara-apos-morte-de-cantora-gospel-mamae-voce-e-meu-coracao",
-      "dataFonte": "2026-10-27T10:07:11.000Z",
-      "resumoFonte": "Um dia antes da morte em Goiânia, a cantora Sara Araújo foi submetida a um cirurgia devido a complicações relacionadas a uma hérnia",
-      "imagem": "https://i.metroimg.com/UwAwNp9R2n2ZMVro2q0FNQlZf8Y4FkcR5kUVQXVsHqI/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/harpista-e-a-mae-cantora-gospel-que-morreu.jpg",
-      "descobertaEm": "2026-10-27T10:18:44.228Z"
-    },
-    {
-      "id": "a871faea937fd0ac",
-      "titulo": "Flávio Bolsonaro deve entregar nesta terça (27) os passaportes à Polícia Federal",
-      "categoria": "Justiça",
+      "id": "1b2eca1e3a4bda36",
+      "titulo": "Flávio está mostrando que não estava à altura dessa disputa:",
+      "categoria": "Cidades",
       "radar": null,
       "fonteNome": "CBN - Política",
-      "urlFonte": "https://cbn.globo.com/politica/noticia/2026/10/27/flavio-bolsonaro-deve-entregar-nesta-terca-27-os-passaportes-a-policia-federal.ghtml",
-      "dataFonte": "2026-10-27T09:20:06.396Z",
-      "resumoFonte": "Parlamentar foi intimado pela PF por determinação do ministro Alexandre de Moraes, do STF.",
-      "imagem": "https://s2-cbn.glbimg.com/KJNmpJRkqApxSbDclddTC9KpSOM=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/C/q/txQfYxSAG4QLTxpbhXxg/afp-20261013-d34w7fr-v1-midres-brazilelectionrunoffvisit.jpg",
-      "descobertaEm": "2026-10-27T10:18:44.228Z"
-    },
-    {
-      "id": "4755aaca335691e7",
-      "titulo": "José Antonio Kast irá à posse de Lula, diz governo chileno",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "Poder360",
-      "urlFonte": "https://www.poder360.com.br/poder-internacional/jose-antonio-kast-ira-a-posse-de-lula-diz-governo-chileno/",
-      "dataFonte": "2026-10-27T10:07:58.000Z",
-      "resumoFonte": "Presidente do Chile reconheceu vitória do petista e afirmou que trabalha por agenda comum entre os 2 países. Leia no Poder360.",
-      "imagem": "https://static.poder360.com.br/uploads/2026/10/subsecretario-Gonzalo-Arenas-governo-Chile-26out2026-1-1200x675.jpg",
-      "descobertaEm": "2026-10-27T10:18:44.228Z"
-    },
-    {
-      "id": "1343f460f8745af5",
-      "titulo": "Manifesto pede proteção ao orçamento de agências reguladoras para impedir contingenciamento",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/10/manifesto-pede-protecao-ao-orcamento-de-agencias-reguladoras-para-impedir-contingenciamento.shtml",
-      "dataFonte": "2026-10-27T10:00:00.000Z",
-      "resumoFonte": "Cerca de 40 entidades apresentam nesta terça-feira (27) um manifesto em apoio à autonomia financeira das agências regulatórias . Após as eleições, empresários fazem pressão sobre o novo Congresso Nacional para aprovar medidas que impeçam o contingenciamento de recursos dessas entidades. Leia mais (10/27/2026 - 07h00)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2025/07/15/17525894686876649c65ca1_1752589468_3x2_rt.jpg",
-      "descobertaEm": "2026-10-27T10:18:44.228Z",
+      "urlFonte": "https://cbn.globo.com/coberturas/eleicoes-2026/entrevista/2026/10/27/flavio-esta-mostrando-que-nao-estava-a-altura-dessa-disputa-se-comporta-como-um-menino-avalia-um-dos-coordenadores-da-campanha-de-lula.ghtml",
+      "dataFonte": "2026-10-27T11:31:17.948Z",
+      "resumoFonte": "Em entrevista ao Jornal da CBN, o advogado Marco Aurélio de Carvalho, um dos coordenadores da campanha a reeleição do presidente Lula, destaca que a vitória é indiscutível.",
+      "imagem": "https://s2-cbn.glbimg.com/PUn_kEbZP3C3pAEfX8aUWhH0M5s=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/f/G/rAULElQIq85l0X4kAI3Q/captura-de-tela-2026-10-25-224310.png",
+      "descobertaEm": "2026-10-27T12:18:15.264Z",
       "reportagem": {
-        "titulo": "Painel: Manifesto pede proteção ao orçamento de agências reguladoras para impedir contingenciamento",
-        "slug": "painel-manifesto-pede-protecao-ao-orcamento-de-agencias-reguladoras-para-impedir-contingen",
-        "categoria": "Política Nacional",
+        "titulo": "Flávio está mostrando que não estava à altura dessa disputa:",
+        "slug": "flavio-esta-mostrando-que-nao-estava-a-altura-dessa-disputa",
+        "categoria": "Cidades",
         "data": "2026-10-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/painel-manifesto-pede-protecao-ao-orcamento-de-agencias-reguladoras-para-impedir-contingen.jpg",
-        "resumo": "Proposta é defendida por quase 40 entidades e pede aprovação de projeto em tramitação na Câmara",
-        "conteudo": "<p>Editado por Fábio Zanini, espaço traz notícias e bastidores da política. Com Carlos Petrocilo e Gabriela Echenique</p><h2>Receba no seu email as informações exclusivas da coluna</h2><p>Receba no seu email as informações exclusivas da coluna Painel</p><p>Cerca de 40 entidades apresentam nesta terça-feira (27) um manifesto em apoio à autonomia financeira das agências regulatórias .</p><p>Após as eleições, empresários fazem pressão sobre o novo Congresso Nacional para aprovar medidas que impeçam o contingenciamento de recursos dessas entidades.</p><h2>Manifesto será entregue a parlamentares durante o Infra&amp;Reg,</h2><p>O manifesto será entregue a parlamentares durante o Infra&amp;Reg, em Brasília, e deve contar com o endosso de atuais e ex-diretores de agências brasileiras.</p><p>O documento, intitulado \"Regulação não é gasto, é investimento\", quer sensibilizar os parlamentares de que é preciso garantir recursos no Orçamento de 2027 para que elas funcionem normalmente e sem cortes.</p><p>A mobilização é feita após o resultado das eleições de 2026.</p><p>Entre as prioridades do setor, está a aprovação de projeto de lei que protege os recursos das agências. Outro pedido é pela derrubada do veto do presidente Lula ( PT ) ao texto que impedia que o governo congelasse o orçamento das agências.</p><p>Para as entidades, a medida feria a autonomia financeira dos órgãos. Por isso, elas pedem atuação do Congresso Nacional para garantir a previsibilidade regulatória e segurança jurídica para os investimentos no país.</p><p>LINK PRESENTE: Gostou deste texto? Assinante pode liberar sete acessos gratuitos de qualquer link por dia. Basta clicar no F azul abaixo.</p><p>Mais de 180 reportagens e análises publicadas a cada dia. Um time com mais de 200 colunistas e blogueiros.</p><p>Um jornalismo profissional que fiscaliza o poder público, veicula notícias proveitosas e inspiradoras, faz contraponto à intolerância das redes sociais e traça uma linha clara entre verdade e mentira.</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://www1.folha.uol.com.br/colunas/painel/2026/10/manifesto-pede-protecao-ao-orcamento-de-agencias-reguladoras-para-impedir-contingenciamento.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Editado por Fábio Zanini, espaço traz notícias e bastidores da política. Com Carlos Petrocilo e Gabriela Echenique"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Receba no seu email as informações exclusivas da coluna Painel"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Cerca de 40 entidades apresentam nesta terça-feira (27) um manifesto em apoio à autonomia financeira das agências regulatórias . Após as eleições, empresários fazem pressão sobre o novo Congresso Nacional para aprovar medidas que impeçam o contingenciamento de recursos dessas entidades."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O manifesto será entregue a parlamentares durante o Infra&amp;Reg, em Brasília, e deve contar com o endosso de atuais e ex-diretores de agências brasileiras."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O documento, intitulado \"Regulação não é gasto, é investimento\", quer sensibilizar os parlamentares de que é preciso garantir recursos no Orçamento de 2027 para que elas funcionem normalmente e sem cortes."
-          }
-        ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2025/07/15/17525894686876649c65ca1_1752589468_3x2_rt.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/painel-manifesto-pede-protecao-ao-orcamento-de-agencias-reguladoras-para-impedir-contingen.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "c7da75d8f9d58671",
-      "titulo": "Saiba quais ações estão na pauta do Congresso nesta 3ª feira",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-congresso/saiba-quais-acoes-estao-na-pauta-do-congresso-nesta-3a-feira-2/",
-      "dataFonte": "2026-10-27T09:15:50.000Z",
-      "resumoFonte": "Comissão de Indústria e Comércio vota o projeto de Lei complementar que altera o Marco Legal das Startups",
-      "imagem": "https://static.poder360.com.br/uploads/2026/08/capas-posts-regulares-1200x675.png",
-      "descobertaEm": "2026-10-27T09:18:36.570Z"
-    },
-    {
-      "id": "71957be24d4217e3",
-      "titulo": "Lula faz 81 anos e mira legado após nova reinvenção na política",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Poder360",
-      "urlFonte": "https://www.poder360.com.br/poder-governo/lula-faz-81-anos-e-mira-legado-apos-nova-reinvencao-na-politica/",
-      "dataFonte": "2026-10-27T09:00:26.000Z",
-      "resumoFonte": "Reeleito para inédito 4º mandato, petista promete governar diferente, mas terá de enfrentar rejeição, crise fiscal e Congresso à direita. Leia no Poder360.",
-      "imagem": "https://static.poder360.com.br/uploads/2026/10/Lula-no-Congresso-com-Constituicao-16-out-2026-1200x675.jpg",
-      "descobertaEm": "2026-10-27T10:18:44.228Z",
-      "reportagem": {
-        "titulo": "Lula faz 81 anos e mira legado após nova reinvenção na política",
-        "slug": "lula-faz-81-anos-e-mira-legado-apos-nova-reinvencao-na-politica",
-        "categoria": "Política Nacional",
-        "data": "2026-10-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-faz-81-anos-e-mira-legado-apos-nova-reinvencao-na-politica.jpg",
-        "resumo": "Reeleito para inédito 4º mandato, petista promete governar diferente, mas terá de enfrentar rejeição, crise fiscal e Congresso à direita. Leia no Poder360.",
-        "conteudo": "<p>Reeleito para inédito 4º mandato, petista promete governar diferente, mas terá de enfrentar rejeição, crise fiscal e Congresso à direita.</p><h2>Dois dias depois de uma virada histórica e</h2><p>Dois dias depois de uma virada histórica e ser eleito para um 4º mandato , o presidente Luiz Inácio Lula da Silva (PT) completa 81 anos nesta 3ª feira (27.out.2026).</p><p>Aos olhos de aliados e adversários, o petista tenta transformar o resultado das urnas no capítulo final de uma biografia. Quer deixar um legado e, para isso, diz que precisará governar de outro jeito.</p><p>Lula derrotou o senador Flávio Bolsonaro (PL) no domingo (25.out) por 51,79% a 48,21% dos votos. Toma posse em 5 de janeiro de 2027 e deixará o Planalto aos 85 anos, em 2031.</p><h2>Será o presidente mais velho a assumir o cargo</h2><p>Será o presidente mais velho a assumir o cargo no país e o 1º eleito 4 vezes pelo voto direto. Somados os mandatos, terá 16 anos no poder, o dobro de Fernando Henrique Cardoso (PSDB).</p><p>Virar no 2º turno e governar o país 4 vezes é um feito só de Lula.</p><p>A data tem peso na biografia do petista. Foi no dia em que completou 57 anos, em 27 de outubro de 2002, que Lula foi eleito pela 1ª vez presidente da República, com 61,27% dos votos válidos no 2º turno contra José Serra (PSDB).</p><p>No discurso da vitória , no domingo (25.out), o petista tratou a idade como compromisso, e não como obstáculo. “Eu estou com 80 anos e vou completar 81 depois de amanhã” , disse.</p><p>Prometeu fazer “o melhor mandato” que um presidente já fez na história do país e dedicar 24 horas por dia ao trabalho.</p><p>Também lembrou Franklin Roosevelt, único presidente americano eleito 4 vezes, que não terminou o último mandato por causa de uma doença grave. “O Lulinha vai terminar esse mandato correndo mais do que qualquer um de vocês”, afirmou.</p><p>O tom de renovação tem origem numa campanha que quase deu errado. Lula terminou o 1º turno atrás de Flávio por mais de 2 milhões de votos, o que mudou a estratégia petista. Ele próprio chegou a classificar a campanha como a menos organizada de que participou desde 1989 .</p><p>O diagnóstico interno foi de que o PT havia subestimado as redes sociais. A campanha demorou a entender os formatos virais e seguiu a cartilha tradicional, com o 1º turno dedicado a propostas e o 2º ao desgaste do adversário.</p><p>Foi nesse vácuo que cresceu o deputado André Janones (Rede-MG), responsável pelo “Exército do Lula” . O canal de WhatsApp reuniu milhões de inscritos e passou a distribuir missões diárias de engajamento a militantes.</p><p>Lula, que sempre se declarou distante do celular e das redes, aceitou participar de lives e vídeos curtos e viu a campanha ocupar um espaço antes dominado pela direita.</p><p>Leia análise do Poder360 sobre a mobilização digital .</p><p>O resultado foi a 1ª virada entre os 2 turnos de uma eleição presidencial no país, e a experiência da campanha passou a orientar uma promessa de governo.</p><p>No discurso, Lula disse que ganhou um celular do governador do Piauí, Rafael Fonteles (PT), e que já está “aprendendo a conversar” . Afirmou que falará com a população “muitas vezes por dia, diretamente” .</p><p>Acrescentou também que a comunicação digital terá “um espaço muito grande” no governo. Num ambiente em que o bolsonarismo domina o debate on-line, o presidente quer criar um canal próprio com o eleitor.</p><p>A vitória veio com uma rejeição alta que ombreia a rejeição do governo –um problema que o Lula 3 sempre enfrentou.</p><p>O pico foi em maio de 2025: 57% desaprovavam e 40% aprovavam , o pior índice do 3º mandato. Naquela rodada, 56% dos entrevistados diziam que o 3º governo de Lula estava pior que os anteriores, e 31% apontavam o governo como responsável pelo desvio de dinheiro do INSS.</p><p>Em julho de 2026, a Quaest registrou 48% de aprovação e 47% de desaprovação , a 1ª vez com saldo positivo desde dezembro de 2024. No fim de agosto, a desaprovação voltou à frente.</p><p>No 2º turno, o Datafolha chegou a 50% de desaprovação em 15 de outubro e recuou para 48% no dia 22, com 49% de aprovação.</p><p>O desafio de ampliar a base é maior entre os evangélicos. Levantamento PoderData/Aya de agosto mostrou que 62% desse grupo desaprovam o presidente.</p>",
-        "fonteNome": "Poder360",
-        "fonteUrl": "https://www.poder360.com.br/poder-governo/lula-faz-81-anos-e-mira-legado-apos-nova-reinvencao-na-politica/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Reeleito para inédito 4º mandato, petista promete governar diferente, mas terá de enfrentar rejeição, crise fiscal e Congresso à direita."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Dois dias depois de uma virada histórica e ser eleito para um 4º mandato , o presidente Luiz Inácio Lula da Silva (PT) completa 81 anos nesta 3ª feira (27.out.2026). Aos olhos de aliados e adversários, o petista tenta transformar o resultado das urnas no capítulo final de uma biografia. Quer deixar um legado e, para isso, diz que precisará governar de outro "
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Lula derrotou o senador Flávio Bolsonaro (PL) no domingo (25.out) por 51,79% a 48,21% dos votos. Toma posse em 5 de janeiro de 2027 e deixará o Planalto aos 85 anos, em 2031. Será o presidente mais velho a assumir o cargo no país e o 1º eleito 4 vezes pelo voto direto. Somados os mandatos, terá 16 anos no poder, o dobro de Fernando Henrique Cardoso (PSDB)."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Virar no 2º turno e governar o país 4 vezes é um feito só de Lula."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A data tem peso na biografia do petista. Foi no dia em que completou 57 anos, em 27 de outubro de 2002, que Lula foi eleito pela 1ª vez presidente da República, com 61,27% dos votos válidos no 2º turno contra José Serra (PSDB)."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/Lula-no-Congresso-com-Constituicao-16-out-2026-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-faz-81-anos-e-mira-legado-apos-nova-reinvencao-na-politica.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "22f9653646525698",
-      "titulo": "IPC-Fipe desacelera para 0,52% na 3ª quadrissemana de outubro",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/economia/ipc-fipe-desacelera-para-052-na-3a-quadrissemana-de-outubro/",
-      "dataFonte": "2026-10-27T11:06:57.000Z",
-      "resumoFonte": "Aumento de preços de Alimento \" data-image-caption=\" (Stock Adobe/Montagem IM – Leo Albertino) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2024/12/Aumento-de-Alimento3.jpg?fit=1280%2C718&quality=70&strip=all\" />Na terceira leitura de outubro, três dos sete grupos do IPC-Fipe perderam força ante a segunda quadrissemana:…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2024/12/Aumento-de-Alimento3.jpg",
-      "descobertaEm": "2026-10-27T11:18:25.143Z"
-    },
-    {
-      "id": "00528002c679934c",
-      "titulo": "Mini-índice (WINZ26) tenta reagir após tombo histórico; veja os níveis",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mercados/mini-indice-hoje-futuro-ibovespa-winz26-27102026/",
-      "dataFonte": "2026-10-27T10:07:00.000Z",
-      "resumoFonte": "Confira o que a análise técnica aponta para o mini-índice hoje (27 de outubro) The post Mini-índice (WINZ26) tenta reagir após tombo histórico; veja os níveis appeared first on InfoMoney .",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/10/WINZ26-15-MINUTOS-27.10.2026.png?fit=1882%2C860&quality=70&strip=all",
-      "descobertaEm": "2026-10-27T10:18:44.228Z",
-      "reportagem": {
-        "titulo": "Mini-índice (WINZ26) tenta reagir após tombo histórico; veja os níveis",
-        "slug": "mini-indice-winz26-tenta-reagir-apos-tombo-historico-veja-os-niveis",
-        "categoria": "Economia",
-        "data": "2026-10-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mini-indice-winz26-tenta-reagir-apos-tombo-historico-veja-os-niveis.jpg",
-        "resumo": "Mini-índice (WINZ26): Confira os pontos de suporte e resistência nesta terça (27). Confira também os minicontratos.",
-        "conteudo": "<p>Os contratos de mini-índice (WINZ26) , com vencimento em dezembro, encerraram a última sessão (26/10) em forte queda de 14,39%, aos 178.360 pontos .</p><h2>Contratos de mini-índice deverão refletir a queda histórica</h2><p>Os contratos de mini-índice deverão refletir a queda histórica de 13,88% do Ibovespa, aos 176.608,23 pontos , após a reeleição de Luiz Inácio Lula da Silva contrariar o posicionamento predominante do mercado.</p><p>A forte reprecificação provocou circuit breaker , disparada dos juros futuros e alta de 8,21% do dólar , em meio aos temores com o cenário fiscal.</p><p>No exterior, Wall Street e as bolsas europeias avançaram, enquanto o petróleo recuou, mas o ambiente favorável não conseguiu amenizar a aversão ao risco no Brasil.</p><h2>Para os traders de mini-índice, o foco estará</h2><p>Para os traders de mini-índice, o foco estará na continuidade da pressão vendedora ou em uma tentativa de recuperação após a queda acentuada.</p><p>Bancos, B3 ( B3SA3 ), varejistas e Petrobras ( PETR3 ; PETR4 ) permanecem entre os principais vetores de volatilidade, enquanto exportadoras como Vale ( VALE3 ), Suzano ( SUZB3 ) e Embraer ( EMBJ3 ) poderão oferecer alguma sustentação com a valorização do dólar.</p><p>A reação dos juros futuros, as sinalizações fiscais do governo reeleito e o índice de preços ao produtor no Brasil deverão orientar os negócios.</p><p>Bolsa antes da eleição: vale carregar ações do último pregão até segunda-feira?</p><p>No gráfico de 15 minutos, observo que o WINZ26 encerrou a última sessão com forte desvalorização, apesar da recuperação registrada ao longo do pregão.</p><p>Essa reação colocou o contrato acima das médias móveis de 9 e 21 períodos, mas não alterou o predomínio do fluxo vendedor observado na sessão.</p><p>Para que o mini-índice prolongue o movimento de baixa, será necessária a perda da faixa de 177.660/176.635 pontos .</p><p>O rompimento desse intervalo poderá intensificar a pressão vendedora e levar o contrato em direção a 174.695/171.850 pontos . Em uma correção mais extensa, o alvo ficará na região de 170.250/166.790 pontos .</p><p>Para desenvolver uma recuperação, o ativo precisará superar inicialmente a resistência em 180.490/181.470 pontos . Acima dessa região, vejo espaço para um avanço em direção a 182.160/182.500 pontos . O objetivo mais longo desse movimento está em 183.270/184.170 pontos .</p><p>No gráfico diário , vejo o mini-índice encerrar a sessão com uma forte queda e ampliar consideravelmente o fluxo vendedor. O contrato passou a negociar abaixo das médias móveis de 9, 21 e 200 períodos, com elevado afastamento em relação a elas.</p><p>Essa configuração mantém o viés principal de baixa, mas o movimento esticado exige atenção à possibilidade de um repique técnico.</p><p>Para construir uma recuperação mais consistente, será necessária uma entrada relevante de fluxo comprador e a superação da região de resistência em 180.490/186.275 pontos .</p><p>Acima dessa faixa, os próximos objetivos estarão em 198.215/205.865 pontos .</p><p>Para dar continuidade ao movimento de baixa, acompanho os suportes em 166.790/162.145 pontos . A perda dessa região poderá ampliar a pressão vendedora e abrir caminho para 156.720/150.485 pontos .</p><p>O IFR de 14 períodos recuou para 30,71 , aproximando-se da faixa de sobrevenda. Na minha avaliação, o indicador reforça o forte predomínio vendedor, mas também sinaliza que o contrato poderá apresentar repiques após a queda acentuada.</p><p>Essa leitura, isoladamente, ainda não confirma uma reversão.</p><p>No gráfico de 60 minutos , observo que o mini-índice também fechou com forte baixa e abaixo das médias móveis de 9 e 21 períodos.</p><p>O afastamento expressivo em relação às médias confirma a intensidade do movimento vendedor, mas pode favorecer oscilações mais bruscas e tentativas de recuperação.</p><p>Para retomar o fluxo comprador, o WINZ26 precisará superar, com volume, a resistência em 180.490/182.490 pontos . Confirmado o rompimento, os próximos objetivos estarão em 183.270/185.185 pontos e, em um movimento mais amplo, em 185.905/187.085 pontos .</p><p>No cenário de continuidade da baixa, acompanho os suportes em 176.640/171.195 pontos . A perda dessa faixa poderá intensificar o fluxo vendedor e levar o contrato até 166.790/166.020 pontos . Se o movimento se aprofundar, os alvos mais longos estarão em 165.390/164.020 pontos .</p><p>Confira mais conteúdos sobre análise técnica no IM Trader . Diariamente, o InfoMoney publica o que esperar dos minicontratos de dólar e índice .</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mercados/mini-indice-hoje-futuro-ibovespa-winz26-27102026/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Os contratos de mini-índice (WINZ26) , com vencimento em dezembro, encerraram a última sessão (26/10) em forte queda de 14,39%, aos 178.360 pontos . Os contratos de mini-índice deverão refletir a queda histórica de 13,88% do Ibovespa, aos 176.608,23 pontos , após a reeleição de Luiz Inácio Lula da Silva contrariar o posicionamento predominante do mercado. A "
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Para os traders de mini-índice, o foco estará na continuidade da pressão vendedora ou em uma tentativa de recuperação após a queda acentuada. Bancos, B3 ( B3SA3 ), varejistas e Petrobras ( PETR3 ; PETR4 ) permanecem entre os principais vetores de volatilidade, enquanto exportadoras como Vale ( VALE3 ), Suzano ( SUZB3 ) e Embraer ( EMBJ3 ) poderão oferecer al"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Bolsa antes da eleição: vale carregar ações do último pregão até segunda-feira?"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "No gráfico de 15 minutos, observo que o WINZ26 encerrou a última sessão com forte desvalorização, apesar da recuperação registrada ao longo do pregão. Essa reação colocou o contrato acima das médias móveis de 9 e 21 períodos, mas não alterou o predomínio do fluxo vendedor observado na sessão."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Para que o mini-índice prolongue o movimento de baixa, será necessária a perda da faixa de 177.660/176.635 pontos . O rompimento desse intervalo poderá intensificar a pressão vendedora e levar o contrato em direção a 174.695/171.850 pontos . Em uma correção mais extensa, o alvo ficará na região de 170.250/166.790 pontos ."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/10/WINZ26-15-MINUTOS-27.10.2026.png?fit=1882%2C860&quality=70&strip=all",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/mini-indice-winz26-tenta-reagir-apos-tombo-historico-veja-os-niveis.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "186fd3da40f90276",
-      "titulo": "Day Trade hoje (27): Ibovespa despenca após eleição; até onde pode cair?",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-27102026/",
-      "dataFonte": "2026-10-27T10:04:00.000Z",
-      "resumoFonte": "Confira os pontos de suporte e resistência do mini-índice e minidólar The post Day Trade hoje (27): Ibovespa despenca após eleição; até onde pode cair? appeared first on InfoMoney .",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2024/12/Daytrade-hoje.jpg?fit=1280%2C720&quality=70&strip=all",
-      "descobertaEm": "2026-10-27T10:18:44.228Z",
-      "reportagem": {
-        "titulo": "Day Trade hoje (27): Ibovespa despenca após eleição; até onde pode cair?",
-        "slug": "day-trade-hoje-27-ibovespa-despenca-apos-eleicao-ate-onde-pode-cair",
-        "categoria": "Economia",
-        "data": "2026-10-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/day-trade-hoje-27-ibovespa-despenca-apos-eleicao-ate-onde-pode-cair.jpg",
-        "resumo": "Day Trade Hoje: O que esperar dos minicontratos e do Ibovespa nesta terça. Confira os pontos de suporte do mini-índice e minidólar.",
-        "conteudo": "<p>O Ibovespa encerrou a última sessão em forte queda de 13,88% , aos 176.608 pontos , refletindo a reação negativa do mercado ao resultado do segundo turno das eleições presidenciais.</p><h2>Índice apresentou elevada volatilidade, oscilando entre a mínima</h2><p>O índice apresentou elevada volatilidade, oscilando entre a mínima de 169.516 pontos e a máxima de 205.088 pontos , antes de fechar abaixo dos 180.000 pontos .</p><p>O movimento interrompeu de forma brusca a lateralização observada após a máxima histórica de 209.713 pontos , registrada no início do mês.</p><p>Na minha leitura, a intensidade da queda alterou a estrutura técnica de curto prazo e devolveu parte relevante do avanço acumulado após o primeiro turno.</p><h2>No gráfico diário , observo que o Ibovespa passou</h2><p>No gráfico diário , observo que o Ibovespa passou a negociar abaixo das médias móveis de 9, 21 e 200 períodos, com afastamento expressivo em relação a essas referências.</p><p>A configuração reforça o predomínio vendedor, embora o movimento esticado também possa favorecer repiques técnicos nas próximas sessões.</p><p>O IFR (14) recuou para 30,29 , aproximando-se da região de sobrevenda. Esse nível não representa, isoladamente, um sinal de reversão, mas indica que a pressão vendedora já levou o índice a uma condição técnica bastante deprimida.</p><p>Para iniciar uma recuperação, o Ibovespa precisará retomar inicialmente as regiões de 181.560/189.487 pontos . Acima dessa faixa, os próximos objetivos ficam em 203.050 pontos e na máxima histórica de 209.713 pontos .</p><p>Pelo lado vendedor, acompanho os suportes em 169.516/164.835 pontos . A perda confirmada dessa faixa poderá prolongar a correção, tendo os 157.120 pontos como alvo mais distante.</p><p>No gráfico de 60 minutos , identifico uma estrutura fortemente negativa, com o índice abaixo das médias móveis de 9 e 21 períodos e distante dessas referências.</p><p>Apesar da possibilidade de repiques após a queda acentuada, a retomada da força compradora dependerá da recuperação das resistências mais próximas.</p><p>O primeiro sinal de reação virá com a superação de 177.755/181.565 pontos . Caso avance acima dessa região com entrada de volume, o índice poderá buscar 189.487/195.305 pontos e, posteriormente, 199.354/203.050 pontos .</p><p>No sentido contrário, a perda dos suportes em 172.535/169.515 pontos poderá ampliar o fluxo vendedor. Abaixo dessa faixa, vejo espaço para testes em 167.530/166.210 pontos , com alvos mais longos em 164.835/163.570 pontos .</p><p>Os contratos de mini-índice (WINZ26) , com vencimento em dezembro, encerraram a última sessão (26/10) em forte queda de 14,39%, aos 178.360 pontos .</p><p>Na minha leitura, o mini-índice permanece sob forte pressão vendedora após a queda acentuada da última sessão, embora tenha apresentado uma recuperação intradiária e terminado acima das médias móveis de 9 e 21 períodos no gráfico de 15 minutos.</p><p>Para o próximo pregão, acompanho como referências imediatas o suporte em 177.660/176.635 pontos e a resistência em 180.490/181.470 pontos .</p><p>A perda do suporte pode aprofundar as baixas, enquanto a superação da resistência poderá favorecer um repique técnico.</p><p>Nos gráficos diário e de 60 minutos, a estrutura permanece negativa, com o contrato abaixo das médias móveis e bastante afastado delas.</p><p>Esse movimento esticado aumenta a possibilidade de reações pontuais, mas uma reversão mais consistente dependerá da entrada de forte volume comprador.</p><p>Os contratos de minidólar (WDOX26) , com vencimento em novembro, encerraram a última sessão (26/10) com forte alta de 8,18% , aos 5.380 pontos .</p><p>Na minha leitura, o minidólar registrou uma valorização expressiva, mas perdeu força ao longo da sessão e terminou abaixo das médias móveis de 9 e 21 períodos no gráfico de 15 minutos.</p><p>Para o próximo pregão, acompanho como referências imediatas o suporte em 5.377/5.366 pontos e a resistência em 5.407/5.426 pontos .</p><p>O rompimento de uma dessas faixas poderá definir se o contrato retomará a alta ou iniciará uma correção mais ampla.</p><p>No gráfico diário, o ativo permanece acima das médias de 9, 21 e 200 períodos, embora o forte afastamento e a grande sombra superior do último candle recomendem cautela.</p><p>No gráfico de 60 minutos, a estrutura continua positiva, com o contrato acima das médias curtas, mas a continuidade do movimento dependerá da superação de resistências mais elevadas.</p><p>O contrato futuro de Bitcoin (BITV26) , com vencimento em outubro, encerrou a última sessão com forte alta de 8,07% , aos 430.540 pontos .</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-27102026/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Ibovespa encerrou a última sessão em forte queda de 13,88% , aos 176.608 pontos , refletindo a reação negativa do mercado ao resultado do segundo turno das eleições presidenciais. O índice apresentou elevada volatilidade, oscilando entre a mínima de 169.516 pontos e a máxima de 205.088 pontos , antes de fechar abaixo dos 180.000 pontos ."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O movimento interrompeu de forma brusca a lateralização observada após a máxima histórica de 209.713 pontos , registrada no início do mês. Na minha leitura, a intensidade da queda alterou a estrutura técnica de curto prazo e devolveu parte relevante do avanço acumulado após o primeiro turno."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "No gráfico diário , observo que o Ibovespa passou a negociar abaixo das médias móveis de 9, 21 e 200 períodos, com afastamento expressivo em relação a essas referências. A configuração reforça o predomínio vendedor, embora o movimento esticado também possa favorecer repiques técnicos nas próximas sessões."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O IFR (14) recuou para 30,29 , aproximando-se da região de sobrevenda. Esse nível não representa, isoladamente, um sinal de reversão, mas indica que a pressão vendedora já levou o índice a uma condição técnica bastante deprimida."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Para iniciar uma recuperação, o Ibovespa precisará retomar inicialmente as regiões de 181.560/189.487 pontos . Acima dessa faixa, os próximos objetivos ficam em 203.050 pontos e na máxima histórica de 209.713 pontos ."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2024/12/Daytrade-hoje.jpg?fit=1280%2C720&quality=70&strip=all",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/day-trade-hoje-27-ibovespa-despenca-apos-eleicao-ate-onde-pode-cair.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "95e5a4087ed44781",
-      "titulo": "Ativos do Brasil no mercado externo seguem instáveis após vitória de Lula",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/mundo/ativos-do-brasil-no-mercado-externo-seguem-instaveis-apos-vitoria-de-lula",
-      "dataFonte": "2026-10-27T09:58:28.000Z",
-      "resumoFonte": "Após a pior reação do mercado a um resultado eleitoral desde 2002, ativos e recibos de ações (ADRs) do Brasil abrem a terça com volatilidade",
-      "imagem": "https://i.metroimg.com/0u9YTzhcmm0sZhNbGFl2WSVt6z612S6JCdRhtd7yFJc/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/bolsa-de-nova-york.jpg",
-      "descobertaEm": "2026-10-27T10:18:44.228Z"
-    },
-    {
-      "id": "096934b43c4c4cfc",
-      "titulo": "Saiba quais indicadores e balanços saem nesta 3ª feira",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-economia/saiba-quais-indicadores-e-balancos-saem-nesta-3a-feira-10/",
-      "dataFonte": "2026-10-27T09:00:46.000Z",
-      "resumoFonte": "São divulgados indicadores de estabilidade financeira, do setor da construção, além da publicação de balanços financeiros do 3º trimestre",
-      "imagem": "https://static.poder360.com.br/uploads/2026/07/capas-posts-agenda-Lula-eleicoes-ministros-STF-STJ-indicadores-site-Poder360-07-scaled.jpg",
-      "descobertaEm": "2026-10-27T09:18:36.570Z"
-    },
-    {
-      "id": "de5e274c1fe5c96a",
-      "titulo": "Descarte correto de resíduos em SP permite troca por itens essenciais",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/conteudo-especial/mercado-bem-sp",
-      "dataFonte": "2026-10-27T09:00:37.000Z",
-      "resumoFonte": "Prefeitura de São Paulo incentiva preservação do meio ambiente com instalação do Mercado do Bem",
-      "imagem": "https://i.metroimg.com/WnxtThEYV83mmOmObJU3spC8VblfpNgyg_jwffJ8DPM/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/mercado-do-bem.jpg",
-      "descobertaEm": "2026-10-27T09:18:36.570Z"
-    },
-    {
-      "id": "e673aa35ddaaefc6",
-      "titulo": "A escola de samba que mais sai ganhando com vitória de Lula nas eleições",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/cultura/a-escola-de-samba-que-mais-sai-ganhando-com-vitoria-de-lula-nas-eleicoes/",
-      "dataFonte": "2026-10-27T10:00:26.000Z",
-      "resumoFonte": "Presidente foi reeleito no domingo, 25, para seu quarto mandato",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/10/1_41df51.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-10-27T10:18:44.228Z",
-      "reportagem": {
-        "titulo": "A escola de samba que mais sai ganhando com vitória de Lula nas eleições",
-        "slug": "a-escola-de-samba-que-mais-sai-ganhando-com-vitoria-de-lula-nas-eleicoes",
-        "categoria": "Cultura",
-        "data": "2026-10-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/a-escola-de-samba-que-mais-sai-ganhando-com-vitoria-de-lula-nas-eleicoes.jpg",
-        "resumo": "Presidente foi reeleito no domingo, 25, para seu quarto mandato",
-        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril.</p><h2>Baseado na obra Am&eacute;rica Invertida (1943), do artista uruguaio</h2><p>Baseado na obra Am&eacute;rica Invertida (1943), do artista uruguaio Joaqu&iacute;n Torres Garc&iacute;a , que prop&otilde;e virar o mapa do continente de cabe&ccedil;a para baixo para colocar o Sul como prioridade e ponto de partida, o enredo da Mocidade Independente de Padre Miguel para o Carnaval de 2027 &eacute; Latinamente Independente &ndash; Nosso Norte &eacute; o Sul em Remanifesto .</p><p>(A coluna GENTE tamb&eacute;m est&aacute; no Instagram. Siga o perfil @veja.gente )</p><p>Desenvolvido pelo carnavalesco Jack Vasconcelos , o enredo prop&otilde;e reflex&atilde;o cr&iacute;tica sobre a descolonialidade, a resist&ecirc;ncia cultural e pol&iacute;tica da Am&eacute;rica Latina, a valoriza&ccedil;&atilde;o dos saberes ancestrais (ind&iacute;genas e africanos) e &ldquo;a for&ccedil;a popular contra hegemonias imperialistas&rdquo;.</p><h2>E o que isso tudo tem a ver</h2><p>E o que isso tudo tem a ver pode ser potencializado pela vit&oacute;ria de Lula (PT), indo para seu quarto mandato como presidente?</p><p>&Eacute; que o resultado das elei&ccedil;&otilde;es de domingo, 25, interrompeu o avan&ccedil;o de uma onda de direita que ganhou for&ccedil;a na Am&eacute;rica Latina nos &uacute;ltimos anos, ap&oacute;s a volta de Donald Trump ao governo dos Estados Unidos em 2025.</p><p>Uma discuss&atilde;o que faz eco no samba da escola da Zona Oeste do Rio. Como se sabe, na Col&ocirc;mbia, Peru, Costa Rica, Honduras, Chile, Bol&iacute;via e Equador triunfaram candidatos conservadores.</p><p>Com o M&eacute;xico, do governo de Claudia Sheinbaum , as Am&eacute;ricas apontam para os dois pa&iacute;ses como atuais polos da esquerda.</p><p>O enredo da Mocidade Independente ganha for&ccedil;a popular e destaque por repensar os &ldquo;nortes&rdquo; do continente &ldquo;valorizando a identidade latino-americana&rdquo;.</p><p>A ideia, segundo o carnavalesco, &eacute; usar a linguagem do carnaval para rever &ldquo;a hegemonia cultural colonizante&rdquo;, al&eacute;m de cobrar repara&ccedil;&otilde;es hist&oacute;ricas e propor &ldquo;um futuro mais latino&rdquo;.</p><p>A Mocidade Independente abre os desfiles da segunda-feira de Carnaval, em 8 de fevereiro. O presidente foi o tema do enredo da escola de samba Acad&ecirc;micos de Niter&oacute;i no Carnaval de 2026 .</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/cultura/a-escola-de-samba-que-mais-sai-ganhando-com-vitoria-de-lula-nas-eleicoes/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/flavio-esta-mostrando-que-nao-estava-a-altura-dessa-disputa.jpg",
+        "resumo": "Em entrevista ao Jornal da CBN, o advogado Marco Aurélio de Carvalho, um dos coordenadores da campanha a reeleição do presidente Lula, destaca que a vitória é indiscutível.",
+        "conteudo": "<p>Após derrota no 2º turno das eleições para Presidência da República, Flávio Bolsonaro (PL) disse que vai pedir no Tribunal Superior Eleitoral (TSE) a cassação da chapa de Lula. Ele acusa o petista de abuso de poder político e econômico.</p><h2>Em entrevista ao Jornal da CBN, o advogado Marco</h2><p>Em entrevista ao Jornal da CBN, o advogado Marco Aurélio de Carvalho, um dos coordenadores da campanha a reeleição do presidente Lula, destaca que a vitória é indiscutível e que Flávio pode falar o que quiser.</p><p>Marco Aurélio de Carvalho acrescenta que o que se espera é o comportamento um pouco mais adulto do candidato derrotado, porque, segundo ele, no decorrer da campanha Flávio mostrou um um pouco infantil:</p><p>&quot;Então, realmente, um com toda franqueza, o Flávio está mostrando todos os dias, para quem ainda tinha dúvida, que não estava à altura dessa disputa. Ele não tem tamanho para disputar a Presidência da República.</p><h2>Ele se comporta como um menino, nada contra, né</h2><p>Ele se comporta como um menino, nada contra, né? Eu também já fui jovem, todos nós já fomos, né? Mas, mesmo quando eu era menino, eu tinha um pouquinho mais de maturidade que ele agora com quase 45 anos.</p><p>Isso é uma vergonha, né? Eu imagino como está o eleitor dele. Eu imagino que deve estar envergonhado, né? Pelo menos deveria estar, aquele que tem algum grau de consciência&quot;</p><p>Marco Aurélio de Carvalho destaca pontos que foram essenciais para a virada histórica de Lula, que garantiu a ele o quarto mandato.</p><p>O advogado acrescenta que Flávio pode recorrer à Justiça, se ele acha que tem algum motivo, mas destaca que a campanha de Lula concorreu contra tudo e todos:</p><p>&quot;Eu acho que essa é uma vitória, sobretudo, do povo brasileiro, né? De milhões de cidadãos e cidadãs que ocuparam as ruas sabendo exatamente o que estava em jogo nessas eleições.</p><p>(...) Ele (Flávio) pode, evidentemente, recorrer à Justiça, se ele acha que tem algum motivo para isso, e a gente acredita na justiça brasileira. Mas é importante dizer que nós concorremos contra tudo e contra todos.</p><p>Ele (Flávio) abraçou o sistema e foi abraçado pelo sistema. (...) Quem não sabe perder, não merece ganhar. E é isso que o Flávio talvez não tenha se dado conta&quot;.</p><p>Flávio está mostrando que não estava à altura da disputa, avalia um dos coordenadores da campanha de Lula</p>",
+        "fonteNome": "CBN - Política",
+        "fonteUrl": "https://cbn.globo.com/coberturas/eleicoes-2026/entrevista/2026/10/27/flavio-esta-mostrando-que-nao-estava-a-altura-dessa-disputa-se-comporta-como-um-menino-avalia-um-dos-coordenadores-da-campanha-de-lula.ghtml",
         "fontesAdicionais": [
           {
             "nome": "A Gazeta",
@@ -467,27 +179,615 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
+            "resposta": "Após derrota no 2º turno das eleições para Presidência da República, Flávio Bolsonaro (PL) disse que vai pedir no Tribunal Superior Eleitoral (TSE) a cassação da chapa de Lula. Ele acusa o petista de abuso de poder político e econômico."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Baseado na obra Am&eacute;rica Invertida (1943), do artista uruguaio Joaqu&iacute;n Torres Garc&iacute;a , que prop&otilde;e virar o mapa do continente de cabe&ccedil;a para baixo para colocar o Sul como prioridade e ponto de partida, o enredo da Mocidade Independente de Padre Miguel para o Carnaval de 2027 &eacute; Latinamente Independente &ndash; Nosso Nor"
+            "resposta": "Em entrevista ao Jornal da CBN, o advogado Marco Aurélio de Carvalho, um dos coordenadores da campanha a reeleição do presidente Lula, destaca que a vitória é indiscutível e que Flávio pode falar o que quiser. Marco Aurélio de Carvalho acrescenta que o que se espera é o comportamento um pouco mais adulto do candidato derrotado, porque, segundo ele, no decorr"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "(A coluna GENTE tamb&eacute;m est&aacute; no Instagram. Siga o perfil @veja.gente )"
+            "resposta": "&quot;Então, realmente, um com toda franqueza, o Flávio está mostrando todos os dias, para quem ainda tinha dúvida, que não estava à altura dessa disputa. Ele não tem tamanho para disputar a Presidência da República. Ele se comporta como um menino, nada contra, né? Eu também já fui jovem, todos nós já fomos, né? Mas, mesmo quando eu era menino, eu tinha um p"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Desenvolvido pelo carnavalesco Jack Vasconcelos , o enredo prop&otilde;e reflex&atilde;o cr&iacute;tica sobre a descolonialidade, a resist&ecirc;ncia cultural e pol&iacute;tica da Am&eacute;rica Latina, a valoriza&ccedil;&atilde;o dos saberes ancestrais (ind&iacute;genas e africanos) e &ldquo;a for&ccedil;a popular contra hegemonias imperialistas&rdquo;."
+            "resposta": "Marco Aurélio de Carvalho destaca pontos que foram essenciais para a virada histórica de Lula, que garantiu a ele o quarto mandato. O advogado acrescenta que Flávio pode recorrer à Justiça, se ele acha que tem algum motivo, mas destaca que a campanha de Lula concorreu contra tudo e todos:"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "E o que isso tudo tem a ver pode ser potencializado pela vit&oacute;ria de Lula (PT), indo para seu quarto mandato como presidente? &Eacute; que o resultado das elei&ccedil;&otilde;es de domingo, 25, interrompeu o avan&ccedil;o de uma onda de direita que ganhou for&ccedil;a na Am&eacute;rica Latina nos &uacute;ltimos anos, ap&oacute;s a volta de Donald Trump"
+            "resposta": "&quot;Eu acho que essa é uma vitória, sobretudo, do povo brasileiro, né? De milhões de cidadãos e cidadãs que ocuparam as ruas sabendo exatamente o que estava em jogo nessas eleições. (...) Ele (Flávio) pode, evidentemente, recorrer à Justiça, se ele acha que tem algum motivo para isso, e a gente acredita na justiça brasileira. Mas é importante dizer que nós"
           }
         ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/10/1_41df51.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/a-escola-de-samba-que-mais-sai-ganhando-com-vitoria-de-lula-nas-eleicoes.jpg",
+        "imagemOriginal": "https://s2-cbn.glbimg.com/PUn_kEbZP3C3pAEfX8aUWhH0M5s=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/f/G/rAULElQIq85l0X4kAI3Q/captura-de-tela-2026-10-25-224310.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/flavio-esta-mostrando-que-nao-estava-a-altura-dessa-disputa.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "90500814552cf92f",
+      "titulo": "Adriane Galisteu opina sobre “A Fazenda 18”: “O brasileiro está chato”",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/pop/realities/adriane-galisteu-opina-sobre-a-fazenda-18-o-brasileiro-esta-chato/",
+      "dataFonte": "2026-10-27T11:17:13.000Z",
+      "resumoFonte": "Durante sua participação no Link Podcast da última segunda-feira (26), a apresentadora do reality show comentou ainda sobre as recentes desistências da competição",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/adriane-galisteu.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-27T12:18:15.264Z",
+      "reportagem": {
+        "titulo": "Adriane Galisteu opina sobre &quot;A Fazenda 18&quot;: &quot;O brasileiro está chato&quot;",
+        "slug": "adriane-galisteu-opina-sobre-quot-a-fazenda-18-quot-quot-o-brasileiro-esta-chato-quot",
+        "categoria": "Cultura",
+        "data": "2026-10-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/adriane-galisteu-opina-sobre-quot-a-fazenda-18-quot-quot-o-brasileiro-esta-chato-quot.jpg",
+        "resumo": "Durante sua participação no Link Podcast da última segunda-feira (26), a apresentadora do reality show comentou ainda sobre as recentes desistências da competição",
+        "conteudo": "<p>Apresentadora de A Fazenda 18 , Adriane Galisteu , 53, analisou o desempenho da atual temporada do reality show rural e considerou que os peões confinados são muito sérios. No entanto, segundo ela, a culpa não está no elenco, mas no cenário do país.</p><h2>&quot;O que mexe comigo nesse elenco é que falta</h2><p>&quot;O que mexe comigo nesse elenco é que falta um pouco de humor , porque causar, eles causam, mas eles não conseguem se divertir. Eles levam tudo muito a sério.</p><p>Eu não consigo tirar um sarro de você, porque você pode falar alguma coisa&quot;, afirmou durante sua participação no Link Podcast exibido na última segunda-feira (26).</p><p>De acordo com Galisteu , eles &quot;levam muito a ferro e fogo, brigam muito, mas não se divertem&quot;. &quot;É A Fazenda da militância&quot;, disse Dudu Camargo . &quot;Tá difícil esse jeito.</p><h2>É um jeito de cada um, mas eu acho</h2><p>É um jeito de cada um, mas eu acho que isso reflete, para e pensa como está aqui fora. Eu sempre comento isso, sou fã de reality, apaixonada. E acho que reflete 100% a nossa sociedade.</p><p>&quot;O Brasil está vivendo isso neste momento. A gente está chato Não é o reality show que está chato. O ser humano está chato. O brasileiro está chato.</p><p>A gente não acha mais graça de quem pensa diferente da gente, a gente não respeita quem pensa diferente. A gente está vivendo isso aqui fora&quot;, seguiu apontando.</p><p>Para a apresentadora, é um ano atípico. &quot;A gente perdeu a Copa, teve eleição, metade do Brasil está feliz, metade não está. Isso reflete no jeito que as pessoas lidam com as coisas.</p><p>Acho que [A Fazenda] é um termômetro real do que acontece aqui fora. A gente está vivendo essa chatice. Às vezes olhar no espelho é importante para falar: 'Opa, vou mudar isso'&quot;, considerou.</p><p>Ainda no papo, a famosa abriu o jogo sobre o que pensa das desistências de Jottapê , Jônatas Faro e Gabriel Torres - em uma única semana.</p><p>&quot;Eu tenho minhas implicâncias com peão que desiste. Eu acho que a desistência está ligada 100% à falta de saúde, na minha opinião. Todo o resto não vale. A gente está num programa que está no 18º ano.</p><p>A gente já sabe como é. Para que entrar se está pensando em desistir?&quot;, questionou.</p><p>&quot;Eu acho que é muito esquisito desistir. A expulsão acaba acontecendo porque no momento você não consegue se controlar. Agora, a desistência de caso pensado? Eu fiquei tristíssima com o Jottapê e com o Gabriel, fiquei mesmo&quot;, revelou.</p><p>Apresentadora de A Fazenda 18 , Adriane Galisteu , 53, analisou o desempenho da atual temporada do reality show rural e considerou que os peões confinados são muito sérios.</p><p>No entanto, segundo ela, a culpa não está no elenco, mas no cenário do país. &quot;O que mexe comigo nesse elenco é que falta um pouco de humor , porque causar, eles causam, mas eles não conseguem se divertir.</p><p>Eles levam tudo muito a sério. Eu não consigo tirar um sarro de você, porque você pode falar alguma coisa&quot;, afirmou durante sua participação no Link Podcast exibido na última segunda-feira (26). Leia Mais</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/pop/realities/adriane-galisteu-opina-sobre-a-fazenda-18-o-brasileiro-esta-chato/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Apresentadora de A Fazenda 18 , Adriane Galisteu , 53, analisou o desempenho da atual temporada do reality show rural e considerou que os peões confinados são muito sérios. No entanto, segundo ela, a culpa não está no elenco, mas no cenário do país."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "&quot;O que mexe comigo nesse elenco é que falta um pouco de humor , porque causar, eles causam, mas eles não conseguem se divertir. Eles levam tudo muito a sério. Eu não consigo tirar um sarro de você, porque você pode falar alguma coisa&quot;, afirmou durante sua participação no Link Podcast exibido na última segunda-feira (26)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "De acordo com Galisteu , eles &quot;levam muito a ferro e fogo, brigam muito, mas não se divertem&quot;. &quot;É A Fazenda da militância&quot;, disse Dudu Camargo . &quot;Tá difícil esse jeito. É um jeito de cada um, mas eu acho que isso reflete, para e pensa como está aqui fora. Eu sempre comento isso, sou fã de reality, apaixonada. E acho que reflete 100% "
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "&quot;O Brasil está vivendo isso neste momento. A gente está chato Não é o reality show que está chato. O ser humano está chato. O brasileiro está chato. A gente não acha mais graça de quem pensa diferente da gente, a gente não respeita quem pensa diferente. A gente está vivendo isso aqui fora&quot;, seguiu apontando."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Para a apresentadora, é um ano atípico. &quot;A gente perdeu a Copa, teve eleição, metade do Brasil está feliz, metade não está. Isso reflete no jeito que as pessoas lidam com as coisas. Acho que [A Fazenda] é um termômetro real do que acontece aqui fora. A gente está vivendo essa chatice. Às vezes olhar no espelho é importante para falar: 'Opa, vou mudar is"
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/adriane-galisteu.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/adriane-galisteu-opina-sobre-quot-a-fazenda-18-quot-quot-o-brasileiro-esta-chato-quot.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "5cb5b312b1f7ba60",
+      "titulo": "3° turno? TSE analisa mais de 20 ações contra Lula e Flávio depois da eleição",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/3-turno-tse-analisa-mais-de-20-acoes-contra-lula-e-flavio-depois-da-eleicao/",
+      "dataFonte": "2026-10-27T12:07:03.000Z",
+      "resumoFonte": "Mesmo depois do encerramento do segundo turno das eleições gerais, com a vitória do presidente Luiz Inácio Lula da Silva (PT) sobre o senador Flávio Bolsonaro (PL), o Tribunal Superior Eleitoral (TSE) ainda deverá analisar mais de duas dezenas de ações contra os dois protagonistas da disputa presidencial deste ano. Neste momento, o principal órgão…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/flavio-14.jpg.webp",
+      "descobertaEm": "2026-10-27T12:18:15.264Z",
+      "reportagem": {
+        "titulo": "3° turno? TSE analisa mais de 20 ações contra Lula e Flávio",
+        "slug": "3-turno-tse-analisa-mais-de-20-acoes-contra-lula-e-flavio",
+        "categoria": "Justiça",
+        "data": "2026-10-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/3-turno-tse-analisa-mais-de-20-acoes-contra-lula-e-flavio.jpg",
+        "resumo": "Pelo menos 22 Ações de Investigação Judicial Eleitoral (Aijes) têm um dos dois políticos como investigados",
+        "conteudo": "<p>Jornalista formado pela Cásper Líbero, é pós-graduado em marketing político e propaganda eleitoral pela USP. Trabalhou no site da ESPN, pelo qual foi à China para cobrir a Olimpíada de Pequim, em 2008.</p><h2>Também teve passagens por Metrópoles, InfoMoney, O Antagonista, iG</h2><p>Também teve passagens por Metrópoles, InfoMoney, O Antagonista, iG e Terra, cobrindo política e economia. Como assessor de imprensa, atuou na Câmara dos Deputados e no Ministério da Cultura.</p><p>É autor dos livros “Dias: a Vida do Maior Jogador do São Paulo nos Anos 1960” e “20 Jogos Eternos do São Paulo”.</p><p>• Depois do segundo turno das eleições gerais, em que Luiz Inácio Lula da Silva (PT) venceu Flávio Bolsonaro (PL) em 25 de outubro de 2026, o Tribunal Superior Eleitoral (TSE) ainda analisará 22 Ações de Investigação Judicial Eleitoral (Aijes) envolvendo ambos.</p><h2>• Lula é investigado em 15 ações e Flávio</h2><p>• Lula é investigado em 15 ações e Flávio em 7, com acusações de abuso de poder e uso indevido de comunicação.</p><p>• As investigações, que podem resultar em multas ou até cassação de mandato, prosseguem independentemente do resultado eleitoral.</p><p>Mesmo depois do encerramento do segundo turno das eleições gerais, com a vitória do presidente Luiz Inácio Lula da Silva (PT) sobre o senador Flávio Bolsonaro (PL), o Tribunal Superior Eleitoral (TSE) ainda deverá analisar mais de duas dezenas de ações contra os dois protagonistas da disputa presidencial deste ano.</p><p>Neste momento, o principal órgão da Justiça Eleitoral registra pelo menos 22 Ações de Investigação Judicial Eleitoral (Aijes) que têm Lula ou Flávio como investigados. Os pedidos que forem admitidos pela Corte seguirão sua tramitação normal mesmo depois do término da eleição.</p><p>De acordo com levantamento da CNN Brasil com base em dados do TSE, Lula aparece como potencial investigado em 15 ações, enquanto Flávio consta em sete. Os processos tratam de supostas ilegalidades como abuso de poder político e econômico e uso indevido dos meios de comunicação.</p><p>No caso de Flávio, as ações de maior repercussão envolvem o financiamento do filme Dark Horse , cinebiografia do ex-presidente Jair Bolsonaro (PL); o canal de apoiadores “Tropa do Flávio”, no WhatsApp; e a suposta interferência de grupos ligados aos Estados Unidos no processo eleitoral brasileiro, em benefício da campanha do candidato do PL.</p><p>Em relação a Lula, há apurações acerca do desfile de uma escola de samba do Rio de Janeiro em homenagem ao presidente no Carnaval deste ano, com uso de recursos públicos; o canal “Exército do Lula”, no WhatsApp, criado e coordenado pelo deputado federal André Janones (Rede-MG); e envio de mensagens por canais oficiais do governo relacionadas a programas sociais como o Bolsa Família e o Farmácia Popular, com objetivos eleitorais.</p><p>As Aijes tramitam na Justiça Eleitoral independentemente do resultado do segundo turno das eleições. As possíveis penas, no caso da chapa derrotada, vão de multas à eventual inelegibilidade.</p><p>No caso de Lula, presidente reeleito, as sanções podem chegar, em casos extremos, à cassação do mandato.</p><p>No domingo 25, Lula foi eleito para o quarto mandato na Presidência da República com 51,79% dos votos válidos (64,2 milhões) no segundo turno. Flávio Bolsonaro obteve 48,21% (59,8 milhões).</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/3-turno-tse-analisa-mais-de-20-acoes-contra-lula-e-flavio-depois-da-eleicao/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Jornalista formado pela Cásper Líbero, é pós-graduado em marketing político e propaganda eleitoral pela USP. Trabalhou no site da ESPN, pelo qual foi à China para cobrir a Olimpíada de Pequim, em 2008. Também teve passagens por Metrópoles, InfoMoney, O Antagonista, iG e Terra, cobrindo política e economia. Como assessor de imprensa, atuou na Câmara dos Deput"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "• Depois do segundo turno das eleições gerais, em que Luiz Inácio Lula da Silva (PT) venceu Flávio Bolsonaro (PL) em 25 de outubro de 2026, o Tribunal Superior Eleitoral (TSE) ainda analisará 22 Ações de Investigação Judicial Eleitoral (Aijes) envolvendo ambos. • Lula é investigado em 15 ações e Flávio em 7, com acusações de abuso de poder e uso indevido de "
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Mesmo depois do encerramento do segundo turno das eleições gerais, com a vitória do presidente Luiz Inácio Lula da Silva (PT) sobre o senador Flávio Bolsonaro (PL), o Tribunal Superior Eleitoral (TSE) ainda deverá analisar mais de duas dezenas de ações contra os dois protagonistas da disputa presidencial deste ano."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Neste momento, o principal órgão da Justiça Eleitoral registra pelo menos 22 Ações de Investigação Judicial Eleitoral (Aijes) que têm Lula ou Flávio como investigados. Os pedidos que forem admitidos pela Corte seguirão sua tramitação normal mesmo depois do término da eleição."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "De acordo com levantamento da CNN Brasil com base em dados do TSE, Lula aparece como potencial investigado em 15 ações, enquanto Flávio consta em sete. Os processos tratam de supostas ilegalidades como abuso de poder político e econômico e uso indevido dos meios de comunicação."
+          }
+        ],
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/flavio-14.jpg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/3-turno-tse-analisa-mais-de-20-acoes-contra-lula-e-flavio.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "f361c6ebc8f8b272",
+      "titulo": "Buscas por ‘Paraguai’ no Google crescem 900% com vitória de Lula",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/buscas-por-paraguai-no-google-crescem-900-com-vitoria-de-lula/",
+      "dataFonte": "2026-10-27T12:09:25.000Z",
+      "resumoFonte": "As buscas pelo termo “Paraguai” no Google cresceram 900% nas últimas 24 horas até as 6h desta terça-feira, 27, diante da confirmação da vitória do presidente Luiz Inácio Lula da Silva no segundo turno das eleições. Os dados são do Google Trends , que mede o interesse dos usuários pelos assuntos pesquisados na plataforma. Lula derrotou o senador…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/bandeira-do-paraguai-910x568.jpg.webp",
+      "descobertaEm": "2026-10-27T12:18:15.264Z",
+      "reportagem": {
+        "titulo": "Buscas por 'Paraguai' no Google crescem 900% com vitória de Lula",
+        "slug": "buscas-por-paraguai-no-google-crescem-900-com-vitoria-de-lula",
+        "categoria": "Política ES",
+        "data": "2026-10-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/buscas-por-paraguai-no-google-crescem-900-com-vitoria-de-lula.jpg",
+        "resumo": "Interesse pelo país vizinho aumenta na internet; petista foi eleito para o 4º mandato",
+        "conteudo": "<p>• As buscas pelo termo 'Paraguai' no Google aumentaram 900% nas 24 horas seguintes à vitória de Luiz Inácio Lula da Silva no segundo turno das eleições presidenciais. • O petista obteve 51,79% dos votos válidos contra 48,21% de Flávio Bolsonaro.</p><h2>Buscas pelo termo “Paraguai” no Google cresceram 900% nas</h2><p>As buscas pelo termo “Paraguai” no Google cresceram 900% nas últimas 24 horas até as 6h desta terça-feira, 27, diante da confirmação da vitória do presidente Luiz Inácio Lula da Silva (PT) no segundo turno das eleições.</p><p>Os dados são do Google Trends , que mensura o interesse dos usuários pelos assuntos pesquisados na plataforma.</p><p>Lula derrotou o senador Flávio Bolsonaro (PL-RJ) com 51,79% dos votos válidos, contra 48,21% do adversário. Com o resultado, o petista garantiu um novo mandato no Palácio do Planalto .</p><h2>Interesse não se limitou ao nome do país</h2><p>O interesse não se limitou ao nome do país. As buscas no Google sobre como viver no Paraguai aumentaram 1.700% depois da reeleição de Lula, também de acordo com o Google Trends.</p><p>O interesse pelo Paraguai acompanha o avanço do país nos rankings de liberdade econômica. No Índice de Liberdade Econômica 2026, da Heritage Foundation, o vizinho alcançou 66,4 pontos e passou a ocupar a 55ª posição mundial. Em 2024, estava em 80º.</p><p>No mesmo período, o Brasil caiu da 124ª para a 134ª colocação, entre 176 países avaliados.</p><p>A fundação norte-americana atribui o resultado às reformas do governo do presidente Santiago Peña, com mais disciplina fiscal e estabilidade monetária.</p><p>O país também conquistou o grau de investimento das agências de classificação de risco Moody’s, em julho de 2024, e S&amp;P, em dezembro de 2025.</p><p>O sistema tributário é o principal atrativo. Conhecido como “10-10-10”, o modelo fixa em 10% a alíquota máxima do imposto de renda de pessoas físicas e de empresas e o Imposto sobre Valor Agregado.</p><p>A carga tributária equivale a cerca de 14% do Produto Interno Bruto (PIB), contra aproximadamente 33% do PIB no Brasil.</p><p>Indústrias voltadas à exportação contam ainda com a Lei de Maquila. Nesse regime, as empresas pagam 1% sobre o valor agregado no país e ficam isentas de imposto sobre dividendos.</p><p>Até dezembro de 2025, 231 das 339 companhias que operavam nesse modelo eram brasileiras, segundo o Ministério de Indústria e Comércio paraguaio.</p><p>Os encargos trabalhistas também pesam na decisão. A contribuição patronal à previdência é de 16,5%, ante 20% no Brasil, sem recolhimento de FGTS, PIS/Pasep ou Sistema S. Marcas como Havan, Lupo e JBS ampliaram operações no país vizinho.</p><p>A migração de pessoas segue o mesmo ritmo. No primeiro semestre de 2026, a Direção Nacional de Migrações do Paraguai recebeu 33 mil pedidos de residência de estrangeiros, alta de 60% em relação ao mesmo período de 2025.</p><p>O órgão concedeu 29 mil residências, das quais 22 mil a brasileiros, cerca de 76% do total.</p><p>Dados do Itamaraty de 2023 apontam aproximadamente 263 mil brasileiros no Paraguai, a terceira maior comunidade no exterior.</p><p>O próprio índice da Heritage, porém, aponta desafios. A informalidade elevada e as fragilidades institucionais, como proteção ao direito de propriedade e eficiência do Judiciário, ainda limitam a nota paraguaia.</p><p>O segundo turno brasileiro também ficou marcado por uma decisão do Supremo Tribunal Federal (STF) sobre o próprio horário da eleição. No domingo 25, o ministro Cristiano Zanin determinou a prorrogação da votação até as 19h, pelo horário de Brasília, em todo o país.</p><p>Zanin foi advogado pessoal de Lula e chegou à Corte por indicação do petista.</p><p>O PT protocolou o pedido às 15h46, inicialmente para três cidades da Bahia, com alegações de falta de transporte para os eleitores. Zanin foi sorteado relator às 16h33, e a decisão saiu às 17h03.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/buscas-por-paraguai-no-google-crescem-900-com-vitoria-de-lula/",
+        "fontesAdicionais": [
+          {
+            "nome": "Assembleia Legislativa do ES",
+            "url": "https://www.al.es.gov.br/"
+          },
+          {
+            "nome": "Governo do Estado do ES",
+            "url": "https://www.es.gov.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "• As buscas pelo termo 'Paraguai' no Google aumentaram 900% nas 24 horas seguintes à vitória de Luiz Inácio Lula da Silva no segundo turno das eleições presidenciais. • O petista obteve 51,79% dos votos válidos contra 48,21% de Flávio Bolsonaro."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "As buscas pelo termo “Paraguai” no Google cresceram 900% nas últimas 24 horas até as 6h desta terça-feira, 27, diante da confirmação da vitória do presidente Luiz Inácio Lula da Silva (PT) no segundo turno das eleições. Os dados são do Google Trends , que mensura o interesse dos usuários pelos assuntos pesquisados na plataforma."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Lula derrotou o senador Flávio Bolsonaro (PL-RJ) com 51,79% dos votos válidos, contra 48,21% do adversário. Com o resultado, o petista garantiu um novo mandato no Palácio do Planalto ."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O interesse não se limitou ao nome do país. As buscas no Google sobre como viver no Paraguai aumentaram 1.700% depois da reeleição de Lula, também de acordo com o Google Trends."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O interesse pelo Paraguai acompanha o avanço do país nos rankings de liberdade econômica. No Índice de Liberdade Econômica 2026, da Heritage Foundation, o vizinho alcançou 66,4 pontos e passou a ocupar a 55ª posição mundial. Em 2024, estava em 80º."
+          }
+        ],
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/bandeira-do-paraguai-910x568.jpg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/buscas-por-paraguai-no-google-crescem-900-com-vitoria-de-lula.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "d472c84192f66a00",
+      "titulo": "Lula mira Centrão para montar ministério e negociar apoio de Congresso mais à direita",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/politica/lula-mira-centrao-para-montar-ministerio-e-negociar-apoio-de-congresso-mais-a-direita/",
+      "dataFonte": "2026-10-27T12:05:19.000Z",
+      "resumoFonte": "Esplanada dos Ministérios e Congresso Nacional, em Brasília 07/04/2010 REUTERS/Ricardo Moraes \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/03/2026-03-24T194831Z_1_LYNXMPEM2N18T_RTROPTP_4_BRAZIL-BRASILIA.jpg?fit=1280%2C853&quality=70&strip=all\" />Partidos que apoiaram Flávio já discutem espaço no novo governo; presidente…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/03/2026-03-24T194831Z_1_LYNXMPEM2N18T_RTROPTP_4_BRAZIL-BRASILIA.jpg",
+      "descobertaEm": "2026-10-27T12:18:15.264Z",
+      "reportagem": {
+        "titulo": "Lula mira Centrão para montar ministério e negociar apoio de Congresso mais à direita",
+        "slug": "lula-mira-centrao-para-montar-ministerio-e-negociar-apoio-de-congresso-mais-a-direita",
+        "categoria": "Política Nacional",
+        "data": "2026-10-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-mira-centrao-para-montar-ministerio-e-negociar-apoio-de-congresso-mais-a-direita.jpg",
+        "resumo": "Partidos que apoiaram Flávio já discutem espaço no novo governo; presidente deve privilegiar alas regionais aliadas, sem garantia de apoio integral das bancadas",
+        "conteudo": "<p>A derrota de Flávio Bolsonaro (PL) na eleição presidencial abriu uma nova rodada de negociações entre o Centrão e o governo de Luiz Inácio Lula da Silva (PT).</p><h2>Apesar de terem apoiado o senador no segundo turno,</h2><p>Apesar de terem apoiado o senador no segundo turno, integrantes de partidos como PP, Republicanos e União Brasil já avaliam a possibilidade de ocupar ministérios a partir de 2027.</p><p>O presidente, por sua vez, precisará ampliar sua base política para enfrentar um Congresso mais alinhado à direita.</p><p>A articulação deve ocorrer de forma fragmentada, com espaço para grupos regionais e lideranças que apoiaram Lula durante a campanha, mesmo quando suas direções nacionais seguiram outro caminho.</p><h2>Avaliação de dirigentes ouvidos pela Folha de S</h2><p>A avaliação de dirigentes ouvidos pela Folha de S.Paulo é que o governo poderá atrair parcelas dessas legendas, sem conseguir comprometer todos os seus deputados e senadores com a agenda do Planalto.</p><p>O pleito do senador não encontra eco em partidos do centro, que se apressaram a parabenizar Lula após a vitória</p><p>A conta considera a vaga aberta com a aposentadoria antecipada de Luís Roberto Barroso, em outubro de 2025, e as aposentadorias compulsórias de três ministros que completarão 75 anos no período</p><p>Essa divisão ficou evidente durante a eleição. Enquanto a maior parte do Centrão se aproximou de Flávio após o primeiro turno, diretórios estaduais mantiveram alianças com Lula.</p><p>Agora, essas lideranças buscam transformar a participação na campanha em influência na composição ministerial.</p><p>O movimento ganha importância diante do novo tamanho da oposição. O PL terá 121 deputados federais e 28 senadores a partir de fevereiro, tornando-se a maior bancada das duas Casas.</p><p>Na Câmara, o PT contará com 70 parlamentares, enquanto a federação formada com PCdoB e PV terá 88 cadeiras.</p><p>Somados, PSD, União Brasil, PP e Republicanos terão 171 deputados. O tamanho dessas bancadas amplia o peso das negociações com o centro na aprovação de projetos, especialmente os que exigem quóruns elevados.</p><p>Os diretórios que apoiaram Lula nas regiões Norte e Nordeste aparecem entre os grupos com maior proximidade do governo.</p><p>No MDB, as alas do Amazonas, Pará e Alagoas mantêm interlocução com o Planalto. A legenda também conserva influência no Senado, onde será importante para votações de indicações ao Supremo Tribunal Federal e outras decisões que dependem de maioria absoluta.</p><p>O PSD, presidido por Gilberto Kassab, também está entre os partidos que avaliam ampliar sua participação.</p><p>A sigla manteve neutralidade formal no segundo turno, embora integrantes de diferentes estados tenham declarado apoio aos candidatos. A ala da Bahia, alinhada ao presidente, está entre as que podem ganhar espaço.</p><p>No PP e no Republicanos, as articulações passam principalmente pela Paraíba, onde lideranças regionais participaram da campanha petista.</p><p>A estratégia de Lula deverá considerar essas diferenças internas. A nomeação de representantes de um partido para o ministério pode assegurar apoio de um grupo específico, mas não necessariamente produzir votos favoráveis de toda a bancada em Brasília.</p><p>O deputado Silvio Costa Filho (Republicanos-PE), que comandou o Ministério de Portos e Aeroportos, é citado nas articulações para assumir a Secretaria de Relações Institucionais, responsável pelo diálogo político com o Congresso.</p><p>Outro nome considerado é o deputado Aguinaldo Ribeiro (PP-PB), que pode representar a federação União Progressista, formada por PP e União Brasil, na Esplanada. Ainda não há definição sobre uma eventual pasta.</p><p>As negociações também envolvem o núcleo político do próprio presidente. Camilo Santana (PT-CE), que participou da coordenação da campanha, é mencionado para a Casa Civil ou para a articulação política.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/politica/lula-mira-centrao-para-montar-ministerio-e-negociar-apoio-de-congresso-mais-a-direita/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A derrota de Flávio Bolsonaro (PL) na eleição presidencial abriu uma nova rodada de negociações entre o Centrão e o governo de Luiz Inácio Lula da Silva (PT)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Apesar de terem apoiado o senador no segundo turno, integrantes de partidos como PP, Republicanos e União Brasil já avaliam a possibilidade de ocupar ministérios a partir de 2027. O presidente, por sua vez, precisará ampliar sua base política para enfrentar um Congresso mais alinhado à direita."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A articulação deve ocorrer de forma fragmentada, com espaço para grupos regionais e lideranças que apoiaram Lula durante a campanha, mesmo quando suas direções nacionais seguiram outro caminho. A avaliação de dirigentes ouvidos pela Folha de S.Paulo é que o governo poderá atrair parcelas dessas legendas, sem conseguir comprometer todos os seus deputados e se"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O pleito do senador não encontra eco em partidos do centro, que se apressaram a parabenizar Lula após a vitória"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A conta considera a vaga aberta com a aposentadoria antecipada de Luís Roberto Barroso, em outubro de 2025, e as aposentadorias compulsórias de três ministros que completarão 75 anos no período"
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/03/2026-03-24T194831Z_1_LYNXMPEM2N18T_RTROPTP_4_BRAZIL-BRASILIA.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-mira-centrao-para-montar-ministerio-e-negociar-apoio-de-congresso-mais-a-direita.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "a221f2fd34ccf962",
+      "titulo": "Dólar abre em queda após disparar 8% na sessão anterior",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "CNN Brasil - Capa",
+      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-27-outubro-2026/",
+      "dataFonte": "2026-10-27T12:13:54.000Z",
+      "resumoFonte": "Moeda americana avançou fortemente na segunda-feira (26), com mercado reagindo à vitória de Luiz Inácio Lula da Silva (PT) nas eleições de 2026",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/estrategia-moeda-estrangeira.jpeg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-10-27T12:20:39.089Z",
+      "reportagem": {
+        "titulo": "Dólar abre em queda após disparar 8% na sessão anterior",
+        "slug": "dolar-abre-em-queda-apos-disparar-8-na-sessao-anterior",
+        "categoria": "Economia",
+        "data": "2026-10-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/dolar-abre-em-queda-apos-disparar-8-na-sessao-anterior.jpg",
+        "resumo": "Moeda americana avançou forte na segunda-feira (26), com mercado reagindo à vitória de Luiz Inácio Lula da Silva (PT) nas eleições de 2026",
+        "conteudo": "<p>O dólar abriu em baixa ante o real nesta terça-feira (27), depois de ter disparado mais de 8% na sessão anterior e ter a maior alta diária em 23 anos. Às 09h (de Brasília), a moeda americana tinha queda de 0,20%, cotada a R$ 5,3960.</p><h2>Avanço do dia anterior foi sustentado pela reação negativa</h2><p>O avanço do dia anterior foi sustentado pela reação negativa do mercado à reeleição de Luiz Inácio Lula da Silva (PT), que agora segue para o seu quarto mandato e se tornou o presidente mais votado da história .</p><p>Na segunda (26), o dólar disparou 8,36% frente ao real, fechando a R$ 5,4066 . A moeda americana chegou a superar R$ 5,60 durante a manhã, mas desacelerou a alta ao longo do pregão. O avanço foi o maior desde 5 de março de 2003, quando o dólar subiu 10,4% .</p><p>O valor de fechamento ainda foi o mais alto desde 2 de janeiro deste ano.</p><h2>Dólar registrou maior alta diária em 23 anos</h2><p>Dólar registrou maior alta diária em 23 anos na última sessão</p><p>O dólar abriu em baixa ante o real nesta terça-feira (27), depois de ter disparado mais de 8% na sessão anterior e ter a maior alta diária em 23 anos.</p><p>Às 09h (de Brasília), a moeda americana tinha queda de 0,20%, cotada a R$ 5,3960.</p><p>O avanço do dia anterior foi sustentado pela reação negativa do mercado à reeleição de Luiz Inácio Lula da Silva (PT), que agora segue para o seu quarto mandato e se tornou o presidente mais votado da história .</p>",
+        "fonteNome": "CNN Brasil - Capa",
+        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-27-outubro-2026/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O dólar abriu em baixa ante o real nesta terça-feira (27), depois de ter disparado mais de 8% na sessão anterior e ter a maior alta diária em 23 anos. Às 09h (de Brasília), a moeda americana tinha queda de 0,20%, cotada a R$ 5,3960."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O avanço do dia anterior foi sustentado pela reação negativa do mercado à reeleição de Luiz Inácio Lula da Silva (PT), que agora segue para o seu quarto mandato e se tornou o presidente mais votado da história ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Na segunda (26), o dólar disparou 8,36% frente ao real, fechando a R$ 5,4066 . A moeda americana chegou a superar R$ 5,60 durante a manhã, mas desacelerou a alta ao longo do pregão. O avanço foi o maior desde 5 de março de 2003, quando o dólar subiu 10,4% ."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O valor de fechamento ainda foi o mais alto desde 2 de janeiro deste ano."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Dólar registrou maior alta diária em 23 anos na última sessão"
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/estrategia-moeda-estrangeira.jpeg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/dolar-abre-em-queda-apos-disparar-8-na-sessao-anterior.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "8600d5997eedb694",
+      "titulo": "Ibovespa Futuro tenta recuperação após onda de vendas de ativos com reeleição de Lula",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/mercados/ibovespa-futuro-tenta-recuperacao-apos-onda-de-vendas-de-ativos-com-reeleicao-de-lula/",
+      "dataFonte": "2026-10-27T12:12:17.000Z",
+      "resumoFonte": "An electronic board at the B3 (Sao Paulo Stock Exchange) shows financial market activity following the re-election of President Luiz Inacio Lula da Silva, in Sao Paulo, Brazil, October 26, 2026. REUTERS/Jean Carniel \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-26T140456Z_1514781221_RC21BOALZK1J_RTRMADP_3_BRAZIL…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-26T140456Z_1514781221_RC21BOALZK1J_RTRMADP_3_BRAZIL-ELECTION-MARKETS.jpg",
+      "descobertaEm": "2026-10-27T12:18:15.264Z",
+      "reportagem": {
+        "titulo": "Ibovespa Futuro tenta recuperação após onda de vendas de ativos com reeleição de Lula",
+        "slug": "ibovespa-futuro-tenta-recuperacao-apos-onda-de-vendas-de-ativos-com-reeleicao-de-lula",
+        "categoria": "Economia",
+        "data": "2026-10-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/ibovespa-futuro-tenta-recuperacao-apos-onda-de-vendas-de-ativos-com-reeleicao-de-lula.jpg",
+        "resumo": "Nesta manhã, o Citigroup e a BCA Research rebaixaram a recomendação dos ativos brasileiros após a vitória eleitoral de Lula",
+        "conteudo": "<p>O Ibovespa Futuro opera com ligeira alta nos primeiro negócios desta terça-feira (27), em um movimento de correção após a onda de venda de ativos brasileiros na véspera, após a reeleição do presidente Luiz Inácio Lula da Silva (PT) .</p><h2>Por volta das 9h04 (horário de Brasília), o índice</h2><p>Por volta das 9h04 (horário de Brasília), o índice subia 0,24%, aos 178.675 pontos.</p><p>Os investidores acompanham as declarações do presidente do Banco Central, Gabriel Galípolo, enquanto o exterior opera com cautela antes da divulgação dos balanços de grandes empresas de tecnologia e de uma semana marcada por reuniões de bancos centrais para decisões sobre juros.</p><p>Nesta manhã, o Citigroup e a BCA Research rebaixaram a recomendação dos ativos brasileiros após a vitória eleitoral de Lula, argumentando que o perfil de risco-retorno para ações, títulos e moeda se deteriorou, à medida que os investidores reavaliam as perspectivas de disciplina fiscal e reformas estruturais sob o novo governo.</p><h2>Agentes do mercado devem ainda ficar atentos a possíveis</h2><p>Os agentes do mercado devem ainda ficar atentos a possíveis pistas sobre a composição da equipe econômica do quarto mandato de Lula na Presidência.</p><p>Índices futuros dos EUA avançam de olho em balanços e decisão sobre juros</p><p>Apesar dos ganhos no pré-mercado, o desempenho dos ativos no exterior não garante uma recuperação do Ibovespa ao longo do pregão</p><p>No front externo, um balanço frustrante do HSBC pesava sobre as ações de bancos, enquanto a expectativa de balanços de gigantes de tecnologia como Microsoft, Amazon e Alphabet nesta semana devem trazer pistas sobre se os fortes gastos com inteligência artificial darão retorno.</p><p>Em Wall Street, o Dow Jones Futuro operava em alta de 0,19%, o S&amp;P 500 subia 0,23% e Nasdaq tinha valorização de 0,34%.</p><p>O dólar futuro operava com alta de 0,20% na B3, aos R$ 5,388.</p><p>Os mercados da Ásia-Pacífico fecharam sem direção única, com destaque para os ganhos das ações de tecnologia devido ao otimismo em torno do pedido de IPO da Anthropic.</p><p>Os preços do petróleo sobem, revertendo as perdas anteriores impulsionadas por renovados esforços diplomáticos para pôr fim à guerra entre os EUA e o Irã e pelas esperanças de uma desescalada no conflito regional mais amplo, que viu os houthis, apoiados por Teerã, atacarem a Arábia Saudita.</p><p>As cotações do minério de ferro na China recuaram para o nível mais baixo em mais de dois anos, pressionados por crescentes preocupações com as perspectivas de demanda chinesa.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/mercados/ibovespa-futuro-tenta-recuperacao-apos-onda-de-vendas-de-ativos-com-reeleicao-de-lula/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Ibovespa Futuro opera com ligeira alta nos primeiro negócios desta terça-feira (27), em um movimento de correção após a onda de venda de ativos brasileiros na véspera, após a reeleição do presidente Luiz Inácio Lula da Silva (PT) . Por volta das 9h04 (horário de Brasília), o índice subia 0,24%, aos 178.675 pontos."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Os investidores acompanham as declarações do presidente do Banco Central, Gabriel Galípolo, enquanto o exterior opera com cautela antes da divulgação dos balanços de grandes empresas de tecnologia e de uma semana marcada por reuniões de bancos centrais para decisões sobre juros."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Nesta manhã, o Citigroup e a BCA Research rebaixaram a recomendação dos ativos brasileiros após a vitória eleitoral de Lula, argumentando que o perfil de risco-retorno para ações, títulos e moeda se deteriorou, à medida que os investidores reavaliam as perspectivas de disciplina fiscal e reformas estruturais sob o novo governo."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Os agentes do mercado devem ainda ficar atentos a possíveis pistas sobre a composição da equipe econômica do quarto mandato de Lula na Presidência."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Índices futuros dos EUA avançam de olho em balanços e decisão sobre juros"
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-26T140456Z_1514781221_RC21BOALZK1J_RTRMADP_3_BRAZIL-ELECTION-MARKETS.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/ibovespa-futuro-tenta-recuperacao-apos-onda-de-vendas-de-ativos-com-reeleicao-de-lula.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "c8dfc586097732ad",
+      "titulo": "Dólar abre em queda, com eleições ainda no radar e à espera do Fed | G1",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "g1 - Capa",
+      "urlFonte": "https://g1.globo.com/economia/noticia/2026/10/27/dolar-ibovespa.ghtml",
+      "dataFonte": "2026-10-27T12:00:32.009Z",
+      "resumoFonte": "Na véspera, a moeda americana teve a maior alta diária desde 1999, com avanço de 8,21%, a R$ 5,4027. Já o Ibovespa caiu 13,88%, aos 176.608 pontos, no pior resultado desde março de 2020, durante a pandemia de Covid-19.",
+      "imagem": "https://s2-g1.glbimg.com/tUPsGgoO28BJRkjplvlDrkQiy74=/6016x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/A/W/pNqFkwSSG90RoeSZ80Pg/drf20241217001.jpg",
+      "descobertaEm": "2026-10-27T12:20:39.089Z"
+    },
+    {
+      "id": "4739dad7518878f4",
+      "titulo": "Principais preocupações dos bancos são com as contas públicas e inadimplência, diz Banco Central",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/economia/noticia/2026/10/27/principais-preocupacoes-dos-bancos-sao-com-as-contas-publicas-e-inadimplencia-diz-relatorio-do-banco-central.ghtml",
+      "dataFonte": "2026-10-27T11:41:28.000Z",
+      "resumoFonte": "As principais preocupações das instituições financeiras são com o chamado \"risco fiscal', ou seja, com a trajetória de rombos seguidos nas contas públicas, além da alta da inadimplência — que bateu recorde —, em um cenário de juros elevados. A informação foi divulgada por meio do Relatório de Estabilidade Financeira (REF) do primeiro semestre deste…",
+      "imagem": "https://g1.globo.com/economia/noticia/2026/10/27/None",
+      "descobertaEm": "2026-10-27T12:18:15.264Z"
+    },
+    {
+      "id": "db9c949cfbd18974",
+      "titulo": "BC diz não ver risco relevante para estabilidade financeira",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-economia/bc-diz-nao-ver-risco-relevante-para-estabilidade-financeira/",
+      "dataFonte": "2026-10-27T11:25:57.000Z",
+      "resumoFonte": "Em relatório, autarquia fala em resiliência do sistema bancário, apesar do aumento dos ativos problemáticos e da queda da rentabilidade",
+      "imagem": "https://static.poder360.com.br/uploads/2026/02/BC-BancoCentral-Fachada-38.jpg",
+      "descobertaEm": "2026-10-27T12:18:15.264Z",
+      "reportagem": {
+        "titulo": "BC diz não ver risco relevante para estabilidade financeira",
+        "slug": "bc-diz-nao-ver-risco-relevante-para-estabilidade-financeira",
+        "categoria": "Economia",
+        "data": "2026-10-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/bc-diz-nao-ver-risco-relevante-para-estabilidade-financeira.jpg",
+        "resumo": "Autarquia fala em resiliência do sistema bancário, apesar do aumento dos ativos problemáticos e da queda da rentabilidade. Leia no Poder360.",
+        "conteudo": "<p>Em relatório, autarquia fala em resiliência do sistema bancário, apesar do aumento dos ativos problemáticos e da queda da rentabilidade</p><h2>Banco Central disse considerar que não há risco relevante</h2><p>O Banco Central disse considerar que não há risco relevante para a estabilidade financeira e que o Sistema Financeiro Nacional permanece com capitalização e liquidez confortáveis, além de provisões adequadas ao nível de perdas esperadas.</p><p>No Relatório de Estabilidade Financeira referente ao 1º semestre de 2026, divulgado nesta 3ª feira (27.out.2026), o BC declarou que o SFN permanece rentável e resiliente, apesar de verificado um recuo da rentabilidade.</p><p>Os testes de estresse, de capital e de liquidez, conforme a autarquia, demonstram a robustez do sistema bancário.</p><h2>REF é uma publicação semestral que apresenta o panorama</h2><p>O REF é uma publicação semestral que apresenta o panorama da evolução recente e as perspectivas para a estabilidade financeira no Brasil. Eis a íntegra (PDF – 13 MB).</p><p>Segundo o BC, o financiamento à economia real desacelerou –o que está em linha com condições financeiras mais restritivas e com a moderação da atividade econômica. O cenário, disse a autarquia, requer cautela.</p><p>O crédito bancário às famílias arrefeceu na carteira de maior risco. Manteve-se estável na de menor risco. Já o crédito bancário às pessoas jurídicas desacelerou para micro, pequenas e médias empresas.</p><p>O mercado de capitais cresce em ritmo superior ao crédito bancário. Há sinais de maior propensão ao risco na modalidade cartões de crédito, que mantém taxa de expansão elevada.</p><p>De acordo com o BC, a materialização de risco aumentou, que deve continuar pressionada no curto prazo –em especial no crédito às famílias. Os ativos problemáticos atingiram o maior nível desde 2012 na maioria das modalidades.</p><p>O principal fator que culminou nesse cenário foi a inadimplência, que, segundo o BC; “teria se elevado mesmo se as políticas de baixa a prejuízo não tivessem sido alteradas em 2025” .</p><p>A autarquia declarou que as estimativas de probabilidade de default indicam continuidade da pressão na maioria das modalidades no 2º semestre deste ano.</p><p>Também no crédito às empresas, a materialização de risco aumentou e as probabilidade de default mantiveram-se elevadas, sobretudo no crédito para empresas de micro, pequeno e médio porte.</p><p>BC diz não ver risco relevante para estabilidade financeira Em relatório, autarquia fala em resiliência do sistema bancário, apesar do aumento dos ativos problemáticos e da queda da rentabilidade --> copiar link --></p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-economia/bc-diz-nao-ver-risco-relevante-para-estabilidade-financeira/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Em relatório, autarquia fala em resiliência do sistema bancário, apesar do aumento dos ativos problemáticos e da queda da rentabilidade"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O Banco Central disse considerar que não há risco relevante para a estabilidade financeira e que o Sistema Financeiro Nacional permanece com capitalização e liquidez confortáveis, além de provisões adequadas ao nível de perdas esperadas."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "No Relatório de Estabilidade Financeira referente ao 1º semestre de 2026, divulgado nesta 3ª feira (27.out.2026), o BC declarou que o SFN permanece rentável e resiliente, apesar de verificado um recuo da rentabilidade. Os testes de estresse, de capital e de liquidez, conforme a autarquia, demonstram a robustez do sistema bancário."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O REF é uma publicação semestral que apresenta o panorama da evolução recente e as perspectivas para a estabilidade financeira no Brasil. Eis a íntegra (PDF – 13 MB)."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Segundo o BC, o financiamento à economia real desacelerou –o que está em linha com condições financeiras mais restritivas e com a moderação da atividade econômica. O cenário, disse a autarquia, requer cautela."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/02/BC-BancoCentral-Fachada-38.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/bc-diz-nao-ver-risco-relevante-para-estabilidade-financeira.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "ac87b740de90eb2e",
+      "titulo": "Governo prorroga subvenção ao diesel por mais 30 dias",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/economia/noticia/2026/10/27/governo-prorroga-subvencao-ao-diesel-por-mais-30-dias.ghtml",
+      "dataFonte": "2026-10-27T11:13:04.000Z",
+      "resumoFonte": "O Ministério do Planejamento informou nesta terça-feira (27) que foi prorrogada a chamada subvenção ao diesel, ou seja, um tipo de subsídio, por mais 30 dias. Com isso, está mantida em anteve em R$ 2,12 a subvenção para manter o preço do combustível mais baixo (entenda a composição mais abaixo). Sem a renovação, o benefício acabaria nesta semana.…",
+      "imagem": "https://s2-g1.glbimg.com/0DF8JvbZYk2dFXopn_3FZQ5R65w=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s04.video.glbimg.com/deo/vi/55/20/992055",
+      "descobertaEm": "2026-10-27T11:18:25.143Z"
+    },
+    {
+      "id": "22f9653646525698",
+      "titulo": "IPC-Fipe desacelera para 0,52% na 3ª quadrissemana de outubro",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/economia/ipc-fipe-desacelera-para-052-na-3a-quadrissemana-de-outubro/",
+      "dataFonte": "2026-10-27T11:06:57.000Z",
+      "resumoFonte": "Aumento de preços de Alimento \" data-image-caption=\" (Stock Adobe/Montagem IM – Leo Albertino) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2024/12/Aumento-de-Alimento3.jpg?fit=1280%2C718&quality=70&strip=all\" />Na terceira leitura de outubro, três dos sete grupos do IPC-Fipe perderam força ante a segunda quadrissemana:…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2024/12/Aumento-de-Alimento3.jpg",
+      "descobertaEm": "2026-10-27T11:18:25.143Z"
+    },
+    {
+      "id": "c184ef2b6e85e8c6",
+      "titulo": "No 2º turno, Lula vence Flávio em presídios com 75,3% dos votos",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/no-2o-turno-lula-vence-flavio-em-presidios-com-753-dos-votos/",
+      "dataFonte": "2026-10-27T11:21:39.000Z",
+      "resumoFonte": "O presidente Luiz Inácio Lula da Silva (PT) recebeu mais votos que o senador Flávio Bolsonaro (PL-RJ) nas seções eleitorais instaladas em unidades prisionais no segundo turno das eleições , realizado no domingo 25. + Entenda o que é Política em Oeste Segundo os números do Tribunal Superior Eleitoral (TSE) , o petista obteve 7.015 votos nessas…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/flavio-x-lula-futura-100-cidades-910x568.jpg.webp",
+      "descobertaEm": "2026-10-27T12:18:15.264Z",
+      "reportagem": {
+        "titulo": "No 2º turno, Lula vence Flávio em presídios com 75,3% dos votos",
+        "slug": "no-2-turno-lula-vence-flavio-em-presidios-com-75-3-dos-votos",
+        "categoria": "Justiça",
+        "data": "2026-10-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/no-2-turno-lula-vence-flavio-em-presidios-com-75-3-dos-votos.jpg",
+        "resumo": "Nessas seções, petista recebeu 7.015 votos, contra 2.298 do candidato do PL, segundo os números do TSE; confira",
+        "conteudo": "<p>• No segundo turno das eleições, realizado no domingo 25, o presidente Luiz Inácio Lula da Silva recebeu 7.015 votos nas seções eleitorais em unidades prisionais. • Número representa 75,3% dos votos, enquanto o senador Flávio Bolsonaro obteve 2.298 votos (24,7%).</p><h2>Presidente Luiz Inácio Lula da Silva (PT) recebeu mais</h2><p>O presidente Luiz Inácio Lula da Silva (PT) recebeu mais votos que o senador Flávio Bolsonaro (PL-RJ) nas seções eleitorais instaladas em unidades prisionais no segundo turno das eleições , realizado no domingo 25.</p><p>Segundo os números do Tribunal Superior Eleitoral (TSE) , o petista obteve 7.015 votos nessas áreas, enquanto o liberal recebeu 2.298. A soma equivale a 75,3% dos votos dos dois candidatos para Lula e 24,7% para Flávio.</p><p>A votação nessas seções não representa exclusivamente a escolha dos detentos. Além dos presos provisórios, que ainda não têm condenação criminal definitiva, servidores e outros eleitores também podem votar nesses locais. No primeiro turno, Lula também liderou nessas áreas.</p><h2>Maiores porcentuais atribuídos ao petista no levantamento aparecem</h2><p>Os maiores porcentuais atribuídos ao petista no levantamento aparecem em Estados nordestinos. Na Paraíba, Lula recebeu 87,2% dos votos, contra 12,8% de Flávio. No Piauí, a proporção foi de 85,4% a 14,6%.</p><p>No Rio Grande do Norte, o presidente obteve 84%, enquanto o candidato do PL ficou com 16%.</p><p>Duas unidades prisionais registraram votação integral em Lula. No Centro de Detenção Provisória de Aquiraz, no Ceará, o petista recebeu os 32 votos contabilizados. No Presídio Regional de Sapé, na Paraíba, conquistou os dez votos registrados.</p><p>O desempenho acompanha a vantagem de Lula no Nordeste na disputa presidencial. Segundo os dados, o presidente recebeu 69,3% dos votos válidos da região no segundo turno.</p><p>Em São Paulo, Estado com o maior número de presos provisórios aptos a votar, Lula somou 2.156 votos, contra 546 de Flávio. O resultado nas seções prisionais contrastou com o desempenho estadual geral: o petista terminou o segundo turno com 46,15% dos votos válidos paulistas.</p><p>Flávio, por sua vez, apresentou seus melhores resultados entre os eleitores dessas seções em Goiás, com 46,6%; Mato Grosso, com 42,3%; e Amazonas, com 38,7%, segundo o levantamento.</p><p>Leia mais: “O triunfo da malandragem” , artigo de Augusto Nunes publicado na Edição 346 da Revista Oeste</p><p>A Constituição Federal suspende os direitos políticos de quem cumpre condenação criminal definitiva. Por isso, pessoas nessa situação não podem votar enquanto durarem os efeitos da condenação. Os presos provisórios, sem condenação definitiva, mantêm o direito ao voto.</p><p>Salvar meus dados neste navegador para a próxima vez que eu comentar.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/no-2o-turno-lula-vence-flavio-em-presidios-com-753-dos-votos/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "• No segundo turno das eleições, realizado no domingo 25, o presidente Luiz Inácio Lula da Silva recebeu 7.015 votos nas seções eleitorais em unidades prisionais. • Número representa 75,3% dos votos, enquanto o senador Flávio Bolsonaro obteve 2.298 votos (24,7%)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O presidente Luiz Inácio Lula da Silva (PT) recebeu mais votos que o senador Flávio Bolsonaro (PL-RJ) nas seções eleitorais instaladas em unidades prisionais no segundo turno das eleições , realizado no domingo 25."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Segundo os números do Tribunal Superior Eleitoral (TSE) , o petista obteve 7.015 votos nessas áreas, enquanto o liberal recebeu 2.298. A soma equivale a 75,3% dos votos dos dois candidatos para Lula e 24,7% para Flávio."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A votação nessas seções não representa exclusivamente a escolha dos detentos. Além dos presos provisórios, que ainda não têm condenação criminal definitiva, servidores e outros eleitores também podem votar nesses locais. No primeiro turno, Lula também liderou nessas áreas."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Os maiores porcentuais atribuídos ao petista no levantamento aparecem em Estados nordestinos. Na Paraíba, Lula recebeu 87,2% dos votos, contra 12,8% de Flávio. No Piauí, a proporção foi de 85,4% a 14,6%. No Rio Grande do Norte, o presidente obteve 84%, enquanto o candidato do PL ficou com 16%."
+          }
+        ],
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/flavio-x-lula-futura-100-cidades-910x568.jpg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/no-2-turno-lula-vence-flavio-em-presidios-com-75-3-dos-votos.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "450be20aa6751c16",
+      "titulo": "Por que Flávio Bolsonaro foi intimado a entregar os passaportes?",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "BBC Brasil",
+      "urlFonte": "https://www.bbc.com/portuguese/articles/ck054vvj66g5o?at_medium=RSS&at_campaign=rss",
+      "dataFonte": "2026-10-27T12:12:56.000Z",
+      "resumoFonte": "Decisão foi dada em processo envolvendo o advogado Willer Tomaz e suspeitas de lavagem de dinheiro. Senador afirmou nunca ter pensado em deixar o país.",
+      "imagem": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/1e88/live/af73d830-d1fa-11f1-a701-fddedf244c16.jpg",
+      "descobertaEm": "2026-10-27T12:18:15.264Z",
+      "reportagem": {
+        "titulo": "Por que Flávio Bolsonaro foi intimado a entregar os passaportes? - BBC News Brasil",
+        "slug": "por-que-flavio-bolsonaro-foi-intimado-a-entregar-os-passaportes-bbc-news-brasil",
+        "categoria": "Justiça",
+        "data": "2026-10-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/por-que-flavio-bolsonaro-foi-intimado-a-entregar-os-passaportes-bbc-news-brasil.jpg",
+        "resumo": "Decisão foi dada em processo envolvendo o advogado Willer Tomaz e suspeitas de lavagem de dinheiro. Senador afirmou nunca ter pensado em deixar o país.",
+        "conteudo": "<p>O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), determinou na noite de domingo (27/10) que o senador e candidato derrotado Flávio Bolsonaro (PL-RJ) entregue seus passaportes.</p><h2>Polícia Federal (PF), porém, ainda não teria recebido os</h2><p>A Polícia Federal (PF), porém, ainda não teria recebido os documentos, segundo uma fonte da corporação ouvida pela BBC News Brasil.</p><p>A reportagem questionou a assessoria do senador sobre o tema, mas não obteve resposta até o momento.</p><p>A decisão de Moraes, que está sob sigilo, veio no âmbito do processo em que Flávio e o advogado Willer Tomaz são investigados por lavagem de dinheiro , como parte de um suposto esquema que envolveria empresas de Tomaz e o setor de apostas no Rio de Janeiro.</p><h2>Em um vídeo compartilhado na segunda-feira (26/10) por volta</h2><p>Em um vídeo compartilhado na segunda-feira (26/10) por volta das 16h em suas redes sociais, o senador disse ter sido abordado pela PF após deixar a casa do pai, o ex-presidente Jair Bolsonaro.</p><p>&quot;Hoje de manhã eu fui visitar o meu pai, como vocês sabem, ele tá em prisão domiciliar.</p><p>E quando eu tava saindo, a Polícia Federal do Lula tava na porta da casa dele e no meio da rua eu fui intimado a entregar os meus passaportes e também tô proibido de deixar o país.</p><p>A decisão do Alexandre de Moraes se baseou numa fala do Eduardo de 23 de outubro que eu deveria deixar o país se eu perdesse a eleição&quot;, disse ele no vídeo.</p><p>Em entrevista dada antes do segundo turno, o deputado cassado Eduardo Bolsonaro (PL-SP) defendeu que, em caso de derrota nas urnas, Flávio deveria deixar o país.</p><p>Em seu vídeo, porém, Flávio afirma que nunca disse que deixaria o país. &quot;Eu nunca pensei em sair do país&quot;, disse.</p><p>Segundo reportagem do Poder 360, o advogado Frederick Wassef, aliado de Jair Bolsonaro, esteve com o senador na segunda-feira no condomínio em que este reside, em Brasília.</p><p>O encontro se deu horas depois de Flávio ser intimado a entregar seus passaportes. O teor da conversa não foi divulgado.</p><p>A decisão Alexandre de Moraes está em segredo de justiça.</p><p>Mas segundo relatos do G1 e da CNN, o magistrado determinou o cancelamento de todos os passaportes brasileiros, incluindo o diplomático, de Flávio Bolsonaro, além da entrega em até 24 horas de passaportes que Flávio Bolsonaro tenha de outras nacionalidades.</p><p>Moraes também teria proibido qualquer contato entre Flávio Bolsonaro e o advogado Willer Tomaz.</p><p>Confira a apuração para presidente e governador em seu Estado e município no mapa interativo da BBC News Brasil</p><p>Segundo Flávio, a decisão de Moraes está baseada em uma fala de seu irmão, Eduardo Bolsonaro, que está nos Estados Unidos — apesar de constar, contra ele, um mandado de prisão em aberto no Brasil.</p><p>Em declaração dada dois dias antes do segundo turno das eleições, Eduardo, que teve o mandato de deputado federal cassado, defendeu que Flávio deveria deixar o Brasil se perdesse a disputa presidencial.</p>",
+        "fonteNome": "BBC Brasil",
+        "fonteUrl": "https://www.bbc.com/portuguese/articles/ck054vvj66g5o?at_medium=RSS&at_campaign=rss",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), determinou na noite de domingo (27/10) que o senador e candidato derrotado Flávio Bolsonaro (PL-RJ) entregue seus passaportes."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A Polícia Federal (PF), porém, ainda não teria recebido os documentos, segundo uma fonte da corporação ouvida pela BBC News Brasil."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A reportagem questionou a assessoria do senador sobre o tema, mas não obteve resposta até o momento."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A decisão de Moraes, que está sob sigilo, veio no âmbito do processo em que Flávio e o advogado Willer Tomaz são investigados por lavagem de dinheiro , como parte de um suposto esquema que envolveria empresas de Tomaz e o setor de apostas no Rio de Janeiro."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Em um vídeo compartilhado na segunda-feira (26/10) por volta das 16h em suas redes sociais, o senador disse ter sido abordado pela PF após deixar a casa do pai, o ex-presidente Jair Bolsonaro."
+          }
+        ],
+        "imagemOriginal": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/1e88/live/af73d830-d1fa-11f1-a701-fddedf244c16.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/por-que-flavio-bolsonaro-foi-intimado-a-entregar-os-passaportes-bbc-news-brasil.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -503,33 +803,21 @@
       "resumoFonte": "Aliados acreditam que presidente tentará indicar Messias pela segunda vez antes de mudança na composição do Senado",
       "imagem": "https://i.metroimg.com/xOhR0PIBxhxYZo-jxGhcstTKbATCW0K6So3rjVz_EKA/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/08/ministerio-da-justica-e-seguranca-publica-wellington-cesar-lima-e-silva-e-advogado-geral-da-uniao-jorge-messias-anunciam-medidas-para-mitigar-crimes-na-plataforma-discord-metropoles-1-scaled.jpg",
       "descobertaEm": "2026-10-27T11:18:25.143Z"
-    },
-    {
-      "id": "583081962d0d1097",
-      "titulo": "Estudante é denunciado por falsificar documento 3 vezes para entrar na UFU",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/mirelle-pinheiro/estudante-e-denunciado-por-falsificar-documento-3-vezes-para-entrar-na-ufu",
-      "dataFonte": "2026-10-27T10:08:49.000Z",
-      "resumoFonte": "O caso ocorreu durante o processo de matrícula do Sistema de Seleção Unificada (Sisu) para o curso de Enfermagem",
-      "imagem": "https://i.metroimg.com/ldAj1LKVU48oAHfMYZ5bGHlnw1uIMk0TIRQMBSEhjj8/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/destaque-ufu-ruf-2024-foto-marco-cavalcanti-3x2-1.jpg",
-      "descobertaEm": "2026-10-27T10:18:44.228Z"
     }
   ],
-  "reapuradoEm": "2026-10-27T11:48:40.620Z",
+  "reapuradoEm": "2026-10-27T12:48:35.031Z",
   "diagnosticoReapuracao": {
-    "produzidas": 6,
+    "produzidas": 12,
     "jaProntas": 0,
-    "incompletas": 12,
+    "incompletas": 6,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 6,
+    "geradas": 12,
     "reaproveitadas": 0,
-    "puladas": 12,
+    "puladas": 6,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-10-27T11:49:02.719Z"
+  "lapisEm": "2026-10-27T12:49:27.244Z"
 }
