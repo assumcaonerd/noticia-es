@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-27T14:19:36.091Z",
+  "atualizadoEm": "2026-10-27T15:18:10.619Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 92,
+  "novasPautas": 82,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -351,14 +351,14 @@
     {
       "fonte": "BBC Brasil",
       "ok": true,
-      "encontrados": 21,
+      "encontrados": 22,
       "rota": "https://feeds.bbci.co.uk/portuguese/rss.xml",
       "fallback": false
     },
     {
       "fonte": "Agência Brasil - Economia",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 5,
       "rota": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml",
       "fallback": false
     },
@@ -376,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-27T14:23:19.161Z",
+    "atualizadoEm": "2026-10-27T15:21:12.681Z",
     "novas": 6,
     "fontes": [
       {
@@ -411,8 +411,8 @@
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": false,
-        "erro": "The operation was aborted due to timeout"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "X Governo ES",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-27T14:23:36.288Z",
+    "atualizadoEm": "2026-10-27T15:21:14.397Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-27T14:23:37.554Z",
+    "atualizadoEm": "2026-10-27T15:21:15.476Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-27T14:23:48.128Z",
+    "atualizadoEm": "2026-10-27T15:21:26.024Z",
     "novas": 0,
     "fontes": [
       {
