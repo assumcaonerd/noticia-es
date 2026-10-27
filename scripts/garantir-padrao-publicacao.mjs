@@ -38,6 +38,10 @@ function conteudoEditorialValido(conteudo = '') {
     /Você tem \d+ acessos por dia/i,
     /Assinantes podem liberar \d+ acessos por dia/i,
     /pic\.twitter\.com\//i,
+    /Clique aqui e receba em primeira mão/i,
+    /Coluna Vitor Vogas pelo Whatsapp/i,
+    /receba (?:em primeira mão )?.{0,80}(?:pelo|no) WhatsApp/i,
+    /assine (?:a |nossa )?(?:newsletter|coluna)/i,
     /Leia também:/i
   ];
   if (proibidos.some(re => re.test(texto))) return false;
