@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-27T13:23:17.848Z",
+  "atualizadoEm": "2026-10-27T14:19:36.091Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 69,
+  "novasPautas": 92,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -45,7 +45,7 @@
     {
       "fonte": "A Gazeta - Política",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 6,
       "capa": false,
       "rota": "https://www.agazeta.com.br/es/politica",
       "fallback": false
@@ -61,7 +61,7 @@
     {
       "fonte": "A Gazeta - Polícia",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 6,
       "capa": false,
       "rota": "https://www.agazeta.com.br/es/policia",
       "fallback": false
@@ -290,14 +290,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 6,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 5,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -330,7 +330,7 @@
     {
       "fonte": "Poder360 - Feed",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 10,
       "rota": "https://www.poder360.com.br/feed/",
       "fallback": false
     },
@@ -376,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-27T13:26:17.074Z",
+    "atualizadoEm": "2026-10-27T14:23:19.161Z",
     "novas": 6,
     "fontes": [
       {
@@ -411,8 +411,8 @@
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "The operation was aborted due to timeout"
       },
       {
         "fonte": "X Governo ES",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-27T13:26:18.641Z",
+    "atualizadoEm": "2026-10-27T14:23:36.288Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-27T13:26:19.540Z",
+    "atualizadoEm": "2026-10-27T14:23:37.554Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-27T13:26:30.087Z",
+    "atualizadoEm": "2026-10-27T14:23:48.128Z",
     "novas": 0,
     "fontes": [
       {
