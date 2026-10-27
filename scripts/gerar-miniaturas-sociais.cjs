@@ -11,7 +11,9 @@ for(const match of manifest.matchAll(/["'](auto-redacao-[a-zA-Z0-9-]+\.js)["']/g
  try{const box={noticias:[],window:{noticiasAuto:[]},document:{write(){},querySelector(){return null;},querySelectorAll(){return [];},getElementById(){return null;}}};box.window.window=box.window;box.window.document=box.document;vm.runInNewContext(js+';globalThis.exported='+variable+';',box,{timeout:5000,filename:file});articles=box.exported;}catch(e){console.warn('[miniaturas] arquivo ignorado:',file,e.message);errors++;continue;}
  for(const n of articles||[]){
   const slug=String(n.slug||'');if(!/^[a-z0-9][a-z0-9-]*$/.test(slug))continue;
-  const dest=path.join(dir,slug+'.html');if(fs.existsSync(dest))continue;
+  const dest=path.join(dir,slug+'.html');
+  // Recria a pagina afetada para corrigir metadados antigos ja publicados.
+  if(fs.existsSync(dest) && slug!=='amp-quot-foi-o-vento-bolsonarista-amp-quot-diz-casagrande-sobre-vit-amp-oacute-ria-de-pazo')continue;
   const title=esc(n.titulo||'Notícia ES'),desc=esc(n.resumo||''),url='https://noticiaes.com.br/m/'+slug+'.html';
   let img='';try{img=new URL(n.imagem||'/assets/og/noticia-es-miniatura.png.png','https://noticiaes.com.br/').href;}catch{}
   if(!img.startsWith('https://'))img='';
