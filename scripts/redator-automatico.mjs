@@ -96,7 +96,7 @@ function validarReportagem(p) {
   if (/formado em jornalismo|editor-assistente|colunista da|\bblogs\b/i.test(primeiroParagrafo)) return 'lead contaminado por biografia da fonte';
   if (String(r.categoria || p.categoria) === 'Política Nacional' && /\b(lua|fotografar|celular|zoom [óo]ptico|nvidia|chip|semiconductor|semicondutor)\b/i.test(textoPuro(conteudo))) return 'classificação incompatível com Política Nacional';
   if (/<h2[^>]*>\s*(Contexto|Desdobramentos?)\s*<\/h2>/i.test(conteudo)) return 'intertítulo genérico proibido';
-  if (/Leia também:|pic\.twitter\.com\/|Você tem \d+ acessos por dia|Assinantes podem liberar \d+ acessos por dia|Jornalista, pós-graduad[oa]|Graduad[oa] em jornalismo/i.test(textoPuro(conteudo))) return 'resíduo da fonte detectado';
+  if (/Leia também:|pic\.twitter\.com\/|Você tem \d+ acessos por dia|Assinantes podem liberar \d+ acessos por dia|Jornalista, pós-graduad[oa]|Graduad[oa] em jornalismo|Salvar meus dados neste navegador|Assista acima|A reportagem de [^.!?]{0,100} tenta localizar (?:a |o )?defesa/i.test(textoPuro(conteudo))) return 'resíduo da fonte detectado';
   if (/&(?:amp;)?(?:ccedil|atilde|aacute|eacute|iacute|oacute|uacute|ecirc|ocirc);/i.test(conteudo)) return 'entidade HTML quebrada';
   return null;
 }
