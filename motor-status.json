@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-27T23:49:03.578Z",
+  "atualizadoEm": "2026-10-28T00:18:13.188Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 68,
+  "novasPautas": 73,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -290,14 +290,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 7,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 3,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -323,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 10,
+      "encontrados": 8,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,18 +376,18 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-27T23:53:16.584Z",
+    "atualizadoEm": "2026-10-28T00:22:47.048Z",
     "novas": 0,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube Folha Vitória",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube ALES",
@@ -406,8 +406,8 @@
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-27T23:53:17.954Z",
+    "atualizadoEm": "2026-10-28T00:22:49.288Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-27T23:53:18.878Z",
+    "atualizadoEm": "2026-10-28T00:22:50.262Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-27T23:53:29.427Z",
+    "atualizadoEm": "2026-10-28T00:23:00.841Z",
     "novas": 0,
     "fontes": [
       {
