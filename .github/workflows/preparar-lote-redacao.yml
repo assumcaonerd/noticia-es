@@ -76,7 +76,15 @@ jobs:
 
           for tentativa in 1 2 3 4 5; do
             echo "Tentativa de publicação ${tentativa}/5"
-            git pull --rebase origin main || true
+            if ! git pull --rebase origin main; then
+              echo "::error::Conflito ao atualizar a main; esta rodada não foi publicada."
+              git rebase --abort || true
+              exit 1
+            fi
+            if [ "$(git log -1 --format=%s)" != "$msg" ]; then
+              echo "::error::O commit da rodada não está no HEAD após rebase; publicação não confirmada."
+              exit 1
+            fi
             if git push origin HEAD:main; then
               echo "Ciclo gravado."
               exit 0
