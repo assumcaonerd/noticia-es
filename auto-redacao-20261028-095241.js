@@ -1,0 +1,24 @@
+const noticiasAutoRedacao20261028095241 = [
+  {
+    id: 26102809524101,
+    pautaId: "1f291e03cab5f634",
+    slug: "colisao-entre-dois-trens-deixa-dezenas-de-mortos-na-espanha-bbc-news-brasil",
+    titulo: "Colisão entre dois trens deixa dezenas de mortos na Espanha - BBC News Brasil",
+    categoria: "Economia",
+    data: "2026-10-28",
+    imagem: "https://noticiaes.com.br/imagens/lapis/colisao-entre-dois-trens-deixa-dezenas-de-mortos-na-espanha-bbc-news-brasil.jpg",
+    resumo: "Colisão envolveu um trem de alta velocidade que havia partido de Madri com destino a Sevilha e uma composição de outra empresa que seguia no sentido contrário.",
+    conteudo: "<p>A Espanha acordou nesta manhã com mais um grave acidente ferroviário. O governo confirmou pelo menos 10 mortos e dezenas de feridos, embora se acredite que o número de vítimas fatais venha a aumentar consideravelmente. Alguns veículos de imprensa falam em 46 mortos.</p><h2>Colisão envolveu um trem de alta velocidade AVE,</h2><p>A colisão envolveu um trem de alta velocidade AVE, que havia partido de Madri com destino a Sevilha, e uma composição da empresa Iryo que seguia no sentido contrário.</p><p>O acidente ocorreu cerca de 140 quilômetros ao sul de Madri, nas proximidades da cidade de Urda, na província de Toledo, por volta das 8h54 no horário local.</p><p>Com o impacto, quatro vagões tombaram por um barranco.</p><h2>Equipes de emergência trabalham contra o tempo para socorrer</h2><p>As equipes de emergência trabalham contra o tempo para socorrer os feridos e tentar localizar sobreviventes.</p><p>No AVE viajavam 397 passageiros. Já o trem da Iryo transportava 147 pessoas, entre elas um bebê.</p><p>&quot;Os serviços de emergência estão trabalhando no local para atender os afetados e garantir sua segurança, em coordenação com todas as autoridades envolvidas&quot;, afirmou o presidente do governo espanhol, Pedro Sánchez , nas redes sociais.</p><p>As causas da colisão ainda são desconhecidas, mas o governo indicou a possibilidade de erro humano.</p><p>A operadora ferroviária Renfe informou que os serviços entre Madri, Ciudad Real e a Andaluzia foram suspensos.</p><p>Confira a apuração para presidente e governador em seu Estado e município no mapa interativo da BBC News Brasil</p><p>Eduarda, uma jovem de 17 anos que viajava em um dos trens, contou à rádio SER que a situação no local era de &quot;caos&quot; e que viu vítimas presas sob os vagões.</p><p>&quot;Eu estava tranquila, com meus dois gatinhos ao lado, quando houve uma freada muito forte e fui arremessada para a frente com a poltrona. As pessoas começaram a sair; havia gente chorando. Era possível ver mortos sob os trens por toda parte&quot;, relatou.</p><p>&quot;Muita gente sem conseguir sair, gritos... Um horror.&quot;</p><p>Equipes da Guarda Civil, dos bombeiros das províncias de Toledo e Ciudad Real, voluntários da Proteção Civil e profissionais do Serviço de Saúde de Castilla-La Mancha se dirigiram ao local do acidente.</p><p>O desastre ocorre apenas alguns meses depois de outro acidente ferroviário entre as mesmas empresas e no mesmo trecho .</p><p>Em 9 de janeiro, 45 pessoas morreram após a colisão de dois trens de alta velocidade na província de Córdoba, no sul da Espanha.</p>",
+    autor: 'Redação Notícia ES',
+    fonteNome: "BBC Brasil",
+    fonteUrl: "https://www.bbc.com/portuguese/articles/cmly074jvgglo?at_medium=RSS&at_campaign=rss",
+    fontesAdicionais: [{"nome":"Agência Brasil Economia","url":"https://agenciabrasil.ebc.com.br/economia"},{"nome":"Banco Central","url":"https://www.bcb.gov.br/detalhenoticia"}],
+    entidades: [],
+    aeo: [{"pergunta":"O que aconteceu?","resposta":"A Espanha acordou nesta manhã com mais um grave acidente ferroviário. O governo confirmou pelo menos 10 mortos e dezenas de feridos, embora se acredite que o número de vítimas fatais venha a aumentar consideravelmente. Alguns veículos de imprensa falam em 46 mortos."},{"pergunta":"Qual é o ponto principal?","resposta":"A colisão envolveu um trem de alta velocidade AVE, que havia partido de Madri com destino a Sevilha, e uma composição da empresa Iryo que seguia no sentido contrário."},{"pergunta":"Quais são os dados mais importantes?","resposta":"O acidente ocorreu cerca de 140 quilômetros ao sul de Madri, nas proximidades da cidade de Urda, na província de Toledo, por volta das 8h54 no horário local."},{"pergunta":"Qual é o contexto?","resposta":"Com o impacto, quatro vagões tombaram por um barranco."},{"pergunta":"Quais são os próximos desdobramentos?","resposta":"As equipes de emergência trabalham contra o tempo para socorrer os feridos e tentar localizar sobreviventes."}],
+    redacaoPropria: true,
+    origemTexto: 'redacao-noticia-es',
+    automatico: true,
+    publicadoEm: "2026-10-28T12:52:41.606Z"
+  }
+];
+if (typeof noticias !== 'undefined') noticias.unshift(...noticiasAutoRedacao20261028095241);
