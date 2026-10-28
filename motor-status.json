@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-28T18:18:15.969Z",
+  "atualizadoEm": "2026-10-28T19:02:38.222Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 88,
+  "novasPautas": 92,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -198,9 +198,11 @@
     },
     {
       "fonte": "Século Diário",
-      "ok": false,
-      "erro": "https://www.seculodiario.com.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://www.seculodiario.com.br/",
+      "fallback": false
     },
     {
       "fonte": "ES Hoje - Política",
@@ -288,7 +290,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 10,
+      "encontrados": 11,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -321,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 12,
+      "encontrados": 8,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -349,7 +351,7 @@
     {
       "fonte": "BBC Brasil",
       "ok": true,
-      "encontrados": 20,
+      "encontrados": 16,
       "rota": "https://feeds.bbci.co.uk/portuguese/rss.xml",
       "fallback": false
     },
@@ -374,8 +376,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-28T18:22:20.324Z",
-    "novas": 6,
+    "atualizadoEm": "2026-10-28T19:05:22.744Z",
+    "novas": 5,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-28T18:22:22.221Z",
+    "atualizadoEm": "2026-10-28T19:05:25.048Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-28T18:22:23.233Z",
+    "atualizadoEm": "2026-10-28T19:05:26.349Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-28T18:22:33.788Z",
+    "atualizadoEm": "2026-10-28T19:05:36.928Z",
     "novas": 0,
     "fontes": [
       {
