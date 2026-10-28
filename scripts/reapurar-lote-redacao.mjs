@@ -127,7 +127,7 @@ function meta(html, chave, atributo = 'property') {
 
 function paragrafoSujo(texto = '') {
   const t = limparHtml(texto);
-  return /cookie|newsletter|assine|publicidade|coment[aá]rio|leia também|pic\.twitter\.com|você tem \d+ acessos por dia|assinantes podem liberar(?: \d+)? acessos por dia|jornalista(?:,)?\s+pós-graduad[oa]|graduad[oa] em jornalismo|formad[oa] em jornalismo|editor-assistente|colunista da|\bblogs\b|seu endereço de e-mail não será publicado/i.test(t);
+  return /cookie|newsletter|assine|publicidade|coment[aá]rio|leia também|pic\.twitter\.com|você tem \d+ acessos por dia|assinantes podem liberar(?: \d+)? acessos por dia|jornalista(?:,)?\s+pós-graduad[oa]|graduad[oa] em jornalismo|formad[oa] em jornalismo|editor-assistente|colunista da|\bblogs\b|seu endereço de e-mail não será publicado|salvar meus dados neste navegador|assista acima|a reportagem de [^.!?]{0,100} tenta localizar (?:a |o )?defesa/i.test(t);
 }
 
 function recorteArtigo(html = '') {
