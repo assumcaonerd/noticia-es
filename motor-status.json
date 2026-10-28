@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-28T19:02:38.222Z",
+  "atualizadoEm": "2026-10-28T20:21:11.274Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 92,
+  "novasPautas": 100,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -140,11 +140,9 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://ipbvit.org.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://ipbvit.org.br/ -> fetch failed",
+      "capa": true
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -290,16 +288,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 11,
+      "encontrados": 7,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
-      "ok": true,
-      "encontrados": 6,
-      "rota": "https://revistaoeste.com/feed/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://revistaoeste.com/feed/ -> 403 Forbidden | https://revistaoeste.com/atom -> 403 Forbidden"
     },
     {
       "fonte": "Correio Braziliense - Feed",
@@ -376,8 +372,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-28T19:05:22.744Z",
-    "novas": 5,
+    "atualizadoEm": "2026-10-28T20:24:15.148Z",
+    "novas": 7,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -437,7 +433,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-28T19:05:25.048Z",
+    "atualizadoEm": "2026-10-28T20:24:17.154Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +449,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-28T19:05:26.349Z",
+    "atualizadoEm": "2026-10-28T20:24:18.391Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-28T19:05:36.928Z",
+    "atualizadoEm": "2026-10-28T20:24:28.967Z",
     "novas": 0,
     "fontes": [
       {
