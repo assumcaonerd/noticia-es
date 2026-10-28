@@ -27,6 +27,7 @@ function ehLapis(url = '') {
 
 function fotoValida(url = '') {
   const u = String(url || '').trim();
+  if (/\/(?:none|null|undefined)(?:[?#]|$)/i.test(u)) return false;
   if (!/^https:\/\//i.test(u)) return false;
   if (/\.svg(\?|$)/i.test(u)) return false;
   if (INVALIDA.test(u)) return false;

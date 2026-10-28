@@ -169,6 +169,7 @@ function pautaEditorialmenteBloqueada(pauta) {
 
 function imagemValida(pauta) {
   const img = String(pauta.imagemFonte || pauta.imagem || '').trim();
+  if (/\/(?:none|null|undefined)(?:[?#]|$)/i.test(img)) return false;
   if (!/^https:\/\//i.test(img)) return false;
   if (/\.svg(\?|$)/i.test(img)) return false;
   if (PADROES_IMAGEM_INVALIDA.test(img)) return false;
