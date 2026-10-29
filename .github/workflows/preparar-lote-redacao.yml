@@ -23,7 +23,27 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Mudanças nos scripts disparam apenas testes de sintaxe.
+  # A publicação completa continua na agenda horária e no acionamento manual,
+  # evitando uma segunda redação enquanto outras rotinas gravam na main.
+  validar:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Validar sintaxe dos scripts de redação
+        run: |
+          node --check scripts/preparar-lote-redacao.mjs
+          node --check scripts/reapurar-lote-redacao.mjs
+          node --check scripts/gerar-capa-lapis.mjs
+          node --check scripts/redator-automatico.mjs
+
   redigir:
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
