@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-29T15:19:12.882Z",
+  "atualizadoEm": "2026-10-29T16:19:00.999Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 80,
+  "novasPautas": 96,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -198,9 +198,11 @@
     },
     {
       "fonte": "Século Diário",
-      "ok": false,
-      "erro": "https://www.seculodiario.com.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://www.seculodiario.com.br/",
+      "fallback": false
     },
     {
       "fonte": "ES Hoje - Política",
@@ -288,14 +290,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 11,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 5,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -321,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 6,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -349,7 +351,7 @@
     {
       "fonte": "BBC Brasil",
       "ok": true,
-      "encontrados": 19,
+      "encontrados": 20,
       "rota": "https://feeds.bbci.co.uk/portuguese/rss.xml",
       "fallback": false
     },
@@ -374,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-29T15:22:47.978Z",
+    "atualizadoEm": "2026-10-29T16:21:05.566Z",
     "novas": 4,
     "fontes": [
       {
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-29T15:22:50.082Z",
+    "atualizadoEm": "2026-10-29T16:21:06.947Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-29T15:22:51.313Z",
+    "atualizadoEm": "2026-10-29T16:21:07.934Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-29T15:23:01.918Z",
+    "atualizadoEm": "2026-10-29T16:21:18.509Z",
     "novas": 0,
     "fontes": [
       {
