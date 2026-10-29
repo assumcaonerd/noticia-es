@@ -9,7 +9,7 @@ function meta(html,key,attr='property') {
   for (const re of [new RegExp(`<meta[^>]+${attr}=["']${k}["'][^>]+content=["']([^"']*)["']`,'i'),new RegExp(`<meta[^>]+content=["']([^"']*)["'][^>]+${attr}=["']${k}["']`,'i')]) { const m=html.match(re); if(m) return decode(m[1]).trim(); }
   return '';
 }
-function valida(url='') { return /^https?:\/\//i.test(url) && !/(logo|favicon|sprite|placeholder|placehold\.co|default[-_]?image|avatar|tracking|1x1|pixel\.gif|\/icons?\/)/i.test(url); }
+function valida(url='') { return /^https?:\/\//i.test(url) && !/(scorecardresearch\.com|logo|favicon|sprite|placeholder|placehold\.co|default[-_]?image|avatar|tracking|1x1|pixel\.gif|\/icons?\/)/i.test(url); }
 function imagem(html,base) {
   const c=[meta(html,'og:image'),meta(html,'og:image:secure_url'),meta(html,'og:image:url'),meta(html,'twitter:image','name'),meta(html,'twitter:image:src','name')].filter(Boolean);
   for(const raw of c){ try { const u=new URL(raw,base).href; if(valida(u)) return u; } catch {} }

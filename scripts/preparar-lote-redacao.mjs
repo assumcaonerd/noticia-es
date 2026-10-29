@@ -41,7 +41,7 @@ const FONTES_BLOQUEADAS = [
   'tass'
 ];
 
-const PADROES_IMAGEM_INVALIDA = /(auto-(politica|seguranca)|placeholder|fb_marca\.png|marca[_-]?valor|logo[^/]*valor|valor[^/]*logo|default[-_]?image|og[-_]?default|\/logo[._/-]|logo\.(svg|png|jpg|jpeg|webp)(\?|$))/i;
+const PADROES_IMAGEM_INVALIDA = /(scorecardresearch\.com|auto-(politica|seguranca)|placeholder|fb_marca\.png|marca[_-]?valor|logo[^/]*valor|valor[^/]*logo|default[-_]?image|og[-_]?default|\/logo[._/-]|logo\.(svg|png|jpg|jpeg|webp)(\?|$))/i;
 const STOP = new Set('a o as os um uma uns umas de da do das dos em no na nos nas por para com sem e ou que se ao aos à às entre sobre após apos antes durante contra como mais menos já ja tem teve têm sua seu suas seus esta este isso isto esse essa esses essas novo nova novos novas 2026 2027 brasil brasileiro brasileira'.split(' '));
 
 function normalizar(s = '') {

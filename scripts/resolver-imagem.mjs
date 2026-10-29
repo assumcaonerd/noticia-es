@@ -37,7 +37,7 @@ export function ehImagemDeFonte(url = '') {
   const u = url.toLowerCase();
   // Descarta valores fictícios de feeds que aparentam ser URLs válidas.
   if (/\/(?:none|null|undefined)(?:[?#]|$)/i.test(u)) return false;
-  if (/(logo|favicon|sprite|placeholder|placehold\.co|default[-_]?image|avatar-default|tracking|1x1|pixel\.gif|\/icons?\/|icon[-_.]|auto-politica|auto-seguranca|\.svg(\?|$))/i.test(u)) return false;
+  if (/(scorecardresearch\.com|logo|favicon|sprite|placeholder|placehold\.co|default[-_]?image|avatar-default|tracking|1x1|pixel\.gif|\/icons?\/|icon[-_.]|auto-politica|auto-seguranca|\.svg(\?|$))/i.test(u)) return false;
   return true;
 }
 

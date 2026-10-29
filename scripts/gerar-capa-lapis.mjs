@@ -9,7 +9,7 @@ const TMP = path.join(RAIZ, '.tmp-capas-lapis');
 const LOTE = path.join(RAIZ, 'lote-redacao.json');
 const LARGURA = 1200;
 const ALTURA = 630;
-const INVALIDA = /(auto-(politica|seguranca)|placeholder|fallback|default[-_]?image|og[-_]?default|\/logo[._/-]|logo\.(svg|png|jpg|jpeg|webp)(\?|$)|imagens\/auto-.*\.svg)/i;
+const INVALIDA = /(scorecardresearch\.com|auto-(politica|seguranca)|placeholder|fallback|default[-_]?image|og[-_]?default|\/logo[._/-]|logo\.(svg|png|jpg|jpeg|webp)(\?|$)|imagens\/auto-.*\.svg)/i;
 
 function slugify(s = '') {
   return String(s)
