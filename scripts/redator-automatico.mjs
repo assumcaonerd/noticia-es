@@ -74,6 +74,7 @@ function validarReportagem(p) {
   const subtitulos = (conteudo.match(/<h2\b/gi) || []).length;
 
   if (!titulo || titulo.length < 20) return 'título insuficiente';
+  if (/&(?:amp;)?(?:quot|apos|lt|gt|nbsp|#\d+|#x[0-9a-f]+);/i.test(titulo + ' ' + resumo)) return 'entidade HTML não decodificada em título/resumo';
   if (/\|?\s*(cnn brasil|blogs\s*\||folha de s\.?paulo|o globo|estad[aã]o|veja)/i.test(titulo)) return 'título ainda contém marca da fonte';
   if (/blogs-cnn-brasil|cnn-brasil$/i.test(String(r.slug || ''))) return 'slug ainda contém marca da fonte';
   if (!resumo || resumo.length < 80) return 'resumo/subtítulo insuficiente';
