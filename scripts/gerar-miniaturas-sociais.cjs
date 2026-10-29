@@ -2,6 +2,7 @@ const fs=require('fs'), path=require('path'), vm=require('vm');
 const root=path.resolve(__dirname,'..'), dir=path.join(root,'m');
 fs.mkdirSync(dir,{recursive:true});
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const escMeta=s=>esc(String(s??'').replace(/&amp;/gi,'&').replace(/&(?:quot|apos|lt|gt|nbsp);/gi,m=>({ '&quot;':'"', '&apos;':"'", '&lt;':'<', '&gt;':'>', '&nbsp;':' ' }[m.toLowerCase()]||m)));
 const manifest=fs.readFileSync(path.join(root,'auto-manifest.js'),'utf8');
 let made=0,errors=0;
 for(const match of manifest.matchAll(/["'](auto-redacao-[a-zA-Z0-9-]+\.js)["']/g)){
@@ -14,7 +15,7 @@ for(const match of manifest.matchAll(/["'](auto-redacao-[a-zA-Z0-9-]+\.js)["']/g
   const dest=path.join(dir,slug+'.html');
   // Recria a pagina afetada para corrigir metadados antigos ja publicados.
   if(fs.existsSync(dest) && slug!=='amp-quot-foi-o-vento-bolsonarista-amp-quot-diz-casagrande-sobre-vit-amp-oacute-ria-de-pazo')continue;
-  const title=esc(n.titulo||'Notícia ES'),desc=esc(n.resumo||''),url='https://noticiaes.com.br/m/'+slug+'.html';
+  const title=escMeta(n.titulo||'Notícia ES'),desc=escMeta(n.resumo||''),url='https://noticiaes.com.br/m/'+slug+'.html';
   let img='';try{img=new URL(n.imagem||'/assets/og/noticia-es-miniatura.png.png','https://noticiaes.com.br/').href;}catch{}
   if(!img.startsWith('https://'))img='';
   img=esc(img);
