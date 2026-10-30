@@ -76,6 +76,8 @@ function validarReportagem(p) {
   if (!titulo || titulo.length < 20) return 'título insuficiente';
   if (/&(?:amp;)?(?:quot|apos|lt|gt|nbsp|#\d+|#x[0-9a-f]+);/i.test(titulo + ' ' + resumo)) return 'entidade HTML não decodificada em título/resumo';
   if (/\|?\s*(cnn brasil|blogs\s*\||folha de s\.?paulo|o globo|estad[aã]o|veja)/i.test(titulo)) return 'título ainda contém marca da fonte';
+  if (/\|\s*g1\s*$/i.test(titulo)) return 'título ainda contém marca da fonte';
+  if (/(?:^|-)g1$/i.test(String(r.slug || ''))) return 'slug ainda contém marca da fonte';
   if (/blogs-cnn-brasil|cnn-brasil$/i.test(String(r.slug || ''))) return 'slug ainda contém marca da fonte';
   if (!resumo || resumo.length < 80) return 'resumo/subtítulo insuficiente';
   if (!imagemValida(imagem)) return 'imagem inválida: exige arte própria em noticiaes.com.br/imagens/lapis/';
@@ -95,6 +97,7 @@ function validarReportagem(p) {
   if (/entrou na fila automática|o que se sabe até agora|seguirá atualizando a cobertura/i.test(conteudo)) return 'modelo de nota curta detectado';
   const primeiroParagrafo = textoPuro(conteudo.match(/<p\b[^>]*>([\s\S]*?)<\/p>/i)?.[1] || '');
   if (/formado em jornalismo|editor-assistente|colunista da|\bblogs\b/i.test(primeiroParagrafo)) return 'lead contaminado por biografia da fonte';
+  if (/(?:^|[\s—-])Foto:\s*\S/i.test(primeiroParagrafo)) return 'lead contaminado por legenda da fonte';
   if (String(r.categoria || p.categoria) === 'Política Nacional' && /\b(lua|fotografar|celular|zoom [óo]ptico|nvidia|chip|semiconductor|semicondutor)\b/i.test(textoPuro(conteudo))) return 'classificação incompatível com Política Nacional';
   if (/<h2[^>]*>\s*(Contexto|Desdobramentos?)\s*<\/h2>/i.test(conteudo)) return 'intertítulo genérico proibido';
   if (/Clique aqui e receba em primeira m[aã]o|Coluna Vitor Vogas pelo Whatsapp|mais de \d+ reportagens e an[aá]lises publicadas|um jornalismo profissional que fiscaliza|copiar link/i.test(textoPuro(conteudo) + ' ' + JSON.stringify(r.aeo || []))) return 'resíduo promocional da fonte detectado';
