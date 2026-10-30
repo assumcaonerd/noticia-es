@@ -127,7 +127,7 @@ function meta(html, chave, atributo = 'property') {
 
 function paragrafoSujo(texto = '') {
   const t = limparHtml(texto);
-  return /clique aqui e receba em primeira m[aã]o|coluna vitor vogas pelo whatsapp|mais de \d+ reportagens e an[aá]lises publicadas|um jornalismo profissional que fiscaliza|um time com mais de \d+ colunistas|copiar link|cookie|newsletter|assine|publicidade|coment[aá]rio|leia também|pic\.twitter\.com|você tem \d+ acessos por dia|assinantes podem liberar(?: \d+)? acessos por dia|jornalista(?:,)?\s+pós-graduad[oa]|graduad[oa] em jornalismo|formad[oa] em jornalismo|editor-assistente|colunista da|\bblogs\b|seu endereço de e-mail não será publicado|salvar meus dados neste navegador|assista acima|receba no seu e-?mail as not[ií]cias|frequ[eê]ncia de envio\s*:?\s*di[aá]ri[oa]|a reportagem (?:enviou|procurou|tentou contato|aguarda retorno)\b|a reportagem de [^.!?]{0,100} tenta localizar (?:a |o )?defesa/i.test(t);
+  return /clique aqui e receba em primeira m[aã]o|coluna vitor vogas pelo whatsapp|mais de \d+ reportagens e an[aá]lises publicadas|um jornalismo profissional que fiscaliza|um time com mais de \d+ colunistas|copiar link|cookie|newsletter|assine|publicidade|coment[aá]rio|leia também|leia mais\s*:|pic\.twitter\.com|você tem \d+ acessos por dia|assinantes podem liberar(?: \d+)? acessos por dia|jornalista(?:,)?\s+pós-graduad[oa]|graduad[oa] em jornalismo|formad[oa] em jornalismo|editor-assistente|colunista da|\bblogs\b|seu endereço de e-mail não será publicado|salvar meus dados neste navegador|assista acima|receba no seu e-?mail as not[ií]cias|frequ[eê]ncia de envio\s*:?\s*di[aá]ri[oa]|a reportagem (?:enviou|procurou|tentou contato|aguarda retorno)\b|a reportagem de [^.!?]{0,100} tenta localizar (?:a |o )?defesa/i.test(t);
 }
 
 function recorteArtigo(html = '') {
@@ -265,26 +265,28 @@ function fallbackIntertitulo(texto = '', categoria = '') {
   return 'O que muda na prática';
 }
 
-function intertituloDoParagrafo(texto = '', categoria = '') {
-  const t = limparHtml(texto);
-  const primeira = t.split(/[.!?]/)[0].trim();
-  let titulo = primeira
-    .replace(/^(Segundo|De acordo com|Conforme|Ainda segundo)\s+[^,]{1,80},\s*/i, '')
-    .replace(/^(O|A|Os|As|Um|Uma)\s+/i, '')
-    .trim();
-
-  let palavras = titulo.split(/\s+/).filter(Boolean);
-  if (palavras.length < 4) return fallbackIntertitulo(texto, categoria);
-  if (palavras.length <= 9) {
-    const pronto = palavras.join(' ');
-    if (!FIM_INCOMPLETO.test(pronto)) return pronto.charAt(0).toUpperCase() + pronto.slice(1);
-    return fallbackIntertitulo(texto, categoria);
+function intertituloDoParagrafo(texto = '', categoria = '', etapa = 0) {
+  // Intertítulos devem resumir seções, e não repetir o começo do parágrafo.
+  // Sem um redator semântico, usamos cabeçalhos editoriais neutros por editoria.
+  const c = String(categoria || '').toLowerCase();
+  const t = limparHtml(texto).toLowerCase();
+  let titulos;
+  if (/pesquisa|levantamento|sondagem|percentual|índice|indice/.test(t)) {
+    titulos = ['Os números do levantamento', 'Como interpretar os resultados'];
+  } else if (/justiça|judici|tribunal|stf|stj|tse|juiz|recurso|processo/.test(c + ' ' + t)) {
+    titulos = ['O contexto da decisão judicial', 'Detalhes e consequências do caso'];
+  } else if (/segurança|seguranca|polícia|policia|crime|prisão|prisao/.test(c)) {
+    titulos = ['As principais informações do caso', 'Contexto e andamento da apuração'];
+  } else if (/economia|mercado|tecnologia/.test(c)) {
+    titulos = ['Dados e contexto do setor', 'Impactos e informações adicionais'];
+  } else if (/política|politica|elei|governo/.test(c)) {
+    titulos = ['O contexto do cenário político', 'Informações e repercussões do episódio'];
+  } else if (/cidades|municípi|municipi/.test(c)) {
+    titulos = ['Dados e informações dos municípios', 'Contexto e diferenças locais'];
+  } else {
+    titulos = ['As informações principais do assunto', 'Contexto e informações complementares'];
   }
-  palavras = palavras.slice(0, 9);
-  while (palavras.length > 4 && FIM_INCOMPLETO.test(palavras.join(' '))) palavras.pop();
-  const candidato = palavras.join(' ').trim();
-  if (palavras.length < 4 || FIM_INCOMPLETO.test(candidato)) return fallbackIntertitulo(texto, categoria);
-  return candidato.charAt(0).toUpperCase() + candidato.slice(1);
+  return titulos[etapa === 1 ? 1 : 0];
 }
 
 function montarConteudo(p, paragrafos) {
@@ -295,8 +297,8 @@ function montarConteudo(p, paragrafos) {
   const meio = blocos.slice(1, corte);
   const fim = blocos.slice(corte);
   if (!meio.length || !fim.length) return '';
-  const h2a = intertituloDoParagrafo(meio[0], p.categoria);
-  const h2b = intertituloDoParagrafo(fim[0], p.categoria);
+  const h2a = intertituloDoParagrafo(meio[0], p.categoria, 0);
+  const h2b = intertituloDoParagrafo(fim[0], p.categoria, 1);
   return [
     `<p>${escapar(primeiro)}</p>`,
     `<h2>${escapar(h2a)}</h2>`,
