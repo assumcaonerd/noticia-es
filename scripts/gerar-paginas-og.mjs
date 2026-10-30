@@ -130,7 +130,11 @@ async function listarArquivosMateria() {
   const editoriais = nomes.filter((n) => /^editorial(-\d+)?\.js$/.test(n));
   const automaticos = nomes.filter((n) => /^auto-redacao-\d{8}-\d{6}\.js$/.test(n));
   const feSociedade = nomes.filter((n) => /^fe-sociedade(?:-[\w-]+)?\.js$/.test(n)).sort();
-  return ['noticias.js', ...editoriais, ...automaticos, 'opiniao.js', ...feSociedade, 'manual-gilvan.js', 'remover-materias-20260831.js'];
+  // A revisão editorial deve prevalecer sobre uma nova coleta automática do mesmo slug.
+  // Este shard contém duas reportagens corrigidas que foram republicadas por um lote posterior.
+  const revisoesEditoriais = ['auto-redacao-20261029-234949.js'];
+  const automaticosRegulares = automaticos.filter((nome) => !revisoesEditoriais.includes(nome));
+  return ['noticias.js', ...editoriais, ...automaticosRegulares, 'opiniao.js', ...feSociedade, 'manual-gilvan.js', 'remover-materias-20260831.js', ...revisoesEditoriais];
 }
 
 async function carregarOverlay() {
