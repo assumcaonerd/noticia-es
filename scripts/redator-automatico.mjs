@@ -108,6 +108,9 @@ function detectarContaminacaoEditorial(html = '') {
   if (paragrafos.some(t => /^Confira mais conte[uú]dos sobre an[aá]lise t[eé]cnica no IM Trader/i.test(t))) {
     return 'chamada comercial da fonte no corpo';
   }
+  if (paragrafos.some(t => /formul[aá]rio de cadastro alertas gr[aá]tis do poder360|concordo com os termos da lgpd.{0,60}inscreva-se/i.test(t))) {
+    return 'formulário de cadastro do portal de origem incorporado à notícia';
+  }
   if (paragrafos.some(t => /^J[aá] leu todas as notas e reportagens da coluna hoje/i.test(t) || /Acesse a coluna do Metr[oó]poles/i.test(t))) {
     return 'chamada promocional da coluna de origem no corpo';
   }
@@ -141,7 +144,7 @@ function validarReportagem(p) {
   if (/&(?:amp;)?(?:quot|apos|lt|gt|nbsp|#\d+|#x[0-9a-f]+);/i.test(titulo + ' ' + resumo)) return 'entidade HTML não decodificada em título/resumo';
   if (/\|?\s*(cnn brasil|blogs\s*\||folha de s\.?paulo|o globo|estad[aã]o|veja)/i.test(titulo)) return 'título ainda contém marca da fonte';
   if (/\|\s*g1\s*$/i.test(titulo)) return 'título ainda contém marca da fonte';
-  if (/(?:\s*[-–—|]\s*)(?:BBC(?: News)? Brasil|G1)\s*$/i.test(titulo)) return 'título ainda contém marca da fonte';
+  if (/(?:\s*[-–—|]\s*)(?:BBC(?: News)? Brasil|G1|Jovem Pan)\s*$/i.test(titulo)) return 'título ainda contém marca da fonte';
   if (/(?:^|-)g1$/i.test(String(r.slug || ''))) return 'slug ainda contém marca da fonte';
   if (/blogs-cnn-brasil|cnn-brasil$/i.test(String(r.slug || ''))) return 'slug ainda contém marca da fonte';
   if (!resumo || resumo.length < 80) return 'resumo/subtítulo insuficiente';
@@ -171,6 +174,7 @@ function validarReportagem(p) {
   if (/<h2[^>]*>\s*(Contexto|Desdobramentos?)\s*<\/h2>/i.test(conteudo)) return 'intertítulo genérico proibido';
   if (/Clique aqui e receba em primeira m[aã]o|Coluna Vitor Vogas pelo Whatsapp|mais de \d+ reportagens e an[aá]lises publicadas|um jornalismo profissional que fiscaliza|copiar link/i.test(textoPuro(conteudo) + ' ' + JSON.stringify(r.aeo || []))) return 'resíduo promocional da fonte detectado';
   if (/Leia também:|pic\.twitter\.com\/|Você tem \d+ acessos por dia|Assinantes podem liberar \d+ acessos por dia|Jornalista, pós-graduad[oa]|Jornalista formad[oa] pel[oa] C[aá]sper L[ií]bero|Informa[cç][oõ]es, an[aá]lises e recomenda[cç][oõ]es que valem dinheiro|Índices futuros dos EUA recuam, com destaque para Nasdaq|Graduad[oa] em jornalismo|Salvar meus dados neste navegador|Assista acima|receba no seu e-?mail as not[ií]cias|frequ[eê]ncia de envio\s*:?\s*di[aá]ri[oa]|a reportagem (?:enviou|procurou|tentou contato|aguarda retorno)\b|A reportagem de [^.!?]{0,100} tenta localizar (?:a |o )?defesa/i.test(textoPuro(conteudo))) return 'resíduo da fonte detectado';
+  if (/formul[aá]rio de cadastro alertas gr[aá]tis do poder360|concordo com os termos da lgpd.{0,60}inscreva-se/i.test(textoPuro(conteudo) + ' ' + JSON.stringify(r.aeo || []))) return 'formulário promocional da fonte detectado';
   if (/&(?:amp;)?(?:ccedil|atilde|aacute|eacute|iacute|oacute|uacute|ecirc|ocirc);/i.test(conteudo)) return 'entidade HTML quebrada';
   return null;
 }
