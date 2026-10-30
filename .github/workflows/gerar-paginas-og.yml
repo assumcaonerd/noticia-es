@@ -2,6 +2,11 @@ name: Gerar páginas OG para WhatsApp
 
 on:
   workflow_dispatch:
+  # GitHub Actions não dispara workflows de push para commits do GITHUB_TOKEN.
+  # Regerar páginas após o fechamento da redação, inclusive commits do bot.
+  workflow_run:
+    workflows: ['Preparar lote da redação automática']
+    types: [completed]
   push:
     branches:
       - main
@@ -29,6 +34,7 @@ concurrency:
 
 jobs:
   gerar:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
