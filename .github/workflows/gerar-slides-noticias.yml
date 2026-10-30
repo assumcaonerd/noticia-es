@@ -65,5 +65,17 @@ jobs:
             exit 0
           fi
           git commit -m "design: gera slides 1080x1350 das notícias"
-          git pull --rebase origin main
-          git push origin main
+          for tentativa in 1 2 3 4 5; do
+            git fetch origin main
+            # Em rebase, 'ours' preserva o slide ja publicado na main
+            # se dois jobs criarem simultaneamente o mesmo arquivo binario.
+            git rebase -X ours origin/main
+            if git push origin HEAD:main; then
+              echo "Slides publicados ou ja presentes na main."
+              exit 0
+            fi
+            echo "Push concorrente detectado. Tentativa ${tentativa}/5."
+            sleep $((tentativa * 3))
+          done
+          echo "Falha ao publicar slides apos cinco tentativas." >&2
+          exit 1
