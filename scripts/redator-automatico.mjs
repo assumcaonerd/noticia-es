@@ -103,6 +103,9 @@ function detectarContaminacaoEditorial(html = '') {
     return 'chamada comercial da fonte no corpo';
   }
   const ultimo = paragrafos.at(-1) || '';
+  if (ultimo.length >= 120 && !/[.!?…][”"'\])]?$/u.test(ultimo)) {
+    return 'último parágrafo aparentemente truncado';
+  }
   if (ultimo.length >= 45 && ultimo.length <= 120 &&
       !/[.!?…][”"'\])]?$/u.test(ultimo) &&
       /\b(desembarca|aparece|posa|discursa|na imagem|ao lado|na chegada|chega)\b/i.test(ultimo)) {
@@ -133,6 +136,7 @@ function validarReportagem(p) {
   if (/(?:^|-)g1$/i.test(String(r.slug || ''))) return 'slug ainda contém marca da fonte';
   if (/blogs-cnn-brasil|cnn-brasil$/i.test(String(r.slug || ''))) return 'slug ainda contém marca da fonte';
   if (!resumo || resumo.length < 80) return 'resumo/subtítulo insuficiente';
+  if (/\bLeia no (?:Poder360|InfoMoney|G1|CNN Brasil|UOL)\b/i.test(resumo)) return 'resumo contém divulgação do portal de origem';
   if (!imagemValida(imagem)) return 'imagem inválida: exige arte própria em noticiaes.com.br/imagens/lapis/';
   if (r.redacaoPropria !== true) return 'redacaoPropria precisa ser true';
   if (String(r.origemTexto || '') !== 'redacao-noticia-es') return 'origemTexto inválida';
