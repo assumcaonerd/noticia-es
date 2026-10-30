@@ -91,8 +91,8 @@ function slugify(s = '') {
 
 function limparTituloFonte(titulo = '') {
   return String(titulo)
-    .replace(/\s*\|\s*(?:Blogs\s*\|\s*)?(?:CNN Brasil|Folha(?: de S\.?Paulo)?|O Globo|Estad[aã]o|Veja|Revista Oeste|Ag[eê]ncia Brasil).*$/i, '')
-    .replace(/\s*[-–—]\s*(?:CNN(?: Brasil)?|Folha(?: de S\.?Paulo)?|O Globo|Estad[aã]o|Veja|Revista Oeste).*$/i, '')
+    .replace(/\s*\|\s*(?:Blogs\s*\|\s*)?(?:CNN Brasil|BBC(?: News)? Brasil|G1|Folha(?: de S\.?Paulo)?|O Globo|Estad[aã]o|Veja|Revista Oeste|Ag[eê]ncia Brasil).*$/i, '')
+    .replace(/\s*[-–—]\s*(?:CNN(?: Brasil)?|BBC(?: News)? Brasil|G1|Folha(?: de S\.?Paulo)?|O Globo|Estad[aã]o|Veja|Revista Oeste).*$/i, '')
     .trim();
 }
 
@@ -127,7 +127,7 @@ function meta(html, chave, atributo = 'property') {
 
 function paragrafoSujo(texto = '') {
   const t = limparHtml(texto);
-  return /clique aqui e receba em primeira m[aã]o|coluna vitor vogas pelo whatsapp|mais de \d+ reportagens e an[aá]lises publicadas|um jornalismo profissional que fiscaliza|um time com mais de \d+ colunistas|copiar link|cookie|newsletter|assine|publicidade|coment[aá]rio|leia também|leia mais\s*:|pic\.twitter\.com|você tem \d+ acessos por dia|assinantes podem liberar(?: \d+)? acessos por dia|jornalista(?:,)?\s+pós-graduad[oa]|graduad[oa] em jornalismo|formad[oa] em jornalismo|editor-assistente|colunista da|\bblogs\b|seu endereço de e-mail não será publicado|salvar meus dados neste navegador|assista acima|receba no seu e-?mail as not[ií]cias|frequ[eê]ncia de envio\s*:?\s*di[aá]ri[oa]|a reportagem (?:enviou|procurou|tentou contato|aguarda retorno)\b|a reportagem de [^.!?]{0,100} tenta localizar (?:a |o )?defesa/i.test(t);
+  return /clique aqui e receba em primeira m[aã]o|coluna vitor vogas pelo whatsapp|mais de \d+ reportagens e an[aá]lises publicadas|um jornalismo profissional que fiscaliza|um time com mais de \d+ colunistas|copiar link|cookie|newsletter|assine|publicidade|coment[aá]rio|leia também|leia mais(?:\s*:|\s*$)|pic\.twitter\.com|https?:\/\/(?:t\.co|twitter\.com|x\.com)\/|^fonte:\s*|confira mais conte[uú]dos sobre an[aá]lise t[eé]cnica no im trader|você tem \d+ acessos por dia|assinantes podem liberar(?: \d+)? acessos por dia|jornalista(?:,)?\s+pós-graduad[oa]|graduad[oa] em jornalismo|formad[oa] em jornalismo|editor-assistente|colunista da|\bblogs\b|seu endereço de e-mail não será publicado|salvar meus dados neste navegador|assista acima|receba no seu e-?mail as not[ií]cias|frequ[eê]ncia de envio\s*:?\s*di[aá]ri[oa]|a reportagem (?:enviou|procurou|tentou contato|aguarda retorno)\b|a reportagem de [^.!?]{0,100} tenta localizar (?:a |o )?defesa/i.test(t);
 }
 
 function recorteArtigo(html = '') {
