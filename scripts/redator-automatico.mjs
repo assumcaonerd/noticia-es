@@ -83,6 +83,12 @@ function detectarContaminacaoEditorial(html = '') {
   if (paragrafos.some(t => /(?:formou-se em jornalismo.*iniciou a carreira|(?:p[oó]s-graduanda em literatura).{0,160}rep[oó]rter da)/i.test(t))) {
     return 'biografia de jornalista da fonte misturada ao texto';
   }
+  if (paragrafos.some(t => /^Jornalista formad[oa] pel[oa] (?:Universidade|Faculdade).{0,220}\b(?:atuou|[eé] rep[oó]rter)\b/i.test(t))) {
+    return 'biografia acadêmica de jornalista da fonte misturada ao texto';
+  }
+  if (paragrafos.some(t => /^Ap[oó]s o maior sell-off da hist[oó]ria recente do mercado brasileiro/i.test(t))) {
+    return 'chamada de análise financeira de outra matéria no corpo';
+  }
   if (paragrafos.some(t => /^(?:Um post compartilhado por|Ver essa foto no Instagram|View this post on Instagram)\b/i.test(t))) {
     return 'crédito de embed de rede social copiado da fonte';
   }
