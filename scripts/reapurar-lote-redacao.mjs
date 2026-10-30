@@ -313,15 +313,25 @@ function contarPalavras(html = '') {
   return t ? t.split(/\s+/).filter(Boolean).length : 0;
 }
 
+function respostaAeo(texto) {
+  const resposta = String(texto || '').replace(/\s+/g, ' ').trim();
+  if (resposta.length <= 360) return resposta;
+  const finais = [...resposta.matchAll(/[.!?](?=\s|$)/g)].map(m => m.index + 1);
+  const antes = finais.filter(i => i >= 80 && i <= 360);
+  if (antes.length) return resposta.slice(0, antes[antes.length - 1]);
+  const depois = finais.find(i => i > 360 && i <= 600);
+  return depois ? resposta.slice(0, depois) : resposta;
+}
+
 function montarAeo(paragrafos) {
   const base = paragrafos.filter(Boolean);
   if (base.length < 3) return [];
   return [
-    { pergunta: 'O que aconteceu?', resposta: String(base[0]).slice(0, 360) },
-    { pergunta: 'Qual é o ponto principal?', resposta: String(base[1] || base[0]).slice(0, 360) },
-    { pergunta: 'Quais são os dados mais importantes?', resposta: String(base[2] || base[1]).slice(0, 360) },
-    { pergunta: 'Qual é o contexto?', resposta: String(base[3] || base[2] || base[0]).slice(0, 360) },
-    { pergunta: 'Quais são os próximos desdobramentos?', resposta: String(base[4] || base[3] || base[1]).slice(0, 360) }
+    { pergunta: 'O que aconteceu?', resposta: respostaAeo(base[0]) },
+    { pergunta: 'Qual é o ponto principal?', resposta: respostaAeo(base[1] || base[0]) },
+    { pergunta: 'Quais são os dados mais importantes?', resposta: respostaAeo(base[2] || base[1]) },
+    { pergunta: 'Qual é o contexto?', resposta: respostaAeo(base[3] || base[2] || base[0]) },
+    { pergunta: 'Quais são os próximos desdobramentos?', resposta: respostaAeo(base[4] || base[3] || base[1]) }
   ];
 }
 
