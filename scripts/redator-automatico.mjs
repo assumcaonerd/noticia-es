@@ -102,6 +102,9 @@ function detectarContaminacaoEditorial(html = '') {
   if (paragrafos.some(t => /^Confira mais conte[uú]dos sobre an[aá]lise t[eé]cnica no IM Trader/i.test(t))) {
     return 'chamada comercial da fonte no corpo';
   }
+  if (paragrafos.some(t => /^J[aá] leu todas as notas e reportagens da coluna hoje/i.test(t) || /Acesse a coluna do Metr[oó]poles/i.test(t))) {
+    return 'chamada promocional da coluna de origem no corpo';
+  }
   const ultimo = paragrafos.at(-1) || '';
   if (ultimo.length >= 120 && !/[.!?…][”"'\])]?$/u.test(ultimo)) {
     return 'último parágrafo aparentemente truncado';
