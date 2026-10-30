@@ -59,6 +59,27 @@ function fontesValidas(fontes = []) {
 function aeoValido(aeo = []) {
   return Array.isArray(aeo) && aeo.length >= 5 && aeo.every(x => String(x?.pergunta || '').trim() && String(x?.resposta || '').trim());
 }
+function detectarContaminacaoEditorial(html = '') {
+  const paragrafos = [...String(html).matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)].map(m => textoPuro(m[1]));
+  const vistos = new Set();
+  for (const trecho of paragrafos) {
+    const chave = trecho.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    if (chave.length < 90) continue;
+    if (vistos.has(chave)) return 'parágrafos extensos repetidos na matéria';
+    vistos.add(chave);
+  }
+  const chamadas = paragrafos.filter(t => t.length >= 45 && t.length <= 200 &&
+    /^[^.!?;]{5,65}\s*:\s*[A-ZÁÉÍÓÚÂÊÔÃÕÇ]/.test(t));
+  if (chamadas.length >= 2) return 'chamadas de outras notícias misturadas à reportagem';
+  const ultimo = paragrafos.at(-1) || '';
+  if (ultimo.length >= 45 && ultimo.length <= 120 &&
+      !/[.!?…][”"'\])]?$/u.test(ultimo) &&
+      /\b(desembarca|aparece|posa|discursa|na imagem|ao lado|na chegada|chega)\b/i.test(ultimo)) {
+    return 'legenda fotográfica solta no fim da matéria';
+  }
+  return null;
+}
+
 function validarReportagem(p) {
   const r = p?.reportagem;
   if (!r || typeof r !== 'object') return 'sem reportagem reapurada';
@@ -87,6 +108,8 @@ function validarReportagem(p) {
   if (adicionais.length < 2) return 'menos de duas fontes adicionais';
   if (palavras < 400) return `texto curto: ${palavras} palavras`;
   if (paragrafos < 7) return `estrutura curta: ${paragrafos} parágrafos`;
+  const contaminacao = detectarContaminacaoEditorial(conteudo);
+  if (contaminacao) return contaminacao;
   if (subtitulos < 2) return `estrutura sem subtítulos suficientes: ${subtitulos}`;
   const h2s = [...conteudo.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/gi)].map(m => textoPuro(m[1]));
   if (h2s.some(h => h.split(/\s+/).filter(Boolean).length < 4)) return 'intertítulo com menos de 4 palavras';
