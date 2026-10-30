@@ -79,6 +79,16 @@ function detectarContaminacaoEditorial(html = '') {
       chamadaSolta(paragrafos[i + 1]))) {
     return 'possíveis chamadas de outras notícias consecutivas no corpo';
   }
+  // Evita publicar biografias de autores, embeds e manchetes promocionais como se fossem notícia.
+  if (paragrafos.some(t => /(?:formou-se em jornalismo.*iniciou a carreira|(?:p[oó]s-graduanda em literatura).{0,160}rep[oó]rter da)/i.test(t))) {
+    return 'biografia de jornalista da fonte misturada ao texto';
+  }
+  if (paragrafos.some(t => /^(?:Um post compartilhado por|Ver essa foto no Instagram|View this post on Instagram)\b/i.test(t))) {
+    return 'crédito de embed de rede social copiado da fonte';
+  }
+  if (paragrafos.some(t => /^Juros mais altos e incertezas fiscais refor[cç]am busca por bancos mais defensivos/i.test(t))) {
+    return 'manchete financeira de outra matéria incorporada ao texto';
+  }
   // Resíduos específicos de páginas de origem: links de posts, chamadas e créditos soltos.
   if (paragrafos.some(t => /https?:\/\/(?:t\.co|pic\.twitter\.com|twitter\.com|x\.com)\//i.test(t))) {
     return 'link de rede social copiado da fonte no corpo';
@@ -142,6 +152,7 @@ function validarReportagem(p) {
   if (/entrou na fila automática|o que se sabe até agora|seguirá atualizando a cobertura/i.test(conteudo)) return 'modelo de nota curta detectado';
   const primeiroParagrafo = textoPuro(conteudo.match(/<p\b[^>]*>([\s\S]*?)<\/p>/i)?.[1] || '');
   if (/formado em jornalismo|editor-assistente|colunista da|\bblogs\b/i.test(primeiroParagrafo)) return 'lead contaminado por biografia da fonte';
+  if (/\/colunas\//i.test(fonteUrl) && /^(?:Sou|Meu|Minha|Acredito|Eu)\b/i.test(primeiroParagrafo)) return 'coluna opinativa da fonte na primeira pessoa exige reescrita autoral';
   if (/(?:^|[\s—-])Foto:\s*\S/i.test(primeiroParagrafo)) return 'lead contaminado por legenda da fonte';
   if (String(r.categoria || p.categoria) === 'Política Nacional' && /\b(lua|fotografar|celular|zoom [óo]ptico|nvidia|chip|semiconductor|semicondutor)\b/i.test(textoPuro(conteudo))) return 'classificação incompatível com Política Nacional';
   if (/<h2[^>]*>\s*(Contexto|Desdobramentos?)\s*<\/h2>/i.test(conteudo)) return 'intertítulo genérico proibido';
