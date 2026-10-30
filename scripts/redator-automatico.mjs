@@ -71,6 +71,14 @@ function detectarContaminacaoEditorial(html = '') {
   const chamadas = paragrafos.filter(t => t.length >= 45 && t.length <= 200 &&
     /^[^.!?;]{5,65}\s*:\s*[A-ZÁÉÍÓÚÂÊÔÃÕÇ]/.test(t));
   if (chamadas.length >= 2) return 'chamadas de outras notícias misturadas à reportagem';
+  // Chamadas de outras notícias costumam vir em sequência, sem pontuação final.
+  // Não rejeitar uma única frase curta: pode ser uma informação legítima.
+  const chamadaSolta = (t) => t.length >= 45 && t.length <= 180 &&
+    !/[.!?…][”"'»)]?$/.test(t.trim());
+  if (paragrafos.some((t, i) => chamadaSolta(t) && i + 1 < paragrafos.length &&
+      chamadaSolta(paragrafos[i + 1]))) {
+    return 'possíveis chamadas de outras notícias consecutivas no corpo';
+  }
   const ultimo = paragrafos.at(-1) || '';
   if (ultimo.length >= 45 && ultimo.length <= 120 &&
       !/[.!?…][”"'\])]?$/u.test(ultimo) &&
