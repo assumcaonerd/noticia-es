@@ -79,6 +79,19 @@ function detectarContaminacaoEditorial(html = '') {
       chamadaSolta(paragrafos[i + 1]))) {
     return 'possíveis chamadas de outras notícias consecutivas no corpo';
   }
+  // Resíduos específicos de páginas de origem: links de posts, chamadas e créditos soltos.
+  if (paragrafos.some(t => /https?:\/\/(?:t\.co|pic\.twitter\.com|twitter\.com|x\.com)\//i.test(t))) {
+    return 'link de rede social copiado da fonte no corpo';
+  }
+  if (paragrafos.some(t => /(?:^|\s)Leia Mais\s*$/i.test(t))) {
+    return 'chamada Leia Mais copiada da fonte';
+  }
+  if (paragrafos.some(t => /^Fonte:\s*\S/i.test(t))) {
+    return 'crédito ou legenda de fonte isolado no corpo';
+  }
+  if (paragrafos.some(t => /^Confira mais conte[uú]dos sobre an[aá]lise t[eé]cnica no IM Trader/i.test(t))) {
+    return 'chamada comercial da fonte no corpo';
+  }
   const ultimo = paragrafos.at(-1) || '';
   if (ultimo.length >= 45 && ultimo.length <= 120 &&
       !/[.!?…][”"'\])]?$/u.test(ultimo) &&
@@ -106,6 +119,7 @@ function validarReportagem(p) {
   if (/&(?:amp;)?(?:quot|apos|lt|gt|nbsp|#\d+|#x[0-9a-f]+);/i.test(titulo + ' ' + resumo)) return 'entidade HTML não decodificada em título/resumo';
   if (/\|?\s*(cnn brasil|blogs\s*\||folha de s\.?paulo|o globo|estad[aã]o|veja)/i.test(titulo)) return 'título ainda contém marca da fonte';
   if (/\|\s*g1\s*$/i.test(titulo)) return 'título ainda contém marca da fonte';
+  if (/(?:\s*[-–—|]\s*)(?:BBC(?: News)? Brasil|G1)\s*$/i.test(titulo)) return 'título ainda contém marca da fonte';
   if (/(?:^|-)g1$/i.test(String(r.slug || ''))) return 'slug ainda contém marca da fonte';
   if (/blogs-cnn-brasil|cnn-brasil$/i.test(String(r.slug || ''))) return 'slug ainda contém marca da fonte';
   if (!resumo || resumo.length < 80) return 'resumo/subtítulo insuficiente';
