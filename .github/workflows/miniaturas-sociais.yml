@@ -1,5 +1,9 @@
 name: Gerar miniaturas das noticias
 on:
+  # Executar também após a redação publicar com o GITHUB_TOKEN.
+  workflow_run:
+    workflows: ['Preparar lote da redação automática']
+    types: [completed]
   push:
     branches: [main]
     paths:
@@ -17,6 +21,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   publicar:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
