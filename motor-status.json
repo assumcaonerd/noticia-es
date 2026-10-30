@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-30T01:59:41.489Z",
+  "atualizadoEm": "2026-10-30T02:18:18.973Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 73,
+  "novasPautas": 74,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -198,9 +198,11 @@
     },
     {
       "fonte": "Século Diário",
-      "ok": false,
-      "erro": "https://www.seculodiario.com.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://www.seculodiario.com.br/",
+      "fallback": false
     },
     {
       "fonte": "ES Hoje - Política",
@@ -374,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-30T02:02:26.745Z",
+    "atualizadoEm": "2026-10-30T02:21:20.013Z",
     "novas": 0,
     "fontes": [
       {
@@ -395,7 +397,7 @@
       {
         "fonte": "YouTube Polícia Civil ES",
         "ok": false,
-        "erro": "500 Internal Server Error"
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube PM Ambiental ES",
@@ -404,8 +406,8 @@
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-30T02:02:28.211Z",
+    "atualizadoEm": "2026-10-30T02:21:21.578Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-30T02:02:29.107Z",
+    "atualizadoEm": "2026-10-30T02:21:22.697Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-30T02:02:39.681Z",
+    "atualizadoEm": "2026-10-30T02:21:33.268Z",
     "novas": 0,
     "fontes": [
       {
