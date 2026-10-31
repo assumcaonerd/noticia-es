@@ -68,6 +68,11 @@ function classificarEditoria(pauta) {
   try { caminho = new URL(url).pathname.toLowerCase(); } catch {}
   const alvo = normalizar(`${titulo} ${resumo} ${caminho}`);
 
+  // Assuntos de defesa nacional não são esporte por menção à Copa nem economia por "emprego operacional".
+  // Mantém a mesma editoria política já atribuída pela coleta às notícias sobre o Exército.
+  if (/\b(exercito|forcas armadas|sistema de misseis e foguetes)\b/.test(alvo) &&
+      !/\bexercito da salvacao\b/.test(alvo)) return 'Política Nacional';
+
   if (/\b(processo|conselho|pgr|stf|stj|mpf|mpe|ministerio publico|inquerito|relator|denuncia|prisao preventiva|habeas corpus|hc\b|decisao judicial|sentenca|liminar|tribunal|procurador geral)\b/.test(alvo)) return 'Justiça';
 
   if (/\b(chip|nvidia|inteligencia artificial|\bia\b|celular|aplicativo|app\b|foguete|ciencia|lua|satelite|semicondutor|software|chatgpt|llm|openai|smartphone|zoom optico)\b/.test(alvo)
