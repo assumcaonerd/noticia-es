@@ -24,6 +24,8 @@ function faqSchema(html, permitirCapitao=false) {
   let m;
   while((m=re.exec(bloco))){
     const pergunta=texto(m[1]); const resposta=texto(m[2]);
+    // Biografias de autores capturadas por engano não são respostas à notícia.
+    if (/^jornalista\s+(?:formad[oa]|p[oó]s-graduad[oa])\b/i.test(resposta)) continue;
     if(!pergunta||!resposta||(!permitirCapitao && /capit[aã]o\s+assum[cç][aã]o/i.test(`${pergunta} ${resposta}`))) continue;
     itens.push({ '@type':'Question', name:pergunta, acceptedAnswer:{ '@type':'Answer', text:resposta } });
   }
