@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-10-31T02:18:23.584Z",
+  "atualizadoEm": "2026-10-31T03:18:50.035Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 80,
+  "novasPautas": 77,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -192,11 +192,9 @@
     },
     {
       "fonte": "ES Hoje",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://www.eshoje.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.eshoje.com.br/ -> 403 Forbidden",
+      "capa": true
     },
     {
       "fonte": "Século Diário",
@@ -208,11 +206,9 @@
     },
     {
       "fonte": "ES Hoje - Política",
-      "ok": true,
-      "encontrados": 0,
-      "capa": false,
-      "rota": "https://www.eshoje.com.br/politica/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.eshoje.com.br/politica/ -> 403 Forbidden",
+      "capa": false
     },
     {
       "fonte": "Poder360",
@@ -301,7 +297,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 7,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -380,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-10-31T02:21:15.649Z",
+    "atualizadoEm": "2026-10-31T03:21:54.290Z",
     "novas": 0,
     "fontes": [
       {
@@ -391,7 +387,7 @@
       {
         "fonte": "YouTube Folha Vitória",
         "ok": false,
-        "erro": "500 Internal Server Error"
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES",
@@ -401,7 +397,7 @@
       {
         "fonte": "YouTube Polícia Civil ES",
         "ok": false,
-        "erro": "500 Internal Server Error"
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube PM Ambiental ES",
@@ -410,8 +406,8 @@
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
@@ -441,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-10-31T02:21:16.778Z",
+    "atualizadoEm": "2026-10-31T03:21:55.981Z",
     "novas": 0,
     "fontes": [
       {
@@ -457,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-10-31T02:21:17.699Z",
+    "atualizadoEm": "2026-10-31T03:21:57.131Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-10-31T02:21:28.273Z",
+    "atualizadoEm": "2026-10-31T03:22:07.707Z",
     "novas": 0,
     "fontes": [
       {
