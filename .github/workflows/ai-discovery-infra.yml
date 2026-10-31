@@ -45,6 +45,9 @@ jobs:
         with:
           node-version: '24'
 
+      - name: Instalar ImageMagick para gerar capas OG
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
       - name: Validar scripts
         run: |
           node --check scripts/gerar-paginas-og.mjs
