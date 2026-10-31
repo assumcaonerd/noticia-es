@@ -19,7 +19,7 @@ const PADRAO_ECONOMIA = /(economia|mercado|banco|juros|selic|infla[cç][ãa]o|pi
 const PADRAO_TECNOLOGIA = /(tecnologia|intelig[ê]ncia artificial|\bia\b|software|aplicativo|app\b|startup|rob[oô]|chatgpt|llm|openai|google|microsoft|apple|nvidia|chip|semicondutor|celular|internet|ciber)/i;
 const PADRAO_ESPORTE = /(futebol|brasileir[aã]o|campeonato|copa|jogo|partida|gol\b|time\b|clube|atleta|esporte|vit[oó]ria-?es|rio branco|desportiva|estrela do norte)/i;
 const PADRAO_CULTURA = /(cultura|cinema|filme|m[uú]sica|cantor|cantora|show|teatro|livro|literatura|festival|exposi[cç][ãa]o|arte\b)/i;
-const PADRAO_FE = /(igreja|evang[eé]lic|crist[aã]o|pastor|pastora|culto|b[ií]blia|f[eé]\b|relig|maranata|presbiter|batista|assembleia de deus|ieclb)/i;
+const PADRAO_FE = /(igreja|evang[eé]lic|crist[aã]o|pastor|pastora|culto|b[ií]blia|(?<![A-Za-zÀ-ÿ0-9])f[eé](?![A-Za-zÀ-ÿ0-9])|relig|maranata|presbiter|batista|assembleia de deus|ieclb)/i;
 const PADRAO_CIDADES = /(vit[oó]ria|vila velha|serra|cariacica|guarapari|linhares|colatina|cachoeiro|santa teresa|domingos martins|esp[ií]rito santo|\bes\b)/i;
 const PADRAO_OPINIAO = /^(opini[ãa]o|editorial|artigo|coluna)\b|\b(colunista|artigo de opini[ãa]o)\b/i;
 
