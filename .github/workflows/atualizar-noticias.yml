@@ -99,5 +99,17 @@ jobs:
             exit 0
           fi
           git commit -m "pautas: atualiza fila e imagens do motor"
-          git pull --rebase origin main
-          git push origin main
+          # A main também recebe publicações da redação e da descoberta por IA.
+          # Repetir apenas o rebase/push evita perder uma coleta por corrida de commits.
+          for tentativa in 1 2 3 4; do
+            git pull --rebase origin main
+            if git push origin main; then
+              echo "Coleta publicada."
+              exit 0
+            fi
+            if [ "$tentativa" -eq 4 ]; then
+              echo "Falha ao publicar a coleta após quatro tentativas."
+              exit 1
+            fi
+            sleep 3
+          done
