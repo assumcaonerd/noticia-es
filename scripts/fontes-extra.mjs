@@ -1,7 +1,7 @@
 export const fontesHtmlExtra = [
-  { nome: 'ES Hoje', url: 'https://www.eshoje.com.br/', categoria: 'Geral ES', homepage: true, hosts: ['www.eshoje.com.br', 'eshoje.com.br'] },
+  { nome: 'ES Hoje', url: 'https://eshoje.com.br/', categoria: 'Geral ES', homepage: true, hosts: ['www.eshoje.com.br', 'eshoje.com.br'] },
   { nome: 'Século Diário', url: 'https://www.seculodiario.com.br/', categoria: 'Geral ES', homepage: true, hosts: ['www.seculodiario.com.br', 'seculodiario.com.br'] },
-  { nome: 'ES Hoje - Política', url: 'https://www.eshoje.com.br/politica/', categoria: 'Política ES', hosts: ['www.eshoje.com.br', 'eshoje.com.br'] },
+  { nome: 'ES Hoje - Política', url: 'https://eshoje.com.br/noticias/politica/', categoria: 'Política ES', hosts: ['www.eshoje.com.br', 'eshoje.com.br'] },
   { nome: 'Poder360', url: 'https://www.poder360.com.br/', categoria: 'Política Nacional', homepage: true, hosts: ['www.poder360.com.br', 'poder360.com.br'] },
   { nome: 'Congresso em Foco', url: 'https://congressoemfoco.uol.com.br/', categoria: 'Política Nacional', homepage: true, hosts: ['congressoemfoco.uol.com.br', 'www.congressoemfoco.com.br'] },
   { nome: 'Jovem Pan - Política', url: 'https://jovempan.com.br/noticias/politica', categoria: 'Política Nacional', hosts: ['jovempan.com.br', 'www.jovempan.com.br'] },
