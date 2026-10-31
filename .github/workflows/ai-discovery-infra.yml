@@ -75,7 +75,7 @@ jobs:
           # Regera os mesmos artefatos sobre o HEAD remoto mais recente quando
           # outra automacao publicar paginas simultaneamente. Nao faz force-push.
           for tentativa in 1 2 3 4; do
-            git add m/ sitemap.xml sitemap-news.xml rss.xml llms.txt
+            git add m/ imagens/lapis/ sitemap.xml sitemap-news.xml rss.xml llms.txt
             if git diff --cached --quiet; then
               echo "Sem novos arquivos para publicar."
               exit 0
