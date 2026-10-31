@@ -49,6 +49,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # Sempre usar a ponta atual da main, mesmo quando o disparo foi criado antes de outra rodada terminar.
+          ref: main
           fetch-depth: 1
       - uses: actions/setup-node@v4
         with:
