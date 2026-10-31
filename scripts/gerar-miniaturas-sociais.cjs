@@ -13,8 +13,8 @@ for(const match of manifest.matchAll(/["'](auto-redacao-[a-zA-Z0-9-]+\.js)["']/g
  for(const n of articles||[]){
   const slug=String(n.slug||'');if(!/^[a-z0-9][a-z0-9-]*$/.test(slug))continue;
   const dest=path.join(dir,slug+'.html');
-  // Recria a pagina afetada para corrigir metadados antigos ja publicados.
-  if(fs.existsSync(dest) && slug!=='amp-quot-foi-o-vento-bolsonarista-amp-quot-diz-casagrande-sobre-vit-amp-oacute-ria-de-pazo')continue;
+  // Nunca sobrescrever paginas existentes: o gerador OG preserva conteudo, SEO e revisoes editoriais.
+  if(fs.existsSync(dest))continue;
   const title=escMeta(n.titulo||'Notícia ES'),desc=escMeta(n.resumo||''),url='https://noticiaes.com.br/m/'+slug+'.html';
   let img='';try{img=new URL(n.imagem||'/assets/og/noticia-es-miniatura.png.png','https://noticiaes.com.br/').href;}catch{}
   if(!img.startsWith('https://'))img='';
