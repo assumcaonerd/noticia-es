@@ -15,7 +15,7 @@ const PADRAO_POLITICA = /(elei[cç]|governo|governador|prefeit|prefeito|senado|s
 const PADRAO_SEGURANCA = /(pol[ií]cia|pm\b|pmes|pc\b|pces|sesp|bombeir|pris[ãa]o|preso|crime|homic[ií]dio|assassin|tr[áa]fico|drogas|opera[cç][ãa]o policial|roubo|furto|tiroteio|seguran[cç]a p[ú]blica|delegacia|foragid|mandado|socioeducativ|prisional)/i;
 const FILTRO_NACIONAL = /(elei[cç]|senado|c[âa]mara|congresso|governo|presid|stf|tse|seguran[cç]a|pec|projeto|comiss[ãa]o|vota[cç]|pol[ií]tica|partido|constitui[cç]|medida provis[óo]ria|mp\b|lula|bolsonaro|ministro|deputad|brasil|brazil)/i;
 const PADRAO_JUSTICA = /(stf|stj|tj-?es|tribunal|justi[cç]a|juiz|ju[ií]za|desembarg|minist[eé]rio p[uú]blico|mpf|mpe|pgr|procurador|decis[aã]o judicial|senten[cç]a|liminar|a[cç][aã]o judicial)/i;
-const PADRAO_ECONOMIA = /(economia|mercado|banco|juros|selic|infla[cç][ãa]o|pib|emprego|desemprego|investimento|empresa|neg[oó]cio|d[oó]lar|real|bolsa|ibovespa|finan[cç]|imposto|receita federal)/i;
+const PADRAO_ECONOMIA = /(economia|mercado|banco|juros|selic|infla[cç][ãa]o|pib|emprego(?![\s-]+operacional)|desemprego|investimento|empresa|neg[oó]cio|d[oó]lar|real|bolsa|ibovespa|finan[cç]|imposto|receita federal)/i;
 const PADRAO_TECNOLOGIA = /(tecnologia|intelig[ê]ncia artificial|\bia\b|software|aplicativo|app\b|startup|rob[oô]|chatgpt|llm|openai|google|microsoft|apple|nvidia|chip|semicondutor|celular|internet|ciber)/i;
 const PADRAO_ESPORTE = /(futebol|brasileir[aã]o|campeonato|copa|jogo|partida|gol\b|time\b|clube|atleta|esporte|vit[oó]ria-?es|rio branco|desportiva|estrela do norte)/i;
 const PADRAO_CULTURA = /(cultura|cinema|filme|m[uú]sica|cantor|cantora|show|teatro|livro|literatura|festival|exposi[cç][ãa]o|arte\b)/i;
@@ -101,6 +101,7 @@ function classificarCategoria(titulo, url, fonte) {
   if (PADRAO_ESPORTE.test(alvo)) return 'Esporte';
   if (PADRAO_FE.test(alvo)) return 'Fé';
   if (PADRAO_CULTURA.test(alvo)) return 'Cultura';
+  if (/\/poder-(?:economia|energia)\//i.test(url)) return 'Economia';
   if (PADRAO_ECONOMIA.test(alvo)) return 'Economia';
   if (PADRAO_POLITICA.test(alvo)) return PADRAO_CIDADES.test(alvo) && !/presid|senado|congresso|stf|stj|tse|lula|bolsonaro/i.test(alvo) ? 'Política ES' : 'Política Nacional';
   if (PADRAO_CIDADES.test(alvo)) return 'Cidades';
