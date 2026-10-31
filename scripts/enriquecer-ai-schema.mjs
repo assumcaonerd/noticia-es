@@ -60,7 +60,10 @@ for(const arquivo of arquivos){
   }
   const blocos=[];
   const permitirCapitao = arquivo === 'folha-moraes-evangelicos-capitao-assumcao-multa-ales.html';
-  const faq=faqSchema(html, permitirCapitao);
+  // Não duplicar FAQPage já publicado pelo gerador OG.
+  const faqExistente = [...html.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)]
+    .some(([, json]) => { try { return JSON.parse(json)['@type'] === 'FAQPage'; } catch { return false; } });
+  const faq = faqExistente ? null : faqSchema(html, permitirCapitao);
   if(faq) blocos.push(`<script id="aeo-faq-schema" type="application/ld+json">${JSON.stringify(faq).replace(/</g,'\\u003c')}</script>`);
   const bc=breadcrumbSchema(html,arquivo);
   blocos.push(`<script id="breadcrumb-schema" type="application/ld+json">${JSON.stringify(bc).replace(/</g,'\\u003c')}</script>`);
