@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-02T07:18:29.938Z",
+  "atualizadoEm": "2026-11-02T07:44:01.424Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 94,
+  "novasPautas": 87,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -323,7 +323,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 9,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-02T07:20:33.300Z",
+    "atualizadoEm": "2026-11-02T07:46:04.771Z",
     "novas": 0,
     "fontes": [
       {
@@ -397,7 +397,7 @@
       {
         "fonte": "YouTube Polícia Civil ES",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube PM Ambiental ES",
@@ -406,8 +406,8 @@
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-02T07:20:34.454Z",
+    "atualizadoEm": "2026-11-02T07:46:05.978Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-02T07:20:35.452Z",
+    "atualizadoEm": "2026-11-02T07:46:06.909Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-02T07:20:46.028Z",
+    "atualizadoEm": "2026-11-02T07:46:17.485Z",
     "novas": 0,
     "fontes": [
       {
