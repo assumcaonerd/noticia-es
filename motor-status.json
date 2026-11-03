@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-03T03:18:32.688Z",
+  "atualizadoEm": "2026-11-03T04:18:33.007Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 74,
+  "novasPautas": 70,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -140,9 +140,11 @@
     },
     {
       "fonte": "Primeira Igreja Presbiteriana de Vitória - Oficial",
-      "ok": false,
-      "erro": "https://ipbvit.org.br/ -> 403 Forbidden",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://ipbvit.org.br/",
+      "fallback": false
     },
     {
       "fonte": "Convenção Batista do Estado do Espírito Santo - Oficial",
@@ -307,7 +309,7 @@
     {
       "fonte": "g1 - Política",
       "ok": true,
-      "encontrados": 12,
+      "encontrados": 13,
       "rota": "https://g1.globo.com/rss/g1/politica/",
       "fallback": false
     },
@@ -374,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-03T03:20:26.168Z",
+    "atualizadoEm": "2026-11-03T04:20:47.806Z",
     "novas": 0,
     "fontes": [
       {
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-03T03:20:27.150Z",
+    "atualizadoEm": "2026-11-03T04:20:48.911Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-03T03:20:27.991Z",
+    "atualizadoEm": "2026-11-03T04:20:49.713Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-03T03:20:38.569Z",
+    "atualizadoEm": "2026-11-03T04:21:00.297Z",
     "novas": 0,
     "fontes": [
       {
