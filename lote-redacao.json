@@ -1,16 +1,16 @@
 {
-  "geradoEm": "2026-11-03T01:48:44.466Z",
+  "geradoEm": "2026-11-03T02:48:45.672Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
-    "bloqueadas": 2,
+    "bloqueadas": 1,
     "bloqueadasEditoriais": 1,
     "semImagem": 0,
-    "duplicadasBasicas": 14,
+    "duplicadasBasicas": 12,
     "duplicadasSemanticas": 1,
-    "foraCategorias": 38
+    "foraCategorias": 44
   },
-  "quantidadeCandidatas": 24,
+  "quantidadeCandidatas": 21,
   "candidatas": [
     {
       "id": "91664c1802f94061",
@@ -85,38 +85,86 @@
       "descobertaEm": "2026-11-02T23:18:34.956Z"
     },
     {
-      "id": "f9aa68b60d86acbe",
-      "titulo": "Análise: Economia no Lula 4 divide governo e tensiona mercado",
+      "id": "e9b3a9ff027fab44",
+      "titulo": "Lula rejeita fazer gesto ao mercado e antecipar nome para Fazenda",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "CNN Brasil - Capa",
-      "urlFonte": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/economia/money/macroeconomia/analise-economia-no-lula-4-divide-governo-e-tensiona-mercado/",
-      "dataFonte": "2026-11-03T01:02:47.000Z",
-      "resumoFonte": "Dario Durigan desmentiu que o presidente Luiz Inácio Lula da Silva vá debater a proposta com o próprio André Lara Resende nesta semana",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/FTA20261013099.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-03T01:21:02.401Z"
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/lula-rejeita-fazer-gesto-ao-mercado-e-antecipar-nome-para-fazenda.shtml",
+      "dataFonte": "2026-11-03T02:00:00.000Z",
+      "resumoFonte": "O presidente Lula tem descartado, em conversas com aliados, antecipar a nomeação do ministro da Fazenda de seu quarto mandato para acalmar o mercado financeiro. Leia mais (11/02/2026 - 23h00)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/02/17936564796ae9069f7c5b4_1793656479_3x2_rt.jpg",
+      "descobertaEm": "2026-11-03T02:18:43.897Z",
+      "reportagem": {
+        "titulo": "Painel: Lula rejeita fazer gesto ao mercado e antecipar nome para Fazenda",
+        "slug": "painel-lula-rejeita-fazer-gesto-ao-mercado-e-antecipar-nome-para-fazenda",
+        "categoria": "Economia",
+        "data": "2026-11-02",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/painel-lula-rejeita-fazer-gesto-ao-mercado-e-antecipar-nome-para-fazenda.jpg",
+        "resumo": "Presidente tem dito que anunciará chefe da equipe econômica junto com os demais ministros",
+        "conteudo": "<p>Editado por Fábio Zanini, espaço traz notícias e bastidores da política. Com Carlos Petrocilo e Gabriela Echenique</p><h2>Dados e contexto do setor</h2><p>Receba no seu email as informações exclusivas da coluna Painel</p><p>O presidente Lula tem descartado, em conversas com aliados, antecipar a nomeação do ministro da Fazenda de seu quarto mandato para acalmar o mercado financeiro.</p><p>A tendência é que ele indique o chefe da equipe econômica apenas na volta de uma viagem internacional que iniciará daqui a uma semana.</p><h2>Impactos e informações adicionais</h2><p>O presidente deve ir à Turquia, para a COP31, e cogita emendar uma participação em encontro de países do Sudeste Asiático, nas Filipinas, retornando apenas no final de novembro.</p><p>Lula tem dito que antecipar o nome da Fazenda seria uma concessão indevida ao mercado, segmento que sempre lhe foi hostil.</p><p>Os nomes mais cotados são os do vice-presidente, Geraldo Alckmin (PSB), e do governador do Piauí, Rafael Fonteles (PT), mas não está descartada a permanência de Dario Durigan.</p><p>Os integrantes do ministério devem começar a ser anunciados em três a quatro semanas.</p><p>A fase atual é de consultas a dirigentes de partidos que poderão compor o governo, que vem sendo conduzida pelo presidente do PT, Edinho Silva, e outros membros da cúpula da legenda.</p><p>LINK PRESENTE: Gostou deste texto? Assinante pode liberar sete acessos gratuitos de qualquer link por dia. Basta clicar no F azul abaixo.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/colunas/painel/2026/11/lula-rejeita-fazer-gesto-ao-mercado-e-antecipar-nome-para-fazenda.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Editado por Fábio Zanini, espaço traz notícias e bastidores da política. Com Carlos Petrocilo e Gabriela Echenique"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Receba no seu email as informações exclusivas da coluna Painel"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O presidente Lula tem descartado, em conversas com aliados, antecipar a nomeação do ministro da Fazenda de seu quarto mandato para acalmar o mercado financeiro."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A tendência é que ele indique o chefe da equipe econômica apenas na volta de uma viagem internacional que iniciará daqui a uma semana."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O presidente deve ir à Turquia, para a COP31, e cogita emendar uma participação em encontro de países do Sudeste Asiático, nas Filipinas, retornando apenas no final de novembro."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/02/17936564796ae9069f7c5b4_1793656479_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/painel-lula-rejeita-fazer-gesto-ao-mercado-e-antecipar-nome-para-fazenda.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
-      "id": "b7c2e3a49e8e20d3",
-      "titulo": "Homem é assassinado durante ato que celebrava vitória de Lula no interior de Pernambuco",
+      "id": "482530745003b8c3",
+      "titulo": "Batalha por mapas eleitorais nos EUA dá vantagem a Trump que pode não virar vitória",
       "categoria": "Cidades",
       "radar": null,
       "fonteNome": "UOL Notícias",
-      "urlFonte": "https://www1.folha.uol.com.br/cotidiano/2026/11/homem-e-assassinado-durante-ato-que-celebrava-vitoria-de-lula-no-interior-de-pernambuco.shtml",
-      "dataFonte": "2026-11-02T23:39:00.000Z",
+      "urlFonte": "https://www1.folha.uol.com.br/mundo/2026/11/batalha-por-mapas-eleitorais-nos-eua-da-vantagem-a-trump-que-pode-nao-virar-vitoria.shtml",
+      "dataFonte": "2026-11-03T02:00:00.000Z",
       "resumoFonte": "",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/02/17936591266ae910f64db24_1793659126_3x2_xl.jpg",
-      "descobertaEm": "2026-11-03T01:18:40.985Z",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/29/17932850766ae35bd492ddd_1793285076_3x2_rt.jpg",
+      "descobertaEm": "2026-11-03T02:18:43.897Z",
       "reportagem": {
-        "titulo": "Homem é assassinado durante ato que celebrava vitória de Lula no interior de Pernambuco",
-        "slug": "homem-e-assassinado-durante-ato-que-celebrava-vitoria-de-lula-no-interior-de-pernambuco",
+        "titulo": "Batalha por mapas eleitorais nos EUA dá vantagem a Trump que pode não virar vitória",
+        "slug": "batalha-por-mapas-eleitorais-nos-eua-da-vantagem-a-trump-que-pode-nao-virar-vitoria",
         "categoria": "Cidades",
         "data": "2026-11-02",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/homem-e-assassinado-durante-ato-que-celebrava-vitoria-de-lula-no-interior-de-pernambuco.jpg",
-        "resumo": "Presidente do PT de Lagoa de Itaenga (PE) diz que homicídio não teve motivação política",
-        "conteudo": "<p>Um homem de 20 anos foi assassinado em Lagoa de Itaenga, na Mata Norte de Pernambuco , no sábado (31), durante ato que celebrava a reeleição do presidente Luiz Inácio Lula da Silva (PT). Não há informações sobre a motivação do crime.</p><h2>Dados e informações dos municípios</h2><p>A vítima foi identificada como João José de Santana. Segundo a Secretaria de Defesa Social de Pernambuco, o caso foi registrado na Delegacia Seccional de Goiana, também na Mata Norte, como homicídio consumado causado por perfurações de arma branca em via pública.</p><p>Um inquérito foi instaurado para investigar o caso.</p><p>A pasta informou que policiais militares do 2º Batalhão isolaram a área e que o IC (Instituto de Criminalística) realizou os procedimentos de praxe em seguida.</p><h2>Contexto e diferenças locais</h2><p>O presidente do PT de Lagoa de Itaenga, Leandro Severino, afirmou que o homicídio não teve motivação política.</p><p>\"Eu conversei com o pessoal da Polícia Militar que acompanhou a ocorrência. Um policial disse que apurou que não tinha relação com a realização do evento\", conta Leandro Severino. \"Não houve discussão nenhuma no momento. O cara chegou e feriu ele\", diz.</p><p>\"O fato ocorreu numa rua próxima. Quando a vítima foi ferida, correu e depois caiu na rua onde estávamos concentrados\", completa o presidente municipal do PT. A Secretaria de Defesa Social afirma que o homicídio ocorreu durante o evento festivo.</p><p>Leandro Severino também informou ter avisado com antecedência à polícia sobre a realização do ato, intitulado \"Caminhada da Vitória de Lula\". Ele se queixa de não ter visto viatura passar nas proximidades da concentração antes do homicídio.</p><p>Segundo o militante, a Polícia Militar mencionou já haver um suspeito do crime. A Polícia Civil não confirma prisões até o momento.</p><p>Um homem de 20 anos foi assassinado em Lagoa de Itaenga, na Mata Norte de Pernambuco , no sábado (31), durante ato que celebrava a reeleição do presidente Luiz Inácio Lula da Silva (PT).</p><p>Não há informações sobre a motivação do crime. A vítima foi identificada como João José de Santana.</p><p>Segundo a Secretaria de Defesa Social de Pernambuco, o caso foi registrado na Delegacia Seccional de Goiana, também na Mata Norte, como homicídio consumado causado por perfurações de arma branca em via pública.</p><p>Um inquérito foi instaurado para investigar o caso.</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/batalha-por-mapas-eleitorais-nos-eua-da-vantagem-a-trump-que-pode-nao-virar-vitoria.jpg",
+        "resumo": "Partido Republicano terá 15 novos distritos mais favoráveis para tentar manter o Congresso, contra 6 democratas",
+        "conteudo": "<p>O presidente dos Estados Unidos , Donald Trump , e seus aliados venceram a batalha para redesenhar os mapas eleitorais em vários estados , dando aos republicanos condições favoráveis de vitória em nove distritos a mais do que os democratas.</p><h2>Dados e informações dos municípios</h2><p>A expectativa, no entanto, ainda é de derrota na guerra pela maioria do Congresso nas eleições desta terça-feira (3).</p><p>O pleito legislativo vai renovar toda a Câmara dos Representantes , cujos eleitos representam distritos eleitorais, subdivisões territoriais dentro dos estados que são manipuladas por partidos majoritários para ampliar as chances de vitória de seus candidatos locais —prática conhecida como \"gerrymandering\".</p><p>Os mapas deveriam ser reavaliados a cada dez anos, a partir dos dados de novos censos nacionais.</p><h2>Contexto e diferenças locais</h2><p>Isso porque a ideia de um distrito eleitoral é que cada deputado represente, em todos os 50 estados, um número semelhante de eleitores.</p><p>Como a distribuição espacial da população muda com o tempo, os redesenhos têm por objetivo resolver eventuais distorções.</p><p>Alterações fora desses períodos decenais, no entanto, têm sido comuns e foram intensificadas sob Trump.</p><p>A batalha começou ainda em 2025 , quando o presidente e aliados no Texas, governado pelo Partido Republicano, que também tem maioria no Legislativo estadual, sugeriram alterar o mapa de distritos, diluindo áreas com mais eleitores democratas em novos distritos de maioria republicana.</p><p>Logo em seguida, democratas da Califórnia, estado tradicionalmente inclinado ao Partido Democrata e governado por Gavin Newsom, possível candidato à Presidência, propuseram sua própria alteração para neutralizar os possíveis ganhos republicanos no Texas —os dois são os estados mais populosos do país.</p><p>Vários estados, então, passaram a tentar alterar seus mapas, com obstáculos legislativos e judiciais a depender da oposição rival, de leis estaduais mais rígidas sobre o tema ou de decisões da Suprema Corte permitindo ou bloqueando as mudanças.</p><p>Receba no seu email uma seleção semanal com o que de mais importante aconteceu no mundo</p><p>Uma das decisões mais consequentes nesse sentido ocorreu em abril. A ordem da Suprema Corte que vetou a tentativa de mudança da Louisiana limita a Lei dos Direitos de Voto e, na prática, permite que os estados usem a composição racial da população como critério válido para redesenhar os distritos —uma vitória para Trump, já que a população negra costuma votar mais em democratas e poderia ser diluída em distritos de maioria branca.</p><p>O \"gerrymandering\" republicano resultou em 15 distritos eleitorais nos quais a expectativa é de vitória fácil para o candidato do partido ao Congresso, em sete estados diferentes: Texas, Louisiana, Tennessee, Alabama, Flórida, Carolina do Norte e Ohio.</p><p>Por outro lado, os democratas redesenharam os mapas na Califórnia e em Utah, para um total de seis distritos mais favoráveis.</p><p>Em seis estados o processo foi barrado politicamente ou na Justiça (Missouri, Indiana, Nova York, Maryland, Virgínia e Carolina do Sul).</p><p>O cenário não é tão bom quanto parece para os republicanos, no entanto, e o redesenho que aumenta levemente a margem do partido pode não significar vitória.</p><p>Segundo análise do jornal The New York Times, 204 distritos têm alta probabilidade de elegerem democratas, contra 181 para os republicanos —para maioria simples, bastam 218 deputados.</p><p>Além deles, 16 se inclinam aos democratas, e 17, aos republicanos; outros 17 têm resultado imprevisível.</p><p>Neste ponto mora o problema do partido do presidente: desses 17 imprevisíveis, 16 registraram vitória de Trump na eleição de 2024 (10 deles por margem de dois dígitos), e 7 são representados atualmente por deputados republicanos.</p><p>Isso significa que seriam disputas consideradas mais fáceis para o partido, mas têm chance razoável de resultar em uma avalanche democrata.</p><p>As hipóteses para esse cenário passam pelo recorde negativo de aprovação do próprio presidente e por mudanças em partes do eleitorado; a principal delas, o voto latino.</p><p>Tradicionalmente mais próximo dos democratas, o eleitor hispânico surpreendeu em 2024 ao equilibrar essa balança em favor de Trump. Desde então, no entanto, em meio ao aumento do custo de vida e à campanha agressiva do republicano contra imigrantes, esse apoio tem recuado.</p><p>Pesquisa da NBC News e da Telemundo sugere que 59% do eleitor latino prefere um Congresso de maioria democrata, ante 35% para os republicanos. Em 2024, pesquisas de boca de urna indicavam 46% de voto em Trump, contra 51% para Kamala Harris , o que mostra um distanciamento.</p><p>Esse grupo social é particularmente forte em estados como o Texas e a Flórida, onde estão concentrados os esforços de redesenho de mapas eleitorais dos republicanos.</p>",
         "fonteNome": "UOL Notícias",
-        "fonteUrl": "https://www1.folha.uol.com.br/cotidiano/2026/11/homem-e-assassinado-durante-ato-que-celebrava-vitoria-de-lula-no-interior-de-pernambuco.shtml",
+        "fonteUrl": "https://www1.folha.uol.com.br/mundo/2026/11/batalha-por-mapas-eleitorais-nos-eua-da-vantagem-a-trump-que-pode-nao-virar-vitoria.shtml",
         "fontesAdicionais": [
           {
             "nome": "A Gazeta",
@@ -131,27 +179,27 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Um homem de 20 anos foi assassinado em Lagoa de Itaenga, na Mata Norte de Pernambuco , no sábado (31), durante ato que celebrava a reeleição do presidente Luiz Inácio Lula da Silva (PT). Não há informações sobre a motivação do crime."
+            "resposta": "O presidente dos Estados Unidos , Donald Trump , e seus aliados venceram a batalha para redesenhar os mapas eleitorais em vários estados , dando aos republicanos condições favoráveis de vitória em nove distritos a mais do que os democratas. A expectativa, no entanto, ainda é de derrota na guerra pela maioria do Congresso nas eleições desta terça-feira (3)."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A vítima foi identificada como João José de Santana. Segundo a Secretaria de Defesa Social de Pernambuco, o caso foi registrado na Delegacia Seccional de Goiana, também na Mata Norte, como homicídio consumado causado por perfurações de arma branca em via pública. Um inquérito foi instaurado para investigar o caso."
+            "resposta": "O pleito legislativo vai renovar toda a Câmara dos Representantes , cujos eleitos representam distritos eleitorais, subdivisões territoriais dentro dos estados que são manipuladas por partidos majoritários para ampliar as chances de vitória de seus candidatos locais —prática conhecida como \"gerrymandering\"."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A pasta informou que policiais militares do 2º Batalhão isolaram a área e que o IC (Instituto de Criminalística) realizou os procedimentos de praxe em seguida."
+            "resposta": "Os mapas deveriam ser reavaliados a cada dez anos, a partir dos dados de novos censos nacionais. Isso porque a ideia de um distrito eleitoral é que cada deputado represente, em todos os 50 estados, um número semelhante de eleitores. Como a distribuição espacial da população muda com o tempo, os redesenhos têm por objetivo resolver eventuais distorções."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "O presidente do PT de Lagoa de Itaenga, Leandro Severino, afirmou que o homicídio não teve motivação política."
+            "resposta": "Alterações fora desses períodos decenais, no entanto, têm sido comuns e foram intensificadas sob Trump."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "\"Eu conversei com o pessoal da Polícia Militar que acompanhou a ocorrência. Um policial disse que apurou que não tinha relação com a realização do evento\", conta Leandro Severino. \"Não houve discussão nenhuma no momento. O cara chegou e feriu ele\", diz."
+            "resposta": "Logo em seguida, democratas da Califórnia, estado tradicionalmente inclinado ao Partido Democrata e governado por Gavin Newsom, possível candidato à Presidência, propuseram sua própria alteração para neutralizar os possíveis ganhos republicanos no Texas —os dois são os estados mais populosos do país."
           }
         ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/02/17936591266ae910f64db24_1793659126_3x2_xl.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/homem-e-assassinado-durante-ato-que-celebrava-vitoria-de-lula-no-interior-de-pernambuco.jpg",
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/29/17932850766ae35bd492ddd_1793285076_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/batalha-por-mapas-eleitorais-nos-eua-da-vantagem-a-trump-que-pode-nao-virar-vitoria.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -229,28 +277,76 @@
       "descobertaEm": "2026-11-02T23:18:34.956Z"
     },
     {
-      "id": "5a37633498e5bc48",
-      "titulo": "Em abertura da rodada, Bragantino vence Santos pelo Brasileirão",
+      "id": "f0d54c1310591430",
+      "titulo": "Red Bull Bragantino 2 x 1 Santos: veja os melhores momentos do Brasileirão",
       "categoria": "Esporte",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/esportes/em-abertura-da-rodada-bragantino-vence-santos-pelo-brasileirao",
-      "dataFonte": "2026-11-03T01:08:26.000Z",
-      "resumoFonte": "Com esta vitória, o Massa Bruta chega aos 47 pontos e sobe para a 8ª posição. Com a mesma pontuação o Peixe ocupa a 9ª posição",
-      "imagem": "https://i.metroimg.com/MCk_DtaHATYKwj-SjOnlgUchbw6-sRh18ZJWBhEbJtw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/bragantino-x-santos.jpg",
-      "descobertaEm": "2026-11-03T01:18:40.985Z"
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/red-bull-bragantino-2-x-1-santos-veja-os-melhores-momentos-do-brasileirao/",
+      "dataFonte": "2026-11-03T01:39:16.000Z",
+      "resumoFonte": "Equipes paulistas se enfrentaram na noite desta segunda-feira (2), no estádio Cícero de Souza Marques, em Bragança Paulista (SP), pela 34ª rodada",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/red-bull-bragantino-santos-brasileirao-1-e1793665341292.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-03T02:18:43.897Z"
     },
     {
-      "id": "8069a157bf45556e",
-      "titulo": "Flávio cita uso de jato de Willer por Moraes e pede suspeição do ministro",
+      "id": "1af151b33f38fa9f",
+      "titulo": "Tribunal Penal Internacional acusa governo Trump de tentar obstruir Justiça internacional | G1",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/02/flavio-cita-uso-de-jato-de-willer-por-moraes-e-pede-suspeicao-do-ministro.htm",
-      "dataFonte": "2026-11-02T22:20:44.000Z",
-      "resumoFonte": "A defesa do senador Flávio Bolsonaro (PL) apresentou na sexta-feira (30) um pedido para declarar a suspeição do ministro Alexandre de Moraes, do STF (Supremo Tribunal Federal), para retirá-lo da relatoria dos inquéritos que apuram lavagem de dinheiro pelo amigo do senador Willer Tomaz.",
-      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
-      "descobertaEm": "2026-11-02T23:18:34.956Z"
+      "fonteNome": "g1 - Capa",
+      "urlFonte": "https://g1.globo.com/mundo/noticia/2026/11/02/tribunal-penal-internacional-acusa-governo-trump-de-tentar-obstruir-justica-internacional.ghtml",
+      "dataFonte": "2026-11-03T02:11:58.556Z",
+      "resumoFonte": "A presidente do Tribunal Penal Internacional (TPI) acusou o governo Trump de tentar obstruir a Justiça internacional ao impor sanções ao tribunal e prometeu que a iniciativa não terá sucesso.",
+      "imagem": "https://s2-g1.glbimg.com/EyWVyqNTtRVPTUur4hIVgS0qi0o=/1900x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/5/xqHSZgQrafalSFPBXaoQ/design-sem-nome-26-.png",
+      "descobertaEm": "2026-11-03T02:20:58.362Z",
+      "reportagem": {
+        "titulo": "Tribunal Penal Internacional acusa governo Trump de tentar obstruir Justiça internacional",
+        "slug": "tribunal-penal-internacional-acusa-governo-trump-de-tentar-obstruir-justica-internacional",
+        "categoria": "Justiça",
+        "data": "2026-11-02",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/tribunal-penal-internacional-acusa-governo-trump-de-tentar-obstruir-justica-internacional.jpg",
+        "resumo": "A presidente do Tribunal Penal Internacional (TPI) acusou o governo Trump de tentar obstruir a Justiça internacional ao impor sanções ao tribunal e prometeu que a iniciativa não terá sucesso.",
+        "conteudo": "<p>A juíza Tomoko Akane (à direita) e Donald Trump (à esquerda). — Foto: Charlie Neibergall/Eva Plevier/ AP</p><h2>O contexto da decisão judicial</h2><p>A juíza japonesa Tomoko Akane, que falou remotamente às Nações Unidas na segunda-feira por causa das sanções dos Estados Unidos, pediu a todos os 193 países-membros da ONU, e não apenas aos 125 países que fazem parte do TPI, “que tomem medidas concretas, individual e coletivamente, em defesa do tribunal”.</p><p>✅ Siga o canal de notícias internacionais do g1 no WhatsApp</p><p>O governo do presidente Donald Trump impôs uma série de sanções a funcionários do TPI e, no mês passado, passou a mirar o tribunal como um todo, como parte de sua campanha para desmantelá-lo por causa de investigações envolvendo os Estados Unidos e seus aliados, incluindo Israel.</p><h2>Detalhes e consequências do caso</h2><p>Akane afirmou que seu discurso remoto à Assembleia Geral da ONU foi resultado das medidas “extraordinárias” e “sem precedentes” dos Estados Unidos, que ameaçam juízes, promotores e o próprio TPI como instituição.</p><p>O que é o Tribunal Penal Internacional, sancionado pelos EUA após juíza ganhar Nobel da Paz?</p><p>Ela destacou o momento em que o governo Trump anunciou novas e abrangentes sanções contra o tribunal, em 9 de outubro.</p><p>Foi no mesmo dia em que o Prêmio Nobel da Paz foi concedido à jurista sul-africana Navi Pillay, ex-juíza do TPI, por seus esforços para promover a paz e o direito internacional.</p>",
+        "fonteNome": "g1 - Capa",
+        "fonteUrl": "https://g1.globo.com/mundo/noticia/2026/11/02/tribunal-penal-internacional-acusa-governo-trump-de-tentar-obstruir-justica-internacional.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A juíza Tomoko Akane (à direita) e Donald Trump (à esquerda). — Foto: Charlie Neibergall/Eva Plevier/ AP"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A juíza japonesa Tomoko Akane, que falou remotamente às Nações Unidas na segunda-feira por causa das sanções dos Estados Unidos, pediu a todos os 193 países-membros da ONU, e não apenas aos 125 países que fazem parte do TPI, “que tomem medidas concretas, individual e coletivamente, em defesa do tribunal”."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "✅ Siga o canal de notícias internacionais do g1 no WhatsApp"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O governo do presidente Donald Trump impôs uma série de sanções a funcionários do TPI e, no mês passado, passou a mirar o tribunal como um todo, como parte de sua campanha para desmantelá-lo por causa de investigações envolvendo os Estados Unidos e seus aliados, incluindo Israel."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Akane afirmou que seu discurso remoto à Assembleia Geral da ONU foi resultado das medidas “extraordinárias” e “sem precedentes” dos Estados Unidos, que ameaçam juízes, promotores e o próprio TPI como instituição."
+          }
+        ],
+        "imagemOriginal": "https://s2-g1.glbimg.com/EyWVyqNTtRVPTUur4hIVgS0qi0o=/1900x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/5/xqHSZgQrafalSFPBXaoQ/design-sem-nome-26-.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/tribunal-penal-internacional-acusa-governo-trump-de-tentar-obstruir-justica-internacional.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
       "id": "7a1542971e018210",
@@ -325,124 +421,16 @@
       "descobertaEm": "2026-11-03T00:18:34.547Z"
     },
     {
-      "id": "bfdceea137855fef",
-      "titulo": "Marinho terá apoio do Novo em lançamento para presidente do Senado e busca outros partidos",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/marinho-tera-apoio-do-novo-em-lancamento-para-presidente-do-senado-e-busca-outros-partidos.shtml",
-      "dataFonte": "2026-11-02T22:00:00.000Z",
-      "resumoFonte": "A reunião do PL na próxima quarta-feira (4) que deverá lançar a candidatura do senador Rogério Marinho (RN) à presidência da Casa deverá ter também a presença de representantes de outros partidos. Leia mais (11/02/2026 - 19h00)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/02/17936517496ae8f4251f717_1793651749_3x2_rt.jpg",
-      "descobertaEm": "2026-11-02T22:18:31.952Z",
-      "reportagem": {
-        "titulo": "Painel: Marinho terá apoio do Novo em lançamento para presidente do Senado e busca outros partidos",
-        "slug": "painel-marinho-tera-apoio-do-novo-em-lancamento-para-presidente-do-senado-e-busca-outros-p",
-        "categoria": "Política Nacional",
-        "data": "2026-11-02",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/painel-marinho-tera-apoio-do-novo-em-lancamento-para-presidente-do-senado-e-busca-outros-p.jpg",
-        "resumo": "Objetivo é mostrar força do parlamentar para disputa contra Alcolumbre em fevereiro de 2027",
-        "conteudo": "<p>Editado por Fábio Zanini, espaço traz notícias e bastidores da política. Com Carlos Petrocilo e Gabriela Echenique</p><h2>O contexto do cenário político</h2><p>Receba no seu email as informações exclusivas da coluna Painel</p><p>A reunião do PL na próxima quarta-feira (4) que deverá lançar a candidatura do senador Rogério Marinho (RN) à presidência da Casa deverá ter também a presença de representantes de outros partidos.</p><p>A ideia é demonstrar que Marinho tem apoio amplo na direita para desbancar o atual presidente, Davi Alcolumbre (União-AP), que será candidato à reeleição em fevereiro de 2027.</p><h2>Informações e repercussões do episódio</h2><p>Os senadores do Novo, por exemplo, devem comparecer ao encontro. O partido elegeu três representantes: Marcel Van Hattem (RS), Deltan Dallagnol (PR) e Lahesio Bonfim (MA) . Já o PL terá 29 em 2027.</p><p>O PL costura também o apoio de senadores (atuais e eleitos) de partidos como PP, União Brasil, Republicanos e PSDB.</p><p>\"Rogério é o candidato do PL e vamos articular com a bancada, partidos aliados e seus parlamentares também avulsos\", diz o líder da bancada no Senado, Carlos Portinho (RJ).</p><p>Nas contas da oposição, há uma maioria teórica de 45 a 50 senadores já comprometidos com Marinho.</p><p>O voto, no entanto, é secreto, o que poderá dar margem a traições. Como mostrou a Folha , Marinho tem defendido que os senadores de direita mostrem em quem votaram.</p><p>LINK PRESENTE: Gostou deste texto? Assinante pode liberar sete acessos gratuitos de qualquer link por dia. Basta clicar no F azul abaixo.</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://www1.folha.uol.com.br/colunas/painel/2026/11/marinho-tera-apoio-do-novo-em-lancamento-para-presidente-do-senado-e-busca-outros-partidos.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Editado por Fábio Zanini, espaço traz notícias e bastidores da política. Com Carlos Petrocilo e Gabriela Echenique"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Receba no seu email as informações exclusivas da coluna Painel"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A reunião do PL na próxima quarta-feira (4) que deverá lançar a candidatura do senador Rogério Marinho (RN) à presidência da Casa deverá ter também a presença de representantes de outros partidos."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A ideia é demonstrar que Marinho tem apoio amplo na direita para desbancar o atual presidente, Davi Alcolumbre (União-AP), que será candidato à reeleição em fevereiro de 2027."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os senadores do Novo, por exemplo, devem comparecer ao encontro. O partido elegeu três representantes: Marcel Van Hattem (RS), Deltan Dallagnol (PR) e Lahesio Bonfim (MA) . Já o PL terá 29 em 2027."
-          }
-        ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/02/17936517496ae8f4251f717_1793651749_3x2_rt.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/painel-marinho-tera-apoio-do-novo-em-lancamento-para-presidente-do-senado-e-busca-outros-p.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "fcdbeebfa9393e2d",
-      "titulo": "Análise: Indefinição na Fazenda preocupa mercado para Lula 4",
+      "id": "f9aa68b60d86acbe",
+      "titulo": "Análise: Economia no Lula 4 divide governo e tensiona mercado",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/mercado/analise-indefinicao-na-fazenda-preocupa-mercado-para-lula-4/",
-      "dataFonte": "2026-11-03T00:32:18.000Z",
-      "resumoFonte": "A editora e analista de Economia da CNN, Lucinda Pinto, aponta, ao CNN Prime Time, que mercado vê pouca disposição do governo para ajuste fiscal e teme alta da inflação como consequência",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/MINISTERIO-DA-FAZENDA.jpg?w=750&h=442&crop=1",
-      "descobertaEm": "2026-11-03T01:18:40.985Z",
-      "reportagem": {
-        "titulo": "Análise: Indefinição na Fazenda preocupa mercado para Lula 4",
-        "slug": "analise-indefinicao-na-fazenda-preocupa-mercado-para-lula-4",
-        "categoria": "Economia",
-        "data": "2026-11-02",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/analise-indefinicao-na-fazenda-preocupa-mercado-para-lula-4.jpg",
-        "resumo": "A editora e analista de Economia da CNN, Lucinda Pinto, aponta, ao CNN Prime Time, que mercado vê pouca disposição do governo para ajuste fiscal e teme alta da inflação como consequência",
-        "conteudo": "<p>O mercado financeiro acompanha com preocupação a indefinição sobre o Ministério da Fazenda e a postura da nova equipe econômica em relação à política fiscal.</p><h2>Dados e contexto do setor</h2><p>A demora na divulgação dos nomes e diretrizes do próximo governo tem deixado os agentes financeiros sem referências claras sobre os rumos da economia.</p><p>A analista e editora de Economia da CNN, Lucinda Pinto, avaliou o cenário ao CNN Prime Time .</p><p>Segundo ela, caso o mercado estivesse operando no dia em que as discussões sobre a política econômica do novo governo ganharam força, a instabilidade teria sido significativa.</p><h2>Impactos e informações adicionais</h2><p>&quot;Eu não tenho dúvidas de que a gente teria visto muita instabilidade, especialmente nos juros futuros e também no dólar&quot;, afirmou Lucinda Pinto.</p><p>Um dos pontos centrais do debate foi a proposta do economista André Lara Resende , que gerou intensa discussão entre acadêmicos e analistas.</p><p>Lucinda Pinto explicou que, embora Lara Resende seja um economista amplamente respeitado, a proposta não encontrou respaldo entre os especialistas.</p><p>&quot;No fim das contas, o saldo da avaliação toda é que realmente isso que o André Lara Resende está propondo, embora seja um economista super respeitado, ninguém está muito de acordo, ninguém acha que faça sentido aqui no Brasil&quot;, disse a analista.</p><p>Entre as críticas à proposta, Lucinda Pinto destacou que a tentativa de reduzir a taxa Selic de forma forçada poderia ter efeito contrário ao desejado.</p><p>&quot;Na prática, o que você vai fazer é aumentar ainda mais a taxa de juros que o investidor vai exigir para emprestar dinheiro para o governo&quot;, explicou.</p><p>Outro ponto contestado foi a ideia de usar reservas internacionais para conter impactos negativos sobre o câmbio.</p><p>Segundo a analista, os cerca de US$ 360 bilhões em reservas não seriam suficientes para acalmar os mercados em um cenário de fuga de capitais.</p><p>Apesar de alguns integrantes do governo terem manifestado simpatia pela ideia, o ministro da Fazenda, Dario Durigan , descartou publicamente a proposta, tendo sua posição reforçada como porta-voz da equipe econômica.</p><p>Para além do debate sobre a proposta de Lara Resende, Lucinda Pinto ressaltou que a preocupação do mercado vai além desse episódio.</p><p>O ponto central, segundo ela, é a ausência de medidas consistentes para conter o crescimento das despesas públicas.</p><p>&quot;O que o mercado vê é pouca disposição do governo em fazer esse tal ajuste fiscal que tanto se clama&quot;, afirmou.</p><p>Questionada sobre se o assunto estava sendo abordado pelo governo, a analista foi direta: &quot;Nada é falado&quot;.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/mercado/analise-indefinicao-na-fazenda-preocupa-mercado-para-lula-4/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O mercado financeiro acompanha com preocupação a indefinição sobre o Ministério da Fazenda e a postura da nova equipe econômica em relação à política fiscal. A demora na divulgação dos nomes e diretrizes do próximo governo tem deixado os agentes financeiros sem referências claras sobre os rumos da economia."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A analista e editora de Economia da CNN, Lucinda Pinto, avaliou o cenário ao CNN Prime Time ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Segundo ela, caso o mercado estivesse operando no dia em que as discussões sobre a política econômica do novo governo ganharam força, a instabilidade teria sido significativa."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "&quot;Eu não tenho dúvidas de que a gente teria visto muita instabilidade, especialmente nos juros futuros e também no dólar&quot;, afirmou Lucinda Pinto."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Um dos pontos centrais do debate foi a proposta do economista André Lara Resende , que gerou intensa discussão entre acadêmicos e analistas."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/MINISTERIO-DA-FAZENDA.jpg?w=750&h=442&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/analise-indefinicao-na-fazenda-preocupa-mercado-para-lula-4.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "CNN Brasil - Capa",
+      "urlFonte": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/economia/money/macroeconomia/analise-economia-no-lula-4-divide-governo-e-tensiona-mercado/",
+      "dataFonte": "2026-11-03T01:02:47.000Z",
+      "resumoFonte": "Dario Durigan desmentiu que o presidente Luiz Inácio Lula da Silva vá debater a proposta com o próprio André Lara Resende nesta semana",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/FTA20261013099.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-03T01:21:02.401Z"
     },
     {
       "id": "9d302e25400874c8",
@@ -685,61 +673,61 @@
       }
     },
     {
-      "id": "24c5d455a66944c9",
-      "titulo": "Apple bate recordes e atinge receita trimestral de US$ 114,5 bi",
-      "categoria": "Economia",
+      "id": "b7c2e3a49e8e20d3",
+      "titulo": "Homem é assassinado durante ato que celebrava vitória de Lula no interior de Pernambuco",
+      "categoria": "Cidades",
       "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-tech/apple-bate-recordes-e-atinge-receita-trimestral-de-us-1145-bi/",
-      "dataFonte": "2026-11-02T22:12:48.000Z",
-      "resumoFonte": "Empresa atribui resultado ao desempenho de vendas do iPhone, que teve recorde para um único semestre",
-      "imagem": "https://static.poder360.com.br/uploads/2025/12/cade-apple-condutas-anticoncorrenciais-23dez25.png",
-      "descobertaEm": "2026-11-02T22:18:31.952Z",
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://www1.folha.uol.com.br/cotidiano/2026/11/homem-e-assassinado-durante-ato-que-celebrava-vitoria-de-lula-no-interior-de-pernambuco.shtml",
+      "dataFonte": "2026-11-02T23:39:00.000Z",
+      "resumoFonte": "",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/02/17936591266ae910f64db24_1793659126_3x2_xl.jpg",
+      "descobertaEm": "2026-11-03T01:18:40.985Z",
       "reportagem": {
-        "titulo": "Apple bate recordes e atinge receita trimestral de US$ 114,5 bi",
-        "slug": "apple-bate-recordes-e-atinge-receita-trimestral-de-us-114-5-bi",
-        "categoria": "Economia",
+        "titulo": "Homem é assassinado durante ato que celebrava vitória de Lula no interior de Pernambuco",
+        "slug": "homem-e-assassinado-durante-ato-que-celebrava-vitoria-de-lula-no-interior-de-pernambuco",
+        "categoria": "Cidades",
         "data": "2026-11-02",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/apple-bate-recordes-e-atinge-receita-trimestral-de-us-114-5-bi.jpg",
-        "resumo": "Empresa atribui resultado ao desempenho de vendas do iPhone, que teve recorde para um único semestre.",
-        "conteudo": "<p>Empresa atribui resultado ao desempenho de vendas do iPhone, que teve recorde para um único semestre</p><h2>Dados e contexto do setor</h2><p>A Apple registrou receita recorde de US$ 114,5 bilhões no 4º trimestre fiscal de 2026, encerrado em 26 de setembro, informou a companhia nesta 2ª feira (2.nov.2026).</p><p>O resultado supera em 12% o montante registrado no mesmo período do ano passado. O lucro líquido atingiu US$ 30,71 bilhões, alta de 11,8% na comparação anual.</p><p>A margem bruta da empresa no período foi de 47,5% e o lucro diluído por ação também bateu recorde, com US$ 2,10 e alta de 14% na comparação com o mesmo intervalo de 2025.</p><h2>Impactos e informações adicionais</h2><p>Os dividendos que serão pagos aos acionistas somarão US$ 28 bilhões. Leia a íntegra do balanço trimestral (PDF – 3 MB).</p><p>Segundo a Apple, o resultado foi puxado pelo desempenho do iPhone, que registrou recorde de vendas para um único trimestre durante o período de julho, agosto e setembro. A receita do smartphone foi de US$ 57,58 bilhões, alta de 17,46% em relação ao mesmo período de 2025.</p><p>“Estamos fechando o ano com nossa linha de produtos mais ambiciosa até o momento.</p><p>Isso inclui o iPhone Duo, o iPhone mais revolucionário desde o primeiro, além do iPhone 18 Pro e do iPhone 18 Pro Max, nossos iPhones mais poderosos até agora […] temos uma linha de produtos incrível para nos acompanhar até a temporada de festas de fim de ano” , disse John Ternus, CEO da Apple, em comunicado divulgado pela empresa.</p><p>Outro destaque do trimestre foi a receita obtida com a divisão de Serviços, que também foi recorde. Esse setor da empresa é responsável por criar, gerenciar e monetizar plataformas digitais, assinaturas e conteúdos online disponibilizados aos usuários.</p><p>Com os resultados, a Apple encerra o ano fiscal de 2026 com receita recorde de US$ 479 bilhões e crescimento de 2 dígitos no lucro por ação.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-tech/apple-bate-recordes-e-atinge-receita-trimestral-de-us-1145-bi/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/homem-e-assassinado-durante-ato-que-celebrava-vitoria-de-lula-no-interior-de-pernambuco.jpg",
+        "resumo": "Presidente do PT de Lagoa de Itaenga (PE) diz que homicídio não teve motivação política",
+        "conteudo": "<p>Um homem de 20 anos foi assassinado em Lagoa de Itaenga, na Mata Norte de Pernambuco , no sábado (31), durante ato que celebrava a reeleição do presidente Luiz Inácio Lula da Silva (PT). Não há informações sobre a motivação do crime.</p><h2>Dados e informações dos municípios</h2><p>A vítima foi identificada como João José de Santana. Segundo a Secretaria de Defesa Social de Pernambuco, o caso foi registrado na Delegacia Seccional de Goiana, também na Mata Norte, como homicídio consumado causado por perfurações de arma branca em via pública.</p><p>Um inquérito foi instaurado para investigar o caso.</p><p>A pasta informou que policiais militares do 2º Batalhão isolaram a área e que o IC (Instituto de Criminalística) realizou os procedimentos de praxe em seguida.</p><h2>Contexto e diferenças locais</h2><p>O presidente do PT de Lagoa de Itaenga, Leandro Severino, afirmou que o homicídio não teve motivação política.</p><p>\"Eu conversei com o pessoal da Polícia Militar que acompanhou a ocorrência. Um policial disse que apurou que não tinha relação com a realização do evento\", conta Leandro Severino. \"Não houve discussão nenhuma no momento. O cara chegou e feriu ele\", diz.</p><p>\"O fato ocorreu numa rua próxima. Quando a vítima foi ferida, correu e depois caiu na rua onde estávamos concentrados\", completa o presidente municipal do PT. A Secretaria de Defesa Social afirma que o homicídio ocorreu durante o evento festivo.</p><p>Leandro Severino também informou ter avisado com antecedência à polícia sobre a realização do ato, intitulado \"Caminhada da Vitória de Lula\". Ele se queixa de não ter visto viatura passar nas proximidades da concentração antes do homicídio.</p><p>Segundo o militante, a Polícia Militar mencionou já haver um suspeito do crime. A Polícia Civil não confirma prisões até o momento.</p><p>Um homem de 20 anos foi assassinado em Lagoa de Itaenga, na Mata Norte de Pernambuco , no sábado (31), durante ato que celebrava a reeleição do presidente Luiz Inácio Lula da Silva (PT).</p><p>Não há informações sobre a motivação do crime. A vítima foi identificada como João José de Santana.</p><p>Segundo a Secretaria de Defesa Social de Pernambuco, o caso foi registrado na Delegacia Seccional de Goiana, também na Mata Norte, como homicídio consumado causado por perfurações de arma branca em via pública.</p><p>Um inquérito foi instaurado para investigar o caso.</p>",
+        "fonteNome": "UOL Notícias",
+        "fonteUrl": "https://www1.folha.uol.com.br/cotidiano/2026/11/homem-e-assassinado-durante-ato-que-celebrava-vitoria-de-lula-no-interior-de-pernambuco.shtml",
         "fontesAdicionais": [
           {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
           },
           {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Empresa atribui resultado ao desempenho de vendas do iPhone, que teve recorde para um único semestre"
+            "resposta": "Um homem de 20 anos foi assassinado em Lagoa de Itaenga, na Mata Norte de Pernambuco , no sábado (31), durante ato que celebrava a reeleição do presidente Luiz Inácio Lula da Silva (PT). Não há informações sobre a motivação do crime."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A Apple registrou receita recorde de US$ 114,5 bilhões no 4º trimestre fiscal de 2026, encerrado em 26 de setembro, informou a companhia nesta 2ª feira (2.nov.2026). O resultado supera em 12% o montante registrado no mesmo período do ano passado. O lucro líquido atingiu US$ 30,71 bilhões, alta de 11,8% na comparação anual."
+            "resposta": "A vítima foi identificada como João José de Santana. Segundo a Secretaria de Defesa Social de Pernambuco, o caso foi registrado na Delegacia Seccional de Goiana, também na Mata Norte, como homicídio consumado causado por perfurações de arma branca em via pública. Um inquérito foi instaurado para investigar o caso."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A margem bruta da empresa no período foi de 47,5% e o lucro diluído por ação também bateu recorde, com US$ 2,10 e alta de 14% na comparação com o mesmo intervalo de 2025. Os dividendos que serão pagos aos acionistas somarão US$ 28 bilhões. Leia a íntegra do balanço trimestral (PDF – 3 MB)."
+            "resposta": "A pasta informou que policiais militares do 2º Batalhão isolaram a área e que o IC (Instituto de Criminalística) realizou os procedimentos de praxe em seguida."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Segundo a Apple, o resultado foi puxado pelo desempenho do iPhone, que registrou recorde de vendas para um único trimestre durante o período de julho, agosto e setembro. A receita do smartphone foi de US$ 57,58 bilhões, alta de 17,46% em relação ao mesmo período de 2025."
+            "resposta": "O presidente do PT de Lagoa de Itaenga, Leandro Severino, afirmou que o homicídio não teve motivação política."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "“Estamos fechando o ano com nossa linha de produtos mais ambiciosa até o momento."
+            "resposta": "\"Eu conversei com o pessoal da Polícia Militar que acompanhou a ocorrência. Um policial disse que apurou que não tinha relação com a realização do evento\", conta Leandro Severino. \"Não houve discussão nenhuma no momento. O cara chegou e feriu ele\", diz."
           }
         ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2025/12/cade-apple-condutas-anticoncorrenciais-23dez25.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/apple-bate-recordes-e-atinge-receita-trimestral-de-us-114-5-bi.jpg",
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/02/17936591266ae910f64db24_1793659126_3x2_xl.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/homem-e-assassinado-durante-ato-que-celebrava-vitoria-de-lula-no-interior-de-pernambuco.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -805,136 +793,16 @@
       }
     },
     {
-      "id": "b495700f192b25da",
-      "titulo": "'Quanto mais sucesso tenho, mais frustrantes são meus erros', diz brasileiro da NFL",
+      "id": "5a37633498e5bc48",
+      "titulo": "Em abertura da rodada, Bragantino vence Santos pelo Brasileirão",
       "categoria": "Esporte",
       "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://www1.folha.uol.com.br/esporte/2026/11/quanto-mais-sucesso-tenho-mais-frustrantes-sao-meus-erros-diz-brasileiro-da-nfl.shtml",
-      "dataFonte": "2026-11-03T00:21:00.000Z",
-      "resumoFonte": "",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/02/17936659446ae92b98c8025_1793665944_3x2_rt.jpg",
-      "descobertaEm": "2026-11-03T01:38:25.881Z",
-      "reportagem": {
-        "titulo": "'Quanto mais sucesso tenho, mais frustrantes são meus erros', diz brasileiro da NFL",
-        "slug": "quanto-mais-sucesso-tenho-mais-frustrantes-sao-meus-erros-diz-brasileiro-da-nfl",
-        "categoria": "Esporte",
-        "data": "2026-11-02",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/quanto-mais-sucesso-tenho-mais-frustrantes-sao-meus-erros-diz-brasileiro-da-nfl.jpg",
-        "resumo": "Cairo Santos relata pressão para manter vaga no Chicago Bears diante da concorrência dos mais jovens",
-        "conteudo": "<p>Aos 34 anos, o brasileiro Cairo Santos sabe que, na NFL (National Football League), experiência não é garantia de emprego.</p><h2>As informações principais do assunto</h2><p>Mesmo depois de conquistar espaço na liga e renovar seu contrato com o Chicago Bears por quatro temporadas, o kicker precisa provar seu valor a cada ano diante da concorrência de jogadores mais jovens.</p><p>\"Cada ano que passa na minha idade, tenho que lutar mais para acompanhar o ritmo\", afirmou à Folha .</p><p>A pressão não é apenas esportiva. No terceiro ano de seu vínculo, o paulista de Limeira tem apenas mais uma temporada de contrato pela frente, mas não tem garantia de continuar no time até o fim do acordo.</p><h2>Contexto e informações complementares</h2><p>Ele assinou uma extensão de quatro anos há dois, mas somente os dois primeiros eram garantidos.</p><p>\"O time pode me cortar depois da temporada ou mesmo durante ela, sem me dever o restante do salário, e contratar outro kicker\", explicou o brasileiro.</p><p>A disputa pela posição faz parte da rotina de Cairo. Nos últimos anos, o Bears tem contratado jogadores para competir com ele. O brasileiro diz que venceu a concorrência e manteve a vaga, mas sabe que precisa repetir o desempenho a cada ano.</p><p>\"Conquistar minha vaga novamente é algo que me motiva na preparação antes da temporada.\"</p><p>A necessidade de responder à pressão apareceu em um dos momentos recentes de sua carreira. Depois de errar um chute de 53 jardas contra o New England Patriots , Cairo teve outra oportunidade pouco depois e acertou de 58 jardas, a maior marca de sua carreira.</p><p>Para chegar ao segundo chute, precisou superar a frustração do erro e convencer a comissão técnica a confiar nele novamente.</p><p>\"A primeira intenção do nosso técnico [Ben Johnson] era fazer o punt e colocar a defesa em campo. Quando vi aquilo, fui falar com meu técnico de 'special teams' que queria chutar, porque estava dentro do meu alcance.\"</p><p>\"Ele levou a mensagem ao Ben Johnson, que demonstrou confiança em mim\", acrescentou Cairo, que passou a lidar com os próprios erros de forma diferente ao longo dos anos.</p><p>\"Quanto mais sucesso tenho na carreira, mais frustrantes ficam os erros, porque sinto que melhoro a cada ano e sou capaz de melhorar meus números na temporada e o alcance dos meus chutes. A frustração com o erro me consome mais hoje do que no começo da carreira\", afirmou.</p><p>A confiança da comissão técnica tem sido importante nesta fase da carreira de Cairo, em uma temporada na qual ele tem errado mais chutes do que o habitual.</p><p>Em sete jogos, o kicker acertou 11 dos 15 field goals tentados, com aproveitamento de 73,3%, e converteu todos os seus 21 extra points.</p><p>Até agora, errou um chute de 43 jardas no clássico contra o Green Bay Packers, outro de 56 jardas na vitória sobre o Atlanta Falcons e teve uma tentativa de 23 jardas bloqueada na derrota para o Minnesota Vikings, além do chute de 53 jardas contra os Patriots.</p><p>Cairo, no entanto, também tem sido decisivo. No jogo contra os Patriots, acertou o field goal de 58 jardas que garantiu a vitória por 30 a 24. Até a sétima rodada, havia marcado 54 dos 180 pontos do Bears, que tinha campanha de cinco vitórias e duas derrotas.</p><p>O brasileiro é o kicker mais preciso da história do Bears, com 87,2% de aproveitamento nos field goals convertidos pela franquia. Ele ainda se considera na melhor fase da carreira, mas admite que nem isso assegura sua permanência no time.</p><p>\"Posso terminar o ano muito bem, mas o time pode querer seguir outro caminho, apostar em um jogador mais jovem, e eu acabar indo para a free agency [mercado de agentes livres]\", disse.</p><p>Independentemente de quando deixar a liga, Cairo já tem planos para o futuro. O brasileiro quer usar sua experiência na NFL para abrir portas para outros atletas do país.</p>",
-        "fonteNome": "UOL Notícias",
-        "fonteUrl": "https://www1.folha.uol.com.br/esporte/2026/11/quanto-mais-sucesso-tenho-mais-frustrantes-sao-meus-erros-diz-brasileiro-da-nfl.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Aos 34 anos, o brasileiro Cairo Santos sabe que, na NFL (National Football League), experiência não é garantia de emprego. Mesmo depois de conquistar espaço na liga e renovar seu contrato com o Chicago Bears por quatro temporadas, o kicker precisa provar seu valor a cada ano diante da concorrência de jogadores mais jovens."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "\"Cada ano que passa na minha idade, tenho que lutar mais para acompanhar o ritmo\", afirmou à Folha ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A pressão não é apenas esportiva. No terceiro ano de seu vínculo, o paulista de Limeira tem apenas mais uma temporada de contrato pela frente, mas não tem garantia de continuar no time até o fim do acordo. Ele assinou uma extensão de quatro anos há dois, mas somente os dois primeiros eram garantidos."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "\"O time pode me cortar depois da temporada ou mesmo durante ela, sem me dever o restante do salário, e contratar outro kicker\", explicou o brasileiro."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A disputa pela posição faz parte da rotina de Cairo. Nos últimos anos, o Bears tem contratado jogadores para competir com ele. O brasileiro diz que venceu a concorrência e manteve a vaga, mas sabe que precisa repetir o desempenho a cada ano."
-          }
-        ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/02/17936659446ae92b98c8025_1793665944_3x2_rt.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/quanto-mais-sucesso-tenho-mais-frustrantes-sao-meus-erros-diz-brasileiro-da-nfl.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "a49b77c01f2312d1",
-      "titulo": "RB Bragantino x Santos: escalações e onde assistir ao jogo do Brasileirão",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/rb-bragantino-x-santos-escalacoes-e-onde-assistir-ao-jogo-do-brasileirao/",
-      "dataFonte": "2026-11-02T22:01:54.000Z",
-      "resumoFonte": "Equipes se enfrentam nesta segunda-feira (2), às 20h (de Brasília), no Estádio Cícero de Souza Marques, em Bragança Paulista, pela 34ª rodada do Campeonato Brasileiro",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/55240341762_772008f4bd_o-e1793222120652.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-02T23:18:34.956Z"
-    },
-    {
-      "id": "e46ebf05d5ab8f1e",
-      "titulo": "Pai de Vorcaro volta a pedir soltura ao STF por problemas de saúde",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/pai-de-vorcaro-volta-a-pedir-soltura-ao-stf-por-problemas-de-saude/",
-      "dataFonte": "2026-11-03T01:02:04.000Z",
-      "resumoFonte": "A defesa de Henrique Vorcaro, pai do ex-banqueiro Daniel Vorcaro, voltou a pedir ao Supremo Tribunal Federal (STF), nesta segunda-feira, 2, a revogação de sua prisão preventiva ou a substituição da medida por prisão domiciliar. Os advogados alegam agravamento de problemas de saúde e destacam que os pedidos de revisão da prisão estão sem resposta…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/05/captura-de-tela-2026-05-14-as-07.26.36.jpg.webp",
-      "descobertaEm": "2026-11-03T01:18:40.985Z",
-      "reportagem": {
-        "titulo": "Pai de Vorcaro volta a pedir soltura ao STF por problemas de saúde",
-        "slug": "pai-de-vorcaro-volta-a-pedir-soltura-ao-stf-por-problemas-de-saude",
-        "categoria": "Justiça",
-        "data": "2026-11-02",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/pai-de-vorcaro-volta-a-pedir-soltura-ao-stf-por-problemas-de-saude.jpg",
-        "resumo": "Defesa de Henrique Vorcaro apresenta novo relatório médico e alega falta de reavaliação da prisão preventiva desde agosto",
-        "conteudo": "<p>• A defesa de Henrique Vorcaro voltou a pedir ao STF sua soltura ou prisão domiciliar, alegando agravamento da saúde.</p><h2>O contexto da decisão judicial</h2><p>• Um relatório médico de 28 de outubro registra crises recorrentes de diverticulite; advogados também apontam pedidos sem resposta desde agosto.</p><p>• Preso desde 14 de maio, Henrique é investigado por financiar serviços de um grupo suspeito de ameaças e obtenção ilegal de informações.</p><p>A defesa de Henrique Vorcaro, pai do ex-banqueiro Daniel Vorcaro, voltou a pedir ao Supremo Tribunal Federal (STF), nesta segunda-feira, 2, a revogação de sua prisão preventiva ou a substituição da medida por prisão domiciliar.</p><h2>Detalhes e consequências do caso</h2><p>Os advogados alegam agravamento de problemas de saúde e destacam que os pedidos de revisão da prisão estão sem resposta desde agosto.</p><p>Segundo o portal Metrópoles, a defesa encaminhou ao presidente do STF, ministro Edson Fachin, um novo relatório médico sobre crises recorrentes de diverticulite, inflamação do intestino grosso.</p><p>Elaborado em 28 de outubro pelo coloproctologista Marcos Henrique Rocha Campos, o documento registra internações anteriores e indicação de cirurgia não realizada.</p><p>“Uma complicação da diverticulite considerada muito grave é a perfuração intestinal, caracterizada por dor abdominal extrema com possível endurecimento da parede abdominal, o que exige diagnóstico preciso, rápido e intervenção cirúrgica na maioria dos casos”, escreveu o médico.</p><p>Os advogados sustentam a falta de condições adequadas de tratamento na Penitenciária Nelson Hungria, em Contagem (MG), onde Henrique está preso desde 14 de maio.</p><p>A defesa também relata hipertensão , doença arterial coronariana e um episódio de amnésia, ocorrido em março, com necessidade de internação em unidade de terapia intensiva.</p><p>Além das condições de saúde, os advogados alegam falta de reavaliação da prisão no prazo legal de 90 dias. Segundo a defesa, Henrique está preso “há 172 dias, sem decisão que reexaminasse, com fundamentação atual e individualizada, a necessidade da custódia”.</p><p>Henrique foi preso em maio, durante a sexta fase da Operação Compliance Zero, por determinação do ministro André Mendonça. A Segunda Turma do STF confirmou a medida em junho.</p><p>Segundo a Polícia Federal, Henrique financiava e solicitava serviços de integrantes do grupo conhecido como “ A Turma ”, investigado por ameaças, intimidação de pessoas e obtenção ilegal de informações sigilosas.</p><p>Os representantes de Henrique também admitem a imposição de medidas cautelares alternativas, como restrições determinadas pela Justiça, caso o STF autorize a prisão domiciliar.</p><p>Além disso, pedem o julgamento de um recurso apresentado em 16 de julho contra os fundamentos da prisão.</p><p>Em setembro, a defesa já havia pedido a soltura por excesso de prazo, sob o argumento de prejuízo a Henrique pela paralisação do caso Master no STF.</p><p>Fachin determinou a suspensão dos processos diante de um impasse sobre a relatoria de Mendonça e uma possível investigação contra Alexandre de Moraes, depois de a PF identificar mensagens supostamente enviadas ao ministro por Vorcaro.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/pai-de-vorcaro-volta-a-pedir-soltura-ao-stf-por-problemas-de-saude/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "• A defesa de Henrique Vorcaro voltou a pedir ao STF sua soltura ou prisão domiciliar, alegando agravamento da saúde. • Um relatório médico de 28 de outubro registra crises recorrentes de diverticulite; advogados também apontam pedidos sem resposta desde agosto."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A defesa de Henrique Vorcaro, pai do ex-banqueiro Daniel Vorcaro, voltou a pedir ao Supremo Tribunal Federal (STF), nesta segunda-feira, 2, a revogação de sua prisão preventiva ou a substituição da medida por prisão domiciliar."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Segundo o portal Metrópoles, a defesa encaminhou ao presidente do STF, ministro Edson Fachin, um novo relatório médico sobre crises recorrentes de diverticulite, inflamação do intestino grosso. Elaborado em 28 de outubro pelo coloproctologista Marcos Henrique Rocha Campos, o documento registra internações anteriores e indicação de cirurgia não realizada."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "“Uma complicação da diverticulite considerada muito grave é a perfuração intestinal, caracterizada por dor abdominal extrema com possível endurecimento da parede abdominal, o que exige diagnóstico preciso, rápido e intervenção cirúrgica na maioria dos casos”, escreveu o médico."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os advogados sustentam a falta de condições adequadas de tratamento na Penitenciária Nelson Hungria, em Contagem (MG), onde Henrique está preso desde 14 de maio. A defesa também relata hipertensão , doença arterial coronariana e um episódio de amnésia, ocorrido em março, com necessidade de internação em unidade de terapia intensiva."
-          }
-        ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/05/captura-de-tela-2026-05-14-as-07.26.36.jpg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/pai-de-vorcaro-volta-a-pedir-soltura-ao-stf-por-problemas-de-saude.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/em-abertura-da-rodada-bragantino-vence-santos-pelo-brasileirao",
+      "dataFonte": "2026-11-03T01:08:26.000Z",
+      "resumoFonte": "Com esta vitória, o Massa Bruta chega aos 47 pontos e sobe para a 8ª posição. Com a mesma pontuação o Peixe ocupa a 9ª posição",
+      "imagem": "https://i.metroimg.com/MCk_DtaHATYKwj-SjOnlgUchbw6-sRh18ZJWBhEbJtw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/bragantino-x-santos.jpg",
+      "descobertaEm": "2026-11-03T01:18:40.985Z"
     },
     {
       "id": "5c2fd9d275b4ddbe",
@@ -1069,19 +937,19 @@
       }
     }
   ],
-  "reapuradoEm": "2026-11-03T01:48:52.643Z",
+  "reapuradoEm": "2026-11-03T02:48:57.016Z",
   "diagnosticoReapuracao": {
-    "produzidas": 16,
+    "produzidas": 14,
     "jaProntas": 0,
-    "incompletas": 8,
+    "incompletas": 7,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 16,
+    "geradas": 14,
     "reaproveitadas": 0,
-    "puladas": 8,
+    "puladas": 7,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-03T01:50:36.736Z"
+  "lapisEm": "2026-11-03T02:50:15.270Z"
 }
