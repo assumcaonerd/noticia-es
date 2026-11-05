@@ -228,10 +228,12 @@ async function coletarFonteHtml(fonte) {
       const html = await baixar(rota);
       const links = extrairLinksLista(html, fonte, rota);
       const itens = [];
+      let timeoutsConsecutivosTribuna = 0;
       const limiteDetalhes = fonte.homepage ? 20 : 16;
       for (const link of links.slice(0, limiteDetalhes)) {
         try {
           const pagina = await baixar(link.url);
+          timeoutsConsecutivosTribuna = 0;
           const titulo = limparHtml(meta(pagina, 'og:title') || meta(pagina, 'twitter:title', 'name') || link.tituloLista);
           const resumoFonte = resumir(meta(pagina, 'og:description') || meta(pagina, 'description', 'name') || link.tituloLista);
           const data = extrairData(pagina);
@@ -239,7 +241,21 @@ async function coletarFonteHtml(fonte) {
           if (fonte.filtroTitulo && !fonte.filtroTitulo.test(`${titulo} ${resumoFonte}`)) continue;
           itens.push({ titulo, url: link.url, resumoFonte, data, fonteNome: fonte.nome, categoria: classificarCategoria(titulo, link.url, fonte) });
           if (itens.length >= MAX_POR_FONTE) break;
-        } catch (erro) { console.warn(`[${fonte.nome}] detalhe ignorado: ${erro.message}`); }
+        } catch (erro) {
+          console.warn(`[${fonte.nome}] detalhe ignorado: ${erro.message}`);
+          // Evita que uma fonte lenta consuma toda a janela da coleta.
+          // A alteração fica restrita à capa da Tribuna; outras fontes mantêm o fluxo atual.
+          if (fonte.nome === 'Tribuna Online - Capa' && /timeout|aborted/i.test(String(erro.message))) {
+            timeoutsConsecutivosTribuna++;
+            if (timeoutsConsecutivosTribuna >= 2) {
+              console.warn(`[${fonte.nome}] interrompendo detalhes após 2 timeouts consecutivos.`);
+              if (!itens.length) throw new Error('detalhes indisponíveis após 2 timeouts consecutivos');
+              break;
+            }
+          } else {
+            timeoutsConsecutivosTribuna = 0;
+          }
+        }
       }
       return { itens, rota, fallback: rota !== fonte.url };
     } catch (erro) { erros.push(`${rota} -> ${erro.message}`); }
