@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-05T06:18:30.196Z",
+  "atualizadoEm": "2026-11-05T07:18:33.014Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 90,
+  "novasPautas": 96,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -316,7 +316,7 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 5,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
@@ -376,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-05T06:20:53.656Z",
+    "atualizadoEm": "2026-11-05T07:22:03.636Z",
     "novas": 0,
     "fontes": [
       {
@@ -406,8 +406,8 @@
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-05T06:20:54.851Z",
+    "atualizadoEm": "2026-11-05T07:22:05.120Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-05T06:20:55.675Z",
+    "atualizadoEm": "2026-11-05T07:22:06.155Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-05T06:21:06.255Z",
+    "atualizadoEm": "2026-11-05T07:22:16.744Z",
     "novas": 0,
     "fontes": [
       {
