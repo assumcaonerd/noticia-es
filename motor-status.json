@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-05T03:18:29.685Z",
+  "atualizadoEm": "2026-11-05T04:18:28.641Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 84,
+  "novasPautas": 79,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -198,9 +198,11 @@
     },
     {
       "fonte": "Século Diário",
-      "ok": false,
-      "erro": "https://www.seculodiario.com.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://www.seculodiario.com.br/",
+      "fallback": false
     },
     {
       "fonte": "ES Hoje - Política",
@@ -314,14 +316,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 7,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 11,
+      "encontrados": 12,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -374,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-05T03:20:36.019Z",
+    "atualizadoEm": "2026-11-05T04:21:06.646Z",
     "novas": 0,
     "fontes": [
       {
@@ -395,12 +397,12 @@
       {
         "fonte": "YouTube Polícia Civil ES",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube PM Ambiental ES",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube Bombeiros ES",
@@ -409,8 +411,8 @@
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 1
       },
       {
         "fonte": "X Governo ES",
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-05T03:20:37.103Z",
+    "atualizadoEm": "2026-11-05T04:21:08.067Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-05T03:20:37.958Z",
+    "atualizadoEm": "2026-11-05T04:21:08.962Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-05T03:20:48.537Z",
+    "atualizadoEm": "2026-11-05T04:21:19.521Z",
     "novas": 0,
     "fontes": [
       {
