@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-06T01:18:46.089Z",
+  "atualizadoEm": "2026-11-06T02:18:44.490Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 85,
+  "novasPautas": 86,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -316,7 +316,7 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 4,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
@@ -376,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-06T01:21:53.921Z",
+    "atualizadoEm": "2026-11-06T02:22:33.572Z",
     "novas": 0,
     "fontes": [
       {
@@ -387,7 +387,7 @@
       {
         "fonte": "YouTube Folha Vitória",
         "ok": false,
-        "erro": "500 Internal Server Error"
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES",
@@ -401,8 +401,8 @@
       },
       {
         "fonte": "YouTube PM Ambiental ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Bombeiros ES",
@@ -411,8 +411,8 @@
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": true,
-        "encontrados": 1
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "X Governo ES",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-06T01:21:55.492Z",
+    "atualizadoEm": "2026-11-06T02:22:35.381Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-06T01:21:56.539Z",
+    "atualizadoEm": "2026-11-06T02:22:36.543Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-06T01:22:07.089Z",
+    "atualizadoEm": "2026-11-06T02:22:47.120Z",
     "novas": 0,
     "fontes": [
       {
