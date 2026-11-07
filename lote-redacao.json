@@ -1,122 +1,62 @@
 {
-  "geradoEm": "2026-11-07T14:48:38.343Z",
+  "geradoEm": "2026-11-07T15:48:31.842Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
-    "bloqueadas": 1,
-    "bloqueadasEditoriais": 1,
+    "bloqueadas": 3,
+    "bloqueadasEditoriais": 0,
     "semImagem": 0,
-    "duplicadasBasicas": 7,
+    "duplicadasBasicas": 3,
     "duplicadasSemanticas": 5,
-    "foraCategorias": 46
+    "foraCategorias": 42
   },
-  "quantidadeCandidatas": 20,
+  "quantidadeCandidatas": 27,
   "candidatas": [
     {
-      "id": "8314b4ca5b659a96",
-      "titulo": "Lula segue inspirando esquerda francesa, mas comparação com Mélenchon encontra limites pragmáticos",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://noticias.uol.com.br/ultimas-noticias/rfi/2026/11/07/lula-segue-inspirando-esquerda-francesa-mas-comparacao-com-melenchon-encontra-limites-pragmaticos.htm",
-      "dataFonte": "2026-11-07T12:05:31.000Z",
-      "resumoFonte": "vitória de Luiz Inácio Lula da Silva na eleição presidencial brasileira voltou ao centro do debate político francês nesta semana. Em reportagens publicadas pelas revistas Le Point e L'Obs, o preside...",
-      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
-      "descobertaEm": "2026-11-07T12:18:23.923Z"
-    },
-    {
-      "id": "a8046e6c0906156b",
-      "titulo": "Adolescente de 16 anos é morto a tiros em conjunto habitacional em Linhares",
+      "id": "ae06a0a23f4473bb",
+      "titulo": "Homem é esfaqueado e vai sozinho até UPA na Serra",
       "categoria": "Segurança Pública",
       "radar": null,
       "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/adolescente-de-16-anos-e-morto-a-tiros-em-conjunto-habitacional-em-linhares-1126",
-      "dataFonte": "2026-11-07T13:20:18.000Z",
-      "resumoFonte": "Samu/192 constatou a morte da vítima, identificada como John Lennon Alves do Nascimento Guilhermino, no local do crime",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1794055538924_template_radar_a_gazeta.png",
-      "descobertaEm": "2026-11-07T14:18:40.001Z"
+      "urlFonte": "https://www.agazeta.com.br/agora/homem-e-esfaqueado-e-vai-sozinho-ate-upa-na-serra-1126",
+      "dataFonte": "2026-11-07T15:27:58.000Z",
+      "resumoFonte": "Vítima não soube informar autoria ou motivação para o crime",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1775078745917_2019_12_13_unidade_de_pronto_atendimento_upa_de_castelandia_146516_article.jpeg",
+      "descobertaEm": "2026-11-07T15:43:49.491Z"
     },
     {
-      "id": "3df7fd75d9c9bb5e",
-      "titulo": "Aviação do Exército investe em tecnologia para preparar tripulações",
+      "id": "b9f9521cd6e6fbfa",
+      "titulo": "Ex-presidente do Paraguai Santiago Peña presta depoimento após prisão",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-governo/aviacao-do-exercito-investe-em-tecnologia-para-preparar-tripulacoes/",
-      "dataFonte": "2026-11-07T14:18:55.000Z",
-      "resumoFonte": "Treinamento reproduz situações de combate em ambientes virtuais",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/comando-do-exercito-1200x675.jpeg",
-      "descobertaEm": "2026-11-07T14:18:40.001Z",
-      "reportagem": {
-        "titulo": "Aviação do Exército investe em tecnologia para preparar tripulações",
-        "slug": "aviacao-do-exercito-investe-em-tecnologia-para-preparar-tripulacoes",
-        "categoria": "Política Nacional",
-        "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/aviacao-do-exercito-investe-em-tecnologia-para-preparar-tripulacoes.jpg",
-        "resumo": "Treinamento reproduz situações de combate em ambientes virtuais para o desenvolvimento de competências individuais e coletivas",
-        "conteudo": "<p>Treinamento reproduz situações de combate em ambientes virtuais</p><h2>O contexto do cenário político</h2><p>O Exército Brasileiro, por meio do Comando de Aviação do Exército, realizou um exercício-piloto de adestramento tático com amplo emprego de simuladores de voo nas instalações da Divisão de Simulação do Centro de Instrução de Aviação do Exército (CIAvEx), em Taubaté (SP).</p><p>A atividade representa um avanço na integração de tecnologias de simulação ao preparo operacional da Aviação do Exército .</p><p>Possibilita o treinamento de tripulações em cenários virtuais que reproduzem, com elevado grau de realismo, as condições, as ameaças e os desafios dos conflitos contemporâneos.</p><h2>Detalhes e consequências do caso</h2><p>A iniciativa contribui para o desenvolvimento de capacidades operacionais, o aperfeiçoamento dos recursos humanos e a incorporação de soluções tecnológicas voltadas ao emprego eficiente do poder de combate da Força Terrestre.</p><p>Durante o exercício, tripulações do 3º BAvEx (Batalhão de Aviação do Exército) e integrantes da Esquadrilha de Sistemas de Aeronaves Remotamente Pilotada, do 1º BAvEx, executaram habilitações táticas relevantes ao cumprimento das missões da Aviação do Exército.</p><p>O principal diferencial da atividade foi a possibilidade de reproduzir situações operacionais de elevada complexidade, aproximando o treinamento virtual das condições encontradas em um ambiente de combate.</p><p>Os cenários permitiram explorar diferentes variáveis do campo de batalha, exigindo das tripulações conhecimentos técnicos, consciência situacional, coordenação, flexibilidade e capacidade de decisão sob pressão.</p><p>Os ambientes simulados contemplaram ameaças aéreas, incluindo enxames de drones e aeronaves inimigas, ameaças terrestres e sistemas de defesa antiaérea.</p><p>Também abrangeram condições meteorológicas adversas e desafios de navegação em terrenos digitalmente reproduzidos com elevado nível de fidelidade.</p><p>A diversidade dos cenários favoreceu o desenvolvimento de competências individuais e coletivas. A metodologia ganha relevância diante da evolução dos conflitos armados, caracterizados pelo emprego crescente de sistemas não tripulados e pela disseminação de novas tecnologias.</p><p>A incorporação de ambientes virtuais ao treinamento representa, também, uma oportunidade para impulsionar o desenvolvimento tecnológico e ampliar a capacidade de inovação da Aviação do Exército.</p><p>A utilização de simuladores avançados permite explorar novas metodologias de instrução, aperfeiçoar ferramentas de treinamento e avaliar soluções que contribuam para a evolução das capacidades militares.</p><p>A integração entre simulação de voo, sistemas de aeronaves remotamente pilotadas e cenários táticos digitais favorece uma abordagem de preparo alinhada às transformações do campo de batalha.</p><p>Contribui ainda para o desenvolvimento de competências relacionadas ao emprego de novas tecnologias, à adaptação a diferentes situações operacionais e à interoperabilidade entre meios e elementos da Força Terrestre.</p><p>Além disso, a experiência obtida durante o exercício-piloto pode ajudar no aperfeiçoamento dos processos de instrução e treinamento, contribuindo para identificar necessidades de atualização tecnológica e oportunidades de evolução dos recursos de simulação.</p><p>O emprego de aviões da Aviação do Exército materializa a versatilidade da Força Terrestre, contribuindo tanto para as operações militares quanto para as ações de apoio à sociedade.</p><p>A preparação das tripulações deve, portanto, contemplar as diferentes possibilidades de emprego dos meios aéreos, em consonância com as capacidades da Força e com as necessidades de cada missão.</p><p>Na vertente Braço Forte , o aprimoramento do adestramento tático fortalece a capacidade de a Aviação do Exército proporcionar mobilidade, ampliar o alcance das operações terrestres e apoiar o emprego da tropa em situações que exigem rapidez, flexibilidade e integração entre diferentes meios.</p><p>O treinamento em cenários de elevada complexidade contribui para preparar as tripulações para atuar em ambientes contestados e responder às exigências dos conflitos contemporâneos, em apoio ao cumprimento das missões constitucionais da Força Terrestre.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-governo/aviacao-do-exercito-investe-em-tecnologia-para-preparar-tripulacoes/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Treinamento reproduz situações de combate em ambientes virtuais"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Exército Brasileiro, por meio do Comando de Aviação do Exército, realizou um exercício-piloto de adestramento tático com amplo emprego de simuladores de voo nas instalações da Divisão de Simulação do Centro de Instrução de Aviação do Exército (CIAvEx), em Taubaté (SP)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A atividade representa um avanço na integração de tecnologias de simulação ao preparo operacional da Aviação do Exército . Possibilita o treinamento de tripulações em cenários virtuais que reproduzem, com elevado grau de realismo, as condições, as ameaças e os desafios dos conflitos contemporâneos."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A iniciativa contribui para o desenvolvimento de capacidades operacionais, o aperfeiçoamento dos recursos humanos e a incorporação de soluções tecnológicas voltadas ao emprego eficiente do poder de combate da Força Terrestre."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Durante o exercício, tripulações do 3º BAvEx (Batalhão de Aviação do Exército) e integrantes da Esquadrilha de Sistemas de Aeronaves Remotamente Pilotada, do 1º BAvEx, executaram habilitações táticas relevantes ao cumprimento das missões da Aviação do Exército."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/comando-do-exercito-1200x675.jpeg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/aviacao-do-exercito-investe-em-tecnologia-para-preparar-tripulacoes.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/mundo/ex-presidente-do-paraguai-santiago-pena-presta-depoimento-apos-prisao",
+      "dataFonte": "2026-11-07T15:21:21.000Z",
+      "resumoFonte": "Destituído do cargo após sofrer impeachment no Senado, político é investigado por corrupção, lavagem de dinheiro e fraude no Ueno Bank.",
+      "imagem": "https://i.metroimg.com/gQQhJh6Un2hyvYIXNwtvPE4HvyWSvrRYL01JVbtlUvk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/pena-fiscalia-7112026.jpg",
+      "descobertaEm": "2026-11-07T15:43:49.491Z"
     },
     {
-      "id": "f239eb61cb69be34",
-      "titulo": "Nubank normaliza operações com criptomoedas após falha em fornecedor externo",
+      "id": "8882862cf2512e0b",
+      "titulo": "Ueno Bank, do Paraguai, patrocinou evento de extrema direita com Eduardo Bolsonaro nos EUA",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/onde-investir/nubank-normaliza-saques-depositos-criptomoedas/",
-      "dataFonte": "2026-11-07T14:15:24.000Z",
-      "resumoFonte": "Saques e depósitos foram restabelecidos na noite de sexta-feira (6); banco afirma que ativos e informações dos clientes permaneceram protegidos The post Nubank normaliza operações com criptomoedas após falha em fornecedor externo appeared first on InfoMoney .",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2023/08/nucoin.jpeg?fit=820%2C430&quality=70&strip=all",
-      "descobertaEm": "2026-11-07T14:18:40.001Z",
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/mundo/ueno-bank-do-paraguai-patrocinou-evento-de-extrema-direita-com-eduardo-bolsonaro-nos-eua/",
+      "dataFonte": "2026-11-07T15:29:59.000Z",
+      "resumoFonte": "No centro de uma crise que abalou o governo de Santiago Peña, banco paraguaio financiou reunião de lideranças conservadoras da América Latina",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/instagram-eduardo-bolsonaro-evento-ueno-bank.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-11-07T15:43:49.491Z",
       "reportagem": {
-        "titulo": "Nubank normaliza operações com criptomoedas após falha em fornecedor externo",
-        "slug": "nubank-normaliza-operacoes-com-criptomoedas-apos-falha-em-fornecedor-externo",
+        "titulo": "Ueno Bank, do Paraguai, patrocinou evento de extrema direita com Eduardo Bolsonaro nos EUA",
+        "slug": "ueno-bank-do-paraguai-patrocinou-evento-de-extrema-direita-com-eduardo-bolsonaro-nos-eua",
         "categoria": "Economia",
         "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/nubank-normaliza-operacoes-com-criptomoedas-apos-falha-em-fornecedor-externo.jpg",
-        "resumo": "Nubank restabelece saques e depósitos de criptomoedas após falha em fornecedor externo. Banco afirma que ativos dos clientes permaneceram protegidos.",
-        "conteudo": "<p>O Nubank informou que normalizou as operações de saques e depósitos de criptomoedas em sua plataforma desde as 22h desta sexta-feira (6), após uma instabilidade em um fornecedor externo de dados.</p><h2>Dados e contexto do setor</h2><p>Em nota, o banco digital afirmou que “a instabilidade em um fornecedor externo de dados não afetou sua infraestrutura, e os ativos e as informações dos clientes permaneceram protegidos”.</p><p>A instituição não informou qual prestadora de serviços apresentou o problema.</p><p>Setor perde força política em Washington e enfrenta risco de regras mais rígidas, investigações sobre negócios da família Trump e novos obstáculos à regulamentação</p><h2>Impactos e informações adicionais</h2><p>A normalização ocorre após o Nubank e o Mercado Pago suspenderem transferências de criptomoedas na sexta-feira , em meio a uma sequência de turbulências no setor de ativos digitais.</p><p>Na ocasião, o Nubank explicou que a interrupção havia sido provocada por uma instabilidade em um fornecedor externo de dados, sem comprometimento dos ativos dos clientes.</p><p>O Mercado Pago também confirmou problemas nas transferências de criptoativos, atribuídos a um incidente envolvendo um fornecedor de monitoramento de riscos e prevenção à lavagem de dinheiro.</p><p>Segundo a instituição, parte das transferências para carteiras externas foi bloqueada preventivamente, enquanto as operações de compra e venda de criptomoedas continuaram funcionando normalmente.</p><p>Até o momento, não há confirmação de que o Mercado Pago tenha restabelecido os serviços afetados.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/onde-investir/nubank-normaliza-saques-depositos-criptomoedas/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/ueno-bank-do-paraguai-patrocinou-evento-de-extrema-direita-com-eduardo-bolsonaro-nos-eua.jpg",
+        "resumo": "No centro de uma crise que abalou o governo de Santiago Peña, banco paraguaio financiou reunião de lideranças conservadoras da América Latina",
+        "conteudo": "<p>O Ueno Bank , institui&ccedil;&atilde;o financeira paraguaia que se tornou o epicentro de uma crise pol&iacute;tica e econ&ocirc;mica no pa&iacute;s, foi um dos patrocinadores de um evento da extrema direita realizado em 10 de fevereiro deste ano em Mar-a-Lago, clube do presidente americano Donald Trump , em Palm Beach, na Fl&oacute;rida.</p><h2>Dados e contexto do setor</h2><p>A gala, batizada de Hispanic Prosperity Gala 2026 , teve Eduardo Bolsonaro entre os palestrantes e reuniu nomes da direita latino-americana e americana.</p><p>O banco patrocinou a categoria Diamond, com uma contribui&ccedil;&atilde;o de 100 000 d&oacute;lares, segundo informa&ccedil;&otilde;es divulgadas pela imprensa paraguaia.</p><p>O encontro foi organizado por grupos ligados &agrave; comunidade conservadora hisp&acirc;nica e teve como proposta celebrar valores associados ao trumpismo.</p><h2>Impactos e informações adicionais</h2><p>Entre os nomes anunciados estavam o presidente argentino Javier Milei, o ex-deputado brasileiro Eduardo Bolsonaro, a pol&iacute;tica peruana Keiko Fujimori, o ent&atilde;o secret&aacute;rio de Sa&uacute;de americano Robert F.</p><p>Kennedy Jr. e o ex-jogador Ronaldinho Ga&uacute;cho. Milei, anunciado como convidado de honra e principal palestrante, n&atilde;o compareceu presencialmente: enviou uma grava&ccedil;&atilde;o em v&iacute;deo exibida durante a programa&ccedil;&atilde;o.</p><p>Eduardo Bolsonaro tamb&eacute;m constou entre os participantes anunciados. Os ingressos VIP para entrar no evento chegaram a custar 5 000 d&oacute;lares.</p><p>Um dos homenageados da noite foi o argentino Fernando Cerimedo, que recebeu o pr&ecirc;mio de consultor pol&iacute;tico hisp&acirc;nico do ano.</p><p>Ele &eacute; conhecido por sua atua&ccedil;&atilde;o &agrave; frente do portal La Derecha Diario , apontado como parte de uma rede de dissemina&ccedil;&atilde;o de desinforma&ccedil;&atilde;o com influ&ecirc;ncia em pa&iacute;ses latino-americanos.</p><p>Em 2022, Cerimedo promoveu uma transmiss&atilde;o com alega&ccedil;&otilde;es falsas sobre as urnas eletr&ocirc;nicas brasileiras, posteriormente utilizadas por apoiadores de Jair Bolsonaro para alimentar suspeitas infundadas de fraude eleitoral.</p><p>Argumentos apresentados por ele tamb&eacute;m apareceram em um relat&oacute;rio produzido pelo PL (Partido Liberal) que questionava a validade de votos de urnas anteriores ao modelo de 2020.</p><p>Em 2024, o argentino foi indiciado pela Pol&iacute;cia Federal no inqu&eacute;rito sobre a tentativa de golpe de Estado no Brasil, mas n&atilde;o chegou a ser denunciado pela Procuradoria-Geral da Rep&uacute;blica.</p><p>Pr&oacute;ximo de Eduardo Bolsonaro, Cerimedo est&aacute; atualmente preso na Bol&iacute;via, acusado de tentativa de feminic&iacute;dio. O La Derecha Diario tamb&eacute;m participou da organiza&ccedil;&atilde;o da gala.</p><p>A participa&ccedil;&atilde;o financeira do Ueno Bank no encontro foi divulgada pelo jornal paraguaio ABC Color , que identificou a institui&ccedil;&atilde;o como uma das patrocinadoras da categoria Diamond.</p><p>As publica&ccedil;&otilde;es dos organizadores no X (antigo Twitter) que anunciavam o apoio do banco deixaram de estar dispon&iacute;veis, assim como a rela&ccedil;&atilde;o de financiadores que aparecia no site oficial do evento.</p><p>Registros das informa&ccedil;&otilde;es, por&eacute;m, continuaram circulando em p&aacute;ginas do Instagram e do Facebook.</p><p>A liga&ccedil;&atilde;o entre o banco e o encontro foi inicialmente noticiada pelo site argentino Chequeado .</p><p>A revela&ccedil;&atilde;o ganha relev&acirc;ncia diante da crise que atingiu a institui&ccedil;&atilde;o financeira e provocou consequ&ecirc;ncias diretas na pol&iacute;tica paraguaia.</p><p>Em 11 de fevereiro, Eduardo Bolsonaro publicou um carrossel de fotos do evento e, em uma delas, ele aparece com o backdrop onde consta as marcas patrocion</p><p>O Ueno Bank foi alvo de interven&ccedil;&atilde;o do Banco Central do Paraguai na segunda-feira, 2, depois que a autoridade monet&aacute;ria identificou o descumprimento de exig&ecirc;ncias m&iacute;nimas de solv&ecirc;ncia.</p><p>A institui&ccedil;&atilde;o administrava aproximadamente 850 milh&otilde;es de d&oacute;lares em recursos p&uacute;blicos e tinha cerca de 2,9 milh&otilde;es de clientes &mdash; quase metade da popula&ccedil;&atilde;o do pa&iacute;s, estimada em 6,4 milh&otilde;es de habitantes.</p><p>A medida provocou corridas &agrave;s ag&ecirc;ncias, com correntistas tentando recuperar suas economias, al&eacute;m de protestos em Assun&ccedil;&atilde;o.</p><p>O epis&oacute;dio tamb&eacute;m levou &agrave; ren&uacute;ncia do presidente do Banco Central, Carlos Carvallo.</p><p>A crise financeira teve desdobramentos no alto escal&atilde;o do governo. Santiago Pe&ntilde;a, que foi acionista da Ueno Holding, empresa ligada ao Grupo V&aacute;zquez, principal acionista do Ueno Bank, deixou a holding em mar&ccedil;o de 2025.</p><p>Na sexta-feira, 6 de novembro, ap&oacute;s enfrentar um processo de impeachment, o presidente foi preso, segundo as informa&ccedil;&otilde;es fornecidas.</p><p>Pe&ntilde;a havia tentado renunciar ao cargo, mas o Congresso n&atilde;o chegou a analisar o pedido por falta de qu&oacute;rum.</p><p>O caso amplia a press&atilde;o sobre as rela&ccedil;&otilde;es entre o sistema financeiro paraguaio e o poder pol&iacute;tico, em meio a suspeitas de irregularidades e &agrave; preocupa&ccedil;&atilde;o de milh&otilde;es de correntistas com o destino de seus recursos.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/mundo/ueno-bank-do-paraguai-patrocinou-evento-de-extrema-direita-com-eduardo-bolsonaro-nos-eua/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil Economia",
@@ -131,52 +71,112 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O Nubank informou que normalizou as operações de saques e depósitos de criptomoedas em sua plataforma desde as 22h desta sexta-feira (6), após uma instabilidade em um fornecedor externo de dados."
+            "resposta": "O Ueno Bank , institui&ccedil;&atilde;o financeira paraguaia que se tornou o epicentro de uma crise pol&iacute;tica e econ&ocirc;mica no pa&iacute;s, foi um dos patrocinadores de um evento da extrema direita realizado em 10 de fevereiro deste ano em Mar-a-Lago, clube do presidente americano Donald Trump , em Palm Beach, na Fl&oacute;rida."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Em nota, o banco digital afirmou que “a instabilidade em um fornecedor externo de dados não afetou sua infraestrutura, e os ativos e as informações dos clientes permaneceram protegidos”."
+            "resposta": "O encontro foi organizado por grupos ligados &agrave; comunidade conservadora hisp&acirc;nica e teve como proposta celebrar valores associados ao trumpismo."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A instituição não informou qual prestadora de serviços apresentou o problema."
+            "resposta": "Um dos homenageados da noite foi o argentino Fernando Cerimedo, que recebeu o pr&ecirc;mio de consultor pol&iacute;tico hisp&acirc;nico do ano."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Setor perde força política em Washington e enfrenta risco de regras mais rígidas, investigações sobre negócios da família Trump e novos obstáculos à regulamentação"
+            "resposta": "Argumentos apresentados por ele tamb&eacute;m apareceram em um relat&oacute;rio produzido pelo PL (Partido Liberal) que questionava a validade de votos de urnas anteriores ao modelo de 2020."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A normalização ocorre após o Nubank e o Mercado Pago suspenderem transferências de criptomoedas na sexta-feira , em meio a uma sequência de turbulências no setor de ativos digitais."
+            "resposta": "A participa&ccedil;&atilde;o financeira do Ueno Bank no encontro foi divulgada pelo jornal paraguaio ABC Color , que identificou a institui&ccedil;&atilde;o como uma das patrocinadoras da categoria Diamond."
           }
         ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2023/08/nucoin.jpeg?fit=820%2C430&quality=70&strip=all",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/nubank-normaliza-operacoes-com-criptomoedas-apos-falha-em-fornecedor-externo.jpg",
+        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/11/instagram-eduardo-bolsonaro-evento-ueno-bank.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/ueno-bank-do-paraguai-patrocinou-evento-de-extrema-direita-com-eduardo-bolsonaro-nos-eua.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "6e9dcd63e5e247c9",
-      "titulo": "Thizil, dupla de Mario, é internado após acidente grave que matou mulher",
+      "id": "3b9dbd2605955bca",
+      "titulo": "Incêndio destrói apartamento e deixa feridos graves em prédio na Serra",
+      "categoria": "Cidades",
+      "radar": null,
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/es/cotidiano/incendio-destroi-apartamento-e-deixa-feridos-graves-em-predio-na-serra-1126",
+      "dataFonte": "2026-11-07T15:14:30.000Z",
+      "resumoFonte": "Dois homens foram socorridos em estado grave; três moradores de outros imóveis também precisaram de atendimento",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1794063522330_copia_de_template_radar_a_gazeta.png",
+      "descobertaEm": "2026-11-07T15:18:25.842Z",
+      "reportagem": {
+        "titulo": "Incêndio destrói apartamento e deixa feridos graves em prédio na Serra",
+        "slug": "incendio-destroi-apartamento-e-deixa-feridos-graves-em-predio-na-serra",
+        "categoria": "Cidades",
+        "data": "2026-11-07",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/incendio-destroi-apartamento-e-deixa-feridos-graves-em-predio-na-serra.jpg",
+        "resumo": "Dois homens foram socorridos em estado grave; três moradores de outros imóveis também precisaram de atendimento",
+        "conteudo": "<p>Um incêndio destruiu um apartamento no bairro Colina de Laranjeiras, na Serra, na madrugada deste sábado (7). As chamas tiveram início por volta das 5h e, segundo testemunhas, enquanto o prédio era evacuado, o morador do apartamento 504 foi encontrado ferido por queimaduras.</p><h2>Dados e informações dos municípios</h2><p>Apesar das chamas, ele conseguiu descer as escadas sozinho, mas devido à gravidade dos ferimentos, foi socorrido por uma vizinha, que o levou de carro ao Hospital Jayme Santos Neves.</p><p>Ele teria sido internado na Unidade de Terapia Intensiva (UTI), conforme apuração do repórter André Afonso, da TV Gazeta .</p><p>Enquanto estava sendo socorrido, o morador contou para as vizinhas que havia um outro homem no apartamento com ele, que não conseguiu sair sozinho.</p><h2>Contexto e diferenças locais</h2><p>Ele foi resgatado inconsciente, do quarto principal, pelo Corpo de Bombeiros Militar, que conseguiu extinguir as chamas por volta das 7h.</p><p>Moradores do condomínio Recreio das Palmeiras relataram que ele teve algumas paradas cardíacas e precisou ser reanimado antes de também ser levado ao Hospital Jayme Santos Neves pelas equipes de socorro. O estado de saúde é gravíssimo.</p><p>Segundo o Corpo de Bombeiros, as chamas danificaram completamente o imóvel . Após o combate e controle do incêndio, foram realizadas buscas em outros apartamentos, indicados pelos moradores, sendo resgatados duas moradoras de outros dois imóveis no quinto andar e um morador em um apartamento no oitavo andar.</p><p>“Por ter sido encontrada uma vítima inconsciente, a perícia da Polícia Científica foi acionada. A síndica foi orientada a acionar a Defesa Civil Municipal para avaliar os danos estruturais.</p><p>O quinto andar foi totalmente interditado com fita zebrada e moradores foram orientados a não adentrar o local até que o corredor estivesse totalmente resfriado.”</p><p>Ao longo da manhã, quem mora em outros andares conseguiu retornar para abrir as janelas e recuperar alguns pertences, mas os moradores do quinto andar receberam nova recomendação, para aguardar a avaliação da Defesa Civil, que chegou por volta das 10h.</p><p>As causas do incêndio ainda serão investigadas. A Polícia Científica informou, por volta das 11h, que estava em deslocamento para o local a fim de realizar a perícia.</p>",
+        "fonteNome": "A Gazeta - Capa",
+        "fonteUrl": "https://www.agazeta.com.br/es/cotidiano/incendio-destroi-apartamento-e-deixa-feridos-graves-em-predio-na-serra-1126",
+        "fontesAdicionais": [
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          },
+          {
+            "nome": "Tribuna Online",
+            "url": "https://tribunaonline.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Um incêndio destruiu um apartamento no bairro Colina de Laranjeiras, na Serra, na madrugada deste sábado (7). As chamas tiveram início por volta das 5h e, segundo testemunhas, enquanto o prédio era evacuado, o morador do apartamento 504 foi encontrado ferido por queimaduras."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Apesar das chamas, ele conseguiu descer as escadas sozinho, mas devido à gravidade dos ferimentos, foi socorrido por uma vizinha, que o levou de carro ao Hospital Jayme Santos Neves. Ele teria sido internado na Unidade de Terapia Intensiva (UTI), conforme apuração do repórter André Afonso, da TV Gazeta ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Enquanto estava sendo socorrido, o morador contou para as vizinhas que havia um outro homem no apartamento com ele, que não conseguiu sair sozinho. Ele foi resgatado inconsciente, do quarto principal, pelo Corpo de Bombeiros Militar, que conseguiu extinguir as chamas por volta das 7h."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Moradores do condomínio Recreio das Palmeiras relataram que ele teve algumas paradas cardíacas e precisou ser reanimado antes de também ser levado ao Hospital Jayme Santos Neves pelas equipes de socorro. O estado de saúde é gravíssimo."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Segundo o Corpo de Bombeiros, as chamas danificaram completamente o imóvel . Após o combate e controle do incêndio, foram realizadas buscas em outros apartamentos, indicados pelos moradores, sendo resgatados duas moradoras de outros dois imóveis no quinto andar e um morador em um apartamento no oitavo andar. Eles foram atendidos pelo Samu."
+          }
+        ],
+        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1794063522330_copia_de_template_radar_a_gazeta.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/incendio-destroi-apartamento-e-deixa-feridos-graves-em-predio-na-serra.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "64891e42ef251aff",
+      "titulo": "A escritora brasileira que virou sensação com romance sobre os neandertais: 'Já tive empregos horríveis, estar no meu quarto escrevendo é libertador'",
       "categoria": "Cultura",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/celebridades/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher",
-      "dataFonte": "2026-11-07T13:09:03.000Z",
-      "resumoFonte": "O cantor sertanejo Thizil, da dupla com Mario, está internado com quatro fraturas após a caminhonete em que viajava colidir com outro carro",
-      "imagem": "https://i.metroimg.com/6YVOW4TMnNUFyf4YgltQuWWnfXMy0cO3jINk6Q4blhw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/thizil-da-dupla-com-mario-ficou-ferido-em-acidente-na-br-070-em-goias.jpg",
-      "descobertaEm": "2026-11-07T13:18:43.230Z",
+      "fonteNome": "BBC Brasil",
+      "urlFonte": "https://www.bbc.com/portuguese/articles/cwm24k534kr4o?at_medium=RSS&at_campaign=rss",
+      "dataFonte": "2026-11-07T14:52:29.000Z",
+      "resumoFonte": "Escritora de Brasília (DF) lançou neste ano \"Os Imortais\", livro sobre um grupo de neandertais e seu encontro com os homo sapiens e a luta pela sobrevivência que se tornou um dos destaques de 2026 e tem traduções previstas para vários países.",
+      "imagem": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/29a5/live/bef41990-d3d1-11f1-9c32-1532a6164171.jpg",
+      "descobertaEm": "2026-11-07T15:18:25.842Z",
       "reportagem": {
-        "titulo": "Thizil, dupla de Mario, é internado após acidente grave que matou mulher",
-        "slug": "thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher",
+        "titulo": "Paulliny Tort: a escritora brasileira que virou sensação com romance sobre os neandertais: 'Já tive empregos horríveis, estar no meu quarto escrevendo é libertador'",
+        "slug": "paulliny-tort-a-escritora-brasileira-que-virou-sensacao-com-romance-sobre-os-neandertais-j",
         "categoria": "Cultura",
         "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher.jpg",
-        "resumo": "O cantor sertanejo Thizil, da dupla com Mario, está internado com quatro fraturas após a caminhonete em que viajava colidir com outro carro",
-        "conteudo": "<p>O cantor sertanejo Thizil , da dupla com Mario, sofreu um acidente de trânsito durante uma viagem a Querência (MT), onde faria um show neste sábado (7/11).</p><h2>As informações principais do assunto</h2><p>A colisão ocorreu na tarde de sexta-feira (6/11), na BR-070, próximo ao município de Jussara (GO). Uma mulher que estava no outro veículo morreu no local.</p><p>O artista viajava em uma caminhonete com dois músicos da banda e o filho quando o veículo bateu contra outro carro na rodovia.</p><p>Segundo Mario, Thizil foi socorrido e transferido para o Hospital Estadual de Anápolis, onde permanece internado. Ele sofreu três fraturas no pé e outra na perna e deverá passar por uma cirurgia.</p><h2>Contexto e informações complementares</h2><p>Mario e Thizil cancelaram a apresentação que fariam em Querência (MT), neste sábado (7/11)</p><p>Thizil sofreu quatro fraturas e deverá passar por cirurgia em Anápolis (GO)</p><p>Thizil, da dupla com Mario, está internado após acidente na BR-070</p><p>Acidente de trânsito: a colisão entre dois veículos na BR-070, próximo a Jussara (GO), resultou na morte de uma mulher na sexta-feira (6/11); Estado do cantor: Thizil sofreu fraturas no pé e na perna e está internado no Hospital Estadual de Anápolis para cirurgia; Relato do parceiro: segundo Mario, ouvido pelo Metrópoles , o acidente ocorreu durante uma ultrapassagem de um terceiro veículo na rodovia; Estado dos envolvidos: o filho do cantor recebeu alta, um músico segue internado em estado estável e outro não se feriu.</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/celebridades/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/paulliny-tort-a-escritora-brasileira-que-virou-sensacao-com-romance-sobre-os-neandertais-j.jpg",
+        "resumo": "Escritora de Brasília (DF) lançou neste ano &quot;Os Imortais&quot;, livro sobre um grupo de neandertais e seu encontro com os homo sapiens e a luta pela sobrevivência que se tornou um dos destaques de 2026 e tem traduções previstas para vários países.",
+        "conteudo": "<p>Nos círculos literários brasileiros, 2026 é o ano de Os Imortais , da escritora brasiliense Paulliny Tort.</p><h2>As informações principais do assunto</h2><p>O livro acaba de ganhar o Prêmio Literário Biblioteca Nacional e vai ser adaptado para as telas pelo produtor cinematográfico Rodrigo Teixeira , do vencedor do Oscar Ainda Estou Aqui .</p><p>O título foi lançado em março pela Fósforo Editora e já está na sexta reimpressão. Foi um dos mais vendidos na Flip (Festa Literária Internacional de Paraty) desta última edição.</p><p>Traduções para o inglês, espanhol, francês e até polonês já estão previstas para o mercado internacional em breve.</p><h2>Contexto e informações complementares</h2><p>Há um elemento surpreendente no êxito de um romance que é passado cerca de 50 mil anos atrás, conta os dramas de sobrevivência e as relações dentro de um grupo de neandertais e que carrega no texto palavras incomuns como &quot;sanga&quot; (um tipo de córrego), &quot;epícea&quot; (espécie de árvore) e &quot;auroque&quot; (um antepassado extinto do boi).</p><p>(Os neandertais, embora tenham uma imagem popular como extremamente primitivos, são considerados próximos dos homo sapiens em termos evolutivos e de inteligência.</p><p>E as duas espécies humanas chegaram a dividir o mesmo espaço por alguns milênios, numa convivência muitas vezes tensa e violenta.)</p><p>Paulliny Tort tem 47 anos e demorou para se tornar escritora em tempo integral. &quot;Fui uma autora relativamente tardia. Comecei a publicar aos 37 anos, porque, primeiro, tinha uma autocrítica um pouco paralisante&quot;.</p><p>Antes disso, conta que trabalhou como secretária e recepcionista, incluindo alguns serviços eventuais de faxina, e vendeu pão integral e samosa (uma espécie de pastel indiano) para se sustentar (&quot;tenho algo de empreendedora&quot;).</p><p>Tort (sobrenome da família catalã do marido) se formou em jornalismo, trabalhou na área por 14 anos, e também cursou — sem chegar a completar — Engenharia Florestal, Oceanografia e Ciências Biológicas, reflexo de seu interesse por estudar a natureza e o meio ambiente.</p><p>Seus dois livros anteriores foram o romance Allegro Ma Non Troppo e a reunião de contos Erva Brava (que tem uma de suas histórias baseada em uma reportagem da BBC News Brasil sobre mortes em silos de grãos).</p><p>Veja notícias do Brasil e do mundo no BBC World Service</p><p>Para Os Imortais , ela chegou a escrever sob jejum para tentar entender as privações do clã neandertal: &quot;Te dá um estado de consciência muito específico&quot;.</p><p>A escritora falou com a BBC News Brasil durante uma passagem por São Paulo. A entrevista foi editada para maior concisão e compreensão.</p><p>BBC News Brasil - Como foi o seu primeiro contato com a literatura?</p><p>Paulliny Tort - Sou uma leitora que começou a ler muito cedo. Cresci numa casa só de mulheres: eu, a minha mãe e minha avó. E com poucos recursos.</p><p>A gente quase nunca viajava, mas a minha família era uma família de leitoras. A minha mãe participava do Círculo do Livro [coleção em que assinantes recebiam um título todo mês e que teve seu auge de popularidade no Brasil nos anos 1980].</p><p>Eu tinha muita liberdade para escolher o que quisesse. Ela me dava coisas incríveis: os melhores contos de Dostoiévski, do Tchekov, Manuel Bandeira, Fernando Pessoa, Cora Coralina. Eu tinha tudo isso e gostava muito de ler.</p><p>BBC News Brasil - Você chegou a cursar engenharia florestal, oceanografia e ciências biológicas na universidade. Os Imortais usa termos da botânica e da geologia para descrever o cenário dos personagens. Qual o peso da natureza e do meio ambiente na sua escrita e na sua vida?</p><p>Tort - Eu tenho uma avó que me ensinou a gostar e a observar muito a natureza e sempre me comovi muito com outras formas vivas que não as humanas.</p><p>Embora eu seja de Brasília e tenha crescido no centro urbano, Brasília é uma cidade-parque, uma cidade arborizada. Além disso, íamos para chácaras, para o interior visitar parentes.</p><p>Tenho uma inclinação por tudo que é vivo, qualquer pequeno animal, plantas.</p>",
+        "fonteNome": "BBC Brasil",
+        "fonteUrl": "https://www.bbc.com/portuguese/articles/cwm24k534kr4o?at_medium=RSS&at_campaign=rss",
         "fontesAdicionais": [
           {
             "nome": "A Gazeta",
@@ -191,52 +191,52 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O cantor sertanejo Thizil , da dupla com Mario, sofreu um acidente de trânsito durante uma viagem a Querência (MT), onde faria um show neste sábado (7/11). A colisão ocorreu na tarde de sexta-feira (6/11), na BR-070, próximo ao município de Jussara (GO). Uma mulher que estava no outro veículo morreu no local."
+            "resposta": "Nos círculos literários brasileiros, 2026 é o ano de Os Imortais , da escritora brasiliense Paulliny Tort. O livro acaba de ganhar o Prêmio Literário Biblioteca Nacional e vai ser adaptado para as telas pelo produtor cinematográfico Rodrigo Teixeira , do vencedor do Oscar Ainda Estou Aqui ."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O artista viajava em uma caminhonete com dois músicos da banda e o filho quando o veículo bateu contra outro carro na rodovia. Segundo Mario, Thizil foi socorrido e transferido para o Hospital Estadual de Anápolis, onde permanece internado. Ele sofreu três fraturas no pé e outra na perna e deverá passar por uma cirurgia."
+            "resposta": "O título foi lançado em março pela Fósforo Editora e já está na sexta reimpressão. Foi um dos mais vendidos na Flip (Festa Literária Internacional de Paraty) desta última edição. Traduções para o inglês, espanhol, francês e até polonês já estão previstas para o mercado internacional em breve."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Mario e Thizil cancelaram a apresentação que fariam em Querência (MT), neste sábado (7/11)"
+            "resposta": "Há um elemento surpreendente no êxito de um romance que é passado cerca de 50 mil anos atrás, conta os dramas de sobrevivência e as relações dentro de um grupo de neandertais e que carrega no texto palavras incomuns como &quot;sanga&quot; (um tipo de córrego), &quot;epícea&quot; (espécie de árvore) e &quot;auroque&quot; (um antepassado extinto do boi)."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Thizil sofreu quatro fraturas e deverá passar por cirurgia em Anápolis (GO)"
+            "resposta": "(Os neandertais, embora tenham uma imagem popular como extremamente primitivos, são considerados próximos dos homo sapiens em termos evolutivos e de inteligência. E as duas espécies humanas chegaram a dividir o mesmo espaço por alguns milênios, numa convivência muitas vezes tensa e violenta.)"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Thizil, da dupla com Mario, está internado após acidente na BR-070"
+            "resposta": "Paulliny Tort tem 47 anos e demorou para se tornar escritora em tempo integral. &quot;Fui uma autora relativamente tardia. Comecei a publicar aos 37 anos, porque, primeiro, tinha uma autocrítica um pouco paralisante&quot;."
           }
         ],
-        "imagemOriginal": "https://i.metroimg.com/6YVOW4TMnNUFyf4YgltQuWWnfXMy0cO3jINk6Q4blhw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/thizil-da-dupla-com-mario-ficou-ferido-em-acidente-na-br-070-em-goias.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher.jpg",
+        "imagemOriginal": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/29a5/live/bef41990-d3d1-11f1-9c32-1532a6164171.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/paulliny-tort-a-escritora-brasileira-que-virou-sensacao-com-romance-sobre-os-neandertais-j.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "28f8444d4d593488",
-      "titulo": "Diretor da PRIO critica imposto sobre petróleo, mas ainda vê oportunidades no Brasil",
+      "id": "6582351f7166057c",
+      "titulo": "Vale-refeição e alimentação mudam hoje: veja o que muda com as novas regras",
       "categoria": "Tecnologia",
       "radar": null,
       "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mercados/diretor-da-prio-critica-imposto-sobre-petroleo-mas-ainda-ve-oportunidades-no-brasil/",
-      "dataFonte": "2026-11-07T13:00:00.000Z",
-      "resumoFonte": "Imagem ilustrativa com o logo da PRIO, plataforma de produção de petróleo em alto-mar e gráfico de mercado ao fundo, representando o cenário das ações PRIO3 e a influência das cotações do petróleo. Imagem gerada com uso de IA. \" data-image-caption=\" Ações da PRIO (PRIO3) entram em região técnica importante em meio à volatilidade do petróleo. Imagem…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/09/ChatGPT-Image-25-de-set.-de-2026-09_58_24.jpg?fit=1672%2C941&quality=70&strip=all",
-      "descobertaEm": "2026-11-07T13:18:43.230Z",
+      "urlFonte": "https://www.infomoney.com.br/mercados/vale-refeicao-e-alimentacao-mudam-hoje-veja-o-que-muda-com-as-novas-regras/",
+      "dataFonte": "2026-11-07T15:19:44.000Z",
+      "resumoFonte": "Vale-refeição, vale-alimentação, benefícios corporativos, cartões, meios de pagamento, restaurante, supermercado, alimentação, pagamentos digitais, interoperabilidade, mercado de benefícios, PAT, tecnologia financeira, concorrência bancária. Imagem gerada com uso de IA. \" data-image-caption=\" Vale-refeição, vale-alimentação, benefícios…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/09/cartao-beneficios.jpg",
+      "descobertaEm": "2026-11-07T15:18:25.842Z",
       "reportagem": {
-        "titulo": "Diretor da PRIO critica imposto sobre petróleo, mas ainda vê oportunidades no Brasil",
-        "slug": "diretor-da-prio-critica-imposto-sobre-petroleo-mas-ainda-ve-oportunidades-no-brasil",
+        "titulo": "Vale-refeição e alimentação mudam hoje: veja o que muda com as novas regras",
+        "slug": "vale-refeicao-e-alimentacao-mudam-hoje-veja-o-que-muda-com-as-novas-regras",
         "categoria": "Tecnologia",
         "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/diretor-da-prio-critica-imposto-sobre-petroleo-mas-ainda-ve-oportunidades-no-brasil.jpg",
-        "resumo": "Bruno Menezes, diretor de novos negócios e comercialização da PRIO, disse que previsibilidade jurídica é importante para o setor de energia",
-        "conteudo": "<p>CHICAGO (EUA) – O diretor de novos negócios e comercialização da PRIO ( PRIO3 ), Bruno Menezes, avalia que a decisão do governo de prorrogar até o fim de 2026 a alíquota de 12% sobre a exportação de petróleo “atrapalha todo mundo”, mas fez a ressalva de que o Brasil “ainda é um país de oportunidades para quem se prepara e para quem tem coragem.”</p><h2>O contexto da decisão judicial</h2><p>Durante painel na Conferência MBA Brasil 2026, Menezes disse que o setor de óleo e energia “precisa saber a regra do jogo”: “Quando muda é ruim. O imposto agora de exportação atrapalha todo mundo. E por isso estamos questionando na Justiça, porque julgamos inconstitucional.”</p><p>Ao mesmo tempo, ele acredita que a regulação é importante, especialmente no que diz respeito ao licenciamento ambiental: “mas é preciso celeridade.</p><p>Quando tem um governo moroso, seja quem for que está sentado na cadeira, você reduz investimento, atrapalha progresso, não ganha sociedade, que perde a geração de empregos, nem o acionista, nem o próprio governo.”</p><h2>Impactos e informações adicionais</h2><p>“O Brasil é essa confusão que vivemos desde sempre, mas isso também dá espaço para oportunidade. Volatilidade, incerteza também geram oportunidade, quem está preparado consegue aproveitar.</p><p>A PRIO foi de irrelevante para a segunda maior operadora de petróleo do Brasil, atrás da Petrobras, em 11 anos. Não sei se seria possível em outros lugares”, completou.</p><p>Bruno Menezes ainda opinou sobre a exploração da Margem Equatorial e qual pode ser a sua importância: “O Brasil vem se posicionando como grande exportador de petróleo, mas os campos são finitos, a partir de 2030 a produção começará a cair e a Margem Equatorial pode ser um novo pré-sal, se der certo, como na Guiana.</p><p>[Dessa forma], o Brasil segue sendo relevante em âmbito global, de ser um produtor confiável.”</p><p>Bruno Menezes participou da Conferência MBA Brasil 2026, que chega à quinta edição neste ano.</p><p>Desta vez, nos dias 6 e 7 de novembro, reunirá em Chicago, nos Estados Unidos, executivos de algumas das maiores empresas do Brasil e do mundo para discutir os rumos e as perspectivas de negócios dos principais setores da economia e do empreendedorismo brasileiros.</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/vale-refeicao-e-alimentacao-mudam-hoje-veja-o-que-muda-com-as-novas-regras.jpg",
+        "resumo": "Interoperabilidade do PAT promete ampliar a aceitação dos cartões, mas especialistas alertam que adaptação será gradual e ainda pode haver recusas",
+        "conteudo": "<p>A partir deste sábado, 7 de novembro, entrou em vigor a última etapa da reforma do Programa de Alimentação do Trabalhador (PAT).</p><h2>Dados e contexto do setor</h2><p>A principal mudança é a chamada interoperabilidade, que permitirá que cartões de vale-refeição (VR) e vale-alimentação (VA) de diferentes operadoras sejam aceitos em qualquer maquininha habilitada para processar esse tipo de benefício.</p><p>A expectativa do governo é ampliar a rede de aceitação dos cartões, aumentar a concorrência entre as empresas do setor e reduzir custos para estabelecimentos comerciais.</p><p>Mas especialistas alertam que os efeitos da mudança devem aparecer gradualmente , à medida que operadoras, credenciadoras e comerciantes concluam suas adaptações.</p><h2>Impactos e informações adicionais</h2><p>Na prática, a nova regra busca acabar com a dependência de redes fechadas. Até agora, um estabelecimento podia aceitar uma bandeira de benefício e não outra.</p><p>Com a interoperabilidade, a ideia é que os cartões passem a funcionar nas diferentes redes de captura habilitadas para VA e VR.</p><p>Isso não significa, porém, que o benefício poderá ser usado em qualquer lugar. Segundo o Ministério do Trabalho e Emprego (MTE), o trabalhador poderá utilizar o cartão do PAT em qualquer maquininha habilitada para esse tipo de pagamento, independentemente da rede utilizada pelo estabelecimento comercial.</p><p>Os cartões, no entanto, continuarão limitados a estabelecimentos credenciados para receber benefícios de alimentação e refeição.</p><p>Para Flavia de Oliveira, advogada especializada em Direito Trabalhista do Andrade Foz Advogados, a medida tem potencial para ampliar significativamente a rede de aceitação.</p><p>“Antes das novas regras, os empregados que recebiam tais benefícios ficavam presos, de certa forma, à rede credenciada da operadora escolhida pelo empregador.</p><p>Com as novas regras, os cartões de qualquer operadora deverão ser aceitos em qualquer máquina habilitada, sem ser exclusiva da respectiva bandeira”, afirma.</p><p>A resposta é: provavelmente não. A interoperabilidade tem potencial para ampliar a aceitação dos benefícios porque obriga as operadoras a compartilharem suas redes credenciadas e proíbe tratamento diferenciado entre transações de bandeiras distintas, mas os ganhos devem aparecer aos poucos, segundo avalia Mariella Castro, coordenadora da área trabalhista do escritório Lacerda Diniz Machado.</p><p>“O ganho será gradual. As maquininhas e os sistemas precisam de integração técnica, e o próprio setor de bares e restaurantes aponta dificuldades operacionais”, afirma Castro.</p><p>Na avaliação de Plínio Ken Higasi, sócio especialista em direito digital do PK Advogados, a interoperabilidade exige que o mercado de benefícios passe a operar de forma semelhante ao dos cartões de crédito.</p><p>“Um cartão emitido por uma empresa precisa ser reconhecido, autorizado e liquidado na rede de outra. Para quem está no caixa, parece um gesto simples.</p><p>Por trás dele, sistemas concorrentes precisam conversar em tempo real, encaminhar cada transação ao emissor correto e acertar as contas entre si dentro do prazo de repasse previsto no decreto”, afirma.</p><p>Segundo Higasi, um dos principais desafios está justamente na ausência de um padrão técnico comum para conectar todos os participantes do ecossistema.</p><p>“Sem um protocolo comum, cada operadora constrói a sua própria ponte, e pontes construídas separadamente raramente se encaixam no primeiro dia. Essa fragmentação é hoje o maior freio à ampliação real da rede de aceitação”, avalia.</p><p>A avaliação da Associação Brasileira de Bares e Restaurantes (Abrasel) vai na mesma linha: “Há o risco de ocorrerem dificuldades no pagamento, especialmente porque a integração dos sistemas ainda não está plenamente concluída.</p><p>Nossa preocupação, neste momento, não está necessariamente no treinamento das equipes dos restaurantes, mas na estrutura tecnológica que precisa viabilizar as transações.</p><p>Se os sistemas das operadoras e das credenciadoras não estiverem integrados, poderá haver instabilidade”</p><p>Um dos principais alertas vem da infraestrutura que opera os pagamentos. Segundo Doug Storf, CEO da Swap, a empresa realizou testes com mais de 2 mil transações em 1.772 estabelecimentos de 12 estados para avaliar o funcionamento do novo trilho de pagamentos.</p><p>“O trilho voucher aprovou 75,1% das tentativas. Se nesse laboratório uma em cada quatro transações foi negada, no dia a dia do trabalhador a fricção é ainda maior”, afirma Storf.</p><p>Os testes também mostraram diferenças importantes entre os segmentos do comércio. Os maiores índices de aceitação foram registrados em hortifrutis (84,8%), padarias (84,6%), restaurantes (82,8%) e açougues (80,6%) .</p><p>Já os maiores desafios apareceram em mercearias (66,2%), sorveterias (41,5%), feiras livres (30,2%) e lojas de conveniência (29,6%) .</p>",
         "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mercados/diretor-da-prio-critica-imposto-sobre-petroleo-mas-ainda-ve-oportunidades-no-brasil/",
+        "fonteUrl": "https://www.infomoney.com.br/mercados/vale-refeicao-e-alimentacao-mudam-hoje-veja-o-que-muda-com-as-novas-regras/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -251,64 +251,112 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "CHICAGO (EUA) – O diretor de novos negócios e comercialização da PRIO ( PRIO3 ), Bruno Menezes, avalia que a decisão do governo de prorrogar até o fim de 2026 a alíquota de 12% sobre a exportação de petróleo “atrapalha todo mundo”, mas fez a ressalva de que o Brasil “ainda é um país de oportunidades para quem se prepara e para quem tem coragem.”"
+            "resposta": "A partir deste sábado, 7 de novembro, entrou em vigor a última etapa da reforma do Programa de Alimentação do Trabalhador (PAT)."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Durante painel na Conferência MBA Brasil 2026, Menezes disse que o setor de óleo e energia “precisa saber a regra do jogo”: “Quando muda é ruim. O imposto agora de exportação atrapalha todo mundo. E por isso estamos questionando na Justiça, porque julgamos inconstitucional.”"
+            "resposta": "A expectativa do governo é ampliar a rede de aceitação dos cartões, aumentar a concorrência entre as empresas do setor e reduzir custos para estabelecimentos comerciais. Mas especialistas alertam que os efeitos da mudança devem aparecer gradualmente , à medida que operadoras, credenciadoras e comerciantes concluam suas adaptações."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Ao mesmo tempo, ele acredita que a regulação é importante, especialmente no que diz respeito ao licenciamento ambiental: “mas é preciso celeridade."
+            "resposta": "Na prática, a nova regra busca acabar com a dependência de redes fechadas. Até agora, um estabelecimento podia aceitar uma bandeira de benefício e não outra. Com a interoperabilidade, a ideia é que os cartões passem a funcionar nas diferentes redes de captura habilitadas para VA e VR."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "“O Brasil é essa confusão que vivemos desde sempre, mas isso também dá espaço para oportunidade. Volatilidade, incerteza também geram oportunidade, quem está preparado consegue aproveitar. A PRIO foi de irrelevante para a segunda maior operadora de petróleo do Brasil, atrás da Petrobras, em 11 anos. Não sei se seria possível em outros lugares”, completou."
+            "resposta": "Isso não significa, porém, que o benefício poderá ser usado em qualquer lugar. Segundo o Ministério do Trabalho e Emprego (MTE), o trabalhador poderá utilizar o cartão do PAT em qualquer maquininha habilitada para esse tipo de pagamento, independentemente da rede utilizada pelo estabelecimento comercial."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Bruno Menezes ainda opinou sobre a exploração da Margem Equatorial e qual pode ser a sua importância: “O Brasil vem se posicionando como grande exportador de petróleo, mas os campos são finitos, a partir de 2030 a produção começará a cair e a Margem Equatorial pode ser um novo pré-sal, se der certo, como na Guiana."
+            "resposta": "Para Flavia de Oliveira, advogada especializada em Direito Trabalhista do Andrade Foz Advogados, a medida tem potencial para ampliar significativamente a rede de aceitação."
           }
         ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/09/ChatGPT-Image-25-de-set.-de-2026-09_58_24.jpg?fit=1672%2C941&quality=70&strip=all",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/diretor-da-prio-critica-imposto-sobre-petroleo-mas-ainda-ve-oportunidades-no-brasil.jpg",
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/09/cartao-beneficios.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/vale-refeicao-e-alimentacao-mudam-hoje-veja-o-que-muda-com-as-novas-regras.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "7e70f14f0e2c313b",
-      "titulo": "Ueno Bank, do Paraguai, financiou evento com Eduardo Bolsonaro nos EUA",
+      "id": "83e189f74ad441fb",
+      "titulo": "Atlético-MG x Grêmio na Copa do Brasil: onde assistir, horário e escalações",
       "categoria": "Esporte",
       "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/07/ueno-bank-do-paraguai-financiou-evento-com-eduardo-bolsonaro-nos-eua.ghtm",
-      "dataFonte": "2026-11-07T14:01:18.000Z",
-      "resumoFonte": "O Ueno Bank, banco digital no centro da crise do Paraguai, foi um dos financiadores de um evento da extrema direita que aconteceu em Mar-a-Lago, clube do presidente americano Donald Trump, nos EUA, em fevereiro deste ano, e contou com a participação do ex-deputado Eduardo Bolsonaro.",
-      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
-      "descobertaEm": "2026-11-07T14:18:40.001Z"
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/esporte/atletico-mg-x-gremio-na-copa-do-brasil-onde-assistir-horario-e-escalacoes/",
+      "dataFonte": "2026-11-07T14:30:39.000Z",
+      "resumoFonte": "Equipes se enfrentam neste sábado, 7, em BH, pelo jogo de volta da semifinal; na ida, gaúchos venceram por 2 a 0",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2025/09/GettyImages-2180348267.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-11-07T15:18:25.842Z",
+      "reportagem": {
+        "titulo": "Atlético-MG x Grêmio na Copa do Brasil: onde assistir, horário e escalações",
+        "slug": "atletico-mg-x-gremio-na-copa-do-brasil-onde-assistir-horario-e-escalacoes",
+        "categoria": "Esporte",
+        "data": "2026-11-07",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/atletico-mg-x-gremio-na-copa-do-brasil-onde-assistir-horario-e-escalacoes.jpg",
+        "resumo": "Equipes se enfrentam neste sábado, 7, em BH, pelo jogo de volta da semifinal; na ida, gaúchos venceram por 2 a 0",
+        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril.</p><h2>As informações principais do assunto</h2><p>O Atl&eacute;tico-MG recebe o Gr&ecirc;mio neste s&aacute;bado, 7, &agrave;s 18h (de Bras&iacute;lia), na Arena MRV, em Belo Horizonte, pelo jogo de volta da semifinal da Copa do Brasil de 2026 .</p><p>O confronto definir&aacute; o primeiro finalista da competi&ccedil;&atilde;o nacional.</p><p>O time ga&uacute;cho venceu a primeira partida por 2 a 0, em Porto Alegre, com gols de Carlos Vin&iacute;cius e Erick Noriega, e chega &agrave; capital mineira em vantagem na disputa pela vaga.</p><h2>Contexto e informações complementares</h2><p>Comandado pelo argentino Eduardo Dom&iacute;nguez, o Atl&eacute;tico-MG j&aacute; est&aacute; classificado para a final da Copa Sul-Americana e busca disputar sua segunda decis&atilde;o na temporada, mas atravessa um momento delicado na reta final do ano.</p><p>A equipe mineira acumula cinco derrotas consecutivas, incluindo o rev&eacute;s por 1 a 0 diante do Botafogo, na &uacute;ltima quarta-feira, pelo Campeonato Brasileiro, quando o treinador optou por uma escala&ccedil;&atilde;o alternativa.</p><p>Para avan&ccedil;ar &agrave; final da Copa do Brasil, o Galo precisar&aacute; vencer por tr&ecirc;s ou mais gols de diferen&ccedil;a. Uma vit&oacute;ria por dois gols levar&aacute; a disputa para os p&ecirc;naltis.</p><p>Do outro lado, o Gr&ecirc;mio construiu uma vantagem importante ao vencer o primeiro confronto por 2 a 0, na Arena do Gr&ecirc;mio, e pode perder por at&eacute; um gol de diferen&ccedil;a para garantir a classifica&ccedil;&atilde;o.</p><p>Pelo Campeonato Brasileiro, por&eacute;m, o Tricolor vem de uma derrota por 3 a 1 para o Flamengo, no Maracan&atilde;, em partida na qual utilizou uma forma&ccedil;&atilde;o alternativa para preservar jogadores.</p><p>O resultado manteve a equipe na zona de rebaixamento, na 18&ordf; coloca&ccedil;&atilde;o, aumentando a press&atilde;o sobre o elenco na reta final da temporada.</p><p>Para o duelo em Belo Horizonte, Renato ter&aacute; uma baixa importante no sistema defensivo. O zagueiro Gustavo Martins est&aacute; suspenso ap&oacute;s ser expulso no jogo de ida, abrindo espa&ccedil;o para o retorno de Walter Kannemann entre os titulares.</p><p>Quem se classificar enfrentar&aacute; o vencedor do confronto entre Palmeiras e Vasco na grande decis&atilde;o.</p><p>As equipes se enfrentam neste domingo, 8, &agrave;s 17h (hor&aacute;rio de Bras&iacute;lia), em S&atilde;o Janu&aacute;rio, no Rio. Na ida, a equipe paulista venceu por 1 a 0.</p><p>A partida entre Atl&eacute;tico-MG e Gr&ecirc;mio ter&aacute; transmiss&atilde;o ao vivo pelo SporTV, pelo Premiere e pelo Amazon Prime Video . O jogo come&ccedil;a &agrave;s 18h (hor&aacute;rio de Bras&iacute;lia), na Arena MRV, em Belo Horizonte, Minas Gerais.</p><p>Atl&eacute;tico-MG: Everson; Natanael, Vit&atilde;o, Lyanco (Ruan Tressoldi) e Renan Lodi; Casta&ntilde;o (Fred), Alan Franco e Maycon; Bernard, Cuello e Cassierra (Alan Minda). T&eacute;cnico: Eduardo Dom&iacute;nguez.</p><p>Gr&ecirc;mio: Weverton; Wallace, Balbuena e Kannemann; Jo&atilde;o Pedro, Villasanti, Noriega e Marlon (Caio Paulista); Enamorado, Carlos Vin&iacute;cius e Amuzu. T&eacute;cnico: Renato Ga&uacute;cho.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/esporte/atletico-mg-x-gremio-na-copa-do-brasil-onde-assistir-horario-e-escalacoes/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O Atl&eacute;tico-MG recebe o Gr&ecirc;mio neste s&aacute;bado, 7, &agrave;s 18h (de Bras&iacute;lia), na Arena MRV, em Belo Horizonte, pelo jogo de volta da semifinal da Copa do Brasil de 2026 . O confronto definir&aacute; o primeiro finalista da competi&ccedil;&atilde;o nacional."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Comandado pelo argentino Eduardo Dom&iacute;nguez, o Atl&eacute;tico-MG j&aacute; est&aacute; classificado para a final da Copa Sul-Americana e busca disputar sua segunda decis&atilde;o na temporada, mas atravessa um momento delicado na reta final do ano."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Do outro lado, o Gr&ecirc;mio construiu uma vantagem importante ao vencer o primeiro confronto por 2 a 0, na Arena do Gr&ecirc;mio, e pode perder por at&eacute; um gol de diferen&ccedil;a para garantir a classifica&ccedil;&atilde;o."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Para o duelo em Belo Horizonte, Renato ter&aacute; uma baixa importante no sistema defensivo. O zagueiro Gustavo Martins est&aacute; suspenso ap&oacute;s ser expulso no jogo de ida, abrindo espa&ccedil;o para o retorno de Walter Kannemann entre os titulares."
+          }
+        ],
+        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2025/09/GettyImages-2180348267.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/atletico-mg-x-gremio-na-copa-do-brasil-onde-assistir-horario-e-escalacoes.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
-      "id": "f34dc711141773ef",
-      "titulo": "Gonet pede ao STF suspensão de todas as ações sobre MP do fim das bets",
+      "id": "27cf3ca8e26b8399",
+      "titulo": "Deputada estadual mais votada do Paraná pode ser condenada a pagar R$ 1 milhão por assédio eleitoral",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/economia/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets/",
-      "dataFonte": "2026-11-07T13:15:51.000Z",
-      "resumoFonte": "Pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT)",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/01/ja_7547.jpg?w=1170&h=630&crop=1",
-      "descobertaEm": "2026-11-07T13:18:43.230Z",
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://www1.folha.uol.com.br/mercado/2026/11/deputada-estadual-mais-votada-do-parana-pode-ser-condenada-a-pagar-r-1-milhao-por-assedio-eleitoral.shtml",
+      "dataFonte": "2026-11-07T15:13:00.000Z",
+      "resumoFonte": "A vereadora de Londrina (PR) Jessica Ramos Moreno (PL), conhecida como Jessicão, é alvo de uma ação civil pública ajuizada pelo MPT-PR (Ministério Público do Trabalho no Paraná) que determina a remoção imediata de uma publicação em que a parlamentar, a mulher com a maior votação no estado, incita a demissão de petistas.",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/07/17940623746aef38266b82d_1794062374_3x2_lg.jpg",
+      "descobertaEm": "2026-11-07T15:18:25.842Z",
       "reportagem": {
-        "titulo": "Gonet pede ao STF suspensão de todas as ações sobre MP do fim das bets",
-        "slug": "gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets",
+        "titulo": "Deputada estadual mais votada do Paraná pode ser condenada a pagar R$ 1 milhão por assédio eleitoral",
+        "slug": "deputada-estadual-mais-votada-do-parana-pode-ser-condenada-a-pagar-r-1-milhao-por-assedio-",
         "categoria": "Justiça",
         "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets.jpg",
-        "resumo": "Pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT)",
-        "conteudo": "<p>O procurador-geral da República, Paulo Gonet, pediu ao Supremo Tribunal Federal (STF) a suspensão de processos judiiais que discutem a medida provisória (MP) que proibiu o funcimento das bets no Brasil.</p><h2>O contexto da decisão judicial</h2><p>O pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT). Caso o minstro aceite o pedido, as ações em andamento vão ficar paralisadas até o STF analisar a validade da proibição.</p><p>Na decisão, Gonet citou decisões por instâncias inferiores do Judiciário que liberou determinadas bets para atuarem em meio a proibição.</p><p>Na quinta-feira (05), três casas de apostam tinham voltado a funcionar após a desembargadora Adriana Pileggi, do Tribunal Regional Federal da 3ª Região (TRF3), atender a um pedido da CDA Gaming e suspender os efeitos da Medida Provisória (MP) das bets em relação à empresa.</p><h2>Detalhes e consequências do caso</h2><p>A medida permite que os três sites da CDA — Casa de Apostas, Betsul e Jogo Online — voltem a aceitar apostas.</p><p>Na sexta-feira (06), o presidente do Tribunal Regional Federal da 3ª Região (TRF-3), desembargador Johonsom Di Salvo, suspendeu a liminar que havia permitido provisoriamente que três sites de apostas da empresa CDA Gaming voltassem a operar.</p><p>A decisão atende a um pedido da AGU (Advocacia-Geral da União).</p><p>O presidente Lula assinou no dia 25 de setembro uma Medida Provisória que proibia a operação de sites de apostas esportivas (bets) e cassinos online com jogos como “tigrinho ” em todo o território nacional.</p><p>A medida impede novos depósitos nas plataformas a partir de sua publicação e estabelece um calendário para a retirada e devolução dos valores que ainda estão nas contas dos apostadores.</p><p>No calendário apresentado pelo governo, os sites e aplicativos de apostas sairão do ar em 6 de outubro. Os apostadores terão até o dia anterior para retirar os valores disponíveis.</p><p>Para quem não conseguir fazer o resgate dentro do prazo, foi estabelecido um procedimento de devolução integral dos saldos.</p><p>Pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT)</p><p>Fachin dá 15 dias para PGR analisar indiciamento de Vorcaro</p><p>Ministro, que é relator do caso Master, também concedeu o mesmo prazo para o órgão se manifestar sobre o pedido da PF para que a investigação seja prorrogada por mais 60 dias</p><p>Próximo sorteio da Mega-Sena terá prêmio de R$ 60 milhões</p><p>Novas regras do vale-refeição e alimentação: saiba o que muda</p><p>Novas regras para vale-alimentação e refeição começam a valer neste sábado</p><p>Nubank e Mercado Pago suspendem transferências de criptomoedas</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/economia/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/deputada-estadual-mais-votada-do-parana-pode-ser-condenada-a-pagar-r-1-milhao-por-assedio-.jpg",
+        "resumo": "OUTRO LADO: Parlamentar diz que ainda não teve acesso oficial ao processo e cita compromisso à liberdade de expressão, que deve ser respeitada",
+        "conteudo": "<p>A vereadora de Londrina (PR) Jessica Ramos Moreno ( PL ), conhecida como Jessicão , é alvo de uma ação civil pública ajuizada pelo MPT-PR (Ministério Público do Trabalho no Paraná ) que determina a remoção imediata de uma publicação em que a parlamentar, a mulher com a maior votação no estado, incita a demissão de petistas .</p><h2>O contexto da decisão judicial</h2><p>\"A porcaria do voto dele prejudica o seu negócio, prejudica a sua família e prejudica toda a sua vida!</p><p>Demita o mal\", escreveu Jessicão numa postagem feita na rede social X em 25 de outubro, após o resultado do segundo turno das eleições presidenciais , que garantiu a reeleição de Lula ( PT ).</p><p>A ação civil também requer o pagamento de R$ 1 milhão em indenização por danos morais coletivos, e abrange outros conteúdos da parlamentar que possam induzir ou incitar práticas discriminatórias de acesso ou manutenção da relação de trabalho.</p><h2>Detalhes e consequências do caso</h2><p>O MPT-PR caracterizou a publicação como prática de assédio eleitoral e afirmou ter recebido mais de cem denúncias referentes à postagem, que segue disponível no perfil da vereadora.</p><p>Em nota, Jessicão afirmou que ainda não teve acesso oficial ao processo e que prestará os devidos esclarecimentos \"assim que tiver conhecimento de todos os elementos.\"</p><p>\"Reforço meu compromisso com a liberdade de expressão, um direito fundamental garantido pela Constituição Federal e indispensável à democracia.</p><p>O debate político, a manifestação de opiniões e a liberdade de pensamento precisam ser respeitados, independentemente de posições ideológicas\", disse a deputada eleita.</p><p>Ela ainda afirma que não abrirá mão do seu direito de manifestação, dentro dos limites da lei, e diz que \"a democracia pressupõe liberdade, pluralidade de ideias e respeito ao contraditório.\"</p><p>A decisão do MPT-PR cita o alcance da publicação, que em poucas horas chegou a mais de 1 milhão de visualizações.</p><p>Segundo o órgão, existe um \"amplo potencial de que a mensagem discriminatória atinja um incontável número de empregadores, que podem ser sentir autorizados à prática de assédio eleitoral e discriminação por convicção política.\"</p><p>A indenização requerida considera o valor equivalente a R$ 1 a cada visualização da postagem.</p><p>Jessicão foi eleita deputada estadual com 131.673 votos, número que representa a segunda maior votação ao cargo no estado, ficando atrás apenas de Paulo Melo, também eleito pelo PL. Ela tem mais de 200 mil seguidores no X.</p><p>O MPT-PR justifica a indenização por danos coletivos afirmando que o comportamento \"extrapola a liberdade de manifestação\" e é incompatível com a ordem constitucional.</p><p>\"Por violar direitos fundamentais assegurados a todo trabalhador, especialmente a dignidade da pessoa humana, a igualdade e a não discriminação, bem como os direitos à intimidade, à vida privada e à liberdade de consciência\", diz o órgão.</p><p>O recurso deve ser destinado ao Fundo de Defesa de Direitos Difusos ou ao Fundo de Amparo ao Trabalhador, ou ainda para entidades sociais filantrópicas relacionadas à proteção dos direitos dos trabalhadores.</p><p>Nascida em Londrina, Jessicão é ex-presidente do Movimento Direita Paraná e foi eleita vereadora pela primeira vez em 2020, então pelo PP (Partido Progressistas). Ela foi reeleita em 2024, e neste ano lançou sua primeira candidatura à Alep (Assembleia Legislativa do Paraná).</p><p>Alinhada às bandeiras do bolsonarismo, defendeu a fuga do senador Flávio Bolsonaro (PL) após a derrota do candidato à Presidência no pleito do último mês .</p><p>\"Quando o sistema persegue quem o confronta, não é fuga, é exílio\", disse a atual vereadora numa postagem feita no X em 27 de outubro.</p><p>A vereadora de Londrina (PR) Jessica Ramos Moreno ( PL ), conhecida como Jessicão , é alvo de uma ação civil pública ajuizada pelo MPT-PR (Ministério Público do Trabalho no Paraná ) que determina a remoção imediata de uma publicação em que a parlamentar, a mulher com a maior votação no estado, incita a demissão de petistas .</p><p>\"A porcaria do voto dele prejudica o seu negócio, prejudica a sua família e prejudica toda a sua vida!</p><p>Demita o mal\", escreveu Jessicão numa postagem feita na rede social X em 25 de outubro, após o resultado do segundo turno das eleições presidenciais , que garantiu a reeleição de Lula ( PT ).</p>",
+        "fonteNome": "UOL Notícias",
+        "fonteUrl": "https://www1.folha.uol.com.br/mercado/2026/11/deputada-estadual-mais-votada-do-parana-pode-ser-condenada-a-pagar-r-1-milhao-por-assedio-eleitoral.shtml",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -323,30 +371,54 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O procurador-geral da República, Paulo Gonet, pediu ao Supremo Tribunal Federal (STF) a suspensão de processos judiiais que discutem a medida provisória (MP) que proibiu o funcimento das bets no Brasil."
+            "resposta": "A vereadora de Londrina (PR) Jessica Ramos Moreno ( PL ), conhecida como Jessicão , é alvo de uma ação civil pública ajuizada pelo MPT-PR (Ministério Público do Trabalho no Paraná ) que determina a remoção imediata de uma publicação em que a parlamentar, a mulher com a maior votação no estado, incita a demissão de petistas ."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT). Caso o minstro aceite o pedido, as ações em andamento vão ficar paralisadas até o STF analisar a validade da proibição."
+            "resposta": "\"A porcaria do voto dele prejudica o seu negócio, prejudica a sua família e prejudica toda a sua vida! Demita o mal\", escreveu Jessicão numa postagem feita na rede social X em 25 de outubro, após o resultado do segundo turno das eleições presidenciais , que garantiu a reeleição de Lula ( PT )."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na decisão, Gonet citou decisões por instâncias inferiores do Judiciário que liberou determinadas bets para atuarem em meio a proibição."
+            "resposta": "A ação civil também requer o pagamento de R$ 1 milhão em indenização por danos morais coletivos, e abrange outros conteúdos da parlamentar que possam induzir ou incitar práticas discriminatórias de acesso ou manutenção da relação de trabalho."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A medida permite que os três sites da CDA — Casa de Apostas, Betsul e Jogo Online — voltem a aceitar apostas. Na sexta-feira (06), o presidente do Tribunal Regional Federal da 3ª Região (TRF-3), desembargador Johonsom Di Salvo, suspendeu a liminar que havia permitido provisoriamente que três sites de apostas da empresa CDA Gaming voltassem a operar."
+            "resposta": "O MPT-PR caracterizou a publicação como prática de assédio eleitoral e afirmou ter recebido mais de cem denúncias referentes à postagem, que segue disponível no perfil da vereadora."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O presidente Lula assinou no dia 25 de setembro uma Medida Provisória que proibia a operação de sites de apostas esportivas (bets) e cassinos online com jogos como “tigrinho ” em todo o território nacional."
+            "resposta": "Em nota, Jessicão afirmou que ainda não teve acesso oficial ao processo e que prestará os devidos esclarecimentos \"assim que tiver conhecimento de todos os elementos.\""
           }
         ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/01/ja_7547.jpg?w=1170&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets.jpg",
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/07/17940623746aef38266b82d_1794062374_3x2_lg.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/deputada-estadual-mais-votada-do-parana-pode-ser-condenada-a-pagar-r-1-milhao-por-assedio-.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
+    },
+    {
+      "id": "a8046e6c0906156b",
+      "titulo": "Adolescente de 16 anos é morto a tiros em conjunto habitacional em Linhares",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/adolescente-de-16-anos-e-morto-a-tiros-em-conjunto-habitacional-em-linhares-1126",
+      "dataFonte": "2026-11-07T13:20:18.000Z",
+      "resumoFonte": "Samu/192 constatou a morte da vítima, identificada como John Lennon Alves do Nascimento Guilhermino, no local do crime",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1794055538924_template_radar_a_gazeta.png",
+      "descobertaEm": "2026-11-07T14:18:40.001Z"
+    },
+    {
+      "id": "b59cf2c550710f38",
+      "titulo": "Três Poderes: Marinho é o vencedor da semana e advogado amigo de Flávio, o perdedor",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/tres-poderes-marinho-e-o-vencedor-da-semana-e-advogado-amigo-de-flavio-o-perdedor.shtml",
+      "dataFonte": "2026-11-07T15:00:00.000Z",
+      "resumoFonte": "Vencedor da semana : Rogério Marinho ( PL -RN), que deu uma demonstração de força ao lançar sua candidatura para presidente do Senado , com mais de 30 parlamentares a seu lado. Leia mais (11/07/2026 - 12h00)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/06/17939788806aedf200f0941_1793978880_3x2_xl.jpg",
+      "descobertaEm": "2026-11-07T15:18:25.842Z"
     },
     {
       "id": "4265bcef7f20e7f0",
@@ -409,241 +481,157 @@
       }
     },
     {
-      "id": "0396cfa9b1f9a7e4",
-      "titulo": "Vitória democrata põe em xeque era de ouro das criptomoedas sob Trump",
-      "categoria": "Política Nacional",
+      "id": "3db99d84cfaadf53",
+      "titulo": "Após suspender transferências, Nubank normaliza operações em plataforma de criptomoedas",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/economia/apos-suspender-transferencias-nubank-normaliza-operacoes-em-plataforma-de-criptomoedas/",
+      "dataFonte": "2026-11-07T15:28:00.000Z",
+      "resumoFonte": "Iinstituição não informou qual é a prestadora de serviços que passa por instabilidade",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/01/design-sem-nome-2023-06-07t192111.286.png?w=1000&h=600&crop=1",
+      "descobertaEm": "2026-11-07T15:43:49.491Z"
+    },
+    {
+      "id": "604002042cce863c",
+      "titulo": "'Imposto do pecado' não é invenção brasileira: álcool e tabaco são taxados nos 38 países da OCDE, grupo de nações ricas",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/economia/noticia/2026/11/07/imposto-do-pecado-nao-e-invencao-brasileira-alcool-e-tabaco-sao-taxados-nos-38-paises-da-ocde-grupo-de-nacoes-ricas.ghtml",
+      "dataFonte": "2026-11-07T15:13:08.000Z",
+      "resumoFonte": "O que é o 'imposto do pecado' e como ele vai funcionar? O anúncio de que o imposto seletivo – conhecido como \"imposto do pecado\" – passará a ser cobrado a partir de fevereiro do ano que vem gerou forte repercussão no setor produtivo e nas redes sociais. 🔎 Criado pela reforma tributária sobre o consumo, o \"imposto do pecado\" começará a ser cobrado…",
+      "imagem": "https://s2-g1.glbimg.com/JNG5UMcjt_UUXVwSR_quT6SakCo=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/V/N/9ppLTARkaLKP2AlUcZlw/globo-canal-4-20261105-2000-frame-109311.jpeg",
+      "descobertaEm": "2026-11-07T15:18:25.842Z"
+    },
+    {
+      "id": "9f0f364ed77abd00",
+      "titulo": "Brasil pode colher recorde de 151,7 milhões de toneladas de milho",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/agro/safras-mercado-eleva-2/",
+      "dataFonte": "2026-11-07T14:38:58.000Z",
+      "resumoFonte": "Estimativa da Safras e Mercado indica alta de 6% na safra 2026/27 impulsionada pelo avanço do plantio no Norte e Nordeste",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportAgribusinessNews/tagreuters.com2026binary_LYNXNPEMA51YL-BASEIMAGE.jpg?w=800&h=534&crop=1",
+      "descobertaEm": "2026-11-07T15:18:25.842Z",
+      "reportagem": {
+        "titulo": "Brasil pode colher recorde de 151,7 milhões de toneladas de milho",
+        "slug": "brasil-pode-colher-recorde-de-151-7-milhoes-de-toneladas-de-milho",
+        "categoria": "Economia",
+        "data": "2026-11-07",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/brasil-pode-colher-recorde-de-151-7-milhoes-de-toneladas-de-milho.jpg",
+        "resumo": "Estimativa da Safras e Mercado indica alta de 6% na safra 2026/27 impulsionada pelo avanço do plantio no Norte e Nordeste",
+        "conteudo": "<p>A produção de milho do Brasil na temporada ​2026/27 tem potencial para atingir ​um recorde de 151,7 milhões de toneladas na safra 2026/27, aumento de cerca de 6 milhões de toneladas no comparativo com uma previsão divulgada em agosto, segundo estimativas publicadas nesta sexta-feira pela consultoria Safras &amp; Mercado.</p><h2>Dados e contexto do setor</h2><p>O avanço esperado acontece em meio a ⁠uma revisão para cima ​na área plantada, para 23,51 milhões de hectares ​em 2026/27, ante 22 milhões previstos ao final de agosto, ⁠com uma reavaliação principalmente nos ⁠números do Norte e Nordeste.</p><p>Se a previsão da ​safra ‌total do país for confirmada, o terceiro produtor global de ⁠milho atrás dos Estados Unidos e China poderia aumentar a colheita em 6% ante o ciclo passado. Em relação ao total plantado, ‌a ⁠previsão de ‌aumento no país é de apenas 0,4%.</p><p>A alta na produção total em relação ao ano anterior deverá ser impulsionada principalmente ⁠pela segunda safra, que deverá ser ⁠plantada a partir do início de 2027, com a consultoria prevendo uma ‌recuperação das produtividades após uma produção frustrada pelo clima em 2026.</p><h2>Impactos e informações adicionais</h2><p>A Safras elevou a expectativa de produção da segunda safra para uma máxima de 104,49 milhões de toneladas, versus 97,3 ‌milhões de toneladas no ciclo passado.</p><p>O consultor de Safras &amp; Mercado, Paulo Molinari, disse que a empresa fez um ajuste ⁠da área plantada, produtividade e produção para as safras 2025/26 e 2026/27.</p><p>Considerando a nova projeção, o Norte e Nordeste deverão ​produzir 21,6 milhões de toneladas, com um plantio de pouco mais ​de 4 milhões de hectares. No levantamento anterior, a consultoria via uma produção de 16,1 milhões de toneladas para as duas regiões.</p><p>• Um reflexo causado pela luz do sol é captado pela lente enquanto plantas de milho são fotografadas em um campo próximo a Brasília, no Brasil, em 22 de agosto de 2023. REUTERS/Adriano Machado</p><p>A produção de milho do Brasil na temporada ​2026/27 tem potencial para atingir ​um recorde de 151,7 milhões de toneladas na safra 2026/27, aumento de cerca de 6 milhões de toneladas no comparativo com uma previsão divulgada em agosto, segundo estimativas publicadas nesta sexta-feira pela consultoria Safras &amp; Mercado.</p><p>O avanço esperado acontece em meio a ⁠uma revisão para cima ​na área plantada, para 23,51 milhões de hectares ​em 2026/27, ante 22 milhões previstos ao final de agosto, ⁠com uma reavaliação principalmente nos ⁠números do Norte e Nordeste.</p><p>Se a previsão da ​safra ‌total do país for confirmada, o terceiro produtor global de ⁠milho atrás dos Estados Unidos e China poderia aumentar a colheita em 6% ante o ciclo passado.</p><p>Em relação ao total plantado, ‌a ⁠previsão de ‌aumento no país é de apenas 0,4%.</p><p>A alta na produção total em relação ao ano anterior deverá ser impulsionada principalmente ⁠pela segunda safra, que deverá ser ⁠plantada a partir do início de 2027, com a consultoria prevendo uma ‌recuperação das produtividades após uma produção frustrada pelo clima em 2026.</p><p>A Safras elevou a expectativa de produção da segunda safra para uma máxima de 104,49 milhões de toneladas, versus 97,3 ‌milhões de toneladas no ciclo passado.</p><p>O consultor de Safras &amp; Mercado, Paulo Molinari, disse que a empresa fez um ajuste ⁠da área plantada, produtividade e produção para as safras 2025/26 e 2026/27.</p><p>Considerando a nova projeção, o Norte e Nordeste deverão ​produzir 21,6 milhões de toneladas, com um plantio de pouco mais ​de 4 milhões de hectares.</p><p>No levantamento anterior, a consultoria via uma produção de 16,1 milhões de toneladas para as duas regiões.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/agro/safras-mercado-eleva-2/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A produção de milho do Brasil na temporada ​2026/27 tem potencial para atingir ​um recorde de 151,7 milhões de toneladas na safra 2026/27, aumento de cerca de 6 milhões de toneladas no comparativo com uma previsão divulgada em agosto, segundo estimativas publicadas nesta sexta-feira pela consultoria Safras &amp; Mercado."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O avanço esperado acontece em meio a ⁠uma revisão para cima ​na área plantada, para 23,51 milhões de hectares ​em 2026/27, ante 22 milhões previstos ao final de agosto, ⁠com uma reavaliação principalmente nos ⁠números do Norte e Nordeste."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Se a previsão da ​safra ‌total do país for confirmada, o terceiro produtor global de ⁠milho atrás dos Estados Unidos e China poderia aumentar a colheita em 6% ante o ciclo passado. Em relação ao total plantado, ‌a ⁠previsão de ‌aumento no país é de apenas 0,4%."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A alta na produção total em relação ao ano anterior deverá ser impulsionada principalmente ⁠pela segunda safra, que deverá ser ⁠plantada a partir do início de 2027, com a consultoria prevendo uma ‌recuperação das produtividades após uma produção frustrada pelo clima em 2026."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A Safras elevou a expectativa de produção da segunda safra para uma máxima de 104,49 milhões de toneladas, versus 97,3 ‌milhões de toneladas no ciclo passado."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportAgribusinessNews/tagreuters.com2026binary_LYNXNPEMA51YL-BASEIMAGE.jpg?w=800&h=534&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/brasil-pode-colher-recorde-de-151-7-milhoes-de-toneladas-de-milho.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "43e85ad55f3670df",
+      "titulo": "Santiago Peña depõe à Justiça paraguaia após impeachment e prisão domiciliar | G1",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "g1 - Capa",
+      "urlFonte": "https://g1.globo.com/mundo/noticia/2026/11/07/santiago-pena-depoe-a-justica-paraguaia-apos-impeachment-e-prisao-domiciliar.ghtml",
+      "dataFonte": "2026-11-07T14:29:51.394Z",
+      "resumoFonte": "Ex-presidente paraguaio depõe após prisão decretada por envolvimento no escândalo do banco ueno, que gerou crise econômica e política no Paraguai.",
+      "imagem": "https://s2-g1.glbimg.com/Pjnj4UWv3o9y7gcCco12Zp8Wq60=/5184x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/f/R/leWClsTXShP3lC4kqThQ/2026-11-07t125513z-1845262360-rc2zioasyg89-rtrmadp-3-paraguay-politics.jpg",
+      "descobertaEm": "2026-11-07T15:20:55.638Z"
+    },
+    {
+      "id": "f239eb61cb69be34",
+      "titulo": "Nubank normaliza operações com criptomoedas após falha em fornecedor externo",
+      "categoria": "Economia",
       "radar": null,
       "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/onde-investir/criptomoedas-trump-vitoria-democrata-congresso-eua/",
-      "dataFonte": "2026-11-07T13:58:24.000Z",
-      "resumoFonte": "Um recorte do presidente dos EUA, Donald Trump, segurando um token de Bitcoin durante a conferência Bitcoin 2025 em Las Vegas. Fotógrafa: Bridget Bennett/Bloomberg \" data-image-caption=\" Um recorte do presidente dos EUA, Donald Trump, segurando um token de Bitcoin durante a conferência Bitcoin 2025 em Las Vegas. Fotógrafa: Bridget Bennett/Bloomberg…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/trump-cripto.jpg",
+      "urlFonte": "https://www.infomoney.com.br/onde-investir/nubank-normaliza-saques-depositos-criptomoedas/",
+      "dataFonte": "2026-11-07T14:15:24.000Z",
+      "resumoFonte": "Saques e depósitos foram restabelecidos na noite de sexta-feira (6); banco afirma que ativos e informações dos clientes permaneceram protegidos The post Nubank normaliza operações com criptomoedas após falha em fornecedor externo appeared first on InfoMoney .",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2023/08/nucoin.jpeg?fit=820%2C430&quality=70&strip=all",
       "descobertaEm": "2026-11-07T14:18:40.001Z",
       "reportagem": {
-        "titulo": "Vitória democrata põe em xeque era de ouro das criptomoedas sob Trump",
-        "slug": "vitoria-democrata-poe-em-xeque-era-de-ouro-das-criptomoedas-sob-trump",
-        "categoria": "Política Nacional",
+        "titulo": "Nubank normaliza operações com criptomoedas após falha em fornecedor externo",
+        "slug": "nubank-normaliza-operacoes-com-criptomoedas-apos-falha-em-fornecedor-externo",
+        "categoria": "Economia",
         "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/vitoria-democrata-poe-em-xeque-era-de-ouro-das-criptomoedas-sob-trump.jpg",
-        "resumo": "Vitória democrata no Congresso dos EUA ameaça agenda cripto de Trump e abre caminho para regras mais rígidas e investigações sobre o setor.",
-        "conteudo": "<p>A fase de excepcional apoio político ao mercado de criptomoedas em Washington chegou a um fim abrupto.</p><h2>O contexto do cenário político</h2><p>Com os democratas prestes a assumir o controle do Congresso após a vitória nas eleições de meio de mandato, o setor enfrenta a perspectiva de regras mais rígidas e maior fiscalização de seus vínculos com o presidente Donald Trump .</p><p>Durante dois anos, a indústria cripto desfrutou de uma posição privilegiada na capital americana.</p><p>Tinha ao seu lado um presidente que transformou os ativos digitais em prioridade nacional, ao mesmo tempo que ampliava sua própria fortuna com negócios em criptomoedas, reguladores favoráveis à expansão do setor e um Congresso republicano alinhado a essa agenda.</p><h2>Informações e repercussões do episódio</h2><p>Agora, o mercado enfrenta seu teste mais difícil para se consolidar como uma força permanente no sistema financeiro, justamente quando perde boa parte de sua influência política.</p><p>A vitória democrata no Congresso americano ameaça dificultar a aprovação de uma legislação abrangente nos termos desejados pela indústria e abre caminho para investigações parlamentares sobre os negócios de Trump com criptomoedas.</p><p>“Muitas figuras importantes do setor cripto se alinharam com a família Trump”, disse Austin Campbell, especialista em criptomoedas e ex-banqueiro que atualmente é professor adjunto da NYU Stern School of Business. “Essa aproximação provavelmente vai cobrar seu preço.”</p><p>“A ocorrência não é na infraestrutura do Nubank e não compromete a segurança dos clientes: todos os ativos e informações seguem protegidos”, afirmou o banco</p><p>Trump lançou seus próprios ativos digitais, recebeu executivos do setor na Casa Branca e incorporou as ambições da indústria à sua agenda política.</p><p>Em contrapartida, as principais conquistas das criptomoedas passaram a ficar intimamente associadas à sua Presidência. Os interesses financeiros pessoais do republicano, porém, também complicaram os esforços do setor para conquistar apoio político mais amplo.</p><p>Essa relação chegou a um ponto crítico em setembro, quando o Senado não conseguiu avançar com o Clarity Act , projeto de lei destinado a estabelecer regras mais claras para corretoras e outras empresas de ativos digitais.</p><p>Os negócios de Trump com criptomoedas se tornaram um dos principais focos de divergência. Desacordos sobre a remuneração de stablecoins, a proteção dos investidores e a concorrência com os bancos também contribuíram para o impasse.</p><p>Os democratas sinalizaram que pretendem exigir regras éticas mais rigorosas, maior proteção aos consumidores e uma participação mais ampla da Comissão de Valores Mobiliários dos Estados Unidos (SEC, na sigla em inglês) na supervisão dos ativos digitais.</p><p>Essas mudanças se distanciam do modelo defendido por muitas empresas de criptomoedas durante o controle republicano. Por outro lado, também podem abrir caminho para uma nova legislação, caso o setor consiga construir apoio entre os dois partidos.</p><p>“Haverá uma postura defensiva à medida que a indústria se reajusta a uma nova liderança, pelo menos inicialmente”, disse Adam Minehardt, diretor de políticas do Hyperliquid Policy Center.</p><p>As grandes apostas políticas da indústria de criptomoedas também podem trazer consequências.</p><p>Sherrod Brown, derrotado em 2024 após grupos de lobby do setor investirem milhões de dólares na campanha contra ele, venceu o senador republicano de Ohio, Jon Husted.</p><p>Segundo a consultoria Capstone, Brown poderá assumir uma posição de destaque no Comitê de Agricultura do Senado, responsável pela supervisão da Comissão de Negociação de Futuros de Commodities (CFTC, na sigla em inglês), um dos principais órgãos reguladores do mercado cripto.</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/nubank-normaliza-operacoes-com-criptomoedas-apos-falha-em-fornecedor-externo.jpg",
+        "resumo": "Nubank restabelece saques e depósitos de criptomoedas após falha em fornecedor externo. Banco afirma que ativos dos clientes permaneceram protegidos.",
+        "conteudo": "<p>O Nubank informou que normalizou as operações de saques e depósitos de criptomoedas em sua plataforma desde as 22h desta sexta-feira (6), após uma instabilidade em um fornecedor externo de dados.</p><h2>Dados e contexto do setor</h2><p>Em nota, o banco digital afirmou que “a instabilidade em um fornecedor externo de dados não afetou sua infraestrutura, e os ativos e as informações dos clientes permaneceram protegidos”.</p><p>A instituição não informou qual prestadora de serviços apresentou o problema.</p><p>Setor perde força política em Washington e enfrenta risco de regras mais rígidas, investigações sobre negócios da família Trump e novos obstáculos à regulamentação</p><h2>Impactos e informações adicionais</h2><p>A normalização ocorre após o Nubank e o Mercado Pago suspenderem transferências de criptomoedas na sexta-feira , em meio a uma sequência de turbulências no setor de ativos digitais.</p><p>Na ocasião, o Nubank explicou que a interrupção havia sido provocada por uma instabilidade em um fornecedor externo de dados, sem comprometimento dos ativos dos clientes.</p><p>O Mercado Pago também confirmou problemas nas transferências de criptoativos, atribuídos a um incidente envolvendo um fornecedor de monitoramento de riscos e prevenção à lavagem de dinheiro.</p><p>Segundo a instituição, parte das transferências para carteiras externas foi bloqueada preventivamente, enquanto as operações de compra e venda de criptomoedas continuaram funcionando normalmente.</p><p>Até o momento, não há confirmação de que o Mercado Pago tenha restabelecido os serviços afetados.</p>",
         "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/onde-investir/criptomoedas-trump-vitoria-democrata-congresso-eua/",
+        "fonteUrl": "https://www.infomoney.com.br/onde-investir/nubank-normaliza-saques-depositos-criptomoedas/",
         "fontesAdicionais": [
           {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
           },
           {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "A fase de excepcional apoio político ao mercado de criptomoedas em Washington chegou a um fim abrupto. Com os democratas prestes a assumir o controle do Congresso após a vitória nas eleições de meio de mandato, o setor enfrenta a perspectiva de regras mais rígidas e maior fiscalização de seus vínculos com o presidente Donald Trump ."
+            "resposta": "O Nubank informou que normalizou as operações de saques e depósitos de criptomoedas em sua plataforma desde as 22h desta sexta-feira (6), após uma instabilidade em um fornecedor externo de dados."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Durante dois anos, a indústria cripto desfrutou de uma posição privilegiada na capital americana. Tinha ao seu lado um presidente que transformou os ativos digitais em prioridade nacional, ao mesmo tempo que ampliava sua própria fortuna com negócios em criptomoedas, reguladores favoráveis à expansão do setor e um Congresso republicano alinhado a essa agenda."
+            "resposta": "Em nota, o banco digital afirmou que “a instabilidade em um fornecedor externo de dados não afetou sua infraestrutura, e os ativos e as informações dos clientes permaneceram protegidos”."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Agora, o mercado enfrenta seu teste mais difícil para se consolidar como uma força permanente no sistema financeiro, justamente quando perde boa parte de sua influência política."
+            "resposta": "A instituição não informou qual prestadora de serviços apresentou o problema."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A vitória democrata no Congresso americano ameaça dificultar a aprovação de uma legislação abrangente nos termos desejados pela indústria e abre caminho para investigações parlamentares sobre os negócios de Trump com criptomoedas."
+            "resposta": "Setor perde força política em Washington e enfrenta risco de regras mais rígidas, investigações sobre negócios da família Trump e novos obstáculos à regulamentação"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "“Muitas figuras importantes do setor cripto se alinharam com a família Trump”, disse Austin Campbell, especialista em criptomoedas e ex-banqueiro que atualmente é professor adjunto da NYU Stern School of Business. “Essa aproximação provavelmente vai cobrar seu preço.”"
+            "resposta": "A normalização ocorre após o Nubank e o Mercado Pago suspenderem transferências de criptomoedas na sexta-feira , em meio a uma sequência de turbulências no setor de ativos digitais."
           }
         ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/trump-cripto.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/vitoria-democrata-poe-em-xeque-era-de-ouro-das-criptomoedas-sob-trump.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "82200cf99c08bd61",
-      "titulo": "Governadora do DF volta a tentar conversa com Lula sobre crise do BRB",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb/",
-      "dataFonte": "2026-11-07T12:48:14.000Z",
-      "resumoFonte": "Trata-se de uma nova tentativa de Celina Leão; Palácio do Planalto não recebeu a chefe do Executivo no primeiro semestre diante do desgaste político provocado pelo escândalo do Master",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Thumb-para-corte-30.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-07T14:18:40.001Z",
-      "reportagem": {
-        "titulo": "Governadora do DF volta a tentar conversa com Lula sobre crise do BRB",
-        "slug": "governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb",
-        "categoria": "Política Nacional",
-        "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb.jpg",
-        "resumo": "Trata-se de uma nova tentativa de Celina Leão; Palácio do Planalto não recebeu a chefe do Executivo no primeiro semestre diante do desgaste político provocado pelo escândalo do Master",
-        "conteudo": "<p>A governadora do Distrito Federal, Celina Leão (PP), voltou a tentar conversar com o presidente Luiz Inácio Lula da Silva (PT) para discutir a situação financeira do BRB (Banco de Brasília).</p><h2>O contexto do cenário político</h2><p>De acordo com fontes ouvidas pelo CNN Money , intermediários do Palácio do Buriti estão negociando o encontro com interlocutores do Palácio do Planalto.</p><p>Celina já havia tentado marcar uma reunião com o presidente Lula no primeiro semestre deste ano para falar sobre a crise do BRB. Contudo, o Palácio do Planalto recusou o pedido diante do desgaste político provocado pelo escândalo envolvendo o Banco Master.</p><p>Em agosto, o STF (Supremo Tribunal Federal) mediou uma audiência de conciliação entre o Governo do Distrito Federal e a União para viabilizar o acordo para um empréstimo de até R$ 6,6 bilhões para o BRB. A audiência terminou sem consenso .</p><h2>Detalhes e consequências do caso</h2><p>Inicialmente, o governo do DF negociava um empréstimo com recursos do FGC (Fundo Garantidor de Créditos), com garantia de um sindicato de bancos públicos e privados.</p><p>A operação teria a utilização de dois fundos do Distrito Federal como contragarantia em caso de calote do governo local. São eles:</p><p>Para ajudar o BRB, o governo federal se comprometeu a flexibilizar regras do PAF (Plano de Ajuste Fiscal) do governo do Distrito Federal para permitir uma operação de crédito de maior porte. A iniciativa não previa a transferência de recursos federais nem garantia da União.</p><p>Mesmo assim, o governo do Distrito Federal encontrou dificuldades para conseguir o empréstimo com bancos privados.</p><p>Entre os principais pontos levantados para a continuidade das negociações, estão a segurança das garantias oferecidas aos bancos em caso de inadimplência e as informações necessárias para a análise do plano de negócios do BRB.</p><p>Diante das dificuldades em fechar o empréstimo com bancos no Brasil, Celina se reuniu com investidores dos Emirados Árabes Unidos interessados em fazer aportes financeiros no BRB.</p><p>Em meados de outubro, o BRB informou não haver ato ou deliberação formal da companhia sobre o negócio com os investidores árabes.</p><p>A governadora do Distrito Federal, Celina Leão (PP)</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A governadora do Distrito Federal, Celina Leão (PP), voltou a tentar conversar com o presidente Luiz Inácio Lula da Silva (PT) para discutir a situação financeira do BRB (Banco de Brasília)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "De acordo com fontes ouvidas pelo CNN Money , intermediários do Palácio do Buriti estão negociando o encontro com interlocutores do Palácio do Planalto."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Celina já havia tentado marcar uma reunião com o presidente Lula no primeiro semestre deste ano para falar sobre a crise do BRB. Contudo, o Palácio do Planalto recusou o pedido diante do desgaste político provocado pelo escândalo envolvendo o Banco Master."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Em agosto, o STF (Supremo Tribunal Federal) mediou uma audiência de conciliação entre o Governo do Distrito Federal e a União para viabilizar o acordo para um empréstimo de até R$ 6,6 bilhões para o BRB. A audiência terminou sem consenso ."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Inicialmente, o governo do DF negociava um empréstimo com recursos do FGC (Fundo Garantidor de Créditos), com garantia de um sindicato de bancos públicos e privados. A operação teria a utilização de dois fundos do Distrito Federal como contragarantia em caso de calote do governo local. São eles:"
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Thumb-para-corte-30.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "77201c18e88315e6",
-      "titulo": "Governadora do DF tenta nova conversa com Lula para tratar de crise do BRB",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governadora-do-df-tenta-nova-conversa-com-lula-para-tratar-de-crise-do-brb/",
-      "dataFonte": "2026-11-07T12:48:14.000Z",
-      "resumoFonte": "Trata-se de uma nova tentativa de Celina Leão; Palácio do Planalto não recebeu a chefe do Executivo no primeiro semestre diante do desgaste político provocado pelo escândalo do Master",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Thumb-para-corte-30.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-07T13:18:43.230Z",
-      "reportagem": {
-        "titulo": "Governadora do DF volta a tentar conversa com Lula sobre crise do BRB",
-        "slug": "governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb",
-        "categoria": "Política Nacional",
-        "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb.jpg",
-        "resumo": "Trata-se de uma nova tentativa de Celina Leão; Palácio do Planalto não recebeu a chefe do Executivo no primeiro semestre diante do desgaste político provocado pelo escândalo do Master",
-        "conteudo": "<p>A governadora do Distrito Federal, Celina Leão (PP), voltou a tentar conversar com o presidente Luiz Inácio Lula da Silva (PT) para discutir a situação financeira do BRB (Banco de Brasília).</p><h2>O contexto do cenário político</h2><p>De acordo com fontes ouvidas pelo CNN Money , intermediários do Palácio do Buriti estão negociando o encontro com interlocutores do Palácio do Planalto.</p><p>Celina já havia tentado marcar uma reunião com o presidente Lula no primeiro semestre deste ano para falar sobre a crise do BRB. Contudo, o Palácio do Planalto recusou o pedido diante do desgaste político provocado pelo escândalo envolvendo o Banco Master.</p><p>Em agosto, o STF (Supremo Tribunal Federal) mediou uma audiência de conciliação entre o Governo do Distrito Federal e a União para viabilizar o acordo para um empréstimo de até R$ 6,6 bilhões para o BRB. A audiência terminou sem consenso .</p><h2>Detalhes e consequências do caso</h2><p>Inicialmente, o governo do DF negociava um empréstimo com recursos do FGC (Fundo Garantidor de Créditos), com garantia de um sindicato de bancos públicos e privados.</p><p>A operação teria a utilização de dois fundos do Distrito Federal como contragarantia em caso de calote do governo local. São eles:</p><p>Para ajudar o BRB, o governo federal se comprometeu a flexibilizar regras do PAF (Plano de Ajuste Fiscal) do governo do Distrito Federal para permitir uma operação de crédito de maior porte. A iniciativa não previa a transferência de recursos federais nem garantia da União.</p><p>Mesmo assim, o governo do Distrito Federal encontrou dificuldades para conseguir o empréstimo com bancos privados.</p><p>Entre os principais pontos levantados para a continuidade das negociações, estão a segurança das garantias oferecidas aos bancos em caso de inadimplência e as informações necessárias para a análise do plano de negócios do BRB.</p><p>Diante das dificuldades em fechar o empréstimo com bancos no Brasil, Celina se reuniu com investidores dos Emirados Árabes Unidos interessados em fazer aportes financeiros no BRB.</p><p>Em meados de outubro, o BRB informou não haver ato ou deliberação formal da companhia sobre o negócio com os investidores árabes.</p><p>A governadora do Distrito Federal, Celina Leão (PP)</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governadora-do-df-tenta-nova-conversa-com-lula-para-tratar-de-crise-do-brb/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A governadora do Distrito Federal, Celina Leão (PP), voltou a tentar conversar com o presidente Luiz Inácio Lula da Silva (PT) para discutir a situação financeira do BRB (Banco de Brasília)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "De acordo com fontes ouvidas pelo CNN Money , intermediários do Palácio do Buriti estão negociando o encontro com interlocutores do Palácio do Planalto."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Celina já havia tentado marcar uma reunião com o presidente Lula no primeiro semestre deste ano para falar sobre a crise do BRB. Contudo, o Palácio do Planalto recusou o pedido diante do desgaste político provocado pelo escândalo envolvendo o Banco Master."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Em agosto, o STF (Supremo Tribunal Federal) mediou uma audiência de conciliação entre o Governo do Distrito Federal e a União para viabilizar o acordo para um empréstimo de até R$ 6,6 bilhões para o BRB. A audiência terminou sem consenso ."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Inicialmente, o governo do DF negociava um empréstimo com recursos do FGC (Fundo Garantidor de Créditos), com garantia de um sindicato de bancos públicos e privados. A operação teria a utilização de dois fundos do Distrito Federal como contragarantia em caso de calote do governo local. São eles:"
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Thumb-para-corte-30.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "30c150f38687ba28",
-      "titulo": "Projeto cria política de saúde mental na educação básica",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-congresso/projeto-cria-politica-de-saude-mental-na-educacao-basica/",
-      "dataFonte": "2026-11-07T12:24:53.000Z",
-      "resumoFonte": "Proposta foi apresentada pela deputada federal Renata Abreu (Podemos-SP) e está em análise na Câmara",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/renata-abreu-1200x675.jpg",
-      "descobertaEm": "2026-11-07T13:18:43.230Z",
-      "reportagem": {
-        "titulo": "Projeto cria política de saúde mental na educação básica",
-        "slug": "projeto-cria-politica-de-saude-mental-na-educacao-basica",
-        "categoria": "Política Nacional",
-        "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/projeto-cria-politica-de-saude-mental-na-educacao-basica.jpg",
-        "resumo": "Proposta foi apresentada pela deputada federal Renata Abreu (Pode-SP) e está em análise na Câmara.",
-        "conteudo": "<p>Proposta foi apresentada pela deputada federal Renata Abreu (Podemos-SP) e está em análise na Câmara</p><h2>O contexto do cenário político</h2><p>O projeto de lei 3.118 de 2026 institui a Política Nacional de Saúde Mental, Desenvolvimento Socioemocional e Projeto de Vida na Educação Básica.</p><p>O objetivo é promover o desenvolvimento integral dos estudantes, fortalecer fatores de proteção e prevenir situações como bullying , cyberbullying e automutilação nas escolas.</p><p>A proposta foi apresentada pela deputada federal Renata Abreu (Podemos-SP) e está em análise na Câmara.</p><h2>Informações e repercussões do episódio</h2><p>“ O cenário educacional brasileiro enfrenta um desafio que transcende o conteúdo programático tradicional ”, afirmou a congressista.</p><p>“ A ausência de uma política nacional coordenada resulta em ações isoladas e descontinuadas, deixando redes de ensino desamparadas no manejo de conflitos e na identificação precoce de sofrimento emocional .”</p><p>O texto estabelece que os sistemas de ensino desenvolvam:</p><p>Também determina a formação continuada de educadores para a identificação precoce de quadros de sofrimento emocional e o posterior encaminhamento dos casos a serviços especializados.</p><p>O Ministério da Educação poderá elaborar guias, protocolos e materiais pedagógicos para apoiar as redes de ensino.</p><p>A proposta altera a Lei de Diretrizes e Bases da Educação Nacional para estabelecer expressamente que a educação básica promoverá o desenvolvimento integral do estudante em suas dimensões cognitiva, socioemocional, física, ética e cidadã.</p><p>Para custear as medidas, o projeto estabelece fontes de financiamento que incluem:</p><p>A verba será direcionada prioritariamente para a formação de profissionais, a elaboração de material pedagógico e o apoio técnico aos sistemas de ensino.</p><p>A proposta cria ainda o Sistema Nacional de Monitoramento do Bem-Estar e Desenvolvimento Integral dos Estudantes; e o Índice Nacional de Bem-Estar e Desenvolvimento Integral dos Estudantes.</p><p>O Inep (Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira) ficará responsável por calcular o índice e publicar relatórios nacionais a cada dois anos.</p><p>O projeto proíbe o uso do índice para punição, ranking individual de estudantes ou qualquer forma de discriminação.</p><p>Renata Abreu diz que o investimento em aspectos socioemocionais traz reflexos amplos para o país. “ Não se trata apenas de educação, mas de um projeto de nação que visa reduzir a violência escolar e promover a cidadania ética no século 21 ”, afirmou.</p><p>O projeto tramita em caráter conclusivo e será analisado pelas seguintes comissões da Câmara:</p><p>Para virar lei, a proposta precisa ser aprovada pelos deputados e pelos senadores.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-congresso/projeto-cria-politica-de-saude-mental-na-educacao-basica/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Proposta foi apresentada pela deputada federal Renata Abreu (Podemos-SP) e está em análise na Câmara"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O projeto de lei 3.118 de 2026 institui a Política Nacional de Saúde Mental, Desenvolvimento Socioemocional e Projeto de Vida na Educação Básica. O objetivo é promover o desenvolvimento integral dos estudantes, fortalecer fatores de proteção e prevenir situações como bullying , cyberbullying e automutilação nas escolas."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A proposta foi apresentada pela deputada federal Renata Abreu (Podemos-SP) e está em análise na Câmara."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "“ O cenário educacional brasileiro enfrenta um desafio que transcende o conteúdo programático tradicional ”, afirmou a congressista."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "“ A ausência de uma política nacional coordenada resulta em ações isoladas e descontinuadas, deixando redes de ensino desamparadas no manejo de conflitos e na identificação precoce de sofrimento emocional .”"
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/renata-abreu-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/projeto-cria-politica-de-saude-mental-na-educacao-basica.jpg",
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2023/08/nucoin.jpeg?fit=820%2C430&quality=70&strip=all",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/nubank-normaliza-operacoes-com-criptomoedas-apos-falha-em-fornecedor-externo.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -709,98 +697,26 @@
       }
     },
     {
-      "id": "92fa28da6fa7a8e5",
-      "titulo": "Ueno Bank: escândalo que levou à queda do presidente do Paraguai pode ser comparado ao do Banco Master?",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "BBC Brasil",
-      "urlFonte": "https://www.bbc.com/portuguese/articles/c6eq33z529jwo?at_medium=RSS&at_campaign=rss",
-      "dataFonte": "2026-11-07T13:26:41.000Z",
-      "resumoFonte": "Crescimento rápido, exposição relevante de recursos públicos e relações próximas com o mundo político estão entre as semelhanças dos dois casos. Mas analistas apontam diferenças relevantes",
-      "imagem": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/91f1/live/c9b5f8b0-d9ff-11f1-b441-2b33b063138f.png",
-      "descobertaEm": "2026-11-07T14:18:40.001Z",
-      "reportagem": {
-        "titulo": "Ueno Bank: escândalo que levou à queda do presidente do Paraguai pode ser comparado ao do Banco Master?",
-        "slug": "ueno-bank-escandalo-que-levou-a-queda-do-presidente-do-paraguai-pode-ser-comparado-ao-do-b",
-        "categoria": "Economia",
-        "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/ueno-bank-escandalo-que-levou-a-queda-do-presidente-do-paraguai-pode-ser-comparado-ao-do-b.jpg",
-        "resumo": "Crescimento rápido, exposição relevante de recursos públicos e relações próximas com o mundo político estão entre as semelhanças dos dois casos. Mas analistas apontam diferenças relevantes",
-        "conteudo": "<p>A liquidação do banco Ueno desencadeou uma forte crise política no Paraguai, com a renúncia do presidente do Banco Central do País e depois, o impeachment e a prisão do agora ex-presidente Santiago Peña.</p><h2>Dados e contexto do setor</h2><p>Peña foi acionista do Grupo Vázquez, controlador do banco Ueno, até março de 2025. O então presidente do Banco Central paraguaio, Carlos Carvallo Spalding, também havia comandado o Ueno antes de assumir o cargo público.</p><p>A crise bancária, de um banco com fortes laços políticos e envolvendo montante relevante de recursos públicos, incluindo aposentadorias, levou a comparações entre à crise do Ueno com a do banco Master , no Brasil.</p><p>Especialistas ouvidos pela BBC News Brasil, apontam que, de fato, há muitos pontos de contato entre os casos, mas também diferenças relevantes, como a escala do Ueno na economia paraguaia, e a proximidade direta do banco com o presidente do país – que já estava politicamente fragilizado por crises internas dentro de seu partido, o Colorado, o que acabou precipitando sua rápida queda.</p><h2>Detalhes e consequências do caso</h2><p>&quot;É impressionante a semelhança entre os casos Master e Ueno. Nos dois houve exposição relevante de recursos públicos, inclusive da previdência, crescimento muito rápido apoiado em ativos frágeis e relações próximas com o mundo político&quot;, afirma Thiago Amâncio, diretor associado da equipe de riscos geopolíticos da consultoria Control Risks.</p><p>&quot;Mas a diferença fundamental é a dimensão do Ueno no sistema paraguaio, já que quase metade da população tem conta no banco.</p><p>É uma escala completamente diferente da do Master, que se tivesse um tamanho equivalente teria provocado uma crise financeira imensa por aqui, não só política.&quot;</p><p>O Ueno surgiu da aquisição em 2021 da antiga Financiera El Comercio pelo Grupo Vázquez. A marca Ueno foi lançada em fevereiro de 2022.</p><p>Em novembro do ano seguinte a instituição recebeu autorização do Banco Central do Paraguai (BCP) para operar como banco. Em 2024, incorporou o Visión Banco, ampliando sua carteira de clientes e operações.</p><p>Assim, pouco mais de três anos, o banco tornou-se um dos principais do Paraguai e, segundo dados da própria instituição, tinha 3 milhões de clientes, o equivalente a 60% da população adulta do país.</p><p>Já no caso do Master, Daniel Vorcaro entrou como sócio do então Banco Máxima em 2017. Dois anos depois, o Banco Central do Brasil autorizou a transferência do controle da instituição para o banqueiro e, em 2021, o banco passou a se chamar Banco Master.</p><p>Veja notícias do Brasil e do mundo no BBC World Service</p><p>As estratégias dos bancos para conquistar clientes, porém, foram diferentes: enquanto o Ueno apostou na abertura digital de contas, em descontos e na devolução de parte do valor das compras, o Master atraiu investidores com CDBs (Certificados de depósito bancário) que ofereciam remuneração muito acima da média do mercado.</p><p>&quot;O Ueno era um banco de varejo, que cresceu ampliando a base de clientes, então ele foi agressivo no cartão de crédito e abertura de contas, enquanto o Master estava mais preocupado em comprar ativos, captar dinheiro e usar esse dinheiro para alavancar ativos com baixa liquidez&quot;, observa Alexandre Jorge Chaia, professor nas disciplinas de gestão de riscos financeiros e produtos bancários no Insper.</p><p>&quot;Os dois cresceram bastante, mas foi em ritmos bem diferentes. O Ueno Bank, em três anos, saiu de um banco inexpressivo para um dos principais bancos do país. Já no caso do Master, foram seis anos de crescimento, mas do ponto de vista de relevância, nunca foi grande.&quot;</p><p>No Paraguai, o Ueno administrava cerca de US$ 850 milhões em recursos públicos, entre eles fundos do Instituto de Previdência Social (IPS), responsável pelo pagamento de aposentadorias, pensões e outros benefícios.</p><p>No Brasil, regimes próprios de previdência de Estados e municípios investiram cerca de R$ 1,8 bilhão em títulos emitidos pelo Master, segundo dados do Ministério da Previdência Social.</p><p>No Paraguai, o Banco Central apontou empréstimos considerados excessivos a empresas ligadas ao grupo controlador do Ueno, o Vázquez, que teve Santiago Peña como acionista até o ano passado e o ex-presidente do Banco Central paraguaio como executivo.</p>",
-        "fonteNome": "BBC Brasil",
-        "fonteUrl": "https://www.bbc.com/portuguese/articles/c6eq33z529jwo?at_medium=RSS&at_campaign=rss",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A liquidação do banco Ueno desencadeou uma forte crise política no Paraguai, com a renúncia do presidente do Banco Central do País e depois, o impeachment e a prisão do agora ex-presidente Santiago Peña."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Peña foi acionista do Grupo Vázquez, controlador do banco Ueno, até março de 2025. O então presidente do Banco Central paraguaio, Carlos Carvallo Spalding, também havia comandado o Ueno antes de assumir o cargo público."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A crise bancária, de um banco com fortes laços políticos e envolvendo montante relevante de recursos públicos, incluindo aposentadorias, levou a comparações entre à crise do Ueno com a do banco Master , no Brasil."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Especialistas ouvidos pela BBC News Brasil, apontam que, de fato, há muitos pontos de contato entre os casos, mas também diferenças relevantes, como a escala do Ueno na economia paraguaia, e a proximidade direta do banco com o presidente do país – que já estava politicamente fragilizado por crises internas dentro de seu partido, o Colorado, o que acabou precipitando sua rápida queda."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "&quot;É impressionante a semelhança entre os casos Master e Ueno. Nos dois houve exposição relevante de recursos públicos, inclusive da previdência, crescimento muito rápido apoiado em ativos frágeis e relações próximas com o mundo político&quot;, afirma Thiago Amâncio, diretor associado da equipe de riscos geopolíticos da consultoria Control Risks."
-          }
-        ],
-        "imagemOriginal": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/91f1/live/c9b5f8b0-d9ff-11f1-b441-2b33b063138f.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/ueno-bank-escandalo-que-levou-a-queda-do-presidente-do-paraguai-pode-ser-comparado-ao-do-b.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "87e6b7b89a804f85",
-      "titulo": "Malévola perde ação contra banco após bloqueio de R$ 8 mil em conta",
-      "categoria": "Economia",
+      "id": "6233d6f71ba82e9b",
+      "titulo": "NBA: Doncic marca do próprio garrafão e faz 53 pontos em vitória dos Lakers",
+      "categoria": "Cidades",
       "radar": null,
       "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/fabia-oliveira/malevola-perde-acao-contra-banco-apos-bloqueio-de-r-8-mil-em-conta",
-      "dataFonte": "2026-11-07T12:00:25.000Z",
-      "resumoFonte": "Influenciadora teve cerca de R$ 8,2 mil bloqueados por ordem judicial e pediu R$ 50 mil por danos morais, mas não conseguiu a indenização",
-      "imagem": "https://i.metroimg.com/wvYTwB2wiiuWYYrDbvUH7BsVh21dTBZhOHsz7dZaPEc/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/estao-seguras-diz-empresario-apos-malevola-deixar-prisao-no-egito.jpg",
-      "descobertaEm": "2026-11-07T12:18:23.923Z"
-    },
-    {
-      "id": "2ced5d3ce87066a3",
-      "titulo": "Jatinho de Zé Felipe tem pane e cantor perde aniversário de Álvaro Xaro",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/celebridades/jatinho-de-ze-felipe-tem-pane-e-cantor-perde-aniversario-de-alvaro-xaro",
-      "dataFonte": "2026-11-07T11:56:17.000Z",
-      "resumoFonte": "Cantor relatou que a aeronave apresentou um problema antes da decolagem. Ele ainda tentou pegar o jatinho emprestado de Virginia Fonseca",
-      "imagem": "https://i.metroimg.com/XH0Y1Cgw_xI-2OKs2hj3haZYuP9w8BRFxvRTZZQ0QSw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/07/ze-felipe-jato-particular-1.jpg",
-      "descobertaEm": "2026-11-07T12:18:23.923Z",
+      "urlFonte": "https://www.metropoles.com/esportes/nba-doncic-marca-do-proprio-garrafao-e-faz-53-pontos-em-vitoria-dos-lakers",
+      "dataFonte": "2026-11-07T14:49:04.000Z",
+      "resumoFonte": "Los Angeles Lakers venceu o Portland Trail Blazers por 124 x 118, fora de casa. Luka Doncic comandou o triunfo da equipe da Califórnia",
+      "imagem": "https://i.metroimg.com/SEa-L3QXdznGMFxd0ioUHlEn2DTOrihnjBQ4_EC5yug/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/luka-doncic-lakers.jpg",
+      "descobertaEm": "2026-11-07T15:18:25.842Z",
       "reportagem": {
-        "titulo": "Jatinho de Zé Felipe tem pane e cantor perde aniversário de Álvaro Xaro",
-        "slug": "jatinho-de-ze-felipe-tem-pane-e-cantor-perde-aniversario-de-alvaro-xaro",
-        "categoria": "Cultura",
+        "titulo": "NBA: Doncic marca do próprio garrafão e faz 53 pontos em vitória dos Lakers",
+        "slug": "nba-doncic-marca-do-proprio-garrafao-e-faz-53-pontos-em-vitoria-dos-lakers",
+        "categoria": "Cidades",
         "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/jatinho-de-ze-felipe-tem-pane-e-cantor-perde-aniversario-de-alvaro-xaro.jpg",
-        "resumo": "Cantor relatou que a aeronave apresentou um problema antes da decolagem. Ele ainda tentou pegar o jatinho emprestado de Virginia Fonseca",
-        "conteudo": "<p>Pronto para se apresentar na festa de aniversário do influenciador digital Álvaro Xaro, o cantor Zé Felipe passou por um susto com o jatinho e precisou cancelar a participação na comemoração.</p><h2>As informações principais do assunto</h2><p>Nessa sexta-feira (7/11), ele contou que a aeronave apresentou uma pane momentos antes da decolagem, o que impediu a viagem.</p><p>“Estava indo agora para o aniversário do Álvaro para tocar empolgadão e o avião deu uma pane, mano, e não deu pra gente decolar. Meu avião está manutenção”, contou.</p><h2>Contexto e informações complementares</h2><p>Diante do imprevisto, o artista ainda tentou encontrar uma alternativa para chegar à festa. Para isso, recorreu à ex-esposa, Virginia Fonseca , que chegou a emprestar a própria aeronave. No entanto, a viagem não foi possível porque os pilotos estavam fora do país.</p><p>“Eu liguei pra Virgínia, ela me emprestou dela, mas em cima (da hora) a gente não conseguiu falar com o piloto. Os pilotos estão estão nos Estados Unidos”, detalhou.</p><p>Cancelamento de participação: o cantor Zé Felipe cancelou apresentação na festa do influenciador Álvaro Xaro após pane em seu jatinho; Tentativa de alternativa: o artista tentou utilizar a aeronave de Virginia Fonseca, mas não conseguiu contato com os pilotos, que estavam nos Estados Unidos; Relato de passageiro: Rafa Uccman relatou um barulho forte e alteração na pressão interna antes da aeronave retornar à base.</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/nba-doncic-marca-do-proprio-garrafao-e-faz-53-pontos-em-vitoria-dos-lakers.jpg",
+        "resumo": "Los Angeles Lakers venceu o Portland Trail Blazers por 124 x 118, fora de casa. Luka Doncic comandou o triunfo da equipe da Califórnia",
+        "conteudo": "<p>Luka Doncic fez um jogo inesquecível pelo Los Angeles Lakers na madrugada deste sábado (7/11). O astro esloveno anotou 53 pontos e liderou a equipe na vitória por 124 a 118 contra o Portland Trail Blazers pela NBA .</p><h2>Dados e informações dos municípios</h2><p>A noite de gala foi coroada com um arremesso do próprio garrafão, que terminou em cesta .</p><p>A cesta de Doncic aconteceu no estouro do cronômetro do segundo quarto. Com o tempo quase zerado, ele arriscou da própria defesa e acertou o arremesso, para delírio dos torcedores que acompanhavam a partida em Portland.</p><h2>Contexto e diferenças locais</h2><p>Aos 27 anos, Doncic também chegou a uma marca importante na partida. Com os 53 pontos, o esloveno soma 361 nos oito primeiros jogos da temporada, superando os 307 pontos de Michael Jordan. Agora o astro dos Lakers está atrás de Wilt Chamberlain, com 418 no ano de 1962.</p><p>Receba notícias de Esportes no seu WhatsApp e fique por dentro de tudo! Basta acessar o canal de notícias do Metrópoles no WhatsApp .</p><p>Quer ficar por dentro de tudo que rola no mundo dos esportes e receber as notícias direto no seu celular? Entre no canal de esportes do Metrópoles no Telegram e não deixe de nos seguir também no perfil de esportes do Metrópoles no Instagram !</p><p>Desempenho de Luka Doncic: o jogador anotou 53 pontos e liderou o Los Angeles Lakers na vitória por 124 a 118 contra o Portland Trail Blazers; Cesta de longa distância: o atleta converteu um arremesso do próprio garrafão no estouro do cronômetro do segundo quarto; Marca na carreira: com 361 pontos nos oito primeiros jogos da temporada, o esloveno superou a marca de 307 pontos de Michael Jordan.</p>",
         "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/celebridades/jatinho-de-ze-felipe-tem-pane-e-cantor-perde-aniversario-de-alvaro-xaro",
+        "fonteUrl": "https://www.metropoles.com/esportes/nba-doncic-marca-do-proprio-garrafao-e-faz-53-pontos-em-vitoria-dos-lakers",
         "fontesAdicionais": [
           {
             "nome": "A Gazeta",
@@ -815,112 +731,160 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Pronto para se apresentar na festa de aniversário do influenciador digital Álvaro Xaro, o cantor Zé Felipe passou por um susto com o jatinho e precisou cancelar a participação na comemoração. Nessa sexta-feira (7/11), ele contou que a aeronave apresentou uma pane momentos antes da decolagem, o que impediu a viagem."
+            "resposta": "Luka Doncic fez um jogo inesquecível pelo Los Angeles Lakers na madrugada deste sábado (7/11). O astro esloveno anotou 53 pontos e liderou a equipe na vitória por 124 a 118 contra o Portland Trail Blazers pela NBA . A noite de gala foi coroada com um arremesso do próprio garrafão, que terminou em cesta ."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "“Estava indo agora para o aniversário do Álvaro para tocar empolgadão e o avião deu uma pane, mano, e não deu pra gente decolar. Meu avião está manutenção”, contou."
+            "resposta": "A cesta de Doncic aconteceu no estouro do cronômetro do segundo quarto. Com o tempo quase zerado, ele arriscou da própria defesa e acertou o arremesso, para delírio dos torcedores que acompanhavam a partida em Portland."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Diante do imprevisto, o artista ainda tentou encontrar uma alternativa para chegar à festa. Para isso, recorreu à ex-esposa, Virginia Fonseca , que chegou a emprestar a própria aeronave. No entanto, a viagem não foi possível porque os pilotos estavam fora do país."
+            "resposta": "Aos 27 anos, Doncic também chegou a uma marca importante na partida. Com os 53 pontos, o esloveno soma 361 nos oito primeiros jogos da temporada, superando os 307 pontos de Michael Jordan. Agora o astro dos Lakers está atrás de Wilt Chamberlain, com 418 no ano de 1962."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "“Eu liguei pra Virgínia, ela me emprestou dela, mas em cima (da hora) a gente não conseguiu falar com o piloto. Os pilotos estão estão nos Estados Unidos”, detalhou."
+            "resposta": "Receba notícias de Esportes no seu WhatsApp e fique por dentro de tudo! Basta acessar o canal de notícias do Metrópoles no WhatsApp ."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Cancelamento de participação: o cantor Zé Felipe cancelou apresentação na festa do influenciador Álvaro Xaro após pane em seu jatinho; Tentativa de alternativa: o artista tentou utilizar a aeronave de Virginia Fonseca, mas não conseguiu contato com os pilotos, que estavam nos Estados Unidos; Relato de passageiro: Rafa Uccman relatou um barulho forte e alteração na pressão interna antes da aeronave retornar à base."
+            "resposta": "Quer ficar por dentro de tudo que rola no mundo dos esportes e receber as notícias direto no seu celular? Entre no canal de esportes do Metrópoles no Telegram e não deixe de nos seguir também no perfil de esportes do Metrópoles no Instagram !"
           }
         ],
-        "imagemOriginal": "https://i.metroimg.com/XH0Y1Cgw_xI-2OKs2hj3haZYuP9w8BRFxvRTZZQ0QSw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/07/ze-felipe-jato-particular-1.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/jatinho-de-ze-felipe-tem-pane-e-cantor-perde-aniversario-de-alvaro-xaro.jpg",
+        "imagemOriginal": "https://i.metroimg.com/SEa-L3QXdznGMFxd0ioUHlEn2DTOrihnjBQ4_EC5yug/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/luka-doncic-lakers.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/nba-doncic-marca-do-proprio-garrafao-e-faz-53-pontos-em-vitoria-dos-lakers.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "b39f18f5ae3cb9c2",
-      "titulo": "Brasil pode liderar mercado de IA, mas temos gap de talentos, diz CTO da Localiza",
-      "categoria": "Tecnologia",
+      "id": "6e9dcd63e5e247c9",
+      "titulo": "Thizil, dupla de Mario, é internado após acidente grave que matou mulher",
+      "categoria": "Cultura",
       "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/business/brasil-pode-liderar-mercado-de-ia-mas-temos-gap-de-talentos-diz-cto-da-localiza/",
-      "dataFonte": "2026-11-07T12:00:00.000Z",
-      "resumoFonte": "Isabela Rosa/MBA Brasil \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/andre-petenussi.jpeg?fit=1280%2C853&quality=70&strip=all\" />André Petenussi participou de evento do MBA Brasil em Chicago, nos Estados Unidos The post Brasil pode liderar mercado de IA, mas temos gap de talentos, diz CTO da Localiza appeared first on…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/andre-petenussi.jpeg?fit=1600%2C1066&quality=70&strip=all",
-      "descobertaEm": "2026-11-07T12:18:23.923Z",
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/celebridades/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher",
+      "dataFonte": "2026-11-07T13:09:03.000Z",
+      "resumoFonte": "O cantor sertanejo Thizil, da dupla com Mario, está internado com quatro fraturas após a caminhonete em que viajava colidir com outro carro",
+      "imagem": "https://i.metroimg.com/6YVOW4TMnNUFyf4YgltQuWWnfXMy0cO3jINk6Q4blhw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/thizil-da-dupla-com-mario-ficou-ferido-em-acidente-na-br-070-em-goias.jpg",
+      "descobertaEm": "2026-11-07T13:18:43.230Z",
       "reportagem": {
-        "titulo": "Brasil pode liderar mercado de IA, mas temos gap de talentos, diz CTO da Localiza",
-        "slug": "brasil-pode-liderar-mercado-de-ia-mas-temos-gap-de-talentos-diz-cto-da-localiza",
-        "categoria": "Tecnologia",
+        "titulo": "Thizil, dupla de Mario, é internado após acidente grave que matou mulher",
+        "slug": "thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher",
+        "categoria": "Cultura",
         "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/brasil-pode-liderar-mercado-de-ia-mas-temos-gap-de-talentos-diz-cto-da-localiza.jpg",
-        "resumo": "André Petenussi participou de evento do MBA Brasil em Chicago, nos Estados Unidos",
-        "conteudo": "<p>CHICAGO (EUA) – O Brasil tem “oportunidades importantes” para liderar o uso de inteligência artificial, na avaliação do CTO da Localiza ( RENT3 ) André Petenussi.</p><h2>Dados e contexto do setor</h2><p>Durante participação na Conferência MBA Brasil 2026 nesta sexta-feira (5), ele explicou que há caraterísticas brasileiras que favorecem a adoção de IA, mas fez uma ressalva importante.</p><p>“A população do País é early adopter , tem infraestrutura de pagamento instantâneo [o pix] que todo mundo usa, tem muitos ativos para uso de IA. No entanto, há dificuldades: temos um gap de talentos”, disse.</p><p>O executivo defende que as pessoas tendem a ver a IA “como algo que vai substituir uma parte do que a gente faz hoje”.</p><h2>Impactos e informações adicionais</h2><p>Para ele, isso não necessariamente é verdade: “A IA depende de quem está pilotando. O diferencial sempre esteve ali.</p><p>O valor está no quanto você conhece do cliente, da jornada, como usar a ferramenta, como ter rentabilidade maior. A ironia da automação é que quanto mais automatiza, sobra pro humano a parte mais difícil.</p><p>A capacidade de conhecimento que vc criou dentro de casa, de negócio, da operação, do cliente.”</p><p>Segundo Petenussi, “o modelo se compra, dado se organiza, mas é preciso treinar e instruir [os profissionais].” Ele destaca que o mercado muda o tempo todo: “Coisas que testamos três anos atrás não estão mais no ar, mas foram alicerces para soluções hj que trazem soluções para o nosso negócio.”</p><p>O CTO encara a descoberta e adoção da IA no mesmo patamar da eletricidade e da internet. “Toda vez que aparece uma tecnologia nova, algo muito forte da sociedade muda. Eletricidade definiu o nosso conceito de tempo.</p><p>Internet como a gente se comunica. E a IA vai definir o trabalho. E, para isso, tem muita capacitação para ser feita.”</p><p>André Petenussi participou da Conferência MBA Brasil 2026, que chega à quinta edição neste ano.</p><p>Desta vez, nos dias 6 e 7 de novembro, reunirá em Chicago, nos Estados Unidos, executivos de algumas das maiores empresas do Brasil e do mundo para discutir os rumos e as perspectivas de negócios dos principais setores da economia e do empreendedorismo brasileiros.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/business/brasil-pode-liderar-mercado-de-ia-mas-temos-gap-de-talentos-diz-cto-da-localiza/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher.jpg",
+        "resumo": "O cantor sertanejo Thizil, da dupla com Mario, está internado com quatro fraturas após a caminhonete em que viajava colidir com outro carro",
+        "conteudo": "<p>O cantor sertanejo Thizil , da dupla com Mario, sofreu um acidente de trânsito durante uma viagem a Querência (MT), onde faria um show neste sábado (7/11).</p><h2>As informações principais do assunto</h2><p>A colisão ocorreu na tarde de sexta-feira (6/11), na BR-070, próximo ao município de Jussara (GO). Uma mulher que estava no outro veículo morreu no local.</p><p>O artista viajava em uma caminhonete com dois músicos da banda e o filho quando o veículo bateu contra outro carro na rodovia.</p><p>Segundo Mario, Thizil foi socorrido e transferido para o Hospital Estadual de Anápolis, onde permanece internado. Ele sofreu três fraturas no pé e outra na perna e deverá passar por uma cirurgia.</p><h2>Contexto e informações complementares</h2><p>Mario e Thizil cancelaram a apresentação que fariam em Querência (MT), neste sábado (7/11)</p><p>Thizil sofreu quatro fraturas e deverá passar por cirurgia em Anápolis (GO)</p><p>Thizil, da dupla com Mario, está internado após acidente na BR-070</p><p>Acidente de trânsito: a colisão entre dois veículos na BR-070, próximo a Jussara (GO), resultou na morte de uma mulher na sexta-feira (6/11); Estado do cantor: Thizil sofreu fraturas no pé e na perna e está internado no Hospital Estadual de Anápolis para cirurgia; Relato do parceiro: segundo Mario, ouvido pelo Metrópoles , o acidente ocorreu durante uma ultrapassagem de um terceiro veículo na rodovia; Estado dos envolvidos: o filho do cantor recebeu alta, um músico segue internado em estado estável e outro não se feriu.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/celebridades/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher",
         "fontesAdicionais": [
           {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
           },
           {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "CHICAGO (EUA) – O Brasil tem “oportunidades importantes” para liderar o uso de inteligência artificial, na avaliação do CTO da Localiza ( RENT3 ) André Petenussi. Durante participação na Conferência MBA Brasil 2026 nesta sexta-feira (5), ele explicou que há caraterísticas brasileiras que favorecem a adoção de IA, mas fez uma ressalva importante."
+            "resposta": "O cantor sertanejo Thizil , da dupla com Mario, sofreu um acidente de trânsito durante uma viagem a Querência (MT), onde faria um show neste sábado (7/11). A colisão ocorreu na tarde de sexta-feira (6/11), na BR-070, próximo ao município de Jussara (GO). Uma mulher que estava no outro veículo morreu no local."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "“A população do País é early adopter , tem infraestrutura de pagamento instantâneo [o pix] que todo mundo usa, tem muitos ativos para uso de IA. No entanto, há dificuldades: temos um gap de talentos”, disse."
+            "resposta": "O artista viajava em uma caminhonete com dois músicos da banda e o filho quando o veículo bateu contra outro carro na rodovia. Segundo Mario, Thizil foi socorrido e transferido para o Hospital Estadual de Anápolis, onde permanece internado. Ele sofreu três fraturas no pé e outra na perna e deverá passar por uma cirurgia."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O executivo defende que as pessoas tendem a ver a IA “como algo que vai substituir uma parte do que a gente faz hoje”."
+            "resposta": "Mario e Thizil cancelaram a apresentação que fariam em Querência (MT), neste sábado (7/11)"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Para ele, isso não necessariamente é verdade: “A IA depende de quem está pilotando. O diferencial sempre esteve ali. O valor está no quanto você conhece do cliente, da jornada, como usar a ferramenta, como ter rentabilidade maior. A ironia da automação é que quanto mais automatiza, sobra pro humano a parte mais difícil."
+            "resposta": "Thizil sofreu quatro fraturas e deverá passar por cirurgia em Anápolis (GO)"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Segundo Petenussi, “o modelo se compra, dado se organiza, mas é preciso treinar e instruir [os profissionais].” Ele destaca que o mercado muda o tempo todo: “Coisas que testamos três anos atrás não estão mais no ar, mas foram alicerces para soluções hj que trazem soluções para o nosso negócio.”"
+            "resposta": "Thizil, da dupla com Mario, está internado após acidente na BR-070"
           }
         ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/andre-petenussi.jpeg?fit=1600%2C1066&quality=70&strip=all",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/brasil-pode-liderar-mercado-de-ia-mas-temos-gap-de-talentos-diz-cto-da-localiza.jpg",
+        "imagemOriginal": "https://i.metroimg.com/6YVOW4TMnNUFyf4YgltQuWWnfXMy0cO3jINk6Q4blhw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/thizil-da-dupla-com-mario-ficou-ferido-em-acidente-na-br-070-em-goias.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "3e45825f8a9158e9",
-      "titulo": "Após impeachment e prisão, ex-presidente do Paraguai enfrenta audiência sobre Banco Ueno",
+      "id": "102581ee252b62a2",
+      "titulo": "Cliente se revolta com fatura de celular, ameaça funcionárias de morte e é preso em Arapongas",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://tnonline.uol.com.br/noticias/arapongas/cliente-se-revolta-com-fatura-de-celular-ameaca-funcionarias-de-morte-e-e-preso-em-arapongas-1171970",
+      "dataFonte": "2026-11-07T14:52:25.000Z",
+      "resumoFonte": "m homem foi preso na manhã desta sexta-feira (6) após ameaçar matar as funcionárias de uma loja de telefonia no centro de Arapongas (PR). A confusão começou porque o cliente estava insatisfeito com o...",
+      "imagem": "https://cdn.tnonline.com.br/img/Artigo-Destaque/1170000/1200x630/como-o-homem-resistiu-a-abordagem-os-agentes-tiver-01171970-0-202611071152/ScaleProportionalFillBackground-1.jpg?fallback=https%3A%2F%2Fcdn.tnonline.com.br%2Fimg%2FArtigo-Destaque%2F1170000%2Fcomo-o-homem-resistiu-a-abordagem-os-agentes-tiver-01171970-0-202611071152.jpg%3Fxid%3D1863808&xid=1863808",
+      "descobertaEm": "2026-11-07T15:18:25.842Z"
+    },
+    {
+      "id": "682879d74e2cd8af",
+      "titulo": "Gonet pede ao STF para suspender ações sobre MP que acabou com as bets",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/11/07/gonet-pede-ao-stf-para-suspender-acoes-sobre-mp-que-acabou-com-as-bets.htm",
+      "dataFonte": "2026-11-07T15:04:00.000Z",
+      "resumoFonte": "O procurador-geral da República, Paulo Gonet, pediu ao Supremo Tribunal Federal (STF) para suspender temporariamente, em todo o País, o trâmite de processos judiciais que tenham por objeto a discussão sobre a constitucionalidade da Medida Provisória nº 1.394/2026, que baniu as casas de apostas esportivas e cassinos online no Brasil.",
+      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
+      "descobertaEm": "2026-11-07T15:18:25.842Z"
+    },
+    {
+      "id": "9c5127b31a1c827d",
+      "titulo": "Lula deve receber presidente do STJ para tratar de nomeações ao tribunal",
       "categoria": "Justiça",
       "radar": null,
       "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/mundo/apos-impeachment-e-prisao-ex-presidente-do-paraguai-enfrenta-audiencia-sobre-banco-ueno/",
-      "dataFonte": "2026-11-07T12:55:47.000Z",
-      "resumoFonte": "Santiago Peña deve se apresentar ao Ministério Público do país na manhã deste sábado",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/GettyImages-2296436142.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-07T13:18:43.230Z",
+      "urlFonte": "https://veja.abril.com.br/brasil/lula-deve-receber-presidente-do-stj-para-tratar-de-nomeacoes-ao-tribunal/",
+      "dataFonte": "2026-11-07T15:01:44.000Z",
+      "resumoFonte": "Petista vai escolher pelo menos três novos integrantes para a Corte em 2027",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-13-at-17.40.04.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-11-07T15:18:25.842Z"
+    },
+    {
+      "id": "13350e3dee2c8070",
+      "titulo": "Roberto Justus denuncia golpe e uso indevido de sua imagem: \"Lamentável\"",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/colunas/fabia-oliveira/roberto-justus-denuncia-golpe-e-uso-indevido-de-sua-imagem-lamentavel",
+      "dataFonte": "2026-11-07T15:00:10.000Z",
+      "resumoFonte": "O empresário usou o Instagram, neste sábado (7/11), para contar que tirou uma propaganda do ar, mas que os criminosos continuam divulgando",
+      "imagem": "https://i.metroimg.com/DUWCj_Zf1A1JkQsKPj7nYO--BC_eK1ymfOSCT2mGN5Q/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/roberto-justus-denuncia-golpe-uso-indevido-imagem-ia.jpg",
+      "descobertaEm": "2026-11-07T15:18:25.842Z"
+    },
+    {
+      "id": "dab26c1a6c271c17",
+      "titulo": "Fachin homologa delação de ex-dono da Reag no caso Master",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-justica/fachin-homologa-delacao-de-ex-dono-da-reag-no-caso-master/",
+      "dataFonte": "2026-11-07T14:33:58.000Z",
+      "resumoFonte": "Empresário João Carlos Mansur havia fechado acordo com a PGR em setembro; Compliance Zero está provisoriamente no gabinete da presidência do STF",
+      "imagem": "https://static.poder360.com.br/uploads/2026/03/jose-carlos-mansur-reag-banco-master-cpi-crime-organizado-11.mar_.2026.jpg",
+      "descobertaEm": "2026-11-07T15:18:25.842Z",
       "reportagem": {
-        "titulo": "Após impeachment e prisão, ex-presidente do Paraguai enfrenta audiência sobre Banco Ueno",
-        "slug": "apos-impeachment-e-prisao-ex-presidente-do-paraguai-enfrenta-audiencia-sobre-banco-ueno",
+        "titulo": "Fachin homologa delação de ex-dono da Reag no caso Master",
+        "slug": "fachin-homologa-delacao-de-ex-dono-da-reag-no-caso-master",
         "categoria": "Justiça",
         "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/apos-impeachment-e-prisao-ex-presidente-do-paraguai-enfrenta-audiencia-sobre-banco-ueno.jpg",
-        "resumo": "Santiago Peña deve se apresentar ao Ministério Público do país na manhã deste sábado",
-        "conteudo": "<p>O ex-presidente do Paraguai , Santiago Pe&ntilde;a , e o ex-presidente do Banco Central (BCP), Carlos Carvallo, devem comparecer ao Minist&eacute;rio P&uacute;blico do pa&iacute;s neste s&aacute;bado, 7, para uma audi&ecirc;ncia preliminar relacionada &agrave; investiga&ccedil;&atilde;o do esc&acirc;ndalo do Banco Ueno .</p><h2>O contexto da decisão judicial</h2><p>Segundo o jornal paraguaio La Nacion, Pe&ntilde;a se apresenta ao &oacute;rg&atilde;o &agrave;s 11h30, enquanto Carvallo tem audi&ecirc;ncia marcada para as 15h30.</p><p>Ambos est&atilde;o sujeitos a um mandado de pris&atilde;o expedido pelo Minist&eacute;rio P&uacute;blico na sexta-feira, no &acirc;mbito das investiga&ccedil;&otilde;es do esquema banc&aacute;rio que deixou milhares de pessoas sem acesso &agrave;s suas contas no pa&iacute;s.</p><p>A investiga&ccedil;&atilde;o busca esclarecer as supostas responsabilidades de funcion&aacute;rios atuais e antigos nas opera&ccedil;&otilde;es do Banco Ueno, os mecanismos de supervis&atilde;o do sistema financeiro e a aloca&ccedil;&atilde;o de recursos p&uacute;blicos na institui&ccedil;&atilde;o.</p><h2>Detalhes e consequências do caso</h2><p>Ex-s&oacute;cio da holding que controlava o banco, Pe&ntilde;a renunciou &agrave; presid&ecirc;ncia na quinta-feira, mas sua sa&iacute;da volunt&aacute;ria n&atilde;o foi aceita pelo Congresso Nacional.</p><p>Ao inv&eacute;s disso, o senado prosseguiu com o processo de impeachment, e votou pela destitui&ccedil;&atilde;o do pol&iacute;tico na sexta-feira, por m&aacute; conduta no cargo.</p><p>Ap&oacute;s a decis&atilde;o, o vice-presidente Pedro Alliana assumiu a Presid&ecirc;ncia da Rep&uacute;blica.</p><p>Horas depois do an&uacute;ncio, Pe&ntilde;a foi formalmente indiciado e preso pelo MP.</p><p>A audi&ecirc;ncia agendada para este s&aacute;bado deve marcar as primeiras declara&ccedil;&otilde;es oficiais sobre o caso, determinando se Pe&ntilde;a e o ex-presidente do banco central paraguaio prestar&atilde;o depoimento ou se recusar&atilde;o a faz&ecirc;-lo.</p><p>A turbul&ecirc;ncia come&ccedil;ou ap&oacute;s o Banco Central do Paraguai intervir no Ueno Bank, institui&ccedil;&atilde;o do Grupo V&aacute;zquez, diante de problemas de solv&ecirc;ncia e da insufici&ecirc;ncia de recursos para cobrir suas obriga&ccedil;&otilde;es.</p><p>Segundo as investiga&ccedil;&otilde;es, a situa&ccedil;&atilde;o estaria relacionada, entre outros fatores, a empr&eacute;stimos concedidos a empresas ligadas ao pr&oacute;prio grupo controlador.</p><p>O banco, que atendia cerca de 3 milh&otilde;es de clientes e administrava aproximadamente 850 milh&otilde;es de d&oacute;lares em recursos p&uacute;blicos, incluindo dep&oacute;sitos de fundos previdenci&aacute;rios, teve suas opera&ccedil;&otilde;es suspensas.</p><p>A medida deixou correntistas sem acesso imediato ao dinheiro e provocou protestos em Assun&ccedil;&atilde;o, capital do pa&iacute;s.</p><p>O governo anunciou que parte dos dep&oacute;sitos seria devolvida por meio do Fundo de Garantia de Dep&oacute;sitos.</p><p>A crise tamb&eacute;m atingiu diretamente o Executivo por causa da liga&ccedil;&atilde;o anterior de Pe&ntilde;a com o grupo controlador da institui&ccedil;&atilde;o.</p><p>O presidente havia sido acionista da holding at&eacute; mar&ccedil;o de 2025. Parlamentares da oposi&ccedil;&atilde;o o acusaram de conflito de interesses, de favorecer o banco por meio de decis&otilde;es regulat&oacute;rias e de concentrar recursos previdenci&aacute;rios na institui&ccedil;&atilde;o.</p><p>Tamb&eacute;m questionaram a atua&ccedil;&atilde;o do Banco Central diante dos problemas financeiros.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/mundo/apos-impeachment-e-prisao-ex-presidente-do-paraguai-enfrenta-audiencia-sobre-banco-ueno/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/fachin-homologa-delacao-de-ex-dono-da-reag-no-caso-master.jpg",
+        "resumo": "Em setembro, o empresário João Carlos Mansur fechou acordo com a PGR; Compliance Zero está provisoriamente no gabinete da presidência.",
+        "conteudo": "<p>Empresário João Carlos Mansur havia fechado acordo com a PGR em setembro; Compliance Zero está provisoriamente no gabinete da presidência do STF</p><h2>O contexto da decisão judicial</h2><p>O presidente do Supremo Tribunal Federal , Edson Fachin, homologou a delação premiada do empresário João Carlos Mansur, ex-dono da Reag. O acordo foi fechado com a Procuradoria Geral da República em setembro, dentro da operação Compliance Zero.</p><p>Mansur é investigado em um dos inquéritos do caso Master, sob relatoria do ministro André Mendonça. Os processos, contudo, estão provisoriamente no gabinete de Fachin desde setembro, em meio a divergências sobre a condução das investigações.</p><p>Segundo a investigação, a Reag administrou fundos usados por Daniel Vorcaro para retirar recursos do Banco Master e direcioná-los ao patrimônio pessoal do empresário ou ao pagamento de propina.</p><h2>Detalhes e consequências do caso</h2><p>O Banco Central também identificou operações irregulares entre o banco e fundos da Reag Trust de julho de 2023 a julho de 2024. O Master declarou que a gestora atuava só como prestadora de serviços.</p><p>Bacharel em ciências contábeis pela Fundação Armando Alvares Penteado, Mansur tem mais de 35 anos de experiência no mercado financeiro e afirma ter estruturado mais de 200 fundos de investimento.</p><p>Fundou a Reag em 2012 e permaneceu como presidente do conselho de administração até setembro de 2025. A gestora chegou a administrar cerca de R$ 341,5 bilhões.</p><p>Mansur também trabalhou na Trump Realty Brazil e passou por empresas como PwC, Monsanto, Tishman Speyer, GetNinjas e Azevedo &amp; Travassos.</p><p>No futebol, integrou conselhos do Palmeiras e participou das negociações para a construção do Allianz Parque quando atuava na WTorre.</p><p>Ele foi alvo das operações Carbono Oculto, que investiga fraudes e lavagem de dinheiro no setor de combustíveis, e Compliance Zero, sobre suspeitas de crimes financeiros ligados ao Banco Master.</p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-justica/fachin-homologa-delacao-de-ex-dono-da-reag-no-caso-master/",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -935,52 +899,64 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O ex-presidente do Paraguai , Santiago Pe&ntilde;a , e o ex-presidente do Banco Central (BCP), Carlos Carvallo, devem comparecer ao Minist&eacute;rio P&uacute;blico do pa&iacute;s neste s&aacute;bado, 7, para uma audi&ecirc;ncia preliminar relacionada &agrave; investiga&ccedil;&atilde;o do esc&acirc;ndalo do Banco Ueno ."
+            "resposta": "Empresário João Carlos Mansur havia fechado acordo com a PGR em setembro; Compliance Zero está provisoriamente no gabinete da presidência do STF"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Segundo o jornal paraguaio La Nacion, Pe&ntilde;a se apresenta ao &oacute;rg&atilde;o &agrave;s 11h30, enquanto Carvallo tem audi&ecirc;ncia marcada para as 15h30."
+            "resposta": "O presidente do Supremo Tribunal Federal , Edson Fachin, homologou a delação premiada do empresário João Carlos Mansur, ex-dono da Reag. O acordo foi fechado com a Procuradoria Geral da República em setembro, dentro da operação Compliance Zero."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A investiga&ccedil;&atilde;o busca esclarecer as supostas responsabilidades de funcion&aacute;rios atuais e antigos nas opera&ccedil;&otilde;es do Banco Ueno, os mecanismos de supervis&atilde;o do sistema financeiro e a aloca&ccedil;&atilde;o de recursos p&uacute;blicos na institui&ccedil;&atilde;o."
+            "resposta": "Mansur é investigado em um dos inquéritos do caso Master, sob relatoria do ministro André Mendonça. Os processos, contudo, estão provisoriamente no gabinete de Fachin desde setembro, em meio a divergências sobre a condução das investigações."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Ex-s&oacute;cio da holding que controlava o banco, Pe&ntilde;a renunciou &agrave; presid&ecirc;ncia na quinta-feira, mas sua sa&iacute;da volunt&aacute;ria n&atilde;o foi aceita pelo Congresso Nacional."
+            "resposta": "Segundo a investigação, a Reag administrou fundos usados por Daniel Vorcaro para retirar recursos do Banco Master e direcioná-los ao patrimônio pessoal do empresário ou ao pagamento de propina."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Horas depois do an&uacute;ncio, Pe&ntilde;a foi formalmente indiciado e preso pelo MP. A audi&ecirc;ncia agendada para este s&aacute;bado deve marcar as primeiras declara&ccedil;&otilde;es oficiais sobre o caso, determinando se Pe&ntilde;a e o ex-presidente do banco central paraguaio prestar&atilde;o depoimento ou se recusar&atilde;o a faz&ecirc;-lo."
+            "resposta": "O Banco Central também identificou operações irregulares entre o banco e fundos da Reag Trust de julho de 2023 a julho de 2024. O Master declarou que a gestora atuava só como prestadora de serviços."
           }
         ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/09/GettyImages-2296436142.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/apos-impeachment-e-prisao-ex-presidente-do-paraguai-enfrenta-audiencia-sobre-banco-ueno.jpg",
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/03/jose-carlos-mansur-reag-banco-master-cpi-crime-organizado-11.mar_.2026.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/fachin-homologa-delacao-de-ex-dono-da-reag-no-caso-master.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "1fd4f9815bf0e841",
-      "titulo": "Justiça suspende decisão que liberava 3 bets no Brasil",
+      "id": "da6bdc7c1bb0e759",
+      "titulo": "Lula propõe encontro com Alliana em Brasília após impeachment de Peña",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-justica/justica-suspende-decisao-que-liberava-3-bets-no-brasil/",
-      "dataFonte": "2026-11-07T12:11:49.000Z",
-      "resumoFonte": "Tribunal atendeu a pedido da AGU e considerou que liberação de empresa de apostas poderia comprometer regras nacionais do setor",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/Jogador-no-Fortune-Tiger-1200x675.png",
-      "descobertaEm": "2026-11-07T12:18:23.923Z",
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/politica/lula-pedro-alliana-brasilia-impeachment-pena/",
+      "dataFonte": "2026-11-07T14:30:13.000Z",
+      "resumoFonte": "Presidente da República, Luiz Inácio Lula da Silva, durante Reunião Extraordinária do Conselho Nacional de Política Energética (CNPE), no Ministério de Minas e Energia, Brasília – DF. Foto: Ricardo Stuckert \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/55636836030_528f3c9572_k.jpg?fit=1280%2C720&quality=70&strip=all\"…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/55636836030_528f3c9572_k.jpg?fit=2048%2C1152&quality=70&strip=all",
+      "descobertaEm": "2026-11-07T15:18:25.842Z"
+    },
+    {
+      "id": "19c605a2023ce7c2",
+      "titulo": "Peña chega ao Ministério Público do Paraguai para audiência com promotoria",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "CNN Brasil - Capa",
+      "urlFonte": "https://www.cnnbrasil.com.br/internacional/pena-chega-no-ministerio-publico-do-paraguai-diz-imprensa-local/",
+      "dataFonte": "2026-11-07T14:21:41.000Z",
+      "resumoFonte": "Ex-presidente foi detido pelas autoridades na sexta-feira (6) após sofrer impeachment no Congresso Nacional do país por acusações de envolvimento no caso do Ueno Bank",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/2026-11-05T163906Z_2_LYNXNPEMA41T5_RTROPTP_4_PARAGUAY-POLITICS.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-07T15:20:55.638Z",
       "reportagem": {
-        "titulo": "Justiça suspende decisão que liberava 3 bets no Brasil",
-        "slug": "justica-suspende-decisao-que-liberava-3-bets-no-brasil",
+        "titulo": "Peña chega ao Ministério Público do Paraguai para audiência com promotoria",
+        "slug": "pena-chega-ao-ministerio-publico-do-paraguai-para-audiencia-com-promotoria",
         "categoria": "Justiça",
         "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/justica-suspende-decisao-que-liberava-3-bets-no-brasil.jpg",
-        "resumo": "Tribunal atendeu a pedido da AGU e considerou que liberação de empresa de apostas poderia comprometer regras nacionais do setor",
-        "conteudo": "<p>Tribunal atendeu a pedido da AGU e considerou que liberação de empresa de apostas poderia comprometer regras nacionais do setor</p><h2>O contexto da decisão judicial</h2><p>O presidente do Tribunal Regional Federal da 3ª Região, desembargador Luís Antonio Johonsom Di Salvo, suspendeu na 6ª feira (6.nov.2026) uma decisão liminar que autorizava a empresa de apostas CDA Gaming Ltda a retomar suas operações no Brasil .</p><p>A determinação atende a um pedido da AGU (Advocacia Geral da União).</p><p>A companhia é responsável pelas plataformas Casa de Apostas, Betsul e Jogo Online, e havia conseguido uma liminar para voltar a operar a partir de 5ª feira (5.nov).</p><h2>Detalhes e consequências do caso</h2><p>Com a suspensão, a CDA Gaming volta a ficar sujeita à medida provisória nº 1.394 de 2026 , editada pelo presidente Luiz Inácio Lula da Silva (PT) em setembro.</p><p>A norma proíbe as bets no Brasil, incluindo o “ Tigrinho ”, cassinos on-line e plataformas de apostas esportivas.</p><p>Ao analisar o pedido da União, o desembargador identificou, na manutenção da liminar, risco concreto de grave lesão à ordem pública. Segundo o magistrado, as regras de proteção aos consumidores e apostadores devem ser aplicadas de maneira uniforme em todo o território nacional.</p><p>Di Salvo afirmou que a autorização individual da empresa poderia comprometer a aplicação da política nacional para o setor. O entendimento leva em conta a possibilidade de outras plataformas recorrerem à Justiça para conseguir autorizações semelhantes.</p><p>A suspensão continuará em vigor até o trânsito em julgado da ação, quando não houver mais possibilidade de recurso, ou até nova deliberação da presidência do Tribunal.</p><p>A autorização para a retomada das atividades havia sido concedida pela desembargadora Adriana Pileggi de Soveral. A decisão beneficiava exclusivamente a CDA Gaming e não permitia o funcionamento de outras empresas do setor.</p><p>Na ação judicial, a companhia informou ter desembolsado R$ 30 milhões para obter uma licença de exploração de apostas de quota fixa, válida até 31 de dezembro de 2029.</p><p>A empresa questionou a interrupção das atividades antes do fim desse prazo, sob o argumento de que a medida violava os princípios da segurança jurídica e da proporcionalidade.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-justica/justica-suspende-decisao-que-liberava-3-bets-no-brasil/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/pena-chega-ao-ministerio-publico-do-paraguai-para-audiencia-com-promotoria.jpg",
+        "resumo": "Ex-presidente foi detido pelas autoridades na sexta-feira (6) após sofrer impeachment no Congresso Nacional do país por acusações de envolvimento no caso do Ueno Bank",
+        "conteudo": "<p>O ex-presidente do Paraguai, Santiago Peña, chegou à unidade do Ministério Público do Paraguai em Assunção neste sábado (7) para fazer sua primeira aparição desde que foi detido na sexta-feira (6).</p><h2>O contexto da decisão judicial</h2><p>Peña é acusado de ter participação no escândalo envolvendo o Ueno Bank e teve seu impeachment declarado na sexta-feira pelo Congresso Nacional do Paraguai. O ex-líder do Paraguai é investigado por suspeitas de gestão fraudulenta e outros crimes relacionados à crise no país.</p><p>Em imagens capturadas pela emissora de TV local, NPY, é possível observar o ex-presidente deixando seu carro, acompanhado de uma equipe policial, antes de entrar no prédio, onde deve realizar depoimentos às autoridades.</p><p>A assessoria do Ministério Público do Paraguai confirmou a chegada de Peña à correspondente Luciana Taddeo, da CNN Brasil.</p><h2>Detalhes e consequências do caso</h2><p>A ordem de prisão foi assinada por promotores da Unidade Especializada em Crimes Econômicos e Anticorrupção e da Unidade Especializada em Crimes Informáticos.</p><p>&quot;As pessoas detidas deverão ser colocadas à disposição da autoridade competente dentro do prazo legal, com observância de seus direitos e garantias&quot;, destacaram.</p><p>Promotores que falaram do lado de fora da casa de Peña, em Assunção, disseram que as acusações ainda estavam sendo definidas, mas poderiam incluir tráfico de influência.</p><p>A ordem do Ministério Público foi anunciada pouco tempo após o Senado aprovar o impeachment de Peña e destituir o presidente. O placar para a destituição foi de 44 votos a favor e uma abstenção. A Câmara dos Deputados já havia aprovado a movimentação um dia antes.</p><p>O antigo vice-presidente, Pedro Alliana, assumiu a liderança do país após a retirada de Peña do poder ser confirmada.</p><p>O banco Ueno, de propriedade do Grupo Vázquez, fechou suas portas na terça-feira (3) depois que o Banco Central do Paraguai iniciou um processo de liquidação da instituição ao constatar um déficit em seus índices de solvência relacionado a empréstimos concedidos a empresas vinculadas.</p><p>Peña, um economista que assumiu o governo em 2023 , foi acionista até março do ano passado do grupo proprietário do banco, que contava com cerca de 3 milhões de clientes e concentrava cerca de US$ 850 milhões (equivalente a cerca de R$ 4,6 bilhões) em depósitos públicos, incluindo recursos do Instituto de Previdência Social.</p><p>A oposição acusou Peña de conflito de interesses , manipulação regulatória, desvio de recursos previdenciários e encobrimento institucional por parte do Banco Central, entre outros pontos.</p><p>“Nunca antes alguém prejudicou, em um único dia, 3 milhões de pessoas na República do Paraguai, e o senhor conseguiu isso, senhor presidente...</p><p>o senhor é a origem desse monstro que criou”, disse a deputada da oposição Rocío Vallejo durante sessão, pouco antes de apresentar a acusação contra o presidente.</p><p>Peña afirmou em uma publicação na rede social X que os responsáveis pelas irregularidades responderão perante a Justiça, sem exceções, pouco antes de promulgar uma lei que permitirá aos poupadores do Ueno recuperar seu dinheiro em menos tempo.</p><p>Presidente do Paraguai, Santiago Peña, durante entrevista à Reuters, em Assunção21 de agosto de 2024 REUTERS/César Olmedo</p>",
+        "fonteNome": "CNN Brasil - Capa",
+        "fonteUrl": "https://www.cnnbrasil.com.br/internacional/pena-chega-no-ministerio-publico-do-paraguai-diz-imprensa-local/",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -995,45 +971,105 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Tribunal atendeu a pedido da AGU e considerou que liberação de empresa de apostas poderia comprometer regras nacionais do setor"
+            "resposta": "O ex-presidente do Paraguai, Santiago Peña, chegou à unidade do Ministério Público do Paraguai em Assunção neste sábado (7) para fazer sua primeira aparição desde que foi detido na sexta-feira (6)."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O presidente do Tribunal Regional Federal da 3ª Região, desembargador Luís Antonio Johonsom Di Salvo, suspendeu na 6ª feira (6.nov.2026) uma decisão liminar que autorizava a empresa de apostas CDA Gaming Ltda a retomar suas operações no Brasil . A determinação atende a um pedido da AGU (Advocacia Geral da União)."
+            "resposta": "Peña é acusado de ter participação no escândalo envolvendo o Ueno Bank e teve seu impeachment declarado na sexta-feira pelo Congresso Nacional do Paraguai. O ex-líder do Paraguai é investigado por suspeitas de gestão fraudulenta e outros crimes relacionados à crise no país."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A companhia é responsável pelas plataformas Casa de Apostas, Betsul e Jogo Online, e havia conseguido uma liminar para voltar a operar a partir de 5ª feira (5.nov). Com a suspensão, a CDA Gaming volta a ficar sujeita à medida provisória nº 1.394 de 2026 , editada pelo presidente Luiz Inácio Lula da Silva (PT) em setembro."
+            "resposta": "Em imagens capturadas pela emissora de TV local, NPY, é possível observar o ex-presidente deixando seu carro, acompanhado de uma equipe policial, antes de entrar no prédio, onde deve realizar depoimentos às autoridades."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Ao analisar o pedido da União, o desembargador identificou, na manutenção da liminar, risco concreto de grave lesão à ordem pública. Segundo o magistrado, as regras de proteção aos consumidores e apostadores devem ser aplicadas de maneira uniforme em todo o território nacional."
+            "resposta": "A assessoria do Ministério Público do Paraguai confirmou a chegada de Peña à correspondente Luciana Taddeo, da CNN Brasil."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Di Salvo afirmou que a autorização individual da empresa poderia comprometer a aplicação da política nacional para o setor. O entendimento leva em conta a possibilidade de outras plataformas recorrerem à Justiça para conseguir autorizações semelhantes."
+            "resposta": "A ordem de prisão foi assinada por promotores da Unidade Especializada em Crimes Econômicos e Anticorrupção e da Unidade Especializada em Crimes Informáticos. &quot;As pessoas detidas deverão ser colocadas à disposição da autoridade competente dentro do prazo legal, com observância de seus direitos e garantias&quot;, destacaram."
           }
         ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/Jogador-no-Fortune-Tiger-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/justica-suspende-decisao-que-liberava-3-bets-no-brasil.jpg",
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/2026-11-05T163906Z_2_LYNXNPEMA41T5_RTROPTP_4_PARAGUAY-POLITICS.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/pena-chega-ao-ministerio-publico-do-paraguai-para-audiencia-com-promotoria.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "f34dc711141773ef",
+      "titulo": "Gonet pede ao STF suspensão de todas as ações sobre MP do fim das bets",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/economia/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets/",
+      "dataFonte": "2026-11-07T13:15:51.000Z",
+      "resumoFonte": "Pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT)",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/01/ja_7547.jpg?w=1170&h=630&crop=1",
+      "descobertaEm": "2026-11-07T13:18:43.230Z",
+      "reportagem": {
+        "titulo": "Gonet pede ao STF suspensão de todas as ações sobre MP do fim das bets",
+        "slug": "gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets",
+        "categoria": "Justiça",
+        "data": "2026-11-07",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets.jpg",
+        "resumo": "Pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT)",
+        "conteudo": "<p>O procurador-geral da República, Paulo Gonet, pediu ao Supremo Tribunal Federal (STF) a suspensão de processos judiiais que discutem a medida provisória (MP) que proibiu o funcimento das bets no Brasil.</p><h2>O contexto da decisão judicial</h2><p>O pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT). Caso o minstro aceite o pedido, as ações em andamento vão ficar paralisadas até o STF analisar a validade da proibição.</p><p>Na decisão, Gonet citou decisões por instâncias inferiores do Judiciário que liberou determinadas bets para atuarem em meio a proibição.</p><p>Na quinta-feira (05), três casas de apostam tinham voltado a funcionar após a desembargadora Adriana Pileggi, do Tribunal Regional Federal da 3ª Região (TRF3), atender a um pedido da CDA Gaming e suspender os efeitos da Medida Provisória (MP) das bets em relação à empresa.</p><h2>Detalhes e consequências do caso</h2><p>A medida permite que os três sites da CDA — Casa de Apostas, Betsul e Jogo Online — voltem a aceitar apostas.</p><p>Na sexta-feira (06), o presidente do Tribunal Regional Federal da 3ª Região (TRF-3), desembargador Johonsom Di Salvo, suspendeu a liminar que havia permitido provisoriamente que três sites de apostas da empresa CDA Gaming voltassem a operar.</p><p>A decisão atende a um pedido da AGU (Advocacia-Geral da União).</p><p>O presidente Lula assinou no dia 25 de setembro uma Medida Provisória que proibia a operação de sites de apostas esportivas (bets) e cassinos online com jogos como “tigrinho ” em todo o território nacional.</p><p>A medida impede novos depósitos nas plataformas a partir de sua publicação e estabelece um calendário para a retirada e devolução dos valores que ainda estão nas contas dos apostadores.</p><p>No calendário apresentado pelo governo, os sites e aplicativos de apostas sairão do ar em 6 de outubro. Os apostadores terão até o dia anterior para retirar os valores disponíveis.</p><p>Para quem não conseguir fazer o resgate dentro do prazo, foi estabelecido um procedimento de devolução integral dos saldos.</p><p>Pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT)</p><p>Fachin dá 15 dias para PGR analisar indiciamento de Vorcaro</p><p>Ministro, que é relator do caso Master, também concedeu o mesmo prazo para o órgão se manifestar sobre o pedido da PF para que a investigação seja prorrogada por mais 60 dias</p><p>Próximo sorteio da Mega-Sena terá prêmio de R$ 60 milhões</p><p>Novas regras do vale-refeição e alimentação: saiba o que muda</p><p>Novas regras para vale-alimentação e refeição começam a valer neste sábado</p><p>Nubank e Mercado Pago suspendem transferências de criptomoedas</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/economia/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O procurador-geral da República, Paulo Gonet, pediu ao Supremo Tribunal Federal (STF) a suspensão de processos judiiais que discutem a medida provisória (MP) que proibiu o funcimento das bets no Brasil."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT). Caso o minstro aceite o pedido, as ações em andamento vão ficar paralisadas até o STF analisar a validade da proibição."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Na decisão, Gonet citou decisões por instâncias inferiores do Judiciário que liberou determinadas bets para atuarem em meio a proibição."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A medida permite que os três sites da CDA — Casa de Apostas, Betsul e Jogo Online — voltem a aceitar apostas. Na sexta-feira (06), o presidente do Tribunal Regional Federal da 3ª Região (TRF-3), desembargador Johonsom Di Salvo, suspendeu a liminar que havia permitido provisoriamente que três sites de apostas da empresa CDA Gaming voltassem a operar."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O presidente Lula assinou no dia 25 de setembro uma Medida Provisória que proibia a operação de sites de apostas esportivas (bets) e cassinos online com jogos como “tigrinho ” em todo o território nacional."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/01/ja_7547.jpg?w=1170&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     }
   ],
-  "reapuradoEm": "2026-11-07T14:48:44.895Z",
+  "reapuradoEm": "2026-11-07T15:48:42.653Z",
   "diagnosticoReapuracao": {
-    "produzidas": 16,
+    "produzidas": 15,
     "jaProntas": 0,
-    "incompletas": 4,
+    "incompletas": 12,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 16,
+    "geradas": 15,
     "reaproveitadas": 0,
-    "puladas": 4,
+    "puladas": 12,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-07T14:50:15.385Z"
+  "lapisEm": "2026-11-07T15:50:15.030Z"
 }
