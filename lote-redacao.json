@@ -1,16 +1,16 @@
 {
-  "geradoEm": "2026-11-07T14:23:31.677Z",
+  "geradoEm": "2026-11-07T14:48:38.343Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
-    "bloqueadas": 0,
-    "bloqueadasEditoriais": 2,
+    "bloqueadas": 1,
+    "bloqueadasEditoriais": 1,
     "semImagem": 0,
-    "duplicadasBasicas": 12,
-    "duplicadasSemanticas": 4,
-    "foraCategorias": 40
+    "duplicadasBasicas": 7,
+    "duplicadasSemanticas": 5,
+    "foraCategorias": 46
   },
-  "quantidadeCandidatas": 22,
+  "quantidadeCandidatas": 20,
   "candidatas": [
     {
       "id": "8314b4ca5b659a96",
@@ -25,26 +25,38 @@
       "descobertaEm": "2026-11-07T12:18:23.923Z"
     },
     {
-      "id": "77201c18e88315e6",
-      "titulo": "Governadora do DF tenta nova conversa com Lula para tratar de crise do BRB",
+      "id": "a8046e6c0906156b",
+      "titulo": "Adolescente de 16 anos é morto a tiros em conjunto habitacional em Linhares",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/adolescente-de-16-anos-e-morto-a-tiros-em-conjunto-habitacional-em-linhares-1126",
+      "dataFonte": "2026-11-07T13:20:18.000Z",
+      "resumoFonte": "Samu/192 constatou a morte da vítima, identificada como John Lennon Alves do Nascimento Guilhermino, no local do crime",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1794055538924_template_radar_a_gazeta.png",
+      "descobertaEm": "2026-11-07T14:18:40.001Z"
+    },
+    {
+      "id": "3df7fd75d9c9bb5e",
+      "titulo": "Aviação do Exército investe em tecnologia para preparar tripulações",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governadora-do-df-tenta-nova-conversa-com-lula-para-tratar-de-crise-do-brb/",
-      "dataFonte": "2026-11-07T12:48:14.000Z",
-      "resumoFonte": "Trata-se de uma nova tentativa de Celina Leão; Palácio do Planalto não recebeu a chefe do Executivo no primeiro semestre diante do desgaste político provocado pelo escândalo do Master",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Thumb-para-corte-30.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-07T13:18:43.230Z",
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-governo/aviacao-do-exercito-investe-em-tecnologia-para-preparar-tripulacoes/",
+      "dataFonte": "2026-11-07T14:18:55.000Z",
+      "resumoFonte": "Treinamento reproduz situações de combate em ambientes virtuais",
+      "imagem": "https://static.poder360.com.br/uploads/2026/11/comando-do-exercito-1200x675.jpeg",
+      "descobertaEm": "2026-11-07T14:18:40.001Z",
       "reportagem": {
-        "titulo": "Governadora do DF volta a tentar conversa com Lula sobre crise do BRB",
-        "slug": "governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb",
+        "titulo": "Aviação do Exército investe em tecnologia para preparar tripulações",
+        "slug": "aviacao-do-exercito-investe-em-tecnologia-para-preparar-tripulacoes",
         "categoria": "Política Nacional",
         "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb.jpg",
-        "resumo": "Trata-se de uma nova tentativa de Celina Leão; Palácio do Planalto não recebeu a chefe do Executivo no primeiro semestre diante do desgaste político provocado pelo escândalo do Master",
-        "conteudo": "<p>A governadora do Distrito Federal, Celina Leão (PP), voltou a tentar conversar com o presidente Luiz Inácio Lula da Silva (PT) para discutir a situação financeira do BRB (Banco de Brasília).</p><h2>O contexto do cenário político</h2><p>De acordo com fontes ouvidas pelo CNN Money , intermediários do Palácio do Buriti estão negociando o encontro com interlocutores do Palácio do Planalto.</p><p>Celina já havia tentado marcar uma reunião com o presidente Lula no primeiro semestre deste ano para falar sobre a crise do BRB. Contudo, o Palácio do Planalto recusou o pedido diante do desgaste político provocado pelo escândalo envolvendo o Banco Master.</p><p>Em agosto, o STF (Supremo Tribunal Federal) mediou uma audiência de conciliação entre o Governo do Distrito Federal e a União para viabilizar o acordo para um empréstimo de até R$ 6,6 bilhões para o BRB. A audiência terminou sem consenso .</p><h2>Detalhes e consequências do caso</h2><p>Inicialmente, o governo do DF negociava um empréstimo com recursos do FGC (Fundo Garantidor de Créditos), com garantia de um sindicato de bancos públicos e privados.</p><p>A operação teria a utilização de dois fundos do Distrito Federal como contragarantia em caso de calote do governo local. São eles:</p><p>Para ajudar o BRB, o governo federal se comprometeu a flexibilizar regras do PAF (Plano de Ajuste Fiscal) do governo do Distrito Federal para permitir uma operação de crédito de maior porte. A iniciativa não previa a transferência de recursos federais nem garantia da União.</p><p>Mesmo assim, o governo do Distrito Federal encontrou dificuldades para conseguir o empréstimo com bancos privados.</p><p>Entre os principais pontos levantados para a continuidade das negociações, estão a segurança das garantias oferecidas aos bancos em caso de inadimplência e as informações necessárias para a análise do plano de negócios do BRB.</p><p>Diante das dificuldades em fechar o empréstimo com bancos no Brasil, Celina se reuniu com investidores dos Emirados Árabes Unidos interessados em fazer aportes financeiros no BRB.</p><p>Em meados de outubro, o BRB informou não haver ato ou deliberação formal da companhia sobre o negócio com os investidores árabes.</p><p>A governadora do Distrito Federal, Celina Leão (PP)</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governadora-do-df-tenta-nova-conversa-com-lula-para-tratar-de-crise-do-brb/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/aviacao-do-exercito-investe-em-tecnologia-para-preparar-tripulacoes.jpg",
+        "resumo": "Treinamento reproduz situações de combate em ambientes virtuais para o desenvolvimento de competências individuais e coletivas",
+        "conteudo": "<p>Treinamento reproduz situações de combate em ambientes virtuais</p><h2>O contexto do cenário político</h2><p>O Exército Brasileiro, por meio do Comando de Aviação do Exército, realizou um exercício-piloto de adestramento tático com amplo emprego de simuladores de voo nas instalações da Divisão de Simulação do Centro de Instrução de Aviação do Exército (CIAvEx), em Taubaté (SP).</p><p>A atividade representa um avanço na integração de tecnologias de simulação ao preparo operacional da Aviação do Exército .</p><p>Possibilita o treinamento de tripulações em cenários virtuais que reproduzem, com elevado grau de realismo, as condições, as ameaças e os desafios dos conflitos contemporâneos.</p><h2>Detalhes e consequências do caso</h2><p>A iniciativa contribui para o desenvolvimento de capacidades operacionais, o aperfeiçoamento dos recursos humanos e a incorporação de soluções tecnológicas voltadas ao emprego eficiente do poder de combate da Força Terrestre.</p><p>Durante o exercício, tripulações do 3º BAvEx (Batalhão de Aviação do Exército) e integrantes da Esquadrilha de Sistemas de Aeronaves Remotamente Pilotada, do 1º BAvEx, executaram habilitações táticas relevantes ao cumprimento das missões da Aviação do Exército.</p><p>O principal diferencial da atividade foi a possibilidade de reproduzir situações operacionais de elevada complexidade, aproximando o treinamento virtual das condições encontradas em um ambiente de combate.</p><p>Os cenários permitiram explorar diferentes variáveis do campo de batalha, exigindo das tripulações conhecimentos técnicos, consciência situacional, coordenação, flexibilidade e capacidade de decisão sob pressão.</p><p>Os ambientes simulados contemplaram ameaças aéreas, incluindo enxames de drones e aeronaves inimigas, ameaças terrestres e sistemas de defesa antiaérea.</p><p>Também abrangeram condições meteorológicas adversas e desafios de navegação em terrenos digitalmente reproduzidos com elevado nível de fidelidade.</p><p>A diversidade dos cenários favoreceu o desenvolvimento de competências individuais e coletivas. A metodologia ganha relevância diante da evolução dos conflitos armados, caracterizados pelo emprego crescente de sistemas não tripulados e pela disseminação de novas tecnologias.</p><p>A incorporação de ambientes virtuais ao treinamento representa, também, uma oportunidade para impulsionar o desenvolvimento tecnológico e ampliar a capacidade de inovação da Aviação do Exército.</p><p>A utilização de simuladores avançados permite explorar novas metodologias de instrução, aperfeiçoar ferramentas de treinamento e avaliar soluções que contribuam para a evolução das capacidades militares.</p><p>A integração entre simulação de voo, sistemas de aeronaves remotamente pilotadas e cenários táticos digitais favorece uma abordagem de preparo alinhada às transformações do campo de batalha.</p><p>Contribui ainda para o desenvolvimento de competências relacionadas ao emprego de novas tecnologias, à adaptação a diferentes situações operacionais e à interoperabilidade entre meios e elementos da Força Terrestre.</p><p>Além disso, a experiência obtida durante o exercício-piloto pode ajudar no aperfeiçoamento dos processos de instrução e treinamento, contribuindo para identificar necessidades de atualização tecnológica e oportunidades de evolução dos recursos de simulação.</p><p>O emprego de aviões da Aviação do Exército materializa a versatilidade da Força Terrestre, contribuindo tanto para as operações militares quanto para as ações de apoio à sociedade.</p><p>A preparação das tripulações deve, portanto, contemplar as diferentes possibilidades de emprego dos meios aéreos, em consonância com as capacidades da Força e com as necessidades de cada missão.</p><p>Na vertente Braço Forte , o aprimoramento do adestramento tático fortalece a capacidade de a Aviação do Exército proporcionar mobilidade, ampliar o alcance das operações terrestres e apoiar o emprego da tropa em situações que exigem rapidez, flexibilidade e integração entre diferentes meios.</p><p>O treinamento em cenários de elevada complexidade contribui para preparar as tripulações para atuar em ambientes contestados e responder às exigências dos conflitos contemporâneos, em apoio ao cumprimento das missões constitucionais da Força Terrestre.</p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-governo/aviacao-do-exercito-investe-em-tecnologia-para-preparar-tripulacoes/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -59,99 +71,147 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "A governadora do Distrito Federal, Celina Leão (PP), voltou a tentar conversar com o presidente Luiz Inácio Lula da Silva (PT) para discutir a situação financeira do BRB (Banco de Brasília)."
+            "resposta": "Treinamento reproduz situações de combate em ambientes virtuais"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "De acordo com fontes ouvidas pelo CNN Money , intermediários do Palácio do Buriti estão negociando o encontro com interlocutores do Palácio do Planalto."
+            "resposta": "O Exército Brasileiro, por meio do Comando de Aviação do Exército, realizou um exercício-piloto de adestramento tático com amplo emprego de simuladores de voo nas instalações da Divisão de Simulação do Centro de Instrução de Aviação do Exército (CIAvEx), em Taubaté (SP)."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Celina já havia tentado marcar uma reunião com o presidente Lula no primeiro semestre deste ano para falar sobre a crise do BRB. Contudo, o Palácio do Planalto recusou o pedido diante do desgaste político provocado pelo escândalo envolvendo o Banco Master."
+            "resposta": "A atividade representa um avanço na integração de tecnologias de simulação ao preparo operacional da Aviação do Exército . Possibilita o treinamento de tripulações em cenários virtuais que reproduzem, com elevado grau de realismo, as condições, as ameaças e os desafios dos conflitos contemporâneos."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Em agosto, o STF (Supremo Tribunal Federal) mediou uma audiência de conciliação entre o Governo do Distrito Federal e a União para viabilizar o acordo para um empréstimo de até R$ 6,6 bilhões para o BRB. A audiência terminou sem consenso ."
+            "resposta": "A iniciativa contribui para o desenvolvimento de capacidades operacionais, o aperfeiçoamento dos recursos humanos e a incorporação de soluções tecnológicas voltadas ao emprego eficiente do poder de combate da Força Terrestre."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Inicialmente, o governo do DF negociava um empréstimo com recursos do FGC (Fundo Garantidor de Créditos), com garantia de um sindicato de bancos públicos e privados. A operação teria a utilização de dois fundos do Distrito Federal como contragarantia em caso de calote do governo local. São eles:"
+            "resposta": "Durante o exercício, tripulações do 3º BAvEx (Batalhão de Aviação do Exército) e integrantes da Esquadrilha de Sistemas de Aeronaves Remotamente Pilotada, do 1º BAvEx, executaram habilitações táticas relevantes ao cumprimento das missões da Aviação do Exército."
           }
         ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Thumb-para-corte-30.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb.jpg",
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/comando-do-exercito-1200x675.jpeg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/aviacao-do-exercito-investe-em-tecnologia-para-preparar-tripulacoes.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "87e6b7b89a804f85",
-      "titulo": "Malévola perde ação contra banco após bloqueio de R$ 8 mil em conta",
+      "id": "f239eb61cb69be34",
+      "titulo": "Nubank normaliza operações com criptomoedas após falha em fornecedor externo",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/fabia-oliveira/malevola-perde-acao-contra-banco-apos-bloqueio-de-r-8-mil-em-conta",
-      "dataFonte": "2026-11-07T12:00:25.000Z",
-      "resumoFonte": "Influenciadora teve cerca de R$ 8,2 mil bloqueados por ordem judicial e pediu R$ 50 mil por danos morais, mas não conseguiu a indenização",
-      "imagem": "https://i.metroimg.com/wvYTwB2wiiuWYYrDbvUH7BsVh21dTBZhOHsz7dZaPEc/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/estao-seguras-diz-empresario-apos-malevola-deixar-prisao-no-egito.jpg",
-      "descobertaEm": "2026-11-07T12:18:23.923Z"
-    },
-    {
-      "id": "2a64b39eedc944a6",
-      "titulo": "Fest Gastronomia 2026 abre com festa de premiação do HZ Gastrô no Shopping Vitória; veja fotos",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/hz/social/fest-gastronomia-2026-abre-com-festa-de-premiacao-do-hz-gastro-no-shopping-vitoria-veja-fotos-1126",
-      "dataFonte": "2026-11-07T11:20:25.000Z",
-      "resumoFonte": "O maior evento de gastronomia do ES segue até domingo (08), na Arena SV, reunindo restaurantes da Grande Vitória, atrações musicais, DJs, aulas-show, atividades para crianças e experiências gastronômicas",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1794048017312_20261106_181630_0_copia.jpg",
-      "descobertaEm": "2026-11-07T12:18:23.923Z",
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/onde-investir/nubank-normaliza-saques-depositos-criptomoedas/",
+      "dataFonte": "2026-11-07T14:15:24.000Z",
+      "resumoFonte": "Saques e depósitos foram restabelecidos na noite de sexta-feira (6); banco afirma que ativos e informações dos clientes permaneceram protegidos The post Nubank normaliza operações com criptomoedas após falha em fornecedor externo appeared first on InfoMoney .",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2023/08/nucoin.jpeg?fit=820%2C430&quality=70&strip=all",
+      "descobertaEm": "2026-11-07T14:18:40.001Z",
       "reportagem": {
-        "titulo": "Fest Gastronomia 2026 abre com festa de premiação do HZ Gastrô no Shopping Vitória; veja fotos",
-        "slug": "fest-gastronomia-2026-abre-com-festa-de-premiacao-do-hz-gastro-no-shopping-vitoria-veja-fo",
-        "categoria": "Cultura",
+        "titulo": "Nubank normaliza operações com criptomoedas após falha em fornecedor externo",
+        "slug": "nubank-normaliza-operacoes-com-criptomoedas-apos-falha-em-fornecedor-externo",
+        "categoria": "Economia",
         "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/fest-gastronomia-2026-abre-com-festa-de-premiacao-do-hz-gastro-no-shopping-vitoria-veja-fo.jpg",
-        "resumo": "O maior evento de gastronomia do ES segue até domingo (08), na Arena SV, reunindo restaurantes da Grande Vitória, atrações musicais, DJs, aulas-show, atividades para crianças e experiências gastronômicas",
-        "conteudo": "<p>Em novo palco, na Arena do Shopping Vitória, o Fest Gastronomia , o maior festival de gastronomia do ES, abriu sua programação nesta sexta-feira (06), com a cerimônia do Prêmio HZ Gastrô (confira a lista completa aqui).</p><h2>As informações principais do assunto</h2><p>A festa reuniu os vencedores da edição 2026 da premiação. O Bigode , do Bar do Bigode, recebeu a homenagem de Personalidade Gastronômica de 2026, foi representado pela sua família.</p><p>O evento contou com a presença de importantes representantes do poder público e privado, entre eles o secretário de Estado de Turismo, Luciano Machado, o representante da Aderes, Cleber Guerra, o secretário de Governo da Prefeitura de Vitória, Luciano Forrechi, a gerente de Marketing do Shopping Vitória, Letícia Dalvi , a gerente comercial da ES Gás, Marisa Silvestre , e o gerente de Comunicação e Marketing do Senac-ES Leo Davel.</p><p>Os convidados foram recebidos pelo gerente de Projetos e Eventos da Rede Gazeta, Bruno Araújo; pela editoria de Gastronomia do HZ, Evelize Calmon, e pelos gerentes comerciais da Gazeta, Carol Lima e Giliard Ferreira.</p><h2>Contexto e informações complementares</h2><p>Em clima de \"sextou\" a banda Picnic Dogs e Nano Vianna animaram a plateia no Palco Principal. Já no Palco Gastrô, o show ficou por conta de Marcos Bifão.</p><p>O festival reúne restaurantes da Grande Vitória, atrações musicais, DJs, aulas-show, atividades para crianças e experiências gastronômicas até domingo (08), na arena do SV. Confira quem prestigiou a abertura da festa na galeria de Mônica Zorzanelli.</p><p>Em novo palco, na Arena do Shopping Vitória, o Fest Gastronomia , o maior festival de gastronomia do ES, abriu sua programação nesta sexta-feira (06), com a cerimônia do Prêmio HZ Gastrô (confira a lista completa aqui).</p><p>A festa reuniu os vencedores da edição 2026 da premiação. O Bigode , do Bar do Bigode, recebeu a homenagem de Personalidade Gastronômica de 2026, foi representado pela sua família.</p><p>O evento contou com a presença de importantes representantes do poder público e privado, entre eles o secretário de Estado de Turismo, Luciano Machado, o representante da Aderes, Cleber Guerra, o secretário de Governo da Prefeitura de Vitória, Luciano Forrechi, a gerente de Marketing do Shopping Vitória, Letícia Dalvi , a gerente comercial da ES Gás, Marisa Silvestre , e o gerente de</p>",
-        "fonteNome": "A Gazeta - Capa",
-        "fonteUrl": "https://www.agazeta.com.br/hz/social/fest-gastronomia-2026-abre-com-festa-de-premiacao-do-hz-gastro-no-shopping-vitoria-veja-fotos-1126",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/nubank-normaliza-operacoes-com-criptomoedas-apos-falha-em-fornecedor-externo.jpg",
+        "resumo": "Nubank restabelece saques e depósitos de criptomoedas após falha em fornecedor externo. Banco afirma que ativos dos clientes permaneceram protegidos.",
+        "conteudo": "<p>O Nubank informou que normalizou as operações de saques e depósitos de criptomoedas em sua plataforma desde as 22h desta sexta-feira (6), após uma instabilidade em um fornecedor externo de dados.</p><h2>Dados e contexto do setor</h2><p>Em nota, o banco digital afirmou que “a instabilidade em um fornecedor externo de dados não afetou sua infraestrutura, e os ativos e as informações dos clientes permaneceram protegidos”.</p><p>A instituição não informou qual prestadora de serviços apresentou o problema.</p><p>Setor perde força política em Washington e enfrenta risco de regras mais rígidas, investigações sobre negócios da família Trump e novos obstáculos à regulamentação</p><h2>Impactos e informações adicionais</h2><p>A normalização ocorre após o Nubank e o Mercado Pago suspenderem transferências de criptomoedas na sexta-feira , em meio a uma sequência de turbulências no setor de ativos digitais.</p><p>Na ocasião, o Nubank explicou que a interrupção havia sido provocada por uma instabilidade em um fornecedor externo de dados, sem comprometimento dos ativos dos clientes.</p><p>O Mercado Pago também confirmou problemas nas transferências de criptoativos, atribuídos a um incidente envolvendo um fornecedor de monitoramento de riscos e prevenção à lavagem de dinheiro.</p><p>Segundo a instituição, parte das transferências para carteiras externas foi bloqueada preventivamente, enquanto as operações de compra e venda de criptomoedas continuaram funcionando normalmente.</p><p>Até o momento, não há confirmação de que o Mercado Pago tenha restabelecido os serviços afetados.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/onde-investir/nubank-normaliza-saques-depositos-criptomoedas/",
         "fontesAdicionais": [
           {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
           },
           {
-            "nome": "Tribuna Online",
-            "url": "https://tribunaonline.com.br/"
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Em novo palco, na Arena do Shopping Vitória, o Fest Gastronomia , o maior festival de gastronomia do ES, abriu sua programação nesta sexta-feira (06), com a cerimônia do Prêmio HZ Gastrô (confira a lista completa aqui). A festa reuniu os vencedores da edição 2026 da premiação."
+            "resposta": "O Nubank informou que normalizou as operações de saques e depósitos de criptomoedas em sua plataforma desde as 22h desta sexta-feira (6), após uma instabilidade em um fornecedor externo de dados."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O evento contou com a presença de importantes representantes do poder público e privado, entre eles o secretário de Estado de Turismo, Luciano Machado, o representante da Aderes, Cleber Guerra, o secretário de Governo da Prefeitura de Vitória, Luciano Forrechi, a gerente de Marketing do Shopping Vitória, Letícia Dalvi , a gerente comercial da ES Gás, Marisa Silvestre , e o gerente de Comunicação e Marketing do Senac-ES Leo Davel."
+            "resposta": "Em nota, o banco digital afirmou que “a instabilidade em um fornecedor externo de dados não afetou sua infraestrutura, e os ativos e as informações dos clientes permaneceram protegidos”."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O festival reúne restaurantes da Grande Vitória, atrações musicais, DJs, aulas-show, atividades para crianças e experiências gastronômicas até domingo (08), na arena do SV. Confira quem prestigiou a abertura da festa na galeria de Mônica Zorzanelli."
+            "resposta": "A instituição não informou qual prestadora de serviços apresentou o problema."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Em novo palco, na Arena do Shopping Vitória, o Fest Gastronomia , o maior festival de gastronomia do ES, abriu sua programação nesta sexta-feira (06), com a cerimônia do Prêmio HZ Gastrô (confira a lista completa aqui). A festa reuniu os vencedores da edição 2026 da premiação."
+            "resposta": "Setor perde força política em Washington e enfrenta risco de regras mais rígidas, investigações sobre negócios da família Trump e novos obstáculos à regulamentação"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Em novo palco, na Arena do Shopping Vitória, o Fest Gastronomia , o maior festival de gastronomia do ES, abriu sua programação nesta sexta-feira (06), com a cerimônia do Prêmio HZ Gastrô (confira a lista completa aqui). A festa reuniu os vencedores da edição 2026 da premiação."
+            "resposta": "A normalização ocorre após o Nubank e o Mercado Pago suspenderem transferências de criptomoedas na sexta-feira , em meio a uma sequência de turbulências no setor de ativos digitais."
           }
         ],
-        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1794048017312_20261106_181630_0_copia.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/fest-gastronomia-2026-abre-com-festa-de-premiacao-do-hz-gastro-no-shopping-vitoria-veja-fo.jpg",
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2023/08/nucoin.jpeg?fit=820%2C430&quality=70&strip=all",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/nubank-normaliza-operacoes-com-criptomoedas-apos-falha-em-fornecedor-externo.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "6e9dcd63e5e247c9",
+      "titulo": "Thizil, dupla de Mario, é internado após acidente grave que matou mulher",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/celebridades/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher",
+      "dataFonte": "2026-11-07T13:09:03.000Z",
+      "resumoFonte": "O cantor sertanejo Thizil, da dupla com Mario, está internado com quatro fraturas após a caminhonete em que viajava colidir com outro carro",
+      "imagem": "https://i.metroimg.com/6YVOW4TMnNUFyf4YgltQuWWnfXMy0cO3jINk6Q4blhw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/thizil-da-dupla-com-mario-ficou-ferido-em-acidente-na-br-070-em-goias.jpg",
+      "descobertaEm": "2026-11-07T13:18:43.230Z",
+      "reportagem": {
+        "titulo": "Thizil, dupla de Mario, é internado após acidente grave que matou mulher",
+        "slug": "thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher",
+        "categoria": "Cultura",
+        "data": "2026-11-07",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher.jpg",
+        "resumo": "O cantor sertanejo Thizil, da dupla com Mario, está internado com quatro fraturas após a caminhonete em que viajava colidir com outro carro",
+        "conteudo": "<p>O cantor sertanejo Thizil , da dupla com Mario, sofreu um acidente de trânsito durante uma viagem a Querência (MT), onde faria um show neste sábado (7/11).</p><h2>As informações principais do assunto</h2><p>A colisão ocorreu na tarde de sexta-feira (6/11), na BR-070, próximo ao município de Jussara (GO). Uma mulher que estava no outro veículo morreu no local.</p><p>O artista viajava em uma caminhonete com dois músicos da banda e o filho quando o veículo bateu contra outro carro na rodovia.</p><p>Segundo Mario, Thizil foi socorrido e transferido para o Hospital Estadual de Anápolis, onde permanece internado. Ele sofreu três fraturas no pé e outra na perna e deverá passar por uma cirurgia.</p><h2>Contexto e informações complementares</h2><p>Mario e Thizil cancelaram a apresentação que fariam em Querência (MT), neste sábado (7/11)</p><p>Thizil sofreu quatro fraturas e deverá passar por cirurgia em Anápolis (GO)</p><p>Thizil, da dupla com Mario, está internado após acidente na BR-070</p><p>Acidente de trânsito: a colisão entre dois veículos na BR-070, próximo a Jussara (GO), resultou na morte de uma mulher na sexta-feira (6/11); Estado do cantor: Thizil sofreu fraturas no pé e na perna e está internado no Hospital Estadual de Anápolis para cirurgia; Relato do parceiro: segundo Mario, ouvido pelo Metrópoles , o acidente ocorreu durante uma ultrapassagem de um terceiro veículo na rodovia; Estado dos envolvidos: o filho do cantor recebeu alta, um músico segue internado em estado estável e outro não se feriu.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/celebridades/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O cantor sertanejo Thizil , da dupla com Mario, sofreu um acidente de trânsito durante uma viagem a Querência (MT), onde faria um show neste sábado (7/11). A colisão ocorreu na tarde de sexta-feira (6/11), na BR-070, próximo ao município de Jussara (GO). Uma mulher que estava no outro veículo morreu no local."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O artista viajava em uma caminhonete com dois músicos da banda e o filho quando o veículo bateu contra outro carro na rodovia. Segundo Mario, Thizil foi socorrido e transferido para o Hospital Estadual de Anápolis, onde permanece internado. Ele sofreu três fraturas no pé e outra na perna e deverá passar por uma cirurgia."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Mario e Thizil cancelaram a apresentação que fariam em Querência (MT), neste sábado (7/11)"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Thizil sofreu quatro fraturas e deverá passar por cirurgia em Anápolis (GO)"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Thizil, da dupla com Mario, está internado após acidente na BR-070"
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/6YVOW4TMnNUFyf4YgltQuWWnfXMy0cO3jINk6Q4blhw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/thizil-da-dupla-com-mario-ficou-ferido-em-acidente-na-br-070-em-goias.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -217,86 +277,38 @@
       }
     },
     {
-      "id": "9971d4efc42ccb50",
-      "titulo": "Quando acontece a primeira final única da Copa do Brasil? Veja data e local",
+      "id": "7e70f14f0e2c313b",
+      "titulo": "Ueno Bank, do Paraguai, financiou evento com Eduardo Bolsonaro nos EUA",
       "categoria": "Esporte",
       "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/copa-do-brasil/quando-acontece-a-primeira-final-unica-da-copa-do-brasil-veja-data-e-local/",
-      "dataFonte": "2026-11-07T11:00:04.000Z",
-      "resumoFonte": "Edição 2026 terá a novidade de conhecer o seu campeão em apenas uma partida; Grêmio, Atlético-MG, Palmeiras e Vasco são os semifinalistas",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/12/trofeu-copa-brasil.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-07T11:18:21.581Z",
-      "reportagem": {
-        "titulo": "Quando acontece a primeira final única da Copa do Brasil? Veja data e local",
-        "slug": "quando-acontece-a-primeira-final-unica-da-copa-do-brasil-veja-data-e-local",
-        "categoria": "Esporte",
-        "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/quando-acontece-a-primeira-final-unica-da-copa-do-brasil-veja-data-e-local.jpg",
-        "resumo": "Edição 2026 terá a novidade de conhecer o seu campeão em apenas uma partida; Grêmio, Atlético-MG, Palmeiras e Vasco são os semifinalistas",
-        "conteudo": "<p>A Copa do Brasil conhece neste fim de semana os times que vão lutar pelo título da edição 2026. Atlético-MG e Grêmio fazem o embate pela primeira vaga neste sábado (7), enquanto Vasco e Palmeiras duelam no domingo (8) e definem o último finalista.</p><h2>As informações principais do assunto</h2><p>Para este ano, a Copa do Brasil conta com algumas novidades. Em 38 edições, esta será a primeira vez que a final será decidida em jogo único .</p><p>O jogo que define o campeão da Copa do Brasil 2026 acontece no dia 6 de dezembro, um domingo, ainda sem horário definido pela CBF. A primeira final única será realizada no Mané Garrincha, em Brasília.</p><h2>Contexto e informações complementares</h2><p>O estádio localizado na capital federal já está acostumado a receber finais únicas. O Mané Garrincha foi palco de quatro decisões da Supercopa do Brasil, torneio que reúne os campeões do Brasileirão e da Copa do Brasil.</p><p>Atlético-MG e Grêmio se enfrentam neste sábado na Arena MRV, às 18h (de Brasília). O Tricolor gaúcho tem a vantagem no confronto, já que venceu o jogo de ida por 2 a 0 na Arena do Grêmio .</p><p>Do outro lado da chave, o Palmeiras vai até o Rio de Janeiro enfrentar o Vasco em São Januário com a vantagem obtida no primeiro duelo, quando bateu os cariocas por 1 a 0 no Nubank Parque . O confronto decisivo acontece neste domingo às 16h.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/futebol/copa-do-brasil/quando-acontece-a-primeira-final-unica-da-copa-do-brasil-veja-data-e-local/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A Copa do Brasil conhece neste fim de semana os times que vão lutar pelo título da edição 2026. Atlético-MG e Grêmio fazem o embate pela primeira vaga neste sábado (7), enquanto Vasco e Palmeiras duelam no domingo (8) e definem o último finalista."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Para este ano, a Copa do Brasil conta com algumas novidades. Em 38 edições, esta será a primeira vez que a final será decidida em jogo único ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O jogo que define o campeão da Copa do Brasil 2026 acontece no dia 6 de dezembro, um domingo, ainda sem horário definido pela CBF. A primeira final única será realizada no Mané Garrincha, em Brasília."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O estádio localizado na capital federal já está acostumado a receber finais únicas. O Mané Garrincha foi palco de quatro decisões da Supercopa do Brasil, torneio que reúne os campeões do Brasileirão e da Copa do Brasil."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Atlético-MG e Grêmio se enfrentam neste sábado na Arena MRV, às 18h (de Brasília). O Tricolor gaúcho tem a vantagem no confronto, já que venceu o jogo de ida por 2 a 0 na Arena do Grêmio ."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/12/trofeu-copa-brasil.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/quando-acontece-a-primeira-final-unica-da-copa-do-brasil-veja-data-e-local.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/07/ueno-bank-do-paraguai-financiou-evento-com-eduardo-bolsonaro-nos-eua.ghtm",
+      "dataFonte": "2026-11-07T14:01:18.000Z",
+      "resumoFonte": "O Ueno Bank, banco digital no centro da crise do Paraguai, foi um dos financiadores de um evento da extrema direita que aconteceu em Mar-a-Lago, clube do presidente americano Donald Trump, nos EUA, em fevereiro deste ano, e contou com a participação do ex-deputado Eduardo Bolsonaro.",
+      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
+      "descobertaEm": "2026-11-07T14:18:40.001Z"
     },
     {
-      "id": "eee1fc1b7ccc0f76",
-      "titulo": "Estadão: julgamento da chapa Lula-Alckmin no TSE é ‘certeza da impunidade’",
+      "id": "f34dc711141773ef",
+      "titulo": "Gonet pede ao STF suspensão de todas as ações sobre MP do fim das bets",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/imprensa/iestadao-i-julgamento-da-chapa-lula-alckmin-no-tse-e-certeza-da-impunidade/",
-      "dataFonte": "2026-11-07T11:07:47.000Z",
-      "resumoFonte": "Em editorial publicado na edição deste sábado, 7, o jornal O Estado de S. Paulo demonstra ceticismo em relação à investigação pelo Tribunal Superior Eleitoral (TSE) da chapa composta por Luiz Inácio Lula da Silva (PT) e Geraldo Alckmin (PSB) por suposto abuso de poder político durante as eleições de 2026. De acordo com uma ação apresentada pelo…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/pres-lula-convencao-nacional-do-psb-ricardostuckert-6-1.jpg.webp",
-      "descobertaEm": "2026-11-07T11:18:21.581Z",
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/economia/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets/",
+      "dataFonte": "2026-11-07T13:15:51.000Z",
+      "resumoFonte": "Pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT)",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/01/ja_7547.jpg?w=1170&h=630&crop=1",
+      "descobertaEm": "2026-11-07T13:18:43.230Z",
       "reportagem": {
-        "titulo": "Estadão: julgamento da chapa Lula-Alckmin no TSE é ‘certeza da impunidade’",
-        "slug": "estadao-julgamento-da-chapa-lula-alckmin-no-tse-e-certeza-da-impunidade",
+        "titulo": "Gonet pede ao STF suspensão de todas as ações sobre MP do fim das bets",
+        "slug": "gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets",
         "categoria": "Justiça",
         "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/estadao-julgamento-da-chapa-lula-alckmin-no-tse-e-certeza-da-impunidade.jpg",
-        "resumo": "‘Jamais o TSE cassou uma chapa presidencial por abuso de poder político ou econômico’, destacou o jornal",
-        "conteudo": "<p>Em editorial publicado em 7 de novembro de 2026, o jornal O Estado de S. Paulo expressa ceticismo sobre a investigação do Tribunal Superior Eleitoral (TSE) da chapa Lula-Alckmin por suposto abuso de poder político nas eleições de 2026, destacando uma ação do Partido Novo que alega que Lula adotou 35 medidas para beneficiar sua candidatura.</p><h2>O contexto da decisão judicial</h2><p>O corregedor eleitoral, Ricardo Villas Bôas Cueva, admitiu a Ação de Investigação Judicial Eleitoral (Aije), mas o Estadão critica a lentidão histórica do TSE.</p><p>Em editorial publicado na edição deste sábado, 7, o jornal O Estado de S. Paulo demonstra ceticismo em relação à investigação pelo Tribunal Superior Eleitoral (TSE) da chapa composta por Luiz Inácio Lula da Silva (PT) e Geraldo Alckmin (PSB) por suposto abuso de poder político durante as eleições de 2026.</p><p>De acordo com uma ação apresentada pelo Partido Novo, Lula, que acabou vencendo a eleição, editou 35 medidas entre janeiro e outubro para se beneficiar eleitoralmente no cargo.</p><h2>Detalhes e consequências do caso</h2><p>Entre essas medidas, estão o reajuste do Bolsa Família, as desonerações sobre combustíveis e outras benesses para motoristas de aplicativo e caminhoneiros.</p><p>O corregedor-geral eleitoral, ministro Ricardo Villas Bôas Cueva, admitiu a instauração de uma Ação de Investigação Judicial Eleitoral (Aije) contra a chapa Lula-Alckmin .</p><p>“A decisão de Cueva não antecipa qualquer juízo de mérito. Apenas reconhece que a petição inicial descreve fatos determinados e vem instruída com os devidos documentos”, observa o Estadão .</p><p>“Mas, se o histórico do Tribunal Superior Eleitoral (TSE) servir de oráculo, Lula e Alckmin podem ficar absolutamente tranquilos. É provável que o desfecho dessa Aije contra eles, se houver, só venha num futuro distante.</p><p>E, se vier, é grande a chance de ambos serem absolvidos. Na remotíssima hipótese de serem punidos, tudo indica que o serão quando o próximo mandato já tiver terminado”, afirma o jornal.</p><p>No editorial, o Estadão recorda que, desde a redemocratização do país, “jamais o TSE cassou uma chapa presidencial por abuso de poder político ou econômico”.</p><p>“O caso mais notório, o da chapa Dilma-Temer, de 2014, só foi julgado quase três anos depois, quando Dilma Rousseff já havia sido destituída por impeachment e Michel Temer era o presidente da República.</p><p>A chapa foi absolvida por 4 votos a 3, uma derrota para o relator, ministro Herman Benjamin, que defendia a cassação pedida pelo PSDB”, diz a publicação.</p><p>Segundo o editorial, “a mensagem que a mais alta instância da Justiça Eleitoral transmite aos governantes é muito clara”. “A lentidão do TSE, quando não a leniência, estimula o abuso.</p><p>Nenhum presidente-candidato teme punição por mobilizar a máquina pública em seu favor. Muito ao contrário. Afinal, é o próprio TSE que, historicamente, tem tornado certa a impunidade”, diz o jornal.</p><p>Para o Estadão , “um incumbente em campanha pela reeleição pode arrombar os cofres públicos a seu bel-prazer e colher os benefícios imediatos do abuso, pois a punição, quando e se vier, decerto não produzirá efeito dissuasório algum”.</p><p>Ainda de acordo com o jornal, uma eventual sanção da Justiça Eleitoral que chegue depois da diplomação “tem mero valor simbólico”. “O tribunal tem uma missão prática muito bem definida.</p><p>E só pode cumpri-la com o rigor que se espera se for ágil. Condições materiais e jurídicas para isso há. O que talvez falte é interesse”, critica o Estadão .</p><p>“Se é para cassar uma chapa, que se casse a tempo de a sanção servir de exemplo. Se é para absolver, que também se absolva logo, para dissipar suspeitas. O que é inadmissível é o TSE continuar sinalizando aos incumbentes que o abuso compensa”, conclui o jornal.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/imprensa/iestadao-i-julgamento-da-chapa-lula-alckmin-no-tse-e-certeza-da-impunidade/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets.jpg",
+        "resumo": "Pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT)",
+        "conteudo": "<p>O procurador-geral da República, Paulo Gonet, pediu ao Supremo Tribunal Federal (STF) a suspensão de processos judiiais que discutem a medida provisória (MP) que proibiu o funcimento das bets no Brasil.</p><h2>O contexto da decisão judicial</h2><p>O pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT). Caso o minstro aceite o pedido, as ações em andamento vão ficar paralisadas até o STF analisar a validade da proibição.</p><p>Na decisão, Gonet citou decisões por instâncias inferiores do Judiciário que liberou determinadas bets para atuarem em meio a proibição.</p><p>Na quinta-feira (05), três casas de apostam tinham voltado a funcionar após a desembargadora Adriana Pileggi, do Tribunal Regional Federal da 3ª Região (TRF3), atender a um pedido da CDA Gaming e suspender os efeitos da Medida Provisória (MP) das bets em relação à empresa.</p><h2>Detalhes e consequências do caso</h2><p>A medida permite que os três sites da CDA — Casa de Apostas, Betsul e Jogo Online — voltem a aceitar apostas.</p><p>Na sexta-feira (06), o presidente do Tribunal Regional Federal da 3ª Região (TRF-3), desembargador Johonsom Di Salvo, suspendeu a liminar que havia permitido provisoriamente que três sites de apostas da empresa CDA Gaming voltassem a operar.</p><p>A decisão atende a um pedido da AGU (Advocacia-Geral da União).</p><p>O presidente Lula assinou no dia 25 de setembro uma Medida Provisória que proibia a operação de sites de apostas esportivas (bets) e cassinos online com jogos como “tigrinho ” em todo o território nacional.</p><p>A medida impede novos depósitos nas plataformas a partir de sua publicação e estabelece um calendário para a retirada e devolução dos valores que ainda estão nas contas dos apostadores.</p><p>No calendário apresentado pelo governo, os sites e aplicativos de apostas sairão do ar em 6 de outubro. Os apostadores terão até o dia anterior para retirar os valores disponíveis.</p><p>Para quem não conseguir fazer o resgate dentro do prazo, foi estabelecido um procedimento de devolução integral dos saldos.</p><p>Pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT)</p><p>Fachin dá 15 dias para PGR analisar indiciamento de Vorcaro</p><p>Ministro, que é relator do caso Master, também concedeu o mesmo prazo para o órgão se manifestar sobre o pedido da PF para que a investigação seja prorrogada por mais 60 dias</p><p>Próximo sorteio da Mega-Sena terá prêmio de R$ 60 milhões</p><p>Novas regras do vale-refeição e alimentação: saiba o que muda</p><p>Novas regras para vale-alimentação e refeição começam a valer neste sábado</p><p>Nubank e Mercado Pago suspendem transferências de criptomoedas</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/economia/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets/",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -311,27 +323,267 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Em editorial publicado em 7 de novembro de 2026, o jornal O Estado de S. Paulo expressa ceticismo sobre a investigação do Tribunal Superior Eleitoral (TSE) da chapa Lula-Alckmin por suposto abuso de poder político nas eleições de 2026, destacando uma ação do Partido Novo que alega que Lula adotou 35 medidas para beneficiar sua candidatura."
+            "resposta": "O procurador-geral da República, Paulo Gonet, pediu ao Supremo Tribunal Federal (STF) a suspensão de processos judiiais que discutem a medida provisória (MP) que proibiu o funcimento das bets no Brasil."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Em editorial publicado na edição deste sábado, 7, o jornal O Estado de S. Paulo demonstra ceticismo em relação à investigação pelo Tribunal Superior Eleitoral (TSE) da chapa composta por Luiz Inácio Lula da Silva (PT) e Geraldo Alckmin (PSB) por suposto abuso de poder político durante as eleições de 2026."
+            "resposta": "O pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT). Caso o minstro aceite o pedido, as ações em andamento vão ficar paralisadas até o STF analisar a validade da proibição."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "De acordo com uma ação apresentada pelo Partido Novo, Lula, que acabou vencendo a eleição, editou 35 medidas entre janeiro e outubro para se beneficiar eleitoralmente no cargo. Entre essas medidas, estão o reajuste do Bolsa Família, as desonerações sobre combustíveis e outras benesses para motoristas de aplicativo e caminhoneiros."
+            "resposta": "Na decisão, Gonet citou decisões por instâncias inferiores do Judiciário que liberou determinadas bets para atuarem em meio a proibição."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "O corregedor-geral eleitoral, ministro Ricardo Villas Bôas Cueva, admitiu a instauração de uma Ação de Investigação Judicial Eleitoral (Aije) contra a chapa Lula-Alckmin . “A decisão de Cueva não antecipa qualquer juízo de mérito."
+            "resposta": "A medida permite que os três sites da CDA — Casa de Apostas, Betsul e Jogo Online — voltem a aceitar apostas. Na sexta-feira (06), o presidente do Tribunal Regional Federal da 3ª Região (TRF-3), desembargador Johonsom Di Salvo, suspendeu a liminar que havia permitido provisoriamente que três sites de apostas da empresa CDA Gaming voltassem a operar."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "“Mas, se o histórico do Tribunal Superior Eleitoral (TSE) servir de oráculo, Lula e Alckmin podem ficar absolutamente tranquilos. É provável que o desfecho dessa Aije contra eles, se houver, só venha num futuro distante. E, se vier, é grande a chance de ambos serem absolvidos."
+            "resposta": "O presidente Lula assinou no dia 25 de setembro uma Medida Provisória que proibia a operação de sites de apostas esportivas (bets) e cassinos online com jogos como “tigrinho ” em todo o território nacional."
           }
         ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/pres-lula-convencao-nacional-do-psb-ricardostuckert-6-1.jpg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/estadao-julgamento-da-chapa-lula-alckmin-no-tse-e-certeza-da-impunidade.jpg",
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/01/ja_7547.jpg?w=1170&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "4265bcef7f20e7f0",
+      "titulo": "Projeto proíbe seguradoras de negar indenização por imprudência",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-congresso/projeto-proibe-seguradoras-de-negar-indenizacao-por-imprudencia/",
+      "dataFonte": "2026-11-07T14:12:26.000Z",
+      "resumoFonte": "Proposta em análise na Câmara impede a recusa de pagamentos de seguros de vida e acidentes pessoais com base em negligência do segurado",
+      "imagem": "https://static.poder360.com.br/uploads/2026/07/Jonasdonizette-camara-13jul2026.png",
+      "descobertaEm": "2026-11-07T14:18:40.001Z",
+      "reportagem": {
+        "titulo": "Projeto proíbe seguradoras de negar indenização por imprudência",
+        "slug": "projeto-proibe-seguradoras-de-negar-indenizacao-por-imprudencia",
+        "categoria": "Política Nacional",
+        "data": "2026-11-07",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/projeto-proibe-seguradoras-de-negar-indenizacao-por-imprudencia.jpg",
+        "resumo": "Proposta impede a recusa de pagamentos de seguros de vida e acidentes pessoais com base em negligência do segurado.",
+        "conteudo": "<p>Proposta em análise na Câmara impede a recusa de pagamentos de seguros de vida e acidentes pessoais com base em negligência do segurado</p><h2>O contexto do cenário político</h2><p>O projeto de lei 3.353 de 2026 proíbe seguradoras de negar o pagamento de indenizações de seguros de vida e de acidentes pessoais só porque o segurado agiu com imprudência, negligência ou imperícia.</p><p>A proposta está em análise na Câmara dos Deputados e altera a Lei 15.040 de 2024 , que regula os contratos de seguro.</p><p>O autor do projeto, deputado Jonas Donizette (PSB-SP), afirma que seguradoras se recusam, em alguns casos, a pagar indenizações às famílias sob o argumento de que o segurado agravou o risco do contrato antes de morrer. Um exemplo é a morte em um acidente causado por descuido.</p><h2>Informações e repercussões do episódio</h2><p>“Admitir a exclusão da cobertura nessas hipóteses significaria esvaziar a própria finalidade do seguro de vida, cuja função consiste em assegurar proteção econômica aos beneficiários diante da ocorrência do sinistro” , afirmou o deputado.</p><p>Segundo Donizette, o projeto não cria novas coberturas, mas inclui na legislação um entendimento já consolidado pelo STJ (Superior Tribunal de Justiça).</p><p>O projeto será analisado pelas comissões de Finanças e Tributação e de Constituição e Justiça e de Cidadania da Câmara. Para virar lei, precisará ser aprovado pelos deputados e pelo Senado.</p><p>Este texto foi originalmente publicado pela Agência Câmara, em 28 de outubro de 2026. O conteúdo é livre para republicação, citada a fonte, e foi adaptado para o padrão do Poder360.</p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-congresso/projeto-proibe-seguradoras-de-negar-indenizacao-por-imprudencia/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Proposta em análise na Câmara impede a recusa de pagamentos de seguros de vida e acidentes pessoais com base em negligência do segurado"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O projeto de lei 3.353 de 2026 proíbe seguradoras de negar o pagamento de indenizações de seguros de vida e de acidentes pessoais só porque o segurado agiu com imprudência, negligência ou imperícia. A proposta está em análise na Câmara dos Deputados e altera a Lei 15.040 de 2024 , que regula os contratos de seguro."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O autor do projeto, deputado Jonas Donizette (PSB-SP), afirma que seguradoras se recusam, em alguns casos, a pagar indenizações às famílias sob o argumento de que o segurado agravou o risco do contrato antes de morrer. Um exemplo é a morte em um acidente causado por descuido."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "“Admitir a exclusão da cobertura nessas hipóteses significaria esvaziar a própria finalidade do seguro de vida, cuja função consiste em assegurar proteção econômica aos beneficiários diante da ocorrência do sinistro” , afirmou o deputado."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Segundo Donizette, o projeto não cria novas coberturas, mas inclui na legislação um entendimento já consolidado pelo STJ (Superior Tribunal de Justiça)."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/07/Jonasdonizette-camara-13jul2026.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/projeto-proibe-seguradoras-de-negar-indenizacao-por-imprudencia.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "0396cfa9b1f9a7e4",
+      "titulo": "Vitória democrata põe em xeque era de ouro das criptomoedas sob Trump",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/onde-investir/criptomoedas-trump-vitoria-democrata-congresso-eua/",
+      "dataFonte": "2026-11-07T13:58:24.000Z",
+      "resumoFonte": "Um recorte do presidente dos EUA, Donald Trump, segurando um token de Bitcoin durante a conferência Bitcoin 2025 em Las Vegas. Fotógrafa: Bridget Bennett/Bloomberg \" data-image-caption=\" Um recorte do presidente dos EUA, Donald Trump, segurando um token de Bitcoin durante a conferência Bitcoin 2025 em Las Vegas. Fotógrafa: Bridget Bennett/Bloomberg…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/trump-cripto.jpg",
+      "descobertaEm": "2026-11-07T14:18:40.001Z",
+      "reportagem": {
+        "titulo": "Vitória democrata põe em xeque era de ouro das criptomoedas sob Trump",
+        "slug": "vitoria-democrata-poe-em-xeque-era-de-ouro-das-criptomoedas-sob-trump",
+        "categoria": "Política Nacional",
+        "data": "2026-11-07",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/vitoria-democrata-poe-em-xeque-era-de-ouro-das-criptomoedas-sob-trump.jpg",
+        "resumo": "Vitória democrata no Congresso dos EUA ameaça agenda cripto de Trump e abre caminho para regras mais rígidas e investigações sobre o setor.",
+        "conteudo": "<p>A fase de excepcional apoio político ao mercado de criptomoedas em Washington chegou a um fim abrupto.</p><h2>O contexto do cenário político</h2><p>Com os democratas prestes a assumir o controle do Congresso após a vitória nas eleições de meio de mandato, o setor enfrenta a perspectiva de regras mais rígidas e maior fiscalização de seus vínculos com o presidente Donald Trump .</p><p>Durante dois anos, a indústria cripto desfrutou de uma posição privilegiada na capital americana.</p><p>Tinha ao seu lado um presidente que transformou os ativos digitais em prioridade nacional, ao mesmo tempo que ampliava sua própria fortuna com negócios em criptomoedas, reguladores favoráveis à expansão do setor e um Congresso republicano alinhado a essa agenda.</p><h2>Informações e repercussões do episódio</h2><p>Agora, o mercado enfrenta seu teste mais difícil para se consolidar como uma força permanente no sistema financeiro, justamente quando perde boa parte de sua influência política.</p><p>A vitória democrata no Congresso americano ameaça dificultar a aprovação de uma legislação abrangente nos termos desejados pela indústria e abre caminho para investigações parlamentares sobre os negócios de Trump com criptomoedas.</p><p>“Muitas figuras importantes do setor cripto se alinharam com a família Trump”, disse Austin Campbell, especialista em criptomoedas e ex-banqueiro que atualmente é professor adjunto da NYU Stern School of Business. “Essa aproximação provavelmente vai cobrar seu preço.”</p><p>“A ocorrência não é na infraestrutura do Nubank e não compromete a segurança dos clientes: todos os ativos e informações seguem protegidos”, afirmou o banco</p><p>Trump lançou seus próprios ativos digitais, recebeu executivos do setor na Casa Branca e incorporou as ambições da indústria à sua agenda política.</p><p>Em contrapartida, as principais conquistas das criptomoedas passaram a ficar intimamente associadas à sua Presidência. Os interesses financeiros pessoais do republicano, porém, também complicaram os esforços do setor para conquistar apoio político mais amplo.</p><p>Essa relação chegou a um ponto crítico em setembro, quando o Senado não conseguiu avançar com o Clarity Act , projeto de lei destinado a estabelecer regras mais claras para corretoras e outras empresas de ativos digitais.</p><p>Os negócios de Trump com criptomoedas se tornaram um dos principais focos de divergência. Desacordos sobre a remuneração de stablecoins, a proteção dos investidores e a concorrência com os bancos também contribuíram para o impasse.</p><p>Os democratas sinalizaram que pretendem exigir regras éticas mais rigorosas, maior proteção aos consumidores e uma participação mais ampla da Comissão de Valores Mobiliários dos Estados Unidos (SEC, na sigla em inglês) na supervisão dos ativos digitais.</p><p>Essas mudanças se distanciam do modelo defendido por muitas empresas de criptomoedas durante o controle republicano. Por outro lado, também podem abrir caminho para uma nova legislação, caso o setor consiga construir apoio entre os dois partidos.</p><p>“Haverá uma postura defensiva à medida que a indústria se reajusta a uma nova liderança, pelo menos inicialmente”, disse Adam Minehardt, diretor de políticas do Hyperliquid Policy Center.</p><p>As grandes apostas políticas da indústria de criptomoedas também podem trazer consequências.</p><p>Sherrod Brown, derrotado em 2024 após grupos de lobby do setor investirem milhões de dólares na campanha contra ele, venceu o senador republicano de Ohio, Jon Husted.</p><p>Segundo a consultoria Capstone, Brown poderá assumir uma posição de destaque no Comitê de Agricultura do Senado, responsável pela supervisão da Comissão de Negociação de Futuros de Commodities (CFTC, na sigla em inglês), um dos principais órgãos reguladores do mercado cripto.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/onde-investir/criptomoedas-trump-vitoria-democrata-congresso-eua/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A fase de excepcional apoio político ao mercado de criptomoedas em Washington chegou a um fim abrupto. Com os democratas prestes a assumir o controle do Congresso após a vitória nas eleições de meio de mandato, o setor enfrenta a perspectiva de regras mais rígidas e maior fiscalização de seus vínculos com o presidente Donald Trump ."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Durante dois anos, a indústria cripto desfrutou de uma posição privilegiada na capital americana. Tinha ao seu lado um presidente que transformou os ativos digitais em prioridade nacional, ao mesmo tempo que ampliava sua própria fortuna com negócios em criptomoedas, reguladores favoráveis à expansão do setor e um Congresso republicano alinhado a essa agenda."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Agora, o mercado enfrenta seu teste mais difícil para se consolidar como uma força permanente no sistema financeiro, justamente quando perde boa parte de sua influência política."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A vitória democrata no Congresso americano ameaça dificultar a aprovação de uma legislação abrangente nos termos desejados pela indústria e abre caminho para investigações parlamentares sobre os negócios de Trump com criptomoedas."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "“Muitas figuras importantes do setor cripto se alinharam com a família Trump”, disse Austin Campbell, especialista em criptomoedas e ex-banqueiro que atualmente é professor adjunto da NYU Stern School of Business. “Essa aproximação provavelmente vai cobrar seu preço.”"
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/trump-cripto.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/vitoria-democrata-poe-em-xeque-era-de-ouro-das-criptomoedas-sob-trump.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "82200cf99c08bd61",
+      "titulo": "Governadora do DF volta a tentar conversa com Lula sobre crise do BRB",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb/",
+      "dataFonte": "2026-11-07T12:48:14.000Z",
+      "resumoFonte": "Trata-se de uma nova tentativa de Celina Leão; Palácio do Planalto não recebeu a chefe do Executivo no primeiro semestre diante do desgaste político provocado pelo escândalo do Master",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Thumb-para-corte-30.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-07T14:18:40.001Z",
+      "reportagem": {
+        "titulo": "Governadora do DF volta a tentar conversa com Lula sobre crise do BRB",
+        "slug": "governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb",
+        "categoria": "Política Nacional",
+        "data": "2026-11-07",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb.jpg",
+        "resumo": "Trata-se de uma nova tentativa de Celina Leão; Palácio do Planalto não recebeu a chefe do Executivo no primeiro semestre diante do desgaste político provocado pelo escândalo do Master",
+        "conteudo": "<p>A governadora do Distrito Federal, Celina Leão (PP), voltou a tentar conversar com o presidente Luiz Inácio Lula da Silva (PT) para discutir a situação financeira do BRB (Banco de Brasília).</p><h2>O contexto do cenário político</h2><p>De acordo com fontes ouvidas pelo CNN Money , intermediários do Palácio do Buriti estão negociando o encontro com interlocutores do Palácio do Planalto.</p><p>Celina já havia tentado marcar uma reunião com o presidente Lula no primeiro semestre deste ano para falar sobre a crise do BRB. Contudo, o Palácio do Planalto recusou o pedido diante do desgaste político provocado pelo escândalo envolvendo o Banco Master.</p><p>Em agosto, o STF (Supremo Tribunal Federal) mediou uma audiência de conciliação entre o Governo do Distrito Federal e a União para viabilizar o acordo para um empréstimo de até R$ 6,6 bilhões para o BRB. A audiência terminou sem consenso .</p><h2>Detalhes e consequências do caso</h2><p>Inicialmente, o governo do DF negociava um empréstimo com recursos do FGC (Fundo Garantidor de Créditos), com garantia de um sindicato de bancos públicos e privados.</p><p>A operação teria a utilização de dois fundos do Distrito Federal como contragarantia em caso de calote do governo local. São eles:</p><p>Para ajudar o BRB, o governo federal se comprometeu a flexibilizar regras do PAF (Plano de Ajuste Fiscal) do governo do Distrito Federal para permitir uma operação de crédito de maior porte. A iniciativa não previa a transferência de recursos federais nem garantia da União.</p><p>Mesmo assim, o governo do Distrito Federal encontrou dificuldades para conseguir o empréstimo com bancos privados.</p><p>Entre os principais pontos levantados para a continuidade das negociações, estão a segurança das garantias oferecidas aos bancos em caso de inadimplência e as informações necessárias para a análise do plano de negócios do BRB.</p><p>Diante das dificuldades em fechar o empréstimo com bancos no Brasil, Celina se reuniu com investidores dos Emirados Árabes Unidos interessados em fazer aportes financeiros no BRB.</p><p>Em meados de outubro, o BRB informou não haver ato ou deliberação formal da companhia sobre o negócio com os investidores árabes.</p><p>A governadora do Distrito Federal, Celina Leão (PP)</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A governadora do Distrito Federal, Celina Leão (PP), voltou a tentar conversar com o presidente Luiz Inácio Lula da Silva (PT) para discutir a situação financeira do BRB (Banco de Brasília)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "De acordo com fontes ouvidas pelo CNN Money , intermediários do Palácio do Buriti estão negociando o encontro com interlocutores do Palácio do Planalto."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Celina já havia tentado marcar uma reunião com o presidente Lula no primeiro semestre deste ano para falar sobre a crise do BRB. Contudo, o Palácio do Planalto recusou o pedido diante do desgaste político provocado pelo escândalo envolvendo o Banco Master."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Em agosto, o STF (Supremo Tribunal Federal) mediou uma audiência de conciliação entre o Governo do Distrito Federal e a União para viabilizar o acordo para um empréstimo de até R$ 6,6 bilhões para o BRB. A audiência terminou sem consenso ."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Inicialmente, o governo do DF negociava um empréstimo com recursos do FGC (Fundo Garantidor de Créditos), com garantia de um sindicato de bancos públicos e privados. A operação teria a utilização de dois fundos do Distrito Federal como contragarantia em caso de calote do governo local. São eles:"
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Thumb-para-corte-30.png?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "77201c18e88315e6",
+      "titulo": "Governadora do DF tenta nova conversa com Lula para tratar de crise do BRB",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governadora-do-df-tenta-nova-conversa-com-lula-para-tratar-de-crise-do-brb/",
+      "dataFonte": "2026-11-07T12:48:14.000Z",
+      "resumoFonte": "Trata-se de uma nova tentativa de Celina Leão; Palácio do Planalto não recebeu a chefe do Executivo no primeiro semestre diante do desgaste político provocado pelo escândalo do Master",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Thumb-para-corte-30.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-07T13:18:43.230Z",
+      "reportagem": {
+        "titulo": "Governadora do DF volta a tentar conversa com Lula sobre crise do BRB",
+        "slug": "governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb",
+        "categoria": "Política Nacional",
+        "data": "2026-11-07",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb.jpg",
+        "resumo": "Trata-se de uma nova tentativa de Celina Leão; Palácio do Planalto não recebeu a chefe do Executivo no primeiro semestre diante do desgaste político provocado pelo escândalo do Master",
+        "conteudo": "<p>A governadora do Distrito Federal, Celina Leão (PP), voltou a tentar conversar com o presidente Luiz Inácio Lula da Silva (PT) para discutir a situação financeira do BRB (Banco de Brasília).</p><h2>O contexto do cenário político</h2><p>De acordo com fontes ouvidas pelo CNN Money , intermediários do Palácio do Buriti estão negociando o encontro com interlocutores do Palácio do Planalto.</p><p>Celina já havia tentado marcar uma reunião com o presidente Lula no primeiro semestre deste ano para falar sobre a crise do BRB. Contudo, o Palácio do Planalto recusou o pedido diante do desgaste político provocado pelo escândalo envolvendo o Banco Master.</p><p>Em agosto, o STF (Supremo Tribunal Federal) mediou uma audiência de conciliação entre o Governo do Distrito Federal e a União para viabilizar o acordo para um empréstimo de até R$ 6,6 bilhões para o BRB. A audiência terminou sem consenso .</p><h2>Detalhes e consequências do caso</h2><p>Inicialmente, o governo do DF negociava um empréstimo com recursos do FGC (Fundo Garantidor de Créditos), com garantia de um sindicato de bancos públicos e privados.</p><p>A operação teria a utilização de dois fundos do Distrito Federal como contragarantia em caso de calote do governo local. São eles:</p><p>Para ajudar o BRB, o governo federal se comprometeu a flexibilizar regras do PAF (Plano de Ajuste Fiscal) do governo do Distrito Federal para permitir uma operação de crédito de maior porte. A iniciativa não previa a transferência de recursos federais nem garantia da União.</p><p>Mesmo assim, o governo do Distrito Federal encontrou dificuldades para conseguir o empréstimo com bancos privados.</p><p>Entre os principais pontos levantados para a continuidade das negociações, estão a segurança das garantias oferecidas aos bancos em caso de inadimplência e as informações necessárias para a análise do plano de negócios do BRB.</p><p>Diante das dificuldades em fechar o empréstimo com bancos no Brasil, Celina se reuniu com investidores dos Emirados Árabes Unidos interessados em fazer aportes financeiros no BRB.</p><p>Em meados de outubro, o BRB informou não haver ato ou deliberação formal da companhia sobre o negócio com os investidores árabes.</p><p>A governadora do Distrito Federal, Celina Leão (PP)</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governadora-do-df-tenta-nova-conversa-com-lula-para-tratar-de-crise-do-brb/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A governadora do Distrito Federal, Celina Leão (PP), voltou a tentar conversar com o presidente Luiz Inácio Lula da Silva (PT) para discutir a situação financeira do BRB (Banco de Brasília)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "De acordo com fontes ouvidas pelo CNN Money , intermediários do Palácio do Buriti estão negociando o encontro com interlocutores do Palácio do Planalto."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Celina já havia tentado marcar uma reunião com o presidente Lula no primeiro semestre deste ano para falar sobre a crise do BRB. Contudo, o Palácio do Planalto recusou o pedido diante do desgaste político provocado pelo escândalo envolvendo o Banco Master."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Em agosto, o STF (Supremo Tribunal Federal) mediou uma audiência de conciliação entre o Governo do Distrito Federal e a União para viabilizar o acordo para um empréstimo de até R$ 6,6 bilhões para o BRB. A audiência terminou sem consenso ."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Inicialmente, o governo do DF negociava um empréstimo com recursos do FGC (Fundo Garantidor de Créditos), com garantia de um sindicato de bancos públicos e privados. A operação teria a utilização de dois fundos do Distrito Federal como contragarantia em caso de calote do governo local. São eles:"
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Thumb-para-corte-30.png?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/governadora-do-df-volta-a-tentar-conversa-com-lula-sobre-crise-do-brb.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -397,98 +649,26 @@
       }
     },
     {
-      "id": "bc5b2c924b80ea72",
-      "titulo": "Lula 4 precisará se envolver mais com o Centrão, diz especialista",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/politica/lula-4-precisara-se-envolver-mais-com-o-centrao-diz-especialista/",
-      "dataFonte": "2026-11-07T10:30:33.000Z",
-      "resumoFonte": "Ao WW, o vice-presidente da Arko Advice, Cristiano Noronha, avalia desafios de Lula no Congresso, onde a direita conquistou maioria na Câmara e no Senado nas eleições de 2026",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/lula4_f394f8.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-07T11:18:21.581Z",
-      "reportagem": {
-        "titulo": "Lula 4 precisará se envolver mais com o Centrão, diz especialista",
-        "slug": "lula-4-precisara-se-envolver-mais-com-o-centrao-diz-especialista",
-        "categoria": "Política Nacional",
-        "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-4-precisara-se-envolver-mais-com-o-centrao-diz-especialista.jpg",
-        "resumo": "Ao WW, o vice-presidente da Arko Advice, Cristiano Noronha, avalia desafios de Lula no Congresso, onde a direita conquistou maioria na Câmara e no Senado nas eleições de 2026",
-        "conteudo": "<p>O quarto governo de Luiz Inácio Lula da Silva (PT) deverá ser marcado por uma mudança significativa na relação do presidente com o Congresso Nacional.</p><h2>O contexto do cenário político</h2><p>Segundo análise de Cristiano Noronha, vice-presidente da Arko Advice ao WW , a principal diferença em relação ao terceiro mandato será o envolvimento direto de Lula nas negociações políticas com os parlamentares.</p><p>Noronha avalia que, embora a participação pessoal do presidente possa ajudar o governo a avançar sua agenda, essa estratégia também carrega custos elevados.</p><p>&quot;Isso pode sim ajudar o governo, mas também pode trazer um custo e um desgaste para o presidente&quot;, afirmou o especialista.</p><h2>Informações e repercussões do episódio</h2><p>Segundo ele, ao se expor diretamente nas negociações, Lula fica mais vulnerável a derrotas que podem gerar uma percepção de fragilidade do governo.</p><p>Noronha observa que Lula já demonstra sinais dessa nova postura.</p><p>O presidente passou a realizar lives para tentar melhorar seus índices de popularidade e convidou os presidentes da Câmara e do Senado, Hugo Motta (Republicanos-PB) e Davi Alcolumbre (União-AP), para viajarem com ele à COP31.</p><p>Outra mudança sinalizada pelo governo é a intenção de cobrar maior fidelidade dos partidos da base aliada nas votações do Congresso.</p><p>O especialista, no entanto, pondera que a cobrança por fidelidade partidária pode não ser suficiente para garantir os resultados esperados.</p><p>&quot;Ao longo de vários governos, a gente viu que os partidos não entregam 100% dos votos&quot;, disse Noronha.</p><p>Ele citou como exemplo o União Brasil que, durante o terceiro governo Lula, mesmo ocupando três pastas ministeriais, entregou apenas entre 60% e 65% de apoio nas votações da Câmara dos Deputados.</p><p>O cenário se torna ainda mais desafiador diante da composição do novo Congresso, que toma posse a partir de 1º de fevereiro.</p><p>Nas eleições de 2026, a direita brasileira conquistou maioria tanto na Câmara dos Deputados quanto no Senado Federal, o que deve tornar ainda mais difícil para o governo atingir seus objetivos legislativos.</p><p>Lula vai precisar se envolver mais com o Centrão em seu quarto governo, diz especialista | WW</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/politica/lula-4-precisara-se-envolver-mais-com-o-centrao-diz-especialista/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O quarto governo de Luiz Inácio Lula da Silva (PT) deverá ser marcado por uma mudança significativa na relação do presidente com o Congresso Nacional."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Segundo análise de Cristiano Noronha, vice-presidente da Arko Advice ao WW , a principal diferença em relação ao terceiro mandato será o envolvimento direto de Lula nas negociações políticas com os parlamentares."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Noronha avalia que, embora a participação pessoal do presidente possa ajudar o governo a avançar sua agenda, essa estratégia também carrega custos elevados."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "&quot;Isso pode sim ajudar o governo, mas também pode trazer um custo e um desgaste para o presidente&quot;, afirmou o especialista."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Segundo ele, ao se expor diretamente nas negociações, Lula fica mais vulnerável a derrotas que podem gerar uma percepção de fragilidade do governo."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/lula4_f394f8.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-4-precisara-se-envolver-mais-com-o-centrao-diz-especialista.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "a495ec9ecda10eaf",
-      "titulo": "Próximo sorteio da Mega-Sena terá prêmio de R$ 60 milhões",
+      "id": "816905dff74f9d9a",
+      "titulo": "Ueno Bank: escândalo e queda de Santiago Peña lembram Banco Master | G1",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/economia/proximo-sorteio-da-mega-sena-tera-premio-de-r-60-milhoes/",
-      "dataFonte": "2026-11-07T11:29:00.000Z",
-      "resumoFonte": "Premiação acumulou depois que nenhum apostador acertou as seis dezenas do concurso 3082; sorteio acontece neste domingo",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/11/fup20221227180.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-07T12:18:23.923Z"
-    },
-    {
-      "id": "f49fb38de9aead4e",
-      "titulo": "Novas regras para VR e VA entram em vigor neste sábado (7); saiba o que muda",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "CBN - Política",
-      "urlFonte": "https://cbn.globo.com/economia/noticia/2026/11/07/novas-regras-para-vr-e-va-entram-em-vigor-neste-sabado-7-saiba-o-que-muda.ghtml",
-      "dataFonte": "2026-11-07T11:01:44.210Z",
-      "resumoFonte": "A partir de agora, o cartão do benefício deverá ser aceito em qualquer maquininha de pagamento, independentemente de quem emitiu o benefício ou de qual rede o estabelecimento utiliza.",
-      "imagem": "https://s2-cbn.glbimg.com/J1mQ2uLREijbSXEtigrr_SdxSck=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/g/q/PXVxz7TpG2OtKHmviA0Q/captura-de-tela-2026-02-10-112933.png",
-      "descobertaEm": "2026-11-07T12:18:23.923Z",
+      "fonteNome": "g1 - Capa",
+      "urlFonte": "https://g1.globo.com/mundo/noticia/2026/11/07/ueno-bank-escandalo-que-levou-a-queda-do-presidente-do-paraguai-pode-ser-comparado-ao-do-banco-master.ghtml",
+      "dataFonte": "2026-11-07T13:40:26.544Z",
+      "resumoFonte": "Crescimento rápido, exposição relevante de recursos públicos e relações próximas com o mundo político estão entre as semelhanças dos dois casos, mas analistas apontam diferenças.",
+      "imagem": "https://s2-g1.glbimg.com/CKMdWM_DFu4d2xD_329SyRti2qg=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/u/4/0xie8BRn2nbuHA1d98PA/novo-projeto-3-.jpg",
+      "descobertaEm": "2026-11-07T14:21:12.513Z",
       "reportagem": {
-        "titulo": "Novas regras para VR e VA entram em vigor neste sábado (7); saiba o que muda",
-        "slug": "novas-regras-para-vr-e-va-entram-em-vigor-neste-sabado-7-saiba-o-que-muda",
+        "titulo": "Ueno Bank: escândalo e queda de Santiago Peña lembram Banco Master",
+        "slug": "ueno-bank-escandalo-e-queda-de-santiago-pena-lembram-banco-master",
         "categoria": "Economia",
         "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/novas-regras-para-vr-e-va-entram-em-vigor-neste-sabado-7-saiba-o-que-muda.jpg",
-        "resumo": "A partir de agora, o cartão do benefício deverá ser aceito em qualquer maquininha de pagamento, independentemente de quem emitiu o benefício ou de qual rede o estabelecimento utiliza.",
-        "conteudo": "<p>Novas regras para VR e VA entram em vigor neste sábado (7); saiba o que muda</p><h2>Dados e contexto do setor</h2><p>Entram em vigor neste sábado as novas regras para o vale-refeição (VR) e o vale-alimentação (VA).</p><p>A partir de agora, o cartão do benefício deverá ser aceito em qualquer maquininha de pagamento, independentemente de quem emitiu o benefício ou de qual rede o estabelecimento utiliza.</p><p>Com isso, um estabelecimento poderá aceitar cartões de diferentes bandeiras utilizando a mesma estrutura de pagamento, sem precisar ter uma maquininha para cada operadora.</p><h2>Impactos e informações adicionais</h2><p>A ideia, com esta medida, é acabar com aquela situação em que o trabalhador tem que ficar consultando se o restaurante ou supermercado aceita ou não o VA ou VR dele.</p><p>A transição para este novo modelo começou em maio e terminou hoje, um ano após a assinatura do decreto que atualizou o Programa de Alimentação do Trabalhador (PAT).</p><p>Cartões de empresas como Alelo, Ticket, VR Benefícios, Pluxee, Flash e Swile estão entre os abrangidos pelas mudanças, conforme o enquadramento no PAT.</p><p>As novas regras também estabelecem limites para as taxas cobradas dos estabelecimentos comerciais e reduzem o prazo para o repasse dos valores das vendas. O objetivo do governo é estimular a concorrência no setor e facilitar a aceitação dos benefícios pelo comércio.</p><p>Apesar da previsão de implementação agora em novembro, a mudança enfrenta desafios operacionais.</p><p>A Associação Brasileira de Bares e Restaurantes (Abrasel) alega que os sistemas das empresas ainda não estão totalmente integrados e aponta dificuldades para o funcionamento da medida no prazo previsto.</p><p>Além disso, parte das regras é alvo de questionamentos judiciais por operadoras do setor.</p><p>Os caminhos para garantir um ambiente mais inclusivo dentro das empresas</p><p>TRF mantém proibição de três casas de aposta após recurso da AGU</p><p>É melhor resgatar ou manter o investimento em um fundo de debêntures após a rentabilidade ser negativa?</p><p>Bolsas de Nova York e Ibovespa reagem após liquidação histórica das empresas de tecnologia</p>",
-        "fonteNome": "CBN - Política",
-        "fonteUrl": "https://cbn.globo.com/economia/noticia/2026/11/07/novas-regras-para-vr-e-va-entram-em-vigor-neste-sabado-7-saiba-o-que-muda.ghtml",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/ueno-bank-escandalo-e-queda-de-santiago-pena-lembram-banco-master.jpg",
+        "resumo": "Crescimento rápido, exposição relevante de recursos públicos e relações próximas com o mundo político estão entre as semelhanças dos dois casos, mas analistas apontam diferenças.",
+        "conteudo": "<p>Ueno Bank: escândalo que levou à queda do presidente do Paraguai pode ser comparado ao do Banco Master? — Foto: Bloomberg via Getty Images, via BBC</p><h2>Dados e contexto do setor</h2><p>A liquidação do banco Ueno desencadeou uma forte crise política no Paraguai , com a renúncia do presidente do Banco Central do País e depois, o impeachment e a prisão do agora ex-presidente Santiago Peña .</p><p>Peña foi acionista do Grupo Vázquez, controlador do banco Ueno , até março de 2025. O então presidente do Banco Central paraguaio, Carlos Carvallo Spalding, também havia comandado o Ueno antes de assumir o cargo público.</p><p>A crise bancária, de um banco com fortes laços políticos e envolvendo montante relevante de recursos públicos, incluindo aposentadorias, levou a comparações entre à crise do Ueno com a do banco Master, no Brasil.</p><h2>Impactos e informações adicionais</h2><p>Especialistas ouvidos pela BBC News Brasil, apontam que, de fato, há muitos pontos de contato entre os casos, mas também diferenças relevantes, como a escala do Ueno na economia paraguaia, e a proximidade direta do banco com o presidente do país – que já estava politicamente fragilizado por crises internas dentro de seu partido, o Colorado, o que acabou precipitando sua rápida queda.</p><p>&quot;É impressionante a semelhança entre os casos Master e Ueno. Nos dois houve exposição relevante de recursos públicos, inclusive da previdência, crescimento muito rápido apoiado em ativos frágeis e relações próximas com o mundo político&quot;, afirma Thiago Amâncio, diretor associado da equipe de riscos geopolíticos da consultoria Control Risks.</p><p>&quot;Mas a diferença fundamental é a dimensão do Ueno no sistema paraguaio, já que quase metade da população tem conta no banco.</p><p>É uma escala completamente diferente da do Master, que se tivesse um tamanho equivalente teria provocado uma crise financeira imensa por aqui, não só política.&quot;</p><p>O Ueno surgiu da aquisição em 2021 da antiga Financiera El Comercio pelo Grupo Vázquez. A marca Ueno foi lançada em fevereiro de 2022.</p><p>Em novembro do ano seguinte a instituição recebeu autorização do Banco Central do Paraguai (BCP) para operar como banco. Em 2024, incorporou o Visión Banco, ampliando sua carteira de clientes e operações.</p><p>Assim, pouco mais de três anos, o banco tornou-se um dos principais do Paraguai e, segundo dados da própria instituição, tinha 3 milhões de clientes, o equivalente a 60% da população adulta do país.</p><p>Já no caso do Master, Daniel Vorcaro entrou como sócio do então Banco Máxima em 2017. Dois anos depois, o Banco Central do Brasil autorizou a transferência do controle da instituição para o banqueiro e, em 2021, o banco passou a se chamar Banco Master.</p><p>As estratégias dos bancos para conquistar clientes, porém, foram diferentes: enquanto o Ueno apostou na abertura digital de contas, em descontos e na devolução de parte do valor das compras, o Master atraiu investidores com CDBs (Certificados de depósito bancário) que ofereciam remuneração muito acima da média do mercado.</p><p>&quot;O Ueno era um banco de varejo, que cresceu ampliando a base de clientes, então ele foi agressivo no cartão de crédito e abertura de contas, enquanto o Master estava mais preocupado em comprar ativos, captar dinheiro e usar esse dinheiro para alavancar ativos com baixa liquidez&quot;, observa Alexandre Jorge Chaia, professor nas disciplinas de gestão de riscos financeiros e produtos bancários no Insper.</p><p>&quot;Os dois cresceram bastante, mas foi em ritmos bem diferentes. O Ueno Bank, em três anos, saiu de um banco inexpressivo para um dos principais bancos do país. Já no caso do Master, foram seis anos de crescimento, mas do ponto de vista de relevância, nunca foi grande.&quot;</p><p>No Paraguai , o Ueno administrava cerca de US$ 850 milhões em recursos públicos, entre eles fundos do Instituto de Previdência Social (IPS) , responsável pelo pagamento de aposentadorias, pensões e outros benefícios.</p><p>No Brasil, regimes próprios de previdência de Estados e municípios investiram cerca de R$ 1,8 bilhão em títulos emitidos pelo Master, segundo dados do Ministério da Previdência Social.</p><p>No Paraguai , o Banco Central apontou empréstimos considerados excessivos a empresas ligadas ao grupo controlador do Ueno, o Vázquez, que teve Santiago Peña como acionista até o ano passado e o ex-presidente do Banco Central paraguaio como executivo.</p>",
+        "fonteNome": "g1 - Capa",
+        "fonteUrl": "https://g1.globo.com/mundo/noticia/2026/11/07/ueno-bank-escandalo-que-levou-a-queda-do-presidente-do-paraguai-pode-ser-comparado-ao-do-banco-master.ghtml",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil Economia",
@@ -503,52 +683,52 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Novas regras para VR e VA entram em vigor neste sábado (7); saiba o que muda"
+            "resposta": "Ueno Bank: escândalo que levou à queda do presidente do Paraguai pode ser comparado ao do Banco Master? — Foto: Bloomberg via Getty Images, via BBC"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Entram em vigor neste sábado as novas regras para o vale-refeição (VR) e o vale-alimentação (VA). A partir de agora, o cartão do benefício deverá ser aceito em qualquer maquininha de pagamento, independentemente de quem emitiu o benefício ou de qual rede o estabelecimento utiliza."
+            "resposta": "A liquidação do banco Ueno desencadeou uma forte crise política no Paraguai , com a renúncia do presidente do Banco Central do País e depois, o impeachment e a prisão do agora ex-presidente Santiago Peña ."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Com isso, um estabelecimento poderá aceitar cartões de diferentes bandeiras utilizando a mesma estrutura de pagamento, sem precisar ter uma maquininha para cada operadora. A ideia, com esta medida, é acabar com aquela situação em que o trabalhador tem que ficar consultando se o restaurante ou supermercado aceita ou não o VA ou VR dele."
+            "resposta": "Peña foi acionista do Grupo Vázquez, controlador do banco Ueno , até março de 2025. O então presidente do Banco Central paraguaio, Carlos Carvallo Spalding, também havia comandado o Ueno antes de assumir o cargo público."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A transição para este novo modelo começou em maio e terminou hoje, um ano após a assinatura do decreto que atualizou o Programa de Alimentação do Trabalhador (PAT)."
+            "resposta": "A crise bancária, de um banco com fortes laços políticos e envolvendo montante relevante de recursos públicos, incluindo aposentadorias, levou a comparações entre à crise do Ueno com a do banco Master, no Brasil."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Cartões de empresas como Alelo, Ticket, VR Benefícios, Pluxee, Flash e Swile estão entre os abrangidos pelas mudanças, conforme o enquadramento no PAT."
+            "resposta": "Especialistas ouvidos pela BBC News Brasil, apontam que, de fato, há muitos pontos de contato entre os casos, mas também diferenças relevantes, como a escala do Ueno na economia paraguaia, e a proximidade direta do banco com o presidente do país – que já estava politicamente fragilizado por crises internas dentro de seu partido, o Colorado, o que acabou precipitando sua rápida queda."
           }
         ],
-        "imagemOriginal": "https://s2-cbn.glbimg.com/J1mQ2uLREijbSXEtigrr_SdxSck=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/g/q/PXVxz7TpG2OtKHmviA0Q/captura-de-tela-2026-02-10-112933.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/novas-regras-para-vr-e-va-entram-em-vigor-neste-sabado-7-saiba-o-que-muda.jpg",
+        "imagemOriginal": "https://s2-g1.glbimg.com/CKMdWM_DFu4d2xD_329SyRti2qg=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/u/4/0xie8BRn2nbuHA1d98PA/novo-projeto-3-.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/ueno-bank-escandalo-e-queda-de-santiago-pena-lembram-banco-master.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "498481862f142c46",
-      "titulo": "Novas regras do vale-refeição e alimentação: saiba o que muda",
+      "id": "92fa28da6fa7a8e5",
+      "titulo": "Ueno Bank: escândalo que levou à queda do presidente do Paraguai pode ser comparado ao do Banco Master?",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/economia/novas-regras-do-vale-refeicao-e-alimentacao-saiba-o-que-muda/",
-      "dataFonte": "2026-11-07T10:51:53.000Z",
-      "resumoFonte": "A partir deste sábado, cartões de diferentes operadoras deverão funcionar em qualquer maquininha habilitada para receber esse tipo de pagamento",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/vale-refeicao-e-alimentacao.jpg?w=1000&h=600&crop=1",
-      "descobertaEm": "2026-11-07T11:18:21.581Z",
+      "fonteNome": "BBC Brasil",
+      "urlFonte": "https://www.bbc.com/portuguese/articles/c6eq33z529jwo?at_medium=RSS&at_campaign=rss",
+      "dataFonte": "2026-11-07T13:26:41.000Z",
+      "resumoFonte": "Crescimento rápido, exposição relevante de recursos públicos e relações próximas com o mundo político estão entre as semelhanças dos dois casos. Mas analistas apontam diferenças relevantes",
+      "imagem": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/91f1/live/c9b5f8b0-d9ff-11f1-b441-2b33b063138f.png",
+      "descobertaEm": "2026-11-07T14:18:40.001Z",
       "reportagem": {
-        "titulo": "Novas regras do vale-refeição e alimentação: saiba o que muda",
-        "slug": "novas-regras-do-vale-refeicao-e-alimentacao-saiba-o-que-muda",
+        "titulo": "Ueno Bank: escândalo que levou à queda do presidente do Paraguai pode ser comparado ao do Banco Master?",
+        "slug": "ueno-bank-escandalo-que-levou-a-queda-do-presidente-do-paraguai-pode-ser-comparado-ao-do-b",
         "categoria": "Economia",
         "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/novas-regras-do-vale-refeicao-e-alimentacao-saiba-o-que-muda.jpg",
-        "resumo": "A partir deste sábado, cartões de diferentes operadoras deverão funcionar em qualquer maquininha habilitada para receber esse tipo de pagamento",
-        "conteudo": "<p>Começa a valer neste sábado as novras regras para o vale-alimentação e refeição.</p><h2>Dados e contexto do setor</h2><p>A principal mudança é a aceitação de cartões de diferentes operadoras em qualquer maquininha habilitada para processar esse tipo de pagamento.</p><p>A transição começou em maio e vai até novembro , quando completa um ano da assinatura do decreto que atualizou o Programa de Alimentação do Trabalhador (PAT).</p><p>A partir deste sábado, cartões de diferentes operadoras deverão funcionar em qualquer maquininha habilitada para receber esse tipo de pagamento, sem depender de contratos ou equipamentos específicos para cada bandeira.</p><h2>Impactos e informações adicionais</h2><p>A mudança não obriga todos os estabelecimentos a aceitar os benefícios. A regra vale para os comércios habilitados a processar essas transações.</p><p>A proposta é ampliar a rede de aceitação dos cartões. Assim, o trabalhador poderá utilizar o benefício em diferentes estabelecimentos que aceitem a modalidade correspondente, independentemente da operadora responsável pelo cartão.</p><p>A aceitação dependerá da habilitação do estabelecimento e do funcionamento da integração entre os sistemas de pagamento.</p><p>Não necessariamente. As regras descritas se aplicam aos benefícios vinculados ao PAT, criado em 1976.</p><p>Há uma diferença entre os benefícios concedidos no âmbito do PAT e o auxílio-alimentação previsto na legislação trabalhista. Segundo a Abrasel, essa distinção tem provocado dificuldades na identificação das transações e na conciliação financeira dos estabelecimentos.</p><p>A entidade afirma que parte das empresas teria migrado operações para o auxílio-alimentação após a regulamentação, modalidade que não está sujeita aos mesmos limites de taxas e prazos previstos para o PAT.</p><p>O descumprimento das regras aplicáveis ao PAT pode resultar em sanções administrativas e financeiras.</p><p>As consequências dependem da infração identificada e podem atingir operadoras, empresas participantes do programa e estabelecimentos comerciais.</p><p>A partir deste sábado, cartões de diferentes operadoras deverão funcionar em qualquer maquininha habilitada para receber esse tipo de pagamento</p><p>Novas regras para vale-alimentação e refeição começa a valer neste sábado</p><p>Principal mudança é a aceitação de cartões de diferentes operadoras em qualquer maquininha habilitada para processar esse tipo de pagamento</p><p>Nubank e Mercado Pago suspendem transferências de criptomoedas</p><p>Lula rebate críticas sobre falta de responsabilidade fiscal: ‘Pobres não pagarão conta’</p><p>Após reunião com Lula, Durigan reafirma compromisso com sustentabilidade fiscal</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/economia/novas-regras-do-vale-refeicao-e-alimentacao-saiba-o-que-muda/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/ueno-bank-escandalo-que-levou-a-queda-do-presidente-do-paraguai-pode-ser-comparado-ao-do-b.jpg",
+        "resumo": "Crescimento rápido, exposição relevante de recursos públicos e relações próximas com o mundo político estão entre as semelhanças dos dois casos. Mas analistas apontam diferenças relevantes",
+        "conteudo": "<p>A liquidação do banco Ueno desencadeou uma forte crise política no Paraguai, com a renúncia do presidente do Banco Central do País e depois, o impeachment e a prisão do agora ex-presidente Santiago Peña.</p><h2>Dados e contexto do setor</h2><p>Peña foi acionista do Grupo Vázquez, controlador do banco Ueno, até março de 2025. O então presidente do Banco Central paraguaio, Carlos Carvallo Spalding, também havia comandado o Ueno antes de assumir o cargo público.</p><p>A crise bancária, de um banco com fortes laços políticos e envolvendo montante relevante de recursos públicos, incluindo aposentadorias, levou a comparações entre à crise do Ueno com a do banco Master , no Brasil.</p><p>Especialistas ouvidos pela BBC News Brasil, apontam que, de fato, há muitos pontos de contato entre os casos, mas também diferenças relevantes, como a escala do Ueno na economia paraguaia, e a proximidade direta do banco com o presidente do país – que já estava politicamente fragilizado por crises internas dentro de seu partido, o Colorado, o que acabou precipitando sua rápida queda.</p><h2>Detalhes e consequências do caso</h2><p>&quot;É impressionante a semelhança entre os casos Master e Ueno. Nos dois houve exposição relevante de recursos públicos, inclusive da previdência, crescimento muito rápido apoiado em ativos frágeis e relações próximas com o mundo político&quot;, afirma Thiago Amâncio, diretor associado da equipe de riscos geopolíticos da consultoria Control Risks.</p><p>&quot;Mas a diferença fundamental é a dimensão do Ueno no sistema paraguaio, já que quase metade da população tem conta no banco.</p><p>É uma escala completamente diferente da do Master, que se tivesse um tamanho equivalente teria provocado uma crise financeira imensa por aqui, não só política.&quot;</p><p>O Ueno surgiu da aquisição em 2021 da antiga Financiera El Comercio pelo Grupo Vázquez. A marca Ueno foi lançada em fevereiro de 2022.</p><p>Em novembro do ano seguinte a instituição recebeu autorização do Banco Central do Paraguai (BCP) para operar como banco. Em 2024, incorporou o Visión Banco, ampliando sua carteira de clientes e operações.</p><p>Assim, pouco mais de três anos, o banco tornou-se um dos principais do Paraguai e, segundo dados da própria instituição, tinha 3 milhões de clientes, o equivalente a 60% da população adulta do país.</p><p>Já no caso do Master, Daniel Vorcaro entrou como sócio do então Banco Máxima em 2017. Dois anos depois, o Banco Central do Brasil autorizou a transferência do controle da instituição para o banqueiro e, em 2021, o banco passou a se chamar Banco Master.</p><p>Veja notícias do Brasil e do mundo no BBC World Service</p><p>As estratégias dos bancos para conquistar clientes, porém, foram diferentes: enquanto o Ueno apostou na abertura digital de contas, em descontos e na devolução de parte do valor das compras, o Master atraiu investidores com CDBs (Certificados de depósito bancário) que ofereciam remuneração muito acima da média do mercado.</p><p>&quot;O Ueno era um banco de varejo, que cresceu ampliando a base de clientes, então ele foi agressivo no cartão de crédito e abertura de contas, enquanto o Master estava mais preocupado em comprar ativos, captar dinheiro e usar esse dinheiro para alavancar ativos com baixa liquidez&quot;, observa Alexandre Jorge Chaia, professor nas disciplinas de gestão de riscos financeiros e produtos bancários no Insper.</p><p>&quot;Os dois cresceram bastante, mas foi em ritmos bem diferentes. O Ueno Bank, em três anos, saiu de um banco inexpressivo para um dos principais bancos do país. Já no caso do Master, foram seis anos de crescimento, mas do ponto de vista de relevância, nunca foi grande.&quot;</p><p>No Paraguai, o Ueno administrava cerca de US$ 850 milhões em recursos públicos, entre eles fundos do Instituto de Previdência Social (IPS), responsável pelo pagamento de aposentadorias, pensões e outros benefícios.</p><p>No Brasil, regimes próprios de previdência de Estados e municípios investiram cerca de R$ 1,8 bilhão em títulos emitidos pelo Master, segundo dados do Ministério da Previdência Social.</p><p>No Paraguai, o Banco Central apontou empréstimos considerados excessivos a empresas ligadas ao grupo controlador do Ueno, o Vázquez, que teve Santiago Peña como acionista até o ano passado e o ex-presidente do Banco Central paraguaio como executivo.</p>",
+        "fonteNome": "BBC Brasil",
+        "fonteUrl": "https://www.bbc.com/portuguese/articles/c6eq33z529jwo?at_medium=RSS&at_campaign=rss",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil Economia",
@@ -563,270 +743,42 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Começa a valer neste sábado as novras regras para o vale-alimentação e refeição. A principal mudança é a aceitação de cartões de diferentes operadoras em qualquer maquininha habilitada para processar esse tipo de pagamento."
+            "resposta": "A liquidação do banco Ueno desencadeou uma forte crise política no Paraguai, com a renúncia do presidente do Banco Central do País e depois, o impeachment e a prisão do agora ex-presidente Santiago Peña."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A partir deste sábado, cartões de diferentes operadoras deverão funcionar em qualquer maquininha habilitada para receber esse tipo de pagamento, sem depender de contratos ou equipamentos específicos para cada bandeira."
+            "resposta": "Peña foi acionista do Grupo Vázquez, controlador do banco Ueno, até março de 2025. O então presidente do Banco Central paraguaio, Carlos Carvallo Spalding, também havia comandado o Ueno antes de assumir o cargo público."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A mudança não obriga todos os estabelecimentos a aceitar os benefícios. A regra vale para os comércios habilitados a processar essas transações."
+            "resposta": "A crise bancária, de um banco com fortes laços políticos e envolvendo montante relevante de recursos públicos, incluindo aposentadorias, levou a comparações entre à crise do Ueno com a do banco Master , no Brasil."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A proposta é ampliar a rede de aceitação dos cartões. Assim, o trabalhador poderá utilizar o benefício em diferentes estabelecimentos que aceitem a modalidade correspondente, independentemente da operadora responsável pelo cartão."
+            "resposta": "Especialistas ouvidos pela BBC News Brasil, apontam que, de fato, há muitos pontos de contato entre os casos, mas também diferenças relevantes, como a escala do Ueno na economia paraguaia, e a proximidade direta do banco com o presidente do país – que já estava politicamente fragilizado por crises internas dentro de seu partido, o Colorado, o que acabou precipitando sua rápida queda."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A aceitação dependerá da habilitação do estabelecimento e do funcionamento da integração entre os sistemas de pagamento."
+            "resposta": "&quot;É impressionante a semelhança entre os casos Master e Ueno. Nos dois houve exposição relevante de recursos públicos, inclusive da previdência, crescimento muito rápido apoiado em ativos frágeis e relações próximas com o mundo político&quot;, afirma Thiago Amâncio, diretor associado da equipe de riscos geopolíticos da consultoria Control Risks."
           }
         ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/vale-refeicao-e-alimentacao.jpg?w=1000&h=600&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/novas-regras-do-vale-refeicao-e-alimentacao-saiba-o-que-muda.jpg",
+        "imagemOriginal": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/91f1/live/c9b5f8b0-d9ff-11f1-b441-2b33b063138f.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/ueno-bank-escandalo-que-levou-a-queda-do-presidente-do-paraguai-pode-ser-comparado-ao-do-b.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "782718784a0b36a4",
-      "titulo": "Manutenção da Selic, dólar, balanços do 3T26; veja os destaques da semana",
+      "id": "87e6b7b89a804f85",
+      "titulo": "Malévola perde ação contra banco após bloqueio de R$ 8 mil em conta",
       "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/onde-investir/manutencao-da-selic-dolar-balancos-do-3t26-veja-os-destaques-da-semana/",
-      "dataFonte": "2026-11-07T10:39:00.000Z",
-      "resumoFonte": "Um painel eletrônico na B3 (Bolsa de Valores de São Paulo) mostra a atividade do mercado financeiro após a reeleição do presidente Luiz Inácio Lula da Silva, em São Paulo, Brasil, em 26 de outubro de 2026 REUTERS/Jean Carniel \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-30T132406Z_1_LYNXNPEM9T1BQ_RTROPTP_4_BRAZ…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-30T132406Z_1_LYNXNPEM9T1BQ_RTROPTP_4_BRAZIL-ELECTION-MARKETS.jpg?fit=3555%2C2370&quality=70&strip=all",
-      "descobertaEm": "2026-11-07T11:18:21.581Z",
-      "reportagem": {
-        "titulo": "Manutenção da Selic, dólar, balanços do 3T26; veja os destaques da semana",
-        "slug": "manutencao-da-selic-dolar-balancos-do-3t26-veja-os-destaques-da-semana",
-        "categoria": "Economia",
-        "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/manutencao-da-selic-dolar-balancos-do-3t26-veja-os-destaques-da-semana.jpg",
-        "resumo": "Análises cobrem ainda os investimentos em infraestrutura de IA e os impactos das eleições americanas no mercado global",
-        "conteudo": "<p>A semana começou marcada pela manutenção da taxa Selic em 13,75% pelo Copom, que interrompeu o movimento de queda dos juros diante da piora nas expectativas para a inflação.</p><h2>Dados e contexto do setor</h2><p>Em conjunto com a decisão monetária, as estimativas para a taxa de câmbio foram reajustadas para R$ 5,30 por dólar ao final de 2026 e R$ 5,50 por dólar ao encerramento de 2027, em um quadro de estabilidade internacional e desafios na gestão fiscal do país.</p><p>Diante do cenário de juros altos por um período mais longo, as projeções para a Bolsa brasileira passaram por revisão, indicando a necessidade de cautela no posicionamento dos ativos mesmo com métricas de valuation em níveis atraentes.</p><p>Por fim, a apuração das eleições nos Estados Unidos confirmou a vitória dos democratas na Câmara e no Senado, além da conversão de cinco governos estaduais, análise que fecha a edição avaliando os impactos sobre o mercado acionário americano e as estratégias de alocação recomendadas.</p><h2>Como interpretar os resultados</h2><p>O Comitê de Política Monetária optou por pausar o ciclo de cortes dos juros como estratégia para controlar os índices de preços, sem sinalizar a necessidade de um aperto adicional imediato.</p><p>Diante da volatilidade nos cenários doméstico e internacional, a projeção aponta para a permanência da Selic no patamar de 13,75% até o encerramento do próximo ano.</p><p>A estimativa para o valor justo do Ibovespa ao término de 2027 foi fixada em 200 mil pontos, indicando um potencial de valorização de 19%.</p><p>Como esse percentual se alinha ao rendimento oferecido pela renda fixa local, a visão para o mercado acionário passou para neutra, ressaltando que, embora o Preço/Lucro (P/L) projetado tenha recuado para 8,2x e o prêmio de risco tenha avançado para 4,5%, ambos seguem aquém dos patamares mais descontados da história.</p><p>Após um período de estabilidade em 2026, a moeda nacional voltou a perder valor no encerramento de outubro sob a pressão da alta nos prêmios de risco e da piora no ambiente externo.</p><p>Um mapeamento baseado em cinco cenários com diferentes premissas econômicas aponta trajetórias para o câmbio variando entre R$ 4,80 por dólar na hipótese mais favorável e R$ 6,10 por dólar no contexto de maior estresse.</p><p>A safra de balanços teve como destaques os números expressivos da PRIO ( PRIO3 ) e da Vibra Energia ( VBBR3 ) no terceiro trimestre, além da consistência nos dados apresentados pelo Itaú ( ITUB4 ).</p><p>Por outro lado, a Tenda ( TEND3 ) registrou desempenho abaixo das projeções do mercado, enquanto o calendário das próximas semanas reserva a divulgação dos relatórios de companhias como Petrobras ( PETR4 ), Banco do Brasil ( BBAS3 ) e Casas Bahia ( BHIA3 ).</p><p>As cinco maiores companhias do segmento (Microsoft, Alphabet, Amazon, Meta e Oracle) vêm direcionando quase a totalidade da geração de caixa para a construção e operação de data centers, recorrendo complementarmente a dívidas e contratos de arrendamento.</p><p>Apesar do cenário de juros altos, a maior parte do grupo preserva balanços desalavancados e rentabilidade compatível com o capital aplicado, figurando a Oracle e as neoclouds como exceções nessa dinâmica.</p><p>A vitória dos Democratas no controle da Câmara e do Senado nas midterms americanas não altera as teses centrais para o mercado de ações dos Estados Unidos.</p><p>Embora as mudanças no Poder Legislativo tragam impactos pontuais, os fatores determinantes para a evolução dos ativos continuam concentrados na trajetória dos lucros corporativos, nas taxas de juros e no volume de aportes no ecossistema de inteligência artificial.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/onde-investir/manutencao-da-selic-dolar-balancos-do-3t26-veja-os-destaques-da-semana/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A semana começou marcada pela manutenção da taxa Selic em 13,75% pelo Copom, que interrompeu o movimento de queda dos juros diante da piora nas expectativas para a inflação."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Diante do cenário de juros altos por um período mais longo, as projeções para a Bolsa brasileira passaram por revisão, indicando a necessidade de cautela no posicionamento dos ativos mesmo com métricas de valuation em níveis atraentes."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O Comitê de Política Monetária optou por pausar o ciclo de cortes dos juros como estratégia para controlar os índices de preços, sem sinalizar a necessidade de um aperto adicional imediato. Diante da volatilidade nos cenários doméstico e internacional, a projeção aponta para a permanência da Selic no patamar de 13,75% até o encerramento do próximo ano."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A estimativa para o valor justo do Ibovespa ao término de 2027 foi fixada em 200 mil pontos, indicando um potencial de valorização de 19%."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Após um período de estabilidade em 2026, a moeda nacional voltou a perder valor no encerramento de outubro sob a pressão da alta nos prêmios de risco e da piora no ambiente externo."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-30T132406Z_1_LYNXNPEM9T1BQ_RTROPTP_4_BRAZIL-ELECTION-MARKETS.jpg?fit=3555%2C2370&quality=70&strip=all",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/manutencao-da-selic-dolar-balancos-do-3t26-veja-os-destaques-da-semana.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "52607ad89f2422a9",
-      "titulo": "Novas regras para vale-alimentação e refeição começam a valer neste sábado",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/economia/nova-regra-para-vale-alimentacao-e-refeicao-comeca-a-valer-neste-sabado/",
-      "dataFonte": "2026-11-07T10:32:07.000Z",
-      "resumoFonte": "Principal mudança é a aceitação de cartões de diferentes operadoras em qualquer maquininha habilitada para processar esse tipo de pagamento",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/d6a9151.webp?w=1170&h=630&crop=1",
-      "descobertaEm": "2026-11-07T11:18:21.581Z",
-      "reportagem": {
-        "titulo": "Novas regras para vale-alimentação e refeição começam a valer neste sábado",
-        "slug": "novas-regras-para-vale-alimentacao-e-refeicao-comecam-a-valer-neste-sabado",
-        "categoria": "Economia",
-        "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/novas-regras-para-vale-alimentacao-e-refeicao-comecam-a-valer-neste-sabado.jpg",
-        "resumo": "Principal mudança é a aceitação de cartões de diferentes operadoras em qualquer maquininha habilitada para processar esse tipo de pagamento",
-        "conteudo": "<p>Começam a valer neste sábado as novas regras para o vale-alimentação e refeição.</p><h2>Dados e contexto do setor</h2><p>A principal mudança é a aceitação de cartões de diferentes operadoras em qualquer maquininha habilitada para processar esse tipo de pagamento.</p><p>A transição começou em maio e vai até novembro , quando completa um ano da assinatura do decreto que atualizou o Programa de Alimentação do Trabalhador (PAT).</p><p>Além da interoperabilidade, a regulamentação do PAT estabeleceu limites para as taxas cobradas dos estabelecimentos e reduziu o prazo de repasse dos valores das vendas.</p><h2>Impactos e informações adicionais</h2><p>Antes da mudança, comerciantes reclamavam de taxas elevadas e de prazos de recebimento que podiam ultrapassar 30 dias.</p><p>Apesar da previsão de implementação em novembro, a mudança enfrenta desafios operacionais.</p><p>A Associação Brasileira de Bares e Restaurantes (Abrasel) alega que os sistemas das empresas ainda não estão totalmente integrados e aponta dificuldades para o funcionamento da medida no prazo previsto.</p><p>Além disso, parte das regras é alvo de questionamentos judiciais por operadoras do setor.</p><p>A partir de 7 de novembro, está prevista a entrada em vigor integral da interoperabilidade entre os cartões de vale-refeição e vale-alimentação.</p><p>Isso significa que cartões de diferentes operadoras deverão funcionar em qualquer maquininha habilitada para receber esse tipo de pagamento, sem depender de contratos ou equipamentos específicos para cada bandeira.</p><p>A mudança não obriga todos os estabelecimentos a aceitar os benefícios. A regra vale para os comércios habilitados a processar essas transações.</p><p>A proposta é ampliar a rede de aceitação dos cartões. Assim, o trabalhador poderá utilizar o benefício em diferentes estabelecimentos que aceitem a modalidade correspondente, independentemente da operadora responsável pelo cartão.</p><p>A aceitação dependerá da habilitação do estabelecimento e do funcionamento da integração entre os sistemas de pagamento.</p><p>Principal mudança é a aceitação de cartões de diferentes operadoras em qualquer maquininha habilitada para processar esse tipo de pagamento</p><p>Nubank e Mercado Pago suspendem transferências de criptomoedas</p><p>As instituições financeiras informaram que a interrupção se deu por instabilidade em fornecedores externos</p><p>Novas regras do vale-refeição e alimentação: saiba o que muda</p><p>Lula rebate críticas sobre falta de responsabilidade fiscal: ‘Pobres não pagarão conta’</p><p>Após reunião com Lula, Durigan reafirma compromisso com sustentabilidade fiscal</p><p>Durigan diz que é preciso dar condições para a queda dos juros</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/economia/nova-regra-para-vale-alimentacao-e-refeicao-comeca-a-valer-neste-sabado/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Começam a valer neste sábado as novas regras para o vale-alimentação e refeição. A principal mudança é a aceitação de cartões de diferentes operadoras em qualquer maquininha habilitada para processar esse tipo de pagamento."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Além da interoperabilidade, a regulamentação do PAT estabeleceu limites para as taxas cobradas dos estabelecimentos e reduziu o prazo de repasse dos valores das vendas."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Antes da mudança, comerciantes reclamavam de taxas elevadas e de prazos de recebimento que podiam ultrapassar 30 dias."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Apesar da previsão de implementação em novembro, a mudança enfrenta desafios operacionais. A Associação Brasileira de Bares e Restaurantes (Abrasel) alega que os sistemas das empresas ainda não estão totalmente integrados e aponta dificuldades para o funcionamento da medida no prazo previsto."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A partir de 7 de novembro, está prevista a entrada em vigor integral da interoperabilidade entre os cartões de vale-refeição e vale-alimentação."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/d6a9151.webp?w=1170&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/novas-regras-para-vale-alimentacao-e-refeicao-comecam-a-valer-neste-sabado.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "412a5f385a96711e",
-      "titulo": "Tenente do BME transforma cápsulas de munições em obras de arte no ES",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/es/cotidiano/tenente-do-bme-transforma-capsulas-de-municoes-em-obras-de-arte-no-es-1126",
-      "dataFonte": "2026-11-07T10:37:43.000Z",
-      "resumoFonte": "Marcos Lopes reaproveita materiais de treinamentos e estandes de tiro para produzir quadros que já receberam encomendas de 20 estados e do exterior",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1792075527249_dsc09548.jpg",
-      "descobertaEm": "2026-11-07T11:18:21.581Z",
-      "reportagem": {
-        "titulo": "Tenente do BME transforma cápsulas de munições em obras de arte no ES",
-        "slug": "tenente-do-bme-transforma-capsulas-de-municoes-em-obras-de-arte-no-es",
-        "categoria": "Cultura",
-        "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/tenente-do-bme-transforma-capsulas-de-municoes-em-obras-de-arte-no-es.jpg",
-        "resumo": "Marcos Lopes reaproveita materiais de treinamentos e estandes de tiro para produzir quadros que já receberam encomendas de 20 estados e do exterior",
-        "conteudo": "<p>O que antes seria descartado como lixo agora ganha espaço em quadros espalhados pelo Brasil .</p><h2>As informações principais do assunto</h2><p>Há 22 anos na Polícia Militar do Espírito Santo , o tenente Marcos Lopes, do Batalhão de Missões Especiais (BME), encontrou uma nova utilidade para cápsulas de munição que sobram de treinamentos e estandes de tiro: transformá-las em obras de arte.</p><p>A ideia surgiu em 2025, quando Marcos foi convidado para integrar a coordenação de um curso de controle de distúrbios civis.</p><p>Na ocasião, ele foi questionado sobre o que poderia ser oferecido aos primeiros colocados da formação.</p><h2>Contexto e informações complementares</h2><p>A partir de uma referência artística que havia visto, ele teve a ideia de produzir a imagem de elmo (figura de armadura) utilizando cartuchos de munição, em alusão ao curso.</p><p>A primeira encomenda abriu caminho para novos pedidos. As peças passaram a ser procuradas principalmente por militares, mas também por civis interessados em presentear alguém, além de caçadores, atiradores, colecionadores, clubes de tiro e instituições.</p><p>A repercussão aumentou em abril de 2026, quando um vídeo publicado por Marcos alcançou quase 3 milhões de visualizações no Instagram .</p><p>A gravação mostrava um quadro que, inicialmente, ele não imaginava que teria tanta repercussão. A peça foi enviada para Minas Gerais e acabou se tornando a publicação com mais visualizações do trabalho.</p><p>Com a divulgação, o policial começou a receber pedidos de orçamento de interessados em 20 estados brasileiros e também de outros países.</p><p>As cápsulas utilizadas na produção são fornecidas por instituições que contratam o serviço e já possuem o material armazenado, além de clubes de tiro parceiros. Segundo Marcos, todas são provenientes de treinamentos, sem terem sido utilizadas em confrontos.</p><p>\"É um material que, na verdade, seria um lixo. A gente faz essa reciclagem e transforma em arte\", destacou</p><p>Com os cartuchos em mãos, começa o processo de montagem. Marcos geralmente utiliza uma base de madeira e transfere a imagem escolhida para um adesivo, que funciona como molde. Depois de fixar o desenho na estrutura e pintar os espaços, ele encaixa as cápsulas.</p><p>Nem sempre, porém, é possível seguir exatamente o desenho original. Em alguns casos, a imagem precisa ser adaptada para que os cartuchos se encaixem corretamente. Depois da montagem, é feita a colagem e a aplicação de resina para dar acabamento à peça.</p><p>Quando letras ou imagens são muito pequenas, Marcos opta por mantê-las pintadas e utiliza a resina para criar um efeito espelhado. A finalização de cada trabalho leva, em média, de 15 a 20 dias.</p><p>Entre os trabalhos que marcaram a trajetória de Marcos está uma peça produzida para Rodrigo Pimentel, ex-capitão do Batalhão de Operações Policiais Especiais (Bope), do Rio de Janeiro, que serviu de inspiração para o personagem Capitão Nascimento, dos filmes Tropa de Elite.</p><p>Inicialmente, Marcos produziu uma balança da Justiça para Pimentel, que gostou do trabalho. Depois, surgiu a ideia de fazer um quadro com o símbolo do Bope e o sobrenome do ex-capitão. A peça também foi aprovada e, atualmente, é utilizada por Pimentel no podcast dele.</p><p>E é assim, através da arte manual, que as cápsulas que seriam descartadas após treinamentos e atividades em estandes de tiro ganham um novo destino nas mãos do policial militar e se transformam em obras que conquistaram encomendas em diferentes partes do país e do exterior.</p><p>O que antes seria descartado como lixo agora ganha espaço em quadros espalhados pelo Brasil .</p><p>Há 22 anos na Polícia Militar do Espírito Santo , o tenente Marcos Lopes, do Batalhão de Missões Especiais (BME), encontrou uma nova utilidade para cápsulas de munição que sobram de treinamentos e estandes de tiro: transformá-las em obras de arte.</p><p>A ideia surgiu em 2025, quando Marcos foi convidado para integrar a coordenação de um curso de controle de distúrbios civis.</p><p>Na ocasião, ele foi questionado sobre o que poderia ser oferecido aos primeiros colocados da formação.</p><p>A partir de uma referência artística que havia visto, ele teve a ideia de produzir a imagem de elmo (figura de armadura) utilizando cartuchos de munição, em alusão ao curso.</p><p>A primeira encomenda abriu caminho para novos pedidos. As peças passaram a ser procuradas principalmente por militares, mas também por civis interessados em presentear alguém, além de caçadores, atiradores, colecionadores, clubes de tiro e instituições.</p><p>A repercussão aumentou em abril de 2026, quando um vídeo publicado por Marcos alcançou quase 3 milhões de visualizações no Instagram .</p><p>A gravação mostrava um quadro que, inicialmente, ele não imaginava que teria tanta repercussão. A peça foi enviada para Minas Gerais e acabou se tornando a publicação com mais visualizações do trabalho.</p><p>Com a divulgação, o policial começou a receber pedidos de orçamento de interessados em 20 estados brasileiros e também de outros países.</p><p>As cápsulas utilizadas na produção são fornecidas por instituições que contratam o serviço e já possuem o material armazenado, além de clubes de tiro parceiros.</p><p>Segundo Marcos, todas são provenientes de treinamentos, sem terem sido utilizadas em confrontos. \"É um material que, na verdade, seria um lixo.</p><p>A gente faz essa reciclagem e transforma em arte\", destacou Com os cartuchos em mãos, começa o processo de montagem.</p><p>Marcos geralmente utiliza uma base de madeira e transfere a imagem escolhida para um adesivo, que funciona como molde. Depois de fixar o desenho na estrutura e pintar os espaços, ele encaixa as cápsulas.</p><p>Nem sempre, porém, é possível seguir exatamente o desenho original. Em alguns casos, a imagem precisa ser adaptada para que os cartuchos se encaixem corretamente.</p><p>Depois da montagem, é feita a colagem e a aplicação de resina para dar acabamento à peça. Quando letras ou imagens são muito pequenas, Marcos opta por mantê-las pintadas e utiliza a resina para criar um efeito espelhado.</p><p>A finalização de cada trabalho leva, em média, de 15 a 20 dias.</p><p>Entre os trabalhos que marcaram a trajetória de Marcos está uma peça produzida para Rodrigo Pimentel, ex-capitão do Batalhão de Operações Policiais Especiais (Bope), do Rio de Janeiro, que serviu de inspiração para o personagem Capitão Nascimento, dos filmes Tropa de Elite.</p><p>Inicialmente, Marcos produziu uma balança da Justiça para Pimentel, que gostou do trabalho. Depois, surgiu a ideia de fazer um quadro com o símbolo do Bope e o sobrenome do ex-capitão.</p><p>A peça também foi aprovada e, atualmente, é utilizada por Pimentel no podcast dele.</p>",
-        "fonteNome": "A Gazeta - Capa",
-        "fonteUrl": "https://www.agazeta.com.br/es/cotidiano/tenente-do-bme-transforma-capsulas-de-municoes-em-obras-de-arte-no-es-1126",
-        "fontesAdicionais": [
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          },
-          {
-            "nome": "Tribuna Online",
-            "url": "https://tribunaonline.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O que antes seria descartado como lixo agora ganha espaço em quadros espalhados pelo Brasil . Há 22 anos na Polícia Militar do Espírito Santo , o tenente Marcos Lopes, do Batalhão de Missões Especiais (BME), encontrou uma nova utilidade para cápsulas de munição que sobram de treinamentos e estandes de tiro: transformá-las em obras de arte."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A ideia surgiu em 2025, quando Marcos foi convidado para integrar a coordenação de um curso de controle de distúrbios civis. Na ocasião, ele foi questionado sobre o que poderia ser oferecido aos primeiros colocados da formação."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A primeira encomenda abriu caminho para novos pedidos. As peças passaram a ser procuradas principalmente por militares, mas também por civis interessados em presentear alguém, além de caçadores, atiradores, colecionadores, clubes de tiro e instituições."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A repercussão aumentou em abril de 2026, quando um vídeo publicado por Marcos alcançou quase 3 milhões de visualizações no Instagram . A gravação mostrava um quadro que, inicialmente, ele não imaginava que teria tanta repercussão. A peça foi enviada para Minas Gerais e acabou se tornando a publicação com mais visualizações do trabalho."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Com a divulgação, o policial começou a receber pedidos de orçamento de interessados em 20 estados brasileiros e também de outros países."
-          }
-        ],
-        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1792075527249_dsc09548.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/tenente-do-bme-transforma-capsulas-de-municoes-em-obras-de-arte-no-es.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "6e9dcd63e5e247c9",
-      "titulo": "Thizil, dupla de Mario, é internado após acidente grave que matou mulher",
-      "categoria": "Cultura",
       "radar": null,
       "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/celebridades/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher",
-      "dataFonte": "2026-11-07T13:09:03.000Z",
-      "resumoFonte": "O cantor sertanejo Thizil, da dupla com Mario, está internado com quatro fraturas após a caminhonete em que viajava colidir com outro carro",
-      "imagem": "https://i.metroimg.com/6YVOW4TMnNUFyf4YgltQuWWnfXMy0cO3jINk6Q4blhw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/thizil-da-dupla-com-mario-ficou-ferido-em-acidente-na-br-070-em-goias.jpg",
-      "descobertaEm": "2026-11-07T13:18:43.230Z",
-      "reportagem": {
-        "titulo": "Thizil, dupla de Mario, é internado após acidente grave que matou mulher",
-        "slug": "thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher",
-        "categoria": "Cultura",
-        "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher.jpg",
-        "resumo": "O cantor sertanejo Thizil, da dupla com Mario, está internado com quatro fraturas após a caminhonete em que viajava colidir com outro carro",
-        "conteudo": "<p>O cantor sertanejo Thizil , da dupla com Mario, sofreu um acidente de trânsito durante uma viagem a Querência (MT), onde faria um show neste sábado (7/11).</p><h2>As informações principais do assunto</h2><p>A colisão ocorreu na tarde de sexta-feira (6/11), na BR-070, próximo ao município de Jussara (GO). Uma mulher que estava no outro veículo morreu no local.</p><p>O artista viajava em uma caminhonete com dois músicos da banda e o filho quando o veículo bateu contra outro carro na rodovia.</p><p>Segundo Mario, Thizil foi socorrido e transferido para o Hospital Estadual de Anápolis, onde permanece internado. Ele sofreu três fraturas no pé e outra na perna e deverá passar por uma cirurgia.</p><h2>Contexto e informações complementares</h2><p>Mario e Thizil cancelaram a apresentação que fariam em Querência (MT), neste sábado (7/11)</p><p>Thizil sofreu quatro fraturas e deverá passar por cirurgia em Anápolis (GO)</p><p>Thizil, da dupla com Mario, está internado após acidente na BR-070</p><p>Acidente de trânsito: a colisão entre dois veículos na BR-070, próximo a Jussara (GO), resultou na morte de uma mulher na sexta-feira (6/11); Estado do cantor: Thizil sofreu fraturas no pé e na perna e está internado no Hospital Estadual de Anápolis para cirurgia; Relato do parceiro: segundo Mario, ouvido pelo Metrópoles , o acidente ocorreu durante uma ultrapassagem de um terceiro veículo na rodovia; Estado dos envolvidos: o filho do cantor recebeu alta, um músico segue internado em estado estável e outro não se feriu.</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/celebridades/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O cantor sertanejo Thizil , da dupla com Mario, sofreu um acidente de trânsito durante uma viagem a Querência (MT), onde faria um show neste sábado (7/11). A colisão ocorreu na tarde de sexta-feira (6/11), na BR-070, próximo ao município de Jussara (GO). Uma mulher que estava no outro veículo morreu no local."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O artista viajava em uma caminhonete com dois músicos da banda e o filho quando o veículo bateu contra outro carro na rodovia. Segundo Mario, Thizil foi socorrido e transferido para o Hospital Estadual de Anápolis, onde permanece internado. Ele sofreu três fraturas no pé e outra na perna e deverá passar por uma cirurgia."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Mario e Thizil cancelaram a apresentação que fariam em Querência (MT), neste sábado (7/11)"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Thizil sofreu quatro fraturas e deverá passar por cirurgia em Anápolis (GO)"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Thizil, da dupla com Mario, está internado após acidente na BR-070"
-          }
-        ],
-        "imagemOriginal": "https://i.metroimg.com/6YVOW4TMnNUFyf4YgltQuWWnfXMy0cO3jINk6Q4blhw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/thizil-da-dupla-com-mario-ficou-ferido-em-acidente-na-br-070-em-goias.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/thizil-dupla-de-mario-e-internado-apos-acidente-grave-que-matou-mulher.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "urlFonte": "https://www.metropoles.com/colunas/fabia-oliveira/malevola-perde-acao-contra-banco-apos-bloqueio-de-r-8-mil-em-conta",
+      "dataFonte": "2026-11-07T12:00:25.000Z",
+      "resumoFonte": "Influenciadora teve cerca de R$ 8,2 mil bloqueados por ordem judicial e pediu R$ 50 mil por danos morais, mas não conseguiu a indenização",
+      "imagem": "https://i.metroimg.com/wvYTwB2wiiuWYYrDbvUH7BsVh21dTBZhOHsz7dZaPEc/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/estao-seguras-diz-empresario-apos-malevola-deixar-prisao-no-egito.jpg",
+      "descobertaEm": "2026-11-07T12:18:23.923Z"
     },
     {
       "id": "2ced5d3ce87066a3",
@@ -944,126 +896,6 @@
         ],
         "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/andre-petenussi.jpeg?fit=1600%2C1066&quality=70&strip=all",
         "imagemX": "https://noticiaes.com.br/imagens/lapis/brasil-pode-liderar-mercado-de-ia-mas-temos-gap-de-talentos-diz-cto-da-localiza.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "9aa92af871bbe907",
-      "titulo": "Shuji Utsumi: ‘O Brasil é uma força cultural incrível’",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/tecnologia/shuji-utsumi-o-brasil-e-uma-forca-cultural-incrivel/",
-      "dataFonte": "2026-11-07T11:00:36.000Z",
-      "resumoFonte": "O CEO mundial da Sega, a companhia japonesa de jogos eletrônicos, trata da paixão dos consumidores daqui pelos jogos e dos riscos da IA",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/Shuji-Utsumi-01.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-07T11:18:21.581Z",
-      "reportagem": {
-        "titulo": "Shuji Utsumi: ‘O Brasil é uma força cultural incrível’",
-        "slug": "shuji-utsumi-o-brasil-e-uma-forca-cultural-incrivel",
-        "categoria": "Tecnologia",
-        "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/shuji-utsumi-o-brasil-e-uma-forca-cultural-incrivel.jpg",
-        "resumo": "O CEO mundial da Sega, a companhia japonesa de jogos eletrônicos, trata da paixão dos consumidores daqui pelos jogos e dos riscos da IA",
-        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril.</p><h2>Dados e contexto do setor</h2><p>Qual a relev&acirc;ncia do mercado brasileiro de games para a Sega?&ensp; Sentimos uma paix&atilde;o enorme vinda do Brasil.</p><p>Nos filmes do Sonic, o ouri&ccedil;o azul que &eacute; nosso maior s&iacute;mbolo, o pa&iacute;s est&aacute; entre os tr&ecirc;s maiores p&uacute;blicos do mundo nos cinemas.</p><p>H&aacute; uma cultura de games consolidada, que remonta aos arcades e ao Mega Drive nos anos 1980 e 1990.</p><h2>Impactos e informações adicionais</h2><p>Mesmo quando a economia enfrentou per&iacute;odos ruins, o esp&iacute;rito dos jogadores brasileiros permaneceu vivo. A economia &eacute; crucial, mas o amor sincero pelos jogos tem valor cultural inestim&aacute;vel.</p><p>Como, ent&atilde;o, alimentar e aprofundar a presen&ccedil;a e a paix&atilde;o no pa&iacute;s?</p><p>&ensp;O primeiro e mais decisivo passo &eacute; continuar entregando jogos de alta qualidade, sem o que n&atilde;o h&aacute; como prosperar e conseguir f&atilde;s ainda na inf&acirc;ncia Ao mesmo tempo, investimos fortemente na estrat&eacute;gia que chamamos de &ldquo;transm&iacute;dia&rdquo;, com filmes, produtos licenciados e eventos, de modo a criar oportunidades cont&iacute;nuas de engajamento.</p><p>Queremos que o p&uacute;blico vivencie nossas franquias de v&aacute;rias formas, o que tamb&eacute;m atrai novos jogadores.</p><p>Essa variedade de plataformas &eacute; inova&ccedil;&atilde;o inaugurada pelos consumidores brasileiros?</p><p>&Eacute; um modelo global, mas com enorme ader&ecirc;ncia no Brasil e que, portanto, serve de modelo e inspira&ccedil;&atilde;o.</p><p>Quando comecei a usar o termo &ldquo;transm&iacute;dia&rdquo;, ressalvo, era um conceito novo. Hoje, toda a ind&uacute;stria &mdash; inclusive os est&uacute;dios de cinema &mdash; adotou essa linguagem.</p><p>Para n&oacute;s, n&atilde;o &eacute; s&oacute; uma fonte de receita. &Eacute; a ferramenta mais eficaz para manter uma comunica&ccedil;&atilde;o cont&iacute;nua e construir um relacionamento duradouro com os f&atilde;s.</p><p>Como alcan&ccedil;ar mercados emergentes com perfis econ&ocirc;micos t&atilde;o diversos?&ensp; A distribui&ccedil;&atilde;o digital facilitou muito o acesso.</p><p>Hoje, PC e dispositivos m&oacute;veis cobrem praticamente todo o planeta. Por isso, nossa estrat&eacute;gia n&atilde;o se limita mais aos consoles tradicionais: atuamos simultaneamente em PC e celulares para atingir o maior n&uacute;mero poss&iacute;vel de jogadores.</p><p>D&aacute; para revitalizar cl&aacute;ssicos como Crazy Taxi e Jet Set Radio sem perder a ess&ecirc;ncia?&ensp; N&atilde;o podemos depender apenas da nostalgia dos veteranos.</p><p>Precisamos fazer a gera&ccedil;&atilde;o jovem se apaixonar. Por isso, adicionamos a esses t&iacute;tulos elementos in&eacute;ditos, novos talentos, trilhas renovadas e formas modernas de jogar.</p><p>Em Crazy Taxi haver&aacute; um mapa inspirado no Brasil.</p><p>A intelig&ecirc;ncia artificial parece estar construindo uma outra civiliza&ccedil;&atilde;o. &Eacute; assim com os games? &ensp;O tema &eacute; delicado e causa receio.</p><p>Mas a hist&oacute;ria dos games sempre esteve ligada &agrave; evolu&ccedil;&atilde;o tecnol&oacute;gica.</p><p>Avaliamos a IA com cuidado: n&atilde;o a vemos como substituta da cria&ccedil;&atilde;o humana, e sim como instrumento de apoio para lidar com o volume crescente de dados e aprimorar o trabalho dos desenvolvedores.</p><p>Publicado em VEJA de 6 de novembro de 2026, edi&ccedil;&atilde;o n&ordm; 3020</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/tecnologia/shuji-utsumi-o-brasil-e-uma-forca-cultural-incrivel/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
-          },
-          {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Qual a relev&acirc;ncia do mercado brasileiro de games para a Sega?&ensp; Sentimos uma paix&atilde;o enorme vinda do Brasil. Nos filmes do Sonic, o ouri&ccedil;o azul que &eacute; nosso maior s&iacute;mbolo, o pa&iacute;s est&aacute; entre os tr&ecirc;s maiores p&uacute;blicos do mundo nos cinemas."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Como, ent&atilde;o, alimentar e aprofundar a presen&ccedil;a e a paix&atilde;o no pa&iacute;s?"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Essa variedade de plataformas &eacute; inova&ccedil;&atilde;o inaugurada pelos consumidores brasileiros? &Eacute; um modelo global, mas com enorme ader&ecirc;ncia no Brasil e que, portanto, serve de modelo e inspira&ccedil;&atilde;o. Quando comecei a usar o termo &ldquo;transm&iacute;dia&rdquo;, ressalvo, era um conceito novo."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Como alcan&ccedil;ar mercados emergentes com perfis econ&ocirc;micos t&atilde;o diversos?&ensp; A distribui&ccedil;&atilde;o digital facilitou muito o acesso. Hoje, PC e dispositivos m&oacute;veis cobrem praticamente todo o planeta."
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/11/Shuji-Utsumi-01.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/shuji-utsumi-o-brasil-e-uma-forca-cultural-incrivel.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "f34dc711141773ef",
-      "titulo": "Gonet pede ao STF suspensão de todas as ações sobre MP do fim das bets",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/economia/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets/",
-      "dataFonte": "2026-11-07T13:15:51.000Z",
-      "resumoFonte": "Pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT)",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/01/ja_7547.jpg?w=1170&h=630&crop=1",
-      "descobertaEm": "2026-11-07T13:18:43.230Z",
-      "reportagem": {
-        "titulo": "Gonet pede ao STF suspensão de todas as ações sobre MP do fim das bets",
-        "slug": "gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets",
-        "categoria": "Justiça",
-        "data": "2026-11-07",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets.jpg",
-        "resumo": "Pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT)",
-        "conteudo": "<p>O procurador-geral da República, Paulo Gonet, pediu ao Supremo Tribunal Federal (STF) a suspensão de processos judiiais que discutem a medida provisória (MP) que proibiu o funcimento das bets no Brasil.</p><h2>O contexto da decisão judicial</h2><p>O pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT). Caso o minstro aceite o pedido, as ações em andamento vão ficar paralisadas até o STF analisar a validade da proibição.</p><p>Na decisão, Gonet citou decisões por instâncias inferiores do Judiciário que liberou determinadas bets para atuarem em meio a proibição.</p><p>Na quinta-feira (05), três casas de apostam tinham voltado a funcionar após a desembargadora Adriana Pileggi, do Tribunal Regional Federal da 3ª Região (TRF3), atender a um pedido da CDA Gaming e suspender os efeitos da Medida Provisória (MP) das bets em relação à empresa.</p><h2>Detalhes e consequências do caso</h2><p>A medida permite que os três sites da CDA — Casa de Apostas, Betsul e Jogo Online — voltem a aceitar apostas.</p><p>Na sexta-feira (06), o presidente do Tribunal Regional Federal da 3ª Região (TRF-3), desembargador Johonsom Di Salvo, suspendeu a liminar que havia permitido provisoriamente que três sites de apostas da empresa CDA Gaming voltassem a operar.</p><p>A decisão atende a um pedido da AGU (Advocacia-Geral da União).</p><p>O presidente Lula assinou no dia 25 de setembro uma Medida Provisória que proibia a operação de sites de apostas esportivas (bets) e cassinos online com jogos como “tigrinho ” em todo o território nacional.</p><p>A medida impede novos depósitos nas plataformas a partir de sua publicação e estabelece um calendário para a retirada e devolução dos valores que ainda estão nas contas dos apostadores.</p><p>No calendário apresentado pelo governo, os sites e aplicativos de apostas sairão do ar em 6 de outubro. Os apostadores terão até o dia anterior para retirar os valores disponíveis.</p><p>Para quem não conseguir fazer o resgate dentro do prazo, foi estabelecido um procedimento de devolução integral dos saldos.</p><p>Pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT)</p><p>Fachin dá 15 dias para PGR analisar indiciamento de Vorcaro</p><p>Ministro, que é relator do caso Master, também concedeu o mesmo prazo para o órgão se manifestar sobre o pedido da PF para que a investigação seja prorrogada por mais 60 dias</p><p>Próximo sorteio da Mega-Sena terá prêmio de R$ 60 milhões</p><p>Novas regras do vale-refeição e alimentação: saiba o que muda</p><p>Novas regras para vale-alimentação e refeição começam a valer neste sábado</p><p>Nubank e Mercado Pago suspendem transferências de criptomoedas</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/economia/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O procurador-geral da República, Paulo Gonet, pediu ao Supremo Tribunal Federal (STF) a suspensão de processos judiiais que discutem a medida provisória (MP) que proibiu o funcimento das bets no Brasil."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O pedido foi apresentado pelo ministro Luiz Fux, relator de quatro ações que questionam no Supremo a MP editada pelo presidente Luiz Inácio Lula da Silva (PT). Caso o minstro aceite o pedido, as ações em andamento vão ficar paralisadas até o STF analisar a validade da proibição."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na decisão, Gonet citou decisões por instâncias inferiores do Judiciário que liberou determinadas bets para atuarem em meio a proibição."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A medida permite que os três sites da CDA — Casa de Apostas, Betsul e Jogo Online — voltem a aceitar apostas. Na sexta-feira (06), o presidente do Tribunal Regional Federal da 3ª Região (TRF-3), desembargador Johonsom Di Salvo, suspendeu a liminar que havia permitido provisoriamente que três sites de apostas da empresa CDA Gaming voltassem a operar."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O presidente Lula assinou no dia 25 de setembro uma Medida Provisória que proibia a operação de sites de apostas esportivas (bets) e cassinos online com jogos como “tigrinho ” em todo o território nacional."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/01/ja_7547.jpg?w=1170&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/gonet-pede-ao-stf-suspensao-de-todas-as-acoes-sobre-mp-do-fim-das-bets.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -1189,19 +1021,19 @@
       }
     }
   ],
-  "reapuradoEm": "2026-11-07T14:23:34.537Z",
+  "reapuradoEm": "2026-11-07T14:48:44.895Z",
   "diagnosticoReapuracao": {
-    "produzidas": 19,
+    "produzidas": 16,
     "jaProntas": 0,
-    "incompletas": 3,
+    "incompletas": 4,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 19,
+    "geradas": 16,
     "reaproveitadas": 0,
-    "puladas": 3,
+    "puladas": 4,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-07T14:25:32.442Z"
+  "lapisEm": "2026-11-07T14:50:15.385Z"
 }
