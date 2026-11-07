@@ -52,9 +52,13 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p assets/og
-          curl -fL --retry 3 --retry-delay 2 \
-            'https://i.ibb.co/N6qRWTmp/Chat-GPT-Image-10-de-set-de-2026-21-41-45.png' \
-            -o 'assets/og/o-calhorda-tem-nome.png'
+          if [ ! -s 'assets/og/o-calhorda-tem-nome.png' ]; then
+            curl --http1.1 -fL --retry 3 --retry-delay 2 --connect-timeout 15 --max-time 180 \
+              'https://i.ibb.co/N6qRWTmp/Chat-GPT-Image-10-de-set-de-2026-21-41-45.png' \
+              -o 'assets/og/o-calhorda-tem-nome.png'
+          else
+            echo "Capa OG versionada já presente: assets/og/o-calhorda-tem-nome.png"
+          fi
           python - <<'PY'
           from pathlib import Path
           p = Path('editorial-37.js')
@@ -72,9 +76,13 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p assets/og
-          curl -fL --retry 3 --retry-delay 2 \
-            'https://i.ibb.co/R44BNMW6/Chat-GPT-Image-12-de-set-de-2026-11-36-53.png' \
-            -o 'assets/og/mesma-sala-mesmo-crime-icl-inss.png'
+          if [ ! -s 'assets/og/mesma-sala-mesmo-crime-icl-inss.png' ]; then
+            curl --http1.1 -fL --retry 3 --retry-delay 2 --connect-timeout 15 --max-time 180 \
+              'https://i.ibb.co/R44BNMW6/Chat-GPT-Image-12-de-set-de-2026-11-36-53.png' \
+              -o 'assets/og/mesma-sala-mesmo-crime-icl-inss.png'
+          else
+            echo "Capa OG versionada já presente: assets/og/mesma-sala-mesmo-crime-icl-inss.png"
+          fi
           python - <<'PY'
           from pathlib import Path
           p = Path('editorial-39.js')
@@ -92,9 +100,13 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p assets/og
-          curl -fL --retry 3 --retry-delay 2 \
-            'https://i.ibb.co/S73zCTrX/Chat-GPT-Image-12-de-set-de-2026-16-13-45.png' \
-            -o 'assets/og/folha-flavio-moraes-vorcaro-lula.png'
+          if [ ! -s 'assets/og/folha-flavio-moraes-vorcaro-lula.png' ]; then
+            curl --http1.1 -fL --retry 3 --retry-delay 2 --connect-timeout 15 --max-time 180 \
+              'https://i.ibb.co/S73zCTrX/Chat-GPT-Image-12-de-set-de-2026-16-13-45.png' \
+              -o 'assets/og/folha-flavio-moraes-vorcaro-lula.png'
+          else
+            echo "Capa OG versionada já presente: assets/og/folha-flavio-moraes-vorcaro-lula.png"
+          fi
           python - <<'PY'
           from pathlib import Path
           p = Path('editorial-41.js')
@@ -112,9 +124,13 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p assets/og
-          curl -fL --retry 3 --retry-delay 2 \
-            'https://i.ibb.co/20yFLpc0/690-C0857-DCD1-422-A-9-D9-D-60-E437-E1653-A.png' \
-            -o 'assets/og/mendonca-presidencia-stf-investigacao-moraes.png'
+          if [ ! -s 'assets/og/mendonca-presidencia-stf-investigacao-moraes.png' ]; then
+            curl --http1.1 -fL --retry 3 --retry-delay 2 --connect-timeout 15 --max-time 180 \
+              'https://i.ibb.co/20yFLpc0/690-C0857-DCD1-422-A-9-D9-D-60-E437-E1653-A.png' \
+              -o 'assets/og/mendonca-presidencia-stf-investigacao-moraes.png'
+          else
+            echo "Capa OG versionada já presente: assets/og/mendonca-presidencia-stf-investigacao-moraes.png"
+          fi
           python - <<'PY'
           from pathlib import Path
           p = Path('editorial-42.js')
