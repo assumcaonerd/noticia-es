@@ -1,278 +1,74 @@
 {
-  "geradoEm": "2026-11-08T11:49:17.403Z",
+  "geradoEm": "2026-11-08T12:48:43.231Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
-    "bloqueadas": 1,
-    "bloqueadasEditoriais": 4,
+    "bloqueadas": 2,
+    "bloqueadasEditoriais": 1,
     "semImagem": 0,
-    "duplicadasBasicas": 10,
+    "duplicadasBasicas": 6,
     "duplicadasSemanticas": 1,
-    "foraCategorias": 45
+    "foraCategorias": 54
   },
-  "quantidadeCandidatas": 19,
+  "quantidadeCandidatas": 16,
   "candidatas": [
     {
-      "id": "015c125cea715b93",
-      "titulo": "“Onda azul” na política pode sacudir mercado de trabalho nos EUA",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/onda-azul-na-politica-pode-sacudir-mercado-de-trabalho-nos-eua/",
-      "dataFonte": "2026-11-08T07:31:01.000Z",
-      "resumoFonte": "Apesar de dados positivos em outubro, economistas apontam tendências preocupantes e aguardam impactos da nova paisagem política com vitória democrata nas midterms de 2026",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/WhatsApp-Image-2026-11-07-at-18.09.37.jpeg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-08T08:18:29.768Z",
-      "reportagem": {
-        "titulo": "&quot;Onda azul&quot; na política pode sacudir mercado de trabalho nos EUA",
-        "slug": "quot-onda-azul-quot-na-politica-pode-sacudir-mercado-de-trabalho-nos-eua",
-        "categoria": "Política ES",
-        "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/quot-onda-azul-quot-na-politica-pode-sacudir-mercado-de-trabalho-nos-eua.jpg",
-        "resumo": "Apesar de dados positivos em outubro, economistas apontam tendências preocupantes e aguardam impactos da nova paisagem política com vitória democrata nas midterms de 2026",
-        "conteudo": "<p>O mercado de trabalho dos EUA tem se mostrado surpreendentemente resiliente diante de uma série de choques econômicos.</p><h2>O contexto do cenário político</h2><p>A taxa de desemprego está em 4,5% ou abaixo desse patamar há um recorde de cinco anos, e o relatório de empregos de outubro , divulgado na sexta-feira com resultado acima do esperado, mostrou que os empregadores estão contratando em um dos ritmos mais acelerados dos últimos três anos.</p><p>Mas o retrato mensal também revelou algumas tendências preocupantes: o período médio de desemprego dos americanos é o mais longo em quase cinco anos; a maior parte dos ganhos de empregos continua relativamente concentrada em poucos setores; e os salários dos trabalhadores continuam ficando cada vez mais para trás em relação à inflação.</p><p>Portanto, embora o mercado de trabalho possa estar estável, ele não tem funcionado em plena capacidade: suas engrenagens estão emperradas há bastante tempo.</p><h2>Informações e repercussões do episódio</h2><p>Economistas têm questionado por quanto tempo essa estagnação poderia durar e o que poderia fazê-la romper em uma direção ou outra.</p><p>O &quot;blue tsunami&quot; entrou agora na conversa.</p><p>O que isso significa para a trajetória do mercado de trabalho ainda está por ser visto — ainda é muito cedo, e há uma série de fatores mais relevantes já em jogo.</p><p>Mas estas são algumas das áreas que os economistas estão observando de perto em meio a uma reconfiguração do cenário político:</p><p>Antes de tudo, mudanças levam tempo e as políticas têm limitações.</p><p>&quot;As eleições podem alterar as perspectivas de política, mas raramente mudam o mercado de trabalho da noite para o dia&quot;, disse Cory Stahle, economista sênior do marketplace de empregos online Indeed.</p><p>&quot;As forças que moldam as contratações agora, desde o envelhecimento da força de trabalho até a adoção da IA, já estavam em vigor antes da eleição e ainda estarão lá no próximo ano.&quot;</p><p>O mercado de trabalho está passando por algumas transformações estruturais. A força de trabalho está encolhendo devido ao envelhecimento da população, ao aumento das aposentadorias dos Baby Boomers e à redução da imigração líquida.</p><p>Inovações tecnológicas, notadamente a inteligência artificial, estão transformando empregos, setores e a economia.</p><p>Para lidar com as preocupações das empresas que enfrentam restrições de oferta de mão de obra, políticas podem ser implementadas para aumentar a imigração ou incentivar mais pessoas a terem filhos, mas os efeitos dessas medidas não acontecem da noite para o dia, disse ele.</p><p>Se os americanos querem ver mudanças mais rápidas que impactem suas economias pessoais, é muito mais provável que isso ocorra no nível estadual do que no nacional, disse Tyler Schipper, professor associado de economia da St. Thomas University em St. Paul, Minnesota.</p><p>No nível nacional, o Congresso só pode fazer determinadas coisas por conta própria, e o presidente Donald Trump ainda tem poder de veto, disse Schipper.</p><p>No nível estadual, há mais que pode ser feito, ele disse, para lidar com as preocupações de acessibilidade para as empresas e os consumidores que movimentam a economia.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/onda-azul-na-politica-pode-sacudir-mercado-de-trabalho-nos-eua/",
-        "fontesAdicionais": [
-          {
-            "nome": "Assembleia Legislativa do ES",
-            "url": "https://www.al.es.gov.br/"
-          },
-          {
-            "nome": "Governo do Estado do ES",
-            "url": "https://www.es.gov.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O mercado de trabalho dos EUA tem se mostrado surpreendentemente resiliente diante de uma série de choques econômicos."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A taxa de desemprego está em 4,5% ou abaixo desse patamar há um recorde de cinco anos, e o relatório de empregos de outubro , divulgado na sexta-feira com resultado acima do esperado, mostrou que os empregadores estão contratando em um dos ritmos mais acelerados dos últimos três anos."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Mas o retrato mensal também revelou algumas tendências preocupantes: o período médio de desemprego dos americanos é o mais longo em quase cinco anos; a maior parte dos ganhos de empregos continua relativamente concentrada em poucos setores; e os salários dos trabalhadores continuam ficando cada vez mais para trás em relação à inflação."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Portanto, embora o mercado de trabalho possa estar estável, ele não tem funcionado em plena capacidade: suas engrenagens estão emperradas há bastante tempo."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Economistas têm questionado por quanto tempo essa estagnação poderia durar e o que poderia fazê-la romper em uma direção ou outra."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/WhatsApp-Image-2026-11-07-at-18.09.37.jpeg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/quot-onda-azul-quot-na-politica-pode-sacudir-mercado-de-trabalho-nos-eua.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "14c58c9f01620b57",
-      "titulo": "Em 1ª fala na TV depois da eleição, Lula citará ajuste fiscal, mas não detalhará medidas",
+      "id": "da21e05610a3b920",
+      "titulo": "Fuga de Flávio aos EUA é condenada por 6 em cada 10 brasileiros, diz Quaest",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/economia/em-1a-fala-na-tv-depois-da-eleicao-lula-citara-ajuste-fiscal-mas-nao-detalhara-medidas/",
-      "dataFonte": "2026-11-08T10:21:02.000Z",
-      "resumoFonte": "Em seu primeiro pronunciamento em rede nacional de rádio e televisão desde que venceu as eleições deste ano, o presidente Luiz Inácio Lula da Silva (PT) defenderá um ajuste fiscal do governo para o seu quarto mandato à frente do Palácio do Planalto, sem, no entanto, detalhar as medidas que devem ser anunciadas para controlar as despesas públicas. A…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/12/PSDB-Lula.jpeg.webp",
-      "descobertaEm": "2026-11-08T11:18:57.026Z",
-      "reportagem": {
-        "titulo": "Em 1ª fala na TV depois da eleição, Lula citará ajuste fiscal, mas não detalhará medidas",
-        "slug": "em-1-fala-na-tv-depois-da-eleicao-lula-citara-ajuste-fiscal-mas-nao-detalhara-medidas",
-        "categoria": "Política Nacional",
-        "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/em-1-fala-na-tv-depois-da-eleicao-lula-citara-ajuste-fiscal-mas-nao-detalhara-medidas.jpg",
-        "resumo": "Presidente reeleito fará pronunciamento em rede nacional de rádio e televisão neste domingo, 8, a partir das 20h30",
-        "conteudo": "<p>No dia 8 de novembro de 2026, o presidente reeleito Luiz Inácio Lula da Silva (PT) fará seu primeiro pronunciamento em rede nacional depois das eleições, às 20h30, no qual defenderá um ajuste fiscal sem detalhar medidas específicas.</p><h2>O contexto do cenário político</h2><p>Lula, que venceu Flávio Bolsonaro (PL) no segundo turno com 51,79% dos votos, enfatizará a necessidade de reconciliação e unidade nacional.</p><p>Em seu primeiro pronunciamento em rede nacional de rádio e televisão desde que venceu as eleições deste ano, o presidente Luiz Inácio Lula da Silva (PT) defenderá um ajuste fiscal do governo para o seu quarto mandato à frente do Palácio do Planalto, sem, no entanto, detalhar as medidas que devem ser anunciadas para controlar as despesas públicas.</p><p>A fala de Lula acontece neste domingo, 8, a partir das 20h30. De acordo com assessores do Planalto, Lula deve defender a reconciliação do país e fazer um apelo à unidade nacional depois de uma campanha acirrada e polarizada contra o senador Flávio Bolsonaro (PL) na corrida presidencial.</p><h2>Informações e repercussões do episódio</h2><p>No segundo turno da eleição, em 25 de outubro, o petista foi reeleito com 51,79% dos votos válidos (64,2 milhões), enquanto Flávio Bolsonaro obteve 48,21% (59,8 milhões).</p><p>Lula vem sendo cobrado pelo mercado financeiro a fazer um ajuste fiscal nas contas públicas, cortando despesas para reequilibrar a economia brasileira, permitindo a queda da taxa básica de juros (Selic), mantida nesta semana pelo Banco Central (BC) em 13,75% ao ano .</p><p>Apesar da menção à necessidade de o governo ter responsabilidade fiscal no quarto mandato, Lula não detalhará nenhuma medida objetiva que indique um corte de despesas a partir de 2027.</p><p>O detalhamento das propostas, que ainda estão em debate dentro do governo, deve ocorrer apenas depois da viagem do petista à Turquia, que começa nesta semana, ou mesmo só no início do ano que vem.</p><p>A pedido do próprio Lula, o pronunciamento cresceu e terá mais de 7 minutos. A fala do presidente reeleito será exibida pelas emissoras de TV neste domingo, às 20h30. No rádio, vai ao ar às 7h30 desta segunda-feira, 9.</p><p>Ao retornar ao país depois de seus compromissos internacionais, a expectativa é que Lula convide empresários e chamados “pesos pesados” do PIB brasileiro para uma reunião no Palácio da Alvorada que trate da situação econômica do país.</p><p>Em meio a uma onda de especulações em torno do possível novo ministro da Fazenda a partir de janeiro de 2027, o nome do atual chefe da pasta, Dario Durigan, ganhou força nesta semana e se tornou o favorito para ficar no cargo .</p><p>Até então, os nomes mais comentados eram os do governador reeleito do Piauí, Rafael Fonteles (PT), que perdeu tração nos últimos dias, e do vice-presidente Geraldo Alckmin (PSB), que deve ir para outro ministério.</p><p>Na quinta-feira 5, Lula se reuniu no Alvorada com os ministros Bruno Moretti (Planejamento e Orçamento), Miriam Belchior (Casa Civil), Esther Dweck (Gestão), além de Aloizio Mercadante (presidente do BNDES), dos ex-ministros da Fazenda Fernando Haddad e Guido Mantega e dos economistas Luciano Coutinho, Laura Carvalho e Eduardo Moreira.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/economia/em-1a-fala-na-tv-depois-da-eleicao-lula-citara-ajuste-fiscal-mas-nao-detalhara-medidas/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "No dia 8 de novembro de 2026, o presidente reeleito Luiz Inácio Lula da Silva (PT) fará seu primeiro pronunciamento em rede nacional depois das eleições, às 20h30, no qual defenderá um ajuste fiscal sem detalhar medidas específicas."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Em seu primeiro pronunciamento em rede nacional de rádio e televisão desde que venceu as eleições deste ano, o presidente Luiz Inácio Lula da Silva (PT) defenderá um ajuste fiscal do governo para o seu quarto mandato à frente do Palácio do Planalto, sem, no entanto, detalhar as medidas que devem ser anunciadas para controlar as despesas públicas."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A fala de Lula acontece neste domingo, 8, a partir das 20h30. De acordo com assessores do Planalto, Lula deve defender a reconciliação do país e fazer um apelo à unidade nacional depois de uma campanha acirrada e polarizada contra o senador Flávio Bolsonaro (PL) na corrida presidencial."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "No segundo turno da eleição, em 25 de outubro, o petista foi reeleito com 51,79% dos votos válidos (64,2 milhões), enquanto Flávio Bolsonaro obteve 48,21% (59,8 milhões)."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Lula vem sendo cobrado pelo mercado financeiro a fazer um ajuste fiscal nas contas públicas, cortando despesas para reequilibrar a economia brasileira, permitindo a queda da taxa básica de juros (Selic), mantida nesta semana pelo Banco Central (BC) em 13,75% ao ano ."
-          }
-        ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2025/12/PSDB-Lula.jpeg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/em-1-fala-na-tv-depois-da-eleicao-lula-citara-ajuste-fiscal-mas-nao-detalhara-medidas.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/08/fuga-de-flavio-aos-eua-e-condenada-por-6-em-cada-10-brasileiros-diz-quaest.htm",
+      "dataFonte": "2026-11-08T11:49:04.000Z",
+      "resumoFonte": "Mais de seis em cada dez brasileiros condenaram a fuga do senador Flávio Bolsonaro (PL) para os Estados Unidos após a derrota na eleição presidencial e rejeitam a postura golpista após o resultado nas urnas. Os números fazem parte de uma pesquisa inédita da Quaest divulgada na manhã deste domingo (8).",
+      "imagem": "https://s2-cbn.glbimg.com/ijkb78cfkAlv7IdoIbt83DbvvR4=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/y/U/CnnBOIRr6TunhfQN5dHw/afp-20261028-d4pc79e-v2-midres-topshotusbrazilpolitics.jpg",
+      "descobertaEm": "2026-11-08T12:18:26.717Z"
     },
     {
-      "id": "3b612c144dc01485",
-      "titulo": "O que o gráfico não mostra? Perretti e Molini unem macro e fluxo no day trade",
+      "id": "93e8ac32ef30591e",
+      "titulo": "Em pronunciamento, Lula fará acenos ao mercado, mas não detalhará medidas econômicas",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mercados/que-grafico-nao-mostra-perretti-molini-levam-analise-macroeconomica-ao-trade/",
-      "dataFonte": "2026-11-08T11:15:00.000Z",
-      "resumoFonte": "Léo Molini e Rafael Perretti – Casa Clear 2026. Imagem: Igor Salomão. \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/Leo-Molini-e-Rafael-Perretti-Casa-Clear-2026.jpeg?fit=1280%2C812&quality=70&strip=all\" />Na Casa Clear, especialistas mostraram como juros americanos, fluxo estrangeiro e correlações entre ativos ajudam a…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/Leo-Molini-e-Rafael-Perretti-Casa-Clear-2026.jpeg?fit=1365%2C866&quality=70&strip=all",
-      "descobertaEm": "2026-11-08T11:18:57.026Z",
-      "reportagem": {
-        "titulo": "O que o gráfico não mostra? Perretti e Molini unem macro e fluxo no day trade",
-        "slug": "o-que-o-grafico-nao-mostra-perretti-e-molini-unem-macro-e-fluxo-no-day-trade",
-        "categoria": "Economia",
-        "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/o-que-o-grafico-nao-mostra-perretti-e-molini-unem-macro-e-fluxo-no-day-trade.jpg",
-        "resumo": "Perretti e Molini mostraram na Casa Clear como a análise macroeconômica pode ampliar os critérios do trader antes de assumir risco.",
-        "conteudo": "<p>Identificar uma região de entrada no gráfico é apenas parte do desafio de quem faz day trade. Quando o preço se aproxima desse nível, surge uma decisão ainda mais difícil: entrar na operação ou esperar?</p><h2>Dados e contexto do setor</h2><p>Em um mercado influenciado por juros, indicadores econômicos e fluxo estrangeiro, compreender o que está por trás dos movimentos pode ser tão importante quanto identificar uma oportunidade de entrada.</p><p>Essa discussão ganhou espaço durante a Casa Clear 2026 , com Rafael Perretti , economista da Clear Corretora, e Léo Molini , trader e influenciador da instituição.</p><p>Em entrevistas ao InfoMoney , os dois especialistas e Fábio F. , trader e cliente da Clear, relataram como a leitura do cenário econômico pode ajudar nas decisões operacionais, mesmo quando o mercado apresenta um comportamento diferente do esperado.</p><h2>Impactos e informações adicionais</h2><p>A sessão colocou os participantes diante de um dilema comum no day trade: manter a expectativa formada antes da abertura ou rever a estratégia diante de um mercado menos volátil do que o previsto.</p><p>O cenário pós-eleitoral alimentava a expectativa de oscilações mais intensas. “A gente vendia um cenário pós-eleitoral, um mercado marcado por bastante volatilidade”, relata Perretti.</p><p>A manhã, porém, apresentou movimentos mais contidos, mesmo diante de uma agenda relevante de indicadores econômicos.</p><p>Para Perretti, o contraste reforçou a importância de observar o comportamento dos preços antes de decidir por uma operação. “Era um dia relevante em termos de dados econômicos.</p><p>Tínhamos PIB e CPI, mas o mercado ficou um pouco mais travado, principalmente pela manhã”, conta.</p><p>Para Molini, interpretar aquele ambiente exigia conectar diferentes informações, sem depender de um único indicador.</p><p>O desafio era compreender como essas variáveis poderiam influenciar o mercado em meio ao grande volume de dados divulgados. “Foi uma manhã com muitos dados, informações e conteúdo”, comenta.</p><p>Mesmo sem a volatilidade esperada, a sessão permitiu demonstrar como a análise macroeconômica pode contribuir para as decisões operacionais.</p><p>Perretti destacou a oportunidade de aproximar esse conhecimento da prática dos participantes.</p><p>“Foi superinteressante levar essa leitura aos traders presentes e mostrar como utilizar o contexto macroeconômico na busca por bons resultados no mercado”, observa.</p><p>O comportamento da Bolsa brasileira também precisava ser analisado à luz do cenário internacional. A decisão do Federal Reserve (Fed), banco central dos Estados Unidos, na véspera, e a divulgação de indicadores econômicos americanos acrescentavam novas variáveis ao pregão.</p><p>“No pregão após a decisão do Fed, tivemos dados de inflação e do PIB dos Estados Unidos, que poderiam reforçar ou não a perspectiva de alta dos juros americanos”, detalha Perretti.</p><p>Para quem opera contratos futuros, especialmente mini-índice e minidólar, compreender o cenário internacional ajuda a interpretar os movimentos dos ativos brasileiros.</p><p>Mudanças nas expectativas para os juros americanos, por exemplo, podem influenciar o mercado doméstico.</p><p>“Por sermos um país emergente, qualquer alteração nos juros norte-americanos interfere diretamente na Bolsa brasileira”, pontua Perretti.</p><p>Entretanto, conhecer os indicadores não significa saber automaticamente para onde os preços seguirão. O desafio é transformar essas informações em referências úteis para as operações.</p><p>Nesse sentido, Perretti mostrou como relacionar o cenário econômico às regiões de preço observadas no gráfico.</p><p>“Mostramos como analisar o mercado e identificar regiões de preço considerando o contexto macroeconômico”, explica.</p><p>A análise também incorporou o fluxo de negociação e a atuação dos grandes participantes do mercado, buscando identificar possíveis reações dos preços.</p><p>“Mostramos como analisar o fluxo e as possíveis reações do mercado à atuação dos grandes participantes, relacionando tudo isso ao cenário econômico”, acrescenta Perretti.</p><p>Para Molini, o exercício permitiu ampliar as referências de quem já utiliza estratégias próprias, como o Price Action.</p><p>Mais do que substituir métodos conhecidos, a proposta era combinar diferentes formas de interpretar o mercado.</p><p>“Nós mostramos outra forma de olhar para o mercado financeiro, juntando todas as peças do quebra-cabeça”, comenta.</p><p>Para facilitar essa leitura, Molini apresentou uma ferramenta desenvolvida por ele que reúne diferentes indicadores em uma única tela.</p><p>O painel combina a curva de juros futuros (DIs), o fluxo estrangeiro em tempo real nos contratos futuros de índice e dólar e referências internacionais, permitindo uma visão integrada do cenário macroeconômico.</p><p>A ferramenta também foi utilizada durante a sessão. Em tempo real, Perretti e Molini identificavam regiões de preço e explicavam como os traders poderiam interpretar as possíveis reações do mercado.</p><p>A decisão de executar as operações, porém, ficava a cargo de cada participante, conforme sua estratégia.</p><p>“Não abrimos ordens, mas mostramos aos traders os possíveis cenários de alta e de baixa, explicando o que poderia levar os preços a reagir em cada região. E o mercado reagiu conforme nossa análise”, relata Molini.</p><p>Para quem acompanhava a atividade, a análise permitiu observar relações que nem sempre aparecem diretamente no gráfico do ativo operado.</p><p>Fábio F., trader e cliente da Clear, destacou as correlações entre o mercado brasileiro e o cenário internacional. “O Perretti e o Molini nos mostraram as correlações e como estava o mercado lá fora”, relata.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mercados/que-grafico-nao-mostra-perretti-molini-levam-analise-macroeconomica-ao-trade/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Identificar uma região de entrada no gráfico é apenas parte do desafio de quem faz day trade. Quando o preço se aproxima desse nível, surge uma decisão ainda mais difícil: entrar na operação ou esperar?"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Essa discussão ganhou espaço durante a Casa Clear 2026 , com Rafael Perretti , economista da Clear Corretora, e Léo Molini , trader e influenciador da instituição. Em entrevistas ao InfoMoney , os dois especialistas e Fábio F."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A sessão colocou os participantes diante de um dilema comum no day trade: manter a expectativa formada antes da abertura ou rever a estratégia diante de um mercado menos volátil do que o previsto. O cenário pós-eleitoral alimentava a expectativa de oscilações mais intensas."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A manhã, porém, apresentou movimentos mais contidos, mesmo diante de uma agenda relevante de indicadores econômicos. Para Perretti, o contraste reforçou a importância de observar o comportamento dos preços antes de decidir por uma operação. “Era um dia relevante em termos de dados econômicos."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Para Molini, interpretar aquele ambiente exigia conectar diferentes informações, sem depender de um único indicador. O desafio era compreender como essas variáveis poderiam influenciar o mercado em meio ao grande volume de dados divulgados. “Foi uma manhã com muitos dados, informações e conteúdo”, comenta."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/Leo-Molini-e-Rafael-Perretti-Casa-Clear-2026.jpeg?fit=1365%2C866&quality=70&strip=all",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/o-que-o-grafico-nao-mostra-perretti-e-molini-unem-macro-e-fluxo-no-day-trade.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/politica/em-pronunciamento-lula-fara-acenos-ao-mercado-mas-nao-detalhara-medidas-economicas/",
+      "dataFonte": "2026-11-08T12:01:48.000Z",
+      "resumoFonte": "Dario Durigan Bruno Moretti aproveitarão o período em que petista estará em viagem internacional para elaborar medidas para equilibrar contas públicas",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/d6a6722_1.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-11-08T12:18:26.717Z"
     },
     {
-      "id": "724ccc33e80fb527",
-      "titulo": "Vale o título: veja o que está em jogo no GP de São Paulo",
-      "categoria": "Cidades",
+      "id": "6d4cb224d0623d24",
+      "titulo": "\"Destruiu os planos dela\", diz mãe que denunciou pastor por abusar de filha",
+      "categoria": "Fé e Sociedade",
       "radar": null,
-      "fonteNome": "CNN Brasil - Capa",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/automobilismo/vale-o-titulo-veja-o-que-esta-em-jogo-no-gp-de-sao-paulo/",
-      "dataFonte": "2026-11-08T06:30:09.000Z",
-      "resumoFonte": "Mercedes pode conquistar o Mundial de Construtores, enquanto Brasil volta a ter dois pilotos no grid e Kimi Antonelli busca vitória inédita em Interlagos",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Mercedes-e1793711375448.avif?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-08T07:20:43.958Z",
-      "reportagem": {
-        "titulo": "Vale o título: veja o que está em jogo no GP de São Paulo",
-        "slug": "vale-o-titulo-veja-o-que-esta-em-jogo-no-gp-de-sao-paulo",
-        "categoria": "Cidades",
-        "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/vale-o-titulo-veja-o-que-esta-em-jogo-no-gp-de-sao-paulo.jpg",
-        "resumo": "Mercedes pode conquistar o Mundial de Construtores, enquanto Brasil volta a ter dois pilotos no grid e Kimi Antonelli busca vitória inédita em Interlagos",
-        "conteudo": "<p>O GP de São Paulo deste domingo (8) promete emoções aos fãs da Fórmula 1, mesmo com o campeão decidido.</p><h2>Dados e informações dos municípios</h2><p>A corrida que começa às 14h (de Brasília) pode determinar o título do Mundial dos Construtores, marcar o retorno de dois brasileiros ao grid de largada e coroar ainda mais a temporada histórica de Kimi Antonelli.</p><p>A Mercedes chega a Interlagos com a possibilidade de garantir a conquista antecipada do Campeonato de Construtores.</p><p>A equipe tem 126 pontos a mais que a Ferrari na classificação, única que pode evitar a conquista dos alemães. Restam ainda quatro provas na temporada.</p><h2>Contexto e diferenças locais</h2><p>Para ser campeã em São Paulo, a Mercedes precisa somar três pontos a mais que a Ferrari neste fim de semana. Para isso, Antonelli e Russell precisam se destacar na pista. Em caso de dobradinha no pódio, o título está garantido.</p><p>Outro cenário é se um dos pilotos vencer a corrida e o companheiro cruzar a linha de chegada em terceiro ou quarto lugar. Nessas combinações, a equipe alemã não poderá mais ser alcançada pela rival italiana. A Mercedes não vence o campeonato há cinco anos.</p><p>O Brasil terá dois representantes em um GP da Fórmula 1 pela primeira vez desde 2016. Gabriel Bortoleto, da Audi, e Rafael Câmara, que fará sua estreia pela Haas, estarão no grid de largada e encerrarão um jejum de dez anos sem dois pilotos brasileiros na mesma corrida.</p><p>A última vez foi em 2016, quando Felipe Massa, na época na Williams, e Felipe Nasr, na Sauber, correram no GP de Abu Dhabi.</p><p>Bortoleto está há duas temporadas na Fórmula 1. O piloto está na 14ª colocação na classificação do campeonato de pilotos. Câmara foi oficializado pela Haas para 2027, mas antecipou sua estreia após a saída de Esteban Ocon.</p><p>Kimi Antonelli conquistou o título mundial no último domingo após terminar o GP do México em terceiro. O italiano é o campeão mais jovem da história da Fórmula 1 com 20 anos. Para consagrar a temporada, o piloto da Mercedes busca sua primeira vitória no Brasil.</p><p>No ano passado, Antonelli, em sua temporada de estreia, ficou na segunda posição atrás de Lando Norris. O italiano é fã declarado de Senna e não esconde que vencer no Brasil teria um gosto especial</p><p>Mercedes pode garantir segundo título da temporada no GP de São Paulo</p><p>O GP de São Paulo deste domingo (8) promete emoções aos fãs da Fórmula 1, mesmo com o campeão decidido. A corrida que começa às 14h (de Brasília) pode determinar o título do Mundial dos Construtores,</p>",
-        "fonteNome": "CNN Brasil - Capa",
-        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/automobilismo/vale-o-titulo-veja-o-que-esta-em-jogo-no-gp-de-sao-paulo/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O GP de São Paulo deste domingo (8) promete emoções aos fãs da Fórmula 1, mesmo com o campeão decidido. A corrida que começa às 14h (de Brasília) pode determinar o título do Mundial dos Construtores, marcar o retorno de dois brasileiros ao grid de largada e coroar ainda mais a temporada histórica de Kimi Antonelli."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A Mercedes chega a Interlagos com a possibilidade de garantir a conquista antecipada do Campeonato de Construtores."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A equipe tem 126 pontos a mais que a Ferrari na classificação, única que pode evitar a conquista dos alemães. Restam ainda quatro provas na temporada."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Para ser campeã em São Paulo, a Mercedes precisa somar três pontos a mais que a Ferrari neste fim de semana. Para isso, Antonelli e Russell precisam se destacar na pista. Em caso de dobradinha no pódio, o título está garantido."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Outro cenário é se um dos pilotos vencer a corrida e o companheiro cruzar a linha de chegada em terceiro ou quarto lugar. Nessas combinações, a equipe alemã não poderá mais ser alcançada pela rival italiana. A Mercedes não vence o campeonato há cinco anos."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Mercedes-e1793711375448.avif?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/vale-o-titulo-veja-o-que-esta-em-jogo-no-gp-de-sao-paulo.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/sao-paulo/destruiu-os-planos-dela-diz-mae-que-denunciou-pastor-por-abusar-de-filha",
+      "dataFonte": "2026-11-08T11:37:46.000Z",
+      "resumoFonte": "Abusos teriam começado dentro da igreja evangélica frequentada pela família. Pastor é investigado por Delegacia da Mulher de Itaquaquecetuba",
+      "imagem": "https://i.metroimg.com/KA5OT2e174SKojWBXq_Zl8xyzlykVVZaORsBmesmfaw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2024/06/21115506/Impacto-do-abuso-sexual-em-mulheres-e-criancas-que-se-tornam-maes-compressed-1.jpg",
+      "descobertaEm": "2026-11-08T12:18:26.717Z"
     },
     {
-      "id": "954750e9a92e3297",
-      "titulo": "Por que até seus melhores funcionários contornam sistemas de IA que funcionam?",
+      "id": "320a7b1dfd983546",
+      "titulo": "“Potencial do Brasil é na aplicação da IA no mundo físico”, diz diretor do Google",
       "categoria": "Tecnologia",
       "radar": null,
       "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/business/global/por-que-ate-seus-melhores-funcionarios-contornam-sistemas-de-ia-que-funcionam/",
-      "dataFonte": "2026-11-08T08:00:00.000Z",
-      "resumoFonte": "Agentes de IA (Foto de Mohamed Nohassi na Unsplash) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/08/Agentes-de-IA.jpg?fit=1266%2C780&quality=70&strip=all\" />Professor da Harvard Business School discute o dilema de organizações que adotam sistemas capazes de tomar decisões melhores, mas preservam estruturas de autoridade…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/08/Agentes-de-IA.jpg?fit=1266%2C780&quality=70&strip=all",
-      "descobertaEm": "2026-11-08T08:18:29.768Z",
+      "urlFonte": "https://www.infomoney.com.br/business/potencial-do-brasil-e-na-aplicacao-da-ia-no-mundo-fisico-diz-diretor-do-google/",
+      "dataFonte": "2026-11-08T12:00:00.000Z",
+      "resumoFonte": "Isabela Rosa/MBA Brasil \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/newton-neto.jpeg?fit=1280%2C853&quality=70&strip=all\" />Newton Neto, diretor sênior de parcerias para a América Latina e Canadá no Google, esteve em evento do MBA Brasil em Chicago (EUA) The post “Potencial do Brasil é na aplicação da IA no mundo…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/newton-neto.jpeg?fit=1600%2C1066&quality=70&strip=all",
+      "descobertaEm": "2026-11-08T12:18:26.717Z",
       "reportagem": {
-        "titulo": "Por que até seus melhores funcionários contornam sistemas de IA que funcionam?",
-        "slug": "por-que-ate-seus-melhores-funcionarios-contornam-sistemas-de-ia-que-funcionam",
+        "titulo": "&quot;Potencial do Brasil é na aplicação da IA no mundo físico&quot;, diz diretor do Google",
+        "slug": "quot-potencial-do-brasil-e-na-aplicacao-da-ia-no-mundo-fisico-quot-diz-diretor-do-google",
         "categoria": "Tecnologia",
         "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/por-que-ate-seus-melhores-funcionarios-contornam-sistemas-de-ia-que-funcionam.jpg",
-        "resumo": "Professor da Harvard Business School discute o dilema de organizações que adotam sistemas capazes de tomar decisões melhores, mas preservam estruturas de autoridade humana que bloqueiam essas decisões",
-        "conteudo": "<p>No fim de 2022, um banco global aprovou um sistema de IA desenvolvido para automatizar decisões rotineiras de crédito.</p><h2>Dados e contexto do setor</h2><p>No papel, parecia exatamente o tipo de iniciativa inovadora que especialistas vinham incentivando as empresas a adotar.</p><p>Nos projetos-piloto, o sistema processava solicitações mais rapidamente do que os humanos, reduzia erros e prometia economias relevantes de custos.</p><p>A equipe de gestão de riscos aprovou a solução, a área de compliance também, e o CEO a promoveu publicamente como prova de que o banco estava abraçando o futuro.</p><h2>Detalhes e consequências do caso</h2><p>Seis meses depois, o sistema ainda avaliava solicitações e gerava recomendações. Mesmo assim, a maioria dos processos continuava passando por revisão humana.</p><p>As exceções tinham se multiplicado, e salvaguardas temporárias — como limites para dupla revisão e sinalizações de confirmação manual — tinham se transformado em etapas permanentes do processo.</p><p>Embora o sistema de IA fizesse parte do fluxo de trabalho do banco, ele nunca chegou a tomar a maior parte das decisões finais.</p><p>Versões dessa história estão se repetindo em muitos setores. O problema não são projetos-piloto fracassados. O problema é que as estruturas de responsabilização e legitimidade das organizações não evoluíram para dar suporte ao uso de sistemas de IA.</p><p>Por estruturas de legitimidade, refiro-me ao entendimento compartilhado sobre quem tem o direito não apenas de tomar uma decisão, mas também de fazer com que essa decisão seja considerada confiável.</p><p>Instituições demais estão acumulando inteligência sem se reorganizar em torno dela.</p><p>Esse padrão parece novo porque a tecnologia é nova, mas, estruturalmente, não é.</p><p>Ondas anteriores de automação de decisões — como os sistemas de planejamento de recursos empresariais (enterprise resource planning, ou ERP) e os sistemas de credit scoring — expuseram o mesmo hábito institucional: as organizações adotam sistemas capazes de tomar decisões melhores, mas preservam estruturas de autoridade humana que impedem que as decisões desses sistemas sejam aceitas.</p><p>Outras explicações para o fato de os sistemas de IA não receberem autoridade para tomar decisões apontam para soluções equivocadas. Alguns, por exemplo, argumentam que a inércia estrutural causa resistência.</p><p>Porém, com a IA, muitas vezes vemos uma aparente conformidade: os painéis estão funcionando, os fluxos incluem o sistema e os funcionários o utilizam. Mas, ainda assim, o sistema não recebe direitos reais de decisão.</p><p>Pesquisas sobre complacência em relação à automação alertam que os humanos cedem facilmente demais às máquinas, mas esse não é o problema aqui.</p><p>Neste caso, eles não cedem, porque as estruturas de responsabilização tornam isso profissionalmente perigoso.</p><p>A literatura sobre o paradoxo da produtividade afirma que os investimentos em TI não se traduzem em ganhos de desempenho, mas, em grande parte, não especifica o mecanismo organizacional que explica o motivo.</p><p>Na maioria dessas situações, um sistema de IA é utilizado e celebrado em apresentações ao conselho, mas, quando o sistema e um humano discordam, o humano quase sempre prevalece discretamente.</p><p>Os profissionais redefinem os limites do sistema por razões de prudência: estabelecem mais etapas de revisão, fixam limites um pouco mais baixos, criam mais substituições de decisão documentadas e emitem novas sinalizações para casos sensíveis.</p><p>Esses ajustes são defensáveis individualmente. Coletivamente, são desastrosos.</p><p>A gravidade do problema é ainda maior com sistemas de IA agêntica. Sistemas de recomendação ao menos preservam a ficção do controle humano: o sistema propõe, o humano decide, e a responsabilização tem um rosto — mesmo quando ela deveria ter sido transferida.</p><p>Sistemas agênticos desfazem essa ficção. Eles não recomendam; eles agem. Fazem reservas, aprovam, encaminham, celebram contratos e escalam casos dentro de parâmetros autorizados por alguém, mas que ninguém monitora continuamente.</p><p>Quando um agente atua dentro de seus parâmetros definidos e o resultado é ruim, a questão da responsabilização se torna realmente difícil: o conjunto de parâmetros estava errado? A autorização era ampla demais?</p><p>O agente encontrou uma situação que seus criadores não previram? Essas perguntas serão feitas em salas de reunião, tribunais e documentos regulatórios.</p><p>Quando um sistema de IA recomenda algo, a lacuna de responsabilização produz soluções improvisadas. Mas, quando um sistema agêntico atua, ele pode criar ambiguidade sobre responsabilidade jurídica em larga escala.</p><p>A adoção real é inconfundível: os processos decisórios se simplificam. As exceções diminuem, em vez de se multiplicar.</p><p>A autoridade é redistribuída explicitamente, de modo que as pessoas saibam quem — ou o quê — decide, quem explica e quem absorve o risco. Essa clareza pode causar desconforto, pois força mudanças de papéis.</p><p>Mas, no fim, ela traz estabilidade, porque a responsabilização passa a estar vinculada à autoridade.</p><p>A tecnologia e a arquitetura organizacional precisam avançar juntas, e o trabalho de organização deve ser desenhado antes que um sistema seja escalado, não adaptado posteriormente, quando a resistência já tiver surgido.</p><p>Líderes precisam fazer quatro perguntas relacionadas à governança. Elas podem causar algum desconforto, mas são essenciais para revelar lacunas de responsabilização:</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/quot-potencial-do-brasil-e-na-aplicacao-da-ia-no-mundo-fisico-quot-diz-diretor-do-google.jpg",
+        "resumo": "Newton Neto, diretor sênior de parcerias para a América Latina e Canadá no Google, esteve em evento do MBA Brasil em Chicago (EUA)",
+        "conteudo": "<p>CHICAGO (EUA) – A utilização da inteligência artificial demanda, cada vez mais, integração com o dia a dia das pessoas.</p><h2>Dados e contexto do setor</h2><p>E é aí que o Brasil tem maior potencial, segundo Newton Neto, diretor sênior de parceria para a América Latina e Canadá no Google, durante painel na Conferência do MBA Brasil.</p><p>“O potencial que o Brasil tem é a aplicação da IA no mundo físico”, disse. Ele explicou que um projeto de IA vai além dos aplicativos que estamos cada vez mais acostumados a usar. Ele citou o exemplo do Waymo, o carro que dirige de forma autônoma, sem necessidade de motorista.</p><p>“Um dos primeiros projetos que trabalhei era o Google Street View, que serviu como um pipeline de dados absurdo. O motorista robô, que usa esse mapeamento de dados, é dez vezes mais seguro do que um motorista humano. Me anima o impacto real da IA no mundo físico”, declarou.</p><h2>Impactos e informações adicionais</h2><p>Entre os exemplos que Newton citou para o Brasil explorar é a otimização do grid energético, que também traria um impacto físico significativo.</p><p>O executivo do Google também lembrou que a empresa trabalhou em parceria com o MapBiomas para “alertar quase 300 mil pessoas que viviam ao redor do rio Amazonas sobre o risco de enchentes, a IA montou esquema de preparação e, junto com a Defesa Civil emitiu alertas que impactaram mais de 50 milhões de pessoas, tudo com o conhecimento químico, físico e topográfico adquirido.”</p><p>Mesmo diante desses exemplos, Newton reforça que a fundação do bom uso de IA está na governança e na utilização de protocolos: “é muito importante entender quais são os objetivos e a governança para garantir que as coisas funcionem bem.”</p><p>Newton Neto participou da Conferência MBA Brasil 2026, que chega à quinta edição neste ano.</p><p>Desta vez, nos dias 6 e 7 de novembro, reunirá em Chicago, nos Estados Unidos, executivos de algumas das maiores empresas do Brasil e do mundo para discutir os rumos e as perspectivas de negócios dos principais setores da economia e do empreendedorismo brasileiros.</p>",
         "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/business/global/por-que-ate-seus-melhores-funcionarios-contornam-sistemas-de-ia-que-funcionam/",
+        "fonteUrl": "https://www.infomoney.com.br/business/potencial-do-brasil-e-na-aplicacao-da-ia-no-mundo-fisico-diz-diretor-do-google/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -287,27 +83,27 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "No fim de 2022, um banco global aprovou um sistema de IA desenvolvido para automatizar decisões rotineiras de crédito. No papel, parecia exatamente o tipo de iniciativa inovadora que especialistas vinham incentivando as empresas a adotar."
+            "resposta": "CHICAGO (EUA) – A utilização da inteligência artificial demanda, cada vez mais, integração com o dia a dia das pessoas. E é aí que o Brasil tem maior potencial, segundo Newton Neto, diretor sênior de parceria para a América Latina e Canadá no Google, durante painel na Conferência do MBA Brasil."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Seis meses depois, o sistema ainda avaliava solicitações e gerava recomendações. Mesmo assim, a maioria dos processos continuava passando por revisão humana. As exceções tinham se multiplicado, e salvaguardas temporárias — como limites para dupla revisão e sinalizações de confirmação manual — tinham se transformado em etapas permanentes do processo."
+            "resposta": "“O potencial que o Brasil tem é a aplicação da IA no mundo físico”, disse. Ele explicou que um projeto de IA vai além dos aplicativos que estamos cada vez mais acostumados a usar. Ele citou o exemplo do Waymo, o carro que dirige de forma autônoma, sem necessidade de motorista."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Versões dessa história estão se repetindo em muitos setores. O problema não são projetos-piloto fracassados. O problema é que as estruturas de responsabilização e legitimidade das organizações não evoluíram para dar suporte ao uso de sistemas de IA."
+            "resposta": "“Um dos primeiros projetos que trabalhei era o Google Street View, que serviu como um pipeline de dados absurdo. O motorista robô, que usa esse mapeamento de dados, é dez vezes mais seguro do que um motorista humano. Me anima o impacto real da IA no mundo físico”, declarou."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Por estruturas de legitimidade, refiro-me ao entendimento compartilhado sobre quem tem o direito não apenas de tomar uma decisão, mas também de fazer com que essa decisão seja considerada confiável. Instituições demais estão acumulando inteligência sem se reorganizar em torno dela."
+            "resposta": "Entre os exemplos que Newton citou para o Brasil explorar é a otimização do grid energético, que também traria um impacto físico significativo."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Esse padrão parece novo porque a tecnologia é nova, mas, estruturalmente, não é."
+            "resposta": "O executivo do Google também lembrou que a empresa trabalhou em parceria com o MapBiomas para “alertar quase 300 mil pessoas que viviam ao redor do rio Amazonas sobre o risco de enchentes, a IA montou esquema de preparação e, junto com a Defesa Civil emitiu alertas que impactaram mais de 50 milhões de pessoas, tudo com o conhecimento químico, físico e topográfico adquirido.”"
           }
         ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/08/Agentes-de-IA.jpg?fit=1266%2C780&quality=70&strip=all",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/por-que-ate-seus-melhores-funcionarios-contornam-sistemas-de-ia-que-funcionam.jpg",
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/newton-neto.jpeg?fit=1600%2C1066&quality=70&strip=all",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/quot-potencial-do-brasil-e-na-aplicacao-da-ia-no-mundo-fisico-quot-diz-diretor-do-google.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -373,26 +169,26 @@
       }
     },
     {
-      "id": "30e7e066991e6417",
-      "titulo": "Lado paraguaio de Itaipu diz ter R$ 1 bi no Ueno Bank e aciona MP",
+      "id": "f6a882ec76f17816",
+      "titulo": "Gilmar Mendes defende urnas eletrônicas e rebate ataques ao resultado das eleições",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Poder360",
-      "urlFonte": "https://www.poder360.com.br/poder-internacional/lado-paraguaio-de-itaipu-diz-ter-r-1-bi-no-ueno-bank-e-aciona-mp/",
-      "dataFonte": "2026-11-08T11:05:45.000Z",
-      "resumoFonte": "Administração paraguaia da hidrelétrica inicia medidas legais junto ao Ministério Público para recuperar valores. Leia no Poder360",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/itaipu-paraguai-1200x675.png",
-      "descobertaEm": "2026-11-08T11:18:57.026Z",
+      "fonteNome": "CBN - Política",
+      "urlFonte": "https://cbn.globo.com/politica/noticia/2026/11/08/gilmar-mendes-defende-urnas-eletronicas-e-rebate-ataques-ao-resultado-das-eleicoes.ghtml",
+      "dataFonte": "2026-11-08T11:51:47.362Z",
+      "resumoFonte": "Ministro do STF afirma que acusações contra o sistema eleitoral são \"levianas\" e destaca auditorias e relatórios internacionais que atestam a segurança do processo.",
+      "imagem": "https://s2-cbn.glbimg.com/bUoCx74hEyLS1vofOPXw66vDBxE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/m/I/SPfNr7SPeZwdnDJyrEMg/55591996155-5f5010a6a7-k.jpg",
+      "descobertaEm": "2026-11-08T12:18:26.717Z",
       "reportagem": {
-        "titulo": "Lado paraguaio de Itaipu diz ter R$ 1 bi no Ueno Bank e aciona MP",
-        "slug": "lado-paraguaio-de-itaipu-diz-ter-r-1-bi-no-ueno-bank-e-aciona-mp",
+        "titulo": "Gilmar Mendes defende urnas eletrônicas e rebate ataques ao resultado das eleições",
+        "slug": "gilmar-mendes-defende-urnas-eletronicas-e-rebate-ataques-ao-resultado-das-eleicoes",
         "categoria": "Justiça",
         "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lado-paraguaio-de-itaipu-diz-ter-r-1-bi-no-ueno-bank-e-aciona-mp.jpg",
-        "resumo": "Administração paraguaia da hidrelétrica inicia medidas legais junto ao Ministério Público para recuperar valores.",
-        "conteudo": "<p>Administração paraguaia da hidrelétrica inicia medidas legais junto ao Ministério Público para recuperar valores</p><h2>O contexto da decisão judicial</h2><p>A Ande (Administración Nacional de Electricidad), estatal que representa o lado paraguaio na gestão da Usina Hidrelétrica de Itaipu, informou na noite de sábado (7.nov.2026) ter iniciado os procedimentos legais para recuperar valores mantidos no Ueno Bank.</p><p>A empresa afirma ter US$ 163,8 milhões e 115,2 bilhões de guaranis paraguaios no banco digital, o equivalente a R$ 1 bilhão. Ainda assim, disse que a crise financeira envolvendo a instituição não impacta suas atividades.</p><p>Em comunicado divulgado no X, a Ande afirmou ter apresentado ao Ministério Público paraguaio uma queixa-crime contra executivos e funcionários do Ueno e “quaisquer outros indivíduos que possam ser considerados responsáveis” pelo colapso do banco, que levou a uma crise financeira e política no país .</p><h2>Detalhes e consequências do caso</h2><p>“A ANDE solicitou ao Ministério Público a adoção das medidas cautelares para resguardar os recursos institucionais comprometidos e procurar sua recuperação, colocando-se à disposição para apresentar todos os antecedentes, documentos e informações institucionais necessários para o desenvolvimento da investigação” , disse a estatal.</p><p>A Ande é a empresa estatal responsável pela geração, transmissão e distribuição de energia elétrica no Paraguai. Representa o lado paraguaio na gestão compartilhada da Usina de Itaipu com o Brasil.</p><p>— ANDE Página Oficial (@ANDEOficial) November 7, 2026</p><p>A Itaipu Binacional informou na 6ª feira (6.nov) que a crise envolvendo a liquidação do Banco Ueno não impacta os recursos financeiros do lado brasileiro e que não houve impacto na produção da hidrelétrica.</p><p>A usina opera como duas contas separadas, uma gerida pelo lado brasileiro e outra pelos paraguaios.</p><p>A manifestação veio depois de a entidade responsável pelo fundo de pensão dos trabalhadores da margem paraguaia da usina ter divulgado que tinha 100,69 bilhões de guaranis (R$ 89,9 milhões) investidos no Ueno .</p><p>Procurada pelo Poder360 , a Itaipu Binacional declarou que esse montante não afeta os aposentados brasileiros. “A Itaipu Brasil tem a própria fundação de previdência, que não investe em bancos internacionais” , informou a empresa.</p><p>Eis a íntegra da nota de Itaipu Binacional sobre riscos aos recursos brasileiros da hidrelétrica:</p><p>“A Itaipu Binacional esclarece que não há recursos financeiros sob gestão da margem brasileira depositados ou aplicados no Ueno Bank.</p><p>As aplicações financeiras da Entidade seguem normas e procedimentos internos, observando critérios de segurança, liquidez e rentabilidade, e sua gestão observa as competências estabelecidas para cada margem.</p><p>A operação da Itaipu segue normalmente, sem impacto na produção e no fornecimento de energia.”</p>",
-        "fonteNome": "Poder360",
-        "fonteUrl": "https://www.poder360.com.br/poder-internacional/lado-paraguaio-de-itaipu-diz-ter-r-1-bi-no-ueno-bank-e-aciona-mp/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/gilmar-mendes-defende-urnas-eletronicas-e-rebate-ataques-ao-resultado-das-eleicoes.jpg",
+        "resumo": "Ministro do STF afirma que acusações contra o sistema eleitoral são \"levianas\" e destaca auditorias e relatórios internacionais que atestam a segurança do processo.",
+        "conteudo": "<p>Gilmar Mendes defende urnas eletrônicas e rebate ataques ao resultado das eleições</p><h2>O contexto da decisão judicial</h2><p>O ministro do STF Gilmar Mendes saiu em defesa da segurança das urnas eletrônicas e rebateu as críticas aos resultados das eleições de 2026.</p><p>Ele classificou os ataques ao sistema eleitoral como acusações &quot;levianas&quot; e fruto de &quot;intenções espúrias&quot;, além de afirmar que a sociedade brasileira sabe separar &quot;as bravatas do discurso sério e responsável&quot;.</p><p>A manifestação ocorre após entrevistas concedidas pelo senador Flávio Bolsonaro ao The New York Times nesta semana.</p><h2>Detalhes e consequências do caso</h2><p>Candidato derrotado na disputa pela Presidência, Flávio Bolsonaro afirmou, sem apresentar provas, ser &quot;matematicamente impossível&quot; a vitória do presidente Lula.</p><p>Em resposta, Gilmar Mendes lembrou que o sistema eleitoral brasileiro garante eleições limpas há 30 anos e citou o relatório da missão de observação da Organização dos Estados Americanos (OEA), que, com 179 observadores, atestou a integridade dos dados oficiais do Tribunal Superior Eleitoral (TSE).</p><p>O ministro também destacou que o processo eleitoral foi elogiado pelo Carter Center e reforçou que as urnas eletrônicas passam por três auditorias rigorosas em todos os estados, com testes de autenticidade e integridade, conferência de votos em cédulas de papel e checagem biométrica.</p><p>Segundo ele, todo o processo também foi acompanhado pelo Tribunal de Contas da União (TCU) e transmitido ao vivo pelo YouTube.</p><p>Gilmar Mendes ainda apontou uma contradição nas críticas ao sistema eleitoral ao lembrar que o PL, partido de Flávio Bolsonaro, teve ampla participação nas auditorias e, com as mesmas urnas, elegeu as maiores bancadas da Câmara dos Deputados e do Senado, além de seis governadores.</p><p>Por fim, o ministro afirmou que a Justiça Eleitoral construiu uma reputação de excelência reconhecida por organismos internacionais e que ela não será, nas palavras dele, &quot;tisnada por aleivosias como essas&quot;.</p>",
+        "fonteNome": "CBN - Política",
+        "fonteUrl": "https://cbn.globo.com/politica/noticia/2026/11/08/gilmar-mendes-defende-urnas-eletronicas-e-rebate-ataques-ao-resultado-das-eleicoes.ghtml",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -407,27 +203,27 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Administração paraguaia da hidrelétrica inicia medidas legais junto ao Ministério Público para recuperar valores"
+            "resposta": "Gilmar Mendes defende urnas eletrônicas e rebate ataques ao resultado das eleições"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A Ande (Administración Nacional de Electricidad), estatal que representa o lado paraguaio na gestão da Usina Hidrelétrica de Itaipu, informou na noite de sábado (7.nov.2026) ter iniciado os procedimentos legais para recuperar valores mantidos no Ueno Bank."
+            "resposta": "O ministro do STF Gilmar Mendes saiu em defesa da segurança das urnas eletrônicas e rebateu as críticas aos resultados das eleições de 2026."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A empresa afirma ter US$ 163,8 milhões e 115,2 bilhões de guaranis paraguaios no banco digital, o equivalente a R$ 1 bilhão. Ainda assim, disse que a crise financeira envolvendo a instituição não impacta suas atividades."
+            "resposta": "Candidato derrotado na disputa pela Presidência, Flávio Bolsonaro afirmou, sem apresentar provas, ser &quot;matematicamente impossível&quot; a vitória do presidente Lula."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Em comunicado divulgado no X, a Ande afirmou ter apresentado ao Ministério Público paraguaio uma queixa-crime contra executivos e funcionários do Ueno e “quaisquer outros indivíduos que possam ser considerados responsáveis” pelo colapso do banco, que levou a uma crise financeira e política no país ."
+            "resposta": "O ministro também destacou que o processo eleitoral foi elogiado pelo Carter Center e reforçou que as urnas eletrônicas passam por três auditorias rigorosas em todos os estados, com testes de autenticidade e integridade, conferência de votos em cédulas de papel e checagem biométrica."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "“A ANDE solicitou ao Ministério Público a adoção das medidas cautelares para resguardar os recursos institucionais comprometidos e procurar sua recuperação, colocando-se à disposição para apresentar todos os antecedentes, documentos e informações institucionais necessários para o desenvolvimento da investigação” , disse a estatal."
+            "resposta": "Gilmar Mendes ainda apontou uma contradição nas críticas ao sistema eleitoral ao lembrar que o PL, partido de Flávio Bolsonaro, teve ampla participação nas auditorias e, com as mesmas urnas, elegeu as maiores bancadas da Câmara dos Deputados e do Senado, além de seis governadores."
           }
         ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/itaipu-paraguai-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lado-paraguaio-de-itaipu-diz-ter-r-1-bi-no-ueno-bank-e-aciona-mp.jpg",
+        "imagemOriginal": "https://s2-cbn.glbimg.com/bUoCx74hEyLS1vofOPXw66vDBxE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/m/I/SPfNr7SPeZwdnDJyrEMg/55591996155-5f5010a6a7-k.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/gilmar-mendes-defende-urnas-eletronicas-e-rebate-ataques-ao-resultado-das-eleicoes.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -565,121 +361,241 @@
       "descobertaEm": "2026-11-08T11:18:57.026Z"
     },
     {
-      "id": "3e858a4668550b79",
-      "titulo": "Planalto espera casa cheia na posse de Lula, mas sem Milei",
-      "categoria": "Política Nacional",
+      "id": "0ce7dc3f3e8cec63",
+      "titulo": "Entraves políticos da “economia arrumada” (por Mary Zadan)",
+      "categoria": "Economia",
       "radar": null,
       "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/igor-gadelha/planalto-espera-casa-cheia-na-posse-de-lula-mas-sem-milei",
-      "dataFonte": "2026-11-08T08:00:09.000Z",
-      "resumoFonte": "Previsão de auxiliares de Lula no Planalto leva em conta histórico de posses e telefonemas recebidos pelo petista após a vitória nas urnas",
-      "imagem": "https://i.metroimg.com/ohU9HhZknLiIi8PUES-BgS3utvT9PbuoGW8AK8D4IB4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/lula-posse-2022-2.jpg",
-      "descobertaEm": "2026-11-08T08:18:29.768Z",
+      "urlFonte": "https://www.metropoles.com/blog-do-noblat/artigos/entraves-politicos-da-economia-arrumada-por-mary-zadan",
+      "dataFonte": "2026-11-08T12:00:34.000Z",
+      "resumoFonte": "Lula quer ajuste sem corte em programas sociais e sem se render ao mercado que lucrou no seu governo e rejeitou sua reeleição",
+      "imagem": "https://i.metroimg.com/ILTrmwB9UZ9xe3_-tqzWY_FL9ZCwaGcpzSodPvtKDPM/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/d5.jpg",
+      "descobertaEm": "2026-11-08T12:18:26.717Z",
       "reportagem": {
-        "titulo": "Planalto espera casa cheia na posse de Lula, mas sem Milei",
-        "slug": "planalto-espera-casa-cheia-na-posse-de-lula-mas-sem-milei",
-        "categoria": "Política Nacional",
+        "titulo": "Entraves políticos da “economia arrumada” (por Mary Zadan)",
+        "slug": "entraves-politicos-da-economia-arrumada-por-mary-zadan",
+        "categoria": "Economia",
         "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/planalto-espera-casa-cheia-na-posse-de-lula-mas-sem-milei.jpg",
-        "resumo": "Previsão de auxiliares de Lula no Planalto leva em conta histórico de posses e telefonemas recebidos pelo petista após a vitória nas urnas",
-        "conteudo": "<p>Os convites para a posse do quarto mandato do presidente Lula ainda não foram enviados, mas o Palácio do Planalto trabalha com a expectativa de uma grande presença de líderes estrangeiros na cerimônia, marcada para 5 de janeiro.</p><h2>O contexto do cenário político</h2><p>A previsão de auxiliares presidenciais ouvidos pela coluna leva em consideração o histórico de posses anteriores e a quantidade de telefonemas e mensagens recebidos por Lula após a vitória nas eleições presidenciais de 2026.</p><p>Presidente Luiz Inácio Lula da Silva (PT) busca reeleição</p><p>Presidente da República Luiz Inácio Lula da Silva, no Senado Federal Foto: Carolina Curi/Agência Senado</p><h2>Informações e repercussões do episódio</h2><p>Logo após a reeleição, em 25 de outubro, o presidente brasileiro passou pelo menos dois dias atendendo a ligações de outros chefes de Estado e de governo interessados em parabenizá-lo pela v itória nas urnas .</p><p>A lista inclui líderes de diferentes espectros políticos. Entre eles, estavam inclusive presidentes da direita, como José Antonio Kast, do Chile; Rodrigo Paz, da Bolívia; e Nayib Bukele, de El Salvador.</p><p>Lula também recebeu cumprimentos dos presidentes do México, Claudia Sheinbaum; do Uruguai, Yamandú Orsi; e Conselho Europeu, António Costa. Os três têm um perfil político mais à esquerda.</p><p>A expectativa de assessores do Planalto é de que os presidentes dos países vizinhos ao Brasil na América do Sul compareçam à posse em janeiro, com uma exceção: o presidente da Argentina, Javier Milei.</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/entraves-politicos-da-economia-arrumada-por-mary-zadan.jpg",
+        "resumo": "Lula quer ajuste sem corte em programas sociais e sem se render ao mercado que lucrou no seu governo e rejeitou sua reeleição",
+        "conteudo": "<p>Você quer ficar por dentro das notícias mais importantes e receber notificações em tempo real?</p><h2>Dados e contexto do setor</h2><p>Ajuste fiscal gradual sem comprometer políticas sociais e as promessas de campanha.</p><p>O discurso do ministro da Fazenda Dario Durigan, cada vez mais cotado para permanecer no cargo, indica o que o presidente Lula pretende entregar ao país.</p><p>Esse deve ser o tom do pronunciamento em cadeia de rádio e televisão previsto para a noite deste domingo.</p><h2>Impactos e informações adicionais</h2><p>Ao que parece, bastará para “acalmar” o mercado, que já mudou de direção na última sexta-feira, depois de o presidente dizer que “é preciso ter responsabilidade fiscal” e “economia arrumada” para atrair investimentos.</p><p>Um desafio econômico, mas essencialmente político.</p><p>Os ventos que agitam a biruta do mercado são movidos por crenças, muitas delas sem pé nem cabeça.</p><p>Não raro, o humor do mercado parece trair a si próprio. Depois de colher recordes históricos no governo Lula – Ibovespa com ganho real de 33,95% em 2025 e de mais de 15% nos primeiros 9 meses deste ano -, a reeleição veio como um tsunami, com quedas abruptas superiores a 17% em um único dia.</p><p>Teria sido diferente se o fujão Flávio Bolsonaro vencesse? O que fazia o mercado crer que um filho de Bolsonaro seria melhor do que o pai, que nada entregou além de promessas não cumpridas pelo Posto Ipiranga Paulo Guedes?</p><p>Cabe lembrar que em 2018 o mercado se encantou com a ladainha Guedes de arrecadar R$ 1 trilhão ou até mesmo R$ 2 trilhões com privatizações que não vieram, ou com a promessa de zerar o déficit público já no primeiro ano.</p><p>Nada feito: em 2019, portanto antes da pandemia, o déficit bateu em R$ 95,1 bilhões, maior do que a previsão de fechamento do ano do atual governo. Ainda assim, o mercado preferia o filho do outro, sabe-se lá por que.</p><p>Ninguém discorda que o governo Lula gasta demais. Faz parte da cartilha do PT, e particularmente de Lula, a birra com o mercado e com o controle das contas, regras tidas como liberais.</p><p>Elas impediriam a ampliação de programas sociais que, até por compromisso eleitoral, têm de acontecer custe o que custar, como se dinheiro brotasse em árvores. Mas o inverso é mais cruel.</p><p>No artigo em que cobra compromisso democrático da elite econômica nacional, publicado antes do primeiro turno na sua Piauí, João Moreira Salles destaca relato da jornalista Ana Clara Costa, que acompanhou um evento com “a nata do sistema”.</p><p>Ali, sob aplausos, prevaleceu a falsa ideia de que o governo “assina cheques para 112 milhões de pessoas”, como se o Bolsa Família custeasse metade dos brasileiros.</p><p>E desdenharam do fato de que eles representavam o mercado financeiro que, na prática, é beneficiário dos maiores subsídios concedidos pelo governo.</p><p>“Há 1 trilhão de subsídio para nós aqui nessa sala, o subsídio ao rentista”, lembrou o banqueiro André Esteves, anfitrião do encontro.</p><p>Subsídios são parte importante da equação e não há quem consiga reduzi-los. Basta lembrar da luta renhida para mexer na desoneração da folha de pagamentos.</p><p>Diante do forte lobby no Congresso dos 17 setores econômicos envolvidos, o fim do benefício fiscal teve de ser fatiado e ainda assim provocou desgaste gigantesco ao governo na época em que Fernando Haddad era titular da Fazenda.</p><p>Hoje, os subsídios ultrapassam a casa dos R$ 680 bilhões, quase 5,8% do PIB. A maioria deles, R$ 612,8 bilhões, incentivos ou isenções tributárias para diferentes segmentos da economia, além de investimentos financeiros isentos.</p><p>O governo Lula tem indicadores de peso para apresentar: superávits contínuos na balança comercial mesmo com o tarifaço de Donald Trump, taxa de desemprego recorde de 5,2%, crescimento real do salário mínimo e aumento significativo do rendimento real do trabalho, além da quase eliminação da miséria absoluta.</p><p>Mas não terá como fugir do equilíbrio das contas. Nada deverá ser anunciado agora.</p><p>No máximo, segundo Durigan, algumas novidades fiscais podem ser apresentadas depois de o presidente Lula retornar da Turquia, onde acontece a COP31.</p><p>Os maiores entraves são políticos: conciliar cortes com as expectativas do eleitorado e as promessas de campanha, boa parte delas vinculada a mais gastos.</p><p>Nessa cesta estão o afrouxamento tributário para pequenas e médias empresas, já em vigor, e o transporte gratuito nos fins de semana.</p><p>A ideia seria custear o novo benefício com recursos das emendas parlamentares, algo que paira no plano dos sonhos, vista a absoluta improbabilidade de deputados cederem um único centavo dos R$ 60 bilhões que usam para agradar suas bases e, não raro, encherem os bolsos.</p><p>Até pela opacidade, as emendas seriam uma ótima rubrica para o ajuste. Mas as chances de usá-las são perto de zero, especialmente frente ao Congresso que assume no ano que vem, com maioria oposicionista.</p><p>Lula, o Congresso e todos os agentes econômicos sabem que o equilíbrio fiscal depende de condições políticas propícias.</p><p>As críticas ao mercado, com o seu vai e vem vinculado a ganhos especulativos, até têm lastro, mas não diminuem a necessidade do ajuste das contas, essencial para ter uma “economia arrumada” como Lula disse querer.</p><p>Não existe mágica: goste-se ou não, cortes terão de vir.</p><p>Você quer ficar por dentro das notícias mais importantes e receber notificações em tempo real? Eu quero!</p>",
         "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/colunas/igor-gadelha/planalto-espera-casa-cheia-na-posse-de-lula-mas-sem-milei",
+        "fonteUrl": "https://www.metropoles.com/blog-do-noblat/artigos/entraves-politicos-da-economia-arrumada-por-mary-zadan",
         "fontesAdicionais": [
           {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
           },
           {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Os convites para a posse do quarto mandato do presidente Lula ainda não foram enviados, mas o Palácio do Planalto trabalha com a expectativa de uma grande presença de líderes estrangeiros na cerimônia, marcada para 5 de janeiro."
+            "resposta": "Você quer ficar por dentro das notícias mais importantes e receber notificações em tempo real?"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A previsão de auxiliares presidenciais ouvidos pela coluna leva em consideração o histórico de posses anteriores e a quantidade de telefonemas e mensagens recebidos por Lula após a vitória nas eleições presidenciais de 2026."
+            "resposta": "Ajuste fiscal gradual sem comprometer políticas sociais e as promessas de campanha. O discurso do ministro da Fazenda Dario Durigan, cada vez mais cotado para permanecer no cargo, indica o que o presidente Lula pretende entregar ao país. Esse deve ser o tom do pronunciamento em cadeia de rádio e televisão previsto para a noite deste domingo."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Presidente Luiz Inácio Lula da Silva (PT) busca reeleição"
+            "resposta": "Os ventos que agitam a biruta do mercado são movidos por crenças, muitas delas sem pé nem cabeça."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Presidente da República Luiz Inácio Lula da Silva, no Senado Federal Foto: Carolina Curi/Agência Senado"
+            "resposta": "Não raro, o humor do mercado parece trair a si próprio. Depois de colher recordes históricos no governo Lula – Ibovespa com ganho real de 33,95% em 2025 e de mais de 15% nos primeiros 9 meses deste ano -, a reeleição veio como um tsunami, com quedas abruptas superiores a 17% em um único dia."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Logo após a reeleição, em 25 de outubro, o presidente brasileiro passou pelo menos dois dias atendendo a ligações de outros chefes de Estado e de governo interessados em parabenizá-lo pela v itória nas urnas ."
+            "resposta": "Teria sido diferente se o fujão Flávio Bolsonaro vencesse? O que fazia o mercado crer que um filho de Bolsonaro seria melhor do que o pai, que nada entregou além de promessas não cumpridas pelo Posto Ipiranga Paulo Guedes?"
           }
         ],
-        "imagemOriginal": "https://i.metroimg.com/ohU9HhZknLiIi8PUES-BgS3utvT9PbuoGW8AK8D4IB4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/lula-posse-2022-2.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/planalto-espera-casa-cheia-na-posse-de-lula-mas-sem-milei.jpg",
+        "imagemOriginal": "https://i.metroimg.com/ILTrmwB9UZ9xe3_-tqzWY_FL9ZCwaGcpzSodPvtKDPM/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/d5.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/entraves-politicos-da-economia-arrumada-por-mary-zadan.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "93e834c5a484d83f",
-      "titulo": "Tereza mira ser “3ª via” no Senado e busca atrair apoio de ala da oposição",
-      "categoria": "Política Nacional",
+      "id": "0f454194b18a33fc",
+      "titulo": "Quaest: Fim da 6x1 e isenção da cesta básica lideram prioridades de eleitores para Lula 4",
+      "categoria": "Economia",
       "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/politica/tereza-mira-ser-3a-via-no-senado-e-busca-atrair-apoio-de-ala-da-oposicao/",
-      "dataFonte": "2026-11-08T06:50:57.000Z",
-      "resumoFonte": "Senadora do PP e ex-ministra de Bolsonaro se apresenta como alternativa a Alcolumbre e Marinho e aposta em votos do Centrão e da bancada feminina",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/05/Tereza-Cristina.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-08T07:18:29.207Z",
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/quaest-fim-da-6x1-e-isencao-da-cesta-basica-lideram-prioridades-de-eleitores-para-lula-4.shtml",
+      "dataFonte": "2026-11-08T12:00:00.000Z",
+      "resumoFonte": "O fim da escala de trabalho 6x1 e o imposto zero sobre a cesta básica são as promessas de campanha que os brasileiros consideram prioritárias no quarto mandato de Luiz Inácio Lula da Silva (PT), segundo pesquisa Quaest divulgada neste domingo (8). Leia mais (11/08/2026 - 09h00)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/06/17940157096aee81dd82686_1794015709_3x2_rt.jpg",
+      "descobertaEm": "2026-11-08T12:18:26.717Z",
       "reportagem": {
-        "titulo": "Tereza mira ser &quot;3ª via&quot; no Senado e busca atrair apoio de ala da oposição",
-        "slug": "tereza-mira-ser-quot-3-via-quot-no-senado-e-busca-atrair-apoio-de-ala-da-oposicao",
-        "categoria": "Política Nacional",
+        "titulo": "Quaest: Fim da 6x1 e isenção da cesta básica lideram prioridades de eleitores para Lula 4",
+        "slug": "quaest-fim-da-6x1-e-isencao-da-cesta-basica-lideram-prioridades-de-eleitores-para-lula-4",
+        "categoria": "Economia",
         "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/tereza-mira-ser-quot-3-via-quot-no-senado-e-busca-atrair-apoio-de-ala-da-oposicao.jpg",
-        "resumo": "Senadora do PP e ex-ministra de Bolsonaro se apresenta como alternativa a Alcolumbre e Marinho e aposta em votos do Centrão e da bancada feminina",
-        "conteudo": "<p>A senadora Tereza Cristina (PP-MS) tem intensificado as articulações para a eleição à presidência do Senado em 2027 .</p><h2>O contexto do cenário político</h2><p>Ex-ministra da Agricultura de Jair Bolsonaro (PL), ela procura apoio entre senadores de oposição e do centrão, e tem se reunido com integrantes da bancada feminina.</p><p>Sua prioridade, afirma, é se tornar a primeira mulher a presidir a Casa .</p><p>O movimento ocorre em meio a uma disputa de bastidores com o atual presidente, Davi Alcolumbre (União-AP), que busca a reeleição ao cargo.</p><h2>Informações e repercussões do episódio</h2><p>Na próxima terça-feira (10), ele recebe as senadoras em exercício e as recém-eleitas em um café da manhã na residência oficial do Senado.</p><p>O encontro foi organizado pela líder da bancada feminina, Professora Dorinha (União-TO), e é visto como tentativa de atrair votos que Tereza também disputa.</p><p>Segundo aliados, a senadora busca se apresentar como uma espécie de “terceira via” entre Alcolumbre, apoiado por governistas, e Rogério Marinho (PL-RN), da oposição.</p><p>Seus defensores avaliam que Tereza tem maior trânsito entre os diferentes grupos do Senado, inclusive entre os governistas.</p><p>A aposta é que ela consiga conquistar apoio em partidos do centrão que resistem à candidatura de Marinho, mas também não desejam a recondução de Alcolumbre.</p><p>Tereza avalia que também herdaria parte dos votos de Marinho caso ele desistisse da disputa. No cenário inverso, porém, acredita que seus apoiadores se dividiriam entre o colega do PL (Partido Liberal) e Alcolumbre.</p><p>Marinho, que lançou oficialmente sua candidatura na quarta-feira (4), diz ter ao menos 40 votos. O PL elegeu a maior bancada da Casa, com 29 senadores, e, somado ao Novo, chega a 32. São necessários 41 votos para ser eleito.</p><p>Os dois senadores dizem que não pretendem disputar a eleição um contra o outro . Segundo interlocutores, as candidaturas serão mantidas por ora e o cenário será reavaliado a partir da segunda quinzena de janeiro.</p><p>Pelo acordo relatado, seguirá na disputa quem tiver mais chances de derrotar Alcolumbre. Marinho disse que, “no momento oportuno”, haverá uma convergência com a senadora do PP.</p><p>Nesta semana, a defesa de Bolsonaro pediu ao ministro do STF Alexandre de Moraes autorização para que Marinho e Tereza visitem o ex-presidente em casa. Os dois foram ministros do ex-chefe do Executivo. O magistrado ainda não deu um parcer sobre a solicitação.</p><p>Já Alcolumbre, que diz ter 48 votos, tenta atrair a ala do PL mais ligada ao centrão.</p><p>Nesta semana, oficializou o senador Eduardo Gomes (PL-TO) como relator da LDO de 2027 , depois de ter chegado a prometer o posto ao PP, com o nome de Tereza como possibilidade.</p><p>Segundo apurou a CNN , ele conta com ao menos três votos da bancada do PL que não migrariam para Marinho.</p><p>O atual presidente do Senado deve ter o apoio do PT e de outros partidos governistas. Na sexta-feira (6), o senador Randolfe Rodrigues (PT-AP) disse que a ideia é que as legendas que integram a base votem na linha do Palácio do Planalto, o que incluiria legendas como PSD e PSB.</p><p>O Senado é constituído por 81 senadores. A votação para a presidência é secreta, e o apoio público ou formal dos partidos não garante fidelidade. A eleição será em 1º de fevereiro de 2027.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/politica/tereza-mira-ser-3a-via-no-senado-e-busca-atrair-apoio-de-ala-da-oposicao/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/quaest-fim-da-6x1-e-isencao-da-cesta-basica-lideram-prioridades-de-eleitores-para-lula-4.jpg",
+        "resumo": "Entre quem está pessimista com o futuro do país, economia e dívida pública são a maior preocupação",
+        "conteudo": "<p>O fim da escala de trabalho 6x1 e o imposto zero sobre a cesta básica são as promessas de campanha que os brasileiros consideram prioritárias no quarto mandato de Luiz Inácio Lula da Silva (PT), segundo pesquisa Quaest divulgada neste domingo (8).</p><h2>Dados e contexto do setor</h2><p>Diante de uma lista com 15 compromissos assumidos pelo petista na eleição , 17% dos entrevistados escolheram a redução da jornada como mais importante, e 16%, a desoneração dos alimentos básicos.</p><p>Como a margem de erro é de dois pontos percentuais, as duas estão empatadas tecnicamente.</p><p>Em seguida aparecem a valorização do salário mínimo (11%), o Pacto Contra o Feminicídio (10%) e a ampliação do Farmácia Popular, com teleconsultas e exames gratuitos (8%). Nenhuma das outras promessas passa de 7%.</p><h2>Impactos e informações adicionais</h2><p>Uma das duas mais citadas já tem data para entrar em vigor: com a reforma tributária, a cesta básica passa a ter imposto zero a partir de 1º de janeiro de 2027.</p><p>A outra avançou às vésperas do segundo turno. Em 14 de outubro, o Senado aprovou a PEC (proposta de emenda à Constituição) que reduz a jornada semanal de 44 para 40 horas , com duas folgas obrigatórias, sem corte de salário e com regra de transição.</p><p>Flávio Bolsonaro (PL-RJ), adversário de Lula na disputa, criticava a proposta, mas mudou de posição e votou a favor .</p><p>A Quaest também quis saber o que mais preocupa os eleitores em relação ao novo governo. A pergunta foi feita só a quem se declarou mais preocupado do que otimista com o futuro do país, grupo que soma 48% da amostra.</p><p>Nessa parcela, 27% apontam a economia, os gastos e a dívida pública e os juros. Segurança pública e violência vêm em seguida, com 17%. Corrupção e governabilidade, incluída a relação com o Congresso, empatam com 12% cada.</p><p>A preocupação com a economia é maior entre os que se dizem de direita, mas não bolsonaristas. Desse grupo, 44% citam o tema.</p><p>A discussão sobre contas públicas dominou o início da transição para o Lula 4. Segundo o Banco Central, a dívida bruta chegou a 82,9% do PIB em setembro , e o Tesouro projeta 83,7% no fim do ano, alta de 5,1 pontos percentuais em relação a 2025.</p><p>Desde o resultado da eleição, o dólar subiu e a Bolsa caiu .</p><p>Na quarta-feira (4), o BC manteve a Selic em 13,75% ao ano e interrompeu uma sequência de cinco cortes . Já o ministro da Fazenda, Dario Durigan, disse que as medidas de ajuste só serão apresentadas na segunda quinzena de novembro, quando Lula voltar da agenda internacional.</p><p>Na segurança pública, a principal aposta do governo é a PEC que amplia o papel da União na área. O Senado aprovou o texto na terça-feira (3) e ele segue para promulgação.</p><p>Lula havia condicionado a criação do Ministério da Segurança Pública , outra promessa de campanha, à aprovação da proposta. Na pesquisa, a nova pasta foi apontada como prioridade por 2% dos eleitores.</p><p>O petista começa o novo mandato com 48% de aprovação e 44% de desaprovação, um saldo positivo de quatro pontos. Na comparação da própria Quaest com levantamentos do Datafolha feitos logo após cada reeleição, é o menor saldo entre os presidentes reeleitos.</p><p>Em dezembro de 2006, depois da primeira reeleição, Lula tinha saldo de 38 pontos. Dilma Rousseff (PT) tinha 18 pontos em dezembro de 2014, e Fernando Henrique Cardoso (PSDB), 10 pontos em dezembro de 1998.</p><p>Até 2014 a pergunta medida era de avaliação, de ótimo a péssimo, e o instituto converteu os resultados em aprovação.</p><p>Os entrevistados também esperam mais atrito com o Legislativo. Para 70%, o novo mandato terá mais conflito com o Congresso do que o último ano do governo atual, e 18% esperam menos.</p><p>Em dezembro de 2022, antes do início do terceiro mandato, eram 48% os que previam mais conflito. Naquela ocasião, porém, a pergunta comparava o novo governo ao de Jair Bolsonaro (PL).</p><p>A partir de 2027, Lula vai lidar com um Congresso mais à direita do que nos mandatos anteriores. PL e Novo somarão 131 dos 513 deputados (25%) e 32 dos 81 senadores (39%).</p><p>Segundo o GPS Ideológico da Folha, 59% dos deputados eleitos são de partidos de direita , fatia que no Senado chega a 64%.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/11/quaest-fim-da-6x1-e-isencao-da-cesta-basica-lideram-prioridades-de-eleitores-para-lula-4.shtml",
         "fontesAdicionais": [
           {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
           },
           {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "A senadora Tereza Cristina (PP-MS) tem intensificado as articulações para a eleição à presidência do Senado em 2027 . Ex-ministra da Agricultura de Jair Bolsonaro (PL), ela procura apoio entre senadores de oposição e do centrão, e tem se reunido com integrantes da bancada feminina. Sua prioridade, afirma, é se tornar a primeira mulher a presidir a Casa ."
+            "resposta": "O fim da escala de trabalho 6x1 e o imposto zero sobre a cesta básica são as promessas de campanha que os brasileiros consideram prioritárias no quarto mandato de Luiz Inácio Lula da Silva (PT), segundo pesquisa Quaest divulgada neste domingo (8)."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O movimento ocorre em meio a uma disputa de bastidores com o atual presidente, Davi Alcolumbre (União-AP), que busca a reeleição ao cargo."
+            "resposta": "Diante de uma lista com 15 compromissos assumidos pelo petista na eleição , 17% dos entrevistados escolheram a redução da jornada como mais importante, e 16%, a desoneração dos alimentos básicos. Como a margem de erro é de dois pontos percentuais, as duas estão empatadas tecnicamente."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na próxima terça-feira (10), ele recebe as senadoras em exercício e as recém-eleitas em um café da manhã na residência oficial do Senado. O encontro foi organizado pela líder da bancada feminina, Professora Dorinha (União-TO), e é visto como tentativa de atrair votos que Tereza também disputa."
+            "resposta": "Em seguida aparecem a valorização do salário mínimo (11%), o Pacto Contra o Feminicídio (10%) e a ampliação do Farmácia Popular, com teleconsultas e exames gratuitos (8%). Nenhuma das outras promessas passa de 7%."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Segundo aliados, a senadora busca se apresentar como uma espécie de “terceira via” entre Alcolumbre, apoiado por governistas, e Rogério Marinho (PL-RN), da oposição."
+            "resposta": "Uma das duas mais citadas já tem data para entrar em vigor: com a reforma tributária, a cesta básica passa a ter imposto zero a partir de 1º de janeiro de 2027."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Seus defensores avaliam que Tereza tem maior trânsito entre os diferentes grupos do Senado, inclusive entre os governistas. A aposta é que ela consiga conquistar apoio em partidos do centrão que resistem à candidatura de Marinho, mas também não desejam a recondução de Alcolumbre."
+            "resposta": "A outra avançou às vésperas do segundo turno. Em 14 de outubro, o Senado aprovou a PEC (proposta de emenda à Constituição) que reduz a jornada semanal de 44 para 40 horas , com duas folgas obrigatórias, sem corte de salário e com regra de transição."
           }
         ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/05/Tereza-Cristina.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/tereza-mira-ser-quot-3-via-quot-no-senado-e-busca-atrair-apoio-de-ala-da-oposicao.jpg",
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/06/17940157096aee81dd82686_1794015709_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/quaest-fim-da-6x1-e-isencao-da-cesta-basica-lideram-prioridades-de-eleitores-para-lula-4.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "e44219846ea3e5a7",
+      "titulo": "Eleitores citam expectativa de piora na economia após reeleição de Lula, diz Quaest",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://www1.folha.uol.com.br/mercado/2026/11/eleitores-citam-expectativa-de-piora-na-economia-apos-reeleicao-de-lula-diz-quaest.shtml",
+      "dataFonte": "2026-11-08T12:00:00.000Z",
+      "resumoFonte": "A expectativa dos brasileiros sobre a situação econômica piorou após a reeleição do presidente Lula (PT), aponta pesquisa Quaest encomendada pelo jornal O Globo e divulgada neste domingo (8).",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/06/17939963066aee3612ed4af_1793996306_3x2_rt.jpg",
+      "descobertaEm": "2026-11-08T12:18:26.717Z",
+      "reportagem": {
+        "titulo": "Eleitores citam expectativa de piora na economia após reeleição de Lula, diz Quaest",
+        "slug": "eleitores-citam-expectativa-de-piora-na-economia-apos-reeleicao-de-lula-diz-quaest",
+        "categoria": "Economia",
+        "data": "2026-11-08",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/eleitores-citam-expectativa-de-piora-na-economia-apos-reeleicao-de-lula-diz-quaest.jpg",
+        "resumo": "Pesquisa registra igualdade entre otimistas e pessimistas; preocupação com futuro cresce",
+        "conteudo": "<p>A expectativa dos brasileiros sobre a situação econômica piorou após a reeleição do presidente Lula ( PT ), aponta pesquisa Quaest encomendada pelo jornal O Globo e divulgada neste domingo (8).</p><h2>Os números do levantamento</h2><p>Segundo o levantamento, 39% dos eleitores acham que a economia do país vai melhorar nos próximos 12 meses, e a mesma fatia acredita que vai piorar. Outros 19% esperam que fique como está.</p><p>Este é o primeiro empate entre otimistas e pessimistas na série do instituto ao longo do terceiro mandato do petista. Em agosto, período anterior à eleição, 46% esperavam melhora e 24%, piora —há um ano, os percentuais eram de 42% e 35%.</p><p>A Quaest realizou 2.004 entrevistas presenciais com eleitores de 16 anos ou mais, de 30 de outubro a 2 de novembro. A margem de erro do levantamento é de dois pontos percentuais para mais ou para menos.</p><h2>Impactos e informações adicionais</h2><p>A expectativa piorou em relação a 2022, já que em dezembro daquele ano, quando Lula acabara de derrotar Jair Bolsonaro ( PL ), 47% dos entrevistados esperavam melhora e 29%, piora.</p><p>O pessimismo se concentra na faixa dos mais ricos, mais escolarizados e moradores da região Sul do país. Entre os eleitores com renda familiar acima de cinco salários mínimos, 49% esperam piora e 30%, melhora. Em agosto, a fatia dos pessimistas entre os mais ricos era de 30%.</p><p>No Sul, 58% acham que a economia vai piorar, ante 24% que esperam melhora. Entre quem tem ensino superior, a relação é de 46% a 31%, respectivamente.</p><p>Entre os mais pobres, o cenário é o oposto, com 48% dos respondentes que recebem até dois salários mínimos projetando melhora na economia e 29%, piora. No Nordeste, são 50% a 25%.</p><p>Entre os jovens de 16 a 34 anos, os pessimistas são maioria (41% a 34%); entre quem tem 60 anos ou mais, prevalece o otimismo (43% a 29%).</p><p>Como era de se esperar, o recorte político influencia a visão adotada por cada um dos entrevistados: entre os lulistas, 79% esperam melhora e 2%, piora. Entre os bolsonaristas, 84% preveem piora —eram 38% em agosto.</p><p>Na direita não bolsonarista, a fatia foi de 42% para 80%. Os independentes ficaram estáveis, com 35% esperando melhora e 30%, piora.</p><p>A economia também é o tema que mais preocupa quem vê o futuro com apreensão. Segundo a pesquisa, 48% dos eleitores se dizem mais preocupados do que otimistas com o futuro do país, e 44%, mais otimistas. Em dezembro de 2022, eram 54% e 41%.</p><p>Entre os preocupados, 27% apontam a economia, os gastos e a dívida pública e os juros como principal motivo, à frente de segurança pública (17%), corrupção (12%) e relação com o Congresso Nacional (12%). Na faixa de renda acima de cinco salários mínimos, o índice chega a 30%.</p><p>Receba no seu email o que de mais importante acontece na economia; aberta para não assinantes.</p><p>Já entre os otimistas, a economia tem peso pequeno, com somente 6% apontando economia, crescimento e infraestrutura como o que mais traz esperança no novo governo.</p><p>Lideram a defesa da democracia e o combate ao bolsonarismo (20%), os programas sociais (17%) e a regulação de bets e redes sociais (16%).</p><p>Apesar da apreensão, as promessas de campanha mais cobradas são econômicas e trabalhistas. O fim da escala 6x1 —jornada de seis dias de trabalho para um de descanso— é apontado como prioridade por 17%.</p><p>Em seguida vêm a isenção de impostos na cesta básica (16%) e a valorização do salário mínimo (11%).</p><p>A expansão do Minha Casa, Minha Vida e a proteção a trabalhadores de aplicativo têm 4% cada. A ordem das três primeiras praticamente não muda entre as faixas de renda: acima de cinco salários mínimos, a escala 6x1 e a cesta básica empatam, com 17% cada.</p>",
+        "fonteNome": "UOL Notícias",
+        "fonteUrl": "https://www1.folha.uol.com.br/mercado/2026/11/eleitores-citam-expectativa-de-piora-na-economia-apos-reeleicao-de-lula-diz-quaest.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A expectativa dos brasileiros sobre a situação econômica piorou após a reeleição do presidente Lula ( PT ), aponta pesquisa Quaest encomendada pelo jornal O Globo e divulgada neste domingo (8)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Segundo o levantamento, 39% dos eleitores acham que a economia do país vai melhorar nos próximos 12 meses, e a mesma fatia acredita que vai piorar. Outros 19% esperam que fique como está."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Este é o primeiro empate entre otimistas e pessimistas na série do instituto ao longo do terceiro mandato do petista. Em agosto, período anterior à eleição, 46% esperavam melhora e 24%, piora —há um ano, os percentuais eram de 42% e 35%."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A Quaest realizou 2.004 entrevistas presenciais com eleitores de 16 anos ou mais, de 30 de outubro a 2 de novembro. A margem de erro do levantamento é de dois pontos percentuais para mais ou para menos."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A expectativa piorou em relação a 2022, já que em dezembro daquele ano, quando Lula acabara de derrotar Jair Bolsonaro ( PL ), 47% dos entrevistados esperavam melhora e 29%, piora."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/06/17939963066aee3612ed4af_1793996306_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/eleitores-citam-expectativa-de-piora-na-economia-apos-reeleicao-de-lula-diz-quaest.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "a92b4d59ae3788be",
+      "titulo": "Houve aparelhamento das agências reguladoras sob governo Lula, diz Azevedo, da Ibiuna",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/economia/houve-aparelhamento-nas-agencias-reguladoras-sob-governo-lula-diz-azevedo-da-ibiuna/",
+      "dataFonte": "2026-11-08T11:30:00.000Z",
+      "resumoFonte": "Isabela Rosa/Divulgação MBA Brasil \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/rodrigo-azevedo.jpeg?fit=1280%2C854&quality=70&strip=all\" />Durante participação na Conferência MBA Brasil 2026, Rodrigo Azevedo afirmou que investimentos são afetados pela insegurança jurídica The post Houve aparelhamento das agências…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/rodrigo-azevedo.jpeg?fit=1600%2C1068&quality=70&strip=all",
+      "descobertaEm": "2026-11-08T12:18:26.717Z",
+      "reportagem": {
+        "titulo": "Houve aparelhamento das agências reguladoras sob governo Lula, diz Azevedo, da Ibiuna",
+        "slug": "houve-aparelhamento-das-agencias-reguladoras-sob-governo-lula-diz-azevedo-da-ibiuna",
+        "categoria": "Economia",
+        "data": "2026-11-08",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/houve-aparelhamento-das-agencias-reguladoras-sob-governo-lula-diz-azevedo-da-ibiuna.jpg",
+        "resumo": "Durante participação na Conferência MBA Brasil 2026, Rodrigo Azevedo afirmou que investimentos são afetados pela insegurança jurídica",
+        "conteudo": "<p>CHICAGO (EUA) – Durante participação na Conferência MBA Brasil 2026, o sócio da Ibiuna Investimentos Rodrigo Azevedo afirmou que nos últimos anos o Brasil, que era tido forte institucionalmente pelo investidor de mercados emergentes, vem enfraquecendo essa imagem.</p><h2>Dados e contexto do setor</h2><p>“O Brasil era tido como lugar em que a regra da lei funciona. Mas agora, por exemplo, o setor de energia tem regras ineficientes e anacrônicas, feitas, ao que parece, para atender a interesses específicos, não os do País.</p><p>Mesmo a questão do Judiciário nós vemos isso. Isso dá insegurança grande do ponto de vista de investimento”, analisou.</p><p>Segundo ele, as agências reguladoras são um caso desses, especialmente sob o governo Lula 3. “Houve aparelhamento nas agências reguladoras nos últimos 5 anos.</p><h2>Impactos e informações adicionais</h2><p>Lula deixou de indicar 36 nomes nas agências, ficou para depois das eleições. Isso é fonte de grande preocupação”, completou.</p><p>“O ambiente institucional tem de funcionar de maneira justa”, disse Azevedo. “O Brasil ainda consta como um lugar com instituições fortes, mas elas estão sendo testadas e enfraquecidas”, defendeu.</p><p>Rodrigo Azevedo participou da Conferência MBA Brasil 2026, que chega à quinta edição neste ano.</p><p>Desta vez, nos dias 6 e 7 de novembro, reuniu em Chicago, nos Estados Unidos, executivos de algumas das maiores empresas do Brasil e do mundo para discutir os rumos e as perspectivas de negócios dos principais setores da economia e do empreendedorismo brasileiros.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/economia/houve-aparelhamento-nas-agencias-reguladoras-sob-governo-lula-diz-azevedo-da-ibiuna/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "CHICAGO (EUA) – Durante participação na Conferência MBA Brasil 2026, o sócio da Ibiuna Investimentos Rodrigo Azevedo afirmou que nos últimos anos o Brasil, que era tido forte institucionalmente pelo investidor de mercados emergentes, vem enfraquecendo essa imagem."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "“O Brasil era tido como lugar em que a regra da lei funciona. Mas agora, por exemplo, o setor de energia tem regras ineficientes e anacrônicas, feitas, ao que parece, para atender a interesses específicos, não os do País. Mesmo a questão do Judiciário nós vemos isso. Isso dá insegurança grande do ponto de vista de investimento”, analisou."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Segundo ele, as agências reguladoras são um caso desses, especialmente sob o governo Lula 3. “Houve aparelhamento nas agências reguladoras nos últimos 5 anos. Lula deixou de indicar 36 nomes nas agências, ficou para depois das eleições. Isso é fonte de grande preocupação”, completou."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "“O ambiente institucional tem de funcionar de maneira justa”, disse Azevedo. “O Brasil ainda consta como um lugar com instituições fortes, mas elas estão sendo testadas e enfraquecidas”, defendeu."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Rodrigo Azevedo participou da Conferência MBA Brasil 2026, que chega à quinta edição neste ano. Desta vez, nos dias 6 e 7 de novembro, reuniu em Chicago, nos Estados Unidos, executivos de algumas das maiores empresas do Brasil e do mundo para discutir os rumos e as perspectivas de negócios dos principais setores da economia e do empreendedorismo brasileiros."
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/rodrigo-azevedo.jpeg?fit=1600%2C1068&quality=70&strip=all",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/houve-aparelhamento-das-agencias-reguladoras-sob-governo-lula-diz-azevedo-da-ibiuna.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -743,150 +659,6 @@
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
-    },
-    {
-      "id": "0ee048199caa1cbe",
-      "titulo": "Brasil pode perder seu maior comprador de soja? Entenda os planos da China e a disputa com os EUA | G1",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "g1 - Capa",
-      "urlFonte": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/08/brasil-pode-perder-seu-maior-comprador-de-soja-entenda-os-planos-da-china-e-a-disputa-com-os-eua.ghtml",
-      "dataFonte": "2026-11-08T08:00:01.008Z",
-      "resumoFonte": "China busca reduzir a dependência de importações e retomou compras dos EUA. Estudo projeta queda de até 25% nas importações chinesas de soja até 2030, o que pode afetar preços, exportações e renda no campo brasileiro.",
-      "imagem": "https://s2-g1.glbimg.com/MrCed3xGGlygDHTo_XOO7FNAHF0=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/m/hjRqvUSDi3CSQ74AYbpg/canva-82-.png",
-      "descobertaEm": "2026-11-08T08:20:57.764Z",
-      "reportagem": {
-        "titulo": "Brasil pode perder seu maior comprador de soja? Entenda os planos da China e a disputa com os EUA",
-        "slug": "brasil-pode-perder-seu-maior-comprador-de-soja-entenda-os-planos-da-china-e-a-disputa-com-",
-        "categoria": "Economia",
-        "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/brasil-pode-perder-seu-maior-comprador-de-soja-entenda-os-planos-da-china-e-a-disputa-com-.jpg",
-        "resumo": "China busca reduzir a dependência de importações e retomou compras dos EUA. Estudo projeta queda de até 25% nas importações chinesas de soja até 2030, o que pode afetar preços, exportações e renda no campo brasileiro.",
-        "conteudo": "<p>Transportadora subcontratou motorista para entregar carga de soja, porém veículo foi furtado — Foto: Divulgação</p><h2>Dados e contexto do setor</h2><p>Quando se trata de soja, Brasil e China têm uma relação de interdependência: o Brasil é o maior fornecedor do grão para o país asiático, enquanto a China é a principal compradora da soja brasileira.</p><p>Mas essa relação pode estar ameaçada por três motivos, segundo especialistas ouvidos pelo g1 :</p><h2>Impactos e informações adicionais</h2><p>Após anos de guerra comercial com os Estados Unidos, a China voltou a comprar soja norte-americana, o que pode reduzir o espaço do produto brasileiro no mercado chinês; O país asiático quer depender menos das importações de soja , ampliando a produção interna e reduzindo o consumo do grão; A população chinesa deve diminuir nos próximos anos , o que pode reduzir a demanda por alimentos ricos em proteínas e, consequentemente, por soja.</p><p>Uma contração da demanda chinesa traz o risco de quedas simultâneas nos preços e nas receitas de exportação.</p><p>De acordo com relatório da consultoria Systemiq, isso pode gerar efeitos em cascata sobre a renda dos produtores rurais, a valorização das terras, o emprego no campo e a infraestrutura de processamento.</p><p>Por isso, os especialistas recomendam que o setor se prepare para uma possível redução das exportações, evitando ampliar a área plantada de soja ou investindo no processamento do grão para agregar valor à produção.</p>",
-        "fonteNome": "g1 - Capa",
-        "fonteUrl": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/08/brasil-pode-perder-seu-maior-comprador-de-soja-entenda-os-planos-da-china-e-a-disputa-com-os-eua.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Transportadora subcontratou motorista para entregar carga de soja, porém veículo foi furtado — Foto: Divulgação"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Quando se trata de soja, Brasil e China têm uma relação de interdependência: o Brasil é o maior fornecedor do grão para o país asiático, enquanto a China é a principal compradora da soja brasileira."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Mas essa relação pode estar ameaçada por três motivos, segundo especialistas ouvidos pelo g1 :"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Após anos de guerra comercial com os Estados Unidos, a China voltou a comprar soja norte-americana, o que pode reduzir o espaço do produto brasileiro no mercado chinês; O país asiático quer depender menos das importações de soja , ampliando a produção interna e reduzindo o consumo do grão; A população chinesa deve diminuir nos próximos anos , o que pode reduzir a demanda por alimentos ricos em proteínas e, consequentemente, por soja."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Uma contração da demanda chinesa traz o risco de quedas simultâneas nos preços e nas receitas de exportação. De acordo com relatório da consultoria Systemiq, isso pode gerar efeitos em cascata sobre a renda dos produtores rurais, a valorização das terras, o emprego no campo e a infraestrutura de processamento."
-          }
-        ],
-        "imagemOriginal": "https://s2-g1.glbimg.com/MrCed3xGGlygDHTo_XOO7FNAHF0=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/m/hjRqvUSDi3CSQ74AYbpg/canva-82-.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/brasil-pode-perder-seu-maior-comprador-de-soja-entenda-os-planos-da-china-e-a-disputa-com-.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "9698ead891277b24",
-      "titulo": "'Meu medo é o governo Lula buscar atalhos e brigar com o mercado': por que professor em Cambridge defende ajuste fiscal 'suave'",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/economia/noticia/2026/11/08/meu-medo-e-o-governo-lula-buscar-atalhos-e-brigar-com-o-mercado-por-que-professor-em-cambridge-defende-ajuste-fiscal-suave.ghtml",
-      "dataFonte": "2026-11-08T08:00:00.000Z",
-      "resumoFonte": "Por que professor de Cambridge defende ajuste fiscal 'suave' REUTERS via BBC Não há \"atalhos\" para equilibrar as contas públicas e cortar os juros no Brasil, defende o economista Tiago Cavalcanti, brasileiro professor titular da Universidade de Cambridge, no Reino Unido. Na sua visão, o presidente Luiz Inácio Lula da Silva (PT) precisa anunciar…",
-      "imagem": "https://s2-g1.glbimg.com/r6Nrr6FK0uH9XT7ZVJx__ND-noI=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/S/x/gjPBzlRAK1ddRBhNUpUQ/8de61660-d97a-11f1-9f96-47a2c3e0c5f6.jpg-1-.png",
-      "descobertaEm": "2026-11-08T08:18:29.768Z"
-    },
-    {
-      "id": "a91471a6d2fbdce3",
-      "titulo": "Ajuste fiscal gradual de Lula perde força desde 2024, e gasto cresce 5% acima da inflação",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "O Globo - Capa",
-      "urlFonte": "https://oglobo.globo.com/economia/fabio-graner/post/2026/11/ajuste-fiscal-gradual-de-lula-perde-forca-desde-2024-e-gasto-cresce-5percent-acima-da-inflacao.ghtml",
-      "dataFonte": "2026-11-08T07:00:00.528Z",
-      "resumoFonte": "Desempenho ao longo do terceiro mandato evidencia dificuldades do presidente para equilibrar as contas públicas",
-      "imagem": "https://s2-oglobo.glbimg.com/xLBHpHtX3Tp1ltCMt-rY2GO1yMs=/3969x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/K/L/GLyWGoQTKEAKb9loRWPg/bre-0244.jpg",
-      "descobertaEm": "2026-11-08T09:20:16.169Z",
-      "reportagem": {
-        "titulo": "Ajuste fiscal gradual de Lula perde força desde 2024, e gasto cresce 5% acima da inflação",
-        "slug": "ajuste-fiscal-gradual-de-lula-perde-forca-desde-2024-e-gasto-cresce-5-acima-da-inflacao",
-        "categoria": "Economia",
-        "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/ajuste-fiscal-gradual-de-lula-perde-forca-desde-2024-e-gasto-cresce-5-acima-da-inflacao.jpg",
-        "resumo": "Desempenho ao longo do terceiro mandato evidencia dificuldades do presidente para equilibrar as contas públicas",
-        "conteudo": "<p>Pressionado pelo mercado financeiro para promover um maior aperto nas contas públicas , o presidente Luiz Inácio Lula da Silva e seus principais auxiliares têm ressaltado em discursos que o governo fez um ajuste fiscal relevante no atual mandato, próximo a dois pontos percentuais do Produto Interno Bruto (PIB).</p><h2>Dados e contexto do setor</h2><p>A retórica, porém, esconde detalhes importantes, que ajudam a entender a razão pela qual Lula tem dificuldades de convencer investidores sobre seu comprometimento com a melhora efetiva da gestão fiscal no quarto mandato.</p><p>Freio na economia: Bancos cortam previsão de crescimento do PIB em 2027, com mais juros e inflação José Júlio Senna: ‘Fazenda precisa de alguém capaz de dar um choque de expectativas’, diz economista</p><p>O primeiro elemento do qual o discurso oficial tem passado ao largo é o fato de a melhora substancial no resultado primário ter ocorrido somente de 2023 para 2024 e, desde então, o desempenho fiscal ficou relativamente estagnado.</p><h2>Impactos e informações adicionais</h2><p>No início deste terceiro mandato, o déficit primário real (no qual corrigiu-se uma série de despesas não previstas ou represadas na gestão do antecessor, Jair Bolsonaro) foi de 2,4% do PIB para 0,4% do PIB em 2024, conforme dados do Banco Central.</p><p>Nos dois anos seguintes, porém, esse saldo negativo se manteve no mesmo patamar. As despesas superaram as receitas em montante equivalente a 0,5% de tudo o que o país produz, mesmo com um forte crescimento da arrecadação do governo.</p><p>Contas públicas: Lula diz que Brasil tem 'seriedade fiscal' e que pobre não vai pagar a conta do ajuste</p><p>Outro ponto é que isso ocorre em um ambiente no qual a despesa total continua crescendo a um ritmo de 5% acima da inflação ao ano, o dobro do limite do teto de gastos (que é aplicado à maior parte, mas não a todos os desembolsos do governo) previsto no arcabouço fiscal.</p><p>Ainda que não haja um sinal efetivo de moderação no lado da despesa, o desempenho nesse flanco reflete não só o período eleitoral, mas também gastos extraordinários provocados por fatores alheios ao governo.</p><p>Entre eles, a guerra do Oriente Médio fez escalar os preços do petróleo e levou o governo a pagar parte da conta para conter o impacto sobre os consumidores.</p><p>O Ministério da Fazenda diz, em nota, que houve “melhora substancial” no resultado primário e defende a estratégia adotada neste governo, que inclui aumento de receitas, controle do crescimento das despesas e revisão de gastos.</p><p>O presidente Lula e sua atual equipe econômica prometem para o próximo ciclo político um ajuste fiscal de quase dois pontos do PIB, saindo dos atuais 0,5% de déficit para um superávit efetivo de 1,3% do PIB em 2030 (número mais recente projetado pelo Tesouro Nacional e que já considera algumas deduções permitidas da meta fiscal).</p><p>Mercado: Dólar passa de R$ 5,50 com incertezas sobre IA no exterior e política econômica de Lula 4</p><p>Isso significará romper a relativa estagnação fiscal dos últimos dois anos, tanto moderando o ritmo das despesas como mantendo uma trajetória de melhora na arrecadação. No entanto, não está claro como o governo vai alcançar esse objetivo.</p><p>Além do menor espaço político para medidas de aumento de arrecadação de impostos, há o desafio de lidar com uma perda cada vez mais clara de dinamismo da economia, embora, de outro lado, a alta da inflação e do petróleo ajude a melhorar o quadro de receitas.</p><p>Outro complicador são os compromissos contratados para os próximos anos na temporada eleitoral, como o reajuste do Bolsa Família e o novo Desenrola Brasil (de renegociação de dívidas) — que, a despeito da promessa de ficarem dentro do limite de despesas, vão exigir cortes em outros gastos livres do governo.</p><p>De ministros a ex-auxiliares: quem Lula chamou para discutir os rumos da economia no governo</p><p>Isso se soma à dificuldade política de enfrentar temas que possam ser impopulares, mas que poderiam ajudar as contas sem tantos cortes, como uma moderação do reajuste real do salário mínimo.</p>",
-        "fonteNome": "O Globo - Capa",
-        "fonteUrl": "https://oglobo.globo.com/economia/fabio-graner/post/2026/11/ajuste-fiscal-gradual-de-lula-perde-forca-desde-2024-e-gasto-cresce-5percent-acima-da-inflacao.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Pressionado pelo mercado financeiro para promover um maior aperto nas contas públicas , o presidente Luiz Inácio Lula da Silva e seus principais auxiliares têm ressaltado em discursos que o governo fez um ajuste fiscal relevante no atual mandato, próximo a dois pontos percentuais do Produto Interno Bruto (PIB)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Freio na economia: Bancos cortam previsão de crescimento do PIB em 2027, com mais juros e inflação José Júlio Senna: ‘Fazenda precisa de alguém capaz de dar um choque de expectativas’, diz economista"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O primeiro elemento do qual o discurso oficial tem passado ao largo é o fato de a melhora substancial no resultado primário ter ocorrido somente de 2023 para 2024 e, desde então, o desempenho fiscal ficou relativamente estagnado."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "No início deste terceiro mandato, o déficit primário real (no qual corrigiu-se uma série de despesas não previstas ou represadas na gestão do antecessor, Jair Bolsonaro) foi de 2,4% do PIB para 0,4% do PIB em 2024, conforme dados do Banco Central."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Nos dois anos seguintes, porém, esse saldo negativo se manteve no mesmo patamar. As despesas superaram as receitas em montante equivalente a 0,5% de tudo o que o país produz, mesmo com um forte crescimento da arrecadação do governo."
-          }
-        ],
-        "imagemOriginal": "https://s2-oglobo.glbimg.com/xLBHpHtX3Tp1ltCMt-rY2GO1yMs=/3969x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/K/L/GLyWGoQTKEAKb9loRWPg/bre-0244.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/ajuste-fiscal-gradual-de-lula-perde-forca-desde-2024-e-gasto-cresce-5-acima-da-inflacao.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "01000d9daf3903df",
-      "titulo": "Vasco x Palmeiras: horário e onde assistir à semifinal da Copa do Brasil",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/copa-do-brasil/vasco-x-palmeiras-horario-e-onde-assistir-a-semifinal-da-copa-do-brasil/",
-      "dataFonte": "2026-11-08T07:00:11.000Z",
-      "resumoFonte": "Equipes se enfrentam neste domingo (8), às 17h (de Brasília), pelo jogo de volta da semifinal da competição",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/sao-januario-estadio-vasco-e1776205400609.jpeg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-08T07:18:29.207Z"
     },
     {
       "id": "6545c999a9bfaae5",
@@ -961,19 +733,19 @@
       "descobertaEm": "2026-11-08T11:18:57.026Z"
     }
   ],
-  "reapuradoEm": "2026-11-08T11:49:24.416Z",
+  "reapuradoEm": "2026-11-08T12:48:47.341Z",
   "diagnosticoReapuracao": {
-    "produzidas": 15,
+    "produzidas": 11,
     "jaProntas": 0,
-    "incompletas": 4,
+    "incompletas": 5,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 15,
+    "geradas": 11,
     "reaproveitadas": 0,
-    "puladas": 4,
+    "puladas": 5,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-08T11:51:01.073Z"
+  "lapisEm": "2026-11-08T12:49:47.352Z"
 }
