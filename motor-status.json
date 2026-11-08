@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-08T17:18:26.730Z",
+  "atualizadoEm": "2026-11-08T18:18:29.453Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 95,
+  "novasPautas": 82,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -198,11 +198,9 @@
     },
     {
       "fonte": "Século Diário",
-      "ok": true,
-      "encontrados": 6,
-      "capa": true,
-      "rota": "https://www.seculodiario.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.seculodiario.com.br/ -> fetch failed",
+      "capa": true
     },
     {
       "fonte": "ES Hoje - Política",
@@ -290,14 +288,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 4,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 5,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -376,8 +374,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-08T17:21:44.114Z",
-    "novas": 1,
+    "atualizadoEm": "2026-11-08T18:21:23.404Z",
+    "novas": 2,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-08T17:21:45.660Z",
+    "atualizadoEm": "2026-11-08T18:21:25.057Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-08T17:21:46.612Z",
+    "atualizadoEm": "2026-11-08T18:21:25.965Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-08T17:21:57.159Z",
+    "atualizadoEm": "2026-11-08T18:21:36.513Z",
     "novas": 0,
     "fontes": [
       {
