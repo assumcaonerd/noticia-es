@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-09T09:18:34.134Z",
+  "atualizadoEm": "2026-11-09T10:18:33.894Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 100,
+  "novasPautas": 97,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -198,11 +198,9 @@
     },
     {
       "fonte": "Século Diário",
-      "ok": true,
-      "encontrados": 6,
-      "capa": true,
-      "rota": "https://www.seculodiario.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.seculodiario.com.br/ -> fetch failed",
+      "capa": true
     },
     {
       "fonte": "ES Hoje - Política",
@@ -297,7 +295,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 5,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -316,14 +314,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 1,
+      "encontrados": 3,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 10,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -351,7 +349,7 @@
     {
       "fonte": "BBC Brasil",
       "ok": true,
-      "encontrados": 13,
+      "encontrados": 14,
       "rota": "https://feeds.bbci.co.uk/portuguese/rss.xml",
       "fallback": false
     },
@@ -376,8 +374,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-09T09:21:12.324Z",
-    "novas": 5,
+    "atualizadoEm": "2026-11-09T10:20:29.053Z",
+    "novas": 4,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-09T09:21:14.079Z",
+    "atualizadoEm": "2026-11-09T10:20:30.457Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-09T09:21:14.938Z",
+    "atualizadoEm": "2026-11-09T10:20:31.459Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-09T09:21:25.494Z",
+    "atualizadoEm": "2026-11-09T10:20:42.034Z",
     "novas": 0,
     "fontes": [
       {
