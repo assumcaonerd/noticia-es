@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-08T23:18:35.121Z",
+  "atualizadoEm": "2026-11-09T00:18:50.005Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 78,
+  "novasPautas": 85,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -290,7 +290,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 6,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -309,21 +309,21 @@
     {
       "fonte": "g1 - Política",
       "ok": true,
-      "encontrados": 28,
+      "encontrados": 30,
       "rota": "https://g1.globo.com/rss/g1/politica/",
       "fallback": false
     },
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 2,
+      "encontrados": 5,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 8,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,33 +376,33 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-08T23:20:22.931Z",
-    "novas": 3,
+    "atualizadoEm": "2026-11-09T00:21:59.930Z",
+    "novas": 0,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube Folha Vitória",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube ALES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Polícia Civil ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube PM Ambiental ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Bombeiros ES",
@@ -411,8 +411,8 @@
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "X Governo ES",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-08T23:20:24.383Z",
+    "atualizadoEm": "2026-11-09T00:22:02.213Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-08T23:20:25.197Z",
+    "atualizadoEm": "2026-11-09T00:22:03.306Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-08T23:20:35.769Z",
+    "atualizadoEm": "2026-11-09T00:22:13.882Z",
     "novas": 0,
     "fontes": [
       {
