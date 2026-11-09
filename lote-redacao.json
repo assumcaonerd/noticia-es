@@ -1,100 +1,208 @@
 {
-  "geradoEm": "2026-11-09T00:05:45.152Z",
+  "geradoEm": "2026-11-09T00:48:59.167Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
-    "bloqueadas": 2,
-    "bloqueadasEditoriais": 3,
+    "bloqueadas": 3,
+    "bloqueadasEditoriais": 1,
     "semImagem": 0,
-    "duplicadasBasicas": 5,
-    "duplicadasSemanticas": 2,
-    "foraCategorias": 46
+    "duplicadasBasicas": 2,
+    "duplicadasSemanticas": 4,
+    "foraCategorias": 47
   },
-  "quantidadeCandidatas": 22,
+  "quantidadeCandidatas": 23,
   "candidatas": [
     {
-      "id": "3b7461f3b35278ad",
-      "titulo": "\"Retrocesso gigantesco\", diz Trump sobre resultado das midterms nos EUA",
-      "categoria": "Política Nacional",
+      "id": "8633fa729f18ae5d",
+      "titulo": "Leia e assista ao pronunciamento de Lula pós-vitória eleitoral",
+      "categoria": "Política ES",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/mundo/retrocesso-gigantesco-diz-trump-sobre-resultado-das-midterms-nos-eua",
-      "dataFonte": "2026-11-08T21:47:49.000Z",
-      "resumoFonte": "Partido do presidente dos EUA teve derrota nas eleições de meio de mandato, com adversários democratas obtendo vitória na Câmara e no Senado",
-      "imagem": "https://i.metroimg.com/6zZZPTVSglItWNx1MZXJ_slOLoQT5nyvfuR5dyYqDM8/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/donald-trump.jpg",
-      "descobertaEm": "2026-11-08T22:18:27.873Z"
-    },
-    {
-      "id": "f65ff532f5242832",
-      "titulo": "Ex-presidente do Banco Central do Paraguai diz temer por sua vida",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/mundo/ex-presidente-do-banco-central-do-paraguai-diz-temer-por-sua-vida",
-      "dataFonte": "2026-11-08T22:04:20.000Z",
-      "resumoFonte": "Preso após a fraude financeira no Bano Ueno, Carlos Carvallo afirmou à procuradoria \"estar com medo\"",
-      "imagem": "https://i.metroimg.com/g1FITKfrS61NFesilp5uWWUzmR2HgnH6gsPO0AbcBBg/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/carlos-carvallo-bc-paraguai.jpeg",
-      "descobertaEm": "2026-11-08T22:18:27.873Z"
-    },
-    {
-      "id": "d035f62c52230bc5",
-      "titulo": "Difícil, tranquilo ou ruim: a opinião dos alunos sobre a redação do Enem 2026",
-      "categoria": "Cidades",
-      "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/enem-2026/dificil-tranquilo-ou-ruim-a-opiniao-dos-alunos-sobre-a-redacao-do-enem-1126",
-      "dataFonte": "2026-11-08T20:48:19.000Z",
-      "resumoFonte": "Na Grande Vitória, teve gente que deixou a folha em branco, enquanto outras pessoas usaram vivências pessoais, notícias, séries e autores famosos como repertório",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1794165501820_whatsapp_image_2026_11_08_at_12.jpeg",
-      "descobertaEm": "2026-11-08T22:56:30.119Z",
+      "fonteNome": "Poder360",
+      "urlFonte": "https://www.poder360.com.br/poder-governo/leia-e-assista-ao-pronunciamento-de-lula-pos-vitoria-eleitoral/",
+      "dataFonte": "2026-11-08T23:56:07.000Z",
+      "resumoFonte": "Presidente agradeceu os mais de 64 milhões de votos, criticou a atuação das big techs nas eleições e anunciou prioridades para o 4º mandato. Leia no Poder360.",
+      "imagem": "https://static.poder360.com.br/uploads/2026/11/lula-pronunciamento-radio-tv-8nov2026-4-1200x675.jpg",
+      "descobertaEm": "2026-11-09T00:18:50.005Z",
       "reportagem": {
-        "titulo": "Difícil, tranquilo ou ruim: a opinião dos alunos sobre a redação do Enem 2026",
-        "slug": "dificil-tranquilo-ou-ruim-a-opiniao-dos-alunos-sobre-a-redacao-do-enem-2026",
-        "categoria": "Cidades",
+        "titulo": "Leia e assista ao pronunciamento de Lula pós-vitória eleitoral",
+        "slug": "leia-e-assista-ao-pronunciamento-de-lula-pos-vitoria-eleitoral",
+        "categoria": "Política ES",
         "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/dificil-tranquilo-ou-ruim-a-opiniao-dos-alunos-sobre-a-redacao-do-enem-2026.jpg",
-        "resumo": "Na Grande Vitória, teve gente que deixou a folha em branco, enquanto outras pessoas usaram vivências pessoais, notícias, séries e autores famosos como repertório",
-        "conteudo": "<p>O tema da redação do Exame Nacional do Ensino Médio (Enem) 2026, “A valorização do Sistema Único de Saúde (SUS) como direito universal”, dividiu a opinião dos candidatos que participaram do primeiro dia de provas, neste domingo (8), na Grande Vitória.</p><h2>Dados e informações dos municípios</h2><p>Para alguns, a proposta foi tranquila e próxima da realidade. Para outros, foi uma surpresa difícil de desenvolver.</p><p>As amigas Maria Fernanda Franzolin e Geovanna Victoria Matos, ambas de 16 anos, apostavam em uma abordagem voltada para a Inteligência Artificial.</p><p>Geovanna, que é treineira, foi pega de surpresa pela temática escolhida e acabou optando por deixar a folha de redação em branco. Mesmo assim, conseguiu fazer o resto da prova sem problemas.</p><h2>Contexto e diferenças locais</h2><p>Já Maria Fernanda, também treineira, achou a proposta interessante por trazer um tema mais universal. “Fazia bastante tempo que a saúde não era abordada na prova e os textos de apoio ajudaram bastante”, disse.</p><p>Nem todos, porém, se adaptaram tão bem à proposta. Amigos desde a infância e ex-colegas de escola, Pedro Paulo Fortunato, de 18 anos, e Gustavo da Silva, de 17, fizeram o Enem na Estácio de Sá, no Centro de Vila Velha, e saíram com percepções diferentes.</p><p>Gustavo não gostou da proposta. “Achei o tema muito ruim, não gostei nada. Parece que não deu para desenvolver, pelo menos para mim”, disse. Apesar disso, considerou a prova tranquila no geral.</p><p>“Não teve muita surpresa, foi o que eu estudei ao longo do ano e acho que consegui me sair bem”, contou.</p><p>Pedro Paulo, que faz o exame pela primeira vez, como treino, diz que não ter se preparado para valer. Mas achou o tema bem escolhido. “É um assunto muito importante, que ajuda diversas famílias no Brasil. Acho que consegui desenvolver bem e falar sobre o tema”, afirmou.</p><p>Estudante do terceiro ano de Ciências Biológicas, Laís Moreira fez o Enem para passar em Medicina. Ela já tirou 900 na redação em edições anteriores e quer aumentar a nota.</p><p>Para ela, o tema deste ano ajudou, diferentemente de propostas de outras edições, como a democratização do acesso ao cinema e a saúde mental.</p><p>Nas questões de Humanas, porém, a avaliação foi outra. Laís estranhou cinco questões seguidas sobre um mesmo texto, algo que não é comum no Enem, e um texto de uma página inteira que achou “chatinho de ler”.</p><p>“Eu tenho sentido que o Enem tem se perdido um pouco. Parece que estão focados na interpretação, parece Português, não tem tanto conteúdo. A gente estuda ciências políticas, acontecimentos, mas não cai.</p><p>Cai como interpretação. Isso me incomoda um pouco”, reclamou.</p><p>Séries, notícias e autores: os repertórios dos candidatos</p><p>Na hora de escrever, os candidatos recorreram a referências variadas. Maria Fernanda usou séries que retratam a saúde pública no Brasil, como Sob Pressão e Emergência 53 .</p><p>Laís levou uma notícia como repertório para a redação. “Eu li recentemente uma notícia falando sobre como as pessoas colocam o nome na fila do SUS, mas às vezes faltam quando chamadas e isso prejudica todo o sistema. Então, falei sobre essa notícia na minha redação”, conta.</p><p>Já a treineira Betina, que está no primeiro ano do ensino médio, citou o sociólogo Jessé Souza e o conceito de subcidadania.</p><p>“É quando os seus direitos existem, eles estão escritos numa Constituição, mas eles não são exercidos”, explica. Ela também usou a escritora Carolina Maria de Jesus.</p><p>Betina conta que a redação era sua maior dificuldade, mas que tem treinado muito: “Tenho uma vizinha que é muito boa em redação, aí quase todo final de semana eu vou pra casa dela e a gente estuda juntas”.</p><p>No próximo domingo (15), os candidatos fazem as provas de Ciências da Natureza e Matemática.</p><p>Com informações de Analu Fagundes, Camila Leão e Guilherme Marques</p><p>Estudante do terceiro ano de Ciências Biológicas, Laís Moreira fez o Enem para passar em Medicina. Ela já tirou 900 na redação em edições anteriores e quer aumentar a nota.</p><p>Para ela, o tema deste ano ajudou, diferentemente de propostas de outras edições, como a democratização do acesso ao cinema e a saúde mental. Nas questões de Humanas, porém, a avaliação foi outra.</p><p>Laís estranhou cinco questões seguidas sobre um mesmo texto, algo que não é comum no Enem, e um texto de uma página inteira que achou “chatinho de ler”. “Eu tenho sentido que o Enem tem se perdido um pouco.</p><p>Parece que estão focados na interpretação, parece Português, não tem tanto conteúdo. A gente estuda ciências políticas, acontecimentos, mas não cai. Cai como interpretação. Isso me incomoda um pouco”, reclamou.</p><p>Na hora de escrever, os candidatos recorreram a referências variadas. Maria Fernanda usou séries que retratam a saúde pública no Brasil, como</p>",
-        "fonteNome": "A Gazeta - Capa",
-        "fonteUrl": "https://www.agazeta.com.br/enem-2026/dificil-tranquilo-ou-ruim-a-opiniao-dos-alunos-sobre-a-redacao-do-enem-1126",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/leia-e-assista-ao-pronunciamento-de-lula-pos-vitoria-eleitoral.jpg",
+        "resumo": "Presidente agradeceu os mais de 64 milhões de votos, criticou a atuação das big techs nas eleições e anunciou prioridades para o 4º mandato.",
+        "conteudo": "<p>Presidente agradeceu os mais de 64 milhões de votos, criticou a atuação das big techs nas eleições e anunciou prioridades para o 4º mandato</p><h2>O contexto do cenário político</h2><p>O presidente Luiz Inácio Lula da Silva (PT) fez neste domingo (8.nov.2026) um pronunciamento em rede nacional de rádio e televisão depois de ser reeleito para o 4º mandato à frente do Palácio do Planalto.</p><p>No discurso, agradeceu os mais de 64 milhões de votos recebidos, afirmou que governará para todos os brasileiros e apresentou prioridades para o próximo governo.</p><p>Lula classificou o resultado das urnas como uma vitória da democracia e destacou a mobilização popular durante o processo eleitoral.</p><h2>Informações e repercussões do episódio</h2><p>Também criticou a atuação das grandes empresas de tecnologia, que, segundo ele, tentaram interferir na disputa ao ampliar o alcance de conteúdos com desinformação.</p><p>“Provamos, mais uma vez, que o Brasil não cabe no quintal de ninguém” , declarou.</p><p>O presidente afirmou que pretende encaminhar, até o fim do ano, medidas para reorganizar a estrutura do governo.</p><p>Entre as prioridades anunciadas estão a criação do Ministério da Segurança Pública, a ampliação de programas educacionais, a redução dos juros e a renegociação de dívidas das famílias.</p><p>Na economia, Lula manifestou preocupação com a trajetória da dívida pública e com os juros elevados.</p><p>Reafirmou o compromisso com a responsabilidade fiscal e disse que pretende elevar os investimentos para mais de 20% do PIB (Produto Interno Bruto), em parceria com o setor privado.</p><p>O petista também defendeu reformas política e do Judiciário. Afirmou que a Justiça brasileira precisa recuperar sua credibilidade e cobrou uma magistratura isenta, ética e livre de conflitos de interesses.</p><p>Na área social, anunciou a intenção de criar o Pé-de-Meia Universitário, universalizar a educação integral e ampliar as políticas de proteção aos idosos, às crianças e aos adolescentes.</p><p>“Em 1º lugar, quero agradecer a Deus e ao povo brasileiro pela honra que me deram de governar o meu país pela 4ª vez.</p><p>“O Brasil viveu uma das eleições mais importantes de sua história, com a participação recorde de eleitores e a menor abstenção dos últimos anos.</p><p>“Antes de ir às urnas, o povo brasileiro foi às ruas e às redes defender seus direitos, suas causas e suas esperanças.</p><p>“Foi emocionante ver a juventude liderar manifestações espontâneas, motivada pelo sonho de dias melhores. Os idosos venceram distâncias e dificuldades de locomoção e nos deram uma lição de vida.</p><p>“Não existe limite de idade quando se trata de defender seus direitos.</p><p>“O verdadeiro patriotismo nos mobilizou. Fomos às ruas uns pelos outros. Fomos às ruas pelos nossos direitos, pela nossa soberania, pela nossa natureza, pelas nossas riquezas e pelo nosso futuro.</p><p>“Provamos, mais uma vez, que o Brasil não cabe no quintal de ninguém.</p><p>“A exemplo do que vem acontecendo em alguns países pelo mundo afora, as chamadas big techs tentaram interferir no processo eleitoral brasileiro, dando milhões de visualizações a conteúdos com desinformação e fake news.</p>",
+        "fonteNome": "Poder360",
+        "fonteUrl": "https://www.poder360.com.br/poder-governo/leia-e-assista-ao-pronunciamento-de-lula-pos-vitoria-eleitoral/",
         "fontesAdicionais": [
           {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
+            "nome": "Assembleia Legislativa do ES",
+            "url": "https://www.al.es.gov.br/"
           },
           {
-            "nome": "Tribuna Online",
-            "url": "https://tribunaonline.com.br/"
+            "nome": "Governo do Estado do ES",
+            "url": "https://www.es.gov.br/"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O tema da redação do Exame Nacional do Ensino Médio (Enem) 2026, “A valorização do Sistema Único de Saúde (SUS) como direito universal”, dividiu a opinião dos candidatos que participaram do primeiro dia de provas, neste domingo (8), na Grande Vitória. Para alguns, a proposta foi tranquila e próxima da realidade."
+            "resposta": "Presidente agradeceu os mais de 64 milhões de votos, criticou a atuação das big techs nas eleições e anunciou prioridades para o 4º mandato"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "As amigas Maria Fernanda Franzolin e Geovanna Victoria Matos, ambas de 16 anos, apostavam em uma abordagem voltada para a Inteligência Artificial. Geovanna, que é treineira, foi pega de surpresa pela temática escolhida e acabou optando por deixar a folha de redação em branco. Mesmo assim, conseguiu fazer o resto da prova sem problemas."
+            "resposta": "O presidente Luiz Inácio Lula da Silva (PT) fez neste domingo (8.nov.2026) um pronunciamento em rede nacional de rádio e televisão depois de ser reeleito para o 4º mandato à frente do Palácio do Planalto."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Já Maria Fernanda, também treineira, achou a proposta interessante por trazer um tema mais universal. “Fazia bastante tempo que a saúde não era abordada na prova e os textos de apoio ajudaram bastante”, disse."
+            "resposta": "Lula classificou o resultado das urnas como uma vitória da democracia e destacou a mobilização popular durante o processo eleitoral. Também criticou a atuação das grandes empresas de tecnologia, que, segundo ele, tentaram interferir na disputa ao ampliar o alcance de conteúdos com desinformação."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Nem todos, porém, se adaptaram tão bem à proposta. Amigos desde a infância e ex-colegas de escola, Pedro Paulo Fortunato, de 18 anos, e Gustavo da Silva, de 17, fizeram o Enem na Estácio de Sá, no Centro de Vila Velha, e saíram com percepções diferentes."
+            "resposta": "“Provamos, mais uma vez, que o Brasil não cabe no quintal de ninguém” , declarou."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Gustavo não gostou da proposta. “Achei o tema muito ruim, não gostei nada. Parece que não deu para desenvolver, pelo menos para mim”, disse. Apesar disso, considerou a prova tranquila no geral. “Não teve muita surpresa, foi o que eu estudei ao longo do ano e acho que consegui me sair bem”, contou."
+            "resposta": "O presidente afirmou que pretende encaminhar, até o fim do ano, medidas para reorganizar a estrutura do governo. Entre as prioridades anunciadas estão a criação do Ministério da Segurança Pública, a ampliação de programas educacionais, a redução dos juros e a renegociação de dívidas das famílias."
           }
         ],
-        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1794165501820_whatsapp_image_2026_11_08_at_12.jpeg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/dificil-tranquilo-ou-ruim-a-opiniao-dos-alunos-sobre-a-redacao-do-enem-2026.jpg",
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/lula-pronunciamento-radio-tv-8nov2026-4-1200x675.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/leia-e-assista-ao-pronunciamento-de-lula-pos-vitoria-eleitoral.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
+    },
+    {
+      "id": "6de94445d9d168e7",
+      "titulo": "Movimentações no Senado antecipam disputa pelo comando da Casa em 2027",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Agência Brasil - Política",
+      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/movimentacoes-no-senado-antecipam-disputa-pelo-comando-da-casa-em-2027",
+      "dataFonte": "2026-11-08T23:37:00.000Z",
+      "resumoFonte": "A menos de três meses da posse dos parlamentares eleitos, que será no dia 1º de fevereiro de 2027, a oposição no Senado Federal já se articula para lançar candidaturas competitivas ao comando da Casa. O resultado das urnas fortaleceu o campo oposicionista no Senado , especialmente o Partido Liberal (PL), que terá a maior bancada, com 29…",
+      "imagem": "https://imagens.ebc.com.br/MY5gvb4wPvIjpuTRjTKaiPub3t4=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/06/25/lula8286.jpg?itok=M1fr495d",
+      "descobertaEm": "2026-11-09T00:18:50.005Z",
+      "reportagem": {
+        "titulo": "Movimentações no Senado antecipam disputa pelo comando da Casa em 2027",
+        "slug": "movimentacoes-no-senado-antecipam-disputa-pelo-comando-da-casa-em-2027",
+        "categoria": "Política Nacional",
+        "data": "2026-11-08",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/movimentacoes-no-senado-antecipam-disputa-pelo-comando-da-casa-em-2027.jpg",
+        "resumo": "Davi Alcolumbre tentará reeleição e deve enfrentar oposição mais forte. PL lançou oficialmente a candidatura do atual líder da oposição no Senado, Rogério Marinho (PL-RN)",
+        "conteudo": "<p>A menos de três meses da posse dos parlamentares eleitos, que será no dia 1º de fevereiro de 2027, a oposição no Senado Federal já se articula para lançar candidaturas competitivas ao comando da Casa.</p><h2>O contexto do cenário político</h2><p>O resultado das urnas fortaleceu o campo oposicionista no Senado , especialmente o Partido Liberal (PL), que terá a maior bancada, com 29 integrantes, e apoio de outras legendas alinhadas ao bolsonarismo, que tentarão fazer frente à tentativa de reeleição do atual presidente, Davi Alcolumbre (União-AP), que conta com o apoio do governo do presidente Luiz Inácio Lula da Silva e de sua base no Legislativo.</p><p>Na última semana, o PL lançou oficialmente a candidatura do atual líder da oposição no Senado, Rogério Marinho (PL-RN), após uma reunião com a presença de cerca de 30 senadores, inclusive candidatos eleitos no pleito de outubro.</p><p>Marinho foi o coordenador da campanha presidencial de Flávio Bolsonaro (PL), derrotado por Lula no segundo turno.</p><h2>Informações e repercussões do episódio</h2><p>\"Fomos escolhidos por nossos companheiros para representarmos a oposição nessa empreitada que será agora a presidência do Senado\", disse em entrevista à imprensa.</p><p>Do lado da situação, Davi Alcolumbre não anunciou ainda formalmente a sua candidatura, que é certa, mas na última quarta-feira (4), após uma discussão em plenário sobre a redução da maioridade penal , o presidente do Senado fez críticas ao que chamou de \"radicalismo\", que se tornou, segundo ele, um traço comum na política nacional.</p><p>Ele também pediu que os políticos tenham foco nos temas que são mais importantes para o país.</p><p>\"Isso não é normal. A gente precisa respeitar todas as opiniões, o contraditório e as divergências. Mas está impossível! A rede social se tornou um instrumento de ofensas, agressões e mentiras.</p><p>E você fica o todo tempo correndo atrás do prejuízo. Ninguém se preocupa com a honra e com a família da pessoa\", lamentou.</p><p>O senador também defendeu as urnas eletrônicas e criticou políticos que aceitam o resultado das urnas quando lhe é favorável, e alegam fraude, sem provas, quando quem ganha é o adversário.</p><p>Também integrante da oposição, a senadora Tereza Cristina (PP-MS) concedeu entrevistas e fez declarações se colocando claramente na disputa pelo comando da Casa.</p><p>\"Minha candidatura está posta e é para valer. Meu projeto sempre foi o Senado: ser a primeira mulher a ocupar essa cadeira em 203 anos\", postou em uma rede social.</p><p>Sobre uma possível fragmentação das candidaturas oposicionistas, Tereza Cristina disse que isso não ocorrerá.</p><p>\"Não existe divisão. A direita vai ter um candidato à presidência do Senado. Rogério Marinho e eu somos aliados, do mesmo campo, e vamos decidir com estratégia quem tem mais condições de chegar lá\", afirmou.</p><p>Rogério Marinho também fez um aceno similar em direção à aliada, ao dizer que ela tem toda legitimidade de pleitear a presidência do Senado.</p><p>\"No momento oportuno, pelo acerto entre nós, vamos convergir. Estamos do mesmo lado, defendemos as mesmas bandeiras e acreditamos que é necessário que haja uma mudança na presidência do Congresso Nacional\", disse.</p><p>A nova legislatura, que renovou dois terços do Senado, só terá início no ano que vem . A eleição para o comando do Senado ocorre no mesmo dia da posse, em 1º de fevereiro.</p><p>Na mesma data, os deputados federais também tomam posse e elegem a próxima Mesa Diretora. A principal movimentação é a articulação para a reeleição de Hugo Motta (Republicanos-PB), atual presidente.</p><p>O cenário, porém, ainda envolve negociações sobre o apoio do PL, que também terá a maior bancada da Casa, com 121 deputados, e a possibilidade de candidaturas alternativas apresentadas por partidos de oposição.</p>",
+        "fonteNome": "Agência Brasil - Política",
+        "fonteUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/movimentacoes-no-senado-antecipam-disputa-pelo-comando-da-casa-em-2027",
+        "fontesAdicionais": [
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          },
+          {
+            "nome": "Câmara dos Deputados",
+            "url": "https://www.camara.leg.br/noticias/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A menos de três meses da posse dos parlamentares eleitos, que será no dia 1º de fevereiro de 2027, a oposição no Senado Federal já se articula para lançar candidaturas competitivas ao comando da Casa."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O resultado das urnas fortaleceu o campo oposicionista no Senado , especialmente o Partido Liberal (PL), que terá a maior bancada, com 29 integrantes, e apoio de outras legendas alinhadas ao bolsonarismo, que tentarão fazer frente à tentativa de reeleição do atual presidente, Davi Alcolumbre (União-AP), que conta com o apoio do governo do presidente Luiz Inácio Lula da Silva e de sua base no Legislativo."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Na última semana, o PL lançou oficialmente a candidatura do atual líder da oposição no Senado, Rogério Marinho (PL-RN), após uma reunião com a presença de cerca de 30 senadores, inclusive candidatos eleitos no pleito de outubro. Marinho foi o coordenador da campanha presidencial de Flávio Bolsonaro (PL), derrotado por Lula no segundo turno."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "\"Fomos escolhidos por nossos companheiros para representarmos a oposição nessa empreitada que será agora a presidência do Senado\", disse em entrevista à imprensa."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Do lado da situação, Davi Alcolumbre não anunciou ainda formalmente a sua candidatura, que é certa, mas na última quarta-feira (4), após uma discussão em plenário sobre a redução da maioridade penal , o presidente do Senado fez críticas ao que chamou de \"radicalismo\", que se tornou, segundo ele, um traço comum na política nacional."
+          }
+        ],
+        "imagemOriginal": "https://imagens.ebc.com.br/MY5gvb4wPvIjpuTRjTKaiPub3t4=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/06/25/lula8286.jpg?itok=M1fr495d",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/movimentacoes-no-senado-antecipam-disputa-pelo-comando-da-casa-em-2027.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "d653e2ab283da71b",
+      "titulo": "Na TV, Lula promete responsabilidade fiscal, manda indireta a Flávio e cobra Judiciário ético e isento",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/na-tv-lula-promete-responsabilidade-fiscal-manda-recado-a-flavio-e-cobra-judiciario-etico-e-isento.shtml",
+      "dataFonte": "2026-11-09T00:05:00.000Z",
+      "resumoFonte": "O presidente Lula ( PT ) afirmou neste domingo (8) ter compromisso com a responsabilidae fiscal e prometeu que seu governo criará as condições para a queda da taxa de juros, mas não anunciou medidas concretas. Leia mais (11/08/2026 - 21h05)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/09/04/17885677776a9b60e182acc_1788567777_3x2_xl.jpg",
+      "descobertaEm": "2026-11-09T00:18:50.005Z",
+      "reportagem": {
+        "titulo": "Na TV, Lula promete responsabilidade fiscal, manda indireta a Flávio e cobra Judiciário ético e isento",
+        "slug": "na-tv-lula-promete-responsabilidade-fiscal-manda-indireta-a-flavio-e-cobra-judiciario-etic",
+        "categoria": "Economia",
+        "data": "2026-11-08",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/na-tv-lula-promete-responsabilidade-fiscal-manda-indireta-a-flavio-e-cobra-judiciario-etic.jpg",
+        "resumo": "Em primeiro pronunciamento após reeleição, petista diz que criará condição para queda dos juros, mas não anuncia medidas",
+        "conteudo": "<p>O presidente Lula ( PT ) afirmou neste domingo (8) ter compromisso com a responsabilidade fiscal e prometeu que seu governo criará as condições para a queda da taxa de juros, mas não anunciou medidas concretas.</p><h2>Dados e contexto do setor</h2><p>Em seu primeiro pronunciamento na TV desde a reeleição, ele também lançou uma indireta para o candidato derrotado Flávio Bolsonaro (PL), que deixou o Brasil rumo aos Estados Unidos dois dias após o segundo turno. \"Jamais abandonei meu país\", disse o petista.</p><p>Lula deu recados ao Judiciário ao defender que \"a magistratura precisa de juízes isentos, éticos e livres de conflitos de interesses e projetos de enriquecimento\". A fala, transmitida na noite deste domingo, teve 7 minutos e 44 segundos.</p><p>Na economia, Lula disse estar preocupado com a trajetória da dívida pública e os juros elevados.</p><h2>Impactos e informações adicionais</h2><p>As declarações marcam uma correção de rota do petista, que, durante a campanha, chegou a afirmar que a dívida não o preocupava e que fazer superávit (receitas maiores que gastos) era \"babaquice\".</p><p>\"A trajetória da dívida pública e os juros altos me preocupam. Por isso, reafirmo meu compromisso com a responsabilidade fiscal para viabilizar políticas sociais sustentáveis e a ampliação tão necessária do investimento.</p><p>Todo esse esforço será feito preservando as regras fiscais\", disse Lula no pronunciamento.</p><p>Em outro trecho, o petista destacou a mobilização nas ruas, que o empurrou para a virada inédita no segundo turno, após terminar a primeira votação atrás de Flávio Bolsonaro. Prometeu que, no novo mandato, ampliará a escuta e o diálogo com a população.</p><p>O presidente agradeceu aos eleitores pelos 64 milhões de votos recebidos no segundo turno e disse que, encerradas as eleições, vai governar para todos os brasileiros. \"Como sempre fiz, é preciso construir pontes em vez de muros\", afirmou.</p><p>Ele acusou as big techs de tentarem interferir nas eleições brasileiras. \"A exemplo do que vem acontecendo em alguns países pelo mundo afora, as chamadas big techs tentaram interferir no processo eleitoral brasileiro, dando milhões de visualizações a conteúdos de informação e fake news.</p><p>Mas, com a participação popular, a verdade venceu a mentira\", disse.</p><p>Em relação ao Judiciário, a fala de Lula se dá após a revelação de laços entre os ministros Alexandre de Moraes , Dias Toffoli , Kassio Nunes Marques e Luiz Fux , do STF (Supremo Tribunal Federal), e o ex-banqueiro Daniel Vorcaro, que era dono do Banco Master, liquidado pelo Banco Central em meio a suspeita de fraudes bilionárias.</p><p>O presidente afirmou que o Brasil precisa debater \"com urgência\" uma reforma política e do Judiciário. O petista não detalhou propostas, embora já tenha defendido em outras ocasiões a previsão de mandatos fixos para ministros do STF.</p><p>\"É chegada a hora da Justiça brasileira recuperar a sua credibilidade. A atividade da magistratura precisa de juízes isentos, éticos e livres de conflitos de interesses e projetos de enriquecimento.</p><p>Com uma justiça eficaz, poderemos encarar com mais rigor a corrupção, o crime organizado e sonegadores, o combate às facções criminosas, às milícias, aos magnatas do crime, aos agressores de mulheres e meninas\", disse.</p><p>O petista também citou a aprovação da PEC (Proposta de Emenda à Constituição) da Segurança Pública e se comprometeu com a publicação de uma MP (Medida Provisória) para criar o Ministério de Segurança Pública.</p><p>Os recados sobre a economia e a política fiscal ocorrem após uma crescente pressão do mercado financeiro para que Lula anuncie medidas de ajuste para controlar a trajetória da dívida pública.</p><p>Como mostrou a Folha , a potência das medidas de ajuste fiscal abriu um impasse dentro do governo , uma vez que o chefe do Executivo demonstra resistência em propor ações mais robustas e que poderiam configurar um estelionato eleitoral.</p><p>Desde o dia seguinte à reeleição de Lula, Fazenda e Planejamento trabalham em um cardápio de ações, que vão desde ajustes mais pontuais até medidas estruturais.</p><p>Perseguir o centro da meta fiscal é um consenso na equipe, e há propostas para permitir redução dos limites de gastos em caso de congelamento de verbas devido à frustração na arrecadação.</p><p>A mobilização de apoiadores na reta final da eleição tem pesado na equação. Lula sempre demonstrou preocupação com a manutenção de direitos sociais, e o resultado das urnas reforçou essa posição, sobretudo após a campanha do petista ter usado o plano de cortes de Flávio Bolsonaro para desgastá-lo junto ao eleitorado .</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/11/na-tv-lula-promete-responsabilidade-fiscal-manda-recado-a-flavio-e-cobra-judiciario-etico-e-isento.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O presidente Lula ( PT ) afirmou neste domingo (8) ter compromisso com a responsabilidade fiscal e prometeu que seu governo criará as condições para a queda da taxa de juros, mas não anunciou medidas concretas."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Em seu primeiro pronunciamento na TV desde a reeleição, ele também lançou uma indireta para o candidato derrotado Flávio Bolsonaro (PL), que deixou o Brasil rumo aos Estados Unidos dois dias após o segundo turno. \"Jamais abandonei meu país\", disse o petista."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Lula deu recados ao Judiciário ao defender que \"a magistratura precisa de juízes isentos, éticos e livres de conflitos de interesses e projetos de enriquecimento\". A fala, transmitida na noite deste domingo, teve 7 minutos e 44 segundos."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Na economia, Lula disse estar preocupado com a trajetória da dívida pública e os juros elevados. As declarações marcam uma correção de rota do petista, que, durante a campanha, chegou a afirmar que a dívida não o preocupava e que fazer superávit (receitas maiores que gastos) era \"babaquice\"."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "\"A trajetória da dívida pública e os juros altos me preocupam. Por isso, reafirmo meu compromisso com a responsabilidade fiscal para viabilizar políticas sociais sustentáveis e a ampliação tão necessária do investimento. Todo esse esforço será feito preservando as regras fiscais\", disse Lula no pronunciamento."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/09/04/17885677776a9b60e182acc_1788567777_3x2_xl.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/na-tv-lula-promete-responsabilidade-fiscal-manda-indireta-a-flavio-e-cobra-judiciario-etic.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "5610de366c8aae76",
+      "titulo": "Papa Leão XIV recebe chave da cidade de Buenos Aires em visita à Argentina",
+      "categoria": "Fé e Sociedade",
+      "radar": null,
+      "fonteNome": "CNN Brasil - Capa",
+      "urlFonte": "https://www.cnnbrasil.com.br/internacional/papa-leao-xiv-recebe-chave-da-cidade-de-buenos-aires-em-visita-a-argentina/",
+      "dataFonte": "2026-11-09T00:08:54.000Z",
+      "resumoFonte": "Essa é a primeira visita de um pontífice ao país desde 1987, quando houve a viagem de João Paulo II; o líder da Igreja Católica fez discurso ao lado de Javier Milei",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/papa-leao-chave-cidade-buenos-aires-argentina.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-09T00:21:20.243Z"
     },
     {
       "id": "efaf06f7882203c6",
@@ -277,98 +385,98 @@
       }
     },
     {
-      "id": "4c350bb160d1d27b",
-      "titulo": "Gleisi chama juros no Brasil de “exorbitantes” e “criminosos”",
-      "categoria": "Política Nacional",
+      "id": "7a378e502a47c73b",
+      "titulo": "MP do Paraguai faz busca e apreensão em residência do ex-presidente Peña",
+      "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Poder360",
-      "urlFonte": "https://www.poder360.com.br/poder-congresso/gleisi-chama-juros-no-brasil-de-exorbitantes-e-criminosos/",
-      "dataFonte": "2026-11-08T21:08:27.000Z",
-      "resumoFonte": "Deputada criticou textos publicados pela “Folha de S.Paulo” e disse que país precisa de debate “sério e amplo” sobre “essa chaga”. Leia no Poder360.",
-      "imagem": "https://static.poder360.com.br/uploads/2026/10/gleisi-hoffmann-1-1200x675.jpg",
-      "descobertaEm": "2026-11-08T21:18:49.963Z"
-    },
-    {
-      "id": "1deb70446497751b",
-      "titulo": "Carlos Bolsonaro volta a contestar condenação do pai pelo 8 de Janeiro",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-congresso/carlos-bolsonaro-volta-a-contestar-condenacao-do-pai-pelo-8-de-janeiro/",
-      "dataFonte": "2026-11-08T20:25:05.000Z",
-      "resumoFonte": "Senador eleito por SC diz que Jair não poderia responder por depredações por estar nos EUA; condenação se baseou em articulações golpistas, não na presença física nos ataques",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/carlos-bolsonaro-1200x675.jpg",
-      "descobertaEm": "2026-11-08T21:18:49.963Z",
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/internacional/mp-do-paraguai-faz-busca-e-apreensao-em-residencia-do-ex-presidente-pena/",
+      "dataFonte": "2026-11-08T23:18:29.000Z",
+      "resumoFonte": "Ação integra investigação sobre supostos atos ilícitos no caso do Ueno Bank, que resultou em impeachment e prisão preventiva do ex-mandatário",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/MP-Paraguai.jpeg?w=1116&h=630&crop=1",
+      "descobertaEm": "2026-11-09T00:18:50.005Z",
       "reportagem": {
-        "titulo": "Carlos Bolsonaro volta a contestar condenação do pai pelo 8 de Janeiro",
-        "slug": "carlos-bolsonaro-volta-a-contestar-condenacao-do-pai-pelo-8-de-janeiro",
-        "categoria": "Política Nacional",
+        "titulo": "MP do Paraguai faz busca e apreensão em residência do ex-presidente Peña",
+        "slug": "mp-do-paraguai-faz-busca-e-apreensao-em-residencia-do-ex-presidente-pena",
+        "categoria": "Justiça",
         "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/carlos-bolsonaro-volta-a-contestar-condenacao-do-pai-pelo-8-de-janeiro.jpg",
-        "resumo": "Senador eleito por SC diz que Jair não poderia responder por depredações por estar nos EUA.",
-        "conteudo": "<p>Senador eleito por SC diz que Jair não poderia responder por depredações por estar nos EUA; condenação se baseou em articulações golpistas, não na presença física nos ataques</p><h2>O contexto do cenário político</h2><p>O senador eleito Carlos Bolsonaro (PL-SC) publicou um vídeo neste domingo (8.nov.2026) em que questiona a condenação do pai, o ex-presidente Jair Bolsonaro (PL), a 27 anos e 3 meses de prisão por tentativa de golpe de Estado.</p><p>Carlos argumenta que o pai estava em Orlando, nos Estados Unidos, em 8 de janeiro de 2023 e, por isso, não poderia ter participado da depredação dos prédios dos Três Poderes.</p><p>A condenação, no entanto, não se baseou na presença física de Jair Bolsonaro na Praça dos Três Poderes durante os atos.</p><h2>Detalhes e consequências do caso</h2><p>A maioria da 1ª Turma do Supremo Tribunal Federal entendeu que o ex-presidente liderou uma organização criminosa que articulou uma tentativa de impedir a posse do presidente Luiz Inácio Lula da Silva (PT) depois das eleições de 2022.</p><p>Bolsonaro foi condenado pelos crimes de organização criminosa armada, tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, dano qualificado contra o patrimônio da União e deterioração de patrimônio tombado.</p><p>A pena foi fixada em 27 anos e 3 meses de prisão, inicialmente em regime fechado.</p><p>Entre os elementos considerados no processo estavam documentos e mensagens sobre a elaboração e discussão de minutas de decretos que previam medidas de exceção, depoimentos de ex-comandantes das Forças Armadas sobre reuniões com Bolsonaro e registros de articulações para pressionar militares a aderir a uma ruptura institucional.</p><p>Também foram considerados os ataques públicos do então presidente ao sistema eleitoral, sem apresentação de provas de fraude.</p><p>A investigação apontou planos encontrados pela Polícia Federal, entre eles o Punhal Verde e Amarelo, que propunha o assassinato de Lula, o vice-presidente Geraldo Alckmin (PSB) e o ministro do STF Alexandre de Moraes.</p><p>A acusação também apresentou elementos sobre o uso de estruturas do Estado, como a Abin (Agência Brasileira de Inteligência), para monitorar adversários e atuar contra instituições.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-congresso/carlos-bolsonaro-volta-a-contestar-condenacao-do-pai-pelo-8-de-janeiro/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/mp-do-paraguai-faz-busca-e-apreensao-em-residencia-do-ex-presidente-pena.jpg",
+        "resumo": "Ação integra investigação sobre supostos atos ilícitos no caso do Ueno Bank, que resultou em impeachment e prisão preventiva do ex-mandatário",
+        "conteudo": "<p>O Ministério Público do Paraguai cumpriu mandato de busca e apreensão na residência do ex-presidente Santiago Peña neste domingo (8).</p><h2>O contexto da decisão judicial</h2><p>Segundo o órgão, trata-se da casa de verão do ex-mandatário, localizada na região de Ciervo Cuá, na cidade de San Bernardino, não na residência onde ele se encontra preso.</p><p>A ação foi conduzida pelos promotores Silvia González, Cristhian Benítez e Elena Fiore e faz parte do processo que investiga supostos crimes ligados a Peña no caso do Ueno Bank.</p><p>O juiz Humberto Otazú decretou no sábado (7) a prisão preventiva de Peña , após o ex-presidente ter sofrido impeachment na sexta-feira (6) devido ao escândalo do Ueno.</p><h2>Detalhes e consequências do caso</h2><p>Anteriormente, o MP havia indiciado o ex-mandatário e Carlos Carvallo, ex-presidente do Banco Central. A Justiça também decretou a prisão preventiva de Carvallo.</p><p>O magistrado afirmou que a medida é necessária para garantir que ele permaneça no país durante o andamento do processo.</p><p>A prisão, ocorrida um dia após a destituição de Peña do cargo, aprofunda uma crise política e financeira que provocou protestos em Assunção, envolveu altos funcionários e levou órgãos reguladores a tentarem conter riscos para o sistema financeiro como um todo.</p><p>O advogado de Peña, Ricardo Preda, declarou aos jornalistas que seu cliente nega as acusações.</p><p>&quot;Vamos nos submeter à investigação e estou certo de que, ao final dela, o resultado será o arquivamento do caso&quot;, afirmou.</p><p>Os promotores alegam que Peña utilizou seu cargo de presidente para influenciar decisões de órgãos governamentais e entidades estatais, mantendo grandes quantias de dinheiro público depositadas no Ueno. Ele possui vínculos financeiros com a instituição.</p><p>Segundo a acusação, essa relação configurou um conflito de interesses, uma vez que Peña teria incentivado, facilitado ou influenciado decisões que beneficiaram o banco.</p><p>O ex-presidente, que foi acionista da holding controladora do Ueno até março de 2025, nega qualquer irregularidade e sustenta que os problemas enfrentados pelo banco são uma questão de natureza regulatória.</p><p>Peña compareceu à sede do Ministério Público na manhã de sábado para prestar depoimento, após sua destituição do poder na sexta-feira.</p><p>O impeachment levou o vice-presidente Pedro Alliana ao poder ; o político, integrante do Partido Colorado, tomou posse ainda na sexta-feira para completar o mandato de até agosto de 2028.</p><p>As duas acusações contra o ex-presidente podem resultar em uma pena de até 20 anos de prisão, informou a promotora Nancy Salomón.</p><p>Carvallo renunciou ao cargo de presidente do Banco Central no início desta semana, à medida que a crise envolvendo o Ueno se intensificava. Anteriormente, ele havia comandado a instituição financeira digital até 2023.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/internacional/mp-do-paraguai-faz-busca-e-apreensao-em-residencia-do-ex-presidente-pena/",
         "fontesAdicionais": [
           {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
           },
           {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Senador eleito por SC diz que Jair não poderia responder por depredações por estar nos EUA; condenação se baseou em articulações golpistas, não na presença física nos ataques"
+            "resposta": "O Ministério Público do Paraguai cumpriu mandato de busca e apreensão na residência do ex-presidente Santiago Peña neste domingo (8)."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O senador eleito Carlos Bolsonaro (PL-SC) publicou um vídeo neste domingo (8.nov.2026) em que questiona a condenação do pai, o ex-presidente Jair Bolsonaro (PL), a 27 anos e 3 meses de prisão por tentativa de golpe de Estado."
+            "resposta": "Segundo o órgão, trata-se da casa de verão do ex-mandatário, localizada na região de Ciervo Cuá, na cidade de San Bernardino, não na residência onde ele se encontra preso."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Carlos argumenta que o pai estava em Orlando, nos Estados Unidos, em 8 de janeiro de 2023 e, por isso, não poderia ter participado da depredação dos prédios dos Três Poderes."
+            "resposta": "A ação foi conduzida pelos promotores Silvia González, Cristhian Benítez e Elena Fiore e faz parte do processo que investiga supostos crimes ligados a Peña no caso do Ueno Bank."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A condenação, no entanto, não se baseou na presença física de Jair Bolsonaro na Praça dos Três Poderes durante os atos. A maioria da 1ª Turma do Supremo Tribunal Federal entendeu que o ex-presidente liderou uma organização criminosa que articulou uma tentativa de impedir a posse do presidente Luiz Inácio Lula da Silva (PT) depois das eleições de 2022."
+            "resposta": "O juiz Humberto Otazú decretou no sábado (7) a prisão preventiva de Peña , após o ex-presidente ter sofrido impeachment na sexta-feira (6) devido ao escândalo do Ueno."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Bolsonaro foi condenado pelos crimes de organização criminosa armada, tentativa de abolição violenta do Estado Democrático de Direito, golpe de Estado, dano qualificado contra o patrimônio da União e deterioração de patrimônio tombado. A pena foi fixada em 27 anos e 3 meses de prisão, inicialmente em regime fechado."
+            "resposta": "Anteriormente, o MP havia indiciado o ex-mandatário e Carlos Carvallo, ex-presidente do Banco Central. A Justiça também decretou a prisão preventiva de Carvallo."
           }
         ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/carlos-bolsonaro-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/carlos-bolsonaro-volta-a-contestar-condenacao-do-pai-pelo-8-de-janeiro.jpg",
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/MP-Paraguai.jpeg?w=1116&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/mp-do-paraguai-faz-busca-e-apreensao-em-residencia-do-ex-presidente-pena.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "a275d8e318ee04e3",
-      "titulo": "CSN anuncia venda da área de cimentos à grupo chinês por R$ 12,7 bi",
+      "id": "3b7461f3b35278ad",
+      "titulo": "\"Retrocesso gigantesco\", diz Trump sobre resultado das midterms nos EUA",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/mundo/retrocesso-gigantesco-diz-trump-sobre-resultado-das-midterms-nos-eua",
+      "dataFonte": "2026-11-08T21:47:49.000Z",
+      "resumoFonte": "Partido do presidente dos EUA teve derrota nas eleições de meio de mandato, com adversários democratas obtendo vitória na Câmara e no Senado",
+      "imagem": "https://i.metroimg.com/6zZZPTVSglItWNx1MZXJ_slOLoQT5nyvfuR5dyYqDM8/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/donald-trump.jpg",
+      "descobertaEm": "2026-11-08T22:18:27.873Z"
+    },
+    {
+      "id": "0da32af785cb5a7f",
+      "titulo": "Na TV, Lula diz que se preocupa com dívida pública e taxa de juros",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-economia/csn-anuncia-venda-da-area-de-cimentos-a-grupo-chines-por-r-127-bi/",
-      "dataFonte": "2026-11-08T20:37:04.000Z",
-      "resumoFonte": "Companhia comunicou ao mercado neste domingo (8.nov) a assinatura de acordo com a Huaxin Building Material",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/cimento-1200x675.png",
-      "descobertaEm": "2026-11-08T21:18:49.963Z",
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/na-tv-lula-diz-que-se-preocupa-com-divida-publica-e-taxa-de-juros/",
+      "dataFonte": "2026-11-08T23:42:03.000Z",
+      "resumoFonte": "Presidente reeleito reafirmou compromisso com responsabilidade fiscal e falou em criar condições para que Selic seja reduzida",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/55587352288_05563a2307_o.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-09T00:18:50.005Z",
       "reportagem": {
-        "titulo": "CSN anuncia venda de negócio de cimentos a grupo chinês por R$ 12,7 bi",
-        "slug": "csn-anuncia-venda-de-negocio-de-cimentos-a-grupo-chines-por-r-12-7-bi",
+        "titulo": "Na TV, Lula diz que se preocupa com dívida pública e taxa de juros",
+        "slug": "na-tv-lula-diz-que-se-preocupa-com-divida-publica-e-taxa-de-juros",
         "categoria": "Economia",
         "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/csn-anuncia-venda-de-negocio-de-cimentos-a-grupo-chines-por-r-12-7-bi.jpg",
-        "resumo": "Companhia comunicou ao mercado neste domingo (8.nov) a assinatura de acordo com a Huaxin Building Material.",
-        "conteudo": "<p>Companhia comunicou ao mercado neste domingo (8.nov) a assinatura de acordo com a Huaxin Building Material</p><h2>Dados e contexto do setor</h2><p>A CSN (Companhia Siderúrgica Nacional) assinou um acordo para vender a sua subsidiária CSN Cimentos ao grupo chinês Huaxin por R$ 12,7 bilhões . A empresa comunicou a venda em Fato Relevante divulgado ao mercado na manhã deste domingo (8.nov.2026).</p><p>O montante, segundo a companhia, considera o “enterprise value” , ou Valor da Empresa, e pode sofrer ajustes relacionados à dívida líquida e ao capital de giro da CSN Cimentos até a data de fechamento do negócio.</p><p>A transação inclui a alienação da totalidade das ações da empresa ao grupo chinês. Leia a íntegra do Fato Relevante (PDF – 233 kB).</p><h2>Impactos e informações adicionais</h2><p>“A transação constitui uma etapa importante na estratégia da Companhia voltada à redução do seu endividamento e o equacionamento da sua estrutura de capital” , disse a CSN no comunicado.</p><p>Segundo a empresa, a transação ainda precisa passar pela análise do Cade (Conselho Administrativo de Defesa Econômica) e obter a anuência da Aneel (Agência Nacional de Energia Elétrica), além da aprovação regulatória por parte das autoridades chinesas.</p><p>A companhia não informou quando o negócio deve ser concluído.</p><p>A venda integra uma estratégia da CSN para reduzir seu endividamento. A empresa registrou prejuízo líquido de R$ 773 milhões no 2º trimestre de 2026, alta de 494,6% em relação às perdas de R$ 130 milhões registradas no mesmo período do ano passado.</p><p>Em julho, divulgou estimativa de prejuízo líquido de R$ 1,3 bilhão e R$ 1,4 bilhão para o 1º semestre.</p><p>A CSN é a 2ª maior exportadora de minério de ferro do Brasil, atrás apenas da Vale, e figura entre as maiores vendedoras globais do setor. A companhia também atua nos segmentos de siderurgia, logística e energia.</p><p>A CSN Cimentos, subsidiária de produção de cimentos e materiais de construção, é a 2ª maior produtora de cimentos do país.</p><p>O Huaxin Building Materials Group é uma empresa multinacional especializada na fabricação de materiais de construção. É um dos maiores grupos globais do setor e atua em produção de cimento, concreto, coprocessamento de resíduos e engenharia de equipamentos.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-economia/csn-anuncia-venda-da-area-de-cimentos-a-grupo-chines-por-r-127-bi/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/na-tv-lula-diz-que-se-preocupa-com-divida-publica-e-taxa-de-juros.jpg",
+        "resumo": "Presidente reeleito reafirmou compromisso com responsabilidade fiscal e falou em criar condições para que Selic seja reduzida",
+        "conteudo": "<p>O presidente Luiz Inácio Lula da Silva (PT) disse, em pronunciamento em rede nacional de rádio e televisão neste domingo (8), que a trajetória da dívida pública e os juros altos do país o preocupam e, por este motivo, ele reafirmou o compromisso com a responsabilidade fiscal.</p><h2>Dados e contexto do setor</h2><p>O conteúdo da fala à nação foi antecipado pela CNN Brasil .</p><p>&quot;A economia brasileira tem prosperado, o desemprego está baixo, a inflação sob controle e a renda do trabalhador está crescendo&quot;, avaliou Lula.</p><p>&quot;A trajetória da dívida pública e os juros altos me preocupam, por isso reafirmo meu compromisso com a responsabilidade fiscal, para viabilizar políticas sociais sustentáveis e a ampliação tão necessária do investimento.</p><h2>Impactos e informações adicionais</h2><p>Todo esse esforço será feito preservando as regras fiscais&quot;, enfatizou.</p><p>O presidente reeleito se comprometeu que o governo mira elevar os investimentos do país para um montante maior que 20% do PIB (Produto Interno Bruto).</p><p>A Formação Bruta de Capital Fixo – termo técnico para o nível de investimento – fechou o primeiro semestre de 2026 em 17,6% do PIB, segundo o IBGE (Instituto Brasileiro de Geografia e Estatística).</p><p>Lula afirmou que a melhora do indicador será perseguida &quot;em parceria com o setor privado&quot;.</p><p>&quot;Para tanto, vamos criar as condições para reduzir a taxa de juros&quot;, ressaltou o mandatário no pronunciamento.</p><p>&quot;Com abertura de novos mercados internacionais e investimentos em uma nova indústria nacional, vamos fortalecer setores estratégicos da economia, a exemplo da economia criativa, a economia digital e a economia verde.</p><p>Não perderemos a oportunidade de fazer do Brasil um país capaz de transformar nossas riquezas naturais em um futuro de oportunidades para os nossos trabalhadores e empreendedores, e em crescimento para a nossa nação&quot;, concluiu.</p><p>O controle das contas públicas é uma das principais cobranças do mercado ao petista . Hoje registrando valor equivalente a pouco mais de 80% do PIB, a dívida bruta federal segue em trajetória crescente.</p><p>O Tesouro Nacional calcula que o montante alcançará pico de 89,7% do PIB em 2030 . Economistas trabalham com perspectivas mais negativas, como a IFI (Instituição Fiscal Independente do Senado), que aponta para dívida além de 100% na próxima década .</p><p>Esse foi o primeiro pronunciamento do chefe do Executivo desde que ele registrou uma virada inédita nas eleições presidenciais, há duas semanas, após uma forte mobilização da campanha nas ruas e nas redes sociais.</p><p>Na ocasião, o petista reverteu a desvantagem do primeiro turno e recebeu 51,79% dos votos válidos , contra 48,21% de Flávio Bolsonaro (PL), que fugiu para os Estados Unidos após ser derrotado .</p><p>Em sua fala, que teve pouco mais de sete minutos de duração, Lula agradeceu a população pela oportunidade de governar o país por uma quarta vez. &quot;O Brasil viveu uma das eleições mais importantes de sua história&quot;, disse.</p><p>O petista voltou a dizer que &quot;o Brasil não cabe no quintal de ninguém&quot; e reforçou medidas editadas durante o seu terceiro mandato, como a proibição das bets , o fim da escala 6x1 , a compra de dívidas das famílias e um pacote de apoio aos MEIs (Microempreendedores Individuais).</p><p>Lula: “Vamos criar condições para reduzir juros” | CNN PRIME TIME</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/na-tv-lula-diz-que-se-preocupa-com-divida-publica-e-taxa-de-juros/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil Economia",
@@ -383,150 +491,42 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Companhia comunicou ao mercado neste domingo (8.nov) a assinatura de acordo com a Huaxin Building Material"
+            "resposta": "O presidente Luiz Inácio Lula da Silva (PT) disse, em pronunciamento em rede nacional de rádio e televisão neste domingo (8), que a trajetória da dívida pública e os juros altos do país o preocupam e, por este motivo, ele reafirmou o compromisso com a responsabilidade fiscal. O conteúdo da fala à nação foi antecipado pela CNN Brasil ."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A CSN (Companhia Siderúrgica Nacional) assinou um acordo para vender a sua subsidiária CSN Cimentos ao grupo chinês Huaxin por R$ 12,7 bilhões . A empresa comunicou a venda em Fato Relevante divulgado ao mercado na manhã deste domingo (8.nov.2026)."
+            "resposta": "&quot;A economia brasileira tem prosperado, o desemprego está baixo, a inflação sob controle e a renda do trabalhador está crescendo&quot;, avaliou Lula."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O montante, segundo a companhia, considera o “enterprise value” , ou Valor da Empresa, e pode sofrer ajustes relacionados à dívida líquida e ao capital de giro da CSN Cimentos até a data de fechamento do negócio. A transação inclui a alienação da totalidade das ações da empresa ao grupo chinês. Leia a íntegra do Fato Relevante (PDF – 233 kB)."
+            "resposta": "&quot;A trajetória da dívida pública e os juros altos me preocupam, por isso reafirmo meu compromisso com a responsabilidade fiscal, para viabilizar políticas sociais sustentáveis e a ampliação tão necessária do investimento. Todo esse esforço será feito preservando as regras fiscais&quot;, enfatizou."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "“A transação constitui uma etapa importante na estratégia da Companhia voltada à redução do seu endividamento e o equacionamento da sua estrutura de capital” , disse a CSN no comunicado."
+            "resposta": "O presidente reeleito se comprometeu que o governo mira elevar os investimentos do país para um montante maior que 20% do PIB (Produto Interno Bruto). A Formação Bruta de Capital Fixo – termo técnico para o nível de investimento – fechou o primeiro semestre de 2026 em 17,6% do PIB, segundo o IBGE (Instituto Brasileiro de Geografia e Estatística)."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Segundo a empresa, a transação ainda precisa passar pela análise do Cade (Conselho Administrativo de Defesa Econômica) e obter a anuência da Aneel (Agência Nacional de Energia Elétrica), além da aprovação regulatória por parte das autoridades chinesas. A companhia não informou quando o negócio deve ser concluído."
+            "resposta": "&quot;Para tanto, vamos criar as condições para reduzir a taxa de juros&quot;, ressaltou o mandatário no pronunciamento."
           }
         ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/cimento-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/csn-anuncia-venda-de-negocio-de-cimentos-a-grupo-chines-por-r-12-7-bi.jpg",
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/55587352288_05563a2307_o.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/na-tv-lula-diz-que-se-preocupa-com-divida-publica-e-taxa-de-juros.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "08b4f31e5511c97f",
-      "titulo": "Escritora argentina critica apagamento indígena e governo de Javier Milei",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/cultura/escritora-argentina-critica-apagamento-indigena-e-governo-de-javier-milei/",
-      "dataFonte": "2026-11-08T21:00:35.000Z",
-      "resumoFonte": "Gabriela Cabezón Cámara é vencedora do National Book Award de literatura traduzida em 2025",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-16.18.24.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-08T21:18:49.963Z",
-      "reportagem": {
-        "titulo": "Escritora argentina critica apagamento indígena e governo de Javier Milei",
-        "slug": "escritora-argentina-critica-apagamento-indigena-e-governo-de-javier-milei",
-        "categoria": "Cultura",
-        "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/escritora-argentina-critica-apagamento-indigena-e-governo-de-javier-milei.jpg",
-        "resumo": "Gabriela Cabezón Cámara é vencedora do National Book Award de literatura traduzida em 2025",
-        "conteudo": "<p>A ideia de que a Argentina era um territ&oacute;rio vazio antes da chegada dos europeus n&atilde;o resiste sequer a um mapa, segundo a escritora Gabriela Cabez&oacute;n C&aacute;mara , vencedora do National Book Award de literatura traduzida em 2025.</p><h2>As informações principais do assunto</h2><p>&ldquo;Basta olhar um mapa da Argentina e ler os nomes dos lugares. O rio Paran&aacute;, por exemplo, tem um nome guarani&rdquo;, afirmou &agrave; coluna GENTE .</p><p>A coluna GENTE tamb&eacute;m est&aacute; no Instagram . Siga o perfil @veja.gente</p><p>Autora de As meninas do laranjal , romance que revisita a viol&ecirc;ncia da coloniza&ccedil;&atilde;o da Am&eacute;rica, Gabriela questiona o apagamento dos povos origin&aacute;rios na hist&oacute;ria latino-americana.</p><h2>Contexto e informações complementares</h2><p>&ldquo;A chamada Conquista do Deserto foi uma opera&ccedil;&atilde;o militar gigantesca. Se estava vazio, para que precisavam de um ex&eacute;rcito?&rdquo;, provocou.</p><p>Para ela, o mesmo processo ocorreu no Brasil, onde a presen&ccedil;a ind&iacute;gena tamb&eacute;m foi historicamente negligenciada.</p><p>A argentina cita Ailton Krenak e Davi Kopenawa como importantes pensadores contempor&acirc;neos e defende que a valoriza&ccedil;&atilde;o dos povos origin&aacute;rios come&ccedil;a pela escuta.</p><p>&ldquo;Talvez, para romper com essa mentalidade, o mais eficaz seja, antes de tudo, ouvi-los.&rdquo; Ao comentar a ideia de Krenak de que o futuro &eacute; ancestral, foi al&eacute;m: &ldquo;Acredito verdadeiramente que ele tem raz&atilde;o.</p><p>A cultura ocidental j&aacute; n&atilde;o tem mais nada a oferecer. Estamos a dois passos do abismo&rdquo;.</p><p>Em meio &agrave;s reflex&otilde;es sobre o poder da literatura, a escritora tamb&eacute;m criticou o governo de Javier Milei , na Argentina.</p><p>&ldquo;O governo de Milei tentou censurar v&aacute;rias autoras e alguns autores tamb&eacute;m.</p><p>Ent&atilde;o, algum poder devemos ter, para que eles se deem ao trabalho de tentar nos censurar ou de nos perseguir diretamente&rdquo;, afirmou.</p><p>Para Gabriela, a fic&ccedil;&atilde;o &eacute; capaz de ampliar o imagin&aacute;rio coletivo e propor outras maneiras de viver e de se relacionar com o mundo.</p><p>Uma dessas possibilidades passa pelo cuidado e pela solidariedade entre mulheres. &ldquo;Minha vida teria sido imposs&iacute;vel se eu n&atilde;o tivesse amigas, literalmente.</p><p>Quando tudo est&aacute; muito complicado, as amigas geralmente est&atilde;o presentes e s&atilde;o como uma fam&iacute;lia&rdquo;, disse.</p><p>&ldquo;Existe toda uma m&aacute;quina para fazer com que as mulheres, especialmente as heterossexuais, compitam entre si.&rdquo;</p><p>A rela&ccedil;&atilde;o com o Brasil tamb&eacute;m aparece em suas refer&ecirc;ncias liter&aacute;rias.</p><p>Fascinada pela obra de Ana Paula Maia , a escritora lamenta a pouca circula&ccedil;&atilde;o de livros entre os pa&iacute;ses latino-americanos.</p><p>&ldquo;&Eacute; curioso como a circula&ccedil;&atilde;o de livros entre o Brasil e o restante da Am&eacute;rica Latina &eacute; surpreendentemente pequena&rdquo;, observou.</p><p>Seu romance mais recente, As meninas do laranjal , publicado no Brasil pela Companhia das Letras, acompanha a transforma&ccedil;&atilde;o de um personagem envolvido na conquista espanhola ap&oacute;s o encontro com duas crian&ccedil;as ind&iacute;genas.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/cultura/escritora-argentina-critica-apagamento-indigena-e-governo-de-javier-milei/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A ideia de que a Argentina era um territ&oacute;rio vazio antes da chegada dos europeus n&atilde;o resiste sequer a um mapa, segundo a escritora Gabriela Cabez&oacute;n C&aacute;mara , vencedora do National Book Award de literatura traduzida em 2025. &ldquo;Basta olhar um mapa da Argentina e ler os nomes dos lugares."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A coluna GENTE tamb&eacute;m est&aacute; no Instagram . Siga o perfil @veja.gente"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Autora de As meninas do laranjal , romance que revisita a viol&ecirc;ncia da coloniza&ccedil;&atilde;o da Am&eacute;rica, Gabriela questiona o apagamento dos povos origin&aacute;rios na hist&oacute;ria latino-americana. &ldquo;A chamada Conquista do Deserto foi uma opera&ccedil;&atilde;o militar gigantesca."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Para ela, o mesmo processo ocorreu no Brasil, onde a presen&ccedil;a ind&iacute;gena tamb&eacute;m foi historicamente negligenciada. A argentina cita Ailton Krenak e Davi Kopenawa como importantes pensadores contempor&acirc;neos e defende que a valoriza&ccedil;&atilde;o dos povos origin&aacute;rios come&ccedil;a pela escuta."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Em meio &agrave;s reflex&otilde;es sobre o poder da literatura, a escritora tamb&eacute;m criticou o governo de Javier Milei , na Argentina. &ldquo;O governo de Milei tentou censurar v&aacute;rias autoras e alguns autores tamb&eacute;m."
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-16.18.24.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/escritora-argentina-critica-apagamento-indigena-e-governo-de-javier-milei.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "d411477cf0d137e1",
-      "titulo": "Ginásio do velório de Marília Mendonça foi projetado pelo irmão da cantora",
-      "categoria": "Cultura",
+      "id": "f65ff532f5242832",
+      "titulo": "Ex-presidente do Banco Central do Paraguai diz temer por sua vida",
+      "categoria": "Economia",
       "radar": null,
       "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/celebridades/velorio-de-marilia-mendonca",
-      "dataFonte": "2026-11-08T20:46:53.000Z",
-      "resumoFonte": "Aberto ao público, o velório de Marília Mendonça aconteceu há cinco anos, no dia 6 de novembro de 2021, no ginásio Goiânia Arena, em Goiânia",
-      "imagem": "https://i.metroimg.com/gGxF6EXGk2j3x8HVHMI7CotbZQclUhgYqRyb2eI8X3o/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2023/04/242742326_653309312261472_2543880851726323779_n.jpg",
-      "descobertaEm": "2026-11-08T21:18:49.963Z",
-      "reportagem": {
-        "titulo": "Ginásio do velório de Marília Mendonça foi projetado pelo irmão da cantora",
-        "slug": "ginasio-do-velorio-de-marilia-mendonca-foi-projetado-pelo-irmao-da-cantora",
-        "categoria": "Cultura",
-        "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/ginasio-do-velorio-de-marilia-mendonca-foi-projetado-pelo-irmao-da-cantora.jpg",
-        "resumo": "Aberto ao público, o velório de Marília Mendonça aconteceu há cinco anos, no dia 6 de novembro de 2021, no ginásio Goiânia Arena, em Goiânia",
-        "conteudo": "<p>Realizado há cinco anos , o velório de Marília Mendonça foi marcado por uma coincidência que emocionou a família da cantora sertaneja: o Ginásio Valério Luiz de Oliveira , local que sediou a despedida à Rainha da Sofrência, foi projeto por Mário Mendonça Jr., irmão mais velho de Marília .</p><h2>As informações principais do assunto</h2><p>Mendonça morreu em 5 de novembro de 2021, vítima de um acidente aéreo fatal em Piedade de Caratinga, Minas Gerais, cidade vizinha de Caratinga, onde realizaria um concerto</p><p>Aos 12 anos, começou a compor as próprias canções, incluindo a faixa Minha Herança, que posteriormente viria a ser gravada e lançada pela dupla sertaneja João Neto &amp; Frederico</p><p>Em maio de 2019, Marília assumiu estar em um relacionamento com o músico Murilo Huff. Em junho, confirmou a gravidez, dando à luz ao seu primeiro filho, Léo Dias Mendonça Huff, nascido prematuro de oito meses em 16 de dezembro de 2019, em Goiânia.</p><h2>Contexto e informações complementares</h2><p>O contato com a arte manifestou-se precocemente: aos sete anos de idade, escreveu um poema para a mãe, dando os primeiros sinais de sua aptidão para a escrita</p><p>O velório foi realizado em 6 de novembro de 2021 em Goiânia. Laura Mendonça, a outra irmã da cantora, lembrou que, no momento, notou que o irmão estava muito quieto e foi perguntar o que estava acontecendo.</p><p>“Fiquei preocupada se ele estaria passando mal. Cheguei para ele e perguntei se ele estava bem. Ele olhou para cima do ginásio e falou: ‘Eu não projetei para acontecer isso, não foi para isso que eu projetei esse ginásio'”, disse Laura,</p><p>Em entrevista ao JA1, da TV Anhanguera, afiliada da Globo, a irmã relatou ainda que a resposta dele levou toda a família às lágrimas. “[Foi] Aí que nós lembramos que o irmão da Marília tinha projetado o ginásio .</p><p>Nessa hora, todos nós desmontamos. Ele chorou muito. Foi um baque maior ainda para nós a situação dele na hora”, comentou.</p><p>Local do velório: a despedida de Marília Mendonça ocorreu em 6 de novembro de 2021 no Ginásio Valério Luiz de Oliveira, em Goiânia; Coincidência familiar: o local foi projetado por Mário Mendonça Jr., irmão da cantora; Relato de familiar: Laura Mendonça afirmou que o irmão se emocionou ao relembrar que criou o espaço para finalidades distintas daquela cerimônia fúnebre.</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/celebridades/velorio-de-marilia-mendonca",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Realizado há cinco anos , o velório de Marília Mendonça foi marcado por uma coincidência que emocionou a família da cantora sertaneja: o Ginásio Valério Luiz de Oliveira , local que sediou a despedida à Rainha da Sofrência, foi projeto por Mário Mendonça Jr., irmão mais velho de Marília ."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Mendonça morreu em 5 de novembro de 2021, vítima de um acidente aéreo fatal em Piedade de Caratinga, Minas Gerais, cidade vizinha de Caratinga, onde realizaria um concerto"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Aos 12 anos, começou a compor as próprias canções, incluindo a faixa Minha Herança, que posteriormente viria a ser gravada e lançada pela dupla sertaneja João Neto &amp; Frederico"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Em maio de 2019, Marília assumiu estar em um relacionamento com o músico Murilo Huff. Em junho, confirmou a gravidez, dando à luz ao seu primeiro filho, Léo Dias Mendonça Huff, nascido prematuro de oito meses em 16 de dezembro de 2019, em Goiânia."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O contato com a arte manifestou-se precocemente: aos sete anos de idade, escreveu um poema para a mãe, dando os primeiros sinais de sua aptidão para a escrita"
-          }
-        ],
-        "imagemOriginal": "https://i.metroimg.com/gGxF6EXGk2j3x8HVHMI7CotbZQclUhgYqRyb2eI8X3o/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2023/04/242742326_653309312261472_2543880851726323779_n.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/ginasio-do-velorio-de-marilia-mendonca-foi-projetado-pelo-irmao-da-cantora.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "urlFonte": "https://www.metropoles.com/mundo/ex-presidente-do-banco-central-do-paraguai-diz-temer-por-sua-vida",
+      "dataFonte": "2026-11-08T22:04:20.000Z",
+      "resumoFonte": "Preso após a fraude financeira no Bano Ueno, Carlos Carvallo afirmou à procuradoria \"estar com medo\"",
+      "imagem": "https://i.metroimg.com/g1FITKfrS61NFesilp5uWWUzmR2HgnH6gsPO0AbcBBg/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/carlos-carvallo-bc-paraguai.jpeg",
+      "descobertaEm": "2026-11-08T22:18:27.873Z"
     },
     {
       "id": "c7d298d14ba3783b",
@@ -599,6 +599,126 @@
       "resumoFonte": "Flagrante ocorreu na tarde deste domingo (8/11), no Recanto das Emas, após um motorista de aplicativo denunciar a rinha de galos",
       "imagem": "https://i.metroimg.com/EXr7ZljGKJ97I2oRDvTuAof5w41Q679Gx9WLQ5RLxME/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/rinha-de-galos-recanto-das-emas-3x2-1.jpg",
       "descobertaEm": "2026-11-08T22:18:27.873Z"
+    },
+    {
+      "id": "7e3c0875c2b678d0",
+      "titulo": "Abel critica imprensa: “Quero ver se vão repercutir o lance do Arias”",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/abel-critica-imprensa-quero-ver-se-vao-repercutir-lance-de-arias",
+      "dataFonte": "2026-11-08T23:59:24.000Z",
+      "resumoFonte": "Arias levou pisão de Gabriel Pereira, zagueiro do Vasco, ainda no primeiro da semifinal da Copa do Brasil",
+      "imagem": "https://i.metroimg.com/Bn7yNEB8YWb6pg2uMW-cwv1XNWD2hHkppvgSsMVu_P4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/abel-ferreira-palmeiras-copa-do-brasil-arbitragem.jpg",
+      "descobertaEm": "2026-11-09T00:18:50.005Z",
+      "reportagem": {
+        "titulo": "Abel critica imprensa: “Quero ver se vão repercutir o lance do Arias”",
+        "slug": "abel-critica-imprensa-quero-ver-se-vao-repercutir-o-lance-do-arias",
+        "categoria": "Esporte",
+        "data": "2026-11-08",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/abel-critica-imprensa-quero-ver-se-vao-repercutir-o-lance-do-arias.jpg",
+        "resumo": "Arias levou pisão de Gabriel Pereira, zagueiro do Vasco, ainda no primeiro da semifinal da Copa do Brasil",
+        "conteudo": "<p>Abel Ferreira questionou a imprensa após o Palmeiras vencer o Vasco por 5 x 4 nos pênaltis , neste domingo (8/11), pela semifinal da Copa do Brasil.</p><h2>As informações principais do assunto</h2><p>O treinador português afirmou que quer ver se os veículos de comunicação vão repercutir o lance da entrada do zagueiro Gabriel Pereira em Jhon Arias, assim como fizeram com o toque de mão de Barboza na partida de ida.</p><p>“Eu fiz quase uma promessa de que não ia falar da arbitragem, mas quero ver se a imprensa vai repercutir a imagem do Arias. Quero ver se a imprensa vai repercutir igual repercutiu o lance do Barboza em nossa casa .</p><h2>Contexto e informações complementares</h2><p>Só isso que eu quero ver. Vocês vão dar a mesma atenção ao árbitro? Eu já perdi uma Libertadores em um lance semelhante. O árbitro fez o trabalho dele, acertou e errou lances com todos”, disse Abel Ferreira.</p><p>— denilson (não o show) (@thenewssports_) November 8, 2026</p><p>Resultado da partida: o Palmeiras venceu o Vasco por 5 x 4 nos pênaltis em 8 de novembro, pela semifinal da Copa do Brasil; Declaração de Abel Ferreira: o treinador questionou a imprensa sobre a repercussão de um lance envolvendo o zagueiro Gabriel Pereira e Jhon Arias; Cobrança do treinador: o técnico afirmou que deseja ver se os veículos darão ao lance de Arias a mesma atenção dispensada anteriormente ao toque de mão do jogador Barboza.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/esportes/abel-critica-imprensa-quero-ver-se-vao-repercutir-lance-de-arias",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Abel Ferreira questionou a imprensa após o Palmeiras vencer o Vasco por 5 x 4 nos pênaltis , neste domingo (8/11), pela semifinal da Copa do Brasil."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "“Eu fiz quase uma promessa de que não ia falar da arbitragem, mas quero ver se a imprensa vai repercutir a imagem do Arias. Quero ver se a imprensa vai repercutir igual repercutiu o lance do Barboza em nossa casa . Só isso que eu quero ver. Vocês vão dar a mesma atenção ao árbitro? Eu já perdi uma Libertadores em um lance semelhante."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "— denilson (não o show) (@thenewssports_) November 8, 2026"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Resultado da partida: o Palmeiras venceu o Vasco por 5 x 4 nos pênaltis em 8 de novembro, pela semifinal da Copa do Brasil; Declaração de Abel Ferreira: o treinador questionou a imprensa sobre a repercussão de um lance envolvendo o zagueiro Gabriel Pereira e Jhon Arias; Cobrança do treinador: o técnico afirmou que deseja ver se os veículos darão ao lance de Arias a mesma atenção dispensada anteriormente ao toque de mão do jogador Barboza."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Resultado da partida: o Palmeiras venceu o Vasco por 5 x 4 nos pênaltis em 8 de novembro, pela semifinal da Copa do Brasil; Declaração de Abel Ferreira: o treinador questionou a imprensa sobre a repercussão de um lance envolvendo o zagueiro Gabriel Pereira e Jhon Arias; Cobrança do treinador: o técnico afirmou que deseja ver se os veículos darão ao lance de Arias a mesma atenção dispensada anteriormente ao toque de mão do jogador Barboza."
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/Bn7yNEB8YWb6pg2uMW-cwv1XNWD2hHkppvgSsMVu_P4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/abel-ferreira-palmeiras-copa-do-brasil-arbitragem.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/abel-critica-imprensa-quero-ver-se-vao-repercutir-o-lance-do-arias.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "8a5b6c12c6808fa9",
+      "titulo": "Ida do Palmeiras à final da Copa do Brasil abre vaga para Libertadores via Brasileiro",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://www1.folha.uol.com.br/esporte/2026/11/ida-do-palmeiras-a-final-da-copa-do-brasil-abre-vaga-para-libertadores-via-brasileiro.shtml",
+      "dataFonte": "2026-11-08T23:35:00.000Z",
+      "resumoFonte": "",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/08/17941814156af10927797f3_1794181415_3x2_lg.jpg",
+      "descobertaEm": "2026-11-09T00:18:50.005Z",
+      "reportagem": {
+        "titulo": "Ida do Palmeiras à final da Copa do Brasil abre vaga para Libertadores via Brasileiro",
+        "slug": "ida-do-palmeiras-a-final-da-copa-do-brasil-abre-vaga-para-libertadores-via-brasileiro",
+        "categoria": "Esporte",
+        "data": "2026-11-08",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/ida-do-palmeiras-a-final-da-copa-do-brasil-abre-vaga-para-libertadores-via-brasileiro.jpg",
+        "resumo": "Alviverde já conseguiu lugar no torneio sul-americano também via campeonato nacional",
+        "conteudo": "<p>A classificação do Palmeiras para a decisão da Copa do Brasil aumentou de 5 para 6 o número de vagas para a Libertadores de 2027 via Campeonato Brasileiro .</p><h2>As informações principais do assunto</h2><p>Pelo regulamento da CBF (Confederação Brasileira de Futebol), os finalistas da Copa do Brasil estão garantidos no torneio sul-americano, sendo que o campeão entra direto na fase de grupos, e o vice, no mata-mata preliminar.</p><p>Como o time alviverde já tem um lugar garantido na Libertadores do ano que vem por terminar, na pior das hipóteses, em segundo lugar no Brasileiro, sua vaga obtida por chegar na final da Copa do Brasil ao eliminar o Vasco vai para o sexto colocado (hoje o Bahia quem se beneficia).</p><p>Assim, o Grêmio , se não for rebaixado, estará garantido na fase de grupos, pois herda a vaga via Copa do Brasil remanescente.</p><h2>Contexto e informações complementares</h2><p>Hoje o tricolor gaúcho ocupa a 18ª colocação na tabela do Brasileiro com 37 pontos, empatado com o Corinthians , que leva vantagem no saldo de gols. Ambos estão um ponto atrás do Internacional, o 16º e primeiro fora da zona do rebaixamento.</p><p>As vagas para o principal torneio sul-americano via Brasileiro ainda podem crescer para 9.</p><p>Isso acontecerá se o Palmeiras for campeão da Libertadores, o Atlético-MG vencer a Sul-Americana e terminar entre os seis primeiros do Brasileiro (ou sete, caso o Palmeiras vença a Libertadores) e o Grêmio for rebaixado (a Conmebol estabeleceu que só podem jogar a Libertadores times que estiverem na p.rimeira divisão de seus países).</p><p>A classificação do Palmeiras para a decisão da Copa do Brasil aumentou de 5 para 6 o número de vagas para a Libertadores de 2027 via Campeonato Brasileiro .</p><p>Pelo regulamento da CBF (Confederação Brasileira de Futebol), os finalistas da Copa do Brasil estão garantidos no torneio sul-americano, sendo que o campeão entra direto na fase de grupos, e o vice, no mata-mata preliminar.</p>",
+        "fonteNome": "UOL Notícias",
+        "fonteUrl": "https://www1.folha.uol.com.br/esporte/2026/11/ida-do-palmeiras-a-final-da-copa-do-brasil-abre-vaga-para-libertadores-via-brasileiro.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A classificação do Palmeiras para a decisão da Copa do Brasil aumentou de 5 para 6 o número de vagas para a Libertadores de 2027 via Campeonato Brasileiro ."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Pelo regulamento da CBF (Confederação Brasileira de Futebol), os finalistas da Copa do Brasil estão garantidos no torneio sul-americano, sendo que o campeão entra direto na fase de grupos, e o vice, no mata-mata preliminar."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Como o time alviverde já tem um lugar garantido na Libertadores do ano que vem por terminar, na pior das hipóteses, em segundo lugar no Brasileiro, sua vaga obtida por chegar na final da Copa do Brasil ao eliminar o Vasco vai para o sexto colocado (hoje o Bahia quem se beneficia)."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Hoje o tricolor gaúcho ocupa a 18ª colocação na tabela do Brasileiro com 37 pontos, empatado com o Corinthians , que leva vantagem no saldo de gols. Ambos estão um ponto atrás do Internacional, o 16º e primeiro fora da zona do rebaixamento."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "As vagas para o principal torneio sul-americano via Brasileiro ainda podem crescer para 9."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/08/17941814156af10927797f3_1794181415_3x2_lg.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/ida-do-palmeiras-a-final-da-copa-do-brasil-abre-vaga-para-libertadores-via-brasileiro.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
       "id": "e6cb4f2e296ae425",
@@ -887,81 +1007,21 @@
       "resumoFonte": "Os gols dos donos da casa foram marcados por Mateusz Zukowski, Alselmo García MacNulty, Herbert Bockhorn aos 89, e Roko Simic",
       "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/WhatsApp-Image-2026-11-05-at-20.45.53.jpeg?w=1200&h=630&crop=1",
       "descobertaEm": "2026-11-08T22:18:27.873Z"
-    },
-    {
-      "id": "f202de597756f311",
-      "titulo": "‘Vivenciamos de tudo’, diz Rafa Câmara sobre primeira corrida de F1",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/esporte/vivenciamos-de-tudo-avalia-rafa-camara-sobre-primeira-corrida-de-f1/",
-      "dataFonte": "2026-11-08T20:53:21.000Z",
-      "resumoFonte": "Líder da F2 correu pela Haas em Interlagos sob chuva na classificação e na prova",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/GettyImages-2304169985.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-08T21:18:49.963Z",
-      "reportagem": {
-        "titulo": "‘Vivenciamos de tudo’, diz Rafa Câmara sobre primeira corrida de F1",
-        "slug": "vivenciamos-de-tudo-diz-rafa-camara-sobre-primeira-corrida-de-f1",
-        "categoria": "Esporte",
-        "data": "2026-11-08",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/vivenciamos-de-tudo-diz-rafa-camara-sobre-primeira-corrida-de-f1.jpg",
-        "resumo": "Líder da F2 correu pela Haas em Interlagos sob chuva na classificação e na prova",
-        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril.</p><h2>As informações principais do assunto</h2><p>Rafael C&acirc;mara correu seu primeiro GP de S&atilde;o Paulo e de F&oacute;rmula 1 no Aut&oacute;dromo de Interlagos. Na corrida deste domingo, 8, o piloto terminou em 20&ordm; lugar no carro da Haas.</p><p>Anunciado como titular da equipe americana a partir de 2027, o pernambucano de 21 anos avaliou o final de semana como um &ldquo;bom teste&rdquo; para o futuro.</p><p>O estreante pela Haas descreveu como &ldquo;complicada&rdquo; a corrida em Interlagos.</p><h2>Contexto e informações complementares</h2><p>Largando na 11&ordf; posi&ccedil;&atilde;o depois de avan&ccedil;ar ao Q2 na classifica&ccedil;&atilde;o, Rafa perdeu posi&ccedil;&otilde;es na largada e voltou a ter dificuldades na pista molhada.</p><p>Na classifica&ccedil;&atilde;o, sob forte chuva, bateu no muro no final da segunda sess&atilde;o.</p><p>&ldquo;Vivenciamos de tudo em uma &uacute;nica corrida. Ent&atilde;o, n&atilde;o foi f&aacute;cil permanecer na pista. Cometi alguns erros que realmente n&atilde;o esperava cometer hoje.</p><p>Mas, de certa forma, acho que isso faz parte do processo de compreens&atilde;o e de adapta&ccedil;&atilde;o a tudo&rdquo;, disse o piloto em entrevista p&oacute;s-corrida.</p><p>&ldquo;Com certeza, n&atilde;o fiquei totalmente satisfeito com o meu desempenho hoje. Ainda assim, acho que foi um &oacute;timo aprendizado para o futuro.&rdquo;</p><p>&ldquo;A pista estava um pouco &uacute;mida e, em alguns momentos, eu simplesmente n&atilde;o estava colocando o carro no lugar certo, acabava travando as rodas e, ent&atilde;o, a traseira come&ccedil;ava a escapar.</p><p>Voc&ecirc; conseguia ter ader&ecirc;ncia na dianteira, mas a traseira simplesmente escapava&rdquo;, detalhou.</p><p>De olho no futuro, o estreante em um GP de F1 afirmou: &ldquo;Agora &eacute; analisar com a equipe o que podemos fazer daqui para frente. Em breve, vamos precisar ver o que vai acontecer.</p><p>Mas vamos simplesmente tentar garantir que entendemos tudo o que aconteceu e seguir em frente&rdquo;, completou.</p><p>C&acirc;mara, no entanto, n&atilde;o confirmou se ir&aacute; correr no GP de Las Vegas: &ldquo;N&atilde;o sei. Vamos ver. Ainda teremos muitas coisas para discutir depois deste fim de semana.</p><p>Mas, seja qual for a decis&atilde;o, ficarei feliz. Estou fazendo o que amo, que &eacute; pilotar. Ent&atilde;o, de qualquer maneira, ser&aacute; bom.&rdquo;</p><p>O jovem de 21 anos assumiu em Interlagos pela primeira vez o posto de piloto na F&oacute;rmula 1 ap&oacute;s a demiss&atilde;o de Esteban Ocon, ent&atilde;o titular da Haas, que deixou a equipe no GP do M&eacute;xico na &uacute;ltima semana de outubro.</p><p>Na corrida na capital mexicana foi substitu&iacute;do por Ryo Hirakawa, piloto reserva da Haas. A equipe ainda n&atilde;o confirmou quem pilotar&aacute; o carro nas &uacute;ltimas corridas.</p><p>Apesar das dificuldades, o piloto destacou o que tira de bom do GP no Brasil: O ponto mais positivo foi termos vivenciado de tudo um pouco em um &uacute;nico fim de semana.</p><p>Acredito que isso ser&aacute; muito &uacute;til para o futuro. E, como eu disse, depois deste fim de semana, h&aacute; muitas coisas para analisar e preparar.</p><p>Acho que foi um bom teste pensando no futuro, para nos colocarmos em uma posi&ccedil;&atilde;o melhor, estarmos mais preparados e, enfim, chegarmos ainda mais prontos para os pr&oacute;ximos desafios.&rdquo;</p><p>O pr&oacute;ximo GP de F&oacute;rmula 1 ser&aacute; em Las Vegas, entre os dias 19 e 22 de novembro.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/esporte/vivenciamos-de-tudo-avalia-rafa-camara-sobre-primeira-corrida-de-f1/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Rafael C&acirc;mara correu seu primeiro GP de S&atilde;o Paulo e de F&oacute;rmula 1 no Aut&oacute;dromo de Interlagos. Na corrida deste domingo, 8, o piloto terminou em 20&ordm; lugar no carro da Haas."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O estreante pela Haas descreveu como &ldquo;complicada&rdquo; a corrida em Interlagos. Largando na 11&ordf; posi&ccedil;&atilde;o depois de avan&ccedil;ar ao Q2 na classifica&ccedil;&atilde;o, Rafa perdeu posi&ccedil;&otilde;es na largada e voltou a ter dificuldades na pista molhada."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "&ldquo;Vivenciamos de tudo em uma &uacute;nica corrida. Ent&atilde;o, n&atilde;o foi f&aacute;cil permanecer na pista. Cometi alguns erros que realmente n&atilde;o esperava cometer hoje. Mas, de certa forma, acho que isso faz parte do processo de compreens&atilde;o e de adapta&ccedil;&atilde;o a tudo&rdquo;, disse o piloto em entrevista p&oacute;s-corrida."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "&ldquo;A pista estava um pouco &uacute;mida e, em alguns momentos, eu simplesmente n&atilde;o estava colocando o carro no lugar certo, acabava travando as rodas e, ent&atilde;o, a traseira come&ccedil;ava a escapar. Voc&ecirc; conseguia ter ader&ecirc;ncia na dianteira, mas a traseira simplesmente escapava&rdquo;, detalhou."
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/11/GettyImages-2304169985.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/vivenciamos-de-tudo-diz-rafa-camara-sobre-primeira-corrida-de-f1.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
     }
   ],
-  "reapuradoEm": "2026-11-09T00:05:49.083Z",
+  "reapuradoEm": "2026-11-09T00:49:05.753Z",
   "diagnosticoReapuracao": {
-    "produzidas": 14,
+    "produzidas": 15,
     "jaProntas": 0,
     "incompletas": 8,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 14,
+    "geradas": 15,
     "reaproveitadas": 0,
     "puladas": 8,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-09T00:07:15.254Z"
+  "lapisEm": "2026-11-09T00:50:27.109Z"
 }
