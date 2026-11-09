@@ -1,16 +1,16 @@
 {
-  "geradoEm": "2026-11-09T22:48:08.202Z",
+  "geradoEm": "2026-11-09T23:48:14.124Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
-    "totalPendentes": 64,
+    "totalPendentes": 66,
     "bloqueadas": 1,
-    "bloqueadasEditoriais": 7,
+    "bloqueadasEditoriais": 6,
     "semImagem": 0,
-    "duplicadasBasicas": 0,
-    "duplicadasSemanticas": 2,
-    "foraCategorias": 31
+    "duplicadasBasicas": 2,
+    "duplicadasSemanticas": 6,
+    "foraCategorias": 32
   },
-  "quantidadeCandidatas": 23,
+  "quantidadeCandidatas": 19,
   "candidatas": [
     {
       "id": "759134e4bd27741f",
@@ -73,73 +73,541 @@
       }
     },
     {
-      "id": "6f77130292b4b610",
-      "titulo": "Adolescente é vítima de abuso sexual dentro de ônibus em Vitória",
+      "id": "c8d0ee7501441b46",
+      "titulo": "Mulher é presa suspeita de injúria racial contra árbitro de jiu-jítsu em Vitória",
       "categoria": "Segurança Pública",
       "radar": null,
       "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/adolescente-e-vitima-de-abuso-sexual-dentro-de-onibus-em-vitoria-1126",
-      "dataFonte": "2026-11-09T21:56:46.000Z",
-      "resumoFonte": "Homem de 61 anos foi autuado em flagrante por estupro de vulnerável e levado para o presídio; vítima de 13 anos gritou por socorro e motorista acionou a Guarda Municipal",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1794257936775_template_radar_a_gazeta_2026_11_09t175842.jpg",
-      "descobertaEm": "2026-11-09T22:17:58.955Z"
+      "urlFonte": "https://www.agazeta.com.br/es/policia/mulher-e-presa-suspeita-de-injuria-racial-contra-arbitro-de-jiu-jitsu-em-vitoria-1126",
+      "dataFonte": "2026-11-09T22:45:00.000Z",
+      "resumoFonte": "Segundo a Guarda Municipal, suspeita chamou árbitro de “macaco” durante competição no Ginásio Tancredão; testemunha prestou depoimento",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1774911216023_2020_03_03_tancredao_fica_na_ilha_do_principe_proximo_ao_sambao_do_povo_199949_article.jpg",
+      "descobertaEm": "2026-11-09T23:18:02.698Z"
     },
     {
-      "id": "3fa7be833e3e86d4",
-      "titulo": "Câmara prevê gastos de quase R$ 6 milhões com tablets para deputados",
+      "id": "580e6baa82254fee",
+      "titulo": "Organizações lançam manifesto pelo combate aos supersalários como prioridade do Governo",
       "categoria": "Política Nacional",
       "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/11/09/organizacoes-lancam-manifesto-pelo-combate-aos-supersalarios-como-prioridade-do-governo.htm",
+      "dataFonte": "2026-11-09T22:51:00.000Z",
+      "resumoFonte": "Sete organizações da sociedade civil lançaram, nesta segunda-feira, 9, um manifesto que defende que o combate aos supersalários seja uma prioridade do governo e do Congresso Nacional.",
+      "imagem": "https://s2-g1.glbimg.com/w9kRR5XnOOtvE9Mx95TZV2VvHbw=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/D/G/ROLPbPRkKUoYS0MStzBw/globo-canal-4-20260205-2000-frame-57603.jpeg",
+      "descobertaEm": "2026-11-09T23:18:02.698Z"
+    },
+    {
+      "id": "eca5d62ee486672e",
+      "titulo": "BYD e TIM fecham acordo para conectar frota e fábrica no Brasil",
+      "categoria": "Economia",
+      "radar": null,
       "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/camara-preve-gastos-de-quase-r-6-milhoes-com-tablets-para-deputados/",
-      "dataFonte": "2026-11-09T21:59:30.000Z",
-      "resumoFonte": "A Câmara dos Deputados abriu uma licitação para comprar 604 tablets, com valor máximo estimado em R$ 5,77 milhões. A aquisição prevê aparelhos para os 513 deputados federais e outras 91 unidades destinadas a atividades administrativas da Casa. Os equipamentos destinados aos parlamentares terão conexão 5G e preço máximo de R$ 9.809,86 por unidade.…",
-      "imagem": "https://medias-r2.revistaoeste.com/wp-content/uploads/2026/11/Camara_Tablet-910x568.jpeg.webp",
-      "descobertaEm": "2026-11-09T22:17:58.955Z",
+      "urlFonte": "https://revistaoeste.com/economia/byd-e-tim-fecham-acordo-para-conectar-frota-e-fabrica-no-brasil/",
+      "dataFonte": "2026-11-09T23:10:45.000Z",
+      "resumoFonte": "A TIM fechou um contrato com a BYD para fornecer conectividade a toda a frota de veículos leves da montadora chinesa no Brasil e ao seu complexo industrial em Camaçari, na Bahia. O anúncio foi feito nesta segunda-feira, 9. A previsão é de que cerca de 200 mil veículos recebam a tecnologia nos próximos 24 meses. Os carros da BYD passarão a contar…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/07/BYD.jpg.webp",
+      "descobertaEm": "2026-11-09T23:18:02.698Z",
       "reportagem": {
-        "titulo": "Câmara prevê gastos de quase R$ 6 milhões com tablets para deputados",
-        "slug": "camara-preve-gastos-de-quase-r-6-milhoes-com-tablets-para-deputados",
-        "categoria": "Política Nacional",
+        "titulo": "BYD e TIM fecham acordo para conectar frota e fábrica no Brasil",
+        "slug": "byd-e-tim-fecham-acordo-para-conectar-frota-e-fabrica-no-brasil",
+        "categoria": "Economia",
         "data": "2026-11-09",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/camara-preve-gastos-de-quase-r-6-milhoes-com-tablets-para-deputados.jpg",
-        "resumo": "Licitação prevê a compra de 604 aparelhos, incluindo modelos com conexão 5G para os 513 parlamentares",
-        "conteudo": "<p>A Câmara dos Deputados lançou uma licitação para a compra de 604 tablets, com um valor máximo de R$ 5,77 milhões, incluindo 513 unidades para deputados e 91 para atividades administrativas.</p><h2>O contexto do cenário político</h2><p>Os tablets para parlamentares terão conexão 5G, custando até R$ 9.809,86 cada, enquanto os administrativos, com conexão Wi-Fi, poderão chegar a R$ 8.119,99.</p><p>O edital, que menciona modelos como iPad Pro e Galaxy Tab, exige especificações técnicas e será realizado em 17 de novembro.</p><p>A Câmara dos Deputados abriu uma licitação para comprar 604 tablets, com valor máximo estimado em R$ 5,77 milhões. A aquisição prevê aparelhos para os 513 deputados federais e outras 91 unidades destinadas a atividades administrativas da Casa.</p><h2>Informações e repercussões do episódio</h2><p>Os equipamentos destinados aos parlamentares terão conexão 5G e preço máximo de R$ 9.809,86 por unidade. Já os outros 91 aparelhos, com conexão apenas Wi-Fi, poderão custar até R$ 8.119,99 cada.</p><p>O edital estabelece como referência modelos como o iPad Pro 11, da Apple, e os Galaxy Tab S11 e S10+, da Samsung. Os dispositivos deverão ter telas de pelo menos 10,9 polegadas, memória RAM mínima de 8 GB e bateria com autonomia de oito horas.</p><p>A contratação também exige capas resistentes a quedas, películas de proteção e garantia de dois anos. O pregão eletrônico está marcado para 17 de novembro.</p><p>A escolha do fornecedor seguirá o critério de menor preço, desde que atendidas as exigências técnicas estabelecidas no edital.</p><p>Segundo a Câmara, os equipamentos serão utilizados para facilitar o trabalho nos gabinetes, com acesso a documentos, sistemas internos, reuniões virtuais e votações.</p><p>A justificativa da compra também menciona a intenção de reduzir o consumo de papel e permitir o uso dos aparelhos em atividades externas, como vistorias e coleta de dados.</p><p>O valor de R$ 5,77 milhões representa o teto previsto para a contratação. O montante efetivamente gasto dependerá do resultado da licitação.</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/byd-e-tim-fecham-acordo-para-conectar-frota-e-fabrica-no-brasil.jpg",
+        "resumo": "Operadora vai fornecer eSIM para 200 mil veículos e implementar rede 5G dedicada no complexo industrial de Camaçari (BA)",
+        "conteudo": "<p>A TIM firmou um contrato com a BYD para fornecer conectividade a sua frota de veículos leves no Brasil e ao complexo industrial em Camaçari, na Bahia, com previsão de atender cerca de 200 mil veículos em 24 meses.</p><h2>Dados e contexto do setor</h2><p>Os carros receberão chips eSIM com conexão 4G e 5G, além de serviços digitais para 400 mil veículos já em circulação.</p><p>A TIM também implementará uma infraestrutura de redes no complexo, que é a maior fábrica de veículos eletrificados da América Latina.</p><p>A TIM fechou um contrato com a BYD para fornecer conectividade a toda a frota de veículos leves da montadora chinesa no Brasil e ao seu complexo industrial em Camaçari, na Bahia.</p><h2>Impactos e informações adicionais</h2><p>O anúncio foi feito nesta segunda-feira, 9. A previsão é de que cerca de 200 mil veículos recebam a tecnologia nos próximos 24 meses.</p><p>Os carros da BYD passarão a contar com chips virtuais (eSIM) da TIM, com conexão 4G em 100% das cidades brasileiras e 5G em cerca de 1,1 mil municípios onde a operadora tem cobertura.</p><p>A parceria também estenderá serviços digitais embarcados aos cerca de 400 mil veículos da marca que já circulam no país.</p><p>O acordo amplia a presença da TIM no setor automotivo. A operadora já fornece conectividade para cerca de 630 mil veículos no Brasil.</p><p>A empresa também mantém parceria com o grupo Stellantis para fornecer 4G e eSIM a modelos das marcas Fiat, Jeep e Ram.</p><p>O contrato com a BYD representa um avanço no segmento de Internet das Coisas (IoT) voltado ao setor automotivo.</p><p>O complexo industrial da BYD em Camaçari, inaugurado em outubro de 2025, é a maior fábrica de veículos eletrificados da América Latina, com 4,6 milhões de m².</p><p>A TIM vai implementar uma infraestrutura dedicada de redes 4G e 5G no local. O projeto prevê a instalação de sete pontos de cobertura externa e 63 equipamentos distribuídos entre os galpões e as áreas operacionais.</p><p>A rede vai conectar linhas de produção, maquinários pesados, sistemas de automação e controle, além dos colaboradores da planta. Cerca de 14 mil a 15 mil pessoas circulam pelo local diariamente.</p><p>A infraestrutura também permitirá a troca de informações em tempo real e a integração dos processos industriais.</p><p>Com a conectividade embarcada, os proprietários dos veículos poderão gerenciar funções remotas por meio de um aplicativo de smartphone.</p><p>Entre os recursos disponíveis estão o controle da climatização, o destravamento das portas e o rastreamento em tempo real do veículo.</p><p>A expectativa é que a conectividade constante amplie o uso de serviços como mapas, streaming e funcionalidades baseadas em inteligência artificial.</p><p>O CEO da TIM Brasil, Alberto Griselli, afirmou que a parceria une a digitalização de uma operação industrial à evolução da conectividade embarcada.</p><p>“A tecnologia é um dos principais motores de transformação da indústria automotiva e da mobilidade”, declarou.</p><p>A TIM negocia ainda uma parceria de conectividade via satélite de órbita baixa para estender o sinal a áreas remotas do país.</p>",
         "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/camara-preve-gastos-de-quase-r-6-milhoes-com-tablets-para-deputados/",
+        "fonteUrl": "https://revistaoeste.com/economia/byd-e-tim-fecham-acordo-para-conectar-frota-e-fabrica-no-brasil/",
         "fontesAdicionais": [
           {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
           },
           {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "A Câmara dos Deputados lançou uma licitação para a compra de 604 tablets, com um valor máximo de R$ 5,77 milhões, incluindo 513 unidades para deputados e 91 para atividades administrativas. Os tablets para parlamentares terão conexão 5G, custando até R$ 9.809,86 cada, enquanto os administrativos, com conexão Wi-Fi, poderão chegar a R$ 8.119,99."
+            "resposta": "A TIM firmou um contrato com a BYD para fornecer conectividade a sua frota de veículos leves no Brasil e ao complexo industrial em Camaçari, na Bahia, com previsão de atender cerca de 200 mil veículos em 24 meses. Os carros receberão chips eSIM com conexão 4G e 5G, além de serviços digitais para 400 mil veículos já em circulação."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A Câmara dos Deputados abriu uma licitação para comprar 604 tablets, com valor máximo estimado em R$ 5,77 milhões. A aquisição prevê aparelhos para os 513 deputados federais e outras 91 unidades destinadas a atividades administrativas da Casa."
+            "resposta": "A TIM fechou um contrato com a BYD para fornecer conectividade a toda a frota de veículos leves da montadora chinesa no Brasil e ao seu complexo industrial em Camaçari, na Bahia. O anúncio foi feito nesta segunda-feira, 9. A previsão é de que cerca de 200 mil veículos recebam a tecnologia nos próximos 24 meses."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Os equipamentos destinados aos parlamentares terão conexão 5G e preço máximo de R$ 9.809,86 por unidade. Já os outros 91 aparelhos, com conexão apenas Wi-Fi, poderão custar até R$ 8.119,99 cada."
+            "resposta": "Os carros da BYD passarão a contar com chips virtuais (eSIM) da TIM, com conexão 4G em 100% das cidades brasileiras e 5G em cerca de 1,1 mil municípios onde a operadora tem cobertura. A parceria também estenderá serviços digitais embarcados aos cerca de 400 mil veículos da marca que já circulam no país."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "O edital estabelece como referência modelos como o iPad Pro 11, da Apple, e os Galaxy Tab S11 e S10+, da Samsung. Os dispositivos deverão ter telas de pelo menos 10,9 polegadas, memória RAM mínima de 8 GB e bateria com autonomia de oito horas."
+            "resposta": "O acordo amplia a presença da TIM no setor automotivo. A operadora já fornece conectividade para cerca de 630 mil veículos no Brasil. A empresa também mantém parceria com o grupo Stellantis para fornecer 4G e eSIM a modelos das marcas Fiat, Jeep e Ram."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A contratação também exige capas resistentes a quedas, películas de proteção e garantia de dois anos. O pregão eletrônico está marcado para 17 de novembro. A escolha do fornecedor seguirá o critério de menor preço, desde que atendidas as exigências técnicas estabelecidas no edital."
+            "resposta": "O complexo industrial da BYD em Camaçari, inaugurado em outubro de 2025, é a maior fábrica de veículos eletrificados da América Latina, com 4,6 milhões de m². A TIM vai implementar uma infraestrutura dedicada de redes 4G e 5G no local."
           }
         ],
-        "imagemOriginal": "https://medias-r2.revistaoeste.com/wp-content/uploads/2026/11/Camara_Tablet-910x568.jpeg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/camara-preve-gastos-de-quase-r-6-milhoes-com-tablets-para-deputados.jpg",
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2025/07/BYD.jpg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/byd-e-tim-fecham-acordo-para-conectar-frota-e-fabrica-no-brasil.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "22afe10eec4190d0",
+      "titulo": "Papa Leão 14 se reúne com vítimas de abuso sexual na Argentina",
+      "categoria": "Fé e Sociedade",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-internacional/papa-leao-14-se-reune-com-vitimas-de-abuso-sexual-na-argentina/",
+      "dataFonte": "2026-11-09T22:18:47.000Z",
+      "resumoFonte": "Pontífice ouviu relatos de 5 pessoas e recebeu propostas para fortalecer ações de acolhimento na Igreja",
+      "imagem": "https://static.poder360.com.br/uploads/2026/11/papa-leao-14-vatican-argentina-1200x675.jpg",
+      "descobertaEm": "2026-11-09T23:18:02.698Z"
+    },
+    {
+      "id": "5a472c4072fe4608",
+      "titulo": "Caso Nvidia: o que se sabe sobre o escândalo de espionagem",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/mundo/caso-nvidia-o-que-se-sabe-sobre-o-escandalo-de-espionagem/",
+      "dataFonte": "2026-11-09T22:52:04.000Z",
+      "resumoFonte": "Diretor-executivo, Jensen Huang, cuja empresa impulsiona o crescimento da inteligência artificial (IA), admitiu ter tido um caso extraconjugal com uma empresária chinesa",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/AFP__20261109__D6VD3NQ__v1__HighRes__FilesTaiwanUsNvidiaProbeEspionage.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-09T23:18:02.698Z",
+      "reportagem": {
+        "titulo": "Caso Nvidia: o que se sabe sobre o escândalo de espionagem",
+        "slug": "caso-nvidia-o-que-se-sabe-sobre-o-escandalo-de-espionagem",
+        "categoria": "Tecnologia",
+        "data": "2026-11-09",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/caso-nvidia-o-que-se-sabe-sobre-o-escandalo-de-espionagem.jpg",
+        "resumo": "Diretor-executivo, Jensen Huang, cuja empresa impulsiona o crescimento da inteligência artificial (IA), admitiu ter tido um caso extraconjugal com uma empresária chinesa",
+        "conteudo": "<p>O diretor-executivo da Nvidia, Jensen Huang, cuja empresa impulsiona o crescimento da inteligência artificial (IA), admitiu ter tido um caso extraconjugal com uma empresária chinesa que, segundo a inteligência americana, trabalhava para Pequim.</p><h2>Dados e contexto do setor</h2><p>Huang, de 63 anos, reconheceu no domingo (8) ter mantido um relacionamento extraconjugal em uma mensagem enviada aos funcionários da Nvidia.</p><p>“Fui infiel à minha esposa”, escreveu. “Minhas ações a magoaram, assim como aos nossos filhos. Não há desculpa para o que fiz. Lamento profundamente”, declarou. Huang é casado com sua esposa, Lori, desde 1985.</p><p>As declarações foram divulgadas depois que o jornal The New York Times informou que autoridades da inteligência dos Estados Unidos concluíram que a mulher, Alice Huang, trabalhava para Pequim e estava vazando informações.</p><h2>Impactos e informações adicionais</h2><p>A Nvidia informou anteriormente que as interações de Huang com a executiva chinesa “não eram incomuns nem inesperadas” , devido à relação comercial entre ambos.</p><p>Alice Huang – também conhecida como Huang Le, sem parentesco com Jensen Huang – é u ma executiva ligada à empresa de centros de dados Megaspeed.</p><p>A empresa, sediada em Singapura, foi desmembrada de uma companhia chinesa em 2023 e aluga capacidade computacional baseada em chips da Nvidia.</p><p>O The Wall Street Journal informou que e la e Huang foram fotografados juntos em Taipé em 2024 e 2025.</p><p>Segundo o Times, um memorando distribuído entre altos funcionários americanos citava informações de inteligência de que ela era uma agente do Ministério da Segurança do Estado da China.</p><p>O documento de inteligência afirmava que a mulher havia sido recrutada para reunir informações sobre Huang e tentar pressioná-lo a fazer com que a Nvidia vendesse seus chips mais avançados para a China.</p><p>O Journal informou que as autoridades de Singapura e de Taiwan também suspeitavam que os serviços de inteligência chineses a haviam recrutado depois de tomar conhecimento de sua proximidade com Huang. Até o momento, não se sabe o paradeiro de Alice Huang.</p><p>Autoridades americanas suspeitam que a Megaspeed tenha ajudado a introduzir clandestinamente chips sujeitos a restrições na China, e o Departamento de Justiça assumiu uma investigação federal sobre a empresa.</p><p>Por que esse caso é importante? A Nvidia controla aproximadamente 90% do mercado de chips utilizados para treinar e executar modelos de IA.</p><p>Washington restringe a venda dos modelos mais avançados para a China desde 2022, durante o governo de Joe Biden. Huang também tem sido um dos conselheiros informais mais influentes de Trump em questões relacionadas à IA.</p><p>O Journal informou que autoridades da inteligência suspeitavam do relacionamento extraconjugal enquanto Huang pressionava a Casa Branca a permitir a exportação de chips para a China.</p><p>No final do ano passado, ele defendeu a venda dos chips mais potentes da Nvidia para aquele país , uma tentativa bloqueada pelo secretário de Estado, Marco Rubio, e por outras autoridades.</p><p>Trump, no entanto, permitiu a venda de um processador menos avançado, em troca de uma participação de 25% dos lucros para os Estados Unidos.</p><p>Segundo o Times, Trump foi informado sobre as informações de inteligência há aproximadamente um ano e não tomou nenhuma medida a respeito. Trump afirmou neste domingo que não se arrependia de não ter agido.</p><p>“Ele é um homem honrado. Acho que provavelmente tem uma explicação”, insistiu.</p><p>Diretor-executivo, Jensen Huang, cuja empresa impulsiona o crescimento da inteligência artificial (IA), admitiu ter tido um caso extraconjugal com uma empresária chinesa</p><p>China nega acusação de espionagem envolvendo CEO da Nvidia</p><p>Pequim classificou as denúncias como infundadas; empresa anunciou investigação interna e ações recuam no pré-mercado</p><p>Trump diz que 'estava brincando' quando ofereceu cargo na Casa Branca ao CEO do UFC</p><p>Papa se reúne na Argentina com vítimas de abusos sexuais por parte do clero</p><p>COP31 começa com divergências sobre financiamento climático e apelo da ONU</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/mundo/caso-nvidia-o-que-se-sabe-sobre-o-escandalo-de-espionagem/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/"
+          },
+          {
+            "nome": "MCTI",
+            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O diretor-executivo da Nvidia, Jensen Huang, cuja empresa impulsiona o crescimento da inteligência artificial (IA), admitiu ter tido um caso extraconjugal com uma empresária chinesa que, segundo a inteligência americana, trabalhava para Pequim."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "“Fui infiel à minha esposa”, escreveu. “Minhas ações a magoaram, assim como aos nossos filhos. Não há desculpa para o que fiz. Lamento profundamente”, declarou. Huang é casado com sua esposa, Lori, desde 1985."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "As declarações foram divulgadas depois que o jornal The New York Times informou que autoridades da inteligência dos Estados Unidos concluíram que a mulher, Alice Huang, trabalhava para Pequim e estava vazando informações."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Alice Huang – também conhecida como Huang Le, sem parentesco com Jensen Huang – é u ma executiva ligada à empresa de centros de dados Megaspeed. A empresa, sediada em Singapura, foi desmembrada de uma companhia chinesa em 2023 e aluga capacidade computacional baseada em chips da Nvidia."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Segundo o Times, um memorando distribuído entre altos funcionários americanos citava informações de inteligência de que ela era uma agente do Ministério da Segurança do Estado da China."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/AFP__20261109__D6VD3NQ__v1__HighRes__FilesTaiwanUsNvidiaProbeEspionage.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/caso-nvidia-o-que-se-sabe-sobre-o-escandalo-de-espionagem.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "e09a774c7fca003a",
+      "titulo": "Jogadores do Sete de Setembro são expulsos após briga entre si na Copa MS",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/jogadores-do-sete-de-setembro-sao-expulsos-apos-briga-entre-si-na-copa-ms",
+      "dataFonte": "2026-11-09T22:54:05.000Z",
+      "resumoFonte": "Pela 4ª rodada da competição local, o Dourados goleou o Sete de Setembro por 4 x 0",
+      "imagem": "https://i.metroimg.com/RmuWQUidjuAthBsLntKyngAh99LxrfQf7JNXEGvej9c/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/sete-de-setembro-ms.png",
+      "descobertaEm": "2026-11-09T23:18:02.698Z"
+    },
+    {
+      "id": "d99a3ee101fbabaf",
+      "titulo": "Senador eleito revela desejo de Dino em disputar a Presidência",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/senador-eleito-revela-desejo-de-dino-em-disputar-a-presidencia/",
+      "dataFonte": "2026-11-09T23:15:21.000Z",
+      "resumoFonte": "O senador eleito pelo Maranhão Lahesio Bonfim (Novo) afirmou que o ministro Flávio Dino, do Supremo Tribunal Federal (STF), pretende deixar a Corte para disputar a Presidência da República quando o presidente Luiz Inácio Lula da Silva sair da vida pública. A declaração ocorreu durante entrevista ao Oeste Sem Filtro desta segunda-feira, 9. “Não…",
+      "imagem": "https://medias-r2.revistaoeste.com/wp-content/uploads/2026/11/lahesio-bonfim-910x568.jpg.webp",
+      "descobertaEm": "2026-11-09T23:18:02.698Z",
+      "reportagem": {
+        "titulo": "Senador eleito revela desejo de Dino em disputar a Presidência",
+        "slug": "senador-eleito-revela-desejo-de-dino-em-disputar-a-presidencia",
+        "categoria": "Justiça",
+        "data": "2026-11-09",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/senador-eleito-revela-desejo-de-dino-em-disputar-a-presidencia.jpg",
+        "resumo": "Lahesio Bonfim (Novo-MA) diz que ministro deixará o STF para retornar à política",
+        "conteudo": "<p>• O senador eleito Lahesio Bonfim (Novo-MA) afirmou que Flávio Dino pretende deixar o STF para disputar a Presidência.</p><h2>O contexto da decisão judicial</h2><p>• Segundo Bonfim, Dino retornará à política quando Lula deixar a vida política; o senador também criticou sua gestão no Maranhão.</p><p>• Bonfim declarou apoio a Rogério Marinho (PL-RN) para presidir o Senado e descartou votar em Davi Alcolumbre (União-AP).</p><p>O senador eleito pelo Maranhão Lahesio Bonfim (Novo) afirmou que o ministro Flávio Dino, do Supremo Tribunal Federal (STF), pretende deixar a Corte para disputar a Presidência da República quando o presidente Luiz Inácio Lula da Silva sair da vida pública.</p><h2>Detalhes e consequências do caso</h2><p>A declaração ocorreu durante entrevista ao Oeste Sem Filtro desta segunda-feira, 9.</p><p>“Não tenho dúvida, conhecendo o Flávio Dino, ele só vai ficar no Supremo enquanto o Lula estiver na vida política”, declarou Bonfim. “Quando o Lula deixar a política, você pode ter certeza que o Flávio Dino entra novamente no jogo.”</p><p>O senador eleito, ex-prefeito de São Pedro dos Crentes (MA) , também afirmou que Dino tem ambições presidenciais. Os dois foram adversários políticos no Maranhão, onde o ministro governou por dois mandatos.</p><p>“Dino tem um ideal de vida, um foco: ele quer ser presidente, ele busca o poder”, disse.</p><p>Bonfim criticou a administração de Dino no governo maranhense e avaliou que o histórico do ministro no Executivo estadual dificultaria uma eventual candidatura presidencial.</p><p>Segundo ele, Dino perdeu influência política no Maranhão e precisaria buscar apoio em outros Estados para retornar à disputa eleitoral.</p><p>Durante a entrevista, Bonfim também declarou apoio ao senador Rogério Marinho (PL-RN) na disputa pela presidência do Senado Federal, prevista para fevereiro de 2027, e descartou votar em Davi Alcolumbre (União-AP).</p><p>O parlamentar eleito criticou a condução do atual presidente à frente da Casa. “Se o senador Alcolumbre já disse que ele é maior do que o Senado, é maior do que todos aqueles que foram eleitos pelo povo, assim como ele, então ele não me representa e não tem de forma alguma a possibilidade de levar meu voto”, afirmou.</p><p>Em agosto de 2025, durante uma reunião com líderes partidários, o presidente do Senado afirmou que não colocaria em votação um pedido de afastamento do ministro Alexandre de Moraes, nem mesmo com a assinatura dos 81 senadores.</p><p>Ao justificar sua preferência por Marinho, Bonfim destacou a necessidade de restabelecer o equilíbrio entre os Poderes e a harmonia institucional.</p><p>Segundo o senador eleito, a escolha do parlamentar do PL não busca ampliar os conflitos entre as instituições, mas assegurar o cumprimento da lei por todas as autoridades.</p><p>Perguntado sobre eventuais pressões de ministros do Supremo contra parlamentares e sobre a possibilidade de apoiar pedidos de impeachment , Bonfim afirmou que não havia recebido ameaças ou pressões até o momento da entrevista.</p><p>Bonfim também criticou Moraes em razão de suas relações com o empresário Daniel Vorcaro, dono do Banco Master.</p><p>O senador eleito mencionou o contrato de R$ 131 milhões firmado entre o banco e o escritório de advocacia de Viviane Barci , mulher do ministro, além dos contatos entre o magistrado e o banqueiro.</p><p>Bonfim afirmou estar disposto a apoiar processos de impeachment contra integrantes do STF em caso de crimes de responsabilidade. “Estou pronto pra votar o impeachment de qualquer um dos ministros”, declarou.</p><p>O senador eleito também considera a saída de Moraes necessária para recuperar a confiança nas instituições.</p><p>Bonfim afirmou, contudo, que sua atuação no Senado não ficará restrita ao combate ao STF. Segundo ele, pretende trabalhar por reformas, crescimento econômico, geração de empregos e redução dos juros.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/senador-eleito-revela-desejo-de-dino-em-disputar-a-presidencia/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "• O senador eleito Lahesio Bonfim (Novo-MA) afirmou que Flávio Dino pretende deixar o STF para disputar a Presidência. • Segundo Bonfim, Dino retornará à política quando Lula deixar a vida política; o senador também criticou sua gestão no Maranhão."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O senador eleito pelo Maranhão Lahesio Bonfim (Novo) afirmou que o ministro Flávio Dino, do Supremo Tribunal Federal (STF), pretende deixar a Corte para disputar a Presidência da República quando o presidente Luiz Inácio Lula da Silva sair da vida pública. A declaração ocorreu durante entrevista ao Oeste Sem Filtro desta segunda-feira, 9."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "“Não tenho dúvida, conhecendo o Flávio Dino, ele só vai ficar no Supremo enquanto o Lula estiver na vida política”, declarou Bonfim. “Quando o Lula deixar a política, você pode ter certeza que o Flávio Dino entra novamente no jogo.”"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O senador eleito, ex-prefeito de São Pedro dos Crentes (MA) , também afirmou que Dino tem ambições presidenciais. Os dois foram adversários políticos no Maranhão, onde o ministro governou por dois mandatos. “Dino tem um ideal de vida, um foco: ele quer ser presidente, ele busca o poder”, disse."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Bonfim criticou a administração de Dino no governo maranhense e avaliou que o histórico do ministro no Executivo estadual dificultaria uma eventual candidatura presidencial. Segundo ele, Dino perdeu influência política no Maranhão e precisaria buscar apoio em outros Estados para retornar à disputa eleitoral."
+          }
+        ],
+        "imagemOriginal": "https://medias-r2.revistaoeste.com/wp-content/uploads/2026/11/lahesio-bonfim-910x568.jpg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/senador-eleito-revela-desejo-de-dino-em-disputar-a-presidencia.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "f6fe258d2a0202a8",
+      "titulo": "Lucro da JBS cai 71,7% no 3º trimestre e vai a US$ 164,4 milhões",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-economia/lucro-da-jbs-cai-717-no-3o-trimestre-e-vai-a-us-1644-milhoes/",
+      "dataFonte": "2026-11-09T23:11:46.000Z",
+      "resumoFonte": "Receita fica em US$ 22,7 bilhões, alta de 0,6%; Ebitda ajustado cai 35,6% e alavancagem sobe para 3,54x",
+      "imagem": "https://static.poder360.com.br/uploads/2025/06/JBS-aumenta-indice-de-conformidade-em-auditoria-mai-2025.jpeg",
+      "descobertaEm": "2026-11-09T23:18:02.698Z",
+      "reportagem": {
+        "titulo": "Lucro da JBS cai 71,7% no 3º trimestre e vai a US$ 164,4 milhões",
+        "slug": "lucro-da-jbs-cai-71-7-no-3-trimestre-e-vai-a-us-164-4-milhoes",
+        "categoria": "Economia",
+        "data": "2026-11-09",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/lucro-da-jbs-cai-71-7-no-3-trimestre-e-vai-a-us-164-4-milhoes.jpg",
+        "resumo": "Receita fica em US$ 22,7 bilhões, alta de 0,6%; Ebitda ajustado cai 35,6% e alavancagem sobe para 3,54x.",
+        "conteudo": "<p>Receita fica em US$ 22,7 bilhões, alta de 0,6%; Ebitda ajustado cai 35,6% e alavancagem sobe para 3,54x</p><h2>Dados e contexto do setor</h2><p>A JBS registrou receita líquida de US$ 22,7 bilhões no 3º trimestre de 2026, alta de 0,6% em relação ao mesmo período de 2025, segundo balanço divulgado pela empresa. O lucro líquido atribuível aos acionistas caiu 71,7%, para US$ 164,4 milhões.</p><p>O resultado se refere ao período encerrado em 30 de setembro. O lucro por ação foi de US$ 0,15, ante US$ 0,52 um ano antes. Leia a íntegra (PDF – 860 KB).</p><p>O lucro antes de juros, impostos, depreciação e amortização (Ebitda, na sigla em inglês) ajustado pelas normas internacionais de contabilidade somou US$ 1,18 bilhão, queda de 35,6%. A margem foi de 5,2%, ante 8,1% no 3º trimestre de 2025 (-2,9 p.p.).</p><h2>Impactos e informações adicionais</h2><p>A JBS atribuiu o desempenho ao custo elevado do gado na América do Norte e no Brasil, ao preenchimento antecipado da cota de exportação de carne bovina do Brasil para a China em 2026 e ao excesso de oferta global de carne suína.</p><p>Entre as unidades, a JBS Brasil teve Ebitda ajustado de US$ 141,2 milhões, queda de 54%. A JBS USA Pork registrou US$ 37 milhões, recuo de 83%. A Seara somou US$ 330,6 milhões, alta de 2,5%, com margem de 13,2%.</p><p>A JBS Beef North America teve Ebitda ajustado positivo de US$ 21,4 milhões no US GAAP, ante prejuízo de US$ 46,2 milhões no 3º trimestre de 2025.</p><p>O fluxo de caixa livre foi negativo em US$ 167,4 milhões, ante US$ 383,5 milhões positivos um ano antes. Segundo a empresa, houve compra de estoques de grãos e frango na Seara e retenção de carne bovina na JBS Brasil para a cota chinesa de 2027.</p><p>A alavancagem (dívida líquida sobre Ebitda ajustado dos últimos 12 meses) subiu para 3,54x, ante 2,39x no 3º trimestre de 2025 e 3,10x no 2º trimestre de 2026. A dívida líquida era de US$ 19,3 bilhões.</p><p>O prazo médio da dívida é de 14,4 anos, e a liquidez total, de US$ 8,2 bilhões.</p><p>O presidente global da JBS, Gilberto Tomazoni, disse que o início do 4º trimestre mostra “dinâmicas de mercado mais construtivas” na JBS Beef North America e na JBS Brasil, com demanda chinesa mais forte para a cota de 2027.</p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-economia/lucro-da-jbs-cai-717-no-3o-trimestre-e-vai-a-us-1644-milhoes/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Receita fica em US$ 22,7 bilhões, alta de 0,6%; Ebitda ajustado cai 35,6% e alavancagem sobe para 3,54x"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A JBS registrou receita líquida de US$ 22,7 bilhões no 3º trimestre de 2026, alta de 0,6% em relação ao mesmo período de 2025, segundo balanço divulgado pela empresa. O lucro líquido atribuível aos acionistas caiu 71,7%, para US$ 164,4 milhões."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O resultado se refere ao período encerrado em 30 de setembro. O lucro por ação foi de US$ 0,15, ante US$ 0,52 um ano antes. Leia a íntegra (PDF – 860 KB)."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O lucro antes de juros, impostos, depreciação e amortização (Ebitda, na sigla em inglês) ajustado pelas normas internacionais de contabilidade somou US$ 1,18 bilhão, queda de 35,6%. A margem foi de 5,2%, ante 8,1% no 3º trimestre de 2025 (-2,9 p.p.)."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A JBS atribuiu o desempenho ao custo elevado do gado na América do Norte e no Brasil, ao preenchimento antecipado da cota de exportação de carne bovina do Brasil para a China em 2026 e ao excesso de oferta global de carne suína."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2025/06/JBS-aumenta-indice-de-conformidade-em-auditoria-mai-2025.jpeg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/lucro-da-jbs-cai-71-7-no-3-trimestre-e-vai-a-us-164-4-milhoes.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "54361f8c041fc78f",
+      "titulo": "Justiça Federal suspende novas regras que ampliaram a aceitação de VR e VA em maquininhas",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/economia/justica-federal-suspende-novas-regras-que-ampliou-aceitacao-de-vr-e-va-em-maquininhas/",
+      "dataFonte": "2026-11-09T23:01:37.000Z",
+      "resumoFonte": "Com a decisão, voltam a valer as normas antigas, que restringem o número de maquinas que aceitam os benefícios",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/vale-refeicao-e-alimentacao.jpg?w=1000&h=600&crop=1",
+      "descobertaEm": "2026-11-09T23:18:02.698Z",
+      "reportagem": {
+        "titulo": "Justiça Federal suspende novas regras que ampliaram a aceitação de VR e VA em maquininhas",
+        "slug": "justica-federal-suspende-novas-regras-que-ampliaram-a-aceitacao-de-vr-e-va-em-maquininhas",
+        "categoria": "Economia",
+        "data": "2026-11-09",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/justica-federal-suspende-novas-regras-que-ampliaram-a-aceitacao-de-vr-e-va-em-maquininhas.jpg",
+        "resumo": "Com a decisão, voltam a valer as normas antigas, que restringem o número de maquinas que aceitam os benefícios",
+        "conteudo": "<p>A Justiça Federal determinou nesta segunda-feira (9) a suspensão das novas regras editadas pelo governo federal para ampliar a aceitação de cartões de vale-refeição (VR) e vale-alimentação (VA) no comércio.</p><h2>Dados e contexto do setor</h2><p>As mudanças tinham começado a valer no último sábado (7). Com a decisão, voltam a valer as normas antigas, que restringem o número de maquinas de cartão que aceitam o VR e o VA. A União poderá recorrer da decisão.</p><p>A decisão foi tomada a partir de uma ação protocolada pela Associação Brasileira das Empresas de Benefícios ao Trabalhador (ABBT).</p><p>Na decisão, o juiz Frederico Botelho de Barros Viana, da 22ª Vara Federal Cível, entendeu que o governo federal extrapolou sua competência legal ao estabelecer que o sistema de pagamentos dos benefícios deve ocorrer obrigatoriamente de forma aberta, possibilidade que não está prevista na lei que criou o Programa de Alimentação do Trabalhador (PAT).</p><h2>Impactos e informações adicionais</h2><p>Com a decisão, voltam a valer as normas antigas, que restringem o número de maquinas que aceitam os benefícios</p><p>Pix atinge novo recorde com 319,7 milhões de transações em um único dia</p><p>Por que o mercado está preocupado (e por que a sinalização precisa vir em 2026)</p><p>O vendedor talentoso pode ser o maior risco da empresa</p><p>Antes de comprar uma franquia, confira o balanço de quem vende a marca</p><p>Mercado eleva projeção da Selic para 13,75% em 2026</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/economia/justica-federal-suspende-novas-regras-que-ampliou-aceitacao-de-vr-e-va-em-maquininhas/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A Justiça Federal determinou nesta segunda-feira (9) a suspensão das novas regras editadas pelo governo federal para ampliar a aceitação de cartões de vale-refeição (VR) e vale-alimentação (VA) no comércio. As mudanças tinham começado a valer no último sábado (7)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A decisão foi tomada a partir de uma ação protocolada pela Associação Brasileira das Empresas de Benefícios ao Trabalhador (ABBT)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Com a decisão, voltam a valer as normas antigas, que restringem o número de maquinas que aceitam os benefícios"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Pix atinge novo recorde com 319,7 milhões de transações em um único dia"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Por que o mercado está preocupado (e por que a sinalização precisa vir em 2026)"
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/vale-refeicao-e-alimentacao.jpg?w=1000&h=600&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/justica-federal-suspende-novas-regras-que-ampliaram-a-aceitacao-de-vr-e-va-em-maquininhas.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "f5d2afcb3bd6a145",
+      "titulo": "Mercado quer de Lula o estelionato que esperava do candidato derrotado",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/11/09/mercado-quer-de-lula-o-estelionato-que-esperavam-da-campanha-derrotada.htm",
+      "dataFonte": "2026-11-09T22:46:58.000Z",
+      "resumoFonte": "ão foram poucos os operadores do mercado financeiro que foram dormir frustrados após Lula falar, em cadeia de rádio e TV, sobre responsabilidade fiscal, mas sem anunciar um pacote de cortes. Surpresa...",
+      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
+      "descobertaEm": "2026-11-09T23:18:02.698Z"
+    },
+    {
+      "id": "85e6374b2b774b89",
+      "titulo": "Brasil tem 24 instituições autorizadas para atuar com criptoativos e 119 aguardam análise do BC",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://c-level.folha.uol.com.br/financas/2026/11/brasil-tem-24-instituicoes-autorizadas-para-atuar-com-criptoativos-e-119-aguardam-analise-do-bc.shtml",
+      "dataFonte": "2026-11-09T22:45:00.000Z",
+      "resumoFonte": "O Brasil soma 24 instituições aptas a prestar serviços de ativos virtuais e outras 119 aguardam análise do Banco Central sobre autorização de funcionamento. Apenas uma teve a solicitação negada, conforme lista divulgada pelo órgão regulador nesta segunda-feira (9).",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/09/23/17902043186ab4599e425f7_1790204318_3x2_rt.jpg",
+      "descobertaEm": "2026-11-09T23:18:02.698Z",
+      "reportagem": {
+        "titulo": "Brasil tem 24 instituições autorizadas para atuar com criptoativos e 119 aguardam análise do BC",
+        "slug": "brasil-tem-24-instituicoes-autorizadas-para-atuar-com-criptoativos-e-119-aguardam-analise-",
+        "categoria": "Economia",
+        "data": "2026-11-09",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/brasil-tem-24-instituicoes-autorizadas-para-atuar-com-criptoativos-e-119-aguardam-analise-.jpg",
+        "resumo": "Empresas que já atuavam nesse mercado tinham até 30 de outubro para se enquadrar nas regras",
+        "conteudo": "<p>Brasília O Brasil soma 24 instituições aptas a prestar serviços de ativos virtuais e outras 119 aguardam análise do Banco Central sobre autorização de funcionamento. Apenas uma teve a solicitação negada, conforme lista divulgada pelo órgão regulador nesta segunda-feira (9).</p><h2>Dados e contexto do setor</h2><p>As empresas que já atuavam nesse mercado de criptoativos tinham até 30 de outubro para comprovar que atendiam às regras previstas pelo BC ou se adaptar às exigências.</p><p>Caso não cumpram os requisitos, deverão encerrar as operações em até 30 dias e comunicar os clientes que seus ativos precisarão ser transferidos para alguma instituição autorizada.</p><p>Binance , Mercado Bitcoin e Coinbase estão na lista das empresas com solicitação em exame pelo BC. Dos 119 pedidos, 72 são para a modalidade de intermediária de ativos virtuais, 46 para corretoras e um para custodiante.</p><h2>Impactos e informações adicionais</h2><p>A Higherway Tech Soluções, que tinha solicitado autorização como intermediária, teve o pedido negado pelo Banco Central. O motivo da recusa não foi divulgado pelo regulador.</p><p>As prestadoras de serviços de ativos virtuais são classificadas em três modalidades: intermediárias, custodiantes e corretoras.</p><p>As intermediárias, como o nome sugere, são responsáveis por intermediar a negociação e distribuição de ativos virtuais. As custodiantes guardam esses ativos sob sua responsabilidade.</p><p>As corretoras, por sua vez, exercem as duas atividades de forma simultânea.</p><p>Além das prestadoras de serviços, também podem atuar nesse segmento bancos múltiplos, comerciais, de investimento e de câmbio, além de distribuidoras de títulos e valores mobiliários e corretoras de câmbio.</p><p>Empresas estrangeiras que queiram operar no país devem constituir entidade no Brasil, transferir seus clientes para essas subsidiárias e, como as demais, pedir autorização de funcionamento ao BC.</p><p>Bancos como Itaú Unibanco, Bradesco, Banco do Brasil, BTG Pactual e Safra estão entre as instituições já autorizadas pelo BC para prestar serviços de ativos virtuais em duas categorias, como intermediárias e como custodiantes.</p><p>A lista do BC considera dados atualizados até o último dia 6. De acordo com o órgão regulador, as informações relativas aos processos de autorização das prestadoras de serviços de ativos virtuais serão atualizadas periodicamente.</p><p>\"A divulgação das listas integra os esforços do BC para promover maior transparência, segurança e conhecimento sobre o ambiente regulado de prestação de serviços relacionados a ativos virtuais no país\", disse a autoridade monetária em nota.</p><p>As novas regras para orientar as negociações com criptoativos no país foram divulgadas pelo BC em novembro de 2025, com o objetivo de reduzir brechas para golpes, fraudes e lavagem de dinheiro.</p><p>O capital mínimo exigido pelo BC varia de R$ 10,8 milhões a R$ 37 milhões, a depender do conjunto de atividades oferecidas.</p>",
+        "fonteNome": "UOL Notícias",
+        "fonteUrl": "https://c-level.folha.uol.com.br/financas/2026/11/brasil-tem-24-instituicoes-autorizadas-para-atuar-com-criptoativos-e-119-aguardam-analise-do-bc.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Brasília O Brasil soma 24 instituições aptas a prestar serviços de ativos virtuais e outras 119 aguardam análise do Banco Central sobre autorização de funcionamento. Apenas uma teve a solicitação negada, conforme lista divulgada pelo órgão regulador nesta segunda-feira (9)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "As empresas que já atuavam nesse mercado de criptoativos tinham até 30 de outubro para comprovar que atendiam às regras previstas pelo BC ou se adaptar às exigências. Caso não cumpram os requisitos, deverão encerrar as operações em até 30 dias e comunicar os clientes que seus ativos precisarão ser transferidos para alguma instituição autorizada."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Binance , Mercado Bitcoin e Coinbase estão na lista das empresas com solicitação em exame pelo BC. Dos 119 pedidos, 72 são para a modalidade de intermediária de ativos virtuais, 46 para corretoras e um para custodiante."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A Higherway Tech Soluções, que tinha solicitado autorização como intermediária, teve o pedido negado pelo Banco Central. O motivo da recusa não foi divulgado pelo regulador."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "As prestadoras de serviços de ativos virtuais são classificadas em três modalidades: intermediárias, custodiantes e corretoras. As intermediárias, como o nome sugere, são responsáveis por intermediar a negociação e distribuição de ativos virtuais. As custodiantes guardam esses ativos sob sua responsabilidade."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/09/23/17902043186ab4599e425f7_1790204318_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/brasil-tem-24-instituicoes-autorizadas-para-atuar-com-criptoativos-e-119-aguardam-analise-.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "ca47c34ff9c3a990",
+      "titulo": "Bolsa sobe 2,22% e registra maior alta diária desde outubro",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Agência Brasil - Economia",
+      "urlFonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bolsa-sobe-222-e-registra-maior-alta-diaria-desde-outubro",
+      "dataFonte": "2026-11-09T22:38:00.000Z",
+      "resumoFonte": "O mercado financeiro teve uma sessão de forte recuperação nesta segunda-feira (9), com a bolsa brasileira avançando mais de 2% e retomando os 172 mil pontos. Em Nova York, os principais índices também fecharam em alta, impulsionados pela recuperação das ações de tecnologia e pelo recuo dos preços do petróleo. No mercado de câmbio, o dólar encerrou…",
+      "imagem": "https://imagens.ebc.com.br/CPqVdUOF8Wz-jaPeZy56pDv-AGQ=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2021-10-19t201919z_1667412587_rc26dq9d28av_rtrmadp_3_brazil-economy.jpg?itok=PTcVbDwQ",
+      "descobertaEm": "2026-11-09T23:18:02.698Z",
+      "reportagem": {
+        "titulo": "Bolsa sobe 2,22% e registra maior alta diária desde outubro",
+        "slug": "bolsa-sobe-2-22-e-registra-maior-alta-diaria-desde-outubro",
+        "categoria": "Economia",
+        "data": "2026-11-09",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/bolsa-sobe-2-22-e-registra-maior-alta-diaria-desde-outubro.jpg",
+        "resumo": "Dólar recua 0,06% e fecha a R$ 5,506, próximo da estabilidade.",
+        "conteudo": "<p>O mercado financeiro teve uma sessão de forte recuperação nesta segunda-feira (9), com a bolsa brasileira avançando mais de 2% e retomando os 172 mil pontos.</p><h2>Os números do levantamento</h2><p>Em Nova York, os principais índices também fecharam em alta, impulsionados pela recuperação das ações de tecnologia e pelo recuo dos preços do petróleo.</p><p>No mercado de câmbio, o dólar encerrou próximo da estabilidade, com leve queda, cotado a R$ 5,506. O petróleo registrou forte desvalorização, após declarações do presidente dos Estados Unidos, Donald Trump, reduzirem as expectativas de novos ataques americanos contra o Irã.</p><p>O Ibovespa fechou em alta de 2,22%, aos 172.236,05 pontos, no maior avanço diário desde 5 de outubro, quando o índice disparou 7,7%, após o resultado do primeiro turno das eleições presidenciais. Durante o pregão de hoje, o indicador oscilou entre 168.498,45 e 172.236,05 pontos.</p><h2>Impactos e informações adicionais</h2><p>O desempenho positivo foi sustentado principalmente pelas ações dos setores bancário e de mineração, além da recuperação dos mercados internacionais e do alívio nas tensões comerciais e geopolíticas.</p><p>As ações de bancos e de empresas ligadas ao consumo lideraram os ganhos, seguidas por mineradoras. No entanto, os papéis da Petrobras, os mais negociados na bolsa, recuaram por causa da forte queda nas cotações do petróleo.</p><p>As ações ordinárias (com voto em assembleia de acionistas) da Petrobras recuaram 0,39%. Os papéis preferenciais (com preferência na distribuição de dividendos) perderam 0,37%.</p><p>O dólar comercial encerrou a sessão com leve queda de 0,06%, cotado a R$ 5,5058, praticamente estável em relação ao fechamento anterior. Durante o dia, a moeda americana oscilou entre R$ 5,489 e R$ 5,528.</p><p>No exterior, o dólar também perdeu força diante de outras moedas. O índice DXY, que mede o desempenho da divisa americana frente a uma cesta de seis moedas, recuou 0,54%, aos 101,670 pontos.</p><p>No cenário doméstico, os investidores acompanharam o pronunciamento do presidente Luiz Inácio Lula da Silva, na noite de domingo (8).</p><p>O presidente reeleito reafirmou o compromisso do governo com a responsabilidade fiscal e demonstrou preocupação com o endividamento público e os juros elevados, mas não anunciou medidas concretas.</p><p>Outro destaque foi a divulgação do boletim Focus pelo Banco Central. O levantamento mostrou que os economistas consultados elevaram a projeção da Taxa Selic de 13,50% para 13,75% ao ano, no fim de 2026.</p><p>A estimativa para a inflação de 2027, medida pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA), também subiu, passando de 4,76% para 4,90%.</p><p>A previsão de crescimento do Produto Interno Bruto (PIB) brasileiro caiu de 1,20% para 1,15%.</p><p>Em Nova York, os principais índices encerraram o pregão em forte alta, recuperando parte das perdas registradas na semana anterior, quando as ações de tecnologia sofreram pressão dos investidores.</p><p>O Dow Jones (das empresas industriais) avançou 2,15%, aos 52.389,75 pontos. O S&amp;P 500 (das 500 maiores empresas) subiu 2,34%, aos 7.549,94 pontos.</p><p>O Nasdaq (das empresas de tecnologia) teve o melhor desempenho entre os três indicadores, com valorização de 2,74%, aos 25.253,14 pontos.</p><p>A recuperação foi impulsionada principalmente pelas ações de tecnologia e semicondutores. A queda dos preços do petróleo também contribuiu para o movimento positivo, ao reduzir as preocupações com a inflação e favorecer a procura por ativos de maior risco.</p>",
+        "fonteNome": "Agência Brasil - Economia",
+        "fonteUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bolsa-sobe-222-e-registra-maior-alta-diaria-desde-outubro",
+        "fontesAdicionais": [
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          },
+          {
+            "nome": "Ministério da Fazenda",
+            "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O mercado financeiro teve uma sessão de forte recuperação nesta segunda-feira (9), com a bolsa brasileira avançando mais de 2% e retomando os 172 mil pontos."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Em Nova York, os principais índices também fecharam em alta, impulsionados pela recuperação das ações de tecnologia e pelo recuo dos preços do petróleo."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "No mercado de câmbio, o dólar encerrou próximo da estabilidade, com leve queda, cotado a R$ 5,506. O petróleo registrou forte desvalorização, após declarações do presidente dos Estados Unidos, Donald Trump, reduzirem as expectativas de novos ataques americanos contra o Irã."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O Ibovespa fechou em alta de 2,22%, aos 172.236,05 pontos, no maior avanço diário desde 5 de outubro, quando o índice disparou 7,7%, após o resultado do primeiro turno das eleições presidenciais. Durante o pregão de hoje, o indicador oscilou entre 168.498,45 e 172.236,05 pontos."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O desempenho positivo foi sustentado principalmente pelas ações dos setores bancário e de mineração, além da recuperação dos mercados internacionais e do alívio nas tensões comerciais e geopolíticas."
+          }
+        ],
+        "imagemOriginal": "https://imagens.ebc.com.br/CPqVdUOF8Wz-jaPeZy56pDv-AGQ=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2021-10-19t201919z_1667412587_rc26dq9d28av_rtrmadp_3_brazil-economy.jpg?itok=PTcVbDwQ",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/bolsa-sobe-2-22-e-registra-maior-alta-diaria-desde-outubro.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "bd295378fed3b74c",
+      "titulo": "Aneel propõe Tarifa Hora Certa para reduzir valor em função do horário",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Agência Brasil - Economia",
+      "urlFonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/aneel-propoe-tarifa-hora-certa-para-reduzir-valor-em-funcao-do-horario",
+      "dataFonte": "2026-11-09T22:23:00.000Z",
+      "resumoFonte": "Em breve, uma parcela dos consumidores de energia elétrica na baixa tensão será enquadrada em uma nova modalidade tarifária: a Tarifa Hora Certa, em que o valor da energia é calculado em razão do horário. O objetivo é incentivar os consumidores a fazer o uso da energia em horários de menor pico. A proposta, apresentada nesta segunda-feira (9) pela…",
+      "imagem": "https://imagens.ebc.com.br/PmsaDRjh7S0nRxtFoy5wjc-7cd4=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/966340-03072015-dsc_9562.jpg?itok=ONypQdKl",
+      "descobertaEm": "2026-11-09T23:18:02.698Z",
+      "reportagem": {
+        "titulo": "Aneel propõe Tarifa Hora Certa para reduzir valor em função do horário",
+        "slug": "aneel-propoe-tarifa-hora-certa-para-reduzir-valor-em-funcao-do-horario",
+        "categoria": "Economia",
+        "data": "2026-11-09",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/aneel-propoe-tarifa-hora-certa-para-reduzir-valor-em-funcao-do-horario.jpg",
+        "resumo": "Modalidade ainda precisa do aval da diretoria e terá regra de transição, começando em abril de 2028,",
+        "conteudo": "<p>Em breve, uma parcela dos consumidores de energia elétrica na baixa tensão será enquadrada em uma nova modalidade tarifária: a Tarifa Hora Certa, em que o valor da energia é calculado em razão do horário.</p><h2>Dados e contexto do setor</h2><p>O objetivo é incentivar os consumidores a fazer o uso da energia em horários de menor pico.</p><p>A proposta, apresentada nesta segunda-feira (9) pela Agência Nacional da Energia Elétrica (Aneel) ainda precisa obter o aval da diretoria da agência reguladora para ser implementada.</p><p>A previsão é de que o tema seja analisado ainda neste ano, para iniciar os preparativos em 2027 e implantar a modalidade a partir de 2028.</p><h2>Impactos e informações adicionais</h2><p>A Tarifa Hora Certa é destinada aos consumidores na baixa tensão dos subgrupos residencial (B1), rural (B2) e comercial, industrial e outras atividades (B3), que consomem a partir de 500 quilowatt-hora/mês (kWh/mês).</p><p>O especialista em regulação da Aneel Diego Brancher, explica que o consumo residencial mensal médio no país é da ordem de 160 kwh e que, portanto, a Tarifa Hora Certa vai beneficiar grandes consumidores da baixa tensão.</p><p>Essa parcela é formada por cerca de 5,7 milhões de usuários.</p><p>“A ideia não é chegar em todos os consumidores de baixa tensão. É ter um percentual pequeno desses consumidores, mas que representa um percentual grande do mercado de energia. Essa é a proposta”, disse.</p><p>Pela proposta, quem está acima do limite de 500 kWh/mês será enquadrado automaticamente. Quem está abaixo desse limite poderá aderir à nova tarifa por vontade própria. Unidades sem medidor adequado não são enquadradas na iniciativa.</p><p>Além disso, não farão parte da Tarifa Hora Certa os consumidores da Tarifa Social e do Desconto Social (programa Luz do Povo), qualquer que seja o consumo, assim como a iluminação pública e unidades com pré-pagamento.</p><p>A implantação deverá ocorrer gradualmente. Pelo cronograma proposto pela Aneel, a partir de abril de 2028, serão incluídas as unidades com consumo médio a partir de 1.800 kWh/mês.</p><p>Na segunda fase, a partir de abril de 2029, será a vez dos consumidores com consumo médio a partir de 1.000 kWh/mês.</p><p>Na terceira e última etapa, que começará a partir de abril de 2031, serão enquadradas as unidades com consumo a partir de 500 kWh/mês.</p><p>O especialista da Aneel explicou que a tarifa convencional, em vigor, tem um custo mais alto de geração no chamado horário de ponta, e custo menor fora dele. Ou seja, nesse tipo de tarifa quem consome fora da ponta acaba ajudando a pagar o custo de quem consome na ponta.</p><p>Segundo Brancher, a Tarifa Hora Certa torna essa diferença visível na conta: em alguns períodos do dia, usar eletricidade custará menos e, em outros, custará mais.</p><p>“Vai ter alguns horários que [o custo da energia] é mais caro, que é o horário de ponta, tem o horário intermediário que, normalmente é uma hora antes e depois desse, e tem o que a gente chama de fora da ponta, em que a tarifa é mais barata”, afirmou.</p><p>“Então o que nós estamos propondo é que o consumidor comece a perceber uma variação de custos ao longo das horas do dia”, continuou.</p><p>Brancher lembrou que o sistema elétrico no Brasil mudou nos últimos anos, com a necessidade de utilizar usinas termelétricas no início da noite para suprir a demanda do sistema, o que implica em aumento de custo.</p><p>Além disso, com a chegada das usinas eólicas e solares, houve um aumento de carga de energia durante o dia, reduzindo o custo da operação. A tarifa convencional, contudo, não reflete essas mudanças.</p>",
+        "fonteNome": "Agência Brasil - Economia",
+        "fonteUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/aneel-propoe-tarifa-hora-certa-para-reduzir-valor-em-funcao-do-horario",
+        "fontesAdicionais": [
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          },
+          {
+            "nome": "Ministério da Fazenda",
+            "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Em breve, uma parcela dos consumidores de energia elétrica na baixa tensão será enquadrada em uma nova modalidade tarifária: a Tarifa Hora Certa, em que o valor da energia é calculado em razão do horário. O objetivo é incentivar os consumidores a fazer o uso da energia em horários de menor pico."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A proposta, apresentada nesta segunda-feira (9) pela Agência Nacional da Energia Elétrica (Aneel) ainda precisa obter o aval da diretoria da agência reguladora para ser implementada. A previsão é de que o tema seja analisado ainda neste ano, para iniciar os preparativos em 2027 e implantar a modalidade a partir de 2028."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A Tarifa Hora Certa é destinada aos consumidores na baixa tensão dos subgrupos residencial (B1), rural (B2) e comercial, industrial e outras atividades (B3), que consomem a partir de 500 quilowatt-hora/mês (kWh/mês)."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O especialista em regulação da Aneel Diego Brancher, explica que o consumo residencial mensal médio no país é da ordem de 160 kwh e que, portanto, a Tarifa Hora Certa vai beneficiar grandes consumidores da baixa tensão. Essa parcela é formada por cerca de 5,7 milhões de usuários."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "“A ideia não é chegar em todos os consumidores de baixa tensão. É ter um percentual pequeno desses consumidores, mas que representa um percentual grande do mercado de energia. Essa é a proposta”, disse."
+          }
+        ],
+        "imagemOriginal": "https://imagens.ebc.com.br/PmsaDRjh7S0nRxtFoy5wjc-7cd4=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/966340-03072015-dsc_9562.jpg?itok=ONypQdKl",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/aneel-propoe-tarifa-hora-certa-para-reduzir-valor-em-funcao-do-horario.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -200,438 +668,6 @@
         ],
         "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2024/07/loja-tim-divulgacao.jpg",
         "imagemX": "https://noticiaes.com.br/imagens/lapis/tim-registra-queda-de-7-8-no-lucro-liquido-normalizado-do-3-tri-a-r-1-113-bilhao.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "6702e986bda74864",
-      "titulo": "Lula indica chefe de cerimonial do Planalto para cargo de embaixador do Brasil na Itália",
-      "categoria": "Fé e Sociedade",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/blogs/brasilia-hoje/2026/11/lula-indica-chefe-de-cerimonial-do-planalto-para-cargo-de-embaixador-do-brasil-na-italia.shtml",
-      "dataFonte": "2026-11-09T21:31:00.000Z",
-      "resumoFonte": "O presidente Luiz Inácio Lula da Silva (PT) indicou o diplomata Fernando Luis Lemos Igreja, chefe do cerimonial do Planalto, para ser embaixador na Itália . A mensagem com a indicação chegou ao Senado nesta segunda-feira (9). Leia mais (11/09/2026 - 18h31)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/09/17942594916af23a23a8768_1794259491_3x2_rt.jpg",
-      "descobertaEm": "2026-11-09T22:17:58.955Z",
-      "reportagem": {
-        "titulo": "Brasília Hoje: Lula indica chefe de cerimonial do Planalto para cargo de embaixador do Brasil na Itália",
-        "slug": "brasilia-hoje-lula-indica-chefe-de-cerimonial-do-planalto-para-cargo-de-embaixador-do-bras",
-        "categoria": "Fé e Sociedade",
-        "data": "2026-11-09",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/brasilia-hoje-lula-indica-chefe-de-cerimonial-do-planalto-para-cargo-de-embaixador-do-bras.jpg",
-        "resumo": "Indicação foi reconhecimento do presidente ao auxiliar, dizem interlocutores do Planalto",
-        "conteudo": "<p>Bastidores, vídeos e análises de economia e política. De segunda a sexta-feira.</p><h2>As informações principais do assunto</h2><p>O presidente Luiz Inácio Lula da Silva (PT) indicou o diplomata Fernando Luis Lemos Igreja, chefe do cerimonial do Planalto, para ser embaixador na Itália . A mensagem com a indicação chegou ao Senado nesta segunda-feira (9).</p><p>Como chefe do cerimonial, Igreja é o responsável por chefiar a organização, programação e realização das reuniões, eventos e viagens do presidente da República. O diplomata ocupa o cargo desde o início do mandato de Lula, sendo considerado um nome de confiança do petista.</p><p>No Itamaraty , o posto de embaixador na Itália é visto como um cargo \"prêmio\". A posição é de prestígio na diplomacia e tende a não ser muito desgastante, se comparado com outros países com relação mais instáveis com o Brasil.</p><h2>Contexto e informações complementares</h2><p>A indicação chegou ao Senado nesta segunda e foi despachada em poucas horas para a Comissão de Relações Exteriores e Defesa Nacional da Casa. O presidente, o senador Nelsinho Trad (PSD-MS), ainda não designou o relator.</p><p>Interlocutores do Planalto afirmam, sob reserva, que a indicação foi um reconhecimento ao trabalho de Igreja. A expectativa da Presidência é que ele seja sabatinado em breve na comissão e não enfrente dificuldades para ser aprovado no plenário da Casa.</p><p>Indicações de embaixadores precisam ser aprovadas por maioria simples no plenário, desde que estejam presentes pelo menos 41 parlamentares.</p><p>De acordo com seu currículo, Igreja é diplomata há 40 anos, além de bacharel em Direito Constitucional pela Universidade de Brasília (UNB).</p><p>Ele foi chefe do cerimonial do Ministério das Relações Exteriores entre, e cumpriu missões nas embaixadas do Brasil em Portugal, México e Paris, por exemplo.</p><p>Em 2015, Igreja foi promovido a ministro de primeira classe, considerado o cargo mais alto da carreira diplomática. Entre 2017 e 2022, foi embaixador do Brasil nos Emirados Árabes.</p><p>LINK PRESENTE: Gostou deste texto? Assinante pode liberar sete acessos gratuitos de qualquer link por dia. Basta clicar no F azul abaixo.</p><p>O presidente Luiz Inácio Lula da Silva (PT) indicou o diplomata Fernando Luis Lemos Igreja, chefe do cerimonial do Planalto, para ser embaixador na Itália .</p><p>A mensagem com a indicação chegou ao Senado nesta segunda-feira (9). Como chefe do cerimonial, Igreja é o responsável por chefiar a organização, programação e realização das reuniões, eventos e viagens do presidente da República.</p><p>O diplomata ocupa o cargo desde o início do mandato de Lula, sendo considerado um nome de confiança do petista.</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://www1.folha.uol.com.br/blogs/brasilia-hoje/2026/11/lula-indica-chefe-de-cerimonial-do-planalto-para-cargo-de-embaixador-do-brasil-na-italia.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Igreja Cristã Maranata",
-            "url": "https://www.igrejacristamaranata.org.br/"
-          },
-          {
-            "nome": "Convenção Batista do ES",
-            "url": "https://www.batistas.es/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Bastidores, vídeos e análises de economia e política. De segunda a sexta-feira."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O presidente Luiz Inácio Lula da Silva (PT) indicou o diplomata Fernando Luis Lemos Igreja, chefe do cerimonial do Planalto, para ser embaixador na Itália . A mensagem com a indicação chegou ao Senado nesta segunda-feira (9)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Como chefe do cerimonial, Igreja é o responsável por chefiar a organização, programação e realização das reuniões, eventos e viagens do presidente da República. O diplomata ocupa o cargo desde o início do mandato de Lula, sendo considerado um nome de confiança do petista."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "No Itamaraty , o posto de embaixador na Itália é visto como um cargo \"prêmio\". A posição é de prestígio na diplomacia e tende a não ser muito desgastante, se comparado com outros países com relação mais instáveis com o Brasil."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A indicação chegou ao Senado nesta segunda e foi despachada em poucas horas para a Comissão de Relações Exteriores e Defesa Nacional da Casa. O presidente, o senador Nelsinho Trad (PSD-MS), ainda não designou o relator."
-          }
-        ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/09/17942594916af23a23a8768_1794259491_3x2_rt.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/brasilia-hoje-lula-indica-chefe-de-cerimonial-do-planalto-para-cargo-de-embaixador-do-bras.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "2ed654b8c1999ab3",
-      "titulo": "Advogado do ES é suspeito de sacar R$ 151 mil em nome de mulher morta em Nova York",
-      "categoria": "Cidades",
-      "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/es/cotidiano/advogado-do-es-e-suspeito-de-sacar-r-151-mil-em-nome-de-mulher-morta-em-nova-york-1126",
-      "dataFonte": "2026-11-09T21:29:31.000Z",
-      "resumoFonte": "Justiça Federal identificou que procuração usada para retirar dinheiro em agência de Vila Velha foi emitida após a morte da beneficiária",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790606772591_2019_12_09_data_09122019_es_vitoria_sede_da_justica_federal_editoria_politica_foto_ricardo_medeiros_gz_143753_article.jpg",
-      "descobertaEm": "2026-11-09T22:17:58.955Z",
-      "reportagem": {
-        "titulo": "Advogado do ES é suspeito de sacar R$ 151 mil em nome de mulher morta em Nova York",
-        "slug": "advogado-do-es-e-suspeito-de-sacar-r-151-mil-em-nome-de-mulher-morta-em-nova-york",
-        "categoria": "Cidades",
-        "data": "2026-11-09",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/advogado-do-es-e-suspeito-de-sacar-r-151-mil-em-nome-de-mulher-morta-em-nova-york.jpg",
-        "resumo": "Justiça Federal identificou que procuração usada para retirar dinheiro em agência de Vila Velha foi emitida após a morte da beneficiária",
-        "conteudo": "<p>A Justiça Federal determinou o encaminhamento ao Ministério Público Federal (MPF) e à seccional capixaba da Ordem dos Advogados do Brasil (OAB-ES) de um caso envolvendo o saque de R$ 151 mil em nome de uma mulher que havia morrido quase dois anos antes, em Nova York, nos Estados Unidos.</p><h2>Dados e informações dos municípios</h2><p>O dinheiro foi retirado por um advogado em uma agência da Caixa Econômica Federal, em Vila Velha, mediante apresentação de uma procuração datada de junho de 2023, isto é, quase um ano depois do falecimento da beneficiária.</p><p>A decisão da Justiça Federal foi proferida em 9 de setembro deste ano. Em conversa com a reportagem de A Gazeta , nesta segunda-feira (9), advogados que atuam no processo informaram que, até o momento, não haviam sido instaurados procedimentos para apurar o caso, tanto na esfera disciplinar, junto à OAB-ES, quanto na investigativa, pela Polícia Federal (PF).</p><p>Os profissionais afirmaram que aguardam o andamento das apurações.</p><h2>Contexto e diferenças locais</h2><p>A reportagem indagou a OAB-ES sobre a possibilidade de consultar a existência de eventual procedimento disciplinar, mas a entidade, por meio de sua assessoria, informou que a consulta não está disponibilizada.</p><p>O MPF também foi procurado para esclarecer o andamento do caso. Já o contato vinculado ao escritório do advogado responsável pelo saque informou que encaminharia os questionamentos ao profissional.</p><p>O espaço segue aberto para esclarecimentos, e o texto será atualizado em caso de resposta.</p><p>O caso envolve um precatório (pagamento devido pelo poder público após uma decisão judicial) em favor de Marcia Rosa Biasutti Silva, que havia movido uma ação contra o Instituto Nacional do Seguro Social (INSS).</p><p>Ela morreu em 5 de julho de 2022, mas o dinheiro foi sacado em 28 de maio de 2024 pelo advogado Paulo Sérgio dos Santos Lopes.</p><p>O documento utilizado para autorizar a retirada tinha data de 8 de junho de 2023, ou seja, quando a mulher já estava morta.</p><p>Na decisão, a 1ª Vara Federal Cível de Vitória considerou inválida a procuração utilizada para o saque. A Justiça destacou que uma pessoa falecida não pode conceder poderes a um representante e que o documento apresentado não poderia autorizar a retirada do dinheiro.</p><p>A irregularidade veio à tona depois que o viúvo de Marcia, responsável pelo inventário, procurou a Justiça para solicitar a liberação do precatório. Durante a análise do pedido, foi constatado que o valor já havia sido retirado da conta judicial.</p><p>Intimada a prestar esclarecimentos, a Caixa informou que R$ 151.477,32 haviam sido sacados pelo advogado Paulo Sérgio dos Santos Lopes, na condição de representante da beneficiária.</p><p>O banco também apresentou os documentos utilizados na operação, incluindo a procuração com data seguinte ao falecimento.</p><p>A Caixa foi procurada pela reportagem , por meio de sua assessoria de imprensa, para esclarecer as circunstâncias do saque e informar se houve apuração interna sobre o caso. Em caso de resposta, o texto será atualizado.</p><p>A reportagem de A Gazeta teve acesso a uma petição apresentada no processo pela advogada Geane Miller Manchesther, que representava a beneficiária na ação original.</p><p>No documento, protocolado em agosto deste ano, ela aponta fortes indícios de fraude e pede a apuração da responsabilidade dos advogados envolvidos na retirada do precatório, além da atuação da Caixa Econômica Federal, instituição responsável pela liberação dos valores.</p><p>Na manifestação, Geane afirma que não conhece os advogados Paulo Sérgio dos Santos Lopes e Freddy Francis Rangel Mariano, ambos mencionados no processo. Segundo ela, nunca manteve qualquer vínculo pessoal ou profissional com os dois.</p><p>A advogada sustenta que a procuração utilizada para retirar o dinheiro apresenta uma incompatibilidade de datas: teria sido assinada por uma pessoa que já estava morta quando o documento foi elaborado.</p><p>Geane também aponta uma possível falha da Caixa na conferência da documentação apresentada para o saque. Segundo ela, a instituição deveria ter verificado a validade da procuração antes de autorizar a retirada do dinheiro.</p><p>Na petição, a advogada esclarece que o precatório havia sido requisitado em fevereiro de 2022, cinco meses antes do falecimento da beneficiária. Por isso, sustenta que os procedimentos realizados anteriormente à morte de Marcia eram regulares.</p><p>Geane afirma que só tomou conhecimento do falecimento quando os valores foram disponibilizados para pagamento. Segundo seu relato, não houve comunicação anterior da família nem atualização automática dessa informação no processo.</p><p>A advogada acrescenta que o viúvo foi informado sobre a disponibilidade do dinheiro, mas não demonstrou interesse, naquele momento, em regularizar a sucessão processual.</p><p>Ela também aponta que o falecimento havia sido registrado no Brasil em agosto de 2022, antes da liberação do precatório.</p><p>Nesta segunda-feira (9), a profissional foi indagada sobre atualizações no caso e confirmou ausência de nofiticações sobre o andamento da investigação no MPF.</p>",
-        "fonteNome": "A Gazeta - Capa",
-        "fonteUrl": "https://www.agazeta.com.br/es/cotidiano/advogado-do-es-e-suspeito-de-sacar-r-151-mil-em-nome-de-mulher-morta-em-nova-york-1126",
-        "fontesAdicionais": [
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          },
-          {
-            "nome": "Tribuna Online",
-            "url": "https://tribunaonline.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A Justiça Federal determinou o encaminhamento ao Ministério Público Federal (MPF) e à seccional capixaba da Ordem dos Advogados do Brasil (OAB-ES) de um caso envolvendo o saque de R$ 151 mil em nome de uma mulher que havia morrido quase dois anos antes, em Nova York, nos Estados Unidos."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A decisão da Justiça Federal foi proferida em 9 de setembro deste ano. Em conversa com a reportagem de A Gazeta , nesta segunda-feira (9), advogados que atuam no processo informaram que, até o momento, não haviam sido instaurados procedimentos para apurar o caso, tanto na esfera disciplinar, junto à OAB-ES, quanto na investigativa, pela Polícia Federal (PF)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A reportagem indagou a OAB-ES sobre a possibilidade de consultar a existência de eventual procedimento disciplinar, mas a entidade, por meio de sua assessoria, informou que a consulta não está disponibilizada."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O MPF também foi procurado para esclarecer o andamento do caso. Já o contato vinculado ao escritório do advogado responsável pelo saque informou que encaminharia os questionamentos ao profissional. O espaço segue aberto para esclarecimentos, e o texto será atualizado em caso de resposta."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O caso envolve um precatório (pagamento devido pelo poder público após uma decisão judicial) em favor de Marcia Rosa Biasutti Silva, que havia movido uma ação contra o Instituto Nacional do Seguro Social (INSS). Ela morreu em 5 de julho de 2022, mas o dinheiro foi sacado em 28 de maio de 2024 pelo advogado Paulo Sérgio dos Santos Lopes."
-          }
-        ],
-        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790606772591_2019_12_09_data_09122019_es_vitoria_sede_da_justica_federal_editoria_politica_foto_ricardo_medeiros_gz_143753_article.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/advogado-do-es-e-suspeito-de-sacar-r-151-mil-em-nome-de-mulher-morta-em-nova-york.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "7f08ade20ae7d272",
-      "titulo": "Prefeitura de SP rompe contrato milionário de instalação de Wi-Fi com ONG investigada no caso Dark Horse",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "CBN - Política",
-      "urlFonte": "https://cbn.globo.com/sao-paulo/noticia/2026/11/09/prefeitura-de-sp-rompe-contrato-milionario-de-instalacao-de-wi-fi-com-ong-investigada-no-caso-dark-horse.ghtml",
-      "dataFonte": "2026-11-09T21:34:40.976Z",
-      "resumoFonte": "O Instituto Conhecer Brasil é presidido pela empresária Karina da Gama, que também é dona da produtora responsável pelo filme.",
-      "imagem": "https://s2-cbn.glbimg.com/ccQUPEAJLmwiDEuguljXpRVY42Q=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/y/H/dSZaPkRKAJti9D5FZDkQ/whatsapp-image-2026-09-10-at-08.03.23.jpeg",
-      "descobertaEm": "2026-11-09T22:17:58.955Z",
-      "reportagem": {
-        "titulo": "Prefeitura de SP rompe contrato milionário de instalação de Wi-Fi com ONG investigada no caso Dark Horse",
-        "slug": "prefeitura-de-sp-rompe-contrato-milionario-de-instalacao-de-wi-fi-com-ong-investigada-no-c",
-        "categoria": "Cultura",
-        "data": "2026-11-09",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/prefeitura-de-sp-rompe-contrato-milionario-de-instalacao-de-wi-fi-com-ong-investigada-no-c.jpg",
-        "resumo": "O Instituto Conhecer Brasil é presidido pela empresária Karina da Gama, que também é dona da produtora responsável pelo filme.",
-        "conteudo": "<p>A Prefeitura de São Paulo determinou o rompimento do contrato milionário com a ONG responsável pela instalação de pontos de Wi-Fi gratuito nas periferias da cidade.</p><h2>O contexto da decisão judicial</h2><p>A parceria é investigada pela Polícia Federal por suspeita de desvio de recursos públicos para financiar o filme Dark Horse, sobre o ex-presidente Jair Bolsonaro.</p><p>O Instituto Conhecer Brasil é presidido pela empresária Karina da Gama, que também é dona da produtora responsável pelo filme.</p><p>A decisão pelo rompimento foi publicada no Diário Oficial desta segunda-feira pela Secretaria Municipal de Inovação e Tecnologia.</p><h2>Contexto e informações complementares</h2><p>O contrato com o Instituto Conhecer Brasil foi firmado em junho de 2024, por 108 milhões de reais anuais, mas passou por aditivos que elevaram o valor para mais de 157 milhões.</p><p>O contrato para a instalação de pontos de wi-fi na periferia da cidade foi firmado mesmo com a ONG sem ter nenhuma experiência prévia na área.</p><p>Em setembro, o ministro Flávio Dino, do Supremo Tribunal Federal, determinou a suspensão dos repasses mensais de cerca de 4 milhões e meio de reais ao instituto.</p><p>Segundo o despacho publicado no Diário Oficial, a Prefeitura justificou o rompimento pelas medidas cautelares determinadas pelo Supremo, que suspenderam atividades financeiras da ONG e pagamentos de contratos públicos.</p><p>A Secretaria afirmou que as restrições impedem a continuidade segura dos serviços.</p><p>O acordo previa a instalação de 5 mil pontos de internet gratuita na cidade, mas apenas 3 mil e 200 foram entregues. Em julho, a Prefeitura informou que já havia repassado 114 milhões de reais à entidade.</p><p>As investigações começaram na Polícia Civil e passaram para a Polícia Federal. Os investigadores apuram suspeitas de irregularidades na prestação de contas e um possível desvio de recursos para a produtora responsável pelo filme sobre Bolsonaro.</p><p>Ainda não há informações sobre como a Prefeitura vai garantir o funcionamento dos pontos de Wi-Fi já instalados.</p><p>A Secretaria Municipal de Inovação e Tecnologia informou que pediu esclarecimentos sobre o contrato ao ministro Flávio Dino em 14 de setembro e 2 de outubro, mas não recebeu resposta até o momento.</p><p>Ainda não há informações sobre como a Prefeitura vai garantir o funcionamento dos pontos de Wi-Fi já instalados.</p><p>Em nota, a Secretaria Municipal de Inovação e Tecnologia informou que pediu esclarecimentos sobre o contrato ao ministro Flávio Dino em 14 de setembro e 2 de outubro, mas não recebeu resposta até o momento.</p><p>A CBN procurou o Instituto Conhecer Brasil e aguarda um posicionamento.</p>",
-        "fonteNome": "CBN - Política",
-        "fonteUrl": "https://cbn.globo.com/sao-paulo/noticia/2026/11/09/prefeitura-de-sp-rompe-contrato-milionario-de-instalacao-de-wi-fi-com-ong-investigada-no-caso-dark-horse.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A Prefeitura de São Paulo determinou o rompimento do contrato milionário com a ONG responsável pela instalação de pontos de Wi-Fi gratuito nas periferias da cidade. A parceria é investigada pela Polícia Federal por suspeita de desvio de recursos públicos para financiar o filme Dark Horse, sobre o ex-presidente Jair Bolsonaro."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Instituto Conhecer Brasil é presidido pela empresária Karina da Gama, que também é dona da produtora responsável pelo filme."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A decisão pelo rompimento foi publicada no Diário Oficial desta segunda-feira pela Secretaria Municipal de Inovação e Tecnologia. O contrato com o Instituto Conhecer Brasil foi firmado em junho de 2024, por 108 milhões de reais anuais, mas passou por aditivos que elevaram o valor para mais de 157 milhões."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O contrato para a instalação de pontos de wi-fi na periferia da cidade foi firmado mesmo com a ONG sem ter nenhuma experiência prévia na área."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Em setembro, o ministro Flávio Dino, do Supremo Tribunal Federal, determinou a suspensão dos repasses mensais de cerca de 4 milhões e meio de reais ao instituto."
-          }
-        ],
-        "imagemOriginal": "https://s2-cbn.glbimg.com/ccQUPEAJLmwiDEuguljXpRVY42Q=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/y/H/dSZaPkRKAJti9D5FZDkQ/whatsapp-image-2026-09-10-at-08.03.23.jpeg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/prefeitura-de-sp-rompe-contrato-milionario-de-instalacao-de-wi-fi-com-ong-investigada-no-c.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "dac1becbd9cf0267",
-      "titulo": "Ações da Nvidia fecham em queda de 4,27% com escândalo de espionagem",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-economia/acoes-da-nvidia-fecham-em-queda-de-427-com-escandalo-de-espionagem/",
-      "dataFonte": "2026-11-09T22:14:51.000Z",
-      "resumoFonte": "Investigação sobre relação de Jensen Huang e possível espiã chinesa aumentou incertezas sobre o comando da fabricante de chips",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/CEO-Nvidia-1-1200x675.jpg",
-      "descobertaEm": "2026-11-09T22:17:58.955Z",
-      "reportagem": {
-        "titulo": "Ações da Nvidia fecham em queda de 4,27% com escândalo de espionagem",
-        "slug": "acoes-da-nvidia-fecham-em-queda-de-4-27-com-escandalo-de-espionagem",
-        "categoria": "Tecnologia",
-        "data": "2026-11-09",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/acoes-da-nvidia-fecham-em-queda-de-4-27-com-escandalo-de-espionagem.jpg",
-        "resumo": "Investigação sobre relação entre Jensen Huang e possível espiã chinesa aumentou incertezas sobre o comando da fabricante de chips.",
-        "conteudo": "<p>Investigação sobre relação de Jensen Huang e possível espiã chinesa aumentou incertezas sobre o comando da fabricante de chips</p><h2>Dados e contexto do setor</h2><p>As ações da Nvidia fecharam em queda de 4,27%, aos US$ 178,67 nesta 2ª feira (9.nov.2026), por causa da repercussão da investigação sobre uma possível operação de espionagem envolvendo o presidente-executivo da companhia, Jensen Huang .</p><p>Os papéis recuaram depois que uma reportagem indicou que o executivo mantinha um relacionamento próximo com uma empresária chinesa suspeita de repassar informações ao governo de Pequim.</p><p>A investigação foi aberta para apurar se Huang foi alvo de uma operação de inteligência estrangeira.</p><h2>Impactos e informações adicionais</h2><p>J ensen Huang se desculpou pelo caso extraconjugal com Alice Huang, empresária de origem chinesa que não tem parentesco com o CEO.</p><p>Segundo reportagem do jornal norte-americano The New York Times , publicada no mês passado, a empresária Alice, ex-executiva da companhia Megaspeed, sediada em Cingapura, foi investigada por autoridades norte-americanas, que concluíram que ela atuava como agente da inteligência chinesa.</p><p>A China também reagiu às acusações. O porta-voz do Ministério das Relações Exteriores do país, Guo Jiakun, classificou a narrativa sobre uma possível espionagem como uma acusação infundada, calúnia e difamação.</p><p>Huang disse aos funcionários da Nvidia que traiu a esposa, mas não apresentou detalhes sobre o relacionamento.</p><p>A situação levantou questionamentos sobre sua permanência no comando da fabricante de chips, considerada uma das empresas mais importantes do setor de inteligência artificial e uma das companhias de maior valor de mercado do mundo.</p><p>As ações da Nvidia chegaram a recuar 4,5% durante o pregão, negociadas a US$ 178,25 por volta das 12h08 (horário de Brasília).</p><p>Na bolsa de Frankfurt, os papéis chegaram a cair mais de 6%, atingindo os menores níveis em vários meses.</p><p>Com a desvalorização, a empresa corria o risco de perder aproximadamente US$ 270 bilhões em valor de mercado em relação ao fechamento de 6ª feira (6.nov), segundo dados da LSEG Datastream.</p><p>A repercussão do caso também aumentou as preocupações dos investidores sobre a governança da companhia e os riscos políticos e de segurança associados à disputa tecnológica entre Estados Unidos e China.</p><p>Huang é uma das principais figuras da indústria de IA e está à frente da empresa responsável por fabricar os chips utilizados no treinamento e na operação de modelos de IA.</p><p>O episódio provocou manifestações de empresários e investidores. Bill Ackman , fundador da gestora Pershing Square Capital Management, classificou Huang como um “ser humano incrível “, mas afirmou esperar que o caso envolva apenas uma traição conjugal, e não um risco à segurança nacional dos EUA.</p><p>Elon Musk também comentou o episódio. O presidente-executivo da Tesla concordou com uma publicação do sócio da Sequoia Shaun Maguire, que classificou a conduta de Huang como “incrivelmente idiota” e prejudicial aos EUA.</p><p>Apesar das críticas, Maguire afirmou que o executivo é insubstituível para a liderança norte-americana no setor de IA.</p><p>O presidente dos EUA, Donald Trump (Partido Republicano), havia dito no domingo (8.nov) que ainda não havia conversado com Huang sobre as acusações, mas elogiou o trabalho do executivo e disse acreditar que ele teria uma justificativa para o episódio.</p><p>Apesar da pressão sobre os papéis da Nvidia, as ações de importantes fornecedores asiáticos da companhia se recuperaram nesta 2ª feira, depois das perdas registradas na semana anterior.</p><p>Os papéis da TSMC subiram 6,5%, enquanto os da Samsung Electronics avançaram 2,9% e os da SK Hynix tiveram alta de 4,7%.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-economia/acoes-da-nvidia-fecham-em-queda-de-427-com-escandalo-de-espionagem/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
-          },
-          {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Investigação sobre relação de Jensen Huang e possível espiã chinesa aumentou incertezas sobre o comando da fabricante de chips"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "As ações da Nvidia fecharam em queda de 4,27%, aos US$ 178,67 nesta 2ª feira (9.nov.2026), por causa da repercussão da investigação sobre uma possível operação de espionagem envolvendo o presidente-executivo da companhia, Jensen Huang ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Os papéis recuaram depois que uma reportagem indicou que o executivo mantinha um relacionamento próximo com uma empresária chinesa suspeita de repassar informações ao governo de Pequim. A investigação foi aberta para apurar se Huang foi alvo de uma operação de inteligência estrangeira."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Segundo reportagem do jornal norte-americano The New York Times , publicada no mês passado, a empresária Alice, ex-executiva da companhia Megaspeed, sediada em Cingapura, foi investigada por autoridades norte-americanas, que concluíram que ela atuava como agente da inteligência chinesa. Apesar do sobrenome, os 2 não têm parentesco."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A China também reagiu às acusações. O porta-voz do Ministério das Relações Exteriores do país, Guo Jiakun, classificou a narrativa sobre uma possível espionagem como uma acusação infundada, calúnia e difamação."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/CEO-Nvidia-1-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/acoes-da-nvidia-fecham-em-queda-de-4-27-com-escandalo-de-espionagem.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "9caf30d67e7438e0",
-      "titulo": "Às vésperas da aposentadoria, ministro do STJ critica corrupção no Judiciário",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/as-vesperas-da-aposentadoria-ministro-do-stj-critica-corrupcao-no-judiciario/",
-      "dataFonte": "2026-11-09T21:42:53.000Z",
-      "resumoFonte": "O ministro Og Fernandes, do Superior Tribunal de Justiça (STJ) , afirmou que a corrupção no Judiciário é mais grave do que em outros Poderes e defendeu que magistrados não devem buscar enriquecimento na carreira. As declarações foram feitas em entrevista à Coluna do Estadão , publicada às vésperas de sua aposentadoria compulsória. Depois de 18 anos…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/07/og-fernandes-ministro-do-stj.jpg.webp",
-      "descobertaEm": "2026-11-09T22:17:58.955Z",
-      "reportagem": {
-        "titulo": "Às vésperas da aposentadoria, ministro do STJ critica corrupção no Judiciário",
-        "slug": "as-vesperas-da-aposentadoria-ministro-do-stj-critica-corrupcao-no-judiciario",
-        "categoria": "Justiça",
-        "data": "2026-11-09",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/as-vesperas-da-aposentadoria-ministro-do-stj-critica-corrupcao-no-judiciario.jpg",
-        "resumo": "Depois de 45 anos na magistratura, Og Fernandes defende reforma institucional e maior transparência sobre salários e benefícios",
-        "conteudo": "<p>O ministro Og Fernandes, do Superior Tribunal de Justiça (STJ), declarou que a corrupção no Judiciário é mais grave do que em outros Poderes, em entrevista à Coluna do Estadão, antes de sua aposentadoria compulsória em 10 de novembro de 2026.</p><h2>O contexto da decisão judicial</h2><p>Ele enfatizou que magistrados não devem buscar enriquecimento e que a corrupção compromete a confiança da população, já que os juízes não são eleitos.</p><p>O ministro Og Fernandes, do Superior Tribunal de Justiça (STJ) , afirmou que a corrupção no Judiciário é mais grave do que em outros Poderes e defendeu que magistrados não devem buscar enriquecimento na carreira.</p><p>As declarações foram feitas em entrevista à Coluna do Estadão , publicada às vésperas de sua aposentadoria compulsória.</p><h2>Detalhes e consequências do caso</h2><p>Depois de 18 anos no STJ e 45 anos de magistratura, Fernandes participará de sua última sessão na Corte nesta terça-feira, 10, antes de completar 75 anos.</p><p>“Se existe um Poder que tem o dever de não se corromper, é o Judiciário”, afirmou o ministro.</p><p>Segundo ele, a corrupção entre magistrados compromete especialmente a confiança da população, já que os cidadãos não podem escolher seus julgadores por meio do voto, como ocorre com representantes dos Poderes Executivo e Legislativo.</p><p>Relator da Operação Faroeste, que investiga um esquema de venda de sentenças na Justiça da Bahia, Fernandes também criticou a busca por riqueza dentro da magistratura.</p><p>Para o ministro, juízes, desembargadores e integrantes de tribunais superiores devem manter um padrão de vida compatível com os rendimentos da profissão.</p><p>“Quem ingressa na magistratura não deve ter como objetivo enriquecer”, declarou. Ele acrescentou que, salvo situações envolvendo patrimônio familiar, herança ou prêmios de loteria, o magistrado deve viver como uma pessoa de classe média.</p><p>O ministro também defendeu mudanças na Lei Orgânica da Magistratura Nacional (Loman) e maior transparência sobre salários e benefícios pagos a integrantes do Judiciário .</p><p>Segundo Fernandes, a remuneração deve ser compatível com a responsabilidade do cargo, mas não pode transformar a carreira em um caminho para o enriquecimento.</p><p>Fernandes também defendeu uma reforma institucional no STJ e no Supremo Tribunal Federal (STF). Na avaliação dele, o excesso de processos dificulta o funcionamento das Cortes e exige uma revisão das competências dos tribunais superiores.</p><p>Sobre o STF, o ministro afirmou que o tribunal concentra um volume excessivo de atribuições, incluindo o julgamento de ações penais contra autoridades, habeas corpus e processos constitucionais.</p><p>Ele defendeu uma discussão entre o Legislativo e o Supremo sobre a redistribuição dessas competências.</p><p>Ao comentar sua trajetória, Fernandes destacou como a decisão mais gratificante de sua carreira uma liminar concedida em 2023, que permitiu a uma criança com atrofia muscular espinhal receber o medicamento Zolgensma, considerado um dos mais caros do mundo.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/as-vesperas-da-aposentadoria-ministro-do-stj-critica-corrupcao-no-judiciario/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O ministro Og Fernandes, do Superior Tribunal de Justiça (STJ), declarou que a corrupção no Judiciário é mais grave do que em outros Poderes, em entrevista à Coluna do Estadão, antes de sua aposentadoria compulsória em 10 de novembro de 2026."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O ministro Og Fernandes, do Superior Tribunal de Justiça (STJ) , afirmou que a corrupção no Judiciário é mais grave do que em outros Poderes e defendeu que magistrados não devem buscar enriquecimento na carreira. As declarações foram feitas em entrevista à Coluna do Estadão , publicada às vésperas de sua aposentadoria compulsória."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Depois de 18 anos no STJ e 45 anos de magistratura, Fernandes participará de sua última sessão na Corte nesta terça-feira, 10, antes de completar 75 anos."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "“Se existe um Poder que tem o dever de não se corromper, é o Judiciário”, afirmou o ministro. Segundo ele, a corrupção entre magistrados compromete especialmente a confiança da população, já que os cidadãos não podem escolher seus julgadores por meio do voto, como ocorre com representantes dos Poderes Executivo e Legislativo."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Relator da Operação Faroeste, que investiga um esquema de venda de sentenças na Justiça da Bahia, Fernandes também criticou a busca por riqueza dentro da magistratura. Para o ministro, juízes, desembargadores e integrantes de tribunais superiores devem manter um padrão de vida compatível com os rendimentos da profissão."
-          }
-        ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/07/og-fernandes-ministro-do-stj.jpg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/as-vesperas-da-aposentadoria-ministro-do-stj-critica-corrupcao-no-judiciario.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "ea3f70ea00876e79",
-      "titulo": "Homem é morto a tiros em beco na Serra; polícia suspeita de disputa pelo tráfico",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/agora/homem-e-morto-a-tiros-em-beco-na-serra-policia-suspeita-de-disputa-pelo-trafico-1126",
-      "dataFonte": "2026-11-09T21:46:43.000Z",
-      "resumoFonte": "Vítima de 23 anos foi atingida por pelo menos seis disparos, segundo a perícia; região registrou outro ataque a tiros na última semana",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1794259287723_template_radar_a_gazeta_80.jpg",
-      "descobertaEm": "2026-11-09T22:17:58.955Z"
-    },
-    {
-      "id": "44167a2fbead8669",
-      "titulo": "Alcolumbre adia encontro com senadoras em meio à disputa pela presidência do Senado",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/alcolumbre-adia-encontro-com-senadoras-em-meio-a-disputa-pela-presidencia-do-senado/",
-      "dataFonte": "2026-11-09T21:44:17.000Z",
-      "resumoFonte": "O presidente do Senado Federal , Davi Alcolumbre (União Brasil-AP), adiou o café da manhã que teria com integrantes da bancada feminina nesta terça-feira, 10. A reunião passou para 25 de novembro, depois que parte das senadoras informou que não poderia comparecer ou deixou de confirmar presença. Entre as parlamentares que ainda não haviam…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/02/06B_ed255.jpg.webp",
-      "descobertaEm": "2026-11-09T22:17:58.955Z",
-      "reportagem": {
-        "titulo": "Alcolumbre adia encontro com senadoras em meio à disputa pela presidência do Senado",
-        "slug": "alcolumbre-adia-encontro-com-senadoras-em-meio-a-disputa-pela-presidencia-do-senado",
-        "categoria": "Política Nacional",
-        "data": "2026-11-09",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/alcolumbre-adia-encontro-com-senadoras-em-meio-a-disputa-pela-presidencia-do-senado.jpg",
-        "resumo": "Café da manhã foi remarcado depois de parlamentares não confirmarem presença",
-        "conteudo": "<p>O presidente do Senado, Davi Alcolumbre, adiou um café da manhã com a bancada feminina, que ocorreria nesta terça-feira, 10, para 25 de novembro, devido à ausência de senadoras, incluindo Tereza Cristina, que articula uma candidatura à presidência do Senado.</p><h2>O contexto do cenário político</h2><p>A reunião, organizada pela líder da bancada feminina, Professora Dorinha, visava recepcionar as senadoras eleitas em outubro, que aumentaram a bancada feminina para 18 integrantes em 2027.</p><p>O presidente do Senado Federal , Davi Alcolumbre (União Brasil-AP), adiou o café da manhã que teria com integrantes da bancada feminina nesta terça-feira, 10.</p><p>A reunião passou para 25 de novembro, depois que parte das senadoras informou que não poderia comparecer ou deixou de confirmar presença.</p><h2>Informações e repercussões do episódio</h2><p>Entre as parlamentares que ainda não haviam confirmado participação estava Tereza Cristina (PP-MS), que articula uma candidatura à presidência do Senado. A senadora disputa com Alcolumbre o apoio da bancada feminina na eleição que definirá o comando da Casa em 2027.</p><p>A líder da bancada feminina, Professora Dorinha (União Brasil-TO), organizava o encontro na residência oficial do Senado. O gabinete dela confirmou a mudança de data.</p><p>A reunião havia sido apresentada como uma recepção às senadoras eleitas em outubro, mas também ocorreria em meio às articulações de Alcolumbre para conquistar apoio à sua reeleição.</p><p>Nesse cenário, Tereza busca se apresentar como alternativa à recondução de Alcolumbre e à candidatura de Rogério Marinho (PL-RN), lançada oficialmente pela oposição na semana passada. A senadora quer que uma mulher assuma pela primeira vez a presidência do Senado.</p><p>A Federação União Progressista, formada por União Brasil e PP, já anunciou apoio à reeleição de Alcolumbre . Mesmo assim, Tereza mantém as articulações para disputar o cargo em uma candidatura avulsa, sem o respaldo formal da federação.</p><p>Marinho e Tereza afirmam ter um entendimento para evitar uma disputa direta entre os dois.</p><p>A previsão é que reavaliem o cenário na segunda quinzena de janeiro e discutam qual candidatura terá condições de enfrentar Alcolumbre. A eleição exige pelo menos 41 votos dos 81 senadores. A votação é secreta.</p><p>As eleições de outubro elegeram 12 mulheres para o Senado, o maior número de cadeiras conquistadas por candidatas em uma única eleição desde a redemocratização. Com as parlamentares que continuam nos mandatos, a bancada feminina chegará a 18 integrantes em fevereiro de 2027.</p><p>O número ampliará o peso das senadoras nas articulações para a escolha do próximo presidente da Casa. Tereza busca apoio entre as parlamentares de diferentes partidos para viabilizar sua candidatura.</p><p>Alcolumbre também tenta se aproximar das novas integrantes da bancada. O café da manhã seria uma oportunidade para receber as eleitas e conversar com as senadoras que já exercem mandato.</p><p>O presidente do Senado chegou a ser convidado para acompanhar o presidente Luiz Inácio Lula da Silva na viagem à COP31, na Turquia, mas não integrou a comitiva. O petista embarcou nesta segunda-feira, 9, para participar da conferência.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/alcolumbre-adia-encontro-com-senadoras-em-meio-a-disputa-pela-presidencia-do-senado/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O presidente do Senado, Davi Alcolumbre, adiou um café da manhã com a bancada feminina, que ocorreria nesta terça-feira, 10, para 25 de novembro, devido à ausência de senadoras, incluindo Tereza Cristina, que articula uma candidatura à presidência do Senado."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O presidente do Senado Federal , Davi Alcolumbre (União Brasil-AP), adiou o café da manhã que teria com integrantes da bancada feminina nesta terça-feira, 10. A reunião passou para 25 de novembro, depois que parte das senadoras informou que não poderia comparecer ou deixou de confirmar presença."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Entre as parlamentares que ainda não haviam confirmado participação estava Tereza Cristina (PP-MS), que articula uma candidatura à presidência do Senado. A senadora disputa com Alcolumbre o apoio da bancada feminina na eleição que definirá o comando da Casa em 2027."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A líder da bancada feminina, Professora Dorinha (União Brasil-TO), organizava o encontro na residência oficial do Senado. O gabinete dela confirmou a mudança de data. A reunião havia sido apresentada como uma recepção às senadoras eleitas em outubro, mas também ocorreria em meio às articulações de Alcolumbre para conquistar apoio à sua reeleição."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Nesse cenário, Tereza busca se apresentar como alternativa à recondução de Alcolumbre e à candidatura de Rogério Marinho (PL-RN), lançada oficialmente pela oposição na semana passada. A senadora quer que uma mulher assuma pela primeira vez a presidência do Senado."
-          }
-        ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2025/02/06B_ed255.jpg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/alcolumbre-adia-encontro-com-senadoras-em-meio-a-disputa-pela-presidencia-do-senado.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "bfc5e1382a823ac6",
-      "titulo": "Adiamento da maioridade penal gera atrito entre PT, Lula e oposição no Congresso",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/politica/adiamento-da-maioridade-penal-gera-atrito-entre-pt-lula-e-oposicao-no-congresso/",
-      "dataFonte": "2026-11-09T21:42:21.000Z",
-      "resumoFonte": "Acordo entre Alcolumbre e Motta empurra votação para o ano que vem, enquanto PT reforça veto histórico e marca contraste com fala de Lula.",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/08/55490090018_8e350b8ee6_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-09T22:17:58.955Z",
-      "reportagem": {
-        "titulo": "Adiamento da maioridade penal gera atrito entre PT, Lula e oposição no Congresso",
-        "slug": "adiamento-da-maioridade-penal-gera-atrito-entre-pt-lula-e-oposicao-no-congresso",
-        "categoria": "Política Nacional",
-        "data": "2026-11-09",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/adiamento-da-maioridade-penal-gera-atrito-entre-pt-lula-e-oposicao-no-congresso.jpg",
-        "resumo": "Acordo entre Alcolumbre e Motta empurra votação para o ano que vem, enquanto PT reforça veto histórico e marca contraste com fala de Lula.",
-        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril.</p><h2>O contexto do cenário político</h2><p>O adiamento da discuss&atilde;o sobre a redu&ccedil;&atilde;o da maioridade penal no Congresso Nacional exp&ocirc;s diverg&ecirc;ncias no governo e desconfian&ccedil;a na oposi&ccedil;&atilde;o.</p><p>Ap&oacute;s acordo entre o presidente do Senado, Davi Alcolumbre, e o da C&acirc;mara, Hugo Motta, a an&aacute;lise come&ccedil;ar&aacute; por uma comiss&atilde;o especial dos deputados .</p><p>A mudan&ccedil;a atende a senadores do PT e posterga a decis&atilde;o final para o pr&oacute;ximo ano, reacendendo debates sobre a posi&ccedil;&atilde;o do presidente Lula e de sua legenda.</p><h2>Informações e repercussões do episódio</h2><p>A proposta de redu&ccedil;&atilde;o da maioridade penal seria votada inicialmente no Senado Federal.</p><p>No entanto, o presidente da Casa, Davi Alcolumbre, recuou ap&oacute;s fechar um acordo com o presidente da C&acirc;mara dos Deputados, Hugo Motta.</p><p>Pelo entendimento firmado, a an&aacute;lise do projeto passar&aacute; a ser feita por uma comiss&atilde;o especial na C&acirc;mara.</p><p>O relator da proposta entre os deputados, Mendon&ccedil;a Filho (PL-PE), deve apresentar seu parecer at&eacute; o final deste m&ecirc;s.</p><p>Caso seja aprovado na comiss&atilde;o, o texto seguir&aacute; para o plen&aacute;rio da C&acirc;mara ainda neste ano, empurrando a aprecia&ccedil;&atilde;o decisiva pelos senadores para o ano que vem.</p><p>Durante a campanha eleitoral, antes do segundo turno, o presidente Luiz In&aacute;cio Lula da Silva afirmou ser favor&aacute;vel &agrave; redu&ccedil;&atilde;o da penalidade e da maioridade penal para crimes hediondos.</p><p>Em sess&atilde;o no Senado, Jaques Wagner explicou que a fala de Lula refletia uma opini&atilde;o pessoal e cidad&atilde;, sem impor diretrizes ao partido.</p><p>O vice-presidente da sigla, Jilmar Tatto, confirmou que a maioria dos parlamentares petistas votar&aacute; contra a medida na C&acirc;mara e no Senado.</p><p>A decis&atilde;o de transferir o in&iacute;cio dos debates para a C&acirc;mara gerou forte receio em diferentes alas legislativas.</p><p>Parlamentares da oposi&ccedil;&atilde;o conservadora avaliam que a acenada inicial de Alcolumbre foi apenas uma t&aacute;tica para protelar a pauta e negociar apoio na elei&ccedil;&atilde;o para a Mesa Diretora do Senado.</p><p>J&aacute; integrantes da base governista temem o adiamento para o pr&oacute;ximo ano.</p><p>Aliados de Lula entendem que a futura composi&ccedil;&atilde;o do Congresso pode tornar o texto mais severo, preferindo que a proposta fosse apreciada sob o perfil mais moderado da atual legislatura.</p><p>Com o envio da mat&eacute;ria para a C&acirc;mara dos Deputados, a proposta precisar&aacute; cumprir ritos pr&eacute;vios antes de qualquer vota&ccedil;&atilde;o decisiva.</p><p>O parecer a ser apresentado pelo deputado Mendon&ccedil;a Filho ainda ter&aacute; de ser apreciado e aprovado dentro da comiss&atilde;o especial.</p><p>Somente ap&oacute;s a aprova&ccedil;&atilde;o nessa etapa preliminar o projeto estar&aacute; apto para ser pautado no plen&aacute;rio da Casa.</p><p>Apenas se for chancelado pelos deputados &eacute; que o texto seguir&aacute; para o Senado Federal, onde a tramita&ccedil;&atilde;o ficar&aacute; reservada para a pr&oacute;xima etapa do calend&aacute;rio legislativo.</p><p>VEJA+IA: Este conte&uacute;do foi produzido com aux&iacute;lio de intelig&ecirc;ncia artificial e supervis&atilde;o humana.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/politica/adiamento-da-maioridade-penal-gera-atrito-entre-pt-lula-e-oposicao-no-congresso/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O adiamento da discuss&atilde;o sobre a redu&ccedil;&atilde;o da maioridade penal no Congresso Nacional exp&ocirc;s diverg&ecirc;ncias no governo e desconfian&ccedil;a na oposi&ccedil;&atilde;o."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A proposta de redu&ccedil;&atilde;o da maioridade penal seria votada inicialmente no Senado Federal. No entanto, o presidente da Casa, Davi Alcolumbre, recuou ap&oacute;s fechar um acordo com o presidente da C&acirc;mara dos Deputados, Hugo Motta."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Durante a campanha eleitoral, antes do segundo turno, o presidente Luiz In&aacute;cio Lula da Silva afirmou ser favor&aacute;vel &agrave; redu&ccedil;&atilde;o da penalidade e da maioridade penal para crimes hediondos."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A decis&atilde;o de transferir o in&iacute;cio dos debates para a C&acirc;mara gerou forte receio em diferentes alas legislativas. Parlamentares da oposi&ccedil;&atilde;o conservadora avaliam que a acenada inicial de Alcolumbre foi apenas uma t&aacute;tica para protelar a pauta e negociar apoio na elei&ccedil;&atilde;o para a Mesa Diretora do Senado."
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/08/55490090018_8e350b8ee6_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/adiamento-da-maioridade-penal-gera-atrito-entre-pt-lula-e-oposicao-no-congresso.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -709,154 +745,26 @@
       "descobertaEm": "2026-11-09T22:17:58.955Z"
     },
     {
-      "id": "a209249af2d7a099",
-      "titulo": "Caixa apresenta nova identidade visual após quase 30 anos",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Agência Brasil - Economia",
-      "urlFonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/caixa-apresenta-nova-identidade-visual-apos-quase-30-anos",
-      "dataFonte": "2026-11-09T22:05:00.000Z",
-      "resumoFonte": "A Caixa Econômica Federal apresentou, nesta segunda-feira (9), sua nova identidade visual, com mudanças no logotipo, na tipografia e nas cores utilizadas pelo banco. A reformulação preserva elementos tradicionais da instituição, como o nome Caixa e o característico X azul e laranja, mas aposta em um desenho mais moderno, com letras arredondadas e…",
-      "imagem": "https://agenciabrasil.ebc.com.br/sites/default/themes/agenciabrasil_v3/images/transparencia.png?tnhjsg",
-      "descobertaEm": "2026-11-09T22:17:58.955Z",
-      "reportagem": {
-        "titulo": "Caixa apresenta nova identidade visual após quase 30 anos",
-        "slug": "caixa-apresenta-nova-identidade-visual-apos-quase-30-anos",
-        "categoria": "Economia",
-        "data": "2026-11-09",
-        "imagem": "https://agenciabrasil.ebc.com.br/sites/default/themes/agenciabrasil_v3/images/transparencia.png?tnhjsg",
-        "resumo": "Nova marca mantém tradicional X azul e laranja e será adotada até 2030. Mudança faz parte de um processo de reposicionamento e modernização da instituição.",
-        "conteudo": "<p>A Caixa Econômica Federal apresentou, nesta segunda-feira (9), sua nova identidade visual, com mudanças no logotipo, na tipografia e nas cores utilizadas pelo banco.</p><h2>Dados e contexto do setor</h2><p>A reformulação preserva elementos tradicionais da instituição, como o nome Caixa e o característico X azul e laranja, mas aposta em um desenho mais moderno, com letras arredondadas e tonalidades mais vibrantes.</p><p>A novidade faz parte de um processo de reposicionamento e modernização da instituição , que busca fortalecer sua presença nos ambientes digitais e aprimorar a experiência dos clientes nos canais de atendimento físicos e virtuais.</p><p>A nova marca chega acompanhada do slogan “Vem realizar”.</p><h2>Como interpretar os resultados</h2><p>Segundo a Caixa, o projeto foi desenvolvido com base em pesquisas qualitativas e quantitativas para compreender a percepção da marca entre clientes e diferentes públicos.</p><p>A última mudança significativa na identidade visual do banco foi em 1997, quando foi lançado o X azul e laranja.</p><p>Uma das principais novidades está no desenho do nome Caixa. A instituição passa a utilizar uma tipografia chamada unicase, na qual letras maiúsculas e minúsculas apresentam a mesma altura. As formas mais curvas foram adotadas para transmitir proximidade e modernidade.</p><p>O tradicional X, principal símbolo visual do banco, também foi redesenhado. As hastes azul e laranja foram preservadas, mas ganharam novas proporções e maior profundidade.</p><p>De acordo com a instituição, o azul representa solidez e segurança, enquanto o laranja está associado à diversidade e à brasilidade. O encontro das duas cores simboliza a integração entre as dimensões social e comercial da Caixa.</p><p>A modernização também deve alcançar os serviços digitais. A Caixa anunciou o desenvolvimento do Novo App Caixa, que deverá reunir produtos e serviços atualmente distribuídos entre diferentes aplicativos da instituição.</p><p>Entre as funcionalidades previstas estão a abertura de contas totalmente digitais, a Conta On!, destinada a jovens de 8 a 17 anos, a integração de benefícios sociais por meio da Plataforma do Cidadão e o programa de fidelidade UAU.</p><p>O aplicativo também deverá concentrar opções de crédito, investimentos e informações financeiras dos clientes por meio do Open Finance.</p><p>A instituição prevê ainda a utilização de inteligência artificial para oferecer serviços mais personalizados, seguros e intuitivos.</p><p>A nova identidade visual começou a ser adotada em 11 agências distribuídas pelas cinco regiões do país.</p><p>Entre as unidades está a agência conceito do Conjunto Nacional, localizada na Avenida Paulista, em São Paulo. O espaço será reaberto ao público na quarta-feira (11), com a nova identidade.</p><p>A substituição da marca nas demais unidades ocorrerá gradualmente, acompanhando obras de modernização, intervenções e manutenções programadas. A previsão é concluir a implantação em toda a rede até 2030.</p><p>A Caixa tem aproximadamente 24,6 mil pontos de atendimento, incluindo agências, postos de atendimento, casas lotéricas, correspondentes Caixa Aqui, unidades móveis e agências-barco. A instituição está presente em mais de 97% dos municípios brasileiros.</p>",
-        "fonteNome": "Agência Brasil - Economia",
-        "fonteUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/caixa-apresenta-nova-identidade-visual-apos-quase-30-anos",
-        "fontesAdicionais": [
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          },
-          {
-            "nome": "Ministério da Fazenda",
-            "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A Caixa Econômica Federal apresentou, nesta segunda-feira (9), sua nova identidade visual, com mudanças no logotipo, na tipografia e nas cores utilizadas pelo banco."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A reformulação preserva elementos tradicionais da instituição, como o nome Caixa e o característico X azul e laranja, mas aposta em um desenho mais moderno, com letras arredondadas e tonalidades mais vibrantes."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A novidade faz parte de um processo de reposicionamento e modernização da instituição , que busca fortalecer sua presença nos ambientes digitais e aprimorar a experiência dos clientes nos canais de atendimento físicos e virtuais. A nova marca chega acompanhada do slogan “Vem realizar”."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Segundo a Caixa, o projeto foi desenvolvido com base em pesquisas qualitativas e quantitativas para compreender a percepção da marca entre clientes e diferentes públicos."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A última mudança significativa na identidade visual do banco foi em 1997, quando foi lançado o X azul e laranja."
-          }
-        ]
-      }
-    },
-    {
-      "id": "cf819d8e4f125da5",
-      "titulo": "Reeleição de Lula reforça apetite chinês por aquisições de empresas brasileiras, diz Bradesco BBI",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://c-level.folha.uol.com.br/c-level-entrevista/2026/11/reeleicao-de-lula-reforca-apetite-chines-por-aquisicoes-de-empresas-brasileiras-diz-bradesco-bbi.shtml",
-      "dataFonte": "2026-11-09T22:04:00.000Z",
-      "resumoFonte": "Os investidores chineses retomaram o apetite por fusões e aquisições no Brasil após a vitória do presidente Luiz Inácio Lula da Silva (PT) nas eleições presidenciais. O interesse foi impulsionado pela percepção de um cenário político mais amigável ao país asiático, segundo André Moor, chefe de banco de investimento do Bradesco BBI.",
-      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
-      "descobertaEm": "2026-11-09T22:17:58.955Z"
-    },
-    {
-      "id": "dc835fb08246f8ed",
-      "titulo": "BYD faz acordo com a TIM para conexão da frota e da fábrica no Brasil",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/tecnologia/byd-faz-acordo-com-a-tim-para-conexao-da-frota-e-da-fabrica-no-brasil/",
-      "dataFonte": "2026-11-09T21:31:36.000Z",
-      "resumoFonte": "Com parceria, diferentes modelos da marca passarão a contar com chips virtuais (eSIM) da TIM, com conexão 4G em 100% das cidades brasileiras e 5G em 1,1 mil cidades",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2026binary_LYNXMPEM140IB-BASEIMAGE.jpg?w=800&h=521&crop=1",
-      "descobertaEm": "2026-11-09T22:17:58.955Z",
-      "reportagem": {
-        "titulo": "BYD faz acordo com a TIM para conexão da frota e da fábrica no Brasil",
-        "slug": "byd-faz-acordo-com-a-tim-para-conexao-da-frota-e-da-fabrica-no-brasil",
-        "categoria": "Tecnologia",
-        "data": "2026-11-09",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/byd-faz-acordo-com-a-tim-para-conexao-da-frota-e-da-fabrica-no-brasil.jpg",
-        "resumo": "Com parceria, diferentes modelos da marca passarão a contar com chips virtuais (eSIM) da TIM, com conexão 4G em 100% das cidades brasileiras e 5G em 1,1 mil cidades",
-        "conteudo": "<p>A TIM fechou um contrato com a BYD para fornecer internet a toda a frota de veículos leves da montadora chinesa no Brasil, além do seu polo industrial.</p><h2>Dados e contexto do setor</h2><p>Com a parceria, os diferentes modelos da marca passarão a contar com chips virtuais (eSIM) da TIM, com conexão 4G em 100% das cidades brasileiras e 5G em 1,1 mil cidades onde a operadora oferece cobertura.</p><p>A previsão é de que cerca de 200 mil veículos da montadora chinesa contem com essa conectividade embarcada nos próximos 24 meses. Assim, a BYD busca avançar no desenvolvimento de novas funcionalidades que envolvam serviços conectados.</p><p>Com o crescimento de serviços como inteligência artificial e uso de funções como mapas e streaming a bordo, um carro já tem consumo de dados quase equiparável a de um plano básico pós-pago, tipo 'controle'.</p><h2>Impactos e informações adicionais</h2><p>Do lado da TIM, o negócio representa uma expansão no setor automotivo, onde já oferece conexão para cerca de 630 mil veículos.</p><p>A tele italiana possui uma parceria com a antiga FCA (Fiat Chrysler Automóveis) – hoje parte do grupo Stellantis – para fornecer conectividade 4G e eSIM em veículos das marcas Fiat, Jeep e Ram no Brasil.</p><p>O contrato entre a TIM e a BYD envolve também a implantação de infraestrutura dedicada de redes 5G e 4G no complexo industrial da montadora em Camaçari, na Bahia. Essa é a maior fábrica de veículos eletrificados da América Latina, com 4,6 milhões de m².</p><p>O projeto prevê a instalação de sete pontos de cobertura externa e 63 equipamentos distribuídos entre os galpões e as áreas operacionais, garantindo uma rede preparada para acompanhar o crescimento da produção e as demandas tecnológicas do complexo.</p><p>Logo da BYD em carro exposto em concessionária em Barcelona</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/tecnologia/byd-faz-acordo-com-a-tim-para-conexao-da-frota-e-da-fabrica-no-brasil/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
-          },
-          {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A TIM fechou um contrato com a BYD para fornecer internet a toda a frota de veículos leves da montadora chinesa no Brasil, além do seu polo industrial."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Com a parceria, os diferentes modelos da marca passarão a contar com chips virtuais (eSIM) da TIM, com conexão 4G em 100% das cidades brasileiras e 5G em 1,1 mil cidades onde a operadora oferece cobertura."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A previsão é de que cerca de 200 mil veículos da montadora chinesa contem com essa conectividade embarcada nos próximos 24 meses. Assim, a BYD busca avançar no desenvolvimento de novas funcionalidades que envolvam serviços conectados."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Com o crescimento de serviços como inteligência artificial e uso de funções como mapas e streaming a bordo, um carro já tem consumo de dados quase equiparável a de um plano básico pós-pago, tipo 'controle'."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Do lado da TIM, o negócio representa uma expansão no setor automotivo, onde já oferece conexão para cerca de 630 mil veículos. A tele italiana possui uma parceria com a antiga FCA (Fiat Chrysler Automóveis) – hoje parte do grupo Stellantis – para fornecer conectividade 4G e eSIM em veículos das marcas Fiat, Jeep e Ram no Brasil."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2026binary_LYNXMPEM140IB-BASEIMAGE.jpg?w=800&h=521&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/byd-faz-acordo-com-a-tim-para-conexao-da-frota-e-da-fabrica-no-brasil.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "a576ea03ea800692",
-      "titulo": "Pedido de arquivamento do inquérito das fake news não anula condenações; entenda",
+      "id": "2061751576e2014e",
+      "titulo": "Fachin determina arquivamento do inquérito das Fake News",
       "categoria": "Justiça",
       "radar": null,
       "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/brasil/pedido-de-arquivamento-do-inquerito-das-fake-news-nao-anula-condenacoes-entenda/",
-      "dataFonte": "2026-11-09T22:25:05.000Z",
-      "resumoFonte": "Apuração, conduzida até setembro pelo ministro Alexandre de Moraes, se conectou a uma série de procedimentos que ganharam tramitação própria, alguns dos quais resultaram em condenações",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/fake-news.jpg?w=1000&h=600&crop=1",
-      "descobertaEm": "2026-11-09T22:27:24.530Z",
+      "urlFonte": "https://jovempan.com.br/politica/fachin-determina-arquivamento-do-inquerito-das-fake-news/",
+      "dataFonte": "2026-11-09T23:08:08.000Z",
+      "resumoFonte": "Decisão vem após a Procuradoria- Geral da República dar parecer favorável ao arquivamento do inquérito",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/08/Design-sem-nome-7-1.png?w=1000&h=600&crop=1",
+      "descobertaEm": "2026-11-09T23:18:02.698Z",
       "reportagem": {
-        "titulo": "Pedido de arquivamento do inquérito das fake news não anula condenações; entenda",
-        "slug": "pedido-de-arquivamento-do-inquerito-das-fake-news-nao-anula-condenacoes-entenda",
+        "titulo": "Fachin determina arquivamento do inquérito das Fake News",
+        "slug": "fachin-determina-arquivamento-do-inquerito-das-fake-news",
         "categoria": "Justiça",
         "data": "2026-11-09",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/pedido-de-arquivamento-do-inquerito-das-fake-news-nao-anula-condenacoes-entenda.jpg",
-        "resumo": "Apuração, conduzida até setembro pelo ministro Alexandre de Moraes, se conectou a uma série de procedimentos que ganharam tramitação própria, alguns dos quais resultaram em condenações",
-        "conteudo": "<p>O pedido de arquivamento do inquérito das fake news, apresentado nesta segunda-feira (09) pela Procuradoria-Geral da República (PGR), não significa o fim das investigações originadas nesses autos e que ainda estão em andamento.</p><h2>O contexto da decisão judicial</h2><p>Também não atinge as ações penais que surgiram ao longo dos sete anos de tramitação do caso no Supremo Tribunal Federal (STF).</p><p>A apuração, conduzida até setembro pelo ministro Alexandre de Moraes, se conectou a uma série de procedimentos que ganharam tramitação própria, alguns dos quais resultaram em condenações.</p><p>O procurador-geral da República, Paulo Gonet, encaminhou um ofício ao presidente do STF, Edson Fachin, defendendo o encerramento da investigação, aberta de ofício pelo então presidente da Corte, Dias Toffoli, em março de 2019, para apurar ameaças e ataques contra ministros do tribunal.</p><h2>Detalhes e consequências do caso</h2><p>O caso foi distribuído diretamente ao gabinete de Moraes, sem sorteio, em um procedimento incomum para os padrões da Corte.</p><p>Fachin assumiu a condução do inquérito em setembro, após retirar a relatoria de Moraes, e agora terá de decidir se acolhe o pedido da PGR.</p><p>Para o criminalista Renato Vieira, o encerramento do inquérito das fake news não impede que as investigações relacionadas a ele continuem em andamento.</p><p>Segundo o advogado, isso vale mesmo que o caso seja arquivado por ter se prolongado demais ou por já ter cumprido sua finalidade.</p><p>“Via de regra, o encerramento de uma determinada investigação, ainda que dela tenham sido instauradas outras, não influencia no andamento das demais”, afirma.</p><p>A condução do inquérito por Moraes foi alvo de questionamentos desde os primeiros anos.</p><p>Em 2020, a Ordem dos Advogados do Brasil (OAB) recorreu ao STF após receber relatos de advogados que tiveram dificuldades para acessar os autos da investigação.</p><p>Dois anos depois, a entidade voltou a cobrar providências para garantir o acesso das defesas às provas.</p><p>O ministro afirmou, na ocasião, que os pedidos haviam sido analisados e que o direito dos advogados estava assegurado. O próprio STF validou a abertura do inquérito em junho de 2020, por dez votos a um.</p><p>Vieira ressalta, porém, que eventuais irregularidades identificadas no inquérito das fake news poderiam afetar outras investigações que utilizaram suas provas.</p><p>Isso ocorreria, por exemplo, se fosse reconhecida a falta de imparcialidade de Moraes ou a utilização de provas obtidas ilegalmente.</p><p>Nesses casos, seria necessário avaliar se as irregularidades também comprometeram os demais processos.</p><p>A possibilidade de questionamentos sobre provas compartilhadas ganha importância diante do alcance que o inquérito das fake news adquiriu ao longo dos anos.</p><p>Inicialmente voltada a ataques contra ministros do STF, a investigação passou a apurar também a disseminação de notícias falsas contra outras instituições democráticas, incluindo o Tribunal Superior Eleitoral (TSE), e atingiu Jair Bolsonaro (PL) e seus aliados.</p><p>Em um balanço divulgado pelo STF em abril deste ano, o próprio Moraes relacionou 13 inquéritos conectados à investigação original, incluindo apurações sobre as manifestações de 7 de Setembro de 2021 e a divulgação, por Bolsonaro, durante uma transmissão ao vivo, de informações sigilosas de uma investigação da Polícia Federal sobre um suposto ataque hacker ao TSE.</p><p>Entre as principais investigações conectadas ao inquérito das fake news está a das milícias digitais, aberta em 2021.</p><p>Também conduzida por Moraes, a apuração aproveitou provas reunidas no inquérito original e em outros procedimentos para investigar a atuação de uma suposta organização criminosa estruturada em núcleos de produção, financiamento e disseminação de desinformação contra as instituições.</p><p>O inquérito das milícias digitais, por sua vez, abriu caminho para outras frentes de investigação , entre elas a apuração sobre a chamada Abin paralela, que investigou o uso irregular da estrutura de inteligência do governo para monitorar adversários políticos.</p><p>Essa rede de investigações se ampliou após os ataques de 8 de janeiro de 2023, quando apoiadores de Bolsonaro invadiram e depredaram as sedes dos Três Poderes.</p><p>Novas apurações foram abertas para identificar os responsáveis pelos atos, incluindo financiadores e articuladores, e passaram a aproveitar provas reunidas nos procedimentos anteriores.</p><p>Como mostrou o Estadão, esse encadeamento se tornou a espinha dorsal da acusação contra Bolsonaro por tentativa de golpe de Estado.</p><p>A PGR reuniu provas colhidas em diferentes investigações, incluindo o inquérito das fake news, para sustentar que os ataques de 8 de Janeiro representaram o ponto culminante de uma articulação destinada a reverter o resultado das eleições de 2022 e impedir a continuidade do governo Lula.</p><p>A denúncia levou à abertura de uma ação penal em março de 2025 e à condenação de Bolsonaro a 27 anos e três meses de prisão , em setembro daquele ano.</p><p>Bolsonaro não foi o único a enfrentar uma ação penal alimentada por provas dessas investigações.</p><p>O ex-deputado Daniel Silveira também foi condenado, em abril de 2022, a oito anos e nove meses de prisão, em um processo relacionado tanto ao inquérito das fake news quanto à investigação sobre os atos antidemocráticos de 2020.</p><p>Esta última havia sido arquivada em julho de 2021 , mas a ação penal contra Silveira continuou em andamento e resultou em sua condenação no ano seguinte.</p><p>O criminalista Marcelo Crespo, coordenador do curso de Direito da ESPM, explica que condenações como as de Bolsonaro e Silveira não são afetadas pelo eventual arquivamento do inquérito das fake news, mesmo que os processos tenham utilizado provas reunidas na investigação.</p><p>Isso porque, após o recebimento da denúncia, a ação penal passa a tramitar de forma independente.</p><p>“O arquivamento de um inquérito que deu origem a uma persecução penal […] não extingue essa ação penal, nem invalida eventual condenação”, afirma.</p><p>A decisão de retirar o inquérito das fake news de Moraes ocorreu em setembro, em meio à crise envolvendo o Banco Master.</p><p>A mudança aconteceu após o ministro André Mendonça levantar o sigilo de um relatório da Polícia Federal com mensagens encontradas no celular do banqueiro Daniel Vorcaro que apontavam vínculos com Moraes.</p><p>Moraes, então, utilizou o inquérito das fake news para pedir a investigação do colega por supostas irregularidades nas apurações sobre o Master e o INSS. Fachin retirou essas acusações do inquérito e, dias depois, em 9 de setembro, afastou Moraes da condução do caso.</p><p>Ao assumir o caso , Fachin definiu os critérios para a divisão dos processos, explica Crespo.</p><p>As investigações e os procedimentos preliminares vinculados ao inquérito das fake news passaram à Presidência do STF, enquanto as ações penais com denúncias já recebidas permaneceram sob a responsabilidade de Moraes.</p><p>A decisão também preservou os atos regularmente praticados anteriormente pelo ministro.</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/fachin-determina-arquivamento-do-inquerito-das-fake-news.jpg",
+        "resumo": "Decisão vem após a Procuradoria- Geral da República dar parecer favorável ao arquivamento do inquérito",
+        "conteudo": "<p>O ministro Edson Fachin determinou nesta segunda-feira (09) o arquivamento do inquérito das Fake News, após a Procuradoria- Geral da República dar parecer favorável ao arquivamento do inquérito das fake news.</p><h2>O contexto da decisão judicial</h2><p>A manifestação, assinada pelo procurador-geral da República, Paulo Gonet, considera que o objeto da investigação principal, aberta em 2019, já foi esgotado.</p><p>Na decisão, Fachin ressaltou que a constitucionalidade da instauração do inquérito não autoriza a perpetuação indefinida do procedimento nem sua transformação em um canal permanente para a apuração de fatos futuros.</p><p>O ministro considerou que o inquérito cumpriu sua função instrumental e atingiu o limite temporal compatível com a natureza de uma investigação pré-processual.</p><h2>Detalhes e consequências do caso</h2><p>O encerramento das apurações tem efeito imediato, com o fim de novas diligências.</p><p>Entretanto, é impostante ressaltar que o arquivamento não invalida nem anula retroativamente quaisquer decisões , provas colhidas, acordos ou ações penais em curso decorrentes das investigações.</p><p>As ações penais já iniciadas , com denúncia recebida, e os procedimentos investigatórios autônomos com objeto próprio c ontinuarão tramitando normalmente nos órgãos competentes.</p><p>A investigação foi instaurada em março de 2019 , por iniciativa do então presidente do STF, ministro Dias Toffoli, que designou Alexandre de Moraes como relator .</p><p>O objetivo inicial era apurar a disseminação de notícias falsas , ameaças , denunciações caluniosas e ataques contra integrantes da Corte , seus familiares e o próprio funcionamento do tribunal .</p><p>Ao longo de mais de sete anos, o procedimento deu origem a diferentes investigações relacionadas a ataques às instituições , manifestações antidemocráticas e atuação de grupos nas redes sociais .</p><p>Entre os investigados estiveram figuras associadas ao ex-presidente Jair Bolsonaro (PL), como o ex-deputado Roberto Jefferson , o blogueiro Allan dos Santos , o empresário Luciano Hang e o pastor Silas Malafaia .</p><p>Em setembro deste ano, Fachin assumiu a condução do inquérito e retirou a relatoria de Alexandre de Moraes.</p><p>A mudança ocorreu em meio a uma crise sem precedentes no Supremo, que envolveu questionamentos sobre a atuação de Moraes e desdobramentos de investigações relacionadas ao Banco Master .</p><p>Desde então, Fachin passou a revisar os procedimentos vinculados à investigação e a pedir manifestações da PGR sobre os casos ainda pendentes .</p><p>O ministro já havia determinado o arquivamento de outras oito apurações derivadas do inquérito principal , após pareceres favoráveis da Procuradoria.</p><p>O pedido de Gonet, porém, diz respeito ao chamado “inquérito-mãe”. Os cerca de 103 procedimentos derivados deverão continuar sendo examinados individualmente, conforme a situação processual de cada um.</p><p>Portanto, o eventual encerramento da investigação principal não significa que todas as apurações relacionadas serão automaticamente arquivadas.</p><p>Decisão vem após a Procuradoria- Geral da República dar parecer favorável ao arquivamento do inquérito</p><p>PGR rejeita adesão do MPRJ à delação premiada de Ronnie Lessa e Élcio Queiroz</p><p>O Ministério Público do Estado do Rio de Janeiro também solicitou o compartilhamento das provas sobre o assassinato de Marielle Franco</p><p>PGR envia a Fachin parecer pelo arquivamento do inquérito das fake news após 7 anos</p><p>Em 1º viagem internacional após eleições, Lula embarca para a Turquia para a COP 31</p><p>PF conclui relatórios sobre relações de Moraes, Toffoli e Nunes Marques com Vorcaro, diz jornal</p><p>TRE-MG suspende investigação da PF contra deputada federal eleita Ana Elisa</p>",
         "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/brasil/pedido-de-arquivamento-do-inquerito-das-fake-news-nao-anula-condenacoes-entenda/",
+        "fonteUrl": "https://jovempan.com.br/politica/fachin-determina-arquivamento-do-inquerito-das-fake-news/",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -871,297 +779,57 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O pedido de arquivamento do inquérito das fake news, apresentado nesta segunda-feira (09) pela Procuradoria-Geral da República (PGR), não significa o fim das investigações originadas nesses autos e que ainda estão em andamento. Também não atinge as ações penais que surgiram ao longo dos sete anos de tramitação do caso no Supremo Tribunal Federal (STF)."
+            "resposta": "O ministro Edson Fachin determinou nesta segunda-feira (09) o arquivamento do inquérito das Fake News, após a Procuradoria- Geral da República dar parecer favorável ao arquivamento do inquérito das fake news."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O procurador-geral da República, Paulo Gonet, encaminhou um ofício ao presidente do STF, Edson Fachin, defendendo o encerramento da investigação, aberta de ofício pelo então presidente da Corte, Dias Toffoli, em março de 2019, para apurar ameaças e ataques contra ministros do tribunal."
+            "resposta": "Na decisão, Fachin ressaltou que a constitucionalidade da instauração do inquérito não autoriza a perpetuação indefinida do procedimento nem sua transformação em um canal permanente para a apuração de fatos futuros."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Para o criminalista Renato Vieira, o encerramento do inquérito das fake news não impede que as investigações relacionadas a ele continuem em andamento. Segundo o advogado, isso vale mesmo que o caso seja arquivado por ter se prolongado demais ou por já ter cumprido sua finalidade."
+            "resposta": "O encerramento das apurações tem efeito imediato, com o fim de novas diligências. Entretanto, é impostante ressaltar que o arquivamento não invalida nem anula retroativamente quaisquer decisões , provas colhidas, acordos ou ações penais em curso decorrentes das investigações."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A condução do inquérito por Moraes foi alvo de questionamentos desde os primeiros anos. Em 2020, a Ordem dos Advogados do Brasil (OAB) recorreu ao STF após receber relatos de advogados que tiveram dificuldades para acessar os autos da investigação. Dois anos depois, a entidade voltou a cobrar providências para garantir o acesso das defesas às provas."
+            "resposta": "A investigação foi instaurada em março de 2019 , por iniciativa do então presidente do STF, ministro Dias Toffoli, que designou Alexandre de Moraes como relator . O objetivo inicial era apurar a disseminação de notícias falsas , ameaças , denunciações caluniosas e ataques contra integrantes da Corte , seus familiares e o próprio funcionamento do tribunal ."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Vieira ressalta, porém, que eventuais irregularidades identificadas no inquérito das fake news poderiam afetar outras investigações que utilizaram suas provas. Isso ocorreria, por exemplo, se fosse reconhecida a falta de imparcialidade de Moraes ou a utilização de provas obtidas ilegalmente."
+            "resposta": "Ao longo de mais de sete anos, o procedimento deu origem a diferentes investigações relacionadas a ataques às instituições , manifestações antidemocráticas e atuação de grupos nas redes sociais ."
           }
         ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/fake-news.jpg?w=1000&h=600&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/pedido-de-arquivamento-do-inquerito-das-fake-news-nao-anula-condenacoes-entenda.jpg",
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/08/Design-sem-nome-7-1.png?w=1000&h=600&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/fachin-determina-arquivamento-do-inquerito-das-fake-news.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "34be402490e72ff7",
-      "titulo": "PF detalha, em relatórios, relação de Toffoli, Moraes e Nunes Marques com Vorcaro",
+      "id": "c64fe0979595b32e",
+      "titulo": "Justiça suspende regras de Lula sobre taxas e repasses de VR e VA",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/noticia/2026/11/09/pf-detalha-em-relatorios-relacao-de-toffoli-moraes-e-nunes-marques-com-vorcaro.ghtml",
-      "dataFonte": "2026-11-09T22:02:44.000Z",
-      "resumoFonte": "Ministros do Supremo Tribunal federal (STF) Dias Toffoli, Alexandre de Moraes e Kassio Nunes Marques STF Investigadores da Polícia Federal (PF) concluíram na última terça-feira (3) relatórios sobre o envolvimento de ministros do Supremo Tribunal Federal (STF) com o ex-banqueiro Daniel Vorcaro. São três documentos, com citações aos ministros Dias…",
-      "imagem": "https://s2-g1.glbimg.com/njQSRvDuk7VGPKxpDc08flRCiec=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/N/e/VCLAQGQaW6PysupbUKIg/montagem-horizontal-1200px-8-.jpg",
-      "descobertaEm": "2026-11-09T22:17:58.955Z",
-      "reportagem": {
-        "titulo": "PF detalha, em relatórios, relação de Toffoli, Moraes e Nunes Marques com Vorcaro",
-        "slug": "pf-detalha-em-relatorios-relacao-de-toffoli-moraes-e-nunes-marques-com-vorcaro",
-        "categoria": "Justiça",
-        "data": "2026-11-09",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/pf-detalha-em-relatorios-relacao-de-toffoli-moraes-e-nunes-marques-com-vorcaro.jpg",
-        "resumo": "Os relatórios foram solicitados à PF pelo presidente do STF, Edson Fachin, mas ainda não foram entregues a ele. Os delegados que elaboraram os documentos foram afastados de suas funções.",
-        "conteudo": "<p>Ministros do Supremo Tribunal federal (STF) Dias Toffoli, Alexandre de Moraes e Kassio Nunes Marques — Foto: STF</p><h2>O contexto da decisão judicial</h2><p>Investigadores da Polícia Federal (PF) concluíram na última terça-feira (3) relatórios sobre o envolvimento de ministros do Supremo Tribunal Federal (STF) com o ex-banqueiro Daniel Vorcaro.</p><p>São três documentos, com citações aos ministros Dias Toffoli, Alexandre de Moraes e Kassio Nunes Marques.</p><p>A informação foi inicialmente publicada pela jornalista Malu Gaspar, de O Globo, e depois confirmada pela TV Globo.</p><h2>Detalhes e consequências do caso</h2><p>Os relatórios foram solicitados à PF pelo presidente do STF, Edson Fachin, no dia 2 de outubro .</p><p>Em 13 de outubro, após reunião com o diretor-geral da PF, Andrei Rodrigues, Fachin disse que &quot;todas as menções encontradas sem exceção&quot; a ministros da Corte no caso Master deveriam ser encaminhadas ao STF e em &quot;caráter estritamente descritivo&quot; .</p><p>Os documentos reúnem fatos com indícios de crime, alguns deles ainda não divulgados publicamente, mas não atribuem responsabilidade a ninguém. Uma eventual investigação contra um ministro da Corte dependerá do aval do plenário.</p><p>No dia seguinte à conclusão dos relatórios, na quarta-feira (4), os delegados responsáveis pelo caso Master na PF foram afastados de suas funções na coordenadoria-geral de repressão à corrupção, crimes financeiros e lavagem de dinheiro: Daniel Cola e Wedson Cajé.</p><p>Procurada pela reportagem, a PF negou que os relatórios estejam prontos. A direção-geral da instituição afirmou ainda que os relatórios ainda estão sendo elaborados e que serão entregues ao STF até o fim deste mês.</p><p>Em nota, a PF também afirmou que não se manifesta sobre atos de gestão de pessoal e que as dispensas de funções de confiança da corporação são atos de gestão pautados por critérios de conveniência e oportunidade administrativa.</p><p>A PF disse ainda que as funções de chefia de coordenação não implicam em qualquer alteração das equipes responsáveis pelos inquéritos em andamento na diretoria de combate ao crime organizado e à corrupção, inclusive os relacionados às operações Compliance e Sem Desconto.</p>",
-        "fonteNome": "g1 - Política",
-        "fonteUrl": "https://g1.globo.com/politica/noticia/2026/11/09/pf-detalha-em-relatorios-relacao-de-toffoli-moraes-e-nunes-marques-com-vorcaro.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Ministros do Supremo Tribunal federal (STF) Dias Toffoli, Alexandre de Moraes e Kassio Nunes Marques — Foto: STF"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Investigadores da Polícia Federal (PF) concluíram na última terça-feira (3) relatórios sobre o envolvimento de ministros do Supremo Tribunal Federal (STF) com o ex-banqueiro Daniel Vorcaro. São três documentos, com citações aos ministros Dias Toffoli, Alexandre de Moraes e Kassio Nunes Marques."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A informação foi inicialmente publicada pela jornalista Malu Gaspar, de O Globo, e depois confirmada pela TV Globo."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Os relatórios foram solicitados à PF pelo presidente do STF, Edson Fachin, no dia 2 de outubro ."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Em 13 de outubro, após reunião com o diretor-geral da PF, Andrei Rodrigues, Fachin disse que &quot;todas as menções encontradas sem exceção&quot; a ministros da Corte no caso Master deveriam ser encaminhadas ao STF e em &quot;caráter estritamente descritivo&quot; ."
-          }
-        ],
-        "imagemOriginal": "https://s2-g1.glbimg.com/njQSRvDuk7VGPKxpDc08flRCiec=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/N/e/VCLAQGQaW6PysupbUKIg/montagem-horizontal-1200px-8-.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/pf-detalha-em-relatorios-relacao-de-toffoli-moraes-e-nunes-marques-com-vorcaro.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "fde79e5fa2d28329",
-      "titulo": "Justiça manda Bella Falconi apagar posts por discriminação política",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/09/justica-manda-bella-falconi-apagar-posts-sobre-politica-e-emprego.ghtm",
-      "dataFonte": "2026-11-09T21:57:36.000Z",
-      "resumoFonte": "O MPT de MG (Ministério Público do Trabalho de Minas Gerais) determinou que a influenciadora Bella Falconi exclua, nas próximas 24 horas, do seu perfil no Instagram, postagens e stories que incentivem qualquer tipo de discriminação política.",
-      "imagem": "https://www.netdeal.com.br/api/images/producao.spayce.com.br/1785491318235_mockup_pagina_a_gazeta_1.png",
-      "descobertaEm": "2026-11-09T22:17:58.955Z"
-    },
-    {
-      "id": "f62ba82e0902d853",
-      "titulo": "Lula ignora nome apoiado por Kassio e indica juiz de Goiás ao TRF-1",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/lula-ignora-nome-apoiado-por-kassio-e-indica-juiz-de-goias-ao-trf-1.shtml",
-      "dataFonte": "2026-11-09T21:54:00.000Z",
-      "resumoFonte": "O presidente Lula ( PT ) indicou nesta segunda-feira (9) o juiz federal Fausto Mendanha Gonzaga para uma vaga no TRF-1 (Tribunal Regional Federal da 1ª Região). Ele tomará posse nesta terça (10). Leia mais (11/09/2026 - 18h54)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/09/17942598736af23ba1aeb1b_1794259873_3x2_rt.jpg",
-      "descobertaEm": "2026-11-09T22:17:58.955Z",
-      "reportagem": {
-        "titulo": "Lula ignora nome apoiado por Kassio e indica juiz de Goiás ao TRF-1",
-        "slug": "lula-ignora-nome-apoiado-por-kassio-e-indica-juiz-de-goias-ao-trf-1",
-        "categoria": "Justiça",
-        "data": "2026-11-09",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-ignora-nome-apoiado-por-kassio-e-indica-juiz-de-goias-ao-trf-1.jpg",
-        "resumo": "Tribunal é área de influência do ministro do STF e órgão de segunda instância da Justiça Federal com maior jurisdição",
-        "conteudo": "<p>O presidente Lula ( PT ) indicou nesta segunda-feira (9) o juiz federal Fausto Mendanha Gonzaga para uma vaga no TRF-1 (Tribunal Regional Federal da 1ª Região). Ele tomará posse nesta terça (10).</p><h2>O contexto da decisão judicial</h2><p>Gonzaga foi escolhido com base em uma lista tríplice que também contava com os nomes de Itagiba Catta Preta Neto, que já deu decisão desfavorável a Lula , e de Henrique Gouveia da Cunha, que é juiz auxiliar no STF (Supremo Tribunal Federal) no gabinete do ministro Kassio Nunes Marques –que mantém forte influência no TRF-1.</p><p>Segundo o portal do Supremo, Henrique Gouveia da Cunha passou a atuar na corte em 2022, cerca de dois anos após Kassio tomar posse no tribunal.</p><p>Já Itagiba Catta Preta Neto, juiz da Seção Judiciária do Distrito Federal, foi o responsável por suspender o ato de nomeação de Lula, então ex-presidente, como ministro da Casa Civil do governo de Dilma Rousseff (PT) em 2016.</p><h2>Detalhes e consequências do caso</h2><p>Na época, o Palácio do Planalto avaliou que o magistrado atuou por \"motivações políticas\" e recorreu da decisão. Lula não chegou a assumir o cargo.</p><p>Apesar do veto de Lula à nomeação ao TRF-1, Catta Preta Neto já constou em duas listas tríplices e, caso seja indicado uma terceira vez consecutiva, ele deverá ser promovido.</p><p>É o que determina a Constituição Federal nesses casos e também se o juiz figurar cinco vezes alternadas em lista de merecimento.</p><p>O decreto que nomeia Fausto Mendanha Gonzaga foi publicado no DOU (Diário Oficial da União) nesta segunda e é assinado por Lula e pelo ministro da Justiça, Wellington César Lima e Silva.</p><p>O juiz federal escolhido faz parte da 2ª Turma Recursal dos Juizados Especiais Federais de Goiás, ligada à SJGO (Seção Judiciária de Goiás). Ele entrará na vaga aberta com a aposentadoria de Novély Vilanova, que deixou o TRF-1 em setembro do ano passado.</p><p>Receba no seu email o que de mais importante acontece na capital federal</p><p>A lista com as três sugestões foi definida pelo tribunal em fevereiro deste ano. Fausto Mendanha Gonzaga recebeu 31 votos dos juízes, enquanto Itagiba Catta Preta Neto teve 27 e Henrique Gouveia da Cunha, 24.</p><p>Ao todo, 20 juízes concorreram ao cargo. A promoção se deu por merecimento e, por isso, os currículos e o tempo de serviço dos magistrados foram analisados. Entre as informações levadas em consideração estava o volume de sentenças proferidas.</p><p>Kassio Nunes Marques fez carreira no TRF-1 e deixou o posto de juiz federal em 2020 para assumir uma vaga no Supremo, indicado por Jair Bolsonaro (PL). Desde então, ele tem mantido proximidade com magistrados do tribunal.</p><p>Um deles é Newton Pereira Ramos Neto , citado em diálogos do dono do Banco Master, Daniel Vorcaro, obtidos pela Polícia Federal como integrante da \"Turma do KN\" –em uma possível referência ao ministro do STF.</p><p>A mulher do magistrado, Camilla Ramos, que também integraria a \"turma\", firmou um contrato de R$ 427 milhões com o Master para defender os interesses da instituição relacionados a precatórios bilionários do setor sucroalcooleiro.</p><p>Ela visita Vorcaro regularmente na prisão. Camilla e Newton negam ter cometido irregularidades.</p><p>O Tribunal Regional Federal da 1ª Região é relevante por ser o órgão de segunda instância da Justiça Federal com maior jurisdição no país, abarcando estados como Acre, Amapá, Amazonas, Bahia, Goiás, Maranhão, Mato Grosso, Pará, Piauí, Rondônia, Roraima e Tocantins, além do Distrito Federal.</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/11/lula-ignora-nome-apoiado-por-kassio-e-indica-juiz-de-goias-ao-trf-1.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O presidente Lula ( PT ) indicou nesta segunda-feira (9) o juiz federal Fausto Mendanha Gonzaga para uma vaga no TRF-1 (Tribunal Regional Federal da 1ª Região). Ele tomará posse nesta terça (10)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Gonzaga foi escolhido com base em uma lista tríplice que também contava com os nomes de Itagiba Catta Preta Neto, que já deu decisão desfavorável a Lula , e de Henrique Gouveia da Cunha, que é juiz auxiliar no STF (Supremo Tribunal Federal) no gabinete do ministro Kassio Nunes Marques –que mantém forte influência no TRF-1."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Segundo o portal do Supremo, Henrique Gouveia da Cunha passou a atuar na corte em 2022, cerca de dois anos após Kassio tomar posse no tribunal."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Já Itagiba Catta Preta Neto, juiz da Seção Judiciária do Distrito Federal, foi o responsável por suspender o ato de nomeação de Lula, então ex-presidente, como ministro da Casa Civil do governo de Dilma Rousseff (PT) em 2016."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Na época, o Palácio do Planalto avaliou que o magistrado atuou por \"motivações políticas\" e recorreu da decisão. Lula não chegou a assumir o cargo."
-          }
-        ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/09/17942598736af23ba1aeb1b_1794259873_3x2_rt.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-ignora-nome-apoiado-por-kassio-e-indica-juiz-de-goias-ao-trf-1.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "f03839b6fcdd37ac",
-      "titulo": "Com decisão sobre juíza da Lava-Jato, STF contrata nova crise entre ministros",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/politica/com-decisao-sobre-juiza-da-lava-jato-stf-contrata-nova-crise-entre-ministros/",
-      "dataFonte": "2026-11-09T21:48:53.000Z",
-      "resumoFonte": "Nos tribunais superiores, parte dos magistrados considera que o caso deveria ser de atribuição de Flávio Dino, que atuou em outros processos similares",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2018/11/gabriela-hardt-juiza-2018-3963.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-09T22:17:58.955Z",
-      "reportagem": {
-        "titulo": "Com decisão sobre juíza da Lava-Jato, STF contrata nova crise entre ministros",
-        "slug": "com-decisao-sobre-juiza-da-lava-jato-stf-contrata-nova-crise-entre-ministros",
-        "categoria": "Justiça",
-        "data": "2026-11-09",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/com-decisao-sobre-juiza-da-lava-jato-stf-contrata-nova-crise-entre-ministros.jpg",
-        "resumo": "Nos tribunais superiores, parte dos magistrados considera que o caso deveria ser de atribuição de Flávio Dino, que atuou em outros processos similares",
-        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril.</p><h2>O contexto da decisão judicial</h2><p>Mais de 12 anos desde a opera&ccedil;&atilde;o que prendeu o ex-diretor da Petrobras Paulo Roberto Costa e que deflagrou o que ficaria conhecido como esc&acirc;ndalo do petrol&atilde;o, a Lava-Jato ainda &eacute; um cap&iacute;tulo muito mal resolvido dentro do Supremo Tribunal Federal (STF) e deve voltar a mexer com os brios dos magistrados depois que o ministro Luiz Fux concedeu nesta segunda-feira, 9, uma decis&atilde;o liminar que suspende o afastamento da ju&iacute;za Gabriela Hardt .</p><p>Hardt foi substituta do ent&atilde;o juiz Sergio Moro e homologou um acordo segundo o qual 682 milh&otilde;es de d&oacute;lares recuperados pelo Departamento de Justi&ccedil;a dos Estados Unidos (DoJ) nas investiga&ccedil;&otilde;es sobre o propinoduto na Petrobras seriam destinados a uma funda&ccedil;&atilde;o ligada &agrave; Lava-Jato.</p><p>O destino da bolada para um fundo privado j&aacute; havia sido suspenso em 2019 pelo ministro do STF Alexandre de Moraes , mas Hardt foi punida pelo Conselho Nacional de Justi&ccedil;a (CNJ) com o afastamento de suas fun&ccedil;&otilde;es pelo per&iacute;odo de dois anos.</p><h2>Detalhes e consequências do caso</h2><p>Em decis&atilde;o individual, Fux considerou que a magistrada n&atilde;o poderia ter sido alvo de san&ccedil;&otilde;es administrativas por uma decis&atilde;o j&aacute; anulada.</p><p>Ele avaliou ainda que a homologa&ccedil;&atilde;o do acordo que destinava os valores havia sido tomada de boa-f&eacute; e que j&aacute; havia se passado o prazo para o CNJ punir administrativamente a ju&iacute;za.</p><p>Ao tomar conhecimento do despacho, parte dos magistrados que acompanharam a Lava-Jato nos tribunais superiores consideraram que Fux &ldquo;contratou uma nova crise dentro do STF &rdquo;.</p><p>Para al&eacute;m do inc&ocirc;modo que a Lava-Jato ainda provoca nesses ju&iacute;zes, eles ponderaram, sob condi&ccedil;&atilde;o de anonimato, que o caso deveria ser de atribui&ccedil;&atilde;o do ministro Fl&aacute;vio Dino, e n&atilde;o de Fux.</p><p>Isso porque Dino j&aacute; era o respons&aacute;vel por um mandado de seguran&ccedil;a que discutia penalidades a togados ligados &agrave; opera&ccedil;&atilde;o.</p><p>Neste processo espec&iacute;fico, o ministro relatou um recurso dos desembargadores Loraci Flores de Lima e Thompson Flores, que em 2024 enfrentavam um processo administrativo disciplinar por supostas irregularidades cometidas e solicitavam interven&ccedil;&atilde;o do Supremo.</p><p>Por essa interpreta&ccedil;&atilde;o, haveria preven&ccedil;&atilde;o de Dino para julgar epis&oacute;dios correlatos, como o da ju&iacute;za Gabriela Hardt.</p><p>Pelas regras de preven&ccedil;&atilde;o, o mesmo magistrado passa a ser respons&aacute;vel por todos os processos mais recentes sobre o mesmo tema.</p><p>O caso de Hardt, no entanto, foi distribu&iacute;do normalmente e enviado a Luiz Fux . Em agosto, o CNJ puniu, por unanimidade, Loraci Flores e Thompson Flores com a pena de disponibilidade pelo prazo de 60 dias.</p><p>Com o STF em meio a uma crise de imagem sem precedentes, nos &uacute;ltimos meses ministros passaram a desfazer decis&otilde;es individuais dos colegas em casos sens&iacute;veis.</p><p>Foi assim com a suspens&atilde;o de posts que atribu&iacute;am ao presidente Lula a inten&ccedil;&atilde;o de retirar de Nossa Senhora o t&iacute;tulo de padroeira do Brasil e com o afastamento do diretor-geral da Pol&iacute;cia Federal Andrei Rodrigues do cargo, por exemplo.</p><p>Agora esses mesmos magistrados n&atilde;o descartam que a ordem de Luiz Fux possa ser desfeita por Fl&aacute;vio Dino a partir do mesmo expediente. Um epis&oacute;dio que, se confirmado, s&oacute; ampliaria o clima belicoso que domina o Supremo Tribunal Federal.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/politica/com-decisao-sobre-juiza-da-lava-jato-stf-contrata-nova-crise-entre-ministros/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Mais de 12 anos desde a opera&ccedil;&atilde;o que prendeu o ex-diretor da Petrobras Paulo Roberto Costa e que deflagrou o que ficaria conhecido como esc&acirc;ndalo do petrol&atilde;o, a Lava-Jato ainda &eacute; um cap&iacute;tulo muito mal resolvido dentro do Supremo Tribunal Federal (STF) e deve voltar a mexer com os brios dos magistrados depois que o ministro Luiz Fux concedeu nesta segunda-feira, 9, uma decis&atilde;o liminar que suspende o afastamento da ju&iacute;za Gabriela Hardt ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Hardt foi substituta do ent&atilde;o juiz Sergio Moro e homologou um acordo segundo o qual 682 milh&otilde;es de d&oacute;lares recuperados pelo Departamento de Justi&ccedil;a dos Estados Unidos (DoJ) nas investiga&ccedil;&otilde;es sobre o propinoduto na Petrobras seriam destinados a uma funda&ccedil;&atilde;o ligada &agrave; Lava-Jato."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Em decis&atilde;o individual, Fux considerou que a magistrada n&atilde;o poderia ter sido alvo de san&ccedil;&otilde;es administrativas por uma decis&atilde;o j&aacute; anulada."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Ao tomar conhecimento do despacho, parte dos magistrados que acompanharam a Lava-Jato nos tribunais superiores consideraram que Fux &ldquo;contratou uma nova crise dentro do STF &rdquo;."
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2018/11/gabriela-hardt-juiza-2018-3963.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/com-decisao-sobre-juiza-da-lava-jato-stf-contrata-nova-crise-entre-ministros.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "06d2fd7de8784a48",
-      "titulo": "MPF e Justiça Federal acionam governo para garantir R$ 533 milhões em penduricalhos a juízes e procuradores",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "O Globo - Capa",
-      "urlFonte": "https://oglobo.globo.com/economia/noticia/2026/11/09/mpf-e-justica-federal-acionam-governo-para-garantir-r-533-milhoes-em-penduricalhos-a-juizes-e-procuradores.ghtml",
-      "dataFonte": "2026-11-09T21:32:04.865Z",
-      "resumoFonte": "AGU pediu ao Supremo Tribunal Federal que esclareça como os pagamentos deverão ser realizados",
-      "imagem": "https://s2-oglobo.glbimg.com/JDxi4GAGnkvQBYPI4COJd-wSOvo=/1680x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/2/t/FBICJCSdCHbxQo5OAhrQ/104305892-mariz-pa-brasilia-14-09-2023-supremo-tribunal-federal-estatua-stf-fachada-stf-6-.jpg",
-      "descobertaEm": "2026-11-09T22:20:27.123Z",
-      "reportagem": {
-        "titulo": "MPF e Justiça Federal acionam governo para garantir R$ 533 milhões em penduricalhos a juízes e procuradores",
-        "slug": "mpf-e-justica-federal-acionam-governo-para-garantir-r-533-milhoes-em-penduricalhos-a-juize",
-        "categoria": "Justiça",
-        "data": "2026-11-09",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mpf-e-justica-federal-acionam-governo-para-garantir-r-533-milhoes-em-penduricalhos-a-juize.jpg",
-        "resumo": "AGU pediu ao Supremo Tribunal Federal que esclareça como os pagamentos deverão ser realizados",
-        "conteudo": "<p>O presidente do Conselho da Justiça Federal ( CJF ), ministro Luis Felipe Salomão , e o procurador-geral da República, Paulo Gonet , acionaram a Advocacia-Geral da União ( AGU ) para viabilizar a liberação de recursos destinados ao pagamento de benefícios adicionais a magistrados e integrantes do Ministério Público, conhecidos como &quot;penduricalhos&quot;.</p><h2>O contexto da decisão judicial</h2><p>Manifesto: Entidades cobram do governo e do novo Congresso lei nacional contra supersalários Responsabilidade fiscal, dívida e queda dos juros: os recados de Lula para a economia em pronunciamento na TV</p><p>O impacto estimado das despesas é de R$ 533 milhões somente em 2026, valor que não está contemplado no orçamento dos órgãos. Diante do impasse, a AGU pediu ao Supremo Tribunal Federal ( STF ) que esclareça como os pagamentos deverão ser realizados.</p><p>Os pedidos foram encaminhados por Salomão e Gonet ao advogado-geral da União, Jorge Messias , em ofícios assinados no último dia 3.</p><h2>Detalhes e consequências do caso</h2><p>Nos documentos, os dois órgãos solicitam providências para assegurar o cumprimento de uma decisão do STF que estabeleceu novas regras para o pagamento de parcelas adicionais à remuneração de integrantes das carreiras jurídicas.</p><p>O maior impacto financeiro informado é o do Ministério Público da União (MPU), que estima a necessidade de R$ 324 milhões neste ano. Na Justiça Federal, o valor chega a R$ 208,9 milhões. Somadas, as despesas alcançam aproximadamente R$ 532,9 milhões.</p><p>No documento encaminhado à AGU, Salomão defende a edição de uma medida provisória para abertura de crédito extraordinário, mecanismo utilizado pelo governo para custear despesas urgentes e imprevisíveis.</p><p>O ministro também solicita a inclusão de recursos específicos na proposta orçamentária de 2027, atualmente em tramitação no Congresso Nacional, para garantir a continuidade dos pagamentos.</p><p>Entrevista: Nova edição do CNU terá até 3 mil vagas, e governo tem pronto projeto contra penduricalhos, diz ministra da Gestão</p><p>Segundo o presidente do CJF, as despesas decorrem de decisões judiciais posteriores à elaboração do orçamento de 2026 e, por isso, não foram contempladas na programação original.</p><p>Ele argumenta que a falta de recursos pode provocar atrasos nos pagamentos, novos questionamentos judiciais e até comprometer outras despesas necessárias ao funcionamento da Justiça Federal.</p><p>&quot;As referidas decisões impõem à Administração o dever de observar seus comandos e implementar os efeitos financeiros correspondentes, nos termos e prazos aplicáveis, não se tratando de despesa cuja realização possa ser livremente postergada por conveniência administrativa&quot;, afirma Salomão no ofício.</p><p>O ministro sustenta ainda que a suplementação orçamentária é necessária para evitar que os pagamentos sejam custeados com recursos destinados a outras atividades da Justiça Federal.</p><p>No caso do Ministério Público, Gonet encaminhou pedido semelhante à AGU, solicitando que a questão fosse submetida ao Judiciário.</p><p>O procurador-geral citou um parecer da consultoria jurídica do Ministério do Planejamento e Orçamento segundo o qual a abertura de crédito extraordinário dependeria de uma determinação judicial específica.</p><p>Lula defende ‘responsabilidade fiscal’, mas não diz como vai ‘arrumar’ contas públicas. Veja os sinais até agora</p><p>A discussão tem origem em julgamento realizado pelo STF em março deste ano, quando a Corte estabeleceu novas regras para o pagamento de verbas indenizatórias e adicionais a magistrados e membros do Ministério Público.</p><p>Entre as medidas, os ministros autorizaram a chamada Parcela de Valorização por Tempo de Antiguidade na Carreira (PVTAC), que prevê um adicional de 5% do subsídio a cada cinco anos de efetivo exercício em atividade jurídica, até o limite de 35%.</p><p>Posteriormente, ao analisar recursos apresentados pela PGR, o Supremo determinou que a parcela fosse implementada imediatamente, independentemente de requerimento dos beneficiários. A decisão também assegurou o pagamento a aposentados e pensionistas.</p><p>O tribunal autorizou ainda outras verbas, como indenizações por férias e licenças-prêmio não usufruídas por interesse público e auxílio-saúde mediante reembolso, observados os limites estabelecidos pela Corte.</p>",
-        "fonteNome": "O Globo - Capa",
-        "fonteUrl": "https://oglobo.globo.com/economia/noticia/2026/11/09/mpf-e-justica-federal-acionam-governo-para-garantir-r-533-milhoes-em-penduricalhos-a-juizes-e-procuradores.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O presidente do Conselho da Justiça Federal ( CJF ), ministro Luis Felipe Salomão , e o procurador-geral da República, Paulo Gonet , acionaram a Advocacia-Geral da União ( AGU ) para viabilizar a liberação de recursos destinados ao pagamento de benefícios adicionais a magistrados e integrantes do Ministério Público, conhecidos como &quot;penduricalhos&quot;."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Manifesto: Entidades cobram do governo e do novo Congresso lei nacional contra supersalários Responsabilidade fiscal, dívida e queda dos juros: os recados de Lula para a economia em pronunciamento na TV"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O impacto estimado das despesas é de R$ 533 milhões somente em 2026, valor que não está contemplado no orçamento dos órgãos. Diante do impasse, a AGU pediu ao Supremo Tribunal Federal ( STF ) que esclareça como os pagamentos deverão ser realizados."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Os pedidos foram encaminhados por Salomão e Gonet ao advogado-geral da União, Jorge Messias , em ofícios assinados no último dia 3. Nos documentos, os dois órgãos solicitam providências para assegurar o cumprimento de uma decisão do STF que estabeleceu novas regras para o pagamento de parcelas adicionais à remuneração de integrantes das carreiras jurídicas."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O maior impacto financeiro informado é o do Ministério Público da União (MPU), que estima a necessidade de R$ 324 milhões neste ano. Na Justiça Federal, o valor chega a R$ 208,9 milhões. Somadas, as despesas alcançam aproximadamente R$ 532,9 milhões."
-          }
-        ],
-        "imagemOriginal": "https://s2-oglobo.glbimg.com/JDxi4GAGnkvQBYPI4COJd-wSOvo=/1680x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/2/t/FBICJCSdCHbxQo5OAhrQ/104305892-mariz-pa-brasilia-14-09-2023-supremo-tribunal-federal-estatua-stf-fachada-stf-6-.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/mpf-e-justica-federal-acionam-governo-para-garantir-r-533-milhoes-em-penduricalhos-a-juize.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/brasil/justica-suspende-regras-de-lula-sobre-taxas-e-repasses-de-vr-e-va",
+      "dataFonte": "2026-11-09T23:05:15.000Z",
+      "resumoFonte": "Liminar beneficia parte das operadoras e suspende teto de 3,6% nas taxas e prazo de 15 dias para repasses a estabelecimentos",
+      "imagem": "https://i.metroimg.com/wPMamzgjsVV1VHxA18_QmQtTWG6u2MaZen2vyRR3Gfk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2025/12/17135340/restaurante-comunitario-ceia-de-natal-2.jpeg",
+      "descobertaEm": "2026-11-09T23:18:02.698Z"
     }
   ],
-  "reapuradoEm": "2026-11-09T22:48:21.478Z",
+  "reapuradoEm": "2026-11-09T23:48:18.704Z",
   "diagnosticoReapuracao": {
-    "produzidas": 18,
+    "produzidas": 12,
     "jaProntas": 0,
-    "incompletas": 5,
+    "incompletas": 7,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 17,
+    "geradas": 12,
     "reaproveitadas": 0,
-    "puladas": 5,
+    "puladas": 7,
     "semFoto": 0,
-    "falhas": 1
+    "falhas": 0
   },
-  "lapisEm": "2026-11-09T22:50:02.523Z"
+  "lapisEm": "2026-11-09T23:49:33.313Z"
 }
