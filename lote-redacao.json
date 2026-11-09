@@ -1,16 +1,16 @@
 {
-  "geradoEm": "2026-11-09T04:49:05.265Z",
+  "geradoEm": "2026-11-09T05:48:59.399Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 60,
-    "bloqueadas": 2,
+    "bloqueadas": 0,
     "bloqueadasEditoriais": 0,
     "semImagem": 1,
-    "duplicadasBasicas": 9,
+    "duplicadasBasicas": 8,
     "duplicadasSemanticas": 1,
-    "foraCategorias": 35
+    "foraCategorias": 39
   },
-  "quantidadeCandidatas": 12,
+  "quantidadeCandidatas": 11,
   "candidatas": [
     {
       "id": "8b88e85c8990eb57",
@@ -191,18 +191,6 @@
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
-    },
-    {
-      "id": "5610de366c8aae76",
-      "titulo": "Papa Leão XIV recebe chave da cidade de Buenos Aires em visita à Argentina",
-      "categoria": "Fé e Sociedade",
-      "radar": null,
-      "fonteNome": "CNN Brasil - Capa",
-      "urlFonte": "https://www.cnnbrasil.com.br/internacional/papa-leao-xiv-recebe-chave-da-cidade-de-buenos-aires-em-visita-a-argentina/",
-      "dataFonte": "2026-11-09T00:08:54.000Z",
-      "resumoFonte": "Essa é a primeira visita de um pontífice ao país desde 1987, quando houve a viagem de João Paulo II; o líder da Igreja Católica fez discurso ao lado de Javier Milei",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/papa-leao-chave-cidade-buenos-aires-argentina.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-09T00:21:20.243Z"
     },
     {
       "id": "d0671676960dfb92",
@@ -493,19 +481,19 @@
       "descobertaEm": "2026-11-09T01:18:51.743Z"
     }
   ],
-  "reapuradoEm": "2026-11-09T04:49:09.957Z",
+  "reapuradoEm": "2026-11-09T05:49:03.734Z",
   "diagnosticoReapuracao": {
     "produzidas": 7,
     "jaProntas": 0,
-    "incompletas": 5,
+    "incompletas": 4,
     "falhas": 0
   },
   "diagnosticoLapis": {
     "geradas": 7,
     "reaproveitadas": 0,
-    "puladas": 5,
+    "puladas": 4,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-09T04:50:05.133Z"
+  "lapisEm": "2026-11-09T05:50:01.647Z"
 }
