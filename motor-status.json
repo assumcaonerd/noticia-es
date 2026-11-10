@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-10T02:18:04.517Z",
+  "atualizadoEm": "2026-11-10T03:18:04.902Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 83,
+  "novasPautas": 81,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -316,14 +316,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 3,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 12,
+      "encontrados": 13,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,13 +376,13 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-10T02:20:46.754Z",
-    "novas": 0,
+    "atualizadoEm": "2026-11-10T03:20:08.465Z",
+    "novas": 4,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 4
       },
       {
         "fonte": "YouTube Folha Vitória",
@@ -397,7 +397,7 @@
       {
         "fonte": "YouTube Polícia Civil ES",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube PM Ambiental ES",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-10T02:20:48.369Z",
+    "atualizadoEm": "2026-11-10T03:20:09.729Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-10T02:20:49.377Z",
+    "atualizadoEm": "2026-11-10T03:20:10.468Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-10T02:20:59.940Z",
+    "atualizadoEm": "2026-11-10T03:20:21.026Z",
     "novas": 0,
     "fontes": [
       {
