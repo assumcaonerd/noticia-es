@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-10T14:18:15.314Z",
+  "atualizadoEm": "2026-11-10T15:18:22.409Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
   "novasPautas": 95,
   "pautasPendentes": 80,
@@ -22,11 +22,9 @@
     },
     {
       "fonte": "Tribuna Online - Capa",
-      "ok": true,
-      "encontrados": 6,
-      "capa": true,
-      "rota": "https://tribunaonline.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://tribunaonline.com.br/ -> The operation was aborted due to timeout",
+      "capa": true
     },
     {
       "fonte": "Revista Oeste - Capa",
@@ -290,14 +288,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 6,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 2,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -323,7 +321,7 @@
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 6,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,7 +374,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-10T14:20:59.053Z",
+    "atualizadoEm": "2026-11-10T15:21:42.208Z",
     "novas": 5,
     "fontes": [
       {
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-10T14:21:01.256Z",
+    "atualizadoEm": "2026-11-10T15:21:43.577Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-10T14:21:02.312Z",
+    "atualizadoEm": "2026-11-10T15:21:44.365Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-10T14:21:12.890Z",
+    "atualizadoEm": "2026-11-10T15:21:54.906Z",
     "novas": 0,
     "fontes": [
       {
