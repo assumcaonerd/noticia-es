@@ -86,6 +86,9 @@ function detectarContaminacaoEditorial(html = '') {
   if (paragrafos.some(t => /^Jornalista formad[oa] pel[oa] (?:Universidade|Faculdade).{0,220}\b(?:atuou|[eé] rep[oó]rter)\b/i.test(t))) {
     return 'biografia acadêmica de jornalista da fonte misturada ao texto';
   }
+  if (paragrafos.some(t => /\bse formou em jornalismo\b.{0,220}\b(?:atuou (?:no|na)|(?:[eé]|atualmente,?\s*[eé]) rep[oó]rter (?:no|na))\b/i.test(t))) {
+    return 'biografia de jornalista da fonte no corpo da reportagem';
+  }
   if (paragrafos.some(t => /^Ap[oó]s o maior sell-off da hist[oó]ria recente do mercado brasileiro/i.test(t))) {
     return 'chamada de análise financeira de outra matéria no corpo';
   }
