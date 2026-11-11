@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-11T02:19:24.257Z",
+  "atualizadoEm": "2026-11-11T03:18:53.526Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 86,
+  "novasPautas": 79,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -290,14 +290,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 5,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 3,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -316,14 +316,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 3,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 7,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-11T02:22:54.079Z",
+    "atualizadoEm": "2026-11-11T03:20:46.071Z",
     "novas": 0,
     "fontes": [
       {
@@ -401,13 +401,13 @@
       },
       {
         "fonte": "YouTube PM Ambiental ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-11T02:22:55.900Z",
+    "atualizadoEm": "2026-11-11T03:20:47.131Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-11T02:22:57.007Z",
+    "atualizadoEm": "2026-11-11T03:20:48.000Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-11T02:23:07.580Z",
+    "atualizadoEm": "2026-11-11T03:20:58.574Z",
     "novas": 0,
     "fontes": [
       {
