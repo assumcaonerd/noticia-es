@@ -172,6 +172,14 @@ function validarReportagem(p) {
   const primeiroParagrafo = textoPuro(conteudo.match(/<p\b[^>]*>([\s\S]*?)<\/p>/i)?.[1] || '');
   if (/formado em jornalismo|editor-assistente|colunista da|\bblogs\b/i.test(primeiroParagrafo)) return 'lead contaminado por biografia da fonte';
   if (/\/colunas\//i.test(fonteUrl) && /^(?:Sou|Meu|Minha|Acredito|Eu)\b/i.test(primeiroParagrafo)) return 'coluna opinativa da fonte na primeira pessoa exige reescrita autoral';
+  // Artigos pessoais de terceiros não podem ser assinados automaticamente pela Redação Notícia ES.
+  if (/\/(?:artigos|opiniao|opini[aã]o)\//i.test(fonteUrl) &&
+      /\b(?:vivi|minha amiga|meu amigo|conheci|dedico (?:esse|este) artigo)\b/i.test(textoPuro(conteudo))) {
+    return 'artigo pessoal de terceiro exige revisão de autoria e reescrita';
+  }
+  if (/Você quer ficar por dentro das notícias mais importantes e receber notificações em tempo real|Eu quero!/i.test(textoPuro(conteudo) + ' ' + JSON.stringify(r.aeo || []))) {
+    return 'chamada promocional da fonte detectada';
+  }
   // Análises financeiras importadas podem trazer opiniões em primeira pessoa do analista da fonte.
   // Exigir revisão e atribuição antes de publicar essas avaliações como texto da redação.
   const textoAnalise = textoPuro(conteudo);
