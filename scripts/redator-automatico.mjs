@@ -169,6 +169,15 @@ function validarReportagem(p) {
   const primeiroParagrafo = textoPuro(conteudo.match(/<p\b[^>]*>([\s\S]*?)<\/p>/i)?.[1] || '');
   if (/formado em jornalismo|editor-assistente|colunista da|\bblogs\b/i.test(primeiroParagrafo)) return 'lead contaminado por biografia da fonte';
   if (/\/colunas\//i.test(fonteUrl) && /^(?:Sou|Meu|Minha|Acredito|Eu)\b/i.test(primeiroParagrafo)) return 'coluna opinativa da fonte na primeira pessoa exige reescrita autoral';
+  // Análises financeiras importadas podem trazer opiniões em primeira pessoa do analista da fonte.
+  // Exigir revisão e atribuição antes de publicar essas avaliações como texto da redação.
+  const textoAnalise = textoPuro(conteudo);
+  const marcasPrimeiraPessoa = textoAnalise.match(/\b(?:observo|considero|acompanho|avalio|identifico|verifico|vejo)\b/gi) || [];
+  if (String(r.categoria || p.categoria) === 'Economia' &&
+      /(?:gr[aá]fico de (?:15|60) minutos|m[eé]dias m[oó]veis)/i.test(textoAnalise) &&
+      marcasPrimeiraPessoa.length >= 2) {
+    return 'análise financeira em primeira pessoa da fonte exige reescrita e atribuição';
+  }
   if (/(?:^|[\s—-])Foto:\s*\S/i.test(primeiroParagrafo)) return 'lead contaminado por legenda da fonte';
   if (String(r.categoria || p.categoria) === 'Política Nacional' && /\b(lua|fotografar|celular|zoom [óo]ptico|nvidia|chip|semiconductor|semicondutor)\b/i.test(textoPuro(conteudo))) return 'classificação incompatível com Política Nacional';
   if (/<h2[^>]*>\s*(Contexto|Desdobramentos?)\s*<\/h2>/i.test(conteudo)) return 'intertítulo genérico proibido';
