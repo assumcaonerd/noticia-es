@@ -253,6 +253,16 @@ function paginaHTML(n, imagem) {
   const imgX = ehBoaParaWhatsapp(imagemTwitter) ? imagemTwitter : img;
   const schema = montarNewsArticle(n, url, img);
   const faqSchema = montarFaqPage(n);
+  // Preservar os metadados de descoberta mesmo quando as paginas OG forem recriadas.
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Notícia ES', item: `${SITE}/` },
+      { '@type': 'ListItem', position: 2, name: n.categoria || 'Notícias', item: `${SITE}/` },
+      { '@type': 'ListItem', position: 3, name: titulo, item: url }
+    ]
+  };
   const conteudo = sanitizarHtml(n.conteudo || '').replace(/src=(["'])imagens\//gi, `src=$1${SITE}/imagens/`);
   const data = n.data || '';
   const categoria = n.categoria || 'Notícia';
@@ -282,6 +292,8 @@ function paginaHTML(n, imagem) {
   <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapar(titulo)}"><meta name="twitter:description" content="${escapar(resumo)}">
   <script type="application/ld+json">${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>
   ${faqSchema ? `<script type="application/ld+json">${JSON.stringify(faqSchema).replace(/</g, '\\u003c')}</script>` : ''}
+  <script id="breadcrumb-schema" type="application/ld+json">${JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c')}</script>
+  <link rel="alternate" type="application/rss+xml" title="Notícia ES RSS" href="${SITE}/rss.xml">
   <link rel="stylesheet" href="../estilo.css"><link rel="stylesheet" href="../imagem-policy.css">
   <style>.materia-estatica{max-width:860px;margin:0 auto;padding:28px 16px}.materia-estatica h1{line-height:1.08}.materia-resumo{font-size:1.15rem}.materia-meta{opacity:.75;margin:10px 0 22px}.materia-capa{width:100%;height:auto;border-radius:8px}.conteudo-materia p{line-height:1.72;font-size:1.08rem}.conteudo-materia h2{margin-top:30px}.conteudo-materia figure{margin:26px 0}.conteudo-materia figure img{width:100%;height:auto;border-radius:8px}.destaque-numero{margin:28px 0;padding:18px;border:2px solid #222;border-radius:8px;text-align:center;font-size:1.28rem}.aeo-resumo{margin:28px 0;padding:18px;border:1px solid #ddd;border-radius:8px}.aeo-item p{margin-top:5px}.fontes-materia{margin-top:34px}</style>
 </head><body data-pagina="materia">
