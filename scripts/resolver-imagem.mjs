@@ -113,6 +113,36 @@ function termosBusca(titulo = '') {
     .join(' ');
 }
 
+// Só reutiliza foto de outra fonte quando o endereço aponta para uma notícia
+// e o título da página corresponde ao assunto pesquisado.
+export function urlCandidataMesmaPauta(url) {
+  try {
+    const parsed = new URL(url);
+    const hostname = parsed.hostname.toLowerCase();
+    if (!['agazeta.com.br', 'www.agazeta.com.br', 'folhavitoria.com.br', 'www.folhavitoria.com.br'].includes(hostname)) return false;
+    if (parsed.pathname.split('/').filter(Boolean).length < 2) return false;
+    if (/^\/(?:busca|search|tag|categoria|autor|loja|assine|assinatura|planos|publicidade)(?:\/|$)/i.test(parsed.pathname)) return false;
+    // A busca de A Gazeta inclui links para uma página genérica de empregos.
+    if (/^\/concursos-e-empregos\/empregos\/?$/i.test(parsed.pathname)) return false;
+    return true;
+  } catch { return false; }
+}
+
+export function correspondeMesmaPauta(html, titulo) {
+  const tituloPagina = meta(html, 'og:title')
+    || meta(html, 'twitter:title', 'name')
+    || decodeHtml(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] || '');
+  const ignorar = new Set(['para', 'pela', 'pelo', 'pelos', 'pelas', 'sobre', 'entre', 'como', 'mais', 'apos', 'esta', 'esse', 'essa', 'suas', 'seus', 'diz', 'veja', 'saiba', 'noticias', 'noticia']);
+  const termos = valor => [...new Set(String(valor).toLowerCase().normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '').split(/[^a-z0-9]+/)
+    .filter(t => t.length > 3 && !ignorar.has(t)))];
+  const alvo = termos(termosBusca(titulo));
+  if (alvo.length < 3) return false;
+  const encontrados = new Set(termos(tituloPagina));
+  const coincidencias = alvo.filter(t => encontrados.has(t)).length;
+  return coincidencias >= Math.max(2, Math.ceil(Math.min(alvo.length, 6) / 2));
+}
+
 async function imagemMesmaPautaNaWeb(titulo) {
   const q = termosBusca(titulo);
   if (q.split(' ').length < 3) return '';
@@ -121,19 +151,12 @@ async function imagemMesmaPautaNaWeb(titulo) {
       const html = await baixar(montar(q));
       const links = [...html.matchAll(/<a[^>]+href=["']([^"']+)["']/gi)]
         .map(m => absolutizar(decodeHtml(m[1]), montar(q)))
-        .filter(url => {
-          try {
-            const parsed = new URL(url);
-            const hostname = parsed.hostname.toLowerCase();
-            if (!['agazeta.com.br', 'www.agazeta.com.br', 'folhavitoria.com.br', 'www.folhavitoria.com.br'].includes(hostname)) return false;
-            if (parsed.pathname.split('/').filter(Boolean).length < 2) return false;
-            return !/^\/(?:busca|search|tag|categoria|autor|loja|assine|assinatura|planos|publicidade)(?:\/|$)/i.test(parsed.pathname);
-          } catch { return false; }
-        })
+        .filter(urlCandidataMesmaPauta)
         .slice(0, 4);
       for (const url of links) {
         try {
           const pagina = await baixar(url);
+          if (!correspondeMesmaPauta(pagina, titulo)) continue;
           const img = extrairImagemFonte(pagina, url);
           if (img) {
             console.log(`[imagem] mesma pauta em outro veículo: ${url}`);
