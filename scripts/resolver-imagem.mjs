@@ -120,12 +120,18 @@ async function imagemMesmaPautaNaWeb(titulo) {
     try {
       const html = await baixar(montar(q));
       const links = [...html.matchAll(/<a[^>]+href=["']([^"']+)["']/gi)]
-        .map(m => m[1])
-        .filter(u => /agazeta\.com\.br\/.+|folhavitoria\.com\.br\/.+/.test(u))
-        .filter(u => !/\/(busca|search|tag|categoria|autor)\b/i.test(u))
+        .map(m => absolutizar(decodeHtml(m[1]), montar(q)))
+        .filter(url => {
+          try {
+            const parsed = new URL(url);
+            const hostname = parsed.hostname.toLowerCase();
+            if (!['agazeta.com.br', 'www.agazeta.com.br', 'folhavitoria.com.br', 'www.folhavitoria.com.br'].includes(hostname)) return false;
+            if (parsed.pathname.split('/').filter(Boolean).length < 2) return false;
+            return !/^\/(?:busca|search|tag|categoria|autor|loja|assine|assinatura|planos|publicidade)(?:\/|$)/i.test(parsed.pathname);
+          } catch { return false; }
+        })
         .slice(0, 4);
-      for (const href of links) {
-        const url = href.startsWith('http') ? href : `https:${href}`;
+      for (const url of links) {
         try {
           const pagina = await baixar(url);
           const img = extrairImagemFonte(pagina, url);
