@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-12T17:19:19.583Z",
+  "atualizadoEm": "2026-11-12T18:19:11.859Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 98,
+  "novasPautas": 95,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -22,11 +22,9 @@
     },
     {
       "fonte": "Tribuna Online - Capa",
-      "ok": true,
-      "encontrados": 6,
-      "capa": true,
-      "rota": "https://tribunaonline.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://tribunaonline.com.br/ -> The operation was aborted due to timeout",
+      "capa": true
     },
     {
       "fonte": "Revista Oeste - Capa",
@@ -199,7 +197,7 @@
     {
       "fonte": "Século Diário",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 5,
       "capa": true,
       "rota": "https://www.seculodiario.com.br/",
       "fallback": false
@@ -290,7 +288,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 5,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -316,14 +314,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 6,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 9,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -351,7 +349,7 @@
     {
       "fonte": "BBC Brasil",
       "ok": true,
-      "encontrados": 23,
+      "encontrados": 21,
       "rota": "https://feeds.bbci.co.uk/portuguese/rss.xml",
       "fallback": false
     },
@@ -376,8 +374,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-12T17:24:01.622Z",
-    "novas": 4,
+    "atualizadoEm": "2026-11-12T18:22:34.130Z",
+    "novas": 3,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -397,7 +395,7 @@
       {
         "fonte": "YouTube Polícia Civil ES",
         "ok": true,
-        "encontrados": 0
+        "encontrados": 1
       },
       {
         "fonte": "YouTube PM Ambiental ES",
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-12T17:24:03.790Z",
+    "atualizadoEm": "2026-11-12T18:22:35.631Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-12T17:24:04.830Z",
+    "atualizadoEm": "2026-11-12T18:22:36.493Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-12T17:24:15.375Z",
+    "atualizadoEm": "2026-11-12T18:22:47.069Z",
     "novas": 0,
     "fontes": [
       {
