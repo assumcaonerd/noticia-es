@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-12T18:19:11.859Z",
+  "atualizadoEm": "2026-11-12T19:19:14.126Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 95,
+  "novasPautas": 97,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -22,9 +22,11 @@
     },
     {
       "fonte": "Tribuna Online - Capa",
-      "ok": false,
-      "erro": "https://tribunaonline.com.br/ -> The operation was aborted due to timeout",
-      "capa": true
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://tribunaonline.com.br/",
+      "fallback": false
     },
     {
       "fonte": "Revista Oeste - Capa",
@@ -43,7 +45,7 @@
     {
       "fonte": "A Gazeta - Política",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 5,
       "capa": false,
       "rota": "https://www.agazeta.com.br/es/politica",
       "fallback": false
@@ -197,7 +199,7 @@
     {
       "fonte": "Século Diário",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 4,
       "capa": true,
       "rota": "https://www.seculodiario.com.br/",
       "fallback": false
@@ -288,7 +290,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 9,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -314,14 +316,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 3,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 10,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -374,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-12T18:22:34.130Z",
+    "atualizadoEm": "2026-11-12T19:21:21.457Z",
     "novas": 3,
     "fontes": [
       {
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-12T18:22:35.631Z",
+    "atualizadoEm": "2026-11-12T19:21:22.968Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-12T18:22:36.493Z",
+    "atualizadoEm": "2026-11-12T19:21:24.038Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-12T18:22:47.069Z",
+    "atualizadoEm": "2026-11-12T19:21:34.597Z",
     "novas": 0,
     "fontes": [
       {
