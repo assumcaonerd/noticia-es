@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-13T01:54:32.327Z",
+  "atualizadoEm": "2026-11-13T02:19:14.117Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 74,
+  "novasPautas": 76,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -297,7 +297,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 3,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -316,14 +316,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 0,
+      "encontrados": 4,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 12,
+      "encontrados": 13,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-13T01:57:08.503Z",
+    "atualizadoEm": "2026-11-13T02:22:44.284Z",
     "novas": 0,
     "fontes": [
       {
@@ -392,7 +392,7 @@
       {
         "fonte": "YouTube ALES",
         "ok": false,
-        "erro": "500 Internal Server Error"
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube Polícia Civil ES",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-13T01:57:09.946Z",
+    "atualizadoEm": "2026-11-13T02:22:45.922Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-13T01:57:10.842Z",
+    "atualizadoEm": "2026-11-13T02:22:46.859Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-13T01:57:21.406Z",
+    "atualizadoEm": "2026-11-13T02:22:57.419Z",
     "novas": 0,
     "fontes": [
       {
