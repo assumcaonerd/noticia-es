@@ -1,16 +1,16 @@
 {
-  "geradoEm": "2026-11-13T05:50:04.858Z",
+  "geradoEm": "2026-11-13T06:50:12.237Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 60,
     "bloqueadas": 1,
     "bloqueadasEditoriais": 0,
     "semImagem": 0,
-    "duplicadasBasicas": 9,
+    "duplicadasBasicas": 7,
     "duplicadasSemanticas": 3,
-    "foraCategorias": 31
+    "foraCategorias": 36
   },
-  "quantidadeCandidatas": 16,
+  "quantidadeCandidatas": 13,
   "candidatas": [
     {
       "id": "3d8c0d3e22386075",
@@ -429,18 +429,6 @@
       }
     },
     {
-      "id": "b108e591c4d7b0b2",
-      "titulo": "Senado aprova manter isenções para carros de PCDs fora do corte fiscal",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/brasil/senado-aprova-manter-isencoes-para-carros-de-pcds-fora-do-corte-fiscal",
-      "dataFonte": "2026-11-13T01:16:55.000Z",
-      "resumoFonte": "Medida também beneficia autistas e afasta benefícios tanto do corte de 10% já em vigor quanto da ampliação para 20%",
-      "imagem": "https://i.metroimg.com/6rqGEO15KLi3OzhxEPRYG9PiPiwDSJyrFT02vnGOMtc/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/04/producao-de-carros.jpg",
-      "descobertaEm": "2026-11-13T01:19:05.442Z"
-    },
-    {
       "id": "7692df7fdba41a23",
       "titulo": "Fiscal pesa, mas não explica tudo sobre juro alto no Brasil",
       "categoria": "Economia",
@@ -559,93 +547,21 @@
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
-    },
-    {
-      "id": "340198d5e7143752",
-      "titulo": "PGR se manifesta contra a anulação da condenação de Bolsonaro",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-justica/pgr-se-manifesta-contra-a-anulacao-da-condenacao-de-bolsonaro/",
-      "dataFonte": "2026-11-13T01:27:23.000Z",
-      "resumoFonte": "Paulo Gonet afirmou que defesa não apresentou elementos que justifiquem a revisão criminal",
-      "imagem": "https://static.poder360.com.br/uploads/2026/07/JairBolsonaro-Casa-Garagem-Julgamento-STF-4-scaled.jpg",
-      "descobertaEm": "2026-11-13T01:54:32.327Z",
-      "reportagem": {
-        "titulo": "PGR se manifesta contra a anulação da condenação de Bolsonaro",
-        "slug": "pgr-se-manifesta-contra-a-anulacao-da-condenacao-de-bolsonaro",
-        "categoria": "Justiça",
-        "data": "2026-11-12",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/pgr-se-manifesta-contra-a-anulacao-da-condenacao-de-bolsonaro.jpg",
-        "resumo": "Paulo Gonet afirmou que defesa não apresentou elementos que justifiquem a revisão criminal.",
-        "conteudo": "<p>Paulo Gonet afirmou que defesa não apresentou elementos que justifiquem a revisão criminal</p><h2>O contexto da decisão judicial</h2><p>O procurador-geral da República, Paulo Gonet, enviou, nesta 5ª feira (12.nov.2026), um parecer contrário à anulação da condenação do ex-presidente Jair Bolsonaro (PL), condenado a 27 anos e 3 meses de prisão no Supremo Tribunal Federal , em setembro de 2025, por tentativa de golpe de Estado.</p><p>No fim de outubro, o relator do recurso apresentado pela defesa de Bolsonaro, que pedia a anulação da condenação, ministro Kassio Nunes Marques , deu 10 dias para a Procuradoria Geral da República se manifestar sobre o caso.</p><p>No pedido , a defesa alegou “uma sequência inacreditável de violações ao princípio acusatório, que maculou, desde a origem, o procedimento e as provas dele decorrentes” .</p><h2>Detalhes e consequências do caso</h2><p>Citou como “prova nova” um parecer técnico que identifica “diversas quebras na cadeia de custódia das provas digitais” .</p><p>Na manifestação, Gonet argumentou que revisões criminais são para casos em que há erros no julgamento, como contradições entre a condenação e a lei penal ou as provas.</p><p>Segundo o PGR, o pedido da defesa de Bolsonaro não preenche esse requisito, portanto não há base para uma revisão.</p><p>Além desse pedido de revisão penal, um outro já foi analisado pela PGR e continua aberto, à espera da análise do relator Nunes Marques.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-justica/pgr-se-manifesta-contra-a-anulacao-da-condenacao-de-bolsonaro/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Paulo Gonet afirmou que defesa não apresentou elementos que justifiquem a revisão criminal"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O procurador-geral da República, Paulo Gonet, enviou, nesta 5ª feira (12.nov.2026), um parecer contrário à anulação da condenação do ex-presidente Jair Bolsonaro (PL), condenado a 27 anos e 3 meses de prisão no Supremo Tribunal Federal , em setembro de 2025, por tentativa de golpe de Estado."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "No fim de outubro, o relator do recurso apresentado pela defesa de Bolsonaro, que pedia a anulação da condenação, ministro Kassio Nunes Marques , deu 10 dias para a Procuradoria Geral da República se manifestar sobre o caso."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "No pedido , a defesa alegou “uma sequência inacreditável de violações ao princípio acusatório, que maculou, desde a origem, o procedimento e as provas dele decorrentes” . Citou como “prova nova” um parecer técnico que identifica “diversas quebras na cadeia de custódia das provas digitais” ."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Na manifestação, Gonet argumentou que revisões criminais são para casos em que há erros no julgamento, como contradições entre a condenação e a lei penal ou as provas. Segundo o PGR, o pedido da defesa de Bolsonaro não preenche esse requisito, portanto não há base para uma revisão."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/07/JairBolsonaro-Casa-Garagem-Julgamento-STF-4-scaled.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/pgr-se-manifesta-contra-a-anulacao-da-condenacao-de-bolsonaro.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "bad5d0d51a4c314f",
-      "titulo": "Nome negativado: aposentado do RJ denuncia erros de empresas de SP",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/sao-paulo/nome-negativado-aposentado-do-rj-denuncia-erros-de-empresas-de-sp",
-      "dataFonte": "2026-11-13T01:25:14.000Z",
-      "resumoFonte": "Vítima nunca morou em São Paulo, mas vazamento de dados permitiu que terceiros fizessem contratos no nome dele na capital e região",
-      "imagem": "https://i.metroimg.com/BGdSQYqE0HrSHlhVWQwqNRRAHxJD9QqmL6Pj7tFwg1U/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/04/a-desestatizacao-da-sabesp-reduziu-tarifas-e-ampliou-o-acesso-a-tarifa-social-levando-saneamento-mais-acessivel-a-milhoes-de-familias.jpg",
-      "descobertaEm": "2026-11-13T01:54:32.327Z"
     }
   ],
-  "reapuradoEm": "2026-11-13T05:50:09.754Z",
+  "reapuradoEm": "2026-11-13T06:50:17.049Z",
   "diagnosticoReapuracao": {
-    "produzidas": 9,
+    "produzidas": 8,
     "jaProntas": 0,
-    "incompletas": 7,
+    "incompletas": 5,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 8,
+    "geradas": 7,
     "reaproveitadas": 0,
-    "puladas": 7,
+    "puladas": 5,
     "semFoto": 0,
     "falhas": 1
   },
-  "lapisEm": "2026-11-13T05:50:39.393Z"
+  "lapisEm": "2026-11-13T06:50:47.111Z"
 }
