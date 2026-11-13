@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-13T02:19:14.117Z",
+  "atualizadoEm": "2026-11-13T03:19:12.806Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 76,
+  "novasPautas": 79,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -297,7 +297,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 4,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -316,14 +316,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 0,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 13,
+      "encontrados": 12,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,13 +376,13 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-13T02:22:44.284Z",
+    "atualizadoEm": "2026-11-13T03:22:30.751Z",
     "novas": 0,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube Folha Vitória",
@@ -402,7 +402,7 @@
       {
         "fonte": "YouTube PM Ambiental ES",
         "ok": false,
-        "erro": "404 Not Found"
+        "erro": "500 Internal Server Error"
       },
       {
         "fonte": "YouTube Bombeiros ES",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-13T02:22:45.922Z",
+    "atualizadoEm": "2026-11-13T03:22:32.582Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-13T02:22:46.859Z",
+    "atualizadoEm": "2026-11-13T03:22:33.584Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-13T02:22:57.419Z",
+    "atualizadoEm": "2026-11-13T03:22:44.160Z",
     "novas": 0,
     "fontes": [
       {
