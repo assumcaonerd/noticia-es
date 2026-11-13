@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-13T17:18:43.275Z",
+  "atualizadoEm": "2026-11-13T17:49:52.443Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 83,
+  "novasPautas": 64,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -212,11 +212,9 @@
     },
     {
       "fonte": "Poder360",
-      "ok": true,
-      "encontrados": 6,
-      "capa": true,
-      "rota": "https://www.poder360.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.poder360.com.br/ -> 403 Forbidden",
+      "capa": true
     },
     {
       "fonte": "Congresso em Foco",
@@ -376,7 +374,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-13T17:23:29.844Z",
+    "atualizadoEm": "2026-11-13T17:53:42.578Z",
     "novas": 1,
     "fontes": [
       {
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-13T17:23:43.562Z",
+    "atualizadoEm": "2026-11-13T17:53:54.282Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-13T17:23:44.482Z",
+    "atualizadoEm": "2026-11-13T17:53:55.433Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-13T17:23:55.057Z",
+    "atualizadoEm": "2026-11-13T17:54:05.988Z",
     "novas": 0,
     "fontes": [
       {
