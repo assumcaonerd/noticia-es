@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-14T03:18:23.908Z",
+  "atualizadoEm": "2026-11-14T04:18:44.316Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 81,
+  "novasPautas": 58,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -212,11 +212,9 @@
     },
     {
       "fonte": "Poder360",
-      "ok": true,
-      "encontrados": 6,
-      "capa": true,
-      "rota": "https://www.poder360.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.poder360.com.br/ -> 403 Forbidden",
+      "capa": true
     },
     {
       "fonte": "Congresso em Foco",
@@ -316,7 +314,7 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 4,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
@@ -376,7 +374,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-14T03:21:27.571Z",
+    "atualizadoEm": "2026-11-14T04:22:07.933Z",
     "novas": 0,
     "fontes": [
       {
@@ -406,8 +404,8 @@
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "404 Not Found"
       },
       {
         "fonte": "YouTube ALES (legado)",
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-14T03:21:43.492Z",
+    "atualizadoEm": "2026-11-14T04:22:24.366Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-14T03:21:44.365Z",
+    "atualizadoEm": "2026-11-14T04:22:25.479Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-14T03:21:54.916Z",
+    "atualizadoEm": "2026-11-14T04:22:36.035Z",
     "novas": 0,
     "fontes": [
       {

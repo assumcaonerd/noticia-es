@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-14T03:21:54.916Z",
+  "atualizadoEm": "2026-11-14T04:22:36.035Z",
   "observacao": "Pautas coletadas automaticamente. Folha, Estadão, O Globo e Veja entram como pauta bruta; a reescrita de Política Nacional aplica a régua editorial. Não publicar sem pesquisa multifonte e redação própria.",
   "portaisPrioritarios": [
     "agazeta.com.br",
@@ -36,6 +36,20 @@
     "dio.es.gov.br"
   ],
   "pautas": [
+    {
+      "id": "d186b37a8559445e",
+      "titulo": "Estudante de aviação é surpreendido no ar com suspensão de voos nos EUA",
+      "categoria": "Política Nacional",
+      "dataFonte": "2026-11-14T03:52:51.000Z",
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/mundo/estudante-de-aviacao-e-surpreendido-no-ar-com-suspensao-de-voos-nos-eua",
+      "resumoFonte": "Estudante fazia o seu primeiro voo solo de longa distância quando foi surpreendido com a medida",
+      "imagem": "https://i.metroimg.com/7HZF12Q9PPoy0M-TbE5hS8wapqKtA7TWifnTzkDz_g4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/gettyimages-2303979120.jpg",
+      "descobertaEm": "2026-11-14T04:18:44.316Z",
+      "status": "pendente",
+      "imagemFonte": "https://i.metroimg.com/7HZF12Q9PPoy0M-TbE5hS8wapqKtA7TWifnTzkDz_g4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/gettyimages-2303979120.jpg",
+      "imagemOrigem": "fonte"
+    },
     {
       "id": "c91684b4b81070e1",
       "titulo": "Suspeito de fraude de R$ 480 milhões em SP é preso após 1 ano de buscas",
@@ -1131,20 +1145,6 @@
       "descobertaEm": "2026-11-14T00:21:27.228Z",
       "status": "pendente",
       "imagemFonte": "https://cdn.oantagonista.com/uploads/2026/02/edinho-silva-entrevista-paulopinto-4.jpg",
-      "imagemOrigem": "fonte"
-    },
-    {
-      "id": "cd0ebb058d83aa2a",
-      "titulo": "Lotofácil hoje, concurso 3829: confira o resultado sorteado nesta sexta-feira (13)",
-      "categoria": "Economia",
-      "dataFonte": "2026-11-14T00:08:27.000Z",
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3829-confira-o-resultado-sorteado-nesta-sexta-feira-13/",
-      "resumoFonte": "Lotofácil da Independência é um sorteio especial da Lotofácil, realizado em setembro. Foto: Marcelo Camargo/Agência Brasil \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/08/sorteio-lotofacil.webp?fit=1024%2C768&quality=70&strip=all\" />O prêmio estimado para este concurso era de R$ 2 milhões The post Lotofácil hoje, concurso…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/08/sorteio-lotofacil.webp",
-      "descobertaEm": "2026-11-14T00:19:03.768Z",
-      "status": "pendente",
-      "imagemFonte": "https://www.infomoney.com.br/wp-content/uploads/2026/08/sorteio-lotofacil.webp",
       "imagemOrigem": "fonte"
     },
     {
@@ -4317,5 +4317,5 @@
       "imagemOrigem": "capa-categoria"
     }
   ],
-  "politicaImagem": "Toda matéria nova usa imagem da fonte (og:image). O fiscal-imagens corrige ausência. Proibido SVG genérico e foto aleatória."
+  "politicaImagem": "Toda matéria nova do motor usa imagemFonte extraída da publicação original. Na ausência de foto válida, usar exclusivamente a capa da categoria. É proibido inventar, gerar ou substituir por retrato de pessoa."
 }
