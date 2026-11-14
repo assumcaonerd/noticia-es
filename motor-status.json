@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-14T21:18:18.345Z",
+  "atualizadoEm": "2026-11-14T22:18:15.634Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 82,
+  "novasPautas": 81,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -290,7 +290,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 6,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -316,14 +316,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 1,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 10,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,43 +376,43 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-14T21:20:54.624Z",
-    "novas": 0,
+    "atualizadoEm": "2026-11-14T22:20:22.264Z",
+    "novas": 6,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 4
       },
       {
         "fonte": "YouTube Folha Vitória",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 4
       },
       {
         "fonte": "YouTube ALES",
-        "ok": false,
-        "erro": "500 Internal Server Error"
+        "ok": true,
+        "encontrados": 1
       },
       {
         "fonte": "YouTube Polícia Civil ES",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 2
       },
       {
         "fonte": "YouTube PM Ambiental ES",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "YouTube Bombeiros ES",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 0
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": false,
-        "erro": "404 Not Found"
+        "ok": true,
+        "encontrados": 1
       },
       {
         "fonte": "X Governo ES",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-14T21:21:10.254Z",
+    "atualizadoEm": "2026-11-14T22:20:23.650Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-14T21:21:11.225Z",
+    "atualizadoEm": "2026-11-14T22:20:24.560Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-14T21:21:21.790Z",
+    "atualizadoEm": "2026-11-14T22:20:35.120Z",
     "novas": 0,
     "fontes": [
       {
