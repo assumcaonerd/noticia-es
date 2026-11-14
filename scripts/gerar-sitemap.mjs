@@ -119,7 +119,9 @@ for (const arquivo of arquivos) {
   if (canonical !== esperado || canonical.includes('?') || !canonical.startsWith(`${SITE}/m/`)) continue;
 
   const artigo = extrairJsonLdNewsArticle(html);
-  const tituloOriginal = textoPlano(extrair(html, /<meta\s+property=["']og:title["']\s+content="([^"]*)"/i,\n    extrair(html, /<meta\s+property=["']og:title["']\s+content='([^']*)'/i,\n      extrair(html, /<h1\b[^>]*>([\s\S]*?)<\/h1>/i, slug))));
+  const tituloOriginal = textoPlano(extrair(html, /<meta\s+property=["']og:title["']\s+content="([^"]*)"/i,
+    extrair(html, /<meta\s+property=["']og:title["']\s+content='([^']*)'/i,
+      extrair(html, /<h1\b[^>]*>([\s\S]*?)<\/h1>/i, slug))));
   const pubOriginal = artigo?.datePublished || extrair(html, /<meta\s+property=["']article:published_time["']\s+content=["']([^"']+)["']/i, '');
   const pub = formatarBrasilia(pubOriginal);
   const item = {
