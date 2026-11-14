@@ -24,7 +24,7 @@ const noticiasAutoRedacao20261114135044 = [
     id: 26111413504402,
     pautaId: "099e2155f7d93ab9",
     slug: "state-grid-emite-r-2-5-bi-em",
-    titulo: "State Grid emite R$ 2,5 bi em",
+    titulo: "State Grid capta R$ 2,5 bilhões na China para financiar linha de transmissão no Brasil",
     categoria: "Economia",
     data: "2026-11-14",
     imagem: "https://noticiaes.com.br/imagens/lapis/state-grid-emite-r-2-5-bi-em.jpg",

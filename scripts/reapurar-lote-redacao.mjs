@@ -115,12 +115,12 @@ function urlFonteLimpa(url = '') {
 function meta(html, chave, atributo = 'property') {
   const e = chave.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const padroes = [
-    new RegExp(`<meta[^>]+${atributo}=["']${e}["'][^>]+content=["']([^"']*)["'][^>]*>`, 'i'),
-    new RegExp(`<meta[^>]+content=["']([^"']*)["'][^>]+${atributo}=["']${e}["'][^>]*>`, 'i')
+    new RegExp(`<meta[^>]+${atributo}=["']${e}["'][^>]+content=(["'])(.*?)\\1[^>]*>`, 'i'),
+    new RegExp(`<meta[^>]+content=(["'])(.*?)\\1[^>]+${atributo}=["']${e}["'][^>]*>`, 'i')
   ];
   for (const re of padroes) {
     const m = html.match(re);
-    if (m) return decodeHtml(m[1]).trim();
+    if (m) return decodeHtml(m[2]).trim();
   }
   return '';
 }
