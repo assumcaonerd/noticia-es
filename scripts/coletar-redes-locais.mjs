@@ -58,6 +58,18 @@ async function baixar(url) {
   if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
   return r.text();
 }
+async function baixarComRetry(url) {
+  try {
+    return await baixar(url);
+  } catch (erro) {
+    const ehYoutube = url.startsWith('https://www.youtube.com/feeds/videos.xml?');
+    const erroTransitorio = /^(404|500|502|503|504)\b|^fetch failed$/i.test(String(erro?.message || erro));
+    if (!ehYoutube || !erroTransitorio) throw erro;
+    await new Promise(resolve => setTimeout(resolve, 2000));
+    return baixar(url);
+  }
+}
+
 function parseFeed(xml, fonte) {
   const blocos = xml.match(/<entry\b[\s\S]*?<\/entry>/gi) || xml.match(/<item\b[\s\S]*?<\/item>/gi) || [];
   const itens = [];
@@ -95,7 +107,7 @@ const status = [];
 
 async function coletar(fonte, url) {
   try {
-    const xml = await baixar(url);
+    const xml = await baixarComRetry(url);
     const itens = parseFeed(xml, fonte).slice(0, MAX_POR_FONTE);
     for (const item of itens) {
       if (jaExiste(item, [...existentes, ...novas])) continue;
