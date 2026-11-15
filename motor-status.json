@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-15T02:18:32.043Z",
+  "atualizadoEm": "2026-11-15T02:45:19.586Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 86,
+  "novasPautas": 76,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -68,9 +68,11 @@
     },
     {
       "fonte": "Folha Vitória - Polícia",
-      "ok": false,
-      "erro": "https://www.folhavitoria.com.br/policia/ -> 403 Forbidden | https://www.folhavitoria.com.br/sitemap/ -> 403 Forbidden",
-      "capa": false
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://www.folhavitoria.com.br/sitemap/",
+      "fallback": true
     },
     {
       "fonte": "SESP-ES",
@@ -314,7 +316,7 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 8,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
@@ -374,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-15T02:21:28.603Z",
+    "atualizadoEm": "2026-11-15T02:47:33.285Z",
     "novas": 0,
     "fontes": [
       {
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-15T02:21:44.450Z",
+    "atualizadoEm": "2026-11-15T02:47:48.611Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-15T02:21:45.384Z",
+    "atualizadoEm": "2026-11-15T02:47:49.330Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-15T02:21:55.955Z",
+    "atualizadoEm": "2026-11-15T02:47:59.887Z",
     "novas": 0,
     "fontes": [
       {
