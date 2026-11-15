@@ -1,76 +1,256 @@
 {
-  "geradoEm": "2026-11-15T14:48:48.959Z",
+  "geradoEm": "2026-11-15T15:49:49.337Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
-    "bloqueadas": 0,
-    "bloqueadasEditoriais": 1,
-    "semImagem": 3,
-    "duplicadasBasicas": 7,
+    "bloqueadas": 2,
+    "bloqueadasEditoriais": 2,
+    "semImagem": 0,
+    "duplicadasBasicas": 5,
     "duplicadasSemanticas": 0,
-    "foraCategorias": 57
+    "foraCategorias": 54
   },
-  "quantidadeCandidatas": 12,
+  "quantidadeCandidatas": 17,
   "candidatas": [
     {
-      "id": "f13eede55983e942",
-      "titulo": "Trump: investidores de todo o mundo odiaram ver o que aconteceu no dia da eleição",
-      "categoria": "Política ES",
+      "id": "d377c02f1834fb36",
+      "titulo": "Mulher usa copo de vidro para se defender de agressão em Cariacica",
+      "categoria": "Segurança Pública",
       "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/mundo/trump-investidores-de-todo-o-mundo-odiaram-ver-o-que-aconteceu-no-dia-da-eleicao/",
-      "dataFonte": "2026-11-15T12:50:36.000Z",
-      "resumoFonte": "A votação terminou com uma mudança histórica no Congresso norte-americano: a vitória dos democratas",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/AFP__20261104__D6FU998__v1__HighRes__776589022.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-15T13:19:41.377Z",
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/mulher-usa-copo-de-vidro-para-se-defender-de-agressao-em-cariacica-1126",
+      "dataFonte": "2026-11-15T15:11:40.000Z",
+      "resumoFonte": "Segundo o relato da vítima à Polícia Militar, ela foi atacada com socos, mordidas e sofreu uma tentativa de enforcamento antes de reagir para se defender",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790606782933_2020_10_08_viatura_militar_335178_article.jpg",
+      "descobertaEm": "2026-11-15T15:18:15.842Z"
+    },
+    {
+      "id": "ded0e486191fdbdb",
+      "titulo": "Ajuste fiscal cria primeiras rachaduras entre soldados do ‘Exército de Lula’",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/politica/ajuste-fiscal-cria-primeiras-rachaduras-entre-soldados-do-exercito-de-lula/",
+      "dataFonte": "2026-11-15T15:12:03.000Z",
+      "resumoFonte": "Tramitação do projeto divide base progressista nas redes, provoca perda de seguidores no canal de Janones e gera embate entre Jones Manoel e José de Abreu",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2022/09/ANDRE-JANONES-LULA-2022-01.jpg.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-11-15T15:18:15.842Z",
       "reportagem": {
-        "titulo": "Trump: investidores de todo o mundo odiaram ver o que aconteceu no dia da eleição",
-        "slug": "trump-investidores-de-todo-o-mundo-odiaram-ver-o-que-aconteceu-no-dia-da-eleicao",
-        "categoria": "Política ES",
+        "titulo": "Ajuste fiscal cria primeiras rachaduras entre soldados do ‘Exército de Lula’",
+        "slug": "ajuste-fiscal-cria-primeiras-rachaduras-entre-soldados-do-exercito-de-lula",
+        "categoria": "Política Nacional",
         "data": "2026-11-15",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/trump-investidores-de-todo-o-mundo-odiaram-ver-o-que-aconteceu-no-dia-da-eleicao.jpg",
-        "resumo": "A votação terminou com uma mudança histórica no Congresso norte-americano: a vitória dos democratas",
-        "conteudo": "<p>O presidente dos Estados Unidos, Donald Trump, afirmou que investidores não gostaram do resultado das eleições de meio de mandato no país e que o mercado de ações perdeu U$ 3 trilhões.</p><h2>O contexto do cenário político</h2><p>A votação terminou com uma mudança histórica no Congresso norte-americano: a vitória dos democratas impôs uma derrota ao presidente Trump e seu partido Republicano.</p><p>“Alguém notou que imediatamente após a eleição o mercado de ações perdeu 3 trilhões de dólares em valor? Em outras palavras, investidores de todo o mundo odiaram ver o que aconteceu no dia da eleição.</p><p>Mas não tenham medo, o mercado subiu desde então, e a América em breve será MAIOR DO QUE NUNCA!”, diz a postagem em sua rede social Truth Social, publicada na noite deste sábado.</p><h2>Informações e repercussões do episódio</h2><p>A votação terminou com uma mudança histórica no Congresso norte-americano: a vitória dos democratas</p><p>Trump planeja levar Musk em sua viagem à Ásia e deve evitar falar sobre o caso da Nvidia</p><p>A viagem ocorre enquanto se espalham as consequências da saída de Jensen Huang do cargo de CEO da Nvidia por ter um caso extraconjugal com uma suposta agente do governo chinês</p><p>Canadá anuncia aporte de US$ 400 milhões a fundo de proteção de florestas</p><p>Ataque ucraniano provoca incêndio em central petroquímica russa</p><p>Guatemala declara estado de sítio em região afetada pelo narcotráfico</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/mundo/trump-investidores-de-todo-o-mundo-odiaram-ver-o-que-aconteceu-no-dia-da-eleicao/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/ajuste-fiscal-cria-primeiras-rachaduras-entre-soldados-do-exercito-de-lula.jpg",
+        "resumo": "Tramitação do projeto divide base progressista nas redes, provoca perda de seguidores no canal de Janones e gera embate entre Jones Manoel e José de Abreu",
+        "conteudo": "<p>O pacote fiscal apresentado na &uacute;ltima semana para equilibrar as contas p&uacute;blicas, estabilizar a d&iacute;vida do pa&iacute;s e melhorar o resultado prim&aacute;rio em 2027 deflagrou dentro do campo progressista e, especialmente, entre os &ldquo;soldados do Ex&eacute;rcito de Lula &rdquo;, grupo criado pelo deputado federal Andr&eacute; Janones (Rede-MG), a primeira crise ap&oacute;s a vit&oacute;ria petista nas urnas em outubro.</p><h2>O contexto do cenário político</h2><p>Desde que o Projeto de Lei Complementar (PLP) 299/2026 foi apresentado pelo senador Jaques Wagner (PT-BA), apoiadores do presidente se dividiram entre o endosso &agrave; proposta e cr&iacute;ticas ao plano elaborado pela equipe econ&ocirc;mica do governo federal.</p><p>Enquanto a Fazenda estima um impacto fiscal positivo de 45 bilh&otilde;es a 60 bilh&otilde;es de reais no ano que vem, nas redes os debates em torno do pacote seguem acalorados.</p><p>O canal administrado por Andr&eacute; Janones &eacute; um exemplo claro do ambiente conflituoso: o emoji de tesoura (em alus&atilde;o ao pacote fiscal) se tornou comum entre os usu&aacute;rios nas recentes publica&ccedil;&otilde;es da viagem presidencial &agrave; Turquia e &agrave;s Filipinas.</p><h2>Informações e repercussões do episódio</h2><p>Mas as discuss&otilde;es tamb&eacute;m tomaram corpo fora do WhatsApp. Pelo X (antigo Twitter), Janones criticou militantes de esquerda que estariam incentivando integrantes do canal a deixarem o grupo, que, segundo ele, sofre um &ldquo;ataque orquestrado&rdquo;.</p><p>At&eacute; a publica&ccedil;&atilde;o desta reportagem, o agrupamento digital contabilizava 9,91 milh&otilde;es de seguidores &mdash; uma perda consider&aacute;vel de inscritos ap&oacute;s o canal ter superado a marca de 10 milh&otilde;es de membros simult&acirc;neos.</p><p>O parlamentar mineiro, apelidado de &ldquo;general&rdquo; pelo presidente Lula, publicou que o chefe do Executivo estaria sendo atacado com base em not&iacute;cias falsas, o que gerou uma rea&ccedil;&atilde;o do deputado federal eleito Jones Manoel (PSOL-PE).</p><p>Em postagem, o psolista destacou que noventa entidades brasileiras ligadas &agrave; defesa da sa&uacute;de p&uacute;blica lan&ccedil;aram uma carta criticando o PLP 299, que, segundo as organiza&ccedil;&otilde;es, cortaria bilh&otilde;es do SUS.</p><p>Andr&eacute;, bom dia. Tudo certo? Olha, n&atilde;o sei se voc&ecirc; viu, mas 90 entidades brasileiras, organiza&ccedil;&otilde;es que t&ecirc;m mais tempo de defesa da sa&uacute;de p&uacute;blica que eu e voc&ecirc; temos de vida, lan&ccedil;aram uma carta criticando o PLP 299 e afirmando que ela vai cortar bilh&otilde;es do SUS.</p><p>&mdash; Jones Manoel (@jonesmanoel_PE) November 14, 2026</p><p>Por outro lado, Jones Manoel foi desafiado pelo ator Jos&eacute; de Abreu tamb&eacute;m pelo X.</p><p>O artista, conhecido pelo apoio fervoroso a Lula, prop&ocirc;s que o deputado pernambucano convocasse &ldquo;uma manifesta&ccedil;&atilde;o de rua&rdquo; contra o presidente da Rep&uacute;blica.</p><p>Jones, por sua vez, disse que n&atilde;o marcaria nenhum ato e classificou as falas de Abreu como deboches de tom racista.</p><p>Desafio o Xones a fazer uma manifesta&ccedil;&atilde;o de rua contra Lula. Escolhe a cidade, a hora e o local.</p><p>&mdash; Jose de Abreu (@Zedeabreu) November 14, 2026</p><p>Enquanto os debates sobre o plano econ&ocirc;mico exp&otilde;em as primeiras rachaduras no campo da esquerda desde o fim da elei&ccedil;&atilde;o presidencial, o texto-base do pacote de ajuste fiscal, aprovado pelo Senado na &uacute;ltima quinta-feira, 12, ter&aacute; quatro destaques analisados na pr&oacute;xima ter&ccedil;a-feira, 17.</p><p>Ap&oacute;s a conclus&atilde;o da tramita&ccedil;&atilde;o na Casa Alta, o projeto seguir&aacute; para vota&ccedil;&atilde;o na C&acirc;mara dos Deputados.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/politica/ajuste-fiscal-cria-primeiras-rachaduras-entre-soldados-do-exercito-de-lula/",
         "fontesAdicionais": [
           {
-            "nome": "Assembleia Legislativa do ES",
-            "url": "https://www.al.es.gov.br/"
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
           },
           {
-            "nome": "Governo do Estado do ES",
-            "url": "https://www.es.gov.br/"
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O presidente dos Estados Unidos, Donald Trump, afirmou que investidores não gostaram do resultado das eleições de meio de mandato no país e que o mercado de ações perdeu U$ 3 trilhões. A votação terminou com uma mudança histórica no Congresso norte-americano: a vitória dos democratas impôs uma derrota ao presidente Trump e seu partido Republicano."
+            "resposta": "O pacote fiscal apresentado na &uacute;ltima semana para equilibrar as contas p&uacute;blicas, estabilizar a d&iacute;vida do pa&iacute;s e melhorar o resultado prim&aacute;rio em 2027 deflagrou dentro do campo progressista e, especialmente, entre os &ldquo;soldados do Ex&eacute;rcito de Lula &rdquo;, grupo criado pelo deputado federal Andr&eacute; Janones (Rede-MG), a primeira crise ap&oacute;s a vit&oacute;ria petista nas urnas em outubro."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "“Alguém notou que imediatamente após a eleição o mercado de ações perdeu 3 trilhões de dólares em valor? Em outras palavras, investidores de todo o mundo odiaram ver o que aconteceu no dia da eleição."
+            "resposta": "Desde que o Projeto de Lei Complementar (PLP) 299/2026 foi apresentado pelo senador Jaques Wagner (PT-BA), apoiadores do presidente se dividiram entre o endosso &agrave; proposta e cr&iacute;ticas ao plano elaborado pela equipe econ&ocirc;mica do governo federal."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A votação terminou com uma mudança histórica no Congresso norte-americano: a vitória dos democratas"
+            "resposta": "O canal administrado por Andr&eacute; Janones &eacute; um exemplo claro do ambiente conflituoso: o emoji de tesoura (em alus&atilde;o ao pacote fiscal) se tornou comum entre os usu&aacute;rios nas recentes publica&ccedil;&otilde;es da viagem presidencial &agrave; Turquia e &agrave;s Filipinas."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Trump planeja levar Musk em sua viagem à Ásia e deve evitar falar sobre o caso da Nvidia"
+            "resposta": "Mas as discuss&otilde;es tamb&eacute;m tomaram corpo fora do WhatsApp. Pelo X (antigo Twitter), Janones criticou militantes de esquerda que estariam incentivando integrantes do canal a deixarem o grupo, que, segundo ele, sofre um &ldquo;ataque orquestrado&rdquo;."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A viagem ocorre enquanto se espalham as consequências da saída de Jensen Huang do cargo de CEO da Nvidia por ter um caso extraconjugal com uma suposta agente do governo chinês"
+            "resposta": "O parlamentar mineiro, apelidado de &ldquo;general&rdquo; pelo presidente Lula, publicou que o chefe do Executivo estaria sendo atacado com base em not&iacute;cias falsas, o que gerou uma rea&ccedil;&atilde;o do deputado federal eleito Jones Manoel (PSOL-PE)."
           }
         ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/AFP__20261104__D6FU998__v1__HighRes__776589022.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/trump-investidores-de-todo-o-mundo-odiaram-ver-o-que-aconteceu-no-dia-da-eleicao.jpg",
+        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2022/09/ANDRE-JANONES-LULA-2022-01.jpg.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/ajuste-fiscal-cria-primeiras-rachaduras-entre-soldados-do-exercito-de-lula.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
+    },
+    {
+      "id": "cca8b6276b4c0447",
+      "titulo": "Fusão com a Tesla pode ser o atalho da SpaceX para entrar no S&P 500",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/mercados/fusao-com-a-tesla-pode-ser-o-atalho-da-spacex-para-entrar-no-sp-500/",
+      "dataFonte": "2026-11-15T14:55:28.000Z",
+      "resumoFonte": "Telão mostra Elon Musk, da SpaceX, no dia do IPO da empresa na bolsa de Nova York 12 de junho de 2026 REUTERS/Jeenah Moon \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/06/telao-spaceX.png?fit=911%2C596&quality=70&strip=all\" />Inclusão no principal índice dos EUA garantiria cerca de US$ 100 bilhões em demanda de fundos…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/06/telao-spaceX.png",
+      "descobertaEm": "2026-11-15T15:18:15.842Z",
+      "reportagem": {
+        "titulo": "Fusão com a Tesla pode ser o atalho da SpaceX para entrar no S&amp;P 500",
+        "slug": "fusao-com-a-tesla-pode-ser-o-atalho-da-spacex-para-entrar-no-s-amp-p-500",
+        "categoria": "Economia",
+        "data": "2026-11-15",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/fusao-com-a-tesla-pode-ser-o-atalho-da-spacex-para-entrar-no-s-amp-p-500.jpg",
+        "resumo": "Inclusão no principal índice dos EUA garantiria cerca de US$ 100 bilhões em demanda de fundos passivos; acordo pode ser anunciado já no próximo mês",
+        "conteudo": "<p>Poucos meses depois de a SpaceX ter tido negada uma entrada rápida no índice S&amp;P 500, Elon Musk pode ter encontrado uma porta dos fundos: a fusão com a Tesla, uma das maiores integrantes do principal índice de referência da bolsa americana.</p><h2>Dados e contexto do setor</h2><p>As negociações vêm avançando rumo a uma união que consolidaria o império empresarial de Musk num único gigante, que iria de carros elétricos e inteligência artificial a lançamentos de satélites e redes sociais.</p><p>Uma das principais motivações seria, quase certamente, liberar potenciais sinergias, à medida que ele tenta avançar em empreendimentos caros e especulativos, como assistentes robóticos, data centers orbitais e até colônias em Marte.</p><p>Nave retornou à base no Texas após 22 horas no espaço e foi presa pelos braços mecânicos da torre; tentativa de recuperar também o propulsor Super Heavy fracassou</p><h2>Impactos e informações adicionais</h2><p>Mas a possível inclusão no S&amp;P 500 oferece outro incentivo significativo a um homem cuja fortuna de quase US$ 900 bilhões depende muito de seu poder de convencimento e de uma legião de seguidores quase devotos entre os investidores da Tesla e da SpaceX.</p><p>Isso porque a inclusão garantiria que US$ 16 trilhões em fundos passivos que replicam índices mantivessem ações da empresa combinada, independentemente do que acontecesse com as perspectivas ou com o resultado.</p><p>“Se você tem um fundo de índice ou ETF do S&amp;P no seu 401(k) [plano de previdência privada americano] ou na sua conta de investimentos, o gestor desse fundo é obrigado a comprar todas as ações do índice na proporção de seu peso”, disse Steve Sosnick, estrategista-chefe da Interactive Brokers.</p><p>“Como resultado, você é dono de todas essas ações, quer tenha tido essa intenção ou não.”</p><p>Tanto a Tesla quanto a SpaceX vêm queimando bilhões de dólares em caixa e planejam gastar ainda mais para financiar novos empreendimentos, mesmo com as preocupações sobre a sustentabilidade do boom da IA pesando sobre o mercado de ações.</p><p>Enquanto a SpaceX reportou no mês passado seu primeiro trimestre com lucro, a Tesla tem enfrentado demanda irregular por seus carros nos EUA e concorrência crescente no exterior.</p><p>A empresa acaba de descontinuar a Cybertruck, que virou um símbolo controverso da política de direita de Musk quando ele se tornou um dos principais conselheiros do presidente americano, Donald Trump, após o retorno do republicano à Casa Branca.</p><p>As ações também estão em patamares particularmente elevados. Mesmo depois de cair 13% neste ano, a Tesla é negociada a mais de 180 vezes o lucro esperado, ante 18 vezes do S&amp;P 500 como um todo.</p><p>Logo após sua oferta pública inicial de ações (IPO), em junho, a SpaceX chegou a valer até US$ 2,6 trilhões, um nível vertiginoso para uma empresa que teve receita de US$ 32 bilhões nos 12 meses encerrados em setembro.</p><p>Diante desse IPO recorde, a Nasdaq mudou suas regras para acelerar a entrada da empresa no índice Nasdaq 100, que é replicado por cerca de US$ 800 bilhões em ativos.</p><p>Já a S&amp;P Dow Jones Indices seguiu o caminho oposto e optou por não alterar suas regras para acomodar os chamados IPOs de megaempresas, como o da SpaceX.</p><p>Uma fusão abriria outra questão: permitir que a empresa combinada assuma a vaga da Tesla no S&amp;P 500 ou encontrar outra companhia para substituí-la.</p><p>O que está em jogo é significativo. A inclusão da empresa combinada poderia gerar cerca de US$ 100 bilhões em demanda pela ação por parte de fundos de índice, segundo Reid Noch, do TD Securities.</p><p>O movimento também poderia repercutir no mercado de forma mais ampla, ao afetar o peso de outras empresas no índice.</p><p>Com base nos preços de sexta-feira, Tesla e SpaceX têm valor de mercado combinado de quase US$ 3,5 trilhões, o que faria da nova companhia a quinta maior do S&amp;P 500.</p><p>“Isso realmente eleva o que está em jogo”, disse Campbell Harvey, professor de finanças da Universidade Duke. “Essa pode em breve ser a maior empresa do mundo, e é difícil defender que ela fique de fora do índice mais importante do mundo.”</p><p>No mês passado, Musk endossou a ideia de fundir as duas empresas que comanda e pediu aos membros do conselho que a avaliassem. Pessoas a par do assunto disseram nesta semana que um acordo pode ser anunciado já no próximo mês.</p><p>Não é certo que uma Tesla-SpaceX seria incluída no S&amp;P 500. Se não for, os fundos de investimento passivo teriam de vender as ações que provavelmente receberiam da empresa combinada.</p><p>O caminho mais fácil para a entrada seria a Tesla comprar a SpaceX, a maior das duas empresas, embora poucos esperem que a transação seja estruturada dessa forma.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/mercados/fusao-com-a-tesla-pode-ser-o-atalho-da-spacex-para-entrar-no-sp-500/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Poucos meses depois de a SpaceX ter tido negada uma entrada rápida no índice S&amp;P 500, Elon Musk pode ter encontrado uma porta dos fundos: a fusão com a Tesla, uma das maiores integrantes do principal índice de referência da bolsa americana."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "As negociações vêm avançando rumo a uma união que consolidaria o império empresarial de Musk num único gigante, que iria de carros elétricos e inteligência artificial a lançamentos de satélites e redes sociais."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Nave retornou à base no Texas após 22 horas no espaço e foi presa pelos braços mecânicos da torre; tentativa de recuperar também o propulsor Super Heavy fracassou"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Mas a possível inclusão no S&amp;P 500 oferece outro incentivo significativo a um homem cuja fortuna de quase US$ 900 bilhões depende muito de seu poder de convencimento e de uma legião de seguidores quase devotos entre os investidores da Tesla e da SpaceX."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "“Se você tem um fundo de índice ou ETF do S&amp;P no seu 401(k) [plano de previdência privada americano] ou na sua conta de investimentos, o gestor desse fundo é obrigado a comprar todas as ações do índice na proporção de seu peso”, disse Steve Sosnick, estrategista-chefe da Interactive Brokers."
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/06/telao-spaceX.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/fusao-com-a-tesla-pode-ser-o-atalho-da-spacex-para-entrar-no-s-amp-p-500.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "74ba59eb794561ff",
+      "titulo": "Homem é morto a tiros no bairro Maria Ortiz em Vitória",
+      "categoria": "Cidades",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/agora/homem-e-morto-a-tiros-no-bairro-maria-ortiz-em-vitoria-1126",
+      "dataFonte": "2026-11-15T14:24:49.000Z",
+      "resumoFonte": "O caso é investigado pela Divisão Especializada de Homicídios e Proteção à Pessoa (DHPP) de Vitória",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1780951738765_copia_de_template_radar_a_gazeta_68.jpg",
+      "descobertaEm": "2026-11-15T15:18:15.842Z"
+    },
+    {
+      "id": "4aa7c062c2cc54a4",
+      "titulo": "A questão de US$ 145 bilhões: o que esposa de Jensen Huang pode levar em um divórcio",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/business/global/a-questao-de-us-145-bilhoes-o-que-esposa-de-jensen-huang-pode-levar-em-um-divorcio/",
+      "dataFonte": "2026-11-15T15:14:23.000Z",
+      "resumoFonte": "Kevin Dietsch/Getty Images \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/JENSEN-HUANGS-145-BILLION-QUESTION-WHAT-CALIFORNIA-DIVORCE-LAW-SAYS-LORI-HUANG-COULD-GET.jpg?fit=1280%2C853&quality=70&strip=all\" />Após admitir relacionamentos extraconjugais e deixar o comando da Nvidia, Jensen Huang passou a enfrentar…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/JENSEN-HUANGS-145-BILLION-QUESTION-WHAT-CALIFORNIA-DIVORCE-LAW-SAYS-LORI-HUANG-COULD-GET.jpg",
+      "descobertaEm": "2026-11-15T15:18:15.842Z",
+      "reportagem": {
+        "titulo": "A questão de US$ 145 bilhões: o que esposa de Jensen Huang pode levar em um divórcio",
+        "slug": "a-questao-de-us-145-bilhoes-o-que-esposa-de-jensen-huang-pode-levar-em-um-divorcio",
+        "categoria": "Tecnologia",
+        "data": "2026-11-15",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/a-questao-de-us-145-bilhoes-o-que-esposa-de-jensen-huang-pode-levar-em-um-divorcio.jpg",
+        "resumo": "Após admitir relacionamentos extraconjugais e deixar o comando da Nvidia, Jensen Huang passou a enfrentar especulações sobre como a lei da Califórnia dividiria sua fortuna em caso de separação",
+        "conteudo": "<p>Jensen Huang perdeu o comando da Nvidia, a cadeira no conselho de administração e cerca de US$ 10 bilhões em valor de mercado atrelado ao seu patrimônio desde que admitiu ter mantido relacionamentos extraconjugais.</p><h2>Dados e contexto do setor</h2><p>Se o casamento de 41 anos chegar ao fim, porém, as regras da Califórnia podem colocar em disputa uma parcela muito maior de sua fortuna.</p><p>Huang deixou nesta semana os cargos de presidente, CEO e membro do conselho da Nvidia, poucos dias depois de revelar, em uma carta aos funcionários da empresa, que traiu Lori Huang, sua esposa desde 1985.</p><p>O conselho nomeou a diretora financeira, Colette Kress, como CEO interina da companhia e escolheu o conselheiro veterano Harvey Jones para assumir a presidência do conselho enquanto procura um sucessor definitivo.</p><h2>Impactos e informações adicionais</h2><p>A questão é saber se sua sucessora, Colette Kress, que assumiu a liderança da companhia de forma interina, manterá essa prática</p><p>Com raízes taiwanesas, empresário ajudou a impulsionar revolução da inteligência artificial, acumulou uma fortuna bilionária e ganhou influência nas relações entre Washington e Pequim</p><p>“Devo um pedido de desculpas à minha família e a todos vocês”, escreveu Huang.</p><p>“Fui infiel à minha esposa. Minhas ações machucaram ela e nossos filhos. Não existe desculpa para o que fiz. Sinto profundamente.”</p><p>A confissão veio após uma reportagem do New York Times revelar que agências de inteligência dos Estados Unidos suspeitavam que Alice Huang, ex-executiva da empresa de data centers Megaspeed, sediada em Singapura, atuava na coleta de informações para Pequim e mantinha uma relação próxima com Huang.</p><p>A China negou qualquer envolvimento. Já o Ministério do Interior de Singapura informou nesta semana que Alice deixou o país em fevereiro e foi impedida de retornar após uma investigação policial que, segundo as autoridades, “não tinha relação com espionagem”.</p><p>Desde então, outros dois supostos relacionamentos envolvendo o executivo vieram à tona.</p><p>Em 11 de novembro, o New York Times informou que Huang teve um envolvimento amoroso com Kimberly Powell, vice-presidente da área de saúde da Nvidia, que se reportava diretamente a ele.</p><p>A informação foi atribuída a cinco pessoas que trabalharam na empresa. Um dia depois, a Reuters noticiou que Huang também manteve um relacionamento íntimo com outra funcionária da Nvidia, cuja identidade não foi divulgada.</p><p>Powell não respondeu aos questionamentos do jornal, e a Nvidia preferiu não comentar o assunto.</p><p>O conselho da Nvidia abriu uma investigação independente para apurar se Huang foi alvo de uma operação de inteligência estrangeira e afirmou não ter encontrado indícios de que a segurança nacional dos EUA ou informações sigilosas da empresa tenham sido comprometidas.</p><p>O FBI também conduz uma investigação sobre sua relação com Alice Huang.</p><p>Huang não anunciou qualquer intenção de se divorciar. Ainda assim, uma eventual separação levantaria uma questão bilionária: como a Califórnia dividiria uma fortuna construída quase inteiramente com ações de uma única empresa?</p><p>A resposta depende menos da fortuna estimada do empresário e mais da forma como as participações do casal na Nvidia foram constituídas e estruturadas ao longo dos anos.</p><p>Segundo documentos da Nvidia, Huang era beneficiário de cerca de 870,6 milhões de ações da companhia em 23 de março de 2026, o equivalente a 3,58% do capital da empresa.</p><p>Naquele ano, a Nvidia ocupou a 16ª posição da lista Fortune 500 e se tornou a primeira companhia a superar US$ 4 trilhões em valor de mercado.</p><p>Jensen e Lori Huang são coadministradores de um trust familiar que concentra aproximadamente 528,5 milhões de ações, além de outros dois trusts da família.</p><p>Juntas, essas estruturas controlam quase 669 milhões de papéis da Nvidia. Outros 73,3 milhões de ações estão registrados em empresas controladas integralmente por esse trust principal.</p><p>Lori Huang também lidera as iniciativas filantrópicas da família. Ela preside a Fundação Jen-Hsun &amp; Lori Huang, que possuía cerca de US$ 9,2 bilhões em ativos no fim de 2024, segundo a Fortune .</p><p>A fundação detém aproximadamente 58,7 milhões de ações da Nvidia, embora a documentação da companhia destaque que o casal não tem interesse econômico direto nesses ativos.</p><p>Essa diferença é importante porque ter o controle ou a administração de ações não significa necessariamente ser o proprietário direto delas. E essa distinção pode fazer toda a diferença em uma eventual disputa patrimonial.</p><p>Jensen e Lori se conheceram quando estudavam na Universidade Estadual do Oregon e se casaram em 1985, oito anos antes da fundação da Nvidia, em 1993. O casal mora na Califórnia, um dos estados americanos que adotam o regime de comunhão de bens conhecido como community property .</p><p>Na prática, isso significa que os bens adquiridos durante o casamento costumam ser considerados patrimônio comum do casal e, em caso de divórcio, tendem a ser divididos igualmente.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/business/global/a-questao-de-us-145-bilhoes-o-que-esposa-de-jensen-huang-pode-levar-em-um-divorcio/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/"
+          },
+          {
+            "nome": "MCTI",
+            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Jensen Huang perdeu o comando da Nvidia, a cadeira no conselho de administração e cerca de US$ 10 bilhões em valor de mercado atrelado ao seu patrimônio desde que admitiu ter mantido relacionamentos extraconjugais. Se o casamento de 41 anos chegar ao fim, porém, as regras da Califórnia podem colocar em disputa uma parcela muito maior de sua fortuna."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Huang deixou nesta semana os cargos de presidente, CEO e membro do conselho da Nvidia, poucos dias depois de revelar, em uma carta aos funcionários da empresa, que traiu Lori Huang, sua esposa desde 1985."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A questão é saber se sua sucessora, Colette Kress, que assumiu a liderança da companhia de forma interina, manterá essa prática"
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Com raízes taiwanesas, empresário ajudou a impulsionar revolução da inteligência artificial, acumulou uma fortuna bilionária e ganhou influência nas relações entre Washington e Pequim"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "“Devo um pedido de desculpas à minha família e a todos vocês”, escreveu Huang."
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/JENSEN-HUANGS-145-BILLION-QUESTION-WHAT-CALIFORNIA-DIVORCE-LAW-SAYS-LORI-HUANG-COULD-GET.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/a-questao-de-us-145-bilhoes-o-que-esposa-de-jensen-huang-pode-levar-em-um-divorcio.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "e8bce9a1b280ca33",
+      "titulo": "Nova orla de Andorinhas é inaugurada em Vitória; veja como ficou",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/es/cotidiano/orla-de-andorinhas-ganha-novos-espacos-de-lazer-esporte-e-convivencia-em-vitoria-1126",
+      "dataFonte": "2026-11-15T14:39:31.000Z",
+      "resumoFonte": "O espaço passou por uma reurbanização completa e agora conta com via compartilhada para pedestres e ciclistas, campo de futebol society, playground infantil e áreas de convivência",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1794752784286_whatsapp_image_2026_11_15_at_10.jpeg",
+      "descobertaEm": "2026-11-15T15:18:15.842Z"
+    },
+    {
+      "id": "4ecc0707abd7b08d",
+      "titulo": "STJ vai treinar ministros do tribunal sobre uso de inteligência artificial",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/brasil/stj-vai-treinar-ministros-do-tribunal-sobre-uso-de-inteligencia-artificial/",
+      "dataFonte": "2026-11-15T15:01:51.000Z",
+      "resumoFonte": "O exercício organizado pelo tribunal envolve o sistema Logos, que permite aos magistrados formular relatórios de processos e minutas de decisões",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/08/55044958688_0d4b8428d6_c.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-11-15T15:18:15.842Z"
+    },
+    {
+      "id": "7cf5c6285f00b1c3",
+      "titulo": "Jovem de 21 anos é morto a tiros em Planalto Serrano, na Serra",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/jovem-de-21-anos-e-morto-a-tiros-em-planalto-serrano-na-serra-1126",
+      "dataFonte": "2026-11-15T14:52:13.000Z",
+      "resumoFonte": "De acordo com a Polícia Militar, testemunhas informaram que quatro pessoas teriam participado do assassinato",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790607144586_2019_11_26_data_26112019_es_vitoria_viaturas_da_policia_civil_136455_article.jpg",
+      "descobertaEm": "2026-11-15T15:18:15.842Z"
     },
     {
       "id": "35651ef6287bbb0e",
@@ -101,8 +281,8 @@
         "categoria": "Política Nacional",
         "data": "2026-11-15",
         "imagem": "https://noticiaes.com.br/imagens/lapis/base-de-lula-racha-por-conta-de-ajuste-fiscal-janones-acusa-extrema-esquerda-de-boicote.jpg",
-        "resumo": "Cúpula do PT apoia o pacote, mas parlamentares do partido e do PSOL questionam o impacto sobre saúde e educação. Texto-base passou no Senado e ainda será analisado pela Câmara",
-        "conteudo": "<p>O pacote de ajuste fiscal do governo Luiz Inácio Lula da Silva (PT) dividiu aliados do presidente no Congresso e nas redes sociais.</p><h2>O contexto da decisão judicial</h2><p>O Diretório Nacional do PT aprovou na sexta-feira (13) uma resolução de apoio às medidas, enquanto parlamentares do próprio partido e do PSOL criticaram a proposta pelo risco de perda de recursos para saúde, educação e políticas sociais.</p><p>A divergência veio a público após o Senado aprovar o texto-base do projeto por 45 votos a 31.</p><p>O deputado federal Lindbergh Farias (PT-RJ) criticou a pressa na tramitação e alertou, em reunião do partido, para o risco de recessão em 2027.</p><h2>Informações e repercussões do episódio</h2><p>Ele defendeu que bancos e contribuintes de alta renda arquem com uma parcela maior do ajuste. A deputada federal eleita Ana Elisa (PT-MG) afirmou que as medidas podem comprometer investimentos sociais.</p><p>Já o deputado eleito Jones Manoel (PSOL-PE), que apoiou Lula no segundo turno, pediu que seus seguidores pressionassem o Congresso contra a aprovação do texto.</p><p>A direção do PT sustenta que as medidas abrem espaço para investimentos e ajudam a conter o avanço da dívida pública.</p><p>Em vídeo divulgado pelo governo no sábado (14), o ministro do Planejamento e Orçamento, Bruno Moretti, afirmou que a previsão para 2027 é de um aumento de R$ 20 bilhões no orçamento da saúde.</p><p>Ele também disse que o pacote preserva os ganhos acima da inflação do salário mínimo, das aposentadorias e dos benefícios.</p><p>No WhatsApp, seguidores do canal “Exército do Lula” passaram a reagir às mensagens com um emoji de tesoura, em alusão aos possíveis cortes.</p><p>O canal administrado pelo deputado André Janones (Rede-MG) tinha 9,9 milhões de seguidores neste domingo (15), ante mais de 10,5 milhões durante o segundo turno.</p><p>A queda começou após a eleição e se acentuou em meio às críticas ao pacote.</p><p>Janones saiu em defesa do governo e, em publicações no X, acusou militantes de esquerda de fazer campanha para que seguidores deixassem o canal.</p><p>No WhatsApp, atribuiu a perda de público a um suposto “boicote” e disse que faria uma campanha para atrair 1 milhão de seguidores após voltar ao Brasil. O deputado integra a comitiva de Lula na viagem à Ásia e à Europa.</p><p>O Projeto de Lei Complementar (PLP) 299/2026 reduz de 2,5% para 2% o limite de crescimento das despesas federais acima da inflação nos anos em que forem acionados os mecanismos de contenção fiscal.</p><p>O texto também prevê reduzir benefícios tributários, restringir o uso de créditos por empresas para compensar impostos federais e dar ao Congresso 120 dias para analisar a regulamentação dos pagamentos acima do teto do funcionalismo.</p><p>Na saúde, a proposta estende até 2030 a regra que exclui receitas extraordinárias do petróleo e do gás do cálculo do piso de gastos. O governo estima um impacto de até R$ 60 bilhões nas contas públicas em 2027.</p><p>O Senado deve analisar nesta terça-feira (17) quatro destaques, que podem alterar trechos da proposta. Depois dessa etapa, o texto segue para a Câmara dos Deputados.</p><p>Cúpula do PT apoia o pacote, mas parlamentares do partido e do PSOL questionam o impacto sobre saúde e educação. Texto-base passou no Senado e ainda será analisado pela Câmara</p><p>Brasil buscou mais parceiros em vez de ‘ficar chorando’ sobre tarifaço, diz Lula</p><p>Citando setores como os minerais críticos e terras raras, o petista mencionou que não deseja ver o Brasil comercializando apenas matérias-primas brutas</p><p>Alckmin, Haddad, Bolsonaros, Tarcísio e Renan: quem larga na frente para as eleições 2030</p><p>Fim da escala 6×1: Dino diz que liminar não autoriza acordos individuais</p><p>Brasil e Filipinas assinam acordos sobre agro e livre concorrência</p><p>Senado habilita operadora em pregão de R$ 4,96 milhões que inclui 95 iPhones</p>",
+        "resumo": "Cúpula do PT apoia o pacote, mas parlamentares do partido e do PSOL questionam o impacto e apresentam projetos alternativos; texto-base passou no Senado e ainda será analisado pela Câmara",
+        "conteudo": "<p>O pacote de ajuste fiscal do governo Luiz Inácio Lula da Silva (PT) dividiu aliados do presidente no Congresso e nas redes sociais.</p><h2>O contexto da decisão judicial</h2><p>O Diretório Nacional do PT aprovou na sexta-feira (13) uma resolução de apoio às medidas, enquanto parlamentares do próprio partido e do PSOL criticaram a proposta pelo risco de perda de recursos para saúde, educação e políticas sociais.</p><p>A divergência veio a público após o Senado aprovar o texto-base do projeto por 45 votos a 31.</p><p>O deputado federal Lindbergh Farias (PT-RJ) criticou a pressa na tramitação e alertou, em reunião do partido, para o risco de recessão em 2027.</p><h2>Informações e repercussões do episódio</h2><p>Ele defendeu que bancos e contribuintes de alta renda arquem com uma parcela maior do ajuste. A deputada federal eleita Ana Elisa (PT-MG) afirmou que as medidas podem comprometer investimentos sociais.</p><p>Já o deputado eleito Jones Manoel (PSOL-PE), que apoiou Lula no segundo turno, pediu que seus seguidores pressionassem o Congresso contra a aprovação do texto.</p><p>A direção do PT sustenta que as medidas abrem espaço para investimentos e ajudam a conter o avanço da dívida pública.</p><p>Em vídeo divulgado pelo governo no sábado (14), o ministro do Planejamento e Orçamento, Bruno Moretti, afirmou que a previsão para 2027 é de um aumento de R$ 20 bilhões no orçamento da saúde.</p><p>Ele também disse que o pacote preserva os ganhos acima da inflação do salário mínimo, das aposentadorias e dos benefícios.</p><p>No WhatsApp, seguidores do canal “Exército do Lula” passaram a reagir às mensagens com um emoji de tesoura, em alusão aos possíveis cortes.</p><p>O canal administrado pelo deputado André Janones (Rede-MG) tinha 9,9 milhões de seguidores neste domingo (15), ante mais de 10,5 milhões durante o segundo turno.</p><p>A queda começou após a eleição e se acentuou em meio às críticas ao pacote.</p><p>Janones saiu em defesa do governo e, em publicações no X, acusou militantes de esquerda de fazer campanha para que seguidores deixassem o canal.</p><p>No WhatsApp, atribuiu a perda de público a um suposto “boicote” e disse que faria uma campanha para atrair 1 milhão de seguidores após voltar ao Brasil. O deputado integra a comitiva de Lula na viagem à Ásia e à Europa.</p><p>O Projeto de Lei Complementar (PLP) 299/2026 reduz de 2,5% para 2% o limite de crescimento das despesas federais acima da inflação nos anos em que forem acionados os mecanismos de contenção fiscal.</p><p>O texto também prevê reduzir benefícios tributários, restringir o uso de créditos por empresas para compensar impostos federais e dar ao Congresso 120 dias para analisar a regulamentação dos pagamentos acima do teto do funcionalismo.</p><p>Na saúde, a proposta estende até 2030 a regra que exclui receitas extraordinárias do petróleo e do gás do cálculo do piso de gastos. O governo estima um impacto de até R$ 60 bilhões nas contas públicas em 2027.</p><p>O Senado deve analisar nesta terça-feira (17) quatro destaques, que podem alterar trechos da proposta. Depois dessa etapa, o texto segue para a Câmara dos Deputados.</p><p>Os quatro projetos têm como primeiro signatário o líder do PT na Câmara, Pedro Uczai (SC), e reúnem cerca de 80 autores. Entre eles estão Gleisi Hoffmann (PT-PR), Lindbergh Farias (PT-RJ), Natália Bonavides (PT-RN), Erika Hilton (PSOL-SP) e Sâmia Bomfim (PSOL-SP).</p><p>Lindbergh também apresentou dois projetos de lei complementar. Um retira os investimentos públicos federais do limite de crescimento das despesas e impede o bloqueio desses recursos.</p><p>O outro dobra, de 0,25 para 0,5 ponto percentual do PIB, a margem de tolerância em torno da meta fiscal.</p><p>Cúpula do PT apoia o pacote, mas parlamentares do partido e do PSOL questionam o impacto e apresentam projetos alternativos; texto-base passou no Senado e ainda será analisado pela Câmara</p><p>Brasil buscou mais parceiros em vez de ‘ficar chorando’ sobre tarifaço, diz Lula</p><p>Citando setores como os minerais críticos e terras raras, o petista mencionou que não deseja ver o Brasil comercializando apenas matérias-primas brutas</p><p>Alckmin, Haddad, Bolsonaros, Tarcísio e Renan: quem larga na frente para as eleições 2030</p><p>Fim da escala 6×1: Dino diz que liminar não autoriza acordos individuais</p><p>Brasil e Filipinas assinam acordos sobre agro e livre concorrência</p><p>Senado habilita operadora em pregão de R$ 4,96 milhões que inclui 95 iPhones</p>",
         "fonteNome": "Jovem Pan - Feed",
         "fonteUrl": "https://jovempan.com.br/politica/base-de-lula-racha-por-conta-de-ajuste-fiscal-janones-acusa-extrema-esquerda-de-boicote/",
         "fontesAdicionais": [
@@ -140,6 +320,78 @@
         ],
         "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/55606355271_8a66dcd10f_k.jpg?w=1200&h=630&crop=1",
         "imagemX": "https://noticiaes.com.br/imagens/lapis/base-de-lula-racha-por-conta-de-ajuste-fiscal-janones-acusa-extrema-esquerda-de-boicote.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "6513a4ccb3ff8bba",
+      "titulo": "Exército israelense afirma ter matado um alto comandante do Hamas em Gaza",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/mercados/exercito-israelense-afirma-ter-matado-um-alto-comandante-do-hamas-em-gaza/",
+      "dataFonte": "2026-11-15T13:20:00.000Z",
+      "resumoFonte": "Palestinos realizam funeral de um comandante de alto escalão do Hamas morto em um ataque israelense em Gaza (Thomson Reuters) \" data-image-caption=\" Palestinos realizam funeral de um comandante de alto escalão do Hamas morto em um ataque israelense em Gaza (Thomson Reuters) \"…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/2026-11-15T123034Z_2_LOP847415112026RP1_RTRMADP_BASEIMAGE-960X540_ISRAEL-PALESTINIANS-HAMAS-FUNERAL.jpg",
+      "descobertaEm": "2026-11-15T13:19:41.377Z"
+    },
+    {
+      "id": "24e95bdcb16f8d41",
+      "titulo": "Senado aprova vacina contra herpes-zóster pelo SUS para maiores de 50 anos",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/saude/senado-aprova-vacina-contra-herpes-zoster-pelo-sus-para-maiores-de-50-anos",
+      "dataFonte": "2026-11-15T13:15:10.000Z",
+      "resumoFonte": "Aprovado em caráter terminativo, texto segue para a Câmara caso não haja recurso de pelo menos nove senadores até 18 de novembro",
+      "imagem": "https://i.metroimg.com/38flX_0URf-nVQJFv0Nn8P7LGVAhHhlLEshHLiQdhDk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/vacinacao-de-gestante-contra-o-vsr-no-hospital-universitario-de-brasilia-metropoles-10-scaled.jpg",
+      "descobertaEm": "2026-11-15T13:19:41.377Z",
+      "reportagem": {
+        "titulo": "Senado aprova vacina contra herpes-zóster pelo SUS para maiores de 50 anos",
+        "slug": "senado-aprova-vacina-contra-herpes-zoster-pelo-sus-para-maiores-de-50-anos",
+        "categoria": "Política Nacional",
+        "data": "2026-11-15",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/senado-aprova-vacina-contra-herpes-zoster-pelo-sus-para-maiores-de-50-anos.jpg",
+        "resumo": "Aprovado em caráter terminativo, texto segue para a Câmara caso não haja recurso de pelo menos nove senadores até 18 de novembro",
+        "conteudo": "<p>A Comissão de Assuntos Sociais (CAS) do Senado concluiu, na quarta-feira (11/11), a aprovação de um projeto de lei que prevê a inclusão da vacina contra o herpes-zóster no calendário nacional de imunização do Sistema Único de Saúde (SUS) .</p><h2>O contexto do cenário político</h2><p>A proposta, de autoria da senadora Dra. Eudócia (PL-AL), teve como relatora a senadora Damares Alves (Republicanos-DF).</p><p>O texto estabelece que o imunizante seja disponibilizado gratuitamente na rede pública para pessoas com mais de 50 anos e adultos com mais de 18 anos que tenham imunossupressão ou outras condições clínicas que comprometam o sistema imunológico.</p><p>A aprovação se deu em caráter terminativo, o que dispensa a votação no plenário do Senado. Assim, o projeto poderá seguir diretamente para a Câmara dos Deputados , desde que não seja apresentado, até 18 de novembro, um recurso assinado por pelo menos nove senadores.</p><h2>Informações e repercussões do episódio</h2><p>No parecer, Damares argumentou que a ampliação da vacinação é necessária diante do “aumento de incidência com o avanço da idade, especialmente a partir dos 50 anos”, além da maior gravidade da doença em pessoas imunossuprimidas.</p><p>Segundo a relatora, a imunização pode contribuir para a “redução de internações, complicações e custos assistenciais”.</p><p>A proposta recebeu 11 votos favoráveis e nenhum contrário na comissão em 1º de setembro.</p><p>Como o texto foi aprovado na forma de um substitutivo, precisou passar por um turno suplementar, concluído em 11 de novembro, quando a comissão confirmou a versão final.</p><p>Receba notícias de Saúde e Ciência no seu WhatsApp e fique por dentro de tudo! Basta acessar o canal de notícias do Metrópoles no WhatsApp .</p><p>Para ficar por dentro de tudo sobre ciência e nutrição, veja todas as reportagens de Saúde .</p><p>Aprovação no Senado: a Comissão de Assuntos Sociais aprovou em 11 de novembro projeto que inclui a vacina contra herpes-zóster no SUS; Público-alvo: o imunizante será destinado a pessoas com mais de 50 anos e adultos acima de 18 anos com imunossupressão; Tramitação legislativa: a proposta segue para a Câmara dos Deputados, caso não haja recurso de ao menos nove senadores até 18 de novembro.</p><p>Entre no canal de WhatsApp do Metrópoles Saúde e Ciência</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/saude/senado-aprova-vacina-contra-herpes-zoster-pelo-sus-para-maiores-de-50-anos",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A Comissão de Assuntos Sociais (CAS) do Senado concluiu, na quarta-feira (11/11), a aprovação de um projeto de lei que prevê a inclusão da vacina contra o herpes-zóster no calendário nacional de imunização do Sistema Único de Saúde (SUS) ."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A proposta, de autoria da senadora Dra. Eudócia (PL-AL), teve como relatora a senadora Damares Alves (Republicanos-DF)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O texto estabelece que o imunizante seja disponibilizado gratuitamente na rede pública para pessoas com mais de 50 anos e adultos com mais de 18 anos que tenham imunossupressão ou outras condições clínicas que comprometam o sistema imunológico."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A aprovação se deu em caráter terminativo, o que dispensa a votação no plenário do Senado. Assim, o projeto poderá seguir diretamente para a Câmara dos Deputados , desde que não seja apresentado, até 18 de novembro, um recurso assinado por pelo menos nove senadores."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "No parecer, Damares argumentou que a ampliação da vacinação é necessária diante do “aumento de incidência com o avanço da idade, especialmente a partir dos 50 anos”, além da maior gravidade da doença em pessoas imunossuprimidas."
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/38flX_0URf-nVQJFv0Nn8P7LGVAhHhlLEshHLiQdhDk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/vacinacao-de-gestante-contra-o-vsr-no-hospital-universitario-de-brasilia-metropoles-10-scaled.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/senado-aprova-vacina-contra-herpes-zoster-pelo-sus-para-maiores-de-50-anos.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -265,26 +517,26 @@
       }
     },
     {
-      "id": "bf50d33faed074a8",
-      "titulo": "Menina de 12 anos denuncia abuso sexual e avô é preso em Cariacica",
+      "id": "c3923323e4183e54",
+      "titulo": "Machado de Xangô, símbolo de orixá da justiça, será inaugurado no STF",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/menina-de-12-anos-denuncia-abuso-sexual-e-avo-e-preso-em-cariacica-1126",
-      "dataFonte": "2026-11-15T12:29:41.000Z",
-      "resumoFonte": "O suspeito foi levado à Delegacia Regional de Cariacica, autuado em flagrante por estupro de vulnerável e encaminhado ao sistema prisional",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1778059751350_20201208_075201.jpg",
-      "descobertaEm": "2026-11-15T13:19:41.377Z",
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-justica/machado-de-xango-simbolo-de-orixa-da-justica-sera-inaugurado-no-stf/",
+      "dataFonte": "2026-11-15T14:41:18.000Z",
+      "resumoFonte": "A inauguração da peça será a 3 dias do Dia da Consciência Negra; Supremo decidiu em 2024 que a presença de símbolos religiosos em prédios públicos não fere o princípio da neutralidade estatal",
+      "imagem": "https://static.poder360.com.br/uploads/2026/11/oxe-de-xango-idafro-1200x675.jpg",
+      "descobertaEm": "2026-11-15T15:18:15.842Z",
       "reportagem": {
-        "titulo": "Menina de 12 anos denuncia abuso sexual e avô é preso em Cariacica",
-        "slug": "menina-de-12-anos-denuncia-abuso-sexual-e-avo-e-preso-em-cariacica",
+        "titulo": "Machado de Xangô, símbolo de orixá da justiça, será inaugurado no STF",
+        "slug": "machado-de-xango-simbolo-de-orixa-da-justica-sera-inaugurado-no-stf",
         "categoria": "Justiça",
         "data": "2026-11-15",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/menina-de-12-anos-denuncia-abuso-sexual-e-avo-e-preso-em-cariacica.jpg",
-        "resumo": "O suspeito foi levado à Delegacia Regional de Cariacica, autuado em flagrante por estupro de vulnerável e encaminhado ao sistema prisional",
-        "conteudo": "<p>Um idoso de 64 anos foi preso suspeito de abusar sexualmente da própria neta, de 12 anos, em Cariacica , no sábado (14). Segundo informações da Polícia Militar, a menina relatou à mãe que o avô havia tocado em suas partes íntimas por baixo das roupas. A mulher acionou a polícia.</p><h2>O contexto da decisão judicial</h2><p>O suspeito foi levado à Delegacia Regional de Cariacica, autuado em flagrante por estupro de vulnerável e encaminhado ao sistema prisional, informou a Polícia Civil.</p><p>Para preservar a identidade da vítima, o nome do idoso e o bairro onde o crime ocorreu não serão divulgados, conforme prevê o Estatuto da Criança e do Adolescente (ECA).</p><h2>Detalhes e consequências do caso</h2><p>Um idoso de 64 anos foi preso suspeito de abusar sexualmente da própria neta, de 12 anos, em Cariacica , no sábado (14).</p><p>Segundo informações da Polícia Militar, a menina relatou à mãe que o avô havia tocado em suas partes íntimas por baixo das roupas. A mulher acionou a polícia.</p><p>O suspeito foi levado à Delegacia Regional de Cariacica, autuado em flagrante por estupro de vulnerável e encaminhado ao sistema prisional, informou a Polícia Civil.</p><p>Para preservar a identidade da vítima, o nome do idoso e o bairro onde o crime ocorreu não serão divulgados, conforme prevê o Estatuto da Criança e do Adolescente (ECA).</p>",
-        "fonteNome": "A Gazeta - Polícia",
-        "fonteUrl": "https://www.agazeta.com.br/es/policia/menina-de-12-anos-denuncia-abuso-sexual-e-avo-e-preso-em-cariacica-1126",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/machado-de-xango-simbolo-de-orixa-da-justica-sera-inaugurado-no-stf.jpg",
+        "resumo": "Supremo decidiu em 2024 que a presença de símbolos religiosos em prédios públicos não fere a neutralidade estatal.",
+        "conteudo": "<p>A inauguração da peça será a 3 dias do Dia da Consciência Negra; Supremo decidiu em 2024 que a presença de símbolos religiosos em prédios públicos não fere o princípio da neutralidade estatal</p><h2>O contexto da decisão judicial</h2><p>O Supremo Tribunal Federal terá em seu Salão Nobre, a partir da próxima 3ª feira (17.nov.2026), um símbolo da justiça na tradição yorubá, o Oxê de Xangô.</p><p>Trata-se de um machado com lâminas nas duas pontas, simbolizando a igualdade no julgamento, sem favorecer um lado em detrimento de outro. O Oxê é envergado por Xangô, orixá da lei e da justiça nas religiões de matriz africana.</p><p>A inauguração da peça será a 3 dias do Dia da Consciência Negra, celebrado em 20 de novembro. A iniciativa é da Secretaria de Equidade, Diversidade e Inclusão do STF, em atendimento ao pedido do Idafro (Instituto de Defesa dos Direitos das Religiões Afro-Brasileiras ).</p><h2>Detalhes e consequências do caso</h2><p>O instituto fez a solicitação em fevereiro de 2025, após o próprio STF decidir que a presença de símbolos religiosos , como imagens e crucifixos, em prédios e órgãos públicos não fere o princípio da neutralidade estatal em relação às religiões, nem a liberdade de crença das pessoas.</p><p>O julgamento ocorreu em novembro de 2024, após um recurso do Ministério Público Federal pedir a retirada de todos os símbolos religiosos nesse tipo de instalação, entendendo ferir a laicidade do Estado.</p><p>Por unanimidade, à época, a Corte entendeu que a Constituição protege a liberdade religiosa e que a presença de símbolos religiosos faz parte da história da formação do país.</p><p>O próprio Plenário da Corte tem, pendurada na parede, atrás da cadeira do presidente, uma cruz comumente usada na fé católica.</p><p>“Pluralismo é um princípio constitucional que requer concretude, ação prática e não somente discurso, retórica.</p><p>Felizmente o Presidente Edson Fachin soube compreender, como de hábito, a relevância da reivindicação coletiva dos povos de terreiro e do povo preto”, frisou o presidente do Idafro, Hédio Silva Júnior</p><p>Para o presidente do Idafro, a instalação do Oxê é o símbolo do compromisso do STF com a promoção da igualdade racial, e a valorização da diversidade “como vetores imprescindíveis para que as decisões do Judiciário não reproduzam ideologias ou preferências raciais de julgadores”.</p><p>No entendimento do presidente do Cedra (Centro de Estudos e Dados Sobre Desigualdades Raciais), Hélio dos Santos, a presença do Oxê de Xangô no prédio do STF é o “ encontro com o ideal de justiça” .</p><p>Ele entende que não é apenas um gesto simbólico da Corte máxima do Poder Judiciário.</p><p>“Estou muito feliz com essa iniciativa. Pra mim, esse ato vai além do simbolismo, ele consolida uma possibilidade de a gente levar a questão racial para um outro patamar”, declarou .</p><p>Na visão dele, a inauguração da escultura consolida uma decisão da Corte de dezembro do ano passado. Na ocasião, o Supremo reconheceu a existência de racismo estrutural no Brasil e a ocorrência de graves violações a preceitos fundamentais.</p><p>A solenidade de inauguração da escultura acontecerá às 18h, no hall do Salão Nobre, localizado no 2º andar do edifício-sede do Supremo Tribunal Federal.</p><p>“A instalação do Oxê de Xangô representa uma iniciativa de reconhecimento e valorização das tradições de matrizes africanas, contribuindo para a promoção do respeito à diversidade religiosa e cultural brasileira” , disse o STF, em nota.</p><p>Este texto foi publicado originalmente pela Agência Brasil, em 15 de novembro de 2026. O conteúdo é livre para republicação, citada a fonte, e foi adaptado para o padrão do Poder360 .</p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-justica/machado-de-xango-simbolo-de-orixa-da-justica-sera-inaugurado-no-stf/",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -299,186 +551,90 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Um idoso de 64 anos foi preso suspeito de abusar sexualmente da própria neta, de 12 anos, em Cariacica , no sábado (14). Segundo informações da Polícia Militar, a menina relatou à mãe que o avô havia tocado em suas partes íntimas por baixo das roupas. A mulher acionou a polícia."
+            "resposta": "A inauguração da peça será a 3 dias do Dia da Consciência Negra; Supremo decidiu em 2024 que a presença de símbolos religiosos em prédios públicos não fere o princípio da neutralidade estatal"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O suspeito foi levado à Delegacia Regional de Cariacica, autuado em flagrante por estupro de vulnerável e encaminhado ao sistema prisional, informou a Polícia Civil."
+            "resposta": "O Supremo Tribunal Federal terá em seu Salão Nobre, a partir da próxima 3ª feira (17.nov.2026), um símbolo da justiça na tradição yorubá, o Oxê de Xangô."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Para preservar a identidade da vítima, o nome do idoso e o bairro onde o crime ocorreu não serão divulgados, conforme prevê o Estatuto da Criança e do Adolescente (ECA)."
+            "resposta": "Trata-se de um machado com lâminas nas duas pontas, simbolizando a igualdade no julgamento, sem favorecer um lado em detrimento de outro. O Oxê é envergado por Xangô, orixá da lei e da justiça nas religiões de matriz africana."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Um idoso de 64 anos foi preso suspeito de abusar sexualmente da própria neta, de 12 anos, em Cariacica , no sábado (14). Segundo informações da Polícia Militar, a menina relatou à mãe que o avô havia tocado em suas partes íntimas por baixo das roupas. A mulher acionou a polícia."
+            "resposta": "A inauguração da peça será a 3 dias do Dia da Consciência Negra, celebrado em 20 de novembro. A iniciativa é da Secretaria de Equidade, Diversidade e Inclusão do STF, em atendimento ao pedido do Idafro (Instituto de Defesa dos Direitos das Religiões Afro-Brasileiras )."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Um idoso de 64 anos foi preso suspeito de abusar sexualmente da própria neta, de 12 anos, em Cariacica , no sábado (14). Segundo informações da Polícia Militar, a menina relatou à mãe que o avô havia tocado em suas partes íntimas por baixo das roupas. A mulher acionou a polícia."
+            "resposta": "O instituto fez a solicitação em fevereiro de 2025, após o próprio STF decidir que a presença de símbolos religiosos , como imagens e crucifixos, em prédios e órgãos públicos não fere o princípio da neutralidade estatal em relação às religiões, nem a liberdade de crença das pessoas."
           }
         ],
-        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1778059751350_20201208_075201.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/menina-de-12-anos-denuncia-abuso-sexual-e-avo-e-preso-em-cariacica.jpg",
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/oxe-de-xango-idafro-1200x675.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/machado-de-xango-simbolo-de-orixa-da-justica-sera-inaugurado-no-stf.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "6513a4ccb3ff8bba",
-      "titulo": "Exército israelense afirma ter matado um alto comandante do Hamas em Gaza",
-      "categoria": "Política Nacional",
+      "id": "a31859264ec87871",
+      "titulo": "O efeito colateral positivo do escândalo Vorcaro, segundo um integrante do STF",
+      "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mercados/exercito-israelense-afirma-ter-matado-um-alto-comandante-do-hamas-em-gaza/",
-      "dataFonte": "2026-11-15T13:20:00.000Z",
-      "resumoFonte": "Palestinos realizam funeral de um comandante de alto escalão do Hamas morto em um ataque israelense em Gaza (Thomson Reuters) \" data-image-caption=\" Palestinos realizam funeral de um comandante de alto escalão do Hamas morto em um ataque israelense em Gaza (Thomson Reuters) \"…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/2026-11-15T123034Z_2_LOP847415112026RP1_RTRMADP_BASEIMAGE-960X540_ISRAEL-PALESTINIANS-HAMAS-FUNERAL.jpg",
-      "descobertaEm": "2026-11-15T13:19:41.377Z"
-    },
-    {
-      "id": "24e95bdcb16f8d41",
-      "titulo": "Senado aprova vacina contra herpes-zóster pelo SUS para maiores de 50 anos",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/saude/senado-aprova-vacina-contra-herpes-zoster-pelo-sus-para-maiores-de-50-anos",
-      "dataFonte": "2026-11-15T13:15:10.000Z",
-      "resumoFonte": "Aprovado em caráter terminativo, texto segue para a Câmara caso não haja recurso de pelo menos nove senadores até 18 de novembro",
-      "imagem": "https://i.metroimg.com/38flX_0URf-nVQJFv0Nn8P7LGVAhHhlLEshHLiQdhDk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/vacinacao-de-gestante-contra-o-vsr-no-hospital-universitario-de-brasilia-metropoles-10-scaled.jpg",
-      "descobertaEm": "2026-11-15T13:19:41.377Z",
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/politica/o-efeito-colateral-positivo-do-escandalo-vorcaro-segundo-um-integrante-do-stf/",
+      "dataFonte": "2026-11-15T14:38:30.000Z",
+      "resumoFonte": "A defesa de uma reforma do Judiciário, como reverbera parte da classe política, ganhou corpo com o desgaste de imagem da Corte",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/2022-09-28-STF-Alexandre-de-Moraes-e-Andre-Mendonca-Carlos-Moura-STF.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-11-15T15:18:15.842Z",
       "reportagem": {
-        "titulo": "Senado aprova vacina contra herpes-zóster pelo SUS para maiores de 50 anos",
-        "slug": "senado-aprova-vacina-contra-herpes-zoster-pelo-sus-para-maiores-de-50-anos",
-        "categoria": "Política Nacional",
+        "titulo": "O efeito colateral positivo do escândalo Vorcaro, segundo um integrante do STF",
+        "slug": "o-efeito-colateral-positivo-do-escandalo-vorcaro-segundo-um-integrante-do-stf",
+        "categoria": "Justiça",
         "data": "2026-11-15",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/senado-aprova-vacina-contra-herpes-zoster-pelo-sus-para-maiores-de-50-anos.jpg",
-        "resumo": "Aprovado em caráter terminativo, texto segue para a Câmara caso não haja recurso de pelo menos nove senadores até 18 de novembro",
-        "conteudo": "<p>A Comissão de Assuntos Sociais (CAS) do Senado concluiu, na quarta-feira (11/11), a aprovação de um projeto de lei que prevê a inclusão da vacina contra o herpes-zóster no calendário nacional de imunização do Sistema Único de Saúde (SUS) .</p><h2>O contexto do cenário político</h2><p>A proposta, de autoria da senadora Dra. Eudócia (PL-AL), teve como relatora a senadora Damares Alves (Republicanos-DF).</p><p>O texto estabelece que o imunizante seja disponibilizado gratuitamente na rede pública para pessoas com mais de 50 anos e adultos com mais de 18 anos que tenham imunossupressão ou outras condições clínicas que comprometam o sistema imunológico.</p><p>A aprovação se deu em caráter terminativo, o que dispensa a votação no plenário do Senado. Assim, o projeto poderá seguir diretamente para a Câmara dos Deputados , desde que não seja apresentado, até 18 de novembro, um recurso assinado por pelo menos nove senadores.</p><h2>Informações e repercussões do episódio</h2><p>No parecer, Damares argumentou que a ampliação da vacinação é necessária diante do “aumento de incidência com o avanço da idade, especialmente a partir dos 50 anos”, além da maior gravidade da doença em pessoas imunossuprimidas.</p><p>Segundo a relatora, a imunização pode contribuir para a “redução de internações, complicações e custos assistenciais”.</p><p>A proposta recebeu 11 votos favoráveis e nenhum contrário na comissão em 1º de setembro.</p><p>Como o texto foi aprovado na forma de um substitutivo, precisou passar por um turno suplementar, concluído em 11 de novembro, quando a comissão confirmou a versão final.</p><p>Receba notícias de Saúde e Ciência no seu WhatsApp e fique por dentro de tudo! Basta acessar o canal de notícias do Metrópoles no WhatsApp .</p><p>Para ficar por dentro de tudo sobre ciência e nutrição, veja todas as reportagens de Saúde .</p><p>Aprovação no Senado: a Comissão de Assuntos Sociais aprovou em 11 de novembro projeto que inclui a vacina contra herpes-zóster no SUS; Público-alvo: o imunizante será destinado a pessoas com mais de 50 anos e adultos acima de 18 anos com imunossupressão; Tramitação legislativa: a proposta segue para a Câmara dos Deputados, caso não haja recurso de ao menos nove senadores até 18 de novembro.</p><p>Entre no canal de WhatsApp do Metrópoles Saúde e Ciência</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/saude/senado-aprova-vacina-contra-herpes-zoster-pelo-sus-para-maiores-de-50-anos",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/o-efeito-colateral-positivo-do-escandalo-vorcaro-segundo-um-integrante-do-stf.jpg",
+        "resumo": "A defesa de uma reforma do Judiciário, como reverbera parte da classe política, ganhou corpo com o desgaste de imagem da Corte",
+        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril.</p><h2>O contexto da decisão judicial</h2><p>&ldquo;Temos que erguer um busto em homenagem ao Vorcaro&rdquo;. &Eacute; assim, com ironia extrema, que um ministro do Supremo Tribunal Federal (STF) avalia existir pelo menos um efeito colateral positivo do esc&acirc;ndalo que mostrou como o ex-banqueiro Daniel Vorcaro se relacionava com diferentes integrantes da Corte.</p><p>O desgaste reputacional do STF amplificado pela descoberta de mensagens controversas do ex-dono do Master com ju&iacute;zes levar&aacute; a uma discuss&atilde;o &agrave; f&oacute;rceps sobre uma reforma do Judici&aacute;rio.</p><p>&ldquo;&Eacute; uma quest&atilde;o de abordagem: se falar em reformar s&oacute; o Supremo, ningu&eacute;m do Supremo vai concordar, mas tratar de uma ampla reforma do Judici&aacute;rio, do in&iacute;cio ao fim, &eacute; mais palat&aacute;vel e despersonaliza&rdquo;, resume um outro ministro de tribunal superior diretamente interessado na causa.</p><h2>Detalhes e consequências do caso</h2><p>Entre as discuss&otilde;es, ainda em fase embrion&aacute;ria, est&atilde;o a institui&ccedil;&atilde;o de mandatos para os ju&iacute;zes, a mudan&ccedil;a na idade m&iacute;nima (hoje em 35 anos) para escolha de um juiz do STF , a retirada do Supremo do foro privilegiado a pol&iacute;ticos e a amplia&ccedil;&atilde;o de crit&eacute;rios de impedimento e suspei&ccedil;&atilde;o para ju&iacute;zes, que seriam submetidos, sem exce&ccedil;&atilde;o, a um c&oacute;digo de &eacute;tica.</p><p>Os ministros do Supremo, ali&aacute;s, voltaram &agrave; linha de tiro depois que, a partir de uma ordem do presidente Edson Fachin, delegados da Pol&iacute;cia Federal produziram relat&oacute;rios anal&iacute;ticos sobre poss&iacute;veis ilegalidades cometidas por Alexandre de Moraes , Dias Toffoli e Kassio Nunes Marques, citados no acervo de mensagens do celular do ex-banqueiro Daniel Vorcaro.</p><p>A ideia de Fachin era listar as refer&ecirc;ncias a todos os magistrados para s&oacute; depois definir o encaminhamento a dar ao material.</p><p>Ato cont&iacute;nuo, dizem observadores da Corte, seria poss&iacute;vel tirar do foco mais imediato os ju&iacute;zes chamuscados pelo esc&acirc;ndalo, mas poderia representar bem mais do que isso.</p><p>Como mostrou VEJA, a l&oacute;gica &eacute; a de que se todos podem ser investigados, ao final das contas nenhum ser&aacute; de fato investigado .</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/politica/o-efeito-colateral-positivo-do-escandalo-vorcaro-segundo-um-integrante-do-stf/",
         "fontesAdicionais": [
           {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
           },
           {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "A Comissão de Assuntos Sociais (CAS) do Senado concluiu, na quarta-feira (11/11), a aprovação de um projeto de lei que prevê a inclusão da vacina contra o herpes-zóster no calendário nacional de imunização do Sistema Único de Saúde (SUS) ."
+            "resposta": "Resumo gerado por ferramenta de IA treinada pela reda&ccedil;&atilde;o da Editora Abril."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A proposta, de autoria da senadora Dra. Eudócia (PL-AL), teve como relatora a senadora Damares Alves (Republicanos-DF)."
+            "resposta": "&ldquo;Temos que erguer um busto em homenagem ao Vorcaro&rdquo;. &Eacute; assim, com ironia extrema, que um ministro do Supremo Tribunal Federal (STF) avalia existir pelo menos um efeito colateral positivo do esc&acirc;ndalo que mostrou como o ex-banqueiro Daniel Vorcaro se relacionava com diferentes integrantes da Corte."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O texto estabelece que o imunizante seja disponibilizado gratuitamente na rede pública para pessoas com mais de 50 anos e adultos com mais de 18 anos que tenham imunossupressão ou outras condições clínicas que comprometam o sistema imunológico."
+            "resposta": "&ldquo;&Eacute; uma quest&atilde;o de abordagem: se falar em reformar s&oacute; o Supremo, ningu&eacute;m do Supremo vai concordar, mas tratar de uma ampla reforma do Judici&aacute;rio, do in&iacute;cio ao fim, &eacute; mais palat&aacute;vel e despersonaliza&rdquo;, resume um outro ministro de tribunal superior diretamente interessado na causa."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A aprovação se deu em caráter terminativo, o que dispensa a votação no plenário do Senado. Assim, o projeto poderá seguir diretamente para a Câmara dos Deputados , desde que não seja apresentado, até 18 de novembro, um recurso assinado por pelo menos nove senadores."
+            "resposta": "Entre as discuss&otilde;es, ainda em fase embrion&aacute;ria, est&atilde;o a institui&ccedil;&atilde;o de mandatos para os ju&iacute;zes, a mudan&ccedil;a na idade m&iacute;nima (hoje em 35 anos) para escolha de um juiz do STF , a retirada do Supremo do foro privilegiado a pol&iacute;ticos e a amplia&ccedil;&atilde;o de crit&eacute;rios de impedimento e suspei&ccedil;&atilde;o para ju&iacute;zes, que seriam submetidos, sem exce&ccedil;&atilde;o, a um c&oacute;digo de &eacute;tica."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "No parecer, Damares argumentou que a ampliação da vacinação é necessária diante do “aumento de incidência com o avanço da idade, especialmente a partir dos 50 anos”, além da maior gravidade da doença em pessoas imunossuprimidas."
+            "resposta": "Os ministros do Supremo, ali&aacute;s, voltaram &agrave; linha de tiro depois que, a partir de uma ordem do presidente Edson Fachin, delegados da Pol&iacute;cia Federal produziram relat&oacute;rios anal&iacute;ticos sobre poss&iacute;veis ilegalidades cometidas por Alexandre de Moraes , Dias Toffoli e Kassio Nunes Marques, citados no acervo de mensagens do celular do ex-banqueiro Daniel Vorcaro."
           }
         ],
-        "imagemOriginal": "https://i.metroimg.com/38flX_0URf-nVQJFv0Nn8P7LGVAhHhlLEshHLiQdhDk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/vacinacao-de-gestante-contra-o-vsr-no-hospital-universitario-de-brasilia-metropoles-10-scaled.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/senado-aprova-vacina-contra-herpes-zoster-pelo-sus-para-maiores-de-50-anos.jpg",
+        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/09/2022-09-28-STF-Alexandre-de-Moraes-e-Andre-Mendonca-Carlos-Moura-STF.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/o-efeito-colateral-positivo-do-escandalo-vorcaro-segundo-um-integrante-do-stf.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
-    },
-    {
-      "id": "4b9a7707ff2e7c79",
-      "titulo": "Ataque hacker a Correios da França expõe dados de 22 milhões de usuários",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/mundo/ataque-hacker-a-correios-da-franca-expoe-dados-de-22-milhoes-de-usuarios",
-      "dataFonte": "2026-11-15T12:18:18.000Z",
-      "resumoFonte": "Empresa subsidiária da La Poste, equivalente aos Correios no Brasil, foi alvo de um ataque cibernético que expôs dados de clientes",
-      "imagem": "https://i.metroimg.com/sqGOeY7rLP2jruQ_Keg2ECz-OiIKUgp4b0VCQ6awM0A/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2025/12/23163847/Fraude-que-permitiu-que-os-detentos-deixassem-a-cadeia-foi-coordenada-por-um-hacker.jpg",
-      "descobertaEm": "2026-11-15T12:18:22.697Z"
-    },
-    {
-      "id": "541908e418e23ee2",
-      "titulo": "Empreendedores priorizam propaganda em vez de finanças e crédito",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-empreendedor/empreendedores-priorizam-propaganda-em-vez-de-financas-e-credito/",
-      "dataFonte": "2026-11-15T12:00:50.000Z",
-      "resumoFonte": "Aprender sobre propaganda e marketing é a prioridade de 42,7% dos donos de negócios em 2026, segundo dados do Sebrae",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/2empreendedores-priorizam-propaganda-credito-9-nov-2026-1200x675.png",
-      "descobertaEm": "2026-11-15T12:18:22.697Z",
-      "reportagem": {
-        "titulo": "Empreendedores priorizam propaganda em vez de finanças e crédito",
-        "slug": "empreendedores-priorizam-propaganda-em-vez-de-financas-e-credito",
-        "categoria": "Economia",
-        "data": "2026-11-15",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/empreendedores-priorizam-propaganda-em-vez-de-financas-e-credito.jpg",
-        "resumo": "Aprender sobre propaganda e marketing é a prioridade de 42,7% dos donos de negócios em 2026, segundo dados do Sebrae.",
-        "conteudo": "<p>Aprender sobre propaganda e marketing é a prioridade de 42,7% dos donos de negócios em 2026, segundo dados do Sebrae</p><h2>Dados e contexto do setor</h2><p>Saber mais sobre propaganda e marketing é a prioridade dos empreendedores em 2026, com 42,7% dizendo que se interessam em aprender melhor sobre o tema. Em seguida, os donos de negócios visam a saber mais sobre como vender nas redes sociais (40,4%). Os dados são do Sebrae .</p><p>Em 2019, a preferência dos empreendedores era buscar conhecimento sobre controle e gestão financeira (54,0%) e orientação para crédito (50,0%). Propaganda e marketing ocupavam o 3º lugar da lista (48,0%) e redes sociais, o 5º lugar (41,0%).</p><h2>Impactos e informações adicionais</h2><p>Em 2026, aprender sobre controle e gestão financeira é tido como prioridade para 38,6% dos empreendedores. Já orientação para crédito, só para 29,2% dos donos de negócios.</p><p>A mudança de 2019 para 2026 mostra uma alteração nas prioridades dos pequenos negócios. Em vez de buscar principalmente orientação financeira e de acesso a crédito, os empreendedores passaram a dar mais importância a estratégias para atrair clientes e vender.</p><p>O movimento sugere que conquistar mercado e ampliar receitas se tornou uma preocupação central para a sobrevivência e o crescimento das empresas, especialmente com o aumento do uso das redes sociais e do e-commerce.</p><p>Saber mais sobre propaganda e marketing é a prioridade dos empreendedores em 2026, com 42,7% dizendo que se interessam em aprender melhor sobre o tema. Em seguida, os donos de negócios visam a saber mais sobre como vender nas redes sociais (40,4%). Os dados são do</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-empreendedor/empreendedores-priorizam-propaganda-em-vez-de-financas-e-credito/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Aprender sobre propaganda e marketing é a prioridade de 42,7% dos donos de negócios em 2026, segundo dados do Sebrae"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Saber mais sobre propaganda e marketing é a prioridade dos empreendedores em 2026, com 42,7% dizendo que se interessam em aprender melhor sobre o tema. Em seguida, os donos de negócios visam a saber mais sobre como vender nas redes sociais (40,4%). Os dados são do Sebrae ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Em 2019, a preferência dos empreendedores era buscar conhecimento sobre controle e gestão financeira (54,0%) e orientação para crédito (50,0%). Propaganda e marketing ocupavam o 3º lugar da lista (48,0%) e redes sociais, o 5º lugar (41,0%)."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Em 2026, aprender sobre controle e gestão financeira é tido como prioridade para 38,6% dos empreendedores. Já orientação para crédito, só para 29,2% dos donos de negócios."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A mudança de 2019 para 2026 mostra uma alteração nas prioridades dos pequenos negócios. Em vez de buscar principalmente orientação financeira e de acesso a crédito, os empreendedores passaram a dar mais importância a estratégias para atrair clientes e vender."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/2empreendedores-priorizam-propaganda-credito-9-nov-2026-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/empreendedores-priorizam-propaganda-em-vez-de-financas-e-credito.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "d7a1f521e7c6bea3",
-      "titulo": "Internacional e Flamengo se enfrentam para decidir Copa do Brasil Feminina",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/copa-do-brasil/internacional-e-flamengo-se-enfrentam-para-decidir-copa-do-brasil-feminina/",
-      "dataFonte": "2026-11-15T11:46:12.000Z",
-      "resumoFonte": "Gurias Coloradas tem uma grande vantagem; no jogo de ida, elas venceram as Rubro-Negras por 3 a 1, de virada, no estádio Luso Brasileiro, no Rio de Janeiro",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/estadio_beira_rio-e1788720707923.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-15T12:18:22.697Z"
     },
     {
       "id": "a256e428ec6ec7fe",
@@ -493,19 +649,19 @@
       "descobertaEm": "2026-11-15T13:19:41.377Z"
     }
   ],
-  "reapuradoEm": "2026-11-15T14:48:52.048Z",
+  "reapuradoEm": "2026-11-15T15:49:56.680Z",
   "diagnosticoReapuracao": {
-    "produzidas": 7,
+    "produzidas": 9,
     "jaProntas": 0,
-    "incompletas": 5,
+    "incompletas": 8,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 7,
+    "geradas": 9,
     "reaproveitadas": 0,
-    "puladas": 5,
+    "puladas": 8,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-15T14:49:31.000Z"
+  "lapisEm": "2026-11-15T15:50:38.584Z"
 }
