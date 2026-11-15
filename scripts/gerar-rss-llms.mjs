@@ -9,6 +9,7 @@ const SITE = 'https://noticiaes.com.br';
 function esc(s='') { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&apos;'); }
 function extrair(html,re,f=''){ const m=String(html).match(re); return m?m[1]:f; }
 function limpar(s=''){ return String(s).replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim(); }
+function decodificarMeta(s=''){ return String(s).replace(/&amp;/gi,'&').replace(/&quot;/gi,'"').replace(/&apos;|&#39;/gi,"'").replace(/&lt;/gi,'<').replace(/&gt;/gi,'>'); }
 
 const arquivos = (await fs.readdir(DIR)).filter(f=>f.endsWith('.html'));
 const itens=[];
@@ -17,8 +18,8 @@ for(const arquivo of arquivos){
   if(/<meta\s+http-equiv=["']refresh["']/i.test(html)) continue;
   const canonical=extrair(html,/<link\s+rel="canonical"\s+href="([^"]+)"/i,`${SITE}/m/${arquivo}`);
   if(canonical!==`${SITE}/m/${arquivo}`) continue;
-  const titulo=extrair(html,/<meta\s+property="og:title"\s+content="([^"]*)"/i,arquivo.replace(/\.html$/,''));
-  const desc=extrair(html,/<meta\s+name="description"\s+content="([^"]*)"/i,'');
+  const titulo=decodificarMeta(extrair(html,/<meta\s+property="og:title"\s+content="([^"]*)"/i,arquivo.replace(/\.html$/,'')));
+  const desc=decodificarMeta(extrair(html,/<meta\s+name="description"\s+content="([^"]*)"/i,''));
   const pub=extrair(html,/"datePublished":"([^"]+)"/i,'');
   itens.push({canonical,titulo,desc,pub});
 }

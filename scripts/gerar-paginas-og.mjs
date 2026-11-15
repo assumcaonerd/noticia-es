@@ -72,6 +72,7 @@ const PAGINAS_ESPECIAIS = new Set([
 
 function escapar(texto = '') {
   return String(texto)
+    .replace(/&amp;/gi, '&') // Evita duplicar a entidade quando a pauta já traz &amp;.
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
