@@ -1,16 +1,16 @@
 {
-  "geradoEm": "2026-11-16T03:09:19.086Z",
+  "geradoEm": "2026-11-16T03:48:39.843Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
-    "totalPendentes": 80,
-    "bloqueadas": 1,
+    "totalPendentes": 60,
+    "bloqueadas": 0,
     "bloqueadasEditoriais": 0,
-    "semImagem": 2,
-    "duplicadasBasicas": 6,
-    "duplicadasSemanticas": 1,
-    "foraCategorias": 53
+    "semImagem": 1,
+    "duplicadasBasicas": 7,
+    "duplicadasSemanticas": 0,
+    "foraCategorias": 39
   },
-  "quantidadeCandidatas": 17,
+  "quantidadeCandidatas": 13,
   "candidatas": [
     {
       "id": "347a9e5e3764b67f",
@@ -73,26 +73,38 @@
       }
     },
     {
-      "id": "7ae2f0d9517f72ef",
-      "titulo": "Falha em foguete de empresa da Boeing destrói 40 satélites da Amazon",
+      "id": "4092595fe0f2290a",
+      "titulo": "Anac registra 211 casos de indisciplina após regra que pune má conduta de passageiros",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/economia/noticia/2026/11/16/anac-registra-211-casos-de-indisciplina-apos-regra-que-pune-ma-conduta-de-passageiros.ghtml",
+      "dataFonte": "2026-11-16T03:00:00.000Z",
+      "resumoFonte": "A Agência Nacional de Aviação Civil (Anac) registrou 211 ocorrências envolvendo passageiros indisciplinados desde setembro, quando entraram em vigor as novas regras para punir esse tipo de comportamento no transporte aéreo. Desse total, 179 foram classificados como atos de indisciplina, 31 como graves e um como gravíssimo. A regulamentação prevê…",
+      "imagem": "https://s2-g1.glbimg.com/0HilR7BtSc7fvQaNpe8Mda5Uos8=/4608x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/E/v/2bWYtmRxiAoppejvWBZA/age20211214029.jpg",
+      "descobertaEm": "2026-11-16T03:18:48.897Z"
+    },
+    {
+      "id": "9f339d0395c4ebde",
+      "titulo": "Crise da Nvidia afeta investidores brasileiros; entenda",
       "categoria": "Tecnologia",
       "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-tech/falha-em-foguete-de-empresa-da-boeing-destroi-40-satelites-da-amazon/",
-      "dataFonte": "2026-11-16T02:22:52.000Z",
-      "resumoFonte": "Vulcan apresentou problema 10 minutos depois de decolar da Flórida e não conseguiu levar a carga à órbita",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/Imagem-15-11-2026-as-22.29-1200x556.png",
-      "descobertaEm": "2026-11-16T02:48:51.793Z",
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://www1.folha.uol.com.br/mercado/2026/11/crise-da-nvidia-afeta-investidores-brasileiros-entenda.shtml",
+      "dataFonte": "2026-11-16T02:00:00.000Z",
+      "resumoFonte": "A crise envolvendo Jensen Huang, cofundador e então CEO da Nvidia, provocou perdas nas ações da fabricante de chips e levantou questionamentos sobre os efeitos para investidores expostos à companhia, inclusive no Brasil.",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/10/17943107566af30264360f3_1794310756_3x2_rt.jpg",
+      "descobertaEm": "2026-11-16T02:18:05.749Z",
       "reportagem": {
-        "titulo": "Falha em foguete de empresa da Boeing destrói 40 satélites da Amazon",
-        "slug": "falha-em-foguete-de-empresa-da-boeing-destroi-40-satelites-da-amazon",
+        "titulo": "Crise da Nvidia afeta investidores brasileiros; entenda",
+        "slug": "crise-da-nvidia-afeta-investidores-brasileiros-entenda",
         "categoria": "Tecnologia",
         "data": "2026-11-15",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/falha-em-foguete-de-empresa-da-boeing-destroi-40-satelites-da-amazon.jpg",
-        "resumo": "Vulcan apresentou problema 10 minutos depois de decolar da Flórida e não conseguiu levar a carga à órbita.",
-        "conteudo": "<p>Vulcan apresentou problema 10 minutos depois de decolar da Flórida e não conseguiu levar a carga à órbita</p><h2>Dados e contexto do setor</h2><p>Um foguete Vulcan da ULA (United Launch Alliance), empresa criada pela Boeing e pela Lockheed Martin , falhou, neste domingo (15.nov.2026), cerca de 10 minutos depois de decolar de Cabo Canaveral, na Flórida (EUA).</p><p>O acidente destruiu a carga de 40 satélites da Amazon destinados à rede de internet Leo .</p><p>A falha encerra o histórico de 100% de sucesso da ULA desde sua fundação, em 2006. A empresa declarou que o veículo espacial partiu da Estação da Força Espacial de Cabo Canaveral, mas não alcançou a órbita.</p><h2>Impactos e informações adicionais</h2><p>“Com base nos dados recebidos pelo nosso diretor de lançamento, confirmamos que o veículo Vulcan, lançado do Complexo de Lançamento Espacial 41, sofreu uma anomalia 10 minutos após o início do voo e não conseguiu levar a missão Amazon à órbita” , declarou.</p><p>A companhia disse que “ainda não tem dados específicos para entender o que aconteceu” .</p><p>A Amazon afirmou que o episódio faz parte dos riscos de operações inaugurais. “Qualquer lançamento envolve riscos, e isso é especialmente verdadeiro para missões inaugurais como a LV-01” , disse a gigante de tecnologia, em nota.</p><p>A empresa acrescentou: “A ULA tem sido uma parceira confiável da Amazon, e acreditamos que eles aprenderão com esta missão e cumprirão seus planos de longo prazo para o Vulcan” .</p><p>As causas do problema permanecem desconhecidas. Dados preliminares indicam que a falha ocorreu depois da separação entre o 1º estágio do foguete, impulsionado por motores principais BE-4, e o 2º estágio, que transportava os satélites.</p><p>Os motores BE-4 são fabricados pela Blue Origin , empresa espacial de Jeff Bezos , fundador da Amazon. A Blue Origin colabora com a ULA na investigação do caso.</p><p>O voo deste domingo (15.nov) foi o 5º do Vulcan desde sua estreia, em 2024, e o 1º em 9 meses. O foguete passou por um intervalo sem lançamentos por causa de investigações técnicas sobre seus propulsores laterais sólidos e os motores BE-4.</p><p>Problemas nos propulsores haviam sido registrados nos 2 voos anteriores, incluindo uma missão realizada em fevereiro de 2026 pela Força Espacial dos EUA .</p><p>Embora aquelas cargas tenham chegado à órbita, o Pentágono aguardava o resultado da operação da Amazon para autorizar o foguete a retomar o transporte de equipamentos de segurança nacional.</p><p>Os motores BE-4 também equipavam o foguete New Glenn, da Blue Origin, que explodiu na plataforma de lançamento em maio de 2026. A investigação atribuiu o acidente a uma falha no motor, o que levou a fabricante a modificar as unidades entregues à ULA para o programa Vulcan.</p><p>A expectativa no setor aeroespacial é de uma investigação longa, capaz de manter o Vulcan fora de operação por meses. A paralisação agrava o gargalo de lançamentos nos EUA, pressionado pela aposentadoria iminente do Falcon 9, da SpaceX .</p><p>Principal foguete em atividade no mundo, o Falcon 9 não aceita mais novas reservas de clientes.</p><p>O acidente representa um novo obstáculo para os planos da Amazon de competir com a Starlink , rede de internet via satélite da SpaceX que opera mais de 11.000 equipamentos e atende milhões de clientes no mundo.</p><p>Diferentemente da SpaceX, que usa foguetes próprios para colocar seus satélites em órbita, a Amazon depende de fornecedores terceirizados e gasta bilhões de dólares em contratos de lançamento.</p><p>Em maio, a explosão do foguete New Glenn já havia atrasado o cronograma da empresa dias antes de um lançamento programado da rede Leo.</p><p>Desde 2025, a Amazon colocou 398 satélites Leo em órbita por meio de 14 lançamentos. O volume corresponde a 12,3% dos 3.236 equipamentos necessários para garantir cobertura global.</p><p>A empresa planeja iniciar a operação comercial do serviço de internet ainda em 2026. Já a ULA foi criada em 2006 a partir da união dos programas de foguetes Delta, da Boeing, e Atlas, da Lockheed Martin, que registravam poucas falhas nas décadas anteriores à fusão.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-tech/falha-em-foguete-de-empresa-da-boeing-destroi-40-satelites-da-amazon/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/crise-da-nvidia-afeta-investidores-brasileiros-entenda.jpg",
+        "resumo": "BDRs da fabricante acumulam queda de 20,3% desde a revelação do caso",
+        "conteudo": "<p>A crise envolvendo Jensen Huang , cofundador e então CEO da Nvidia , provocou perdas nas ações da fabricante de chips e levantou questionamentos sobre os efeitos para investidores expostos à companhia, inclusive no Brasil.</p><h2>Os números do levantamento</h2><p>As perdas para e empresa foram expressivas. Segundo levantamento da Elos Ayta, a Nvidia perdeu US$ 493 bilhões em valor de mercado entre 6 e 12 de novembro.</p><p>Considerando a máxima de 29 de outubro, quando a companhia ainda valia mais de US$ 5 trilhões , a perda acumulada chegou a US$ 1,144 trilhão, valor superior em cerca de 31% à soma de todas as empresas listadas na B3 , estimada em US$ 873 bilhões.</p><p>Desde o início da crise, em 29 de outubro, os BDRs da Nvidia (NVDC34), certificados que permitem negociar na B3 as ações da empresa, acumulam queda de 20,3%. Os papéis passaram de R$ 24,03 no fechamento de 28 de outubro para R$ 19,14 em 13 de novembro.</p><h2>Impactos e informações adicionais</h2><p>O número de investidores brasileiros com BDRs da Nvidia era de cerca de 74,7 mil pessoas físicas ao fim de outubro, segundo dados da B3.</p><p>Além do desempenho das ações, quem investe nesses certificados também está exposto às variações do câmbio , que tem apresentado maior volatilidade desde o segundo turno das eleições presidenciais.</p><p>Como o dólar subiu nesse intervalo, o investidor brasileiro teve uma perda menor que a desvalorização da empresa em dólares, na Nasdaq.</p><p>Por lá, os papéis da companhia recuaram 28,5%, de US$ 227,83 para US$ 162,85 no mesmo intervalo.</p><p>O movimento ocorreu em meio à pressão já existente sobre o mercado de tecnologia e inteligência artificial nos EUA. As ações do setor também recuaram após a vitória democrata no país ampliar os receios sobre um possível aumento da regulamentação do segmento.</p><p>A exposição à Nvidia, no entanto, não se limita aos investidores que compraram seus BDRs ou ações diretamente no exterior.</p><p>A companhia também tem participação relevante em fundos e ETFs que replicam índices internacionais, o que faz com que brasileiros possam sentir os efeitos de uma queda mesmo sem ter comprado diretamente papéis da companhia.</p><p>Segundo João Vitor Saccardo, diretor de renda variável da Convexa Investimentos, entre os ETFs negociados no Brasil com exposição à Nvidia estão CHIP11, USTK11 e UTEC11, nos quais a fabricante representa aproximadamente 17% da carteira.</p><p>Saccardo também diz que uma eventual redução dos investimentos em inteligência artificial pode afetar outras empresas da cadeia, como TSMC, Micron, SK Hynix e Broadcom. Por outro lado, uma perda de participação de mercado da Nvidia poderia beneficiar concorrentes, como a AMD .</p><p>Para o investidor, o especialista recomenda verificar o peso total da Nvidia na carteira e a eventual sobreposição entre ETFs.</p><p>Quem investe em produtos que acompanham a Nasdaq e o S&amp;P 500, por exemplo, pode ter uma exposição maior à companhia do que imagina.</p><p>Uma redução da posição pode fazer sentido se ela ultrapassar o limite definido pelo próprio investidor, mas também é importante avaliar se houve uma piora nos fundamentos da empresa.</p><p>William Castro Alves, estrategista-chefe da Avenue, diz que os problemas envolvendo a liderança da Nvidia não devem comprometer toda a cadeia de inteligência artificial.</p><p>Segundo ele, os resultados de empresas do setor indicam que a demanda por tecnologia e os investimentos seguem fortes.</p><p>O especialista afirma que o cenário é diferente do de uma bolha , pois as grandes empresas já conseguem gerar receitas com a tecnologia, e não dependem apenas de expectativas futuras.</p><p>João Arthur, diretor de investimentos da Suno Consultoria, afirma que a diversificação do investidor na compra de índices também ajuda a amortecer o impacto de uma desvalorização concentrada em uma única companhia.</p><p>Para Arthur, a saída de Huang representa a materialização do chamado risco de pessoa-chave, quando os negócios de uma empresa estão fortemente associados à atuação de um executivo específico.</p><p>A mudança na liderança, no entanto, não significa necessariamente uma piora na companhia.</p><p>O especialista compara o caso ao da Apple após a saída de Steve Jobs. A empresa perdeu a figura associada à sua visão de negócios, mas continuou crescendo sob a gestão de Tim Cook .</p><p>Arthur avalia que a Nvidia também pode continuar gerando valor sem Huang à frente.</p><p>Embora perca parte da identidade ligada ao fundador, isso não significa que seu negócio ou sua tese de investimento deixem de fazer sentido.</p><p>Vinícius Bazan, CEO da Underblock, também avalia que a queda recente das ações reflete principalmente uma crise de confiança e a reação a notícias negativas, e não necessariamente uma revisão dos fundamentos da Nvidia.</p><p>Para ele, embora o avanço acelerado da inteligência artificial desperte receios de uma bolha, o cenário atual é diferente, pois o crescimento está concentrado em grandes empresas, com negócios com capacidade de gerar valor.</p><p>A crise envolvendo Jensen Huang , cofundador e então CEO da Nvidia , provocou perdas nas ações da fabricante de chips e levantou questionamentos sobre os efeitos para investidores expostos à companhia, inclusive no Brasil.</p><p>As perdas para e empresa foram expressivas. Segundo levantamento da Elos Ayta, a Nvidia perdeu US$ 493 bilhões em valor de mercado entre 6 e 12 de novembro.</p><p>Considerando a máxima de 29 de outubro, quando a companhia ainda valia mais de US$ 5 trilhões , a perda acumulada chegou a US$ 1,144 trilhão, valor superior em cerca de 31% à soma de todas as empresas listadas na B3 , estimada em US$ 873 bilhões.</p>",
+        "fonteNome": "UOL Notícias",
+        "fonteUrl": "https://www1.folha.uol.com.br/mercado/2026/11/crise-da-nvidia-afeta-investidores-brasileiros-entenda.shtml",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -107,27 +119,27 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Vulcan apresentou problema 10 minutos depois de decolar da Flórida e não conseguiu levar a carga à órbita"
+            "resposta": "A crise envolvendo Jensen Huang , cofundador e então CEO da Nvidia , provocou perdas nas ações da fabricante de chips e levantou questionamentos sobre os efeitos para investidores expostos à companhia, inclusive no Brasil."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Um foguete Vulcan da ULA (United Launch Alliance), empresa criada pela Boeing e pela Lockheed Martin , falhou, neste domingo (15.nov.2026), cerca de 10 minutos depois de decolar de Cabo Canaveral, na Flórida (EUA). O acidente destruiu a carga de 40 satélites da Amazon destinados à rede de internet Leo ."
+            "resposta": "As perdas para e empresa foram expressivas. Segundo levantamento da Elos Ayta, a Nvidia perdeu US$ 493 bilhões em valor de mercado entre 6 e 12 de novembro."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A falha encerra o histórico de 100% de sucesso da ULA desde sua fundação, em 2006. A empresa declarou que o veículo espacial partiu da Estação da Força Espacial de Cabo Canaveral, mas não alcançou a órbita."
+            "resposta": "Desde o início da crise, em 29 de outubro, os BDRs da Nvidia (NVDC34), certificados que permitem negociar na B3 as ações da empresa, acumulam queda de 20,3%. Os papéis passaram de R$ 24,03 no fechamento de 28 de outubro para R$ 19,14 em 13 de novembro."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "“Com base nos dados recebidos pelo nosso diretor de lançamento, confirmamos que o veículo Vulcan, lançado do Complexo de Lançamento Espacial 41, sofreu uma anomalia 10 minutos após o início do voo e não conseguiu levar a missão Amazon à órbita” , declarou. A companhia disse que “ainda não tem dados específicos para entender o que aconteceu” ."
+            "resposta": "O número de investidores brasileiros com BDRs da Nvidia era de cerca de 74,7 mil pessoas físicas ao fim de outubro, segundo dados da B3."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A Amazon afirmou que o episódio faz parte dos riscos de operações inaugurais. “Qualquer lançamento envolve riscos, e isso é especialmente verdadeiro para missões inaugurais como a LV-01” , disse a gigante de tecnologia, em nota."
+            "resposta": "Além do desempenho das ações, quem investe nesses certificados também está exposto às variações do câmbio , que tem apresentado maior volatilidade desde o segundo turno das eleições presidenciais. Como o dólar subiu nesse intervalo, o investidor brasileiro teve uma perda menor que a desvalorização da empresa em dólares, na Nasdaq."
           }
         ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/Imagem-15-11-2026-as-22.29-1200x556.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/falha-em-foguete-de-empresa-da-boeing-destroi-40-satelites-da-amazon.jpg",
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/10/17943107566af30264360f3_1794310756_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/crise-da-nvidia-afeta-investidores-brasileiros-entenda.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -193,61 +205,61 @@
       }
     },
     {
-      "id": "88899f75451d9264",
-      "titulo": "Sede do STF vai ganhar símbolo de orixá da lei e da justiça; entenda",
-      "categoria": "Justiça",
+      "id": "f2e13818361494e2",
+      "titulo": "Governo mapeia indicações pendentes e reforçará negociação com Congresso",
+      "categoria": "Política Nacional",
       "radar": null,
       "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/politica/sede-do-stf-vai-ganhar-simbolo-de-orixa-da-lei-e-da-justica-entenda/",
-      "dataFonte": "2026-11-15T22:41:28.000Z",
-      "resumoFonte": "Inauguração da peça ocorre na próxima terça-feira, a três dias do Dia da Consciência Negra",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportDomesticNews/tagreuters.com2025binary_LYNXNPEL8B0NG-BASEIMAGE.jpg?w=800&h=534&crop=1",
-      "descobertaEm": "2026-11-15T23:18:45.331Z",
+      "urlFonte": "https://www.cnnbrasil.com.br/politica/governo-mapeia-indicacoes-pendentes-e-reforcara-negociacao-com-congresso/",
+      "dataFonte": "2026-11-16T03:00:56.000Z",
+      "resumoFonte": "Planalto conta que 26 cadeiras em agências reguladoras e autarquias estarão vagas até o fim do ano e tenta aproveitar atual composição do Legislativo para aprovar nomes",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/CONGRESSO-NACIONAL-04-08-26-e1789075570748.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-16T03:18:48.897Z",
       "reportagem": {
-        "titulo": "Sede do STF vai ganhar símbolo de orixá da lei e da justiça; entenda",
-        "slug": "sede-do-stf-vai-ganhar-simbolo-de-orixa-da-lei-e-da-justica-entenda",
-        "categoria": "Justiça",
-        "data": "2026-11-15",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/sede-do-stf-vai-ganhar-simbolo-de-orixa-da-lei-e-da-justica-entenda.jpg",
-        "resumo": "Inauguração da peça ocorre na próxima terça-feira, a três dias do Dia da Consciência Negra",
-        "conteudo": "<p>O STF ( Supremo Tribunal Federal ) terá em seu Salão Nobre, a partir da próxima terça-feira (17), um símbolo da justiça na tradição yorubá, o Oxê de Xangô .</p><h2>O contexto da decisão judicial</h2><p>Trata-se de um machado com lâminas nas duas pontas, simbolizando a igualdade no julgamento, sem favorecer um lado em detrimento de outro . O Oxê é envergado por Xangô, orixá da lei e da justiça nas religiões de matriz africana.</p><p>A inauguração da peça ocorre a três dias do Dia da Consciência Negra, celebrado em 20 de novembro . A iniciativa é da Secretaria de Equidade, Diversidade e Inclusão do STF, em atendimento ao pedido do Idafro ( Instituto de Defesa dos Direitos das Religiões Afro-Brasileiras ).</p><p>O instituto fez a solicitação em fevereiro de 2025, após o próprio STF decidir que a presença de símbolos religiosos, como imagens e crucifixos, em prédios e órgãos públicos não fere o princípio da neutralidade estatal em relação às religiões, nem a liberdade de crença das pessoas.</p><h2>Detalhes e consequências do caso</h2><p>O julgamento ocorreu em novembro de 2024, após um recurso do Ministério Público Federal pedir a retirada de todos os símbolos religiosos nesse tipo de instalação, entendendo ferir a laicidade do Estado .</p><p>Por unanimidade, à época, a Corte entendeu que a Constituição protege a liberdade religiosa e que a presença de símbolos religiosos faz parte da história da formação do país .</p><p>O próprio Plenário da Corte tem, pendurada na parede, atrás da cadeira do presidente, uma cruz comumente usada na fé católica.</p><p>&quot;Pluralismo é um princípio constitucional que requer concretude, ação prática e não somente discurso, retórica.</p><p>Felizmente o Presidente Edson Fachin soube compreender, como de hábito, a relevância da reivindicação coletiva dos povos de terreiro e do povo preto&quot;, frisou o presidente do Idafro, Hédio Silva Júnior</p><p>Para o presidente do Idafro, a instalação do Oxê é o símbolo do compromisso do STF com a promoção da igualdade racial , e a valorização da diversidade &quot;como vetores imprescindíveis para que as decisões do Judiciário não reproduzam ideologias ou preferências raciais de julgadores&quot;.</p><p>No entendimento do presidente do Cedra (Centro de Estudos e Dados Sobre Desigualdades Raciais), Hélio dos Santos , a presença do Oxê de Xangô no prédio do STF é o &quot;encontro com o ideal de justiça&quot;.</p><p>Ele entende que não é apenas um gesto simbólico da Corte máxima do Poder Judiciário.</p><p>&quot;Estou muito feliz com essa iniciativa. Pra mim, esse ato vai além do simbolismo, ele consolida uma possibilidade de a gente levar a questão racial para um outro patamar.&quot;</p><p>Na visão dele, a inauguração da escultura consolida uma decisão da Corte de dezembro do ano passado. Na ocasião, o Supremo reconheceu a existência de racismo estrutural no Brasil e a ocorrência de graves violações a preceitos fundamentais.</p><p>A solenidade de inauguração da escultura acontecerá às 18h, no hall do Salão Nobre, localizado no 2º andar do edifício-sede do Supremo Tribunal Federal.</p><p>&quot;A instalação do Oxê de Xangô representa uma iniciativa de reconhecimento e valorização das tradições de matrizes africanas, contribuindo para a promoção do respeito à diversidade religiosa e cultural brasileira&quot;, disse o STF, em nota.</p><p>Estátua da Justiça em frente à sede do STF, em Brasília</p><p>O Oxê de Xangô é um símbolo de justiça na tradição do yorubá • Idafro / Divulgação</p>",
+        "titulo": "Governo mapeia indicações pendentes e reforçará negociação com Congresso",
+        "slug": "governo-mapeia-indicacoes-pendentes-e-reforcara-negociacao-com-congresso",
+        "categoria": "Política Nacional",
+        "data": "2026-11-16",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/governo-mapeia-indicacoes-pendentes-e-reforcara-negociacao-com-congresso.jpg",
+        "resumo": "Planalto conta que 26 cadeiras em agências reguladoras e autarquias estarão vagas até o fim do ano e tenta aproveitar atual composição do Legislativo para aprovar nomes",
+        "conteudo": "<p>O governo do presidente Luiz Inácio Lula da Silva (PT) mapeia indicações pendentes para agências reguladoras e autarquias e planeja reforçará sua articulação junto ao Congresso Nacional para viabilizá-las já nos próximos dias, segundo fontes na gestão federal.</p><h2>O contexto do cenário político</h2><p>Segundo o mapeamento do governo, há 19 cadeiras vazias, com indicações pendentes, enquanto outras 7 vagas abrirão até o fim de 2026.</p><p>O levantamento considera, além de agências reguladoras, cadeiras no Cade (Conselho Administrativo de Defesa Econômica) e na CVM (Comissão de Valores Mobiliários).</p><p>Articuladores do Palácio do Planalto esperam conversas com a cúpula do Congresso para definir estratégias. Com o calendário apertado, Lula deve precisar definir cadeiras prioritárias ou mesmo focar em vagas abertas há mais tempo.</p><h2>Informações e repercussões do episódio</h2><p>O Planalto acelera suas indicações em uma tentativa de aproveitar a atual composição do Congresso – sob a avaliação de que o Legislativo eleito em outubro será mais “hostil” ao Executivo.</p><p>Lula também deve enviar nas próximas semanas suas indicações para cadeiras vagas no BC (Banco Central) e STF (Supremo Tribunal Federal).</p><p>Enquanto as cadeiras para agências e autarquias envolvem também acordos com congressistas e partidos, de olho na governabilidade, as vagas no BC e no STF são alvos de disputas internas na gestão federal.</p><p>Após ser reeleito, Lula sinalizou a aliados próximos o desejo de insistir na indicação do AGU (advogado-geral da União), Jorge Messias, para a cadeira deixada por Luís Roberto Barroso.</p><p>De acordo com articuladores, contudo, o nome de Messias segue não pacificado junto ao Senado Federal. Diante do cenário, parlamentares aliados e integrantes do Planalto pedem um nome que tenha a aceitação junto às lideranças e ao presidente da Casa, Davi Alcolumbre (União-AP).</p><p>Já o BC tem hoje duas cadeiras vagas: Política Econômica e de Organização do Sistema Financeiro e de Resolução. As posições são alvos de disputas no entorno de Lula, com alas que defendem nomes heterodoxos e mais “pró-mercado.</p>",
         "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/politica/sede-do-stf-vai-ganhar-simbolo-de-orixa-da-lei-e-da-justica-entenda/",
+        "fonteUrl": "https://www.cnnbrasil.com.br/politica/governo-mapeia-indicacoes-pendentes-e-reforcara-negociacao-com-congresso/",
         "fontesAdicionais": [
           {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
           },
           {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O STF ( Supremo Tribunal Federal ) terá em seu Salão Nobre, a partir da próxima terça-feira (17), um símbolo da justiça na tradição yorubá, o Oxê de Xangô ."
+            "resposta": "O governo do presidente Luiz Inácio Lula da Silva (PT) mapeia indicações pendentes para agências reguladoras e autarquias e planeja reforçará sua articulação junto ao Congresso Nacional para viabilizá-las já nos próximos dias, segundo fontes na gestão federal."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Trata-se de um machado com lâminas nas duas pontas, simbolizando a igualdade no julgamento, sem favorecer um lado em detrimento de outro . O Oxê é envergado por Xangô, orixá da lei e da justiça nas religiões de matriz africana."
+            "resposta": "Segundo o mapeamento do governo, há 19 cadeiras vazias, com indicações pendentes, enquanto outras 7 vagas abrirão até o fim de 2026."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A inauguração da peça ocorre a três dias do Dia da Consciência Negra, celebrado em 20 de novembro . A iniciativa é da Secretaria de Equidade, Diversidade e Inclusão do STF, em atendimento ao pedido do Idafro ( Instituto de Defesa dos Direitos das Religiões Afro-Brasileiras )."
+            "resposta": "O levantamento considera, além de agências reguladoras, cadeiras no Cade (Conselho Administrativo de Defesa Econômica) e na CVM (Comissão de Valores Mobiliários)."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "O instituto fez a solicitação em fevereiro de 2025, após o próprio STF decidir que a presença de símbolos religiosos, como imagens e crucifixos, em prédios e órgãos públicos não fere o princípio da neutralidade estatal em relação às religiões, nem a liberdade de crença das pessoas."
+            "resposta": "Articuladores do Palácio do Planalto esperam conversas com a cúpula do Congresso para definir estratégias. Com o calendário apertado, Lula deve precisar definir cadeiras prioritárias ou mesmo focar em vagas abertas há mais tempo."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O julgamento ocorreu em novembro de 2024, após um recurso do Ministério Público Federal pedir a retirada de todos os símbolos religiosos nesse tipo de instalação, entendendo ferir a laicidade do Estado ."
+            "resposta": "O Planalto acelera suas indicações em uma tentativa de aproveitar a atual composição do Congresso – sob a avaliação de que o Legislativo eleito em outubro será mais “hostil” ao Executivo."
           }
         ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportDomesticNews/tagreuters.com2025binary_LYNXNPEL8B0NG-BASEIMAGE.jpg?w=800&h=534&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/sede-do-stf-vai-ganhar-simbolo-de-orixa-da-lei-e-da-justica-entenda.jpg",
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/CONGRESSO-NACIONAL-04-08-26-e1789075570748.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/governo-mapeia-indicacoes-pendentes-e-reforcara-negociacao-com-congresso.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -373,66 +385,6 @@
       }
     },
     {
-      "id": "9f339d0395c4ebde",
-      "titulo": "Crise da Nvidia afeta investidores brasileiros; entenda",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://www1.folha.uol.com.br/mercado/2026/11/crise-da-nvidia-afeta-investidores-brasileiros-entenda.shtml",
-      "dataFonte": "2026-11-16T02:00:00.000Z",
-      "resumoFonte": "A crise envolvendo Jensen Huang, cofundador e então CEO da Nvidia, provocou perdas nas ações da fabricante de chips e levantou questionamentos sobre os efeitos para investidores expostos à companhia, inclusive no Brasil.",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/10/17943107566af30264360f3_1794310756_3x2_rt.jpg",
-      "descobertaEm": "2026-11-16T02:18:05.749Z",
-      "reportagem": {
-        "titulo": "Crise da Nvidia afeta investidores brasileiros; entenda",
-        "slug": "crise-da-nvidia-afeta-investidores-brasileiros-entenda",
-        "categoria": "Tecnologia",
-        "data": "2026-11-15",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/crise-da-nvidia-afeta-investidores-brasileiros-entenda.jpg",
-        "resumo": "BDRs da fabricante acumulam queda de 20,3% desde a revelação do caso",
-        "conteudo": "<p>A crise envolvendo Jensen Huang , cofundador e então CEO da Nvidia , provocou perdas nas ações da fabricante de chips e levantou questionamentos sobre os efeitos para investidores expostos à companhia, inclusive no Brasil.</p><h2>Os números do levantamento</h2><p>As perdas para e empresa foram expressivas. Segundo levantamento da Elos Ayta, a Nvidia perdeu US$ 493 bilhões em valor de mercado entre 6 e 12 de novembro.</p><p>Considerando a máxima de 29 de outubro, quando a companhia ainda valia mais de US$ 5 trilhões , a perda acumulada chegou a US$ 1,144 trilhão, valor superior em cerca de 31% à soma de todas as empresas listadas na B3 , estimada em US$ 873 bilhões.</p><p>Desde o início da crise, em 29 de outubro, os BDRs da Nvidia (NVDC34), certificados que permitem negociar na B3 as ações da empresa, acumulam queda de 20,3%. Os papéis passaram de R$ 24,03 no fechamento de 28 de outubro para R$ 19,14 em 13 de novembro.</p><h2>Impactos e informações adicionais</h2><p>O número de investidores brasileiros com BDRs da Nvidia era de cerca de 74,7 mil pessoas físicas ao fim de outubro, segundo dados da B3.</p><p>Além do desempenho das ações, quem investe nesses certificados também está exposto às variações do câmbio , que tem apresentado maior volatilidade desde o segundo turno das eleições presidenciais.</p><p>Como o dólar subiu nesse intervalo, o investidor brasileiro teve uma perda menor que a desvalorização da empresa em dólares, na Nasdaq.</p><p>Por lá, os papéis da companhia recuaram 28,5%, de US$ 227,83 para US$ 162,85 no mesmo intervalo.</p><p>O movimento ocorreu em meio à pressão já existente sobre o mercado de tecnologia e inteligência artificial nos EUA. As ações do setor também recuaram após a vitória democrata no país ampliar os receios sobre um possível aumento da regulamentação do segmento.</p><p>A exposição à Nvidia, no entanto, não se limita aos investidores que compraram seus BDRs ou ações diretamente no exterior.</p><p>A companhia também tem participação relevante em fundos e ETFs que replicam índices internacionais, o que faz com que brasileiros possam sentir os efeitos de uma queda mesmo sem ter comprado diretamente papéis da companhia.</p><p>Segundo João Vitor Saccardo, diretor de renda variável da Convexa Investimentos, entre os ETFs negociados no Brasil com exposição à Nvidia estão CHIP11, USTK11 e UTEC11, nos quais a fabricante representa aproximadamente 17% da carteira.</p><p>Saccardo também diz que uma eventual redução dos investimentos em inteligência artificial pode afetar outras empresas da cadeia, como TSMC, Micron, SK Hynix e Broadcom. Por outro lado, uma perda de participação de mercado da Nvidia poderia beneficiar concorrentes, como a AMD .</p><p>Para o investidor, o especialista recomenda verificar o peso total da Nvidia na carteira e a eventual sobreposição entre ETFs.</p><p>Quem investe em produtos que acompanham a Nasdaq e o S&amp;P 500, por exemplo, pode ter uma exposição maior à companhia do que imagina.</p><p>Uma redução da posição pode fazer sentido se ela ultrapassar o limite definido pelo próprio investidor, mas também é importante avaliar se houve uma piora nos fundamentos da empresa.</p><p>William Castro Alves, estrategista-chefe da Avenue, diz que os problemas envolvendo a liderança da Nvidia não devem comprometer toda a cadeia de inteligência artificial.</p><p>Segundo ele, os resultados de empresas do setor indicam que a demanda por tecnologia e os investimentos seguem fortes.</p><p>O especialista afirma que o cenário é diferente do de uma bolha , pois as grandes empresas já conseguem gerar receitas com a tecnologia, e não dependem apenas de expectativas futuras.</p><p>João Arthur, diretor de investimentos da Suno Consultoria, afirma que a diversificação do investidor na compra de índices também ajuda a amortecer o impacto de uma desvalorização concentrada em uma única companhia.</p><p>Para Arthur, a saída de Huang representa a materialização do chamado risco de pessoa-chave, quando os negócios de uma empresa estão fortemente associados à atuação de um executivo específico.</p><p>A mudança na liderança, no entanto, não significa necessariamente uma piora na companhia.</p><p>O especialista compara o caso ao da Apple após a saída de Steve Jobs. A empresa perdeu a figura associada à sua visão de negócios, mas continuou crescendo sob a gestão de Tim Cook .</p><p>Arthur avalia que a Nvidia também pode continuar gerando valor sem Huang à frente.</p><p>Embora perca parte da identidade ligada ao fundador, isso não significa que seu negócio ou sua tese de investimento deixem de fazer sentido.</p><p>Vinícius Bazan, CEO da Underblock, também avalia que a queda recente das ações reflete principalmente uma crise de confiança e a reação a notícias negativas, e não necessariamente uma revisão dos fundamentos da Nvidia.</p><p>Para ele, embora o avanço acelerado da inteligência artificial desperte receios de uma bolha, o cenário atual é diferente, pois o crescimento está concentrado em grandes empresas, com negócios com capacidade de gerar valor.</p><p>A crise envolvendo Jensen Huang , cofundador e então CEO da Nvidia , provocou perdas nas ações da fabricante de chips e levantou questionamentos sobre os efeitos para investidores expostos à companhia, inclusive no Brasil.</p><p>As perdas para e empresa foram expressivas. Segundo levantamento da Elos Ayta, a Nvidia perdeu US$ 493 bilhões em valor de mercado entre 6 e 12 de novembro.</p><p>Considerando a máxima de 29 de outubro, quando a companhia ainda valia mais de US$ 5 trilhões , a perda acumulada chegou a US$ 1,144 trilhão, valor superior em cerca de 31% à soma de todas as empresas listadas na B3 , estimada em US$ 873 bilhões.</p>",
-        "fonteNome": "UOL Notícias",
-        "fonteUrl": "https://www1.folha.uol.com.br/mercado/2026/11/crise-da-nvidia-afeta-investidores-brasileiros-entenda.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
-          },
-          {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A crise envolvendo Jensen Huang , cofundador e então CEO da Nvidia , provocou perdas nas ações da fabricante de chips e levantou questionamentos sobre os efeitos para investidores expostos à companhia, inclusive no Brasil."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "As perdas para e empresa foram expressivas. Segundo levantamento da Elos Ayta, a Nvidia perdeu US$ 493 bilhões em valor de mercado entre 6 e 12 de novembro."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Desde o início da crise, em 29 de outubro, os BDRs da Nvidia (NVDC34), certificados que permitem negociar na B3 as ações da empresa, acumulam queda de 20,3%. Os papéis passaram de R$ 24,03 no fechamento de 28 de outubro para R$ 19,14 em 13 de novembro."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O número de investidores brasileiros com BDRs da Nvidia era de cerca de 74,7 mil pessoas físicas ao fim de outubro, segundo dados da B3."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Além do desempenho das ações, quem investe nesses certificados também está exposto às variações do câmbio , que tem apresentado maior volatilidade desde o segundo turno das eleições presidenciais. Como o dólar subiu nesse intervalo, o investidor brasileiro teve uma perda menor que a desvalorização da empresa em dólares, na Nasdaq."
-          }
-        ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/10/17943107566af30264360f3_1794310756_3x2_rt.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/crise-da-nvidia-afeta-investidores-brasileiros-entenda.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
       "id": "42787cffe43d5738",
       "titulo": "Jensen Huang discute volta ao comando da Nvidia com aliados, diz “FT”",
       "categoria": "Tecnologia",
@@ -548,66 +500,6 @@
         ],
         "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Daio-e1794795521390.jpg?w=1080&h=630&crop=1",
         "imagemX": "https://noticiaes.com.br/imagens/lapis/morre-ex-jogador-dino-sani-campeao-da-copa-do-mundo-de-1958.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "5cd04ec5efcfd6c4",
-      "titulo": "Morre aos 94 Dino Sani, destaque no futebol brasileiro nos anos 50 e 60",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://www1.folha.uol.com.br/esporte/2026/11/morre-aos-94-dino-sani-destaque-no-futebol-brasileiro-nos-anos-50-e-60.shtml",
-      "dataFonte": "2026-11-16T01:22:00.000Z",
-      "resumoFonte": "",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/15/17947889356afa4e47c986e_1794788935_3x2_xl.jpg",
-      "descobertaEm": "2026-11-16T02:48:51.793Z",
-      "reportagem": {
-        "titulo": "Dino Sani (1932 - 2026) - Morre aos 94 Dino Sani, destaque no futebol brasileiro nos anos 50 e 60",
-        "slug": "dino-sani-1932-2026-morre-aos-94-dino-sani-destaque-no-futebol-brasileiro-nos-anos-50-e-60",
-        "categoria": "Esporte",
-        "data": "2026-11-15",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/dino-sani-1932-2026-morre-aos-94-dino-sani-destaque-no-futebol-brasileiro-nos-anos-50-e-60.jpg",
-        "resumo": "Volante integrou o elenco que venceu a Copa de 1958, primeiro Mundial da seleção brasileira",
-        "conteudo": "<p>Um volante elegante que jogue com a cabeça erguida, erre poucos passes, não faça faltas para desarmar os adversários e saiba chutar bem de longa distância.</p><h2>As informações principais do assunto</h2><p>Este é o perfil ideal de um camisa 5 que o futebol brasileiro tem procurado nos últimos anos, depois que a posição virou sinônimo de brucutus.</p><p>Mas o futebol brasileiro, nos anos 1950 e 1960, teve em Dino Sani , morto neste domingo (15) aos 94 anos, a melhor tradução do volante técnico que todos nós procuramos —e que é tão difícil achar. A morte do jogador foi anunciada pela CBF (Confederação Brasileira de Futebol).</p><p>Dino Sani nasceu em 23 de maio de 1932 em São Paulo e já na adolescência mostrava talento nos campos de várzea no eixo Perdizes, Pompeia e Sumaré. Logo, atuando como meia, ele chegou às categorias de base do Palmeiras .</p><h2>Contexto e informações complementares</h2><p>Tratado como uma das promessas do time, o jogador foi emprestado ao XV de Jaú, clube do interior de São Paulo, para ganhar experiência.</p><p>Na volta para o time da capital, não conseguiu lugar na equipe principal e, depois de ser pouco aproveitado —jogou apenas 15 partidas como profissional—, foi vendido para o Comercial, clube extinto da capital paulista.</p><p>Destaque durante dois anos na modesta equipe paulistana, foi contratado pelo São Paulo em 1954.</p><p>Apesar do grande talento, de ser sempre tratado como uma das promessas do nosso futebol e de já ter passagens pela seleção brasileira, faltava alguma coisa para que Dino realmente explodisse. O salto aconteceu quando o São Paulo contratou o técnico húngaro Béla Guttmann .</p><p>O treinador percebeu que faltava velocidade para Dino atuar como meia —muitas vezes, ele atuava de costas para os marcadores— e o transformou em volante. Jogando com ampla visão do campo, Dino finalmente começou a ser tratado como um craque.</p><p>Com os seus passes perfeitos, ele começava todas as jogadas ofensivas do clube e, tendo mais espaço, aparecia sempre para finalizar.</p><p>Na marcação, se não tinha velocidade para acompanhar os adversários, tinha o tempo perfeito para fazer a antecipação e tomar a bola —ou seja, desarmava antes que a bola chegasse ao inimigo.</p><p>Já na nova função, ele foi um dos destaques da equipe do São Paulo que levantou a taça do Campeonato Paulista de 1957 —o clube só seria vencedor de novo do Estadual em 1970—, fazendo dupla de meio-campo com o genial Zizinho.</p><p>O desempenho na nova posição transformou Dino em titular da seleção brasileira que disputou a Copa do Mundo de 1958 .</p><p>Na campanha que deu ao Brasil o seu primeiro título Mundial, ele foi titular nas duas primeiras partidas: a vitória contra a Áustria por 3 a 0 e o empate sem gols com a Inglaterra.</p><p>Dino acabou perdendo o lugar na equipe na terceira partida, contra a então URSS (União das Repúblicas Socialistas Soviéticas). A troca por Zito ainda hoje gera polêmica.</p><p>Uma versão diz que alguns jogadores teriam sugerido ao técnico Vicente Feola que colocasse Zito na equipe porque ele era um volante que marcava melhor e daria mais segurança à equipe.</p><p>Já Dino fazia questão de lembrar que só saiu porque se contundiu no último treino antes da partida contra os soviéticos e não teve mais como participar da Copa.</p><p>Como prova disso, sempre dizia que, no retorno ao Brasil, passou um bom tempo se recuperando antes de voltar a vestir a camisa do São Paulo.</p><p>O fato é que, com Zito, o Brasil embalou, ganhou da URSS por 2 a 0 e, com mais três vitórias —contra o País de Gales (1 a 0), a França (5 a 2) e a Suécia (5 a 2)— conquistou a Taça Jules Rimet.</p><p>Em 1961, depois de uma passagem pelo Boca Juniors (Argentina), Dino chegou ao Milan. Logo na estreia, o já calvo e baixo volante, que muitos torcedores italianos ousaram chamar de velho, mostrou todo o seu potencial e comandou o time em uma goleada sobre a Juventus.</p><p>Junto com craques como Maldini e Rivera, Dino ajudou o time de Milão, ao conquistar o título italiano em 1962, a Copa dos Campeões um ano depois, com uma vitória sobre o Benfica.</p><p>Nesta final, o Maestro, um dos apelidos que recebeu dos torcedores, mostrou que seria um grande técnico.</p><p>Com o time perdendo, Dino, como um técnico dentro do gramado, fez várias mudanças no posicionamento dos companheiros —a equipe conseguiu a virada e venceu por 2 a 1.</p><p>Ídolo da torcida, tido até hoje como um dos principais jogadores da história do Milan, Dino voltou ao Brasil em 1965 para atuar no Corinthians .</p><p>Já veterano, fez sucesso no time, que sofria por não conseguir ganhar o Campeonato Paulista.</p><p>A revelação Rivellino, o chamado \"Reizinho do Parque\", até hoje é grato pelos conselhos que Dino lhe deu no início da carreira e reverencia o volante como um dos grandes craques do nosso futebol.</p><p>Em 1968, Dino iniciou a carreira como técnico. Também teve grande sucesso como treinador e ganhou inúmeros títulos no Brasil e no exterior. Entre os seus grandes trabalhos, se destaca o tempo que ficou no Internacional.</p><p>Além de conseguir o tricampeonato do Campeonato Gaúcho (1971, 72 e 73) e montar a base do time que foi bicampeão brasileiro (1975 e 76), o treinador revelou Falcão, um volante tão estiloso e craque como ele.</p>",
-        "fonteNome": "UOL Notícias",
-        "fonteUrl": "https://www1.folha.uol.com.br/esporte/2026/11/morre-aos-94-dino-sani-destaque-no-futebol-brasileiro-nos-anos-50-e-60.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Um volante elegante que jogue com a cabeça erguida, erre poucos passes, não faça faltas para desarmar os adversários e saiba chutar bem de longa distância. Este é o perfil ideal de um camisa 5 que o futebol brasileiro tem procurado nos últimos anos, depois que a posição virou sinônimo de brucutus."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Mas o futebol brasileiro, nos anos 1950 e 1960, teve em Dino Sani , morto neste domingo (15) aos 94 anos, a melhor tradução do volante técnico que todos nós procuramos —e que é tão difícil achar. A morte do jogador foi anunciada pela CBF (Confederação Brasileira de Futebol)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Dino Sani nasceu em 23 de maio de 1932 em São Paulo e já na adolescência mostrava talento nos campos de várzea no eixo Perdizes, Pompeia e Sumaré. Logo, atuando como meia, ele chegou às categorias de base do Palmeiras . Tratado como uma das promessas do time, o jogador foi emprestado ao XV de Jaú, clube do interior de São Paulo, para ganhar experiência."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Na volta para o time da capital, não conseguiu lugar na equipe principal e, depois de ser pouco aproveitado —jogou apenas 15 partidas como profissional—, foi vendido para o Comercial, clube extinto da capital paulista. Destaque durante dois anos na modesta equipe paulistana, foi contratado pelo São Paulo em 1954."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Apesar do grande talento, de ser sempre tratado como uma das promessas do nosso futebol e de já ter passagens pela seleção brasileira, faltava alguma coisa para que Dino realmente explodisse. O salto aconteceu quando o São Paulo contratou o técnico húngaro Béla Guttmann ."
-          }
-        ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/15/17947889356afa4e47c986e_1794788935_3x2_xl.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/dino-sani-1932-2026-morre-aos-94-dino-sani-destaque-no-futebol-brasileiro-nos-anos-50-e-60.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -803,153 +695,21 @@
       "resumoFonte": "O rubro-negro visitou o Internacional, neste domingo, e amargou a derrota no Beira-Rio. Segundo Cristiane, atletas jogaram lesionadas",
       "imagem": "https://i.metroimg.com/iWm-2xXgs8I4QlXJbAu7GotwanuGe3FHTSqSjnDqXOs/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/cristiane-rozeira.png",
       "descobertaEm": "2026-11-16T00:18:21.937Z"
-    },
-    {
-      "id": "bc45b4c65a7412bc",
-      "titulo": "Brasil encerra Grand Prix de Judô em 1º lugar no quadro de medalhas",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/esporte/brasil-encerra-grand-prix-de-judo-em-1o-lugar-no-quadro-de-medalhas/",
-      "dataFonte": "2026-11-15T23:17:14.000Z",
-      "resumoFonte": "Foram um bronze e quatro ouros, dois deles conquistados neste domingo",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2024/08/000_368Y29F.jpg.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-15T23:18:45.331Z"
-    },
-    {
-      "id": "8b7a7926efecb410",
-      "titulo": "Confira os resultados da terceira rodada da Copa Paraíba 2026",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/esportes/confira-os-resultados-da-terceira-rodada-da-copa-paraiba-2026",
-      "dataFonte": "2026-11-15T23:09:25.000Z",
-      "resumoFonte": "Com transmissão do Metrópoles Esportes, três confrontos foram disputados neste fim de semana. Treze lidera a competição com sete pontos",
-      "imagem": "https://i.metroimg.com/ap47E6Qtbyu-cVWEYk02YLsc_II7apXGU4TU-uDK5SM/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/copa-paraiba.png",
-      "descobertaEm": "2026-11-15T23:18:45.331Z",
-      "reportagem": {
-        "titulo": "Confira os resultados da terceira rodada da Copa Paraíba 2026",
-        "slug": "confira-os-resultados-da-terceira-rodada-da-copa-paraiba-2026",
-        "categoria": "Esporte",
-        "data": "2026-11-15",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/confira-os-resultados-da-terceira-rodada-da-copa-paraiba-2026.jpg",
-        "resumo": "Com transmissão do Metrópoles Esportes, três confrontos foram disputados neste fim de semana. Treze lidera a competição com sete pontos",
-        "conteudo": "<p>A terceira rodada da Copa Paraíba 2026 foi disputada neste fim de semana. A abertura dos confrontos ocorreu no sábado (14/11), com vitória do Nacional.</p><h2>As informações principais do assunto</h2><p>Já neste domingo (15/11), o Treze venceu o clássico diante do Campinense, enquanto o Atlético Cajazeiras derrotou o Esporte de Patos.</p><p>A Copa Paraíba 2026 é transmitida ao vivo e com imagens no canal do Metrópoles Esportes no YouTube .</p><p>Na primeira partida, o Nacional de Patos visitou o Serra Branca no Estádio Amigão e venceu por 1 x 0, gol de Estevam.</p><h2>Contexto e informações complementares</h2><p>No clássico entre Campinense e Treze, os visitantes saíram vitoriosos por 2 x 1.</p><p>No encerramento da rodada, o Atlético Cajazeiras superou o Esporte de Patos por 1 x 0, gol de Esquerdinha.</p><p>Com os resultados, o Treze lidera a competição com sete pontos. Serra Branca, Campinense, Nacional e Atlético Cajazeiras aparecem na sequência, com quatro pontos. O Esporte de Patos está na lanterna.</p><p>Resultados da rodada: o Nacional venceu o Serra Branca por 1 x 0, o Treze ganhou do Campinense por 2 x 1 e o Atlético Cajazeiras superou o Esporte de Patos por 1 x 0; Classificação atual: o Treze lidera a Copa Paraíba 2026 com sete pontos, seguido por Serra Branca, Campinense, Nacional e Atlético Cajazeiras, todos com quatro pontos, enquanto o Esporte de Patos ocupa a lanterna; Transmissão esportiva: a competição é transmitida pelo canal do Youtube do Metrópoles Esportes.</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/esportes/confira-os-resultados-da-terceira-rodada-da-copa-paraiba-2026",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A terceira rodada da Copa Paraíba 2026 foi disputada neste fim de semana. A abertura dos confrontos ocorreu no sábado (14/11), com vitória do Nacional. Já neste domingo (15/11), o Treze venceu o clássico diante do Campinense, enquanto o Atlético Cajazeiras derrotou o Esporte de Patos."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A Copa Paraíba 2026 é transmitida ao vivo e com imagens no canal do Metrópoles Esportes no YouTube ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na primeira partida, o Nacional de Patos visitou o Serra Branca no Estádio Amigão e venceu por 1 x 0, gol de Estevam."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "No clássico entre Campinense e Treze, os visitantes saíram vitoriosos por 2 x 1."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "No encerramento da rodada, o Atlético Cajazeiras superou o Esporte de Patos por 1 x 0, gol de Esquerdinha."
-          }
-        ],
-        "imagemOriginal": "https://i.metroimg.com/ap47E6Qtbyu-cVWEYk02YLsc_II7apXGU4TU-uDK5SM/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/copa-paraiba.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/confira-os-resultados-da-terceira-rodada-da-copa-paraiba-2026.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "ca742d89d3303d3d",
-      "titulo": "Ronaldinho Gaúcho quebra o silêncio após retorno aos gramados; veja",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil - Capa",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/futebol-italiano/ronaldinho-gaucho-quebra-o-silencio-apos-retorno-aos-gramados-veja/",
-      "dataFonte": "2026-11-15T23:02:18.000Z",
-      "resumoFonte": "Após 11 anos, Bruxo começou como titular no confronto entre Ravenna x Forlì e jogou por 47 minutos; na publicação, ele afirmou &quot;nos vemos em breve&quot;",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Ronaldinho_retorno.webp?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-15T23:21:15.162Z",
-      "reportagem": {
-        "titulo": "Ronaldinho Gaúcho quebra o silêncio após retorno aos gramados; veja",
-        "slug": "ronaldinho-gaucho-quebra-o-silencio-apos-retorno-aos-gramados-veja",
-        "categoria": "Esporte",
-        "data": "2026-11-15",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/ronaldinho-gaucho-quebra-o-silencio-apos-retorno-aos-gramados-veja.jpg",
-        "resumo": "Após 11 anos, Bruxo começou como titular no confronto entre Ravenna x Forlì e jogou por 47 minutos; na publicação, ele afirmou &quot;nos vemos em breve&quot;",
-        "conteudo": "<p>Após 11 anos, o astro Ronaldinho Gaúcho voltou a jogador futebol profissionalmente neste domingo (15).</p><h2>As informações principais do assunto</h2><p>O eterno R10 começou entre os titulares do Ravenna diante do Forlì, em partida válida pela 14ª rodada da Série C do Campeonato Italiano e saiu com a vitória por 2 a 0 .</p><p>Ao final da partida, o &quot;Bruxo&quot; fez uma publicação nas redes sociais relatando o momento especial na carreira. Ele deixou o futuro em aberto e afirmou &quot;nos vemos em breve família&quot;. Veja abaixo.</p><p>Há poucos meses, o Ravenna anunciou a contratação do astro brasileiro e seu retorno aos gramados. Além de atuar como jogador , Ronaldinho também será acionista da equipe.</p><h2>Contexto e informações complementares</h2><p>O pentacampeão mundial com a Seleção Brasileira terá papel importante no projeto do clube de alcançar a Série A, a primeira divisão do Campeonato Italiano, pela primeira vez em sua história.</p><p>A transmissão de Ravenna x Forlì foi realizada pela CNN Brasil em parceria com a Itatiaia. A partida foi exibida ao vivo, com imagens, no YouTube do CNN Esportes.</p><p>Ronaldinho fez uma publicação nas suas redes sociais</p><p>Após 11 anos, o astro Ronaldinho Gaúcho voltou a jogador futebol profissionalmente neste domingo (15).</p><p>O eterno R10 começou entre os titulares do Ravenna diante do Forlì, em partida válida pela 14ª rodada da Série C do Campeonato Italiano e saiu com a vitória por 2 a 0 .</p><p>Ao final da partida, o &quot;Bruxo&quot; fez uma publicação nas redes sociais relatando o momento especial na carreira. Ele deixou o futuro em aberto e afirmou &quot;nos vemos em breve família&quot;. Veja abaixo.</p>",
-        "fonteNome": "CNN Brasil - Capa",
-        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/futebol-italiano/ronaldinho-gaucho-quebra-o-silencio-apos-retorno-aos-gramados-veja/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Após 11 anos, o astro Ronaldinho Gaúcho voltou a jogador futebol profissionalmente neste domingo (15)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O eterno R10 começou entre os titulares do Ravenna diante do Forlì, em partida válida pela 14ª rodada da Série C do Campeonato Italiano e saiu com a vitória por 2 a 0 ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Ao final da partida, o &quot;Bruxo&quot; fez uma publicação nas redes sociais relatando o momento especial na carreira. Ele deixou o futuro em aberto e afirmou &quot;nos vemos em breve família&quot;. Veja abaixo."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Há poucos meses, o Ravenna anunciou a contratação do astro brasileiro e seu retorno aos gramados. Além de atuar como jogador , Ronaldinho também será acionista da equipe."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O pentacampeão mundial com a Seleção Brasileira terá papel importante no projeto do clube de alcançar a Série A, a primeira divisão do Campeonato Italiano, pela primeira vez em sua história."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Ronaldinho_retorno.webp?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/ronaldinho-gaucho-quebra-o-silencio-apos-retorno-aos-gramados-veja.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
     }
   ],
-  "reapuradoEm": "2026-11-16T03:09:23.435Z",
+  "reapuradoEm": "2026-11-16T03:48:43.047Z",
   "diagnosticoReapuracao": {
-    "produzidas": 15,
+    "produzidas": 11,
     "jaProntas": 0,
     "incompletas": 2,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 15,
+    "geradas": 11,
     "reaproveitadas": 0,
     "puladas": 2,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-16T03:10:28.395Z"
+  "lapisEm": "2026-11-16T03:49:31.493Z"
 }
