@@ -1,16 +1,16 @@
 {
-  "geradoEm": "2026-11-17T03:49:43.265Z",
+  "geradoEm": "2026-11-17T04:47:42.074Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 0,
     "bloqueadasEditoriais": 0,
     "semImagem": 0,
-    "duplicadasBasicas": 12,
-    "duplicadasSemanticas": 6,
-    "foraCategorias": 41
+    "duplicadasBasicas": 13,
+    "duplicadasSemanticas": 4,
+    "foraCategorias": 43
   },
-  "quantidadeCandidatas": 21,
+  "quantidadeCandidatas": 20,
   "candidatas": [
     {
       "id": "5f45303fb2862005",
@@ -217,16 +217,64 @@
       }
     },
     {
-      "id": "3afa7ba96ef427ed",
-      "titulo": "Sob a alegação de risco de a tecnologia ser desviada para a China, EUA restringem acesso do Brasil a chips avançados de IA | G1",
+      "id": "8d26402920ac9e64",
+      "titulo": "Demissão na Nvidia é briga política",
       "categoria": "Tecnologia",
       "radar": null,
-      "fonteNome": "g1 - Capa",
-      "urlFonte": "https://g1.globo.com/jornal-nacional/noticia/2026/11/16/sob-a-alegacao-de-risco-de-a-tecnologia-ser-desviada-para-a-china-eua-restringem-acesso-do-brasil-a-chips-avancados-de-ia.ghtml",
-      "dataFonte": "2026-11-17T00:55:43.092Z",
-      "resumoFonte": "Os Estados Unidos proíbem a venda direta de chips avançados de inteligência artificial para empresas e laboratórios chineses por motivos de segurança nacional.",
-      "imagem": "https://s2-g1.glbimg.com/2Z6WhmfdDwwfCQ83Xa_wq8WbxXc=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/a/GA4QV2SLA3PbRcKkmyYw/globo-canal-4-20261116-2000-frame-82659.jpeg",
-      "descobertaEm": "2026-11-17T01:20:25.692Z"
+      "fonteNome": "O Globo - Capa",
+      "urlFonte": "https://oglobo.globo.com/opiniao/pedro-doria/coluna/2026/11/demissao-na-nvidia-e-briga-politica.ghtml",
+      "dataFonte": "2026-11-17T03:05:00.951Z",
+      "resumoFonte": "Trump e o Vale do Silício estão rachados entre duas visões para o futuro da IA",
+      "imagem": "https://s2-oglobo.glbimg.com/BrWrXGfleia3AiEY7bdSwb1pl_4=/5388x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/J/x/eUpUTBRDyXszIV7VrGhA/jensen-huang-nvidia-crise.jpg",
+      "descobertaEm": "2026-11-17T04:20:32.418Z",
+      "reportagem": {
+        "titulo": "Demissão na Nvidia é briga política",
+        "slug": "demissao-na-nvidia-e-briga-politica",
+        "categoria": "Tecnologia",
+        "data": "2026-11-17",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/demissao-na-nvidia-e-briga-politica.jpg",
+        "resumo": "Trump e o Vale do Silício estão rachados entre duas visões para o futuro da IA",
+        "conteudo": "<p>O que acontece no Vale do Silício neste momento é uma briga política. Briga de gente grande, diga-se.</p><h2>Dados e contexto do setor</h2><p>A demissão do CEO da Nvidia, Jensen Huang, pelo conselho da companhia faz parecer que a disputa tem a ver com espionagem, casos extraconjugais. Tudo isso é tempero, pois a briga é outra.</p><p>Tanto o governo Donald Trump quanto o Vale do Silício estão rachados entre duas visões para o futuro da IA. Huang era o nome mais forte apontando para um lado e, para seus adversários, o mais perigoso.</p><p>Ao longo dos anos, cultivou a proximidade e a atenção do presidente. Foi abatido por isso. Ao que tudo indica, quem fez o disparo foi Marco Rubio, secretário de Estado.</p><h2>Impactos e informações adicionais</h2><p>Pacote fiscal: Relator no Senado defende rejeição de destaques e articulação para evitar mudanças na Câmara Diretor-geral: Andrei vê tentativa de 'minar credibilidade' da PF e nega racha interno</p><p>A especialidade da Nvidia são GPUs, um tipo de placa poderosa de processadores, dedicados a uso genérico.</p><p>As CPUs, coração dos computadores, são chips com vários compartimentos especializados, excelentes para aquilo de específico que computadores precisam calcular. Mas são ruins para fazer matemática pesada muito rápido.</p><p>É o que GPUs como as da Nvidia fazem de melhor. Foram criadas, inicialmente, como placas gráficas, usadas por quem gosta de videogames.</p><p>No início do século, Huang percebeu que esse tipo específico de chip se tornaria fundamental para outros cálculos, da garimpagem de criptomoedas ao treino de inteligências artificiais.</p><p>O talento dele é e sempre foi este: perceber antes de todo mundo para onde o mundo vai e apontar sua empresa na direção certa.</p><p>Huang criou faz 20 anos um conjunto de sistemas para programar com esses chips da Nvidia. Simplificam imensamente a vida de quem trabalha com sua tecnologia.</p><p>É em virtude desse legado tecnológico em que todos os programadores de IA se treinaram ao longo dos anos que a Nvidia não tem concorrentes. Ainda.</p><p>Os principais modelos de ponta, Claude (do laboratório Anthropic) e GPT (OpenAI), são todos treinados com as GPUs de Huang.</p><p>O dilema é o seguinte: qual é o negócio de IA? Hardware ou software? Se for software, essa é uma corrida em que o melhor modelo se imporá como o que todo mundo deseja. Anthropic e OpenAI estão nessa disputa.</p><p>Se for esse o futuro da indústria, permitir que a China tenha acesso aos chips de ponta, que treinam os melhores modelos, é loucura.</p><p>É entregar ao concorrente a oportunidade de brigar de igual para igual com a indústria americana.</p><p>Mas Huang, assim como muitos no Vale, consideram que o modelo será commodity. Haverá muitos. Governos terão os seus, grandes empresas também, e haverá um imenso leque para escolher.</p><p>O futuro não será de Claude, GPT ou Gemini — será de inúmeros sabores disponíveis. Nesse caso, aquilo de que ninguém pode abrir mão é o hardware.</p><p>No coração dessas máquinas, chips que treinam modelos e, depois, executam prompts para entregar respostas. Se esse é o negócio, não vender chips para a China é que é loucura.</p><p>Afinal, sem as GPUs Nvidia, a China se verá obrigada a criar os seus. Em vez de boicotar um concorrente, criará um. É o que já está acontecendo. A Huawei acelera neste momento.</p><p>Quando gente como Elon Musk ou Mark Zuckerberg assina um abaixo-assinado pedindo o retorno de Huang, a razão é essa. Seus concorrentes são OpenAI e Anthropic. Quanto mais gente comprar GPUs, mais modelos haverá, e na ampla concorrência a força dos líderes se dissolve.</p><p>Essa mesma briga se espelha em Washington. Assim como Rubio, o secretário do Tesouro, Scott Bessent, trabalha no bloqueio à China.</p><p>Enquanto o secretário de Comércio, Howard Lutnick, rejeitou por quase dois anos a pressão vinda de Bessent, Rubio e do Pentágono para incluir na lista de empresas banidas de comprar chips de ponta a Megaspeed, da namorada chinesa de Huang.</p><p>Lutnick manteve a permissão para a empresa vender. Todos estavam perfeitamente cientes do que ocorria.</p><p>Segundo o Washington Post, o relatório da CIA não crava que a executiva Alice Huang é espiã chinesa. Rubio pegou o texto cheio de poréns, resumiu-o num memorando categórico e enviou a Trump.</p><p>Depois, não se sabe por quem, o memorando vazou para a imprensa. Em uma semana, Huang caiu do comando da companhia que fundou. Nada é definitivo, pode ser que volte.</p><p>Ainda assim, a cobertura faz parecer que o debate é sobre espionagem. Não é. O debate é sobre a visão incerta do futuro dessa tecnologia revolucionária. Um debate disputado como luta de alto contato, tanto no Vale do Silício quanto em D.C.</p>",
+        "fonteNome": "O Globo - Capa",
+        "fonteUrl": "https://oglobo.globo.com/opiniao/pedro-doria/coluna/2026/11/demissao-na-nvidia-e-briga-politica.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/"
+          },
+          {
+            "nome": "MCTI",
+            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O que acontece no Vale do Silício neste momento é uma briga política. Briga de gente grande, diga-se. A demissão do CEO da Nvidia, Jensen Huang, pelo conselho da companhia faz parecer que a disputa tem a ver com espionagem, casos extraconjugais. Tudo isso é tempero, pois a briga é outra."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Pacote fiscal: Relator no Senado defende rejeição de destaques e articulação para evitar mudanças na Câmara Diretor-geral: Andrei vê tentativa de 'minar credibilidade' da PF e nega racha interno"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A especialidade da Nvidia são GPUs, um tipo de placa poderosa de processadores, dedicados a uso genérico. As CPUs, coração dos computadores, são chips com vários compartimentos especializados, excelentes para aquilo de específico que computadores precisam calcular. Mas são ruins para fazer matemática pesada muito rápido."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Huang criou faz 20 anos um conjunto de sistemas para programar com esses chips da Nvidia. Simplificam imensamente a vida de quem trabalha com sua tecnologia. É em virtude desse legado tecnológico em que todos os programadores de IA se treinaram ao longo dos anos que a Nvidia não tem concorrentes. Ainda."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O dilema é o seguinte: qual é o negócio de IA? Hardware ou software? Se for software, essa é uma corrida em que o melhor modelo se imporá como o que todo mundo deseja. Anthropic e OpenAI estão nessa disputa. Se for esse o futuro da indústria, permitir que a China tenha acesso aos chips de ponta, que treinam os melhores modelos, é loucura."
+          }
+        ],
+        "imagemOriginal": "https://s2-oglobo.glbimg.com/BrWrXGfleia3AiEY7bdSwb1pl_4=/5388x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/J/x/eUpUTBRDyXszIV7VrGhA/jensen-huang-nvidia-crise.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/demissao-na-nvidia-e-briga-politica.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
       "id": "ac4bfce98853425a",
@@ -241,73 +289,61 @@
       "descobertaEm": "2026-11-17T01:18:14.630Z"
     },
     {
-      "id": "e56299b473fe4e9c",
-      "titulo": "Caso Master completa um ano com Vorcaro preso, expectativa de denúncia e crise no STF",
+      "id": "0bf8e2032bf62316",
+      "titulo": "Conceição Evaristo defende indicação de mulher negra ao STF: \"Não estamos pedindo esmola\"",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/noticia/2026/11/17/caso-master-completa-um-ano-com-vorcaro-preso-expectativa-de-denuncia-e-crise-no-stf.ghtml",
-      "dataFonte": "2026-11-17T03:00:00.000Z",
-      "resumoFonte": "O caso Master completa um ano nesta terça-feira (17), com o banqueiro Daniel Vorcaro preso, a expectativa de uma primeira denúncia pela Procuradoria-Geral da República (PGR) e uma série de apurações ainda em andamento. O caso também avançou sobre políticos e ministros e provocou uma crise no Supremo Tribunal Federal (STF). Vorcaro está preso…",
-      "imagem": "https://s2-g1.glbimg.com/8Pdz70epO-mD9Rl65b_a5plrLNM=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/W/jvZKQ8SHuurUcBjeb97A/vorcaro.jpg",
-      "descobertaEm": "2026-11-17T03:18:15.523Z"
-    },
-    {
-      "id": "668880c25560a8af",
-      "titulo": "Aluguel sobe 9% em 12 meses, quase o dobro da inflação, aponta FipeZAP",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/minhas-financas/aluguel-sobe-9-em-12-meses-quase-o-dobro-da-inflacao-aponta-fipezap/",
-      "dataFonte": "2026-11-17T03:01:00.000Z",
-      "resumoFonte": "Foto: Unsplash \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/03/tierra-mallorca-rgJ1J8SDEAY-unsplash.jpg?fit=640%2C481&quality=70&strip=all\" />Apesar da desaceleração pelo sexto mês consecutivo, preços de locação continuam pressionando o orçamento The post Aluguel sobe 9% em 12 meses, quase o dobro da inflação, aponta…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/03/tierra-mallorca-rgJ1J8SDEAY-unsplash.jpg?fit=640%2C481&quality=70&strip=all",
-      "descobertaEm": "2026-11-17T03:18:15.523Z",
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://cultura.uol.com.br/noticias/74564_conceicao-evaristo-defende-indicacao-de-mulher-negra-ao-stf-nao-estamos-pedindo-esmola.html",
+      "dataFonte": "2026-11-17T03:38:19.000Z",
+      "resumoFonte": "No Roda Viva, escritora destaca a importância da diversidade na política e em outros espaços de poder",
+      "imagem": "https://cultura.uol.com.br/upload/tvcultura/noticias/happens_big/20261117004813_rodaviva-site-nota-16nov-7.png",
+      "descobertaEm": "2026-11-17T04:18:16.872Z",
       "reportagem": {
-        "titulo": "Aluguel sobe 9% em 12 meses, quase o dobro da inflação, aponta FipeZAP",
-        "slug": "aluguel-sobe-9-em-12-meses-quase-o-dobro-da-inflacao-aponta-fipezap",
-        "categoria": "Economia",
+        "titulo": "Concei&amp;ccedil;&amp;atilde;o Evaristo defende indica&amp;ccedil;&amp;atilde;o de mulher negra ao STF: &amp;quot;N&amp;atilde;o estamos pedindo esmola&amp;quot;",
+        "slug": "concei-amp-ccedil-amp-atilde-o-evaristo-defende-indica-amp-ccedil-amp-atilde-o-de-mulher-n",
+        "categoria": "Justiça",
         "data": "2026-11-17",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/aluguel-sobe-9-em-12-meses-quase-o-dobro-da-inflacao-aponta-fipezap.jpg",
-        "resumo": "Apesar da desaceleração pelo sexto mês consecutivo, preços de locação continuam pressionando o orçamento",
-        "conteudo": "<p>Apesar de vir desacelerando pelo sexto mês consecutivo, o preço dos aluguéis residenciais continua avançando acima da inflação.</p><h2>Os números do levantamento</h2><p>Em outubro, a alta média de aumento foi de 0,49%, ante 0,52% em setembro, mas nos últimos 12 meses o aumento acumulado chegou a 9,01%, quase o dobro da inflação oficial de 4,63% medida pelo IPCA no mesmo período, conforme o Índice FipeZAP de Locação Residencial, divulgado nesta terça-feira (17).</p><p>O resultado mostra que, embora o ritmo de encarecimento dos imóveis esteja perdendo força desde abril, quando a alta mensal chegou a 1,04%, a pressão sobre quem procura uma nova moradia permanece elevada.</p><p>No acumulado de janeiro a outubro, os aluguéis subiram 7,63%, contra uma inflação oficial de 4,10%, uma diferença de 3,53 pontos percentuais.</p><h2>Impactos e informações adicionais</h2><p>Para Mariangela Silva, economista do Grupo OLX, o aumento de preços em um patamar mais baixo indica uma estabilização no mercado, com ajustes mais moderados. “Isso reflete a capacidade de pagamento das famílias e as condições de oferta e demanda em cada cidade”, afirma.</p><p>A alta também continua disseminada pelo país. Das 36 cidades monitoradas pelo levantamento, 28 registraram aumento nos preços em outubro.</p><p>Entre as capitais, Maceió liderou as elevações, com 1,64%, seguida por Fortaleza (1,48%) e João Pessoa (1,46%). Na contra mão, Teresina apresentou a maior queda, com 0,97%, seguida por Vitória (-0,64%) e Cuiabá (-0,39%).</p><p>A diferença entre as regiões fica ainda mais evidente na comparação anual. Em 12 meses, Natal acumula a maior valorização dos aluguéis, de 16,95%, seguida por Fortaleza (16,69%) e Rio de Janeiro (14,10%).</p><p>Já São Paulo, embora tenha registrado uma elevação menor, de 6,63%, continua sendo a capital mais cara para alugar um apartamento, com preço médio de R$ 66,16 por metro quadrado.</p><p>Na sequência aparecem Recife (R$ 64,94), Belém (R$ 62,24) e Florianópolis (R$ 62,19). Considerando todas as 36 cidades pesquisadas, Barueri, na Grande São Paulo, supera a capital paulista, com aluguel médio de R$ 72,36 por metro quadrado.</p><p>Essa sustentação dos preços acima da inflação é impulsionada por dois vetores macroeconômicos principais, segundo Mariangela.</p><p>“De um lado, o mercado de trabalho resiliente preserva a geração de renda e permite que parte dos locatários absorva os reajustes.</p><p>De outro, o cenário de juros elevados e crédito imobiliário mais restritivo faz com que muitas famílias adiem a compra da casa própria e permaneçam no aluguel, mantendo a demanda por locação aquecida frente à oferta disponível”, afirma.</p><p>Outro ponto que chama a atenção é o comportamento dos imóveis menores. Os apartamentos de um dormitório continuam apresentando o maior preço médio por metro quadrado, de R$ 72,76, enquanto os de três dormitórios custam, em média, R$ 47,52.</p><p>Já os imóveis de dois quartos registraram a maior valorização nos últimos 12 meses, de 10,20%.</p><p>Para os investidores, a valorização dos aluguéis não significa necessariamente maior atratividade financeira.</p><p>A rentabilidade média estimada com a locação ficou em 6,13% ao ano, abaixo da taxa de juros de referência projetada para os próximos 12 meses.</p><p>Recife apresentou o maior retorno entre as capitais, de 8,24% ao ano, enquanto Vitória registrou o menor, de 4,18%.</p><p>Elaborado pela Fundação Instituto de Pesquisas Econômicas (Fipe) em parceria com o Grupo OLX, o Índice FipeZAP acompanha os preços anunciados de apartamentos prontos para novos contratos de locação.</p><p>Portanto, os resultados não representam os reajustes aplicados aos contratos de aluguel já em vigor, que seguem as condições estabelecidas entre proprietários e inquilinos.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/minhas-financas/aluguel-sobe-9-em-12-meses-quase-o-dobro-da-inflacao-aponta-fipezap/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/concei-amp-ccedil-amp-atilde-o-evaristo-defende-indica-amp-ccedil-amp-atilde-o-de-mulher-n.jpg",
+        "resumo": "No Roda Viva, escritora destaca a import&acirc;ncia da diversidade na pol&iacute;tica e em outros espa&ccedil;os de poder",
+        "conteudo": "<p>O Roda Viva desta segunda-feira (16), semana em que se comemora o Dia da Consciência Negra , recebe a escritora Conceição Evaristo .</p><h2>O contexto da decisão judicial</h2><p>Durante a entrevista, a autora defende a pauta da indicação de uma mulher negra ao Supremo Tribunal Federal, o que seria inédito. \" É mais do que justo. Nós não estamos pedindo esmola, estamos reivindicando um direito que nós temos \", afirma.</p><p>Conceição diz que a política brasileira não pode \"ser vista só de um ângulo\", se referindo à predominância de homens brancos no comando dos partidos políticos, instituições e outros espaços de poder.</p><p>Ela ressalta a importância da diversidade em cargos de liderança e tomada de decisão. Do contrário, ela cita o risco do país permanecer uma \" democracia capenga \".</p><h2>Detalhes e consequências do caso</h2><p>\" Um país como o Brasil, em que a presença negra é tão edificante, no sentido de construção da nação, é preciso que tenhamos mulheres negras nesses espaços de poder, para poder pensar a nação e também apontar políticas públicas que possam ser mais justas \", argumenta.</p><p>A bancada de entrevistadores é formada por Adriana Ferreira Silva, jornalista e escritora; Chris Maksud, apresentadora do programa Brasil Jazz Sinfônica e colaboradora do Entrelinhas, ambos da TV Cultura; Eliana Alves Cruz, jornalista e escritora; Jefferson Barbosa, jornalista, global fellow da Fundação Ford e autor do livro 'A Mãe do Mundo'; Luanda Vieira, jornalista e escritora; e Yasmin Santos, jornalista e editora da Companhia das Letras.</p><p>Haverá ainda a participação do cartunista Eduardo Baptistão .</p><p>Com apresentação de Ernesto Paglia , o Roda Viva vai ao ar na TV Cultura, com transmissão simultânea no YouTube e no site oficial da emissora.</p>",
+        "fonteNome": "UOL Notícias",
+        "fonteUrl": "https://cultura.uol.com.br/noticias/74564_conceicao-evaristo-defende-indicacao-de-mulher-negra-ao-stf-nao-estamos-pedindo-esmola.html",
         "fontesAdicionais": [
           {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
           },
           {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Apesar de vir desacelerando pelo sexto mês consecutivo, o preço dos aluguéis residenciais continua avançando acima da inflação."
+            "resposta": "O Roda Viva desta segunda-feira (16), semana em que se comemora o Dia da Consciência Negra , recebe a escritora Conceição Evaristo ."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O resultado mostra que, embora o ritmo de encarecimento dos imóveis esteja perdendo força desde abril, quando a alta mensal chegou a 1,04%, a pressão sobre quem procura uma nova moradia permanece elevada. No acumulado de janeiro a outubro, os aluguéis subiram 7,63%, contra uma inflação oficial de 4,10%, uma diferença de 3,53 pontos percentuais."
+            "resposta": "Durante a entrevista, a autora defende a pauta da indicação de uma mulher negra ao Supremo Tribunal Federal, o que seria inédito. \" É mais do que justo. Nós não estamos pedindo esmola, estamos reivindicando um direito que nós temos \", afirma."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Para Mariangela Silva, economista do Grupo OLX, o aumento de preços em um patamar mais baixo indica uma estabilização no mercado, com ajustes mais moderados. “Isso reflete a capacidade de pagamento das famílias e as condições de oferta e demanda em cada cidade”, afirma."
+            "resposta": "Conceição diz que a política brasileira não pode \"ser vista só de um ângulo\", se referindo à predominância de homens brancos no comando dos partidos políticos, instituições e outros espaços de poder. Ela ressalta a importância da diversidade em cargos de liderança e tomada de decisão."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A alta também continua disseminada pelo país. Das 36 cidades monitoradas pelo levantamento, 28 registraram aumento nos preços em outubro. Entre as capitais, Maceió liderou as elevações, com 1,64%, seguida por Fortaleza (1,48%) e João Pessoa (1,46%). Na contra mão, Teresina apresentou a maior queda, com 0,97%, seguida por Vitória (-0,64%) e Cuiabá (-0,39%)."
+            "resposta": "\" Um país como o Brasil, em que a presença negra é tão edificante, no sentido de construção da nação, é preciso que tenhamos mulheres negras nesses espaços de poder, para poder pensar a nação e também apontar políticas públicas que possam ser mais justas \", argumenta."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A diferença entre as regiões fica ainda mais evidente na comparação anual. Em 12 meses, Natal acumula a maior valorização dos aluguéis, de 16,95%, seguida por Fortaleza (16,69%) e Rio de Janeiro (14,10%)."
+            "resposta": "A bancada de entrevistadores é formada por Adriana Ferreira Silva, jornalista e escritora; Chris Maksud, apresentadora do programa Brasil Jazz Sinfônica e colaboradora do Entrelinhas, ambos da TV Cultura; Eliana Alves Cruz, jornalista e escritora; Jefferson Barbosa, jornalista, global fellow da Fundação Ford e autor do livro 'A Mãe do Mundo'; Luanda Vieira, jornalista e escritora; e Yasmin Santos, jornalista e editora da Companhia das Letras."
           }
         ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/03/tierra-mallorca-rgJ1J8SDEAY-unsplash.jpg?fit=640%2C481&quality=70&strip=all",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/aluguel-sobe-9-em-12-meses-quase-o-dobro-da-inflacao-aponta-fipezap.jpg",
+        "imagemOriginal": "https://cultura.uol.com.br/upload/tvcultura/noticias/happens_big/20261117004813_rodaviva-site-nota-16nov-7.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/concei-amp-ccedil-amp-atilde-o-evaristo-defende-indica-amp-ccedil-amp-atilde-o-de-mulher-n.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -409,78 +445,6 @@
       "descobertaEm": "2026-11-17T01:20:25.692Z"
     },
     {
-      "id": "0c3272aac47633a2",
-      "titulo": "Ex-ministro da Fazenda alerta para risco de crise fiscal grave e dólar beirando 7 reais",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/economia/ex-ministro-da-fazenda-alerta-para-risco-de-crise-fiscal-grave-e-dolar-acima-de-6-reais/",
-      "dataFonte": "2026-11-16T23:39:29.000Z",
-      "resumoFonte": "Economista afirma que o pacote de ajuste fiscal do governo é insuficiente para conter o avanço da dívida pública",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/05/pzzb5910.jpg.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-17T00:18:19.771Z",
-      "reportagem": {
-        "titulo": "Ex-ministro da Fazenda alerta para risco de crise fiscal grave e dólar beirando 7 reais",
-        "slug": "ex-ministro-da-fazenda-alerta-para-risco-de-crise-fiscal-grave-e-dolar-beirando-7-reais",
-        "categoria": "Economia",
-        "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/ex-ministro-da-fazenda-alerta-para-risco-de-crise-fiscal-grave-e-dolar-beirando-7-reais.jpg",
-        "resumo": "Economista afirma que o pacote de ajuste fiscal do governo é insuficiente para conter o avanço da dívida pública",
-        "conteudo": "<p>O Brasil est&aacute; entrando em uma zona de risco que pode desembocar em uma grave crise fiscal e financeira. O alerta &eacute; do economista Ma&iacute;lson da N&oacute;brega, ex-ministro da Fazenda e colunista de VEJA.</p><h2>Dados e contexto do setor</h2><p>Em entrevista ao programa VEJA em Foco, apresentado por Marcela Rahal, ele avaliou que o pacote de ajuste fiscal apresentado pelo governo Lula est&aacute; longe de responder &agrave;s necessidades do pa&iacute;s e representa, na pr&aacute;tica, um adiamento dos problemas das contas p&uacute;blicas.</p><p>(este texto &eacute; um resumo do v&iacute;deo acima)</p><p>Na avalia&ccedil;&atilde;o do economista, as medidas anunciadas s&atilde;o insuficientes para estabilizar a d&iacute;vida p&uacute;blica e recuperar a confian&ccedil;a dos investidores.</p><h2>Impactos e informações adicionais</h2><p>Ele cita estudos que apontam a necessidade de um super&aacute;vit prim&aacute;rio entre 2% e 2,5% do Produto Interno Bruto (PIB) para estabilizar e, posteriormente, reduzir a rela&ccedil;&atilde;o entre d&iacute;vida e PIB.</p><p>Nesse cen&aacute;rio, o pacote de 60 bilh&otilde;es de reais estimados pelo governo representaria apenas uma fra&ccedil;&atilde;o do esfor&ccedil;o necess&aacute;rio.</p><p>&ldquo;Um pacote de 60 bilh&otilde;es que chega, isso &eacute; um quinto das necessidades&rdquo;, afirmou.</p><p>Ma&iacute;lson tamb&eacute;m chamou a aten&ccedil;&atilde;o para a composi&ccedil;&atilde;o das medidas: segundo ele, cerca de 70% da economia prevista viria de aumento de receitas, e n&atilde;o de mudan&ccedil;as estruturais nas despesas p&uacute;blicas.</p><p>Para Ma&iacute;lson, o pa&iacute;s precisa avan&ccedil;ar em reformas estruturais, mesmo que seus efeitos sejam percebidos apenas no longo prazo.</p><p>Entre as mudan&ccedil;as que considera necess&aacute;rias est&atilde;o uma nova reforma da Previd&ecirc;ncia, a revis&atilde;o das regras de aposentadoria e o fim da vincula&ccedil;&atilde;o dos benef&iacute;cios previdenci&aacute;rios ao sal&aacute;rio m&iacute;nimo .</p><p>O economista tamb&eacute;m defende mudan&ccedil;as nos pisos constitucionais de gastos com sa&uacute;de e educa&ccedil;&atilde;o.</p><p>Segundo ele, essas medidas enfrentam resist&ecirc;ncia do presidente Luiz In&aacute;cio Lula da Silva , que assumiu compromissos eleitorais contr&aacute;rios a esse tipo de altera&ccedil;&atilde;o.</p><p>Na avalia&ccedil;&atilde;o do ex-ministro, a resist&ecirc;ncia pol&iacute;tica &agrave;s reformas dificulta a constru&ccedil;&atilde;o de um ajuste fiscal consistente.</p><p>Ele argumenta que o presidente e o PT interpretam o ajuste das contas p&uacute;blicas como uma medida contr&aacute;ria aos interesses dos mais pobres, quando, em sua vis&atilde;o, a infla&ccedil;&atilde;o &eacute; justamente um dos fatores que mais prejudicam essa parcela da popula&ccedil;&atilde;o.</p><p>Ma&iacute;lson advertiu que a aus&ecirc;ncia de medidas capazes de controlar o crescimento da d&iacute;vida pode elevar a percep&ccedil;&atilde;o de risco entre os investidores e pressionar ainda mais o c&acirc;mbio.</p><p>Durante a entrevista, ele afirmou que o d&oacute;lar pode ultrapassar os 6 reais e chegar, em determinado momento, a 7 reais.</p><p>&ldquo;Estamos entrando numa zona muito complicada, que pode nos levar a uma crise muito grave&rdquo;, disse o economista.</p><p>Entre os poss&iacute;veis desdobramentos que apontou est&atilde;o aumento do desemprego, desacelera&ccedil;&atilde;o da atividade econ&ocirc;mica e encarecimento de produtos e servi&ccedil;os.</p><p>O economista tamb&eacute;m relacionou o cen&aacute;rio fiscal &agrave;s perspectivas para a infla&ccedil;&atilde;o.</p><p>Segundo ele, proje&ccedil;&otilde;es j&aacute; indicavam uma infla&ccedil;&atilde;o de 6% em 2027, enquanto a desvaloriza&ccedil;&atilde;o do real poderia ampliar a press&atilde;o sobre os pre&ccedil;os.</p><p>Para Ma&iacute;lson, a trajet&oacute;ria da d&iacute;vida p&uacute;blica &eacute; determinante para a confian&ccedil;a dos investidores, especialmente diante do risco de uma expans&atilde;o que se torne dif&iacute;cil de controlar.</p><p>Apesar do diagn&oacute;stico preocupante, Ma&iacute;lson apontou que momentos de crise tamb&eacute;m podem criar condi&ccedil;&otilde;es pol&iacute;ticas para mudan&ccedil;as estruturais.</p><p>Segundo ele, a experi&ecirc;ncia brasileira mostra que transforma&ccedil;&otilde;es institucionais importantes ocorreram justamente quando a sociedade passou a reconhecer a necessidade de alterar o funcionamento do Estado e da economia.</p><p>&ldquo;Os grandes mudan&ccedil;as institucionais desse tipo, de que o Brasil precisa, ocorreram em momentos de crise&rdquo;, afirmou.</p><p>Para o ex-ministro, a forma&ccedil;&atilde;o de um consenso sobre a necessidade de reformas, a depender da lideran&ccedil;a pol&iacute;tica &agrave; frente do governo, pode abrir caminho para um novo ciclo de mudan&ccedil;as e recuperar a capacidade de crescimento do pa&iacute;s.</p><p>VEJA+IA: Este texto resume um trecho do telejornal VEJA em Foco (confira o v&iacute;deo acima). Conte&uacute;do produzido com aux&iacute;lio de intelig&ecirc;ncia artificial e supervis&atilde;o humana.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/economia/ex-ministro-da-fazenda-alerta-para-risco-de-crise-fiscal-grave-e-dolar-acima-de-6-reais/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Brasil est&aacute; entrando em uma zona de risco que pode desembocar em uma grave crise fiscal e financeira. O alerta &eacute; do economista Ma&iacute;lson da N&oacute;brega, ex-ministro da Fazenda e colunista de VEJA."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Na avalia&ccedil;&atilde;o do economista, as medidas anunciadas s&atilde;o insuficientes para estabilizar a d&iacute;vida p&uacute;blica e recuperar a confian&ccedil;a dos investidores."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "&ldquo;Um pacote de 60 bilh&otilde;es que chega, isso &eacute; um quinto das necessidades&rdquo;, afirmou."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Para Ma&iacute;lson, o pa&iacute;s precisa avan&ccedil;ar em reformas estruturais, mesmo que seus efeitos sejam percebidos apenas no longo prazo."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O economista tamb&eacute;m defende mudan&ccedil;as nos pisos constitucionais de gastos com sa&uacute;de e educa&ccedil;&atilde;o. Segundo ele, essas medidas enfrentam resist&ecirc;ncia do presidente Luiz In&aacute;cio Lula da Silva , que assumiu compromissos eleitorais contr&aacute;rios a esse tipo de altera&ccedil;&atilde;o."
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/05/pzzb5910.jpg.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/ex-ministro-da-fazenda-alerta-para-risco-de-crise-fiscal-grave-e-dolar-beirando-7-reais.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "39d40893db8c5796",
-      "titulo": "PicPay lucra R$ 271 milhões no 3º trimestre, com alta de 157%",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-economia/picpay-lucra-r-271-milhoes-no-3o-trimestre-com-alta-de-157/",
-      "dataFonte": "2026-11-16T23:34:56.000Z",
-      "resumoFonte": "Banco digital muda regra de baixa de empréstimos inadimplentes e estima impacto de R$ 325 milhões no resultado do 4º trimestre",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/PicPay-1200x675.png",
-      "descobertaEm": "2026-11-17T00:18:19.771Z"
-    },
-    {
       "id": "98c2f6f7a9e9b15a",
       "titulo": "‘Bruna Surfistinha 2’ ganha primeira cena e cartaz inédito; veja quando estreia",
       "categoria": "Cultura",
@@ -539,6 +503,30 @@
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
+    },
+    {
+      "id": "3afa7ba96ef427ed",
+      "titulo": "Sob a alegação de risco de a tecnologia ser desviada para a China, EUA restringem acesso do Brasil a chips avançados de IA | G1",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "g1 - Capa",
+      "urlFonte": "https://g1.globo.com/jornal-nacional/noticia/2026/11/16/sob-a-alegacao-de-risco-de-a-tecnologia-ser-desviada-para-a-china-eua-restringem-acesso-do-brasil-a-chips-avancados-de-ia.ghtml",
+      "dataFonte": "2026-11-17T00:55:43.092Z",
+      "resumoFonte": "Os Estados Unidos proíbem a venda direta de chips avançados de inteligência artificial para empresas e laboratórios chineses por motivos de segurança nacional.",
+      "imagem": "https://s2-g1.glbimg.com/2Z6WhmfdDwwfCQ83Xa_wq8WbxXc=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/a/GA4QV2SLA3PbRcKkmyYw/globo-canal-4-20261116-2000-frame-82659.jpeg",
+      "descobertaEm": "2026-11-17T01:20:25.692Z"
+    },
+    {
+      "id": "e56299b473fe4e9c",
+      "titulo": "Caso Master completa um ano com Vorcaro preso, expectativa de denúncia e crise no STF",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/noticia/2026/11/17/caso-master-completa-um-ano-com-vorcaro-preso-expectativa-de-denuncia-e-crise-no-stf.ghtml",
+      "dataFonte": "2026-11-17T03:00:00.000Z",
+      "resumoFonte": "O caso Master completa um ano nesta terça-feira (17), com o banqueiro Daniel Vorcaro preso, a expectativa de uma primeira denúncia pela Procuradoria-Geral da República (PGR) e uma série de apurações ainda em andamento. O caso também avançou sobre políticos e ministros e provocou uma crise no Supremo Tribunal Federal (STF). Vorcaro está preso…",
+      "imagem": "https://s2-g1.glbimg.com/8Pdz70epO-mD9Rl65b_a5plrLNM=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/W/jvZKQ8SHuurUcBjeb97A/vorcaro.jpg",
+      "descobertaEm": "2026-11-17T03:18:15.523Z"
     },
     {
       "id": "043089f0b5803f34",
@@ -745,19 +733,19 @@
       }
     }
   ],
-  "reapuradoEm": "2026-11-17T03:49:49.903Z",
+  "reapuradoEm": "2026-11-17T04:47:53.191Z",
   "diagnosticoReapuracao": {
     "produzidas": 10,
     "jaProntas": 0,
-    "incompletas": 11,
+    "incompletas": 10,
     "falhas": 0
   },
   "diagnosticoLapis": {
     "geradas": 10,
     "reaproveitadas": 0,
-    "puladas": 11,
+    "puladas": 10,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-17T03:50:41.726Z"
+  "lapisEm": "2026-11-17T04:48:25.685Z"
 }
