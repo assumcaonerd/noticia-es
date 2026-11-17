@@ -1,98 +1,62 @@
 {
-  "geradoEm": "2026-11-17T00:48:39.147Z",
+  "geradoEm": "2026-11-17T01:48:38.222Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 2,
     "bloqueadasEditoriais": 0,
     "semImagem": 1,
-    "duplicadasBasicas": 7,
+    "duplicadasBasicas": 9,
     "duplicadasSemanticas": 6,
-    "foraCategorias": 35
+    "foraCategorias": 37
   },
-  "quantidadeCandidatas": 29,
+  "quantidadeCandidatas": 25,
   "candidatas": [
     {
-      "id": "3e84a71b46c72d19",
-      "titulo": "Partido da base de Lula convoca protestos contra o governo em dez cidades",
-      "categoria": "Política Nacional",
+      "id": "5f45303fb2862005",
+      "titulo": "Homem é espancado após furtar equipamento de loja em Vila Velha",
+      "categoria": "Segurança Pública",
       "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/politica/partido-da-base-de-lula-convoca-protestos-contra-o-governo-em-dez-cidades/",
-      "dataFonte": "2026-11-16T23:16:29.000Z",
-      "resumoFonte": "Legenda de esquerda organiza atos contra o projeto de ajuste fiscal aprovado no Senado",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/AFP__20261111__D76A877__v1__HighRes__TurkeyAustraliaUnCop31Climate.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-16T23:18:48.485Z",
-      "reportagem": {
-        "titulo": "Partido da base de Lula convoca protestos contra o governo em dez cidades",
-        "slug": "partido-da-base-de-lula-convoca-protestos-contra-o-governo-em-dez-cidades",
-        "categoria": "Política Nacional",
-        "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/partido-da-base-de-lula-convoca-protestos-contra-o-governo-em-dez-cidades.jpg",
-        "resumo": "Legenda de esquerda organiza atos contra o projeto de ajuste fiscal aprovado no Senado",
-        "conteudo": "<p>Integrante da coliga&ccedil;&atilde;o que sustentou a quarta vit&oacute;ria presidencial de Luiz In&aacute;cio Lula da Silva em 2026, o PSOL prepara a primeira manifesta&ccedil;&atilde;o de rua contra a nova gest&atilde;o petista.</p><h2>O contexto do cenário político</h2><p>Os atos ocorrem tr&ecirc;s semanas ap&oacute;s o pleito e atingem diretamente a pol&iacute;tica econ&ocirc;mica do governo, sinalizando antecipadamente o tom de tensionamento que deve marcar o relacionamento entre o Pal&aacute;cio do Planalto e sua base no Congresso.</p><p>Os protestos organizados pelo PSOL est&atilde;o confirmados para a ter&ccedil;a-feira 17 em dez cidades brasileiras.</p><p>A mobiliza&ccedil;&atilde;o abrange capitais como S&atilde;o Paulo, Rio de Janeiro e Bras&iacute;lia, al&eacute;m de outros cinco centros urbanos no pa&iacute;s.</p><h2>Informações e repercussões do episódio</h2><p>A iniciativa marca a primeira vez que um partido aliado da base governista leva apoiadores &agrave;s ruas contra o presidente Luiz In&aacute;cio Lula da Silva desde a confirma&ccedil;&atilde;o da sua reelei&ccedil;&atilde;o nas urnas, revelando a disposi&ccedil;&atilde;o da legenda em confrontar as diretrizes econ&ocirc;micas definidas pela equipe do governo federal.</p><p>Em nota divulgada pela sua executiva nacional na quinta-feira 12, a dire&ccedil;&atilde;o do partido afirma que defender o programa pelo qual a milit&acirc;ncia se mobilizou envolve disputar a destina&ccedil;&atilde;o dos recursos no Or&ccedil;amento de 2027.</p><p>O PSOL convocou movimentos, sindicatos, estudantes e entidades defensoras de direitos sociais para integrarem os protestos.</p><p>Na avalia&ccedil;&atilde;o da sigla, a proposta econ&ocirc;mica descumpre os compromissos assumidos pelo presidente Luiz In&aacute;cio Lula da Silva perante a sua base eleitoral ao priorizar concess&otilde;es ao mercado financeiro.</p><p>A mobiliza&ccedil;&atilde;o promovida por um aliado de esquerda antecipa o clima de press&atilde;o pol&iacute;tica sobre o Executivo federal.</p><p>De um lado, o presidente Luiz In&aacute;cio Lula da Silva sofre cobran&ccedil;as de setores &agrave; direita para entregar resultados fiscais alinhados &agrave;s exig&ecirc;ncias de mercado.</p><p>De outro, &eacute; cobrado por aliados &agrave; esquerda para preservar investimentos em servi&ccedil;os essenciais e atender &agrave;s expectativas do eleitorado que garantiu a sua vit&oacute;ria nas urnas, criando um cen&aacute;rio de disputa direta pela orienta&ccedil;&atilde;o do Or&ccedil;amento.</p><p>VEJA+IA: Conte&uacute;do produzido com aux&iacute;lio de intelig&ecirc;ncia artificial e supervis&atilde;o humana.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/politica/partido-da-base-de-lula-convoca-protestos-contra-o-governo-em-dez-cidades/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Integrante da coliga&ccedil;&atilde;o que sustentou a quarta vit&oacute;ria presidencial de Luiz In&aacute;cio Lula da Silva em 2026, o PSOL prepara a primeira manifesta&ccedil;&atilde;o de rua contra a nova gest&atilde;o petista."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Os protestos organizados pelo PSOL est&atilde;o confirmados para a ter&ccedil;a-feira 17 em dez cidades brasileiras. A mobiliza&ccedil;&atilde;o abrange capitais como S&atilde;o Paulo, Rio de Janeiro e Bras&iacute;lia, al&eacute;m de outros cinco centros urbanos no pa&iacute;s."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Em nota divulgada pela sua executiva nacional na quinta-feira 12, a dire&ccedil;&atilde;o do partido afirma que defender o programa pelo qual a milit&acirc;ncia se mobilizou envolve disputar a destina&ccedil;&atilde;o dos recursos no Or&ccedil;amento de 2027."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A mobiliza&ccedil;&atilde;o promovida por um aliado de esquerda antecipa o clima de press&atilde;o pol&iacute;tica sobre o Executivo federal. De um lado, o presidente Luiz In&aacute;cio Lula da Silva sofre cobran&ccedil;as de setores &agrave; direita para entregar resultados fiscais alinhados &agrave;s exig&ecirc;ncias de mercado."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "VEJA+IA: Conte&uacute;do produzido com aux&iacute;lio de intelig&ecirc;ncia artificial e supervis&atilde;o humana."
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/11/AFP__20261111__D76A877__v1__HighRes__TurkeyAustraliaUnCop31Climate.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/partido-da-base-de-lula-convoca-protestos-contra-o-governo-em-dez-cidades.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/homem-e-espancado-apos-furtar-equipamento-de-loja-em-vila-velha-1126",
+      "dataFonte": "2026-11-17T00:36:07.000Z",
+      "resumoFonte": "Suspeito de 22 anos foi perseguido pelo proprietário do estabelecimento e agredido por populares no bairro Paul; ele precisou ser levado ao hospital",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1794874032710_template_radar_a_gazeta_89.jpg",
+      "descobertaEm": "2026-11-17T01:18:14.630Z"
     },
     {
-      "id": "88a1220ff3e757f8",
-      "titulo": "Frota de carros elétricos no Brasil deve crescer 10 vezes em 10 anos",
+      "id": "8b9be2b37dfb0364",
+      "titulo": "Senado vota pacote do governo de ajuste das contas; falta analisar 4 propostas para alterar o texto principal | G1",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "g1 - Capa",
+      "urlFonte": "https://g1.globo.com/jornal-nacional/noticia/2026/11/16/senado-vota-pacote-do-governo-de-ajuste-das-contas-falta-analisar-4-propostas-para-alterar-o-texto-principal.ghtml",
+      "dataFonte": "2026-11-17T00:08:04.568Z",
+      "resumoFonte": "Uma das propostas é retirar a restrição ao uso de créditos pelas empresas para abater impostos.",
+      "imagem": "https://s2-g1.glbimg.com/znQswHdmwVjVFxbuwxnmj5WDgp8=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/l/k/gvweZqQ1eSQ4sivvmdtQ/globo-canal-4-20261116-2000-frame-65229.jpeg",
+      "descobertaEm": "2026-11-17T01:20:25.692Z"
+    },
+    {
+      "id": "79c63ab145d88af2",
+      "titulo": "Bets estão associadas à saída de R$ 40,4 bi das famílias, diz Comsefaz",
       "categoria": "Economia",
       "radar": null,
       "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-energia/frota-de-carros-eletricos-no-brasil-deve-crescer-10-vezes-em-10-anos/",
-      "dataFonte": "2026-11-17T00:16:09.000Z",
-      "resumoFonte": "Projeção da Empresa de Pesquisa Energética estima um crescimento anual de 26% nas vendas de veículos eletrificados",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/brasil-carros-eletrico-16-nov-2026-3-1200x675.png",
-      "descobertaEm": "2026-11-17T00:18:19.771Z",
+      "urlFonte": "https://www.poder360.com.br/poder-economia/bets-estao-associadas-a-saida-de-r-404-bi-das-familias-diz-comsefaz/",
+      "dataFonte": "2026-11-17T01:12:42.000Z",
+      "resumoFonte": "Estudo compara transferências via Pix com projeção de cenário sem a expansão das apostas",
+      "imagem": "https://static.poder360.com.br/uploads/2025/06/arte-bets-2-jun-2025-01-scaled.jpg",
+      "descobertaEm": "2026-11-17T01:18:14.630Z",
       "reportagem": {
-        "titulo": "Frota de carros elétricos no Brasil deve crescer 10 vezes em 10 anos",
-        "slug": "frota-de-carros-eletricos-no-brasil-deve-crescer-10-vezes-em-10-anos",
+        "titulo": "Bets estão associadas à saída de R$ 40,4 bi das famílias, diz Comsefaz",
+        "slug": "bets-estao-associadas-a-saida-de-r-40-4-bi-das-familias-diz-comsefaz",
         "categoria": "Economia",
         "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/frota-de-carros-eletricos-no-brasil-deve-crescer-10-vezes-em-10-anos.jpg",
-        "resumo": "Projeção da Empresa de Pesquisa Energética estima um crescimento anual de 26% nas vendas de veículos eletrificados.",
-        "conteudo": "<p>Projeção da Empresa de Pesquisa Energética estima um crescimento anual de 26% nas vendas de veículos eletrificados</p><h2>Os números do levantamento</h2><p>A EPE (Empresa de Pesquisa Energética) estima que a frota de veículos elétricos no Brasil vai alcançar 9,7 milhões até 2036. Isso representa um aumento de 10 vezes ante a frota atual.</p><p>O relatório publicado nesta 2ª feira (16.nov.2026) projeta um crescimento médio anual de 26% nos próximos 11 anos –a partir de 2031, haverá um acréscimo superior a 1 milhão de veículos por ano.</p><p>Todos os modelos de veículos eletrificados terão um aumento nas vendas, desde os híbridos aos híbridos plug-ins e os BEV (modelos 100% elétricos). Em 2036, a expectativa é que os eletrificados representem 36% das vendas totais de veículos leves.</p><h2>Impactos e informações adicionais</h2><p>Segundo a EPE, existem 2 fatores principais que contribuirão para a popularidade dos elétricos –não apenas no Brasil, mas no mundo– nos próximos anos:</p><p>Já entre os principais desafios do Brasil para acomodar o maior volume de carros elétricos estão a falta de infraestrutura de carregamento e o custo de equipamentos. Esses são os 2 principais fatores de reclamação das próprias montadoras para lidar com os eletrificados.</p><p>Em relação à quantidade de pontos de recarga, o Brasil está abaixo da média na relação entre BEVs e eletropostos. No país, são 10,1 veículos para cada ponto de recarga, enquanto a média global é de 7,3.</p><p>A EPE considera o aumento da frota de eletrificados no Brasil um elemento positivo, especialmente por que os veículos elétricos apresentam menor intensidade energética do que os veículos com motor de combustão interna, pois aproveitam uma parcela maior da energia armazenada na bateria para a propulsão do veículo.</p><p>O que acontece é que os veículos com motor de combustão perdem parte da energia contida no combustível, principalmente na forma de calor, durante o processo de conversão em movimento. Isso torna o processo menos eficiente.</p><p>“Com o aumento da participação dos veículos eletrificados na frota, espera-se uma redução gradual de sua intensidade energética média, à medida que os ganhos de eficiência associados à mudança tecnológica se disseminem pelo conjunto de veículos em circulação” , diz a EPE.</p><p>Nesse sentido, a eletrificação também é vista com bons olhos pelo governo federal, que busca atingir metas de aumento da eficiência energética e redução do uso de combustíveis na matriz de transportes.</p><p>Na semana passada, o CNPE (Conselho Nacional de Política Energética) criou um grupo de trabalho voltado para estruturar a Estratégia Nacional de Eletromobilidade. A expansão da infraestrutura para atender os veículos elétricos é uma das prioridades do plano.</p><p>As montadoras chinesas dominam o segmento de veículos eletrificados no Brasil e devem ser as maiores beneficiárias da expansão da frota brasileira nos próximos anos.</p><p>O Brasil já é o principal importador de carros chineses com um volume de importação de US$ 5,2 bilhões no 1º semestre deste ano –um aumento de quase 147% em relação ao mesmo período de 2025– e deve seguir essa tendência.</p><p>O Brasil é um destino atrativo para os carros chineses pois o país não adotou medidas protecionistas como outros grandes mercados –Estados Unidos e União Europeia– fizeram nos últimos anos.</p><p>As importações chinesas também são impulsionadas pelo alto volume de produção automatizada das fábricas e o esfriamento do mercado consumidor interno.</p><p>No relatório, a EPE informa que a China se tornou a potência dominante em diversos elos da cadeia de veículos elétricos, desde a mineração e o processamento de minerais estratégicos, até a fabricação de baterias.</p><p>Essa concentração contribui para a redução de custos de produção, mas também amplia os riscos geopolíticos associados à dependência de um único país para o fornecimento dessas tecnologias e componentes.</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/bets-estao-associadas-a-saida-de-r-40-4-bi-das-familias-diz-comsefaz.jpg",
+        "resumo": "Estudo compara transferências via Pix com projeção de cenário sem a expansão das apostas.",
+        "conteudo": "<p>Estudo compara transferências via Pix com projeção de cenário sem a expansão das apostas</p><h2>Dados e contexto do setor</h2><p>O avanço das apostas esportivas on-line, conhecidas como bets, esteve associado a uma transferência líquida de R$ 40,39 bilhões das famílias brasileiras para empresas do setor de janeiro a julho de 2026.</p><p>A estimativa consta no 4º Boletim Fiscal dos Estados Brasileiros do Comsefaz (Comitê Nacional de Secretários de Fazenda, Finanças, Receita ou Tributação dos Estados e do Distrito Federal). Eis a íntegra (PDF – 1,8 MB).</p><p>O levantamento considera transferências via Pix de pessoas físicas para empresas classificadas pelo Banco Central na categoria “artes, cultura, esporte e recreação”, que inclui casas de apostas e outros negócios.</p><h2>Como interpretar os resultados</h2><p>Como a base não identifica os pagamentos destinados exclusivamente às bets, os pesquisadores utilizaram um modelo estatístico para estimar os recursos adicionais associados à expansão do setor.</p><p>O modelo, chamado Arima, foi construído com base nos dados disponíveis até agosto de 2024.</p><p>Os pesquisadores projetaram como as transferências teriam evoluído caso o padrão anterior à expansão das apostas tivesse continuado.</p><p>A diferença entre os valores efetivamente registrados e a projeção foi considerada uma estimativa dos recursos adicionais associados às bets.</p><p>Em 2025, o volume bruto adicional de transferências estimado chegou a R$ 350,97 bilhões. De janeiro a julho de 2026, o valor acumulado foi de R$ 144,02 bilhões.</p><p>Esses números consideram os pagamentos adicionais das famílias às empresas, sem descontar os recursos que retornaram às pessoas físicas.</p><p>Quando são descontados os valores recebidos pelas famílias das empresas do setor, o saldo líquido estimado foi de R$ 62,48 bilhões em 2025. Nos primeiros 7 meses de 2026, a transferência líquida chegou a R$ 40,39 bilhões.</p><p>Os pesquisadores afirmam que a diferença entre os dados observados e a projeção não representa, por si só, uma estimativa causal precisa do impacto das bets. Ainda assim, afirmam que a dimensão e a concentração temporal das transferências indicam a relevância do fenômeno.</p><p>O presidente Luiz Inácio Lula da Silva (PT) assinou, em 25 de setembro de 2026, a medida provisória 1.394 de 2026 , que proibiu a exploração de apostas de quota fixa. A modalidade inclui apostas esportivas e jogos on-line.</p><p>A decisão veio em um cenário de preocupação com os efeitos da atividade sobre o orçamento doméstico e o endividamento das famílias.</p><p>Em junho deste ano, 81,6% das famílias brasileiras tinham dívidas a vencer, segundo a CNC (Confederação Nacional do Comércio de Bens, Serviços e Turismo).</p>",
         "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-energia/frota-de-carros-eletricos-no-brasil-deve-crescer-10-vezes-em-10-anos/",
+        "fonteUrl": "https://www.poder360.com.br/poder-economia/bets-estao-associadas-a-saida-de-r-404-bi-das-familias-diz-comsefaz/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil Economia",
@@ -107,27 +71,27 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Projeção da Empresa de Pesquisa Energética estima um crescimento anual de 26% nas vendas de veículos eletrificados"
+            "resposta": "Estudo compara transferências via Pix com projeção de cenário sem a expansão das apostas"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A EPE (Empresa de Pesquisa Energética) estima que a frota de veículos elétricos no Brasil vai alcançar 9,7 milhões até 2036. Isso representa um aumento de 10 vezes ante a frota atual."
+            "resposta": "O avanço das apostas esportivas on-line, conhecidas como bets, esteve associado a uma transferência líquida de R$ 40,39 bilhões das famílias brasileiras para empresas do setor de janeiro a julho de 2026."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Todos os modelos de veículos eletrificados terão um aumento nas vendas, desde os híbridos aos híbridos plug-ins e os BEV (modelos 100% elétricos). Em 2036, a expectativa é que os eletrificados representem 36% das vendas totais de veículos leves."
+            "resposta": "O levantamento considera transferências via Pix de pessoas físicas para empresas classificadas pelo Banco Central na categoria “artes, cultura, esporte e recreação”, que inclui casas de apostas e outros negócios."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Segundo a EPE, existem 2 fatores principais que contribuirão para a popularidade dos elétricos –não apenas no Brasil, mas no mundo– nos próximos anos:"
+            "resposta": "O modelo, chamado Arima, foi construído com base nos dados disponíveis até agosto de 2024. Os pesquisadores projetaram como as transferências teriam evoluído caso o padrão anterior à expansão das apostas tivesse continuado."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Já entre os principais desafios do Brasil para acomodar o maior volume de carros elétricos estão a falta de infraestrutura de carregamento e o custo de equipamentos. Esses são os 2 principais fatores de reclamação das próprias montadoras para lidar com os eletrificados."
+            "resposta": "Em 2025, o volume bruto adicional de transferências estimado chegou a R$ 350,97 bilhões. De janeiro a julho de 2026, o valor acumulado foi de R$ 144,02 bilhões. Esses números consideram os pagamentos adicionais das famílias às empresas, sem descontar os recursos que retornaram às pessoas físicas."
           }
         ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/brasil-carros-eletrico-16-nov-2026-3-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/frota-de-carros-eletricos-no-brasil-deve-crescer-10-vezes-em-10-anos.jpg",
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2025/06/arte-bets-2-jun-2025-01-scaled.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/bets-estao-associadas-a-saida-de-r-40-4-bi-das-familias-diz-comsefaz.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -193,26 +157,26 @@
       }
     },
     {
-      "id": "ad18970a4bfdb0e0",
-      "titulo": "Anitta é indicada ao Grammy Internacional para melhor álbum global",
+      "id": "98c2f6f7a9e9b15a",
+      "titulo": "‘Bruna Surfistinha 2’ ganha primeira cena e cartaz inédito; veja quando estreia",
       "categoria": "Cultura",
       "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-cultura/anitta-e-indicada-ao-grammy-internacional-para-melhor-album-global/",
-      "dataFonte": "2026-11-16T23:22:06.000Z",
-      "resumoFonte": "Na 6ª feira (13.nov), Anitta ganhou o Grammy Latino de Melhor Álbum de Pop Contemporâneo em Língua Portuguesa com o mesmo trabalho, “EQUILIBRIVM”",
-      "imagem": "https://static.poder360.com.br/uploads/2026/09/album-anitta-grammy-latino-16-set-2026-1200x675.jpg",
-      "descobertaEm": "2026-11-17T00:18:19.771Z",
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/entretenimento/tv-e-cinema/bruna-surfistinha-2-ganha-primeira-cena-e-cartaz-inedito-veja-quando-estreia/",
+      "dataFonte": "2026-11-17T01:19:32.000Z",
+      "resumoFonte": "Deborah Secco retorna ao papel de Raquel Pacheco 15 anos após o sucesso do primeiro filme; sequência chega aos cinemas em fevereiro de 2027",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/deborah-secco-bruna-sufistinha.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-17T01:18:14.630Z",
       "reportagem": {
-        "titulo": "Anitta é indicada ao Grammy Internacional para melhor álbum global",
-        "slug": "anitta-e-indicada-ao-grammy-internacional-para-melhor-album-global",
+        "titulo": "‘Bruna Surfistinha 2’ ganha primeira cena e cartaz inédito; veja quando estreia",
+        "slug": "bruna-surfistinha-2-ganha-primeira-cena-e-cartaz-inedito-veja-quando-estreia",
         "categoria": "Cultura",
         "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/anitta-e-indicada-ao-grammy-internacional-para-melhor-album-global.jpg",
-        "resumo": "Anitta ganhou o Grammy Latino de Melhor Álbum de Pop Contemporâneo em Língua Portuguesa com “EQUILIBRIVM”.",
-        "conteudo": "<p>Na 6ª feira (13.nov), Anitta ganhou o Grammy Latino de Melhor Álbum de Pop Contemporâneo em Língua Portuguesa com o mesmo trabalho, “EQUILIBRIVM”</p><h2>As informações principais do assunto</h2><p>A cantora brasileira Anitta foi indicada ao Grammy 2027 na categoria de Melhor Álbum Global, com o “ EQUILIBRIVM” , trabalho lançado em 2 volumes: o 1º no dia 16 de abril e o 2º em 23 de julho deste ano.</p><p>A lista dos concorrentes ao prêmio foi divulgada nesta 2ª feira (16.nov.2026) pela Academia Nacional de Artes e Ciências da Gravação. As indicações correspondem a trabalhos realizados de 31 de agosto de 2025 a 28 de agosto de 2026.</p><p>A premiação do 69º Annual Grammy Awards será no dia 7 de fevereiro de 2027, na Crypto.com Arena em Los Angeles, nos Estados Unidos.</p><h2>Contexto e informações complementares</h2><p>Nas redes sociais, a artista lembrou que “ EQUILIBRIVM” é o 2º álbum de sua carreira a ser indicado para o Grammy norte-americano – o 1º foi Funk Generation .</p><p>“Diferentemente do Grammy latino, não é tão comum vermos artistas brasileiros indicados a este prêmio. E eu me sinto muito honrada, emocionada e agradecida por tanto reconhecimento. Também me sinto muito merecedora, pois sei que sou uma batalhadora nessa vida” , disse a cantora.</p><p>Na 6ª feira (13.nov), Anitta ganhou o Grammy Latino de Melhor Álbum de Pop Contemporâneo em Língua Portuguesa com o mesmo trabalho. A premiação veio depois de 12 indicações no Grammy Latino que a artista tinha conseguido, mas ainda sem levar o troféu.</p><p>Este texto foi publicado originalmente pela Agência Brasil em 16 de novembro de 2026. O conteúdo é livre para republicação, citada a fonte, e foi adaptado para o padrão do Poder360 .</p><p>A cantora brasileira Anitta foi indicada ao Grammy 2027 na categoria de Melhor Álbum Global, com o “</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-cultura/anitta-e-indicada-ao-grammy-internacional-para-melhor-album-global/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/bruna-surfistinha-2-ganha-primeira-cena-e-cartaz-inedito-veja-quando-estreia.jpg",
+        "resumo": "Deborah Secco retorna ao papel de Raquel Pacheco 15 anos após o sucesso do primeiro filme; sequência chega aos cinemas em fevereiro de 2027",
+        "conteudo": "<p>Quinze anos depois de conquistar o público brasileiro nos cinemas, Bruna Surfistinha está de volta.</p><h2>As informações principais do assunto</h2><p>A sequência do longa protagonizado por Deborah Secco teve sua primeira cena e um cartaz-teaser divulgados nesta segunda-feira (16).</p><p>Intitulado “Bruna Surfistinha 2”, o filme tem estreia marcada para 25 de fevereiro de 2027.</p><p>No primeiro trecho divulgado, Deborah Secco reaparece como Raquel Pacheco, conhecida nacionalmente como Bruna Surfistinha.</p><h2>Contexto e informações complementares</h2><p>Na cena, a personagem desembarca de um carro em frente a um hotel, entra no elevador e retoca o batom vermelho antes de seguir para um quarto.</p><p>Ao encontrar um homem, ela se apresenta: “Oi, eu sou a Bruna, e faço o que você quiser”.</p><p>A sequência promete mostrar uma nova fase da vida de Raquel. Depois de abandonar a prostituição e se casar com Huldson, antigo cliente interpretado por Cássio Gabus Mendes, a protagonista tenta manter uma rotina longe dos holofotes.</p><p>Entretanto, imprevistos financeiros e conflitos emocionais começam a abalar a estabilidade que construiu.</p><p>Diante das dificuldades, Raquel passa a considerar o retorno à antiga identidade, que a tornou conhecida em todo o país.</p><p>A história deve explorar os conflitos entre passado e presente, além do preconceito e do julgamento social enfrentados pela personagem em sua tentativa de recuperar a própria independência.</p><p>“Voltar a interpretar a Bruna Surfistinha é um dos mergulhos mais intensos e transformadores da minha carreira.</p><p>Ela é uma personagem forte e viva no imaginário das pessoas, e o público tem muita curiosidade sobre o que aconteceu com ela.</p><p>O filme joga luz sobre temas atuais, tenho certeza que vai surpreender os espectadores”, declarou Deborah Secco.</p><p>Marcus Baldini, responsável pela direção do primeiro longa, retorna ao comando da sequência, desta vez ao lado da codiretora Carol Minêm. O roteiro é assinado por Mariana Bardan e Eduardo Melo, com inspiração em fatos reais.</p><p>Além de Deborah Secco e Cássio Gabus Mendes, o elenco reúne Fabiula Nascimento, Drica Moraes, Cris Lago, Paulo Lessa, Michelli Machado e Emilio de Mello.</p><p>Lançado em 2011, o primeiro “Bruna Surfistinha” levou mais de 2,2 milhões de espectadores aos cinemas e se tornou um dos filmes brasileiros mais comentados daquele período.</p><p>Agora, mais de uma década depois, a produção aposta no reencontro com uma personagem que continua despertando curiosidade e discussões.</p><p>Deborah Secco retorna ao papel de Raquel Pacheco 15 anos após o sucesso do primeiro filme; sequência chega aos cinemas em fevereiro de 2027</p><p>Rei Charles III dá as boas-vindas a Robert Pattinson como novo James Bond</p><p>Ator foi confirmado no papel do agente mais famoso do cinema nesta segunda-feira (16)</p><p>Robert Pattinson é oficializado como novo James Bond e assume o posto de Daniel Craig em 007</p><p>Christian Cousins, ator de 'Um Tira no Jardim de Infância', morre aos 43 anos</p><p>Netflix lança documentário sobre crimes sexuais de Russell Brand após condenação do comediante</p><p>Netflix pagou R$ 500 mil a Richthofen? Congresso discute proibir cachês para criminosos</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/entretenimento/tv-e-cinema/bruna-surfistinha-2-ganha-primeira-cena-e-cartaz-inedito-veja-quando-estreia/",
         "fontesAdicionais": [
           {
             "nome": "A Gazeta",
@@ -227,124 +191,88 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Na 6ª feira (13.nov), Anitta ganhou o Grammy Latino de Melhor Álbum de Pop Contemporâneo em Língua Portuguesa com o mesmo trabalho, “EQUILIBRIVM”"
+            "resposta": "Quinze anos depois de conquistar o público brasileiro nos cinemas, Bruna Surfistinha está de volta. A sequência do longa protagonizado por Deborah Secco teve sua primeira cena e um cartaz-teaser divulgados nesta segunda-feira (16). Intitulado “Bruna Surfistinha 2”, o filme tem estreia marcada para 25 de fevereiro de 2027."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A cantora brasileira Anitta foi indicada ao Grammy 2027 na categoria de Melhor Álbum Global, com o “ EQUILIBRIVM” , trabalho lançado em 2 volumes: o 1º no dia 16 de abril e o 2º em 23 de julho deste ano."
+            "resposta": "No primeiro trecho divulgado, Deborah Secco reaparece como Raquel Pacheco, conhecida nacionalmente como Bruna Surfistinha. Na cena, a personagem desembarca de um carro em frente a um hotel, entra no elevador e retoca o batom vermelho antes de seguir para um quarto. Ao encontrar um homem, ela se apresenta: “Oi, eu sou a Bruna, e faço o que você quiser”."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A lista dos concorrentes ao prêmio foi divulgada nesta 2ª feira (16.nov.2026) pela Academia Nacional de Artes e Ciências da Gravação. As indicações correspondem a trabalhos realizados de 31 de agosto de 2025 a 28 de agosto de 2026."
+            "resposta": "A sequência promete mostrar uma nova fase da vida de Raquel. Depois de abandonar a prostituição e se casar com Huldson, antigo cliente interpretado por Cássio Gabus Mendes, a protagonista tenta manter uma rotina longe dos holofotes. Entretanto, imprevistos financeiros e conflitos emocionais começam a abalar a estabilidade que construiu."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A premiação do 69º Annual Grammy Awards será no dia 7 de fevereiro de 2027, na Crypto.com Arena em Los Angeles, nos Estados Unidos."
+            "resposta": "Diante das dificuldades, Raquel passa a considerar o retorno à antiga identidade, que a tornou conhecida em todo o país. A história deve explorar os conflitos entre passado e presente, além do preconceito e do julgamento social enfrentados pela personagem em sua tentativa de recuperar a própria independência."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Nas redes sociais, a artista lembrou que “ EQUILIBRIVM” é o 2º álbum de sua carreira a ser indicado para o Grammy norte-americano – o 1º foi Funk Generation ."
+            "resposta": "“Voltar a interpretar a Bruna Surfistinha é um dos mergulhos mais intensos e transformadores da minha carreira. Ela é uma personagem forte e viva no imaginário das pessoas, e o público tem muita curiosidade sobre o que aconteceu com ela. O filme joga luz sobre temas atuais, tenho certeza que vai surpreender os espectadores”, declarou Deborah Secco."
           }
         ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/09/album-anitta-grammy-latino-16-set-2026-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/anitta-e-indicada-ao-grammy-internacional-para-melhor-album-global.jpg",
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/deborah-secco-bruna-sufistinha.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/bruna-surfistinha-2-ganha-primeira-cena-e-cartaz-inedito-veja-quando-estreia.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "bcf88037b87911b7",
-      "titulo": "United enfrenta falha em sistemas dias após paralisação aérea nos EUA",
+      "id": "3afa7ba96ef427ed",
+      "titulo": "Sob a alegação de risco de a tecnologia ser desviada para a China, EUA restringem acesso do Brasil a chips avançados de IA | G1",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "g1 - Capa",
+      "urlFonte": "https://g1.globo.com/jornal-nacional/noticia/2026/11/16/sob-a-alegacao-de-risco-de-a-tecnologia-ser-desviada-para-a-china-eua-restringem-acesso-do-brasil-a-chips-avancados-de-ia.ghtml",
+      "dataFonte": "2026-11-17T00:55:43.092Z",
+      "resumoFonte": "Os Estados Unidos proíbem a venda direta de chips avançados de inteligência artificial para empresas e laboratórios chineses por motivos de segurança nacional.",
+      "imagem": "https://s2-g1.glbimg.com/2Z6WhmfdDwwfCQ83Xa_wq8WbxXc=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/a/GA4QV2SLA3PbRcKkmyYw/globo-canal-4-20261116-2000-frame-82659.jpeg",
+      "descobertaEm": "2026-11-17T01:20:25.692Z"
+    },
+    {
+      "id": "ac4bfce98853425a",
+      "titulo": "Santos: Neymar Jr., Philippe Coutinho e Arthur vão a jogo da Kings League",
       "categoria": "Esporte",
       "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mundo/united-enfrenta-falha-em-sistemas-dias-apos-paralisacao-aerea-nacional-nos-eua/",
-      "dataFonte": "2026-11-16T23:01:30.000Z",
-      "resumoFonte": "Aviões da United Airlines estacionados no aeroporto internacional Newark Liberty (EWR), em Newark, Nova Jersey. A companhia enfrenta uma falha em seus sistemas que afeta voos de partida poucos dias após a paralisação aérea nacional nos Estados Unidos. Crédito: Michael Nagle/Bloomberg \"…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/475273947.jpg",
-      "descobertaEm": "2026-11-16T23:18:48.485Z",
-      "reportagem": {
-        "titulo": "United enfrenta falha em sistemas dias após paralisação aérea nos EUA",
-        "slug": "united-enfrenta-falha-em-sistemas-dias-apos-paralisacao-aerea-nos-eua",
-        "categoria": "Esporte",
-        "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/united-enfrenta-falha-em-sistemas-dias-apos-paralisacao-aerea-nos-eua.jpg",
-        "resumo": "Companhia afirma que problema não tem indícios de relação com ataque cibernético; interrupção ocorre poucos dias após pane na FAA provocar paralisação nacional das decolagens",
-        "conteudo": "<p>A United Airlines está trabalhando para resolver uma ampla falha em seus sistemas que afeta voos de partida, no mais recente problema tecnológico a causar transtornos ao transporte aéreo nos Estados Unidos.</p><h2>As informações principais do assunto</h2><p>A companhia informou, em comunicado, que não há indícios de que a interrupção esteja relacionada a um ataque cibernético. A United não detalhou imediatamente a causa do problema nem quantos voos foram afetados.</p><p>“Estamos cientes da ampla falha nos sistemas e nossas equipes estão trabalhando intensamente para restabelecer as operações o mais rápido possível”, afirmou a empresa em publicação nas redes sociais.</p><p>A aérea orientou os passageiros a acompanharem o status dos voos por meio do aplicativo ou do site da companhia.</p><h2>Contexto e informações complementares</h2><p>A interrupção ocorre poucos dias após uma falha nas telecomunicações em uma instalação remota da Federal Aviation Administration (FAA) levar à suspensão nacional das decolagens na sexta-feira, forçando companhias aéreas a cancelarem milhares de voos e provocando impactos nas viagens ao longo do fim de semana.</p><p>A pane, que durou mais de quatro horas, foi atribuída a problemas em equipamentos ligados à antiga infraestrutura de comunicações da agência.</p><p>“Estamos investigando um problema tecnológico que afeta os voos em processo de partida. Não há impacto sobre voos já em andamento nem sobre as operações da United Express”, informou a companhia em nota enviada por e-mail.</p><p>As ações da United Airlines caíam 2,5% às 17h43 (horário de Nova York) nas negociações pós-mercado.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mundo/united-enfrenta-falha-em-sistemas-dias-apos-paralisacao-aerea-nacional-nos-eua/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A United Airlines está trabalhando para resolver uma ampla falha em seus sistemas que afeta voos de partida, no mais recente problema tecnológico a causar transtornos ao transporte aéreo nos Estados Unidos."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A companhia informou, em comunicado, que não há indícios de que a interrupção esteja relacionada a um ataque cibernético. A United não detalhou imediatamente a causa do problema nem quantos voos foram afetados."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "“Estamos cientes da ampla falha nos sistemas e nossas equipes estão trabalhando intensamente para restabelecer as operações o mais rápido possível”, afirmou a empresa em publicação nas redes sociais. A aérea orientou os passageiros a acompanharem o status dos voos por meio do aplicativo ou do site da companhia."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A interrupção ocorre poucos dias após uma falha nas telecomunicações em uma instalação remota da Federal Aviation Administration (FAA) levar à suspensão nacional das decolagens na sexta-feira, forçando companhias aéreas a cancelarem milhares de voos e provocando impactos nas viagens ao longo do fim de semana."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "“Estamos investigando um problema tecnológico que afeta os voos em processo de partida. Não há impacto sobre voos já em andamento nem sobre as operações da United Express”, informou a companhia em nota enviada por e-mail."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/475273947.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/united-enfrenta-falha-em-sistemas-dias-apos-paralisacao-aerea-nos-eua.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/santos-neymar-jr-philippe-coutinho-e-arthur-vao-a-jogo-da-kings-league",
+      "dataFonte": "2026-11-17T00:21:03.000Z",
+      "resumoFonte": "Os atletas estiveram presentes na partida entre Furia FC e Funkbol Clube, em São Paulo",
+      "imagem": "https://i.metroimg.com/uAgrHcQXS62ct9t6kHCmEiI5JLPxJ-g_dQyVkXynfdw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/neymar.png",
+      "descobertaEm": "2026-11-17T01:18:14.630Z"
     },
     {
-      "id": "f09c90674adeddc2",
-      "titulo": "Moraes arquiva investigação sobre Daniel Silveira por desobediência",
+      "id": "7c57ac99d296a876",
+      "titulo": "\"Medida arbitrária\", diz Marinho após Moraes vetar visita a Bolsonaro",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "O Antagonista - Capa",
-      "urlFonte": "https://oantagonista.com.br/brasil/moraes-arquiva-investigacao-sobre-daniel-silveira-por-desobediencia/",
-      "dataFonte": "2026-11-16T22:19:55.000Z",
-      "resumoFonte": "Ministro do STF atendeu pedido feito pela PGR",
-      "imagem": "https://cdn.oantagonista.com/uploads/2023/07/img20221221151459672-scaled.jpg",
-      "descobertaEm": "2026-11-16T22:22:44.489Z"
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/brasil/medida-arbitraria-diz-marinho-apos-moraes-vetar-visita-a-bolsonaro",
+      "dataFonte": "2026-11-17T01:10:30.000Z",
+      "resumoFonte": "Ministro do STF negou pedido para que o senador, Tereza Cristina e Valdemar Costa Neto se encontrassem com o ex-presidente em Brasília",
+      "imagem": "https://i.metroimg.com/TFYpzeTUhVFDo9M_9HBBt_vmaGqdrbyHzCa2nCKwFkE/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2025/09/23185830/Senador-Rogerio-Marinho-deixa-o-condominio-Solar-de-Brasilia-apos-visita-ao-ex-presidente-Jair-Bolsonaro-em-sua-residencia-onde-ele-cumpre-prisao-domiciliar-em-Brasilia-Metropoles-4.jpg",
+      "descobertaEm": "2026-11-17T01:18:14.630Z"
     },
     {
-      "id": "a0cebecf9da4be05",
-      "titulo": "Pimenta diz que destaques do Senado podem descaracterizar ajuste fiscal",
+      "id": "3e84a71b46c72d19",
+      "titulo": "Partido da base de Lula convoca protestos contra o governo em dez cidades",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-congresso/pimenta-diz-que-destaques-do-senado-podem-descaracterizar-ajuste-fiscal/",
-      "dataFonte": "2026-11-16T22:35:12.000Z",
-      "resumoFonte": "Líder do Governo diz que urgência da proposta busca manter subsídio aos combustíveis; votação será na 3ª feira (17.nov)",
-      "imagem": "https://static.poder360.com.br/uploads/2024/06/PauloPimenta-AloizioMercadante-BNDES-Ajuda-RioGrandeDoSul-14-scaled.jpg",
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/politica/partido-da-base-de-lula-convoca-protestos-contra-o-governo-em-dez-cidades/",
+      "dataFonte": "2026-11-16T23:16:29.000Z",
+      "resumoFonte": "Legenda de esquerda organiza atos contra o projeto de ajuste fiscal aprovado no Senado",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/AFP__20261111__D76A877__v1__HighRes__TurkeyAustraliaUnCop31Climate.jpg?quality=70&strip=info&resize=1200,630&crop=1",
       "descobertaEm": "2026-11-16T23:18:48.485Z",
       "reportagem": {
-        "titulo": "Pimenta diz que destaques do Senado podem descaracterizar ajuste fiscal",
-        "slug": "pimenta-diz-que-destaques-do-senado-podem-descaracterizar-ajuste-fiscal",
+        "titulo": "Partido da base de Lula convoca protestos contra o governo em dez cidades",
+        "slug": "partido-da-base-de-lula-convoca-protestos-contra-o-governo-em-dez-cidades",
         "categoria": "Política Nacional",
         "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/pimenta-diz-que-destaques-do-senado-podem-descaracterizar-ajuste-fiscal.jpg",
-        "resumo": "Líder do Governo diz que urgência da proposta busca manter subsídio aos combustíveis; votação será na 3ª feira (17.nov).",
-        "conteudo": "<p>Líder do Governo diz que urgência da proposta busca manter subsídio aos combustíveis; votação será na 3ª feira (17.nov)</p><h2>O contexto do cenário político</h2><p>O líder do Governo na Câmara, deputado Paulo Pimenta (PT-RS), disse, nesta 2ª feira (16.nov.2026), que os 4 destaques em discussão no Senado Federal podem descaracterizar o projeto de ajuste fiscal do governo de Luiz Inácio Lula da Silva (PT).</p><p>A Casa Alta analisa os textos na 3ª feira (17.nov).</p><p>“ Se aprovadas, [as medidas] descaracterizam o projeto. Queremos abrir uma janela no Orçamento para que a gente possa incluir uma série de questões que não estavam incluídas quando o Orçamento foi colocado [em pauta] : Desenrola, Pix do MEI, universalização do Pé-de-Meia para os universitários.</p><h2>Informações e repercussões do episódio</h2><p>Nada disso tinha previsão ”, disse em entrevista a jornalistas na Câmara dos Deputados .</p><p>Pimenta declarou que a urgência na aprovação do projeto se justifica pela necessidade de manter o subsídio estatal aos combustíveis.</p><p>“ Precisamos ter esse espaço fiscal e orçamentário para que, até o final desse ano, no Orçamento de 2026, esse subsídio possa ser mantido.</p><p>Por isso a necessidade de o projeto ser aprovado o mais rapidamente possível […] pela repercussão inflacionária que teria a gasolina hoje a R$ 10 e o diesel a R$ 9,50 ”, afirmou.</p><p>Os gastos do governo com subvenções econômicas à produção e à importação de diesel e derivados chegaram a R$ 7,6 bilhões em setembro de 2026.</p><p>Depois da votação dos destaques, o projeto segue para a Câmara. De acordo com o líder, o governo definirá o calendário de votações em conversa com o presidente da Casa, Hugo Motta (Republicanos-PB).</p><p>Além disso, na 3ª feira (17.nov), haverá uma reunião com deputados do PT com a presença do ministro do Planejamento e Orçamento, Bruno Moretti. Internamente, deputados do partido contestam a proposta.</p><p>Os destaques em votação no Senado propõem as seguintes medidas:</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-congresso/pimenta-diz-que-destaques-do-senado-podem-descaracterizar-ajuste-fiscal/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/partido-da-base-de-lula-convoca-protestos-contra-o-governo-em-dez-cidades.jpg",
+        "resumo": "Legenda de esquerda organiza atos contra o projeto de ajuste fiscal aprovado no Senado",
+        "conteudo": "<p>Integrante da coliga&ccedil;&atilde;o que sustentou a quarta vit&oacute;ria presidencial de Luiz In&aacute;cio Lula da Silva em 2026, o PSOL prepara a primeira manifesta&ccedil;&atilde;o de rua contra a nova gest&atilde;o petista.</p><h2>O contexto do cenário político</h2><p>Os atos ocorrem tr&ecirc;s semanas ap&oacute;s o pleito e atingem diretamente a pol&iacute;tica econ&ocirc;mica do governo, sinalizando antecipadamente o tom de tensionamento que deve marcar o relacionamento entre o Pal&aacute;cio do Planalto e sua base no Congresso.</p><p>Os protestos organizados pelo PSOL est&atilde;o confirmados para a ter&ccedil;a-feira 17 em dez cidades brasileiras.</p><p>A mobiliza&ccedil;&atilde;o abrange capitais como S&atilde;o Paulo, Rio de Janeiro e Bras&iacute;lia, al&eacute;m de outros cinco centros urbanos no pa&iacute;s.</p><h2>Informações e repercussões do episódio</h2><p>A iniciativa marca a primeira vez que um partido aliado da base governista leva apoiadores &agrave;s ruas contra o presidente Luiz In&aacute;cio Lula da Silva desde a confirma&ccedil;&atilde;o da sua reelei&ccedil;&atilde;o nas urnas, revelando a disposi&ccedil;&atilde;o da legenda em confrontar as diretrizes econ&ocirc;micas definidas pela equipe do governo federal.</p><p>Em nota divulgada pela sua executiva nacional na quinta-feira 12, a dire&ccedil;&atilde;o do partido afirma que defender o programa pelo qual a milit&acirc;ncia se mobilizou envolve disputar a destina&ccedil;&atilde;o dos recursos no Or&ccedil;amento de 2027.</p><p>O PSOL convocou movimentos, sindicatos, estudantes e entidades defensoras de direitos sociais para integrarem os protestos.</p><p>Na avalia&ccedil;&atilde;o da sigla, a proposta econ&ocirc;mica descumpre os compromissos assumidos pelo presidente Luiz In&aacute;cio Lula da Silva perante a sua base eleitoral ao priorizar concess&otilde;es ao mercado financeiro.</p><p>A mobiliza&ccedil;&atilde;o promovida por um aliado de esquerda antecipa o clima de press&atilde;o pol&iacute;tica sobre o Executivo federal.</p><p>De um lado, o presidente Luiz In&aacute;cio Lula da Silva sofre cobran&ccedil;as de setores &agrave; direita para entregar resultados fiscais alinhados &agrave;s exig&ecirc;ncias de mercado.</p><p>De outro, &eacute; cobrado por aliados &agrave; esquerda para preservar investimentos em servi&ccedil;os essenciais e atender &agrave;s expectativas do eleitorado que garantiu a sua vit&oacute;ria nas urnas, criando um cen&aacute;rio de disputa direta pela orienta&ccedil;&atilde;o do Or&ccedil;amento.</p><p>VEJA+IA: Conte&uacute;do produzido com aux&iacute;lio de intelig&ecirc;ncia artificial e supervis&atilde;o humana.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/politica/partido-da-base-de-lula-convoca-protestos-contra-o-governo-em-dez-cidades/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -359,87 +287,99 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Líder do Governo diz que urgência da proposta busca manter subsídio aos combustíveis; votação será na 3ª feira (17.nov)"
+            "resposta": "Integrante da coliga&ccedil;&atilde;o que sustentou a quarta vit&oacute;ria presidencial de Luiz In&aacute;cio Lula da Silva em 2026, o PSOL prepara a primeira manifesta&ccedil;&atilde;o de rua contra a nova gest&atilde;o petista."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O líder do Governo na Câmara, deputado Paulo Pimenta (PT-RS), disse, nesta 2ª feira (16.nov.2026), que os 4 destaques em discussão no Senado Federal podem descaracterizar o projeto de ajuste fiscal do governo de Luiz Inácio Lula da Silva (PT). A Casa Alta analisa os textos na 3ª feira (17.nov)."
+            "resposta": "Os protestos organizados pelo PSOL est&atilde;o confirmados para a ter&ccedil;a-feira 17 em dez cidades brasileiras. A mobiliza&ccedil;&atilde;o abrange capitais como S&atilde;o Paulo, Rio de Janeiro e Bras&iacute;lia, al&eacute;m de outros cinco centros urbanos no pa&iacute;s."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "“ Se aprovadas, [as medidas] descaracterizam o projeto. Queremos abrir uma janela no Orçamento para que a gente possa incluir uma série de questões que não estavam incluídas quando o Orçamento foi colocado [em pauta] : Desenrola, Pix do MEI, universalização do Pé-de-Meia para os universitários."
+            "resposta": "Em nota divulgada pela sua executiva nacional na quinta-feira 12, a dire&ccedil;&atilde;o do partido afirma que defender o programa pelo qual a milit&acirc;ncia se mobilizou envolve disputar a destina&ccedil;&atilde;o dos recursos no Or&ccedil;amento de 2027."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Pimenta declarou que a urgência na aprovação do projeto se justifica pela necessidade de manter o subsídio estatal aos combustíveis. “ Precisamos ter esse espaço fiscal e orçamentário para que, até o final desse ano, no Orçamento de 2026, esse subsídio possa ser mantido."
+            "resposta": "A mobiliza&ccedil;&atilde;o promovida por um aliado de esquerda antecipa o clima de press&atilde;o pol&iacute;tica sobre o Executivo federal. De um lado, o presidente Luiz In&aacute;cio Lula da Silva sofre cobran&ccedil;as de setores &agrave; direita para entregar resultados fiscais alinhados &agrave;s exig&ecirc;ncias de mercado."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os gastos do governo com subvenções econômicas à produção e à importação de diesel e derivados chegaram a R$ 7,6 bilhões em setembro de 2026."
+            "resposta": "VEJA+IA: Conte&uacute;do produzido com aux&iacute;lio de intelig&ecirc;ncia artificial e supervis&atilde;o humana."
           }
         ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2024/06/PauloPimenta-AloizioMercadante-BNDES-Ajuda-RioGrandeDoSul-14-scaled.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/pimenta-diz-que-destaques-do-senado-podem-descaracterizar-ajuste-fiscal.jpg",
+        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/11/AFP__20261111__D76A877__v1__HighRes__TurkeyAustraliaUnCop31Climate.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/partido-da-base-de-lula-convoca-protestos-contra-o-governo-em-dez-cidades.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "3a3506a046c82597",
-      "titulo": "Lula tem encontro fora da agenda com presidente de Cabo Verde",
-      "categoria": "Política Nacional",
+      "id": "60309867d9a95e06",
+      "titulo": "Análise: Dólar alto dá &quot;boas-vindas&quot; a Lula após ida ao exterior",
+      "categoria": "Economia",
       "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/politica/lula-tem-encontro-fora-da-agenda-com-presidente-de-cabo-verde/",
-      "dataFonte": "2026-11-16T22:22:23.000Z",
-      "resumoFonte": "Presidente da República, Luiz Inácio Lula da Silva (PT). Foto: Ricardo Stuckert \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/55636960030_366447a419_k.jpg?fit=1280%2C853&quality=70&strip=all\" />Presidente cabo-verdiano foi reeleito no domingo (15) The post Lula tem encontro fora da agenda com presidente de Cabo Verde…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/55636960030_366447a419_k.jpg",
-      "descobertaEm": "2026-11-16T23:18:48.485Z",
+      "fonteNome": "CNN Brasil - Capa",
+      "urlFonte": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/economia/money/macroeconomia/analise-dolar-alto-da-boas-vindas-a-lula-apos-ida-ao-exterior/",
+      "dataFonte": "2026-11-17T01:02:37.000Z",
+      "resumoFonte": "Um dos prinicpais bancos de investimentos do mundo, o Morgan Stanley, rebaixou a recomendação para a Bolsa brasileira e agora prevê uma queda de 7% do Ibovespa até 2027",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/estrategia-moeda-estrangeira.jpeg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-17T01:20:25.692Z"
+    },
+    {
+      "id": "83143beb8aa364d7",
+      "titulo": "Incerteza fiscal no Brasil e cenário internacional: entenda o que levou o dólar ao maior patamar em 19 meses",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "O Globo - Capa",
+      "urlFonte": "https://oglobo.globo.com/economia/financas/noticia/2026/11/16/incerteza-fiscal-no-brasil-e-cenario-internacional-entenda-o-que-levou-o-dolar-ao-maior-patamar-em-19-meses.ghtml",
+      "dataFonte": "2026-11-17T01:00:02.186Z",
+      "resumoFonte": "Demora em definição de nomes da equipe econômica e ajustes para reduzir trajetória da dívida ampliam desconfiança. Perspectiva de altas seguidas no juro americano também pressiona câmbio",
+      "imagem": "https://s2-oglobo.glbimg.com/8zHfQvV_lcptaG_mPUVLrcn9HmI=/3000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/6/P/AAqE2ETBWLfoQ9XHVAQw/325160980.jpg",
+      "descobertaEm": "2026-11-17T01:20:25.692Z",
       "reportagem": {
-        "titulo": "Lula tem encontro fora da agenda com presidente de Cabo Verde",
-        "slug": "lula-tem-encontro-fora-da-agenda-com-presidente-de-cabo-verde",
-        "categoria": "Política Nacional",
+        "titulo": "Incerteza fiscal no Brasil e cenário internacional: entenda o que levou o dólar ao maior patamar em 19 meses",
+        "slug": "incerteza-fiscal-no-brasil-e-cenario-internacional-entenda-o-que-levou-o-dolar-ao-maior-pa",
+        "categoria": "Economia",
         "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-tem-encontro-fora-da-agenda-com-presidente-de-cabo-verde.jpg",
-        "resumo": "Lula tem encontro fora da agenda com presidente de Cabo Verde. Registro original em InfoMoney. A Redação Notícia ES reapurou a pauta para a editoria Política Nacional.",
-        "conteudo": "<p>O presidente Luiz Inácio Lula da Silva (PT) teve um encontro fora da agenda com o presidente de Cabo Verde, José Maria Neves, nesta segunda-feira (16).</p><h2>O contexto do cenário político</h2><p>Segundo nota divulgada por Lula no X, Neves indicou querer “contar com a cooperação do Brasil para projetos nas áreas de energia renovável, saúde, educação e produção de alimentos”.</p><p>Lula disse que se comprometeu com o presidente de Cabo Verde que o Brasil irá se dispor a aprofundar a cooperação bilateral.</p><p>“Assegurei ao presidente cabo-verdiano a disposição do meu governo em apoiar seu país e fazer das nossas relações bilaterais um exemplo de cooperação Sul-Sul”, disse Lula em nota.</p><h2>Informações e repercussões do episódio</h2><p>Presidente quer definir novo indicado ainda em novembro, após derrota de Jorge Messias no Senado</p><p>Esquerdista, José Maria Neves foi reeleito presidente neste domingo (15) com 80.875 votos (63,85% dos votos válidos), contra 39.950 votos da conservadora Joana Rosa.</p><p>Neves é apenas chefe de Estado, mas o partido dele, o Partido Africano da Independência de Cabo Verde (PAICV), controla o governo com o primeiro-ministro, Francisco Carvalho.</p><p>O encontro de Lula com Maria Neves não estava previsto na agenda, mas o pouso em Cabo Verde sim. O arquipélago é tradicional escala para abastecimento em viagens do presidente para a Europa e Ásia.</p><p>Nesta segunda, Lula se encontrou com o presidente do governo da Espanha, Pedro Sánchez.</p><p>Lula está há sete dias fora do Brasil, desde que embarcou para participar da abertura da COP-31, em Antália (Turquia) no dia 9 de outubro.</p><p>De lá, foi para as Filipinas, onde prestigiou a reunião da cúpula da Associação de Nações do Sudeste Asiático (Asean). Da Ásia, seguiu para a Espanha e, agora, Cabo Verde.</p><p>A chegada do presidente em Brasília deve ocorrer entre o fim da noite desta segunda e a madrugada desta terça-feira (17).</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/politica/lula-tem-encontro-fora-da-agenda-com-presidente-de-cabo-verde/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/incerteza-fiscal-no-brasil-e-cenario-internacional-entenda-o-que-levou-o-dolar-ao-maior-pa.jpg",
+        "resumo": "Demora em definição de nomes da equipe econômica e ajustes para reduzir trajetória da dívida ampliam desconfiança. Perspectiva de altas seguidas no juro americano também pressiona câmbio",
+        "conteudo": "<p>Desde que o presidente Lula foi reeleito, no fim de outubro, a cotação do dólar não para de subir. O valor da moeda americana em reais fechou hoje em R$ 5,77, na cotação mais alta do ano e o maior patamar em 19 meses.</p><h2>Dados e contexto do setor</h2><p>A moeda americana já subiu cerca de 15% desde o segundo turno presidencial.</p><p>Em relação à cotação de sexta-feira, o dólar subiu hoje 2,1% em um só dia, tendo chegado a R$ 5,79 durante a sessão de negócios de hoje.</p><p>Dentre as 31 moedas mais negociadas no mundo, o real teve a maior desvalorização frente a moeda americana. Afinal, o que está deixando o câmbio tão tenso?</p><h2>Impactos e informações adicionais</h2><p>'Prévia' do PIB: IBC-Br cai 0,9% no trimestre e reforça desacelaração Crise da Nvidia: EUA vão limitar uso de chips americanos em data centers do Brasil e de outros quatro países</p><p>Há fatores domésticos e externos, apontam especialistas e analistas de mercado. No Brasil, a dificuldade do governo em adotar medidas de ajuste fiscal consistentes e a demora do presidente em definir os nomes da equipe econômica de seu quarto mandato contribuíram para ampliar as incertezas dos investidores.</p><p>Também pesa a piora nas expectativas para indicadores econômicos do país.</p><p>O mercado financeiro também reagiu ao fato de que, nos EUA, os analistas passaram a estimar mais três altas do Fed (o banco central americano), nos juros da maior economia do mundo, em dezembro, janeiro e março.</p><p>A perspectiva de mais ganhos nos EUA estimula a saída de investidores daqui para lá. É um fator que também reduz espaço para a queda dos juros no Brasil.</p><p>Quando investidores estrangeiros tiram capital do país, trocam reais por dólares e acabam influenciando a alta da cotação da moeda americana por aqui. O real foi a moeda que mais se desvalorizou frente ao dólar hoje, na comparação com outras trinta moedas.</p><p>Na avaliação de Ian Lima, gestor de renda fixa da Dahlia Capital, o somatório desses fatores acima contribuiu com a alta firme da divisa:</p><p>— É um somatório do real mais fraco por sazonalidade de remessas, expectativa de queda de atividade combinada com inflação acelerando e, do outro lado, um dólar global mais forte por um Fed mais hawkish (combativo à inflação).</p><p>O ex-secretário do Tesouro e chefe de macroeconomia do ASA, Jeferson Bittencourt avalia que o mercado já começa a revisar as expectativas para não haver nenhum ajuste que inverta a trajetória de crescimento da dívida pública.</p><p>Em setembro, a relação entre a dívida pública e tudo o que a economia produz alcançou 82,9%, o mais alto nível desde 2021, no auge da pandemia. O patamar atual de partida, diz Bittencourt, contribui com a adversidade maior:</p><p>— O risco de aumentar a dívida em dois pontos (percentuais em relação ao PIB) a partir de 70% não é o mesmo risco de aumentar dois pontos a partir de 80%.</p><p>Associo a um lago congelado: a borda é mais firme, mas a cada passo que você dá para o centro, fica mais arriscado dar o próximo passo.</p><p>Hoje, o Boletim Focus, do Banco Central (BC), mostrou que o mercado financeiro elevou as projeções de inflação e juros para 2027 e reduziu a previsão de crescimento da economia.</p><p>Na pesquisa com analistas, a mediana das previsões para o IPCA subiu de 4,9% para 5%, a quinta alta semanal seguida.</p><p>A projeção para a inflação neste ano, porém, caiu de 5,22% para 5,11%, após o IPCA desacelerar de 0,82% em setembro para 0,14% em outubro. As estimativas de inflação para 2026 e 2027, no entanto, seguem acima de 4,5%, o teto da meta, o que reduz espaço para o BC cortar juros.</p><p>Natalia Gurushina, economista-chefe da gestora americana VanEck, diz que as expectativas de inflação afetam os investimentos.</p><p>Para ela, “a leitura é negativa e aponta para as dúvidas do mercado quanto à capacidade do governo e do Banco Central de fazerem seu trabalho adequadamente”.</p><p>A indicação do ministro da Fazenda, ela diz, será um marco importante para guiar as expectativas.</p><p>Para André Luiz Haas Caruso, CEO da Pilar Capital, a desaceleração da economia ajuda a conter a inflação, mas seus efeitos ocorrem com defasagem e podem ser reduzidos por pressões cambiais, reajustes de custos e incertezas fiscais.</p><p>Insumos em dólar, por exemplo, podem tornar produtos fabricados aqui mais caros e alimentar a inflação.</p><p>Segundo ele, a fragilidade do investimento produtivo agrava o problema, enquanto o país limita a expansão da capacidade produtiva e os ganhos de produtividade.</p>",
+        "fonteNome": "O Globo - Capa",
+        "fonteUrl": "https://oglobo.globo.com/economia/financas/noticia/2026/11/16/incerteza-fiscal-no-brasil-e-cenario-internacional-entenda-o-que-levou-o-dolar-ao-maior-patamar-em-19-meses.ghtml",
         "fontesAdicionais": [
           {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
           },
           {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O presidente Luiz Inácio Lula da Silva (PT) teve um encontro fora da agenda com o presidente de Cabo Verde, José Maria Neves, nesta segunda-feira (16). Segundo nota divulgada por Lula no X, Neves indicou querer “contar com a cooperação do Brasil para projetos nas áreas de energia renovável, saúde, educação e produção de alimentos”."
+            "resposta": "Desde que o presidente Lula foi reeleito, no fim de outubro, a cotação do dólar não para de subir. O valor da moeda americana em reais fechou hoje em R$ 5,77, na cotação mais alta do ano e o maior patamar em 19 meses. A moeda americana já subiu cerca de 15% desde o segundo turno presidencial."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Lula disse que se comprometeu com o presidente de Cabo Verde que o Brasil irá se dispor a aprofundar a cooperação bilateral."
+            "resposta": "Em relação à cotação de sexta-feira, o dólar subiu hoje 2,1% em um só dia, tendo chegado a R$ 5,79 durante a sessão de negócios de hoje. Dentre as 31 moedas mais negociadas no mundo, o real teve a maior desvalorização frente a moeda americana. Afinal, o que está deixando o câmbio tão tenso?"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "“Assegurei ao presidente cabo-verdiano a disposição do meu governo em apoiar seu país e fazer das nossas relações bilaterais um exemplo de cooperação Sul-Sul”, disse Lula em nota."
+            "resposta": "'Prévia' do PIB: IBC-Br cai 0,9% no trimestre e reforça desacelaração Crise da Nvidia: EUA vão limitar uso de chips americanos em data centers do Brasil e de outros quatro países"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Presidente quer definir novo indicado ainda em novembro, após derrota de Jorge Messias no Senado"
+            "resposta": "Há fatores domésticos e externos, apontam especialistas e analistas de mercado. No Brasil, a dificuldade do governo em adotar medidas de ajuste fiscal consistentes e a demora do presidente em definir os nomes da equipe econômica de seu quarto mandato contribuíram para ampliar as incertezas dos investidores."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Esquerdista, José Maria Neves foi reeleito presidente neste domingo (15) com 80.875 votos (63,85% dos votos válidos), contra 39.950 votos da conservadora Joana Rosa. Neves é apenas chefe de Estado, mas o partido dele, o Partido Africano da Independência de Cabo Verde (PAICV), controla o governo com o primeiro-ministro, Francisco Carvalho."
+            "resposta": "O mercado financeiro também reagiu ao fato de que, nos EUA, os analistas passaram a estimar mais três altas do Fed (o banco central americano), nos juros da maior economia do mundo, em dezembro, janeiro e março. A perspectiva de mais ganhos nos EUA estimula a saída de investidores daqui para lá."
           }
         ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/55636960030_366447a419_k.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-tem-encontro-fora-da-agenda-com-presidente-de-cabo-verde.jpg",
+        "imagemOriginal": "https://s2-oglobo.glbimg.com/8zHfQvV_lcptaG_mPUVLrcn9HmI=/3000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/6/P/AAqE2ETBWLfoQ9XHVAQw/325160980.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/incerteza-fiscal-no-brasil-e-cenario-internacional-entenda-o-que-levou-o-dolar-ao-maior-pa.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -565,66 +505,6 @@
       }
     },
     {
-      "id": "03dc086dd117f209",
-      "titulo": "Regulação das big techs pode render até R$ 50,6 bi, diz Fazenda",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Poder360",
-      "urlFonte": "https://www.poder360.com.br/poder-economia/regulacao-das-big-techs-pode-render-ate-r-506-bi-diz-fazenda/",
-      "dataFonte": "2026-11-16T23:29:42.000Z",
-      "resumoFonte": "Estudo estima ganhos anuais com redução de preços e maior concorrência digital; proposta amplia atuação do Cade. Leia no Poder360.",
-      "imagem": "https://static.poder360.com.br/uploads/2026/08/Fachada-Ministerio-Fazenda-1080-1200x675.png",
-      "descobertaEm": "2026-11-17T00:18:19.771Z",
-      "reportagem": {
-        "titulo": "Regulação das big techs pode render até R$ 50,6 bi, diz Fazenda",
-        "slug": "regulacao-das-big-techs-pode-render-ate-r-50-6-bi-diz-fazenda",
-        "categoria": "Economia",
-        "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/regulacao-das-big-techs-pode-render-ate-r-50-6-bi-diz-fazenda.jpg",
-        "resumo": "Estudo estima ganhos anuais com redução de preços e maior concorrência digital; proposta amplia atuação do Cade.",
-        "conteudo": "<p>Estudo estima ganhos anuais com redução de preços e maior concorrência digital; proposta amplia atuação do Cade</p><h2>Dados e contexto do setor</h2><p>O Ministério da Fazenda estima que a ampliação da concorrência entre plataformas digitais pode render de R$ 15,3 bilhões a R$ 50,6 bilhões por ano em benefícios econômicos para consumidores e empresas brasileiras.</p><p>Os valores constam de uma nota técnica da Secretaria de Reformas Econômicas, divulgada em novembro de 2026, sobre os possíveis impactos do projeto de lei 4.675 de 2025 , que regula as bigtechs e amplia a atuação do Cade (Conselho Administrativo de Defesa Econômica) sobre grandes empresas de tecnologia.</p><p>Segundo o levantamento, os benefícios estimados equivalem de 0,1% a 0,4% do PIB (Produto Interno Bruto), ou de R$ 70 a R$ 240 por habitante ao ano.</p><h2>Impactos e informações adicionais</h2><p>Os valores consideram possíveis reduções de preços e comissões cobrados pelas plataformas , mas não incluem ganhos adicionais com inovação, produtividade ou melhoria dos serviços.</p><p>Para calcular os benefícios, a Fazenda considerou cenários de redução de preços de 10% a 33% em mercados com maior risco de concentração econômica. As estimativas não representam resultados garantidos com a aprovação do projeto.</p><p>“O estudo demonstra o quão grande será esse ganho para a sociedade” , afirmou o secretário de Reformas Econômicas, Regis Dudena.</p><p>Apresentado pelo governo federal em 2025, o PL 4.675 propõe ampliar os instrumentos do Cade para fiscalizar grandes plataformas digitais e combater práticas que dificultem a entrada de concorrentes.</p><p>A proposta permite a aplicação de obrigações específicas a grupos econômicos com faturamento anual superior a R$ 50 bilhões no mundo ou R$ 5 bilhões no Brasil.</p><p>Para isso, o Cade também deverá identificar características que indiquem influência relevante sobre o funcionamento dos mercados digitais.</p><p>O enquadramento nos limites de faturamento não implica aplicação automática das regras. Cada caso deverá passar por análise individualizada, com possibilidade de participação das empresas envolvidas.</p><p>O objetivo é reduzir barreiras à concorrência e ampliar as opções disponíveis aos consumidores, sem estabelecer controle direto sobre preços.</p><p>O texto tramita em regime de urgência na Câmara dos Deputados, sob relatoria do deputado Aliel Machado (PV-PR), e aguarda inclusão na pauta do Plenário.</p><p>A análise da Fazenda utiliza pesquisas econômicas e experiências internacionais para estimar os possíveis efeitos da regulação. Segundo o levantamento, medidas adotadas em outros países estiveram associadas a reduções nominais de 10% a 33% nas comissões de lojas de aplicativos.</p><p>O anexo metodológico apresenta cenários alternativos. Na hipótese mais restritiva, que considera uma base menor de atividades afetadas, os benefícios estimados caem para R$ 8 bilhões a R$ 26,5 bilhões por ano. Leia a íntegra (PDF – 584 kB).</p><p>O documento também reconhece riscos regulatórios, como custos de adaptação e possíveis atrasos no lançamento de produtos, que não foram integralmente quantificados.</p><p>A Fazenda sustenta que os benefícios potenciais superam os custos diretos de adequação das empresas, mas ressalta que os resultados dependem da implementação das medidas e das condições de cada mercado.</p>",
-        "fonteNome": "Poder360",
-        "fonteUrl": "https://www.poder360.com.br/poder-economia/regulacao-das-big-techs-pode-render-ate-r-506-bi-diz-fazenda/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Estudo estima ganhos anuais com redução de preços e maior concorrência digital; proposta amplia atuação do Cade"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Ministério da Fazenda estima que a ampliação da concorrência entre plataformas digitais pode render de R$ 15,3 bilhões a R$ 50,6 bilhões por ano em benefícios econômicos para consumidores e empresas brasileiras."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Os valores constam de uma nota técnica da Secretaria de Reformas Econômicas, divulgada em novembro de 2026, sobre os possíveis impactos do projeto de lei 4.675 de 2025 , que regula as bigtechs e amplia a atuação do Cade (Conselho Administrativo de Defesa Econômica) sobre grandes empresas de tecnologia. Leia a íntegra (PDF – 250 kB)."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Segundo o levantamento, os benefícios estimados equivalem de 0,1% a 0,4% do PIB (Produto Interno Bruto), ou de R$ 70 a R$ 240 por habitante ao ano. Os valores consideram possíveis reduções de preços e comissões cobrados pelas plataformas , mas não incluem ganhos adicionais com inovação, produtividade ou melhoria dos serviços."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Para calcular os benefícios, a Fazenda considerou cenários de redução de preços de 10% a 33% em mercados com maior risco de concentração econômica. As estimativas não representam resultados garantidos com a aprovação do projeto."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/08/Fachada-Ministerio-Fazenda-1080-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/regulacao-das-big-techs-pode-render-ate-r-50-6-bi-diz-fazenda.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
       "id": "ae4fe89ae55b69fa",
       "titulo": "Por que governo do Rio propôs negociar dívidas com desconto de até 95% nos juros",
       "categoria": "Economia",
@@ -697,146 +577,26 @@
       "descobertaEm": "2026-11-17T00:18:19.771Z"
     },
     {
-      "id": "b71e07e6bff510f4",
-      "titulo": "Integrantes de partidos devem apresentar alternativas a ajuste fiscal que divide esquerda: 'Se podem negociar com o mercado, podem negociar com a gente', diz Lindbergh",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "g1 - Política",
-      "urlFonte": "https://g1.globo.com/politica/noticia/2026/11/16/partidos-alternativas-criticas-ajuste-fiscal.ghtml",
-      "dataFonte": "2026-11-16T22:35:04.000Z",
-      "resumoFonte": "O ministro do Planejamento e Orçamento, Bruno Moretti Fabio Rodrigues Pozzebom/Agência Brasil Lideranças de PT, PCdoB e PSOL devem apresentar ao governo alternativas ao projeto de ajuste fiscal, que enfrenta resistência de setores da esquerda, segundo o deputado federal Lindbergh Farias (PT-RJ). As propostas estão sendo debatidas desde a semana…",
-      "imagem": "https://s2-g1.glbimg.com/GegW-yPyYb-mOwD_UDrwsasYWO4=/3244x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/E/L/cD5cskRzyVagwebmrIDQ/img20260414125747961.jpg",
-      "descobertaEm": "2026-11-16T23:18:48.485Z",
-      "reportagem": {
-        "titulo": "Parlamentares querem alternativa a ajuste fiscal que divide esquerda",
-        "slug": "parlamentares-querem-alternativa-a-ajuste-fiscal-que-divide-esquerda",
-        "categoria": "Economia",
-        "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/parlamentares-querem-alternativa-a-ajuste-fiscal-que-divide-esquerda.jpg",
-        "resumo": "Ajuste fiscal: Lindbergh Farias e partidos de esquerda propõem taxar bancos e investimentos para evitar cortes em políticas sociais e equilibrar as contas públicas.",
-        "conteudo": "<p>O ministro do Planejamento e Orçamento, Bruno Moretti — Foto: Fabio Rodrigues Pozzebom/Agência Brasil</p><h2>Dados e contexto do setor</h2><p>Lideranças de PT , PCdoB e PSOL devem apresentar ao governo alternativas ao projeto de ajuste fiscal, que enfrenta resistência de setores da esquerda, segundo o deputado federal Lindbergh Farias (PT-RJ).</p><p>As propostas estão sendo debatidas desde a semana passada por parlamentares contrários a pontos da proposta para equilibrar as contas públicas.</p><p>Nesta segunda-feira (16), o vice-líder do governo no Congresso participou de uma nova reunião com lideranças parlamentares para discutir o tema.</p><h2>Impactos e informações adicionais</h2><p>Ao g1 , o deputado afirmou que espera uma negociação com o Executivo. “Se podem negociar com o mercado, podem negociar com a gente”, disse Lindbergh.</p><p>As medidas anunciadas pelo governo provocaram críticas de integrantes do próprio PT e reações no Congresso e nas redes sociais. A insatisfação chegou também ao canal de WhatsApp &quot;Exército do Lula &quot;, que teve atuação expressiva na campanha de reeleição do presidente.</p><p>O texto-base da proposta foi aprovado no Senado na semana passada, e a previsão é que entre na pauta de votações da Câmara nesta terça-feira (17).</p><p>Antes da votação, a bancada do PT na Câmara deve se reunir com o ministro do Planejamento, Bruno Moretti, para discutir o assunto.</p><p>Trava extra para gastos, mudanças no piso da saúde e corte em benefícios tributários: entenda ajuste fiscal aprovado pelo Senado</p><p>Audiência Pública – Situação da BR-393 no trecho entre Jamapará (Sapucaia/RJ) e Volta Redonda/RJ. Dep. Lindbergh Farias (PT-RJ) — Foto: Vinicius Loures / Câmara dos Deputados</p><p>Segundo Lindbergh, as alternativas que serão apresentadas buscam preservar as políticas sociais e aumentar a contribuição de setores de maior renda para o equilíbrio das contas públicas. O governo defende que o projeto que está em votação já preserva políticas sociais.</p><p>“As medidas vão no sentido de evitar que o ajuste fiscal promova cortes em políticas sociais”, afirmou. Lindbergh disse que as propostas que deverão ser apresentadas também procuram taxar o “andar de cima”, incluindo bancos e investimentos.</p><p>O deputado criticou a condução do projeto pelo governo e afirmou que a falta de discussão prévia agravou a resistência dentro da base.</p><p>“Essa proposta do ajuste fiscal foi mal conduzida. Foi apresentada sem falar com ministros, líderes do governo, e aí depois quiseram votar em um dia só. Depois, piorou a tratativa quando tentaram desqualificar quem estava criticando a proposta”, declarou.</p><p>O ministro do Planejamento e Orçamento, Bruno Moretti, defende o pacote e afirma que as medidas não preveem redução do salário mínimo nem o fim dos pisos constitucionais de saúde e educação, pontos que vem sendo questionados pelos críticos.</p><p>No domingo (15), o vice-presidente Geraldo Alckmin disse que o projeto de ajuste fiscal do governo é uma medida tomada &quot;na direção correta&quot;.</p><p>&quot;O governo não mexe na população mais pobre, estão preservados ganhos de natureza social e trabalha para superávit e não ter déficit nas contas publicas. É fundamental para baixar juros. Quem mais ganha com isso é população mais pobre&quot;, disse Alckmin.</p>",
-        "fonteNome": "g1 - Política",
-        "fonteUrl": "https://g1.globo.com/politica/noticia/2026/11/16/partidos-alternativas-criticas-ajuste-fiscal.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O ministro do Planejamento e Orçamento, Bruno Moretti — Foto: Fabio Rodrigues Pozzebom/Agência Brasil"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Lideranças de PT , PCdoB e PSOL devem apresentar ao governo alternativas ao projeto de ajuste fiscal, que enfrenta resistência de setores da esquerda, segundo o deputado federal Lindbergh Farias (PT-RJ)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "As propostas estão sendo debatidas desde a semana passada por parlamentares contrários a pontos da proposta para equilibrar as contas públicas. Nesta segunda-feira (16), o vice-líder do governo no Congresso participou de uma nova reunião com lideranças parlamentares para discutir o tema."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Ao g1 , o deputado afirmou que espera uma negociação com o Executivo. “Se podem negociar com o mercado, podem negociar com a gente”, disse Lindbergh."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "As medidas anunciadas pelo governo provocaram críticas de integrantes do próprio PT e reações no Congresso e nas redes sociais. A insatisfação chegou também ao canal de WhatsApp &quot;Exército do Lula &quot;, que teve atuação expressiva na campanha de reeleição do presidente."
-          }
-        ],
-        "imagemOriginal": "https://s2-g1.glbimg.com/GegW-yPyYb-mOwD_UDrwsasYWO4=/3244x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/E/L/cD5cskRzyVagwebmrIDQ/img20260414125747961.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/parlamentares-querem-alternativa-a-ajuste-fiscal-que-divide-esquerda.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "f4947ba1737db5c9",
-      "titulo": "PicPay fechou o terceiro trimestre com lucro líquido ajustado de R$ 271 milhões",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mercados/picpay-fechou-o-terceiro-trimestre-com-lucro-liquido-ajustado-de-r-271-milhoes/",
-      "dataFonte": "2026-11-16T22:06:05.000Z",
-      "resumoFonte": "PicPay \" data-image-caption=\" PicPay (Divulgação) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2021/07/1_ztZr-2Scyx02WRKHB8ubPw.jpeg?fit=1280%2C854&quality=70&strip=all\" />A receita líquida do banco digital alcançou R$ 4,73 bilhões, crescimento de 73% na comparação anual The post PicPay fechou o terceiro trimestre com lucro…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2021/07/1_ztZr-2Scyx02WRKHB8ubPw.jpeg",
-      "descobertaEm": "2026-11-16T22:14:22.844Z",
-      "reportagem": {
-        "titulo": "PicPay fechou o terceiro trimestre com lucro líquido ajustado de R$ 271 milhões",
-        "slug": "picpay-fechou-o-terceiro-trimestre-com-lucro-liquido-ajustado-de-r-271-milhoes",
-        "categoria": "Economia",
-        "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/picpay-fechou-o-terceiro-trimestre-com-lucro-liquido-ajustado-de-r-271-milhoes.jpg",
-        "resumo": "A receita líquida do banco digital alcançou R$ 4,73 bilhões, crescimento de 73% na comparação anual",
-        "conteudo": "<p>O PicPay fechou o terceiro trimestre com lucro líquido ajustado de R$ 271 milhões, alta de 157% na comparação anual. A carteira de crédito cresceu 88%, para R$ 35 bilhões, puxada por produtos como o consignado privado.</p><h2>Dados e contexto do setor</h2><p>A receita líquida do banco digital alcançou R$ 4,73 bilhões, crescimento de 73% na comparação anual. Em clientes, o PicPay fechou setembro com 72 milhões, expansão de 10%. Os resultados não incluem a consolidação da KEV seguradora, aprovada pelo Banco Central em julho.</p><p>O retorno sobre o patrimônio (ROE, na sigla em inglês) ficou em 16,2%, ante 15,5% há um ano</p><p>Cenário fiscal e aversão a risco também nos EUA implicam em queda dos ativos nacionais</p><h2>Impactos e informações adicionais</h2><p>O CEO do PicPay, Eduardo Chedid, ressalta que do crescimento da carteira de crédito, 93% vieram de produtos com garantia ou linhas como o aumento do limite no cartão de crédito para clientes mais antigos, em que o banco tem mais relacionamento e conhece melhor.</p><p>A taxa de inadimplência da fintech, considerando atrasos acima de 90 dias, encerrou o trimestre em 10,7%, ante 9,8% no período anterior e 6% há um ano.</p><p>Segundo Chedid, a maior parte desse aumento é explicada pelo a maturação natural de safras de empréstimos anteriores, o envelhecimento da carteira.</p><p>“Não significa piora ou deterioração na qualidade do ativos, é simplesmente a maturação”, disse Chedid.</p><p>Já a inadimplência mais curta, de 15 a 90 dias, passou de 7,5% no segundo trimestre, para 9,2%, afetada pelo Desenrola, programa de renegociação de dívida do governo federal.</p><p>Alguns clientes renegociaram suas dívidas no segundo trimestre, saíram da faixa de atraso superior a 90 dias e voltaram a atrasar o pagamento das novas parcelas.</p><p>Desconsiderando o efeito do programa, o indicador teria apresentado estabilidade de 8% no trimestre, com expectativa de atingir 7,9% até o fim do ano, de acordo com diretor financeiro (CFO) do PicPay, André Cazotto.</p><p>O índice de eficiência alcançou 42%, uma melhora de 11 pontos porcentuais em um ano. O retorno patrimonial ajustado anualizado (ROE, na sigla em inglês) atingiu 18,5% no trimestre.</p><p>A receita média por cliente ativo (ARPAC) atingiu R$ 103,10 no trimestre, crescimento anual de 58% e quase cinco vezes superior ao custo de servir, de R$ 21,40, que avançou 20%.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mercados/picpay-fechou-o-terceiro-trimestre-com-lucro-liquido-ajustado-de-r-271-milhoes/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O PicPay fechou o terceiro trimestre com lucro líquido ajustado de R$ 271 milhões, alta de 157% na comparação anual. A carteira de crédito cresceu 88%, para R$ 35 bilhões, puxada por produtos como o consignado privado."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A receita líquida do banco digital alcançou R$ 4,73 bilhões, crescimento de 73% na comparação anual. Em clientes, o PicPay fechou setembro com 72 milhões, expansão de 10%. Os resultados não incluem a consolidação da KEV seguradora, aprovada pelo Banco Central em julho."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O retorno sobre o patrimônio (ROE, na sigla em inglês) ficou em 16,2%, ante 15,5% há um ano"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Cenário fiscal e aversão a risco também nos EUA implicam em queda dos ativos nacionais"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O CEO do PicPay, Eduardo Chedid, ressalta que do crescimento da carteira de crédito, 93% vieram de produtos com garantia ou linhas como o aumento do limite no cartão de crédito para clientes mais antigos, em que o banco tem mais relacionamento e conhece melhor."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2021/07/1_ztZr-2Scyx02WRKHB8ubPw.jpeg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/picpay-fechou-o-terceiro-trimestre-com-lucro-liquido-ajustado-de-r-271-milhoes.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "9b15c01ab6fc9bf1",
-      "titulo": "Rei Charles III dá as boas-vindas a Robert Pattinson como novo James Bond",
+      "id": "d82724b906902696",
+      "titulo": "Adolescente se escondeu em cinema para invadir joalheria em shopping de SP",
       "categoria": "Cultura",
       "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/entretenimento/tv-e-cinema/rei-charles-iii-da-as-boas-vindas-a-robert-pattinson-como-novo-james-bond/",
-      "dataFonte": "2026-11-16T22:34:31.000Z",
-      "resumoFonte": "Ator foi confirmado no papel do agente mais famoso do cinema nesta segunda-feira (16)",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/1794868234321050.jpg?w=1022&h=592&crop=1",
-      "descobertaEm": "2026-11-16T23:18:48.485Z",
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/sao-paulo/adolescente-se-escondeu-em-cinema-para-invadir-joalheria-em-shopping-de-sp",
+      "dataFonte": "2026-11-17T00:48:17.000Z",
+      "resumoFonte": "Jovem de 17 anos entrou pelo ar-condicionado e foi flagrado antes de arrombar o cofre. Polícia Civil prendeu mais dois suspeitos de grupo",
+      "imagem": "https://i.metroimg.com/-erufuzQzbTm_IEVkcvbmPHR70ad0nBmf0DlY1VoAwY/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/fachada-shopping-analiafranco.jpg",
+      "descobertaEm": "2026-11-17T01:18:14.630Z",
       "reportagem": {
-        "titulo": "Rei Charles III dá as boas-vindas a Robert Pattinson como novo James Bond",
-        "slug": "rei-charles-iii-da-as-boas-vindas-a-robert-pattinson-como-novo-james-bond",
+        "titulo": "Adolescente se escondeu em cinema para invadir joalheria em shopping de SP",
+        "slug": "adolescente-se-escondeu-em-cinema-para-invadir-joalheria-em-shopping-de-sp",
         "categoria": "Cultura",
         "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/rei-charles-iii-da-as-boas-vindas-a-robert-pattinson-como-novo-james-bond.jpg",
-        "resumo": "Ator foi confirmado no papel do agente mais famoso do cinema nesta segunda-feira (16)",
-        "conteudo": "<p>O rei Charles III e sua esposa, Camilla, comemoraram nesta segunda-feira (16) a escolha do ator inglês Robert Pattinson como novo intérprete de James Bond, o fictício agente 007 do serviço secreto externo britânico MI6.</p><h2>As informações principais do assunto</h2><p>“Bem-vindo ao Serviço Secreto de Sua Majestade, senhor Bond”, afirmaram os reis em uma mensagem nas redes sociais, acompanhada da imagem oficial do ator vestido de smoking e apontando uma arma.</p><p>A rainha Elizabeth II, falecida em 8 de setembro de 2022, conviveu durante seu reinado com os outros seis atores que interpretaram Bond antes de Pattinson: Sean Connery, George Lazenby, Roger Moore, Timothy Dalton, Pierce Brosnan e Daniel Craig.</p><p>A relação da rainha com o agente 007 teve um de seus momentos mais memoráveis na cerimônia de abertura dos Jogos Olímpicos de Londres de 2012, quando ela protagonizou uma divertida “esquete” ao lado de Craig .</p><h2>Contexto e informações complementares</h2><p>Na cena, Bond ia ao Palácio de Buckingham para buscar a monarca e acompanhá-la de helicóptero até o estádio olímpico, onde ambos pareciam saltar de paraquedas antes de Elizabeth II fazer sua entrada na tribuna.</p><p>O último filme estrelado por Daniel Craig foi “Sem Tempo para Morrer”, de 2021. O primeiro filme da série protagonizado por Pattinson será também a primeira estreia durante o reinado de Charles III.</p><p>A Amazon MGM Studios confirmou nesta segunda-feira que Pattinson foi escolhido para dar vida ao famoso espião criado em 1953 pelo escritor Ian Fleming no próximo filme da série, que será dirigido por Denis Villeneuve (“Duna”) e tem estreia prevista para 2028.</p><p>Com a escolha do novo James Bond, chegam ao fim cinco anos de especulações sobre quem assumiria o papel de Craig, que interpretou o famoso agente desde 2006, com sua estreia em “Cassino Royale” e ao longo de cinco filmes.</p><p>Ator foi confirmado no papel do agente mais famoso do cinema nesta segunda-feira (16)</p><p>Robert Pattinson é oficializado como novo James Bond e assume o posto de Daniel Craig em 007</p><p>Ator de ‘Crepúsculo’ e ‘Batman’ será o novo intérprete do agente secreto mais famoso do cinema; longa terá direção de Denis Villeneuve e roteiro do criador de ‘Peaky Blinders’</p><p>Christian Cousins, ator de 'Um Tira no Jardim de Infância', morre aos 43 anos</p><p>Netflix lança documentário sobre crimes sexuais de Russell Brand após condenação do comediante</p><p>Netflix pagou R$ 500 mil a Richthofen? Congresso discute proibir cachês para criminosos</p><p>'A Clínica': Globoplay acerta em série sobre bastidores de instituição psiquiátrica que recebeu famosos</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/entretenimento/tv-e-cinema/rei-charles-iii-da-as-boas-vindas-a-robert-pattinson-como-novo-james-bond/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/adolescente-se-escondeu-em-cinema-para-invadir-joalheria-em-shopping-de-sp.jpg",
+        "resumo": "Jovem de 17 anos entrou pelo ar-condicionado e foi flagrado antes de arrombar o cofre. Polícia Civil prendeu mais dois suspeitos de grupo",
+        "conteudo": "<p>São Paulo — O adolescente de 17 anos apreendido na madrugada do domingo (15/11) dentro de uma joalheria do Shopping Anália Franco , na zona leste de São Paulo , ficou escondido no centro comercial depois de uma sessão de cinema para cometer o crime após o fechamento.</p><h2>As informações principais do assunto</h2><p>Segundo apuração da Polícia Civil , ele chegou à loja pela tubulação do ar-condicionado e quebrou uma parede de drywall , mas foi surpreendido pela Polícia Militar ( PM ).</p><p>As joias da loja somavam cerca de R$ 5 milhões , conforme informações atualizadas, e nenhuma foi levada.</p><p>Ainda de acordo com a polícia, o jovem afirmou ter sido contratado por terceiros para executar o crime. Nesta segunda-feira (16/11), a Polícia Civil chegou a dois novos suspeitos.</p><h2>Contexto e informações complementares</h2><p>Ambos seriam integrantes de uma quadrilha oriunda do Distrito Federal e que, segundo a investigação, viaja a São Paulo justamente para furtar joalherias.</p><p>São eles Gabriel Ferreira da Cruz Neto , de 45 anos, conhecido como “GB”; e Helen Cristina Nunes da Costa , 22.</p><p>Os dois haviam sido presos por envolvimento em outra tentativa de furto, na joalheria Johara Gold, no Shopping Taboão , em Taboão da Serra , na madrugada de sábado (14/11), um dia antes da ocorrência no Anália Franco.</p><p>O adolescente do Anália Franco foi autuado por ato infracional análogo a furto qualificado tentado, e a representação é pela internação provisória.</p><p>Na ocorrência em Taboão, outro adolescente, também de 17 anos, foi surpreendido pela equipe de segurança dentro da loja, depois de entrar pelo teto com ferramentas.</p><p>Segundo a delegada responsável pela investigação, ele admitiu a participação e contou que a ação havia sido planejada com outras pessoas em um grupo de WhatsApp — incluindo uma funcionária de outra loja do shopping .</p><p>Os policiais do 1º DP de Taboão da Serra analisaram o celular do jovem e encontraram conversas com Helen, que, segundo o boletim de ocorrência, é namorada dele.</p><p>Ela estava hospedada em um hotel no Brás, na região central da capital. De acordo com o documento, o adolescente teria apresentado documento falso na recepção para se passar por maior de idade.</p><p>Tentativa de furto: um adolescente de 17 anos foi apreendido em 15 de novembro ao tentar furtar uma joalheria no Shopping Anália Franco, em São Paulo; Novos envolvidos: Gabriel Ferreira da Cruz Neto, de 45 anos, e Helen Cristina Nunes da Costa, de 22, foram presos em flagrante sob suspeita de integrar uma quadrilha especializada em furtos a joalherias; Acusações formais: os dois adultos foram autuados por furto qualificado tentado, associação criminosa, corrupção de menores e resistência.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/sao-paulo/adolescente-se-escondeu-em-cinema-para-invadir-joalheria-em-shopping-de-sp",
         "fontesAdicionais": [
           {
             "nome": "A Gazeta",
@@ -851,27 +611,147 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O rei Charles III e sua esposa, Camilla, comemoraram nesta segunda-feira (16) a escolha do ator inglês Robert Pattinson como novo intérprete de James Bond, o fictício agente 007 do serviço secreto externo britânico MI6."
+            "resposta": "São Paulo — O adolescente de 17 anos apreendido na madrugada do domingo (15/11) dentro de uma joalheria do Shopping Anália Franco , na zona leste de São Paulo , ficou escondido no centro comercial depois de uma sessão de cinema para cometer o crime após o fechamento."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "“Bem-vindo ao Serviço Secreto de Sua Majestade, senhor Bond”, afirmaram os reis em uma mensagem nas redes sociais, acompanhada da imagem oficial do ator vestido de smoking e apontando uma arma."
+            "resposta": "Ainda de acordo com a polícia, o jovem afirmou ter sido contratado por terceiros para executar o crime. Nesta segunda-feira (16/11), a Polícia Civil chegou a dois novos suspeitos. Ambos seriam integrantes de uma quadrilha oriunda do Distrito Federal e que, segundo a investigação, viaja a São Paulo justamente para furtar joalherias."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A rainha Elizabeth II, falecida em 8 de setembro de 2022, conviveu durante seu reinado com os outros seis atores que interpretaram Bond antes de Pattinson: Sean Connery, George Lazenby, Roger Moore, Timothy Dalton, Pierce Brosnan e Daniel Craig."
+            "resposta": "São eles Gabriel Ferreira da Cruz Neto , de 45 anos, conhecido como “GB”; e Helen Cristina Nunes da Costa , 22. Os dois haviam sido presos por envolvimento em outra tentativa de furto, na joalheria Johara Gold, no Shopping Taboão , em Taboão da Serra , na madrugada de sábado (14/11), um dia antes da ocorrência no Anália Franco."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A relação da rainha com o agente 007 teve um de seus momentos mais memoráveis na cerimônia de abertura dos Jogos Olímpicos de Londres de 2012, quando ela protagonizou uma divertida “esquete” ao lado de Craig ."
+            "resposta": "O adolescente do Anália Franco foi autuado por ato infracional análogo a furto qualificado tentado, e a representação é pela internação provisória."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Na cena, Bond ia ao Palácio de Buckingham para buscar a monarca e acompanhá-la de helicóptero até o estádio olímpico, onde ambos pareciam saltar de paraquedas antes de Elizabeth II fazer sua entrada na tribuna."
+            "resposta": "Na ocorrência em Taboão, outro adolescente, também de 17 anos, foi surpreendido pela equipe de segurança dentro da loja, depois de entrar pelo teto com ferramentas."
           }
         ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/1794868234321050.jpg?w=1022&h=592&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/rei-charles-iii-da-as-boas-vindas-a-robert-pattinson-como-novo-james-bond.jpg",
+        "imagemOriginal": "https://i.metroimg.com/-erufuzQzbTm_IEVkcvbmPHR70ad0nBmf0DlY1VoAwY/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/fachada-shopping-analiafranco.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/adolescente-se-escondeu-em-cinema-para-invadir-joalheria-em-shopping-de-sp.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "ad18970a4bfdb0e0",
+      "titulo": "Anitta é indicada ao Grammy Internacional para melhor álbum global",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-cultura/anitta-e-indicada-ao-grammy-internacional-para-melhor-album-global/",
+      "dataFonte": "2026-11-16T23:22:06.000Z",
+      "resumoFonte": "Na 6ª feira (13.nov), Anitta ganhou o Grammy Latino de Melhor Álbum de Pop Contemporâneo em Língua Portuguesa com o mesmo trabalho, “EQUILIBRIVM”",
+      "imagem": "https://static.poder360.com.br/uploads/2026/09/album-anitta-grammy-latino-16-set-2026-1200x675.jpg",
+      "descobertaEm": "2026-11-17T00:18:19.771Z",
+      "reportagem": {
+        "titulo": "Anitta é indicada ao Grammy Internacional para melhor álbum global",
+        "slug": "anitta-e-indicada-ao-grammy-internacional-para-melhor-album-global",
+        "categoria": "Cultura",
+        "data": "2026-11-16",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/anitta-e-indicada-ao-grammy-internacional-para-melhor-album-global.jpg",
+        "resumo": "Anitta ganhou o Grammy Latino de Melhor Álbum de Pop Contemporâneo em Língua Portuguesa com “EQUILIBRIVM”.",
+        "conteudo": "<p>Na 6ª feira (13.nov), Anitta ganhou o Grammy Latino de Melhor Álbum de Pop Contemporâneo em Língua Portuguesa com o mesmo trabalho, “EQUILIBRIVM”</p><h2>As informações principais do assunto</h2><p>A cantora brasileira Anitta foi indicada ao Grammy 2027 na categoria de Melhor Álbum Global, com o “ EQUILIBRIVM” , trabalho lançado em 2 volumes: o 1º no dia 16 de abril e o 2º em 23 de julho deste ano.</p><p>A lista dos concorrentes ao prêmio foi divulgada nesta 2ª feira (16.nov.2026) pela Academia Nacional de Artes e Ciências da Gravação. As indicações correspondem a trabalhos realizados de 31 de agosto de 2025 a 28 de agosto de 2026.</p><p>A premiação do 69º Annual Grammy Awards será no dia 7 de fevereiro de 2027, na Crypto.com Arena em Los Angeles, nos Estados Unidos.</p><h2>Contexto e informações complementares</h2><p>Nas redes sociais, a artista lembrou que “ EQUILIBRIVM” é o 2º álbum de sua carreira a ser indicado para o Grammy norte-americano – o 1º foi Funk Generation .</p><p>“Diferentemente do Grammy latino, não é tão comum vermos artistas brasileiros indicados a este prêmio. E eu me sinto muito honrada, emocionada e agradecida por tanto reconhecimento. Também me sinto muito merecedora, pois sei que sou uma batalhadora nessa vida” , disse a cantora.</p><p>Na 6ª feira (13.nov), Anitta ganhou o Grammy Latino de Melhor Álbum de Pop Contemporâneo em Língua Portuguesa com o mesmo trabalho. A premiação veio depois de 12 indicações no Grammy Latino que a artista tinha conseguido, mas ainda sem levar o troféu.</p><p>Este texto foi publicado originalmente pela Agência Brasil em 16 de novembro de 2026. O conteúdo é livre para republicação, citada a fonte, e foi adaptado para o padrão do Poder360 .</p><p>A cantora brasileira Anitta foi indicada ao Grammy 2027 na categoria de Melhor Álbum Global, com o “</p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-cultura/anitta-e-indicada-ao-grammy-internacional-para-melhor-album-global/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Na 6ª feira (13.nov), Anitta ganhou o Grammy Latino de Melhor Álbum de Pop Contemporâneo em Língua Portuguesa com o mesmo trabalho, “EQUILIBRIVM”"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A cantora brasileira Anitta foi indicada ao Grammy 2027 na categoria de Melhor Álbum Global, com o “ EQUILIBRIVM” , trabalho lançado em 2 volumes: o 1º no dia 16 de abril e o 2º em 23 de julho deste ano."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A lista dos concorrentes ao prêmio foi divulgada nesta 2ª feira (16.nov.2026) pela Academia Nacional de Artes e Ciências da Gravação. As indicações correspondem a trabalhos realizados de 31 de agosto de 2025 a 28 de agosto de 2026."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A premiação do 69º Annual Grammy Awards será no dia 7 de fevereiro de 2027, na Crypto.com Arena em Los Angeles, nos Estados Unidos."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Nas redes sociais, a artista lembrou que “ EQUILIBRIVM” é o 2º álbum de sua carreira a ser indicado para o Grammy norte-americano – o 1º foi Funk Generation ."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/09/album-anitta-grammy-latino-16-set-2026-1200x675.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/anitta-e-indicada-ao-grammy-internacional-para-melhor-album-global.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "bcf88037b87911b7",
+      "titulo": "United enfrenta falha em sistemas dias após paralisação aérea nos EUA",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/mundo/united-enfrenta-falha-em-sistemas-dias-apos-paralisacao-aerea-nacional-nos-eua/",
+      "dataFonte": "2026-11-16T23:01:30.000Z",
+      "resumoFonte": "Aviões da United Airlines estacionados no aeroporto internacional Newark Liberty (EWR), em Newark, Nova Jersey. A companhia enfrenta uma falha em seus sistemas que afeta voos de partida poucos dias após a paralisação aérea nacional nos Estados Unidos. Crédito: Michael Nagle/Bloomberg \"…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/475273947.jpg",
+      "descobertaEm": "2026-11-16T23:18:48.485Z",
+      "reportagem": {
+        "titulo": "United enfrenta falha em sistemas dias após paralisação aérea nos EUA",
+        "slug": "united-enfrenta-falha-em-sistemas-dias-apos-paralisacao-aerea-nos-eua",
+        "categoria": "Esporte",
+        "data": "2026-11-16",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/united-enfrenta-falha-em-sistemas-dias-apos-paralisacao-aerea-nos-eua.jpg",
+        "resumo": "Companhia afirma que problema não tem indícios de relação com ataque cibernético; interrupção ocorre poucos dias após pane na FAA provocar paralisação nacional das decolagens",
+        "conteudo": "<p>A United Airlines está trabalhando para resolver uma ampla falha em seus sistemas que afeta voos de partida, no mais recente problema tecnológico a causar transtornos ao transporte aéreo nos Estados Unidos.</p><h2>As informações principais do assunto</h2><p>A companhia informou, em comunicado, que não há indícios de que a interrupção esteja relacionada a um ataque cibernético. A United não detalhou imediatamente a causa do problema nem quantos voos foram afetados.</p><p>“Estamos cientes da ampla falha nos sistemas e nossas equipes estão trabalhando intensamente para restabelecer as operações o mais rápido possível”, afirmou a empresa em publicação nas redes sociais.</p><p>A aérea orientou os passageiros a acompanharem o status dos voos por meio do aplicativo ou do site da companhia.</p><h2>Contexto e informações complementares</h2><p>A interrupção ocorre poucos dias após uma falha nas telecomunicações em uma instalação remota da Federal Aviation Administration (FAA) levar à suspensão nacional das decolagens na sexta-feira, forçando companhias aéreas a cancelarem milhares de voos e provocando impactos nas viagens ao longo do fim de semana.</p><p>A pane, que durou mais de quatro horas, foi atribuída a problemas em equipamentos ligados à antiga infraestrutura de comunicações da agência.</p><p>“Estamos investigando um problema tecnológico que afeta os voos em processo de partida. Não há impacto sobre voos já em andamento nem sobre as operações da United Express”, informou a companhia em nota enviada por e-mail.</p><p>As ações da United Airlines caíam 2,5% às 17h43 (horário de Nova York) nas negociações pós-mercado.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/mundo/united-enfrenta-falha-em-sistemas-dias-apos-paralisacao-aerea-nacional-nos-eua/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A United Airlines está trabalhando para resolver uma ampla falha em seus sistemas que afeta voos de partida, no mais recente problema tecnológico a causar transtornos ao transporte aéreo nos Estados Unidos."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A companhia informou, em comunicado, que não há indícios de que a interrupção esteja relacionada a um ataque cibernético. A United não detalhou imediatamente a causa do problema nem quantos voos foram afetados."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "“Estamos cientes da ampla falha nos sistemas e nossas equipes estão trabalhando intensamente para restabelecer as operações o mais rápido possível”, afirmou a empresa em publicação nas redes sociais. A aérea orientou os passageiros a acompanharem o status dos voos por meio do aplicativo ou do site da companhia."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A interrupção ocorre poucos dias após uma falha nas telecomunicações em uma instalação remota da Federal Aviation Administration (FAA) levar à suspensão nacional das decolagens na sexta-feira, forçando companhias aéreas a cancelarem milhares de voos e provocando impactos nas viagens ao longo do fim de semana."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "“Estamos investigando um problema tecnológico que afeta os voos em processo de partida. Não há impacto sobre voos já em andamento nem sobre as operações da United Express”, informou a companhia em nota enviada por e-mail."
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/475273947.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/united-enfrenta-falha-em-sistemas-dias-apos-paralisacao-aerea-nos-eua.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -937,16 +817,124 @@
       }
     },
     {
-      "id": "74eccceb605b6b2f",
-      "titulo": "Brasil x Peru: escalações e onde assistir ao amistoso da Seleção sub-20",
-      "categoria": "Esporte",
+      "id": "e2ab0dcfce79bd43",
+      "titulo": "STF pode barrar o fim da escala 6×1? O que diz o autor da proposta",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/politica/stf-pode-barrar-o-fim-da-escala-6x1-o-que-diz-o-autor-da-proposta/",
+      "dataFonte": "2026-11-17T00:54:14.000Z",
+      "resumoFonte": "Deputado Reginaldo Lopes (PT-MG) afirma que a mudança é autoaplicável e não depende de novas regulamentações para entrar em vigor",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/10/55549422900_94a1280957_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-11-17T01:18:14.630Z",
+      "reportagem": {
+        "titulo": "STF pode barrar o fim da escala 6×1? O que diz o autor da proposta",
+        "slug": "stf-pode-barrar-o-fim-da-escala-6-1-o-que-diz-o-autor-da-proposta",
+        "categoria": "Justiça",
+        "data": "2026-11-16",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/stf-pode-barrar-o-fim-da-escala-6-1-o-que-diz-o-autor-da-proposta.jpg",
+        "resumo": "Deputado Reginaldo Lopes (PT-MG) afirma que a mudança é autoaplicável e não depende de novas regulamentações para entrar em vigor",
+        "conteudo": "<p>A decis&atilde;o do Supremo Tribunal Federal (STF) de levar ao plen&aacute;rio presencial o julgamento sobre o fim da escala 6&times;1 n&atilde;o deve, na avalia&ccedil;&atilde;o do deputado federal Reginaldo Lopes (PT-MG), alterar a implementa&ccedil;&atilde;o da proposta.</p><h2>O contexto da decisão judicial</h2><p>Um dos autores da Proposta de Emenda &agrave; Constitui&ccedil;&atilde;o (PEC) que prev&ecirc; a mudan&ccedil;a na jornada de trabalho, o parlamentar afirma que o texto aprovado &eacute; claro, autoaplic&aacute;vel e n&atilde;o exige novas interpreta&ccedil;&otilde;es para produzir efeitos.</p><p>(este texto &eacute; um resumo do v&iacute;deo acima)</p><p>Em entrevista ao programa VEJA em Foco, apresentado por Marcela Rahal, o deputado defendeu a aplica&ccedil;&atilde;o imediata da mudan&ccedil;a e disse que a Constitui&ccedil;&atilde;o j&aacute; estabelece as condi&ccedil;&otilde;es necess&aacute;rias para a transi&ccedil;&atilde;o da escala 6&times;1 para a 5&times;2.</p><h2>Detalhes e consequências do caso</h2><p>A manifesta&ccedil;&atilde;o ocorre depois que o ministro Luiz Fux pediu destaque no julgamento virtual do STF , interrompendo a an&aacute;lise de uma decis&atilde;o individual do ministro Fl&aacute;vio Dino.</p><p>At&eacute; ent&atilde;o, havia quatro votos favor&aacute;veis &agrave; manuten&ccedil;&atilde;o da decis&atilde;o de Dino.</p><p>Reginaldo Lopes argumenta que a emenda constitucional n&atilde;o deixa margem para d&uacute;vidas sobre sua aplica&ccedil;&atilde;o.</p><p>Segundo ele, a proposta foi elaborada justamente para evitar a necessidade de regulamenta&ccedil;&otilde;es adicionais sobre a mudan&ccedil;a da jornada.</p><p>&ldquo;Ela &eacute; autoexplicada, ela &eacute; autoaplic&aacute;vel&rdquo;, afirmou. O deputado tamb&eacute;m sustentou que a segunda folga semanal est&aacute; prevista no pr&oacute;prio texto constitucional e pode ser cumprida dentro do mesmo calend&aacute;rio de 30 dias.</p><p>O parlamentar disse ainda que solicitou audi&ecirc;ncias com os ministros Fl&aacute;vio Dino e Edson Fachin. Ao primeiro, pretende apresentar questionamentos sobre a interpreta&ccedil;&atilde;o da segunda folga.</p><p>Ao presidente do STF, pediu uma audi&ecirc;ncia para discutir a inclus&atilde;o do tema na pauta do plen&aacute;rio e buscar uma defini&ccedil;&atilde;o definitiva.</p><p>Questionado sobre a necessidade de regulamenta&ccedil;&atilde;o para empresas com jornadas diferenciadas e para micro e pequenas empresas, o deputado afirmou que n&atilde;o considera necess&aacute;rias novas mudan&ccedil;as legislativas.</p><p>Na avalia&ccedil;&atilde;o dele, eventuais particularidades devem ser resolvidas por meio de acordos e conven&ccedil;&otilde;es coletivas.</p><p>Reginaldo Lopes tamb&eacute;m defendeu que eventuais ajustes sejam feitos sem alterar o conte&uacute;do da emenda constitucional.</p><p>Para ele, o caminho &eacute; esclarecer a aplica&ccedil;&atilde;o das novas regras, e n&atilde;o abrir uma nova discuss&atilde;o legislativa sobre o tema.</p><p>O parlamentar citou ainda a possibilidade de pol&iacute;ticas de incentivo ao cr&eacute;dito para empresas menores, mas descartou a necessidade de uma nova emenda constitucional ou de uma legisla&ccedil;&atilde;o complementar para viabilizar a mudan&ccedil;a.</p><p>O deputado tamb&eacute;m rebateu estimativas da Confedera&ccedil;&atilde;o Nacional da Ind&uacute;stria (CNI), segundo as quais a redu&ccedil;&atilde;o da jornada poderia provocar retra&ccedil;&atilde;o de 0,7% do PIB, equivalente a uma perda de 76 bilh&otilde;es de reais.</p><p>&ldquo;Extremamente exagero. Desinforma&ccedil;&atilde;o em rela&ccedil;&atilde;o aos impactos&rdquo;, afirmou. Para Reginaldo, a redu&ccedil;&atilde;o da jornada pode trazer ganhos de produtividade e melhorar as condi&ccedil;&otilde;es de sa&uacute;de dos trabalhadores.</p><p>Como argumento, ele mencionou o aumento dos afastamentos por problemas de sa&uacute;de mental. Segundo os n&uacute;meros apresentados pelo deputado na entrevista, os registros na seguridade social teriam passado de 50 mil, em 2018, para uma estimativa de 600 mil neste ano.</p><p>&ldquo;Um trabalhador saud&aacute;vel ajuda o pa&iacute;s, a fam&iacute;lia, a empresa. Um trabalhador adoecido prejudica toda a economia&rdquo;, disse.</p><p>O parlamentar classificou a proposta como uma pol&iacute;tica de ganhos para trabalhadores e empresas e afirmou acreditar que os efeitos econ&ocirc;micos da mudan&ccedil;a poder&atilde;o ser avaliados nos pr&oacute;ximos meses.</p><p>VEJA+IA: Este texto resume um trecho do telejornal VEJA em Foco (confira o v&iacute;deo acima). Conte&uacute;do produzido com aux&iacute;lio de intelig&ecirc;ncia artificial e supervis&atilde;o humana.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/politica/stf-pode-barrar-o-fim-da-escala-6x1-o-que-diz-o-autor-da-proposta/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A decis&atilde;o do Supremo Tribunal Federal (STF) de levar ao plen&aacute;rio presencial o julgamento sobre o fim da escala 6&times;1 n&atilde;o deve, na avalia&ccedil;&atilde;o do deputado federal Reginaldo Lopes (PT-MG), alterar a implementa&ccedil;&atilde;o da proposta."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Em entrevista ao programa VEJA em Foco, apresentado por Marcela Rahal, o deputado defendeu a aplica&ccedil;&atilde;o imediata da mudan&ccedil;a e disse que a Constitui&ccedil;&atilde;o j&aacute; estabelece as condi&ccedil;&otilde;es necess&aacute;rias para a transi&ccedil;&atilde;o da escala 6&times;1 para a 5&times;2."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Reginaldo Lopes argumenta que a emenda constitucional n&atilde;o deixa margem para d&uacute;vidas sobre sua aplica&ccedil;&atilde;o. Segundo ele, a proposta foi elaborada justamente para evitar a necessidade de regulamenta&ccedil;&otilde;es adicionais sobre a mudan&ccedil;a da jornada."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "&ldquo;Ela &eacute; autoexplicada, ela &eacute; autoaplic&aacute;vel&rdquo;, afirmou. O deputado tamb&eacute;m sustentou que a segunda folga semanal est&aacute; prevista no pr&oacute;prio texto constitucional e pode ser cumprida dentro do mesmo calend&aacute;rio de 30 dias."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O parlamentar disse ainda que solicitou audi&ecirc;ncias com os ministros Fl&aacute;vio Dino e Edson Fachin. Ao primeiro, pretende apresentar questionamentos sobre a interpreta&ccedil;&atilde;o da segunda folga."
+          }
+        ],
+        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/10/55549422900_94a1280957_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/stf-pode-barrar-o-fim-da-escala-6-1-o-que-diz-o-autor-da-proposta.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "b8975e7dd7d7863e",
+      "titulo": "Marinho e Tereza criticam Moraes por negar visita a Bolsonaro: “Arbitrário”",
+      "categoria": "Justiça",
       "radar": null,
       "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/brasil-x-peru-escalacoes-e-onde-assistir-ao-amistoso-da-selecao-sub-20-2/",
-      "dataFonte": "2026-11-16T22:19:56.000Z",
-      "resumoFonte": "Equipes se enfrentam novamente nesta segunda-feira (16) à noite, em duelo amistoso disputado no Estádio Mangueirão, em Belém, no Pará",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/08/Mangueirao-e1690892518532.png?w=617&h=347&crop=1",
-      "descobertaEm": "2026-11-16T23:18:48.485Z"
+      "urlFonte": "https://www.cnnbrasil.com.br/politica/marinho-e-tereza-criticam-moraes-por-negar-visita-a-bolsonaro-arbitrario/",
+      "dataFonte": "2026-11-17T00:44:25.000Z",
+      "resumoFonte": "Ministro do STF afirma que a prisão domiciliar não pode ser utilizada como \"escritório político\"; ambos os senadores disputarão a presidência do Senado em fevereiro",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/prismada-marinho-tereza-cristina.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-17T01:18:14.630Z",
+      "reportagem": {
+        "titulo": "Marinho e Tereza criticam Moraes por negar visita a Bolsonaro: &quot;Arbitrário&quot;",
+        "slug": "marinho-e-tereza-criticam-moraes-por-negar-visita-a-bolsonaro-quot-arbitrario-quot",
+        "categoria": "Justiça",
+        "data": "2026-11-16",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/marinho-e-tereza-criticam-moraes-por-negar-visita-a-bolsonaro-quot-arbitrario-quot.jpg",
+        "resumo": "Ministro do STF afirma que a prisão domiciliar não pode ser utilizada como &quot;escritório político&quot;; ambos os senadores disputarão a presidência do Senado em fevereiro",
+        "conteudo": "<p>Os senadores Rogério Marinho (PL-RN) e Tereza Cristina (PP-MS) criticaram a decisão desta segunda-feira (16) do ministro Alexandre de Moraes, do STF (Supremo Tribunal Federal), de negar ambos os pedidos de visita ao ex-presidente Jair Bolsonaro (PL), que está em prisão domiciliar.</p><h2>O contexto da decisão judicial</h2><p>Em seus respectivos posicionamentos, os senadores afirmam haver uma decisão &quot;arbitrária&quot; de Moraes ao negar as visitas.</p><p>Tanto Marinho quanto Tereza postulam disputar a presidência do Senado em fevereiro do ano que vem, liderando a bancada de oposição contra o atual presidente, Davi Alcolumbre (União-AP) , que tem apoio do governo para a reeleição.</p><p>&quot;Trata-se de uma medida arbitrária, fundamentada em ilações e presunções sobre uma suposta finalidade político-partidária dos encontros, sem qualquer demonstração concreta de que essa seria nossa intenção.</p><h2>Detalhes e consequências do caso</h2><p>[...] A suspensão dos direitos políticos não implica a supressão das demais garantias fundamentais.</p><p>É inadmissível que uma relação pessoal de amizade e respeito seja automaticamente transformada em atividade política para justificar a restrição de direitos&quot;, disse Marinho em nota.</p><p>Já Tereza disse em postagem nas redes sociais que é &quot;absurdo e arbitrário&quot; manter Bolsonaro incomunicável. Ela ainda afirma que o Senado &quot;não vai se omitir para fiscalizar os Poderes&quot;.</p><p>A bandeira do impeachment de ministros do Supremo - em especial de Moraes - é uma prioridade da nova bancada energizada de senadores para a próxima Legislatura.</p><p>Marinho e Tereza já se colocaram à disposição de dar seguimento aos pedidos de afastamento.</p><p>Na justificativa, Moraes afirma que o ex-presidente está com todos os seus direitos políticos suspensos em decorrência da condenação por tentativa de golpe de Estado , inclusive impedido de exercer atividade político-partidária .</p><p>De acordo com Moraes, o fato de Bolsonaro cumprir a pena a que foi condenado em prisão domiciliar por questões humanitárias não afasta a suspensão dos direitos políticos nem autoriza que sua casa seja utilizada como &quot;escritório político&quot;.</p><p>Após o anúncio, a defesa do ex-presidente solicitou a Moraes a visita de seus dois ex-ministros . O encontro foi solicitado dias depois de Bolsonaro receber em sua casa Valdemar Costa Neto , presidente do PL.</p><p>Em nota, Marinho afirma que reitera o pedido de visita mesmo após a negativa do magistrado.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/politica/marinho-e-tereza-criticam-moraes-por-negar-visita-a-bolsonaro-arbitrario/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Os senadores Rogério Marinho (PL-RN) e Tereza Cristina (PP-MS) criticaram a decisão desta segunda-feira (16) do ministro Alexandre de Moraes, do STF (Supremo Tribunal Federal), de negar ambos os pedidos de visita ao ex-presidente Jair Bolsonaro (PL), que está em prisão domiciliar."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Em seus respectivos posicionamentos, os senadores afirmam haver uma decisão &quot;arbitrária&quot; de Moraes ao negar as visitas. Tanto Marinho quanto Tereza postulam disputar a presidência do Senado em fevereiro do ano que vem, liderando a bancada de oposição contra o atual presidente, Davi Alcolumbre (União-AP) , que tem apoio do governo para a reeleição."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "&quot;Trata-se de uma medida arbitrária, fundamentada em ilações e presunções sobre uma suposta finalidade político-partidária dos encontros, sem qualquer demonstração concreta de que essa seria nossa intenção. [...] A suspensão dos direitos políticos não implica a supressão das demais garantias fundamentais."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Já Tereza disse em postagem nas redes sociais que é &quot;absurdo e arbitrário&quot; manter Bolsonaro incomunicável. Ela ainda afirma que o Senado &quot;não vai se omitir para fiscalizar os Poderes&quot;."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Na justificativa, Moraes afirma que o ex-presidente está com todos os seus direitos políticos suspensos em decorrência da condenação por tentativa de golpe de Estado , inclusive impedido de exercer atividade político-partidária ."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/prismada-marinho-tereza-cristina.png?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/marinho-e-tereza-criticam-moraes-por-negar-visita-a-bolsonaro-quot-arbitrario-quot.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
       "id": "32d1c0307cb65298",
@@ -959,186 +947,6 @@
       "resumoFonte": "Justiça rejeitou os pedidos de indenização por danos morais e materiais apresentados pelo ativista contra Neymar e o advogado",
       "imagem": "https://i.metroimg.com/_euUw7-LriZGIHRLyF7rKHsPnyF1syr_C7AmSFO1QUw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/pode-xingar-dispara-neymar-polemica-atletico.jpg",
       "descobertaEm": "2026-11-17T00:18:19.771Z"
-    },
-    {
-      "id": "34f7d63052e89938",
-      "titulo": "MPSP denuncia homem que enviou carta com explosivos a ricaços da Faria Lima",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/sao-paulo/mpsp-denuncia-homem-que-enviou-carta-com-explosivos-a-ricacos-da-faria-lima",
-      "dataFonte": "2026-11-17T00:11:50.000Z",
-      "resumoFonte": "Ítalo Francisco Mendes Barbiot ameaçou explodir casas de executivos com drones carregados de C4 e dinamite. Homem, de 42 anos, está preso",
-      "imagem": "https://i.metroimg.com/j1VA54Es3VKanV8GBhZDILfsqt778mpDOBlqNooJXtM/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/homem-drones-faria-lima.jpg",
-      "descobertaEm": "2026-11-17T00:18:19.771Z",
-      "reportagem": {
-        "titulo": "MPSP denuncia homem que enviou carta com explosivos a ricaços da Faria Lima",
-        "slug": "mpsp-denuncia-homem-que-enviou-carta-com-explosivos-a-ricacos-da-faria-lima",
-        "categoria": "Justiça",
-        "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mpsp-denuncia-homem-que-enviou-carta-com-explosivos-a-ricacos-da-faria-lima.jpg",
-        "resumo": "Ítalo Francisco Mendes Barbiot ameaçou explodir casas de executivos com drones carregados de C4 e dinamite. Homem, de 42 anos, está preso",
-        "conteudo": "<p>São Paulo — O Ministério Público de São Paulo ( MPSP ) denunciou um homem de 42 anos que enviou cartas a executivos da Faria Lima ameaçando destruir suas residências com drones carregados de explosivos, em troca de pagamentos em Bitcoin que somavam R$ 6 milhões.</p><h2>O contexto da decisão judicial</h2><p>Se a denúncia for aceita, Ítalo Francisco Mendes Barbiot poderá responder por três crimes de extorsão e por possuir e transportar substância explosiva sem autorização.</p><p>Barbiot está preso preventivamente desde 30 de outubro . A Promotoria pediu também a manutenção da prisão preventiva do acusado e a fixação de indenização por danos morais em favor das vítimas.</p><p>De acordo com a denúncia, entre os dias 18 de setembro e 2 de outubro, Ítalo Barbiot enviou cartas a três endereços no Itaim Bibi e no Jardim Europa , bairros ricos de São Paulo , pedindo quantias de R$ 1,7 milhão, R$ 3,5 milhões e R$ 800 mil para cada uma das vítimas .</p><h2>Detalhes e consequências do caso</h2><p>Ainda segundo o Ministério Público, ele chegou a incluir nos envelopes pequenas porções sólidas e pastosas de uma substância química cinzenta.</p><p>Após análise pela Unidade Antibombas da Polícia Civil, o resultado foi positivo para grupos químicos presentes em explosivos como C4, dinamite e PETN.</p><p>Nas cartas, o denunciado dizia que os executivos eram alvos prioritários de uma facção criminosa.</p><p>Ainda conforme a Promotoria, as mensagens afirmavam expressamente que drones voadores de longo alcance equipados com carga explosiva de C4 e dinamite seriam arremessados contra as casas das vítimas, caso os montantes exigidos não fossem transferidos imediatamente a uma carteira de Bitcoin.</p><p>Segundo a investigação, Ítalo Francisco Mendes Barbiot primeiro procurou dados públicos e patrimoniais de seus alvos na internet e no site da Prefeitura de São Paulo.</p><p>Em seguida, comprou selos postais em dinheiro, usando boné e óculos escuros em uma tentativa de dificultar sua identificação.</p><p>Depois, usou dados de terceiros para se conectar ao Wi-Fi do Shopping Cidade São Paulo, na Avenida Paulista.</p><p>Em 18 de setembro, ingressou na rede usando dados expostos em cadastros públicos de um ex-suplente de vereador de um município de Santa Catarina. A conta de e-mail utilizada foi abandonada pelo proprietário em 2012.</p><p>Dez dias depois, Barbiot burlou a autenticação da rede de Wi-Fi usando dados pessoais de um advogado.</p><p>Denúncia do MPSP: o Ministério Público de São Paulo denunciou Ítalo Francisco Mendes Barbiot, de 42 anos, por extorsão e posse de explosivos; Ameaças e valores: o homem teria exigido R$ 6 milhões em Bitcoin de executivos em troca de não atacar residências com drones; Investigação policial: a Unidade Antibombas identificou substância química compatível com explosivos nos envelopes, embora o denunciado alegue tratar-se de argila.</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/sao-paulo/mpsp-denuncia-homem-que-enviou-carta-com-explosivos-a-ricacos-da-faria-lima",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "São Paulo — O Ministério Público de São Paulo ( MPSP ) denunciou um homem de 42 anos que enviou cartas a executivos da Faria Lima ameaçando destruir suas residências com drones carregados de explosivos, em troca de pagamentos em Bitcoin que somavam R$ 6 milhões."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Barbiot está preso preventivamente desde 30 de outubro . A Promotoria pediu também a manutenção da prisão preventiva do acusado e a fixação de indenização por danos morais em favor das vítimas."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "De acordo com a denúncia, entre os dias 18 de setembro e 2 de outubro, Ítalo Barbiot enviou cartas a três endereços no Itaim Bibi e no Jardim Europa , bairros ricos de São Paulo , pedindo quantias de R$ 1,7 milhão, R$ 3,5 milhões e R$ 800 mil para cada uma das vítimas ."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Após análise pela Unidade Antibombas da Polícia Civil, o resultado foi positivo para grupos químicos presentes em explosivos como C4, dinamite e PETN."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Nas cartas, o denunciado dizia que os executivos eram alvos prioritários de uma facção criminosa."
-          }
-        ],
-        "imagemOriginal": "https://i.metroimg.com/j1VA54Es3VKanV8GBhZDILfsqt778mpDOBlqNooJXtM/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/homem-drones-faria-lima.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/mpsp-denuncia-homem-que-enviou-carta-com-explosivos-a-ricacos-da-faria-lima.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "24c70616e619f0f1",
-      "titulo": "MPF denuncia ex-prefeito de São Bernardo por possível propina de R$ 600 mil",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-justica/mpf-denuncia-ex-prefeito-de-sao-bernardo-por-possivel-propina-de-r-600-mil/",
-      "dataFonte": "2026-11-17T00:04:42.000Z",
-      "resumoFonte": "Ação indica favorecimento a empresas de alimentação em contratos da Prefeitura durante a gestão de Orlando Morando (MDB); em nota, político afirmou que não há comprovação de irregularidades de sua parte",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/orlando-morando-psdb-1200x675.jpg",
-      "descobertaEm": "2026-11-17T00:18:19.771Z",
-      "reportagem": {
-        "titulo": "MPF denuncia ex-prefeito de São Bernardo por possível propina de R$ 600 mil",
-        "slug": "mpf-denuncia-ex-prefeito-de-sao-bernardo-por-possivel-propina-de-r-600-mil",
-        "categoria": "Justiça",
-        "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mpf-denuncia-ex-prefeito-de-sao-bernardo-por-possivel-propina-de-r-600-mil.jpg",
-        "resumo": "Ação aponta favorecimento a empresas de alimentação em contratos da Prefeitura durante a gestão de Orlando Morando (MDB).",
-        "conteudo": "<p>Ação indica favorecimento a empresas de alimentação em contratos da Prefeitura durante a gestão de Orlando Morando (MDB); em nota, político afirmou que não há comprovação de irregularidades de sua parte</p><h2>O contexto da decisão judicial</h2><p>O Ministério Público Federal denunciou o ex-prefeito de São Bernardo do Campo (SP) Orlando Morando (MDB) por suspeita de recebimento de vantagens indevidas em troca de favorecimento a empresas de alimentação em contratos públicos.</p><p>A ação de improbidade administrativa indica irregularidades em contratações realizadas durante a gestão do político, e 2017 e 2018.</p><p>Em nota, Morando afirmou que as acusações se referem a fatos investigados há mais de 5 anos e que não há comprovação de irregularidades de sua parte. Eis a íntegra da ação (PDF – 556 kB).</p><h2>Detalhes e consequências do caso</h2><p>De acordo com a ação do MPF, empresários ligados ao chamado Núcleo Favaretto ofereceram vantagens indevidas a Morando durante a campanha eleitoral de 2016.</p><p>Em contrapartida, o grupo obteve benefícios em contratos com a Prefeitura de São Bernardo do Campo depois que o político assumiu o cargo, em janeiro de 2017.</p><p>O MPF afirma que uma agenda apreendida na residência de um dos citados, chamado Carlos Roberto Maciel, continha anotações com os codinomes “peixe” e “peixinho” , identificados pela Polícia Federal como referências a Morando.</p><p>Os registros somariam R$ 600 mil. Maciel foi nomeado secretário municipal de Coordenadoria de Assuntos Governamentais em janeiro de 2017, no início da gestão do ex-prefeito.</p><p>A investigação indica que, em 2017 e 2018, foram realizadas 5 contratações com empresas ligadas ao empresário Fábio Favaretto por meio de duas dispensas de licitação fundamentadas em caráter emergencial. Entre as empresas citadas estão Nutrivida, Pró-Saúde e Le Garçon .</p><p>Um dos contratos questionados foi firmado com a Nutrivida para o fornecimento de alimentação à rede hospitalar e de saúde do município.</p><p>A ação também cita um contrato da Pró-Saúde para o serviço de merenda escolar e a prorrogação, por 12 meses, de um contrato anterior com a Le Garçon, no valor de R$ 1,95 milhão.</p><p>A Controladoria-Geral da União, em análise reproduzida na ação, afirma que a Prefeitura utilizou a contratação emergencial para manter os serviços da Nutrivida por quase 1 ano.</p><p>A legislação citada pelo órgão estabelece limite de 180 dias para esse tipo de contratação e veda a prorrogação dos contratos emergenciais.</p><p>O MPF atribuiu à ação o valor de R$ 42,03 milhões. O órgão também pediu à Justiça o bloqueio de bens dos citados como medida cautelar. O pedido ainda depende de decisão judicial. As alegações ainda serão analisadas pela Justiça.</p><p>O atual prefeito de São Bernardo do Campo, Marcelo Lima (Podemos), que foi vice-prefeito de Orlando Morando de 2017 a 2020, também foi alvo de uma ação de improbidade administrativa do Ministério Público de São Paulo, ajuizada em 27 de outubro de 2026.</p><p>O órgão o indica como líder de um esquema de corrupção e lavagem de dinheiro na Prefeitura.</p><p>Em nota ao Poder360 , a defesa de Lima afirmou que ele ainda não havia sido notificado e declarou que o prefeito “sempre pautou sua postura dentro da mais absoluta regularidade”.</p><p>Em nota ao Poder360 , Morando negou ter recebido vantagens indevidas e afirmou que as contratações municipais seguiram os procedimentos legais, com análises técnicas e jurídicas.</p><p>O ex-prefeito também declarou que as contas de sua campanha eleitoral de 2016 foram aprovadas pela Justiça Eleitoral. Reafirmou sua inocência e disse confiar na Justiça, certo de que a ação será julgada improcedente.</p><p>O Poder360 procurou Carlos Roberto Maciel por meio de aplicativo de mensagens do escritório de advocacia que o representa.</p><p>A reportagem também enviou e-mails comerciais disponíveis na internet à Pró-Saúde e à Nutrivida para solicitar posicionamentos sobre as afirmações do MPF.</p><p>O texto será atualizado caso uma manifestação seja enviada a este jornal digital.</p><p>O Poder360 tentou entrar em contato com Fábio Favaretto e com a empresa Le Garçon, mas não teve sucesso em encontrar telefones ou e-mails válidos para informar sobre o conteúdo desta reportagem.</p><p>Este jornal digital seguirá tentando fazer contato com ambos, e o texto será atualizado caso alguma manifestação seja enviada a este jornal digital.</p><p>Em resposta aos questionamentos, o ex-prefeito Orlando Morando informa que as acusações se referem a fatos investigados há mais de cinco anos, sem qualquer comprovação de irregularidades de sua parte, e que as contas de sua campanha de 2016 foram aprovadas pela Justiça Eleitoral.</p><p>Morando reafirma que jamais recebeu vantagens indevidas e que as contratações municipais seguiram os procedimentos legais, com análise técnica e jurídica. Reitera sua inocência e confiança na Justiça, certo de que a ação será julgada improcedente.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-justica/mpf-denuncia-ex-prefeito-de-sao-bernardo-por-possivel-propina-de-r-600-mil/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Ação indica favorecimento a empresas de alimentação em contratos da Prefeitura durante a gestão de Orlando Morando (MDB); em nota, político afirmou que não há comprovação de irregularidades de sua parte"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Ministério Público Federal denunciou o ex-prefeito de São Bernardo do Campo (SP) Orlando Morando (MDB) por suspeita de recebimento de vantagens indevidas em troca de favorecimento a empresas de alimentação em contratos públicos."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "De acordo com a ação do MPF, empresários ligados ao chamado Núcleo Favaretto ofereceram vantagens indevidas a Morando durante a campanha eleitoral de 2016. Em contrapartida, o grupo obteve benefícios em contratos com a Prefeitura de São Bernardo do Campo depois que o político assumiu o cargo, em janeiro de 2017."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O MPF afirma que uma agenda apreendida na residência de um dos citados, chamado Carlos Roberto Maciel, continha anotações com os codinomes “peixe” e “peixinho” , identificados pela Polícia Federal como referências a Morando. Os registros somariam R$ 600 mil."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A investigação indica que, em 2017 e 2018, foram realizadas 5 contratações com empresas ligadas ao empresário Fábio Favaretto por meio de duas dispensas de licitação fundamentadas em caráter emergencial. Entre as empresas citadas estão Nutrivida, Pró-Saúde e Le Garçon ."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/orlando-morando-psdb-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/mpf-denuncia-ex-prefeito-de-sao-bernardo-por-possivel-propina-de-r-600-mil.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "bcb7f8d2579295c8",
-      "titulo": "Mandato no STF e amplitude lideram debate sobre reforma do Judiciário",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/politica/mandato-no-stf-e-amplitude-lideram-debate-sobre-reforma-do-judiciario/",
-      "dataFonte": "2026-11-17T00:03:10.000Z",
-      "resumoFonte": "Plataforma do Grupo Prerrogativas recebeu 86 propostas na primeira semana; sugestões incluem mudanças em outros órgãos do sistema de Justiça e o fim dos supersalários",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/ministro-andre-mendonca-plenario-stf-1.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-17T00:18:19.771Z",
-      "reportagem": {
-        "titulo": "Mandato no STF e amplitude lideram debate sobre reforma do Judiciário",
-        "slug": "mandato-no-stf-e-amplitude-lideram-debate-sobre-reforma-do-judiciario",
-        "categoria": "Justiça",
-        "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mandato-no-stf-e-amplitude-lideram-debate-sobre-reforma-do-judiciario.jpg",
-        "resumo": "Plataforma do Grupo Prerrogativas recebeu 86 propostas na primeira semana; sugestões incluem mudanças em outros órgãos do sistema de Justiça e o fim dos supersalários",
-        "conteudo": "<p>A discussão sobre o tempo de permanência dos ministros no STF (Supremo Tribunal Federal) e a extensão das mudanças para todo o sistema de Justiça representam a maior parte das sugestões enviadas na primeira semana de funcionamento da plataforma reformadojudiciario.com , desenvolvida pelo Grupo Prerrogativas como um agregador de propostas para uma possível reforma do Judiciário em 2027.</p><h2>O contexto da decisão judicial</h2><p>Ao todo, a plataforma recebeu 86 propostas enviadas por 33 pessoas e entidades desde o lançamento da consulta pública, em 10 de novembro.</p><p>O balanço foi divulgado nesta segunda-feira (16) pelo próprio Grupo Prerrogativas, que reúne juristas majoritariamente simpáticos ao presidente Luiz Inácio Lula da Silva (PT).</p><p>O levantamento parte de um documento-base estruturado em nove eixos e já entregue a Lula durante a campanha eleitoral . O texto prevê, entre outros pontos, mandato de 12 anos para integrantes da Suprema Corte, a criação de um código de ética e restrições ao foro privilegiado .</p><h2>Detalhes e consequências do caso</h2><p>A plataforma apontou que 36 das 86 propostas, entretanto, abordam temas que não estavam previstos no documento original.</p><p>Enquanto o texto-base propõe mandato de 12 anos , sem possibilidade de recondução, e idade mínima de 45 anos para ingressar no STF , as contribuições variam de mandatos com duração entre cinco e 18 anos até a manutenção do atual modelo vitalício.</p><p>Há ainda propostas para a eleição direta de ministros, exigência de dez anos de atuação prévia no STJ (Superior Tribunal de Justiça) e a distribuição regional das cadeiras .</p><p>O ponto de maior convergência entre os participantes, por sua vez, é a ampliação da reforma para alcançar também o Ministério Público , a Defensoria Pública , a Advocacia Pública e a Polícia Federal .</p><p>Entre as demandas que não constavam do texto original aparecem o fim dos chamados supersalários acima do teto constitucional; o encerramento das férias de 60 dias na magistratura; e a imposição de limites para que o CNJ (Conselho Nacional de Justiça) e o CNMP (Conselho Nacional do Ministério Público) criem vantagens por meio de resoluções.</p><p>Apesar de o texto-base já ter sido apresentado a Lula, o grupo pretende ampliar a consulta antes de consolidar a redação final.</p><p>O coordenador do Grupo Prerrogativas, Bruno Salles Ribeiro , afirmou à CNN que a plataforma seguirá aberta até o fim de 2026 para ouvir o maior número possível de entidades.</p><p>A intenção, segundo ele, é realizar uma plenária para fechar o texto. O material também ficará à disposição do governo federal caso o Palácio do Planalto avalie que o tema exige um prazo maior de debate .</p><p>Para destravar a tramitação no Legislativo em 2027, o grupo aposta na reestruturação institucional do Executivo como ponte política.</p><p>&quot;Uma das nossas principais propostas é a recriação da Secretaria de Reforma do Judiciário, que também terá a função de receber e centralizar as propostas sobre o tema.</p><p>Caberá a essa secretaria, ao lado da Casa Civil, a missão de articular com o Congresso Nacional a aprovação de uma reforma do Judiciário&quot;, disse Ribeiro.</p><p>Extinta em 2016, a Secretaria de Reforma do Judiciário era vinculada ao Ministério da Justiça e foi responsável, em 2004, pela articulação da Emenda Constitucional 45, que criou o CNJ.</p><p>Pela proposta em discussão, o órgão seria recriado sem competência administrativa ou disciplinar sobre os tribunais, atuando apenas como instância de escuta e articulação institucional.</p><p>Os ministros Gilmar Mendes, André Mendonça, Alexandre de Moraes e Dias Toffoli em sessão plenária do STF</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/politica/mandato-no-stf-e-amplitude-lideram-debate-sobre-reforma-do-judiciario/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A discussão sobre o tempo de permanência dos ministros no STF (Supremo Tribunal Federal) e a extensão das mudanças para todo o sistema de Justiça representam a maior parte das sugestões enviadas na primeira semana de funcionamento da plataforma reformadojudiciario.com , desenvolvida pelo Grupo Prerrogativas como um agregador de propostas para uma possível reforma do Judiciário em 2027."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Ao todo, a plataforma recebeu 86 propostas enviadas por 33 pessoas e entidades desde o lançamento da consulta pública, em 10 de novembro. O balanço foi divulgado nesta segunda-feira (16) pelo próprio Grupo Prerrogativas, que reúne juristas majoritariamente simpáticos ao presidente Luiz Inácio Lula da Silva (PT)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O levantamento parte de um documento-base estruturado em nove eixos e já entregue a Lula durante a campanha eleitoral . O texto prevê, entre outros pontos, mandato de 12 anos para integrantes da Suprema Corte, a criação de um código de ética e restrições ao foro privilegiado ."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A plataforma apontou que 36 das 86 propostas, entretanto, abordam temas que não estavam previstos no documento original."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Enquanto o texto-base propõe mandato de 12 anos , sem possibilidade de recondução, e idade mínima de 45 anos para ingressar no STF , as contribuições variam de mandatos com duração entre cinco e 18 anos até a manutenção do atual modelo vitalício."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/ministro-andre-mendonca-plenario-stf-1.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/mandato-no-stf-e-amplitude-lideram-debate-sobre-reforma-do-judiciario.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
     },
     {
       "id": "a9bfdb33a9f7c7b9",
@@ -1319,213 +1127,21 @@
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
-    },
-    {
-      "id": "d9fbe9036ed5c2ce",
-      "titulo": "Fim da escala 6×1 deve “furar fila” de julgamentos no plenário do STF",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/politica/fim-da-escala-6x1-deve-furar-fila-de-julgamentos-no-plenario-do-stf/",
-      "dataFonte": "2026-11-16T22:43:26.000Z",
-      "resumoFonte": "Edson Fachin aguarda liberação de Flávio Dino para pautar julgamento sobre escala 6x1 antes de 16 de dezembro; apuração de Luísa Martins para o Hora H",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Plenario-do-STF.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-16T23:18:48.485Z",
-      "reportagem": {
-        "titulo": "Fim da escala 6x1 deve &quot;furar fila&quot; de julgamentos no plenário do STF",
-        "slug": "fim-da-escala-6x1-deve-quot-furar-fila-quot-de-julgamentos-no-plenario-do-stf",
-        "categoria": "Justiça",
-        "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/fim-da-escala-6x1-deve-quot-furar-fila-quot-de-julgamentos-no-plenario-do-stf.jpg",
-        "resumo": "Presidente da Corte, Edson Fachin, pretende agendar data assim que Flávio Dino liberar o processo para análise dos demais ministros",
-        "conteudo": "<p>O presidente do STF (Supremo Tribunal Federal), Edson Fachin, está disposto a rearranjar a pauta de julgamentos de novembro para incluir a discussão sobre o fim da escala 6x1.</p><h2>O contexto da decisão judicial</h2><p>Interlocutores de Fachin afirmam que ele pretende agendar uma data no calendário da Corte tão logo o processo seja liberado pelo relator da ação, ministro Flávio Dino.</p><p>Dino deu uma liminar mantendo a data de 16 de dezembro para o início da escala 5x2, mas flexibilizou a distribuição das folgas por meio de negociações coletivas.</p><p>No plenário virtual, três ministros (Alexandre de Moraes, Cármen Lúcia e Gilmar Mendes) já haviam votado para referendar a decisão, mas houve pedido de destaque do ministro Luiz Fux .</p><h2>Detalhes e consequências do caso</h2><p>O destaque ocorre quando um magistrado entende que o tema deve ser debatido na sessão plenária presencial do STF, e não por meio da plataforma eletrônica de votação, como ocorria no caso da jornada de trabalho.</p><p>No caso da sessão presencial, a definição da data depende do presidente do STF. Fachin sinalizou a auxiliares que o processo terá prioridade na pauta .</p><p>Ele entende que, como falta apenas um mês para o novo modelo de jornada de trabalho ser instituído, o ideal seria o STF dar uma decisão definitiva o mais rápido possível.</p><p>Outros ministros do Supremo têm leitura parecida e citam que uma deliberação colegiada do STF daria mais segurança jurídica para a implementação das novas regras.</p><p>Enquanto o julgamento em plenário não ocorre, a liminar de Dino permanece válida. Embora Fux tenha interrompido a sessão virtual, o STF tende a ter maioria para referendar a decisão.</p><p>Até o momento, a pauta do STF em novembro inclui ações como as que discutem crime patrimonial contra mulheres, anistia a partidos políticos e emendas estaduais impositivas.</p><p>O presidente do STF, ministro Edson Fachin, em sessão plenária do STF</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/politica/fim-da-escala-6x1-deve-furar-fila-de-julgamentos-no-plenario-do-stf/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O presidente do STF (Supremo Tribunal Federal), Edson Fachin, está disposto a rearranjar a pauta de julgamentos de novembro para incluir a discussão sobre o fim da escala 6x1."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Interlocutores de Fachin afirmam que ele pretende agendar uma data no calendário da Corte tão logo o processo seja liberado pelo relator da ação, ministro Flávio Dino."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Dino deu uma liminar mantendo a data de 16 de dezembro para o início da escala 5x2, mas flexibilizou a distribuição das folgas por meio de negociações coletivas."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "No plenário virtual, três ministros (Alexandre de Moraes, Cármen Lúcia e Gilmar Mendes) já haviam votado para referendar a decisão, mas houve pedido de destaque do ministro Luiz Fux ."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O destaque ocorre quando um magistrado entende que o tema deve ser debatido na sessão plenária presencial do STF, e não por meio da plataforma eletrônica de votação, como ocorria no caso da jornada de trabalho."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Plenario-do-STF.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/fim-da-escala-6x1-deve-quot-furar-fila-quot-de-julgamentos-no-plenario-do-stf.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "1c0d5393bbf3351e",
-      "titulo": "\"É o fim da picada\", diz ex-candidata do Cidadania sobre incorporação ao PP",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/vinicius-passarelli/e-o-fim-da-picada-diz-ex-candidata-do-cidadania-sobre-incorporacao-ao-pp",
-      "dataFonte": "2026-11-16T22:16:21.000Z",
-      "resumoFonte": "Candidata ao Senado, Soninha Francine, e lideranças como Roberto Freire criticaram a iniciativa. Presidente do Cidadania defende processo",
-      "imagem": "https://i.metroimg.com/TjcpX-xoIXuWVcpk2SM1YgI7n40iWX-canLqJNTI1Wg/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/whatsapp-image-2026-11-16-at-19-13-13.jpeg",
-      "descobertaEm": "2026-11-16T22:20:35.315Z",
-      "reportagem": {
-        "titulo": "&quot;É o fim da picada&quot;, diz ex-candidata do Cidadania sobre incorporação ao PP",
-        "slug": "quot-e-o-fim-da-picada-quot-diz-ex-candidata-do-cidadania-sobre-incorporacao-ao-pp",
-        "categoria": "Justiça",
-        "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/quot-e-o-fim-da-picada-quot-diz-ex-candidata-do-cidadania-sobre-incorporacao-ao-pp.jpg",
-        "resumo": "Candidata ao Senado, Soninha Francine, e lideranças como Roberto Freire criticaram a iniciativa. Presidente do Cidadania defende processo",
-        "conteudo": "<p>Candidata do Cidadania ao Senado por São Paulo nas eleições deste ano, Soninha Francine criticou a iniciativa do Diretório Nacional de incorporar a legenda ao Progressistas (PP).</p><h2>O contexto da decisão judicial</h2><p>No último sábado (14/11), o colegiado aprovou, por 21 votos a 6, a realização de um congresso no próximo sábado (21/11) com a pauta única de incorporar o partido ao Progressistas (PP) .</p><p>Na prática, a proposta prevê a adoção do estatuto e do programa do partido incorporador, ou seja, das regras internas e diretrizes políticas do PP, culminando no fim formal do Cidadania como partido político independente.</p><p>Oriunda do antigo Partido Comunista Brasileiro (PCB), a legenda passou a se chamar Partido Popular Socialista (PPS) em 1992. Em 2019, virou o Cidadania .</p><h2>Detalhes e consequências do caso</h2><p>“Acho o fim da picada”, disse Soninha Francine à coluna. Ela disse que não estava sabendo da iniciativa e que foi procurada por algumas pessoas antes da reunião de sábado sobre a decisão liderada pelo presidente nacional do Cidadania, Alex Manente, em propor a incorporação ao PP.</p><p>“Eu não fazia ideia, nem vi que teria reunião do Diretório, e eis que era verdade”, contou.</p><p>Nas eleições deste ano, federado com o PSDB, o Cidadania elegeu apenas um deputado estadual em todo o Brasil e nenhum deputado federal. A legenda também se manteve sem representação no Senado.</p><p>Em 2022, o partido conseguiu eleger cinco deputados federais. O auge da bancada federal ocorreu em 2006, quando o Cidadania obteve 22 cadeiras na Câmara dos Deputados. Naquele ano, foram 41 deputados estaduais eleitos.</p><p>“O Cidadania é um partido que foi se reduzindo com o passar do tempo. A federação com o PSDB, que foi o que tivemos nos últimos 4 anos, nessa eleição chegou ao fim, acho que as relações esgotaram.</p><p>E o caminho que o Cidadania e os filiados e membros do diretório que têm poder de decisão e de encaminhamento da solução apontaram, na sua maioria, é a incorporação com o Progressistas”, disse à coluna o presidente da legenda, Alex Manente.</p><p>Caso seja aprovada e concluída legalmente, a incorporação ao PP também resultará na extinção da Fundação Astrojildo Pereira (FAP), instituição vinculada ao partido.</p><p>A decisão do diretório nacional pela incorporação foi recebida por críticas de lideranças históricas do Cidadania, como o ex-deputado Roberto Freire, que em 1989 foi candidato à Presidência da República ainda pelo PCB.</p><p>Freire se manifestou na reunião do último sábado (14/11) e publicou nas redes sociais um manifesto crítico à iniciativa.</p><p>“Somos contrários à incorporação ao PP por entendermos que existem diferenças ideológicas, programáticas e históricas que precisam ser consideradas.</p><p>Não se trata de uma questão de conveniência eleitoral ou de interesses individuais, mas da preservação de um projeto político, de princípios e de uma identidade partidária que pertencem coletivamente aos seus integrantes.</p><p>Também manifestamos nosso repúdio à condução autoritária e personalista atribuída ao deputado Alex Manente na condução desse processo”, diz trecho do manifesto.</p><p>O Progressistas é considerado um dos partidos atuais herdeiros da Aliança Renovadora Nacional (ARENA), partido oficial da Ditadura Militar, e de seu sucessor, o Partido Democrático Social (PDS). Após fusões e mudanças de nome, em 2017, o PP adotou a denominação atual.</p><p>Alex Manente argumenta que o Cidadania “não é um partido comunista há mais de 35 anos” e que a legenda não tem uma “tendência de esquerda há algum tempo”.</p><p>“Vamos deixar as coisas bastante esclarecidas. O PPS, que é o partido que eu me filiei, é um partido que na época essa coisa de direita e esquerda era pouco importante.</p><p>O que era importante, e eu acho que o país se consolidou nisso, era o combate ao PT. Grande parte dos filiados que hoje estão decidindo pelo PP é oriunda desde o momento.</p><p>O PPS foi o primeiro partido, junto com o PSL, que se tornou depois o DEM, que pediu o impeachment da Dilma. Então nós já não temos essa tendência de esquerda há algum tempo no partido.</p><p>Grande parte dos membros, dez anos depois desse impeachment, são pessoas que têm visões progressistas, mas que não são de esquerda”, disse Manente.</p><p>Diversos diretórios regionais também emitiram nota em repúdio à incorporação e à forma como o processo foi conduzido por Manente.</p><p>Entre os que se manifestaram de forma contrária, estão os diretórios do Sergipe, Maranhão e Distrito Federal, assim como o diretório municipal de Curitiba.</p><p>Ex-integrantes da Executiva do Pernambuco também publicaram nota criticando o movimento.</p><p>Para o presidente do Cidadania, as críticas são “naturais” e que os 20% do diretório que votaram contra tem o direito de se manifestar. “Não vejo como crítica pessoal, vejo como uma posição divergente da maioria. Não vejo nenhuma contradição”, disse.</p><p>O deputado ainda argumentou que o processo foi democrático. “Uma reunião de 4 horas, demorada, todos tiveram oportunidade de argumentar, falar, mas o resultado é esse.</p><p>Eu respeito quem pensa diferente e admito que é natural que as pessoas, num momento como esse, exponham as suas posições publicamente. É um direito”, afirmou Manente.</p><p>Proposta de incorporação: o Diretório Nacional do Cidadania aprovou, por 21 votos a 6, a realização de um congresso em 21 de novembro para deliberar sobre a incorporação do partido ao Progressistas (PP); Posicionamento interno: a candidata ao Senado Soninha Francine e lideranças como Roberto Freire criticaram a iniciativa, enquanto o presidente nacional da legenda, Alex Manente, defendeu a medida e o processo como democrático; Impacto institucional: caso concluída, a proposta prevê o fim formal do Cidadania, a adoção das diretrizes do PP e a extinção da Fundação Astrojildo Pereira.</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/colunas/vinicius-passarelli/e-o-fim-da-picada-diz-ex-candidata-do-cidadania-sobre-incorporacao-ao-pp",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Candidata do Cidadania ao Senado por São Paulo nas eleições deste ano, Soninha Francine criticou a iniciativa do Diretório Nacional de incorporar a legenda ao Progressistas (PP)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Na prática, a proposta prevê a adoção do estatuto e do programa do partido incorporador, ou seja, das regras internas e diretrizes políticas do PP, culminando no fim formal do Cidadania como partido político independente. Oriunda do antigo Partido Comunista Brasileiro (PCB), a legenda passou a se chamar Partido Popular Socialista (PPS) em 1992."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "“Acho o fim da picada”, disse Soninha Francine à coluna. Ela disse que não estava sabendo da iniciativa e que foi procurada por algumas pessoas antes da reunião de sábado sobre a decisão liderada pelo presidente nacional do Cidadania, Alex Manente, em propor a incorporação ao PP."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Nas eleições deste ano, federado com o PSDB, o Cidadania elegeu apenas um deputado estadual em todo o Brasil e nenhum deputado federal. A legenda também se manteve sem representação no Senado. Em 2022, o partido conseguiu eleger cinco deputados federais. O auge da bancada federal ocorreu em 2006, quando o Cidadania obteve 22 cadeiras na Câmara dos Deputados."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "“O Cidadania é um partido que foi se reduzindo com o passar do tempo. A federação com o PSDB, que foi o que tivemos nos últimos 4 anos, nessa eleição chegou ao fim, acho que as relações esgotaram."
-          }
-        ],
-        "imagemOriginal": "https://i.metroimg.com/TjcpX-xoIXuWVcpk2SM1YgI7n40iWX-canLqJNTI1Wg/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/whatsapp-image-2026-11-16-at-19-13-13.jpeg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/quot-e-o-fim-da-picada-quot-diz-ex-candidata-do-cidadania-sobre-incorporacao-ao-pp.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "e736ecb82d0f43c5",
-      "titulo": "Daniel Silveira: Moraes arquiva inquérito contra ex-deputado cassado",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/16/moraes-arquiva-inquerito-contra-ex-deputado-apos-pedido-da-pgr.ghtm",
-      "dataFonte": "2026-11-16T22:06:13.000Z",
-      "resumoFonte": "O ministro Alexandre de Moraes, do STF (Supremo Tribunal Federal), decidiu nesta segunda-feira (16) arquivar um inquérito em que o ex-deputado federal Daniel Silveira era investigado por desobediência.",
-      "imagem": "https://cdn.oantagonista.com/uploads/2023/07/img20221221151459672-scaled.jpg",
-      "descobertaEm": "2026-11-16T22:14:22.844Z"
-    },
-    {
-      "id": "9de2d33ac75f9b2b",
-      "titulo": "Moraes autoriza compartilhamento de provas contra ex-comandante da Marinha com o STM",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/politica/moraes-autoriza-compartilhamento-de-provas-contra-ex-comandante-da-marinha-com-o-stm/",
-      "dataFonte": "2026-11-16T22:02:36.000Z",
-      "resumoFonte": "Alexandre de Moraes (Foto: Bruno Peres/Agência Brasil) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2025/07/moraes.jpg?fit=1170%2C700&quality=70&strip=all\" />Almir Garnier foi condenado a 24 anos de prisão pela Primeira Turma do STF The post Moraes autoriza compartilhamento de provas contra ex-comandante da Marinha com o STM…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2025/07/moraes.jpg",
-      "descobertaEm": "2026-11-16T22:14:22.844Z",
-      "reportagem": {
-        "titulo": "Moraes autoriza compartilhamento de provas contra ex-comandante da Marinha com o STM",
-        "slug": "moraes-autoriza-compartilhamento-de-provas-contra-ex-comandante-da-marinha-com-o-stm",
-        "categoria": "Justiça",
-        "data": "2026-11-16",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/moraes-autoriza-compartilhamento-de-provas-contra-ex-comandante-da-marinha-com-o-stm.jpg",
-        "resumo": "Almir Garnier foi condenado a 24 anos de prisão pela Primeira Turma do STF",
-        "conteudo": "<p>O ministro Alexandre de Moraes , do Supremo Tribunal Federal (STF), autorizou o compartilhamento das provas usadas na ação penal da trama golpista com o Superior Tribunal Militar (STM).</p><h2>O contexto da decisão judicial</h2><p>A decisão proferida nesta segunda-feira (16) atende a pedido de instrução de processo de expulsão do almirante de esquadra Almir Garnier, ex-comandante da Marinha.</p><p>Ele foi condenado a 24 anos de prisão pela Primeira Turma do STF no mesmo julgamento que considerou culpado o ex-presidente Jair Bolsonaro. Garnier foi o único chefe de uma das três Forças que apoiou a tentativa de ruptura institucional que culminou com os atos do 8 de janeiro.</p><h2>Detalhes e consequências do caso</h2><p>Presidente quer definir novo indicado ainda em novembro, após derrota de Jorge Messias no Senado</p><p>Relatora do processo contra o militar, a ministra Verônica Abdalla Sterman, do STM, havia solicitado “mídia integral (áudio e vídeo), do termo de audiência e eventual degravação dos depoimentos de Marcos Sampaio Olsen e de José Aldo Rebelo Figueiredo, colhidos na instrução da Ação Penal nº 2.668/DF”.</p><p>No último dia 22, foi publicado o acórdão da decisão da Primeira Turma do STF que condenou os réus do chamado “Núcleo 1” da trama golpista. Com isso, o material já pode ser remetido ao STM que julgará os membros das Forças Armadas.</p><p>Além de Garnier, fazem parte deste grupo o ex-presidente Jair Bolsonaro, Alexandre Ramagem, ex-diretor-geral da Polícia Federal e da Agência Brasileira de Inteligência (Abin), e Augusto Heleno, ex-ministro do Gabinete de Segurança Institucional (GSI).</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/politica/moraes-autoriza-compartilhamento-de-provas-contra-ex-comandante-da-marinha-com-o-stm/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O ministro Alexandre de Moraes , do Supremo Tribunal Federal (STF), autorizou o compartilhamento das provas usadas na ação penal da trama golpista com o Superior Tribunal Militar (STM). A decisão proferida nesta segunda-feira (16) atende a pedido de instrução de processo de expulsão do almirante de esquadra Almir Garnier, ex-comandante da Marinha."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Ele foi condenado a 24 anos de prisão pela Primeira Turma do STF no mesmo julgamento que considerou culpado o ex-presidente Jair Bolsonaro. Garnier foi o único chefe de uma das três Forças que apoiou a tentativa de ruptura institucional que culminou com os atos do 8 de janeiro."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Presidente quer definir novo indicado ainda em novembro, após derrota de Jorge Messias no Senado"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Relatora do processo contra o militar, a ministra Verônica Abdalla Sterman, do STM, havia solicitado “mídia integral (áudio e vídeo), do termo de audiência e eventual degravação dos depoimentos de Marcos Sampaio Olsen e de José Aldo Rebelo Figueiredo, colhidos na instrução da Ação Penal nº 2.668/DF”."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "No último dia 22, foi publicado o acórdão da decisão da Primeira Turma do STF que condenou os réus do chamado “Núcleo 1” da trama golpista. Com isso, o material já pode ser remetido ao STM que julgará os membros das Forças Armadas."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2025/07/moraes.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/moraes-autoriza-compartilhamento-de-provas-contra-ex-comandante-da-marinha-com-o-stm.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
     }
   ],
-  "reapuradoEm": "2026-11-17T00:48:47.403Z",
+  "reapuradoEm": "2026-11-17T01:48:49.141Z",
   "diagnosticoReapuracao": {
-    "produzidas": 24,
+    "produzidas": 17,
     "jaProntas": 0,
-    "incompletas": 5,
+    "incompletas": 8,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 24,
+    "geradas": 17,
     "reaproveitadas": 0,
-    "puladas": 5,
+    "puladas": 8,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-17T00:50:49.182Z"
+  "lapisEm": "2026-11-17T01:50:05.564Z"
 }
