@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-18T11:19:34.367Z",
+  "atualizadoEm": "2026-11-18T12:18:58.400Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 85,
+  "novasPautas": 87,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -212,9 +212,11 @@
     },
     {
       "fonte": "Poder360",
-      "ok": false,
-      "erro": "https://www.poder360.com.br/ -> 403 Forbidden",
-      "capa": true
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://www.poder360.com.br/",
+      "fallback": false
     },
     {
       "fonte": "Congresso em Foco",
@@ -295,7 +297,7 @@
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 7,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -314,14 +316,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 5,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 6,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -374,8 +376,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-18T11:23:36.390Z",
-    "novas": 6,
+    "atualizadoEm": "2026-11-18T12:22:36.753Z",
+    "novas": 5,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-18T11:23:38.808Z",
+    "atualizadoEm": "2026-11-18T12:22:38.671Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-18T11:23:39.866Z",
+    "atualizadoEm": "2026-11-18T12:22:39.686Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-18T11:23:50.419Z",
+    "atualizadoEm": "2026-11-18T12:22:50.229Z",
     "novas": 0,
     "fontes": [
       {
