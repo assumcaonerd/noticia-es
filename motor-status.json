@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-18T22:18:40.402Z",
+  "atualizadoEm": "2026-11-18T23:18:42.786Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 75,
+  "novasPautas": 91,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -61,7 +61,7 @@
     {
       "fonte": "A Gazeta - Polícia",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 6,
       "capa": false,
       "rota": "https://www.agazeta.com.br/es/policia",
       "fallback": false
@@ -76,29 +76,35 @@
     },
     {
       "fonte": "SESP-ES",
-      "ok": false,
-      "erro": "https://sesp.es.gov.br/Noticias -> fetch failed",
-      "capa": false
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://sesp.es.gov.br/Noticias",
+      "fallback": false
     },
     {
       "fonte": "Polícia Civil do ES",
-      "ok": false,
-      "erro": "https://pc.es.gov.br/Noticias -> fetch failed",
-      "capa": false
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://pc.es.gov.br/Noticias",
+      "fallback": false
     },
     {
       "fonte": "Corpo de Bombeiros do ES",
-      "ok": false,
-      "erro": "https://cb.es.gov.br/Noticias -> fetch failed",
-      "capa": false
+      "ok": true,
+      "encontrados": 0,
+      "capa": false,
+      "rota": "https://cb.es.gov.br/Noticias",
+      "fallback": false
     },
     {
       "fonte": "Polícia Militar do ES",
       "ok": true,
       "encontrados": 0,
       "capa": false,
-      "rota": "https://pm.es.gov.br/noticias",
-      "fallback": true
+      "rota": "https://pm.es.gov.br/Noticias",
+      "fallback": false
     },
     {
       "fonte": "Polícia Penal do ES",
@@ -263,7 +269,7 @@
     {
       "fonte": "Agência Brasil - Política",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 7,
       "rota": "https://agenciabrasil.ebc.com.br/rss/politica/feed.xml",
       "fallback": false
     },
@@ -284,14 +290,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 9,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 4,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -310,14 +316,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 7,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 11,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -370,8 +376,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-18T22:23:23.204Z",
-    "novas": 2,
+    "atualizadoEm": "2026-11-18T23:21:48.319Z",
+    "novas": 4,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -431,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-18T22:23:24.550Z",
+    "atualizadoEm": "2026-11-18T23:21:50.140Z",
     "novas": 0,
     "fontes": [
       {
@@ -447,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-18T22:23:25.418Z",
+    "atualizadoEm": "2026-11-18T23:21:51.065Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-18T22:23:35.977Z",
+    "atualizadoEm": "2026-11-18T23:22:01.629Z",
     "novas": 0,
     "fontes": [
       {
