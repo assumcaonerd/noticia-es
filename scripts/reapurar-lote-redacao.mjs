@@ -50,16 +50,28 @@ const FONTES_POR_CATEGORIA = {
 };
 
 function decodeHtml(texto = '') {
-  return String(texto)
-    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-    .replace(/&/g, '&')
-    .replace(/"/g, '"')
-    .replace(/&#39;|'/g, "'")
-    .replace(/</g, '<')
-    .replace(/>/g, '>')
-    .replace(/&nbsp;|&#160;/gi, ' ')
-    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
-    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
+  const entidades = {
+    amp: '&', quot: '"', apos: "'", lt: '<', gt: '>', nbsp: ' ',
+    ccedil: 'ç', atilde: 'ã', aacute: 'á', eacute: 'é',
+    iacute: 'í', oacute: 'ó', uacute: 'ú', ecirc: 'ê', ocirc: 'ô'
+  };
+  let resultado = String(texto).replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1');
+  // Duas passagens permitem tratar entidades duplamente codificadas, como &amp;quot;.
+  for (let i = 0; i < 2; i++) {
+    const anterior = resultado;
+    resultado = resultado.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (original, entidade) => {
+      if (entidade.startsWith('#')) {
+        const hexadecimal = entidade[1]?.toLowerCase() === 'x';
+        const numero = parseInt(entidade.slice(hexadecimal ? 2 : 1), hexadecimal ? 16 : 10);
+        return Number.isInteger(numero) && numero >= 0 && numero <= 0x10ffff &&
+          (numero < 0xd800 || numero > 0xdfff) ? String.fromCodePoint(numero) : original;
+      }
+      const nome = entidade.toLowerCase();
+      return Object.prototype.hasOwnProperty.call(entidades, nome) ? entidades[nome] : original;
+    });
+    if (resultado === anterior) break;
+  }
+  return resultado;
 }
 
 function limparHtml(texto = '') {
@@ -73,10 +85,11 @@ function limparHtml(texto = '') {
 
 function escapar(texto = '') {
   return String(texto)
-    .replace(/&/g, '&')
-    .replace(/</g, '<')
-    .replace(/>/g, '>')
-    .replace(/"/g, '"');
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 }
 
 function slugify(s = '') {
