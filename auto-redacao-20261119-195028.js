@@ -4,7 +4,7 @@ const noticiasAutoRedacao20261119195028 = [
     pautaId: "efd537d3f3168788",
     slug: "como-a-intervencao-do-bc-no-mercado-de-cambio-acabou-estressando-a-curva-de-juros",
     titulo: "Como a intervenção do BC no mercado de câmbio acabou estressando a curva de juros",
-    categoria: "Tecnologia",
+    categoria: "Economia",
     data: "2026-11-19",
     imagem: "https://noticiaes.com.br/imagens/lapis/como-a-intervencao-do-bc-no-mercado-de-cambio-acabou-estressando-a-curva-de-juros.jpg",
     resumo: "As taxas percorreram a segunda etapa do pregão com abertura de mais de 30 pontos nos vértices de janeiro de 2028 a 2031, sob uma conjunção de fatores",
