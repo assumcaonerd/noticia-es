@@ -1,29 +1,17 @@
 {
-  "geradoEm": "2026-11-20T00:51:53.233Z",
+  "geradoEm": "2026-11-20T01:50:06.103Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 2,
     "bloqueadasEditoriais": 1,
-    "semImagem": 1,
-    "duplicadasBasicas": 4,
-    "duplicadasSemanticas": 8,
-    "foraCategorias": 34
+    "semImagem": 2,
+    "duplicadasBasicas": 6,
+    "duplicadasSemanticas": 5,
+    "foraCategorias": 36
   },
-  "quantidadeCandidatas": 30,
+  "quantidadeCandidatas": 28,
   "candidatas": [
-    {
-      "id": "a1230c7997873ce9",
-      "titulo": "Bebê deixada no asfalto em Vitória pelo pai",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "Tribuna Online - Capa",
-      "urlFonte": "https://tribunaonline.com.br/cotidiano/policia/bebe-deixada-no-asfalto-vitoria/",
-      "dataFonte": "2026-11-19T22:10:56.000Z",
-      "resumoFonte": "Bebê deixada no asfalto em Vitória pelo pai durante briga de casal é resgatada com arranhões e homem de 21 anos acaba preso pela polícia.",
-      "imagem": "https://media.tribunaonline.com.br/wp-content/uploads/2026/11/Nova-dimensao1-1.png",
-      "descobertaEm": "2026-11-19T23:18:15.050Z"
-    },
     {
       "id": "50b2b79dbc041b3d",
       "titulo": "Senado gasta R$ 11,4 mil com retrato de Alcolumbre",
@@ -85,61 +73,73 @@
       }
     },
     {
-      "id": "df1e86656373e28d",
-      "titulo": "iFood tem novo vazamento e expõe CPF de entregadores",
+      "id": "ce232bfb7e130a82",
+      "titulo": "Dólar hoje: BC vende US$ 1 bilhão mas moeda sobe para R$ 5,93 | G1",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-tech/ifood-tem-novo-vazamento-e-expoe-cpf-de-entregadores/",
-      "dataFonte": "2026-11-19T23:55:03.000Z",
-      "resumoFonte": "Empresa não divulga número de afetados, mas diz que senhas e cartões não foram acessados; em dezembro de 2025, houve o vazamento de dados de 1,2 milhões de usuários da plataforma",
-      "imagem": "https://static.poder360.com.br/uploads/2026/07/Ifood-1.jpg",
-      "descobertaEm": "2026-11-20T00:18:42.244Z",
+      "fonteNome": "g1 - Capa",
+      "urlFonte": "https://g1.globo.com/jornal-nacional/noticia/2026/11/19/banco-central-leiloa-us-1-bilhao-das-reservas-internacionais-brasileiras-mas-moeda-americana-sobe-pelo-sexto-pregao-seguido.ghtml",
+      "dataFonte": "2026-11-20T00:16:04.435Z",
+      "resumoFonte": "Dólar hoje atinge R$ 5,93 e sobe pelo 6º dia seguido, apesar de leilão de US$ 1 bilhão do Banco Central",
+      "imagem": "https://s2-g1.glbimg.com/a-jBoEo_PCSO0R14Jb0ALI0jCyw=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/8/m/XEdmzZQzqSO2bnRMKRuw/globo-canal-4-20261119-2000-frame-39034.jpeg",
+      "descobertaEm": "2026-11-20T01:22:40.546Z"
+    },
+    {
+      "id": "396f2a3da6484044",
+      "titulo": "Projeto na Câmara quer mudar lema da bandeira do Brasil",
+      "categoria": "Fé e Sociedade",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/projeto-na-camara-quer-mudar-lema-da-bandeira-do-brasil/",
+      "dataFonte": "2026-11-20T01:05:06.000Z",
+      "resumoFonte": "O deputado federal Pastor Sargento Isidório (Avante-BA) apresentou nesta quinta-feira, 19, um projeto de lei para alterar o lema da bandeira do Brasil. A proposta substitui a inscrição “Ordem e Progresso” por “Ordem, Progresso e Justiça Social”. Caso a proposta vire lei, as bandeiras confeccionadas conforme os padrões atuais poderão continuar em…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2023/03/shutterstock-1408060532-ss.jpg.webp",
+      "descobertaEm": "2026-11-20T01:18:42.388Z",
       "reportagem": {
-        "titulo": "iFood tem novo vazamento e expõe CPF de entregadores",
-        "slug": "ifood-tem-novo-vazamento-e-expoe-cpf-de-entregadores",
-        "categoria": "Economia",
+        "titulo": "Projeto na Câmara quer mudar lema da bandeira do Brasil",
+        "slug": "projeto-na-camara-quer-mudar-lema-da-bandeira-do-brasil",
+        "categoria": "Fé e Sociedade",
         "data": "2026-11-19",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/ifood-tem-novo-vazamento-e-expoe-cpf-de-entregadores.jpg",
-        "resumo": "Empresa diz que senhas e cartões não foram acessados; número de afetados não foi divulgado.",
-        "conteudo": "<p>Empresa não divulga número de afetados, mas diz que senhas e cartões não foram acessados; em dezembro de 2025, houve o vazamento de dados de 1,2 milhões de usuários da plataforma</p><h2>Dados e contexto do setor</h2><p>O iFood informou nesta 5ª feira (19.nov.2026) que identificou e conteve, no sábado (14.nov), um acesso não autorizado a alguns de seus sistemas.</p><p>O incidente expôs dados cadastrais de clientes, entregadores e representantes de restaurantes parceiros. A plataforma não divulgou quantas pessoas foram afetadas.</p><p>Segundo comunicado da empresa , senhas, cartões de crédito, outros meios de pagamento, saldos, extratos bancários e informações biométricas ficaram de fora.</p><h2>Impactos e informações adicionais</h2><p>Até agora, não há evidências de divulgação ou uso indevido do material. A apuração continua e os serviços funcionam normalmente. Leia a íntegra do comunicado (PDF – 443 kB).</p><p>A empresa afirma que nem todos os entregadores foram afetados da mesma forma, e que quem teve dados expostos receberá um e-mail com o detalhamento.</p><p>Segundo o iFood, não houve acesso a contas bancárias, saldos, extratos ou senhas de banco.</p><p>Transferências e saques exigem autenticação no aplicativo ou no site do banco e, por isso, usuários não precisam tomar nenhuma medida na conta.</p><p>Como golpistas usam telefone e CPF para parecer confiáveis, a orientação é desconfiar de mensagens, ligações e e-mails que peçam senha, código de verificação ou pagamento, e evitar links desconhecidos.</p><p>O iFood diz que não pede esses dados por nenhum canal de contato e recomenda ativar a verificação em duas etapas.</p><p>Os comunicados oficiais sobre o caso só circulam pelo aplicativo, por e-mails com domínio @ifood.com.br, pela Central de Ajuda e pelos sites da empresa. A ANPD (Agência Nacional de Proteção de Dados) foi notificada, e o iFood diz colaborar com a autoridade.</p><p>O Poder360 perguntou ao iFood quantas pessoas foram afetadas, qual sistema foi invadido e de que forma, se houve pedido de resgate e por que o comunicado saiu 5 dias depois da identificação do acesso.</p><p>Também perguntou se o caso tem relação com o vazamento de dezembro de 2025 , se a polícia foi acionada e que medidas de segurança foram adotadas desde junho. Não houve resposta até a publicação desta reportagem.</p><p>O texto será atualizado caso uma manifestação seja enviada a este jornal digital.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-tech/ifood-tem-novo-vazamento-e-expoe-cpf-de-entregadores/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/projeto-na-camara-quer-mudar-lema-da-bandeira-do-brasil.jpg",
+        "resumo": "Pastor Sargento Isidório pretende acrescentar 'Justiça Social' à inscrição 'Ordem e Progresso'",
+        "conteudo": "<p>• O deputado Pastor Sargento Isidório apresentou um projeto para alterar o lema da bandeira brasileira.</p><h2>O contexto da decisão judicial</h2><p>• A proposta substitui “Ordem e Progresso” por “Ordem, Progresso e Justiça Social”, em referência aos objetivos da Constituição de 1988.</p><p>• Caso o Congresso aprove o projeto e ele vire lei, as bandeiras atuais poderão continuar em uso por 180 dias.</p><p>O deputado federal Pastor Sargento Isidório (Avante-BA) apresentou nesta quinta-feira, 19, um projeto de lei para alterar o lema da bandeira do Brasil. A proposta substitui a inscrição “Ordem e Progresso” por “Ordem, Progresso e Justiça Social”.</p><h2>Contexto e informações complementares</h2><p>Caso a proposta vire lei, as bandeiras confeccionadas conforme os padrões atuais poderão continuar em uso por 180 dias depois da publicação. O Projeto de Lei (PL) 5908/2026 entra em vigor ao fim deste prazo.</p><p>Na justificativa, Isidório afirma que a mudança busca incorporar à bandeira os objetivos fundamentais previstos na Constituição de 1988, entre eles a construção de uma sociedade livre, justa e solidária, a erradicação da pobreza e a redução das desigualdades sociais e regionais.</p><p>“A iniciativa não busca afastar os valores históricos de ordem e progresso, mas complementá-los com uma dimensão social que integra os fundamentos e objetivos da ordem constitucional vigente”, argumenta o deputado.</p><p>O projeto ainda precisa passar pela análise do Congresso Nacional para que a alteração entre em vigor.</p><p>A tentativa de modificar o lema nacional não é inédita no Congresso. Em 2003, o deputado Chico Alencar, então filiado ao PT do Rio de Janeiro, propôs substituir “Ordem e Progresso” por “Amor, Ordem e Progresso”. A Câmara arquivou a proposta em 2019.</p><p>Em novembro de 2025, Alencar, já no Psol, apresentou novo projeto de lei com o mesmo objetivo . A expressão faz referência à filosofia positivista de Auguste Comte, que inspirou a inscrição adotada na bandeira brasileira depois da Proclamação da República, em 1889.</p><p>Outras iniciativas buscaram retirar completamente o lema. Em 1964, Mendes de Morais apresentou texto para eliminar a inscrição e a faixa branca.</p><p>No mesmo ano, Eurico de Oliveira propôs retirar o texto e padronizar o tamanho das estrelas. Em 1966, Mendes de Morais voltou a defender a retirada da faixa e das palavras.</p><p>Natural de Salvador, Manoel Isidório de Santana Junior, de 64 anos, é ex-sargento da Polícia Militar da Bahia. Começou sua trajetória parlamentar em 2003, como deputado estadual, e chegou à Câmara dos Deputados em 2019. Atualmente, exerce seu segundo mandato federal pelo Avante.</p><p>Ao longo de seus mandatos, o parlamentar apresentou propostas relacionadas à religião e ao comportamento em espaços públicos. Entre elas está o PL 4606/2019, que pretende proibir alterações nos textos da Bíblia. A Câmara aprovou a matéria em 2022 e a encaminhou ao Senado.</p><p>O deputado também apresentou o PL 1699/2024, para proibir a prática ou simulação de atos sexuais explícitos e nudez em shows e eventos públicos. Outra proposta, o PL 6407/2025, pretende instituir o Dia Nacional da Ressurreição de Jesus Cristo, no Domingo de Páscoa.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/projeto-na-camara-quer-mudar-lema-da-bandeira-do-brasil/",
         "fontesAdicionais": [
           {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
+            "nome": "Igreja Cristã Maranata",
+            "url": "https://www.igrejacristamaranata.org.br/"
           },
           {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
+            "nome": "Convenção Batista do ES",
+            "url": "https://www.batistas.es/"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Empresa não divulga número de afetados, mas diz que senhas e cartões não foram acessados; em dezembro de 2025, houve o vazamento de dados de 1,2 milhões de usuários da plataforma"
+            "resposta": "• O deputado Pastor Sargento Isidório apresentou um projeto para alterar o lema da bandeira brasileira. • A proposta substitui “Ordem e Progresso” por “Ordem, Progresso e Justiça Social”, em referência aos objetivos da Constituição de 1988. • Caso o Congresso aprove o projeto e ele vire lei, as bandeiras atuais poderão continuar em uso por 180 dias."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O iFood informou nesta 5ª feira (19.nov.2026) que identificou e conteve, no sábado (14.nov), um acesso não autorizado a alguns de seus sistemas. O incidente expôs dados cadastrais de clientes, entregadores e representantes de restaurantes parceiros. A plataforma não divulgou quantas pessoas foram afetadas."
+            "resposta": "O deputado federal Pastor Sargento Isidório (Avante-BA) apresentou nesta quinta-feira, 19, um projeto de lei para alterar o lema da bandeira do Brasil. A proposta substitui a inscrição “Ordem e Progresso” por “Ordem, Progresso e Justiça Social”."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Segundo comunicado da empresa , senhas, cartões de crédito, outros meios de pagamento, saldos, extratos bancários e informações biométricas ficaram de fora. Até agora, não há evidências de divulgação ou uso indevido do material. A apuração continua e os serviços funcionam normalmente. Leia a íntegra do comunicado (PDF – 443 kB)."
+            "resposta": "Caso a proposta vire lei, as bandeiras confeccionadas conforme os padrões atuais poderão continuar em uso por 180 dias depois da publicação. O Projeto de Lei (PL) 5908/2026 entra em vigor ao fim deste prazo."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A empresa afirma que nem todos os entregadores foram afetados da mesma forma, e que quem teve dados expostos receberá um e-mail com o detalhamento. Segundo o iFood, não houve acesso a contas bancárias, saldos, extratos ou senhas de banco."
+            "resposta": "Na justificativa, Isidório afirma que a mudança busca incorporar à bandeira os objetivos fundamentais previstos na Constituição de 1988, entre eles a construção de uma sociedade livre, justa e solidária, a erradicação da pobreza e a redução das desigualdades sociais e regionais."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Como golpistas usam telefone e CPF para parecer confiáveis, a orientação é desconfiar de mensagens, ligações e e-mails que peçam senha, código de verificação ou pagamento, e evitar links desconhecidos. O iFood diz que não pede esses dados por nenhum canal de contato e recomenda ativar a verificação em duas etapas."
+            "resposta": "“A iniciativa não busca afastar os valores históricos de ordem e progresso, mas complementá-los com uma dimensão social que integra os fundamentos e objetivos da ordem constitucional vigente”, argumenta o deputado. O projeto ainda precisa passar pela análise do Congresso Nacional para que a alteração entre em vigor."
           }
         ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/07/Ifood-1.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/ifood-tem-novo-vazamento-e-expoe-cpf-de-entregadores.jpg",
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2023/03/shutterstock-1408060532-ss.jpg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/projeto-na-camara-quer-mudar-lema-da-bandeira-do-brasil.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -169,26 +169,26 @@
       "descobertaEm": "2026-11-20T00:18:42.244Z"
     },
     {
-      "id": "ea218f27b4eeaba2",
-      "titulo": "Saiba quem é Alanzoka, streamer brasileiro que viralizou após live de GTA 6 com 360 mil espectadores",
+      "id": "2f43a7b7024d6d63",
+      "titulo": "Trump comprou até US$ 265 mil em ações da Nvidia em setembro",
       "categoria": "Tecnologia",
       "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/tecnologia/saiba-quem-e-alanzoka-streamer-brasileiro-que-viralizou-apos-live-de-gta-6-com-360-mil-espectadores/",
-      "dataFonte": "2026-11-19T22:12:04.000Z",
-      "resumoFonte": "Alan Ferreira Pereira começou sua carreira no YouTube, em 2011",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/Design-sem-nome-40-1.png?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-19T22:12:45.163Z",
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://c-level.folha.uol.com.br/negocios/2026/11/trump-comprou-ate-us-265-mil-em-acoes-da-nvidia-em-setembro.shtml",
+      "dataFonte": "2026-11-20T01:00:00.000Z",
+      "resumoFonte": "O presidente dos Estados Unidos, Donald Trump, comprou até US$ 265 mil (R$ 1,5 mi) em ações da Nvidia em setembro, antes de vender até US$ 15 mil (R$ 89 mil) dessas ações no mesmo mês, aponta a declaração financeira de Trump divulgada nesta quinta-feira (19).",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/19/17951350966aff96788557f_1795135096_3x2_rt.jpg",
+      "descobertaEm": "2026-11-20T01:18:42.388Z",
       "reportagem": {
-        "titulo": "Saiba quem é Alanzoka, streamer brasileiro que viralizou após live de GTA 6 com 360 mil espectadores",
-        "slug": "saiba-quem-e-alanzoka-streamer-brasileiro-que-viralizou-apos-live-de-gta-6-com-360-mil-esp",
+        "titulo": "Trump comprou até US$ 265 mil em ações da Nvidia em setembro",
+        "slug": "trump-comprou-ate-us-265-mil-em-acoes-da-nvidia-em-setembro",
         "categoria": "Tecnologia",
         "data": "2026-11-19",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/saiba-quem-e-alanzoka-streamer-brasileiro-que-viralizou-apos-live-de-gta-6-com-360-mil-esp.jpg",
-        "resumo": "Alan Ferreira Pereira começou sua carreira no YouTube, em 2011",
-        "conteudo": "<p>Resumo gerado por ferramenta de IA treinada pela redação da Editora Abril.</p><h2>Dados e contexto do setor</h2><p>Conhecido como alanzoka , o streamer Alan Ferreira Pereira, de 36 anos, voltou a ganhar destaque nas redes sociais após uma transmissão de Grand Theft Auto VI (GTA 6) ultrapassar 300 mil espectadores simult&amp;acirc;neos.</p><p>A live começou na quarta-feira, 18, véspera do lançamento oficial do jogo no Brasil, e acompanhou as primeiras horas do título no PlayStation 5 Pro.</p><p>A trajetória de Alan na internet começou em 2011, quando criou o canal EDGE, sigla para Electronic Desire Gamers Entertainment , no YouTube.</p><h2>Impactos e informações adicionais</h2><p>Seu primeiro vídeo foi sobre Minecraft , mas foram os conteúdos de jogos de terror, como Slender: The Eight Pages , Amnesia: The Dark Descent e Dead Space 2 , que ajudaram a impulsionar sua popularidade.</p><p>Com o crescimento do canal, o streamer ampliou a variedade de jogos e passou a investir nas transmiss&amp;otilde;es ao vivo. Em 2016, também participou do cenário competitivo de Overwatch, utilizando o apelido Nextage.</p><p>Ao longo dos anos, seu conteúdo passou a incluir títulos como Fortnite, Counter-Strike, Valorant, Cyberpunk 2077 e Rocket League.</p><p>O humor e as reaç&amp;otilde;es espont&amp;acirc;neas durante as partidas se tornaram características de suas transmiss&amp;otilde;es.</p><p>Alan tem uma extensa carreira na criação de conteúdo e se tornou não só um dos streamers brasileiros mais proeminentes, como também um dos nomes pioneiros (e referências) na comunidade de jogos do país.</p><p>Fora das plataformas, Alan mantém um relacionamento com a também streamer Maethe Lima há quase 14 anos. Os dois anunciaram o noivado em agosto de 2025 e, em maio de 2026, revelaram o nascimento do primeiro filho.</p><p>A gestação foi mantida em sigilo durante boa parte do período para preservar a privacidade da família.</p><p>Treze anos após o lançamento de GTA V, a Rockstar Games lançou nesta quinta-feira, 19, o novo capítulo da franquia.</p><p>Com orçamento estimado em mais de US$ 1 bilhão, o jogo é um dos lançamentos mais aguardados da indústria e pode gerar até US$ 3 bilh&amp;otilde;es em receita nos primeiros quatro meses, segundo projeç&amp;otilde;es de analistas.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/tecnologia/saiba-quem-e-alanzoka-streamer-brasileiro-que-viralizou-apos-live-de-gta-6-com-360-mil-espectadores/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/trump-comprou-ate-us-265-mil-em-acoes-da-nvidia-em-setembro.jpg",
+        "resumo": "Até US$ 15 mil dessas ações foram vendidas no mesmo mês; também houve transações com papéis da empresa em agosto",
+        "conteudo": "<p>Washington | Reuters O presidente dos Estados Unidos , Donald Trump , comprou até US$ 265 mil (R$ 1,5 mi) em ações da Nvidia em setembro, antes de vender até US$ 15 mil (R$ 89 mil) dessas ações no mesmo mês, aponta a declaração financeira de Trump divulgada nesta quinta-feira (19).</p><h2>Dados e contexto do setor</h2><p>As operações ocorreram semanas antes de surgirem notícias sobre o relacionamento extraconjugal de Jensen Huang com uma suposta espiã chinesa .</p><p>Parlamentares dos EUA têm questionado o que Trump sabia sobre a vida pessoal de Huang . O presidente afirmou que &quot;ficou surpreso&quot; com as acusações contra o executivo, que está entre os aliados mais próximos do presidente no Vale do Silício.</p><p>Autoridades do governo Trump atualmente avaliam políticas que poderiam moldar o futuro da Nvidia, incluindo regras que regem as exportações de seus chips avançados .</p><h2>Impactos e informações adicionais</h2><p>A fabricante vive uma crise após surgirem notícias de que Huang tinha um caso com uma mulher acusada de espionar para Pequim. A Reuters não confirmou de forma independente que a mulher seja uma espiã.</p><p>As transações com ações da Nvidia estavam entre as centenas realizadas pelo presidente em setembro, conforme a declaração assinada pelo republicano em 1º de novembro e divulgada pelo Escritório de Ética Governamental dos EUA nesta quinta.</p><p>Em agosto, Trump comprou até US$ 1,6 milhão (R$ 9,5 mi) em ações da Nvidia e vendeu até US$ 1 milhão (R$ 5,9 mi), conforme noticiado anteriormente pela Reuters.</p><p>Trump também comprou até US$ 315 mil (R$ 1,8 mi) em ações da SpaceX em setembro, segundo a mesma declaração. A SpaceX, de Elon Musk , ex-assessor de Trump, é contratada pelas Forças Armadas dos EUA.</p><p>A empresa possui contratos bilionários com o governo dos EUA , e seu sucesso está frequentemente ligado a aprovações de órgãos federais. Trump negociou ações da SpaceX ao longo de seu segundo mandato como presidente, inclusive em junho e julho de 2026.</p><p>A Reuters não conseguiu determinar imediatamente o valor exato das transações de Trump, pois as autoridades federais utilizam faixas de valores para declarar o valor de seus ativos nos formulários de declaração financeira.</p><p>&quot;Não há conflitos de interesse&quot;, disse ele na época.</p><p>A Nvidia é a maior fabricante mundial de chips avançados de IA, amplamente utilizados para desenvolver sistemas de IA de ponta.</p><p>Há anos, os EUA vêm buscando limitar o acesso da China aos chips mais avançados da Nvidia, motivados por preocupações de que a China possa usá-los para construir armas ou ferramentas de IA superiores.</p>",
+        "fonteNome": "UOL Notícias",
+        "fonteUrl": "https://c-level.folha.uol.com.br/negocios/2026/11/trump-comprou-ate-us-265-mil-em-acoes-da-nvidia-em-setembro.shtml",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -203,42 +203,90 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Resumo gerado por ferramenta de IA treinada pela redação da Editora Abril."
+            "resposta": "Washington | Reuters O presidente dos Estados Unidos , Donald Trump , comprou até US$ 265 mil (R$ 1,5 mi) em ações da Nvidia em setembro, antes de vender até US$ 15 mil (R$ 89 mil) dessas ações no mesmo mês, aponta a declaração financeira de Trump divulgada nesta quinta-feira (19)."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Conhecido como alanzoka , o streamer Alan Ferreira Pereira, de 36 anos, voltou a ganhar destaque nas redes sociais após uma transmissão de Grand Theft Auto VI (GTA 6) ultrapassar 300 mil espectadores simult&acirc;neos."
+            "resposta": "As operações ocorreram semanas antes de surgirem notícias sobre o relacionamento extraconjugal de Jensen Huang com uma suposta espiã chinesa ."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A trajetória de Alan na internet começou em 2011, quando criou o canal EDGE, sigla para Electronic Desire Gamers Entertainment , no YouTube. Seu primeiro vídeo foi sobre Minecraft , mas foram os conteúdos de jogos de terror, como Slender: The Eight Pages , Amnesia: The Dark Descent e Dead Space 2 , que ajudaram a impulsionar sua popularidade."
+            "resposta": "Parlamentares dos EUA têm questionado o que Trump sabia sobre a vida pessoal de Huang . O presidente afirmou que \"ficou surpreso\" com as acusações contra o executivo, que está entre os aliados mais próximos do presidente no Vale do Silício."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Com o crescimento do canal, o streamer ampliou a variedade de jogos e passou a investir nas transmiss&otilde;es ao vivo. Em 2016, também participou do cenário competitivo de Overwatch, utilizando o apelido Nextage. Ao longo dos anos, seu conteúdo passou a incluir títulos como Fortnite, Counter-Strike, Valorant, Cyberpunk 2077 e Rocket League."
+            "resposta": "Autoridades do governo Trump atualmente avaliam políticas que poderiam moldar o futuro da Nvidia, incluindo regras que regem as exportações de seus chips avançados . A fabricante vive uma crise após surgirem notícias de que Huang tinha um caso com uma mulher acusada de espionar para Pequim."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O humor e as reaç&otilde;es espont&acirc;neas durante as partidas se tornaram características de suas transmiss&otilde;es. Alan tem uma extensa carreira na criação de conteúdo e se tornou não só um dos streamers brasileiros mais proeminentes, como também um dos nomes pioneiros (e referências) na comunidade de jogos do país."
+            "resposta": "As transações com ações da Nvidia estavam entre as centenas realizadas pelo presidente em setembro, conforme a declaração assinada pelo republicano em 1º de novembro e divulgada pelo Escritório de Ética Governamental dos EUA nesta quinta."
           }
         ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/11/Design-sem-nome-40-1.png?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/saiba-quem-e-alanzoka-streamer-brasileiro-que-viralizou-apos-live-de-gta-6-com-360-mil-esp.jpg",
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/19/17951350966aff96788557f_1795135096_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/trump-comprou-ate-us-265-mil-em-acoes-da-nvidia-em-setembro.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "2eea7dfd77ce2799",
-      "titulo": "São Paulo x Fluminense: Veja onde assistir ao Brasileirão",
+      "id": "240d00cfce5ff7db",
+      "titulo": "Confira os resultados da quarta rodada da Copa Paraíba 2026",
       "categoria": "Esporte",
       "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/esportes/sao-paulo-fluminense-onde-assistir-brasileirao/",
-      "dataFonte": "2026-11-19T22:30:00.000Z",
-      "resumoFonte": "Foto: Montagem IM/ São Paulo x Fluminense \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/thumb-sao-paulo-x-fluminense.jpg?fit=1100%2C700&quality=70&strip=all\" />O São Paulo é o mandante do jogo de hoje The post São Paulo x Fluminense: Veja onde assistir ao Brasileirão appeared first on InfoMoney .",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/thumb-sao-paulo-x-fluminense.jpg?fit=1100%2C700&quality=70&strip=all",
-      "descobertaEm": "2026-11-19T23:18:15.050Z"
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/confira-os-resultados-da-quarta-rodada-da-copa-paraiba-2026",
+      "dataFonte": "2026-11-20T01:08:25.000Z",
+      "resumoFonte": "O canal do Metrópoles Esportes no YouTube transmite todas as partidas da competição local",
+      "imagem": "https://i.metroimg.com/n20IF04_og3cQ2uVFM7qA5RyvL1eIIFemNkIRQOIYY4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/nacional-pb.png",
+      "descobertaEm": "2026-11-20T01:18:42.388Z",
+      "reportagem": {
+        "titulo": "Confira os resultados da quarta rodada da Copa Paraíba 2026",
+        "slug": "confira-os-resultados-da-quarta-rodada-da-copa-paraiba-2026",
+        "categoria": "Esporte",
+        "data": "2026-11-19",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/confira-os-resultados-da-quarta-rodada-da-copa-paraiba-2026.jpg",
+        "resumo": "O canal do Metrópoles Esportes no YouTube transmite todas as partidas da competição local",
+        "conteudo": "<p>A quarta rodada da Copa Paraíba 2026 foi encerrada nesta quinta-feira (19/11) com a partida entre Treze e Serra Branca. Anteriormente, na última quarta-feira (18/11), Campinense e Nacional de Patos venceram seus confrontos.</p><h2>As informações principais do assunto</h2><p>A Copa Paraíba é transmitida pelo Metrópoles Esportes através do YouTube.</p><p>No Estádio Amigão, em Campina Grande, o Campinense recebeu o Esporte de Patos e venceu por 3 x 1. Lucas Piauí, Lucão e Gabriel Recife marcaram para os donos da casa, enquanto Markinhos fez para os visitantes.</p><h2>Contexto e informações complementares</h2><p>Em Patos, no Estádio José Cavalcanti, o Nacional recebeu o Atlético de Cajazeiras e também venceu por 3 x 1. Os gols foram anotas por Maranhão, Kaká e Lucca Schmidt. Alyson marcou para o Atlético.</p><p>No encerramento da quarta rodada, Treze e Serra Branca empataram em 1 x 1. Dioran fez para os donos da casa e Carlos Copetti marcou para os visitantes.</p><p>Mesmo com o empate, o Treze segue na liderança da Copa Paraíba, com oito pontos. O clube é seguido por Campinense, Nacional, Serra Branca, Atlético de Cajazeiras e Esporte de Patos.</p><p>Copa Paraíba 2026: a quarta rodada foi encerrada em 19 de novembro com o empate em 1 x 1 entre Treze e Serra Branca; Resultados anteriores: em 18 de novembro, o Campinense venceu o Esporte de Patos por 3 x 1 e o Nacional de Patos derrotou o Atlético de Cajazeiras pelo mesmo placar; Classificação: o Treze permanece na liderança da competição, somando oito pontos após as partidas.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/esportes/confira-os-resultados-da-quarta-rodada-da-copa-paraiba-2026",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A quarta rodada da Copa Paraíba 2026 foi encerrada nesta quinta-feira (19/11) com a partida entre Treze e Serra Branca. Anteriormente, na última quarta-feira (18/11), Campinense e Nacional de Patos venceram seus confrontos."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A Copa Paraíba é transmitida pelo Metrópoles Esportes através do YouTube."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "No Estádio Amigão, em Campina Grande, o Campinense recebeu o Esporte de Patos e venceu por 3 x 1. Lucas Piauí, Lucão e Gabriel Recife marcaram para os donos da casa, enquanto Markinhos fez para os visitantes."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Em Patos, no Estádio José Cavalcanti, o Nacional recebeu o Atlético de Cajazeiras e também venceu por 3 x 1. Os gols foram anotas por Maranhão, Kaká e Lucca Schmidt. Alyson marcou para o Atlético."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "No encerramento da quarta rodada, Treze e Serra Branca empataram em 1 x 1. Dioran fez para os donos da casa e Carlos Copetti marcou para os visitantes."
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/n20IF04_og3cQ2uVFM7qA5RyvL1eIIFemNkIRQOIYY4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/nacional-pb.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/confira-os-resultados-da-quarta-rodada-da-copa-paraiba-2026.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
       "id": "8bffa5da04c1530c",
@@ -296,66 +344,6 @@
         ],
         "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795126395415_template_radar_a_gazeta_2026_11_19t191303.png",
         "imagemX": "https://noticiaes.com.br/imagens/lapis/nova-tentativa-de-ocupacao-em-area-da-suzano-termina-em-confronto.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "4cd17ae7c0ef6d65",
-      "titulo": "Lula confirma 40º ministério; pasta vai focar em idosos",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/lula-confirma-40o-ministerio-pasta-vai-focar-em-idosos/",
-      "dataFonte": "2026-11-19T23:35:05.000Z",
-      "resumoFonte": "O presidente Luiz Inácio Lula da Silva anunciou nesta quinta-feira, 19, a criação de um ministério voltado às pessoas idosas em seu próximo mandato. A declaração ocorreu durante a cerimônia de assinatura do decreto sobre o fim da escala de trabalho 6x1, no Palácio do Planalto, em Brasília. “Vou criar o Ministério das Pessoas Idosas, que talvez o…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/55661325612_1761825522_k-910x568.jpg.webp",
-      "descobertaEm": "2026-11-20T00:18:42.244Z",
-      "reportagem": {
-        "titulo": "Lula confirma 40º ministério; pasta vai focar em idosos",
-        "slug": "lula-confirma-40-ministerio-pasta-vai-focar-em-idosos",
-        "categoria": "Política Nacional",
-        "data": "2026-11-19",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-confirma-40-ministerio-pasta-vai-focar-em-idosos.jpg",
-        "resumo": "Presidente ainda não definiu o nome do órgão; criação de estrutura para Segurança Pública também está prevista",
-        "conteudo": "<p>• Lula anunciou a criação de um ministério para idosos, ainda sem nome definido. • Com duas novas pastas previstas, o governo pode chegar a 40 ministérios, superando o recorde anterior de 39.</p><h2>O contexto do cenário político</h2><p>• O presidente agradeceu aos idosos pela participação eleitoral e criticou especulações sobre a escolha dos ministros do próximo governo.</p><p>O presidente Luiz Inácio Lula da Silva anunciou nesta quinta-feira, 19, a criação de um ministério voltado às pessoas idosas em seu próximo mandato.</p><p>A declaração ocorreu durante a cerimônia de assinatura do decreto sobre o fim da escala de trabalho 6×1, no Palácio do Planalto, em Brasília.</p><h2>Informações e repercussões do episódio</h2><p>“Vou criar o Ministério das Pessoas Idosas, que talvez o nome não é esse, não sei qual é o nome, mas vou criar, porque para a gente dar vida aos idosos, temos que dar respeitabilidade”, afirmou Lula.</p><p>Atualmente, o governo federal conta com 38 ministérios. Com a nova estrutura e a criação de uma pasta específica para a Segurança Pública, também prometida pelo presidente, o número pode chegar a 40, superando o recorde de 39 registrado durante o governo de Dilma Rousseff.</p><p>A criação do ministério para idosos já havia sido discutida durante a campanha eleitoral. Lula prometeu estabelecer uma política nacional para essa população , com iniciativas voltadas ao envelhecimento saudável e à convivência social.</p><p>Durante o discurso, o presidente relacionou a criação da pasta à participação dos eleitores idosos na campanha de sua reeleição . Ele também lembrou o apelo feito a essa parcela da população para comparecer às urnas.</p><p>“O papel que os idosos jogaram nessa campanha, com o apelo que fizemos para que eles fossem votar por eles, pelos filhos deles, pelos netos deles”, disse.</p><p>Lula também mencionou o apoio de familiares que ajudaram pessoas mais velhas a votar. “Aquela cena de filho carregando avô, de filho carregando pai e mãe no colo para ir votar, não tem dinheiro no mundo que possa pagar a gratidão que tenho por essa gente”, declarou.</p><p>O presidente também agradeceu às mulheres e aos jovens pela participação na campanha. Além disso, anunciou uma visita à Universidade Federal Fluminense, em Niterói, para reconhecer a mobilização dos estudantes em seu apoio.</p><p>Ao comentar a formação do próximo governo, Lula criticou as especulações sobre possíveis integrantes da equipe ministerial e afirmou que ainda não começou as definições.</p><p>“Cada ministério desse país será indicado por mim na hora que eu quiser, no dia que eu quiser e na data que eu quiser”, disse. “Não tenho pressa, nem pude ainda festejar minha vitória.”</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/lula-confirma-40o-ministerio-pasta-vai-focar-em-idosos/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "• Lula anunciou a criação de um ministério para idosos, ainda sem nome definido. • Com duas novas pastas previstas, o governo pode chegar a 40 ministérios, superando o recorde anterior de 39. • O presidente agradeceu aos idosos pela participação eleitoral e criticou especulações sobre a escolha dos ministros do próximo governo."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O presidente Luiz Inácio Lula da Silva anunciou nesta quinta-feira, 19, a criação de um ministério voltado às pessoas idosas em seu próximo mandato. A declaração ocorreu durante a cerimônia de assinatura do decreto sobre o fim da escala de trabalho 6×1, no Palácio do Planalto, em Brasília."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "“Vou criar o Ministério das Pessoas Idosas, que talvez o nome não é esse, não sei qual é o nome, mas vou criar, porque para a gente dar vida aos idosos, temos que dar respeitabilidade”, afirmou Lula."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Atualmente, o governo federal conta com 38 ministérios. Com a nova estrutura e a criação de uma pasta específica para a Segurança Pública, também prometida pelo presidente, o número pode chegar a 40, superando o recorde de 39 registrado durante o governo de Dilma Rousseff."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A criação do ministério para idosos já havia sido discutida durante a campanha eleitoral. Lula prometeu estabelecer uma política nacional para essa população , com iniciativas voltadas ao envelhecimento saudável e à convivência social."
-          }
-        ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/55661325612_1761825522_k-910x568.jpg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-confirma-40-ministerio-pasta-vai-focar-em-idosos.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -481,266 +469,38 @@
       }
     },
     {
-      "id": "440d2909f98afd5b",
-      "titulo": "Banco Central amplia acesso de cooperativas ao mercado aberto",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Agência Brasil - Economia",
-      "urlFonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/banco-central-amplia-acesso-de-cooperativas-ao-mercado-aberto",
-      "dataFonte": "2026-11-19T23:22:00.000Z",
-      "resumoFonte": "Instituições financeiras de menor porte, como cooperativas de crédito, terão mais acesso ao mercado aberto, que regula a quantidade de dinheiro em circulação na economia. O Banco Central (BC) aprovou, nesta quinta-feira (19), mudanças na participação desse mercado. A medida também atualiza procedimentos do Sistema Especial de Liquidação e de…",
-      "imagem": "https://imagens.ebc.com.br/NIkP0U3S8CnWHVREg8sO56E4G4k=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/banco_central_abr_30091923896.jpg?itok=PveTq9pf",
-      "descobertaEm": "2026-11-20T00:18:42.244Z",
-      "reportagem": {
-        "titulo": "Banco Central amplia acesso de cooperativas ao mercado aberto",
-        "slug": "banco-central-amplia-acesso-de-cooperativas-ao-mercado-aberto",
-        "categoria": "Economia",
-        "data": "2026-11-19",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/banco-central-amplia-acesso-de-cooperativas-ao-mercado-aberto.jpg",
-        "resumo": "Nova regra atualiza operações com títulos públicos. Mudanças terão validade para as operações realizadas a partir de 30 de novembro de 2026.",
-        "conteudo": "<p>Instituições financeiras de menor porte, como cooperativas de crédito, terão mais acesso ao mercado aberto, que regula a quantidade de dinheiro em circulação na economia. O Banco Central (BC) aprovou, nesta quinta-feira (19), mudanças na participação desse mercado.</p><h2>Dados e contexto do setor</h2><p>A medida também atualiza procedimentos do Sistema Especial de Liquidação e de Custódia (Selic), sistema que define os juros básicos da economia, com foco na automação e na segurança das operações.</p><p>As novas regras foram estabelecidas por meio de resolução e passarão a valer para as operações realizadas a partir de 30 de novembro de 2026.</p><p>Segundo o BC, as mudanças buscam aumentar a competitividade entre os participantes do mercado e tornar mais eficiente a gestão dos recursos financeiros pelas instituições.</p><h2>Impactos e informações adicionais</h2><p>Uma das principais mudanças é a ampliação do acesso aos depósitos voluntários a prazo mantidos no Banco Central.</p><p>Os depósitos voluntários são aplicações feitas pelas instituições financeiras no Banco Central, que remunera os valores depositados.</p><p>O mecanismo funciona como uma ferramenta complementar de política monetária, utilizada para administrar a quantidade de dinheiro disponível na economia.</p><p>Quando os bancos e outras instituições deixam recursos depositados no BC, esse dinheiro permanece fora da circulação imediata no mercado financeiro. Com isso, a autoridade monetária consegue atuar sobre as condições de liquidez do sistema.</p><p>Com a nova regra, instituições financeiras classificadas como participantes não liquidantes no Selic, entre elas cooperativas de crédito, poderão usar diretamente esse instrumento para aplicar recursos, desde que operem por meio de seus liquidantes-padrão.</p><p>Na prática, as cooperativas com dinheiro em caixa poderão destinar esses recursos para depósitos remunerados no Banco Central, sem precisar atuar diretamente na liquidação das operações.</p><p>O liquidante-padrão é a instituição financeira responsável por realizar a liquidação das operações em nome de outra participante. Dessa forma, o BC permite que entidades que não possuem estrutura própria para liquidar transações no Selic também tenham acesso ao instrumento.</p><p>Outra mudança envolve as operações compromissadas com livre movimentação de títulos públicos federais realizadas pelo Banco Central.</p><p>Essas operações funcionam como uma espécie de empréstimo de curto prazo entre o BC e as instituições financeiras, com títulos públicos envolvidos na transação.</p><p>O Banco Central vende os papéis aos bancos com o compromisso de recomprá-los em uma data futura. Nesse intervalo, os títulos podem ser negociados no mercado.</p><p>A nova resolução cria um procedimento facultativo para ajustar os valores financeiros dessas operações quando houver uma diferença significativa entre o valor registrado na transação e o preço de mercado dos títulos.</p><p>Na prática, caso o preço do título apresente uma variação relevante, poderá ser realizado um realinhamento dos valores da operação, conforme condições previamente estabelecidas pelo BC.</p><p>O mecanismo permitirá, quando os critérios forem atendidos, que a instituição antecipe a revenda dos títulos ao Banco Central e contrate simultaneamente uma nova operação compromissada, mantendo a mesma quantidade de papéis, data de vencimento e remuneração.</p><p>Segundo o BC, a iniciativa busca reduzir os efeitos de oscilações nos preços dos títulos públicos e facilitar a participação de um número maior de instituições nesse tipo de operação.</p><p>A resolução também promove alterações no regulamento do Sistema Especial de Liquidação e de Custódia (Selic), infraestrutura responsável pelo registro, pela custódia e pela liquidação de operações com títulos públicos federais.</p>",
-        "fonteNome": "Agência Brasil - Economia",
-        "fonteUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/banco-central-amplia-acesso-de-cooperativas-ao-mercado-aberto",
-        "fontesAdicionais": [
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          },
-          {
-            "nome": "Ministério da Fazenda",
-            "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Instituições financeiras de menor porte, como cooperativas de crédito, terão mais acesso ao mercado aberto, que regula a quantidade de dinheiro em circulação na economia. O Banco Central (BC) aprovou, nesta quinta-feira (19), mudanças na participação desse mercado."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A medida também atualiza procedimentos do Sistema Especial de Liquidação e de Custódia (Selic), sistema que define os juros básicos da economia, com foco na automação e na segurança das operações."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "As novas regras foram estabelecidas por meio de resolução e passarão a valer para as operações realizadas a partir de 30 de novembro de 2026. Segundo o BC, as mudanças buscam aumentar a competitividade entre os participantes do mercado e tornar mais eficiente a gestão dos recursos financeiros pelas instituições."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Uma das principais mudanças é a ampliação do acesso aos depósitos voluntários a prazo mantidos no Banco Central."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os depósitos voluntários são aplicações feitas pelas instituições financeiras no Banco Central, que remunera os valores depositados. O mecanismo funciona como uma ferramenta complementar de política monetária, utilizada para administrar a quantidade de dinheiro disponível na economia."
-          }
-        ],
-        "imagemOriginal": "https://imagens.ebc.com.br/NIkP0U3S8CnWHVREg8sO56E4G4k=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/banco_central_abr_30091923896.jpg?itok=PveTq9pf",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/banco-central-amplia-acesso-de-cooperativas-ao-mercado-aberto.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "f076715a38709ea4",
-      "titulo": "Ministério para idosos? Veja como o mercado de seguros já se adapta à longevidade",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/minhas-financas/ministerio-para-idosos-veja-como-o-mercado-de-seguros-ja-se-adapta-a-longevidade/",
-      "dataFonte": "2026-11-19T22:34:29.000Z",
-      "resumoFonte": "Casal de idosos (Foto: Freepik) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2025/08/casal-de-idosos-em-seu-jardim-freepik.jpg?fit=1280%2C853&quality=70&strip=all\" />De seguro-viagem aos 99 anos à proteção de empréstimos após os 70, seguradoras adaptam produtos às necessidades de uma população cada vez mais longeva The post…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2025/08/casal-de-idosos-em-seu-jardim-freepik.jpg",
-      "descobertaEm": "2026-11-19T23:18:15.050Z",
-      "reportagem": {
-        "titulo": "Ministério para idosos? Veja como o mercado de seguros já se adapta à longevidade",
-        "slug": "ministerio-para-idosos-veja-como-o-mercado-de-seguros-ja-se-adapta-a-longevidade",
-        "categoria": "Economia",
-        "data": "2026-11-19",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/ministerio-para-idosos-veja-como-o-mercado-de-seguros-ja-se-adapta-a-longevidade.jpg",
-        "resumo": "Seguro-viagem para quem tem 99 anos e proteção de empréstimos após os 70 são exemplos de iniciativas das seguradoras",
-        "conteudo": "<p>O anúncio do presidente Luiz Inácio Lula da Silva (PT), nesta quinta-feira (19), de que pretende criar um ministério dedicado às pessoas idosas coloca em evidência uma transformação que já mobiliza diferentes setores da economia brasileira.</p><h2>Dados e contexto do setor</h2><p>No mercado de seguros, o envelhecimento da população tem levado companhias a rever limites de idade para contratação, desenvolver novas coberturas e adaptar serviços para atender esse público.</p><p>Economista Eduardo Giannetti analisa como a impulsividade e a busca por recompensas imediatas podem comprometer o futuro financeiro</p><p>Segundo dados do IBGE (Instituto Brasileiro de Geografia e Estatística), pessoas com 60 anos ou mais representavam 16,6% da população brasileira em 2025, ante 11,3% em 2012. A projeção é que essa parcela alcance 37,8% em 2070, o equivalente a 75,3 milhões de brasileiros.</p><h2>Impactos e informações adicionais</h2><p>Um exemplo dessa transformação é o seguro-viagem da Bradesco Vida e Previdência, que passou a aceitar viajantes de até 99 anos. No primeiro semestre de 2026, a carteira de segurados com 60 anos ou mais cresceu 7% ante igual período de 2025, ultrapassando 210 mil clientes.</p><p>“Não estamos acrescentando anos à vida, estamos acrescentando uma nova etapa à história de cada brasileiro”, disse Ney Dias, presidente do Grupo Bradesco Seguros, ao destacar a mudança do produto durante o 19º Fórum da Longevidade, realizado nesta semana em São Paulo.</p><p>O movimento também alcança o seguro residencial. Segundo Dias, a oferta de serviços de assistência ajuda a adaptar a residência dos idosos, facilitando a mobilidade e contribuindo para a prevenção de quedas.</p><p>No seguro automóvel, o executivo ressaltou a importância de serviços de assistência que garantam mais segurança aos motoristas que continuam dirigindo em idades avançadas.</p><p>A permanência dos idosos na atividade econômica também gera demandas por proteção financeira.</p><p>A BNP Paribas Cardif é outro exemplo de seguradora que adaptou produtos para esse público, ao desenvolver um seguro prestamista voltado a pessoas acima dos 70 anos.</p><p>De acordo com a companhia, é uma faixa etária que ainda conta com poucas opções dessa modalidade de proteção no mercado.</p><p>Segundo Gonzalo Salcedo, diretor de Marketing da BNP Paribas Cardif, a iniciativa surgiu após a identificação de consumidores que não conseguiam contratar seguros para seus financiamentos em razão da idade.</p><p>“A gente conseguiu criar uma nova base técnica, focada 100% nesse segmento de clientes, com condições particulares para que faça sentido para esse cliente também”, explicou, em conversa com jornalistas realizada nesta quarta-feira (18).</p><p>A iniciativa acompanha as mudanças no perfil de consumo da população idosa. “Elas estão ativas mais tempo na atividade econômica, consumindo crédito, e aí o seguro vem complementando essa necessidade nesse contexto”, acrescentou Renato Oliveira, diretor de Finanças e Atuarial da seguradora.</p><p>A MAG Seguros também vem prestando cada vez mais atenção no público mais velho. Na companhia, a adaptação ao envelhecimento da população passa pela ampliação dos limites de idade para contratação e pela oferta de produtos específicos para idosos.</p><p>A companhia conta com a linha Master, voltada ao público a partir dos 66 anos, com coberturas que admitem contratação até os 85 anos.</p><p>Segundo Thiago Levi, diretor de Parcerias Financeiras da MAG Seguros, a procura por seguros de vida tem crescido entre consumidores mais velhos, especialmente para fins de planejamento sucessório.</p><p>A evolução tecnológica também permite uma avaliação mais individualizada dos riscos, considerando o histórico de saúde e os hábitos de cada cliente.</p><p>“Uma pessoa que se cuidou ao longo da vida toda, tem bons hábitos saudáveis, aos 70 anos pode ser um risco melhor, pode ter uma aceitação melhor para a seguradora do que uma pessoa de 45 anos que não se cuida”, explicou Levi durante sua participação em painel da Expert XP 2026, em julho .</p><p>Para Fabio Marinho, superintendente de Negócios da MAG Seguros, o desafio é desenvolver soluções que acompanhem não apenas o aumento da expectativa de vida, mas também as mudanças no perfil de saúde e no comportamento desse público.</p><p>“A gente precisa também, como seguradora, se adequar a essa necessidade da sociedade”, pontuou também durante o evento.</p><p>Tem alguma dúvida sobre o tema? Envie para leitor.seguros@infomoney.com.br que buscamos um especialista para responder para você!</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/minhas-financas/ministerio-para-idosos-veja-como-o-mercado-de-seguros-ja-se-adapta-a-longevidade/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O anúncio do presidente Luiz Inácio Lula da Silva (PT), nesta quinta-feira (19), de que pretende criar um ministério dedicado às pessoas idosas coloca em evidência uma transformação que já mobiliza diferentes setores da economia brasileira."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "No mercado de seguros, o envelhecimento da população tem levado companhias a rever limites de idade para contratação, desenvolver novas coberturas e adaptar serviços para atender esse público."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Economista Eduardo Giannetti analisa como a impulsividade e a busca por recompensas imediatas podem comprometer o futuro financeiro"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Segundo dados do IBGE (Instituto Brasileiro de Geografia e Estatística), pessoas com 60 anos ou mais representavam 16,6% da população brasileira em 2025, ante 11,3% em 2012. A projeção é que essa parcela alcance 37,8% em 2070, o equivalente a 75,3 milhões de brasileiros."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Um exemplo dessa transformação é o seguro-viagem da Bradesco Vida e Previdência, que passou a aceitar viajantes de até 99 anos. No primeiro semestre de 2026, a carteira de segurados com 60 anos ou mais cresceu 7% ante igual período de 2025, ultrapassando 210 mil clientes."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2025/08/casal-de-idosos-em-seu-jardim-freepik.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/ministerio-para-idosos-veja-como-o-mercado-de-seguros-ja-se-adapta-a-longevidade.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "195e72b014c70747",
-      "titulo": "“Trump fraco é dólar forte”: moeda ganhou força após midterms, diz diretor do Pine",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mercados/trump-fraco-e-dolar-forte-moeda-ganhou-forca-apos-midterms-diz-diretor-do-pine/",
-      "dataFonte": "2026-11-19T22:19:53.000Z",
-      "resumoFonte": "(Foto: Adam Nir/Unsplash) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/10/adam-nir-wTO6MWpMrJk-unsplash.jpg?fit=1280%2C853&quality=70&strip=all\" />Cristiano Oliveira ressaltou que a valorização global do dólar ganhou tração após a derrota do Partido Republicano nas eleições de meio de mandato The post “Trump fraco é dólar…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/10/adam-nir-wTO6MWpMrJk-unsplash.jpg",
-      "descobertaEm": "2026-11-19T22:18:15.395Z",
-      "reportagem": {
-        "titulo": "\"Trump fraco é dólar forte\": moeda ganhou força após midterms, diz diretor do Pine",
-        "slug": "trump-fraco-e-dolar-forte-moeda-ganhou-forca-apos-midterms-diz-diretor-do-pine",
-        "categoria": "Economia",
-        "data": "2026-11-19",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/trump-fraco-e-dolar-forte-moeda-ganhou-forca-apos-midterms-diz-diretor-do-pine.jpg",
-        "resumo": "Cristiano Oliveira ressaltou que a valorização global do dólar ganhou tração após a derrota do Partido Republicano nas eleições de meio de mandato",
-        "conteudo": "<p>O diretor de Pesquisa Econômica do Banco Pine, Cristiano Oliveira, avalia que o movimento de fortalecimento global do dólar iniciado em setembro ainda não terminou, o que pode limitar o fôlego da moeda brasileira ao longo de 2027.</p><h2>Os números do levantamento</h2><p>“O DXY pode ganhar um pouco mais de valor, de 2% a 3% no ano que vem. Isso afeta o real”, afirmou Oliveira, em referência ao índice que mede o desempenho da moeda americana em relação a uma cesta de seis divisas fortes.</p><p>Em conversa com jornalistas no evento Pine Talks , na sede do banco, em São Paulo, o economista ressaltou nesta quinta-feira, 19, que a valorização global do dólar ganhou tração após a derrota do Partido Republicano nas eleições de meio de mandato (midterms) nos Estados Unidos – o que abalou o capital político do presidente Donald Trump.</p><p>O DXY já sobe quase 2% em novembro e acumula alta de mais de 5,70% no ano.</p><h2>Impactos e informações adicionais</h2><p>“Trump forte é dólar fraco. Trump fraco é dólar mais forte. Ele é populista e tem uma política fiscal expansionista”, disse Oliveira, ressaltando que também houve dissipação dos temores de intervenção do presidente na gestão da política monetária nos últimos meses, diante da postura mais conservadora do novo presidente do Federal Reserve, Kevin Warsh, indicado por Trump.</p><p>Na semana, encurtada pelo feriado da Consciência Negra na sexta-feira, o dólar acumulou alta de 4,87% e, no ano, elevação de 8,08%</p><p>Oliveira pontua que “não é por acaso” que outros dirigentes do Fed se tornaram mais vocais no combate à inflação após os “midterms” e o dólar ganhou ainda mais tração frente aos pares.</p><p>Ele ressalta que já esperava um aperto monetário de 100 pontos-base nos EUA desde meados do ano, cenário para o qual o mercado migrou recentemente, com a curva de juros passando a mostrar alta adicional de 75 pontos-base dos Fed Funds, após a elevação de 25 pontos-base em meados de setembro.</p><p>Para o economista, os bancos centrais da Zona do Euro, do Japão e da Suíça não devem elevar os juros na mesma intensidade que o Federal Reserve – o que vai ampliar o diferencial de juros entre países e contribuir para fortalecer o dólar.</p><p>“Além disso, a economia americana continua crescendo. E a produtividade dos EUA é muito maior que a de outras economias”, afirma.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mercados/trump-fraco-e-dolar-forte-moeda-ganhou-forca-apos-midterms-diz-diretor-do-pine/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O diretor de Pesquisa Econômica do Banco Pine, Cristiano Oliveira, avalia que o movimento de fortalecimento global do dólar iniciado em setembro ainda não terminou, o que pode limitar o fôlego da moeda brasileira ao longo de 2027. “O DXY pode ganhar um pouco mais de valor, de 2% a 3% no ano que vem."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Em conversa com jornalistas no evento Pine Talks , na sede do banco, em São Paulo, o economista ressaltou nesta quinta-feira, 19, que a valorização global do dólar ganhou tração após a derrota do Partido Republicano nas eleições de meio de mandato (midterms) nos Estados Unidos – o que abalou o capital político do presidente Donald Trump."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "“Trump forte é dólar fraco. Trump fraco é dólar mais forte. Ele é populista e tem uma política fiscal expansionista”, disse Oliveira, ressaltando que também houve dissipação dos temores de intervenção do presidente na gestão da política monetária nos últimos meses, diante da postura mais conservadora do novo presidente do Federal Reserve, Kevin Warsh, indicado por Trump."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Na semana, encurtada pelo feriado da Consciência Negra na sexta-feira, o dólar acumulou alta de 4,87% e, no ano, elevação de 8,08%"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Oliveira pontua que “não é por acaso” que outros dirigentes do Fed se tornaram mais vocais no combate à inflação após os “midterms” e o dólar ganhou ainda mais tração frente aos pares."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/10/adam-nir-wTO6MWpMrJk-unsplash.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/trump-fraco-e-dolar-forte-moeda-ganhou-forca-apos-midterms-diz-diretor-do-pine.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "447a40216ae4cd55",
-      "titulo": "BC amplia acesso de cooperativas de crédito a depósitos a prazo",
+      "id": "df1e86656373e28d",
+      "titulo": "iFood tem novo vazamento e expõe CPF de entregadores",
       "categoria": "Economia",
       "radar": null,
       "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-economia/bc-amplia-acesso-de-cooperativas-de-credito-a-depositos-a-prazo/",
-      "dataFonte": "2026-11-19T22:07:07.000Z",
-      "resumoFonte": "Medida permite que mais instituições financeiras apliquem recursos no Banco Central; novas regras valem a partir de 30 de novembro",
-      "imagem": "https://static.poder360.com.br/uploads/2020/04/brasilia-parada-sergio-lima.jpg",
-      "descobertaEm": "2026-11-19T22:12:45.163Z",
-      "reportagem": {
-        "titulo": "BC amplia acesso de cooperativas de crédito a depósitos a prazo",
-        "slug": "bc-amplia-acesso-de-cooperativas-de-credito-a-depositos-a-prazo",
-        "categoria": "Economia",
-        "data": "2026-11-19",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/bc-amplia-acesso-de-cooperativas-de-credito-a-depositos-a-prazo.jpg",
-        "resumo": "Medida permite que mais instituições financeiras apliquem recursos no BC; novas regras valem a partir de 30 de novembro.",
-        "conteudo": "<p>Medida permite que mais instituições financeiras apliquem recursos no Banco Central; novas regras valem a partir de 30 de novembro</p><h2>Dados e contexto do setor</h2><p>O Banco Central aprovou mudanças nas regras das operações de mercado aberto para ampliar a participação de instituições financeiras.</p><p>Cooperativas de crédito, por exemplo, poderão fazer depósitos voluntários a prazo na autoridade monetária, o que permitirá uma gestão mais eficiente de seus recursos.</p><p>As alterações, anunciadas nesta 5ª feira (19.nov.2026), constam da Resolução BCB nº 606 e passam a valer para as operações realizadas a partir de 30 de novembro.</p><h2>Detalhes e consequências do caso</h2><p>Os depósitos voluntários remunerados são instrumentos de política monetária utilizados pelo BC desde 2021. Permitem que instituições financeiras apliquem recursos excedentes na autoridade monetária por determinado período, em troca de remuneração.</p><p>O mecanismo auxilia no controle da quantidade de dinheiro em circulação na economia e, consequentemente, na manutenção da taxa Selic efetiva próxima à meta estabelecida pelo Copom (Comitê de Política Monetária).</p><p>Com a nova norma, instituições financeiras que não fazem diretamente a liquidação de operações no Selic (Sistema Especial de Liquidação e de Custódia) poderão utilizar o instrumento por meio de seus liquidantes-padrão.</p><p>O BC também criou um mecanismo facultativo de ajuste dos valores financeiros das operações compromissadas com livre movimentação dos títulos públicos. Essas operações envolvem a negociação de títulos com compromisso de recompra ou revenda.</p><p>Segundo o BC, as medidas têm como objetivo aprimorar a administração da liquidez do sistema financeiro, estimular a competitividade e ampliar a inclusão de instituições nas operações de mercado aberto.</p><p>A iniciativa integra a Agenda BC, que reúne ações de aperfeiçoamento do sistema financeiro nacional.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-economia/bc-amplia-acesso-de-cooperativas-de-credito-a-depositos-a-prazo/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Medida permite que mais instituições financeiras apliquem recursos no Banco Central; novas regras valem a partir de 30 de novembro"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Banco Central aprovou mudanças nas regras das operações de mercado aberto para ampliar a participação de instituições financeiras. Cooperativas de crédito, por exemplo, poderão fazer depósitos voluntários a prazo na autoridade monetária, o que permitirá uma gestão mais eficiente de seus recursos."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "As alterações, anunciadas nesta 5ª feira (19.nov.2026), constam da Resolução BCB nº 606 e passam a valer para as operações realizadas a partir de 30 de novembro."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Os depósitos voluntários remunerados são instrumentos de política monetária utilizados pelo BC desde 2021. Permitem que instituições financeiras apliquem recursos excedentes na autoridade monetária por determinado período, em troca de remuneração."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O mecanismo auxilia no controle da quantidade de dinheiro em circulação na economia e, consequentemente, na manutenção da taxa Selic efetiva próxima à meta estabelecida pelo Copom (Comitê de Política Monetária)."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2020/04/brasilia-parada-sergio-lima.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/bc-amplia-acesso-de-cooperativas-de-credito-a-depositos-a-prazo.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "urlFonte": "https://www.poder360.com.br/poder-tech/ifood-tem-novo-vazamento-e-expoe-cpf-de-entregadores/",
+      "dataFonte": "2026-11-19T23:55:03.000Z",
+      "resumoFonte": "Empresa não divulga número de afetados, mas diz que senhas e cartões não foram acessados; em dezembro de 2025, houve o vazamento de dados de 1,2 milhões de usuários da plataforma",
+      "imagem": "https://static.poder360.com.br/uploads/2026/07/Ifood-1.jpg",
+      "descobertaEm": "2026-11-20T00:18:42.244Z"
     },
     {
-      "id": "b816a215a720b882",
-      "titulo": "Taça Fares Lopes: vitória do Fortaleza fecha série de jogos da 5ª rodada",
-      "categoria": "Cidades",
+      "id": "ef99ca70c42d419b",
+      "titulo": "Vasco 2 x 1 Internacional: veja os melhores momentos pelo Brasileirão",
+      "categoria": "Esporte",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/esportes/taca-fares-lopes-vitoria-do-fortaleza-fecha-serie-de-jogos-da-5a-rodada",
-      "dataFonte": "2026-11-19T22:15:42.000Z",
-      "resumoFonte": "O Fortaleza venceu o Tirol por 2 x 0, nesta quinta-feira (19/11), em duelo que encerrou a quinta rodada da Taça Fares Lopes",
-      "imagem": "https://i.metroimg.com/8wMwFRnA-55aDI5TU2FREcSw45RVj0d5P4JP03Ssumc/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/fortaleza-x-tirol-taca-fares-lopes.jpg",
-      "descobertaEm": "2026-11-19T22:18:15.395Z",
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/vasco-2-x-1-internacional-veja-os-melhores-momentos-pelo-brasileirao/",
+      "dataFonte": "2026-11-20T01:05:04.000Z",
+      "resumoFonte": "Gigante da Colina chega a três vitória consecutivas no campeonato e alcança os 47 pontos, enquanto o Colorado fica na zona de rebaixamento",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/gol-colidio-vasco-internacional-e1795136609149.jpeg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-20T01:18:42.388Z",
       "reportagem": {
-        "titulo": "Taça Fares Lopes: vitória do Fortaleza fecha série de jogos da 5ª rodada",
-        "slug": "taca-fares-lopes-vitoria-do-fortaleza-fecha-serie-de-jogos-da-5-rodada",
-        "categoria": "Cidades",
+        "titulo": "Vasco 2 x 1 Internacional: veja os melhores momentos pelo Brasileirão",
+        "slug": "vasco-2-x-1-internacional-veja-os-melhores-momentos-pelo-brasileirao",
+        "categoria": "Esporte",
         "data": "2026-11-19",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/taca-fares-lopes-vitoria-do-fortaleza-fecha-serie-de-jogos-da-5-rodada.jpg",
-        "resumo": "O Fortaleza venceu o Tirol por 2 x 0, nesta quinta-feira (19/11), em duelo que encerrou a quinta rodada da Taça Fares Lopes",
-        "conteudo": "<p>Vitória do Leão do Pici. O Fortaleza bateu o Tirol , nesta quinta-feira (19/11), por 2 x 0, no Estádio Presidente Vargas, em Fortaleza, no Ceará, pela quinta rodada da Taça Fares Lopes . Lócio e Rafael marcaram os gols da vitória.</p><h2>Dados e informações dos municípios</h2><p>A Taça Fares Lopes 2026 é transmitida ao vivo e com imagens no canal do YouTube do Metrópoles Esportes .</p><p>Rafael recebeu lançamento pelo alto e foi derrubado pelo goleiro Douglas Dias. O árbitro marcou pênalti. Lócio foi para a cobrança e marcou com 26 minutos da primeira etapa.</p><h2>Contexto e diferenças locais</h2><p>Com 40 minutos de jogo, Rafael amplia a vantagem do Leão do Pici. O camisa nove recebeu lançamento em profundidade de Davi Dias e tocou na saída do goleiro para marcar o segundo do Fortaleza.</p><p>João Davi, do Fortaleza, recebeu o cartão vermelho aos 29 da segunda etapa após entrada em Jeffinho. Três minutos depois, Dindê, do Tirol, perdeu a bola, pisou no tornozelo de Meireles e também foi expulso.</p><p>Resultado da partida: o Fortaleza venceu o Tirol por 2 x 0, em 19 de novembro, no Estádio Presidente Vargas, pela Taça Fares Lopes; Autores dos gols: Lócio, de pênalti, e Rafael marcaram os gols da vitória do Fortaleza; Expulsões no jogo: João Davi, do Fortaleza, e Dindê, do Tirol, receberam cartão vermelho durante o segundo tempo.</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/esportes/taca-fares-lopes-vitoria-do-fortaleza-fecha-serie-de-jogos-da-5a-rodada",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/vasco-2-x-1-internacional-veja-os-melhores-momentos-pelo-brasileirao.jpg",
+        "resumo": "Gigante da Colina chega a três vitória consecutivas no campeonato e alcança os 47 pontos, enquanto o Colorado fica na zona de rebaixamento",
+        "conteudo": "<p>O Vasco conquistou a terceira vitória seguida no Campeonato Brasileiro. Nesta quinta-feira (19), o time carioca bateu o Internacional por 2 a 1, em São Januário. O duelo foi válido pela 35ª rodada da competição nacional.</p><h2>As informações principais do assunto</h2><p>Thiago Mendes e Colidio garantiram o triunfo para a equipe cruzmaltina. Juninho descontou para o Internacional. VEJA OS MELHORES MOMENTOS:</p><p>Com o resultado positivo, o Vasco chega aos 47 pontos, assumindo provisoriamente a décima colocação . A equipe carioca ganha forças para disputar uma vaga na próxima edição da Copa Libertadores da América.</p><p>O Inter, por sua vez, permanece com 38 pontos. O time gaúcho volta para a zona de rebaixamento, na décima sétima colocação. O Corinthians agora é o primeiro clube fora do Z4, com 40 pontos.</p><h2>Contexto e informações complementares</h2><p>Na próxima rodada do Campeonato Brasileiro, o Vasco visita o Red Bull Bragantino, no domingo (22), às 19h30 (de Brasília), no Estádio Cícero de Souza Marques.</p><p>Já o Internacional tem um confronto direto na luta contra a degola , contra o Vitória, na segunda-feira (23), no Beira-Rio, às 19h30 (de Brasília).</p><p>Colidio e Thiago Mendes, autores dos gols do Vasco na vitória sobre o Internacional, se abraçam</p><p>O Vasco conquistou a terceira vitória seguida no Campeonato Brasileiro. Nesta quinta-feira (19), o time carioca bateu o Internacional por 2 a 1, em São Januário. O duelo foi válido pela 35ª rodada da competição nacional.</p><p>Thiago Mendes e Colidio garantiram o triunfo para a equipe cruzmaltina. Juninho descontou para o Internacional. VEJA OS MELHORES MOMENTOS:</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/brasileirao/vasco-2-x-1-internacional-veja-os-melhores-momentos-pelo-brasileirao/",
         "fontesAdicionais": [
           {
             "nome": "A Gazeta",
@@ -755,42 +515,114 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Vitória do Leão do Pici. O Fortaleza bateu o Tirol , nesta quinta-feira (19/11), por 2 x 0, no Estádio Presidente Vargas, em Fortaleza, no Ceará, pela quinta rodada da Taça Fares Lopes . Lócio e Rafael marcaram os gols da vitória."
+            "resposta": "O Vasco conquistou a terceira vitória seguida no Campeonato Brasileiro. Nesta quinta-feira (19), o time carioca bateu o Internacional por 2 a 1, em São Januário. O duelo foi válido pela 35ª rodada da competição nacional."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A Taça Fares Lopes 2026 é transmitida ao vivo e com imagens no canal do YouTube do Metrópoles Esportes ."
+            "resposta": "Thiago Mendes e Colidio garantiram o triunfo para a equipe cruzmaltina. Juninho descontou para o Internacional. VEJA OS MELHORES MOMENTOS:"
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Rafael recebeu lançamento pelo alto e foi derrubado pelo goleiro Douglas Dias. O árbitro marcou pênalti. Lócio foi para a cobrança e marcou com 26 minutos da primeira etapa."
+            "resposta": "Com o resultado positivo, o Vasco chega aos 47 pontos, assumindo provisoriamente a décima colocação . A equipe carioca ganha forças para disputar uma vaga na próxima edição da Copa Libertadores da América."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Com 40 minutos de jogo, Rafael amplia a vantagem do Leão do Pici. O camisa nove recebeu lançamento em profundidade de Davi Dias e tocou na saída do goleiro para marcar o segundo do Fortaleza."
+            "resposta": "O Inter, por sua vez, permanece com 38 pontos. O time gaúcho volta para a zona de rebaixamento, na décima sétima colocação. O Corinthians agora é o primeiro clube fora do Z4, com 40 pontos."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "João Davi, do Fortaleza, recebeu o cartão vermelho aos 29 da segunda etapa após entrada em Jeffinho. Três minutos depois, Dindê, do Tirol, perdeu a bola, pisou no tornozelo de Meireles e também foi expulso."
+            "resposta": "Na próxima rodada do Campeonato Brasileiro, o Vasco visita o Red Bull Bragantino, no domingo (22), às 19h30 (de Brasília), no Estádio Cícero de Souza Marques."
           }
         ],
-        "imagemOriginal": "https://i.metroimg.com/8wMwFRnA-55aDI5TU2FREcSw45RVj0d5P4JP03Ssumc/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/fortaleza-x-tirol-taca-fares-lopes.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/taca-fares-lopes-vitoria-do-fortaleza-fecha-serie-de-jogos-da-5-rodada.jpg",
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/gol-colidio-vasco-internacional-e1795136609149.jpeg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/vasco-2-x-1-internacional-veja-os-melhores-momentos-pelo-brasileirao.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "3b76d88b377fba02",
-      "titulo": "Debate sobre plano Moretti é só o aperitivo da disputa da esquerda no Lula 4; veja vídeo",
-      "categoria": "Cidades",
+      "id": "b4b20ba0357bd470",
+      "titulo": "Vitória bate RB Bragantino e abre vantagem para a zona de rebaixamento",
+      "categoria": "Esporte",
       "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/debate-sobre-plano-moretti-e-so-o-aperitivo-da-disputa-da-esquerda-no-lula-4-veja-video.shtml",
-      "dataFonte": "2026-11-19T22:11:00.000Z",
-      "resumoFonte": "Passada a euforia com a vitória suada de Lula, a esquerda voltou ao que sabe fazer de melhor, que é discutir a relação. Leia mais (11/19/2026 - 19h11)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/19/17951261656aff7395b6968_1795126165_3x2_rt.jpg",
-      "descobertaEm": "2026-11-19T22:18:15.395Z"
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/vitoria-bate-rb-bragantino-e-abre-vantagem-para-a-zona-de-rebaixamento",
+      "dataFonte": "2026-11-20T00:39:15.000Z",
+      "resumoFonte": "O duelo, válido pela 35ª rodada do Campeonato Brasileiro, foi disputado no Estádio Barradão, em Salvador, nesta quinta-feira (19/11)",
+      "imagem": "https://i.metroimg.com/O1PwLv238jr5-ZpThS5qdmksD9dMeU1UNKGLpqHrNOA/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/vitoria-x-rb-bragantino.png",
+      "descobertaEm": "2026-11-20T01:18:42.388Z"
+    },
+    {
+      "id": "3f6398a70fcdc6f7",
+      "titulo": "Vasco vence Internacional e segura Colorado no Z4 do Brasileirão",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/vasco-vence-internacional-e-segura-colorado-no-z4-do-brasileirao",
+      "dataFonte": "2026-11-20T00:30:58.000Z",
+      "resumoFonte": "Com esta derrota, o Colorado segue na 17ª posição, primeira dentro da zona de rebaixamento, com 38 de pontuação",
+      "imagem": "https://i.metroimg.com/t0AbHnRCxg0jeO9_HeEvSCMjqddISHF7DC03Kk7__VE/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/vasco-x-internacional-colidio.jpg",
+      "descobertaEm": "2026-11-20T01:18:42.388Z"
+    },
+    {
+      "id": "15927ecfd05f345d",
+      "titulo": "Brasileirão: Vasco bate Internacional, escapa de vez e deixa gaúchos no Z4",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/vasco-bate-internacional-e-empurra-equipe-gaucha-para-zona-de-rebaixamento/",
+      "dataFonte": "2026-11-20T00:30:45.000Z",
+      "resumoFonte": "Time carioca embalou a terceira vitória consecutiva no Campeonato Brasileiro e sonha em conquistar uma vaga na Copa Libertadores da América",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/vasco.jpg?w=960&h=540&crop=1",
+      "descobertaEm": "2026-11-20T01:18:42.388Z",
+      "reportagem": {
+        "titulo": "Brasileirão: Vasco bate Internacional, escapa de vez e deixa gaúchos no Z4",
+        "slug": "brasileirao-vasco-bate-internacional-escapa-de-vez-e-deixa-gauchos-no-z4",
+        "categoria": "Esporte",
+        "data": "2026-11-19",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/brasileirao-vasco-bate-internacional-escapa-de-vez-e-deixa-gauchos-no-z4.jpg",
+        "resumo": "Time carioca embalou a terceira vitória consecutiva no Campeonato Brasileiro e sonha em conquistar uma vaga na Copa Libertadores da América",
+        "conteudo": "<p>O Vasco conquistou a terceira vitória seguida no Campeonato Brasileiro. Nesta quinta-feira (19), o time carioca bateu o Internacional por 2 a 1, em São Januário. O duelo foi válido pela 35ª rodada da competição nacional.</p><h2>As informações principais do assunto</h2><p>Thiago Mendes e Colidio garantiram o triunfo para a equipe cruzmaltina. Juninho descontou para o Internacional. VEJA OS MELHORES MOMENTOS:</p><p>Com o resultado positivo, o Vasco chega aos 47 pontos, assumindo provisoriamente a décima colocação. A equipe carioca ganha forças para disputar uma vaga na próxima edição da Copa Libertadores da América.</p><p>O Inter, por sua vez, permanece com 38 pontos. O time gaúcho volta para a zona de rebaixamento, na décima sétima colocação. O Corinthians agora é o primeiro clube fora do Z4, com 40 pontos.</p><h2>Contexto e informações complementares</h2><p>O Vasco foi melhor que o Inter na primeira etapa, mas demorou para encontrar os espaços na defesa adversária. O time carioca tinha a bola, mas esbarrava na marcação colorada.</p><p>Aos 18 minutos, Alerrandro conseguiu roubar a bola de Saldivia na intermediária e avançou ao ataque. Aguirre recebeu, mas chutou para fora, com desvio, ao invés de dar o passe para o centroavante.</p><p>Pouco depois, Bruno Duarte recebeu grande lançamento de Andrés Gómez, entrou sozinho na área, driblou Kauan Jesus, mas demorou para finalizar e Villagra cortou. O vascaíno ficou pedindo pênalti no lance, mas o árbitro mandou o jogo seguir.</p><p>Aos 25 minutos, o Vasco abriu o placar. Puma cruzou para Colidio, que escorou para Thiago Mendes. O volante acertou lindo chute, firme, sem chances de defesa para Kauan Jesus.</p><p>No restante do primeiro tempo, o Vasco foi mais perigoso. Aos 43 minutos, Andrés Gómez recebeu na direita, tirou Victor Gabriel e chutou. Kauan Jesus tirou de soco.</p><p>Logo depois, Puma cruzou na cabeça de Bruno Duarte, que subiu mais do que a zaga do Inter, mas a bola saiu por pouco.</p><p>O segundo tempo começou bem agitado em São Januário. Logo aos 5 minutos, Alan Patrick cobrou escanteio para Bruno Gomes, que ajeitou para Juninho completar de cabeça e empatar para o Internacional.</p><p>Animado com o gol, o Inter chegou novamente aos 10 minutos. Alan Patrick tocou para Vitinho, mas Léo Jardim defendeu bem.</p><p>O Vasco demorou um pouco para reagir depois do gol de empate. Mas foi letal. Aos 17 minutos, Andrés Gómez fez linda jogada, passou por Aguirre e cruzou rasteiro para Colidio, que chutou no canto direito de Kauan Jesus para balançar a rede.</p><p>Aos 29 minutos, Puma cobrou falta com força, mas Kauan Jesus fez boa defesa.</p><p>Quatro minutos depois, quase o segundo do Inter. Carbonero cruzou para Alan Patrick, que chutou. Sanabria apareceu na frente e tirou o gol do capitão da equipe gaúcha.</p><p>Aos 38 minutos, o Vasco saiu em bom contra-ataque. O cruzamento quase encontrou Marino, que chegou atrasado.</p><p>Pouco depois, Alan Patrick cobrou falta para Carbonero, que mandou por cima do gol de Léo Jardim.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/brasileirao/vasco-bate-internacional-e-empurra-equipe-gaucha-para-zona-de-rebaixamento/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Vasco conquistou a terceira vitória seguida no Campeonato Brasileiro. Nesta quinta-feira (19), o time carioca bateu o Internacional por 2 a 1, em São Januário. O duelo foi válido pela 35ª rodada da competição nacional."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Thiago Mendes e Colidio garantiram o triunfo para a equipe cruzmaltina. Juninho descontou para o Internacional. VEJA OS MELHORES MOMENTOS:"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Com o resultado positivo, o Vasco chega aos 47 pontos, assumindo provisoriamente a décima colocação. A equipe carioca ganha forças para disputar uma vaga na próxima edição da Copa Libertadores da América."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O Inter, por sua vez, permanece com 38 pontos. O time gaúcho volta para a zona de rebaixamento, na décima sétima colocação. O Corinthians agora é o primeiro clube fora do Z4, com 40 pontos."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O Vasco foi melhor que o Inter na primeira etapa, mas demorou para encontrar os espaços na defesa adversária. O time carioca tinha a bola, mas esbarrava na marcação colorada."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/vasco.jpg?w=960&h=540&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/brasileirao-vasco-bate-internacional-escapa-de-vez-e-deixa-gauchos-no-z4.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
       "id": "a63955424124b546",
@@ -803,6 +635,66 @@
       "resumoFonte": "Enquanto exige a extinção de 108 cargos comissionados no Legislativo municipal, Ministério Público celebra lei que cria 561 postos de livre nomeação na própria estrutura",
       "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790610352984_midias_jpg_2017_03_09_cda020905gz1304ce_4983009.jpg",
       "descobertaEm": "2026-11-19T23:18:15.050Z"
+    },
+    {
+      "id": "57bfa36d2c1f77b5",
+      "titulo": "Justiça derruba liminar que suspendia licitação de iPhones para o Senado",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/justica-derruba-liminar-que-suspendia-licitacao-de-iphones-para-o-senado/",
+      "dataFonte": "2026-11-20T00:39:11.000Z",
+      "resumoFonte": "Nesta quinta-feira, 19, a desembargadora Maria do Carmo Cardoso, presidente do Tribunal Regional Federal da 1ª Região (TRF-1), derrubou a liminar que suspendia o pregão no valor de R$ 6 milhões do Senado para a compra de 95 iPhones. Além disso, a magistrada suspendeu a multa de R$ 50 mil fixada em caso de descumprimento. A mesa diretora do Senado…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-18-at-16.58.51.jpeg.webp",
+      "descobertaEm": "2026-11-20T01:18:42.388Z",
+      "reportagem": {
+        "titulo": "Justiça derruba liminar que suspendia licitação de iPhones para o Senado",
+        "slug": "justica-derruba-liminar-que-suspendia-licitacao-de-iphones-para-o-senado",
+        "categoria": "Justiça",
+        "data": "2026-11-19",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/justica-derruba-liminar-que-suspendia-licitacao-de-iphones-para-o-senado.jpg",
+        "resumo": "Além disso, foi suspensa a multa de R$ 50 mil fixada em caso de descumprimento",
+        "conteudo": "<p>• Nesta quinta-feira, 19, a desembargadora Maria do Carmo Cardoso, presidente do Tribunal Regional Federal da 1ª Região, derrubou a liminar que suspendia um pregão de R$ 6 milhões do Senado para a compra de 95 iPhones, além de suspender uma multa de R$ 50 mil.</p><h2>O contexto da decisão judicial</h2><p>• A decisão foi tomada depois de recurso da mesa diretora do Senado contra uma determinação de primeira instância que barrava a compra, solicitada pelo deputado Nikolas Ferreira (PL-MG).</p><p>Nesta quinta-feira, 19, a desembargadora Maria do Carmo Cardoso, presidente do Tribunal Regional Federal da 1ª Região (TRF-1), derrubou a liminar que suspendia o pregão no valor de R$ 6 milhões do Senado para a compra de 95 iPhones.</p><p>Além disso, a magistrada suspendeu a multa de R$ 50 mil fixada em caso de descumprimento.</p><h2>Detalhes e consequências do caso</h2><p>A mesa diretora do Senado apresentou recurso contra uma determinação de primeira instância, expedida na terça-feira 17, que havia barrado a compra, uma solicitação do deputado federal Nikolas Ferreira (PL-MG).</p><p>O edital prevê a contratação de 95 celulares iPhone Pro em regime de comodato, formato de aluguel. Além disso, o documento previa 330 aparelhos Android intermediários, de marcas como Samsung e Motorola. Com duração de 48 meses, o contrato foi estimado em mais de R$ 6 milhões.</p><p>Maria do Carmo argumentou que a paralisação do processo em estágio já avançado ameaçaria o cronograma institucional do Senado e poderia fazer a Casa perder condições comerciais vantajosas, como um desconto de 18% no valor dos aparelhos.</p><p>“A paralisação integral do procedimento, nesse estágio, também pode ocasionar prejuízos à economia pública, mediante perda das condições comerciais alcançadas, necessidade de repetição de atos administrativos e eventual adoção de soluções contratuais excepcionais”, afirmou a presidente do TRF-1.</p><p>“Há, assim, a presença de risco concreto de comprometimento da economicidade do planejamento administrativo, a ser considerado em conjunto com os efeitos sobre a continuidade dos serviços.”</p><p>A desembargadora também disse que a manutenção integral do certame apresenta potencial de comprometer o funcionamento administrativo da Casa Legislativa.</p><p>O Senado alegou que a decisão derrubada causaria “grave lesão à ordem e à economia públicas, por comprometer contratação essencial ao funcionamento administrativo da Casa Legislativa”.</p><p>A Casa se defendeu com o argumento de que houve planejamento administrativo, estudos técnicos e pesquisas de preço antes da licitação.</p><p>Ainda de acordo com o Senado, o contrato atual de fornecimento de aparelhos celulares foi estendido para viabilizar a transição para o novo acordo, “não constituindo solução adequada para atender integralmente às necessidades da nova legislatura, sobretudo quanto à renovação dos equipamentos disponibilizados em comodato”.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/justica-derruba-liminar-que-suspendia-licitacao-de-iphones-para-o-senado/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "• Nesta quinta-feira, 19, a desembargadora Maria do Carmo Cardoso, presidente do Tribunal Regional Federal da 1ª Região, derrubou a liminar que suspendia um pregão de R$ 6 milhões do Senado para a compra de 95 iPhones, além de suspender uma multa de R$ 50 mil."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Nesta quinta-feira, 19, a desembargadora Maria do Carmo Cardoso, presidente do Tribunal Regional Federal da 1ª Região (TRF-1), derrubou a liminar que suspendia o pregão no valor de R$ 6 milhões do Senado para a compra de 95 iPhones."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Além disso, a magistrada suspendeu a multa de R$ 50 mil fixada em caso de descumprimento."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A mesa diretora do Senado apresentou recurso contra uma determinação de primeira instância, expedida na terça-feira 17, que havia barrado a compra, uma solicitação do deputado federal Nikolas Ferreira (PL-MG)."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O edital prevê a contratação de 95 celulares iPhone Pro em regime de comodato, formato de aluguel. Além disso, o documento previa 330 aparelhos Android intermediários, de marcas como Samsung e Motorola. Com duração de 48 meses, o contrato foi estimado em mais de R$ 6 milhões."
+          }
+        ],
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-18-at-16.58.51.jpeg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/justica-derruba-liminar-que-suspendia-licitacao-de-iphones-para-o-senado.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
       "id": "9430436fa84b02f9",
@@ -865,26 +757,26 @@
       }
     },
     {
-      "id": "06ba10b72644b69a",
-      "titulo": "PGR não vê impedimento para Mauro Cid cumprir pena no Rio",
+      "id": "b432be73be8ed68d",
+      "titulo": "OAB discorda de Dino e pede que STF julgue Van Hattem em sessão presencial",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "O Antagonista - Capa",
-      "urlFonte": "https://oantagonista.com.br/brasil/pgr-nao-ve-impedimento-para-mauro-cid-cumprir-pena-no-rio/",
-      "dataFonte": "2026-11-19T22:09:37.000Z",
-      "resumoFonte": "Parecer foi encaminhado ao ministro do STF Alexandre de Moraes; Defesa alegou motivos familiares e econômicos",
-      "imagem": "https://cdn.oantagonista.com/uploads/2025/06/6070a92b-f862-4cb6-9867-0ec223d6ccca.jpg",
-      "descobertaEm": "2026-11-20T00:22:06.279Z",
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/politica/oab-discorda-de-dino-e-pede-que-stf-julgue-van-hattem-em-sessao-presencial/",
+      "dataFonte": "2026-11-20T01:12:07.000Z",
+      "resumoFonte": "Ministro do STF decidiu nesta quinta-feira que caso do deputado federal continue no plenário virtual; Ordem dos Advogados fala em “garantias do contraditório” e “ampla defesa”",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/02/img20250201164242302.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-20T01:18:42.388Z",
       "reportagem": {
-        "titulo": "PGR não vê impedimento para Mauro Cid cumprir pena no Rio",
-        "slug": "pgr-nao-ve-impedimento-para-mauro-cid-cumprir-pena-no-rio",
+        "titulo": "OAB discorda de Dino e pede que STF julgue Van Hattem em sessão presencial",
+        "slug": "oab-discorda-de-dino-e-pede-que-stf-julgue-van-hattem-em-sessao-presencial",
         "categoria": "Justiça",
         "data": "2026-11-19",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/pgr-nao-ve-impedimento-para-mauro-cid-cumprir-pena-no-rio.jpg",
-        "resumo": "Parecer foi encaminhado ao ministro do STF Alexandre de Moraes; Defesa alegou motivos familiares e econômicos",
-        "conteudo": "<p>Parecer foi encaminhado ao ministro do STF Alexandre de Moraes; Defesa alegou motivos familiares e econômicos</p><h2>O contexto da decisão judicial</h2><p>A Procuradoria-Geral da República (PGR) se manifestou favoravelmente ao pedido do ex-ajudante de ordens do ex-presidente Jair Bolsonaro (PL), Mauro Cid (foto), para que o tenente-coronel da reserva conclua em Niterói, no Rio de Janeiro , o cumprimento da pena imposta na ação penal da trama golpista.</p><p>O parecer foi assinado pelo PGR, Paulo Gonet , e encaminhado ao ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), relator do processo.</p><p>Segundo Gonet, não há impedimento para mudança, desde que Cid continue cumprindo todas as condições impostas pelo STF.</p><h2>Detalhes e consequências do caso</h2><p>“Nessas circunstâncias, a alteração do local do cumprimento da pena mostra-se viável, ausente prejuízo à execução penal, desde que mantidas as condições estabelecidas para seu regular cumprimento” , escreveu Gonet.</p><p>E acrescentou: “A Procuradoria-Geral da República não vislumbra óbice ao deferimento do pedido defensivo, desde que rigorosamente preservadas as condições da execução da pena impostas pelo Supremo Tribunal Federal”.</p><p>Cid foi delator no processo sobre a tentativa de golpe de Estado ocorrida no Brasil entre 2022 e 2023.</p><p>Em setembro do ano passado, no julgamento da ação penal que apurou a atuação do “ núcleo 1 ” na trama golpista, a Primeira Turma do Supremo Tribunal Federal condenou ele a dois anos de prisão em regime inicial aberto .</p><p>No pedido, os advogados afirmam que, após a passagem de Cid para a reserva do Exército e a saída da residência militar que ocupava, permanecer em Brasília não tem mais necessidade e se tornou oneroso.</p><p>A defesa ressalta que, com a passagem de Cid para a reserva do Exército, ele foi obrigado a desocupar a residência militar que ocupava e, assim, passou a morar provisoriamente em Sobradinho (DF).</p><p>Porém, com o passar do tempo, nas palavras dos advogados, “residir em Brasília perdeu o sentido, a necessidade e se tornou oneroso: a família, assim como Mauro Cid, são naturais do Estado do Rio de Janeiro, razão pela qual, por questões econômicas e familiares, terminar o cumprimento da pena naquele Estado se tornou uma questão absolutamente indispensável “ .</p>",
-        "fonteNome": "O Antagonista - Capa",
-        "fonteUrl": "https://oantagonista.com.br/brasil/pgr-nao-ve-impedimento-para-mauro-cid-cumprir-pena-no-rio/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/oab-discorda-de-dino-e-pede-que-stf-julgue-van-hattem-em-sessao-presencial.jpg",
+        "resumo": "Ministro do STF decidiu nesta quinta-feira que caso do deputado federal continue no plenário virtual; Ordem dos Advogados fala em “garantias do contraditório” e “ampla defesa”",
+        "conteudo": "<p>O Conselho Federal da OAB (Ordem dos Advogados do Brasil) discordou da decisão do ministro Flávio Dino e pediu que a Primeira Turma do STF (Supremo Tribunal Federal) julgue o deputado federal Marcel Van Hattem (Novo-RS) em sessão presencial ao invés de manter o caso no ambiente virtual.</p><h2>O contexto da decisão judicial</h2><p>No documento enviado nesta quinta-feira (19) a Dino, que é relator do caso, a OAB defendeu que uma manifestação previamente gravada não permite uma atuação em tempo real, o que limita a defesa do parlamentar.</p><p>&quot;O caráter presencial das sessões de julgamento assegura a construção de decisões de forma deliberativa entre os membros dos órgãos colegiados, e não apenas o simples somatório de vontades individuais&quot;, afirma o documento.</p><p>&quot;Em um sistema jurisdicional baseado na oralidade, a oportunidade de sustentação oral permite ao advogado ressaltar pontos específicos de prova e esclarecer dúvidas dos julgadores, o que, em ambiente virtual assíncrono, acaba sendo substituído por gravações descontextualizadas e limitadas ao monólogo sem interação .&quot;</p><h2>Detalhes e consequências do caso</h2><p>O pedido foi assinado pelo presidente da OAB do Rio Grande do Sul, Leonardo Lamachia , e pelo procurador nacional de Defesa das Prerrogativas, Alex Sarkis .</p><p>A Ordem dos Advogados também diz atuar pela &quot;proteção dos direitos e prerrogativas profissionais da advocacia&quot; e aponta que há &quot;importância do tema em questão para toda classe.</p><p>Assim, pede para participar do julgamento na condição de assistente &quot;com a finalidade de atuar na defesa das prerrogativas profissionais dos advogados constituídos&quot;.</p><p>Van Hattem foi denunciado por calúnia e injúria contra o delegado da PF (Polícia Federal) Fábio Alvarez Shor, durante discurso na tribuna da Câmara, em 2024.</p><p>O parlamentar acusou o delegado de &quot;fazer relatórios fraudulentos&quot; contra Filipe Martins , ex-assessor de Jair Bolsonaro.</p><p>Dino havia rejeitado o pedido dos advogados do deputado para que o caso fosse julgado presencialmente.</p><p>Em seu perfil no X, o parlamentar comentou a decisão inicial de Dino. Ele considerou &quot;absurdo que um parlamentar não conte com o direito de ampla defesa&quot; e declarou que agora a decisão de tornar o julgamento presencial estaria nas mãos de outros ministros.</p><p>ATENÇÃO! Flávio Dino acaba de NEGAR nosso direito a defesa oral no plenário físico do STF no caso em que posso virar réu por uma denúncia que fiz na tribuna da tribuna dos Deputados!</p><p>É absurdo que um caso dessa magnitude contra um parlamentar não conte com o direito de ampla defesa! E mais ainda que um deputado possa ser PRESO por fazer o seu trabalho como lhe garante a Constituição.</p><p>Agora resta a Alexandre de Moraes, Carmen Lúcia ou Cristiano Zanin pedirem destaque para o plenário físico.</p><p>— Marcel van Hattem (@marcelvanhattem) November 19, 2026</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/politica/oab-discorda-de-dino-e-pede-que-stf-julgue-van-hattem-em-sessao-presencial/",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -899,27 +791,147 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Parecer foi encaminhado ao ministro do STF Alexandre de Moraes; Defesa alegou motivos familiares e econômicos"
+            "resposta": "O Conselho Federal da OAB (Ordem dos Advogados do Brasil) discordou da decisão do ministro Flávio Dino e pediu que a Primeira Turma do STF (Supremo Tribunal Federal) julgue o deputado federal Marcel Van Hattem (Novo-RS) em sessão presencial ao invés de manter o caso no ambiente virtual."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A Procuradoria-Geral da República (PGR) se manifestou favoravelmente ao pedido do ex-ajudante de ordens do ex-presidente Jair Bolsonaro (PL), Mauro Cid (foto), para que o tenente-coronel da reserva conclua em Niterói, no Rio de Janeiro , o cumprimento da pena imposta na ação penal da trama golpista."
+            "resposta": "No documento enviado nesta quinta-feira (19) a Dino, que é relator do caso, a OAB defendeu que uma manifestação previamente gravada não permite uma atuação em tempo real, o que limita a defesa do parlamentar."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O parecer foi assinado pelo PGR, Paulo Gonet , e encaminhado ao ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), relator do processo."
+            "resposta": "\"O caráter presencial das sessões de julgamento assegura a construção de decisões de forma deliberativa entre os membros dos órgãos colegiados, e não apenas o simples somatório de vontades individuais\", afirma o documento."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Segundo Gonet, não há impedimento para mudança, desde que Cid continue cumprindo todas as condições impostas pelo STF."
+            "resposta": "O pedido foi assinado pelo presidente da OAB do Rio Grande do Sul, Leonardo Lamachia , e pelo procurador nacional de Defesa das Prerrogativas, Alex Sarkis ."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "“Nessas circunstâncias, a alteração do local do cumprimento da pena mostra-se viável, ausente prejuízo à execução penal, desde que mantidas as condições estabelecidas para seu regular cumprimento” , escreveu Gonet."
+            "resposta": "A Ordem dos Advogados também diz atuar pela \"proteção dos direitos e prerrogativas profissionais da advocacia\" e aponta que há \"importância do tema em questão para toda classe. Assim, pede para participar do julgamento na condição de assistente \"com a finalidade de atuar na defesa das prerrogativas profissionais dos advogados constituídos\"."
           }
         ],
-        "imagemOriginal": "https://cdn.oantagonista.com/uploads/2025/06/6070a92b-f862-4cb6-9867-0ec223d6ccca.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/pgr-nao-ve-impedimento-para-mauro-cid-cumprir-pena-no-rio.jpg",
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/02/img20250201164242302.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/oab-discorda-de-dino-e-pede-que-stf-julgue-van-hattem-em-sessao-presencial.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "e23af4509c10680f",
+      "titulo": "Adriana Lessa denuncia racismo em loja de luxo em São Paulo",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/colunas/fabia-oliveira/adriana-lessa-denuncia-racismo-em-loja-de-luxo-em-sao-paulo",
+      "dataFonte": "2026-11-20T01:03:30.000Z",
+      "resumoFonte": "Atriz relata ter sido seguida por funcionários enquanto circulava pelo estabelecimento e levou o caso à Polícia Civil",
+      "imagem": "https://i.metroimg.com/DU7GRLoA65lKa8UmS4XLENf-rlq6ClxVMaPC5REge_A/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/adriana-lessa-denuncia-racismo-loja-luxo-sp-3.jpg",
+      "descobertaEm": "2026-11-20T01:18:42.388Z",
+      "reportagem": {
+        "titulo": "Adriana Lessa denuncia racismo em loja de luxo em São Paulo",
+        "slug": "adriana-lessa-denuncia-racismo-em-loja-de-luxo-em-sao-paulo",
+        "categoria": "Justiça",
+        "data": "2026-11-19",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/adriana-lessa-denuncia-racismo-em-loja-de-luxo-em-sao-paulo.jpg",
+        "resumo": "A atriz Adriana Lessa relata ter sido seguida por funcionários enquanto circulava pelo estabelecimento e levou o caso à Polícia Civil",
+        "conteudo": "<p>A atriz Adriana Lessa denunciou à Polícia Civil uma possível situação de discriminação racial durante uma visita à loja Matalab, localizada no complexo Rosewood São Paulo/Cidade Matarazzo, na capital paulista.</p><h2>O contexto da decisão judicial</h2><p>Segundo nota encaminhada pela defesa à coluna Fábia Oliveira, a artista teria sido seguida e monitorada por funcionários do estabelecimento enquanto circulava pelo espaço.</p><p>O episódio teria ocorrido em 24 de setembro de 2026. De acordo com o relato apresentado pelos advogados Carlos Nicodemos e Rodolfo Santos Xavier, Adriana havia acabado de sair de uma consulta oftalmológica e decidiu passar pelo complexo para tomar um café.</p><p>Durante a visita, entrou na Matalab, onde demonstrou interesse por peças de arte e decoração.</p><h2>Detalhes e consequências do caso</h2><p>Ao perguntar sobre a procedência dos objetos, a atriz teria percebido olhares de desconfiança por parte de uma atendente. Ainda segundo a denúncia, a funcionária passou a acompanhá-la enquanto circulava pela loja.</p><p>Em seguida, outro funcionário teria se aproximado e também participado do monitoramento, embora permanecesse mais afastado.</p><p>A defesa relata que outros clientes entraram e circularam pelo estabelecimento sem receber o mesmo tratamento. A situação teria provocado um forte abalo emocional em Adriana, que relatou ter apresentado taquicardia e tremores.</p><p>Depois de deixar a loja, a artista teria conversado com um segurança do complexo para relatar o ocorrido. Na sequência, retornou ao estabelecimento para formalizar uma reclamação junto à gerência.</p><p>Em 20 de outubro, os advogados notificaram extrajudicialmente os responsáveis pelo Complexo Rosewood São Paulo/Cidade Matarazzo e pela Mata Company.</p><p>Entre as solicitações estavam a preservação das imagens das câmeras de segurança referentes ao dia do episódio, a identificação e a oitiva dos funcionários envolvidos, além da disponibilização de registros internos.</p><p>Posteriormente, em 9 de novembro, os representantes de Adriana encaminharam uma notícia-crime à Delegacia de Polícia de Repressão aos Crimes Raciais e Delitos de Intolerância (DECRADI).</p><p>No dia seguinte, a Polícia Civil instaurou um inquérito para investigar a possível prática de discriminação racial, com base no artigo 20 da Lei nº 7.716/1989.</p><p>A defesa sustenta que o episódio apresenta características de perfilamento racial, prática em que uma pessoa passa a ser tratada como suspeita em razão de sua raça ou cor, sem que existam elementos objetivos que justifiquem a desconfiança.</p><p>Em nota encaminhada à coluna, o advogado Carlos Nicodemos afirmou que a denúncia não se limita ao constrangimento relatado pela atriz, mas aponta para a necessidade de investigar formas de discriminação que nem sempre envolvem ofensas explícitas.</p><p>“Ser negro não pode significar carregar permanentemente a condição de suspeito. É inadmissível que, em pleno século XXI, ainda tenhamos que discutir o direito de uma pessoa negra de circular livremente por uma loja sem ser perseguida por olhares e vigilância.</p><p>A denúncia de Adriana Lessa não trata apenas de um atendimento constrangedor, mas da suspeita de uma prática discriminatória que precisa ser investigada com rigor.</p><p>O racismo também se manifesta quando alguém é tratado como uma ameaça simplesmente pela cor da pele. E isso não pode ser tolerado”, declarou.</p><p>Segundo os representantes da atriz, a iniciativa também busca ampliar a discussão sobre a responsabilidade de empresas e instituições no combate ao racismo.</p><p>A defesa aponta a necessidade de revisão de protocolos de atendimento e de medidas que garantam a pessoas negras o direito de frequentar diferentes espaços sem constrangimentos ou tratamentos discriminatórios.</p><p>Adriana Lessa é atriz, cantora e apresentadora paulistana. Iniciou sua carreira no teatro em 1986, sob a direção de Antunes Filho, e ganhou projeção nacional com participações em novelas como Terra Nostra, O Clone e Senhora do Destino.</p><p>Ao longo da trajetória, também apresentou programas na MTV e na RedeTV! e participou de projetos de valorização da cultura afro-brasileira, como A Cor da Cultura. A artista foi indicada ao Prêmio Shell por sua atuação em A Partilha (2024).</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/colunas/fabia-oliveira/adriana-lessa-denuncia-racismo-em-loja-de-luxo-em-sao-paulo",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A atriz Adriana Lessa denunciou à Polícia Civil uma possível situação de discriminação racial durante uma visita à loja Matalab, localizada no complexo Rosewood São Paulo/Cidade Matarazzo, na capital paulista."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Segundo nota encaminhada pela defesa à coluna Fábia Oliveira, a artista teria sido seguida e monitorada por funcionários do estabelecimento enquanto circulava pelo espaço."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O episódio teria ocorrido em 24 de setembro de 2026. De acordo com o relato apresentado pelos advogados Carlos Nicodemos e Rodolfo Santos Xavier, Adriana havia acabado de sair de uma consulta oftalmológica e decidiu passar pelo complexo para tomar um café. Durante a visita, entrou na Matalab, onde demonstrou interesse por peças de arte e decoração."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Ao perguntar sobre a procedência dos objetos, a atriz teria percebido olhares de desconfiança por parte de uma atendente. Ainda segundo a denúncia, a funcionária passou a acompanhá-la enquanto circulava pela loja. Em seguida, outro funcionário teria se aproximado e também participado do monitoramento, embora permanecesse mais afastado."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A defesa relata que outros clientes entraram e circularam pelo estabelecimento sem receber o mesmo tratamento. A situação teria provocado um forte abalo emocional em Adriana, que relatou ter apresentado taquicardia e tremores."
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/DU7GRLoA65lKa8UmS4XLENf-rlq6ClxVMaPC5REge_A/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/adriana-lessa-denuncia-racismo-loja-luxo-sp-3.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/adriana-lessa-denuncia-racismo-em-loja-de-luxo-em-sao-paulo.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "4a8603222bd3c433",
+      "titulo": "O que pode acontecer com ministros do STF citados no caso Master, segundo especialista em direito",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/politica/o-que-pode-acontecer-com-ministros-do-stf-citados-no-caso-master-segundo-especialista-em-direito/",
+      "dataFonte": "2026-11-20T00:37:15.000Z",
+      "resumoFonte": "Constitucionalista aponta caminhos que vão do arquivamento à abertura de investigação criminal e afirma que o Supremo terá de prestar esclarecimentos",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/STF-PLENARIO-2026-11-d.jpg.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-11-20T01:18:42.388Z",
+      "reportagem": {
+        "titulo": "O que pode acontecer com ministros do STF citados no caso Master, segundo especialista em direito",
+        "slug": "o-que-pode-acontecer-com-ministros-do-stf-citados-no-caso-master-segundo-especialista-em-d",
+        "categoria": "Justiça",
+        "data": "2026-11-19",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/o-que-pode-acontecer-com-ministros-do-stf-citados-no-caso-master-segundo-especialista-em-d.jpg",
+        "resumo": "Constitucionalista aponta caminhos que vão do arquivamento à abertura de investigação criminal e afirma que o Supremo terá de prestar esclarecimentos",
+        "conteudo": "<p>Os ministros do Supremo Tribunal Federal (STF) mencionados nos relatórios da Polícia Federal sobre o caso Banco Master podem ser alvo de investigação criminal, responder por quest&amp;otilde;es éticas ou administrativas ou não sofrer qualquer medida, caso a Procuradoria-Geral da República (PGR) conclua que não houve irregularidade.</p><h2>O contexto da decisão judicial</h2><p>As possibilidades foram apresentadas pelo advogado e professor titular de Direito Constitucional da PUC Marcelo Figueiredo, em entrevista ao programa VEJA em Foco , apresentado por Marcela Rahal.</p><p>Segundo o especialista, a PGR pode analisar os documentos e recomendar o arquivamento do procedimento ou identificar indícios de crime e solicitar ao presidente do STF a abertura de uma investigação.</p><p>Figueiredo ressaltou que ainda não é possível antecipar uma conclusão sem conhecer o conteúdo dos relatórios.</p><h2>Detalhes e consequências do caso</h2><p>&amp;ldquo;Tudo depende da análise da Procuradoria e, evidentemente, do conteúdo desse relatório feito pela Polícia Federal&amp;rdquo;, afirmou.</p><p>O professor observou que o procurador-geral da República, Paulo Gonet, nomeou uma comissão de seis procuradores para examinar os documentos.</p><p>Depois da análise, as conclus&amp;otilde;es deverão ser encaminhadas ao presidente do Supremo, Edson Fachin , que poderá convocar uma sessão para deliberar sobre a abertura ou não de investigação.</p><p>Figueiredo distinguiu três esferas de responsabilização. Se houver indícios de crime, caberá &amp;agrave; PGR avaliar a possibilidade de pedir uma investigação.</p><p>Se a questão for de natureza ética, o assunto poderá ser tratado internamente pelo próprio Supremo.</p><p>Também existe a possibilidade de uma apuração administrativa, caso a Corte entenda que algum ministro violou deveres previstos na Lei Org&amp;acirc;nica da Magistratura.</p><p>O constitucionalista destacou que a avaliação dependerá do contexto em que cada ministro aparece nos documentos.</p><p>Uma simples menção ao nome de uma autoridade não equivale, por si só, &amp;agrave; demonstração de uma conduta criminosa.</p><p>é necessário esclarecer se houve apenas conhecimento ou contato com o banqueiro Daniel Vorcaro ou se existiu alguma relação empresarial, troca de favores ou influência indevida.</p><p>Na entrevista, o professor criticou a justificativa apresentada pelo diretor-geral da Polícia Federal, Andrei Rodrigues, para afastar delegados que trabalhavam nos relatórios.</p><p>Segundo a explicação de Rodrigues no Senado, a equipe teria produzido documentos que apontavam possíveis crimes, quando a orientação seria registrar as citaç&amp;otilde;es a ministros sem apresentar conclus&amp;otilde;es dessa natureza.</p><p>&amp;ldquo;Eu acho que essa história está muito mal contada&amp;rdquo;, afirmou Figueiredo. Para ele, os delegados têm independência funcional e experiência na elaboração de relatórios sobre investigaç&amp;otilde;es criminais.</p><p>O professor argumentou que a eventual indicação de um possível enquadramento penal não tornaria o documento nulo nem justificaria, por si só, o afastamento dos responsáveis.</p><p>O constitucionalista classificou a decisão como &amp;ldquo;muito suspeita&amp;rdquo; e avaliou que ela poderia ter sido um ato político.</p><p>Afirmou ainda que o mais adequado seria o Supremo receber os relatórios e examinar o conteúdo das informaç&amp;otilde;es.</p><p>Sua avaliação, contudo, não representa uma conclusão sobre a existência de irregularidades: o próprio professor reconheceu que o material ainda precisa ser analisado.</p><p>Para Figueiredo, independentemente de a decisão final ser pelo arquivamento ou pela abertura de uma investigação, o STF precisará apresentar fundamentação.</p><p>Ele afirmou que será difícil convencer a sociedade sem explicaç&amp;otilde;es claras sobre os motivos que levaram a Corte a tomar uma ou outra decisão.</p><p>O professor defendeu que, em algum momento, a sociedade tenha conhecimento do conteúdo dos relatórios, respeitadas as restriç&amp;otilde;es de sigilo próprias da fase de análise.</p><p>Também lembrou que eventuais suspeitas podem envolver responsabilidades de naturezas diferentes e que a apuração não deve confundir quest&amp;otilde;es éticas com crimes.</p><p>&amp;ldquo;Seja abertura ou arquivamento, é preciso que haja motivação, que haja fundamentação&amp;rdquo;, disse. Na avaliação do constitucionalista, o episódio imp&amp;otilde;e ao Supremo o dever de esclarecer o que foi identificado pela Polícia Federal e quais providências serão adotadas.</p><p>VEJA+IA: Este texto resume um trecho do telejornal VEJA em Foco (confira o vídeo acima). Conteúdo produzido com auxílio de inteligência artificial e supervisão humana.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/politica/o-que-pode-acontecer-com-ministros-do-stf-citados-no-caso-master-segundo-especialista-em-direito/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Os ministros do Supremo Tribunal Federal (STF) mencionados nos relatórios da Polícia Federal sobre o caso Banco Master podem ser alvo de investigação criminal, responder por quest&otilde;es éticas ou administrativas ou não sofrer qualquer medida, caso a Procuradoria-Geral da República (PGR) conclua que não houve irregularidade."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Segundo o especialista, a PGR pode analisar os documentos e recomendar o arquivamento do procedimento ou identificar indícios de crime e solicitar ao presidente do STF a abertura de uma investigação. Figueiredo ressaltou que ainda não é possível antecipar uma conclusão sem conhecer o conteúdo dos relatórios."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O professor observou que o procurador-geral da República, Paulo Gonet, nomeou uma comissão de seis procuradores para examinar os documentos. Depois da análise, as conclus&otilde;es deverão ser encaminhadas ao presidente do Supremo, Edson Fachin , que poderá convocar uma sessão para deliberar sobre a abertura ou não de investigação."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Figueiredo distinguiu três esferas de responsabilização. Se houver indícios de crime, caberá &agrave; PGR avaliar a possibilidade de pedir uma investigação. Se a questão for de natureza ética, o assunto poderá ser tratado internamente pelo próprio Supremo."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O constitucionalista destacou que a avaliação dependerá do contexto em que cada ministro aparece nos documentos. Uma simples menção ao nome de uma autoridade não equivale, por si só, &agrave; demonstração de uma conduta criminosa."
+          }
+        ],
+        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/11/STF-PLENARIO-2026-11-d.jpg.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/o-que-pode-acontecer-com-ministros-do-stf-citados-no-caso-master-segundo-especialista-em-d.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -1069,126 +1081,6 @@
       }
     },
     {
-      "id": "696d7e00eccd3af9",
-      "titulo": "Relator divulga parecer de pacote fiscal sem alterações para acelerar aprovação",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/politica/relator-divulga-parecer-de-pacote-fiscal-sem-alteracoes-para-acelerar-aprovacao/",
-      "dataFonte": "2026-11-19T23:50:58.000Z",
-      "resumoFonte": "Deputado Mauro Benevides Filho (PDT-CE). Foto: Agência Câmara \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/Mauro-Benevides-Filho.avif\" />Deputados devem votar o projeto na próxima segunda-feira The post Relator divulga parecer de pacote fiscal sem alterações para acelerar aprovação appeared first on InfoMoney .",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2021/03/Site-thumb-de-materia.png?fit=1280%2C720&quality=70&strip=all",
-      "descobertaEm": "2026-11-20T00:18:42.244Z",
-      "reportagem": {
-        "titulo": "Relator divulga parecer de pacote fiscal sem alterações para acelerar aprovação",
-        "slug": "relator-divulga-parecer-de-pacote-fiscal-sem-alteracoes-para-acelerar-aprovacao",
-        "categoria": "Economia",
-        "data": "2026-11-19",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/relator-divulga-parecer-de-pacote-fiscal-sem-alteracoes-para-acelerar-aprovacao.jpg",
-        "resumo": "O relator Mauro Benevides Filho manteve o texto do ajuste fiscal aprovado pelo Senado para acelerar a votação na Câmara.",
-        "conteudo": "<p>O deputado Mauro Benevides Filho (União-CE), relator do projeto de ajuste fiscal elaborado pelo governo do presidente Luiz Inácio Lula da Silva , divulgou o parecer nesta quinta-feira.</p><h2>O andamento do pacote fiscal</h2><p>Ele não fez alterações no texto que foi aprovado pelo Senado . A ideia é acelerar a votação da iniciativa e evitar que haja mudanças, já que isso provocaria uma nova votação pelos senadores.</p><p>De acordo com Benevides, eventuais sugestões de melhorias na iniciativa deverão ser tratadas por meio de novos projetos.</p><p>O pacote pode melhorar o resultado das contas públicas de 2027 em R$ 45,1 bilhões a R$ 56,1 bilhões, segundo os valores apresentados no projeto.</p><h2>Medidas previstas no ajuste</h2><p>O presidente da Câmara, Hugo Motta (Republicanos-PB), convocou para a próxima segunda-feira a votação do projeto. Se não for alterado pelos deputados, o projeto segue para a sanção presidencial.</p><p>A iniciativa é considerada essencial pela equipe econômica do governo e pela cúpula do Congresso como uma forma de sinalizar ao mercado compromisso com o equilíbrio fiscal.</p><p>Segundo o texto, o pacote pode melhorar o resultado das contas de 2027 em R$ 45,1 bilhões a R$ 56,1 bilhões.</p><p>Entre as medidas previstas estão mudanças nas regras de contingenciamento de despesas, permitindo bloqueios para perseguir o centro da meta fiscal, e a ampliação de 10% para 20% do corte linear de benefícios tributários, além de limites para compensações fiscais.</p><p>O Senado concluiu nessa quarta-feira a votação do pacote fiscal. Em acordo com a oposição, os senadores flexibilizaram o corte nos repasses da Lei Kandir às unidades da federação e aos municípios, um dos principais focos de resistência ao projeto.</p><p>Pelo texto-base, aprovado na semana passada, os repasses da Lei Kandir cairiam de R$ 4 bilhões para R$ 1 bilhão por ano entre 2027 e 2030, e o saldo de R$ 12 bilhões ficaria para ser pago até 2037.</p><p>Com o acordo, o repasse sobe para R$ 2 bilhões nesse período, e todo o passivo terá de ser quitado até 2030, dentro dos mandatos dos governadores eleitos em outubro.</p><p>A Lei Kandir, de 1996, isentou de ICMS as exportações de produtos primários e semielaborados, e desde então a União compensa estados e municípios pela perda de arrecadação. A redução dos repasses era alvo de pressão dos governadores.</p><p>Deputados do PT e de outras legendas da esquerda da base mais fiel do presidente criticaram o fato de não terem sido consultados previamente sobre o projeto e avaliam que esse tipo de ajuste pode desmobilizar eleitores que foram às ruas no segundo turno para apoiar Lula contra Flávio Bolsonaro (PL).</p><p>Além disso, se queixam da postura de governistas que têm atacado quem se coloca contra a proposta apresentada pelo Palácio do Planalto. Mesmo assim, a bancada do PT na Câmara decidiu fazer sugestões ao governo na área econômica, mas vai orientar a favor do projeto.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/politica/relator-divulga-parecer-de-pacote-fiscal-sem-alteracoes-para-acelerar-aprovacao/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O deputado Mauro Benevides Filho (União-CE), relator do projeto de ajuste fiscal elaborado pelo governo do presidente Luiz Inácio Lula da Silva , divulgou o parecer nesta quinta-feira. Ele não fez alterações no texto que foi aprovado pelo Senado ."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "De acordo com Benevides, eventuais sugestões de melhorias na iniciativa deverão ser tratadas por meio de novos projetos."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O pacote pode melhorar o resultado das contas públicas de 2027 em R$ 45,1 bilhões a R$ 56,1 bilhões, segundo os valores apresentados no projeto."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O presidente da Câmara, Hugo Motta (Republicanos-PB), convocou para a próxima segunda-feira a votação do projeto. Se não for alterado pelos deputados, o projeto segue para a sanção presidencial."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Segundo o texto, o pacote pode melhorar o resultado das contas de 2027 em R$ 45,1 bilhões a R$ 56,1 bilhões."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2021/03/Site-thumb-de-materia.png?fit=1280%2C720&quality=70&strip=all",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/relator-divulga-parecer-de-pacote-fiscal-sem-alteracoes-para-acelerar-aprovacao.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "81141a0e99cf240c",
-      "titulo": "CMN amplia controle sobre recolhimentos de tributos dos bancos",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Agência Brasil - Economia",
-      "urlFonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-amplia-controle-sobre-recolhimentos-de-tributos-dos-bancos",
-      "dataFonte": "2026-11-19T23:33:00.000Z",
-      "resumoFonte": "O Conselho Monetário Nacional (CMN) aprovou uma nova regra para ampliar o acompanhamento das informações tributárias das instituições financeiras que operam no Brasil. A partir de 1º de janeiro de 2028, bancos e demais entidades autorizadas pelo Banco Central (BC) deverão enviar mensalmente dados contábeis relacionados à arrecadação de tributos,…",
-      "imagem": "https://imagens.ebc.com.br/kxSjxUyU-01X_1jVsu-y6ME5JTI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/10/_raf0993_1.jpg?itok=gmgF85eh",
-      "descobertaEm": "2026-11-20T00:18:42.244Z",
-      "reportagem": {
-        "titulo": "CMN amplia controle sobre recolhimentos de tributos dos bancos",
-        "slug": "cmn-amplia-controle-sobre-recolhimentos-de-tributos-dos-bancos",
-        "categoria": "Economia",
-        "data": "2026-11-19",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/cmn-amplia-controle-sobre-recolhimentos-de-tributos-dos-bancos.jpg",
-        "resumo": "Nova regra obriga instituições financeiras a informar dados mensalmente ao Banco Central.",
-        "conteudo": "<p>O Conselho Monetário Nacional (CMN) aprovou uma nova regra para ampliar o acompanhamento das informações tributárias das instituições financeiras que operam no Brasil.</p><h2>Novas obrigações contábeis</h2><p>A partir de 1º de janeiro de 2028, bancos e demais entidades autorizadas pelo Banco Central (BC) deverão enviar mensalmente dados contábeis relacionados à arrecadação de tributos, provisões e créditos fiscais.</p><p>A medida permitirá que a autoridade monetária tenha informações mais detalhadas e periódicas sobre os registros fiscais do setor financeiro.</p><p>A exigência foi estabelecida pela Resolução CMN 5.345 , aprovada nesta quinta-feira (19), que define os critérios para elaboração e envio de documentos contábeis ao Banco Central.</p><h2>Fiscalização e informações ao Banco Central</h2><p>Na prática, a mudança amplia a quantidade de informações que os bancos precisam prestar ao regulador.</p><p>Com os novos dados, será possível acompanhar de forma mais organizada os valores relacionados aos tributos registrados pelas instituições, incluindo informações sobre pagamentos, créditos fiscais e provisões contábeis.</p><p>O monitoramento será feito por meio do envio mensal de informações contábeis ao Banco Central. As instituições deverão incluir entre os documentos obrigatórios a chamada &quot;Estatística Fiscal – Rubricas Contábeis Selecionadas&quot;.</p><p>Essas rubricas são categorias específicas dos registros contábeis utilizadas para identificar e organizar determinados valores. No caso da nova exigência, elas estão relacionadas às informações fiscais das instituições financeiras.</p><p>Isso permitirá ao Banco Central acompanhar, por exemplo, os valores que os bancos registram contabilmente como tributos, os créditos fiscais utilizados ou disponíveis e as provisões relacionadas a obrigações tributárias.</p><p>A periodicidade mensal também é importante. Em vez de depender apenas de informações apresentadas em períodos mais longos, a autoridade monetária passará a receber dados com maior frequência, facilitando a identificação de mudanças nos registros fiscais do setor.</p><p>Um dos pontos importantes desse acompanhamento envolve os créditos fiscais. Eles correspondem a valores que uma empresa pode utilizar para compensar determinados tributos, desde que respeitadas as condições previstas na legislação.</p><p>Em determinadas situações, os bancos registram créditos tributários relacionados a pagamentos realizados anteriormente ou a diferenças temporárias entre os critérios contábeis e fiscais.</p><p>Esses valores podem representar montantes expressivos nos balanços das instituições financeiras. Por isso, acompanhar sua evolução é relevante para compreender a composição das contas fiscais do setor.</p><p>As provisões tributárias também fazem parte desse universo. São valores que as instituições reservam contabilmente para possíveis obrigações, inclusive aquelas relacionadas a disputas judiciais ou administrativas envolvendo o pagamento de impostos.</p><p>Com informações padronizadas e enviadas mensalmente, o Banco Central terá melhores condições de acompanhar a evolução dessas rubricas e produzir estatísticas fiscais mais abrangentes.</p><p>A ampliação do envio de dados também está relacionada à necessidade de melhorar a qualidade das informações utilizadas no acompanhamento das contas fiscais do país.</p><p>É importante destacar, porém, que a nova resolução estabelece uma obrigação de prestação de informações ao Banco Central. Ela não significa, por si só, que o BC passará a fiscalizar diretamente o pagamento de cada imposto pelos bancos ou que haverá uma nova cobrança tributária.</p><p>A fiscalização do cumprimento das obrigações tributárias federais continua sendo atribuição da Receita Federal.</p><p>O Banco Central, por sua vez, usa informações contábeis das instituições supervisionadas para exercer suas funções regulatórias e produzir estatísticas econômicas e financeiras.</p>",
-        "fonteNome": "Agência Brasil - Economia",
-        "fonteUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-amplia-controle-sobre-recolhimentos-de-tributos-dos-bancos",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Conselho Monetário Nacional (CMN) aprovou uma nova regra para ampliar o acompanhamento das informações tributárias das instituições financeiras que operam no Brasil."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A partir de 1º de janeiro de 2028, bancos e demais entidades autorizadas pelo Banco Central (BC) deverão enviar mensalmente dados contábeis relacionados à arrecadação de tributos, provisões e créditos fiscais. A medida permitirá que a autoridade monetária tenha informações mais detalhadas e periódicas sobre os registros fiscais do setor financeiro."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A exigência foi estabelecida pela Resolução CMN 5.345 , aprovada nesta quinta-feira (19), que define os critérios para elaboração e envio de documentos contábeis ao Banco Central."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Na prática, a mudança amplia a quantidade de informações que os bancos precisam prestar ao regulador. Com os novos dados, será possível acompanhar de forma mais organizada os valores relacionados aos tributos registrados pelas instituições, incluindo informações sobre pagamentos, créditos fiscais e provisões contábeis."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O monitoramento será feito por meio do envio mensal de informações contábeis ao Banco Central. As instituições deverão incluir entre os documentos obrigatórios a chamada \"Estatística Fiscal – Rubricas Contábeis Selecionadas\"."
-          }
-        ],
-        "imagemOriginal": "https://imagens.ebc.com.br/kxSjxUyU-01X_1jVsu-y6ME5JTI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/10/_raf0993_1.jpg?itok=gmgF85eh",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/cmn-amplia-controle-sobre-recolhimentos-de-tributos-dos-bancos.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
       "id": "ab140f18dae14627",
       "titulo": "PSD recorre da decisão de Zanin e volta a pedir 2º turno no RJ",
       "categoria": "Justiça",
@@ -1319,81 +1211,21 @@
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
-    },
-    {
-      "id": "118992e13e9d1cc9",
-      "titulo": "Moraes marca julgamento sobre Lei da Dosimetria para 4 de dezembro",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/politica/moraes-marca-julgamento-sobre-lei-da-dosimetria-para-4-de-dezembro/",
-      "dataFonte": "2026-11-19T22:09:12.000Z",
-      "resumoFonte": "(Fabio Rodrigues-Pozzebom/ Agência Brasil) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2025/09/02092025-pzzb0229.webp?fit=1170%2C700&quality=70&strip=all\" />Em maio, ministro suspendeu a aplicação da lei até que o STF analise quatro ações que questionam sua constitucionalidade The post Moraes marca julgamento sobre Lei da…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2025/09/02092025-pzzb0229.webp",
-      "descobertaEm": "2026-11-19T22:12:45.163Z",
-      "reportagem": {
-        "titulo": "Moraes marca julgamento sobre Lei da Dosimetria para 4 de dezembro",
-        "slug": "moraes-marca-julgamento-sobre-lei-da-dosimetria-para-4-de-dezembro",
-        "categoria": "Justiça",
-        "data": "2026-11-19",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/moraes-marca-julgamento-sobre-lei-da-dosimetria-para-4-de-dezembro.jpg",
-        "resumo": "Em maio, ministro suspendeu a aplicação da lei até que o STF analise quatro ações que questionam sua constitucionalidade",
-        "conteudo": "<p>O ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes , marcou para 4 de dezembro o julgamento de quatro ações que questionam a Lei da Dosimetria.</p><h2>O contexto da decisão judicial</h2><p>As ações contestam a constitucionalidade da norma que, na prática, reduz as penas de condenados pelos atos golpistas de 8 de Janeiro.</p><p>A análise ocorrerá em plenário virtual, com término previsto para 15 de dezembro. O caso poderá ser levado ao plenário físico caso algum dos ministros solicite destaque.</p><p>Documentos foram entregues a Fachin pelo diretor-geral da PF nesta quarta-feira</p><h2>Detalhes e consequências do caso</h2><p>Junto com a pauta de julgamento, Moraes também divulgou um relatório atualizado sobre as investigações, condenações, acordos e absolvições relacionados aos casos do 8 de Janeiro.</p><p>Na terça-feira (17), os presidentes da Câmara e do Senado, Hugo Motta (Republicanos-PB) e Davi Alcolumbre (União-AP), pediram a Moraes que incluísse o tema na pauta da Corte ainda neste ano .</p><p>A lei foi aprovada pelo Congresso em dezembro de 2025 e vetada pelo presidente Luiz Inácio Lula da Silva em 8 de janeiro de 2026. Posteriormente, em abril, o Congresso formou maioria para derrubar os vetos presidenciais.</p><p>A norma sofreu um novo revés em maio, quando Moraes determinou a suspensão de sua aplicação logo após a promulgação, até que o STF analise as quatro ações que questionam sua constitucionalidade.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/politica/moraes-marca-julgamento-sobre-lei-da-dosimetria-para-4-de-dezembro/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes , marcou para 4 de dezembro o julgamento de quatro ações que questionam a Lei da Dosimetria. As ações contestam a constitucionalidade da norma que, na prática, reduz as penas de condenados pelos atos golpistas de 8 de Janeiro."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A análise ocorrerá em plenário virtual, com término previsto para 15 de dezembro. O caso poderá ser levado ao plenário físico caso algum dos ministros solicite destaque."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Documentos foram entregues a Fachin pelo diretor-geral da PF nesta quarta-feira"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Junto com a pauta de julgamento, Moraes também divulgou um relatório atualizado sobre as investigações, condenações, acordos e absolvições relacionados aos casos do 8 de Janeiro."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Na terça-feira (17), os presidentes da Câmara e do Senado, Hugo Motta (Republicanos-PB) e Davi Alcolumbre (União-AP), pediram a Moraes que incluísse o tema na pauta da Corte ainda neste ano ."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2025/09/02092025-pzzb0229.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/moraes-marca-julgamento-sobre-lei-da-dosimetria-para-4-de-dezembro.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
     }
   ],
-  "reapuradoEm": "2026-11-20T00:52:00.748Z",
+  "reapuradoEm": "2026-11-20T01:50:17.027Z",
   "diagnosticoReapuracao": {
-    "produzidas": 21,
+    "produzidas": 18,
     "jaProntas": 0,
-    "incompletas": 9,
+    "incompletas": 10,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 21,
+    "geradas": 18,
     "reaproveitadas": 0,
-    "puladas": 9,
+    "puladas": 10,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-20T00:53:35.561Z"
+  "lapisEm": "2026-11-20T01:51:40.655Z"
 }
