@@ -150,6 +150,8 @@ function paragrafoSujo(texto = '') {
   if (/^jornalista formad[oa] pel[oa] (?:universidade|faculdade).{0,240}\batua na cobertura\b/i.test(t)) return true;
   if (/^documento:\s.{20,260}\bdecis[aã]o:\s/i.test(t)) return true;
   if (/^\+\s+(?:[“"‘'«])?[A-ZÁÉÍÓÚ][^\n]{20,170}$/u.test(t)) return true;
+  // Exclui chamada promocional do InfoMoney capturada entre parágrafos sobre previdência.
+  if (/^economista eduardo giannetti analisa como a impulsividade e a busca por recompensas imediatas podem comprometer o futuro financeiro$/i.test(t)) return true;
   // Descarta chamadas de outras matérias e assinatura de colunista no corpo.
   if (/^entrevista\s*:\s*.+\bcaso master\s*:/i.test(t)) return true;
   if (/^an[aá]lises de [^.,]{4,100}, editor de pol[ií]tica e brasil do globo$/i.test(t)) return true;
