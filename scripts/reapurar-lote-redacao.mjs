@@ -149,7 +149,7 @@ function paragrafoSujo(texto = '') {
   // Perfis de autores e chamadas internas não devem entrar no corpo nem nas respostas AEO.
   if (/^jornalista formad[oa] pel[oa] (?:universidade|faculdade).{0,240}\batua na cobertura\b/i.test(t)) return true;
   if (/^documento:\s.{20,260}\bdecis[aã]o:\s/i.test(t)) return true;
-  if (/^\+\s+[A-ZÁÉÍÓÚ][^\n]{20,170}$/u.test(t)) return true;
+  if (/^\+\s+(?:[“"‘'«])?[A-ZÁÉÍÓÚ][^\n]{20,170}$/u.test(t)) return true;
   // Descarta chamadas de outras matérias e assinatura de colunista no corpo.
   if (/^entrevista\s*:\s*.+\bcaso master\s*:/i.test(t)) return true;
   if (/^an[aá]lises de [^.,]{4,100}, editor de pol[ií]tica e brasil do globo$/i.test(t)) return true;
@@ -379,8 +379,10 @@ function reportagemValida(r, p) {
   const h2s = [...conteudo.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/gi)].map(m => limparHtml(m[1]));
   if (h2s.some(h => h.split(/\s+/).filter(Boolean).length < 4 || FIM_INCOMPLETO.test(h))) return false;
   if (paragrafoSujo(conteudo)) return false;
+  if ([...conteudo.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)].some(m => paragrafoSujo(m[1]))) return false;
   if (/entra na cobertura factual do not[ií]cia es|a pauta foi classificada/i.test(JSON.stringify(r.aeo || []))) return false;
   if (!Array.isArray(r.aeo) || r.aeo.length < 5) return false;
+  if (r.aeo.some(item => paragrafoSujo(item?.resposta || ''))) return false;
   return true;
 }
 
