@@ -146,6 +146,10 @@ function paragrafoSujo(texto = '') {
   if (/^principais informa[cç][oõ]es sobre pol[ií]tica, elei[cç][oõ]es, economia, internacional, sa[uú]de, tecnologia, esporte e cultura\b/i.test(t)) return true;
   if (/[—–-]\s*Foto:\s*[^<>]{1,180}$/i.test(t)) return true;
   if (/^Expressa as ideias do autor e defende sua interpreta[cç][aã]o dos fatos/i.test(t)) return true;
+  // Perfis de autores e chamadas internas não devem entrar no corpo nem nas respostas AEO.
+  if (/^jornalista formad[oa] pel[oa] (?:universidade|faculdade).{0,240}\batua na cobertura\b/i.test(t)) return true;
+  if (/^documento:\s.{20,260}\bdecis[aã]o:\s/i.test(t)) return true;
+  if (/^\+\s+[A-ZÁÉÍÓÚ][^\n]{20,170}$/u.test(t)) return true;
   // Descarta chamadas de outras matérias e assinatura de colunista no corpo.
   if (/^entrevista\s*:\s*.+\bcaso master\s*:/i.test(t)) return true;
   if (/^an[aá]lises de [^.,]{4,100}, editor de pol[ií]tica e brasil do globo$/i.test(t)) return true;
