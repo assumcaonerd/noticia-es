@@ -4,7 +4,7 @@ const noticiasAutoRedacao20261120045001 = [
     pautaId: "0f43032fc3936837",
     slug: "briga-na-esquerda-apos-eleicao-expoe-divergencias-sobre-lula-4",
     titulo: "Briga na esquerda após eleição expõe divergências sobre Lula 4",
-    categoria: "Política ES",
+    categoria: "Política Nacional",
     data: "2026-11-20",
     imagem: "https://noticiaes.com.br/imagens/lapis/briga-na-esquerda-apos-eleicao-expoe-divergencias-sobre-lula-4.jpg",
     resumo: "O governo Lula 4 enfrenta críticas de aliados do PT e PSOL sobre o novo ajuste fiscal, gerando embates entre parlamentares e mobilizações de movimentos sociais.",
