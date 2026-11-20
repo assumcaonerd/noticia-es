@@ -154,6 +154,9 @@
 
   function configurarCards() {
     document.querySelectorAll('[data-card-link]').forEach(card => {
+      // Cards entram aos poucos ("Mais notícias"); cada um só é configurado uma vez.
+      if (card.dataset.cardPronto) return;
+      card.dataset.cardPronto = '1';
       const abrir = () => {
         window.location.href = card.dataset.cardLink;
       };
@@ -172,6 +175,67 @@
     });
   }
 
+  // A capa leve (index.html) entrega só as matérias mais recentes e expõe
+  // window.carregarIndiceCompleto() para buscar o resto quando o leitor pede.
+  // Na capa completa e na página de matéria, `noticias` já vem inteira.
+  const POR_PAGINA = 48;
+
+  function baseNoticias() {
+    return (typeof noticias !== 'undefined' && Array.isArray(noticias)) ? noticias : [];
+  }
+
+  function garantirListaCompleta() {
+    if (window.NOTICIAS_PARCIAL && typeof window.carregarIndiceCompleto === 'function') {
+      return window.carregarIndiceCompleto();
+    }
+    return Promise.resolve(baseNoticias());
+  }
+
+  function paginarGrade(grade, obterItens) {
+    let mostrados = 0;
+    let itens = obterItens();
+    const caixa = document.createElement('div');
+    caixa.className = 'mais-noticias';
+    caixa.style.cssText = 'text-align:center;margin:24px 0';
+    const botao = document.createElement('button');
+    botao.type = 'button';
+    botao.className = 'btn-primario';
+    botao.textContent = 'Mais notícias';
+    caixa.appendChild(botao);
+    grade.insertAdjacentElement('afterend', caixa);
+
+    function atualizarBotao() {
+      const haMais = mostrados < itens.length || window.NOTICIAS_PARCIAL;
+      caixa.hidden = !haMais;
+    }
+
+    function mostrarMais() {
+      const proximos = itens.slice(mostrados, mostrados + POR_PAGINA);
+      grade.insertAdjacentHTML('beforeend', proximos.map(cardHTML).join(''));
+      mostrados += proximos.length;
+      configurarCards();
+      atualizarBotao();
+    }
+
+    botao.addEventListener('click', () => {
+      if (mostrados < itens.length) { mostrarMais(); return; }
+      botao.disabled = true;
+      botao.textContent = 'Carregando…';
+      garantirListaCompleta().then(() => {
+        itens = obterItens();
+        botao.disabled = false;
+        botao.textContent = 'Mais notícias';
+        mostrarMais();
+      }).catch(() => {
+        botao.disabled = false;
+        botao.textContent = 'Tentar de novo';
+      });
+    });
+
+    grade.innerHTML = '';
+    mostrarMais();
+  }
+
   function renderHome() {
     const hero = document.querySelector('[data-destaque]');
     const grade = document.querySelector('[data-grade]');
@@ -181,9 +245,6 @@
     const termo = obterParametro('q') || '';
     const categoria = obterParametro('categoria') || '';
     if (buscaInput) buscaInput.value = termo;
-
-    const baseNoticias = (typeof noticias !== 'undefined' && Array.isArray(noticias)) ? noticias : [];
-    const lista = filtrarNoticias(baseNoticias, termo, categoria);
 
     if (categoria || termo) {
       hero.style.display = 'none';
@@ -195,13 +256,22 @@
           ? 'Economia'
           : `Resultados para ${partes.join(' · ')}`;
       }
-      grade.innerHTML = lista.length
-        ? lista.map(cardHTML).join('')
-        : '<div class="vazio">Nenhuma notícia encontrada com esses critérios.</div>';
-      configurarCards();
+      // Busca e editoria precisam do acervo inteiro.
+      grade.innerHTML = '<div class="vazio">Carregando notícias…</div>';
+      garantirListaCompleta().then(() => {
+        const lista = filtrarNoticias(baseNoticias(), termo, categoria);
+        if (!lista.length) {
+          grade.innerHTML = '<div class="vazio">Nenhuma notícia encontrada com esses critérios.</div>';
+          return;
+        }
+        paginarGrade(grade, () => filtrarNoticias(baseNoticias(), termo, categoria));
+      }).catch(() => {
+        grade.innerHTML = '<div class="vazio">Não foi possível carregar as notícias. Tente de novo.</div>';
+      });
       return;
     }
 
+    const lista = baseNoticias();
     if (!lista.length) {
       hero.innerHTML = '<div class="vazio">Nenhuma notícia publicada ainda.</div>';
       grade.innerHTML = '';
@@ -222,8 +292,7 @@
         </div>
       </article>`;
 
-    grade.innerHTML = lista.slice(1).map(cardHTML).join('');
-    configurarCards();
+    paginarGrade(grade, () => baseNoticias().slice(1));
   }
 
   function atualizarSEO(n) {

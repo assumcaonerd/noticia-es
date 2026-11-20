@@ -11,7 +11,7 @@
   if(match){
     var slug;
     try{slug=decodeURIComponent(match[1]);}catch(e){slug=match[1];}
-    location.replace('/noticia.html?slug='+encodeURIComponent(slug)+location.hash);
+    location.replace('/noticia.html?slug='+encodeURIComponent(slug)+'&sem-pagina=1'+location.hash);
   }
 })();
 </script>

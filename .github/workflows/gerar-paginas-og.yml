@@ -15,6 +15,18 @@ on:
       - 'editorial-*.js'
       - 'auto-redacao-*.js'
       - 'auto-manifest.js'
+      - 'capa-completa.html'
+      - 'opiniao.js'
+      - 'fe-sociedade*.js'
+      - 'manual-*.js'
+      - 'gilvan-foto-*.js'
+      - 'skin/**'
+      - '*-fix*.js'
+      - 'destaque-manual.js'
+      - 'imagens-fonte.js'
+      - 'imagem-policy.js'
+      - 'fontes-sem-link.js'
+      - 'scripts/gerar-indice-noticias.mjs'
       - 'scripts/gerar-paginas-og.mjs'
       - 'scripts/normalizar-paginas-estaticas.mjs'
       - 'scripts/publicar-chatgpt-horario.mjs'
@@ -159,13 +171,16 @@ jobs:
         run: node scripts/gerar-sitemap.mjs
       - name: Gerar RSS e llms.txt
         run: node scripts/gerar-rss-llms.mjs
+      - name: Gerar índice da capa leve
+        # Falha aqui não pode travar páginas, sitemap e RSS: o índice anterior continua valendo.
+        run: node scripts/gerar-indice-noticias.mjs || echo "::warning::Índice da capa não foi regenerado."
       - name: Publicar páginas
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "Notícia ES Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add m imagens/lapis sitemap.xml sitemap-news.xml rss.xml llms.txt assets/og editorial-37.js editorial-39.js editorial-41.js editorial-42.js scripts/validar-cards-sociais.mjs noticias.js
+          git add m imagens/lapis sitemap.xml sitemap-news.xml rss.xml llms.txt assets/og editorial-37.js editorial-39.js editorial-41.js editorial-42.js scripts/validar-cards-sociais.mjs noticias.js indice-capa.json indice-noticias.json
           if git diff --cached --quiet; then
             echo "Nenhuma página estática nova."
             exit 0
@@ -196,7 +211,8 @@ jobs:
             node scripts/validar-cards-sociais.mjs
             node scripts/gerar-sitemap.mjs
             node scripts/gerar-rss-llms.mjs
-            git add m imagens/lapis sitemap.xml sitemap-news.xml rss.xml llms.txt assets/og editorial-37.js editorial-39.js editorial-41.js editorial-42.js scripts/validar-cards-sociais.mjs noticias.js
+            node scripts/gerar-indice-noticias.mjs || echo "::warning::Índice da capa não foi regenerado."
+            git add m imagens/lapis sitemap.xml sitemap-news.xml rss.xml llms.txt assets/og editorial-37.js editorial-39.js editorial-41.js editorial-42.js scripts/validar-cards-sociais.mjs noticias.js indice-capa.json indice-noticias.json
             if git diff --cached --quiet; then
               echo "Nada novo a publicar depois de sincronizar com a main."
               exit 0

@@ -45,7 +45,11 @@
     let n = null;
     if (card && typeof noticias !== 'undefined') {
       const href = card.dataset.cardLink || '';
-      const slug = new URL(href, location.href).searchParams.get('slug');
+      // Links de matéria: /m/<slug>.html (atual) ou noticia.html?slug=<slug> (antigo).
+      const url = new URL(href, location.href);
+      const m = url.pathname.match(/\/m\/([^\/]+)\.html$/);
+      let slug = url.searchParams.get('slug');
+      if (!slug && m) { try { slug = decodeURIComponent(m[1]); } catch (_) { slug = m[1]; } }
       n = noticias.find(x => x.slug === slug);
     } else if (document.body.dataset.pagina === 'materia') {
       const slug = new URLSearchParams(location.search).get('slug');
