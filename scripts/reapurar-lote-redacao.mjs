@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { residuoDaFonte, cortarTrechos } from './residuos-fonte.mjs';
 
 const RAIZ = process.cwd();
 const LOTE = path.join(RAIZ, 'lote-redacao.json');
@@ -142,6 +143,8 @@ function meta(html, chave, atributo = 'property') {
 
 function paragrafoSujo(texto = '') {
   const t = limparHtml(texto);
+  // Chamadas, propaganda e perfis de outros sites (lista única em residuos-fonte.mjs).
+  if (residuoDaFonte(t)) return true;
   // Créditos de imagens e avisos editoriais não são parágrafos de notícia.
   if (/^resumo gerado por (?:ferramenta|intelig[êe]ncia artificial|ia)\b/i.test(t)) return true;
   if (/^publicado em veja de \d{1,2} de\s+/i.test(t)) return true;
@@ -437,7 +440,8 @@ async function reapurarUma(p) {
   }
 
   const paragrafos = extraidos.length ? extraidos : [resumo, titulo].filter(t => limparHtml(t).length >= 50);
-  const conteudo = montarConteudo({ ...p, titulo, resumoFonte: resumo }, paragrafos);
+  // Corta trechos promocionais grudados em parágrafos de notícia antes de montar o texto.
+  const conteudo = montarConteudo({ ...p, titulo, resumoFonte: resumo }, paragrafos.map(cortarTrechos));
   if (!conteudo) return { pauta: p, status: 'incompleta' };
 
   const reportagem = {

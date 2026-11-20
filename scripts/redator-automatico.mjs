@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { paragrafosResiduo, TRECHOS_RESIDUO } from './residuos-fonte.mjs';
 
 const raiz = process.cwd();
 const lotePath = path.join(raiz, 'lote-redacao.json');
@@ -192,6 +193,10 @@ function validarReportagem(p) {
   if (/(?:^|[\s—-])Foto:\s*\S/i.test(primeiroParagrafo)) return 'lead contaminado por legenda da fonte';
   if (String(r.categoria || p.categoria) === 'Política Nacional' && /\b(lua|fotografar|celular|zoom [óo]ptico|nvidia|chip|semiconductor|semicondutor)\b/i.test(textoPuro(conteudo))) return 'classificação incompatível com Política Nacional';
   if (/<h2[^>]*>\s*(Contexto|Desdobramentos?)\s*<\/h2>/i.test(conteudo)) return 'intertítulo genérico proibido';
+  // Barreira final: nenhum parágrafo pode ser chamada/propaganda/perfil de outro site.
+  const residuos = paragrafosResiduo(conteudo);
+  if (residuos.length) return `resíduo de outro site no texto: "${residuos[0].replace(/<[^>]+>/g, '').trim().slice(0, 80)}"`;
+  if (TRECHOS_RESIDUO.some((re) => { re.lastIndex = 0; return re.test(conteudo); })) return 'trecho promocional de outro site grudado em parágrafo';
   if (/Clique aqui e receba em primeira m[aã]o|Coluna Vitor Vogas pelo Whatsapp|mais de \d+ reportagens e an[aá]lises publicadas|um jornalismo profissional que fiscaliza|copiar link/i.test(textoPuro(conteudo) + ' ' + JSON.stringify(r.aeo || []))) return 'resíduo promocional da fonte detectado';
   if (/Leia também:|pic\.twitter\.com\/|Você tem \d+ acessos por dia|Assinantes podem liberar \d+ acessos por dia|Jornalista, pós-graduad[oa]|Jornalista formad[oa] pel[oa] C[aá]sper L[ií]bero|Informa[cç][oõ]es, an[aá]lises e recomenda[cç][oõ]es que valem dinheiro|Índices futuros dos EUA recuam, com destaque para Nasdaq|Graduad[oa] em jornalismo|Salvar meus dados neste navegador|Assista acima|receba no seu e-?mail as not[ií]cias|frequ[eê]ncia de envio\s*:?\s*di[aá]ri[oa]|a reportagem (?:enviou|procurou|tentou contato|aguarda retorno)\b|A reportagem de [^.!?]{0,100} tenta localizar (?:a |o )?defesa/i.test(textoPuro(conteudo))) return 'resíduo da fonte detectado';
   if (/formul[aá]rio de cadastro alertas gr[aá]tis do poder360|concordo com os termos da lgpd.{0,60}inscreva-se/i.test(textoPuro(conteudo) + ' ' + JSON.stringify(r.aeo || []))) return 'formulário promocional da fonte detectado';
