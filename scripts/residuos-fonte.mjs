@@ -60,7 +60,7 @@ export const PADROES_RESIDUO = [
 
 // Trechos que aparecem GRUDADOS em parágrafos de notícia: cortamos só o trecho.
 export const TRECHOS_RESIDUO = [
-  /\s*Formul[aá]rio de cadastro alertas gr[aá]tis do Poder360\s+concordo com os termos da LGPD\s*\.?\s*(?:Inscreva-se\s*)+/gi,
+  /\s*Formul[aá]rio de cadastro alertas gr[aá]tis do Poder360\s+concordo com os termos da LGPD\s*\.?\s*(?:Inscreva-se\s*)*/gi,
   /\s*Leia a linha do tempo do caso aqui\s*\.?/gi,
 ];
 

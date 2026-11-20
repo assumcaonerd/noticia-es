@@ -23,7 +23,35 @@ for (const arquivo of [...dados, ...paginas]) {
   const caminho = path.join(raiz, arquivo);
   const original = fs.readFileSync(caminho, "utf8");
   let n = 0;
-  let texto = original.replace(/<p\b[^>]*>((?:(?!<\/p>)[\s\S])*?)<\/p>/gi, (inteiro, dentro) => {
+  const anotar = (t) => { const k = t.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim(); removidos.set(k, (removidos.get(k) || 0) + 1); n++; };
+  let texto = original;
+  if (!js) {
+    // "Em resumo" nas páginas: tira o item inteiro se a resposta é resíduo ou se
+    // ficou sem resposta (efeito de uma limpeza anterior só do parágrafo).
+    texto = texto.replace(/<div class="aeo-item"><strong>([^<]*)<\/strong>(?:<p>((?:(?!<\/p>)[\s\S])*?)<\/p>)?<\/div>/gi, (inteiro, pergunta, resposta) => {
+      if (resposta !== undefined && !residuoDaFonte(resposta)) return inteiro;
+      anotar("[Em resumo, página] " + pergunta + " => " + (resposta || "(sem resposta)"));
+      return "";
+    });
+    // FAQ para o Google (JSON-LD): mesma regra.
+    texto = texto.replace(/(<script type="application\/ld\+json">)([\s\S]*?)(<\/script>)/gi, (inteiro, a, json, b) => {
+      let dado;
+      try { dado = JSON.parse(json); } catch { return inteiro; }
+      if (!dado || dado["@type"] !== "FAQPage" || !Array.isArray(dado.mainEntity)) return inteiro;
+      const antes = dado.mainEntity.length;
+      dado.mainEntity = dado.mainEntity.filter((q) => !residuoDaFonte((q && q.acceptedAnswer && q.acceptedAnswer.text) || ""));
+      if (dado.mainEntity.length === antes) return inteiro;
+      anotar(`[FAQ JSON-LD] ${antes - dado.mainEntity.length} pergunta(s)`);
+      return a + JSON.stringify(dado) + b;
+    });
+  }
+  // Intertítulo que é resíduo (ex.: "<h2>Informações, análises e recomendações que valem dinheiro</h2>").
+  texto = texto.replace(/<h2\b[^>]*>((?:(?!<\/h2>)[\s\S])*?)<\/h2>/gi, (inteiro, dentro) => {
+    if (!residuoDaFonte(ler(dentro, js))) return inteiro;
+    anotar("[intertítulo] " + ler(dentro, js));
+    return "";
+  });
+  texto = texto.replace(/<p\b[^>]*>((?:(?!<\/p>)[\s\S])*?)<\/p>/gi, (inteiro, dentro) => {
     if (!residuoDaFonte(ler(dentro, js))) return inteiro;
     n++;
     const chave = ler(dentro, js).replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
