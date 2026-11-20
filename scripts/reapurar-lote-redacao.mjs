@@ -247,7 +247,8 @@ function completarParagrafos(base) {
   const divididos = [];
   for (const t of saida) {
     if (t.length < 280) { divididos.push(t); continue; }
-    const frases = t.split(/(?<=[.!?])\s+/).filter(Boolean);
+    // Evita dividir frases após abreviações quando a palavra seguinte continua em minúscula (ex.: “Ltda. para”).
+    const frases = t.split(/(?<=[.!?])\s+(?=[A-ZÀ-Ú0-9“"‘])/u).filter(Boolean);
     let atual = '';
     for (const frase of frases) {
       const teste = (atual ? atual + ' ' : '') + frase;
