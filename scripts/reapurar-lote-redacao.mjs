@@ -397,6 +397,18 @@ async function reapurarUma(p) {
   try {
     html = await baixar(url);
     extraidos = extrairParagrafos(html);
+    // Descartar chamadas internas sobre IPO da Anthropic quando a pauta é Bitcoin.
+    // Preservar as declarações sobre a relação entre os mercados de IA e criptomoedas.
+    if (/\bbitcoin\b/i.test(String(p.titulo || ''))) {
+      extraidos = extraidos.filter((trecho) => {
+        const t = String(trecho).toLowerCase().replace(/^[\s“”"'«]+/, '');
+        return !(
+          t.startsWith('uma queda no valor das ações é normal após uma abertura de capital') ||
+          t.startsWith('ipo parece ter feito pouco para acalmar as preocupações sobre o setor de inteligência artificial') ||
+          t.startsWith('as ações da anthropic pbc apagaram grande parte da alta do primeiro dia')
+        );
+      });
+    }
   } catch (erro) {
     console.warn(`[reapurar] falha ao baixar ${p.id}: ${erro.message}`);
   }
