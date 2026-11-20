@@ -97,6 +97,8 @@ function classificarCategoria(titulo, url, fonte) {
   if (PADRAO_OPINIAO.test(titulo)) return 'Opinião';
   if (PADRAO_SEGURANCA.test(alvo)) return 'Segurança Pública';
   if (PADRAO_JUSTICA.test(alvo)) return 'Justiça';
+  // Matérias de mercados financeiros continuam em Economia mesmo citando IA.
+  if (/(?:a[cç][oõ]es de (?:mercados? )?emergentes|bear market|ibovespa|bolsas? de valores|mercados? financeiros?|c[aâ]mbio|selic)/i.test(titulo) && PADRAO_ECONOMIA.test(alvo)) return 'Economia';
   if (PADRAO_TECNOLOGIA.test(alvo)) return 'Tecnologia';
   if (PADRAO_ESPORTE.test(alvo)) return 'Esporte';
   if (PADRAO_FE.test(alvo)) return 'Fé';

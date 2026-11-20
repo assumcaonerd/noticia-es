@@ -53,7 +53,9 @@ function decodeHtml(texto = '') {
   const entidades = {
     amp: '&', quot: '"', apos: "'", lt: '<', gt: '>', nbsp: ' ',
     ccedil: 'ç', atilde: 'ã', aacute: 'á', eacute: 'é',
-    iacute: 'í', oacute: 'ó', uacute: 'ú', ecirc: 'ê', ocirc: 'ô'
+    iacute: 'í', oacute: 'ó', uacute: 'ú', ecirc: 'ê', ocirc: 'ô',
+    ordf: 'ª', ordm: 'º', acirc: 'â', otilde: 'õ', agrave: 'à',
+    ldquo: '“', rdquo: '”', lsquo: '‘', rsquo: '’', egrave: 'è', ugrave: 'ù'
   };
   let resultado = String(texto).replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1');
   // Duas passagens permitem tratar entidades duplamente codificadas, como &amp;quot;.

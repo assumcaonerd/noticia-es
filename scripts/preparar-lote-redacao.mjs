@@ -75,6 +75,9 @@ function classificarEditoria(pauta) {
 
   if (/\b(processo|conselho|pgr|stf|stj|mpf|mpe|ministerio publico|inquerito|relator|denuncia|prisao preventiva|habeas corpus|hc\b|decisao judicial|sentenca|liminar|tribunal|procurador geral)\b/.test(alvo)) return 'Justiça';
 
+  // Menções à IA não mudam para Tecnologia uma notícia econômica sobre bolsas.
+  if (/\b(acoes de emergentes|bear market|ibovespa|bolsa de valores|mercados emergentes|mercado financeiro|juros|selic)\b/.test(normalizar(titulo)) && /\b(acoes|mercado|mercados|bolsa|bolsas|ibovespa|investidores|juros|selic)\b/.test(alvo)) return 'Economia';
+
   if (/\b(chip|nvidia|inteligencia artificial|\bia\b|celular|aplicativo|app\b|foguete|ciencia|lua|satelite|semicondutor|software|chatgpt|llm|openai|smartphone|zoom optico)\b/.test(alvo)
       || /\/(ciencia|tecnologia|tech)(\/|$)/i.test(caminho)) return 'Tecnologia';
 
