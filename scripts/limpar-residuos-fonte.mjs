@@ -30,6 +30,23 @@ for (const arquivo of [...dados, ...paginas]) {
     removidos.set(chave, (removidos.get(chave) || 0) + 1);
     return "";
   });
+  // Bloco "Em resumo" (aeo): perguntas cuja resposta é resíduo saem do dado,
+  // senão a página volta a mostrá-las quando é regenerada.
+  if (js) {
+    texto = texto.replace(/^(\s*aeo:\s*)(\[.*\])(,?)(\s*)$/gm, (linha, ini, json, virgula, fim) => {
+      let itens;
+      try { itens = JSON.parse(json); } catch { return linha; }
+      if (!Array.isArray(itens)) return linha;
+      const limpos = itens.filter((x) => !residuoDaFonte((x && x.resposta) || ""));
+      if (limpos.length === itens.length) return linha;
+      for (const x of itens) if (!limpos.includes(x)) {
+        const chave = "[Em resumo] " + String(x.resposta).replace(/\s+/g, " ").trim();
+        removidos.set(chave, (removidos.get(chave) || 0) + 1);
+      }
+      n += itens.length - limpos.length;
+      return ini + JSON.stringify(limpos) + virgula + fim;
+    });
+  }
   const antesTrechos = texto;
   texto = cortarTrechos(texto);
   if (texto !== antesTrechos) resumo.trechos++;
