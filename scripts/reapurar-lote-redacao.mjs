@@ -146,6 +146,11 @@ function paragrafoSujo(texto = '') {
   if (/^principais informa[cç][oõ]es sobre pol[ií]tica, elei[cç][oõ]es, economia, internacional, sa[uú]de, tecnologia, esporte e cultura\b/i.test(t)) return true;
   if (/[—–-]\s*Foto:\s*[^<>]{1,180}$/i.test(t)) return true;
   if (/^Expressa as ideias do autor e defende sua interpreta[cç][aã]o dos fatos/i.test(t)) return true;
+  // Descartar legendas de fotos, créditos, notas de republicação e fichas de resumo da fonte.
+  if (/^(?:[•·]\s*)?[^<>]{0,160}\b(?:Getty Images|CNN Newsource)\b/i.test(t)) return true;
+  if (/^o presidente Donald Trump segura uma maquete do arco triunfal\b/i.test(t)) return true;
+  if (/^este texto foi publicado originalmente (?:pelo|pela)\b.{0,280}\b(?:adaptado|republica[cç][aã]o|padr[aã]o)\b/i.test(t)) return true;
+  if (/^projeto aprovado:\s*o PLP \d+\/\d{4}.{0,550}\bimpacto orçament[áa]rio\s*:/i.test(t)) return true;
   // Perfis de autores e chamadas internas não devem entrar no corpo nem nas respostas AEO.
   if (/^jornalista formad[oa] pel[oa] (?:universidade|faculdade).{0,240}\batua na cobertura\b/i.test(t)) return true;
   if (/^documento:\s.{20,260}\bdecis[aã]o:\s/i.test(t)) return true;
@@ -192,7 +197,7 @@ function extrairParagrafos(html = '') {
     ...artigo.matchAll(/<(?:div|span)\b[^>]*(?:class|itemprop)=["'][^"']*(?:paragraph|text|body)[^"']*["'][^>]*>([\s\S]*?)<\/(?:div|span)>/gi)
   ];
   for (const m of fontes) {
-    const t = limparHtml(m[1]);
+    const t = limparHtml(m[1]).replace(/\s*\(como venho repetindo\)/gi, '');
     if (t.length < 50) continue;
     if (paragrafoSujo(t)) continue;
     const chave = t.toLowerCase();
