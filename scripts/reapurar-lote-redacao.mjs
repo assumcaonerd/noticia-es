@@ -146,6 +146,9 @@ function paragrafoSujo(texto = '') {
   if (/^principais informa[cç][oõ]es sobre pol[ií]tica, elei[cç][oõ]es, economia, internacional, sa[uú]de, tecnologia, esporte e cultura\b/i.test(t)) return true;
   if (/[—–-]\s*Foto:\s*[^<>]{1,180}$/i.test(t)) return true;
   if (/^Expressa as ideias do autor e defende sua interpreta[cç][aã]o dos fatos/i.test(t)) return true;
+  // Descarta chamadas de outras matérias e assinatura de colunista no corpo.
+  if (/^entrevista\s*:\s*.+\bcaso master\s*:/i.test(t)) return true;
+  if (/^an[aá]lises de [^.,]{4,100}, editor de pol[ií]tica e brasil do globo$/i.test(t)) return true;
   return /clique aqui e receba em primeira m[aã]o|coluna vitor vogas pelo whatsapp|mais de \d+ reportagens e an[aá]lises publicadas|um jornalismo profissional que fiscaliza|um time com mais de \d+ colunistas|copiar link|cookie|newsletter|assine|publicidade|coment[aá]rio|leia também|j[aá] leu todas as notas e reportagens da coluna hoje|acesse a coluna do metr[oó]poles|leia mais(?:\s*:|\s*$)|pic\.twitter\.com|https?:\/\/(?:t\.co|twitter\.com|x\.com)\/|^fonte:\s*|confira mais conte[uú]dos sobre an[aá]lise t[eé]cnica no im trader|você tem \d+ acessos por dia|assinantes podem liberar(?: \d+)? acessos por dia|jornalista(?:,)?\s+pós-graduad[oa]|jornalista formad[oa] pel[oa] c[aá]sper l[ií]bero|^jornalista formad[oa] pel[oa] (?:universidade|faculdade).{0,220}\b(?:atuou|[eé] rep[oó]rter)\b|^formul[aá]rio de cadastro alertas gr[aá]tis do poder360|concordo com os termos da lgpd.{0,60}inscreva-se|^ap[oó]s o maior sell-off da hist[oó]ria recente do mercado brasileiro|informa[cç][oõ]es, an[aá]lises e recomenda[cç][oõ]es que valem dinheiro|^índices futuros dos eua recuam, com destaque para nasdaq|graduad[oa] em jornalismo|formad[oa] em jornalismo|formou-se em jornalismo|iniciou a carreira no portal|p[oó]s-graduanda em literatura|um post compartilhado por|^juros mais altos e incertezas fiscais refor[cç]am busca por bancos mais defensivos|^mais uma rodada de resultados decepcionantes acelerou a migra[cç][aã]o de investidores|^receios de que uma alta nos pre[cç]os possa espremer a demanda|editor-assistente|colunista da|\bblogs\b|seu endereço de e-mail não será publicado|salvar meus dados neste navegador|assista acima|receba no seu e-?mail as not[ií]cias|frequ[eê]ncia de envio\s*:?\s*di[aá]ri[oa]|a reportagem (?:enviou|procurou|tentou contato|aguarda retorno)\b|a reportagem de [^.!?]{0,100} tenta localizar (?:a |o )?defesa|receba not[ií]cias de [^.!?]{0,80}no seu whatsapp|fique por dentro do que acontece em s[aã]o paulo|fa[cç]a uma den[uú]ncia ou sugira uma reportagem|quer ficar por dentro de tudo que rola no mundo dos esportes/i.test(t);
 }
 
@@ -293,7 +296,7 @@ function intertituloDoParagrafo(texto = '', categoria = '', etapa = 0) {
   let titulos;
   if (/pesquisa|levantamento|sondagem|percentual|índice|indice/.test(t)) {
     titulos = ['Os números do levantamento', 'Como interpretar os resultados'];
-  } else if (/justiça|judici|tribunal|stf|stj|tse|juiz|recurso|processo/.test(c + ' ' + t)) {
+  } else if (/justiça|judici/.test(c) || /tribunal|stf|stj|tse|ju[ií]z|despacho judicial|decis[aã]o judicial|processo (?:judicial|criminal|eleitoral)|recurso (?:judicial|ao tribunal|ao stf|ao stj|ao tse)/.test(t)) {
     titulos = ['O contexto da decisão judicial', 'Detalhes e consequências do caso'];
   } else if (/segurança|seguranca|polícia|policia|crime|prisão|prisao/.test(c)) {
     titulos = ['As principais informações do caso', 'Contexto e andamento da apuração'];
