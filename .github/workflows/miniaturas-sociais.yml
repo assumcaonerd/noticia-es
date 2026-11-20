@@ -17,7 +17,8 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: gerador-miniaturas
+  # Mesma fila de gerar-paginas-og.yml: as rotinas que regeneram m/ nunca rodam juntas.
+  group: noticia-es-paginas
   cancel-in-progress: false
 jobs:
   publicar:

@@ -73,7 +73,7 @@
   }
 
   function linkMateria(noticia) {
-    return noticia.urlCanonica || `noticia.html?slug=${encodeURIComponent(noticia.slug)}`;
+    return noticia.urlCanonica || `/m/${encodeURIComponent(noticia.slug)}.html`;
   }
 
   function slugCategoria(categoria) {

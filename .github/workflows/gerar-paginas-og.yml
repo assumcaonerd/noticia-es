@@ -29,8 +29,10 @@ permissions:
   contents: write
 
 concurrency:
-  group: gerar-og-noticia-es
-  cancel-in-progress: true
+  # Mesma fila das outras rotinas que regeneram m/, sitemap e RSS
+  # (ai-discovery-infra.yml e miniaturas-sociais.yml): nunca rodam juntas.
+  group: noticia-es-paginas
+  cancel-in-progress: false
 
 jobs:
   gerar:
@@ -169,20 +171,37 @@ jobs:
             exit 0
           fi
           git commit -m "seo: hospeda capas OG, conserta noticias.js e atualiza páginas"
-          # Outras rotinas publicam na main ao mesmo tempo. Rebase e retry
-          # resolvem a corrida sem sobrescrever o trabalho de outros jobs.
+          # Outras rotinas publicam na main ao mesmo tempo. Sem conflito, o rebase
+          # simples basta. Com conflito, NÃO impomos a versão desta execução
+          # (o antigo "-X theirs" sobrescrevia correções feitas por outras rotinas):
+          # descartamos o commit local e regeneramos tudo a partir da main atual.
           for tentativa in 1 2 3 4 5; do
-            git pull --rebase -X theirs origin main
-            if git push origin main; then
+            if git pull --rebase origin main && git push origin main; then
               echo "Páginas OG publicadas na tentativa $tentativa."
               exit 0
             fi
+            git rebase --abort 2>/dev/null || true
             if [ "$tentativa" -eq 5 ]; then
               echo "::error::Não foi possível publicar após cinco tentativas."
               exit 1
             fi
-            echo "::warning::A branch main mudou durante a publicação; tentativa $tentativa de 5. Repetindo."
+            echo "::warning::A branch main mudou durante a publicação; regenerando a partir dela (tentativa $tentativa de 5)."
             sleep "$((tentativa * 2))"
+            git fetch origin main
+            git reset --hard origin/main
+            node scripts/consertar-cabecalho-noticias.mjs
+            node scripts/garantir-padrao-publicacao.mjs
+            node scripts/gerar-paginas-og.mjs
+            node scripts/normalizar-paginas-estaticas.mjs
+            node scripts/validar-cards-sociais.mjs
+            node scripts/gerar-sitemap.mjs
+            node scripts/gerar-rss-llms.mjs
+            git add m imagens/lapis sitemap.xml sitemap-news.xml rss.xml llms.txt assets/og editorial-37.js editorial-39.js editorial-41.js editorial-42.js scripts/validar-cards-sociais.mjs noticias.js
+            if git diff --cached --quiet; then
+              echo "Nada novo a publicar depois de sincronizar com a main."
+              exit 0
+            fi
+            git commit -m "seo: hospeda capas OG, conserta noticias.js e atualiza páginas"
           done
 
 # trigger-capas-lapis-6

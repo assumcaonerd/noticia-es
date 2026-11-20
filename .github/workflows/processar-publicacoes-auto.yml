@@ -5,6 +5,11 @@ on:
     branches: [main]
     paths:
       - 'publicacoes-pendentes/*.json'
+  # Os recibos são gravados pelo próprio publicador com o GITHUB_TOKEN, e esse
+  # push NÃO dispara workflows. Por isso registramos ao fim de cada rodada.
+  workflow_run:
+    workflows: ['Preparar lote da redação automática']
+    types: [completed]
   workflow_dispatch:
 
 permissions:

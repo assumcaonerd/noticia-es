@@ -3,6 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+  // Leva links antigos (noticia.html?slug=...) para a página estática da matéria,
+  // que tem título, imagem e canonical próprios para compartilhamento e busca.
+  // Se a página ainda não existir (404), continua aqui; a 404.html manda para cá.
+  (function(){var q=new URLSearchParams(location.search),s=q.get('slug');if(!s)return;var u='/m/'+encodeURIComponent(s)+'.html';fetch(u,{method:'HEAD',cache:'no-store'}).then(function(r){if(r.ok)location.replace(u+location.hash)}).catch(function(){})})();
+  </script>
   <script src="/analytics.js"></script>
   <script src="editorial-42.js?v=2"></script><script src="editorial-41.js?v=2"></script>
   <title>Notícia | Notícia ES</title>

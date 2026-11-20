@@ -17,6 +17,7 @@ if (!arquivos.length) {
 
 const banco = JSON.parse(fs.readFileSync(pautasPath, 'utf8'));
 let alteradas = 0;
+let descartados = 0;
 
 for (const nome of arquivos) {
   const arquivo = path.join(recibosDir, nome);
@@ -24,7 +25,11 @@ for (const nome of arquivos) {
   const pauta = banco.pautas?.find((p) => p.id === recibo.pautaId);
 
   if (!pauta) {
-    console.warn(`Pauta não encontrada para recibo ${nome}: ${recibo.pautaId}`);
+    // A pauta já saiu da fila (pautas.json é podado). Não há o que registrar,
+    // e manter o recibo só faz a pasta crescer para sempre.
+    console.warn(`Pauta não encontrada para recibo ${nome}: ${recibo.pautaId}; recibo descartado.`);
+    fs.unlinkSync(arquivo);
+    descartados += 1;
     continue;
   }
 
@@ -42,3 +47,4 @@ if (alteradas) {
 } else {
   console.log('Nenhuma pauta foi alterada.');
 }
+if (descartados) console.log(`${descartados} recibo(s) sem pauta descartado(s).`);

@@ -61,9 +61,9 @@ const noticiasAutoRedacao20261004004856 = [
   }
 ];
 
-noticiasAutoRedacao20261004003729[0].conteudo += "<p>Eduardo Santos substituiu Alix no Bragantino, enquanto Léo Duarte entrou no lugar de Victor Hugo pelo Atlético-MG após a avaliação médica.</p>";
+noticiasAutoRedacao20261004004856[0].conteudo += "<p>Eduardo Santos substituiu Alix no Bragantino, enquanto Léo Duarte entrou no lugar de Victor Hugo pelo Atlético-MG após a avaliação médica.</p>";
 
 if (typeof window !== "undefined") {
   window.noticiasAuto = window.noticiasAuto || [];
-  window.noticiasAuto.push(...noticiasAutoRedacao20261004003729);
+  window.noticiasAuto.push(...noticiasAutoRedacao20261004004856);
 }

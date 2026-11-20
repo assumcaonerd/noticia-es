@@ -29,8 +29,9 @@ permissions:
   contents: write
 
 concurrency:
-  group: ai-discovery-noticia-es
-  cancel-in-progress: true
+  # Mesma fila de gerar-paginas-og.yml: as rotinas que regeneram m/ nunca rodam juntas.
+  group: noticia-es-paginas
+  cancel-in-progress: false
 
 jobs:
   discovery:
