@@ -60,8 +60,26 @@ function limparTituloFonte(titulo = '') {
     .trim();
 }
 
+function categoriaEvidente(titulo) {
+  const t = normalizar(titulo);
+  if (/^(opiniao|editorial|artigo|coluna)\b/.test(t)) return null;
+  if (/\b(?:bayern|campeonato alemao|formula 1|f1|tenis|billie jean king cup)\b/.test(t)) return 'Esporte';
+  if (/\b(?:mortos? a tiros|homicidios?)\b/.test(t)) return 'Segurança Pública';
+  if (/\b(?:carnaval|sambas? enredo|masterchef|jornalista do fantastico)\b/.test(t)) return 'Cultura';
+  if (/\b(?:tempestade|temporal|granizo|supercelula)\b/.test(t)) return 'Cidades';
+  if (/\brestaurante comunitario\b/.test(t)) return 'Cidades';
+  if (/\b(?:indice de adrs|adrs brasileiros)\b/.test(t)) return 'Economia';
+  if (/\bgta 6\b/.test(t) && /\b(?:vendas|bilhoes|faturamento)\b/.test(t)) return 'Economia';
+  if (/\b(?:van hattem|vorcaro)\b/.test(t) && /\b(?:dino|fachin|zanin|reu|prisao|julgamento|voto)\b/.test(t)) return 'Justiça';
+  if (/\btornar\b.{0,50}\breu\b/.test(t)) return 'Justiça';
+  if (/\bbolsonaro\b/.test(t) && /\b(?:estavel|medico|hospital|internado|internada|previsao de alta)\b/.test(t)) return 'Política Nacional';
+  return null;
+}
+
 function classificarEditoria(pauta) {
   const titulo = limparTituloFonte(pauta?.titulo || '');
+  const evidente = categoriaEvidente(titulo);
+  if (evidente) return evidente;
   const resumo = String(pauta?.resumoFonte || '');
   const url = String(pauta?.urlFonte || '');
   let caminho = '';

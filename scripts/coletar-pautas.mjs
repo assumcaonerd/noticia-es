@@ -11,16 +11,16 @@ const MAX_POR_FONTE = 6;
 const MAX_PAUTAS_PENDENTES = 80;
 const USER_AGENT = 'NoticiaESBot/2.5 (+https://noticiaes.com.br)';
 
-const PADRAO_POLITICA = /(elei[cç]|governo|governador|prefeit|prefeito|senado|senador|c[âa]mara|deputad|assembleia|ales|congresso|presid|stf|tse|ministro|partido|pol[ií]tica|mandato|candidato|vota[cç]|pec|projeto de lei|constitui[cç]|lula|bolsonaro)/i;
-const PADRAO_SEGURANCA = /(pol[ií]cia|pm\b|pmes|pc\b|pces|sesp|bombeir|pris[ãa]o|preso|crime|homic[ií]dio|assassin|tr[áa]fico|drogas|opera[cç][ãa]o policial|roubo|furto|tiroteio|seguran[cç]a p[ú]blica|delegacia|foragid|mandado|socioeducativ|prisional)/i;
+const PADRAO_POLITICA = /(elei[cç]|governo|governador|prefeit|prefeito|senado|senador|c[âa]mara|deputad|assembleia|ales|congresso|presid|stf|tse|ministro|partido|pol[ií]tica|mandato|candidato|vota[cç]|\bpec\b|projeto de lei|constitui[cç]|(?<![A-Za-zÀ-ÿ])lula(?![A-Za-zÀ-ÿ])|bolsonaro)/i;
+const PADRAO_SEGURANCA = /(pol[ií]cia|pm\b|pmes|pc\b|pces|sesp|bombeir|pris[ãa]o|\bpresos?\b|crime|homic[ií]dio|assassin|tr[áa]fico|drogas|opera[cç][ãa]o policial|roubo|furto|tiroteio|seguran[cç]a p[ú]blica|delegacia|foragid|mandado|socioeducativ|prisional)/i;
 const FILTRO_NACIONAL = /(elei[cç]|senado|c[âa]mara|congresso|governo|presid|stf|tse|seguran[cç]a|pec|projeto|comiss[ãa]o|vota[cç]|pol[ií]tica|partido|constitui[cç]|medida provis[óo]ria|mp\b|lula|bolsonaro|ministro|deputad|brasil|brazil)/i;
-const PADRAO_JUSTICA = /(stf|stj|tj-?es|tribunal|justi[cç]a|juiz|ju[ií]za|desembarg|minist[eé]rio p[uú]blico|mpf|mpe|pgr|procurador|decis[aã]o judicial|senten[cç]a|liminar|a[cç][aã]o judicial)/i;
-const PADRAO_ECONOMIA = /(economia|mercado|banco|juros|selic|infla[cç][ãa]o|pib|emprego(?![\s-]+operacional)|desemprego|investimento|empresa|neg[oó]cio|d[oó]lar|real|bolsa|ibovespa|finan[cç]|imposto|receita federal)/i;
+const PADRAO_JUSTICA = /(stf|stj|tj-?es|tribunal|justi[cç]a|juiz|ju[ií]za|desembarg|minist[eé]rio p[uú]blico|\b(?:mpf|mpe|pgr)\b|procurador|decis[aã]o judicial|senten[cç]a|liminar|a[cç][aã]o judicial)/i;
+const PADRAO_ECONOMIA = /(economia|mercado|banco|juros|selic|infla[cç][ãa]o|pib|emprego(?![\s-]+operacional)|desemprego|investimento|empresa|neg[oó]cio|d[oó]lar|\breal\b|bolsa|ibovespa|finan[cç]|imposto|receita federal)/i;
 const PADRAO_TECNOLOGIA = /(tecnologia|intelig[ê]ncia artificial|\bia\b|software|aplicativo|app\b|startup|rob[oô]|chatgpt|llm|openai|google|microsoft|apple|nvidia|chip|semicondutor|celular|internet|ciber)/i;
 const PADRAO_ESPORTE = /(futebol|brasileir[aã]o|campeonato|copa|jogo|partida|gol\b|time\b|clube|atleta|esporte|vit[oó]ria-?es|rio branco|desportiva|estrela do norte)/i;
 const PADRAO_CULTURA = /(cultura|cinema|filme|m[uú]sica|cantor|cantora|show|teatro|livro|literatura|festival|exposi[cç][ãa]o|arte\b)/i;
 const PADRAO_FE = /(igreja|evang[eé]lic|crist[aã]o|pastor|pastora|culto|b[ií]blia|(?<![A-Za-zÀ-ÿ0-9])f[eé](?![A-Za-zÀ-ÿ0-9])|relig|maranata|presbiter|batista|assembleia de deus|ieclb)/i;
-const PADRAO_CIDADES = /(vit[oó]ria|vila velha|serra|cariacica|guarapari|linhares|colatina|cachoeiro|santa teresa|domingos martins|esp[ií]rito santo|\bes\b)/i;
+const PADRAO_CIDADES = /(vit[oó]ria|vila velha|serra|cariacica|guarapari|linhares|colatina|cachoeiro|santa teresa|domingos martins|esp[ií]rito santo|(?<![A-Za-zÀ-ÿ])es(?![A-Za-zÀ-ÿ]))/i;
 const PADRAO_OPINIAO = /^(opini[ãa]o|editorial|artigo|coluna)\b|\b(colunista|artigo de opini[ãa]o)\b/i;
 
 const fontesHtmlBase = [
@@ -92,7 +92,25 @@ function resumir(texto = '', limite = 350) {
   const i = corte.lastIndexOf(' ');
   return `${corte.slice(0, i > limite * 0.7 ? i : limite).trim()}…`;
 }
+function categoriaEvidente(titulo) {
+  const t = normalizar(titulo);
+  if (/^(opiniao|editorial|artigo|coluna)\b/.test(t)) return null;
+  if (/\b(?:bayern|campeonato alemao|formula 1|f1|tenis|billie jean king cup)\b/.test(t)) return 'Esporte';
+  if (/\b(?:mortos? a tiros|homicidios?)\b/.test(t)) return 'Segurança Pública';
+  if (/\b(?:carnaval|sambas? enredo|masterchef|jornalista do fantastico)\b/.test(t)) return 'Cultura';
+  if (/\b(?:tempestade|temporal|granizo|supercelula)\b/.test(t)) return 'Cidades';
+  if (/\brestaurante comunitario\b/.test(t)) return 'Cidades';
+  if (/\b(?:indice de adrs|adrs brasileiros)\b/.test(t)) return 'Economia';
+  if (/\bgta 6\b/.test(t) && /\b(?:vendas|bilhoes|faturamento)\b/.test(t)) return 'Economia';
+  if (/\b(?:van hattem|vorcaro)\b/.test(t) && /\b(?:dino|fachin|zanin|reu|prisao|julgamento|voto)\b/.test(t)) return 'Justiça';
+  if (/\btornar\b.{0,50}\breu\b/.test(t)) return 'Justiça';
+  if (/\bbolsonaro\b/.test(t) && /\b(?:estavel|medico|hospital|internado|internada|previsao de alta)\b/.test(t)) return 'Política Nacional';
+  return null;
+}
+
 function classificarCategoria(titulo, url, fonte) {
+  const evidente = categoriaEvidente(titulo);
+  if (evidente) return evidente;
   const alvo = `${titulo} ${url}`;
   if (PADRAO_OPINIAO.test(titulo)) return 'Opinião';
   if (PADRAO_SEGURANCA.test(alvo)) return 'Segurança Pública';
