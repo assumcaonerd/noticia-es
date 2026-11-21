@@ -33,6 +33,13 @@ const twitter = [
 ];
 
 function idDaUrl(url) { return crypto.createHash('sha256').update(url).digest('hex').slice(0, 16); }
+function classificarMidiaLocal(titulo, categoria) {
+  if (categoria !== 'Política ES') return categoria;
+  const t = String(titulo || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  if (/\b(?:tenis|billie jean king cup|roland garros|futebol|campeonato)\b/.test(t)) return 'Esporte';
+  if (/\bcat cafe\b/.test(t)) return 'Cidades';
+  return categoria;
+}
 function decodeHtml(t = '') {
   return String(t).replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
     .replace(/&/g, '&').replace(/"/g, '"').replace(/&#39;|'/g, "'")
@@ -89,7 +96,7 @@ function parseFeed(xml, fonte) {
       resumoFonte: limpar(desc).slice(0, 350),
       data,
       fonteNome: fonte.nome,
-      categoria: fonte.categoria
+      categoria: classificarMidiaLocal(titulo, fonte.categoria)
     });
   }
   return itens;

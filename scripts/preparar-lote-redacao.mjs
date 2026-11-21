@@ -63,6 +63,11 @@ function limparTituloFonte(titulo = '') {
 function categoriaEvidente(titulo) {
   const t = normalizar(titulo);
   if (/^(opiniao|editorial|artigo|coluna)\b/.test(t)) return null;
+  // Evita herdar Política de fontes genéricas quando o tema é claramente outro.
+  if (/\b(?:fisiculturista|bodybuilder)\b/.test(t)) return 'Esporte';
+  if (/\b(?:terremoto|microexplosao|tornado)\b/.test(t)) return 'Cidades';
+  if (/\bcat cafe\b/.test(t)) return 'Cidades';
+  if (/\bmedic[ao]\b/.test(t) && /\bencontrad[ao]\b/.test(t) && /\bmort[ao]\b/.test(t)) return 'Cidades';
   if (/\b(?:bayern|campeonato alemao|formula 1|f1|tenis|billie jean king cup)\b/.test(t)) return 'Esporte';
   if (/\b(?:mortos? a tiros|homicidios?)\b/.test(t)) return 'Segurança Pública';
   if (/\b(?:carnaval|sambas? enredo|masterchef|jornalista do fantastico)\b/.test(t)) return 'Cultura';

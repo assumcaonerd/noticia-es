@@ -89,6 +89,12 @@ function resumir(texto = '', limite = 350) {
 }
 
 function classificar(titulo, url, padrao) {
+  const t = String(titulo || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  // Evita herdar Política de fontes genéricas quando o tema é claramente outro.
+  if (/\b(?:fisiculturista|bodybuilder)\b/.test(t)) return 'Esporte';
+  if (/\b(?:terremoto|microexplosao|tornado)\b/.test(t)) return 'Cidades';
+  if (/\bcat cafe\b/.test(t)) return 'Cidades';
+  if (/\bmedic[ao]\b/.test(t) && /\bencontrad[ao]\b/.test(t) && /\bmort[ao]\b/.test(t)) return 'Cidades';
   const alvo = `${titulo} ${url}`;
   if (PADRAO_SEGURANCA.test(alvo)) return 'Segurança Pública';
   if (PADRAO_POLITICA.test(alvo)) return 'Política Nacional';
