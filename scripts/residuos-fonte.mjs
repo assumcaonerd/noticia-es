@@ -55,7 +55,8 @@ export const PADROES_RESIDUO = [
   // dariam a entender que o portal procurou essas pessoas. Só parágrafos que
   // são apenas o aviso; frases com conteúdo ("A este jornal digital, X disse…")
   // ficam para revisão editorial.
-  /^(?:O Poder360 (?:procurou|tamb[eé]m contatou)|Este jornal digital seguir[aá]|N[aã]o houve resposta at[eé] a publica[cç][aã]o|O texto ser[aá] atualizado caso)\b/i,
+  // (Sem \b no fim: em JavaScript \b não trata "á" como letra, e "seguirá" nunca casava.)
+  /^(?:O Poder360 (?:procurou|tamb[eé]m contatou)|Este jornal digital seguir[aá]|N[aã]o houve resposta at[eé] a publica[cç][aã]o|O texto ser[aá] atualizado caso)(?=[\s,.;:]|$)/i,
 ];
 
 // Trechos que aparecem GRUDADOS em parágrafos de notícia: cortamos só o trecho.
