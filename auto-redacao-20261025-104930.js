@@ -66,7 +66,7 @@ const noticiasAutoRedacao20261025104930 = [
     id: 26102510493004,
     pautaId: "d2528cbff31741cd",
     slug: "trump-diz-que-ficou-com-groenlandia-e-venezuela-quot-de-graca-quot",
-    titulo: "Trump diz que ficou com Groenlândia e Venezuela &quot;de graça&quot;",
+    titulo: "Trump diz que ficou com Groenlândia e Venezuela \"de graça\"",
     categoria: "Economia",
     data: "2026-10-25",
     imagem: "https://noticiaes.com.br/imagens/lapis/trump-diz-que-ficou-com-groenlandia-e-venezuela-quot-de-graca-quot.jpg",

@@ -3,7 +3,7 @@ const noticiasAutoRedacao20261028182429 = [
     id: 26102818242901,
     pautaId: "7ada35b7c0b105df",
     slug: "flavio-bolsonaro-alega-que-nao-fugiu-do-brasil-quot-sai-do-regime-de-excecao-quot",
-    titulo: "Flávio Bolsonaro alega que não fugiu do Brasil: &quot;Saí do regime de exceção&quot;",
+    titulo: "Flávio Bolsonaro alega que não fugiu do Brasil: \"Saí do regime de exceção\"",
     categoria: "Justiça",
     data: "2026-10-28",
     imagem: "https://noticiaes.com.br/imagens/lapis/flavio-bolsonaro-alega-que-nao-fugiu-do-brasil-quot-sai-do-regime-de-excecao-quot.jpg",

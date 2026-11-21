@@ -171,7 +171,7 @@ const noticiasAutoRedacao20261014064953 = [
     id: 26101406495309,
     pautaId: "841e26c265da0524",
     slug: "o-quot-paradoxo-quot-da-bolsa-por-que-e-quais-acoes-estao-mais-baratas-mesmo-apos-disparad",
-    titulo: "O &quot;paradoxo&quot; da Bolsa: por que e quais ações estão mais baratas mesmo após disparada?",
+    titulo: "O \"paradoxo\" da Bolsa: por que e quais ações estão mais baratas mesmo após disparada?",
     categoria: "Tecnologia",
     data: "2026-10-14",
     imagem: "https://noticiaes.com.br/imagens/lapis/o-quot-paradoxo-quot-da-bolsa-por-que-e-quais-acoes-estao-mais-baratas-mesmo-apos-disparad.jpg",

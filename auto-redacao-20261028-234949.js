@@ -66,7 +66,7 @@ const noticiasAutoRedacao20261028234949 = [
     id: 26102823494904,
     pautaId: "56b629c832c795b2",
     slug: "nos-eua-ramagem-diz-que-flavio-sera-voz-do-brasil-por-quot-liberdade-quot",
-    titulo: "Nos EUA, Ramagem diz que Flávio será voz do Brasil por &quot;liberdade&quot;",
+    titulo: "Nos EUA, Ramagem diz que Flávio será voz do Brasil por \"liberdade\"",
     categoria: "Justiça",
     data: "2026-10-28",
     imagem: "https://noticiaes.com.br/imagens/lapis/nos-eua-ramagem-diz-que-flavio-sera-voz-do-brasil-por-quot-liberdade-quot.jpg",

@@ -87,7 +87,7 @@ const noticiasAutoRedacao20261024104915 = [
     id: 26102410491505,
     pautaId: "f81c45ca1b28b84b",
     slug: "mp-eleitoral-defende-extincao-de-processo-sobre-quot-desafio-dos-sigilos-quot",
-    titulo: "MP Eleitoral defende extinção de processo sobre &quot;Desafio dos sigilos&quot;",
+    titulo: "MP Eleitoral defende extinção de processo sobre \"Desafio dos sigilos\"",
     categoria: "Justiça",
     data: "2026-10-24",
     imagem: "https://noticiaes.com.br/imagens/lapis/mp-eleitoral-defende-extincao-de-processo-sobre-quot-desafio-dos-sigilos-quot.jpg",

@@ -3,7 +3,7 @@ const noticiasAutoRedacao20261027094927 = [
     id: 26102709492701,
     pautaId: "90500814552cf92f",
     slug: "adriane-galisteu-opina-sobre-quot-a-fazenda-18-quot-quot-o-brasileiro-esta-chato-quot",
-    titulo: "Adriane Galisteu opina sobre &quot;A Fazenda 18&quot;: &quot;O brasileiro está chato&quot;",
+    titulo: "Adriane Galisteu opina sobre \"A Fazenda 18\": \"O brasileiro está chato\"",
     categoria: "Cultura",
     data: "2026-10-27",
     imagem: "https://noticiaes.com.br/imagens/lapis/adriane-galisteu-opina-sobre-quot-a-fazenda-18-quot-quot-o-brasileiro-esta-chato-quot.jpg",

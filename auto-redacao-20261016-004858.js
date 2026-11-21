@@ -66,7 +66,7 @@ const noticiasAutoRedacao20261016004858 = [
     id: 26101600485804,
     pautaId: "3b5b8a54bd82f4d2",
     slug: "lula-liga-flavio-a-canella-preso-pela-pf-durante-sabatina-na-quot-globo-quot",
-    titulo: "Lula liga Flávio a Canella, preso pela PF, durante sabatina na &quot;Globo&quot;",
+    titulo: "Lula liga Flávio a Canella, preso pela PF, durante sabatina na \"Globo\"",
     categoria: "Política Nacional",
     data: "2026-10-15",
     imagem: "https://noticiaes.com.br/imagens/lapis/lula-liga-flavio-a-canella-preso-pela-pf-durante-sabatina-na-quot-globo-quot.jpg",

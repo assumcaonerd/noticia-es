@@ -3,7 +3,7 @@ const noticiasAutoRedacao20261019034925 = [
     id: 26101903492501,
     pautaId: "89c8e1ff0abc045b",
     slug: "prints-revelam-intimidade-de-delegada-e-chefe-do-pcc-quot-macho-diferenciado-quot",
-    titulo: "Prints revelam intimidade de delegada e chefe do PCC: &quot;Macho, diferenciado&quot;",
+    titulo: "Prints revelam intimidade de delegada e chefe do PCC: \"Macho, diferenciado\"",
     categoria: "Tecnologia",
     data: "2026-10-19",
     imagem: "https://noticiaes.com.br/imagens/lapis/prints-revelam-intimidade-de-delegada-e-chefe-do-pcc-quot-macho-diferenciado-quot.jpg",

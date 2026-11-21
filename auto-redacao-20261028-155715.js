@@ -108,7 +108,7 @@ const noticiasAutoRedacao20261028155715 = [
     id: 26102815571506,
     pautaId: "ad6c8a336e159822",
     slug: "juros-e-politica-fiscal-desafiam-planos-de-longo-prazo-diz-diretor-da-s-amp-p",
-    titulo: "Juros e política fiscal desafiam planos de longo prazo, diz diretor da S&amp;P",
+    titulo: "Juros e política fiscal desafiam planos de longo prazo, diz diretor da S&P",
     categoria: "Economia",
     data: "2026-10-28",
     imagem: "https://noticiaes.com.br/imagens/lapis/juros-e-politica-fiscal-desafiam-planos-de-longo-prazo-diz-diretor-da-s-amp-p.jpg",

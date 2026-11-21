@@ -87,7 +87,7 @@ const noticiasAutoRedacao20261024184929 = [
     id: 26102418492905,
     pautaId: "b47568da7be2db0f",
     slug: "mp-eleitoral-se-manifesta-contra-bloqueio-do-canal-quot-exercito-do-lula-quot",
-    titulo: "MP Eleitoral se manifesta contra bloqueio do canal &quot;Exército do Lula&quot;",
+    titulo: "MP Eleitoral se manifesta contra bloqueio do canal \"Exército do Lula\"",
     categoria: "Justiça",
     data: "2026-10-24",
     imagem: "https://noticiaes.com.br/imagens/lapis/mp-eleitoral-se-manifesta-contra-bloqueio-do-canal-quot-exercito-do-lula-quot.jpg",

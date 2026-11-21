@@ -24,7 +24,7 @@ const noticiasAutoRedacao20261013204929 = [
     id: 26101320492902,
     pautaId: "0abff27a7b56f5bb",
     slug: "pf-prende-quot-elon-quot-traficante-apontado-como-dono-de-carga-de-20kg-de-cocaina",
-    titulo: "PF prende &quot;Elon&quot;, traficante apontado como dono de carga de 20kg de cocaína",
+    titulo: "PF prende \"Elon\", traficante apontado como dono de carga de 20kg de cocaína",
     categoria: "Justiça",
     data: "2026-10-13",
     imagem: "https://noticiaes.com.br/imagens/lapis/pf-prende-quot-elon-quot-traficante-apontado-como-dono-de-carga-de-20kg-de-cocaina.jpg",

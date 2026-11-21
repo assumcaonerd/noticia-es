@@ -45,7 +45,7 @@ const noticiasAutoRedacao20261016064848 = [
     id: 26101606484803,
     pautaId: "16918b27e803c9ca",
     slug: "mirassol-e-inter-fazem-duelo-de-quot-seis-pontos-quot-contra-z4-do-brasileirao",
-    titulo: "Mirassol e Inter fazem duelo de &quot;seis pontos&quot; contra Z4 do Brasileirão",
+    titulo: "Mirassol e Inter fazem duelo de \"seis pontos\" contra Z4 do Brasileirão",
     categoria: "Esporte",
     data: "2026-10-16",
     imagem: "https://noticiaes.com.br/imagens/lapis/mirassol-e-inter-fazem-duelo-de-quot-seis-pontos-quot-contra-z4-do-brasileirao.jpg",

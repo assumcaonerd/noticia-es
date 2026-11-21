@@ -3,7 +3,7 @@ const noticiasAutoRedacao20261026175354 = [
     id: 26102617535401,
     pautaId: "31dd865b876c49a2",
     slug: "cury-cumprimenta-lula-apos-vitoria-do-petista-quot-que-governe-para-todos-quot",
-    titulo: "Cury cumprimenta Lula após vitória do petista: &quot;Que governe para todos&quot;",
+    titulo: "Cury cumprimenta Lula após vitória do petista: \"Que governe para todos\"",
     categoria: "Política ES",
     data: "2026-10-26",
     imagem: "https://noticiaes.com.br/imagens/lapis/cury-cumprimenta-lula-apos-vitoria-do-petista-quot-que-governe-para-todos-quot.jpg",

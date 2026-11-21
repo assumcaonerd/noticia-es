@@ -87,7 +87,7 @@ const noticiasAutoRedacao20261026035024 = [
     id: 26102603502405,
     pautaId: "638978f791d8fd8a",
     slug: "quot-vou-conversar-com-voces-pelo-canal-do-janones-quot-diz-lula",
-    titulo: "&quot;Vou conversar com vocês pelo canal do Janones&quot;, diz Lula",
+    titulo: "\"Vou conversar com vocês pelo canal do Janones\", diz Lula",
     categoria: "Cidades",
     data: "2026-10-26",
     imagem: "https://noticiaes.com.br/imagens/lapis/quot-vou-conversar-com-voces-pelo-canal-do-janones-quot-diz-lula.jpg",

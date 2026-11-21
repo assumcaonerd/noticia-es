@@ -3,7 +3,7 @@ const noticiasAutoRedacao20261026084952 = [
     id: 26102608495201,
     pautaId: "f8ac02444dd81fda",
     slug: "psdb-parabeniza-lula-por-vitoria-e-diz-que-quot-seguira-na-oposicao-quot-ao-governo",
-    titulo: "PSDB parabeniza Lula por vitória e diz que &quot;seguirá na oposição&quot; ao governo",
+    titulo: "PSDB parabeniza Lula por vitória e diz que \"seguirá na oposição\" ao governo",
     categoria: "Política ES",
     data: "2026-10-26",
     imagem: "https://noticiaes.com.br/imagens/lapis/psdb-parabeniza-lula-por-vitoria-e-diz-que-quot-seguira-na-oposicao-quot-ao-governo.jpg",

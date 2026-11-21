@@ -192,7 +192,7 @@ const noticiasAutoRedacao20261013135051 = [
     id: 26101313505110,
     pautaId: "c504df3bfb8ffb7d",
     slug: "ex-presidente-do-barcelona-critica-e-cobra-messi-quot-quem-ele-pensa-que-e-quot",
-    titulo: "Ex-presidente do Barcelona critica e cobra Messi: &quot;Quem ele pensa que é?&quot;",
+    titulo: "Ex-presidente do Barcelona critica e cobra Messi: \"Quem ele pensa que é?\"",
     categoria: "Esporte",
     data: "2026-10-13",
     imagem: "https://noticiaes.com.br/imagens/lapis/ex-presidente-do-barcelona-critica-e-cobra-messi-quot-quem-ele-pensa-que-e-quot.jpg",

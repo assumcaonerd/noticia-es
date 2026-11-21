@@ -3,7 +3,7 @@ const noticiasAutoRedacao20261027014929 = [
     id: 26102701492901,
     pautaId: "d387f72f1da9a995",
     slug: "leonardo-jardim-destaca-motivacao-do-flamengo-no-brasileiro-apos-quot-luto-quot",
-    titulo: "Leonardo Jardim destaca motivação do Flamengo no Brasileiro após &quot;luto&quot;",
+    titulo: "Leonardo Jardim destaca motivação do Flamengo no Brasileiro após \"luto\"",
     categoria: "Esporte",
     data: "2026-10-27",
     imagem: "https://noticiaes.com.br/imagens/lapis/leonardo-jardim-destaca-motivacao-do-flamengo-no-brasileiro-apos-quot-luto-quot.jpg",

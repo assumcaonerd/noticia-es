@@ -24,7 +24,7 @@ const noticiasAutoRedacao20261016125052 = [
     id: 26101612505202,
     pautaId: "3dc9db2385341d4a",
     slug: "lula-sobre-6x1-ninguem-quer-que-quot-trabalhador-morra-quot-ou-quot-empresa-quebre-quot",
-    titulo: "Lula sobre 6x1: ninguém quer que &quot;trabalhador morra&quot; ou &quot;empresa quebre&quot;",
+    titulo: "Lula sobre 6x1: ninguém quer que \"trabalhador morra\" ou \"empresa quebre\"",
     categoria: "Cidades",
     data: "2026-10-16",
     imagem: "https://noticiaes.com.br/imagens/lapis/lula-sobre-6x1-ninguem-quer-que-quot-trabalhador-morra-quot-ou-quot-empresa-quebre-quot.jpg",

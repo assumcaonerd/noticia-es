@@ -87,7 +87,7 @@ const noticiasAutoRedacao20261028114940 = [
     id: 26102811494005,
     pautaId: "03e68284063a8e41",
     slug: "medico-que-incentivou-demitir-petistas-se-quot-retrata-quot-quot-que-pecam-demissao-quot",
-    titulo: "Médico que incentivou demitir petistas se &quot;retrata&quot;: &quot;Que peçam demissão&quot;",
+    titulo: "Médico que incentivou demitir petistas se \"retrata\": \"Que peçam demissão\"",
     categoria: "Justiça",
     data: "2026-10-28",
     imagem: "https://noticiaes.com.br/imagens/lapis/medico-que-incentivou-demitir-petistas-se-quot-retrata-quot-quot-que-pecam-demissao-quot.jpg",

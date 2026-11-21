@@ -24,7 +24,7 @@ const noticiasAutoRedacao20261027234959 = [
     id: 26102723495902,
     pautaId: "bc92b373ee4ec540",
     slug: "presidente-do-estudiantes-rebate-acao-do-flamengo-quot-nao-corremos-riscos-quot",
-    titulo: "Presidente do Estudiantes rebate ação do Flamengo: &quot;Não corremos riscos&quot;",
+    titulo: "Presidente do Estudiantes rebate ação do Flamengo: \"Não corremos riscos\"",
     categoria: "Esporte",
     data: "2026-10-27",
     imagem: "https://noticiaes.com.br/imagens/lapis/presidente-do-estudiantes-rebate-acao-do-flamengo-quot-nao-corremos-riscos-quot.jpg",

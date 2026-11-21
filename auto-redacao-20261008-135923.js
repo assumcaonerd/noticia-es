@@ -108,7 +108,7 @@ const noticiasAutoRedacao20261008135923 = [
     id: 26100813592306,
     pautaId: "a235cfa7478e4f9f",
     slug: "c-amp-a-ceab3-alerta-sobre-lucro-faz-acao-cair-mas-bancos-mantem-visao-positiva",
-    titulo: "C&amp;A (CEAB3): alerta sobre lucro faz ação cair, mas bancos mantêm visão positiva",
+    titulo: "C&A (CEAB3): alerta sobre lucro faz ação cair, mas bancos mantêm visão positiva",
     categoria: "Economia",
     data: "2026-10-08",
     imagem: "https://noticiaes.com.br/imagens/lapis/c-amp-a-ceab3-alerta-sobre-lucro-faz-acao-cair-mas-bancos-mantem-visao-positiva.jpg",

@@ -108,7 +108,7 @@ const noticiasAutoRedacao20261018175003 = [
     id: 26101817500306,
     pautaId: "ee36bc0370886790",
     slug: "pressionado-a-se-posicionar-joao-gomes-diz-ser-quot-a-favor-da-democracia-quot",
-    titulo: "Pressionado a se posicionar, João Gomes diz ser &quot;a favor da democracia&quot;",
+    titulo: "Pressionado a se posicionar, João Gomes diz ser \"a favor da democracia\"",
     categoria: "Cultura",
     data: "2026-10-18",
     imagem: "https://noticiaes.com.br/imagens/lapis/pressionado-a-se-posicionar-joao-gomes-diz-ser-quot-a-favor-da-democracia-quot.jpg",

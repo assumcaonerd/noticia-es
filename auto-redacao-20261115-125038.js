@@ -3,7 +3,7 @@ const noticiasAutoRedacao20261115125038 = [
     id: 26111512503801,
     pautaId: "cca8b6276b4c0447",
     slug: "fusao-com-a-tesla-pode-ser-o-atalho-da-spacex-para-entrar-no-s-amp-p-500",
-    titulo: "Fusão com a Tesla pode ser o atalho da SpaceX para entrar no S&amp;P 500",
+    titulo: "Fusão com a Tesla pode ser o atalho da SpaceX para entrar no S&P 500",
     categoria: "Economia",
     data: "2026-11-15",
     imagem: "https://noticiaes.com.br/imagens/lapis/fusao-com-a-tesla-pode-ser-o-atalho-da-spacex-para-entrar-no-s-amp-p-500.jpg",

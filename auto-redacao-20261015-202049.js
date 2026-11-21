@@ -108,7 +108,7 @@ const noticiasAutoRedacao20261015202049 = [
     id: 26101520204906,
     pautaId: "d8f3e42f13e00ca6",
     slug: "s-amp-p-500-fecha-em-alta-com-operadores-migrando-da-ia-para-setor-de-saude",
-    titulo: "S&amp;P 500 fecha em alta, com operadores migrando da IA para setor de saúde",
+    titulo: "S&P 500 fecha em alta, com operadores migrando da IA para setor de saúde",
     categoria: "Tecnologia",
     data: "2026-10-15",
     imagem: "https://noticiaes.com.br/imagens/lapis/s-amp-p-500-fecha-em-alta-com-operadores-migrando-da-ia-para-setor-de-saude.jpg",

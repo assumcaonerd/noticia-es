@@ -45,7 +45,7 @@ const noticiasAutoRedacao20261019135042 = [
     id: 26101913504203,
     pautaId: "d71849b55c98b5ec",
     slug: "s-amp-p-500-e-nasdaq-sobem-com-recuperacao-de-acoes-ligadas-a-ia-antes-de-balancos",
-    titulo: "S&amp;P 500 e Nasdaq sobem com recuperação de ações ligadas à IA antes de balanços",
+    titulo: "S&P 500 e Nasdaq sobem com recuperação de ações ligadas à IA antes de balanços",
     categoria: "Tecnologia",
     data: "2026-10-19",
     imagem: "https://noticiaes.com.br/imagens/lapis/s-amp-p-500-e-nasdaq-sobem-com-recuperacao-de-acoes-ligadas-a-ia-antes-de-balancos.jpg",

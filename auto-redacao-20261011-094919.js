@@ -66,7 +66,7 @@ const noticiasAutoRedacao20261011094919 = [
     id: 26101109491904,
     pautaId: "cd9924b9cab345e6",
     slug: "quot-vivem-em-mim-quot-a-historia-da-mae-que-perdeu-filhos-e-neto-em-brumadinho",
-    titulo: "&quot;Vivem em mim&quot;: a história da mãe que perdeu filhos e neto em Brumadinho",
+    titulo: "\"Vivem em mim\": a história da mãe que perdeu filhos e neto em Brumadinho",
     categoria: "Cultura",
     data: "2026-10-11",
     imagem: "https://noticiaes.com.br/imagens/lapis/quot-vivem-em-mim-quot-a-historia-da-mae-que-perdeu-filhos-e-neto-em-brumadinho.jpg",

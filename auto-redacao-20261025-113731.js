@@ -66,7 +66,7 @@ const noticiasAutoRedacao20261025113731 = [
     id: 26102511373104,
     pautaId: "8140097b85e23fc7",
     slug: "lula-diz-que-deve-eventual-vitoria-ao-quot-exercito-quot-da-democracia",
-    titulo: "Lula diz que deve eventual vitória ao &quot;exército&quot; da democracia",
+    titulo: "Lula diz que deve eventual vitória ao \"exército\" da democracia",
     categoria: "Cidades",
     data: "2026-10-25",
     imagem: "https://noticiaes.com.br/imagens/lapis/lula-diz-que-deve-eventual-vitoria-ao-quot-exercito-quot-da-democracia.jpg",

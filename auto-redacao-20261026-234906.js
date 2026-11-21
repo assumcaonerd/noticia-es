@@ -24,7 +24,7 @@ const noticiasAutoRedacao20261026234906 = [
     id: 26102623490602,
     pautaId: "2acf886e48ca2cc5",
     slug: "alckmin-diz-ser-quot-equivocada-quot-fala-de-trump-sobre-eleicao-no-brasil",
-    titulo: "Alckmin diz ser &quot;equivocada&quot; fala de Trump sobre eleição no Brasil",
+    titulo: "Alckmin diz ser \"equivocada\" fala de Trump sobre eleição no Brasil",
     categoria: "Política ES",
     data: "2026-10-26",
     imagem: "https://noticiaes.com.br/imagens/lapis/alckmin-diz-ser-quot-equivocada-quot-fala-de-trump-sobre-eleicao-no-brasil.jpg",

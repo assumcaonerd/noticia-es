@@ -66,7 +66,7 @@ const noticiasAutoRedacao20261018214938 = [
     id: 26101821493804,
     pautaId: "b17b5606639e4115",
     slug: "flavio-chega-a-debate-da-quot-band-quot-acompanhado-de-tarcisio-e-nikolas",
-    titulo: "Flávio chega a debate da &quot;Band&quot; acompanhado de Tarcísio e Nikolas",
+    titulo: "Flávio chega a debate da \"Band\" acompanhado de Tarcísio e Nikolas",
     categoria: "Política Nacional",
     data: "2026-10-18",
     imagem: "https://noticiaes.com.br/imagens/lapis/flavio-chega-a-debate-da-quot-band-quot-acompanhado-de-tarcisio-e-nikolas.jpg",

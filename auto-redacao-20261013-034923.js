@@ -45,7 +45,7 @@ const noticiasAutoRedacao20261013034923 = [
     id: 26101303492303,
     pautaId: "ad112a7b803bcc34",
     slug: "com-juros-altos-governo-busca-solucao-para-oferta-de-credito-quot-predatoria-quot",
-    titulo: "Com juros altos, governo busca solução para oferta de crédito &quot;predatória&quot;",
+    titulo: "Com juros altos, governo busca solução para oferta de crédito \"predatória\"",
     categoria: "Economia",
     data: "2026-10-13",
     imagem: "https://noticiaes.com.br/imagens/lapis/com-juros-altos-governo-busca-solucao-para-oferta-de-credito-quot-predatoria-quot.jpg",

@@ -66,7 +66,7 @@ const noticiasAutoRedacao20261028094119 = [
     id: 26102809411904,
     pautaId: "2985735185c06656",
     slug: "harry-kane-diz-que-bola-de-ouro-superou-seus-maiores-sonhos-quot-especial-quot",
-    titulo: "Harry Kane diz que Bola de Ouro superou seus maiores sonhos: &quot;Especial&quot;",
+    titulo: "Harry Kane diz que Bola de Ouro superou seus maiores sonhos: \"Especial\"",
     categoria: "Esporte",
     data: "2026-10-28",
     imagem: "https://noticiaes.com.br/imagens/lapis/harry-kane-diz-que-bola-de-ouro-superou-seus-maiores-sonhos-quot-especial-quot.jpg",

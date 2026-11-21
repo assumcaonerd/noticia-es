@@ -45,7 +45,7 @@ const noticiasAutoRedacao20261028135119 = [
     id: 26102813511903,
     pautaId: "15aa6ef068ef0a1b",
     slug: "quot-queriam-que-flavio-ficasse-aqui-para-ser-preso-quot-diz-malafaia",
-    titulo: "&quot;Queriam que Flávio ficasse aqui para ser preso?&quot;, diz Malafaia",
+    titulo: "\"Queriam que Flávio ficasse aqui para ser preso?\", diz Malafaia",
     categoria: "Fé e Sociedade",
     data: "2026-10-28",
     imagem: "https://noticiaes.com.br/imagens/lapis/quot-queriam-que-flavio-ficasse-aqui-para-ser-preso-quot-diz-malafaia.jpg",

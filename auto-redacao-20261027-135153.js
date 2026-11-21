@@ -24,7 +24,7 @@ const noticiasAutoRedacao20261027135153 = [
     id: 26102713515302,
     pautaId: "4426fe1715cf9df6",
     slug: "kassab-pede-equilibrio-fiscal-a-lula-e-alerta-para-risco-de-quot-hostilidade-quot",
-    titulo: "Kassab pede equilíbrio fiscal a Lula e alerta para risco de &quot;hostilidade&quot;",
+    titulo: "Kassab pede equilíbrio fiscal a Lula e alerta para risco de \"hostilidade\"",
     categoria: "Política Nacional",
     data: "2026-10-27",
     imagem: "https://noticiaes.com.br/imagens/lapis/kassab-pede-equilibrio-fiscal-a-lula-e-alerta-para-risco-de-quot-hostilidade-quot.jpg",

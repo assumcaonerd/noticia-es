@@ -45,7 +45,7 @@ const noticiasAutoRedacao20261010234927 = [
     id: 26101023492703,
     pautaId: "9b36f9c7f891f504",
     slug: "ceo-da-microsoft-defende-quot-freio-de-emergencia-para-ia",
-    titulo: "CEO da Microsoft defende &quot;freio de emergência” para IA",
+    titulo: "CEO da Microsoft defende \"freio de emergência” para IA",
     categoria: "Tecnologia",
     data: "2026-10-10",
     imagem: "https://noticiaes.com.br/imagens/lapis/ceo-da-microsoft-defende-quot-freio-de-emergencia-para-ia.jpg",

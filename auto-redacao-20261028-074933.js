@@ -87,7 +87,7 @@ const noticiasAutoRedacao20261028074933 = [
     id: 26102807493305,
     pautaId: "62f74232d15d2089",
     slug: "malafaia-criticou-viagem-de-bolsonaro-aos-eua-em-2022-quot-um-lider-fica-quot",
-    titulo: "Malafaia criticou viagem de Bolsonaro aos EUA em 2022: &quot;Um líder fica&quot;",
+    titulo: "Malafaia criticou viagem de Bolsonaro aos EUA em 2022: \"Um líder fica\"",
     categoria: "Cultura",
     data: "2026-10-28",
     imagem: "https://noticiaes.com.br/imagens/lapis/malafaia-criticou-viagem-de-bolsonaro-aos-eua-em-2022-quot-um-lider-fica-quot.jpg",

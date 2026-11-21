@@ -213,12 +213,37 @@ if (!candidatas.length) {
   process.exit(0);
 }
 
+// Duplicatas: nenhuma matéria pode repetir slug ou título já publicado
+// (acervo de dados + páginas m/) nem outra da mesma rodada.
+const normalizarTitulo = (t) => String(t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+const slugsPublicados = new Set();
+const titulosPublicados = new Set();
+try {
+  for (const f of await fs.readdir(path.join(raiz, 'm'))) if (f.endsWith('.html')) slugsPublicados.add(f.slice(0, -5));
+} catch {}
+for (const f of await fs.readdir(raiz)) {
+  if (!/^(?:auto-redacao-.*|noticias|editorial.*|opiniao|fe-sociedade.*|manual-.*)\.js$/.test(f)) continue;
+  const txt = await fs.readFile(path.join(raiz, f), 'utf8');
+  for (const m of txt.matchAll(/\bslug:\s*"((?:[^"\\]|\\.)*)"/g)) slugsPublicados.add(m[1]);
+  for (const m of txt.matchAll(/\btitulo:\s*"((?:[^"\\]|\\.)*)"/g)) titulosPublicados.add(normalizarTitulo(m[1].replace(/\\"/g, '"')));
+}
+
 const publicaveis = [];
 const contagemPorCategoria = new Map();
 for (const p of candidatas) {
   const motivo = validarReportagem(p);
   if (motivo) {
     console.log(`[redator] pula ${p.id || 'sem-id'}: ${motivo}`);
+    continue;
+  }
+  const tituloCandidato = String(p.reportagem.titulo || p.titulo || '').trim();
+  const slugCandidato = slugify(p.reportagem.slug || tituloCandidato) || `noticia-${p.id}`;
+  if (slugsPublicados.has(slugCandidato)) {
+    console.log(`[redator] pula ${p.id || 'sem-id'}: slug já publicado (${slugCandidato})`);
+    continue;
+  }
+  if (titulosPublicados.has(normalizarTitulo(tituloCandidato))) {
+    console.log(`[redator] pula ${p.id || 'sem-id'}: título já publicado (${tituloCandidato})`);
     continue;
   }
   const categoria = String(p?.reportagem?.categoria || p?.categoria || '').trim();
@@ -228,6 +253,8 @@ for (const p of candidatas) {
     continue;
   }
   publicaveis.push(p);
+  slugsPublicados.add(slugCandidato);
+  titulosPublicados.add(normalizarTitulo(tituloCandidato));
   contagemPorCategoria.set(categoria, usados + 1);
   if (publicaveis.length === 11) break;
 }

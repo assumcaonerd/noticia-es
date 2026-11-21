@@ -91,7 +91,9 @@ if (!lista.length) {
   console.error("Nenhuma matéria encontrada; índice não gerado.", erros);
   process.exit(1);
 }
-const indice = lista.filter((n) => n && n.slug && n.titulo).map((n) => {
+// Cada matéria uma vez só: vale a primeira ocorrência (a que a capa mostraria primeiro).
+const vistos = new Set();
+const indice = lista.filter((n) => n && n.slug && n.titulo && !vistos.has(n.slug) && vistos.add(n.slug)).map((n) => {
   const o = {};
   for (const c of CAMPOS) if (n[c] !== undefined && n[c] !== null && n[c] !== "") o[c] = n[c];
   return o;
