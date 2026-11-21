@@ -97,6 +97,9 @@ function categoriaEvidente(titulo) {
   if (/^(opiniao|editorial|artigo|coluna)\b/.test(t)) return null;
   // Evita herdar Política de fontes genéricas quando o tema é claramente outro.
   if (/\b(?:fisiculturista|bodybuilder)\b/.test(t)) return 'Esporte';
+  if (/\b(?:cabelos brancos|tremor de terra)\b/.test(t)) return 'Cidades';
+  if (/\bel nino\b/.test(t) && /\b(?:efeitos|fenomeno|clima|chuva|sp)\b/.test(t)) return 'Cidades';
+  if (/\babsolvicao\b/.test(t)) return 'Justiça';
   if (/\b(?:terremoto|microexplosao|tornado)\b/.test(t)) return 'Cidades';
   if (/\bcat cafe\b/.test(t)) return 'Cidades';
   if (/\bmedic[ao]\b/.test(t) && /\bencontrad[ao]\b/.test(t) && /\bmort[ao]\b/.test(t)) return 'Cidades';
