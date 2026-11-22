@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-22T17:18:44.922Z",
+  "atualizadoEm": "2026-11-22T18:18:12.518Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 75,
+  "novasPautas": 69,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -199,7 +199,7 @@
     {
       "fonte": "Século Diário",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 2,
       "capa": true,
       "rota": "https://www.seculodiario.com.br/",
       "fallback": false
@@ -212,9 +212,11 @@
     },
     {
       "fonte": "Poder360",
-      "ok": false,
-      "erro": "https://www.poder360.com.br/ -> 403 Forbidden",
-      "capa": true
+      "ok": true,
+      "encontrados": 6,
+      "capa": true,
+      "rota": "https://www.poder360.com.br/",
+      "fallback": false
     },
     {
       "fonte": "Congresso em Foco",
@@ -288,7 +290,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 5,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -314,14 +316,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 1,
+      "encontrados": 7,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 6,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -374,8 +376,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-22T17:22:31.007Z",
-    "novas": 8,
+    "atualizadoEm": "2026-11-22T18:20:24.842Z",
+    "novas": 5,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -395,7 +397,7 @@
       {
         "fonte": "YouTube Polícia Civil ES",
         "ok": true,
-        "encontrados": 4
+        "encontrados": 0
       },
       {
         "fonte": "YouTube PM Ambiental ES",
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-22T17:22:33.342Z",
+    "atualizadoEm": "2026-11-22T18:20:26.082Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-22T17:22:34.386Z",
+    "atualizadoEm": "2026-11-22T18:20:26.859Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-22T17:22:44.942Z",
+    "atualizadoEm": "2026-11-22T18:20:37.414Z",
     "novas": 0,
     "fontes": [
       {
