@@ -99,17 +99,56 @@ jobs:
             exit 0
           fi
           git commit -m "pautas: atualiza fila e imagens do motor"
-          # A main também recebe publicações da redação e da descoberta por IA.
-          # Repetir apenas o rebase/push evita perder uma coleta por corrida de commits.
+          # Outras rotinas também atualizam pautas.json durante a coleta.
+          # Se houver conflito, nunca escolher unilateralmente um dos lados:
+          # recomecar a coleta a partir da main atual preserva as outras publicacoes.
           for tentativa in 1 2 3 4; do
-            git pull --rebase origin main
-            if git push origin main; then
-              echo "Coleta publicada."
+            if git pull --rebase origin main && git push origin main; then
+              echo "Coleta publicada na tentativa $tentativa."
               exit 0
             fi
+
+            # O rebase pode ficar parado com conflitos; abortar antes de sincronizar.
+            git rebase --abort 2>/dev/null || true
             if [ "$tentativa" -eq 4 ]; then
-              echo "Falha ao publicar a coleta após quatro tentativas."
+              echo "::error::Falha ao publicar a coleta após quatro tentativas."
               exit 1
             fi
-            sleep 3
+
+            echo "::warning::A main mudou durante a coleta; regenerando da versão atual (tentativa $tentativa de 4)."
+            sleep "$((tentativa * 2))"
+            git fetch origin main
+            git reset --hard origin/main
+
+            # Refazer as mesmas etapas de marcação e coleta, sem descartar
+            # pautas/publicações que outras rotinas gravaram enquanto esta rodava.
+            node scripts/marcar-rodada6.mjs
+            node scripts/marcar-rodada7.mjs
+            node scripts/marcar-rodada8.mjs
+            node scripts/finalizar-rodada10.mjs
+            node scripts/marcar-rodada11.mjs
+            node scripts/marcar-rodada12.mjs
+            node scripts/marcar-rodada13.mjs
+            node scripts/marcar-rodada14.mjs
+            node scripts/marcar-rodada16.mjs
+            node scripts/marcar-rodada17.mjs
+            node scripts/marcar-rodada18.mjs
+            node scripts/marcar-rodada19.mjs
+            node scripts/coletar-pautas.mjs
+            node scripts/coletar-portais-extra.mjs
+            node scripts/refinar-fontes-nacionais.mjs
+            node scripts/coletar-flavio-bolsonaro.mjs
+            node scripts/coletar-redes-locais.mjs
+            node scripts/coletar-telegram-es.mjs
+            node scripts/coletar-ales.mjs
+            node scripts/coletar-dioes.mjs
+            node scripts/enriquecer-imagens-pautas.mjs
+            node scripts/fiscal-imagens.mjs
+
+            git add -A
+            if git diff --cached --quiet; then
+              echo "Nenhuma novidade para registrar após sincronizar com a main."
+              exit 0
+            fi
+            git commit -m "pautas: atualiza fila e imagens do motor"
           done
