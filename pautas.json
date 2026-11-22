@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T15:21:22.311Z",
+  "atualizadoEm": "2026-11-22T15:28:05.433Z",
   "observacao": "Pautas coletadas automaticamente. Folha, Estadão, O Globo e Veja entram como pauta bruta; a reescrita de Política Nacional aplica a régua editorial. Não publicar sem pesquisa multifonte e redação própria.",
   "portaisPrioritarios": [
     "agazeta.com.br",
@@ -36,6 +36,20 @@
     "dio.es.gov.br"
   ],
   "pautas": [
+    {
+      "id": "e1798aefe81f3fa5",
+      "titulo": "Ataques no Báltico ameaçam rota-chave do petróleo e dos grãos da Rússia",
+      "categoria": "Economia",
+      "dataFonte": "2026-11-22T15:26:39.000Z",
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/mundo/ataques-no-baltico-ameacam-rota-chave-do-petroleo-e-dos-graos-da-russia/",
+      "resumoFonte": "Navio de carga russo Sparta II durante o combate ao incêndio no Golfo da Finlândia, neste domingo (22) Foto: Guarda de Fronteira da Finlândia/Divulgação via Reuters \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/2026-11-22T134322Z_794724808_RC21TOAVBWQ0_RTRMADP_3_UKRAINE-CRISIS-RUSSIA-VESSEL.jpg?fit=1200%2C610&quality=70…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/2026-11-22T134322Z_794724808_RC21TOAVBWQ0_RTRMADP_3_UKRAINE-CRISIS-RUSSIA-VESSEL.jpg",
+      "descobertaEm": "2026-11-22T15:25:54.066Z",
+      "status": "pendente",
+      "imagemFonte": "https://www.infomoney.com.br/wp-content/uploads/2026/11/2026-11-22T134322Z_794724808_RC21TOAVBWQ0_RTRMADP_3_UKRAINE-CRISIS-RUSSIA-VESSEL.jpg",
+      "imagemOrigem": "fonte"
+    },
     {
       "id": "25fc9aa0b223187b",
       "titulo": "Homem ameaça criança com faca e espanca companheira e enteado no Entorno",
@@ -1135,20 +1149,6 @@
       "descobertaEm": "2026-11-22T13:18:13.388Z",
       "status": "pendente",
       "imagemFonte": "https://veja.abril.com.br/wp-content/uploads/2026/11/GettyImages-2246882303.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "imagemOrigem": "fonte"
-    },
-    {
-      "id": "0229bfca941fccd0",
-      "titulo": "Está com cara boa e não teve febre, diz Michelle sobre Bolsonaro",
-      "categoria": "Política Nacional",
-      "dataFonte": "2026-11-22T12:23:15.000Z",
-      "fonteNome": "Poder360",
-      "urlFonte": "https://www.poder360.com.br/poder-gente/esta-com-cara-boa-e-nao-teve-febre-diz-michelle-sobre-bolsonaro/",
-      "resumoFonte": "Ex-primeira-dama voltou de Israel no sábado e passou a noite com o ex-presidente, internado em Brasília. Leia no Poder360.",
-      "imagem": "https://static.poder360.com.br/uploads/2026/08/michelle-bolsonaro-2-de-agosto.jpg",
-      "descobertaEm": "2026-11-22T13:18:13.388Z",
-      "status": "pendente",
-      "imagemFonte": "https://static.poder360.com.br/uploads/2026/08/michelle-bolsonaro-2-de-agosto.jpg",
       "imagemOrigem": "fonte"
     },
     {
@@ -4338,5 +4338,5 @@
       "imagemOrigem": "fonte"
     }
   ],
-  "politicaImagem": "Toda matéria nova usa imagem da fonte (og:image). O fiscal-imagens corrige ausência. Proibido SVG genérico e foto aleatória."
+  "politicaImagem": "Toda matéria nova do motor usa imagemFonte extraída da publicação original. Na ausência de foto válida, usar exclusivamente a capa da categoria. É proibido inventar, gerar ou substituir por retrato de pessoa."
 }
