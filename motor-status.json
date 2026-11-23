@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-23T14:18:36.937Z",
+  "atualizadoEm": "2026-11-23T15:24:16.670Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 74,
+  "novasPautas": 72,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -289,25 +289,27 @@
     },
     {
       "fonte": "Veja",
-      "ok": false,
-      "erro": "https://veja.abril.com.br/feed/ -> 403 Forbidden"
+      "ok": true,
+      "encontrados": 6,
+      "rota": "https://veja.abril.com.br/feed/",
+      "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 3,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
     {
       "fonte": "Correio Braziliense - Feed",
       "ok": false,
-      "erro": "https://www.correiobraziliense.com.br/rss/politica -> 404 Not Found"
+      "erro": "https://www.correiobraziliense.com.br/rss/politica -> The operation was aborted due to timeout"
     },
     {
       "fonte": "g1 - Política",
       "ok": true,
-      "encontrados": 20,
+      "encontrados": 22,
       "rota": "https://g1.globo.com/rss/g1/politica/",
       "fallback": false
     },
@@ -374,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-23T14:21:31.280Z",
+    "atualizadoEm": "2026-11-23T15:29:00.783Z",
     "novas": 7,
     "fontes": [
       {
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-23T14:21:32.878Z",
+    "atualizadoEm": "2026-11-23T15:29:02.202Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,14 +453,14 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-23T14:21:34.056Z",
+    "atualizadoEm": "2026-11-23T15:29:03.360Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-23T14:21:44.603Z",
-    "novas": 1,
+    "atualizadoEm": "2026-11-23T15:29:13.932Z",
+    "novas": 0,
     "fontes": [
       {
         "fonte": "DIO/ES Notícias",
