@@ -1,145 +1,85 @@
 {
-  "geradoEm": "2026-11-23T02:49:03.064Z",
+  "geradoEm": "2026-11-23T05:49:32.792Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 0,
     "bloqueadasEditoriais": 0,
     "semImagem": 0,
-    "duplicadasBasicas": 0,
+    "duplicadasBasicas": 1,
     "duplicadasSemanticas": 1,
     "foraCategorias": 43
   },
   "quantidadeCandidatas": 33,
   "candidatas": [
     {
-      "id": "0f0f96b849a5c734",
-      "titulo": "Democratas garantem 258 cadeiras na Câmara, melhor resultado desde 1992",
+      "id": "ac3846ae68eb61f8",
+      "titulo": "Michelle atualiza estado de saúde de Bolsonaro no hospital: 'Boas notícias'",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Poder360",
-      "urlFonte": "https://www.poder360.com.br/poder-internacional/democratas-garantem-258-cadeiras-na-camara-melhor-resultado-desde-1992/",
-      "dataFonte": "2026-11-23T01:08:33.000Z",
-      "resumoFonte": "Partido amplia bancada em 20,6% e consolida maioria no Congresso; 4 disputas ainda aguardam definição. Leia no Poder360.",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/capa-congresso-eua-22.nov_.2026-1200x675.jpg",
-      "descobertaEm": "2026-11-23T01:18:32.718Z",
-      "reportagem": {
-        "titulo": "Democratas garantem 258 cadeiras na Câmara, melhor resultado desde 1992",
-        "slug": "democratas-garantem-258-cadeiras-na-camara-melhor-resultado-desde-1992",
-        "categoria": "Política Nacional",
-        "data": "2026-11-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/democratas-garantem-258-cadeiras-na-camara-melhor-resultado-desde-1992.jpg",
-        "resumo": "Partido amplia bancada em 20,6% e consolida maioria no Congresso; 4 disputas ainda aguardam definição.",
-        "conteudo": "<p>Partido amplia bancada em 20,6% e consolida maioria no Congresso; 4 disputas ainda aguardam definição</p><h2>O contexto do cenário político</h2><p>O Partido Democrata garantiu 258 das 435 cadeiras da Câmara dos Representantes dos Estados Unidos, seu melhor resultado desde 1992.</p><p>A marca foi alcançada neste domingo (22.nov.2026), depois da confirmação da vitória de Chuck Hubbard sobre a republicana Virginia Foxx, na Carolina do Norte.</p><p>Os democratas ampliaram a bancada em 20,6%, passando de 214 para 258 deputados. O partido igualou o resultado de 1992, quando Bill Clinton foi eleito presidente, e superou as 257 cadeiras conquistadas em 2008, na eleição de Barack Obama.</p><h2>Como interpretar os resultados</h2><p>Os republicanos garantiram 173 cadeiras. Outras 4 disputas permanecem indefinidas: uma em Minnesota, uma no Tennessee e duas na Louisiana, onde haverá 2º turno em 12 de dezembro. Na 5ª feira (19.nov), levantamento do Poder360 ainda apontava 6 disputas sem vencedor.</p><p>Os democratas também conquistaram o controle do Senado, com 56 cadeiras , contra 44 dos republicanos. O resultado amplia o poder de oposição ao presidente Donald Trump (Partido Republicano), que enfrentará um Congresso de maioria democrata a partir de janeiro de 2027.</p><p>A vitória ocorreu em um cenário de insatisfação dos eleitores com o custo de vida, a guerra no Irã e a condução do governo Trump.</p><p>Com a maioria nas duas Casas, os democratas pretendem priorizar medidas econômicas e ampliar a fiscalização sobre o Executivo nos primeiros 100 dias da nova legislatura.</p><p>Entre as propostas estão reverter cortes no Medicaid, programa de assistência médica destinado principalmente à população de baixa renda, e retomar os subsídios do Obamacare, que ajudam norte-americanos a pagar planos de saúde.</p><p>O partido também planeja investigar os negócios financeiros de Trump e de seus familiares. O líder democrata na Câmara, Hakeem Jeffries, não descartou a possibilidade de abrir um 3º processo de impeachment contra o presidente.</p><p>Jeffries deve assumir a presidência da Câmara em 3 de janeiro de 2027. Se eleito, será o 1º negro a ocupar o cargo. A bancada de 258 deputados lhe dará uma margem de 40 cadeiras acima da maioria absoluta de 218 votos.</p><p>Apesar da maioria democrata no Congresso, Trump poderá vetar projetos aprovados pelo Legislativo. Para derrubar um veto presidencial, será necessário o apoio de 2/3 dos integrantes de cada Casa.</p>",
-        "fonteNome": "Poder360",
-        "fonteUrl": "https://www.poder360.com.br/poder-internacional/democratas-garantem-258-cadeiras-na-camara-melhor-resultado-desde-1992/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Partido amplia bancada em 20,6% e consolida maioria no Congresso; 4 disputas ainda aguardam definição"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Partido Democrata garantiu 258 das 435 cadeiras da Câmara dos Representantes dos Estados Unidos, seu melhor resultado desde 1992. A marca foi alcançada neste domingo (22.nov.2026), depois da confirmação da vitória de Chuck Hubbard sobre a republicana Virginia Foxx, na Carolina do Norte."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Os democratas ampliaram a bancada em 20,6%, passando de 214 para 258 deputados. O partido igualou o resultado de 1992, quando Bill Clinton foi eleito presidente, e superou as 257 cadeiras conquistadas em 2008, na eleição de Barack Obama."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Os republicanos garantiram 173 cadeiras. Outras 4 disputas permanecem indefinidas: uma em Minnesota, uma no Tennessee e duas na Louisiana, onde haverá 2º turno em 12 de dezembro. Na 5ª feira (19.nov), levantamento do Poder360 ainda apontava 6 disputas sem vencedor."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os democratas também conquistaram o controle do Senado, com 56 cadeiras , contra 44 dos republicanos. O resultado amplia o poder de oposição ao presidente Donald Trump (Partido Republicano), que enfrentará um Congresso de maioria democrata a partir de janeiro de 2027."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/capa-congresso-eua-22.nov_.2026-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/democratas-garantem-258-cadeiras-na-camara-melhor-resultado-desde-1992.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/22/michelle-bolsonaro-internacao-uti-novembro-2026.ghtm",
+      "dataFonte": "2026-11-23T02:40:17.000Z",
+      "resumoFonte": "A senadora eleita Michelle Bolsonaro (PL) atualizou na noite de hoje (22) o estado de saúde do marido, o ex-presidente Jair Bolsonaro, que está internado na UTI do Hospital DF Star, em Brasília, em razão de um quadro de abdômen agudo obstrutivo.",
+      "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Jair_Bolsonaro_2022.jpg/800px-Jair_Bolsonaro_2022.jpg",
+      "descobertaEm": "2026-11-23T02:52:41.031Z"
     },
     {
-      "id": "7f8d1b5cb2f8577e",
-      "titulo": "Com salários de até R$ 2,8 mil, DF inicia semana com 524 vagas de emprego",
+      "id": "c136681e394c957b",
+      "titulo": "Universo fictício de GTA 6 invade o mercado da moda com coleções temáticas",
       "categoria": "Economia",
       "radar": null,
       "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/distrito-federal/com-salarios-de-ate-r-28-mil-df-inicia-semana-com-524-vagas-de-emprego",
-      "dataFonte": "2026-11-23T01:23:17.000Z",
-      "resumoFonte": "Maior quantidade de vagas é para operador de caixa, com 118 ofertas em aberto. Interessados devem buscar uma das 16 agências do trabalhador",
-      "imagem": "https://i.metroimg.com/3LtGnOZg6z41Fo3EIpcREOY9DeQAol2EuVk12AVzRl8/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2021/04/04120243/140920-HB-Agencia-do-trabalhador4-1.jpg",
-      "descobertaEm": "2026-11-23T02:18:44.667Z"
-    },
-    {
-      "id": "ce8c7e27f572ea3e",
-      "titulo": "A idiotia portuguesa sobre o Brasil",
-      "categoria": "Opinião",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/mafalda-anjos/2026/11/a-idiotia-portuguesa-sobre-o-brasil.shtml",
-      "dataFonte": "2026-11-23T02:00:00.000Z",
-      "resumoFonte": "Desde que sou colunista da Folha , muitos portugueses me procuram para falar do Brasil e dos brasileiros. Uma das coisas que me diverte tanto como impressiona é tentar perceber onde acaba o conhecimento empírico e começa a montanha de preconceitos instalados nas suas cabeças. Toda a gente pensa que conhece o país, mas poucos são os que realmente…",
-      "imagem": "https://f.i.uol.com.br/fotografia/2024/04/02/1712101950660c9a3ebd3d3_1712101950_3x2_rt.jpg",
-      "descobertaEm": "2026-11-23T02:18:44.667Z",
+      "urlFonte": "https://www.metropoles.com/colunas/ilca-maria-estevao/universo-ficticio-de-gta-6-invade-o-mercado-da-moda-com-colecoes-tematicas",
+      "dataFonte": "2026-11-23T05:00:59.000Z",
+      "resumoFonte": "Nike, RIMOWA, Selfridges e outras marcas apostam em produtos e experiências inspirados em Vice City para aproveitar o hype do lançamento",
+      "imagem": "https://i.metroimg.com/XEquD4XfPHyOuFXSzRBWcJ6oY_U81LaH7x9WNbAi2r4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/colecoes-de-moda-gta-theofficialselfridges.jpg",
+      "descobertaEm": "2026-11-23T05:18:31.005Z",
       "reportagem": {
-        "titulo": "Opinião - Mafalda Anjos: A idiotia portuguesa sobre o Brasil",
-        "slug": "opiniao-mafalda-anjos-a-idiotia-portuguesa-sobre-o-brasil",
-        "categoria": "Opinião",
-        "data": "2026-11-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/opiniao-mafalda-anjos-a-idiotia-portuguesa-sobre-o-brasil.jpg",
-        "resumo": "Jornalista, comentarista de TV e radialista em Portugal, é formada em direito e autora de livros como 'Carta a um Jovem Decente'",
-        "conteudo": "<p>Jornalista, comentarista de TV e radialista em Portugal, é formada em direito e autora de livros como &#39;Carta a um Jovem Decente&#39;</p><h2>As informações principais do assunto</h2><p>O resultado é uma amálgama idiota de ilusões e clichês. Para muitos portugueses, o Brasil divide-se entre as famílias grã-finas, que todos os dias comem &quot;um pequeno-almoço de novela&quot; (a expressão é tão comum que uma cadeia de supermercados fez uma campanha publicitária há meses com esse slogan) servidas por uma vasta criadagem, e uma população imensa, composta, na sua esmagadora maioria, por manicures, empregados de mesa, atores, cantores, criminosos favelados e prostitutas.</p><p>Outros continuam a vê-lo apenas como a ex-colônia, boa para explorar, do pau-brasil, do açúcar, do ouro e agora de outros minérios, ou como a animada terra do samba, do futebol, da cachaça, da picanha e do biquíni miniatura.</p><p>Há uns dias, a forma como se olha o Brasil em Portugal gerou polêmica nas redes sociais e até teve cobertura televisiva.</p><h2>Contexto e informações complementares</h2><p>Um zangado pai brasileiro divulgou um vídeo que se tornou viral, mostrando o livro da filha usado na escola portuguesa, onde consta uma fotografia de uma casa de banho no Brasil representada por um espaço sujo e sem condições.</p><p>&quot;Nem na favela é assim. É sacanagem mesmo!&quot;, indigna-se o homem, sugerindo que a imagem transmite uma visão negativa do país.</p><p>A editora defendeu-se, alegando que se tratava de um exercício sobre &quot;contrastes de países desenvolvidos versus países em desenvolvimento&quot;.</p><p>Um episódio ilustrativo, que reflete o sentimento de muitos brasileiros: os portugueses simpatizam com eles, mas não conhecem o Brasil.</p><p>A verdade é que, permanentemente, também sinto que o Brasil de hoje passa ao lado até de muitos portugueses esclarecidos.</p><p>Um Brasil que é a maior economia da América Latina (sete vezes maior do que a de Portugal), que não se resume à exportação de matérias-primas e que tem grandes marcas industriais e tecnológicas como a Embraer, a WEG, o Nubank ou o Pix.</p><p>Um Brasil sofisticado e com uma elite intelectual cultíssima, uma comunidade acadêmica e científica de grande dimensão, universidades de referência e capaz de produzir ideias com circulação internacional.</p><p>Um Brasil que brilha por esse mundo fora na música, no cinema, no humor, na arte, na escrita. Um Brasil de muitos mesmo muito bons.</p><p>Ao partilhar estas considerações com uma amiga paulista, a sua resposta desconcertou-me. &quot;Sabe, Mafalda, o problema não é dos portugueses.</p><p>O problema é que os brasileiros também não fazem ideia do que é Brasil.&quot; Fiquei a pensar que é mesmo preciso ultrapassar esse &quot;complexo de vira-lata&quot; de que tão bem falava Nelson Rodrigues.</p><p>Claro que há problemas e caminho a fazer, mas os brasileiros deviam amar-se mais e criticar-se menos. É nada mais que justo refazer a imagem da nação brasileira.</p><p>E a partir daí exigir nada menos do que ela, grandiosa, merece. A começar pelos políticos.</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://www1.folha.uol.com.br/colunas/mafalda-anjos/2026/11/a-idiotia-portuguesa-sobre-o-brasil.shtml",
+        "titulo": "Universo fictício de GTA 6 invade o mercado da moda com coleções temáticas",
+        "slug": "universo-ficticio-de-gta-6-invade-o-mercado-da-moda-com-colecoes-tematicas",
+        "categoria": "Economia",
+        "data": "2026-11-23",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/universo-ficticio-de-gta-6-invade-o-mercado-da-moda-com-colecoes-tematicas.jpg",
+        "resumo": "Nike, RIMOWA, Selfridges e outras marcas apostam em produtos e experiências inspirados em Vice City para aproveitar o hype do lançamento",
+        "conteudo": "<p>O universo de Grand Theft Auto VI (GTA 6) ultrapassou as telas e chegou ao mercado da moda .</p><h2>Dados e contexto do setor</h2><p>Inspiradas na estética de Vice City , cidade fictícia que serve de cenário para o jogo, marcas como Nike, RIMOWA e Selfridges lançaram produtos e coleções especiais, que vão de tênis a acessórios de luxo .</p><p>As iniciativas aproveitam a expectativa em torno de um dos lançamentos mais aguardados do entretenimento para aproximar o público do universo virtual .</p><p>Com isso, as marcas encontraram outras maneiras de aproveitar o fenômeno: lançamentos limitados, coleções temáticas e experiências presenciais permitem que os fãs levem referências de Vice City para sua vida real .</p><h2>Impactos e informações adicionais</h2><p>GTA 6 é um dos lançamentos mais aguardados da indústria dos games</p><p>GTA 6 segue como um dos títulos mais aguardados da Rockstar Games para 2026</p><p>GTA 6 gerou grande expectativa após recordes de audiência dos trailers</p><p>GTA 6 mantém GTA Online e GTA 5 como base de receita da franquia</p><p>GTA 6 se passa em Leonida, estado fictício criado para o game</p><p>GTA 6 segue em produção pela Rockstar Games com foco em perfeição</p><p>GTA 6 é apontado como um dos jogos mais caros e ambiciosos da história dos videogames</p><p>Um dos lançamentos inspirados no jogo envolve a Nike , a Rockstar Games e a Cactus Jack , marca do rapper Travis Scott . A parceria resultou em uma edição especial do tênis Air Force 1 , inspirada na identidade visual de GTA 6.</p><p>O lançamento foi realizado em uma loja pop-up montada em Miami. O espaço ganhou uma ambientação que simula um cofre de banco, em referência a uma das missões do jogo . Lá, estavam à venda, além do tênis de edição limitada, roupas e acessórios da colaboração.</p><p>A parceria entre as três marcas também chegou à NBA . O time Miami Heat ganhou uniformes especiais inspirados em Vice City , que foram usados em uma partida contra o Milwaukee Bucks, no dia 18 de novembro.</p><p>As camisas foram colocadas à venda e esgotaram em aproximadamente 90 minutos , de acordo com apuração da Associated Press. A collab também incluiu produtos temáticos que levaram a identidade visual do jogo para além das quadras de basquete .</p><p>A marca independente de streetwear Andrew , de Miami, criou uma coleção-cápsula oficial com a Rockstar Games, desenvolvedora do jogo. A linha reúne 20 peças, entre camisetas, moletons, jaquetas e bonés, com referências à paisagem de Vice City .</p><p>A parceria começou ainda durante a produção do jogo , quando os fundadores da marca colaboraram com a equipe da Rockstar na representação de Miami no ambiente virtual. O lançamento se tornou o maior da história da Andrew .</p><p>O GTA 6 chegou ao outro lado do Atlântico. Em Londres , a loja de departamentos Selfridges promoveu uma ocupação temática dedicada ao universo da produção. A experiência contou com ambientação inspirada em Vice City e produtos oficiais como camisetas, bonés, bolsas e jaquetas.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/colunas/ilca-maria-estevao/universo-ficticio-de-gta-6-invade-o-mercado-da-moda-com-colecoes-tematicas",
         "fontesAdicionais": [
           {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
           },
           {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Jornalista, comentarista de TV e radialista em Portugal, é formada em direito e autora de livros como 'Carta a um Jovem Decente'"
+            "resposta": "O universo de Grand Theft Auto VI (GTA 6) ultrapassou as telas e chegou ao mercado da moda . Inspiradas na estética de Vice City , cidade fictícia que serve de cenário para o jogo, marcas como Nike, RIMOWA e Selfridges lançaram produtos e coleções especiais, que vão de tênis a acessórios de luxo ."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O resultado é uma amálgama idiota de ilusões e clichês. Para muitos portugueses, o Brasil divide-se entre as famílias grã-finas, que todos os dias comem \"um pequeno-almoço de novela\" (a expressão é tão comum que uma cadeia de supermercados fez uma campanha publicitária há meses com esse slogan) servidas por uma vasta criadagem, e uma população imensa, composta, na sua esmagadora maioria, por manicures, empregados de mesa, atores, cantores, criminosos favelados e prostitutas."
+            "resposta": "Com isso, as marcas encontraram outras maneiras de aproveitar o fenômeno: lançamentos limitados, coleções temáticas e experiências presenciais permitem que os fãs levem referências de Vice City para sua vida real ."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Há uns dias, a forma como se olha o Brasil em Portugal gerou polêmica nas redes sociais e até teve cobertura televisiva. Um zangado pai brasileiro divulgou um vídeo que se tornou viral, mostrando o livro da filha usado na escola portuguesa, onde consta uma fotografia de uma casa de banho no Brasil representada por um espaço sujo e sem condições."
+            "resposta": "GTA 6 é um dos lançamentos mais aguardados da indústria dos games"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A verdade é que, permanentemente, também sinto que o Brasil de hoje passa ao lado até de muitos portugueses esclarecidos. Um Brasil que é a maior economia da América Latina (sete vezes maior do que a de Portugal), que não se resume à exportação de matérias-primas e que tem grandes marcas industriais e tecnológicas como a Embraer, a WEG, o Nubank ou o Pix."
+            "resposta": "GTA 6 segue como um dos títulos mais aguardados da Rockstar Games para 2026"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Ao partilhar estas considerações com uma amiga paulista, a sua resposta desconcertou-me. \"Sabe, Mafalda, o problema não é dos portugueses. O problema é que os brasileiros também não fazem ideia do que é Brasil.\" Fiquei a pensar que é mesmo preciso ultrapassar esse \"complexo de vira-lata\" de que tão bem falava Nelson Rodrigues."
+            "resposta": "GTA 6 gerou grande expectativa após recordes de audiência dos trailers"
           }
         ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2024/04/02/1712101950660c9a3ebd3d3_1712101950_3x2_rt.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/opiniao-mafalda-anjos-a-idiotia-portuguesa-sobre-o-brasil.jpg",
+        "imagemOriginal": "https://i.metroimg.com/XEquD4XfPHyOuFXSzRBWcJ6oY_U81LaH7x9WNbAi2r4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/colecoes-de-moda-gta-theofficialselfridges.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/universo-ficticio-de-gta-6-invade-o-mercado-da-moda-com-colecoes-tematicas.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -154,55 +94,7 @@
       "dataFonte": "2026-11-23T02:15:42.000Z",
       "resumoFonte": "Em vídeo, ex-desembargador lamentou o apoio de parte dos eleitores cristãos a Lula e criticou o Congresso Nacional",
       "imagem": "https://static.poder360.com.br/uploads/2026/11/palacio-planalto-vermelho-1200x675.png",
-      "descobertaEm": "2026-11-23T02:18:44.667Z",
-      "reportagem": {
-        "titulo": "Sebastião Coelho critica luz vermelha no Planalto e cobra explicação",
-        "slug": "sebastiao-coelho-critica-luz-vermelha-no-planalto-e-cobra-explicacao",
-        "categoria": "Fé e Sociedade",
-        "data": "2026-11-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/sebastiao-coelho-critica-luz-vermelha-no-planalto-e-cobra-explicacao.jpg",
-        "resumo": "Em vídeo, ex-desembargador lamentou o apoio de parte dos eleitores cristãos a Lula e criticou o Congresso Nacional.",
-        "conteudo": "<p>Em vídeo, ex-desembargador lamentou o apoio de parte dos eleitores cristãos a Lula e criticou o Congresso Nacional</p><h2>O contexto da decisão judicial</h2><p>O desembargador aposentado do Tribunal de Justiça do Distrito Federal e dos Territórios, Sebastião Coelho , criticou, no sábado (21.nov.2026), a iluminação vermelha do Palácio do Planalto, em Brasília.</p><p>Em vídeo publicado nas redes sociais, ele questionou a escolha da cor para a sede do governo do presidente Luiz Inácio Lula da Silva (PT).</p><p>A gravação foi feita por volta das 21h10, em frente ao palácio. Coelho associou a iluminação à orientação política do governo e criticou eleitores cristãos que apoiaram Lula.</p><h2>Contexto e informações complementares</h2><p>“É impressionante que uma parte dos cristãos brasileiros tenha votado para isso, para ver o símbolo máximo da nossa representação, que é o Palácio do Governo, todo iluminado de vermelho. É lamentável” , afirmou.</p><p>O desembargador aposentado também criticou o Congresso Nacional e cobrou atuação dos parlamentares em defesa da população. Ao fim da gravação, afirmou que continuará resistindo, sem especificar quais medidas pretende adotar.</p><p>Coelho disputou uma vaga ao Senado pelo Distrito Federal nas eleições de outubro de 2026, mas não foi eleito. Recebeu 67.396 votos, equivalentes a 2,09% dos votos válidos.</p><p>O Palácio do Planalto dispõe de um sistema de iluminação digital que permite alterar as cores da fachada em campanhas institucionais, datas comemorativas e ações de conscientização.</p><p>A cor vermelha já foi utilizada em iniciativas relacionadas à doação de sangue e à prevenção ao HIV/aids. Portanto, a iluminação não representa necessariamente uma manifestação político-partidária.</p><p>O Poder360 questionou a Secom (Secretaria de Comunicação Social da Presidência da República) sobre o motivo da iluminação vermelha no Palácio do Planalto, mas não obteve resposta até a publicação desta reportagem.</p><p>Este texto será atualizado assim que alguma manifestação for recebida.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-governo/sebastiao-coelho-critica-luz-vermelha-no-planalto-e-cobra-explicacao/",
-        "fontesAdicionais": [
-          {
-            "nome": "Igreja Cristã Maranata",
-            "url": "https://www.igrejacristamaranata.org.br/"
-          },
-          {
-            "nome": "Convenção Batista do ES",
-            "url": "https://www.batistas.es/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Em vídeo, ex-desembargador lamentou o apoio de parte dos eleitores cristãos a Lula e criticou o Congresso Nacional"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O desembargador aposentado do Tribunal de Justiça do Distrito Federal e dos Territórios, Sebastião Coelho , criticou, no sábado (21.nov.2026), a iluminação vermelha do Palácio do Planalto, em Brasília. Em vídeo publicado nas redes sociais, ele questionou a escolha da cor para a sede do governo do presidente Luiz Inácio Lula da Silva (PT)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A gravação foi feita por volta das 21h10, em frente ao palácio. Coelho associou a iluminação à orientação política do governo e criticou eleitores cristãos que apoiaram Lula."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "“É impressionante que uma parte dos cristãos brasileiros tenha votado para isso, para ver o símbolo máximo da nossa representação, que é o Palácio do Governo, todo iluminado de vermelho. É lamentável” , afirmou."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O desembargador aposentado também criticou o Congresso Nacional e cobrou atuação dos parlamentares em defesa da população. Ao fim da gravação, afirmou que continuará resistindo, sem especificar quais medidas pretende adotar."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/palacio-planalto-vermelho-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/sebastiao-coelho-critica-luz-vermelha-no-planalto-e-cobra-explicacao.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "descobertaEm": "2026-11-23T02:18:44.667Z"
     },
     {
       "id": "cb26b1a904cde50e",
@@ -222,7 +114,7 @@
         "data": "2026-11-22",
         "imagem": "https://noticiaes.com.br/imagens/lapis/trump-atribui-queda-da-bolsa-a-vitoria-democrata-e-diz-que-ira-intensificou-ataques.jpg",
         "resumo": "Em publicação na Truth Social, Trump disse \"ter previsto\" que os mercados acionários cairiam substancialmente caso os democratas vencessem",
-        "conteudo": "<p>O presidente dos Estados Unidos, Donald Trump, atribuiu neste domingo, 22, a queda das bolsas americanas à vitória dos democratas nas eleições legislativas e afirmou que o resultado eleitoral também estimulou a intensificação dos ataques iranianos.</p><h2>Dados e informações dos municípios</h2><p>Em publicação na Truth Social , Trump disse “ter previsto” que os mercados acionários cairiam substancialmente caso os democratas vencessem e que o Irã se tornaria mais agressivo.</p><p>“O Irã lançou mais drones e mísseis na última semana do que em qualquer outro momento em mais de um ano”, afirmou. O republicano disse ainda que os líderes iranianos consideram os democratas “fracos e ineficazes”.</p><p>Trump acusou ambos de tentar manter os preços do petróleo elevados pelo maior tempo possível e afirmou que as cotações caíram em nível recorde desde as eleições.</p><h2>Contexto e diferenças locais</h2><p>“É uma pena que os eleitores não tenham entendido isso antes de tomar a decisão, mas toda a eleição foi muito ‘estranha&#39;”, escreveu.</p><p>Em publicação na Truth Social, Trump disse &quot;ter previsto&quot; que os mercados acionários cairiam substancialmente caso os democratas vencessem</p><p>Após 19 dias de apuração, democratas alcançam maior bancada na Câmara dos EUA desde 1992</p><p>Partido chegou a 258 deputados após vitória confirmada neste domingo (22); resultado representa ganho de 44 cadeiras e amplia derrota de Donald Trump nas eleições de meio de mandato</p><p>Conflitos na África prejudicam combate à ebola no continente, diz OMS</p><p>Falha técnica na companhia aérea Delta atrasa milhares de voos em aeroporto dos EUA</p><p>Presidência da COP31 critica bloqueio do acordo por causa de &#39;uma expressão&#39;</p>",
+        "conteudo": "<p>O presidente dos Estados Unidos, Donald Trump, atribuiu neste domingo, 22, a queda das bolsas americanas à vitória dos democratas nas eleições legislativas e afirmou que o resultado eleitoral também estimulou a intensificação dos ataques iranianos.</p><h2>Dados e informações dos municípios</h2><p>Em publicação na Truth Social , Trump disse “ter previsto” que os mercados acionários cairiam substancialmente caso os democratas vencessem e que o Irã se tornaria mais agressivo.</p><p>“O Irã lançou mais drones e mísseis na última semana do que em qualquer outro momento em mais de um ano”, afirmou. O republicano disse ainda que os líderes iranianos consideram os democratas “fracos e ineficazes”.</p><p>Trump acusou ambos de tentar manter os preços do petróleo elevados pelo maior tempo possível e afirmou que as cotações caíram em nível recorde desde as eleições.</p><h2>Contexto e diferenças locais</h2><p>“É uma pena que os eleitores não tenham entendido isso antes de tomar a decisão, mas toda a eleição foi muito ‘estranha&#39;”, escreveu.</p><p>Em publicação na Truth Social, Trump disse &quot;ter previsto&quot; que os mercados acionários cairiam substancialmente caso os democratas vencessem</p><p>Após 19 dias de apuração, democratas alcançam maior bancada na Câmara dos EUA desde 1992</p><p>Partido chegou a 258 deputados após vitória confirmada neste domingo (22); resultado representa ganho de 44 cadeiras e amplia derrota de Donald Trump nas eleições de meio de mandato</p><p>Por que a COP31 terminou sem acordo? Entenda a disputa sobre combustíveis fósseis</p><p>Conflitos na África prejudicam combate à ebola no continente, diz OMS</p><p>Falha técnica na companhia aérea Delta atrasa milhares de voos em aeroporto dos EUA</p>",
         "fonteNome": "Jovem Pan - Feed",
         "fonteUrl": "https://jovempan.com.br/mundo/trump-atribui-queda-da-bolsa-a-vitoria-democrata-e-diz-que-ira-intensificou-ataques/",
         "fontesAdicionais": [
@@ -255,7 +147,7 @@
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Conflitos na África prejudicam combate à ebola no continente, diz OMS"
+            "resposta": "Por que a COP31 terminou sem acordo? Entenda a disputa sobre combustíveis fósseis"
           }
         ],
         "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/08/AFP__20260819__C6279FJ__v2__HighRes__776548139.jpg?w=1200&h=630&crop=1",
@@ -397,26 +289,26 @@
       }
     },
     {
-      "id": "f0e07abe182a28f3",
-      "titulo": "Gilmar critica imprensa por associar Master ao STF: ‘Problema estava na Faria Lima’",
+      "id": "b22ed9ba8b7c4ee8",
+      "titulo": "Presidente do Tribunal de Contas assume Prefeitura do Rio",
       "categoria": "Justiça",
       "radar": null,
       "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/gilmar-critica-imprensa-por-associar-master-ao-stf-problema-estava-na-faria-lima/",
-      "dataFonte": "2026-11-22T22:00:12.000Z",
-      "resumoFonte": "O ministro Gilmar Mendes, do Supremo Tribunal Federal (STF), criticou a cobertura da imprensa sobre as relações entre o Banco Master e integrantes da Corte. Em entrevista à emissora argentina Perfil na última sexta-feira, 20, o magistrado afirmou que “o problema do Master não residia na Praça dos Três Poderes, estava na Faria Lima”, em referência…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/Gilmar-Mendes-Modo-Fontevecchia-910x568.jpg.webp",
-      "descobertaEm": "2026-11-22T22:18:30.151Z",
+      "urlFonte": "https://revistaoeste.com/politica/presidente-do-tribunal-de-contas-assume-prefeitura-do-rio/",
+      "dataFonte": "2026-11-23T02:45:31.000Z",
+      "resumoFonte": "O presidente do Tribunal de Contas do Município do Rio de Janeiro (TCM), Luiz Antonio Guaraná, assume interinamente a Prefeitura do Rio nesta segunda-feira, 23. Ele substituirá Eduardo Cavaliere, que viajou à Inglaterra para participar de um programa de formação de lideranças políticas. A informação é do jornal O Globo . Guaraná começou a carreira…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/presidenteGuarana.jpg.webp",
+      "descobertaEm": "2026-11-23T02:52:41.031Z",
       "reportagem": {
-        "titulo": "Gilmar critica imprensa por associar Master ao STF: 'Problema estava na Faria Lima'",
-        "slug": "gilmar-critica-imprensa-por-associar-master-ao-stf-problema-estava-na-faria-lima",
+        "titulo": "Presidente do Tribunal de Contas assume Prefeitura do Rio",
+        "slug": "presidente-do-tribunal-de-contas-assume-prefeitura-do-rio",
         "categoria": "Justiça",
         "data": "2026-11-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/gilmar-critica-imprensa-por-associar-master-ao-stf-problema-estava-na-faria-lima.jpg",
-        "resumo": "Ministro também admite que 'talvez' falte autocontenção ao Supremo",
-        "conteudo": "<p>O ministro Gilmar Mendes, do STF, criticou a cobertura da imprensa sobre as relações do Banco Master com a Corte, afirmando que os problemas estavam na Faria Lima, e não no governo.</p><h2>O contexto da decisão judicial</h2><p>Em entrevista à emissora argentina Perfil, ele destacou falhas na fiscalização do banco e atribuiu à mídia a responsabilidade por tornar o assunto relevante.</p><p>Gilmar também reconheceu o poder do STF, questionando sua autocontenção, e comparou a resposta brasileira aos atos de 8 de janeiro de 2023 com a dos EUA após a invasão do Capitólio</p><p>O ministro Gilmar Mendes, do Supremo Tribunal Federal (STF), criticou a cobertura da imprensa sobre as relações entre o Banco Master e integrantes da Corte.</p><h2>Detalhes e consequências do caso</h2><p>Em entrevista à emissora argentina Perfil na última sexta-feira, 20, o magistrado afirmou que “o problema do Master não residia na Praça dos Três Poderes, estava na Faria Lima”, em referência ao centro financeiro de São Paulo.</p><p>Segundo Gilmar, houve problemas de fiscalização e regulação no funcionamento do banco. O ministro também mencionou a venda de certificados por meio de grandes bancos durante um longo período.</p><p>Sobre a repercussão do caso, atribuiu à imprensa parte da responsabilidade por colocar o assunto no centro das discussões. “A própria mídia se incumbiu de tornar esta questão a mais relevante”, afirmou.</p><p>O magistrado também foi perguntado sobre o desgaste da imagem do STF e o poder adquirido pela Corte nas últimas décadas.</p><p>Gilmar reconheceu que o tribunal talvez tenha se tornado um dos mais poderosos do mundo e levantou dúvidas sobre sua capacidade de limitar a própria atuação. “Talvez não haja uma autocontenção, self-restraint ”, disse.</p><p>O termo significa autocontenção judicial e se refere à postura de um tribunal de evitar interferências excessivas nas decisões dos outros Poderes.</p><p>Essa conduta exige respeito às competências do Executivo e do Legislativo, além de limitar a atuação do Judiciário aos casos em que sua intervenção é necessária.</p><p>Ao comparar a resposta brasileira aos atos de 8 de janeiro de 2023 com a reação dos Estados Unidos à invasão do Capitólio, em janeiro de 2021, Gilmar afirmou que o Brasil deu uma “lição para o mundo”.</p><p>O ministro destacou a atuação do STF na responsabilização dos participantes dos ataques e na condenação do ex-presidente Jair Bolsonaro pela chamada trama golpista .</p><p>Gilmar também sustentou que os crimes relacionados à suposta tentativa de golpe não podem receber indulto ou anistia. “Não se fala em anistia, porque se sabe que esses crimes não são anistiáveis”, afirmou.</p><p>Como exemplo, citou o caso do ex-deputado Daniel Silveira, beneficiado por um indulto concedido por Bolsonaro em 2022, mas cujo decreto foi posteriormente declarado inconstitucional pelo STF.</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/presidente-do-tribunal-de-contas-assume-prefeitura-do-rio.jpg",
+        "resumo": "Luiz Antonio Guaraná vai ocupar o cargo de forma interina; magistrado substitui Eduardo Cavaliere, que participa de seminário na Inglaterra",
+        "conteudo": "<p>O presidente do Tribunal de Contas do Município do Rio de Janeiro (TCM), Luiz Antonio Guaraná, assume interinamente a Prefeitura do Rio nesta segunda-feira, 23.</p><h2>O contexto da decisão judicial</h2><p>Ele substituirá Eduardo Cavaliere, que viajou à Inglaterra para participar de um programa de formação de lideranças políticas. A informação é do jornal O Globo .</p><p>Guaraná começou a carreira pública em 1993, na Subprefeitura da Barra da Tijuca e de Jacarepaguá, onde exerceu o cargo de subprefeito entre 1996 e 1999.</p><p>Depois, cumpriu quatro mandatos consecutivos de vereador e ocupou funções no Executivo municipal, entre elas as de secretário de Obras, chefe da Casa Civil e chefe do Gabinete do Prefeito.</p><h2>Detalhes e consequências do caso</h2><p>Em 2012, foi o vereador mais votado do Rio. Dois anos depois, a Câmara Municipal o indicou para o TCM, que preside desde abril de 2021. Guaraná também ocupa a presidência do Conselho Nacional de Presidentes dos Tribunais de Contas desde março de 2023.</p><p>Pela Lei Orgânica do Município, na ausência do prefeito e do vice-prefeito, a substituição cabe primeiro ao presidente da Câmara Municipal, Carlo Caiado (PSD) , seguido pelo primeiro vice-presidente da Casa, Willian Coelho (DC).</p><p>O presidente do TCM aparece em terceiro lugar nessa ordem. Até o momento, não há informações públicas sobre o motivo pelo qual Guaraná assumirá a prefeitura em vez dos dois vereadores.</p><p>O prefeito do Rio participa da 7ª edição do Programa de Formação Internacional da Comunitas, organização da sociedade civil que promove iniciativas voltadas à gestão pública. O encontro ocorre entre 23 e 27 de novembro, com atividades na Universidade de Oxford e em Londres.</p><p>A programação inclui debates sobre equilíbrio fiscal, inteligência artificial, segurança pública, desenvolvimento sustentável e políticas sociais.</p><p>Também estão previstas visitas técnicas a instituições britânicas e encontros com pesquisadores das universidades de Oxford e Cambridge.</p><p>Além de Cavaliere, a lista de participantes divulgada pela Comunitas inclui os governadores Eduardo Leite (PSD-RS), Raquel Lyra (PSD-PE) e Mateus Simões (PSD-MG), o prefeito do Recife, Victor Marques (PCdoB), o senador Alessandro Vieira (MDB-SE) e o deputado federal Pedro Paulo (PSD-RJ).</p><p>Segundo O Globo , Cavaliere permanecerá em Oxford até quarta-feira, 25. Ele era vice-prefeito e assumiu o comando do município depois que Eduardo Paes renunciou ao cargo para disputar o governo do Estado do Rio de Janeiro.</p>",
         "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/gilmar-critica-imprensa-por-associar-master-ao-stf-problema-estava-na-faria-lima/",
+        "fonteUrl": "https://revistaoeste.com/politica/presidente-do-tribunal-de-contas-assume-prefeitura-do-rio/",
         "fontesAdicionais": [
           {
             "nome": "STF Notícias",
@@ -431,112 +323,64 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O ministro Gilmar Mendes, do STF, criticou a cobertura da imprensa sobre as relações do Banco Master com a Corte, afirmando que os problemas estavam na Faria Lima, e não no governo. Em entrevista à emissora argentina Perfil, ele destacou falhas na fiscalização do banco e atribuiu à mídia a responsabilidade por tornar o assunto relevante."
+            "resposta": "O presidente do Tribunal de Contas do Município do Rio de Janeiro (TCM), Luiz Antonio Guaraná, assume interinamente a Prefeitura do Rio nesta segunda-feira, 23. Ele substituirá Eduardo Cavaliere, que viajou à Inglaterra para participar de um programa de formação de lideranças políticas. A informação é do jornal O Globo ."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O ministro Gilmar Mendes, do Supremo Tribunal Federal (STF), criticou a cobertura da imprensa sobre as relações entre o Banco Master e integrantes da Corte."
+            "resposta": "Guaraná começou a carreira pública em 1993, na Subprefeitura da Barra da Tijuca e de Jacarepaguá, onde exerceu o cargo de subprefeito entre 1996 e 1999. Depois, cumpriu quatro mandatos consecutivos de vereador e ocupou funções no Executivo municipal, entre elas as de secretário de Obras, chefe da Casa Civil e chefe do Gabinete do Prefeito."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Segundo Gilmar, houve problemas de fiscalização e regulação no funcionamento do banco. O ministro também mencionou a venda de certificados por meio de grandes bancos durante um longo período. Sobre a repercussão do caso, atribuiu à imprensa parte da responsabilidade por colocar o assunto no centro das discussões."
+            "resposta": "Em 2012, foi o vereador mais votado do Rio. Dois anos depois, a Câmara Municipal o indicou para o TCM, que preside desde abril de 2021. Guaraná também ocupa a presidência do Conselho Nacional de Presidentes dos Tribunais de Contas desde março de 2023."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "O magistrado também foi perguntado sobre o desgaste da imagem do STF e o poder adquirido pela Corte nas últimas décadas. Gilmar reconheceu que o tribunal talvez tenha se tornado um dos mais poderosos do mundo e levantou dúvidas sobre sua capacidade de limitar a própria atuação. “Talvez não haja uma autocontenção, self-restraint ”, disse."
+            "resposta": "Pela Lei Orgânica do Município, na ausência do prefeito e do vice-prefeito, a substituição cabe primeiro ao presidente da Câmara Municipal, Carlo Caiado (PSD) , seguido pelo primeiro vice-presidente da Casa, Willian Coelho (DC). O presidente do TCM aparece em terceiro lugar nessa ordem."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O termo significa autocontenção judicial e se refere à postura de um tribunal de evitar interferências excessivas nas decisões dos outros Poderes. Essa conduta exige respeito às competências do Executivo e do Legislativo, além de limitar a atuação do Judiciário aos casos em que sua intervenção é necessária."
+            "resposta": "O prefeito do Rio participa da 7ª edição do Programa de Formação Internacional da Comunitas, organização da sociedade civil que promove iniciativas voltadas à gestão pública. O encontro ocorre entre 23 e 27 de novembro, com atividades na Universidade de Oxford e em Londres."
           }
         ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/Gilmar-Mendes-Modo-Fontevecchia-910x568.jpg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/gilmar-critica-imprensa-por-associar-master-ao-stf-problema-estava-na-faria-lima.jpg",
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/presidenteGuarana.jpg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/presidente-do-tribunal-de-contas-assume-prefeitura-do-rio.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "4d06f4d36163af64",
-      "titulo": "Janones diz que quer contribuir para fim da “extrema direita” no mundo",
+      "id": "0f0f96b849a5c734",
+      "titulo": "Democratas garantem 258 cadeiras na Câmara, melhor resultado desde 1992",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-congresso/janones-diz-que-quer-contribuir-para-fim-da-extrema-direita-no-mundo/",
-      "dataFonte": "2026-11-22T22:03:03.000Z",
-      "resumoFonte": "Deputado pretende compartilhar estratégia digital usada na campanha de Lula com grupos \"progressistas\" de outros países",
-      "imagem": "https://static.poder360.com.br/uploads/2026/10/Captura-de-Tela-2026-10-27-as-15.29.42-1200x675.png",
-      "descobertaEm": "2026-11-22T22:18:30.151Z",
-      "reportagem": {
-        "titulo": "Janones diz que quer contribuir para fim da \"extrema direita\" no mundo",
-        "slug": "janones-diz-que-quer-contribuir-para-fim-da-extrema-direita-no-mundo",
-        "categoria": "Política Nacional",
-        "data": "2026-11-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/janones-diz-que-quer-contribuir-para-fim-da-extrema-direita-no-mundo.jpg",
-        "resumo": "Deputado pretende compartilhar estratégia digital usada na campanha de Lula com grupos \"progressistas\" de outros países.",
-        "conteudo": "<p>Deputado pretende compartilhar estratégia digital usada na campanha de Lula com grupos “progressistas” de outros países</p><h2>O contexto do cenário político</h2><p>O deputado federal André Janones (Rede-MG) afirmou que pretende compartilhar a estratégia digital usada na campanha de reeleição do presidente Luiz Inácio Lula da Silva (PT) para fortalecer grupos progressistas em outros países e contribuir para o fim da “extrema direita no mundo” .</p><p>A declaração foi dada em entrevista ao jornal espanhol El País , publicada neste domingo (22.nov.2026).</p><p>“Quero compartilhar meus conhecimentos para contribuir para o crescimento do campo progressista e, consequentemente, para o fim da extrema direita no mundo”, afirmou.</p><h2>Informações e repercussões do episódio</h2><p>Janones ganhou projeção internacional ao liderar a mobilização nas redes sociais que ajudou a impulsionar a campanha de Lula na reta final das eleições de 2026. A estratégia foi um dos elementos que marcaram a virada eleitoral do petista.</p><p>O deputado mineiro disse ao El País ter recebido convites de diferentes países para trabalhar em campanhas presidenciais, mas descartou atuar como consultor eleitoral.</p><p>Afirmou que pretende compartilhar sua experiência para fortalecer a esquerda e citou a Argentina como um dos países com potencial para reproduzir a mobilização brasileira.</p><p>O congressista se reuniu com a ex-presidente da Argentina, Cristina Kirchner (Partido Justicialista, esquerda), em 2 de novembro.</p><p>Janones integrou a comitiva de Lula em viagem internacional que passou por Espanha, Turquia e Filipinas. Em Madri, acompanhou o encontro entre o presidente brasileiro e Pedro Sánchez (Psoe, esquerda), presidente do governo espanhol.</p><p>O deputado afirmou que deseja a vitória de Sánchez e do Psoe (Partido Socialista Operário Espanhol), mas negou participação direta na campanha.</p><p>O canal de WhatsApp de Janones, conhecido como “Exército do Lula”, mobilizou milhões de apoiadores durante a campanha e perdeu parte dos participantes depois da eleição.</p><p>O deputado afirma que pretende reativar a mobilização no próximo mandato para ajudar o governo a ampliar sua popularidade e garantir apoio às pautas de Lula.</p><p>O deputado federal André Janones (Rede-MG) afirmou que pretende compartilhar a estratégia digital usada na campanha de reeleição do presidente Luiz Inácio Lula da Silva (PT) para fortalecer grupos progressistas em outros países e contribuir para o fim da</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-congresso/janones-diz-que-quer-contribuir-para-fim-da-extrema-direita-no-mundo/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Deputado pretende compartilhar estratégia digital usada na campanha de Lula com grupos “progressistas” de outros países"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O deputado federal André Janones (Rede-MG) afirmou que pretende compartilhar a estratégia digital usada na campanha de reeleição do presidente Luiz Inácio Lula da Silva (PT) para fortalecer grupos progressistas em outros países e contribuir para o fim da “extrema direita no mundo” ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "“Quero compartilhar meus conhecimentos para contribuir para o crescimento do campo progressista e, consequentemente, para o fim da extrema direita no mundo”, afirmou."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Janones ganhou projeção internacional ao liderar a mobilização nas redes sociais que ajudou a impulsionar a campanha de Lula na reta final das eleições de 2026. A estratégia foi um dos elementos que marcaram a virada eleitoral do petista."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O deputado mineiro disse ao El País ter recebido convites de diferentes países para trabalhar em campanhas presidenciais, mas descartou atuar como consultor eleitoral. Afirmou que pretende compartilhar sua experiência para fortalecer a esquerda e citou a Argentina como um dos países com potencial para reproduzir a mobilização brasileira."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/Captura-de-Tela-2026-10-27-as-15.29.42-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/janones-diz-que-quer-contribuir-para-fim-da-extrema-direita-no-mundo.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "Poder360",
+      "urlFonte": "https://www.poder360.com.br/poder-internacional/democratas-garantem-258-cadeiras-na-camara-melhor-resultado-desde-1992/",
+      "dataFonte": "2026-11-23T01:08:33.000Z",
+      "resumoFonte": "Partido amplia bancada em 20,6% e consolida maioria no Congresso; 4 disputas ainda aguardam definição. Leia no Poder360.",
+      "imagem": "https://static.poder360.com.br/uploads/2026/11/capa-congresso-eua-22.nov_.2026-1200x675.jpg",
+      "descobertaEm": "2026-11-23T01:18:32.718Z"
     },
     {
-      "id": "2c504b6d119e021f",
-      "titulo": "Real se desvaloriza mais de 17% desde vitória de Lula e impulsiona ativos de proteção",
+      "id": "cb5ad7fcc9d21dd7",
+      "titulo": "Trump reúne investidores em jantar enquanto criptomoeda própria despenca",
       "categoria": "Economia",
       "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://www1.folha.uol.com.br/mercado/2026/11/real-se-desvaloriza-mais-de-17-desde-vitoria-de-lula-e-impulsiona-ativos-de-protecao.shtml",
-      "dataFonte": "2026-11-23T01:00:00.000Z",
-      "resumoFonte": "O real é a moeda que mais se desvalorizou desde a vitória de Lula (PT) entre as 20 divisas mais negociadas do mundo, com recuo de 17,65%. O levantamento considera a lista do BIS (espécie de banco dos bancos centrais) das moedas com maior volume de negociações em operações financeiras.",
-      "imagem": "https://f.i.uol.com.br/fotografia/2019/01/31/15489701235c53688b5f2a1_1548970123_3x2_rt.jpg",
-      "descobertaEm": "2026-11-23T02:18:44.667Z",
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/mercado/trump-reune-investidores-em-jantar-enquanto-criptomoeda-propria-despenca/",
+      "dataFonte": "2026-11-23T04:25:40.000Z",
+      "resumoFonte": "Token criado pelo presidente dos EUA acumula forte desvalorização e atingiu mínima histórica abaixo de US$ 1",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Presidente-americano.webp?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-23T05:18:31.005Z",
       "reportagem": {
-        "titulo": "Real se desvaloriza mais de 17% desde vitória de Lula e impulsiona ativos de proteção",
-        "slug": "real-se-desvaloriza-mais-de-17-desde-vitoria-de-lula-e-impulsiona-ativos-de-protecao",
+        "titulo": "Trump reúne investidores em jantar enquanto criptomoeda própria despenca",
+        "slug": "trump-reune-investidores-em-jantar-enquanto-criptomoeda-propria-despenca",
         "categoria": "Economia",
-        "data": "2026-11-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/real-se-desvaloriza-mais-de-17-desde-vitoria-de-lula-e-impulsiona-ativos-de-protecao.jpg",
-        "resumo": "Queda no câmbio favorece empresas exportadoras, mas tende a pressionar a inflação",
-        "conteudo": "<p>O real é a moeda que mais se desvalorizou desde a vitória de Lula ( PT ) entre as 20 divisas mais negociadas do mundo, com recuo de 17,65%.</p><h2>Os números do levantamento</h2><p>O levantamento considera a lista do BIS (espécie de banco dos bancos centrais) das moedas com maior volume de negociações em operações financeiras.</p><p>A divisa brasileira lidera a lista de desvalorizações, seguida pelo rand sul-africano (-6,08%), pelo dólar australiano (-5,43%), pela coroa norueguesa (-4,64%) e pelo zloty polonês (-3,68) segundo dados da plataforma Investing.</p><p>A alta do dólar pode beneficiar alguns investimentos. Empresas exportadoras, por exemplo, tendem a ganhar com negociações na moeda estrangeira.</p><h2>Impactos e informações adicionais</h2><p>Na renda fixa, aplicações pós-fixadas atreladas ao CDI e títulos indexados à inflação podem ser alternativas para investidores em um cenário de incerteza e juros elevados.</p><p>A desvalorização do real é resultado de uma combinação de fatores internos e externos. No Brasil, o principal foco de preocupação dos investidores é a trajetória da dívida pública e a capacidade do governo de equilibrar as contas.</p><p>A dívida bruta do Brasil deve encerrar 2026 em 83,7% do PIB (Produto Interno Bruto) , o maior nível em cinco anos, segundo projeções do PLOA (Projeto de Lei Orçamentária Anual) de 2027. O avanço é de cerca de 12 pontos percentuais ao longo do atual mandato de Lula.</p><p>Para responder às preocupações do mercado, o governo apresentou o plano Moretti , com medidas para ajudar a alcançar o centro da meta de resultado primário —diferença entre receitas e despesas, excluídos os gastos com juros da dívida.</p><p>O Executivo estima que as medidas tenham impacto de R$ 46 bilhões a R$ 56 bilhões em 2027 . Desse total, porém, cerca de dois terços viriam do aumento da arrecadação, e não da redução de despesas.</p><p>Para analistas, o pacote é insuficiente para estabilizar a dívida, o que exigiria mudanças estruturais , como limitar os ganhos reais do salário mínimo e rever a vinculação dos gastos com saúde e educação à arrecadação.</p><p>A perspectiva de continuidade de uma política fiscal expansionista aumenta a percepção de risco dos investidores e o retorno exigido para aplicar no Brasil. Nas últimas semanas, o real e a Bolsa têm se desvalorizado, enquanto os juros futuros avançam.</p><p>Com o dólar em alta, produtos e insumos importados ficam mais caros, o que tende a pressionar a inflação.</p><p>Se o movimento persistir, aumenta o risco de os preços se afastarem da meta do Banco Central, o que pode levar a autarquia a manter a Selic elevada por mais tempo.</p><p>Essa expectativa contribui para a alta dos juros futuros, cujas taxas refletem as projeções do mercado para a trajetória da taxa básica no país.</p><p>&quot;Juros altos por mais tempo beneficiam a renda fixa e fazem o investidor priorizar esse tipo de aplicação.</p><p>Taxas elevadas também afetam a economia real e as empresas, que podem distribuir menos dividendos e ter menor valorização&quot;, diz Luan Aral, especialista em dólar da Genial Investimentos.</p><p>André Valério, economista sênior do Banco Inter, afirma que, em momentos de incerteza, aplicações pós-fixadas atreladas ao CDI tendem a ser uma alternativa mais conservadora, por apresentarem menor volatilidade no curto prazo.</p><p>&quot;Como o Copom ainda não sinalizou quando retomará o ciclo de cortes da Selic, a expectativa é que essas aplicações continuem oferecendo retornos elevados nos próximos meses&quot;.</p><p>Na Bolsa, analistas têm priorizado empresas com exposição internacional e receitas em dólar, em detrimento de companhias mais voltadas ao mercado interno.</p><p>Em relatório divulgado na última semana , o Morgan Stanley indicou ações de Petrobras, Vale, Embraer, Suzano, JBS e Axia Energia.</p><p>A instituição financeira, contudo, rebaixou sua recomendação para a Bolsa brasileira de neutra para abaixo da média neste ano e projetou uma queda de 7% do mercado. Desde a reeleição de Lula, o Ibovespa acumula recuo de 17%, de cerca de 200 mil para 167 mil pontos.</p><p>A valorização do dólar também é reforçada pelo cenário externo. O índice DXY, que mede a força da moeda americana em relação a seis divisas de economias desenvolvidas, avançou ao maior patamar desde abril de 2025.</p><p>A procura pela moeda americana reflete, entre outros fatores, a expectativa de aumento dos juros nos Estados Unidos na reunião de 8 e 9 de dezembro do Fed (Federal Reserve, banco central americano).</p><p>De acordo com a ferramenta FedWatch, do CME Group, 95% das apostas do mercado apontam para uma elevação de 0,25 ponto percentual, que levaria a taxa básica ao intervalo entre 4% e 4,25%.</p>",
-        "fonteNome": "UOL Notícias",
-        "fonteUrl": "https://www1.folha.uol.com.br/mercado/2026/11/real-se-desvaloriza-mais-de-17-desde-vitoria-de-lula-e-impulsiona-ativos-de-protecao.shtml",
+        "data": "2026-11-23",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/trump-reune-investidores-em-jantar-enquanto-criptomoeda-propria-despenca.jpg",
+        "resumo": "Token criado pelo presidente dos EUA acumula forte desvalorização e atingiu mínima histórica abaixo de US$ 1",
+        "conteudo": "<p>O presidente dos Estados Unidos, Donald Trump, já lucrou centenas de milhões de dólares com sua criptomoeda meme $TRUMP.</p><h2>Dados e contexto do setor</h2><p>Mas, durante um jantar realizado neste domingo para os maiores investidores do token, ele afirmou que seu objetivo ao apoiar a moeda digital era fortalecer a competitividade econômica dos Estados Unidos.</p><p>&quot;Estou fazendo isso pelos Estados Unidos (...) Se não fizermos isso, a China fará&quot;, disse Trump aos participantes no clube de golfe de sua propriedade nos arredores de Washington.</p><p>Foi a terceira vez que Trump organizou um evento de gala para os principais detentores de sua criptomoeda meme, que chegou a atingir o valor de US$ 75, mas caiu para uma mínima histórica inferior a US$ 1.</p><h2>Impactos e informações adicionais</h2><p>O jantar privado deste ano foi mais discreto do que o primeiro evento, realizado no ano passado, segundo os participantes. A reunião teve um público menor e envolveu muito menos dinheiro desta vez.</p><p>Os convidados foram selecionados com base no volume de tokens $TRUMP que mantiveram, ponderado pelo tempo de posse, entre 30 de setembro e 16 de novembro.</p><p>Os organizadores indicaram que 185 carteiras digitais de criptomoedas atenderam aos critérios para participar do jantar deste domingo, embora o ranking no site do clube da moeda $TRUMP listasse apenas 130 carteiras quando a competição terminou, em 16 de novembro.</p><p>Juntas, as carteiras listadas detinham apenas US$ 8,6 milhões em tokens — muito abaixo dos US$ 148 milhões registrados para o jantar de maio de 2025, que contou com a presença de 220 investidores ricos do setor de criptomoedas .</p><p>Os participantes deste domingo aguardaram sob a chuva para entrar no clube Trump National, em Sterling, na Virgínia. Os convidados descreveram o ambiente interno como discreto.</p><p>O clima foi muito diferente do primeiro evento de gala, quando os vencedores da competição chegaram ao clube em carros esportivos de luxo, vestidos com smokings, enquanto manifestantes gritavam palavras de ordem e batiam os pés do lado de fora, no momento em que o helicóptero presidencial Marine One pousava.</p><p>O maior detentor da criptomoeda $TRUMP no evento de maio de 2025 foi o bilionário do setor de criptomoedas Justin Sun, nascido na China , que possuía US$ 18,5 milhões em tokens. Desta vez, Sun não compareceu para distribuir autógrafos.</p><p>Os participantes puderam jantar filé-mignon grelhado e linguado preparado na frigideira enquanto ouviam discursos de personalidades como Kevin O&#39;Leary, do programa de televisão &quot;Shark Tank&quot;, e Tristan Thompson, ex-jogador da NBA.</p><p>Segundo o site da competição, os 29 primeiros colocados participariam de uma recepção VIP com o presidente e receberiam uma sacola de presentes com produtos da marca Trump. Os quatro primeiros também ganhariam um relógio com a marca Trump, feito de ouro 18 quilates.</p><p>Morten Christensen, fundador da plataforma de criptomoedas Airdrop Alert, afirmou que conseguiu ficar entre os 29 primeiros com US$ 41 mil em tokens $TRUMP, calculados pelo tempo de posse, utilizando uma estratégia de proteção financeira — comprando e vendendo a moeda por meio de contratos futuros perpétuos — que garantiu que ele não tivesse prejuízo.</p><p>No entanto, Christensen afirmou que teve negado o acesso à recepção VIP durante o evento.</p><p>&quot;Perguntei a cerca de cinco pessoas da equipe&quot;, disse ele na noite de domingo, acrescentando que foi orientado a enviar um e-mail ao suporte ao cliente.</p><p>&quot;Obviamente, ninguém vai responder agora&quot;, afirmou Christensen, que acrescentou ter sido retirado do evento por volta das 19h por &quot;compartilhar informações com a imprensa&quot;.</p><p>Ele aguardou do lado de fora, sob a chuva, enquanto sua irmã permanecia no interior do clube.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/mercado/trump-reune-investidores-em-jantar-enquanto-criptomoeda-propria-despenca/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil Economia",
@@ -551,30 +395,42 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O real é a moeda que mais se desvalorizou desde a vitória de Lula ( PT ) entre as 20 divisas mais negociadas do mundo, com recuo de 17,65%. O levantamento considera a lista do BIS (espécie de banco dos bancos centrais) das moedas com maior volume de negociações em operações financeiras."
+            "resposta": "O presidente dos Estados Unidos, Donald Trump, já lucrou centenas de milhões de dólares com sua criptomoeda meme $TRUMP. Mas, durante um jantar realizado neste domingo para os maiores investidores do token, ele afirmou que seu objetivo ao apoiar a moeda digital era fortalecer a competitividade econômica dos Estados Unidos."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A divisa brasileira lidera a lista de desvalorizações, seguida pelo rand sul-africano (-6,08%), pelo dólar australiano (-5,43%), pela coroa norueguesa (-4,64%) e pelo zloty polonês (-3,68) segundo dados da plataforma Investing."
+            "resposta": "\"Estou fazendo isso pelos Estados Unidos (...) Se não fizermos isso, a China fará\", disse Trump aos participantes no clube de golfe de sua propriedade nos arredores de Washington."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A alta do dólar pode beneficiar alguns investimentos. Empresas exportadoras, por exemplo, tendem a ganhar com negociações na moeda estrangeira. Na renda fixa, aplicações pós-fixadas atreladas ao CDI e títulos indexados à inflação podem ser alternativas para investidores em um cenário de incerteza e juros elevados."
+            "resposta": "Foi a terceira vez que Trump organizou um evento de gala para os principais detentores de sua criptomoeda meme, que chegou a atingir o valor de US$ 75, mas caiu para uma mínima histórica inferior a US$ 1."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "A desvalorização do real é resultado de uma combinação de fatores internos e externos. No Brasil, o principal foco de preocupação dos investidores é a trajetória da dívida pública e a capacidade do governo de equilibrar as contas."
+            "resposta": "O jantar privado deste ano foi mais discreto do que o primeiro evento, realizado no ano passado, segundo os participantes. A reunião teve um público menor e envolveu muito menos dinheiro desta vez. Os convidados foram selecionados com base no volume de tokens $TRUMP que mantiveram, ponderado pelo tempo de posse, entre 30 de setembro e 16 de novembro."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A dívida bruta do Brasil deve encerrar 2026 em 83,7% do PIB (Produto Interno Bruto) , o maior nível em cinco anos, segundo projeções do PLOA (Projeto de Lei Orçamentária Anual) de 2027. O avanço é de cerca de 12 pontos percentuais ao longo do atual mandato de Lula."
+            "resposta": "Os organizadores indicaram que 185 carteiras digitais de criptomoedas atenderam aos critérios para participar do jantar deste domingo, embora o ranking no site do clube da moeda $TRUMP listasse apenas 130 carteiras quando a competição terminou, em 16 de novembro."
           }
         ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2019/01/31/15489701235c53688b5f2a1_1548970123_3x2_rt.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/real-se-desvaloriza-mais-de-17-desde-vitoria-de-lula-e-impulsiona-ativos-de-protecao.jpg",
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Presidente-americano.webp?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/trump-reune-investidores-em-jantar-enquanto-criptomoeda-propria-despenca.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
+    },
+    {
+      "id": "7f8d1b5cb2f8577e",
+      "titulo": "Com salários de até R$ 2,8 mil, DF inicia semana com 524 vagas de emprego",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/distrito-federal/com-salarios-de-ate-r-28-mil-df-inicia-semana-com-524-vagas-de-emprego",
+      "dataFonte": "2026-11-23T01:23:17.000Z",
+      "resumoFonte": "Maior quantidade de vagas é para operador de caixa, com 118 ofertas em aberto. Interessados devem buscar uma das 16 agências do trabalhador",
+      "imagem": "https://i.metroimg.com/3LtGnOZg6z41Fo3EIpcREOY9DeQAol2EuVk12AVzRl8/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2021/04/04120243/140920-HB-Agencia-do-trabalhador4-1.jpg",
+      "descobertaEm": "2026-11-23T02:18:44.667Z"
     },
     {
       "id": "175ef0b6fac05c87",
@@ -586,67 +442,7 @@
       "dataFonte": "2026-11-23T00:02:49.000Z",
       "resumoFonte": "“Lei dos Centavos Comuns” extingue oficialmente a produção da moeda de 1 centavo de dólar, conhecida como “penny”",
       "imagem": "https://static.poder360.com.br/uploads/2026/11/penny-unsplash-1200x675.jpg",
-      "descobertaEm": "2026-11-23T00:18:28.193Z",
-      "reportagem": {
-        "titulo": "Trump assina lei que encerra produção de moeda de US$ 0,01",
-        "slug": "trump-assina-lei-que-encerra-producao-de-moeda-de-us-0-01",
-        "categoria": "Economia",
-        "data": "2026-11-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/trump-assina-lei-que-encerra-producao-de-moeda-de-us-0-01.jpg",
-        "resumo": "“Lei dos Centavos Comuns” extingue oficialmente a produção da moeda de 1 centavo de dólar, conhecida como “penny”.",
-        "conteudo": "<p>“Lei dos Centavos Comuns” extingue oficialmente a produção da moeda de 1 centavo de dólar, conhecida como “penny”</p><h2>Dados e contexto do setor</h2><p>O presidente dos Estados Unidos, Donald Trump (Republicano), sancionou, na 6ª feira (20.nov.2026), uma lei que determina a interrupção da produção das moedas de US$ 0,01, conhecidas pelos norte-americanos como “penny”.</p><p>Aprovado em setembro com apoio dos 2 partidos do Congresso, o Common Cents Act (Lei dos Centavos Comuns, na tradução em português) formaliza uma ordem para que o Departamento do Tesouro interrompa a cunhagem da moeda, com exceção de edições especiais para colecionadores.</p><p>A medida teve aval da Câmara e do Senado em votação oral, sem oposição.</p><h2>Impactos e informações adicionais</h2><p>Segundo a autora do projeto, deputada Lisa McClain (Partido Republicano), a cunhagem de cada moeda de US$ 0,01 custava US$ 0,04 ao Tesouro norte-americano. A congressista afirma que a mudança trará uma economia de US$ 85 milhões por ano ao governo.</p><p>Os EUA já haviam paralisado a produção das moedas de US$ 0,01 em novembro de 2025, depois de um pedido de Trump ao Departamento do Tesouro. Na prática, a sanção da lei só formaliza essa decisão.</p><p>Atualmente, há 114 bilhões de moedas de US$ 0,01 nos EUA, segundo o Departamento do Tesouro. Os exemplares seguirão circulando “pelo maior tempo possível” , a depender do “comportamento dos consumidores” , de acordo com o órgão.</p><p>O Common Cents Act também estabelece diretrizes para o arredondamento de transações em dinheiro. O Tesouro recomenda que as empresas arredondem os valores só nessas transações, para o múltiplo de 5 centavos.</p><p>O texto também determina que a moeda de 5 centavos seja confeccionada com materiais que reduzam custos de produção. A fabricação de cada unidade desse tipo de moeda custa US$ 0,14, segundo o Tesouro.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-internacional/trump-assina-lei-que-encerra-producao-de-moeda-de-us-001/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "“Lei dos Centavos Comuns” extingue oficialmente a produção da moeda de 1 centavo de dólar, conhecida como “penny”"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O presidente dos Estados Unidos, Donald Trump (Republicano), sancionou, na 6ª feira (20.nov.2026), uma lei que determina a interrupção da produção das moedas de US$ 0,01, conhecidas pelos norte-americanos como “penny”."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Aprovado em setembro com apoio dos 2 partidos do Congresso, o Common Cents Act (Lei dos Centavos Comuns, na tradução em português) formaliza uma ordem para que o Departamento do Tesouro interrompa a cunhagem da moeda, com exceção de edições especiais para colecionadores. A medida teve aval da Câmara e do Senado em votação oral, sem oposição."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Segundo a autora do projeto, deputada Lisa McClain (Partido Republicano), a cunhagem de cada moeda de US$ 0,01 custava US$ 0,04 ao Tesouro norte-americano. A congressista afirma que a mudança trará uma economia de US$ 85 milhões por ano ao governo."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os EUA já haviam paralisado a produção das moedas de US$ 0,01 em novembro de 2025, depois de um pedido de Trump ao Departamento do Tesouro. Na prática, a sanção da lei só formaliza essa decisão."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/penny-unsplash-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/trump-assina-lei-que-encerra-producao-de-moeda-de-us-0-01.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "c7dd33a6ad538ffc",
-      "titulo": "Dólar digital chega a R$ 6,15 em negociação neste domingo",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-economia/dolar-digital-chega-a-r-615-em-negociacao-neste-domingo/",
-      "dataFonte": "2026-11-22T22:23:52.000Z",
-      "resumoFonte": "Cotação do USDT na corretora OKX se distancia do dólar comercial e pode sinalizar pressão sobre o real na abertura do mercado",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/foto-economia-bolsa-dolar-pqii-nov-1200x675.jpeg",
-      "descobertaEm": "2026-11-22T22:32:14.131Z"
+      "descobertaEm": "2026-11-23T00:18:28.193Z"
     },
     {
       "id": "790e4d5abc150f1c",
@@ -661,26 +457,26 @@
       "descobertaEm": "2026-11-22T23:21:04.404Z"
     },
     {
-      "id": "624643ba9e704e5b",
-      "titulo": "Chanceler argentino repete Milei e, sem provas, coloca em dúvida vitória de Lula",
-      "categoria": "Cidades",
+      "id": "3ab461894851f224",
+      "titulo": "Metrópoles Music: Gipsy Kings soma oito indicações ao Grammy e uma vitória",
+      "categoria": "Cultura",
       "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://www1.folha.uol.com.br/mundo/2026/11/chanceler-argentino-repete-milei-e-sem-provas-coloca-em-duvida-vitoria-de-lula.shtml",
-      "dataFonte": "2026-11-22T21:57:00.000Z",
-      "resumoFonte": "",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/08/05/17859425546a73521a4e240_1785942554_3x2_rt.jpg",
-      "descobertaEm": "2026-11-22T22:18:30.151Z",
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/metropoles-music/show-df-gipsy-kings-grammy",
+      "dataFonte": "2026-11-23T05:00:48.000Z",
+      "resumoFonte": "Apresentação inédita de Gipsy Kings e Sidney Magal acontece em 5 de dezembro no Ulysses Centro de Convenções, em Brasília",
+      "imagem": "https://i.metroimg.com/f6FZtLZuyQRgh7RPoocHMuOi1Qscr3lJmNo27afBhWQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/gipsy-kings.jpeg",
+      "descobertaEm": "2026-11-23T05:18:31.005Z",
       "reportagem": {
-        "titulo": "Chanceler argentino repete Milei e, sem provas, coloca em dúvida vitória de Lula",
-        "slug": "chanceler-argentino-repete-milei-e-sem-provas-coloca-em-duvida-vitoria-de-lula",
-        "categoria": "Cidades",
-        "data": "2026-11-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/chanceler-argentino-repete-milei-e-sem-provas-coloca-em-duvida-vitoria-de-lula.jpg",
-        "resumo": "Fala veio após Pablo Quirno ser questionado sobre o presidente argentino não ter cumprimentado o brasileiro",
-        "conteudo": "<p>O ministro das Relações Exteriores da Argentina , Pablo Quirno, disse, neste sábado (21), sem nenhuma evidência, que &quot;situações&quot; colocaram em dúvida o processo eleitoral brasileiro deste ano.</p><h2>Dados e informações dos municípios</h2><p>A fala foi feita após ele ser questionado por apresentadores de um programa de televisão da emissora argentina Eltrece o motivo de o presidente Javier Milei não ter cumprimentado Luiz Inácio Lula da Silva ( PT ) por sua reeleição.</p><p>&quot;Veja bem, basicamente porque houve situações, dentro do processo eleitoral que, de certa forma, colocaram em dúvida todo o cenário&quot;, disse. Apesar disso, ponderou que não é uma questão de a Argentina reconhecer ou não a vitória do presidente Lula .</p><p>&quot;Quem reconhece o resultado da eleição é o próprio Tribunal Eleitoral brasileiro. Portanto, o fato de nós dizermos &quot;sim&quot; ou &quot;não&quot; não altera o resultado de forma alguma&quot;, acrescentou.</p><h2>Contexto e diferenças locais</h2><p>Quirno também criticou a medida do governo brasileiro de convocar o embaixador do Brasil em Buenos Aires, Julio Bitelli, e seu homólogo argentino em Brasília, Daniel Raimondi.</p><p>Semanas depois, diante da escalada de ofensas de Milei, o Itamaraty decidiu manter Bitelli no Brasil e dispensar Raimondi —um inédito rebaixamento das relações entre os dois países.</p><p>O chanceler argentino disse ser &quot;bem-vindo&quot; que o governo brasiliero reverta essa decisão e que mantenha suas relações, apesar de ter afirmado que o comércio entre os dois países não tenha sido afetado com a medida.</p><p>Quirno ainda citou o fato do governo Lula ter devolvido à Argentina, em janeiro, a responsabilidade pela representação diplomática do país na Venezuela . Segundo ele, a medida deixou o país sem representação, &quot;colocando a vida de nossos cidadãos em risco&quot;.</p><p>&quot;Nós não decidimos, naquele momento, retirar o embaixador, algo que, na nossa perspectiva, seria muito mais grave para a relação diplomática do que a disputa eleitoral&quot;, afirmou.</p><p>A custódia da embaixada e das atividades consulares argentinas em Caracas estava sob os cuidados do Itamaraty desde agosto de 2024, em meio a uma crise entre o regime de Nicolás Maduro e o governo Javier Milei .</p><p>A mudança de posição do Brasil ocorreu diante de atritos entre Lula e Milei em relação à operação americana que tirou Maduro do poder. O presidente argentino fez uma série de provocações ao líder brasileiro, com críticas à sua antiga relação com o regime chavista.</p><p>O porta-voz de Milei, Adrian Ravier, afirmou a jornalistas, no mês passado, que não haverá nenhum tipo de comunicado do governo argentino em relação à vitória de Lula sobre Flávio Bolsonaro ( PL ), aliado do ultraliberal.</p><p>&quot;Tomou-se nota do resultado eleitoral no Brasil&quot;, afirmou o funcionário na entrevista coletiva semanal na Casa Rosada ao responder por que ainda não houve manifestação sobre as eleições .</p><p>&quot;Em 2023, quando Javier Milei foi eleito presidente, não houve qualquer gesto do presidente Lula para cumprimentá-lo pessoalmente, nem nada do tipo.&quot;</p><p>Após a derrota, Flávio contou com auxílio do governo Milei para fugir do Brasil para os Estados Unidos , deixando o país pela fronteira com a Argentina.</p><p>O ministro das Relações Exteriores da Argentina , Pablo Quirno, disse, neste sábado (21), sem nenhuma evidência, que &quot;situações&quot; colocaram em dúvida o processo eleitoral brasileiro deste ano.</p><p>A fala foi feita após ele ser questionado por apresentadores de um programa de televisão da emissora argentina Eltrece o motivo de o presidente Javier Milei não ter cumprimentado Luiz Inácio Lula da Silva ( PT ) por sua reeleição.</p><p>&quot;Veja bem, basicamente porque houve situações, dentro do processo eleitoral que, de certa forma, colocaram em dúvida todo o cenário&quot;, disse.</p><p>Apesar disso, ponderou que não é uma questão de a Argentina reconhecer ou não a vitória do presidente Lula .</p>",
-        "fonteNome": "UOL Notícias",
-        "fonteUrl": "https://www1.folha.uol.com.br/mundo/2026/11/chanceler-argentino-repete-milei-e-sem-provas-coloca-em-duvida-vitoria-de-lula.shtml",
+        "titulo": "Metrópoles Music: Gipsy Kings soma oito indicações ao Grammy e uma vitória",
+        "slug": "metropoles-music-gipsy-kings-soma-oito-indicacoes-ao-grammy-e-uma-vitoria",
+        "categoria": "Cultura",
+        "data": "2026-11-23",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/metropoles-music-gipsy-kings-soma-oito-indicacoes-ao-grammy-e-uma-vitoria.jpg",
+        "resumo": "Apresentação inédita de Gipsy Kings e Sidney Magal acontece em 5 de dezembro no Ulysses Centro de Convenções, em Brasília",
+        "conteudo": "<p>O público de Brasília terá a oportunidade de conferir ao vivo o show do Gipsy Kings , banda francesa que acumula oito indicações e uma vitória no Grammy .</p><h2>As informações principais do assunto</h2><p>O grupo sobe ao palco do Centro de Convenções Ulysses Guimarães no dia 5 de dezembro, em uma apresentação inédita com participação especial de Sidney Magal, promovida pelo Metrópoles Music .</p><p>O show marca o retorno da banda à capital federal após a apresentação de dezembro de 2024.</p><p>A vitória no Grammy veio em 2014, com o álbum Savor Flamenco, premiado na categoria Melhor Álbum de Música Global. Antes disso, o grupo já havia recebido sete indicações à premiação.</p><h2>Contexto e informações complementares</h2><p>Gipsy Kings e Sidney Magal anunciaram turnê inédita pelo Brasil</p><p>Pela primeira vez, a banda francesa e o cantor brasileiro vão dividir o palco em um espetáculo criado exclusivamente para o público do país</p><p>A banda une-se a Sidney Magal, um dos ícones da música brasileira, que completa 60 anos de carreira em 2026</p><p>O repertório do show em Brasília combina os sucessos dos dois artistas. O Gipsy Kings apresenta músicas como Bamboleo, Djobi Djoba, Baila Me e Volare, além de uma versão de Hotel California.</p><p>Já Sidney Magal inclui no setlist hits como Meu Sangue Ferve por Você, Sandra Rosa Madalena e Tenho. Clique aqui e garanta ingressos para o show de Sidney Magal e Gipsy Kings</p><p>O Metrópoles Music se consolidou como uma das principais plataformas de grandes shows em Brasília.</p><p>Desde a estreia com a banda The Killers, o projeto já recebeu artistas nacionais e internacionais, como Kiss, Deep Purple, Dionne Warwick, Diana Krall, Il Volo, Joss Stone, Marisa Monte, ABBA The Show, Air Supply e o próprio Gipsy Kings.</p><p>A iniciativa também integrou a realização de apresentações de Caetano Veloso e Liniker na capital federal, reforçando a proposta de levar experiências musicais únicas ao público brasiliense.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/metropoles-music/show-df-gipsy-kings-grammy",
         "fontesAdicionais": [
           {
             "nome": "A Gazeta",
@@ -695,27 +491,27 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O ministro das Relações Exteriores da Argentina , Pablo Quirno, disse, neste sábado (21), sem nenhuma evidência, que \"situações\" colocaram em dúvida o processo eleitoral brasileiro deste ano."
+            "resposta": "O público de Brasília terá a oportunidade de conferir ao vivo o show do Gipsy Kings , banda francesa que acumula oito indicações e uma vitória no Grammy . O grupo sobe ao palco do Centro de Convenções Ulysses Guimarães no dia 5 de dezembro, em uma apresentação inédita com participação especial de Sidney Magal, promovida pelo Metrópoles Music ."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "A fala foi feita após ele ser questionado por apresentadores de um programa de televisão da emissora argentina Eltrece o motivo de o presidente Javier Milei não ter cumprimentado Luiz Inácio Lula da Silva ( PT ) por sua reeleição."
+            "resposta": "A vitória no Grammy veio em 2014, com o álbum Savor Flamenco, premiado na categoria Melhor Álbum de Música Global. Antes disso, o grupo já havia recebido sete indicações à premiação."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "\"Veja bem, basicamente porque houve situações, dentro do processo eleitoral que, de certa forma, colocaram em dúvida todo o cenário\", disse. Apesar disso, ponderou que não é uma questão de a Argentina reconhecer ou não a vitória do presidente Lula ."
+            "resposta": "Gipsy Kings e Sidney Magal anunciaram turnê inédita pelo Brasil"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "\"Quem reconhece o resultado da eleição é o próprio Tribunal Eleitoral brasileiro. Portanto, o fato de nós dizermos \"sim\" ou \"não\" não altera o resultado de forma alguma\", acrescentou."
+            "resposta": "Pela primeira vez, a banda francesa e o cantor brasileiro vão dividir o palco em um espetáculo criado exclusivamente para o público do país"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Quirno também criticou a medida do governo brasileiro de convocar o embaixador do Brasil em Buenos Aires, Julio Bitelli, e seu homólogo argentino em Brasília, Daniel Raimondi."
+            "resposta": "A banda une-se a Sidney Magal, um dos ícones da música brasileira, que completa 60 anos de carreira em 2026"
           }
         ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/08/05/17859425546a73521a4e240_1785942554_3x2_rt.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/chanceler-argentino-repete-milei-e-sem-provas-coloca-em-duvida-vitoria-de-lula.jpg",
+        "imagemOriginal": "https://i.metroimg.com/f6FZtLZuyQRgh7RPoocHMuOi1Qscr3lJmNo27afBhWQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/gipsy-kings.jpeg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/metropoles-music-gipsy-kings-soma-oito-indicacoes-ao-grammy-e-uma-vitoria.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -730,7 +526,55 @@
       "dataFonte": "2026-11-23T02:14:46.000Z",
       "resumoFonte": "A dupla sertaneja Chitãozinho e Xororó anunciou neste domingo (22/11) que vai encerrar a carreira após 56 anos dedicados à música",
       "imagem": "https://i.metroimg.com/wDexIdihGWJO21DlV9KnesRTzVqITw3eS2NBQz1rBDw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/chitaozinho-e-xororo-1.jpg",
-      "descobertaEm": "2026-11-23T02:18:44.667Z"
+      "descobertaEm": "2026-11-23T02:18:44.667Z",
+      "reportagem": {
+        "titulo": "Chitãozinho e Xororó desabafam sobre aposentadoria: \"Estava na hora\"",
+        "slug": "chitaozinho-e-xororo-desabafam-sobre-aposentadoria-estava-na-hora",
+        "categoria": "Cultura",
+        "data": "2026-11-22",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/chitaozinho-e-xororo-desabafam-sobre-aposentadoria-estava-na-hora.jpg",
+        "resumo": "A dupla sertaneja Chitãozinho e Xororó anunciou neste domingo (22/11) que vai encerrar a carreira após 56 anos dedicados à música",
+        "conteudo": "<p>A dupla sertaneja Chitãozinho e Xororó oficializou neste domingo (22/11) sua despedida dos palcos. A aposentadoria, de acordo com os músicos, já estava sendo planejada há dois anos. Segundo os músicos, o objetivo é descansar após 56 anos dedicados à música,</p><h2>As informações principais do assunto</h2><p>“É um momento de curtir a vida e a família. Eu costumo dizer que somos operários da música, e todo operário precisa de um tempo de descanso”, disse Xororó em entrevista à jornalista Poliana Abritta, do Fantástico.</p><p>“Estava na hora”, ressaltou Chitãozinho. A dupla afirmou que já pensa na aposentadoria há cerca de dois anos.</p><p>Os músicos José Lima Sobrinho e Durval de Lima nasceram em Astorga (PR), e desde pequenos foram incentivados pelo pai, Mário, a cantar e seguir a carreira artística.</p><h2>Contexto e informações complementares</h2><p>Eles se mudaram para Rondon (PR) e mais tarde para São Paulo, onde conseguiram gravar o primeiro disco em 1970, chamado Galopeira. A música que dava nome ao álbum estourou em todo o Brasil.</p><p>Nos anos seguintes, outros sucessos da dupla encheram as rádios, como 60 Dias Apaixonado e Amante Amada. A consolidação da carreira veio na década de 1980, quando Chitãozinho e Xororó lançaram o hit Fio de Cabelo (1982). A música fez a dupla vender mais de 1,5 milhão de discos.</p><p>Depois, vieram clássicos como Nuvem de Lágrimas, gravada com Fafá de Belém, e Evidências, composta por José Augusto e Paulo Sérgio Valle e gravada em 1990. A partir daí, a dupla emplacou um sucesso atrás do outro: Brincar de Ser Feliz, Bailão de Peão, Alô e Página de Amigos.</p><p>Nos anos 2000, os músicos fizeram novas parcerias, como Coração Vazio (com a cantora americana Reba McEntire), Frio da Solidão (com o grupo Roupa Nova), Sinônimos (com Zé Ramalho) e Arrasta uma Cadeira (com Roberto Carlos).</p><p>Ao todo, a dupla ganhou sete Grammy Latinos de Melhor Álbum de Música Sertaneja, o mais recente em 2025.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/colunas/fabia-oliveira/chitaozinho-e-xororo-desabafam-sobre-aposentadoria-estava-na-hora",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A dupla sertaneja Chitãozinho e Xororó oficializou neste domingo (22/11) sua despedida dos palcos. A aposentadoria, de acordo com os músicos, já estava sendo planejada há dois anos. Segundo os músicos, o objetivo é descansar após 56 anos dedicados à música,"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "“É um momento de curtir a vida e a família. Eu costumo dizer que somos operários da música, e todo operário precisa de um tempo de descanso”, disse Xororó em entrevista à jornalista Poliana Abritta, do Fantástico. “Estava na hora”, ressaltou Chitãozinho. A dupla afirmou que já pensa na aposentadoria há cerca de dois anos."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Os músicos José Lima Sobrinho e Durval de Lima nasceram em Astorga (PR), e desde pequenos foram incentivados pelo pai, Mário, a cantar e seguir a carreira artística. Eles se mudaram para Rondon (PR) e mais tarde para São Paulo, onde conseguiram gravar o primeiro disco em 1970, chamado Galopeira. A música que dava nome ao álbum estourou em todo o Brasil."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Nos anos seguintes, outros sucessos da dupla encheram as rádios, como 60 Dias Apaixonado e Amante Amada. A consolidação da carreira veio na década de 1980, quando Chitãozinho e Xororó lançaram o hit Fio de Cabelo (1982). A música fez a dupla vender mais de 1,5 milhão de discos."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Depois, vieram clássicos como Nuvem de Lágrimas, gravada com Fafá de Belém, e Evidências, composta por José Augusto e Paulo Sérgio Valle e gravada em 1990. A partir daí, a dupla emplacou um sucesso atrás do outro: Brincar de Ser Feliz, Bailão de Peão, Alô e Página de Amigos."
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/wDexIdihGWJO21DlV9KnesRTzVqITw3eS2NBQz1rBDw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/chitaozinho-e-xororo-1.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/chitaozinho-e-xororo-desabafam-sobre-aposentadoria-estava-na-hora.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
       "id": "d19879b547e87f6e",
@@ -853,18 +697,6 @@
       }
     },
     {
-      "id": "c39341893b82069c",
-      "titulo": "Parada do Orgulho LGBTI+ no Rio reúne milhares e tem show surpresa",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/brasil/parada-do-orgulho-lgbti-no-rio-reune-milhares-e-tem-show-surpresa",
-      "dataFonte": "2026-11-22T22:21:39.000Z",
-      "resumoFonte": "Evento celebrou os 15 anos do reconhecimento da Justiça pela união dos casais homoafetivos. Programação teve show da cantora Ludmilla",
-      "imagem": "https://i.metroimg.com/ZIHGVl2O_zV2-OYp04ZF0Fjt_s_zZ_II4I-z__UAfVI/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/parada-rj.jpeg",
-      "descobertaEm": "2026-11-22T22:32:14.131Z"
-    },
-    {
       "id": "a4e8355a4156d1df",
       "titulo": "Dono do Telegram ironiza GTA por crimes não citarem uso do aplicativo",
       "categoria": "Tecnologia",
@@ -874,55 +706,7 @@
       "dataFonte": "2026-11-23T00:21:35.000Z",
       "resumoFonte": "Pavel Durov fez comentário sarcástico sobre o jogo em seu grupo de divulgação de notícias do app de mensagens",
       "imagem": "https://static.poder360.com.br/uploads/2026/11/pavel-durov-gta6-22nov-1200x675.png",
-      "descobertaEm": "2026-11-23T01:18:32.718Z",
-      "reportagem": {
-        "titulo": "Dono do Telegram ironiza GTA por crimes não citarem uso do aplicativo",
-        "slug": "dono-do-telegram-ironiza-gta-por-crimes-nao-citarem-uso-do-aplicativo",
-        "categoria": "Tecnologia",
-        "data": "2026-11-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/dono-do-telegram-ironiza-gta-por-crimes-nao-citarem-uso-do-aplicativo.jpg",
-        "resumo": "Pavel Durov fez comentário sarcástico sobre o jogo em seu grupo de divulgação de notícias do app de mensagens.",
-        "conteudo": "<p>O fundador e CEO do Telegram, Pavel Durov, ironizou, neste domingo (22.nov.2026), o jogo GTA 6 ( Grand Theft Auto 6 ), lançado na 5ª feira (19.nov).</p><h2>Dados e contexto do setor</h2><p>O empresário afirmou, em tom sarcástico, que o aspecto menos realista do título é o casal de protagonistas comandar crimes sem usar o aplicativo de mensagens.</p><p>“ O aspecto menos realista de GTA 6 é que Jason e Lucia comandam toda uma operação criminosa sem um único grupo no Telegram ”, escreveu Durov em seu canal de notícias na plataforma.</p><p>A declaração faz referência à associação do Telegram a atividades ilícitas. Entre os fatores relacionados a esse uso estão a possibilidade de utilizar o serviço sem expor o número de telefone, a existência de grupos com milhares de integrantes e a política de moderação mais flexível.</p><h2>Impactos e informações adicionais</h2><p>GTA 6 se destaca no mercado pelo realismo gráfico e pelo detalhamento das atividades criminosas.</p><p>O jogo GTA 6 movimentou US$ 3,79 bilhões (R$ 22,5 bilhões) em vendas no varejo mundial no 1º dia. A Rockstar Games divulgou a estimativa na 6ª feira (20.nov) e classificou o resultado como o maior lançamento da história do entretenimento ( íntegra – 231 kB).</p><p>Segundo a desenvolvedora, o título vendeu 32,5 milhões de unidades na pré-venda, o que também representa um recorde. A empresa informou que o jogo alcançou nota 99 de 100 no Metacritic, agregador de avaliações de críticos especializados.</p><p>O fundador e CEO do Telegram, Pavel Durov, ironizou, neste domingo (22.nov.2026), o jogo</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-tech/dono-do-telegram-ironiza-gta-por-crimes-nao-citarem-uso-do-aplicativo/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
-          },
-          {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O fundador e CEO do Telegram, Pavel Durov, ironizou, neste domingo (22.nov.2026), o jogo GTA 6 ( Grand Theft Auto 6 ), lançado na 5ª feira (19.nov). O empresário afirmou, em tom sarcástico, que o aspecto menos realista do título é o casal de protagonistas comandar crimes sem usar o aplicativo de mensagens."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "“ O aspecto menos realista de GTA 6 é que Jason e Lucia comandam toda uma operação criminosa sem um único grupo no Telegram ”, escreveu Durov em seu canal de notícias na plataforma."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A declaração faz referência à associação do Telegram a atividades ilícitas. Entre os fatores relacionados a esse uso estão a possibilidade de utilizar o serviço sem expor o número de telefone, a existência de grupos com milhares de integrantes e a política de moderação mais flexível."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O jogo GTA 6 movimentou US$ 3,79 bilhões (R$ 22,5 bilhões) em vendas no varejo mundial no 1º dia. A Rockstar Games divulgou a estimativa na 6ª feira (20.nov) e classificou o resultado como o maior lançamento da história do entretenimento ( íntegra – 231 kB)."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Segundo a desenvolvedora, o título vendeu 32,5 milhões de unidades na pré-venda, o que também representa um recorde. A empresa informou que o jogo alcançou nota 99 de 100 no Metacritic, agregador de avaliações de críticos especializados."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/pavel-durov-gta6-22nov-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/dono-do-telegram-ironiza-gta-por-crimes-nao-citarem-uso-do-aplicativo.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "descobertaEm": "2026-11-23T01:18:32.718Z"
     },
     {
       "id": "0df34be0c2e15423",
@@ -935,6 +719,78 @@
       "resumoFonte": "Um sucesso, evento idealizado por Sérgio Sacani reuniu palestras, experiências interativas e concursos de cosplay durante 4 dias em Brasília",
       "imagem": "https://i.metroimg.com/7tXQgUCzT2qYsWodq_6C1n_jkcXaUSUiu6BomiDNAEM/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/space-today-capa.jpeg",
       "descobertaEm": "2026-11-22T23:18:44.933Z"
+    },
+    {
+      "id": "6c6231079614df5e",
+      "titulo": "Venda de ingressos para a final da Copa do Brasil abre nesta segunda às 14h",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/venda-de-ingressos-para-a-final-da-copa-do-brasil-abre-nesta-segunda",
+      "dataFonte": "2026-11-23T05:00:55.000Z",
+      "resumoFonte": "Nesta segunda (23/11), às 14h (horário de Brasília), se iniciam as vendas dos ingressos para a final da Copa do Brasil",
+      "imagem": "https://i.metroimg.com/cUF0NT8d-qSpJpWfh9biUQgG0-NOUXKC8lVyDE1PM30/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/estadio-mane-garrincha-copa-feminina.jpg",
+      "descobertaEm": "2026-11-23T05:18:31.005Z",
+      "reportagem": {
+        "titulo": "Venda de ingressos para a final da Copa do Brasil abre nesta segunda às 14h",
+        "slug": "venda-de-ingressos-para-a-final-da-copa-do-brasil-abre-nesta-segunda-as-14h",
+        "categoria": "Esporte",
+        "data": "2026-11-23",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/venda-de-ingressos-para-a-final-da-copa-do-brasil-abre-nesta-segunda-as-14h.jpg",
+        "resumo": "Nesta segunda (23/11), às 14h (horário de Brasília), se iniciam as vendas dos ingressos para a final da Copa do Brasil",
+        "conteudo": "<p>É hoje. Nesta segunda-feira (23/11), às 14h (horário de Brasília), terão início as vendas dos ingressos para a grande final da Copa do Brasil .</p><h2>As informações principais do assunto</h2><p>A partida pelo título acontece no dia 6 de dezembro, na Arena Mané Garrincha, no confronto entre Grêmio x Palmeiras . A partida será realizada pelo Metrópoles , que organizará o evento.</p><p>Os torcedores deverão acessar o site da Bilheteria Digital para adquirir os ingressos. Para que a compra seja realizada, os torcedores deverão realizar o reconhecimento facial através deste link .</p><p>Os torcedores do Grêmio ficarão nos setores Sul e Oeste da Arena Mané Garrincha. Já os palmeirenses terão os setores Norte e Leste destinados a eles.</p><h2>Contexto e informações complementares</h2><p>Estádio Mané Garrincha será o palco da final da Copa do Brasil</p><p>Grêmio e Palmeiras se reencontrar em decisão após final de 2020. Na ocasião, a partida teve que ser disputada em 2021 devido a pandemia. Já no campo, o título da Copa do Brasil ainda era decidido em dois jogos.</p><p>O Alviverde venceu os dois, sendo 1 x 0, em Porto Alegre, e 2 x 0, em São Paulo.</p><p>Já em 2026, as equipes jogam pela taça em Brasília. O time paulista se classificou após eliminar o Vasco, nos pênaltis, já o Imortal superou o Atlético-MG e busca mais uma conquista para se juntar ao Cruzeiro como o maior campeão da competição, com seis campeonatos vencidos.</p><p>Venda de ingressos: a comercialização para a final da Copa do Brasil entre Grêmio e Palmeiras começa em 22 de novembro, às 14h; Detalhes do confronto: a partida decisiva ocorre em 6 de dezembro, na Arena Mané Garrincha, em Brasília; Exigência de acesso: para garantir o ingresso, o torcedor deve realizar o reconhecimento facial.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/esportes/venda-de-ingressos-para-a-final-da-copa-do-brasil-abre-nesta-segunda",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "É hoje. Nesta segunda-feira (23/11), às 14h (horário de Brasília), terão início as vendas dos ingressos para a grande final da Copa do Brasil . A partida pelo título acontece no dia 6 de dezembro, na Arena Mané Garrincha, no confronto entre Grêmio x Palmeiras . A partida será realizada pelo Metrópoles , que organizará o evento."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Os torcedores deverão acessar o site da Bilheteria Digital para adquirir os ingressos. Para que a compra seja realizada, os torcedores deverão realizar o reconhecimento facial através deste link ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Os torcedores do Grêmio ficarão nos setores Sul e Oeste da Arena Mané Garrincha. Já os palmeirenses terão os setores Norte e Leste destinados a eles."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Estádio Mané Garrincha será o palco da final da Copa do Brasil"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Grêmio e Palmeiras se reencontrar em decisão após final de 2020. Na ocasião, a partida teve que ser disputada em 2021 devido a pandemia. Já no campo, o título da Copa do Brasil ainda era decidido em dois jogos. O Alviverde venceu os dois, sendo 1 x 0, em Porto Alegre, e 2 x 0, em São Paulo."
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/cUF0NT8d-qSpJpWfh9biUQgG0-NOUXKC8lVyDE1PM30/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/estadio-mane-garrincha-copa-feminina.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/venda-de-ingressos-para-a-final-da-copa-do-brasil-abre-nesta-segunda-as-14h.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "b7ef5b0ad5885f78",
+      "titulo": "Brasileirão: confira os melhores momentos desse domingo (22/11)",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/brasileirao-confira-os-melhores-momentos-desse-domingo-22-11",
+      "dataFonte": "2026-11-23T03:21:14.000Z",
+      "resumoFonte": "Três partidas deram sequência na série de jogos da 36ª rodada do Campeonato Brasileiro",
+      "imagem": "https://i.metroimg.com/jfaGJ_YGGya5O8NPNagLH0zHMkRLb2GRKXvu0r__TWE/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/capxrem-3.jpg",
+      "descobertaEm": "2026-11-23T04:18:32.180Z"
     },
     {
       "id": "77ee7e36cde219a6",
@@ -958,55 +814,7 @@
       "dataFonte": "2026-11-23T00:48:28.000Z",
       "resumoFonte": "Administração Federal de Aviação dos EUA adiou todas as viagens operadas pela companhia com destino e partida em Atlanta",
       "imagem": "https://static.poder360.com.br/uploads/2026/11/delta-1200x675.png",
-      "descobertaEm": "2026-11-23T01:18:32.718Z",
-      "reportagem": {
-        "titulo": "Agência de aviação suspende voos da Delta após falha de sistema",
-        "slug": "agencia-de-aviacao-suspende-voos-da-delta-apos-falha-de-sistema",
-        "categoria": "Esporte",
-        "data": "2026-11-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/agencia-de-aviacao-suspende-voos-da-delta-apos-falha-de-sistema.jpg",
-        "resumo": "Administração Federal de Aviação dos EUA adiou todas as viagens operadas pela companhia com destino e partida em Atlanta.",
-        "conteudo": "<p>Administração Federal de Aviação dos EUA adiou todas as viagens operadas pela companhia com destino e partida em Atlanta</p><h2>As informações principais do assunto</h2><p>A FAA (Administração Federal de Aviação dos EUA, na sigla em português) suspendeu temporariamente, neste domingo (22.nov.2026), os voos da Delta Airlines com chegada ou partida no Aeroporto Internacional Hartsfield-Jackson, em Atlanta, o mais movimentado do país e o principal hub de operações da companhia.</p><p>Segundo o órgão, a decisão foi tomada depois de registros de falhas no sistema que calcula o peso e o balanceamento das aeronaves.</p><p>A suspensão provocou atrasos de cerca de uma hora em todos os voos operados pela companhia aérea, que está entre as 3 maiores dos EUA. As chegadas e partidas foram liberadas posteriormente.</p><h2>Contexto e informações complementares</h2><p>“A Delta está trabalhando para resolver problemas no sistema automatizado de peso e balanceamento da companhia aérea. Esses atrasos não estão relacionados a nenhum sistema de tráfego aéreo da FAA” , disse o órgão em comunicado.</p><p>O episódio ocorre poucos dias depois de uma falha estrutural no sistema de controle de tráfego aéreo que paralisou por 4 horas todos os voos em território norte-americano. Segundo a FAA, as ocorrências não estão relacionadas.</p><p>O sistema da Delta que ficou fora do ar calcula o peso total das aeronaves, incluindo fuselagem, combustível, passageiros e bagagens, além de permitir que os pilotos verifiquem o centro de gravidade do avião e se o peso está distribuído uniformemente.</p><p>Em nota, a companhia informou que acionou “métodos alternativos manuais” enquanto a equipe técnica atuava para restabelecer a operação.</p><p>A ocorrência levantou novas preocupações sobre a operação do setor aéreo nos EUA a poucos dias do feriado do Dia de Ação de Graças, tradicionalmente o período mais movimentado do ano para a aviação no país.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-internacional/agencia-de-aviacao-suspende-voos-da-delta-apos-falha-de-sistema/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Administração Federal de Aviação dos EUA adiou todas as viagens operadas pela companhia com destino e partida em Atlanta"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A FAA (Administração Federal de Aviação dos EUA, na sigla em português) suspendeu temporariamente, neste domingo (22.nov.2026), os voos da Delta Airlines com chegada ou partida no Aeroporto Internacional Hartsfield-Jackson, em Atlanta, o mais movimentado do país e o principal hub de operações da companhia."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Segundo o órgão, a decisão foi tomada depois de registros de falhas no sistema que calcula o peso e o balanceamento das aeronaves. A suspensão provocou atrasos de cerca de uma hora em todos os voos operados pela companhia aérea, que está entre as 3 maiores dos EUA. As chegadas e partidas foram liberadas posteriormente."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "“A Delta está trabalhando para resolver problemas no sistema automatizado de peso e balanceamento da companhia aérea. Esses atrasos não estão relacionados a nenhum sistema de tráfego aéreo da FAA” , disse o órgão em comunicado."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O episódio ocorre poucos dias depois de uma falha estrutural no sistema de controle de tráfego aéreo que paralisou por 4 horas todos os voos em território norte-americano. Segundo a FAA, as ocorrências não estão relacionadas."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/delta-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/agencia-de-aviacao-suspende-voos-da-delta-apos-falha-de-sistema.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "descobertaEm": "2026-11-23T01:18:32.718Z"
     },
     {
       "id": "90f995c6581e124b",
@@ -1069,30 +877,6 @@
       "descobertaEm": "2026-11-22T23:18:44.933Z"
     },
     {
-      "id": "66728825e41c2f13",
-      "titulo": "Brasileirão: veja os times rebaixados que vão jogar a Série B em 2027",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/times-rebaixados-campeonato-brasileiro-2026/",
-      "dataFonte": "2026-11-22T22:30:03.000Z",
-      "resumoFonte": "Chapecoense, lanterna, foi a primeira rebaixada do Brasileirão; queda do Remo foi decretada após derrota para o Athletico-PR",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/remo-chapecoense-e1795386189429.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-22T23:18:44.933Z"
-    },
-    {
-      "id": "d897381e6fd5a606",
-      "titulo": "Athletico-PR 4 x 2 Remo: veja os melhores momentos pelo Brasileirão",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/athletico-pr-4-x-2-remo-veja-os-melhores-momentos-pelo-brasileirao/",
-      "dataFonte": "2026-11-22T21:56:41.000Z",
-      "resumoFonte": "Furacão levou a melhor diante de sua torcida e rebaixou o rival paraense para a Série B",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/athletico-remo-mendoza-e1795380946687.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-22T22:32:14.131Z"
-    },
-    {
       "id": "304abee2bafc3478",
       "titulo": "Chanceler de Milei questiona legitimidade da vitória de Lula",
       "categoria": "Justiça",
@@ -1153,6 +937,42 @@
       }
     },
     {
+      "id": "3973efbc30c93c52",
+      "titulo": "Câmara vota projeto de ajuste fiscal nesta segunda; projeção de economia é de R$ 50 bilhões em 2027",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/noticia/2026/11/23/camara-vota-projeto-de-ajuste-fiscal-nesta-segunda-projecao-de-economia-e-de-r-50-bilhoes-em-2027.ghtml",
+      "dataFonte": "2026-11-23T03:00:01.000Z",
+      "resumoFonte": "Ajuste fiscal deve ser votado na segunda-feira A Câmara dos Deputados deve votar nesta segunda-feira (23) a proposta de ajuste fiscal do governo do presidente Luiz Inácio Lula da Silva (PT). O texto já foi aprovado no Senado Federal. O relator da proposta na Câmara, deputado Mauro Benevides (União Brasil-CE), manteve o mesmo texto aprovado pelos…",
+      "imagem": "https://s2-g1.glbimg.com/WuZ8ZxoaXhxiNGC5kIIQQDNZjg8=/2400x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/m/A/LDKotmSA2jdLrNxE6g3A/plenario-camara-deputados.jpg",
+      "descobertaEm": "2026-11-23T03:18:34.068Z"
+    },
+    {
+      "id": "13135d266c2e1607",
+      "titulo": "Ministério Público é contra recurso por 2º turno no Rio de Janeiro",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-justica/ministerio-publico-e-contra-recurso-por-2o-turno-no-rio-de-janeiro/",
+      "dataFonte": "2026-11-23T02:42:59.000Z",
+      "resumoFonte": "Coligação de Eduardo Paes questiona exclusão dos votos de Garotinho da contagem que confirmou Douglas Ruas eleito no 1º turno",
+      "imagem": "https://static.poder360.com.br/uploads/2026/11/Eduardo-Paes-nov2023-1200x675.jpg",
+      "descobertaEm": "2026-11-23T02:52:41.031Z"
+    },
+    {
+      "id": "4dde86e46ab271a1",
+      "titulo": "“Situações” colocaram eleição do Brasil em dúvida, diz chanceler de Milei",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-internacional/situacoes-colocaram-eleicao-do-brasil-em-duvida-diz-chanceler-de-milei/",
+      "dataFonte": "2026-11-23T02:29:14.000Z",
+      "resumoFonte": "Pablo Quirno questionou o processo eleitoral, mas disse que cabe ao TSE reconhecer o resultado da disputa",
+      "imagem": "https://static.poder360.com.br/uploads/2026/11/quirno-1-1200x675.jpeg",
+      "descobertaEm": "2026-11-23T02:52:41.031Z"
+    },
+    {
       "id": "ae43be59a63749b2",
       "titulo": "MPE defende rejeitar recurso de coligação de Paes que busca 2º turno no RJ",
       "categoria": "Justiça",
@@ -1211,81 +1031,21 @@
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
-    },
-    {
-      "id": "8ea16edad8781687",
-      "titulo": "Zanin interrompe julgamento de ex-ministro de Lula por suspeita de desvio de emendas",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/politica/zanin-interrompe-julgamento-de-ex-ministro-de-lula-por-suspeita-de-desvio-de-emendas/",
-      "dataFonte": "2026-11-22T23:42:30.000Z",
-      "resumoFonte": "Flávio Dino votou para aceitar denúncia contra Juscelino Filho; análise será retomada em sessão presencial do STF.",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/09/54760942915_1df5e8dab5_k.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-23T00:18:28.193Z",
-      "reportagem": {
-        "titulo": "Zanin interrompe julgamento de ex-ministro de Lula por suspeita de desvio de emendas",
-        "slug": "zanin-interrompe-julgamento-de-ex-ministro-de-lula-por-suspeita-de-desvio-de-emendas",
-        "categoria": "Justiça",
-        "data": "2026-11-22",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/zanin-interrompe-julgamento-de-ex-ministro-de-lula-por-suspeita-de-desvio-de-emendas.jpg",
-        "resumo": "Flávio Dino votou para aceitar denúncia contra Juscelino Filho; análise será retomada em sessão presencial do STF.",
-        "conteudo": "<p>O ministro Cristiano Zanin, do Supremo Tribunal Federal (STF), interrompeu neste domingo (22) o julgamento virtual da denúncia contra o deputado federal Juscelino Filho (PSDB-MA), ex-ministro das Comunicações do governo Lula.</p><h2>O contexto da decisão judicial</h2><p>O parlamentar é acusado pela Procuradoria-Geral da República (PGR) de envolvimento em um esquema de desvio de emendas parlamentares no Maranhão.</p><p>Zanin apresentou um pedido de destaque, que transfere o julgamento para uma sessão presencial da Primeira Turma do STF. A análise será reiniciada, e uma nova data deverá ser definida pela presidente do colegiado, ministra Cármen Lúcia.</p><p>Antes da interrupção, o ministro Flávio Dino havia sido o único a votar. Ele se manifestou pelo recebimento integral da denúncia, o que tornaria Juscelino réu pelos crimes de organização criminosa, fraude em licitação, peculato e corrupção ativa.</p><h2>Detalhes e consequências do caso</h2><p>O julgamento começou na sexta-feira (20) e estava previsto para terminar em 30 de novembro. Além de Zanin, Dino e Cármen Lúcia, a Primeira Turma é composta pelo ministro Alexandre de Moraes.</p><p>Segundo a PGR, Juscelino teria utilizado emendas parlamentares para direcionar recursos públicos a obras de pavimentação em Vitorino Freire (MA), município administrado à época por sua irmã, Luanna Rezende.</p><p>A investigação aponta que parte das estradas construídas teria beneficiado propriedades rurais da família do parlamentar.</p><p>Um dos contratos investigados, no valor de R$ 7,5 milhões, previa a pavimentação de 18,6 quilômetros de estradas entre os povoados de Furo e Jatobá. Segundo a denúncia, parte do trajeto passava por propriedades de Juscelino e de sua irmã.</p><p>A PGR também aponta suspeitas de irregularidades na liberação dos recursos. O empresário Eduardo José Barros Costa, conhecido como Eduardo DP, teria transferido R$ 40 mil a um fiscal da Companhia de Desenvolvimento dos Vales do São Francisco e do Parnaíba (Codevasf), responsável pela fiscalização do contrato.</p><p>Após o depósito, o servidor teria autorizado o pagamento de R$ 1,5 milhão pela obra. Documentos citados na investigação indicam que a liberação exigia a conclusão de 20,49% dos serviços, mas uma medição posterior apontou execução de apenas 9,32%.</p><p>Juscelino nega as acusações. Sua defesa afirma que o parlamentar apenas destinou emendas para obras públicas, sem participação nos processos de licitação, execução ou fiscalização dos contratos. Os advogados também questionam a validade de provas obtidas durante a investigação.</p><p>Juscelino Filho pediu demissão do Ministério das Comunicações em abril de 2025 , após a apresentação da denúncia pela PGR.</p><p>Na ocasião, afirmou que deixava o cargo para evitar constrangimentos ao presidente Luiz Inácio Lula da Silva (PT) e se defender das acusações fora do governo. O parlamentar reassumiu o mandato na Câmara dos Deputados e foi reeleito em outubro de 2026.</p><p>O caso também foi alvo da Operação Benesse, da Polícia Federal (PF). Em junho de 2024, Juscelino foi indiciado por suspeitas de corrupção passiva, lavagem de dinheiro e organização criminosa.</p><p>Em agosto deste ano, o STF abriu um novo inquérito contra o ex-ministro , também relacionado à destinação de emendas parlamentares.</p><p>Na época, a defesa afirmou à Jovem Pan que os fatos investigados já haviam sido esclarecidos em outros procedimentos e reiterou que todas as emendas indicadas por Juscelino seguiram as regras legais.</p><p>Flávio Dino votou para aceitar denúncia contra Juscelino Filho; análise será retomada em sessão presencial do STF.</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/politica/zanin-interrompe-julgamento-de-ex-ministro-de-lula-por-suspeita-de-desvio-de-emendas/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O ministro Cristiano Zanin, do Supremo Tribunal Federal (STF), interrompeu neste domingo (22) o julgamento virtual da denúncia contra o deputado federal Juscelino Filho (PSDB-MA), ex-ministro das Comunicações do governo Lula."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Zanin apresentou um pedido de destaque, que transfere o julgamento para uma sessão presencial da Primeira Turma do STF. A análise será reiniciada, e uma nova data deverá ser definida pela presidente do colegiado, ministra Cármen Lúcia."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Antes da interrupção, o ministro Flávio Dino havia sido o único a votar. Ele se manifestou pelo recebimento integral da denúncia, o que tornaria Juscelino réu pelos crimes de organização criminosa, fraude em licitação, peculato e corrupção ativa."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O julgamento começou na sexta-feira (20) e estava previsto para terminar em 30 de novembro. Além de Zanin, Dino e Cármen Lúcia, a Primeira Turma é composta pelo ministro Alexandre de Moraes."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Segundo a PGR, Juscelino teria utilizado emendas parlamentares para direcionar recursos públicos a obras de pavimentação em Vitorino Freire (MA), município administrado à época por sua irmã, Luanna Rezende."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/09/54760942915_1df5e8dab5_k.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/zanin-interrompe-julgamento-de-ex-ministro-de-lula-por-suspeita-de-desvio-de-emendas.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
     }
   ],
-  "reapuradoEm": "2026-11-23T02:49:07.838Z",
+  "reapuradoEm": "2026-11-23T05:49:41.314Z",
   "diagnosticoReapuracao": {
-    "produzidas": 18,
+    "produzidas": 13,
     "jaProntas": 0,
-    "incompletas": 15,
+    "incompletas": 20,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 18,
+    "geradas": 13,
     "reaproveitadas": 0,
-    "puladas": 15,
+    "puladas": 20,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-23T02:50:29.065Z"
+  "lapisEm": "2026-11-23T05:50:38.954Z"
 }
