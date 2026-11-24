@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-24T16:19:17.531Z",
+  "atualizadoEm": "2026-11-24T17:19:51.674Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 84,
+  "novasPautas": 78,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -212,11 +212,9 @@
     },
     {
       "fonte": "Poder360",
-      "ok": true,
-      "encontrados": 6,
-      "capa": true,
-      "rota": "https://www.poder360.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.poder360.com.br/ -> 403 Forbidden",
+      "capa": true
     },
     {
       "fonte": "Congresso em Foco",
@@ -269,7 +267,7 @@
     {
       "fonte": "Agência Brasil - Política",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 7,
       "rota": "https://agenciabrasil.ebc.com.br/rss/politica/feed.xml",
       "fallback": false
     },
@@ -290,14 +288,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 8,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 7,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -316,14 +314,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 2,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 8,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,8 +374,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-24T16:22:08.178Z",
-    "novas": 3,
+    "atualizadoEm": "2026-11-24T17:23:29.829Z",
+    "novas": 4,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-24T16:22:09.783Z",
+    "atualizadoEm": "2026-11-24T17:23:32.181Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,14 +451,14 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-24T16:22:10.702Z",
+    "atualizadoEm": "2026-11-24T17:23:33.401Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-24T16:22:21.257Z",
-    "novas": 0,
+    "atualizadoEm": "2026-11-24T17:23:43.954Z",
+    "novas": 1,
     "fontes": [
       {
         "fonte": "DIO/ES Notícias",
