@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-25T19:19:19.040Z",
+  "atualizadoEm": "2026-11-25T20:19:49.952Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 81,
+  "novasPautas": 80,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -212,11 +212,9 @@
     },
     {
       "fonte": "Poder360",
-      "ok": true,
-      "encontrados": 6,
-      "capa": true,
-      "rota": "https://www.poder360.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.poder360.com.br/ -> 403 Forbidden",
+      "capa": true
     },
     {
       "fonte": "Congresso em Foco",
@@ -290,14 +288,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 7,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 6,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -376,8 +374,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-25T19:22:18.395Z",
-    "novas": 5,
+    "atualizadoEm": "2026-11-25T20:22:59.170Z",
+    "novas": 6,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-25T19:22:20.203Z",
+    "atualizadoEm": "2026-11-25T20:23:01.455Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,14 +451,14 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-25T19:22:21.271Z",
+    "atualizadoEm": "2026-11-25T20:23:02.543Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-25T19:22:31.841Z",
-    "novas": 1,
+    "atualizadoEm": "2026-11-25T20:23:13.096Z",
+    "novas": 0,
     "fontes": [
       {
         "fonte": "DIO/ES Notícias",
