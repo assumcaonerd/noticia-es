@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-25T03:19:25.076Z",
+  "atualizadoEm": "2026-11-25T04:19:18.097Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 66,
+  "novasPautas": 57,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -198,11 +198,9 @@
     },
     {
       "fonte": "Século Diário",
-      "ok": true,
-      "encontrados": 2,
-      "capa": true,
-      "rota": "https://www.seculodiario.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.seculodiario.com.br/ -> fetch failed",
+      "capa": true
     },
     {
       "fonte": "ES Hoje - Política",
@@ -376,8 +374,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-25T03:22:22.548Z",
-    "novas": 6,
+    "atualizadoEm": "2026-11-25T04:21:11.039Z",
+    "novas": 5,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-25T03:22:24.635Z",
+    "atualizadoEm": "2026-11-25T04:21:12.231Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-25T03:22:25.725Z",
+    "atualizadoEm": "2026-11-25T04:21:12.907Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-25T03:22:36.299Z",
+    "atualizadoEm": "2026-11-25T04:21:23.464Z",
     "novas": 0,
     "fontes": [
       {
