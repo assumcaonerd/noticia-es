@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T10:19:20.854Z",
+  "atualizadoEm": "2026-11-26T11:19:12.230Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
   "novasPautas": 76,
   "pautasPendentes": 80,
@@ -198,9 +198,11 @@
     },
     {
       "fonte": "Século Diário",
-      "ok": false,
-      "erro": "https://www.seculodiario.com.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 3,
+      "capa": true,
+      "rota": "https://www.seculodiario.com.br/",
+      "fallback": false
     },
     {
       "fonte": "ES Hoje - Política",
@@ -288,14 +290,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 6,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 1,
+      "encontrados": 2,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -314,14 +316,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 2,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 5,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -374,7 +376,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-26T10:22:40.586Z",
+    "atualizadoEm": "2026-11-26T11:21:12.583Z",
     "novas": 8,
     "fontes": [
       {
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-26T10:22:42.483Z",
+    "atualizadoEm": "2026-11-26T11:21:13.989Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,14 +453,14 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-26T10:22:43.464Z",
+    "atualizadoEm": "2026-11-26T11:21:14.862Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-26T10:22:54.037Z",
-    "novas": 0,
+    "atualizadoEm": "2026-11-26T11:21:25.438Z",
+    "novas": 1,
     "fontes": [
       {
         "fonte": "DIO/ES Notícias",
