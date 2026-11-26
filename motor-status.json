@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-26T18:19:21.043Z",
+  "atualizadoEm": "2026-11-26T19:19:26.239Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 73,
+  "novasPautas": 84,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -124,9 +124,11 @@
     },
     {
       "fonte": "Igreja Cristã Maranata - Oficial",
-      "ok": false,
-      "erro": "https://www.igrejacristamaranata.org.br/ -> fetch failed",
-      "capa": true
+      "ok": true,
+      "encontrados": 0,
+      "capa": true,
+      "rota": "https://www.igrejacristamaranata.org.br/",
+      "fallback": false
     },
     {
       "fonte": "Assembleia de Deus Fonte de Vida - Oficial",
@@ -197,7 +199,7 @@
     {
       "fonte": "Século Diário",
       "ok": true,
-      "encontrados": 2,
+      "encontrados": 3,
       "capa": true,
       "rota": "https://www.seculodiario.com.br/",
       "fallback": false
@@ -288,7 +290,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 6,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -314,14 +316,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 6,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 10,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -374,8 +376,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-26T18:21:51.385Z",
-    "novas": 2,
+    "atualizadoEm": "2026-11-26T19:22:47.961Z",
+    "novas": 3,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -435,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-26T18:21:52.763Z",
+    "atualizadoEm": "2026-11-26T19:22:50.138Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,14 +453,14 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-26T18:21:53.566Z",
+    "atualizadoEm": "2026-11-26T19:22:51.141Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-26T18:22:04.120Z",
-    "novas": 0,
+    "atualizadoEm": "2026-11-26T19:23:01.716Z",
+    "novas": 1,
     "fontes": [
       {
         "fonte": "DIO/ES Notícias",
