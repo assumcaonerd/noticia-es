@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-26T17:19:07.710Z",
+  "atualizadoEm": "2026-11-26T18:19:21.043Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 78,
+  "novasPautas": 73,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -124,11 +124,9 @@
     },
     {
       "fonte": "Igreja Cristã Maranata - Oficial",
-      "ok": true,
-      "encontrados": 0,
-      "capa": true,
-      "rota": "https://www.igrejacristamaranata.org.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.igrejacristamaranata.org.br/ -> fetch failed",
+      "capa": true
     },
     {
       "fonte": "Assembleia de Deus Fonte de Vida - Oficial",
@@ -199,7 +197,7 @@
     {
       "fonte": "Século Diário",
       "ok": true,
-      "encontrados": 3,
+      "encontrados": 2,
       "capa": true,
       "rota": "https://www.seculodiario.com.br/",
       "fallback": false
@@ -290,14 +288,14 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 5,
+      "encontrados": 8,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
     {
       "fonte": "Revista Oeste - Feed",
       "ok": true,
-      "encontrados": 4,
+      "encontrados": 5,
       "rota": "https://revistaoeste.com/feed/",
       "fallback": false
     },
@@ -316,14 +314,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 2,
+      "encontrados": 3,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 6,
+      "encontrados": 7,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,8 +374,8 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-26T17:21:03.410Z",
-    "novas": 4,
+    "atualizadoEm": "2026-11-26T18:21:51.385Z",
+    "novas": 2,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-26T17:21:04.807Z",
+    "atualizadoEm": "2026-11-26T18:21:52.763Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +451,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-26T17:21:05.558Z",
+    "atualizadoEm": "2026-11-26T18:21:53.566Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-26T17:21:16.108Z",
+    "atualizadoEm": "2026-11-26T18:22:04.120Z",
     "novas": 0,
     "fontes": [
       {
