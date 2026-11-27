@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-27T08:18:44.650Z",
+  "atualizadoEm": "2026-11-27T09:19:27.575Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 77,
+  "novasPautas": 76,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -212,11 +212,9 @@
     },
     {
       "fonte": "Poder360",
-      "ok": true,
-      "encontrados": 6,
-      "capa": true,
-      "rota": "https://www.poder360.com.br/",
-      "fallback": false
+      "ok": false,
+      "erro": "https://www.poder360.com.br/ -> 403 Forbidden",
+      "capa": true
     },
     {
       "fonte": "Congresso em Foco",
@@ -290,7 +288,7 @@
     {
       "fonte": "Veja",
       "ok": true,
-      "encontrados": 9,
+      "encontrados": 5,
       "rota": "https://veja.abril.com.br/feed/",
       "fallback": false
     },
@@ -316,7 +314,7 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 10,
+      "encontrados": 6,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
@@ -351,7 +349,7 @@
     {
       "fonte": "BBC Brasil",
       "ok": true,
-      "encontrados": 21,
+      "encontrados": 19,
       "rota": "https://feeds.bbci.co.uk/portuguese/rss.xml",
       "fallback": false
     },
@@ -376,7 +374,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-27T08:20:44.464Z",
+    "atualizadoEm": "2026-11-27T09:22:41.988Z",
     "novas": 7,
     "fontes": [
       {
@@ -437,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-27T08:20:47.184Z",
+    "atualizadoEm": "2026-11-27T09:22:43.913Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,14 +451,14 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-27T08:20:47.962Z",
+    "atualizadoEm": "2026-11-27T09:22:44.950Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-27T08:20:58.540Z",
-    "novas": 1,
+    "atualizadoEm": "2026-11-27T09:22:55.504Z",
+    "novas": 0,
     "fontes": [
       {
         "fonte": "DIO/ES Notícias",
