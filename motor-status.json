@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-27T06:19:40.917Z",
+  "atualizadoEm": "2026-11-27T07:18:47.504Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 60,
+  "novasPautas": 75,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -316,14 +316,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 8,
+      "encontrados": 7,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 13,
+      "encontrados": 11,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,33 +376,33 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-27T06:22:31.065Z",
-    "novas": 5,
+    "atualizadoEm": "2026-11-27T07:21:18.699Z",
+    "novas": 0,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "503 Service Unavailable"
       },
       {
         "fonte": "YouTube Folha Vitória",
-        "ok": true,
-        "encontrados": 4
+        "ok": false,
+        "erro": "503 Service Unavailable"
       },
       {
         "fonte": "YouTube ALES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "503 Service Unavailable"
       },
       {
         "fonte": "YouTube Polícia Civil ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "503 Service Unavailable"
       },
       {
         "fonte": "YouTube PM Ambiental ES",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "503 Service Unavailable"
       },
       {
         "fonte": "YouTube Bombeiros ES",
@@ -411,8 +411,8 @@
       },
       {
         "fonte": "YouTube ALES (legado)",
-        "ok": true,
-        "encontrados": 0
+        "ok": false,
+        "erro": "503 Service Unavailable"
       },
       {
         "fonte": "X Governo ES",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-27T06:22:33.512Z",
+    "atualizadoEm": "2026-11-27T07:21:32.329Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-27T06:22:34.665Z",
+    "atualizadoEm": "2026-11-27T07:21:33.181Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-27T06:22:45.246Z",
+    "atualizadoEm": "2026-11-27T07:21:43.755Z",
     "novas": 0,
     "fontes": [
       {
