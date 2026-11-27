@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-27T04:19:22.465Z",
+  "atualizadoEm": "2026-11-27T05:19:18.730Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 54,
+  "novasPautas": 57,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -316,14 +316,14 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 11,
+      "encontrados": 9,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
     {
       "fonte": "CNN Brasil",
       "ok": true,
-      "encontrados": 12,
+      "encontrados": 13,
       "rota": "https://www.cnnbrasil.com.br/feed/",
       "fallback": false
     },
@@ -376,18 +376,18 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-27T04:22:05.885Z",
-    "novas": 0,
+    "atualizadoEm": "2026-11-27T05:21:06.592Z",
+    "novas": 5,
     "fontes": [
       {
         "fonte": "YouTube A Gazeta",
-        "ok": false,
-        "erro": "503 Service Unavailable"
+        "ok": true,
+        "encontrados": 4
       },
       {
         "fonte": "YouTube Folha Vitória",
-        "ok": false,
-        "erro": "503 Service Unavailable"
+        "ok": true,
+        "encontrados": 4
       },
       {
         "fonte": "YouTube ALES",
@@ -437,7 +437,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-27T04:22:15.905Z",
+    "atualizadoEm": "2026-11-27T05:21:07.936Z",
     "novas": 0,
     "fontes": [
       {
@@ -453,13 +453,13 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-27T04:22:16.813Z",
+    "atualizadoEm": "2026-11-27T05:21:08.708Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-27T04:22:27.388Z",
+    "atualizadoEm": "2026-11-27T05:21:19.282Z",
     "novas": 0,
     "fontes": [
       {
