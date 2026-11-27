@@ -308,8 +308,36 @@ for (const pOriginal of pautas) {
   elegiveis.push(p);
 }
 
+// Evita que as mesmas pautas reprovadas ocupem todos os próximos lotes.
+// Não altera os filtros editoriais nem remove pautas: as mais antigas voltam à fila.
+function historicoTentativas(anterior, elegiveis) {
+  const ids = new Set(elegiveis.map(p => String(p.id || '')).filter(Boolean));
+  const tentativas = new Map();
+  for (const [id, instante] of Object.entries(anterior?.tentativasRecentes || {})) {
+    if (ids.has(id) && Number.isFinite(instante) && instante > 0) tentativas.set(id, instante);
+  }
+  const rodada = Date.parse(anterior?.reapuradoEm || '');
+  if (Number.isFinite(rodada)) {
+    for (const p of anterior.candidatas || []) {
+      const id = String(p.id || '');
+      if (ids.has(id)) tentativas.set(id, Math.max(tentativas.get(id) || 0, rodada));
+    }
+  }
+  return tentativas;
+}
+
+let loteAnterior = null;
+try {
+  loteAnterior = JSON.parse(await fs.readFile(DESTINO, 'utf8'));
+} catch (erro) {
+  if (erro.code !== 'ENOENT') throw erro;
+}
+const tentativas = historicoTentativas(loteAnterior, elegiveis);
+const ultimaTentativa = p => tentativas.get(String(p.id || '')) || 0;
+
 elegiveis.sort((a, b) => {
-  return categoriaRank(a.categoria) - categoriaRank(b.categoria)
+  return ultimaTentativa(a) - ultimaTentativa(b)
+    || categoriaRank(a.categoria) - categoriaRank(b.categoria)
     || radarFlavio(a) - radarFlavio(b)
     || fonteRank(a) - fonteRank(b)
     || dataRank(a) - dataRank(b);
@@ -343,11 +371,17 @@ const candidatas = selecionadas.slice(0, 33).map((p) => ({
   descobertaEm: p.descobertaEm || null
 }));
 
+const agora = Date.now();
+for (const p of candidatas) {
+  if (p.id) tentativas.set(String(p.id), agora);
+}
+
 const saida = {
-  geradoEm: new Date().toISOString(),
+  geradoEm: new Date(agora).toISOString(),
   objetivo: 'Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.',
   diagnostico,
   quantidadeCandidatas: candidatas.length,
+  tentativasRecentes: Object.fromEntries(tentativas),
   candidatas
 };
 
