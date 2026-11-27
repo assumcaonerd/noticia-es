@@ -1,8 +1,8 @@
 {
-  "geradoEm": "2026-11-27T22:48:42.430Z",
+  "geradoEm": "2026-11-27T22:58:21.789Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
-    "totalPendentes": 80,
+    "totalPendentes": 75,
     "bloqueadas": 1,
     "bloqueadasEditoriais": 5,
     "semImagem": 1,
@@ -12,106 +12,185 @@
   },
   "quantidadeCandidatas": 33,
   "tentativasRecentes": {
-    "1629bc0cd98302fb": 1795819722430,
-    "05372ff8bd0cfabb": 1795819722430,
-    "48f0b0356b82e415": 1795819722430,
-    "cb9bb1ff6c51b2bf": 1795819722430,
-    "6909b2df169d3f04": 1795816121292,
-    "5f018a641dca9bf3": 1795816121292,
-    "dad65c9d4c2a5e83": 1795816121292,
-    "ffb391027e126337": 1795819722430,
-    "d5e7799dd3a5d76c": 1795819722430,
-    "33a28c0b9c6c8ff4": 1795819722430,
-    "399ae30c0d946d83": 1795819722430,
-    "b86c89e7a2e5470f": 1795819722430,
-    "2e4458a6032a7665": 1795816121292,
-    "7190f3e75f135706": 1795816121292,
-    "a8a4ad8bbbfc25cd": 1795816121292,
-    "31f50f988fa0baa5": 1795819722430,
-    "1efcf78ff74df68c": 1795819722430,
-    "d08d02e026d34d49": 1795819722430,
-    "5e36ee1e2ec082b8": 1795819722430,
-    "7cc40743cc2e673c": 1795819722430,
-    "358110ded28b4ca1": 1795819722430,
-    "7c890d712d86cf62": 1795819722430,
-    "69e19a32b66f8bb9": 1795819722430,
-    "70d0f26b9d73755c": 1795819722430,
-    "d0466ba6546c42b3": 1795819722430,
-    "e2ffec18a60a1ee1": 1795819722430,
-    "9a646170a7bed0e1": 1795819722430,
-    "65d86ca0a7316a4e": 1795819722430,
-    "7a4cbfd88405297e": 1795819722430,
-    "9a0d03a31dc642ee": 1795819722430,
-    "3fbf610dd43600d8": 1795819722430,
-    "2a0d4120f4d33ddf": 1795819722430,
-    "d231889843e64dc9": 1795819722430,
-    "6f0738fdf9ca41dd": 1795819722430,
-    "b841c22dff3d2eee": 1795819722430,
-    "54b20cbd288575d9": 1795819722430,
-    "a7ad2228bd7ddc02": 1795819722430,
-    "e9ce3fdb30a69d78": 1795819722430,
-    "ba1046a5d4c1c081": 1795819722430
+    "1629bc0cd98302fb": 1795820301789,
+    "05372ff8bd0cfabb": 1795820301789,
+    "48f0b0356b82e415": 1795820301789,
+    "cb9bb1ff6c51b2bf": 1795820301789,
+    "6909b2df169d3f04": 1795820301789,
+    "5f018a641dca9bf3": 1795820301789,
+    "dad65c9d4c2a5e83": 1795820301789,
+    "ffb391027e126337": 1795820301789,
+    "d5e7799dd3a5d76c": 1795820301789,
+    "33a28c0b9c6c8ff4": 1795820301789,
+    "399ae30c0d946d83": 1795820301789,
+    "b86c89e7a2e5470f": 1795820301789,
+    "2e4458a6032a7665": 1795820301789,
+    "7190f3e75f135706": 1795820301789,
+    "a8a4ad8bbbfc25cd": 1795820301789,
+    "1efcf78ff74df68c": 1795820301789,
+    "5e36ee1e2ec082b8": 1795820301789,
+    "7cc40743cc2e673c": 1795820301789,
+    "358110ded28b4ca1": 1795820301789,
+    "7c890d712d86cf62": 1795820301789,
+    "69e19a32b66f8bb9": 1795820301789,
+    "70d0f26b9d73755c": 1795820301789,
+    "e2ffec18a60a1ee1": 1795820301789,
+    "9a646170a7bed0e1": 1795820301789,
+    "65d86ca0a7316a4e": 1795820301789,
+    "7a4cbfd88405297e": 1795820301789,
+    "9a0d03a31dc642ee": 1795820301789,
+    "3fbf610dd43600d8": 1795820301789,
+    "2a0d4120f4d33ddf": 1795820301789,
+    "d231889843e64dc9": 1795820301789,
+    "6f0738fdf9ca41dd": 1795820301789,
+    "b841c22dff3d2eee": 1795820301789,
+    "a7ad2228bd7ddc02": 1795820301789,
+    "e9ce3fdb30a69d78": 1795819729436
   },
   "candidatas": [
     {
-      "id": "31f50f988fa0baa5",
-      "titulo": "Pazolini pode escalar secretários que hoje estão no Governo de São Paulo",
-      "categoria": "Política ES",
+      "id": "6909b2df169d3f04",
+      "titulo": "GTA VI: cinco vezes em que o Brasil aparece de forma inesperada no jogo",
+      "categoria": "Cultura",
       "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/colunas/vitor-vogas/pazolini-pode-escalar-secretarios-que-hoje-estao-no-governo-de-sao-paulo-1126",
-      "dataFonte": "2026-11-27T21:42:21.000Z",
-      "resumoFonte": "Governador eleito confirma que gostaria de “repatriar” capixabas que hoje colaboram no governo de Tarcísio. “Nomes extraordinários. Cabe a nós criar o ambiente para que possam estar conosco.” No radar, o procurador Julio Castiglioni, entre outros",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795814746530_1.jpg",
-      "descobertaEm": "2026-11-27T22:02:42.560Z",
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/entretenimento/gta-vi-cinco-vezes-em-que-o-brasil-aparece-de-forma-inesperada-no-jogo",
+      "dataFonte": "2026-11-27T21:15:15.000Z",
+      "resumoFonte": "De arma fabricada no país a participações de Anitta e músicas nacionais, o game reúne várias referências à cultura brasileira",
+      "imagem": "https://i.metroimg.com/5-m2RGi6Cw5Z0LLu4Pl8qOwpgl8ID9s0ahxvuEZOLxo/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/vice-city-tambem-reserva-referencias-ao-brasil-com-voos-ficticios-para-sao-paulo-e-rio-de-janeiro-nos-paineis-do-aeroporto.jpg",
+      "descobertaEm": "2026-11-27T21:18:12.042Z"
+    },
+    {
+      "id": "5f018a641dca9bf3",
+      "titulo": "Campeã de futebol de areia, Lelê Villar vive impasse diplomático entre Brasil, Rússia e EUA",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/noticias/campea-de-futebol-de-areia-lele-villar-vive-impasse-diplomatico-entre-brasil-russia-e-eua/",
+      "dataFonte": "2026-11-27T21:15:37.000Z",
+      "resumoFonte": "A brasileira foi condenada a cinco anos e dois meses de prisão por contrabando e porte de droga ao ser detida com 6,13 gramas de haxixe para uso pessoal",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/lele-villar.jpg?w=1000&h=630&crop=1",
+      "descobertaEm": "2026-11-27T21:18:12.042Z",
       "reportagem": {
-        "titulo": "Pazolini pode escalar secretários que hoje estão no Governo de São Paulo",
-        "slug": "pazolini-pode-escalar-secretarios-que-hoje-estao-no-governo-de-sao-paulo",
-        "categoria": "Política ES",
+        "titulo": "Campeã de futebol de areia, Lelê Villar vive impasse diplomático entre Brasil, Rússia e EUA",
+        "slug": "campea-de-futebol-de-areia-lele-villar-vive-impasse-diplomatico-entre-brasil-russia-e-eua",
+        "categoria": "Esporte",
         "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/pazolini-pode-escalar-secretarios-que-hoje-estao-no-governo-de-sao-paulo.jpg",
-        "resumo": "Governador eleito confirma que gostaria de “repatriar” capixabas que hoje colaboram no governo de Tarcísio. “Nomes extraordinários. Cabe a nós criar o ambiente para que possam estar conosco.” No radar, o procurador Julio Castiglioni, entre outros",
-        "conteudo": "<p>Em breve discurso para o público presente ao Pedra Azul Summit 2026, na tarde desta sexta-feira (27), o governador eleito, Lorenzo Pazolini (Republicanos), destacou a importância de formar um bom time de governo.</p><h2>O contexto do cenário político</h2><p>Segundo ele, nas próximas semanas, para seu secretariado, serão anunciados “talentos do Espírito Santo e também de fora do Estado”.</p><p>Mas, no radar de Pazolini e de sua equipe de transição, também estão “híbridos” das duas categorias: capixabas de perfil técnico que, no momento, atuam na gestão pública fora do Espírito Santo.</p><p>Mais especificamente, no Governo do Estado de São Paulo, sob a liderança do governador Tarcísio de Freitas, correligionário de Pazolini no Republicanos.</p><h2>Informações e repercussões do episódio</h2><p>Para ser ainda mais específico, no rol de colaboradores do atual governo de Tarcísio, reeleito para o segundo mandato, estão Julio Castiglioni, procurador-geral do Estado do Espírito Santo, o especialista em Governança Pública Marcelo de Oliveira e a economista Andrezza Rosalém.</p><p>Procurador de carreira do Estado desde 2005, Castiglioni é diretor-presidente do Metrô de São Paulo desde abril de 2023. Além disso, entre 2023 e 2024, chegou a ser membro do Conselho de Administração da Sabesp.</p><p>Antes disso, de 2019 a 2022, foi presidente do Porto de Vitória (Vports). Está fortemente cotado para compor o primeiro escalão do próximo governo.</p><p>Uma pasta para ele seria a de Mobilidade Urbana e Infraestrutura (Semobi).</p><p>Por sua vez, Marcelo de Oliveira, mais conhecido como Marcelinho, é, desde abril deste ano, o secretário executivo de Governo e Relações Institucionais do Estado de São Paulo.</p><p>Professor da Fucape Business School e doutor em Estratégia e Governança Pública e Privada pela mesma instituição, ele já colaborou estreitamente com o próprio Pazolini.</p><p>Quando o então deputado se elegeu prefeito de Vitória, em 2020, o professor participou de sua equipe de transição. Nos dois anos seguintes, foi secretário de Desenvolvimento da Cidade de Vitória.</p><p>Antes disso, foi secretário de Estado de Desenvolvimento Urbano durante o último governo de Paulo Hartung (2015-2018).</p><p>Já Andrezza Rosalém é secretária de Desenvolvimento Social de São Paulo desde 2024. Antes, no último governo Paulo Hartung, foi diretora-presidente do Instituto Jones dos Santos Neves e secretária estadual de Trabalho, Assistência e Desenvolvimento Social.</p><p>Castiglioni, em especial, está fortemente cotado. Mas não há confirmação de convite concreto para ninguém. O próprio Marcelo de Oliveira disse à coluna não ter sido sondado. E é claro: se forem mesmo convidados, eles terão de aceitar a “repatriação”.</p><p>São nomes extraordinários. Agora cabe a nós criar o ambiente para que eles possam estar conosco.</p><p>Lorenzo Pazolini (Republicanos), governador eleito do ES</p><p>Ainda há o capixaba Roberto Carneiro, atual secretário de Governo e Relações Institucionais de São Paulo.</p><p>Assim como Marcelo de Oliveira, ele chegou a ser integrante da equipe de transição e do secretariado de Pazolini em Vitória no primeiro ano do governo dele (2021).</p><p>Mas, no caso de Roberto, a “repatriação” é muito improvável, já que ele preside o partido Republicanos no Estado de São Paulo.</p><p>Apesar de saber das dificuldades em convencer esses quadros, hoje bem posicionados no governo do maior estado do país, a voltar ao Espírito Santo para reforçarem seu primeiro escalão, Pazolini confirma que gostaria, sim, de contar com todos eles.</p><p>Seria muito bom para o Espírito Santo poder contar com todos eles. Naturalmente, eles já têm compromissos assumidos, e nós vamos compreender. Mas é conversar. Gostaria de contar com todos eles.</p><p>Político, Pazolini só evita o uso do termo “repatriação”. E faz um aceno para a turma:</p><p>“Eu não diria ‘repatriar’... O coração deles sempre esteve aqui.”</p><p>Veremos, pois, se o “coração capixaba” falará mais alto. Ou se latirá mais forte.</p>",
-        "fonteNome": "A Gazeta - Capa",
-        "fonteUrl": "https://www.agazeta.com.br/colunas/vitor-vogas/pazolini-pode-escalar-secretarios-que-hoje-estao-no-governo-de-sao-paulo-1126",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/campea-de-futebol-de-areia-lele-villar-vive-impasse-diplomatico-entre-brasil-russia-e-eua.jpg",
+        "resumo": "A brasileira foi condenada a cinco anos e dois meses de prisão por contrabando e porte de droga ao ser detida com 6,13 gramas de haxixe para uso pessoal",
+        "conteudo": "<p>A jogadora de futebol de areia Letícia Villar, chamada de Lelê Villar , é centro de impasse diplomático entre a Rússia, Brasil e os Estados Unidos .</p><h2>As informações principais do assunto</h2><p>Ela está detida em uma colônia penal da Mordóvia , conhecida como uma das piores prisões russas . As informações são do jornal Folha de S. Paulo .</p><p>Para a extradição da brasileira e de mais dois estudantes de medicina, a Rússia exige troca pelo suspeito de espionagem Sergei Tcherkasov . Do outro lado, em 2023, os Estados Unidos solicitaram o envio do russo .</p><p>Ele é acusado de atuar como agente de país estrangeiro e ter cometido fraude imigratória e bancária . No Brasil, cumpre pena de cinco anos e dois meses, na Penitenciária Federal de Brasília, por falsidade ideológica.</p><h2>Contexto e informações complementares</h2><p>Campeã de futebol de areia, Villar foi presa em julho de 2025 quando viajava da Estônia para a Rússia . Ela iria jogar no país no Lokomotiv, de São Petersburgo. A jogadora portava 6,13 gramas de haxixe para uso pessoal .</p><p>Em janeiro, foi condenada a cinco anos e dois meses de prisão por contrabando e porte de droga . A transferência para a colônia penal na Mordóvia foi realizada em agosto.</p><p>Em carta ao presidente Luiz Inácio Lula da Silva (PT), Villar relatou que as detidas na colônia penal são “escravas disfarçadas de presidiárias” .</p><p>A jogadora também contou sofrer episódios de racismo e perseguição por ser lésbica . Ela pediu ao chefe do Executivo apoio para ser extraditada ou expulsa da Rússia .</p><p>Desde a transferência para a colônia penal, Villar não recebeu visitas consulares . Teve permissão para o envio de duas cartas e não pôde fazer telefonema para a família .</p><p>No local, cumpre pena de trabalhos forçados das 6h às 21h, sem folga semanal . Ela costura uniformes para soldados russos que lutam na guerra da Ucrânia.</p><p>A colônia penal foi estabelecida na década de 1930 . O espaço integrou o complexo de gulags soviéticos , conhecidos pelos abusos contra dissidentes políticos . A unidade continua a receber denúncias de violação de direitos humanos .</p><p>Também ficou detida na colônia penal a jogadora de basquete norte-americana Brittney Griner . Ela foi detida em 2022, no aeroporto de Moscou, com óleo de haxixe para uso pessoal.</p><p>Para a extradição da atleta, a Rússia exigiu dos Estados Unidos a libertação do espião russo Vadim Krasikov.</p><p>Griner foi liberada depois de uma negociação direta do ex-presidente norte-americano Joe Biden . Os Estados Unidos libertaram o traficante de armas Viktor Bout em troca.</p><p>O advogado da jogadora, Rodrigo Sardenberg, relatou à Folha de S. Paulo que tem pedido às autoridades da Rússia o envio ao Ministério da Justiça e Segurança Pública da documentação necessária para solicitar a transferência .</p><p>No entanto, ele afirmou que Moscou tem ignorado. Em nota à Jovem Pan , a pasta disse que “não comenta ou confirma casos em andamento” .</p><p>Sardenberg declarou que acredita que o envolvimento de Lula na questão seria essencial para a resolução do impasse. O advogado disse à Folha de S. Paulo que o caso de Villar “não se trata mais de cooperação jurídica internacional”, mas de uma “decisão política dos dois países” .</p><p>À Jovem Pan , o Ministério das Relações Exteriores (MRE) relatou que acompanha o caso de Villar por intermédio da Embaixada do Brasil em Moscou . A pasta afirmou que está “empenhada” em resolver a questão da jogadora .</p><p>A brasileira foi condenada a cinco anos e dois meses de prisão por contrabando e porte de droga ao ser detida com 6,13 gramas de haxixe para uso pessoal</p><p>Trump diz ter pedido que Putin coloque fim à ‘agressão militar’ contra a Europa</p><p>Rússia prende vice-comandante das Forças Aeroespaciais sob suspeita de corrupção</p><p>General-coronel Yuriy Grekhov ocupava desde 2021 o cargo responsável pelo armamento de uma das principais estruturas militares russas</p><p>Werder Bremen x Borussia Mönchengladbach hoje: onde assistir ao vivo e escalações</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/noticias/campea-de-futebol-de-areia-lele-villar-vive-impasse-diplomatico-entre-brasil-russia-e-eua/",
         "fontesAdicionais": [
           {
-            "nome": "Assembleia Legislativa do ES",
-            "url": "https://www.al.es.gov.br/"
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
           },
           {
-            "nome": "Governo do Estado do ES",
-            "url": "https://www.es.gov.br/"
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Em breve discurso para o público presente ao Pedra Azul Summit 2026, na tarde desta sexta-feira (27), o governador eleito, Lorenzo Pazolini (Republicanos), destacou a importância de formar um bom time de governo. Segundo ele, nas próximas semanas, para seu secretariado, serão anunciados “talentos do Espírito Santo e também de fora do Estado”."
+            "resposta": "A jogadora de futebol de areia Letícia Villar, chamada de Lelê Villar , é centro de impasse diplomático entre a Rússia, Brasil e os Estados Unidos . Ela está detida em uma colônia penal da Mordóvia , conhecida como uma das piores prisões russas . As informações são do jornal Folha de S. Paulo ."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Mas, no radar de Pazolini e de sua equipe de transição, também estão “híbridos” das duas categorias: capixabas de perfil técnico que, no momento, atuam na gestão pública fora do Espírito Santo. Mais especificamente, no Governo do Estado de São Paulo, sob a liderança do governador Tarcísio de Freitas, correligionário de Pazolini no Republicanos."
+            "resposta": "Para a extradição da brasileira e de mais dois estudantes de medicina, a Rússia exige troca pelo suspeito de espionagem Sergei Tcherkasov . Do outro lado, em 2023, os Estados Unidos solicitaram o envio do russo . Ele é acusado de atuar como agente de país estrangeiro e ter cometido fraude imigratória e bancária ."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Para ser ainda mais específico, no rol de colaboradores do atual governo de Tarcísio, reeleito para o segundo mandato, estão Julio Castiglioni, procurador-geral do Estado do Espírito Santo, o especialista em Governança Pública Marcelo de Oliveira e a economista Andrezza Rosalém."
+            "resposta": "Campeã de futebol de areia, Villar foi presa em julho de 2025 quando viajava da Estônia para a Rússia . Ela iria jogar no país no Lokomotiv, de São Petersburgo. A jogadora portava 6,13 gramas de haxixe para uso pessoal . Em janeiro, foi condenada a cinco anos e dois meses de prisão por contrabando e porte de droga ."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Procurador de carreira do Estado desde 2005, Castiglioni é diretor-presidente do Metrô de São Paulo desde abril de 2023. Além disso, entre 2023 e 2024, chegou a ser membro do Conselho de Administração da Sabesp. Antes disso, de 2019 a 2022, foi presidente do Porto de Vitória (Vports). Está fortemente cotado para compor o primeiro escalão do próximo governo."
+            "resposta": "Em carta ao presidente Luiz Inácio Lula da Silva (PT), Villar relatou que as detidas na colônia penal são “escravas disfarçadas de presidiárias” . A jogadora também contou sofrer episódios de racismo e perseguição por ser lésbica . Ela pediu ao chefe do Executivo apoio para ser extraditada ou expulsa da Rússia ."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Por sua vez, Marcelo de Oliveira, mais conhecido como Marcelinho, é, desde abril deste ano, o secretário executivo de Governo e Relações Institucionais do Estado de São Paulo. Professor da Fucape Business School e doutor em Estratégia e Governança Pública e Privada pela mesma instituição, ele já colaborou estreitamente com o próprio Pazolini."
+            "resposta": "Desde a transferência para a colônia penal, Villar não recebeu visitas consulares . Teve permissão para o envio de duas cartas e não pôde fazer telefonema para a família . No local, cumpre pena de trabalhos forçados das 6h às 21h, sem folga semanal . Ela costura uniformes para soldados russos que lutam na guerra da Ucrânia."
           }
         ],
-        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795814746530_1.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/pazolini-pode-escalar-secretarios-que-hoje-estao-no-governo-de-sao-paulo.jpg",
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/lele-villar.jpg?w=1000&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/campea-de-futebol-de-areia-lele-villar-vive-impasse-diplomatico-entre-brasil-russia-e-eua.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
+    },
+    {
+      "id": "dad65c9d4c2a5e83",
+      "titulo": "STF: Dino suspende emendas parlamentares de Flávio Bolsonaro",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Agência Brasil - Política",
+      "urlFonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/stf-dino-suspende-emendas-parlamentares-de-flavio-bolsonaro",
+      "dataFonte": "2026-11-27T20:41:00.000Z",
+      "resumoFonte": "O ministro do Supremo Tribunal Federal (STF) Flávio Dino suspendeu a execução de emendas parlamentares apresentadas pelo senador Flávio Bolsonaro (PL-RJ) ao Projeto de Lei Orçamentária Anual (Ploa) de 2027. São 14 emendas, totalizando R$ 79,3 milhões. “A fim de resguardar a higidez do devido processo orçamentário e evitar a consumação de dano de…",
+      "imagem": "https://imagens.ebc.com.br/w4rPIWA4fdhmfrfcvs6EfaB_bPE=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/09/09/54776974910_27f774db1d_o.jpg?itok=duUdnejI",
+      "descobertaEm": "2026-11-27T21:18:12.042Z",
+      "reportagem": {
+        "titulo": "STF: Dino suspende emendas parlamentares de Flávio Bolsonaro",
+        "slug": "stf-dino-suspende-emendas-parlamentares-de-flavio-bolsonaro",
+        "categoria": "Justiça",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/stf-dino-suspende-emendas-parlamentares-de-flavio-bolsonaro.jpg",
+        "resumo": "Decisão é em caráter liminar; senador mora nos EUA após fuga do Brasil",
+        "conteudo": "<p>O ministro do Supremo Tribunal Federal (STF) Flávio Dino suspendeu a execução de emendas parlamentares apresentadas pelo senador Flávio Bolsonaro (PL-RJ) ao Projeto de Lei Orçamentária Anual (Ploa) de 2027. São 14 emendas, totalizando R$ 79,3 milhões.</p><h2>O contexto da decisão judicial</h2><p>“A fim de resguardar a higidez do devido processo orçamentário e evitar a consumação de dano de difícil ou impossível reparação, determino, por cautela, a imediata suspensão da tramitação das emendas parlamentares individuais de autoria do Exmo. Senador Flávio Bolsonaro.&quot;</p><p>O ministro atendeu ao pedido do deputado Santana Braga (PT-SP), uma vez que o senador fugiu do país , logo após outro ministro do STF, Alexandre de Moraes, pedir a retenção de seu passaporte .</p><p>Flávio Bolsonaro chegou a Miami, nos Estados Unidos, três dias após ser derrotado no segundo turno das eleições presidenciais.</p><h2>Detalhes e consequências do caso</h2><p>Moraes havia determinado a entrega dos passaportes de Flávio no âmbito de um inquérito em que o senador é investigado por lavagem de dinheiro, juntamente com o advogado Willer Tomaz, seu amigo.</p><p>Atualmente, o senador mora nos Estados Unidos com a família, e vota remotamente nas sessões plenárias do Senado Federal.</p><p>Dino abriu espaço para manifestação do senador e pediu que o Senado explique se houve autorização de viagem para Bolsonaro ou se ele se encontra em missão oficial no exterior.</p><p>A decisão do ministro é em caráter liminar. Uma decisão final será tomada após o posicionamento de Flávio e do Senado. A questão pode ainda ser submetida ao Plenário do Supremo.</p><p>Dino comparou a situação do senador ao caso de Eduardo Bolsonaro, irmão de Flávio, e de Alexandre Ramagem. Ambos eram deputados federais quando fugiram para os Estados Unidos e tentaram exercer seus mandatos mesmo residindo fora do Brasil.</p><p>Naquela ocasião, o plenário do STF entendeu não ser legítimo o exercício de função parlamentar brasileira com sede em outro país. A Câmara cassou o mandato dos dois parlamentares .</p><p>“O mandato parlamentar não se compadece com o regime de teletrabalho integral transnacional”, decidiu a Corte na ocasião.</p><p>“É de clareza solar que uma emenda parlamentar de autoria de um deputado permanentemente sediado em outro país é revestida de evidente e insanável impedimento de ordem técnica, por afronta aos princípios da legalidade e da moralidade.”</p><p>Economia Com bandeira tarifária verde, energia não terá custo extra em dezembro sex, 27/11/2026 - 19:29</p><p>Cultura Inauguração da Árvore de Natal da Lagoa terá queima de fogos e drones sex, 27/11/2026 - 18:50</p><p>Direitos Humanos Ato marca um ano do duplo feminicídio de servidoras no Cefet-RJ sex, 27/11/2026 - 18:20</p><p>Economia Vendas do Tesouro Direto registram melhor outubro da história sex, 27/11/2026 - 18:01</p><p>Internacional Brasil quer aproximar Mercosul de mercados do Caribe e América Central sex, 27/11/2026 - 17:57</p><p>Internacional Milei enfrenta recessão, mas ganha fôlego com suspensão de primárias sex, 27/11/2026 - 17:49</p>",
+        "fonteNome": "Agência Brasil - Política",
+        "fonteUrl": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/stf-dino-suspende-emendas-parlamentares-de-flavio-bolsonaro",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O ministro do Supremo Tribunal Federal (STF) Flávio Dino suspendeu a execução de emendas parlamentares apresentadas pelo senador Flávio Bolsonaro (PL-RJ) ao Projeto de Lei Orçamentária Anual (Ploa) de 2027. São 14 emendas, totalizando R$ 79,3 milhões."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "“A fim de resguardar a higidez do devido processo orçamentário e evitar a consumação de dano de difícil ou impossível reparação, determino, por cautela, a imediata suspensão da tramitação das emendas parlamentares individuais de autoria do Exmo. Senador Flávio Bolsonaro.\""
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O ministro atendeu ao pedido do deputado Santana Braga (PT-SP), uma vez que o senador fugiu do país , logo após outro ministro do STF, Alexandre de Moraes, pedir a retenção de seu passaporte ."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Flávio Bolsonaro chegou a Miami, nos Estados Unidos, três dias após ser derrotado no segundo turno das eleições presidenciais. Moraes havia determinado a entrega dos passaportes de Flávio no âmbito de um inquérito em que o senador é investigado por lavagem de dinheiro, juntamente com o advogado Willer Tomaz, seu amigo. Ambos negam qualquer irregularidade."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Atualmente, o senador mora nos Estados Unidos com a família, e vota remotamente nas sessões plenárias do Senado Federal."
+          }
+        ],
+        "imagemOriginal": "https://imagens.ebc.com.br/w4rPIWA4fdhmfrfcvs6EfaB_bPE=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/09/09/54776974910_27f774db1d_o.jpg?itok=duUdnejI",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/stf-dino-suspende-emendas-parlamentares-de-flavio-bolsonaro.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "70d0f26b9d73755c",
+      "titulo": "Acompanhe programa especial Fim de Expediente no ES",
+      "categoria": "Política ES",
+      "radar": null,
+      "fonteNome": "A Gazeta - Política",
+      "urlFonte": "https://www.agazeta.com.br/es/politica/a-gazeta-as-principais-noticias-do-espirito-santo/acompanhe-programa-especial-fim-de-expediente-no-es-1126",
+      "dataFonte": "2026-11-27T21:30:00.000Z",
+      "resumoFonte": "Edição do programa é direto do Pedra Azul Summit 2026; os convidados são o cantor Paulo Ricardo e a jornalista Júlia Dialibi",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795815230354_maxresdefault_2.jpg",
+      "descobertaEm": "2026-11-27T22:02:42.560Z"
     },
     {
       "id": "1efcf78ff74df68c",
@@ -126,26 +205,26 @@
       "descobertaEm": "2026-11-27T22:02:42.560Z"
     },
     {
-      "id": "d08d02e026d34d49",
-      "titulo": "Lula faz live com Janones e cinco estudantes neste sábado, às 11h",
+      "id": "05372ff8bd0cfabb",
+      "titulo": "Pessimistas, brasileiros cobram mudanças de Lula",
       "categoria": "Política Nacional",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/matheus-leitao/lula-faz-live-com-janones-e-cinco-estudantes-neste-sabado-as-11h",
-      "dataFonte": "2026-11-27T22:13:45.000Z",
-      "resumoFonte": "Transmissão pelo canal Exército do Lula ocorre um dia depois de o presidente visitar a UFF e prometer que a educação não terá cortes",
-      "imagem": "https://i.metroimg.com/RcmCU95vn8zCC_iLPfAC2fIRAXxmAABQO7KUIoHRQJY/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/lula-janones-destaque.jpg",
-      "descobertaEm": "2026-11-27T22:18:28.416Z",
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/pessimistas-brasileiros-cobram-mudancas-de-lula/",
+      "dataFonte": "2026-11-27T20:55:54.000Z",
+      "resumoFonte": "Quase metade dos brasileiros está pessimista em relação ao futuro do país nos próximos quatro anos. Segundo pesquisa da Nexus, 48% dos entrevistados demonstram preocupação com o cenário nacional, contra 47% que se dizem otimistas. O levantamento revela insatisfação com as instituições: 46% não acreditam que o governo federal nem o Congresso…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/Brasileiros-pessimistas-com-o-pais-910x568.jpeg.webp",
+      "descobertaEm": "2026-11-27T21:18:12.042Z",
       "reportagem": {
-        "titulo": "Lula faz live com Janones e cinco estudantes neste sábado, às 11h",
-        "slug": "lula-faz-live-com-janones-e-cinco-estudantes-neste-sabado-as-11h",
+        "titulo": "Pessimistas, brasileiros cobram mudanças de Lula",
+        "slug": "pessimistas-brasileiros-cobram-mudancas-de-lula",
         "categoria": "Política Nacional",
         "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-faz-live-com-janones-e-cinco-estudantes-neste-sabado-as-11h.jpg",
-        "resumo": "Transmissão pelo canal Exército do Lula ocorre um dia depois de o presidente visitar a UFF e prometer que a educação não terá cortes",
-        "conteudo": "<p>O presidente Luiz Inácio Lula da Silva participa neste sábado (28/11), às 11h, de uma transmissão ao vivo com o deputado federal André Janones e cinco estudantes.</p><h2>O contexto do cenário político</h2><p>A live será exibida no canal Exército do Lula e vai tratar dos desafios do país e da juventude e de possíveis caminhos para enfrentá-los.</p><p>Lula fez o convite na sexta-feira (27/11), em Niterói (RJ), ao final de um encontro com apoiadores.</p><p>Na véspera da live, Lula esteve na Universidade Federal Fluminense (UFF) para agradecer aos alunos de Direito que puxaram a onda de mobilização jovem nas três semanas do segundo turno.</p><h2>Informações e repercussões do episódio</h2><p>O movimento começou na faculdade e se espalhou por cidades de todo o país. Lula disse que deve o quarto mandato ao povo e admitiu que entrou confiante demais na disputa, achando que venceria já no primeiro turno.</p><p>Ele também lembrou o esforço dos idosos e de pessoas com dificuldade de locomoção para votar e disse que se emocionou várias vezes com essas imagens.</p><p>Durante o discurso, Lula reafirmou que vai levar o ensino básico em tempo integral a todas as escolas, estender o Pé-de-Meia a todos os alunos do ensino médio e ampliar o incentivo para estudantes do ensino superior.</p><p>Ele garantiu que não haverá cortes na educação nem em benefícios dos mais pobres. Por outro lado, defendeu uma revisão dos gastos para que só recebam benefícios as pessoas que têm direito a eles.</p><p>Para fazer a economia crescer, o presidente quer elevar o investimento produtivo dos atuais 16% para 21% do PIB, patamar de 2010, com foco nas economias digital, criativa e verde.</p><p>Lula também pediu que a população continue cobrando o governo depois do voto. No evento, os estudantes João Paulo Pimenta e Daíse Maciel disseram que conseguiram chegar à universidade graças a políticas como as cotas, o Prouni e o Fies.</p><p>O ministro da Educação, Leonardo Barchini, disse que a reação dos estudantes de Niterói animou a campanha depois do resultado do primeiro turno.</p><p>Já o prefeito Rodrigo Neves (PDT) comparou a mobilização aos caras-pintadas de 1992.</p><p>Da UFF, Lula foi para o Rio de Janeiro, onde assistiu a uma apresentação do Coral Renascer, da Unirio, no Hospital Universitário Gaffrée e Guinle.</p><p>Transmissão ao vivo: o presidente Luiz Inácio Lula da Silva participa de uma live neste sábado (28), às 11h, com o deputado federal André Janones e cinco estudantes; Temas do debate: a conversa no canal Exército do Lula abordará desafios do país e da juventude, além de caminhos para enfrentá-los; Promessas educacionais: em visita à UFF, o presidente garantiu que não haverá cortes na educação e defendeu a ampliação de programas de incentivo a estudantes.</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/colunas/matheus-leitao/lula-faz-live-com-janones-e-cinco-estudantes-neste-sabado-as-11h",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/pessimistas-brasileiros-cobram-mudancas-de-lula.jpg",
+        "resumo": "Pesquisa: quase a metade da população vê piora nos próximos quatro anos; 71% defendem controle dos gastos públicos",
+        "conteudo": "<p>A pesquisa Nexus revela pessimismo dos brasileiros com o futuro do país: 48% acreditam que a situação vai piorar nos próximos quatro anos.</p><h2>O contexto do cenário político</h2><p>A economia lidera as preocupações; 71% defendem maior controle dos gastos públicos, mesmo com cortes em programas sociais.</p><p>Além disso, 46% não confiam no compromisso do governo federal nem do Congresso com a população, enquanto 60% cobram mudanças nas políticas de Lula.</p><p>Quase metade dos brasileiros está pessimista em relação ao futuro do país nos próximos quatro anos. Segundo pesquisa da Nexus, 48% dos entrevistados demonstram preocupação com o cenário nacional, contra 47% que se dizem otimistas.</p><h2>Como interpretar os resultados</h2><p>O levantamento revela insatisfação com as instituições: 46% não acreditam que o governo federal nem o Congresso Nacional tenham compromisso com a população e trabalhem para resolver seus problemas.</p><p>A expectativa em relação ao quarto mandato de Lula da Silva (PT) também está longe de ser positiva.</p><p>Embora 91% tenham afirmado torcer para que o novo governo dê certo, apenas 42% acreditam que a próxima gestão será melhor do que a atual. Outros 39% esperam uma piora.</p><p>Além disso, 60% defendem mudanças substanciais ou totais nas políticas e nos projetos do presidente.</p><p>A economia é a principal fonte de preocupação. O tema, que engloba inflação, custo de vida, endividamento e renda , concentra 46% das menções como um dos maiores problemas do Brasil.</p><p>Mais preocupante, 48% acreditam que a situação econômica e o controle dos preços vão piorar nos próximos quatro anos, enquanto apenas 33% esperam melhora.</p><p>A pesquisa também evidencia a cobrança por responsabilidade fiscal. Para 71% dos brasileiros, o governo precisa controlar melhor as contas públicas, mesmo que isso implique redução de despesas com programas sociais.</p><p>Apenas 25% defendem a manutenção ou a ampliação desses gastos, ainda que aumente a dívida pública.</p><p>Na relação entre os Poderes, 64% acreditam que o Congresso deverá dificultar ou boicotar as propostas de Lula. Outros 60% consideram que o presidente terá de negociar com deputados e senadores, mesmo que precise abrir mão de parte de suas propostas.</p><p>Leia ainda: “A chave do cofre” , reportagem publicada na Edição 351 da Revista Oeste</p><p>A pesquisa ouviu 2 mil eleitores entre 23 e 25 de novembro, nas 27 unidades da Federação. A margem de erro é de 2,2 pontos porcentuais, com intervalo de confiança de 95%.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/pessimistas-brasileiros-cobram-mudancas-de-lula/",
         "fontesAdicionais": [
           {
             "nome": "Agência Brasil",
@@ -160,27 +239,27 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O presidente Luiz Inácio Lula da Silva participa neste sábado (28/11), às 11h, de uma transmissão ao vivo com o deputado federal André Janones e cinco estudantes. A live será exibida no canal Exército do Lula e vai tratar dos desafios do país e da juventude e de possíveis caminhos para enfrentá-los."
+            "resposta": "A pesquisa Nexus revela pessimismo dos brasileiros com o futuro do país: 48% acreditam que a situação vai piorar nos próximos quatro anos. A economia lidera as preocupações; 71% defendem maior controle dos gastos públicos, mesmo com cortes em programas sociais."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Na véspera da live, Lula esteve na Universidade Federal Fluminense (UFF) para agradecer aos alunos de Direito que puxaram a onda de mobilização jovem nas três semanas do segundo turno. O movimento começou na faculdade e se espalhou por cidades de todo o país."
+            "resposta": "Quase metade dos brasileiros está pessimista em relação ao futuro do país nos próximos quatro anos. Segundo pesquisa da Nexus, 48% dos entrevistados demonstram preocupação com o cenário nacional, contra 47% que se dizem otimistas."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Durante o discurso, Lula reafirmou que vai levar o ensino básico em tempo integral a todas as escolas, estender o Pé-de-Meia a todos os alunos do ensino médio e ampliar o incentivo para estudantes do ensino superior. Ele garantiu que não haverá cortes na educação nem em benefícios dos mais pobres."
+            "resposta": "O levantamento revela insatisfação com as instituições: 46% não acreditam que o governo federal nem o Congresso Nacional tenham compromisso com a população e trabalhem para resolver seus problemas."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Lula também pediu que a população continue cobrando o governo depois do voto. No evento, os estudantes João Paulo Pimenta e Daíse Maciel disseram que conseguiram chegar à universidade graças a políticas como as cotas, o Prouni e o Fies."
+            "resposta": "A expectativa em relação ao quarto mandato de Lula da Silva (PT) também está longe de ser positiva. Embora 91% tenham afirmado torcer para que o novo governo dê certo, apenas 42% acreditam que a próxima gestão será melhor do que a atual. Outros 39% esperam uma piora."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Transmissão ao vivo: o presidente Luiz Inácio Lula da Silva participa de uma live neste sábado (28), às 11h, com o deputado federal André Janones e cinco estudantes; Temas do debate: a conversa no canal Exército do Lula abordará desafios do país e da juventude, além de caminhos para enfrentá-los; Promessas educacionais: em visita à UFF, o presidente garantiu que não haverá cortes na educação e defendeu a ampliação de programas de incentivo a estudantes."
+            "resposta": "A economia é a principal fonte de preocupação. O tema, que engloba inflação, custo de vida, endividamento e renda , concentra 46% das menções como um dos maiores problemas do Brasil. Mais preocupante, 48% acreditam que a situação econômica e o controle dos preços vão piorar nos próximos quatro anos, enquanto apenas 33% esperam melhora."
           }
         ],
-        "imagemOriginal": "https://i.metroimg.com/RcmCU95vn8zCC_iLPfAC2fIRAXxmAABQO7KUIoHRQJY/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/lula-janones-destaque.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-faz-live-com-janones-e-cinco-estudantes-neste-sabado-as-11h.jpg",
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/Brasileiros-pessimistas-com-o-pais-910x568.jpeg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/pessimistas-brasileiros-cobram-mudancas-de-lula.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -246,102 +325,6 @@
       }
     },
     {
-      "id": "7cc40743cc2e673c",
-      "titulo": "Narcisa relembra romance com cantor internacional e cita arrependimento",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/fabia-oliveira/narcisa-relembra-romance-com-cantor-internacional-e-cita-arrependimento",
-      "dataFonte": "2026-11-27T22:05:23.000Z",
-      "resumoFonte": "Em entrevista ao Que História é Essa, Porchat?, a empresária Narcisa Tamborindeguy disse que deveria ter morado com cantor americano",
-      "imagem": "https://i.metroimg.com/X0d-S3dY4E7MQCl2RUSBAsbZVPy-NAtpweN50JE7Us4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/narcisa-e-franck-sinatra-jr.jpg",
-      "descobertaEm": "2026-11-27T22:18:28.416Z"
-    },
-    {
-      "id": "358110ded28b4ca1",
-      "titulo": "Trump publica imagem como \"Poderoso Chefão\" e sinaliza veto a democratas",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/mundo/trump-publica-imagem-como-poderoso-chefao-e-sinaliza-veto-a-democratas",
-      "dataFonte": "2026-11-27T22:11:32.000Z",
-      "resumoFonte": "Trump publica imagem de IA em referência ao \"Poderoso Chefão\" e ameaça vetar projetos democratas após avanço do partido na Câmara dos EUA",
-      "imagem": "https://i.metroimg.com/4uG9Nw1Fm4rU90eeAaxb0_R7W1oYn0KZXmETWx1CfNk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/trump-veto-3x2-1.jpg",
-      "descobertaEm": "2026-11-27T22:18:28.416Z"
-    },
-    {
-      "id": "7c890d712d86cf62",
-      "titulo": "Fluminense x Cruzeiro: escalações e onde assistir ao jogo do Brasileirão",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/fluminense-x-cruzeiro-escalacoes-e-onde-assistir-ao-jogo-do-brasileirao-2/",
-      "dataFonte": "2026-11-27T22:02:04.000Z",
-      "resumoFonte": "Equipes se enfrentam nesta sexta-feira (27), às 20h (de Brasília), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/maraca.jpg?w=1180&h=630&crop=1",
-      "descobertaEm": "2026-11-27T22:18:28.416Z"
-    },
-    {
-      "id": "69e19a32b66f8bb9",
-      "titulo": "Zucco anuncia Sachsida e Daniella Marques para conselho no RS",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-brasil/zucco-anuncia-sachsida-e-daniella-marques-para-conselho-no-rs/",
-      "dataFonte": "2026-11-27T21:25:32.000Z",
-      "resumoFonte": "Ex-integrantes da equipe econômica de Flávio Bolsonaro participarão de colegiado que terá reuniões mensais",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/zucco-anuncio-economia-1200x675.jpg",
-      "descobertaEm": "2026-11-27T22:02:42.560Z",
-      "reportagem": {
-        "titulo": "Zucco anuncia Sachsida e Daniella Marques para conselho no RS",
-        "slug": "zucco-anuncia-sachsida-e-daniella-marques-para-conselho-no-rs",
-        "categoria": "Justiça",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/zucco-anuncia-sachsida-e-daniella-marques-para-conselho-no-rs.jpg",
-        "resumo": "Ex-integrantes da equipe econômica de Flávio Bolsonaro participarão de colegiado que terá reuniões mensais.",
-        "conteudo": "<p>Ex-integrantes da equipe econômica de Flávio Bolsonaro participarão de colegiado que terá reuniões mensais</p><h2>O contexto da decisão judicial</h2><p>O governador eleito do Rio Grande do Sul, Luciano Zucco (PL), anunciou, na 5ª feira (26.nov.2026), a criação do Conselho de Desenvolvimento Econômico do Estado.</p><p>Entre os integrantes estarão o economista Adolfo Sachsida, ex-ministro de Minas e Energia, e Daniella Marques, ex-presidente da Caixa Econômica Federal.</p><p>Os 2 integraram a equipe econômica da campanha presidencial de Flávio Bolsonaro (PL), derrotado no 2º turno das eleições de outubro. Daniella coordenou o núcleo econômico da candidatura, enquanto Sachsida participou da coordenação geral do plano econômico.</p><h2>Detalhes e consequências do caso</h2><p>O colegiado será presidido pelo próprio Zucco e deverá se reunir mensalmente. A participação dos integrantes será voluntária, como contribuição ao planejamento e à gestão estadual.</p><p>Além de Sachsida e Daniella, o conselho contará com Mateus Bandeira, executivo com experiência nos setores público e privado, e Rafael Pandolfo, advogado especializado em direito tributário.</p><p>Também farão parte do grupo a deputada federal Any Ortiz (PP) e o deputado estadual Cláudio Branchieri (PL), anunciados como futuros secretários estaduais de Desenvolvimento Econômico e da Fazenda, respectivamente.</p><p>Segundo Zucco, a iniciativa busca reunir especialistas para discutir alternativas aos desafios fiscais e econômicos do Rio Grande do Sul. O governador eleito disse que pretende construir uma agenda de desenvolvimento para o Estado.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-brasil/zucco-anuncia-sachsida-e-daniella-marques-para-conselho-no-rs/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Ex-integrantes da equipe econômica de Flávio Bolsonaro participarão de colegiado que terá reuniões mensais"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O governador eleito do Rio Grande do Sul, Luciano Zucco (PL), anunciou, na 5ª feira (26.nov.2026), a criação do Conselho de Desenvolvimento Econômico do Estado. Entre os integrantes estarão o economista Adolfo Sachsida, ex-ministro de Minas e Energia, e Daniella Marques, ex-presidente da Caixa Econômica Federal."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Os 2 integraram a equipe econômica da campanha presidencial de Flávio Bolsonaro (PL), derrotado no 2º turno das eleições de outubro. Daniella coordenou o núcleo econômico da candidatura, enquanto Sachsida participou da coordenação geral do plano econômico."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O colegiado será presidido pelo próprio Zucco e deverá se reunir mensalmente. A participação dos integrantes será voluntária, como contribuição ao planejamento e à gestão estadual."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Além de Sachsida e Daniella, o conselho contará com Mateus Bandeira, executivo com experiência nos setores público e privado, e Rafael Pandolfo, advogado especializado em direito tributário."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/zucco-anuncio-economia-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/zucco-anuncia-sachsida-e-daniella-marques-para-conselho-no-rs.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
       "id": "cb9bb1ff6c51b2bf",
       "titulo": "Professora do Marajó vence prêmio com projeto sobre efeitos do El Niño",
       "categoria": "Cidades",
@@ -402,38 +385,170 @@
       }
     },
     {
-      "id": "70d0f26b9d73755c",
-      "titulo": "Acompanhe programa especial Fim de Expediente no ES",
-      "categoria": "Política ES",
+      "id": "358110ded28b4ca1",
+      "titulo": "Trump publica imagem como \"Poderoso Chefão\" e sinaliza veto a democratas",
+      "categoria": "Tecnologia",
       "radar": null,
-      "fonteNome": "A Gazeta - Política",
-      "urlFonte": "https://www.agazeta.com.br/es/politica/a-gazeta-as-principais-noticias-do-espirito-santo/acompanhe-programa-especial-fim-de-expediente-no-es-1126",
-      "dataFonte": "2026-11-27T21:30:00.000Z",
-      "resumoFonte": "Edição do programa é direto do Pedra Azul Summit 2026; os convidados são o cantor Paulo Ricardo e a jornalista Júlia Dialibi",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795815230354_maxresdefault_2.jpg",
-      "descobertaEm": "2026-11-27T22:02:42.560Z"
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/mundo/trump-publica-imagem-como-poderoso-chefao-e-sinaliza-veto-a-democratas",
+      "dataFonte": "2026-11-27T22:11:32.000Z",
+      "resumoFonte": "Trump publica imagem de IA em referência ao \"Poderoso Chefão\" e ameaça vetar projetos democratas após avanço do partido na Câmara dos EUA",
+      "imagem": "https://i.metroimg.com/4uG9Nw1Fm4rU90eeAaxb0_R7W1oYn0KZXmETWx1CfNk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/trump-veto-3x2-1.jpg",
+      "descobertaEm": "2026-11-27T22:18:28.416Z"
     },
     {
-      "id": "d0466ba6546c42b3",
-      "titulo": "Reforma tributária obrigará o ES a revisitar seus pilares da economia, diz Pazolini",
+      "id": "2e4458a6032a7665",
+      "titulo": "Marinha testa habilidades de militares em campeonato de drones",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Poder360",
+      "urlFonte": "https://www.poder360.com.br/poder-brasil/marinha-testa-habilidades-de-militares-em-campeonato-de-drones/",
+      "dataFonte": "2026-11-27T21:12:24.000Z",
+      "resumoFonte": "Competição reúne operadores em provas de pilotagem e promove debates sobre o uso desses equipamentos em conflitos. Leia no Poder360.",
+      "imagem": "https://static.poder360.com.br/uploads/2026/11/campeonato-de-drones-marinha.png",
+      "descobertaEm": "2026-11-27T21:18:12.042Z",
+      "reportagem": {
+        "titulo": "Marinha testa habilidades de militares em campeonato de drones",
+        "slug": "marinha-testa-habilidades-de-militares-em-campeonato-de-drones",
+        "categoria": "Esporte",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/marinha-testa-habilidades-de-militares-em-campeonato-de-drones.jpg",
+        "resumo": "Competição reúne operadores em provas de pilotagem e promove debates sobre o uso desses equipamentos em conflitos.",
+        "conteudo": "<p>Competição reúne operadores em provas de pilotagem e promove debates sobre o uso desses equipamentos em conflitos</p><h2>As informações principais do assunto</h2><p>A Marinha do Brasil realizou, na 4ª feira (25.nov.2026) e na 5ª feira (26.nov), o 2º Campeonato de Drones Militares, no Ciasc (Centro de Instrução Almirante Sylvio de Camargo), na Ilha do Governador, no Rio de Janeiro.</p><p>A competição reúne militares para testar habilidades na operação de equipamentos remotamente pilotados.</p><p>O evento tem como foco o uso de drones em conflitos e Operações de Paz. Também busca identificar militares capacitados para operar os equipamentos e promover a troca de conhecimentos sobre a tecnologia.</p><h2>Contexto e informações complementares</h2><p>A programação inclui ainda um simpósio sobre o desenvolvimento e o emprego de drones militares.</p><p>Realizado na 5ª feira (26.nov), o encontro reuniu representantes de organizações militares em grupos de trabalho sobre tecnologia, construção e inovação; drones de ataque e emprego tático; proteção contra drones; e uso desses equipamentos em Operações de Paz e missões humanitárias.</p><p>O campeonato tem 5 provas para avaliar a capacidade técnica dos operadores. Entre elas está o Circuito Drone FPV ( First Person View , ou visão em 1ª pessoa), em que os participantes precisam percorrer uma pista com obstáculos no menor tempo possível.</p><p>O descumprimento das etapas previstas gera penalidades.</p><p>Segundo o comandante dos Fuzileiros Navais, Diego Nelson Cavalcante, os drones FPV têm ganhado espaço por sua capacidade de manobra e de carga e pela velocidade.</p><p>“Ele é um drone mais barato, mas, em contrapartida, tem uma maior capacidade de carga e uma maior velocidade” , afirmou.</p><p>Outra disputa é o Circuito Virtual Drone FPV, com simuladores de voo. Os competidores percorrem trajetos virtuais em condições padronizadas de equipamento e configuração. A modalidade permite comparar individualmente as habilidades de pilotagem dos participantes.</p>",
+        "fonteNome": "Poder360",
+        "fonteUrl": "https://www.poder360.com.br/poder-brasil/marinha-testa-habilidades-de-militares-em-campeonato-de-drones/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Competição reúne operadores em provas de pilotagem e promove debates sobre o uso desses equipamentos em conflitos"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A Marinha do Brasil realizou, na 4ª feira (25.nov.2026) e na 5ª feira (26.nov), o 2º Campeonato de Drones Militares, no Ciasc (Centro de Instrução Almirante Sylvio de Camargo), na Ilha do Governador, no Rio de Janeiro. A competição reúne militares para testar habilidades na operação de equipamentos remotamente pilotados."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O evento tem como foco o uso de drones em conflitos e Operações de Paz. Também busca identificar militares capacitados para operar os equipamentos e promover a troca de conhecimentos sobre a tecnologia."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A programação inclui ainda um simpósio sobre o desenvolvimento e o emprego de drones militares."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O campeonato tem 5 provas para avaliar a capacidade técnica dos operadores. Entre elas está o Circuito Drone FPV ( First Person View , ou visão em 1ª pessoa), em que os participantes precisam percorrer uma pista com obstáculos no menor tempo possível. O descumprimento das etapas previstas gera penalidades."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/campeonato-de-drones-marinha.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/marinha-testa-habilidades-de-militares-em-campeonato-de-drones.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "7190f3e75f135706",
+      "titulo": "Fluminense x Cruzeiro: Veja onde assistir, horário e escalaçõe",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/esportes/fluminense-cruzeiro-onde-assistir-2/",
+      "dataFonte": "2026-11-27T21:00:00.000Z",
+      "resumoFonte": "Foto: Montagem IM/ Fluminense x Cruzeiro \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/thumb-fluminense-x-cruzeiro.jpg?fit=1100%2C700&quality=70&strip=all\" />Colados na classificação, Fluminense tenta alcançar o Cruzeiro e roubar o 3º lugar do campeonato The post Fluminense x Cruzeiro: Veja onde assistir, horário e…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/thumb-fluminense-x-cruzeiro.jpg?fit=1100%2C700&quality=70&strip=all",
+      "descobertaEm": "2026-11-27T21:18:12.042Z"
+    },
+    {
+      "id": "a8a4ad8bbbfc25cd",
+      "titulo": "A indicação ao STF que o Centrão vê como possível cartada de Lula",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/politica/a-indicacao-ao-stf-que-o-centrao-ve-como-possivel-cartada-de-lula/",
+      "dataFonte": "2026-11-27T21:00:38.000Z",
+      "resumoFonte": "Interlocutores avaliam que a escolha poderia reduzir resistências no Senado e facilitar a aprovação antes do recesso",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/09/55075095505_4723034a75_c.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-11-27T21:18:12.042Z",
+      "reportagem": {
+        "titulo": "A indicação ao STF que o Centrão vê como possível cartada de Lula",
+        "slug": "a-indicacao-ao-stf-que-o-centrao-ve-como-possivel-cartada-de-lula",
+        "categoria": "Justiça",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/a-indicacao-ao-stf-que-o-centrao-ve-como-possivel-cartada-de-lula.jpg",
+        "resumo": "Interlocutores avaliam que a escolha poderia reduzir resistências no Senado e facilitar a aprovação antes do recesso",
+        "conteudo": "<p>A indicação de uma mulher negra ao Supremo Tribunal Federal poderia ajudar Lula a superar resistências no Senado e obter a aprovação do nome ainda em 2026.</p><h2>O contexto da decisão judicial</h2><p>Essa é a avaliação de interlocutores do Centrão ouvidos pelo repórter de Radar Marcelo Ribeiro, que relataram preocupação com o pouco tempo disponível para concluir o processo antes do recesso parlamentar (este texto é um resumo extraído do vídeo acima) .</p><p>Os bastidores foram apresentados no programa Os Três Poderes desta sexta-feira, 27, conduzido por Ricardo Ferraz. O cenário discutido é uma possibilidade considerada nas conversas políticas, sem uma decisão confirmada de Lula sobre o perfil da próxima indicação.</p><p>Segundo Ribeiro, interlocutores do grupo avaliam que o presidente já deveria ter encaminhado o nome para permitir sua análise ainda neste ano. No relato apresentado ao programa, restavam pouco mais de três semanas de trabalhos no Congresso antes do recesso.</p><h2>Detalhes e consequências do caso</h2><p>A preocupação com o prazo coloca pressão sobre a escolha presidencial. Para esses interlocutores, a demora reduz a margem para concluir a aprovação em 2026 e recompor o Supremo.</p><p>Apesar do calendário apertado, as fontes ouvidas pelo repórter acreditam que uma indicação com esse perfil poderia dificultar a resistência dos senadores e acelerar a votação.</p><p>Ribeiro resumiu a expectativa de aprovação ainda neste ano: “Eles vão ter que acabar aprovando nesse ano”.</p><p>A projeção traduz o cálculo político relatado pelo jornalista, sem representar um compromisso dos parlamentares. Nenhum nome específico foi mencionado no trecho como possível escolha de Lula.</p><p>Ao explicar a avaliação de bastidores, Ribeiro comparou uma eventual escolha para o Supremo ao movimento de Lula ao indicar Luiz Carlos Trabuco para a Fazenda. A analogia é a de uma decisão capaz de alterar o ambiente político e reduzir o espaço de contestação.</p><p>O repórter também apontou um possível efeito da aprovação: a volta do STF à composição de onze integrantes. Na sua avaliação, essa recomposição poderia deixar o cenário “um pouco melhor ali pro Supremo em relação ao Legislativo”.</p><p>VEJA+IA: Este texto resume um trecho do programa audiovisual Os Três Poderes (confira o vídeo acima). Conteúdo produzido com auxílio de inteligência artificial e supervisão humana.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/politica/a-indicacao-ao-stf-que-o-centrao-ve-como-possivel-cartada-de-lula/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A indicação de uma mulher negra ao Supremo Tribunal Federal poderia ajudar Lula a superar resistências no Senado e obter a aprovação do nome ainda em 2026."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Os bastidores foram apresentados no programa Os Três Poderes desta sexta-feira, 27, conduzido por Ricardo Ferraz. O cenário discutido é uma possibilidade considerada nas conversas políticas, sem uma decisão confirmada de Lula sobre o perfil da próxima indicação."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Segundo Ribeiro, interlocutores do grupo avaliam que o presidente já deveria ter encaminhado o nome para permitir sua análise ainda neste ano. No relato apresentado ao programa, restavam pouco mais de três semanas de trabalhos no Congresso antes do recesso."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A preocupação com o prazo coloca pressão sobre a escolha presidencial. Para esses interlocutores, a demora reduz a margem para concluir a aprovação em 2026 e recompor o Supremo."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Apesar do calendário apertado, as fontes ouvidas pelo repórter acreditam que uma indicação com esse perfil poderia dificultar a resistência dos senadores e acelerar a votação. Ribeiro resumiu a expectativa de aprovação ainda neste ano: “Eles vão ter que acabar aprovando nesse ano”."
+          }
+        ],
+        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/09/55075095505_4723034a75_c.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/a-indicacao-ao-stf-que-o-centrao-ve-como-possivel-cartada-de-lula.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "1629bc0cd98302fb",
+      "titulo": "Após anunciar exoneração geral, Pazolini poupa comissionados essenciais",
       "categoria": "Política ES",
       "radar": null,
       "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/pedra-azul-summit/reforma-tributaria-obrigara-o-es-a-revisitar-seus-pilares-da-economia-diz-pazolini-1126",
-      "dataFonte": "2026-11-27T21:09:29.000Z",
-      "resumoFonte": "Durante o evento, governador eleito falou sobre os desafios que precisarão ser enfrentados pelo Estado a partir do início de sua gestão, em janeiro de 2027",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795812750812_pazoli.jpg",
-      "descobertaEm": "2026-11-27T22:02:42.560Z",
+      "urlFonte": "https://www.agazeta.com.br/colunas/leticia-goncalves/apos-anunciar-exoneracao-geral-pazolini-poupa-comissionados-essenciais-1126",
+      "dataFonte": "2026-11-27T21:06:10.000Z",
+      "resumoFonte": "Inicialmente, equipe do governador eleito afirmou que todos os mais de 3,4 mil servidores comissionados da gestão estadual seriam dispensados já no primeiro dia",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795812370657_clo4583.jpeg",
+      "descobertaEm": "2026-11-27T21:18:12.042Z",
       "reportagem": {
-        "titulo": "Reforma tributária obrigará o ES a revisitar seus pilares da economia, diz Pazolini",
-        "slug": "reforma-tributaria-obrigara-o-es-a-revisitar-seus-pilares-da-economia-diz-pazolini",
+        "titulo": "Após anunciar exoneração geral, Pazolini poupa comissionados essenciais",
+        "slug": "apos-anunciar-exoneracao-geral-pazolini-poupa-comissionados-essenciais",
         "categoria": "Política ES",
         "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/reforma-tributaria-obrigara-o-es-a-revisitar-seus-pilares-da-economia-diz-pazolini.jpg",
-        "resumo": "Durante o evento, governador eleito falou sobre os desafios que precisarão ser enfrentados pelo Estado a partir do início de sua gestão, em janeiro de 2027",
-        "conteudo": "<p>O fim da guerra fiscal e a mudança da cobrança de impostos da origem para o destino impostos pela reforma tributária vão exigir uma reestruturação profunda do modelo de desenvolvimento do Espírito Santo.</p><h2>O contexto do cenário político</h2><p>O alerta foi dado pelo governador eleito do Estado, Lorenzo Pazolini , durante o Pedra Azul Summit , encontro com lideranças empresariais e políticas realizado pela Rede Gazeta, nesta sexta-feira (27).</p><p>Segundo o futuro gestor, o impacto financeiro da transição pode gerar uma perda de R$ 6 bilhões a R$ 8 bilhões na arrecadação estadual, afetando diretamente o caixa dos 78 municípios capixabas.</p><p>&quot;A reforma tributária nos obrigará a revisitar os pilares, os marcos da economia capixaba&quot;, afirmou o futuro chefe do Executivo estadual, destacando que o modelo baseado em alíquotas diferenciadas e benefícios de ICMS para atrair empresas está chegando ao fim.</p><h2>Informações e repercussões do episódio</h2><p>&quot;Nós estamos no encerramento de um ciclo de desenvolvimento e na abertura de um novo ciclo.&quot;</p><p>Para o governador eleito, a lógica da arrecadação muda radicalmente a posição competitiva do Estado frente aos vizinhos.</p><p>&quot;Por um motivo muito simples: a tributação, a partir de agora, não será mais feita a partir da produção. A tributação se dará basicamente a partir do consumo. Nós temos 4,1 milhões de capixabas, 78 municípios.</p><p>Estamos ao lado de Rio, São Paulo e Bahia. A despeito dos nossos talentos, dos nossos esforços individuais, o contingente populacional desses estados é extremamente mais elevado que o nosso&quot;, pontuou.</p><p>Para compensar a perda dos incentivos tributários, o plano de transição para o novo ciclo econômico que se inicia em janeiro de 2027 aposta na criação de vantagens competitivas internas apoiadas em dois eixos centrais: logística e qualificação profissional.</p><p>Na frente de infraestrutura, de acordo com Pazolini, o objetivo será consolidar o Espírito Santo como um grande hub logístico para entrada e saída de mercadorias do país, operando tanto na navegação de cabotagem quanto no comércio internacional.</p><p>Para destravar esse potencial, o governador eleito apontou algumas prioridades do ponto de vista da mobilidade.</p><p>Em relação às rodovias federais, Pazolini ressalta a importância da continuidade da duplicação da BR 101 , o avanço das obras na BR 262 , com o uso de recursos já em caixa oriundos da repactuação do desastre de Mariana (MG), e intervenções na BR 259 .</p><p>Além disso, com a chegada do novo porto da Imetame, em Aracruz, foram classificadas como urgentes pelo governador eleito as intervenções na já saturada ES 010 e a construção dos contornos Norte e Sul do município.</p><p>“Sem essas intervenções logísticas, o porto não conseguirá operar com capacidade plena de atividade&quot;, ressaltou Pazolini.</p><p>O segundo pilar estratégico citado por Pazolini é a formação de mão de obra. O governador eleito destacou a necessidade de promover a qualificação e requalificação profissional de aproximadamente 180 mil capixabas nos próximos três a quatro anos.</p><p>&quot;O que significa isso na prática? Preparar pessoas para que possam ocupar postos de destaque no setor produtivo&quot;, resumiu.</p><p>Para executar a transição a partir de janeiro, Pazolini destacou a intenção de aplicar no governo estadual o mesmo modelo adotado em sua gestão na Prefeitura de Vitória , baseado em práticas do setor produtivo.</p><p>&quot;A principal virtude da gestão, e não do prefeito, do ex-prefeito, foi trazer do ecossistema produtivo e do ecossistema de negócios as lições e a forma para resolver as demandas do setor público&quot;, explicou.</p><p>Em relação à formação da nova equipe na administração estadual, o governador eleito mencionou a escolha de Danielle Santos de Souza Calazans, funcionária de carreira da Caixa Econômica Federal e com atuação no Ministério da Economia durante a gestão de Paulo Guedes, para assumir a presidência do Banestes a partir de 2027.</p><p>Pazolini disse ainda que novos nomes de profissionais capixabas e de fora do Estado serão anunciados nas próximas semanas para a integrar a equipe do futuro governo.</p><p>Ao final de sua fala, o futuro chefe do Executivo pediu apoio durante o processo de repactuação econômica do Estado.</p><p>&quot;Teremos decisões difíceis pela frente, mas temos certeza que com a orientação, com a escuta qualificada, com o diálogo, nós vamos acertar para que o Espírito Santo possa ter uma economia forte, pujante, e entregar daqui a quatro anos o Espírito Santo ainda mais forte.&quot;</p><p>Na frente de infraestrutura, de acordo com Pazolini, o objetivo será consolidar o Espírito Santo como um grande</p>",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/apos-anunciar-exoneracao-geral-pazolini-poupa-comissionados-essenciais.jpg",
+        "resumo": "Inicialmente, equipe do governador eleito afirmou que todos os mais de 3,4 mil servidores comissionados da gestão estadual seriam dispensados já no primeiro dia",
+        "conteudo": "<p>No dia dez de novembro, o governador eleito Lorenzo Pazolini (Republicanos) anunciou, em nota divulgada à imprensa, que iria exonerar todos os comissionados da gestão estadual já no primeiro dia da nova administração, em seis de janeiro.</p><h2>O contexto do cenário político</h2><p>Todas as funções gratificadas exercidas por servidores efetivos também seriam alvo de exoneração geral, de acordo com a nota.</p><p>Mas tal “tesouraço”, sem substituição imediata e sem gente com know-how para realizar funções essenciais de pronto, não poderia causar uma espécie de pane em alguns serviços públicos?</p><p>Nesta sexta-feira (27), em entrevista concedida durante o Pedra Azul Summit, Pazolini revelou que, na verdade, nem todos os servidores comissionados vão ser exonerados de uma tacada só.</p><h2>Informações e repercussões do episódio</h2><p>Os que atuam em serviços essenciais não vão ser dispensados no dia 6.</p><p>“Os serviços essenciais são tratados à parte. Ou seja, tudo que é serviço essencial, que não para, será tratado em um outro decreto, tem uma outra tratativa ”, afirmou o governador eleito.</p><p>Vão ser exonerados todos os comissionados não essenciais . Talvez tenha faltado isso (no anúncio anterior)</p><p>Lorenzo Pazolini (Republicanos) Governador eleito do ES</p><p>Do contrário, poderia haver situações um tanto complicadas.</p><p>Os diretores e diretores-adjuntos de presídios, por exemplo, são cargos comissionados ligados à Secretaria de Estado da Justiça (Sejus).</p><p>Se todos fossem dispensados no primeiro dia do governo, quem comandaria as unidades prisionais até que outros fossem nomeados? E se os substitutos surgissem no mesmo dia, como se daria essa transição, com todos os novatos se inteirando sobre o expediente ao mesmo tempo?</p><p>A mesma analogia poderia ser usada para descrever a situação de diretores de hospitais cuja administração é realizada diretamente pela Secretaria de Estado da Saúde.</p><p>De acordo com a Secretaria de Estado de Gestão e Recursos Humanos (Seger), o estado contabilizava 3.422 comissionados em outubro. Isso sem contar os servidores efetivos que ocupam funções gratificadas.</p><p>Como nem todos vão ser mandados embora de uma vez, Pazolini garantiu que não vai haver paralisação de serviços essenciais.</p><p>“Em Vitória (onde medida similar foi adotada quando Pazolini era prefeito), as unidades de saúde continuaram funcionando, as escolas continuaram funcionando, a segurança pública continuou funcionando.</p><p>Serviço essencial não para, funciona 24 horas por dia”, exemplificou o republicano.</p><p>Além da nota do dia dez de novembro, que cravou a exoneração de “todos os servidores comissionados e dispensa das funções gratificadas no primeiro dia do novo governo”, a equipe de Pazolini reforçou, depois, que a exoneração atingiria 100% mesmo.</p>",
         "fonteNome": "A Gazeta - Capa",
-        "fonteUrl": "https://www.agazeta.com.br/pedra-azul-summit/reforma-tributaria-obrigara-o-es-a-revisitar-seus-pilares-da-economia-diz-pazolini-1126",
+        "fonteUrl": "https://www.agazeta.com.br/colunas/leticia-goncalves/apos-anunciar-exoneracao-geral-pazolini-poupa-comissionados-essenciais-1126",
         "fontesAdicionais": [
           {
             "nome": "Assembleia Legislativa do ES",
@@ -448,27 +563,27 @@
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O fim da guerra fiscal e a mudança da cobrança de impostos da origem para o destino impostos pela reforma tributária vão exigir uma reestruturação profunda do modelo de desenvolvimento do Espírito Santo."
+            "resposta": "No dia dez de novembro, o governador eleito Lorenzo Pazolini (Republicanos) anunciou, em nota divulgada à imprensa, que iria exonerar todos os comissionados da gestão estadual já no primeiro dia da nova administração, em seis de janeiro."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Segundo o futuro gestor, o impacto financeiro da transição pode gerar uma perda de R$ 6 bilhões a R$ 8 bilhões na arrecadação estadual, afetando diretamente o caixa dos 78 municípios capixabas."
+            "resposta": "Todas as funções gratificadas exercidas por servidores efetivos também seriam alvo de exoneração geral, de acordo com a nota."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "\"A reforma tributária nos obrigará a revisitar os pilares, os marcos da economia capixaba\", afirmou o futuro chefe do Executivo estadual, destacando que o modelo baseado em alíquotas diferenciadas e benefícios de ICMS para atrair empresas está chegando ao fim. \"Nós estamos no encerramento de um ciclo de desenvolvimento e na abertura de um novo ciclo.\""
+            "resposta": "Mas tal “tesouraço”, sem substituição imediata e sem gente com know-how para realizar funções essenciais de pronto, não poderia causar uma espécie de pane em alguns serviços públicos?"
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Para o governador eleito, a lógica da arrecadação muda radicalmente a posição competitiva do Estado frente aos vizinhos. \"Por um motivo muito simples: a tributação, a partir de agora, não será mais feita a partir da produção. A tributação se dará basicamente a partir do consumo. Nós temos 4,1 milhões de capixabas, 78 municípios."
+            "resposta": "Nesta sexta-feira (27), em entrevista concedida durante o Pedra Azul Summit, Pazolini revelou que, na verdade, nem todos os servidores comissionados vão ser exonerados de uma tacada só."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Para compensar a perda dos incentivos tributários, o plano de transição para o novo ciclo econômico que se inicia em janeiro de 2027 aposta na criação de vantagens competitivas internas apoiadas em dois eixos centrais: logística e qualificação profissional."
+            "resposta": "Os que atuam em serviços essenciais não vão ser dispensados no dia 6."
           }
         ],
-        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795812750812_pazoli.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/reforma-tributaria-obrigara-o-es-a-revisitar-seus-pilares-da-economia-diz-pazolini.jpg",
+        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795812370657_clo4583.jpeg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/apos-anunciar-exoneracao-geral-pazolini-poupa-comissionados-essenciais.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -532,6 +647,18 @@
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
+    },
+    {
+      "id": "ffb391027e126337",
+      "titulo": "Bolsonaro apresenta melhora intestinal, mas segue sem previsão de alta",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/politica/bolsonaro-apresenta-melhora-intestinal-mas-segue-sem-previsao-de-alta/",
+      "dataFonte": "2026-11-27T20:57:57.000Z",
+      "resumoFonte": "Ex-presidente está internado desde sexta-feira (20) com diagnóstico de broncopneumonia e obstrução intestinal",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/11/whatsapp-image-2024-02-08-at-11.55.03.jpeg?w=1170&h=630&crop=1",
+      "descobertaEm": "2026-11-27T21:18:12.042Z"
     },
     {
       "id": "9a646170a7bed0e1",
@@ -834,474 +961,6 @@
       }
     },
     {
-      "id": "2a0d4120f4d33ddf",
-      "titulo": "Bancada do PT na Câmara reafirma apoio a Lula e defende investimentos e redução dos juros",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/11/27/bancada-do-pt-na-camara-reafirma-apoio-a-lula-e-defende-investimentos-e-reducao-dos-juros.htm",
-      "dataFonte": "2026-11-27T21:09:00.000Z",
-      "resumoFonte": "A bancada do PT na Câmara dos Deputados divulgou nota nesta sexta-feira, 27, em que defende a exclusão dos investimentos públicos dos limites do arcabouço fiscal, a redução das taxas de juros e a ampliação da tributação sobre os considerados \"super-ricos\". O comunicado foi elaborado após seminário da bancada sobre economia, realizado ma…",
-      "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lula_-_foto_oficial_2023.jpg/800px-Lula_-_foto_oficial_2023.jpg",
-      "descobertaEm": "2026-11-27T22:18:28.416Z"
-    },
-    {
-      "id": "d231889843e64dc9",
-      "titulo": "Edital vai selecionar cinco projetos de teatro em São Paulo",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/cultura/edital-vai-selecionar-cinco-projetos-de-teatro-em-sao-paulo/",
-      "dataFonte": "2026-11-27T21:30:15.000Z",
-      "resumoFonte": "Iniciativa oferece apoio financeiro, infraestrutura técnica e suporte de divulgação",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-27-at-13.54.03.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-27T22:02:42.560Z"
-    },
-    {
-      "id": "6f0738fdf9ca41dd",
-      "titulo": "EcoRodovias aposta em tecnologia para melhorar segurança e serviços",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/negocios/ecorodovias-aposta-em-tecnologia-para-melhorar-seguranca-e-servicos/",
-      "dataFonte": "2026-11-27T21:12:06.000Z",
-      "resumoFonte": "Afranio Lamy Spolador Junior fala sobre tecnologia, inteligência artificial e proteção de dados nas operações do Grupo EcoRodovias",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/EDC_MNY_261126_SON_TALKS_AFRANIO_frame_875.jpeg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-27T22:02:42.560Z",
-      "reportagem": {
-        "titulo": "EcoRodovias aposta em tecnologia para melhorar segurança e serviços",
-        "slug": "ecorodovias-aposta-em-tecnologia-para-melhorar-seguranca-e-servicos",
-        "categoria": "Tecnologia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/ecorodovias-aposta-em-tecnologia-para-melhorar-seguranca-e-servicos.jpg",
-        "resumo": "Afranio Lamy Spolador Junior fala sobre tecnologia, inteligência artificial e proteção de dados nas operações do Grupo EcoRodovias",
-        "conteudo": "<p>O Grupo EcoRodovias tem apostado em investimentos tecnológicos de ponta para aprimorar a segurança e a qualidade dos serviços prestados nas rodovias sob sua operação.</p><h2>Dados e contexto do setor</h2><p>Em entrevista ao CNN Talks , Afranio Lamy Spolador Junior, diretor de Tecnologia da empresa, abordou os principais avanços e desafios nessa área.</p><p>Afranio Lamy Spolador Junior destacou que o setor vive um momento favorável em termos de disponibilidade tecnológica.</p><p>&quot;A gente vive num momento muito bom de tecnologia, onde a gente tem uma abundância de tecnologia e consegue, nas nossas operações, fazer investimentos que trazem segurança, trazem fluidez&quot;, afirmou.</p><h2>Impactos e informações adicionais</h2><p>Segundo ele, áreas como o pedágio e o processo de pesagem estão passando por transformações significativas, e a conectividade tem permitido coletar dados que resultam em mais conforto e segurança para os usuários das rodovias.</p><p>Um dos destaques da infraestrutura tecnológica do grupo é o sistema de monitoramento composto por mais de 3.500 câmeras, que operam 24 horas por dia com suporte de inteligência artificial.</p><p>&quot;Quase todas as nossas operações hoje usam inteligência artificial e esses dados nos ajudam a fazer uma detecção muito rápida de um incidente&quot;, explicou Afranio.</p><p>A partir dessa detecção, os recursos operacionais podem ser acionados com agilidade para prevenir acidentes ou para atender ocorrências de forma célere.</p><p>Além da segurança física, Afranio também ressaltou a importância da proteção dos dados dos usuários diante do crescente número de ataques cibernéticos.</p><p>Ele explicou que o grupo lida principalmente com dados de placas de veículos, e não com informações pessoais dos usuários diretamente.</p><p>&quot;Essa proteção acontece de uma forma muito responsável dentro do nosso ambiente&quot;, disse.</p><p>A preocupação com a segurança digital foi apresentada como parte integrante da estratégia de operação responsável do grupo.</p><p>CNN Talks entrevista Afranio Lamy Spolador Junior, diretor de Tecnologia na Grupo EcoRodovias</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/negocios/ecorodovias-aposta-em-tecnologia-para-melhorar-seguranca-e-servicos/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
-          },
-          {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Grupo EcoRodovias tem apostado em investimentos tecnológicos de ponta para aprimorar a segurança e a qualidade dos serviços prestados nas rodovias sob sua operação."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Em entrevista ao CNN Talks , Afranio Lamy Spolador Junior, diretor de Tecnologia da empresa, abordou os principais avanços e desafios nessa área."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Afranio Lamy Spolador Junior destacou que o setor vive um momento favorável em termos de disponibilidade tecnológica."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "\"A gente vive num momento muito bom de tecnologia, onde a gente tem uma abundância de tecnologia e consegue, nas nossas operações, fazer investimentos que trazem segurança, trazem fluidez\", afirmou."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Segundo ele, áreas como o pedágio e o processo de pesagem estão passando por transformações significativas, e a conectividade tem permitido coletar dados que resultam em mais conforto e segurança para os usuários das rodovias."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/EDC_MNY_261126_SON_TALKS_AFRANIO_frame_875.jpeg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/ecorodovias-aposta-em-tecnologia-para-melhorar-seguranca-e-servicos.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "b841c22dff3d2eee",
-      "titulo": "Análise: Quanto vai durar a &quot;lua de mel&quot; entre Lula e o mercado?",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "CNN Brasil - Capa",
-      "urlFonte": "https://www.cnnbrasil.com.br/blogs/julliana-lopes/politica/analise-quanto-vai-durar-a-lua-de-mel-entre-lula-e-o-mercado/",
-      "dataFonte": "2026-11-27T21:00:43.000Z",
-      "resumoFonte": "Presidente já queria Luiz Carlos Trabuco na Fazenda há mais de dez anos; mas, no atual cenário, essa escolha ganha outro significado político",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/55635257254_804167d895_o.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-27T22:04:16.715Z"
-    },
-    {
-      "id": "54b20cbd288575d9",
-      "titulo": "Presa na Rússia, atleta da seleção brasileira pede ajuda a Lula em carta",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/internacional/presa-na-russia-atleta-da-selecao-brasileira-pede-ajuda-a-lula-em-carta/",
-      "dataFonte": "2026-11-27T21:41:00.000Z",
-      "resumoFonte": "Jogadora de futebol de areia que vestiu camisa 10 nacional, Letícia \"Lelê\" Villar está detida desde julho do ano passado; Itamaraty diz acompanhar o caso",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Leticia-Villar.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-27T22:02:42.560Z",
-      "reportagem": {
-        "titulo": "Presa na Rússia, atleta da seleção brasileira pede ajuda a Lula em carta",
-        "slug": "presa-na-russia-atleta-da-selecao-brasileira-pede-ajuda-a-lula-em-carta",
-        "categoria": "Esporte",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/presa-na-russia-atleta-da-selecao-brasileira-pede-ajuda-a-lula-em-carta.jpg",
-        "resumo": "Jogadora de futebol de areia que vestiu camisa 10 nacional, Letícia \"Lelê\" Villar está detida desde julho do ano passado; Itamaraty diz acompanhar o caso",
-        "conteudo": "<p>A atleta brasileira Letícia &quot;Lelê&quot; Villar está presa na Rússia e enviou uma carta ao presidente Luiz Inácio Lula da Silva (PT), na qual pede apoio para retornar ao Brasil.</p><h2>As informações principais do assunto</h2><p>O documento escrito a mão foi entregue ao presidente por intermédio do advogado Marco Aurélio de Carvalho, coordenador do grupo Prerrogativas, que compartilhou o texto com a CNN Brasil.</p><p>&quot;Presidente Lula, eu sou uma atleta profissional de futebol de areia, defendo a seleção brasileira, fui a 1ª camisa 10, estive na conquista do nosso primeiro título na modalidade, também fui a primeira a ser indicada como Melhor Jogadora do Mundo&quot;, se apresentou Villar na carta.</p><p>Ela relatou que está detida na Rússia desde o dia 23 de julho do ano passado, quando foi apreendida com 6 gramas de haxixe. Segundo Villar, as autoridades russas a consideraram contrabandista e a sentenciaram a 5 anos e 2 meses de prisão.</p><h2>Contexto e informações complementares</h2><p>&quot;Eu cometi um erro por não saber as leis da Rússia e pensei apenas na minha saúde e conforto mental quando vim para passar 1 mês por aqui jogando com o time Lokomotive&quot;, escreveu.</p><p>&quot;Eu pensei que já havia sofrido de tudo, até que cheguei na República de Mordóvia, Colônia 2 e não sei se isso se parece mais com a escravidão ou com o Holocausto, mas é uma mistura de muitas coisas cruéis juntas cujo qual não consigo nomear, mas o direitos humanos está longe de existir aqui&quot;, relatou em outro trecho da carta.</p><p>&quot;Presidente Lula, eu errei mas eu não sou o que eles me acusam... Eu queria encarecidamente pedir o vosso apoio, escuta, ajuda para me tirar daqui o mais rápido possível... Uma expulsão daqui ou a extradição...&quot;, completou Villar.</p><p>A remota colônia penal IK-2 Yavas, a cerca de 500 quilômetros de Moscou, ficou conhecida globalmente em 2022 quando a atleta americana da WNBA, Brittney Griner, foi transferida depois de ser presa por posse de drogas.</p><p>Ela foi solta em 2022 em uma troca de prisioneiros entre Rússia e Estados Unidos, que envolveu o então presidente Joe Biden.</p><p>Segundo o jornal britânico The Guardian, a IK-2 faz parte de uma extensa rede de colônias penais na região, que foram construídas no início da década de 1930 como parte do sistema de gulags da era stalinista .</p><p>&quot;As prisões na Mordóvia são notoriamente terríveis, mesmo para os padrões russos. Elas são conhecidas pelos regimes severos e pelas violações dos direitos humanos.</p><p>É um lugar que qualquer prisioneiro quer evitar&quot;, disse Olga Zeveleva, socióloga da Universidade de Helsinque, especializada em condições prisionais russas, ao Guardian.</p><p>A atleta brasileira Letícia Villar relata que tem trabalhado na prisão &quot;como escrava&quot; e descreve condições precárias.</p><p>&quot;Simplesmente somos escravas disfarçadas de presidiárias, e até o salário é bem mínimo. Aqui nem mesmo ligar ou escrever pra minha família eu posso, e todas nossas horas são dedicadas a eles. Eu ando em choque, mas dando o melhor&quot;, disse.</p><p>Villar relatou que começou a nevar conforme o inverno se aproxima no Hemisfério Norte. &quot;Em breve por aqui chegará a -30°C, -40°C e o meu maior sonho é não estar mais aqui nesse extremo de clima, porque já estou congelando e com dor no corpo com 1°C. É muito difícil&quot;, escreveu.</p><p>Ela também relata que, na prisão, foi alvo de racismo e homofobia: &quot;Já escutei algumas vezes que eu parecia macaco e qualquer pessoa negra e/ou cabelo calhando eles acham que parece comigo, mas o pior foi a perseguição por ser lésbica, por ser uma pessoa calorosa diferente deles, que querem sempre reafirmar que aqui não é o Brasil.&quot;</p><p>A CNN Brasil entrou em contato com a Secom (Secretaria de Comunicação) da Presidência para questionar a reação de Lula à carta e aguarda retorno.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/internacional/presa-na-russia-atleta-da-selecao-brasileira-pede-ajuda-a-lula-em-carta/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A atleta brasileira Letícia \"Lelê\" Villar está presa na Rússia e enviou uma carta ao presidente Luiz Inácio Lula da Silva (PT), na qual pede apoio para retornar ao Brasil."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O documento escrito a mão foi entregue ao presidente por intermédio do advogado Marco Aurélio de Carvalho, coordenador do grupo Prerrogativas, que compartilhou o texto com a CNN Brasil."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "\"Presidente Lula, eu sou uma atleta profissional de futebol de areia, defendo a seleção brasileira, fui a 1ª camisa 10, estive na conquista do nosso primeiro título na modalidade, também fui a primeira a ser indicada como Melhor Jogadora do Mundo\", se apresentou Villar na carta."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Ela relatou que está detida na Rússia desde o dia 23 de julho do ano passado, quando foi apreendida com 6 gramas de haxixe. Segundo Villar, as autoridades russas a consideraram contrabandista e a sentenciaram a 5 anos e 2 meses de prisão."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "\"Eu cometi um erro por não saber as leis da Rússia e pensei apenas na minha saúde e conforto mental quando vim para passar 1 mês por aqui jogando com o time Lokomotive\", escreveu."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Leticia-Villar.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/presa-na-russia-atleta-da-selecao-brasileira-pede-ajuda-a-lula-em-carta.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "a7ad2228bd7ddc02",
-      "titulo": "Niclas Füllkrug marca no fim, e Werder Bremen arranca empate com o Borussia Mönchengladbach",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/esportes/futebol/niclas-fullkrug-marca-no-fim-e-werder-bremen-arranca-empate-com-o-borussia-monchengladbach-27-11-2026/",
-      "dataFonte": "2026-11-27T21:28:44.000Z",
-      "resumoFonte": "O empate do Werder Bremen saiu no fim: Niclas Füllkrug marcou e deixou o jogo com o Borussia Mönchengladbach em 3 a 3 nesta sexta-feira (27), no Weser-Stadion, em Bremen, pela 11ª rodada da Bundesliga.",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/werder-bremen-x-borussia-monchengladbach-1575237.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-27T22:02:42.560Z",
-      "reportagem": {
-        "titulo": "Niclas Füllkrug marca no fim, e Werder Bremen arranca empate com o Borussia Mönchengladbach",
-        "slug": "niclas-fullkrug-marca-no-fim-e-werder-bremen-arranca-empate-com-o-borussia-monchengladbach",
-        "categoria": "Esporte",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/niclas-fullkrug-marca-no-fim-e-werder-bremen-arranca-empate-com-o-borussia-monchengladbach.jpg",
-        "resumo": "O empate do Werder Bremen saiu no fim: Niclas Füllkrug marcou e deixou o jogo com o Borussia Mönchengladbach em 3 a 3 nesta sexta-feira (27), no Weser-Stadion, em Bremen, pela 11ª rodada da Bundesliga.",
-        "conteudo": "<p>O empate do Werder Bremen saiu no fim: Niclas Füllkrug marcou e deixou o jogo com o Borussia Mönchengladbach em 3 a 3 nesta sexta-feira (27), no Weser-Stadion, em Bremen, pela 11ª rodada da Bundesliga.</p><h2>As informações principais do assunto</h2><p>O Borussia Mönchengladbach abriu o placar de pênalti, com Kevin Diks, aos 27 minutos do primeiro tempo. O Werder Bremen empatou aos 38, com Eren Dinkci.</p><p>Franck Honorat pôs o Borussia Mönchengladbach na frente no primeiro minuto do segundo tempo: 2 a 1. Aos 33, Franck Honorat fez 3 a 1, com assistência de Wael Mohya. Foi o segundo dele no jogo.</p><p>Aos 40, Eren Dinkci descontou. Era o segundo dele na partida. Niclas Füllkrug deixou tudo igual nos acréscimos do segundo tempo.</p><h2>Contexto e informações complementares</h2><p>Nas finalizações, houve equilíbrio: 20 do Werder Bremen e 20 do Borussia Mönchengladbach. No alvo, foram 8 do Werder Bremen e 6 do Borussia Mönchengladbach.</p><p>O Werder Bremen chega a 19 pontos. O Borussia Mönchengladbach passa a somar 5 pontos. A sequência sem vitórias do Borussia Mönchengladbach chega a quatro jogos.</p><p>O Werder Bremen enfrenta o Eintracht Frankfurt no sábado (5/12). O Borussia Mönchengladbach volta a campo na terça-feira (1/12), contra o SV Darmstadt 98, pela Copa da Alemanha.</p><p>Matéria produzida automaticamente com dados da partida.</p><p>São Paulo vence o Remo com gol de Ryan Francisco Rodrigues dos Santos Silva nos minutos finais</p><p>Werder Bremen x Borussia Mönchengladbach hoje: onde assistir ao vivo e escalações</p><p>Werder Bremen x Borussia Mönchengladbach começa às 16h30 (de Brasília) nesta sexta-feira (27), no Weser-Stadion, em Bremen, pela 11ª rodada do Campeonato Alemão 2026/27.</p><p>Abel diz que só trabalha no Palmeiras na América do Sul e admite final ruim em 2025</p><p>Heidenheim x Nürnberg hoje: onde assistir ao vivo e escalações</p><p>Bochum x Darmstadt 98 hoje: onde assistir ao vivo e escalações</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/esportes/futebol/niclas-fullkrug-marca-no-fim-e-werder-bremen-arranca-empate-com-o-borussia-monchengladbach-27-11-2026/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O empate do Werder Bremen saiu no fim: Niclas Füllkrug marcou e deixou o jogo com o Borussia Mönchengladbach em 3 a 3 nesta sexta-feira (27), no Weser-Stadion, em Bremen, pela 11ª rodada da Bundesliga."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Borussia Mönchengladbach abriu o placar de pênalti, com Kevin Diks, aos 27 minutos do primeiro tempo. O Werder Bremen empatou aos 38, com Eren Dinkci."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Franck Honorat pôs o Borussia Mönchengladbach na frente no primeiro minuto do segundo tempo: 2 a 1. Aos 33, Franck Honorat fez 3 a 1, com assistência de Wael Mohya. Foi o segundo dele no jogo. Aos 40, Eren Dinkci descontou. Era o segundo dele na partida. Niclas Füllkrug deixou tudo igual nos acréscimos do segundo tempo."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Nas finalizações, houve equilíbrio: 20 do Werder Bremen e 20 do Borussia Mönchengladbach. No alvo, foram 8 do Werder Bremen e 6 do Borussia Mönchengladbach."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O Werder Bremen chega a 19 pontos. O Borussia Mönchengladbach passa a somar 5 pontos. A sequência sem vitórias do Borussia Mönchengladbach chega a quatro jogos."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/werder-bremen-x-borussia-monchengladbach-1575237.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/niclas-fullkrug-marca-no-fim-e-werder-bremen-arranca-empate-com-o-borussia-monchengladbach.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "e9ce3fdb30a69d78",
-      "titulo": "Além de Cármen, Lula consultou Lewandowski e Zanin sobre vaga no STF",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/milena-teixeira/alem-de-carmen-lula-consultou-lewandowski-e-zanin-sobre-vaga-no-stf",
-      "dataFonte": "2026-11-27T21:50:26.000Z",
-      "resumoFonte": "Lula conversou com Lewandowski, Zanin e Cármen Lúcia sobre a sucessão de Barroso; presidente também recebeu sugestões para a vaga no STF",
-      "imagem": "https://i.metroimg.com/YVHwND1s2pXLs8BiO9QcxvvD02mPF2OrXJKJ0Ua6urQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/Sessao-de-abertura-do-Ano-Judiciario-2024-conduzida-pelo-presidente-do-Supremo-Tribunal-Federal-STF-Luis-Roberto-Barroso-e-o-presidente-Lula-8-1.jpg",
-      "descobertaEm": "2026-11-27T22:02:42.560Z",
-      "reportagem": {
-        "titulo": "Além de Cármen, Lula consultou Lewandowski e Zanin sobre vaga no STF",
-        "slug": "alem-de-carmen-lula-consultou-lewandowski-e-zanin-sobre-vaga-no-stf",
-        "categoria": "Justiça",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/alem-de-carmen-lula-consultou-lewandowski-e-zanin-sobre-vaga-no-stf.jpg",
-        "resumo": "Lula conversou com Lewandowski, Zanin e Cármen Lúcia sobre a sucessão de Barroso; presidente também recebeu sugestões para a vaga no STF",
-        "conteudo": "<p>O presidente Lula consultou, nos últimos dias, ex-ministros e integrantes da atual composição do Supremo Tribunal Federal e ouviu sugestões sobre quem indicar para substituir Luiz Roberto Barroso, que se aposentou da Corte.</p><h2>O contexto da decisão judicial</h2><p>O Lula conversou com Lewandowski, Zanin e Cármen Lúcia sobre a sucessão de Barroso; presidente também recebeu sugestões para a vaga no STF.petista conversou sobre a sucessão com o ex-ministro do STF e da Justiça e Segurança Pública Ricardo Lewandowski, além do ministro Cristiano Zanin.</p><p>Como mostrou o jornal O Globo, a ministra Cármen Lúcia também foi ouvida.</p><p>O presidente Lula ao lado da primeira-dama Janja e ministros do STF</p><h2>Detalhes e consequências do caso</h2><p>Indicado por Lula ao STF, Jorge Messias, exibe exemplar da Constituição Federal durante sabatina no Senado</p><p>Presidente Luiz Inácio Lula da Silva e a ministra do STF, Cármen Lúcia</p><p>Já Flávio Dino, como a coluna antecipou, levou a Lula os nomes da ministra do Tribunal Superior Eleitoral (TSE) Estela Aranha e do desembargador Ney Bello como possíveis opções para o posto.</p><p>As consultas ocorrem em meio à resistência de ministros do Supremo e do presidente do Senado, Davi Alcolumbre (União-AP), à indicação do ministro da Advocacia-Geral da União (AGU), Jorge Messias.</p><p>Escolhido por Lula em novembro do ano passado, o advogado teve a indicação rejeitada em maio deste ano.</p><p>A coluna apurou que Lula já decidiu indicar uma mulher para a cadeira deixada por Barroso e pretende anunciar a escolha nos próximos dias.</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/colunas/milena-teixeira/alem-de-carmen-lula-consultou-lewandowski-e-zanin-sobre-vaga-no-stf",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O presidente Lula consultou, nos últimos dias, ex-ministros e integrantes da atual composição do Supremo Tribunal Federal e ouviu sugestões sobre quem indicar para substituir Luiz Roberto Barroso, que se aposentou da Corte."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Lula conversou com Lewandowski, Zanin e Cármen Lúcia sobre a sucessão de Barroso; presidente também recebeu sugestões para a vaga no STF.petista conversou sobre a sucessão com o ex-ministro do STF e da Justiça e Segurança Pública Ricardo Lewandowski, além do ministro Cristiano Zanin. Como mostrou o jornal O Globo, a ministra Cármen Lúcia também foi ouvida."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O presidente Lula ao lado da primeira-dama Janja e ministros do STF"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Indicado por Lula ao STF, Jorge Messias, exibe exemplar da Constituição Federal durante sabatina no Senado"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Presidente Luiz Inácio Lula da Silva e a ministra do STF, Cármen Lúcia"
-          }
-        ],
-        "imagemOriginal": "https://i.metroimg.com/YVHwND1s2pXLs8BiO9QcxvvD02mPF2OrXJKJ0Ua6urQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/Sessao-de-abertura-do-Ano-Judiciario-2024-conduzida-pelo-presidente-do-Supremo-Tribunal-Federal-STF-Luis-Roberto-Barroso-e-o-presidente-Lula-8-1.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/alem-de-carmen-lula-consultou-lewandowski-e-zanin-sobre-vaga-no-stf.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "ba1046a5d4c1c081",
-      "titulo": "Lula descarta Milei e terá bilateral com Paraguai e Uruguai no Mercosul",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/politica/lula-descarta-milei-e-tera-bilateral-com-paraguai-e-uruguai-no-mercosul/",
-      "dataFonte": "2026-11-27T21:21:59.000Z",
-      "resumoFonte": "Cúpula acontece entre os dias 3 e 4 de dezembro. Também será realizada a 1ª reunião de Forum Empresarial e Conselho de Comércio do acordo Mercosul União Europeia",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2025binary_LYNXMPEL630LW-BASEIMAGE.jpg?w=800&h=533&crop=1",
-      "descobertaEm": "2026-11-27T22:02:42.560Z",
-      "reportagem": {
-        "titulo": "Lula descarta Milei e terá bilateral com Paraguai e Uruguai no Mercosul",
-        "slug": "lula-descarta-milei-e-tera-bilateral-com-paraguai-e-uruguai-no-mercosul",
-        "categoria": "Justiça",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-descarta-milei-e-tera-bilateral-com-paraguai-e-uruguai-no-mercosul.jpg",
-        "resumo": "Cúpula acontece entre os dias 3 e 4 de dezembro. Também será realizada a 1ª reunião de Forum Empresarial e Conselho de Comércio do acordo Mercosul União Europeia",
-        "conteudo": "<p>Em Montevideu , onde irá participar da Cúpula do Mercosul na próxima semana, o presidente Luiz Inácio Lula da Silva (PT) já tem marcadas reuniões bilaterais com Yamandú Orsi , do Uruguai ; e também com o novo presidente do Paraguai, Pedro Alliana .</p><h2>O contexto da decisão judicial</h2><p>No entanto, já descartou, inicialmente, qualquer possibilidade de encontro a sós com Javier Milei , entendendo que não há razão para aproximação com o chefe do Executivo argentino.</p><p>A Cúpula do Mercosul está marcada para os dias 3 e 4 de dezembro, no Uruguai, ocasião em que o país de Orsi irá repassar para a Argentina a presidência temporária do bloco. Lula desembarca no país na noite da quinta-feira (3).</p><p>A bilateral com o presidente do país anfitrião costuma ser tradição. Com Yamandú Orsi, Lula deve mencionar propostas de integração entre os dois países, como projetos para interligar municípios do Rio Grande do Sul com o Uruguai.</p><h2>Detalhes e consequências do caso</h2><p>Já com Pedro Alliana, o destaque é para o fato de ser o primeiro encontro de Lula com o paraguaio , que recentemente assumiu o poder após impeachment de Santiago Peña, preso após crise no Ueno Bank.</p><p>&quot;As expectativas são muito grandes&quot;, afirmou a Secretária de América Latina e Caribe do Itamaraty, embaixadora Gisela Maria Figueiredo Padovan .</p><p>&quot;O Brasil foi o primeiro país a reconhecer e apoiar o governo Alliana, e ele próprio reconheceu. Há uma disposição em avançar nos principais temas que são basicamente infraestrutura&quot;, explicou.</p><p>Nesta semana, o Brasil decidiu manter a representação diplomática em Buenos Aires sem embaixador. Também excluiu Javier Milei na lista de chefes de Estado convidados para a posse de Lula marcada para o dia 5 de janeiro.</p><p>Frequentes críticas de Milei ao governo petista, incluindo ataques pessoais, levaram Lula a chamar de volta ao Brasil o embaixador na Argentina, em julho deste ano.</p><p>Na ocasião, também orientou o embaixador argentino a retornar para o seu país. A tensão se agravou ainda mais após ataques de Milei ao processo eleitoral brasileiro durante a campanha no Brasil.</p><p>Embora comprometido a receber a Presidência temporária do Mercosul durante o evento no dia 4, Milei é crítico ao bloco. Chegou a cancelar a presença na última cúpula, que aconteceu no Paraguai, em junho deste ano.</p><p>Milei defende flexibilidade nas regras dos acordos comerciais dentro do Mercosul e alega que o atual formato prejudica os negócios argentinos.</p><p>Durante discurso na Cúpula, segundo o Itamaraty, Lula irá defender as negociações em bloco, mas não irá se abster no caso da necessidade de acordos bilaterais em separado, o que levaria a revisão de uma série de mecanismos nos termos das diretrizes comercais.</p><p>No dia 3 de dezembro, véspera da reunião de cúpula, ministros de Estado dos países membros do Mercosul irão participar do primeiro encontro do Conselho de Comércio Mercosul e União Europeia, com a presença do comissário de Comércio da União Europeia, Maros Sefcovic.</p><p>De acordo com o Itamaraty, os participantes irão apresentar um balanço de como as tratativas do acordo entre os dois blocos se deram até aqui, sete meses depois de implementado, mesmo que de forma provisória.</p><p>Segundo o governo brasileiro, neste período, as exportações brasileiras para a União Europeia cresceram 30%.</p><p>Somente entre maio e agosto deste ano, de acordo com dados do Mdic (Ministério do Desenvolvimento, Indústria, Comércio e Serviços) obtidos pelo CNN Money , a corrente de comércio bilateral entre o Brasil e a União Europeia alcançou US$ 38,9 bilhões .</p><p>No dia anterior, empresários, autoridades de ambos os blocos e representantes de organismos financeiros internacionais estarão reunidos no primeiro Fórum Empresarial Mercosul União Europeia, que será realizado na cidade de Punta Del Este.</p><p>De acordo com a organização, será realizado um ato oficial no âmbito do pacto comercial Mercosul União Europeia com a assinatura de acordos de investimentos.</p><p>Além disso, segundo o governo uruguaio, &quot;serão apresentadas experiências empresariais e realizadas rodadas de negócios B2B, voltadas para gerar contatos e explorar novas oportunidades comerciais entre empresas de ambas as regiões&quot;.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/politica/lula-descarta-milei-e-tera-bilateral-com-paraguai-e-uruguai-no-mercosul/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Em Montevideu , onde irá participar da Cúpula do Mercosul na próxima semana, o presidente Luiz Inácio Lula da Silva (PT) já tem marcadas reuniões bilaterais com Yamandú Orsi , do Uruguai ; e também com o novo presidente do Paraguai, Pedro Alliana ."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "No entanto, já descartou, inicialmente, qualquer possibilidade de encontro a sós com Javier Milei , entendendo que não há razão para aproximação com o chefe do Executivo argentino."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A Cúpula do Mercosul está marcada para os dias 3 e 4 de dezembro, no Uruguai, ocasião em que o país de Orsi irá repassar para a Argentina a presidência temporária do bloco. Lula desembarca no país na noite da quinta-feira (3)."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A bilateral com o presidente do país anfitrião costuma ser tradição. Com Yamandú Orsi, Lula deve mencionar propostas de integração entre os dois países, como projetos para interligar municípios do Rio Grande do Sul com o Uruguai."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Já com Pedro Alliana, o destaque é para o fato de ser o primeiro encontro de Lula com o paraguaio , que recentemente assumiu o poder após impeachment de Santiago Peña, preso após crise no Ueno Bank."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2025binary_LYNXMPEL630LW-BASEIMAGE.jpg?w=800&h=533&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-descarta-milei-e-tera-bilateral-com-paraguai-e-uruguai-no-mercosul.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "1629bc0cd98302fb",
-      "titulo": "Após anunciar exoneração geral, Pazolini poupa comissionados essenciais",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/colunas/leticia-goncalves/apos-anunciar-exoneracao-geral-pazolini-poupa-comissionados-essenciais-1126",
-      "dataFonte": "2026-11-27T21:06:10.000Z",
-      "resumoFonte": "Inicialmente, equipe do governador eleito afirmou que todos os mais de 3,4 mil servidores comissionados da gestão estadual seriam dispensados já no primeiro dia",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795812370657_clo4583.jpeg",
-      "descobertaEm": "2026-11-27T21:18:12.042Z",
-      "reportagem": {
-        "titulo": "Após anunciar exoneração geral, Pazolini poupa comissionados essenciais",
-        "slug": "apos-anunciar-exoneracao-geral-pazolini-poupa-comissionados-essenciais",
-        "categoria": "Política ES",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/apos-anunciar-exoneracao-geral-pazolini-poupa-comissionados-essenciais.jpg",
-        "resumo": "Inicialmente, equipe do governador eleito afirmou que todos os mais de 3,4 mil servidores comissionados da gestão estadual seriam dispensados já no primeiro dia",
-        "conteudo": "<p>No dia dez de novembro, o governador eleito Lorenzo Pazolini (Republicanos) anunciou, em nota divulgada à imprensa, que iria exonerar todos os comissionados da gestão estadual já no primeiro dia da nova administração, em seis de janeiro.</p><h2>O contexto do cenário político</h2><p>Todas as funções gratificadas exercidas por servidores efetivos também seriam alvo de exoneração geral, de acordo com a nota.</p><p>Mas tal “tesouraço”, sem substituição imediata e sem gente com know-how para realizar funções essenciais de pronto, não poderia causar uma espécie de pane em alguns serviços públicos?</p><p>Nesta sexta-feira (27), em entrevista concedida durante o Pedra Azul Summit, Pazolini revelou que, na verdade, nem todos os servidores comissionados vão ser exonerados de uma tacada só.</p><h2>Informações e repercussões do episódio</h2><p>Os que atuam em serviços essenciais não vão ser dispensados no dia 6.</p><p>“Os serviços essenciais são tratados à parte. Ou seja, tudo que é serviço essencial, que não para, será tratado em um outro decreto, tem uma outra tratativa ”, afirmou o governador eleito.</p><p>Vão ser exonerados todos os comissionados não essenciais . Talvez tenha faltado isso (no anúncio anterior)</p><p>Lorenzo Pazolini (Republicanos) Governador eleito do ES</p><p>Do contrário, poderia haver situações um tanto complicadas.</p><p>Os diretores e diretores-adjuntos de presídios, por exemplo, são cargos comissionados ligados à Secretaria de Estado da Justiça (Sejus).</p><p>Se todos fossem dispensados no primeiro dia do governo, quem comandaria as unidades prisionais até que outros fossem nomeados? E se os substitutos surgissem no mesmo dia, como se daria essa transição, com todos os novatos se inteirando sobre o expediente ao mesmo tempo?</p><p>A mesma analogia poderia ser usada para descrever a situação de diretores de hospitais cuja administração é realizada diretamente pela Secretaria de Estado da Saúde.</p><p>De acordo com a Secretaria de Estado de Gestão e Recursos Humanos (Seger), o estado contabilizava 3.422 comissionados em outubro. Isso sem contar os servidores efetivos que ocupam funções gratificadas.</p><p>Como nem todos vão ser mandados embora de uma vez, Pazolini garantiu que não vai haver paralisação de serviços essenciais.</p><p>“Em Vitória (onde medida similar foi adotada quando Pazolini era prefeito), as unidades de saúde continuaram funcionando, as escolas continuaram funcionando, a segurança pública continuou funcionando.</p><p>Serviço essencial não para, funciona 24 horas por dia”, exemplificou o republicano.</p><p>Além da nota do dia dez de novembro, que cravou a exoneração de “todos os servidores comissionados e dispensa das funções gratificadas no primeiro dia do novo governo”, a equipe de Pazolini reforçou, depois, que a exoneração atingiria 100% mesmo.</p>",
-        "fonteNome": "A Gazeta - Capa",
-        "fonteUrl": "https://www.agazeta.com.br/colunas/leticia-goncalves/apos-anunciar-exoneracao-geral-pazolini-poupa-comissionados-essenciais-1126",
-        "fontesAdicionais": [
-          {
-            "nome": "Assembleia Legislativa do ES",
-            "url": "https://www.al.es.gov.br/"
-          },
-          {
-            "nome": "Governo do Estado do ES",
-            "url": "https://www.es.gov.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "No dia dez de novembro, o governador eleito Lorenzo Pazolini (Republicanos) anunciou, em nota divulgada à imprensa, que iria exonerar todos os comissionados da gestão estadual já no primeiro dia da nova administração, em seis de janeiro."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Todas as funções gratificadas exercidas por servidores efetivos também seriam alvo de exoneração geral, de acordo com a nota."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Mas tal “tesouraço”, sem substituição imediata e sem gente com know-how para realizar funções essenciais de pronto, não poderia causar uma espécie de pane em alguns serviços públicos?"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Nesta sexta-feira (27), em entrevista concedida durante o Pedra Azul Summit, Pazolini revelou que, na verdade, nem todos os servidores comissionados vão ser exonerados de uma tacada só."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os que atuam em serviços essenciais não vão ser dispensados no dia 6."
-          }
-        ],
-        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795812370657_clo4583.jpeg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/apos-anunciar-exoneracao-geral-pazolini-poupa-comissionados-essenciais.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "05372ff8bd0cfabb",
-      "titulo": "Pessimistas, brasileiros cobram mudanças de Lula",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/pessimistas-brasileiros-cobram-mudancas-de-lula/",
-      "dataFonte": "2026-11-27T20:55:54.000Z",
-      "resumoFonte": "Quase metade dos brasileiros está pessimista em relação ao futuro do país nos próximos quatro anos. Segundo pesquisa da Nexus, 48% dos entrevistados demonstram preocupação com o cenário nacional, contra 47% que se dizem otimistas. O levantamento revela insatisfação com as instituições: 46% não acreditam que o governo federal nem o Congresso…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/Brasileiros-pessimistas-com-o-pais-910x568.jpeg.webp",
-      "descobertaEm": "2026-11-27T21:18:12.042Z",
-      "reportagem": {
-        "titulo": "Pessimistas, brasileiros cobram mudanças de Lula",
-        "slug": "pessimistas-brasileiros-cobram-mudancas-de-lula",
-        "categoria": "Política Nacional",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/pessimistas-brasileiros-cobram-mudancas-de-lula.jpg",
-        "resumo": "Pesquisa: quase a metade da população vê piora nos próximos quatro anos; 71% defendem controle dos gastos públicos",
-        "conteudo": "<p>A pesquisa Nexus revela pessimismo dos brasileiros com o futuro do país: 48% acreditam que a situação vai piorar nos próximos quatro anos.</p><h2>O contexto do cenário político</h2><p>A economia lidera as preocupações; 71% defendem maior controle dos gastos públicos, mesmo com cortes em programas sociais.</p><p>Além disso, 46% não confiam no compromisso do governo federal nem do Congresso com a população, enquanto 60% cobram mudanças nas políticas de Lula.</p><p>Quase metade dos brasileiros está pessimista em relação ao futuro do país nos próximos quatro anos. Segundo pesquisa da Nexus, 48% dos entrevistados demonstram preocupação com o cenário nacional, contra 47% que se dizem otimistas.</p><h2>Como interpretar os resultados</h2><p>O levantamento revela insatisfação com as instituições: 46% não acreditam que o governo federal nem o Congresso Nacional tenham compromisso com a população e trabalhem para resolver seus problemas.</p><p>A expectativa em relação ao quarto mandato de Lula da Silva (PT) também está longe de ser positiva.</p><p>Embora 91% tenham afirmado torcer para que o novo governo dê certo, apenas 42% acreditam que a próxima gestão será melhor do que a atual. Outros 39% esperam uma piora.</p><p>Além disso, 60% defendem mudanças substanciais ou totais nas políticas e nos projetos do presidente.</p><p>A economia é a principal fonte de preocupação. O tema, que engloba inflação, custo de vida, endividamento e renda , concentra 46% das menções como um dos maiores problemas do Brasil.</p><p>Mais preocupante, 48% acreditam que a situação econômica e o controle dos preços vão piorar nos próximos quatro anos, enquanto apenas 33% esperam melhora.</p><p>A pesquisa também evidencia a cobrança por responsabilidade fiscal. Para 71% dos brasileiros, o governo precisa controlar melhor as contas públicas, mesmo que isso implique redução de despesas com programas sociais.</p><p>Apenas 25% defendem a manutenção ou a ampliação desses gastos, ainda que aumente a dívida pública.</p><p>Na relação entre os Poderes, 64% acreditam que o Congresso deverá dificultar ou boicotar as propostas de Lula. Outros 60% consideram que o presidente terá de negociar com deputados e senadores, mesmo que precise abrir mão de parte de suas propostas.</p><p>Leia ainda: “A chave do cofre” , reportagem publicada na Edição 351 da Revista Oeste</p><p>A pesquisa ouviu 2 mil eleitores entre 23 e 25 de novembro, nas 27 unidades da Federação. A margem de erro é de 2,2 pontos porcentuais, com intervalo de confiança de 95%.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/pessimistas-brasileiros-cobram-mudancas-de-lula/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A pesquisa Nexus revela pessimismo dos brasileiros com o futuro do país: 48% acreditam que a situação vai piorar nos próximos quatro anos. A economia lidera as preocupações; 71% defendem maior controle dos gastos públicos, mesmo com cortes em programas sociais."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Quase metade dos brasileiros está pessimista em relação ao futuro do país nos próximos quatro anos. Segundo pesquisa da Nexus, 48% dos entrevistados demonstram preocupação com o cenário nacional, contra 47% que se dizem otimistas."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O levantamento revela insatisfação com as instituições: 46% não acreditam que o governo federal nem o Congresso Nacional tenham compromisso com a população e trabalhem para resolver seus problemas."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A expectativa em relação ao quarto mandato de Lula da Silva (PT) também está longe de ser positiva. Embora 91% tenham afirmado torcer para que o novo governo dê certo, apenas 42% acreditam que a próxima gestão será melhor do que a atual. Outros 39% esperam uma piora."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A economia é a principal fonte de preocupação. O tema, que engloba inflação, custo de vida, endividamento e renda , concentra 46% das menções como um dos maiores problemas do Brasil. Mais preocupante, 48% acreditam que a situação econômica e o controle dos preços vão piorar nos próximos quatro anos, enquanto apenas 33% esperam melhora."
-          }
-        ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/Brasileiros-pessimistas-com-o-pais-910x568.jpeg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/pessimistas-brasileiros-cobram-mudancas-de-lula.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "ffb391027e126337",
-      "titulo": "Bolsonaro apresenta melhora intestinal, mas segue sem previsão de alta",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/politica/bolsonaro-apresenta-melhora-intestinal-mas-segue-sem-previsao-de-alta/",
-      "dataFonte": "2026-11-27T20:57:57.000Z",
-      "resumoFonte": "Ex-presidente está internado desde sexta-feira (20) com diagnóstico de broncopneumonia e obstrução intestinal",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/11/whatsapp-image-2024-02-08-at-11.55.03.jpeg?w=1170&h=630&crop=1",
-      "descobertaEm": "2026-11-27T21:18:12.042Z"
-    },
-    {
       "id": "48f0b0356b82e415",
       "titulo": "Aperol estreia no Brasil versão pronta do Spritz em garrafa long neck",
       "categoria": "Economia",
@@ -1312,6 +971,18 @@
       "resumoFonte": "Aperol Spritz Pronto em garrafa long neck, com 275 ml e 5% de graduação alcoólica (Foto: Divulgação) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/aperol.png?fit=306%2C168&quality=70&strip=all\" />Produzida no país, bebida de 275 ml terá 5% de álcool e preço sugerido de R$ 12,90; Brasil será o primeiro mercado a receber…",
       "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/aperol.png",
       "descobertaEm": "2026-11-27T21:18:12.042Z"
+    },
+    {
+      "id": "2a0d4120f4d33ddf",
+      "titulo": "Bancada do PT na Câmara reafirma apoio a Lula e defende investimentos e redução dos juros",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/11/27/bancada-do-pt-na-camara-reafirma-apoio-a-lula-e-defende-investimentos-e-reducao-dos-juros.htm",
+      "dataFonte": "2026-11-27T21:09:00.000Z",
+      "resumoFonte": "A bancada do PT na Câmara dos Deputados divulgou nota nesta sexta-feira, 27, em que defende a exclusão dos investimentos públicos dos limites do arcabouço fiscal, a redução das taxas de juros e a ampliação da tributação sobre os considerados \"super-ricos\". O comunicado foi elaborado após seminário da bancada sobre economia, realizado ma…",
+      "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lula_-_foto_oficial_2023.jpg/800px-Lula_-_foto_oficial_2023.jpg",
+      "descobertaEm": "2026-11-27T22:18:28.416Z"
     },
     {
       "id": "d5e7799dd3a5d76c",
@@ -1552,21 +1223,249 @@
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
+    },
+    {
+      "id": "7cc40743cc2e673c",
+      "titulo": "Narcisa relembra romance com cantor internacional e cita arrependimento",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/colunas/fabia-oliveira/narcisa-relembra-romance-com-cantor-internacional-e-cita-arrependimento",
+      "dataFonte": "2026-11-27T22:05:23.000Z",
+      "resumoFonte": "Em entrevista ao Que História é Essa, Porchat?, a empresária Narcisa Tamborindeguy disse que deveria ter morado com cantor americano",
+      "imagem": "https://i.metroimg.com/X0d-S3dY4E7MQCl2RUSBAsbZVPy-NAtpweN50JE7Us4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/narcisa-e-franck-sinatra-jr.jpg",
+      "descobertaEm": "2026-11-27T22:18:28.416Z"
+    },
+    {
+      "id": "d231889843e64dc9",
+      "titulo": "Edital vai selecionar cinco projetos de teatro em São Paulo",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/cultura/edital-vai-selecionar-cinco-projetos-de-teatro-em-sao-paulo/",
+      "dataFonte": "2026-11-27T21:30:15.000Z",
+      "resumoFonte": "Iniciativa oferece apoio financeiro, infraestrutura técnica e suporte de divulgação",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-27-at-13.54.03.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-11-27T22:02:42.560Z"
+    },
+    {
+      "id": "6f0738fdf9ca41dd",
+      "titulo": "EcoRodovias aposta em tecnologia para melhorar segurança e serviços",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/negocios/ecorodovias-aposta-em-tecnologia-para-melhorar-seguranca-e-servicos/",
+      "dataFonte": "2026-11-27T21:12:06.000Z",
+      "resumoFonte": "Afranio Lamy Spolador Junior fala sobre tecnologia, inteligência artificial e proteção de dados nas operações do Grupo EcoRodovias",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/EDC_MNY_261126_SON_TALKS_AFRANIO_frame_875.jpeg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-27T22:02:42.560Z",
+      "reportagem": {
+        "titulo": "EcoRodovias aposta em tecnologia para melhorar segurança e serviços",
+        "slug": "ecorodovias-aposta-em-tecnologia-para-melhorar-seguranca-e-servicos",
+        "categoria": "Tecnologia",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/ecorodovias-aposta-em-tecnologia-para-melhorar-seguranca-e-servicos.jpg",
+        "resumo": "Afranio Lamy Spolador Junior fala sobre tecnologia, inteligência artificial e proteção de dados nas operações do Grupo EcoRodovias",
+        "conteudo": "<p>O Grupo EcoRodovias tem apostado em investimentos tecnológicos de ponta para aprimorar a segurança e a qualidade dos serviços prestados nas rodovias sob sua operação.</p><h2>Dados e contexto do setor</h2><p>Em entrevista ao CNN Talks , Afranio Lamy Spolador Junior, diretor de Tecnologia da empresa, abordou os principais avanços e desafios nessa área.</p><p>Afranio Lamy Spolador Junior destacou que o setor vive um momento favorável em termos de disponibilidade tecnológica.</p><p>&quot;A gente vive num momento muito bom de tecnologia, onde a gente tem uma abundância de tecnologia e consegue, nas nossas operações, fazer investimentos que trazem segurança, trazem fluidez&quot;, afirmou.</p><h2>Impactos e informações adicionais</h2><p>Segundo ele, áreas como o pedágio e o processo de pesagem estão passando por transformações significativas, e a conectividade tem permitido coletar dados que resultam em mais conforto e segurança para os usuários das rodovias.</p><p>Um dos destaques da infraestrutura tecnológica do grupo é o sistema de monitoramento composto por mais de 3.500 câmeras, que operam 24 horas por dia com suporte de inteligência artificial.</p><p>&quot;Quase todas as nossas operações hoje usam inteligência artificial e esses dados nos ajudam a fazer uma detecção muito rápida de um incidente&quot;, explicou Afranio.</p><p>A partir dessa detecção, os recursos operacionais podem ser acionados com agilidade para prevenir acidentes ou para atender ocorrências de forma célere.</p><p>Além da segurança física, Afranio também ressaltou a importância da proteção dos dados dos usuários diante do crescente número de ataques cibernéticos.</p><p>Ele explicou que o grupo lida principalmente com dados de placas de veículos, e não com informações pessoais dos usuários diretamente.</p><p>&quot;Essa proteção acontece de uma forma muito responsável dentro do nosso ambiente&quot;, disse.</p><p>A preocupação com a segurança digital foi apresentada como parte integrante da estratégia de operação responsável do grupo.</p><p>CNN Talks entrevista Afranio Lamy Spolador Junior, diretor de Tecnologia na Grupo EcoRodovias</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/negocios/ecorodovias-aposta-em-tecnologia-para-melhorar-seguranca-e-servicos/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/"
+          },
+          {
+            "nome": "MCTI",
+            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Grupo EcoRodovias tem apostado em investimentos tecnológicos de ponta para aprimorar a segurança e a qualidade dos serviços prestados nas rodovias sob sua operação."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Em entrevista ao CNN Talks , Afranio Lamy Spolador Junior, diretor de Tecnologia da empresa, abordou os principais avanços e desafios nessa área."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Afranio Lamy Spolador Junior destacou que o setor vive um momento favorável em termos de disponibilidade tecnológica."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "\"A gente vive num momento muito bom de tecnologia, onde a gente tem uma abundância de tecnologia e consegue, nas nossas operações, fazer investimentos que trazem segurança, trazem fluidez\", afirmou."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Segundo ele, áreas como o pedágio e o processo de pesagem estão passando por transformações significativas, e a conectividade tem permitido coletar dados que resultam em mais conforto e segurança para os usuários das rodovias."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/EDC_MNY_261126_SON_TALKS_AFRANIO_frame_875.jpeg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/ecorodovias-aposta-em-tecnologia-para-melhorar-seguranca-e-servicos.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "b841c22dff3d2eee",
+      "titulo": "Análise: Quanto vai durar a &quot;lua de mel&quot; entre Lula e o mercado?",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "CNN Brasil - Capa",
+      "urlFonte": "https://www.cnnbrasil.com.br/blogs/julliana-lopes/politica/analise-quanto-vai-durar-a-lua-de-mel-entre-lula-e-o-mercado/",
+      "dataFonte": "2026-11-27T21:00:43.000Z",
+      "resumoFonte": "Presidente já queria Luiz Carlos Trabuco na Fazenda há mais de dez anos; mas, no atual cenário, essa escolha ganha outro significado político",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/55635257254_804167d895_o.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-27T22:04:16.715Z"
+    },
+    {
+      "id": "7c890d712d86cf62",
+      "titulo": "Fluminense x Cruzeiro: escalações e onde assistir ao jogo do Brasileirão",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/fluminense-x-cruzeiro-escalacoes-e-onde-assistir-ao-jogo-do-brasileirao-2/",
+      "dataFonte": "2026-11-27T22:02:04.000Z",
+      "resumoFonte": "Equipes se enfrentam nesta sexta-feira (27), às 20h (de Brasília), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/maraca.jpg?w=1180&h=630&crop=1",
+      "descobertaEm": "2026-11-27T22:18:28.416Z"
+    },
+    {
+      "id": "a7ad2228bd7ddc02",
+      "titulo": "Niclas Füllkrug marca no fim, e Werder Bremen arranca empate com o Borussia Mönchengladbach",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/esportes/futebol/niclas-fullkrug-marca-no-fim-e-werder-bremen-arranca-empate-com-o-borussia-monchengladbach-27-11-2026/",
+      "dataFonte": "2026-11-27T21:28:44.000Z",
+      "resumoFonte": "O empate do Werder Bremen saiu no fim: Niclas Füllkrug marcou e deixou o jogo com o Borussia Mönchengladbach em 3 a 3 nesta sexta-feira (27), no Weser-Stadion, em Bremen, pela 11ª rodada da Bundesliga.",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/werder-bremen-x-borussia-monchengladbach-1575237.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-27T22:02:42.560Z",
+      "reportagem": {
+        "titulo": "Niclas Füllkrug marca no fim, e Werder Bremen arranca empate com o Borussia Mönchengladbach",
+        "slug": "niclas-fullkrug-marca-no-fim-e-werder-bremen-arranca-empate-com-o-borussia-monchengladbach",
+        "categoria": "Esporte",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/niclas-fullkrug-marca-no-fim-e-werder-bremen-arranca-empate-com-o-borussia-monchengladbach.jpg",
+        "resumo": "O empate do Werder Bremen saiu no fim: Niclas Füllkrug marcou e deixou o jogo com o Borussia Mönchengladbach em 3 a 3 nesta sexta-feira (27), no Weser-Stadion, em Bremen, pela 11ª rodada da Bundesliga.",
+        "conteudo": "<p>O empate do Werder Bremen saiu no fim: Niclas Füllkrug marcou e deixou o jogo com o Borussia Mönchengladbach em 3 a 3 nesta sexta-feira (27), no Weser-Stadion, em Bremen, pela 11ª rodada da Bundesliga.</p><h2>As informações principais do assunto</h2><p>O Borussia Mönchengladbach abriu o placar de pênalti, com Kevin Diks, aos 27 minutos do primeiro tempo. O Werder Bremen empatou aos 38, com Eren Dinkci.</p><p>Franck Honorat pôs o Borussia Mönchengladbach na frente no primeiro minuto do segundo tempo: 2 a 1. Aos 33, Franck Honorat fez 3 a 1, com assistência de Wael Mohya. Foi o segundo dele no jogo.</p><p>Aos 40, Eren Dinkci descontou. Era o segundo dele na partida. Niclas Füllkrug deixou tudo igual nos acréscimos do segundo tempo.</p><h2>Contexto e informações complementares</h2><p>Nas finalizações, houve equilíbrio: 20 do Werder Bremen e 20 do Borussia Mönchengladbach. No alvo, foram 8 do Werder Bremen e 6 do Borussia Mönchengladbach.</p><p>O Werder Bremen chega a 19 pontos. O Borussia Mönchengladbach passa a somar 5 pontos. A sequência sem vitórias do Borussia Mönchengladbach chega a quatro jogos.</p><p>O Werder Bremen enfrenta o Eintracht Frankfurt no sábado (5/12). O Borussia Mönchengladbach volta a campo na terça-feira (1/12), contra o SV Darmstadt 98, pela Copa da Alemanha.</p><p>Matéria produzida automaticamente com dados da partida.</p><p>São Paulo vence o Remo com gol de Ryan Francisco Rodrigues dos Santos Silva nos minutos finais</p><p>Werder Bremen x Borussia Mönchengladbach hoje: onde assistir ao vivo e escalações</p><p>Werder Bremen x Borussia Mönchengladbach começa às 16h30 (de Brasília) nesta sexta-feira (27), no Weser-Stadion, em Bremen, pela 11ª rodada do Campeonato Alemão 2026/27.</p><p>Abel diz que só trabalha no Palmeiras na América do Sul e admite final ruim em 2025</p><p>Heidenheim x Nürnberg hoje: onde assistir ao vivo e escalações</p><p>Bochum x Darmstadt 98 hoje: onde assistir ao vivo e escalações</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/esportes/futebol/niclas-fullkrug-marca-no-fim-e-werder-bremen-arranca-empate-com-o-borussia-monchengladbach-27-11-2026/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O empate do Werder Bremen saiu no fim: Niclas Füllkrug marcou e deixou o jogo com o Borussia Mönchengladbach em 3 a 3 nesta sexta-feira (27), no Weser-Stadion, em Bremen, pela 11ª rodada da Bundesliga."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O Borussia Mönchengladbach abriu o placar de pênalti, com Kevin Diks, aos 27 minutos do primeiro tempo. O Werder Bremen empatou aos 38, com Eren Dinkci."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Franck Honorat pôs o Borussia Mönchengladbach na frente no primeiro minuto do segundo tempo: 2 a 1. Aos 33, Franck Honorat fez 3 a 1, com assistência de Wael Mohya. Foi o segundo dele no jogo. Aos 40, Eren Dinkci descontou. Era o segundo dele na partida. Niclas Füllkrug deixou tudo igual nos acréscimos do segundo tempo."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Nas finalizações, houve equilíbrio: 20 do Werder Bremen e 20 do Borussia Mönchengladbach. No alvo, foram 8 do Werder Bremen e 6 do Borussia Mönchengladbach."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O Werder Bremen chega a 19 pontos. O Borussia Mönchengladbach passa a somar 5 pontos. A sequência sem vitórias do Borussia Mönchengladbach chega a quatro jogos."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/werder-bremen-x-borussia-monchengladbach-1575237.png?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/niclas-fullkrug-marca-no-fim-e-werder-bremen-arranca-empate-com-o-borussia-monchengladbach.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "69e19a32b66f8bb9",
+      "titulo": "Zucco anuncia Sachsida e Daniella Marques para conselho no RS",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-brasil/zucco-anuncia-sachsida-e-daniella-marques-para-conselho-no-rs/",
+      "dataFonte": "2026-11-27T21:25:32.000Z",
+      "resumoFonte": "Ex-integrantes da equipe econômica de Flávio Bolsonaro participarão de colegiado que terá reuniões mensais",
+      "imagem": "https://static.poder360.com.br/uploads/2026/11/zucco-anuncio-economia-1200x675.jpg",
+      "descobertaEm": "2026-11-27T22:02:42.560Z",
+      "reportagem": {
+        "titulo": "Zucco anuncia Sachsida e Daniella Marques para conselho no RS",
+        "slug": "zucco-anuncia-sachsida-e-daniella-marques-para-conselho-no-rs",
+        "categoria": "Justiça",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/zucco-anuncia-sachsida-e-daniella-marques-para-conselho-no-rs.jpg",
+        "resumo": "Ex-integrantes da equipe econômica de Flávio Bolsonaro participarão de colegiado que terá reuniões mensais.",
+        "conteudo": "<p>Ex-integrantes da equipe econômica de Flávio Bolsonaro participarão de colegiado que terá reuniões mensais</p><h2>O contexto da decisão judicial</h2><p>O governador eleito do Rio Grande do Sul, Luciano Zucco (PL), anunciou, na 5ª feira (26.nov.2026), a criação do Conselho de Desenvolvimento Econômico do Estado.</p><p>Entre os integrantes estarão o economista Adolfo Sachsida, ex-ministro de Minas e Energia, e Daniella Marques, ex-presidente da Caixa Econômica Federal.</p><p>Os 2 integraram a equipe econômica da campanha presidencial de Flávio Bolsonaro (PL), derrotado no 2º turno das eleições de outubro. Daniella coordenou o núcleo econômico da candidatura, enquanto Sachsida participou da coordenação geral do plano econômico.</p><h2>Detalhes e consequências do caso</h2><p>O colegiado será presidido pelo próprio Zucco e deverá se reunir mensalmente. A participação dos integrantes será voluntária, como contribuição ao planejamento e à gestão estadual.</p><p>Além de Sachsida e Daniella, o conselho contará com Mateus Bandeira, executivo com experiência nos setores público e privado, e Rafael Pandolfo, advogado especializado em direito tributário.</p><p>Também farão parte do grupo a deputada federal Any Ortiz (PP) e o deputado estadual Cláudio Branchieri (PL), anunciados como futuros secretários estaduais de Desenvolvimento Econômico e da Fazenda, respectivamente.</p><p>Segundo Zucco, a iniciativa busca reunir especialistas para discutir alternativas aos desafios fiscais e econômicos do Rio Grande do Sul. O governador eleito disse que pretende construir uma agenda de desenvolvimento para o Estado.</p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-brasil/zucco-anuncia-sachsida-e-daniella-marques-para-conselho-no-rs/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Ex-integrantes da equipe econômica de Flávio Bolsonaro participarão de colegiado que terá reuniões mensais"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O governador eleito do Rio Grande do Sul, Luciano Zucco (PL), anunciou, na 5ª feira (26.nov.2026), a criação do Conselho de Desenvolvimento Econômico do Estado. Entre os integrantes estarão o economista Adolfo Sachsida, ex-ministro de Minas e Energia, e Daniella Marques, ex-presidente da Caixa Econômica Federal."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Os 2 integraram a equipe econômica da campanha presidencial de Flávio Bolsonaro (PL), derrotado no 2º turno das eleições de outubro. Daniella coordenou o núcleo econômico da candidatura, enquanto Sachsida participou da coordenação geral do plano econômico."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O colegiado será presidido pelo próprio Zucco e deverá se reunir mensalmente. A participação dos integrantes será voluntária, como contribuição ao planejamento e à gestão estadual."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Além de Sachsida e Daniella, o conselho contará com Mateus Bandeira, executivo com experiência nos setores público e privado, e Rafael Pandolfo, advogado especializado em direito tributário."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/zucco-anuncio-economia-1200x675.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/zucco-anuncia-sachsida-e-daniella-marques-para-conselho-no-rs.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     }
   ],
-  "reapuradoEm": "2026-11-27T22:48:49.436Z",
+  "reapuradoEm": "2026-11-27T22:58:31.160Z",
   "diagnosticoReapuracao": {
-    "produzidas": 23,
+    "produzidas": 21,
     "jaProntas": 0,
-    "incompletas": 10,
+    "incompletas": 12,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 23,
+    "geradas": 21,
     "reaproveitadas": 0,
-    "puladas": 10,
+    "puladas": 12,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-27T22:51:01.560Z"
+  "lapisEm": "2026-11-27T22:59:52.342Z"
 }
