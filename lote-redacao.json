@@ -1,52 +1,290 @@
 {
-  "geradoEm": "2026-11-28T01:48:42.424Z",
+  "geradoEm": "2026-11-28T02:49:15.297Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 1,
-    "bloqueadasEditoriais": 3,
+    "bloqueadasEditoriais": 2,
     "semImagem": 0,
     "duplicadasBasicas": 0,
-    "duplicadasSemanticas": 3,
-    "foraCategorias": 40
+    "duplicadasSemanticas": 2,
+    "foraCategorias": 44
   },
-  "quantidadeCandidatas": 33,
+  "quantidadeCandidatas": 31,
   "tentativasRecentes": {
-    "5e36ee1e2ec082b8": 1795830522424,
-    "c25401b7c6ac046b": 1795830522424,
-    "dafb3612efe5a9c3": 1795830522424,
-    "137063ac4fab3281": 1795830522424,
-    "d7fcef428818f47e": 1795830522424,
-    "8d2a07b96f2b72bc": 1795830522424,
-    "d05864e89a744776": 1795830522424,
-    "3edf666302f5195c": 1795830522424,
-    "dec506acb34138e9": 1795830522424,
-    "d5d0a3389d3c76dc": 1795830522424,
-    "a50d8cabb97ca1d9": 1795830522424,
-    "34a922b5431ea63c": 1795830522424,
-    "05aa72ba5d34b109": 1795830522424,
-    "6943f45c5b3d8545": 1795830522424,
-    "db4529b14b7c51b7": 1795830522424,
-    "d436b25f677a9e02": 1795830522424,
-    "b303ac5841aa7cc5": 1795830522424,
-    "d6b4b80453e7b56d": 1795830522424,
-    "41731df31e19c7ef": 1795830522424,
-    "16c2d2bdaac0c0ad": 1795830522424,
-    "fbbe49289853bc70": 1795830522424,
-    "adfff6f807a52725": 1795830522424,
-    "f7d3c594bbf71309": 1795830522424,
-    "413bf15f95be35bf": 1795830522424,
-    "9bdd0a5d03ed8ff2": 1795830522424,
-    "f2e975c79e99354b": 1795830522424,
-    "ed1aaadf2cc79698": 1795830522424,
-    "abc50adf78c6cde4": 1795830522424,
-    "c02197305f5daf45": 1795830522424,
-    "3fe61913d08f87f9": 1795830522424,
-    "62a34400bf132c45": 1795830522424,
-    "86d0d0c52943f167": 1795830522424,
-    "3446e6b8a2d7bf23": 1795830522424
+    "c25401b7c6ac046b": 1795834155297,
+    "8d2a07b96f2b72bc": 1795834155297,
+    "d05864e89a744776": 1795834155297,
+    "d5d0a3389d3c76dc": 1795834155297,
+    "05aa72ba5d34b109": 1795834155297,
+    "6943f45c5b3d8545": 1795834155297,
+    "db4529b14b7c51b7": 1795834155297,
+    "d436b25f677a9e02": 1795834155297,
+    "b303ac5841aa7cc5": 1795834155297,
+    "d6b4b80453e7b56d": 1795834155297,
+    "41731df31e19c7ef": 1795834155297,
+    "16c2d2bdaac0c0ad": 1795834155297,
+    "f7d3c594bbf71309": 1795834155297,
+    "9bdd0a5d03ed8ff2": 1795834155297,
+    "f2e975c79e99354b": 1795834155297,
+    "ed1aaadf2cc79698": 1795834155297,
+    "abc50adf78c6cde4": 1795834155297,
+    "c02197305f5daf45": 1795834155297,
+    "3fe61913d08f87f9": 1795834155297,
+    "62a34400bf132c45": 1795834155297,
+    "3446e6b8a2d7bf23": 1795834155297,
+    "fd1d99f5b327db48": 1795834155297,
+    "1c17c2ce3c55eb71": 1795834155297,
+    "5f0067202eae1462": 1795834155297,
+    "2e51770501e05075": 1795834155297,
+    "1dfa8f1b740ed26a": 1795834155297,
+    "91ba4364493193a5": 1795834155297,
+    "31958b06d1fe1ef9": 1795834155297,
+    "c9d15d247044f2ee": 1795834155297,
+    "837af48be22a7d6b": 1795834155297,
+    "462a4d69db454bdc": 1795834155297
   },
   "candidatas": [
+    {
+      "id": "fd1d99f5b327db48",
+      "titulo": "Senacon multa BRB em R$ 14,6 milhões por práticas abusivas de crédito",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "CNN Brasil - Capa",
+      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/negocios/senacon-multa-brb-em-r-146-milhoes-por-praticas-abusivas-de-credito/",
+      "dataFonte": "2026-11-27T23:29:25.000Z",
+      "resumoFonte": "Banco manteve descontos automáticos em contas utilizadas para recebimento de salários mesmo após pedidos de cancelamento dos correntistas",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/BRB.png?w=889&h=495&crop=1",
+      "descobertaEm": "2026-11-28T02:19:42.080Z",
+      "reportagem": {
+        "titulo": "Senacon multa BRB em R$ 14,6 milhões por práticas abusivas de crédito",
+        "slug": "senacon-multa-brb-em-r-14-6-milhoes-por-praticas-abusivas-de-credito",
+        "categoria": "Economia",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/senacon-multa-brb-em-r-14-6-milhoes-por-praticas-abusivas-de-credito.jpg",
+        "resumo": "Banco manteve descontos automáticos em contas utilizadas para recebimento de salários mesmo após pedidos de cancelamento dos correntistas",
+        "conteudo": "<p>A Senacon (Secretaria Nacional do Consumidor), vinculada ao Ministério da Justiça e Segurança Pública, aplicou multa de R$ 14,6 milhões ao BRB (Banco de Brasília) por descumprimento de dispositivos do Código de Defesa do Consumidor.</p><h2>Dados e contexto do setor</h2><p>A decisão foi publicada no DOU (Diário Oficial da União) desta sexta-feira (27).</p><p>A apuração teve início após denúncias de correntistas sobre a recusa da instituição financeira em suspender débitos automáticos em contas utilizadas para o recebimento de salários.</p><p>Em alguns dos casos analisados, os descontos comprometeram a totalidade da remuneração dos clientes.</p><h2>Impactos e informações adicionais</h2><p>Ao longo de 2025, a Senacon recebeu 57 solicitações administrativas de suspensão dos débitos automáticos que haviam sido rejeitadas pelo BRB, além de 18 decisões judiciais que determinaram a interrupção dos descontos.</p><p>Durante o processo administrativo, o banco informou à secretaria que reconhecia o direito dos clientes de cancelar, a qualquer momento, a autorização para os débitos automáticos.</p><p>A investigação, no entanto, constatou que a instituição não cumpria essa orientação em todos os casos.</p><p>A possibilidade de cancelamento também estava prevista nas normas internas do próprio banco para determinadas operações de crédito.</p><p>Para a definição do valor da multa, a Senacon considerou a reincidência da conduta, o alcance dos danos aos consumidores e a capacidade econômica da instituição financeira. O fato de as práticas atingirem clientes com mais de 60 anos também foi considerado um agravante.</p><p>Por outro lado, a inexistência de antecedentes administrativos e a adesão do banco à plataforma Consumidor.gov.br contribuíram para a redução da penalidade.</p><p>O BRB poderá recorrer da decisão. Caso abra mão do recurso e cumpra as condições estabelecidas pela secretaria, o banco poderá obter um desconto de 25% sobre o valor da multa.</p><p>Os recursos serão destinados ao FDD (Fundo de Defesa de Direitos Difusos). Caso não haja pagamento ou apresentação de recurso dentro do prazo, o débito poderá ser inscrito na Dívida Ativa da União.</p><p>A CNN solicitou um posicionamento do BRB sobre a aplicação das multas. Em nota, o Banco de Brasília afirmou que não teve acesso integral aos fundamentos da notificação da Senacon, e tem adotado todas as providências solicitadas pela Secretaria.</p><p>&quot;Após ter acesso ao documento, o Banco analisará detalhadamente o teor da decisão e adotará as medidas administrativas cabíveis, no exercício de seu amplo direito de defesa.</p><p>O BRB permanece à disposição das autoridades competentes e reafirma sua atuação pautada pela transparência, responsabilidade e confiança construída junto aos seus clientes&quot;, finaliza a nota.</p>",
+        "fonteNome": "CNN Brasil - Capa",
+        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/negocios/senacon-multa-brb-em-r-146-milhoes-por-praticas-abusivas-de-credito/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A Senacon (Secretaria Nacional do Consumidor), vinculada ao Ministério da Justiça e Segurança Pública, aplicou multa de R$ 14,6 milhões ao BRB (Banco de Brasília) por descumprimento de dispositivos do Código de Defesa do Consumidor. A decisão foi publicada no DOU (Diário Oficial da União) desta sexta-feira (27)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A apuração teve início após denúncias de correntistas sobre a recusa da instituição financeira em suspender débitos automáticos em contas utilizadas para o recebimento de salários. Em alguns dos casos analisados, os descontos comprometeram a totalidade da remuneração dos clientes."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Ao longo de 2025, a Senacon recebeu 57 solicitações administrativas de suspensão dos débitos automáticos que haviam sido rejeitadas pelo BRB, além de 18 decisões judiciais que determinaram a interrupção dos descontos."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Durante o processo administrativo, o banco informou à secretaria que reconhecia o direito dos clientes de cancelar, a qualquer momento, a autorização para os débitos automáticos. A investigação, no entanto, constatou que a instituição não cumpria essa orientação em todos os casos."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A possibilidade de cancelamento também estava prevista nas normas internas do próprio banco para determinadas operações de crédito."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/BRB.png?w=889&h=495&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/senacon-multa-brb-em-r-14-6-milhoes-por-praticas-abusivas-de-credito.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "1c17c2ce3c55eb71",
+      "titulo": "MP exige estudos técnicos para o Carnaval de 2027 em SP",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/mp-exige-estudos-tecnicos-para-o-carnaval-de-2027-em-sp/",
+      "dataFonte": "2026-11-28T00:59:29.000Z",
+      "resumoFonte": "Ação judicial busca evitar novos episódios de superlotação em São Paulo após os problemas registrados no Bloco do DJ Calvin Harris, no dia 8 de fevereiro de 2026, na região da Rua da Consolação",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/bloco-calvin-harris-.png?w=1036&h=577&crop=1",
+      "descobertaEm": "2026-11-28T02:18:13.478Z",
+      "reportagem": {
+        "titulo": "MP exige estudos técnicos para o Carnaval de 2027 em SP",
+        "slug": "mp-exige-estudos-tecnicos-para-o-carnaval-de-2027-em-sp",
+        "categoria": "Cultura",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/mp-exige-estudos-tecnicos-para-o-carnaval-de-2027-em-sp.jpg",
+        "resumo": "Ação judicial busca evitar novos episódios de superlotação em São Paulo após os problemas registrados no Bloco do DJ Calvin Harris, no dia 8 de fevereiro de 2026, na região da Rua da Consolação",
+        "conteudo": "<p>O Ministério Público de São Paulo (MPSP) entrou com uma ação civil pública, com um pedido de urgência, contra a Prefeitura de São Paulo para exigir a realização de estudos técnicos de viabilidade e segurança nas vias que vão receber os desfiles do Carnaval de Rua de 2027 .</p><h2>As informações principais do assunto</h2><p>A ação pede que o município não autorize a realização de eventos em locais que não tenham passado pela avaliação.</p><p>A ação foi motivada por problemas registrados durante o Carnaval de 2026, no Bloco do DJ Calvin Harris , no dia 8 de fevereiro de 2026, na região da Rua da Consolação.</p><p>Segundo informações da Secretaria da Segurança Pública (SSP), a concentração de pessoas ultrapassou um milhão, número superior à capacidade da via.</p><h2>Contexto e informações complementares</h2><p>Na ocasião, foi necessário, inclusive, acionar um plano de contingência e fechar as estações Paulista e Higienópolis-Mackenzie do Metrô para embarque e desembarque entre 14h e 20h, estações próximas ao local no bloco.</p><p>Também foram registrados episódios de pressão da multidão contra estruturas , como a invasão de dependências do 1º Grupamento de Bombeiros e a queda do portão da Escola da Magistratura.</p><p>O objetivo da ação, segundo o documento, é prevenir situações de superlotação e garantir condições adequadas de segurança, saúde e infraestrutura para foliões, trabalhadores e moradores.</p><p>O MPSP ressalta que a iniciativa não busca proibir ou restringir o carnaval de rua na cidade, mas assegurar que os desfiles sejam realizados de forma segura.</p><p>Segundo o Ministério Público, apesar dos problemas, a Prefeitura não apresentou estudos técnicos que estabeleçam a capacidade máxima de público das vias, os fluxos de entrada e saída, as rotas de fuga e os critérios para interromper o acesso de foliões.</p><p>O órgão também aponta falta de parâmetros claros para dimensionar postos médicos, ambulâncias, banheiros químicos, pontos de água potável e equipes de segurança.</p><p>O órgão afirma ainda que a Polícia Militar já havia alertado, em documentos anteriores, sobre os riscos de grandes concentrações nas ruas da Consolação e Augusta.</p><p>Entre os problemas estão a falta de áreas de escape, a existência de barreiras físicas em determinados trechos e o declive das vias.</p><p>Antes de recorrer à Justiça, o Ministério Público havia recomendado à Prefeitura a adoção de 12 medidas para melhorar o planejamento do Carnaval de 2027.</p><p>Entre elas, a elaboração de estudos técnicos por via, a definição de limites seguros de público e a criação de critérios objetivos para controlar a entrada de pessoas.</p><p>De acordo com a ação, a administração municipal não acatou a recomendação.</p><p>O pedido ainda se estende às próximas edições, com a exigência de atualização das avaliações sempre que houver mudanças relevantes nas condições das vias ou na estimativa de público.</p><p>O pré-carnaval de 2027 está previsto para os dias 30 e 31 de janeiro.</p><p>A CNN Brasil entrou em contato com a prefeitura, mas até o momento, o espaço segue aberto.</p><p>Multidão se reúne para assistir ao Calvin Harris em bloco em SP</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/mp-exige-estudos-tecnicos-para-o-carnaval-de-2027-em-sp/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Ministério Público de São Paulo (MPSP) entrou com uma ação civil pública, com um pedido de urgência, contra a Prefeitura de São Paulo para exigir a realização de estudos técnicos de viabilidade e segurança nas vias que vão receber os desfiles do Carnaval de Rua de 2027 ."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A ação foi motivada por problemas registrados durante o Carnaval de 2026, no Bloco do DJ Calvin Harris , no dia 8 de fevereiro de 2026, na região da Rua da Consolação. Segundo informações da Secretaria da Segurança Pública (SSP), a concentração de pessoas ultrapassou um milhão, número superior à capacidade da via."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Na ocasião, foi necessário, inclusive, acionar um plano de contingência e fechar as estações Paulista e Higienópolis-Mackenzie do Metrô para embarque e desembarque entre 14h e 20h, estações próximas ao local no bloco."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Também foram registrados episódios de pressão da multidão contra estruturas , como a invasão de dependências do 1º Grupamento de Bombeiros e a queda do portão da Escola da Magistratura."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O MPSP ressalta que a iniciativa não busca proibir ou restringir o carnaval de rua na cidade, mas assegurar que os desfiles sejam realizados de forma segura."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/bloco-calvin-harris-.png?w=1036&h=577&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/mp-exige-estudos-tecnicos-para-o-carnaval-de-2027-em-sp.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "5f0067202eae1462",
+      "titulo": "Futebol de areia: atleta presa na Rússia pede retorno",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Tribuna Online - Capa",
+      "urlFonte": "https://tribunaonline.com.br/cotidiano/futebol-de-areia-atleta-presa/",
+      "dataFonte": "2026-11-28T01:23:13.000Z",
+      "resumoFonte": "Futebol de areia em foco: campeã brasileira presa na Rússia escreve carta ao governo pedindo transferência para cumprir pena no Brasil.",
+      "imagem": "https://media.tribunaonline.com.br/wp-content/uploads/2026/11/ANA-2026-11-27T222100.320.jpg",
+      "descobertaEm": "2026-11-28T02:18:13.478Z",
+      "reportagem": {
+        "titulo": "Futebol de areia: atleta presa na Rússia pede retorno",
+        "slug": "futebol-de-areia-atleta-presa-na-russia-pede-retorno",
+        "categoria": "Esporte",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/futebol-de-areia-atleta-presa-na-russia-pede-retorno.jpg",
+        "resumo": "Futebol de areia em foco: campeã brasileira presa na Rússia escreve carta ao governo pedindo transferência para cumprir pena no Brasil.",
+        "conteudo": "<p>Presa há mais de um ano na Rússia , a campeã de futebol de areia Letícia Villar Pais , de 33 anos , fez um apelo, por meio de uma carta, ao governo brasileiro para voltar ao país.</p><h2>As informações principais do assunto</h2><p>A atleta, que iniciou sua trajetória no esporte nas areias da Praia de Camburi , em Vitória , está no centro de um impasse diplomático que envolve Brasil, Rússia e Estados Unidos.</p><p>Lelê, como é conhecida, nasceu em Minas Gerais , mas veio para o Espírito Santo ainda na infância.</p><p>Ela foi presa na Rússia em julho de 2025 com 6,13 gramas de haxixe para uso pessoal. A atleta do Estado havia passado dois meses jogando na Espanha e estava cruzando a fronteira da Estônia para a Rússia, onde atuaria pelo Lokomotiv, de São Petersburgo.</p><h2>Contexto e informações complementares</h2><p>Em janeiro deste ano, ela foi condenada a cinco anos e dois meses de prisão por contrabando e porte de droga e cumpria pena em centros de detenção. Em agosto, foi transferida para a colônia penal IK-2, em Iavas, na Mordóvia, onde é submetida a trabalhos forçados das 6h às 21h.</p><p>Conhecida como uma das piores prisões da Rússia, a unidade mantém a brasileira detida em meio a pressões do governo de Vladimir Putin por uma troca de prisioneiros envolvendo o russo Sergei Tcherkasov , suspeito de espionagem que está preso no Brasil.</p><p>Segundo apuração da Folha de S.Paulo, a Rússia quer que o governo brasileiro extradite Tcherkasov em troca da transferência de Villar e de dois estudantes brasileiros que cumprem pena no país.</p><p>O imbróglio se acentuou porque o governo americano também pediu ao Brasil a extradição de Tcherkasov, acusado nos EUA de atuar como agente de país estrangeiro e de cometer fraudes imigratória e bancária.</p><p>O advogado de Villar, Rodrigo Sardenberg , vem pedindo às autoridades russas desde março que enviem ao Ministério da Justiça a documentação necessária para entrar com o pedido de transferência, mas a Rússia tem ignorado as solicitações.</p><p>A mãe da jogadora, Joelma Villar , diz que a “única saída” e “única esperança” é a intervenção do presidente Lula . “Minha filha errou, mas a pena é completamente injusta.”</p><p>Nascida em Minas Gerais, Letícia Villar Pais tem 33 anos.</p><p>Veio para o Estado com a família ainda na infância. A família vive em Jardim Camburi, em Vitória.</p><p>Lelê construiu carreira no futebol de areia e foi a primeira camisa 10 da seleção brasileira.</p><p>conquistou a Copa Intercontinental e o Mundial de Clubes e ficou entre as três finalistas do prêmio de melhor do mundo em 2017.</p><p>Também conquistou a medalha de bronze nos Jogos Mundiais de Praia, em 2019.</p><p>Antes de ser presa, havia passado dois meses jogando pelo Barcelona, na Espanha, e seguia para a Rússia, onde atuaria pelo Lokomotiv, de São Petersburgo.</p>",
+        "fonteNome": "Tribuna Online - Capa",
+        "fonteUrl": "https://tribunaonline.com.br/cotidiano/futebol-de-areia-atleta-presa/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Presa há mais de um ano na Rússia , a campeã de futebol de areia Letícia Villar Pais , de 33 anos , fez um apelo, por meio de uma carta, ao governo brasileiro para voltar ao país."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A atleta, que iniciou sua trajetória no esporte nas areias da Praia de Camburi , em Vitória , está no centro de um impasse diplomático que envolve Brasil, Rússia e Estados Unidos."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Lelê, como é conhecida, nasceu em Minas Gerais , mas veio para o Espírito Santo ainda na infância."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Ela foi presa na Rússia em julho de 2025 com 6,13 gramas de haxixe para uso pessoal. A atleta do Estado havia passado dois meses jogando na Espanha e estava cruzando a fronteira da Estônia para a Rússia, onde atuaria pelo Lokomotiv, de São Petersburgo."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Em janeiro deste ano, ela foi condenada a cinco anos e dois meses de prisão por contrabando e porte de droga e cumpria pena em centros de detenção. Em agosto, foi transferida para a colônia penal IK-2, em Iavas, na Mordóvia, onde é submetida a trabalhos forçados das 6h às 21h."
+          }
+        ],
+        "imagemOriginal": "https://media.tribunaonline.com.br/wp-content/uploads/2026/11/ANA-2026-11-27T222100.320.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/futebol-de-areia-atleta-presa-na-russia-pede-retorno.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "2e51770501e05075",
+      "titulo": "Kassio atendeu a 68% dos pedidos de Flávio no TSE, e Estela Aranha, a 67% dos de Lula",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/kassio-atendeu-a-68-dos-pedidos-de-flavio-no-tse-e-estela-aranha-a-67-dos-de-lula.shtml",
+      "dataFonte": "2026-11-28T02:00:00.000Z",
+      "resumoFonte": "O presidente do TSE (Tribunal Superior Eleitoral), Kassio Nunes Marques , atendeu a 68% dos pedidos da campanha de Flávio Bolsonaro (PL) e a 25% dos da campanha de Lula (PT) nas representações que decidiu na disputa presidencial. Leia mais (11/27/2026 - 23h00)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/10/15/17920920976ad127c154755_1792092097_3x2_rt.jpg",
+      "descobertaEm": "2026-11-28T02:18:13.478Z",
+      "reportagem": {
+        "titulo": "Kassio atendeu a 68% dos pedidos de Flávio no TSE, e Estela Aranha, a 67% dos de Lula",
+        "slug": "kassio-atendeu-a-68-dos-pedidos-de-flavio-no-tse-e-estela-aranha-a-67-dos-de-lula",
+        "categoria": "Justiça",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/kassio-atendeu-a-68-dos-pedidos-de-flavio-no-tse-e-estela-aranha-a-67-dos-de-lula.jpg",
+        "resumo": "Levantamento do Instituto Sivis analisou 735 ações entre as campanhas",
+        "conteudo": "<p>O presidente do TSE (Tribunal Superior Eleitoral), Kassio Nunes Marques , atendeu a 68% dos pedidos da campanha de Flávio Bolsonaro (PL) e a 25% dos da campanha de Lula (PT) nas representações que decidiu na disputa presidencial.</p><h2>O contexto da decisão judicial</h2><p>Do outro lado, a ministra Estela Aranha acolheu 67% dos pedidos do lado petista e 33% dos do lado do senador. O vice-presidente do TSE, André Mendonça , atendeu aos dois lados em proporção semelhante, 75% dos pedidos de Lula e 73% dos de Flávio.</p><p>Os números são de levantamento do Instituto Sivis sobre 735 ações apresentadas no tribunal entre as duas campanhas de 16 de agosto a 25 de outubro, dia do segundo turno. O instituto é uma organização sem fins lucrativos.</p><p>Quase todas as ações entre as campanhas (97%) tratam de propaganda eleitoral e, por isso, foram distribuídas aos quatro ministros designados para julgar o tema —Marco Aurélio Bellizze foi incluído no grupo em outubro.</p><h2>Detalhes e consequências do caso</h2><p>O estudo considera se o pedido foi atendido, total ou parcialmente, ou negado pelo relator, antes de eventual revisão do plenário. Não avalia o mérito. A maior parte das decisões (91%) é liminar, ou seja, provisória.</p><p>Em nota, o gabinete da presidência afirmou que a assessoria do tribunal responderia pelo ministro, mas não comentou os percentuais atribuídos a ele e a Estela Aranha. O gabinete da ministra não respondeu até a publicação deste texto.</p><p>O TSE afirmou que neste ano houve volume elevado de judicialização, sobretudo nos dias anteriores à votação. Segundo o tribunal, representações, direitos de resposta e representações especiais somaram 942 ações, ante 613 em 2022, alta de 54%.</p><p>Levantamento anterior da Folha identificou 999 ações no período eleitoral —os números diferem porque o Sivis considera apenas os processos em que as duas campanhas estão em lados opostos e usa dados até o dia do segundo turno, enquanto a Folha incluiu decisões até 4 de novembro.</p><p>A eleição foi marcada por divisões entre ministros do STF que chegaram ao TSE. Em maio, Kassio incluiu a si mesmo e a Mendonça no grupo de relatores de casos de propaganda, função que costuma caber a ministros substitutos.</p><p>No caso de publicações sobre Nossa Senhora Aparecida, uma ordem de Mendonça foi derrubada por Flávio Dino , do STF, e restabelecida por Luiz Fux.</p><p>João Gabriel Archegas, pesquisador do Instituto Sivis e mestre em direito pela Universidade de Cambridge, avalia que o resultado de Mendonça enfraquece a hipótese de que os ministros decidem a favor dos governos que os indicaram.</p><p>Mendonça e Kassio foram indicados ao STF por Jair Bolsonaro (PL).</p><p>Archegas credita parte dos números referentes a Estela Aranha a um único dia. Em 11 de setembro, a ministra negou 30 pedidos —26 da campanha de Flávio e 4 da de Lula—, a maioria de direito de resposta.</p><p>O plenário depois confirmou todas as negativas. Sem as representações daquele dia, a taxa de pedidos de Flávio atendidos pela ministra sobe de 33% para 40%. A de Lula continua em 67%.</p><p>De acordo com o pesquisador, os pedidos de Flávio tratavam de uma mesma propaganda, que associava o candidato ao caso do Banco Master ou o chamava de &quot;o pior dos Bolsonaros&quot;. A campanha apresentou uma ação para cada meio em que o conteúdo foi veiculado.</p><p>Estela Aranha chegou ao TSE em 2025, após atuar no governo Lula como assessora do então ministro da Justiça Flávio Dino. Em vídeo da campanha de 2022, quando era advogada, declarou voto no petista.</p><p>Em outubro, a ministra determinou que a TV Globo não exibisse o púlpito reservado a candidatos ausentes em debate.</p><p>Em sessão na quinta (26), a ministra reclamou dos colegas e disse que não teve solidariedade ao sofrer ataques durante a campanha eleitoral. &quot;Acredito que é da boca para fora que se fala que querem mulheres em tribunais superiores.&quot;</p><p>Já Kassio chegou a ser questionado por ministros do STF e do TSE por decisões vistas como alinhadas à campanha de Flávio , como a suspensão, em junho, de uma pesquisa Atlas/Bloomberg que mostrava queda do senador. Ele negou favorecer o presidenciável.</p><p>O plenário do TSE revisou 155 decisões dos relatores até 25 de outubro e confirmou 88% delas. Das 18 decisões revertidas, 9 eram de Mendonça e 7, de Kassio. Em 16 casos, a reversão favoreceu Lula.</p><p>Archegas avalia que o presidente e vice do tribunal ficaram em minoria no plenário nesses casos.</p><p>O levantamento mostra ainda que o ritmo de ações triplicou no segundo turno, de 6,7 para 20,1 por dia. Para o pesquisador, a judicialização pegou o TSE de surpresa.</p><p>Ele cita como sinais a convocação do ministro substituto Bellizze no segundo turno e o acordo com as campanhas para encerrar direitos de resposta do primeiro.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/11/kassio-atendeu-a-68-dos-pedidos-de-flavio-no-tse-e-estela-aranha-a-67-dos-de-lula.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O presidente do TSE (Tribunal Superior Eleitoral), Kassio Nunes Marques , atendeu a 68% dos pedidos da campanha de Flávio Bolsonaro (PL) e a 25% dos da campanha de Lula (PT) nas representações que decidiu na disputa presidencial."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Do outro lado, a ministra Estela Aranha acolheu 67% dos pedidos do lado petista e 33% dos do lado do senador. O vice-presidente do TSE, André Mendonça , atendeu aos dois lados em proporção semelhante, 75% dos pedidos de Lula e 73% dos de Flávio."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Os números são de levantamento do Instituto Sivis sobre 735 ações apresentadas no tribunal entre as duas campanhas de 16 de agosto a 25 de outubro, dia do segundo turno. O instituto é uma organização sem fins lucrativos."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Quase todas as ações entre as campanhas (97%) tratam de propaganda eleitoral e, por isso, foram distribuídas aos quatro ministros designados para julgar o tema —Marco Aurélio Bellizze foi incluído no grupo em outubro. O estudo considera se o pedido foi atendido, total ou parcialmente, ou negado pelo relator, antes de eventual revisão do plenário."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Em nota, o gabinete da presidência afirmou que a assessoria do tribunal responderia pelo ministro, mas não comentou os percentuais atribuídos a ele e a Estela Aranha. O gabinete da ministra não respondeu até a publicação deste texto."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/10/15/17920920976ad127c154755_1792092097_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/kassio-atendeu-a-68-dos-pedidos-de-flavio-no-tse-e-estela-aranha-a-67-dos-de-lula.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
     {
       "id": "9bdd0a5d03ed8ff2",
       "titulo": "Moraes autoriza ministro do TCU a visitar Bolsonaro no hospital",
@@ -108,78 +346,6 @@
       }
     },
     {
-      "id": "f2e975c79e99354b",
-      "titulo": "Investidores em ETFs no Brasil aumentam 34% em um ano, segundo B3",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/economia/investimentos/investidores-em-etfs-no-brasil-aumentam-34-em-um-ano-segundo-b3/",
-      "dataFonte": "2026-11-28T00:31:40.000Z",
-      "resumoFonte": "Produtos permitem exposição a ativos globais como o S&P 500 e a criptomoedas de forma simplificada dentro da Bolsa de Valores brasileira",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/06/grafico-do-negocio-de-analise-de-dados-do-mercado-de-acoes-de-investimento.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-28T01:18:08.348Z",
-      "reportagem": {
-        "titulo": "Investidores em ETFs no Brasil aumentam 34% em um ano, segundo B3",
-        "slug": "investidores-em-etfs-no-brasil-aumentam-34-em-um-ano-segundo-b3",
-        "categoria": "Economia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/investidores-em-etfs-no-brasil-aumentam-34-em-um-ano-segundo-b3.jpg",
-        "resumo": "Produtos permitem exposição a ativos globais como o S&P 500 e a criptomoedas de forma simplificada dentro da Bolsa de Valores brasileira",
-        "conteudo": "<p>Segundo a B3, Bolsa de Valores do Brasil , o número de investidores pessoa física em ETFs aumentou 34% no segundo trimestre deste ano, na comparação com o mesmo período de 2025.</p><h2>Os números do levantamento</h2><p>O número de pessoas físicas com fundos de índice na carteira passou de 639 mil, em junho de 2025, para 862 mil no segundo trimestre deste ano. As pessoas físicas são responsáveis por mais de 25% do volume custodiado dos ETFs.</p><p>“O ETF virou uma febre porque é fácil de investir”, explicou Thiago Godoy, apresentador do Resenha do Dinheiro.</p><p>O valor em custódia dos investidores pessoa física em ETFs também aumentou R$ 8,2 bilhões, passando de R$ 26,9 bilhões para R$ 35,1 bilhões, uma alta de 30,5%, segundo a B3.</p><h2>Como interpretar os resultados</h2><p>Os ETFs são fundos de índice negociados em bolsa que acompanham o desempenho de indicadores do mercado. Por meio desses produtos, o investidor consegue acessar diferentes classes de ativos, como ações, índices internacionais e até criptomoedas.</p><p>Para quem procura exposição a criptomoedas, como o bitcoin, os ETFs são uma opção. “É mais fácil você começar a investir em bitcoin e criptomoedas por meio de um ETF do que se aventurar diretamente em uma corretora”, disse Bernardo Pascowitch, fundador e CEO do Yubb.</p><p>Esses produtos também permitem o acesso a mercados globais. É possível, por exemplo, comprar, aqui do Brasil, uma cota de um ETF que acompanha o desempenho do S&amp;P 500 , com negociação direta na B3.</p><p>A oferta de ETFs cresceu no Brasil no último ano. Somente em 2025, 62 novos fundos de índice foram listados na B3.</p><p>As pessoas físicas também ampliaram sua participação na renda variável brasileira. Cerca de 200 mil novos investidores entraram na renda variável de dezembro de 2025 até o segundo trimestre deste ano.</p><p>O valor em custódia da renda variável também cresceu R$ 20,1 bilhão em seis meses, alcançando R$ 656,3 bilhões.</p><p>O programa é apresentado por Marilia Fontes, sócia-fundadora da Nord Investimentos, Bernardo Pascowitch, fundador e CEO do Yubb e Thiago Godoy, o “Papai Financeiro”; e propõe uma abordagem leve, direta e descomplicada sobre temas ligados à educação financeira e investimentos.</p><p>A atração aborda semanalmente os principais temas da economia com a informalidade de uma conversa entre amigos — sem abrir mão da análise.</p><p>O Resenha do Dinheiro vai ao ar todas as sextas-feiras, às 19h, no canal do CNN Money no YouTube e aos domingos, às 15h, na CNN Brasil</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/economia/investimentos/investidores-em-etfs-no-brasil-aumentam-34-em-um-ano-segundo-b3/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Segundo a B3, Bolsa de Valores do Brasil , o número de investidores pessoa física em ETFs aumentou 34% no segundo trimestre deste ano, na comparação com o mesmo período de 2025."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O número de pessoas físicas com fundos de índice na carteira passou de 639 mil, em junho de 2025, para 862 mil no segundo trimestre deste ano. As pessoas físicas são responsáveis por mais de 25% do volume custodiado dos ETFs."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "“O ETF virou uma febre porque é fácil de investir”, explicou Thiago Godoy, apresentador do Resenha do Dinheiro."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O valor em custódia dos investidores pessoa física em ETFs também aumentou R$ 8,2 bilhões, passando de R$ 26,9 bilhões para R$ 35,1 bilhões, uma alta de 30,5%, segundo a B3."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os ETFs são fundos de índice negociados em bolsa que acompanham o desempenho de indicadores do mercado. Por meio desses produtos, o investidor consegue acessar diferentes classes de ativos, como ações, índices internacionais e até criptomoedas."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/06/grafico-do-negocio-de-analise-de-dados-do-mercado-de-acoes-de-investimento.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/investidores-em-etfs-no-brasil-aumentam-34-em-um-ano-segundo-b3.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "ed1aaadf2cc79698",
-      "titulo": "Trump publica imagem como 'Poderoso Chefão' e manda recado aos democratas",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/27/trump-publica-imagem-como-poderoso-chefao-e-manda-recado-aos-democratas.ghtm",
-      "dataFonte": "2026-11-27T23:20:05.000Z",
-      "resumoFonte": "O presidente dos Estados Unidos, Donald Trump, publicou nas redes sociais uma montagem que faz referência ao filme \"O Poderoso Chefão\" e a projetos apresentados por democratas.",
-      "imagem": "https://i.metroimg.com/4uG9Nw1Fm4rU90eeAaxb0_R7W1oYn0KZXmETWx1CfNk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/trump-veto-3x2-1.jpg",
-      "descobertaEm": "2026-11-28T01:18:08.348Z"
-    },
-    {
       "id": "abc50adf78c6cde4",
       "titulo": "Foguete sul-coreano será lançado a partir de Alcântara (MA) neste domingo",
       "categoria": "Tecnologia",
@@ -192,265 +358,217 @@
       "descobertaEm": "2026-11-28T01:18:08.348Z"
     },
     {
-      "id": "c02197305f5daf45",
-      "titulo": "Cruzeiro vence o Fluminense e garante o terceiro lugar do Brasileirão",
+      "id": "1dfa8f1b740ed26a",
+      "titulo": "Em jogaço, Brasil vence EUA e encaminha vaga para Copa do Mundo de Basquete",
       "categoria": "Esporte",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/esportes/cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao",
-      "dataFonte": "2026-11-28T01:06:11.000Z",
-      "resumoFonte": "Kaio Jorge marcou o único gol da vitória cruzeirense aos dois minutos de jogo e garantiu os três pontos para a Raposa",
-      "imagem": "https://i.metroimg.com/MsOOnVmMuMuv8QhmLO2YMcITS4wgcP9kVaQUWo2AQrw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/cruzeiro-x-fluminense.jpg",
-      "descobertaEm": "2026-11-28T01:18:08.348Z",
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/basquete/em-jogaco-brasil-vence-eua-e-encaminha-vaga-para-copa-do-mundo-de-basquete/",
+      "dataFonte": "2026-11-28T01:46:31.000Z",
+      "resumoFonte": "Seleção Brasileira fez valer o fator casa no retorno ao Ibirapuera após mais de 40 anos e conseguiu bater o time dos EUA, que não teve seus principais nomes, mas fez jogo extremamente difícil",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/WhatsApp-Image-2026-11-27-at-22.44.36.jpeg?w=660&h=440&crop=1",
+      "descobertaEm": "2026-11-28T02:18:13.478Z"
+    },
+    {
+      "id": "91ba4364493193a5",
+      "titulo": "Fluminense 0 x 1 Cruzeiro: veja os melhores momentos do Brasileirão",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/fluminense-0-x-1-cruzeiro-veja-os-melhores-momentos-do-brasileirao/",
+      "dataFonte": "2026-11-28T01:18:05.000Z",
+      "resumoFonte": "Com gol de Kaio Jorge, equipe mineira bateu o Tricolor e garantiu a terceira colocação na tabela de classificação",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/fluminense-cruzeiro-brasileirao-4-e1795823946694.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-28T02:18:13.478Z"
+    },
+    {
+      "id": "31958b06d1fe1ef9",
+      "titulo": "Veja os times que subiram para a Série A do Brasileirão de 2027",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/veja-os-times-que-subiram-para-a-serie-a-do-brasileirao-de-2027/",
+      "dataFonte": "2026-11-28T00:57:49.000Z",
+      "resumoFonte": "Vila Nova garantiu o acesso ao vencer o rival Atlético-GO nesta sexta-feira (27) e se juntou a Novorizontino e Juventude na lista de promovidos; Fortaleza e Criciúma disputam última vaga",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/01/trofeu-brasileirao-2026-taca-e1768333386925.jpg?w=1024&h=577&crop=1",
+      "descobertaEm": "2026-11-28T02:18:13.478Z"
+    },
+    {
+      "id": "c9d15d247044f2ee",
+      "titulo": "Fachin autoriza devolução de R$ 316,4 milhões do Master ao BRB",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "O Antagonista - Capa",
+      "urlFonte": "https://oantagonista.com.br/brasil/fachin-autoriza-devolucao-de-r-3164-milhoes-do-master-ao-brb/",
+      "dataFonte": "2026-11-27T23:56:31.000Z",
+      "resumoFonte": "Decisão do presidente do STF também permite a retomada dos repasses referentes a carteiras de crédito sem contestação",
+      "imagem": "https://cdn.oantagonista.com/uploads/2026/06/0d4a8940-scaled.jpg",
+      "descobertaEm": "2026-11-28T02:19:42.080Z",
       "reportagem": {
-        "titulo": "Cruzeiro vence o Fluminense e garante o terceiro lugar do Brasileirão",
-        "slug": "cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao",
-        "categoria": "Esporte",
+        "titulo": "Fachin autoriza devolução de R$ 316,4 milhões do Master ao BRB",
+        "slug": "fachin-autoriza-devolucao-de-r-316-4-milhoes-do-master-ao-brb",
+        "categoria": "Justiça",
         "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao.jpg",
-        "resumo": "Kaio Jorge marcou o único gol da vitória cruzeirense aos dois minutos de jogo e garantiu os três pontos para a Raposa",
-        "conteudo": "<p>Vitória da Raposa. O Fluminense recebeu o Cruzeiro , nesta sexta-feira (27/11), no Maracanã, pela 37ª rodada do Campeonato Brasileiro . Com gol único marcado por Kaio Jorge, o time mineiro bateu o Tricolor fora de casa por 1 x 0 e confirmou o 3° lugar do torneio.</p><h2>As informações principais do assunto</h2><p>Com o resultado, o Cruzeiro chega a 69 pontos e não pode mais perder a 3ª posição na tabela, enquanto o Fluminense fica com 63 pontos, n0 4º lugar da classificação geral.</p><p>Nos minutos iniciais da partida, o Cruzeiro abriu o placar. Matheus Henrique roubou no meio do campo e acionou Bruno Rodrigues. Ele passou para Kaio Jorge do lado direito na entrada da área. O artilheiro cruzeirense chutou cruzado e marcou o gol.</p><p>Com 10 minutos de jogo, o Fluminense chegou bem ao ataque. Hércules recebeu passe na entrada da área e arriscou o chute, mas foi por cima do gol. Seis minutos depois, Lucho Acosta tentou de longe, mas Otávio defendeu.</p><h2>Contexto e informações complementares</h2><p>Lucho Acosta tocou para Agustin Canobbio pelo lado esquerdo. O uruguaio conduziu, levou para o meio e finalizou, mas Otávio defendeu mais uma vez.</p><p>O Cruzeiro respondeu com Bruno Rodrigues, que recebeu de costas e tocou para trás. Matheus Pereira tentou a finalização e acertou na trave.</p><p>No ataque seguinte, Savarino finalizou e conseguiu o escanteio. O Fluminense cobrou mal e o Cruzeiro saiu em contra-ataque. Bruno Rodrigues recebeu pelo lado esquerdo e atravessou para Kaio Jorge. O atacante finalizou e Fábio defendeu.</p><p>Resultado da partida: o Cruzeiro venceu o Fluminense por 1 x 0 em 27 de novembro, em jogo válido pela 37ª rodada do Campeonato Brasileiro; Gol do jogo: o atacante Kaio Jorge marcou o único gol da partida; Classificação atual: o Cruzeiro garantiu a 3ª posição na tabela com 69 pontos, enquanto o Fluminense ocupa o 4º lugar, com 63 pontos.</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/esportes/cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/fachin-autoriza-devolucao-de-r-316-4-milhoes-do-master-ao-brb.jpg",
+        "resumo": "Decisão do presidente do STF também permite a retomada dos repasses referentes a carteiras de crédito sem contestação",
+        "conteudo": "<p>Decisão do presidente do STF também permite a retomada dos repasses referentes a carteiras de crédito sem contestação</p><h2>O contexto da decisão judicial</h2><p>O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin , autorizou a devolução de R$ 316,4 milhões do Banco Master ao Banco de Brasília (BRB).</p><p>Em decisão proferida nesta sexta-feira, 27, o magistrado também determinou a retomada dos repasses financeiros referentes às carteiras de crédito adquiridas pelo BRB cuja titularidade não é contestada.</p><p>Os repasses estavam suspensos desde 24 de julho, por determinação do ministro André Mendonça do STF.</p><h2>Detalhes e consequências do caso</h2><p>Fachin atendeu parcialmente o pedido do BRB após manifestações da Procuradoria-Geral da República (PGR), do Banco Central (BC) e da empresa responsável pela liquidação extrajudicial do Master.</p><p>O liquidante do Master informou ter identificado R$ 1,27 bilhão em créditos de carteiras negociadas com o BRB que não apresentam disputas ou irregularidades.</p><p>Uma parte desse valor já havia sido repassada ao Banco de Brasília antes do bloqueio. Com a nova decisão, o banco poderá receber os R$ 316,4 milhões que estavam em poder da liquidante do Master.</p><p>Fachin afirmou que o BRB poderá receber outros R$ 569,9 milhões à medida que os recursos forem liberados pelos órgãos responsáveis pelos pagamentos ou por decisões judiciais .</p><p>“Nessa extensão, não há dúvida sobre o direito do BRB de ver liberado este montante, e a restituição não configura pagamento preferencial a credor da massa.</p><p>Os valores não integram o acervo que a medida assecuratória, deferida nessa PET 16286, visa preservar para a futura reparação dos danos, de modo que sua liberação não compromete a utilidade da constrição”, afirmou o ministro.</p><p>“A restituição fica limitada aos contratos indicados pelo Liquidante como incontroversos.</p><p>Qualquer posição em que surja duplicidade de cessão, divergência entre contratos e registros, inconsistência de saldos, falta de individualização ou impugnação relevante de terceiro deve permanecer segregada, conforme o critério proposto pelo Banco Central do Brasil”, acrescentou.</p>",
+        "fonteNome": "O Antagonista - Capa",
+        "fonteUrl": "https://oantagonista.com.br/brasil/fachin-autoriza-devolucao-de-r-3164-milhoes-do-master-ao-brb/",
         "fontesAdicionais": [
           {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
           },
           {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Vitória da Raposa. O Fluminense recebeu o Cruzeiro , nesta sexta-feira (27/11), no Maracanã, pela 37ª rodada do Campeonato Brasileiro . Com gol único marcado por Kaio Jorge, o time mineiro bateu o Tricolor fora de casa por 1 x 0 e confirmou o 3° lugar do torneio."
+            "resposta": "Decisão do presidente do STF também permite a retomada dos repasses referentes a carteiras de crédito sem contestação"
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "Com o resultado, o Cruzeiro chega a 69 pontos e não pode mais perder a 3ª posição na tabela, enquanto o Fluminense fica com 63 pontos, n0 4º lugar da classificação geral."
+            "resposta": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin , autorizou a devolução de R$ 316,4 milhões do Banco Master ao Banco de Brasília (BRB)."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Nos minutos iniciais da partida, o Cruzeiro abriu o placar. Matheus Henrique roubou no meio do campo e acionou Bruno Rodrigues. Ele passou para Kaio Jorge do lado direito na entrada da área. O artilheiro cruzeirense chutou cruzado e marcou o gol."
+            "resposta": "Em decisão proferida nesta sexta-feira, 27, o magistrado também determinou a retomada dos repasses financeiros referentes às carteiras de crédito adquiridas pelo BRB cuja titularidade não é contestada."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Com 10 minutos de jogo, o Fluminense chegou bem ao ataque. Hércules recebeu passe na entrada da área e arriscou o chute, mas foi por cima do gol. Seis minutos depois, Lucho Acosta tentou de longe, mas Otávio defendeu."
+            "resposta": "Os repasses estavam suspensos desde 24 de julho, por determinação do ministro André Mendonça do STF."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Lucho Acosta tocou para Agustin Canobbio pelo lado esquerdo. O uruguaio conduziu, levou para o meio e finalizou, mas Otávio defendeu mais uma vez. O Cruzeiro respondeu com Bruno Rodrigues, que recebeu de costas e tocou para trás. Matheus Pereira tentou a finalização e acertou na trave."
+            "resposta": "Fachin atendeu parcialmente o pedido do BRB após manifestações da Procuradoria-Geral da República (PGR), do Banco Central (BC) e da empresa responsável pela liquidação extrajudicial do Master."
           }
         ],
-        "imagemOriginal": "https://i.metroimg.com/MsOOnVmMuMuv8QhmLO2YMcITS4wgcP9kVaQUWo2AQrw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/cruzeiro-x-fluminense.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao.jpg",
+        "imagemOriginal": "https://cdn.oantagonista.com/uploads/2026/06/0d4a8940-scaled.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/fachin-autoriza-devolucao-de-r-316-4-milhoes-do-master-ao-brb.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "db4529b14b7c51b7",
-      "titulo": "Missão tenta se juntar a outros partidos em ação no STF contra regra das sobras eleitorais",
+      "id": "837af48be22a7d6b",
+      "titulo": "Lula acumula atritos na base um mês após virada histórica, mas mantém voto de confiança",
       "categoria": "Justiça",
       "radar": null,
       "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/missao-tenta-se-juntar-a-outros-partidos-em-acao-no-stf-contra-regra-das-sobras-eleitorais.shtml",
-      "dataFonte": "2026-11-27T22:57:00.000Z",
-      "resumoFonte": "O Partido Missão pediu ao Supremo Tribunal Federal para entrar como amicus curiae em uma ADI (Ação Direta de Inconstitucionalidade) em que o PDT e o Solidariedade contestam o modelo de distribuição das sobras eleitorais. Leia mais (11/27/2026 - 19h57)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2019/09/17/15687417205d811958b7798_1568741720_3x2_rt.jpg",
-      "descobertaEm": "2026-11-27T23:18:12.338Z"
-    },
-    {
-      "id": "3fe61913d08f87f9",
-      "titulo": "Vila Nova vence Atlético-GO e volta à Série A do Brasileirão após 41 anos",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/esportes/vila-nova-vence-atletico-go-e-volta-a-serie-a-do-brasileirao-apos-41-anos",
-      "dataFonte": "2026-11-28T01:02:19.000Z",
-      "resumoFonte": "Retorno foi confirmada na noite desta sexta (27/11), no Estádio Onésio Brasileiro Alvarenga, após vitória por 2 x 0 contra o Atlético-GO",
-      "imagem": "https://i.metroimg.com/RxDAAd4m-HH3DzTXyaQQi7QsDaf-zPaU2UVauQfz-Ds/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/vila-nova-x-atletico-go-2.jpg",
-      "descobertaEm": "2026-11-28T01:18:08.348Z"
-    },
-    {
-      "id": "62a34400bf132c45",
-      "titulo": "Cruzeiro vence o Fluminense com gol de Kaio Jorge",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/esportes/futebol/cruzeiro-vence-o-fluminense-com-gol-de-kaio-jorge-27-11-2026/",
-      "dataFonte": "2026-11-28T00:57:57.000Z",
-      "resumoFonte": "O único gol da partida deu ao Cruzeiro a vitória por 1 a 0 sobre o Fluminense nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Brasileirão.",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/fluminense-x-cruzeiro-1492475.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-28T01:18:08.348Z",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/lula-acumula-atritos-na-base-um-mes-apos-virada-historica-mas-mantem-voto-de-confianca.shtml",
+      "dataFonte": "2026-11-28T02:00:00.000Z",
+      "resumoFonte": "Após uma virada histórica que empolgou a esquerda na eleição, o presidente Lula ( PT ) acumulou ao longo de um mês atritos em sua base aliada, que se dividiu entre fornecer um voto de confiança ao petista pelas medidas e nomeações de seu próximo governo e as críticas ao plano Moretti , às possíveis indicações ao STF (Supremo Tribunal Federal) e à…",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/27/17958259906b0a214654800_1795825990_3x2_rt.jpg",
+      "descobertaEm": "2026-11-28T02:18:13.478Z",
       "reportagem": {
-        "titulo": "Cruzeiro vence o Fluminense com gol de Kaio Jorge",
-        "slug": "cruzeiro-vence-o-fluminense-com-gol-de-kaio-jorge",
-        "categoria": "Esporte",
+        "titulo": "Lula acumula atritos na base um mês após virada histórica, mas mantém voto de confiança",
+        "slug": "lula-acumula-atritos-na-base-um-mes-apos-virada-historica-mas-mantem-voto-de-confianca",
+        "categoria": "Justiça",
         "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/cruzeiro-vence-o-fluminense-com-gol-de-kaio-jorge.jpg",
-        "resumo": "O único gol da partida deu ao Cruzeiro a vitória por 1 a 0 sobre o Fluminense nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Brasileirão.",
-        "conteudo": "<p>O único gol da partida deu ao Cruzeiro a vitória por 1 a 0 sobre o Fluminense nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Brasileirão.</p><h2>As informações principais do assunto</h2><p>O Cruzeiro vai a 69 pontos. O Fluminense segue com 63 pontos. O Cruzeiro soma sete vitórias seguidas.</p><p>Aos 3 minutos do primeiro tempo, Kaio Jorge fez 1 a 0 para o Cruzeiro, após assistência de Bruno Rodrigues.</p><p>O Cruzeiro ficou com um a menos aos 27 minutos do segundo tempo, com a expulsão de Jonathan Jesus. Samuel Xavier Brito, do Fluminense, recebeu o vermelho aos 45.</p><h2>Contexto e informações complementares</h2><p>Otávio Eleodoro Rezende Costa, goleiro do Cruzeiro, terminou com seis defesas.</p><p>A derrota veio mesmo com 21 finalizações do Fluminense, contra 8 do Cruzeiro. Na direção do gol, o Fluminense acertou 6, e o Cruzeiro, 3. O Fluminense ficou com a bola em 67% do tempo.</p><p>O próximo jogo do Fluminense é na quarta-feira (2/12), contra o Bragantino. O Cruzeiro enfrenta o Internacional na quarta-feira (2/12).</p><p>Matéria produzida automaticamente com dados da partida.</p><p>São Paulo vence o Remo com gol de Ryan Francisco Rodrigues dos Santos Silva nos minutos finais</p><p>Fluminense x Cruzeiro: onde assistir ao vivo, horário e escalações</p><p>Eleição do São Paulo: entenda formato e veja candidatos a presidente</p><p>Niclas Füllkrug marca no fim, e Werder Bremen arranca empate com o Borussia Mönchengladbach</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/esportes/futebol/cruzeiro-vence-o-fluminense-com-gol-de-kaio-jorge-27-11-2026/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-acumula-atritos-na-base-um-mes-apos-virada-historica-mas-mantem-voto-de-confianca.jpg",
+        "resumo": "Cobranças de aliados já envolveram plano Moretti, indicações ao STF e escolha de Trabuco para Fazenda",
+        "conteudo": "<p>Após uma virada histórica que empolgou a esquerda na eleição, o presidente Lula ( PT ) acumulou ao longo de um mês atritos em sua base aliada, que se dividiu entre fornecer um voto de confiança ao petista pelas medidas e nomeações de seu próximo governo e as críticas ao plano Moretti , às possíveis indicações ao STF (Supremo Tribunal Federal) e à escolha de Luiz Trabuco para ministro da Fazenda .</p><h2>O contexto da decisão judicial</h2><p>O desgaste com parte dos grupos que impulsionaram a campanha do petista no segundo turno já levou o deputado federal André Janones (Rede-MG), criador do &quot;Exército do Lula&quot;, a acusar quadros de esquerda de promoverem um boicote contra o presidente, que também reagiu dizendo que &quot;companheiros&quot; não haviam entendido seu pacote de ajuste fiscal.</p><p>O canal de WhatsApp que foi um dos trunfos de Lula na eleição e beirou 11 milhões de inscritos está atualmente com 9,2 milhões.</p><p>O episódio mais recente a gerar ruídos na base foi a escolha de Trabuco —celebrada pelo mercado, mas vista com reparos em parte da base de Lula.</p><h2>Detalhes e consequências do caso</h2><p>O deputado Pedro Uczai (PT-SC), líder do partido na Câmara, ao deixar a reunião da bancada petista nesta quinta (26), disse que Trabuco &quot;pode não ser a melhor opção&quot; para a Fazenda.</p><p>O deputado federal Lindbergh Farias (PT-RJ) criticou abertamente a proposta de ajuste fiscal do ministro do planejamento, Bruno Moretti , e comparou a escolha de Trabuco à nomeação de Joaquim Levy para o mesmo cargo no segundo governo Dilma Rousseff (PT).</p><p>Levy era executivo do Bradesco quando foi convidado para chefiar a pasta. Ele ficou menos de um ano no cargo, após ter proposto um ajuste para reequilibrar as contas públicas e enfrentado oposição na base governista.</p><p>A situação econômica do governo Dilma foi a principal base do processo de impeachment da ex-presidente .</p><p>&quot;Espero que a história não se repita&quot;, disse Lindbergh nas redes sociais na noite de quinta, pouco após o anúncio. Nesta sexta (27), sem citar o futuro ministro, afirmou que a Faria Lima é &quot;insaciável&quot; e que não se contentará com o ajuste fiscal.</p><p>Petistas ouvidos pela reportagem disseram que a escolha de um banqueiro reacendeu, no partido, um trauma em relação a Levy e que frustrou alguns quadros da sigla que esperavam de Lula uma escolha mais à esquerda, como o governador do Piauí, Rafael Fonteles .</p><p>Segundo a professora de ciência política da UFAL (Universidade Federal de Alagoas) Luciana Santana, a analogia feita pelos petistas com o período de Joaquim Levy é &quot;uma leitura equivocada&quot;.</p><p>Ela observou que as críticas entre esquerdistas eram esperadas &quot;porque Lula nunca negou que governa para todo mundo&quot;.</p><p>&quot;Talvez fosse uma expectativa [de aliados] de que Lula ele utilizaria esse quarto mandato para só atender a esquerda&quot;, afirmou.</p><p>Petistas ouvidos pela reportagem disseram que já esperavam críticas de uma ala da esquerda, como os deputados do PSOL Sâmia Bomfim (SP) e Glauber Braga (RJ), e o deputado eleito Jones Manoel (PE).</p><p>Os três, assim como outros quadros do campo político, já apresentavam postura crítica a Lula antes das eleições e fizeram uma pausa, na avaliação dos petistas, diante da possibilidade de que Flávio Bolsonaro (PL) pudesse se eleger presidente.</p><p>&quot;A indicação do presidente do Bradesco, Luiz Carlos Trabuco , ao Ministério da Fazenda é um péssimo sinal de que a orientação fiscalista vem pra ficar no governo Lula.</p><p>Hoje vivemos uma situação em que ou se opta por aplicar o arcabouço fiscal ou se escolhe investir em áreas sociais&quot;, disse Sâmia no X.</p><p>Para Luciana Santana, as reclamações têm partido de uma bolha pequena da esquerda. &quot;Quem é que está reclamando mesmo? No final das contas, é a maioria que elegeu Lula? Não são essas pessoas que estão indo para as redes sociais criticar o Lula.&quot;</p><p>Outro grupo de esquerdistas, que inclui parlamentares que nem sempre concordaram com o presidente, tem optado pelo pragmatismo e pregado um voto de confiança no petista.</p>",
+        "fonteNome": "Folha de S.Paulo - Poder",
+        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/11/lula-acumula-atritos-na-base-um-mes-apos-virada-historica-mas-mantem-voto-de-confianca.shtml",
         "fontesAdicionais": [
           {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
           },
           {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O único gol da partida deu ao Cruzeiro a vitória por 1 a 0 sobre o Fluminense nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Brasileirão."
+            "resposta": "Após uma virada histórica que empolgou a esquerda na eleição, o presidente Lula ( PT ) acumulou ao longo de um mês atritos em sua base aliada, que se dividiu entre fornecer um voto de confiança ao petista pelas medidas e nomeações de seu próximo governo e as críticas ao plano Moretti , às possíveis indicações ao STF (Supremo Tribunal Federal) e à escolha de Luiz Trabuco para ministro da Fazenda ."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Cruzeiro vai a 69 pontos. O Fluminense segue com 63 pontos. O Cruzeiro soma sete vitórias seguidas."
+            "resposta": "O desgaste com parte dos grupos que impulsionaram a campanha do petista no segundo turno já levou o deputado federal André Janones (Rede-MG), criador do \"Exército do Lula\", a acusar quadros de esquerda de promoverem um boicote contra o presidente, que também reagiu dizendo que \"companheiros\" não haviam entendido seu pacote de ajuste fiscal."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Aos 3 minutos do primeiro tempo, Kaio Jorge fez 1 a 0 para o Cruzeiro, após assistência de Bruno Rodrigues."
+            "resposta": "O canal de WhatsApp que foi um dos trunfos de Lula na eleição e beirou 11 milhões de inscritos está atualmente com 9,2 milhões."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "O Cruzeiro ficou com um a menos aos 27 minutos do segundo tempo, com a expulsão de Jonathan Jesus. Samuel Xavier Brito, do Fluminense, recebeu o vermelho aos 45."
+            "resposta": "O episódio mais recente a gerar ruídos na base foi a escolha de Trabuco —celebrada pelo mercado, mas vista com reparos em parte da base de Lula."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Otávio Eleodoro Rezende Costa, goleiro do Cruzeiro, terminou com seis defesas."
+            "resposta": "O deputado Pedro Uczai (PT-SC), líder do partido na Câmara, ao deixar a reunião da bancada petista nesta quinta (26), disse que Trabuco \"pode não ser a melhor opção\" para a Fazenda."
           }
         ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/fluminense-x-cruzeiro-1492475.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/cruzeiro-vence-o-fluminense-com-gol-de-kaio-jorge.jpg",
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/27/17958259906b0a214654800_1795825990_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-acumula-atritos-na-base-um-mes-apos-virada-historica-mas-mantem-voto-de-confianca.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
     },
     {
-      "id": "86d0d0c52943f167",
-      "titulo": "Fluminense perde para o Cruzeiro no Brasileirão e adia definição da vaga direta na Libertadores",
-      "categoria": "Esporte",
+      "id": "462a4d69db454bdc",
+      "titulo": "Fachin libera R$ 316 milhões da liquidação do Master para socorrer BRB",
+      "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "O Globo - Capa",
-      "urlFonte": "https://oglobo.globo.com/esportes/futebol/fluminense/noticia/2026/11/27/fluminense-perde-para-o-cruzeiro-no-brasileirao-e-adia-definicao-da-vaga-direta-na-libertadores.ghtml",
-      "dataFonte": "2026-11-28T00:56:37.147Z",
-      "resumoFonte": "Tricolor sofre gol de Kaio Jorge no início do jogo e segue a um ponto da classificação à fase de grupos do torneio continental",
-      "imagem": "https://s2-oglobo.glbimg.com/St6TGzF1BZW3ZLynVGGAFNU_Hvc=/3498x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/W/O/vaOz4nSmWtGxbLsQE2eg/55677539693-a9ff24ce0f-o.jpg",
-      "descobertaEm": "2026-11-28T01:19:50.491Z",
+      "fonteNome": "CNN Brasil - Capa",
+      "urlFonte": "https://www.cnnbrasil.com.br/politica/fachin-libera-r-316-milhoes-da-liquidacao-do-master-para-socorrer-brb/",
+      "dataFonte": "2026-11-28T00:20:02.000Z",
+      "resumoFonte": "Presidente do STF autorizou a retomada dos repasses de carteiras de crédito sem disputa de titularidade; R$ 218,4 milhões seguem bloqueados por venda a mais de um comprador",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportTopNews/tagreuters.com2025binary_LYNXMPELAI16F-BASEIMAGE.jpg?w=800&h=534&crop=1",
+      "descobertaEm": "2026-11-28T02:19:42.080Z",
       "reportagem": {
-        "titulo": "Fluminense perde para o Cruzeiro no Brasileirão e adia definição da vaga direta na Libertadores",
-        "slug": "fluminense-perde-para-o-cruzeiro-no-brasileirao-e-adia-definicao-da-vaga-direta-na-liberta",
-        "categoria": "Esporte",
+        "titulo": "Fachin libera R$ 316 milhões da liquidação do Master para socorrer BRB",
+        "slug": "fachin-libera-r-316-milhoes-da-liquidacao-do-master-para-socorrer-brb",
+        "categoria": "Justiça",
         "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/fluminense-perde-para-o-cruzeiro-no-brasileirao-e-adia-definicao-da-vaga-direta-na-liberta.jpg",
-        "resumo": "Tricolor sofre gol de Kaio Jorge no início do jogo e segue a um ponto da classificação à fase de grupos do torneio continental",
-        "conteudo": "<p>Os tricolores queriam &quot;sextar&quot; da melhor forma: com a vaga direta na Libertadores. E o Fluminense só precisava de um empate com o Cruzeiro, no Maracanã, para garantir a classificação.</p><h2>As informações principais do assunto</h2><p>Mas a atuação abaixo do esperado, principalmente no primeiro tempo, de uma equipe que vinha de quatro vitórias consecutivas custou a derrota por 1 a 0, apesar da pressão no fim do jogo.</p><p>Ainda assim, o tricolor pode se classificar com um tropeço do Athletico contra o Mirassol nesta penúltima rodada.</p><p>O início de jogo não foi como esperado pelo time de Marcão. Logo aos dois minutos, Thiago Silva tentou antecipar um passe para Bruno Rodrigues, que levou a melhor no lance e abriu para Kaio Jorge abrir o placar com um chute cruzado.</p><h2>Contexto e informações complementares</h2><p>Apesar do balde de água fria, a torcida tricolor fez questão de incentivar a equipe, que foi entrando aos poucos na partida com um de seus pontos mais fortes: o controle da posse de bola.</p><p>Mas o goleiro Otávio não precisou fazer grandes defesas até então, principalmente por conta da falta de efetividade do ataque tricolor.</p><p>Castillo, inclusive, ganhou a vaga de Hulk — outra novidade foi o retorno de Martinelli entre os titulares. Por outro lado, Fábio levou um susto daqueles: Matheus Pereira carimbou a trave perto da pequena área.</p><p>Embora tenha jogadores de qualidade, a Raposa aproveitou a vantagem no placar para apostar no contra-ataque em velocidade.</p><p>E o Fluminense não abdicava do seu estilo de jogo ofensivo, mas, ao mesmo tempo, dava espaço para o Cruzeiro colocar em prática sua principal estratégia.</p><p>Se o trio formado por Canobbio, Savarino e Castillo não era incisivo o suficiente para incomodar a defesa adversária, o time de Artur Jorge quase ampliou na reta final do primeiro tempo com a &quot;correria&quot; na transição.</p><p>Mas, desta vez, Ignácio afastou antes de Matheus Pereira completar o cruzamento de Gerson.</p><p>Apesar de o ataque deixar a desejar até aqui, Marcão decidiu não fazer nenhuma alteração na volta do intervalo. Mas o time não se comportou de maneira tão diferente no começo da segunda etapa.</p><p>Foi aí que o treinador recalculou a rota e fez uma substituição tripla. Riquelme, Nonato e Ganso entraram nos lugares de Canobbio, Hércules e Lucho Acosta.</p><p>O uruguaio, inclusive, foi vaiado pela torcida na saída de campo e recebeu os abraços dos companheiros no banco de reservas.</p><p>Quem também não escapou das vaias foi Savarino, que teve uma atuação pouco inspirada — Serna entrou.</p><p>Mas, se o Fluminense tinha dificuldades com a bola no pé, o Cruzeiro resolveu colaborar: o zagueiro Jonathan Jesus foi expulso pelo segundo cartão amarelo por um carrinho bobo em Riquelme.</p><p>Desde então, a pressão tricolor aumentou, e quase o Moleque de Xerém deixou tudo igual, mas a bola foi na rede pelo lado de fora.</p><p>O atacante de 19 anos deu um gás no ataque. Em um dos lances de perigo, deu passe na medida para Hulk, que se enrolou sozinho e finalizou fraco. A torcida não deixou barato, com vaias e xingamentos ao camisa 7.</p>",
-        "fonteNome": "O Globo - Capa",
-        "fonteUrl": "https://oglobo.globo.com/esportes/futebol/fluminense/noticia/2026/11/27/fluminense-perde-para-o-cruzeiro-no-brasileirao-e-adia-definicao-da-vaga-direta-na-libertadores.ghtml",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/fachin-libera-r-316-milhoes-da-liquidacao-do-master-para-socorrer-brb.jpg",
+        "resumo": "Presidente do STF autorizou a retomada dos repasses de carteiras de crédito sem disputa de titularidade; R$ 218,4 milhões seguem bloqueados por venda a mais de um comprador",
+        "conteudo": "<p>O presidente do STF (Supremo Tribunal Federal), ministro Edson Fachin , autorizou nesta sexta-feira (27) a liberação de R$ 316,4 milhões ao BRB (Banco de Brasília) .</p><h2>O contexto da decisão judicial</h2><p>O dinheiro vem de carteiras de crédito adquiridas do Banco Master e estava retido desde julho, por determinação do relator formal do caso, André Mendonça .</p><p>O ministro afirmou que a medida era necessária enquanto perdurassem as suspeitas sobre a vinculação dos valores com as fraudes de Daniel Vorcaro .</p><p>Fachin também permitiu que os repasses regulares dessas carteiras sejam retomados. Elas não apresentam irregularidades nem disputa de titularidade.</p><h2>Detalhes e consequências do caso</h2><p>Segundo a empresa responsável pela liquidação do Master, os contratos nessas condições somam R$ 1,27 bilhão . Desse total, R$ 384,9 milhões haviam sido repassados ao BRB antes da suspensão dos pagamentos.</p><p>Outros R$ 569,9 milhões poderão ir para o banco público se forem desbloqueados por decisões judiciais ou liberados pelos órgãos pagadores.</p><p>A decisão veio depois de manifestações da PGR (Procuradoria-Geral da República), do Banco Central e da liquidante do Master .</p><p>&quot;Nessa extensão, não há dúvida sobre o direito do BRB de ver liberado este montante, e a restituição não configura pagamento preferencial a credor da massa&quot; , escreveu Fachin.</p><p>O ministro, porém, manteve o bloqueio dos recursos cuja titularidade é contestada pelo BRB e por outras instituições. De acordo com a liquidante, o Master vendeu os mesmos direitos creditórios a compradores diferentes, em operações que somam R$ 218,4 milhões .</p><p>Fachin rejeitou ainda os pedidos do governo do Distrito Federal para transferir ao BRB os recursos bloqueados e apreendidos em nome dos investigados , entre eles, o pai do banqueiro Daniel Vorcaro , Henrique Moura Vorcaro .</p><p>O ministro determinou que a liquidante informe ao Supremo, em até 15 dias, os valores restituídos ao BRB. Depois disso, ela deverá apresentar a cada 30 dias um demonstrativo dos repasses seguintes.</p><p>Ministro, porém, manteve o bloqueio dos recursos cuja titularidade é contestada pelo BRB e por outras instituições</p>",
+        "fonteNome": "CNN Brasil - Capa",
+        "fonteUrl": "https://www.cnnbrasil.com.br/politica/fachin-libera-r-316-milhoes-da-liquidacao-do-master-para-socorrer-brb/",
         "fontesAdicionais": [
           {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
           },
           {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "Os tricolores queriam \"sextar\" da melhor forma: com a vaga direta na Libertadores. E o Fluminense só precisava de um empate com o Cruzeiro, no Maracanã, para garantir a classificação."
+            "resposta": "O presidente do STF (Supremo Tribunal Federal), ministro Edson Fachin , autorizou nesta sexta-feira (27) a liberação de R$ 316,4 milhões ao BRB (Banco de Brasília) . O dinheiro vem de carteiras de crédito adquiridas do Banco Master e estava retido desde julho, por determinação do relator formal do caso, André Mendonça ."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O início de jogo não foi como esperado pelo time de Marcão. Logo aos dois minutos, Thiago Silva tentou antecipar um passe para Bruno Rodrigues, que levou a melhor no lance e abriu para Kaio Jorge abrir o placar com um chute cruzado."
+            "resposta": "O ministro afirmou que a medida era necessária enquanto perdurassem as suspeitas sobre a vinculação dos valores com as fraudes de Daniel Vorcaro ."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Mas o goleiro Otávio não precisou fazer grandes defesas até então, principalmente por conta da falta de efetividade do ataque tricolor. Castillo, inclusive, ganhou a vaga de Hulk — outra novidade foi o retorno de Martinelli entre os titulares. Por outro lado, Fábio levou um susto daqueles: Matheus Pereira carimbou a trave perto da pequena área."
+            "resposta": "Fachin também permitiu que os repasses regulares dessas carteiras sejam retomados. Elas não apresentam irregularidades nem disputa de titularidade."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "E o Fluminense não abdicava do seu estilo de jogo ofensivo, mas, ao mesmo tempo, dava espaço para o Cruzeiro colocar em prática sua principal estratégia."
+            "resposta": "Segundo a empresa responsável pela liquidação do Master, os contratos nessas condições somam R$ 1,27 bilhão . Desse total, R$ 384,9 milhões haviam sido repassados ao BRB antes da suspensão dos pagamentos. Outros R$ 569,9 milhões poderão ir para o banco público se forem desbloqueados por decisões judiciais ou liberados pelos órgãos pagadores."
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Apesar de o ataque deixar a desejar até aqui, Marcão decidiu não fazer nenhuma alteração na volta do intervalo. Mas o time não se comportou de maneira tão diferente no começo da segunda etapa. Foi aí que o treinador recalculou a rota e fez uma substituição tripla. Riquelme, Nonato e Ganso entraram nos lugares de Canobbio, Hércules e Lucho Acosta."
+            "resposta": "A decisão veio depois de manifestações da PGR (Procuradoria-Geral da República), do Banco Central e da liquidante do Master ."
           }
         ],
-        "imagemOriginal": "https://s2-oglobo.glbimg.com/St6TGzF1BZW3ZLynVGGAFNU_Hvc=/3498x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/W/O/vaOz4nSmWtGxbLsQE2eg/55677539693-a9ff24ce0f-o.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/fluminense-perde-para-o-cruzeiro-no-brasileirao-e-adia-definicao-da-vaga-direta-na-liberta.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "3446e6b8a2d7bf23",
-      "titulo": "Vila Nova supera o Atlético-GO e volta à elite do futebol brasileiro após 41 anos",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://www1.folha.uol.com.br/esporte/2026/11/vila-nova-supera-o-atletico-go-e-volta-a-elite-do-futebol-brasileiro-apos-41-anos.shtml",
-      "dataFonte": "2026-11-28T00:12:00.000Z",
-      "resumoFonte": "",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/27/17958281786b0a29d2538b2_1795828178_3x2_rt.jpg",
-      "descobertaEm": "2026-11-28T01:18:08.348Z",
-      "reportagem": {
-        "titulo": "Vila Nova supera o Atlético-GO e volta à elite do futebol brasileiro após 41 anos",
-        "slug": "vila-nova-supera-o-atletico-go-e-volta-a-elite-do-futebol-brasileiro-apos-41-anos",
-        "categoria": "Esporte",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/vila-nova-supera-o-atletico-go-e-volta-a-elite-do-futebol-brasileiro-apos-41-anos.jpg",
-        "resumo": "Em casa, equipe conhecida como Tigre vence o clássico por 2 a 0 e confirma o acesso",
-        "conteudo": "<p>O Vila Nova vai disputar a Série A do Campeonato Brasileiro em 2027, encerrando um jejum de mais de quatro décadas longe da elite nacional.</p><h2>As informações principais do assunto</h2><p>Nesta sexta-feira (27), a equipe goiana venceu o clássico contra o Atlético-GO por 2 a 0 e, com o resultado, fechou em 3 a 1 o placar agregado dos dois jogos da fase final da Série B.</p><p>Júnior Barreto, contra, aos 8 minutos do segundo tempo, e João Vieira, aos 32, fizeram os gols da partida.</p><p>Fundado em 1943, o clube, que completou 83 anos, se junta a Novorizontino e Juventude, os primeiros a garantir o acesso à primeira divisão.</p><h2>Contexto e informações complementares</h2><p>Atualmente, nenhum clube goiano disputa a Série A. O Atlético-GO havia sido o último representante do estado na elite, em 2024, quando acabou rebaixado. Nesta temporada, buscava seu quinto acesso à primeira divisão.</p><p>A equipe havia conquistado a promoção em 2009, 2016, 2019 e 2023.</p><p>A última participação do Vila Nova na elite nacional havia sido em 1985, quando o Campeonato Brasileiro ainda tinha um formato diferente do atual. Desde então, o clube alternou temporadas nas Séries B e C, sem conseguir retornar à principal divisão do futebol brasileiro.</p><p>Naquela edição, o Tigre terminou na 28ª colocação entre os 44 participantes. O acesso conquistado agora é, portanto, o primeiro do clube no atual formato de pontos corridos, com a particularidade de uma fase final disputada em mata-mata.</p><p>O regulamento da Série B de 2026 tornou o caminho para a primeira divisão diferente. Nesta temporada, apenas os dois primeiros colocados garantiram o acesso direto.</p><p>As outras duas vagas foram decididas em confrontos eliminatórios, entre o terceiro e o sexto colocados e entre o quarto e o quinto, em partidas de ida e volta.</p><p>Apesar do clima de festa, a campanha do Vila Nova também ficou marcada pela polêmica envolvendo o lateral-direito Hayner, preso na véspera do clássico contra o Atlético-GO no âmbito da Operação A Tropa.</p><p>A investigação da Polícia Civil do Espírito Santo apura suspeitas de organização criminosa, tráfico interestadual de drogas e armas e lavagem de dinheiro.</p><p>O jogador teve participação importante na campanha do clube goiano na Série B, com 35 partidas disputadas, a maioria como titular.</p><p>O Vila Nova tem prestado apoio ao atleta, que se apresentou à Justiça acompanhado de um advogado do clube. Em comunicado divulgado pela equipe, Hayner afirmou ser inocente.</p><p>O Vila Nova vai disputar a Série A do Campeonato Brasileiro em 2027, encerrando um jejum de mais de quatro décadas longe da elite nacional.</p><p>Nesta sexta-feira (27), a equipe goiana venceu o clássico contra o Atlético-GO por 2 a 0 e, com o resultado, fechou em 3 a 1 o placar agregado dos dois jogos da fase final da Série B.</p><p>Júnior Barreto, contra, aos 8 minutos do segundo tempo, e João Vieira, aos 32, fizeram os gols da partida.</p><p>Fundado em 1943, o clube, que completou 83 anos, se junta a Novorizontino e Juventude, os primeiros a garantir o acesso à primeira divisão.</p>",
-        "fonteNome": "UOL Notícias",
-        "fonteUrl": "https://www1.folha.uol.com.br/esporte/2026/11/vila-nova-supera-o-atletico-go-e-volta-a-elite-do-futebol-brasileiro-apos-41-anos.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Vila Nova vai disputar a Série A do Campeonato Brasileiro em 2027, encerrando um jejum de mais de quatro décadas longe da elite nacional. Nesta sexta-feira (27), a equipe goiana venceu o clássico contra o Atlético-GO por 2 a 0 e, com o resultado, fechou em 3 a 1 o placar agregado dos dois jogos da fase final da Série B."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Júnior Barreto, contra, aos 8 minutos do segundo tempo, e João Vieira, aos 32, fizeram os gols da partida."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Fundado em 1943, o clube, que completou 83 anos, se junta a Novorizontino e Juventude, os primeiros a garantir o acesso à primeira divisão."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Atualmente, nenhum clube goiano disputa a Série A. O Atlético-GO havia sido o último representante do estado na elite, em 2024, quando acabou rebaixado. Nesta temporada, buscava seu quinto acesso à primeira divisão. A equipe havia conquistado a promoção em 2009, 2016, 2019 e 2023."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A última participação do Vila Nova na elite nacional havia sido em 1985, quando o Campeonato Brasileiro ainda tinha um formato diferente do atual. Desde então, o clube alternou temporadas nas Séries B e C, sem conseguir retornar à principal divisão do futebol brasileiro."
-          }
-        ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/27/17958281786b0a29d2538b2_1795828178_3x2_rt.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/vila-nova-supera-o-atletico-go-e-volta-a-elite-do-futebol-brasileiro-apos-41-anos.jpg",
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportTopNews/tagreuters.com2025binary_LYNXMPELAI16F-BASEIMAGE.jpg?w=800&h=534&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/fachin-libera-r-316-milhoes-da-liquidacao-do-master-para-socorrer-brb.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -516,6 +634,66 @@
       }
     },
     {
+      "id": "f2e975c79e99354b",
+      "titulo": "Investidores em ETFs no Brasil aumentam 34% em um ano, segundo B3",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/economia/investimentos/investidores-em-etfs-no-brasil-aumentam-34-em-um-ano-segundo-b3/",
+      "dataFonte": "2026-11-28T00:31:40.000Z",
+      "resumoFonte": "Produtos permitem exposição a ativos globais como o S&P 500 e a criptomoedas de forma simplificada dentro da Bolsa de Valores brasileira",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/06/grafico-do-negocio-de-analise-de-dados-do-mercado-de-acoes-de-investimento.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-28T01:18:08.348Z",
+      "reportagem": {
+        "titulo": "Investidores em ETFs no Brasil aumentam 34% em um ano, segundo B3",
+        "slug": "investidores-em-etfs-no-brasil-aumentam-34-em-um-ano-segundo-b3",
+        "categoria": "Economia",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/investidores-em-etfs-no-brasil-aumentam-34-em-um-ano-segundo-b3.jpg",
+        "resumo": "Produtos permitem exposição a ativos globais como o S&P 500 e a criptomoedas de forma simplificada dentro da Bolsa de Valores brasileira",
+        "conteudo": "<p>Segundo a B3, Bolsa de Valores do Brasil , o número de investidores pessoa física em ETFs aumentou 34% no segundo trimestre deste ano, na comparação com o mesmo período de 2025.</p><h2>Os números do levantamento</h2><p>O número de pessoas físicas com fundos de índice na carteira passou de 639 mil, em junho de 2025, para 862 mil no segundo trimestre deste ano. As pessoas físicas são responsáveis por mais de 25% do volume custodiado dos ETFs.</p><p>“O ETF virou uma febre porque é fácil de investir”, explicou Thiago Godoy, apresentador do Resenha do Dinheiro.</p><p>O valor em custódia dos investidores pessoa física em ETFs também aumentou R$ 8,2 bilhões, passando de R$ 26,9 bilhões para R$ 35,1 bilhões, uma alta de 30,5%, segundo a B3.</p><h2>Como interpretar os resultados</h2><p>Os ETFs são fundos de índice negociados em bolsa que acompanham o desempenho de indicadores do mercado. Por meio desses produtos, o investidor consegue acessar diferentes classes de ativos, como ações, índices internacionais e até criptomoedas.</p><p>Para quem procura exposição a criptomoedas, como o bitcoin, os ETFs são uma opção. “É mais fácil você começar a investir em bitcoin e criptomoedas por meio de um ETF do que se aventurar diretamente em uma corretora”, disse Bernardo Pascowitch, fundador e CEO do Yubb.</p><p>Esses produtos também permitem o acesso a mercados globais. É possível, por exemplo, comprar, aqui do Brasil, uma cota de um ETF que acompanha o desempenho do S&amp;P 500 , com negociação direta na B3.</p><p>A oferta de ETFs cresceu no Brasil no último ano. Somente em 2025, 62 novos fundos de índice foram listados na B3.</p><p>As pessoas físicas também ampliaram sua participação na renda variável brasileira. Cerca de 200 mil novos investidores entraram na renda variável de dezembro de 2025 até o segundo trimestre deste ano.</p><p>O valor em custódia da renda variável também cresceu R$ 20,1 bilhão em seis meses, alcançando R$ 656,3 bilhões.</p><p>O programa é apresentado por Marilia Fontes, sócia-fundadora da Nord Investimentos, Bernardo Pascowitch, fundador e CEO do Yubb e Thiago Godoy, o “Papai Financeiro”; e propõe uma abordagem leve, direta e descomplicada sobre temas ligados à educação financeira e investimentos.</p><p>A atração aborda semanalmente os principais temas da economia com a informalidade de uma conversa entre amigos — sem abrir mão da análise.</p><p>O Resenha do Dinheiro vai ao ar todas as sextas-feiras, às 19h, no canal do CNN Money no YouTube e aos domingos, às 15h, na CNN Brasil</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/economia/investimentos/investidores-em-etfs-no-brasil-aumentam-34-em-um-ano-segundo-b3/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Segundo a B3, Bolsa de Valores do Brasil , o número de investidores pessoa física em ETFs aumentou 34% no segundo trimestre deste ano, na comparação com o mesmo período de 2025."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O número de pessoas físicas com fundos de índice na carteira passou de 639 mil, em junho de 2025, para 862 mil no segundo trimestre deste ano. As pessoas físicas são responsáveis por mais de 25% do volume custodiado dos ETFs."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "“O ETF virou uma febre porque é fácil de investir”, explicou Thiago Godoy, apresentador do Resenha do Dinheiro."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O valor em custódia dos investidores pessoa física em ETFs também aumentou R$ 8,2 bilhões, passando de R$ 26,9 bilhões para R$ 35,1 bilhões, uma alta de 30,5%, segundo a B3."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Os ETFs são fundos de índice negociados em bolsa que acompanham o desempenho de indicadores do mercado. Por meio desses produtos, o investidor consegue acessar diferentes classes de ativos, como ações, índices internacionais e até criptomoedas."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/06/grafico-do-negocio-de-analise-de-dados-do-mercado-de-acoes-de-investimento.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/investidores-em-etfs-no-brasil-aumentam-34-em-um-ano-segundo-b3.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
       "id": "d436b25f677a9e02",
       "titulo": "Após 'efeito Trabuco', Lula inicia recalibragem do discurso do ajuste fiscal",
       "categoria": "Economia",
@@ -571,126 +749,6 @@
         ],
         "imagemOriginal": "https://f.i.uol.com.br/fotografia/2025/03/14/174198456567d49335d74b9_1741984565_3x2_rt.jpg",
         "imagemX": "https://noticiaes.com.br/imagens/lapis/opiniao-adriana-fernandes-apos-efeito-trabuco-lula-inicia-recalibragem-do-discurso-do-ajus.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "fbbe49289853bc70",
-      "titulo": "Trabuco terá de convencer Lula a fazer ajuste fiscal de até R$ 400 bilhões, diz economista",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/economia/trabuco-tera-de-convencer-lula-a-fazer-ajuste-fiscal-de-ate-r-400-bilhoes-diz-economista/",
-      "dataFonte": "2026-11-27T23:33:19.000Z",
-      "resumoFonte": "Sergio Vale afirma que as medidas já aprovadas são insuficientes para conter o avanço da dívida",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/55658423199_64cb95626f_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-28T00:18:36.123Z",
-      "reportagem": {
-        "titulo": "Trabuco terá de convencer Lula a fazer ajuste fiscal de até R$ 400 bilhões, diz economista",
-        "slug": "trabuco-tera-de-convencer-lula-a-fazer-ajuste-fiscal-de-ate-r-400-bilhoes-diz-economista",
-        "categoria": "Economia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/trabuco-tera-de-convencer-lula-a-fazer-ajuste-fiscal-de-ate-r-400-bilhoes-diz-economista.jpg",
-        "resumo": "Sergio Vale afirma que as medidas já aprovadas são insuficientes para conter o avanço da dívida",
-        "conteudo": "<p>Luiz Carlos Trabuco terá de convencer o presidente Luiz Inácio Lula da Silva a aceitar um ajuste fiscal de grande dimensão para conter o crescimento da dívida pública.</p><h2>Dados e contexto do setor</h2><p>Na avaliação do economista Sergio Vale, o esforço necessário pode chegar a R$ 400 bilhões &amp;mdash; muito acima das medidas já aprovadas ou em discussão pelo governo.</p><p>Em entrevista ao VEJA em Foco , apresentado por Marcela Rahal, Vale afirmou que o principal desafio do futuro ministro da Fazenda será conseguir respaldo político para mexer em despesas que Lula não demonstra disposição de cortar. (este texto é um resumo do vídeo acima)</p><p>Segundo o economista, as medidas fiscais já aprovadas, que somam cerca de R$ 50 bilhões, e uma eventual economia adicional de R$ 20 bilhões representam uma parcela importante do esforço, mas ainda são insuficientes.</p><h2>Impactos e informações adicionais</h2><p>“O ajuste fiscal que a gente precisa para minimamente pensar em parar de subir a dívida pública nos próximos anos. A gente está falando de 350, 400 bilhões de reais”, afirmou.</p><p>Vale apontou que o desafio do futuro ministro está no fato de que parte das despesas que precisariam ser revistas envolve temas aos quais o presidente resiste.</p><p>Entre os exemplos citados pelo economista estão os supersalários, a estrutura dos ministérios e as emendas parlamentares. Estas últimas, segundo ele, representam um gasto anual de 50 bilhões a 60 bilhões de reais.</p><p>Mesmo um corte parcial, avaliou, ficaria muito aquém do necessário.</p><p>Na avaliação de Vale, Trabuco terá de lidar não apenas com Lula, mas também com o entorno do presidente e com as resistências políticas à agenda fiscal.</p><p>O economista mencionou a indisposição de setores próximos ao governo em relação ao futuro ministro e afirmou que há incerteza sobre o que ele conseguirá implementar no próximo mandato.</p><p>Para Vale, a relação de longa data entre Trabuco e Lula pode ser um trunfo: talvez o executivo seja uma das poucas pessoas capazes de ter com o presidente uma conversa direta sobre a situação das contas públicas.</p><p>Vale afirmou que, se a trajetória atual for mantida, a dívida pública poderá chegar a 95% do Produto Interno Bruto (PIB) no fim desta década.</p><p>Segundo ele, quanto mais o governo adiar as decisões, maior será o endividamento e mais difícil ficará realizar o ajuste no futuro.</p><p>Nesse cenário, o país precisaria produzir um resultado primário ainda maior para conseguir reduzir a dívida.</p><p>O economista também alertou que a escolha de Trabuco, embora tenha sido recebida positivamente pelo mercado financeiro, não elimina as incertezas sobre a política econômica do próximo governo.</p><p>Para ele, será necessário apresentar um plano de ação e deixar claras as medidas que poderão ser adotadas.</p><p>Caso o resultado seja um pacote muito limitado, Vale avalia que a reação positiva dos investidores poderá se reverter. “Vai ser um traque, vai ser alguma coisa muito pequena que vai surgir pela frente.</p><p>E torço para que seja diferente, senão o mercado vai se assustar de novo”, afirmou.</p><p>VEJA+IA: Este texto resume um trecho do telejornal VEJA em Foco (confira o vídeo acima). Conteúdo produzido com auxílio de inteligência artificial e supervisão humana.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/economia/trabuco-tera-de-convencer-lula-a-fazer-ajuste-fiscal-de-ate-r-400-bilhoes-diz-economista/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Luiz Carlos Trabuco terá de convencer o presidente Luiz Inácio Lula da Silva a aceitar um ajuste fiscal de grande dimensão para conter o crescimento da dívida pública. Na avaliação do economista Sergio Vale, o esforço necessário pode chegar a R$ 400 bilhões &mdash; muito acima das medidas já aprovadas ou em discussão pelo governo."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Segundo o economista, as medidas fiscais já aprovadas, que somam cerca de R$ 50 bilhões, e uma eventual economia adicional de R$ 20 bilhões representam uma parcela importante do esforço, mas ainda são insuficientes. “O ajuste fiscal que a gente precisa para minimamente pensar em parar de subir a dívida pública nos próximos anos."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Vale apontou que o desafio do futuro ministro está no fato de que parte das despesas que precisariam ser revistas envolve temas aos quais o presidente resiste. Entre os exemplos citados pelo economista estão os supersalários, a estrutura dos ministérios e as emendas parlamentares."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Na avaliação de Vale, Trabuco terá de lidar não apenas com Lula, mas também com o entorno do presidente e com as resistências políticas à agenda fiscal. O economista mencionou a indisposição de setores próximos ao governo em relação ao futuro ministro e afirmou que há incerteza sobre o que ele conseguirá implementar no próximo mandato."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Vale afirmou que, se a trajetória atual for mantida, a dívida pública poderá chegar a 95% do Produto Interno Bruto (PIB) no fim desta década. Segundo ele, quanto mais o governo adiar as decisões, maior será o endividamento e mais difícil ficará realizar o ajuste no futuro."
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/11/55658423199_64cb95626f_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/trabuco-tera-de-convencer-lula-a-fazer-ajuste-fiscal-de-ate-r-400-bilhoes-diz-economista.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "adfff6f807a52725",
-      "titulo": "Meirelles alerta que dívida pública pode levar Brasil a repetir crise de 2015 e 2016",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/economia/meirelles-alerta-que-divida-publica-pode-levar-brasil-a-repetir-crise-de-2015-e-2016/",
-      "dataFonte": "2026-11-27T23:21:42.000Z",
-      "resumoFonte": "Ex-ministro da Fazenda afirma que crescimento do endividamento e preocupação dos investidores podem provocar retração dos investimentos e recessão",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2024/09/henrique-meirelles-2.jpeg.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-28T00:18:36.123Z",
-      "reportagem": {
-        "titulo": "Meirelles alerta que dívida pública pode levar Brasil a repetir crise de 2015 e 2016",
-        "slug": "meirelles-alerta-que-divida-publica-pode-levar-brasil-a-repetir-crise-de-2015-e-2016",
-        "categoria": "Economia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/meirelles-alerta-que-divida-publica-pode-levar-brasil-a-repetir-crise-de-2015-e-2016.jpg",
-        "resumo": "Ex-ministro da Fazenda afirma que crescimento do endividamento e preocupação dos investidores podem provocar retração dos investimentos e recessão",
-        "conteudo": "<p>O crescimento da dívida pública brasileira pode levar o país a enfrentar uma situação semelhante à crise econômica de 2015 e 2016.</p><h2>Dados e contexto do setor</h2><p>O alerta foi feito pelo ex-ministro da Fazenda e ex-presidente do Banco Central Henrique Meirelles, em entrevista ao VEJA em Foco , apresentado por Marcela Rahal nesta sexta-feira, 27.</p><p>Ao avaliar a escolha de Luiz Carlos Trabuco para comandar o Ministério da Fazenda, Meirelles afirmou que o governo gasta mais do que arrecada e que a continuidade dessa trajetória tende a aumentar a preocupação dos investidores com a capacidade de o país sustentar seu endividamento. (este texto é um resumo do vídeo acima)</p><p>“A dívida pública está subindo. Mantida essa trajetória, isso nos levaria a uma situação como ocorreu em 2015 e 2016”, afirmou.</p><h2>Impactos e informações adicionais</h2><p>Naquele período, segundo o ex-ministro, a evolução do endividamento começou a gerar desconfiança entre investidores, que passaram a avaliar que a dívida caminhava para um patamar insustentável.</p><p>O movimento foi acompanhado por uma retração dos investimentos e, posteriormente, pela recessão.</p><p>Meirelles recuperou aquele período para ilustrar os riscos de uma trajetória persistente de crescimento da dívida pública.</p><p>Segundo sua análise, a preocupação com a sustentabilidade das contas do governo afetou as decisões de investimento e contribuiu para a retração da atividade econômica.</p><p>O ex-ministro não afirmou que o país necessariamente repetirá aquele cenário, mas advertiu que a manutenção do atual caminho de endividamento pode produzir consequências semelhantes.</p><p>Para ele, a questão central é impedir que a dívida continue avançando sem uma estratégia consistente de controle.</p><p>Meirelles considera que o futuro ministro tem qualificação técnica para enfrentar o problema. Ele destacou que Trabuco trabalha com crédito desde os 17 anos e passou boa parte da carreira no setor bancário.</p><p>Na avaliação do ex-ministro, essa experiência tem relação direta com o desafio de administrar uma dívida pública crescente, já que o governo precisa financiar a diferença entre o que arrecada e o que gasta.</p><p>O caminho apontado por Meirelles é formular uma estratégia para conter o avanço do endividamento por meio do controle das despesas públicas.</p><p>Ele ponderou que a execução dessa política dependerá de negociações dentro do governo e de apoio político, mas ressaltou que a questão fiscal não pode ser indefinidamente adiada.</p><p>Na parte final da entrevista, Meirelles defendeu que Trabuco apresente suas diretrizes para a política econômica logo no início do próximo mandato.</p><p>O plano, segundo ele, deve ser comunicado não apenas aos investidores, mas também a empresários, consumidores e à sociedade em geral, que também sentem os efeitos do desequilíbrio das contas públicas.</p><p>O ex-ministro afirmou que o futuro titular da Fazenda precisará combinar a sinalização de compromisso com o controle dos gastos com a negociação junto às lideranças políticas.</p><p>Não considera necessário que todas as medidas sejam anunciadas já no primeiro dia de janeiro, mas defende que o problema seja enfrentado o quanto antes.</p><p>A advertência de Meirelles é que a trajetória da dívida exige uma resposta do governo.</p><p>Sem uma estratégia para conter o crescimento das despesas, o país poderá voltar a enfrentar um ambiente de desconfiança dos investidores, retração dos investimentos e dificuldades para sustentar a atividade econômica.</p><p>VEJA+IA: Este texto resume um trecho do telejornal VEJA em Foco (confira o vídeo acima). Conteúdo produzido com auxílio de inteligência artificial e supervisão humana.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/economia/meirelles-alerta-que-divida-publica-pode-levar-brasil-a-repetir-crise-de-2015-e-2016/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O crescimento da dívida pública brasileira pode levar o país a enfrentar uma situação semelhante à crise econômica de 2015 e 2016. O alerta foi feito pelo ex-ministro da Fazenda e ex-presidente do Banco Central Henrique Meirelles, em entrevista ao VEJA em Foco , apresentado por Marcela Rahal nesta sexta-feira, 27."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "“A dívida pública está subindo. Mantida essa trajetória, isso nos levaria a uma situação como ocorreu em 2015 e 2016”, afirmou. Naquele período, segundo o ex-ministro, a evolução do endividamento começou a gerar desconfiança entre investidores, que passaram a avaliar que a dívida caminhava para um patamar insustentável."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Meirelles recuperou aquele período para ilustrar os riscos de uma trajetória persistente de crescimento da dívida pública. Segundo sua análise, a preocupação com a sustentabilidade das contas do governo afetou as decisões de investimento e contribuiu para a retração da atividade econômica."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O ex-ministro não afirmou que o país necessariamente repetirá aquele cenário, mas advertiu que a manutenção do atual caminho de endividamento pode produzir consequências semelhantes. Para ele, a questão central é impedir que a dívida continue avançando sem uma estratégia consistente de controle."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Meirelles considera que o futuro ministro tem qualificação técnica para enfrentar o problema. Ele destacou que Trabuco trabalha com crédito desde os 17 anos e passou boa parte da carreira no setor bancário."
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2024/09/henrique-meirelles-2.jpeg.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/meirelles-alerta-que-divida-publica-pode-levar-brasil-a-repetir-crise-de-2015-e-2016.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -756,186 +814,6 @@
       }
     },
     {
-      "id": "3edf666302f5195c",
-      "titulo": "França entra em recessão técnica após uma contração do PIB de 0,2% no terceiro trimestre",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/economia/franca-entra-em-recessao-tecnica-apos-uma-contracao-do-pib-de-02-no-terceiro-trimestre/",
-      "dataFonte": "2026-11-27T22:41:07.000Z",
-      "resumoFonte": "De acordo com os dados do Insee, o consumo das famílias acelerou-se ligeiramente e cresceu três décimos, em comparação com o trimestre anterior",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/12/emmanuel-macron-2.jpg?w=1000&h=600&crop=1",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "França entra em recessão técnica após uma contração do PIB de 0,2% no terceiro trimestre",
-        "slug": "franca-entra-em-recessao-tecnica-apos-uma-contracao-do-pib-de-0-2-no-terceiro-trimestre",
-        "categoria": "Economia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/franca-entra-em-recessao-tecnica-apos-uma-contracao-do-pib-de-0-2-no-terceiro-trimestre.jpg",
-        "resumo": "De acordo com os dados do Insee, o consumo das famílias acelerou-se ligeiramente e cresceu três décimos, em comparação com o trimestre anterior",
-        "conteudo": "<p>A economia francesa, a segunda maior da zona do euro, sofreu uma contração de 0,2% entre julho e setembro em comparação com os três meses anteriores, quando o PIB francês estagnou, de acordo com a segunda estimativa dos dados divulgada pelo Instituto Nacional de Estatística e Estudos Econômicos (Insee).</p><h2>Dados e contexto do setor</h2><p>Dessa forma, o instituto de estatística francês revisou para baixo sua primeira estimativa do dado de atividade, que em 30 de outubro havia previsto em -0,1%.</p><p>A França já esteve este ano à beira de entrar em recessão técnica – o que implica dois trimestres consecutivos de queda na atividade -, após registrar uma contração do PIB de 0,2% entre janeiro e março, seguida por uma estagnação da atividade entre abril e junho.</p><p>De acordo com os dados do Insee, o consumo das famílias acelerou-se ligeiramente e cresceu três décimos , em comparação com os 0,2% do trimestre anterior; embora a formação bruta de capital fixo tenha voltado a cair neste trimestre, com uma queda de 0,9% após o recuo de meio ponto percentual nos três meses anteriores.</p><h2>Impactos e informações adicionais</h2><p>Por outro lado, os gastos com consumo do governo aumentaram 0,3% , um ritmo ligeiramente inferior aos 0,4% do trimestre anterior. De modo geral, a demanda interna final, excluindo estoques, manteve-se estável e não contribuiu para o crescimento do PIB neste trimestre.</p><p>Além disso, as exportações sofreram uma contração drástica neste trimestre, com uma queda de 1,6% após um aumento de 2,9% nos três meses anteriores, enquanto as importações aumentaram 0,1%, contra 1% no segundo trimestre, de modo que a contribuição do comércio exterior para o crescimento do PIB foi negativa.</p><p>O enfraquecimento da economia francesa corrobora os maus presságios dos dados do PMI , que avaliam o andamento da atividade das empresas do país, cujo índice composto para o mês de novembro piorou para 46,2 pontos, em comparação com os 46,6 de outubro, seu nível mais baixo em seis meses, o que implica uma maior probabilidade “de que a França entre em recessão técnica no quarto trimestre”, segundo observou Joe Hayes, economista-chefe da S&amp;P Global Market Intelligence.</p><p>Por outro lado, o Insee informou nesta sexta-feira que o Índice de Preços ao Consumidor (IPC) da França ficou em 2,9% em relação ao ano anterior em novembro, o que representa uma queda de cinco décimos em relação ao dado registrado em outubro.</p><p>O dado de inflação do penúltimo mês do ano reflete o aumento anual de 19,2% no preço da energia, contra 24,1% no mês anterior, enquanto os alimentos frescos subiram 9,4%, em vez dos 8% registrados em outubro.</p><p>No caso do IPC harmonizado, utilizado pelo Eurostat em suas estatísticas, a estimativa preliminar de novembro reflete um aumento para 3,2% em relação ao mesmo período do ano anterior, ante os 3,7% registrados em outubro.</p><p>De acordo com os dados do Insee, o consumo das famílias acelerou-se ligeiramente e cresceu três décimos, em comparação com o trimestre anterior</p><p>Ajuste fiscal, juros e resistência no PT: os desafios de Trabuco no Lula 4</p><p>IPCA-15: prévia da inflação sobe 0,22% em novembro, com pressão dos alimentos</p><p>Grupo Alimentação e bebidas registrou a maior variação do mês, com alta de 1,51%; tomate e cebola tiveram os principais aumentos</p><p>Com anúncio de Trabuco na Fazenda, dólar fecha a R$ 5,51 e tem maior queda da semana</p><p>Trabuco e Durigan devem participar juntos de almoço anual da Febraban em SP</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/economia/franca-entra-em-recessao-tecnica-apos-uma-contracao-do-pib-de-02-no-terceiro-trimestre/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A economia francesa, a segunda maior da zona do euro, sofreu uma contração de 0,2% entre julho e setembro em comparação com os três meses anteriores, quando o PIB francês estagnou, de acordo com a segunda estimativa dos dados divulgada pelo Instituto Nacional de Estatística e Estudos Econômicos (Insee)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Dessa forma, o instituto de estatística francês revisou para baixo sua primeira estimativa do dado de atividade, que em 30 de outubro havia previsto em -0,1%."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A França já esteve este ano à beira de entrar em recessão técnica – o que implica dois trimestres consecutivos de queda na atividade -, após registrar uma contração do PIB de 0,2% entre janeiro e março, seguida por uma estagnação da atividade entre abril e junho."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "De acordo com os dados do Insee, o consumo das famílias acelerou-se ligeiramente e cresceu três décimos , em comparação com os 0,2% do trimestre anterior; embora a formação bruta de capital fixo tenha voltado a cair neste trimestre, com uma queda de 0,9% após o recuo de meio ponto percentual nos três meses anteriores."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Por outro lado, os gastos com consumo do governo aumentaram 0,3% , um ritmo ligeiramente inferior aos 0,4% do trimestre anterior. De modo geral, a demanda interna final, excluindo estoques, manteve-se estável e não contribuiu para o crescimento do PIB neste trimestre."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/12/emmanuel-macron-2.jpg?w=1000&h=600&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/franca-entra-em-recessao-tecnica-apos-uma-contracao-do-pib-de-0-2-no-terceiro-trimestre.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "dec506acb34138e9",
-      "titulo": "Distribuidoras de energia oferecem descontos para renegociar dívidas",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Agência Brasil - Economia",
-      "urlFonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/distribuidoras-de-energia-oferecem-descontos-para-renegociar-dividas",
-      "dataFonte": "2026-11-27T22:40:00.000Z",
-      "resumoFonte": "As distribuidoras de energia elétrica iniciaram campanhas de renegociação de dívidas, com condições especiais para consumidores que buscam regularizar débitos com os recursos do décimo terceiro salário. A primeira parcela do benefício deve ser paga até a próxima segunda-feira (30). As campanhas oferecem condições de parcelamento e descontos, que…",
-      "imagem": "https://imagens.ebc.com.br/TlJEAM6tT-XK-i55h38YlqEA1mU=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/04/14/_rbr0188.jpg?itok=iEsEP_Sa",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "Distribuidoras de energia oferecem descontos para renegociar dívidas",
-        "slug": "distribuidoras-de-energia-oferecem-descontos-para-renegociar-dividas",
-        "categoria": "Economia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/distribuidoras-de-energia-oferecem-descontos-para-renegociar-dividas.jpg",
-        "resumo": "Consumidores podem obter descontos em encargos, parcelamento e condições especiais de pagamento, conforme a empresa e o perfil da dívida.",
-        "conteudo": "<p>As distribuidoras de energia elétrica iniciaram campanhas de renegociação de dívidas, com condições especiais para consumidores que buscam regularizar débitos com os recursos do décimo terceiro salário.</p><h2>Dados e contexto do setor</h2><p>A primeira parcela do benefício deve ser paga até a próxima segunda-feira (30).</p><p>As campanhas oferecem condições de parcelamento e descontos, que variam conforme a empresa, e podem ajudar consumidores a evitar a negativação e até o corte de energia.</p><p>O país tem mais de 40 distribuidoras, e as condições variam de acordo com a localidade, as características da dívida e o perfil do consumidor.</p><h2>Impactos e informações adicionais</h2><p>A Enel Brasil iniciou a campanha nessa quinta-feira (26), com duração até 31 de dezembro, para clientes de São Paulo, Rio de Janeiro e Ceará com contas de energia vencidas há mais de 60 dias.</p><p>A empresa oferece parcelamento em até 12 vezes, com entrada de 30% do valor devido. A condição está disponível nas lojas de atendimento da Enel e por meio de contatos realizados por empresas de cobrança parceiras das distribuidoras.</p><p>Outra opção é o parcelamento em até sete vezes, com entrada de apenas 10%. Nesse caso, a negociação pode ser feita pelo site da Enel, pelos aplicativos das distribuidoras, nas lojas de atendimento e pela plataforma Serasa Limpa Nome.</p><p>As distribuidoras da Neoenergia, presentes no interior de São Paulo e nos estados de Mato Grosso do Sul, Distrito Federal, Bahia, Pernambuco e Rio Grande do Norte, oferecem descontos de até 100% nos encargos para dívidas com mais de um ano, além de condições especiais para redução do valor principal, mediante negociação.</p><p>Os clientes também podem optar por quitar a dívida à vista ou parcelá-la em até 24 vezes. As condições da campanha estão disponíveis exclusivamente no Portal de Negociação de cada distribuidora.</p><p>O Grupo Energisa manterá a campanha até 31 de dezembro. Batizada de “Negocia Energisa”, a iniciativa oferece acordos com descontos de até 98% e parcelamento em até 36 vezes sem juros, conforme o perfil da dívida e os critérios da campanha.</p><p>As condições são destinadas a clientes com pelo menos uma fatura vencida das distribuidoras do grupo nos estados do Acre, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Paraíba, Paraná, Rio de Janeiro, Rondônia, São Paulo, Sergipe e Tocantins.</p><p>A negociação pode ser feita pelo site da Agência Virtual do grupo ou pelo aplicativo Energisa On.</p><p>O Grupo Equatorial também oferece campanhas de renegociação. A empresa atua nos estados de Alagoas, Amapá, Goiás, Maranhão, Pará, Piauí e Rio Grande do Sul.</p><p>As opções incluem parcelamento em até 24 vezes no cartão de crédito, com isenção de 100% dos encargos, ou em até 36 vezes, com desconto de 30% nos encargos, para dívidas com mais de um ano.</p><p>A negociação pode ser feita pelo site do grupo, com a assistente virtual Clara ou nas lojas de atendimento presencial. Para participar, é necessário ter pelo menos uma fatura vencida há mais de 180 dias, prazo que cai para 90 dias para clientes cadastrados na Tarifa Social.</p><p>Sem campanha específica para este mês, o grupo CPFL, que atua com quatro distribuidoras, tem uma iniciativa mais abrangente, chamada “CPFL Vale Bônus”, que premia a renegociação de dívidas.</p><p>Os acordos podem ser feitos pelo site do grupo ou nas lojas de atendimento. Participam as distribuidoras CPFL Paulista, CPFL Piratininga, CPFL Santa Cruz e CPFL RGE.</p><p>O Grupo EDP, que atua no Espírito Santo e em São Paulo, iniciou, em 3 de novembro, o “Feirão de Negociação: Se Livra nos 30”.</p><p>Os clientes podem recorrer aos canais virtuais do grupo ou às lojas de atendimento até 30 de dezembro.</p><p>Entre as condições oferecidas estão a isenção de juros e correções, além da possibilidade de parcelamento sem entrada, em até 21 vezes no cartão de crédito.</p><p>Para famílias beneficiárias da Tarifa Social de Energia Elétrica, do governo federal, há ainda a possibilidade de parcelamento em até 60 vezes, conforme as condições da negociação.</p><p>Os débitos podem ser negociados pelos diferentes canais de atendimento da EDP, como EDP Online, agências presenciais e call center.</p><p>Justiça PM do Rio ocupa comunidades de Jacarepaguá por tempo indeterminado sex, 27/11/2026 - 20:27</p><p>Economia Dólar cai quase 4% e fecha em R$ 5,51, após anúncio de Trabuco sex, 27/11/2026 - 19:47</p>",
-        "fonteNome": "Agência Brasil - Economia",
-        "fonteUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/distribuidoras-de-energia-oferecem-descontos-para-renegociar-dividas",
-        "fontesAdicionais": [
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          },
-          {
-            "nome": "Ministério da Fazenda",
-            "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "As distribuidoras de energia elétrica iniciaram campanhas de renegociação de dívidas, com condições especiais para consumidores que buscam regularizar débitos com os recursos do décimo terceiro salário. A primeira parcela do benefício deve ser paga até a próxima segunda-feira (30)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "As campanhas oferecem condições de parcelamento e descontos, que variam conforme a empresa, e podem ajudar consumidores a evitar a negativação e até o corte de energia. O país tem mais de 40 distribuidoras, e as condições variam de acordo com a localidade, as características da dívida e o perfil do consumidor."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A Enel Brasil iniciou a campanha nessa quinta-feira (26), com duração até 31 de dezembro, para clientes de São Paulo, Rio de Janeiro e Ceará com contas de energia vencidas há mais de 60 dias."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A empresa oferece parcelamento em até 12 vezes, com entrada de 30% do valor devido. A condição está disponível nas lojas de atendimento da Enel e por meio de contatos realizados por empresas de cobrança parceiras das distribuidoras."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Outra opção é o parcelamento em até sete vezes, com entrada de apenas 10%. Nesse caso, a negociação pode ser feita pelo site da Enel, pelos aplicativos das distribuidoras, nas lojas de atendimento e pela plataforma Serasa Limpa Nome."
-          }
-        ],
-        "imagemOriginal": "https://imagens.ebc.com.br/TlJEAM6tT-XK-i55h38YlqEA1mU=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/04/14/_rbr0188.jpg?itok=iEsEP_Sa",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/distribuidoras-de-energia-oferecem-descontos-para-renegociar-dividas.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "5e36ee1e2ec082b8",
-      "titulo": "Com anúncio de Trabuco na Fazenda, dólar fecha a R$ 5,51 e tem maior queda da semana",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/economia/apos-anuncio-de-trabuco-na-fazenda-dolar-fecha-a-r-551-e-tem-maior-queda-semanal/",
-      "dataFonte": "2026-11-27T22:08:21.000Z",
-      "resumoFonte": "Pela manhã, a moeda chegou a romper o piso de R$ 5,50, com mínima de R$ 5,4793",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/11/fta20191227010.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-27T22:18:28.416Z",
-      "reportagem": {
-        "titulo": "Com anúncio de Trabuco na Fazenda, dólar fecha a R$ 5,51 e tem maior queda da semana",
-        "slug": "com-anuncio-de-trabuco-na-fazenda-dolar-fecha-a-r-5-51-e-tem-maior-queda-da-semana",
-        "categoria": "Economia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/com-anuncio-de-trabuco-na-fazenda-dolar-fecha-a-r-5-51-e-tem-maior-queda-da-semana.jpg",
-        "resumo": "Pela manhã, a moeda chegou a romper o piso de R$ 5,50, com mínima de R$ 5,4793",
-        "conteudo": "<p>A redução da percepção de risco fiscal com a ascensão de Luiz Carlos Trabuco, presidente do conselho de administração do Bradesco, ao Ministério da Fazenda no Lula 4, fez o dólar despencar quase 4% nesta sexta-feira (27) e fechar no menor nível desde o último dia 9 .</p><h2>Dados e contexto do setor</h2><p>A moeda americana emendou o quinto pregão consecutivo de baixa frente ao real e terminou a semana com perdas de 7,07%, o maior recuo semanal desde outubro de 2008, ano da crise financeira mundial.</p><p>O real apresentou, mais uma vez, o melhor desempenho, com larga vantagem, entre as divisas mais líquidas, em dia de respiro para moedas latino-americanas, apesar da alta do dólar frente a pares como euro e iene.</p><p>O índice DXY voltou a superar os 104,000 pontos, acumulando valorização semanal superior a 2% e de quase 6% no ano.</p><h2>Impactos e informações adicionais</h2><p>Pela manhã, o dólar rompeu o piso de R$ 5,50, com mínima de R$ 5,4793 . Ao longo da tarde, com a moderação dos ganhos do Ibovespa e o recuo do petróleo, houve um ajuste intraday que levou a moeda a trabalhar acima de R$ 5,50.</p><p>No fim, era negociado a R$ 5,5156, em baixa de 3,97%. Apesar do tombo de 7,07% na semana, ainda sobe no mês (1,31%), após avanço de 5,20% em outubro.</p><p>Para o economista-chefe da Pantheon Macroeconomics, Andres Abadia, a escolha de Trabuco para a Fazenda é um “sinal mais encorajador” sobre a política econômica no próximo mandato do presidente Luiz Inácio Lula da Silva, ao ajudar a restabelecer a confiança dos investidores e “facilitar a discussão sobre reformas fiscais”.</p><p>“O verdadeiro teste será quanto respaldo político e autonomia Trabuco terá para implementar reformas estruturais de gastos, principalmente quando estas entrarem em conflito com a política social”, afirma Abadia, destacando que, após um prêmio de risco significativo embutido no câmbio com o desfecho da corrida presidencial, era de se esperar uma “recuperação considerável” do real assim que o governo desse um “sinal crível” sobre a política econômica.</p><p>A recuperação do real nos últimos dias, depois de a taxa de câmbio tocar R$ 6,00 na segunda-feira, foi amparada por dois pilares: a informação de que Lula teria dado aval para uma proposta de emenda à Constituição (PEC) para conter o ritmo de crescimento dos gastos obrigatórios e o convite para Trabuco assumir a Fazenda, após a revelação de encontro do banqueiro com Lula fora da agenda oficial.</p><p>Trabuco se reuniu com o presidente no Palácio do Alvorada na quinta-feira (26) no início da noite e aceitou o desafio de comandar a economia.</p><p>Foi a senha para um mergulho do dólar futuro para dezembro, uma vez que o mercado à vista já havia fechado, com queda de 1,26% .</p><p>Pela manhã, a B3 anunciou o aumento dos limites inferiores de oscilação diária para o contrato padrão e o minicontrato de dólar futuro.</p><p>Pela manhã, a moeda chegou a romper o piso de R$ 5,50, com mínima de R$ 5,4793</p><p>Ajuste fiscal, juros e resistência no PT: os desafios de Trabuco no Lula 4</p><p>Dólar recua e fecha a R$ 5,91 após aprovação do ajuste fiscal</p><p>Esse é o segundo pregão consecutivo de quedas; O real se descolou do movimento pesado de perdas das divisas latino-americanas e chegou a liderar</p><p>Trabuco e Durigan devem participar juntos de almoço anual da Febraban em SP</p><p>Na Amazon, PMEs dividem vitrine da Black Friday com grandes redes</p><p>Ibovespa sobe cerca de 8% na semana após anúncio de Trabuco na Fazenda</p><p>Desemprego recua a 5,1% e mantém menor nível da série histórica em outubro, diz IBGE</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/economia/apos-anuncio-de-trabuco-na-fazenda-dolar-fecha-a-r-551-e-tem-maior-queda-semanal/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A redução da percepção de risco fiscal com a ascensão de Luiz Carlos Trabuco, presidente do conselho de administração do Bradesco, ao Ministério da Fazenda no Lula 4, fez o dólar despencar quase 4% nesta sexta-feira (27) e fechar no menor nível desde o último dia 9 ."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O real apresentou, mais uma vez, o melhor desempenho, com larga vantagem, entre as divisas mais líquidas, em dia de respiro para moedas latino-americanas, apesar da alta do dólar frente a pares como euro e iene. O índice DXY voltou a superar os 104,000 pontos, acumulando valorização semanal superior a 2% e de quase 6% no ano."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Pela manhã, o dólar rompeu o piso de R$ 5,50, com mínima de R$ 5,4793 . Ao longo da tarde, com a moderação dos ganhos do Ibovespa e o recuo do petróleo, houve um ajuste intraday que levou a moeda a trabalhar acima de R$ 5,50. No fim, era negociado a R$ 5,5156, em baixa de 3,97%."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Para o economista-chefe da Pantheon Macroeconomics, Andres Abadia, a escolha de Trabuco para a Fazenda é um “sinal mais encorajador” sobre a política econômica no próximo mandato do presidente Luiz Inácio Lula da Silva, ao ajudar a restabelecer a confiança dos investidores e “facilitar a discussão sobre reformas fiscais”."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "“O verdadeiro teste será quanto respaldo político e autonomia Trabuco terá para implementar reformas estruturais de gastos, principalmente quando estas entrarem em conflito com a política social”, afirma Abadia, destacando que, após um prêmio de risco significativo embutido no câmbio com o desfecho da corrida presidencial, era de se esperar uma “recuperação considerável” do real assim que o governo desse um “sinal crível” sobre a política econômica."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/11/fta20191227010.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/com-anuncio-de-trabuco-na-fazenda-dolar-fecha-a-r-5-51-e-tem-maior-queda-da-semana.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
       "id": "b303ac5841aa7cc5",
       "titulo": "MP apura uso de praia em Balneário Camboriú para show de Shakira",
       "categoria": "Cultura",
@@ -996,124 +874,16 @@
       }
     },
     {
-      "id": "dafb3612efe5a9c3",
-      "titulo": "MPSP pede que Prefeitura de SP faça estudo de segurança para o Carnaval",
+      "id": "ed1aaadf2cc79698",
+      "titulo": "Trump publica imagem como 'Poderoso Chefão' e manda recado aos democratas",
       "categoria": "Cultura",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/sao-paulo/mpsp-pede-que-prefeitura-de-sp-faca-estudo-de-seguranca-para-o-carnaval",
-      "dataFonte": "2026-11-27T22:46:49.000Z",
-      "resumoFonte": "A medida preventiva decorre de graves falhas de planejamento e superlotação ocorridas durante a edição de 2026 nos blocos de rua",
-      "imagem": "https://i.metroimg.com/7AvL6S9kjaLY7vAwIfu96mGvEemyOQT_-a8G_AFrnuA/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/02/publico-calvin-harris.jpg",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "MPSP pede que Prefeitura de SP faça estudo de segurança para o Carnaval",
-        "slug": "mpsp-pede-que-prefeitura-de-sp-faca-estudo-de-seguranca-para-o-carnaval",
-        "categoria": "Cultura",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mpsp-pede-que-prefeitura-de-sp-faca-estudo-de-seguranca-para-o-carnaval.jpg",
-        "resumo": "A medida preventiva decorre de graves falhas de planejamento e superlotação ocorridas durante a edição de 2026 nos blocos de rua de Carnaval",
-        "conteudo": "<p>São Paulo — O Ministério Público de São Paulo ( MPSP ) protocolou uma ação civil pública para pedir que a Prefeitura de São Paulo seja obrigada pela Justiça a elaborar e apresentar estudos técnicos de viabilidade e segurança para cada via utilizada nos desfiles do Carnaval de Rua de 2027 .</p><h2>As informações principais do assunto</h2><p>A medida preventiva decorre de graves falhas de planejamento da gestão Ricardo Nunes (MDB) e superlotação ocorridas na capital paulista durante a edição de 2026.</p><p>Ajuizado pela Promotoria de Justiça de Habitação e Urbanismo na segunda-feira (23/11), o documento enfatiza que a intenção não é “proibir, restringir ou desestimular” a festividade cultural, mas assegurar que o poder público cumpra o dever de oferecer condições seguras para foliões, trabalhadores e moradores.</p><h2>Contexto e informações complementares</h2><p>Diante da proximidade do evento, o órgão requer a concessão de tutela de urgência para condicionar a aprovação dos trajetos à entrega dos relatórios necessários. Os promotores apontam que as falhas deste ano “permanecem, em larga medida, inalteradas para a edição de 2027”.</p><p>“Cada dia transcorrido sem planejamento técnico reduz o tempo hábil para estudar as vias, fixar capacidades, contratar e dimensionar estruturas e, se necessário, realocar desfiles, de modo que a omissão do município, se não for judicialmente sanada de imediato, tornará inútil o provimento jurisdicional”, destacou a ação.</p><p>Ação civil pública: o Ministério Público de São Paulo solicita que a Prefeitura apresente estudos técnicos de viabilidade e segurança para os desfiles de Carnaval de 2027; Pedidos do órgão: a Promotoria de Justiça de Habitação e Urbanismo requer tutela de urgência para condicionar a aprovação dos trajetos à entrega de relatórios; Carnaval de 2026: o MPSP cita falhas e superlotação na Rua da Consolação em 8 de fevereiro de 2026.</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/sao-paulo/mpsp-pede-que-prefeitura-de-sp-faca-estudo-de-seguranca-para-o-carnaval",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "São Paulo — O Ministério Público de São Paulo ( MPSP ) protocolou uma ação civil pública para pedir que a Prefeitura de São Paulo seja obrigada pela Justiça a elaborar e apresentar estudos técnicos de viabilidade e segurança para cada via utilizada nos desfiles do Carnaval de Rua de 2027 ."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Ajuizado pela Promotoria de Justiça de Habitação e Urbanismo na segunda-feira (23/11), o documento enfatiza que a intenção não é “proibir, restringir ou desestimular” a festividade cultural, mas assegurar que o poder público cumpra o dever de oferecer condições seguras para foliões, trabalhadores e moradores."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Diante da proximidade do evento, o órgão requer a concessão de tutela de urgência para condicionar a aprovação dos trajetos à entrega dos relatórios necessários. Os promotores apontam que as falhas deste ano “permanecem, em larga medida, inalteradas para a edição de 2027”."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "“Cada dia transcorrido sem planejamento técnico reduz o tempo hábil para estudar as vias, fixar capacidades, contratar e dimensionar estruturas e, se necessário, realocar desfiles, de modo que a omissão do município, se não for judicialmente sanada de imediato, tornará inútil o provimento jurisdicional”, destacou a ação."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Ação civil pública: o Ministério Público de São Paulo solicita que a Prefeitura apresente estudos técnicos de viabilidade e segurança para os desfiles de Carnaval de 2027; Pedidos do órgão: a Promotoria de Justiça de Habitação e Urbanismo requer tutela de urgência para condicionar a aprovação dos trajetos à entrega de relatórios; Carnaval de 2026: o MPSP cita falhas e superlotação na Rua da Consolação em 8 de fevereiro de 2026."
-          }
-        ],
-        "imagemOriginal": "https://i.metroimg.com/7AvL6S9kjaLY7vAwIfu96mGvEemyOQT_-a8G_AFrnuA/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/02/publico-calvin-harris.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/mpsp-pede-que-prefeitura-de-sp-faca-estudo-de-seguranca-para-o-carnaval.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "137063ac4fab3281",
-      "titulo": "Furto de celular em ônibus: estrangeiros são presos em Vitória",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "Tribuna Online - Capa",
-      "urlFonte": "https://tribunaonline.com.br/cotidiano/policia/furto-de-celular-onibus-vitoria/",
-      "dataFonte": "2026-11-27T22:10:19.000Z",
-      "resumoFonte": "Furto de celular em ônibus em Vitória termina com dois estrangeiros detidos pela Guarda Municipal após rastreamento do aparelho por GPS.",
-      "imagem": "https://media.tribunaonline.com.br/wp-content/uploads/2026/11/ANA-74.jpg",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "Furto de celular em ônibus: estrangeiros são presos em Vitória",
-        "slug": "furto-de-celular-em-onibus-estrangeiros-sao-presos-em-vitoria",
-        "categoria": "Tecnologia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/furto-de-celular-em-onibus-estrangeiros-sao-presos-em-vitoria.jpg",
-        "resumo": "Furto de celular em ônibus em Vitória termina com dois estrangeiros detidos pela Guarda Municipal após rastreamento do aparelho por GPS.",
-        "conteudo": "<p>A Guarda Civil Municipal de Vitória (GCMV) localizou quatro celulares e conduziu dois estrangeiros, um homem uruguaio e uma mulher equatoriana, à delegacia após o furto do aparelho de uma estudante dentro de um ônibus, na manhã desta sexta-feira (27).</p><h2>Dados e contexto do setor</h2><p>A localização do telefone por GPS ajudou os agentes a encontrar os suspeitos em um coletivo na Avenida Duarte Lemos , na região da Vila Rubim .</p><p>A estudante procurou uma base da Guarda Municipal depois de perceber que o celular havia sido retirado de sua bolsa durante a viagem. Assim que recebeu o pedido de ajuda, um dos agentes utilizou o próprio iPhone para rastrear o aparelho da vítima.</p><h2>Impactos e informações adicionais</h2><p>Com o sinal ativo, a equipe iniciou as buscas e conseguiu localizar o ônibus onde estavam o homem e a mulher, suspeitos de envolvimento no furto.</p><p>De acordo com os agentes, os suspeitos teriam descartado os aparelhos na lixeira do coletivo. Ao todo, foram encontrados três iPhones e um celular da marca Motorola , entre eles o telefone da estudante.</p><p>Os dois estrangeiros foram conduzidos à 1ª Delegacia Regional de Vitória . Conforme o relato da equipe, eles foram reconhecidos pela vítima como as pessoas que estavam próximas a ela dentro do ônibus quando o celular foi levado.</p><p>Os procedimentos cabíveis estavam em andamento na delegacia no fim da manhã desta sexta-feira (27).</p>",
-        "fonteNome": "Tribuna Online - Capa",
-        "fonteUrl": "https://tribunaonline.com.br/cotidiano/policia/furto-de-celular-onibus-vitoria/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
-          },
-          {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A Guarda Civil Municipal de Vitória (GCMV) localizou quatro celulares e conduziu dois estrangeiros, um homem uruguaio e uma mulher equatoriana, à delegacia após o furto do aparelho de uma estudante dentro de um ônibus, na manhã desta sexta-feira (27)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A estudante procurou uma base da Guarda Municipal depois de perceber que o celular havia sido retirado de sua bolsa durante a viagem. Assim que recebeu o pedido de ajuda, um dos agentes utilizou o próprio iPhone para rastrear o aparelho da vítima."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Com o sinal ativo, a equipe iniciou as buscas e conseguiu localizar o ônibus onde estavam o homem e a mulher, suspeitos de envolvimento no furto."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "De acordo com os agentes, os suspeitos teriam descartado os aparelhos na lixeira do coletivo. Ao todo, foram encontrados três iPhones e um celular da marca Motorola , entre eles o telefone da estudante."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os dois estrangeiros foram conduzidos à 1ª Delegacia Regional de Vitória . Conforme o relato da equipe, eles foram reconhecidos pela vítima como as pessoas que estavam próximas a ela dentro do ônibus quando o celular foi levado."
-          }
-        ],
-        "imagemOriginal": "https://media.tribunaonline.com.br/wp-content/uploads/2026/11/ANA-74.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/furto-de-celular-em-onibus-estrangeiros-sao-presos-em-vitoria.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/27/trump-publica-imagem-como-poderoso-chefao-e-manda-recado-aos-democratas.ghtm",
+      "dataFonte": "2026-11-27T23:20:05.000Z",
+      "resumoFonte": "O presidente dos Estados Unidos, Donald Trump, publicou nas redes sociais uma montagem que faz referência ao filme \"O Poderoso Chefão\" e a projetos apresentados por democratas.",
+      "imagem": "https://i.metroimg.com/4uG9Nw1Fm4rU90eeAaxb0_R7W1oYn0KZXmETWx1CfNk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/trump-veto-3x2-1.jpg",
+      "descobertaEm": "2026-11-28T01:18:08.348Z"
     },
     {
       "id": "d6b4b80453e7b56d",
@@ -1188,6 +958,198 @@
       "descobertaEm": "2026-11-27T23:18:12.338Z"
     },
     {
+      "id": "c02197305f5daf45",
+      "titulo": "Cruzeiro vence o Fluminense e garante o terceiro lugar do Brasileirão",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao",
+      "dataFonte": "2026-11-28T01:06:11.000Z",
+      "resumoFonte": "Kaio Jorge marcou o único gol da vitória cruzeirense aos dois minutos de jogo e garantiu os três pontos para a Raposa",
+      "imagem": "https://i.metroimg.com/MsOOnVmMuMuv8QhmLO2YMcITS4wgcP9kVaQUWo2AQrw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/cruzeiro-x-fluminense.jpg",
+      "descobertaEm": "2026-11-28T01:18:08.348Z",
+      "reportagem": {
+        "titulo": "Cruzeiro vence o Fluminense e garante o terceiro lugar do Brasileirão",
+        "slug": "cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao",
+        "categoria": "Esporte",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao.jpg",
+        "resumo": "Kaio Jorge marcou o único gol da vitória cruzeirense aos dois minutos de jogo e garantiu os três pontos para a Raposa",
+        "conteudo": "<p>Vitória da Raposa. O Fluminense recebeu o Cruzeiro , nesta sexta-feira (27/11), no Maracanã, pela 37ª rodada do Campeonato Brasileiro . Com gol único marcado por Kaio Jorge, o time mineiro bateu o Tricolor fora de casa por 1 x 0 e confirmou o 3° lugar do torneio.</p><h2>As informações principais do assunto</h2><p>Com o resultado, o Cruzeiro chega a 69 pontos e não pode mais perder a 3ª posição na tabela, enquanto o Fluminense fica com 63 pontos, n0 4º lugar da classificação geral.</p><p>Nos minutos iniciais da partida, o Cruzeiro abriu o placar. Matheus Henrique roubou no meio do campo e acionou Bruno Rodrigues. Ele passou para Kaio Jorge do lado direito na entrada da área. O artilheiro cruzeirense chutou cruzado e marcou o gol.</p><p>Com 10 minutos de jogo, o Fluminense chegou bem ao ataque. Hércules recebeu passe na entrada da área e arriscou o chute, mas foi por cima do gol. Seis minutos depois, Lucho Acosta tentou de longe, mas Otávio defendeu.</p><h2>Contexto e informações complementares</h2><p>Lucho Acosta tocou para Agustin Canobbio pelo lado esquerdo. O uruguaio conduziu, levou para o meio e finalizou, mas Otávio defendeu mais uma vez.</p><p>O Cruzeiro respondeu com Bruno Rodrigues, que recebeu de costas e tocou para trás. Matheus Pereira tentou a finalização e acertou na trave.</p><p>No ataque seguinte, Savarino finalizou e conseguiu o escanteio. O Fluminense cobrou mal e o Cruzeiro saiu em contra-ataque. Bruno Rodrigues recebeu pelo lado esquerdo e atravessou para Kaio Jorge. O atacante finalizou e Fábio defendeu.</p><p>Resultado da partida: o Cruzeiro venceu o Fluminense por 1 x 0 em 27 de novembro, em jogo válido pela 37ª rodada do Campeonato Brasileiro; Gol do jogo: o atacante Kaio Jorge marcou o único gol da partida; Classificação atual: o Cruzeiro garantiu a 3ª posição na tabela com 69 pontos, enquanto o Fluminense ocupa o 4º lugar, com 63 pontos.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/esportes/cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Vitória da Raposa. O Fluminense recebeu o Cruzeiro , nesta sexta-feira (27/11), no Maracanã, pela 37ª rodada do Campeonato Brasileiro . Com gol único marcado por Kaio Jorge, o time mineiro bateu o Tricolor fora de casa por 1 x 0 e confirmou o 3° lugar do torneio."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Com o resultado, o Cruzeiro chega a 69 pontos e não pode mais perder a 3ª posição na tabela, enquanto o Fluminense fica com 63 pontos, n0 4º lugar da classificação geral."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Nos minutos iniciais da partida, o Cruzeiro abriu o placar. Matheus Henrique roubou no meio do campo e acionou Bruno Rodrigues. Ele passou para Kaio Jorge do lado direito na entrada da área. O artilheiro cruzeirense chutou cruzado e marcou o gol."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Com 10 minutos de jogo, o Fluminense chegou bem ao ataque. Hércules recebeu passe na entrada da área e arriscou o chute, mas foi por cima do gol. Seis minutos depois, Lucho Acosta tentou de longe, mas Otávio defendeu."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Lucho Acosta tocou para Agustin Canobbio pelo lado esquerdo. O uruguaio conduziu, levou para o meio e finalizou, mas Otávio defendeu mais uma vez. O Cruzeiro respondeu com Bruno Rodrigues, que recebeu de costas e tocou para trás. Matheus Pereira tentou a finalização e acertou na trave."
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/MsOOnVmMuMuv8QhmLO2YMcITS4wgcP9kVaQUWo2AQrw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/cruzeiro-x-fluminense.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "3fe61913d08f87f9",
+      "titulo": "Vila Nova vence Atlético-GO e volta à Série A do Brasileirão após 41 anos",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/vila-nova-vence-atletico-go-e-volta-a-serie-a-do-brasileirao-apos-41-anos",
+      "dataFonte": "2026-11-28T01:02:19.000Z",
+      "resumoFonte": "Retorno foi confirmada na noite desta sexta (27/11), no Estádio Onésio Brasileiro Alvarenga, após vitória por 2 x 0 contra o Atlético-GO",
+      "imagem": "https://i.metroimg.com/RxDAAd4m-HH3DzTXyaQQi7QsDaf-zPaU2UVauQfz-Ds/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/vila-nova-x-atletico-go-2.jpg",
+      "descobertaEm": "2026-11-28T01:18:08.348Z"
+    },
+    {
+      "id": "62a34400bf132c45",
+      "titulo": "Cruzeiro vence o Fluminense com gol de Kaio Jorge",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/esportes/futebol/cruzeiro-vence-o-fluminense-com-gol-de-kaio-jorge-27-11-2026/",
+      "dataFonte": "2026-11-28T00:57:57.000Z",
+      "resumoFonte": "O único gol da partida deu ao Cruzeiro a vitória por 1 a 0 sobre o Fluminense nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Brasileirão.",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/fluminense-x-cruzeiro-1492475.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-28T01:18:08.348Z",
+      "reportagem": {
+        "titulo": "Cruzeiro vence o Fluminense com gol de Kaio Jorge",
+        "slug": "cruzeiro-vence-o-fluminense-com-gol-de-kaio-jorge",
+        "categoria": "Esporte",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/cruzeiro-vence-o-fluminense-com-gol-de-kaio-jorge.jpg",
+        "resumo": "O único gol da partida deu ao Cruzeiro a vitória por 1 a 0 sobre o Fluminense nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Brasileirão.",
+        "conteudo": "<p>O único gol da partida deu ao Cruzeiro a vitória por 1 a 0 sobre o Fluminense nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Brasileirão.</p><h2>As informações principais do assunto</h2><p>O Cruzeiro vai a 69 pontos. O Fluminense segue com 63 pontos. O Cruzeiro soma sete vitórias seguidas.</p><p>Aos 3 minutos do primeiro tempo, Kaio Jorge fez 1 a 0 para o Cruzeiro, após assistência de Bruno Rodrigues.</p><p>O Cruzeiro ficou com um a menos aos 27 minutos do segundo tempo, com a expulsão de Jonathan Jesus. Samuel Xavier Brito, do Fluminense, recebeu o vermelho aos 45.</p><h2>Contexto e informações complementares</h2><p>Otávio Eleodoro Rezende Costa, goleiro do Cruzeiro, terminou com seis defesas.</p><p>A derrota veio mesmo com 21 finalizações do Fluminense, contra 8 do Cruzeiro. Na direção do gol, o Fluminense acertou 6, e o Cruzeiro, 3. O Fluminense ficou com a bola em 67% do tempo.</p><p>O próximo jogo do Fluminense é na quarta-feira (2/12), contra o Bragantino. O Cruzeiro enfrenta o Internacional na quarta-feira (2/12).</p><p>Matéria produzida automaticamente com dados da partida.</p><p>São Paulo vence o Remo com gol de Ryan Francisco Rodrigues dos Santos Silva nos minutos finais</p><p>Fluminense x Cruzeiro: onde assistir ao vivo, horário e escalações</p><p>Eleição do São Paulo: entenda formato e veja candidatos a presidente</p><p>Niclas Füllkrug marca no fim, e Werder Bremen arranca empate com o Borussia Mönchengladbach</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/esportes/futebol/cruzeiro-vence-o-fluminense-com-gol-de-kaio-jorge-27-11-2026/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O único gol da partida deu ao Cruzeiro a vitória por 1 a 0 sobre o Fluminense nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Brasileirão."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O Cruzeiro vai a 69 pontos. O Fluminense segue com 63 pontos. O Cruzeiro soma sete vitórias seguidas."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Aos 3 minutos do primeiro tempo, Kaio Jorge fez 1 a 0 para o Cruzeiro, após assistência de Bruno Rodrigues."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O Cruzeiro ficou com um a menos aos 27 minutos do segundo tempo, com a expulsão de Jonathan Jesus. Samuel Xavier Brito, do Fluminense, recebeu o vermelho aos 45."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Otávio Eleodoro Rezende Costa, goleiro do Cruzeiro, terminou com seis defesas."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/fluminense-x-cruzeiro-1492475.png?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/cruzeiro-vence-o-fluminense-com-gol-de-kaio-jorge.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "3446e6b8a2d7bf23",
+      "titulo": "Vila Nova supera o Atlético-GO e volta à elite do futebol brasileiro após 41 anos",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://www1.folha.uol.com.br/esporte/2026/11/vila-nova-supera-o-atletico-go-e-volta-a-elite-do-futebol-brasileiro-apos-41-anos.shtml",
+      "dataFonte": "2026-11-28T00:12:00.000Z",
+      "resumoFonte": "",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/27/17958281786b0a29d2538b2_1795828178_3x2_rt.jpg",
+      "descobertaEm": "2026-11-28T01:18:08.348Z",
+      "reportagem": {
+        "titulo": "Vila Nova supera o Atlético-GO e volta à elite do futebol brasileiro após 41 anos",
+        "slug": "vila-nova-supera-o-atletico-go-e-volta-a-elite-do-futebol-brasileiro-apos-41-anos",
+        "categoria": "Esporte",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/vila-nova-supera-o-atletico-go-e-volta-a-elite-do-futebol-brasileiro-apos-41-anos.jpg",
+        "resumo": "Em casa, equipe conhecida como Tigre vence o clássico por 2 a 0 e confirma o acesso",
+        "conteudo": "<p>O Vila Nova vai disputar a Série A do Campeonato Brasileiro em 2027, encerrando um jejum de mais de quatro décadas longe da elite nacional.</p><h2>As informações principais do assunto</h2><p>Nesta sexta-feira (27), a equipe goiana venceu o clássico contra o Atlético-GO por 2 a 0 e, com o resultado, fechou em 3 a 1 o placar agregado dos dois jogos da fase final da Série B.</p><p>Júnior Barreto, contra, aos 8 minutos do segundo tempo, e João Vieira, aos 32, fizeram os gols da partida.</p><p>Fundado em 1943, o clube, que completou 83 anos, se junta a Novorizontino e Juventude, os primeiros a garantir o acesso à primeira divisão.</p><h2>Contexto e informações complementares</h2><p>Atualmente, nenhum clube goiano disputa a Série A. O Atlético-GO havia sido o último representante do estado na elite, em 2024, quando acabou rebaixado. Nesta temporada, buscava seu quinto acesso à primeira divisão.</p><p>A equipe havia conquistado a promoção em 2009, 2016, 2019 e 2023.</p><p>A última participação do Vila Nova na elite nacional havia sido em 1985, quando o Campeonato Brasileiro ainda tinha um formato diferente do atual. Desde então, o clube alternou temporadas nas Séries B e C, sem conseguir retornar à principal divisão do futebol brasileiro.</p><p>Naquela edição, o Tigre terminou na 28ª colocação entre os 44 participantes. O acesso conquistado agora é, portanto, o primeiro do clube no atual formato de pontos corridos, com a particularidade de uma fase final disputada em mata-mata.</p><p>O regulamento da Série B de 2026 tornou o caminho para a primeira divisão diferente. Nesta temporada, apenas os dois primeiros colocados garantiram o acesso direto.</p><p>As outras duas vagas foram decididas em confrontos eliminatórios, entre o terceiro e o sexto colocados e entre o quarto e o quinto, em partidas de ida e volta.</p><p>Apesar do clima de festa, a campanha do Vila Nova também ficou marcada pela polêmica envolvendo o lateral-direito Hayner, preso na véspera do clássico contra o Atlético-GO no âmbito da Operação A Tropa.</p><p>A investigação da Polícia Civil do Espírito Santo apura suspeitas de organização criminosa, tráfico interestadual de drogas e armas e lavagem de dinheiro.</p><p>O jogador teve participação importante na campanha do clube goiano na Série B, com 35 partidas disputadas, a maioria como titular.</p><p>O Vila Nova tem prestado apoio ao atleta, que se apresentou à Justiça acompanhado de um advogado do clube. Em comunicado divulgado pela equipe, Hayner afirmou ser inocente.</p><p>O Vila Nova vai disputar a Série A do Campeonato Brasileiro em 2027, encerrando um jejum de mais de quatro décadas longe da elite nacional.</p><p>Nesta sexta-feira (27), a equipe goiana venceu o clássico contra o Atlético-GO por 2 a 0 e, com o resultado, fechou em 3 a 1 o placar agregado dos dois jogos da fase final da Série B.</p><p>Júnior Barreto, contra, aos 8 minutos do segundo tempo, e João Vieira, aos 32, fizeram os gols da partida.</p><p>Fundado em 1943, o clube, que completou 83 anos, se junta a Novorizontino e Juventude, os primeiros a garantir o acesso à primeira divisão.</p>",
+        "fonteNome": "UOL Notícias",
+        "fonteUrl": "https://www1.folha.uol.com.br/esporte/2026/11/vila-nova-supera-o-atletico-go-e-volta-a-elite-do-futebol-brasileiro-apos-41-anos.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Vila Nova vai disputar a Série A do Campeonato Brasileiro em 2027, encerrando um jejum de mais de quatro décadas longe da elite nacional. Nesta sexta-feira (27), a equipe goiana venceu o clássico contra o Atlético-GO por 2 a 0 e, com o resultado, fechou em 3 a 1 o placar agregado dos dois jogos da fase final da Série B."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Júnior Barreto, contra, aos 8 minutos do segundo tempo, e João Vieira, aos 32, fizeram os gols da partida."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Fundado em 1943, o clube, que completou 83 anos, se junta a Novorizontino e Juventude, os primeiros a garantir o acesso à primeira divisão."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Atualmente, nenhum clube goiano disputa a Série A. O Atlético-GO havia sido o último representante do estado na elite, em 2024, quando acabou rebaixado. Nesta temporada, buscava seu quinto acesso à primeira divisão. A equipe havia conquistado a promoção em 2009, 2016, 2019 e 2023."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A última participação do Vila Nova na elite nacional havia sido em 1985, quando o Campeonato Brasileiro ainda tinha um formato diferente do atual. Desde então, o clube alternou temporadas nas Séries B e C, sem conseguir retornar à principal divisão do futebol brasileiro."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/27/17958281786b0a29d2538b2_1795828178_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/vila-nova-supera-o-atletico-go-e-volta-a-elite-do-futebol-brasileiro-apos-41-anos.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
       "id": "41731df31e19c7ef",
       "titulo": "Eleição do São Paulo: entenda formato e veja candidatos a presidente",
       "categoria": "Esporte",
@@ -1258,90 +1220,6 @@
       "resumoFonte": "Adversários diretos na luta contra o rebaixamento, Corinthians e Grêmio se enfrentam na noite deste domingo (29), pela 37ª rodada do Campeonato Brasileiro",
       "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/neo-quimica-arena-e1784839672415.jpeg?w=1024&h=576&crop=1",
       "descobertaEm": "2026-11-28T00:18:36.123Z"
-    },
-    {
-      "id": "d7fcef428818f47e",
-      "titulo": "Torcedor invade partida de futebol com patinete elétrico na Polônia",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/esportes/torcedor-invade-partida-de-futebol-com-patinete-eletrico-na-polonia",
-      "dataFonte": "2026-11-27T22:47:16.000Z",
-      "resumoFonte": "Torcedor invadiu o gramado durante os acréscimos do jogo na terceira divisão do Campeonato Polonês",
-      "imagem": "https://i.metroimg.com/1zbrGIqbOEQK7CFFO9x-xU-qMM-88lFg891zL-8UGyM/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/patinete-eletrico-scaled.jpg",
-      "descobertaEm": "2026-11-27T23:18:12.338Z"
-    },
-    {
-      "id": "a50d8cabb97ca1d9",
-      "titulo": "Fluminense x Cruzeiro hoje: onde assistir ao vivo e escalações",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/esportes/futebol/fluminense-x-cruzeiro-hoje-escalacoes-27-11-2026/",
-      "dataFonte": "2026-11-27T22:35:56.000Z",
-      "resumoFonte": "Está chegando a hora de Fluminense x Cruzeiro: o jogo é às 20h (de Brasília) nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro de 2026.",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/fluminense-x-cruzeiro-1492475.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "Fluminense x Cruzeiro hoje: onde assistir ao vivo e escalações",
-        "slug": "fluminense-x-cruzeiro-hoje-onde-assistir-ao-vivo-e-escalacoes",
-        "categoria": "Esporte",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/fluminense-x-cruzeiro-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
-        "resumo": "Está chegando a hora de Fluminense x Cruzeiro: o jogo é às 20h (de Brasília) nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro de 2026.",
-        "conteudo": "<p>Está chegando a hora de Fluminense x Cruzeiro: o jogo é às 20h (de Brasília) nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro de 2026.</p><h2>As informações principais do assunto</h2><p>Fluminense x Cruzeiro será transmitido por SporTV (TV fechada), Premiere (pay-per-view) e Globoplay (streaming).</p><p>Fluminense (4-2-3-1): Fábio; Guga, Thiago Silva, Ignacio, Renê; Hércules, Martinelli, A. Canobbio, L. Acosta, J. Savarino; R. Castillo. Técnico: Marcão.</p><p>São duas mudanças em relação ao último jogo, vitória por 1 a 0 sobre o Mirassol. Entram Martinelli e Castillo. Saem Nonato e Hulk. A formação é a mesma, 4-2-3-1.</p><h2>Contexto e informações complementares</h2><p>Cruzeiro (4-2-3-1): Otávio Eleodoro Rezende Costa; Fágner, Fabrício Bruno, Jonathan, L. Villalba; Matheus Henrique, Zé Lucas, Gerson, Matheus Pereira, Bruno Rodrigues; Kaio Jorge. Técnico: Artur Jorge.</p><p>São três mudanças em relação ao último jogo, vitória por 2 a 1 sobre a Chapecoense. Entram Villalba, Gerson e Kaio Jorge. Saem Rojas, Marquinhos e Villarreal. A formação é a mesma, 4-2-3-1.</p><p>O Fluminense soma 63 pontos em 36 jogos e aparece em 4º lugar na tabela, na zona de classificação para a Libertadores. A equipe vem de uma vitória por 1 a 0 sobre o Mirassol. Nos últimos cinco jogos da competição, são quatro vitórias e uma derrota.</p><p>Já o Cruzeiro está em 3º lugar, com 66 pontos, na zona de classificação para a Libertadores. Na última partida, o time venceu a Chapecoense por 2 a 1. O time acumula cinco vitórias nos últimos cinco jogos da competição.</p><p>Veja também o guia completo de Fluminense x Cruzeiro</p><p>Matéria produzida automaticamente com dados da partida.</p><p>Atlético-MG x Corinthians hoje: onde assistir ao vivo e escalações</p><p>Fluminense x Cruzeiro: onde assistir ao vivo, horário e escalações</p><p>Niclas Füllkrug marca no fim, e Werder Bremen arranca empate com o Borussia Mönchengladbach</p><p>Werder Bremen x Borussia Mönchengladbach hoje: onde assistir ao vivo e escalações</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/esportes/futebol/fluminense-x-cruzeiro-hoje-escalacoes-27-11-2026/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Está chegando a hora de Fluminense x Cruzeiro: o jogo é às 20h (de Brasília) nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro de 2026."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Fluminense x Cruzeiro será transmitido por SporTV (TV fechada), Premiere (pay-per-view) e Globoplay (streaming)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Fluminense (4-2-3-1): Fábio; Guga, Thiago Silva, Ignacio, Renê; Hércules, Martinelli, A. Canobbio, L. Acosta, J. Savarino; R. Castillo. Técnico: Marcão."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "São duas mudanças em relação ao último jogo, vitória por 1 a 0 sobre o Mirassol. Entram Martinelli e Castillo. Saem Nonato e Hulk. A formação é a mesma, 4-2-3-1."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Cruzeiro (4-2-3-1): Otávio Eleodoro Rezende Costa; Fágner, Fabrício Bruno, Jonathan, L. Villalba; Matheus Henrique, Zé Lucas, Gerson, Matheus Pereira, Bruno Rodrigues; Kaio Jorge. Técnico: Artur Jorge."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/fluminense-x-cruzeiro-1492475.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/fluminense-x-cruzeiro-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "34a922b5431ea63c",
-      "titulo": "Fluminense x Cruzeiro: assista à transmissão ao vivo do Brasileirão",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/fluminense-x-cruzeiro-assista-a-transmissao-ao-vivo-do-brasileirao/",
-      "dataFonte": "2026-11-27T22:20:52.000Z",
-      "resumoFonte": "Equipes se enfrentam nesta sexta-feira (27), às 20h (de Brasília), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/maraca.jpg?w=1180&h=630&crop=1",
-      "descobertaEm": "2026-11-27T23:18:12.338Z"
     },
     {
       "id": "8d2a07b96f2b72bc",
@@ -1488,79 +1366,31 @@
       "descobertaEm": "2026-11-28T00:18:36.123Z"
     },
     {
-      "id": "413bf15f95be35bf",
-      "titulo": "PGR é contra obrigar União a aprovar empréstimo ao BRB",
+      "id": "db4529b14b7c51b7",
+      "titulo": "Missão tenta se juntar a outros partidos em ação no STF contra regra das sobras eleitorais",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-justica/pgr-e-contra-obrigar-uniao-a-aprovar-emprestimo-ao-brb/",
-      "dataFonte": "2026-11-28T00:02:56.000Z",
-      "resumoFonte": "GDF acionou STF para desbloquear crédito ao BRB após bancos não formarem grupo fiador",
-      "imagem": "https://static.poder360.com.br/uploads/2026/05/Predio-BRB-1080.png",
-      "descobertaEm": "2026-11-28T00:18:36.123Z",
-      "reportagem": {
-        "titulo": "PGR é contra obrigar União a aprovar empréstimo ao BRB",
-        "slug": "pgr-e-contra-obrigar-uniao-a-aprovar-emprestimo-ao-brb",
-        "categoria": "Justiça",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/pgr-e-contra-obrigar-uniao-a-aprovar-emprestimo-ao-brb.jpg",
-        "resumo": "GDF acionou STF para desbloquear crédito ao BRB após bancos não formarem grupo fiador.",
-        "conteudo": "<p>GDF acionou STF para desbloquear crédito ao BRB após bancos não formarem grupo fiador</p><h2>O contexto da decisão judicial</h2><p>O procurador-geral da República, Paulo Gonet , enviou ao Supremo Tribunal Federal , na 5ª feira (26.nov.2026), parecer contrário ao pedido do GDF (Governo do Distrito Federal) para obrigar a União a aprovar empréstimo destinado a salvar o BRB (Banco de Brasília).</p><p>O GDF acionou o Supremo em setembro deste ano para tentar desbloquear a operação de crédito, originalmente prevista em acordo firmado com a União e homologado em maio pelo ministro, relator do caso, Luiz Fux .</p><p>O modelo estabelecido determinava que o empréstimo seria garantido por um grupo de bancos, sem a necessidade de aval federal. O sindicato de bancos, porém, não chegou a ser formado.</p><h2>Detalhes e consequências do caso</h2><p>Gonet concluiu pelo indeferimento de todos os pedidos de tutela provisória de urgência apresentados pelo governo. As solicitações ainda serão analisadas por Fux.</p><p>Para o procurador-geral, o fato de o Distrito Federal ter cumprido as regras fiscais do acordo e, ainda assim, não ter conseguido o financiamento por falta de fiadores privados não obriga a União a assumir esse papel no lugar dos bancos.</p><p>“A circunstância é relevante para aferir os deveres de cooperação dos signatários na execução do ajuste.</p><p>Dela, porém, não decorre a obrigação de a União substituir as instituições financeiras que deixaram de prestar a fiança” , escreveu.</p><p>Acrescentou ainda que o acordo homologado pelo Supremo não contém cláusula de garantia federal subsidiária. “O termo não contém previsão de garantia federal subsidiária.</p><p>Tampouco havia decisão anterior que tivesse reconhecido o direito do autor ao aval” , registrou Gonet no parecer.</p><p>Em manifestação encaminhada ao STF na semana anterior, o FGC estimou em cerca de R$ 17 bilhões sua exposição aos créditos garantidos no BRB.</p><p>O fundo apontou a ausência dos balanços auditados do banco referentes a 2025 e ao 1º semestre de 2026 como obstáculo para avaliar se o aporte seria suficiente para recuperar a instituição.</p><p>O balanço em questão ainda não foi divulgado pelo GDF.</p><p>Gonet compartilhou esse entendimento e reconheceu a gravidade da situação financeira do BRB. Para o procurador-geral, forçar o FGC a conceder o empréstimo antes de concluir a análise de viabilidade poderia produzir efeitos de difícil reversão.</p><p>“As atribuições estatutárias do FGC também não asseguram ao Distrito Federal o empréstimo pretendido.</p><p>A finalidade de prevenir crises permite ao Fundo prestar assistência financeira a instituição associada, inclusive mediante operação com seu controlador.</p><p>O exercício dessa atribuição exige avaliar se o aporte projetado é suficiente para recuperar a instituição e preservar os recursos destinados à proteção dos depositantes” , disse Gonet.</p><p>O procurador-geral explicou que a solvência do Distrito Federal e as garantias do empréstimo cobrem só parte da análise, pois o FGC pode receber o crédito integral do governo distrital e ainda precisar ressarcir depositantes se o valor não bastar para reerguer o BRB, o que justifica exigir as demonstrações auditadas do banco, apesar de o DF ser o tomador.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-justica/pgr-e-contra-obrigar-uniao-a-aprovar-emprestimo-ao-brb/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "GDF acionou STF para desbloquear crédito ao BRB após bancos não formarem grupo fiador"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O procurador-geral da República, Paulo Gonet , enviou ao Supremo Tribunal Federal , na 5ª feira (26.nov.2026), parecer contrário ao pedido do GDF (Governo do Distrito Federal) para obrigar a União a aprovar empréstimo destinado a salvar o BRB (Banco de Brasília). Leia a íntegra (PDF – 411kB)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O GDF acionou o Supremo em setembro deste ano para tentar desbloquear a operação de crédito, originalmente prevista em acordo firmado com a União e homologado em maio pelo ministro, relator do caso, Luiz Fux . O modelo estabelecido determinava que o empréstimo seria garantido por um grupo de bancos, sem a necessidade de aval federal."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Gonet concluiu pelo indeferimento de todos os pedidos de tutela provisória de urgência apresentados pelo governo. As solicitações ainda serão analisadas por Fux."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Para o procurador-geral, o fato de o Distrito Federal ter cumprido as regras fiscais do acordo e, ainda assim, não ter conseguido o financiamento por falta de fiadores privados não obriga a União a assumir esse papel no lugar dos bancos. “A circunstância é relevante para aferir os deveres de cooperação dos signatários na execução do ajuste."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/05/Predio-BRB-1080.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/pgr-e-contra-obrigar-uniao-a-aprovar-emprestimo-ao-brb.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/missao-tenta-se-juntar-a-outros-partidos-em-acao-no-stf-contra-regra-das-sobras-eleitorais.shtml",
+      "dataFonte": "2026-11-27T22:57:00.000Z",
+      "resumoFonte": "O Partido Missão pediu ao Supremo Tribunal Federal para entrar como amicus curiae em uma ADI (Ação Direta de Inconstitucionalidade) em que o PDT e o Solidariedade contestam o modelo de distribuição das sobras eleitorais. Leia mais (11/27/2026 - 19h57)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2019/09/17/15687417205d811958b7798_1568741720_3x2_rt.jpg",
+      "descobertaEm": "2026-11-27T23:18:12.338Z"
     }
   ],
-  "reapuradoEm": "2026-11-28T01:48:47.664Z",
+  "reapuradoEm": "2026-11-28T02:49:20.921Z",
   "diagnosticoReapuracao": {
-    "produzidas": 23,
+    "produzidas": 20,
     "jaProntas": 0,
-    "incompletas": 10,
+    "incompletas": 11,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 23,
+    "geradas": 20,
     "reaproveitadas": 0,
-    "puladas": 10,
+    "puladas": 11,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-28T01:50:35.270Z"
+  "lapisEm": "2026-11-28T02:50:51.609Z"
 }
