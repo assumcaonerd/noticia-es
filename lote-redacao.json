@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-27T23:48:22.982Z",
+  "geradoEm": "2026-11-28T00:49:11.505Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
@@ -8,50 +8,467 @@
     "semImagem": 0,
     "duplicadasBasicas": 0,
     "duplicadasSemanticas": 0,
-    "foraCategorias": 37
+    "foraCategorias": 40
   },
   "quantidadeCandidatas": 33,
   "tentativasRecentes": {
-    "6909b2df169d3f04": 1795823302982,
-    "5f018a641dca9bf3": 1795820311160,
-    "2e4458a6032a7665": 1795820311160,
-    "1efcf78ff74df68c": 1795823302982,
-    "5e36ee1e2ec082b8": 1795823302982,
-    "7cc40743cc2e673c": 1795823302982,
-    "358110ded28b4ca1": 1795823302982,
-    "7c890d712d86cf62": 1795820311160,
-    "69e19a32b66f8bb9": 1795820311160,
-    "70d0f26b9d73755c": 1795823302982,
-    "e2ffec18a60a1ee1": 1795823302982,
-    "9a646170a7bed0e1": 1795823302982,
-    "65d86ca0a7316a4e": 1795823302982,
-    "7a4cbfd88405297e": 1795823302982,
-    "9a0d03a31dc642ee": 1795823302982,
-    "3fbf610dd43600d8": 1795823302982,
-    "d231889843e64dc9": 1795823302982,
-    "a7ad2228bd7ddc02": 1795820311160,
-    "e9ce3fdb30a69d78": 1795823302982,
-    "c25401b7c6ac046b": 1795823302982,
-    "dafb3612efe5a9c3": 1795823302982,
-    "137063ac4fab3281": 1795823302982,
-    "d7fcef428818f47e": 1795823302982,
-    "8d2a07b96f2b72bc": 1795823302982,
-    "bf67327f3812b555": 1795823302982,
-    "5e06c8e4b676ae5c": 1795823302982,
-    "36d52a60a6870060": 1795823302982,
-    "d05864e89a744776": 1795823302982,
-    "01b7508bfffaeaa3": 1795823302982,
-    "3edf666302f5195c": 1795823302982,
-    "dec506acb34138e9": 1795823302982,
-    "d5d0a3389d3c76dc": 1795823302982,
-    "a50d8cabb97ca1d9": 1795823302982,
-    "34a922b5431ea63c": 1795823302982,
-    "05aa72ba5d34b109": 1795823302982,
-    "7415194e64828f48": 1795823302982,
-    "6943f45c5b3d8545": 1795823302982,
-    "db4529b14b7c51b7": 1795823302982
+    "1efcf78ff74df68c": 1795826951505,
+    "5e36ee1e2ec082b8": 1795826951505,
+    "7cc40743cc2e673c": 1795826951505,
+    "358110ded28b4ca1": 1795826951505,
+    "7c890d712d86cf62": 1795826951505,
+    "9a646170a7bed0e1": 1795826951505,
+    "65d86ca0a7316a4e": 1795826951505,
+    "7a4cbfd88405297e": 1795826951505,
+    "9a0d03a31dc642ee": 1795826951505,
+    "3fbf610dd43600d8": 1795826951505,
+    "e9ce3fdb30a69d78": 1795823312510,
+    "c25401b7c6ac046b": 1795826951505,
+    "dafb3612efe5a9c3": 1795826951505,
+    "137063ac4fab3281": 1795826951505,
+    "d7fcef428818f47e": 1795826951505,
+    "8d2a07b96f2b72bc": 1795826951505,
+    "bf67327f3812b555": 1795826951505,
+    "d05864e89a744776": 1795826951505,
+    "3edf666302f5195c": 1795826951505,
+    "dec506acb34138e9": 1795826951505,
+    "d5d0a3389d3c76dc": 1795826951505,
+    "a50d8cabb97ca1d9": 1795826951505,
+    "34a922b5431ea63c": 1795826951505,
+    "05aa72ba5d34b109": 1795826951505,
+    "6943f45c5b3d8545": 1795826951505,
+    "db4529b14b7c51b7": 1795823312510,
+    "d436b25f677a9e02": 1795826951505,
+    "b303ac5841aa7cc5": 1795826951505,
+    "d6b4b80453e7b56d": 1795826951505,
+    "41731df31e19c7ef": 1795826951505,
+    "16c2d2bdaac0c0ad": 1795826951505,
+    "fbbe49289853bc70": 1795826951505,
+    "adfff6f807a52725": 1795826951505,
+    "f7d3c594bbf71309": 1795826951505,
+    "413bf15f95be35bf": 1795826951505
   },
   "candidatas": [
+    {
+      "id": "d436b25f677a9e02",
+      "titulo": "Após 'efeito Trabuco', Lula inicia recalibragem do discurso do ajuste fiscal",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://www1.folha.uol.com.br/colunas/adriana-fernandes/2026/11/apos-efeito-trabuco-lula-inicia-recalibragem-do-discurso-do-ajuste-fiscal.shtml",
+      "dataFonte": "2026-11-27T23:40:00.000Z",
+      "resumoFonte": "A indicação de Luiz Trabuco para o Ministério da Fazenda no Lula 4 já valeu na largada R$ 0,30 na cotação do dólar. O \"efeito Trabuco\" é muita coisa para o curto período de três dias, entre a quarta (25), quando a Folha revelou que Lula havia feito convite, e o banqueiro, pedido tempo para pensar, e esta sexta-feira (27).",
+      "imagem": "https://f.i.uol.com.br/fotografia/2025/03/14/174198456567d49335d74b9_1741984565_3x2_rt.jpg",
+      "descobertaEm": "2026-11-28T00:18:36.123Z",
+      "reportagem": {
+        "titulo": "Opinião - Adriana Fernandes: Após 'efeito Trabuco', Lula inicia recalibragem do discurso do ajuste fiscal",
+        "slug": "opiniao-adriana-fernandes-apos-efeito-trabuco-lula-inicia-recalibragem-do-discurso-do-ajus",
+        "categoria": "Economia",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/opiniao-adriana-fernandes-apos-efeito-trabuco-lula-inicia-recalibragem-do-discurso-do-ajus.jpg",
+        "resumo": "Indicação do futuro ministro da Fazenda já valeu na largada R$ 0,30 na cotação do dólar",
+        "conteudo": "<p>Jornalista em Brasília, onde acompanha os principais acontecimentos econômicos e políticos há mais de 25 anos</p><h2>Dados e contexto do setor</h2><p>A indicação de Luiz Trabuco para o Ministério da Fazenda no Lula 4 já valeu na largada R$ 0,30 na cotação do dólar .</p><p>O &quot;efeito Trabuco&quot; é muita coisa para o curto período de três dias, entre a quarta (25), quando a Folha revelou que Lula havia feito o convite, e o banqueiro, pedido tempo para pensar, e esta sexta-feira (27).</p><p>A moeda saiu nesse período de R$ 5,81 para R$ 5,52 . Na segunda-feira, a cotação tinha ultrapassado R$ 6,00, e o pessimismo era geral. Levando em conta aquele dia de caos, o ganho até agora na cotação alcançou R$ 0,50.</p><h2>Impactos e informações adicionais</h2><p>O derretimento dos preços do mercado ajuda o Banco Central e dá fôlego para o presidente Lula fazer com tranquilidade as costuras políticas necessárias para fechar sua equipe até o fim do ano.</p><p>A cotação da moeda norte-americana pode cair ainda mais com o andar da carruagem da transição entre os ministros da Fazenda, Dario Durigan , e do Planejamento, Bruno Moretti —que deve permanecer no cargo— e Trabuco.</p><p>Durigan e a cúpula do Congresso Nacional têm preferência pela votação de um pacote de medidas de ajuste ainda neste ano, aproveitando o Legislativo menos hostil. Mas existe pressão política de auxiliares do presidente para deixar o segundo pacote para o ano que vem.</p><p>Há prós e contras. Por um lado, haveria mais tempo de discussão e aprofundamento das medidas sob a batuta de Trabuco e a nova equipe.</p><p>Além disso, o perfil do futuro ministro aproxima o governo da agenda do centrão, o que facilitaria angariar apoio de parlamentares do lado da oposição.</p><p>Por outro lado, votar ainda em 2026 tem a vantagem de um Congresso mais amigável. Além disso, pode ser bom para Trabuco começar com o jogo zerado em 2027 , deixando a negociação das novas medidas para o time atual, sem gastar capital político pessoal nesse fim de mandato.</p><p>Essa será uma decisão de Lula com Trabuco. O que se viu ao final desta semana histórica é o início da recalibragem do discurso do presidente. Lula falou em ajustes de despesas para não gastar à toa .</p><p>O que ele fala nas entrelinhas é a reforma dos programas sociais, que poderá ser a principal agenda do início de Lula 4.</p><p>A indicação de Luiz Trabuco para o Ministério da Fazenda no Lula 4 já valeu na largada R$ 0,30 na cotação do dólar .</p><p>O &quot;efeito Trabuco&quot; é muita coisa para o curto período de três dias, entre a quarta (25), quando a Folha revelou que Lula havia feito o convite, e o banqueiro, pedido tempo para pensar, e esta sexta-feira (27).</p><p>A moeda saiu nesse período de R$ 5,81 para R$ 5,52 . Na segunda-feira, a cotação tinha ultrapassado R$ 6,00, e o pessimismo era geral. Levando em conta aquele dia de caos, o ganho até agora na cotação alcançou R$ 0,50.</p><p>O derretimento dos preços do mercado ajuda o Banco Central e dá fôlego para o presidente Lula fazer com tranquilidade as costuras políticas necessárias para fechar sua equipe até o fim do ano.</p>",
+        "fonteNome": "UOL Notícias",
+        "fonteUrl": "https://www1.folha.uol.com.br/colunas/adriana-fernandes/2026/11/apos-efeito-trabuco-lula-inicia-recalibragem-do-discurso-do-ajuste-fiscal.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Jornalista em Brasília, onde acompanha os principais acontecimentos econômicos e políticos há mais de 25 anos"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A indicação de Luiz Trabuco para o Ministério da Fazenda no Lula 4 já valeu na largada R$ 0,30 na cotação do dólar . O \"efeito Trabuco\" é muita coisa para o curto período de três dias, entre a quarta (25), quando a Folha revelou que Lula havia feito o convite, e o banqueiro, pedido tempo para pensar, e esta sexta-feira (27)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A moeda saiu nesse período de R$ 5,81 para R$ 5,52 . Na segunda-feira, a cotação tinha ultrapassado R$ 6,00, e o pessimismo era geral. Levando em conta aquele dia de caos, o ganho até agora na cotação alcançou R$ 0,50."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O derretimento dos preços do mercado ajuda o Banco Central e dá fôlego para o presidente Lula fazer com tranquilidade as costuras políticas necessárias para fechar sua equipe até o fim do ano."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A cotação da moeda norte-americana pode cair ainda mais com o andar da carruagem da transição entre os ministros da Fazenda, Dario Durigan , e do Planejamento, Bruno Moretti —que deve permanecer no cargo— e Trabuco."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2025/03/14/174198456567d49335d74b9_1741984565_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/opiniao-adriana-fernandes-apos-efeito-trabuco-lula-inicia-recalibragem-do-discurso-do-ajus.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "b303ac5841aa7cc5",
+      "titulo": "MP apura uso de praia em Balneário Camboriú para show de Shakira",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/entretenimento/mp-apura-uso-de-praia-em-balneario-camboriu-para-show-de-shakira",
+      "dataFonte": "2026-11-28T00:07:59.000Z",
+      "resumoFonte": "Prefeitura terá cinco dias para apresentar documentos sobre a ocupação da faixa de areia durante evento de Réveillon",
+      "imagem": "https://i.metroimg.com/55yZro7uUdi8YtkowiMNwL_BGWHC34PjvwraZIqMUA0/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/05/gettyimages-2274233585.jpg",
+      "descobertaEm": "2026-11-28T00:18:36.123Z",
+      "reportagem": {
+        "titulo": "MP apura uso de praia em Balneário Camboriú para show de Shakira",
+        "slug": "mp-apura-uso-de-praia-em-balneario-camboriu-para-show-de-shakira",
+        "categoria": "Cultura",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/mp-apura-uso-de-praia-em-balneario-camboriu-para-show-de-shakira.jpg",
+        "resumo": "Prefeitura terá cinco dias para apresentar documentos sobre a ocupação da faixa de areia durante evento de Réveillon",
+        "conteudo": "<p>O Ministério Público de Santa Catarina (MPSC) apura a legalidade da utilização de aproximadamente 50 mil metros quadrados da Praia Central de Balneário Camboriú (SC) para a realização de um evento de Réveillon que terá a cantora Shakira entre as atrações.</p><h2>As informações principais do assunto</h2><p>O Verão Atmosphere está previsto para ocorrer na virada de 2026 para 2027, com apresentação da artista anunciada para 31 de dezembro.</p><p>A festa terá tanto setores gratuitos quanto áreas com ingressos à venda, incluindo camarotes.</p><p>A investigação foi aberta para verificar se a ocupação temporária da faixa de areia atende às exigências legais e se preserva o acesso da população à praia e ao mar. Não há irregularidade comprovada.</p><h2>Contexto e informações complementares</h2><p>A apuração é conduzida pela 9ª Promotoria de Justiça da Comarca de Balneário Camboriú , que atua na área de moralidade administrativa.</p><p>O promotor de Justiça Jean Michel Forest assinou, em 25 de novembro, um despacho determinando que a Prefeitura apresente documentos e esclarecimentos sobre o evento no prazo de cinco dias, a contar do recebimento do pedido.</p><p>Shakira celebrou os fãs brasileiros durante a apresentação no Todo Mundo no Rio</p><p>2 milhões de pessoas foram ver Shakira de perto nas areias de Copacabana</p><p>O assunto também foi encaminhado à 5ª Promotoria de Justiça, responsável pela área de meio ambiente, e à 6ª Promotoria, que atua na defesa do consumidor e da cidadania.</p><p>Entre as informações solicitadas estão os documentos que autorizam a utilização da faixa de areia, as condições estabelecidas para a cessão do espaço e as contrapartidas assumidas pelos organizadores.</p><p>O Ministério Público também quer saber se haverá uso de recursos materiais, financeiros ou de pessoal da administração municipal.</p><p>A Promotoria pediu ainda a identificação das empresas responsáveis pelo evento e detalhes sobre a área que será ocupada.</p><p>A Prefeitura deverá esclarecer a informação de que cerca de 50 mil metros quadrados da praia serão destinados à estrutura da festa e apresentar a planta correspondente.</p><p>Outro ponto questionado pelo MPSC é a divisão entre os espaços de acesso gratuito e os setores destinados à venda de ingressos e camarotes.</p><p>O órgão quer conhecer a localização e a metragem de cada área, além dos corredores que serão mantidos para garantir a circulação da população e o acesso ao mar.</p><p>Também foram solicitados detalhes sobre as estruturas provisórias previstas, como palcos, tendas, cercamentos, banheiros químicos, geradores e arquibancadas.</p><p>O município deverá informar o cronograma de montagem e desmontagem e os períodos em que o uso coletivo da orla poderá ser limitado.</p><p>Depois de receber as respostas da Prefeitura ou do encerramento do prazo concedido, a 9ª Promotoria de Justiça fará uma nova análise do caso para definir os próximos encaminhamentos.</p><p>Para ficar por dentro de tudo sobre o universo dos famosos e do entretenimento siga o perfil Metrópoles Fun no Instagram .</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/entretenimento/mp-apura-uso-de-praia-em-balneario-camboriu-para-show-de-shakira",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Ministério Público de Santa Catarina (MPSC) apura a legalidade da utilização de aproximadamente 50 mil metros quadrados da Praia Central de Balneário Camboriú (SC) para a realização de um evento de Réveillon que terá a cantora Shakira entre as atrações."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A investigação foi aberta para verificar se a ocupação temporária da faixa de areia atende às exigências legais e se preserva o acesso da população à praia e ao mar. Não há irregularidade comprovada."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A apuração é conduzida pela 9ª Promotoria de Justiça da Comarca de Balneário Camboriú , que atua na área de moralidade administrativa. O promotor de Justiça Jean Michel Forest assinou, em 25 de novembro, um despacho determinando que a Prefeitura apresente documentos e esclarecimentos sobre o evento no prazo de cinco dias, a contar do recebimento do pedido."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Shakira celebrou os fãs brasileiros durante a apresentação no Todo Mundo no Rio"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "2 milhões de pessoas foram ver Shakira de perto nas areias de Copacabana"
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/55yZro7uUdi8YtkowiMNwL_BGWHC34PjvwraZIqMUA0/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/05/gettyimages-2274233585.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/mp-apura-uso-de-praia-em-balneario-camboriu-para-show-de-shakira.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "d6b4b80453e7b56d",
+      "titulo": "Especialista alerta para riscos do uso inadequado da IA nas escolas",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/educacao/especialista-alerta-para-riscos-do-uso-inadequado-da-ia-nas-escolas/",
+      "dataFonte": "2026-11-27T23:55:53.000Z",
+      "resumoFonte": "Facilidade excessiva de ferramentas digitais pode prejudicar o raciocínio crítico dos alunos e gerar desinformação; estudante explica que utiliza a inteligência artificial para auxiliar nos estudos",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/little-classmates-discussing-lesson-doing-task.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-28T00:18:36.123Z",
+      "reportagem": {
+        "titulo": "Especialista alerta para riscos do uso inadequado da IA nas escolas",
+        "slug": "especialista-alerta-para-riscos-do-uso-inadequado-da-ia-nas-escolas",
+        "categoria": "Tecnologia",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/especialista-alerta-para-riscos-do-uso-inadequado-da-ia-nas-escolas.jpg",
+        "resumo": "Facilidade excessiva de ferramentas digitais pode prejudicar o raciocínio crítico dos alunos e gerar desinformação; estudante explica que utiliza a inteligência artificial para auxiliar nos estudos",
+        "conteudo": "<p>Um estudo apontou que a IA (Inteligência Artificial) tem o potencial de transformar a educação. Para que esse potencial seja benéfico, é essencial uma integração das tecnologias, mas que seja guiada por líderes educacionais com conhecimento dessas tecnologias.</p><h2>Dados e contexto do setor</h2><p>A análise &quot; Inteligência Artificial na educação: condições e desafios para a América Latina e o Caribe&quot; é da TIC Educação, coordenada pelo Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação.</p><p>O estudo aponta três formas que a inteligência artificial poderia ser implementada.</p><p>O primeiro exemplo seria quanto ao apoio aos processos de ensino e aprendizagem, o segundo seria sobre o apoio à gestão educacional, já o terceiro seria sobre o desenvolvimento de competências e habilidades para a vida e o trabalho na era da IA.</p><h2>Impactos e informações adicionais</h2><p>O Ministério da Educação (MEC) também homologou o parecer do Conselho Nacional de Educação (CNE) que traz as Diretrizes para a Utilização da Inteligência Artificial na Educação Brasileira, para todas as etapas de ensino.</p><p>O professor de história e diretor do Colégio Sigma, Tiago Diana, explica que a união entre educação e tecnologia pode abrir um novo caminho para o conhecimento, sem deixar de lado o que é essencial.</p><p>&quot;Acredito que as novas diretrizes trazem uma mensagem importante: precisamos aprender a conviver com a tecnologia, mas sem perder aquilo que é essencial na educação (...) A escola do futuro não será aquela que utiliza mais tecnologia, mas aquela que sabe utilizar a tecnologia para ensinar melhor &quot;, destaca o especialista.</p><p>Tiago ainda destaca que a ferramenta pode ser uma aliada na aprendizagem.</p><p>&quot;A inteligência artificial pode ser uma grande aliada da aprendizagem . Ela oferece possibilidades muito interessantes: ajudar o aluno a compreender um conteúdo, apresentar diferentes explicações, organizar ideias, aprofundar pesquisas e até identificar suas dificuldades.</p><p>Imagine um estudante que não compreendeu determinado assunto em sala de aula. A tecnologia pode oferecer outra explicação, apresentar exemplos diferentes e ajudá-lo a avançar&quot;, analisa.</p><p>Para o especialista, os principais riscos dessa implementação e união entre estudos e inteligência artificial está na facilidade que ela pode propor.</p><p>&quot;O maior risco é o estudante começar a confundir facilidade com aprendizagem. Quando utilizamos uma ferramenta para resolver todos os nossos problemas, sem compreender o processo, podemos deixar de exercitar habilidades fundamentais, como a leitura, a interpretação, a escrita, o raciocínio e a capacidade de argumentação&quot;, afirma.</p><p>Além disso, o professor aponta que outro risco aborda as informações falsas que as IA&#39;s podem apresentar aos estudantes.</p><p>&quot;Essas ferramentas podem produzir informações incorretas, reproduzir preconceitos e apresentar respostas com aparência de certeza, mesmo quando estão erradas&quot;, indica.</p><p>A estudante do 3º ano do Fundamental I, Maria Paula de Magalhães, aponta que usa a inteligência artificial para auxiliar nos estudos, principalmente quando tem dúvidas, mas entende que a ferramenta serve apenas como uma aliada.</p><p>&quot;Utilizo algumas ferramentas de inteligência artificial para me ajudar nos estudos.</p><p>Às vezes, utilizo para organizar ideias, resumir conteúdos ou encontrar outras formas de explicar uma matéria que não compreendi muito bem. Mas entendo que a ferramenta não pode fazer tudo por mim.</p><p>Preciso estudar, ler, interpretar e realmente aprender o conteúdo. Afinal, na hora de uma prova ou de resolver um problema, sou eu que preciso saber o que fazer&quot;, afirma a estudante.</p><p>Um estudo apontou que a IA tem o potencial de transformar a educação, mas para que esse potencial seja benéfico, é essencial uma integração das tecnologias, mas que seja guiada por líderes educacionais com conhecimento dessas tecnologias</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/educacao/especialista-alerta-para-riscos-do-uso-inadequado-da-ia-nas-escolas/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/"
+          },
+          {
+            "nome": "MCTI",
+            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Um estudo apontou que a IA (Inteligência Artificial) tem o potencial de transformar a educação. Para que esse potencial seja benéfico, é essencial uma integração das tecnologias, mas que seja guiada por líderes educacionais com conhecimento dessas tecnologias."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A análise \" Inteligência Artificial na educação: condições e desafios para a América Latina e o Caribe\" é da TIC Educação, coordenada pelo Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O estudo aponta três formas que a inteligência artificial poderia ser implementada. O primeiro exemplo seria quanto ao apoio aos processos de ensino e aprendizagem, o segundo seria sobre o apoio à gestão educacional, já o terceiro seria sobre o desenvolvimento de competências e habilidades para a vida e o trabalho na era da IA."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O Ministério da Educação (MEC) também homologou o parecer do Conselho Nacional de Educação (CNE) que traz as Diretrizes para a Utilização da Inteligência Artificial na Educação Brasileira, para todas as etapas de ensino."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O professor de história e diretor do Colégio Sigma, Tiago Diana, explica que a união entre educação e tecnologia pode abrir um novo caminho para o conhecimento, sem deixar de lado o que é essencial."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/little-classmates-discussing-lesson-doing-task.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/especialista-alerta-para-riscos-do-uso-inadequado-da-ia-nas-escolas.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "41731df31e19c7ef",
+      "titulo": "Eleição do São Paulo: entenda formato e veja candidatos a presidente",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/esportes/futebol/sao-paulo-futebol-clube/eleicao-do-sao-paulo-entenda-formato-e-veja-candidatos-a-presidente/",
+      "dataFonte": "2026-11-27T23:56:50.000Z",
+      "resumoFonte": "Votam apenas aqueles vinculados ao clube social, excluindo sócio-torcedor e proprietário de cadeira cativa no MorumBis",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/FTA20261010172.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-28T00:18:36.123Z",
+      "reportagem": {
+        "titulo": "Eleição do São Paulo: entenda formato e veja candidatos a presidente",
+        "slug": "eleicao-do-sao-paulo-entenda-formato-e-veja-candidatos-a-presidente",
+        "categoria": "Esporte",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/eleicao-do-sao-paulo-entenda-formato-e-veja-candidatos-a-presidente.jpg",
+        "resumo": "Votam apenas aqueles vinculados ao clube social, excluindo sócio-torcedor e proprietário de cadeira cativa no MorumBis",
+        "conteudo": "<p>Os sócios do São Paulo votarão em candidatos ao Conselho Deliberativo neste domingo.</p><h2>O contexto da decisão judicial</h2><p>É a primeira etapa do processo eleitoral , que tem o desfecho na eleição para a presidência, prevista para a segunda semana de dezembro. Assim como muitos clubes no Brasil, o São Paulo tem um processo eleitoral indireto.</p><p>Cerca de 6,5 mil sócios estão aptos a votar em candidatos ao Conselho na Assembleia Geral. Votam apenas aqueles vinculados ao clube social, excluindo sócio-torcedor e proprietário de cadeira cativa no MorumBis.</p><p>Cada eleitor escolhe até 20 candidatos. Os postulantes ao Conselho estão divididos em duas chapas, mas o sócio pode escolher nomes dos dois lados. O voto é secreto, presencial e em urna eletrônica.</p><h2>Contexto e informações complementares</h2><p>Serão eleitos 100 novos conselheiros, dos quais 75 serão os mais votados. Depois, a cada três eleitos de uma chapa, é eleito outro do mesmo grupo até que fechem os outros 25. Esses precisam ter, pelo menos, 1% do total de votos.</p><p>Os 100 eleitos se juntam a outros 152 vitalícios, que ganharam esse status por fatores como tempo de associação e “atestado de fé são-paulina”.</p><p>É como um comprovante de que se é torcedor do São Paulo, já que há conselheiros cuja relação com o clube é apenas pelo social. O limite de vitalícios é 160.</p><p>As eleições para esses cargos são feitas à parte, quando há vacância de lotes de vagas abertos.</p><p>Os 252 conselheiros, então, votarão para a presidência. Essa eleição pode ser presencial, híbrida ou online, a depender da convocação do presidente do Conselho Deliberativo.</p><p>Portanto, se a chapa vinculada a um dos candidatos tiver eleito mais conselheiros, a lógica é de que esse candidato terá mais votos. O sistema é o mesmo para eleger o próximo presidente do Conselho.</p><p>Os novos dirigentes assumem o São Paulo por um período de três anos. Desde 2022, é possível a reeleição, o que faz a gestão ter dois triênios (seis anos).</p><p>Votam apenas aqueles vinculados ao clube social, excluindo sócio-torcedor e proprietário de cadeira cativa no MorumBis</p><p>Justiça adia decisão sobre intervenção no Corinthians e impõe medidas cautelares</p><p>Do voto na urna eletrônica à eleição pelos 252 conselheiros</p><p>São Paulo x Remo hoje: onde assistir ao vivo e escalações</p><p>Está chegando a hora de São Paulo x Remo: o jogo é às 20h (de Brasília) nesta quinta-feira (26), no MorumBis, em São Paulo, pela 37ª rodada do Campeonato Brasileiro de 2026.</p><p>São Paulo atinge &#39;meta Crespo&#39; em empate com Botafogo</p><p>São Paulo repete erros e sofre revés de 2 a 0 para Cruzeiro</p><p>Cruzeiro x São Paulo: onde assistir ao vivo, horário e transmissão</p><p>São Paulo quita um mês de direitos de imagem atrasados</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/esportes/futebol/sao-paulo-futebol-clube/eleicao-do-sao-paulo-entenda-formato-e-veja-candidatos-a-presidente/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Os sócios do São Paulo votarão em candidatos ao Conselho Deliberativo neste domingo. É a primeira etapa do processo eleitoral , que tem o desfecho na eleição para a presidência, prevista para a segunda semana de dezembro. Assim como muitos clubes no Brasil, o São Paulo tem um processo eleitoral indireto."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Cada eleitor escolhe até 20 candidatos. Os postulantes ao Conselho estão divididos em duas chapas, mas o sócio pode escolher nomes dos dois lados. O voto é secreto, presencial e em urna eletrônica."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Serão eleitos 100 novos conselheiros, dos quais 75 serão os mais votados. Depois, a cada três eleitos de uma chapa, é eleito outro do mesmo grupo até que fechem os outros 25. Esses precisam ter, pelo menos, 1% do total de votos."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Os 100 eleitos se juntam a outros 152 vitalícios, que ganharam esse status por fatores como tempo de associação e “atestado de fé são-paulina”. É como um comprovante de que se é torcedor do São Paulo, já que há conselheiros cuja relação com o clube é apenas pelo social. O limite de vitalícios é 160."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Os 252 conselheiros, então, votarão para a presidência. Essa eleição pode ser presencial, híbrida ou online, a depender da convocação do presidente do Conselho Deliberativo."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/FTA20261010172.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/eleicao-do-sao-paulo-entenda-formato-e-veja-candidatos-a-presidente.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "16c2d2bdaac0c0ad",
+      "titulo": "Marinha apura denúncia de estupro contra tenente durante viagem de formação",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/brasil/marinha-apura-denuncia-de-estupro-contra-tenente-durante-viagem-de-formacao",
+      "dataFonte": "2026-11-28T00:04:48.000Z",
+      "resumoFonte": "Marinha apura denúncia de estupro contra tenente durante viagem de formação. Dois militares foram repatriados ao Brasil",
+      "imagem": "https://i.metroimg.com/WxbgqOUI3Qu1DWyzsL70R5Bv_L19e1nGw7bSqPYqnOI/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/navio-escola-brasil.jpg",
+      "descobertaEm": "2026-11-28T00:18:36.123Z"
+    },
+    {
+      "id": "1efcf78ff74df68c",
+      "titulo": "Quênia: líder de seita do jejum até a morte é condenado por 123 homicídios",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/mundo/quenia-lider-de-seita-do-jejum-ate-a-morte-e-condenado-por-123-homicidios",
+      "dataFonte": "2026-11-27T21:51:07.000Z",
+      "resumoFonte": "Justiça considerou que Paul Mackenzie organizou jejuns extremos que levaram seguidores à morte. Líder já cumpre pena de 200 anos",
+      "imagem": "https://i.metroimg.com/YfiRs6_Mz5fa4qVRcbXMCLIWY8luKH0k2pUxrvVGQDw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/lider-seita-jejum-quenia.jpg",
+      "descobertaEm": "2026-11-27T22:02:42.560Z"
+    },
+    {
+      "id": "fbbe49289853bc70",
+      "titulo": "Trabuco terá de convencer Lula a fazer ajuste fiscal de até R$ 400 bilhões, diz economista",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/economia/trabuco-tera-de-convencer-lula-a-fazer-ajuste-fiscal-de-ate-r-400-bilhoes-diz-economista/",
+      "dataFonte": "2026-11-27T23:33:19.000Z",
+      "resumoFonte": "Sergio Vale afirma que as medidas já aprovadas são insuficientes para conter o avanço da dívida",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/55658423199_64cb95626f_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-11-28T00:18:36.123Z",
+      "reportagem": {
+        "titulo": "Trabuco terá de convencer Lula a fazer ajuste fiscal de até R$ 400 bilhões, diz economista",
+        "slug": "trabuco-tera-de-convencer-lula-a-fazer-ajuste-fiscal-de-ate-r-400-bilhoes-diz-economista",
+        "categoria": "Economia",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/trabuco-tera-de-convencer-lula-a-fazer-ajuste-fiscal-de-ate-r-400-bilhoes-diz-economista.jpg",
+        "resumo": "Sergio Vale afirma que as medidas já aprovadas são insuficientes para conter o avanço da dívida",
+        "conteudo": "<p>Luiz Carlos Trabuco terá de convencer o presidente Luiz Inácio Lula da Silva a aceitar um ajuste fiscal de grande dimensão para conter o crescimento da dívida pública.</p><h2>Dados e contexto do setor</h2><p>Na avaliação do economista Sergio Vale, o esforço necessário pode chegar a R$ 400 bilhões &amp;mdash; muito acima das medidas já aprovadas ou em discussão pelo governo.</p><p>Em entrevista ao VEJA em Foco , apresentado por Marcela Rahal, Vale afirmou que o principal desafio do futuro ministro da Fazenda será conseguir respaldo político para mexer em despesas que Lula não demonstra disposição de cortar. (este texto é um resumo do vídeo acima)</p><p>Segundo o economista, as medidas fiscais já aprovadas, que somam cerca de R$ 50 bilhões, e uma eventual economia adicional de R$ 20 bilhões representam uma parcela importante do esforço, mas ainda são insuficientes.</p><h2>Impactos e informações adicionais</h2><p>“O ajuste fiscal que a gente precisa para minimamente pensar em parar de subir a dívida pública nos próximos anos. A gente está falando de 350, 400 bilhões de reais”, afirmou.</p><p>Vale apontou que o desafio do futuro ministro está no fato de que parte das despesas que precisariam ser revistas envolve temas aos quais o presidente resiste.</p><p>Entre os exemplos citados pelo economista estão os supersalários, a estrutura dos ministérios e as emendas parlamentares. Estas últimas, segundo ele, representam um gasto anual de 50 bilhões a 60 bilhões de reais.</p><p>Mesmo um corte parcial, avaliou, ficaria muito aquém do necessário.</p><p>Na avaliação de Vale, Trabuco terá de lidar não apenas com Lula, mas também com o entorno do presidente e com as resistências políticas à agenda fiscal.</p><p>O economista mencionou a indisposição de setores próximos ao governo em relação ao futuro ministro e afirmou que há incerteza sobre o que ele conseguirá implementar no próximo mandato.</p><p>Para Vale, a relação de longa data entre Trabuco e Lula pode ser um trunfo: talvez o executivo seja uma das poucas pessoas capazes de ter com o presidente uma conversa direta sobre a situação das contas públicas.</p><p>Vale afirmou que, se a trajetória atual for mantida, a dívida pública poderá chegar a 95% do Produto Interno Bruto (PIB) no fim desta década.</p><p>Segundo ele, quanto mais o governo adiar as decisões, maior será o endividamento e mais difícil ficará realizar o ajuste no futuro.</p><p>Nesse cenário, o país precisaria produzir um resultado primário ainda maior para conseguir reduzir a dívida.</p><p>O economista também alertou que a escolha de Trabuco, embora tenha sido recebida positivamente pelo mercado financeiro, não elimina as incertezas sobre a política econômica do próximo governo.</p><p>Para ele, será necessário apresentar um plano de ação e deixar claras as medidas que poderão ser adotadas.</p><p>Caso o resultado seja um pacote muito limitado, Vale avalia que a reação positiva dos investidores poderá se reverter. “Vai ser um traque, vai ser alguma coisa muito pequena que vai surgir pela frente.</p><p>E torço para que seja diferente, senão o mercado vai se assustar de novo”, afirmou.</p><p>VEJA+IA: Este texto resume um trecho do telejornal VEJA em Foco (confira o vídeo acima). Conteúdo produzido com auxílio de inteligência artificial e supervisão humana.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/economia/trabuco-tera-de-convencer-lula-a-fazer-ajuste-fiscal-de-ate-r-400-bilhoes-diz-economista/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Luiz Carlos Trabuco terá de convencer o presidente Luiz Inácio Lula da Silva a aceitar um ajuste fiscal de grande dimensão para conter o crescimento da dívida pública. Na avaliação do economista Sergio Vale, o esforço necessário pode chegar a R$ 400 bilhões &mdash; muito acima das medidas já aprovadas ou em discussão pelo governo."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Segundo o economista, as medidas fiscais já aprovadas, que somam cerca de R$ 50 bilhões, e uma eventual economia adicional de R$ 20 bilhões representam uma parcela importante do esforço, mas ainda são insuficientes. “O ajuste fiscal que a gente precisa para minimamente pensar em parar de subir a dívida pública nos próximos anos."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Vale apontou que o desafio do futuro ministro está no fato de que parte das despesas que precisariam ser revistas envolve temas aos quais o presidente resiste. Entre os exemplos citados pelo economista estão os supersalários, a estrutura dos ministérios e as emendas parlamentares."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Na avaliação de Vale, Trabuco terá de lidar não apenas com Lula, mas também com o entorno do presidente e com as resistências políticas à agenda fiscal. O economista mencionou a indisposição de setores próximos ao governo em relação ao futuro ministro e afirmou que há incerteza sobre o que ele conseguirá implementar no próximo mandato."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Vale afirmou que, se a trajetória atual for mantida, a dívida pública poderá chegar a 95% do Produto Interno Bruto (PIB) no fim desta década. Segundo ele, quanto mais o governo adiar as decisões, maior será o endividamento e mais difícil ficará realizar o ajuste no futuro."
+          }
+        ],
+        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/11/55658423199_64cb95626f_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/trabuco-tera-de-convencer-lula-a-fazer-ajuste-fiscal-de-ate-r-400-bilhoes-diz-economista.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "adfff6f807a52725",
+      "titulo": "Meirelles alerta que dívida pública pode levar Brasil a repetir crise de 2015 e 2016",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/economia/meirelles-alerta-que-divida-publica-pode-levar-brasil-a-repetir-crise-de-2015-e-2016/",
+      "dataFonte": "2026-11-27T23:21:42.000Z",
+      "resumoFonte": "Ex-ministro da Fazenda afirma que crescimento do endividamento e preocupação dos investidores podem provocar retração dos investimentos e recessão",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2024/09/henrique-meirelles-2.jpeg.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-11-28T00:18:36.123Z",
+      "reportagem": {
+        "titulo": "Meirelles alerta que dívida pública pode levar Brasil a repetir crise de 2015 e 2016",
+        "slug": "meirelles-alerta-que-divida-publica-pode-levar-brasil-a-repetir-crise-de-2015-e-2016",
+        "categoria": "Economia",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/meirelles-alerta-que-divida-publica-pode-levar-brasil-a-repetir-crise-de-2015-e-2016.jpg",
+        "resumo": "Ex-ministro da Fazenda afirma que crescimento do endividamento e preocupação dos investidores podem provocar retração dos investimentos e recessão",
+        "conteudo": "<p>O crescimento da dívida pública brasileira pode levar o país a enfrentar uma situação semelhante à crise econômica de 2015 e 2016.</p><h2>Dados e contexto do setor</h2><p>O alerta foi feito pelo ex-ministro da Fazenda e ex-presidente do Banco Central Henrique Meirelles, em entrevista ao VEJA em Foco , apresentado por Marcela Rahal nesta sexta-feira, 27.</p><p>Ao avaliar a escolha de Luiz Carlos Trabuco para comandar o Ministério da Fazenda, Meirelles afirmou que o governo gasta mais do que arrecada e que a continuidade dessa trajetória tende a aumentar a preocupação dos investidores com a capacidade de o país sustentar seu endividamento. (este texto é um resumo do vídeo acima)</p><p>“A dívida pública está subindo. Mantida essa trajetória, isso nos levaria a uma situação como ocorreu em 2015 e 2016”, afirmou.</p><h2>Impactos e informações adicionais</h2><p>Naquele período, segundo o ex-ministro, a evolução do endividamento começou a gerar desconfiança entre investidores, que passaram a avaliar que a dívida caminhava para um patamar insustentável.</p><p>O movimento foi acompanhado por uma retração dos investimentos e, posteriormente, pela recessão.</p><p>Meirelles recuperou aquele período para ilustrar os riscos de uma trajetória persistente de crescimento da dívida pública.</p><p>Segundo sua análise, a preocupação com a sustentabilidade das contas do governo afetou as decisões de investimento e contribuiu para a retração da atividade econômica.</p><p>O ex-ministro não afirmou que o país necessariamente repetirá aquele cenário, mas advertiu que a manutenção do atual caminho de endividamento pode produzir consequências semelhantes.</p><p>Para ele, a questão central é impedir que a dívida continue avançando sem uma estratégia consistente de controle.</p><p>Meirelles considera que o futuro ministro tem qualificação técnica para enfrentar o problema. Ele destacou que Trabuco trabalha com crédito desde os 17 anos e passou boa parte da carreira no setor bancário.</p><p>Na avaliação do ex-ministro, essa experiência tem relação direta com o desafio de administrar uma dívida pública crescente, já que o governo precisa financiar a diferença entre o que arrecada e o que gasta.</p><p>O caminho apontado por Meirelles é formular uma estratégia para conter o avanço do endividamento por meio do controle das despesas públicas.</p><p>Ele ponderou que a execução dessa política dependerá de negociações dentro do governo e de apoio político, mas ressaltou que a questão fiscal não pode ser indefinidamente adiada.</p><p>Na parte final da entrevista, Meirelles defendeu que Trabuco apresente suas diretrizes para a política econômica logo no início do próximo mandato.</p><p>O plano, segundo ele, deve ser comunicado não apenas aos investidores, mas também a empresários, consumidores e à sociedade em geral, que também sentem os efeitos do desequilíbrio das contas públicas.</p><p>O ex-ministro afirmou que o futuro titular da Fazenda precisará combinar a sinalização de compromisso com o controle dos gastos com a negociação junto às lideranças políticas.</p><p>Não considera necessário que todas as medidas sejam anunciadas já no primeiro dia de janeiro, mas defende que o problema seja enfrentado o quanto antes.</p><p>A advertência de Meirelles é que a trajetória da dívida exige uma resposta do governo.</p><p>Sem uma estratégia para conter o crescimento das despesas, o país poderá voltar a enfrentar um ambiente de desconfiança dos investidores, retração dos investimentos e dificuldades para sustentar a atividade econômica.</p><p>VEJA+IA: Este texto resume um trecho do telejornal VEJA em Foco (confira o vídeo acima). Conteúdo produzido com auxílio de inteligência artificial e supervisão humana.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/economia/meirelles-alerta-que-divida-publica-pode-levar-brasil-a-repetir-crise-de-2015-e-2016/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O crescimento da dívida pública brasileira pode levar o país a enfrentar uma situação semelhante à crise econômica de 2015 e 2016. O alerta foi feito pelo ex-ministro da Fazenda e ex-presidente do Banco Central Henrique Meirelles, em entrevista ao VEJA em Foco , apresentado por Marcela Rahal nesta sexta-feira, 27."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "“A dívida pública está subindo. Mantida essa trajetória, isso nos levaria a uma situação como ocorreu em 2015 e 2016”, afirmou. Naquele período, segundo o ex-ministro, a evolução do endividamento começou a gerar desconfiança entre investidores, que passaram a avaliar que a dívida caminhava para um patamar insustentável."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Meirelles recuperou aquele período para ilustrar os riscos de uma trajetória persistente de crescimento da dívida pública. Segundo sua análise, a preocupação com a sustentabilidade das contas do governo afetou as decisões de investimento e contribuiu para a retração da atividade econômica."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O ex-ministro não afirmou que o país necessariamente repetirá aquele cenário, mas advertiu que a manutenção do atual caminho de endividamento pode produzir consequências semelhantes. Para ele, a questão central é impedir que a dívida continue avançando sem uma estratégia consistente de controle."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Meirelles considera que o futuro ministro tem qualificação técnica para enfrentar o problema. Ele destacou que Trabuco trabalha com crédito desde os 17 anos e passou boa parte da carreira no setor bancário."
+          }
+        ],
+        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2024/09/henrique-meirelles-2.jpeg.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/meirelles-alerta-que-divida-publica-pode-levar-brasil-a-repetir-crise-de-2015-e-2016.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "f7d3c594bbf71309",
+      "titulo": "Corinthians x Grêmio: horário e onde assistir ao jogo do Brasileirão",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/corinthians-x-gremio-horario-e-onde-assistir-ao-jogo-do-brasileirao-2/",
+      "dataFonte": "2026-11-27T23:35:09.000Z",
+      "resumoFonte": "Adversários diretos na luta contra o rebaixamento, Corinthians e Grêmio se enfrentam na noite deste domingo (29), pela 37ª rodada do Campeonato Brasileiro",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/neo-quimica-arena-e1784839672415.jpeg?w=1024&h=576&crop=1",
+      "descobertaEm": "2026-11-28T00:18:36.123Z"
+    },
+    {
+      "id": "413bf15f95be35bf",
+      "titulo": "PGR é contra obrigar União a aprovar empréstimo ao BRB",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-justica/pgr-e-contra-obrigar-uniao-a-aprovar-emprestimo-ao-brb/",
+      "dataFonte": "2026-11-28T00:02:56.000Z",
+      "resumoFonte": "GDF acionou STF para desbloquear crédito ao BRB após bancos não formarem grupo fiador",
+      "imagem": "https://static.poder360.com.br/uploads/2026/05/Predio-BRB-1080.png",
+      "descobertaEm": "2026-11-28T00:18:36.123Z"
+    },
+    {
+      "id": "7c890d712d86cf62",
+      "titulo": "Fluminense x Cruzeiro: escalações e onde assistir ao jogo do Brasileirão",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/fluminense-x-cruzeiro-escalacoes-e-onde-assistir-ao-jogo-do-brasileirao-2/",
+      "dataFonte": "2026-11-27T22:02:04.000Z",
+      "resumoFonte": "Equipes se enfrentam nesta sexta-feira (27), às 20h (de Brasília), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/maraca.jpg?w=1180&h=630&crop=1",
+      "descobertaEm": "2026-11-27T22:18:28.416Z"
+    },
     {
       "id": "c25401b7c6ac046b",
       "titulo": "Pedra Azul Summit 2026 debate juros, ajuste fiscal e reforma tributária no primeiro dia",
@@ -108,234 +525,6 @@
         ],
         "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795815109142_clo4773.jpeg",
         "imagemX": "https://noticiaes.com.br/imagens/lapis/pedra-azul-summit-2026-debate-juros-ajuste-fiscal-e-reforma-tributaria-no-primeiro-dia.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "dafb3612efe5a9c3",
-      "titulo": "MPSP pede que Prefeitura de SP faça estudo de segurança para o Carnaval",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/sao-paulo/mpsp-pede-que-prefeitura-de-sp-faca-estudo-de-seguranca-para-o-carnaval",
-      "dataFonte": "2026-11-27T22:46:49.000Z",
-      "resumoFonte": "A medida preventiva decorre de graves falhas de planejamento e superlotação ocorridas durante a edição de 2026 nos blocos de rua",
-      "imagem": "https://i.metroimg.com/7AvL6S9kjaLY7vAwIfu96mGvEemyOQT_-a8G_AFrnuA/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/02/publico-calvin-harris.jpg",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "MPSP pede que Prefeitura de SP faça estudo de segurança para o Carnaval",
-        "slug": "mpsp-pede-que-prefeitura-de-sp-faca-estudo-de-seguranca-para-o-carnaval",
-        "categoria": "Cultura",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mpsp-pede-que-prefeitura-de-sp-faca-estudo-de-seguranca-para-o-carnaval.jpg",
-        "resumo": "A medida preventiva decorre de graves falhas de planejamento e superlotação ocorridas durante a edição de 2026 nos blocos de rua de Carnaval",
-        "conteudo": "<p>São Paulo — O Ministério Público de São Paulo ( MPSP ) protocolou uma ação civil pública para pedir que a Prefeitura de São Paulo seja obrigada pela Justiça a elaborar e apresentar estudos técnicos de viabilidade e segurança para cada via utilizada nos desfiles do Carnaval de Rua de 2027 .</p><h2>As informações principais do assunto</h2><p>A medida preventiva decorre de graves falhas de planejamento da gestão Ricardo Nunes (MDB) e superlotação ocorridas na capital paulista durante a edição de 2026.</p><p>Ajuizado pela Promotoria de Justiça de Habitação e Urbanismo na segunda-feira (23/11), o documento enfatiza que a intenção não é “proibir, restringir ou desestimular” a festividade cultural, mas assegurar que o poder público cumpra o dever de oferecer condições seguras para foliões, trabalhadores e moradores.</p><h2>Contexto e informações complementares</h2><p>Diante da proximidade do evento, o órgão requer a concessão de tutela de urgência para condicionar a aprovação dos trajetos à entrega dos relatórios necessários. Os promotores apontam que as falhas deste ano “permanecem, em larga medida, inalteradas para a edição de 2027”.</p><p>“Cada dia transcorrido sem planejamento técnico reduz o tempo hábil para estudar as vias, fixar capacidades, contratar e dimensionar estruturas e, se necessário, realocar desfiles, de modo que a omissão do município, se não for judicialmente sanada de imediato, tornará inútil o provimento jurisdicional”, destacou a ação.</p><p>Ação civil pública: o Ministério Público de São Paulo solicita que a Prefeitura apresente estudos técnicos de viabilidade e segurança para os desfiles de Carnaval de 2027; Pedidos do órgão: a Promotoria de Justiça de Habitação e Urbanismo requer tutela de urgência para condicionar a aprovação dos trajetos à entrega de relatórios; Carnaval de 2026: o MPSP cita falhas e superlotação na Rua da Consolação em 8 de fevereiro de 2026.</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/sao-paulo/mpsp-pede-que-prefeitura-de-sp-faca-estudo-de-seguranca-para-o-carnaval",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "São Paulo — O Ministério Público de São Paulo ( MPSP ) protocolou uma ação civil pública para pedir que a Prefeitura de São Paulo seja obrigada pela Justiça a elaborar e apresentar estudos técnicos de viabilidade e segurança para cada via utilizada nos desfiles do Carnaval de Rua de 2027 ."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Ajuizado pela Promotoria de Justiça de Habitação e Urbanismo na segunda-feira (23/11), o documento enfatiza que a intenção não é “proibir, restringir ou desestimular” a festividade cultural, mas assegurar que o poder público cumpra o dever de oferecer condições seguras para foliões, trabalhadores e moradores."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Diante da proximidade do evento, o órgão requer a concessão de tutela de urgência para condicionar a aprovação dos trajetos à entrega dos relatórios necessários. Os promotores apontam que as falhas deste ano “permanecem, em larga medida, inalteradas para a edição de 2027”."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "“Cada dia transcorrido sem planejamento técnico reduz o tempo hábil para estudar as vias, fixar capacidades, contratar e dimensionar estruturas e, se necessário, realocar desfiles, de modo que a omissão do município, se não for judicialmente sanada de imediato, tornará inútil o provimento jurisdicional”, destacou a ação."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Ação civil pública: o Ministério Público de São Paulo solicita que a Prefeitura apresente estudos técnicos de viabilidade e segurança para os desfiles de Carnaval de 2027; Pedidos do órgão: a Promotoria de Justiça de Habitação e Urbanismo requer tutela de urgência para condicionar a aprovação dos trajetos à entrega de relatórios; Carnaval de 2026: o MPSP cita falhas e superlotação na Rua da Consolação em 8 de fevereiro de 2026."
-          }
-        ],
-        "imagemOriginal": "https://i.metroimg.com/7AvL6S9kjaLY7vAwIfu96mGvEemyOQT_-a8G_AFrnuA/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/02/publico-calvin-harris.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/mpsp-pede-que-prefeitura-de-sp-faca-estudo-de-seguranca-para-o-carnaval.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "137063ac4fab3281",
-      "titulo": "Furto de celular em ônibus: estrangeiros são presos em Vitória",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "Tribuna Online - Capa",
-      "urlFonte": "https://tribunaonline.com.br/cotidiano/policia/furto-de-celular-onibus-vitoria/",
-      "dataFonte": "2026-11-27T22:10:19.000Z",
-      "resumoFonte": "Furto de celular em ônibus em Vitória termina com dois estrangeiros detidos pela Guarda Municipal após rastreamento do aparelho por GPS.",
-      "imagem": "https://media.tribunaonline.com.br/wp-content/uploads/2026/11/ANA-74.jpg",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "Furto de celular em ônibus: estrangeiros são presos em Vitória",
-        "slug": "furto-de-celular-em-onibus-estrangeiros-sao-presos-em-vitoria",
-        "categoria": "Tecnologia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/furto-de-celular-em-onibus-estrangeiros-sao-presos-em-vitoria.jpg",
-        "resumo": "Furto de celular em ônibus em Vitória termina com dois estrangeiros detidos pela Guarda Municipal após rastreamento do aparelho por GPS.",
-        "conteudo": "<p>A Guarda Civil Municipal de Vitória (GCMV) localizou quatro celulares e conduziu dois estrangeiros, um homem uruguaio e uma mulher equatoriana, à delegacia após o furto do aparelho de uma estudante dentro de um ônibus, na manhã desta sexta-feira (27).</p><h2>Dados e contexto do setor</h2><p>A localização do telefone por GPS ajudou os agentes a encontrar os suspeitos em um coletivo na Avenida Duarte Lemos , na região da Vila Rubim .</p><p>A estudante procurou uma base da Guarda Municipal depois de perceber que o celular havia sido retirado de sua bolsa durante a viagem. Assim que recebeu o pedido de ajuda, um dos agentes utilizou o próprio iPhone para rastrear o aparelho da vítima.</p><h2>Impactos e informações adicionais</h2><p>Com o sinal ativo, a equipe iniciou as buscas e conseguiu localizar o ônibus onde estavam o homem e a mulher, suspeitos de envolvimento no furto.</p><p>De acordo com os agentes, os suspeitos teriam descartado os aparelhos na lixeira do coletivo. Ao todo, foram encontrados três iPhones e um celular da marca Motorola , entre eles o telefone da estudante.</p><p>Os dois estrangeiros foram conduzidos à 1ª Delegacia Regional de Vitória . Conforme o relato da equipe, eles foram reconhecidos pela vítima como as pessoas que estavam próximas a ela dentro do ônibus quando o celular foi levado.</p><p>Os procedimentos cabíveis estavam em andamento na delegacia no fim da manhã desta sexta-feira (27).</p>",
-        "fonteNome": "Tribuna Online - Capa",
-        "fonteUrl": "https://tribunaonline.com.br/cotidiano/policia/furto-de-celular-onibus-vitoria/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
-          },
-          {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A Guarda Civil Municipal de Vitória (GCMV) localizou quatro celulares e conduziu dois estrangeiros, um homem uruguaio e uma mulher equatoriana, à delegacia após o furto do aparelho de uma estudante dentro de um ônibus, na manhã desta sexta-feira (27)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A estudante procurou uma base da Guarda Municipal depois de perceber que o celular havia sido retirado de sua bolsa durante a viagem. Assim que recebeu o pedido de ajuda, um dos agentes utilizou o próprio iPhone para rastrear o aparelho da vítima."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Com o sinal ativo, a equipe iniciou as buscas e conseguiu localizar o ônibus onde estavam o homem e a mulher, suspeitos de envolvimento no furto."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "De acordo com os agentes, os suspeitos teriam descartado os aparelhos na lixeira do coletivo. Ao todo, foram encontrados três iPhones e um celular da marca Motorola , entre eles o telefone da estudante."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os dois estrangeiros foram conduzidos à 1ª Delegacia Regional de Vitória . Conforme o relato da equipe, eles foram reconhecidos pela vítima como as pessoas que estavam próximas a ela dentro do ônibus quando o celular foi levado."
-          }
-        ],
-        "imagemOriginal": "https://media.tribunaonline.com.br/wp-content/uploads/2026/11/ANA-74.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/furto-de-celular-em-onibus-estrangeiros-sao-presos-em-vitoria.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "d7fcef428818f47e",
-      "titulo": "Torcedor invade partida de futebol com patinete elétrico na Polônia",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/esportes/torcedor-invade-partida-de-futebol-com-patinete-eletrico-na-polonia",
-      "dataFonte": "2026-11-27T22:47:16.000Z",
-      "resumoFonte": "Torcedor invadiu o gramado durante os acréscimos do jogo na terceira divisão do Campeonato Polonês",
-      "imagem": "https://i.metroimg.com/1zbrGIqbOEQK7CFFO9x-xU-qMM-88lFg891zL-8UGyM/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/patinete-eletrico-scaled.jpg",
-      "descobertaEm": "2026-11-27T23:18:12.338Z"
-    },
-    {
-      "id": "8d2a07b96f2b72bc",
-      "titulo": "Dino bloqueia emendas individuais de Flávio Bolsonaro",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/11/27/dino-bloqueia-emendas-individuais-de-flavio-bolsonaro.htm",
-      "dataFonte": "2026-11-27T23:06:00.000Z",
-      "resumoFonte": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), determinou o bloqueio de todas as emendas individuais do senador Flávio Bolsonaro (PL-RJ). Na decisão, proferida nesta sexta-feira, 27, o magistrado diz que o parlamentar não pode manter as prerrogativas de seu mandato, como destinar recursos públicos, após ter deixado o País para evitar…",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/STF-6x1-AudienciaPublica-FlavioDino-7-1200x675.jpg",
-      "descobertaEm": "2026-11-27T23:18:12.338Z"
-    },
-    {
-      "id": "70d0f26b9d73755c",
-      "titulo": "Acompanhe programa especial Fim de Expediente no ES",
-      "categoria": "Política ES",
-      "radar": null,
-      "fonteNome": "A Gazeta - Política",
-      "urlFonte": "https://www.agazeta.com.br/es/politica/a-gazeta-as-principais-noticias-do-espirito-santo/acompanhe-programa-especial-fim-de-expediente-no-es-1126",
-      "dataFonte": "2026-11-27T21:30:00.000Z",
-      "resumoFonte": "Edição do programa é direto do Pedra Azul Summit 2026; os convidados são o cantor Paulo Ricardo e a jornalista Júlia Dialibi",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795815230354_maxresdefault_2.jpg",
-      "descobertaEm": "2026-11-27T22:02:42.560Z"
-    },
-    {
-      "id": "1efcf78ff74df68c",
-      "titulo": "Quênia: líder de seita do jejum até a morte é condenado por 123 homicídios",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/mundo/quenia-lider-de-seita-do-jejum-ate-a-morte-e-condenado-por-123-homicidios",
-      "dataFonte": "2026-11-27T21:51:07.000Z",
-      "resumoFonte": "Justiça considerou que Paul Mackenzie organizou jejuns extremos que levaram seguidores à morte. Líder já cumpre pena de 200 anos",
-      "imagem": "https://i.metroimg.com/YfiRs6_Mz5fa4qVRcbXMCLIWY8luKH0k2pUxrvVGQDw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/lider-seita-jejum-quenia.jpg",
-      "descobertaEm": "2026-11-27T22:02:42.560Z"
-    },
-    {
-      "id": "e2ffec18a60a1ee1",
-      "titulo": "“Veto Corleone”: Trump faz publicação após perder controle do Congresso",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/internacional/veto-corleone-trump-faz-publicacao-apos-perder-controle-do-congresso/",
-      "dataFonte": "2026-11-27T21:16:37.000Z",
-      "resumoFonte": "Presidente dos Estados Unidos se comparou ao chefão da máfia Don Vito Corleone, do filme \"O Poderoso Chefão\", indicando novamente que deve barrar propostas do Partido Democrata",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/publicacao-donald-trump-veto-corleone.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-27T22:02:42.560Z",
-      "reportagem": {
-        "titulo": "\"Veto Corleone\": Trump faz publicação após perder controle do Congresso",
-        "slug": "veto-corleone-trump-faz-publicacao-apos-perder-controle-do-congresso",
-        "categoria": "Política Nacional",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/veto-corleone-trump-faz-publicacao-apos-perder-controle-do-congresso.jpg",
-        "resumo": "Presidente dos Estados Unidos se comparou ao chefão da máfia Don Vito Corleone, do filme \"O Poderoso Chefão\", indicando novamente que deve barrar propostas do Partido Democrata",
-        "conteudo": "<p>O presidente dos Estados Unidos, Donald Trump, fez uma publicação na Truth Social nesta sexta-feira (27) em que aparece como &quot;Veto Corleone&quot; em uma imagem aparentemente feita por inteligência artificial.</p><h2>O contexto do cenário político</h2><p>O post e o nome fazem referência ao filme &quot;O Poderoso Chefão&quot;, de 1972, no qual o personagem principal é o mafioso Don Vito Corleone.</p><p>A publicação é feita semanas após a oposição sair vitoriosa das Midterms, as Eleições de Meio de Mandato, e o Partido Democrata recuperar o controle tanto da Câmara quanto do Senado dos EUA.</p><p>Após a derrota do Partido Republicano nas urnas, Trump afirmou que será o &quot;senhor veto&quot; , barrando propostas da oposição que forem aprovadas no Congresso.</p><h2>Informações e repercussões do episódio</h2><p>Logo após a eleição, inclusive, ele publicou um boné vermelho com a palavra &quot;VETO&quot; , fazendo referência ao boné &quot;MAGA&quot;, que seus apoiadores do movimento Make America Great Again (Faça a América Grande Novamente) utilizam frequentemente.</p><p>O presidente americano tem dado sinais conflitantes sobre como atuará nos últimos dois anos de mandato e como lidará com a maioria democrata no Poder Legislativo.</p><p>Ele chegou a garantir, mais de uma vez, que respeitará o resultado das urnas e que negociará com a oposição . Porém, além das publicações indicando que irá derrubar projetos, já questionou a votação realizada em 3 de novembro .</p><p>O novo Congresso americano tomará posse no dia 3 de janeiro de 2027. Com isso, Trump terá sérias dificuldades para tentar aprovar suas políticas, além de estar sujeito à abertura de investigações por parte de parlamentares -- parte da oposição quer, inclusive, o impeachment do presidente dos EUA.</p><p>Donald Trump, presidente dos Estados Unidos, faz publicação em que aparece como &quot;Veto Corleone&quot;; ele já afirmou que vetará propostas do Partido Democrata, que ganhou o controle do Congresso nas Midterms, as Eleições de Meio de Mandato</p><p>O presidente dos Estados Unidos, Donald Trump, fez uma publicação na Truth Social nesta sexta-feira (27) em que aparece como &quot;Veto Corleone&quot; em uma imagem aparentemente feita por inteligência artificial.</p><p>O post e o nome fazem referência ao filme &quot;O Poderoso Chefão&quot;, de 1972, no qual o personagem principal é o mafioso Don Vito Corleone.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/internacional/veto-corleone-trump-faz-publicacao-apos-perder-controle-do-congresso/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O presidente dos Estados Unidos, Donald Trump, fez uma publicação na Truth Social nesta sexta-feira (27) em que aparece como \"Veto Corleone\" em uma imagem aparentemente feita por inteligência artificial."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O post e o nome fazem referência ao filme \"O Poderoso Chefão\", de 1972, no qual o personagem principal é o mafioso Don Vito Corleone."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A publicação é feita semanas após a oposição sair vitoriosa das Midterms, as Eleições de Meio de Mandato, e o Partido Democrata recuperar o controle tanto da Câmara quanto do Senado dos EUA."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Após a derrota do Partido Republicano nas urnas, Trump afirmou que será o \"senhor veto\" , barrando propostas da oposição que forem aprovadas no Congresso."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Logo após a eleição, inclusive, ele publicou um boné vermelho com a palavra \"VETO\" , fazendo referência ao boné \"MAGA\", que seus apoiadores do movimento Make America Great Again (Faça a América Grande Novamente) utilizam frequentemente."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/publicacao-donald-trump-veto-corleone.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/veto-corleone-trump-faz-publicacao-apos-perder-controle-do-congresso.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -401,126 +590,6 @@
       }
     },
     {
-      "id": "5e06c8e4b676ae5c",
-      "titulo": "Trabuco precisará do apoio de Lula para fazer ajuste fiscal, diz Henrique Meirelles",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/economia/trabuco-precisara-do-apoio-de-lula-para-fazer-ajuste-fiscal-diz-henrique-meirelles/",
-      "dataFonte": "2026-11-27T23:18:17.000Z",
-      "resumoFonte": "Ex-ministro afirma que futuro titular da Fazenda terá de negociar medidas com o PT e os partidos aliados",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/54172744976_1a2443c02d_o-e1795812596365.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "Trabuco precisará do apoio de Lula para fazer ajuste fiscal, diz Henrique Meirelles",
-        "slug": "trabuco-precisara-do-apoio-de-lula-para-fazer-ajuste-fiscal-diz-henrique-meirelles",
-        "categoria": "Economia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/trabuco-precisara-do-apoio-de-lula-para-fazer-ajuste-fiscal-diz-henrique-meirelles.jpg",
-        "resumo": "Ex-ministro afirma que futuro titular da Fazenda terá de negociar medidas com o PT e os partidos aliados",
-        "conteudo": "<p>O futuro ministro da Fazenda, Luiz Carlos Trabuco, precisará do apoio direto de Lula para conseguir implementar medidas de controle dos gastos públicos no próximo governo.</p><h2>Dados e contexto do setor</h2><p>A avaliação é do ex-ministro da Fazenda e ex-presidente do Banco Central Henrique Meirelles.</p><p>Em entrevista ao VEJA em Foco , apresentado por Marcela Rahal nesta sexta-feira, 27, ele afirmou que o principal desafio do executivo escolhido para comandar a economia será construir uma articulação política capaz de viabilizar as mudanças necessárias, inclusive diante de possíveis resistências dentro do próprio PT. (este texto é um resumo do vídeo acima)</p><p>Meirelles considera que Trabuco tem qualificação técnica para assumir o ministério e destaca sua experiência de décadas no setor bancário. O problema, segundo ele, é transformar essa capacidade em medidas concretas.</p><h2>Impactos e informações adicionais</h2><p>Para isso, o futuro ministro terá de conversar com as lideranças petistas, os partidos de esquerda que integram a base governista e o Congresso Nacional.</p><p>“é necessário, de fato, nessa hora, que o presidente apoie”, afirmou o ex-ministro.</p><p>Na avaliação de Meirelles, a relação próxima entre Trabuco e o presidente pode facilitar a interlocução.</p><p>O banqueiro, que preside o Conselho de Administração do Bradesco, tem uma relação antiga com Lula, característica que o ex-ministro considera positiva para a negociação.</p><p>Ainda assim, o respaldo presidencial será indispensável para que ele consiga conduzir uma política de controle fiscal.</p><p>A dificuldade está também nas posições já manifestadas pelo presidente sobre despesas públicas. Lula tem afirmado que não pretende promover cortes em áreas como saúde, educação e programas sociais.</p><p>Meirelles reconhece que será necessário encontrar alternativas e identificar quais gastos podem ser reduzidos, mas ressalta que o futuro ministro não conseguirá avançar sem construir um entendimento com o chefe do Executivo e os integrantes da base.</p><p>Meirelles defende que o futuro titular da Fazenda deixe clara sua disposição de controlar o crescimento das despesas e apresente as diretrizes de sua atuação.</p><p>Na entrevista, ele afirmou que a negociação deverá envolver diferentes lideranças políticas, inclusive os ministros do PT que integram o governo.</p><p>O ex-ministro também recomendou que Trabuco não limite sua comunicação aos investidores. Empresários, consumidores e a sociedade em geral precisam conhecer as medidas que serão propostas, argumentou.</p><p>Para ele, o excesso de gastos públicos produz efeitos que ultrapassam o mercado financeiro e atingem a economia como um todo.</p><p>Na avaliação de Meirelles, o futuro ministro precisará combinar firmeza na condução da política fiscal com habilidade para negociar dentro do governo.</p><p>Ele não defendeu que todas as medidas sejam anunciadas no primeiro dia de janeiro, mas cobrou que o assunto seja encaminhado logo no início do mandato. “O importante é que se faça e não pode esperar”, afirmou.</p><p>VEJA+IA: Este texto resume um trecho do telejornal VEJA em Foco (confira o vídeo acima). Conteúdo produzido com auxílio de inteligência artificial e supervisão humana.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/economia/trabuco-precisara-do-apoio-de-lula-para-fazer-ajuste-fiscal-diz-henrique-meirelles/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O futuro ministro da Fazenda, Luiz Carlos Trabuco, precisará do apoio direto de Lula para conseguir implementar medidas de controle dos gastos públicos no próximo governo. A avaliação é do ex-ministro da Fazenda e ex-presidente do Banco Central Henrique Meirelles."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Meirelles considera que Trabuco tem qualificação técnica para assumir o ministério e destaca sua experiência de décadas no setor bancário. O problema, segundo ele, é transformar essa capacidade em medidas concretas."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na avaliação de Meirelles, a relação próxima entre Trabuco e o presidente pode facilitar a interlocução. O banqueiro, que preside o Conselho de Administração do Bradesco, tem uma relação antiga com Lula, característica que o ex-ministro considera positiva para a negociação."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A dificuldade está também nas posições já manifestadas pelo presidente sobre despesas públicas. Lula tem afirmado que não pretende promover cortes em áreas como saúde, educação e programas sociais."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Meirelles defende que o futuro titular da Fazenda deixe clara sua disposição de controlar o crescimento das despesas e apresente as diretrizes de sua atuação. Na entrevista, ele afirmou que a negociação deverá envolver diferentes lideranças políticas, inclusive os ministros do PT que integram o governo."
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/11/54172744976_1a2443c02d_o-e1795812596365.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/trabuco-precisara-do-apoio-de-lula-para-fazer-ajuste-fiscal-diz-henrique-meirelles.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "36d52a60a6870060",
-      "titulo": "Ferramenta gratuita reúne mudanças para MEIs",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-empreendedor/ferramenta-gratuita-reune-mudancas-para-meis/",
-      "dataFonte": "2026-11-27T23:15:31.000Z",
-      "resumoFonte": "Plataforma apresenta 11 medidas sobre faturamento, impostos e dívidas; consulta orienta cada tipo de negócio",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/Plataforma-MEIs-1200x675.jpg",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "Ferramenta gratuita reúne mudanças para MEIs",
-        "slug": "ferramenta-gratuita-reune-mudancas-para-meis",
-        "categoria": "Economia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/ferramenta-gratuita-reune-mudancas-para-meis.jpg",
-        "resumo": "Plataforma apresenta 11 medidas sobre faturamento, impostos e dívidas; consulta orienta cada tipo de negócio.",
-        "conteudo": "<p>Plataforma apresenta 11 medidas sobre faturamento, impostos e dívidas; consulta orienta cada tipo de negócio</p><h2>Dados e contexto do setor</h2><p>MEIs (microempreendedores individuais) e donos de pequenos negócios podem consultar gratuitamente as mudanças previstas nas regras de faturamento, tributação e regularização de dívidas.</p><p>O Radar das Mudanças para Pequenos Negócios reúne 11 medidas relacionadas à reforma tributária e ao pacote Prospera MEI , informando quem será afetado, quando as alterações devem entrar em vigor e quais já têm previsão legal.</p><p>Desenvolvida pela Barkus, empresa de tecnologia educacional voltada à educação e à inclusão financeira, a ferramenta permite filtrar as informações de acordo com o enquadramento do negócio. As informações estão divididas nas seguintes categorias:</p><h2>Impactos e informações adicionais</h2><p>Das 11 medidas reunidas, 8 têm previsão legal e 3 foram anunciadas pelo governo, mas ainda dependem da definição de regras para implementação. O serviço pode ser acessado sem custos.</p><p>Entre as mudanças apresentadas está a proposta de ampliação do limite anual de faturamento do MEI, atualmente de R$ 81.000. A previsão é que o teto passe para R$ 110 mil em 2027 e R$ 140 mil em 2028.</p><p>O cálculo considera a receita bruta do negócio, sem descontar despesas, como aluguel, compra de mercadorias ou pagamento de fornecedores.</p><p>A alteração pode impactar microempreendedores que atualmente se aproximam do limite de faturamento e precisam acompanhar as regras para permanecer no enquadramento.</p><p>A ferramenta também reúne informações sobre a medida de perdão de dívidas com a União . A iniciativa contempla débitos previdenciários abrangidos pela legislação, existentes até 13 de outubro de 2026, incluindo juros, multas e encargos.</p><p>Dívidas que já estejam parceladas também podem ser incluídas, conforme as condições previstas.</p><p>A medida não abrange débitos estaduais e municipais, como ICMS (Imposto sobre a Circulação de Mercadorias e Serviços) e ISS (Imposto sobre Serviços), nem prevê a devolução de valores já pagos.</p><p>Antes de tomar decisões sobre a regularização, o empreendedor deve verificar se o débito se enquadra nas condições estabelecidas.</p><p>Outro tema disponível no Radar é o Pix MEI , benefício anunciado como parte do Prospera MEI. A iniciativa prevê apoio financeiro de até R$ 5.000 para investimentos nos negócios, sem necessidade de devolução.</p><p>O programa ainda está em fase de estruturação e depende da divulgação dos critérios e dos procedimentos para concessão dos recursos.</p><p>A formalização como MEI ou a existência de um CNPJ (Cadastro Nacional de Pessoas Jurídicas), por si só, não garante recebimento do benefício. Os interessados devem acompanhar a publicação das regras oficiais antes de contar com o recurso.</p><p>A plataforma também explica a criação da categoria de nanoempreendedor , prevista na reforma tributária.</p><p>O enquadramento contempla pessoas físicas que exerçam atividades econômicas e atendam aos requisitos estabelecidos na legislação, mas não estejam formalizadas como MEI.</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-empreendedor/ferramenta-gratuita-reune-mudancas-para-meis/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Plataforma apresenta 11 medidas sobre faturamento, impostos e dívidas; consulta orienta cada tipo de negócio"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "MEIs (microempreendedores individuais) e donos de pequenos negócios podem consultar gratuitamente as mudanças previstas nas regras de faturamento, tributação e regularização de dívidas."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O Radar das Mudanças para Pequenos Negócios reúne 11 medidas relacionadas à reforma tributária e ao pacote Prospera MEI , informando quem será afetado, quando as alterações devem entrar em vigor e quais já têm previsão legal."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Desenvolvida pela Barkus, empresa de tecnologia educacional voltada à educação e à inclusão financeira, a ferramenta permite filtrar as informações de acordo com o enquadramento do negócio. As informações estão divididas nas seguintes categorias:"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Das 11 medidas reunidas, 8 têm previsão legal e 3 foram anunciadas pelo governo, mas ainda dependem da definição de regras para implementação. O serviço pode ser acessado sem custos."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/Plataforma-MEIs-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/ferramenta-gratuita-reune-mudancas-para-meis.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
       "id": "d05864e89a744776",
       "titulo": "Governo de São Paulo exclui 149 mercadorias da substituição tributária do ICMS",
       "categoria": "Economia",
@@ -576,66 +645,6 @@
         ],
         "imagemOriginal": "https://f.i.uol.com.br/fotografia/2023/11/10/1699630514654e4db2b8501_1699630514_3x2_rt.jpg",
         "imagemX": "https://noticiaes.com.br/imagens/lapis/governo-de-sao-paulo-exclui-149-mercadorias-da-substituicao-tributaria-do-icms.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "01b7508bfffaeaa3",
-      "titulo": "Dólar cai quase 4% e fecha em R$ 5,51, após anúncio de Trabuco",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Agência Brasil - Economia",
-      "urlFonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-quase-4-e-fecha-em-r-551-apos-anuncio-de-trabuco",
-      "dataFonte": "2026-11-27T22:47:00.000Z",
-      "resumoFonte": "O dólar caiu quase 4% nesta sexta-feira (27) e fechou em R$ 5,51, após a confirmação de Luiz Carlos Trabuco no comando do Ministério da Fazenda no próximo governo de Luiz Inácio Lula da Silva. Na quinta sessão consecutiva de queda, a moeda americana acumulou recuo de pouco mais de 7% na semana, o maior desde outubro de 2008. Notícias relacionadas:…",
-      "imagem": "https://imagens.ebc.com.br/l_XOQDzINzpO7ShpIRRVe-ToOXI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/dolar_moeda_0803221207.jpg?itok=frxEmw7m",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "Dólar cai quase 4% e fecha em R$ 5,51, após anúncio de Trabuco",
-        "slug": "dolar-cai-quase-4-e-fecha-em-r-5-51-apos-anuncio-de-trabuco",
-        "categoria": "Economia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/dolar-cai-quase-4-e-fecha-em-r-5-51-apos-anuncio-de-trabuco.jpg",
-        "resumo": "Bolsa recua 0,13% no dia, mas acumula alta de 6,13% na semana. Dólar tem quinta queda consecutiva.",
-        "conteudo": "<p>O dólar caiu quase 4% nesta sexta-feira (27) e fechou em R$ 5,51, após a confirmação de Luiz Carlos Trabuco no comando do Ministério da Fazenda no próximo governo de Luiz Inácio Lula da Silva.</p><h2>Dados e contexto do setor</h2><p>Na quinta sessão consecutiva de queda, a moeda americana acumulou recuo de pouco mais de 7% na semana, o maior desde outubro de 2008.</p><p>A bolsa de valores encerrou o pregão em leve baixa, mas registrou valorização de mais de 6% no período semanal. O petróleo também terminou o dia em queda.</p><p>O dólar à vista fechou em baixa de 3,97%, cotado em R$ 5,516. Por volta das 10h, a moeda chegou a ser negociada abaixo de R$ 5,50, atingindo a mínima de R$ 5,479, com recuo de aproximadamente 4,6%.</p><h2>Impactos e informações adicionais</h2><p>A queda desta sexta-feira foi a quinta consecutiva. Na semana, a divisa acumulou desvalorização de 7,07% – maior recuo semanal desde outubro de 2008, durante a crise financeira mundial.</p><p>No acumulado do ano, o dólar registra alta de 0,47%. No mês, ainda apresenta valorização de 1,31%.</p><p>A movimentação ocorreu após a confirmação de que Luiz Carlos Trabuco, presidente do conselho de administração do Bradesco, aceitou o convite de Lula para assumir o Ministério da Fazenda. A notícia foi divulgada na noite de quinta-feira (26), depois do fechamento do mercado.</p><p>O real também foi favorecido pelo enfraquecimento do dólar em relação a moedas de países emergentes, como o rand sul-africano e os pesos colombiano e chileno.</p><p>O Ibovespa encerrou a sessão desta sexta-feira em queda de 0,13%, com 176.573,35 pontos. Apesar do resultado negativo no dia, o principal índice da Bolsa brasileira acumulou alta de 6,13% na semana.</p><p>No mês, o indicador registra valorização de 5,15%. No ano, o avanço chega a 9,59%.</p><p>Durante o pregão, o índice apresentou forte volatilidade. Na máxima do dia, chegou a 183.625,66 pontos, enquanto a mínima foi de 175.898,80 pontos.</p><p>O desempenho foi influenciado principalmente pelas quedas das ações de grandes empresas, especialmente Petrobras e Vale, que perderam força em meio à valorização do real e ao recuo dos preços do petróleo e do minério de ferro.</p><p>A realização de lucros, quando investidores vendem papéis para embolsarem ganhos recentes, contribuiu para a perda de força do Ibovespa ao longo da tarde.</p><p>Entre os destaques da semana, os setores financeiro, de consumo e imobiliário registraram ganhos expressivos. O movimento também alcançou empresas mais sensíveis à redução dos juros.</p><p>O volume financeiro negociado na sessão ficou em torno de R$ 40 bilhões.</p><p>Os contratos futuros do petróleo encerraram esta sexta-feira em queda, interrompendo uma sequência de três pregões consecutivos de valorização.</p>",
-        "fonteNome": "Agência Brasil - Economia",
-        "fonteUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-quase-4-e-fecha-em-r-551-apos-anuncio-de-trabuco",
-        "fontesAdicionais": [
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          },
-          {
-            "nome": "Ministério da Fazenda",
-            "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O dólar caiu quase 4% nesta sexta-feira (27) e fechou em R$ 5,51, após a confirmação de Luiz Carlos Trabuco no comando do Ministério da Fazenda no próximo governo de Luiz Inácio Lula da Silva."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Na quinta sessão consecutiva de queda, a moeda americana acumulou recuo de pouco mais de 7% na semana, o maior desde outubro de 2008."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A bolsa de valores encerrou o pregão em leve baixa, mas registrou valorização de mais de 6% no período semanal. O petróleo também terminou o dia em queda."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O dólar à vista fechou em baixa de 3,97%, cotado em R$ 5,516. Por volta das 10h, a moeda chegou a ser negociada abaixo de R$ 5,50, atingindo a mínima de R$ 5,479, com recuo de aproximadamente 4,6%."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A queda desta sexta-feira foi a quinta consecutiva. Na semana, a divisa acumulou desvalorização de 7,07% – maior recuo semanal desde outubro de 2008, durante a crise financeira mundial."
-          }
-        ],
-        "imagemOriginal": "https://imagens.ebc.com.br/l_XOQDzINzpO7ShpIRRVe-ToOXI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/dolar_moeda_0803221207.jpg?itok=frxEmw7m",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/dolar-cai-quase-4-e-fecha-em-r-5-51-apos-anuncio-de-trabuco.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -756,342 +765,6 @@
         ],
         "imagemOriginal": "https://imagens.ebc.com.br/TlJEAM6tT-XK-i55h38YlqEA1mU=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/04/14/_rbr0188.jpg?itok=iEsEP_Sa",
         "imagemX": "https://noticiaes.com.br/imagens/lapis/distribuidoras-de-energia-oferecem-descontos-para-renegociar-dividas.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "d5d0a3389d3c76dc",
-      "titulo": "Dança dos Famosos: noivos de participantes criticam Livinho após resultado",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/entretenimento/danca-dos-famosos-noivos-de-participantes-criticam-livinho-apos-resultado",
-      "dataFonte": "2026-11-27T23:16:29.000Z",
-      "resumoFonte": "Noivo de Mel Muzzillo e noiva de Léo Foguete usaram as redes sociais para alfinetar o participante da competição",
-      "imagem": "https://i.metroimg.com/ouOVq75OgnqgHadvBL85lUgsFlGQRYBAfhspcic0uJc/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/livinho-danca-dos-famosos.jpg",
-      "descobertaEm": "2026-11-27T23:18:12.338Z"
-    },
-    {
-      "id": "a50d8cabb97ca1d9",
-      "titulo": "Fluminense x Cruzeiro hoje: onde assistir ao vivo e escalações",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/esportes/futebol/fluminense-x-cruzeiro-hoje-escalacoes-27-11-2026/",
-      "dataFonte": "2026-11-27T22:35:56.000Z",
-      "resumoFonte": "Está chegando a hora de Fluminense x Cruzeiro: o jogo é às 20h (de Brasília) nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro de 2026.",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/fluminense-x-cruzeiro-1492475.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "Fluminense x Cruzeiro hoje: onde assistir ao vivo e escalações",
-        "slug": "fluminense-x-cruzeiro-hoje-onde-assistir-ao-vivo-e-escalacoes",
-        "categoria": "Esporte",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/fluminense-x-cruzeiro-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
-        "resumo": "Está chegando a hora de Fluminense x Cruzeiro: o jogo é às 20h (de Brasília) nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro de 2026.",
-        "conteudo": "<p>Está chegando a hora de Fluminense x Cruzeiro: o jogo é às 20h (de Brasília) nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro de 2026.</p><h2>As informações principais do assunto</h2><p>Fluminense x Cruzeiro será transmitido por SporTV (TV fechada), Premiere (pay-per-view) e Globoplay (streaming).</p><p>Fluminense (4-2-3-1): Fábio; Guga, Thiago Silva, Ignacio, Renê; Hércules, Martinelli, A. Canobbio, L. Acosta, J. Savarino; R. Castillo. Técnico: Marcão.</p><p>São duas mudanças em relação ao último jogo, vitória por 1 a 0 sobre o Mirassol. Entram Martinelli e Castillo. Saem Nonato e Hulk. A formação é a mesma, 4-2-3-1.</p><h2>Contexto e informações complementares</h2><p>Cruzeiro (4-2-3-1): Otávio Eleodoro Rezende Costa; Fágner, Fabrício Bruno, Jonathan, L. Villalba; Matheus Henrique, Zé Lucas, Gerson, Matheus Pereira, Bruno Rodrigues; Kaio Jorge. Técnico: Artur Jorge.</p><p>São três mudanças em relação ao último jogo, vitória por 2 a 1 sobre a Chapecoense. Entram Villalba, Gerson e Kaio Jorge. Saem Rojas, Marquinhos e Villarreal. A formação é a mesma, 4-2-3-1.</p><p>O Fluminense soma 63 pontos em 36 jogos e aparece em 4º lugar na tabela, na zona de classificação para a Libertadores. A equipe vem de uma vitória por 1 a 0 sobre o Mirassol. Nos últimos cinco jogos da competição, são quatro vitórias e uma derrota.</p><p>Já o Cruzeiro está em 3º lugar, com 66 pontos, na zona de classificação para a Libertadores. Na última partida, o time venceu a Chapecoense por 2 a 1. O time acumula cinco vitórias nos últimos cinco jogos da competição.</p><p>Veja também o guia completo de Fluminense x Cruzeiro</p><p>Matéria produzida automaticamente com dados da partida.</p><p>Atlético-MG x Corinthians hoje: onde assistir ao vivo e escalações</p><p>Fluminense x Cruzeiro: onde assistir ao vivo, horário e escalações</p><p>Niclas Füllkrug marca no fim, e Werder Bremen arranca empate com o Borussia Mönchengladbach</p><p>Werder Bremen x Borussia Mönchengladbach hoje: onde assistir ao vivo e escalações</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/esportes/futebol/fluminense-x-cruzeiro-hoje-escalacoes-27-11-2026/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Está chegando a hora de Fluminense x Cruzeiro: o jogo é às 20h (de Brasília) nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro de 2026."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Fluminense x Cruzeiro será transmitido por SporTV (TV fechada), Premiere (pay-per-view) e Globoplay (streaming)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Fluminense (4-2-3-1): Fábio; Guga, Thiago Silva, Ignacio, Renê; Hércules, Martinelli, A. Canobbio, L. Acosta, J. Savarino; R. Castillo. Técnico: Marcão."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "São duas mudanças em relação ao último jogo, vitória por 1 a 0 sobre o Mirassol. Entram Martinelli e Castillo. Saem Nonato e Hulk. A formação é a mesma, 4-2-3-1."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Cruzeiro (4-2-3-1): Otávio Eleodoro Rezende Costa; Fágner, Fabrício Bruno, Jonathan, L. Villalba; Matheus Henrique, Zé Lucas, Gerson, Matheus Pereira, Bruno Rodrigues; Kaio Jorge. Técnico: Artur Jorge."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/fluminense-x-cruzeiro-1492475.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/fluminense-x-cruzeiro-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "34a922b5431ea63c",
-      "titulo": "Fluminense x Cruzeiro: assista à transmissão ao vivo do Brasileirão",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/fluminense-x-cruzeiro-assista-a-transmissao-ao-vivo-do-brasileirao/",
-      "dataFonte": "2026-11-27T22:20:52.000Z",
-      "resumoFonte": "Equipes se enfrentam nesta sexta-feira (27), às 20h (de Brasília), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/maraca.jpg?w=1180&h=630&crop=1",
-      "descobertaEm": "2026-11-27T23:18:12.338Z"
-    },
-    {
-      "id": "05aa72ba5d34b109",
-      "titulo": "MP pede prisão de deputado por esquema de ‘rachadinha’",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/mp-pede-prisao-de-deputado-por-esquema-de-rachadinha/",
-      "dataFonte": "2026-11-27T23:14:22.000Z",
-      "resumoFonte": "O Ministério Público de São Paulo (MP-SP) pediu a condenação do deputado estadual Rogério Nogueira (PSD-SP) a mais de oito anos de prisão em regime fechado por suposto esquema de \"rachadinha\" na Assembleia Legislativa de São Paulo (Alesp) . A Procuradoria-Geral de Justiça também solicitou a perda do mandato e o pagamento de R$ 8,3 milhões em…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/Deputado_Rachadinha_Alesp-910x568.jpeg.webp",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "MP pede prisão de deputado por esquema de 'rachadinha'",
-        "slug": "mp-pede-prisao-de-deputado-por-esquema-de-rachadinha",
-        "categoria": "Justiça",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mp-pede-prisao-de-deputado-por-esquema-de-rachadinha.jpg",
-        "resumo": "Rogério Nogueira (PSD) é acusado de desviar R$ 4,1 milhões em salários de assessores durante dez anos",
-        "conteudo": "<p>O Ministério Público de São Paulo pediu mais de oito anos de prisão para o deputado estadual Rogério Nogueira (PSD-SP), acusado de comandar um esquema de rachadinha na Alesp entre 2009 e 2019.</p><h2>O contexto da decisão judicial</h2><p>Segundo a investigação, R$ 4,1 milhões teriam sido desviados dos salários de assessores. A Procuradoria também pediu a perda do mandato e indenização de R$ 8,3 milhões. O deputado nega as acusações e afirma ser inocente.</p><p>O Ministério Público de São Paulo (MP-SP) pediu a condenação do deputado estadual Rogério Nogueira (PSD-SP) a mais de oito anos de prisão em regime fechado por suposto esquema de “rachadinha” na Assembleia Legislativa de São Paulo (Alesp) .</p><p>A Procuradoria-Geral de Justiça também solicitou a perda do mandato e o pagamento de R$ 8,3 milhões em indenização por danos morais e materiais coletivos.</p><h2>Detalhes e consequências do caso</h2><p>Segundo a acusação, o esquema funcionou entre 2009 e 2019 e movimentou R$ 4,1 milhões.</p><p>Nogueira é acusado de liderar uma organização criminosa instalada em seu gabinete para desviar parte dos salários de funcionários e utilizar os recursos em despesas pessoais.</p><p>De acordo com o Ministério Público, o deputado participava da escolha dos assessores, definia os valores que deveriam ser repassados e determinava a destinação do dinheiro.</p><p>Os recursos eram movimentados por transferências bancárias, entregas em espécie e pagamentos diretos de despesas do parlamentar.</p><p>Entre os elementos reunidos pela investigação estão dados bancários e fiscais, interceptações telefônicas e mensagens eletrônicas. Uma das despesas identificadas teria sido o pagamento de uma fatura de cartão de crédito do deputado, no valor de R$ 8,5 mil.</p><p>O pedido de condenação consta das alegações finais apresentadas pela Procuradoria em agosto. O processo tramita no Órgão Especial do Tribunal de Justiça de São Paulo (TJ-SP), responsável pelo julgamento de deputados estaduais.</p><p>Nogueira afirma estar convicto de sua inocência e diz ter realizado o depósito judicial integral do valor discutido no processo. A defesa também pediu prazo adicional para analisar as provas. O caso ainda não foi julgado.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/mp-pede-prisao-de-deputado-por-esquema-de-rachadinha/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Ministério Público de São Paulo pediu mais de oito anos de prisão para o deputado estadual Rogério Nogueira (PSD-SP), acusado de comandar um esquema de rachadinha na Alesp entre 2009 e 2019. Segundo a investigação, R$ 4,1 milhões teriam sido desviados dos salários de assessores."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Ministério Público de São Paulo (MP-SP) pediu a condenação do deputado estadual Rogério Nogueira (PSD-SP) a mais de oito anos de prisão em regime fechado por suposto esquema de “rachadinha” na Assembleia Legislativa de São Paulo (Alesp) ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Segundo a acusação, o esquema funcionou entre 2009 e 2019 e movimentou R$ 4,1 milhões. Nogueira é acusado de liderar uma organização criminosa instalada em seu gabinete para desviar parte dos salários de funcionários e utilizar os recursos em despesas pessoais. Outras 24 pessoas também respondem ao processo."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "De acordo com o Ministério Público, o deputado participava da escolha dos assessores, definia os valores que deveriam ser repassados e determinava a destinação do dinheiro. Os recursos eram movimentados por transferências bancárias, entregas em espécie e pagamentos diretos de despesas do parlamentar."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Entre os elementos reunidos pela investigação estão dados bancários e fiscais, interceptações telefônicas e mensagens eletrônicas. Uma das despesas identificadas teria sido o pagamento de uma fatura de cartão de crédito do deputado, no valor de R$ 8,5 mil."
-          }
-        ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/Deputado_Rachadinha_Alesp-910x568.jpeg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/mp-pede-prisao-de-deputado-por-esquema-de-rachadinha.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "7415194e64828f48",
-      "titulo": "PRTB gastou R$ 843 mil do Fundo Eleitoral com chapa que não disputou eleição",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/prtb-gastou-r-843-mil-do-fundo-eleitoral-com-chapa-que-nao-disputou-eleicao/",
-      "dataFonte": "2026-11-27T23:02:10.000Z",
-      "resumoFonte": "O Partido Renovador Trabalhista Brasileiro (PRTB) declarou à Justiça Eleitoral ter gasto R$ 843 mil com a chapa presidencial de Pablo Marçal e Leonardo Avalanche. Nenhum dos dois políticos chegou a disputar efetivamente o pleito deste ano. Os dados constam na prestação de contas pública registrada no sistema do Tribunal Superior Eleitoral (TSE) .…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/image-1-1.jpg.webp",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "PRTB gastou R$ 843 mil do Fundo Eleitoral com chapa que não disputou eleição",
-        "slug": "prtb-gastou-r-843-mil-do-fundo-eleitoral-com-chapa-que-nao-disputou-eleicao",
-        "categoria": "Justiça",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/prtb-gastou-r-843-mil-do-fundo-eleitoral-com-chapa-que-nao-disputou-eleicao.jpg",
-        "resumo": "Quase metade do valor foi paga dois dias antes de Leonardo Avalanche desistir da corrida presidencial no lugar de Pablo Marçal",
-        "conteudo": "<p>O Partido Renovador Trabalhista Brasileiro (PRTB) declarou à Justiça Eleitoral gastos de R$ 843 mil com a chapa presidencial de Pablo Marçal e Leonardo Avalanche, que não disputaram as eleições.</p><h2>O contexto da decisão judicial</h2><p>A maior parte dos gastos ocorreu em 28 de setembro, dois dias antes da renúncia de Avalanche. A campanha foi suspensa pelo TSE em 20 de agosto, e o registro foi indeferido em 11 de setembro.</p><p>A prestação de contas, entregue em 14 de novembro, revelou que o Fundo Eleitoral financiou a operação.</p><p>O Partido Renovador Trabalhista Brasileiro (PRTB) declarou à Justiça Eleitoral ter gasto R$ 843 mil com a chapa presidencial de Pablo Marçal e Leonardo Avalanche.</p><h2>Detalhes e consequências do caso</h2><p>Nenhum dos dois políticos chegou a disputar efetivamente o pleito deste ano. Os dados constam na prestação de contas pública registrada no sistema do Tribunal Superior Eleitoral (TSE) .</p><p>Quase metade desse total, exatos R$ 405,2 mil, foi desembolsada em 28 de setembro. O pagamento ocorreu apenas dois dias antes de Avalanche renunciar à candidatura.</p><p>Os recursos custearam a impressão de mais de 4 milhões de santinhos, além de serviços de filmagem e marketing digital.</p><p>A campanha de Marçal, que tinha Avalanche como vice, foi suspensa pelo TSE em 20 de agosto, quatro dias depois do início oficial.</p><p>Por unanimidade, a Corte proibiu o empresário de fazer propaganda, ir a debates e usar verba pública.</p><p>Em 11 de setembro, os ministros indeferiram o registro por falta de filiação partidária no prazo legal e por inelegibilidade referente a 2024.</p><p>O PRTB escolheu Avalanche, presidente nacional da sigla, para substituir Marçal em 14 de setembro. A nova chapa foi anunciada no dia seguinte. Em 30 de setembro, porém, o dirigente comunicou sua desistência, alegando razões técnicas, jurídicas e pessoais.</p><p>A campanha entregou a prestação de contas com atraso ao TSE, em 14 de novembro, e mostrou que o Fundo Eleitoral bancou toda a operação.</p><p>O gasto equivale a cerca de um quarto dos R$ 3,3 milhões que a Justiça Eleitoral repassou à legenda para as eleições deste ano.</p><p>Já Marçal informou ter arrecadado R$ 9,6 mil por meio de 578 transferências via Pix de pessoas físicas, sem declarar despesas.</p><p>Em 28 de setembro, às 10h49, o partido transferiu R$ 250 mil via Pix para a Gráfica e Editora Garra, de Goiânia.</p><p>Menos de uma hora depois, a empresa emitiu nota fiscal referente à produção de 4.166.680 santinhos presidenciais. O documento está registrado em nome da candidata a vice na chapa, Silvia Hellen da Silva Pereira.</p><p>O terceiro desembolso de 28 de setembro somou R$ 41,6 mil para o empresário Fábio Santos Meneses realizar filmagens até 3 de outubro. O valor, equivalente a R$ 6,9 mil por diária, foi pago de forma antecipada.</p><p>Avalanche abandonou a disputa no terceiro dia de vigência do contrato.</p><p>Em parecer ao TSE, o vice-procurador-geral eleitoral Alexandre Espinosa Bravo Barbosa apontou que o PRTB não divulgara a troca até 1º de outubro.</p><p>Segundo o Ministério Público, nem o site oficial nem o Instagram da sigla mencionavam o nome de Avalanche naquela data.</p><p>A Procuradoria questionou ainda a ata da Executiva Nacional que aprovou a substituição com apenas quatro presentes, embora o estatuto exija 14 membros.</p><p>A prestação de contas inclui também R$ 372 mil com advocacia, R$ 60 mil com contabilidade e R$ 6 mil com assessoria administrativa.</p><p>O maior pagamento individual, de R$ 350 mil, foi destinado em 17 de setembro ao escritório Paula Ferreira Mendes Sociedade Individual de Advocacia, de Brasília.</p><p>A transferência aconteceu quatro dias antes da assinatura do contrato apresentado ao TSE, que abrangia a defesa geral do partido nas eleições.</p><p>Outro advogado, Rafael Rodrigues Mennet, recebeu R$ 22 mil em 18 de setembro. Uma semana depois, ele rescindiu o contrato e renunciou ao mandato.</p><p>Na mesma data, 25 de setembro, o contador Sergio Prates de Oliveira também deixou a equipe. Em petição à Justiça Eleitoral, ambos declararam não responder pelos lançamentos financeiros feitos a partir daquele dia.</p><p>Leonardo Avalanche afirmou que sua desistência teve caráter pessoal e político e defendeu a regularidade dos gastos.</p><p>O dirigente enviou mensagens ao portal atribuindo as denúncias a opositores que tentam assumir o comando do PRTB por meio de fraudes documentais.</p><p>Ele também ameaçou processar judicialmente o SBT News e o jornalista responsável pela apuração.</p><p>Avalanche comanda o partido amparado por liminar em meio a uma briga judicial com o advogado Antônio Amauri Malaquias de Pinho.</p><p>Em agosto, o portal UOL revelou uma investigação da Polícia Federal sobre suspeita de desvio de R$ 750 mil do Fundo Eleitoral em 2024.</p><p>Segundo a apuração, R$ 501 mil teriam sido transferidos por empresas investigadas para contas ligadas a Avalanche e familiares.</p><p>Avalanche negou irregularidades, afirmou que o Tribunal Regional Eleitoral de São Paulo aprovou as contas de 2024 e acusou Pinho. Procurado, o advogado rechaçou a acusação e disse ao SBT News que Avalanche virou réu na Justiça paulista e Eleitoral por fraude interna.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/prtb-gastou-r-843-mil-do-fundo-eleitoral-com-chapa-que-nao-disputou-eleicao/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Partido Renovador Trabalhista Brasileiro (PRTB) declarou à Justiça Eleitoral gastos de R$ 843 mil com a chapa presidencial de Pablo Marçal e Leonardo Avalanche, que não disputaram as eleições. A maior parte dos gastos ocorreu em 28 de setembro, dois dias antes da renúncia de Avalanche."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Partido Renovador Trabalhista Brasileiro (PRTB) declarou à Justiça Eleitoral ter gasto R$ 843 mil com a chapa presidencial de Pablo Marçal e Leonardo Avalanche. Nenhum dos dois políticos chegou a disputar efetivamente o pleito deste ano. Os dados constam na prestação de contas pública registrada no sistema do Tribunal Superior Eleitoral (TSE) ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Quase metade desse total, exatos R$ 405,2 mil, foi desembolsada em 28 de setembro. O pagamento ocorreu apenas dois dias antes de Avalanche renunciar à candidatura. Os recursos custearam a impressão de mais de 4 milhões de santinhos, além de serviços de filmagem e marketing digital."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A campanha de Marçal, que tinha Avalanche como vice, foi suspensa pelo TSE em 20 de agosto, quatro dias depois do início oficial. Por unanimidade, a Corte proibiu o empresário de fazer propaganda, ir a debates e usar verba pública."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O PRTB escolheu Avalanche, presidente nacional da sigla, para substituir Marçal em 14 de setembro. A nova chapa foi anunciada no dia seguinte. Em 30 de setembro, porém, o dirigente comunicou sua desistência, alegando razões técnicas, jurídicas e pessoais."
-          }
-        ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/image-1-1.jpg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/prtb-gastou-r-843-mil-do-fundo-eleitoral-com-chapa-que-nao-disputou-eleicao.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "6943f45c5b3d8545",
-      "titulo": "STF marca julgamento de Tagliaferro; defesa denuncia abusos",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/stf-marca-julgamento-de-tagliaferro-defesa-denuncia-abusos/",
-      "dataFonte": "2026-11-27T22:55:46.000Z",
-      "resumoFonte": "A defesa de Eduardo Tagliaferro denunciou, nesta sexta-feira, 27, o que classificou como “violência processual” na inclusão da ação penal contra o ex-assessor do ministro Alexandre de Moraes na pauta do Supremo Tribunal Federal (STF). A Primeira Turma da Corte vai julgar o mérito do processo entre 11 e 18 de dezembro, em sessão virtual. A…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/imagem_materia-3-860x568.jpg.webp",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "STF marca julgamento de Tagliaferro; defesa denuncia abusos",
-        "slug": "stf-marca-julgamento-de-tagliaferro-defesa-denuncia-abusos",
-        "categoria": "Justiça",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/stf-marca-julgamento-de-tagliaferro-defesa-denuncia-abusos.jpg",
-        "resumo": "1ª Turma vai analisar ação penal contra ex-assessor de Moraes em dezembro",
-        "conteudo": "<p>A defesa de Eduardo Tagliaferro denunciou, nesta sexta-feira, 27, o que classificou como “violência processual” na inclusão da ação penal contra o ex-assessor do ministro Alexandre de Moraes na pauta do Supremo Tribunal Federal (STF).</p><h2>O contexto da decisão judicial</h2><p>A Primeira Turma da Corte vai julgar o mérito do processo entre 11 e 18 de dezembro, em sessão virtual. A publicação da pauta ocorreu nesta sexta-feira, no Diário da Justiça Eletrônico. Moraes é o relator do caso.</p><p>Em nota pública, os advogados Paulo Faria e Filipe Oliveira afirmaram não ter encontrado nos autos nenhuma decisão judicial que determinasse ou justificasse a inclusão do caso na pauta de julgamento do STF.</p><p>Além disso, as partes não tiveram a oportunidade de se manifestar adequadamente sobre o encerramento da instrução processual — fase de produção de provas e coleta de depoimentos.</p><h2>Detalhes e consequências do caso</h2><p>“É absolutamente inadmissível que uma ação penal seja encaminhada a julgamento nessas circunstâncias”, afirmaram os advogados.</p><p>“O processo penal não pode ser convertido em instrumento de perseguição pessoal, tampouco a jurisdição pode ser exercida à margem da Constituição e das leis da República.”</p><p>Os advogados sustentam que a condução do processo viola as garantias constitucionais do contraditório, da ampla defesa e do julgamento imparcial . “Quem determinou a inclusão dessa ação penal em pauta?</p><p>Onde está a decisão judicial que fundamenta esse ato? Como se pretende submeter um cidadão a julgamento sem assegurar a regularidade dos atos processuais antecedentes?”, perguntaram.</p><p>A defesa também informou que continuará a denunciar irregularidades na condução da ação penal perante instâncias nacionais e internacionais. “Não se combate a ilegalidade praticando ilegalidades”, afirmaram os advogados.</p><p>“Não se defende a democracia suprimindo direitos fundamentais. E não se faz Justiça sacrificando o devido processo legal para alcançar um resultado previamente pretendido.”</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/stf-marca-julgamento-de-tagliaferro-defesa-denuncia-abusos/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A defesa de Eduardo Tagliaferro denunciou, nesta sexta-feira, 27, o que classificou como “violência processual” na inclusão da ação penal contra o ex-assessor do ministro Alexandre de Moraes na pauta do Supremo Tribunal Federal (STF)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A Primeira Turma da Corte vai julgar o mérito do processo entre 11 e 18 de dezembro, em sessão virtual. A publicação da pauta ocorreu nesta sexta-feira, no Diário da Justiça Eletrônico. Moraes é o relator do caso."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Em nota pública, os advogados Paulo Faria e Filipe Oliveira afirmaram não ter encontrado nos autos nenhuma decisão judicial que determinasse ou justificasse a inclusão do caso na pauta de julgamento do STF."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "“É absolutamente inadmissível que uma ação penal seja encaminhada a julgamento nessas circunstâncias”, afirmaram os advogados. “O processo penal não pode ser convertido em instrumento de perseguição pessoal, tampouco a jurisdição pode ser exercida à margem da Constituição e das leis da República.”"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os advogados sustentam que a condução do processo viola as garantias constitucionais do contraditório, da ampla defesa e do julgamento imparcial . “Quem determinou a inclusão dessa ação penal em pauta? Onde está a decisão judicial que fundamenta esse ato?"
-          }
-        ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/imagem_materia-3-860x568.jpg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/stf-marca-julgamento-de-tagliaferro-defesa-denuncia-abusos.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "db4529b14b7c51b7",
-      "titulo": "Missão tenta se juntar a outros partidos em ação no STF contra regra das sobras eleitorais",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/missao-tenta-se-juntar-a-outros-partidos-em-acao-no-stf-contra-regra-das-sobras-eleitorais.shtml",
-      "dataFonte": "2026-11-27T22:57:00.000Z",
-      "resumoFonte": "O Partido Missão pediu ao Supremo Tribunal Federal para entrar como amicus curiae em uma ADI (Ação Direta de Inconstitucionalidade) em que o PDT e o Solidariedade contestam o modelo de distribuição das sobras eleitorais. Leia mais (11/27/2026 - 19h57)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2019/09/17/15687417205d811958b7798_1568741720_3x2_rt.jpg",
-      "descobertaEm": "2026-11-27T23:18:12.338Z"
-    },
-    {
-      "id": "e9ce3fdb30a69d78",
-      "titulo": "Além de Cármen, Lula consultou Lewandowski e Zanin sobre vaga no STF",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/milena-teixeira/alem-de-carmen-lula-consultou-lewandowski-e-zanin-sobre-vaga-no-stf",
-      "dataFonte": "2026-11-27T21:50:26.000Z",
-      "resumoFonte": "Lula conversou com Lewandowski, Zanin e Cármen Lúcia sobre a sucessão de Barroso; presidente também recebeu sugestões para a vaga no STF",
-      "imagem": "https://i.metroimg.com/YVHwND1s2pXLs8BiO9QcxvvD02mPF2OrXJKJ0Ua6urQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/Sessao-de-abertura-do-Ano-Judiciario-2024-conduzida-pelo-presidente-do-Supremo-Tribunal-Federal-STF-Luis-Roberto-Barroso-e-o-presidente-Lula-8-1.jpg",
-      "descobertaEm": "2026-11-27T22:02:42.560Z",
-      "reportagem": {
-        "titulo": "Além de Cármen, Lula consultou Lewandowski e Zanin sobre vaga no STF",
-        "slug": "alem-de-carmen-lula-consultou-lewandowski-e-zanin-sobre-vaga-no-stf",
-        "categoria": "Justiça",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/alem-de-carmen-lula-consultou-lewandowski-e-zanin-sobre-vaga-no-stf.jpg",
-        "resumo": "Lula conversou com Lewandowski, Zanin e Cármen Lúcia sobre a sucessão de Barroso; presidente também recebeu sugestões para a vaga no STF",
-        "conteudo": "<p>O presidente Lula consultou, nos últimos dias, ex-ministros e integrantes da atual composição do Supremo Tribunal Federal e ouviu sugestões sobre quem indicar para substituir Luiz Roberto Barroso, que se aposentou da Corte.</p><h2>O contexto da decisão judicial</h2><p>Segundo apurou a coluna, o petista conversou sobre a indicação com o ex-ministro do Supremo e da Justiça e Segurança Pública Ricardo Lewandowski, além do ministro Cristiano Zanin. Como mostrou o jornal O Globo, a ministra Cármen Lúcia também foi ouvida.</p><p>O presidente Lula ao lado da primeira-dama Janja e ministros do STF</p><p>Indicado por Lula ao STF, Jorge Messias, exibe exemplar da Constituição Federal durante sabatina no Senado</p><h2>Detalhes e consequências do caso</h2><p>Presidente Luiz Inácio Lula da Silva e a ministra do STF, Cármen Lúcia</p><p>Já Flávio Dino, como a coluna antecipou, levou a Lula os nomes da ministra do Tribunal Superior Eleitoral (TSE) Estela Aranha e do desembargador Ney Bello como possíveis opções para o posto.</p><p>As consultas ocorrem em meio à resistência de ministros do Supremo e do presidente do Senado, Davi Alcolumbre (União-AP), à indicação do ministro da Advocacia-Geral da União (AGU), Jorge Messias.</p><p>Escolhido por Lula em novembro do ano passado, o advogado teve a indicação rejeitada em maio deste ano.</p><p>A coluna apurou que Lula já decidiu indicar uma mulher para a cadeira deixada por Barroso e pretende anunciar a escolha nos próximos dias.</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/colunas/milena-teixeira/alem-de-carmen-lula-consultou-lewandowski-e-zanin-sobre-vaga-no-stf",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O presidente Lula consultou, nos últimos dias, ex-ministros e integrantes da atual composição do Supremo Tribunal Federal e ouviu sugestões sobre quem indicar para substituir Luiz Roberto Barroso, que se aposentou da Corte."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Segundo apurou a coluna, o petista conversou sobre a indicação com o ex-ministro do Supremo e da Justiça e Segurança Pública Ricardo Lewandowski, além do ministro Cristiano Zanin. Como mostrou o jornal O Globo, a ministra Cármen Lúcia também foi ouvida."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O presidente Lula ao lado da primeira-dama Janja e ministros do STF"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Indicado por Lula ao STF, Jorge Messias, exibe exemplar da Constituição Federal durante sabatina no Senado"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Presidente Luiz Inácio Lula da Silva e a ministra do STF, Cármen Lúcia"
-          }
-        ],
-        "imagemOriginal": "https://i.metroimg.com/YVHwND1s2pXLs8BiO9QcxvvD02mPF2OrXJKJ0Ua6urQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/Sessao-de-abertura-do-Ano-Judiciario-2024-conduzida-pelo-presidente-do-Supremo-Tribunal-Federal-STF-Luis-Roberto-Barroso-e-o-presidente-Lula-8-1.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/alem-de-carmen-lula-consultou-lewandowski-e-zanin-sobre-vaga-no-stf.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -1457,6 +1130,66 @@
       }
     },
     {
+      "id": "dafb3612efe5a9c3",
+      "titulo": "MPSP pede que Prefeitura de SP faça estudo de segurança para o Carnaval",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/sao-paulo/mpsp-pede-que-prefeitura-de-sp-faca-estudo-de-seguranca-para-o-carnaval",
+      "dataFonte": "2026-11-27T22:46:49.000Z",
+      "resumoFonte": "A medida preventiva decorre de graves falhas de planejamento e superlotação ocorridas durante a edição de 2026 nos blocos de rua",
+      "imagem": "https://i.metroimg.com/7AvL6S9kjaLY7vAwIfu96mGvEemyOQT_-a8G_AFrnuA/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/02/publico-calvin-harris.jpg",
+      "descobertaEm": "2026-11-27T23:18:12.338Z",
+      "reportagem": {
+        "titulo": "MPSP pede que Prefeitura de SP faça estudo de segurança para o Carnaval",
+        "slug": "mpsp-pede-que-prefeitura-de-sp-faca-estudo-de-seguranca-para-o-carnaval",
+        "categoria": "Cultura",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/mpsp-pede-que-prefeitura-de-sp-faca-estudo-de-seguranca-para-o-carnaval.jpg",
+        "resumo": "A medida preventiva decorre de graves falhas de planejamento e superlotação ocorridas durante a edição de 2026 nos blocos de rua de Carnaval",
+        "conteudo": "<p>São Paulo — O Ministério Público de São Paulo ( MPSP ) protocolou uma ação civil pública para pedir que a Prefeitura de São Paulo seja obrigada pela Justiça a elaborar e apresentar estudos técnicos de viabilidade e segurança para cada via utilizada nos desfiles do Carnaval de Rua de 2027 .</p><h2>As informações principais do assunto</h2><p>A medida preventiva decorre de graves falhas de planejamento da gestão Ricardo Nunes (MDB) e superlotação ocorridas na capital paulista durante a edição de 2026.</p><p>Ajuizado pela Promotoria de Justiça de Habitação e Urbanismo na segunda-feira (23/11), o documento enfatiza que a intenção não é “proibir, restringir ou desestimular” a festividade cultural, mas assegurar que o poder público cumpra o dever de oferecer condições seguras para foliões, trabalhadores e moradores.</p><h2>Contexto e informações complementares</h2><p>Diante da proximidade do evento, o órgão requer a concessão de tutela de urgência para condicionar a aprovação dos trajetos à entrega dos relatórios necessários. Os promotores apontam que as falhas deste ano “permanecem, em larga medida, inalteradas para a edição de 2027”.</p><p>“Cada dia transcorrido sem planejamento técnico reduz o tempo hábil para estudar as vias, fixar capacidades, contratar e dimensionar estruturas e, se necessário, realocar desfiles, de modo que a omissão do município, se não for judicialmente sanada de imediato, tornará inútil o provimento jurisdicional”, destacou a ação.</p><p>Ação civil pública: o Ministério Público de São Paulo solicita que a Prefeitura apresente estudos técnicos de viabilidade e segurança para os desfiles de Carnaval de 2027; Pedidos do órgão: a Promotoria de Justiça de Habitação e Urbanismo requer tutela de urgência para condicionar a aprovação dos trajetos à entrega de relatórios; Carnaval de 2026: o MPSP cita falhas e superlotação na Rua da Consolação em 8 de fevereiro de 2026.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/sao-paulo/mpsp-pede-que-prefeitura-de-sp-faca-estudo-de-seguranca-para-o-carnaval",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "São Paulo — O Ministério Público de São Paulo ( MPSP ) protocolou uma ação civil pública para pedir que a Prefeitura de São Paulo seja obrigada pela Justiça a elaborar e apresentar estudos técnicos de viabilidade e segurança para cada via utilizada nos desfiles do Carnaval de Rua de 2027 ."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Ajuizado pela Promotoria de Justiça de Habitação e Urbanismo na segunda-feira (23/11), o documento enfatiza que a intenção não é “proibir, restringir ou desestimular” a festividade cultural, mas assegurar que o poder público cumpra o dever de oferecer condições seguras para foliões, trabalhadores e moradores."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Diante da proximidade do evento, o órgão requer a concessão de tutela de urgência para condicionar a aprovação dos trajetos à entrega dos relatórios necessários. Os promotores apontam que as falhas deste ano “permanecem, em larga medida, inalteradas para a edição de 2027”."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "“Cada dia transcorrido sem planejamento técnico reduz o tempo hábil para estudar as vias, fixar capacidades, contratar e dimensionar estruturas e, se necessário, realocar desfiles, de modo que a omissão do município, se não for judicialmente sanada de imediato, tornará inútil o provimento jurisdicional”, destacou a ação."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Ação civil pública: o Ministério Público de São Paulo solicita que a Prefeitura apresente estudos técnicos de viabilidade e segurança para os desfiles de Carnaval de 2027; Pedidos do órgão: a Promotoria de Justiça de Habitação e Urbanismo requer tutela de urgência para condicionar a aprovação dos trajetos à entrega de relatórios; Carnaval de 2026: o MPSP cita falhas e superlotação na Rua da Consolação em 8 de fevereiro de 2026."
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/7AvL6S9kjaLY7vAwIfu96mGvEemyOQT_-a8G_AFrnuA/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/02/publico-calvin-harris.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/mpsp-pede-que-prefeitura-de-sp-faca-estudo-de-seguranca-para-o-carnaval.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
       "id": "7cc40743cc2e673c",
       "titulo": "Narcisa relembra romance com cantor internacional e cita arrependimento",
       "categoria": "Cultura",
@@ -1469,28 +1202,76 @@
       "descobertaEm": "2026-11-27T22:18:28.416Z"
     },
     {
-      "id": "d231889843e64dc9",
-      "titulo": "Edital vai selecionar cinco projetos de teatro em São Paulo",
-      "categoria": "Cultura",
+      "id": "137063ac4fab3281",
+      "titulo": "Furto de celular em ônibus: estrangeiros são presos em Vitória",
+      "categoria": "Tecnologia",
       "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/cultura/edital-vai-selecionar-cinco-projetos-de-teatro-em-sao-paulo/",
-      "dataFonte": "2026-11-27T21:30:15.000Z",
-      "resumoFonte": "Iniciativa oferece apoio financeiro, infraestrutura técnica e suporte de divulgação",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-27-at-13.54.03.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-27T22:02:42.560Z"
+      "fonteNome": "Tribuna Online - Capa",
+      "urlFonte": "https://tribunaonline.com.br/cotidiano/policia/furto-de-celular-onibus-vitoria/",
+      "dataFonte": "2026-11-27T22:10:19.000Z",
+      "resumoFonte": "Furto de celular em ônibus em Vitória termina com dois estrangeiros detidos pela Guarda Municipal após rastreamento do aparelho por GPS.",
+      "imagem": "https://media.tribunaonline.com.br/wp-content/uploads/2026/11/ANA-74.jpg",
+      "descobertaEm": "2026-11-27T23:18:12.338Z",
+      "reportagem": {
+        "titulo": "Furto de celular em ônibus: estrangeiros são presos em Vitória",
+        "slug": "furto-de-celular-em-onibus-estrangeiros-sao-presos-em-vitoria",
+        "categoria": "Tecnologia",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/furto-de-celular-em-onibus-estrangeiros-sao-presos-em-vitoria.jpg",
+        "resumo": "Furto de celular em ônibus em Vitória termina com dois estrangeiros detidos pela Guarda Municipal após rastreamento do aparelho por GPS.",
+        "conteudo": "<p>A Guarda Civil Municipal de Vitória (GCMV) localizou quatro celulares e conduziu dois estrangeiros, um homem uruguaio e uma mulher equatoriana, à delegacia após o furto do aparelho de uma estudante dentro de um ônibus, na manhã desta sexta-feira (27).</p><h2>Dados e contexto do setor</h2><p>A localização do telefone por GPS ajudou os agentes a encontrar os suspeitos em um coletivo na Avenida Duarte Lemos , na região da Vila Rubim .</p><p>A estudante procurou uma base da Guarda Municipal depois de perceber que o celular havia sido retirado de sua bolsa durante a viagem. Assim que recebeu o pedido de ajuda, um dos agentes utilizou o próprio iPhone para rastrear o aparelho da vítima.</p><h2>Impactos e informações adicionais</h2><p>Com o sinal ativo, a equipe iniciou as buscas e conseguiu localizar o ônibus onde estavam o homem e a mulher, suspeitos de envolvimento no furto.</p><p>De acordo com os agentes, os suspeitos teriam descartado os aparelhos na lixeira do coletivo. Ao todo, foram encontrados três iPhones e um celular da marca Motorola , entre eles o telefone da estudante.</p><p>Os dois estrangeiros foram conduzidos à 1ª Delegacia Regional de Vitória . Conforme o relato da equipe, eles foram reconhecidos pela vítima como as pessoas que estavam próximas a ela dentro do ônibus quando o celular foi levado.</p><p>Os procedimentos cabíveis estavam em andamento na delegacia no fim da manhã desta sexta-feira (27).</p>",
+        "fonteNome": "Tribuna Online - Capa",
+        "fonteUrl": "https://tribunaonline.com.br/cotidiano/policia/furto-de-celular-onibus-vitoria/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/"
+          },
+          {
+            "nome": "MCTI",
+            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A Guarda Civil Municipal de Vitória (GCMV) localizou quatro celulares e conduziu dois estrangeiros, um homem uruguaio e uma mulher equatoriana, à delegacia após o furto do aparelho de uma estudante dentro de um ônibus, na manhã desta sexta-feira (27)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A estudante procurou uma base da Guarda Municipal depois de perceber que o celular havia sido retirado de sua bolsa durante a viagem. Assim que recebeu o pedido de ajuda, um dos agentes utilizou o próprio iPhone para rastrear o aparelho da vítima."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Com o sinal ativo, a equipe iniciou as buscas e conseguiu localizar o ônibus onde estavam o homem e a mulher, suspeitos de envolvimento no furto."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "De acordo com os agentes, os suspeitos teriam descartado os aparelhos na lixeira do coletivo. Ao todo, foram encontrados três iPhones e um celular da marca Motorola , entre eles o telefone da estudante."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Os dois estrangeiros foram conduzidos à 1ª Delegacia Regional de Vitória . Conforme o relato da equipe, eles foram reconhecidos pela vítima como as pessoas que estavam próximas a ela dentro do ônibus quando o celular foi levado."
+          }
+        ],
+        "imagemOriginal": "https://media.tribunaonline.com.br/wp-content/uploads/2026/11/ANA-74.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/furto-de-celular-em-onibus-estrangeiros-sao-presos-em-vitoria.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     },
     {
-      "id": "6909b2df169d3f04",
-      "titulo": "GTA VI: cinco vezes em que o Brasil aparece de forma inesperada no jogo",
-      "categoria": "Cultura",
+      "id": "d5d0a3389d3c76dc",
+      "titulo": "Dança dos Famosos: noivos de participantes criticam Livinho após resultado",
+      "categoria": "Tecnologia",
       "radar": null,
       "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/entretenimento/gta-vi-cinco-vezes-em-que-o-brasil-aparece-de-forma-inesperada-no-jogo",
-      "dataFonte": "2026-11-27T21:15:15.000Z",
-      "resumoFonte": "De arma fabricada no país a participações de Anitta e músicas nacionais, o game reúne várias referências à cultura brasileira",
-      "imagem": "https://i.metroimg.com/5-m2RGi6Cw5Z0LLu4Pl8qOwpgl8ID9s0ahxvuEZOLxo/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/vice-city-tambem-reserva-referencias-ao-brasil-com-voos-ficticios-para-sao-paulo-e-rio-de-janeiro-nos-paineis-do-aeroporto.jpg",
-      "descobertaEm": "2026-11-27T21:18:12.042Z"
+      "urlFonte": "https://www.metropoles.com/entretenimento/danca-dos-famosos-noivos-de-participantes-criticam-livinho-apos-resultado",
+      "dataFonte": "2026-11-27T23:16:29.000Z",
+      "resumoFonte": "Noivo de Mel Muzzillo e noiva de Léo Foguete usaram as redes sociais para alfinetar o participante da competição",
+      "imagem": "https://i.metroimg.com/ouOVq75OgnqgHadvBL85lUgsFlGQRYBAfhspcic0uJc/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/livinho-danca-dos-famosos.jpg",
+      "descobertaEm": "2026-11-27T23:18:12.338Z"
     },
     {
       "id": "358110ded28b4ca1",
@@ -1503,9 +1284,225 @@
       "resumoFonte": "Trump publica imagem de IA em referência ao \"Poderoso Chefão\" e ameaça vetar projetos democratas após avanço do partido na Câmara dos EUA",
       "imagem": "https://i.metroimg.com/4uG9Nw1Fm4rU90eeAaxb0_R7W1oYn0KZXmETWx1CfNk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/trump-veto-3x2-1.jpg",
       "descobertaEm": "2026-11-27T22:18:28.416Z"
+    },
+    {
+      "id": "d7fcef428818f47e",
+      "titulo": "Torcedor invade partida de futebol com patinete elétrico na Polônia",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/torcedor-invade-partida-de-futebol-com-patinete-eletrico-na-polonia",
+      "dataFonte": "2026-11-27T22:47:16.000Z",
+      "resumoFonte": "Torcedor invadiu o gramado durante os acréscimos do jogo na terceira divisão do Campeonato Polonês",
+      "imagem": "https://i.metroimg.com/1zbrGIqbOEQK7CFFO9x-xU-qMM-88lFg891zL-8UGyM/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/patinete-eletrico-scaled.jpg",
+      "descobertaEm": "2026-11-27T23:18:12.338Z"
+    },
+    {
+      "id": "a50d8cabb97ca1d9",
+      "titulo": "Fluminense x Cruzeiro hoje: onde assistir ao vivo e escalações",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/esportes/futebol/fluminense-x-cruzeiro-hoje-escalacoes-27-11-2026/",
+      "dataFonte": "2026-11-27T22:35:56.000Z",
+      "resumoFonte": "Está chegando a hora de Fluminense x Cruzeiro: o jogo é às 20h (de Brasília) nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro de 2026.",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/fluminense-x-cruzeiro-1492475.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-27T23:18:12.338Z",
+      "reportagem": {
+        "titulo": "Fluminense x Cruzeiro hoje: onde assistir ao vivo e escalações",
+        "slug": "fluminense-x-cruzeiro-hoje-onde-assistir-ao-vivo-e-escalacoes",
+        "categoria": "Esporte",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/fluminense-x-cruzeiro-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
+        "resumo": "Está chegando a hora de Fluminense x Cruzeiro: o jogo é às 20h (de Brasília) nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro de 2026.",
+        "conteudo": "<p>Está chegando a hora de Fluminense x Cruzeiro: o jogo é às 20h (de Brasília) nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro de 2026.</p><h2>As informações principais do assunto</h2><p>Fluminense x Cruzeiro será transmitido por SporTV (TV fechada), Premiere (pay-per-view) e Globoplay (streaming).</p><p>Fluminense (4-2-3-1): Fábio; Guga, Thiago Silva, Ignacio, Renê; Hércules, Martinelli, A. Canobbio, L. Acosta, J. Savarino; R. Castillo. Técnico: Marcão.</p><p>São duas mudanças em relação ao último jogo, vitória por 1 a 0 sobre o Mirassol. Entram Martinelli e Castillo. Saem Nonato e Hulk. A formação é a mesma, 4-2-3-1.</p><h2>Contexto e informações complementares</h2><p>Cruzeiro (4-2-3-1): Otávio Eleodoro Rezende Costa; Fágner, Fabrício Bruno, Jonathan, L. Villalba; Matheus Henrique, Zé Lucas, Gerson, Matheus Pereira, Bruno Rodrigues; Kaio Jorge. Técnico: Artur Jorge.</p><p>São três mudanças em relação ao último jogo, vitória por 2 a 1 sobre a Chapecoense. Entram Villalba, Gerson e Kaio Jorge. Saem Rojas, Marquinhos e Villarreal. A formação é a mesma, 4-2-3-1.</p><p>O Fluminense soma 63 pontos em 36 jogos e aparece em 4º lugar na tabela, na zona de classificação para a Libertadores. A equipe vem de uma vitória por 1 a 0 sobre o Mirassol. Nos últimos cinco jogos da competição, são quatro vitórias e uma derrota.</p><p>Já o Cruzeiro está em 3º lugar, com 66 pontos, na zona de classificação para a Libertadores. Na última partida, o time venceu a Chapecoense por 2 a 1. O time acumula cinco vitórias nos últimos cinco jogos da competição.</p><p>Veja também o guia completo de Fluminense x Cruzeiro</p><p>Matéria produzida automaticamente com dados da partida.</p><p>Atlético-MG x Corinthians hoje: onde assistir ao vivo e escalações</p><p>Fluminense x Cruzeiro: onde assistir ao vivo, horário e escalações</p><p>Niclas Füllkrug marca no fim, e Werder Bremen arranca empate com o Borussia Mönchengladbach</p><p>Werder Bremen x Borussia Mönchengladbach hoje: onde assistir ao vivo e escalações</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/esportes/futebol/fluminense-x-cruzeiro-hoje-escalacoes-27-11-2026/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Está chegando a hora de Fluminense x Cruzeiro: o jogo é às 20h (de Brasília) nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro de 2026."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Fluminense x Cruzeiro será transmitido por SporTV (TV fechada), Premiere (pay-per-view) e Globoplay (streaming)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Fluminense (4-2-3-1): Fábio; Guga, Thiago Silva, Ignacio, Renê; Hércules, Martinelli, A. Canobbio, L. Acosta, J. Savarino; R. Castillo. Técnico: Marcão."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "São duas mudanças em relação ao último jogo, vitória por 1 a 0 sobre o Mirassol. Entram Martinelli e Castillo. Saem Nonato e Hulk. A formação é a mesma, 4-2-3-1."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Cruzeiro (4-2-3-1): Otávio Eleodoro Rezende Costa; Fágner, Fabrício Bruno, Jonathan, L. Villalba; Matheus Henrique, Zé Lucas, Gerson, Matheus Pereira, Bruno Rodrigues; Kaio Jorge. Técnico: Artur Jorge."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/fluminense-x-cruzeiro-1492475.png?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/fluminense-x-cruzeiro-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "34a922b5431ea63c",
+      "titulo": "Fluminense x Cruzeiro: assista à transmissão ao vivo do Brasileirão",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/fluminense-x-cruzeiro-assista-a-transmissao-ao-vivo-do-brasileirao/",
+      "dataFonte": "2026-11-27T22:20:52.000Z",
+      "resumoFonte": "Equipes se enfrentam nesta sexta-feira (27), às 20h (de Brasília), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/maraca.jpg?w=1180&h=630&crop=1",
+      "descobertaEm": "2026-11-27T23:18:12.338Z"
+    },
+    {
+      "id": "8d2a07b96f2b72bc",
+      "titulo": "Dino bloqueia emendas individuais de Flávio Bolsonaro",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/11/27/dino-bloqueia-emendas-individuais-de-flavio-bolsonaro.htm",
+      "dataFonte": "2026-11-27T23:06:00.000Z",
+      "resumoFonte": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), determinou o bloqueio de todas as emendas individuais do senador Flávio Bolsonaro (PL-RJ). Na decisão, proferida nesta sexta-feira, 27, o magistrado diz que o parlamentar não pode manter as prerrogativas de seu mandato, como destinar recursos públicos, após ter deixado o País para evitar…",
+      "imagem": "https://static.poder360.com.br/uploads/2026/11/STF-6x1-AudienciaPublica-FlavioDino-7-1200x675.jpg",
+      "descobertaEm": "2026-11-27T23:18:12.338Z"
+    },
+    {
+      "id": "05aa72ba5d34b109",
+      "titulo": "MP pede prisão de deputado por esquema de ‘rachadinha’",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/mp-pede-prisao-de-deputado-por-esquema-de-rachadinha/",
+      "dataFonte": "2026-11-27T23:14:22.000Z",
+      "resumoFonte": "O Ministério Público de São Paulo (MP-SP) pediu a condenação do deputado estadual Rogério Nogueira (PSD-SP) a mais de oito anos de prisão em regime fechado por suposto esquema de \"rachadinha\" na Assembleia Legislativa de São Paulo (Alesp) . A Procuradoria-Geral de Justiça também solicitou a perda do mandato e o pagamento de R$ 8,3 milhões em…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/Deputado_Rachadinha_Alesp-910x568.jpeg.webp",
+      "descobertaEm": "2026-11-27T23:18:12.338Z",
+      "reportagem": {
+        "titulo": "MP pede prisão de deputado por esquema de 'rachadinha'",
+        "slug": "mp-pede-prisao-de-deputado-por-esquema-de-rachadinha",
+        "categoria": "Justiça",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/mp-pede-prisao-de-deputado-por-esquema-de-rachadinha.jpg",
+        "resumo": "Rogério Nogueira (PSD) é acusado de desviar R$ 4,1 milhões em salários de assessores durante dez anos",
+        "conteudo": "<p>O Ministério Público de São Paulo pediu mais de oito anos de prisão para o deputado estadual Rogério Nogueira (PSD-SP), acusado de comandar um esquema de rachadinha na Alesp entre 2009 e 2019.</p><h2>O contexto da decisão judicial</h2><p>Segundo a investigação, R$ 4,1 milhões teriam sido desviados dos salários de assessores. A Procuradoria também pediu a perda do mandato e indenização de R$ 8,3 milhões. O deputado nega as acusações e afirma ser inocente.</p><p>O Ministério Público de São Paulo (MP-SP) pediu a condenação do deputado estadual Rogério Nogueira (PSD-SP) a mais de oito anos de prisão em regime fechado por suposto esquema de “rachadinha” na Assembleia Legislativa de São Paulo (Alesp) .</p><p>A Procuradoria-Geral de Justiça também solicitou a perda do mandato e o pagamento de R$ 8,3 milhões em indenização por danos morais e materiais coletivos.</p><h2>Detalhes e consequências do caso</h2><p>Segundo a acusação, o esquema funcionou entre 2009 e 2019 e movimentou R$ 4,1 milhões.</p><p>Nogueira é acusado de liderar uma organização criminosa instalada em seu gabinete para desviar parte dos salários de funcionários e utilizar os recursos em despesas pessoais.</p><p>De acordo com o Ministério Público, o deputado participava da escolha dos assessores, definia os valores que deveriam ser repassados e determinava a destinação do dinheiro.</p><p>Os recursos eram movimentados por transferências bancárias, entregas em espécie e pagamentos diretos de despesas do parlamentar.</p><p>Entre os elementos reunidos pela investigação estão dados bancários e fiscais, interceptações telefônicas e mensagens eletrônicas. Uma das despesas identificadas teria sido o pagamento de uma fatura de cartão de crédito do deputado, no valor de R$ 8,5 mil.</p><p>O pedido de condenação consta das alegações finais apresentadas pela Procuradoria em agosto. O processo tramita no Órgão Especial do Tribunal de Justiça de São Paulo (TJ-SP), responsável pelo julgamento de deputados estaduais.</p><p>Nogueira afirma estar convicto de sua inocência e diz ter realizado o depósito judicial integral do valor discutido no processo. A defesa também pediu prazo adicional para analisar as provas. O caso ainda não foi julgado.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/mp-pede-prisao-de-deputado-por-esquema-de-rachadinha/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Ministério Público de São Paulo pediu mais de oito anos de prisão para o deputado estadual Rogério Nogueira (PSD-SP), acusado de comandar um esquema de rachadinha na Alesp entre 2009 e 2019. Segundo a investigação, R$ 4,1 milhões teriam sido desviados dos salários de assessores."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O Ministério Público de São Paulo (MP-SP) pediu a condenação do deputado estadual Rogério Nogueira (PSD-SP) a mais de oito anos de prisão em regime fechado por suposto esquema de “rachadinha” na Assembleia Legislativa de São Paulo (Alesp) ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Segundo a acusação, o esquema funcionou entre 2009 e 2019 e movimentou R$ 4,1 milhões. Nogueira é acusado de liderar uma organização criminosa instalada em seu gabinete para desviar parte dos salários de funcionários e utilizar os recursos em despesas pessoais. Outras 24 pessoas também respondem ao processo."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "De acordo com o Ministério Público, o deputado participava da escolha dos assessores, definia os valores que deveriam ser repassados e determinava a destinação do dinheiro. Os recursos eram movimentados por transferências bancárias, entregas em espécie e pagamentos diretos de despesas do parlamentar."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Entre os elementos reunidos pela investigação estão dados bancários e fiscais, interceptações telefônicas e mensagens eletrônicas. Uma das despesas identificadas teria sido o pagamento de uma fatura de cartão de crédito do deputado, no valor de R$ 8,5 mil."
+          }
+        ],
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/Deputado_Rachadinha_Alesp-910x568.jpeg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/mp-pede-prisao-de-deputado-por-esquema-de-rachadinha.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "6943f45c5b3d8545",
+      "titulo": "STF marca julgamento de Tagliaferro; defesa denuncia abusos",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/stf-marca-julgamento-de-tagliaferro-defesa-denuncia-abusos/",
+      "dataFonte": "2026-11-27T22:55:46.000Z",
+      "resumoFonte": "A defesa de Eduardo Tagliaferro denunciou, nesta sexta-feira, 27, o que classificou como “violência processual” na inclusão da ação penal contra o ex-assessor do ministro Alexandre de Moraes na pauta do Supremo Tribunal Federal (STF). A Primeira Turma da Corte vai julgar o mérito do processo entre 11 e 18 de dezembro, em sessão virtual. A…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/imagem_materia-3-860x568.jpg.webp",
+      "descobertaEm": "2026-11-27T23:18:12.338Z",
+      "reportagem": {
+        "titulo": "STF marca julgamento de Tagliaferro; defesa denuncia abusos",
+        "slug": "stf-marca-julgamento-de-tagliaferro-defesa-denuncia-abusos",
+        "categoria": "Justiça",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/stf-marca-julgamento-de-tagliaferro-defesa-denuncia-abusos.jpg",
+        "resumo": "1ª Turma vai analisar ação penal contra ex-assessor de Moraes em dezembro",
+        "conteudo": "<p>A defesa de Eduardo Tagliaferro denunciou, nesta sexta-feira, 27, o que classificou como “violência processual” na inclusão da ação penal contra o ex-assessor do ministro Alexandre de Moraes na pauta do Supremo Tribunal Federal (STF).</p><h2>O contexto da decisão judicial</h2><p>A Primeira Turma da Corte vai julgar o mérito do processo entre 11 e 18 de dezembro, em sessão virtual. A publicação da pauta ocorreu nesta sexta-feira, no Diário da Justiça Eletrônico. Moraes é o relator do caso.</p><p>Em nota pública, os advogados Paulo Faria e Filipe Oliveira afirmaram não ter encontrado nos autos nenhuma decisão judicial que determinasse ou justificasse a inclusão do caso na pauta de julgamento do STF.</p><p>Além disso, as partes não tiveram a oportunidade de se manifestar adequadamente sobre o encerramento da instrução processual — fase de produção de provas e coleta de depoimentos.</p><h2>Detalhes e consequências do caso</h2><p>“É absolutamente inadmissível que uma ação penal seja encaminhada a julgamento nessas circunstâncias”, afirmaram os advogados.</p><p>“O processo penal não pode ser convertido em instrumento de perseguição pessoal, tampouco a jurisdição pode ser exercida à margem da Constituição e das leis da República.”</p><p>Os advogados sustentam que a condução do processo viola as garantias constitucionais do contraditório, da ampla defesa e do julgamento imparcial . “Quem determinou a inclusão dessa ação penal em pauta?</p><p>Onde está a decisão judicial que fundamenta esse ato? Como se pretende submeter um cidadão a julgamento sem assegurar a regularidade dos atos processuais antecedentes?”, perguntaram.</p><p>A defesa também informou que continuará a denunciar irregularidades na condução da ação penal perante instâncias nacionais e internacionais. “Não se combate a ilegalidade praticando ilegalidades”, afirmaram os advogados.</p><p>“Não se defende a democracia suprimindo direitos fundamentais. E não se faz Justiça sacrificando o devido processo legal para alcançar um resultado previamente pretendido.”</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/stf-marca-julgamento-de-tagliaferro-defesa-denuncia-abusos/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A defesa de Eduardo Tagliaferro denunciou, nesta sexta-feira, 27, o que classificou como “violência processual” na inclusão da ação penal contra o ex-assessor do ministro Alexandre de Moraes na pauta do Supremo Tribunal Federal (STF)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A Primeira Turma da Corte vai julgar o mérito do processo entre 11 e 18 de dezembro, em sessão virtual. A publicação da pauta ocorreu nesta sexta-feira, no Diário da Justiça Eletrônico. Moraes é o relator do caso."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Em nota pública, os advogados Paulo Faria e Filipe Oliveira afirmaram não ter encontrado nos autos nenhuma decisão judicial que determinasse ou justificasse a inclusão do caso na pauta de julgamento do STF."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "“É absolutamente inadmissível que uma ação penal seja encaminhada a julgamento nessas circunstâncias”, afirmaram os advogados. “O processo penal não pode ser convertido em instrumento de perseguição pessoal, tampouco a jurisdição pode ser exercida à margem da Constituição e das leis da República.”"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Os advogados sustentam que a condução do processo viola as garantias constitucionais do contraditório, da ampla defesa e do julgamento imparcial . “Quem determinou a inclusão dessa ação penal em pauta? Onde está a decisão judicial que fundamenta esse ato?"
+          }
+        ],
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/imagem_materia-3-860x568.jpg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/stf-marca-julgamento-de-tagliaferro-defesa-denuncia-abusos.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     }
   ],
-  "reapuradoEm": "2026-11-27T23:48:32.510Z",
+  "reapuradoEm": "2026-11-28T00:49:17.057Z",
   "diagnosticoReapuracao": {
     "produzidas": 22,
     "jaProntas": 0,
@@ -1519,5 +1516,5 @@
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-27T23:49:33.254Z"
+  "lapisEm": "2026-11-28T00:50:57.890Z"
 }
