@@ -1,54 +1,520 @@
 {
-  "geradoEm": "2026-11-28T00:49:11.505Z",
+  "geradoEm": "2026-11-28T01:48:42.424Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 1,
-    "bloqueadasEditoriais": 4,
+    "bloqueadasEditoriais": 3,
     "semImagem": 0,
     "duplicadasBasicas": 0,
-    "duplicadasSemanticas": 0,
+    "duplicadasSemanticas": 3,
     "foraCategorias": 40
   },
   "quantidadeCandidatas": 33,
   "tentativasRecentes": {
-    "1efcf78ff74df68c": 1795826951505,
-    "5e36ee1e2ec082b8": 1795826951505,
-    "7cc40743cc2e673c": 1795826951505,
-    "358110ded28b4ca1": 1795826951505,
-    "7c890d712d86cf62": 1795826951505,
-    "9a646170a7bed0e1": 1795826951505,
-    "65d86ca0a7316a4e": 1795826951505,
-    "7a4cbfd88405297e": 1795826951505,
-    "9a0d03a31dc642ee": 1795826951505,
-    "3fbf610dd43600d8": 1795826951505,
-    "e9ce3fdb30a69d78": 1795823312510,
-    "c25401b7c6ac046b": 1795826951505,
-    "dafb3612efe5a9c3": 1795826951505,
-    "137063ac4fab3281": 1795826951505,
-    "d7fcef428818f47e": 1795826951505,
-    "8d2a07b96f2b72bc": 1795826951505,
-    "bf67327f3812b555": 1795826951505,
-    "d05864e89a744776": 1795826951505,
-    "3edf666302f5195c": 1795826951505,
-    "dec506acb34138e9": 1795826951505,
-    "d5d0a3389d3c76dc": 1795826951505,
-    "a50d8cabb97ca1d9": 1795826951505,
-    "34a922b5431ea63c": 1795826951505,
-    "05aa72ba5d34b109": 1795826951505,
-    "6943f45c5b3d8545": 1795826951505,
-    "db4529b14b7c51b7": 1795823312510,
-    "d436b25f677a9e02": 1795826951505,
-    "b303ac5841aa7cc5": 1795826951505,
-    "d6b4b80453e7b56d": 1795826951505,
-    "41731df31e19c7ef": 1795826951505,
-    "16c2d2bdaac0c0ad": 1795826951505,
-    "fbbe49289853bc70": 1795826951505,
-    "adfff6f807a52725": 1795826951505,
-    "f7d3c594bbf71309": 1795826951505,
-    "413bf15f95be35bf": 1795826951505
+    "5e36ee1e2ec082b8": 1795830522424,
+    "c25401b7c6ac046b": 1795830522424,
+    "dafb3612efe5a9c3": 1795830522424,
+    "137063ac4fab3281": 1795830522424,
+    "d7fcef428818f47e": 1795830522424,
+    "8d2a07b96f2b72bc": 1795830522424,
+    "d05864e89a744776": 1795830522424,
+    "3edf666302f5195c": 1795830522424,
+    "dec506acb34138e9": 1795830522424,
+    "d5d0a3389d3c76dc": 1795830522424,
+    "a50d8cabb97ca1d9": 1795830522424,
+    "34a922b5431ea63c": 1795830522424,
+    "05aa72ba5d34b109": 1795830522424,
+    "6943f45c5b3d8545": 1795830522424,
+    "db4529b14b7c51b7": 1795830522424,
+    "d436b25f677a9e02": 1795830522424,
+    "b303ac5841aa7cc5": 1795830522424,
+    "d6b4b80453e7b56d": 1795830522424,
+    "41731df31e19c7ef": 1795830522424,
+    "16c2d2bdaac0c0ad": 1795830522424,
+    "fbbe49289853bc70": 1795830522424,
+    "adfff6f807a52725": 1795830522424,
+    "f7d3c594bbf71309": 1795830522424,
+    "413bf15f95be35bf": 1795830522424,
+    "9bdd0a5d03ed8ff2": 1795830522424,
+    "f2e975c79e99354b": 1795830522424,
+    "ed1aaadf2cc79698": 1795830522424,
+    "abc50adf78c6cde4": 1795830522424,
+    "c02197305f5daf45": 1795830522424,
+    "3fe61913d08f87f9": 1795830522424,
+    "62a34400bf132c45": 1795830522424,
+    "86d0d0c52943f167": 1795830522424,
+    "3446e6b8a2d7bf23": 1795830522424
   },
   "candidatas": [
+    {
+      "id": "9bdd0a5d03ed8ff2",
+      "titulo": "Moraes autoriza ministro do TCU a visitar Bolsonaro no hospital",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/moraes-autoriza-ministro-do-tcu-a-visitar-bolsonaro-no-hospital/",
+      "dataFonte": "2026-11-28T00:29:17.000Z",
+      "resumoFonte": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF) , autorizou nesta sexta-feira, 27, a visita do ministro do Tribunal de Contas da União (TCU) Jorge Antônio de Oliveira Francisco ao ex-presidente Jair Bolsonaro (PL) , internado no Hospital DF Star, em Brasília. O encontro vai ocorrer neste sábado, 28, durante o horário de visitação…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/Bolsonaro_TCU_Moraes-910x568.jpeg.webp",
+      "descobertaEm": "2026-11-28T01:18:08.348Z",
+      "reportagem": {
+        "titulo": "Moraes autoriza ministro do TCU a visitar Bolsonaro no hospital",
+        "slug": "moraes-autoriza-ministro-do-tcu-a-visitar-bolsonaro-no-hospital",
+        "categoria": "Política Nacional",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/moraes-autoriza-ministro-do-tcu-a-visitar-bolsonaro-no-hospital.jpg",
+        "resumo": "Encontro com Jorge Oliveira será neste sábado, 28, sem uso de aparelhos eletrônicos",
+        "conteudo": "<p>Alexandre de Moraes autorizou o ministro do TCU Jorge Oliveira, ex-integrante do governo Bolsonaro, a visitar Jair Bolsonaro (PL) neste sábado (28), no hospital DF Star, em Brasília.</p><h2>O contexto do cenário político</h2><p>O ministro proibiu o ingresso de celulares e equipamentos de gravação. Bolsonaro está internado na UTI com pneumonia broncoaspiratória e obstrução intestinal.</p><p>O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF) , autorizou nesta sexta-feira, 27, a visita do ministro do Tribunal de Contas da União (TCU) Jorge Antônio de Oliveira Francisco ao ex-presidente Jair Bolsonaro (PL) , internado no Hospital DF Star, em Brasília.</p><p>O encontro vai ocorrer neste sábado, 28, durante o horário de visitação do hospital.</p><h2>Informações e repercussões do episódio</h2><p>A defesa de Bolsonaro solicitou a transferência para a unidade hospitalar de uma visita que já havia sido autorizada por Moraes em 19 de novembro.</p><p>Jorge Oliveira foi ministro da Secretaria-Geral da Presidência durante o governo Bolsonaro. Ele chegou ao TCU em 2020 por indicação do então presidente.</p><p>Na decisão, Moraes determinou o cumprimento das orientações médicas e das regras de segurança do hospital. Também proibiu a entrada de celulares, câmeras e quaisquer aparelhos capazes de registrar imagens ou áudios do ex-presidente.</p><p>Bolsonaro está internado desde 20 de novembro, inicialmente com obstrução intestinal. Durante a hospitalização, também foi diagnosticado com pneumonia broncoaspiratória.</p><p>Ele permanece na UTI, em tratamento com antibióticos e fisioterapia, mas apresentou melhora clínica e iniciou dieta líquida por via oral. Ainda não há previsão de alta.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/moraes-autoriza-ministro-do-tcu-a-visitar-bolsonaro-no-hospital/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Alexandre de Moraes autorizou o ministro do TCU Jorge Oliveira, ex-integrante do governo Bolsonaro, a visitar Jair Bolsonaro (PL) neste sábado (28), no hospital DF Star, em Brasília. O ministro proibiu o ingresso de celulares e equipamentos de gravação. Bolsonaro está internado na UTI com pneumonia broncoaspiratória e obstrução intestinal."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF) , autorizou nesta sexta-feira, 27, a visita do ministro do Tribunal de Contas da União (TCU) Jorge Antônio de Oliveira Francisco ao ex-presidente Jair Bolsonaro (PL) , internado no Hospital DF Star, em Brasília."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O encontro vai ocorrer neste sábado, 28, durante o horário de visitação do hospital. A defesa de Bolsonaro solicitou a transferência para a unidade hospitalar de uma visita que já havia sido autorizada por Moraes em 19 de novembro. Jorge Oliveira foi ministro da Secretaria-Geral da Presidência durante o governo Bolsonaro."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Na decisão, Moraes determinou o cumprimento das orientações médicas e das regras de segurança do hospital. Também proibiu a entrada de celulares, câmeras e quaisquer aparelhos capazes de registrar imagens ou áudios do ex-presidente."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Bolsonaro está internado desde 20 de novembro, inicialmente com obstrução intestinal. Durante a hospitalização, também foi diagnosticado com pneumonia broncoaspiratória. Ele permanece na UTI, em tratamento com antibióticos e fisioterapia, mas apresentou melhora clínica e iniciou dieta líquida por via oral. Ainda não há previsão de alta."
+          }
+        ],
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/Bolsonaro_TCU_Moraes-910x568.jpeg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/moraes-autoriza-ministro-do-tcu-a-visitar-bolsonaro-no-hospital.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "f2e975c79e99354b",
+      "titulo": "Investidores em ETFs no Brasil aumentam 34% em um ano, segundo B3",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/economia/investimentos/investidores-em-etfs-no-brasil-aumentam-34-em-um-ano-segundo-b3/",
+      "dataFonte": "2026-11-28T00:31:40.000Z",
+      "resumoFonte": "Produtos permitem exposição a ativos globais como o S&P 500 e a criptomoedas de forma simplificada dentro da Bolsa de Valores brasileira",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/06/grafico-do-negocio-de-analise-de-dados-do-mercado-de-acoes-de-investimento.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-28T01:18:08.348Z",
+      "reportagem": {
+        "titulo": "Investidores em ETFs no Brasil aumentam 34% em um ano, segundo B3",
+        "slug": "investidores-em-etfs-no-brasil-aumentam-34-em-um-ano-segundo-b3",
+        "categoria": "Economia",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/investidores-em-etfs-no-brasil-aumentam-34-em-um-ano-segundo-b3.jpg",
+        "resumo": "Produtos permitem exposição a ativos globais como o S&P 500 e a criptomoedas de forma simplificada dentro da Bolsa de Valores brasileira",
+        "conteudo": "<p>Segundo a B3, Bolsa de Valores do Brasil , o número de investidores pessoa física em ETFs aumentou 34% no segundo trimestre deste ano, na comparação com o mesmo período de 2025.</p><h2>Os números do levantamento</h2><p>O número de pessoas físicas com fundos de índice na carteira passou de 639 mil, em junho de 2025, para 862 mil no segundo trimestre deste ano. As pessoas físicas são responsáveis por mais de 25% do volume custodiado dos ETFs.</p><p>“O ETF virou uma febre porque é fácil de investir”, explicou Thiago Godoy, apresentador do Resenha do Dinheiro.</p><p>O valor em custódia dos investidores pessoa física em ETFs também aumentou R$ 8,2 bilhões, passando de R$ 26,9 bilhões para R$ 35,1 bilhões, uma alta de 30,5%, segundo a B3.</p><h2>Como interpretar os resultados</h2><p>Os ETFs são fundos de índice negociados em bolsa que acompanham o desempenho de indicadores do mercado. Por meio desses produtos, o investidor consegue acessar diferentes classes de ativos, como ações, índices internacionais e até criptomoedas.</p><p>Para quem procura exposição a criptomoedas, como o bitcoin, os ETFs são uma opção. “É mais fácil você começar a investir em bitcoin e criptomoedas por meio de um ETF do que se aventurar diretamente em uma corretora”, disse Bernardo Pascowitch, fundador e CEO do Yubb.</p><p>Esses produtos também permitem o acesso a mercados globais. É possível, por exemplo, comprar, aqui do Brasil, uma cota de um ETF que acompanha o desempenho do S&amp;P 500 , com negociação direta na B3.</p><p>A oferta de ETFs cresceu no Brasil no último ano. Somente em 2025, 62 novos fundos de índice foram listados na B3.</p><p>As pessoas físicas também ampliaram sua participação na renda variável brasileira. Cerca de 200 mil novos investidores entraram na renda variável de dezembro de 2025 até o segundo trimestre deste ano.</p><p>O valor em custódia da renda variável também cresceu R$ 20,1 bilhão em seis meses, alcançando R$ 656,3 bilhões.</p><p>O programa é apresentado por Marilia Fontes, sócia-fundadora da Nord Investimentos, Bernardo Pascowitch, fundador e CEO do Yubb e Thiago Godoy, o “Papai Financeiro”; e propõe uma abordagem leve, direta e descomplicada sobre temas ligados à educação financeira e investimentos.</p><p>A atração aborda semanalmente os principais temas da economia com a informalidade de uma conversa entre amigos — sem abrir mão da análise.</p><p>O Resenha do Dinheiro vai ao ar todas as sextas-feiras, às 19h, no canal do CNN Money no YouTube e aos domingos, às 15h, na CNN Brasil</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/economia/investimentos/investidores-em-etfs-no-brasil-aumentam-34-em-um-ano-segundo-b3/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Segundo a B3, Bolsa de Valores do Brasil , o número de investidores pessoa física em ETFs aumentou 34% no segundo trimestre deste ano, na comparação com o mesmo período de 2025."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O número de pessoas físicas com fundos de índice na carteira passou de 639 mil, em junho de 2025, para 862 mil no segundo trimestre deste ano. As pessoas físicas são responsáveis por mais de 25% do volume custodiado dos ETFs."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "“O ETF virou uma febre porque é fácil de investir”, explicou Thiago Godoy, apresentador do Resenha do Dinheiro."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O valor em custódia dos investidores pessoa física em ETFs também aumentou R$ 8,2 bilhões, passando de R$ 26,9 bilhões para R$ 35,1 bilhões, uma alta de 30,5%, segundo a B3."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Os ETFs são fundos de índice negociados em bolsa que acompanham o desempenho de indicadores do mercado. Por meio desses produtos, o investidor consegue acessar diferentes classes de ativos, como ações, índices internacionais e até criptomoedas."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/06/grafico-do-negocio-de-analise-de-dados-do-mercado-de-acoes-de-investimento.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/investidores-em-etfs-no-brasil-aumentam-34-em-um-ano-segundo-b3.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "ed1aaadf2cc79698",
+      "titulo": "Trump publica imagem como 'Poderoso Chefão' e manda recado aos democratas",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/27/trump-publica-imagem-como-poderoso-chefao-e-manda-recado-aos-democratas.ghtm",
+      "dataFonte": "2026-11-27T23:20:05.000Z",
+      "resumoFonte": "O presidente dos Estados Unidos, Donald Trump, publicou nas redes sociais uma montagem que faz referência ao filme \"O Poderoso Chefão\" e a projetos apresentados por democratas.",
+      "imagem": "https://i.metroimg.com/4uG9Nw1Fm4rU90eeAaxb0_R7W1oYn0KZXmETWx1CfNk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/trump-veto-3x2-1.jpg",
+      "descobertaEm": "2026-11-28T01:18:08.348Z"
+    },
+    {
+      "id": "abc50adf78c6cde4",
+      "titulo": "Foguete sul-coreano será lançado a partir de Alcântara (MA) neste domingo",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/brasil/foguete-sul-coreano-sera-lancado-a-partir-de-alcantara-ma-neste-domingo",
+      "dataFonte": "2026-11-28T00:59:05.000Z",
+      "resumoFonte": "Lançamento integra a Operação Supersonic Rider 2. Alcântara é a principal base de lançamento de foguetes do Brasil",
+      "imagem": "https://i.metroimg.com/tdPnHaIFYMGTnhBXFT9J5A5aHlOkhj3Esbi4sGLWzNI/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/sebit-maranhao-3x2-1.jpg",
+      "descobertaEm": "2026-11-28T01:18:08.348Z"
+    },
+    {
+      "id": "c02197305f5daf45",
+      "titulo": "Cruzeiro vence o Fluminense e garante o terceiro lugar do Brasileirão",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao",
+      "dataFonte": "2026-11-28T01:06:11.000Z",
+      "resumoFonte": "Kaio Jorge marcou o único gol da vitória cruzeirense aos dois minutos de jogo e garantiu os três pontos para a Raposa",
+      "imagem": "https://i.metroimg.com/MsOOnVmMuMuv8QhmLO2YMcITS4wgcP9kVaQUWo2AQrw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/cruzeiro-x-fluminense.jpg",
+      "descobertaEm": "2026-11-28T01:18:08.348Z",
+      "reportagem": {
+        "titulo": "Cruzeiro vence o Fluminense e garante o terceiro lugar do Brasileirão",
+        "slug": "cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao",
+        "categoria": "Esporte",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao.jpg",
+        "resumo": "Kaio Jorge marcou o único gol da vitória cruzeirense aos dois minutos de jogo e garantiu os três pontos para a Raposa",
+        "conteudo": "<p>Vitória da Raposa. O Fluminense recebeu o Cruzeiro , nesta sexta-feira (27/11), no Maracanã, pela 37ª rodada do Campeonato Brasileiro . Com gol único marcado por Kaio Jorge, o time mineiro bateu o Tricolor fora de casa por 1 x 0 e confirmou o 3° lugar do torneio.</p><h2>As informações principais do assunto</h2><p>Com o resultado, o Cruzeiro chega a 69 pontos e não pode mais perder a 3ª posição na tabela, enquanto o Fluminense fica com 63 pontos, n0 4º lugar da classificação geral.</p><p>Nos minutos iniciais da partida, o Cruzeiro abriu o placar. Matheus Henrique roubou no meio do campo e acionou Bruno Rodrigues. Ele passou para Kaio Jorge do lado direito na entrada da área. O artilheiro cruzeirense chutou cruzado e marcou o gol.</p><p>Com 10 minutos de jogo, o Fluminense chegou bem ao ataque. Hércules recebeu passe na entrada da área e arriscou o chute, mas foi por cima do gol. Seis minutos depois, Lucho Acosta tentou de longe, mas Otávio defendeu.</p><h2>Contexto e informações complementares</h2><p>Lucho Acosta tocou para Agustin Canobbio pelo lado esquerdo. O uruguaio conduziu, levou para o meio e finalizou, mas Otávio defendeu mais uma vez.</p><p>O Cruzeiro respondeu com Bruno Rodrigues, que recebeu de costas e tocou para trás. Matheus Pereira tentou a finalização e acertou na trave.</p><p>No ataque seguinte, Savarino finalizou e conseguiu o escanteio. O Fluminense cobrou mal e o Cruzeiro saiu em contra-ataque. Bruno Rodrigues recebeu pelo lado esquerdo e atravessou para Kaio Jorge. O atacante finalizou e Fábio defendeu.</p><p>Resultado da partida: o Cruzeiro venceu o Fluminense por 1 x 0 em 27 de novembro, em jogo válido pela 37ª rodada do Campeonato Brasileiro; Gol do jogo: o atacante Kaio Jorge marcou o único gol da partida; Classificação atual: o Cruzeiro garantiu a 3ª posição na tabela com 69 pontos, enquanto o Fluminense ocupa o 4º lugar, com 63 pontos.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/esportes/cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Vitória da Raposa. O Fluminense recebeu o Cruzeiro , nesta sexta-feira (27/11), no Maracanã, pela 37ª rodada do Campeonato Brasileiro . Com gol único marcado por Kaio Jorge, o time mineiro bateu o Tricolor fora de casa por 1 x 0 e confirmou o 3° lugar do torneio."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Com o resultado, o Cruzeiro chega a 69 pontos e não pode mais perder a 3ª posição na tabela, enquanto o Fluminense fica com 63 pontos, n0 4º lugar da classificação geral."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Nos minutos iniciais da partida, o Cruzeiro abriu o placar. Matheus Henrique roubou no meio do campo e acionou Bruno Rodrigues. Ele passou para Kaio Jorge do lado direito na entrada da área. O artilheiro cruzeirense chutou cruzado e marcou o gol."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Com 10 minutos de jogo, o Fluminense chegou bem ao ataque. Hércules recebeu passe na entrada da área e arriscou o chute, mas foi por cima do gol. Seis minutos depois, Lucho Acosta tentou de longe, mas Otávio defendeu."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Lucho Acosta tocou para Agustin Canobbio pelo lado esquerdo. O uruguaio conduziu, levou para o meio e finalizou, mas Otávio defendeu mais uma vez. O Cruzeiro respondeu com Bruno Rodrigues, que recebeu de costas e tocou para trás. Matheus Pereira tentou a finalização e acertou na trave."
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/MsOOnVmMuMuv8QhmLO2YMcITS4wgcP9kVaQUWo2AQrw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/cruzeiro-x-fluminense.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/cruzeiro-vence-o-fluminense-e-garante-o-terceiro-lugar-do-brasileirao.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "db4529b14b7c51b7",
+      "titulo": "Missão tenta se juntar a outros partidos em ação no STF contra regra das sobras eleitorais",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Folha de S.Paulo - Poder",
+      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/missao-tenta-se-juntar-a-outros-partidos-em-acao-no-stf-contra-regra-das-sobras-eleitorais.shtml",
+      "dataFonte": "2026-11-27T22:57:00.000Z",
+      "resumoFonte": "O Partido Missão pediu ao Supremo Tribunal Federal para entrar como amicus curiae em uma ADI (Ação Direta de Inconstitucionalidade) em que o PDT e o Solidariedade contestam o modelo de distribuição das sobras eleitorais. Leia mais (11/27/2026 - 19h57)",
+      "imagem": "https://f.i.uol.com.br/fotografia/2019/09/17/15687417205d811958b7798_1568741720_3x2_rt.jpg",
+      "descobertaEm": "2026-11-27T23:18:12.338Z"
+    },
+    {
+      "id": "3fe61913d08f87f9",
+      "titulo": "Vila Nova vence Atlético-GO e volta à Série A do Brasileirão após 41 anos",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/esportes/vila-nova-vence-atletico-go-e-volta-a-serie-a-do-brasileirao-apos-41-anos",
+      "dataFonte": "2026-11-28T01:02:19.000Z",
+      "resumoFonte": "Retorno foi confirmada na noite desta sexta (27/11), no Estádio Onésio Brasileiro Alvarenga, após vitória por 2 x 0 contra o Atlético-GO",
+      "imagem": "https://i.metroimg.com/RxDAAd4m-HH3DzTXyaQQi7QsDaf-zPaU2UVauQfz-Ds/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/vila-nova-x-atletico-go-2.jpg",
+      "descobertaEm": "2026-11-28T01:18:08.348Z"
+    },
+    {
+      "id": "62a34400bf132c45",
+      "titulo": "Cruzeiro vence o Fluminense com gol de Kaio Jorge",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/esportes/futebol/cruzeiro-vence-o-fluminense-com-gol-de-kaio-jorge-27-11-2026/",
+      "dataFonte": "2026-11-28T00:57:57.000Z",
+      "resumoFonte": "O único gol da partida deu ao Cruzeiro a vitória por 1 a 0 sobre o Fluminense nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Brasileirão.",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/fluminense-x-cruzeiro-1492475.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-28T01:18:08.348Z",
+      "reportagem": {
+        "titulo": "Cruzeiro vence o Fluminense com gol de Kaio Jorge",
+        "slug": "cruzeiro-vence-o-fluminense-com-gol-de-kaio-jorge",
+        "categoria": "Esporte",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/cruzeiro-vence-o-fluminense-com-gol-de-kaio-jorge.jpg",
+        "resumo": "O único gol da partida deu ao Cruzeiro a vitória por 1 a 0 sobre o Fluminense nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Brasileirão.",
+        "conteudo": "<p>O único gol da partida deu ao Cruzeiro a vitória por 1 a 0 sobre o Fluminense nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Brasileirão.</p><h2>As informações principais do assunto</h2><p>O Cruzeiro vai a 69 pontos. O Fluminense segue com 63 pontos. O Cruzeiro soma sete vitórias seguidas.</p><p>Aos 3 minutos do primeiro tempo, Kaio Jorge fez 1 a 0 para o Cruzeiro, após assistência de Bruno Rodrigues.</p><p>O Cruzeiro ficou com um a menos aos 27 minutos do segundo tempo, com a expulsão de Jonathan Jesus. Samuel Xavier Brito, do Fluminense, recebeu o vermelho aos 45.</p><h2>Contexto e informações complementares</h2><p>Otávio Eleodoro Rezende Costa, goleiro do Cruzeiro, terminou com seis defesas.</p><p>A derrota veio mesmo com 21 finalizações do Fluminense, contra 8 do Cruzeiro. Na direção do gol, o Fluminense acertou 6, e o Cruzeiro, 3. O Fluminense ficou com a bola em 67% do tempo.</p><p>O próximo jogo do Fluminense é na quarta-feira (2/12), contra o Bragantino. O Cruzeiro enfrenta o Internacional na quarta-feira (2/12).</p><p>Matéria produzida automaticamente com dados da partida.</p><p>São Paulo vence o Remo com gol de Ryan Francisco Rodrigues dos Santos Silva nos minutos finais</p><p>Fluminense x Cruzeiro: onde assistir ao vivo, horário e escalações</p><p>Eleição do São Paulo: entenda formato e veja candidatos a presidente</p><p>Niclas Füllkrug marca no fim, e Werder Bremen arranca empate com o Borussia Mönchengladbach</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/esportes/futebol/cruzeiro-vence-o-fluminense-com-gol-de-kaio-jorge-27-11-2026/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O único gol da partida deu ao Cruzeiro a vitória por 1 a 0 sobre o Fluminense nesta sexta-feira (27), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Brasileirão."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O Cruzeiro vai a 69 pontos. O Fluminense segue com 63 pontos. O Cruzeiro soma sete vitórias seguidas."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Aos 3 minutos do primeiro tempo, Kaio Jorge fez 1 a 0 para o Cruzeiro, após assistência de Bruno Rodrigues."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O Cruzeiro ficou com um a menos aos 27 minutos do segundo tempo, com a expulsão de Jonathan Jesus. Samuel Xavier Brito, do Fluminense, recebeu o vermelho aos 45."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Otávio Eleodoro Rezende Costa, goleiro do Cruzeiro, terminou com seis defesas."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/fluminense-x-cruzeiro-1492475.png?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/cruzeiro-vence-o-fluminense-com-gol-de-kaio-jorge.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "86d0d0c52943f167",
+      "titulo": "Fluminense perde para o Cruzeiro no Brasileirão e adia definição da vaga direta na Libertadores",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "O Globo - Capa",
+      "urlFonte": "https://oglobo.globo.com/esportes/futebol/fluminense/noticia/2026/11/27/fluminense-perde-para-o-cruzeiro-no-brasileirao-e-adia-definicao-da-vaga-direta-na-libertadores.ghtml",
+      "dataFonte": "2026-11-28T00:56:37.147Z",
+      "resumoFonte": "Tricolor sofre gol de Kaio Jorge no início do jogo e segue a um ponto da classificação à fase de grupos do torneio continental",
+      "imagem": "https://s2-oglobo.glbimg.com/St6TGzF1BZW3ZLynVGGAFNU_Hvc=/3498x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/W/O/vaOz4nSmWtGxbLsQE2eg/55677539693-a9ff24ce0f-o.jpg",
+      "descobertaEm": "2026-11-28T01:19:50.491Z",
+      "reportagem": {
+        "titulo": "Fluminense perde para o Cruzeiro no Brasileirão e adia definição da vaga direta na Libertadores",
+        "slug": "fluminense-perde-para-o-cruzeiro-no-brasileirao-e-adia-definicao-da-vaga-direta-na-liberta",
+        "categoria": "Esporte",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/fluminense-perde-para-o-cruzeiro-no-brasileirao-e-adia-definicao-da-vaga-direta-na-liberta.jpg",
+        "resumo": "Tricolor sofre gol de Kaio Jorge no início do jogo e segue a um ponto da classificação à fase de grupos do torneio continental",
+        "conteudo": "<p>Os tricolores queriam &quot;sextar&quot; da melhor forma: com a vaga direta na Libertadores. E o Fluminense só precisava de um empate com o Cruzeiro, no Maracanã, para garantir a classificação.</p><h2>As informações principais do assunto</h2><p>Mas a atuação abaixo do esperado, principalmente no primeiro tempo, de uma equipe que vinha de quatro vitórias consecutivas custou a derrota por 1 a 0, apesar da pressão no fim do jogo.</p><p>Ainda assim, o tricolor pode se classificar com um tropeço do Athletico contra o Mirassol nesta penúltima rodada.</p><p>O início de jogo não foi como esperado pelo time de Marcão. Logo aos dois minutos, Thiago Silva tentou antecipar um passe para Bruno Rodrigues, que levou a melhor no lance e abriu para Kaio Jorge abrir o placar com um chute cruzado.</p><h2>Contexto e informações complementares</h2><p>Apesar do balde de água fria, a torcida tricolor fez questão de incentivar a equipe, que foi entrando aos poucos na partida com um de seus pontos mais fortes: o controle da posse de bola.</p><p>Mas o goleiro Otávio não precisou fazer grandes defesas até então, principalmente por conta da falta de efetividade do ataque tricolor.</p><p>Castillo, inclusive, ganhou a vaga de Hulk — outra novidade foi o retorno de Martinelli entre os titulares. Por outro lado, Fábio levou um susto daqueles: Matheus Pereira carimbou a trave perto da pequena área.</p><p>Embora tenha jogadores de qualidade, a Raposa aproveitou a vantagem no placar para apostar no contra-ataque em velocidade.</p><p>E o Fluminense não abdicava do seu estilo de jogo ofensivo, mas, ao mesmo tempo, dava espaço para o Cruzeiro colocar em prática sua principal estratégia.</p><p>Se o trio formado por Canobbio, Savarino e Castillo não era incisivo o suficiente para incomodar a defesa adversária, o time de Artur Jorge quase ampliou na reta final do primeiro tempo com a &quot;correria&quot; na transição.</p><p>Mas, desta vez, Ignácio afastou antes de Matheus Pereira completar o cruzamento de Gerson.</p><p>Apesar de o ataque deixar a desejar até aqui, Marcão decidiu não fazer nenhuma alteração na volta do intervalo. Mas o time não se comportou de maneira tão diferente no começo da segunda etapa.</p><p>Foi aí que o treinador recalculou a rota e fez uma substituição tripla. Riquelme, Nonato e Ganso entraram nos lugares de Canobbio, Hércules e Lucho Acosta.</p><p>O uruguaio, inclusive, foi vaiado pela torcida na saída de campo e recebeu os abraços dos companheiros no banco de reservas.</p><p>Quem também não escapou das vaias foi Savarino, que teve uma atuação pouco inspirada — Serna entrou.</p><p>Mas, se o Fluminense tinha dificuldades com a bola no pé, o Cruzeiro resolveu colaborar: o zagueiro Jonathan Jesus foi expulso pelo segundo cartão amarelo por um carrinho bobo em Riquelme.</p><p>Desde então, a pressão tricolor aumentou, e quase o Moleque de Xerém deixou tudo igual, mas a bola foi na rede pelo lado de fora.</p><p>O atacante de 19 anos deu um gás no ataque. Em um dos lances de perigo, deu passe na medida para Hulk, que se enrolou sozinho e finalizou fraco. A torcida não deixou barato, com vaias e xingamentos ao camisa 7.</p>",
+        "fonteNome": "O Globo - Capa",
+        "fonteUrl": "https://oglobo.globo.com/esportes/futebol/fluminense/noticia/2026/11/27/fluminense-perde-para-o-cruzeiro-no-brasileirao-e-adia-definicao-da-vaga-direta-na-libertadores.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Os tricolores queriam \"sextar\" da melhor forma: com a vaga direta na Libertadores. E o Fluminense só precisava de um empate com o Cruzeiro, no Maracanã, para garantir a classificação."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O início de jogo não foi como esperado pelo time de Marcão. Logo aos dois minutos, Thiago Silva tentou antecipar um passe para Bruno Rodrigues, que levou a melhor no lance e abriu para Kaio Jorge abrir o placar com um chute cruzado."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Mas o goleiro Otávio não precisou fazer grandes defesas até então, principalmente por conta da falta de efetividade do ataque tricolor. Castillo, inclusive, ganhou a vaga de Hulk — outra novidade foi o retorno de Martinelli entre os titulares. Por outro lado, Fábio levou um susto daqueles: Matheus Pereira carimbou a trave perto da pequena área."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "E o Fluminense não abdicava do seu estilo de jogo ofensivo, mas, ao mesmo tempo, dava espaço para o Cruzeiro colocar em prática sua principal estratégia."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Apesar de o ataque deixar a desejar até aqui, Marcão decidiu não fazer nenhuma alteração na volta do intervalo. Mas o time não se comportou de maneira tão diferente no começo da segunda etapa. Foi aí que o treinador recalculou a rota e fez uma substituição tripla. Riquelme, Nonato e Ganso entraram nos lugares de Canobbio, Hércules e Lucho Acosta."
+          }
+        ],
+        "imagemOriginal": "https://s2-oglobo.glbimg.com/St6TGzF1BZW3ZLynVGGAFNU_Hvc=/3498x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/W/O/vaOz4nSmWtGxbLsQE2eg/55677539693-a9ff24ce0f-o.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/fluminense-perde-para-o-cruzeiro-no-brasileirao-e-adia-definicao-da-vaga-direta-na-liberta.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "3446e6b8a2d7bf23",
+      "titulo": "Vila Nova supera o Atlético-GO e volta à elite do futebol brasileiro após 41 anos",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://www1.folha.uol.com.br/esporte/2026/11/vila-nova-supera-o-atletico-go-e-volta-a-elite-do-futebol-brasileiro-apos-41-anos.shtml",
+      "dataFonte": "2026-11-28T00:12:00.000Z",
+      "resumoFonte": "",
+      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/27/17958281786b0a29d2538b2_1795828178_3x2_rt.jpg",
+      "descobertaEm": "2026-11-28T01:18:08.348Z",
+      "reportagem": {
+        "titulo": "Vila Nova supera o Atlético-GO e volta à elite do futebol brasileiro após 41 anos",
+        "slug": "vila-nova-supera-o-atletico-go-e-volta-a-elite-do-futebol-brasileiro-apos-41-anos",
+        "categoria": "Esporte",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/vila-nova-supera-o-atletico-go-e-volta-a-elite-do-futebol-brasileiro-apos-41-anos.jpg",
+        "resumo": "Em casa, equipe conhecida como Tigre vence o clássico por 2 a 0 e confirma o acesso",
+        "conteudo": "<p>O Vila Nova vai disputar a Série A do Campeonato Brasileiro em 2027, encerrando um jejum de mais de quatro décadas longe da elite nacional.</p><h2>As informações principais do assunto</h2><p>Nesta sexta-feira (27), a equipe goiana venceu o clássico contra o Atlético-GO por 2 a 0 e, com o resultado, fechou em 3 a 1 o placar agregado dos dois jogos da fase final da Série B.</p><p>Júnior Barreto, contra, aos 8 minutos do segundo tempo, e João Vieira, aos 32, fizeram os gols da partida.</p><p>Fundado em 1943, o clube, que completou 83 anos, se junta a Novorizontino e Juventude, os primeiros a garantir o acesso à primeira divisão.</p><h2>Contexto e informações complementares</h2><p>Atualmente, nenhum clube goiano disputa a Série A. O Atlético-GO havia sido o último representante do estado na elite, em 2024, quando acabou rebaixado. Nesta temporada, buscava seu quinto acesso à primeira divisão.</p><p>A equipe havia conquistado a promoção em 2009, 2016, 2019 e 2023.</p><p>A última participação do Vila Nova na elite nacional havia sido em 1985, quando o Campeonato Brasileiro ainda tinha um formato diferente do atual. Desde então, o clube alternou temporadas nas Séries B e C, sem conseguir retornar à principal divisão do futebol brasileiro.</p><p>Naquela edição, o Tigre terminou na 28ª colocação entre os 44 participantes. O acesso conquistado agora é, portanto, o primeiro do clube no atual formato de pontos corridos, com a particularidade de uma fase final disputada em mata-mata.</p><p>O regulamento da Série B de 2026 tornou o caminho para a primeira divisão diferente. Nesta temporada, apenas os dois primeiros colocados garantiram o acesso direto.</p><p>As outras duas vagas foram decididas em confrontos eliminatórios, entre o terceiro e o sexto colocados e entre o quarto e o quinto, em partidas de ida e volta.</p><p>Apesar do clima de festa, a campanha do Vila Nova também ficou marcada pela polêmica envolvendo o lateral-direito Hayner, preso na véspera do clássico contra o Atlético-GO no âmbito da Operação A Tropa.</p><p>A investigação da Polícia Civil do Espírito Santo apura suspeitas de organização criminosa, tráfico interestadual de drogas e armas e lavagem de dinheiro.</p><p>O jogador teve participação importante na campanha do clube goiano na Série B, com 35 partidas disputadas, a maioria como titular.</p><p>O Vila Nova tem prestado apoio ao atleta, que se apresentou à Justiça acompanhado de um advogado do clube. Em comunicado divulgado pela equipe, Hayner afirmou ser inocente.</p><p>O Vila Nova vai disputar a Série A do Campeonato Brasileiro em 2027, encerrando um jejum de mais de quatro décadas longe da elite nacional.</p><p>Nesta sexta-feira (27), a equipe goiana venceu o clássico contra o Atlético-GO por 2 a 0 e, com o resultado, fechou em 3 a 1 o placar agregado dos dois jogos da fase final da Série B.</p><p>Júnior Barreto, contra, aos 8 minutos do segundo tempo, e João Vieira, aos 32, fizeram os gols da partida.</p><p>Fundado em 1943, o clube, que completou 83 anos, se junta a Novorizontino e Juventude, os primeiros a garantir o acesso à primeira divisão.</p>",
+        "fonteNome": "UOL Notícias",
+        "fonteUrl": "https://www1.folha.uol.com.br/esporte/2026/11/vila-nova-supera-o-atletico-go-e-volta-a-elite-do-futebol-brasileiro-apos-41-anos.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Vila Nova vai disputar a Série A do Campeonato Brasileiro em 2027, encerrando um jejum de mais de quatro décadas longe da elite nacional. Nesta sexta-feira (27), a equipe goiana venceu o clássico contra o Atlético-GO por 2 a 0 e, com o resultado, fechou em 3 a 1 o placar agregado dos dois jogos da fase final da Série B."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Júnior Barreto, contra, aos 8 minutos do segundo tempo, e João Vieira, aos 32, fizeram os gols da partida."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Fundado em 1943, o clube, que completou 83 anos, se junta a Novorizontino e Juventude, os primeiros a garantir o acesso à primeira divisão."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Atualmente, nenhum clube goiano disputa a Série A. O Atlético-GO havia sido o último representante do estado na elite, em 2024, quando acabou rebaixado. Nesta temporada, buscava seu quinto acesso à primeira divisão. A equipe havia conquistado a promoção em 2009, 2016, 2019 e 2023."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A última participação do Vila Nova na elite nacional havia sido em 1985, quando o Campeonato Brasileiro ainda tinha um formato diferente do atual. Desde então, o clube alternou temporadas nas Séries B e C, sem conseguir retornar à principal divisão do futebol brasileiro."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/11/27/17958281786b0a29d2538b2_1795828178_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/vila-nova-supera-o-atletico-go-e-volta-a-elite-do-futebol-brasileiro-apos-41-anos.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "c25401b7c6ac046b",
+      "titulo": "Pedra Azul Summit 2026 debate juros, ajuste fiscal e reforma tributária no primeiro dia",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/pedra-azul-summit/pedra-azul-summit-2026-debate-juros-ajuste-fiscal-e-reforma-tributaria-no-primeiro-dia-1126",
+      "dataFonte": "2026-11-27T23:04:45.000Z",
+      "resumoFonte": "Evento da Rede Gazeta reúne cerca de 250 pessoas nas Montanhas Capixabas; veja os destaques dos painéis desta sexta-feira (27)",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795815109142_clo4773.jpeg",
+      "descobertaEm": "2026-11-27T23:18:12.338Z",
+      "reportagem": {
+        "titulo": "Pedra Azul Summit 2026 debate juros, ajuste fiscal e reforma tributária no primeiro dia",
+        "slug": "pedra-azul-summit-2026-debate-juros-ajuste-fiscal-e-reforma-tributaria-no-primeiro-dia",
+        "categoria": "Economia",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/pedra-azul-summit-2026-debate-juros-ajuste-fiscal-e-reforma-tributaria-no-primeiro-dia.jpg",
+        "resumo": "Evento da Rede Gazeta reúne cerca de 250 pessoas nas Montanhas Capixabas; veja os destaques dos painéis desta sexta-feira (27)",
+        "conteudo": "<p>Juros altos, ajuste fiscal e o fim dos incentivos fiscais dominaram o primeiro dia da 21ª edição do Pedra Azul Summit, nesta sexta-feira (27).</p><h2>Dados e contexto do setor</h2><p>Promovido pela Rede Gazeta, com o Grupo Águia Branca e a Unimed Vitória, o encontro reúne cerca de 250 pessoas, entre empresários, representantes do poder público e imprensa, na Pousada Pedra Azul, nas Montanhas Capixabas.</p><p>Na abertura, o presidente da Rede Gazeta, Café Lindenberg, defendeu o diálogo como resposta ao cenário de incerteza .</p><p>Com o Brasil e o Espírito Santo às vésperas de novos governos e um cenário internacional difícil, ele defendeu que o momento leve à conversa, e não à paralisia. “Incerteza não é motivo para ficar parado.</p><h2>Impactos e informações adicionais</h2><p>É motivo para conversar mais, ouvir melhor e decidir com mais informação”, afirmou.</p><p>O primeiro painel, Papo de CEO, colocou lado a lado energia e varejo. João Brito Martins, CEO da EDP na América do Sul, e Fabrício Motta Coutinho, vice-presidente do Grupo Coutinho, debateram o futuro dos negócios em um cenário de juros altos e falta de mão de obra.</p><p>Brito Martins contou que a EDP deve gastar cerca de R$ 2 bilhões com juros no próximo ano, quase o mesmo que vai investir no Brasil. Já Coutinho vê na gestão de pessoas o “maior diferencial competitivo” de uma empresa.</p><p>A mediação foi da jornalista Rafaela Marquezini, da TV Gazeta.</p><p>O segundo painel, Panorama Político, colocou o próximo governo em pauta. Para o cientista político Oliver Stuenkel e a jornalista Julia Duailibi, da GloboNews, a escolha de Luiz Carlos Trabuco Cappi para o Ministério da Fazenda coloca o ajuste fiscal no centro do debate no próximo mandato do presidente Luiz Inácio Lula da Silva.</p><p>A dúvida, segundo Duailibi, é o tamanho desse ajuste. A mediação foi de Geraldo Nascimento, editor-chefe de A Gazeta e da CBN Vitória.</p><p>O terceiro e último painel, Panorama do Desenvolvimento do ES, discutiu os desafios e as oportunidades do Estado diante da reforma tributária , que encerra os incentivos fiscais de forma gradual a partir de 2029.</p><p>Para o professor Ângelo Valladares, da Fundação Dom Cabral, os estados precisam aprender a viver sem essa “muleta”.</p><p>A aposta é a logística: Anderson Carvalho, do Grupo Imetame, apresentou o porto em construção em Aracruz, e Renan Chieppe, da Fetransportes e do Grupo Águia Branca, cobrou soluções para gargalos como as BRs 262 e 259.</p><p>A mediação foi do colunista Abdo Filho, de A Gazeta.</p><p>À noite, o Fim de Expediente, da CBN, recebeu o cantor Paulo Ricardo ao vivo. Depois, a banda Sheep e a dupla Parafina animaram o happy hour no Salão do Lago.</p><p>No sábado (28), o presidente do Google Brasil, Fábio Coelho, abre as palestras às 9h. Às 11h, o economista José Roberto Mendonça de Barros fala sobre o panorama econômico. Toda a cobertura pode ser acompanhada em A Gazeta.</p><p>Juros altos, ajuste fiscal e o fim dos incentivos fiscais dominaram o primeiro dia da 21ª edição do Pedra Azul Summit, nesta sexta-feira (27).</p><p>Promovido pela Rede Gazeta, com o Grupo Águia Branca e a Unimed Vitória, o encontro reúne cerca de 250 pessoas, entre empresários, representantes do poder público e imprensa, na Pousada Pedra Azul, nas Montanhas Capixabas.</p><p>Na abertura, o presidente da Rede Gazeta, Café Lindenberg, defendeu o diálogo como resposta ao cenário de incerteza .</p><p>Com o Brasil e o Espírito Santo às vésperas de novos governos e um cenário internacional difícil, ele defendeu que o momento leve à conversa, e não à paralisia. “Incerteza não é motivo para ficar parado.</p><p>É motivo para conversar mais, ouvir melhor e decidir com mais informação”, afirmou.</p><p>À noite, o Fim de Expediente, da CBN, recebeu o cantor Paulo Ricardo ao vivo. Depois, a banda Sheep e a dupla Parafina animaram o happy hour no Salão do Lago.</p><p>No sábado (28), o presidente do Google Brasil, Fábio Coelho, abre as palestras às 9h. Às 11h, o economista José Roberto Mendonça de Barros fala sobre o panorama econômico.</p><p>Toda a cobertura pode ser acompanhada em A Gazeta.</p>",
+        "fonteNome": "A Gazeta - Capa",
+        "fonteUrl": "https://www.agazeta.com.br/pedra-azul-summit/pedra-azul-summit-2026-debate-juros-ajuste-fiscal-e-reforma-tributaria-no-primeiro-dia-1126",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Juros altos, ajuste fiscal e o fim dos incentivos fiscais dominaram o primeiro dia da 21ª edição do Pedra Azul Summit, nesta sexta-feira (27)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Na abertura, o presidente da Rede Gazeta, Café Lindenberg, defendeu o diálogo como resposta ao cenário de incerteza . Com o Brasil e o Espírito Santo às vésperas de novos governos e um cenário internacional difícil, ele defendeu que o momento leve à conversa, e não à paralisia. “Incerteza não é motivo para ficar parado."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O primeiro painel, Papo de CEO, colocou lado a lado energia e varejo. João Brito Martins, CEO da EDP na América do Sul, e Fabrício Motta Coutinho, vice-presidente do Grupo Coutinho, debateram o futuro dos negócios em um cenário de juros altos e falta de mão de obra."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O segundo painel, Panorama Político, colocou o próximo governo em pauta. Para o cientista político Oliver Stuenkel e a jornalista Julia Duailibi, da GloboNews, a escolha de Luiz Carlos Trabuco Cappi para o Ministério da Fazenda coloca o ajuste fiscal no centro do debate no próximo mandato do presidente Luiz Inácio Lula da Silva."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O terceiro e último painel, Panorama do Desenvolvimento do ES, discutiu os desafios e as oportunidades do Estado diante da reforma tributária , que encerra os incentivos fiscais de forma gradual a partir de 2029. Para o professor Ângelo Valladares, da Fundação Dom Cabral, os estados precisam aprender a viver sem essa “muleta”."
+          }
+        ],
+        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795815109142_clo4773.jpeg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/pedra-azul-summit-2026-debate-juros-ajuste-fiscal-e-reforma-tributaria-no-primeiro-dia.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
     {
       "id": "d436b25f677a9e02",
       "titulo": "Após 'efeito Trabuco', Lula inicia recalibragem do discurso do ajuste fiscal",
@@ -108,210 +574,6 @@
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
-    },
-    {
-      "id": "b303ac5841aa7cc5",
-      "titulo": "MP apura uso de praia em Balneário Camboriú para show de Shakira",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/entretenimento/mp-apura-uso-de-praia-em-balneario-camboriu-para-show-de-shakira",
-      "dataFonte": "2026-11-28T00:07:59.000Z",
-      "resumoFonte": "Prefeitura terá cinco dias para apresentar documentos sobre a ocupação da faixa de areia durante evento de Réveillon",
-      "imagem": "https://i.metroimg.com/55yZro7uUdi8YtkowiMNwL_BGWHC34PjvwraZIqMUA0/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/05/gettyimages-2274233585.jpg",
-      "descobertaEm": "2026-11-28T00:18:36.123Z",
-      "reportagem": {
-        "titulo": "MP apura uso de praia em Balneário Camboriú para show de Shakira",
-        "slug": "mp-apura-uso-de-praia-em-balneario-camboriu-para-show-de-shakira",
-        "categoria": "Cultura",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mp-apura-uso-de-praia-em-balneario-camboriu-para-show-de-shakira.jpg",
-        "resumo": "Prefeitura terá cinco dias para apresentar documentos sobre a ocupação da faixa de areia durante evento de Réveillon",
-        "conteudo": "<p>O Ministério Público de Santa Catarina (MPSC) apura a legalidade da utilização de aproximadamente 50 mil metros quadrados da Praia Central de Balneário Camboriú (SC) para a realização de um evento de Réveillon que terá a cantora Shakira entre as atrações.</p><h2>As informações principais do assunto</h2><p>O Verão Atmosphere está previsto para ocorrer na virada de 2026 para 2027, com apresentação da artista anunciada para 31 de dezembro.</p><p>A festa terá tanto setores gratuitos quanto áreas com ingressos à venda, incluindo camarotes.</p><p>A investigação foi aberta para verificar se a ocupação temporária da faixa de areia atende às exigências legais e se preserva o acesso da população à praia e ao mar. Não há irregularidade comprovada.</p><h2>Contexto e informações complementares</h2><p>A apuração é conduzida pela 9ª Promotoria de Justiça da Comarca de Balneário Camboriú , que atua na área de moralidade administrativa.</p><p>O promotor de Justiça Jean Michel Forest assinou, em 25 de novembro, um despacho determinando que a Prefeitura apresente documentos e esclarecimentos sobre o evento no prazo de cinco dias, a contar do recebimento do pedido.</p><p>Shakira celebrou os fãs brasileiros durante a apresentação no Todo Mundo no Rio</p><p>2 milhões de pessoas foram ver Shakira de perto nas areias de Copacabana</p><p>O assunto também foi encaminhado à 5ª Promotoria de Justiça, responsável pela área de meio ambiente, e à 6ª Promotoria, que atua na defesa do consumidor e da cidadania.</p><p>Entre as informações solicitadas estão os documentos que autorizam a utilização da faixa de areia, as condições estabelecidas para a cessão do espaço e as contrapartidas assumidas pelos organizadores.</p><p>O Ministério Público também quer saber se haverá uso de recursos materiais, financeiros ou de pessoal da administração municipal.</p><p>A Promotoria pediu ainda a identificação das empresas responsáveis pelo evento e detalhes sobre a área que será ocupada.</p><p>A Prefeitura deverá esclarecer a informação de que cerca de 50 mil metros quadrados da praia serão destinados à estrutura da festa e apresentar a planta correspondente.</p><p>Outro ponto questionado pelo MPSC é a divisão entre os espaços de acesso gratuito e os setores destinados à venda de ingressos e camarotes.</p><p>O órgão quer conhecer a localização e a metragem de cada área, além dos corredores que serão mantidos para garantir a circulação da população e o acesso ao mar.</p><p>Também foram solicitados detalhes sobre as estruturas provisórias previstas, como palcos, tendas, cercamentos, banheiros químicos, geradores e arquibancadas.</p><p>O município deverá informar o cronograma de montagem e desmontagem e os períodos em que o uso coletivo da orla poderá ser limitado.</p><p>Depois de receber as respostas da Prefeitura ou do encerramento do prazo concedido, a 9ª Promotoria de Justiça fará uma nova análise do caso para definir os próximos encaminhamentos.</p><p>Para ficar por dentro de tudo sobre o universo dos famosos e do entretenimento siga o perfil Metrópoles Fun no Instagram .</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/entretenimento/mp-apura-uso-de-praia-em-balneario-camboriu-para-show-de-shakira",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Ministério Público de Santa Catarina (MPSC) apura a legalidade da utilização de aproximadamente 50 mil metros quadrados da Praia Central de Balneário Camboriú (SC) para a realização de um evento de Réveillon que terá a cantora Shakira entre as atrações."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A investigação foi aberta para verificar se a ocupação temporária da faixa de areia atende às exigências legais e se preserva o acesso da população à praia e ao mar. Não há irregularidade comprovada."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A apuração é conduzida pela 9ª Promotoria de Justiça da Comarca de Balneário Camboriú , que atua na área de moralidade administrativa. O promotor de Justiça Jean Michel Forest assinou, em 25 de novembro, um despacho determinando que a Prefeitura apresente documentos e esclarecimentos sobre o evento no prazo de cinco dias, a contar do recebimento do pedido."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Shakira celebrou os fãs brasileiros durante a apresentação no Todo Mundo no Rio"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "2 milhões de pessoas foram ver Shakira de perto nas areias de Copacabana"
-          }
-        ],
-        "imagemOriginal": "https://i.metroimg.com/55yZro7uUdi8YtkowiMNwL_BGWHC34PjvwraZIqMUA0/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/05/gettyimages-2274233585.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/mp-apura-uso-de-praia-em-balneario-camboriu-para-show-de-shakira.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "d6b4b80453e7b56d",
-      "titulo": "Especialista alerta para riscos do uso inadequado da IA nas escolas",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/educacao/especialista-alerta-para-riscos-do-uso-inadequado-da-ia-nas-escolas/",
-      "dataFonte": "2026-11-27T23:55:53.000Z",
-      "resumoFonte": "Facilidade excessiva de ferramentas digitais pode prejudicar o raciocínio crítico dos alunos e gerar desinformação; estudante explica que utiliza a inteligência artificial para auxiliar nos estudos",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/little-classmates-discussing-lesson-doing-task.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-28T00:18:36.123Z",
-      "reportagem": {
-        "titulo": "Especialista alerta para riscos do uso inadequado da IA nas escolas",
-        "slug": "especialista-alerta-para-riscos-do-uso-inadequado-da-ia-nas-escolas",
-        "categoria": "Tecnologia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/especialista-alerta-para-riscos-do-uso-inadequado-da-ia-nas-escolas.jpg",
-        "resumo": "Facilidade excessiva de ferramentas digitais pode prejudicar o raciocínio crítico dos alunos e gerar desinformação; estudante explica que utiliza a inteligência artificial para auxiliar nos estudos",
-        "conteudo": "<p>Um estudo apontou que a IA (Inteligência Artificial) tem o potencial de transformar a educação. Para que esse potencial seja benéfico, é essencial uma integração das tecnologias, mas que seja guiada por líderes educacionais com conhecimento dessas tecnologias.</p><h2>Dados e contexto do setor</h2><p>A análise &quot; Inteligência Artificial na educação: condições e desafios para a América Latina e o Caribe&quot; é da TIC Educação, coordenada pelo Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação.</p><p>O estudo aponta três formas que a inteligência artificial poderia ser implementada.</p><p>O primeiro exemplo seria quanto ao apoio aos processos de ensino e aprendizagem, o segundo seria sobre o apoio à gestão educacional, já o terceiro seria sobre o desenvolvimento de competências e habilidades para a vida e o trabalho na era da IA.</p><h2>Impactos e informações adicionais</h2><p>O Ministério da Educação (MEC) também homologou o parecer do Conselho Nacional de Educação (CNE) que traz as Diretrizes para a Utilização da Inteligência Artificial na Educação Brasileira, para todas as etapas de ensino.</p><p>O professor de história e diretor do Colégio Sigma, Tiago Diana, explica que a união entre educação e tecnologia pode abrir um novo caminho para o conhecimento, sem deixar de lado o que é essencial.</p><p>&quot;Acredito que as novas diretrizes trazem uma mensagem importante: precisamos aprender a conviver com a tecnologia, mas sem perder aquilo que é essencial na educação (...) A escola do futuro não será aquela que utiliza mais tecnologia, mas aquela que sabe utilizar a tecnologia para ensinar melhor &quot;, destaca o especialista.</p><p>Tiago ainda destaca que a ferramenta pode ser uma aliada na aprendizagem.</p><p>&quot;A inteligência artificial pode ser uma grande aliada da aprendizagem . Ela oferece possibilidades muito interessantes: ajudar o aluno a compreender um conteúdo, apresentar diferentes explicações, organizar ideias, aprofundar pesquisas e até identificar suas dificuldades.</p><p>Imagine um estudante que não compreendeu determinado assunto em sala de aula. A tecnologia pode oferecer outra explicação, apresentar exemplos diferentes e ajudá-lo a avançar&quot;, analisa.</p><p>Para o especialista, os principais riscos dessa implementação e união entre estudos e inteligência artificial está na facilidade que ela pode propor.</p><p>&quot;O maior risco é o estudante começar a confundir facilidade com aprendizagem. Quando utilizamos uma ferramenta para resolver todos os nossos problemas, sem compreender o processo, podemos deixar de exercitar habilidades fundamentais, como a leitura, a interpretação, a escrita, o raciocínio e a capacidade de argumentação&quot;, afirma.</p><p>Além disso, o professor aponta que outro risco aborda as informações falsas que as IA&#39;s podem apresentar aos estudantes.</p><p>&quot;Essas ferramentas podem produzir informações incorretas, reproduzir preconceitos e apresentar respostas com aparência de certeza, mesmo quando estão erradas&quot;, indica.</p><p>A estudante do 3º ano do Fundamental I, Maria Paula de Magalhães, aponta que usa a inteligência artificial para auxiliar nos estudos, principalmente quando tem dúvidas, mas entende que a ferramenta serve apenas como uma aliada.</p><p>&quot;Utilizo algumas ferramentas de inteligência artificial para me ajudar nos estudos.</p><p>Às vezes, utilizo para organizar ideias, resumir conteúdos ou encontrar outras formas de explicar uma matéria que não compreendi muito bem. Mas entendo que a ferramenta não pode fazer tudo por mim.</p><p>Preciso estudar, ler, interpretar e realmente aprender o conteúdo. Afinal, na hora de uma prova ou de resolver um problema, sou eu que preciso saber o que fazer&quot;, afirma a estudante.</p><p>Um estudo apontou que a IA tem o potencial de transformar a educação, mas para que esse potencial seja benéfico, é essencial uma integração das tecnologias, mas que seja guiada por líderes educacionais com conhecimento dessas tecnologias</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/educacao/especialista-alerta-para-riscos-do-uso-inadequado-da-ia-nas-escolas/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
-          },
-          {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Um estudo apontou que a IA (Inteligência Artificial) tem o potencial de transformar a educação. Para que esse potencial seja benéfico, é essencial uma integração das tecnologias, mas que seja guiada por líderes educacionais com conhecimento dessas tecnologias."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A análise \" Inteligência Artificial na educação: condições e desafios para a América Latina e o Caribe\" é da TIC Educação, coordenada pelo Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O estudo aponta três formas que a inteligência artificial poderia ser implementada. O primeiro exemplo seria quanto ao apoio aos processos de ensino e aprendizagem, o segundo seria sobre o apoio à gestão educacional, já o terceiro seria sobre o desenvolvimento de competências e habilidades para a vida e o trabalho na era da IA."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O Ministério da Educação (MEC) também homologou o parecer do Conselho Nacional de Educação (CNE) que traz as Diretrizes para a Utilização da Inteligência Artificial na Educação Brasileira, para todas as etapas de ensino."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O professor de história e diretor do Colégio Sigma, Tiago Diana, explica que a união entre educação e tecnologia pode abrir um novo caminho para o conhecimento, sem deixar de lado o que é essencial."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/little-classmates-discussing-lesson-doing-task.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/especialista-alerta-para-riscos-do-uso-inadequado-da-ia-nas-escolas.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "41731df31e19c7ef",
-      "titulo": "Eleição do São Paulo: entenda formato e veja candidatos a presidente",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/esportes/futebol/sao-paulo-futebol-clube/eleicao-do-sao-paulo-entenda-formato-e-veja-candidatos-a-presidente/",
-      "dataFonte": "2026-11-27T23:56:50.000Z",
-      "resumoFonte": "Votam apenas aqueles vinculados ao clube social, excluindo sócio-torcedor e proprietário de cadeira cativa no MorumBis",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/FTA20261010172.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-28T00:18:36.123Z",
-      "reportagem": {
-        "titulo": "Eleição do São Paulo: entenda formato e veja candidatos a presidente",
-        "slug": "eleicao-do-sao-paulo-entenda-formato-e-veja-candidatos-a-presidente",
-        "categoria": "Esporte",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/eleicao-do-sao-paulo-entenda-formato-e-veja-candidatos-a-presidente.jpg",
-        "resumo": "Votam apenas aqueles vinculados ao clube social, excluindo sócio-torcedor e proprietário de cadeira cativa no MorumBis",
-        "conteudo": "<p>Os sócios do São Paulo votarão em candidatos ao Conselho Deliberativo neste domingo.</p><h2>O contexto da decisão judicial</h2><p>É a primeira etapa do processo eleitoral , que tem o desfecho na eleição para a presidência, prevista para a segunda semana de dezembro. Assim como muitos clubes no Brasil, o São Paulo tem um processo eleitoral indireto.</p><p>Cerca de 6,5 mil sócios estão aptos a votar em candidatos ao Conselho na Assembleia Geral. Votam apenas aqueles vinculados ao clube social, excluindo sócio-torcedor e proprietário de cadeira cativa no MorumBis.</p><p>Cada eleitor escolhe até 20 candidatos. Os postulantes ao Conselho estão divididos em duas chapas, mas o sócio pode escolher nomes dos dois lados. O voto é secreto, presencial e em urna eletrônica.</p><h2>Contexto e informações complementares</h2><p>Serão eleitos 100 novos conselheiros, dos quais 75 serão os mais votados. Depois, a cada três eleitos de uma chapa, é eleito outro do mesmo grupo até que fechem os outros 25. Esses precisam ter, pelo menos, 1% do total de votos.</p><p>Os 100 eleitos se juntam a outros 152 vitalícios, que ganharam esse status por fatores como tempo de associação e “atestado de fé são-paulina”.</p><p>É como um comprovante de que se é torcedor do São Paulo, já que há conselheiros cuja relação com o clube é apenas pelo social. O limite de vitalícios é 160.</p><p>As eleições para esses cargos são feitas à parte, quando há vacância de lotes de vagas abertos.</p><p>Os 252 conselheiros, então, votarão para a presidência. Essa eleição pode ser presencial, híbrida ou online, a depender da convocação do presidente do Conselho Deliberativo.</p><p>Portanto, se a chapa vinculada a um dos candidatos tiver eleito mais conselheiros, a lógica é de que esse candidato terá mais votos. O sistema é o mesmo para eleger o próximo presidente do Conselho.</p><p>Os novos dirigentes assumem o São Paulo por um período de três anos. Desde 2022, é possível a reeleição, o que faz a gestão ter dois triênios (seis anos).</p><p>Votam apenas aqueles vinculados ao clube social, excluindo sócio-torcedor e proprietário de cadeira cativa no MorumBis</p><p>Justiça adia decisão sobre intervenção no Corinthians e impõe medidas cautelares</p><p>Do voto na urna eletrônica à eleição pelos 252 conselheiros</p><p>São Paulo x Remo hoje: onde assistir ao vivo e escalações</p><p>Está chegando a hora de São Paulo x Remo: o jogo é às 20h (de Brasília) nesta quinta-feira (26), no MorumBis, em São Paulo, pela 37ª rodada do Campeonato Brasileiro de 2026.</p><p>São Paulo atinge &#39;meta Crespo&#39; em empate com Botafogo</p><p>São Paulo repete erros e sofre revés de 2 a 0 para Cruzeiro</p><p>Cruzeiro x São Paulo: onde assistir ao vivo, horário e transmissão</p><p>São Paulo quita um mês de direitos de imagem atrasados</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/esportes/futebol/sao-paulo-futebol-clube/eleicao-do-sao-paulo-entenda-formato-e-veja-candidatos-a-presidente/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Os sócios do São Paulo votarão em candidatos ao Conselho Deliberativo neste domingo. É a primeira etapa do processo eleitoral , que tem o desfecho na eleição para a presidência, prevista para a segunda semana de dezembro. Assim como muitos clubes no Brasil, o São Paulo tem um processo eleitoral indireto."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Cada eleitor escolhe até 20 candidatos. Os postulantes ao Conselho estão divididos em duas chapas, mas o sócio pode escolher nomes dos dois lados. O voto é secreto, presencial e em urna eletrônica."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Serão eleitos 100 novos conselheiros, dos quais 75 serão os mais votados. Depois, a cada três eleitos de uma chapa, é eleito outro do mesmo grupo até que fechem os outros 25. Esses precisam ter, pelo menos, 1% do total de votos."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Os 100 eleitos se juntam a outros 152 vitalícios, que ganharam esse status por fatores como tempo de associação e “atestado de fé são-paulina”. É como um comprovante de que se é torcedor do São Paulo, já que há conselheiros cuja relação com o clube é apenas pelo social. O limite de vitalícios é 160."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os 252 conselheiros, então, votarão para a presidência. Essa eleição pode ser presencial, híbrida ou online, a depender da convocação do presidente do Conselho Deliberativo."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/FTA20261010172.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/eleicao-do-sao-paulo-entenda-formato-e-veja-candidatos-a-presidente.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "16c2d2bdaac0c0ad",
-      "titulo": "Marinha apura denúncia de estupro contra tenente durante viagem de formação",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/brasil/marinha-apura-denuncia-de-estupro-contra-tenente-durante-viagem-de-formacao",
-      "dataFonte": "2026-11-28T00:04:48.000Z",
-      "resumoFonte": "Marinha apura denúncia de estupro contra tenente durante viagem de formação. Dois militares foram repatriados ao Brasil",
-      "imagem": "https://i.metroimg.com/WxbgqOUI3Qu1DWyzsL70R5Bv_L19e1nGw7bSqPYqnOI/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/navio-escola-brasil.jpg",
-      "descobertaEm": "2026-11-28T00:18:36.123Z"
-    },
-    {
-      "id": "1efcf78ff74df68c",
-      "titulo": "Quênia: líder de seita do jejum até a morte é condenado por 123 homicídios",
-      "categoria": "Segurança Pública",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/mundo/quenia-lider-de-seita-do-jejum-ate-a-morte-e-condenado-por-123-homicidios",
-      "dataFonte": "2026-11-27T21:51:07.000Z",
-      "resumoFonte": "Justiça considerou que Paul Mackenzie organizou jejuns extremos que levaram seguidores à morte. Líder já cumpre pena de 200 anos",
-      "imagem": "https://i.metroimg.com/YfiRs6_Mz5fa4qVRcbXMCLIWY8luKH0k2pUxrvVGQDw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/lider-seita-jejum-quenia.jpg",
-      "descobertaEm": "2026-11-27T22:02:42.560Z"
     },
     {
       "id": "fbbe49289853bc70",
@@ -429,162 +691,6 @@
         ],
         "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2024/09/henrique-meirelles-2.jpeg.jpg?quality=70&strip=info&resize=1200,630&crop=1",
         "imagemX": "https://noticiaes.com.br/imagens/lapis/meirelles-alerta-que-divida-publica-pode-levar-brasil-a-repetir-crise-de-2015-e-2016.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "f7d3c594bbf71309",
-      "titulo": "Corinthians x Grêmio: horário e onde assistir ao jogo do Brasileirão",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/corinthians-x-gremio-horario-e-onde-assistir-ao-jogo-do-brasileirao-2/",
-      "dataFonte": "2026-11-27T23:35:09.000Z",
-      "resumoFonte": "Adversários diretos na luta contra o rebaixamento, Corinthians e Grêmio se enfrentam na noite deste domingo (29), pela 37ª rodada do Campeonato Brasileiro",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/neo-quimica-arena-e1784839672415.jpeg?w=1024&h=576&crop=1",
-      "descobertaEm": "2026-11-28T00:18:36.123Z"
-    },
-    {
-      "id": "413bf15f95be35bf",
-      "titulo": "PGR é contra obrigar União a aprovar empréstimo ao BRB",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-justica/pgr-e-contra-obrigar-uniao-a-aprovar-emprestimo-ao-brb/",
-      "dataFonte": "2026-11-28T00:02:56.000Z",
-      "resumoFonte": "GDF acionou STF para desbloquear crédito ao BRB após bancos não formarem grupo fiador",
-      "imagem": "https://static.poder360.com.br/uploads/2026/05/Predio-BRB-1080.png",
-      "descobertaEm": "2026-11-28T00:18:36.123Z"
-    },
-    {
-      "id": "7c890d712d86cf62",
-      "titulo": "Fluminense x Cruzeiro: escalações e onde assistir ao jogo do Brasileirão",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/fluminense-x-cruzeiro-escalacoes-e-onde-assistir-ao-jogo-do-brasileirao-2/",
-      "dataFonte": "2026-11-27T22:02:04.000Z",
-      "resumoFonte": "Equipes se enfrentam nesta sexta-feira (27), às 20h (de Brasília), no Maracanã, no Rio de Janeiro, pela 37ª rodada do Campeonato Brasileiro",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/maraca.jpg?w=1180&h=630&crop=1",
-      "descobertaEm": "2026-11-27T22:18:28.416Z"
-    },
-    {
-      "id": "c25401b7c6ac046b",
-      "titulo": "Pedra Azul Summit 2026 debate juros, ajuste fiscal e reforma tributária no primeiro dia",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/pedra-azul-summit/pedra-azul-summit-2026-debate-juros-ajuste-fiscal-e-reforma-tributaria-no-primeiro-dia-1126",
-      "dataFonte": "2026-11-27T23:04:45.000Z",
-      "resumoFonte": "Evento da Rede Gazeta reúne cerca de 250 pessoas nas Montanhas Capixabas; veja os destaques dos painéis desta sexta-feira (27)",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795815109142_clo4773.jpeg",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "Pedra Azul Summit 2026 debate juros, ajuste fiscal e reforma tributária no primeiro dia",
-        "slug": "pedra-azul-summit-2026-debate-juros-ajuste-fiscal-e-reforma-tributaria-no-primeiro-dia",
-        "categoria": "Economia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/pedra-azul-summit-2026-debate-juros-ajuste-fiscal-e-reforma-tributaria-no-primeiro-dia.jpg",
-        "resumo": "Evento da Rede Gazeta reúne cerca de 250 pessoas nas Montanhas Capixabas; veja os destaques dos painéis desta sexta-feira (27)",
-        "conteudo": "<p>Juros altos, ajuste fiscal e o fim dos incentivos fiscais dominaram o primeiro dia da 21ª edição do Pedra Azul Summit, nesta sexta-feira (27).</p><h2>Dados e contexto do setor</h2><p>Promovido pela Rede Gazeta, com o Grupo Águia Branca e a Unimed Vitória, o encontro reúne cerca de 250 pessoas, entre empresários, representantes do poder público e imprensa, na Pousada Pedra Azul, nas Montanhas Capixabas.</p><p>Na abertura, o presidente da Rede Gazeta, Café Lindenberg, defendeu o diálogo como resposta ao cenário de incerteza .</p><p>Com o Brasil e o Espírito Santo às vésperas de novos governos e um cenário internacional difícil, ele defendeu que o momento leve à conversa, e não à paralisia. “Incerteza não é motivo para ficar parado.</p><h2>Impactos e informações adicionais</h2><p>É motivo para conversar mais, ouvir melhor e decidir com mais informação”, afirmou.</p><p>O primeiro painel, Papo de CEO, colocou lado a lado energia e varejo. João Brito Martins, CEO da EDP na América do Sul, e Fabrício Motta Coutinho, vice-presidente do Grupo Coutinho, debateram o futuro dos negócios em um cenário de juros altos e falta de mão de obra.</p><p>Brito Martins contou que a EDP deve gastar cerca de R$ 2 bilhões com juros no próximo ano, quase o mesmo que vai investir no Brasil. Já Coutinho vê na gestão de pessoas o “maior diferencial competitivo” de uma empresa.</p><p>A mediação foi da jornalista Rafaela Marquezini, da TV Gazeta.</p><p>O segundo painel, Panorama Político, colocou o próximo governo em pauta. Para o cientista político Oliver Stuenkel e a jornalista Julia Duailibi, da GloboNews, a escolha de Luiz Carlos Trabuco Cappi para o Ministério da Fazenda coloca o ajuste fiscal no centro do debate no próximo mandato do presidente Luiz Inácio Lula da Silva.</p><p>A dúvida, segundo Duailibi, é o tamanho desse ajuste. A mediação foi de Geraldo Nascimento, editor-chefe de A Gazeta e da CBN Vitória.</p><p>O terceiro e último painel, Panorama do Desenvolvimento do ES, discutiu os desafios e as oportunidades do Estado diante da reforma tributária , que encerra os incentivos fiscais de forma gradual a partir de 2029.</p><p>Para o professor Ângelo Valladares, da Fundação Dom Cabral, os estados precisam aprender a viver sem essa “muleta”.</p><p>A aposta é a logística: Anderson Carvalho, do Grupo Imetame, apresentou o porto em construção em Aracruz, e Renan Chieppe, da Fetransportes e do Grupo Águia Branca, cobrou soluções para gargalos como as BRs 262 e 259.</p><p>A mediação foi do colunista Abdo Filho, de A Gazeta.</p><p>À noite, o Fim de Expediente, da CBN, recebeu o cantor Paulo Ricardo ao vivo. Depois, a banda Sheep e a dupla Parafina animaram o happy hour no Salão do Lago.</p><p>No sábado (28), o presidente do Google Brasil, Fábio Coelho, abre as palestras às 9h. Às 11h, o economista José Roberto Mendonça de Barros fala sobre o panorama econômico. Toda a cobertura pode ser acompanhada em A Gazeta.</p><p>Juros altos, ajuste fiscal e o fim dos incentivos fiscais dominaram o primeiro dia da 21ª edição do Pedra Azul Summit, nesta sexta-feira (27).</p><p>Promovido pela Rede Gazeta, com o Grupo Águia Branca e a Unimed Vitória, o encontro reúne cerca de 250 pessoas, entre empresários, representantes do poder público e imprensa, na Pousada Pedra Azul, nas Montanhas Capixabas.</p><p>Na abertura, o presidente da Rede Gazeta, Café Lindenberg, defendeu o diálogo como resposta ao cenário de incerteza .</p><p>Com o Brasil e o Espírito Santo às vésperas de novos governos e um cenário internacional difícil, ele defendeu que o momento leve à conversa, e não à paralisia. “Incerteza não é motivo para ficar parado.</p><p>É motivo para conversar mais, ouvir melhor e decidir com mais informação”, afirmou.</p><p>À noite, o Fim de Expediente, da CBN, recebeu o cantor Paulo Ricardo ao vivo. Depois, a banda Sheep e a dupla Parafina animaram o happy hour no Salão do Lago.</p><p>No sábado (28), o presidente do Google Brasil, Fábio Coelho, abre as palestras às 9h. Às 11h, o economista José Roberto Mendonça de Barros fala sobre o panorama econômico.</p><p>Toda a cobertura pode ser acompanhada em A Gazeta.</p>",
-        "fonteNome": "A Gazeta - Capa",
-        "fonteUrl": "https://www.agazeta.com.br/pedra-azul-summit/pedra-azul-summit-2026-debate-juros-ajuste-fiscal-e-reforma-tributaria-no-primeiro-dia-1126",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Juros altos, ajuste fiscal e o fim dos incentivos fiscais dominaram o primeiro dia da 21ª edição do Pedra Azul Summit, nesta sexta-feira (27)."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Na abertura, o presidente da Rede Gazeta, Café Lindenberg, defendeu o diálogo como resposta ao cenário de incerteza . Com o Brasil e o Espírito Santo às vésperas de novos governos e um cenário internacional difícil, ele defendeu que o momento leve à conversa, e não à paralisia. “Incerteza não é motivo para ficar parado."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O primeiro painel, Papo de CEO, colocou lado a lado energia e varejo. João Brito Martins, CEO da EDP na América do Sul, e Fabrício Motta Coutinho, vice-presidente do Grupo Coutinho, debateram o futuro dos negócios em um cenário de juros altos e falta de mão de obra."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O segundo painel, Panorama Político, colocou o próximo governo em pauta. Para o cientista político Oliver Stuenkel e a jornalista Julia Duailibi, da GloboNews, a escolha de Luiz Carlos Trabuco Cappi para o Ministério da Fazenda coloca o ajuste fiscal no centro do debate no próximo mandato do presidente Luiz Inácio Lula da Silva."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O terceiro e último painel, Panorama do Desenvolvimento do ES, discutiu os desafios e as oportunidades do Estado diante da reforma tributária , que encerra os incentivos fiscais de forma gradual a partir de 2029. Para o professor Ângelo Valladares, da Fundação Dom Cabral, os estados precisam aprender a viver sem essa “muleta”."
-          }
-        ],
-        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795815109142_clo4773.jpeg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/pedra-azul-summit-2026-debate-juros-ajuste-fiscal-e-reforma-tributaria-no-primeiro-dia.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "bf67327f3812b555",
-      "titulo": "Escolha de Trabuco para Fazenda coloca ajuste fiscal no centro do debate, diz Julia Duailibi",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/pedra-azul-summit/escolha-de-trabuco-para-fazenda-coloca-ajuste-fiscal-no-centro-do-debate-diz-julia-duailibi-1126",
-      "dataFonte": "2026-11-27T21:36:19.000Z",
-      "resumoFonte": "Apresentadora da Globonews e cientista polítco Oliver Stuenkel debateram os rumos da economia e política brasileira a partir das mudanças no cenário global e no Executivo federal",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795815210657_clo4657.jpeg",
-      "descobertaEm": "2026-11-27T23:18:12.338Z",
-      "reportagem": {
-        "titulo": "Escolha de Trabuco para Fazenda coloca ajuste fiscal no centro do debate, diz Julia Duailibi",
-        "slug": "escolha-de-trabuco-para-fazenda-coloca-ajuste-fiscal-no-centro-do-debate-diz-julia-duailib",
-        "categoria": "Economia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/escolha-de-trabuco-para-fazenda-coloca-ajuste-fiscal-no-centro-do-debate-diz-julia-duailib.jpg",
-        "resumo": "Apresentadora da Globonews e cientista polítco Oliver Stuenkel debateram os rumos da economia e política brasileira a partir das mudanças no cenário global e no Executivo federal",
-        "conteudo": "<p>A escolha de Luiz Carlos Trabuco Cappi para comandar o Ministério da Fazenda no próximo mandato do presidente Luiz Inácio Lula da Silva coloca o ajuste fiscal entre os principais desafios da política econômica a partir de 2027.</p><h2>Dados e contexto do setor</h2><p>A avaliação foi feita pela jornalista e apresentadora da Globonews Julia Duailibi e pelo cientista político Oliver Stuenkel durante o painel “Panorama Político”, realizado nesta sexta-feira (27), no Pedra Azul Summit 2026 , evento promovido pela Rede Gazeta.</p><p>O Palácio do Planalto confirmou na quinta-feira (26) que Trabuco aceitou o convite de Lula para assumir o ministério .</p><p>Atual presidente do Conselho de Administração do Bradesco, o executivo já havia sido cotado para o cargo em 2014, durante o governo de Dilma Rousseff, mas recusou a proposta e indicou Joaquim Levy para assumir a pasta.</p><h2>Impactos e informações adicionais</h2><p>Para Duailibi, a escolha sinaliza a possibilidade de que o próximo governo avance em medidas de ajuste das contas públicas. A jornalista ponderou, no entanto, que ainda não está claro qual será o tamanho dessa mudança nem quais despesas poderão ser atingidas.</p><p>Por mais que ele [Trabuco] seja do mercado financeiro, também é um filósofo de formação e é considerado pelos mais ortodoxos como alguém até mais heterodoxo. Então, a gente não sabe muito qual vai ser o grau desse ajuste.</p><p>Julia Duailibi, jornalista e apresentadora da Globonews</p><p>Na avaliação da jornalista, a tendência é que as medidas não correspondam integralmente ao que é defendido por setores do mercado financeiro.</p><p>Ela considera que o caminho poderá ser intermediário, sem cortes imediatos em despesas obrigatórias de grande peso, como benefícios vinculados ao salário mínimo, aposentadorias e pisos constitucionais.</p><p>Entre os temas que poderiam entrar na discussão, segundo Duailibi, estão supersalários, emendas parlamentares e privilégios. A eventual revisão de pisos constitucionais também foi mencionada como uma possibilidade em debate.</p><p>Além de definir o conteúdo das medidas, Lula e Trabuco terão de construir apoio político para aprová-las. Duailibi chamou a atenção para a necessidade de sustentação tanto da oposição quanto da própria base governista, especialmente de setores mais à esquerda.</p><p>A jornalista citou o precedente de Joaquim Levy, que assumiu a Fazenda em 2015 e não contou com sustentação política interna suficiente para conduzir o ajuste pretendido naquele momento.</p><p>Apesar das dificuldades, ela avalia que o cenário pode ser mais favorável para a aprovação de medidas no início do próximo mandato.</p><p>Isso porque Lula ainda terá o capital político conquistado nas eleições, enquanto os presidentes da Câmara e do Senado , Hugo Motta e Davi Alcolumbre, respectivamente, também terão interesse em manter uma relação próxima com o governo, tendo em vista a tentativa de reeleição para os cargos que atualmente ocupam.</p><p>A expectativa, segundo Duailibi, é que o futuro ministro negocie as medidas com a equipe econômica atual para tentar viabilizar a aprovação ainda na atual legislatura.</p><p>A articulação com o Congresso, porém, seguirá como uma incógnita para o próximo governo. A jornalista lembrou que, durante o terceiro mandato de Lula, o Executivo teve dificuldades para garantir votos de partidos do Centrão, mesmo com a distribuição de espaços nos ministérios.</p><p>O governo busca ampliar a composição com partidos como PSD, União Brasil, MDB e PP, além de setores do PL, em troca de compromissos de apoio às pautas do Executivo.</p><p>Para Duailibi, ainda será necessário verificar se as negociações por cargos e ministérios resultarão, de fato, em votos no Legislativo.</p><p>A escolha de Luiz Carlos Trabuco Cappi para comandar o Ministério da Fazenda no próximo mandato do presidente Luiz Inácio Lula da Silva coloca o ajuste fiscal entre os principais desafios da política econômica a partir de 2027.</p><p>A avaliação foi feita pela jornalista e apresentadora da Globonews Julia Duailibi e pelo cientista político Oliver Stuenkel durante o painel “Panorama Político”, realizado nesta sexta-feira (27), no Pedra Azul Summit 2026 , evento promovido pela Rede Gazeta.</p><p>O Palácio do Planalto confirmou na quinta-feira (26) que Trabuco aceitou o convite de Lula para assumir o ministério .</p><p>Atual presidente do Conselho de Administração do Bradesco, o executivo já havia sido cotado para o cargo em 2014, durante o governo de Dilma Rousseff, mas recusou a proposta e indicou Joaquim Levy para assumir a pasta.</p><p>Para Duailibi, a escolha sinaliza a possibilidade de que o próximo governo avance em medidas de ajuste das contas públicas.</p><p>A jornalista ponderou, no entanto, que ainda não está claro qual será o tamanho dessa mudança nem quais despesas poderão ser atingidas.</p><p>Na avaliação da jornalista, a tendência é que as medidas não correspondam integralmente ao que é defendido por setores do mercado financeiro.</p><p>Ela considera que o caminho poderá ser intermediário, sem cortes imediatos em despesas obrigatórias de grande peso, como benefícios vinculados ao salário mínimo, aposentadorias e pisos constitucionais.</p><p>Entre os temas que poderiam entrar na discussão, segundo Duailibi, estão supersalários, emendas parlamentares e privilégios.</p><p>A eventual revisão de pisos constitucionais também foi mencionada como uma possibilidade em debate.</p><p>Além de definir o conteúdo das medidas, Lula e Trabuco terão de construir apoio político para aprová-las.</p><p>Duailibi chamou a atenção para a necessidade de sustentação tanto da oposição quanto da própria base governista, especialmente de setores mais à esquerda.</p><p>A jornalista citou o precedente de Joaquim Levy, que assumiu a Fazenda em 2015 e não contou com sustentação política interna suficiente para conduzir o ajuste pretendido naquele momento.</p><p>Apesar das dificuldades, ela avalia que o cenário pode ser mais favorável para a aprovação de medidas no início do próximo mandato.</p><p>Isso porque Lula ainda terá o capital político conquistado nas eleições, enquanto os presidentes da Câmara e do Senado , Hugo Motta e Davi Alcolumbre, respectivamente, também terão interesse em manter uma relação próxima com o governo, tendo em vista a tentativa de reeleição para os cargos que atualmente ocupam.</p><p>A expectativa, segundo Duailibi, é que o futuro ministro negocie as medidas com a equipe econômica atual para tentar viabilizar a aprovação ainda na atual legislatura.</p><p>A articulação com o Congresso, porém, seguirá como uma incógnita para o próximo governo.</p><p>A jornalista lembrou que, durante o terceiro mandato de Lula, o Executivo teve dificuldades para garantir votos de partidos do Centrão, mesmo com a distribuição de espaços nos ministérios.</p><p>O governo busca ampliar a composição com partidos como PSD, União Brasil, MDB e PP, além de setores do PL, em troca de compromissos de apoio às pautas do Executivo.</p><p>Para Duailibi, ainda será necessário verificar se as negociações por cargos e ministérios resultarão, de fato, em votos no Legislativo.</p>",
-        "fonteNome": "A Gazeta - Capa",
-        "fonteUrl": "https://www.agazeta.com.br/pedra-azul-summit/escolha-de-trabuco-para-fazenda-coloca-ajuste-fiscal-no-centro-do-debate-diz-julia-duailibi-1126",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A escolha de Luiz Carlos Trabuco Cappi para comandar o Ministério da Fazenda no próximo mandato do presidente Luiz Inácio Lula da Silva coloca o ajuste fiscal entre os principais desafios da política econômica a partir de 2027."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Palácio do Planalto confirmou na quinta-feira (26) que Trabuco aceitou o convite de Lula para assumir o ministério . Atual presidente do Conselho de Administração do Bradesco, o executivo já havia sido cotado para o cargo em 2014, durante o governo de Dilma Rousseff, mas recusou a proposta e indicou Joaquim Levy para assumir a pasta."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Para Duailibi, a escolha sinaliza a possibilidade de que o próximo governo avance em medidas de ajuste das contas públicas. A jornalista ponderou, no entanto, que ainda não está claro qual será o tamanho dessa mudança nem quais despesas poderão ser atingidas."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Por mais que ele [Trabuco] seja do mercado financeiro, também é um filósofo de formação e é considerado pelos mais ortodoxos como alguém até mais heterodoxo. Então, a gente não sabe muito qual vai ser o grau desse ajuste."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Julia Duailibi, jornalista e apresentadora da Globonews"
-          }
-        ],
-        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795815210657_clo4657.jpeg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/escolha-de-trabuco-para-fazenda-coloca-ajuste-fiscal-no-centro-do-debate-diz-julia-duailib.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -787,7 +893,7 @@
         "data": "2026-11-27",
         "imagem": "https://noticiaes.com.br/imagens/lapis/com-anuncio-de-trabuco-na-fazenda-dolar-fecha-a-r-5-51-e-tem-maior-queda-da-semana.jpg",
         "resumo": "Pela manhã, a moeda chegou a romper o piso de R$ 5,50, com mínima de R$ 5,4793",
-        "conteudo": "<p>A redução da percepção de risco fiscal com a ascensão de Luiz Carlos Trabuco, presidente do conselho de administração do Bradesco, ao Ministério da Fazenda no Lula 4, fez o dólar despencar quase 4% nesta sexta-feira (27) e fechar no menor nível desde o último dia 9 .</p><h2>Dados e contexto do setor</h2><p>A moeda americana emendou o quinto pregão consecutivo de baixa frente ao real e terminou a semana com perdas de 7,07%, o maior recuo semanal desde outubro de 2008, ano da crise financeira mundial.</p><p>O real apresentou, mais uma vez, o melhor desempenho, com larga vantagem, entre as divisas mais líquidas, em dia de respiro para moedas latino-americanas, apesar da alta do dólar frente a pares como euro e iene.</p><p>O índice DXY voltou a superar os 104,000 pontos, acumulando valorização semanal superior a 2% e de quase 6% no ano.</p><h2>Impactos e informações adicionais</h2><p>Pela manhã, o dólar rompeu o piso de R$ 5,50, com mínima de R$ 5,4793 . Ao longo da tarde, com a moderação dos ganhos do Ibovespa e o recuo do petróleo, houve um ajuste intraday que levou a moeda a trabalhar acima de R$ 5,50.</p><p>No fim, era negociado a R$ 5,5156, em baixa de 3,97%. Apesar do tombo de 7,07% na semana, ainda sobe no mês (1,31%), após avanço de 5,20% em outubro.</p><p>Para o economista-chefe da Pantheon Macroeconomics, Andres Abadia, a escolha de Trabuco para a Fazenda é um “sinal mais encorajador” sobre a política econômica no próximo mandato do presidente Luiz Inácio Lula da Silva, ao ajudar a restabelecer a confiança dos investidores e “facilitar a discussão sobre reformas fiscais”.</p><p>“O verdadeiro teste será quanto respaldo político e autonomia Trabuco terá para implementar reformas estruturais de gastos, principalmente quando estas entrarem em conflito com a política social”, afirma Abadia, destacando que, após um prêmio de risco significativo embutido no câmbio com o desfecho da corrida presidencial, era de se esperar uma “recuperação considerável” do real assim que o governo desse um “sinal crível” sobre a política econômica.</p><p>A recuperação do real nos últimos dias, depois de a taxa de câmbio tocar R$ 6,00 na segunda-feira, foi amparada por dois pilares: a informação de que Lula teria dado aval para uma proposta de emenda à Constituição (PEC) para conter o ritmo de crescimento dos gastos obrigatórios e o convite para Trabuco assumir a Fazenda, após a revelação de encontro do banqueiro com Lula fora da agenda oficial.</p><p>Trabuco se reuniu com o presidente no Palácio do Alvorada na quinta-feira (26) no início da noite e aceitou o desafio de comandar a economia.</p><p>Foi a senha para um mergulho do dólar futuro para dezembro, uma vez que o mercado à vista já havia fechado, com queda de 1,26% .</p><p>Pela manhã, a B3 anunciou o aumento dos limites inferiores de oscilação diária para o contrato padrão e o minicontrato de dólar futuro.</p><p>Pela manhã, a moeda chegou a romper o piso de R$ 5,50, com mínima de R$ 5,4793</p><p>Ibovespa sobe mais de 3% e dólar cai para R$ 5,74 com expectativas sobre a Fazenda</p><p>Ibovespa sobe cerca de 8% na semana após anúncio de Trabuco na Fazenda</p><p>O ambiente externo também joga a favor do Ibovespa</p><p>Trabuco e Durigan devem participar juntos de almoço anual da Febraban em SP</p><p>Na Amazon, PMEs dividem vitrine da Black Friday com grandes redes</p><p>Desemprego recua a 5,1% e mantém menor nível da série histórica em outubro, diz IBGE</p><p>Ajuste fiscal, juros e resistência no PT: os desafios de Trabuco no Lula 4</p>",
+        "conteudo": "<p>A redução da percepção de risco fiscal com a ascensão de Luiz Carlos Trabuco, presidente do conselho de administração do Bradesco, ao Ministério da Fazenda no Lula 4, fez o dólar despencar quase 4% nesta sexta-feira (27) e fechar no menor nível desde o último dia 9 .</p><h2>Dados e contexto do setor</h2><p>A moeda americana emendou o quinto pregão consecutivo de baixa frente ao real e terminou a semana com perdas de 7,07%, o maior recuo semanal desde outubro de 2008, ano da crise financeira mundial.</p><p>O real apresentou, mais uma vez, o melhor desempenho, com larga vantagem, entre as divisas mais líquidas, em dia de respiro para moedas latino-americanas, apesar da alta do dólar frente a pares como euro e iene.</p><p>O índice DXY voltou a superar os 104,000 pontos, acumulando valorização semanal superior a 2% e de quase 6% no ano.</p><h2>Impactos e informações adicionais</h2><p>Pela manhã, o dólar rompeu o piso de R$ 5,50, com mínima de R$ 5,4793 . Ao longo da tarde, com a moderação dos ganhos do Ibovespa e o recuo do petróleo, houve um ajuste intraday que levou a moeda a trabalhar acima de R$ 5,50.</p><p>No fim, era negociado a R$ 5,5156, em baixa de 3,97%. Apesar do tombo de 7,07% na semana, ainda sobe no mês (1,31%), após avanço de 5,20% em outubro.</p><p>Para o economista-chefe da Pantheon Macroeconomics, Andres Abadia, a escolha de Trabuco para a Fazenda é um “sinal mais encorajador” sobre a política econômica no próximo mandato do presidente Luiz Inácio Lula da Silva, ao ajudar a restabelecer a confiança dos investidores e “facilitar a discussão sobre reformas fiscais”.</p><p>“O verdadeiro teste será quanto respaldo político e autonomia Trabuco terá para implementar reformas estruturais de gastos, principalmente quando estas entrarem em conflito com a política social”, afirma Abadia, destacando que, após um prêmio de risco significativo embutido no câmbio com o desfecho da corrida presidencial, era de se esperar uma “recuperação considerável” do real assim que o governo desse um “sinal crível” sobre a política econômica.</p><p>A recuperação do real nos últimos dias, depois de a taxa de câmbio tocar R$ 6,00 na segunda-feira, foi amparada por dois pilares: a informação de que Lula teria dado aval para uma proposta de emenda à Constituição (PEC) para conter o ritmo de crescimento dos gastos obrigatórios e o convite para Trabuco assumir a Fazenda, após a revelação de encontro do banqueiro com Lula fora da agenda oficial.</p><p>Trabuco se reuniu com o presidente no Palácio do Alvorada na quinta-feira (26) no início da noite e aceitou o desafio de comandar a economia.</p><p>Foi a senha para um mergulho do dólar futuro para dezembro, uma vez que o mercado à vista já havia fechado, com queda de 1,26% .</p><p>Pela manhã, a B3 anunciou o aumento dos limites inferiores de oscilação diária para o contrato padrão e o minicontrato de dólar futuro.</p><p>Pela manhã, a moeda chegou a romper o piso de R$ 5,50, com mínima de R$ 5,4793</p><p>Ajuste fiscal, juros e resistência no PT: os desafios de Trabuco no Lula 4</p><p>Dólar recua e fecha a R$ 5,91 após aprovação do ajuste fiscal</p><p>Esse é o segundo pregão consecutivo de quedas; O real se descolou do movimento pesado de perdas das divisas latino-americanas e chegou a liderar</p><p>Trabuco e Durigan devem participar juntos de almoço anual da Febraban em SP</p><p>Na Amazon, PMEs dividem vitrine da Black Friday com grandes redes</p><p>Ibovespa sobe cerca de 8% na semana após anúncio de Trabuco na Fazenda</p><p>Desemprego recua a 5,1% e mantém menor nível da série histórica em outubro, diz IBGE</p>",
         "fonteNome": "Jovem Pan - Feed",
         "fonteUrl": "https://jovempan.com.br/economia/apos-anuncio-de-trabuco-na-fazenda-dolar-fecha-a-r-551-e-tem-maior-queda-semanal/",
         "fontesAdicionais": [
@@ -830,301 +936,61 @@
       }
     },
     {
-      "id": "9a646170a7bed0e1",
-      "titulo": "11 ações do Ibovespa subiram mais de 6% nesta sexta após anúncio de Trabuco",
-      "categoria": "Economia",
+      "id": "b303ac5841aa7cc5",
+      "titulo": "MP apura uso de praia em Balneário Camboriú para show de Shakira",
+      "categoria": "Cultura",
       "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mercados/bbas3-rent3-8-acoes-sobem-mais-de-12-e-lideram-ganhos-nesta-sexta-apos-anuncio-de-trabuco/",
-      "dataFonte": "2026-11-27T22:01:13.000Z",
-      "resumoFonte": "stocks ações índices bolsa gráfico \" data-image-caption=\"\" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2020/08/Stocksss.jpg?fit=452%2C295&quality=70&strip=all\" />Ibovespa salta quase 4% e supera os 183 mil pontos após a confirmação de Luiz Carlos Trabuco para o Ministério da Fazenda The post 11 ações do Ibovespa subiram mais de…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2020/08/Stocksss.jpg",
-      "descobertaEm": "2026-11-27T22:02:42.560Z",
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/entretenimento/mp-apura-uso-de-praia-em-balneario-camboriu-para-show-de-shakira",
+      "dataFonte": "2026-11-28T00:07:59.000Z",
+      "resumoFonte": "Prefeitura terá cinco dias para apresentar documentos sobre a ocupação da faixa de areia durante evento de Réveillon",
+      "imagem": "https://i.metroimg.com/55yZro7uUdi8YtkowiMNwL_BGWHC34PjvwraZIqMUA0/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/05/gettyimages-2274233585.jpg",
+      "descobertaEm": "2026-11-28T00:18:36.123Z",
       "reportagem": {
-        "titulo": "11 ações do Ibovespa subiram mais de 6% nesta sexta após anúncio de Trabuco",
-        "slug": "11-acoes-do-ibovespa-subiram-mais-de-6-nesta-sexta-apos-anuncio-de-trabuco",
-        "categoria": "Economia",
+        "titulo": "MP apura uso de praia em Balneário Camboriú para show de Shakira",
+        "slug": "mp-apura-uso-de-praia-em-balneario-camboriu-para-show-de-shakira",
+        "categoria": "Cultura",
         "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/11-acoes-do-ibovespa-subiram-mais-de-6-nesta-sexta-apos-anuncio-de-trabuco.jpg",
-        "resumo": "Ibovespa salta quase 4% e supera os 183 mil pontos após a confirmação de Luiz Carlos Trabuco para o Ministério da Fazenda",
-        "conteudo": "<p>O forte rali da Bolsa brasileira nesta sexta-feira (27) impulsionou uma ampla lista de ações do Ibovespa, embora os ganhos tenham desacelerado em relação aos picos observados mais cedo.</p><h2>Os números do levantamento</h2><p>O índice teve forte alta pela manhã após a confirmação de Luiz Carlos Trabuco para o Ministério da Fazenda. Durante o dia, no entanto, o Ibovespa perdeu força, assim como algumas altas.</p><p>Os papéis da petroleira caem mais de 3% na sessão desta sexta-feira</p><p>Entre as maiores altas da sessão, destaque para a Tenda ( TEND3 ), que avançava 13,57%, seguida por MRV ( MRVE3 ), com ganho de 10,88%, e Hapvida ( HAPV3 ), que subia 10,31%.</p><h2>Impactos e informações adicionais</h2><p>O movimento reflete o forte apetite por empresas mais sensíveis ao ciclo econômico e à perspectiva de juros estruturalmente mais baixos.</p><p>As ações ligadas ao consumo e ao mercado interno também figuravam entre os destaques do pregão. Magazine Luiza ( MGLU3 ) avançava 8,39%, enquanto Vivara ( VIVA3 ) registrava alta de 7,92%.</p><p>Já Casas Bahia ( CEAB3 ) ganhava 6,61%, acompanhando a melhora das expectativas para atividade econômica e crédito.</p><p>No setor de construção civil, um dos mais beneficiados pela queda dos juros futuros, a Cyrela ( CYRE3 ) subia 6,81%, enquanto a Tenda e a MRV lideravam os ganhos do índice.</p><p>Empresas do segmento costumam reagir positivamente a cenários de maior disponibilidade de crédito imobiliário e redução do custo de capital.</p><p>Na educação, os ganhos permaneciam expressivos. Yduqs ( YDUQ3 ) avançava 6,79%, enquanto Cogna ( COGN3 ) registrava alta de 6,56%, refletindo a busca dos investidores por companhias com forte exposição à economia doméstica.</p><p>O setor financeiro também acompanhava o movimento positivo. Banco do Brasil ( BBAS3 ) permanecia entre os destaques de valorização do índice, enquanto outras instituições financeiras e companhias ligadas ao ciclo doméstico sustentavam o avanço do mercado.</p><p>A própria B3 ( B3SA3 ), operadora da Bolsa brasileira, aparecia entre as maiores altas do pregão, com valorização de 6,75%. A companhia tende a ser favorecida por expectativas de aumento do volume de negociações e maior participação de investidores no mercado de capitais.</p><p>A forte valorização da Bolsa ocorre em meio à queda das taxas dos contratos futuros de juros e à redução dos prêmios de risco exigidos pelos investidores, cenário que favorece especialmente empresas ligadas ao consumo, construção civil, educação, saúde e serviços domésticos.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mercados/bbas3-rent3-8-acoes-sobem-mais-de-12-e-lideram-ganhos-nesta-sexta-apos-anuncio-de-trabuco/",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/mp-apura-uso-de-praia-em-balneario-camboriu-para-show-de-shakira.jpg",
+        "resumo": "Prefeitura terá cinco dias para apresentar documentos sobre a ocupação da faixa de areia durante evento de Réveillon",
+        "conteudo": "<p>O Ministério Público de Santa Catarina (MPSC) apura a legalidade da utilização de aproximadamente 50 mil metros quadrados da Praia Central de Balneário Camboriú (SC) para a realização de um evento de Réveillon que terá a cantora Shakira entre as atrações.</p><h2>As informações principais do assunto</h2><p>O Verão Atmosphere está previsto para ocorrer na virada de 2026 para 2027, com apresentação da artista anunciada para 31 de dezembro.</p><p>A festa terá tanto setores gratuitos quanto áreas com ingressos à venda, incluindo camarotes.</p><p>A investigação foi aberta para verificar se a ocupação temporária da faixa de areia atende às exigências legais e se preserva o acesso da população à praia e ao mar. Não há irregularidade comprovada.</p><h2>Contexto e informações complementares</h2><p>A apuração é conduzida pela 9ª Promotoria de Justiça da Comarca de Balneário Camboriú , que atua na área de moralidade administrativa.</p><p>O promotor de Justiça Jean Michel Forest assinou, em 25 de novembro, um despacho determinando que a Prefeitura apresente documentos e esclarecimentos sobre o evento no prazo de cinco dias, a contar do recebimento do pedido.</p><p>Shakira celebrou os fãs brasileiros durante a apresentação no Todo Mundo no Rio</p><p>2 milhões de pessoas foram ver Shakira de perto nas areias de Copacabana</p><p>O assunto também foi encaminhado à 5ª Promotoria de Justiça, responsável pela área de meio ambiente, e à 6ª Promotoria, que atua na defesa do consumidor e da cidadania.</p><p>Entre as informações solicitadas estão os documentos que autorizam a utilização da faixa de areia, as condições estabelecidas para a cessão do espaço e as contrapartidas assumidas pelos organizadores.</p><p>O Ministério Público também quer saber se haverá uso de recursos materiais, financeiros ou de pessoal da administração municipal.</p><p>A Promotoria pediu ainda a identificação das empresas responsáveis pelo evento e detalhes sobre a área que será ocupada.</p><p>A Prefeitura deverá esclarecer a informação de que cerca de 50 mil metros quadrados da praia serão destinados à estrutura da festa e apresentar a planta correspondente.</p><p>Outro ponto questionado pelo MPSC é a divisão entre os espaços de acesso gratuito e os setores destinados à venda de ingressos e camarotes.</p><p>O órgão quer conhecer a localização e a metragem de cada área, além dos corredores que serão mantidos para garantir a circulação da população e o acesso ao mar.</p><p>Também foram solicitados detalhes sobre as estruturas provisórias previstas, como palcos, tendas, cercamentos, banheiros químicos, geradores e arquibancadas.</p><p>O município deverá informar o cronograma de montagem e desmontagem e os períodos em que o uso coletivo da orla poderá ser limitado.</p><p>Depois de receber as respostas da Prefeitura ou do encerramento do prazo concedido, a 9ª Promotoria de Justiça fará uma nova análise do caso para definir os próximos encaminhamentos.</p><p>Para ficar por dentro de tudo sobre o universo dos famosos e do entretenimento siga o perfil Metrópoles Fun no Instagram .</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/entretenimento/mp-apura-uso-de-praia-em-balneario-camboriu-para-show-de-shakira",
         "fontesAdicionais": [
           {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
           },
           {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
           }
         ],
         "entidades": [],
         "aeo": [
           {
             "pergunta": "O que aconteceu?",
-            "resposta": "O forte rali da Bolsa brasileira nesta sexta-feira (27) impulsionou uma ampla lista de ações do Ibovespa, embora os ganhos tenham desacelerado em relação aos picos observados mais cedo."
+            "resposta": "O Ministério Público de Santa Catarina (MPSC) apura a legalidade da utilização de aproximadamente 50 mil metros quadrados da Praia Central de Balneário Camboriú (SC) para a realização de um evento de Réveillon que terá a cantora Shakira entre as atrações."
           },
           {
             "pergunta": "Qual é o ponto principal?",
-            "resposta": "O índice teve forte alta pela manhã após a confirmação de Luiz Carlos Trabuco para o Ministério da Fazenda. Durante o dia, no entanto, o Ibovespa perdeu força, assim como algumas altas."
+            "resposta": "A investigação foi aberta para verificar se a ocupação temporária da faixa de areia atende às exigências legais e se preserva o acesso da população à praia e ao mar. Não há irregularidade comprovada."
           },
           {
             "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Os papéis da petroleira caem mais de 3% na sessão desta sexta-feira"
+            "resposta": "A apuração é conduzida pela 9ª Promotoria de Justiça da Comarca de Balneário Camboriú , que atua na área de moralidade administrativa. O promotor de Justiça Jean Michel Forest assinou, em 25 de novembro, um despacho determinando que a Prefeitura apresente documentos e esclarecimentos sobre o evento no prazo de cinco dias, a contar do recebimento do pedido."
           },
           {
             "pergunta": "Qual é o contexto?",
-            "resposta": "Entre as maiores altas da sessão, destaque para a Tenda ( TEND3 ), que avançava 13,57%, seguida por MRV ( MRVE3 ), com ganho de 10,88%, e Hapvida ( HAPV3 ), que subia 10,31%. O movimento reflete o forte apetite por empresas mais sensíveis ao ciclo econômico e à perspectiva de juros estruturalmente mais baixos."
+            "resposta": "Shakira celebrou os fãs brasileiros durante a apresentação no Todo Mundo no Rio"
           },
           {
             "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "As ações ligadas ao consumo e ao mercado interno também figuravam entre os destaques do pregão. Magazine Luiza ( MGLU3 ) avançava 8,39%, enquanto Vivara ( VIVA3 ) registrava alta de 7,92%. Já Casas Bahia ( CEAB3 ) ganhava 6,61%, acompanhando a melhora das expectativas para atividade econômica e crédito."
+            "resposta": "2 milhões de pessoas foram ver Shakira de perto nas areias de Copacabana"
           }
         ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2020/08/Stocksss.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/11-acoes-do-ibovespa-subiram-mais-de-6-nesta-sexta-apos-anuncio-de-trabuco.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "65d86ca0a7316a4e",
-      "titulo": "Por que Petrobras caiu mais de 2% e pressionou o Ibovespa nesta sexta?",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mercados/por-que-petrobras-petr4-recua-em-dia-de-euforia-no-ibovespa/",
-      "dataFonte": "2026-11-27T21:52:46.000Z",
-      "resumoFonte": "(Montagem Copilot/Giovanna Sutto) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/petrobras-cai-eleicoes-brasil-01.jpg?fit=1100%2C700&quality=70&strip=all\" />Os papéis da petroleira caem mais de 3% na sessão desta sexta-feira The post Por que Petrobras caiu mais de 2% e pressionou o Ibovespa nesta sexta? appeared first on…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/petrobras-cai-eleicoes-brasil-01.jpg",
-      "descobertaEm": "2026-11-27T22:02:42.560Z",
-      "reportagem": {
-        "titulo": "Por que Petrobras caiu mais de 2% e pressionou o Ibovespa nesta sexta?",
-        "slug": "por-que-petrobras-caiu-mais-de-2-e-pressionou-o-ibovespa-nesta-sexta",
-        "categoria": "Economia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/por-que-petrobras-caiu-mais-de-2-e-pressionou-o-ibovespa-nesta-sexta.jpg",
-        "resumo": "Os papéis da petroleira caem mais de 3% na sessão desta sexta-feira",
-        "conteudo": "<p>As ações da Petrobras perderam mais de 2% nesta sexta-feira (27), na contramão da euforia observada em outros setores do Ibovespa. Os papéis da petroleira recuaram 2,75% para PETR3 , a R$ 47,74, e 2,18% para PETR4 , a R$ 42,25.</p><h2>Dados e contexto do setor</h2><p>A queda começou a se aprofundar no fim da manhã, após notícia do jornal O Globo sobre a Bacia de Campos. A publicação informou que a Petrobras vai assumir o controle integral de um bloco exploratório na Bacia de Campos arrematado por R$2,82 bilhões, em 2018.</p><p>A estatal vai absorver as fatias da ExxonMobil (40%) e da QatarEnergy (30%) no ativo, elevando sua própria participação a 100%, segundo o jornal.</p><h2>Impactos e informações adicionais</h2><p>“Acaba que a geração de caixa fica mais pressionada diante de todos esses investimentos, tem essa sensibilidade do preço petróleo que está pegando bastante também.</p><p>Mas hoje, especificamente, o principal fator de risco é a questão do aumento de investimento devido a ter 100% ativo ali da Bacia de Campos pegando”, afirma Alexandre Pletes, head de renda variável da Faz Capital.</p><p>Os contratos futuros do petróleo Brent caíram US$ 1,13, ou 1,2%, fechando a sessão a US$95,44 o barril. O preço atingiu sua maior cotação desde 9 de novembro no início do pregão, mas ficou abaixo da marca de US$100.</p><p>Os futuros do petróleo West Texas Intermediate (WTI) dos EUA fecharam a US$83,08 por barril, uma queda de 0,60 dólar, ou 0,7%, em relação ao fechamento de quarta-feira. Não houve fechamento do WTI na quinta-feira devido ao feriado de Ação de Graças nos EUA.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mercados/por-que-petrobras-petr4-recua-em-dia-de-euforia-no-ibovespa/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "As ações da Petrobras perderam mais de 2% nesta sexta-feira (27), na contramão da euforia observada em outros setores do Ibovespa. Os papéis da petroleira recuaram 2,75% para PETR3 , a R$ 47,74, e 2,18% para PETR4 , a R$ 42,25."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A queda começou a se aprofundar no fim da manhã, após notícia do jornal O Globo sobre a Bacia de Campos. A publicação informou que a Petrobras vai assumir o controle integral de um bloco exploratório na Bacia de Campos arrematado por R$2,82 bilhões, em 2018."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A estatal vai absorver as fatias da ExxonMobil (40%) e da QatarEnergy (30%) no ativo, elevando sua própria participação a 100%, segundo o jornal."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "“Acaba que a geração de caixa fica mais pressionada diante de todos esses investimentos, tem essa sensibilidade do preço petróleo que está pegando bastante também."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Os contratos futuros do petróleo Brent caíram US$ 1,13, ou 1,2%, fechando a sessão a US$95,44 o barril. O preço atingiu sua maior cotação desde 9 de novembro no início do pregão, mas ficou abaixo da marca de US$100."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/petrobras-cai-eleicoes-brasil-01.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/por-que-petrobras-caiu-mais-de-2-e-pressionou-o-ibovespa-nesta-sexta.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "7a4cbfd88405297e",
-      "titulo": "Quando Boulos confrontou o Mercado",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/demetriomagnoli/2026/11/quando-boulos-confrontou-o-mercado.shtml",
-      "dataFonte": "2026-11-27T21:46:00.000Z",
-      "resumoFonte": "Chegou-me um vídeo de um encontro secreto, na madrugada, entre o ministro Guilherme Boulos e o Mercado. Boulos chegou com um boné vermelho, barba bem aparada, combativo como sempre. O papa Francisco viu a face do demônio, mas não vi a do Mercado: nas imagens, ele aparece de costas. Não garanto a veracidade do documento. Por via das dúvidas,…",
-      "imagem": "https://f.i.uol.com.br/fotografia/2025/08/25/175615473968accb73af3ff_1756154739_3x2_rt.jpg",
-      "descobertaEm": "2026-11-27T22:02:42.560Z",
-      "reportagem": {
-        "titulo": "Opinião - Demétrio Magnoli: Quando Boulos confrontou o Mercado",
-        "slug": "opiniao-demetrio-magnoli-quando-boulos-confrontou-o-mercado",
-        "categoria": "Economia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/opiniao-demetrio-magnoli-quando-boulos-confrontou-o-mercado.jpg",
-        "resumo": "Ministro de Lula chegou combativo como sempre, e a conversa foi pouco amistosa",
-        "conteudo": "<p>Sociólogo, autor de “Uma Gota de Sangue: História do Pensamento Racial”. É doutor em geografia humana pela USP</p><h2>Dados e contexto do setor</h2><p>Chegou-me um vídeo de um encontro secreto, na madrugada, entre o ministro Guilherme Boulos e o Mercado. Boulos chegou com um boné vermelho, barba bem aparada, combativo como sempre.</p><p>O papa Francisco viu a face do demônio, mas não vi a do Mercado: nas imagens, ele aparece de costas. Não garanto a veracidade do documento. Por via das dúvidas, transcrevo a conversa pouco amistosa.</p><p>Boulos: Chega de chantagem, cara! Dólar a 6 é brincadeira. Não nos curvaremos.</p><h2>Impactos e informações adicionais</h2><p>Mercado: Lua cheia, ministro. Relaxa. Livre-se de mim. É fácil.</p><p>M: Há dois jeitos. Faça uma revolução. Instale o socialismo, estatize a economia. Bingo, morri.</p><p>B: Pensei nisso quando jovem, mas hoje estou em outra. Ministro de Lula, sabe como é. Diga o outro jeito.</p><p>M: Deixa com o Trabuco. Não gaste mais do que arrecada. Reduza, aos poucos, a tua dívida. Aí, continuo a emprestar, mas a juros decentes. Só alegria: investimentos, arrecadação em alta, grana pra teus programas sociais.</p><p>B: Ganancioso! Terrorismo fiscal, como disse a Gleisi . O Lara Resende ensinou que não há problema com a dívida, pois ela é em reais. E agora, papudo?</p><p>M: Você caiu nessa? O mundo mudou. Minha turma aqui aplica em dólar na hora que quiser. Dois cliques. Mas preocupei-me com essa conversa. Senti cheiro de calote.</p><p>M: Sei, sei. Falo do calote light: inflação, um imposto disfarçado sobre o povo e um jeito maroto de reduzir o valor dos títulos. Com medo disso, me garanti, elevando os juros futuros.</p><p>M: Ingrato. Passei anos emprestando dinheiro para teus gastos sociais.</p><p>B: Oh, obrigado por ficar rico graças aos juros estratosféricos, seu [aqui, cortei um palavrão pesado].</p><p>M: Ministro, com todo o respeito, você fala como a igreja medieval, que condenava a usura. Quanto custa teu boné? Ok, juro é o preço do dinheiro. Subo o preço para maus devedores. No fundo, são vocês que elevam os juros.</p><p>Confira com o Galípolo. Nele, ao menos, você acredita, não?</p><p>B: Nem mencione o nome desse agente da Faria Lima. O negócio dele, como o do Trabuco e o teu, é cortar programas sociais. Cadê a vergonha na cara?</p><p>M: Vergonha? Não sou filantropo e não faço política.</p><p>B: Cara de pau. Pra quem você torceu na eleição? Pensa que não ouvi a barulheira da festa de arromba na tua casa depois do primeiro turno?</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://www1.folha.uol.com.br/colunas/demetriomagnoli/2026/11/quando-boulos-confrontou-o-mercado.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Sociólogo, autor de “Uma Gota de Sangue: História do Pensamento Racial”. É doutor em geografia humana pela USP"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Chegou-me um vídeo de um encontro secreto, na madrugada, entre o ministro Guilherme Boulos e o Mercado. Boulos chegou com um boné vermelho, barba bem aparada, combativo como sempre. O papa Francisco viu a face do demônio, mas não vi a do Mercado: nas imagens, ele aparece de costas. Não garanto a veracidade do documento."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Boulos: Chega de chantagem, cara! Dólar a 6 é brincadeira. Não nos curvaremos."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Mercado: Lua cheia, ministro. Relaxa. Livre-se de mim. É fácil."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "M: Há dois jeitos. Faça uma revolução. Instale o socialismo, estatize a economia. Bingo, morri."
-          }
-        ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2025/08/25/175615473968accb73af3ff_1756154739_3x2_rt.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/opiniao-demetrio-magnoli-quando-boulos-confrontou-o-mercado.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "9a0d03a31dc642ee",
-      "titulo": "Petrobras, Vale e Suzano: veja quais ações tiraram euforia do Ibovespa",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mercados/acoes-ibovespa-quedas-trabuco-27112026/",
-      "dataFonte": "2026-11-27T21:42:26.000Z",
-      "resumoFonte": "ações bolsa gráfico índices mercado trader stocks \" data-image-caption=\" (Shutterstock) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2019/11/shutterstock_1432118810.jpg?fit=1280%2C869&quality=70&strip=all\" />Os papéis em queda são majoritariamente de exportadoras, que reagem à ao recuo do dólar, que perde cerca de 3% na sessão…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2019/11/shutterstock_1432118810.jpg",
-      "descobertaEm": "2026-11-27T22:02:42.560Z",
-      "reportagem": {
-        "titulo": "Petrobras, Vale e Suzano: veja quais ações tiraram euforia do Ibovespa",
-        "slug": "petrobras-vale-e-suzano-veja-quais-acoes-tiraram-euforia-do-ibovespa",
-        "categoria": "Economia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/petrobras-vale-e-suzano-veja-quais-acoes-tiraram-euforia-do-ibovespa.jpg",
-        "resumo": "Os papéis em queda são majoritariamente de exportadoras, que reagem à ao recuo do dólar, que perde cerca de 3% na sessão",
-        "conteudo": "<p>A confirmação de Luiz Carlos Trabuco para o comando do Ministério da Fazenda desencadeou uma onda de otimismo nos mercados na manhã desta sexta-feira, levando o Ibovespa a disparar quase 4% e ultrapassar os 183 mil pontos na parte da manhã.</p><h2>Os números do levantamento</h2><p>Ao longo do dia, o índice amenizou e fechou estável, com menos 0,08%, aos 176.655 pontos.</p><p>O movimento da manhã refletiu a aposta dos investidores de que a chegada do executivo, conhecido pelo histórico à frente do Bradesco e pelo diálogo com o setor privado, pode fortalecer a condução da política econômica.</p><p>Ibovespa salta quase 4% e supera os 183 mil pontos após a confirmação de Luiz Carlos Trabuco para o Ministério da Fazenda</p><h2>Impactos e informações adicionais</h2><p>O mercado acionário brasileiro vinha desde a quarta-feira reagindo positivamente a especulações envolvendo a indicação de Trabuco para a pasta</p><p>O rali foi tão disseminado na parte da manhã que apenas nove ações do Ibovespa operavam em queda no pregão, enquanto a ampla maioria dos papéis registrava ganhos expressivos.</p><p>Os papéis em queda eram majoritariamente de exportadoras, que reagem à ao recuo do dólar. A moeda perdeu 4% na sessão.</p><p>Na ponta negativa, as ações da Natura (NTCO3) lideraram as perdas do Ibovespa, com queda de 5,58%, refletindo um movimento de realização após ganhos recentes e figurando como a maior baixa da sessão.</p><p>Na sequência, apareceram Suzano ( SUZB3 ), com recuo de 4,94%, e TIM ( TIMS3 ), que caía 4,74%.</p><p>As ações da Petrobras também operavam em baixa, com PETR3 recuando 2,75% e PETR4 cedendo 2,18%.</p><p>Entenda: Por que Petrobras (PETR4) recua em dia de altas no Ibovespa?</p><p>Entre os demais destaques negativos, a WEG ( WEGE3 ) caía 3,08%, enquanto a Vale ( VALE3 ) recuava 2,66%.</p><p>A lista de baixas incluía ainda Gerdau ( GGBR4 ), com queda de 2,53%, Metalúrgica Gerdau ( GOAU4 ), que cedia 2,43%, e Caixa Seguridade ( CXSE3 ), também com baixa de 2,43%. Outros papéis no campo negativo eram CBA ( CBAV3 ), PRIO ( PRIO3 ) e Ultrapar ( UGPA3 ).</p><p>Enquanto isso, setores mais sensíveis aos juros e ao crescimento econômico lideravam os ganhos do índice.</p><p>Construtoras, bancos, varejistas e empresas domésticas avançavam em bloco diante da expectativa de uma agenda econômica mais previsível e de um ambiente mais favorável para investimentos.</p><p>A reação positiva também foi acompanhada por uma forte queda das taxas dos contratos futuros de juros, em linha com a percepção de redução dos prêmios de risco exigidos pelos investidores.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mercados/acoes-ibovespa-quedas-trabuco-27112026/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A confirmação de Luiz Carlos Trabuco para o comando do Ministério da Fazenda desencadeou uma onda de otimismo nos mercados na manhã desta sexta-feira, levando o Ibovespa a disparar quase 4% e ultrapassar os 183 mil pontos na parte da manhã. Ao longo do dia, o índice amenizou e fechou estável, com menos 0,08%, aos 176.655 pontos."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O movimento da manhã refletiu a aposta dos investidores de que a chegada do executivo, conhecido pelo histórico à frente do Bradesco e pelo diálogo com o setor privado, pode fortalecer a condução da política econômica."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Ibovespa salta quase 4% e supera os 183 mil pontos após a confirmação de Luiz Carlos Trabuco para o Ministério da Fazenda"
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O mercado acionário brasileiro vinha desde a quarta-feira reagindo positivamente a especulações envolvendo a indicação de Trabuco para a pasta"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O rali foi tão disseminado na parte da manhã que apenas nove ações do Ibovespa operavam em queda no pregão, enquanto a ampla maioria dos papéis registrava ganhos expressivos. Os papéis em queda eram majoritariamente de exportadoras, que reagem à ao recuo do dólar. A moeda perdeu 4% na sessão."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2019/11/shutterstock_1432118810.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/petrobras-vale-e-suzano-veja-quais-acoes-tiraram-euforia-do-ibovespa.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "3fbf610dd43600d8",
-      "titulo": "Por que Ibovespa fechou em leve queda após saltar 7 mil pontos com “efeito Trabuco”?",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mercados/ibovespa-salta-supera-183-mil-pontos-com-confirmacao-de-trabuco-na-fazenda/",
-      "dataFonte": "2026-11-27T21:36:39.000Z",
-      "resumoFonte": "Painel de cotações \" data-image-caption=\" Painel de cotações na B3, em São Paulo (Foto: REUTERS/ Amanda Perobelli) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2024/05/2024-05-29T141042Z_1_LYNXMPEK4S0MF_RTROPTP_4_BOLSA-IBOVESPA-ABRE.jpg?fit=1280%2C853&quality=70&strip=all\" />\"Compra no boato, vende no fato\": o mercado…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2024/05/2024-05-29T141042Z_1_LYNXMPEK4S0MF_RTROPTP_4_BOLSA-IBOVESPA-ABRE.jpg",
-      "descobertaEm": "2026-11-27T22:02:42.560Z",
-      "reportagem": {
-        "titulo": "Por que Ibovespa fechou em leve queda após saltar 7 mil pontos com \"efeito Trabuco\"?",
-        "slug": "por-que-ibovespa-fechou-em-leve-queda-apos-saltar-7-mil-pontos-com-efeito-trabuco",
-        "categoria": "Economia",
-        "data": "2026-11-27",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/por-que-ibovespa-fechou-em-leve-queda-apos-saltar-7-mil-pontos-com-efeito-trabuco.jpg",
-        "resumo": "\"Compra no boato, vende no fato\": o mercado acionário brasileiro vinha desde a quarta-feira reagindo positivamente a especulações envolvendo a indicação de Trabuco para a pasta",
-        "conteudo": "<p>O Ibovespa fechou quase estável nesta sexta-feira, em meio à recepção positiva ao nome de Luiz Carlos Trabuco para o Ministério da Fazenda, mas com forte recuo das blue chips Vale ( VALE3 ) e Petrobras ( PETR3 ; PETR4 )</p><h2>Os números do levantamento</h2><p>Índice de referência do mercado acionário brasileiro, o Ibovespa cedeu 0,13%, a 176.573,35 pontos.</p><p>Na máxima do dia, chegou a 183.625,66 pontos, alta de quase 4%, ou alta de quase 7 mil pontos (6.825 pontos), mas também também trabalhou no terreno negativo, marcando 175.898,80 pontos na mínima da sessão (-0,51%).</p><p>Na visão de Nicolas Gass, estrategista de investimentos e sócio da GT Capital, muito já estava no preço. “O nome de Trabuco circulava desde quarta, e só na quinta o índice subiu 6%.</p><h2>Impactos e informações adicionais</h2><p>Quando a confirmação veio, quem já tinha surfado a alta aproveitou para realizar. Compra no boato, vende no fato”, aponta.</p><p>“Com tudo isso, o Ibovespa devolveu os quase 7 mil pontos e ficou de lado, perto dos 176 mil. Não leio isso como o mercado desacreditando do Trabuco. Se fosse, dólar e juros estariam voltando (passando a cair menos), o que não aconteceu”, destacou.</p><p>Conforme avalia Marianna Costa, economista-chefe da Mirae Asset Brasil, a leitura que prevalece é que a escolha do novo ministro da Fazenda reduz uma fonte importante de incerteza e aumenta as chances de uma mudança mais consistente na estratégia fiscal.</p><p>O histórico do novo ministro indica para controle orçamentário.</p><p>“O alívio, porém, é condicionado. O cenário-base ainda é de medidas incrementais, insuficientes para estabilizar a dívida. A resistência no PT é um importante obstáculo apontado pelos cientistas políticos.</p><p>Os próximos sinais serão a composição da equipe econômica, o alcance da PEC de contenção de gastos obrigatórios e a capacidade de aprová-la no Congresso”, avalia.</p><p>Também para Gustavo Assis, CEO da Asset, apesar de ainda existir espaço para valorização do Ibovespa e do real, parte das expectativas já está incorporada aos preços.</p><p>“A continuidade desse movimento dependerá da evolução das contas públicas, da capacidade de estabilização da dívida e do comportamento da inflação.</p><p>O cenário internacional, especialmente os juros americanos e os preços das commodities, também poderá limitar ou potencializar esses ganhos”, aponta o especialista.</p><p>Já Edgar Araújo, CEO da Azumi Investimentos, ressalta que a indicação de Trabuco para o Ministério da Fazenda pode contribuir para uma melhora na percepção de risco dos ativos brasileiros.</p><p>Entretanto, a trajetória do Ibovespa e do câmbio dependerá da política econômica efetivamente implementada e da capacidade de execução da futura equipe econômica.</p><p>O mercado acionário brasileiro vinha desde a quarta-feira reagindo positivamente a especulações envolvendo a indicação de Trabuco para a pasta, e o Ibovespa disparou na tarde de quinta com notícias de que o banqueiro estava em Brasília para se reunir com Lula.</p><p>Incertezas ⁠sobre ‌quem comandaria a Fazenda vinham pressionando os ativos financeiros brasileiros ⁠desde o desfecho do segundo turno da eleição presidencial, principalmente pelas preocupações de agentes financeiros com o quadro fiscal do país.</p><p>O anúncio de Trabuco como próximo ministro representa uma importante inflexão na percepção do mercado sobre a condução econômica do ​quarto mandato do presidente Lula, na avaliação de Leonardo Mendes, economista e consultor financeiro da Manchester Investimentos.</p><p>‘Desde as eleições, trabalhávamos com ​três possíveis cenários: a continuidade da política econômica do Lula 3 ou, nos cenários de cauda, uma guinada mais à esquerda ou uma aproximação com o mercado’, afirmou.</p><p>‘A escolha de Trabuco é a primeira sinalização concreta em direção a esse último ‌cenário.’</p><p>Índices futuros dos EUA sobem em dia de sessão com horário reduzido</p><p>A notícia impulsiona as expectativas de adoção de medidas de ajuste das contas públicas no quarto mandato do presidente Luiz Inácio Lula da Silva</p><p>Na véspera, o Ibovespa avançou 6,07%, a 176.799,84 pontos, fechando na máxima em mais ⁠de um mês.</p><p>Foi a ​maior alta percentual ​diária desde o salto de 7,7% no primeiro pregão após o desfecho do primeiro ⁠turno da eleição presidencial, em outubro, ​quando Lula ficou atrás do senador Flávio Bolsonaro (PL).</p><p>‘O Brasil ganha um ministro experiente, que conhece a economia real e sabe construir acordos’, afirmou Alfredo ​Menezes, sócio-fundador da Armor Capital, que trabalhou por mais de 16 anos no Bradesco, incluindo na tesouraria do banco.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mercados/ibovespa-salta-supera-183-mil-pontos-com-confirmacao-de-trabuco-na-fazenda/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Ibovespa fechou quase estável nesta sexta-feira, em meio à recepção positiva ao nome de Luiz Carlos Trabuco para o Ministério da Fazenda, mas com forte recuo das blue chips Vale ( VALE3 ) e Petrobras ( PETR3 ; PETR4 )"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Índice de referência do mercado acionário brasileiro, o Ibovespa cedeu 0,13%, a 176.573,35 pontos. Na máxima do dia, chegou a 183.625,66 pontos, alta de quase 4%, ou alta de quase 7 mil pontos (6.825 pontos), mas também também trabalhou no terreno negativo, marcando 175.898,80 pontos na mínima da sessão (-0,51%)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na visão de Nicolas Gass, estrategista de investimentos e sócio da GT Capital, muito já estava no preço. “O nome de Trabuco circulava desde quarta, e só na quinta o índice subiu 6%. Quando a confirmação veio, quem já tinha surfado a alta aproveitou para realizar. Compra no boato, vende no fato”, aponta."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "“Com tudo isso, o Ibovespa devolveu os quase 7 mil pontos e ficou de lado, perto dos 176 mil. Não leio isso como o mercado desacreditando do Trabuco. Se fosse, dólar e juros estariam voltando (passando a cair menos), o que não aconteceu”, destacou."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Conforme avalia Marianna Costa, economista-chefe da Mirae Asset Brasil, a leitura que prevalece é que a escolha do novo ministro da Fazenda reduz uma fonte importante de incerteza e aumenta as chances de uma mudança mais consistente na estratégia fiscal. O histórico do novo ministro indica para controle orçamentário."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2024/05/2024-05-29T141042Z_1_LYNXMPEK4S0MF_RTROPTP_4_BOLSA-IBOVESPA-ABRE.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/por-que-ibovespa-fechou-em-leve-queda-apos-saltar-7-mil-pontos-com-efeito-trabuco.jpg",
+        "imagemOriginal": "https://i.metroimg.com/55yZro7uUdi8YtkowiMNwL_BGWHC34PjvwraZIqMUA0/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/05/gettyimages-2274233585.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/mp-apura-uso-de-praia-em-balneario-camboriu-para-show-de-shakira.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -1190,18 +1056,6 @@
       }
     },
     {
-      "id": "7cc40743cc2e673c",
-      "titulo": "Narcisa relembra romance com cantor internacional e cita arrependimento",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/fabia-oliveira/narcisa-relembra-romance-com-cantor-internacional-e-cita-arrependimento",
-      "dataFonte": "2026-11-27T22:05:23.000Z",
-      "resumoFonte": "Em entrevista ao Que História é Essa, Porchat?, a empresária Narcisa Tamborindeguy disse que deveria ter morado com cantor americano",
-      "imagem": "https://i.metroimg.com/X0d-S3dY4E7MQCl2RUSBAsbZVPy-NAtpweN50JE7Us4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/narcisa-e-franck-sinatra-jr.jpg",
-      "descobertaEm": "2026-11-27T22:18:28.416Z"
-    },
-    {
       "id": "137063ac4fab3281",
       "titulo": "Furto de celular em ônibus: estrangeiros são presos em Vitória",
       "categoria": "Tecnologia",
@@ -1262,6 +1116,66 @@
       }
     },
     {
+      "id": "d6b4b80453e7b56d",
+      "titulo": "Especialista alerta para riscos do uso inadequado da IA nas escolas",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/educacao/especialista-alerta-para-riscos-do-uso-inadequado-da-ia-nas-escolas/",
+      "dataFonte": "2026-11-27T23:55:53.000Z",
+      "resumoFonte": "Facilidade excessiva de ferramentas digitais pode prejudicar o raciocínio crítico dos alunos e gerar desinformação; estudante explica que utiliza a inteligência artificial para auxiliar nos estudos",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/little-classmates-discussing-lesson-doing-task.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-28T00:18:36.123Z",
+      "reportagem": {
+        "titulo": "Especialista alerta para riscos do uso inadequado da IA nas escolas",
+        "slug": "especialista-alerta-para-riscos-do-uso-inadequado-da-ia-nas-escolas",
+        "categoria": "Tecnologia",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/especialista-alerta-para-riscos-do-uso-inadequado-da-ia-nas-escolas.jpg",
+        "resumo": "Facilidade excessiva de ferramentas digitais pode prejudicar o raciocínio crítico dos alunos e gerar desinformação; estudante explica que utiliza a inteligência artificial para auxiliar nos estudos",
+        "conteudo": "<p>Um estudo apontou que a IA (Inteligência Artificial) tem o potencial de transformar a educação. Para que esse potencial seja benéfico, é essencial uma integração das tecnologias, mas que seja guiada por líderes educacionais com conhecimento dessas tecnologias.</p><h2>Dados e contexto do setor</h2><p>A análise &quot; Inteligência Artificial na educação: condições e desafios para a América Latina e o Caribe&quot; é da TIC Educação, coordenada pelo Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação.</p><p>O estudo aponta três formas que a inteligência artificial poderia ser implementada.</p><p>O primeiro exemplo seria quanto ao apoio aos processos de ensino e aprendizagem, o segundo seria sobre o apoio à gestão educacional, já o terceiro seria sobre o desenvolvimento de competências e habilidades para a vida e o trabalho na era da IA.</p><h2>Impactos e informações adicionais</h2><p>O Ministério da Educação (MEC) também homologou o parecer do Conselho Nacional de Educação (CNE) que traz as Diretrizes para a Utilização da Inteligência Artificial na Educação Brasileira, para todas as etapas de ensino.</p><p>O professor de história e diretor do Colégio Sigma, Tiago Diana, explica que a união entre educação e tecnologia pode abrir um novo caminho para o conhecimento, sem deixar de lado o que é essencial.</p><p>&quot;Acredito que as novas diretrizes trazem uma mensagem importante: precisamos aprender a conviver com a tecnologia, mas sem perder aquilo que é essencial na educação (...) A escola do futuro não será aquela que utiliza mais tecnologia, mas aquela que sabe utilizar a tecnologia para ensinar melhor &quot;, destaca o especialista.</p><p>Tiago ainda destaca que a ferramenta pode ser uma aliada na aprendizagem.</p><p>&quot;A inteligência artificial pode ser uma grande aliada da aprendizagem . Ela oferece possibilidades muito interessantes: ajudar o aluno a compreender um conteúdo, apresentar diferentes explicações, organizar ideias, aprofundar pesquisas e até identificar suas dificuldades.</p><p>Imagine um estudante que não compreendeu determinado assunto em sala de aula. A tecnologia pode oferecer outra explicação, apresentar exemplos diferentes e ajudá-lo a avançar&quot;, analisa.</p><p>Para o especialista, os principais riscos dessa implementação e união entre estudos e inteligência artificial está na facilidade que ela pode propor.</p><p>&quot;O maior risco é o estudante começar a confundir facilidade com aprendizagem. Quando utilizamos uma ferramenta para resolver todos os nossos problemas, sem compreender o processo, podemos deixar de exercitar habilidades fundamentais, como a leitura, a interpretação, a escrita, o raciocínio e a capacidade de argumentação&quot;, afirma.</p><p>Além disso, o professor aponta que outro risco aborda as informações falsas que as IA&#39;s podem apresentar aos estudantes.</p><p>&quot;Essas ferramentas podem produzir informações incorretas, reproduzir preconceitos e apresentar respostas com aparência de certeza, mesmo quando estão erradas&quot;, indica.</p><p>A estudante do 3º ano do Fundamental I, Maria Paula de Magalhães, aponta que usa a inteligência artificial para auxiliar nos estudos, principalmente quando tem dúvidas, mas entende que a ferramenta serve apenas como uma aliada.</p><p>&quot;Utilizo algumas ferramentas de inteligência artificial para me ajudar nos estudos.</p><p>Às vezes, utilizo para organizar ideias, resumir conteúdos ou encontrar outras formas de explicar uma matéria que não compreendi muito bem. Mas entendo que a ferramenta não pode fazer tudo por mim.</p><p>Preciso estudar, ler, interpretar e realmente aprender o conteúdo. Afinal, na hora de uma prova ou de resolver um problema, sou eu que preciso saber o que fazer&quot;, afirma a estudante.</p><p>Um estudo apontou que a IA tem o potencial de transformar a educação, mas para que esse potencial seja benéfico, é essencial uma integração das tecnologias, mas que seja guiada por líderes educacionais com conhecimento dessas tecnologias</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/educacao/especialista-alerta-para-riscos-do-uso-inadequado-da-ia-nas-escolas/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/"
+          },
+          {
+            "nome": "MCTI",
+            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Um estudo apontou que a IA (Inteligência Artificial) tem o potencial de transformar a educação. Para que esse potencial seja benéfico, é essencial uma integração das tecnologias, mas que seja guiada por líderes educacionais com conhecimento dessas tecnologias."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A análise \" Inteligência Artificial na educação: condições e desafios para a América Latina e o Caribe\" é da TIC Educação, coordenada pelo Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O estudo aponta três formas que a inteligência artificial poderia ser implementada. O primeiro exemplo seria quanto ao apoio aos processos de ensino e aprendizagem, o segundo seria sobre o apoio à gestão educacional, já o terceiro seria sobre o desenvolvimento de competências e habilidades para a vida e o trabalho na era da IA."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O Ministério da Educação (MEC) também homologou o parecer do Conselho Nacional de Educação (CNE) que traz as Diretrizes para a Utilização da Inteligência Artificial na Educação Brasileira, para todas as etapas de ensino."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O professor de história e diretor do Colégio Sigma, Tiago Diana, explica que a união entre educação e tecnologia pode abrir um novo caminho para o conhecimento, sem deixar de lado o que é essencial."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/little-classmates-discussing-lesson-doing-task.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/especialista-alerta-para-riscos-do-uso-inadequado-da-ia-nas-escolas.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
       "id": "d5d0a3389d3c76dc",
       "titulo": "Dança dos Famosos: noivos de participantes criticam Livinho após resultado",
       "categoria": "Tecnologia",
@@ -1274,16 +1188,76 @@
       "descobertaEm": "2026-11-27T23:18:12.338Z"
     },
     {
-      "id": "358110ded28b4ca1",
-      "titulo": "Trump publica imagem como \"Poderoso Chefão\" e sinaliza veto a democratas",
-      "categoria": "Tecnologia",
+      "id": "41731df31e19c7ef",
+      "titulo": "Eleição do São Paulo: entenda formato e veja candidatos a presidente",
+      "categoria": "Esporte",
       "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/mundo/trump-publica-imagem-como-poderoso-chefao-e-sinaliza-veto-a-democratas",
-      "dataFonte": "2026-11-27T22:11:32.000Z",
-      "resumoFonte": "Trump publica imagem de IA em referência ao \"Poderoso Chefão\" e ameaça vetar projetos democratas após avanço do partido na Câmara dos EUA",
-      "imagem": "https://i.metroimg.com/4uG9Nw1Fm4rU90eeAaxb0_R7W1oYn0KZXmETWx1CfNk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/trump-veto-3x2-1.jpg",
-      "descobertaEm": "2026-11-27T22:18:28.416Z"
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/esportes/futebol/sao-paulo-futebol-clube/eleicao-do-sao-paulo-entenda-formato-e-veja-candidatos-a-presidente/",
+      "dataFonte": "2026-11-27T23:56:50.000Z",
+      "resumoFonte": "Votam apenas aqueles vinculados ao clube social, excluindo sócio-torcedor e proprietário de cadeira cativa no MorumBis",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/FTA20261010172.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-28T00:18:36.123Z",
+      "reportagem": {
+        "titulo": "Eleição do São Paulo: entenda formato e veja candidatos a presidente",
+        "slug": "eleicao-do-sao-paulo-entenda-formato-e-veja-candidatos-a-presidente",
+        "categoria": "Esporte",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/eleicao-do-sao-paulo-entenda-formato-e-veja-candidatos-a-presidente.jpg",
+        "resumo": "Votam apenas aqueles vinculados ao clube social, excluindo sócio-torcedor e proprietário de cadeira cativa no MorumBis",
+        "conteudo": "<p>Os sócios do São Paulo votarão em candidatos ao Conselho Deliberativo neste domingo.</p><h2>O contexto da decisão judicial</h2><p>É a primeira etapa do processo eleitoral , que tem o desfecho na eleição para a presidência, prevista para a segunda semana de dezembro. Assim como muitos clubes no Brasil, o São Paulo tem um processo eleitoral indireto.</p><p>Cerca de 6,5 mil sócios estão aptos a votar em candidatos ao Conselho na Assembleia Geral. Votam apenas aqueles vinculados ao clube social, excluindo sócio-torcedor e proprietário de cadeira cativa no MorumBis.</p><p>Cada eleitor escolhe até 20 candidatos. Os postulantes ao Conselho estão divididos em duas chapas, mas o sócio pode escolher nomes dos dois lados. O voto é secreto, presencial e em urna eletrônica.</p><h2>Contexto e informações complementares</h2><p>Serão eleitos 100 novos conselheiros, dos quais 75 serão os mais votados. Depois, a cada três eleitos de uma chapa, é eleito outro do mesmo grupo até que fechem os outros 25. Esses precisam ter, pelo menos, 1% do total de votos.</p><p>Os 100 eleitos se juntam a outros 152 vitalícios, que ganharam esse status por fatores como tempo de associação e “atestado de fé são-paulina”.</p><p>É como um comprovante de que se é torcedor do São Paulo, já que há conselheiros cuja relação com o clube é apenas pelo social. O limite de vitalícios é 160.</p><p>As eleições para esses cargos são feitas à parte, quando há vacância de lotes de vagas abertos.</p><p>Os 252 conselheiros, então, votarão para a presidência. Essa eleição pode ser presencial, híbrida ou online, a depender da convocação do presidente do Conselho Deliberativo.</p><p>Portanto, se a chapa vinculada a um dos candidatos tiver eleito mais conselheiros, a lógica é de que esse candidato terá mais votos. O sistema é o mesmo para eleger o próximo presidente do Conselho.</p><p>Os novos dirigentes assumem o São Paulo por um período de três anos. Desde 2022, é possível a reeleição, o que faz a gestão ter dois triênios (seis anos).</p><p>Votam apenas aqueles vinculados ao clube social, excluindo sócio-torcedor e proprietário de cadeira cativa no MorumBis</p><p>Justiça adia decisão sobre intervenção no Corinthians e impõe medidas cautelares</p><p>Do voto na urna eletrônica à eleição pelos 252 conselheiros</p><p>São Paulo x Remo hoje: onde assistir ao vivo e escalações</p><p>Está chegando a hora de São Paulo x Remo: o jogo é às 20h (de Brasília) nesta quinta-feira (26), no MorumBis, em São Paulo, pela 37ª rodada do Campeonato Brasileiro de 2026.</p><p>São Paulo atinge &#39;meta Crespo&#39; em empate com Botafogo</p><p>São Paulo repete erros e sofre revés de 2 a 0 para Cruzeiro</p><p>Cruzeiro x São Paulo: onde assistir ao vivo, horário e transmissão</p><p>São Paulo quita um mês de direitos de imagem atrasados</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/esportes/futebol/sao-paulo-futebol-clube/eleicao-do-sao-paulo-entenda-formato-e-veja-candidatos-a-presidente/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Os sócios do São Paulo votarão em candidatos ao Conselho Deliberativo neste domingo. É a primeira etapa do processo eleitoral , que tem o desfecho na eleição para a presidência, prevista para a segunda semana de dezembro. Assim como muitos clubes no Brasil, o São Paulo tem um processo eleitoral indireto."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Cada eleitor escolhe até 20 candidatos. Os postulantes ao Conselho estão divididos em duas chapas, mas o sócio pode escolher nomes dos dois lados. O voto é secreto, presencial e em urna eletrônica."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Serão eleitos 100 novos conselheiros, dos quais 75 serão os mais votados. Depois, a cada três eleitos de uma chapa, é eleito outro do mesmo grupo até que fechem os outros 25. Esses precisam ter, pelo menos, 1% do total de votos."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Os 100 eleitos se juntam a outros 152 vitalícios, que ganharam esse status por fatores como tempo de associação e “atestado de fé são-paulina”. É como um comprovante de que se é torcedor do São Paulo, já que há conselheiros cuja relação com o clube é apenas pelo social. O limite de vitalícios é 160."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Os 252 conselheiros, então, votarão para a presidência. Essa eleição pode ser presencial, híbrida ou online, a depender da convocação do presidente do Conselho Deliberativo."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/FTA20261010172.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/eleicao-do-sao-paulo-entenda-formato-e-veja-candidatos-a-presidente.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "f7d3c594bbf71309",
+      "titulo": "Corinthians x Grêmio: horário e onde assistir ao jogo do Brasileirão",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/brasileirao/corinthians-x-gremio-horario-e-onde-assistir-ao-jogo-do-brasileirao-2/",
+      "dataFonte": "2026-11-27T23:35:09.000Z",
+      "resumoFonte": "Adversários diretos na luta contra o rebaixamento, Corinthians e Grêmio se enfrentam na noite deste domingo (29), pela 37ª rodada do Campeonato Brasileiro",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/neo-quimica-arena-e1784839672415.jpeg?w=1024&h=576&crop=1",
+      "descobertaEm": "2026-11-28T00:18:36.123Z"
     },
     {
       "id": "d7fcef428818f47e",
@@ -1500,21 +1474,93 @@
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
+    },
+    {
+      "id": "16c2d2bdaac0c0ad",
+      "titulo": "Marinha apura denúncia de estupro contra tenente durante viagem de formação",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/brasil/marinha-apura-denuncia-de-estupro-contra-tenente-durante-viagem-de-formacao",
+      "dataFonte": "2026-11-28T00:04:48.000Z",
+      "resumoFonte": "Marinha apura denúncia de estupro contra tenente durante viagem de formação. Dois militares foram repatriados ao Brasil",
+      "imagem": "https://i.metroimg.com/WxbgqOUI3Qu1DWyzsL70R5Bv_L19e1nGw7bSqPYqnOI/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/navio-escola-brasil.jpg",
+      "descobertaEm": "2026-11-28T00:18:36.123Z"
+    },
+    {
+      "id": "413bf15f95be35bf",
+      "titulo": "PGR é contra obrigar União a aprovar empréstimo ao BRB",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-justica/pgr-e-contra-obrigar-uniao-a-aprovar-emprestimo-ao-brb/",
+      "dataFonte": "2026-11-28T00:02:56.000Z",
+      "resumoFonte": "GDF acionou STF para desbloquear crédito ao BRB após bancos não formarem grupo fiador",
+      "imagem": "https://static.poder360.com.br/uploads/2026/05/Predio-BRB-1080.png",
+      "descobertaEm": "2026-11-28T00:18:36.123Z",
+      "reportagem": {
+        "titulo": "PGR é contra obrigar União a aprovar empréstimo ao BRB",
+        "slug": "pgr-e-contra-obrigar-uniao-a-aprovar-emprestimo-ao-brb",
+        "categoria": "Justiça",
+        "data": "2026-11-27",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/pgr-e-contra-obrigar-uniao-a-aprovar-emprestimo-ao-brb.jpg",
+        "resumo": "GDF acionou STF para desbloquear crédito ao BRB após bancos não formarem grupo fiador.",
+        "conteudo": "<p>GDF acionou STF para desbloquear crédito ao BRB após bancos não formarem grupo fiador</p><h2>O contexto da decisão judicial</h2><p>O procurador-geral da República, Paulo Gonet , enviou ao Supremo Tribunal Federal , na 5ª feira (26.nov.2026), parecer contrário ao pedido do GDF (Governo do Distrito Federal) para obrigar a União a aprovar empréstimo destinado a salvar o BRB (Banco de Brasília).</p><p>O GDF acionou o Supremo em setembro deste ano para tentar desbloquear a operação de crédito, originalmente prevista em acordo firmado com a União e homologado em maio pelo ministro, relator do caso, Luiz Fux .</p><p>O modelo estabelecido determinava que o empréstimo seria garantido por um grupo de bancos, sem a necessidade de aval federal. O sindicato de bancos, porém, não chegou a ser formado.</p><h2>Detalhes e consequências do caso</h2><p>Gonet concluiu pelo indeferimento de todos os pedidos de tutela provisória de urgência apresentados pelo governo. As solicitações ainda serão analisadas por Fux.</p><p>Para o procurador-geral, o fato de o Distrito Federal ter cumprido as regras fiscais do acordo e, ainda assim, não ter conseguido o financiamento por falta de fiadores privados não obriga a União a assumir esse papel no lugar dos bancos.</p><p>“A circunstância é relevante para aferir os deveres de cooperação dos signatários na execução do ajuste.</p><p>Dela, porém, não decorre a obrigação de a União substituir as instituições financeiras que deixaram de prestar a fiança” , escreveu.</p><p>Acrescentou ainda que o acordo homologado pelo Supremo não contém cláusula de garantia federal subsidiária. “O termo não contém previsão de garantia federal subsidiária.</p><p>Tampouco havia decisão anterior que tivesse reconhecido o direito do autor ao aval” , registrou Gonet no parecer.</p><p>Em manifestação encaminhada ao STF na semana anterior, o FGC estimou em cerca de R$ 17 bilhões sua exposição aos créditos garantidos no BRB.</p><p>O fundo apontou a ausência dos balanços auditados do banco referentes a 2025 e ao 1º semestre de 2026 como obstáculo para avaliar se o aporte seria suficiente para recuperar a instituição.</p><p>O balanço em questão ainda não foi divulgado pelo GDF.</p><p>Gonet compartilhou esse entendimento e reconheceu a gravidade da situação financeira do BRB. Para o procurador-geral, forçar o FGC a conceder o empréstimo antes de concluir a análise de viabilidade poderia produzir efeitos de difícil reversão.</p><p>“As atribuições estatutárias do FGC também não asseguram ao Distrito Federal o empréstimo pretendido.</p><p>A finalidade de prevenir crises permite ao Fundo prestar assistência financeira a instituição associada, inclusive mediante operação com seu controlador.</p><p>O exercício dessa atribuição exige avaliar se o aporte projetado é suficiente para recuperar a instituição e preservar os recursos destinados à proteção dos depositantes” , disse Gonet.</p><p>O procurador-geral explicou que a solvência do Distrito Federal e as garantias do empréstimo cobrem só parte da análise, pois o FGC pode receber o crédito integral do governo distrital e ainda precisar ressarcir depositantes se o valor não bastar para reerguer o BRB, o que justifica exigir as demonstrações auditadas do banco, apesar de o DF ser o tomador.</p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-justica/pgr-e-contra-obrigar-uniao-a-aprovar-emprestimo-ao-brb/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "GDF acionou STF para desbloquear crédito ao BRB após bancos não formarem grupo fiador"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O procurador-geral da República, Paulo Gonet , enviou ao Supremo Tribunal Federal , na 5ª feira (26.nov.2026), parecer contrário ao pedido do GDF (Governo do Distrito Federal) para obrigar a União a aprovar empréstimo destinado a salvar o BRB (Banco de Brasília). Leia a íntegra (PDF – 411kB)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O GDF acionou o Supremo em setembro deste ano para tentar desbloquear a operação de crédito, originalmente prevista em acordo firmado com a União e homologado em maio pelo ministro, relator do caso, Luiz Fux . O modelo estabelecido determinava que o empréstimo seria garantido por um grupo de bancos, sem a necessidade de aval federal."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Gonet concluiu pelo indeferimento de todos os pedidos de tutela provisória de urgência apresentados pelo governo. As solicitações ainda serão analisadas por Fux."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Para o procurador-geral, o fato de o Distrito Federal ter cumprido as regras fiscais do acordo e, ainda assim, não ter conseguido o financiamento por falta de fiadores privados não obriga a União a assumir esse papel no lugar dos bancos. “A circunstância é relevante para aferir os deveres de cooperação dos signatários na execução do ajuste."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/05/Predio-BRB-1080.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/pgr-e-contra-obrigar-uniao-a-aprovar-emprestimo-ao-brb.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
     }
   ],
-  "reapuradoEm": "2026-11-28T00:49:17.057Z",
+  "reapuradoEm": "2026-11-28T01:48:47.664Z",
   "diagnosticoReapuracao": {
-    "produzidas": 22,
+    "produzidas": 23,
     "jaProntas": 0,
-    "incompletas": 11,
+    "incompletas": 10,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 22,
+    "geradas": 23,
     "reaproveitadas": 0,
-    "puladas": 11,
+    "puladas": 10,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-28T00:50:57.890Z"
+  "lapisEm": "2026-11-28T01:50:35.270Z"
 }
