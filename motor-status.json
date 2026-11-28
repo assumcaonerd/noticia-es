@@ -1,7 +1,7 @@
 {
-  "atualizadoEm": "2026-11-28T08:18:10.165Z",
+  "atualizadoEm": "2026-11-28T09:18:35.300Z",
   "modo": "coleta-de-pautas-e-manchetes-de-capa",
-  "novasPautas": 74,
+  "novasPautas": 67,
   "pautasPendentes": 80,
   "fontes": [
     {
@@ -199,7 +199,7 @@
     {
       "fonte": "Século Diário",
       "ok": false,
-      "erro": "https://www.seculodiario.com.br/ -> The operation was aborted due to timeout",
+      "erro": "https://www.seculodiario.com.br/ -> 403 Forbidden",
       "capa": true
     },
     {
@@ -314,7 +314,7 @@
     {
       "fonte": "UOL Notícias",
       "ok": true,
-      "encontrados": 7,
+      "encontrados": 3,
       "rota": "https://rss.uol.com.br/feed/noticias.xml",
       "fallback": false
     },
@@ -349,7 +349,7 @@
     {
       "fonte": "BBC Brasil",
       "ok": true,
-      "encontrados": 18,
+      "encontrados": 17,
       "rota": "https://feeds.bbci.co.uk/portuguese/rss.xml",
       "fallback": false
     },
@@ -374,7 +374,7 @@
     }
   ],
   "redesLocais": {
-    "atualizadoEm": "2026-11-28T08:21:39.959Z",
+    "atualizadoEm": "2026-11-28T09:21:29.484Z",
     "novas": 5,
     "fontes": [
       {
@@ -435,7 +435,7 @@
     ]
   },
   "telegramEs": {
-    "atualizadoEm": "2026-11-28T08:21:41.724Z",
+    "atualizadoEm": "2026-11-28T09:21:31.886Z",
     "novas": 0,
     "fontes": [
       {
@@ -451,14 +451,14 @@
     ]
   },
   "ales": {
-    "atualizadoEm": "2026-11-28T08:21:42.637Z",
+    "atualizadoEm": "2026-11-28T09:21:32.917Z",
     "ok": false,
     "erro": "fetch failed",
     "novas": 0
   },
   "dioes": {
-    "atualizadoEm": "2026-11-28T08:21:53.196Z",
-    "novas": 1,
+    "atualizadoEm": "2026-11-28T09:21:43.479Z",
+    "novas": 0,
     "fontes": [
       {
         "fonte": "DIO/ES Notícias",
