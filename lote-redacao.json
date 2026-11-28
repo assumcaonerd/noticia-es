@@ -1,47 +1,536 @@
 {
-  "geradoEm": "2026-11-28T15:48:31.285Z",
+  "geradoEm": "2026-11-28T16:49:14.384Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
-    "bloqueadas": 0,
-    "bloqueadasEditoriais": 2,
+    "bloqueadas": 1,
+    "bloqueadasEditoriais": 1,
     "semImagem": 0,
     "duplicadasBasicas": 0,
-    "duplicadasSemanticas": 3,
-    "foraCategorias": 47
+    "duplicadasSemanticas": 0,
+    "foraCategorias": 53
   },
-  "quantidadeCandidatas": 28,
+  "quantidadeCandidatas": 25,
   "tentativasRecentes": {
-    "35e32d1670e0d413": 1795880911285,
-    "21a1afa575931cda": 1795880911285,
-    "2450de443a04f9bb": 1795880911285,
-    "976a161cb0f8fb2d": 1795880911285,
-    "e39dc75922c2dd86": 1795880911285,
-    "a35ff7cbeb29d7e4": 1795880911285,
-    "cecd7e6f54132270": 1795880911285,
-    "8061b61b25745f33": 1795880911285,
-    "3d72c876875f4bc5": 1795880911285,
-    "24d4d63c1af9dbc9": 1795880911285,
-    "2db192cf7c93a198": 1795880911285,
-    "60f8e6e4f9572815": 1795880911285,
-    "1f3d768f48364bde": 1795880911285,
-    "7b51d714e18ac9d2": 1795880911285,
-    "e8e08398f35db8cf": 1795880911285,
-    "79d113005d8b26fd": 1795880911285,
-    "b76a6e0d9f2c6d17": 1795880911285,
-    "6fdeae658c6aa5b2": 1795880911285,
-    "ce327f9863831e85": 1795880911285,
-    "bf04564d0b44fd3a": 1795880911285,
-    "6660be109265afc2": 1795880911285,
-    "e5d1ad90549c181e": 1795880911285,
-    "d281c4a7d4e9b6c5": 1795880911285,
-    "b9d2450a7bddeea8": 1795880911285,
-    "102f322842a3e55c": 1795880911285,
-    "ca4834ac6eb59c1a": 1795880911285,
-    "e984abafa6eb2a68": 1795880911285,
-    "bdb95c607fd6bf15": 1795880911285
+    "8061b61b25745f33": 1795884554384,
+    "2db192cf7c93a198": 1795884554384,
+    "60f8e6e4f9572815": 1795884554384,
+    "79d113005d8b26fd": 1795884554384,
+    "b76a6e0d9f2c6d17": 1795884554384,
+    "ce327f9863831e85": 1795884554384,
+    "bf04564d0b44fd3a": 1795884554384,
+    "6660be109265afc2": 1795884554384,
+    "b9d2450a7bddeea8": 1795884554384,
+    "ca4834ac6eb59c1a": 1795884554384,
+    "e984abafa6eb2a68": 1795884554384,
+    "bdb95c607fd6bf15": 1795884554384,
+    "2adaf6aa9084e656": 1795884554384,
+    "8150841422829c98": 1795884554384,
+    "3b87a3f289477bcc": 1795884554384,
+    "55fdf4a8e057abac": 1795884554384,
+    "f9b24b4f87da2f9d": 1795884554384,
+    "847894e4f9adb0e8": 1795884554384,
+    "c3dbe00a1f73df0e": 1795884554384,
+    "6984fe4578ae4c82": 1795884554384,
+    "19b40ae4d6de3aba": 1795884554384,
+    "a3f3bafb2ed2c5f7": 1795884554384,
+    "518ae8907ff4ae42": 1795884554384,
+    "bb531f2bb1cda847": 1795884554384,
+    "a347866f55076e8d": 1795884554384
   },
   "candidatas": [
+    {
+      "id": "2adaf6aa9084e656",
+      "titulo": "Submetralhadora e drogas são apreendidas em casa abandonada em Vila Velha",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/submetralhadora-e-drogas-sao-apreendidas-em-casa-abandonada-em-vila-velha-1126",
+      "dataFonte": "2026-11-28T16:06:27.000Z",
+      "resumoFonte": "Policiais encontraram 64 pinos de cocaína no quintal. A arma, 20 munições e outras porções de drogas estavam no segundo andar do imóvel",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795880625523_copia_de_homem_que_apedrejou_advogada_no_es_vira_reu_por_tentativa_de_homicidio_2.png",
+      "descobertaEm": "2026-11-28T16:18:12.618Z"
+    },
+    {
+      "id": "8150841422829c98",
+      "titulo": "Senador Helder Barbalho acredita que Trabuco traz credibilidade a Lula 4",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/economia/senador-helder-barbalho-acredita-que-trabuco-traz-credibilidade-a-lula-4/",
+      "dataFonte": "2026-11-28T15:43:34.000Z",
+      "resumoFonte": "Em entrevista à apresentadora Livia Raick, no programa Mercado, de VEJA+TV, o senador afirmou que novo ministro da Fazenda é uma \"conciliação\"",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/03/06052024-pzzb0208.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-11-28T16:18:12.618Z",
+      "reportagem": {
+        "titulo": "Senador Helder Barbalho acredita que Trabuco traz credibilidade a Lula 4",
+        "slug": "senador-helder-barbalho-acredita-que-trabuco-traz-credibilidade-a-lula-4",
+        "categoria": "Economia",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/senador-helder-barbalho-acredita-que-trabuco-traz-credibilidade-a-lula-4.jpg",
+        "resumo": "Em entrevista à apresentadora Livia Raick, no programa Mercado, de VEJA+TV, o senador afirmou que novo ministro da Fazenda é uma \"conciliação\"",
+        "conteudo": "<p>https://www.youtube.com/watch?v=SrgcO-lnc_Y&amp;list=PLajCBhJNR2qJ7TEzwXsfIZj1PJYVD_-Ev</p><h2>Dados e contexto do setor</h2><p>Em entrevista à apresentadora Livia Raick, no programa Mercado, de VEJA+TV, o senador Helder Barbalho afirmou que Luiz Carlos Trabuco, anunciado como novo Ministro da Fazenda, é a conciliação de alguém que tem na sua história uma origem humilde e vitórias a partir do seu sucesso profissional.</p><p>Ex-governador do Pará, Helder Barbalho, do MDB, se prepara para assumir o cargo de senador em 2027 e elogiou a escolha do presidente Lula para a pasta econômica. Ele ainda afirmou que a origem humilde de Trabuco dá a ele credenciais para além das profissionais.</p><p>“é importante destacar essa origem humilde, já que o próximo Ministro da Fazenda terá o grande desafio (&amp;hellip;) que é a conciliação das contas publicas do Brasil com o custo de vida dos Brasileiros.</p><h2>Impactos e informações adicionais</h2><p>Para que a gente possa conciliar equilíbrio fiscal com os programas sociais e os direitos adquiridos pela sociedade brasileira.”, disse Barbalho, que também sinalizou que é preciso acreditar que o novo ministro do Governo Lula 4 terá autonomia para novos cortes fiscais, como clama o mercado financeiro.</p><p>“Temos que torcer para que o Trabuco possa fazer um excelente trabalho. A conversa com o presidente Lula deve ter sido muito clara no sentido das expectativas do presidente e não creio que alguém como Trabuco não estaria amplamente transparente em colocar o seu pensamento.</p><p>E ele não aceitaria esse convite se não tivesse o mínimo de liberdade para construir a sua agenda.”, explicou o político.</p><p>Trabuco é um dos principais nomes do sistema financeiro brasileiro. Presidente do Conselho de Administração do Bradesco, ele aceitou o convite do presidente Lula na quinta-feira, 26, como noticiado com exclusividade por VEJA, e assumirá a Fazenda no ano que vem.</p><p>Para Helder Barbalho, o ministro tem estatura e credenciais fundamentais para sentar à mesa com o Congresso Nacional, que saiu das urnas majoritariamente com o perfil conservador.</p><p>“Essas credenciais dão a ele um voto de confiança do Congresso e do mercado, dos articulistas econômicos.</p><p>E a própria oposição deixando claro que gera uma expectativa enorme, mas que respeita positivamente a escolha de Trabuco. Nós temos que confiar.”, concluiu o senador recém-eleito.</p>",
+        "fonteNome": "Veja",
+        "fonteUrl": "https://veja.abril.com.br/economia/senador-helder-barbalho-acredita-que-trabuco-traz-credibilidade-a-lula-4/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "https://www.youtube.com/watch?v=SrgcO-lnc_Y&list=PLajCBhJNR2qJ7TEzwXsfIZj1PJYVD_-Ev"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Em entrevista à apresentadora Livia Raick, no programa Mercado, de VEJA+TV, o senador Helder Barbalho afirmou que Luiz Carlos Trabuco, anunciado como novo Ministro da Fazenda, é a conciliação de alguém que tem na sua história uma origem humilde e vitórias a partir do seu sucesso profissional."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Ex-governador do Pará, Helder Barbalho, do MDB, se prepara para assumir o cargo de senador em 2027 e elogiou a escolha do presidente Lula para a pasta econômica. Ele ainda afirmou que a origem humilde de Trabuco dá a ele credenciais para além das profissionais."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "“é importante destacar essa origem humilde, já que o próximo Ministro da Fazenda terá o grande desafio (&hellip;) que é a conciliação das contas publicas do Brasil com o custo de vida dos Brasileiros."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "“Temos que torcer para que o Trabuco possa fazer um excelente trabalho. A conversa com o presidente Lula deve ter sido muito clara no sentido das expectativas do presidente e não creio que alguém como Trabuco não estaria amplamente transparente em colocar o seu pensamento."
+          }
+        ],
+        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2026/03/06052024-pzzb0208.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/senador-helder-barbalho-acredita-que-trabuco-traz-credibilidade-a-lula-4.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "3b87a3f289477bcc",
+      "titulo": "Seis milhões de cigarros contrabandeados são apreendidos em Vila Velha",
+      "categoria": "Cidades",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/agora/seis-milhoes-de-cigarros-contrabandeados-sao-apreendidos-em-vila-velha-1126",
+      "dataFonte": "2026-11-28T15:34:12.000Z",
+      "resumoFonte": "Carga vinda do Paraguai seria comercializada na Grande Vitória; operação conjunta terminou com três homens presos em flagrante",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795878935581_copia_de_homem_que_apedrejou_advogada_no_es_vira_reu_por_tentativa_de_homicidio_1.png",
+      "descobertaEm": "2026-11-28T16:18:12.618Z"
+    },
+    {
+      "id": "55fdf4a8e057abac",
+      "titulo": "Morre Ciro Fernandes, referência da xilogravura brasileira, aos 84 anos",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/celebridades/morre-ciro-fernandes-referencia-da-xilogravura-brasileira-aos-84-anos",
+      "dataFonte": "2026-11-28T16:06:48.000Z",
+      "resumoFonte": "O artista plástico paraibano enfrentava um câncer na mandíbula e construiu uma carreira marcada pela valorização da cultura nordestina",
+      "imagem": "https://i.metroimg.com/i-bVrPaDAoOgkbS0puoR_XYD2IITEJRwTgedS9DJXLI/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/ciro-fernandes.jpg",
+      "descobertaEm": "2026-11-28T16:18:12.618Z"
+    },
+    {
+      "id": "f9b24b4f87da2f9d",
+      "titulo": "Pedra Azul Summit | 'Você não será substituído pela IA', diz presidente do Google Brasil",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/pedra-azul-summit/voce-nao-sera-substituido-pela-ia-mas-pode-ser-por-quem-domina-ia-diz-presidente-do-google-brasil-1126",
+      "dataFonte": "2026-11-28T15:25:04.000Z",
+      "resumoFonte": "Fábio Coelho defendeu a capacitação de profissionais e o uso estratégico da inteligência artificial nas empresas, neste sábado (28), durante o evento, no painel Panorama Inovação e Tecnologia",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795876236827_clo5454.jpg",
+      "descobertaEm": "2026-11-28T16:18:12.618Z",
+      "reportagem": {
+        "titulo": "'Você não será substituído pela IA, mas pode ser por quem domina IA', diz presidente do Google Brasil",
+        "slug": "voce-nao-sera-substituido-pela-ia-mas-pode-ser-por-quem-domina-ia-diz-presidente-do-google",
+        "categoria": "Tecnologia",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/voce-nao-sera-substituido-pela-ia-mas-pode-ser-por-quem-domina-ia-diz-presidente-do-google.jpg",
+        "resumo": "Fábio Coelho defendeu a capacitação de profissionais e o uso estratégico da inteligência artificial nas empresas, neste sábado (28), durante o evento, no painel Panorama Inovação e Tecnologia",
+        "conteudo": "<p>A inteligência artificial (IA) já transforma o mercado de trabalho, mas isso não significa necessariamente que os profissionais serão substituídos pelas máquinas.</p><h2>Dados e contexto do setor</h2><p>O principal risco, segundo o presidente do Google Brasil , Fábio Coelho, é perder espaço para quem souber utilizar a tecnologia como ferramenta de trabalho.</p><p>“Você não vai ser substituído pela inteligência artificial, mas grande parte de nós pode ser substituída por um profissional que domine a IA”, afirmou Fábio Coelho, neste sábado (28), durante o segundo dia do Pedra Azul Summit 2026 , evento promovido pela Rede Gazeta.</p><p>Ao participar do painel sobre inovação e tecnologia, mediado pelo editor-chefe de A Gazeta e da CBN Vitória , Geraldo Nascimento, Coelho defendeu que empresas e trabalhadores precisam incorporar a inteligência artificial às atividades cotidianas.</p><h2>Impactos e informações adicionais</h2><p>Para ele, a tecnologia deve ser encarada como recurso capaz de ampliar as habilidades humanas e melhorar os resultados profissionais.</p><p>A IA, na nossa interpretação, é um conjunto de superpoderes alavancando os recursos existentes para você ficar melhor.</p><p>O executivo destacou que a discussão sobre o futuro do trabalho não deve se limitar à possibilidade de substituição de pessoas por máquinas.</p><p>Na avaliação dele, a inteligência artificial também tende a complementar atividades, aumentar a produtividade e abrir espaço para novos serviços e ocupações.</p><p>Coelho citou estudos do Fórum Econômico Mundial que apontam uma expectativa de criação de mais empregos do que de postos eliminados até o fim da década. Ele ponderou, porém, que determinadas funções e tarefas passarão por mudanças, enquanto outras poderão ser automatizadas.</p><p>Para o presidente do Google Brasil, parte das oportunidades também estará relacionada à chamada economia de serviços e do bem-estar, com atividades ligadas ao tempo livre e à capacidade de as pessoas aproveitarem melhor a vida.</p><p>A transformação, segundo Coelho, exige que as empresas preparem suas equipes para trabalhar com as novas ferramentas. Não basta disponibilizar sistemas de inteligência artificial: é necessário identificar como podem contribuir para os objetivos de cada negócio.</p><p>Durante o debate, ao ser questionado sobre como uma empresa deve começar a investir em inovação com orçamento limitado, o executivo apontou quatro aspectos: qualidade da infraestrutura, qualificação das pessoas, apoio da administração e identificação de casos de uso que possam gerar resultados concretos.</p><p>Ele explicou que, no trabalho com empresas, o Google utiliza uma matriz que cruza dois critérios: o impacto que determinada iniciativa pode gerar e a facilidade ou dificuldade de colocá-la em prática.</p><p>A recomendação é começar por projetos de alto impacto e implementação mais simples.</p><p>Coelho também alertou para o risco de empresas investirem em projetos de tecnologia apenas por serem novidades, sem avaliar se resolvem problemas ou melhoram processos.</p><p>Para ele, a adoção da inteligência artificial precisa estar ligada a uma estratégia de desenvolvimento da própria organização.</p><p>Seu negócio não precisa de uma estratégia de IA, mas uma estratégia de como impulsionar seu negócio com a IA.</p><p>Além da capacitação, o executivo apontou a governança como um dos pilares dessa transformação. O uso das ferramentas precisa considerar questões como ética, privacidade e segurança, com orientações claras para os funcionários e o espaço para que proponham soluções.</p><p>O impacto da inteligência artificial na educação também foi abordado no painel. Questionado sobre o risco de estudantes utilizarem ferramentas de IA sem desenvolver capacidade crítica e conhecimento próprio, Coelho defendeu que a tecnologia seja incorporada como complemento ao processo de aprendizagem, e não como substituta.</p><p>Para ele, é importante diferenciar a entrega de um resultado do processo necessário para aprender. A possibilidade de uma ferramenta produzir um texto ou resolver uma atividade não significa que o estudante tenha desenvolvido as habilidades envolvidas naquela tarefa.</p><p>“O produto final é entregar alguma coisa. Não pode ser objetivo em si. O objetivo tem que ser o processo de aprender”, afirmou.</p>",
+        "fonteNome": "A Gazeta - Capa",
+        "fonteUrl": "https://www.agazeta.com.br/pedra-azul-summit/voce-nao-sera-substituido-pela-ia-mas-pode-ser-por-quem-domina-ia-diz-presidente-do-google-brasil-1126",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/"
+          },
+          {
+            "nome": "MCTI",
+            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A inteligência artificial (IA) já transforma o mercado de trabalho, mas isso não significa necessariamente que os profissionais serão substituídos pelas máquinas. O principal risco, segundo o presidente do Google Brasil , Fábio Coelho, é perder espaço para quem souber utilizar a tecnologia como ferramenta de trabalho."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "“Você não vai ser substituído pela inteligência artificial, mas grande parte de nós pode ser substituída por um profissional que domine a IA”, afirmou Fábio Coelho, neste sábado (28), durante o segundo dia do Pedra Azul Summit 2026 , evento promovido pela Rede Gazeta."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Ao participar do painel sobre inovação e tecnologia, mediado pelo editor-chefe de A Gazeta e da CBN Vitória , Geraldo Nascimento, Coelho defendeu que empresas e trabalhadores precisam incorporar a inteligência artificial às atividades cotidianas."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A IA, na nossa interpretação, é um conjunto de superpoderes alavancando os recursos existentes para você ficar melhor."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O executivo destacou que a discussão sobre o futuro do trabalho não deve se limitar à possibilidade de substituição de pessoas por máquinas. Na avaliação dele, a inteligência artificial também tende a complementar atividades, aumentar a produtividade e abrir espaço para novos serviços e ocupações."
+          }
+        ],
+        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795876236827_clo5454.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/voce-nao-sera-substituido-pela-ia-mas-pode-ser-por-quem-domina-ia-diz-presidente-do-google.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "847894e4f9adb0e8",
+      "titulo": "Brasileira condenada por contrabando de drogas na Rússia pede intervenção de Lula",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Revista Oeste - Feed",
+      "urlFonte": "https://revistaoeste.com/politica/brasileira-presa-na-russia-carta-lula/",
+      "dataFonte": "2026-11-28T15:30:00.000Z",
+      "resumoFonte": "Condenada a cinco anos e dois meses de prisão por contrabando de drogas na Rússia, a jogadora brasileira de futebol de areia Letícia Villar Pais, conhecida como Lelê Villar, de 33 anos, enviou uma carta ao presidente Luiz Inácio Lula da Silva em que solicita a intervenção do governo federal para retornar ao Brasil. As autoridades russas prenderam a…",
+      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/47M7LUFXINEJLCGMMS4MFPRO54-910x568.jpg.webp",
+      "descobertaEm": "2026-11-28T16:18:12.618Z",
+      "reportagem": {
+        "titulo": "Brasileira condenada por contrabando de drogas na Rússia pede intervenção de Lula",
+        "slug": "brasileira-condenada-por-contrabando-de-drogas-na-russia-pede-intervencao-de-lula",
+        "categoria": "Esporte",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/brasileira-condenada-por-contrabando-de-drogas-na-russia-pede-intervencao-de-lula.jpg",
+        "resumo": "Jogadora de futebol de areia, Letícia Villar cumpre pena de 5 anos e 2 meses",
+        "conteudo": "<p>A jogadora de futebol de areia Letícia Villar Pais, conhecida como Lelê Villar, de 33 anos, enviou uma carta ao presidente Luiz Inácio Lula da Silva pedindo intervenção para retornar ao Brasil, onde está presa na Rússia há um ano e quatro meses.</p><h2>As informações principais do assunto</h2><p>Detida desde 23 de julho de 2025 por contrabando de drogas, Letícia trabalha em condições difíceis em uma colônia penal e denuncia violência e discriminação.</p><p>O governo russo estaria condicionando sua transferência à entrega de um suspeito de espionagem preso no Brasil.</p><p>Condenada a cinco anos e dois meses de prisão por contrabando de drogas na Rússia, a jogadora brasileira de futebol de areia Letícia Villar Pais, conhecida como Lelê Villar, de 33 anos, enviou uma carta ao presidente Luiz Inácio Lula da Silva em que solicita a intervenção do governo federal para retornar ao Brasil.</p><h2>Contexto e informações complementares</h2><p>As autoridades russas prenderam a atleta em 23 de julho de 2025, quando ela entrou no país com 6,13 gramas de haxixe, substância derivada da cannabis . A brasileira afirma que a droga se destinava ao consumo pessoal.</p><p>Na carta, escrita em 5 de novembro, Letícia reconheceu que errou, mas contestou as acusações das autoridades russas.</p><p>O documento chegou ao governo brasileiro nesta semana, por intermédio do advogado Marco Aurélio de Carvalho, coordenador do Grupo Prerrogativas, coletivo de juristas aliado do PT.</p><p>Segundo reportagem do jornal Folha de S.Paulo , o governo de Vladimir Putin estaria condicionando a transferência de Letícia e de outros dois brasileiros presos na Rússia à entrega de Sergei Tcherkasov, suspeito de integrar o serviço de inteligência militar de Moscou.</p><p>Preso no Brasil desde 2022, Tcherkasov utilizava uma identidade brasileira falsa, com o nome de Victor Muller Ferreira. Condenado por falsidade ideológica, o russo cumpre pena de cinco anos e dois meses na Penitenciária Federal de Brasília.</p><p>O caso também envolve os Estados Unidos, cujas autoridades acusam Tcherkasov de atuar como agente da Inteligência russa.</p><p>A defesa da jogadora afirmou ter recebido informações sobre a possibilidade de troca de prisioneiros. Até o momento, entretanto, nenhum dos dois governos anunciou um acordo.</p><p>Letícia cumpre pena em uma colônia penal em Yavas, na República da Mordóvia, a aproximadamente 500 quilômetros de Moscou.</p><p>Segundo a defesa, a brasileira trabalha na confecção de uniformes destinados a soldados russos que combatem na Ucrânia. Os advogados afirmam que a jornada de trabalho no estabelecimento prisional se estende das 6h às 21h.</p><p>Na carta encaminhada a Lula, a atleta também relatou episódios de violência física e psicológica, racismo e discriminação em razão da orientação sexual, além de dificuldades para manter contato com os familiares.</p><p>As alegações da brasileira sobre as condições do cárcere não tiveram confirmação independente.</p><p>Nesta sexta-feira, 27, o Ministério das Relações Exteriores informou que acompanha o caso desde a prisão da atleta, por intermédio da Embaixada do Brasil em Moscou.</p><p>A pasta afirmou que presta assistência consular à jogadora e aos familiares. Até a divulgação da nota, Lula não havia se manifestado publicamente sobre o pedido de intervenção.</p><p>Letícia integrou a seleção brasileira feminina de futebol de areia, tem passagens por clubes brasileiros e europeus e esteve entre as melhores jogadoras do mundo na modalidade.</p>",
+        "fonteNome": "Revista Oeste - Feed",
+        "fonteUrl": "https://revistaoeste.com/politica/brasileira-presa-na-russia-carta-lula/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A jogadora de futebol de areia Letícia Villar Pais, conhecida como Lelê Villar, de 33 anos, enviou uma carta ao presidente Luiz Inácio Lula da Silva pedindo intervenção para retornar ao Brasil, onde está presa na Rússia há um ano e quatro meses."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Condenada a cinco anos e dois meses de prisão por contrabando de drogas na Rússia, a jogadora brasileira de futebol de areia Letícia Villar Pais, conhecida como Lelê Villar, de 33 anos, enviou uma carta ao presidente Luiz Inácio Lula da Silva em que solicita a intervenção do governo federal para retornar ao Brasil."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "As autoridades russas prenderam a atleta em 23 de julho de 2025, quando ela entrou no país com 6,13 gramas de haxixe, substância derivada da cannabis . A brasileira afirma que a droga se destinava ao consumo pessoal."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Na carta, escrita em 5 de novembro, Letícia reconheceu que errou, mas contestou as acusações das autoridades russas. O documento chegou ao governo brasileiro nesta semana, por intermédio do advogado Marco Aurélio de Carvalho, coordenador do Grupo Prerrogativas, coletivo de juristas aliado do PT."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Segundo reportagem do jornal Folha de S.Paulo , o governo de Vladimir Putin estaria condicionando a transferência de Letícia e de outros dois brasileiros presos na Rússia à entrega de Sergei Tcherkasov, suspeito de integrar o serviço de inteligência militar de Moscou."
+          }
+        ],
+        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/47M7LUFXINEJLCGMMS4MFPRO54-910x568.jpg.webp",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/brasileira-condenada-por-contrabando-de-drogas-na-russia-pede-intervencao-de-lula.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "c3dbe00a1f73df0e",
+      "titulo": "'Preciso trazer um top', diz Lula sobre escolha de Trabuco para Fazenda",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "g1 - Política",
+      "urlFonte": "https://g1.globo.com/politica/noticia/2026/11/28/preciso-trazer-um-top-diz-lula-sobre-escolha-de-trabuco-para-fazenda.ghtml",
+      "dataFonte": "2026-11-28T15:58:04.000Z",
+      "resumoFonte": "Saiba como a indicação de Trabuco para o Ministério da Fazenda foi recebida na política O presidente Luiz Inácio Lula da Silva (PT) afirmou neste sábado que Luiz Carlos Trabuco, presidente do Conselho de Administração do Bradesco e escolhido para o Ministério da Fazenda, é \"um top\" que vai ajudá-lo a mudar o patamar de desenvolvimento do país. Em…",
+      "imagem": "https://s2-g1.glbimg.com/4hjrSv9Z_x6zlaaAd8n2_RcmKUw=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/w/x/lwYgxJS9OcsAWUnX0ymQ/54075991548-7feeea8a25-k.jpg",
+      "descobertaEm": "2026-11-28T16:18:12.618Z"
+    },
+    {
+      "id": "6984fe4578ae4c82",
+      "titulo": "Lula defende escolha de Trabuco para Fazenda: ‘Jamais traria alguém para trabalhar contra o povo pobre’",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "O Globo - Capa",
+      "urlFonte": "https://oglobo.globo.com/economia/noticia/2026/11/28/lula-defende-escolha-de-trabuco-para-fazenda-jamais-traria-alguem-para-trabalhar-contra-o-povo-pobre.ghtml",
+      "dataFonte": "2026-11-28T15:23:09.640Z",
+      "resumoFonte": "Presidente lembrou que também enfrentou desconfiança quando colocou José Alencar e Alckmin como vices",
+      "imagem": "https://s2-oglobo.glbimg.com/j7SyJsmTxOIMD5dWC-0sv598VpY=/1320x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/N/3/Ke6HlRTEenRls2BNxVdQ/117052605-mariz-pa-brasilia-26-11-2026-luiz-carlos-trabuco-novo-ministro-da-fazenda-aeroport.jpg",
+      "descobertaEm": "2026-11-28T16:20:24.248Z",
+      "reportagem": {
+        "titulo": "Lula defende escolha de Trabuco para Fazenda: ‘Jamais traria alguém para trabalhar contra o povo pobre’",
+        "slug": "lula-defende-escolha-de-trabuco-para-fazenda-jamais-traria-alguem-para-trabalhar-contra-o-",
+        "categoria": "Economia",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-defende-escolha-de-trabuco-para-fazenda-jamais-traria-alguem-para-trabalhar-contra-o-.jpg",
+        "resumo": "Presidente lembrou que também enfrentou desconfiança quando colocou José Alencar e Alckmin como vices",
+        "conteudo": "<p>O presidente Luiz Inácio Lula da Silva defendeu neste sábado, durante live com o deputado André Janones (Rede-MG), a escolha de Luiz Carlos Trabuco, presidente do Conselho de Administração do Bradesco, para comandar o Ministério da Fazenda.</p><h2>Dados e contexto do setor</h2><p>— Vocês vão ter muito orgulho do trabalho do amigo Trabuco, que eu já chamo de companheiro, é uma gente de confiança, companheiro de muito caráter.</p><p>E se eu confio nele, pode confiar que eu jamais traria alguém para trabalhar contra o povo pobre desse país — disse Lula, em resposta à críticas de setores da esquerda em razão da opção por um nome do mercado financeiro para o cargo.</p><p>O petista disse que, por ser seu último mandato na Presidência, ele se preocupa em não cometer erros.</p><h2>Impactos e informações adicionais</h2><p>— É meu quarto mandato, meu último mandato e não vou deixar a vida política tendo uma coisa negativa para esse país. É como se eu estivesse cuidando da minha própria vida.</p><p>O presidente ainda falou que considera normal os que desconfiam da escolha e lembrou das resistências que surgiram quando anunciou o empresário José Alencar como seu vice em 2002 e Geraldo Alckmin como seu companheiro de chapa em 2022.</p><p>— Para aqueles que desconfiam, eu também acho normal desconfiar, ninguém conhece. Eu lembro quando eu trouxe José Alencar para ser meu vice e teve gente não queria que eu trouxesse ele de vice.</p><p>Foi um vice extraordinário, um homem da mais alta competência. Ë como o Alckmin agora, muita gente não queria que eu trouxesse o Alckmin. &#39;O Alckmin é tucano, foi contra o PT&#39;.</p><p>Não, eu trouxe o Alckmin e graças a Deus ele aceitou e nós estamos fazendo um trabalho extraordinário.</p><p>A indicação de Trabuco, que era presidente do Conselho de Administração do Bradesco, dividiu o PT e provocou críticas à esquerda.</p><p>O deputado Lindbergh Farias (PT-RJ), um dos vice-líderes do governo no Congresso, comparou a escolha à de Joaquim Levy para a Fazenda no segundo mandato de Dilma Rousseff.</p><p>Na época, o ministro tentou aplicar um programa de ajuste fiscal e também foi alvo de críticas da esquerda.</p><p>O deputado Glauber Braga (PSOL-RJ), por sua vez, classificou a indicação de Trabuco como “estelionato eleitoral”.</p><p>Lula disse na transmissão ao vivo que havia sugerido a Dilma que Trabuco fosse ministro da Fazenda na segunda gestão dela.</p><p>– Quando a Dilma ganhou em 2014, eu fui conversar com a Dilma, a gente estava com crise de desconfiança muito séria e fui pedir para ela convidar o Trabuco para ser ministro da Fazenda.</p><p>A Dilma parece que tentou chamar o Trabuco, mas ele não veio, não quis ser ou não deixaram. E veio outra pessoa, o Levy, que era uma pessoa que eu respeito, mas que eu não traria para ser ministro da Fazenda.</p><p>Lula cultiva um longo relacionamento com Trabuco. Desde 2023, com a volta de Lula ao Palácio do Planalto, Trabuco participa do Conselho de Desenvolvimento Econômico e Social, o Conselhão, grupo criado na primeira gestão do petista com participação de empresários, sindicalistas e membros de movimentos sociais, que serve de canal de diálogo do presidente com o setor produtivo e a sociedade.</p><p>O presidente e Trabuco sempre mantiveram uma relação cordial e de proximidade, desde o primeiro mandato do presidente.</p><p>A relação de confiança e diálogo entre ambos foi crescendo, enquanto Trabuco ascendia aos principais postos do Bradesco (assumindo presidência da Bradesco Seguros em 2003 e depois a presidência executiva do banco em 2009).</p><p>Em encontros de Lula com empresários, que sempre tiveram a presença de Trabuco, o presidente costumava elogiá-lo publicamente por sua capacidade de fazer análises claras da economia.</p><p>Neste sábado, Lula disse que Trabuco ajudou a mediar um acordo entre o PT o Bradesco na década 1990.</p><p>– Nos anos 1990, o PT resolveu fazer um cartão de crédito para que a gente pudesse vender aos filiados do PT. Fomos ao Banco do Brasil, Caixa Econômica, Itaú, no Banespa e negaram.</p><p>Eu e a Clara Ant (aliada de Lula e uma das fundadoras do PT) fomos ao Osasco (onde fica a sede do Bradesco) falar com Trabuco. Eles não só fizeram um cartão de credito, como adiantaram R$ 500 mil.</p><p>Nasceu uma relação com Trabuco, uma relação de respeito.</p><p>Em outro momento, Lula elogiou o governador eleito de Minas Gerais, Cleitinho Azevedo (Republicanos).</p><p>O governador eleito apoiou o senador Flávio Bolsonaro (PL-RJ) na eleição presidencial de 2026, mas iniciou uma aproximação institucional com Lula e o PT após o resultado da eleição.</p>",
+        "fonteNome": "O Globo - Capa",
+        "fonteUrl": "https://oglobo.globo.com/economia/noticia/2026/11/28/lula-defende-escolha-de-trabuco-para-fazenda-jamais-traria-alguem-para-trabalhar-contra-o-povo-pobre.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O presidente Luiz Inácio Lula da Silva defendeu neste sábado, durante live com o deputado André Janones (Rede-MG), a escolha de Luiz Carlos Trabuco, presidente do Conselho de Administração do Bradesco, para comandar o Ministério da Fazenda."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "— Vocês vão ter muito orgulho do trabalho do amigo Trabuco, que eu já chamo de companheiro, é uma gente de confiança, companheiro de muito caráter."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O petista disse que, por ser seu último mandato na Presidência, ele se preocupa em não cometer erros."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "— É meu quarto mandato, meu último mandato e não vou deixar a vida política tendo uma coisa negativa para esse país. É como se eu estivesse cuidando da minha própria vida."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O presidente ainda falou que considera normal os que desconfiam da escolha e lembrou das resistências que surgiram quando anunciou o empresário José Alencar como seu vice em 2002 e Geraldo Alckmin como seu companheiro de chapa em 2022."
+          }
+        ],
+        "imagemOriginal": "https://s2-oglobo.glbimg.com/j7SyJsmTxOIMD5dWC-0sv598VpY=/1320x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/N/3/Ke6HlRTEenRls2BNxVdQ/117052605-mariz-pa-brasilia-26-11-2026-luiz-carlos-trabuco-novo-ministro-da-fazenda-aeroport.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-defende-escolha-de-trabuco-para-fazenda-jamais-traria-alguem-para-trabalhar-contra-o-.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "19b40ae4d6de3aba",
+      "titulo": "Lula diz que escolheu Trabuco para gerar confiança e que não vai trabalhar contra o povo pobre",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://www1.folha.uol.com.br/mercado/2026/11/lula-diz-que-escolheu-trabuco-para-gerar-confianca-e-que-nao-vai-trabalhar-contra-o-povo-pobre.shtml",
+      "dataFonte": "2026-11-28T14:54:00.000Z",
+      "resumoFonte": "O presidente Lula (PT) disse neste sábado (28) que escolheu Luiz Carlos Trabuco para assumir o Ministério da Fazenda para gerar confiança e afirmou que o banqueiro não irá trabalhar contra a população mais pobre.",
+      "imagem": "https://f.i.uol.com.br/fotografia/2025/03/14/174198456567d49335d74b9_1741984565_3x2_rt.jpg",
+      "descobertaEm": "2026-11-28T16:18:12.618Z",
+      "reportagem": {
+        "titulo": "Lula diz que escolheu Trabuco para gerar confiança e que não vai trabalhar contra o povo pobre",
+        "slug": "lula-diz-que-escolheu-trabuco-para-gerar-confianca-e-que-nao-vai-trabalhar-contra-o-povo-p",
+        "categoria": "Economia",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-diz-que-escolheu-trabuco-para-gerar-confianca-e-que-nao-vai-trabalhar-contra-o-povo-p.jpg",
+        "resumo": "Durante live com Janones, petista afirma que desconfiança com banqueiro é natural e compara escolha às de José Alencar e Alckmin",
+        "conteudo": "<p>O presidente Lula (PT) disse neste sábado (28) que escolheu Luiz Carlos Trabuco para assumir o Ministério da Fazenda para gerar confiança e afirmou que o banqueiro não irá trabalhar contra a população mais pobre.</p><h2>Dados e contexto do setor</h2><p>&quot;Preciso de um [nome] &#39;top&#39;, alguém que possa me ajudar a gerar confiança no mundo&quot;, disse Lula durante uma live ao lado do deputado federal André Janones (Rede).</p><p>&quot;Vocês vão ter orgulho do trabalho do Trabuco, que já chamo de companheiro&quot;, declarou Lula. &quot;Eu jamais traria alguém para trabalhar contra o povo pobre desse país&quot;, afirmou ainda.</p><p>Presidente do conselho de administração do Bradesco , Trabuco aceitou o convite na quinta-feira (26) . Foi a primeira escolha anunciada para o quarto mandato do petista.</p><h2>Impactos e informações adicionais</h2><p>A escolha pelo banqueiro aumenta a expectativa, entre agentes do mercado, de que Lula fará um ajuste fiscal no próximo governo, tema que é alvo de críticas de parte do PT e da esquerda.</p><p>Durante a transmissão, Lula disse ter dito a Trabuco que o banqueiro &quot;já venceu na vida particular&quot; e que deveria dedicar os próximos quatro anos ao Brasil.</p><p>&quot;Me ajuda a transformar esse país em desenvolvido, industrial, em uma economia forte&quot;, disse Lula a Trabuco, segundo o relato feito pelo presidente.</p><p>O petista afirmou que é natural que existam desconfianças sobre o nome: &quot;Ninguém conhece&quot;. Ele disse que viu reações parecidas quando o empresário José Alencar e Geraldo Alckmin foram escolhidos como candidatos a vice-presidente.</p><p>&quot;Vamos fazer o país virar um país grande. No meu quarto mandato, não vou deixar a vida política tendo uma coisa negativa para esse país. É como se eu tivesse cuidando da minha própria vida&quot;, disse Lula.</p><p>Lula relatou que iniciou uma relação com Trabuco na década de 1990, quando o Bradesco teria fornecido cartões de crédito para o PT &quot;vender aos filiados&quot;.</p><p>O petista também afirmou que indicou o banqueiro para compor o segundo governo de Dilma Rousseff, mas ele &quot;não veio, não quis ser [ministro] ou não deixaram&quot;.</p><p>O presidente afirmou que respeita Joaquim Levy, que também era executivo do Bradesco e se tornou ministro da Fazenda de Dilma, mas ressaltou que não o levaria para o novo governo.</p><p>O presidente Lula (PT) disse neste sábado (28) que escolheu Luiz Carlos Trabuco para assumir o Ministério da Fazenda para gerar confiança e afirmou que o banqueiro não irá trabalhar contra a população mais pobre.</p><p>&quot;Preciso de um [nome] &#39;top&#39;, alguém que possa me ajudar a gerar confiança no mundo&quot;, disse Lula durante uma live ao lado do deputado federal André Janones (Rede).</p><p>&quot;Vocês vão ter orgulho do trabalho do Trabuco, que já chamo de companheiro&quot;, declarou Lula. &quot;Eu jamais traria alguém para trabalhar contra o povo pobre desse país&quot;, afirmou ainda.</p>",
+        "fonteNome": "UOL Notícias",
+        "fonteUrl": "https://www1.folha.uol.com.br/mercado/2026/11/lula-diz-que-escolheu-trabuco-para-gerar-confianca-e-que-nao-vai-trabalhar-contra-o-povo-pobre.shtml",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O presidente Lula (PT) disse neste sábado (28) que escolheu Luiz Carlos Trabuco para assumir o Ministério da Fazenda para gerar confiança e afirmou que o banqueiro não irá trabalhar contra a população mais pobre."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "\"Preciso de um [nome] 'top', alguém que possa me ajudar a gerar confiança no mundo\", disse Lula durante uma live ao lado do deputado federal André Janones (Rede)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "\"Vocês vão ter orgulho do trabalho do Trabuco, que já chamo de companheiro\", declarou Lula. \"Eu jamais traria alguém para trabalhar contra o povo pobre desse país\", afirmou ainda."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Presidente do conselho de administração do Bradesco , Trabuco aceitou o convite na quinta-feira (26) . Foi a primeira escolha anunciada para o quarto mandato do petista."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "A escolha pelo banqueiro aumenta a expectativa, entre agentes do mercado, de que Lula fará um ajuste fiscal no próximo governo, tema que é alvo de críticas de parte do PT e da esquerda."
+          }
+        ],
+        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2025/03/14/174198456567d49335d74b9_1741984565_3x2_rt.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-diz-que-escolheu-trabuco-para-gerar-confianca-e-que-nao-vai-trabalhar-contra-o-povo-p.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "a3f3bafb2ed2c5f7",
+      "titulo": "Super El Niño: fenômeno deve atingir pico em dezembro de 2026 e afetar chuvas no Brasil",
+      "categoria": "Cidades",
+      "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://tnonline.uol.com.br/noticias/parana/super-el-nino-fenomeno-deve-atingir-pico-em-dezembro-de-2026-e-afetar-chuvas-no-brasil-1177504",
+      "dataFonte": "2026-11-28T14:53:12.000Z",
+      "resumoFonte": "episódio de El Niño de 2026 está ganhando força e tem projeção de atingir o pico de intensidade em dezembro, com potencial para se tornar um dos eventos mais severos já acompanhados por centros inte...",
+      "imagem": "https://cdn.tnonline.com.br/img/Artigo-Destaque/1170000/1200x630/pesquisadores-apontam-que-o-cenario-atual-reune-ca-01177504-0-202611281253/ScaleProportionalFillBackground-1.jpg?fallback=https%3A%2F%2Fcdn.tnonline.com.br%2Fimg%2FArtigo-Destaque%2F1170000%2Fpesquisadores-apontam-que-o-cenario-atual-reune-ca-01177504-0-202611281253.webp%3Fxid%3D1876489&xid=1876489",
+      "descobertaEm": "2026-11-28T16:18:12.618Z"
+    },
+    {
+      "id": "518ae8907ff4ae42",
+      "titulo": "Análise: Por que a administração Trump está tão evasiva sobre Jensen Huang?",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/internacional/analise-por-que-a-administracao-trump-esta-tao-evasiva-sobre-jensen-huang/",
+      "dataFonte": "2026-11-28T15:00:00.000Z",
+      "resumoFonte": "Presidente americano fez pressão pelo retorno do empresário à Nvidia, porém seu gabinete tem feito ressalvas ao comentar sobre o caso",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/2026-11-16T151449Z_1_LYNXNPEMAF1GC_RTROPTP_4_NVIDIA-PROBE-CEO-TRUMP.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-28T16:18:12.618Z",
+      "reportagem": {
+        "titulo": "Análise: Por que a administração Trump está tão evasiva sobre Jensen Huang?",
+        "slug": "analise-por-que-a-administracao-trump-esta-tao-evasiva-sobre-jensen-huang",
+        "categoria": "Tecnologia",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/analise-por-que-a-administracao-trump-esta-tao-evasiva-sobre-jensen-huang.jpg",
+        "resumo": "Presidente americano fez pressão pelo retorno do empresário à Nvidia, porém seu gabinete tem feito ressalvas ao comentar sobre o caso",
+        "conteudo": "<p>Quando Jensen Huang foi, de forma surpreendente, reconduzido ao cargo de CEO da Nvidia na última segunda-feira (23), tanto o conselho de administração da empresa quanto o presidente dos Estados Unidos, Donald Trump, apresentaram o fato como resultado de garantias dadas pelo governo de que ele não representava um risco à segurança nacional e não enfrentava problemas jurídicos.</p><h2>Dados e contexto do setor</h2><p>No entanto, desde então, essas garantias têm se mostrado pouco sólidas.</p><p>Tudo isso reforça o enorme risco assumido tanto por Trump quanto pela Nvidia — uma situação que deve intensificar as preocupações de alguns legisladores do Partido Republicano que se mostram bastante céticos.</p><p>Em um comunicado divulgado na manhã de segunda-feira, o conselho de administração afirmou que, após conversas com autoridades do alto escalão do governo, sentiu-se “confiante de que a recondução do Sr.</p><h2>Impactos e informações adicionais</h2><p>Huang não representa qualquer risco à segurança nacional” — apesar de ele ter mantido um relacionamento com uma mulher que, segundo autoridades americanas, poderia estar trabalhando para a inteligência chinesa.</p><p>Pouco depois, Trump declarou nas redes sociais que o governo dos EUA “não tem motivos para acreditar que o retorno de Jensen à Nvidia represente qualquer risco à segurança nacional”.</p><p>Trump também afirmou que, a despeito de questionamentos sobre o envio de chips da Nvidia — cuja exportação é proibida — para a China, o procurador-geral Todd Blanche “confirmou que o governo dos EUA não possui provas de que [Huang] tenha se envolvido em qualquer conduta ilegal”.</p><p>Contudo, outras autoridades ainda não reafirmaram publicamente essas garantias. Além disso, Blanche adotou uma postura bastante evasiva em uma entrevista na noite de segunda-feira. Até mesmo Trump, em diversas ocasiões, ressaltou ressalvas bastante concretas.</p><p>Além das garantias que ofereceu na plataforma Truth Social na manhã de segunda-feira, Trump afirmou, em uma entrevista posterior à CNBC, que o Departamento de Justiça havia “exonerado” Huang.</p><p>“Eles fizeram um estudo. Realizaram uma investigação bastante minuciosa”, disse Trump. “E concluíram que ele, pessoalmente, foi exonerado. Não sei qual termo você prefere usar.”</p><p>“O que eu disse na semana passada é que estávamos analisando a situação”, afirmou Blanche no Departamento de Justiça, na terça-feira. “O FBI e as autoridades policiais analisam questões o tempo todo.</p><p>Isso não se torna, necessariamente, uma investigação criminal. Não resulta, necessariamente, em uma acusação formal. Trata-se, literalmente, apenas de uma análise de fatos.”</p><p>Ao ser pressionado sobre se Jensen Huang havia sido investigado, Blanche devolveu a pergunta aos repórteres : “O que significa dizer que Huang foi investigado? Investigado por quê?”</p><p>Ele acrescentou: “Não tenho motivos para vir a público e dizer qualquer coisa sobre a Nvidia que não seja que ela é uma boa cidadã corporativa”.</p><p>Na noite anterior, quando a apresentadora da Fox News, Laura Ingraham, perguntou se Huang havia sido inocentado de representar um risco à segurança nacional ou de estar envolvido em atividades ilegais, Blanche não deu uma resposta direta.</p><p>Em vez disso, ele mencionou uma reportagem do *Wall Street Journal* — à qual Ingraham havia feito referência anteriormente — e recusou-se a comentá-la.</p><p>Em seguida, falou sobre discussões extensas dentro do governo, sem, contudo, afirmar que tais conversas tivessem confirmado que Huang estava livre de suspeitas.</p><p>Isso está muito longe da alegação de Trump de que Huang teria sido “exonerado”.</p><p>Enquanto Blanche adotava uma postura evasiva, outros membros do governo simplesmente não se manifestaram para corroborar as garantias dadas por Trump.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/internacional/analise-por-que-a-administracao-trump-esta-tao-evasiva-sobre-jensen-huang/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/"
+          },
+          {
+            "nome": "MCTI",
+            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Quando Jensen Huang foi, de forma surpreendente, reconduzido ao cargo de CEO da Nvidia na última segunda-feira (23), tanto o conselho de administração da empresa quanto o presidente dos Estados Unidos, Donald Trump, apresentaram o fato como resultado de garantias dadas pelo governo de que ele não representava um risco à segurança nacional e não enfrentava problemas jurídicos."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "No entanto, desde então, essas garantias têm se mostrado pouco sólidas."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Tudo isso reforça o enorme risco assumido tanto por Trump quanto pela Nvidia — uma situação que deve intensificar as preocupações de alguns legisladores do Partido Republicano que se mostram bastante céticos."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Em um comunicado divulgado na manhã de segunda-feira, o conselho de administração afirmou que, após conversas com autoridades do alto escalão do governo, sentiu-se “confiante de que a recondução do Sr."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Pouco depois, Trump declarou nas redes sociais que o governo dos EUA “não tem motivos para acreditar que o retorno de Jensen à Nvidia represente qualquer risco à segurança nacional”."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/2026-11-16T151449Z_1_LYNXNPEMAF1GC_RTROPTP_4_NVIDIA-PROBE-CEO-TRUMP.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/analise-por-que-a-administracao-trump-esta-tao-evasiva-sobre-jensen-huang.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "bb531f2bb1cda847",
+      "titulo": "Da Gallery aos festivais: como a Holding Clube virou um negócio de R$ 430 milhões",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/business/holding-clube-gallery-eventos-marketing-experiencia/",
+      "dataFonte": "2026-11-28T16:00:00.000Z",
+      "resumoFonte": "Letreiro da Gallery, boate de São Paulo, inaugurada no final dos anos 1970 (Foto: Holding Clube / Arquivo) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/imagem-10.png?fit=591%2C426&quality=70&strip=all\" />Da boate Gallery a estandes no Rock in Rio, a Holding Clube faz cerca de 250 eventos por ano. Veja como o grupo de…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/imagem-10.png?fit=591%2C426&quality=70&strip=all",
+      "descobertaEm": "2026-11-28T16:18:12.618Z",
+      "reportagem": {
+        "titulo": "Da Gallery aos festivais: como a Holding Clube virou um negócio de R$ 430 milhões",
+        "slug": "da-gallery-aos-festivais-como-a-holding-clube-virou-um-negocio-de-r-430-milhoes",
+        "categoria": "Esporte",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/da-gallery-aos-festivais-como-a-holding-clube-virou-um-negocio-de-r-430-milhoes.jpg",
+        "resumo": "Da boate Gallery a estandes no Rock in Rio, a Holding Clube faz cerca de 250 eventos por ano. Veja como o grupo de R$ 430 milhões se prepara para os imprevistos Da Gallery aos festivais, a Holding Clube faz cerca de 250 eventos por ano. Veja como o grupo de R$ 430 milhões se prepara para os imprevistos.",
+        "conteudo": "<p>Para entrar na boate Gallery, era preciso comprar uma carteira de sócio, por US$ 2 mil. O preço selecionava quem encontraria quem dentro da boate criada por José Victor Oliva em São Paulo, em 1979.</p><h2>As informações principais do assunto</h2><p>Hoje, a Holding Clube leva marcas a festivais como Rock in Rio e Lollapalooza, onde o público vai em busca de outras atrações. O desafio passou, portanto, de controlar a porta a conquistar a atenção de quem já está lá.</p><p>Entre uma ponta e outra, a experiência de organizar a noite virou um grupo de sete empresas de marketing, que produz, entrega ou participa de cerca de 250 eventos por ano e faturamento de R$ 430 milhões em 2025.</p><p>À frente da operação está Priscila Pellegrini, sócia que assumiu o cargo de CEO em 2025, depois de quase duas décadas trabalhando com Oliva.</p><h2>Contexto e informações complementares</h2><p>Os dois contaram essa trajetória a Mariana Amaro, no podcast Do Zero ao Topo , do InfoMoney .</p><p>Enquanto o fundador resume sua contribuição na busca pela grande ideia, Priscila descreve a rotina de fazer a ideia funcionar: mapear problemas antes que apareçam e agir rapidamente quando escapam ao planejamento.</p><p>Todo dia você tem acesso antecipado a conteúdos do InfoMoney</p><p>Antes de empreender, Oliva começou medicina em Santos, desistiu e voltou para São Paulo.</p><p>Depois, passou por direito e encontrou na administração, na Fundação Getulio Vargas, uma formação que o interessava pela variedade de caminhos possíveis. Durante esse período, decidiu abrir uma boate.</p><p>A Gallery reunia música, comida e pessoas num ambiente cuidadosamente construído. O nome remetia a uma galeria de arte. A seleção começava no acesso e continuava na exigência de traje e no atendimento.</p><p>“O cartão para entrar custava US$ 2 mil. A gente vendeu mil no primeiro mês”, conta Oliva. A carteira dava direito à entrada; comida e bebidas eram cobradas à parte. Segundo ele, o investimento na casa se pagou em dois meses.</p><p>Num imóvel de 600 metros quadrados, a promessa era encontrar outros frequentadores que também valorizavam aquele círculo. Além disso, a programação ajudava a sustentá-la. “Frank Sinatra, Tony Bennett, Amália Rodrigues, gente do mundo inteiro cantava lá”, recorda.</p><p>Depois vieram outros endereços, como Resumo da Ópera, Banana Café e Mezzaluna. Ao longo de cerca de 20 anos na noite, Oliva acumulou experiência em escolher equipes, receber convidados e organizar ambientes.</p><p>Quando resolveu mudar de atividade, já tinha o começo do Banco de Eventos.</p><p>Nos eventos, a Holding Clube passou a vender a experiência de organizar ambientes e atender pessoas, agora a serviço dos objetivos de um cliente.</p><p>A mudança também alterou o controle sobre o ambiente. Na Gallery, Oliva podia definir a programação, o serviço e quem entraria num lugar que voltaria a abrir na noite seguinte.</p><p>Já numa ativação em festival, o espaço tem vida curta e precisa funcionar dentro de um evento maior, com atrações que disputam o tempo do visitante.</p><p>Para uma marca, isso significa oferecer um motivo para a pessoa parar, participar e querer se lembrar daquela experiência.</p><p>Além disso, se ela publica uma foto ou comenta com amigos, a ação alcança também quem não passou por ali. A repercussão pode ampliar o contato, mas o primeiro desafio continua presencial: fazer o público se interessar.</p><p>O grupo desenvolve estratégias para clientes como Porsche, Coca-Cola, Piracanjuba, Volkswagen, Bauducco, Sephora, Ambev e Vibra. Além de ativações, trabalha com convenções, viagens de incentivo, parcerias e projetos próprios.</p><p>Na entrevista, ela diz que evento é “feito para dar problema”. Por isso, o trabalho começa antes de o público chegar: “o que a gente mais faz é mapear os possíveis problemas para que eles não aconteçam”.</p><p>O planejamento reduz riscos, mas não elimina o imprevisto. “O que difere uma empresa de outra é a rapidez para sanar qualquer tipo de questão”, afirma. A resposta precisa preservar a experiência enquanto a operação continua acontecendo.</p><p>A Holding Clube tem entre 250 e 280 funcionários diretos e recorre também a terceirizados. Portanto, o padrão de atendimento depende de pessoas que não estão todas no mesmo escritório nem pertencem ao quadro fixo.</p><p>Por isso, treinamento e repetição das orientações fazem parte da tentativa de manter a entrega consistente.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/business/holding-clube-gallery-eventos-marketing-experiencia/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Para entrar na boate Gallery, era preciso comprar uma carteira de sócio, por US$ 2 mil. O preço selecionava quem encontraria quem dentro da boate criada por José Victor Oliva em São Paulo, em 1979. Hoje, a Holding Clube leva marcas a festivais como Rock in Rio e Lollapalooza, onde o público vai em busca de outras atrações."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Entre uma ponta e outra, a experiência de organizar a noite virou um grupo de sete empresas de marketing, que produz, entrega ou participa de cerca de 250 eventos por ano e faturamento de R$ 430 milhões em 2025. À frente da operação está Priscila Pellegrini, sócia que assumiu o cargo de CEO em 2025, depois de quase duas décadas trabalhando com Oliva."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Os dois contaram essa trajetória a Mariana Amaro, no podcast Do Zero ao Topo , do InfoMoney . Enquanto o fundador resume sua contribuição na busca pela grande ideia, Priscila descreve a rotina de fazer a ideia funcionar: mapear problemas antes que apareçam e agir rapidamente quando escapam ao planejamento."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Todo dia você tem acesso antecipado a conteúdos do InfoMoney"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Antes de empreender, Oliva começou medicina em Santos, desistiu e voltou para São Paulo. Depois, passou por direito e encontrou na administração, na Fundação Getulio Vargas, uma formação que o interessava pela variedade de caminhos possíveis. Durante esse período, decidiu abrir uma boate."
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/imagem-10.png?fit=591%2C426&quality=70&strip=all",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/da-gallery-aos-festivais-como-a-holding-clube-virou-um-negocio-de-r-430-milhoes.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "a347866f55076e8d",
+      "titulo": "Câmara do Rio dará medalha à deputada Índia Armelau, que incentivou a demissão de ‘petistas’",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "UOL Notícias",
+      "urlFonte": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/11/28/camara-do-rio-dara-medalha-a-deputada-india-armelau-que-incentivou-a-demissao-de-petistas.htm",
+      "dataFonte": "2026-11-28T15:06:00.000Z",
+      "resumoFonte": "A Câmara Municipal do Rio de Janeiro aprovou, na última quinta-feira, 26, a entrega da Medalha Chiquinha Gonzaga à deputada estadual Índia Armelau (PL-RJ), que incentivou a demissão de apoiadores do presidente Lula (PT) após as eleições deste ano. A parlamentar foi processada pelo Ministério Público do Trabalho do Estado (MPT-RJ) por assédio…",
+      "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lula_-_foto_oficial_2023.jpg/800px-Lula_-_foto_oficial_2023.jpg",
+      "descobertaEm": "2026-11-28T16:18:12.618Z"
+    },
     {
       "id": "79d113005d8b26fd",
       "titulo": "Lula contém turbulência do mercado com indicação de Trabuco e reduz pressão sobre formação de governo",
@@ -101,162 +590,6 @@
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
-    },
-    {
-      "id": "b76a6e0d9f2c6d17",
-      "titulo": "Vídeo: em meio a polêmicas amorosas, Belo desaba em choro durante show",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/celebridades/video-em-meio-a-polemicas-amorosas-belo-desaba-em-choro-durante-show",
-      "dataFonte": "2026-11-28T15:07:59.000Z",
-      "resumoFonte": "Belo não conteve as lágrimas após surpresa dos amigos no palco, em meio à repercussão de declarações das ex-companheiras",
-      "imagem": "https://i.metroimg.com/vYMR1Iq99M5hmOiqo0gkKeybuX1J1PnqucnAmf2emng/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/belo.jpg",
-      "descobertaEm": "2026-11-28T15:18:13.591Z"
-    },
-    {
-      "id": "6fdeae658c6aa5b2",
-      "titulo": "Jogadora brasileira vira moeda de troca improvável em disputa entre Rússia e EUA",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mundo/jogadora-brasileira-vira-moeda-de-troca-improvavel-em-disputa-entre-russia-e-eua/",
-      "dataFonte": "2026-11-28T15:13:25.000Z",
-      "resumoFonte": "Leticia Villar comemora após marcar um gol durante a partida feminina entre Brasil e Cabo Verde em 2019. (Foto: Quality Sport Images/Getty Images) Fotógrafo: Quality Sport Images/Getty Images \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/476839150.jpg?fit=1250%2C828&quality=70&strip=all\" />Moscou busca trocar Letícia…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/476839150.jpg",
-      "descobertaEm": "2026-11-28T15:18:13.591Z",
-      "reportagem": {
-        "titulo": "Jogadora brasileira vira moeda de troca improvável em disputa entre Rússia e EUA",
-        "slug": "jogadora-brasileira-vira-moeda-de-troca-improvavel-em-disputa-entre-russia-e-eua",
-        "categoria": "Esporte",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/jogadora-brasileira-vira-moeda-de-troca-improvavel-em-disputa-entre-russia-e-eua.jpg",
-        "resumo": "Moscou busca trocar Letícia “Lelê” Villar por Sergey Cherkasov, acusado pelos EUA de atuar como agente da inteligência russa",
-        "conteudo": "<p>(Bloomberg) – Uma estrela brasileira do futebol de areia tornou-se uma moeda de troca improvável em uma disputa sobre um suposto espião russo procurado tanto por Moscou quanto por Washington.</p><h2>As informações principais do assunto</h2><p>O governo russo está buscando uma troca de prisioneiros envolvendo Letícia “Lelê” Villar, jogadora brasileira presa desde julho de 2025 por levar haxixe para a Rússia, por Sergey Cherkasov, suposto espião que cumpre pena de cinco anos no Brasil por falsificação de documentos, segundo uma fonte que pediu para não ser identificada por se tratar de assunto privado.</p><p>Cherkasov foi preso no Brasil em 2022, depois que as autoridades holandesas lhe negaram a entrada quando ele tentava realizar um estágio no Tribunal Penal Internacional usando uma identidade brasileira falsa.</p><p>Em 2023, o governo dos EUA acusou Cherkasov, que anteriormente havia usado seu passaporte brasileiro para se mudar aos EUA e cursar pós-graduação na Universidade Johns Hopkins, de atuar como agente de um serviço de inteligência russo e, posteriormente, solicitou sua extradição.</p><h2>Contexto e informações complementares</h2><p>A polícia brasileira não encontrou provas de que Cherkasov, que usava o pseudônimo Victor Muller Ferreira, tenha espionado o governo, empresas ou instituições brasileiras.</p><p>O Brasil rejeitou um pedido dos EUA para extraditar Cherkasov depois que sua Suprema Corte aprovou sua transferência para a Rússia, condicionada à conclusão dos processos contra ele no Brasil.</p><p>Em julho, o governo ordenou separadamente sua expulsão assim que ele cumprisse sua pena no Brasil ou fosse libertado pela justiça.</p><p>Enquanto isso, Villar apelou diretamente ao presidente Luiz Inácio Lula da Silva para que a ajudasse a garantir sua libertação.</p><p>Em uma carta enviada a Lula neste mês, ela disse: “Não há palavras que possam expressar ou transmitir todo o sofrimento, o fardo e a dor que sinto estando neste lugar”.</p><p>Villar, que jogou pela seleção brasileira e conquistou vários títulos internacionais em nível de clubes, não é a primeira atleta de destaque cuja detenção na Rússia se envolveu em uma troca de prisioneiros.</p><p>A estrela do basquete americano Brittney Griner foi libertada em uma troca direta em 2022 pelo traficante de armas russo Viktor Bout.</p><p>Griner havia sido condenada a nove anos de prisão depois que agentes alfandegários encontraram cartuchos de vaporizador contendo óleo de cannabis em sua bagagem em um aeroporto de Moscou.</p><p>Lula tem cultivado uma relação pragmática e, por vezes, cordial com o presidente russo Vladimir Putin, o que potencialmente dá ao Brasil espaço para lidar com a disputa. Os dois líderes conversaram mais recentemente por telefone durante mais de uma hora em agosto.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mundo/jogadora-brasileira-vira-moeda-de-troca-improvavel-em-disputa-entre-russia-e-eua/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "(Bloomberg) – Uma estrela brasileira do futebol de areia tornou-se uma moeda de troca improvável em uma disputa sobre um suposto espião russo procurado tanto por Moscou quanto por Washington."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O governo russo está buscando uma troca de prisioneiros envolvendo Letícia “Lelê” Villar, jogadora brasileira presa desde julho de 2025 por levar haxixe para a Rússia, por Sergey Cherkasov, suposto espião que cumpre pena de cinco anos no Brasil por falsificação de documentos, segundo uma fonte que pediu para não ser identificada por se tratar de assunto privado."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Cherkasov foi preso no Brasil em 2022, depois que as autoridades holandesas lhe negaram a entrada quando ele tentava realizar um estágio no Tribunal Penal Internacional usando uma identidade brasileira falsa."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Em 2023, o governo dos EUA acusou Cherkasov, que anteriormente havia usado seu passaporte brasileiro para se mudar aos EUA e cursar pós-graduação na Universidade Johns Hopkins, de atuar como agente de um serviço de inteligência russo e, posteriormente, solicitou sua extradição."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A polícia brasileira não encontrou provas de que Cherkasov, que usava o pseudônimo Victor Muller Ferreira, tenha espionado o governo, empresas ou instituições brasileiras."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/476839150.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/jogadora-brasileira-vira-moeda-de-troca-improvavel-em-disputa-entre-russia-e-eua.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "ce327f9863831e85",
-      "titulo": "Sob sigilo, ação penal da Lava-Jato volta ao STF",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/brasil/sob-sigilo-acao-penal-da-lava-jato-volta-ao-stf/",
-      "dataFonte": "2026-11-28T15:01:44.000Z",
-      "resumoFonte": "Processo contra Romero Jucá e Sérgio Machado voltou à Corte após anos na primeira instância",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/55518667279_9d624ca727_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-28T15:18:13.591Z"
-    },
-    {
-      "id": "e39dc75922c2dd86",
-      "titulo": "Projeto reduz de 20 para 15 anos prazo de patentes de medicamentos",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/projeto-reduz-de-20-para-15-anos-prazo-de-patentes-de-medicamentos/",
-      "dataFonte": "2026-11-28T13:47:00.000Z",
-      "resumoFonte": "A Câmara dos Deputados analisa um projeto de lei que pretende reduzir em cinco anos o prazo de proteção das patentes farmacêuticas no Brasil. De autoria do deputado Clodoaldo Magalhães (PV-PE), a proposta estabelece um período de vigência de 15 anos, ante os 20 previstos na legislação atual. Apresentado em 14 de julho, o Projeto de Lei (PL)…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/Medicamentos-910x568.jpg.webp",
-      "descobertaEm": "2026-11-28T14:18:13.118Z",
-      "reportagem": {
-        "titulo": "Projeto reduz de 20 para 15 anos prazo de patentes de medicamentos",
-        "slug": "projeto-reduz-de-20-para-15-anos-prazo-de-patentes-de-medicamentos",
-        "categoria": "Política Nacional",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/projeto-reduz-de-20-para-15-anos-prazo-de-patentes-de-medicamentos.jpg",
-        "resumo": "Proposta em análise na Câmara busca antecipar a entrada de genéricos no mercado",
-        "conteudo": "<p>A Câmara dos Deputados analisa um projeto de lei que pretende reduzir em cinco anos o prazo de proteção das patentes farmacêuticas no Brasil.</p><h2>O contexto do cenário político</h2><p>De autoria do deputado Clodoaldo Magalhães (PV-PE), a proposta estabelece um período de vigência de 15 anos, ante os 20 previstos na legislação atual.</p><p>Apresentado em 14 de julho, o Projeto de Lei (PL) 3.676/2026 altera a Lei de Propriedade Industrial e abrange quatro categorias de invenções:</p><p>O prazo continuará a ser contado a partir da data de depósito do pedido de patente no Instituto Nacional da Propriedade Industrial (Inpi), e não da concessão do direito de exploração exclusiva.</p><h2>Informações e repercussões do episódio</h2><p>A mudança não terá efeito retroativo. Caso o Congresso aprove a proposta, os pedidos apresentados antes da entrada em vigor da nova legislação permanecerão sujeitos às regras anteriores.</p><p>A redução do período de proteção patentária enfrenta um obstáculo jurídico: o Acordo sobre Aspectos dos Direitos de Propriedade Intelectual Relacionados ao Comércio (Trips, na sigla em inglês), administrado pela Organização Mundial do Comércio (OMC).</p><p>O Brasil incorporou o tratado à legislação nacional por meio do Decreto 1.355, de 30 de dezembro de 1994. O artigo 33 do acordo estabelece expressamente que a vigência das patentes não poderá ser inferior a 20 anos, contados da apresentação do pedido.</p><p>O artigo 27 também determina que os direitos patentários devem ser assegurados sem discriminação entre diferentes setores tecnológicos, ressalvadas as exceções previstas no próprio tratado.</p><p>Embora o acordo permita a adoção de mecanismos específicos de proteção à saúde pública, como o licenciamento compulsório, não autoriza uma redução generalizada do prazo de vigência das patentes farmacêuticas para 15 anos.</p><p>Magalhães disse que a diminuição do período de exclusividade comercial poderá ampliar a concorrência entre os fabricantes de medicamentos e reduzir as despesas do Sistema Único de Saúde (SUS).</p><p>“O setor farmacêutico possui impacto direto sobre a sustentabilidade do Sistema Único de Saúde, sobre os gastos públicos com assistência farmacêutica e sobre o acesso da população a tratamentos essenciais”, ressaltou o parlamentar, na justificativa da proposta.</p><p>O deputado argumentou que períodos prolongados de proteção patentária dificultam a chegada de alternativas mais baratas às farmácias e à rede pública de saúde.</p><p>A expiração de uma patente, entretanto, não garante a disponibilidade imediata de medicamentos genéricos.</p><p>Os fabricantes interessados precisam cumprir as exigências sanitárias da Agência Nacional de Vigilância Sanitária (Anvisa) e verificar a existência de outras patentes relacionadas ao produto.</p><p>A duração da proteção patentária foi tema de uma audiência pública na Comissão de Defesa do Consumidor da Câmara, em 14 de julho.</p><p>Na ocasião, a coordenadora-geral de Promoção e Regulação do Complexo Industrial do Ministério da Saúde, Constance Chabin, informou que o primeiro semestre de 2026 registrou 41 pedidos judiciais de extensão de patentes.</p><p>Grande parte das ações tinha como fundamento supostos atrasos do Inpi na análise dos requerimentos.</p><p>Um estudo do Ministério da Saúde estimou que a prorrogação judicial dessas patentes poderia representar despesas adicionais de R$ 7,1 bilhões a R$ 16,2 bilhões para o SUS. Apenas cinco medicamentos concentravam 70% do impacto financeiro estimado.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/projeto-reduz-de-20-para-15-anos-prazo-de-patentes-de-medicamentos/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A Câmara dos Deputados analisa um projeto de lei que pretende reduzir em cinco anos o prazo de proteção das patentes farmacêuticas no Brasil. De autoria do deputado Clodoaldo Magalhães (PV-PE), a proposta estabelece um período de vigência de 15 anos, ante os 20 previstos na legislação atual."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Apresentado em 14 de julho, o Projeto de Lei (PL) 3.676/2026 altera a Lei de Propriedade Industrial e abrange quatro categorias de invenções:"
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O prazo continuará a ser contado a partir da data de depósito do pedido de patente no Instituto Nacional da Propriedade Industrial (Inpi), e não da concessão do direito de exploração exclusiva."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A mudança não terá efeito retroativo. Caso o Congresso aprove a proposta, os pedidos apresentados antes da entrada em vigor da nova legislação permanecerão sujeitos às regras anteriores."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A redução do período de proteção patentária enfrenta um obstáculo jurídico: o Acordo sobre Aspectos dos Direitos de Propriedade Intelectual Relacionados ao Comércio (Trips, na sigla em inglês), administrado pela Organização Mundial do Comércio (OMC)."
-          }
-        ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/Medicamentos-910x568.jpg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/projeto-reduz-de-20-para-15-anos-prazo-de-patentes-de-medicamentos.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "cecd7e6f54132270",
-      "titulo": "Dois estrangeiros são levados à delegacia após furto de celular de estudante",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/es/policia/dois-estrangeiros-sao-levados-a-delegacia-apos-furto-de-celular-de-estudante-1126",
-      "dataFonte": "2026-11-28T13:54:52.000Z",
-      "resumoFonte": "Uruguaio e equatoriana foram localizados em ônibus após guarda municipal rastrear celular furtado de estudante; três aparelhos foram recuperados",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1794946189107_midias_jpg_2017_12_11_onibus_roleta_5417019.jpg",
-      "descobertaEm": "2026-11-28T14:18:13.118Z"
     },
     {
       "id": "bf04564d0b44fd3a",
@@ -331,124 +664,16 @@
       }
     },
     {
-      "id": "e5d1ad90549c181e",
-      "titulo": "Novas tarifas dos EUA ao Brasil terão efeito quase zero, diz especialista",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/novas-tarifas-dos-eua-ao-brasil-terao-efeito-quase-zero-diz-especialista/",
-      "dataFonte": "2026-11-28T14:20:09.000Z",
-      "resumoFonte": "Benjamin Mandel, da Jubarte Capital, avalia que medidas tarifárias americanas contra o Brasil têm impacto econômico agregado próximo de zero",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2025binary_LYNXNPEL4S0DR-BASEIMAGE.jpg?w=800&h=533&crop=1",
-      "descobertaEm": "2026-11-28T15:18:13.591Z",
-      "reportagem": {
-        "titulo": "Novas tarifas dos EUA ao Brasil terão efeito quase zero, diz especialista",
-        "slug": "novas-tarifas-dos-eua-ao-brasil-terao-efeito-quase-zero-diz-especialista",
-        "categoria": "Economia",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/novas-tarifas-dos-eua-ao-brasil-terao-efeito-quase-zero-diz-especialista.jpg",
-        "resumo": "Benjamin Mandel, da Jubarte Capital, avalia que medidas tarifárias americanas contra o Brasil têm impacto econômico agregado próximo de zero",
-        "conteudo": "<p>Os Estados Unidos anunciaram novas tarifas sobre produtos brasileiros, incluindo uma alíquota de 10% sobre aeronaves prontas, sob a alegação de que o Brasil não corrigiu o que Washington classifica de &quot;atos, políticas e práticas irracionais&quot;.</p><h2>Dados e contexto do setor</h2><p>A medida gerou forte reação nos mercados, com quedas expressivas nas ações da Embraer .</p><p>Benjamin Mandel, da Jubarte Capital, avaliou que as novas tarifas terão efeito econômico agregado &quot;perto de zero&quot;.</p><p>Segundo ele, o cenário atual da guerra comercial já entrou em uma fase em que as medidas adotadas na margem não representam impacto significativo para a economia.</p><h2>Impactos e informações adicionais</h2><p>Mandel explicou que a guerra comercial atingiu seu pico em 2025, após o chamado &quot;Liberation Day&quot;, e começou a recuar no segundo semestre daquele ano.</p><p>A Suprema Corte derrubou as tarifas emergenciais, que foram substituídas por uma camada de tarifas de 10% baseada em raciocínio de emergência de balanço de pagamentos.</p><p>Essa nova camada, por sua vez, venceu em julho. &quot;Na margem, a tendência é para a tarifa agregada mais baixa, não mais para cima&quot;, afirmou Mandel.</p><p>O especialista destacou ainda que, ao mesmo tempo em que novas tarifas são implementadas por meio de investigações baseadas nas chamadas Seções 301 e 232 da legislação americana, importadores dos Estados Unidos estão recebendo reembolsos referentes às tarifas emergenciais consideradas ilegais de 2025 e início de 2026.</p><p>&quot;Tarifa mais alta, reembolso, e no final das contas, o nível agregado de tarifa não vai subir muito no curto prazo&quot;, resumiu.</p><p>Mandel apontou que as novas tarifas enfrentam intensa pressão jurídica nos Estados Unidos.</p><p>Segundo ele, uma corte americana de instância inferior já considerou ilegal um tipo semelhante de tarifa, e há dúvidas sobre se as justificativas utilizadas para as tarifas atuais — incluindo referências ao Pix — sobreviverão aos desafios nas cortes americanas.</p><p>&quot;Não sei se eles vão sobreviver o processo, os desafios nas cortes americanas&quot;, disse.</p><p>Diante dessa incerteza, Mandel avaliou que empresas americanas dificilmente alterarão seus comportamentos de forma significativa em relação a essas tarifas, especialmente no planejamento para 2027 e 2028.</p><p>Ele acrescentou que o setor de transporte tem sido um dos que mais contribuem para a pressão inflacionária nos Estados Unidos, o que, em sua visão, pode gerar incentivos adicionais para que exceções sejam abertas no futuro em relação a esse tipo de tarifa.</p><p>Questionado sobre a reação do governo brasileiro , que não descartou medidas de reciprocidade e acusou os Estados Unidos de usar as tarifas como pressão sobre o Pix, Mandel classificou o movimento como parte de uma negociação mais ampla.</p><p>Ele observou que, no mesmo dia, os Estados Unidos anunciaram tarifas da Seção 301 contra outros 12 países.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/novas-tarifas-dos-eua-ao-brasil-terao-efeito-quase-zero-diz-especialista/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Os Estados Unidos anunciaram novas tarifas sobre produtos brasileiros, incluindo uma alíquota de 10% sobre aeronaves prontas, sob a alegação de que o Brasil não corrigiu o que Washington classifica de \"atos, políticas e práticas irracionais\"."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A medida gerou forte reação nos mercados, com quedas expressivas nas ações da Embraer ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Benjamin Mandel, da Jubarte Capital, avaliou que as novas tarifas terão efeito econômico agregado \"perto de zero\"."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Segundo ele, o cenário atual da guerra comercial já entrou em uma fase em que as medidas adotadas na margem não representam impacto significativo para a economia."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Mandel explicou que a guerra comercial atingiu seu pico em 2025, após o chamado \"Liberation Day\", e começou a recuar no segundo semestre daquele ano."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2025binary_LYNXNPEL4S0DR-BASEIMAGE.jpg?w=800&h=533&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/novas-tarifas-dos-eua-ao-brasil-terao-efeito-quase-zero-diz-especialista.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "d281c4a7d4e9b6c5",
-      "titulo": "Educação antirracista com quiabo e dendê",
+      "id": "b76a6e0d9f2c6d17",
+      "titulo": "Vídeo: em meio a polêmicas amorosas, Belo desaba em choro durante show",
       "categoria": "Cultura",
       "radar": null,
       "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/blog-do-noblat/educacao-antirracista-com-quiabo-e-dende",
-      "dataFonte": "2026-11-28T15:05:31.000Z",
-      "resumoFonte": "Projetos interdisciplinares transformam a cozinha em espaço de aprendizagem e valorização da cultura africana",
-      "imagem": "https://i.metroimg.com/55r8fkJI0Gc7C-GXLRaoFCbz30eqiiIvwteji2WlbEU/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/moqueca-baiana-moqueca-de-peixe-camarao-arroz-jasmim-e-farofa-de-dende-3-scaled.jpg",
-      "descobertaEm": "2026-11-28T15:18:13.591Z",
-      "reportagem": {
-        "titulo": "Educação antirracista com quiabo e dendê",
-        "slug": "educacao-antirracista-com-quiabo-e-dende",
-        "categoria": "Cultura",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/educacao-antirracista-com-quiabo-e-dende.jpg",
-        "resumo": "Projetos interdisciplinares transformam a cozinha em espaço de aprendizagem e valorização da cultura africana",
-        "conteudo": "<p>Se não faltam obstáculos para a aplicação da Lei nº 10.639/2003, que tornou obrigatório o ensino de história e cultura afro-brasileira e africana nas escolas, sobram exemplos da inventividade dos professores nessas aulas.</p><h2>As informações principais do assunto</h2><p>Em uma escola da rede estadual em Bacabal, no Maranhão, a professora Landajara Galvão encontrou na gastronomia de matriz africana uma maneira de aproximar os estudantes da herança cultural negra.</p><p>A cozinha também é um espaço de aprendizado sobre história, ciência e letramento racial.</p><p>Formada em Matemática e com 18 anos de atuação na rede pública, Landajara decidiu unir sua formação em Gastronomia ao trabalho desenvolvido durante a Semana da Consciência Negra.</p><h2>Como interpretar os resultados</h2><p>O projeto, que dura cerca de dois meses, envolve os estudantes na pesquisa sobre a origem africana de ingredientes utilizados no cotidiano.</p><p>Divididos em equipes, eles investigam receitas, organizam compras e preparam pratos.</p><p>Foram muitas as descobertas dos estudantes. A professora destaca o uso do azeite de dendê para outros pratos além da moqueca, como no frango com quiabo, acompanhado do angu de fubá, que é pouco comum na região.</p><p>E também os pratos angolanos como o arroz jollof, cozido em um molho temperado de tomate, pimentão, cebola e especiarias, e o mungunzá, que leva feijão cozido com milho, abóbora, vegetais e peixe ou carne</p><p>A atividade também mobiliza diferentes áreas do conhecimento. A Matemática aparece nos cálculos de proporções, quantidades e custos das receitas.</p><p>Os estudantes aprendem o reaproveitamento integral dos alimentos, enquanto História e Geografia ajudam a reconhecer as origens e influências africanas na culinária brasileira.</p><p>A experiência dialoga com o estudo acadêmico Gastronomia afro-brasileira como ferramenta lúdica na extensão e ensino para a educação básica , de Ane Cristine Rosa Pinto e outros pesquisadores do Instituto de Química da Universidade Federal de Uberlândia (UFU).</p><p>Em 2023, o grupo realizou uma oficina com crianças do terceiro ano do ensino fundamental, utilizando a culinária para ensinar conceitos científicos e valorizar a cultura africana.</p><p>A oficina, intitulada “De África ao Brasil: uma experiência de sabores na cozinha”, foi realizada durante a Semana Preta em uma escola pública de Uberlândia (MG).</p><p>Além de preparar os alimentos, os pesquisadores utilizaram mapas para apresentar a origem dos ingredientes e suas trajetórias históricas.</p><p>Os estudantes conheceram, por exemplo, a origem do quiabo na região da Etiópia e do Egito Antigo e do dendezeiro na África Ocidental.</p><p>A proposta também abordou as diferenças entre o cuscuz tradicional do Magreb, preparado com sêmola de trigo, e as versões encontradas no Brasil.</p><p>Eles aprenderam sobre fenômenos como a volatilização dos aromas, a hidratação dos alimentos e a caramelização do açúcar.</p><p>Uma estratégia chamou a atenção: sem conhecer previamente os ingredientes, as crianças experimentaram a receita e superaram resistências a vegetais como quiabo, pimentão e abobrinha.</p><p>Os resultados apontaram que a experiência prática favoreceu tanto a aprendizagem científica quanto a desconstrução de preconceitos.</p><p>Para os autores, a gastronomia permite aproximar o conhecimento científico da realidade dos estudantes e, ao mesmo tempo, reconhecer a contribuição africana para a formação cultural brasileira.</p><p>O estudo destaca ainda a importância da aproximação entre universidades públicas e escolas de educação básica para desenvolver materiais didáticos e metodologias voltadas à educação antirracista.</p><p>As duas iniciativas têm em comum a interdisciplinaridade, a aprendizagem pela experimentação e o reconhecimento dos saberes africanos para além dos estereótipos. Também mostram que a educação antirracista pode partir de elementos presentes no cotidiano dos estudantes.</p><p>Landajara conta que na escola maranhense a discussão também envolve autoestima, identidade negra, valorização do cabelo natural e enfrentamento de situações de preconceito.</p><p>Ela ressalta que o trabalho não deveria ficar restrito a novembro, mês da Consciência Negra. Afinal, para combater o racismo pela educação não deveria existir hora marcada.</p>",
-        "fonteNome": "Metrópoles - Feed",
-        "fonteUrl": "https://www.metropoles.com/blog-do-noblat/educacao-antirracista-com-quiabo-e-dende",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Se não faltam obstáculos para a aplicação da Lei nº 10.639/2003, que tornou obrigatório o ensino de história e cultura afro-brasileira e africana nas escolas, sobram exemplos da inventividade dos professores nessas aulas."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Formada em Matemática e com 18 anos de atuação na rede pública, Landajara decidiu unir sua formação em Gastronomia ao trabalho desenvolvido durante a Semana da Consciência Negra. O projeto, que dura cerca de dois meses, envolve os estudantes na pesquisa sobre a origem africana de ingredientes utilizados no cotidiano."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Foram muitas as descobertas dos estudantes. A professora destaca o uso do azeite de dendê para outros pratos além da moqueca, como no frango com quiabo, acompanhado do angu de fubá, que é pouco comum na região."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A atividade também mobiliza diferentes áreas do conhecimento. A Matemática aparece nos cálculos de proporções, quantidades e custos das receitas. Os estudantes aprendem o reaproveitamento integral dos alimentos, enquanto História e Geografia ajudam a reconhecer as origens e influências africanas na culinária brasileira."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A experiência dialoga com o estudo acadêmico Gastronomia afro-brasileira como ferramenta lúdica na extensão e ensino para a educação básica , de Ane Cristine Rosa Pinto e outros pesquisadores do Instituto de Química da Universidade Federal de Uberlândia (UFU)."
-          }
-        ],
-        "imagemOriginal": "https://i.metroimg.com/55r8fkJI0Gc7C-GXLRaoFCbz30eqiiIvwteji2WlbEU/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/moqueca-baiana-moqueca-de-peixe-camarao-arroz-jasmim-e-farofa-de-dende-3-scaled.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/educacao-antirracista-com-quiabo-e-dende.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "urlFonte": "https://www.metropoles.com/celebridades/video-em-meio-a-polemicas-amorosas-belo-desaba-em-choro-durante-show",
+      "dataFonte": "2026-11-28T15:07:59.000Z",
+      "resumoFonte": "Belo não conteve as lágrimas após surpresa dos amigos no palco, em meio à repercussão de declarações das ex-companheiras",
+      "imagem": "https://i.metroimg.com/vYMR1Iq99M5hmOiqo0gkKeybuX1J1PnqucnAmf2emng/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/belo.jpg",
+      "descobertaEm": "2026-11-28T15:18:13.591Z"
     },
     {
       "id": "b9d2450a7bddeea8",
@@ -463,66 +688,6 @@
       "descobertaEm": "2026-11-28T15:18:13.591Z"
     },
     {
-      "id": "102f322842a3e55c",
-      "titulo": "Lula se desculpa por fala sobre FHC estar “morto-vivo”: “Cometi uma gafe”",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/cultura/lula-se-desculpa-por-fala-sobre-fhc-estar-morto-vivo-cometi-uma-gafe/",
-      "dataFonte": "2026-11-28T14:33:48.000Z",
-      "resumoFonte": "Presidente lamentou declaração; Fundação FHC havia rebatido comentário a respeito de Fernando Henrique Cardoso",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2017/07/lula-fhc-morte-marisa-2017-562.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-28T15:18:13.591Z",
-      "reportagem": {
-        "titulo": "Lula se desculpa por fala sobre FHC estar “morto-vivo”: “Cometi uma gafe”",
-        "slug": "lula-se-desculpa-por-fala-sobre-fhc-estar-morto-vivo-cometi-uma-gafe",
-        "categoria": "Cultura",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-se-desculpa-por-fala-sobre-fhc-estar-morto-vivo-cometi-uma-gafe.jpg",
-        "resumo": "Presidente lamentou declaração; Fundação FHC havia rebatido comentário a respeito de Fernando Henrique Cardoso",
-        "conteudo": "<p>O presidente Luiz Inácio Lula da Silva (PT) se desculpou por sua fala a respeito do ex-presidente Fernando Henrique Cardoso, o FHC, na sexta-feira, 27, quando havia dito que o político estava “morto-vivo” devido a seu estado de saúde delicado.</p><h2>As informações principais do assunto</h2><p>O petista abriu sua live na manhã deste sábado, 28, com o mea-culpa. “Cometi uma gafe. Foi uma falha minha, quero pedir desculpas ao Paulo Henrique [filho de FHC] e a todos os seus familiares”, disse Lula.</p><p>André Janones , que conduz as lives do presidente, aproveitou a oportunidade para lamentar que a participação de Lula no evento voltado a idosos por mais de dez horas foi resumida no corte da fala.</p><p>A Fundação Fernando Henrique Cardoso divulgou uma nota de repúdio à declaração do presidente Luiz Inácio Lula da Silva (PT) sobre o estado de saúde do ex-presidente.</p><h2>Contexto e informações complementares</h2><p>Na sexta-feira, 27, durante um evento em Niterói, no Rio de Janeiro, Lula afirmou que FHC, de 95 anos, enfrenta um quadro avançado de demência e o classificou como “morto-vivo”.</p><p>A instituição contestou também a informação de que o petista teria visitado o antigo adversário político recentemente.</p><p>Em seu posicionamento, a Fundação afirmou lamentar as palavras de Lula e ressaltou que o último encontro entre os dois ocorreu durante a comemoração dos 30 anos do Plano Real, em 2024.</p><p>“As palavras do atual presidente não correspondem aos fatos”, declarou a entidade, ao corrigir a referência feita pelo presidente a uma suposta visita realizada “um dia desses”.</p><p>A fala de Lula aconteceu durante uma visita ao Programa de Atenção ao Idoso do Hospital Universitário Gaffrée e Guinle.</p><p>Ao abordar a importância de envelhecer com saúde, o presidente relatou que Fernando Henrique já não conseguiria reconhecer os próprios filhos.</p><p>Em seguida, usou a expressão “morto-vivo” para descrever a condição do ex-presidente, em uma avaliação pessoal sobre a perda de autonomia na velhice.</p><p>A declaração ocorreu em meio a uma discussão sobre políticas públicas para a terceira idade.</p><p>Lula afirmou que pretende estudar medidas para ampliar a qualidade de vida dos idosos e mencionou a possibilidade de criar o Ministério do Idoso.</p><p>Segundo o presidente, um grupo de trabalho formado por especialistas deverá avaliar a proposta e indicar quais iniciativas podem ser adotadas pelo governo.</p><p>Lula também disse que pretende desenvolver ações voltadas à preservação da autonomia e à participação social das pessoas mais velhas.</p><p>Aos 81 anos, afirmou não se considerar velho e defendeu que o envelhecimento seja acompanhado de condições para que os idosos continuem realizando atividades cotidianas e mantendo vínculos sociais.</p><p>A repercussão da declaração sobre FHC, porém, deslocou o foco da agenda para o embate entre a manifestação do presidente e a contestação feita pela fundação do ex-presidente.</p>",
-        "fonteNome": "Veja",
-        "fonteUrl": "https://veja.abril.com.br/cultura/lula-se-desculpa-por-fala-sobre-fhc-estar-morto-vivo-cometi-uma-gafe/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O presidente Luiz Inácio Lula da Silva (PT) se desculpou por sua fala a respeito do ex-presidente Fernando Henrique Cardoso, o FHC, na sexta-feira, 27, quando havia dito que o político estava “morto-vivo” devido a seu estado de saúde delicado. O petista abriu sua live na manhã deste sábado, 28, com o mea-culpa. “Cometi uma gafe."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "André Janones , que conduz as lives do presidente, aproveitou a oportunidade para lamentar que a participação de Lula no evento voltado a idosos por mais de dez horas foi resumida no corte da fala."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A Fundação Fernando Henrique Cardoso divulgou uma nota de repúdio à declaração do presidente Luiz Inácio Lula da Silva (PT) sobre o estado de saúde do ex-presidente. Na sexta-feira, 27, durante um evento em Niterói, no Rio de Janeiro, Lula afirmou que FHC, de 95 anos, enfrenta um quadro avançado de demência e o classificou como “morto-vivo”."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Em seu posicionamento, a Fundação afirmou lamentar as palavras de Lula e ressaltou que o último encontro entre os dois ocorreu durante a comemoração dos 30 anos do Plano Real, em 2024."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A fala de Lula aconteceu durante uma visita ao Programa de Atenção ao Idoso do Hospital Universitário Gaffrée e Guinle. Ao abordar a importância de envelhecer com saúde, o presidente relatou que Fernando Henrique já não conseguiria reconhecer os próprios filhos."
-          }
-        ],
-        "imagemOriginal": "https://veja.abril.com.br/wp-content/uploads/2017/07/lula-fhc-morte-marisa-2017-562.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-se-desculpa-por-fala-sobre-fhc-estar-morto-vivo-cometi-uma-gafe.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
       "id": "ca4834ac6eb59c1a",
       "titulo": "Saiba quem é Lelê Villar, atleta brasileira detida na Rússia",
       "categoria": "Esporte",
@@ -532,55 +697,7 @@
       "dataFonte": "2026-11-28T15:11:32.000Z",
       "resumoFonte": "A atleta foi a 1ª camisa 10 da seleção brasileira de futebol de areia e está presa em Yavas, na região de Mordóvia. Leia no Poder360.",
       "imagem": "https://static.poder360.com.br/uploads/2026/11/Lele-Villar-1080-1200x675.png",
-      "descobertaEm": "2026-11-28T15:18:13.591Z",
-      "reportagem": {
-        "titulo": "Saiba quem é Lelê Villar, atleta brasileira detida na Rússia",
-        "slug": "saiba-quem-e-lele-villar-atleta-brasileira-detida-na-russia",
-        "categoria": "Esporte",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/saiba-quem-e-lele-villar-atleta-brasileira-detida-na-russia.jpg",
-        "resumo": "A atleta foi a 1ª camisa 10 da seleção brasileira de futebol de areia e está presa em Yavas, na região de Mordóvia.",
-        "conteudo": "<p>A atleta foi a 1ª camisa 10 da seleção brasileira de futebol de areia e está presa em Yavas, na região de Mordóvia</p><h2>As informações principais do assunto</h2><p>A atleta brasileira Letícia Villar Pais, conhecida como Lelê Villar, está presa na Rússia há 1 ano e 4 meses. Ela foi detida em 23 de julho de 2025, ao entrar no país com 6g de haxixe para consumo próprio.</p><p>Natural de Minas Gerais, Lelê foi a 1ª camisa 10 da seleção brasileira de futebol de areia. Participou da conquista do 1º título da equipe na modalidade e foi a 1ª brasileira indicada ao prêmio de melhor jogadora do mundo no futebol de areia, em 2017.</p><p>Em carta enviada ao presidente Luiz Inácio Lula da Silva (PT), a atleta detalhou sua trajetória profissional. Disse que conquistou o campeonato mundial de clubes e a Copa Intercontinental com a seleção brasileira.</p><h2>Contexto e informações complementares</h2><p>Também destacou seu envolvimento com causas sociais e trabalhos voluntários, atividades que disse amar e nas quais está sempre engajada.</p><p>Lelê defendeu clubes brasileiros, como Flamengo, Rio Branco e São Pedro. Também atuou em países como Itália, Portugal, Espanha, Letônia, Lituânia, El Salvador, Qatar, Dubai, Rússia e Hungria.</p><p>Fora dos gramados, é formada em Administração e cursa Educação Física. Trabalhou por 7 anos como professora, principalmente de crianças, e atua como personal trainer. Na carta, a brasileira</p><p>Lelê está presa desde 23 de julho de 2025, quando entrou na Rússia com 6g de haxixe para consumo próprio. Em janeiro de 2026, a Justiça russa condenou a brasileira a 5 anos e 2 meses de prisão por contrabando e posse de drogas.</p><p>Em agosto, as autoridades russas transferiram a atleta para a IK-2, colônia penal feminina de segurança máxima em Yavas, na região de Mordóvia, a cerca de 500 km a leste de Moscou.</p><p>Na carta enviada a Lula, Lelê relata violações de direitos humanos na unidade, além de jornadas de trabalho exaustivas e episódios de violência física e psicológica.</p>",
-        "fonteNome": "Poder360",
-        "fonteUrl": "https://www.poder360.com.br/poder-internacional/saiba-quem-e-lele-villar-atleta-brasileira-detida-na-russia/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A atleta foi a 1ª camisa 10 da seleção brasileira de futebol de areia e está presa em Yavas, na região de Mordóvia"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A atleta brasileira Letícia Villar Pais, conhecida como Lelê Villar, está presa na Rússia há 1 ano e 4 meses. Ela foi detida em 23 de julho de 2025, ao entrar no país com 6g de haxixe para consumo próprio."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Natural de Minas Gerais, Lelê foi a 1ª camisa 10 da seleção brasileira de futebol de areia. Participou da conquista do 1º título da equipe na modalidade e foi a 1ª brasileira indicada ao prêmio de melhor jogadora do mundo no futebol de areia, em 2017."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Em carta enviada ao presidente Luiz Inácio Lula da Silva (PT), a atleta detalhou sua trajetória profissional. Disse que conquistou o campeonato mundial de clubes e a Copa Intercontinental com a seleção brasileira. Também destacou seu envolvimento com causas sociais e trabalhos voluntários, atividades que disse amar e nas quais está sempre engajada."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Lelê defendeu clubes brasileiros, como Flamengo, Rio Branco e São Pedro. Também atuou em países como Itália, Portugal, Espanha, Letônia, Lituânia, El Salvador, Qatar, Dubai, Rússia e Hungria."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/Lele-Villar-1080-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/saiba-quem-e-lele-villar-atleta-brasileira-detida-na-russia.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "descobertaEm": "2026-11-28T15:18:13.591Z"
     },
     {
       "id": "e984abafa6eb2a68",
@@ -643,270 +760,6 @@
       }
     },
     {
-      "id": "bdb95c607fd6bf15",
-      "titulo": "10 anos da tragédia da Chapecoense: veja como estão os sobreviventes",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/chapecoense/10-anos-da-tragedia-da-chapecoense-veja-como-estao-os-sobreviventes/",
-      "dataFonte": "2026-11-28T14:13:34.000Z",
-      "resumoFonte": "Uma década após o acidente que matou 71 pessoas, três jogadores, dois tripulantes e um jornalista sobreviveram e seguiram caminhos diferentes",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/09/Peritos-trabalham-nas-investigacoes-do-acidente-com-o-aviao-que-levava-o-time-da-Chapecoense-para-a-Colombia.jpg?w=950&h=630&crop=1",
-      "descobertaEm": "2026-11-28T15:18:13.591Z",
-      "reportagem": {
-        "titulo": "10 anos da tragédia da Chapecoense: veja como estão os sobreviventes",
-        "slug": "10-anos-da-tragedia-da-chapecoense-veja-como-estao-os-sobreviventes",
-        "categoria": "Esporte",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/10-anos-da-tragedia-da-chapecoense-veja-como-estao-os-sobreviventes.jpg",
-        "resumo": "Uma década após o acidente que matou 71 pessoas, três jogadores, dois tripulantes e um jornalista sobreviveram e seguiram caminhos diferentes",
-        "conteudo": "<p>Há dez anos, a Chapecoense vivia o momento mais importante de sua história quando o voo que levava o time para a final da Copa Sul-Americana caiu na Colômbia. Dos seis sobreviventes, três eram jogadores: Hélio Neto, Alan Ruschel e Jakson Follmann</p><h2>As informações principais do assunto</h2><p>Há exatamente uma década, a vida da Chapecoense mudou para sempre.</p><p>O voo 2933 da LaMia, que levava a delegação do clube para Medellín, na Colômbia, onde disputaria o jogo de ida da final da Copa Sul-Americana de 2016 contra o Atlético Nacional, caiu a poucos quilômetros do aeroporto de Rionegro.</p><p>A tragédia matou 71 das 77 pessoas que estavam a bordo. Entre as vítimas estavam praticamente todos os jogadores que compunham o elenco profissional da Chapecoense, além de integrantes da comissão técnica, dirigentes, jornalistas, tripulantes e convidados.</p><h2>Contexto e informações complementares</h2><p>O acidente comoveu o Brasil, a América do Sul e o mundo.</p><p>Um clube pequeno, com menos de 50 anos de existência, vivia o melhor momento de sua história e estava prestes a disputar a primeira final internacional de sua trajetória.</p><p>Apenas seis pessoas sobreviveram: três jogadores, dois integrantes da tripulação e um jornalista.</p><p>Seis histórias de pessoas que ganharam uma segunda chance — mas que nunca mais foram as mesmas depois daquela noite.</p><p>Entre os jogadores estavam Hélio Neto, Alan Ruschel e Jakson Follmann. Cada um deles seguiu um caminho diferente depois da tragédia.</p><p>Hélio Neto foi o último dos sobreviventes a ser resgatado.</p><p>Quando os socorristas ouviram seus fracos gemidos em meio ao frio da região montanhosa de Antioquia, na Colômbia, já havia poucas esperanças de encontrar alguém vivo.</p><p>O zagueiro foi levado ao hospital, onde recebeu tratamento para múltiplas fraturas e permaneceu dez dias em coma induzido.</p><p>Neto conseguiu se recuperar a ponto de tentar voltar ao futebol.</p><p>Foram mais de um ano de recuperação até que pudesse disputar alguns amistosos. As sequelas, porém, eram graves. Dores quase permanentes na coluna e nos joelhos dificultavam a atividade em alto nível.</p><p>Em 2019, decidiu se aposentar sem ter conseguido disputar uma partida oficial depois da tragédia. Ainda assim, ficou com a sensação de ter tentado até o fim.</p><p>Hoje, Neto é palestrante e aborda temas relacionados à espiritualidade, religião e emoções. Ele também se formou em teologia.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/futebol/chapecoense/10-anos-da-tragedia-da-chapecoense-veja-como-estao-os-sobreviventes/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Há dez anos, a Chapecoense vivia o momento mais importante de sua história quando o voo que levava o time para a final da Copa Sul-Americana caiu na Colômbia. Dos seis sobreviventes, três eram jogadores: Hélio Neto, Alan Ruschel e Jakson Follmann"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Há exatamente uma década, a vida da Chapecoense mudou para sempre."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O voo 2933 da LaMia, que levava a delegação do clube para Medellín, na Colômbia, onde disputaria o jogo de ida da final da Copa Sul-Americana de 2016 contra o Atlético Nacional, caiu a poucos quilômetros do aeroporto de Rionegro."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A tragédia matou 71 das 77 pessoas que estavam a bordo. Entre as vítimas estavam praticamente todos os jogadores que compunham o elenco profissional da Chapecoense, além de integrantes da comissão técnica, dirigentes, jornalistas, tripulantes e convidados."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O acidente comoveu o Brasil, a América do Sul e o mundo."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/09/Peritos-trabalham-nas-investigacoes-do-acidente-com-o-aviao-que-levava-o-time-da-Chapecoense-para-a-Colombia.jpg?w=950&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/10-anos-da-tragedia-da-chapecoense-veja-como-estao-os-sobreviventes.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "35e32d1670e0d413",
-      "titulo": "Forças Armadas são a instituição em que os brasileiros mais confiam, sugere pesquisa",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Revista Oeste - Feed",
-      "urlFonte": "https://revistaoeste.com/politica/forcas-armadas-sao-a-instituicao-em-que-os-brasileiros-mais-confiam-sugere-pesquisa/",
-      "dataFonte": "2026-11-28T12:55:00.000Z",
-      "resumoFonte": "As Forças Armadas passaram a ocupar o primeiro lugar entre as instituições em que os brasileiros mais confiam, segundo pesquisa do instituto Brazil Pulse, divulgada neste sábado, 28. O índice de confiança nos militares chegou a 74% em novembro, ante 68% em setembro. A Polícia Federal (PF), que liderava o levantamento anterior, aparece com 73%,…",
-      "imagem": "https://medias.revistaoeste.com/wp-content/uploads/2024/03/Forcas-Armadas-scaled.jpg.webp",
-      "descobertaEm": "2026-11-28T13:09:29.002Z",
-      "reportagem": {
-        "titulo": "Forças Armadas são a instituição em que os brasileiros mais confiam, sugere pesquisa",
-        "slug": "forcas-armadas-sao-a-instituicao-em-que-os-brasileiros-mais-confiam-sugere-pesquisa",
-        "categoria": "Política Nacional",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/forcas-armadas-sao-a-instituicao-em-que-os-brasileiros-mais-confiam-sugere-pesquisa.jpg",
-        "resumo": "Pesquisa do Brazil Pulse aponta confiança de 74% nos militares",
-        "conteudo": "<p>As Forças Armadas se tornaram a instituição mais confiável entre os brasileiros, com 74% de aprovação em novembro, segundo pesquisa do instituto Brazil Pulse divulgada em 28 de novembro de 2026.</p><h2>Os números do levantamento</h2><p>A Polícia Federal segue com 73% e a Igreja Católica com 72%. As igrejas evangélicas aumentaram de 56% para 63%, enquanto a imprensa subiu de 54% para 57%. A Câmara dos Deputados teve o menor índice, com 46%.</p><p>O levantamento ouviu 2 mil brasileiros entre 25 e 26 de novembro, com margem de erro de 2,2 pontos percentuais.</p><p>As Forças Armadas passaram a ocupar o primeiro lugar entre as instituições em que os brasileiros mais confiam, segundo pesquisa do instituto Brazil Pulse, divulgada neste sábado, 28. O índice de confiança nos militares chegou a 74% em novembro, ante 68% em setembro.</p><h2>Como interpretar os resultados</h2><p>A Polícia Federal (PF), que liderava o levantamento anterior, aparece com 73%, seguida pela Igreja Católica, com 72%. A diferença entre as três instituições está dentro da margem de erro da pesquisa.</p><p>As igrejas evangélicas também registraram aumento no índice de confiança da população brasileira. O porcentual passou de 56% em setembro para 63% em novembro, uma alta de 7 pontos porcentuais.</p><p>A imprensa avançou de 54% para 57%, enquanto o Tribunal Superior Eleitoral (TSE) registrou uma oscilação negativa, de 55% para 54%.</p><p>Entre as instituições com resultados divulgados, a Câmara dos Deputados apresentou o menor índice de confiança, com 46%, seguida pelo Senado Federal, com 48%, e pelo Supremo Tribunal Federal (STF), com 50%.</p><p>A Presidência da República registrou um índice de 53%, ante 46% no levantamento de setembro.</p><p>Confira os índices de confiança nas instituições em novembro, conforme os dados divulgados:</p><p>O levantamento do Brazil Pulse ouviu 2 mil brasileiros com 16 anos ou mais, entre os dias 25 e 26 de novembro. A margem de erro informada é de 2,2 pontos porcentuais, com nível de confiança de 95%.</p>",
-        "fonteNome": "Revista Oeste - Feed",
-        "fonteUrl": "https://revistaoeste.com/politica/forcas-armadas-sao-a-instituicao-em-que-os-brasileiros-mais-confiam-sugere-pesquisa/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "As Forças Armadas se tornaram a instituição mais confiável entre os brasileiros, com 74% de aprovação em novembro, segundo pesquisa do instituto Brazil Pulse divulgada em 28 de novembro de 2026. A Polícia Federal segue com 73% e a Igreja Católica com 72%. As igrejas evangélicas aumentaram de 56% para 63%, enquanto a imprensa subiu de 54% para 57%."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "As Forças Armadas passaram a ocupar o primeiro lugar entre as instituições em que os brasileiros mais confiam, segundo pesquisa do instituto Brazil Pulse, divulgada neste sábado, 28. O índice de confiança nos militares chegou a 74% em novembro, ante 68% em setembro."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A Polícia Federal (PF), que liderava o levantamento anterior, aparece com 73%, seguida pela Igreja Católica, com 72%. A diferença entre as três instituições está dentro da margem de erro da pesquisa."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "As igrejas evangélicas também registraram aumento no índice de confiança da população brasileira. O porcentual passou de 56% em setembro para 63% em novembro, uma alta de 7 pontos porcentuais."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A imprensa avançou de 54% para 57%, enquanto o Tribunal Superior Eleitoral (TSE) registrou uma oscilação negativa, de 55% para 54%."
-          }
-        ],
-        "imagemOriginal": "https://medias.revistaoeste.com/wp-content/uploads/2024/03/Forcas-Armadas-scaled.jpg.webp",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/forcas-armadas-sao-a-instituicao-em-que-os-brasileiros-mais-confiam-sugere-pesquisa.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "3d72c876875f4bc5",
-      "titulo": "Campanha termina com direita favorita para governar a Espanha",
-      "categoria": "Política Nacional",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-internacional/campanha-termina-com-direita-favorita-para-governar-a-espanha/",
-      "dataFonte": "2026-11-28T13:34:16.000Z",
-      "resumoFonte": "PP e Vox somam maioria para tirar Pedro Sanchéz do poder; crise habitacional antecipou a eleição após derrota de decretos no Congresso",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/candidatos-espanha-1200x675.png",
-      "descobertaEm": "2026-11-28T14:18:13.118Z",
-      "reportagem": {
-        "titulo": "Campanha termina com direita favorita para governar a Espanha",
-        "slug": "campanha-termina-com-direita-favorita-para-governar-a-espanha",
-        "categoria": "Política Nacional",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/campanha-termina-com-direita-favorita-para-governar-a-espanha.jpg",
-        "resumo": "PP e Vox somam maioria para tirar Pedro Sanchéz do poder; crise habitacional antecipou a eleição.",
-        "conteudo": "<p>PP e Vox somam maioria para tirar Pedro Sanchéz do poder; crise habitacional antecipou a eleição após derrota de decretos no Congresso</p><h2>O contexto do cenário político</h2><p>A Espanha encerrou na 6ª feira (27.nov.2026) a campanha para escolher os integrantes das Cortes Gerais, o Parlamento espanhol. A votação será no domingo (29.nov).</p><p>A disputa opõe a esquerda do premiê Pedro Sánchez (Psoe, centro-esquerda) a uma eventual coalizão conservadora capaz de formar maioria e tirar o atual governo do poder.</p><p>Estão em disputa 350 cadeiras do Congresso dos Deputados e parte das vagas do Senado (209 dos 266 assentos). Como a Espanha é uma monarquia parlamentarista, o eleitor não vota direto no chefe de governo .</p><h2>Informações e repercussões do episódio</h2><p>Para virar premiê, o candidato precisa reunir maioria no Congresso (176 deputados). Depois da posse dos congressistas, é realizada a votação de investidura. Esse arranjo costuma exigir acordos entre partidos nacionais e legendas regionalistas ou separatistas.</p><p>Levantamento do jornal ABC mostrou Alberto Núñez Feijóo com 31% dos votos. Pedro Sánchez ficou perto de 29%, mas reduziu a diferença para o Partido Popular a 2 pontos percentuais.</p><p>Na Espanha, o prazo para publicar novas pesquisas terminou em 23 de novembro. Assim, as tendências finais não aparecem nos levantamentos.</p><p>O cálculo considera os dados do PP, do Vox e, quando disponíveis, da UPN (Unión del Pueblo Navarro), que concorre em coligação com o PP.</p><p>O bloco da esquerda inclui o Psoe, Sumar, Podemos e, desde outubro de 2026, a Frente Ampla e as coligações Front Valencià, Unidad del Pueblo Canario e Ara Més-Front Ampli (coligações com participação do Podemos).</p><p>As pesquisas mostram ser improvável uma maioria absoluta de um único partido. O resultado depende de uma aliança entre o PP, de direita, e o Vox, de extrema-direita. É a única combinação com chance de alcançar maioria absoluta na Câmara baixa, com 350 cadeiras.</p><p>Apesar de uma alta recente para perto de 30%, o Psoe tende a ficar em 2º lugar, com pouca distância.</p><p>Pedro Sánchez antecipou as eleições gerais para 29 de novembro de 2026. A votação estava prevista para meados de 2027.</p><p>A decisão se deu depois de o Parlamento espanhol rejeitar decretos do governo sobre habitação e após mais de uma semana de protestos nas ruas contra a crise habitacional.</p><p>Os preços de casas na Espanha sobem desde 2014 e aceleraram nos últimos anos. No 3º trimestre de 2026, os imóveis usados ficaram 11,8% mais caros em comparação com um ano antes, segundo o índice Idealista.</p><p>O Banco da Espanha estima que o país pode ter deficit de mais de 1 milhão de moradias até 2028.</p><p>A Espanha encerrou na 6ª feira (27.nov.2026) a campanha para escolher os integrantes das Cortes Gerais, o Parlamento espanhol. A votação será no domingo (29.nov). A disputa opõe a esquerda do premiê Pedro Sánchez</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-internacional/campanha-termina-com-direita-favorita-para-governar-a-espanha/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/politica"
-          },
-          {
-            "nome": "Senado Federal",
-            "url": "https://www12.senado.leg.br/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "PP e Vox somam maioria para tirar Pedro Sanchéz do poder; crise habitacional antecipou a eleição após derrota de decretos no Congresso"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A Espanha encerrou na 6ª feira (27.nov.2026) a campanha para escolher os integrantes das Cortes Gerais, o Parlamento espanhol. A votação será no domingo (29.nov). A disputa opõe a esquerda do premiê Pedro Sánchez (Psoe, centro-esquerda) a uma eventual coalizão conservadora capaz de formar maioria e tirar o atual governo do poder."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Estão em disputa 350 cadeiras do Congresso dos Deputados e parte das vagas do Senado (209 dos 266 assentos). Como a Espanha é uma monarquia parlamentarista, o eleitor não vota direto no chefe de governo ."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Para virar premiê, o candidato precisa reunir maioria no Congresso (176 deputados). Depois da posse dos congressistas, é realizada a votação de investidura. Esse arranjo costuma exigir acordos entre partidos nacionais e legendas regionalistas ou separatistas."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Levantamento do jornal ABC mostrou Alberto Núñez Feijóo com 31% dos votos. Pedro Sánchez ficou perto de 29%, mas reduziu a diferença para o Partido Popular a 2 pontos percentuais. Na Espanha, o prazo para publicar novas pesquisas terminou em 23 de novembro. Assim, as tendências finais não aparecem nos levantamentos."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/candidatos-espanha-1200x675.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/campanha-termina-com-direita-favorita-para-governar-a-espanha.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "a35ff7cbeb29d7e4",
-      "titulo": "Governo publica portaria que renova auxílio ao diesel",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-economia/governo-publica-portaria-que-renova-auxilio-ao-diesel/",
-      "dataFonte": "2026-11-28T13:50:38.000Z",
-      "resumoFonte": "Medida foi instituída para conter alta dos preços no Brasil depois do início da guerra no Irã",
-      "imagem": "https://static.poder360.com.br/uploads/2026/07/postos-de-gasolina-combustiveis-diesel.jpg",
-      "descobertaEm": "2026-11-28T14:18:13.118Z"
-    },
-    {
-      "id": "24d4d63c1af9dbc9",
-      "titulo": "Estou certo que trabalho de Trabuco será exitoso, diz Gilmar",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Poder360 - Feed",
-      "urlFonte": "https://www.poder360.com.br/poder-justica/estou-certo-que-trabalho-de-trabuco-sera-exitoso-diz-gilmar/",
-      "dataFonte": "2026-11-28T13:29:54.000Z",
-      "resumoFonte": "Ministro afirma que o banqueiro é “muito respeitado pelo mercado” e tem preocupação com a responsabilidade social",
-      "imagem": "https://static.poder360.com.br/uploads/2026/08/ministro-gilmar-mendes-stf-1200x675.jpg",
-      "descobertaEm": "2026-11-28T14:18:13.118Z",
-      "reportagem": {
-        "titulo": "Estou certo que trabalho de Trabuco será exitoso, diz Gilmar",
-        "slug": "estou-certo-que-trabalho-de-trabuco-sera-exitoso-diz-gilmar",
-        "categoria": "Economia",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/estou-certo-que-trabalho-de-trabuco-sera-exitoso-diz-gilmar.jpg",
-        "resumo": "Ministro afirma que o banqueiro é “muito respeitado pelo mercado” e tem preocupação com a responsabilidade social.",
-        "conteudo": "<p>Ministro afirma que o banqueiro é “muito respeitado pelo mercado” e tem preocupação com a responsabilidade social</p><h2>O contexto da decisão judicial</h2><p>O ministro Gilmar Mendes, do Supremo Tribunal Federal, disse neste sábado (28.nov.2026) estar certo de que o trabalho de Luiz Carlos Trabuco no Ministério da Fazenda será “exitoso” , apesar de o desafio, segundo o magistrado, ser “grande” .</p><p>O banqueiro aceitou na 5ª feira (26.nov) assumir o cargo a partir de 2027, no 4º mandato do presidente Luiz Inácio Lula da Silva (PT).</p><p>“Com décadas de experiência no sistema financeiro, é muito respeitado pelo mercado e já demonstrou enorme capacidade de diálogo” , escreveu Gilmar no X.</p><h2>Impactos e informações adicionais</h2><p>Segundo o ministro, Trabuco “tem revelado verdadeira preocupação com a responsabilidade social, ao defender que o equilíbrio das contas públicas caminhe lado a lado com o enfrentamento das questões sociais do país” .</p><p>Presidente do Conselho de Administração do Bradesco, Trabuco é considerado um dos executivos mais influentes do sistema bancário brasileiro.</p><p>A proximidade com Lula já havia colocado seu nome entre os candidatos à Fazenda em 2014, durante a formação do segundo governo de Dilma Rousseff (PT).</p><p>Com a escolha de Trabuco para a Fazenda, Lula terá no comando do ministério um executivo com mais de 5 décadas de experiência no setor financeiro privado.</p><p>O ministro Gilmar Mendes, do Supremo Tribunal Federal, disse neste sábado (28.nov.2026) estar certo de que o trabalho de</p>",
-        "fonteNome": "Poder360 - Feed",
-        "fonteUrl": "https://www.poder360.com.br/poder-justica/estou-certo-que-trabalho-de-trabuco-sera-exitoso-diz-gilmar/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Ministro afirma que o banqueiro é “muito respeitado pelo mercado” e tem preocupação com a responsabilidade social"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O ministro Gilmar Mendes, do Supremo Tribunal Federal, disse neste sábado (28.nov.2026) estar certo de que o trabalho de Luiz Carlos Trabuco no Ministério da Fazenda será “exitoso” , apesar de o desafio, segundo o magistrado, ser “grande” ."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "“Com décadas de experiência no sistema financeiro, é muito respeitado pelo mercado e já demonstrou enorme capacidade de diálogo” , escreveu Gilmar no X."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Segundo o ministro, Trabuco “tem revelado verdadeira preocupação com a responsabilidade social, ao defender que o equilíbrio das contas públicas caminhe lado a lado com o enfrentamento das questões sociais do país” ."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Presidente do Conselho de Administração do Bradesco, Trabuco é considerado um dos executivos mais influentes do sistema bancário brasileiro."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/08/ministro-gilmar-mendes-stf-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/estou-certo-que-trabalho-de-trabuco-sera-exitoso-diz-gilmar.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "21a1afa575931cda",
-      "titulo": "Ivete Sangalo critica exposição da vida privada: “Estamos falando de vidas”",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/fabia-oliveira/ivete-sangalo-critica-exposicao-da-vida-privada-estamos-falando-de-vidas",
-      "dataFonte": "2026-11-28T12:57:15.000Z",
-      "resumoFonte": "Cantora se manifestou nas redes sociais horas após a notícia do fim de seu relacionamento com o empresário Thiago Maia vir à tona",
-      "imagem": "https://i.metroimg.com/Jf2_dDCMZZatkr26OgjWmxMhKyxJ5plM4c84cGPYr5c/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/ivete-sangalo-critica-exposicao-vida-privada-falando-de-vidas.jpg",
-      "descobertaEm": "2026-11-28T13:09:29.002Z"
-    },
-    {
       "id": "8061b61b25745f33",
       "titulo": "Hamburgo x Bayern de Munique hoje: onde assistir ao vivo e escalações",
       "categoria": "Esporte",
@@ -962,6 +815,66 @@
         ],
         "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/hamburgo-x-bayern-de-munique-1575235.png?w=1200&h=630&crop=1",
         "imagemX": "https://noticiaes.com.br/imagens/lapis/hamburgo-x-bayern-de-munique-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "bdb95c607fd6bf15",
+      "titulo": "10 anos da tragédia da Chapecoense: veja como estão os sobreviventes",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/chapecoense/10-anos-da-tragedia-da-chapecoense-veja-como-estao-os-sobreviventes/",
+      "dataFonte": "2026-11-28T14:13:34.000Z",
+      "resumoFonte": "Uma década após o acidente que matou 71 pessoas, três jogadores, dois tripulantes e um jornalista sobreviveram e seguiram caminhos diferentes",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/09/Peritos-trabalham-nas-investigacoes-do-acidente-com-o-aviao-que-levava-o-time-da-Chapecoense-para-a-Colombia.jpg?w=950&h=630&crop=1",
+      "descobertaEm": "2026-11-28T15:18:13.591Z",
+      "reportagem": {
+        "titulo": "10 anos da tragédia da Chapecoense: veja como estão os sobreviventes",
+        "slug": "10-anos-da-tragedia-da-chapecoense-veja-como-estao-os-sobreviventes",
+        "categoria": "Esporte",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/10-anos-da-tragedia-da-chapecoense-veja-como-estao-os-sobreviventes.jpg",
+        "resumo": "Uma década após o acidente que matou 71 pessoas, três jogadores, dois tripulantes e um jornalista sobreviveram e seguiram caminhos diferentes",
+        "conteudo": "<p>Há dez anos, a Chapecoense vivia o momento mais importante de sua história quando o voo que levava o time para a final da Copa Sul-Americana caiu na Colômbia. Dos seis sobreviventes, três eram jogadores: Hélio Neto, Alan Ruschel e Jakson Follmann</p><h2>As informações principais do assunto</h2><p>Há exatamente uma década, a vida da Chapecoense mudou para sempre.</p><p>O voo 2933 da LaMia, que levava a delegação do clube para Medellín, na Colômbia, onde disputaria o jogo de ida da final da Copa Sul-Americana de 2016 contra o Atlético Nacional, caiu a poucos quilômetros do aeroporto de Rionegro.</p><p>A tragédia matou 71 das 77 pessoas que estavam a bordo. Entre as vítimas estavam praticamente todos os jogadores que compunham o elenco profissional da Chapecoense, além de integrantes da comissão técnica, dirigentes, jornalistas, tripulantes e convidados.</p><h2>Contexto e informações complementares</h2><p>O acidente comoveu o Brasil, a América do Sul e o mundo.</p><p>Um clube pequeno, com menos de 50 anos de existência, vivia o melhor momento de sua história e estava prestes a disputar a primeira final internacional de sua trajetória.</p><p>Apenas seis pessoas sobreviveram: três jogadores, dois integrantes da tripulação e um jornalista.</p><p>Seis histórias de pessoas que ganharam uma segunda chance — mas que nunca mais foram as mesmas depois daquela noite.</p><p>Entre os jogadores estavam Hélio Neto, Alan Ruschel e Jakson Follmann. Cada um deles seguiu um caminho diferente depois da tragédia.</p><p>Hélio Neto foi o último dos sobreviventes a ser resgatado.</p><p>Quando os socorristas ouviram seus fracos gemidos em meio ao frio da região montanhosa de Antioquia, na Colômbia, já havia poucas esperanças de encontrar alguém vivo.</p><p>O zagueiro foi levado ao hospital, onde recebeu tratamento para múltiplas fraturas e permaneceu dez dias em coma induzido.</p><p>Neto conseguiu se recuperar a ponto de tentar voltar ao futebol.</p><p>Foram mais de um ano de recuperação até que pudesse disputar alguns amistosos. As sequelas, porém, eram graves. Dores quase permanentes na coluna e nos joelhos dificultavam a atividade em alto nível.</p><p>Em 2019, decidiu se aposentar sem ter conseguido disputar uma partida oficial depois da tragédia. Ainda assim, ficou com a sensação de ter tentado até o fim.</p><p>Hoje, Neto é palestrante e aborda temas relacionados à espiritualidade, religião e emoções. Ele também se formou em teologia.</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/futebol/chapecoense/10-anos-da-tragedia-da-chapecoense-veja-como-estao-os-sobreviventes/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Há dez anos, a Chapecoense vivia o momento mais importante de sua história quando o voo que levava o time para a final da Copa Sul-Americana caiu na Colômbia. Dos seis sobreviventes, três eram jogadores: Hélio Neto, Alan Ruschel e Jakson Follmann"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Há exatamente uma década, a vida da Chapecoense mudou para sempre."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O voo 2933 da LaMia, que levava a delegação do clube para Medellín, na Colômbia, onde disputaria o jogo de ida da final da Copa Sul-Americana de 2016 contra o Atlético Nacional, caiu a poucos quilômetros do aeroporto de Rionegro."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A tragédia matou 71 das 77 pessoas que estavam a bordo. Entre as vítimas estavam praticamente todos os jogadores que compunham o elenco profissional da Chapecoense, além de integrantes da comissão técnica, dirigentes, jornalistas, tripulantes e convidados."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O acidente comoveu o Brasil, a América do Sul e o mundo."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/09/Peritos-trabalham-nas-investigacoes-do-acidente-com-o-aviao-que-levava-o-time-da-Chapecoense-para-a-Colombia.jpg?w=950&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/10-anos-da-tragedia-da-chapecoense-veja-como-estao-os-sobreviventes.jpg",
         "redacaoPropria": true,
         "origemTexto": "redacao-noticia-es"
       }
@@ -1087,319 +1000,31 @@
       }
     },
     {
-      "id": "1f3d768f48364bde",
-      "titulo": "Mainz 05 x Union Berlin hoje: onde assistir ao vivo e escalações",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/esportes/futebol/mainz-05-x-union-berlin-hoje-escalacoes-28-11-2026/",
-      "dataFonte": "2026-11-28T14:02:49.000Z",
-      "resumoFonte": "Mainz 05 x Union Berlin começa às 11h30 (de Brasília) neste sábado (28), no MEWA Arena, em Mainz, pela 11ª rodada do Campeonato Alemão 2026/27.",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/mainz-05-x-union-berlin-1575234.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-28T14:18:13.118Z",
-      "reportagem": {
-        "titulo": "Mainz 05 x Union Berlin hoje: onde assistir ao vivo e escalações",
-        "slug": "mainz-05-x-union-berlin-hoje-onde-assistir-ao-vivo-e-escalacoes",
-        "categoria": "Esporte",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/mainz-05-x-union-berlin-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
-        "resumo": "Mainz 05 x Union Berlin começa às 11h30 (de Brasília) neste sábado (28), no MEWA Arena, em Mainz, pela 11ª rodada do Campeonato Alemão 2026/27.",
-        "conteudo": "<p>Mainz 05 x Union Berlin começa às 11h30 (de Brasília) neste sábado (28), no MEWA Arena, em Mainz, pela 11ª rodada do Campeonato Alemão 2026/27.</p><h2>As informações principais do assunto</h2><p>Mainz 05 x Union Berlin passa ao vivo em OneFootball (streaming).</p><p>Mainz 05 (3-5-2): R. Zentner; S. Posch, F. Gruber, K. Potulski; A. Caci, E. Martel, K. Sano, N. Amiri, S. Widmer; S. Becker, R. Königsdörffer. Técnico: U. Fischer.</p><p>São quatro mudanças em relação ao último jogo, derrota por 3 a 1 para o FC Augsburg. Entram Gruber, Martel, Widmer e Königsdörffer. Saem da Costa, Nebel, Mwene e Tietz. A formação passa de 3-1-4-2 para 3-5-2.</p><h2>Contexto e informações complementares</h2><p>Union Berlin (4-4-2): F. Rønnow; J. Haberer, L. Querfeld, M. Friedrich, D. Köhn; Jeong Woo-Yeong, M. Aebischer, A. Schäfer, K. Imeri; O. Burke, A. Ilić. Técnico: M. Lustrinelli.</p><p>São duas mudanças em relação ao último jogo, derrota por 5 a 1 para o RB Leipzig. Entram Querfeld e Jeong Woo-Yeong. Saem Van Den Bosch e Khedira. A formação passa de 4-1-3-2 para 4-4-2.</p><p>O Mainz 05 ocupa a 13ª posição, com 10 pontos em 10 jogos. Na última partida, o time perdeu para o FC Augsburg por 3 a 1. O time acumula uma vitória e quatro derrotas nos últimos cinco jogos da competição.</p><p>O adversário, o Union Berlin, soma 7 pontos em 10 jogos e aparece em 17º lugar na tabela, dentro da zona de rebaixamento. No último compromisso, o time perdeu para o RB Leipzig por 5 a 1. O desempenho recente na competição soma três empates e duas derrotas em cinco partidas.</p><p>Veja também o guia completo de Mainz 05 x Union Berlin</p><p>Matéria produzida automaticamente com dados da partida.</p><p>Hertha Berlin x Karlsruher SC: onde assistir ao vivo, horário e escalações</p><p>Mainz 05 x Union Berlin: onde assistir ao vivo, horário e escalações</p><p>Partida entre Mainz 05 e Union Berlin é neste sábado (28), às 11h30, no MEWA Arena</p><p>Paderborn x Schalke 04 hoje: onde assistir ao vivo e escalações</p><p>Koln x Elversberg hoje: onde assistir ao vivo e escalações</p><p>Dynamo Dresden sai atrás, vira no fim e derrota o St. Pauli</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/esportes/futebol/mainz-05-x-union-berlin-hoje-escalacoes-28-11-2026/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Mainz 05 x Union Berlin começa às 11h30 (de Brasília) neste sábado (28), no MEWA Arena, em Mainz, pela 11ª rodada do Campeonato Alemão 2026/27."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Mainz 05 x Union Berlin passa ao vivo em OneFootball (streaming)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Mainz 05 (3-5-2): R. Zentner; S. Posch, F. Gruber, K. Potulski; A. Caci, E. Martel, K. Sano, N. Amiri, S. Widmer; S. Becker, R. Königsdörffer. Técnico: U. Fischer."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "São quatro mudanças em relação ao último jogo, derrota por 3 a 1 para o FC Augsburg. Entram Gruber, Martel, Widmer e Königsdörffer. Saem da Costa, Nebel, Mwene e Tietz. A formação passa de 3-1-4-2 para 3-5-2."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Union Berlin (4-4-2): F. Rønnow; J. Haberer, L. Querfeld, M. Friedrich, D. Köhn; Jeong Woo-Yeong, M. Aebischer, A. Schäfer, K. Imeri; O. Burke, A. Ilić. Técnico: M. Lustrinelli."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/mainz-05-x-union-berlin-1575234.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/mainz-05-x-union-berlin-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "7b51d714e18ac9d2",
-      "titulo": "Dynamo Dresden sai atrás, vira no fim e derrota o St. Pauli",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/esportes/futebol/dynamo-dresden-sai-atras-vira-no-fim-e-derrota-o-st-pauli-28-11-2026/",
-      "dataFonte": "2026-11-28T13:56:53.000Z",
-      "resumoFonte": "A virada do Dynamo Dresden só se completou no fim. Neste sábado (28), no Rudolf-Harbig Stadion, em Dresden, Kaan Inanoglu marcou o gol que decidiu o 2 a 1 sobre o St. Pauli, pela 13ª rodada da 2ª divisão alemã.",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/dynamo-dresden-x-st-pauli-1576249.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-28T14:18:13.118Z",
-      "reportagem": {
-        "titulo": "Dynamo Dresden sai atrás, vira no fim e derrota o St. Pauli",
-        "slug": "dynamo-dresden-sai-atras-vira-no-fim-e-derrota-o-st-pauli",
-        "categoria": "Esporte",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/dynamo-dresden-sai-atras-vira-no-fim-e-derrota-o-st-pauli.jpg",
-        "resumo": "A virada do Dynamo Dresden só se completou no fim. Neste sábado (28), no Rudolf-Harbig Stadion, em Dresden, Kaan Inanoglu marcou o gol que decidiu o 2 a 1 sobre o St. Pauli, pela 13ª rodada da 2ª divisão alemã.",
-        "conteudo": "<p>A virada do Dynamo Dresden só se completou no fim. Neste sábado (28), no Rudolf-Harbig Stadion, em Dresden, Kaan Inanoglu marcou o gol que decidiu o 2 a 1 sobre o St. Pauli, pela 13ª rodada da 2ª divisão alemã.</p><h2>As informações principais do assunto</h2><p>O Dynamo Dresden teve um gol de Vincent Vermeij anulado pelo VAR aos 15 minutos do segundo tempo. Erik Ahlstrand colocou o St. Pauli em vantagem aos 34, após assistência de Martijn Kaars.</p><p>O empate veio de pênalti: Thomas Keller converteu nos acréscimos do segundo tempo.</p><p>Kaan Inanoglu, que tinha entrado nove minutos antes, pôs o Dynamo Dresden na frente nos acréscimos do segundo tempo, com assistência de Christoph Daferner: 2 a 1.</p><h2>Contexto e informações complementares</h2><p>O St. Pauli finalizou 14 vezes, e o Dynamo Dresden, 11. No alvo, foram 6 do St. Pauli e 4 do Dynamo Dresden.</p><p>O Dynamo Dresden vai a 15 pontos. O St. Pauli segue com 15 pontos.</p><p>O Dynamo Dresden enfrenta o Stuttgart na terça-feira (1/12), pela Copa da Alemanha. O St. Pauli volta a campo no domingo (6/12), contra o 1. FC Heidenheim.</p><p>Matéria produzida automaticamente com dados da partida.</p><p>Dynamo Dresden x St. Pauli: onde assistir ao vivo, horário e escalações</p><p>Veja horário, local e onde assistir ao vivo ao duelo pela 2ª divisão alemã</p><p>Hertha Berlin atropela o Karlsruher SC e vence por 4 a 0</p><p>Holstein Kiel x Kaiserslautern hoje: onde assistir ao vivo e escalações</p><p>Hertha Berlin x Karlsruher SC hoje: onde assistir ao vivo e escalações</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/esportes/futebol/dynamo-dresden-sai-atras-vira-no-fim-e-derrota-o-st-pauli-28-11-2026/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A virada do Dynamo Dresden só se completou no fim. Neste sábado (28), no Rudolf-Harbig Stadion, em Dresden, Kaan Inanoglu marcou o gol que decidiu o 2 a 1 sobre o St. Pauli, pela 13ª rodada da 2ª divisão alemã."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Dynamo Dresden teve um gol de Vincent Vermeij anulado pelo VAR aos 15 minutos do segundo tempo. Erik Ahlstrand colocou o St. Pauli em vantagem aos 34, após assistência de Martijn Kaars. O empate veio de pênalti: Thomas Keller converteu nos acréscimos do segundo tempo."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O St. Pauli finalizou 14 vezes, e o Dynamo Dresden, 11. No alvo, foram 6 do St. Pauli e 4 do Dynamo Dresden."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O Dynamo Dresden vai a 15 pontos. O St. Pauli segue com 15 pontos."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O Dynamo Dresden enfrenta o Stuttgart na terça-feira (1/12), pela Copa da Alemanha. O St. Pauli volta a campo no domingo (6/12), contra o 1. FC Heidenheim."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/dynamo-dresden-x-st-pauli-1576249.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/dynamo-dresden-sai-atras-vira-no-fim-e-derrota-o-st-pauli.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "e8e08398f35db8cf",
-      "titulo": "\"Fogo nos dois\", disse David, do Vasco, a suspeito de liderar facção",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Poder360",
-      "urlFonte": "https://www.poder360.com.br/poder-sportsmkt/fogo-nos-dois-disse-david-do-vasco-a-suspeito-de-liderar-faccao/",
-      "dataFonte": "2026-11-28T13:51:47.000Z",
-      "resumoFonte": "Jogador de futebol foi preso na 5º feira (26.nov) por suspeita de tentativa de homicídio e tráfico de drogas. Leia no Poder360.",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/david-vasco-da-gama-1200x675.jpg",
-      "descobertaEm": "2026-11-28T14:18:13.118Z",
-      "reportagem": {
-        "titulo": "\"Fogo nos dois\", disse David, do Vasco, a suspeito de liderar facção",
-        "slug": "fogo-nos-dois-disse-david-do-vasco-a-suspeito-de-liderar-faccao",
-        "categoria": "Esporte",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/fogo-nos-dois-disse-david-do-vasco-a-suspeito-de-liderar-faccao.jpg",
-        "resumo": "Jogador de futebol foi preso na 5º feira (26.nov) por suspeita de tentativa de homicídio e tráfico de drogas.",
-        "conteudo": "<p>Jogador de futebol foi preso na 5º feira (26.nov) por suspeita de tentativa de homicídio e tráfico de drogas</p><h2>As informações principais do assunto</h2><p>Mensagens trocadas entre David, do Vasco, e Edson Vander, considerado um dos líderes de uma facção criminosa no Espírito Santo, mostram que o atleta, preso na 5ª feira (26.nov.2026), sugeriu matar duas testemunhas de uma tentativa de homicídio em 2024.</p><p>O alvo era Wesley Almeida, dissidente do grupo. Já Vander é suspeito de ter estar envolvido no crime.</p><p>Edson Vander diz para David que “Josué e Kevin” queriam falar com ele e pedir para “ficar de boa” . Ele então pergunta ao jogador: “Adivinha o que eu falei” . O atleta responde: “Fogo nos dois”.</p><h2>Contexto e informações complementares</h2><p>Não fica claro pelo diálogo se David estava dizendo o que Vander havia falado ou se estava sugerindo matar as duas pessoas citadas.</p><p>De acordo com a Polícia Civil do Espírito Santo, as duas testemunhas relataram em depoimento que David e Hayner, jogador do Vila Nova (GO) que também foi preso na 5ª feira (26.nov), ofereceram dinheiro para que elas mudassem suas versões.</p><p>Os 2 são suspeitos de tentar interferir nas investigações conduzidas pela operação A Tropa, que apura a atuação de uma organização criminosa envolvida com o tráfico de drogas no Estado.</p><p>Mensagens trocadas entre David, do Vasco, e Edson Vander, considerado um dos líderes de uma facção criminosa no Espírito Santo, mostram que o atleta,</p>",
-        "fonteNome": "Poder360",
-        "fonteUrl": "https://www.poder360.com.br/poder-sportsmkt/fogo-nos-dois-disse-david-do-vasco-a-suspeito-de-liderar-faccao/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Jogador de futebol foi preso na 5º feira (26.nov) por suspeita de tentativa de homicídio e tráfico de drogas"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Mensagens trocadas entre David, do Vasco, e Edson Vander, considerado um dos líderes de uma facção criminosa no Espírito Santo, mostram que o atleta, preso na 5ª feira (26.nov.2026), sugeriu matar duas testemunhas de uma tentativa de homicídio em 2024. O alvo era Wesley Almeida, dissidente do grupo. Já Vander é suspeito de ter estar envolvido no crime."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Edson Vander diz para David que “Josué e Kevin” queriam falar com ele e pedir para “ficar de boa” . Ele então pergunta ao jogador: “Adivinha o que eu falei” . O atleta responde: “Fogo nos dois”. Não fica claro pelo diálogo se David estava dizendo o que Vander havia falado ou se estava sugerindo matar as duas pessoas citadas."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "De acordo com a Polícia Civil do Espírito Santo, as duas testemunhas relataram em depoimento que David e Hayner, jogador do Vila Nova (GO) que também foi preso na 5ª feira (26.nov), ofereceram dinheiro para que elas mudassem suas versões."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Mensagens trocadas entre David, do Vasco, e Edson Vander, considerado um dos líderes de uma facção criminosa no Espírito Santo, mostram que o atleta,"
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/david-vasco-da-gama-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/fogo-nos-dois-disse-david-do-vasco-a-suspeito-de-liderar-faccao.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "2450de443a04f9bb",
-      "titulo": "STF marca análise de proposta de Gilmar para barrar pautas-bomba",
+      "id": "ce327f9863831e85",
+      "titulo": "Sob sigilo, ação penal da Lava-Jato volta ao STF",
       "categoria": "Justiça",
       "radar": null,
-      "fonteNome": "Poder360",
-      "urlFonte": "https://www.poder360.com.br/poder-justica/stf-marca-analise-de-proposta-de-gilmar-para-barrar-pautas-bomba/",
-      "dataFonte": "2026-11-28T13:04:15.000Z",
-      "resumoFonte": "Julgamento será no plenário virtual e começa em 11 de dezembro; regras apresentadas pelo ministro são defendidas pelo governo. Leia no Poder360.",
-      "imagem": "https://static.poder360.com.br/uploads/2026/10/Gilmar-Mendes-ministro-STF-1200x675.jpg",
-      "descobertaEm": "2026-11-28T13:09:29.002Z",
-      "reportagem": {
-        "titulo": "STF marca análise de proposta de Gilmar para barrar pautas-bomba",
-        "slug": "stf-marca-analise-de-proposta-de-gilmar-para-barrar-pautas-bomba",
-        "categoria": "Justiça",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/stf-marca-analise-de-proposta-de-gilmar-para-barrar-pautas-bomba.jpg",
-        "resumo": "Julgamento será no plenário virtual e começa em 11 de dezembro; regras apresentadas pelo ministro são defendidas pelo governo.",
-        "conteudo": "<p>Julgamento será no plenário virtual e começa em 11 de dezembro; regras apresentadas pelo ministro são defendidas pelo governo</p><h2>O contexto da decisão judicial</h2><p>O Supremo Tribunal Federal vai analisar, a partir de 11 de novembro, a PSV (Proposta de Súmula Vinculante) 150 , apresentada pelo ministro Gilmar Mendes e que visa a conter as chamadas pautas-bomba – propostas legislativas que aprovam despesas públicas sem indicar fonte de recurso.</p><p>A regra tem como base a Lei de Responsabilidade Fiscal e blinda o orçamento de gastos não previstos.</p><p>Na prática, as súmulas vinculantes são normas aprovadas pelo Supremo que condensam uma série de julgamentos sobre um determinado tema. Ou seja, a proposta de Gilmar cita uma série de decisões da Corte que barraram leis que não apresentaram as fontes de custeio .</p><h2>Detalhes e consequências do caso</h2><p>Se aprovada, a regra passa a ter efeito vinculante, o que obrigará todo o Poder Judiciário a seguir o mesmo entendimento.</p><p>O julgamento será no plenário virtual e começa às 11h de 11 de dezembro e termina às 23h59 de 18 de dezembro. Neste período, os ministros deverão depositar seus votos no sistema do Supremo.</p><p>Segundo a proposta, passa a ser “inconstitucional a lei ou ato normativo que crie ou altere despesa obrigatória, conceda benefício fiscal ou implique renúncia de receita sem prévia estimativa de impacto orçamentário e financeiro, bem como sem a indicação das respectivas medidas compensatórias, nos termos da Lei de Responsabilidade Fiscal” .</p><p>No plano político, as chamadas pautas-bomba comprometem o orçamento do Executivo nas políticas públicas. O termo ganhou fama a partir do 2º mandato de Dilma Rousseff (PT), quando a oposição conseguiu aprovar leis que dificultavam o cumprimento da meta fiscal pelo governo.</p><p>Em agosto, a Advocacia Geral da União defendeu a proposta de Gilmar . Afirmou que a criação de despesas ou benefícios fiscais por um dos Poderes, sem demonstrar os seus efeitos no Orçamento, pode comprometer o equilíbrio das contas públicas.</p><p>Para o governo federal, a aprovação da súmula vinculante também auxiliará os Estados e municípios, uma vez que reforça as regras vigentes e evita que a União tenha que intervir financeiramente.</p>",
-        "fonteNome": "Poder360",
-        "fonteUrl": "https://www.poder360.com.br/poder-justica/stf-marca-analise-de-proposta-de-gilmar-para-barrar-pautas-bomba/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Julgamento será no plenário virtual e começa em 11 de dezembro; regras apresentadas pelo ministro são defendidas pelo governo"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O Supremo Tribunal Federal vai analisar, a partir de 11 de novembro, a PSV (Proposta de Súmula Vinculante) 150 , apresentada pelo ministro Gilmar Mendes e que visa a conter as chamadas pautas-bomba – propostas legislativas que aprovam despesas públicas sem indicar fonte de recurso."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Na prática, as súmulas vinculantes são normas aprovadas pelo Supremo que condensam uma série de julgamentos sobre um determinado tema. Ou seja, a proposta de Gilmar cita uma série de decisões da Corte que barraram leis que não apresentaram as fontes de custeio ."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Se aprovada, a regra passa a ter efeito vinculante, o que obrigará todo o Poder Judiciário a seguir o mesmo entendimento."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O julgamento será no plenário virtual e começa às 11h de 11 de dezembro e termina às 23h59 de 18 de dezembro. Neste período, os ministros deverão depositar seus votos no sistema do Supremo."
-          }
-        ],
-        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/10/Gilmar-Mendes-ministro-STF-1200x675.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/stf-marca-analise-de-proposta-de-gilmar-para-barrar-pautas-bomba.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "976a161cb0f8fb2d",
-      "titulo": "Argentina fracassa ao tentar barrar exploração britânica de petróleo nas Malvinas",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mundo/argentina-fracassa-ao-tentar-barrar-exploracao-britanica-de-petroleo-nas-malvinas/",
-      "dataFonte": "2026-11-28T12:51:00.000Z",
-      "resumoFonte": "NÃO REUTILIZAR \" data-image-caption=\" A principal cidade vista da margem oposta, Port Stanley, Ilhas Malvinas. Fotógrafo: Dan Kitwood/Getty Images \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/Captura-de-tela-2026-11-28-094911.png?fit=935%2C625&quality=70&strip=all\" />Os juízes do Tribunal Internacional do Direito do…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/Captura-de-tela-2026-11-28-094911.png",
-      "descobertaEm": "2026-11-28T13:09:29.002Z",
-      "reportagem": {
-        "titulo": "Argentina fracassa ao tentar barrar exploração britânica de petróleo nas Malvinas",
-        "slug": "argentina-fracassa-ao-tentar-barrar-exploracao-britanica-de-petroleo-nas-malvinas",
-        "categoria": "Justiça",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/argentina-fracassa-ao-tentar-barrar-exploracao-britanica-de-petroleo-nas-malvinas.jpg",
-        "resumo": "Os juízes do Tribunal Internacional do Direito do Mar, com sede em Hamburgo, votaram por 18 a 3 para rejeitar o pedido",
-        "conteudo": "<p>(Bloomberg) – Um tribunal apoiado pelas Nações Unidas rejeitou um pedido da Argentina que buscava interromper um projeto petrolífero britânico perto das Ilhas Malvinas.</p><h2>O contexto da decisão judicial</h2><p>Os juízes do Tribunal Internacional do Direito do Mar, com sede em Hamburgo, votaram por 18 a 3 para rejeitar o pedido, por não parecer haver qualquer fundamento para a sua jurisdição sobre a matéria, afirmou no sábado o presidente Maurice Kamga.</p><p>O presidente argentino, Javier Milei, está ameaçando com sanções as empresas que trabalham no projeto, reacendendo a reivindicação de soberania do país sobre as ilhas, conhecidas como Ilhas Malvinas em espanhol, em um momento em que sua popularidade cai às vésperas da tentativa de reeleição no próximo ano.</p><h2>Detalhes e consequências do caso</h2><p>O Reino Unido saudou a decisão e apelou a Buenos Aires para que respeite o direito dos habitantes das Ilhas Malvinas de determinarem o seu próprio futuro e ponha fim à sua “pressão económica” contra as ilhas.</p><p>“A Argentina tentou impedir que os habitantes das Ilhas Malvinas tomassem suas próprias decisões soberanas e falhou nessa tentativa”, disseram o Ministro das Relações Exteriores, Ed Miliband, e a Procuradora-Geral, Ellie Reeves, em um comunicado após a decisão judicial.</p><p>“O Reino Unido não tem dúvidas sobre a nossa soberania das Ilhas Malvinas, sobre a nossa soberania e direitos soberanos sobre as áreas marítimas circundantes e sobre o direito à autodeterminação dos habitantes das Ilhas Malvinas.”</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mundo/argentina-fracassa-ao-tentar-barrar-exploracao-britanica-de-petroleo-nas-malvinas/",
-        "fontesAdicionais": [
-          {
-            "nome": "STF Notícias",
-            "url": "https://portal.stf.jus.br/noticias/"
-          },
-          {
-            "nome": "MPF",
-            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "(Bloomberg) – Um tribunal apoiado pelas Nações Unidas rejeitou um pedido da Argentina que buscava interromper um projeto petrolífero britânico perto das Ilhas Malvinas."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Os juízes do Tribunal Internacional do Direito do Mar, com sede em Hamburgo, votaram por 18 a 3 para rejeitar o pedido, por não parecer haver qualquer fundamento para a sua jurisdição sobre a matéria, afirmou no sábado o presidente Maurice Kamga."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O presidente argentino, Javier Milei, está ameaçando com sanções as empresas que trabalham no projeto, reacendendo a reivindicação de soberania do país sobre as ilhas, conhecidas como Ilhas Malvinas em espanhol, em um momento em que sua popularidade cai às vésperas da tentativa de reeleição no próximo ano."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O Reino Unido saudou a decisão e apelou a Buenos Aires para que respeite o direito dos habitantes das Ilhas Malvinas de determinarem o seu próprio futuro e ponha fim à sua “pressão económica” contra as ilhas."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "“A Argentina tentou impedir que os habitantes das Ilhas Malvinas tomassem suas próprias decisões soberanas e falhou nessa tentativa”, disseram o Ministro das Relações Exteriores, Ed Miliband, e a Procuradora-Geral, Ellie Reeves, em um comunicado após a decisão judicial."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/Captura-de-tela-2026-11-28-094911.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/argentina-fracassa-ao-tentar-barrar-exploracao-britanica-de-petroleo-nas-malvinas.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "Veja",
+      "urlFonte": "https://veja.abril.com.br/brasil/sob-sigilo-acao-penal-da-lava-jato-volta-ao-stf/",
+      "dataFonte": "2026-11-28T15:01:44.000Z",
+      "resumoFonte": "Processo contra Romero Jucá e Sérgio Machado voltou à Corte após anos na primeira instância",
+      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/55518667279_9d624ca727_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "descobertaEm": "2026-11-28T15:18:13.591Z"
     }
   ],
-  "reapuradoEm": "2026-11-28T15:48:34.426Z",
+  "reapuradoEm": "2026-11-28T16:49:23.758Z",
   "diagnosticoReapuracao": {
-    "produzidas": 21,
+    "produzidas": 14,
     "jaProntas": 0,
-    "incompletas": 7,
+    "incompletas": 11,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 21,
+    "geradas": 14,
     "reaproveitadas": 0,
-    "puladas": 7,
+    "puladas": 11,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-28T15:50:03.907Z"
+  "lapisEm": "2026-11-28T16:50:31.285Z"
 }
