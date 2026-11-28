@@ -1,44 +1,859 @@
 {
-  "geradoEm": "2026-11-28T16:49:14.384Z",
+  "geradoEm": "2026-11-28T17:48:56.268Z",
   "objetivo": "Fornecer uma fila curta para a redação automática reapurar e publicar até 11 matérias.",
   "diagnostico": {
     "totalPendentes": 80,
     "bloqueadas": 1,
     "bloqueadasEditoriais": 1,
-    "semImagem": 0,
+    "semImagem": 1,
     "duplicadasBasicas": 0,
     "duplicadasSemanticas": 0,
     "foraCategorias": 53
   },
-  "quantidadeCandidatas": 25,
+  "quantidadeCandidatas": 24,
   "tentativasRecentes": {
-    "8061b61b25745f33": 1795884554384,
-    "2db192cf7c93a198": 1795884554384,
-    "60f8e6e4f9572815": 1795884554384,
-    "79d113005d8b26fd": 1795884554384,
-    "b76a6e0d9f2c6d17": 1795884554384,
-    "ce327f9863831e85": 1795884554384,
-    "bf04564d0b44fd3a": 1795884554384,
-    "6660be109265afc2": 1795884554384,
-    "b9d2450a7bddeea8": 1795884554384,
-    "ca4834ac6eb59c1a": 1795884554384,
-    "e984abafa6eb2a68": 1795884554384,
-    "bdb95c607fd6bf15": 1795884554384,
-    "2adaf6aa9084e656": 1795884554384,
-    "8150841422829c98": 1795884554384,
-    "3b87a3f289477bcc": 1795884554384,
-    "55fdf4a8e057abac": 1795884554384,
-    "f9b24b4f87da2f9d": 1795884554384,
-    "847894e4f9adb0e8": 1795884554384,
-    "c3dbe00a1f73df0e": 1795884554384,
-    "6984fe4578ae4c82": 1795884554384,
-    "19b40ae4d6de3aba": 1795884554384,
-    "a3f3bafb2ed2c5f7": 1795884554384,
-    "518ae8907ff4ae42": 1795884554384,
-    "bb531f2bb1cda847": 1795884554384,
-    "a347866f55076e8d": 1795884554384
+    "b76a6e0d9f2c6d17": 1795888136268,
+    "ca4834ac6eb59c1a": 1795888136268,
+    "2adaf6aa9084e656": 1795888136268,
+    "8150841422829c98": 1795888136268,
+    "3b87a3f289477bcc": 1795888136268,
+    "55fdf4a8e057abac": 1795888136268,
+    "847894e4f9adb0e8": 1795888136268,
+    "c3dbe00a1f73df0e": 1795888136268,
+    "a347866f55076e8d": 1795888136268,
+    "bc4d84f484562720": 1795888136268,
+    "f6f634b3d605157f": 1795888136268,
+    "589900a8668e71fa": 1795888136268,
+    "1186691a51799f95": 1795888136268,
+    "94996d16af293518": 1795888136268,
+    "b1da39d45e3f299e": 1795888136268,
+    "68e93c4022c01e75": 1795888136268,
+    "e5fa011e2bf2dd78": 1795888136268,
+    "67927e0bb59044dd": 1795888136268,
+    "def09616eaae6253": 1795888136268,
+    "733550c813a7d497": 1795888136268,
+    "08adc32001d9947b": 1795888136268,
+    "cfd7cd669cb627eb": 1795888136268,
+    "0f3875260af5de80": 1795888136268,
+    "a9f60415d42e9410": 1795888136268
   },
   "candidatas": [
+    {
+      "id": "bc4d84f484562720",
+      "titulo": "Homem é perseguido e morto a tiros em São Gabriel da Palha",
+      "categoria": "Segurança Pública",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/es/policia/homem-e-perseguido-e-morto-a-tiros-em-sao-gabriel-da-palha-1126",
+      "dataFonte": "2026-11-28T16:37:00.000Z",
+      "resumoFonte": "Vítima de 24 anos havia ido visitar o filho quando foi baleada; antes de morrer, relatou à polícia que dois homens em uma motocicleta participaram do crime",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795882136888_image_c688a855.jpeg",
+      "descobertaEm": "2026-11-28T17:18:20.619Z"
+    },
+    {
+      "id": "f6f634b3d605157f",
+      "titulo": "Bolsonaro apresenta evolução, mas cirurgia não está descartada, diz médico",
+      "categoria": "Política Nacional",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/brasil/bolsonaro-apresenta-evolucao-mas-cirurgia-nao-esta-descartada-diz-medico",
+      "dataFonte": "2026-11-28T17:08:28.000Z",
+      "resumoFonte": "Brasil Caiado afirma que Bolsonaro voltou a evacuar e já se alimenta com dieta pastosa. Boletim de sexta apontou melhora clínica",
+      "imagem": "https://i.metroimg.com/Kb3Y4vXgyBkDoe6dW4-vdqzPPVevMIc10pYNi6Xw1Ik/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/ex-presidente-da-republica-Jair-Messias-Bolsonaro-concede-entrevista-exclusiva-ao-colunista-do-Metropoles-Igor-Gadelha-4.jpg",
+      "descobertaEm": "2026-11-28T17:18:20.619Z",
+      "reportagem": {
+        "titulo": "Bolsonaro apresenta evolução, mas cirurgia não está descartada, diz médico",
+        "slug": "bolsonaro-apresenta-evolucao-mas-cirurgia-nao-esta-descartada-diz-medico",
+        "categoria": "Política Nacional",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/bolsonaro-apresenta-evolucao-mas-cirurgia-nao-esta-descartada-diz-medico.jpg",
+        "resumo": "Brasil Caiado afirma que Bolsonaro voltou a evacuar e já se alimenta com dieta pastosa. Boletim de sexta apontou melhora clínica",
+        "conteudo": "<p>O ex-presidente Jair Bolsonaro (PL) apresenta evolução no quadro de saúde, voltou a evacuar e já consegue se alimentar com comida pastosa . Apesar da melhora, a possibilidade de uma cirurgia ainda não foi descartada pela equipe médica.</p><h2>O contexto do cenário político</h2><p>As informações foram repassadas pelo cardiologista Brasil Caiado, que acompanha Bolsonaro, em conversa com jornalistas neste sábado (28/11).</p><p>A retomada do funcionamento intestinal é um dos sinais positivos da recuperação. Bolsonaro está internado desde 20 de novembro no hospital DF Star, em Brasília , após apresentar fortes dores e distensão abdominal. O diagnóstico inicial foi de suboclusão intestinal.</p><p>Ex-presidente Jair Bolsonaro (PL) afirmou à coluna que pretende participar dos atos pelo impeachment de Lula</p><h2>Detalhes e consequências do caso</h2><p>Ex-presidente Jair Bolsonaro foi condenado pelo STF e cumpre prisão domiciliar</p><p>Na sexta-feira (27/11), boletim médico divulgado pela unidade informou que o ex-presidente apresentava “boa evolução, com melhora clínica e laboratorial”. Na ocasião, a equipe também registrou funcionamento intestinal espontâneo e boa aceitação da dieta líquida.</p><p>A evolução na dieta do ex-presidente, que passou de líquida para pastosa, no entanto, ainda é acompanhada de perto pelos médicos, que mantêm a possibilidade de intervenção cirúrgica caso o quadro exija.</p><p>Estado de saúde: Jair Bolsonaro apresenta melhora clínica, retomou o funcionamento intestinal e iniciou dieta pastosa; Quadro médico: o ex-presidente segue em tratamento de broncopneumonia e suboclusão intestinal na UTI do hospital DF Star; Possibilidade cirúrgica: apesar da evolução, a equipe médica não descarta a necessidade de uma intervenção cirúrgica.</p>",
+        "fonteNome": "Metrópoles - Feed",
+        "fonteUrl": "https://www.metropoles.com/brasil/bolsonaro-apresenta-evolucao-mas-cirurgia-nao-esta-descartada-diz-medico",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/politica"
+          },
+          {
+            "nome": "Senado Federal",
+            "url": "https://www12.senado.leg.br/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O ex-presidente Jair Bolsonaro (PL) apresenta evolução no quadro de saúde, voltou a evacuar e já consegue se alimentar com comida pastosa . Apesar da melhora, a possibilidade de uma cirurgia ainda não foi descartada pela equipe médica."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "As informações foram repassadas pelo cardiologista Brasil Caiado, que acompanha Bolsonaro, em conversa com jornalistas neste sábado (28/11)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A retomada do funcionamento intestinal é um dos sinais positivos da recuperação. Bolsonaro está internado desde 20 de novembro no hospital DF Star, em Brasília , após apresentar fortes dores e distensão abdominal. O diagnóstico inicial foi de suboclusão intestinal."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Ex-presidente Jair Bolsonaro (PL) afirmou à coluna que pretende participar dos atos pelo impeachment de Lula"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Ex-presidente Jair Bolsonaro foi condenado pelo STF e cumpre prisão domiciliar"
+          }
+        ],
+        "imagemOriginal": "https://i.metroimg.com/Kb3Y4vXgyBkDoe6dW4-vdqzPPVevMIc10pYNi6Xw1Ik/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/ex-presidente-da-republica-Jair-Messias-Bolsonaro-concede-entrevista-exclusiva-ao-colunista-do-Metropoles-Igor-Gadelha-4.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/bolsonaro-apresenta-evolucao-mas-cirurgia-nao-esta-descartada-diz-medico.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "589900a8668e71fa",
+      "titulo": "Para Mendonça de Barros, dólar a R$ 6 foi o que levou Lula a indicar Trabuco para a Fazenda",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "A Gazeta - Capa",
+      "urlFonte": "https://www.agazeta.com.br/pedra-azul-summit/para-mendonca-de-barros-dolar-a-r-6-foi-o-que-levou-lula-a-indicar-trabuco-para-a-fazenda-1126",
+      "dataFonte": "2026-11-28T16:28:08.000Z",
+      "resumoFonte": "Em painel no evento da Rede Gazeta, economista falou sobre a indicação de executivo do Bradesco para o comando do ministério e abordou também as perspectivas para a economia nos próximos meses",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795880581914_clo5685.jpg",
+      "descobertaEm": "2026-11-28T17:18:20.619Z",
+      "reportagem": {
+        "titulo": "Para Mendonça de Barros, dólar a R$ 6 foi o que levou Lula a indicar Trabuco para a Fazenda",
+        "slug": "para-mendonca-de-barros-dolar-a-r-6-foi-o-que-levou-lula-a-indicar-trabuco-para-a-fazenda",
+        "categoria": "Economia",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/para-mendonca-de-barros-dolar-a-r-6-foi-o-que-levou-lula-a-indicar-trabuco-para-a-fazenda.jpg",
+        "resumo": "Em painel no evento da Rede Gazeta, economista falou sobre a indicação de executivo do Bradesco para o comando do ministério e abordou também as perspectivas para a economia nos próximos meses",
+        "conteudo": "<p>A disparada do câmbio nas semanas seguintes à reeleição do presidente Luiz Inácio Lula da Silva (PT) foi um dos gatilhos para a escolha do nome do executivo do Bradesco Luiz Carlos Trabuco para o Ministério da Fazenda.</p><h2>Dados e contexto do setor</h2><p>Essa é a avaliação do economista José Roberto Mendonça de Barros, feita neste sábado (28) durante o painel Panorama Econômico, no segundo dia do Pedra Azul Summit , evento da Rede Gazeta , realizado na região serrana capixaba.</p><p>O encontro está na 21ª edição e reúne lideranças políticas e econômicas para desenhar o futuro do Espírito Santo, do país e do mundo.</p><p>Ao longo do painel, o economista apresentou um raio-x sobre os rumos da economia brasileira e do cenário global e seus impactos no Brasil. Falou ainda sobre as perspectivas de ajuste fiscal, inflação, dólar e juros para os próximos meses e ao longo de 2027.</p><h2>Impactos e informações adicionais</h2><p>Para o analista, o momento exige pragmatismo e atenção rigorosa às variáveis fiscais e cambiais, que ditarão a velocidade da recuperação nacional nos próximos meses e ao longo de 2027.</p><p>&quot;O que certamente levou o presidente reeleito a optar pelo Trabuco foi o dólar a R$ 6. Brasília é surda para muita coisa do que acontece no Brasil, mas o preço do dólar chega lá rapidinho.</p><p>Qualquer populista sabe que o câmbio acima de R$ 6 produz inflação e derruba popularidade. É simples, é forte e é simples&quot;, opinou.</p><p>O economista lembrou que a indicação de Trabuco ao Ministério da Fazenda alterou substancialmente a trajetória das expectativas de mercado.</p><p>Mendonça de Barros apontou que a dinâmica pré-indicação caminhava perigosamente para um quadro de atividade estagnada e inflação resistente, alimentado pelo crescimento descontrolado das despesas públicas.</p><p>Segundo ele, nos últimos anos, os gastos federais avançaram a um ritmo de 6% ao ano acima da inflação, patamar considerado fiscalmente insustentável e significativamente superior aos 4,6% registrados no governo Dilma Rousseff.</p><p>Para que a troca na Fazenda se converta em estabilidade e crescimento sustentável até 2027, o economista destacou a necessidade de consolidar um ciclo em três etapas fundamentais.</p><p>Primeiramente, o próprio presidente precisa demonstrar compromisso prático e diário com a contenção de gastos, superando o plano do mero discurso.</p><p>Em segundo lugar, o economista apontou que o novo ministro deve ser plenamente empoderado com uma equipe técnica qualificada e autonomia real. Por fim, disse que o governo precisa articular com eficiência a aprovação de reformas e medidas de ajuste junto ao Congresso Nacional.</p><p>Para um programa de ajuste dar certo, depende de três etapas: o presidente assumir o pragmatismo na prática, indicar e empoderar um ministro competente e articular o apoio necessário no Congresso Nacional.</p><p>Do ponto de vista das projeções macroeconômicas, os efeitos desse movimento ocorrerão em fases distintas.</p><p>No curto prazo, os próximos meses ainda serão marcados por uma desaceleração gradual e firme da atividade econômica, com projeção de crescimento fraco ou negativo para o terceiro trimestre.</p><p>A pressão sobre o orçamento das famílias permanece elevada, impulsionada pelo alto custo da cesta básica, pelo encarecimento dos serviços e pelo endividamento nas faixas de menor renda, agravado pelo impacto das bets.</p><p>Para o economista, à medida que a sinalização de responsabilidade fiscal se consolide e afaste os temores de medidas populistas, a tendência é de um alívio expressivo no mercado de câmbio.</p><p>Nas estimativas feitas por Mendonça de Barros, o dólar tem espaço para recuar da faixa atual para o intervalo entre R$ 5,30 e R$ 5,40, podendo se aproximar de R$ 5,00 caso as reformas fiscais avancem com firmeza.</p><p>Outro ponto destacado por ele é que a queda da moeda americana e a redução dos juros futuros devem abrir espaço para que o Banco Central retome o ciclo de cortes da taxa Selic.</p><p>No cenário internacional, o diagnóstico de Mendonça de Barros é de sobressalto e instabilidade sem precedentes recentes. A economia mundial atravessa um período de forte reorganização geopolítica e desajustes macroeconômicos que afetam diretamente as nações emergentes.</p>",
+        "fonteNome": "A Gazeta - Capa",
+        "fonteUrl": "https://www.agazeta.com.br/pedra-azul-summit/para-mendonca-de-barros-dolar-a-r-6-foi-o-que-levou-lula-a-indicar-trabuco-para-a-fazenda-1126",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A disparada do câmbio nas semanas seguintes à reeleição do presidente Luiz Inácio Lula da Silva (PT) foi um dos gatilhos para a escolha do nome do executivo do Bradesco Luiz Carlos Trabuco para o Ministério da Fazenda."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Essa é a avaliação do economista José Roberto Mendonça de Barros, feita neste sábado (28) durante o painel Panorama Econômico, no segundo dia do Pedra Azul Summit , evento da Rede Gazeta , realizado na região serrana capixaba. O encontro está na 21ª edição e reúne lideranças políticas e econômicas para desenhar o futuro do Espírito Santo, do país e do mundo."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Ao longo do painel, o economista apresentou um raio-x sobre os rumos da economia brasileira e do cenário global e seus impactos no Brasil. Falou ainda sobre as perspectivas de ajuste fiscal, inflação, dólar e juros para os próximos meses e ao longo de 2027."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Para o analista, o momento exige pragmatismo e atenção rigorosa às variáveis fiscais e cambiais, que ditarão a velocidade da recuperação nacional nos próximos meses e ao longo de 2027."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "\"O que certamente levou o presidente reeleito a optar pelo Trabuco foi o dólar a R$ 6. Brasília é surda para muita coisa do que acontece no Brasil, mas o preço do dólar chega lá rapidinho. Qualquer populista sabe que o câmbio acima de R$ 6 produz inflação e derruba popularidade. É simples, é forte e é simples\", opinou."
+          }
+        ],
+        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795880581914_clo5685.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/para-mendonca-de-barros-dolar-a-r-6-foi-o-que-levou-lula-a-indicar-trabuco-para-a-fazenda.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "1186691a51799f95",
+      "titulo": "Cleitinho sobe ao palco e canta na abertura do show de Zezé Di Camargo",
+      "categoria": "Cultura",
+      "radar": null,
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/minas-gerais/cleitinho-sobe-ao-palco-e-canta-na-abertura-do-show-de-zeze-di-camargo",
+      "dataFonte": "2026-11-28T16:57:25.000Z",
+      "resumoFonte": "Governador eleito de Minas abriu apresentação do sertanejo em evento em Nova Serrana; antes da política, ele também trabalhou como cantor",
+      "imagem": "https://i.metroimg.com/QfAtYB1BCDfmKWXuwMrc1s30MlqWsHtQ-YzccfGA6AE/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/metadinha-2x-1795883271511.jpg",
+      "descobertaEm": "2026-11-28T17:18:20.619Z"
+    },
+    {
+      "id": "94996d16af293518",
+      "titulo": "Cleitinho não ia dar certo como artista, brinca Lula",
+      "categoria": "Tecnologia",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-governo/cleitinho-nao-ia-dar-certo-como-artista-brinca-lula/",
+      "dataFonte": "2026-11-28T16:23:48.000Z",
+      "resumoFonte": "Presidente elogiou a trajetória do governador eleito de MInas e fez piada com a tentativa de seguir carreira artística",
+      "imagem": "https://static.poder360.com.br/uploads/2026/11/lula-cleitinho-alvorada-1200x675.jpg",
+      "descobertaEm": "2026-11-28T17:18:20.619Z",
+      "reportagem": {
+        "titulo": "Cleitinho não ia dar certo como artista, brinca Lula",
+        "slug": "cleitinho-nao-ia-dar-certo-como-artista-brinca-lula",
+        "categoria": "Tecnologia",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/cleitinho-nao-ia-dar-certo-como-artista-brinca-lula.jpg",
+        "resumo": "Presidente elogiou a trajetória do governador eleito de MInas e fez piada com a tentativa de seguir carreira artística.",
+        "conteudo": "<p>Presidente elogiou a trajetória do governador eleito de MInas e fez piada com a tentativa de seguir carreira artística</p><h2>Dados e contexto do setor</h2><p>O presidente Luiz Inácio Lula da Silva (PT) fez uma piada neste sábado (28.nov.2026) ao falar sobre o governador eleito de Minas Gerais, Cleitinho Azevedo (Republicanos), durante live com o deputado André Janones (Rede-MG) e o ministro da Educação, Leonardo Barchini .</p><p>Janones disse que “ainda bem” que Cleitinho abandonou o sonho da carreira artística para entrar na política. Lula respondeu e afirmou que o atual senador “não ia dar certo como artista”. Também declarou que sonhava em ser jogador de futebol, mas não conseguiu seguir nos campos.</p><p>Lula voltou a dizer que vai trabalhar em conjunto com Cleitinho . O governador eleito esteve com o presidente no Alvorada na 5ª feira (26.nov).</p><h2>Impactos e informações adicionais</h2><p>O petista afirmou que convidou Cleitinho para visitá-lo por considerar Minas Gerais um Estado importante política e economicamente. “Da parte do governo federal, a gente vai trabalhar para ajudar Minas Gerais.</p><p>Cleitinho foi simples: ‘Você me ajuda, eu te ajudo’. Então, é uma troca de ajuda que eu acho que vai ser boa para o Brasil e para Minas Gerais” , declarou.</p><p>Lula também falou da própria trajetória e elogiou a de Cleitinho, eleito no 1º turno .</p><p>“Antigamente, só chegava ao poder quem era rico, advogado, médico, fazendeiro. E agora o Brasil tem um torneiro metalúrgico no poder pela 4ª vez e um companheiro que vendia verdura, cantador de pagode, mas não canta porque tem a língua presa, governador de Minas Gerais.</p><p>É tudo que o Brasil precisa: de gente do povo governando este país” , disse.</p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-governo/cleitinho-nao-ia-dar-certo-como-artista-brinca-lula/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/"
+          },
+          {
+            "nome": "MCTI",
+            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Presidente elogiou a trajetória do governador eleito de MInas e fez piada com a tentativa de seguir carreira artística"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O presidente Luiz Inácio Lula da Silva (PT) fez uma piada neste sábado (28.nov.2026) ao falar sobre o governador eleito de Minas Gerais, Cleitinho Azevedo (Republicanos), durante live com o deputado André Janones (Rede-MG) e o ministro da Educação, Leonardo Barchini ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Janones disse que “ainda bem” que Cleitinho abandonou o sonho da carreira artística para entrar na política. Lula respondeu e afirmou que o atual senador “não ia dar certo como artista”. Também declarou que sonhava em ser jogador de futebol, mas não conseguiu seguir nos campos."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Lula voltou a dizer que vai trabalhar em conjunto com Cleitinho . O governador eleito esteve com o presidente no Alvorada na 5ª feira (26.nov)."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O petista afirmou que convidou Cleitinho para visitá-lo por considerar Minas Gerais um Estado importante política e economicamente. “Da parte do governo federal, a gente vai trabalhar para ajudar Minas Gerais. Cleitinho foi simples: ‘Você me ajuda, eu te ajudo’."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/lula-cleitinho-alvorada-1200x675.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/cleitinho-nao-ia-dar-certo-como-artista-brinca-lula.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "b1da39d45e3f299e",
+      "titulo": "Stuttgart x Eintracht Frankfurt hoje: onde assistir ao vivo e escalações",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/esportes/futebol/stuttgart-x-eintracht-frankfurt-hoje-escalacoes-28-11-2026/",
+      "dataFonte": "2026-11-28T17:01:48.000Z",
+      "resumoFonte": "Stuttgart x Eintracht Frankfurt começa às 14h30 (de Brasília) neste sábado (28), no MHP Arena, em Stuttgart, pela 11ª rodada do Campeonato Alemão 2026/27.",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/stuttgart-x-eintracht-frankfurt-1575231.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-28T17:18:20.619Z",
+      "reportagem": {
+        "titulo": "Stuttgart x Eintracht Frankfurt hoje: onde assistir ao vivo e escalações",
+        "slug": "stuttgart-x-eintracht-frankfurt-hoje-onde-assistir-ao-vivo-e-escalacoes",
+        "categoria": "Esporte",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/stuttgart-x-eintracht-frankfurt-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
+        "resumo": "Stuttgart x Eintracht Frankfurt começa às 14h30 (de Brasília) neste sábado (28), no MHP Arena, em Stuttgart, pela 11ª rodada do Campeonato Alemão 2026/27.",
+        "conteudo": "<p>Stuttgart x Eintracht Frankfurt começa às 14h30 (de Brasília) neste sábado (28), no MHP Arena, em Stuttgart, pela 11ª rodada do Campeonato Alemão 2026/27.</p><h2>As informações principais do assunto</h2><p>A transmissão de Stuttgart x Eintracht Frankfurt fica por conta de SportyNet (YouTube), Xsports (TV fechada), SportyNet e OneFootball (streaming).</p><p>Stuttgart (3-4-2-1): D. Seimen; R. Hendriks, J. Chabot, L. Jaquez; J. Leweling, G. Prömel, A. Karazor, M. Mittelstädt, D. Undav, N. Nartey; E. Demirović. Técnico: S. Hoeneb.</p><p>São cinco mudanças em relação ao último jogo, derrota por 2 a 0 para a Inter de Milão. Entram Jaquez, Leweling, Prömel, Karazor e Undav. Saem Finn Jeltsch, Vagnoman, Spalt, El Khannouss e Führich. A formação passa de 3-4-3 para 3-4-2-1.</p><h2>Contexto e informações complementares</h2><p>Eintracht Frankfurt (4-4-2): N. Atubolu; A. Knauff, R. Koch, L. Brassier, Elias Baum; R. Dōan, R. Onyedika, M. Götze, F. Chaïbi; Y. Ebnoutalib, J. Burkardt. Técnico: A. Hütter.</p><p>São duas mudanças em relação ao último jogo, vitória por 1 a 0 sobre o 1899 Hoffenheim. Entram Elias Baum e Götze. Saem Kosugi e Aséko Nkili. A formação é a mesma, 4-4-2.</p><p>Na tabela, o Stuttgart está em 8º, com 13 pontos. Em sua última apresentação, a equipe perdeu para a Inter de Milão por 2 a 0, pela Champions League. Nas últimas cinco rodadas, o retrospecto é de duas vitórias, um empate e duas derrotas.</p><p>Já o Eintracht Frankfurt chega à rodada em 7º lugar, com 15 pontos. A equipe vem de uma vitória por 1 a 0 sobre o 1899 Hoffenheim. Nos últimos cinco jogos da competição, são três vitórias, um empate e uma derrota.</p><p>Veja também o guia completo de Stuttgart x Eintracht Frankfurt</p><p>Matéria produzida automaticamente com dados da partida.</p><p>Paderborn x Schalke 04 hoje: onde assistir ao vivo e escalações</p><p>Heidenheim x Nürnberg hoje: onde assistir ao vivo e escalações</p><p>Heidenheim x Nürnberg começa às 14h30 (de Brasília) nesta sexta-feira (27), no Voith-Arena, em Heidenheim, pela 13ª rodada da segunda divisão do Campeonato Alemão 2026/27.</p><p>Mainz 05 sai atrás, vira no fim e derrota o Union Berlin</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/esportes/futebol/stuttgart-x-eintracht-frankfurt-hoje-escalacoes-28-11-2026/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Stuttgart x Eintracht Frankfurt começa às 14h30 (de Brasília) neste sábado (28), no MHP Arena, em Stuttgart, pela 11ª rodada do Campeonato Alemão 2026/27."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A transmissão de Stuttgart x Eintracht Frankfurt fica por conta de SportyNet (YouTube), Xsports (TV fechada), SportyNet e OneFootball (streaming)."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Stuttgart (3-4-2-1): D. Seimen; R. Hendriks, J. Chabot, L. Jaquez; J. Leweling, G. Prömel, A. Karazor, M. Mittelstädt, D. Undav, N. Nartey; E. Demirović. Técnico: S. Hoeneb."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "São cinco mudanças em relação ao último jogo, derrota por 2 a 0 para a Inter de Milão. Entram Jaquez, Leweling, Prömel, Karazor e Undav. Saem Finn Jeltsch, Vagnoman, Spalt, El Khannouss e Führich. A formação passa de 3-4-3 para 3-4-2-1."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Eintracht Frankfurt (4-4-2): N. Atubolu; A. Knauff, R. Koch, L. Brassier, Elias Baum; R. Dōan, R. Onyedika, M. Götze, F. Chaïbi; Y. Ebnoutalib, J. Burkardt. Técnico: A. Hütter."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/stuttgart-x-eintracht-frankfurt-1575231.png?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/stuttgart-x-eintracht-frankfurt-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "68e93c4022c01e75",
+      "titulo": "Gakiya diz que aceitaria conversar com Alckmin sobre integrar Ministério da Segurança",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "O Globo - Capa",
+      "urlFonte": "https://oglobo.globo.com/politica/noticia/2026/11/28/gakiya-diz-que-aceitaria-conversar-com-alckmin-sobre-ministerio-da-seguranca.ghtml",
+      "dataFonte": "2026-11-28T16:51:19.441Z",
+      "resumoFonte": "Promotor do Gaeco afirma ter profundo respeito pelo vice-presidente e atribui a governos do futuro ministro apoio a trabalho integrado entre Ministério Público, polícias e sistema penitenciário paulista",
+      "imagem": "https://s2-oglobo.glbimg.com/Bu8sokObXiNqATS_9TROq9SLmzY=/880x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/y/e/BZ5Z56TKSClSZZBqj3YA/lincoln.png",
+      "descobertaEm": "2026-11-28T17:20:08.863Z",
+      "reportagem": {
+        "titulo": "Gakiya diz que aceitaria conversar com Alckmin sobre integrar Ministério da Segurança",
+        "slug": "gakiya-diz-que-aceitaria-conversar-com-alckmin-sobre-integrar-ministerio-da-seguranca",
+        "categoria": "Justiça",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/gakiya-diz-que-aceitaria-conversar-com-alckmin-sobre-integrar-ministerio-da-seguranca.jpg",
+        "resumo": "Promotor do Gaeco afirma ter profundo respeito pelo vice-presidente e atribui a governos do futuro ministro apoio a trabalho integrado entre Ministério Público, polícias e sistema penitenciário paulista",
+        "conteudo": "<p>O promotor de Justiça Lincoln Gakiya, um dos principais nomes do combate ao Primeiro Comando da Capital (PCC), afirmou que terá prazer em conversar com Geraldo Alckmin caso seja procurado pelo vice-presidente para integrar a equipe do futuro Ministério da Segurança Pública .</p><h2>O contexto da decisão judicial</h2><p>Cotado para ocupar um cargo de destaque na nova estrutura, o integrante do Grupo de Atuação Especial de Combate ao Crime Organizado (Gaeco) do Ministério Público de São Paulo destacou a relação de confiança construída com Alckmin ao longo de mais de duas décadas, período em que o atual vice-presidente governou o estado.</p><p>&#39;Gafe muito ruim&#39;: Lula pede desculpas a FHC e à família do ex-presidente após chamá-lo de &#39;morto-vivo&#39; Lula 4: Camilo Santana larga na frente em disputa interna no PT, mas terá desafios à frente da Casa Civil</p><p>— Tenho profundo respeito e admiração pelo vice-presidente Alckmin. Foi durante as gestões dele que iniciei minha agência integrada entre Gaeco de Presidente Prudente, polícias Militar e a Inteligência da Secretaria da Administração Penitenciária (SAP), serviço que já dura mais de 20 anos — afirmou Gakiya.</p><h2>Detalhes e consequências do caso</h2><p>O promotor disse que a estrutura de cooperação entre os órgãos contou com o apoio do então governador, com quem manteve diversas reuniões ao longo dos anos.</p><p>Segundo ele, o trabalho contribuiu para manter o sistema prisional paulista sem rebeliões importantes ou fugas depois de 2006, além de evitar a repetição de ataques contra o Estado.</p><p>— Durante todo esse período, contei com o apoio do então governador, com quem mantive várias reuniões. Se ele vier a ser confirmado como ministro da Segurança Pública e me chamar para conversar, terei prazer em atendê-lo — disse.</p><p>A manifestação ocorre em meio à montagem da equipe do novo ministério. Como revelou O GLOBO, Alckmin aceitou o convite do presidente Luiz Inácio Lula da Silva (PT) para comandar a pasta, que será estruturada para o quarto mandato do petista.</p><p>O vice-presidente já articula a composição de sua equipe, e Gakiya aparece entre os nomes considerados para ocupar uma função de destaque na estrutura.</p><p>A relação entre os dois tem como ponto de aproximação justamente a política de enfrentamento ao crime organizado em São Paulo.</p><p>Integrante do Ministério Público paulista desde 1991, Gakiya construiu sua trajetória investigando a atuação do PCC, especialmente a estrutura da facção dentro e fora dos presídios.</p><p>O promotor é um dos responsáveis por investigações que atingiram a cúpula da organização criminosa e vive sob proteção policial em razão das ameaças atribuídas à facção.</p><p>Em 2019, por exemplo, Gakiya foi responsável pelo pedido que levou à transferência de Marcola e outras lideranças do PCC para presídios federais. A medida buscava reduzir a capacidade de articulação da facção a partir das unidades prisionais paulistas.</p>",
+        "fonteNome": "O Globo - Capa",
+        "fonteUrl": "https://oglobo.globo.com/politica/noticia/2026/11/28/gakiya-diz-que-aceitaria-conversar-com-alckmin-sobre-ministerio-da-seguranca.ghtml",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O promotor de Justiça Lincoln Gakiya, um dos principais nomes do combate ao Primeiro Comando da Capital (PCC), afirmou que terá prazer em conversar com Geraldo Alckmin caso seja procurado pelo vice-presidente para integrar a equipe do futuro Ministério da Segurança Pública ."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "'Gafe muito ruim': Lula pede desculpas a FHC e à família do ex-presidente após chamá-lo de 'morto-vivo' Lula 4: Camilo Santana larga na frente em disputa interna no PT, mas terá desafios à frente da Casa Civil"
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "— Tenho profundo respeito e admiração pelo vice-presidente Alckmin. Foi durante as gestões dele que iniciei minha agência integrada entre Gaeco de Presidente Prudente, polícias Militar e a Inteligência da Secretaria da Administração Penitenciária (SAP), serviço que já dura mais de 20 anos — afirmou Gakiya."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O promotor disse que a estrutura de cooperação entre os órgãos contou com o apoio do então governador, com quem manteve diversas reuniões ao longo dos anos. Segundo ele, o trabalho contribuiu para manter o sistema prisional paulista sem rebeliões importantes ou fugas depois de 2006, além de evitar a repetição de ataques contra o Estado."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "— Durante todo esse período, contei com o apoio do então governador, com quem mantive várias reuniões. Se ele vier a ser confirmado como ministro da Segurança Pública e me chamar para conversar, terei prazer em atendê-lo — disse."
+          }
+        ],
+        "imagemOriginal": "https://s2-oglobo.glbimg.com/Bu8sokObXiNqATS_9TROq9SLmzY=/880x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/y/e/BZ5Z56TKSClSZZBqj3YA/lincoln.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/gakiya-diz-que-aceitaria-conversar-com-alckmin-sobre-integrar-ministerio-da-seguranca.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "3b87a3f289477bcc",
+      "titulo": "Seis milhões de cigarros contrabandeados são apreendidos em Vila Velha",
+      "categoria": "Cidades",
+      "radar": null,
+      "fonteNome": "A Gazeta - Polícia",
+      "urlFonte": "https://www.agazeta.com.br/agora/seis-milhoes-de-cigarros-contrabandeados-sao-apreendidos-em-vila-velha-1126",
+      "dataFonte": "2026-11-28T15:34:12.000Z",
+      "resumoFonte": "Carga vinda do Paraguai seria comercializada na Grande Vitória; operação conjunta terminou com três homens presos em flagrante",
+      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795878935581_copia_de_homem_que_apedrejou_advogada_no_es_vira_reu_por_tentativa_de_homicidio_1.png",
+      "descobertaEm": "2026-11-28T16:18:12.618Z"
+    },
+    {
+      "id": "e5fa011e2bf2dd78",
+      "titulo": "Brasil tem maior carga tributária e juro real da América Latina",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "Poder360 - Feed",
+      "urlFonte": "https://www.poder360.com.br/poder-economia/brasil-tem-maior-carga-tributaria-e-juro-real-da-america-latina/",
+      "dataFonte": "2026-11-28T17:00:57.000Z",
+      "resumoFonte": "País também tem a 2ª maior dívida pública da região; combinação de indicadores pressiona investimentos e limita espaço fiscal",
+      "imagem": "https://static.poder360.com.br/uploads/2026/11/brasil-lidera-carga-tributaria-america-latina-24-nov-2026-02-1200x675.png",
+      "descobertaEm": "2026-11-28T17:18:20.619Z",
+      "reportagem": {
+        "titulo": "Brasil tem maior carga tributária e juro real da América Latina",
+        "slug": "brasil-tem-maior-carga-tributaria-e-juro-real-da-america-latina",
+        "categoria": "Economia",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/brasil-tem-maior-carga-tributaria-e-juro-real-da-america-latina.jpg",
+        "resumo": "País também tem a 2ª maior dívida pública da região; combinação de indicadores pressiona investimentos e limita espaço fiscal.",
+        "conteudo": "<p>País também tem a 2ª maior dívida pública da região; combinação de indicadores pressiona investimentos e limita espaço fiscal</p><h2>Os números do levantamento</h2><p>O Brasil lidera a América Latina em carga tributária e juros reais . O país registrou carga tributária equivalente a 33,7% do PIB (Produto Interno Bruto) em 2024 e tem juro real de 9,49% ao ano em novembro de 2026, os maiores índices entre os países analisados pelo Poder360 .</p><p>O país também enfrenta um elevado endividamento . Segundo projeção do FMI (Fundo Monetário Internacional), a dívida pública bruta brasileira deve encerrar 2026 em 97% do PIB, a 2ª maior da América Latina, atrás apenas da Bolívia, com 100,2%.</p><p>A combinação dos indicadores coloca o Brasil em uma posição de maior custo de capital na América Latina. Os juros elevados encarecem o crédito para empresas e consumidores, enquanto a carga tributária representa um custo adicional para a atividade econômica e os investimentos.</p><h2>Impactos e informações adicionais</h2><p>O Brasil aparece à frente da Argentina , que tem carga tributária de 27,6% do PIB, e da Nicarágua, também com 27,6%. O Uruguai ocupa a 4ª posição, com 27,3%.</p><p>Os dados da carga tributária são do levantamento mais recente da OCDE (Organização para a Cooperação e Desenvolvimento Econômico), divulgado em maio de 2026 e referente a 2024.</p><p>O país também tem o maior juro real da região, de 9,49%. A Argentina aparece em 2º lugar, com 6,80%, seguida pelo Equador, com 4,68%, por El Salvador, com 4,29%, e pela Colômbia, com 4,05%.</p><p>O indicador considera as taxas de juros de referência e os índices de inflação de cada país. Nos países sem taxa básica de juros, foram utilizadas outras taxas de referência.</p><p>O juro real é a taxa de juros descontada da inflação. Ele representa o ganho efetivo de quem empresta ou investe dinheiro e o custo real de quem toma crédito, considerando a perda do poder de compra causada pelo aumento dos preços.</p><p>A combinação de carga tributária e juros reais elevados aumenta o custo de produzir, investir e consumir no Brasil.</p><p>Os impostos reduzem a margem das empresas e podem encarecer produtos e serviços, enquanto os juros altos tornam o crédito mais caro, desestimulam investimentos e aumentam o custo de financiamento da dívida pública.</p><p>Com menos recursos disponíveis para expansão dos negócios e maior pressão sobre as contas do governo, o cenário pode limitar o crescimento econômico e reduzir a competitividade do país.</p><p>A dívida pública brasileira deve alcançar 97% do PIB no fim de 2026, segundo projeção do FMI. O resultado coloca o país atrás apenas da Bolívia, cuja dívida deve chegar a 100,2% do PIB.</p><p>O endividamento brasileiro supera o de El Salvador (85%), Argentina (69,3%) e Uruguai (67,7%).</p><p>O elevado endividamento reduz o espaço fiscal do governo e aumenta a exposição das contas públicas às despesas com juros. A dívida atrelada à Selic bateu recorde histórico em 2026.</p><p>Com uma dívida maior, uma parcela mais elevada do Orçamento pode ser comprometida com o pagamento dos encargos financeiros, limitando a capacidade de investimento e de execução de outras despesas.</p><p>O cenário também dificulta o equilíbrio entre as políticas fiscal e monetária. A ausência de um ajuste estrutural das contas públicas pode manter elevada a percepção de risco sobre a economia e dificultar a redução dos juros.</p><p>O governo tem priorizado medidas de aumento da arrecadação para buscar o equilíbrio fiscal, enquanto enfrenta resistência para promover cortes de despesas.</p><p>Sem mudanças estruturais nas contas públicas, a combinação de dívida elevada e custo financeiro alto tende a continuar pressionando a economia.</p>",
+        "fonteNome": "Poder360 - Feed",
+        "fonteUrl": "https://www.poder360.com.br/poder-economia/brasil-tem-maior-carga-tributaria-e-juro-real-da-america-latina/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "País também tem a 2ª maior dívida pública da região; combinação de indicadores pressiona investimentos e limita espaço fiscal"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O Brasil lidera a América Latina em carga tributária e juros reais . O país registrou carga tributária equivalente a 33,7% do PIB (Produto Interno Bruto) em 2024 e tem juro real de 9,49% ao ano em novembro de 2026, os maiores índices entre os países analisados pelo Poder360 ."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O país também enfrenta um elevado endividamento . Segundo projeção do FMI (Fundo Monetário Internacional), a dívida pública bruta brasileira deve encerrar 2026 em 97% do PIB, a 2ª maior da América Latina, atrás apenas da Bolívia, com 100,2%."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "A combinação dos indicadores coloca o Brasil em uma posição de maior custo de capital na América Latina. Os juros elevados encarecem o crédito para empresas e consumidores, enquanto a carga tributária representa um custo adicional para a atividade econômica e os investimentos."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O Brasil aparece à frente da Argentina , que tem carga tributária de 27,6% do PIB, e da Nicarágua, também com 27,6%. O Uruguai ocupa a 4ª posição, com 27,3%."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/brasil-lidera-carga-tributaria-america-latina-24-nov-2026-02-1200x675.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/brasil-tem-maior-carga-tributaria-e-juro-real-da-america-latina.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "67927e0bb59044dd",
+      "titulo": "Ceron vai comandar transição com Trabuco e discutir agenda além do ajuste fiscal",
+      "categoria": "Economia",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/economia/ceron-vai-comandar-transicao-com-trabuco-e-discutir-agenda-alem-do-ajuste-fiscal/",
+      "dataFonte": "2026-11-28T16:39:44.000Z",
+      "resumoFonte": "Secretário-executivo da Fazenda, Rogério Ceron 03/07/2025 REUTERS/Adriano Machado \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/02/2026-02-25T130048Z_1_LYNXMPEM1O0PE_RTROPTP_4_BRAZIL-ECONOMY-TREASURY.jpg?fit=1280%2C853&quality=70&strip=all\" />Integrantes do Ministério da Fazenda afirmam que a transição com Trabuco será…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/02/2026-02-25T130048Z_1_LYNXMPEM1O0PE_RTROPTP_4_BRAZIL-ECONOMY-TREASURY.jpg",
+      "descobertaEm": "2026-11-28T17:18:20.619Z",
+      "reportagem": {
+        "titulo": "Ceron vai comandar transição com Trabuco e discutir agenda além do ajuste fiscal",
+        "slug": "ceron-vai-comandar-transicao-com-trabuco-e-discutir-agenda-alem-do-ajuste-fiscal",
+        "categoria": "Economia",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/ceron-vai-comandar-transicao-com-trabuco-e-discutir-agenda-alem-do-ajuste-fiscal.jpg",
+        "resumo": "Integrantes do Ministério da Fazenda afirmam que a transição com Trabuco será alinhada ao atual ministro, Dario Durigan",
+        "conteudo": "<p>O secretário-executivo do Ministério da Fazenda, Rogério Ceron, vai liderar, a partir da próxima semana, a transição com o futuro ministro da pasta, Luiz Carlos Trabuco Cappi.</p><h2>Dados e contexto do setor</h2><p>As discussões devem abranger propostas de ajuste fiscal e outros temas da agenda econômica do governo Lula.</p><p>Trabuco aceitou o convite do presidente Luiz Inácio Lula da Silva para assumir o Ministério da Fazenda em seu quarto mandato, com o desafio de equilibrar as contas públicas e conter a trajetória de alta da dívida.</p><p>Integrantes do Ministério da Fazenda afirmam que a transição com Trabuco será alinhada ao atual ministro, Dario Durigan.</p><h2>Impactos e informações adicionais</h2><p>Além do debate sobre as medidas de ajuste fiscal necessárias à sustentabilidade das contas públicas, Ceron deve discutir outros temas com o futuro ministro, entre eles questões tributárias, mercado de carbono, assuntos regulatórios, emissões e estratégia de dívida.</p><p>Presidente do Conselho de Administração do Bradesco, Trabuco defende recuperar o controle do Orçamento, revisar os benefícios tributários e cortar despesas sem aumentar impostos. No seu diagnóstico, a melhora na trajetória da dívida abre caminho para a queda dos juros.</p><p>Trabuco foi o primeiro ministro confirmado para o quarto mandato de Lula. A escolha indica que o presidente fará um ajuste fiscal mais rigoroso em sua próxima gestão, o que já provoca críticas dentro do PT.</p><p>A nomeação levou o Ibovespa, o principal índice da Bolsa brasileira, a ter a melhor semana desde o primeiro turno, enquanto o dólar caiu 7%, para R$ 5,51.</p><p>Com o anúncio do ministro da Fazenda, Lula dá o pontapé inicial na montagem da Esplanada em seu quarto mandato.</p><p>A expectativa é que, nos próximos dias, sejam confirmados Camilo Santana (PT) na Casa Civil e o vice-presidente Geraldo Alckmin (PSB) no novo Ministério da Segurança Pública.</p><p>Além disso, o ministro Bruno Moretti deve continuar à frente do Planejamento e Orçamento. Ele formulou o primeiro pacote de medidas de ajuste fiscal aprovado pelo Congresso na última segunda-feira, 23, com impacto estimado em R$ 50 bilhões para o próximo ano.</p><p>Alexandre Padilha, por sua vez, seguiria comandando a Saúde. Partidos de centro que integraram o terceiro mandato do petista devem manter presença na Esplanada a partir de 2027.</p><p>O MDB, por exemplo, seguiria com Transportes –o governo chegou a oferecer também Previdência, mas o partido não quis. O PSD continuaria com Agricultura, pasta que já comanda hoje.</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/economia/ceron-vai-comandar-transicao-com-trabuco-e-discutir-agenda-alem-do-ajuste-fiscal/",
+        "fontesAdicionais": [
+          {
+            "nome": "Agência Brasil Economia",
+            "url": "https://agenciabrasil.ebc.com.br/economia"
+          },
+          {
+            "nome": "Banco Central",
+            "url": "https://www.bcb.gov.br/detalhenoticia"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O secretário-executivo do Ministério da Fazenda, Rogério Ceron, vai liderar, a partir da próxima semana, a transição com o futuro ministro da pasta, Luiz Carlos Trabuco Cappi. As discussões devem abranger propostas de ajuste fiscal e outros temas da agenda econômica do governo Lula."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Trabuco aceitou o convite do presidente Luiz Inácio Lula da Silva para assumir o Ministério da Fazenda em seu quarto mandato, com o desafio de equilibrar as contas públicas e conter a trajetória de alta da dívida."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Integrantes do Ministério da Fazenda afirmam que a transição com Trabuco será alinhada ao atual ministro, Dario Durigan."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Além do debate sobre as medidas de ajuste fiscal necessárias à sustentabilidade das contas públicas, Ceron deve discutir outros temas com o futuro ministro, entre eles questões tributárias, mercado de carbono, assuntos regulatórios, emissões e estratégia de dívida."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Presidente do Conselho de Administração do Bradesco, Trabuco defende recuperar o controle do Orçamento, revisar os benefícios tributários e cortar despesas sem aumentar impostos. No seu diagnóstico, a melhora na trajetória da dívida abre caminho para a queda dos juros."
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/02/2026-02-25T130048Z_1_LYNXMPEM1O0PE_RTROPTP_4_BRAZIL-ECONOMY-TREASURY.jpg",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/ceron-vai-comandar-transicao-com-trabuco-e-discutir-agenda-alem-do-ajuste-fiscal.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "def09616eaae6253",
+      "titulo": "Trump foi o 1º vencedor do Prêmio Nobel da Paz da FIFA – ele também pode ser o último",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "InfoMoney",
+      "urlFonte": "https://www.infomoney.com.br/business/global/trump-foi-o-1o-vencedor-do-premio-nobel-da-paz-da-fifa-ele-tambem-pode-ser-o-ultimo/",
+      "dataFonte": "2026-11-28T16:59:35.000Z",
+      "resumoFonte": "NÃO REUTILIZAR \" data-image-caption=\" O presidente da FIFA, Gianni Infantino, entrega o Prêmio da Paz da FIFA ao presidente Donald Trump durante o sorteio final da Copa do Mundo, no Kennedy Center, em Washington, em 5 de dezembro de 2025. A FIFA designou recentemente um comitê para revisar os motivos da criação do prêmio e se ele deveria sequer…",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/Captura-de-tela-2026-11-28-135518.png",
+      "descobertaEm": "2026-11-28T17:18:20.619Z",
+      "reportagem": {
+        "titulo": "Trump foi o 1º vencedor do Prêmio Nobel da Paz da FIFA - ele também pode ser o último",
+        "slug": "trump-foi-o-1-vencedor-do-premio-nobel-da-paz-da-fifa-ele-tambem-pode-ser-o-ultimo",
+        "categoria": "Esporte",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/trump-foi-o-1-vencedor-do-premio-nobel-da-paz-da-fifa-ele-tambem-pode-ser-o-ultimo.jpg",
+        "resumo": "A FIFA designou recentemente um comitê para analisar os motivos da criação do prêmio e se ele deveria sequer existir",
+        "conteudo": "<p>Em dezembro passado, Gianni Infantino, presidente da FIFA, entregou ao presidente Donald Trump o prêmio inaugural da paz concedido pela entidade máxima do futebol mundial. Trump pode ser o último a receber a premiação.</p><h2>As informações principais do assunto</h2><p>A FIFA designou recentemente um comitê para analisar os motivos da criação do prêmio e se ele deveria sequer existir.</p><p>A entidade máxima do futebol está inclinada a cancelar ou reformular a premiação, segundo três dirigentes do futebol, que falaram sob condição de anonimato para descrever as deliberações internas.</p><p>A pressão para repensar o prêmio reflete uma preocupação generalizada com os laços estreitos entre Infantino e Trump, bem como questionamentos sobre quem aceitaria um prêmio subsequente, disseram dois altos funcionários do futebol.</p><h2>Contexto e informações complementares</h2><p>Todo dia você tem acesso antecipado a conteúdos do InfoMoney</p><p>Ao longo do último ano, o Prêmio da Paz da FIFA tornou-se um símbolo da conturbada gestão de Infantino no topo do futebol mundial, particularmente sua tentativa de conquistar o apoio do presidente dos EUA.</p><p>Infantino criou o prêmio em 2025, após um ativista venezuelano ter recebido o Prêmio Nobel da Paz daquele ano. Ele apresentou a versão da FIFA no sorteio da Copa do Mundo em dezembro daquele ano a Trump, que a considerou “uma das maiores honras da minha vida”.</p><p>A Copa do Mundo de 2026 foi marcada por questionamentos sobre interferência política, principalmente depois que a FIFA suspendeu a punição de um jogador americano após um telefonema entre Infantino e Trump.</p><p>Pouco tempo depois, veio à tona que Infantino havia mantido conversas secretas para vender parte dos futuros torneios a um fundo privado administrado pelo irmão de Jared Kushner, genro de Trump.</p><p>Esse plano gerou indignação e motivou investigações e pedidos de renúncia de Infantino.</p><p>Infantino negou qualquer irregularidade e tem viajado pelo mundo em um jato particular do Catar para consolidar o apoio à sua candidatura à reeleição em março. Adiar a entrega do prêmio seria uma concessão aos seus críticos.</p><p>Lise Klaveness, presidente da federação norueguesa de futebol, afirmou: “O prêmio concedido no sorteio realizado em Washington, D.C., em dezembro passado, carecia de legitimidade e de qualquer fundamento nos estatutos e regulamentos da FIFA.”</p><p>No período que antecedeu a Copa do Mundo, Infantino parecia focado em conquistar o presidente dos EUA.</p><p>Ele se mudou para os Estados Unidos dois anos antes do torneio e se alinhou estreitamente com Trump, atuando como seu porta-voz em eventos públicos, viajando com ele em viagens internacionais e assinando um contrato de aluguel de US$ 4 milhões para um escritório na Trump Tower, que permanece praticamente vazio.</p><p>A criação do prêmio da paz foi apressada e secreta, com os funcionários tendo apenas algumas semanas para organizá-lo, disseram os altos dirigentes do futebol.</p><p>A FIFA havia considerado realizar o sorteio da Copa do Mundo em Las Vegas, mas optou por Washington, em parte porque realizar o evento lá aumentaria as chances de garantir a presença de Trump.</p><p>Um troféu para o prêmio de futebol da paz foi encomendado a dois escultores azerbaijanos, um dos quais tinha um filho que atuava como dirigente da FIFA.</p><p>Na cerimônia de dezembro, Infantino entregou a Trump uma medalha de ouro, um certificado e o troféu.</p><p>A morte de Reed ocorre semanas depois de um acidente durante o Crown Jewel, evento realizado em 7 de novembro, em Riad, na Arábia Saudita</p>",
+        "fonteNome": "InfoMoney",
+        "fonteUrl": "https://www.infomoney.com.br/business/global/trump-foi-o-1o-vencedor-do-premio-nobel-da-paz-da-fifa-ele-tambem-pode-ser-o-ultimo/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Em dezembro passado, Gianni Infantino, presidente da FIFA, entregou ao presidente Donald Trump o prêmio inaugural da paz concedido pela entidade máxima do futebol mundial. Trump pode ser o último a receber a premiação."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A FIFA designou recentemente um comitê para analisar os motivos da criação do prêmio e se ele deveria sequer existir. A entidade máxima do futebol está inclinada a cancelar ou reformular a premiação, segundo três dirigentes do futebol, que falaram sob condição de anonimato para descrever as deliberações internas."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "A pressão para repensar o prêmio reflete uma preocupação generalizada com os laços estreitos entre Infantino e Trump, bem como questionamentos sobre quem aceitaria um prêmio subsequente, disseram dois altos funcionários do futebol."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Todo dia você tem acesso antecipado a conteúdos do InfoMoney"
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Ao longo do último ano, o Prêmio da Paz da FIFA tornou-se um símbolo da conturbada gestão de Infantino no topo do futebol mundial, particularmente sua tentativa de conquistar o apoio do presidente dos EUA."
+          }
+        ],
+        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/Captura-de-tela-2026-11-28-135518.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/trump-foi-o-1-vencedor-do-premio-nobel-da-paz-da-fifa-ele-tambem-pode-ser-o-ultimo.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "733550c813a7d497",
+      "titulo": "Koln faz 5 a 0 no Elversberg",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/esportes/futebol/koln-faz-5-a-0-no-elversberg-28-11-2026/",
+      "dataFonte": "2026-11-28T16:31:57.000Z",
+      "resumoFonte": "O Koln goleou o Elversberg por 5 a 0 neste sábado (28), no RheinEnergieStadion, em Colônia, pela 11ª rodada da Bundesliga.",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/koln-x-elversberg-1575236.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-28T17:18:20.619Z",
+      "reportagem": {
+        "titulo": "Koln faz 5 a 0 no Elversberg",
+        "slug": "koln-faz-5-a-0-no-elversberg",
+        "categoria": "Esporte",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/koln-faz-5-a-0-no-elversberg.jpg",
+        "resumo": "O Koln goleou o Elversberg por 5 a 0 neste sábado (28), no RheinEnergieStadion, em Colônia, pela 11ª rodada da Bundesliga.",
+        "conteudo": "<p>O Koln goleou o Elversberg por 5 a 0 neste sábado (28), no RheinEnergieStadion, em Colônia, pela 11ª rodada da Bundesliga.</p><h2>As informações principais do assunto</h2><p>A vitória leva o Koln a 13 pontos. O Elversberg permanece com 13 pontos. A vitória encerra uma sequência de três jogos sem vencer do Koln.</p><p>O primeiro gol saiu aos 8 minutos do primeiro tempo, com Marius Bülter, para o Koln, após assistência de Borna Sosa. Aos 16, Said El Mala fez 2 a 0. O terceiro do Koln foi de Marius Bülter, aos 39, após assistência de Borna Sosa. Foi o segundo dele no jogo.</p><p>O Koln chegou a 4 a 0 aos 18 minutos do segundo tempo, com Marius Bülter. Foi o terceiro dele no jogo. Cinco minutos depois, Said El Mala ampliou, com assistência de Joel Schmied. Era o segundo dele na partida.</p><h2>Contexto e informações complementares</h2><p>Pelo lado do Koln, Borna Sosa terminou com duas assistências.</p><p>O Elversberg finalizou mais, 24 a 19, e mesmo assim perdeu. No alvo, foram 6 de cada lado.</p><p>O próximo jogo do Koln é na terça-feira (1/12), contra o Holstein Kiel, pela Copa da Alemanha. O Elversberg enfrenta o Stuttgart no domingo (6/12).</p><p>Matéria produzida automaticamente com dados da partida.</p><p>Koln x Elversberg: onde assistir ao vivo, horário e escalações</p><p>Veja onde assistir a Koln x Elversberg pela Bundesliga</p><p>Mainz 05 sai atrás, vira no fim e derrota o Union Berlin</p><p>Hamburgo x Bayern de Munique hoje: onde assistir ao vivo e escalações</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/esportes/futebol/koln-faz-5-a-0-no-elversberg-28-11-2026/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O Koln goleou o Elversberg por 5 a 0 neste sábado (28), no RheinEnergieStadion, em Colônia, pela 11ª rodada da Bundesliga."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A vitória leva o Koln a 13 pontos. O Elversberg permanece com 13 pontos. A vitória encerra uma sequência de três jogos sem vencer do Koln."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O primeiro gol saiu aos 8 minutos do primeiro tempo, com Marius Bülter, para o Koln, após assistência de Borna Sosa. Aos 16, Said El Mala fez 2 a 0. O terceiro do Koln foi de Marius Bülter, aos 39, após assistência de Borna Sosa. Foi o segundo dele no jogo."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O Koln chegou a 4 a 0 aos 18 minutos do segundo tempo, com Marius Bülter. Foi o terceiro dele no jogo. Cinco minutos depois, Said El Mala ampliou, com assistência de Joel Schmied. Era o segundo dele na partida."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Pelo lado do Koln, Borna Sosa terminou com duas assistências."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/koln-x-elversberg-1575236.png?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/koln-faz-5-a-0-no-elversberg.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "08adc32001d9947b",
+      "titulo": "Paderborn faz 8 a 1 no Schalke 04",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/esportes/futebol/paderborn-faz-8-a-1-no-schalke-04-28-11-2026/",
+      "dataFonte": "2026-11-28T16:29:45.000Z",
+      "resumoFonte": "Foi goleada: o Paderborn fez 8 a 1 no Schalke 04 neste sábado (28), no Home Deluxe Arena, em Paderborn, pela 11ª rodada da Bundesliga.",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/paderborn-x-schalke-04-1575238.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-28T17:18:20.619Z",
+      "reportagem": {
+        "titulo": "Paderborn faz 8 a 1 no Schalke 04",
+        "slug": "paderborn-faz-8-a-1-no-schalke-04",
+        "categoria": "Esporte",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/paderborn-faz-8-a-1-no-schalke-04.jpg",
+        "resumo": "Foi goleada: o Paderborn fez 8 a 1 no Schalke 04 neste sábado (28), no Home Deluxe Arena, em Paderborn, pela 11ª rodada da Bundesliga.",
+        "conteudo": "<p>Foi goleada: o Paderborn fez 8 a 1 no Schalke 04 neste sábado (28), no Home Deluxe Arena, em Paderborn, pela 11ª rodada da Bundesliga.</p><h2>As informações principais do assunto</h2><p>Com o resultado, o Paderborn chega a 13 pontos. O Schalke 04 fica com 7 pontos. O Schalke 04 está há nove jogos sem vencer.</p><p>O primeiro gol saiu aos 21 minutos do primeiro tempo, com Jano ter Horst, para o Paderborn, após assistência de Tjark Scheller. O segundo do Paderborn foi de Stefano Marino, aos 39.</p><p>O Paderborn chegou a 3 a 0 nos acréscimos do primeiro tempo, com Stefano Marino, após assistência de Laurin Curda. Era o segundo dele na partida.</p><h2>Contexto e informações complementares</h2><p>Steffen Tigges marcou o quarto aos 10 minutos do segundo tempo. Dois minutos depois saiu mais um: Stefano Marino fez 5 a 0, após assistência de Ruben Müller. Foi o terceiro dele no jogo.</p><p>Dois minutos depois, Adil Aouchiche descontou. Deniz Zeitler, que tinha entrado 14 minutos antes, marcou o sexto do Paderborn aos 28, após assistência de Gabriel Vidović.</p><p>Gabriel Vidović converteu pênalti aos 40 e fez 7 a 1. O oitavo do Paderborn veio do banco: Felix Götze, que tinha entrado 19 minutos antes, marcou nos acréscimos do segundo tempo.</p><p>Steffen Tigges saiu de campo com um gol e uma assistência.</p><p>Nas finalizações, o Paderborn levou vantagem: 24 a 8. Na direção do gol, o Paderborn acertou 11, e o Schalke 04, 3.</p><p>O Paderborn enfrenta o Bayern de Munique na sexta-feira (4/12). O Schalke 04 volta a campo no domingo (6/12), contra o Borussia Dortmund.</p><p>Matéria produzida automaticamente com dados da partida.</p><p>Niclas Füllkrug marca no fim, e Werder Bremen arranca empate com o Borussia Mönchengladbach</p><p>Paderborn x Schalke 04 hoje: onde assistir ao vivo e escalações</p><p>O Paderborn e o Schalke 04 se enfrentam às 11h30 (de Brasília) neste sábado (28), no Home Deluxe Arena, em Paderborn, pela 11ª rodada do Campeonato Alemão 2026/27.</p><p>Mainz 05 sai atrás, vira no fim e derrota o Union Berlin</p><p>Hamburgo x Bayern de Munique hoje: onde assistir ao vivo e escalações</p><p>Koln x Elversberg hoje: onde assistir ao vivo e escalações</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/esportes/futebol/paderborn-faz-8-a-1-no-schalke-04-28-11-2026/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "Foi goleada: o Paderborn fez 8 a 1 no Schalke 04 neste sábado (28), no Home Deluxe Arena, em Paderborn, pela 11ª rodada da Bundesliga."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Com o resultado, o Paderborn chega a 13 pontos. O Schalke 04 fica com 7 pontos. O Schalke 04 está há nove jogos sem vencer."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O primeiro gol saiu aos 21 minutos do primeiro tempo, com Jano ter Horst, para o Paderborn, após assistência de Tjark Scheller. O segundo do Paderborn foi de Stefano Marino, aos 39. O Paderborn chegou a 3 a 0 nos acréscimos do primeiro tempo, com Stefano Marino, após assistência de Laurin Curda. Era o segundo dele na partida."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Steffen Tigges marcou o quarto aos 10 minutos do segundo tempo. Dois minutos depois saiu mais um: Stefano Marino fez 5 a 0, após assistência de Ruben Müller. Foi o terceiro dele no jogo. Dois minutos depois, Adil Aouchiche descontou. Deniz Zeitler, que tinha entrado 14 minutos antes, marcou o sexto do Paderborn aos 28, após assistência de Gabriel Vidović."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Steffen Tigges saiu de campo com um gol e uma assistência."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/paderborn-x-schalke-04-1575238.png?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/paderborn-faz-8-a-1-no-schalke-04.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "cfd7cd669cb627eb",
+      "titulo": "Mainz 05 sai atrás, vira no fim e derrota o Union Berlin",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Jovem Pan - Feed",
+      "urlFonte": "https://jovempan.com.br/esportes/futebol/mainz-05-sai-atras-vira-no-fim-e-derrota-o-union-berlin-28-11-2026/",
+      "dataFonte": "2026-11-28T16:24:54.000Z",
+      "resumoFonte": "A virada do Mainz 05 só se completou no fim. Neste sábado (28), no MEWA Arena, em Mainz, Anthony Caci marcou o gol que decidiu o 2 a 1 sobre o Union Berlin, pela 11ª rodada da Bundesliga.",
+      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/mainz-05-x-union-berlin-1575234.png?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-28T17:18:20.619Z",
+      "reportagem": {
+        "titulo": "Mainz 05 sai atrás, vira no fim e derrota o Union Berlin",
+        "slug": "mainz-05-sai-atras-vira-no-fim-e-derrota-o-union-berlin",
+        "categoria": "Esporte",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/mainz-05-sai-atras-vira-no-fim-e-derrota-o-union-berlin.jpg",
+        "resumo": "A virada do Mainz 05 só se completou no fim. Neste sábado (28), no MEWA Arena, em Mainz, Anthony Caci marcou o gol que decidiu o 2 a 1 sobre o Union Berlin, pela 11ª rodada da Bundesliga.",
+        "conteudo": "<p>A virada do Mainz 05 só se completou no fim. Neste sábado (28), no MEWA Arena, em Mainz, Anthony Caci marcou o gol que decidiu o 2 a 1 sobre o Union Berlin, pela 11ª rodada da Bundesliga.</p><h2>As informações principais do assunto</h2><p>O primeiro gol saiu aos 37 minutos do primeiro tempo, com Janik Haberer, para o Union Berlin, com assistência de Kastriot Imeri.</p><p>Phillip Tietz, que tinha entrado 19 minutos antes, empatou aos 40 minutos do segundo tempo, após assistência de Nadiem Amiri. Anthony Caci pôs o Mainz 05 na frente nos acréscimos do segundo tempo, após assistência de Nadiem Amiri: 2 a 1.</p><p>Pelo lado do Mainz 05, Nadiem Amiri terminou com duas assistências.</p><h2>Contexto e informações complementares</h2><p>O Mainz 05 finalizou 17 vezes, e o Union Berlin, 10. No alvo, foram 6 do Mainz 05 e 4 do Union Berlin.</p><p>O Mainz 05 vai a 13 pontos. O Union Berlin segue com 7 pontos. A vitória encerra uma sequência de cinco jogos sem vencer do Mainz 05.</p><p>O Mainz 05 enfrenta o RB Leipzig no sábado (5/12). O Union Berlin volta a campo no sábado (5/12), contra o Hamburgo.</p><p>Matéria produzida automaticamente com dados da partida.</p><p>Hertha Berlin x Karlsruher SC hoje: onde assistir ao vivo e escalações</p><p>Mainz 05 x Union Berlin: onde assistir ao vivo, horário e escalações</p><p>Partida entre Mainz 05 e Union Berlin é neste sábado (28), às 11h30, no MEWA Arena</p><p>Hamburgo x Bayern de Munique hoje: onde assistir ao vivo e escalações</p><p>Paderborn x Schalke 04 hoje: onde assistir ao vivo e escalações</p><p>Koln x Elversberg hoje: onde assistir ao vivo e escalações</p>",
+        "fonteNome": "Jovem Pan - Feed",
+        "fonteUrl": "https://jovempan.com.br/esportes/futebol/mainz-05-sai-atras-vira-no-fim-e-derrota-o-union-berlin-28-11-2026/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A virada do Mainz 05 só se completou no fim. Neste sábado (28), no MEWA Arena, em Mainz, Anthony Caci marcou o gol que decidiu o 2 a 1 sobre o Union Berlin, pela 11ª rodada da Bundesliga."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "O primeiro gol saiu aos 37 minutos do primeiro tempo, com Janik Haberer, para o Union Berlin, com assistência de Kastriot Imeri."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Phillip Tietz, que tinha entrado 19 minutos antes, empatou aos 40 minutos do segundo tempo, após assistência de Nadiem Amiri. Anthony Caci pôs o Mainz 05 na frente nos acréscimos do segundo tempo, após assistência de Nadiem Amiri: 2 a 1."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Pelo lado do Mainz 05, Nadiem Amiri terminou com duas assistências."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O Mainz 05 finalizou 17 vezes, e o Union Berlin, 10. No alvo, foram 6 do Mainz 05 e 4 do Union Berlin."
+          }
+        ],
+        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/mainz-05-x-union-berlin-1575234.png?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/mainz-05-sai-atras-vira-no-fim-e-derrota-o-union-berlin.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "0f3875260af5de80",
+      "titulo": "Atraso salarial no Corinthians: “Não interfere”, diz presidente",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "CNN Brasil",
+      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/corinthians/atraso-salarial-no-corinthians-nao-interfere-diz-presidente/",
+      "dataFonte": "2026-11-28T16:04:44.000Z",
+      "resumoFonte": "Mandatário do Timão esteve no Parque São Jorge para eleição e comentou débitos, dias antes de jogo decisivo contra o Grêmio pelo Brasileiro",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/osmar-stabile-e1781825044551.jpg?w=1200&h=630&crop=1",
+      "descobertaEm": "2026-11-28T17:18:20.619Z",
+      "reportagem": {
+        "titulo": "Atraso salarial no Corinthians: \"Não interfere\", diz presidente",
+        "slug": "atraso-salarial-no-corinthians-nao-interfere-diz-presidente",
+        "categoria": "Esporte",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/atraso-salarial-no-corinthians-nao-interfere-diz-presidente.jpg",
+        "resumo": "Mandatário do Timão esteve no Parque São Jorge para eleição e comentou débitos, dias antes de jogo decisivo contra o Grêmio pelo Brasileiro",
+        "conteudo": "<p>O presidente do Corinthians, Osmar Stabile, falou neste sábado (28) sobre o atraso salarial do elenco, em meio à luta do clube contra o rebaixamento na Série A do Campeonato Brasileiro. A diretoria deve um mês de salário CLT e quatro meses de direitos de imagem aos atletas.</p><h2>As informações principais do assunto</h2><p>Stabile reconheceu a chateação de não honrar os compromissos financeiros , mas demonstrou confiança no profissionalismo dos jogadores. Segundo o dirigente, a questão não interfere no desempenho nem no dia a dia do elenco, apesar do contexto difícil.</p><p>“Não interfere nos jogadores. O contexto não é bom, mas confio nos atletas, são profissionais. Não interfere no futebol, no dia a dia. Todo mundo que deixa de receber fica triste, assim como eu estou, por não conseguir honrar os contratos”, afirmou Stabile.</p><p>Osmar Stabile esteve no Parque São Jorge, em São Paulo, para votar na eleição presidencial do Corinthians , válida para o próximo triênio. Concorrem ao pleito Sergio Janikian, André Castro, Rozallah Santoro, José Mendes e Ilmar Schiavenato.</p><h2>Contexto e informações complementares</h2><p>O presidente lamentou não ter conseguido vender jogadores ao longo de sua gestão, o que, segundo ele, limitou a entrada de “dinheiro novo” no clube.</p><p>“Se pudesse voltar atrás, teria vendido, completaria a gestão no zero a zero, e não fiz. Conseguimos trazer condições financeiras, tudo, mas não atendemos à expectativa, aos R$ 400 milhões”, disse o mandatário.</p><p>O Corinthians enfrenta o Grêmio neste domingo (29), na Neo Química Arena, a partir das 18h30 (de Brasília). O confronto é direto na luta contra o rebaixamento no Campeonato Brasileiro.</p><p>Atualmente, o Timão ocupa a 15ª posição , com 41 pontos. O Grêmio está na 16ª colocação com a mesma pontuação, assim como o Mirassol, que abre a zona de rebaixamento.</p><p>Esse texto foi gerado por inteligência artificial com base no conteúdo produzido pela Itatiaia. Todas as informações são apuradas e checadas por jornalistas. O texto final também passa pela revisão da equipe de jornalismo da CNN Brasil.</p><p>Osmar Stabile, presidente do Corinthians, tem que resolver pendências no RCE</p>",
+        "fonteNome": "CNN Brasil",
+        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/futebol/corinthians/atraso-salarial-no-corinthians-nao-interfere-diz-presidente/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O presidente do Corinthians, Osmar Stabile, falou neste sábado (28) sobre o atraso salarial do elenco, em meio à luta do clube contra o rebaixamento na Série A do Campeonato Brasileiro. A diretoria deve um mês de salário CLT e quatro meses de direitos de imagem aos atletas."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "Stabile reconheceu a chateação de não honrar os compromissos financeiros , mas demonstrou confiança no profissionalismo dos jogadores. Segundo o dirigente, a questão não interfere no desempenho nem no dia a dia do elenco, apesar do contexto difícil."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "“Não interfere nos jogadores. O contexto não é bom, mas confio nos atletas, são profissionais. Não interfere no futebol, no dia a dia. Todo mundo que deixa de receber fica triste, assim como eu estou, por não conseguir honrar os contratos”, afirmou Stabile."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Osmar Stabile esteve no Parque São Jorge, em São Paulo, para votar na eleição presidencial do Corinthians , válida para o próximo triênio. Concorrem ao pleito Sergio Janikian, André Castro, Rozallah Santoro, José Mendes e Ilmar Schiavenato."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "O presidente lamentou não ter conseguido vender jogadores ao longo de sua gestão, o que, segundo ele, limitou a entrada de “dinheiro novo” no clube."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/osmar-stabile-e1781825044551.jpg?w=1200&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/atraso-salarial-no-corinthians-nao-interfere-diz-presidente.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
+      "id": "a9f60415d42e9410",
+      "titulo": "Argentina perde tentativa de impedir exploração de petróleo nas Malvinas",
+      "categoria": "Justiça",
+      "radar": null,
+      "fonteNome": "CNN Brasil - Capa",
+      "urlFonte": "https://www.cnnbrasil.com.br/internacional/argentina-perde-tentativa-de-impedir-exploracao-de-petroleo-nas-malvinas/",
+      "dataFonte": "2026-11-28T16:43:43.000Z",
+      "resumoFonte": "Decisão representa mais um revés para a reivindicação de soberania sobre as ilhas; tribunal decidiu por 18 votos a 3 contra pedido argentino",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/Malvinas.jpg?w=960&h=630&crop=1",
+      "descobertaEm": "2026-11-28T17:20:08.863Z",
+      "reportagem": {
+        "titulo": "Argentina perde tentativa de impedir exploração de petróleo nas Malvinas",
+        "slug": "argentina-perde-tentativa-de-impedir-exploracao-de-petroleo-nas-malvinas",
+        "categoria": "Justiça",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/argentina-perde-tentativa-de-impedir-exploracao-de-petroleo-nas-malvinas.jpg",
+        "resumo": "Decisão representa mais um revés para a reivindicação de soberania sobre as ilhas; tribunal decidiu por 18 votos a 3 contra pedido argentino",
+        "conteudo": "<p>O pedido da Argentina para bloquear temporariamente a exploração de petróleo autorizada pelo Reino Unido na costa das Ilhas Malvinas foi rejeitado por um tribunal internacional neste sábado (28).</p><h2>O contexto da decisão judicial</h2><p>A decisão representa mais um revés para a reivindicação argentina de soberania sobre as ilhas.</p><p>O TIDM (Tribunal Internacional do Direito do Mar) decidiu por 18 votos a 3 contra o pedido da Argentina para que a perfuração de petróleo fosse suspensa no projeto do campo petrolífero Sea Lion , nas águas ao largo da costa das Ilhas Malvinas, território disputado há muito tempo e situado a cerca de 480 quilômetros a leste da costa sudeste da Argentina.</p><p>O presidente argentino, Javier Milei, havia solicitado ao tribunal que analisasse a disputa em outubro, quando também anunciou planos para sancionar as empresas petrolíferas que operam ao redor das ilhas conhecidas na Argentina como Las Malvinas.</p><h2>Detalhes e consequências do caso</h2><p>Milei considerou a atividade planejada pelo Reino Unido como uma ameaça à economia argentina, afirmando que a inação por parte de seu país permitiria ao Reino Unido &quot;possuir a capacidade física de explorar as reservas de petróleo que se encontram sob nossas águas&quot;.</p><p>Ele também enfatizou que permitir que o Reino Unido prosseguisse com o projeto do campo petrolífero poderia &quot;criar um incentivo para que o Reino Unido aprofundasse sua ocupação&quot; e &quot;continuasse explorando nossos recursos&quot;.</p><p>A Argentina também tentou impedir que o Reino Unido concedesse novas autorizações para a exploração de recursos marítimos antes da divulgação do veredicto.</p><p>Mas o Reino Unido argumentou que a medida negaria aos habitantes das Ilhas Malvinas – uma população de aproximadamente 3.500 pessoas – a oportunidade de desenvolver seus recursos naturais , além de ter um impacto “devastador” na economia do território.</p><p>O Tribunal Internacional do Direito do Mar afirmou ter rejeitado a reclamação da Argentina devido à disputa em curso com o Reino Unido.</p><p>O tribunal independente declarou que acolher a reclamação estaria fora de sua jurisdição: &quot;Isso envolveria a aplicação de normas de direito internacional que estão completamente fora do âmbito do direito do mar&quot;, diz a decisão final.</p><p>O chanceler britânico, Ed Miliband, saudou a decisão deste sábado que permite a continuação da perfuração.</p><p>“Este resultado é uma confirmação da sólida defesa jurídica e da estratégia do Reino Unido”, disse o secretário das Relações Exteriores em um comunicado.</p><p>“A Argentina tentou impedir que os habitantes das Ilhas Malvinas tomassem suas próprias decisões soberanas e falhou nessa tentativa”, comentou Miliband, antes de instar a Argentina a “respeitar o direito dos habitantes das Ilhas Malvinas de determinar seu próprio futuro”.</p><p>Milei afirmou que a Argentina respeitará a decisão do tribunal de Hamburgo, mas prometeu que o país “continuará a defender seus direitos (de soberania) no âmbito do direito internacional”, acrescentando: “Esta decisão não é a palavra final”.</p><p>A perfuração está prevista para começar em março de 2027, segundo o governo britânico, e a extração deverá ter início um ano depois.</p><p>Nos últimos meses, Milei intensificou a reivindicação da Argentina sobre as ilhas, que estão sob jurisdição do Reino Unido desde 1833 e foram o catalisador de uma guerra entre as duas nações em 1982, na qual centenas de vidas foram perdidas.</p>",
+        "fonteNome": "CNN Brasil - Capa",
+        "fonteUrl": "https://www.cnnbrasil.com.br/internacional/argentina-perde-tentativa-de-impedir-exploracao-de-petroleo-nas-malvinas/",
+        "fontesAdicionais": [
+          {
+            "nome": "STF Notícias",
+            "url": "https://portal.stf.jus.br/noticias/"
+          },
+          {
+            "nome": "MPF",
+            "url": "https://www.mpf.mp.br/pgr/noticias-pgr"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "O pedido da Argentina para bloquear temporariamente a exploração de petróleo autorizada pelo Reino Unido na costa das Ilhas Malvinas foi rejeitado por um tribunal internacional neste sábado (28)."
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A decisão representa mais um revés para a reivindicação argentina de soberania sobre as ilhas."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "O TIDM (Tribunal Internacional do Direito do Mar) decidiu por 18 votos a 3 contra o pedido da Argentina para que a perfuração de petróleo fosse suspensa no projeto do campo petrolífero Sea Lion , nas águas ao largo da costa das Ilhas Malvinas, território disputado há muito tempo e situado a cerca de 480 quilômetros a leste da costa sudeste da Argentina."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "O presidente argentino, Javier Milei, havia solicitado ao tribunal que analisasse a disputa em outubro, quando também anunciou planos para sancionar as empresas petrolíferas que operam ao redor das ilhas conhecidas na Argentina como Las Malvinas."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Milei considerou a atividade planejada pelo Reino Unido como uma ameaça à economia argentina, afirmando que a inação por parte de seu país permitiria ao Reino Unido \"possuir a capacidade física de explorar as reservas de petróleo que se encontram sob nossas águas\"."
+          }
+        ],
+        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/Malvinas.jpg?w=960&h=630&crop=1",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/argentina-perde-tentativa-de-impedir-exploracao-de-petroleo-nas-malvinas.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
     {
       "id": "2adaf6aa9084e656",
       "titulo": "Submetralhadora e drogas são apreendidas em casa abandonada em Vila Velha",
@@ -112,18 +927,6 @@
       }
     },
     {
-      "id": "3b87a3f289477bcc",
-      "titulo": "Seis milhões de cigarros contrabandeados são apreendidos em Vila Velha",
-      "categoria": "Cidades",
-      "radar": null,
-      "fonteNome": "A Gazeta - Polícia",
-      "urlFonte": "https://www.agazeta.com.br/agora/seis-milhoes-de-cigarros-contrabandeados-sao-apreendidos-em-vila-velha-1126",
-      "dataFonte": "2026-11-28T15:34:12.000Z",
-      "resumoFonte": "Carga vinda do Paraguai seria comercializada na Grande Vitória; operação conjunta terminou com três homens presos em flagrante",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795878935581_copia_de_homem_que_apedrejou_advogada_no_es_vira_reu_por_tentativa_de_homicidio_1.png",
-      "descobertaEm": "2026-11-28T16:18:12.618Z"
-    },
-    {
       "id": "55fdf4a8e057abac",
       "titulo": "Morre Ciro Fernandes, referência da xilogravura brasileira, aos 84 anos",
       "categoria": "Cultura",
@@ -136,64 +939,16 @@
       "descobertaEm": "2026-11-28T16:18:12.618Z"
     },
     {
-      "id": "f9b24b4f87da2f9d",
-      "titulo": "Pedra Azul Summit | 'Você não será substituído pela IA', diz presidente do Google Brasil",
-      "categoria": "Tecnologia",
+      "id": "b76a6e0d9f2c6d17",
+      "titulo": "Vídeo: em meio a polêmicas amorosas, Belo desaba em choro durante show",
+      "categoria": "Cultura",
       "radar": null,
-      "fonteNome": "A Gazeta - Capa",
-      "urlFonte": "https://www.agazeta.com.br/pedra-azul-summit/voce-nao-sera-substituido-pela-ia-mas-pode-ser-por-quem-domina-ia-diz-presidente-do-google-brasil-1126",
-      "dataFonte": "2026-11-28T15:25:04.000Z",
-      "resumoFonte": "Fábio Coelho defendeu a capacitação de profissionais e o uso estratégico da inteligência artificial nas empresas, neste sábado (28), durante o evento, no painel Panorama Inovação e Tecnologia",
-      "imagem": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795876236827_clo5454.jpg",
-      "descobertaEm": "2026-11-28T16:18:12.618Z",
-      "reportagem": {
-        "titulo": "'Você não será substituído pela IA, mas pode ser por quem domina IA', diz presidente do Google Brasil",
-        "slug": "voce-nao-sera-substituido-pela-ia-mas-pode-ser-por-quem-domina-ia-diz-presidente-do-google",
-        "categoria": "Tecnologia",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/voce-nao-sera-substituido-pela-ia-mas-pode-ser-por-quem-domina-ia-diz-presidente-do-google.jpg",
-        "resumo": "Fábio Coelho defendeu a capacitação de profissionais e o uso estratégico da inteligência artificial nas empresas, neste sábado (28), durante o evento, no painel Panorama Inovação e Tecnologia",
-        "conteudo": "<p>A inteligência artificial (IA) já transforma o mercado de trabalho, mas isso não significa necessariamente que os profissionais serão substituídos pelas máquinas.</p><h2>Dados e contexto do setor</h2><p>O principal risco, segundo o presidente do Google Brasil , Fábio Coelho, é perder espaço para quem souber utilizar a tecnologia como ferramenta de trabalho.</p><p>“Você não vai ser substituído pela inteligência artificial, mas grande parte de nós pode ser substituída por um profissional que domine a IA”, afirmou Fábio Coelho, neste sábado (28), durante o segundo dia do Pedra Azul Summit 2026 , evento promovido pela Rede Gazeta.</p><p>Ao participar do painel sobre inovação e tecnologia, mediado pelo editor-chefe de A Gazeta e da CBN Vitória , Geraldo Nascimento, Coelho defendeu que empresas e trabalhadores precisam incorporar a inteligência artificial às atividades cotidianas.</p><h2>Impactos e informações adicionais</h2><p>Para ele, a tecnologia deve ser encarada como recurso capaz de ampliar as habilidades humanas e melhorar os resultados profissionais.</p><p>A IA, na nossa interpretação, é um conjunto de superpoderes alavancando os recursos existentes para você ficar melhor.</p><p>O executivo destacou que a discussão sobre o futuro do trabalho não deve se limitar à possibilidade de substituição de pessoas por máquinas.</p><p>Na avaliação dele, a inteligência artificial também tende a complementar atividades, aumentar a produtividade e abrir espaço para novos serviços e ocupações.</p><p>Coelho citou estudos do Fórum Econômico Mundial que apontam uma expectativa de criação de mais empregos do que de postos eliminados até o fim da década. Ele ponderou, porém, que determinadas funções e tarefas passarão por mudanças, enquanto outras poderão ser automatizadas.</p><p>Para o presidente do Google Brasil, parte das oportunidades também estará relacionada à chamada economia de serviços e do bem-estar, com atividades ligadas ao tempo livre e à capacidade de as pessoas aproveitarem melhor a vida.</p><p>A transformação, segundo Coelho, exige que as empresas preparem suas equipes para trabalhar com as novas ferramentas. Não basta disponibilizar sistemas de inteligência artificial: é necessário identificar como podem contribuir para os objetivos de cada negócio.</p><p>Durante o debate, ao ser questionado sobre como uma empresa deve começar a investir em inovação com orçamento limitado, o executivo apontou quatro aspectos: qualidade da infraestrutura, qualificação das pessoas, apoio da administração e identificação de casos de uso que possam gerar resultados concretos.</p><p>Ele explicou que, no trabalho com empresas, o Google utiliza uma matriz que cruza dois critérios: o impacto que determinada iniciativa pode gerar e a facilidade ou dificuldade de colocá-la em prática.</p><p>A recomendação é começar por projetos de alto impacto e implementação mais simples.</p><p>Coelho também alertou para o risco de empresas investirem em projetos de tecnologia apenas por serem novidades, sem avaliar se resolvem problemas ou melhoram processos.</p><p>Para ele, a adoção da inteligência artificial precisa estar ligada a uma estratégia de desenvolvimento da própria organização.</p><p>Seu negócio não precisa de uma estratégia de IA, mas uma estratégia de como impulsionar seu negócio com a IA.</p><p>Além da capacitação, o executivo apontou a governança como um dos pilares dessa transformação. O uso das ferramentas precisa considerar questões como ética, privacidade e segurança, com orientações claras para os funcionários e o espaço para que proponham soluções.</p><p>O impacto da inteligência artificial na educação também foi abordado no painel. Questionado sobre o risco de estudantes utilizarem ferramentas de IA sem desenvolver capacidade crítica e conhecimento próprio, Coelho defendeu que a tecnologia seja incorporada como complemento ao processo de aprendizagem, e não como substituta.</p><p>Para ele, é importante diferenciar a entrega de um resultado do processo necessário para aprender. A possibilidade de uma ferramenta produzir um texto ou resolver uma atividade não significa que o estudante tenha desenvolvido as habilidades envolvidas naquela tarefa.</p><p>“O produto final é entregar alguma coisa. Não pode ser objetivo em si. O objetivo tem que ser o processo de aprender”, afirmou.</p>",
-        "fonteNome": "A Gazeta - Capa",
-        "fonteUrl": "https://www.agazeta.com.br/pedra-azul-summit/voce-nao-sera-substituido-pela-ia-mas-pode-ser-por-quem-domina-ia-diz-presidente-do-google-brasil-1126",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
-          },
-          {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "A inteligência artificial (IA) já transforma o mercado de trabalho, mas isso não significa necessariamente que os profissionais serão substituídos pelas máquinas. O principal risco, segundo o presidente do Google Brasil , Fábio Coelho, é perder espaço para quem souber utilizar a tecnologia como ferramenta de trabalho."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "“Você não vai ser substituído pela inteligência artificial, mas grande parte de nós pode ser substituída por um profissional que domine a IA”, afirmou Fábio Coelho, neste sábado (28), durante o segundo dia do Pedra Azul Summit 2026 , evento promovido pela Rede Gazeta."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Ao participar do painel sobre inovação e tecnologia, mediado pelo editor-chefe de A Gazeta e da CBN Vitória , Geraldo Nascimento, Coelho defendeu que empresas e trabalhadores precisam incorporar a inteligência artificial às atividades cotidianas."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A IA, na nossa interpretação, é um conjunto de superpoderes alavancando os recursos existentes para você ficar melhor."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O executivo destacou que a discussão sobre o futuro do trabalho não deve se limitar à possibilidade de substituição de pessoas por máquinas. Na avaliação dele, a inteligência artificial também tende a complementar atividades, aumentar a produtividade e abrir espaço para novos serviços e ocupações."
-          }
-        ],
-        "imagemOriginal": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1795876236827_clo5454.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/voce-nao-sera-substituido-pela-ia-mas-pode-ser-por-quem-domina-ia-diz-presidente-do-google.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
+      "fonteNome": "Metrópoles - Feed",
+      "urlFonte": "https://www.metropoles.com/celebridades/video-em-meio-a-polemicas-amorosas-belo-desaba-em-choro-durante-show",
+      "dataFonte": "2026-11-28T15:07:59.000Z",
+      "resumoFonte": "Belo não conteve as lágrimas após surpresa dos amigos no palco, em meio à repercussão de declarações das ex-companheiras",
+      "imagem": "https://i.metroimg.com/vYMR1Iq99M5hmOiqo0gkKeybuX1J1PnqucnAmf2emng/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/belo.jpg",
+      "descobertaEm": "2026-11-28T15:18:13.591Z"
     },
     {
       "id": "847894e4f9adb0e8",
@@ -256,6 +1011,66 @@
       }
     },
     {
+      "id": "ca4834ac6eb59c1a",
+      "titulo": "Saiba quem é Lelê Villar, atleta brasileira detida na Rússia",
+      "categoria": "Esporte",
+      "radar": null,
+      "fonteNome": "Poder360",
+      "urlFonte": "https://www.poder360.com.br/poder-internacional/saiba-quem-e-lele-villar-atleta-brasileira-detida-na-russia/",
+      "dataFonte": "2026-11-28T15:11:32.000Z",
+      "resumoFonte": "A atleta foi a 1ª camisa 10 da seleção brasileira de futebol de areia e está presa em Yavas, na região de Mordóvia. Leia no Poder360.",
+      "imagem": "https://static.poder360.com.br/uploads/2026/11/Lele-Villar-1080-1200x675.png",
+      "descobertaEm": "2026-11-28T15:18:13.591Z",
+      "reportagem": {
+        "titulo": "Saiba quem é Lelê Villar, atleta brasileira detida na Rússia",
+        "slug": "saiba-quem-e-lele-villar-atleta-brasileira-detida-na-russia",
+        "categoria": "Esporte",
+        "data": "2026-11-28",
+        "imagem": "https://noticiaes.com.br/imagens/lapis/saiba-quem-e-lele-villar-atleta-brasileira-detida-na-russia.jpg",
+        "resumo": "A atleta foi a 1ª camisa 10 da seleção brasileira de futebol de areia e está presa em Yavas, na região de Mordóvia.",
+        "conteudo": "<p>A atleta foi a 1ª camisa 10 da seleção brasileira de futebol de areia e está presa em Yavas, na região de Mordóvia</p><h2>As informações principais do assunto</h2><p>A atleta brasileira Letícia Villar Pais, conhecida como Lelê Villar, está presa na Rússia há 1 ano e 4 meses. Ela foi detida em 23 de julho de 2025, ao entrar no país com 6g de haxixe para consumo próprio.</p><p>Natural de Minas Gerais, Lelê foi a 1ª camisa 10 da seleção brasileira de futebol de areia. Participou da conquista do 1º título da equipe na modalidade e foi a 1ª brasileira indicada ao prêmio de melhor jogadora do mundo no futebol de areia, em 2017.</p><p>Em carta enviada ao presidente Luiz Inácio Lula da Silva (PT), a atleta detalhou sua trajetória profissional. Disse que conquistou o campeonato mundial de clubes e a Copa Intercontinental com a seleção brasileira.</p><h2>Contexto e informações complementares</h2><p>Também destacou seu envolvimento com causas sociais e trabalhos voluntários, atividades que disse amar e nas quais está sempre engajada.</p><p>Lelê defendeu clubes brasileiros, como Flamengo, Rio Branco e São Pedro. Também atuou em países como Itália, Portugal, Espanha, Letônia, Lituânia, El Salvador, Qatar, Dubai, Rússia e Hungria.</p><p>Fora dos gramados, é formada em Administração e cursa Educação Física. Trabalhou por 7 anos como professora, principalmente de crianças, e atua como personal trainer. Na carta, a brasileira</p><p>Lelê está presa desde 23 de julho de 2025, quando entrou na Rússia com 6g de haxixe para consumo próprio. Em janeiro de 2026, a Justiça russa condenou a brasileira a 5 anos e 2 meses de prisão por contrabando e posse de drogas.</p><p>Em agosto, as autoridades russas transferiram a atleta para a IK-2, colônia penal feminina de segurança máxima em Yavas, na região de Mordóvia, a cerca de 500 km a leste de Moscou.</p><p>Na carta enviada a Lula, Lelê relata violações de direitos humanos na unidade, além de jornadas de trabalho exaustivas e episódios de violência física e psicológica.</p>",
+        "fonteNome": "Poder360",
+        "fonteUrl": "https://www.poder360.com.br/poder-internacional/saiba-quem-e-lele-villar-atleta-brasileira-detida-na-russia/",
+        "fontesAdicionais": [
+          {
+            "nome": "A Gazeta",
+            "url": "https://www.agazeta.com.br/"
+          },
+          {
+            "nome": "Folha Vitória",
+            "url": "https://www.folhavitoria.com.br/"
+          }
+        ],
+        "entidades": [],
+        "aeo": [
+          {
+            "pergunta": "O que aconteceu?",
+            "resposta": "A atleta foi a 1ª camisa 10 da seleção brasileira de futebol de areia e está presa em Yavas, na região de Mordóvia"
+          },
+          {
+            "pergunta": "Qual é o ponto principal?",
+            "resposta": "A atleta brasileira Letícia Villar Pais, conhecida como Lelê Villar, está presa na Rússia há 1 ano e 4 meses. Ela foi detida em 23 de julho de 2025, ao entrar no país com 6g de haxixe para consumo próprio."
+          },
+          {
+            "pergunta": "Quais são os dados mais importantes?",
+            "resposta": "Natural de Minas Gerais, Lelê foi a 1ª camisa 10 da seleção brasileira de futebol de areia. Participou da conquista do 1º título da equipe na modalidade e foi a 1ª brasileira indicada ao prêmio de melhor jogadora do mundo no futebol de areia, em 2017."
+          },
+          {
+            "pergunta": "Qual é o contexto?",
+            "resposta": "Em carta enviada ao presidente Luiz Inácio Lula da Silva (PT), a atleta detalhou sua trajetória profissional. Disse que conquistou o campeonato mundial de clubes e a Copa Intercontinental com a seleção brasileira. Também destacou seu envolvimento com causas sociais e trabalhos voluntários, atividades que disse amar e nas quais está sempre engajada."
+          },
+          {
+            "pergunta": "Quais são os próximos desdobramentos?",
+            "resposta": "Lelê defendeu clubes brasileiros, como Flamengo, Rio Branco e São Pedro. Também atuou em países como Itália, Portugal, Espanha, Letônia, Lituânia, El Salvador, Qatar, Dubai, Rússia e Hungria."
+          }
+        ],
+        "imagemOriginal": "https://static.poder360.com.br/uploads/2026/11/Lele-Villar-1080-1200x675.png",
+        "imagemX": "https://noticiaes.com.br/imagens/lapis/saiba-quem-e-lele-villar-atleta-brasileira-detida-na-russia.jpg",
+        "redacaoPropria": true,
+        "origemTexto": "redacao-noticia-es"
+      }
+    },
+    {
       "id": "c3dbe00a1f73df0e",
       "titulo": "'Preciso trazer um top', diz Lula sobre escolha de Trabuco para Fazenda",
       "categoria": "Justiça",
@@ -268,258 +1083,6 @@
       "descobertaEm": "2026-11-28T16:18:12.618Z"
     },
     {
-      "id": "6984fe4578ae4c82",
-      "titulo": "Lula defende escolha de Trabuco para Fazenda: ‘Jamais traria alguém para trabalhar contra o povo pobre’",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "O Globo - Capa",
-      "urlFonte": "https://oglobo.globo.com/economia/noticia/2026/11/28/lula-defende-escolha-de-trabuco-para-fazenda-jamais-traria-alguem-para-trabalhar-contra-o-povo-pobre.ghtml",
-      "dataFonte": "2026-11-28T15:23:09.640Z",
-      "resumoFonte": "Presidente lembrou que também enfrentou desconfiança quando colocou José Alencar e Alckmin como vices",
-      "imagem": "https://s2-oglobo.glbimg.com/j7SyJsmTxOIMD5dWC-0sv598VpY=/1320x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/N/3/Ke6HlRTEenRls2BNxVdQ/117052605-mariz-pa-brasilia-26-11-2026-luiz-carlos-trabuco-novo-ministro-da-fazenda-aeroport.jpg",
-      "descobertaEm": "2026-11-28T16:20:24.248Z",
-      "reportagem": {
-        "titulo": "Lula defende escolha de Trabuco para Fazenda: ‘Jamais traria alguém para trabalhar contra o povo pobre’",
-        "slug": "lula-defende-escolha-de-trabuco-para-fazenda-jamais-traria-alguem-para-trabalhar-contra-o-",
-        "categoria": "Economia",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-defende-escolha-de-trabuco-para-fazenda-jamais-traria-alguem-para-trabalhar-contra-o-.jpg",
-        "resumo": "Presidente lembrou que também enfrentou desconfiança quando colocou José Alencar e Alckmin como vices",
-        "conteudo": "<p>O presidente Luiz Inácio Lula da Silva defendeu neste sábado, durante live com o deputado André Janones (Rede-MG), a escolha de Luiz Carlos Trabuco, presidente do Conselho de Administração do Bradesco, para comandar o Ministério da Fazenda.</p><h2>Dados e contexto do setor</h2><p>— Vocês vão ter muito orgulho do trabalho do amigo Trabuco, que eu já chamo de companheiro, é uma gente de confiança, companheiro de muito caráter.</p><p>E se eu confio nele, pode confiar que eu jamais traria alguém para trabalhar contra o povo pobre desse país — disse Lula, em resposta à críticas de setores da esquerda em razão da opção por um nome do mercado financeiro para o cargo.</p><p>O petista disse que, por ser seu último mandato na Presidência, ele se preocupa em não cometer erros.</p><h2>Impactos e informações adicionais</h2><p>— É meu quarto mandato, meu último mandato e não vou deixar a vida política tendo uma coisa negativa para esse país. É como se eu estivesse cuidando da minha própria vida.</p><p>O presidente ainda falou que considera normal os que desconfiam da escolha e lembrou das resistências que surgiram quando anunciou o empresário José Alencar como seu vice em 2002 e Geraldo Alckmin como seu companheiro de chapa em 2022.</p><p>— Para aqueles que desconfiam, eu também acho normal desconfiar, ninguém conhece. Eu lembro quando eu trouxe José Alencar para ser meu vice e teve gente não queria que eu trouxesse ele de vice.</p><p>Foi um vice extraordinário, um homem da mais alta competência. Ë como o Alckmin agora, muita gente não queria que eu trouxesse o Alckmin. &#39;O Alckmin é tucano, foi contra o PT&#39;.</p><p>Não, eu trouxe o Alckmin e graças a Deus ele aceitou e nós estamos fazendo um trabalho extraordinário.</p><p>A indicação de Trabuco, que era presidente do Conselho de Administração do Bradesco, dividiu o PT e provocou críticas à esquerda.</p><p>O deputado Lindbergh Farias (PT-RJ), um dos vice-líderes do governo no Congresso, comparou a escolha à de Joaquim Levy para a Fazenda no segundo mandato de Dilma Rousseff.</p><p>Na época, o ministro tentou aplicar um programa de ajuste fiscal e também foi alvo de críticas da esquerda.</p><p>O deputado Glauber Braga (PSOL-RJ), por sua vez, classificou a indicação de Trabuco como “estelionato eleitoral”.</p><p>Lula disse na transmissão ao vivo que havia sugerido a Dilma que Trabuco fosse ministro da Fazenda na segunda gestão dela.</p><p>– Quando a Dilma ganhou em 2014, eu fui conversar com a Dilma, a gente estava com crise de desconfiança muito séria e fui pedir para ela convidar o Trabuco para ser ministro da Fazenda.</p><p>A Dilma parece que tentou chamar o Trabuco, mas ele não veio, não quis ser ou não deixaram. E veio outra pessoa, o Levy, que era uma pessoa que eu respeito, mas que eu não traria para ser ministro da Fazenda.</p><p>Lula cultiva um longo relacionamento com Trabuco. Desde 2023, com a volta de Lula ao Palácio do Planalto, Trabuco participa do Conselho de Desenvolvimento Econômico e Social, o Conselhão, grupo criado na primeira gestão do petista com participação de empresários, sindicalistas e membros de movimentos sociais, que serve de canal de diálogo do presidente com o setor produtivo e a sociedade.</p><p>O presidente e Trabuco sempre mantiveram uma relação cordial e de proximidade, desde o primeiro mandato do presidente.</p><p>A relação de confiança e diálogo entre ambos foi crescendo, enquanto Trabuco ascendia aos principais postos do Bradesco (assumindo presidência da Bradesco Seguros em 2003 e depois a presidência executiva do banco em 2009).</p><p>Em encontros de Lula com empresários, que sempre tiveram a presença de Trabuco, o presidente costumava elogiá-lo publicamente por sua capacidade de fazer análises claras da economia.</p><p>Neste sábado, Lula disse que Trabuco ajudou a mediar um acordo entre o PT o Bradesco na década 1990.</p><p>– Nos anos 1990, o PT resolveu fazer um cartão de crédito para que a gente pudesse vender aos filiados do PT. Fomos ao Banco do Brasil, Caixa Econômica, Itaú, no Banespa e negaram.</p><p>Eu e a Clara Ant (aliada de Lula e uma das fundadoras do PT) fomos ao Osasco (onde fica a sede do Bradesco) falar com Trabuco. Eles não só fizeram um cartão de credito, como adiantaram R$ 500 mil.</p><p>Nasceu uma relação com Trabuco, uma relação de respeito.</p><p>Em outro momento, Lula elogiou o governador eleito de Minas Gerais, Cleitinho Azevedo (Republicanos).</p><p>O governador eleito apoiou o senador Flávio Bolsonaro (PL-RJ) na eleição presidencial de 2026, mas iniciou uma aproximação institucional com Lula e o PT após o resultado da eleição.</p>",
-        "fonteNome": "O Globo - Capa",
-        "fonteUrl": "https://oglobo.globo.com/economia/noticia/2026/11/28/lula-defende-escolha-de-trabuco-para-fazenda-jamais-traria-alguem-para-trabalhar-contra-o-povo-pobre.ghtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O presidente Luiz Inácio Lula da Silva defendeu neste sábado, durante live com o deputado André Janones (Rede-MG), a escolha de Luiz Carlos Trabuco, presidente do Conselho de Administração do Bradesco, para comandar o Ministério da Fazenda."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "— Vocês vão ter muito orgulho do trabalho do amigo Trabuco, que eu já chamo de companheiro, é uma gente de confiança, companheiro de muito caráter."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O petista disse que, por ser seu último mandato na Presidência, ele se preocupa em não cometer erros."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "— É meu quarto mandato, meu último mandato e não vou deixar a vida política tendo uma coisa negativa para esse país. É como se eu estivesse cuidando da minha própria vida."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O presidente ainda falou que considera normal os que desconfiam da escolha e lembrou das resistências que surgiram quando anunciou o empresário José Alencar como seu vice em 2002 e Geraldo Alckmin como seu companheiro de chapa em 2022."
-          }
-        ],
-        "imagemOriginal": "https://s2-oglobo.glbimg.com/j7SyJsmTxOIMD5dWC-0sv598VpY=/1320x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/N/3/Ke6HlRTEenRls2BNxVdQ/117052605-mariz-pa-brasilia-26-11-2026-luiz-carlos-trabuco-novo-ministro-da-fazenda-aeroport.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-defende-escolha-de-trabuco-para-fazenda-jamais-traria-alguem-para-trabalhar-contra-o-.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "19b40ae4d6de3aba",
-      "titulo": "Lula diz que escolheu Trabuco para gerar confiança e que não vai trabalhar contra o povo pobre",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://www1.folha.uol.com.br/mercado/2026/11/lula-diz-que-escolheu-trabuco-para-gerar-confianca-e-que-nao-vai-trabalhar-contra-o-povo-pobre.shtml",
-      "dataFonte": "2026-11-28T14:54:00.000Z",
-      "resumoFonte": "O presidente Lula (PT) disse neste sábado (28) que escolheu Luiz Carlos Trabuco para assumir o Ministério da Fazenda para gerar confiança e afirmou que o banqueiro não irá trabalhar contra a população mais pobre.",
-      "imagem": "https://f.i.uol.com.br/fotografia/2025/03/14/174198456567d49335d74b9_1741984565_3x2_rt.jpg",
-      "descobertaEm": "2026-11-28T16:18:12.618Z",
-      "reportagem": {
-        "titulo": "Lula diz que escolheu Trabuco para gerar confiança e que não vai trabalhar contra o povo pobre",
-        "slug": "lula-diz-que-escolheu-trabuco-para-gerar-confianca-e-que-nao-vai-trabalhar-contra-o-povo-p",
-        "categoria": "Economia",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-diz-que-escolheu-trabuco-para-gerar-confianca-e-que-nao-vai-trabalhar-contra-o-povo-p.jpg",
-        "resumo": "Durante live com Janones, petista afirma que desconfiança com banqueiro é natural e compara escolha às de José Alencar e Alckmin",
-        "conteudo": "<p>O presidente Lula (PT) disse neste sábado (28) que escolheu Luiz Carlos Trabuco para assumir o Ministério da Fazenda para gerar confiança e afirmou que o banqueiro não irá trabalhar contra a população mais pobre.</p><h2>Dados e contexto do setor</h2><p>&quot;Preciso de um [nome] &#39;top&#39;, alguém que possa me ajudar a gerar confiança no mundo&quot;, disse Lula durante uma live ao lado do deputado federal André Janones (Rede).</p><p>&quot;Vocês vão ter orgulho do trabalho do Trabuco, que já chamo de companheiro&quot;, declarou Lula. &quot;Eu jamais traria alguém para trabalhar contra o povo pobre desse país&quot;, afirmou ainda.</p><p>Presidente do conselho de administração do Bradesco , Trabuco aceitou o convite na quinta-feira (26) . Foi a primeira escolha anunciada para o quarto mandato do petista.</p><h2>Impactos e informações adicionais</h2><p>A escolha pelo banqueiro aumenta a expectativa, entre agentes do mercado, de que Lula fará um ajuste fiscal no próximo governo, tema que é alvo de críticas de parte do PT e da esquerda.</p><p>Durante a transmissão, Lula disse ter dito a Trabuco que o banqueiro &quot;já venceu na vida particular&quot; e que deveria dedicar os próximos quatro anos ao Brasil.</p><p>&quot;Me ajuda a transformar esse país em desenvolvido, industrial, em uma economia forte&quot;, disse Lula a Trabuco, segundo o relato feito pelo presidente.</p><p>O petista afirmou que é natural que existam desconfianças sobre o nome: &quot;Ninguém conhece&quot;. Ele disse que viu reações parecidas quando o empresário José Alencar e Geraldo Alckmin foram escolhidos como candidatos a vice-presidente.</p><p>&quot;Vamos fazer o país virar um país grande. No meu quarto mandato, não vou deixar a vida política tendo uma coisa negativa para esse país. É como se eu tivesse cuidando da minha própria vida&quot;, disse Lula.</p><p>Lula relatou que iniciou uma relação com Trabuco na década de 1990, quando o Bradesco teria fornecido cartões de crédito para o PT &quot;vender aos filiados&quot;.</p><p>O petista também afirmou que indicou o banqueiro para compor o segundo governo de Dilma Rousseff, mas ele &quot;não veio, não quis ser [ministro] ou não deixaram&quot;.</p><p>O presidente afirmou que respeita Joaquim Levy, que também era executivo do Bradesco e se tornou ministro da Fazenda de Dilma, mas ressaltou que não o levaria para o novo governo.</p><p>O presidente Lula (PT) disse neste sábado (28) que escolheu Luiz Carlos Trabuco para assumir o Ministério da Fazenda para gerar confiança e afirmou que o banqueiro não irá trabalhar contra a população mais pobre.</p><p>&quot;Preciso de um [nome] &#39;top&#39;, alguém que possa me ajudar a gerar confiança no mundo&quot;, disse Lula durante uma live ao lado do deputado federal André Janones (Rede).</p><p>&quot;Vocês vão ter orgulho do trabalho do Trabuco, que já chamo de companheiro&quot;, declarou Lula. &quot;Eu jamais traria alguém para trabalhar contra o povo pobre desse país&quot;, afirmou ainda.</p>",
-        "fonteNome": "UOL Notícias",
-        "fonteUrl": "https://www1.folha.uol.com.br/mercado/2026/11/lula-diz-que-escolheu-trabuco-para-gerar-confianca-e-que-nao-vai-trabalhar-contra-o-povo-pobre.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O presidente Lula (PT) disse neste sábado (28) que escolheu Luiz Carlos Trabuco para assumir o Ministério da Fazenda para gerar confiança e afirmou que o banqueiro não irá trabalhar contra a população mais pobre."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "\"Preciso de um [nome] 'top', alguém que possa me ajudar a gerar confiança no mundo\", disse Lula durante uma live ao lado do deputado federal André Janones (Rede)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "\"Vocês vão ter orgulho do trabalho do Trabuco, que já chamo de companheiro\", declarou Lula. \"Eu jamais traria alguém para trabalhar contra o povo pobre desse país\", afirmou ainda."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Presidente do conselho de administração do Bradesco , Trabuco aceitou o convite na quinta-feira (26) . Foi a primeira escolha anunciada para o quarto mandato do petista."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A escolha pelo banqueiro aumenta a expectativa, entre agentes do mercado, de que Lula fará um ajuste fiscal no próximo governo, tema que é alvo de críticas de parte do PT e da esquerda."
-          }
-        ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2025/03/14/174198456567d49335d74b9_1741984565_3x2_rt.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-diz-que-escolheu-trabuco-para-gerar-confianca-e-que-nao-vai-trabalhar-contra-o-povo-p.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "a3f3bafb2ed2c5f7",
-      "titulo": "Super El Niño: fenômeno deve atingir pico em dezembro de 2026 e afetar chuvas no Brasil",
-      "categoria": "Cidades",
-      "radar": null,
-      "fonteNome": "UOL Notícias",
-      "urlFonte": "https://tnonline.uol.com.br/noticias/parana/super-el-nino-fenomeno-deve-atingir-pico-em-dezembro-de-2026-e-afetar-chuvas-no-brasil-1177504",
-      "dataFonte": "2026-11-28T14:53:12.000Z",
-      "resumoFonte": "episódio de El Niño de 2026 está ganhando força e tem projeção de atingir o pico de intensidade em dezembro, com potencial para se tornar um dos eventos mais severos já acompanhados por centros inte...",
-      "imagem": "https://cdn.tnonline.com.br/img/Artigo-Destaque/1170000/1200x630/pesquisadores-apontam-que-o-cenario-atual-reune-ca-01177504-0-202611281253/ScaleProportionalFillBackground-1.jpg?fallback=https%3A%2F%2Fcdn.tnonline.com.br%2Fimg%2FArtigo-Destaque%2F1170000%2Fpesquisadores-apontam-que-o-cenario-atual-reune-ca-01177504-0-202611281253.webp%3Fxid%3D1876489&xid=1876489",
-      "descobertaEm": "2026-11-28T16:18:12.618Z"
-    },
-    {
-      "id": "518ae8907ff4ae42",
-      "titulo": "Análise: Por que a administração Trump está tão evasiva sobre Jensen Huang?",
-      "categoria": "Tecnologia",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/internacional/analise-por-que-a-administracao-trump-esta-tao-evasiva-sobre-jensen-huang/",
-      "dataFonte": "2026-11-28T15:00:00.000Z",
-      "resumoFonte": "Presidente americano fez pressão pelo retorno do empresário à Nvidia, porém seu gabinete tem feito ressalvas ao comentar sobre o caso",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/2026-11-16T151449Z_1_LYNXNPEMAF1GC_RTROPTP_4_NVIDIA-PROBE-CEO-TRUMP.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-28T16:18:12.618Z",
-      "reportagem": {
-        "titulo": "Análise: Por que a administração Trump está tão evasiva sobre Jensen Huang?",
-        "slug": "analise-por-que-a-administracao-trump-esta-tao-evasiva-sobre-jensen-huang",
-        "categoria": "Tecnologia",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/analise-por-que-a-administracao-trump-esta-tao-evasiva-sobre-jensen-huang.jpg",
-        "resumo": "Presidente americano fez pressão pelo retorno do empresário à Nvidia, porém seu gabinete tem feito ressalvas ao comentar sobre o caso",
-        "conteudo": "<p>Quando Jensen Huang foi, de forma surpreendente, reconduzido ao cargo de CEO da Nvidia na última segunda-feira (23), tanto o conselho de administração da empresa quanto o presidente dos Estados Unidos, Donald Trump, apresentaram o fato como resultado de garantias dadas pelo governo de que ele não representava um risco à segurança nacional e não enfrentava problemas jurídicos.</p><h2>Dados e contexto do setor</h2><p>No entanto, desde então, essas garantias têm se mostrado pouco sólidas.</p><p>Tudo isso reforça o enorme risco assumido tanto por Trump quanto pela Nvidia — uma situação que deve intensificar as preocupações de alguns legisladores do Partido Republicano que se mostram bastante céticos.</p><p>Em um comunicado divulgado na manhã de segunda-feira, o conselho de administração afirmou que, após conversas com autoridades do alto escalão do governo, sentiu-se “confiante de que a recondução do Sr.</p><h2>Impactos e informações adicionais</h2><p>Huang não representa qualquer risco à segurança nacional” — apesar de ele ter mantido um relacionamento com uma mulher que, segundo autoridades americanas, poderia estar trabalhando para a inteligência chinesa.</p><p>Pouco depois, Trump declarou nas redes sociais que o governo dos EUA “não tem motivos para acreditar que o retorno de Jensen à Nvidia represente qualquer risco à segurança nacional”.</p><p>Trump também afirmou que, a despeito de questionamentos sobre o envio de chips da Nvidia — cuja exportação é proibida — para a China, o procurador-geral Todd Blanche “confirmou que o governo dos EUA não possui provas de que [Huang] tenha se envolvido em qualquer conduta ilegal”.</p><p>Contudo, outras autoridades ainda não reafirmaram publicamente essas garantias. Além disso, Blanche adotou uma postura bastante evasiva em uma entrevista na noite de segunda-feira. Até mesmo Trump, em diversas ocasiões, ressaltou ressalvas bastante concretas.</p><p>Além das garantias que ofereceu na plataforma Truth Social na manhã de segunda-feira, Trump afirmou, em uma entrevista posterior à CNBC, que o Departamento de Justiça havia “exonerado” Huang.</p><p>“Eles fizeram um estudo. Realizaram uma investigação bastante minuciosa”, disse Trump. “E concluíram que ele, pessoalmente, foi exonerado. Não sei qual termo você prefere usar.”</p><p>“O que eu disse na semana passada é que estávamos analisando a situação”, afirmou Blanche no Departamento de Justiça, na terça-feira. “O FBI e as autoridades policiais analisam questões o tempo todo.</p><p>Isso não se torna, necessariamente, uma investigação criminal. Não resulta, necessariamente, em uma acusação formal. Trata-se, literalmente, apenas de uma análise de fatos.”</p><p>Ao ser pressionado sobre se Jensen Huang havia sido investigado, Blanche devolveu a pergunta aos repórteres : “O que significa dizer que Huang foi investigado? Investigado por quê?”</p><p>Ele acrescentou: “Não tenho motivos para vir a público e dizer qualquer coisa sobre a Nvidia que não seja que ela é uma boa cidadã corporativa”.</p><p>Na noite anterior, quando a apresentadora da Fox News, Laura Ingraham, perguntou se Huang havia sido inocentado de representar um risco à segurança nacional ou de estar envolvido em atividades ilegais, Blanche não deu uma resposta direta.</p><p>Em vez disso, ele mencionou uma reportagem do *Wall Street Journal* — à qual Ingraham havia feito referência anteriormente — e recusou-se a comentá-la.</p><p>Em seguida, falou sobre discussões extensas dentro do governo, sem, contudo, afirmar que tais conversas tivessem confirmado que Huang estava livre de suspeitas.</p><p>Isso está muito longe da alegação de Trump de que Huang teria sido “exonerado”.</p><p>Enquanto Blanche adotava uma postura evasiva, outros membros do governo simplesmente não se manifestaram para corroborar as garantias dadas por Trump.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/internacional/analise-por-que-a-administracao-trump-esta-tao-evasiva-sobre-jensen-huang/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil",
-            "url": "https://agenciabrasil.ebc.com.br/"
-          },
-          {
-            "nome": "MCTI",
-            "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Quando Jensen Huang foi, de forma surpreendente, reconduzido ao cargo de CEO da Nvidia na última segunda-feira (23), tanto o conselho de administração da empresa quanto o presidente dos Estados Unidos, Donald Trump, apresentaram o fato como resultado de garantias dadas pelo governo de que ele não representava um risco à segurança nacional e não enfrentava problemas jurídicos."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "No entanto, desde então, essas garantias têm se mostrado pouco sólidas."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Tudo isso reforça o enorme risco assumido tanto por Trump quanto pela Nvidia — uma situação que deve intensificar as preocupações de alguns legisladores do Partido Republicano que se mostram bastante céticos."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Em um comunicado divulgado na manhã de segunda-feira, o conselho de administração afirmou que, após conversas com autoridades do alto escalão do governo, sentiu-se “confiante de que a recondução do Sr."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Pouco depois, Trump declarou nas redes sociais que o governo dos EUA “não tem motivos para acreditar que o retorno de Jensen à Nvidia represente qualquer risco à segurança nacional”."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/2026-11-16T151449Z_1_LYNXNPEMAF1GC_RTROPTP_4_NVIDIA-PROBE-CEO-TRUMP.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/analise-por-que-a-administracao-trump-esta-tao-evasiva-sobre-jensen-huang.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "bb531f2bb1cda847",
-      "titulo": "Da Gallery aos festivais: como a Holding Clube virou um negócio de R$ 430 milhões",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/business/holding-clube-gallery-eventos-marketing-experiencia/",
-      "dataFonte": "2026-11-28T16:00:00.000Z",
-      "resumoFonte": "Letreiro da Gallery, boate de São Paulo, inaugurada no final dos anos 1970 (Foto: Holding Clube / Arquivo) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/imagem-10.png?fit=591%2C426&quality=70&strip=all\" />Da boate Gallery a estandes no Rock in Rio, a Holding Clube faz cerca de 250 eventos por ano. Veja como o grupo de…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/imagem-10.png?fit=591%2C426&quality=70&strip=all",
-      "descobertaEm": "2026-11-28T16:18:12.618Z",
-      "reportagem": {
-        "titulo": "Da Gallery aos festivais: como a Holding Clube virou um negócio de R$ 430 milhões",
-        "slug": "da-gallery-aos-festivais-como-a-holding-clube-virou-um-negocio-de-r-430-milhoes",
-        "categoria": "Esporte",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/da-gallery-aos-festivais-como-a-holding-clube-virou-um-negocio-de-r-430-milhoes.jpg",
-        "resumo": "Da boate Gallery a estandes no Rock in Rio, a Holding Clube faz cerca de 250 eventos por ano. Veja como o grupo de R$ 430 milhões se prepara para os imprevistos Da Gallery aos festivais, a Holding Clube faz cerca de 250 eventos por ano. Veja como o grupo de R$ 430 milhões se prepara para os imprevistos.",
-        "conteudo": "<p>Para entrar na boate Gallery, era preciso comprar uma carteira de sócio, por US$ 2 mil. O preço selecionava quem encontraria quem dentro da boate criada por José Victor Oliva em São Paulo, em 1979.</p><h2>As informações principais do assunto</h2><p>Hoje, a Holding Clube leva marcas a festivais como Rock in Rio e Lollapalooza, onde o público vai em busca de outras atrações. O desafio passou, portanto, de controlar a porta a conquistar a atenção de quem já está lá.</p><p>Entre uma ponta e outra, a experiência de organizar a noite virou um grupo de sete empresas de marketing, que produz, entrega ou participa de cerca de 250 eventos por ano e faturamento de R$ 430 milhões em 2025.</p><p>À frente da operação está Priscila Pellegrini, sócia que assumiu o cargo de CEO em 2025, depois de quase duas décadas trabalhando com Oliva.</p><h2>Contexto e informações complementares</h2><p>Os dois contaram essa trajetória a Mariana Amaro, no podcast Do Zero ao Topo , do InfoMoney .</p><p>Enquanto o fundador resume sua contribuição na busca pela grande ideia, Priscila descreve a rotina de fazer a ideia funcionar: mapear problemas antes que apareçam e agir rapidamente quando escapam ao planejamento.</p><p>Todo dia você tem acesso antecipado a conteúdos do InfoMoney</p><p>Antes de empreender, Oliva começou medicina em Santos, desistiu e voltou para São Paulo.</p><p>Depois, passou por direito e encontrou na administração, na Fundação Getulio Vargas, uma formação que o interessava pela variedade de caminhos possíveis. Durante esse período, decidiu abrir uma boate.</p><p>A Gallery reunia música, comida e pessoas num ambiente cuidadosamente construído. O nome remetia a uma galeria de arte. A seleção começava no acesso e continuava na exigência de traje e no atendimento.</p><p>“O cartão para entrar custava US$ 2 mil. A gente vendeu mil no primeiro mês”, conta Oliva. A carteira dava direito à entrada; comida e bebidas eram cobradas à parte. Segundo ele, o investimento na casa se pagou em dois meses.</p><p>Num imóvel de 600 metros quadrados, a promessa era encontrar outros frequentadores que também valorizavam aquele círculo. Além disso, a programação ajudava a sustentá-la. “Frank Sinatra, Tony Bennett, Amália Rodrigues, gente do mundo inteiro cantava lá”, recorda.</p><p>Depois vieram outros endereços, como Resumo da Ópera, Banana Café e Mezzaluna. Ao longo de cerca de 20 anos na noite, Oliva acumulou experiência em escolher equipes, receber convidados e organizar ambientes.</p><p>Quando resolveu mudar de atividade, já tinha o começo do Banco de Eventos.</p><p>Nos eventos, a Holding Clube passou a vender a experiência de organizar ambientes e atender pessoas, agora a serviço dos objetivos de um cliente.</p><p>A mudança também alterou o controle sobre o ambiente. Na Gallery, Oliva podia definir a programação, o serviço e quem entraria num lugar que voltaria a abrir na noite seguinte.</p><p>Já numa ativação em festival, o espaço tem vida curta e precisa funcionar dentro de um evento maior, com atrações que disputam o tempo do visitante.</p><p>Para uma marca, isso significa oferecer um motivo para a pessoa parar, participar e querer se lembrar daquela experiência.</p><p>Além disso, se ela publica uma foto ou comenta com amigos, a ação alcança também quem não passou por ali. A repercussão pode ampliar o contato, mas o primeiro desafio continua presencial: fazer o público se interessar.</p><p>O grupo desenvolve estratégias para clientes como Porsche, Coca-Cola, Piracanjuba, Volkswagen, Bauducco, Sephora, Ambev e Vibra. Além de ativações, trabalha com convenções, viagens de incentivo, parcerias e projetos próprios.</p><p>Na entrevista, ela diz que evento é “feito para dar problema”. Por isso, o trabalho começa antes de o público chegar: “o que a gente mais faz é mapear os possíveis problemas para que eles não aconteçam”.</p><p>O planejamento reduz riscos, mas não elimina o imprevisto. “O que difere uma empresa de outra é a rapidez para sanar qualquer tipo de questão”, afirma. A resposta precisa preservar a experiência enquanto a operação continua acontecendo.</p><p>A Holding Clube tem entre 250 e 280 funcionários diretos e recorre também a terceirizados. Portanto, o padrão de atendimento depende de pessoas que não estão todas no mesmo escritório nem pertencem ao quadro fixo.</p><p>Por isso, treinamento e repetição das orientações fazem parte da tentativa de manter a entrega consistente.</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/business/holding-clube-gallery-eventos-marketing-experiencia/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Para entrar na boate Gallery, era preciso comprar uma carteira de sócio, por US$ 2 mil. O preço selecionava quem encontraria quem dentro da boate criada por José Victor Oliva em São Paulo, em 1979. Hoje, a Holding Clube leva marcas a festivais como Rock in Rio e Lollapalooza, onde o público vai em busca de outras atrações."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Entre uma ponta e outra, a experiência de organizar a noite virou um grupo de sete empresas de marketing, que produz, entrega ou participa de cerca de 250 eventos por ano e faturamento de R$ 430 milhões em 2025. À frente da operação está Priscila Pellegrini, sócia que assumiu o cargo de CEO em 2025, depois de quase duas décadas trabalhando com Oliva."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Os dois contaram essa trajetória a Mariana Amaro, no podcast Do Zero ao Topo , do InfoMoney . Enquanto o fundador resume sua contribuição na busca pela grande ideia, Priscila descreve a rotina de fazer a ideia funcionar: mapear problemas antes que apareçam e agir rapidamente quando escapam ao planejamento."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Todo dia você tem acesso antecipado a conteúdos do InfoMoney"
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Antes de empreender, Oliva começou medicina em Santos, desistiu e voltou para São Paulo. Depois, passou por direito e encontrou na administração, na Fundação Getulio Vargas, uma formação que o interessava pela variedade de caminhos possíveis. Durante esse período, decidiu abrir uma boate."
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/imagem-10.png?fit=591%2C426&quality=70&strip=all",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/da-gallery-aos-festivais-como-a-holding-clube-virou-um-negocio-de-r-430-milhoes.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
       "id": "a347866f55076e8d",
       "titulo": "Câmara do Rio dará medalha à deputada Índia Armelau, que incentivou a demissão de ‘petistas’",
       "categoria": "Justiça",
@@ -530,501 +1093,21 @@
       "resumoFonte": "A Câmara Municipal do Rio de Janeiro aprovou, na última quinta-feira, 26, a entrega da Medalha Chiquinha Gonzaga à deputada estadual Índia Armelau (PL-RJ), que incentivou a demissão de apoiadores do presidente Lula (PT) após as eleições deste ano. A parlamentar foi processada pelo Ministério Público do Trabalho do Estado (MPT-RJ) por assédio…",
       "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lula_-_foto_oficial_2023.jpg/800px-Lula_-_foto_oficial_2023.jpg",
       "descobertaEm": "2026-11-28T16:18:12.618Z"
-    },
-    {
-      "id": "79d113005d8b26fd",
-      "titulo": "Lula contém turbulência do mercado com indicação de Trabuco e reduz pressão sobre formação de governo",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/lula-contem-turbulencia-do-mercado-com-indicacao-de-trabuco-e-reduz-pressao-sobre-formacao-de-governo.shtml",
-      "dataFonte": "2026-11-28T15:00:00.000Z",
-      "resumoFonte": "O anúncio do banqueiro Luiz Carlos Trabuco como ministro da Fazenda conteve a turbulência no mercado financeiro verificada desde a reeleição do presidente Lula ( PT ) e reduziu a pressão sobre o petista na formação de seu novo governo. Leia mais (11/28/2026 - 12h00)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/01/08/1767903729696011f16fe0b_1767903729_3x2_xl.jpg",
-      "descobertaEm": "2026-11-28T15:18:13.591Z",
-      "reportagem": {
-        "titulo": "Lula contém turbulência do mercado com indicação de Trabuco e reduz pressão sobre formação de governo",
-        "slug": "lula-contem-turbulencia-do-mercado-com-indicacao-de-trabuco-e-reduz-pressao-sobre-formacao",
-        "categoria": "Economia",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/lula-contem-turbulencia-do-mercado-com-indicacao-de-trabuco-e-reduz-pressao-sobre-formacao.jpg",
-        "resumo": "Presidente da República vinha preocupado com economia desde sua reeleição",
-        "conteudo": "<p>O anúncio do banqueiro Luiz Carlos Trabuco como ministro da Fazenda conteve a turbulência no mercado financeiro verificada desde a reeleição do presidente Lula ( PT ) e reduziu a pressão sobre o petista na formação de seu novo governo.</p><h2>Dados e contexto do setor</h2><p>O petista vinha se mostrando, em conversas com aliados, preocupado com a alta do dólar e seu efeito na inflação e nos juros.</p><p>A maioria dos operadores do mercado apostava na vitória de Flávio Bolsonaro (PL) na disputa presidencial.</p><p>A virada de Lula do primeiro para o segundo turno acirrou no setor financeiro as desconfianças sobre a trajetória da dívida pública do país, que aumentou para cerca de 83% do PIB no atual mandato presidencial.</p><h2>Impactos e informações adicionais</h2><p>O mercado pressionava o chefe do governo a anunciar logo quem seria seu ministro da Fazenda para ter algum indicativo sobre a política fiscal do próximo mandato.</p><p>Ao indicar Trabuco, Lula buscou fazer um gesto de conciliação aos operadores financeiros . A mensagem seria de que o petista cumprirá suas promessas de manter políticas sociais, mas que deseja construir uma forma de fazer isso sem descuidar das contas públicas.</p><p>Nas palavras de um interlocutor do presidente a escolha é também uma tentativa de corresponsabilizar o mercado, além de uma prova da busca por segurança jurídica e previsibilidade.</p><p>Lula chegou a reclamar publicamente das especulações sobre quem fara parte de governo a partir de janeiro de 2027. &quot;Cada ministério desse país será indicado por mim, na hora que eu quiser. No dia que eu quiser&quot;, disse em discurso na última semana.</p><p>Apesar do zelo pela própria prerrogativa de escolher o tempo da reforma ministerial, o anúncio do nome de Trabuco foi mais rápido do que o histórico de Lula indicava .</p><p>Em 2002, depois de sua primeira eleição para o Planalto, Lula fez o primeiro anúncio de ministros em 10 de dezembro, quando indicou Antonio Palocci para a Fazenda e Marina Silva para o Meio Ambiente.</p><p>Em 2006, quando foi reeleito pela primeira vez, o petista havia reformulado seu governo antes da eleição.</p><p>No precedente mais recente, em 2022, os primeiros anúncios de Lula foram em 9 de dezembro: Fernando Haddad (Fazenda), Rui Costa (Casa Civil), Mauro Vieira (Relações Internacionais), José Múcio (Defesa) e Flávio Dino (Justiça).</p><p>A indicação de Trabuco, anunciada na quinta-feira (26), foi a única confirmada oficialmente até agora. De acordo com aliados, porém, o petista já escolheu os titulares de alguns outros ministérios.</p><p>O senador Camilo Santana (PT-CE) já teve a escolha confirmada para a Casa Civil , segundo aliados, enquanto Bruno Moretti deve continuar no Planejamento . O vice-presidente Geraldo Alckmin é favorito para assumir a Segurança Pública , pasta que será criada nas próximas semanas.</p><p>A deputada e ex-ministra Gleisi Hoffmann (PT) é citada como provável ocupante de algum dos ministérios com sede no Palácio do Planalto , como a Secretaria de Comunicação Social ou a Secretaria de Relações Institucionais, responsável pela articulação política.</p><p>Lula também discute com o presidente do PT, Edinho Silva, alianças com outros partidos.</p><p>Edinho ficou incumbido de conversar com as cúpulas das legendas interessadas em integrar o governo e levar um panorama do Congresso para o chefe do Executivo decidir quais ministérios oferece para quais partidos.</p><p>O presidente da República quer saber quantos votos no Congresso cada partido pode entregar ao governo e dividir os espaços a partir desse cálculo.</p><p>Em 23 de outubro, última sexta-feira antes do segundo turno da eleição presidencial, o dólar fechou o dia em R$ 4,99 e o Ibovespa ficou em 205 mil pontos. No início desta semana, a moeda americana chegou a passar de R$ 6 , e a bolsa ficou abaixo de 165 mil pontos.</p>",
-        "fonteNome": "Folha de S.Paulo - Poder",
-        "fonteUrl": "https://www1.folha.uol.com.br/poder/2026/11/lula-contem-turbulencia-do-mercado-com-indicacao-de-trabuco-e-reduz-pressao-sobre-formacao-de-governo.shtml",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O anúncio do banqueiro Luiz Carlos Trabuco como ministro da Fazenda conteve a turbulência no mercado financeiro verificada desde a reeleição do presidente Lula ( PT ) e reduziu a pressão sobre o petista na formação de seu novo governo."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "O petista vinha se mostrando, em conversas com aliados, preocupado com a alta do dólar e seu efeito na inflação e nos juros."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A maioria dos operadores do mercado apostava na vitória de Flávio Bolsonaro (PL) na disputa presidencial. A virada de Lula do primeiro para o segundo turno acirrou no setor financeiro as desconfianças sobre a trajetória da dívida pública do país, que aumentou para cerca de 83% do PIB no atual mandato presidencial."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "O mercado pressionava o chefe do governo a anunciar logo quem seria seu ministro da Fazenda para ter algum indicativo sobre a política fiscal do próximo mandato."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Ao indicar Trabuco, Lula buscou fazer um gesto de conciliação aos operadores financeiros . A mensagem seria de que o petista cumprirá suas promessas de manter políticas sociais, mas que deseja construir uma forma de fazer isso sem descuidar das contas públicas."
-          }
-        ],
-        "imagemOriginal": "https://f.i.uol.com.br/fotografia/2026/01/08/1767903729696011f16fe0b_1767903729_3x2_xl.jpg",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/lula-contem-turbulencia-do-mercado-com-indicacao-de-trabuco-e-reduz-pressao-sobre-formacao.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "bf04564d0b44fd3a",
-      "titulo": "Três Poderes: Trabuco é o vencedor da semana e Haddad, o perdedor",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "Folha de S.Paulo - Poder",
-      "urlFonte": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/tres-poderes-trabuco-e-o-vencedor-da-semana-e-haddad-o-perdedor.shtml",
-      "dataFonte": "2026-11-28T15:00:00.000Z",
-      "resumoFonte": "Vencedor da semana : o banqueiro Luiz Carlos Trabuco , cuja indicação para ministro da Fazenda foi recebida com euforia pelo mercado e dá fôlego a Lula para fazer ajustes na economia. Leia mais (11/28/2026 - 12h00)",
-      "imagem": "https://f.i.uol.com.br/fotografia/2026/11/27/17957927106b099f4614533_1795792710_3x2_rt.jpg",
-      "descobertaEm": "2026-11-28T15:18:13.591Z"
-    },
-    {
-      "id": "6660be109265afc2",
-      "titulo": "Banco dos EUA fecha atividades, na maior falência do setor no país em dois anos",
-      "categoria": "Economia",
-      "radar": null,
-      "fonteNome": "InfoMoney",
-      "urlFonte": "https://www.infomoney.com.br/mercados/banco-dos-eua-fecha-atividades-na-maior-falencia-do-setor-no-pais-em-dois-anos/",
-      "dataFonte": "2026-11-28T14:48:59.000Z",
-      "resumoFonte": "Federal Deposit Insurance Corporation (Foto: Bloomberg) \" data-large-file=\"https://www.infomoney.com.br/wp-content/uploads/2026/11/Captura-de-tela-2026-11-28-114221.png?fit=941%2C628&quality=70&strip=all\" />A FDIC foi nomeada administradora judicial, segundo o comunicado, que não forneceu detalhes sobre os motivos do encerramento das atividades da…",
-      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2026/11/Captura-de-tela-2026-11-28-114221.png",
-      "descobertaEm": "2026-11-28T15:18:13.591Z",
-      "reportagem": {
-        "titulo": "Banco dos EUA fecha atividades, na maior falência do setor no país em dois anos",
-        "slug": "banco-dos-eua-fecha-atividades-na-maior-falencia-do-setor-no-pais-em-dois-anos",
-        "categoria": "Economia",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/banco-dos-eua-fecha-atividades-na-maior-falencia-do-setor-no-pais-em-dois-anos.jpg",
-        "resumo": "A FDIC foi nomeada administradora judicial, segundo o comunicado, que não forneceu detalhes sobre os motivos do encerramento das atividades da instituição",
-        "conteudo": "<p>(Bloomberg) – Os reguladores federais dos EUA fecharam o United Fidelity Bank, com sede em Indiana, na sexta-feira, após concluírem que a instituição provavelmente não conseguiria honrar seus compromissos. Essa foi a maior falência bancária do país em dois anos.</p><h2>Dados e contexto do setor</h2><p>A Federal Deposit Insurance Corp. (FDIC) afirmou em comunicado que o First Citizens concordou em assumir todos os depósitos e ativos da United Fidelity.</p><p>A FDIC foi nomeada administradora judicial, segundo o comunicado, que não forneceu detalhes sobre os motivos do encerramento das atividades da instituição.</p><p>O fechamento do United Fidelity, que, segundo estimativas da FDIC, custará ao Fundo de Seguro de Depósitos US$ 1,83 bilhão, é a maior falência de um banco americano desde o encerramento do Republic First Bank em abril de 2024.</p><h2>Impactos e informações adicionais</h2><p>No final de setembro, o United Fidelity possuía cerca de US$ 5,9 bilhões em ativos totais e US$ 5,4 bilhões em depósitos, informou a FDIC.</p><p>Os EUA registraram sete falências bancárias este ano, o maior número em quase uma década, segundo o site da FDIC.</p><p>No entanto, elas representam um número relativamente pequeno de ativos em comparação com as falências de instituições financeiras de maior porte, como o Silicon Valley Bank e o First Republic Bank, em 2023.</p><p>Entre os destaques estão o retorno de Jensen Huang à Nvidia, os impasses da COP31 e os papéis em foco na Black Friday</p><p>Os clientes da United Fidelity devem continuar a utilizar as agências existentes até receberem um aviso da First Citizens informando que a alteração do sistema foi concluída, disse o órgão regulador bancário.</p><p>A falência do Republic First Bank em 2024 esteve relacionada a problemas semelhantes aos que forçaram o fechamento do Silicon Valley Bank e do First Republic: altas taxas de juros que se traduziram em perdas não realizadas em empréstimos e títulos.</p><p>De acordo com um comunicado no site da First Citizens , a empresa foi selecionada para assumir o controle da United Fidelity por meio de um processo de licitação competitivo.</p><p>Um aviso no site do United Fidelity Bank informou que o banco foi fechado pelo Escritório do Controlador da Moeda na sexta-feira.</p><p>“Posteriormente, a Federal Deposit Insurance Corporation (FDIC) foi nomeada administradora judicial. Nenhum aviso prévio é dado ao público quando uma instituição financeira é fechada.”</p>",
-        "fonteNome": "InfoMoney",
-        "fonteUrl": "https://www.infomoney.com.br/mercados/banco-dos-eua-fecha-atividades-na-maior-falencia-do-setor-no-pais-em-dois-anos/",
-        "fontesAdicionais": [
-          {
-            "nome": "Agência Brasil Economia",
-            "url": "https://agenciabrasil.ebc.com.br/economia"
-          },
-          {
-            "nome": "Banco Central",
-            "url": "https://www.bcb.gov.br/detalhenoticia"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "(Bloomberg) – Os reguladores federais dos EUA fecharam o United Fidelity Bank, com sede em Indiana, na sexta-feira, após concluírem que a instituição provavelmente não conseguiria honrar seus compromissos. Essa foi a maior falência bancária do país em dois anos."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A Federal Deposit Insurance Corp. (FDIC) afirmou em comunicado que o First Citizens concordou em assumir todos os depósitos e ativos da United Fidelity. A FDIC foi nomeada administradora judicial, segundo o comunicado, que não forneceu detalhes sobre os motivos do encerramento das atividades da instituição."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O fechamento do United Fidelity, que, segundo estimativas da FDIC, custará ao Fundo de Seguro de Depósitos US$ 1,83 bilhão, é a maior falência de um banco americano desde o encerramento do Republic First Bank em abril de 2024."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Os EUA registraram sete falências bancárias este ano, o maior número em quase uma década, segundo o site da FDIC. No entanto, elas representam um número relativamente pequeno de ativos em comparação com as falências de instituições financeiras de maior porte, como o Silicon Valley Bank e o First Republic Bank, em 2023."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Entre os destaques estão o retorno de Jensen Huang à Nvidia, os impasses da COP31 e os papéis em foco na Black Friday"
-          }
-        ],
-        "imagemOriginal": "https://www.infomoney.com.br/wp-content/uploads/2026/11/Captura-de-tela-2026-11-28-114221.png",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/banco-dos-eua-fecha-atividades-na-maior-falencia-do-setor-no-pais-em-dois-anos.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "b76a6e0d9f2c6d17",
-      "titulo": "Vídeo: em meio a polêmicas amorosas, Belo desaba em choro durante show",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/celebridades/video-em-meio-a-polemicas-amorosas-belo-desaba-em-choro-durante-show",
-      "dataFonte": "2026-11-28T15:07:59.000Z",
-      "resumoFonte": "Belo não conteve as lágrimas após surpresa dos amigos no palco, em meio à repercussão de declarações das ex-companheiras",
-      "imagem": "https://i.metroimg.com/vYMR1Iq99M5hmOiqo0gkKeybuX1J1PnqucnAmf2emng/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/belo.jpg",
-      "descobertaEm": "2026-11-28T15:18:13.591Z"
-    },
-    {
-      "id": "b9d2450a7bddeea8",
-      "titulo": "João Vitor Silva revela que Iza acompanha novela mais que ele: \"Ela ama\"",
-      "categoria": "Cultura",
-      "radar": null,
-      "fonteNome": "Metrópoles - Feed",
-      "urlFonte": "https://www.metropoles.com/colunas/fabia-oliveira/joao-vitor-silva-revela-que-iza-acompanha-novela-mais-que-ele-ela-ama",
-      "dataFonte": "2026-11-28T14:57:47.000Z",
-      "resumoFonte": "Em entrevista à coluna Fábia Oliveira, ator contou que a cantora acompanha os capítulos diariamente e já tem teorias sobre os rumos da trama",
-      "imagem": "https://i.metroimg.com/VFUAitVJrNx0xgmXSLkGivXNnSgZQhALRHquryDAf6o/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/joao-vitor-silva-revela-que-iza-acompanha-novela-mais-que-ele-ela-ama.jpg",
-      "descobertaEm": "2026-11-28T15:18:13.591Z"
-    },
-    {
-      "id": "ca4834ac6eb59c1a",
-      "titulo": "Saiba quem é Lelê Villar, atleta brasileira detida na Rússia",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Poder360",
-      "urlFonte": "https://www.poder360.com.br/poder-internacional/saiba-quem-e-lele-villar-atleta-brasileira-detida-na-russia/",
-      "dataFonte": "2026-11-28T15:11:32.000Z",
-      "resumoFonte": "A atleta foi a 1ª camisa 10 da seleção brasileira de futebol de areia e está presa em Yavas, na região de Mordóvia. Leia no Poder360.",
-      "imagem": "https://static.poder360.com.br/uploads/2026/11/Lele-Villar-1080-1200x675.png",
-      "descobertaEm": "2026-11-28T15:18:13.591Z"
-    },
-    {
-      "id": "e984abafa6eb2a68",
-      "titulo": "Palmeiras: Argentinos podem garantir hegemonia do Brasil na Libertadores",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/palmeiras/palmeiras-argentinos-podem-garantir-hegemonia-do-brasil-na-libertadores/",
-      "dataFonte": "2026-11-28T14:40:29.000Z",
-      "resumoFonte": "Com Giay e López, Palmeiras pode assegurar o oitavo título seguido do Brasil e deixar Argentina para trás no ranking histórico",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/flaco-lopes2-e1778023130577.jpg?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-28T15:18:13.591Z",
-      "reportagem": {
-        "titulo": "Palmeiras: Argentinos podem garantir hegemonia do Brasil na Libertadores",
-        "slug": "palmeiras-argentinos-podem-garantir-hegemonia-do-brasil-na-libertadores",
-        "categoria": "Esporte",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/palmeiras-argentinos-podem-garantir-hegemonia-do-brasil-na-libertadores.jpg",
-        "resumo": "Com Giay e López, Palmeiras pode assegurar o oitavo título seguido do Brasil e deixar Argentina para trás no ranking histórico",
-        "conteudo": "<p>O Palmeiras entra em campo neste sábado (28) para disputar a final da Copa Libertadores e buscar o tetracampeonato.</p><h2>As informações principais do assunto</h2><p>Além da taça, o clube paulista pode garantir a hegemonia do futebol brasileiro na competição continental, superando a Argentina no número total de títulos.</p><p>Para isso, o Verdão conta com dois jogadores nascidos no país rival: o lateral-direito Agustín Giay e o atacante Flaco López.</p><p>A dupla argentina tem sido destaque no time e pode ser decisiva para que o Brasil se isole na liderança do ranking histórico da Libertadores.</p><h2>Contexto e informações complementares</h2><p>Atualmente, brasileiros e argentinos estão empatados com 25 títulos cada, com o Brasil tendo alcançado essa marca após sete conquistas consecutivas.</p><p>A última vez que o Brasil liderou essa disputa foi nos anos 60 , quando abriu 2 a 0 com títulos em 1962 e 1963. No entanto, a Argentina empatou a contagem nos dois anos seguintes e assumiu a ponta em 1967, mantendo a dianteira por décadas.</p><p>Caso o Palmeiras conquiste o título no Uruguai, o clube não só fará o Brasil superar a Argentina, mas também empatará com o Flamengo como o time brasileiro com mais títulos da Libertadores. O Rubro-Negro soma quatro taças, enquanto o Alviverde tem três até o momento.</p><p>A grande decisão entre Palmeiras e Estudiantes acontece neste sábado (28), no Estádio Centenário, em Montevidéu, no Uruguai. A partida está marcada para as 17h (horário de Brasília) e será disputada em jogo único , com o Verdão em busca de sua quarta glória continental.</p><p>Esse texto foi gerado por inteligência artificial com base no conteúdo produzido pela Itatiaia. Todas as informações são apuradas e checadas por jornalistas. O texto final também passa pela revisão da equipe de jornalismo da CNN Brasil.</p><p>Flaco López, do Palmeiras, celebra gol contra o Sporting Cristal</p><p>• https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/flaco-lopes2.jpg</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/futebol/palmeiras/palmeiras-argentinos-podem-garantir-hegemonia-do-brasil-na-libertadores/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Palmeiras entra em campo neste sábado (28) para disputar a final da Copa Libertadores e buscar o tetracampeonato. Além da taça, o clube paulista pode garantir a hegemonia do futebol brasileiro na competição continental, superando a Argentina no número total de títulos."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "A dupla argentina tem sido destaque no time e pode ser decisiva para que o Brasil se isole na liderança do ranking histórico da Libertadores. Atualmente, brasileiros e argentinos estão empatados com 25 títulos cada, com o Brasil tendo alcançado essa marca após sete conquistas consecutivas."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A última vez que o Brasil liderou essa disputa foi nos anos 60 , quando abriu 2 a 0 com títulos em 1962 e 1963. No entanto, a Argentina empatou a contagem nos dois anos seguintes e assumiu a ponta em 1967, mantendo a dianteira por décadas."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "Caso o Palmeiras conquiste o título no Uruguai, o clube não só fará o Brasil superar a Argentina, mas também empatará com o Flamengo como o time brasileiro com mais títulos da Libertadores. O Rubro-Negro soma quatro taças, enquanto o Alviverde tem três até o momento."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "A grande decisão entre Palmeiras e Estudiantes acontece neste sábado (28), no Estádio Centenário, em Montevidéu, no Uruguai. A partida está marcada para as 17h (horário de Brasília) e será disputada em jogo único , com o Verdão em busca de sua quarta glória continental."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/flaco-lopes2-e1778023130577.jpg?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/palmeiras-argentinos-podem-garantir-hegemonia-do-brasil-na-libertadores.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "8061b61b25745f33",
-      "titulo": "Hamburgo x Bayern de Munique hoje: onde assistir ao vivo e escalações",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/esportes/futebol/hamburgo-x-bayern-de-munique-hoje-escalacoes-28-11-2026/",
-      "dataFonte": "2026-11-28T14:15:42.000Z",
-      "resumoFonte": "O Hamburgo e o Bayern de Munique se enfrentam às 11h30 (de Brasília) neste sábado (28), no Volksparkstadion, pela 11ª rodada do Campeonato Alemão 2026/27.",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/hamburgo-x-bayern-de-munique-1575235.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-28T14:18:13.118Z",
-      "reportagem": {
-        "titulo": "Hamburgo x Bayern de Munique hoje: onde assistir ao vivo e escalações",
-        "slug": "hamburgo-x-bayern-de-munique-hoje-onde-assistir-ao-vivo-e-escalacoes",
-        "categoria": "Esporte",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/hamburgo-x-bayern-de-munique-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
-        "resumo": "O Hamburgo e o Bayern de Munique se enfrentam às 11h30 (de Brasília) neste sábado (28), no Volksparkstadion, pela 11ª rodada do Campeonato Alemão 2026/27.",
-        "conteudo": "<p>O Hamburgo e o Bayern de Munique se enfrentam às 11h30 (de Brasília) neste sábado (28), no Volksparkstadion, pela 11ª rodada do Campeonato Alemão 2026/27.</p><h2>As informações principais do assunto</h2><p>Hamburgo x Bayern de Munique será transmitido por SportyNet e OneFootball (streaming).</p><p>A escalação oficial do Hamburgo ainda não foi divulgada. No último jogo, derrota por 4 a 0 para o Werder Bremen, a equipe começou com Daniel Heuer Fernandes, Capaldo, Bornauw, Omari, El Ouahdi, Grønbæk, Adeline, Muheim, Møller Wolfe, Daka e Alexander Røssing-Lelesiit.</p><p>A escalação oficial do Bayern de Munique ainda não foi divulgada. No último jogo, derrota por 2 a 1 para o Lille, a equipe começou com Urbig, Stanišić, Upamecano, Kim Min-Jae, Ito, Kimmich, Bischof, Karl, Pavlović, Brown e Laimer.</p><h2>Contexto e informações complementares</h2><p>O Hamburgo soma 12 pontos em 10 jogos e aparece em 12º lugar na tabela. O resultado mais recente foi uma derrota por 4 a 0 para o Werder Bremen. Nas últimas cinco partidas pela competição, são duas vitórias e três derrotas.</p><p>Já o Bayern de Munique está em 2º lugar, com 22 pontos, na zona de classificação para a Champions League. Em seu jogo mais recente, a equipe perdeu para o Lille por 2 a 1, pela Champions League. Nos cinco jogos mais recentes da competição, foram três vitórias e dois empates.</p><p>Veja também o guia completo de Hamburgo x Bayern de Munique</p><p>Matéria produzida automaticamente com dados da partida.</p><p>Werder Bremen x Borussia Mönchengladbach hoje: onde assistir ao vivo e escalações</p><p>Koln x Elversberg hoje: onde assistir ao vivo e escalações</p><p>Está chegando a hora de Koln x Elversberg: o jogo é às 11h30 (de Brasília) neste sábado (28), no RheinEnergieStadion, em Colônia, pela 11ª rodada do Campeonato Alemão 2026/27.</p><p>Paderborn x Schalke 04 hoje: onde assistir ao vivo e escalações</p><p>Mainz 05 x Union Berlin hoje: onde assistir ao vivo e escalações</p><p>Dynamo Dresden sai atrás, vira no fim e derrota o St. Pauli</p><p>Hertha Berlin atropela o Karlsruher SC e vence por 4 a 0</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/esportes/futebol/hamburgo-x-bayern-de-munique-hoje-escalacoes-28-11-2026/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Hamburgo e o Bayern de Munique se enfrentam às 11h30 (de Brasília) neste sábado (28), no Volksparkstadion, pela 11ª rodada do Campeonato Alemão 2026/27."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Hamburgo x Bayern de Munique será transmitido por SportyNet e OneFootball (streaming)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "A escalação oficial do Hamburgo ainda não foi divulgada. No último jogo, derrota por 4 a 0 para o Werder Bremen, a equipe começou com Daniel Heuer Fernandes, Capaldo, Bornauw, Omari, El Ouahdi, Grønbæk, Adeline, Muheim, Møller Wolfe, Daka e Alexander Røssing-Lelesiit."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A escalação oficial do Bayern de Munique ainda não foi divulgada. No último jogo, derrota por 2 a 1 para o Lille, a equipe começou com Urbig, Stanišić, Upamecano, Kim Min-Jae, Ito, Kimmich, Bischof, Karl, Pavlović, Brown e Laimer."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O Hamburgo soma 12 pontos em 10 jogos e aparece em 12º lugar na tabela. O resultado mais recente foi uma derrota por 4 a 0 para o Werder Bremen. Nas últimas cinco partidas pela competição, são duas vitórias e três derrotas."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/hamburgo-x-bayern-de-munique-1575235.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/hamburgo-x-bayern-de-munique-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "bdb95c607fd6bf15",
-      "titulo": "10 anos da tragédia da Chapecoense: veja como estão os sobreviventes",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "CNN Brasil",
-      "urlFonte": "https://www.cnnbrasil.com.br/esportes/futebol/chapecoense/10-anos-da-tragedia-da-chapecoense-veja-como-estao-os-sobreviventes/",
-      "dataFonte": "2026-11-28T14:13:34.000Z",
-      "resumoFonte": "Uma década após o acidente que matou 71 pessoas, três jogadores, dois tripulantes e um jornalista sobreviveram e seguiram caminhos diferentes",
-      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/09/Peritos-trabalham-nas-investigacoes-do-acidente-com-o-aviao-que-levava-o-time-da-Chapecoense-para-a-Colombia.jpg?w=950&h=630&crop=1",
-      "descobertaEm": "2026-11-28T15:18:13.591Z",
-      "reportagem": {
-        "titulo": "10 anos da tragédia da Chapecoense: veja como estão os sobreviventes",
-        "slug": "10-anos-da-tragedia-da-chapecoense-veja-como-estao-os-sobreviventes",
-        "categoria": "Esporte",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/10-anos-da-tragedia-da-chapecoense-veja-como-estao-os-sobreviventes.jpg",
-        "resumo": "Uma década após o acidente que matou 71 pessoas, três jogadores, dois tripulantes e um jornalista sobreviveram e seguiram caminhos diferentes",
-        "conteudo": "<p>Há dez anos, a Chapecoense vivia o momento mais importante de sua história quando o voo que levava o time para a final da Copa Sul-Americana caiu na Colômbia. Dos seis sobreviventes, três eram jogadores: Hélio Neto, Alan Ruschel e Jakson Follmann</p><h2>As informações principais do assunto</h2><p>Há exatamente uma década, a vida da Chapecoense mudou para sempre.</p><p>O voo 2933 da LaMia, que levava a delegação do clube para Medellín, na Colômbia, onde disputaria o jogo de ida da final da Copa Sul-Americana de 2016 contra o Atlético Nacional, caiu a poucos quilômetros do aeroporto de Rionegro.</p><p>A tragédia matou 71 das 77 pessoas que estavam a bordo. Entre as vítimas estavam praticamente todos os jogadores que compunham o elenco profissional da Chapecoense, além de integrantes da comissão técnica, dirigentes, jornalistas, tripulantes e convidados.</p><h2>Contexto e informações complementares</h2><p>O acidente comoveu o Brasil, a América do Sul e o mundo.</p><p>Um clube pequeno, com menos de 50 anos de existência, vivia o melhor momento de sua história e estava prestes a disputar a primeira final internacional de sua trajetória.</p><p>Apenas seis pessoas sobreviveram: três jogadores, dois integrantes da tripulação e um jornalista.</p><p>Seis histórias de pessoas que ganharam uma segunda chance — mas que nunca mais foram as mesmas depois daquela noite.</p><p>Entre os jogadores estavam Hélio Neto, Alan Ruschel e Jakson Follmann. Cada um deles seguiu um caminho diferente depois da tragédia.</p><p>Hélio Neto foi o último dos sobreviventes a ser resgatado.</p><p>Quando os socorristas ouviram seus fracos gemidos em meio ao frio da região montanhosa de Antioquia, na Colômbia, já havia poucas esperanças de encontrar alguém vivo.</p><p>O zagueiro foi levado ao hospital, onde recebeu tratamento para múltiplas fraturas e permaneceu dez dias em coma induzido.</p><p>Neto conseguiu se recuperar a ponto de tentar voltar ao futebol.</p><p>Foram mais de um ano de recuperação até que pudesse disputar alguns amistosos. As sequelas, porém, eram graves. Dores quase permanentes na coluna e nos joelhos dificultavam a atividade em alto nível.</p><p>Em 2019, decidiu se aposentar sem ter conseguido disputar uma partida oficial depois da tragédia. Ainda assim, ficou com a sensação de ter tentado até o fim.</p><p>Hoje, Neto é palestrante e aborda temas relacionados à espiritualidade, religião e emoções. Ele também se formou em teologia.</p>",
-        "fonteNome": "CNN Brasil",
-        "fonteUrl": "https://www.cnnbrasil.com.br/esportes/futebol/chapecoense/10-anos-da-tragedia-da-chapecoense-veja-como-estao-os-sobreviventes/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Há dez anos, a Chapecoense vivia o momento mais importante de sua história quando o voo que levava o time para a final da Copa Sul-Americana caiu na Colômbia. Dos seis sobreviventes, três eram jogadores: Hélio Neto, Alan Ruschel e Jakson Follmann"
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Há exatamente uma década, a vida da Chapecoense mudou para sempre."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "O voo 2933 da LaMia, que levava a delegação do clube para Medellín, na Colômbia, onde disputaria o jogo de ida da final da Copa Sul-Americana de 2016 contra o Atlético Nacional, caiu a poucos quilômetros do aeroporto de Rionegro."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "A tragédia matou 71 das 77 pessoas que estavam a bordo. Entre as vítimas estavam praticamente todos os jogadores que compunham o elenco profissional da Chapecoense, além de integrantes da comissão técnica, dirigentes, jornalistas, tripulantes e convidados."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "O acidente comoveu o Brasil, a América do Sul e o mundo."
-          }
-        ],
-        "imagemOriginal": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/09/Peritos-trabalham-nas-investigacoes-do-acidente-com-o-aviao-que-levava-o-time-da-Chapecoense-para-a-Colombia.jpg?w=950&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/10-anos-da-tragedia-da-chapecoense-veja-como-estao-os-sobreviventes.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "2db192cf7c93a198",
-      "titulo": "Paderborn x Schalke 04 hoje: onde assistir ao vivo e escalações",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/esportes/futebol/paderborn-x-schalke-04-hoje-escalacoes-28-11-2026/",
-      "dataFonte": "2026-11-28T14:05:01.000Z",
-      "resumoFonte": "O Paderborn e o Schalke 04 se enfrentam às 11h30 (de Brasília) neste sábado (28), no Home Deluxe Arena, em Paderborn, pela 11ª rodada do Campeonato Alemão 2026/27.",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/paderborn-x-schalke-04-1575238.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-28T14:18:13.118Z",
-      "reportagem": {
-        "titulo": "Paderborn x Schalke 04 hoje: onde assistir ao vivo e escalações",
-        "slug": "paderborn-x-schalke-04-hoje-onde-assistir-ao-vivo-e-escalacoes",
-        "categoria": "Esporte",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/paderborn-x-schalke-04-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
-        "resumo": "O Paderborn e o Schalke 04 se enfrentam às 11h30 (de Brasília) neste sábado (28), no Home Deluxe Arena, em Paderborn, pela 11ª rodada do Campeonato Alemão 2026/27.",
-        "conteudo": "<p>O Paderborn e o Schalke 04 se enfrentam às 11h30 (de Brasília) neste sábado (28), no Home Deluxe Arena, em Paderborn, pela 11ª rodada do Campeonato Alemão 2026/27.</p><h2>As informações principais do assunto</h2><p>Dá para assistir a Paderborn x Schalke 04 ao vivo por OneFootball (streaming).</p><p>Paderborn (3-4-2-1): N. Noll; J. ter Horst, T. Scheller, M. Hansen; L. Curda, T. Baack, S. Castañeda, R. Obermair, Ruben Müller, S. Marino; S. Tigges. Técnico: R. Kettemann.</p><p>É uma mudança em relação ao último jogo, derrota por 4 a 0 para o Bayer Leverkusen: Tigges entra no lugar de Vidović. A formação é a mesma, 3-4-2-1.</p><h2>Contexto e informações complementares</h2><p>Schalke 04 (4-2-3-1): L. Karius; J. Dina Ebimbe, N. Katić, H. Kuruçay, Vitalie Becker; S. El-Faouzi, D. Ljubičić, J. Adamu, K. Karaman, A. Aouchiche; E. Džeko. Técnico: M. Muslić.</p><p>É uma mudança em relação ao último jogo, empate em 0 a 0 com o Stuttgart: Džeko entra no lugar de Hwang Hee-Chan. A formação passa de 4-3-2-1 para 4-2-3-1.</p><p>Com 10 pontos, o Paderborn é o 15º colocado da competição. Em sua última apresentação, a equipe perdeu para o Bayer Leverkusen por 4 a 0. Nas últimas cinco rodadas, o retrospecto é de uma vitória, três empates e uma derrota.</p><p>O adversário, o Schalke 04, tem 7 pontos e ocupa o 16º lugar, dentro da zona de rebaixamento. A equipe vem de um empate em 0 a 0 com o Stuttgart. Nos últimos cinco jogos da competição, são dois empates e três derrotas.</p><p>Veja também o guia completo de Paderborn x Schalke 04</p><p>Matéria produzida automaticamente com dados da partida.</p><p>Hertha Berlin x Karlsruher SC hoje: onde assistir ao vivo e escalações</p><p>Stuttgart x Eintracht Frankfurt: onde assistir ao vivo, horário e escalações</p><p>O Stuttgart é o 8º colocado, e o Eintracht Frankfurt, o 7º</p><p>Koln x Elversberg hoje: onde assistir ao vivo e escalações</p><p>Mainz 05 x Union Berlin hoje: onde assistir ao vivo e escalações</p><p>Dynamo Dresden sai atrás, vira no fim e derrota o St. Pauli</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/esportes/futebol/paderborn-x-schalke-04-hoje-escalacoes-28-11-2026/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "O Paderborn e o Schalke 04 se enfrentam às 11h30 (de Brasília) neste sábado (28), no Home Deluxe Arena, em Paderborn, pela 11ª rodada do Campeonato Alemão 2026/27."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Dá para assistir a Paderborn x Schalke 04 ao vivo por OneFootball (streaming)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Paderborn (3-4-2-1): N. Noll; J. ter Horst, T. Scheller, M. Hansen; L. Curda, T. Baack, S. Castañeda, R. Obermair, Ruben Müller, S. Marino; S. Tigges. Técnico: R. Kettemann."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "É uma mudança em relação ao último jogo, derrota por 4 a 0 para o Bayer Leverkusen: Tigges entra no lugar de Vidović. A formação é a mesma, 3-4-2-1."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Schalke 04 (4-2-3-1): L. Karius; J. Dina Ebimbe, N. Katić, H. Kuruçay, Vitalie Becker; S. El-Faouzi, D. Ljubičić, J. Adamu, K. Karaman, A. Aouchiche; E. Džeko. Técnico: M. Muslić."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/paderborn-x-schalke-04-1575238.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/paderborn-x-schalke-04-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "60f8e6e4f9572815",
-      "titulo": "Koln x Elversberg hoje: onde assistir ao vivo e escalações",
-      "categoria": "Esporte",
-      "radar": null,
-      "fonteNome": "Jovem Pan - Feed",
-      "urlFonte": "https://jovempan.com.br/esportes/futebol/koln-x-elversberg-hoje-escalacoes-28-11-2026/",
-      "dataFonte": "2026-11-28T14:03:48.000Z",
-      "resumoFonte": "Está chegando a hora de Koln x Elversberg: o jogo é às 11h30 (de Brasília) neste sábado (28), no RheinEnergieStadion, em Colônia, pela 11ª rodada do Campeonato Alemão 2026/27.",
-      "imagem": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/koln-x-elversberg-1575236.png?w=1200&h=630&crop=1",
-      "descobertaEm": "2026-11-28T14:18:13.118Z",
-      "reportagem": {
-        "titulo": "Koln x Elversberg hoje: onde assistir ao vivo e escalações",
-        "slug": "koln-x-elversberg-hoje-onde-assistir-ao-vivo-e-escalacoes",
-        "categoria": "Esporte",
-        "data": "2026-11-28",
-        "imagem": "https://noticiaes.com.br/imagens/lapis/koln-x-elversberg-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
-        "resumo": "Está chegando a hora de Koln x Elversberg: o jogo é às 11h30 (de Brasília) neste sábado (28), no RheinEnergieStadion, em Colônia, pela 11ª rodada do Campeonato Alemão 2026/27.",
-        "conteudo": "<p>Está chegando a hora de Koln x Elversberg: o jogo é às 11h30 (de Brasília) neste sábado (28), no RheinEnergieStadion, em Colônia, pela 11ª rodada do Campeonato Alemão 2026/27.</p><h2>As informações principais do assunto</h2><p>Quem quiser acompanhar o jogo pode assistir por GOAT (YouTube), Canal GOAT (YouTube) e OneFootball (streaming).</p><p>Koln (3-1-4-2): M. Schwäbe; J. Schmied, Jahmai Simpson-Pusey, T. Krauß; Paul Michael Junior Okon-Engstler, S. Sebulonsen, L. Maina, M. Moore, B. Sosa; M. Bülter, S. El Mala. Técnico: René Wagner.</p><p>É uma mudança em relação ao último jogo, empate em 1 a 1 com o Bayern de Munique: Bülter entra no lugar de Lochoshvili. A formação passa de 3-5-1-1 para 3-1-4-2.</p><h2>Contexto e informações complementares</h2><p>Elversberg (4-2-3-1): N. Kristof; J. Gyamerah, L. Pinckert, M. Rohr, L. Günther; F. Keidel, Ł. Poręba, L. Petkov, Francis-Ikechukwu Onyeka, M. Krattenmacher; D. Mokwa. Técnico: V. Wagner.</p><p>É uma mudança em relação ao último jogo, derrota por 1 a 0 para o SC Freiburg: Krattenmacher entra no lugar de William Cole Campbell. A formação é a mesma, 4-2-3-1.</p><p>O Koln está em 14º lugar, com 10 pontos. A equipe vem de um empate em 1 a 1 com o Bayern de Munique. Nos últimos cinco jogos da competição, são três empates e duas derrotas.</p><p>Do outro lado, o Elversberg entra em campo como 9º colocado, com 13 pontos. Na última partida, o time perdeu para o SC Freiburg por 1 a 0. O time acumula duas vitórias e três derrotas nos últimos cinco jogos da competição.</p><p>Matéria produzida automaticamente com dados da partida.</p><p>Holstein Kiel x Kaiserslautern hoje: onde assistir ao vivo e escalações</p><p>Hamburgo x Bayern de Munique: onde assistir ao vivo, horário e escalações</p><p>Encontro entre Hamburgo e Bayern de Munique acontece neste sábado (28)</p><p>Paderborn x Schalke 04 hoje: onde assistir ao vivo e escalações</p><p>Mainz 05 x Union Berlin hoje: onde assistir ao vivo e escalações</p><p>Dynamo Dresden sai atrás, vira no fim e derrota o St. Pauli</p><p>Hertha Berlin atropela o Karlsruher SC e vence por 4 a 0</p>",
-        "fonteNome": "Jovem Pan - Feed",
-        "fonteUrl": "https://jovempan.com.br/esportes/futebol/koln-x-elversberg-hoje-escalacoes-28-11-2026/",
-        "fontesAdicionais": [
-          {
-            "nome": "A Gazeta",
-            "url": "https://www.agazeta.com.br/"
-          },
-          {
-            "nome": "Folha Vitória",
-            "url": "https://www.folhavitoria.com.br/"
-          }
-        ],
-        "entidades": [],
-        "aeo": [
-          {
-            "pergunta": "O que aconteceu?",
-            "resposta": "Está chegando a hora de Koln x Elversberg: o jogo é às 11h30 (de Brasília) neste sábado (28), no RheinEnergieStadion, em Colônia, pela 11ª rodada do Campeonato Alemão 2026/27."
-          },
-          {
-            "pergunta": "Qual é o ponto principal?",
-            "resposta": "Quem quiser acompanhar o jogo pode assistir por GOAT (YouTube), Canal GOAT (YouTube) e OneFootball (streaming)."
-          },
-          {
-            "pergunta": "Quais são os dados mais importantes?",
-            "resposta": "Koln (3-1-4-2): M. Schwäbe; J. Schmied, Jahmai Simpson-Pusey, T. Krauß; Paul Michael Junior Okon-Engstler, S. Sebulonsen, L. Maina, M. Moore, B. Sosa; M. Bülter, S. El Mala. Técnico: René Wagner."
-          },
-          {
-            "pergunta": "Qual é o contexto?",
-            "resposta": "É uma mudança em relação ao último jogo, empate em 1 a 1 com o Bayern de Munique: Bülter entra no lugar de Lochoshvili. A formação passa de 3-5-1-1 para 3-1-4-2."
-          },
-          {
-            "pergunta": "Quais são os próximos desdobramentos?",
-            "resposta": "Elversberg (4-2-3-1): N. Kristof; J. Gyamerah, L. Pinckert, M. Rohr, L. Günther; F. Keidel, Ł. Poręba, L. Petkov, Francis-Ikechukwu Onyeka, M. Krattenmacher; D. Mokwa. Técnico: V. Wagner."
-          }
-        ],
-        "imagemOriginal": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/koln-x-elversberg-1575236.png?w=1200&h=630&crop=1",
-        "imagemX": "https://noticiaes.com.br/imagens/lapis/koln-x-elversberg-hoje-onde-assistir-ao-vivo-e-escalacoes.jpg",
-        "redacaoPropria": true,
-        "origemTexto": "redacao-noticia-es"
-      }
-    },
-    {
-      "id": "ce327f9863831e85",
-      "titulo": "Sob sigilo, ação penal da Lava-Jato volta ao STF",
-      "categoria": "Justiça",
-      "radar": null,
-      "fonteNome": "Veja",
-      "urlFonte": "https://veja.abril.com.br/brasil/sob-sigilo-acao-penal-da-lava-jato-volta-ao-stf/",
-      "dataFonte": "2026-11-28T15:01:44.000Z",
-      "resumoFonte": "Processo contra Romero Jucá e Sérgio Machado voltou à Corte após anos na primeira instância",
-      "imagem": "https://veja.abril.com.br/wp-content/uploads/2026/11/55518667279_9d624ca727_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "descobertaEm": "2026-11-28T15:18:13.591Z"
     }
   ],
-  "reapuradoEm": "2026-11-28T16:49:23.758Z",
+  "reapuradoEm": "2026-11-28T17:49:00.854Z",
   "diagnosticoReapuracao": {
-    "produzidas": 14,
+    "produzidas": 16,
     "jaProntas": 0,
-    "incompletas": 11,
+    "incompletas": 8,
     "falhas": 0
   },
   "diagnosticoLapis": {
-    "geradas": 14,
+    "geradas": 16,
     "reaproveitadas": 0,
-    "puladas": 11,
+    "puladas": 8,
     "semFoto": 0,
     "falhas": 0
   },
-  "lapisEm": "2026-11-28T16:50:31.285Z"
+  "lapisEm": "2026-11-28T17:50:16.824Z"
 }
